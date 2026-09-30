@@ -1,0 +1,190 @@
+schema_version: '1.0'
+work_id: emerald-tablet-1541-la-ja
+title_ja: エメラルド板
+title_la: Tabula Smaragdina
+attribution: ヘルメス・トリスメギストスに帰される。歴史上の著者は未詳。
+edition_status: 1541年刊本に基づく全訳・注記付き読書版。専門家による批判校訂版ではない。
+source_language: la
+target_language: ja
+alignment_unit: 見出し・序文・意味のまとまりによる本文13単位
+scope:
+  included: 1541年版の印刷363頁に載る『Tabula Smaragdina』の見出し、発見伝説の序文、本文のすべて。
+  excluded: 同巻所収の他の錬金術文献、および次の印刷364頁以降に始まるホルトゥラヌスの注解。柱、丁付、折丁記号、次頁の予告語は本文に含めない。
+  clarification: 短篇『エメラルド板』の全訳であり、論集 De alchemia 全巻の訳ではない。本文13単位の番号・区分は読書版のために付したもので、1541年版にはない。
+transcription_policy: 1541年の印刷363頁を画像から翻刻。略号は展開し、長い s は s、合字は通常の文字、子音の u は v に整理。& は et、語中の i/j は読みやすい形に統一。大文字の使い方・句読点・分かち書き・改行を整理した。語を補訂した批判版ではなく、meditatione、telesmi、Hic
+  など底本の読みを保持した。
+translation_policy: 底本から新たに作成した日本語訳。象徴語・多義語を安易に現代の科学概念へ置き換えない。補足説明は訳文と分け、各単位の訳注に記す。歴史的な錬金術文献として読むための版で、実験や治療の手引きではない。
+id_policy: emerald-title、emerald-preface、emerald-001〜emerald-013を固定IDとする。HTMLの対応単位、アンカー、内蔵JSON、YAMLで共通。
+sources:
+- id: petreius-1541-commons
+  title: In hoc volumine De alchemia continentur haec …
+  publisher: Iohannes Petreius
+  place: Norimbergae（ニュルンベルク）
+  year: 1541
+  work_pages: 印刷363頁。後続364頁からホルトゥラヌス注解。
+  pdf_pages: Commons掲載の397頁PDFで383頁目。標題紙は3頁目。
+  url: https://commons.wikimedia.org/wiki/File:In_hoc_volumine_De_alchemia_continentur_haec,_Gebri...De_inuestigatio(n)e_p_..._(IA_inhocvoluminede00garlgoog).pdf
+  pdf_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf
+  rights: 1541年刊本。Commonsでは Public Domain Mark 1.0、および著作者の死後100年を超え米国でも保護期間満了として表示。現代の翻訳文は転用していない。
+  rights_url: https://creativecommons.org/publicdomain/mark/1.0/
+  retrieved_date: '2026-09-30'
+  pdf_sha256: 74b90f08b5e8b326aafc311f6d46094c3f8cfe21e113773964426187efe0a741
+statistics:
+  body_segments: 13
+  preface_segments: 1
+  title_segments: 1
+  total_aligned_units: 15
+segments:
+- id: emerald-title
+  kind: title
+  source_language: la-Grek
+  source_la: Tabula Smaragdina Hermetis Trismegisti περὶ χημείας. Incerto interprete.
+  translation_ja: ヘルメス・トリスメギストスのエメラルド板――錬金術について。訳者不詳。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes:
+  - 表題中のギリシア語 περὶ χημείας は「錬金術について」。Incerto interprete は、このラテン語訳の訳者が不詳であるという底本の表示。
+- id: emerald-preface
+  kind: preface
+  source_language: la
+  source_la: Verba Secretorum Hermetis, quae scripta erant in tabula Smaragdi, inter manus eius inventa,
+    in obscuro antro, in quo humatum corpus eius repertum est.
+  translation_ja: ヘルメスの秘義の言葉。それらはエメラルドの板に記されていた。その板は、彼の埋葬された身体が見つかった暗い洞穴で、彼の両手の間から発見された。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes:
+  - これは底本が伝える発見伝説であり、実在する古代の遺物の発掘報告として扱うものではない。
+- id: emerald-001
+  kind: body
+  source_language: la
+  source_la: Verum sine mendacio, certum et verissimum.
+  translation_ja: 偽りのない真実であり、確実で、このうえなく真実である。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes: []
+- id: emerald-002
+  kind: body
+  source_language: la
+  source_la: Quod est inferius, est sicut quod est superius. Et quod est superius, est sicut quod est
+    inferius, ad perpetranda miracula rei unius.
+  translation_ja: 下にあるものは、上にあるもののようである。そして上にあるものは、下にあるもののようである。それは、一なるものの驚くべき業を成し遂げるためである。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes:
+  - res una は「一なるもの」。何を指すかを、この短い本文だけから特定の物質や現代科学上の概念に限定しない。
+- id: emerald-003
+  kind: body
+  source_language: la
+  source_la: Et sicut omnes res fuerunt ab uno, meditatione unius. Sic omnes res natae fuerunt ab hac
+    una re, adaptatione.
+  translation_ja: そして、すべてのものが、一なるものから、一なるものの思考によって生じたように、すべてのものは、この一なるものから、適合によって生まれた。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes:
+  - 底本の語は meditatione（思考・思索によって）。mediatione（媒介によって）へは改めない。adaptatione は「適合・調整によって」の意で、ここでは「適合」とした。
+- id: emerald-004
+  kind: body
+  source_language: la
+  source_la: Pater eius est Sol, mater eius Luna. Portavit illud ventus in ventre suo. Nutrix eius terra
+    est.
+  translation_ja: その父は太陽、その母は月である。風はそれを自らの腹の内に運んだ。その乳母は大地である。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes:
+  - 太陽・月・風・大地は原文の象徴語として訳した。特定の金属や化学物質への置き換えはしない。
+- id: emerald-005
+  kind: body
+  source_language: la
+  source_la: Pater omnis telesmi totius mundi est hic.
+  translation_ja: 全世界のあらゆるテレスムの父は、これである。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes:
+  - telesmi（テレスムの）は解釈の難しい語。「完成」「完成をもたらす働き」などと理解されるが、単一の意味に確定せず音写を残した。
+- id: emerald-006
+  kind: body
+  source_language: la
+  source_la: Vis eius integra est, si versa fuerit in terram.
+  translation_ja: その力は、土へと変えられるならば、完全なものとなる。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes:
+  - terra は前の単位では宇宙的な「大地」、ここでは変成の行き先である「土」と訳した。versa の対象は文面上必ずしも明瞭ではないため、訳でも特定の物質名を補っていない。
+- id: emerald-007
+  kind: body
+  source_language: la
+  source_la: Separabis terram ab igne, subtile a spisso, suaviter cum magno ingenio.
+  translation_ja: 土を火から、精妙なものを粗厚なものから分かちなさい。穏やかに、深い工夫をもって。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes:
+  - subtile / spissum は精妙なものと、厚く密なものとの対。ingenium は知恵・才知・巧みさも含み、ここでは作業上の「工夫」と訳した。
+- id: emerald-008
+  kind: body
+  source_language: la
+  source_la: Ascendit a terra in coelum, iterumque descendit in terram, et recipit vim superiorum et inferiorum.
+    Sic habebis gloriam totius mundi. Ideo fugiet a te omnis obscuritas.
+  translation_ja: それは地から天へと昇り、ふたたび地へと降り、上なるものと下なるものの力を受け取る。こうして、あなたは全世界の栄光を得るだろう。それゆえ、あらゆる闇はあなたから逃れ去るだろう。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes:
+  - Ascendit / descendit / recipit は底本では三人称。「昇れ、降れ」とする命令形への読み替えは行わない。
+- id: emerald-009
+  kind: body
+  source_language: la
+  source_la: Hic est totius fortitudinis fortitudo fortis, quia vincet omnem rem subtilem, omnemque solidam
+    penetrabit.
+  translation_ja: これは、あらゆる力のうちでも強き力である。あらゆる精妙なものに打ち勝ち、あらゆる固いものを貫くからである。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes: []
+- id: emerald-010
+  kind: body
+  source_language: la
+  source_la: Sic mundus creatus est.
+  translation_ja: このようにして、世界は創造された。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes: []
+- id: emerald-011
+  kind: body
+  source_language: la
+  source_la: Hinc erunt adaptationes mirabiles, quarum modus hic est.
+  translation_ja: ここから、驚くべき適合が生じるだろう。その方法は、ここにある。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes:
+  - adaptationes は 003 の adaptatione と同じ語に由来する。配合・調整・応用などの含みがある。hic は「ここに」または「このように」とも読める。
+- id: emerald-012
+  kind: body
+  source_language: la
+  source_la: Itaque vocatus sum Hermes Trismegistus, habens tres partes philosophiae totius mundi.
+  translation_ja: それゆえ私は、ヘルメス・トリスメギストスと呼ばれた。全世界の哲学の三つの部分を備えているからである。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes:
+  - Trismegistus は「三倍に偉大な者」の意。本文は「哲学の三つの部分」が何であるかを列挙していない。実在の特定個人による自署であると断定しない。
+- id: emerald-013
+  kind: body
+  source_language: la
+  source_la: Completum est, quod dixi de operatione Solis.
+  translation_ja: 太陽の働きについて、私が述べることはこれで尽きている。
+  source_printed_page: 363
+  source_pdf_page: 383
+  source_url: https://upload.wikimedia.org/wikipedia/commons/1/1e/In_hoc_volumine_De_alchemia_continentur_haec%2C_Gebri...De_inuestigatio%28n%29e_p_..._%28IA_inhocvoluminede00garlgoog%29.pdf#page=383
+  notes:
+  - operatio は働き・作用・作業。「太陽の働き」とし、本文にない実験手順を補わない。
