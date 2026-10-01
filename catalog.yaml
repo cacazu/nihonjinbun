@@ -84,6 +84,10 @@ works:
   coverage_note: 1624年英訳版のフラメル本編全9章と関連前付、150原本頁、186対訳単位、図版12点を埋め込み。同冊の別著作Artephius・Pontanusは対象外。英語経由・偽託帰属を明示。
   source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
   sha256: a899c9b46233112d6f2ab5b4a563473b77028d092cfd314f7687dc38c2dd67f6
-in_progress_not_included:
-- Amphitheatrum sapientiae aeternae
+- file: translations/alchemy/amphitheatrum-sapientiae-aeternae-1609-la-ja.yaml
+  title: 永遠の叡智の円形劇場（1609年版）
+  coverage_note: 原刊全文を対象とする2598対訳単位。序論・注解とも365節の並列本文を収録、全299本文画像・297固有頁、原刊図14点。銅版60単位と本文等11単位に判読・補読・解釈上の留保がある。
+  source_and_rights: Public Domain Markの1609年底本。原文、出典URL、並列本文の識別方針と留保はYAMLに明示。
+  sha256: 4e84171bb90d53cfde1a8cb73f7115a4f1333ff63a7f718e5dba0ce2f7cec8b7
+in_progress_not_included: []
 packaging_note: 本リポジトリは対訳YAMLを収録する。YAML内の図版・底本PDF・制作時分割データへの相対参照は由来の記録であり、それらのファイルやHTMLを本リポジトリへ同梱したことを意味しない。底本には各資料の公開出典URLからアクセスする。
