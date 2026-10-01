@@ -1,0 +1,85 @@
+schema_version: '1.0'
+title: 原文・日本語対訳データ集
+updated: '2026-10-01'
+format: UTF-8 YAML
+description: 原文と日本語訳を固定IDで対応付けた翻訳データ。章・出典頁・注記・未解決事項を保持。HTMLは別の閲覧用表現。
+editorial_status: AIによる翻訳・照合を含む。専門家による校訂版ではない。原文判読や歴史的編者の省略等に由来する留保は各ファイルに明示。
+medical_and_chemical_note: 歴史資料の記述を現代の医学的助言や安全な化学実験手順として利用しない。
+license_policy: 原典の保護期間満了と現代翻刻の利用条件を区別する。各ファイルの出典・権利表示を保持し、全体に一律のライセンスを追加していない。
+works:
+- file: translations/leonardo/leonardo-windsor-b-it-ja.yaml
+  title: レオナルド・ダ・ヴィンチ ウィンザー解剖手稿 B 原文・日本語対訳
+  work_id: leonardo-windsor-anatomy-b
+  coverage_note: 84面を収録。29rの判読未確定部分と9vの図符号に未完箇所がある。
+  sha256: 9223d78a4ae6753650341d0941c3df7629c285d9d40236caf58c4dd49ef34ae6
+  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
+- file: translations/leonardo/leonardo-frammenti-it-ja.yaml
+  title: レオナルド・ダ・ヴィンチ 文学的・哲学的断片（ソルミ編1908年版）原文・日本語対訳
+  work_id: leonardo-frammenti-solmi-1908
+  coverage_note: ソルミ編1908年版の本文全単位。難読箇所の注記あり。
+  sha256: 01e6790fba3f7e5bd0535c6d180604e79f0619592f6bd356639c4808e5f60da3
+  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
+- file: translations/leonardo/leonardo-pittura-it-ja.yaml
+  title: レオナルド・ダ・ヴィンチ 絵画論（1890年版）イタリア語原文・日本語対訳
+  work_id: leonardo-pittura-1890
+  coverage_note: 1890年版の本文8部935章。編者注は原文別置で日本語訳未完。Wikisource由来の編集要素と日本語訳はCC BY-SA 4.0。
+  sha256: 3177867b85fa4359244a4b06f87b2bb9cb978a776824a579f8a15cd0c24c2f90
+  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
+- file: translations/alchemy/emerald-tablet-la-ja.yaml
+  title: エメラルド板
+  work_id: emerald-tablet-1541-la-ja
+  coverage_note: 1541年版De alchemia印刷363頁の短篇本文・標題・伝承序文。全巻とは別作品。
+  sha256: 978e86639f4ea68e81d8cba7ab0cf92e38686d02279267d7c815b699b34eb321
+  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
+- file: translations/alchemy/mutus-liber-ja.yaml
+  title: 沈黙の書
+  work_id: mutus-liber-1677
+  coverage_note: 1677年版の全15図版に対応する文字資料と読者への序・刊行特許等。
+  sha256: 130899a074ef7a8a109337769b0105a67d6edbd5fba3d69d17f95ade1b45b2fa
+  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
+- file: translations/alchemy/turba-philosophorum-en-ja.yaml
+  title: 哲学者たちの集会
+  work_id: turba-philosophorum-waite-1896-en-ja
+  coverage_note: Waite1896年英訳からの重訳。全72発言・序書簡・結語。Waiteの編集序文・脚注・索引は対象外。
+  sha256: 69a09e965fb84d411f61be41b5d72e10a8f4fd7ec22efd65b70d70ef6d15075b
+  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
+- file: translations/alchemy/zosimos-fr-ja.yaml
+  title: ゾシモス作品集 第III部 1888年版 フランス語旧訳・日本語対訳
+  work_id: zosimos-caag-part-iii-1888-fr-ja
+  coverage_note: 1888年フランス語旧訳からの重訳。57篇。旧訳が省略したギリシア語本文は未復元。
+  sha256: dcb7d69fe9e707b158c2ad12804ec71b25ab7e34fba385c3dde8442008ae2f7d
+  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
+- file: translations/alchemy/rosarium-philosophorum-ja.yaml
+  title: 哲学者たちの薔薇園
+  work_id: rosarium-philosophorum-1550
+  coverage_note: 1550年版の全192印刷頁。439対訳単位。標題の一部略号の読みは留保。
+  sha256: 599f1f0365cd84fc5a10e5cae98d80f87ad8c9823552ad32c87efcc9d98ba793
+  source_and_rights: https://doi.org/10.3931/e-rara-34454 — Public Domain Mark。詳細はYAML内に保持。
+- file: translations/alchemy/summa-perfectionis-la-ja.yaml
+  title: 完全性の大全 ― 全二巻
+  work_id: summa-perfectionis-1541-la-ja
+  coverage_note: 1541年De alchemia所収の全2巻・100章、427対訳単位。全巻版と同一本文の単独抽出版。原刊57–58頁は頁付けの飛び。
+  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
+  sha256: cd1a5f151c3c13b3ecf5c48a4e9518a8f6dec82121aedc4f61ecfebc2a4154d4
+- file: translations/alchemy/de-alchemia-1541-la-ja.yaml
+  title: 錬金術について ― 1541年論集・全巻
+  work_id: de-alchemia-1541-la-ja
+  coverage_note: 1541年論集全巻。標題・序文・全12頁の目次・全著作・印刷者告知と書目・正誤表、1457対訳単位。Summa・エメラルド板の単独版と収録範囲が重複。
+  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
+  sha256: 12b5a5552119747315e61966be8cd815a20ccb77e65ee646b4d8263a21f62e49
+- file: translations/alchemy/atalanta-fugiens-ja.yaml
+  title: 逃げるアタランタ
+  work_id: null
+  coverage_note: 1618年版全50篇、序文・献辞・楽譜の文字・巻末索引と訂正。917対訳単位。声部で反復する二行詩は一度対訳し、反復・音節配置・音符は原図参照。難読等12単位に留保。
+  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
+  sha256: 9f74ca91a63060d187531d6a9eee2ce775ac293c07341068f79c98aa67b79cb4
+- file: translations/alchemy/theatrum-chemicum-britannicum-en-ja.yaml
+  title: 英国錬金術劇場
+  work_id: theatrum-chemicum-britannicum-1652-en-ja
+  coverage_note: 1652年初版の詩篇・序文・注解・目次・語彙表・正誤表・図中文字。1387対訳単位。主底本の欠図と損傷箇所は同年版の別個体で補完。
+  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
+  sha256: 5311debb29aff8f33328ed757e4d9c6eea9e198adb904d70ee0f5b18e8813834
+in_progress_not_included:
+- Amphitheatrum sapientiae aeternae
+- Livre des figures hiéroglyphiques
+packaging_note: 本リポジトリは対訳YAMLを収録する。YAML内の図版・底本PDF・制作時分割データへの相対参照は由来の記録であり、それらのファイルやHTMLを本リポジトリへ同梱したことを意味しない。底本には各資料の公開出典URLからアクセスする。
