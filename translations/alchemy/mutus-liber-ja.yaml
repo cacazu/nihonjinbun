@@ -1,0 +1,389 @@
+schema_version: '1.0'
+work_id: mutus-liber-1677
+title_ja: 沈黙の書
+title_original: Mutus liber
+edition_status: 注記付き日本語全訳・画像読書版
+source_languages:
+- la
+- fr
+target_language: ja
+sources:
+- title: Mutus liber
+  author_as_printed: Altus
+  place: Rupellae (La Rochelle)
+  publisher: Petrus Savouret
+  year: 1677
+  url: https://www.e-rara.ch/cgj/content/titleinfo/1350330
+  persistent_url: https://doi.org/10.3931/e-rara-4322
+  pdf_url: https://www.e-rara.ch/cgj/download/pdf/1350330
+  pdf_sha256: 1ae1c8c78ed83b7c6aee06c267560ada7050854d2c3d4df9942a164c1e6fef24
+  holding_institution: Stiftung der Werke von C.G. Jung, Zürich
+  rights: Public Domain Mark 1.0
+  retrieved_date: '2026-09-30'
+scope:
+  included: 1677年版の全15図版、標題紙の文字、読者への挨拶、図版内の語句と数列、国王の出版特許・刊記・登録・納本の記載。
+  excluded: 現代の電子化案内、製本表紙、見返し、空白頁、後世の手書き注記。
+  clarification: 文字のない図版に架空の文章や操作解説を補わない。図版番号と記号類は画像で保持する。
+transcription_policy: 原画像を照合し、長いsをsへ、行末分綴と改行を通常の語・文へ正規化。大文字・句読点は読みやすく一部整理。古綴りはおおむね保持。本文単位の区切りは編者による。
+translation_policy: 歴史的な用語と宗教的表現を保った日本語訳。象徴を化学物質・実験手順へ置換しない。専門家による批判校訂版ではない。
+id_policy: mutus- 接頭辞に内容単位名を付けた固定ID。図版はplate-01〜plate-15。
+statistics:
+  plates: 15
+  scanned_sheets: 17
+  aligned_text_units: 23
+images:
+- id: mutus-image-08
+  source_pdf_page: 8
+  plate_number: 1
+  filename: source-page-08.jpg
+  width: 1317
+  height: 1915
+  sha256: 5e65dd23432fe412b540cc1a1cf928e7317b9de25425751721a397d29755c9e8
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=8
+  description_ja: 図版1。1677年版の紙面全体。
+- id: mutus-image-12
+  source_pdf_page: 12
+  plate_number: 2
+  filename: source-page-12.jpg
+  width: 1317
+  height: 1915
+  sha256: ec9639d0af61bf6849c8a3fb789ff4317006d0b9831d25fcf81c64914036d298
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=12
+  description_ja: 図版2。1677年版の紙面全体。
+- id: mutus-image-14
+  source_pdf_page: 14
+  plate_number: 3
+  filename: source-page-14.jpg
+  width: 1317
+  height: 1915
+  sha256: 785435381dfb02e3ccbe41573f75c4ee06bd5fb42519b8e04b47f66bd2d75586
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=14
+  description_ja: 図版3。1677年版の紙面全体。
+- id: mutus-image-16
+  source_pdf_page: 16
+  plate_number: 4
+  filename: source-page-16.jpg
+  width: 1317
+  height: 1915
+  sha256: 70a097970ef35d50a92348c787029eaf1ff85fd361d300eadd3276d2863ef619
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=16
+  description_ja: 図版4。1677年版の紙面全体。
+- id: mutus-image-18
+  source_pdf_page: 18
+  plate_number: 5
+  filename: source-page-18.jpg
+  width: 1317
+  height: 1915
+  sha256: a57b04b62a0a3fd718f273b8c7dff3d0ef66b955b366438d1c4187888fb469e2
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=18
+  description_ja: 図版5。1677年版の紙面全体。
+- id: mutus-image-20
+  source_pdf_page: 20
+  plate_number: 6
+  filename: source-page-20.jpg
+  width: 1317
+  height: 1915
+  sha256: 6ea175512b1d4053b5000edfb7266798c71543c6cf42898f0824cda47f6905c9
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=20
+  description_ja: 図版6。1677年版の紙面全体。
+- id: mutus-image-22
+  source_pdf_page: 22
+  plate_number: 7
+  filename: source-page-22.jpg
+  width: 1317
+  height: 1915
+  sha256: 7db815f17e52c80885f7ad066fab8816adbfaca030d0affe5865ad2c94609808
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=22
+  description_ja: 図版7。1677年版の紙面全体。
+- id: mutus-image-24
+  source_pdf_page: 24
+  plate_number: 8
+  filename: source-page-24.jpg
+  width: 1317
+  height: 1915
+  sha256: 35c707c7a75d5cc2ced779bfdcb407f2bccb7b9beb5c97b590bfa2a23d71ed92
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=24
+  description_ja: 図版8。1677年版の紙面全体。
+- id: mutus-image-26
+  source_pdf_page: 26
+  plate_number: 9
+  filename: source-page-26.jpg
+  width: 1317
+  height: 1915
+  sha256: ef915141cf0461aee0f87e18735d71a697cc66c295a727301bc862782d3166e5
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=26
+  description_ja: 図版9。1677年版の紙面全体。
+- id: mutus-image-28
+  source_pdf_page: 28
+  plate_number: 10
+  filename: source-page-28.jpg
+  width: 1317
+  height: 1915
+  sha256: 6d307686cedc76052cacb5b612ace2fb9a2af185785c5f8e1c654874c390b790
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=28
+  description_ja: 図版10。1677年版の紙面全体。
+- id: mutus-image-30
+  source_pdf_page: 30
+  plate_number: 11
+  filename: source-page-30.jpg
+  width: 1317
+  height: 1915
+  sha256: 605e5f02cde12324001f7034bee883b34ea65910e57c193dc2b03ce82f87076f
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=30
+  description_ja: 図版11。1677年版の紙面全体。
+- id: mutus-image-32
+  source_pdf_page: 32
+  plate_number: 12
+  filename: source-page-32.jpg
+  width: 1317
+  height: 1915
+  sha256: 551b328b453c7c3e54564c019fd631539cc445bd0fcab0cc7c03434e4aab6f59
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=32
+  description_ja: 図版12。1677年版の紙面全体。
+- id: mutus-image-34
+  source_pdf_page: 34
+  plate_number: 13
+  filename: source-page-34.jpg
+  width: 1317
+  height: 1915
+  sha256: c236d707be56177fcb8eaa22420e54b68d629da0b9ea1e15c234d71e815274d4
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=34
+  description_ja: 図版13。1677年版の紙面全体。
+- id: mutus-image-36
+  source_pdf_page: 36
+  plate_number: 14
+  filename: source-page-36.jpg
+  width: 1317
+  height: 1915
+  sha256: a898c52df3bcf67ab99723f834dff159f316e57c20f36bf2e19594c6530fdbfb
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=36
+  description_ja: 図版14。1677年版の紙面全体。
+- id: mutus-image-38
+  source_pdf_page: 38
+  plate_number: 15
+  filename: source-page-38.jpg
+  width: 1317
+  height: 1915
+  sha256: b77ec69e07cb12aa92c537cab5ae360f25beb62222663325215287142e0080dd
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=38
+  description_ja: 図版15。1677年版の紙面全体。
+- id: mutus-image-10
+  source_pdf_page: 10
+  plate_number: null
+  filename: source-page-10.jpg
+  width: 1322
+  height: 1917
+  sha256: 69fdb42ebb7319e634071ae1c0d5b6263ad6635042c838a8badf6eb147300917
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=10
+  description_ja: 「読者へ」の原紙面。
+- id: mutus-image-40
+  source_pdf_page: 40
+  plate_number: null
+  filename: source-page-40.jpg
+  width: 1317
+  height: 1915
+  sha256: 37ad0e243eb12077e63745b9a41f8d2741d811f9cd40a347916277532dcdeba8
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  description_ja: 国王の出版特許と刊記の原紙面。
+units:
+- id: mutus-title
+  source_pdf_page: 8
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=8
+  source_language: la
+  source_text: Mutus liber, in quo tamen tota Philosophia hermetica, figuris hieroglyphicis depingitur, ter optimo maximo
+    Deo misericordi consecratus, solisque filiis artis dedicatus, authore cujus nomen est Altus.
+  translation_ja: 沈黙の書。されど、その中にはヘルメスの哲学のすべてが象形の図によって描かれる。三重に至善・至大なる慈悲深い神に聖別され、この術の子らだけに献じられたもの。著者の名はアルトゥス。
+  notes:
+  - 「この術の子ら」は錬金術の道を学ぶ者たちを指す伝統的な表現。Altus は底本に示された著者名であり、ここでは実名の同定を行わない。
+  - ter は「三たび・三重に」。ここでは神への賛称にかかるものとして訳した。
+- id: mutus-references
+  source_pdf_page: 8
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=8
+  source_language: la
+  source_text: 21.11.82. Neg. / 93.82.72. Neg. / 82.81.33. Tued.
+  translation_ja: 創世記28章11・12節／創世記27章28・39節／申命記33章18・28節
+  notes:
+  - 底本の数字と書名略記は右から左へ読むように並べられている。原文欄は目に見える左から右の順序を活字化し、日本語欄は逆向きに読んだ聖書参照を示す。聖書本文の引用は底本にないため補っていない。
+- id: mutus-imprint
+  source_pdf_page: 8
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=8
+  source_language: la
+  source_text: Rupellae, apud Petrum Savouret, cum Privilegio Regis. M.DC.LXXVII.
+  translation_ja: ラ・ロシェル、ピエール・サヴレのもとにて。国王の出版特許を得て。1677年。
+  notes: []
+- id: mutus-reader-heading
+  source_pdf_page: 10
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=10
+  source_language: fr
+  source_text: AU LECTEUR
+  translation_ja: 読者へ
+  notes: []
+- id: mutus-reader-01
+  source_pdf_page: 10
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=10
+  source_language: fr
+  source_text: 'Quoy-que celuy qui a fait les frais de l’Impression de ce Livre, n’ait voulu mettre à la teste ni Lettre dedicatoire,
+    ni Préface, pour des raisons qu’il a pardevers luy; j’ay cru, pourtant, qu’il ne trouveroit pas mauvais que je vous disse,
+    que cet Ouvrage est admirable en cecy: C’est qu’encore qu’il soit intitulé, Livre Muët; néanmoins toutes les Nations du
+    monde, les Hébreux, les Grecs, les Latins, les François, les Italiens, les Espagnols, les Allemans, &c. peuvent le lire
+    & l’entendre.'
+  translation_ja: この書の印刷費を出した人は、自分なりの理由から、巻頭に献辞も序文も置こうとはしませんでした。それでも、私が次のことを皆さんにお伝えするのを、その人も悪くは思わないだろうと考えました。この作品には、驚くべき点があります。「沈黙の書」と題されているにもかかわらず、世界のあらゆる国の人々、ヘブライ人、ギリシア人、ラテン人、フランス人、イタリア人、スペイン人、ドイツ人などが、これを読み、理解できるのです。
+  notes: []
+- id: mutus-reader-02
+  source_pdf_page: 10
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=10
+  source_language: fr
+  source_text: Aussi est-ce le plus beau Livre qui ait jamais esté imprimé sur ce sujet, à ce que disent les Savans, y ayant-là
+    des choses qui n’ont jamais esté dites par personne. Il ne faut qu’estre un véritable Enfant de l’Art, pour le connoître
+    d’abord. Voilà (cher Lecteur) ce que j’ay cru devoir vous dire.
+  translation_ja: また、学識ある人々がいうところでは、これはこの主題についてこれまで印刷された最も美しい書物です。そこには、誰もかつて語ったことのない事柄があるからです。この術の真の子でさえあれば、それはすぐにわかるでしょう。親愛なる読者よ、以上が、私からお伝えしておくべきだと考えたことです。
+  notes: []
+- id: mutus-plate13-numerals
+  source_pdf_page: 34
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=34
+  source_language: und
+  source_text: 100 · 1000 / 10000 · &c. [bis]
+  translation_ja: 100、1000、10000、等々。〔左右に反復〕
+  notes:
+  - 数列は下段の二人の人物のそばに一組ずつある。&c. は et cetera（等々）の略。[bis] と訳文の〔左右に反復〕は配置を示す編者の補足。数値の象徴的意味は確定しない。
+- id: mutus-plate14-numerals
+  source_pdf_page: 36
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=36
+  source_language: la
+  source_text: VI · II · X
+  translation_ja: 六・二・十
+  notes:
+  - 中段の人物の近くにあるローマ数字。物質名・配合比などへの読み替えは行わない。
+- id: mutus-plate14-motto
+  source_pdf_page: 36
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=36
+  source_language: la
+  source_text: Ora. Lege Lege Lege Relege labora et Invenies.
+  translation_ja: 祈れ。読め、読め、読め、読み返せ。働け、そうすれば見いだすだろう。
+  notes:
+  - 読みやすく句点を補った。labora は「働け・努力せよ」の意。具体的な操作方法は言葉としては記されていない。
+- id: mutus-plate15-motto
+  source_pdf_page: 38
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=38
+  source_language: la
+  source_text: Oculatus abis. [bis]
+  translation_ja: 見る目を得て、あなたは去る。〔左右に反復〕
+  notes:
+  - Oculatus は「目を持つ・よく見える」の意。二人の口元から伸びる帯に同じ句がある。[bis] と訳文の〔左右に反復〕は配置を示す編者の補足。
+- id: mutus-privilege-heading
+  source_pdf_page: 40
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  source_language: fr
+  source_text: Privilège du Roy.
+  translation_ja: 国王の出版特許
+  notes: []
+- id: mutus-privilege-01
+  source_pdf_page: 40
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  source_language: fr
+  source_text: 'LOUIS PAR LA GRACE DE DIEU ROY DE FRANCE ET DE NAVARRE: A nos amez & feaux Conseillers les Gens tenans nos
+    Cours de Parlement, Maîtres des Requêtes ordinaires de nôtre Hôtel, grand Conseil, Prévost de Paris, Baillifs, Seneschaux,
+    Prevosts, leurs Lieutenans, & autres Juges qu’il appartiendra; SALUT.'
+  translation_ja: 神の恩寵によりフランスおよびナヴァールの王たるルイより、わが愛する忠実な顧問、高等法院の構成員、王室の通常請願審査官、大評議会、パリの奉行、バイイ、セネシャル、各地の奉行、その代理、および関係するその他の裁判官に、挨拶する。
+  notes:
+  - 当時の司法官職名の一部は音写した。Parlement は近代的な議会ではなく高等法院。
+- id: mutus-privilege-02
+  source_pdf_page: 40
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  source_language: fr
+  source_text: 'Nostre bien amé Jacob Saulat, Sieur des Marez, Nous a fait remontrer qu’il luy est tombé entre les mains un
+    Livre de la haute Chimie d’Hermes, intitulé: Mutus Liber, in quo tamen tota Philosophia Hermetica Figuris hierogliphicis
+    depingitur, ter optimo, maximo Deo misericordi consecratus, solisque Filiis Artis dedicatus, Authore cujus nomen est Altus;
+    lequel il desireroit donner au Public. Mais il craint qu’aprés que luy, ou tel Libraire ou Imprimeur qu’il aura choisi,
+    en aura fait la dépense, d’autres n’entreprennent de l’imprimer, s’il n’a sur ce nos Lettres nécessaires.'
+  translation_ja: わが愛するジャコブ・ソーラ、デ・マレ領主は、ヘルメスの高次の錬金術に関する一冊が自分の手に入ったと申し立てた。その表題は「沈黙の書。されど、その中にはヘルメスの哲学のすべてが象形の図によって描かれる。三重に至善・至大なる慈悲深い神に聖別され、この術の子らだけに献じられたもの。著者の名はアルトゥス」であり、彼はそれを公にしたいと望んでいる。しかし、彼自身、または彼の選んだ書籍商か印刷業者が費用を負担した後、必要な王の証書を得ていなければ、他人がその印刷に着手するのではないかと恐れている。
+  notes: []
+- id: mutus-privilege-03
+  source_pdf_page: 40
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  source_language: fr
+  source_text: A CES CAUSES, voulant gratifier ledit Exposant, Nous luy avons permis & accordé, permettons & accordons par
+    ces Présentes, de faire imprimer ledit Livre en telle manière que bon luy semblera, pendant le temps & espace de dix années
+    consécutives, à commencer du jour qu’il sera achevé d’imprimer pour la première fois; iceluy vendre & debiter par tout
+    nostre Royaume.
+  translation_ja: これらの理由により、前記申立人に恩恵を与えようと望み、われらは次のことを許可し、認めてきたのであり、この証書をもって許可し、認める。すなわち、彼が適当と考える方法で前記書物を印刷させ、最初の印刷を完了した日から連続する十年間、これをわが王国全域で販売し、流通させることである。
+  notes: []
+- id: mutus-privilege-04
+  source_pdf_page: 40
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  source_language: fr
+  source_text: Faisons défenses à tous Libraires, Imprimeurs & autres, d’imprimer, faire imprimer, vendre ni debiter ledit
+    Livre, sous prétexte d’augmentation, correction, changement de titre, d’impression étrangère, ni autrement en quelque
+    sorte & manière que ce soit, ni mesme en extraire quelque chose, sans le consentement de l’Exposant ou ses ayans cause,
+    sur peine de confiscation des Exemplaires contrefaits, de deux mille livres d’amende, & de tous dépens, dommages & interests;
+    Et en cas de contravention, Nous nous en réservons la connoissance & à nostre Conseil.
+  translation_ja: すべての書籍商、印刷業者その他の者に対し、増補、訂正、改題、外国での印刷を口実として、またはその他いかなる形や方法によっても、申立人またはその権利承継人の同意なく、前記書物を印刷し、印刷させ、販売し、流通させることを禁ずる。一部を抜き出すことも同様に禁ずる。違反した場合は、偽造した部数の没収、二千リーヴルの罰金、ならびにすべての訴訟費用と損害賠償を科する。違反事件の審理は、われらおよびわが評議会に留保する。
+  notes: []
+- id: mutus-privilege-05
+  source_pdf_page: 40
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  source_language: fr
+  source_text: 'A la charge d’en mettre deux exemplaires en nostre Bibliothèque publique, un en nostre Cabinet des Livres
+    de nostre Château du Louvre, & un en celle de nostre très-cher & feal le Sieur d’Aligre, Chancelier & Garde des Sceaux
+    de France, & de faire registrer ces Présentes és Registres de la Communauté des Libraires de Paris, à peine de nullité
+    des Présentes:'
+  translation_ja: ただし、二部をわが公立図書館に、一部をルーヴル城のわが蔵書室に、さらに一部を、わが親愛かつ忠実なるフランス大法官・国璽尚書ダリグル殿の図書館に納め、この証書をパリ書籍商組合の帳簿に登録させなければならない。これを怠れば、この証書は無効となる。
+  notes: []
+- id: mutus-privilege-06
+  source_pdf_page: 40
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  source_language: fr
+  source_text: Du contenu desquelles vous mandons & enjoignons faire jouir l’Exposant & ses ayans cause, pleinement & paisiblement,
+    cessant & faisant cesser tous troubles & empêchemens au contraire. Voulons qu’en mettant au commencement ou à la fin desdits
+    Livres, l’extrait des Présentes, elles soient tenues pour deuëment signifiées; & qu’aux copies collationnées par un de
+    nos amez & feaux Conseillers & Secrétaires, foy soit ajoutée comme à l’Original.
+  translation_ja: この証書に定めた利益を、申立人およびその権利承継人が十分かつ平穏に享受できるよう、各位に命令し、申しつける。これに反する妨害や障害は、やめ、またやめさせなければならない。前記書物の巻頭または巻末にこの証書の抄録を置くことにより、適法な通知がなされたものとみなすことを望む。また、わが愛する忠実な顧問・秘書官の一人が照合した写しには、原本と同じ信を置くものとする。
+  notes: []
+- id: mutus-privilege-07
+  source_pdf_page: 40
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  source_language: fr
+  source_text: 'Mandons au premier nostre Huissier ou Sergent sur ce requis, faire pour l’exécution des Présentes, toutes
+    significations, défenses, saisies & autres Actes requis & nécessaires, sans demander autre permission; nonobstant Clameur
+    de Haro, Chartre Normande, ou autres Lettres à ce contraires: Car tel est nostre plaisir.'
+  translation_ja: この件につき要請を受ける最初のわが執行官または役吏に命ずる。この証書を執行するため、あらためて許可を求めることなく、必要なすべての通知、禁止、差押えその他の行為を行うこと。「ハロ」の抗議、ノルマンディー憲章、またはこれに反するその他の証書にもかかわらず、これを行うこと。これが、われらの意志だからである。
+  notes:
+  - Clameur de Haro はノルマンディーの法慣行における抗議・救済請求の呼び声。ここでは執行を妨げ得る特別の法手続として挙げられている。
+- id: mutus-privilege-08
+  source_pdf_page: 40
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  source_language: fr
+  source_text: 'Donné à S. Germain le vingt-troisième jour de Novembre, l’an de grace mil six cens soixante-seize, & de nostre
+    regne le trente-quatrième. Signé, Par le Roy en son Conseil: DESVIEUX.'
+  translation_ja: 恩寵の年1676年11月23日、わが治世の第34年、サン＝ジェルマンにて授与した。評議会における国王の命により署名、デヴュー。
+  notes: []
+- id: mutus-privilege-09
+  source_pdf_page: 40
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  source_language: fr
+  source_text: Ledit Sieur Saulat a permis à Pierre Savouret, Marchand Libraire à la Rochelle, d’imprimer, vendre & debiter
+    ledit Livre, suivant l’accord fait entr’eux.
+  translation_ja: 前記ソーラ殿は、両者の間に結ばれた合意に従い、ラ・ロシェルの書籍商ピエール・サヴレに、前記書物の印刷、販売および流通を許可した。
+  notes: []
+- id: mutus-colophon
+  source_pdf_page: 40
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  source_language: fr
+  source_text: Achevé d’imprimer pour la première fois, le 1. Fevrier 1677.
+  translation_ja: 初回の印刷を1677年2月1日に完了した。
+  notes: []
+- id: mutus-registration
+  source_pdf_page: 40
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  source_language: fr
+  source_text: Registré sur le Livre de la Communauté des Libraires & Imprimeurs de Paris, le 28. Novembre 1676. suivant l’Arrest
+    du Parlement du 8. Avril 1653. & celuy du Conseil Privé du Roy du 27. Février 1665. Thierry, Syndic.
+  translation_ja: 1653年4月8日の高等法院の決定、および1665年2月27日の国王枢密評議会の決定に従い、1676年11月28日、パリ書籍商・印刷業者組合の帳簿に登録した。組合代表、ティエリ。
+  notes: []
+- id: mutus-deposit
+  source_pdf_page: 40
+  source_url: https://www.e-rara.ch/cgj/download/pdf/1350330#page=40
+  source_language: fr
+  source_text: Les Exemplaires ont esté fournis.
+  translation_ja: 所定の部数は納められた。
+  notes: []
