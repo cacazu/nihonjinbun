@@ -79,7 +79,11 @@ works:
   coverage_note: 1652年初版の詩篇・序文・注解・目次・語彙表・正誤表・図中文字。1387対訳単位。主底本の欠図と損傷箇所は同年版の別個体で補完。
   source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
   sha256: 5311debb29aff8f33328ed757e4d9c6eea9e198adb904d70ee0f5b18e8813834
+- file: translations/alchemy/flamel-hieroglyphic-figures-en-ja.yaml
+  title: 偽フラメル 象形寓意図の書
+  coverage_note: 1624年英訳版のフラメル本編全9章と関連前付、150原本頁、186対訳単位、図版12点を埋め込み。同冊の別著作Artephius・Pontanusは対象外。英語経由・偽託帰属を明示。
+  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
+  sha256: a899c9b46233112d6f2ab5b4a563473b77028d092cfd314f7687dc38c2dd67f6
 in_progress_not_included:
 - Amphitheatrum sapientiae aeternae
-- Livre des figures hiéroglyphiques
 packaging_note: 本リポジトリは対訳YAMLを収録する。YAML内の図版・底本PDF・制作時分割データへの相対参照は由来の記録であり、それらのファイルやHTMLを本リポジトリへ同梱したことを意味しない。底本には各資料の公開出典URLからアクセスする。
