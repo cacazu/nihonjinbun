@@ -1,6 +1,6 @@
 schema_version: '1.0'
 title: 原文・日本語対訳データ集
-updated: '2026-10-08'
+updated: '2026-10-09'
 format: UTF-8 YAML
 description: 原文と日本語訳を固定IDで対応付けた翻訳データ。章・出典頁・注記・未解決事項を保持。HTMLは別の閲覧用表現。
 editorial_status: AIによる翻訳・照合を含む。専門家による校訂版ではない。原文判読や歴史的編者の省略等に由来する留保は各ファイルに明示。
@@ -107,5 +107,11 @@ works:
   coverage_note: 伝世本全20篇501章句と「知道第二十二」断片1章句を漢文から新訳。話者・対話・訳注を収録。底本の校注40件は日本語本文と分けて保存。
   sha256: 3433222af5c68eb8a845609ef745f4bdf3c54f3dd383d811b7ec98cbc911b68d
   source_and_rights: 中国語Wikisourceの固定版を底本とし、出典・異文・校訂と日本語新訳のCC BY-SA 4.0利用条件をYAMLに記載。
+- file: translations/buddhism/sutta-nipata-pi-ja.yaml
+  title: スッタニパータ
+  work_id: sutta-nipata
+  coverage_note: パーリ語本文全5章70経と巻末補遺21詩を収録。4,051原文記録を1,471対訳単位に対応。本文を全文見直し済み。巻末補遺の5詩には解釈未確定の句を明示して残す。底本中の48か所の省略は展開していない。
+  sha256: e8fa78e86d8171a59afa1705bbdb69643bf284d30a34183278ae1fed94f42505
+  source_and_rights: 底本はtipitaka 0.1.2所収Sn。現代電子底本の利用条件・伝承上の異読・日本語訳のCC0利用条件はYAMLに記載。
 in_progress_not_included: []
 packaging_note: 本リポジトリは対訳YAMLを収録する。YAML内の図版・底本PDF・制作時分割データへの相対参照は由来の記録であり、それらのファイルやHTMLを本リポジトリへ同梱したことを意味しない。底本には各資料の公開出典URLからアクセスする。
