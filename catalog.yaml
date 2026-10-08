@@ -101,5 +101,11 @@ works:
   coverage_note: 『知恵の悲しみ』『オセロー』『検察官』の草稿・補足・付録6篇をロシア語から新訳。11,531原文単位を8,953対訳単位に対応。1957年版編者の序論・注解・索引と電子底本の混入文は対象外。
   sha256: 7f0876f413527d835a4a7e5f0c81a6f8432ad35956b64b7ed6a4f77e7f637b0b
   source_and_rights: 底本・照合資料・訳注・収録範囲・日本語訳のCC0利用条件はYAMLに記載。
+- file: translations/confucianism/rongo-zh-ja.yaml
+  title: 論語
+  work_id: rongo
+  coverage_note: 伝世本全20篇501章句と「知道第二十二」断片1章句を漢文から新訳。話者・対話・訳注を収録。底本の校注40件は日本語本文と分けて保存。
+  sha256: 3433222af5c68eb8a845609ef745f4bdf3c54f3dd383d811b7ec98cbc911b68d
+  source_and_rights: 中国語Wikisourceの固定版を底本とし、出典・異文・校訂と日本語新訳のCC BY-SA 4.0利用条件をYAMLに記載。
 in_progress_not_included: []
 packaging_note: 本リポジトリは対訳YAMLを収録する。YAML内の図版・底本PDF・制作時分割データへの相対参照は由来の記録であり、それらのファイルやHTMLを本リポジトリへ同梱したことを意味しない。底本には各資料の公開出典URLからアクセスする。
