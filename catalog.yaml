@@ -1,6 +1,6 @@
 schema_version: '1.0'
 title: 原文・日本語対訳データ集
-updated: '2026-10-01'
+updated: '2026-10-08'
 format: UTF-8 YAML
 description: 原文と日本語訳を固定IDで対応付けた翻訳データ。章・出典頁・注記・未解決事項を保持。HTMLは別の閲覧用表現。
 editorial_status: AIによる翻訳・照合を含む。専門家による校訂版ではない。原文判読や歴史的編者の省略等に由来する留保は各ファイルに明示。
@@ -89,5 +89,11 @@ works:
   coverage_note: 原刊全文を対象とする2598対訳単位。序論・注解とも365節の並列本文を収録、全299本文画像・297固有頁、原刊図14点。銅版60単位と本文等11単位に判読・補読・解釈上の留保がある。
   source_and_rights: Public Domain Markの1609年底本。原文、出典URL、並列本文の識別方針と留保はYAMLに明示。
   sha256: 4e84171bb90d53cfde1a8cb73f7115a4f1333ff63a7f718e5dba0ce2f7cec8b7
+- file: translations/stanislavsky/stanislavsky-actor-work-on-self-ru-ja.yaml
+  title: 俳優の自己修養 第1部
+  work_id: stanislavsky-actor-work-on-self
+  coverage_note: 序文・はじめに・全16章・付録7篇のロシア語原文と日本語新訳。11,606原文単位を9,728対訳単位に対応。原文の不確かな読みは訳注に明示。第2部は含まない。
+  sha256: 56d84705593aecd0928bc789829444acc083019cf88e946a70520a3d37015d2d
+  source_and_rights: 底本・照合資料・訳注・日本語訳の利用条件はYAMLに記載。模式図4点を日本語で再描画し同梱。
 in_progress_not_included: []
 packaging_note: 本リポジトリは対訳YAMLを収録する。YAML内の図版・底本PDF・制作時分割データへの相対参照は由来の記録であり、それらのファイルやHTMLを本リポジトリへ同梱したことを意味しない。底本には各資料の公開出典URLからアクセスする。
