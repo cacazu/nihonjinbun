@@ -127,5 +127,11 @@ works:
   sha256: 6df9e220d885d4f0d362a2c0648c68eb4a42c517daa9dba969f0ec58a7853bab
   source_and_rights: 'Project Gutenberg: Public domain in the USA. No determination for other jurisdictions. Japanese translation:
     CC0.'
+- file: translations/babbitt/the-new-laokoon-en-ja.yaml
+  title: 新ラオコーン
+  work_id: the-new-laokoon-1910
+  coverage_note: 一九一〇年版の前付・序文・全二部七章・原注・索引・印刷所表示。674対訳単位。原書の頁別脚注番号と索引の参照頁を保持。
+  sha256: 7951304e8b745a61a99fe58ebc85163b1559602f7c6180a036c18d466eb23e79
+  source_and_rights: 1910年米国刊原著は米国でパブリックドメイン。日本語新訳の再利用ライセンスは未指定。底本・校訂・留保はYAML内に記載。
 in_progress_not_included: []
 packaging_note: 本リポジトリは対訳YAMLを収録する。YAML内の図版・底本PDF・制作時分割データへの相対参照は由来の記録であり、それらのファイルやHTMLを本リポジトリへ同梱したことを意味しない。底本には各資料の公開出典URLからアクセスする。
