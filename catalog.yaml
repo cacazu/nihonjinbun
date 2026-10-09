@@ -113,5 +113,11 @@ works:
   coverage_note: パーリ語本文全5章70経と巻末補遺21詩を収録。4,051原文記録を1,471対訳単位に対応。本文を全文見直し済み。巻末補遺の5詩には解釈未確定の句を明示して残す。底本中の48か所の省略は展開していない。
   sha256: e8fa78e86d8171a59afa1705bbdb69643bf284d30a34183278ae1fed94f42505
   source_and_rights: 底本はtipitaka 0.1.2所収Sn。現代電子底本の利用条件・伝承上の異読・日本語訳のCC0利用条件はYAMLに記載。
+- file: translations/erasmus/in-praise-of-folly-en-ja.yaml
+  title: 愚神礼讃
+  work_id: in-praise-of-folly
+  coverage_note: この日本語訳は、リーヴズ＆ターナー刊の一八七六年ロンドン版の英訳に基づく。英訳者の名は、この版に記されていない。 挿絵の小さな文字や刻字で判読できない箇所には、その旨を注記した。
+  sha256: 0760efbfb3f58d53b669e8b9cc9705cd916c0fac9b873734e0dbfb98320db6df
+  source_and_rights: 'Project Gutenberg: Public domain in the USA. No determination for other jurisdictions. Japanese translation: CC0.'
 in_progress_not_included: []
 packaging_note: 本リポジトリは対訳YAMLを収録する。YAML内の図版・底本PDF・制作時分割データへの相対参照は由来の記録であり、それらのファイルやHTMLを本リポジトリへ同梱したことを意味しない。底本には各資料の公開出典URLからアクセスする。
