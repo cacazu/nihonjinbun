@@ -119,5 +119,13 @@ works:
   coverage_note: この日本語訳は、リーヴズ＆ターナー刊の一八七六年ロンドン版の英訳に基づく。英訳者の名は、この版に記されていない。 挿絵の小さな文字や刻字で判読できない箇所には、その旨を注記した。
   sha256: 0760efbfb3f58d53b669e8b9cc9705cd916c0fac9b873734e0dbfb98320db6df
   source_and_rights: 'Project Gutenberg: Public domain in the USA. No determination for other jurisdictions. Japanese translation: CC0.'
+- file: translations/dewey/studies-in-logical-theory-en-ja.yaml
+  title: 考えるしくみの研究
+  work_id: studies-in-logical-theory
+  coverage_note: '1903 Project Gutenberg text: complete title matter, preface, table of contents, eleven studies, index, and
+    208 original notes; 1,142 translated units. The 1909 scan is a comparison witness and cover source.'
+  sha256: 6df9e220d885d4f0d362a2c0648c68eb4a42c517daa9dba969f0ec58a7853bab
+  source_and_rights: 'Project Gutenberg: Public domain in the USA. No determination for other jurisdictions. Japanese translation:
+    CC0.'
 in_progress_not_included: []
 packaging_note: 本リポジトリは対訳YAMLを収録する。YAML内の図版・底本PDF・制作時分割データへの相対参照は由来の記録であり、それらのファイルやHTMLを本リポジトリへ同梱したことを意味しない。底本には各資料の公開出典URLからアクセスする。
