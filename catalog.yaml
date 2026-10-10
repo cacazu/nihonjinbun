@@ -139,5 +139,11 @@ works:
   coverage_note: 一九四〇年版の前付・序文・全十四論考・原注・著作目録・全著作索引。1857対訳単位。頁別脚注番号と複数著作にわたる索引の略号・参照頁を保持。
   sha256: 43353a28470d3775a8821f8015a77f8e963abfad3ecad6d19d0b79fdd82a70de
   source_and_rights: 一九四〇年版原著の米国パブリックドメイン判断は底本所蔵館の権利確認と更新記録調査に基づく。日本語新訳の再利用ライセンスは未指定。
+- file: translations/talleyrand/memoirs-volume-1-fr-ja.yaml
+  title: タレーラン公回想録 第一巻
+  work_id: talleyrand-memoirs-volume-1
+  coverage_note: 一八九一年版第一巻の本文・原注・電子版補注を翻訳。1,636対訳単位、原注566件、電子版補注2件。図版の手書き書簡は判読できる部分を別記し、判読未確定の一文を明示。
+  sha256: d0874939882dd532c987e4b347a4e883183395c675fc74844337401b2314947f
+  source_and_rights: Project Gutenbergは原著を米国でパブリックドメインと表示。全世界の権利状態は断定しない。日本語訳の再利用ライセンスは未指定。底本・異文・話者・留保はYAML内に記載。
 in_progress_not_included: []
 packaging_note: 本リポジトリは対訳YAMLを収録する。YAML内の図版・底本PDF・制作時分割データへの相対参照は由来の記録であり、それらのファイルやHTMLを本リポジトリへ同梱したことを意味しない。底本には各資料の公開出典URLからアクセスする。
