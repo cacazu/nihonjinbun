@@ -1,6 +1,6 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 488 entries in batches 001–056 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 580 entries in batches 001–066 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -62,3 +62,13 @@ The fragmented front-matter title requires semantic assembly in the eventual rea
 - `054-root-draft.json`: `265f5c1c364e2a14683c692adc7088a09621edcb91c1cd76bd1fdbeafe388db5`
 - `055-root-draft.json`: `90097523bd0a8281e8fce2aab45fad8d365ce9ed43c8ec7d406a62099a836c69`
 - `056-root-draft.json`: `198ecd551c96dad0958326b6a5b51eb9f95838e50f7648bebb270039c873600c`
+- `057-root-draft.json`: `c10bc1dafcfff5928cd48534e0f87359ee0bed8207928ac062bc4759961f8b09`
+- `058-root-draft.json`: `d576b91ec5369936ac3e02b4c657b83451c768a53957877a085c3cbb395fda66`
+- `059-root-draft.json`: `650796eb4e2bc1274a38c7de23db92d717abc5c7528595c2fc848d8158661707`
+- `060-root-draft.json`: `693651ac52b27e779ee632de5c3eafa94c407a2b55bcfa5efc5a3c45ee96b65e`
+- `061-root-draft.json`: `a83ac09b1c0480f2e6c5e31024224486b6c428b5857df993e541fd653ed3d82e`
+- `062-root-draft.json`: `904827113a8341af1f7d76c55a5a24ae2110208fad2bbaa76cb51143bd232550`
+- `063-root-draft.json`: `6590f891d18048a9b4e94dbe112f212ffff5cc1e0aaebacaba4f9e3437ae2ac5`
+- `064-root-draft.json`: `8c3f1d7073a80d151d7649f4d4782e3794db572806659c0127033be38d6539dc`
+- `065-root-draft.json`: `1e00c5448b9c15d2643f94590fe227d78d0c06f37f76c0e2e1764b4a05ddf310`
+- `066-root-draft.json`: `8726cb0280000500543e4df809a9fe32ea39bb7662829faee3e75be08bcad1df`
