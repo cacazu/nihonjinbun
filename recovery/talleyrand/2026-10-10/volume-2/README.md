@@ -1,6 +1,6 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 2477 entries in batches 001–310 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 2560 entries in batches 001–316 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; all 2,560 initial-draft entries are now present, while the full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -318,6 +318,12 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `308-root-draft.json`: `4c31b9ec086bdb403a63be816b435b1eb8a883a366394c827ac4acfb9aae7266`
 - `309-root-draft.json`: `a79be2f0dcc9283d9da9a04a145c4386218d9458c70b999ae29927e66053035d`
 - `310-root-draft.json`: `7a62dea01d926396c0d61ee8aad0b405c0de00ae7c6c5c65c86ce055b4c465e6`
+- `311-root-draft.json`: `62e79fb0f89a08da21b2c851c7e9b8c5f14bdd76fa4813fe271dd74e58c4fe15`
+- `312-root-draft.json`: `0a3e1621c29794d45ac689fbf2aadb03c97b08056781cb2d88562146cd8244b5`
+- `313-root-draft.json`: `e0fb0e3dacd70a4c151e1f3281cb4463e24b85c20c7f79e1d3c8aa8b3f5ebfb9`
+- `314-root-draft.json`: `688d53d342f30f972400fa23999d4a63aa6ef68b2d54adcb575a0838b26d9d07`
+- `315-root-draft.json`: `52d9d4364ef539fa1f339ec71e445c5c25524f21fdb466a283e569d5a0996a4a`
+- `316-root-draft.json`: `a40f3aeaf5d1054a8834d5d34ec8d35c730a9e31eb328c25218657533c6d75a3`
 
 ## Source evidence checksums
 
