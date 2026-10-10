@@ -1,6 +1,6 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 1398 entries in batches 001–173 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 1413 entries in batches 001–175 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -181,6 +181,8 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `171-root-draft.json`: `1a4e151bc8a390e1e31749417e5194561660c431fb1b780dfdbdae5ea7e0c5e7`
 - `172-root-draft.json`: `caaf28b1e5af37675acfad2a33f08d8b2936db9d96780f746682f0e27737036e`
 - `173-root-draft.json`: `f7d944e454934d51c53e5a05cf24006f91c1b0b03735bace550c3c47418e1500`
+- `174-root-draft.json`: `94982f0fe7b10593efea73e4e26f2fe17d77f680f27870648c894c5ca710a859`
+- `175-root-draft.json`: `724a550d89576313bcd9d4b1ab15954bc88920392a39a8cd01d628cff2a0161a`
 
 ## Source evidence checksums
 
@@ -200,3 +202,5 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 The bounded unit1274 evidence preserves the printed royal-letter heading and dateline, which agree with the four digital witnesses. It confirms the inherited Vienne wording without asserting its historical accuracy. The reader-facing report and exact image excerpt are in `source-evidence/facsimile-u1274/`.
 
 The latest16-record reader-facing source-discrepancy ledger is `source-evidence/final-bounded-collation/source-discrepancies.json`; it supersedes the earlier ledger snapshot. This additional15-file bundle includes nine exact excerpts for the remaining bounded age/name/numeral and return-time comparisons. The conflicting inherited readings are retained; no unsupported restoration or full-volume printed collation is claimed.
+
+The bounded unit1382 evidence documents digital empocher versus printed empêcher on page421. The final draft follows the printed reading with a separate translator disclosure; four digital witnesses and the exact printed paragraph excerpt are preserved in `source-evidence/facsimile-u1382/`.

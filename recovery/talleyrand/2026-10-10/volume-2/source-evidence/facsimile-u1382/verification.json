@@ -1,0 +1,55 @@
+{
+  "recorded_at_utc": "2026-10-10T16:45:17.932159+00:00",
+  "unit": "v02-u001382",
+  "scope": "Bounded visual comparison of empocher/empêcher in unit1382; no whole-volume printed collation claimed.",
+  "printed_page": 421,
+  "pdf_page_1_based": 435,
+  "ia_leaf_0_based": 434,
+  "page_number_visually_verified": true,
+  "printed_reading": "Les instructions supplémentaires du roi, apportées par M. de Noailles, avaient mis ses plénipotentiaires dans la possibilité de faire des insinuations sur la part active que la France prendrait pour obtenir un équilibre réel et durable, et pour empêcher que la Russie ne s’emparât du grand-duché de Varsovie, et la Prusse, de la Saxe.",
+  "target_printed_reading": "pour empêcher que la Russie ne s’emparât du grand-duché de Varsovie, et la Prusse, de la Saxe.",
+  "digital_unit_reading": "Les instructions supplémentaires du roi, apportées par M. de Noailles, avaient mis ses plénipotentiaires dans la possibilité de faire des insinuations sur la part active que la France prendrait pour obtenir un équilibre réel et durable, et pour empocher que la Russie ne s'emparât du grand-duché de Varsovie, et la Prusse, de la Saxe.",
+  "finding": "The printed facsimile plainly has empêcher, including the circumflex. Digital source unit empocher is therefore a recoverable transcription error. The correction empocher → empêcher is supported directly by the printed witness, not merely by contextual reconstruction.",
+  "status": "print_restoration_verified; not_applied_to_authoritative_source",
+  "physical_lines": [
+    "France prendrait pour obtenir un équilibre réel et durable, et",
+    "pour empêcher que la Russie ne s’emparât du grand-duché",
+    "de Varsovie, et la Prusse, de la Saxe."
+  ],
+  "transcription_convention": "Line wrapping and typographic spacing normalized; physical line break pos-sibilité joined as possibilité. Wording and relevant punctuation retained.",
+  "edition": "Mémoires du prince de Talleyrand, II, published by the Duc de Broglie; Paris: Calmann Lévy, 1891.",
+  "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n434/mode/1up",
+  "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+  "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+  "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+  "provider_md5_previously_verified": true,
+  "method": "Actual grayscale scan rendered with pdftoppm -f 435 -l 435 -r 200 -png -singlefile. Full page and lossless rectangular excerpt inspected visually; OCR is not the authority.",
+  "excerpt_rectangle_xyxy": [
+    185,
+    1145,
+    1125,
+    1455
+  ],
+  "evidence_files": [
+    {
+      "filename": "u001382-printed-paragraph.png",
+      "sha256": "fab03f2837ad70354f87ee287f1c41a4caeed96a3eadd634b52e144d74add9c1",
+      "bytes": 225362,
+      "bundled": true
+    },
+    {
+      "filename": "print-421_pdf-435.png",
+      "sha256": "0f77335bb222254db9d887804073b431d84cfafadd393ce32821a045eb157c35",
+      "bytes": 1191726,
+      "bundled": false
+    }
+  ],
+  "original_unit_text_sha256": "9db2447f7144c12024bc107abba3774ec91af3cb708d736357a7ced577cc09f7",
+  "original_unit_html_sha256": "79187c4f6cc7ba4390304f8aa00c2729081b5c6917965469f78812b41da2322c",
+  "original_units_file_sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751",
+  "original_source_html_sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+  "witness_reading_difference": {
+    "digital_reading": "pour empocher que la Russie",
+    "printed_reading": "pour empêcher que la Russie"
+  }
+}
