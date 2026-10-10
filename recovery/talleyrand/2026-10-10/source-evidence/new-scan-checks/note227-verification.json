@@ -1,0 +1,26 @@
+{
+  "unit_id": "v01-u001290",
+  "gutenberg_note": 227,
+  "scan_local_note": 2,
+  "unit_text_sha256": "bee1130dca409d73bc779c2921f59e1d3174d36d1eb5299d208200c1e69bbe82",
+  "html_reading": "il fut guillotiné en 1791",
+  "txt_reading": "il fut guillotiné en 1791",
+  "scan_reading": "il fut guillotiné en 1794",
+  "scan_glyph_caveat": "Final digit4 has broken/weak ink in scan; direct enlarged visual reading used, not secondary biography normalization.",
+  "pdf_physical_page": 201,
+  "printed_page": 160,
+  "source_scan_url": "https://be1830.be/onewebmedia/M%C3%A9moires_du_prince_de_Talleyrand_I.pdf",
+  "evidence": [
+    {
+      "file": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/note227-201.jpg",
+      "sha256": "5fc6f4916fcc5e93c5c4ad0450567aeaedbc77a76791bf4ea18e393d8c216f8a"
+    },
+    {
+      "file": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/note227-detail.png",
+      "sha256": "152e720cd6b154e9d5f5e452292be841320c94a16758693dd633a30b7fdb3ea2"
+    }
+  ],
+  "verification": "Direct visual page and enlargement; official PG TXT read locally from exact previously verified source bytes.",
+  "source_translation_changes": "None",
+  "external_uploads": "None"
+}

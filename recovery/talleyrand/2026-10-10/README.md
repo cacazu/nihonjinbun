@@ -1,6 +1,6 @@
 # Talleyrand manuscript drafts — incomplete
 
-This checkpoint preserves 1196 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
+This checkpoint preserves 1316 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
 
 - `001-new-draft.json`: 20 newly drafted front-matter and early volume 1 entries, including units 17–26.
 - `002-new-draft.json`: newly drafted volume 1 units 27–37.
@@ -143,17 +143,29 @@ This checkpoint preserves 1196 Japanese draft entries byte-for-byte as supplied 
 - `138-root-draft.json`: newly drafted volume 1 units 1175–1184.
 - `139-root-draft.json`: newly drafted volume 1 units 1185–1194.
 - `140-root-draft.json`: newly drafted volume 1 units 1195–1204.
+- `141-root-draft.json`: newly drafted volume 1 units 1205–1214.
+- `142-root-draft.json`: newly drafted volume 1 units 1215–1224.
+- `143-root-draft.json`: newly drafted volume 1 units 1225–1234.
+- `144-root-draft.json`: newly drafted volume 1 units 1235–1244.
+- `145-root-draft.json`: newly drafted volume 1 units 1245–1254.
+- `146-root-draft.json`: newly drafted volume 1 units 1255–1264.
+- `147-root-draft.json`: newly drafted volume 1 units 1265–1274.
+- `148-root-draft.json`: newly drafted volume 1 units 1275–1284.
+- `149-root-draft.json`: newly drafted volume 1 units 1285–1294.
+- `150-root-draft.json`: newly drafted volume 1 units 1295–1302.
+- `151-root-draft.json`: newly drafted volume 1 units 1303–1314.
+- `152-root-draft.json`: newly drafted volume 1 units 1315–1324.
 
-Batches 001–039 are replacement work, not recovered earlier text. Batches 041–140 are likewise new work. All 141 canonical-entry draft files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 1196 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. This is partial-volume coverage only. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
+Batches 001–039 are replacement work, not recovered earlier text. Batches 041–152 are likewise new work. All 153 canonical-entry draft files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 1316 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. This is partial-volume coverage only. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
 
 Preservation checks covered JSON syntax, incomplete status, nonempty Japanese text fields, unique entry IDs, source-hash presence and byte checksums. They do not certify full-volume accuracy or completeness. Before incorporation into canonical YAML, complete the remaining source alignment, review and required full reread. This folder is outside `translations/`; the catalog and canonical translations are unchanged.
 
 
 ## Supporting source evidence
 
-`source-evidence/new-scan-checks/` preserves 22 comparison-scan page/detail images, seven scan-provenance JSON files, and a targeted historical-clarification report. The comparison scan is not established as the exact exemplar used by Gutenberg. Unit 591 preserves the printed negative with its interpretive difficulty disclosed; unit 598 documents the comparison reading `pertes` against Gutenberg's `perles`. Separate evidence documents unit 614 as editorial continuation of note 322, and unit 929 as editorial continuation after signed authorial note 500. Unit 929 is now translated in batch 111, with its editorial-continuation placement disclosed separately. Separate historical evidence for units 669 and 682 supports the translator notes added to batches 074 and 076; the narrator's wording remains distinct from those notes. Base source files are unchanged. Paths recorded inside the original provenance files are preserved as supplied; corresponding images are included in this folder.
+`source-evidence/new-scan-checks/` preserves 24 comparison-scan page/detail images, eight scan-provenance JSON files, and a targeted historical-clarification report. The comparison scan is not established as the exact exemplar used by Gutenberg. Unit 591 preserves the printed negative with its interpretive difficulty disclosed; unit 598 documents the comparison reading `pertes` against Gutenberg's `perles`. Separate evidence documents unit 614 as editorial continuation of note 322, and unit 929 as editorial continuation after signed authorial note 500. Unit 929 is now translated in batch 111, with its editorial-continuation placement disclosed separately. Separate historical evidence for units 669 and 682 supports the translator notes added to batches 074 and 076; the narrator's wording remains distinct from those notes. Base source files are unchanged. Paths recorded inside the original provenance files are preserved as supplied; corresponding images are included in this folder.
 
-`source-evidence/digital-editorial-exclusions.json` preserves Gutenberg digital-editorial material, including Roman-numbered notes [i] and [ii]. Unit 770's [i] marker refers to this modern digital apparatus, not one of the 566 printed notes. Reader output must keep its attribution and destination distinct. The two digital notes have now been translated in the separately labeled `pg-digital-notes-root-draft.json`; both passed initial review, remain incomplete drafts, and are excluded from the 1196 canonical-entry count.
+`source-evidence/digital-editorial-exclusions.json` preserves Gutenberg digital-editorial material, including Roman-numbered notes [i] and [ii]. Unit 770's [i] marker refers to this modern digital apparatus, not one of the 566 printed notes. Reader output must keep its attribution and destination distinct. The two digital notes have now been translated in the separately labeled `pg-digital-notes-root-draft.json`; both passed initial review, remain incomplete drafts, and are excluded from the 1316 canonical-entry count.
 
 The added `units-763-801-809-verification.json` and its three referenced images document unit 801's printed 27 October versus Gutenberg's 21 October, the differing Duroc titles, and the shared preposition in unit 809. Draft 093 retains a separate disclosure for its scan-based date correction. The comparison-witness limitation remains applicable.
 
@@ -161,9 +173,11 @@ The added `units-763-801-809-verification.json` and its three referenced images 
 
 `source-evidence/note-1-nested-voice.json` records the quoted royal letter nested within editorial framing in printed note 1; the printed note number remains unchanged.
 
-Seven original Gutenberg illustration files are preserved under `source-evidence/images/`, alongside the original `illustrations-manifest.json` and `pg-digital-notes-for-translation.json`. The original manifest describes eight local files, but `images/2s.jpg` is intentionally absent from this repository checkpoint because its upload was canceled. The full-size `images/2.jpg` is preserved. The manifest is retained unchanged as source provenance; it is not an assertion that every listed file is present here.
+All eight original Gutenberg illustration files are preserved under `source-evidence/images/`, alongside the original `illustrations-manifest.json` and `pg-digital-notes-for-translation.json`. The previously missing `images/2s.jpg` has been restored with its exact original bytes.
 
 Note121 evidence documents comparison print1749 against Gutenberg1719; draft138 uses1749 with an explicit variant disclosure. Note136 evidence confirms May4 across all checked witnesses; draft140 preserves that date and separately cites the National Archives July4 historical date. Base source readings remain unchanged.
+
+Note227/u1290 evidence records the comparison reading1794 against Gutenberg1791. The final scan digit has weak/broken ink; the translation preserves a cautious variant disclosure rather than presenting the reading as unambiguous.
 
 ## SHA-256 checksums
 
@@ -308,6 +322,18 @@ Note121 evidence documents comparison print1749 against Gutenberg1719; draft138 
 - `138-root-draft.json`: `fbd77c45543e69d9910290f83f7d9db23b127c4db6311a31341eafe72afc011c`
 - `139-root-draft.json`: `be80519bbfc7200c7e0823aa99a9cd195736d623e5be51037d414aa7e54e306d`
 - `140-root-draft.json`: `3f88167d9256cca47aea28a58d6deb81e7d706fe058dbbad53dc6a34e86a9a4c`
+- `141-root-draft.json`: `ffadc41ee2c453fae2f398062d562541ff5188b3a63d7265219d6e0d4814fa0e`
+- `142-root-draft.json`: `659fc63d48eb6083f8f11bdd80a3ec1d9bb74e01810ff5468eb6c8a330968aaf`
+- `143-root-draft.json`: `8aaf8621ae83dc116cf2e81c8cd34c37c8f92eea3398a67e5f543dc76b284855`
+- `144-root-draft.json`: `51700de48f8b3a4008ee3dd00bcc578c5458ffe180820201ee5885733d6796b6`
+- `145-root-draft.json`: `cb0b5880b5bbf4f39494bc1797b8588c77aa21ffd45ae312aadf9caddae0579b`
+- `146-root-draft.json`: `05033e4d1d45bcd1e31010f793124d0b99d421174b55555513e514b7e42f3a7d`
+- `147-root-draft.json`: `7eea1c549bc4d45043731799dd0111ebebc21b9d78afa8d79231f766a7ec359f`
+- `148-root-draft.json`: `2701b091ca82c356646c8f58a8d552a9f71d2c055b267a714a064a383fc9d9d8`
+- `149-root-draft.json`: `7c0c9d5cf7159811988cf8be046f5ae0c4d11ff705ad7b3ff7aa986c9d39ff32`
+- `150-root-draft.json`: `226c894d9a798244e633ea32d00dece3cd0804f215a3752bb3fd2c632dfc5e0b`
+- `151-root-draft.json`: `1cb0fc1952823ae2e3ee2eaf5535a4c6e56e6ca1c39aa9d5143f5531d88d3701`
+- `152-root-draft.json`: `117d94bcb5650018d36d663a0b1449c1e5aad9d5a3027582b90c6e59c02b0475`
 - `pg-digital-notes-root-draft.json`: `7646910a41f1987795ed1a7f467fdcf8db3882b7896774dbcb13f655ec009ead`
 
 ### Source evidence
@@ -362,3 +388,8 @@ Note121 evidence documents comparison print1749 against Gutenberg1719; draft138 
 - `source-evidence/new-scan-checks/note121-100.jpg`: `0c6c800ae2d69db2aabfce2d558c92cdbd0d481eadb1133d00328df01952ce89`
 - `source-evidence/new-scan-checks/note136-verification.json`: `128db0c862c696634c9c738e04336a35786a63b95c9526a504596f3857917924`
 - `source-evidence/new-scan-checks/note136-108.jpg`: `fe8a1157602ca571e039a0e87124cea6af2c3480cb31b60f93f9cc1f4cd9a38e`
+
+- `source-evidence/new-scan-checks/note227-verification.json`: `175bdd96e1b4d6aa3ec39a89156a731d9b982e07a928bd94cb3fae943c0d3934`
+- `source-evidence/new-scan-checks/note227-detail.png`: `152e720cd6b154e9d5f5e452292be841320c94a16758693dd633a30b7fdb3ea2`
+- `source-evidence/new-scan-checks/note227-201.jpg`: `5fc6f4916fcc5e93c5c4ad0450567aeaedbc77a76791bf4ea18e393d8c216f8a`
+- `source-evidence/images/2s.jpg`: `287a204a863d7b545d542d82963b79e2fbf5ae3b7e0f92544734a1bde906984e`
