@@ -264,3 +264,5 @@ The19-record source-discrepancy ledger in `source-evidence/evidence-018-019/` su
 The unit1496 report and exact image excerpt confirm that print and four digital witnesses retain cet amiral after Bentinck. This bounded comparison supplies no title correction and does not adjudicate historical accuracy: `source-evidence/facsimile-u1496/`.
 
 The latest21-record source-discrepancy ledger and three unit1589 comparison excerpts are in `source-evidence/evidence-021/`. This supersedes previous ledger snapshots and documents the inherited dispatch-date difference and singular pronoun without a silent correction.
+
+The latest22-record source-discrepancy ledger and two excerpts for the November5/6 date pair are in `source-evidence/evidence-022/`, superseding prior ledger snapshots. The inherited conflicting dates remain distinct.
