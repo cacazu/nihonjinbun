@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "unit_id": "v01-u001581",
+      "gutenberg_note": 503,
+      "scan_local_note": 2,
+      "unit_text_sha256": "482d988b61162e37ad86db7b0b1e4cba87d78eeaad04d1eed09d95c15cbcb326",
+      "html": "Il mourut en 1811",
+      "txt": "Il mourut en 1811",
+      "scan": "Il mourut en 1841",
+      "pdf_physical_page": 447,
+      "printed_page": 406,
+      "glyph_note": "Third digit4 has weak/broken horizontal stroke, inspected in high-resolution rendered detail."
+    },
+    {
+      "unit_id": "v01-u001578",
+      "gutenberg_note": 500,
+      "scan_local_note": 1,
+      "unit_text_sha256": "3aed8b0ce3fb77e5b645ce60e0ac481ae35e41d379df3eda2ce723760caa9721",
+      "html": "Radamiste Le Cid",
+      "txt": "_Radamiste_ _Le Cid_",
+      "scan": "Radamiste at line end, Le Cid at start of following line, no visible comma between",
+      "pdf_physical_page": 446,
+      "printed_page": 405,
+      "interpretation": "Separate play titles can be identified from context and separate TXT italic spans, but no restored printed comma should be claimed; reader punctuation is explicit editorial clarification."
+    }
+  ],
+  "evidence": [
+    {
+      "file": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/note500-446.jpg",
+      "sha256": "8349d27c472a16bc60474a4aea236332c76413d505e14a72eb872700f1f4b35c"
+    },
+    {
+      "file": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/note500-447.jpg",
+      "sha256": "2d59b61f9cd0ad4d9651921240a0cfecce85de696b276d306c90c288919c9ddf"
+    },
+    {
+      "file": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/note503-detail.png",
+      "sha256": "0fac6d805d9850ed94d1ed6e8b8104baab451f56aed5576e657e2501a49003d2"
+    },
+    {
+      "file": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/note500-punctuation-detail.png",
+      "sha256": "e4f0ed86d246b2cd002715e581967daa3863d2d8e1cfc6c607661933dd613b8d"
+    }
+  ],
+  "verification": "Direct page and enlarged-detail visual inspection, exact TXT/HTML comparison",
+  "source_scan_url": "https://be1830.be/onewebmedia/M%C3%A9moires_du_prince_de_Talleyrand_I.pdf",
+  "source_translation_changes": "None"
+}
