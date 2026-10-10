@@ -1,6 +1,6 @@
 # Talleyrand manuscript drafts — incomplete
 
-This checkpoint preserves 822 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
+This checkpoint preserves 846 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
 
 - `001-new-draft.json`: 20 newly drafted front-matter and early volume 1 entries, including units 17–26.
 - `002-new-draft.json`: newly drafted volume 1 units 27–37.
@@ -98,8 +98,12 @@ This checkpoint preserves 822 Japanese draft entries byte-for-byte as supplied o
 - `093-root-draft.json`: newly drafted volume 1 units 791–802.
 - `094-root-draft.json`: newly drafted volume 1 units 803–820.
 - `095-root-draft.json`: newly drafted volume 1 units 821–830.
+- `096-root-draft.json`: newly drafted volume 1 units 831–836.
+- `097-root-draft.json`: newly drafted volume 1 units 837–842.
+- `098-root-draft.json`: newly drafted volume 1 units 843–848.
+- `099-root-draft.json`: newly drafted volume 1 units 849–854.
 
-Batches 001–039 are replacement work, not recovered earlier text. Batches 041–095 are likewise new work. All ninety-six draft files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 822 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. This is partial-volume coverage only. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
+Batches 001–039 are replacement work, not recovered earlier text. Batches 041–099 are likewise new work. All 100 draft files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 846 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. This is partial-volume coverage only. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
 
 Preservation checks covered JSON syntax, incomplete status, nonempty Japanese text fields, unique entry IDs, source-hash presence and byte checksums. They do not certify full-volume accuracy or completeness. Before incorporation into canonical YAML, complete the remaining source alignment, review and required full reread. This folder is outside `translations/`; the catalog and canonical translations are unchanged.
 
@@ -210,6 +214,10 @@ The added `units-763-801-809-verification.json` and its three referenced images 
 - `093-root-draft.json`: `d6df8fd5fef72b3226fe6cbb3e950571687ca33f1bcfb82b5abe7ff0759337d1`
 - `094-root-draft.json`: `e0ae2bdcd7fa2ef151cecf56983fcb6985ec02b50b2cd0536e568ed6f218c683`
 - `095-root-draft.json`: `1066e07f60bc68ac89badf3200ffd2675b6e0d3760fa00b221bd81da6ce3c1ca`
+- `096-root-draft.json`: `03a20055bd372c8d6c5315da9a192d9bdc012fde409256f6bc278b6b7cea3a2c`
+- `097-root-draft.json`: `c045252ce2e7c497df340bbc39f6a4497faf63ad4de25a27bca21b99000b31e7`
+- `098-root-draft.json`: `6d8377c48f25e9791d88f44c74d3eb382aa40fc268cfdaa6bed55ff6b1bdd45d`
+- `099-root-draft.json`: `8a2ad50285ed83e4705171decfd0b239f136a07bdffc91fe61cb3f2e4c936e37`
 
 ### Source evidence
 
