@@ -1,0 +1,29 @@
+{
+  "unit_id": "v01-u000929",
+  "finding": "Editorial continuation after signed authorial note500 (u1578), displaced into body by HTML",
+  "pdf_physical_page": 446,
+  "printed_page": 405,
+  "evidence_image": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/note500-446.jpg",
+  "image_sha256": "8349d27c472a16bc60474a4aea236332c76413d505e14a72eb872700f1f4b35c",
+  "txt_character_offset": 799369,
+  "txt_context": "lle Duchesnois, mademoiselle Gros, mademoiselle Rose Dupuis\net mademoiselle Patrat[500].\n\n    [500] On leur remit avant leur départ, la liste des pièces\n    qui devaient être jouées: la première comme je l'ai déjà dit,\n    devait être _Cinna_, ensuite _Andromaque_, _Britannicus_,\n    _Zaïre_, _Mithridate_, _OEdipe_, _Iphigénie en Aulide_,\n    _Phèdre_, _la Mort de César_, _les Horaces_, _Rodogune_,\n    _Mahomet_, _Radamiste_ _Le Cid_, _Manlius_, _Bajazet_. (_Note\n    du prince de Talleyrand._)\n\nQuelques-uns de ces artistes sont restés connus. Le premier d'entre\neux était sans contredit Talma (1766-1826), le plus célèbre de nos\nacteurs tragiques; on sait l'attrait particulier qu'avait pour lui\nNapoléon, et la protection dont il l'honora durant tout son\nrègne.--Pierre Lafon, né en 1775, et entré au Théâtre-Français en\n1800, lui disputait la première place: il excellait également dans la\ntragédie et la comédie.--Venait ensuite Saint-Prix (dont le vrai nom\nétait Foucault), qui avait débuté en 1782, et joué successivement au\nthéâtre Feydeau, à l'Odéon, enfin au Théâtre-Français en 1803.--Parmi\nles actrices, on se rappelle particulièrement les noms de\nmesdemoiselles Raucourt et Duchesnois. La première avait débuté en\n1772 et avait eu, dès cette époque, les plus brillants succès: elle\navait été longtemps emprisonnée sous la Terreur. Elle mourut en 1815,\net ses obsèques donnèrent lieu à l'église Saint-Roch à des scènes\ntumultueuses. Mademoiselle Duchesnois entrée à seize ans au\nThéâtre-Français (1802), s'était placée en peu d'années au premier\nrang des tragédiennes.\n\nLe voyage étant annoncé dans le _Moniteur_, chacun se donna du\nmouvement pour en être. Les deux aides de camp de l'empereur, Savary\net Lauriston[501] furent choisis les premiers. Le cortège militaire\ndevait être fort brillant. L'empereur voulait paraître entouré de ceux\nde ses lieutenants dont le nom avait le plus retenti en Allemagne. Le\nmaréchal Soult d'abord, le maréchal Davoust, le maréchal Lannes, le\nprince de Neufchâtel, le maréchal Mortier, le maréchal Oudinot, le\ngénéral Suchet, le général Boyer, le g",
+  "correct_body_order": [
+    "v01-u000928",
+    "v01-u000930"
+  ],
+  "correct_note_order": [
+    "v01-u001578",
+    "v01-u000929"
+  ],
+  "voices": {
+    "v01-u001578": "authorial_note",
+    "v01-u000929": "editorial_note_continuation"
+  },
+  "voice_evidence": "Authorial note ends with explicit signature (Note du prince de Talleyrand.) before biography begins. Biography is in same footnote block, not within signed authorial passage.",
+  "new_note_number": null,
+  "terminal_bracket": "Present in HTML-derived base unit; absent from scan",
+  "proposed_reader_text": "Quelques-uns de ces artistes sont restés connus. Le premier d'entre eux était sans contredit Talma (1766-1826), le plus célèbre de nos acteurs tragiques; on sait l'attrait particulier qu'avait pour lui Napoléon, et la protection dont il l'honora durant tout son règne.—Pierre Lafon, né en 1775, et entré au Théâtre-Français en 1800, lui disputait la première place: il excellait également dans la tragédie et la comédie.—Venait ensuite Saint-Prix (dont le vrai nom était Foucault), qui avait débuté en 1782, et joué successivement au théâtre Feydeau, à l'Odéon, enfin au Théâtre-Français en 1803.—Parmi les actrices, on se rappelle particulièrement les noms de mesdemoiselles Raucourt et Duchesnois. La première avait débuté en 1772 et avait eu, dès cette époque, les plus brillants succès: elle avait été longtemps emprisonnée sous la Terreur. Elle mourut en 1815, et ses obsèques donnèrent lieu à l'église Saint-Roch à des scènes tumultueuses. Mademoiselle Duchesnois entrée à seize ans au Théâtre-Français (1802), s'était placée en peu d'années au premier rang des tragédiennes.",
+  "base_unit_text_sha256": "843f0792d15d62c66783bab031c380c8e00c9d383f26de2f7340e1af57bfd34a",
+  "state": "Root and auditor notified; source metadata/text/order/hash not modified",
+  "verification": "Direct visual inspection and TXT context read"
+}

@@ -1,0 +1,35 @@
+{
+  "verified_utc": "2026-10-10T09:46:15.942065+00:00",
+  "source_pdf": {
+    "file": "/workspace/shared/talleyrand-recovery/source-volume-1/comparison-scan.pdf",
+    "url": "https://be1830.be/onewebmedia/M%C3%A9moires_du_prince_de_Talleyrand_I.pdf",
+    "bytes": 16166957,
+    "sha256": "219ef2d61dfb8d4ede820331e613b62bf369b6732e509d0a91026e83166ad31a",
+    "qualification": "Comparison scan; exact Gutenberg source copy not established."
+  },
+  "findings": [
+    {
+      "unit_id": "v01-u000591",
+      "unit_text_sha256": "e29de3d711baab21ff4f2b06fe68a6108b5e085e8b6ebaace02014341ec3e133",
+      "pdf_physical_page": 285,
+      "printed_page": 244,
+      "scan_reading": "combinaisons libérales, d’où il ne résultât pas des avantages pour tous les peuples commerçants.",
+      "classification": "Printed reading agrees with both Gutenberg HTML and TXT. Negative is not a Gutenberg-only corruption; logical tension remains an interpretation/editorial issue.",
+      "evidence_image": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/check-285.jpg",
+      "evidence_image_sha256": "b8d798f535d57ad1cf65d8226e790c93a6d6b6acc48280193a0036c8505e5402",
+      "verification_method": "Direct visual inspection of rendered PDF page; page number visible in image."
+    },
+    {
+      "unit_id": "v01-u000598",
+      "unit_text_sha256": "9ea250d14b258e7946644a377afa48d2a211b2900b306bfccc01b38b97aeff64",
+      "pdf_physical_page": 286,
+      "printed_page": 245,
+      "scan_reading": "les avantages et les pertes de toutes les spéculations.",
+      "classification": "Comparison print reads pertes; both Gutenberg formats read perles. Substantive transcription variant confirmed visually.",
+      "evidence_image": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/check-286.jpg",
+      "evidence_image_sha256": "1bda77d9308367b874698c730e2bd8bda628b4c45cd8918b2e875bb1f9f3e267",
+      "verification_method": "Direct visual inspection of rendered PDF page; page number visible in image."
+    }
+  ],
+  "base_source_unchanged": true
+}

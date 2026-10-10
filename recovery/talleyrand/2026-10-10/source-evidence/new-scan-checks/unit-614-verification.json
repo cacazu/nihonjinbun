@@ -1,0 +1,25 @@
+{
+  "unit_id": "v01-u000614",
+  "finding": "Editorial continuation of note322 (u1389), displaced into body by HTML",
+  "pdf_physical_page": 297,
+  "printed_page": 256,
+  "evidence_image": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/note322-297.jpg",
+  "image_sha256": "4c2e772bce45d1a94b19242bccc00ee7418cb8583db1a083988075ab12ebf576",
+  "txt_character_offset": 531160,
+  "txt_context": "nistère anglais avait alors besoin de simuler une\nnégociation pour se tirer de ses embarras intérieurs[322].\n\n    [322] Dès 1796, Pitt avait fait des ouvertures de paix et\n    envoyé Malmesbury à Paris. Les négociations furent rompues le\n    19 décembre 1796. L'année suivante, Malmesbury revint à Lille\n    (4 juillet) et de nouveaux pourparlers furent entamés; ils\n    n'aboutirent pas davantage.\n\n    James Harris, comte de Malmesbury, était né en 1746.\n    Secrétaire d'ambassade en 1768. Ministre à Berlin, 1771; à\n    Pétersbourg, 1777; à La Haye, 1783; membre de la Chambre des\n    lords, 1788. Sa vie publique se termina avec ses missions en\n    France. Il mourut en 1820.\n\nTelle était, au dehors, la situation de la France quand j'entrai dans\nle ministère.\n\nAu dedans, un parti travaillait à changer l'ordre de choses existant,\npour y substituer quoi? c'est ce qu'on n'a jamais su et ce qu'on ne\npourra jamais savoir; car ce parti, peu nombreux, était composé de\nrépublicains, de constituants et de conventionnels, qui pouvaient être\nréunis ",
+  "correct_body_order": [
+    "v01-u000613",
+    "v01-u000615"
+  ],
+  "correct_note_order": [
+    "v01-u001389",
+    "v01-u000614"
+  ],
+  "voices": "Both editorial; no explicit personal signature shown",
+  "new_note_number": null,
+  "terminal_bracket": "Present in HTML-derived base unit, absent from TXT and comparison scan",
+  "proposed_reader_text": "James Harris, comte de Malmesbury, était né en 1746. Secrétaire d'ambassade en 1768. Ministre à Berlin, 1771; à Pétersbourg, 1777; à La Haye, 1783; membre de la Chambre des lords, 1788. Sa vie publique se termina avec ses missions en France. Il mourut en 1820.",
+  "base_unit_text_sha256": "5851c5196d744d9ee252dc5429947bae3eb519c8e8846e460325167e82a68bf3",
+  "state": "Root and auditor notified; source unit metadata/text/order/hash not modified by this verification",
+  "verification": "Direct visual inspection and TXT context read"
+}

@@ -1,6 +1,6 @@
 # Talleyrand manuscript drafts — incomplete
 
-This checkpoint preserves 576 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
+This checkpoint preserves 642 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
 
 - `001-new-draft.json`: 20 newly drafted front-matter and early volume 1 entries, including units 17–26.
 - `002-new-draft.json`: newly drafted volume 1 units 27–37.
@@ -66,10 +66,23 @@ This checkpoint preserves 576 Japanese draft entries byte-for-byte as supplied o
 - `061-root-draft.json`: newly drafted volume 1 units 567–572.
 - `062-root-draft.json`: newly drafted volume 1 units 573–578.
 - `063-root-draft.json`: newly drafted volume 1 units 579–584.
+- `064-root-draft.json`: newly drafted volume 1 units 585–590.
+- `065-root-draft.json`: newly drafted volume 1 units 591–602.
+- `066-root-draft.json`: newly drafted volume 1 units 603–608.
+- `067-root-draft.json`: newly drafted volume 1 units 609–614.
+- `068-root-draft.json`: newly drafted volume 1 units 615–625.
+- `069-root-draft.json`: newly drafted volume 1 units 626–631.
+- `070-root-draft.json`: newly drafted volume 1 units 632–643.
+- `071-root-draft.json`: newly drafted volume 1 units 644–650.
 
-Batches 001–039 are replacement work, not recovered earlier text. Batches 041–063 are likewise new work. All sixty-four files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 576 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. This is partial-volume coverage only. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
+Batches 001–039 are replacement work, not recovered earlier text. Batches 041–071 are likewise new work. All seventy-two draft files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 642 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. This is partial-volume coverage only. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
 
 Preservation checks covered JSON syntax, incomplete status, nonempty Japanese text fields, unique entry IDs, source-hash presence and byte checksums. They do not certify full-volume accuracy or completeness. Before incorporation into canonical YAML, complete the remaining source alignment, review and required full reread. This folder is outside `translations/`; the catalog and canonical translations are unchanged.
+
+
+## Supporting source evidence
+
+`source-evidence/new-scan-checks/` preserves 15 comparison-scan page images and three provenance JSON files. The comparison scan is not established as the exact exemplar used by Gutenberg. Unit 591 preserves the printed negative with its interpretive difficulty disclosed; unit 598 documents the comparison reading `pertes` against Gutenberg's `perles`. Separate evidence documents unit 614 as editorial continuation of note 322, and unit 929 as editorial continuation after signed authorial note 500. The latter is evidence for future placement, not a claim that unit 929 has been translated. Base source files are unchanged. Paths recorded inside the original provenance files are preserved as supplied; corresponding images are included in this folder.
 
 ## SHA-256 checksums
 
@@ -137,3 +150,32 @@ Preservation checks covered JSON syntax, incomplete status, nonempty Japanese te
 - `061-root-draft.json`: `7d61fd8b0558b8edd621d308d47254d78df4dafea031e3cb273e71e25f1cf7b3`
 - `062-root-draft.json`: `b886f8f9431f474ddf6dd6aeb4241dad4a63302c40b890acc887c8cbdaebf2f5`
 - `063-root-draft.json`: `0202c521e306ad6de9ee4dc17fbcf00c033c19b6148c858f3f77e04ac624e5f1`
+- `064-root-draft.json`: `f47616034a3d6ca0cf79a4a98c36e7c0d5d47710f415a3045afc8e3a280a7ef5`
+- `065-root-draft.json`: `4a66adf63ee8834f2749f7f50d48816aead73a6fb19f87d5496885c710936a38`
+- `066-root-draft.json`: `24091929a136d324cbb0627e925e49994f0aa258cface4c3d1acc93f7c15a563`
+- `067-root-draft.json`: `5423676fc68e9e0ab73d39fd48c3f5926f952aa86a74599aca897610b02302b0`
+- `068-root-draft.json`: `e185a0d6c539befc4ec903343e31a6c2d99a67c2af16dd50d15b3cce3a2165a5`
+- `069-root-draft.json`: `b78c3390f38f7df74b89b12a6ad5258b0ca8499fd6887984c22f9ac91d186b81`
+- `070-root-draft.json`: `3d427b2de2079a005217eacaa1db329b8319a17472a97f44ba3b457de7156971`
+- `071-root-draft.json`: `47e8d2248a5dd2ac4dd8107812137b80bd5531118afa6f169eccbbb8ba1e4c60`
+
+### Source evidence
+
+- `source-evidence/new-scan-checks/check-283.jpg`: `353c2647b85a6da4a16d7a031f422dead01e693764de83f91803a0e8f351d3ac`
+- `source-evidence/new-scan-checks/check-284.jpg`: `bcdc25f55f4334f4325d4bb1585a5ddaa31d45c271cb7fa09b85e6ea4f48df1c`
+- `source-evidence/new-scan-checks/check-285.jpg`: `b8d798f535d57ad1cf65d8226e790c93a6d6b6acc48280193a0036c8505e5402`
+- `source-evidence/new-scan-checks/check-286.jpg`: `1bda77d9308367b874698c730e2bd8bda628b4c45cd8918b2e875bb1f9f3e267`
+- `source-evidence/new-scan-checks/check-287.jpg`: `3d6eeb353b007fb3c7d1ad6cd723136aad35db58920902284c7f8fbaf66e0366`
+- `source-evidence/new-scan-checks/note322-295.jpg`: `b887b16fa62d1744bcfd99489b09f592039604d323c50e6b1bf192e592dbbac9`
+- `source-evidence/new-scan-checks/note322-296.jpg`: `8b021a7e1ad5367997d4ddc8831cfd0a2a816c3f4cc8f3b22a824841d8396d48`
+- `source-evidence/new-scan-checks/note322-297.jpg`: `4c2e772bce45d1a94b19242bccc00ee7418cb8583db1a083988075ab12ebf576`
+- `source-evidence/new-scan-checks/note500-442.jpg`: `2f648abf864c2b23e77289d4626296224f75e2231916475f93bca54d83fc256f`
+- `source-evidence/new-scan-checks/note500-443.jpg`: `5b3759b6d94fa8109abd99e0c3b93f28d2daa0356cc7fd368f2f5abe8b812d19`
+- `source-evidence/new-scan-checks/note500-444.jpg`: `3663ed7b2cdee6c76d8e829e0ce0a54d87d0f34abf039b20ecfe80ee301a7b17`
+- `source-evidence/new-scan-checks/note500-445.jpg`: `2d91e5c27a5b0229d8c6f6408079da605b1f2f2309631413c88e9fdd64d3bb5e`
+- `source-evidence/new-scan-checks/note500-446.jpg`: `8349d27c472a16bc60474a4aea236332c76413d505e14a72eb872700f1f4b35c`
+- `source-evidence/new-scan-checks/note500-447.jpg`: `2d59b61f9cd0ad4d9651921240a0cfecce85de696b276d306c90c288919c9ddf`
+- `source-evidence/new-scan-checks/note500-448.jpg`: `01408f18157adeacaec8f98337b9b0d801722304f30f26d3054dfbee625760dc`
+- `source-evidence/new-scan-checks/unit-614-verification.json`: `b72b3037e640c7b57be54d4f0bed0492123b1a15a1c9d9a66fbd407a43d9d37e`
+- `source-evidence/new-scan-checks/unit-929-verification.json`: `f7cc3c15affcfa0e062397373f38245b666a73eeab9bec050f60911982e758c1`
+- `source-evidence/new-scan-checks/units-591-598-verification.json`: `0a5a5e7ae50ee991ff6686b6e60250858425dbd698fb7fb2d081fbf60f8104f6`
