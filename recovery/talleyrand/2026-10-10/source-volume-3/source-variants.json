@@ -1,0 +1,20 @@
+{
+  "scope": "Modern-vs-files-route HTML full book text exhaustively compared after whitespace normalization and wrapper removal. Selected HTML/TXT differences observed; exhaustive HTML/TXT collation is not claimed.",
+  "primary_inventory": "HTML",
+  "format_differences": [
+    "TXT interleaves historical notes near their references; HTML collects them at the end before the table of contents.",
+    "TXT marks emphasis with underscores and superscripts as text; HTML retains inline elements.",
+    "HTML has page-marker anchors and the image enlargement control, absent from the TXT rendition."
+  ],
+  "observed_variants": [
+    {
+      "kind": "digital_transcriber_notice_differs",
+      "html_notice": "Note de transcription: Les erreurs clairement introduites par le typographe ont été corrigées. L'orthographe d'origine a été conservée et n'a pas été harmonisée. Les numéros des pages blanches n'ont pas été repris dans ce livre électronique.",
+      "txt_notice": "Note de transcription: Les erreurs clairement introduites par le typographe ont été corrigées. L'orthographe d'origine a été conservée et n'a pas été harmonisée.",
+      "action": "Preserve both exact downloaded files; only HTML digital notice separately inventoried."
+    }
+  ],
+  "shared_source_anomalies": [
+    "Both current HTML and current TXT have 1825 in the date of the letter inside note 208 and in note 254’s Moniteur reference. See source-issues.json."
+  ]
+}

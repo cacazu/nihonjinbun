@@ -1,0 +1,22 @@
+{
+  "excluded": [
+    {
+      "kind": "digital_editorial_note",
+      "text": "Note de transcription: Les erreurs clairement introduites par le typographe ont été corrigées. L'orthographe d'origine a été conservée et n'a pas été harmonisée. Les numéros des pages blanches n'ont pas été repris dans ce livre électronique.",
+      "source_xpath": "/html/body/div[2]/p",
+      "source_line": 293,
+      "source_html": "<p>Note de transcription: Les erreurs clairement introduites par le typographe ont été corrigées.&#13;\nL'orthographe d'origine a été conservée et n'a pas été harmonisée.<br/>&#13;\nLes numéros des pages blanches n'ont pas été repris dans ce livre électronique.</p>",
+      "text_sha256": "cec04554c34a794999731920c321b806e6b55a5dfb76d4a7b59851bb6aac48da"
+    },
+    {
+      "kind": "digital_image_control",
+      "text": "Agrandissement",
+      "source_xpath": "/html/body/p[4]/a",
+      "source_line": 323,
+      "source_html": "<a href=\"images/003_b.jpg\" id=\"id-1670618423242478788\">Agrandissement</a>",
+      "text_sha256": "ceae5d07ecb5d1dc11d6ed3503a47783f5ae92cf37b475b599c93399a338a402"
+    }
+  ],
+  "gutenberg_endnotes": [],
+  "note": "Compound historical annotations Footnote_264-a through Footnote_264-g are retained in units.json; they are not transcriber notices. The electronic NOTES grouping heading is retained but explicitly identified as digital editorial metadata."
+}

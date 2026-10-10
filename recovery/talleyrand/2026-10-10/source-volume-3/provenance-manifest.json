@@ -1,0 +1,195 @@
+{
+  "gutenberg_id": 30913,
+  "catalog_url": "https://www.gutenberg.org/ebooks/30913",
+  "primary_html_url": "https://www.gutenberg.org/cache/epub/30913/pg30913-images.html",
+  "legacy_html_url": "https://www.gutenberg.org/files/30913/30913-h/30913-h.htm",
+  "primary_text_url": "https://www.gutenberg.org/cache/epub/30913/pg30913.txt",
+  "legacy_text_url": "https://www.gutenberg.org/files/30913/30913-0.txt",
+  "rdf_url": "https://www.gutenberg.org/ebooks/30913.rdf",
+  "download_date_utc": "2026-10-10",
+  "official_metadata": [
+    {
+      "field": "Author",
+      "value": "Talleyrand-Périgord, Charles Maurice de, prince de Bénévent, 1754-1838"
+    },
+    {
+      "field": "Annotator",
+      "value": "Broglie, Albert de, 1821-1901"
+    },
+    {
+      "field": "Title",
+      "value": "Mémoires du prince de Talleyrand, Volume 3"
+    },
+    {
+      "field": "Credits",
+      "value": "Produced by Mireille Harmelin, Hélène de Mink and the Online Distributed Proofreaders Europe at dp.rastko.net. This file was produced from images generously made available by the Bibliothèque nationale de France (BnF/Gallica)"
+    },
+    {
+      "field": "Reading Level",
+      "value": "Reading ease score: 64.0 (8th & 9th grade). Neither easy nor difficult to read."
+    },
+    {
+      "field": "Language",
+      "value": "French"
+    },
+    {
+      "field": "LoC Class",
+      "value": "DC: History: General and Eastern Hemisphere: France, Andorra, Monaco"
+    },
+    {
+      "field": "Subject",
+      "value": "France -- History"
+    },
+    {
+      "field": "Subject",
+      "value": "Choiseul, Etienne-François, duc de, 1719-1785"
+    },
+    {
+      "field": "Category",
+      "value": "Text"
+    },
+    {
+      "field": "eBook-No.",
+      "value": "30913"
+    },
+    {
+      "field": "ISBN (HTML)",
+      "value": "979-8-238-30913-2"
+    },
+    {
+      "field": "Release Date",
+      "value": "Jan 10, 2010"
+    },
+    {
+      "field": "Last Update",
+      "value": "Mar 10, 2024"
+    },
+    {
+      "field": "Copyright",
+      "value": "Public domain in the USA."
+    },
+    {
+      "field": "Downloads",
+      "value": "665 downloads in the last 30 days."
+    }
+  ],
+  "edition": {
+    "title": "Mémoires du prince de Talleyrand",
+    "volume": "III",
+    "author": "Charles Maurice de Talleyrand-Périgord",
+    "editor_and_annotator": "Le duc de Broglie (Albert de Broglie)",
+    "publication_place": "Paris",
+    "publisher": "Calmann Lévy",
+    "year": "1891",
+    "publisher_address": "Rue Auber, 3, et boulevard des Italiens, 13, à la Librairie Nouvelle",
+    "printer_colophon": "PARIS.—IMPRIMERIE CHAIX, 20, RUE BERGÈRE.—9370-6-91.",
+    "frontmatter_rights_notice_retained": true,
+    "title_page_evidence_unit_ids": [
+      "v03-u000001",
+      "v03-u000002",
+      "v03-u000003",
+      "v03-u000004",
+      "v03-u000005",
+      "v03-u000006",
+      "v03-u000007",
+      "v03-u000008",
+      "v03-u000009",
+      "v03-u000010",
+      "v03-u000011",
+      "v03-u000012"
+    ],
+    "source_credit": "Mireille Harmelin, Hélène de Mink and Online Distributed Proofreaders Europe; source images credited to BnF/Gallica.",
+    "source_scan_ark": null,
+    "edition_scope": "Part VIII continued (Congress of Vienna, 1814–1815), Part IX (Second Restoration, 1815) with appendix, Part X (Revolution of 1830, 1830–1832) with appendix, historical notes, contents and printer colophon. Title-page formula credits a preface; no new volume-III preface is inferred."
+  },
+  "encoding": {
+    "source.html": "UTF-8, official current cache",
+    "source.txt": "UTF-8, official current cache",
+    "source-legacy.html": "UTF-8, official files-route source updated in 2024",
+    "source-legacy.txt": "UTF-8, official files-route source updated in 2024"
+  },
+  "inventory": {
+    "path": "units.json",
+    "unit_count": 2337,
+    "unit_ids": "v03-u000001 through v03-u002337, source order, no semantic merges",
+    "hash": "3a7767c00e683065e7d41cae550eeae35b017ae0855dc6939b6413dbaba00a2d",
+    "source_note": "Stable source-order identifiers preserve the saved Gutenberg units without semantic merges. These are package identifiers; identity with identifiers from another inventory is not asserted.",
+    "word_count": 133549,
+    "word_count_definition": "sum(len(unit.text.split())); note labels are included; inline HTML superscripts remain joined to their words; page labels and digital controls/notices are excluded.",
+    "digital_material_separate": "digital-editorial-exclusions.json",
+    "note_inventory": "notes-inventory.json",
+    "page_and_link_inventory": [
+      "page-markers.json",
+      "marker-only-blocks.json",
+      "marker-links.json"
+    ],
+    "illustrations": "illustrations-manifest.json",
+    "note_frame_voice": "Explicit note signatures identify the frame only; embedded document writers and unsigned later biographies are separately qualified.",
+    "alternate_format_variants": "source-variants.json",
+    "source_issues": "source-issues.json",
+    "semantic_overlay_note": "Public voice, note-frame, document and source-evidence annotations are already included in units.json and notes-inventory.json. Source French text and saved HTML/TXT bytes have not been corrected by these annotations."
+  },
+  "verification": {
+    "full_facsimile_collation": false,
+    "modern_legacy_html_book_text_equal": true,
+    "coverage_scope": "Every nonblank text node in downloaded official HTML belongs to a retained unit, preserved digital exclusion, page marker, or Gutenberg boilerplate. No claim that Gutenberg captured every printed element of the 1891 edition."
+  },
+  "parser_environment": {
+    "python": "3.13.5",
+    "lxml": "5.4.0.0",
+    "libxml2": "2.9.14",
+    "pillow": "11.1.0",
+    "line_endings": "Official files retain CRLF bytes; this libxml2 parser retains CR in DOM text and lxml serialization renders it as &#13;. Newer libxml2 may normalize CRLF to LF; stored source_html hashes are defined by this recorded parser and serialization."
+  },
+  "source_files": [
+    {
+      "file": "source.html",
+      "bytes": 1028017,
+      "sha256": "f169833a1a247697f215b4d3135385e5e3c5d2d5d098ca62aa9d677def15110e"
+    },
+    {
+      "file": "source.txt",
+      "bytes": 883880,
+      "sha256": "1d87e94585c60833aaf051f608df0d2bda39c33a608842569925100887e5c9bc"
+    },
+    {
+      "file": "source-legacy.html",
+      "bytes": 1020903,
+      "sha256": "7d7df3936b57b9656e3de7b8f365eaa45313da515fea12d530ff4c759e11f9bc"
+    },
+    {
+      "file": "source-legacy.txt",
+      "bytes": 863782,
+      "sha256": "f10da2250a1b91f2ecde0126c1ee52779f5ee4a73e5cdc4cf8f7dc6e1871e69d"
+    },
+    {
+      "file": "catalog.html",
+      "bytes": 25336,
+      "sha256": "54320aaedacc28f852b008d8068707a0e53c2db0aa9eabfc7d0f38a66df8911e"
+    },
+    {
+      "file": "metadata.rdf",
+      "bytes": 18856,
+      "sha256": "f60e6bec3ee9d20f992f04b6d66dc1bfb6793b611c813edc25a6de3b907ea102"
+    },
+    {
+      "file": "official-file-index.html",
+      "bytes": 1211,
+      "sha256": "a52a5e414664b0564233ebb372d04aafb6676076b68d724e3bfa9f8569f16e9c"
+    }
+  ],
+  "limitations": [
+    "Unit IDs are package identifiers and are not certified to match other inventories.",
+    "No complete collation with the printed 1891 facsimile; completeness refers to the downloaded Gutenberg HTML.",
+    "Gutenberg credits BnF/Gallica images but supplies no verified Gallica ARK here.",
+    "The collected NOTES heading and relocation of footnotes are digital presentation; original pagination of note text is not asserted.",
+    "Nested notes 264-a through 264-g are substantive historical annotations within note 264, with printed provenance pending facsimile confirmation.",
+    "Voice classification is conservative, structural and partly unresolved; embedded quotes can coexist with the frame voice.",
+    "The retained original title-page rights notice is historical text; it is not a claim of current copyright.",
+    "Legacy-named files are the current official files-route source, revised in 2024, not certified original 2010 release bytes.",
+    "HTML/TXT alternate renditions are not asserted identical; observed differences are recorded in source-variants.json.",
+    "The source contains page-label and date anomalies; source-issues.json records them without altering French readings."
+  ],
+  "rights_scope": "Project Gutenberg identifies public-domain status in the USA only. No separate worldwide copyright clearance or facsimile redistribution permission is asserted.",
+  "preservation_scope": "Reader-facing preservation bundle of saved source witnesses, stable units, historical notes, source cautions, markers, links and illustration assets. This is not a one-command regeneration build."
+}

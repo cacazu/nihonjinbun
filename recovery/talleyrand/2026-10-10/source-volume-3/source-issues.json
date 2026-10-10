@@ -1,0 +1,49 @@
+{
+  "scope": "Specific observed source issues and preservation decisions, not an exhaustive historical fact check.",
+  "issues": [
+    {
+      "id": "V3-SRC-001",
+      "kind": "page_label_anchor_mismatch",
+      "anchor": "Page_041",
+      "display_label": "411",
+      "source_xpath": "/html/body/p[177]/span/a",
+      "unit_id": "v03-u000205",
+      "evidence": "Both official current and files-route HTML have id Page_041 but visible text 411.",
+      "action": "Preserve raw marker label 411 and anchor Page_041; page_start/page_end uses anchor 041. Do not silently replace source text; display erratum can be noted separately."
+    },
+    {
+      "id": "V3-SRC-002",
+      "kind": "missing_page_markers",
+      "anchors": [
+        "Page_187",
+        "Page_324"
+      ],
+      "evidence": "Both official HTML files omit these two numeric anchors. HTML transcriber notice says blank page numbers were not reproduced; that does not establish that both these particular pages were blank.",
+      "action": "Do not invent markers or omitted text. Page spans after Page_186 remain source-anchor contexts and do not assert printed page identity for text where the marker is absent."
+    },
+    {
+      "id": "V3-SRC-003",
+      "kind": "apparent_date_anomaly",
+      "unit_id": "v03-u002013",
+      "text": "«Gand, 21 avril 1825.",
+      "evidence": "Note 208 introduces the royal letter of 21 April in the 1815 Vienna correspondence. Both HTML and TXT explicitly read 1825.",
+      "action": "Preserve 1825 in the French source; flag as a possible source error pending printed-facsimile collation, not silently correct it to 1815."
+    },
+    {
+      "id": "V3-SRC-004",
+      "kind": "apparent_date_anomaly",
+      "unit_id": "v03-u002069",
+      "text": "[254] Voir le Moniteur du 10 juillet 1825.",
+      "evidence": "The note is attached to correspondence in the 1815 Second Restoration section. Both HTML and TXT explicitly read 1825.",
+      "action": "Preserve 1825 in the French source; flag as a possible source error pending printed-facsimile collation, not silently correct it to 1815."
+    },
+    {
+      "id": "V3-SRC-005",
+      "kind": "nested_note_corrects_document_heading",
+      "heading_unit_id": "v03-u002100",
+      "annotation_unit_id": "v03-u002111",
+      "evidence": "Note 264 reproduces a letter whose heading calls Bourrienne préfet de l’Yonne; nested note 264-a explicitly says he was president of its electoral college, not prefect.",
+      "action": "Retain both the historical letter heading and its corrective note; do not merge speakers or replace one with the other."
+    }
+  ]
+}
