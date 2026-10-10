@@ -150,6 +150,8 @@ The added `units-763-801-809-verification.json` and its three referenced images 
 
 `source-evidence/note-1-nested-voice.json` records the quoted royal letter nested within editorial framing in printed note 1; the printed note number remains unchanged.
 
+Seven original Gutenberg illustration files are preserved under `source-evidence/images/`, alongside the original `illustrations-manifest.json` and `pg-digital-notes-for-translation.json`. The original manifest describes eight local files, but `images/2s.jpg` is intentionally absent from this repository checkpoint because its upload was canceled. The full-size `images/2.jpg` is preserved. The manifest is retained unchanged as source provenance; it is not an assertion that every listed file is present here.
+
 ## SHA-256 checksums
 
 - `001-new-draft.json`: `d1560d1c116f718575d4f11cd83384020bcc032bfed4f4e8ed93fbf380cbfa0c`
@@ -317,3 +319,15 @@ The added `units-763-801-809-verification.json` and its three referenced images 
 - `source-evidence/unit-865-referent-evidence.json`: `1bbca4da2039c0768b05d952f7e5937f8b697bf360ce5ca37a4caeeec687812b`
 
 - `source-evidence/note-1-nested-voice.json`: `98358b6f241644d47f11df5652f6f070b25306b3419f90930c74814bf86dad0d`
+
+### Original illustration and digital-note sources
+
+- `source-evidence/images/1.jpg`: `d2d1a6fde1c7a10cb509e25a0f42bd72355def3a4db13e2ea5b496759be1cd94`
+- `source-evidence/images/1s.jpg`: `4f6e09ac3b5ac2f97219eced62b54ec7dca7c53975fb62e3b5fb8f98c54a37eb`
+- `source-evidence/images/2.jpg`: `04ef67d6998dad3165586e1f8bc40dfa31e2dd2e5cddfc4c9b2106dcd781238b`
+- `source-evidence/images/3.jpg`: `848344714e97b058bc961b337a2e9126b1d08c210a2ad14ffea3557c45246d83`
+- `source-evidence/images/3s.jpg`: `c2e9588c772e67b219fe45302093143fabad95724a51e685e5393c9b6c0a187f`
+- `source-evidence/images/4.jpg`: `9a2d1f9bdbc66908142ffe18dbdf387181b4fc2390d13163bf80a141139274f2`
+- `source-evidence/images/4s.jpg`: `4b49d571edcc777aa6d36a3fa72c5b686d0460a9ef6fd3f40e22beb5f69cc9c2`
+- `source-evidence/illustrations-manifest.json`: `f1002ec0e610cd33a11120098c8bc7a5ae9d5edf330853712a1e066bc1d0865c`
+- `source-evidence/pg-digital-notes-for-translation.json`: `254744c04c890ae4116f60f1d626d2a26437c00220e37f69c4d2d406847b5426`

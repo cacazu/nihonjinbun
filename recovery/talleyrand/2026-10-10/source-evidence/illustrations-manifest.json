@@ -1,0 +1,170 @@
+{
+  "source_html_file": "source.html",
+  "source_html_sha256": "afbe625e4a5e60594879b2cfbbe9fc5ad4d2f49cf8c874017424fae588f4cc46",
+  "base_url_evidence": "dcterms.source metadata in preserved official Gutenberg HTML names https://www.gutenberg.org/files/25756/25756-h/25756-h.htm; image and enlargement paths observed directly in img/src and a/href.",
+  "source_units_edited": false,
+  "files": [
+    {
+      "file": "images/1.jpg",
+      "observed_relative_path": "images/1.jpg",
+      "url": "https://www.gutenberg.org/files/25756/25756-h/images/1.jpg",
+      "final_url": "https://www.gutenberg.org/files/25756/25756-h/images/1.jpg",
+      "bytes": 101369,
+      "sha256": "d2d1a6fde1c7a10cb509e25a0f42bd72355def3a4db13e2ea5b496759be1cd94",
+      "content_type": "image/jpeg",
+      "retrieved_utc": "2026-10-10T10:52:02.418050+00:00",
+      "dimensions": [
+        570,
+        614
+      ],
+      "format": "JPEG",
+      "image_integrity_verified": true
+    },
+    {
+      "file": "images/1s.jpg",
+      "observed_relative_path": "images/1s.jpg",
+      "url": "https://www.gutenberg.org/files/25756/25756-h/images/1s.jpg",
+      "final_url": "https://www.gutenberg.org/files/25756/25756-h/images/1s.jpg",
+      "bytes": 47778,
+      "sha256": "4f6e09ac3b5ac2f97219eced62b54ec7dca7c53975fb62e3b5fb8f98c54a37eb",
+      "content_type": "image/jpeg",
+      "retrieved_utc": "2026-10-10T10:52:02.449972+00:00",
+      "dimensions": [
+        390,
+        420
+      ],
+      "format": "JPEG",
+      "image_integrity_verified": true
+    },
+    {
+      "file": "images/2.jpg",
+      "observed_relative_path": "images/2.jpg",
+      "url": "https://www.gutenberg.org/files/25756/25756-h/images/2.jpg",
+      "final_url": "https://www.gutenberg.org/files/25756/25756-h/images/2.jpg",
+      "bytes": 97227,
+      "sha256": "04ef67d6998dad3165586e1f8bc40dfa31e2dd2e5cddfc4c9b2106dcd781238b",
+      "content_type": "image/jpeg",
+      "retrieved_utc": "2026-10-10T10:52:02.405040+00:00",
+      "dimensions": [
+        670,
+        493
+      ],
+      "format": "JPEG",
+      "image_integrity_verified": true
+    },
+    {
+      "file": "images/2s.jpg",
+      "observed_relative_path": "images/2s.jpg",
+      "url": "https://www.gutenberg.org/files/25756/25756-h/images/2s.jpg",
+      "final_url": "https://www.gutenberg.org/files/25756/25756-h/images/2s.jpg",
+      "bytes": 47703,
+      "sha256": "287a204a863d7b545d542d82963b79e2fbf5ae3b7e0f92544734a1bde906984e",
+      "content_type": "image/jpeg",
+      "retrieved_utc": "2026-10-10T10:52:02.411193+00:00",
+      "dimensions": [
+        450,
+        314
+      ],
+      "format": "JPEG",
+      "image_integrity_verified": true
+    },
+    {
+      "file": "images/3.jpg",
+      "observed_relative_path": "images/3.jpg",
+      "url": "https://www.gutenberg.org/files/25756/25756-h/images/3.jpg",
+      "final_url": "https://www.gutenberg.org/files/25756/25756-h/images/3.jpg",
+      "bytes": 100339,
+      "sha256": "848344714e97b058bc961b337a2e9126b1d08c210a2ad14ffea3557c45246d83",
+      "content_type": "image/jpeg",
+      "retrieved_utc": "2026-10-10T10:52:08.964457+00:00",
+      "dimensions": [
+        580,
+        741
+      ],
+      "format": "JPEG",
+      "image_integrity_verified": true
+    },
+    {
+      "file": "images/3s.jpg",
+      "observed_relative_path": "images/3s.jpg",
+      "url": "https://www.gutenberg.org/files/25756/25756-h/images/3s.jpg",
+      "final_url": "https://www.gutenberg.org/files/25756/25756-h/images/3s.jpg",
+      "bytes": 50244,
+      "sha256": "c2e9588c772e67b219fe45302093143fabad95724a51e685e5393c9b6c0a187f",
+      "content_type": "image/jpeg",
+      "retrieved_utc": "2026-10-10T10:52:09.007033+00:00",
+      "dimensions": [
+        350,
+        447
+      ],
+      "format": "JPEG",
+      "image_integrity_verified": true
+    },
+    {
+      "file": "images/4.jpg",
+      "observed_relative_path": "images/4.jpg",
+      "url": "https://www.gutenberg.org/files/25756/25756-h/images/4.jpg",
+      "final_url": "https://www.gutenberg.org/files/25756/25756-h/images/4.jpg",
+      "bytes": 64813,
+      "sha256": "9a2d1f9bdbc66908142ffe18dbdf387181b4fc2390d13163bf80a141139274f2",
+      "content_type": "image/jpeg",
+      "retrieved_utc": "2026-10-10T10:52:09.030818+00:00",
+      "dimensions": [
+        550,
+        695
+      ],
+      "format": "JPEG",
+      "image_integrity_verified": true
+    },
+    {
+      "file": "images/4s.jpg",
+      "observed_relative_path": "images/4s.jpg",
+      "url": "https://www.gutenberg.org/files/25756/25756-h/images/4s.jpg",
+      "final_url": "https://www.gutenberg.org/files/25756/25756-h/images/4s.jpg",
+      "bytes": 36036,
+      "sha256": "4b49d571edcc777aa6d36a3fa72c5b686d0460a9ef6fd3f40e22beb5f69cc9c2",
+      "content_type": "image/jpeg",
+      "retrieved_utc": "2026-10-10T10:52:09.032830+00:00",
+      "dimensions": [
+        350,
+        442
+      ],
+      "format": "JPEG",
+      "image_integrity_verified": true
+    }
+  ],
+  "illustrations": [
+    {
+      "file": "images/1s.jpg",
+      "enlargement": "images/1.jpg",
+      "alt": "CH. MAURICE TALLEYRAND",
+      "caption": "CH. MAURICE TALLEYRAND MINISTRE DES RELATIONS EXTÉRIEURES (D'après Isabey)",
+      "source_line": 331,
+      "source_html": "<div class=\"figcenter\"><img alt=\"CH. MAURICE TALLEYRAND\" height=\"420\" src=\"images/1s.jpg\" title=\"\" width=\"390\" id=\"img_images_1s.jpg\">\n<p class=\"center\">CH. MAURICE TALLEYRAND<br>\nMINISTRE DES RELATIONS EXTÉRIEURES<br>\n(D'après Isabey)</p></div>\n"
+    },
+    {
+      "file": "images/2s.jpg",
+      "enlargement": "images/2.jpg",
+      "alt": "lettre Louis XVI",
+      "caption": "",
+      "source_line": 1078,
+      "source_html": "<div class=\"figcenter\"><img alt=\"lettre Louis XVI\" height=\"314\" src=\"images/2s.jpg\" title=\"\" width=\"450\" id=\"img_images_2s.jpg\">\n<p class=\"left10\"><a href=\"images/2.jpg\" id=\"id-4337314497624970442\">Agrandissement</a></p></div>\n"
+    },
+    {
+      "file": "images/3s.jpg",
+      "enlargement": "images/3.jpg",
+      "alt": "lettre page 1",
+      "caption": "",
+      "source_line": 1089,
+      "source_html": "<div class=\"figcenter\"><img alt=\"lettre page 1\" height=\"447\" src=\"images/3s.jpg\" title=\"\" width=\"350\" id=\"img_images_3s.jpg\"></div>\n"
+    },
+    {
+      "file": "images/4s.jpg",
+      "enlargement": "images/4.jpg",
+      "alt": "lettre page2",
+      "caption": "",
+      "source_line": 1092,
+      "source_html": "<div class=\"figcenter\"><img alt=\"lettre page2\" height=\"442\" src=\"images/4s.jpg\" title=\"\" width=\"350\" id=\"img_images_4s.jpg\">\n<p class=\"left10\"><a href=\"images/4.jpg\" id=\"id-7641642239359796809\">Agrandissement</a></p></div>\n"
+    }
+  ]
+}
