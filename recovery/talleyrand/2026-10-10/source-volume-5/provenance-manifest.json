@@ -1,0 +1,271 @@
+{
+  "gutenberg_id": 42292,
+  "catalog_url": "https://www.gutenberg.org/ebooks/42292",
+  "primary_html_url": "https://www.gutenberg.org/cache/epub/42292/pg42292-images.html",
+  "legacy_html_url": "https://www.gutenberg.org/files/42292/42292-h/42292-h.htm",
+  "primary_text_url": "https://www.gutenberg.org/cache/epub/42292/pg42292.txt",
+  "legacy_text_url": "https://www.gutenberg.org/files/42292/42292-0.txt",
+  "rdf_url": "https://www.gutenberg.org/ebooks/42292.rdf",
+  "download_date_utc": "2026-10-10",
+  "official_metadata": [
+    {
+      "field": "Author",
+      "value": "Talleyrand-Périgord, Charles Maurice de, prince de Bénévent, 1754-1838"
+    },
+    {
+      "field": "Annotator",
+      "value": "Broglie, Albert de, 1821-1901"
+    },
+    {
+      "field": "Title",
+      "value": "Mémoires du prince de Talleyrand, Volume 5"
+    },
+    {
+      "field": "Credits",
+      "value": "Produced by Mireille Harmelin, Hélène de Mink, and the Online Distributed Proofreaders Europe at dp.rastko.net. This file was produced from images generously made available by the Bibliothèque nationale de France (BnF/Gallica)"
+    },
+    {
+      "field": "Reading Level",
+      "value": "Reading ease score: 68.3 (8th & 9th grade). Neither easy nor difficult to read."
+    },
+    {
+      "field": "Language",
+      "value": "French"
+    },
+    {
+      "field": "LoC Class",
+      "value": "DC: History: General and Eastern Hemisphere: France, Andorra, Monaco"
+    },
+    {
+      "field": "Subject",
+      "value": "France -- History"
+    },
+    {
+      "field": "Subject",
+      "value": "Choiseul, Etienne-François, duc de, 1719-1785"
+    },
+    {
+      "field": "Category",
+      "value": "Text"
+    },
+    {
+      "field": "eBook-No.",
+      "value": "42292"
+    },
+    {
+      "field": "ISBN (HTML)",
+      "value": "979-8-238-42292-3"
+    },
+    {
+      "field": "Release Date",
+      "value": "Mar 10, 2013"
+    },
+    {
+      "field": "Last Update",
+      "value": "Oct 23, 2024"
+    },
+    {
+      "field": "Copyright",
+      "value": "Public domain in the USA."
+    },
+    {
+      "field": "Downloads",
+      "value": "620 downloads in the last 30 days."
+    }
+  ],
+  "rights_scope": "Project Gutenberg identifies public-domain status in the USA only. No separate jurisdictional clearance or permission for facsimile redistribution is asserted.",
+  "edition": {
+    "title": "Mémoires du prince de Talleyrand",
+    "volume": "V",
+    "author": "Charles Maurice de Talleyrand-Périgord",
+    "editor_and_annotator": "Le duc de Broglie (Albert de Broglie)",
+    "publication_place": "Paris",
+    "publisher": "Calmann Lévy",
+    "year": "1892",
+    "publisher_address": "Rue Auber, 3, et boulevard des Italiens, 15, à la Librairie Nouvelle",
+    "title_page_evidence_unit_ids": [
+      "v05-u000001",
+      "v05-u000002",
+      "v05-u000003",
+      "v05-u000004",
+      "v05-u000005",
+      "v05-u000006",
+      "v05-u000007",
+      "v05-u000008"
+    ],
+    "frontmatter_rights_notice_retained": true,
+    "source_credit": "Mireille Harmelin, Hélène de Mink and Online Distributed Proofreaders Europe; PG credits BnF/Gallica source images. The separate recovered facsimile is not asserted to be the exact PG production scan.",
+    "scope": "Editor warning; parts XI and XII, Revolution of 1830 (1832–1834); editorially assembled final correspondence and 1838 documents; appendix; Talleyrand essay on Choiseul; alphabetical index covering volumes I–V; 406 historical notes; end formula. Missing printed contents and printer material are separately recovered where documented.",
+    "attribution_caution": "Albert de Broglie is the 1892 editor; the 1832–1834 duc de Broglie correspondent is his father Victor de Broglie. The post-Quadruple-Alliance continuation is editorially assembled; it is not all Talleyrand memoir narration.",
+    "printer_colophon": "PARIS. — IMP. CHAIX, RUE BERGÈRE, 20. — 17796-7-91."
+  },
+  "encoding": {
+    "source.html": "UTF-8",
+    "source.txt": "UTF-8",
+    "source-legacy.html": "UTF-8",
+    "source-legacy.txt": "UTF-8"
+  },
+  "inventory": {
+    "path": "units.json",
+    "unit_count": 4521,
+    "unit_id_range": [
+      "v05-u000001",
+      "v05-u004521"
+    ],
+    "sha256": "c7256fabd38f86cfe421170a44c03a5477edda9ee0be36d7839a4a983d781f0a",
+    "word_count": 187458,
+    "word_count_definition": "sum(len(unit.text.split())); note labels are included; inline HTML superscripts remain joined to their words; page labels and digital controls/notices are excluded.",
+    "sections": [
+      {
+        "section": "front_matter",
+        "first_unit_id": "v05-u000001",
+        "last_unit_id": "v05-u000008",
+        "unit_count": 8,
+        "word_count": 69
+      },
+      {
+        "section": "editor_warning",
+        "first_unit_id": "v05-u000009",
+        "last_unit_id": "v05-u000032",
+        "unit_count": 24,
+        "word_count": 3766
+      },
+      {
+        "section": "part_11",
+        "first_unit_id": "v05-u000033",
+        "last_unit_id": "v05-u001152",
+        "unit_count": 1120,
+        "word_count": 62322
+      },
+      {
+        "section": "part_12",
+        "first_unit_id": "v05-u001153",
+        "last_unit_id": "v05-u002093",
+        "unit_count": 941,
+        "word_count": 50237
+      },
+      {
+        "section": "appendix",
+        "first_unit_id": "v05-u002094",
+        "last_unit_id": "v05-u002265",
+        "unit_count": 172,
+        "word_count": 9224
+      },
+      {
+        "section": "choiseul",
+        "first_unit_id": "v05-u002266",
+        "last_unit_id": "v05-u002361",
+        "unit_count": 96,
+        "word_count": 17716
+      },
+      {
+        "section": "index",
+        "first_unit_id": "v05-u002362",
+        "last_unit_id": "v05-u004051",
+        "unit_count": 1690,
+        "word_count": 17148
+      },
+      {
+        "section": "notes",
+        "first_unit_id": "v05-u004052",
+        "last_unit_id": "v05-u004520",
+        "unit_count": 469,
+        "word_count": 26970
+      },
+      {
+        "section": "volume_end",
+        "first_unit_id": "v05-u004521",
+        "last_unit_id": "v05-u004521",
+        "unit_count": 1,
+        "word_count": 6
+      }
+    ],
+    "note_inventory": "notes-inventory.json",
+    "page_and_link_inventory": [
+      "page-markers.json",
+      "marker-only-blocks.json",
+      "marker-links.json"
+    ],
+    "illustrations": "illustrations-manifest.json",
+    "index_structure": "index-structures.json",
+    "document_inventory": "documents-inventory.json",
+    "alternate_format_variants": "source-variants.json",
+    "source_issues": "source-issues.json",
+    "facsimile_supplement": "facsimile-restoration.json",
+    "combined_source_reading_sequence": "source-reading-sequence.json",
+    "facsimile_supplement_units": "facsimile-supplement-units.json",
+    "combined_unit_count": 4531,
+    "combined_word_count": 187511,
+    "source_note": "Stable source-order identifiers preserve Gutenberg units separately from the facsimile supplement."
+  },
+  "verification": {
+    "full_facsimile_collation": false,
+    "current_vs_legacy_html_equal": true,
+    "coverage_scope": "Every nonblank text node in the saved PG HTML is retained or separately accounted for as digital material, page marker or Gutenberg boilerplate. The separately recovered printed contents do not establish full printed-edition collation.",
+    "targeted_facsimile_recovery": "Nine contents units and one printer-colophon unit, edition title pages, original closing formula, and blank versos corresponding to pages 2/268 visually checked in matching 1892 witnesses; not full collation.",
+    "facsimile_primary_witness": "https://archive.org/details/mmoirespubli05talluoft",
+    "bundled_facsimile_evidence": [
+      "facsimile/toronto-n8.jpg",
+      "facsimile/toronto-n677.jpg",
+      "facsimile/toronto-n678.jpg"
+    ],
+    "unbundled_facsimile_evidence": "The corroborating UC Davis scan and two blank-verso checks retain external source URLs; they are not bundled."
+  },
+  "parser_environment": {
+    "python": "3.13.5",
+    "lxml": "5.4.0.0",
+    "libxml2": "2.9.14",
+    "pillow": "11.1.0",
+    "interpreter": "/usr/bin/python3",
+    "line_endings": "Official files retain CRLF bytes; this libxml2 parser retains CR in DOM text and lxml serialization renders it as &#13;. Newer libxml2 may normalize CRLF to LF; stored source_html hashes are defined by this recorded parser and serialization."
+  },
+  "source_files": [
+    {
+      "file": "source.html",
+      "bytes": 1516880,
+      "sha256": "554944e0802e91bf8dab197edbc89f8f161855ba443664cb90bf7e6a07ae2e74"
+    },
+    {
+      "file": "source.txt",
+      "bytes": 1251131,
+      "sha256": "b862016952fc7f5e97e19e5c9d028c7da02264c0d4da6375df473e203979d553"
+    },
+    {
+      "file": "source-legacy.html",
+      "bytes": 1480565,
+      "sha256": "d3dbbe0b3c8f9113958704e4e794eba7071475edf76e575ca650d4b47bd7e1f0"
+    },
+    {
+      "file": "source-legacy.txt",
+      "bytes": 1231166,
+      "sha256": "5df45d8a305c81815f0957270527482e6b112677da3b3e4c872708124a22e7b2"
+    },
+    {
+      "file": "catalog.html",
+      "bytes": 25268,
+      "sha256": "867c895c1b6dcd758de6199421457ff1eef35f044cfde3783ddd76d033b11d16"
+    },
+    {
+      "file": "metadata.rdf",
+      "bytes": 18906,
+      "sha256": "c1bee60d42f3f076cc64295fba26d4e9403f2a12f6f35264e34594021e3c87fa"
+    },
+    {
+      "file": "official-file-index.html",
+      "bytes": 1211,
+      "sha256": "32a822b4ac04ddf2c394d8d1b7a05ca3434d7e71f3a07e48449f7a37c94c6ce2"
+    }
+  ],
+  "limitations": [
+    "No complete collation with the printed 1892 facsimile; completeness refers to the downloaded Gutenberg HTML.",
+    "Gutenberg credits BnF/Gallica images; targeted facsimile gap investigation is separately recorded.",
+    "The collected NOTES heading and relocation of footnotes are digital presentation; original pagination of note text is not asserted.",
+    "Voice classification is conservative, structural and partly unresolved; embedded quotes can coexist with the frame voice.",
+    "The retained original title-page rights notice is historical text; it is not a claim of current copyright.",
+    "Legacy-named files are the current official files-route source, revised in 2024, not certified original 2013 release bytes.",
+    "Appended Choiseul essay and historical quoted documents require frame-aware translation.",
+    "Index volume numbers, page references and asterisks are source content and must remain intact.",
+    "The printed contents and printer supplement have distinct provenance and IDs; never insert them as if present in Gutenberg HTML.",
+    "Structural voice metadata is conservative; exact speakers of all nested quotations are not exhaustively resolved."
+  ]
+}

@@ -1,0 +1,1123 @@
+{
+  "schema": "talleyrand-source-issues-v1",
+  "volume": 5,
+  "source_file": "source.html",
+  "source_file_sha256": "554944e0802e91bf8dab197edbc89f8f161855ba443664cb90bf7e6a07ae2e74",
+  "status": "observations_only_no_emendations",
+  "collation_scope": "Observations from Gutenberg text and selected printed pages; no full printed-volume collation.",
+  "issues": [
+    {
+      "id": "V5-SEM-001",
+      "severity": "high",
+      "category": "author_identity",
+      "description": "Duc de Broglie denotes both contemporary correspondent Victor and later editor Albert in different layers.",
+      "evidence": [
+        {
+          "unit_id": "v05-u000021",
+          "source_xpath": "/html/body/p[19]",
+          "source_line": 598,
+          "source_html_sha256": "fa595e47dd56135fb4df222b45c8b29ce2bc44a9f8cab705d5c6fa85930f32fc",
+          "text_sha256": "b162f466cab7acc918506c54639b93b4e066b086095da3317f27b4467bd00625",
+          "exact_quote": "J'ajouterai qu'appelé à publier moi-même les Souvenirs de mon père, j'ai pu constater, d'après son propre témoignage, combien l'homme le plus consciencieux, écrivant après de longues années, doit se défier de la fidélité de sa mémoire et a de précautions à prendre pour ne pas la trouver en défaut.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 298
+        },
+        {
+          "unit_id": "v05-u000032",
+          "source_xpath": "/html/body/p[30]",
+          "source_line": 825,
+          "source_html_sha256": "c5c9ddf1ac167d777b51225f95dae04809628a5d0c55c4abea21bed583b331dd",
+          "text_sha256": "caec73e0fb3a91dce8dea2b50824daaa46f9c9be5d9361cdc657bf4ee5243b37",
+          "exact_quote": "Duc DE BROGLIE.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 15
+        },
+        {
+          "unit_id": "v05-u002599",
+          "source_xpath": "/html/body/div[7]/p[157]",
+          "source_line": 16835,
+          "source_html_sha256": "248bd5d5a4a74c0e9b9c8063c470a94c1a668c91d1ef97c03b34509779e67fb4",
+          "text_sha256": "abf3fa96f0d8bab26adc25ed3260b896b3fab742dd448a0d225c5b90a0ce3824",
+          "exact_quote": "BROGLIE (Victor, duc de), homme d'État français.—III, 360.—IV, 151.—V, 6, 11, 12, 19, 22 à 24, 27 à 30, 34, 35, 37, 39, 40, 42, 43, 45, 49, 51, 54, 56, 57, 60, 62, 63, 66, 69, 74, 77, 78, 81, 83, 85, 92, 94, 98, 102, 105, 108 à 112, 114, 117, 124 à 126, 128, 130 à 154, 157 à 168, 171, 172, 175, 178, 180, 183, 184, 187 à 191, 197 à 218, 225 à 227, 233, 234, 236, 240, 242, 243, 247, 251, 254, 257, 259 à 265, 274 à 279, 291, 294 à 298, 302, 306, 308 à 318, 326, 327, 330, 331, 333 à 340, 343, 345*, 346, 348, 349, 352 à 355, 358, 361, 485 à 488, 493, 495, 504, 505, 508 à 510.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 577
+        },
+        {
+          "unit_id": "v05-u002153",
+          "source_xpath": "/html/body/div[5]/p[54]",
+          "source_line": 13915,
+          "source_html_sha256": "dc0c10ac622ea48c6150f725d306a2cb9cccd7cd118f04103fcc74dc9aef5862",
+          "text_sha256": "31f3455a468d23226b6d66b3c90bbe34a67feaf0e67b2be065ad2b1244fd9fc0",
+          "exact_quote": "V. BROGLIE.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 11
+        }
+      ],
+      "caution": "Use the role and local evidence; never global-replace Broglie with one identity.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-SEM-002",
+      "severity": "high",
+      "category": "genre_boundary",
+      "description": "The edition explicitly states the memoir manuscript has ended at the April 1834 Quadruple Alliance, and the rest is editorially assembled correspondence.",
+      "evidence": [
+        {
+          "unit_id": "v05-u001616",
+          "source_xpath": "/html/body/p[1494]",
+          "source_line": 11128,
+          "source_html_sha256": "c78b4558ee730305b781a02c49c8762d4bd07ea3475699ca90b82c45f2d2628d",
+          "text_sha256": "b0b39e6d84debb540b064c141115ff8cfcaff8174ccfeb975bbdc8d0fa18c07b",
+          "exact_quote": "[C'est à l'époque de la signature de la quadruple alliance, épilogue de l'ambassade de M. de Talleyrand à Londres, que se termine le manuscrit des Mémoires.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 156
+        },
+        {
+          "unit_id": "v05-u001617",
+          "source_xpath": "/html/body/p[1495]",
+          "source_line": 11131,
+          "source_html_sha256": "a299a6b1d276ef3cff38587ba15bcba03ffae4f7ad3ca227c202dd854c5db468",
+          "text_sha256": "bd497548e1bd26ff0918b6fdf9831088e5497b8f49cd5d966a7d66274c28e7a0",
+          "exact_quote": "M. de Talleyrand, cependant, ne revint en France qu'au mois d'août, et il eut encore, pendant ces derniers mois à traiter des affaires importantes. Aussi avons-nous cru devoir poursuivre jusqu'à la fin de son ambassade le travail auquel lui-même s'était livré pour les années précédentes. Tous les matériaux étaient là: dépêches officielles et lettres particulières. Nous nous sommes borné, comme M. de Talleyrand l'avait fait pour les derniers volumes, à les classer suivant un ordre rationnel.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 495
+        },
+        {
+          "unit_id": "v05-u001618",
+          "source_xpath": "/html/body/p[1496]",
+          "source_line": 11140,
+          "source_html_sha256": "18d9d46c55a42a616941ddfae48604baaeef40137b0bc3003fab36251ea970c8",
+          "text_sha256": "c0f944c7a1993f7914c63f5b9fb46f1fa2a0084a500991febb7e4b95696b2fc7",
+          "exact_quote": "La correspondance particulière du prince pendant cette période a déjà été publiée, il y a deux ans, par les soins de madame la comtesse de Mirabeau[206]. Il eût été superflu de la rééditer ici. Toutefois, nous avons été obligés, pour exposer aussi clairement que possible la marche des négociations de reproduire ici quelques-unes de ces lettres. On les trouvera aux pages 405, 406, 423, 436, 474, 476, 478 et 480.]",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 415
+        }
+      ],
+      "caution": "Letters remain historical documents; editorial continuation is not Talleyrand retrospective narration.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-SEM-003",
+      "severity": "high",
+      "category": "appendix_count",
+      "description": "The appendix has 15 letter headings, not 17: note labels 269–285 include two embedded content notes, 281 and 282.",
+      "evidence": [
+        {
+          "unit_id": "v05-u002233",
+          "source_xpath": "/html/body/div[5]/h3[12]",
+          "source_line": 14357,
+          "source_html_sha256": "fcec946651d4fa73f104794ef90df15b726ee5b10a168e79eda6261b46672042",
+          "text_sha256": "ffef34a0fde194f7ab2b4d7edf586ac1e167f318830a9bb76987bf605bc8c958",
+          "exact_quote": "LE DUC DE BROGLIE A M. BRESSON.[280]",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 36
+        },
+        {
+          "unit_id": "v05-u002235",
+          "source_xpath": "/html/body/div[5]/p[129]",
+          "source_line": 14359,
+          "source_html_sha256": "ae5df607db0756848683b49485732b64f47ac5147bdde9e3dd8cfc52efb83fd3",
+          "text_sha256": "dcde4074d432e7019b7e5e38d7fe9b1a14daf02d2cafea9be4ff6fa8db69ed74",
+          "exact_quote": "des conférences allaient s'ouvrir sur quelques-uns des points litigieux[281].",
+          "quote_start_codepoint": 720,
+          "quote_end_codepoint": 797
+        },
+        {
+          "unit_id": "v05-u002241",
+          "source_xpath": "/html/body/div[5]/p[135]",
+          "source_line": 14441,
+          "source_html_sha256": "aae9e7ca1235ba30e535ca8c6f42baf99e26f19c341074befedc42a21855f600",
+          "text_sha256": "66a82385e7a3a10223e6ec12b5e5e1f5ca4706f3fbbb2f07aa0ecf1ef02bf6e1",
+          "exact_quote": "M. de Bombelles[282]",
+          "quote_start_codepoint": 42,
+          "quote_end_codepoint": 62
+        },
+        {
+          "unit_id": "v05-u002242",
+          "source_xpath": "/html/body/div[5]/h3[13]",
+          "source_line": 14451,
+          "source_html_sha256": "3dbe5b168f25afd48c8ee5ddc92e3c88cd10113560f5f4e2ab5cd3ee921ce6ba",
+          "text_sha256": "30cfecdb97ca3d5721d809edfddcf47e3100eaabb684d9966aa3ef6ae3721f1b",
+          "exact_quote": "M. BRESSON AU DUC DE BROGLIE[283].",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 34
+        }
+      ],
+      "caution": "Do not infer document count from a continuous note-number range.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-SEM-004",
+      "severity": "high",
+      "category": "date_disagreement",
+      "description": "The dispatch dated 19 August 1834 says the additional articles have just been signed; note 263 introduces them as signed 18 August 1834.",
+      "evidence": [
+        {
+          "unit_id": "v05-u002040",
+          "source_xpath": "/html/body/p[1886]",
+          "source_line": 13321,
+          "source_html_sha256": "4666a5db24f6c0c0fefb3266c6905acb3b869f82c5ccf17c05c437dda014b763",
+          "text_sha256": "6022c90dd23040eb426cf2b2bf2d39f0f01a10940f31f73633ce0afe970b720f",
+          "exact_quote": "«Londres, le 19 août 1834.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 26
+        },
+        {
+          "unit_id": "v05-u002041",
+          "source_xpath": "/html/body/p[1887]",
+          "source_line": 13322,
+          "source_html_sha256": "8d9fe40a5ecd842bd2d10987739f26264d8c224704037d3a33005243846ef027",
+          "text_sha256": "ab0440f32a905e7e560dbff8adcfd9bfbf505d66cff4625087b33e7566af3e5b",
+          "exact_quote": "Je m'empresse de vous transmettre les articles additionnels que nous venons de signer à l'instant.",
+          "quote_start_codepoint": 1,
+          "quote_end_codepoint": 99
+        },
+        {
+          "unit_id": "v05-u004367",
+          "source_xpath": "/html/body/div[31]/div/p[308]",
+          "source_line": 21011,
+          "source_html_sha256": "8acc5e7c143cf1729bbae89434b0619920406e31677ff626cf6224839b4faf73",
+          "text_sha256": "5c494a1b79c623e28ab49d8f84ea0fdfb8ce4d43e1d6c7dbfd837460827830c9",
+          "exact_quote": "[263] Voici le texte de la convention additionnelle au traité de la quadruple alliance, tel qu'il fut arrêté et signé le 18 août 1834:",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 134
+        }
+      ],
+      "caution": "Internal date tension only. Preserve both; do not select a corrected date without collation and independent documentary evidence.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-SEM-005",
+      "severity": "medium",
+      "category": "date_order",
+      "description": "A dispatch dated 20 July 1834 appears after the 25 July letters and before a 29 July extract under the same heading.",
+      "evidence": [
+        {
+          "unit_id": "v05-u001957",
+          "source_xpath": "/html/body/p[1805]",
+          "source_line": 12860,
+          "source_html_sha256": "847f22d92b762517f2838b99c5d135c0f9c3a18ec2e66ef874cb2c75f599c43e",
+          "text_sha256": "dd1d6ca82ad9cb45c5f571ba0a40c2fef2607439e83903a8fa7502968def9fa8",
+          "exact_quote": "«Neuilly, le 25 juillet 1834.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 29
+        },
+        {
+          "unit_id": "v05-u001964",
+          "source_xpath": "/html/body/p[1812]",
+          "source_line": 12915,
+          "source_html_sha256": "a122b169c02d8a50bffdf2ae44377d66fb14c0fdab26a85cad3287d49979741b",
+          "text_sha256": "759bffb89dfec91c311b797dce50bee3df7f96bf9f651278428093c673c3ec22",
+          "exact_quote": "«Londres, le 20 juillet 1834.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 29
+        },
+        {
+          "unit_id": "v05-u001977",
+          "source_xpath": "/html/body/p[1825]",
+          "source_line": 13013,
+          "source_html_sha256": "a0f6ac79deb863ff149d7ca493c4f26cd8d2dd8ff58e919eaa834d1ed1447d7d",
+          "text_sha256": "4da62e50e57d9e0b1e02f31013753a8222cac97473270bcdaa93905e951ce6df",
+          "exact_quote": "«Londres, le 29 juillet 1834.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 29
+        }
+      ],
+      "caution": "Sequence alone does not prove an erroneous date. Keep 20 as supplied and flag for print/original collation if needed.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-SEM-006",
+      "severity": "medium",
+      "category": "quoted_date_and_annotation",
+      "description": "The retraction’s signed date and editorial composition date share one unit but are separated by a closing guillemet.",
+      "evidence": [
+        {
+          "unit_id": "v05-u002083",
+          "source_xpath": "/html/body/p[1925]",
+          "source_line": 13583,
+          "source_html_sha256": "2bce88b581041331367698565c089646deb5755e1f2357ceafce68b813acf139",
+          "text_sha256": "f0ed0109024f01de4b82bcb682ac2fdb6f523abda7da1099f323542b3a760148",
+          "exact_quote": "»Signé à Paris, le 17 mai 1838.» [Écrit le 10 mars 1838.]",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 57
+        },
+        {
+          "unit_id": "v05-u002092",
+          "source_xpath": "/html/body/p[1933]",
+          "source_line": 13617,
+          "source_html_sha256": "417c21ea98abce8c83f9a4b00de8b2c0a99a6437bfb6b8a77875e1c2b9687fd9",
+          "text_sha256": "8bb2930817e6f725dc2758ff72e21058f6dd45bc182baf400fb94aad10bf5dfa",
+          "exact_quote": "»Fait le 10 mars 1838. Signé à Paris le 17 mai 1838.»",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 53
+        }
+      ],
+      "caution": "Preserve March composition versus May signing, and the editorial brackets.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-SEM-007",
+      "severity": "medium",
+      "category": "independent_essay_and_later_note",
+      "description": "Choiseul essay is dated 1811–1816; note 386 is explicitly Talleyrand’s later 1829 reconsideration.",
+      "evidence": [
+        {
+          "unit_id": "v05-u002267",
+          "source_xpath": "/html/body/p[1940]",
+          "source_line": 14601,
+          "source_html_sha256": "e80d3078099001298f4b78543e2ba49e1bbebe38c5b23c004c7462bd1ade8382",
+          "text_sha256": "52ad996e3354a43b966e17fce962db942e59a4066255d0c3add7d856e9b3d110",
+          "exact_quote": "Commencé à Bourbon-l'Archambauld en 1811, et fini à Châteauneuf, près de Saint-Germain, chez madame la Duchesse de Courlande en 1816.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 133
+        },
+        {
+          "unit_id": "v05-u004398",
+          "source_xpath": "/html/body/div[31]/div/p[339]",
+          "source_line": 21097,
+          "source_html_sha256": "8ef8196c2dfcac5f159de66537a970ab014eb58e7e3d4486aa8cfaa47c82bd38",
+          "text_sha256": "dd31ce454d4a9d3f24fac98b1f1c6180a98bfc6baa2c87bc2767de57a3ae5528",
+          "exact_quote": "[286] Cet écrit sur le duc de Choiseul se trouvait, dans les papiers de M. de Talleyrand, annexé à ses Mémoires. Il en est toutefois entièrement indépendant. C'est un morceau détaché, qui, ainsi que la date en fait foi, fut commencé par le prince plusieurs années avant qu'il songeât à mettre la main à ses Mémoires. Cependant l'intérêt particulier que présente cet écrit l'a fait joindre à la présente publication. On a déjà indiqué dans la préface (I-XV) les raisons qui l'ont fait rejeter à la fin du dernier volume, bien que la chronologie marquât sa place en tête de l'ouvrage. Il a semblé préférable, en effet, de ne pas rompre la suite et l'unité des Mémoires, et de prévenir toute confusion entre les souvenirs personnels du prince et un simple chapitre d'histoire.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 773
+        },
+        {
+          "unit_id": "v05-u004498",
+          "source_xpath": "/html/body/div[31]/div/p[439]",
+          "source_line": 21535,
+          "source_html_sha256": "fc61f1015154568f81c46074930df692a05bcc898bc9537cf96ef90543879e93",
+          "text_sha256": "12c5766fce0cea1eec60090818a58a5910104e0217982d801455b49c36206ac5",
+          "exact_quote": "[386] Lorsque ce morceau fut écrit en 1816, l'Autriche paraissait en effet la barrière la plus naturelle à opposer à une barbarie menaçante. Mais depuis cette époque, dans la masse effrayante des événements qui se sont passés de toute part, dans les combinaisons nouvelles qui ont affranchi les esprits comme les territoires, l'Autriche est restée stationnaire; elle est restée vieille et isolée au milieu de l'Europe, tandis que le nord a fait des progrès réels; la liberté s'y introduit enfin dans toutes les branches de l'administration et des relations politiques. La Prusse, de protégée est devenue protectrice. La France s'est donné une forme de gouvernement qui consacre toutes les franchises contre lesquelles l'Autriche se défend. Dès lors les alliances naturelles ne sauraient être les mêmes, car ce qui désormais doit faire la base de tout traité durable, c'est ce qui appelle, étend et consacre les bienfaits de la civilisation (1829) (Note du prince de Talleyrand).",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 978
+        }
+      ],
+      "caution": "1829 is a later authorial note, not the essay’s initial completion date or a digital annotation.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-SEM-008",
+      "severity": "medium",
+      "category": "historical_editorial_correction",
+      "description": "Note 169 corrects the narrative characterization of Lord Durham as ambassador at Petersburg.",
+      "evidence": [
+        {
+          "unit_id": "v05-u001348",
+          "source_xpath": "/html/body/p[1248]",
+          "source_line": 9390,
+          "source_html_sha256": "dec5d1958d81306ed566dff73e24c8ddba2883744203ff8abc90e5105f82e707",
+          "text_sha256": "cafde1f5709d392425654f08824f4e9d89f356b90b7f17793bb3637a7b3e8ab6",
+          "exact_quote": "La cour d'Angleterre avait à cette époque à nommer un ambassadeur à Pétersbourg, en remplacement de lord Durham[169],",
+          "quote_start_codepoint": 499,
+          "quote_end_codepoint": 616
+        },
+        {
+          "unit_id": "v05-u004258",
+          "source_xpath": "/html/body/div[31]/div/p[199]",
+          "source_line": 20448,
+          "source_html_sha256": "bb63da9fe1937992b1e3ba4d07912f45eaf3d6b1bdf8a34b979bf644ecb714c8",
+          "text_sha256": "9cae74ab11c4975debc36cd131341d7a291870570710e92cf6a19a050a1bb765",
+          "exact_quote": "[169] Lord Durham n'était pas ambassadeur à Pétersbourg; il y avait été envoyé en mission extraordinaire dans le but, prétend-on, d'offrir à l'empereur Nicolas la médiation de l'Angleterre en faveur des Polonais. Cette mission, en tout cas, n'eut aucun résultat. Quant à l'ambassade d'Angleterre en Russie, qui était alors sans titulaire, elle était gérée par un chargé d'affaires, M. Bligh.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 391
+        }
+      ],
+      "caution": "Retain the narrative and the historical editor’s correction as separate voices rather than silently rewriting the narrative.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-TEXT-000913",
+      "severity": "low",
+      "category": "apparent_source_typography",
+      "description": "Prepared source reads 'aooût'; a possible intended reading is 'août'.",
+      "evidence": [
+        {
+          "unit_id": "v05-u000913",
+          "source_xpath": "/html/body/p[833]",
+          "source_line": 6280,
+          "source_html_sha256": "d293d954f5d04cdb2105283f39f71871fb75851044953a6e4b4aad6b091fe1e9",
+          "text_sha256": "52d6be5d10c3e67927e4f47700acf80861f13707c72617fc7997aef16277c06d",
+          "exact_quote": "aooût",
+          "quote_start_codepoint": 15,
+          "quote_end_codepoint": 20
+        }
+      ],
+      "caution": "Candidate only, not a correction. No facsimile/original collation was performed for this entry; cannot distinguish original print from transcription error.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-TEXT-001180",
+      "severity": "low",
+      "category": "apparent_source_typography",
+      "description": "Prepared source reads 'BROGLlE'; a possible intended reading is 'BROGLIE'.",
+      "evidence": [
+        {
+          "unit_id": "v05-u001180",
+          "source_xpath": "/html/body/h3[107]",
+          "source_line": 8160,
+          "source_html_sha256": "55cccc6f40a0a8415f8cd4378cf3c1cc270068d35801b135a66772e13c2acea7",
+          "text_sha256": "99e73c2f6d126f0a07d0175d146e4fb0849c7ef75d88a97451e2a6cc35cbc93c",
+          "exact_quote": "BROGLlE",
+          "quote_start_codepoint": 10,
+          "quote_end_codepoint": 17
+        }
+      ],
+      "caution": "Candidate only, not a correction. No facsimile/original collation was performed for this entry; cannot distinguish original print from transcription error.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-TEXT-001123",
+      "severity": "low",
+      "category": "apparent_source_typography",
+      "description": "Prepared source reads 'Monsieur Je duc,'; a possible intended reading is 'Monsieur le duc,'.",
+      "evidence": [
+        {
+          "unit_id": "v05-u001123",
+          "source_xpath": "/html/body/p[1032]",
+          "source_line": 7682,
+          "source_html_sha256": "08f7072bf0a0f71d80a729a6373d920b4b3eaf303f3ab37253d3770a6b823a92",
+          "text_sha256": "f2d5cc5bf8b64c4459ccf9fa823cb2f686821172cc6b49a74c740f8535602388",
+          "exact_quote": "Monsieur Je duc,",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 16
+        }
+      ],
+      "caution": "Candidate only, not a correction. No facsimile/original collation was performed for this entry; cannot distinguish original print from transcription error.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-TEXT-002220",
+      "severity": "low",
+      "category": "apparent_source_typography",
+      "description": "Prepared source reads \"niais je m'imagine\"; a possible intended reading is \"mais je m'imagine\".",
+      "evidence": [
+        {
+          "unit_id": "v05-u002220",
+          "source_xpath": "/html/body/div[5]/p[117]",
+          "source_line": 14284,
+          "source_html_sha256": "0055f59fb6473e709e958d6f8f35caa703024118dafc2788742f9429fc6d753c",
+          "text_sha256": "8462ebd7181f0b9060f0d27e1898ce09547566c79fd5b575d51bd7295063415d",
+          "exact_quote": "niais je m'imagine",
+          "quote_start_codepoint": 106,
+          "quote_end_codepoint": 124
+        }
+      ],
+      "caution": "Candidate only, not a correction. No facsimile/original collation was performed for this entry; cannot distinguish original print from transcription error.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-TEXT-001586",
+      "severity": "low",
+      "category": "apparent_source_typography",
+      "description": "Prepared source reads 'Il ma semble'; a possible intended reading is 'Il me semble'.",
+      "evidence": [
+        {
+          "unit_id": "v05-u001586",
+          "source_xpath": "/html/body/p[1468]",
+          "source_line": 10956,
+          "source_html_sha256": "965319bba1e223437df0bec665d2befa481dd0eae7ddea4bd0bccd80ff54317c",
+          "text_sha256": "64cbedbc43462d52cd29cfb06defe767637b7c487638695541c482c3f4d061c7",
+          "exact_quote": "Il ma semble",
+          "quote_start_codepoint": 122,
+          "quote_end_codepoint": 134
+        }
+      ],
+      "caution": "Candidate only, not a correction. No facsimile/original collation was performed for this entry; cannot distinguish original print from transcription error.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-TEXT-001970",
+      "severity": "low",
+      "category": "apparent_source_typography",
+      "description": "Prepared source reads 'termes mômes'; a possible intended reading is 'termes mêmes'.",
+      "evidence": [
+        {
+          "unit_id": "v05-u001970",
+          "source_xpath": "/html/body/p[1818]",
+          "source_line": 12955,
+          "source_html_sha256": "1f94ccfec46a82a654a19e1577aea85aeac443a4a78e46e092c30f972186e080",
+          "text_sha256": "ffcf94ce88a56f741113f85d090a3cbd9913a6cb545b947a49fc3f0f272c0136",
+          "exact_quote": "termes mômes",
+          "quote_start_codepoint": 194,
+          "quote_end_codepoint": 206
+        }
+      ],
+      "caution": "Candidate only, not a correction. No facsimile/original collation was performed for this entry; cannot distinguish original print from transcription error.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-TEXT-002141",
+      "severity": "low",
+      "category": "apparent_source_typography",
+      "description": "Prepared source reads 'dans la voix des négociations'; a possible intended reading is 'dans la voie des négociations'.",
+      "evidence": [
+        {
+          "unit_id": "v05-u002141",
+          "source_xpath": "/html/body/div[5]/p[42]",
+          "source_line": 13863,
+          "source_html_sha256": "35605c7139793f3f06f5b788bdf2e46a41c9c79ee0346a732aab75c0c84f4dc0",
+          "text_sha256": "f909aed2928933835a6e4a27fda1676e54420840083547c7936c927e1bf7d7b8",
+          "exact_quote": "dans la voix des négociations",
+          "quote_start_codepoint": 416,
+          "quote_end_codepoint": 445
+        }
+      ],
+      "caution": "Candidate only, not a correction. No facsimile/original collation was performed for this entry; cannot distinguish original print from transcription error.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-TEXT-001167",
+      "severity": "low",
+      "category": "apparent_source_typography",
+      "description": "Prepared source reads 'on trouvé'; a possible intended reading is 'ont trouvé'.",
+      "evidence": [
+        {
+          "unit_id": "v05-u001167",
+          "source_xpath": "/html/body/p[1074]",
+          "source_line": 8008,
+          "source_html_sha256": "42dda36f48a4ea841778ede272bb7b443ea529747bc15965eaea3f745417febd",
+          "text_sha256": "6cb62f6f79f52ca41f5ecd1bdfa73901a4d06800e698dbb7d05e64aa36979a98",
+          "exact_quote": "on trouvé",
+          "quote_start_codepoint": 103,
+          "quote_end_codepoint": 112
+        }
+      ],
+      "caution": "Candidate only, not a correction. No facsimile/original collation was performed for this entry; cannot distinguish original print from transcription error.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-TEXT-001172",
+      "severity": "low",
+      "category": "apparent_source_typography",
+      "description": "Prepared source reads \"l'aire allusion\"; a possible intended reading is 'faire allusion'.",
+      "evidence": [
+        {
+          "unit_id": "v05-u001172",
+          "source_xpath": "/html/body/p[1079]",
+          "source_line": 8056,
+          "source_html_sha256": "347212f7601946cae09c6929d40bcdedb569294451e77e849ab7730729d2ab29",
+          "text_sha256": "e2c873cd93ace7d7c00ab01560e2b47050fdd1ef6212fc9a7b02cf38e9e351fd",
+          "exact_quote": "l'aire allusion",
+          "quote_start_codepoint": 697,
+          "quote_end_codepoint": 712
+        }
+      ],
+      "caution": "Candidate only, not a correction. No facsimile/original collation was performed for this entry; cannot distinguish original print from transcription error.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-TEXT-000444",
+      "severity": "low",
+      "category": "apparent_source_typography",
+      "description": "Prepared source reads 'Porte oltomane'; a possible intended reading is 'Porte ottomane'.",
+      "evidence": [
+        {
+          "unit_id": "v05-u000444",
+          "source_xpath": "/html/body/p[400]",
+          "source_line": 3135,
+          "source_html_sha256": "be1477b24cc1463b8e1c0daf1eb84e15d059cb4dd1d5e47b39a7dca426ef6983",
+          "text_sha256": "a5d59a37b008352ad85c93935ddd1484167e7e9ac236555ab78fdec8aabc38b1",
+          "exact_quote": "Porte oltomane",
+          "quote_start_codepoint": 1149,
+          "quote_end_codepoint": 1163
+        }
+      ],
+      "caution": "Candidate only, not a correction. No facsimile/original collation was performed for this entry; cannot distinguish original print from transcription error.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-TEXT-000453",
+      "severity": "low",
+      "category": "apparent_source_typography",
+      "description": "Prepared source reads 'en fermes trop catégoriques'; a possible intended reading is 'en termes trop catégoriques'.",
+      "evidence": [
+        {
+          "unit_id": "v05-u000453",
+          "source_xpath": "/html/body/p[408]",
+          "source_line": 3240,
+          "source_html_sha256": "d6fa203c62dfbb048b09b7390051353c3b80a4b4e563357cf7ebc3b035c2da25",
+          "text_sha256": "d5c95d0c8c4abd2d3d3207d4bead908b846725398d3b89d0889b9d6e6f41a184",
+          "exact_quote": "en fermes trop catégoriques",
+          "quote_start_codepoint": 168,
+          "quote_end_codepoint": 195
+        }
+      ],
+      "caution": "Candidate only, not a correction. No facsimile/original collation was performed for this entry; cannot distinguish original print from transcription error.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-TEXT-000105",
+      "severity": "low",
+      "category": "apparent_source_typography",
+      "description": "Prepared source reads 'conte Dönhoff'; a possible intended reading is 'comte Dönhoff'.",
+      "evidence": [
+        {
+          "unit_id": "v05-u000105",
+          "source_xpath": "/html/body/p[100]",
+          "source_line": 1268,
+          "source_html_sha256": "072fc9cf7f34c8064e83aef60a00b48188d41deb2fae5e8d0fb6fdc73473e0b2",
+          "text_sha256": "68111a4fcd3cce75d6899fd4ea556534b60f142b7cea9c709db7b9ea5d6a82fa",
+          "exact_quote": "conte Dönhoff",
+          "quote_start_codepoint": 215,
+          "quote_end_codepoint": 228
+        }
+      ],
+      "caution": "Candidate only, not a correction. No facsimile/original collation was performed for this entry; cannot distinguish original print from transcription error.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-TEXT-001421",
+      "severity": "low",
+      "category": "latin_source_form",
+      "description": "The quoted Latin maxim uses sempre.",
+      "evidence": [
+        {
+          "unit_id": "v05-u001421",
+          "source_xpath": "/html/body/p[1318]",
+          "source_line": 9993,
+          "source_html_sha256": "193967d663bea165faa36c632c4201d063abd89115859357a0066c4b47590724",
+          "text_sha256": "dac41923d2dc02e42435cebe40e24e17bde076b609919c1895a3f4fa6928409f",
+          "exact_quote": "In omnibus tuis cogitationibus sempre caveto de resignationibus.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 64
+        }
+      ],
+      "caution": "Preserve the exact Latin. Do not silently normalize semper or translate at source-preparation stage.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-MARK-001",
+      "severity": "medium",
+      "category": "guillemet_direction",
+      "description": "Several document datelines begin with a closing guillemet rather than an opening guillemet.",
+      "evidence": [
+        {
+          "unit_id": "v05-u000052",
+          "source_xpath": "/html/body/p[49]",
+          "source_line": 985,
+          "source_html_sha256": "0fd43e89579613c744d0844214e15c02071f37320ef494c2b229ed5ca4dd20cd",
+          "text_sha256": "000e3c53eabb52bb00633d593eacfabcbe71b248961e6e91f114ce81e2ec66a2",
+          "exact_quote": "»Paris, le 11 octobre 1832.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 27
+        },
+        {
+          "unit_id": "v05-u000150",
+          "source_xpath": "/html/body/p[141]",
+          "source_line": 1619,
+          "source_html_sha256": "b3a46afc1c99655adf83fda218f622be7e48b313411a216c95e5ac9ebce778d7",
+          "text_sha256": "07da86a72fb22cb5ebf668a62dda831d3c4f5b6ad0f3d2dd1e2d880925556d75",
+          "exact_quote": "»Londres, le 25 octobre 1832",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 28
+        },
+        {
+          "unit_id": "v05-u000945",
+          "source_xpath": "/html/body/p[865]",
+          "source_line": 6491,
+          "source_html_sha256": "4a6fac23d86754672fa692db66b425ae6745c04812becc5910799dc2daf23bfa",
+          "text_sha256": "802a75e0fad5c41b06729bce00042ae0d3c51d676e44d99a15beb6646e4e891a",
+          "exact_quote": "»Le 8 août 1833.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 16
+        },
+        {
+          "unit_id": "v05-u001049",
+          "source_xpath": "/html/body/p[966]",
+          "source_line": 7176,
+          "source_html_sha256": "6568d6e491a58ed7f972f337420dd6a7e0e5d0da8a18cae40308f2b76c907aa6",
+          "text_sha256": "196e7760878afca28b6f49d9d7c9bb1a053d2ed6a4fd9f3251c2990c853e97ff",
+          "exact_quote": "»Londres, le 19 août 1833.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 26
+        },
+        {
+          "unit_id": "v05-u001286",
+          "source_xpath": "/html/body/p[1189]",
+          "source_line": 8980,
+          "source_html_sha256": "6084db1bb0411f220d54b8f849f3d6b03d75e0745e7ba0487f1be4ff8472b28f",
+          "text_sha256": "cfdc1ae3e13e457e1f40c4838d4fbb21bb5b81a028a3e01ceb1a8c98e110f2a3",
+          "exact_quote": "»Paris, le 16 janvier 1834.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 27
+        },
+        {
+          "unit_id": "v05-u001381",
+          "source_xpath": "/html/body/p[1280]",
+          "source_line": 9696,
+          "source_html_sha256": "feefef18eb9fb43358c8df053e5384070693503708eb3ace4304686826990b56",
+          "text_sha256": "f466d018e4a51ad21be401f027e0aa4808f2f6f23b2512af6fb8e020e2082575",
+          "exact_quote": "»Madrid, le 21 février 1834.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 28
+        },
+        {
+          "unit_id": "v05-u001584",
+          "source_xpath": "/html/body/p[1466]",
+          "source_line": 10954,
+          "source_html_sha256": "b8258e3ba73eb2ccf786b2ae05611ee2ae0a70f37c20a1ed792b7b491e2c824c",
+          "text_sha256": "76b18151b935268311eb7d6b42152a4b5fe9ecb00dcf53bf41b89ae013558adc",
+          "exact_quote": "»Hanover-Square: 20 avril 1834, huit heures du matin.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 53
+        }
+      ],
+      "caution": "Typography alone must not determine document start or speaker; headings and local context control. Keep glyphs unchanged.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-MARK-002",
+      "severity": "medium",
+      "category": "missing_leading_guillemet",
+      "description": "These paragraphs lack the usual leading continuation guillemet but are still part of their local historical letters.",
+      "evidence": [
+        {
+          "unit_id": "v05-u000115",
+          "source_xpath": "/html/body/p[109]",
+          "source_line": 1347,
+          "source_html_sha256": "165214518ad4d5f426158decf6ac0c25ae277049fa9b56087355e44b28e95693",
+          "text_sha256": "414e66aa3721c63a873e36668083837e9a66a47ecca67afce6a13ecd14495209",
+          "exact_quote": "Les plénipotentiaires de Russie, de Prusse et d'Autriche, ont demandé plusieurs fois dans ces derniers jours à lord Palmerston une réunion de la conférence pour y discuter les mesures à adopter contre la Hollande. Ils ont fait auprès de moi, des démarches dans le même sens, mais j'ai engagé lord Palmerston à se refuser à cette demande, en lui faisant sentir les inconvénients d'une discussion qui n",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 400
+        },
+        {
+          "unit_id": "v05-u000144",
+          "source_xpath": "/html/body/p[136]",
+          "source_line": 1566,
+          "source_html_sha256": "e4c2f850a16478b52743cb70dfbe230b65cc73766c39fcade43b408f936aabc0",
+          "text_sha256": "c92b9b41165fb4e8a3df6dcae783afbb404538b2fd3de35830451cc3f1150c5a",
+          "exact_quote": "J'ai reçu toutes les dépêches que vous m'avez fait l'honneur de m'adresser jusqu'au 20 octobre inclusivement; je conçois parfaitement les impatiences du gouvernement du roi en ce moment difficile, et vous avez pu voir que je partageais son désir d'arriver au terme de nos trop longues incertitudes sur la question belge. Il ne faut cependant attribuer les hésitations du ministère anglais qu'à la gra",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 400
+        },
+        {
+          "unit_id": "v05-u000340",
+          "source_xpath": "/html/body/p[306]",
+          "source_line": 2685,
+          "source_html_sha256": "e983a018923e722f303a061493e5a9a229583adcd6fd5e69e6077471375c16d9",
+          "text_sha256": "addd2f08de8c777507eaced28e23907fe67403036543aec674343e3282ce202a",
+          "exact_quote": "Ils ont trouvé dans ces dépêches des témoignages de la satisfaction de l'empereur pour la conduite qu'ils ont tenue lorsque la convention du 22 octobre leur a été communiquée, et on leur annonce en même temps qu'on leur retire les pouvoirs qu'ils avaient pour traiter en conférence et qu'ils avaient déclaré à lord Palmerston et à moi n'être que suspendus. Ceci détruit le plan que nous avions formé ",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 400
+        },
+        {
+          "unit_id": "v05-u000557",
+          "source_xpath": "/html/body/p[507]",
+          "source_line": 3961,
+          "source_html_sha256": "a256b427c3af5d3909b5e9427e4f6563d840ed96de511630d8abfec665688a74",
+          "text_sha256": "ad5172c0401b000fba0a0f02aac8a4e79e46589f7b865a0b79af3c99339b4d6b",
+          "exact_quote": "Mon opinion sur cette communication est qu'elle ne contient que la moitié de la vérité; qu'elle expose réellement les instructions données au général Mourawieff dans l'hypothèse où le conflit entre la Porte et le pacha resterait douteux, mais qu'il avait d'autres instructions éventuelles, le cas échéant de la défaite de l'armée musulmane, instructions en conformité desquelles il a agi, ainsi que j",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 400
+        },
+        {
+          "unit_id": "v05-u000559",
+          "source_xpath": "/html/body/p[509]",
+          "source_line": 3976,
+          "source_html_sha256": "4399ca1664c1e3d8da15d7c5d8cc0e03d150ccf15166874a4459b36bf1b9c906",
+          "text_sha256": "6d88914a20603694f8e2bc17b634e47c4bde10d6a613624a2d191c1c257f6a07",
+          "exact_quote": "M. de Medem m'ayant recommandé sur cette communication le plus profond secret, je vous prie, mon prince, de conserver pour vous ces renseignements, bien que je sois porté à penser que M. de Medem ne s'est pas grandement compromis en me la confiant...»",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 251
+        },
+        {
+          "unit_id": "v05-u000591",
+          "source_xpath": "/html/body/p[539]",
+          "source_line": 4210,
+          "source_html_sha256": "875a5b3d95a3705e306523f7988baea6e40d59063a18a15adf107d66d2a8b286",
+          "text_sha256": "405b1ba5e43e422a846d0fed67d5af494bac5ba14a3efb42f1af1da2c01a1256",
+          "exact_quote": "Je n'applique pas ma manière de voir à cet égard, simplement à la Suisse, sur l'état de laquelle je n'ai que des notions assez vagues; mais je pense qu'en général le gouvernement français doit éviter de donner de l'encouragement à cet esprit novateur qui, sous le prétexte d'améliorer, s'est emparé d'un grand nombre des pays voisins de la France. Je crois que, pour le bien de l'Europe, il vaut mieu",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 400
+        },
+        {
+          "unit_id": "v05-u000949",
+          "source_xpath": "/html/body/p[869]",
+          "source_line": 6516,
+          "source_html_sha256": "d20605b505946d39f5fdccef9cf93c1b6fdc7e74042a0ac3ed0cd4ab9b1b1afe",
+          "text_sha256": "198d80497555c8a40fcd60295fd311547589b63ca82bde392dc2737688271b48",
+          "exact_quote": "M. Aston vous aura donné connaissance des instructions pour lord Ponsonby, qui sont parties hier d'ici. Lord Palmerston a reçu la communication du projet de protestation à Constantinople, dont vous avez fait part à M. Aston; il l'a accueilli très favorablement, et je puis vous dire qu'il entre complètement dans les vues du cabinet anglais...»",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 344
+        },
+        {
+          "unit_id": "v05-u001642",
+          "source_xpath": "/html/body/p[1517]",
+          "source_line": 11247,
+          "source_html_sha256": "f8cd0a824115d806e6fa01f655a97a29547aee381c865a772c36c04d0941346b",
+          "text_sha256": "f83b96b645bff24517e11926cc465fbb9d0c4735686b17b8bad018a1b9490846",
+          "exact_quote": "Le maréchal Maison me donne aujourd'hui des explications sur des préparatifs dans la mer Noire que notre consul à Odessa aurait annoncés et qui n'existent pas. M. Bligh ayant pu transmettre, sur la même foi, de semblables renseignements à Londres, il sera peut-être bon que lord Palmerston soit averti de leur exagération.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 322
+        },
+        {
+          "unit_id": "v05-u001684",
+          "source_xpath": "/html/body/p[1555]",
+          "source_line": 11438,
+          "source_html_sha256": "587bb548c691cf29c1e6a5908044969b5e696cc5443795972c3b07443e71b2b8",
+          "text_sha256": "6d82c682c0c92e1fcf841babe55fd796a2bbc0be188a5b41e7e273c048ed3659",
+          "exact_quote": "M. de Metternich ne digère pas le traité, mais prend en apparence la chose assez doucement. M. Ancillon est plus vif. Nous sommes dans un petit moment d'agitation ministérielle qui n'aura pas de suites, mais cela me fait perdre mon temps et un peu de ce que j'avais à vous dire...",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 280
+        }
+      ],
+      "caution": "Do not misclassify them as memoir narration merely because the opening marker is absent. Source text is unchanged.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-MARK-003",
+      "severity": "medium",
+      "category": "nonempty_ellipsis_and_postscript",
+      "description": "A paragraph begins with a dotted omission line but continues into Madame Adélaïde’s postscript.",
+      "evidence": [
+        {
+          "unit_id": "v05-u001791",
+          "source_xpath": "/html/body/p[1651]",
+          "source_line": 11973,
+          "source_html_sha256": "3c0bd381d2385b57ebb0603d03ce4e2cc0ecef7de102ee4d78b7408c1fc33520",
+          "text_sha256": "21398e8c8168eeeb5d5799f64535634e6148a307e8ded1aeefea6debd60becd6",
+          "exact_quote": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . »P.-S.—Mon frère vient de me parler de l'idée qu'on avait eue à Madrid de faire une déclaration nouvelle",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 160
+        }
+      ],
+      "caution": "Do not drop the unit as a marker-only block: it contains substantive P.-S. text.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-SEM-009",
+      "severity": "medium",
+      "category": "index_reference_conventions",
+      "description": "The index covers all five volumes and its numerals/stars encode references.",
+      "evidence": [
+        {
+          "unit_id": "v05-u004520",
+          "source_xpath": "/html/body/div[31]/div/p[461]",
+          "source_line": 21656,
+          "source_html_sha256": "de7a18cf47c8c1ee4d76b8109608cf85e1b59959d3f2afec56b4ec3c3cd2eeda",
+          "text_sha256": "e2e3bbc0c64658b26dc44b7fa057cef317d7dd8dcb90802dc1db6ee2c913ac6d",
+          "exact_quote": "[406] Les chiffres romains renvoient aux volumes, les chiffres arabes aux pages, et les astérisques (*) aux notes biographiques et historiques.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 143
+        },
+        {
+          "unit_id": "v05-u002599",
+          "source_xpath": "/html/body/div[7]/p[157]",
+          "source_line": 16835,
+          "source_html_sha256": "248bd5d5a4a74c0e9b9c8063c470a94c1a668c91d1ef97c03b34509779e67fb4",
+          "text_sha256": "abf3fa96f0d8bab26adc25ed3260b896b3fab742dd448a0d225c5b90a0ce3824",
+          "exact_quote": "BROGLIE (Victor, duc de), homme d'État français.—III, 360.—IV, 151.—V, 6, 11, 12, 19, 22 à 24, 27 à 30, 34, 35, 37, 39, 40, 42, 43, 45, 49, 51, 54, 56, 57, 60, 62, 63, 66, 69, 74, 77, 78, 81, 83, 85, 92, 94, 98, 102, 105, 108 à 112, 114, 117, 124 à 126, 128, 130 à 154, 157 à 168, 171, 172, 175, 178, 180, 183, 184, 187 à 191, 197 à 218, 225 à 227, 233, 234, 236, 240, 242, 243, 247, 251, 254, 257, 2",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 400
+        }
+      ],
+      "caution": "No decimal-number normalization, chronology inference, or deletion of seemingly repetitive references.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-SEM-010",
+      "severity": "medium",
+      "category": "edition_claim_not_verification",
+      "description": "The signed warning asserts completeness and authenticity; it also describes a certified copy rather than an autograph.",
+      "evidence": [
+        {
+          "unit_id": "v05-u000010",
+          "source_xpath": "/html/body/p[8]",
+          "source_line": 375,
+          "source_html_sha256": "792a49d18e79f7d7b7de97fe81220c63d4a37c7253c02767b53cca81713c9724",
+          "text_sha256": "3378da319c92882c89726d85f1c2b351970453e0794cdec72c308332ab30ad06",
+          "exact_quote": "aucune modification et aucun retranchement d'aucune sorte.",
+          "quote_start_codepoint": 498,
+          "quote_end_codepoint": 556
+        },
+        {
+          "unit_id": "v05-u000011",
+          "source_xpath": "/html/body/p[9]",
+          "source_line": 386,
+          "source_html_sha256": "fb280031acea156c3cb3fde65dae04e934a6342a70a43a27b958908dce160b97",
+          "text_sha256": "8afb0475973d3a898b2f55237fdfc1798e20c4b094dca4a76e1c2e28f9525374",
+          "exact_quote": "n'étant point un écrit autographe mais une copie certifiée par les exécuteurs testamentaires",
+          "quote_start_codepoint": 61,
+          "quote_end_codepoint": 153
+        }
+      ],
+      "caution": "These are the editor’s claims. Source preparation cannot certify historical authenticity or manuscript fidelity from this text alone.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-SEM-011",
+      "severity": "medium",
+      "category": "mixed_note_voices",
+      "description": "Note 3 contains editor introduction, a Bertrand quotation, and Bacourt testament-inventory text within that quotation.",
+      "evidence": [
+        {
+          "unit_id": "v05-u004055",
+          "source_xpath": "/html/body/div[31]/div/p[3]",
+          "source_line": 19206,
+          "source_html_sha256": "735c800f9c9ff50a6727c6d73808462db3ba9dbd091328f5911dd46459ddafc1",
+          "text_sha256": "94d1650d2f2a57884ee3a41cd778432293b0e218c0eb93c3e2735962f8a073b4",
+          "exact_quote": "[3] Voici comment M. Bertrand après avoir expliqué en détail le mode de composition de M. de Talleyrand dont l'étude de ses lettres et des pièces émanées de lui existant aux Affaires étrangères a pu lui donner connaissance, résume son opinion au sujet des Mémoires eux mêmes.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 275
+        },
+        {
+          "unit_id": "v05-u004056",
+          "source_xpath": "/html/body/div[31]/div/p[4]",
+          "source_line": 19211,
+          "source_html_sha256": "af375b99dc15cda0ee015e727672b496d1bfd967e201bff547bfef0a88491b1f",
+          "text_sha256": "3a8452cf6ee0570821390717cb7f24635a5413259318203e7599b22f90678ea5",
+          "exact_quote": "«Le caractère des manuscrits privés et de ses Mémoires est fort bien indiqué par cette mention de la copie laissée par M. de Bacourt dans l'inventaire de ses papiers, inventaire qui était joint à son testament:",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 210
+        },
+        {
+          "unit_id": "v05-u004057",
+          "source_xpath": "/html/body/div[31]/div/p[5]",
+          "source_line": 19215,
+          "source_html_sha256": "2ced4e5f4bd05a81b0cedf3a1de54093cc318652cf559938b5f69ab9756c3ef7",
+          "text_sha256": "a4e53675618755170143ba0e39eb85771fbefadeafab401ee020eabd7df98efc",
+          "exact_quote": "»Quatre volumes reliés en peau qui sont la seule copie authentique et complète des Mémoires du Prince de Talleyrand, faite d'après les manuscrits, dictées et copies dont M. le prince de Talleyrand lui avait indiqué l'emploi.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 224
+        },
+        {
+          "unit_id": "v05-u004058",
+          "source_xpath": "/html/body/div[31]/div/p[6]",
+          "source_line": 19219,
+          "source_html_sha256": "dc60745d364cbbc91f862c636d993f19d81c800a70731ca89ef4a2037226eb65",
+          "text_sha256": "bfe409d2cdfc8ae1a68615a5f9d99460cf44c00e4880e4b276e3eb255e01709f",
+          "exact_quote": "»On le voit, il est question de manuscrits, de dictées et de copies. Les manuscrits sont évidemment toutes les pièces émanées de divers personnages dont les originaux possédés par Talleyrand sont aujourd'hui aux mains de M. le duc de Broglie et dont quelques-uns ont été insérés par M. de Bacourt dans la copie des Mémoires. Il est permis de supposer que les copies dont parle l'inventaire sont des copies faites pour Talleyrand des pièces possédées par les archives de l'Etat ou par des particuliers: il reste les dictées. Mais que serait-ce que ces dictées sinon les manuscrits originaux des Mémoires?»",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 604
+        }
+      ],
+      "caution": "Do not attribute the entire note to Bacourt, Talleyrand, or Bertrand.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-SEM-012",
+      "severity": "medium",
+      "category": "note_provenance",
+      "description": "Historical edition footnotes have been gathered beneath an electronic NOTES: heading.",
+      "evidence": [
+        {
+          "unit_id": "v05-u004052",
+          "source_xpath": "/html/body/div[31]/h2",
+          "source_line": 19189,
+          "source_html_sha256": "c44a4094ee0b73f40dd27ddfe6358a782a22841eeaf19c13c721fb9f23bdb031",
+          "text_sha256": "728eb6029dd7af6919f774a4d0def0755d5b1ca7a741c89c55486bbe8b95c80e",
+          "exact_quote": "NOTES:",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 6
+        },
+        {
+          "unit_id": "v05-u004171",
+          "source_xpath": "/html/body/div[31]/div/p[112]",
+          "source_line": 19876,
+          "source_html_sha256": "f3218c4bab6b2cd12ffc1174a3ec9099b0536ff4c72d0308197e4cd4acd24c27",
+          "text_sha256": "a31a77da22971effd93a88077b2ce9520ba5d113d17a2a580277faecc3285c13",
+          "exact_quote": "[94] A la suite de la mort du duc de Dalberg, le gouvernement avait fait mettre les scellés sur ses papiers qu'il revendiquait à cause des fonctions que le duc avait remplies (Note de M. de Bacourt).",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 199
+        },
+        {
+          "unit_id": "v05-u004189",
+          "source_xpath": "/html/body/div[31]/div/p[130]",
+          "source_line": 19965,
+          "source_html_sha256": "4344ce6bd30358b2f931a926ab4542954c98a25cb448cb6902340ff39b8a736d",
+          "text_sha256": "8e8b4352d4294cba098977f01f9d795a61aacd6a50aec05f75a22c083081b1ec",
+          "exact_quote": "[110] Conseiller d'État français, envoyé à Londres pour aviser à l'application de l'ordonnance royale sur les douanes, dont il est fait mention dans la lettre du duc de Broglie du 1er juillet (Note de M. de Bacourt).",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 216
+        },
+        {
+          "unit_id": "v05-u004498",
+          "source_xpath": "/html/body/div[31]/div/p[439]",
+          "source_line": 21535,
+          "source_html_sha256": "fc61f1015154568f81c46074930df692a05bcc898bc9537cf96ef90543879e93",
+          "text_sha256": "12c5766fce0cea1eec60090818a58a5910104e0217982d801455b49c36206ac5",
+          "exact_quote": "[386] Lorsque ce morceau fut écrit en 1816, l'Autriche paraissait en effet la barrière la plus naturelle à opposer à une barbarie menaçante. Mais depuis cette époque, dans la masse effrayante des événements qui se sont passés de toute part, dans les combinaisons nouvelles qui ont affranchi les esprits comme les territoires, l'Autriche est restée stationnaire; elle est restée vieille et isolée au milieu de l'Europe, tandis que le nord a fait des progrès réels; la liberté s'y introduit enfin dans toutes les branches de l'administration et des relations politiques. La Prusse, de protégée est devenue protectrice. La France s'est donné une forme de gouvernement qui consacre toutes les franchises contre lesquelles l'Autriche se défend. Dès lors les alliances naturelles ne sauraient être les mêmes, car ce qui désormais doit faire la base de tout traité durable, c'est ce qui appelle, étend et consacre les bienfaits de la civilisation (1829) (Note du prince de Talleyrand).",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 978
+        },
+        {
+          "unit_id": "v05-u004514",
+          "source_xpath": "/html/body/div[31]/div/p[455]",
+          "source_line": 21640,
+          "source_html_sha256": "0cde64d8f84c5117c647159c69d75dff272e099ff3b7ad3d48ebebfe6c682a0e",
+          "text_sha256": "5cd6de6eda3478dc19126c7030eb96032d2b0ba5975a587275d0d70dc88b9148",
+          "exact_quote": "[402] Et même à écrire. Quelques pages de souvenirs écrites par elle et confiées à Morande, auteur du Gazettier cuirassé, malgré leur peu d'étendue, ne manquent ni de grâce ni d'intérêt (Note du prince de Talleyrand).",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 217
+        },
+        {
+          "unit_id": "v05-u004520",
+          "source_xpath": "/html/body/div[31]/div/p[461]",
+          "source_line": 21656,
+          "source_html_sha256": "de7a18cf47c8c1ee4d76b8109608cf85e1b59959d3f2afec56b4ec3c3cd2eeda",
+          "text_sha256": "e2e3bbc0c64658b26dc44b7fa057cef317d7dd8dcb90802dc1db6ee2c913ac6d",
+          "exact_quote": "[406] Les chiffres romains renvoient aux volumes, les chiffres arabes aux pages, et les astérisques (*) aux notes biographiques et historiques.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 143
+        }
+      ],
+      "caution": "NOTES: is electronic paratext; numeric notes, authorial notes and their embedded documents are historical. Do not infer print page from their displaced HTML position.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-SEM-013",
+      "severity": "medium",
+      "category": "translated_source_labels",
+      "description": "Some historical letters carry Traduction labels, and the Grey letter u1059 uses an English dateline while its text is French.",
+      "evidence": [
+        {
+          "unit_id": "v05-u000388",
+          "source_xpath": "/html/body/p[347]",
+          "source_line": 2872,
+          "source_html_sha256": "069389c914a6408f327cf4e910c87efde1c031425e8ed12e21638e3daed7eac7",
+          "text_sha256": "b3a98b6ee65176c998b0bfb8cb7ef68f8026aaef2622814698e7cc47621a257e",
+          "exact_quote": "[Traduction]",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 12
+        },
+        {
+          "unit_id": "v05-u000618",
+          "source_xpath": "/html/body/p[562]",
+          "source_line": 4387,
+          "source_html_sha256": "b563ad5833e0f800b11aec949cdd2b66cdb2c8a7bb3cc2eb07ccff666783eff5",
+          "text_sha256": "e6646d00094878b4f85a8be4eab83fcacba84812959ed6f2bea4ab13e8392a82",
+          "exact_quote": "Traduction",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 10
+        },
+        {
+          "unit_id": "v05-u001301",
+          "source_xpath": "/html/body/p[1202]",
+          "source_line": 9070,
+          "source_html_sha256": "734afa2e398e5bbf88435b3bf30c391e147bb95883b2fbd5dcc9f046a21c8469",
+          "text_sha256": "6f2bab97053ed1d3dbae615f09b99470f54f2169b5a6788f6ea2fa7b9127ebbf",
+          "exact_quote": "[Traduction.]",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 13
+        },
+        {
+          "unit_id": "v05-u001059",
+          "source_xpath": "/html/body/p[975]",
+          "source_line": 7243,
+          "source_html_sha256": "49d78ab6b628524463ea456615ec98469875a03718fb9da5ec3d933ff76f3b8c",
+          "text_sha256": "952a6b7157811fbd4e08ad346452b44451bad4ac54311358e7dd0e7fb7dae92a",
+          "exact_quote": "«Downing-Street, Aug. 21, 1833.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 31
+        },
+        {
+          "unit_id": "v05-u001061",
+          "source_xpath": "/html/body/p[977]",
+          "source_line": 7245,
+          "source_html_sha256": "90c7b384cad47d88f21f5bd1a7e6cf0a2f3a1f37bf3cb63605d5b5e32085663d",
+          "text_sha256": "dd5ada67e33199a1db6fa533cc51cf81c0cc97a3a859567343252fcad6856af2",
+          "exact_quote": "»Je vous renvoie avec bien des remerciements les lettres intéressantes du duc de Broglie, que vous m'avez fait l'honneur de me confier.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 135
+        }
+      ],
+      "caution": "These are supplied-source features, not newly made translations.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-SEM-014",
+      "severity": "medium",
+      "category": "enclosure_not_letter",
+      "description": "The nine numbered April 1834 enclosures include a draft-treaty paragraph as No 3.",
+      "evidence": [
+        {
+          "unit_id": "v05-u001551",
+          "source_xpath": "/html/body/p[1439]",
+          "source_line": 10812,
+          "source_html_sha256": "3b6e0cff1b1d43add12a7aff33284529c7ae7931fe0719bf610af1c673069294",
+          "text_sha256": "8ef75595ed53c9ca502dacaf9f9546cb7879b80fa6c633dde5ade75ff4748cfd",
+          "exact_quote": "Pièces jointes à la lettre précédente.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 38
+        },
+        {
+          "unit_id": "v05-u001564",
+          "source_xpath": "/html/body/p[1450]",
+          "source_line": 10873,
+          "source_html_sha256": "e8ef3fddb4dc9b3e4bec46fefa35c1b0f4f5d2dda97ab9c644b4055d44251301",
+          "text_sha256": "56f2edc831444318cfd5f76777224dc3b8a4f07e60f5043c29fe510c68846c0d",
+          "exact_quote": "»Nous consentirions à substituer le paragraphe dont je vous envoie le projet au paragraphe existant du projet de traité, et le dernier article subirait alors le petit changement que j'y ai fait. Si cela vous arrange, je proposerai ces changements au roi et aux plénipotentiaires d'Espagne et de Portugal. Répondez, s'il vous plaît, ce soir.»",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 341
+        },
+        {
+          "unit_id": "v05-u001565",
+          "source_xpath": "/html/body/h4[3]",
+          "source_line": 10880,
+          "source_html_sha256": "70b6e464c898113558a9b049748a62d0f4a6eedd794623286a3dbf18d9946eff",
+          "text_sha256": "dd34074206b1c4d39114cce4f0826a1b82bf567fca038c1626996c800362f85a",
+          "exact_quote": "No 3.—Joint au billet précédent.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 32
+        },
+        {
+          "unit_id": "v05-u001566",
+          "source_xpath": "/html/body/p[1451]",
+          "source_line": 10881,
+          "source_html_sha256": "2b951da966ad0f8a784276597c2679f5e4322224d1186044a5cdbc0a06f74730",
+          "text_sha256": "fa22bbfe1c9ef114f19f3da5f22e1cf7e37eff5b3aaec18efc3c807b90b82646",
+          "exact_quote": "«En conséquence de cet accord, Leurs Majestés les régents se sont adressés à Leurs Majestés le roi des français et le roi de la Grande-Bretagne, et Leurs dites Majestés, prenant en considération l'intérêt qu'elles doivent toujours prendre à la sûreté de la monarchie espagnole, et étant de plus animées du vif désir de contribuer à l'établissement de la paix dans la péninsule, comme dans toutes les autres parties de l'Europe; et Sa Majesté le roi de la Grande-Bretagne, considérant en outre les engagements provenant de son ancienne alliance avec le Portugal, Leurs Majestés ont consenti à devenir parties dans l'engagement proposé.»",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 635
+        }
+      ],
+      "caution": "Do not count all nine enclosures as correspondence or make No 3 Palmerston’s private narrative.",
+      "source_changed": false
+    },
+    {
+      "id": "V5-FACSIMILE-001",
+      "severity": "medium",
+      "category": "facsimile_variant",
+      "description": "The final ZUYLEN DE NYEVELDT index entry ends with volume-V page 339 in all four saved Gutenberg renditions, but page 403 in both inspected matching 1892 facsimile witnesses.",
+      "evidence": [
+        {
+          "unit_id": "v05-u004051",
+          "source_xpath": "/html/body/div[30]/p[10]",
+          "source_line": 19183,
+          "source_html_sha256": "120c528234a2ed6bb7377eed371da8b72cc9412da5d8bed8b3125aa3aa7eec42",
+          "text_sha256": "2cf271b2d51e9f6397b2ab99920d3e8aad23508ae0a8c5f552aa20dfe3a939d2",
+          "exact_quote": "ZUYLEN DE NYEVELDT (Hugo, baron de), diplomate hollandais.—III, 423*.—IV, 183, 184, 186, 190.—V, 27, 35, 51, 53, 87, 88, 339.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 125
+        }
+      ],
+      "gutenberg_reading": "V, 27, 35, 51, 53, 87, 88, 339.",
+      "printed_reading": "V, 27, 35, 51, 53, 87, 88, 403.",
+      "facsimile_evidence": [
+        {
+          "witness": "University of Toronto, Robarts",
+          "file": "facsimile/toronto-n677.jpg",
+          "sha256": "f9006e541d713cdd5e5a6602360b659738b85347d4d1ffc8c71ef847368d7c32",
+          "url": "https://archive.org/download/mmoirespubli05talluoft/page/n677.jpg",
+          "printed_page": "650",
+          "visually_verified": true,
+          "bundled": true
+        },
+        {
+          "witness": "UC Davis / Google, reprocessed corroborating PDF",
+          "sha256": "ba243118f7f4d749dcef5b15e30bbf94dfae538853da1aee06c2439019cba282",
+          "url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-5/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%205.pdf",
+          "pdf_page_1based": 682,
+          "printed_page": "650",
+          "visually_verified": true,
+          "resolution_caution": "Lower resolution; primary reading established from Toronto.",
+          "bundled": false,
+          "hash_description": "SHA-256 of the unbundled rendered page image used for corroboration."
+        }
+      ],
+      "caution": "Preserve the PG source reading unchanged and disclose the printed variant. This incidental comparison does not establish which reference is historically correct, whether PG deliberately corrected the printed reference, or complete index/volume collation."
+    }
+  ]
+}

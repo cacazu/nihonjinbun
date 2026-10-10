@@ -1,0 +1,14 @@
+{
+  "excluded": [
+    {
+      "kind": "digital_editorial_note",
+      "text": "Note sur la transcription: Les erreurs clairement introduites par le typographe ont été corrigées. L'orthographe d'origine a été conservée et n'a pas été harmonisée. Les numéros des pages blanches n'ont pas été repris.",
+      "source_xpath": "/html/body/div[2]/p",
+      "source_line": 344,
+      "source_html": "<p>Note sur la transcription: Les erreurs clairement introduites par le typographe ont été corrigées.&#13;\nL'orthographe d'origine a été conservée et n'a pas été harmonisée.&#13;\nLes numéros des pages blanches n'ont pas été repris.</p>",
+      "text_sha256": "653f546d7385cc8b2b89f261f516904f58c4713bb93e60ce0be0ba3995868c9e"
+    }
+  ],
+  "gutenberg_endnotes": [],
+  "note": "All historical notes 1–406 are retained in units.json. The electronic NOTES grouping heading is retained but explicitly identified as digital editorial metadata."
+}
