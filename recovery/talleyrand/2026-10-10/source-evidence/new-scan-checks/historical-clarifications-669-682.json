@@ -1,0 +1,30 @@
+{
+  "scope": "Two targeted historical clarifications only; original French and translation should not be harmonized silently.",
+  "findings": [
+    {
+      "unit_id": "v01-u000669",
+      "narrator_claim": "Carnot escaped Cayenne after 18 Fructidor exile there.",
+      "existing_edition_note": "u001383, note318: Proscrit au 18 fructidor, il se réfugia à Genève.",
+      "institutional_evidence": {
+        "url": "https://www2.assemblee-nationale.fr/sycomore/fiche/12244?legislature=2",
+        "title": "Assemblée nationale, Lazare Nicolas Marguerite Carnot, biography from Robert and Cougny",
+        "locator": "Biography paragraph beginning Après que les élections de l’an V; subsequent paragraph about Geneva and Vaud",
+        "finding": "Escaped proscription, hid in France, reached Switzerland; does not support deportation to Cayenne."
+      },
+      "recommendation": "If root chooses, add separate translator cross-reference to existing note318 and historical discrepancy."
+    },
+    {
+      "unit_id": "v01-u000682",
+      "narrator_claim": "Spain retroceded Louisiana by Treaty of Basle.",
+      "existing_edition_note": "No footnote attached; note319 lists Basle treaties but no Louisiana correction found in volume notes.",
+      "primary_evidence": {
+        "url": "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty",
+        "title": "U.S. National Archives, Louisiana Purchase Treaty (1803)",
+        "locator": "Transcription, Article I",
+        "finding": "Cites Article III of treaty at St Ildefonso, 1 October1800, for Spanish retrocession."
+      },
+      "recommendation": "If root chooses, add separate historical translator note naming San Ildefonso1800, preserving narrator wording."
+    }
+  ],
+  "source_changes": "None"
+}
