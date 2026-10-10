@@ -1,6 +1,6 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 2560 entries in batches 001–316 byte-for-byte. Initial semantic checks have passed at these bytes. The preserved reread flags cover 2061 entries; all 2,560 initial-draft entries are now present, while the full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 2560 entries in batches 001–316 byte-for-byte. Initial semantic checks have passed at these bytes. The preserved reread flags cover 2143 entries; all 2,560 initial-draft entries are now present, while the full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -269,20 +269,20 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `259-root-draft.json`: `f5c7d72bf24f99cb3886b82098b8f142dafece82fc3f44394c65ffcc5644b5ab`
 - `260-root-draft.json`: `c3c10edd7313d5240cf4e74e024cdcfe845c71e0e62f3ac5da24af7e3653a980`
 - `261-root-draft.json`: `00746ba538eaa9811bfd032e5c32673cfb5172081428dc7b7e49f7ae9da29e17`
-- `262-root-draft.json`: `5ac25588b5252bb3de3b05d661e6b94303bfdba74d17a447934bbf9f0f4c6628`
-- `263-root-draft.json`: `8e16181d1f8bfd50c065b9e35e8e3c53d85039f3ec4944e4872579360a410930`
-- `264-root-draft.json`: `b2cd2f2420c6016fa043f3617b12885d297e8803f493b761406f41f640c6738b`
-- `265-root-draft.json`: `42a0a9c452f5ceb6543d3425bda65f94212df12ea50eee2b9ed79811e69ab02d`
-- `266-root-draft.json`: `ad6346d558f58c00e10f7ba2bd3dc2333ef4cdf58052517caf0379c2346e5f9b`
-- `267-root-draft.json`: `e6be59675c1b0bd1a8d3a3e404c1969ab94f478ce43b13e8732a8ffcbb22a2fc`
-- `268-root-draft.json`: `be598c127aea75d650725caf2a6ab8c527b794713c0cff681580b52fb779a257`
-- `269-root-draft.json`: `2651dd4e453544b96022869682bf34ecf37f47c7ac49675a4581c24754b3f5da`
-- `270-root-draft.json`: `de4dc13fba7261db4d69626a4daa6e161e9befd7b0f6cdc07d5928659c469535`
-- `271-root-draft.json`: `cc8bd1704e2eeeea460c0fc9379a438bf5297f607662d5e26f114931d6da86f1`
-- `272-root-draft.json`: `9506748e36fcf13654e78c9aee63daa727d1d0ff5a2b7b3b36ae14230b74dd02`
-- `273-root-draft.json`: `74cb502172dea8eff59a4d41614fbb28785cdc134a6b2a3743e0256e56d34296`
-- `274-root-draft.json`: `93efdfc37525f0ec9d70c70f2a898d7289850e3973b2f2aed3ecb9916b5e0e9a`
-- `275-root-draft.json`: `6c72cf66c7bcd7b58e46ca0cfb9aa2b262f42a7bf04d4637776a5a524f91dfae`
+- `262-root-draft.json`: `bda53f0e23ef708b5b4f02b8f7ec5dcee612546cf19f99a8560a92a2c9300856`
+- `263-root-draft.json`: `85e09759c88c99dbbb37eadf6bcabf248a24fe79845f44de5e639dd099a54900`
+- `264-root-draft.json`: `be30245414449bb2da363c20e9530c8e8b5265f6ac53012b1885bad0f96e78ce`
+- `265-root-draft.json`: `dc852b4051ba1ca28829d20dfd82f124c2badaa657f9ebc8e7d35475ca0f1625`
+- `266-root-draft.json`: `55ffa1149ad06f801c75dbde9f19c417f674a8cd902bc1f51891d47169fb25e7`
+- `267-root-draft.json`: `f12d65ee84e61bff85381c3a61fc655613410e8532c4882118c8c71d6d3066f0`
+- `268-root-draft.json`: `5acde1e48442b7c9c14a93cc47a5716b56db152320ab360f2ec26445e1ceb35b`
+- `269-root-draft.json`: `8cb807bf0b79da784a8c85e79072636219a5f218184bdc3e2d2a65fe86316bb3`
+- `270-root-draft.json`: `461d79ea3aac5f1b733252058f3ea069cc5d77d69152e481dd27dd59b0ee53b1`
+- `271-root-draft.json`: `b002a25151eb4904e067fc1f421113004d26d8ff686c751d5e672c0cd0d56c8e`
+- `272-root-draft.json`: `38726f803552aea96a2fa36ac3da79660a1e90f492a1ef12c34581f2cab8b1c2`
+- `273-root-draft.json`: `01497b375d15e54dce977e09e63640a1aba13b668e4dea67a64e25a8075e04ea`
+- `274-root-draft.json`: `0585eacc8941b3abf7f38c0ab2f8ed61cf7e43fe75c56ffef7427de3674d537e`
+- `275-root-draft.json`: `69ff5c7f9e89f6262cdddab0eef0c1163db091c67e04b341db005f69e5701452`
 - `276-root-draft.json`: `aad8c07722db6bab4442c58c9debb09daddc1b19b59e6d468368565b1d0c7be2`
 - `277-root-draft.json`: `25a9836e0533ebe753f369afab47fd1300cd1ce7d128b2ba82c6cf2085d86fdc`
 - `278-root-draft.json`: `b9cc8bfc1dd4af598375894bafcccb7c88e4fd73deb4976399b91695fb983bbb`
