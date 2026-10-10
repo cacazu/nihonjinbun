@@ -1,0 +1,28 @@
+VOLUME II: PRUSSIAN POPULATION BASELINE YEARS
+
+The printed volume confirms 1806 in u1526 (p.461), 1805 in u1776 (p.520), and 1805 in u1793 (p.524). None of the three printed numerals differs from its source unit. No baseline correction or historical reconciliation is supplied.
+
+v02-u001526 | printed p. 461 | 1806
+Mais si, pour que la Prusse ait une population égale à celle qu’elle avait en 1806, et qui n’allait qu’à neuf millions deux cent mille âmes,
+facsimile-prussia-baseline/u001526-baseline-1806.png
+SHA256: 52953e5bd0464876f5014b5a2cb6f092fd0dd35508d255d9fd12e844d504e645
+https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n474/mode/1up
+
+v02-u001776 | printed p. 520 | 1805
+la Prusse peut obtenir son rétablissement sur la base de population qu’elle avait en 1805, sans enlever à la Saxe plus de trois à quatre cent mille âmes.
+facsimile-prussia-baseline/u001776-baseline-1805.png
+SHA256: 9c5f72ac10847d8e41def1156701032fdf4510b136b990178a8f90d62f4a3bd2
+https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n533/mode/1up
+
+v02-u001793 | printed p. 524 | 1805
+que leur population sera la même qu’en 1805, si, à celle des pays qu’ils ont conservés et à celle des pays disponibles qui leur sont destinés, on ajoute seulement trois cent trente mille Saxons.
+facsimile-prussia-baseline/u001793-baseline-1805.png
+SHA256: 91fc0ed9657d20b90b2bbbb80de411eee63695beb03f01367e4be6e3448e1c74
+https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n537/mode/1up
+
+Bounded visual comparison of the Prussian population-baseline years at v02-u001526, v02-u001776 and v02-u001793. Each printed numeral agrees with its digital source unit. No determination of the historically intended baseline or whole-volume printed collation is claimed.
+Source PDF: https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf
+Source PDF SHA256: 3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb
+Full provenance, original unit hashes and intermediate full-page hashes are recorded in facsimile-prussia-baseline/verification.json.
+
+Evidence paths are relative to the payload directory. The three excerpt PNGs are bundled. Full-page renderings and the source PDF are unbundled; their hashes and available public source links are retained in facsimile-prussia-baseline/verification.json. These are targeted checks, not whole-volume printed collation.

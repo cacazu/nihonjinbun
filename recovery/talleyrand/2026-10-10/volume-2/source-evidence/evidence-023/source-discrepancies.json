@@ -1,0 +1,1600 @@
+{
+  "recorded_at_utc": "2026-10-10T12:52:06.704147+00:00",
+  "scope": "Known discrepancies among the current and files-route Gutenberg HTML/TXT witnesses, with targeted printed checks at units 86, 88 with note 35, 108, 177, 179, 305, 745, 765, 825, 843, 889, 903, 1077 with note 220, 1128, 1274, 1312, 1343, 1369, 1382, 1409 1412 with note 336, 1496, 1589 with the related dateline at 1492, 1742 with the related dateline at 1365, and the Prussian population-baseline statements at 1526, 1776 and 1793. Printed pages 282–285 were checked around the unit 889 opening lacuna. Related letter datelines at units 1283, 1337, 1365 and 1407 were checked for the return-time and Noailles arrival comparisons. These are bounded source comparisons, not whole-volume printed collation.",
+  "files": [
+    {
+      "name": "source.html",
+      "sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+      "bundled": false,
+      "url": "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html"
+    },
+    {
+      "name": "source.txt",
+      "sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+      "bundled": false,
+      "url": "https://www.gutenberg.org/cache/epub/28427/pg28427.txt"
+    },
+    {
+      "name": "source-legacy.html",
+      "sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+      "bundled": false,
+      "url": "https://www.gutenberg.org/files/28427/28427-h/28427-h.htm"
+    },
+    {
+      "name": "source-legacy.txt",
+      "sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+      "bundled": false,
+      "url": "https://www.gutenberg.org/files/28427/28427-8.txt"
+    }
+  ],
+  "findings": [
+    {
+      "id": "V2-SOURCE-001",
+      "unit": "v02-u000086",
+      "printed_page_context": "43–44, break immediately before damaged word",
+      "current_and_legacy_html": "on ne pouvait [page 044]order la réforme de ceux-ci",
+      "current_and_legacy_txt": "on ne pouvait pas accorder la réforme de ceux-ci",
+      "finding": "HTML witnesses omit pas acc at the page break; both TXT witnesses supply the complete negative clause.",
+      "status": "print_confirms_txt_reading_and_html_lacuna",
+      "urls": [
+        "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html#Page_044",
+        "https://www.gutenberg.org/cache/epub/28427/pg28427.txt",
+        "https://www.gutenberg.org/files/28427/28427-8.txt"
+      ],
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "on ne pouvait pas accorder la réforme de ceux-ci, et le pape ne dut pas l’espérer.",
+        "outcome": "print_confirms_txt_reading_and_html_lacuna",
+        "finding": "Printed p.43 ends with “on ne pouvait”; p.44 begins “pas accorder la réforme de ceux-ci”. This directly confirms the complete negative clause already present in the digital TXT witnesses, and supplies the HTML loss “pas acc”.",
+        "evidence": [
+          {
+            "printed_page": 43,
+            "pdf_page_1_based": 57,
+            "ia_leaf_0_based": 56,
+            "unbundled_image_filename": "original-print-043_pdf-057.png",
+            "bundled": false,
+            "unbundled_file_sha256": "1c0aeb62d992820e00da2cc5d847764ad44fdee5540b380160e7d1292b5dc6ba",
+            "image_sha256": "1c0aeb62d992820e00da2cc5d847764ad44fdee5540b380160e7d1292b5dc6ba",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n56/mode/1up",
+            "visually_inspected": true
+          },
+          {
+            "printed_page": 44,
+            "pdf_page_1_based": 58,
+            "ia_leaf_0_based": 57,
+            "unbundled_image_filename": "original-print-044_pdf-058.png",
+            "bundled": false,
+            "unbundled_file_sha256": "f664d749597da26c4e3f2e7a9b4bce6c8f11cbc44d8ef6f761b89db6f04bb9a6",
+            "image_sha256": "f664d749597da26c4e3f2e7a9b4bce6c8f11cbc44d8ef6f761b89db6f04bb9a6",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n57/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "unbundled_verification_report": {
+          "description": "Detailed source comparison for the cited printed evidence",
+          "bundled": false,
+          "sha256": "34f44fc57528b84919939c42bdedb17d77fca0216ead59762bf839a566f7a251",
+          "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+        },
+        "witness_reading_differences": [
+          {
+            "digital_reading": "on ne pouvait order la réforme de ceux-ci",
+            "printed_reading": "on ne pouvait pas accorder la réforme de ceux-ci",
+            "source": "printed pp.43–44, visually verified; agrees with checked TXT reading"
+          }
+        ]
+      },
+      "interpretive_caution": "The full negative TXT reading is also verified in print; the supplied HTML witness remains unchanged."
+    },
+    {
+      "id": "V2-SOURCE-002",
+      "unit": "v02-u000088",
+      "original_note_unit": "v02-u002049",
+      "printed_page_context": "45–46; first Odescalchi occurrence precedes marker 046",
+      "all_digital_main_texts": "Innocent XII[35] (Odescalchi)",
+      "all_digital_note_35_texts": "[35] Innocent XI (Benoît Odescalchi), né à Côme en 1611, pape en 1671, mort en 1689.",
+      "finding": "The main-text numeral XII conflicts with note 35 numeral XI for the same Odescalchi. The conflict occurs in current and files-route HTML/TXT and is now confirmed in the printed edition.",
+      "status": "main_note_numeral_conflict_verified_in_print; no_digital_numeral_restoration",
+      "urls": [
+        "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html#FNanchor_35",
+        "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html#Footnote_35",
+        "https://www.gutenberg.org/cache/epub/28427/pg28427.txt"
+      ],
+      "print_verification": {
+        "unbundled_verification_report": {
+          "description": "Detailed source comparison for the cited printed evidence",
+          "bundled": false,
+          "sha256": "5c6fd16d48c88c7fa68d212fdf1ff00d72f225b652ffd9791eabb554aa02b4bd",
+          "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+        },
+        "edition": "Mémoires du prince de Talleyrand, II, Duc de Broglie; Paris: Calmann Lévy, 1891.",
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+        "unit": "v02-u000088",
+        "note_unit": "v02-u002049",
+        "digital_note_number": 35,
+        "printed_note_number": 1,
+        "printed_pages": [
+          45
+        ],
+        "printed_main_reading": "Innocent XII¹ (Odescalchi)",
+        "printed_note_reading": "1. Innocent XI (Benoît Odescalchi), né à Côme en 1611, pape en 1671, mort en 1689.",
+        "finding": "Print itself disagrees: XII in the main text and XI in the footnote for Odescalchi. The numerical conflict is inherited by the digital source. No witness-based numeral correction is supplied by this scan. Historical truth is not adjudicated.",
+        "status": "main_note_numeral_conflict_verified_in_print; no_digital_numeral_restoration",
+        "excerpts": [
+          {
+            "filename": "u000088-main-and-note.png",
+            "printed_page": 45,
+            "crop_xyxy": [
+              210,
+              1540,
+              1160,
+              1970
+            ],
+            "unbundled_filename": "u000088-main-and-note.png",
+            "bundled": false,
+            "unbundled_file_sha256": "f9a1577b4a46f3c3e8ee02be38e62c0ba8047d9e28ce84510bdc6e5bc75f4010",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "sha256": "f9a1577b4a46f3c3e8ee02be38e62c0ba8047d9e28ce84510bdc6e5bc75f4010",
+            "bytes": 280764,
+            "visually_inspected": true,
+            "source_pdf_bundled": false
+          }
+        ],
+        "unit_source_text": "Quant aux libertés de l'Église gallicane, qui font peur à la cour de Rome, s'engager par serment à ne pas y déroger est assurément tout ce qu'on pouvait attendre d'un légat, surtout si l'on songe qu'aucun pape ne les a jamais reconnues. Innocent XII[35] (Odescalchi) bouleversa pendant huit ans l'Église de France, à cause de ces mêmes libertés consacrées dans l'assemblée du clergé de 1682, et refusa constamment d'accorder des bulles aux ecclésiastiques du second ordre, membres de cette assemblée (où ils n'avaient cependant pas voix délibérative). Son successeur, Alexandre VIII[36] (Ottoboni), fut plus opiniâtre encore dans ses refus, puisque deux jours avant sa mort il publia une bulle contre les quatre articles de 1682, laquelle, au reste, n'eut pas de suite, parce qu'il était mourant. Innocent XII[37] (Pignatelli) tout bonhomme qu'il était, ne put se résoudre à accorder des bulles aux évêques nommés entre 1682 et 1693, qu'après qu'ils lui eurent écrit chacun une lettre d'excuses et de regrets sur ce qui s'était passé dans cette assemblée. Cette lettre était vraiment humiliante, et ce qui lui donna surtout ce caractère, c'est que Louis XIV en joignit une de sa propre main, dans laquelle il s'engageait à ne donner aucune suite à son édit du 22 mars 1682. La lettre du roi dut paraître une rétractation, dont il se releva pourtant avant sa mort, puisqu'enfin, l'édit ne fut pas révoqué, et qu'après lui, il continua d'être exécuté.",
+        "unit_text_sha256": "daa29e4a896e6daca2c0a0b618547e49f92f7d43efb766ed9dbdde06a30b1a27",
+        "unit_html_sha256": "f98aef0d62c5e284144b1cb81ff23a79cb54b0be3e3db67b108802d7c85a07a4",
+        "note_unit_source_text": "[35] Innocent XI (Benoît Odescalchi), né à Côme en 1611, pape en 1671, mort en 1689.",
+        "note_unit_text_sha256": "d844e3e23e073c8a259135a4c248a2f40d7a584c6377b565c9b2a216fe299049",
+        "note_unit_html_sha256": "43df61eaf287681d3d11daa51c7632921544f8ca854b62476a6d962ec9180f8b",
+        "pages": [
+          {
+            "printed_page": 45,
+            "pdf_page_1_based": 59,
+            "ia_leaf_0_based": 58,
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n58/mode/1up",
+            "unbundled_full_image_filename": "print-045_pdf-059.png",
+            "bundled": false,
+            "unbundled_file_sha256": "7dbd48f875eddb627389d7e3810af60bb8ae191fceb8361463227b25759c59d1",
+            "full_image_sha256": "7dbd48f875eddb627389d7e3810af60bb8ae191fceb8361463227b25759c59d1",
+            "visually_inspected": true
+          }
+        ],
+        "source_pdf_bundled": false
+      },
+      "printed_finding": "Print itself disagrees: XII in the main text and XI in the footnote for Odescalchi. The numerical conflict is inherited by the digital source. No witness-based numeral correction is supplied by this scan. Historical truth is not adjudicated.",
+      "interpretive_caution": "The main text and historical note give different papal numerals; they are separate textual voices and are not harmonized.",
+      "public_copy_note": "The earlier digital-only uncertainty about print attribution is superseded by the accompanying printed evidence."
+    },
+    {
+      "id": "V2-SOURCE-003",
+      "unit": "v02-u000108",
+      "printed_page_context": "54",
+      "all_four_digital_witnesses": "si elles n’empêchent pas le chef de l’Église de remplir librement les fonctions du nonce apostolique",
+      "finding": "The source attributes the nuncio’s functions to the head of the Church. This anomalous wording occurs in current/legacy HTML/TXT; no alternate reading found.",
+      "status": "anomalous_print_reading_confirmed_no_restoration",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "si elles n’empêchent pas le chef de l’Église de remplir librement les fonctions du nonce apostolique, le pape ne peut pas",
+        "outcome": "anomalous_print_reading_confirmed_no_restoration",
+        "finding": "The printed edition itself says “fonctions du nonce apostolique”, attributing these functions in the grammar of the sentence to the head of the Church. This is not a newly recoverable digital omission. No conjectural substitution is warranted by this facsimile.",
+        "evidence": [
+          {
+            "printed_page": 54,
+            "pdf_page_1_based": 68,
+            "ia_leaf_0_based": 67,
+            "unbundled_image_filename": "original-print-054_pdf-068.png",
+            "bundled": false,
+            "unbundled_file_sha256": "c84f58be06ea6e53eb3dc87c5150d93c2a22cddd8d022cf654101651ebd4cbe1",
+            "image_sha256": "c84f58be06ea6e53eb3dc87c5150d93c2a22cddd8d022cf654101651ebd4cbe1",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n67/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "unbundled_verification_report": {
+          "description": "Detailed source comparison for the cited printed evidence",
+          "bundled": false,
+          "sha256": "34f44fc57528b84919939c42bdedb17d77fca0216ead59762bf839a566f7a251",
+          "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+        }
+      },
+      "interpretive_caution": "The anomalous title is the supplied reading. A conjectural correction would require stronger evidence."
+    },
+    {
+      "id": "V2-SOURCE-004",
+      "unit": "v02-u000179",
+      "all_four_digital_witnesses": "des cardinaux Fesch, Maury et Caselli, des archevêques de Tours des évêques de Gand[59], d’Évreux, de Nantes, de Trêves, et de M. l’abbé Émery",
+      "finding": "Malformed plural/punctuation is shared by current/legacy HTML/TXT; no alternate witness supplies a missing name or a second archbishop.",
+      "status": "malformed_print_list_confirmed_no_restoration",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "des cardinaux Fesch, Maury et Caselli, des archevêques de Tours des évêques de Gand¹",
+        "outcome": "malformed_print_list_confirmed_no_restoration",
+        "finding": "The printed line has plural “des archevêques de Tours” followed directly by “des évêques de Gand”, without an intervening comma or second archbishop name. Superscript 1 is the printed footnote marker corresponding to the digital note reference [59]. The facsimile supplies no missing name or conjunction.",
+        "evidence": [
+          {
+            "printed_page": 78,
+            "pdf_page_1_based": 92,
+            "ia_leaf_0_based": 91,
+            "unbundled_image_filename": "original-print-078_pdf-092.png",
+            "bundled": false,
+            "unbundled_file_sha256": "d0f71109e8793a0a1b21f3afaf1fe56b71594b3c97d0e32ad7889db2681ec59b",
+            "image_sha256": "d0f71109e8793a0a1b21f3afaf1fe56b71594b3c97d0e32ad7889db2681ec59b",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n91/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "unbundled_verification_report": {
+          "description": "Detailed source comparison for the cited printed evidence",
+          "bundled": false,
+          "sha256": "34f44fc57528b84919939c42bdedb17d77fca0216ead59762bf839a566f7a251",
+          "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+        }
+      },
+      "interpretive_caution": "The supplied list contains the named members but provides neither a second archbishop name nor a missing conjunction."
+    },
+    {
+      "id": "V2-SOURCE-005",
+      "unit": "v02-u000177",
+      "all_four_digital_witnesses": "On lui enleva son maître de chambre, le prélat Doria, son confesseur.",
+      "finding": "All current/legacy HTML/TXT witnesses have the same commas. Apposition versus separate list-member status is not resolved by these witnesses.",
+      "status": "shared_punctuation_verified_in_print; apposition_or_list_interpretation_unresolved",
+      "print_verification": {
+        "unbundled_verification_report": {
+          "description": "Detailed source comparison for the cited printed evidence",
+          "bundled": false,
+          "sha256": "5c6fd16d48c88c7fa68d212fdf1ff00d72f225b652ffd9791eabb554aa02b4bd",
+          "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+        },
+        "edition": "Mémoires du prince de Talleyrand, II, Duc de Broglie; Paris: Calmann Lévy, 1891.",
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+        "unit": "v02-u000177",
+        "printed_pages": [
+          77
+        ],
+        "printed_main_reading": "On lui enleva son maître de chambre, le prélat Doria, son confesseur.",
+        "finding": "The printed punctuation is the same sequence of commas as the digital source. No conjunction, semicolon, or clarifying parenthesis resolves apposition versus separate list members. There is no note marker on Doria or confesseur; the adjacent notes concern di Pietro and the bishop of Savone. No digital restoration or historical identity inference is warranted.",
+        "status": "shared_punctuation_verified_in_print; apposition_or_list_interpretation_unresolved",
+        "excerpts": [
+          {
+            "filename": "u000177-doria.png",
+            "printed_page": 77,
+            "crop_xyxy": [
+              170,
+              965,
+              1110,
+              1080
+            ],
+            "unbundled_filename": "u000177-doria.png",
+            "bundled": false,
+            "unbundled_file_sha256": "6a71d2cfe4c8b987e13630b6ec71492a9bea15db89e3b02530f5925531b4d420",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "sha256": "6a71d2cfe4c8b987e13630b6ec71492a9bea15db89e3b02530f5925531b4d420",
+            "bytes": 80569,
+            "visually_inspected": true,
+            "source_pdf_bundled": false
+          }
+        ],
+        "unit_source_text": "La publication de tous les brefs dont je viens de parler, loin de disposer l'empereur à accorder plus de liberté au pape, lui persuada qu'il en avait beaucoup trop, puisqu'il en abusait ainsi. On donna l'ordre, le 7 janvier 1811, de faire dans son appartement une perquisition rigoureuse; on fouilla tout, jusqu'à son secrétaire; et ses papiers et ceux des personnes de sa maison furent envoyés à Paris. On y trouva, dit-on, un bref qui conférait des pouvoirs extraordinaires au cardinal di Pietro[57]. Alors on lui retira plumes, encre, papier. On lui enleva son maître de chambre, le prélat Doria, son confesseur. On le priva de toute communication avec l'évêque de Savone[58]; on saisit les papiers de ce dernier et on l'emmena lui-même à Paris. Il resta au pape quelques domestiques auxquels on assigna environ quarante sous par jour pour leur dépense. C'est au moment où l'empereur se livrait à de si indignes violences et où le pape continuait ses nobles et légitimes refus, pour ce qui le concernait personnellement, que Napoléon se décida à nommer une seconde commission ecclésiastique.",
+        "unit_text_sha256": "24a444389f2264a680c4b59257695cdc878efbb59cbd36332f2aa5efdafc50e0",
+        "unit_html_sha256": "c29c64261d4862d1634357e74d0432c9ac647dd06511cac0030e7887777d8728",
+        "pages": [
+          {
+            "printed_page": 77,
+            "pdf_page_1_based": 91,
+            "ia_leaf_0_based": 90,
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n90/mode/1up",
+            "unbundled_full_image_filename": "print-077_pdf-091.png",
+            "bundled": false,
+            "unbundled_file_sha256": "1d62e22af9b9f163890776f11a692a3577dc29b461ad27fe2401818b757ef8aa",
+            "full_image_sha256": "1d62e22af9b9f163890776f11a692a3577dc29b461ad27fe2401818b757ef8aa",
+            "visually_inspected": true
+          }
+        ],
+        "source_pdf_bundled": false
+      },
+      "printed_finding": "The printed punctuation is the same sequence of commas as the digital source. No conjunction, semicolon, or clarifying parenthesis resolves apposition versus separate list members. There is no note marker on Doria or confesseur; the adjacent notes concern di Pietro and the bishop of Savone. No digital restoration or historical identity inference is warranted.",
+      "interpretive_caution": "The punctuation alone does not establish the identity relationship or precise number of people."
+    },
+    {
+      "id": "V2-SOURCE-006",
+      "unit": "v02-u000305",
+      "current_html_and_current_legacy_txt": "qu’il ne vît pas que ce mépris, devait sortir parmi les peuples, une disposition générale au soulèvement et bientôt après à la vengeance",
+      "finding": "Syntactically defective construction; context suggests a disposition arising from contempt, but no checked digital witness supplies the apparent missing preposition.",
+      "status": "digital_omission_restorable_from_print",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "passaient sous leurs yeux, et qu’il ne vît pas que de ce mépris, devait sortir parmi les peuples, une disposition générale au soulèvement et bientôt après à la vengeance.",
+        "outcome": "digital_omission_restorable_from_print",
+        "finding": "The printed text contains “que de ce mépris”, where the source unit has “que ce mépris”. The preposition de is therefore a verified restoration, not a contextual conjecture. The comma after mépris is retained in print. In the same inspected sentence, print also has plural “leurs yeux”, whereas the unit has “leur yeux”; this local secondary digital loss is likewise verified.",
+        "evidence": [
+          {
+            "printed_page": 132,
+            "pdf_page_1_based": 146,
+            "ia_leaf_0_based": 145,
+            "unbundled_image_filename": "original-print-132_pdf-146.png",
+            "bundled": false,
+            "unbundled_file_sha256": "07f1522f203ce71d432104a6a47b6f0d527be30c8261a72c1c3c813a21ad5e6f",
+            "image_sha256": "07f1522f203ce71d432104a6a47b6f0d527be30c8261a72c1c3c813a21ad5e6f",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n145/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "unbundled_verification_report": {
+          "description": "Detailed source comparison for the cited printed evidence",
+          "bundled": false,
+          "sha256": "34f44fc57528b84919939c42bdedb17d77fca0216ead59762bf839a566f7a251",
+          "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+        },
+        "witness_reading_differences": [
+          {
+            "digital_reading": "que ce mépris, devait sortir",
+            "printed_reading": "que de ce mépris, devait sortir",
+            "source": "printed p.132, fourth and fifth body lines, visually verified"
+          },
+          {
+            "digital_reading": "qui passaient sous leur yeux",
+            "printed_reading": "qui passaient sous leurs yeux",
+            "source": "printed p.132, third and fourth body lines, visually verified"
+          }
+        ]
+      },
+      "interpretive_caution": "Missing de and the plural-s in leurs yeux are witnessed electronic omissions; the original digital units remain unchanged."
+    },
+    {
+      "id": "V2-SOURCE-007",
+      "unit": "v02-u000745",
+      "all_four_digital_witnesses": "Paris, le août 1814.",
+      "finding": "All current/legacy HTML/TXT witnesses omit the day numeral before août in the main royal-instructions date.",
+      "status": "printed_blank_day_confirmed_no_restoration",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "» Paris, le [blank] août 1814.",
+        "outcome": "printed_blank_day_confirmed_no_restoration",
+        "finding": "A visibly empty space separates le from août in the printed date. No day numeral is present. [blank] records the visible gap; it is not text printed in the volume. The day cannot be supplied from this witness.",
+        "evidence": [
+          {
+            "printed_page": 254,
+            "pdf_page_1_based": 268,
+            "ia_leaf_0_based": 267,
+            "unbundled_image_filename": "original-print-254_pdf-268.png",
+            "bundled": false,
+            "unbundled_file_sha256": "208085820f2062a80504b5fc6d6e005526782a8cfa749f361b80e1bb20747f7b",
+            "image_sha256": "208085820f2062a80504b5fc6d6e005526782a8cfa749f361b80e1bb20747f7b",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n267/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "unbundled_verification_report": {
+          "description": "Detailed source comparison for the cited printed evidence",
+          "bundled": false,
+          "sha256": "34f44fc57528b84919939c42bdedb17d77fca0216ead59762bf839a566f7a251",
+          "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+        }
+      },
+      "interpretive_caution": "The month and year are present, but the day is absent. A calendar date cannot be inferred from this witness."
+    },
+    {
+      "id": "V2-SOURCE-008",
+      "unit": "v02-u000765",
+      "all_four_digital_witnesses": "On soupçonnait les menées de Fouché avec la famille Murat dans le Midi, approchait le duc d’Angoulême;",
+      "finding": "All current/legacy HTML/TXT share the syntactically defective punctuation. No alternate witness supplies a connective. Dividing after Murat and reading dans le Midi, approchait le duc as a locative inversion is plausible, but conjectural.",
+      "status": "malformed_print_connective_confirmed_no_restoration",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "On soupçonnait les menées de Fouché avec la famille Murat dans le Midi, approchait le duc d’Angoulême;",
+        "outcome": "malformed_print_connective_confirmed_no_restoration",
+        "finding": "The printed first line ends with Murat without punctuation; the next begins “dans le Midi, approchait le duc d’Angoulême;”. No conjunction or alternative punctuation supplies the defective connection. Dividing after Murat remains a conjectural interpretation, not a printed-source restoration.",
+        "evidence": [
+          {
+            "printed_page": 257,
+            "pdf_page_1_based": 271,
+            "ia_leaf_0_based": 270,
+            "unbundled_image_filename": "original-print-257_pdf-271.png",
+            "bundled": false,
+            "unbundled_file_sha256": "277b47c6a1356b9bf6e190d2fc09d1d7d482027506be35930f087eb3cc548c99",
+            "image_sha256": "277b47c6a1356b9bf6e190d2fc09d1d7d482027506be35930f087eb3cc548c99",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n270/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "unbundled_verification_report": {
+          "description": "Detailed source comparison for the cited printed evidence",
+          "bundled": false,
+          "sha256": "34f44fc57528b84919939c42bdedb17d77fca0216ead59762bf839a566f7a251",
+          "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+        }
+      },
+      "interpretive_caution": "The passage mentions suspected Fouché/Murat intrigues and Angoulême approaching in the southern theatre. Dividing the sentence after Murat is inferred punctuation. Dans le Midi does not itself specify the south as the destination of movement; that interpretation is not a recovered French reading."
+    },
+    {
+      "id": "V2-SOURCE-009",
+      "unit": "v02-u000843",
+      "all_four_digital_witnesses": "Mantoue, Palma-Nuova, Venise et Peschiera; les places de l'Oder et de l'Elbe, dans quinze jours",
+      "finding": "Current/legacy HTML/TXT all separate the Italian four-fortress group by semicolons without an express deadline. Fifteen days follows the Oder/Elbe group; its possible retrospective scope is uncertain.",
+      "status": "printed_deadline_gap_confirmed_scope_unresolved",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "celles de Hambourg, Anvers, Berg-op-Zoom, dans l’espace de six jours; Mantoue, Palma-Nuova, Venise et Peschiera; les places de l’Oder et de l’Elbe, dans quinze jours;",
+        "outcome": "printed_deadline_gap_confirmed_scope_unresolved",
+        "finding": "The four Italian places are delimited by semicolons and have no express deadline in the printed text. The following fifteen-day phrase directly follows the Oder/Elbe group. The facsimile establishes the punctuation and omission of an express Italian deadline but cannot decide the retrospective scope of the phrase. No deadline should be silently inserted.",
+        "evidence": [
+          {
+            "printed_page": 268,
+            "pdf_page_1_based": 282,
+            "ia_leaf_0_based": 281,
+            "unbundled_image_filename": "original-print-268_pdf-282.png",
+            "bundled": false,
+            "unbundled_file_sha256": "3bcee0c269c31f3192a9d2555128e84ad50208a055de8c058faae58859f7603f",
+            "image_sha256": "3bcee0c269c31f3192a9d2555128e84ad50208a055de8c058faae58859f7603f",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n281/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "unbundled_verification_report": {
+          "description": "Detailed source comparison for the cited printed evidence",
+          "bundled": false,
+          "sha256": "34f44fc57528b84919939c42bdedb17d77fca0216ead59762bf839a566f7a251",
+          "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+        }
+      },
+      "interpretive_caution": "The printed Italian list has no express deadline. The retrospective scope of the following fifteen-day phrase is uncertain; no fixed Italian deadline is supplied."
+    },
+    {
+      "id": "V2-SOURCE-010",
+      "unit": "v02-u000889",
+      "all_four_digital_witnesses": "Le premier objet dont s'occupa la commission des huit puissances fut le sort du roi et du royaume de Saxe et ensuite on du royaume de Saxe. En l'acquérant, elle...",
+      "finding": "All four current/legacy HTML/TXT witnesses have the same apparent lacuna. HTML places page284 between ensuite and on; TXT removes page marker but supplies no missing words. Subsequent sentences identify elle as Prussia, but do not establish the exact lost clause.",
+      "status": "digital_lacuna_verified; print_restoration_verified",
+      "printed_restoration": "Le premier objet dont s’occupa la commission des huit puissances fut le sort du roi et du royaume de Saxe et ensuite celui du duché de Varsovie. Depuis longtemps la Prusse convoitait la possession du royaume de Saxe.",
+      "print_source": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n297/mode/1up",
+      "print_pages": [
+        283,
+        284
+      ],
+      "scope": "Adjacent printed pages 282–285 were visually checked: no separate paragraph is missing between v02-u000888 and v02-u000889. The recoverable gap lies within the opening of v02-u000889. No full-volume printed collation is claimed.",
+      "interpretive_caution": "The printed-source restoration is documented separately; the original digital-source text and hash remain unchanged.",
+      "print_evidence_bundled": false
+    },
+    {
+      "id": "V2-SOURCE-011",
+      "unit": "v02-u000903",
+      "all_four_digital_witnesses": "contre les entreprises ambitieuses de la Prusse",
+      "finding": "All current/legacy HTML/TXT agree on Prusse despite surrounding argument for Austria and Prussia to unite against Russian expansion. HTML page292 divides contre from les but does not change the noun.",
+      "status": "digital_and_print_reading_verified; contextual_inconsistency_retained",
+      "print_page": 292,
+      "unbundled_evidence_image": "scan-306.png",
+      "bundled": false,
+      "unbundled_file_sha256": "252771f77674f600874d60c0d7559a8b8499897aa9a687859dc762e34781f0d7",
+      "print_source": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n305/mode/1up",
+      "print_reading": "les entreprises ambitieuses de la Prusse.",
+      "interpretive_caution": "Prussia is the source reading despite the contextual inconsistency. Substituting Russia would be a conjectural emendation."
+    },
+    {
+      "id": "V2-SOURCE-012",
+      "unit": "v02-u000825",
+      "all_four_digital_witnesses": "Il y aura paix et amnistie",
+      "finding": "Unusual treaty wording amnistie is shared by digital witnesses; retained rather than silently changed to amitié.",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "» ARTICLE PREMIER. — Il y aura paix et amnistie entre Leurs Majestés impériales d’Autriche et de Russie,",
+        "outcome": "amnistie_print_reading_confirmed_no_restoration",
+        "finding": "The printed treaty article plainly reads “paix et amnistie”. It does not read amitié. This is the source’s wording, rather than a demonstrated digital substitution. The heading uses small capitals, represented here by capitals.",
+        "evidence": [
+          {
+            "printed_page": 266,
+            "pdf_page_1_based": 280,
+            "ia_leaf_0_based": 279,
+            "unbundled_image_filename": "original-print-266_pdf-280.png",
+            "bundled": false,
+            "unbundled_file_sha256": "dfa425732b952fa24af447822a69eb70784bfe4feffaa1604c3258b7f5eea58a",
+            "image_sha256": "dfa425732b952fa24af447822a69eb70784bfe4feffaa1604c3258b7f5eea58a",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n279/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "unbundled_verification_report": {
+          "description": "Detailed source comparison for the cited printed evidence",
+          "bundled": false,
+          "sha256": "34f44fc57528b84919939c42bdedb17d77fca0216ead59762bf839a566f7a251",
+          "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+        }
+      },
+      "status": "amnistie_print_reading_confirmed_no_restoration",
+      "interpretive_caution": "The printed source confirms amnistie, meaning amnesty, rather than amitié."
+    },
+    {
+      "id": "V2-SOURCE-013",
+      "unit": "v02-u001077",
+      "related_unit": "v02-u002284",
+      "note_id": "Footnote_220",
+      "main_reading": "une femme de vingt-deux ans",
+      "note_reading": "Catherine Paulowna ... née en 1795",
+      "finding": "The letter is dated 1814; the main-text age of 22 conflicts with the 1795 birth year in historical note 220. Both numbers are confirmed in print. No corrected historical birth date is established by this comparison.",
+      "status": "main_note_age_year_conflict_verified_in_print; no_digital_numeric_restoration",
+      "print_verification": {
+        "unbundled_verification_report": {
+          "description": "Detailed source comparison for the cited printed evidence",
+          "bundled": false,
+          "sha256": "5c6fd16d48c88c7fa68d212fdf1ff00d72f225b652ffd9791eabb554aa02b4bd",
+          "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+        },
+        "edition": "Mémoires du prince de Talleyrand, II, Duc de Broglie; Paris: Calmann Lévy, 1891.",
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+        "unit": "v02-u001077",
+        "note_unit": "v02-u002284",
+        "digital_note_number": 220,
+        "printed_note_number": 3,
+        "printed_pages": [
+          340,
+          341
+        ],
+        "printed_person_identification": "madame la duchesse d’Oldenbourg³",
+        "printed_main_reading": "questions qui m’auraient fort surpris de la part d’une femme de vingt-deux ans,",
+        "printed_note_reading": "3. Catherine Paulowna, sœur de l’empereur Alexandre, née en 1795, veuve en 1812 de Pierre-Frédéric-Georges, grand-duc d’Oldenbourg, remariée en 1816 au roi de Wurtemberg.",
+        "finding": "The main-text age twenty-two is printed on p.341; the note’s birth year 1795 is printed on p.340. Both numbers are inherited by the digital source. No age or year correction can be recovered from this facsimile. The identified person is the duchess of Oldenburg, Catherine Paulowna. Print additionally has a comma after 1795 where the normalized digital note has no comma; this is punctuation only and does not resolve the age/year conflict.",
+        "status": "main_note_age_year_conflict_verified_in_print; no_digital_numeric_restoration",
+        "excerpts": [
+          {
+            "filename": "u001077-name.png",
+            "printed_page": 340,
+            "crop_xyxy": [
+              380,
+              1210,
+              1310,
+              1435
+            ],
+            "unbundled_filename": "u001077-name.png",
+            "bundled": false,
+            "unbundled_file_sha256": "1eda07d30dac7d07c986495ff5aa636bfddd32b11b04b16b2c4ae3089be1a426",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "sha256": "1eda07d30dac7d07c986495ff5aa636bfddd32b11b04b16b2c4ae3089be1a426",
+            "bytes": 158497,
+            "visually_inspected": true,
+            "source_pdf_bundled": false
+          },
+          {
+            "filename": "u001077-note220.png",
+            "printed_page": 340,
+            "crop_xyxy": [
+              380,
+              1845,
+              1310,
+              1960
+            ],
+            "unbundled_filename": "u001077-note220.png",
+            "bundled": false,
+            "unbundled_file_sha256": "43c973a5373331fa13702208249169726ebfb5007ba146607d554b6c53ec3ff6",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "sha256": "43c973a5373331fa13702208249169726ebfb5007ba146607d554b6c53ec3ff6",
+            "bytes": 76154,
+            "visually_inspected": true,
+            "source_pdf_bundled": false
+          },
+          {
+            "filename": "u001077-age.png",
+            "printed_page": 341,
+            "crop_xyxy": [
+              185,
+              525,
+              1125,
+              640
+            ],
+            "unbundled_filename": "u001077-age.png",
+            "bundled": false,
+            "unbundled_file_sha256": "db1d19985936f706456f06ad40a1e3ea26499a3f400655c1d17c304d47bb7423",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "sha256": "db1d19985936f706456f06ad40a1e3ea26499a3f400655c1d17c304d47bb7423",
+            "bytes": 77354,
+            "visually_inspected": true,
+            "source_pdf_bundled": false
+          }
+        ],
+        "unit_source_text": "Deux jours se passèrent sans conférence. Une fête un jour, une chasse l'autre, en furent la cause. Dans cet intervalle je fus présenté à madame la duchesse d'Oldenbourg[220]. Je lui exprimai des regrets de ce qu'elle n'était point venue à Paris avec son frère. Elle me répondit que ce voyage[221] n'était que retardé; puis elle passa tout à coup à des questions telles que l'empereur m'en avait faites sur Votre Majesté, sur l'esprit public, sur les finances, sur l'armée, questions qui m'auraient fort surpris de la part d'une femme de vingt-deux ans, si elles n'eussent[222] paru contraster davantage avec sa démarche, son regard et le son de sa voix. Je répondis à tout dans un sens conforme aux choses que nous avons à faire ici, et aux intérêts que nous avons à y défendre.",
+        "unit_text_sha256": "ac7f10fea2c86de35711223185082a9bab18b55ea10b8c20d40a81c6da9f46a8",
+        "unit_html_sha256": "0c7a4c720f9e241cfcafbb5af923fd34203f07b0cb11fbd2abac141cfb29127d",
+        "note_unit_source_text": "[220] Catherine Paulowna, sœur de l'empereur Alexandre, née en 1795 veuve en 1812 de Pierre-Frédéric-Georges, grand-duc d'Oldenbourg, remariée en 1816 au roi de Wurtemberg.",
+        "note_unit_text_sha256": "a0cd48c211fa34e915c784319c6896edd140bfa78abb2065144f959902201575",
+        "note_unit_html_sha256": "c2b53901f7d5da4940d9f72a909c56e1337cf8a24d4cd73922e0e7eccf97f806",
+        "pages": [
+          {
+            "printed_page": 340,
+            "pdf_page_1_based": 354,
+            "ia_leaf_0_based": 353,
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n353/mode/1up",
+            "unbundled_full_image_filename": "print-340_pdf-354.png",
+            "bundled": false,
+            "unbundled_file_sha256": "bfea5d40680ab3cbf44d8986741dbcdcd44ae47efe33a876b2d8bde774348b8c",
+            "full_image_sha256": "bfea5d40680ab3cbf44d8986741dbcdcd44ae47efe33a876b2d8bde774348b8c",
+            "visually_inspected": true
+          },
+          {
+            "printed_page": 341,
+            "pdf_page_1_based": 355,
+            "ia_leaf_0_based": 354,
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n354/mode/1up",
+            "unbundled_full_image_filename": "print-341_pdf-355.png",
+            "bundled": false,
+            "unbundled_file_sha256": "6adab1b3dc6e30af29214ba736b0ae0a882cda15a1d589418a733c68800c6d88",
+            "full_image_sha256": "6adab1b3dc6e30af29214ba736b0ae0a882cda15a1d589418a733c68800c6d88",
+            "visually_inspected": true
+          }
+        ],
+        "source_pdf_bundled": false
+      },
+      "printed_finding": "The main-text age twenty-two is printed on p.341; the note’s birth year 1795 is printed on p.340. Both numbers are inherited by the digital source. No age or year correction can be recovered from this facsimile. The identified person is the duchess of Oldenburg, Catherine Paulowna. Print additionally has a comma after 1795 where the normalized digital note has no comma; this is punctuation only and does not resolve the age/year conflict.",
+      "interpretive_caution": "The main-text age twenty-two and the historical note’s birth year 1795 are both confirmed in print; their disagreement is not resolved by the facsimile."
+    },
+    {
+      "id": "V2-SOURCE-014",
+      "unit": "v02-u001128",
+      "finding": "Printed wording agrees with digital source in making the alleged betrayal itself the grammatical subject of serving as an example. No word for punishment is supplied by the printed witness. Any explanatory expansion would be interpretive rather than a recovered omission.",
+      "status": "digital_and_print_wording_confirmed; possible_semantic_ellipsis_not_emended",
+      "print_verification": {
+        "unit": "v02-u001128",
+        "recorded_at_utc": "2026-10-10T14:33:05.930413+00:00",
+        "printed_page": 357,
+        "pdf_page_1_based": 371,
+        "ia_leaf_0_based": 370,
+        "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n370/mode/1up",
+        "unbundled_image_filename": "print-357_pdf-371.png",
+        "bundled": false,
+        "unbundled_file_sha256": "ce76b86eb920504ea943910bf5d82b857b9ba98f57e775d6a0482847bb978082",
+        "image_sha256": "ce76b86eb920504ea943910bf5d82b857b9ba98f57e775d6a0482847bb978082",
+        "printed_reading": "dominé par la pensée que ce qu'il appelle la trahison du roi de Saxe servirait d'exemple à l'Allemagne et à l'Europe",
+        "finding": "Printed wording agrees with digital source in making the alleged betrayal itself the grammatical subject of serving as an example. No word for punishment is supplied by the printed witness. Any explanatory expansion would be interpretive rather than a recovered omission.",
+        "scope": "Only the relevant sentence visually checked; not full-page or whole-volume collation.",
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_bundled": false,
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb"
+      },
+      "interpretive_caution": "No punishment clause is supplied by the printed witness. Such an explanation would be contextual interpretation, not restored text."
+    },
+    {
+      "id": "V2-SOURCE-015",
+      "unit": "v02-u001274",
+      "finding": "The actual printed facsimile says Vienne, not a different location. All four checked digital witnesses faithfully reproduce this dateline. This confirms the inherited printed wording; this witness supplies no location correction.",
+      "status": "digital_and_print_reading_verified; inherited_dateline_retained; historical_accuracy_not_adjudicated",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:50:23.480341+00:00",
+        "unit": "v02-u001274",
+        "original_unit_text_sha256": "4e9b63f2f7a15c29d99fb3d4499599dff8baa36942558b66894a1a1fa94ed85e",
+        "original_unit_html_sha256": "b100399b19cc19a8e4a072708dd78278c7c7e261d54a309c342320353796d76f",
+        "scope": "Bounded visual comparison of the dateline for letter No. 4 ter, King Louis XVIII to the Prince de Talleyrand. The reading is confirmed in print; historical accuracy is not adjudicated. No whole-volume collation is claimed.",
+        "printed_reading": "Vienne, le 27 octobre 1814.",
+        "printed_heading": "Nº 4 ter. — LE ROI LOUIS XVIII AU PRINCE DE TALLEYRAND.",
+        "finding": "The actual printed facsimile says Vienne, not a different location. All four checked digital witnesses faithfully reproduce this dateline. This confirms the inherited printed wording; this witness supplies no location correction.",
+        "status": "digital_and_print_reading_verified; inherited_dateline_retained; historical_accuracy_not_adjudicated",
+        "printed_page": 398,
+        "pdf_page_1_based": 412,
+        "ia_leaf_0_based": 411,
+        "page_number_visually_verified": true,
+        "edition": "Mémoires du prince de Talleyrand, II, published by the Duc de Broglie; Paris: Calmann Lévy, 1891.",
+        "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n411/mode/1up",
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+        "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+        "source_pdf_provider_md5_verified": true,
+        "render_method": "pdftoppm -f 412 -l 412 -r 200 -png -singlefile. Full page and lossless rectangular heading/dateline excerpt inspected visually. No OCR-only conclusion.",
+        "excerpt_rectangle_xyxy": [
+          365,
+          720,
+          1320,
+          872
+        ],
+        "evidence_files": [
+          {
+            "filename": "heading-dateline-print-398.png",
+            "unbundled_filename": "heading-dateline-print-398.png",
+            "bundled": false,
+            "unbundled_file_sha256": "4d554ee190923e7ac0a9603dc482a11382feecdafc65d6b8cfe8af6a74d434ed",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "bytes": 50285,
+            "sha256": "4d554ee190923e7ac0a9603dc482a11382feecdafc65d6b8cfe8af6a74d434ed",
+            "source_pdf_bundled": false
+          },
+          {
+            "filename": "print-398_pdf-412.png",
+            "unbundled_filename": "print-398_pdf-412.png",
+            "bundled": false,
+            "unbundled_file_sha256": "30d6db2c419c368cf17334f1585b5fbd412ae362e42cfea38b238a0a2480bc02",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "bytes": 969079,
+            "sha256": "30d6db2c419c368cf17334f1585b5fbd412ae362e42cfea38b238a0a2480bc02",
+            "source_pdf_bundled": false
+          }
+        ],
+        "digital_witnesses": [
+          {
+            "unbundled_filename": "source.html",
+            "bundled": false,
+            "unbundled_file_sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+            "url": "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html",
+            "sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+            "encoding": "utf-8",
+            "reading": "Vienne, le 27 octobre 1814.",
+            "matching_occurrences": 1,
+            "normalized_context": " font à ce sujet des raisonnements militaires qui commencent à faire impression. Je suis... N o 4 ter .— le roi louis xviii au prince de talleyrand . Vienne, le 27 octobre 1814. Mon cousin, J'ai reçu votre numéro 6. J'ai été au plus pres"
+          },
+          {
+            "unbundled_filename": "source.txt",
+            "bundled": false,
+            "unbundled_file_sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+            "url": "https://www.gutenberg.org/cache/epub/28427/pg28427.txt",
+            "sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+            "encoding": "utf-8",
+            "reading": "Vienne, le 27 octobre 1814.",
+            "matching_occurrences": 1,
+            "normalized_context": "e sujet des raisonnements militaires qui commencent à faire impression. Je suis... * * * * * Nº 4 _ter_.--LE ROI LOUIS XVIII AU PRINCE DE TALLEYRAND. Vienne, le 27 octobre 1814. Mon cousin, J'ai reçu votre numéro 6. J'ai été au plus pres"
+          },
+          {
+            "unbundled_filename": "source-legacy.html",
+            "bundled": false,
+            "unbundled_file_sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+            "url": "https://www.gutenberg.org/files/28427/28427-h/28427-h.htm",
+            "sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+            "encoding": "iso-8859-1",
+            "reading": "Vienne, le 27 octobre 1814.",
+            "matching_occurrences": 1,
+            "normalized_context": " font à ce sujet des raisonnements militaires qui commencent à faire impression. Je suis... N o 4 ter .— le roi louis xviii au prince de talleyrand . Vienne, le 27 octobre 1814. Mon cousin, J'ai reçu votre numéro 6. J'ai été au plus pres"
+          },
+          {
+            "unbundled_filename": "source-legacy.txt",
+            "bundled": false,
+            "unbundled_file_sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+            "url": "https://www.gutenberg.org/files/28427/28427-8.txt",
+            "sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+            "encoding": "iso-8859-1",
+            "reading": "Vienne, le 27 octobre 1814.",
+            "matching_occurrences": 1,
+            "normalized_context": "e sujet des raisonnements militaires qui commencent à faire impression. Je suis... * * * * * Nº 4 _ter_.--LE ROI LOUIS XVIII AU PRINCE DE TALLEYRAND. Vienne, le 27 octobre 1814. Mon cousin, J'ai reçu votre numéro 6. J'ai été au plus pres"
+          }
+        ],
+        "original_units_file_sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751",
+        "source_pdf_bundled": false
+      },
+      "interpretive_caution": "The source dateline says Vienne. Replacing the place with an inferred royal residence would be a conjectural correction."
+    },
+    {
+      "id": "V2-SOURCE-016",
+      "unit": "v02-u001343",
+      "related_unit": "v02-u001312",
+      "finding": "The ambassador dispatch dated October 31 reports Alexander’s return from Hungary as avant-hier soir in u1312; Talleyrand’s royal letter, also dated October 31, reports the sovereigns’ return as avant-hier à midi in u1343. These reported return-time wordings differ.",
+      "status": "both_return_times_and_October31_datelines_verified_in_print; historical_timing_not_adjudicated",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T15:00:48.813485+00:00",
+        "scope": "Bounded visual comparison of the return-time phrases at v02-u001312 and v02-u001343, their letter headings and the two October 31, 1814 datelines. No whole-volume printed collation or historical reconciliation is claimed.",
+        "edition": "Mémoires du prince de Talleyrand, II; Duc de Broglie; Paris: Calmann Lévy, 1891.",
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+        "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+        "provider_md5_previously_verified": true,
+        "method": "Actual grayscale page renderings inspected visually; 200 dpi pdftoppm rendering and lossless rectangular excerpts. No OCR-only reading.",
+        "conclusion": "Both return-time phrases are printed exactly as the digital source reports: avant-hier soir in the ambassadors’ No 9 bis letter and avant-hier à midi in Talleyrand’s No 9 letter. Both printed datelines say 31 octobre 1814. The facsimile confirms a difference between the two published accounts and does not supply a corrective reading or historical reconciliation.",
+        "original_units_sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751",
+        "findings": [
+          {
+            "unit": "v02-u001312",
+            "printed_page": 404,
+            "printed_reading": "Il est revenu avant-hier soir de la course qu’il a faite en Hongrie avec l’empereur d’Autriche et le roi de Prusse.",
+            "unbundled_excerpt_filename": "u001312-evening.png",
+            "crop_xyxy": [
+              380,
+              1360,
+              1320,
+              1465
+            ],
+            "letter_heading": "Nº 9 bis. — LES AMBASSADEURS DU ROI AU CONGRÈS, AU MINISTRE DES AFFAIRES ÉTRANGÈRES A PARIS.",
+            "dateline_unit": "v02-u001283",
+            "dateline_page": 400,
+            "unbundled_dateline_excerpt_filename": "u001283-letter9bis-date.png",
+            "dateline_crop_xyxy": [
+              370,
+              815,
+              1290,
+              1020
+            ],
+            "source_text": "Il est revenu avant-hier soir de la course qu'il a faite en Hongrie avec l'empereur d'Autriche et le roi de Prusse.",
+            "source_text_sha256": "d9e2ef7eb5fee17f65f2617718508772517ea5ccb04443b12b2931e4920f57db",
+            "source_html_sha256": "02a01bffe0a182d1e0687f0a6d4b4e6c5e6115a360fe5d9e6d7eacb8bf71683c",
+            "printed_dateline": "Vienne, le 31 octobre 1814.",
+            "status": "digital_and_print_reading_verified; no_digital_restoration",
+            "dateline_visually_verified": true,
+            "pages": [
+              {
+                "printed_page": 404,
+                "pdf_page_1_based": 418,
+                "ia_leaf_0_based": 417,
+                "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n417/mode/1up",
+                "unbundled_image_filename": "print-404_pdf-418.png",
+                "bundled": false,
+                "unbundled_file_sha256": "0a904e6f1a9bd650cb84b87a38377292a9d2a5b56b43def76c4f837086d58507",
+                "image_sha256": "0a904e6f1a9bd650cb84b87a38377292a9d2a5b56b43def76c4f837086d58507",
+                "visually_inspected": true
+              },
+              {
+                "printed_page": 400,
+                "pdf_page_1_based": 414,
+                "ia_leaf_0_based": 413,
+                "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n413/mode/1up",
+                "unbundled_image_filename": "print-400_pdf-414.png",
+                "bundled": false,
+                "unbundled_file_sha256": "a0ceff2da881796492cd8b32c1f258f52c019370d2600c4117a65293256846aa",
+                "image_sha256": "a0ceff2da881796492cd8b32c1f258f52c019370d2600c4117a65293256846aa",
+                "visually_inspected": true
+              }
+            ],
+            "evidence_files": [
+              {
+                "filename": "u001312-evening.png",
+                "unbundled_filename": "u001312-evening.png",
+                "bundled": false,
+                "unbundled_file_sha256": "c98a1812405dc58f15cb534263e9d34a775e10ece7fc42af8413e74ac5379af7",
+                "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+                "sha256": "c98a1812405dc58f15cb534263e9d34a775e10ece7fc42af8413e74ac5379af7",
+                "bytes": 67934,
+                "source_pdf_bundled": false
+              },
+              {
+                "filename": "u001283-letter9bis-date.png",
+                "unbundled_filename": "u001283-letter9bis-date.png",
+                "bundled": false,
+                "unbundled_file_sha256": "6240b51ab212039201174e5417fb9496bd0abb5d448c9608e5496b9d88422f41",
+                "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+                "sha256": "6240b51ab212039201174e5417fb9496bd0abb5d448c9608e5496b9d88422f41",
+                "bytes": 82199,
+                "source_pdf_bundled": false
+              }
+            ]
+          },
+          {
+            "unit": "v02-u001343",
+            "printed_page": 411,
+            "printed_reading": "On raconte que pendant le voyage à Bude, d’où les souverains revinrent avant-hier à midi,",
+            "unbundled_excerpt_filename": "u001343-noon.png",
+            "crop_xyxy": [
+              220,
+              438,
+              1150,
+              603
+            ],
+            "letter_heading": "Nº 9. — LE PRINCE DE TALLEYRAND AU ROI LOUIS XVIII.",
+            "dateline_unit": "v02-u001337",
+            "dateline_page": 409,
+            "unbundled_dateline_excerpt_filename": "u001337-letter9-date.png",
+            "dateline_crop_xyxy": [
+              190,
+              700,
+              1130,
+              835
+            ],
+            "source_text": "On raconte que pendant le voyage à Bude, d'où les souverains revinrent avant-hier à midi, l'empereur Alexandre se plaignant de M. de Metternich, l'empereur François avait répondu qu'il croyait qu'il était mieux que les affaires fussent traitées par les ministres; qu'elles l'étaient avec plus de liberté et plus de suite; qu'il ne faisait point lui-même les siennes, mais que ses ministres ne faisaient rien que par ses ordres; qu'ensuite, et dans le cours de la conversation, il avait dit, entre autres choses que, quand ses[319] peuples, qui ne l'avaient jamais abandonné, qui avaient tout fait pour lui et lui avaient tout donné, étaient inquiets, comme ils l'étaient en ce moment, son devoir était de faire tout ce qui pouvait servir à les tranquilliser; que, sur cela, l'empereur Alexandre ayant demandé si son caractère et sa loyauté ne devaient pas prévenir et ôter toute espèce d'inquiétude, l'empereur François avait répondu que de bonnes frontières étaient les meilleures gardiennes de la paix.",
+            "source_text_sha256": "b4ba26fd7ee7a62b9b31203c1382a57920ffe41d354f9768e769cdf71e630c47",
+            "source_html_sha256": "ad7278d849f964ecaa2396a1dec2425c3f9506adafd7b6b241b347177c7cfdb5",
+            "printed_dateline": "Vienne, le 31 octobre 1814.",
+            "status": "digital_and_print_reading_verified; no_digital_restoration",
+            "dateline_visually_verified": true,
+            "pages": [
+              {
+                "printed_page": 411,
+                "pdf_page_1_based": 425,
+                "ia_leaf_0_based": 424,
+                "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n424/mode/1up",
+                "unbundled_image_filename": "print-411_pdf-425.png",
+                "bundled": false,
+                "unbundled_file_sha256": "54816ed0e5c675822ba4d9eff2f36bdb362f3eccdb03dc293aeec749378faef7",
+                "image_sha256": "54816ed0e5c675822ba4d9eff2f36bdb362f3eccdb03dc293aeec749378faef7",
+                "visually_inspected": true
+              },
+              {
+                "printed_page": 409,
+                "pdf_page_1_based": 423,
+                "ia_leaf_0_based": 422,
+                "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n422/mode/1up",
+                "unbundled_image_filename": "print-409_pdf-423.png",
+                "bundled": false,
+                "unbundled_file_sha256": "aabcb557a40d4cefb08ddc1ef778bfe3eaa07fe08f3adc1ed8638e68ca378057",
+                "image_sha256": "aabcb557a40d4cefb08ddc1ef778bfe3eaa07fe08f3adc1ed8638e68ca378057",
+                "visually_inspected": true
+              }
+            ],
+            "evidence_files": [
+              {
+                "filename": "u001343-noon.png",
+                "unbundled_filename": "u001343-noon.png",
+                "bundled": false,
+                "unbundled_file_sha256": "ff493c8b260a0d57a4d6306d68947aee8eba3bb3ffa416ce4db9396ceb7880b0",
+                "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+                "sha256": "ff493c8b260a0d57a4d6306d68947aee8eba3bb3ffa416ce4db9396ceb7880b0",
+                "bytes": 117529,
+                "source_pdf_bundled": false
+              },
+              {
+                "filename": "u001337-letter9-date.png",
+                "unbundled_filename": "u001337-letter9-date.png",
+                "bundled": false,
+                "unbundled_file_sha256": "6aebdd7e963a74d13d2c6337b555689ebc29c04252b66aad4d81d43b18768fd7",
+                "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+                "sha256": "6aebdd7e963a74d13d2c6337b555689ebc29c04252b66aad4d81d43b18768fd7",
+                "bytes": 52733,
+                "source_pdf_bundled": false
+              }
+            ]
+          }
+        ],
+        "source_pdf_bundled": false
+      },
+      "printed_finding": "Both return-time phrases are printed exactly as the digital source reports: avant-hier soir in the ambassadors’ No 9 bis letter and avant-hier à midi in Talleyrand’s No 9 letter. Both printed datelines say 31 octobre 1814. The facsimile confirms a difference between the two published accounts and does not supply a corrective reading or historical reconciliation.",
+      "interpretive_caution": "The two reported times and their different speaker/report contexts are separately preserved. The textual difference does not establish the authentic return time."
+    },
+    {
+      "id": "V2-SOURCE-017",
+      "unit": "v02-u001382",
+      "finding": "The printed facsimile plainly has empêcher, including the circumflex. Digital source unit empocher is therefore a recoverable transcription error. The correction empocher → empêcher is supported directly by the printed witness, not merely by contextual reconstruction.",
+      "status": "print_restoration_verified; authoritative_digital_source_unchanged",
+      "digital_witnesses": [
+        {
+          "file": "source.html",
+          "sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+          "encoding": "utf-8",
+          "context": "Les instructions supplémentaires du roi, apportées par M. de Noailles, avaient mis ses plénipotentiaires dans la possibilité de faire des insinuations sur la part active que la France prendrait pour obtenir un équilibre réel et durable, et pour empocher que la Russie ne s'emparât du grand-duché de Varsovie, et la Prusse, de la Saxe. On en avait prévenu le ministre de Bavière, et on avait 422trouvé moyen de le porter à la connaissance directe de l'empereur d'Autriche. Nous croyons que cela fortifiera le prince de Metternich dans la résistance qu'il doit opposer aux prétentions de la Russie et de la Prusse. Déjà le langage ferme et décidé que l'ambassade a tenu dès le premier moment l'a forcé à soutenir avec plus d'énergie ces grands intérêts de l'Europe. On assure généralement que ces deux puissances (la Russie et la Prusse) s'é",
+          "bundled": false,
+          "url": "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html"
+        },
+        {
+          "file": "source.txt",
+          "sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+          "encoding": "utf-8",
+          "context": "Les instructions supplémentaires du roi, apportées par M. de Noailles, avaient mis ses plénipotentiaires dans la possibilité de faire des insinuations sur la part active que la France prendrait pour obtenir un équilibre réel et durable, et pour empocher que la Russie ne s'emparât du grand-duché de Varsovie, et la Prusse, de la Saxe. On en avait prévenu le ministre de Bavière, et on avait trouvé moyen de le porter à la connaissance directe de l'empereur d'Autriche. Nous croyons que cela fortifiera le prince de Metternich dans la résistance qu'il doit opposer aux prétentions de la Russie et de la Prusse. Déjà le langage ferme et décidé que l'ambassade a tenu dès le premier moment l'a forcé à soutenir avec plus d'énergie ces grands intérêts de l'Europe. On assure généralement que ces deux puissances (la Russie et la Prusse) s'écla",
+          "bundled": false,
+          "url": "https://www.gutenberg.org/cache/epub/28427/pg28427.txt"
+        },
+        {
+          "file": "source-legacy.html",
+          "sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+          "encoding": "iso-8859-1",
+          "context": "Les instructions supplémentaires du roi, apportées par M. de Noailles, avaient mis ses plénipotentiaires dans la possibilité de faire des insinuations sur la part active que la France prendrait pour obtenir un équilibre réel et durable, et pour empocher que la Russie ne s'emparât du grand-duché de Varsovie, et la Prusse, de la Saxe. On en avait prévenu le ministre de Bavière, et on avait 422trouvé moyen de le porter à la connaissance directe de l'empereur d'Autriche. Nous croyons que cela fortifiera le prince de Metternich dans la résistance qu'il doit opposer aux prétentions de la Russie et de la Prusse. Déjà le langage ferme et décidé que l'ambassade a tenu dès le premier moment l'a forcé à soutenir avec plus d'énergie ces grands intérêts de l'Europe. On assure généralement que ces deux puissances (la Russie et la Prusse) s'é",
+          "bundled": false,
+          "url": "https://www.gutenberg.org/files/28427/28427-h/28427-h.htm"
+        },
+        {
+          "file": "source-legacy.txt",
+          "sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+          "encoding": "iso-8859-1",
+          "context": "Les instructions supplémentaires du roi, apportées par M. de Noailles, avaient mis ses plénipotentiaires dans la possibilité de faire des insinuations sur la part active que la France prendrait pour obtenir un équilibre réel et durable, et pour empocher que la Russie ne s'emparât du grand-duché de Varsovie, et la Prusse, de la Saxe. On en avait prévenu le ministre de Bavière, et on avait trouvé moyen de le porter à la connaissance directe de l'empereur d'Autriche. Nous croyons que cela fortifiera le prince de Metternich dans la résistance qu'il doit opposer aux prétentions de la Russie et de la Prusse. Déjà le langage ferme et décidé que l'ambassade a tenu dès le premier moment l'a forcé à soutenir avec plus d'énergie ces grands intérêts de l'Europe. On assure généralement que ces deux puissances (la Russie et la Prusse) s'écla",
+          "bundled": false,
+          "url": "https://www.gutenberg.org/files/28427/28427-8.txt"
+        }
+      ],
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T16:45:17.932159+00:00",
+        "unit": "v02-u001382",
+        "scope": "Bounded visual comparison of the empocher/empêcher reading at v02-u001382 with printed page 421. Four digital witnesses are compared separately. No whole-volume printed collation is claimed.",
+        "printed_page": 421,
+        "pdf_page_1_based": 435,
+        "ia_leaf_0_based": 434,
+        "page_number_visually_verified": true,
+        "printed_reading": "Les instructions supplémentaires du roi, apportées par M. de Noailles, avaient mis ses plénipotentiaires dans la possibilité de faire des insinuations sur la part active que la France prendrait pour obtenir un équilibre réel et durable, et pour empêcher que la Russie ne s’emparât du grand-duché de Varsovie, et la Prusse, de la Saxe.",
+        "target_printed_reading": "pour empêcher que la Russie ne s’emparât du grand-duché de Varsovie, et la Prusse, de la Saxe.",
+        "digital_unit_reading": "Les instructions supplémentaires du roi, apportées par M. de Noailles, avaient mis ses plénipotentiaires dans la possibilité de faire des insinuations sur la part active que la France prendrait pour obtenir un équilibre réel et durable, et pour empocher que la Russie ne s'emparât du grand-duché de Varsovie, et la Prusse, de la Saxe.",
+        "finding": "The printed facsimile plainly has empêcher, including the circumflex. Digital source unit empocher is therefore a recoverable transcription error. The correction empocher → empêcher is supported directly by the printed witness, not merely by contextual reconstruction.",
+        "status": "print_restoration_verified; not_applied_to_authoritative_source",
+        "witness_reading_differences": [
+          {
+            "digital_reading": "pour empocher que la Russie",
+            "printed_reading": "pour empêcher que la Russie",
+            "digital_reading_occurrences_in_unit": 1
+          }
+        ],
+        "physical_lines": [
+          "France prendrait pour obtenir un équilibre réel et durable, et",
+          "pour empêcher que la Russie ne s’emparât du grand-duché",
+          "de Varsovie, et la Prusse, de la Saxe."
+        ],
+        "transcription_convention": "Line wrapping and typographic spacing normalized; physical line break pos-sibilité joined as possibilité. Wording and relevant punctuation retained.",
+        "edition": "Mémoires du prince de Talleyrand, II, published by the Duc de Broglie; Paris: Calmann Lévy, 1891.",
+        "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n434/mode/1up",
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+        "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+        "provider_md5_previously_verified": true,
+        "method": "Actual grayscale scan rendered with pdftoppm -f 435 -l 435 -r 200 -png -singlefile. Full page and lossless rectangular excerpt inspected visually; OCR is not the authority.",
+        "excerpt_rectangle_xyxy": [
+          185,
+          1145,
+          1125,
+          1455
+        ],
+        "evidence_files": [
+          {
+            "filename": "u001382-printed-paragraph.png",
+            "unbundled_filename": "u001382-printed-paragraph.png",
+            "bundled": false,
+            "unbundled_file_sha256": "fab03f2837ad70354f87ee287f1c41a4caeed96a3eadd634b52e144d74add9c1",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "sha256": "fab03f2837ad70354f87ee287f1c41a4caeed96a3eadd634b52e144d74add9c1",
+            "bytes": 225362,
+            "source_pdf_bundled": false
+          },
+          {
+            "filename": "print-421_pdf-435.png",
+            "unbundled_filename": "print-421_pdf-435.png",
+            "bundled": false,
+            "unbundled_file_sha256": "0f77335bb222254db9d887804073b431d84cfafadd393ce32821a045eb157c35",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "sha256": "0f77335bb222254db9d887804073b431d84cfafadd393ce32821a045eb157c35",
+            "bytes": 1191726,
+            "source_pdf_bundled": false
+          }
+        ],
+        "original_unit_text_sha256": "9db2447f7144c12024bc107abba3774ec91af3cb708d736357a7ced577cc09f7",
+        "original_unit_html_sha256": "79187c4f6cc7ba4390304f8aa00c2729081b5c6917965469f78812b41da2322c",
+        "original_units_file_sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751",
+        "original_source_html_sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+        "source_pdf_bundled": false
+      },
+      "interpretive_caution": "The printed empêcher reading is a directly witnessed correction to digital empocher; the electronic witnesses and their hashes remain separately preserved."
+    },
+    {
+      "id": "V2-SOURCE-018",
+      "unit": "v02-u001409",
+      "related_unit": "v02-u001369",
+      "finding": "The ambassador dispatch dated November 6 says Noailles arrived on the morning of a November 1 conference, while Talleyrand’s royal letter dated November 6 says he arrived Wednesday morning, November 2. The arrival-date readings differ.",
+      "status": "both_arrival_dates_and_November6_datelines_verified_in_print; historical_date_not_adjudicated",
+      "printed_finding": "Both original printed letters are dated November 6, 1814. The ambassadors’ letter states a November1 conference with Noailles arriving that morning; Talleyrand’s letter states his arrival Wednesday morning November2. These differing arrival accounts are inherited from print. No digital date correction or historical reconciliation is supplied by this witness.",
+      "print_verification": {
+        "edition": "Mémoires du prince de Talleyrand, II; Duc de Broglie; Paris: Calmann Lévy, 1891.",
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+        "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+        "method": "Actual grayscale facsimile pages inspected, rendered at 200 dpi with pdftoppm; lossless rectangular evidence excerpts made with Pillow. No OCR-only conclusion.",
+        "unbundled_verification_report": {
+          "description": "Detailed source comparison for the cited printed evidence",
+          "bundled": false,
+          "sha256": "e65c1916000879013d06d18719322a82ddc0c28e9ef81dd498432a63f0cb40ab",
+          "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+        },
+        "findings": [
+          {
+            "units": [
+              "v02-u001369",
+              "v02-u001365"
+            ],
+            "printed_pages": [
+              419
+            ],
+            "printed_main_reading": "Une troisième conférence s’est tenue le 1er novembre. M. le comte de Noailles, arrivé le matin, y a assisté.",
+            "printed_heading": "Nº 11 bis. — LES AMBASSADEURS DU ROI AU CONGRÈS, AU MINISTRE DES AFFAIRES ÉTRANGÈRES A PARIS.",
+            "printed_dateline": "Vienne, le 6 novembre 1814.",
+            "unbundled_excerpt_filenames": [
+              "u001369-noailles-november1.png",
+              "u001365-letter11bis-date.png"
+            ],
+            "status": "digital_and_print_reading_verified; no_restoration",
+            "source_units": [
+              {
+                "unit": "v02-u001369",
+                "text": "Une troisième conférence s'est tenue le 1er novembre. M. le comte de Noailles, arrivé le matin, y a assisté.",
+                "text_sha256": "c2dc5cba2e51a541f0d1db136391524086df463b0bb6ef9db099811e86606616",
+                "html_sha256": "a2c485c985ed46cc829e44a65e8e3c4c6cfc750779e4484a9a89f13cd774f7af"
+              },
+              {
+                "unit": "v02-u001365",
+                "text": "Vienne, le 6 novembre 1814.",
+                "text_sha256": "03661822964dfec2a9b2ca75c5b77b049ecbcbbb9f2e33520efbfb54c400f2db",
+                "html_sha256": "ffd08e2385619f125d95148661ef1c01db3db89dc26d56a3608b22a443807991"
+              }
+            ],
+            "pages": [
+              {
+                "printed_page": 419,
+                "pdf_page_1_based": 433,
+                "ia_leaf_0_based": 432,
+                "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n432/mode/1up",
+                "unbundled_image_filename": "print-419_pdf-433.png",
+                "bundled": false,
+                "unbundled_file_sha256": "aef01ba58526adc64022de08e608fc0c565036d69a4b2813a615d7c79f7d5c6b",
+                "image_sha256": "aef01ba58526adc64022de08e608fc0c565036d69a4b2813a615d7c79f7d5c6b",
+                "visually_inspected": true
+              }
+            ],
+            "evidence_files": [
+              {
+                "filename": "u001369-noailles-november1.png",
+                "unbundled_filename": "u001369-noailles-november1.png",
+                "bundled": false,
+                "unbundled_file_sha256": "973e1152567d5f970e429f2255fe215187ec48ae75a0369cf955ea0125e85956",
+                "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+                "sha256": "973e1152567d5f970e429f2255fe215187ec48ae75a0369cf955ea0125e85956",
+                "bytes": 69661,
+                "crop_xyxy": [
+                  195,
+                  1535,
+                  1130,
+                  1643
+                ],
+                "visually_inspected": true,
+                "source_pdf_bundled": false
+              },
+              {
+                "filename": "u001365-letter11bis-date.png",
+                "unbundled_filename": "u001365-letter11bis-date.png",
+                "bundled": false,
+                "unbundled_file_sha256": "5be83527dd713cfdd6865b79767e5015a454e3fb5d716e7025ee3faf24d27190",
+                "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+                "sha256": "5be83527dd713cfdd6865b79767e5015a454e3fb5d716e7025ee3faf24d27190",
+                "bytes": 83311,
+                "crop_xyxy": [
+                  190,
+                  895,
+                  1130,
+                  1090
+                ],
+                "visually_inspected": true,
+                "source_pdf_bundled": false
+              }
+            ]
+          },
+          {
+            "units": [
+              "v02-u001409",
+              "v02-u001407"
+            ],
+            "printed_pages": [
+              427
+            ],
+            "printed_main_reading": "M. le comte de Noailles, arrivé ici mercredi matin 2 novembre, m’a apporté le supplément d’instructions que Votre Majesté a bien voulu me faire adresser.",
+            "printed_heading": "Nº 10. — LE PRINCE DE TALLEYRAND AU ROI LOUIS XVIII.",
+            "printed_dateline": "Vienne, le 6 novembre 1814.",
+            "unbundled_excerpt_filenames": [
+              "u001409-noailles-november2.png",
+              "u001407-letter10-date.png"
+            ],
+            "status": "digital_and_print_reading_verified; no_restoration",
+            "source_units": [
+              {
+                "unit": "v02-u001409",
+                "text": "M. le comte de Noailles, arrivé ici mercredi matin 2 novembre, m'a apporté le supplément d'instructions que Votre Majesté a bien voulu me faire adresser. Les résolutions de Votre Majesté sont maintenant connues du cabinet autrichien, de l'empereur d'Autriche lui-même et de la Bavière. J'ai cru plus utile de n'en point parler encore à lord Castlereagh, toujours prompt à s'alarmer d'une intervention de la France, et je n'en ai pu parler au comte de Munster, qui, à peine sorti des mains de ses médecins, fait les préparatifs de son mariage avec la comtesse de la Lippe, sœur du prince régnant de Buckeburg.",
+                "text_sha256": "b83f0c4210502aae66dfe61077165e495fe98e1b578840647da722935805f512",
+                "html_sha256": "95963541a871f0d8b19ec759c7a2c1b26933f9bf80928a88775a245c04823e61"
+              },
+              {
+                "unit": "v02-u001407",
+                "text": "Vienne, le 6 novembre 1814.",
+                "text_sha256": "03661822964dfec2a9b2ca75c5b77b049ecbcbbb9f2e33520efbfb54c400f2db",
+                "html_sha256": "ffd08e2385619f125d95148661ef1c01db3db89dc26d56a3608b22a443807991"
+              }
+            ],
+            "pages": [
+              {
+                "printed_page": 427,
+                "pdf_page_1_based": 441,
+                "ia_leaf_0_based": 440,
+                "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n440/mode/1up",
+                "unbundled_image_filename": "print-427_pdf-441.png",
+                "bundled": false,
+                "unbundled_file_sha256": "20edd38a7cff84e76fdae16a3394cee40c8c91d78230b3f865ff8ec77d96de31",
+                "image_sha256": "20edd38a7cff84e76fdae16a3394cee40c8c91d78230b3f865ff8ec77d96de31",
+                "visually_inspected": true
+              }
+            ],
+            "evidence_files": [
+              {
+                "filename": "u001409-noailles-november2.png",
+                "unbundled_filename": "u001409-noailles-november2.png",
+                "bundled": false,
+                "unbundled_file_sha256": "91830ea9e90a4bf62b4437e6b9979ba5ddd7712a93e72feb6abe5c933bcaa803",
+                "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+                "sha256": "91830ea9e90a4bf62b4437e6b9979ba5ddd7712a93e72feb6abe5c933bcaa803",
+                "bytes": 114660,
+                "crop_xyxy": [
+                  175,
+                  735,
+                  1110,
+                  890
+                ],
+                "visually_inspected": true,
+                "source_pdf_bundled": false
+              },
+              {
+                "filename": "u001407-letter10-date.png",
+                "unbundled_filename": "u001407-letter10-date.png",
+                "bundled": false,
+                "unbundled_file_sha256": "b590d8a398f8f4923c747797011cef114e39f2b03da1df3183f68e09b6278b83",
+                "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+                "sha256": "b590d8a398f8f4923c747797011cef114e39f2b03da1df3183f68e09b6278b83",
+                "bytes": 55209,
+                "crop_xyxy": [
+                  175,
+                  560,
+                  1110,
+                  720
+                ],
+                "visually_inspected": true,
+                "source_pdf_bundled": false
+              }
+            ]
+          }
+        ],
+        "source_pdf_bundled": false
+      },
+      "interpretive_caution": "The two arrival dates belong to distinct accounts with the same November 6 dateline. The facsimile does not determine the historical arrival date."
+    },
+    {
+      "id": "V2-SOURCE-019",
+      "unit": "v02-u001412",
+      "related_unit": "v02-u002406",
+      "note_id": "Footnote_336",
+      "finding": "Print on p.429 has qu’il allait du salut de la monarchie à¹ ne point laisser, without y. Original note1, corresponding to digital note336, reads Variante : de ne point. No missing y or other corrective main-text wording is supplied.",
+      "status": "unusual_source_wording_confirmed_in_print; no_restoration_supported",
+      "print_verification": {
+        "edition": "Mémoires du prince de Talleyrand, II; Duc de Broglie; Paris: Calmann Lévy, 1891.",
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+        "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+        "method": "Actual grayscale facsimile pages inspected, rendered at 200 dpi with pdftoppm; lossless rectangular evidence excerpts made with Pillow. No OCR-only conclusion.",
+        "unbundled_verification_report": {
+          "description": "Detailed source comparison for the cited printed evidence",
+          "bundled": false,
+          "sha256": "e65c1916000879013d06d18719322a82ddc0c28e9ef81dd498432a63f0cb40ab",
+          "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+        },
+        "units": [
+          "v02-u001412",
+          "v02-u002406"
+        ],
+        "printed_pages": [
+          428,
+          429
+        ],
+        "printed_main_reading": "et qu’il allait du salut de la monarchie à¹ ne point laisser tomber entre les mains de la Prusse les défilés de la Thuringe et de la Saale.",
+        "printed_note_reading": "1. Variante : de ne point.",
+        "printed_note_number": 1,
+        "digital_note_number": 336,
+        "unbundled_excerpt_filenames": [
+          "u001412-salut-main.png",
+          "u002406-note336.png"
+        ],
+        "status": "unusual_reading_verified_in_print; no_missing_y_supplied",
+        "finding": "The target wording is on p.429. Print has qu’il allait, with no y between il and allait. The existing printed variant concerns à ne point / de ne point; it does not supply y or a different verb. The scan offers no missing-word restoration for the queried construction.",
+        "source_units": [
+          {
+            "unit": "v02-u001412",
+            "text": "J'ai su que, dans un conseil d'État présidé par l'empereur lui-même et composé de M. de Stadion, du prince de Schwarzenberg et du prince de Metternich, ainsi que du comte de Zichy et du général Duka[335], il a été établi en principe que la question de la Saxe était encore d'un plus grand intérêt pour l'Autriche que celle même de la Pologne, et qu'il allait du salut de la monarchie à[336] ne point laisser tomber entre les mains de la Prusse les défilés de la Thuringe et de la Saale. (J'entre dans plus de détails sur cet objet dans ma lettre de ce jour, adressée au département.)",
+            "text_sha256": "e1a2a2a0b8180a67ee36f3b5e717a0019b1b6830974468c51a4c785c8dfad00c",
+            "html_sha256": "a6927db428405ca8dcfc133f1d2442bc35c4cece405112e049adf9f1c2564e66"
+          },
+          {
+            "unit": "v02-u002406",
+            "text": "[336] Variante: de ne point.",
+            "text_sha256": "816d4a1260604db7f3de529f39a0d3c608ee5617959b50c69d2801a8760020c0",
+            "html_sha256": "1d1299b647dc574e08ad0fa1acab777c86358fec18ccba6afcd5e54527b275c2"
+          }
+        ],
+        "pages": [
+          {
+            "printed_page": 428,
+            "pdf_page_1_based": 442,
+            "ia_leaf_0_based": 441,
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n441/mode/1up",
+            "unbundled_image_filename": "print-428_pdf-442.png",
+            "bundled": false,
+            "unbundled_file_sha256": "40b8b5678531ed10239e810b9a0e50481e8e6e2af2d936567fd8d1c5be255349",
+            "image_sha256": "40b8b5678531ed10239e810b9a0e50481e8e6e2af2d936567fd8d1c5be255349",
+            "visually_inspected": true
+          },
+          {
+            "printed_page": 429,
+            "pdf_page_1_based": 443,
+            "ia_leaf_0_based": 442,
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n442/mode/1up",
+            "unbundled_image_filename": "print-429_pdf-443.png",
+            "bundled": false,
+            "unbundled_file_sha256": "7451bd92a5abdaae515397455c86d1326ed203764118860a475bc58c2c4b55ea",
+            "image_sha256": "7451bd92a5abdaae515397455c86d1326ed203764118860a475bc58c2c4b55ea",
+            "visually_inspected": true
+          }
+        ],
+        "evidence_files": [
+          {
+            "filename": "u001412-salut-main.png",
+            "unbundled_filename": "u001412-salut-main.png",
+            "bundled": false,
+            "unbundled_file_sha256": "8257e522cf0397ff525630ba455fdfef4d834e0524997a713672610e4ccf5004",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "sha256": "8257e522cf0397ff525630ba455fdfef4d834e0524997a713672610e4ccf5004",
+            "bytes": 157375,
+            "crop_xyxy": [
+              185,
+              350,
+              1130,
+              570
+            ],
+            "visually_inspected": true,
+            "source_pdf_bundled": false
+          },
+          {
+            "filename": "u002406-note336.png",
+            "unbundled_filename": "u002406-note336.png",
+            "bundled": false,
+            "unbundled_file_sha256": "74605c740f908ed4f112d71d1ba88c0e7e4b1f922997da47c867b1434bd41b37",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "sha256": "74605c740f908ed4f112d71d1ba88c0e7e4b1f922997da47c867b1434bd41b37",
+            "bytes": 13256,
+            "crop_xyxy": [
+              215,
+              1907,
+              670,
+              1970
+            ],
+            "visually_inspected": true,
+            "source_pdf_bundled": false
+          }
+        ],
+        "source_pdf_bundled": false
+      },
+      "interpretive_caution": "The contextual sense concerns the monarchy’s survival being at stake. The main text lacks y; historical note 336 supplies only the variant de ne point for à ne point, and does not supply y or another verb."
+    },
+    {
+      "id": "V2-SOURCE-020",
+      "unit": "v02-u001496",
+      "finding": "The printed source calls the previously named lord W. Bentinck cet amiral. All four checked local Gutenberg HTML/TXT witnesses reproduce this wording. The facsimile supplies no title correction. Historical accuracy of the title is not adjudicated.",
+      "status": "digital_and_print_title_reading_verified; no_restoration",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T16:57:14.101766+00:00",
+        "unit": "v02-u001496",
+        "scope": "Bounded visual comparison of cet amiral applied to lord W. Bentinck at v02-u001496. No biographical title correction or whole-volume printed collation is claimed.",
+        "printed_page": 451,
+        "pdf_page_1_based": 465,
+        "ia_leaf_0_based": 464,
+        "page_number_visually_verified": true,
+        "printed_reading": "Lord Castlereagh éprouve quelque embarras par la conduite que lord W. Bentinck a tenue à Gênes. Ce dernier avait flatté le peuple génois d’une entière indépendance. Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs,",
+        "finding": "The printed source calls the previously named lord W. Bentinck cet amiral. All four checked local Gutenberg HTML/TXT witnesses reproduce this wording. The facsimile supplies no title correction. Historical accuracy of the title is not adjudicated.",
+        "status": "digital_and_print_title_reading_verified; no_restoration",
+        "physical_lines": [
+          "Lord Castlereagh éprouve quelque embarras par la con-",
+          "duite que lord W. Bentinck a tenue à Gênes. Ce dernier",
+          "avait flatté le peuple génois d’une entière indépendance. Lord",
+          "Castlereagh a soutenu faiblement que cet amiral avait outre-",
+          "passé ses pouvoirs, et il a dit qu’il fallait par tous les moyens"
+        ],
+        "transcription_convention": "Line wrapping and ordinary typographic spacing normalized; con-duite and outre-passé rejoined. Excerpt ends after pouvoirs; the printed sentence continues.",
+        "edition": "Mémoires du prince de Talleyrand, II; published by the Duc de Broglie; Paris: Calmann Lévy, 1891.",
+        "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n464/mode/1up",
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+        "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+        "provider_md5_previously_verified": true,
+        "method": "Printed pp.451–452 rendered at 200dpi using pdftoppm and inspected visually. Target phrase is entirely on p.451. A lossless rectangular excerpt was saved with Pillow. No OCR-only reading.",
+        "excerpt_rectangle_xyxy": [
+          165,
+          1380,
+          1100,
+          1660
+        ],
+        "evidence_files": [
+          {
+            "filename": "u001496-bentinck-amiral.png",
+            "unbundled_filename": "u001496-bentinck-amiral.png",
+            "bundled": false,
+            "unbundled_file_sha256": "9ab4d060d4d457180520c57df04cfe4f42a307049b6a18fc39cf4cc28e31929a",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "sha256": "9ab4d060d4d457180520c57df04cfe4f42a307049b6a18fc39cf4cc28e31929a",
+            "bytes": 190360,
+            "source_pdf_bundled": false
+          },
+          {
+            "filename": "print-451_pdf-465.png",
+            "unbundled_filename": "print-451_pdf-465.png",
+            "bundled": false,
+            "unbundled_file_sha256": "7e1f9c14578a689a0dc335208c2ad8f4baf69f08950fe88823749c2ac76886e2",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "sha256": "7e1f9c14578a689a0dc335208c2ad8f4baf69f08950fe88823749c2ac76886e2",
+            "bytes": 930963,
+            "source_pdf_bundled": false
+          },
+          {
+            "filename": "print-452_pdf-466.png",
+            "unbundled_filename": "print-452_pdf-466.png",
+            "bundled": false,
+            "unbundled_file_sha256": "9f5bf1a6ddab1cafb54ca1b38b7425d4b9aa041ba2fec9f356197aa95136f1cd",
+            "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+            "sha256": "9f5bf1a6ddab1cafb54ca1b38b7425d4b9aa041ba2fec9f356197aa95136f1cd",
+            "bytes": 1040755,
+            "source_pdf_bundled": false
+          }
+        ],
+        "digital_witnesses": [
+          {
+            "unbundled_filename": "source.html",
+            "bundled": false,
+            "unbundled_file_sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+            "url": "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html",
+            "sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+            "encoding": "utf-8",
+            "reading": "Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs",
+            "matching_occurrences": 1,
+            "context": "illes et lord Clancarty. Lord Castlereagh éprouve quelque embarras par la conduite que lord W. Bentinck a tenue à Gênes. Ce dernier avait flatté le peuple génois d'une entière indépendance. Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs, et il a dit qu'il fallait par tous les moyens de conciliation adoucir aux Génois le sacrifice"
+          },
+          {
+            "unbundled_filename": "source.txt",
+            "bundled": false,
+            "unbundled_file_sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+            "url": "https://www.gutenberg.org/cache/epub/28427/pg28427.txt",
+            "sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+            "encoding": "utf-8",
+            "reading": "Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs",
+            "matching_occurrences": 1,
+            "context": "illes et lord Clancarty. Lord Castlereagh éprouve quelque embarras par la conduite que lord W. Bentinck a tenue à Gênes. Ce dernier avait flatté le peuple génois d'une entière indépendance. Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs, et il a dit qu'il fallait par tous les moyens de conciliation adoucir aux Génois le sacrifice"
+          },
+          {
+            "unbundled_filename": "source-legacy.html",
+            "bundled": false,
+            "unbundled_file_sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+            "url": "https://www.gutenberg.org/files/28427/28427-h/28427-h.htm",
+            "sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+            "encoding": "iso-8859-1",
+            "reading": "Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs",
+            "matching_occurrences": 1,
+            "context": "illes et lord Clancarty. Lord Castlereagh éprouve quelque embarras par la conduite que lord W. Bentinck a tenue à Gênes. Ce dernier avait flatté le peuple génois d'une entière indépendance. Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs, et il a dit qu'il fallait par tous les moyens de conciliation adoucir aux Génois le sacrifice"
+          },
+          {
+            "unbundled_filename": "source-legacy.txt",
+            "bundled": false,
+            "unbundled_file_sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+            "url": "https://www.gutenberg.org/files/28427/28427-8.txt",
+            "sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+            "encoding": "iso-8859-1",
+            "reading": "Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs",
+            "matching_occurrences": 1,
+            "context": "illes et lord Clancarty. Lord Castlereagh éprouve quelque embarras par la conduite que lord W. Bentinck a tenue à Gênes. Ce dernier avait flatté le peuple génois d'une entière indépendance. Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs, et il a dit qu'il fallait par tous les moyens de conciliation adoucir aux Génois le sacrifice"
+          }
+        ],
+        "original_unit_text": "Lord Castlereagh éprouve quelque embarras par la conduite que lord W. Bentinck a tenue à Gênes. Ce dernier avait flatté le peuple génois d'une entière indépendance. Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs, et il a dit qu'il fallait par tous les moyens de conciliation adoucir aux Génois le sacrifice qu'on leur imposait. Il a assuré le député de Gênes qu'il procurerait à son pays tous les avantages dont jouit l'Irlande sa patrie, et nous sommes curieux de voir comment il compensera l'État de Gênes du droit de nommer des députés à la Chambre des communes et à celle des pairs, prérogative dont jouit l'Irlande par son union à la Grande-Bretagne, et qui ne peut être donnée aux Génois puisque le Piémont n'a pas de parlement. Ce fait et beaucoup d'autres nous prouvent tous les jours que ce noble lord a moins étudié les rapports du continent, qu'il n'est frappé du danger auquel un nouveau système de blocus continental exposerait sa patrie.",
+        "original_unit_text_sha256": "5471021ebd99e170005c309525400f1357832e423895aae169078add5f3b2e86",
+        "original_unit_html_sha256": "9d3a3998eee1285fe459885f670c3d1d4bc869320d840f9bd6e409ee3e53bc10",
+        "original_units_file_sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751",
+        "source_pdf_bundled": false
+      },
+      "interpretive_caution": "The title cet amiral is witnessed in the printed text and four digital files. A biographically inferred title change is not a recovered reading."
+    },
+    {
+      "id": "V2-SOURCE-021",
+      "units": [
+        "v02-u001492",
+        "v02-u001589"
+      ],
+      "finding": "The later dispatch refers to the previous dispatch as dated November 16, while the earlier No. 13 bis printed dateline is November 17. Print also confirms singular le in pour le flatter d’abord without resolving its antecedent.",
+      "status": "print_confirms_differing_dates_and_unresolved_singular_pronoun",
+      "print_verification": {
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+        "readings": [
+          {
+            "unit": "v02-u001589",
+            "printed_page": 478,
+            "reading": "par notre dernière dépêche du 16, avait été modifié dans ses",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n491/mode/1up",
+            "unbundled_image_filename": "u001589-depeche-du16.png",
+            "bundled": false,
+            "unbundled_file_sha256": "c6915a7be3179e98fc9621e7dda4118a6ac9bc35ddaf898887b4639bc0b6f239",
+            "image_sha256": "c6915a7be3179e98fc9621e7dda4118a6ac9bc35ddaf898887b4639bc0b6f239",
+            "visually_inspected": true
+          },
+          {
+            "unit": "v02-u001492",
+            "printed_page": 451,
+            "reading": "Vienne, le 17 novembre 1814.",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n464/mode/1up",
+            "unbundled_image_filename": "u001492-dispatch13bis-dateline.png",
+            "bundled": false,
+            "unbundled_file_sha256": "47b869e25e7d33ed149ae7a91ac19446c1b4268e6417ac7259bf19216f032d92",
+            "image_sha256": "47b869e25e7d33ed149ae7a91ac19446c1b4268e6417ac7259bf19216f032d92",
+            "visually_inspected": true
+          },
+          {
+            "unit": "v02-u001589",
+            "printed_page": 479,
+            "reading": "Cette communication était restée sans réponse. Mais, pour le flatter d’abord et pour égarer l’opinion en Allemagne,",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n492/mode/1up",
+            "unbundled_image_filename": "u001589-le-flatter.png",
+            "bundled": false,
+            "unbundled_file_sha256": "638138b7642ca53c6909e60a69184032e05c9344fe327513d2d1e818e63c5962",
+            "image_sha256": "638138b7642ca53c6909e60a69184032e05c9344fe327513d2d1e818e63c5962",
+            "visually_inspected": true
+          }
+        ],
+        "source_pdf_bundled": false
+      },
+      "interpretive_caution": "The respective source dates and singular le remain as printed; the witness supplies no replacement pronoun or resolved antecedent."
+    },
+    {
+      "id": "V2-SOURCE-022",
+      "units": [
+        "v02-u001365",
+        "v02-u001742"
+      ],
+      "finding": "The later dispatch reference says November 5 while the preceding No. 11 bis dateline says November 6. All four digital witnesses and the printed volume retain the respective dates; no corrected numeral is recoverable.",
+      "status": "print_and_four_digital_witnesses_confirm_different_dates",
+      "print_verification": {
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+        "readings": [
+          {
+            "unit": "v02-u001742",
+            "printed_page": 515,
+            "reading": "La dépêche du 5 novembre au département avait exposé l'avantage qui pouvait résulter de l'échange d'une partie du pays de Gex contre une partie de l'évêché de Bâle; échange désiré par le corps helvétique, sollicité par les Genevois et proposé par les puissances.",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n528/mode/1up",
+            "unbundled_image_filename": "u001742-depeche-november5.png",
+            "bundled": false,
+            "unbundled_file_sha256": "e6cb876d8d0fcbba556bbf1fa8eb849465a00ce20286cff08e33d1965ec62cce",
+            "image_sha256": "e6cb876d8d0fcbba556bbf1fa8eb849465a00ce20286cff08e33d1965ec62cce",
+            "visually_inspected": true
+          },
+          {
+            "unit": "v02-u001365",
+            "printed_page": 419,
+            "reading": "Vienne, le 6 novembre 1814.",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n432/mode/1up",
+            "unbundled_image_filename": "u001365-letter11bis-date.png",
+            "bundled": false,
+            "unbundled_file_sha256": "5be83527dd713cfdd6865b79767e5015a454e3fb5d716e7025ee3faf24d27190",
+            "image_sha256": "5be83527dd713cfdd6865b79767e5015a454e3fb5d716e7025ee3faf24d27190",
+            "visually_inspected": true
+          }
+        ],
+        "source_pdf_bundled": false
+      },
+      "interpretive_caution": "The November 5 reference and November 6 dateline are separate source readings. The witness supplies no corrected numeral or basis for reconstructing the actual dispatch history."
+    },
+    {
+      "id": "V2-SOURCE-023",
+      "units": [
+        "v02-u001526",
+        "v02-u001776",
+        "v02-u001793"
+      ],
+      "finding": "The printed imperial dialogue at v02-u001526 uses 1806 for Prussia’s population baseline; the later statistical discussions at v02-u001776 and v02-u001793 use 1805. Each numeral matches its digital source unit. Print supplies no correction or reconciliation.",
+      "status": "print_confirms_distinct_baseline_years",
+      "print_verification": {
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+        "readings": [
+          {
+            "unit": "v02-u001526",
+            "printed_page": 461,
+            "reading": "Mais si, pour que la Prusse ait une population égale à celle qu’elle avait en 1806, et qui n’allait qu’à neuf millions deux cent mille âmes,",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n474/mode/1up",
+            "image_path": "facsimile-prussia-baseline/u001526-baseline-1806.png",
+            "image_sha256": "52953e5bd0464876f5014b5a2cb6f092fd0dd35508d255d9fd12e844d504e645",
+            "visually_inspected": true
+          },
+          {
+            "unit": "v02-u001776",
+            "printed_page": 520,
+            "reading": "la Prusse peut obtenir son rétablissement sur la base de population qu’elle avait en 1805, sans enlever à la Saxe plus de trois à quatre cent mille âmes.",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n533/mode/1up",
+            "image_path": "facsimile-prussia-baseline/u001776-baseline-1805.png",
+            "image_sha256": "9c5f72ac10847d8e41def1156701032fdf4510b136b990178a8f90d62f4a3bd2",
+            "visually_inspected": true
+          },
+          {
+            "unit": "v02-u001793",
+            "printed_page": 524,
+            "reading": "que leur population sera la même qu’en 1805, si, à celle des pays qu’ils ont conservés et à celle des pays disponibles qui leur sont destinés, on ajoute seulement trois cent trente mille Saxons.",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n537/mode/1up",
+            "image_path": "facsimile-prussia-baseline/u001793-baseline-1805.png",
+            "image_sha256": "91fc0ed9657d20b90b2bbbb80de411eee63695beb03f01367e4be6e3448e1c74",
+            "visually_inspected": true
+          }
+        ],
+        "source_pdf_bundled": false
+      },
+      "interpretive_caution": "The source uses 1806 for the earlier imperial dialogue and 1805 in the two later statistical discussions. The facsimile confirms these respective numerals without establishing a corrected or historically intended baseline."
+    }
+  ],
+  "updated_at_utc": "2026-10-10T17:24:30.949201+00:00",
+  "relative_path_base": "All local evidence paths are relative to the payload directory. Referenced evidence that is not included is explicitly marked unbundled."
+}

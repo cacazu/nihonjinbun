@@ -1,0 +1,135 @@
+{
+  "recorded_at_utc": "2026-10-10T17:23:19.564272+00:00",
+  "scope": "Bounded visual comparison of the Prussian population-baseline years at v02-u001526, v02-u001776 and v02-u001793. Each printed numeral agrees with its digital source unit. No determination of the historically intended baseline or whole-volume printed collation is claimed.",
+  "edition": "Mémoires du prince de Talleyrand, II; Duc de Broglie; Paris: Calmann Lévy, 1891.",
+  "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+  "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+  "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+  "provider_md5_previously_verified": true,
+  "method": "Relevant printed pages rendered at 200 dpi using pdftoppm, inspected visually, and cropped losslessly. Full-page renders were temporary and are not retained. OCR/source page markers used only for location; actual visible numerals govern.",
+  "transcription_convention": "Line wrapping and typographic spacing normalized, including printed réta-blissement and con-servés.",
+  "conclusion": "The printed volume confirms 1806 in u1526 (p.461), 1805 in u1776 (p.520), and 1805 in u1793 (p.524). None of the three printed numerals differs from its source unit. No baseline correction or historical reconciliation is supplied.",
+  "original_units_file_sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751",
+  "findings": [
+    {
+      "unit": "v02-u001526",
+      "printed_page": 461,
+      "printed_year": 1806,
+      "printed_reading": "Mais si, pour que la Prusse ait une population égale à celle qu’elle avait en 1806, et qui n’allait qu’à neuf millions deux cent mille âmes,",
+      "excerpt": "facsimile-prussia-baseline/u001526-baseline-1806.png",
+      "crop_xyxy": [
+        205,
+        1365,
+        1150,
+        1528
+      ],
+      "pdf_page_1_based": 475,
+      "ia_leaf_0_based": 474,
+      "page_number_visually_verified": true,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n474/mode/1up",
+      "excerpt_path": "facsimile-prussia-baseline/u001526-baseline-1806.png",
+      "excerpt_sha256": "52953e5bd0464876f5014b5a2cb6f092fd0dd35508d255d9fd12e844d504e645",
+      "excerpt_bytes": 119130,
+      "original_unit_text_sha256": "ad1799f073c2636e84c01c297ad9bff5c1cff8714d6f1cce8869065b12a59b32",
+      "original_unit_html_sha256": "7e319a2fa55567216e22945fbb54a8131bc9d18c71acd321f9a34be7260519ab",
+      "status": "printed_numeral_matches_source_unit; no_restoration",
+      "visually_inspected": true,
+      "full_page_image_sha256": "26a861c55264a1aaa958426f6b2393fac8c48eec2c750d91e9bcb5bde7a231a3",
+      "full_page_image_bundled": false,
+      "full_page_image_retained": false
+    },
+    {
+      "unit": "v02-u001776",
+      "printed_page": 520,
+      "printed_year": 1805,
+      "printed_reading": "la Prusse peut obtenir son rétablissement sur la base de population qu’elle avait en 1805, sans enlever à la Saxe plus de trois à quatre cent mille âmes.",
+      "excerpt": "facsimile-prussia-baseline/u001776-baseline-1805.png",
+      "crop_xyxy": [
+        365,
+        1300,
+        1320,
+        1470
+      ],
+      "pdf_page_1_based": 534,
+      "ia_leaf_0_based": 533,
+      "page_number_visually_verified": true,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n533/mode/1up",
+      "excerpt_path": "facsimile-prussia-baseline/u001776-baseline-1805.png",
+      "excerpt_sha256": "9c5f72ac10847d8e41def1156701032fdf4510b136b990178a8f90d62f4a3bd2",
+      "excerpt_bytes": 119843,
+      "original_unit_text_sha256": "a93b92a73fa139028458cae75cb223ac4ba8bc538b6fc71158a44f6f60047ceb",
+      "original_unit_html_sha256": "b1e3ddb2317e9d9afd47cc5da752237ea7362da7bbad07ebb0f43cbbabf78812",
+      "status": "printed_numeral_matches_source_unit; no_restoration",
+      "visually_inspected": true,
+      "full_page_image_sha256": "6a33d38acc6aa4b96d048f74ca90da19b2b43fa11ae0dd0f117ac688749ad24d",
+      "full_page_image_bundled": false,
+      "full_page_image_retained": false
+    },
+    {
+      "unit": "v02-u001793",
+      "printed_page": 524,
+      "printed_year": 1805,
+      "printed_reading": "que leur population sera la même qu’en 1805, si, à celle des pays qu’ils ont conservés et à celle des pays disponibles qui leur sont destinés, on ajoute seulement trois cent trente mille Saxons.",
+      "excerpt": "facsimile-prussia-baseline/u001793-baseline-1805.png",
+      "crop_xyxy": [
+        350,
+        1350,
+        1300,
+        1580
+      ],
+      "pdf_page_1_based": 538,
+      "ia_leaf_0_based": 537,
+      "page_number_visually_verified": true,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n537/mode/1up",
+      "excerpt_path": "facsimile-prussia-baseline/u001793-baseline-1805.png",
+      "excerpt_sha256": "91fc0ed9657d20b90b2bbbb80de411eee63695beb03f01367e4be6e3448e1c74",
+      "excerpt_bytes": 157034,
+      "original_unit_text_sha256": "e883aaa41364a66982cb908802116dd83572f8f38da59f6b19eb1193ecbf26aa",
+      "original_unit_html_sha256": "acab3c9379bf1cda4b9f9f5d6018b0244beed38fafbe0e032694e6c74aec525b",
+      "status": "printed_numeral_matches_source_unit; no_restoration",
+      "visually_inspected": true,
+      "full_page_image_sha256": "591007b3b81095ab7fad4e823593317435818134e4a2e646a35d79c540b9796d",
+      "full_page_image_bundled": false,
+      "full_page_image_retained": false
+    }
+  ],
+  "source_pdf_bundled": false,
+  "relative_path_base": "All local evidence paths are relative to the payload directory. Unbundled filenames are identifiers only, not local links.",
+  "digital_source_inventory_bundled": false,
+  "bundled_evidence_files": [
+    "facsimile-prussia-baseline/u001526-baseline-1806.png",
+    "facsimile-prussia-baseline/u001776-baseline-1805.png",
+    "facsimile-prussia-baseline/u001793-baseline-1805.png",
+    "facsimile-prussia-baseline/REPORT.txt",
+    "facsimile-prussia-baseline/verification.json"
+  ],
+  "unbundled_full_page_renderings": [
+    {
+      "printed_page": 461,
+      "pdf_page_1_based": 475,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n474/mode/1up",
+      "sha256": "26a861c55264a1aaa958426f6b2393fac8c48eec2c750d91e9bcb5bde7a231a3",
+      "bundled": false,
+      "retained": false,
+      "description": "Full-page rendering is not retained; the relevant excerpt is bundled."
+    },
+    {
+      "printed_page": 520,
+      "pdf_page_1_based": 534,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n533/mode/1up",
+      "sha256": "6a33d38acc6aa4b96d048f74ca90da19b2b43fa11ae0dd0f117ac688749ad24d",
+      "bundled": false,
+      "retained": false,
+      "description": "Full-page rendering is not retained; the relevant excerpt is bundled."
+    },
+    {
+      "printed_page": 524,
+      "pdf_page_1_based": 538,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n537/mode/1up",
+      "sha256": "591007b3b81095ab7fad4e823593317435818134e4a2e646a35d79c540b9796d",
+      "bundled": false,
+      "retained": false,
+      "description": "Full-page rendering is not retained; the relevant excerpt is bundled."
+    }
+  ]
+}

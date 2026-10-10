@@ -274,3 +274,5 @@ The unit1496 report and exact image excerpt confirm that print and four digital 
 The latest21-record source-discrepancy ledger and three unit1589 comparison excerpts are in `source-evidence/evidence-021/`. This supersedes previous ledger snapshots and documents the inherited dispatch-date difference and singular pronoun without a silent correction.
 
 The latest22-record source-discrepancy ledger and two excerpts for the November5/6 date pair are in `source-evidence/evidence-022/`, superseding prior ledger snapshots. The inherited conflicting dates remain distinct.
+
+The latest23-record source-discrepancy ledger and three excerpts comparing the Prussian baseline years1806/1805 are in `source-evidence/evidence-023/`, superseding prior ledger snapshots. The source variants remain distinct; no historical reconciliation is asserted.
