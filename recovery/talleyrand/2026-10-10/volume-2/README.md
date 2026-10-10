@@ -353,3 +353,5 @@ The latest23-record source-discrepancy ledger and three excerpts comparing the P
 The note39 evidence documents printed armées against années in all four digital witnesses, with an explicit translator disclosure. The latest reader-facing ledger in `source-evidence/evidence-024/` supersedes prior ledger snapshots.
 
 Original note163 begins after the Queen Charlotte letter ends at unit2204. The eventual reader must close the quoted-letter container at this unit boundary despite the missing source closing guillemet; this assembly requirement remains pending.
+
+The original note222 evidence preserves the printed n’eussent/m’eussent difference and the limits of grammatical interpretation; no unsupported restoration is claimed. The latest reader-facing ledger in `source-evidence/evidence-025/` supersedes prior ledger snapshots.

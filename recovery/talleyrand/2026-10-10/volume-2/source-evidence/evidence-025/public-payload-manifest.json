@@ -1,0 +1,443 @@
+{
+  "schema": "talleyrand-volume-2-source-evidence-025-payload-v1",
+  "volume": 2,
+  "title": "Mémoires du prince de Talleyrand",
+  "edition": "Paris, Calmann Lévy, 1891; edited by the duc de Broglie",
+  "scope": "Targeted comparison of main-text n’eussent and the variant m’eussent in historical note 222: two printed excerpts, a report and verification record, and a refreshed twenty-five-record source-discrepancy inventory. This is bounded printed evidence, not whole-volume collation.",
+  "full_facsimile_collation": false,
+  "relative_path_base": "All local evidence paths are relative to this payload directory. Unbundled filenames are identifiers only, not local links.",
+  "excerpt_image_count": 2,
+  "source_discrepancy_count": 25,
+  "copy_policy": "PNG excerpts are byte-for-byte copies. Three text/JSON files are filtered reader-facing derivatives preserving source readings, substantive findings, caveats, public source URLs and evidence hashes. Other contextual images, digital witnesses and PDF are explicitly unbundled.",
+  "unbundled_sources": [
+    {
+      "role": "Source image-container PDF",
+      "url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+      "sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+      "md5": "1f1eaf1b894977996ec635814a2d2a10",
+      "bundled": false
+    },
+    {
+      "role": "Digital source-unit inventory",
+      "filename": "units.json",
+      "sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751",
+      "bundled": false
+    },
+    {
+      "filename": "print-341_pdf-355.png",
+      "printed_page": 341,
+      "pdf_page_1_based": 355,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n354/mode/1up",
+      "sha256": "6adab1b3dc6e30af29214ba736b0ae0a882cda15a1d589418a733c68800c6d88",
+      "bytes": 1103154,
+      "bundled": false,
+      "description": "The full-page image is unbundled; the main-text and variant excerpts are bundled."
+    },
+    {
+      "filename": "heading-dateline-print-398.png",
+      "sha256": "4d554ee190923e7ac0a9603dc482a11382feecdafc65d6b8cfe8af6a74d434ed",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "note39-print49-armees.png",
+      "sha256": "7ac2b32102c0eb10e7f967509d3dca5ba454704f9fa2711203b1acc4678f205e",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n62/mode/1up"
+    },
+    {
+      "filename": "original-print-043_pdf-057.png",
+      "sha256": "1c0aeb62d992820e00da2cc5d847764ad44fdee5540b380160e7d1292b5dc6ba",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n56/mode/1up"
+    },
+    {
+      "filename": "original-print-044_pdf-058.png",
+      "sha256": "f664d749597da26c4e3f2e7a9b4bce6c8f11cbc44d8ef6f761b89db6f04bb9a6",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n57/mode/1up"
+    },
+    {
+      "filename": "original-print-054_pdf-068.png",
+      "sha256": "c84f58be06ea6e53eb3dc87c5150d93c2a22cddd8d022cf654101651ebd4cbe1",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n67/mode/1up"
+    },
+    {
+      "filename": "original-print-078_pdf-092.png",
+      "sha256": "d0f71109e8793a0a1b21f3afaf1fe56b71594b3c97d0e32ad7889db2681ec59b",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n91/mode/1up"
+    },
+    {
+      "filename": "original-print-132_pdf-146.png",
+      "sha256": "07f1522f203ce71d432104a6a47b6f0d527be30c8261a72c1c3c813a21ad5e6f",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n145/mode/1up"
+    },
+    {
+      "filename": "original-print-254_pdf-268.png",
+      "sha256": "208085820f2062a80504b5fc6d6e005526782a8cfa749f361b80e1bb20747f7b",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n267/mode/1up"
+    },
+    {
+      "filename": "original-print-257_pdf-271.png",
+      "sha256": "277b47c6a1356b9bf6e190d2fc09d1d7d482027506be35930f087eb3cc548c99",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n270/mode/1up"
+    },
+    {
+      "filename": "original-print-266_pdf-280.png",
+      "sha256": "dfa425732b952fa24af447822a69eb70784bfe4feffaa1604c3258b7f5eea58a",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n279/mode/1up"
+    },
+    {
+      "filename": "original-print-268_pdf-282.png",
+      "sha256": "3bcee0c269c31f3192a9d2555128e84ad50208a055de8c058faae58859f7603f",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n281/mode/1up"
+    },
+    {
+      "filename": "print-045_pdf-059.png",
+      "sha256": "7dbd48f875eddb627389d7e3810af60bb8ae191fceb8361463227b25759c59d1",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n58/mode/1up"
+    },
+    {
+      "filename": "print-077_pdf-091.png",
+      "sha256": "1d62e22af9b9f163890776f11a692a3577dc29b461ad27fe2401818b757ef8aa",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n90/mode/1up"
+    },
+    {
+      "filename": "print-340_pdf-354.png",
+      "sha256": "bfea5d40680ab3cbf44d8986741dbcdcd44ae47efe33a876b2d8bde774348b8c",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n353/mode/1up"
+    },
+    {
+      "filename": "print-341_pdf-355.png",
+      "sha256": "6adab1b3dc6e30af29214ba736b0ae0a882cda15a1d589418a733c68800c6d88",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n354/mode/1up"
+    },
+    {
+      "filename": "print-357_pdf-371.png",
+      "sha256": "ce76b86eb920504ea943910bf5d82b857b9ba98f57e775d6a0482847bb978082",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n370/mode/1up"
+    },
+    {
+      "filename": "print-398_pdf-412.png",
+      "sha256": "30d6db2c419c368cf17334f1585b5fbd412ae362e42cfea38b238a0a2480bc02",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "print-400_pdf-414.png",
+      "sha256": "a0ceff2da881796492cd8b32c1f258f52c019370d2600c4117a65293256846aa",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n413/mode/1up"
+    },
+    {
+      "filename": "print-404_pdf-418.png",
+      "sha256": "0a904e6f1a9bd650cb84b87a38377292a9d2a5b56b43def76c4f837086d58507",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n417/mode/1up"
+    },
+    {
+      "filename": "print-409_pdf-423.png",
+      "sha256": "aabcb557a40d4cefb08ddc1ef778bfe3eaa07fe08f3adc1ed8638e68ca378057",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n422/mode/1up"
+    },
+    {
+      "filename": "print-411_pdf-425.png",
+      "sha256": "54816ed0e5c675822ba4d9eff2f36bdb362f3eccdb03dc293aeec749378faef7",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n424/mode/1up"
+    },
+    {
+      "filename": "print-419_pdf-433.png",
+      "sha256": "aef01ba58526adc64022de08e608fc0c565036d69a4b2813a615d7c79f7d5c6b",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n432/mode/1up"
+    },
+    {
+      "filename": "print-421_pdf-435.png",
+      "sha256": "0f77335bb222254db9d887804073b431d84cfafadd393ce32821a045eb157c35",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "print-427_pdf-441.png",
+      "sha256": "20edd38a7cff84e76fdae16a3394cee40c8c91d78230b3f865ff8ec77d96de31",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n440/mode/1up"
+    },
+    {
+      "filename": "print-428_pdf-442.png",
+      "sha256": "40b8b5678531ed10239e810b9a0e50481e8e6e2af2d936567fd8d1c5be255349",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n441/mode/1up"
+    },
+    {
+      "filename": "print-429_pdf-443.png",
+      "sha256": "7451bd92a5abdaae515397455c86d1326ed203764118860a475bc58c2c4b55ea",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n442/mode/1up"
+    },
+    {
+      "filename": "print-451_pdf-465.png",
+      "sha256": "7e1f9c14578a689a0dc335208c2ad8f4baf69f08950fe88823749c2ac76886e2",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "print-452_pdf-466.png",
+      "sha256": "9f5bf1a6ddab1cafb54ca1b38b7425d4b9aa041ba2fec9f356197aa95136f1cd",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "scan-306.png",
+      "sha256": "252771f77674f600874d60c0d7559a8b8499897aa9a687859dc762e34781f0d7",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n305/mode/1up"
+    },
+    {
+      "filename": "source-legacy.html",
+      "sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+      "bundled": false,
+      "source_url": "https://www.gutenberg.org/files/28427/28427-h/28427-h.htm"
+    },
+    {
+      "filename": "source-legacy.txt",
+      "sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+      "bundled": false,
+      "source_url": "https://www.gutenberg.org/files/28427/28427-8.txt"
+    },
+    {
+      "filename": "source.html",
+      "sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+      "bundled": false,
+      "source_url": "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html"
+    },
+    {
+      "filename": "source.txt",
+      "sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+      "bundled": false,
+      "source_url": "https://www.gutenberg.org/cache/epub/28427/pg28427.txt"
+    },
+    {
+      "filename": "u000088-main-and-note.png",
+      "sha256": "f9a1577b4a46f3c3e8ee02be38e62c0ba8047d9e28ce84510bdc6e5bc75f4010",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u000177-doria.png",
+      "sha256": "6a71d2cfe4c8b987e13630b6ec71492a9bea15db89e3b02530f5925531b4d420",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001077-age.png",
+      "sha256": "db1d19985936f706456f06ad40a1e3ea26499a3f400655c1d17c304d47bb7423",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001077-name.png",
+      "sha256": "1eda07d30dac7d07c986495ff5aa636bfddd32b11b04b16b2c4ae3089be1a426",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001077-note220.png",
+      "sha256": "43c973a5373331fa13702208249169726ebfb5007ba146607d554b6c53ec3ff6",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001283-letter9bis-date.png",
+      "sha256": "6240b51ab212039201174e5417fb9496bd0abb5d448c9608e5496b9d88422f41",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001312-evening.png",
+      "sha256": "c98a1812405dc58f15cb534263e9d34a775e10ece7fc42af8413e74ac5379af7",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001337-letter9-date.png",
+      "sha256": "6aebdd7e963a74d13d2c6337b555689ebc29c04252b66aad4d81d43b18768fd7",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001343-noon.png",
+      "sha256": "ff493c8b260a0d57a4d6306d68947aee8eba3bb3ffa416ce4db9396ceb7880b0",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001365-letter11bis-date.png",
+      "sha256": "5be83527dd713cfdd6865b79767e5015a454e3fb5d716e7025ee3faf24d27190",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001365-letter11bis-date.png",
+      "sha256": "5be83527dd713cfdd6865b79767e5015a454e3fb5d716e7025ee3faf24d27190",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n432/mode/1up"
+    },
+    {
+      "filename": "u001369-noailles-november1.png",
+      "sha256": "973e1152567d5f970e429f2255fe215187ec48ae75a0369cf955ea0125e85956",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001382-printed-paragraph.png",
+      "sha256": "fab03f2837ad70354f87ee287f1c41a4caeed96a3eadd634b52e144d74add9c1",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001407-letter10-date.png",
+      "sha256": "b590d8a398f8f4923c747797011cef114e39f2b03da1df3183f68e09b6278b83",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001409-noailles-november2.png",
+      "sha256": "91830ea9e90a4bf62b4437e6b9979ba5ddd7712a93e72feb6abe5c933bcaa803",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001412-salut-main.png",
+      "sha256": "8257e522cf0397ff525630ba455fdfef4d834e0524997a713672610e4ccf5004",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001492-dispatch13bis-dateline.png",
+      "sha256": "47b869e25e7d33ed149ae7a91ac19446c1b4268e6417ac7259bf19216f032d92",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n464/mode/1up"
+    },
+    {
+      "filename": "u001496-bentinck-amiral.png",
+      "sha256": "9ab4d060d4d457180520c57df04cfe4f42a307049b6a18fc39cf4cc28e31929a",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "u001526-baseline-1806.png",
+      "sha256": "52953e5bd0464876f5014b5a2cb6f092fd0dd35508d255d9fd12e844d504e645",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n474/mode/1up"
+    },
+    {
+      "filename": "u001589-depeche-du16.png",
+      "sha256": "c6915a7be3179e98fc9621e7dda4118a6ac9bc35ddaf898887b4639bc0b6f239",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n491/mode/1up"
+    },
+    {
+      "filename": "u001589-le-flatter.png",
+      "sha256": "638138b7642ca53c6909e60a69184032e05c9344fe327513d2d1e818e63c5962",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n492/mode/1up"
+    },
+    {
+      "filename": "u001742-depeche-november5.png",
+      "sha256": "e6cb876d8d0fcbba556bbf1fa8eb849465a00ce20286cff08e33d1965ec62cce",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n528/mode/1up"
+    },
+    {
+      "filename": "u001776-baseline-1805.png",
+      "sha256": "9c5f72ac10847d8e41def1156701032fdf4510b136b990178a8f90d62f4a3bd2",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n533/mode/1up"
+    },
+    {
+      "filename": "u001793-baseline-1805.png",
+      "sha256": "91fc0ed9657d20b90b2bbbb80de411eee63695beb03f01367e4be6e3448e1c74",
+      "bundled": false,
+      "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n537/mode/1up"
+    },
+    {
+      "filename": "u002406-note336.png",
+      "sha256": "74605c740f908ed4f112d71d1ba88c0e7e4b1f922997da47c867b1434bd41b37",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "verification.json",
+      "sha256": "34f44fc57528b84919939c42bdedb17d77fca0216ead59762bf839a566f7a251",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "verification.json",
+      "sha256": "5c6fd16d48c88c7fa68d212fdf1ff00d72f225b652ffd9791eabb554aa02b4bd",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    },
+    {
+      "filename": "verification.json",
+      "sha256": "e65c1916000879013d06d18719322a82ddc0c28e9ef81dd498432a63f0cb40ab",
+      "bundled": false,
+      "source_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf"
+    }
+  ],
+  "file_count": 5,
+  "total_bytes": 261567,
+  "files": [
+    {
+      "path": "facsimile-note222/REPORT.txt",
+      "bytes": 2884,
+      "sha256": "65510f8617d43c2f8a516bcb5f6a8a714bafcf01801ef89197ecfbcfcb10d900",
+      "preserved_byte_for_byte": false,
+      "content_role": "filtered_reader_facing_source_evidence"
+    },
+    {
+      "path": "facsimile-note222/note222-variant-meussent.png",
+      "bytes": 16566,
+      "sha256": "373f8b9653d75e2412fa9963d8c7e6ace355e03d5fa65f3461867e8fcae3ca00",
+      "preserved_byte_for_byte": true,
+      "content_role": "preserved_printed_excerpt_image"
+    },
+    {
+      "path": "facsimile-note222/u001077-main-neussent.png",
+      "bytes": 113617,
+      "sha256": "4a4645da2b7572e0e592326cfe5072c426584354a2c2b22421eef8261e23a94e",
+      "preserved_byte_for_byte": true,
+      "content_role": "preserved_printed_excerpt_image"
+    },
+    {
+      "path": "facsimile-note222/verification.json",
+      "bytes": 9941,
+      "sha256": "8cd957642d7022776d62010274a1128ee49d6ba2d9a2b4993f91f2e3ce072c74",
+      "preserved_byte_for_byte": false,
+      "content_role": "filtered_reader_facing_source_evidence"
+    },
+    {
+      "path": "source-discrepancies.json",
+      "bytes": 118559,
+      "sha256": "4c6f3ffbc4e84dbeea391e7e71b2c2d08f5c467895193020f3ea1770cc12f853",
+      "preserved_byte_for_byte": false,
+      "content_role": "filtered_reader_facing_source_evidence"
+    }
+  ],
+  "manifest_self_excluded": true
+}

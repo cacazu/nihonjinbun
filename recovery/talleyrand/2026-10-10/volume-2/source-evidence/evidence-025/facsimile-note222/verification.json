@@ -1,0 +1,158 @@
+{
+  "recorded_at_utc": "2026-10-10T17:50:49.057759+00:00",
+  "scope": "Bounded comparison of historical note 222, unit v02-u002286, with its main-text call in v02-u001077 on printed page 341 and in four digital witnesses. The printed note is numbered 2. This verifies the stated fragments without reconstructing an unwritten alternative sentence and is not whole-volume printed collation.",
+  "unit": "v02-u002286",
+  "main_unit": "v02-u001077",
+  "digital_note_number": 222,
+  "printed_note_number": 2,
+  "printed_page": 341,
+  "pdf_page_1_based": 355,
+  "ia_leaf_0_based": 354,
+  "page_number_visually_verified": true,
+  "printed_main_reading": "si elles n’eussent² paru contraster davantage avec sa démarche, son regard et le son de sa voix.",
+  "printed_variant_reading": "2. Variante : si elles m’eussent.",
+  "printed_variant_emphasis": "The m’ fragment is italicized; eussent follows it. The same emphasis is explicitly represented by the two HTML and two TXT witnesses.",
+  "typographic_evidence": [
+    "Main text contains n’ before eussent.",
+    "The complete printed variant fragment is si elles m’eussent.",
+    "No n’ or ne occurs in the printed variant fragment.",
+    "The note is numbered 2 on this printed page and corresponds to digital note 222.",
+    "All four checked digital witnesses preserve this main/variant difference, including emphasis on m’."
+  ],
+  "grammatical_inference": "If the displayed variant fragment replaces the matching main fragment literally, the resulting text changes n’ to m’. Calling it merely an added indirect object while retaining an unwritten negative would require an additional inference. A reconstructed form such as si elles ne m’eussent is not what this footnote prints. The scan does not establish whether the editor intended an ellipsis, a grammatical repair, or any particular change in the force of the sentence; these remain interpretation beyond the printed evidence.",
+  "finding": "The printed volume and all four digital witnesses agree. There is no recoverable digital typo at this locus. The verified letter difference is distinct from any grammatical explanation of the variant.",
+  "status": "digital_and_print_main_variant_readings_verified; no_restoration",
+  "edition": "Mémoires du prince de Talleyrand, II; Duc de Broglie; Paris: Calmann Lévy, 1891.",
+  "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n354/mode/1up",
+  "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+  "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+  "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+  "provider_md5_previously_verified": true,
+  "method": "Previously rendered grayscale full page and two new lossless rectangular excerpts inspected visually. Page rendered at 200 dpi with pdftoppm; no OCR-only reading.",
+  "evidence_files": [
+    {
+      "filename": "u001077-main-neussent.png",
+      "path": "facsimile-note222/u001077-main-neussent.png",
+      "sha256": "4a4645da2b7572e0e592326cfe5072c426584354a2c2b22421eef8261e23a94e",
+      "bytes": 113617,
+      "crop_xyxy": [
+        185,
+        580,
+        1125,
+        740
+      ],
+      "visually_inspected": true
+    },
+    {
+      "filename": "note222-variant-meussent.png",
+      "path": "facsimile-note222/note222-variant-meussent.png",
+      "sha256": "373f8b9653d75e2412fa9963d8c7e6ace355e03d5fa65f3461867e8fcae3ca00",
+      "bytes": 16566,
+      "crop_xyxy": [
+        210,
+        1857,
+        685,
+        1910
+      ],
+      "visually_inspected": true
+    }
+  ],
+  "digital_witnesses": [
+    {
+      "unbundled_filename": "source.html",
+      "bundled": false,
+      "unbundled_file_sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+      "url": "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html",
+      "sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+      "encoding": "utf-8",
+      "raw_variant_fragment": "Variante: si elles <i>m'</i>eussent.",
+      "normalized_variant_reading": "Variante: si elles m'eussent.",
+      "raw_main_fragment": "si elles n'eussent<a id=\"FNanchor_222\"></a><a class=\"fnanchor pginternal\" href=\"#Footnote_222\">[222]</a> paru contraster davantage avec sa démarche, son\r\nregard et le son de sa voix. Je répondis à tout dans un sens conforme\r\naux choses que nous avons à faire ici, et aux intérêts ",
+      "main_has_n_apostrophe": true,
+      "variant_has_n_apostrophe": false,
+      "variant_typographic_emphasis": "m' only: HTML <i>m'</i>; TXT _m'_",
+      "matching_variant_occurrences": 1
+    },
+    {
+      "unbundled_filename": "source.txt",
+      "bundled": false,
+      "unbundled_file_sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+      "url": "https://www.gutenberg.org/cache/epub/28427/pg28427.txt",
+      "sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+      "encoding": "utf-8",
+      "raw_variant_fragment": "Variante: si elles _m'_eussent.",
+      "normalized_variant_reading": "Variante: si elles m'eussent.",
+      "raw_main_fragment": "si elles n'eussent[222] paru contraster davantage avec\r\nsa démarche, son regard et le son de sa voix. Je répondis à tout",
+      "main_has_n_apostrophe": true,
+      "variant_has_n_apostrophe": false,
+      "variant_typographic_emphasis": "m' only: HTML <i>m'</i>; TXT _m'_",
+      "matching_variant_occurrences": 1
+    },
+    {
+      "unbundled_filename": "source-legacy.html",
+      "bundled": false,
+      "unbundled_file_sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+      "url": "https://www.gutenberg.org/files/28427/28427-h/28427-h.htm",
+      "sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+      "encoding": "iso-8859-1",
+      "raw_variant_fragment": "Variante: si elles <i>m'</i>eussent.",
+      "normalized_variant_reading": "Variante: si elles m'eussent.",
+      "raw_main_fragment": "si elles n'eussent<a name=\"FNanchor_222\" id=\"FNanchor_222\"></a><a href=\"#Footnote_222\" class=\"fnanchor\">[222]</a> paru contraster davantage avec sa démarche, son\r\nregard et le son de sa voix. Je répondis à tout dans un sens conforme\r\naux choses que nous avons à faire ici, et aux ",
+      "main_has_n_apostrophe": true,
+      "variant_has_n_apostrophe": false,
+      "variant_typographic_emphasis": "m' only: HTML <i>m'</i>; TXT _m'_",
+      "matching_variant_occurrences": 1
+    },
+    {
+      "unbundled_filename": "source-legacy.txt",
+      "bundled": false,
+      "unbundled_file_sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+      "url": "https://www.gutenberg.org/files/28427/28427-8.txt",
+      "sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+      "encoding": "iso-8859-1",
+      "raw_variant_fragment": "Variante: si elles _m'_eussent.",
+      "normalized_variant_reading": "Variante: si elles m'eussent.",
+      "raw_main_fragment": "si elles n'eussent[222] paru contraster davantage avec\r\nsa démarche, son regard et le son de sa voix. Je répondis à tout",
+      "main_has_n_apostrophe": true,
+      "variant_has_n_apostrophe": false,
+      "variant_typographic_emphasis": "m' only: HTML <i>m'</i>; TXT _m'_",
+      "matching_variant_occurrences": 1
+    }
+  ],
+  "original_units": [
+    {
+      "unit": "v02-u001077",
+      "text": "Deux jours se passèrent sans conférence. Une fête un jour, une chasse l'autre, en furent la cause. Dans cet intervalle je fus présenté à madame la duchesse d'Oldenbourg[220]. Je lui exprimai des regrets de ce qu'elle n'était point venue à Paris avec son frère. Elle me répondit que ce voyage[221] n'était que retardé; puis elle passa tout à coup à des questions telles que l'empereur m'en avait faites sur Votre Majesté, sur l'esprit public, sur les finances, sur l'armée, questions qui m'auraient fort surpris de la part d'une femme de vingt-deux ans, si elles n'eussent[222] paru contraster davantage avec sa démarche, son regard et le son de sa voix. Je répondis à tout dans un sens conforme aux choses que nous avons à faire ici, et aux intérêts que nous avons à y défendre.",
+      "text_sha256": "ac7f10fea2c86de35711223185082a9bab18b55ea10b8c20d40a81c6da9f46a8",
+      "html_sha256": "0c7a4c720f9e241cfcafbb5af923fd34203f07b0cb11fbd2abac141cfb29127d"
+    },
+    {
+      "unit": "v02-u002286",
+      "text": "[222] Variante: si elles m'eussent.",
+      "text_sha256": "768894f0c51438323d6ba91a21225674b02b9b6ad387bda72e4327cc497305e8",
+      "html_sha256": "e48c22445cbc5bf36a199716e893149ac1e07573d59e19c91f06bccec0bfbed4"
+    }
+  ],
+  "original_units_file_sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751",
+  "source_pdf_bundled": false,
+  "relative_path_base": "All local evidence paths are relative to the payload directory. Unbundled filenames are identifiers only, not local links.",
+  "digital_source_inventory_bundled": false,
+  "bundled_evidence_files": [
+    "facsimile-note222/u001077-main-neussent.png",
+    "facsimile-note222/note222-variant-meussent.png",
+    "facsimile-note222/REPORT.txt",
+    "facsimile-note222/verification.json"
+  ],
+  "unbundled_full_page_context": [
+    {
+      "filename": "print-341_pdf-355.png",
+      "printed_page": 341,
+      "pdf_page_1_based": 355,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n354/mode/1up",
+      "sha256": "6adab1b3dc6e30af29214ba736b0ae0a882cda15a1d589418a733c68800c6d88",
+      "bytes": 1103154,
+      "bundled": false,
+      "description": "The full-page image is unbundled; the main-text and variant excerpts are bundled."
+    }
+  ]
+}
