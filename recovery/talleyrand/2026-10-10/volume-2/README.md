@@ -1,6 +1,6 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 2170 entries in batches 001–279 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 2325 entries in batches 001–296 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -287,6 +287,23 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `277-root-draft.json`: `25a9836e0533ebe753f369afab47fd1300cd1ce7d128b2ba82c6cf2085d86fdc`
 - `278-root-draft.json`: `b9cc8bfc1dd4af598375894bafcccb7c88e4fd73deb4976399b91695fb983bbb`
 - `279-root-draft.json`: `9942a299bb0cb5c53648897e8d3f2973ff463e8ecfbefff99b43a60eef167d60`
+- `280-root-draft.json`: `357660aabb029aec215523a92b8a567e328863dbb4d69c21c04c8867b62ff6b8`
+- `281-root-draft.json`: `407639afee3449174b1bfd0a900c8ae8ac4589622f8b8596b451b331ba66dd2d`
+- `282-root-draft.json`: `6153287b4edad4d503f5dc683043676480109e730369aab62b8f9dc05d9d6d9e`
+- `283-root-draft.json`: `25921f6fbd6c471582268e6e61a17c2a687b3bf946ae659652fd425ec063087c`
+- `284-root-draft.json`: `524e8905bf53c734fde975bb5c18af991120dd958518a79f5421b50a733214ff`
+- `285-root-draft.json`: `d8438a8c9d3b515fa6503acc408eb67644fced877c426cc800098dcab9efedbe`
+- `286-root-draft.json`: `84fa89fee56fa7c0a876711f6eaefdd43c13eb7afd585b4e54f55ffd1d61e047`
+- `287-root-draft.json`: `7c45e6dc01557beb74969a74504537a8bca5fc6d9334fd4e302cc9e8eef726e8`
+- `288-root-draft.json`: `fe433c7ec0e3763edba14beb7944014373cbbcab81c9a3b851f5d1e981820213`
+- `289-root-draft.json`: `77ec71551ae624bae944c020572211a12695d6f7161d5a018784fe4009669232`
+- `290-root-draft.json`: `3a5576d3fe651c94c9b21ab9c704858ed81c858b8826dbfe06831b0a3ee9ce13`
+- `291-root-draft.json`: `7cf0d1d76d9836e42ce2cc4cf1cd85aafaaf75ab15bd4fda0d97f67d1701b563`
+- `292-root-draft.json`: `e9609b77e8d0cfdbec9f85013ee70f4c7fe1ca2db267440cc617c8b32c18bc91`
+- `293-root-draft.json`: `1446585bbed4a6ea5018452dbb15362b788cafd877d3e9db8fbf7360971a4749`
+- `294-root-draft.json`: `5b3e8b3b6a065aa450a14176acce61262bff9cf1b85254ed91b7bf20f18dbc4d`
+- `295-root-draft.json`: `e3e718dd95f6d41b3c14e6d7c665daca1fe1fa5c3a883505a4961a020f49219c`
+- `296-root-draft.json`: `04c682026b70a6deb9a578a525a63a2895e7dab6ea6cf74897d30f4a8eb17744`
 
 ## Source evidence checksums
 
@@ -320,3 +337,5 @@ The latest22-record source-discrepancy ledger and two excerpts for the November5
 The latest23-record source-discrepancy ledger and three excerpts comparing the Prussian baseline years1806/1805 are in `source-evidence/evidence-023/`, superseding prior ledger snapshots. The source variants remain distinct; no historical reconciliation is asserted.
 
 The note39 evidence documents printed armées against années in all four digital witnesses, with an explicit translator disclosure. The latest reader-facing ledger in `source-evidence/evidence-024/` supersedes prior ledger snapshots.
+
+Original note163 begins after the Queen Charlotte letter ends at unit2204. The eventual reader must close the quoted-letter container at this unit boundary despite the missing source closing guillemet; this assembly requirement remains pending.
