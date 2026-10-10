@@ -1,0 +1,56 @@
+{
+  "unit_id": "v01-u001522",
+  "base_unit_text_sha256": "00c43a104265db79cba4fa2c633263258e88b4f4d7c7ad0f0906c0d9d26350ec",
+  "html": {
+    "biography_anchor": "Footnote_443_444",
+    "display_label": "[443]",
+    "backref": "FNanchor_443_444",
+    "source_reference_location": "After morceau séparé, adjacent to empty443 reference; misplaced reference to Caulaincourt biography",
+    "source_visible_444": "M. de Caulaincourt[444] is plain text, not an anchor link",
+    "preceding_note": {
+      "unit_id": "v01-u001521",
+      "target": "Footnote_443_443",
+      "label": "[443]",
+      "text": "Voir la cinquième partie.",
+      "source_reference": "FNanchor_443_443 / empty href link"
+    }
+  },
+  "txt": {
+    "preceding_note": "[443] Voir la cinquième partie.",
+    "biography_note": "[444] Louis de Caulaincourt…",
+    "mapping": "443 belongs to morceau séparé;444 belongs to Caulaincourt"
+  },
+  "scan": [
+    {
+      "pdf_physical_page": 360,
+      "printed_page": 319,
+      "local_note": 4,
+      "content": "Voir la cinquième partie."
+    },
+    {
+      "pdf_physical_page": 361,
+      "printed_page": 320,
+      "local_note": 1,
+      "content": "Louis de Caulaincourt…"
+    }
+  ],
+  "classification": "HTML-specific duplicated label and displaced/empty hyperlink. Scan uses local page numbering; it does not establish a printed443→444 correction. TXT establishes continuous digital444 mapping.",
+  "proposed_reader_mapping": {
+    "u001521": "TXT443, linked from morceau séparé",
+    "u001522": "TXT444, linked from Caulaincourt",
+    "source_labels_preserved_separately": true,
+    "disclosure_required": "Explain HTML duplicate443 and corrected reader linkage/label if root elects correction."
+  },
+  "evidence": [
+    {
+      "file": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/note444-360.jpg",
+      "sha256": "a721640ffdcf6891181778fbd458a88934aa82df1b40bf15d299625eba52aa08"
+    },
+    {
+      "file": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/note444-361.jpg",
+      "sha256": "c26cc1b71757d95ad4412b25dea9998fbbfcbd4f93a87f685462ac54f2e47b71"
+    }
+  ],
+  "source_scan_url": "https://be1830.be/onewebmedia/M%C3%A9moires_du_prince_de_Talleyrand_I.pdf",
+  "source_changes": "None"
+}
