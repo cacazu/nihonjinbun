@@ -1,6 +1,6 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 2560 entries in batches 001–316 byte-for-byte. Initial semantic checks have passed at these bytes. The preserved reread flags cover 63 entries; all 2,560 initial-draft entries are now present, while the full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 2560 entries in batches 001–316 byte-for-byte. Initial semantic checks have passed at these bytes. The preserved reread flags cover 189 entries; all 2,560 initial-draft entries are now present, while the full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -14,20 +14,20 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `004-root-draft.json`: `1423c4365ab46764186720f060c58dd8127ebc56cee4769255109f402dcffc41`
 - `005-root-draft.json`: `2e682adee76ed432622c45579cc9fc201897934293beed77867fc59b4af8da16`
 - `006-root-draft.json`: `f96e91a99540f0d6212379d438b79fcff8213ced87e5ae39437882db8747c586`
-- `007-root-draft.json`: `a931106446bcec543565a3fc8f3baa85ed38518ca9e008ee529499ac9abb9d5c`
-- `008-root-draft.json`: `925e76c67b9d4116820693bb4271ce51b0c9af3b15af3cb54aa070638169daae`
-- `009-root-draft.json`: `c41c81e877f2059c4aa90dd4b2687689c2eab8cde0c63d376841ee9be3a55cc7`
-- `010-root-draft.json`: `d80432c09880b320e20c6b068c21f825f25a564b422ba1db28a649b2c0d495b4`
-- `011-root-draft.json`: `17765266012de26c0645a29a5283192f25ebaaff570e16287ede7689ac3889b9`
-- `012-root-draft.json`: `d782c100bb961cfa498047c87314c21ccfcaf04dc31973b267ebe911e6a5481a`
-- `013-root-draft.json`: `fcc15fadca1156e3480e5e4bf3249f91e2ba26a5686d92d29b66dcd03eeca4bb`
-- `014-root-draft.json`: `a4a96c4a43e4fb3c07ac82a7575fee63602e57895a8ae300290e2529923eeac6`
-- `015-root-draft.json`: `e99a0c6ba4a4b800e5bfe4c32edd88a0e8938291930a7a434a2f9d9e62efb0ac`
-- `016-root-draft.json`: `cee654f6c131666da18e6e479c78dd434aa7cd7ecae4bbd19b79413a3fc637e5`
-- `017-root-draft.json`: `9856090a2a2aa7ad93c8e1022a62e7d73cc6f5590ab8a97e27866dab986bc9b9`
-- `018-root-draft.json`: `1ab0efb2814089fd2f464505def73d8be05e07991689d064b137e628afb45b60`
-- `019-root-draft.json`: `aeb6c11d942d0cc3097f2bb152e5834c46ad0c2424384344bac7346d3f308bac`
-- `020-root-draft.json`: `48a91213b54e9a1232404abd281ab6e825f710c0bb9b72d3628a4ad62eedd9b3`
+- `007-root-draft.json`: `9e00b4d5e63a94189f274f478e9c5655f27a0cef83142410afefda3bce5259b9`
+- `008-root-draft.json`: `f98092c9ea1582b92772067e5efe238e10f72aca6c453b02c3971c0f1778e012`
+- `009-root-draft.json`: `f8d03fa0e57a15cc62daf59047b2d5b513bd7d83cfcdcbcfb3095f3ea3c6672d`
+- `010-root-draft.json`: `dc91f5e82aa14e9006cd696c3b5842a5b2cdb966fe0b185efe8f6475cd591bb6`
+- `011-root-draft.json`: `75a0f03a0cfeb2846eb9e80d64d397edbf0e5d4a6121953d4437a27902f3626e`
+- `012-root-draft.json`: `baea71b11fa1a2c395f7084f0301f178655eaf1aa1f128eea2205164cab64d59`
+- `013-root-draft.json`: `b61143850b91738fe427c007a7e7b48a03e1639e97c0064002528f7efd6bf539`
+- `014-root-draft.json`: `8762cd3f8c4e749babdbc83b3a7e3cc8bcc48348328b9fec347e26d1c8c15498`
+- `015-root-draft.json`: `8701ae299f60ded7940f9194a571c565783ea0c0c82b6b5d8f2ba29ff442ca94`
+- `016-root-draft.json`: `45d66dffe3aa5f3d97c7a1d9f06e6965e2061fc16077106b7f7c68242188176c`
+- `017-root-draft.json`: `fae2df9925afb4891f16d88f5ea0923c6430ab154595a96a0c93417c1acbcd45`
+- `018-root-draft.json`: `8b8c8099c407d476233512c52f79d178ee8213aabd6772fad31b7bb1bd2e9df2`
+- `019-root-draft.json`: `55d5f278d32c3ed67c4ceb5a4e830156eec8d9e904b13f5f7e8a6e3cd9c32ef0`
+- `020-root-draft.json`: `9df8d77274cb16693dd4048da2ef26e998fc8b414b14389d112fcaa1ede16c7c`
 - `021-root-draft.json`: `a0a9654e55f783bffc234dd51bebb935792dcc1ad64a688546e09c05a06eaf4a`
 - `022-root-draft.json`: `2d60fe9ee82b66867fc167de18fd6b04d72c23d49988b8ea3140857caf521028`
 - `023-root-draft.json`: `69b3a9e188df67ab02a30e4d16b2f979ece3aed7fab167a23e0fde2a773bea30`
