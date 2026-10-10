@@ -1,6 +1,6 @@
 # Talleyrand manuscript drafts — incomplete
 
-This checkpoint preserves 187 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
+This checkpoint preserves 205 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
 
 - `001-new-draft.json`: 20 newly drafted front-matter and early volume 1 entries, including units 17–26.
 - `002-new-draft.json`: newly drafted volume 1 units 27–37.
@@ -17,11 +17,13 @@ This checkpoint preserves 187 Japanese draft entries byte-for-byte as supplied o
 - `013-new-draft.json`: newly drafted volume 1 units 160–166.
 - `014-new-draft.json`: newly drafted volume 1 units 167–175.
 - `015-new-draft.json`: newly drafted volume 1 units 176–182.
+- `016-new-draft.json`: newly drafted volume 1 units 183–191.
+- `017-new-draft.json`: newly drafted volume 1 units 192–200.
 - `038-root-draft.json`: recovered volume 1 units 423–427.
 - `040-root-draft.json`: recovered volume 1 units 433–437.
 - `041-root-draft.json`: newly drafted volume 1 units 438–440.
 
-Batches 001–015 are replacement work, not recovered earlier text. Batch 041 is likewise new work. All eighteen files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 187 available entries, including the supplied corrections. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
+Batches 001–017 are replacement work, not recovered earlier text. Batch 041 is likewise new work. All twenty files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 205 available entries, including the supplied corrections. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
 
 Preservation checks covered JSON syntax, incomplete status, nonempty Japanese text fields, unique entry IDs, source-hash presence and byte checksums. They do not certify full-volume accuracy or completeness. Before incorporation into canonical YAML, complete the remaining source alignment, review and required full reread. This folder is outside `translations/`; the catalog and canonical translations are unchanged.
 
@@ -42,6 +44,8 @@ Preservation checks covered JSON syntax, incomplete status, nonempty Japanese te
 - `013-new-draft.json`: `544bd80b0f564e79d70b3e40c47ca7f043d2531eada7c1c52912a11c4f025ff1`
 - `014-new-draft.json`: `9c24d05c3d24086e48ddd033780f773ca5b669c9e5e4c9c3ec37861668b3f7af`
 - `015-new-draft.json`: `bb10a0b67e392167fbf7f605ac7edce5108c0e4f572b9bb9aecad27a5ea0c5e2`
+- `016-new-draft.json`: `9f07ede5fc9b133574f79530e0152ba044ab6a3cfd51a2a977e2afd709cc65a2`
+- `017-new-draft.json`: `5d798ba8631270e2c91433f8c38b1fdf8f541980be987e682b2ebf74a2da33c8`
 - `038-root-draft.json`: `9a70728054ed8bdcd17a6169b969c1607ebb98e721d31b3dbe50135c46ccab88`
 - `040-root-draft.json`: `12d8a69ec20c72e10b03b64abc73d1f0098213955cd426d9028b15cbc6b20138`
 - `041-root-draft.json`: `fb3c72f0e6348d7fa8afd6a6d1bea09108019213f252194f7aa365650b685569`
