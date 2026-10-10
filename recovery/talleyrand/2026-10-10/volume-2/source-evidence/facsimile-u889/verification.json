@@ -1,0 +1,178 @@
+{
+  "record_id": "v02-facsimile-u000889-print284-001",
+  "created_utc": "2026-10-10T14:12:00Z",
+  "operation": "read-only facsimile collation; supplemental overlay only; original units and drafts unchanged",
+  "edition_visually_verified": {
+    "title": "Mémoires du prince de Talleyrand",
+    "editor": "Le duc de Broglie",
+    "volume": "II",
+    "place": "Paris",
+    "publisher": "Calmann Lévy",
+    "year": "1891",
+    "title_pdf_page_one_based": 13,
+    "title_image": "title-013.png"
+  },
+  "facsimile": {
+    "item_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2",
+    "item_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n297/mode/1up",
+    "item_page_http_status": 200,
+    "download_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202_text.pdf",
+    "pdf_local": "ia-text.pdf",
+    "pdf_md5": "f0ca4d6225bc5491df0ba9a3a3ffde44",
+    "pdf_md5_matches_ia_metadata": true,
+    "archive_uploader_type": "third-party Internet Archive upload of a Google-watermarked printed scan",
+    "caveat": "This is an independently located scan, not proof of the identity of the BnF copy used by Gutenberg. The downloaded Additional Text PDF visibly preserves page images. Internet Archive metadata flags pdf_degraded invalid-jp2-headers, but the inspected reading is legible."
+  },
+  "pages": [
+    {
+      "printed": 282,
+      "ia_leaf_zero_based": 295,
+      "pdf_page_one_based": 296,
+      "image": "scan-296.png",
+      "source_units": [
+        "v02-u000885 (continuation)",
+        "v02-u000886",
+        "v02-u000887 (start)"
+      ]
+    },
+    {
+      "printed": 283,
+      "ia_leaf_zero_based": 296,
+      "pdf_page_one_based": 297,
+      "image": "scan-297.png",
+      "source_units": [
+        "v02-u000887 (continuation)",
+        "v02-u000888",
+        "v02-u000889 (start)"
+      ]
+    },
+    {
+      "printed": 284,
+      "ia_leaf_zero_based": 297,
+      "pdf_page_one_based": 298,
+      "image": "scan-298.png",
+      "source_units": [
+        "v02-u000889 (continuation)"
+      ]
+    },
+    {
+      "printed": 285,
+      "ia_leaf_zero_based": 298,
+      "pdf_page_one_based": 299,
+      "image": "scan-299.png",
+      "source_units": [
+        "v02-u000889 (end)",
+        "v02-u000890",
+        "v02-u000891 (start)"
+      ]
+    },
+    {
+      "printed": 292,
+      "ia_leaf_zero_based": 305,
+      "pdf_page_one_based": 306,
+      "image": "scan-306.png",
+      "source_units": [
+        "v02-u000903 (end)",
+        "v02-u000904 (start)"
+      ]
+    }
+  ],
+  "gap": {
+    "unit_id": "v02-u000889",
+    "source_xpath": "/html/body/p[783]",
+    "source_line": 7079,
+    "original_text_sha256": "54d10db7a15ea767b2c6d78e8ee6ac6beb688d978a98e95a660e6d369dcab3c4",
+    "original_source_html_sha256": "fc00bc16107375486412eec9f7d81c5f93dd0704862f2ca85ec43a87c557dbd6",
+    "status": "VISUALLY VERIFIED, NOT CONJECTURAL",
+    "normalized_full_first_two_sentences": "Le premier objet dont s'occupa la commission des huit puissances fut le sort du roi et du royaume de Saxe et ensuite celui du duché de Varsovie. Depuis longtemps la Prusse convoitait la possession du royaume de Saxe.",
+    "diplomatic_page_boundary": "[p.283, last two body lines]\nLe premier objet dont s’occupa la commission des huit\npuissances fut le sort du roi et du royaume de Saxe et en-\n[p.284, first two body lines]\nsuite celui du duché de Varsovie. Depuis longtemps la Prusse\nconvoitait la possession du royaume de Saxe. En l’acqué-",
+    "diplomatic_note": "Lineation and page-break hyphen retained in diplomatic excerpt; typographic apostrophes rendered U+2019. Normalized overlay uses the original digital unit’s ASCII apostrophes and joins print line breaks.",
+    "overlay_find": "ensuite on du royaume de Saxe.",
+    "overlay_replace": "ensuite celui du duché de Varsovie. Depuis longtemps la Prusse convoitait la possession du royaume de Saxe.",
+    "overlay_start_index_zero_based": 109,
+    "insert_before_retained_on": "celui du duché de Varsovie. Depuis longtemps la Prusse convoitait la possessi",
+    "word_count_delta_whitespace": 11,
+    "corrected_full_text": "Le premier objet dont s'occupa la commission des huit puissances fut le sort du roi et du royaume de Saxe et ensuite celui du duché de Varsovie. Depuis longtemps la Prusse convoitait la possession du royaume de Saxe. En l'acquérant, elle aurait non seulement accru ses possessions d'un riche et beau pays; mais encore elle aurait largement fortifié son ancien territoire. Dans le cours de la guerre qu'avait terminée la paix de Paris, les alliés de la Prusse lui avaient promis que, par les arrangements à intervenir, la possession de la Saxe lui serait assurée. La Prusse, en conséquence, comptait, avec une entière certitude, sur cette importante acquisition et se regardait déjà comme souveraine de ce bel État, qu'elle occupait par ses troupes, tandis qu'elle retenait le roi de Saxe comme prisonnier dans une forteresse prussienne. Mais, lorsqu'on fit la proposition de le lui donner dans la commission des huit puissances, je déclarai qu'il m'était impossible d'y souscrire. Je convins que la Prusse dépouillée par Napoléon, de vastes et nombreuses possessions qu'elle ne pouvait toutes recouvrer, avait droit à être indemnisée. Mais, était-ce une raison pour que la Prusse, à son tour, vînt dépouiller le roi de Saxe? N'était-ce pas vouloir substituer à un droit fondé en justice, le droit du plus fort, dont la Prusse avait été si près de devenir la victime? Et, en usant de ce droit, renoncer par le fait à l'intérêt que sa position devait inspirer? Les territoires dont le congrès avait à disposer n'offraient-ils pas d'ailleurs d'autres moyens de lui assigner d'amples indemnités? La France voulait bien se montrer facile dans tous les arrangements qui pouvaient convenir au roi de Prusse, pourvu qu'ils ne fussent pas contre le droit; et je répétai qu'elle ne pouvait ni participer ni consentir à ceux qui constitueraient une usurpation. Et sans parler de l'intérêt qui s'attachait à la personne du roi de Saxe, respectable par ses malheurs et par les vertus qui avaient honoré son règne, j'invoquai seulement en sa faveur le principe sacré de la légitimité.",
+    "corrected_full_text_sha256": "20e085438b002cbbfaf46d272f646bfd610044015c0f48cfe43e060a2555f41e",
+    "page_marker_caveat": "Digital Page_284 occurs after the joined word ensuite. Physical print page boundary splits en-/suite. Preserve the diplomatic boundary separately rather than presenting the digital page marker as exact print lineation."
+  },
+  "bounded_scope": {
+    "pages_visually_inspected": [
+      282,
+      283,
+      284,
+      285
+    ],
+    "finding": "No further substantive omission observed in these pages during visual comparison against relevant digital units. This is not an exhaustive typography/punctuation audit. No separate paragraph is missing between u888 and u889. The gap falls internally within u889. u888 is fully present in the digital witness.",
+    "u888_original_text_sha256": "c2f1011aa715a1ab76fd732c3578b5f28e74af4e08edf26a3a8f699602f7c88d",
+    "boundary_u888_end": "et noble cérémonie célébrée à Vienne, le 21 janvier 1815, à laquelle assistèrent tous les souverains et tous les personnages alors présents dans la capitale de l'empire d'Autriche.",
+    "boundary_u889_start": "Le premier objet dont s'occupa la commission des huit puissances fut le sort du roi et du royaume de Saxe et ensuite on du royaume de Saxe. En l'acquérant, elle aurait no"
+  },
+  "prusse_check": {
+    "unit_id": "v02-u000903",
+    "original_text_sha256": "405bb9f58009f9fbb79b21818526bf88bfc3cd01bf2f9d786c86586fed28ed5f",
+    "printed_page": 292,
+    "image": "scan-306.png",
+    "reading": "les entreprises ambitieuses de la Prusse.",
+    "location": "first body line on printed p.292",
+    "status": "VISUALLY VERIFIED PRINT AGREES WITH DIGITAL WITNESSES",
+    "editorial_caution": "Russie is contextually possible but not the reading of this 1891 printed witness; changing Prusse to Russie would be a conjectural emendation and must be labeled accordingly."
+  },
+  "files": [
+    {
+      "name": "ia-metadata.json",
+      "bytes": 9164,
+      "sha256": "0b36a1b3ed0d4f31b87775b0c8147e3700f1c26172f939a08e1889cb3ba50722"
+    },
+    {
+      "name": "ia-pages.json",
+      "bytes": 101520,
+      "sha256": "41ee4cf91bd3513db0ca56acb0596abbf4a3a951008481fdb1fcfefaf3439ead"
+    },
+    {
+      "name": "ia-ocr.txt",
+      "bytes": 1059183,
+      "sha256": "5cb2482f4975b8bb0b9a98e24c724c07257567dfa76d9ff701abc18f4d2bed35"
+    },
+    {
+      "name": "ia-text.pdf",
+      "bytes": 9945740,
+      "sha256": "845acc22b96d5ce6e81c76b162c296a35d7ff6beee65597b77dabef3311242f7"
+    },
+    {
+      "name": "ia-item.html",
+      "bytes": 221650,
+      "sha256": "4f685963b4d858b3dceb0adfefc36a476a297a6ff9c5dc457ab09cda314d3a78"
+    },
+    {
+      "name": "scan-296.png",
+      "bytes": 576302,
+      "sha256": "ccc2b2fea9e9735ae8f9c4841baf5afea78f0179e0ed945aa92688ab59f11bdb"
+    },
+    {
+      "name": "scan-297.png",
+      "bytes": 582607,
+      "sha256": "2d234771fd1b91cc91544ee8d6957d25e339f95c7870fc4b29f64c01d19446fc"
+    },
+    {
+      "name": "scan-298.png",
+      "bytes": 561692,
+      "sha256": "4b434f2669e59d5ae51ea056f9544d95f6bd89a32e7b5c905c9c09467055664c"
+    },
+    {
+      "name": "scan-299.png",
+      "bytes": 571013,
+      "sha256": "b411d7dd3059a7020914aacfb2e52be52b8a88c24d903502c03449355ea677d9"
+    },
+    {
+      "name": "scan-306.png",
+      "bytes": 565129,
+      "sha256": "252771f77674f600874d60c0d7559a8b8499897aa9a687859dc762e34781f0d7"
+    },
+    {
+      "name": "title-013.png",
+      "bytes": 130779,
+      "sha256": "88392635bffc58ad2453db246d474b0442f31980a795e725bb8d0f86821bc45c"
+    }
+  ]
+}
