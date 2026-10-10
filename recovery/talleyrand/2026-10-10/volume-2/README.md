@@ -1,8 +1,10 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 835 entries in batches 001–090 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 897 entries in batches 001–099 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
+
+Unit 889 discloses a defect in the digital source. Its comparison with the printed witness remains pending; no silent restoration is claimed.
 
 ## SHA-256 checksums
 
@@ -96,3 +98,12 @@ The fragmented front-matter title requires semantic assembly in the eventual rea
 - `088-root-draft.json`: `2e1d2573c99d1504cc30576d424064b41e783c949d64a153fbd2f290d125f00c`
 - `089-root-draft.json`: `0ca58212792561d4cb104ca808db899141712b18304a9c39da8a806473850cbc`
 - `090-root-draft.json`: `d4916ffc80a1df667d394431584cc62cdc504a1973531fe0ae309ceaf75e6bad`
+- `091-root-draft.json`: `22d69e5d5de5185d38c423e5d473ac720e068b495fbe2687eacbe8fb87f8869e`
+- `092-root-draft.json`: `b5f2e69326a2c416151a06161d7724e1e6e9311a54bda254de651cea52a5a55b`
+- `093-root-draft.json`: `494c69de0451a82a90cfd57f66997e6c474d597b07246c423ffa5cbae4c11f6a`
+- `094-root-draft.json`: `a4936b35517d6db4997a6bbf498180c77394c8a01c6b87ff460a3b5da1493941`
+- `095-root-draft.json`: `677d3343e18dda9f72111fd35c318e13701264d0c3f9276c5ce460acdc2f5ba1`
+- `096-root-draft.json`: `cbf3b5b137c22b40f8451830cc5ee98355e7c7356dd5905c3e237e17a7215513`
+- `097-root-draft.json`: `0b3fe7de93d32451b73e31e38d56fc2230d3eddc010f00486bf59d3ae1942043`
+- `098-root-draft.json`: `ac73cd0b88a15277b6dbe014c1b8d88744fd9e8579439bc571cbed9490dad4f9`
+- `099-root-draft.json`: `680279b6d94b6f3f68d52ada7e9bb8d8a72a9f031cc79813cfe12791388066ec`
