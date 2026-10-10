@@ -1,6 +1,6 @@
 # Talleyrand manuscript drafts — incomplete
 
-This checkpoint preserves 1581 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
+This checkpoint preserves 1636 Japanese draft entries byte-for-byte as supplied on 2026-10-10. The complete initial draft is present, but this is not a reviewed finished volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
 
 - `001-new-draft.json`: 20 newly drafted front-matter and early volume 1 entries, including units 17–26.
 - `002-new-draft.json`: newly drafted volume 1 units 27–37.
@@ -183,17 +183,22 @@ This checkpoint preserves 1581 Japanese draft entries byte-for-byte as supplied 
 - `178-root-draft.json`: newly drafted volume 1 units 1560–1569.
 - `179-root-draft.json`: newly drafted volume 1 units 1570–1579.
 - `180-root-draft.json`: newly drafted volume 1 units 1580–1589.
+- `181-root-draft.json`: newly drafted volume 1 units 1590–1599.
+- `182-root-draft.json`: newly drafted volume 1 units 1600–1609.
+- `183-root-draft.json`: newly drafted volume 1 units 1610–1619.
+- `184-root-draft.json`: newly drafted volume 1 units 1620–1629.
+- `185-root-draft.json`: newly drafted volume 1 units 1630–1644.
 
-Batches 001–039 are replacement work, not recovered earlier text. Batches 041–180 are likewise new work. All 181 canonical-entry draft files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 1581 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. This is partial-volume coverage only. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
+Batches 001–039 are replacement work, not recovered earlier text. Batches 041–185 are likewise new work. All 186 canonical-entry draft files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 1636 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. The current whole-set integrity check additionally accounts for all 1,636 canonical entries without gaps or duplicates, 566 printed note heads and 566 corresponding references. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
 
-Preservation checks covered JSON syntax, incomplete status, nonempty Japanese text fields, unique entry IDs, source-hash presence and byte checksums. They do not certify full-volume accuracy or completeness. Before incorporation into canonical YAML, complete the remaining source alignment, review and required full reread. This folder is outside `translations/`; the catalog and canonical translations are unchanged.
+Preservation checks covered JSON syntax, incomplete status, nonempty Japanese text fields, unique entry IDs, source-hash presence and byte checksums. They do not certify full-volume accuracy or completeness. Before incorporation into canonical YAML, complete source-alignment review and the required full reread. This folder is outside `translations/`; the catalog and canonical translations are unchanged.
 
 
 ## Supporting source evidence
 
-`source-evidence/new-scan-checks/` preserves 37 comparison-scan page/detail images, sixteen scan-provenance JSON files, and a targeted historical-clarification report. The comparison scan is not established as the exact exemplar used by Gutenberg. Unit 591 preserves the printed negative with its interpretive difficulty disclosed; unit 598 documents the comparison reading `pertes` against Gutenberg's `perles`. Separate evidence documents unit 614 as editorial continuation of note 322, and unit 929 as editorial continuation after signed authorial note 500. Unit 929 is now translated in batch 111, with its editorial-continuation placement disclosed separately. Separate historical evidence for units 669 and 682 supports the translator notes added to batches 074 and 076; the narrator's wording remains distinct from those notes. Base source files are unchanged. Paths recorded inside the original provenance files are preserved as supplied; corresponding images are included in this folder.
+`source-evidence/new-scan-checks/` preserves 38 comparison-scan page/detail images, seventeen scan-provenance JSON files, and a targeted historical-clarification report. The comparison scan is not established as the exact exemplar used by Gutenberg. Unit 591 preserves the printed negative with its interpretive difficulty disclosed; unit 598 documents the comparison reading `pertes` against Gutenberg's `perles`. Separate evidence documents unit 614 as editorial continuation of note 322, and unit 929 as editorial continuation after signed authorial note 500. Unit 929 is now translated in batch 111, with its editorial-continuation placement disclosed separately. Separate historical evidence for units 669 and 682 supports the translator notes added to batches 074 and 076; the narrator's wording remains distinct from those notes. Base source files are unchanged. Paths recorded inside the original provenance files are preserved as supplied; corresponding images are included in this folder.
 
-`source-evidence/digital-editorial-exclusions.json` preserves Gutenberg digital-editorial material, including Roman-numbered notes [i] and [ii]. Unit 770's [i] marker refers to this modern digital apparatus, not one of the 566 printed notes. Reader output must keep its attribution and destination distinct. The two digital notes have now been translated in the separately labeled `pg-digital-notes-root-draft.json`; both passed initial review, remain incomplete drafts, and are excluded from the 1581 canonical-entry count.
+`source-evidence/digital-editorial-exclusions.json` preserves Gutenberg digital-editorial material, including Roman-numbered notes [i] and [ii]. Unit 770's [i] marker refers to this modern digital apparatus, not one of the 566 printed notes. Reader output must keep its attribution and destination distinct. The two digital notes have now been translated in the separately labeled `pg-digital-notes-root-draft.json`; both passed initial review, remain incomplete drafts, and are excluded from the 1636 canonical-entry count.
 
 The added `units-763-801-809-verification.json` and its three referenced images document unit 801's printed 27 October versus Gutenberg's 21 October, the differing Duroc titles, and the shared preposition in unit 809. Draft 093 retains a separate disclosure for its scan-based date correction. The comparison-witness limitation remains applicable.
 
@@ -220,6 +225,10 @@ Notes344/348 report and images confirm agreement across checked digital and prin
 The note 443/444 mapping report and two comparison pages document an HTML-specific duplicated label and displaced/empty link. Batch 174 explicitly uses TXT-supported reader label [444] for the Caulaincourt biography. The scan uses page-local numbering and confirms the notes' placement; it does not establish continuous numbering. Source labels and unchanged source hashes remain distinct from the disclosed reader-label correction.
 
 Note 489 retains the date 1834 shared by the checked print, HTML and TXT witnesses, with a source caveat. Note 503 adopts the comparison print's cautiously read 1841 against digital 1811 and discloses the damaged glyph. In note 500, separate play titles are clarified editorially; no recovered printed comma is claimed. The two reports and five essential page/detail images preserve these comparisons.
+
+Note 532 retains the anomalous birth and marriage dates 1770 and 1773, shared by the checked print, HTML and TXT, with a separate source caveat. Its report and essential comparison page are preserved.
+
+`initial-draft-integrity-summary.json` records complete initial-draft coverage and note-reference accounting. `root-full-volume-reread-progress.json` is a publication-safe subset of the working progress record, not an exact copy. Its timestamped snapshot records 297 reread entries, status `in_progress`, and `whole_volume_reread_complete: false`. Initial batch audits and integrity checks are separate from that unfinished whole-volume reread. No final YAML or HTML is supplied here.
 
 ## SHA-256 checksums
 
@@ -404,7 +413,14 @@ Note 489 retains the date 1834 shared by the checked print, HTML and TXT witness
 - `178-root-draft.json`: `4ab5fdbb922f8f002a1191e7a1bbf3fd302b0e91692129f0fb63d7134a06cbe2`
 - `179-root-draft.json`: `d6585baccaa069532bf4a50db06716fef2a7cb41d38728dc01c17edc9d87accd`
 - `180-root-draft.json`: `a4e41b8acfae5c416504c70daa9b12528de46ecbdc1abed22b19ec8505a2d86a`
+- `181-root-draft.json`: `044aba38ae052ec7473199760ee2717a05e05b2da051ca39fdcd2fbda0a25165`
+- `182-root-draft.json`: `54d610b92bb7eee8e06276c6ed13644e7d6560d2f882582dacdc6a65d551a2f5`
+- `183-root-draft.json`: `2a48645eab3c67610e172fa878771eff26c94222f0274678524ff785a8d3bbf3`
+- `184-root-draft.json`: `554c57eef36e0ce720a88f6d36c00c015f08656a9dbd40b9e6a0a40018a54c4f`
+- `185-root-draft.json`: `cf3527113d36ce3f19c3c768b153a84e1b5bc9baa72efd1908962ced13a7ec55`
 - `pg-digital-notes-root-draft.json`: `7646910a41f1987795ed1a7f467fdcf8db3882b7896774dbcb13f655ec009ead`
+- `root-full-volume-reread-progress.json`: `147072dab3af4252026d6349f0f9b628051f38a886f498a2b8124e47cd7b26df`
+- `initial-draft-integrity-summary.json`: `6836f1c8caf2960400bc92b673576f7f0e0d684793d53beb4ac2f4e1f693c758`
 
 ### Source evidence
 
@@ -493,3 +509,6 @@ Note 489 retains the date 1834 shared by the checked print, HTML and TXT witness
 - `new-scan-checks/note500-447.jpg`: `2d59b61f9cd0ad4d9651921240a0cfecce85de696b276d306c90c288919c9ddf`
 - `new-scan-checks/note503-detail.png`: `0fac6d805d9850ed94d1ed6e8b8104baab451f56aed5576e657e2501a49003d2`
 - `new-scan-checks/note500-punctuation-detail.png`: `e4f0ed86d246b2cd002715e581967daa3863d2d8e1cfc6c607661933dd613b8d`
+
+- `new-scan-checks/note532-verification.json`: `1e1a43d232b398e1cc0d85bd85fc39aa564fc564b680eb5c07dc1be804df20d4`
+- `new-scan-checks/note532-458.jpg`: `c504208bc20678f4300e57cd5bacdbaf951b74c47bddc015794b703e13874cab`

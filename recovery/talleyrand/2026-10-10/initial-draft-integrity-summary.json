@@ -1,0 +1,54 @@
+{
+  "checked_at_utc": "2026-10-10T11:59:55.729518+00:00",
+  "source_unit_count": 1636,
+  "distinct_translation_count": 1636,
+  "draft_file_count": 186,
+  "missing_ids": [],
+  "unexpected_ids": [],
+  "duplicate_ids": {},
+  "printed_note_head_count": 566,
+  "printed_note_reference_count": 566,
+  "printed_note_numbers_complete_1_to_566": true,
+  "each_printed_note_referenced_once": true,
+  "digital_editorial_notes_separate_count": 2,
+  "merged_title_aliases": {
+    "v01-u000001": [
+      "v01-u000002",
+      "v01-u000003"
+    ],
+    "v01-u000004": [
+      "v01-u000005",
+      "v01-u000006",
+      "v01-u000007"
+    ],
+    "v01-u000012": [
+      "v01-u000013",
+      "v01-u000014"
+    ],
+    "v01-u000100": [
+      "v01-u000101",
+      "v01-u000102"
+    ]
+  },
+  "scan_rights_unit_included": true,
+  "section_counts": {
+    "front_matter": 9,
+    "preface": 84,
+    "memoirs_half_title": 1,
+    "memoirs_authorial_opening": 1,
+    "memoirs": 920,
+    "notes": 589,
+    "appendix_bacourt_vitrolles": 18,
+    "contents": 14
+  },
+  "all_units_initially_semantically_audited": true,
+  "root_full_volume_reread_complete": false,
+  "html_render_and_link_verification_complete": false,
+  "limitations": [
+    "Integrity checks do not constitute a second whole-volume semantic reread.",
+    "All source historical claims are not independently certified.",
+    "Comparison facsimile has only bounded inspected locations; no full diplomatic collation is claimed.",
+    "No rendered HTML is examined by this report."
+  ],
+  "record_kind": "Publication-safe summary of complete initial draft integrity checks"
+}
