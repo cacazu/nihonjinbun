@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-10-10T10:50:59.688023+00:00",
+  "note_number": 1,
+  "status": "translation_clear_nested_voice_mapping_for_assembly",
+  "editorial_framing": [
+    "v01-u001058",
+    "v01-u001063"
+  ],
+  "quoted_louis_xviii_letter": [
+    "v01-u001059",
+    "v01-u001060",
+    "v01-u001061",
+    "v01-u001062"
+  ],
+  "source_text_hashes": {
+    "v01-u001058": "1560dd1f1adf1ca5095c37336909642a20883622c273e5da046caf409bbf4659",
+    "v01-u001059": "00805da0602c5d5c71d5e1204cc596ecd92748c78d8fc41aa0716e52309234ae",
+    "v01-u001060": "202351f7be2b9b8d67db859890be55bcc851d30b03e7c850c572f98f8767ff72",
+    "v01-u001061": "aa1c89ee264ca0b842a668022b8b9329503aaca6d00be540a070225621278ca6",
+    "v01-u001062": "29c2c2701e23ffa71e008492f908cfed8d1d54d7f8090cfc12435e7f7c7d4d89",
+    "v01-u001063": "4bd7d48fa685458241932c58ad96c3d11abdaed19bf42ca2dcdc749500b4837f"
+  },
+  "caveat": "Canonical voice metadata says editorial at note-container level; these four units require nested quoted royal voice in display. Original note number remains 1."
+}

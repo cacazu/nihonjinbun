@@ -1,6 +1,6 @@
 # Talleyrand manuscript drafts — incomplete
 
-This checkpoint preserves 1037 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
+This checkpoint preserves 1086 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
 
 - `001-new-draft.json`: 20 newly drafted front-matter and early volume 1 entries, including units 17–26.
 - `002-new-draft.json`: newly drafted volume 1 units 27–37.
@@ -128,8 +128,12 @@ This checkpoint preserves 1037 Japanese draft entries byte-for-byte as supplied 
 - `123-root-draft.json`: newly drafted volume 1 units 1013–1018.
 - `124-root-draft.json`: newly drafted volume 1 units 1019–1032.
 - `125-root-draft.json`: newly drafted volume 1 units 1033–1045.
+- `126-root-draft.json`: newly drafted volume 1 units 1046–1066.
+- `127-root-draft.json`: newly drafted volume 1 units 1067–1074.
+- `128-root-draft.json`: newly drafted volume 1 units 1075–1084.
+- `129-root-draft.json`: newly drafted volume 1 units 1085–1094.
 
-Batches 001–039 are replacement work, not recovered earlier text. Batches 041–125 are likewise new work. All 126 draft files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 1037 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. This is partial-volume coverage only. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
+Batches 001–039 are replacement work, not recovered earlier text. Batches 041–129 are likewise new work. All 130 draft files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 1086 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. This is partial-volume coverage only. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
 
 Preservation checks covered JSON syntax, incomplete status, nonempty Japanese text fields, unique entry IDs, source-hash presence and byte checksums. They do not certify full-volume accuracy or completeness. Before incorporation into canonical YAML, complete the remaining source alignment, review and required full reread. This folder is outside `translations/`; the catalog and canonical translations are unchanged.
 
@@ -143,6 +147,8 @@ Preservation checks covered JSON syntax, incomplete status, nonempty Japanese te
 The added `units-763-801-809-verification.json` and its three referenced images document unit 801's printed 27 October versus Gutenberg's 21 October, the differing Duroc titles, and the shared preposition in unit 809. Draft 093 retains a separate disclosure for its scan-based date correction. The comparison-witness limitation remains applicable.
 
 `unit-857-verification.json` and its image confirm that HTML, TXT and comparison print all retain the 11 April arrival and departure on the 10th. The chronological tension is preserved, not silently emended. `source-evidence/unit-865-referent-evidence.json` records the contextual evidence for the brigade referent, explicitly distinguishing inference from textual emendation.
+
+`source-evidence/note-1-nested-voice.json` records the quoted royal letter nested within editorial framing in printed note 1; the printed note number remains unchanged.
 
 ## SHA-256 checksums
 
@@ -272,6 +278,10 @@ The added `units-763-801-809-verification.json` and its three referenced images 
 - `123-root-draft.json`: `54d741c55cd1f0aa58f117990f961aaa62f7de92a9d2bc2340e0e2f71ef2e7c5`
 - `124-root-draft.json`: `6a72301ff15433ebfa22c64296dd33c13201269e60c089b483aaf55e1dab8bb8`
 - `125-root-draft.json`: `d7cca87bdef71a43ec7e543371923caba3c370b9c45f8015c4d616f6feb853b2`
+- `126-root-draft.json`: `8e326323a5a6e00be654f1722cc1df3569eed994c7adc4fa6d687e3f725f80fe`
+- `127-root-draft.json`: `e41f264e0671d345abde70eb5722692b9dc92de1ed8e8b5c2879c89c3326b10e`
+- `128-root-draft.json`: `a63d6c8cc540964d7d13c93e0bcdb19630aa6e1aa82813673e0025bff5a27ffd`
+- `129-root-draft.json`: `cbdd83c3594fe7e66dd44b560c44dd4835000e55f2e1425eab53caac6c24e9c2`
 
 ### Source evidence
 
@@ -305,3 +315,5 @@ The added `units-763-801-809-verification.json` and its three referenced images 
 - `source-evidence/new-scan-checks/unit-857-verification.json`: `ac36c8ca288da15b4438af72f068733054733bc262573c17cd075dbe1e0b8ed2`
 - `source-evidence/new-scan-checks/u857-408.jpg`: `a4921e88dbba64cfb22d1e735cee24933ad87f5b8f95d78d639069e8f8a8ad23`
 - `source-evidence/unit-865-referent-evidence.json`: `1bbca4da2039c0768b05d952f7e5937f8b697bf360ce5ca37a4caeeec687812b`
+
+- `source-evidence/note-1-nested-voice.json`: `98358b6f241644d47f11df5652f6f070b25306b3419f90930c74814bf86dad0d`
