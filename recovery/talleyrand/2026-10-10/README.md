@@ -1,6 +1,6 @@
 # Talleyrand manuscript drafts — incomplete
 
-This checkpoint preserves 846 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
+This checkpoint preserves 883 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
 
 - `001-new-draft.json`: 20 newly drafted front-matter and early volume 1 entries, including units 17–26.
 - `002-new-draft.json`: newly drafted volume 1 units 27–37.
@@ -102,19 +102,27 @@ This checkpoint preserves 846 Japanese draft entries byte-for-byte as supplied o
 - `097-root-draft.json`: newly drafted volume 1 units 837–842.
 - `098-root-draft.json`: newly drafted volume 1 units 843–848.
 - `099-root-draft.json`: newly drafted volume 1 units 849–854.
+- `100-root-draft.json`: newly drafted volume 1 units 855–860.
+- `101-root-draft.json`: newly drafted volume 1 units 861–866.
+- `102-root-draft.json`: newly drafted volume 1 units 867–873.
+- `103-root-draft.json`: newly drafted volume 1 units 874–879.
+- `104-root-draft.json`: newly drafted volume 1 units 880–885.
+- `105-root-draft.json`: newly drafted volume 1 units 886–891.
 
-Batches 001–039 are replacement work, not recovered earlier text. Batches 041–099 are likewise new work. All 100 draft files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 846 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. This is partial-volume coverage only. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
+Batches 001–039 are replacement work, not recovered earlier text. Batches 041–105 are likewise new work. All 106 draft files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 883 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. This is partial-volume coverage only. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
 
 Preservation checks covered JSON syntax, incomplete status, nonempty Japanese text fields, unique entry IDs, source-hash presence and byte checksums. They do not certify full-volume accuracy or completeness. Before incorporation into canonical YAML, complete the remaining source alignment, review and required full reread. This folder is outside `translations/`; the catalog and canonical translations are unchanged.
 
 
 ## Supporting source evidence
 
-`source-evidence/new-scan-checks/` preserves 18 comparison-scan page images, four scan-provenance JSON files, and a targeted historical-clarification report. The comparison scan is not established as the exact exemplar used by Gutenberg. Unit 591 preserves the printed negative with its interpretive difficulty disclosed; unit 598 documents the comparison reading `pertes` against Gutenberg's `perles`. Separate evidence documents unit 614 as editorial continuation of note 322, and unit 929 as editorial continuation after signed authorial note 500. The latter is evidence for future placement, not a claim that unit 929 has been translated. Separate historical evidence for units 669 and 682 supports the translator notes added to batches 074 and 076; the narrator's wording remains distinct from those notes. Base source files are unchanged. Paths recorded inside the original provenance files are preserved as supplied; corresponding images are included in this folder.
+`source-evidence/new-scan-checks/` preserves 19 comparison-scan page images, five scan-provenance JSON files, and a targeted historical-clarification report. The comparison scan is not established as the exact exemplar used by Gutenberg. Unit 591 preserves the printed negative with its interpretive difficulty disclosed; unit 598 documents the comparison reading `pertes` against Gutenberg's `perles`. Separate evidence documents unit 614 as editorial continuation of note 322, and unit 929 as editorial continuation after signed authorial note 500. The latter is evidence for future placement, not a claim that unit 929 has been translated. Separate historical evidence for units 669 and 682 supports the translator notes added to batches 074 and 076; the narrator's wording remains distinct from those notes. Base source files are unchanged. Paths recorded inside the original provenance files are preserved as supplied; corresponding images are included in this folder.
 
 `source-evidence/digital-editorial-exclusions.json` preserves Gutenberg digital-editorial material, including Roman-numbered notes [i] and [ii]. Unit 770's [i] marker refers to this modern digital apparatus, not one of the 566 printed notes. Reader output must keep its attribution and destination distinct. This checkpoint does not claim those digital notes have been translated.
 
 The added `units-763-801-809-verification.json` and its three referenced images document unit 801's printed 27 October versus Gutenberg's 21 October, the differing Duroc titles, and the shared preposition in unit 809. Draft 093 retains a separate disclosure for its scan-based date correction. The comparison-witness limitation remains applicable.
+
+`unit-857-verification.json` and its image confirm that HTML, TXT and comparison print all retain the 11 April arrival and departure on the 10th. The chronological tension is preserved, not silently emended. `source-evidence/unit-865-referent-evidence.json` records the contextual evidence for the brigade referent, explicitly distinguishing inference from textual emendation.
 
 ## SHA-256 checksums
 
@@ -218,6 +226,12 @@ The added `units-763-801-809-verification.json` and its three referenced images 
 - `097-root-draft.json`: `c045252ce2e7c497df340bbc39f6a4497faf63ad4de25a27bca21b99000b31e7`
 - `098-root-draft.json`: `6d8377c48f25e9791d88f44c74d3eb382aa40fc268cfdaa6bed55ff6b1bdd45d`
 - `099-root-draft.json`: `8a2ad50285ed83e4705171decfd0b239f136a07bdffc91fe61cb3f2e4c936e37`
+- `100-root-draft.json`: `ce60cc18529303ceae4c03ffdf0f624b22676f69115c05b9d8223b911f2d53e9`
+- `101-root-draft.json`: `bc91c64497da27506fa269ae875ec2c15e10114cca0496de04b69c26a64e12fe`
+- `102-root-draft.json`: `d1999855b1de218941f0322f86c15ddfe59bfade455d59f74491df851f6d25da`
+- `103-root-draft.json`: `9ccf285e2d1737683a41555948bf96e79052ec064d15b33d764d94d1d84190e5`
+- `104-root-draft.json`: `18ae2c08df1198470b3d51d4675f2c9c99bc9c1ab9f14db1ab54a0f92221cad2`
+- `105-root-draft.json`: `0dfce733d04168c9b7648b85192305b9b0ba5d331bb969bfb957985c150aa79e`
 
 ### Source evidence
 
@@ -247,3 +261,7 @@ The added `units-763-801-809-verification.json` and its three referenced images 
 - `source-evidence/new-scan-checks/u763-371.jpg`: `67c5da29f0bb6fb86b07cc59f6230ebb4762cf5ab03c857c11537d80e04549f5`
 - `source-evidence/new-scan-checks/u801-389.jpg`: `a00acf1dafe67992880bc6361973edc452d0924303d47bfcf8a145500e2f372d`
 - `source-evidence/new-scan-checks/units-763-801-809-verification.json`: `4d48b3900e363d5cb0ed7e6c9695fd742e9a4b9bef19fe23acf3bf08a3c8c33d`
+
+- `source-evidence/new-scan-checks/unit-857-verification.json`: `ac36c8ca288da15b4438af72f068733054733bc262573c17cd075dbe1e0b8ed2`
+- `source-evidence/new-scan-checks/u857-408.jpg`: `a4921e88dbba64cfb22d1e735cee24933ad87f5b8f95d78d639069e8f8a8ad23`
+- `source-evidence/unit-865-referent-evidence.json`: `1bbca4da2039c0768b05d952f7e5937f8b697bf360ce5ca37a4caeeec687812b`
