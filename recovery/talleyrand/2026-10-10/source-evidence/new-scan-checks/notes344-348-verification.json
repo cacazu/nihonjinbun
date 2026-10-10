@@ -1,0 +1,36 @@
+{
+  "findings": [
+    {
+      "unit_id": "v01-u001411",
+      "gutenberg_note": 344,
+      "scan_local_note": 1,
+      "unit_text_sha256": "2ba65efb183489de15b72d1bf4455e9c1eb14743eb6c62865878039c12fb1822",
+      "html_reading": "26 août 1799",
+      "txt_reading": "26 août 1799",
+      "scan_reading": "26 août 1799",
+      "pdf_physical_page": 309,
+      "printed_page": 268,
+      "evidence_image": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/note344348-309.jpg",
+      "evidence_image_sha256": "b00b5037c3b0edc1ed092d3cc5d2d3d26850bf485c1847f6277f6cb84b1ce7fa",
+      "classification": "All checked witnesses agree; no digital-only variant established."
+    },
+    {
+      "unit_id": "v01-u001415",
+      "gutenberg_note": 348,
+      "scan_local_note": 1,
+      "unit_text_sha256": "b5dcf87536fee39a9fac74e933384ed44bf057b9e843f5eea5c701b91ad31b2a",
+      "html_reading": "30 prairial (mai 1799)",
+      "txt_reading": "30 prairial (mai 1799)",
+      "scan_reading": "30 prairial (mai 1799)",
+      "pdf_physical_page": 311,
+      "printed_page": 270,
+      "evidence_image": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/note344348-311.jpg",
+      "evidence_image_sha256": "1fedc2b6001411ee5b92940707106a4032c3a44dc5bb9466b65b4e692a5088f1",
+      "classification": "All checked witnesses agree; no digital-only variant established."
+    }
+  ],
+  "verification": "Direct visual inspection and exact preserved official TXT/HTML reads. No historical harmonization.",
+  "source_scan_url": "https://be1830.be/onewebmedia/M%C3%A9moires_du_prince_de_Talleyrand_I.pdf",
+  "source_translation_changes": "None",
+  "uploads": "None"
+}
