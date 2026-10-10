@@ -1,6 +1,6 @@
 schema_version: '1.0'
 title: 原文・日本語対訳データ集
-updated: '2026-10-09'
+updated: '2026-10-10'
 format: UTF-8 YAML
 description: 原文と日本語訳を固定IDで対応付けた翻訳データ。章・出典頁・注記・未解決事項を保持。HTMLは別の閲覧用表現。
 editorial_status: AIによる翻訳・照合を含む。専門家による校訂版ではない。原文判読や歴史的編者の省略等に由来する留保は各ファイルに明示。
@@ -133,5 +133,11 @@ works:
   coverage_note: 一九一〇年版の前付・序文・全二部七章・原注・索引・印刷所表示。674対訳単位。原書の頁別脚注番号と索引の参照頁を保持。
   sha256: 7951304e8b745a61a99fe58ebc85163b1559602f7c6180a036c18d466eb23e79
   source_and_rights: 1910年米国刊原著は米国でパブリックドメイン。日本語新訳の再利用ライセンスは未指定。底本・校訂・留保はYAML内に記載。
+- file: translations/babbitt/spanish-character-and-other-essays-en-ja.yaml
+  title: スペイン人の気質、ほか論考
+  work_id: spanish-character-1940
+  coverage_note: 一九四〇年版の前付・序文・全十四論考・原注・著作目録・全著作索引。1857対訳単位。頁別脚注番号と複数著作にわたる索引の略号・参照頁を保持。
+  sha256: 43353a28470d3775a8821f8015a77f8e963abfad3ecad6d19d0b79fdd82a70de
+  source_and_rights: 一九四〇年版原著の米国パブリックドメイン判断は底本所蔵館の権利確認と更新記録調査に基づく。日本語新訳の再利用ライセンスは未指定。
 in_progress_not_included: []
 packaging_note: 本リポジトリは対訳YAMLを収録する。YAML内の図版・底本PDF・制作時分割データへの相対参照は由来の記録であり、それらのファイルやHTMLを本リポジトリへ同梱したことを意味しない。底本には各資料の公開出典URLからアクセスする。
