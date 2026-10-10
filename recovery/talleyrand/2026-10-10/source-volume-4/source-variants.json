@@ -1,0 +1,24 @@
+{
+  "scope": "Modern-vs-files-route HTML full book text exhaustively compared after whitespace normalization and wrapper removal. Selected HTML/TXT differences observed; exhaustive HTML/TXT collation is not claimed.",
+  "primary_inventory": "HTML",
+  "format_differences": [
+    "TXT interleaves historical notes near references; HTML collects notes after the appendix and before contents.",
+    "TXT marks emphasis with underscores and superscripts as text; HTML retains inline elements.",
+    "HTML retains page-marker anchors and enlargement control, absent from TXT.",
+    "Note 296 is an English/French parallel table in HTML; its logical cell boundaries are separately inventoried in table-structures.json."
+  ],
+  "observed_variants": [
+    {
+      "kind": "digital_transcriber_notice_differs",
+      "html_notice": "Note de transcription: Les erreurs clairement introduites par le typographe ont été corrigées. L'orthographe d'origine a été conservée et n'a pas été harmonisée. Les numéros des pages blanches n'ont pas été repris dans ce livre électronique.",
+      "txt_notice": "Note de transcription: Les erreurs clairement introduites par le typographe ont été corrigées. L'orthographe d'origine a été conservée et n'a pas été harmonisée.",
+      "action": "Preserve both exact downloaded files; only HTML digital notice separately inventoried."
+    }
+  ],
+  "encodings": {
+    "source.html": "UTF-8",
+    "source.txt": "UTF-8",
+    "source-legacy.html": "ISO-8859-1 declared in HTML head",
+    "source-legacy.txt": "ISO-8859-1 declared in Gutenberg header"
+  }
+}

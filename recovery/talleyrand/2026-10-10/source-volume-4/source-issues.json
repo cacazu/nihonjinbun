@@ -1,0 +1,199 @@
+{
+  "scope": "Specific observed source issues, editorial qualifications and preservation decisions; not an exhaustive fact-check or printed-facsimile collation.",
+  "page_marker_check": "All source labels match their anchors. Roman I–IV and every numeric anchor 3–500 occur exactly once; no absent marker inside that recorded numeric range.",
+  "issues": [
+    {
+      "id": "V4-SRC-001",
+      "kind": "apparent_date_anomaly",
+      "unit_id": "v04-u001109",
+      "source_xpath": "/html/body/p[1020]",
+      "text": "Mardi, 10 septembre 1831.",
+      "text_sha256": "9a1daad344cafb53837f6b0c93ed7065224b25ff63bb717974210d223941578a",
+      "evidence": "The same letter begins in v04-u001106 with lundi, 19 septembre 1831 and the following paragraph says it resumes the previous day’s letter.",
+      "calendar_check": {
+        "basis": "Proleptic Gregorian calendar calculation; this checks weekday/date consistency, not a printed-facsimile reading.",
+        "date": "1831-09-10",
+        "written_weekday_french": "mardi",
+        "computed_weekday_english": "Saturday"
+      },
+      "current_txt_contains_same_date": true,
+      "action": "Retain the exact French reading. Flag the inconsistency without silently replacing the date; historical resolution requires source/facsimile collation."
+    },
+    {
+      "id": "V4-SRC-002",
+      "kind": "apparent_date_anomaly",
+      "unit_id": "v04-u001530",
+      "source_xpath": "/html/body/p[1382]",
+      "text": "«Paris, lundi 7 février 1832.",
+      "text_sha256": "fbad8f40f4ca74c45fe056406e9f6c81fb417a8b84b55e6244da8fbccdcc3cd9",
+      "evidence": "Madame Adélaïde’s letter date gives Monday 7 February 1832.",
+      "calendar_check": {
+        "basis": "Proleptic Gregorian calendar calculation; this checks weekday/date consistency, not a printed-facsimile reading.",
+        "date": "1832-02-07",
+        "written_weekday_french": "lundi",
+        "computed_weekday_english": "Tuesday"
+      },
+      "current_txt_contains_same_date": true,
+      "action": "Retain the exact French reading. Flag the inconsistency without silently replacing the date; historical resolution requires source/facsimile collation."
+    },
+    {
+      "id": "V4-SRC-003",
+      "kind": "apparent_date_anomaly",
+      "unit_id": "v04-u001751",
+      "source_xpath": "/html/body/p[1571]",
+      "text": "«Paris, ce vendredi 7 juin 1832.",
+      "text_sha256": "4aec3291b91a39d35cb88d87b77e3e90046c4857ee008055f24c0f1fedd666a8",
+      "evidence": "Louis-Philippe’s letter date gives Friday 7 June 1832.",
+      "calendar_check": {
+        "basis": "Proleptic Gregorian calendar calculation; this checks weekday/date consistency, not a printed-facsimile reading.",
+        "date": "1832-06-07",
+        "written_weekday_french": "vendredi",
+        "computed_weekday_english": "Thursday"
+      },
+      "current_txt_contains_same_date": true,
+      "action": "Retain the exact French reading. Flag the inconsistency without silently replacing the date; historical resolution requires source/facsimile collation."
+    },
+    {
+      "id": "V4-SRC-004",
+      "kind": "historical_editorial_correction",
+      "source_unit_id": "v04-u001120",
+      "note_unit_ids": [
+        "v04-u002273",
+        "v04-u002274"
+      ],
+      "note_anchor": "Footnote_289",
+      "evidence": "The body says protocole signé le 19; note 289 explicitly says signé le 15 septembre et non le 19.",
+      "action": "Keep both body and corrective note, with their separate voices; do not rewrite body date from the note."
+    },
+    {
+      "id": "V4-SRC-005",
+      "kind": "edition_editorial_scope",
+      "unit_id": "v04-u001917",
+      "note_anchor": "Footnote_6",
+      "evidence": "[6] Le prince de Talleyrand au comte Sébastiani.—Cette lettre est datée du 7 janvier dans le texte des archives.—Nous continuerons comme précédemment à indiquer les variantes des deux textes. On remarquera que M. de Talleyrand n'a généralement inséré ici que des fragments de sa correspondance avec M. Sébastiani. Il n'entrait pas dans notre plan de rétablir en note le texte intégral des dépêches, et nous nous en sommes tenus aux variantes existant dans les passages cités. Des points de suspension indiqueront les coupures.",
+      "action": "Retain source ellipses, selected excerpts and archival variant notes. Completeness of this package refers to this published/source edition, not restoration of every full underlying diplomatic dispatch."
+    },
+    {
+      "id": "V4-SRC-006",
+      "kind": "reported_document_drafting_authorship",
+      "framing_unit_id": "v04-u001811",
+      "heading_unit_id": "v04-u001813",
+      "document_unit_ids": [
+        "v04-u001814",
+        "v04-u001815",
+        "v04-u001816",
+        "v04-u001817",
+        "v04-u001818",
+        "v04-u001819",
+        "v04-u001820",
+        "v04-u001821",
+        "v04-u001822"
+      ],
+      "note_anchor": "Footnote_386",
+      "evidence": "»J'envoie à Mademoiselle une pièce qui l'intéressera et dont, hors le roi et elle, personne ne doit avoir connaissance. Faite au nom du prince d'Orange, c'est lord Grey qui en est le véritable auteur. Il y met un tel prix et un intérêt tel, que nous n'avons pas pu nous opposer à ce que cette nouvelle tentative fût essayée. Si elle réussit, les choses s'arrangeront d'après les premiers souhaits du roi; si elle manque son effet, nous aurons le champ plus libre pour tout ce que nous croirons bon et utile de proposer et d'obtenir...»",
+      "action": "Keep the prince of Orange as the documentary voice and record that Talleyrand’s covering letter attributes drafting to Lord Grey. Do not flatten the enclosing Talleyrand letter or note into the enclosed document."
+    },
+    {
+      "kind": "source_date_disagreement",
+      "evidence": [
+        {
+          "unit_id": "v04-u002233",
+          "source_xpath": "/html/body/div[5]/div/p[320]",
+          "text_sha256": "76a16bebf8f452ce186c17b0ef7e8c3821aecaf92442380ef8b2b7f44ec0b172",
+          "quote": "Ensuite de ce protocole une convention fut signée le 16 décembre 1831 entre les représentants des quatre cours et la Belgique, qui ordonnait la démolition des forteresses de Menin, Ath, Mons, Philippeville et Marienbourg. Les autres forteresses devaient être entretenues en bon état par la Belgique."
+        },
+        {
+          "unit_id": "v04-u002319",
+          "source_xpath": "/html/body/div[5]/div/p[400]",
+          "text_sha256": "0d79e1f2220908e7c35d7a890762cc5edf029d078f64d0272f6fc1d7a0e47f3c",
+          "quote": "Or, au cours de la négociation engagée à Londres sur cette question des forteresses, le général Goblet, plénipotentiaire belge, voyant la répugnance de la conférence à admettre le démantèlement de Tournai et de Charleroi, laissa substituer à ces places celles infiniment moins importantes de Philippeville et de Marienbourg. Le cabinet français protesta vivement, se fondant sur l'engagement formel pris le 8 septembre par le gouvernement belge. A quoi le roi Léopold répliqua que cette convention n'était pas un engagement ferme, mais de simples préliminaires qui n'engageaient à rien. La France dut accepter le fait accompli. La convention du 14 décembre entre la Belgique d'une part et les quatre cours de l'autre consacra cette substitution.—Les pages qui vont suivre développeront la suite de ces négociations. Voir également sur cette grave question des forteresses: Une Mission à Londres en 1831 par le général Goblet."
+        },
+        {
+          "unit_id": "v04-u002321",
+          "source_xpath": "/html/body/div[5]/div/p[402]",
+          "text_sha256": "2d670c2f3550a4c4c0d3ca06ef815e40bf7aaf4e39c9d793592f1276a0abad6f",
+          "quote": "[324] Il ne sera peut-être pas inutile de compléter cet exposé en résumant les diverses phases de la négociation des forteresses depuis la convention du 14 décembre jusqu'au règlement définitif de la question. C'est qu'en effet cette convention, loin de clore la discussion, la ranima. Les lettres qui vont suivre nous mettent au fait des péripéties du débat, mais on en suivrait difficilement le fil si l'on n'en connaissait par avance les lignes principales."
+        }
+      ],
+      "handling": "Preserve source text verbatim; flag without silently correcting or assigning a cause.",
+      "comment": "Note 259 says the fortress convention was signed 16 December 1831, while notes 322 and 324 explicitly refer to the convention of 14 December. This is an internal source disagreement, not resolved here.",
+      "id": "V4-SRC-007"
+    },
+    {
+      "kind": "biographical_date_anomaly",
+      "evidence": [
+        {
+          "unit_id": "v04-u002376",
+          "source_xpath": "/html/body/div[5]/div/p[457]",
+          "text_sha256": "47a66e0a0b74d6ae8c618c07e937528e698be784411724e0b2cd8447e6a5a2db",
+          "quote": "[373] Napoléon-Hector Soult, marquis, puis duc de Dalmatie, fils du maréchal. Né en 1801, il servit dans l'armée, devint capitaine d'artillerie, mais donna sa démission en 1830 et entra dans la diplomatie. Il fut successivement accrédité à Stockholm (1831), à la Haye (1832), à Turin et à Berlin. En 1813 il fut élu député. Il mourut en 1857."
+        }
+      ],
+      "handling": "Preserve source text verbatim; flag without silently correcting or assigning a cause.",
+      "comment": "Note 373 states a birth in 1801, resignation in 1830 and appointments in 1831–1832, then “En 1813 il fut élu député.” The early date is conspicuous and must not be silently changed.",
+      "id": "V4-SRC-008"
+    },
+    {
+      "kind": "wording_appearance",
+      "evidence": [
+        {
+          "unit_id": "v04-u001832",
+          "source_xpath": "/html/body/div[4]/p[35]",
+          "text_sha256": "5ce8dcf98eac5c1032161b1ab1b1cec3aa4387e09b323dc26ac785750fb87089",
+          "quote": "»L'arrivée de M. de Flahaut, qui a pu répondre à toutes mes questions et me dire de bonnes paroles sur le Palais-Royal et sur Paris, m'a fait grand plaisir. 11 a trouvé nos affaires de Belgique plus avancées qu'il ne le supposait, et il a déjà pu s'assurer que cette neutralité si péniblement obtenue apparaissait à tous les bons esprits, au milieu de toutes les discussions actuelles, comme la seule solution du grand problème. Je suis convaincu que l'esprit prompt et délicat de Mademoiselle en aura apprécié tous les avantages. Je crois, en effet, que cette mesure était la seule qui pût nous laisser avec la paix et la seule par laquelle nous désintéressons l'Angleterre sans établir sa suprématie. Lui abandonner une situation matérielle en Belgique, ce serait lui donner au nord un nouveau Gibraltar et nous nous trouverions un jour quelconque vis-à-vis d'elle clans une position analogue à celle de la péninsule. Un semblable expédient sacrifierait d'une manière trop dangereuse l'avenir au présent et nous coûterait un prix qu'on pourrait tout au plus accorder à dix batailles perdues. La réunion du reste de la Belgique serait un faible équivalent pour ce premier pas sur le continent. Si la France avait besoin do s'étendre, c'est vers la ligne du Rhin qu'elle devrait porter ses regards; c'est là que ses vrais intérêts l'appellent, c'est là qu'il y a de la vraie puissance et d'utiles frontières à acquérir; mais aujourd'hui la paix vaut de beaucoup mieux que tout cela: la Belgique nous apporterait plus d'embarras que d'avantages, et les avantages, la neutralité nous les assure presque tous...»"
+        }
+      ],
+      "handling": "Preserve source text verbatim; flag without silently correcting or assigning a cause.",
+      "comment": "Source has numeric “11 a trouvé nos affaires…” rather than an ordinary pronoun. This is a source reading, not a parser artifact.",
+      "id": "V4-SRC-009"
+    },
+    {
+      "kind": "wording_appearance",
+      "evidence": [
+        {
+          "unit_id": "v04-u001908",
+          "source_xpath": "/html/body/div[4]/p[98]",
+          "text_sha256": "180d48550fff6dc3e590ab31dbfc644e614604c090e552c24ae0c9e888e749ad",
+          "quote": "»Les ratifications sont arrivées, elles sont conditionnelles; mais j'arrangerai cela, et je les rendrai simples par les déclarations que j'obtiendrai des Russes: du reste ne parlez pas de cela à personne du tout, parce que les ordres que je pourrais recevoir de quelque nature et de quelque personne qu'elles fussent, me gêneraient et je veux avoir fini vendredi. Mais pour cela il faut qu'on ne m'écrive pas; ainsi parfait et complet silence. L'espoir de vous voir le mois prochain me donne tous les moyens de ma jeunesse et de mon expérience pour les affaires dont je suis chargé et à la fin desquelles je veux arriver bien. Adieu je me tue peut-être, mais le réussirai. Je voudrais que tous les employés du gouvernement en fissent autant pour assurer la paix."
+        }
+      ],
+      "handling": "Preserve source text verbatim; flag without silently correcting or assigning a cause.",
+      "comment": "Source reads “Adieu je me tue peut-être, mais le réussirai.” Preserve the printed digital reading; do not repair “le”.",
+      "id": "V4-SRC-010"
+    },
+    {
+      "kind": "english_source_spellings",
+      "evidence": [
+        {
+          "unit_id": "v04-u000563",
+          "source_xpath": "/html/body/p[510]",
+          "text_sha256": "f883b9e993ed77a30d310df8239c2f83a6de2d8f68ca365a903494fd53235244",
+          "quote": "»I send herewith copies of the information which has reachen this government respecting the procedings of the French minister at Constantinople."
+        },
+        {
+          "unit_id": "v04-u000565",
+          "source_xpath": "/html/body/p[512]",
+          "text_sha256": "91f061f2a9fcaa58c5caf9c3afa170f8098251453393ac7d42250788305d5d6a",
+          "quote": "»I thereford forbear to offer any remarks on the character of the accompanyings papers, which I schall be obliged to you to return to me, after having read them."
+        }
+      ],
+      "handling": "Preserve source text verbatim; flag without silently correcting or assigning a cause.",
+      "comment": "English Grey letter visibly has “reachen”, “procedings”, “thereford”, “accompanyings”, and “schall”. Keep English original and French source rendering separately; do not silently regularize spelling.",
+      "id": "V4-SRC-011"
+    },
+    {
+      "kind": "wording_appearance",
+      "evidence": [
+        {
+          "unit_id": "v04-u001636",
+          "source_xpath": "/html/body/p[1474]",
+          "text_sha256": "f40722cb5204e85e1a284c8a9070201780a32804928299a2f77e3abd8ce41497",
+          "quote": "»Je reprends cette lettre que je n'ai pu finir hier.—Toutes les difficultés étrangères tendent à s'aplanir, car la roi a reçu hier soir la nouvelle que le pape consent à ce que nos troupes restent à Ancône le temps que les troupes autrichiennes resteront dans ses États; et le matin il avait reçu celle du rappel du cardinal Albani[357]. Je suis contente de vous donner ces bonnes nouvelles qui, j'espère, vous réconcilieront un peu avec notre expédition d'Ancône, et que, si vous ne croyez pas qu'elle ait fait du bien (manière de voir que quelques personnes de votre connaissance et de la mienne ont), vous conviendrez au moins qu'elle n'a pas fait de mal, et c'est beaucoup."
+        }
+      ],
+      "handling": "Preserve source text verbatim; flag without silently correcting or assigning a cause.",
+      "comment": "Source reads “car la roi a reçu hier soir”. No cause or correction is asserted.",
+      "id": "V4-SRC-012"
+    }
+  ]
+}

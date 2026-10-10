@@ -1,0 +1,59 @@
+[
+  {
+    "id": "v04-image-01",
+    "kind": "publisher_device",
+    "source_xpath": "/html/body/div[2]/img",
+    "source_line": 282,
+    "source_html": "<img alt=\"colophon\" height=\"182\" src=\"images/colophon.jpg\" title=\"\" width=\"267\" id=\"img_images_colophon.jpg\"/>",
+    "display_file": "images/colophon.jpg",
+    "full_size_files": [],
+    "alt": "colophon",
+    "edition_caption": null,
+    "caption_unit_id": null,
+    "assets": [
+      {
+        "file": "images/colophon.jpg",
+        "url": "https://www.gutenberg.org/files/31952/31952-h/images/colophon.jpg",
+        "bytes": 12619,
+        "sha256": "61c4fbd9c5e7fb6fe7d9c97b73a0a59faa56bd28d4e05361122dd441b1bdd161",
+        "width": 267,
+        "height": 182,
+        "format": "JPEG"
+      }
+    ]
+  },
+  {
+    "id": "v04-image-02",
+    "kind": "portrait",
+    "source_xpath": "/html/body/div[3]/img",
+    "source_line": 301,
+    "source_html": "<img alt=\"Talleyrand\" height=\"239\" src=\"images/talleyrand_s.jpg\" title=\"\" width=\"200\" id=\"img_images_talleyrand_s.jpg\"/>",
+    "display_file": "images/talleyrand_s.jpg",
+    "full_size_files": [
+      "images/talleyrand_b.jpg"
+    ],
+    "alt": "Talleyrand",
+    "edition_caption": "LE PRINCE DE TALLEYRAND Ambassadeur de France à Londres",
+    "caption_unit_id": "v04-u000019",
+    "assets": [
+      {
+        "file": "images/talleyrand_s.jpg",
+        "url": "https://www.gutenberg.org/files/31952/31952-h/images/talleyrand_s.jpg",
+        "bytes": 5309,
+        "sha256": "3ef123a1e15d03c2dd19c556aaef66c606a782a792696a5c11abfd58869a54ba",
+        "width": 200,
+        "height": 239,
+        "format": "JPEG"
+      },
+      {
+        "file": "images/talleyrand_b.jpg",
+        "url": "https://www.gutenberg.org/files/31952/31952-h/images/talleyrand_b.jpg",
+        "bytes": 11616,
+        "sha256": "0a552ed782ab2ef5925bd79a53b61e07a8d21ef9042a3bd8f25a5bcb00a561df",
+        "width": 304,
+        "height": 363,
+        "format": "JPEG"
+      }
+    ]
+  }
+]

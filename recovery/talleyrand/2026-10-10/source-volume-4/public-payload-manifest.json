@@ -1,0 +1,181 @@
+{
+  "schema": "talleyrand-volume-4-source-payload-v1",
+  "volume": 4,
+  "title": "Mémoires du prince de Talleyrand",
+  "edition": "Paris, Calmann Lévy, 1891; edited by Albert de Broglie",
+  "scope": "Bounded source preservation payload: official Gutenberg witnesses, stable text units, historical notes, correspondence and table structures, and original images. The French edition includes original English text. No Japanese translation is included.",
+  "copyright_scope": "Project Gutenberg identifies public-domain status in the USA. No separate worldwide copyright clearance is asserted.",
+  "gutenberg_id": 31952,
+  "pg_unit_count": 2421,
+  "pg_word_count": 140749,
+  "historical_note_count": 410,
+  "image_asset_count": 3,
+  "table_count": 2,
+  "full_facsimile_collation": false,
+  "public_metadata_copy_policy": "Provenance metadata is a filtered reader-facing copy. All other listed files are preserved byte for byte from the source snapshot.",
+  "source_cautions": [
+    "Current HTML/TXT witnesses are UTF-8; files-route witnesses are ISO-8859-1 and must not be silently recoded.",
+    "Both original English correspondence and supplied French renderings are preserved, including the parallel English/French table in note 296.",
+    "Completeness is relative to the saved Gutenberg HTML; no full printed-volume collation is claimed.",
+    "Conservative voice labels distinguish letter headings, memoir framing and historical note attribution; embedded quotations can have separate speakers."
+  ],
+  "file_count": 22,
+  "total_bytes": 10269615,
+  "files": [
+    {
+      "path": "catalog.html",
+      "bytes": 25463,
+      "sha256": "b87ec99e8c6b3b66ba76ad508262c75cfd9dac25b6ec11710346b2a9f638ad5c",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "digital-editorial-exclusions.json",
+      "bytes": 1365,
+      "sha256": "f197d083d2908018106cf765a998802798380b7d44a4fe66d6ed23a2b123c8c9",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "documents-inventory.json",
+      "bytes": 61399,
+      "sha256": "697bee90b612755fc4bad06177cf0e90baa9627beff9cf87d56453112c2a4350",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "illustrations-manifest.json",
+      "bytes": 1992,
+      "sha256": "2940fbb1ee0529eff8a4cf34a816570475c0646dfbb38e89cde1c91a7af09488",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "images/colophon.jpg",
+      "bytes": 12619,
+      "sha256": "61c4fbd9c5e7fb6fe7d9c97b73a0a59faa56bd28d4e05361122dd441b1bdd161",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "images/talleyrand_b.jpg",
+      "bytes": 11616,
+      "sha256": "0a552ed782ab2ef5925bd79a53b61e07a8d21ef9042a3bd8f25a5bcb00a561df",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "images/talleyrand_s.jpg",
+      "bytes": 5309,
+      "sha256": "3ef123a1e15d03c2dd19c556aaef66c606a782a792696a5c11abfd58869a54ba",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "marker-links.json",
+      "bytes": 290479,
+      "sha256": "e0b6e4eace868fcd91976c15e402e24a15febbdd1df0e79012b16072fbdd1a1a",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "marker-only-blocks.json",
+      "bytes": 1044,
+      "sha256": "09ee867ae812b9a45be4d486e962dca466e42bbd0bf02b083a4cb87e58e45a30",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "metadata.rdf",
+      "bytes": 21081,
+      "sha256": "3d1277e94af9d709fc1299f5436f33091d64609d37311730071c74b0316746bb",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "notes-inventory.json",
+      "bytes": 257406,
+      "sha256": "7213d80412dd0f54ac1f2852555e51b8efa321b6eae4479da7a8db94fac34b84",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "official-file-index.html",
+      "bytes": 1425,
+      "sha256": "6c6a694cf0a7d1b054837d2af907809b040fe9169764f8a4b96aa740b3f7c830",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "page-markers.json",
+      "bytes": 78897,
+      "sha256": "d8188193d38779349d8642d4d4a3293da837191e09955f5fa9f332cf81288ee3",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "provenance-manifest.json",
+      "bytes": 8334,
+      "sha256": "71d62c13c0029f29784e4ea5bc79dc5199a8f02a55d1357f2dd4e2fd236f8831",
+      "content_role": "filtered_reader_facing_source_metadata",
+      "preserved_byte_for_byte": false
+    },
+    {
+      "path": "source-issues.json",
+      "bytes": 15650,
+      "sha256": "de1f2dddf2255af79a2a93459acb28e1d574b899a19c94b9206121474d967fa6",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "source-legacy.html",
+      "bytes": 1041982,
+      "sha256": "93ced6ca7882f4d9369377192673552e495f916b6df79ed124b9168635079738",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "source-legacy.txt",
+      "bytes": 892449,
+      "sha256": "497af9a43b0e45795ee2b1498db84e120bf8b2e0a45d2140cff8d2df888c826f",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "source-variants.json",
+      "bytes": 1598,
+      "sha256": "0cf8714934376348c8ede7724c6be65c134632f7b7e209e31a06fcb61ccde9d9",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "source.html",
+      "bytes": 1055792,
+      "sha256": "56a6d19a8cafe0729fad18860065d0ba137a71f2b529d9145b86e7e844f66eea",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "source.txt",
+      "bytes": 918248,
+      "sha256": "085c4828b9fafc4b9cf1625a04dddf8958d7397610ff88c5a5b01e6f14bbc96d",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "table-structures.json",
+      "bytes": 37536,
+      "sha256": "a0b69b476cd0bcced7297a9f038a9bd7e3c774c3c9baf21d01bb0341a41b32f3",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    },
+    {
+      "path": "units.json",
+      "bytes": 5527931,
+      "sha256": "57e8ab736d7da640a224a0174055d2bc09b81e6a67f034013d52a4650ec13e1a",
+      "content_role": "preserved_source_content_or_evidence",
+      "preserved_byte_for_byte": true
+    }
+  ],
+  "manifest_self_excluded": true
+}

@@ -1,0 +1,229 @@
+{
+  "scope": "Supplementary cell boundaries for retained row units; all row text remains present once in units.json. Do not treat the French column as the English original or discard either.",
+  "tables": [
+    {
+      "id": "v04-table-01",
+      "source_xpath": "/html/body/div[5]/div/table",
+      "kind": "parallel_english_and_french_historical_press_excerpt",
+      "language_basis": "The paired English/French headings and explicit note 296 introduction identify the two parallel rendition columns.",
+      "rows": [
+        {
+          "unit_id": "v04-u002282",
+          "source_xpath": "/html/body/div[5]/div/table/tbody/tr[1]",
+          "cells": [
+            {
+              "column": 1,
+              "tag": "th",
+              "source_xpath": "/html/body/div[5]/div/table/tbody/tr[1]/th[1]",
+              "text": "HOUSE OF LORDS",
+              "text_sha256": "35104934f432bc5ca3680e9a9caf3160f0b2942271012cc6158ca75feddf8007",
+              "source_html": "<th>HOUSE OF LORDS</th>",
+              "source_html_sha256": "6ec4962412624ecc4652d9ff6075660a383a7a84934c9c3114cea870cb03aff5",
+              "language": "en"
+            },
+            {
+              "column": 2,
+              "tag": "th",
+              "source_xpath": "/html/body/div[5]/div/table/tbody/tr[1]/th[2]",
+              "text": "CHAMBRE DES LORDS",
+              "text_sha256": "3c0b091012c743f1cc0086077f7f14d766bfec3acdd21ba8e69e675b02ef4ac4",
+              "source_html": "<th>CHAMBRE DES LORDS</th>",
+              "source_html_sha256": "03d5a61eb92ab8d1bf7d874979d80d63e78a216e3042650f7a4f22f08a996a34",
+              "language": "fr"
+            }
+          ]
+        },
+        {
+          "unit_id": "v04-u002283",
+          "source_xpath": "/html/body/div[5]/div/table/tbody/tr[2]",
+          "cells": [
+            {
+              "column": 1,
+              "tag": "td",
+              "source_xpath": "/html/body/div[5]/div/table/tbody/tr[2]/td[1]",
+              "text": "Thursday, september 29th 1831.",
+              "text_sha256": "a9fcd6c1fad4d298d6038cfe991bb34106718604d92a5f9bffec026747585b20",
+              "source_html": "<td class=\"p2\"><i>Thursday, september 29<sup>th</sup> 1831.</i></td>",
+              "source_html_sha256": "228631a294b402840f919761c89ed3f83ef3bdffd05641265d6c18ed6723ad50",
+              "language": "en"
+            },
+            {
+              "column": 2,
+              "tag": "td",
+              "source_xpath": "/html/body/div[5]/div/table/tbody/tr[2]/td[2]",
+              "text": "Séance du jeudi 29 septembre 1831.",
+              "text_sha256": "b280527ee7158877ca3d4b7131f8658a7bc167fa3874a8f03c888cf5b23f41ad",
+              "source_html": "<td><i>Séance du jeudi 29 septembre 1831.</i></td>",
+              "source_html_sha256": "f14c5d8be130c7021273cf53ef9bb44fece31ef98d5e451e7850e1b12b53be56",
+              "language": "fr"
+            }
+          ]
+        },
+        {
+          "unit_id": "v04-u002284",
+          "source_xpath": "/html/body/div[5]/div/table/tbody/tr[3]",
+          "cells": [
+            {
+              "column": 1,
+              "tag": "td",
+              "source_xpath": "/html/body/div[5]/div/table/tbody/tr[3]/td[1]",
+              "text": "After lord Londonderry's attack on M. de Talleyrand, Lord Goderich said in the course of his speech:",
+              "text_sha256": "06f0fefffb2564ac7d00d350e4247a50eb9bb06603b8fa88e4a3a9374b685431",
+              "source_html": "<td class=\"p2\">After lord Londonderry's attack on&#13;\n   M. de Talleyrand, Lord Goderich said&#13;\n   in the course of his speech:</td>",
+              "source_html_sha256": "c80d9c9a7f6fc125ba1e419dde722da86a7a2057e991a30452790afbb42ba512",
+              "language": "en"
+            },
+            {
+              "column": 2,
+              "tag": "td",
+              "source_xpath": "/html/body/div[5]/div/table/tbody/tr[3]/td[2]",
+              "text": "Après l'attaque de lord Londonderry contre M. de Talleyrand, Lord Goderich dit dans la suite de son discours:",
+              "text_sha256": "386913df49f9251c3a7b52006faf8112e514169622be2a3ea2e081dc1d378cc2",
+              "source_html": "<td>Après l'attaque de lord Londonderry&#13;\n   contre M. de Talleyrand, Lord Goderich&#13;\n   dit dans la suite de son discours:</td>",
+              "source_html_sha256": "8b34b0ecce4b1e51dc679b98732c0f1e73508ad7d6a9910541251c6a059b2815",
+              "language": "fr"
+            }
+          ]
+        },
+        {
+          "unit_id": "v04-u002285",
+          "source_xpath": "/html/body/div[5]/div/table/tbody/tr[4]",
+          "cells": [
+            {
+              "column": 1,
+              "tag": "td",
+              "source_xpath": "/html/body/div[5]/div/table/tbody/tr[4]/td[1]",
+              "text": "Another part of his noble friend's speech to which he desired to advert, was that which related to prince de Talleyrand, whom his noble friend had supposed to have great influence upon the councils of this country, and whom, proceeding on that supposition and upon certain parts of that illustrious person's past life, this noble friend has thought he was justified in pursuing with the most acrimonious animadversion although an ambassador from a friendly power. (Loud cries of «hear») His noble friend, to do him justice, had not dipped his arrows so deeply in gall on this as on a former occasion; but still he must say that he had, even on this occasion, indulged in language the most imprudent and the most indiscreet that any public man could be betray'd into, with regard to an ambassador of a friendly power. (Cheers.) He would not willingly have touched upon this part of his noble friend's speech because he thought the sooner it was forgotten, the better; but then, if he were silent, with regard to it, it might be supposed that the government were of opinion that those animadversions were not misplaced; and of that, were the case, the plain inference was, that prince de Talleyrand ought not to be allowed to remain here. If the government entertained the same opinion as his noble friend of prince de Talleyrand, it would be their duty to represent to His Majesty the king of the French that they could not transact business with such a person. He felt it necessary, therefore, to speak as he had spoken respecting these aspersions of the character of an individual whose station ought to have shielded him from such an assault. (Cheers.) He knew that his noble friend would say that, because he protested against this indiscreet, imprudent and unjustifiable language, the government was truckling to France. Let him, however remind his noble friend, that prince de Talleyrand had been the Minister of the last two kings of France; that prince de Talleyrand had also had a large and important share in the deliberations of the congress of Vienna; the result of which deliberations the noble marquis thought so wise and so good. (Cheers.) Surely, the noble marquis might have thought of these facts; but if he had, he would never have inter'd upon the unjust as well as the invidious occupation of ransacking every portion of prince de Talleyrand's life and bringing-up in judgment against him as present deeds and acts of this day, transactions which had taken place when the circumstances of France were so different, and when no man could act as his reason or his inclination dictated; but as the strong and uncontrolable tide of affairs compelled him to fashion his course.",
+              "text_sha256": "2c78abd8f281dc6871a7c92e1ade12772f31f1d49d252f57617870e91065f918",
+              "source_html": "<td>Another part of his noble friend's&#13;\n    speech to which he desired to advert,&#13;\n    was that which related to prince de&#13;\n    Talleyrand, whom his noble friend had&#13;\n    supposed to have great influence upon&#13;\n    the councils of this country, and whom,&#13;\n    proceeding on that supposition and upon&#13;\n    certain parts of that illustrious person's&#13;\n    past life, this noble friend has thought&#13;\n    he was justified in pursuing with the&#13;\n    most acrimonious animadversion although&#13;\n    an ambassador from a friendly&#13;\n    power. (<i>Loud cries of «hear»</i>) His noble&#13;\n    friend, to do him justice, had not dipped&#13;\n    his arrows so deeply in gall on&#13;\n    this as on a former occasion; but still&#13;\n    he must say that he had, even on this&#13;\n    occasion, indulged in language the most&#13;\n    imprudent and the most indiscreet that&#13;\n    any public man could be betray'd into,&#13;\n    with regard to an ambassador of a&#13;\n    friendly power. (<i>Cheers.</i>) He would not&#13;\n    willingly have touched upon this part&#13;\n    of his noble friend's speech because he&#13;\n    thought the sooner it was forgotten,&#13;\n    the better; but then, if he were silent,&#13;\n    with regard to it, it might be supposed&#13;\n    that the government were of opinion&#13;\n    that those animadversions were not misplaced;&#13;\n    and of that, were the case, the&#13;\n    plain inference was, that prince de&#13;\n    Talleyrand ought not to be allowed to&#13;\n    remain here. If the government entertained&#13;\n    the same opinion as his noble&#13;\n    friend of prince de Talleyrand, it would&#13;\n    be their duty to represent to His Majesty&#13;\n    the king of the French that they could&#13;\n    not transact business with such a person.&#13;\n    He felt it necessary, therefore, to speak&#13;\n    as he had spoken respecting these aspersions&#13;\n    of the character of an individual&#13;\n    whose station ought to have shielded&#13;\n    him from such an assault. (<i>Cheers.</i>) He&#13;\n    knew that his noble friend would say&#13;\n    that, because he protested against this&#13;\n    indiscreet, imprudent and unjustifiable&#13;\n    language, the government was truckling&#13;\n    to France. Let him, however remind his&#13;\n    noble friend, that prince de Talleyrand&#13;\n    had been the Minister of the last two&#13;\n    kings of France; that prince de Talleyrand&#13;\n    had also had a large and important&#13;\n    share in the deliberations of the congress&#13;\n    of Vienna; the result of which deliberations&#13;\n    the noble marquis thought so&#13;\n    wise and so good. (<i>Cheers.</i>) Surely,&#13;\n    the noble marquis might have thought&#13;\n    of these facts; but if he had, he would&#13;\n    never have inter'd upon the unjust as&#13;\n    well as the invidious occupation of&#13;\n    ransacking every portion of prince de&#13;\n    Talleyrand's life and bringing-up in&#13;\n    judgment against him as present deeds&#13;\n    and acts of this day, transactions which&#13;\n    had taken place when the circumstances&#13;\n    of France were so different, and when&#13;\n    no man could act as his reason or his&#13;\n    inclination dictated; but as the strong&#13;\n    and uncontrolable tide of affairs compelled&#13;\n    him to fashion his course.</td>",
+              "source_html_sha256": "9311b2eb988bf964b1070357973decbc74a39aab64e74750cc8bf83491f496f5",
+              "language": "en"
+            },
+            {
+              "column": 2,
+              "tag": "td",
+              "source_xpath": "/html/body/div[5]/div/table/tbody/tr[4]/td[2]",
+              "text": "Il y a un autre point du discours de mon noble ami auquel je désire m'arrêter: c'est celui qui concerne le prince de Talleyrand qu'il suppose exercer une grande influence sur les ministres de ce pays; se fondant sur cette supposition et sur certains faits de la vie passée de cet illustre personnage, mon noble ami a pensé qu'il pouvait l'accabler des plus âpres censures quoiqu'il soit ambassadeur d'une puissance amie. (Cris, écoutez.) Pour être juste, je dois reconnaître que mon noble ami n'a pas aujourd'hui trempé ses flèches aussi profondément dans le fiel qu'il l'avait fait à une autre occasion; cependant je dois dire que dans cette occasion-ci même, il s'est permis le langage le plus imprudent et le plus inconvenant auquel un homme public puisse se laisser aller à l'égard de l'ambassadeur d'une puissance amie. (Applaudissements.) Je me serais volontiers abstenu de toucher à cette partie du discours de mon noble ami, parce que je pense qu'il vaut mieux qu'elle soit oubliée le plus tôt possible; mais alors si je gardais le silence sur ces attaques, on pourrait supposer que le gouvernement croit quelles ne sont pas mal fondées; et, si cela était le cas, la conséquence naturelle serait qu'on ne devrait pas supporter ici le prince de Talleyrand. Car si le gouvernement avait de lui la même opinion que mon noble ami, son devoir serait de représenter au roi des Français qu'il ne peut pas traiter les affaires avec une telle personne. J'ai donc jugé qu'il était nécessaire de parler comme je l'ai fait, au sujet d'attaques contre le caractère d'un individu dont la position aurait dû le mettre à l'abri. (Applaudissements.) Je sais que mon noble ami dira que le gouvernement est soumis à la France, parce que je proteste contre son inconvenant, imprudent et injustifiable langage. Mais je lui rappellerai que le prince de Talleyrand a été le ministre des deux derniers rois de France et qu'il a eu aussi une grande et importante part dans les délibérations du congrès de Vienne, dont le résultat est considéré comme si bon et si sage par le noble marquis. (Applaudissements.) Le noble marquis aurait certainement pu penser à ces faits; mais s'il y avait songé, il ne se serait pas livré à des recherches aussi injustes que haineuses sur toutes les époques de la vie du prince de Talleyrand, et il n'aurait pas été prendre pour base de son jugement, sur les faits actuels et les actes d'aujourd'hui, des faits qui avaient eu lieu lorsque les circonstances étaient si différentes en France, et lorsqu'aucun homme ne pouvait agir comme sa raison ou son inclination l'y aurait porté; mais comme le puissant et irrésistible courant des affaires le forçait a régler sa conduite.",
+              "text_sha256": "66c42d94635322d5edc57e69b8eeae23376661be5ead1b9cb69718eb9f9a755e",
+              "source_html": "<td>Il y a un autre point du discours de&#13;\n    mon noble ami auquel je désire m'arrêter:&#13;\n    c'est celui qui concerne le prince de&#13;\n    Talleyrand qu'il suppose exercer une&#13;\n    grande influence sur les ministres de ce&#13;\n    pays; se fondant sur cette supposition et&#13;\n    sur certains faits de la vie passée de&#13;\n    cet illustre personnage, mon noble ami&#13;\n    a pensé qu'il pouvait l'accabler des plus&#13;\n    âpres censures quoiqu'il soit ambassadeur&#13;\n    d'une puissance amie. (<i>Cris,&#13;\n    écoutez.</i>) Pour être juste, je dois reconnaître&#13;\n    que mon noble ami n'a pas aujourd'hui&#13;\n    trempé ses flèches aussi&#13;\n    profondément dans le fiel qu'il l'avait&#13;\n    fait à une autre occasion; cependant je&#13;\n    dois dire que dans cette occasion-ci&#13;\n    même, il s'est permis le langage le plus&#13;\n    imprudent et le plus inconvenant auquel&#13;\n    un homme public puisse se laisser&#13;\n    aller à l'égard de l'ambassadeur d'une&#13;\n    puissance amie. (<i>Applaudissements.</i>) Je&#13;\n    me serais volontiers abstenu de toucher&#13;\n    à cette partie du discours de mon noble&#13;\n    ami, parce que je pense qu'il vaut mieux&#13;\n    qu'elle soit oubliée le plus tôt possible;&#13;\n    mais alors si je gardais le silence sur&#13;\n    ces attaques, on pourrait supposer que&#13;\n    le gouvernement croit quelles ne sont&#13;\n    pas mal fondées; et, si cela était le cas,&#13;\n    la conséquence naturelle serait qu'on&#13;\n    ne devrait pas supporter ici le prince&#13;\n    de Talleyrand. Car si le gouvernement&#13;\n    avait de lui la même opinion que mon&#13;\n    noble ami, son devoir serait de représenter&#13;\n    au roi des Français qu'il ne peut&#13;\n    pas traiter les affaires avec une telle&#13;\n    personne. J'ai donc jugé qu'il était nécessaire&#13;\n    de parler comme je l'ai fait,&#13;\n    au sujet d'attaques contre le caractère&#13;\n    d'un individu dont la position aurait dû&#13;\n    le mettre à l'abri. (<i>Applaudissements.</i>)&#13;\n    Je sais que mon noble ami dira que&#13;\n    le gouvernement est soumis à la France,&#13;\n    parce que je proteste contre son inconvenant,&#13;\n    imprudent et injustifiable langage.&#13;\n    Mais je lui rappellerai que le prince&#13;\n    de Talleyrand a été le ministre des deux&#13;\n    derniers rois de France et qu'il a eu&#13;\n    aussi une grande et importante part&#13;\n    dans les délibérations du congrès de&#13;\n    Vienne, dont le résultat est considéré&#13;\n    comme si bon et si sage par le noble&#13;\n    marquis. (<i>Applaudissements.</i>) Le noble&#13;\n    marquis aurait certainement pu penser&#13;\n    à ces faits; mais s'il y avait songé, il&#13;\n    ne se serait pas livré à des recherches&#13;\n    aussi injustes que haineuses sur toutes&#13;\n    les époques de la vie du prince de Talleyrand,&#13;\n    et il n'aurait pas été prendre&#13;\n    pour base de son jugement, sur les faits&#13;\n    actuels et les actes d'aujourd'hui, des&#13;\n    faits qui avaient eu lieu lorsque les circonstances&#13;\n    étaient si différentes en&#13;\n    France, et lorsqu'aucun homme ne&#13;\n    pouvait agir comme sa raison ou son&#13;\n    inclination l'y aurait porté; mais comme&#13;\n    le puissant et irrésistible courant des&#13;\n    affaires le forçait a régler sa conduite.</td>",
+              "source_html_sha256": "d862041ac58a6718283df9388efe069913ed74583e6961e9b34e043e20f9ef33",
+              "language": "fr"
+            }
+          ]
+        },
+        {
+          "unit_id": "v04-u002286",
+          "source_xpath": "/html/body/div[5]/div/table/tbody/tr[5]",
+          "cells": [
+            {
+              "column": 1,
+              "tag": "td",
+              "source_xpath": "/html/body/div[5]/div/table/tbody/tr[5]/td[1]",
+              "text": "The duke of Wellington.—Before he stated what his view of the subject was (l'emploi d'officiers français dans l'armée belge) he must be allow'd to say a few words respecting an illustrious individual (prince de Talleyrand) who had been so strongly animadverted upon by his noble friend near him. True it was that that illustrious individual had enjoy'd in a very high degree the confidence of his noble friend's deceased relative; and true it also was, that none of the great measures which had been resolved upon at vienna and at Paris had been concerted or carried on without the intervention of that illustrious person. He had no hesitation in saying that both at that time, in every one of the great transactions that took place then, and in every transaction in which he had been engaged with prince de Talleyrand since, the latest of which had occured during the short period in which he (the duke of Wellington) had been in His Majesty's councils after the late revolution in France,—he had no hesitation in declaring that in all those transactions, from the first to the last of them, no man could have conducted himself with more firmness and ability with regard to his own country, or with more uprightness and honor in all his communications with the ministers of other countries, than prince de Talleyrand. (Cheers.) They had heard a good deal of prince de Talleyrand from many quarters; but he felt himself bound to declare it to be his sincere and conscientious belief that no man's public and private character, had ever been so much beleid as both the public and the private character of that illustrious individual had been. (Much cheering.) He had thought it necessary in common justice, to say this much of an individual respecting whose conduct and character he had had no small means of forming a judgment.",
+              "text_sha256": "f6751ef2a92ec589c2204191b12d8a830495d07ad51d7f1ed7c14f6399ffc747",
+              "source_html": "<td class=\"p2\"><span class=\"smcap\">The duke of Wellington.</span>—Before&#13;\n    he stated what his view of the subject&#13;\n    was (l'emploi d'officiers français dans&#13;\n    l'armée belge) he must be allow'd to&#13;\n    say a few words respecting an illustrious&#13;\n    individual (prince de Talleyrand) who&#13;\n    had been so strongly animadverted&#13;\n    upon by his noble friend near him.&#13;\n    True it was that that illustrious individual&#13;\n    had enjoy'd in a very high degree&#13;\n    the confidence of his noble friend's&#13;\n    deceased relative; and true it also was,&#13;\n    that none of the great measures which&#13;\n    had been resolved upon at vienna and&#13;\n    at Paris had been concerted or carried&#13;\n    on without the intervention of that&#13;\n    illustrious person. He had no hesitation&#13;\n    in saying that both at that time, in&#13;\n    every one of the great transactions that&#13;\n    took place then, and in every transaction&#13;\n    in which he had been engaged with&#13;\n    prince de Talleyrand since, the latest&#13;\n    of which had occured during the short&#13;\n    period in which he (the duke of Wellington)&#13;\n    had been in His Majesty's&#13;\n    councils after the late revolution in&#13;\n    France,—he had no hesitation in declaring&#13;\n    that in all those transactions,&#13;\n    from the first to the last of them, no&#13;\n    man could have conducted himself&#13;\n    with more firmness and ability with&#13;\n    regard to his own country, or with&#13;\n    more uprightness and honor in all his&#13;\n    communications with the ministers of&#13;\n    other countries, than prince de Talleyrand.&#13;\n    (<i>Cheers.</i>) They had heard a good&#13;\n    deal of prince de Talleyrand from many&#13;\n    quarters; but he felt himself bound to&#13;\n    declare it to be his sincere and conscientious&#13;\n    belief that no man's public&#13;\n    and private character, had ever been so&#13;\n    much beleid as both the public and&#13;\n    the private character of that illustrious&#13;\n    individual had been. (<i>Much cheering.</i>)&#13;\n    He had thought it necessary in common&#13;\n    justice, to say this much of an individual&#13;\n    respecting whose conduct and&#13;\n    character he had had no small means&#13;\n    of forming a judgment.</td>",
+              "source_html_sha256": "437040aa224f25b06497c2d8e7d6fd723bf09aaafb4750e0f50f934b90607623",
+              "language": "en"
+            },
+            {
+              "column": 2,
+              "tag": "td",
+              "source_xpath": "/html/body/div[5]/div/table/tbody/tr[5]/td[2]",
+              "text": "Le duc de Wellington.—Avant que j'expose ma manière de voir sur le sujet en question (l'emploi d'officiers français dans l'armée belge), il doit m'être permis de dire quelques mots au sujet d'un illustre individu qui a été si fortement attaqué par mon noble ami qui siège près de moi. Il est vrai que cet illustre individu a joui à un très haut degré de la confiance du parent décédé, lord Castlereagh, de mon noble ami; et il est également vrai qu'aucune des grandes mesures qui ont été adoptées à vienne et à Paris, n'a été concertée ou exécutée sans l'intervention de cet illustre personnage. Je n'ai aucune hésitation à déclarer que, soit à cette époque, dans les grandes négociations qui ont eu lieu, soit dans celles que j'ai traitées depuis lors avec le prince de Talleyrand, et dont les dernières se sont passées durant la courte période pendant laquelle j'étais dans les conseils de Sa Majesté, après la dernière révolution de France,—je n'ai aucune hésitation, dis-je, à déclarer que dans toutes ces négociations, de la première à la dernière, aucun homme ne pouvait se conduire avec plus de fermeté et d'habileté dans l'intérêt de son propre pays, ou avec plus de droiture et d'honneur dans toutes ses communications avec les ministres des autres pays, que le prince de Talleyrand. (Applaudissements.) Vous avez entendu dire beaucoup de choses sur le prince de Talleyrand, et de bien des côtés différents; mais je me sens obligé de déclarer que ma conviction sincère et consciencieuse est que jamais le caractère public et privé d'un homme n'a été autant travesti que l'a été le caractère privé et public de cet illustre individu. (Grands applaudissements.) J'ai pensé qu'il était nécessaire, équitablement, de dire tout ceci d'une personne sur la conduite et le caractère de laquelle j'ai eu de nombreux moyens de former mon jugement.",
+              "text_sha256": "859af0a5fe863ec5ef155f5696589eced19dcddb2b532b2d9ada62828e70ddf2",
+              "source_html": "<td><span class=\"smcap\">Le duc de Wellington</span>.—Avant que&#13;\n    j'expose ma manière de voir sur le sujet&#13;\n    en question (l'emploi d'officiers français&#13;\n    dans l'armée belge), il doit m'être permis&#13;\n    de dire quelques mots au sujet d'un&#13;\n    illustre individu qui a été si fortement&#13;\n    attaqué par mon noble ami qui siège&#13;\n    près de moi. Il est vrai que cet illustre&#13;\n    individu a joui à un très haut degré de&#13;\n    la confiance du parent décédé, lord&#13;\n    Castlereagh, de mon noble ami; et il est&#13;\n    également vrai qu'aucune des grandes&#13;\n    mesures qui ont été adoptées à vienne&#13;\n    et à Paris, n'a été concertée ou exécutée&#13;\n    sans l'intervention de cet illustre personnage.&#13;\n    Je n'ai aucune hésitation à&#13;\n    déclarer que, soit à cette époque, dans&#13;\n    les grandes négociations qui ont eu lieu,&#13;\n    soit dans celles que j'ai traitées depuis&#13;\n    lors avec le prince de Talleyrand, et&#13;\n    dont les dernières se sont passées durant&#13;\n    la courte période pendant laquelle&#13;\n    j'étais dans les conseils de Sa Majesté,&#13;\n    après la dernière révolution de France,—je&#13;\n    n'ai aucune hésitation, dis-je, à&#13;\n    déclarer que dans toutes ces négociations,&#13;\n    de la première à la dernière,&#13;\n    aucun homme ne pouvait se conduire&#13;\n    avec plus de fermeté et d'habileté dans&#13;\n    l'intérêt de son propre pays, ou avec&#13;\n    plus de droiture et d'honneur dans toutes&#13;\n    ses communications avec les ministres&#13;\n    des autres pays, que le prince de Talleyrand.&#13;\n    (<i>Applaudissements.</i>) Vous avez&#13;\n    entendu dire beaucoup de choses sur le&#13;\n    prince de Talleyrand, et de bien des&#13;\n    côtés différents; mais je me sens obligé&#13;\n    de déclarer que ma conviction sincère&#13;\n    et consciencieuse est que jamais le caractère&#13;\n    public et privé d'un homme n'a&#13;\n    été autant travesti que l'a été le caractère&#13;\n    privé et public de cet illustre&#13;\n    individu. (<i>Grands applaudissements.</i>)&#13;\n    J'ai pensé qu'il était nécessaire, équitablement,&#13;\n    de dire tout ceci d'une personne&#13;\n    sur la conduite et le caractère de&#13;\n    laquelle j'ai eu de nombreux moyens de&#13;\n    former mon jugement.</td>",
+              "source_html_sha256": "7119013ea661a951aab20f80727bb1820b1bc36a011802c9a6c7df6b357abc25",
+              "language": "fr"
+            }
+          ]
+        },
+        {
+          "unit_id": "v04-u002287",
+          "source_xpath": "/html/body/div[5]/div/table/tbody/tr[6]",
+          "cells": [
+            {
+              "column": 1,
+              "tag": "td",
+              "source_xpath": "/html/body/div[5]/div/table/tbody/tr[6]/td[1]",
+              "text": "Lord Holland—There was one part of the noble Duke's speech which had given him the greatest pleasure and which reflected the highest credit upon the noble Duke. He need hardly say that he alluded to the temper, the manliness and generosity with which the noble Duke had animadverted upon what had fallen from the noble marquis with regard to prince de Talleyrand. On public as well as on private grounds, he thanked the noble Duke for that part of his speech. There could be little difference of opinion as to the injustice and the want of generosity, of speaking in harsh and insulting terms respecting the ambassador of a friendly power, resident amongst us. On the other hand he felt that there could be no good taste in dwelling upon the virtue and the merit of a man's own acquaintance in an assembly like that of their Lordships; yet he trusted that he might be allowed to observe that forty years acquaintance with the noble individual who had been alluded to, enabled him to bear his testimony to the fact, that although those forty years had been passed during a time peculiarly fraught with calumnies of every description, there had been no man's private character more shamefully traduced, and no man's public character more mistaken and misrepresented, than the private and public character of prince de Talleyrand.",
+              "text_sha256": "1926ec0140393dafe3aab9b86591fa5400bc5862ec2e8bc8f9cd9cfd38d9e5b9",
+              "source_html": "<td><span class=\"smcap\">Lord Holland</span>—There was one part&#13;\n    of the noble Duke's speech which had&#13;\n    given him the greatest pleasure and&#13;\n    which reflected the highest credit upon&#13;\n    the noble Duke. He need hardly say that&#13;\n    he alluded to the temper, the manliness&#13;\n    and generosity with which the noble&#13;\n    Duke had animadverted upon what had&#13;\n    fallen from the noble marquis with&#13;\n    regard to prince de Talleyrand. On public&#13;\n    as well as on private grounds, he&#13;\n    thanked the noble Duke for that part of&#13;\n    his speech. There could be little difference&#13;\n    of opinion as to the injustice and the&#13;\n    want of generosity, of speaking in harsh&#13;\n    and insulting terms respecting the ambassador&#13;\n    of a friendly power, resident amongst&#13;\n    us. On the other hand he felt that there&#13;\n    could be no good taste in dwelling&#13;\n    upon the virtue and the merit of a man's&#13;\n    own acquaintance in an assembly like&#13;\n    that of their Lordships; yet he trusted&#13;\n    that he might be allowed to observe&#13;\n    that forty years acquaintance with the noble&#13;\n    individual who had been alluded to,&#13;\n    enabled him to bear his testimony to the&#13;\n    fact, that although those forty years had&#13;\n    been passed during a time peculiarly&#13;\n    fraught with calumnies of every description,&#13;\n    there had been no man's private&#13;\n    character more shamefully traduced,&#13;\n    and no man's public character more mistaken&#13;\n    and misrepresented, than the&#13;\n    private and public character of prince de&#13;\n    Talleyrand.</td>",
+              "source_html_sha256": "f02b8ec8ec7a3d8acb2efe42af9caaa8e2b267450071b7ab7e6f7c30928348cc",
+              "language": "en"
+            },
+            {
+              "column": 2,
+              "tag": "td",
+              "source_xpath": "/html/body/div[5]/div/table/tbody/tr[6]/td[2]",
+              "text": "Lord Holland.—Il y a une partie du discours du noble duc qui m'a causé le plus grand plaisir et qui lui fait le plus grand honneur. J'ai à peine besoin de dire que je veux parler de l'esprit, de la fermeté et de la générosité avec lesquels le noble duc avait repoussé ce qui a été dit du prince de Talleyrand, par le noble marquis. Dans l'intérêt public aussi bien que comme homme privé, je remercie le noble duc pour cette partie de son discours. Il ne peut y avoir une opinion différente sur l'injustice et le manque de générosité qu'il y a à parler dans des termes âpres et insultants de l'ambassadeur d'une puissance amie résidant parmi nous. D'un autre côté, je sens qu'il ne serait pas de bon goût de m'étendre sur les qualités et les mérites d'un homme de ma connaissance, dans une assemblée comme celle de vos seigneuries; cependant j'espère qu'il me sera permis de dire que quarante années de relation avec le noble individu auquel il a été fait allusion, m'ont mis en état de rendre témoignage à ce fait, que, quoique ces quarante années se soient écoulées à une époque particulièrement fertile en calomnies de toute espèce, il n'a pas existé d'homme dont le caractère privé ait été plus honteusement diffamé et le caractère public plus méconnu et plus faussement représenté que le caractère privé et public du prince de Talleyrand.",
+              "text_sha256": "5fba308c33775fd175b38cd97523a3f0c6e4f0d814d5d61c2f2d1eb2f7da8d21",
+              "source_html": "<td><span class=\"smcap\">Lord Holland</span>.—Il y a une partie du&#13;\n    discours du noble duc qui m'a causé le&#13;\n    plus grand plaisir et qui lui fait le plus&#13;\n    grand honneur. J'ai à peine besoin de&#13;\n    dire que je veux parler de l'esprit, de la&#13;\n    fermeté et de la générosité avec lesquels&#13;\n    le noble duc avait repoussé ce qui a été&#13;\n    dit du prince de Talleyrand, par le noble&#13;\n    marquis. Dans l'intérêt public aussi bien&#13;\n    que comme homme privé, je remercie&#13;\n    le noble duc pour cette partie de son discours.&#13;\n    Il ne peut y avoir une opinion&#13;\n    différente sur l'injustice et le manque&#13;\n    de générosité qu'il y a à parler dans des&#13;\n    termes âpres et insultants de l'ambassadeur&#13;\n    d'une puissance amie résidant&#13;\n    parmi nous. D'un autre côté, je sens&#13;\n    qu'il ne serait pas de bon goût de m'étendre&#13;\n    sur les qualités et les mérites d'un&#13;\n    homme de ma connaissance, dans une&#13;\n    assemblée comme celle de vos seigneuries;&#13;\n    cependant j'espère qu'il me sera permis&#13;\n    de dire que quarante années de relation&#13;\n    avec le noble individu auquel il a&#13;\n    été fait allusion, m'ont mis en état de&#13;\n    rendre témoignage à ce fait, que, quoique&#13;\n    ces quarante années se soient écoulées&#13;\n    à une époque particulièrement fertile&#13;\n    en calomnies de toute espèce, il n'a&#13;\n    pas existé d'homme dont le caractère&#13;\n    privé ait été plus honteusement diffamé&#13;\n    et le caractère public plus méconnu et&#13;\n    plus faussement représenté que le caractère&#13;\n    privé et public du prince de Talleyrand.</td>",
+              "source_html_sha256": "bfa8ff8509722673d7639f1c7ddab1e754aea9c1343c71004a401b1afc2220dc",
+              "language": "fr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v04-table-02",
+      "source_xpath": "/html/body/div[6]/table",
+      "kind": "table_of_contents",
+      "language_basis": "French contents text with printed page references.",
+      "rows": [
+        {
+          "unit_id": "v04-u002419",
+          "source_xpath": "/html/body/div[6]/table/tbody/tr[1]",
+          "cells": [
+            {
+              "column": 1,
+              "tag": "td",
+              "source_xpath": "/html/body/div[6]/table/tbody/tr[1]/td[1]",
+              "text": "Révolution de 1830 (suite)",
+              "text_sha256": "5c51c9539dc50de4b58542c7a3ba655c46e7b55897a7973f3e3b231b6b3c31d0",
+              "source_html": "<td class=\"p2\" style=\"text-align: left;\"><span class=\"smcap\">Révolution de 1830</span> (<i>suite</i>)</td>",
+              "source_html_sha256": "f48b691cba5349b6f1648688764febefedbb1a2e4933999d7c3c631d26545a3e",
+              "language": "fr"
+            },
+            {
+              "column": 2,
+              "tag": "td",
+              "source_xpath": "/html/body/div[6]/table/tbody/tr[1]/td[2]",
+              "text": "3",
+              "text_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+              "source_html": "<td style=\"text-align: right;\"><a href=\"#Page_3\" class=\"pginternal\"><small>3</small></a></td>",
+              "source_html_sha256": "109ad5080df9033832a600c4bb8cfdfbfed5e752ce0a67a63bbc5eb6b6f25628",
+              "language": "fr"
+            }
+          ]
+        },
+        {
+          "unit_id": "v04-u002420",
+          "source_xpath": "/html/body/div[6]/table/tbody/tr[2]",
+          "cells": [
+            {
+              "column": 1,
+              "tag": "td",
+              "source_xpath": "/html/body/div[6]/table/tbody/tr[2]/td[1]",
+              "text": "Appendice",
+              "text_sha256": "b555137e48d803f884e26f3c99ee5f696342683d1873d19bcd5ba62a851d781f",
+              "source_html": "<td class=\"p2\" style=\"text-align: left;\"><span class=\"smcap\">Appendice</span></td>",
+              "source_html_sha256": "223a6a64cc6bf6cb314db74d8f797104f04b02d1827f9e002f9334ef16926aee",
+              "language": "fr"
+            },
+            {
+              "column": 2,
+              "tag": "td",
+              "source_xpath": "/html/body/div[6]/table/tbody/tr[2]/td[2]",
+              "text": "481",
+              "text_sha256": "51d089cdaf0c968c94b80671489d22b6f79b1c57de80df880b008e9b37b49788",
+              "source_html": "<td style=\"text-align: right;\"><a href=\"#Page_481\" class=\"pginternal\"><small>481</small></a></td>",
+              "source_html_sha256": "894abca580be5d5b0d8c4b820e2e950663d67cfd5a20d9221f26f40eb03ede16",
+              "language": "fr"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
