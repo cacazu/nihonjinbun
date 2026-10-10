@@ -2,9 +2,9 @@
   "volume": 3,
   "status": "incomplete_manuscript_drafts",
   "reread_complete": false,
-  "translated_unit_count": 147,
+  "translated_unit_count": 175,
   "first_unit": "v03-u000001",
-  "last_unit": "v03-u000147",
+  "last_unit": "v03-u000175",
   "source_units": "../source-volume-3/units.json",
   "files": [
     {
@@ -86,6 +86,22 @@
       "count": 12,
       "first": "v03-u000136",
       "last": "v03-u000147"
+    },
+    {
+      "name": "011-root-draft.json",
+      "sha256": "f2294e71c68dc6e85869c2f78f35279a9eb987fa75e56a25059dc2b1fd15e594",
+      "git_blob_sha": "71a8fe000ef9855f2460cc121ac5e5bbea8613ef",
+      "count": 13,
+      "first": "v03-u000148",
+      "last": "v03-u000160"
+    },
+    {
+      "name": "012-root-draft.json",
+      "sha256": "8980a32e2685258482237d2250a40453baf8962789cc513901c26d11c08c884a",
+      "git_blob_sha": "2f5c8669719890125479f36ed5720104d4855c6a",
+      "count": 15,
+      "first": "v03-u000161",
+      "last": "v03-u000175"
     }
   ]
 }
