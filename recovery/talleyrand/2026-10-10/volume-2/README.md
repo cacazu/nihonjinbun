@@ -1,6 +1,6 @@
-# Talleyrand volume 2 manuscript drafts — incomplete
+# Talleyrand volume 2 manuscript — reread complete, reader build pending
 
-This recovery checkpoint preserves 2560 entries in batches 001–316 byte-for-byte. Initial semantic checks have passed at these bytes. The preserved reread flags cover 2477 entries; all 2,560 initial-draft entries are now present, while the full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 2560 entries in batches 001–316 byte-for-byte. Initial semantic checks and final current-byte integrity checks have passed. All316 preserved batch flags and the manuscript progress record confirm completion of the full reread of2,560 entries. Japanese emphasis alignment, rendering and release verification remain pending. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -318,12 +318,12 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `308-root-draft.json`: `0d7f2e94347d38af289a34a5bd4d62784416af3386f288d59ff100fe44346110`
 - `309-root-draft.json`: `56a6de46d71e52178e8d6ed93851b1f07abf61a8b1bf9898b1cffc1454639ad3`
 - `310-root-draft.json`: `7df1b2649ed1045a59f432b6690a78b0ab327c89929a6f27f2d986c92938e182`
-- `311-root-draft.json`: `62e79fb0f89a08da21b2c851c7e9b8c5f14bdd76fa4813fe271dd74e58c4fe15`
-- `312-root-draft.json`: `0a3e1621c29794d45ac689fbf2aadb03c97b08056781cb2d88562146cd8244b5`
-- `313-root-draft.json`: `e0fb0e3dacd70a4c151e1f3281cb4463e24b85c20c7f79e1d3c8aa8b3f5ebfb9`
-- `314-root-draft.json`: `688d53d342f30f972400fa23999d4a63aa6ef68b2d54adcb575a0838b26d9d07`
-- `315-root-draft.json`: `52d9d4364ef539fa1f339ec71e445c5c25524f21fdb466a283e569d5a0996a4a`
-- `316-root-draft.json`: `a40f3aeaf5d1054a8834d5d34ec8d35c730a9e31eb328c25218657533c6d75a3`
+- `311-root-draft.json`: `68124eb7bb20fa03d4d639f9319431053ff8d2d37bac1449fc4084904b592d1f`
+- `312-root-draft.json`: `0f83c499a4b4eb042d9975b3424312a4643f043cdcef475f4ff29d84f37ba15c`
+- `313-root-draft.json`: `64d11d0515f7d9e4388a4f745836cd5ca3cfcbbe3169fe7c5d7352c7b28e54b9`
+- `314-root-draft.json`: `822d7ddb4620cee0a2c02704e0ae23a57dec636bde6d6c113ece875ad87805d1`
+- `315-root-draft.json`: `6f4b58cac8765f4630a3d2f740033f1bcda61f1dd4610e0c3aed6f927dc38e0e`
+- `316-root-draft.json`: `244e18a294b897926d355436f879e9b8357049b29ede629823c273ebd3e12532`
 
 ## Source evidence checksums
 
@@ -361,3 +361,5 @@ The note39 evidence documents printed armées against années in all four digita
 Original note163 begins after the Queen Charlotte letter ends at unit2204. The eventual reader must close the quoted-letter container at this unit boundary despite the missing source closing guillemet; this assembly requirement remains pending.
 
 The original note222 evidence preserves the printed n’eussent/m’eussent difference and the limits of grammatical interpretation; no unsupported restoration is claimed. The latest reader-facing ledger in `source-evidence/evidence-025/` supersedes prior ledger snapshots.
+
+`manuscript-reread-status.json` is a publication-safe completion record with exact draft-file hashes. It does not certify completion of reader rendering or publication checks.
