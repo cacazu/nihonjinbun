@@ -1,0 +1,81 @@
+{
+  "recorded_at_utc": "2026-10-10T14:50:23.480341+00:00",
+  "unit": "v02-u001274",
+  "original_unit_text_sha256": "4e9b63f2f7a15c29d99fb3d4499599dff8baa36942558b66894a1a1fa94ed85e",
+  "original_unit_html_sha256": "b100399b19cc19a8e4a072708dd78278c7c7e261d54a309c342320353796d76f",
+  "scope": "Bounded visual check of the heading and dateline of letter No 4 ter; no historical correction or full-volume collation claimed.",
+  "printed_reading": "Vienne, le 27 octobre 1814.",
+  "printed_heading": "Nº 4 ter. — LE ROI LOUIS XVIII AU PRINCE DE TALLEYRAND.",
+  "finding": "The actual printed facsimile says Vienne, not a different location. All four checked digital witnesses faithfully reproduce this dateline. This confirms the inherited printed wording; this witness supplies no location correction.",
+  "status": "digital_and_print_reading_verified; inherited_dateline_retained; historical_accuracy_not_adjudicated",
+  "printed_page": 398,
+  "pdf_page_1_based": 412,
+  "ia_leaf_0_based": 411,
+  "page_number_visually_verified": true,
+  "edition": "Mémoires du prince de Talleyrand, II, published by the Duc de Broglie; Paris: Calmann Lévy, 1891.",
+  "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n411/mode/1up",
+  "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+  "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+  "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+  "source_pdf_provider_md5_verified": true,
+  "render_method": "pdftoppm -f 412 -l 412 -r 200 -png -singlefile. Full page and lossless rectangular heading/dateline excerpt inspected visually. No OCR-only conclusion.",
+  "excerpt_rectangle_xyxy": [
+    365,
+    720,
+    1320,
+    872
+  ],
+  "evidence_files": [
+    {
+      "filename": "heading-dateline-print-398.png",
+      "bytes": 50285,
+      "sha256": "4d554ee190923e7ac0a9603dc482a11382feecdafc65d6b8cfe8af6a74d434ed",
+      "bundled": true
+    },
+    {
+      "filename": "print-398_pdf-412.png",
+      "bytes": 969079,
+      "sha256": "30d6db2c419c368cf17334f1585b5fbd412ae362e42cfea38b238a0a2480bc02",
+      "bundled": false
+    }
+  ],
+  "digital_witnesses": [
+    {
+      "sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+      "encoding": "utf-8",
+      "reading": "Vienne, le 27 octobre 1814.",
+      "matching_occurrences": 1,
+      "normalized_context": " font à ce sujet des raisonnements militaires qui commencent à faire impression. Je suis... N o 4 ter .— le roi louis xviii au prince de talleyrand . Vienne, le 27 octobre 1814. Mon cousin, J'ai reçu votre numéro 6. J'ai été au plus pres",
+      "source_filename": "source.html",
+      "bundled_in_this_evidence_folder": false
+    },
+    {
+      "sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+      "encoding": "utf-8",
+      "reading": "Vienne, le 27 octobre 1814.",
+      "matching_occurrences": 1,
+      "normalized_context": "e sujet des raisonnements militaires qui commencent à faire impression. Je suis... * * * * * Nº 4 _ter_.--LE ROI LOUIS XVIII AU PRINCE DE TALLEYRAND. Vienne, le 27 octobre 1814. Mon cousin, J'ai reçu votre numéro 6. J'ai été au plus pres",
+      "source_filename": "source.txt",
+      "bundled_in_this_evidence_folder": false
+    },
+    {
+      "sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+      "encoding": "iso-8859-1",
+      "reading": "Vienne, le 27 octobre 1814.",
+      "matching_occurrences": 1,
+      "normalized_context": " font à ce sujet des raisonnements militaires qui commencent à faire impression. Je suis... N o 4 ter .— le roi louis xviii au prince de talleyrand . Vienne, le 27 octobre 1814. Mon cousin, J'ai reçu votre numéro 6. J'ai été au plus pres",
+      "source_filename": "source-legacy.html",
+      "bundled_in_this_evidence_folder": false
+    },
+    {
+      "sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+      "encoding": "iso-8859-1",
+      "reading": "Vienne, le 27 octobre 1814.",
+      "matching_occurrences": 1,
+      "normalized_context": "e sujet des raisonnements militaires qui commencent à faire impression. Je suis... * * * * * Nº 4 _ter_.--LE ROI LOUIS XVIII AU PRINCE DE TALLEYRAND. Vienne, le 27 octobre 1814. Mon cousin, J'ai reçu votre numéro 6. J'ai été au plus pres",
+      "source_filename": "source-legacy.txt",
+      "bundled_in_this_evidence_folder": false
+    }
+  ],
+  "original_units_file_sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751"
+}

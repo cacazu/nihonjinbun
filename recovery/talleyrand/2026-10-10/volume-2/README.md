@@ -1,6 +1,6 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 1306 entries in batches 001–160 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 1337 entries in batches 001–164 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -168,6 +168,10 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `158-root-draft.json`: `be3c2f3c2dfd36b94c8f478f7efe61b60afd4adf4289d9427437457a61a211c0`
 - `159-root-draft.json`: `3885352caabe0fc5fb7140ab63795f81027ccd14b90d4c475b0ecbebff3ae27b`
 - `160-root-draft.json`: `ddfb7bcc5dca8b108b3457f9dc7a721683386b1759411b0c38237a0dc908b8bf`
+- `161-root-draft.json`: `ce1cea236768667004da7f51a89f72edc3f10cded6d2eb2bb0fe2ffce47b0589`
+- `162-root-draft.json`: `411fee8e88ca1ea1230d17ce0e3bc5caf0bf5e76ecac4afc85819ecf019c3acc`
+- `163-root-draft.json`: `a004dae06d25a835257225bdb9f0ea107cabc87e5f0a27dcc0b5fa60de9980d1`
+- `164-root-draft.json`: `23578dd461a377ed575ed1f59c3430ad92a1b6359b7d29a4717b985923e67f1d`
 
 ## Source evidence checksums
 
@@ -183,3 +187,5 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 ## Additional bounded printed-source comparisons
 
 `source-evidence/additional-collation/` preserves ten exact page images, reader-facing reports, source discrepancies and a public payload manifest. These cover eight known anomalies and the specific unit1128 sentence; they do not constitute full-volume printed collation. Workflow-only fields were omitted from the public metadata copies.
+
+The bounded unit1274 evidence preserves the printed royal-letter heading and dateline, which agree with the four digital witnesses. It confirms the inherited Vienne wording without asserting its historical accuracy. The reader-facing report and exact image excerpt are in `source-evidence/facsimile-u1274/`.
