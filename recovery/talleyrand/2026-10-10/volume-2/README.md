@@ -1,10 +1,10 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 906 entries in batches 001–101 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 970 entries in batches 001–110 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
-Unit 889 restores an internal digital-source omission from a visually checked 1891 printed witness, with an explicit translator disclosure. The separate French overlay and provenance record preserve the correction without changing the base digital units. Unit 903 retains the printed Prusse reading with a separate caveat. Evidence images are identified by source links and hashes in the report; their repository copies will follow separately.
+Unit 889 restores an internal digital-source omission from a visually checked 1891 printed witness, with an explicit translator disclosure. The separate French overlay and provenance record preserve the correction without changing the base digital units. Unit 903 retains the printed Prusse reading with a separate caveat. The six cited title/page images are now preserved alongside the source links, hashes, and provenance report.
 
 ## SHA-256 checksums
 
@@ -109,8 +109,23 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `099-root-draft.json`: `680279b6d94b6f3f68d52ada7e9bb8d8a72a9f031cc79813cfe12791388066ec`
 - `100-root-draft.json`: `e274f8baf3924921744d78b7ae37a95a03ff4514ff6c564f9f2a4b34bb01cd4f`
 - `101-root-draft.json`: `842b3cc787a51b91408d12345f5c2345b3a35977d5f4a2602db444c0326b42f4`
+- `102-root-draft.json`: `84023efee6e15d88bd0f0967dc86bdd3d8e0f06bfc2ebe44d8d273190c3930c4`
+- `103-root-draft.json`: `9549a20762ee780d65896d947103dadde874012d17a90db5c0cbdf511bb3e748`
+- `104-root-draft.json`: `9d90dce1d4db5ba5205f57030e1c28fe1dbab9b56d5d69e60eb035f031f9715e`
+- `105-root-draft.json`: `864ec1277c5377c377df5545c4bbdfe4118bd691367d339c4804ca0dbf8cbf41`
+- `106-root-draft.json`: `ea03107ac1a6502a29610b208b901228b97fc77102e6802f11693409d6987ff9`
+- `107-root-draft.json`: `d85acec9c03340f9fdfd10f737c4de4272a7fc6e5659b0c861538586d1fe2260`
+- `108-root-draft.json`: `b3727b6293ae8eaaf248c30c17162bf49293cacd409ccc4d93874cdebeecc003`
+- `109-root-draft.json`: `b73cc20631d42e1169586a50aa3de28528d16a056ede640f574acd86eb2d3f28`
+- `110-root-draft.json`: `80d4a35c93b8ce99e74a108f526d3329f0ea72a82a93d003dc1664f39a9278de`
 
 ## Source evidence checksums
 
 - `source-evidence/facsimile-u889/verification.json`: `e2c02001a55521e13d110c375880876d84a0abe3e8b57b063f245323b7928e21`
 - `source-evidence/facsimile-u889/u000889-corrected-french-overlay.txt`: `c75b28fa5286f1021e5a03585f21991de33609e793b6e720afb8be3958731d21`
+- `source-evidence/facsimile-u889/title-013.png`: `88392635bffc58ad2453db246d474b0442f31980a795e725bb8d0f86821bc45c`
+- `source-evidence/facsimile-u889/scan-296.png`: `ccc2b2fea9e9735ae8f9c4841baf5afea78f0179e0ed945aa92688ab59f11bdb`
+- `source-evidence/facsimile-u889/scan-297.png`: `2d234771fd1b91cc91544ee8d6957d25e339f95c7870fc4b29f64c01d19446fc`
+- `source-evidence/facsimile-u889/scan-298.png`: `4b434f2669e59d5ae51ea056f9544d95f6bd89a32e7b5c905c9c09467055664c`
+- `source-evidence/facsimile-u889/scan-299.png`: `b411d7dd3059a7020914aacfb2e52be52b8a88c24d903502c03449355ea677d9`
+- `source-evidence/facsimile-u889/scan-306.png`: `252771f77674f600874d60c0d7559a8b8499897aa9a687859dc762e34781f0d7`
