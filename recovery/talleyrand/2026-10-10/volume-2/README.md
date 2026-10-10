@@ -1,6 +1,6 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 1523 entries in batches 001–190 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 1577 entries in batches 001–197 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -194,10 +194,17 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `184-root-draft.json`: `4d61b4fafc092ce8b1796b9a523da16cadadee6c6d1ad4f824bafd36c436a8ab`
 - `185-root-draft.json`: `fed06cffcff6a48cbe8a320ba8622e0ff0c3b8e936fd737820c4cd6bd2214407`
 - `186-root-draft.json`: `65e8e128f212ee1a83b99c5c9af564ae9ef605d9b02a4025e54f87ac9680e6d8`
-- `187-root-draft.json`: `69d7659d60da6b9ecf056405e3ec4ba76feedf4a3e7c32194b2fcff7b6d8fdc8`
+- `187-root-draft.json`: `07dcfb3dadb8c68a06c08831486c4e2c8d3b365d0b9a00d733ecc9ca638920db`
 - `188-root-draft.json`: `e170d74f188d6adb201835dd6126f76f9221832ac9f49717404ba4ef2e3b8796`
 - `189-root-draft.json`: `296150c43de85e2c2e542c8a7dcaeca08f21451abd46931a750e7f0c105a6294`
 - `190-root-draft.json`: `7f624b85cf32633de5fc6284bd4929fc90e8620b8360df19637a3a44ec8ac94a`
+- `191-root-draft.json`: `a29868b44539598729c0a7153b4d12fd61123fd3d13a5c6cf585620d2a220544`
+- `192-root-draft.json`: `3d5426c3c68c7a2ef3a88f99ad6ef86895e02ce76d3fb9e7f9f2cc7361495285`
+- `193-root-draft.json`: `8ccbe1894724a44ce0b17a154e0b9d38e72a4c670dd803d1da254f9961cdfc3e`
+- `194-root-draft.json`: `68b67dfb7e6511984986692cd491b5ec90c9bab9d1fec9e501bff375c29f5ae3`
+- `195-root-draft.json`: `137acbd35003a075bc029d549a7ee8f595ab2015ff1d825a9299872717acd151`
+- `196-root-draft.json`: `a557d759cd4d15f860659139cf6a74b8db5ac5e12cefca641eb9671b3b3e1479`
+- `197-root-draft.json`: `229c10bab0ed3fe450763e8dbdc04c60dc0beae03fb99e2deeb0b10a4905ea2b`
 
 ## Source evidence checksums
 
@@ -221,3 +228,5 @@ The latest16-record reader-facing source-discrepancy ledger is `source-evidence/
 The bounded unit1382 evidence documents digital empocher versus printed empêcher on page421. The final draft follows the printed reading with a separate translator disclosure; four digital witnesses and the exact printed paragraph excerpt are preserved in `source-evidence/facsimile-u1382/`.
 
 The19-record source-discrepancy ledger in `source-evidence/evidence-018-019/` supersedes earlier snapshots. Its six exact excerpts document the differing Noailles arrival dates and the unusual unit1412 wording with original note336. These are bounded comparisons, not full printed-volume collation.
+
+The unit1496 report and exact image excerpt confirm that print and four digital witnesses retain cet amiral after Bentinck. This bounded comparison supplies no title correction and does not adjudicate historical accuracy: `source-evidence/facsimile-u1496/`.

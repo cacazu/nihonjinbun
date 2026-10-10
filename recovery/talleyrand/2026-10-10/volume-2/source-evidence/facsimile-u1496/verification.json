@@ -1,0 +1,95 @@
+{
+  "recorded_at_utc": "2026-10-10T16:57:14.101766+00:00",
+  "unit": "v02-u001496",
+  "scope": "Bounded visual check of cet amiral referring to Lord W. Bentinck; no historical title correction or whole-volume printed collation claimed.",
+  "printed_page": 451,
+  "pdf_page_1_based": 465,
+  "ia_leaf_0_based": 464,
+  "page_number_visually_verified": true,
+  "printed_reading": "Lord Castlereagh éprouve quelque embarras par la conduite que lord W. Bentinck a tenue à Gênes. Ce dernier avait flatté le peuple génois d’une entière indépendance. Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs,",
+  "finding": "The printed source calls the previously named lord W. Bentinck cet amiral. All four checked local Gutenberg HTML/TXT witnesses reproduce this wording. The facsimile supplies no title correction. Historical accuracy of the title is not adjudicated.",
+  "status": "digital_and_print_title_reading_verified; no_restoration",
+  "physical_lines": [
+    "Lord Castlereagh éprouve quelque embarras par la con-",
+    "duite que lord W. Bentinck a tenue à Gênes. Ce dernier",
+    "avait flatté le peuple génois d’une entière indépendance. Lord",
+    "Castlereagh a soutenu faiblement que cet amiral avait outre-",
+    "passé ses pouvoirs, et il a dit qu’il fallait par tous les moyens"
+  ],
+  "transcription_convention": "Line wrapping and ordinary typographic spacing normalized; con-duite and outre-passé rejoined. Excerpt ends after pouvoirs; the printed sentence continues.",
+  "edition": "Mémoires du prince de Talleyrand, II; published by the Duc de Broglie; Paris: Calmann Lévy, 1891.",
+  "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n464/mode/1up",
+  "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+  "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+  "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+  "provider_md5_previously_verified": true,
+  "method": "Printed pp.451–452 rendered at 200dpi using pdftoppm and inspected visually. Target phrase is entirely on p.451. A lossless rectangular excerpt was saved with Pillow. No OCR-only reading.",
+  "excerpt_rectangle_xyxy": [
+    165,
+    1380,
+    1100,
+    1660
+  ],
+  "evidence_files": [
+    {
+      "filename": "u001496-bentinck-amiral.png",
+      "sha256": "9ab4d060d4d457180520c57df04cfe4f42a307049b6a18fc39cf4cc28e31929a",
+      "bytes": 190360,
+      "bundled": true
+    },
+    {
+      "filename": "print-451_pdf-465.png",
+      "sha256": "7e1f9c14578a689a0dc335208c2ad8f4baf69f08950fe88823749c2ac76886e2",
+      "bytes": 930963,
+      "bundled": false
+    },
+    {
+      "filename": "print-452_pdf-466.png",
+      "sha256": "9f5bf1a6ddab1cafb54ca1b38b7425d4b9aa041ba2fec9f356197aa95136f1cd",
+      "bytes": 1040755,
+      "bundled": false
+    }
+  ],
+  "digital_witnesses": [
+    {
+      "sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+      "encoding": "utf-8",
+      "reading": "Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs",
+      "matching_occurrences": 1,
+      "context": "illes et lord Clancarty. Lord Castlereagh éprouve quelque embarras par la conduite que lord W. Bentinck a tenue à Gênes. Ce dernier avait flatté le peuple génois d'une entière indépendance. Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs, et il a dit qu'il fallait par tous les moyens de conciliation adoucir aux Génois le sacrifice",
+      "source_filename": "source.html",
+      "bundled_in_this_evidence_folder": false
+    },
+    {
+      "sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+      "encoding": "utf-8",
+      "reading": "Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs",
+      "matching_occurrences": 1,
+      "context": "illes et lord Clancarty. Lord Castlereagh éprouve quelque embarras par la conduite que lord W. Bentinck a tenue à Gênes. Ce dernier avait flatté le peuple génois d'une entière indépendance. Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs, et il a dit qu'il fallait par tous les moyens de conciliation adoucir aux Génois le sacrifice",
+      "source_filename": "source.txt",
+      "bundled_in_this_evidence_folder": false
+    },
+    {
+      "sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+      "encoding": "iso-8859-1",
+      "reading": "Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs",
+      "matching_occurrences": 1,
+      "context": "illes et lord Clancarty. Lord Castlereagh éprouve quelque embarras par la conduite que lord W. Bentinck a tenue à Gênes. Ce dernier avait flatté le peuple génois d'une entière indépendance. Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs, et il a dit qu'il fallait par tous les moyens de conciliation adoucir aux Génois le sacrifice",
+      "source_filename": "source-legacy.html",
+      "bundled_in_this_evidence_folder": false
+    },
+    {
+      "sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+      "encoding": "iso-8859-1",
+      "reading": "Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs",
+      "matching_occurrences": 1,
+      "context": "illes et lord Clancarty. Lord Castlereagh éprouve quelque embarras par la conduite que lord W. Bentinck a tenue à Gênes. Ce dernier avait flatté le peuple génois d'une entière indépendance. Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs, et il a dit qu'il fallait par tous les moyens de conciliation adoucir aux Génois le sacrifice",
+      "source_filename": "source-legacy.txt",
+      "bundled_in_this_evidence_folder": false
+    }
+  ],
+  "original_unit_text": "Lord Castlereagh éprouve quelque embarras par la conduite que lord W. Bentinck a tenue à Gênes. Ce dernier avait flatté le peuple génois d'une entière indépendance. Lord Castlereagh a soutenu faiblement que cet amiral avait outrepassé ses pouvoirs, et il a dit qu'il fallait par tous les moyens de conciliation adoucir aux Génois le sacrifice qu'on leur imposait. Il a assuré le député de Gênes qu'il procurerait à son pays tous les avantages dont jouit l'Irlande sa patrie, et nous sommes curieux de voir comment il compensera l'État de Gênes du droit de nommer des députés à la Chambre des communes et à celle des pairs, prérogative dont jouit l'Irlande par son union à la Grande-Bretagne, et qui ne peut être donnée aux Génois puisque le Piémont n'a pas de parlement. Ce fait et beaucoup d'autres nous prouvent tous les jours que ce noble lord a moins étudié les rapports du continent, qu'il n'est frappé du danger auquel un nouveau système de blocus continental exposerait sa patrie.",
+  "original_unit_text_sha256": "5471021ebd99e170005c309525400f1357832e423895aae169078add5f3b2e86",
+  "original_unit_html_sha256": "9d3a3998eee1285fe459885f670c3d1d4bc869320d840f9bd6e409ee3e53bc10",
+  "original_units_file_sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751"
+}
