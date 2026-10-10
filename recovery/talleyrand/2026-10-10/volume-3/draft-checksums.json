@@ -2,9 +2,9 @@
   "volume": 3,
   "status": "incomplete_manuscript_drafts",
   "reread_complete": false,
-  "translated_unit_count": 95,
+  "translated_unit_count": 147,
   "first_unit": "v03-u000001",
-  "last_unit": "v03-u000095",
+  "last_unit": "v03-u000147",
   "source_units": "../source-volume-3/units.json",
   "files": [
     {
@@ -54,6 +54,38 @@
       "count": 12,
       "first": "v03-u000084",
       "last": "v03-u000095"
+    },
+    {
+      "name": "007-root-draft.json",
+      "sha256": "2f854168ed7bc3f30088740525952d7d7c6714a3087b4d2d5a8e8afe0cccb179",
+      "git_blob_sha": "b381e4bbf10ed3560cca4f13b4abc871e88e321c",
+      "count": 13,
+      "first": "v03-u000096",
+      "last": "v03-u000108"
+    },
+    {
+      "name": "008-root-draft.json",
+      "sha256": "7c6459c44850006015f315fa5418ce765ad714f3229d88119972cc0469bbbe8c",
+      "git_blob_sha": "d5b0e7d057be77eb9e134ea456200c4fe3eea140",
+      "count": 13,
+      "first": "v03-u000109",
+      "last": "v03-u000121"
+    },
+    {
+      "name": "009-root-draft.json",
+      "sha256": "4c27be58c3f72dec2b65634032b086b1684da2ac92140e59ff69651502677988",
+      "git_blob_sha": "98d569becb0b14617f13397dec9409d29bc1a866",
+      "count": 14,
+      "first": "v03-u000122",
+      "last": "v03-u000135"
+    },
+    {
+      "name": "010-root-draft.json",
+      "sha256": "ce529ac46268f72d7076318bdac2fd872e88f44dd9d084d34bb1ba10608caf8d",
+      "git_blob_sha": "ffa64ad4b130cc3bc87f4947eec58c99a11e30a6",
+      "count": 12,
+      "first": "v03-u000136",
+      "last": "v03-u000147"
     }
   ]
 }
