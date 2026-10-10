@@ -195,3 +195,5 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 `source-evidence/additional-collation/` preserves ten exact page images, reader-facing reports, source discrepancies and a public payload manifest. These cover eight known anomalies and the specific unit1128 sentence; they do not constitute full-volume printed collation. Workflow-only fields were omitted from the public metadata copies.
 
 The bounded unit1274 evidence preserves the printed royal-letter heading and dateline, which agree with the four digital witnesses. It confirms the inherited Vienne wording without asserting its historical accuracy. The reader-facing report and exact image excerpt are in `source-evidence/facsimile-u1274/`.
+
+The latest16-record reader-facing source-discrepancy ledger is `source-evidence/final-bounded-collation/source-discrepancies.json`; it supersedes the earlier ledger snapshot. This additional15-file bundle includes nine exact excerpts for the remaining bounded age/name/numeral and return-time comparisons. The conflicting inherited readings are retained; no unsupported restoration or full-volume printed collation is claimed.

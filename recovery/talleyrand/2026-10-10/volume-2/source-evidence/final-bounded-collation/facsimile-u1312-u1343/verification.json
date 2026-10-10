@@ -1,0 +1,195 @@
+{
+  "recorded_at_utc": "2026-10-10T15:00:48.813485+00:00",
+  "scope": "Bounded visual comparison of the return-time phrases at v02-u001312 and v02-u001343, their letter headings and the two October 31, 1814 datelines. No whole-volume printed collation or historical reconciliation is claimed.",
+  "edition": "Mémoires du prince de Talleyrand, II; Duc de Broglie; Paris: Calmann Lévy, 1891.",
+  "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+  "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+  "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+  "provider_md5_previously_verified": true,
+  "method": "Actual grayscale page renderings inspected visually; 200 dpi pdftoppm rendering and lossless rectangular excerpts. No OCR-only reading.",
+  "conclusion": "Both return-time phrases are printed exactly as the digital source reports: avant-hier soir in the ambassadors’ No 9 bis letter and avant-hier à midi in Talleyrand’s No 9 letter. Both printed datelines say 31 octobre 1814. The facsimile confirms a difference between the two published accounts and does not supply a corrective reading or historical reconciliation.",
+  "original_units_sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751",
+  "findings": [
+    {
+      "unit": "v02-u001312",
+      "printed_page": 404,
+      "printed_reading": "Il est revenu avant-hier soir de la course qu’il a faite en Hongrie avec l’empereur d’Autriche et le roi de Prusse.",
+      "excerpt": "facsimile-u1312-u1343/u001312-evening.png",
+      "crop_xyxy": [
+        380,
+        1360,
+        1320,
+        1465
+      ],
+      "letter_heading": "Nº 9 bis. — LES AMBASSADEURS DU ROI AU CONGRÈS, AU MINISTRE DES AFFAIRES ÉTRANGÈRES A PARIS.",
+      "dateline_unit": "v02-u001283",
+      "dateline_page": 400,
+      "dateline_excerpt": "facsimile-u1312-u1343/u001283-letter9bis-date.png",
+      "dateline_crop_xyxy": [
+        370,
+        815,
+        1290,
+        1020
+      ],
+      "source_text": "Il est revenu avant-hier soir de la course qu'il a faite en Hongrie avec l'empereur d'Autriche et le roi de Prusse.",
+      "source_text_sha256": "d9e2ef7eb5fee17f65f2617718508772517ea5ccb04443b12b2931e4920f57db",
+      "source_html_sha256": "02a01bffe0a182d1e0687f0a6d4b4e6c5e6115a360fe5d9e6d7eacb8bf71683c",
+      "printed_dateline": "Vienne, le 31 octobre 1814.",
+      "status": "digital_and_print_reading_verified; no_digital_restoration",
+      "dateline_visually_verified": true,
+      "pages": [
+        {
+          "printed_page": 404,
+          "pdf_page_1_based": 418,
+          "ia_leaf_0_based": 417,
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n417/mode/1up",
+          "unbundled_image_filename": "print-404_pdf-418.png",
+          "bundled": false,
+          "unbundled_file_sha256": "0a904e6f1a9bd650cb84b87a38377292a9d2a5b56b43def76c4f837086d58507",
+          "image_sha256": "0a904e6f1a9bd650cb84b87a38377292a9d2a5b56b43def76c4f837086d58507",
+          "visually_inspected": true
+        },
+        {
+          "printed_page": 400,
+          "pdf_page_1_based": 414,
+          "ia_leaf_0_based": 413,
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n413/mode/1up",
+          "unbundled_image_filename": "print-400_pdf-414.png",
+          "bundled": false,
+          "unbundled_file_sha256": "a0ceff2da881796492cd8b32c1f258f52c019370d2600c4117a65293256846aa",
+          "image_sha256": "a0ceff2da881796492cd8b32c1f258f52c019370d2600c4117a65293256846aa",
+          "visually_inspected": true
+        }
+      ],
+      "evidence_files": [
+        {
+          "filename": "u001312-evening.png",
+          "path": "facsimile-u1312-u1343/u001312-evening.png",
+          "sha256": "c98a1812405dc58f15cb534263e9d34a775e10ece7fc42af8413e74ac5379af7",
+          "bytes": 67934
+        },
+        {
+          "filename": "u001283-letter9bis-date.png",
+          "path": "facsimile-u1312-u1343/u001283-letter9bis-date.png",
+          "sha256": "6240b51ab212039201174e5417fb9496bd0abb5d448c9608e5496b9d88422f41",
+          "bytes": 82199
+        }
+      ]
+    },
+    {
+      "unit": "v02-u001343",
+      "printed_page": 411,
+      "printed_reading": "On raconte que pendant le voyage à Bude, d’où les souverains revinrent avant-hier à midi,",
+      "excerpt": "facsimile-u1312-u1343/u001343-noon.png",
+      "crop_xyxy": [
+        220,
+        438,
+        1150,
+        603
+      ],
+      "letter_heading": "Nº 9. — LE PRINCE DE TALLEYRAND AU ROI LOUIS XVIII.",
+      "dateline_unit": "v02-u001337",
+      "dateline_page": 409,
+      "dateline_excerpt": "facsimile-u1312-u1343/u001337-letter9-date.png",
+      "dateline_crop_xyxy": [
+        190,
+        700,
+        1130,
+        835
+      ],
+      "source_text": "On raconte que pendant le voyage à Bude, d'où les souverains revinrent avant-hier à midi, l'empereur Alexandre se plaignant de M. de Metternich, l'empereur François avait répondu qu'il croyait qu'il était mieux que les affaires fussent traitées par les ministres; qu'elles l'étaient avec plus de liberté et plus de suite; qu'il ne faisait point lui-même les siennes, mais que ses ministres ne faisaient rien que par ses ordres; qu'ensuite, et dans le cours de la conversation, il avait dit, entre autres choses que, quand ses[319] peuples, qui ne l'avaient jamais abandonné, qui avaient tout fait pour lui et lui avaient tout donné, étaient inquiets, comme ils l'étaient en ce moment, son devoir était de faire tout ce qui pouvait servir à les tranquilliser; que, sur cela, l'empereur Alexandre ayant demandé si son caractère et sa loyauté ne devaient pas prévenir et ôter toute espèce d'inquiétude, l'empereur François avait répondu que de bonnes frontières étaient les meilleures gardiennes de la paix.",
+      "source_text_sha256": "b4ba26fd7ee7a62b9b31203c1382a57920ffe41d354f9768e769cdf71e630c47",
+      "source_html_sha256": "ad7278d849f964ecaa2396a1dec2425c3f9506adafd7b6b241b347177c7cfdb5",
+      "printed_dateline": "Vienne, le 31 octobre 1814.",
+      "status": "digital_and_print_reading_verified; no_digital_restoration",
+      "dateline_visually_verified": true,
+      "pages": [
+        {
+          "printed_page": 411,
+          "pdf_page_1_based": 425,
+          "ia_leaf_0_based": 424,
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n424/mode/1up",
+          "unbundled_image_filename": "print-411_pdf-425.png",
+          "bundled": false,
+          "unbundled_file_sha256": "54816ed0e5c675822ba4d9eff2f36bdb362f3eccdb03dc293aeec749378faef7",
+          "image_sha256": "54816ed0e5c675822ba4d9eff2f36bdb362f3eccdb03dc293aeec749378faef7",
+          "visually_inspected": true
+        },
+        {
+          "printed_page": 409,
+          "pdf_page_1_based": 423,
+          "ia_leaf_0_based": 422,
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n422/mode/1up",
+          "unbundled_image_filename": "print-409_pdf-423.png",
+          "bundled": false,
+          "unbundled_file_sha256": "aabcb557a40d4cefb08ddc1ef778bfe3eaa07fe08f3adc1ed8638e68ca378057",
+          "image_sha256": "aabcb557a40d4cefb08ddc1ef778bfe3eaa07fe08f3adc1ed8638e68ca378057",
+          "visually_inspected": true
+        }
+      ],
+      "evidence_files": [
+        {
+          "filename": "u001343-noon.png",
+          "path": "facsimile-u1312-u1343/u001343-noon.png",
+          "sha256": "ff493c8b260a0d57a4d6306d68947aee8eba3bb3ffa416ce4db9396ceb7880b0",
+          "bytes": 117529
+        },
+        {
+          "filename": "u001337-letter9-date.png",
+          "path": "facsimile-u1312-u1343/u001337-letter9-date.png",
+          "sha256": "6aebdd7e963a74d13d2c6337b555689ebc29c04252b66aad4d81d43b18768fd7",
+          "bytes": 52733
+        }
+      ]
+    }
+  ],
+  "source_pdf_bundled": false,
+  "relative_path_base": "All local evidence paths are relative to the payload directory.",
+  "digital_source_inventory_bundled": false,
+  "bundled_evidence_files": [
+    "facsimile-u1312-u1343/u001312-evening.png",
+    "facsimile-u1312-u1343/u001343-noon.png",
+    "facsimile-u1312-u1343/u001283-letter9bis-date.png",
+    "facsimile-u1312-u1343/u001337-letter9-date.png",
+    "facsimile-u1312-u1343/REPORT.txt",
+    "facsimile-u1312-u1343/verification.json"
+  ],
+  "unbundled_full_page_context": [
+    {
+      "filename": "print-400_pdf-414.png",
+      "printed_page": 400,
+      "pdf_page_1_based": 414,
+      "sha256": "a0ceff2da881796492cd8b32c1f258f52c019370d2600c4117a65293256846aa",
+      "bytes": 931141,
+      "bundled": false,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n413/mode/1up"
+    },
+    {
+      "filename": "print-404_pdf-418.png",
+      "printed_page": 404,
+      "pdf_page_1_based": 418,
+      "sha256": "0a904e6f1a9bd650cb84b87a38377292a9d2a5b56b43def76c4f837086d58507",
+      "bytes": 1149897,
+      "bundled": false,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n417/mode/1up"
+    },
+    {
+      "filename": "print-409_pdf-423.png",
+      "printed_page": 409,
+      "pdf_page_1_based": 423,
+      "sha256": "aabcb557a40d4cefb08ddc1ef778bfe3eaa07fe08f3adc1ed8638e68ca378057",
+      "bytes": 1053794,
+      "bundled": false,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n422/mode/1up"
+    },
+    {
+      "filename": "print-411_pdf-425.png",
+      "printed_page": 411,
+      "pdf_page_1_based": 425,
+      "sha256": "54816ed0e5c675822ba4d9eff2f36bdb362f3eccdb03dc293aeec749378faef7",
+      "bytes": 1119679,
+      "bundled": false,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n424/mode/1up"
+    }
+  ]
+}
