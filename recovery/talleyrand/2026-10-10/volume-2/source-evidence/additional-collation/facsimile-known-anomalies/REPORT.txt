@@ -1,0 +1,91 @@
+TARGETED PRINTED-FACSIMILE COLLATION: VOLUME II KNOWN ANOMALIES
+
+Targeted visual comparison of source units v02-u000086, v02-u000108, v02-u000179, v02-u000305, v02-u000745, v02-u000765, v02-u000825 and v02-u000843. This is limited printed-page evidence, not whole-volume collation.
+
+Evidence paths are relative to the payload directory. The full PDFs, provider metadata and title-page image are not bundled; the nine listed page PNGs are included.
+
+RESULTS
+Two target repairs are witness-supported: u86 HTML “pas accorder” (TXT already complete), and u305 “que de ce mépris” (plus local “leurs yeux”). Six other targets preserve the printed wording or blank and supply no recoverable missing text.
+
+Mémoires du prince de Talleyrand, II; published by the Duc de Broglie; Paris: Calmann Lévy, 1891. Edition identification is supported by the visually checked title page at PDF page 13 of the linked scan; the title-page image is not bundled.
+
+Source: https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf
+SHA256: 3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb
+MD5 matches Internet Archive file metadata: 1f1eaf1b894977996ec635814a2d2a10
+
+These are two PDF derivatives of the same Google/University of California scanned copy, not two independent printed editions or physical copies. No claim that this is the exact BnF physical copy used by Gutenberg.
+
+v02-u000086 | printed pp. 43, 44
+Printed reading: on ne pouvait pas accorder la réforme de ceux-ci, et le pape ne dut pas l’espérer.
+Result: print_confirms_txt_reading_and_html_lacuna
+Printed p.43 ends with “on ne pouvait”; p.44 begins “pas accorder la réforme de ceux-ci”. This directly confirms the complete negative clause already present in the digital TXT witnesses, and supplies the HTML loss “pas acc”.
+Evidence: facsimile-known-anomalies/original-print-043_pdf-057.png
+SHA256: 1c0aeb62d992820e00da2cc5d847764ad44fdee5540b380160e7d1292b5dc6ba
+Public page: https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n56/mode/1up
+Evidence: facsimile-known-anomalies/original-print-044_pdf-058.png
+SHA256: f664d749597da26c4e3f2e7a9b4bce6c8f11cbc44d8ef6f761b89db6f04bb9a6
+Public page: https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n57/mode/1up
+Witness-supported supplemental reading: 'on ne pouvait order la réforme de ceux-ci' -> 'on ne pouvait pas accorder la réforme de ceux-ci'
+
+v02-u000108 | printed pp. 54
+Printed reading: si elles n’empêchent pas le chef de l’Église de remplir librement les fonctions du nonce apostolique, le pape ne peut pas
+Result: anomalous_print_reading_confirmed_no_restoration
+The printed edition itself says “fonctions du nonce apostolique”, attributing these functions in the grammar of the sentence to the head of the Church. This is not a newly recoverable digital omission. No conjectural substitution is warranted by this facsimile.
+Evidence: facsimile-known-anomalies/original-print-054_pdf-068.png
+SHA256: c84f58be06ea6e53eb3dc87c5150d93c2a22cddd8d022cf654101651ebd4cbe1
+Public page: https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n67/mode/1up
+
+v02-u000179 | printed pp. 78
+Printed reading: des cardinaux Fesch, Maury et Caselli, des archevêques de Tours des évêques de Gand¹
+Result: malformed_print_list_confirmed_no_restoration
+The printed line has plural “des archevêques de Tours” followed directly by “des évêques de Gand”, without an intervening comma or second archbishop name. Superscript 1 is the printed footnote marker corresponding to the digital note reference [59]. The facsimile supplies no missing name or conjunction.
+Evidence: facsimile-known-anomalies/original-print-078_pdf-092.png
+SHA256: d0f71109e8793a0a1b21f3afaf1fe56b71594b3c97d0e32ad7889db2681ec59b
+Public page: https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n91/mode/1up
+
+v02-u000305 | printed pp. 132
+Printed reading: passaient sous leurs yeux, et qu’il ne vît pas que de ce mépris, devait sortir parmi les peuples, une disposition générale au soulèvement et bientôt après à la vengeance.
+Result: digital_omission_restorable_from_print
+The printed text contains “que de ce mépris”, where the source unit has “que ce mépris”. The preposition de is therefore a verified restoration, not a contextual conjecture. The comma after mépris is retained in print. In the same inspected sentence, print also has plural “leurs yeux”, whereas the unit has “leur yeux”; this local secondary digital loss is likewise verified.
+Evidence: facsimile-known-anomalies/original-print-132_pdf-146.png
+SHA256: 07f1522f203ce71d432104a6a47b6f0d527be30c8261a72c1c3c813a21ad5e6f
+Public page: https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n145/mode/1up
+Witness-supported supplemental reading: 'que ce mépris, devait sortir' -> 'que de ce mépris, devait sortir'
+Witness-supported supplemental reading: 'qui passaient sous leur yeux' -> 'qui passaient sous leurs yeux'
+
+v02-u000745 | printed pp. 254
+Printed reading: » Paris, le [blank] août 1814.
+Result: printed_blank_day_confirmed_no_restoration
+A visibly empty space separates le from août in the printed date. No day numeral is present. [blank] records the visible gap; it is not text printed in the volume. The day cannot be supplied from this witness.
+Evidence: facsimile-known-anomalies/original-print-254_pdf-268.png
+SHA256: 208085820f2062a80504b5fc6d6e005526782a8cfa749f361b80e1bb20747f7b
+Public page: https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n267/mode/1up
+
+v02-u000765 | printed pp. 257
+Printed reading: On soupçonnait les menées de Fouché avec la famille Murat dans le Midi, approchait le duc d’Angoulême;
+Result: malformed_print_connective_confirmed_no_restoration
+The printed first line ends with Murat without punctuation; the next begins “dans le Midi, approchait le duc d’Angoulême;”. No conjunction or alternative punctuation supplies the defective connection. Dividing after Murat remains a conjectural interpretation, not a printed-source restoration.
+Evidence: facsimile-known-anomalies/original-print-257_pdf-271.png
+SHA256: 277b47c6a1356b9bf6e190d2fc09d1d7d482027506be35930f087eb3cc548c99
+Public page: https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n270/mode/1up
+
+v02-u000825 | printed pp. 266
+Printed reading: » ARTICLE PREMIER. — Il y aura paix et amnistie entre Leurs Majestés impériales d’Autriche et de Russie,
+Result: amnistie_print_reading_confirmed_no_restoration
+The printed treaty article plainly reads “paix et amnistie”. It does not read amitié. This is the source’s wording, rather than a demonstrated digital substitution. The heading uses small capitals, represented here by capitals.
+Evidence: facsimile-known-anomalies/original-print-266_pdf-280.png
+SHA256: dfa425732b952fa24af447822a69eb70784bfe4feffaa1604c3258b7f5eea58a
+Public page: https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n279/mode/1up
+
+v02-u000843 | printed pp. 268
+Printed reading: celles de Hambourg, Anvers, Berg-op-Zoom, dans l’espace de six jours; Mantoue, Palma-Nuova, Venise et Peschiera; les places de l’Oder et de l’Elbe, dans quinze jours;
+Result: printed_deadline_gap_confirmed_scope_unresolved
+The four Italian places are delimited by semicolons and have no express deadline in the printed text. The following fifteen-day phrase directly follows the Oder/Elbe group. The facsimile establishes the punctuation and omission of an express Italian deadline but cannot decide the retrospective scope of the phrase. No deadline should be silently inserted.
+Evidence: facsimile-known-anomalies/original-print-268_pdf-282.png
+SHA256: 3bcee0c269c31f3192a9d2555128e84ad50208a055de8c058faae58859f7603f
+Public page: https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n281/mode/1up
+
+METHOD
+pdftoppm -f N -l N -r 200 -png -singlefile. PDF page N = printed Arabic page + 14. Both the Additional Text PDF rendering and the original Image Container PDF rendering were visually inspected for each target. The latter grayscale scan retains clearer punctuation and is the primary evidence linked here. Source scan native detail is approximately 97 ppi; 200 dpi rendering does not invent additional detail.
+The transcriptions preserve relevant words and punctuation, while normalizing line wrapping and spacing. Editorial square brackets identify the blank in u745. The u179 superscript marker is transcribed as ¹. Full physical line contexts and original source-unit hashes are in facsimile-known-anomalies/verification.json.
+Original digital witnesses are preserved; the comparisons and supplemental readings above do not silently amend them.

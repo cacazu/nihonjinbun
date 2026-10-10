@@ -1,0 +1,263 @@
+{
+  "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+  "scope": "Targeted visual comparison of source units v02-u000086, v02-u000108, v02-u000179, v02-u000305, v02-u000745, v02-u000765, v02-u000825 and v02-u000843. This is limited printed-page evidence, not whole-volume collation.",
+  "edition": "Mémoires du prince de Talleyrand, II; published by the Duc de Broglie; Paris: Calmann Lévy, 1891. Edition identification is supported by the visually checked title page at PDF page 13 of the linked scan; the title-page image is not bundled.",
+  "provenance": {
+    "item_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2",
+    "image_container_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+    "image_container_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+    "image_container_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+    "provider_md5_verified": true,
+    "image_container_pdf_bytes": 47551928,
+    "provider_metadata_sha256": "0b36a1b3ed0d4f31b87775b0c8147e3700f1c26172f939a08e1889cb3ba50722",
+    "initial_additional_text_pdf_sha256": "845acc22b96d5ce6e81c76b162c296a35d7ff6beee65597b77dabef3311242f7",
+    "render_method": "pdftoppm -f N -l N -r 200 -png -singlefile. PDF page N = printed Arabic page + 14. Both the Additional Text PDF rendering and the original Image Container PDF rendering were visually inspected for each target. The latter grayscale scan retains clearer punctuation and is the primary evidence linked here. Source scan native detail is approximately 97 ppi; 200 dpi rendering does not invent additional detail.",
+    "witness_limit": "These are two PDF derivatives of the same Google/University of California scanned copy, not two independent printed editions or physical copies. No claim that this is the exact BnF physical copy used by Gutenberg.",
+    "image_container_pdf_bundled": false,
+    "provider_metadata_source_item_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2",
+    "provider_metadata_bundled": false,
+    "initial_additional_text_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202_text.pdf",
+    "initial_additional_text_pdf_bundled": false
+  },
+  "findings": [
+    {
+      "unit": "v02-u000086",
+      "original_unit_text_sha256": "43f9557401b6eb683bb33b66d6723436d4d426ad8af5b07ab24f4f32657e7117",
+      "original_unit_html_sha256": "525714503560f919fce221dcd931f76007cb5716b2e4392000d953f921284bbc",
+      "digital_target_text": "Bonaparte avait fait décréter, sous forme de loi, en même temps que le concordat, des articles organiques, tant pour le clergé catholique que pour le culte protestant. Plusieurs de ces articles déplurent au pape, en ce qu'ils paraissaient mettre l'Église de France dans une trop grande dépendance du gouvernement, même pour des détails secondaires. Il s'en plaignit avec modération, en demanda la réforme; obtint peu à peu, et même sans beaucoup de difficultés, des modifications essentielles. Quelques-uns de ces articles étaient d'ailleurs transitoires; leurs effets devaient cesser avec les circonstances qui les avaient provoqués. Il en était d'autres qui découlaient naturellement des anciennes libertés gallicanes; on ne pouvait order la réforme de ceux-ci, et le pape ne dut pas l'espérer. Pour faire le concordat, on avait été obligé de renoncer momentanément à ces libertés; le concordat fait, il était urgent de rentrer dans nos privilèges. Tout ce qui était véritablement nécessaire avait été accordé, sinon tout de suite, du moins avec le temps. Le pape fut parfaitement secondé dans ses désirs par l'évêque de Nantes, comme on le verra plus bas, et par son légat, le cardinal Caprara. Celui-ci, connaissant le caractère du premier consul, mit une grande sagesse et une mesure extrême dans toute sa conduite, sachant attendre, craignant d'irriter, et trop heureux de ce qu'on avait obtenu pour chercher à le compromettre.",
+      "printed_reading": "on ne pouvait pas accorder la réforme de ceux-ci, et le pape ne dut pas l’espérer.",
+      "transcription_convention": "Words and relevant punctuation preserved; line wrapping and ordinary typographic spacing normalized. Bracketed text is an editorial description, not supplied French text.",
+      "outcome": "print_confirms_txt_reading_and_html_lacuna",
+      "finding": "Printed p.43 ends with “on ne pouvait”; p.44 begins “pas accorder la réforme de ceux-ci”. This directly confirms the complete negative clause already present in the digital TXT witnesses, and supplies the HTML loss “pas acc”.",
+      "evidence": [
+        {
+          "printed_page": 43,
+          "pdf_page_1_based": 57,
+          "ia_leaf_0_based": 56,
+          "image_path": "facsimile-known-anomalies/original-print-043_pdf-057.png",
+          "image_sha256": "1c0aeb62d992820e00da2cc5d847764ad44fdee5540b380160e7d1292b5dc6ba",
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n56/mode/1up",
+          "visually_inspected": true
+        },
+        {
+          "printed_page": 44,
+          "pdf_page_1_based": 58,
+          "ia_leaf_0_based": 57,
+          "image_path": "facsimile-known-anomalies/original-print-044_pdf-058.png",
+          "image_sha256": "f664d749597da26c4e3f2e7a9b4bce6c8f11cbc44d8ef6f761b89db6f04bb9a6",
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n57/mode/1up",
+          "visually_inspected": true
+        }
+      ],
+      "guarded_supplemental_replacements": [
+        {
+          "find": "on ne pouvait order la réforme de ceux-ci",
+          "replace": "on ne pouvait pas accorder la réforme de ceux-ci",
+          "source": "printed pp.43–44, visually verified; agrees with checked TXT reading"
+        }
+      ],
+      "physical_line_context": [
+        "[p.43, final body line] naturellement des anciennes libertés gallicanes; on ne pouvait",
+        "[p.44, first body line] pas accorder la réforme de ceux-ci, et le pape ne dut pas",
+        "[p.44, second body line] l’espérer. Pour faire le concordat, on avait été obligé de"
+      ]
+    },
+    {
+      "unit": "v02-u000108",
+      "original_unit_text_sha256": "3d8a58b191d58a3a12e053e2ce90d05bb44daf694fe50cd05f12b6211223f361",
+      "original_unit_html_sha256": "fa7d9f9c0f63f9ee394e590ef86271d9377f464fc7b051a4b26a8bfb45bc1a82",
+      "digital_target_text": "Réponse.—La primauté dont le pape jouit de droit divin, étant tout à l'avantage spirituel de l'Église, nous croyons ici lui rendre hommage en répondant que si les affaires temporelles n'ont par elles-mêmes aucun rapport nécessaire avec le spirituel, si elles n'empêchent pas le chef de l'Église de remplir librement les fonctions du nonce apostolique, le pape ne peut pas, par le seul motif des affaires temporelles, refuser son intervention dans les affaires spirituelles.",
+      "printed_reading": "si elles n’empêchent pas le chef de l’Église de remplir librement les fonctions du nonce apostolique, le pape ne peut pas",
+      "transcription_convention": "Words and relevant punctuation preserved; line wrapping and ordinary typographic spacing normalized. Bracketed text is an editorial description, not supplied French text.",
+      "outcome": "anomalous_print_reading_confirmed_no_restoration",
+      "finding": "The printed edition itself says “fonctions du nonce apostolique”, attributing these functions in the grammar of the sentence to the head of the Church. This is not a newly recoverable digital omission. No conjectural substitution is warranted by this facsimile.",
+      "evidence": [
+        {
+          "printed_page": 54,
+          "pdf_page_1_based": 68,
+          "ia_leaf_0_based": 67,
+          "image_path": "facsimile-known-anomalies/original-print-054_pdf-068.png",
+          "image_sha256": "c84f58be06ea6e53eb3dc87c5150d93c2a22cddd8d022cf654101651ebd4cbe1",
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n67/mode/1up",
+          "visually_inspected": true
+        }
+      ],
+      "guarded_supplemental_replacements": [],
+      "physical_line_context": []
+    },
+    {
+      "unit": "v02-u000179",
+      "original_unit_text_sha256": "7bdf488d02df46a750597d0069cd99c916bd2b7f7e1965d76a276cc041799cf4",
+      "original_unit_html_sha256": "be7b768830315365502d5e0b80d7aaf0034320052ad6400c6ebf698bd2291263",
+      "digital_target_text": "Formée en janvier 1811, cette commission termina ses travaux à la fin de mars. Elle était composée des cardinaux Fesch, Maury et Caselli, des archevêques de Tours des évêques de Gand[59], d'Évreux, de Nantes, de Trêves, et de M. l'abbé Émery.",
+      "printed_reading": "des cardinaux Fesch, Maury et Caselli, des archevêques de Tours des évêques de Gand¹",
+      "transcription_convention": "Words and relevant punctuation preserved; line wrapping and ordinary typographic spacing normalized. Bracketed text is an editorial description, not supplied French text.",
+      "outcome": "malformed_print_list_confirmed_no_restoration",
+      "finding": "The printed line has plural “des archevêques de Tours” followed directly by “des évêques de Gand”, without an intervening comma or second archbishop name. Superscript 1 is the printed footnote marker corresponding to the digital note reference [59]. The facsimile supplies no missing name or conjunction.",
+      "evidence": [
+        {
+          "printed_page": 78,
+          "pdf_page_1_based": 92,
+          "ia_leaf_0_based": 91,
+          "image_path": "facsimile-known-anomalies/original-print-078_pdf-092.png",
+          "image_sha256": "d0f71109e8793a0a1b21f3afaf1fe56b71594b3c97d0e32ad7889db2681ec59b",
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n91/mode/1up",
+          "visually_inspected": true
+        }
+      ],
+      "guarded_supplemental_replacements": [],
+      "physical_line_context": [
+        "[third line of paragraph] Fesch, Maury et Caselli, des archevêques de Tours des",
+        "[fourth line begins] évêques de Gand¹,"
+      ]
+    },
+    {
+      "unit": "v02-u000305",
+      "original_unit_text_sha256": "31f206274e048a1b8948441828c8dc7ef91bfce1caa687f9a2ec1fb39783c5ce",
+      "original_unit_html_sha256": "5dd882d03493629372013b8e34fb09b686626e4c71df5ca39a0b2d66bfa52bf3",
+      "digital_target_text": "Il a fallu que toutes les illusions s'emparassent à la fois de l'esprit de Napoléon; qu'il se livrât sans prévision aux expéditions les plus hasardeuses; que, par caprice, il créât des trônes, et que par d'autres caprices, il leur ôtât toute chance de stabilité, et se fît des ennemis de ceux-là mêmes qu'il plaçait sur ces trônes. Il a fallu que, pour détruire la confiance de la France et des nations étrangères, il leur imposât des institutions, d'abord républicaines, puis monarchiques, puis qu'il finît par les soumettre à sa despotique domination. Il a fallu, enfin, qu'il donnât aux peuples, qui bientôt s'entendent entre eux, la triste consolation de mépriser successivement les différentes formes de gouvernement qui passaient sous leur yeux, et qu'il ne vît pas que ce mépris, devait sortir parmi les peuples, une disposition générale au soulèvement et bientôt après à la vengeance.",
+      "printed_reading": "passaient sous leurs yeux, et qu’il ne vît pas que de ce mépris, devait sortir parmi les peuples, une disposition générale au soulèvement et bientôt après à la vengeance.",
+      "transcription_convention": "Words and relevant punctuation preserved; line wrapping and ordinary typographic spacing normalized. Bracketed text is an editorial description, not supplied French text.",
+      "outcome": "digital_omission_restorable_from_print",
+      "finding": "The printed text contains “que de ce mépris”, where the source unit has “que ce mépris”. The preposition de is therefore a verified restoration, not a contextual conjecture. The comma after mépris is retained in print. In the same inspected sentence, print also has plural “leurs yeux”, whereas the unit has “leur yeux”; this local secondary digital loss is likewise verified.",
+      "evidence": [
+        {
+          "printed_page": 132,
+          "pdf_page_1_based": 146,
+          "ia_leaf_0_based": 145,
+          "image_path": "facsimile-known-anomalies/original-print-132_pdf-146.png",
+          "image_sha256": "07f1522f203ce71d432104a6a47b6f0d527be30c8261a72c1c3c813a21ad5e6f",
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n145/mode/1up",
+          "visually_inspected": true
+        }
+      ],
+      "guarded_supplemental_replacements": [
+        {
+          "find": "que ce mépris, devait sortir",
+          "replace": "que de ce mépris, devait sortir",
+          "source": "printed p.132, fourth and fifth body lines, visually verified"
+        },
+        {
+          "find": "qui passaient sous leur yeux",
+          "replace": "qui passaient sous leurs yeux",
+          "source": "printed p.132, third and fourth body lines, visually verified"
+        }
+      ],
+      "physical_line_context": [
+        "[fourth body line] passaient sous leurs yeux, et qu’il ne vît pas que de ce mépris,",
+        "[fifth body line] devait sortir parmi les peuples, une disposition générale au",
+        "[sixth body line] soulèvement et bientôt après à la vengeance."
+      ]
+    },
+    {
+      "unit": "v02-u000745",
+      "original_unit_text_sha256": "78e7c857c4b9ff35f31980d18291bc078f8cf2bc6bca0c730fa467af9afd1fc1",
+      "original_unit_html_sha256": "80b0a9b4454fdb8ab9c9b709d610a1696562426056e3f2453a10f076eacb7218",
+      "digital_target_text": "»Paris, le août 1814.",
+      "printed_reading": "» Paris, le [blank] août 1814.",
+      "transcription_convention": "Words and relevant punctuation preserved; line wrapping and ordinary typographic spacing normalized. Bracketed text is an editorial description, not supplied French text.",
+      "outcome": "printed_blank_day_confirmed_no_restoration",
+      "finding": "A visibly empty space separates le from août in the printed date. No day numeral is present. [blank] records the visible gap; it is not text printed in the volume. The day cannot be supplied from this witness.",
+      "evidence": [
+        {
+          "printed_page": 254,
+          "pdf_page_1_based": 268,
+          "ia_leaf_0_based": 267,
+          "image_path": "facsimile-known-anomalies/original-print-254_pdf-268.png",
+          "image_sha256": "208085820f2062a80504b5fc6d6e005526782a8cfa749f361b80e1bb20747f7b",
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n267/mode/1up",
+          "visually_inspected": true
+        }
+      ],
+      "guarded_supplemental_replacements": [],
+      "physical_line_context": []
+    },
+    {
+      "unit": "v02-u000765",
+      "original_unit_text_sha256": "f496cd024c9308f23a640e65d41379a7965215f22456ac1eab1979d844f4a192",
+      "original_unit_html_sha256": "d8a821b0be4db16cb3d0bc3b2572d8b06c6d56868caa6925a7b9e4ccb24c9a8d",
+      "digital_target_text": "On soupçonnait les menées de Fouché avec la famille Murat dans le Midi, approchait le duc d'Angoulême; le duc de Berry intriguait en Bretagne; le comte d'Artois s'était rapproché de la frontière de l'Allemagne et se trouvait à Bâle; des mouvements avaient eu lieu à Vesoul et à Troyes! On était tellement fatigué en France de l'excès du despotisme militaire de l'empereur, et on espérait si peu de concessions de sa part, qu'il importait de connaître jusqu'où la crise amenée par lui entraînerait la France et l'Europe. Ce n'était plus une guerre ordinaire; les nations étaient en mouvement. Cette situation alarmait tous les esprits: de tous côtés, on cherchait la solution de cet état de choses.",
+      "printed_reading": "On soupçonnait les menées de Fouché avec la famille Murat dans le Midi, approchait le duc d’Angoulême;",
+      "transcription_convention": "Words and relevant punctuation preserved; line wrapping and ordinary typographic spacing normalized. Bracketed text is an editorial description, not supplied French text.",
+      "outcome": "malformed_print_connective_confirmed_no_restoration",
+      "finding": "The printed first line ends with Murat without punctuation; the next begins “dans le Midi, approchait le duc d’Angoulême;”. No conjunction or alternative punctuation supplies the defective connection. Dividing after Murat remains a conjectural interpretation, not a printed-source restoration.",
+      "evidence": [
+        {
+          "printed_page": 257,
+          "pdf_page_1_based": 271,
+          "ia_leaf_0_based": 270,
+          "image_path": "facsimile-known-anomalies/original-print-257_pdf-271.png",
+          "image_sha256": "277b47c6a1356b9bf6e190d2fc09d1d7d482027506be35930f087eb3cc548c99",
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n270/mode/1up",
+          "visually_inspected": true
+        }
+      ],
+      "guarded_supplemental_replacements": [],
+      "physical_line_context": [
+        "On soupçonnait les menées de Fouché avec la famille Murat",
+        "dans le Midi, approchait le duc d’Angoulême; le duc de Berry"
+      ]
+    },
+    {
+      "unit": "v02-u000825",
+      "original_unit_text_sha256": "e4e4f5af55e77da773cf692c4fd222f2a62dbc6e2662cd810e3ae3693fb480f5",
+      "original_unit_html_sha256": "e522d26625b9a857a4d2fa6f809a56bdd5f4e6f570d6cfb3906ecdbeb8fc43db",
+      "digital_target_text": "»Article premier.—Il y aura paix et amnistie entre Leurs Majestés impériales d'Autriche et de Russie, Sa Majesté le roi du royaume uni de la Grande-Bretagne et de l'Irlande, et sa Majesté le roi de Prusse, agissant en même temps au nom de tous leurs alliés, et Sa Majesté l'empereur des Français, leurs héritiers et successeurs à perpétuité.",
+      "printed_reading": "» ARTICLE PREMIER. — Il y aura paix et amnistie entre Leurs Majestés impériales d’Autriche et de Russie,",
+      "transcription_convention": "Words and relevant punctuation preserved; line wrapping and ordinary typographic spacing normalized. Bracketed text is an editorial description, not supplied French text.",
+      "outcome": "amnistie_print_reading_confirmed_no_restoration",
+      "finding": "The printed treaty article plainly reads “paix et amnistie”. It does not read amitié. This is the source’s wording, rather than a demonstrated digital substitution. The heading uses small capitals, represented here by capitals.",
+      "evidence": [
+        {
+          "printed_page": 266,
+          "pdf_page_1_based": 280,
+          "ia_leaf_0_based": 279,
+          "image_path": "facsimile-known-anomalies/original-print-266_pdf-280.png",
+          "image_sha256": "dfa425732b952fa24af447822a69eb70784bfe4feffaa1604c3258b7f5eea58a",
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n279/mode/1up",
+          "visually_inspected": true
+        }
+      ],
+      "guarded_supplemental_replacements": [],
+      "physical_line_context": []
+    },
+    {
+      "unit": "v02-u000843",
+      "original_unit_text_sha256": "997a341b65f10f1fb7e842ca483a5a3ef47bd70c2ef40a6e93f106c1478b904f",
+      "original_unit_html_sha256": "ad03fc1cceb4b9f7bb2d723cc35b9419dee3c46e6b3e1668455d58c5ed0557ee",
+      "digital_target_text": "»Article VI.—Sa Majesté l'empereur des Français remettra, aussitôt après la ratification du présent traité préliminaire, les forteresses et forts des pays cédés et ceux qui sont encore occupés par ses troupes en Allemagne, sans exception, et notamment la place de Mayence, dans six jours; celles de Hambourg, Anvers, Berg-op-Zoom, dans l'espace de six jours; Mantoue, Palma-Nuova, Venise et Peschiera; les places de l'Oder et de l'Elbe, dans quinze jours; et les autres places et forts, dans le plus court délai possible, qui ne pourra excéder celui de quinze jours. Ces forts et places seront remis dans l'état où ils se trouvent présentement avec toute leur artillerie, munitions de guerre et de bouche, archives...; les garnisons françaises de ces places sortiront avec armes, bagages et avec leurs propriétés particulières.",
+      "printed_reading": "celles de Hambourg, Anvers, Berg-op-Zoom, dans l’espace de six jours; Mantoue, Palma-Nuova, Venise et Peschiera; les places de l’Oder et de l’Elbe, dans quinze jours;",
+      "transcription_convention": "Words and relevant punctuation preserved; line wrapping and ordinary typographic spacing normalized. Bracketed text is an editorial description, not supplied French text.",
+      "outcome": "printed_deadline_gap_confirmed_scope_unresolved",
+      "finding": "The four Italian places are delimited by semicolons and have no express deadline in the printed text. The following fifteen-day phrase directly follows the Oder/Elbe group. The facsimile establishes the punctuation and omission of an express Italian deadline but cannot decide the retrospective scope of the phrase. No deadline should be silently inserted.",
+      "evidence": [
+        {
+          "printed_page": 268,
+          "pdf_page_1_based": 282,
+          "ia_leaf_0_based": 281,
+          "image_path": "facsimile-known-anomalies/original-print-268_pdf-282.png",
+          "image_sha256": "3bcee0c269c31f3192a9d2555128e84ad50208a055de8c058faae58859f7603f",
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n281/mode/1up",
+          "visually_inspected": true
+        }
+      ],
+      "guarded_supplemental_replacements": [],
+      "physical_line_context": []
+    }
+  ],
+  "relative_path_base": "Paths in this document are relative to the payload directory.",
+  "digital_source_fingerprints": [
+    {
+      "name": "units.json",
+      "sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751",
+      "bundled": false,
+      "role": "Digital source-unit inventory, referenced for text and DOM hashes."
+    },
+    {
+      "name": "source.html",
+      "sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+      "url": "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html",
+      "bundled": false
+    }
+  ]
+}

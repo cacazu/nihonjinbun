@@ -1,6 +1,6 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 1202 entries in batches 001–145 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 1240 entries in batches 001–150 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -153,6 +153,11 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `143-root-draft.json`: `1a86a5fe31bf464ed83928518ee1df8141145fa3664e83946bf5956bc0b14717`
 - `144-root-draft.json`: `adb784e15d86a4d1753cc9a4c5c090224237c755c5f2c20280a4e8a983c42ec1`
 - `145-root-draft.json`: `dd5554c38933c8f2604fa015814cf4febd3ac6fdafae9d84dc7cab61610ce145`
+- `146-root-draft.json`: `ccc3144e0a815e0f19d2528c76e69d085916e2cdfb1135999629c7a2e237441e`
+- `147-root-draft.json`: `f7740568bef37f3ebd0e2155260d85e8271afe1140437273196ddfb85443976a`
+- `148-root-draft.json`: `211bba4d430162adba6dbbd9bd089213ebcd540724feac38a6aad4d5b9a69970`
+- `149-root-draft.json`: `d04d9e31dc099dc632f189a0fa8eee571713dcd1a6ed13a29d533cc5958e42d7`
+- `150-root-draft.json`: `d03260f20483e52ca140f6000862a2b6f5c10963ca441cf5018264693ec7f468`
 
 ## Source evidence checksums
 
@@ -164,3 +169,7 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `source-evidence/facsimile-u889/scan-298.png`: `4b434f2669e59d5ae51ea056f9544d95f6bd89a32e7b5c905c9c09467055664c`
 - `source-evidence/facsimile-u889/scan-299.png`: `b411d7dd3059a7020914aacfb2e52be52b8a88c24d903502c03449355ea677d9`
 - `source-evidence/facsimile-u889/scan-306.png`: `252771f77674f600874d60c0d7559a8b8499897aa9a687859dc762e34781f0d7`
+
+## Additional bounded printed-source comparisons
+
+`source-evidence/additional-collation/` preserves ten exact page images, reader-facing reports, source discrepancies and a public payload manifest. These cover eight known anomalies and the specific unit1128 sentence; they do not constitute full-volume printed collation. Workflow-only fields were omitted from the public metadata copies.

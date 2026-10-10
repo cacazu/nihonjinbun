@@ -1,0 +1,373 @@
+{
+  "recorded_at_utc": "2026-10-10T12:52:06.704147+00:00",
+  "scope": "Comparison of current and legacy Gutenberg HTML/TXT, supplemented by bounded visual checks of the 1891 Calmann Lévy printed scan at units 86, 108, 179, 305, 745, 765, 825, 843, 889, 903 and 1128. Printed pages 282–285 were checked around the u889 lacuna for substantive continuity. This is not whole-volume printed collation. Original digital witnesses remain unchanged.",
+  "files": [
+    {
+      "name": "source.html",
+      "sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+      "bundled": false,
+      "url": "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html"
+    },
+    {
+      "name": "source.txt",
+      "sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+      "bundled": false,
+      "url": "https://www.gutenberg.org/cache/epub/28427/pg28427.txt"
+    },
+    {
+      "name": "source-legacy.html",
+      "sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+      "bundled": false,
+      "url": "https://www.gutenberg.org/files/28427/28427-h/28427-h.htm"
+    },
+    {
+      "name": "source-legacy.txt",
+      "sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+      "bundled": false,
+      "url": "https://www.gutenberg.org/files/28427/28427-8.txt"
+    }
+  ],
+  "findings": [
+    {
+      "id": "V2-SOURCE-001",
+      "unit": "v02-u000086",
+      "printed_page_context": "43–44, break immediately before damaged word",
+      "current_and_legacy_html": "on ne pouvait [page 044]order la réforme de ceux-ci",
+      "current_and_legacy_txt": "on ne pouvait pas accorder la réforme de ceux-ci",
+      "finding": "HTML witnesses omit pas acc at the page break; both TXT witnesses supply the complete negative clause.",
+      "status": "print_confirms_txt_reading_and_html_lacuna",
+      "urls": [
+        "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html#Page_044",
+        "https://www.gutenberg.org/cache/epub/28427/pg28427.txt",
+        "https://www.gutenberg.org/files/28427/28427-8.txt"
+      ],
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "on ne pouvait pas accorder la réforme de ceux-ci, et le pape ne dut pas l’espérer.",
+        "outcome": "print_confirms_txt_reading_and_html_lacuna",
+        "finding": "Printed p.43 ends with “on ne pouvait”; p.44 begins “pas accorder la réforme de ceux-ci”. This directly confirms the complete negative clause already present in the digital TXT witnesses, and supplies the HTML loss “pas acc”.",
+        "evidence": [
+          {
+            "printed_page": 43,
+            "pdf_page_1_based": 57,
+            "ia_leaf_0_based": 56,
+            "image_path": "facsimile-known-anomalies/original-print-043_pdf-057.png",
+            "image_sha256": "1c0aeb62d992820e00da2cc5d847764ad44fdee5540b380160e7d1292b5dc6ba",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n56/mode/1up",
+            "visually_inspected": true
+          },
+          {
+            "printed_page": 44,
+            "pdf_page_1_based": 58,
+            "ia_leaf_0_based": 57,
+            "image_path": "facsimile-known-anomalies/original-print-044_pdf-058.png",
+            "image_sha256": "f664d749597da26c4e3f2e7a9b4bce6c8f11cbc44d8ef6f761b89db6f04bb9a6",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n57/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "verification_report": "facsimile-known-anomalies/verification.json",
+        "guarded_supplemental_replacements": [
+          {
+            "find": "on ne pouvait order la réforme de ceux-ci",
+            "replace": "on ne pouvait pas accorder la réforme de ceux-ci",
+            "source": "printed pp.43–44, visually verified; agrees with checked TXT reading"
+          }
+        ]
+      },
+      "interpretive_caution": "The full negative TXT reading is also verified in print; the supplied HTML witness remains unchanged."
+    },
+    {
+      "id": "V2-SOURCE-002",
+      "unit": "v02-u000088",
+      "original_note_unit": "v02-u002049",
+      "printed_page_context": "45–46; first Odescalchi occurrence precedes marker 046",
+      "all_digital_main_texts": "Innocent XII[35] (Odescalchi)",
+      "all_digital_note_35_texts": "[35] Innocent XI (Benoît Odescalchi), né à Côme en 1611, pape en 1671, mort en 1689.",
+      "finding": "The main-text numeral XII conflicts with note 35 numeral XI for the same Odescalchi. This is verified across current/legacy HTML/TXT; attribution to printed edition remains unverified.",
+      "status": "digital_conflict_verified; print_unverified",
+      "urls": [
+        "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html#FNanchor_35",
+        "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html#Footnote_35",
+        "https://www.gutenberg.org/cache/epub/28427/pg28427.txt"
+      ],
+      "interpretive_caution": "The main text and historical note give different papal numerals; they are separate textual voices and are not harmonized."
+    },
+    {
+      "id": "V2-SOURCE-003",
+      "unit": "v02-u000108",
+      "printed_page_context": "54",
+      "all_four_digital_witnesses": "si elles n’empêchent pas le chef de l’Église de remplir librement les fonctions du nonce apostolique",
+      "finding": "The source attributes the nuncio’s functions to the head of the Church. This anomalous wording occurs in current/legacy HTML/TXT; no alternate reading found.",
+      "status": "anomalous_print_reading_confirmed_no_restoration",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "si elles n’empêchent pas le chef de l’Église de remplir librement les fonctions du nonce apostolique, le pape ne peut pas",
+        "outcome": "anomalous_print_reading_confirmed_no_restoration",
+        "finding": "The printed edition itself says “fonctions du nonce apostolique”, attributing these functions in the grammar of the sentence to the head of the Church. This is not a newly recoverable digital omission. No conjectural substitution is warranted by this facsimile.",
+        "evidence": [
+          {
+            "printed_page": 54,
+            "pdf_page_1_based": 68,
+            "ia_leaf_0_based": 67,
+            "image_path": "facsimile-known-anomalies/original-print-054_pdf-068.png",
+            "image_sha256": "c84f58be06ea6e53eb3dc87c5150d93c2a22cddd8d022cf654101651ebd4cbe1",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n67/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "verification_report": "facsimile-known-anomalies/verification.json",
+        "guarded_supplemental_replacements": []
+      },
+      "interpretive_caution": "The anomalous title is the supplied reading. A conjectural correction would require stronger evidence."
+    },
+    {
+      "id": "V2-SOURCE-004",
+      "unit": "v02-u000179",
+      "all_four_digital_witnesses": "des cardinaux Fesch, Maury et Caselli, des archevêques de Tours des évêques de Gand[59], d’Évreux, de Nantes, de Trêves, et de M. l’abbé Émery",
+      "finding": "Malformed plural/punctuation is shared by current/legacy HTML/TXT; no alternate witness supplies a missing name or a second archbishop.",
+      "status": "malformed_print_list_confirmed_no_restoration",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "des cardinaux Fesch, Maury et Caselli, des archevêques de Tours des évêques de Gand¹",
+        "outcome": "malformed_print_list_confirmed_no_restoration",
+        "finding": "The printed line has plural “des archevêques de Tours” followed directly by “des évêques de Gand”, without an intervening comma or second archbishop name. Superscript 1 is the printed footnote marker corresponding to the digital note reference [59]. The facsimile supplies no missing name or conjunction.",
+        "evidence": [
+          {
+            "printed_page": 78,
+            "pdf_page_1_based": 92,
+            "ia_leaf_0_based": 91,
+            "image_path": "facsimile-known-anomalies/original-print-078_pdf-092.png",
+            "image_sha256": "d0f71109e8793a0a1b21f3afaf1fe56b71594b3c97d0e32ad7889db2681ec59b",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n91/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "verification_report": "facsimile-known-anomalies/verification.json",
+        "guarded_supplemental_replacements": []
+      },
+      "interpretive_caution": "The supplied list contains the named members but provides neither a second archbishop name nor a missing conjunction."
+    },
+    {
+      "id": "V2-SOURCE-005",
+      "unit": "v02-u000177",
+      "all_four_digital_witnesses": "On lui enleva son maître de chambre, le prélat Doria, son confesseur.",
+      "finding": "All current/legacy HTML/TXT witnesses have the same commas. Apposition versus separate list-member status is not resolved by these witnesses.",
+      "status": "shared_punctuation_verified; interpretation_unresolved",
+      "interpretive_caution": "The punctuation alone does not establish the identity relationship or precise number of people."
+    },
+    {
+      "id": "V2-SOURCE-006",
+      "unit": "v02-u000305",
+      "current_html_and_current_legacy_txt": "qu’il ne vît pas que ce mépris, devait sortir parmi les peuples, une disposition générale au soulèvement et bientôt après à la vengeance",
+      "finding": "Syntactically defective construction; context suggests a disposition arising from contempt, but no checked digital witness supplies the apparent missing preposition.",
+      "status": "digital_omission_restorable_from_print",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "passaient sous leurs yeux, et qu’il ne vît pas que de ce mépris, devait sortir parmi les peuples, une disposition générale au soulèvement et bientôt après à la vengeance.",
+        "outcome": "digital_omission_restorable_from_print",
+        "finding": "The printed text contains “que de ce mépris”, where the source unit has “que ce mépris”. The preposition de is therefore a verified restoration, not a contextual conjecture. The comma after mépris is retained in print. In the same inspected sentence, print also has plural “leurs yeux”, whereas the unit has “leur yeux”; this local secondary digital loss is likewise verified.",
+        "evidence": [
+          {
+            "printed_page": 132,
+            "pdf_page_1_based": 146,
+            "ia_leaf_0_based": 145,
+            "image_path": "facsimile-known-anomalies/original-print-132_pdf-146.png",
+            "image_sha256": "07f1522f203ce71d432104a6a47b6f0d527be30c8261a72c1c3c813a21ad5e6f",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n145/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "verification_report": "facsimile-known-anomalies/verification.json",
+        "guarded_supplemental_replacements": [
+          {
+            "find": "que ce mépris, devait sortir",
+            "replace": "que de ce mépris, devait sortir",
+            "source": "printed p.132, fourth and fifth body lines, visually verified"
+          },
+          {
+            "find": "qui passaient sous leur yeux",
+            "replace": "qui passaient sous leurs yeux",
+            "source": "printed p.132, third and fourth body lines, visually verified"
+          }
+        ]
+      },
+      "interpretive_caution": "Missing de and the plural-s in leurs yeux are witnessed electronic omissions; the original digital units remain unchanged."
+    },
+    {
+      "id": "V2-SOURCE-007",
+      "unit": "v02-u000745",
+      "all_four_digital_witnesses": "Paris, le août 1814.",
+      "finding": "All current/legacy HTML/TXT witnesses omit the day numeral before août in the main royal-instructions date.",
+      "status": "printed_blank_day_confirmed_no_restoration",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "» Paris, le [blank] août 1814.",
+        "outcome": "printed_blank_day_confirmed_no_restoration",
+        "finding": "A visibly empty space separates le from août in the printed date. No day numeral is present. [blank] records the visible gap; it is not text printed in the volume. The day cannot be supplied from this witness.",
+        "evidence": [
+          {
+            "printed_page": 254,
+            "pdf_page_1_based": 268,
+            "ia_leaf_0_based": 267,
+            "image_path": "facsimile-known-anomalies/original-print-254_pdf-268.png",
+            "image_sha256": "208085820f2062a80504b5fc6d6e005526782a8cfa749f361b80e1bb20747f7b",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n267/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "verification_report": "facsimile-known-anomalies/verification.json",
+        "guarded_supplemental_replacements": []
+      },
+      "interpretive_caution": "The month and year are present, but the day is absent. A calendar date cannot be inferred from this witness."
+    },
+    {
+      "id": "V2-SOURCE-008",
+      "unit": "v02-u000765",
+      "all_four_digital_witnesses": "On soupçonnait les menées de Fouché avec la famille Murat dans le Midi, approchait le duc d’Angoulême;",
+      "finding": "All current/legacy HTML/TXT share the syntactically defective punctuation. No alternate witness supplies a connective. Dividing after Murat and reading dans le Midi, approchait le duc as a locative inversion is plausible, but conjectural.",
+      "status": "malformed_print_connective_confirmed_no_restoration",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "On soupçonnait les menées de Fouché avec la famille Murat dans le Midi, approchait le duc d’Angoulême;",
+        "outcome": "malformed_print_connective_confirmed_no_restoration",
+        "finding": "The printed first line ends with Murat without punctuation; the next begins “dans le Midi, approchait le duc d’Angoulême;”. No conjunction or alternative punctuation supplies the defective connection. Dividing after Murat remains a conjectural interpretation, not a printed-source restoration.",
+        "evidence": [
+          {
+            "printed_page": 257,
+            "pdf_page_1_based": 271,
+            "ia_leaf_0_based": 270,
+            "image_path": "facsimile-known-anomalies/original-print-257_pdf-271.png",
+            "image_sha256": "277b47c6a1356b9bf6e190d2fc09d1d7d482027506be35930f087eb3cc548c99",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n270/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "verification_report": "facsimile-known-anomalies/verification.json",
+        "guarded_supplemental_replacements": []
+      },
+      "interpretive_caution": "The passage mentions suspected Fouché/Murat intrigues and Angoulême approaching in the southern theatre. Dividing the sentence after Murat is inferred punctuation. Dans le Midi does not itself specify the south as the destination of movement; that interpretation is not a recovered French reading."
+    },
+    {
+      "id": "V2-SOURCE-009",
+      "unit": "v02-u000843",
+      "all_four_digital_witnesses": "Mantoue, Palma-Nuova, Venise et Peschiera; les places de l'Oder et de l'Elbe, dans quinze jours",
+      "finding": "Current/legacy HTML/TXT all separate the Italian four-fortress group by semicolons without an express deadline. Fifteen days follows the Oder/Elbe group; its possible retrospective scope is uncertain.",
+      "status": "printed_deadline_gap_confirmed_scope_unresolved",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "celles de Hambourg, Anvers, Berg-op-Zoom, dans l’espace de six jours; Mantoue, Palma-Nuova, Venise et Peschiera; les places de l’Oder et de l’Elbe, dans quinze jours;",
+        "outcome": "printed_deadline_gap_confirmed_scope_unresolved",
+        "finding": "The four Italian places are delimited by semicolons and have no express deadline in the printed text. The following fifteen-day phrase directly follows the Oder/Elbe group. The facsimile establishes the punctuation and omission of an express Italian deadline but cannot decide the retrospective scope of the phrase. No deadline should be silently inserted.",
+        "evidence": [
+          {
+            "printed_page": 268,
+            "pdf_page_1_based": 282,
+            "ia_leaf_0_based": 281,
+            "image_path": "facsimile-known-anomalies/original-print-268_pdf-282.png",
+            "image_sha256": "3bcee0c269c31f3192a9d2555128e84ad50208a055de8c058faae58859f7603f",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n281/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "verification_report": "facsimile-known-anomalies/verification.json",
+        "guarded_supplemental_replacements": []
+      },
+      "interpretive_caution": "The printed Italian list has no express deadline. The retrospective scope of the following fifteen-day phrase is uncertain; no fixed Italian deadline is supplied."
+    },
+    {
+      "id": "V2-SOURCE-010",
+      "unit": "v02-u000889",
+      "all_four_digital_witnesses": "Le premier objet dont s'occupa la commission des huit puissances fut le sort du roi et du royaume de Saxe et ensuite on du royaume de Saxe. En l'acquérant, elle...",
+      "finding": "All four current/legacy HTML/TXT witnesses have the same apparent lacuna. HTML places page284 between ensuite and on; TXT removes page marker but supplies no missing words. Subsequent sentences identify elle as Prussia, but do not establish the exact lost clause.",
+      "status": "digital_lacuna_verified; print_restoration_verified",
+      "printed_restoration": "Le premier objet dont s’occupa la commission des huit puissances fut le sort du roi et du royaume de Saxe et ensuite celui du duché de Varsovie. Depuis longtemps la Prusse convoitait la possession du royaume de Saxe.",
+      "print_source": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n297/mode/1up",
+      "print_pages": [
+        283,
+        284
+      ],
+      "scope": "Adjacent printed pages 282–285 were visually checked: no separate paragraph is missing between v02-u000888 and v02-u000889. The recoverable gap is within the opening of v02-u000889. No full-volume printed collation is claimed.",
+      "interpretive_caution": "The printed-source restoration is documented separately; the original digital-source text and hash remain unchanged.",
+      "print_evidence_bundled": false,
+      "print_evidence_scope": "Printed pages 282–285; scan images are not included in this bounded payload."
+    },
+    {
+      "id": "V2-SOURCE-011",
+      "unit": "v02-u000903",
+      "all_four_digital_witnesses": "contre les entreprises ambitieuses de la Prusse",
+      "finding": "All current/legacy HTML/TXT agree on Prusse despite surrounding argument for Austria and Prussia to unite against Russian expansion. HTML page292 divides contre from les but does not change the noun.",
+      "status": "digital_and_print_reading_verified; contextual_inconsistency_retained",
+      "print_page": 292,
+      "print_source": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n305/mode/1up",
+      "print_reading": "les entreprises ambitieuses de la Prusse.",
+      "interpretive_caution": "Prussia is the source reading despite the contextual inconsistency. Substituting Russia would be a conjectural emendation.",
+      "unbundled_evidence_image_sha256": "252771f77674f600874d60c0d7559a8b8499897aa9a687859dc762e34781f0d7",
+      "print_evidence_bundled": false
+    },
+    {
+      "id": "V2-SOURCE-012",
+      "unit": "v02-u000825",
+      "all_four_digital_witnesses": "Il y aura paix et amnistie",
+      "finding": "Unusual treaty wording amnistie is shared by digital witnesses; retained rather than silently changed to amitié.",
+      "print_verification": {
+        "recorded_at_utc": "2026-10-10T14:26:09.155827+00:00",
+        "printed_reading": "» ARTICLE PREMIER. — Il y aura paix et amnistie entre Leurs Majestés impériales d’Autriche et de Russie,",
+        "outcome": "amnistie_print_reading_confirmed_no_restoration",
+        "finding": "The printed treaty article plainly reads “paix et amnistie”. It does not read amitié. This is the source’s wording, rather than a demonstrated digital substitution. The heading uses small capitals, represented here by capitals.",
+        "evidence": [
+          {
+            "printed_page": 266,
+            "pdf_page_1_based": 280,
+            "ia_leaf_0_based": 279,
+            "image_path": "facsimile-known-anomalies/original-print-266_pdf-280.png",
+            "image_sha256": "dfa425732b952fa24af447822a69eb70784bfe4feffaa1604c3258b7f5eea58a",
+            "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n279/mode/1up",
+            "visually_inspected": true
+          }
+        ],
+        "verification_report": "facsimile-known-anomalies/verification.json",
+        "guarded_supplemental_replacements": []
+      },
+      "status": "amnistie_print_reading_confirmed_no_restoration",
+      "interpretive_caution": "The printed source confirms amnistie, meaning amnesty, rather than amitié."
+    },
+    {
+      "id": "V2-SOURCE-013",
+      "unit": "v02-u001077",
+      "related_unit": "v02-u002284",
+      "note_id": "Footnote_220",
+      "main_reading": "une femme de vingt-deux ans",
+      "note_reading": "Catherine Paulowna ... née en 1795",
+      "finding": "The letter is dated 1814; the main-text age of 22 conflicts with the 1795 birth year in historical note 220. This is a source discrepancy rather than a translation discrepancy. No corrected historical birth date has been independently established.",
+      "status": "internal_digital_source_discrepancy; print_unverified",
+      "interpretive_caution": "The main-text age and the historical note’s birth year remain separate source readings; their arithmetic disagreement is not silently harmonized."
+    },
+    {
+      "id": "V2-SOURCE-014",
+      "unit": "v02-u001128",
+      "finding": "Printed wording agrees with digital source in making the alleged betrayal itself the grammatical subject of serving as an example. No word for punishment is supplied by the printed witness. Any explanatory expansion would be interpretive rather than a recovered omission.",
+      "status": "digital_and_print_wording_confirmed; possible_semantic_ellipsis_not_emended",
+      "print_verification": {
+        "unit": "v02-u001128",
+        "recorded_at_utc": "2026-10-10T14:33:05.930413+00:00",
+        "printed_page": 357,
+        "pdf_page_1_based": 371,
+        "ia_leaf_0_based": 370,
+        "source_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n370/mode/1up",
+        "image_path": "facsimile-u1128/print-357_pdf-371.png",
+        "image_sha256": "ce76b86eb920504ea943910bf5d82b857b9ba98f57e775d6a0482847bb978082",
+        "printed_reading": "dominé par la pensée que ce qu'il appelle la trahison du roi de Saxe servirait d'exemple à l'Allemagne et à l'Europe",
+        "finding": "Printed wording agrees with digital source in making the alleged betrayal itself the grammatical subject of serving as an example. No word for punishment is supplied by the printed witness. Any explanatory expansion would be interpretive rather than a recovered omission.",
+        "scope": "Only the relevant sentence visually checked; not full-page or whole-volume collation.",
+        "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+        "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+        "source_pdf_bundled": false,
+        "relative_path_base": "Paths in this document are relative to the payload directory."
+      },
+      "interpretive_caution": "No punishment clause is supplied by the printed witness. Such an explanation would be contextual interpretation, not restored text."
+    }
+  ],
+  "updated_at_utc": "2026-10-10T14:41:49.939710+00:00",
+  "relative_path_base": "Paths in this document are relative to the payload directory."
+}

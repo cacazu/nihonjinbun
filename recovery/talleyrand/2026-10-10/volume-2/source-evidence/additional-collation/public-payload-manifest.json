@@ -1,0 +1,152 @@
+{
+  "schema": "talleyrand-volume-2-source-evidence-payload-v1",
+  "volume": 2,
+  "title": "Mémoires du prince de Talleyrand",
+  "edition": "Paris, Calmann Lévy, 1891; edited by the duc de Broglie",
+  "scope": "Bounded reader-facing evidence: eight known-anomaly comparisons, one additional sentence comparison, and a fourteen-record source-discrepancy inventory. Ten printed-page PNGs are bundled. These are limited printed checks, never whole-volume collation.",
+  "full_facsimile_collation": false,
+  "relative_path_base": "All local evidence paths are relative to this payload directory.",
+  "printed_page_image_count": 10,
+  "known_anomaly_target_count": 8,
+  "additional_sentence_unit": "v02-u001128",
+  "source_discrepancy_count": 14,
+  "copy_policy": "PNG images are byte-for-byte copies. REPORT.txt and three verification/discrepancy JSON files are filtered reader-facing copies retaining source readings, findings, qualifications, public URLs and substantive hashes.",
+  "unbundled_sources": [
+    {
+      "role": "Primary image-container PDF",
+      "url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+      "sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+      "md5": "1f1eaf1b894977996ec635814a2d2a10",
+      "bundled": false
+    },
+    {
+      "role": "Additional Text PDF of the same scanned copy",
+      "url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202_text.pdf",
+      "sha256": "845acc22b96d5ce6e81c76b162c296a35d7ff6beee65597b77dabef3311242f7",
+      "bundled": false
+    },
+    {
+      "role": "Provider metadata",
+      "source_item_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2",
+      "sha256": "0b36a1b3ed0d4f31b87775b0c8147e3700f1c26172f939a08e1889cb3ba50722",
+      "bundled": false
+    },
+    {
+      "role": "Edition title page",
+      "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202_text.pdf",
+      "pdf_page_1_based": 13,
+      "bundled": false
+    },
+    {
+      "role": "Additional printed checks at units 889 and 903",
+      "source_urls": [
+        "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n297/mode/1up",
+        "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n305/mode/1up"
+      ],
+      "bundled": false
+    }
+  ],
+  "file_count": 14,
+  "total_bytes": 11412761,
+  "files": [
+    {
+      "path": "facsimile-known-anomalies/REPORT.txt",
+      "bytes": 9061,
+      "sha256": "f30eaf6c6f9bba97c44810981891dc9ef83899b6efc3f12ed7b397abc1c6cffb",
+      "preserved_byte_for_byte": false,
+      "content_role": "filtered_reader_facing_source_evidence"
+    },
+    {
+      "path": "facsimile-known-anomalies/original-print-043_pdf-057.png",
+      "bytes": 1243063,
+      "sha256": "1c0aeb62d992820e00da2cc5d847764ad44fdee5540b380160e7d1292b5dc6ba",
+      "preserved_byte_for_byte": true,
+      "content_role": "preserved_printed_page_image"
+    },
+    {
+      "path": "facsimile-known-anomalies/original-print-044_pdf-058.png",
+      "bytes": 1234311,
+      "sha256": "f664d749597da26c4e3f2e7a9b4bce6c8f11cbc44d8ef6f761b89db6f04bb9a6",
+      "preserved_byte_for_byte": true,
+      "content_role": "preserved_printed_page_image"
+    },
+    {
+      "path": "facsimile-known-anomalies/original-print-054_pdf-068.png",
+      "bytes": 1234862,
+      "sha256": "c84f58be06ea6e53eb3dc87c5150d93c2a22cddd8d022cf654101651ebd4cbe1",
+      "preserved_byte_for_byte": true,
+      "content_role": "preserved_printed_page_image"
+    },
+    {
+      "path": "facsimile-known-anomalies/original-print-078_pdf-092.png",
+      "bytes": 1020398,
+      "sha256": "d0f71109e8793a0a1b21f3afaf1fe56b71594b3c97d0e32ad7889db2681ec59b",
+      "preserved_byte_for_byte": true,
+      "content_role": "preserved_printed_page_image"
+    },
+    {
+      "path": "facsimile-known-anomalies/original-print-132_pdf-146.png",
+      "bytes": 1071468,
+      "sha256": "07f1522f203ce71d432104a6a47b6f0d527be30c8261a72c1c3c813a21ad5e6f",
+      "preserved_byte_for_byte": true,
+      "content_role": "preserved_printed_page_image"
+    },
+    {
+      "path": "facsimile-known-anomalies/original-print-254_pdf-268.png",
+      "bytes": 1042863,
+      "sha256": "208085820f2062a80504b5fc6d6e005526782a8cfa749f361b80e1bb20747f7b",
+      "preserved_byte_for_byte": true,
+      "content_role": "preserved_printed_page_image"
+    },
+    {
+      "path": "facsimile-known-anomalies/original-print-257_pdf-271.png",
+      "bytes": 1009919,
+      "sha256": "277b47c6a1356b9bf6e190d2fc09d1d7d482027506be35930f087eb3cc548c99",
+      "preserved_byte_for_byte": true,
+      "content_role": "preserved_printed_page_image"
+    },
+    {
+      "path": "facsimile-known-anomalies/original-print-266_pdf-280.png",
+      "bytes": 1194210,
+      "sha256": "dfa425732b952fa24af447822a69eb70784bfe4feffaa1604c3258b7f5eea58a",
+      "preserved_byte_for_byte": true,
+      "content_role": "preserved_printed_page_image"
+    },
+    {
+      "path": "facsimile-known-anomalies/original-print-268_pdf-282.png",
+      "bytes": 1296320,
+      "sha256": "3bcee0c269c31f3192a9d2555128e84ad50208a055de8c058faae58859f7603f",
+      "preserved_byte_for_byte": true,
+      "content_role": "preserved_printed_page_image"
+    },
+    {
+      "path": "facsimile-known-anomalies/verification.json",
+      "bytes": 22892,
+      "sha256": "befc38c9da67fb77636ee7057d6ff27fc0ec01d167e3db9df67cc59f2219f724",
+      "preserved_byte_for_byte": false,
+      "content_role": "filtered_reader_facing_source_evidence"
+    },
+    {
+      "path": "facsimile-u1128/print-357_pdf-371.png",
+      "bytes": 1006719,
+      "sha256": "ce76b86eb920504ea943910bf5d82b857b9ba98f57e775d6a0482847bb978082",
+      "preserved_byte_for_byte": true,
+      "content_role": "preserved_printed_page_image"
+    },
+    {
+      "path": "facsimile-u1128/verification.json",
+      "bytes": 1355,
+      "sha256": "65cdafb0f86b9f528ca7805dea59235d775c6348b8abe1c56812fd1ec612f224",
+      "preserved_byte_for_byte": false,
+      "content_role": "filtered_reader_facing_source_evidence"
+    },
+    {
+      "path": "source-discrepancies.json",
+      "bytes": 25320,
+      "sha256": "cc6759c4492c997e0e76c1776ae37725a7942dc578121488303217ed2142c0e8",
+      "preserved_byte_for_byte": false,
+      "content_role": "filtered_reader_facing_source_evidence"
+    }
+  ],
+  "manifest_self_excluded": true
+}
