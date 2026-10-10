@@ -246,3 +246,5 @@ The bounded unit1382 evidence documents digital empocher versus printed empêche
 The19-record source-discrepancy ledger in `source-evidence/evidence-018-019/` supersedes earlier snapshots. Its six exact excerpts document the differing Noailles arrival dates and the unusual unit1412 wording with original note336. These are bounded comparisons, not full printed-volume collation.
 
 The unit1496 report and exact image excerpt confirm that print and four digital witnesses retain cet amiral after Bentinck. This bounded comparison supplies no title correction and does not adjudicate historical accuracy: `source-evidence/facsimile-u1496/`.
+
+The latest21-record source-discrepancy ledger and three unit1589 comparison excerpts are in `source-evidence/evidence-021/`. This supersedes previous ledger snapshots and documents the inherited dispatch-date difference and singular pronoun without a silent correction.
