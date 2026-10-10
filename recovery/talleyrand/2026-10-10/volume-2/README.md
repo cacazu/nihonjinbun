@@ -1,6 +1,6 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 2015 entries in batches 001–253 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 2073 entries in batches 001–263 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -261,6 +261,16 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `251-root-draft.json`: `c9f75710d2a7f6feb776750c2f67e3ff4c44176aa2899796db6b557b9dac7f7c`
 - `252-root-draft.json`: `b2650845e20f8c4922c423898854ddff1637b514f30a456693532132ba6d1c67`
 - `253-root-draft.json`: `0bbd6f8878132b62254e97ee1117afa86d08954f29f0611ba7899149a35905be`
+- `254-root-draft.json`: `14879958df9f0149c138447a16fa0c0be6258e963c120e89dbf5a4b1c029b89d`
+- `255-root-draft.json`: `b0e9eae171837515acc5929b98260df04b4fbcbd435c12716c7f3e86a833a3de`
+- `256-root-draft.json`: `fb8f408f0e9200b033bdb9ed6df62300085978ff70ef954f848ba486e46d396a`
+- `257-root-draft.json`: `46f5e1950a1f6936cc0be069dc1522f247c835b43b36a62603776b5c7dbc88f8`
+- `258-root-draft.json`: `71527c2549bf1c0ff51b375f16dfbbcacb40dc427774bbc7571313922ad8af2c`
+- `259-root-draft.json`: `34501b0884f2d42fe6090946d88f9f1382dc95a5de3e573ebf58588967301e2d`
+- `260-root-draft.json`: `564a38e89744628d74db41cdefdb43beb485c97197b8fedc689d37c5cc569d1e`
+- `261-root-draft.json`: `8752ee55af2fb406a31ad22bc77d6923254304bca6334c6c03888ab5329a6c80`
+- `262-root-draft.json`: `61d42e6d824d69177aad0d9c5044304ef44d97bd144dc03bd28420c8bfddb01a`
+- `263-root-draft.json`: `8e16181d1f8bfd50c065b9e35e8e3c53d85039f3ec4944e4872579360a410930`
 
 ## Source evidence checksums
 
