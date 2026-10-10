@@ -1,0 +1,47 @@
+{
+  "scope": "Bounded direct visual witness comparison plus HTML/TXT reads",
+  "findings": [
+    {
+      "unit_id": "v01-u000801",
+      "unit_text_sha256": "299638927e1861a297fedd64a9481d51859bc5918360157941238ee918776355",
+      "pdf_physical_page": 387,
+      "printed_page": 346,
+      "evidence_image": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/u801-387.jpg",
+      "image_sha256": "6633117d478ff3af407d38a090bb72b62dbdede817dd7a2f51435b4c526100d0",
+      "readings": {
+        "html_and_txt_date": "21 octobre 1807",
+        "scan_date": "27 octobre 1807",
+        "all_witnesses_title": "M. le maréchal Duroc",
+        "same_scan_page_treaty_title": "général de division Michel Duroc, grand maréchal du palais"
+      },
+      "classification": "Date differs between comparison print and both Gutenberg formats. Title agrees; no silent correction."
+    },
+    {
+      "unit_id": "v01-u000763",
+      "unit_text_sha256": "bfc8b2dbb5c9d566d3780007b9010bce51161c12ee20ac65bb0b389d093f7659",
+      "pdf_physical_page": 371,
+      "printed_page": 330,
+      "evidence_image": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/u763-371.jpg",
+      "image_sha256": "67c5da29f0bb6fb86b07cc59f6230ebb4762cf5ab03c857c11537d80e04549f5",
+      "readings": {
+        "all_witnesses": "27 octobre 1807; M. le général Duroc"
+      },
+      "classification": "Earlier passage consistent across witnesses."
+    },
+    {
+      "unit_id": "v01-u000809",
+      "unit_text_sha256": "b08caa6952b5ac6326d7cf571f3ff431d8dd7d6abb89de698234a7165f8344d9",
+      "pdf_physical_page": 389,
+      "printed_page": 348,
+      "evidence_image": "/workspace/shared/talleyrand-recovery/source-volume-1/new-scan-checks/u801-389.jpg",
+      "image_sha256": "a00acf1dafe67992880bc6361973edc452d0924303d47bfcf8a145500e2f372d",
+      "readings": {
+        "all_witnesses": "donnés par forme d’investiture à Sa Majesté le roi d’Espagne"
+      },
+      "classification": "All checked witnesses retain à; interpretive tension not a Gutenberg-only corruption."
+    }
+  ],
+  "source_pdf_url": "https://be1830.be/onewebmedia/M%C3%A9moires_du_prince_de_Talleyrand_I.pdf",
+  "base_source_changes": "None",
+  "qualification": "Comparison scan; exact identity as Gutenberg source copy remains unverified."
+}
