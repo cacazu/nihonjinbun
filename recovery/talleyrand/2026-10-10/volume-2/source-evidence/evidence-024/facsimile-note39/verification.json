@@ -1,0 +1,115 @@
+{
+  "recorded_at_utc": "2026-10-10T17:37:07.166047+00:00",
+  "unit": "v02-u002053",
+  "digital_note_number": 39,
+  "printed_note_number": 1,
+  "body_anchor_unit": "v02-u000093",
+  "printed_page": 49,
+  "pdf_page_1_based": 63,
+  "ia_leaf_0_based": 62,
+  "page_number_visually_verified": true,
+  "scope": "Bounded comparison of années in four digital witnesses with armées in the printed footnote at page 49: digital note 39, unit v02-u002053, corresponding to printed note 1 and the call at v02-u000093. This source comparison does not adjudicate other biographical details and is not whole-volume printed collation.",
+  "printed_reading": "1. François, comte Miollis, né en 1759, était capitaine d'infanterie en 1789. Il servit dans les armées de la république, devint général en 1794, et fit avec distinction la campagne d'Italie. Il fut longtemps gouverneur de Mantoue. En 1807, il fut nommé gouverneur de Rome et des États de l'Église. Il fut mis à la retraite en 1815 et mourut en 1828.",
+  "target_printed_reading": "Il servit dans les armées de la république",
+  "digital_reading": "Il servit dans les années de la république",
+  "finding": "The printed footnote has armées, clearly visible in its second line. Current and legacy digital HTML/TXT all have années. This is a recoverable digital transcription error. The replacement années → armées is based on the printed witness, not solely on contextual interpretation.",
+  "status": "digital_error_verified; printed_restoration_verified",
+  "witness_reading_differences": [
+    {
+      "digital_reading": "Il servit dans les années de la république",
+      "printed_reading": "Il servit dans les armées de la république",
+      "digital_reading_occurrences_in_unit": 1
+    }
+  ],
+  "physical_line": "1789. Il servit dans les armées de la république, devint général en 1794,",
+  "edition": "Mémoires du prince de Talleyrand, II; Duc de Broglie; Paris: Calmann Lévy, 1891.",
+  "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n62/mode/1up",
+  "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+  "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+  "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+  "provider_md5_previously_verified": true,
+  "method": "Actual grayscale printed page rendered at 200 dpi using pdftoppm and visually inspected. One lossless rectangular footnote excerpt retained. No OCR-only conclusion.",
+  "excerpt_rectangle_xyxy": [
+    185,
+    1530,
+    1130,
+    1720
+  ],
+  "evidence": {
+    "filename": "note39-print49-armees.png",
+    "path": "facsimile-note39/note39-print49-armees.png",
+    "sha256": "7ac2b32102c0eb10e7f967509d3dca5ba454704f9fa2711203b1acc4678f205e",
+    "bytes": 169697,
+    "visually_inspected": true
+  },
+  "digital_witnesses": [
+    {
+      "unbundled_filename": "source.html",
+      "bundled": false,
+      "unbundled_file_sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+      "url": "https://www.gutenberg.org/cache/epub/28427/pg28427-images.html",
+      "sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+      "encoding": "utf-8",
+      "reading": "Il servit dans les années de la république",
+      "matching_occurrences": 1,
+      "context": "y établit le 6 novembre 1805. [39] François, comte Miollis, né en 1759, était capitaine d'infanterie en 1789. Il servit dans les années de la république, devint général en 1794, et fit avec distinction la campagne d'Italie. Il fut longtemps gouverneur de Mantoue. En 1807, il fut nommé gouverneur de Ro"
+    },
+    {
+      "unbundled_filename": "source.txt",
+      "bundled": false,
+      "unbundled_file_sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+      "url": "https://www.gutenberg.org/cache/epub/28427/pg28427.txt",
+      "sha256": "ab0d8e9f50969255e836236efc3f42e7b0fe1bedd4203aadd92c532c2af31ddf",
+      "encoding": "utf-8",
+      "reading": "Il servit dans les années de la république",
+      "matching_occurrences": 1,
+      "context": " les scellés sur ses papiers. [39] François, comte Miollis, né en 1759, était capitaine d'infanterie en 1789. Il servit dans les années de la république, devint général en 1794, et fit avec distinction la campagne d'Italie. Il fut longtemps gouverneur de Mantoue. En 1807, il fut nommé gouverneur de Ro"
+    },
+    {
+      "unbundled_filename": "source-legacy.html",
+      "bundled": false,
+      "unbundled_file_sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+      "url": "https://www.gutenberg.org/files/28427/28427-h/28427-h.htm",
+      "sha256": "5934ec8e2d36ebb265c5ebd838cad18127f2a3e14b69b977edd21ff23cb51021",
+      "encoding": "iso-8859-1",
+      "reading": "Il servit dans les années de la république",
+      "matching_occurrences": 1,
+      "context": "y établit le 6 novembre 1805. [39] François, comte Miollis, né en 1759, était capitaine d'infanterie en 1789. Il servit dans les années de la république, devint général en 1794, et fit avec distinction la campagne d'Italie. Il fut longtemps gouverneur de Mantoue. En 1807, il fut nommé gouverneur de Ro"
+    },
+    {
+      "unbundled_filename": "source-legacy.txt",
+      "bundled": false,
+      "unbundled_file_sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+      "url": "https://www.gutenberg.org/files/28427/28427-8.txt",
+      "sha256": "370cce45b697db5b8f072468e779b15a0473b812ef239bfee9711967bb29b718",
+      "encoding": "iso-8859-1",
+      "reading": "Il servit dans les années de la république",
+      "matching_occurrences": 1,
+      "context": " les scellés sur ses papiers. [39] François, comte Miollis, né en 1759, était capitaine d'infanterie en 1789. Il servit dans les années de la république, devint général en 1794, et fit avec distinction la campagne d'Italie. Il fut longtemps gouverneur de Mantoue. En 1807, il fut nommé gouverneur de Ro"
+    }
+  ],
+  "original_unit_text": "[39] François, comte Miollis, né en 1759, était capitaine d'infanterie en 1789. Il servit dans les années de la république, devint général en 1794, et fit avec distinction la campagne d'Italie. Il fut longtemps gouverneur de Mantoue. En 1807, il fut nommé gouverneur de Rome et des États de l'Église. Il fut mis à la retraite en 1815 et mourut en 1828.",
+  "original_unit_text_sha256": "8f7d0fa79071cf84b1aed4fb849a361a70c0376d506f99cb1380b199079bd5c0",
+  "original_unit_html_sha256": "ad4d61e444a09a39778096e8f2a1925b81d67017e18ae2d9d148b383b169c256",
+  "original_units_file_sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751",
+  "full_page_image_sha256": "f0d77bcff1627ab9b75cd1adca94b23f9180f755b7ac11986775f141e68ff72a",
+  "full_page_image_bundled": false,
+  "source_pdf_bundled": false,
+  "relative_path_base": "All local evidence paths are relative to the payload directory. Unbundled filenames are identifiers only, not local links.",
+  "digital_source_inventory_bundled": false,
+  "bundled_evidence_files": [
+    "facsimile-note39/note39-print49-armees.png",
+    "facsimile-note39/REPORT.txt",
+    "facsimile-note39/verification.json"
+  ],
+  "unbundled_full_page_renderings": [
+    {
+      "printed_page": 49,
+      "pdf_page_1_based": 63,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n62/mode/1up",
+      "sha256": "f0d77bcff1627ab9b75cd1adca94b23f9180f755b7ac11986775f141e68ff72a",
+      "bundled": false,
+      "description": "The full-page rendering is not included in this payload; its recorded hash is preserved. The relevant footnote excerpt is bundled."
+    }
+  ]
+}
