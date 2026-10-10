@@ -1,0 +1,43 @@
+{
+  "title": "Volume 1 units 1450–1489: textual and attribution checks",
+  "scope": "Volume 1 units 1450–1489; initial checks only. The volume remains incomplete and full-volume rereading is pending.",
+  "checks": [
+    {
+      "note": 378,
+      "voice": "Signed authorial note by Talleyrand containing a direct quotation of Bonaparte. The literal sweet/salty metaphor and the claim concerning twenty governments are retained; explanation is separate."
+    },
+    {
+      "note": 384,
+      "voice": "The editor corrects the author's 1802 Italian-kingdom claim using inferential wording; this remains distinct from the author's account."
+    },
+    {
+      "note": 390,
+      "unit": "v01-u001467",
+      "title": "Élisa's title princesse de Piombino is a ruling title. The translation and separate gloss convey female sovereignty.",
+      "reference": "https://www.napoleon.org/histoire-des-2-empires/biographies/bonaparte-elisa-1777-1820-grande-duchesse-de-toscane"
+    },
+    {
+      "note": 392,
+      "title": "Duroc's grand maréchal du palais is a palace office, distinct from Marshal of France."
+    },
+    {
+      "note": 399,
+      "continuation": "Unit 1477 remains an editorial continuation under note 399, without a new note number.",
+      "financial_distinctions": "Cash of 1.5 million and immediately payable securities of 92 million remain distinct, as do the treasury and finance ministers."
+    },
+    {
+      "unit": "v01-u001478",
+      "date_attachment": "No external genealogical emendation is certified. The source's date-attachment uncertainty is retained."
+    },
+    {
+      "note": 404,
+      "territorial_allocations": "Bavarian, Württemberg and Baden allocations retain the seven other cities and the distinct part and remainder of Brisgau."
+    }
+  ],
+  "draft_sha256": {
+    "167-root-draft.json": "0329d4e37d3019676548ebb56e933fa03be96df8f268a5cdc9089ac020348ba4",
+    "168-root-draft.json": "08150a9488610775b370d83fbbb7f2c73efb328176be79025414887f0eb49f12",
+    "169-root-draft.json": "24e37386ef95f14cbf0ed61d1f75750ee17e0606ef28e504daaf8cc70a43fae3",
+    "170-root-draft.json": "f2b6ae56f5b7ceeec28ee4f0f7b4e69b6254d0f1c91f87a3a97b93d083d34d85"
+  }
+}
