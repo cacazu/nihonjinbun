@@ -145,5 +145,11 @@ works:
   coverage_note: 一八九一年版第一巻の本文・原注・電子版補注を翻訳。1,636対訳単位、原注566件、電子版補注2件。図版の手書き書簡は判読できる部分を別記し、判読未確定の一文を明示。
   sha256: d0874939882dd532c987e4b347a4e883183395c675fc74844337401b2314947f
   source_and_rights: Project Gutenbergは原著を米国でパブリックドメインと表示。全世界の権利状態は断定しない。日本語訳の再利用ライセンスは未指定。底本・異文・話者・留保はYAML内に記載。
+- file: translations/talleyrand/memoirs-volume-2-fr-ja.yaml
+  title: タレーラン公回想録 第二巻
+  work_id: talleyrand-memoirs-volume-2
+  coverage_note: 一八九一年版第二巻の本文・付録・原注を翻訳。2,560対訳単位、原注478件、電子化担当者注1件、原刊図版2点。
+  sha256: ff6687465d83094db3e636726f5f23a4ff3521ba7d9accf78db7aeda02ca5cfb
+  source_and_rights: Project Gutenbergは原著を米国でパブリックドメインと表示。全世界の権利状態は断定しない。日本語訳の再利用ライセンスは未指定。底本・異文・話者・留保はYAML内に記載。
 in_progress_not_included: []
 packaging_note: 本リポジトリは対訳YAMLを収録する。YAML内の図版・底本PDF・制作時分割データへの相対参照は由来の記録であり、それらのファイルやHTMLを本リポジトリへ同梱したことを意味しない。底本には各資料の公開出典URLからアクセスする。
