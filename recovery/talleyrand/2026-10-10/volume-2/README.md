@@ -1,6 +1,6 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 2560 entries in batches 001–316 byte-for-byte. Initial semantic checks have passed at these bytes. The preserved reread flags cover 1109 entries; all 2,560 initial-draft entries are now present, while the full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 2560 entries in batches 001–316 byte-for-byte. Initial semantic checks have passed at these bytes. The preserved reread flags cover 1188 entries; all 2,560 initial-draft entries are now present, while the full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -139,18 +139,18 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `129-root-draft.json`: `ae7e42075b82e56d813cfba6d42276d32e3cb210edfa86ce6d0bf51ca61aa4d2`
 - `130-root-draft.json`: `32216ee697ee86c19a943139c8f37e19aba31e2350a6eb5fc298abd81f97a94f`
 - `131-root-draft.json`: `146c915ab4e0e26fe0f2706d5c546b2278686d8fdb4cca27dac8ff64cf656c91`
-- `132-root-draft.json`: `c5a1ad00537bfb1c2657bed0f3ef3323e3f4adc34310380f8a7bbd847b800092`
-- `133-root-draft.json`: `85a2755a60c4e097f1bcfca59cb8e965318d61b671a95f8a2211f5a2f28a029e`
-- `134-root-draft.json`: `197b94346d6464f6a2a9fa071b75c68cc2b72a92526b9220d094bcda2adece91`
-- `135-root-draft.json`: `9361f78a1c103595865fef7f221fbfdb504683fb0c2e8b942f6fc5d1b993ab57`
-- `136-root-draft.json`: `ff0f5152ae456af80153994b059104a1d213d52fa40eb1b479383bea6687f37f`
-- `137-root-draft.json`: `f6fa075112d1544fb5e5b107811f3f51042fbe4a3595efa74abb1e7a0590303d`
-- `138-root-draft.json`: `da5cda7f7e799c691a5691a17653b9cf103c633a41e7a5a90bd444b6c3efb2e8`
-- `139-root-draft.json`: `663b033210c6fdc3b0ef6587fbb85b9ecae200efc905fe6b952ce971298378e1`
-- `140-root-draft.json`: `261bc2928361ea7f9ea36db2a8fb5f93ce8e538323e0c441507d68786a0f3ae3`
-- `141-root-draft.json`: `7372fd8c45b13390a362ee4d739ca48754b4bc554b59e1515fbad7982f135634`
-- `142-root-draft.json`: `b8191a8f5223ee001002dd52cbbf11700aa967ff13bd112e08492179f6284f43`
-- `143-root-draft.json`: `1a86a5fe31bf464ed83928518ee1df8141145fa3664e83946bf5956bc0b14717`
+- `132-root-draft.json`: `51be9955cf1dc9be6c681d074b875f04093e05d41f2708f77577385b1e15ae06`
+- `133-root-draft.json`: `34099cb843eb1c446ebf063579e084f2abcd27e499a8562c357f7979ef2dfc23`
+- `134-root-draft.json`: `496fdbd4c9e65af546ce70d4d56d37dd52e90f2f4ca231adcc422541444abae9`
+- `135-root-draft.json`: `dc18b0255ef08aabc58350df871ca83eaf5ad9745659ae205bac29d4463bcc20`
+- `136-root-draft.json`: `6683528619ae0e5260dcbcce92a9cc33915b4dbcb444641ad5caeb21ffc53a38`
+- `137-root-draft.json`: `efc7c1d8ae038006e4439315f759674b456106838c606987f986a4b7af7fc88c`
+- `138-root-draft.json`: `8d18db6845c78b275a93a47504bddd59c7811761631ece7ced776a8928adfffd`
+- `139-root-draft.json`: `e8c3a0ff6886c1e9b76e896036bc82a6ef962aa2cfe2a623897c55ae0f5498f4`
+- `140-root-draft.json`: `e1dcef4c58ac0efed2b94c18b7dfad4343f2a04eceb1282f325f1f160e4fb91b`
+- `141-root-draft.json`: `a7f64c13fc79c66d0c34b5f3eec0f054c9e0a25b267b5b1830ff28e1f6ad41ff`
+- `142-root-draft.json`: `bf58404b1e6345360f0348da81c778f8101b3a45264127674df2eabaa8849ed1`
+- `143-root-draft.json`: `a137eb5cdcce1d4e07e3d0bfa070969dfab7b9c91f86a9abfdd9ffba1c1f7fef`
 - `144-root-draft.json`: `adb784e15d86a4d1753cc9a4c5c090224237c755c5f2c20280a4e8a983c42ec1`
 - `145-root-draft.json`: `dd5554c38933c8f2604fa015814cf4febd3ac6fdafae9d84dc7cab61610ce145`
 - `146-root-draft.json`: `ccc3144e0a815e0f19d2528c76e69d085916e2cdfb1135999629c7a2e237441e`
