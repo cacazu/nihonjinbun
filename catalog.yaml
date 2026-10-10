@@ -1,149 +1,149 @@
-schema_version: '1.0'
-title: 原文・日本語対訳データ集
-updated: '2026-10-10'
-format: UTF-8 YAML
-description: 原文と日本語訳を固定IDで対応付けた翻訳データ。章・出典頁・注記・未解決事項を保持。HTMLは別の閲覧用表現。
-editorial_status: AIによる翻訳・照合を含む。専門家による校訂版ではない。原文判読や歴史的編者の省略等に由来する留保は各ファイルに明示。
-medical_and_chemical_note: 歴史資料の記述を現代の医学的助言や安全な化学実験手順として利用しない。
-license_policy: 原典の保護期間満了と現代翻刻の利用条件を区別する。各ファイルの出典・権利表示を保持し、全体に一律のライセンスを追加していない。
-works:
-- file: translations/leonardo/leonardo-windsor-b-it-ja.yaml
-  title: レオナルド・ダ・ヴィンチ ウィンザー解剖手稿 B 原文・日本語対訳
-  work_id: leonardo-windsor-anatomy-b
-  coverage_note: 84面を収録。29rの判読未確定部分と9vの図符号に未完箇所がある。
-  sha256: 9223d78a4ae6753650341d0941c3df7629c285d9d40236caf58c4dd49ef34ae6
-  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
-- file: translations/leonardo/leonardo-frammenti-it-ja.yaml
-  title: レオナルド・ダ・ヴィンチ 文学的・哲学的断片（ソルミ編1908年版）原文・日本語対訳
-  work_id: leonardo-frammenti-solmi-1908
-  coverage_note: ソルミ編1908年版の本文全単位。難読箇所の注記あり。
-  sha256: 01e6790fba3f7e5bd0535c6d180604e79f0619592f6bd356639c4808e5f60da3
-  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
-- file: translations/leonardo/leonardo-pittura-it-ja.yaml
-  title: レオナルド・ダ・ヴィンチ 絵画論（1890年版）イタリア語原文・日本語対訳
-  work_id: leonardo-pittura-1890
-  coverage_note: 1890年版の本文8部935章。編者注は原文別置で日本語訳未完。Wikisource由来の編集要素と日本語訳はCC BY-SA 4.0。
-  sha256: 3177867b85fa4359244a4b06f87b2bb9cb978a776824a579f8a15cd0c24c2f90
-  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
-- file: translations/alchemy/emerald-tablet-la-ja.yaml
-  title: エメラルド板
-  work_id: emerald-tablet-1541-la-ja
-  coverage_note: 1541年版De alchemia印刷363頁の短篇本文・標題・伝承序文。全巻とは別作品。
-  sha256: 978e86639f4ea68e81d8cba7ab0cf92e38686d02279267d7c815b699b34eb321
-  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
-- file: translations/alchemy/mutus-liber-ja.yaml
-  title: 沈黙の書
-  work_id: mutus-liber-1677
-  coverage_note: 1677年版の全15図版に対応する文字資料と読者への序・刊行特許等。
-  sha256: 130899a074ef7a8a109337769b0105a67d6edbd5fba3d69d17f95ade1b45b2fa
-  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
-- file: translations/alchemy/turba-philosophorum-en-ja.yaml
-  title: 哲学者たちの集会
-  work_id: turba-philosophorum-waite-1896-en-ja
-  coverage_note: Waite1896年英訳からの重訳。全72発言・序書簡・結語。Waiteの編集序文・脚注・索引は対象外。
-  sha256: 69a09e965fb84d411f61be41b5d72e10a8f4fd7ec22efd65b70d70ef6d15075b
-  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
-- file: translations/alchemy/zosimos-fr-ja.yaml
-  title: ゾシモス作品集 第III部 1888年版 フランス語旧訳・日本語対訳
-  work_id: zosimos-caag-part-iii-1888-fr-ja
-  coverage_note: 1888年フランス語旧訳からの重訳。57篇。旧訳が省略したギリシア語本文は未復元。
-  sha256: dcb7d69fe9e707b158c2ad12804ec71b25ab7e34fba385c3dde8442008ae2f7d
-  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
-- file: translations/alchemy/rosarium-philosophorum-ja.yaml
-  title: 哲学者たちの薔薇園
-  work_id: rosarium-philosophorum-1550
-  coverage_note: 1550年版の全192印刷頁。439対訳単位。標題の一部略号の読みは留保。
-  sha256: 599f1f0365cd84fc5a10e5cae98d80f87ad8c9823552ad32c87efcc9d98ba793
-  source_and_rights: https://doi.org/10.3931/e-rara-34454 — Public Domain Mark。詳細はYAML内に保持。
-- file: translations/alchemy/summa-perfectionis-la-ja.yaml
-  title: 完全性の大全 ― 全二巻
-  work_id: summa-perfectionis-1541-la-ja
-  coverage_note: 1541年De alchemia所収の全2巻・100章、427対訳単位。全巻版と同一本文の単独抽出版。原刊57–58頁は頁付けの飛び。
-  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
-  sha256: cd1a5f151c3c13b3ecf5c48a4e9518a8f6dec82121aedc4f61ecfebc2a4154d4
-- file: translations/alchemy/de-alchemia-1541-la-ja.yaml
-  title: 錬金術について ― 1541年論集・全巻
-  work_id: de-alchemia-1541-la-ja
-  coverage_note: 1541年論集全巻。標題・序文・全12頁の目次・全著作・印刷者告知と書目・正誤表、1457対訳単位。Summa・エメラルド板の単独版と収録範囲が重複。
-  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
-  sha256: 12b5a5552119747315e61966be8cd815a20ccb77e65ee646b4d8263a21f62e49
-- file: translations/alchemy/atalanta-fugiens-ja.yaml
-  title: 逃げるアタランタ
-  work_id: null
-  coverage_note: 1618年版全50篇、序文・献辞・楽譜の文字・巻末索引と訂正。917対訳単位。声部で反復する二行詩は一度対訳し、反復・音節配置・音符は原図参照。難読等12単位に留保。
-  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
-  sha256: 9f74ca91a63060d187531d6a9eee2ce775ac293c07341068f79c98aa67b79cb4
-- file: translations/alchemy/theatrum-chemicum-britannicum-en-ja.yaml
-  title: 英国錬金術劇場
-  work_id: theatrum-chemicum-britannicum-1652-en-ja
-  coverage_note: 1652年初版の詩篇・序文・注解・目次・語彙表・正誤表・図中文字。1387対訳単位。主底本の欠図と損傷箇所は同年版の別個体で補完。
-  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
-  sha256: 5311debb29aff8f33328ed757e4d9c6eea9e198adb904d70ee0f5b18e8813834
-- file: translations/alchemy/flamel-hieroglyphic-figures-en-ja.yaml
-  title: 偽フラメル 象形寓意図の書
-  coverage_note: 1624年英訳版のフラメル本編全9章と関連前付、150原本頁、186対訳単位、図版12点を埋め込み。同冊の別著作Artephius・Pontanusは対象外。英語経由・偽託帰属を明示。
-  source_and_rights: 底本URL、翻訳経路、権利表示、注記は各YAML内を参照。
-  sha256: a899c9b46233112d6f2ab5b4a563473b77028d092cfd314f7687dc38c2dd67f6
-- file: translations/alchemy/amphitheatrum-sapientiae-aeternae-1609-la-ja.yaml
-  title: 永遠の叡智の円形劇場（1609年版）
-  coverage_note: 原刊全文を対象とする2598対訳単位。序論・注解とも365節の並列本文を収録、全299本文画像・297固有頁、原刊図14点。銅版60単位と本文等11単位に判読・補読・解釈上の留保がある。
-  source_and_rights: Public Domain Markの1609年底本。原文、出典URL、並列本文の識別方針と留保はYAMLに明示。
-  sha256: 4e84171bb90d53cfde1a8cb73f7115a4f1333ff63a7f718e5dba0ce2f7cec8b7
-- file: translations/stanislavsky/stanislavsky-actor-work-on-self-ru-ja.yaml
-  title: 俳優の自己修養 第1部
-  work_id: stanislavsky-actor-work-on-self
-  coverage_note: 序文・はじめに・全16章・付録7篇のロシア語原文と日本語新訳。11,606原文単位を9,728対訳単位に対応。原文の不確かな読みは訳注に明示。第2部は含まない。
-  sha256: 56d84705593aecd0928bc789829444acc083019cf88e946a70520a3d37015d2d
-  source_and_rights: 底本・照合資料・訳注・日本語訳の利用条件はYAMLに記載。模式図4点を日本語で再描画し同梱。
-- file: translations/stanislavsky/stanislavsky-actor-work-on-role-ru-ja.yaml
-  title: 俳優の役づくり
-  work_id: stanislavsky-actor-work-on-role
-  coverage_note: 『知恵の悲しみ』『オセロー』『検察官』の草稿・補足・付録6篇をロシア語から新訳。11,531原文単位を8,953対訳単位に対応。1957年版編者の序論・注解・索引と電子底本の混入文は対象外。
-  sha256: 7f0876f413527d835a4a7e5f0c81a6f8432ad35956b64b7ed6a4f77e7f637b0b
-  source_and_rights: 底本・照合資料・訳注・収録範囲・日本語訳のCC0利用条件はYAMLに記載。
-- file: translations/confucianism/rongo-zh-ja.yaml
-  title: 論語
-  work_id: rongo
-  coverage_note: 伝世本全20篇501章句と「知道第二十二」断片1章句を漢文から新訳。話者・対話・訳注を収録。底本の校注40件は日本語本文と分けて保存。
-  sha256: 3433222af5c68eb8a845609ef745f4bdf3c54f3dd383d811b7ec98cbc911b68d
-  source_and_rights: 中国語Wikisourceの固定版を底本とし、出典・異文・校訂と日本語新訳のCC BY-SA 4.0利用条件をYAMLに記載。
-- file: translations/buddhism/sutta-nipata-pi-ja.yaml
-  title: スッタニパータ
-  work_id: sutta-nipata
-  coverage_note: パーリ語本文全5章70経と巻末補遺21詩を収録。4,051原文記録を1,471対訳単位に対応。本文を全文見直し済み。巻末補遺の5詩には解釈未確定の句を明示して残す。底本中の48か所の省略は展開していない。
-  sha256: e8fa78e86d8171a59afa1705bbdb69643bf284d30a34183278ae1fed94f42505
-  source_and_rights: 底本はtipitaka 0.1.2所収Sn。現代電子底本の利用条件・伝承上の異読・日本語訳のCC0利用条件はYAMLに記載。
-- file: translations/erasmus/in-praise-of-folly-en-ja.yaml
-  title: 愚神礼讃
-  work_id: in-praise-of-folly
-  coverage_note: この日本語訳は、リーヴズ＆ターナー刊の一八七六年ロンドン版の英訳に基づく。英訳者の名は、この版に記されていない。 挿絵の小さな文字や刻字で判読できない箇所には、その旨を注記した。
-  sha256: 0760efbfb3f58d53b669e8b9cc9705cd916c0fac9b873734e0dbfb98320db6df
-  source_and_rights: 'Project Gutenberg: Public domain in the USA. No determination for other jurisdictions. Japanese translation: CC0.'
-- file: translations/dewey/studies-in-logical-theory-en-ja.yaml
-  title: 考えるしくみの研究
-  work_id: studies-in-logical-theory
-  coverage_note: '1903 Project Gutenberg text: complete title matter, preface, table of contents, eleven studies, index, and
-    208 original notes; 1,142 translated units. The 1909 scan is a comparison witness and cover source.'
-  sha256: 6df9e220d885d4f0d362a2c0648c68eb4a42c517daa9dba969f0ec58a7853bab
-  source_and_rights: 'Project Gutenberg: Public domain in the USA. No determination for other jurisdictions. Japanese translation:
-    CC0.'
-- file: translations/babbitt/the-new-laokoon-en-ja.yaml
-  title: 新ラオコーン
-  work_id: the-new-laokoon-1910
-  coverage_note: 一九一〇年版の前付・序文・全二部七章・原注・索引・印刷所表示。674対訳単位。原書の頁別脚注番号と索引の参照頁を保持。
-  sha256: 7951304e8b745a61a99fe58ebc85163b1559602f7c6180a036c18d466eb23e79
-  source_and_rights: 1910年米国刊原著は米国でパブリックドメイン。日本語新訳の再利用ライセンスは未指定。底本・校訂・留保はYAML内に記載。
-- file: translations/babbitt/spanish-character-and-other-essays-en-ja.yaml
-  title: スペイン人の気質、ほか論考
-  work_id: spanish-character-1940
-  coverage_note: 一九四〇年版の前付・序文・全十四論考・原注・著作目録・全著作索引。1857対訳単位。頁別脚注番号と複数著作にわたる索引の略号・参照頁を保持。
-  sha256: 43353a28470d3775a8821f8015a77f8e963abfad3ecad6d19d0b79fdd82a70de
-  source_and_rights: 一九四〇年版原著の米国パブリックドメイン判断は底本所蔵館の権利確認と更新記録調査に基づく。日本語新訳の再利用ライセンスは未指定。
-- file: translations/talleyrand/memoirs-volume-1-fr-ja.yaml
-  title: タレーラン公回想録 第一巻
-  work_id: talleyrand-memoirs-volume-1
-  coverage_note: 一八九一年版第一巻の本文・原注・電子版補注を翻訳。1,636対訳単位、原注566件、電子版補注2件。図版の手書き書簡は判読できる部分を別記し、判読未確定の一文を明示。
-  sha256: d0874939882dd532c987e4b347a4e883183395c675fc74844337401b2314947f
-  source_and_rights: Project Gutenbergは原著を米国でパブリックドメインと表示。全世界の権利状態は断定しない。日本語訳の再利用ライセンスは未指定。底本・異文・話者・留保はYAML内に記載。
-in_progress_not_included: []
-packaging_note: 本リポジトリは対訳YAMLを収録する。YAML内の図版・底本PDF・制作時分割データへの相対参照は由来の記録であり、それらのファイルやHTMLを本リポジトリへ同梱したことを意味しない。底本には各資料の公開出典URLからアクセスする。
+"schema_version": "2.0"
+"title": "原文・日本語対訳データ集"
+"updated": "2026-10-11"
+"format": "UTF-8 YAML"
+"description": "原文と日本語訳を固定IDで対応付けた翻訳データ。章・出典頁・注記・未解決事項を保持。HTMLは別の閲覧用表現。"
+"editorial_status": "AIによる翻訳・照合を含む。専門家による校訂版ではない。原文判読や歴史的編者の省略等に由来する留保は各ファイルに明示。"
+"medical_and_chemical_note": "歴史資料の記述を現代の医学的助言や安全な化学実験手順として利用しない。"
+"license_policy": "原典の保護期間満了と現代翻刻の利用条件を区別する。各ファイルの出典・権利表示を保持し、全体に一律のライセンスを追加していない。"
+"works":
+- "file": "translations/alchemy/amphitheatrum-sapientiae-aeternae-1609-la-ja.yaml"
+  "title": "永遠なる叡智の円形劇場"
+  "coverage_note": "原刊全文を対象とする2598対訳単位。序論・注解とも365節の並列本文を収録、全299本文画像・297固有頁、原刊図14点。銅版60単位と本文等11単位に判読・補読・解釈上の留保がある。"
+  "source_and_rights": "Public Domain Markの1609年底本。原文、出典URL、並列本文の識別方針と留保はYAMLに明示。"
+  "sha256": "0d180af09be067ecd6526896077c7198357bf2c1fc9a2886194359d8844fe34e"
+  "work_id": "amphitheatrum-sapientiae-aeternae-1609-la-ja"
+- "file": "translations/alchemy/atalanta-fugiens-ja.yaml"
+  "title": "逃げるアタランタ"
+  "work_id": "atalanta-fugiens-1618"
+  "coverage_note": "1618年版全50篇、序文・献辞・楽譜の文字・巻末索引と訂正。917対訳単位。声部で反復する二行詩は一度対訳し、反復・音節配置・音符は原図参照。難読等12単位に留保。"
+  "source_and_rights": "底本URL、翻訳経路、権利表示、注記は各YAML内を参照。"
+  "sha256": "61895cc05ab95ac7b2656bcdb002f79f140bf0b157eacd31614c4434ae3c2aa0"
+- "file": "translations/alchemy/de-alchemia-1541-la-ja.yaml"
+  "title": "錬金術について ― 1541年論集・全巻"
+  "work_id": "de-alchemia-1541-la-ja"
+  "coverage_note": "1541年論集全巻。標題・序文・全12頁の目次・全著作・印刷者告知と書目・正誤表、1457対訳単位。Summa・エメラルド板の単独版と収録範囲が重複。"
+  "source_and_rights": "底本URL、翻訳経路、権利表示、注記は各YAML内を参照。"
+  "sha256": "609c50fd7797a6885456c2339d942b6c10003e9f4be43679b559b7b38d4c10a3"
+- "file": "translations/alchemy/emerald-tablet-la-ja.yaml"
+  "title": "エメラルド板"
+  "work_id": "emerald-tablet-1541-la-ja"
+  "coverage_note": "1541年版De alchemia印刷363頁の短篇本文・標題・伝承序文。全巻とは別作品。"
+  "sha256": "9b41e6b6476ec2e9da28a23a8656517b509916ff983584c67a0bab6001ffe806"
+  "source_and_rights": "底本URL、翻訳経路、権利表示、注記は各YAML内を参照。"
+- "file": "translations/alchemy/flamel-hieroglyphic-figures-en-ja.yaml"
+  "title": "象形図像の解説"
+  "coverage_note": "1624年英訳版のフラメル本編全9章と関連前付、150原本頁、186対訳単位、図版12点を埋め込み。同冊の別著作Artephius・Pontanusは対象外。英語経由・偽託帰属を明示。"
+  "source_and_rights": "底本URL、翻訳経路、権利表示、注記は各YAML内を参照。"
+  "sha256": "77567139964e14e308b514827322b38d3b9745a0a251be59f816eb624a0463da"
+  "work_id": "flamel-hieroglyphic-figures-1624"
+- "file": "translations/alchemy/mutus-liber-ja.yaml"
+  "title": "沈黙の書"
+  "work_id": "mutus-liber-1677"
+  "coverage_note": "1677年版の全15図版に対応する文字資料と読者への序・刊行特許等。"
+  "sha256": "55127a526110a3e53d67e5c23b6948cac28b0e84ff2e395830d2bea43e5e265f"
+  "source_and_rights": "底本URL、翻訳経路、権利表示、注記は各YAML内を参照。"
+- "file": "translations/alchemy/rosarium-philosophorum-ja.yaml"
+  "title": "哲学者たちの薔薇園"
+  "work_id": "rosarium-philosophorum-1550"
+  "coverage_note": "1550年版の全192印刷頁。439対訳単位。標題の一部略号の読みは留保。"
+  "sha256": "ccb734f00fdfa36d0f48e213a17e9c61f505370e83afa9b84cdfb9712da7d858"
+  "source_and_rights": "https://doi.org/10.3931/e-rara-34454 — Public Domain Mark。詳細はYAML内に保持。"
+- "file": "translations/alchemy/summa-perfectionis-la-ja.yaml"
+  "title": "完全性の大全 ― 全二巻"
+  "work_id": "summa-perfectionis-1541-la-ja"
+  "coverage_note": "1541年De alchemia所収の全2巻・100章、427対訳単位。全巻版と同一本文の単独抽出版。原刊57–58頁は頁付けの飛び。"
+  "source_and_rights": "底本URL、翻訳経路、権利表示、注記は各YAML内を参照。"
+  "sha256": "bc895ec5998a9a0c492e7371e5cbc7aad083cb5892880d2f22cb94496f4d8910"
+- "file": "translations/alchemy/theatrum-chemicum-britannicum-en-ja.yaml"
+  "title": "英国錬金術劇場"
+  "work_id": "theatrum-chemicum-britannicum-1652-en-ja"
+  "coverage_note": "1652年初版の詩篇・序文・注解・目次・語彙表・正誤表・図中文字。1387対訳単位。主底本の欠図と損傷箇所は同年版の別個体で補完。"
+  "source_and_rights": "底本URL、翻訳経路、権利表示、注記は各YAML内を参照。"
+  "sha256": "3482c017c5c3bf1e4e19280e15062374d8c134a267d0146facf48b3ab419bbe4"
+- "file": "translations/alchemy/turba-philosophorum-en-ja.yaml"
+  "title": "哲学者たちの集会"
+  "work_id": "turba-philosophorum-waite-1896-en-ja"
+  "coverage_note": "Waite1896年英訳からの重訳。全72発言・序書簡・結語。Waiteの編集序文・脚注・索引は対象外。"
+  "sha256": "3370442b84bcae15f0e5e074e764433f78b564e9b0f750a08a90ed809970d18d"
+  "source_and_rights": "底本URL、翻訳経路、権利表示、注記は各YAML内を参照。"
+- "file": "translations/alchemy/zosimos-fr-ja.yaml"
+  "title": "ゾシモス作品集 第III部 1888年版 フランス語旧訳・日本語対訳"
+  "work_id": "zosimos-caag-part-iii-1888-fr-ja"
+  "coverage_note": "1888年フランス語旧訳からの重訳。57篇。旧訳が省略したギリシア語本文は未復元。"
+  "sha256": "c1a0cf855529a2684d5d88b932916c7d5b90559cc0be99842fa9f17dbeca5619"
+  "source_and_rights": "底本URL、翻訳経路、権利表示、注記は各YAML内を参照。"
+- "file": "translations/babbitt/spanish-character-and-other-essays-en-ja.yaml"
+  "title": "スペイン人の気質、ほか論考"
+  "work_id": "spanish-character-1940"
+  "coverage_note": "一九四〇年版の前付・序文・全十四論考・原注・著作目録・全著作索引。1857対訳単位。頁別脚注番号と複数著作にわたる索引の略号・参照頁を保持。"
+  "sha256": "7963b6b5f3dba30f9bab0dac68775deaca4a4081bb1140ad27e7d33dfd0e960d"
+  "source_and_rights": "一九四〇年版原著の米国パブリックドメイン判断は底本所蔵館の権利確認と更新記録調査に基づく。日本語新訳の再利用ライセンスは未指定。"
+- "file": "translations/babbitt/the-new-laokoon-en-ja.yaml"
+  "title": "新ラオコーン"
+  "work_id": "the-new-laokoon-1910"
+  "coverage_note": "一九一〇年版の前付・序文・全二部七章・原注・索引・印刷所表示。674対訳単位。原書の頁別脚注番号と索引の参照頁を保持。"
+  "sha256": "e21830c6dbf54649c9f0d11fd84b5d8f8c291f1265eeb2342638ee61d5f1e471"
+  "source_and_rights": "1910年米国刊原著は米国でパブリックドメイン。日本語新訳の再利用ライセンスは未指定。底本・校訂・留保はYAML内に記載。"
+- "file": "translations/buddhism/sutta-nipata-pi-ja.yaml"
+  "title": "スッタニパータ"
+  "work_id": "sutta-nipata"
+  "coverage_note": "パーリ語本文全5章70経と巻末補遺21詩を収録。4,051原文記録を1,471対訳単位に対応。本文を全文見直し済み。巻末補遺の5詩には解釈未確定の句を明示して残す。底本中の48か所の省略は展開していない。"
+  "sha256": "0905236ffa5329596ff2a06519d7d535e5660d43c5afa6ff403cc86a0176b420"
+  "source_and_rights": "底本はtipitaka 0.1.2所収Sn。現代電子底本の利用条件・伝承上の異読・日本語訳のCC0利用条件はYAMLに記載。"
+- "file": "translations/confucianism/rongo-zh-ja.yaml"
+  "title": "論語"
+  "work_id": "rongo"
+  "coverage_note": "伝世本全20篇501章句と「知道第二十二」断片1章句を漢文から新訳。話者・対話・訳注を収録。底本の校注40件は日本語本文と分けて保存。"
+  "sha256": "d9ef818be401a098e09252a81158ff451755a393b6594ed99cdc419464135428"
+  "source_and_rights": "中国語Wikisourceの固定版を底本とし、出典・異文・校訂と日本語新訳のCC BY-SA 4.0利用条件をYAMLに記載。"
+- "file": "translations/dewey/studies-in-logical-theory-en-ja.yaml"
+  "title": "考えるしくみの研究"
+  "work_id": "studies-in-logical-theory"
+  "coverage_note": "1903 Project Gutenberg text: complete title matter, preface, table of contents, eleven studies, index, and 208 original notes; 1,142 translated units. The 1909 scan is a comparison witness and cover source."
+  "sha256": "1f277023bd3febbe45b5bfaabf6216edad90e3b719eb526cc0e727b1fccd62ff"
+  "source_and_rights": "Project Gutenberg: Public domain in the USA. No determination for other jurisdictions. Japanese translation: CC0."
+- "file": "translations/erasmus/in-praise-of-folly-en-ja.yaml"
+  "title": "愚神礼讃"
+  "work_id": "in-praise-of-folly"
+  "coverage_note": "この日本語訳は、リーヴズ＆ターナー刊の一八七六年ロンドン版の英訳に基づく。英訳者の名は、この版に記されていない。 挿絵の小さな文字や刻字で判読できない箇所には、その旨を注記した。"
+  "sha256": "1336a7906b3e4eecfe8a66456fcc6270248419410a18ada14d3cc217ede9eeda"
+  "source_and_rights": "Project Gutenberg: Public domain in the USA. No determination for other jurisdictions. Japanese translation: CC0."
+- "file": "translations/leonardo/leonardo-frammenti-it-ja.yaml"
+  "title": "レオナルド・ダ・ヴィンチ 文学的・哲学的断片（ソルミ編1908年版）原文・日本語対訳"
+  "work_id": "leonardo-frammenti-solmi-1908"
+  "coverage_note": "ソルミ編1908年版の本文全単位。難読箇所の注記あり。"
+  "sha256": "245c9fc0d09b41bb94f048ae89ca367873a7b5cd82ef65c10b96fcf5529c0748"
+  "source_and_rights": "底本URL、翻訳経路、権利表示、注記は各YAML内を参照。"
+- "file": "translations/leonardo/leonardo-pittura-it-ja.yaml"
+  "title": "レオナルド・ダ・ヴィンチ 絵画論（1890年版）イタリア語原文・日本語対訳"
+  "work_id": "leonardo-pittura-1890"
+  "coverage_note": "1890年版の本文8部935章。編者注は原文別置で日本語訳未完。Wikisource由来の編集要素と日本語訳はCC BY-SA 4.0。"
+  "sha256": "b2441c9f2d96378edb40e29b05aea087d1833d15f841cc1e9205f3aa691ba07a"
+  "source_and_rights": "底本URL、翻訳経路、権利表示、注記は各YAML内を参照。"
+- "file": "translations/leonardo/leonardo-windsor-b-it-ja.yaml"
+  "title": "レオナルド・ダ・ヴィンチ ウィンザー解剖手稿 B 原文・日本語対訳"
+  "work_id": "leonardo-windsor-anatomy-b"
+  "coverage_note": "84面を収録。29rの判読未確定部分と9vの図符号に未完箇所がある。"
+  "sha256": "e908978acb7a01d73a771d0bd95e574c95ee61ba2293ed1c1df367e088a1365c"
+  "source_and_rights": "底本URL、翻訳経路、権利表示、注記は各YAML内を参照。"
+- "file": "translations/stanislavsky/stanislavsky-actor-work-on-role-ru-ja.yaml"
+  "title": "俳優の役づくり"
+  "work_id": "stanislavsky-actor-work-on-role"
+  "coverage_note": "『知恵の悲しみ』『オセロー』『検察官』の草稿・補足・付録6篇をロシア語から新訳。11,531原文単位を8,953対訳単位に対応。1957年版編者の序論・注解・索引と電子底本の混入文は対象外。"
+  "sha256": "82fd62992e25a5c0f00fd32f63c1e0ef73d7691d4060d4c6d17759b4381c7578"
+  "source_and_rights": "底本・照合資料・訳注・収録範囲・日本語訳のCC0利用条件はYAMLに記載。"
+- "file": "translations/stanislavsky/stanislavsky-actor-work-on-self-ru-ja.yaml"
+  "title": "俳優の自己修養 第1部"
+  "work_id": "stanislavsky-actor-work-on-self"
+  "coverage_note": "序文・はじめに・全16章・付録7篇のロシア語原文と日本語新訳。11,606原文単位を9,728対訳単位に対応。原文の不確かな読みは訳注に明示。第2部は含まない。"
+  "sha256": "ab613f4e7cbc97e61dbcb5eb5112b3fe993d0116b0d0bb7265ad4616cbc6c519"
+  "source_and_rights": "底本・照合資料・訳注・日本語訳の利用条件はYAMLに記載。模式図4点を日本語で再描画し同梱。"
+- "file": "translations/talleyrand/memoirs-volume-1-fr-ja.yaml"
+  "title": "タレーラン公回想録 第一巻"
+  "work_id": "talleyrand-memoirs-volume-1"
+  "coverage_note": "一八九一年版第一巻の本文・原注・電子版補注を翻訳。1,636対訳単位、原注566件、電子版補注2件。図版の手書き書簡は判読できる部分を別記し、判読未確定の一文を明示。"
+  "sha256": "6cc94a2ae3b7a2851493d1b4cf104da970c662afe52a1b15ebc45da31535e754"
+  "source_and_rights": "Project Gutenbergは原著を米国でパブリックドメインと表示。全世界の権利状態は断定しない。日本語訳の再利用ライセンスは未指定。底本・異文・話者・留保はYAML内に記載。"
+"in_progress_not_included": []
+"packaging_note": "対訳原稿は翻訳YAML 2.0。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"

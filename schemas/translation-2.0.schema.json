@@ -1,0 +1,1594 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "work_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+    },
+    "metadata": {
+      "$ref": "#/$defs/Metadata"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Source"
+      },
+      "minItems": 1
+    },
+    "scope": {
+      "$ref": "#/$defs/Scope"
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Section"
+      },
+      "minItems": 1
+    },
+    "segments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Segment"
+      },
+      "minItems": 0
+    },
+    "workflow": {
+      "$ref": "#/$defs/Workflow"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Note"
+      },
+      "minItems": 0
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Reference"
+      },
+      "minItems": 0
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Group"
+      },
+      "minItems": 0
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Asset"
+      },
+      "minItems": 0
+    },
+    "figures": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Figure"
+      },
+      "minItems": 0
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Alias"
+      },
+      "minItems": 0
+    },
+    "terminology": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Term"
+      },
+      "minItems": 0
+    },
+    "provenance": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema_version",
+    "work_id",
+    "metadata",
+    "sources",
+    "scope",
+    "sections",
+    "segments",
+    "workflow"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/cacazu/nihonjinbun/main/schemas/translation-2.0.schema.json",
+  "title": "日本人文 翻訳YAML 2.0",
+  "$defs": {
+    "Rights": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "public_domain",
+            "licensed",
+            "unknown"
+          ]
+        },
+        "license_id": {
+          "type": "string"
+        },
+        "license_url": {
+          "type": "string",
+          "pattern": "^https?://[^\\s]+$"
+        },
+        "evidence_url": {
+          "type": "string",
+          "pattern": "^https?://[^\\s]+$"
+        },
+        "attribution": {
+          "type": "string"
+        },
+        "jurisdiction": {
+          "type": "string"
+        },
+        "note_ja": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "Contributor": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "name_ja": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name_original": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "roles": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "author",
+              "contributor",
+              "editor",
+              "source_translator",
+              "translator",
+              "illustrator"
+            ]
+          },
+          "minItems": 1
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://[^\\s]+$"
+        }
+      },
+      "required": [
+        "id",
+        "name_ja",
+        "name_original",
+        "roles"
+      ],
+      "additionalProperties": false
+    },
+    "Metadata": {
+      "type": "object",
+      "properties": {
+        "title_ja": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title_original": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "original_languages": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{1,8}(?:-[A-Za-z0-9]{1,8})*$"
+          },
+          "minItems": 1
+        },
+        "target_language": {
+          "const": "ja"
+        },
+        "contributors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Contributor"
+          },
+          "minItems": 0
+        },
+        "translation_rights": {
+          "$ref": "#/$defs/Rights"
+        },
+        "subtitle_ja": {
+          "type": "string"
+        },
+        "genres": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 0
+        },
+        "reader_notes_ja": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 0
+        },
+        "cover_asset_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        }
+      },
+      "required": [
+        "title_ja",
+        "title_original",
+        "original_languages",
+        "target_language",
+        "contributors",
+        "translation_rights"
+      ],
+      "additionalProperties": false
+    },
+    "Span": {
+      "type": "object",
+      "properties": {
+        "start": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "end": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "exact": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "exact"
+      ],
+      "additionalProperties": false
+    },
+    "Crop": {
+      "type": "object",
+      "properties": {
+        "unit": {
+          "enum": [
+            "pixel",
+            "fraction"
+          ]
+        },
+        "x": {
+          "type": "number",
+          "minimum": 0
+        },
+        "y": {
+          "type": "number",
+          "minimum": 0
+        },
+        "width": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "unit",
+        "x",
+        "y",
+        "width",
+        "height"
+      ],
+      "additionalProperties": false
+    },
+    "Location": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "precision": {
+          "enum": [
+            "work",
+            "page",
+            "block",
+            "line",
+            "region",
+            "unknown"
+          ]
+        },
+        "printed_page": {
+          "type": "string"
+        },
+        "printed_page_end": {
+          "type": "string"
+        },
+        "pdf_page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pdf_page_end": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://[^\\s]+$"
+        },
+        "anchor": {
+          "type": "string"
+        },
+        "xpath": {
+          "type": "string"
+        },
+        "line_start": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "line_end": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "source_sequence": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "asset_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "crop": {
+          "$ref": "#/$defs/Crop"
+        }
+      },
+      "required": [
+        "source_id",
+        "precision"
+      ],
+      "additionalProperties": false
+    },
+    "PageRecord": {
+      "type": "object",
+      "properties": {
+        "location": {
+          "$ref": "#/$defs/Location"
+        },
+        "role": {
+          "type": "string"
+        },
+        "description_ja": {
+          "type": "string"
+        },
+        "segment_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+          },
+          "minItems": 0
+        },
+        "figure_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "location",
+        "role"
+      ],
+      "additionalProperties": false
+    },
+    "Source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "role": {
+          "enum": [
+            "primary",
+            "intermediary",
+            "comparison"
+          ]
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{1,8}(?:-[A-Za-z0-9]{1,8})*$"
+          },
+          "minItems": 1
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^https?://[^\\s]+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "edition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "work_rights": {
+          "$ref": "#/$defs/Rights"
+        },
+        "transcription_rights": {
+          "$ref": "#/$defs/Rights"
+        },
+        "contributor_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+          },
+          "minItems": 0
+        },
+        "derived_from_source_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "local_path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "description_ja": {
+          "type": "string"
+        },
+        "page_inventory": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/PageRecord"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "id",
+        "role",
+        "title",
+        "languages",
+        "url",
+        "edition",
+        "work_rights",
+        "transcription_rights"
+      ],
+      "additionalProperties": false
+    },
+    "SourceRange": {
+      "type": "object",
+      "properties": {
+        "segment_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "span": {
+          "$ref": "#/$defs/Span"
+        }
+      },
+      "required": [
+        "segment_id",
+        "span"
+      ],
+      "additionalProperties": false
+    },
+    "ScopeItem": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "description_ja": {
+          "type": "string"
+        },
+        "section_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+          },
+          "minItems": 0
+        },
+        "segment_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+          },
+          "minItems": 0
+        },
+        "source_ranges": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/SourceRange"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "source_id",
+        "description_ja"
+      ],
+      "additionalProperties": false
+    },
+    "Gap": {
+      "type": "object",
+      "properties": {
+        "description_ja": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "segment_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+          },
+          "minItems": 0
+        },
+        "reference_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+          },
+          "minItems": 0
+        },
+        "figure_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "description_ja"
+      ],
+      "additionalProperties": false
+    },
+    "Scope": {
+      "type": "object",
+      "properties": {
+        "included": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ScopeItem"
+          },
+          "minItems": 0
+        },
+        "excluded": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ScopeItem"
+          },
+          "minItems": 0
+        },
+        "known_gaps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Gap"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "included",
+        "excluded",
+        "known_gaps"
+      ],
+      "additionalProperties": false
+    },
+    "Section": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "parent_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "kind": {
+          "enum": [
+            "part",
+            "chapter",
+            "section",
+            "folio",
+            "editorial_group"
+          ]
+        },
+        "heading_segment_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+          },
+          "minItems": 0
+        },
+        "label_ja": {
+          "type": "string"
+        },
+        "origin": {
+          "enum": [
+            "source",
+            "editorial"
+          ]
+        },
+        "source_locations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Location"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "id",
+        "parent_id",
+        "kind",
+        "heading_segment_ids"
+      ],
+      "additionalProperties": false
+    },
+    "Alignment": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "original_unit_id": {
+          "type": "string"
+        },
+        "source_span": {
+          "$ref": "#/$defs/Span"
+        },
+        "description_ja": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "original_unit_id"
+      ],
+      "additionalProperties": false
+    },
+    "Variant": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "ocr",
+            "diplomatic",
+            "corrected",
+            "comparison"
+          ]
+        },
+        "text": {
+          "type": "string"
+        },
+        "source_locations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Location"
+          },
+          "minItems": 0
+        },
+        "description_ja": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "kind",
+        "text"
+      ],
+      "additionalProperties": false
+    },
+    "Attribution": {
+      "type": "object",
+      "properties": {
+        "voice": {
+          "enum": [
+            "author",
+            "editor",
+            "digital_editor",
+            "quoted_person",
+            "translator",
+            "unknown"
+          ]
+        },
+        "contributor_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "name_ja": {
+          "type": "string"
+        },
+        "name_original": {
+          "type": "string"
+        },
+        "source_span": {
+          "$ref": "#/$defs/Span"
+        },
+        "translation_span": {
+          "$ref": "#/$defs/Span"
+        },
+        "evidence_ja": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "voice"
+      ],
+      "additionalProperties": false
+    },
+    "Annotation": {
+      "type": "object",
+      "properties": {
+        "side": {
+          "enum": [
+            "source",
+            "translation"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "emphasis",
+            "strong",
+            "ruby",
+            "indent",
+            "language"
+          ]
+        },
+        "span": {
+          "$ref": "#/$defs/Span"
+        },
+        "reading": {
+          "type": "string"
+        },
+        "columns": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "language": {
+          "type": "string",
+          "pattern": "^[A-Za-z]{1,8}(?:-[A-Za-z0-9]{1,8})*$"
+        }
+      },
+      "required": [
+        "side",
+        "kind",
+        "span"
+      ],
+      "additionalProperties": false
+    },
+    "Issue": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "unreadable",
+            "source_untranscribed",
+            "missing_source",
+            "uncertain_translation",
+            "unresolved_reference",
+            "unclassified_structure"
+          ]
+        },
+        "status": {
+          "enum": [
+            "open",
+            "resolved"
+          ]
+        },
+        "message_ja": {
+          "type": "string"
+        },
+        "source_span": {
+          "$ref": "#/$defs/Span"
+        },
+        "translation_span": {
+          "$ref": "#/$defs/Span"
+        }
+      },
+      "required": [
+        "kind",
+        "status",
+        "message_ja"
+      ],
+      "additionalProperties": false
+    },
+    "Segment": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "section_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "kind": {
+          "enum": [
+            "heading",
+            "paragraph",
+            "verse",
+            "list_item",
+            "table_cell",
+            "index_entry",
+            "note_body",
+            "figure_text",
+            "separator",
+            "unclassified"
+          ]
+        },
+        "origin": {
+          "enum": [
+            "source",
+            "translator"
+          ]
+        },
+        "source_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_languages": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z]{1,8}(?:-[A-Za-z0-9]{1,8})*$"
+          },
+          "minItems": 0
+        },
+        "source_locations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Location"
+          },
+          "minItems": 0
+        },
+        "translation_ja": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "translation_status": {
+          "enum": [
+            "pending",
+            "draft",
+            "reviewed",
+            "partial"
+          ]
+        },
+        "translation_required": {
+          "type": "boolean"
+        },
+        "source_alignment": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Alignment"
+          },
+          "minItems": 0
+        },
+        "source_kind": {
+          "type": "string"
+        },
+        "source_variants": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Variant"
+          },
+          "minItems": 0
+        },
+        "attributions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Attribution"
+          },
+          "minItems": 0
+        },
+        "annotations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Annotation"
+          },
+          "minItems": 0
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Issue"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "id",
+        "section_id",
+        "kind",
+        "origin",
+        "source_text",
+        "source_languages",
+        "source_locations",
+        "translation_ja",
+        "translation_status"
+      ],
+      "additionalProperties": false
+    },
+    "NotePart": {
+      "type": "object",
+      "properties": {
+        "segment_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "source_span": {
+          "$ref": "#/$defs/Span"
+        },
+        "translation_span": {
+          "$ref": "#/$defs/Span"
+        }
+      },
+      "required": [
+        "segment_id"
+      ],
+      "additionalProperties": false
+    },
+    "Note": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "origin": {
+          "enum": [
+            "author",
+            "editor",
+            "digital_editor",
+            "translator",
+            "unknown"
+          ]
+        },
+        "body": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/NotePart"
+          },
+          "minItems": 1
+        },
+        "label": {
+          "type": "string"
+        },
+        "contributor_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "source_locations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Location"
+          },
+          "minItems": 0
+        },
+        "form": {
+          "enum": [
+            "footnote",
+            "endnote",
+            "marginal",
+            "inline",
+            "unlocated"
+          ]
+        },
+        "description_ja": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "origin",
+        "body"
+      ],
+      "additionalProperties": false
+    },
+    "ReferenceFrom": {
+      "type": "object",
+      "properties": {
+        "segment_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "source_span": {
+          "$ref": "#/$defs/Span"
+        },
+        "translation_span": {
+          "$ref": "#/$defs/Span"
+        }
+      },
+      "required": [
+        "segment_id"
+      ],
+      "additionalProperties": false
+    },
+    "ReferenceTarget": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "enum": [
+                "note",
+                "segment",
+                "figure"
+              ]
+            },
+            "id": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+            }
+          },
+          "required": [
+            "type",
+            "id"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "source_location"
+            },
+            "location": {
+              "$ref": "#/$defs/Location"
+            }
+          },
+          "required": [
+            "type",
+            "location"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "Reference": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "kind": {
+          "enum": [
+            "note",
+            "cross_reference",
+            "index",
+            "figure"
+          ]
+        },
+        "origin": {
+          "enum": [
+            "source",
+            "translator"
+          ]
+        },
+        "from": {
+          "$ref": "#/$defs/ReferenceFrom"
+        },
+        "to": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ReferenceTarget"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "status": {
+          "enum": [
+            "verified",
+            "unresolved"
+          ]
+        },
+        "label": {
+          "type": "string"
+        },
+        "unresolved_label": {
+          "type": "string"
+        },
+        "work_code": {
+          "type": "string"
+        },
+        "description_ja": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Location"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "origin",
+        "from",
+        "to",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "GroupMember": {
+      "type": "object",
+      "properties": {
+        "segment_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "row": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "column": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "label_ja": {
+          "type": "string"
+        },
+        "source_span": {
+          "$ref": "#/$defs/Span"
+        },
+        "translation_span": {
+          "$ref": "#/$defs/Span"
+        }
+      },
+      "required": [
+        "segment_id"
+      ],
+      "additionalProperties": false
+    },
+    "Group": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "kind": {
+          "enum": [
+            "quotation",
+            "poem",
+            "list",
+            "parallel",
+            "table"
+          ]
+        },
+        "members": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/GroupMember"
+          },
+          "minItems": 1
+        },
+        "separator": {
+          "type": "string"
+        },
+        "parent_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "description_ja": {
+          "type": "string"
+        },
+        "source_variants": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Variant"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "members",
+        "separator"
+      ],
+      "additionalProperties": false
+    },
+    "Processing": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "crop",
+            "rotate",
+            "resize",
+            "compress",
+            "translate_labels",
+            "redraw"
+          ]
+        },
+        "description_ja": {
+          "type": "string"
+        },
+        "crop": {
+          "$ref": "#/$defs/Crop"
+        },
+        "coordinate_image_width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "coordinate_image_height": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "kind",
+        "description_ja"
+      ],
+      "additionalProperties": false
+    },
+    "Asset": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "status": {
+          "enum": [
+            "planned",
+            "available"
+          ]
+        },
+        "path": {
+          "type": "string"
+        },
+        "media_type": {
+          "enum": [
+            "image/png",
+            "image/jpeg",
+            "image/gif",
+            "image/webp",
+            "image/svg+xml"
+          ]
+        },
+        "rights": {
+          "$ref": "#/$defs/Rights"
+        },
+        "source_locations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Location"
+          },
+          "minItems": 0
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "derived_from_asset_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "processing": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Processing"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "id",
+        "status",
+        "path",
+        "media_type",
+        "rights",
+        "source_locations"
+      ],
+      "additionalProperties": false
+    },
+    "Placement": {
+      "type": "object",
+      "properties": {
+        "anchor_type": {
+          "enum": [
+            "segment",
+            "section",
+            "figure"
+          ]
+        },
+        "anchor_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "position": {
+          "enum": [
+            "before",
+            "after",
+            "start",
+            "end"
+          ]
+        }
+      },
+      "required": [
+        "anchor_type",
+        "anchor_id",
+        "position"
+      ],
+      "additionalProperties": false
+    },
+    "Figure": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "asset_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "caption_ja": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alt_ja": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "placement": {
+          "$ref": "#/$defs/Placement"
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "caption_segment_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+          },
+          "minItems": 0
+        },
+        "text_segment_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+          },
+          "minItems": 0
+        },
+        "description_ja": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "asset_id",
+        "caption_ja",
+        "alt_ja",
+        "placement",
+        "required"
+      ],
+      "additionalProperties": false
+    },
+    "Alias": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "enum": [
+            "segment",
+            "section",
+            "note",
+            "figure"
+          ]
+        },
+        "old_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "new_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "source_span": {
+          "$ref": "#/$defs/Span"
+        },
+        "translation_span": {
+          "$ref": "#/$defs/Span"
+        }
+      },
+      "required": [
+        "type",
+        "old_id",
+        "new_id"
+      ],
+      "additionalProperties": false
+    },
+    "Term": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "kind": {
+          "enum": [
+            "term",
+            "person",
+            "form_of_address"
+          ]
+        },
+        "source_language": {
+          "type": "string",
+          "pattern": "^[A-Za-z]{1,8}(?:-[A-Za-z0-9]{1,8})*$"
+        },
+        "source": {
+          "type": "string"
+        },
+        "translation_ja": {
+          "type": "string"
+        },
+        "related_work_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+          },
+          "minItems": 0
+        },
+        "note_ja": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "source_language",
+        "source",
+        "translation_ja"
+      ],
+      "additionalProperties": false
+    },
+    "FullReview": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "not_started",
+            "in_progress",
+            "complete"
+          ]
+        },
+        "completed_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d\\d-\\d\\dT\\d\\d:\\d\\d:\\d\\d(?:\\.\\d+)?Z$"
+        },
+        "reviewed_by": {
+          "type": "string",
+          "minLength": 1
+        },
+        "content_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "Workflow": {
+      "type": "object",
+      "properties": {
+        "stage": {
+          "enum": [
+            "translating",
+            "reviewing",
+            "ready"
+          ]
+        },
+        "full_review": {
+          "$ref": "#/$defs/FullReview"
+        }
+      },
+      "required": [
+        "stage"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
