@@ -1,0 +1,304 @@
+{
+  "recorded_at_utc": "2026-10-10T16:49:40.918769+00:00",
+  "scope": "Bounded visual comparison of the Noailles arrival passages at v02-u001369 and v02-u001409, their November 6, 1814 letter datelines, and the wording qu’il allait du salut at v02-u001412 with historical note 336. These targeted printed checks do not constitute whole-volume collation or historical reconciliation.",
+  "edition": "Mémoires du prince de Talleyrand, II; Duc de Broglie; Paris: Calmann Lévy, 1891.",
+  "source_pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%202.pdf",
+  "source_pdf_sha256": "3771109799cca390c3a5863daa94930d2d76b106f69d49d9be7340c32bb479fb",
+  "source_pdf_md5": "1f1eaf1b894977996ec635814a2d2a10",
+  "provider_md5_previously_verified": true,
+  "method": "Actual grayscale facsimile pages inspected, rendered at 200 dpi with pdftoppm; lossless rectangular evidence excerpts made with Pillow. No OCR-only conclusion.",
+  "transcription_convention": "Line wrapping and typographic spacing normalized; superscript er in 1er flattened; superscript footnote1 retained as ¹. Printed word breaks such as no-vembre rejoined.",
+  "arrival_finding": "Both original printed letters are dated November 6, 1814. The ambassadors’ letter states a November1 conference with Noailles arriving that morning; Talleyrand’s letter states his arrival Wednesday morning November2. These differing arrival accounts are inherited from print. No digital date correction or historical reconciliation is supplied by this witness.",
+  "wording_finding": "Print on p.429 has qu’il allait du salut de la monarchie à¹ ne point laisser, without y. Original note1, corresponding to digital note336, reads Variante : de ne point. No missing y or other corrective main-text wording is supplied.",
+  "original_units_file_sha256": "de79e50201bd083c5dc917e360852658f0587c4e76a86cddc04dfbed54ebf751",
+  "source_html_sha256": "267a9813307960274fd54c11cbb98c7c63f70ccbb12472710f2dbf363079a7d6",
+  "findings": [
+    {
+      "units": [
+        "v02-u001369",
+        "v02-u001365"
+      ],
+      "printed_pages": [
+        419
+      ],
+      "printed_main_reading": "Une troisième conférence s’est tenue le 1er novembre. M. le comte de Noailles, arrivé le matin, y a assisté.",
+      "printed_heading": "Nº 11 bis. — LES AMBASSADEURS DU ROI AU CONGRÈS, AU MINISTRE DES AFFAIRES ÉTRANGÈRES A PARIS.",
+      "printed_dateline": "Vienne, le 6 novembre 1814.",
+      "excerpts": [
+        "facsimile-u1369-u1412/u001369-noailles-november1.png",
+        "facsimile-u1369-u1412/u001365-letter11bis-date.png"
+      ],
+      "status": "digital_and_print_reading_verified; no_restoration",
+      "source_units": [
+        {
+          "unit": "v02-u001369",
+          "text": "Une troisième conférence s'est tenue le 1er novembre. M. le comte de Noailles, arrivé le matin, y a assisté.",
+          "text_sha256": "c2dc5cba2e51a541f0d1db136391524086df463b0bb6ef9db099811e86606616",
+          "html_sha256": "a2c485c985ed46cc829e44a65e8e3c4c6cfc750779e4484a9a89f13cd774f7af"
+        },
+        {
+          "unit": "v02-u001365",
+          "text": "Vienne, le 6 novembre 1814.",
+          "text_sha256": "03661822964dfec2a9b2ca75c5b77b049ecbcbbb9f2e33520efbfb54c400f2db",
+          "html_sha256": "ffd08e2385619f125d95148661ef1c01db3db89dc26d56a3608b22a443807991"
+        }
+      ],
+      "pages": [
+        {
+          "printed_page": 419,
+          "pdf_page_1_based": 433,
+          "ia_leaf_0_based": 432,
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n432/mode/1up",
+          "unbundled_image_filename": "print-419_pdf-433.png",
+          "bundled": false,
+          "unbundled_file_sha256": "aef01ba58526adc64022de08e608fc0c565036d69a4b2813a615d7c79f7d5c6b",
+          "image_sha256": "aef01ba58526adc64022de08e608fc0c565036d69a4b2813a615d7c79f7d5c6b",
+          "visually_inspected": true
+        }
+      ],
+      "evidence_files": [
+        {
+          "filename": "u001369-noailles-november1.png",
+          "path": "facsimile-u1369-u1412/u001369-noailles-november1.png",
+          "sha256": "973e1152567d5f970e429f2255fe215187ec48ae75a0369cf955ea0125e85956",
+          "bytes": 69661,
+          "crop_xyxy": [
+            195,
+            1535,
+            1130,
+            1643
+          ],
+          "visually_inspected": true
+        },
+        {
+          "filename": "u001365-letter11bis-date.png",
+          "path": "facsimile-u1369-u1412/u001365-letter11bis-date.png",
+          "sha256": "5be83527dd713cfdd6865b79767e5015a454e3fb5d716e7025ee3faf24d27190",
+          "bytes": 83311,
+          "crop_xyxy": [
+            190,
+            895,
+            1130,
+            1090
+          ],
+          "visually_inspected": true
+        }
+      ]
+    },
+    {
+      "units": [
+        "v02-u001409",
+        "v02-u001407"
+      ],
+      "printed_pages": [
+        427
+      ],
+      "printed_main_reading": "M. le comte de Noailles, arrivé ici mercredi matin 2 novembre, m’a apporté le supplément d’instructions que Votre Majesté a bien voulu me faire adresser.",
+      "printed_heading": "Nº 10. — LE PRINCE DE TALLEYRAND AU ROI LOUIS XVIII.",
+      "printed_dateline": "Vienne, le 6 novembre 1814.",
+      "excerpts": [
+        "facsimile-u1369-u1412/u001409-noailles-november2.png",
+        "facsimile-u1369-u1412/u001407-letter10-date.png"
+      ],
+      "status": "digital_and_print_reading_verified; no_restoration",
+      "source_units": [
+        {
+          "unit": "v02-u001409",
+          "text": "M. le comte de Noailles, arrivé ici mercredi matin 2 novembre, m'a apporté le supplément d'instructions que Votre Majesté a bien voulu me faire adresser. Les résolutions de Votre Majesté sont maintenant connues du cabinet autrichien, de l'empereur d'Autriche lui-même et de la Bavière. J'ai cru plus utile de n'en point parler encore à lord Castlereagh, toujours prompt à s'alarmer d'une intervention de la France, et je n'en ai pu parler au comte de Munster, qui, à peine sorti des mains de ses médecins, fait les préparatifs de son mariage avec la comtesse de la Lippe, sœur du prince régnant de Buckeburg.",
+          "text_sha256": "b83f0c4210502aae66dfe61077165e495fe98e1b578840647da722935805f512",
+          "html_sha256": "95963541a871f0d8b19ec759c7a2c1b26933f9bf80928a88775a245c04823e61"
+        },
+        {
+          "unit": "v02-u001407",
+          "text": "Vienne, le 6 novembre 1814.",
+          "text_sha256": "03661822964dfec2a9b2ca75c5b77b049ecbcbbb9f2e33520efbfb54c400f2db",
+          "html_sha256": "ffd08e2385619f125d95148661ef1c01db3db89dc26d56a3608b22a443807991"
+        }
+      ],
+      "pages": [
+        {
+          "printed_page": 427,
+          "pdf_page_1_based": 441,
+          "ia_leaf_0_based": 440,
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n440/mode/1up",
+          "unbundled_image_filename": "print-427_pdf-441.png",
+          "bundled": false,
+          "unbundled_file_sha256": "20edd38a7cff84e76fdae16a3394cee40c8c91d78230b3f865ff8ec77d96de31",
+          "image_sha256": "20edd38a7cff84e76fdae16a3394cee40c8c91d78230b3f865ff8ec77d96de31",
+          "visually_inspected": true
+        }
+      ],
+      "evidence_files": [
+        {
+          "filename": "u001409-noailles-november2.png",
+          "path": "facsimile-u1369-u1412/u001409-noailles-november2.png",
+          "sha256": "91830ea9e90a4bf62b4437e6b9979ba5ddd7712a93e72feb6abe5c933bcaa803",
+          "bytes": 114660,
+          "crop_xyxy": [
+            175,
+            735,
+            1110,
+            890
+          ],
+          "visually_inspected": true
+        },
+        {
+          "filename": "u001407-letter10-date.png",
+          "path": "facsimile-u1369-u1412/u001407-letter10-date.png",
+          "sha256": "b590d8a398f8f4923c747797011cef114e39f2b03da1df3183f68e09b6278b83",
+          "bytes": 55209,
+          "crop_xyxy": [
+            175,
+            560,
+            1110,
+            720
+          ],
+          "visually_inspected": true
+        }
+      ]
+    },
+    {
+      "units": [
+        "v02-u001412",
+        "v02-u002406"
+      ],
+      "printed_pages": [
+        428,
+        429
+      ],
+      "printed_main_reading": "et qu’il allait du salut de la monarchie à¹ ne point laisser tomber entre les mains de la Prusse les défilés de la Thuringe et de la Saale.",
+      "printed_note_reading": "1. Variante : de ne point.",
+      "printed_note_number": 1,
+      "digital_note_number": 336,
+      "excerpts": [
+        "facsimile-u1369-u1412/u001412-salut-main.png",
+        "facsimile-u1369-u1412/u002406-note336.png"
+      ],
+      "status": "unusual_reading_verified_in_print; no_missing_y_supplied",
+      "finding": "The target wording is on p.429. Print has qu’il allait, with no y between il and allait. The existing printed variant concerns à ne point / de ne point; it does not supply y or a different verb. The scan offers no missing-word restoration for the queried construction.",
+      "source_units": [
+        {
+          "unit": "v02-u001412",
+          "text": "J'ai su que, dans un conseil d'État présidé par l'empereur lui-même et composé de M. de Stadion, du prince de Schwarzenberg et du prince de Metternich, ainsi que du comte de Zichy et du général Duka[335], il a été établi en principe que la question de la Saxe était encore d'un plus grand intérêt pour l'Autriche que celle même de la Pologne, et qu'il allait du salut de la monarchie à[336] ne point laisser tomber entre les mains de la Prusse les défilés de la Thuringe et de la Saale. (J'entre dans plus de détails sur cet objet dans ma lettre de ce jour, adressée au département.)",
+          "text_sha256": "e1a2a2a0b8180a67ee36f3b5e717a0019b1b6830974468c51a4c785c8dfad00c",
+          "html_sha256": "a6927db428405ca8dcfc133f1d2442bc35c4cece405112e049adf9f1c2564e66"
+        },
+        {
+          "unit": "v02-u002406",
+          "text": "[336] Variante: de ne point.",
+          "text_sha256": "816d4a1260604db7f3de529f39a0d3c608ee5617959b50c69d2801a8760020c0",
+          "html_sha256": "1d1299b647dc574e08ad0fa1acab777c86358fec18ccba6afcd5e54527b275c2"
+        }
+      ],
+      "pages": [
+        {
+          "printed_page": 428,
+          "pdf_page_1_based": 442,
+          "ia_leaf_0_based": 441,
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n441/mode/1up",
+          "unbundled_image_filename": "print-428_pdf-442.png",
+          "bundled": false,
+          "unbundled_file_sha256": "40b8b5678531ed10239e810b9a0e50481e8e6e2af2d936567fd8d1c5be255349",
+          "image_sha256": "40b8b5678531ed10239e810b9a0e50481e8e6e2af2d936567fd8d1c5be255349",
+          "visually_inspected": true
+        },
+        {
+          "printed_page": 429,
+          "pdf_page_1_based": 443,
+          "ia_leaf_0_based": 442,
+          "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n442/mode/1up",
+          "unbundled_image_filename": "print-429_pdf-443.png",
+          "bundled": false,
+          "unbundled_file_sha256": "7451bd92a5abdaae515397455c86d1326ed203764118860a475bc58c2c4b55ea",
+          "image_sha256": "7451bd92a5abdaae515397455c86d1326ed203764118860a475bc58c2c4b55ea",
+          "visually_inspected": true
+        }
+      ],
+      "evidence_files": [
+        {
+          "filename": "u001412-salut-main.png",
+          "path": "facsimile-u1369-u1412/u001412-salut-main.png",
+          "sha256": "8257e522cf0397ff525630ba455fdfef4d834e0524997a713672610e4ccf5004",
+          "bytes": 157375,
+          "crop_xyxy": [
+            185,
+            350,
+            1130,
+            570
+          ],
+          "visually_inspected": true
+        },
+        {
+          "filename": "u002406-note336.png",
+          "path": "facsimile-u1369-u1412/u002406-note336.png",
+          "sha256": "74605c740f908ed4f112d71d1ba88c0e7e4b1f922997da47c867b1434bd41b37",
+          "bytes": 13256,
+          "crop_xyxy": [
+            215,
+            1907,
+            670,
+            1970
+          ],
+          "visually_inspected": true
+        }
+      ]
+    }
+  ],
+  "source_pdf_bundled": false,
+  "relative_path_base": "All local evidence paths are relative to the payload directory. Unbundled filenames are identifiers only, not local links.",
+  "digital_source_inventory_bundled": false,
+  "bundled_evidence_files": [
+    "facsimile-u1369-u1412/u001365-letter11bis-date.png",
+    "facsimile-u1369-u1412/u001369-noailles-november1.png",
+    "facsimile-u1369-u1412/u001407-letter10-date.png",
+    "facsimile-u1369-u1412/u001409-noailles-november2.png",
+    "facsimile-u1369-u1412/u001412-salut-main.png",
+    "facsimile-u1369-u1412/u002406-note336.png",
+    "facsimile-u1369-u1412/REPORT.txt",
+    "facsimile-u1369-u1412/verification.json"
+  ],
+  "unbundled_full_page_context": [
+    {
+      "filename": "print-419_pdf-433.png",
+      "printed_page": 419,
+      "pdf_page_1_based": 433,
+      "sha256": "aef01ba58526adc64022de08e608fc0c565036d69a4b2813a615d7c79f7d5c6b",
+      "bytes": 912036,
+      "bundled": false,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n432/mode/1up"
+    },
+    {
+      "filename": "print-427_pdf-441.png",
+      "printed_page": 427,
+      "pdf_page_1_based": 441,
+      "sha256": "20edd38a7cff84e76fdae16a3394cee40c8c91d78230b3f865ff8ec77d96de31",
+      "bytes": 1112677,
+      "bundled": false,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n440/mode/1up"
+    },
+    {
+      "filename": "print-428_pdf-442.png",
+      "printed_page": 428,
+      "pdf_page_1_based": 442,
+      "sha256": "40b8b5678531ed10239e810b9a0e50481e8e6e2af2d936567fd8d1c5be255349",
+      "bytes": 1193964,
+      "bundled": false,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n441/mode/1up"
+    },
+    {
+      "filename": "print-429_pdf-443.png",
+      "printed_page": 429,
+      "pdf_page_1_based": 443,
+      "sha256": "7451bd92a5abdaae515397455c86d1326ed203764118860a475bc58c2c4b55ea",
+      "bytes": 1133200,
+      "bundled": false,
+      "public_page_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-2/page/n442/mode/1up"
+    }
+  ],
+  "unbundled_crop_map": {
+    "filename": "crop-map.json",
+    "sha256": "87de0606c11518708f0751e9dbf8afeeb2bad04e5fdc532689c8e7c6fa374e35",
+    "bundled": false,
+    "description": "The crop rectangles needed to identify the six excerpts are also included above in evidence_files."
+  }
+}

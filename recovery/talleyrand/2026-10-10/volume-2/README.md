@@ -1,6 +1,6 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 1471 entries in batches 001–183 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 1523 entries in batches 001–190 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -191,6 +191,13 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `181-root-draft.json`: `c81f144c81eaac9f798b7c392384a76566819768518648d9a595fddbe9583c6e`
 - `182-root-draft.json`: `0603699b8f9da9b7e8c7d1d16ca0815b25cf65f65d24673abe29b582b3eea77a`
 - `183-root-draft.json`: `164202b3a270664f933e4fa8f6de1c65fdf688dbef78d82a6a9a83a012eb5936`
+- `184-root-draft.json`: `4d61b4fafc092ce8b1796b9a523da16cadadee6c6d1ad4f824bafd36c436a8ab`
+- `185-root-draft.json`: `fed06cffcff6a48cbe8a320ba8622e0ff0c3b8e936fd737820c4cd6bd2214407`
+- `186-root-draft.json`: `65e8e128f212ee1a83b99c5c9af564ae9ef605d9b02a4025e54f87ac9680e6d8`
+- `187-root-draft.json`: `69d7659d60da6b9ecf056405e3ec4ba76feedf4a3e7c32194b2fcff7b6d8fdc8`
+- `188-root-draft.json`: `e170d74f188d6adb201835dd6126f76f9221832ac9f49717404ba4ef2e3b8796`
+- `189-root-draft.json`: `296150c43de85e2c2e542c8a7dcaeca08f21451abd46931a750e7f0c105a6294`
+- `190-root-draft.json`: `7f624b85cf32633de5fc6284bd4929fc90e8620b8360df19637a3a44ec8ac94a`
 
 ## Source evidence checksums
 
@@ -212,3 +219,5 @@ The bounded unit1274 evidence preserves the printed royal-letter heading and dat
 The latest16-record reader-facing source-discrepancy ledger is `source-evidence/final-bounded-collation/source-discrepancies.json`; it supersedes the earlier ledger snapshot. This additional15-file bundle includes nine exact excerpts for the remaining bounded age/name/numeral and return-time comparisons. The conflicting inherited readings are retained; no unsupported restoration or full-volume printed collation is claimed.
 
 The bounded unit1382 evidence documents digital empocher versus printed empêcher on page421. The final draft follows the printed reading with a separate translator disclosure; four digital witnesses and the exact printed paragraph excerpt are preserved in `source-evidence/facsimile-u1382/`.
+
+The19-record source-discrepancy ledger in `source-evidence/evidence-018-019/` supersedes earlier snapshots. Its six exact excerpts document the differing Noailles arrival dates and the unusual unit1412 wording with original note336. These are bounded comparisons, not full printed-volume collation.
