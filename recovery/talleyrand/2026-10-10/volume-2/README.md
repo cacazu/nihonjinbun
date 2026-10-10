@@ -1,6 +1,6 @@
 # Talleyrand volume 2 manuscript drafts — incomplete
 
-This recovery checkpoint preserves 2380 entries in batches 001–301 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
+This recovery checkpoint preserves 2477 entries in batches 001–310 byte-for-byte. Initial semantic checks have passed at these bytes. All files have reread_complete: false; the volume is incomplete and its full-volume reread has not been completed. No canonical publication or HTML is supplied here.
 
 The fragmented front-matter title requires semantic assembly in the eventual reader while preserving its source-unit mapping. That renderer work remains pending.
 
@@ -305,10 +305,19 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `295-root-draft.json`: `e3e718dd95f6d41b3c14e6d7c665daca1fe1fa5c3a883505a4961a020f49219c`
 - `296-root-draft.json`: `04c682026b70a6deb9a578a525a63a2895e7dab6ea6cf74897d30f4a8eb17744`
 - `297-root-draft.json`: `c3d7754cca257ce3a97d4d7c12c7d5b9fe1fb7d50172533ebd297451300eb88e`
-- `298-root-draft.json`: `688161233a5b1c992f839d8687e3b09e2ff1c45fb6d9afaa90a2a3a7d66657de`
+- `298-root-draft.json`: `5458053c46b12c143599462f8c57b674f03da035837dca0153a5eea08d97cefa`
 - `299-root-draft.json`: `e7344f46236ba04062144ce4b9787368308c47a253f2204db1caa791ff433c56`
 - `300-root-draft.json`: `9c4ce4a38929b2ef9648514596e375242f7416e225e5c5d5ac4b79914e2f644c`
 - `301-root-draft.json`: `5c7193ef3ee0c66b940776ff0d02a8f147babe56aacf0cc188eb92fafc4d83b1`
+- `302-root-draft.json`: `93472a8e81b493ccee19777d245b72026da4367adaa8e86c39851c6fe7aabc0c`
+- `303-root-draft.json`: `ebfb1819f63d8acd646b3cb6a42a88de66e78c02469647dc3f89d8a2964dc15f`
+- `304-root-draft.json`: `906c747cc0e33f4d9d998165e0c79f1f33d668518d1dee4d5d178d9540f3e899`
+- `305-root-draft.json`: `22df1646960163c4dcf13acb2e92d0559afd4d6c281fa6ca9b9bd54df81844f5`
+- `306-root-draft.json`: `ba56245d323b9de860b0c55987df76c73b3e094917a42517126bc750a72756cc`
+- `307-root-draft.json`: `07a35d9c5975cf5eb43754f4d7b8cb204a3eef76086b9d1e6cb0e3361b56423f`
+- `308-root-draft.json`: `4c31b9ec086bdb403a63be816b435b1eb8a883a366394c827ac4acfb9aae7266`
+- `309-root-draft.json`: `a79be2f0dcc9283d9da9a04a145c4386218d9458c70b999ae29927e66053035d`
+- `310-root-draft.json`: `7a62dea01d926396c0d61ee8aad0b405c0de00ae7c6c5c65c86ce055b4c465e6`
 
 ## Source evidence checksums
 
