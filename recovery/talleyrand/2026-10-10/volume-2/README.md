@@ -293,28 +293,28 @@ Unit 889 restores an internal digital-source omission from a visually checked 18
 - `283-root-draft.json`: `28bfedd4a9b331b7d64e26934434f41b8d4e2e409510b2a8ef42e32ea71becb2`
 - `284-root-draft.json`: `50f6082d1c981481645791d43c6f78702718ad0ec6eca8bde925561d2c11c6a1`
 - `285-root-draft.json`: `ea7d3ebbff369b5981aa32ed82bd713f71fef250e05347cbcd9cfdd398864b48`
-- `286-root-draft.json`: `71971ed4bec19d0a56962f48b80587d895f6da1a70f9a5aee9442a077419dc0c`
-- `287-root-draft.json`: `1beedd74f0760c0a2d4cbb565a9b80dce3e5576c7f9accddab2844a55646cdd4`
+- `286-root-draft.json`: `aa0b918caa3a5bfdcab79170e78eea0090a3d6cce7821aa2b4f369513ce912b2`
+- `287-root-draft.json`: `85e740e5b8412a261bd5145b20fe0111fc4ba735ee3e69434b67913b0be8f398`
 - `288-root-draft.json`: `7dbc4ac4b4a1993cefe83fbdf579a6f5aa94cc26197cfbbc5f20842c64d2dca7`
 - `289-root-draft.json`: `cd2c2e125549423ad50b9054ff9273b14f51940c546a8d6fcba11353dc6d85ca`
 - `290-root-draft.json`: `654b059e4af4880dfc0f62927772d1ad9e0b2dee68c66916c13fe19aa603d83f`
 - `291-root-draft.json`: `36dafb58df3e772121ac91a0a93c0254d2cd16c2930826333276c81bd33e362f`
-- `292-root-draft.json`: `29611ef2d1f670661a29485da9577959ca5f15ae86f9fbdf93173119a04babda`
+- `292-root-draft.json`: `14e88588aeca229d2e6cf1648a8f9093f16f4e833a07bc7627960256dacc8261`
 - `293-root-draft.json`: `23fab40e388240a881e1492b3364c445cdcdfccc4417fad25d7e0cf24a23c2fe`
-- `294-root-draft.json`: `bc4313c90c04b39e7987fd7142a0f645392ad9d25a98868ba904826d08b4cb88`
-- `295-root-draft.json`: `d7c44fdae7d2eecdbc7dab125099a1397d3a19d53e06d3c1a1565df74bd341b5`
-- `296-root-draft.json`: `dc3682ba792055ebf99b4c4af5048a4be1fd9edf02d695e075532c461f5efb6f`
-- `297-root-draft.json`: `ec6f3884e882a0c36eb4e2d460f638794de6f5e1d6932df7a06934596a416d40`
-- `298-root-draft.json`: `cda71b008447279b628bfdcd28547b006e8004de84cb9237d18d60e732c1ea58`
+- `294-root-draft.json`: `34889c23d6ae3b0925016a9ec2e953c0492618a466bafa23f38ebca0d1e1a7c4`
+- `295-root-draft.json`: `04331b2deac0f93dfa1fe28e1f290fd3b320a4741fedf03b74e9007027a1f17b`
+- `296-root-draft.json`: `2ef04099bc101ef8bb8c14fae9bd4e70a6096bdd88db3c0f78de97485708eed1`
+- `297-root-draft.json`: `b9f05e8876af703d30402272ab4496feb71eaf0e8316cdc96c9f0e9fef0873c2`
+- `298-root-draft.json`: `77c2f817401fe3178c73f2df9e94a35ffd8ea20b34603acbab46ebfd708d10e1`
 - `299-root-draft.json`: `e12237de9a453d2f33910f0cab459bd87bfdc38c247376b831ba367f6f3c9b2d`
 - `300-root-draft.json`: `e2fca6b57f36c87fd730664daf8fe8094d82bad3082481dba16065d09f1b6e13`
 - `301-root-draft.json`: `5f98ffd864aeaf0648d69acf2f3e43fe734cdb9a2b3a5f2543cc668e236780f5`
-- `302-root-draft.json`: `c4aad2199b980a1fce48b6d2fde874f573a6eec7dc24f7bf63f39d163430342b`
-- `303-root-draft.json`: `f9df7873380a6fbed268ca05ad193719f80fc7cc4d5dda9ea58072608349ab95`
+- `302-root-draft.json`: `85be8a4837d83fe420794dbe7eb6d87b72d4c58f3f1adb7b6ddfaf213c1a27e2`
+- `303-root-draft.json`: `b4bc504f7766bce8b3dedb5076d7d7a4d347eb068e1c737635d935091dc9b6b7`
 - `304-root-draft.json`: `e3f330d36caed9e65e90054cb73ae492d95e76c61ae596d79024a77232f4d000`
 - `305-root-draft.json`: `157459c3ef444ae96b3ba5e7c44c4d6f2f5a5a1743639699707992e078d70a96`
-- `306-root-draft.json`: `8000af4f36949304641ace40293b71db67d0a91741c03443d3f9231c21b7002d`
-- `307-root-draft.json`: `e62ae4bad354f6296a7f9b544f89a9c6e62931c366efa79f7c75b650a5c840dd`
+- `306-root-draft.json`: `85d14c92b459735ebc435688ebc984b730bd13bce5ad324b5b8baf4857c8801b`
+- `307-root-draft.json`: `854bbfb251c6af6760c4e528633c1deb97456f0614e800ad427bab0df056626a`
 - `308-root-draft.json`: `0d7f2e94347d38af289a34a5bd4d62784416af3386f288d59ff100fe44346110`
 - `309-root-draft.json`: `56a6de46d71e52178e8d6ed93851b1f07abf61a8b1bf9898b1cffc1454639ad3`
 - `310-root-draft.json`: `7df1b2649ed1045a59f432b6690a78b0ab327c89929a6f27f2d986c92938e182`
@@ -363,3 +363,5 @@ Original note163 begins after the Queen Charlotte letter ends at unit2204. The e
 The original note222 evidence preserves the printed n’eussent/m’eussent difference and the limits of grammatical interpretation; no unsupported restoration is claimed. The latest reader-facing ledger in `source-evidence/evidence-025/` supersedes prior ledger snapshots.
 
 `manuscript-reread-status.json` is a publication-safe completion record with exact draft-file hashes. It does not certify completion of reader rendering or publication checks.
+
+The final15 revised units were reread and independently checked: two Japanese clarifications and13 original-variant notes now accompanied by exact French readings. Typography and rendering verification remain separate pending steps.
