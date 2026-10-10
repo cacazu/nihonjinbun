@@ -1,6 +1,6 @@
 # Talleyrand manuscript drafts — incomplete
 
-This checkpoint preserves 1116 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
+This checkpoint preserves 1156 Japanese draft entries byte-for-byte as supplied on 2026-10-10. These fragments are not a completed volume or canonical translation. Do not import them into the catalog or generate published HTML from them.
 
 - `001-new-draft.json`: 20 newly drafted front-matter and early volume 1 entries, including units 17–26.
 - `002-new-draft.json`: newly drafted volume 1 units 27–37.
@@ -135,8 +135,12 @@ This checkpoint preserves 1116 Japanese draft entries byte-for-byte as supplied 
 - `130-root-draft.json`: newly drafted volume 1 units 1095–1104.
 - `131-root-draft.json`: newly drafted volume 1 units 1105–1114.
 - `132-root-draft.json`: newly drafted volume 1 units 1115–1124.
+- `133-root-draft.json`: newly drafted volume 1 units 1125–1134.
+- `134-root-draft.json`: newly drafted volume 1 units 1135–1144.
+- `135-root-draft.json`: newly drafted volume 1 units 1145–1154.
+- `136-root-draft.json`: newly drafted volume 1 units 1155–1164.
 
-Batches 001–039 are replacement work, not recovered earlier text. Batches 041–132 are likewise new work. All 133 canonical-entry draft files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 1116 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. This is partial-volume coverage only. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
+Batches 001–039 are replacement work, not recovered earlier text. Batches 041–136 are likewise new work. All 137 canonical-entry draft files have `reread_complete: false`. Source hashes are present for every included entry. Initial semantic checks have passed for the 1156 available entries, including the supplied corrections. Coverage through unit 440 has been checked with no gaps or duplicate entries after accounting for nine merged front-matter aliases and the additional scan-rights entry. This is partial-volume coverage only. These checks do not constitute a full-volume reread. All files remain incomplete manuscript drafts.
 
 Preservation checks covered JSON syntax, incomplete status, nonempty Japanese text fields, unique entry IDs, source-hash presence and byte checksums. They do not certify full-volume accuracy or completeness. Before incorporation into canonical YAML, complete the remaining source alignment, review and required full reread. This folder is outside `translations/`; the catalog and canonical translations are unchanged.
 
@@ -145,7 +149,7 @@ Preservation checks covered JSON syntax, incomplete status, nonempty Japanese te
 
 `source-evidence/new-scan-checks/` preserves 19 comparison-scan page images, five scan-provenance JSON files, and a targeted historical-clarification report. The comparison scan is not established as the exact exemplar used by Gutenberg. Unit 591 preserves the printed negative with its interpretive difficulty disclosed; unit 598 documents the comparison reading `pertes` against Gutenberg's `perles`. Separate evidence documents unit 614 as editorial continuation of note 322, and unit 929 as editorial continuation after signed authorial note 500. Unit 929 is now translated in batch 111, with its editorial-continuation placement disclosed separately. Separate historical evidence for units 669 and 682 supports the translator notes added to batches 074 and 076; the narrator's wording remains distinct from those notes. Base source files are unchanged. Paths recorded inside the original provenance files are preserved as supplied; corresponding images are included in this folder.
 
-`source-evidence/digital-editorial-exclusions.json` preserves Gutenberg digital-editorial material, including Roman-numbered notes [i] and [ii]. Unit 770's [i] marker refers to this modern digital apparatus, not one of the 566 printed notes. Reader output must keep its attribution and destination distinct. The two digital notes have now been translated in the separately labeled `pg-digital-notes-root-draft.json`; both passed initial review, remain incomplete drafts, and are excluded from the 1116 canonical-entry count.
+`source-evidence/digital-editorial-exclusions.json` preserves Gutenberg digital-editorial material, including Roman-numbered notes [i] and [ii]. Unit 770's [i] marker refers to this modern digital apparatus, not one of the 566 printed notes. Reader output must keep its attribution and destination distinct. The two digital notes have now been translated in the separately labeled `pg-digital-notes-root-draft.json`; both passed initial review, remain incomplete drafts, and are excluded from the 1156 canonical-entry count.
 
 The added `units-763-801-809-verification.json` and its three referenced images document unit 801's printed 27 October versus Gutenberg's 21 October, the differing Duroc titles, and the shared preposition in unit 809. Draft 093 retains a separate disclosure for its scan-based date correction. The comparison-witness limitation remains applicable.
 
@@ -290,6 +294,10 @@ Seven original Gutenberg illustration files are preserved under `source-evidence
 - `130-root-draft.json`: `20b5c8b64238cf71dace205c4da420283ed654adfad2544913f2c1a162c6964b`
 - `131-root-draft.json`: `0a3bf4cd5ac8fe06ee650f484cfb1edeec48fce928c79349abf6281708e77ef0`
 - `132-root-draft.json`: `5911d386815fb1fa40cafa61dbdad200583870782165401010a277f3286952a4`
+- `133-root-draft.json`: `25aff27767a7160dd14800319bf21f0eb7e44bca3e708b370ac87c5aa6cb0bc6`
+- `134-root-draft.json`: `670d06e1514c9d4f533367e0a8b8e4a5986f1b4812064a0e6d2e6d1097710a05`
+- `135-root-draft.json`: `912dbf25e5785a7cb4b93a0ac66cf23525718be49c9e7994fbbfeed9ab439335`
+- `136-root-draft.json`: `73653d967c7e25c9118bbd43fe0bb09d730e886fe0d8a8007877838078f8cc43`
 - `pg-digital-notes-root-draft.json`: `7646910a41f1987795ed1a7f467fdcf8db3882b7896774dbcb13f655ec009ead`
 
 ### Source evidence
