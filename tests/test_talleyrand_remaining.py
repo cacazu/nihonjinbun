@@ -110,6 +110,30 @@ class RemainingVolumeTests(unittest.TestCase):
         self.assertEqual(joined['kind'], 'paragraph')
         self.assertEqual([m['segment_id'] for m in joined['members']], ['v03-u000501', 'v03-u000502'])
 
+    def test_original_parts_letters_and_appendices_are_navigable_in_hierarchy(self):
+        doc = load_document(ROOT / 'translations/talleyrand/memoirs-volume-3-fr-ja.yaml')
+        sections = {s['id']: s for s in doc['sections']}
+        segments = {s['id']: s for s in doc['segments']}
+        for part, heading in [(8, 17), (9, 881), (10, 1343)]:
+            section = sections[f'v03-section-part-{part}']
+            self.assertEqual(section['kind'], 'part')
+            self.assertEqual(section['heading_segment_ids'], [f'v03-u{heading:06}'])
+            self.assertEqual(section['origin'], 'source')
+        for part, heading in [(9, 1253), (10, 1657)]:
+            section = sections[f'v03-section-part-{part}-appendix']
+            self.assertEqual(section['parent_id'], f'v03-section-part-{part}')
+            self.assertEqual(section['heading_segment_ids'], [f'v03-u{heading:06}'])
+        for heading, parent in [(22, 'part-8'), (888, 'part-9'),
+                                (1311, 'part-9-appendix'), (1632, 'part-10'),
+                                (1661, 'part-10-appendix'), (1796, 'part-10-appendix')]:
+            sid = f'v03-u{heading:06}'
+            matches = [s for s in doc['sections'] if sid in s['heading_segment_ids']]
+            self.assertEqual(len(matches), 1)
+            self.assertEqual(matches[0]['parent_id'], f'v03-section-{parent}')
+            self.assertEqual(segments[sid]['section_id'], matches[0]['id'])
+        report = next(s for s in doc['sections'] if 'v03-u000888' in s['heading_segment_ids'])
+        self.assertEqual(report['heading_segment_ids'], ['v03-u000888', 'v03-u000889'])
+
 
 if __name__ == '__main__':
     unittest.main()
