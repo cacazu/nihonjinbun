@@ -156,8 +156,8 @@
   - "work_id": "talleyrand-memoirs-volume-3"
     "file": "translations/talleyrand/memoirs-volume-3-fr-ja.yaml"
     "title": "タレーラン公回想録 第三巻"
-    "sha256": "441cb5dbad694093700d47dee0846822bc3c79b0895176c2ed4f35a29d9160f7"
-    "coverage_note": "翻訳作業中。標題・刊記、第八部の書簡、第九部と付録、第十部の冒頭から1830年9月のロンドン大使就任とベルギー問題の最初の協議まで、原注1〜298と264-a〜264-g、電子版注の初稿。全2338単位中1742単位が訳済み。残りの本文・注・付録・目次などは未訳。巻全体の見直しは未開始。"
+    "sha256": "4f9a8ed97de1370b9b582eae7afa22e41d662d820e760d490c23ed601ba08701"
+    "coverage_note": "標題・刊記、本文、付録、原注1〜462と264-a〜264-g、電子版注、原刊図版の説明、巻末目次の初稿がそろい、完稿後の全文見直し中。全2357単位中2357単位が訳済み。全文見直しとHTML反映は未完了。"
     "source_and_rights": "底本はProject Gutenbergの1891年版第三巻。原典図版・原注・訳注を区別し、権利表示と留保はYAML内に記載。"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿は翻訳YAML 2.0。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"

@@ -34,8 +34,12 @@ class RemainingVolumeTests(unittest.TestCase):
                         text = (segment['source_text'][span['start']:span['end']]
                                 if span else segment['source_text'])
                         source_units.append((alignment['original_unit_id'], text))
-                self.assertEqual([ident for ident, text in source_units], [u['id'] for u in original])
-                preserved = dict(source_units)
+                # A source row may be split into cells; concatenation must preserve
+                # every character and the original reading order.
+                preserved = {}
+                for ident, text in source_units:
+                    preserved[ident] = preserved.get(ident, '') + text
+                self.assertEqual(list(preserved), [u['id'] for u in original])
                 for unit in original:
                     self.assertEqual(preserved[unit['id']], unit['text'])
                 for note in witness(volume, 'notes-inventory.json'):
@@ -89,6 +93,22 @@ class RemainingVolumeTests(unittest.TestCase):
         segment = next(s for s in doc['segments'] if s['id'] == 'v03-u001805')
         self.assertTrue(any(a['voice'] == 'editor' and a.get('contributor_id') == contributor['id']
                             for a in segment['attributions']))
+
+    def test_original_tables_have_two_columns_and_the_page_break_is_joined(self):
+        doc = load_document(ROOT / 'translations/talleyrand/memoirs-volume-3-fr-ja.yaml')
+        segments = {s['id']: s for s in doc['segments']}
+        for gid, rows in [('v03-table-signatures', 8), ('v03-table-cabinet', 11)]:
+            group = next((g for g in doc['groups'] if g['id'] == gid), None)
+            self.assertIsNotNone(group)
+            self.assertEqual(group['kind'], 'table')
+            self.assertEqual([(m['row'], m['column']) for m in group['members']],
+                             [(row, col) for row in range(1, rows + 1) for col in (1, 2)])
+            self.assertTrue(all(segments[m['segment_id']]['kind'] == 'table_cell'
+                                for m in group['members']))
+        joined = next((g for g in doc['groups'] if g['id'] == 'v03-paragraph-page-110-111'), None)
+        self.assertIsNotNone(joined)
+        self.assertEqual(joined['kind'], 'paragraph')
+        self.assertEqual([m['segment_id'] for m in joined['members']], ['v03-u000501', 'v03-u000502'])
 
 
 if __name__ == '__main__':
