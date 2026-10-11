@@ -150,5 +150,11 @@
   "title": "タレーラン公回想録 第二巻"
   "sha256": "b775f665d4e0fe0ac793934553ad3a34336b12c77ad9ccc6adc06a9b9993f85a"
   "coverage_note": "1891年版第二巻の本文・付録・印刷注・図版。"
+- "work_id": "talleyrand-memoirs-volume-3"
+  "file": "translations/talleyrand/memoirs-volume-3-fr-ja.yaml"
+  "title": "タレーラン公回想録 第三巻"
+  "sha256": "9a17ecef1304ef48dc230aa96007dfb87d1d8968c4bb52fe15a695eccda95608"
+  "coverage_note": "翻訳作業中。標題・刊記、1815年1月6日から15日までの冒頭の書簡7通と原注1〜12、電子版注の初稿。残りの本文・注・付録・目次などは未訳。巻全体の見直しは未開始。"
+  "source_and_rights": "底本はProject Gutenbergの1891年版第三巻。原典図版・原注・訳注を区別し、権利表示と留保はYAML内に記載。"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿は翻訳YAML 2.0。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"
