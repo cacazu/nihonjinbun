@@ -799,6 +799,7 @@
         "kind": {
           "enum": [
             "emphasis",
+            "small_caps",
             "strong",
             "ruby",
             "indent",
@@ -1229,6 +1230,8 @@
         },
         "kind": {
           "enum": [
+            "heading",
+            "paragraph",
             "quotation",
             "poem",
             "list",

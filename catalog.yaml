@@ -145,5 +145,10 @@
   "coverage_note": "一八九一年版第一巻の本文・原注・電子版補注を翻訳。1,636対訳単位、原注566件、電子版補注2件。図版の手書き書簡は判読できる部分を別記し、判読未確定の一文を明示。"
   "sha256": "6cc94a2ae3b7a2851493d1b4cf104da970c662afe52a1b15ebc45da31535e754"
   "source_and_rights": "Project Gutenbergは原著を米国でパブリックドメインと表示。全世界の権利状態は断定しない。日本語訳の再利用ライセンスは未指定。底本・異文・話者・留保はYAML内に記載。"
+- "work_id": "talleyrand-memoirs-volume-2"
+  "file": "translations/talleyrand/memoirs-volume-2-fr-ja.yaml"
+  "title": "タレーラン公回想録 第二巻"
+  "sha256": "b775f665d4e0fe0ac793934553ad3a34336b12c77ad9ccc6adc06a9b9993f85a"
+  "coverage_note": "1891年版第二巻の本文・付録・印刷注・図版。"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿は翻訳YAML 2.0。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"

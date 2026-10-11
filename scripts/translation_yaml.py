@@ -352,6 +352,15 @@ def validate_document(data, repo_root=None):
                 spans(member, indexes['segments'][member['segment_id']], group['id'])
         order = [positions.get(ident, -1) for ident in members]
         if order != sorted(set(order)): fail(f'{group["id"]}: group members must be unique and in reading order')
+        if group['kind'] in {'heading', 'paragraph'}:
+            units = [indexes['segments'].get(i, {}) for i in members]
+            if order != list(range(order[0], order[0]+len(order))) or any(
+                    s.get('kind') != group['kind'] or s.get('section_id') != units[0].get('section_id') for s in units):
+                fail(f'{group["id"]}: joined text requires adjacent units of the same kind and section')
+            if any('source_span' in m or 'translation_span' in m or 'row' in m or 'column' in m for m in group['members']):
+                fail(f'{group["id"]}: joined text requires whole units')
+            if group.get('parent_id'):
+                fail(f'{group["id"]}: joined text cannot be a child group')
         parent = indexes['groups'].get(group.get('parent_id'))
         if parent and not set(members) <= {x['segment_id'] for x in parent['members']}:
             fail(f'{group["id"]}: child group not contained in parent')
@@ -367,6 +376,17 @@ def validate_document(data, repo_root=None):
         for b in groups[i + 1:]:
             ids_b = {m['segment_id'] for m in b['members']}
             if not ids_a & ids_b: continue
+            shared = ids_a & ids_b
+            # Independent ranges must be disjoint on the rendered side. Source-only
+            # ranges cannot establish that two full Japanese quotations are disjoint.
+            def disjoint(sid):
+                left = next(m for m in a['members'] if m['segment_id'] == sid)
+                right = next(m for m in b['members'] if m['segment_id'] == sid)
+                side = 'translation_span' if isinstance(indexes['segments'][sid]['translation_ja'], str) else 'source_span'
+                if side not in left or side not in right: return False
+                comparable = [(left[k], right[k]) for k in ('translation_span', 'source_span') if k in left and k in right]
+                return all(x['end'] <= y['start'] or y['end'] <= x['start'] for x,y in comparable)
+            if all(disjoint(sid) for sid in shared): continue
             ancestors = set()
             for child in (a, b):
                 parent = child.get('parent_id')

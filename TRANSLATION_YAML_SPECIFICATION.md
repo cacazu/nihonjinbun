@@ -117,7 +117,7 @@ Cropは `unit: pixel|fraction` と `x`、`y`、`width`、`height` の数値を�
 
 **Attribution**: 必須は `voice: author|editor|digital_editor|quoted_person|translator|unknown`。任意は `contributor_id: string`、`name_ja: string`、`name_original: string`、`source_span: Span`、`translation_span: Span`、`evidence_ja: string`。範囲省略は単位全体。声の出自が不確かな場合はunknownと説明を保持し、著者や編者へ推測で割り当てない。異なる声が入れ子になる場合は範囲を含む関係を明示し、交差する曖昧な範囲を認めない。
 
-**Annotation**: 必須は `side: source|translation`、`kind: emphasis|strong|ruby|indent|language`、`span: Span`。rubyは `reading: string`、indentは空白字幅で表す `columns: integer>=0`、languageは `language: string` を追加で必須とする。languageの値は言語タグ。emphasisとstrongは追加値を持たない。
+**Annotation**: 必須は `side: source|translation`、`kind: emphasis|strong|small_caps|ruby|indent|language`、`span: Span`。rubyは `reading: string`、indentは空白字幅で表す `columns: integer>=0`、languageは `language: string` を追加で必須とする。languageの値は言語タグ。emphasis・strong・small_capsは追加値を持たない。small_capsは原典のスモールキャピタルに対応する組版指定とし、日本語を大文字や別の語へ変換しない。
 
 **Issue**: 必須は `kind: unreadable|source_untranscribed|missing_source|uncertain_translation|unresolved_reference|unclassified_structure`、`status: open|resolved`、`message_ja: string`。任意は `source_span: Span`、`translation_span: Span`。必要な留保を無言の空欄で代用しない。
 
@@ -156,14 +156,16 @@ ReferenceTargetは次のいずれかとする。
 
 ## 6. 引用、詩、並列本文、表
 
-Groupの必須は `id: string`、`kind: quotation|poem|list|parallel|table`、`members: GroupMember[]`、`separator: string`。
+Groupの必須は `id: string`、`kind: heading|paragraph|quotation|poem|list|parallel|table`、`members: GroupMember[]`、`separator: string`。
 
 GroupMemberの必須は `segment_id: string`。任意は `row: integer>=1`、`column: integer>=1`、`label_ja: string`、`source_span: Span`、`translation_span: Span`。範囲を省略した側は段落全体。段落の一部の引用は範囲を指定し、固定IDや本文を分割しない。Groupの任意は `parent_id: string`、`description_ja: string`、`source_variants: Variant[]`。
 
 - 本文・訳文はGroupへ複製しない。段落IDと区切り文字でまとまりを定義する。
+- heading・paragraphは、同じ節で隣接する同種の単位を一つの見出し・段落として表示する。Membersは単位全体を参照し、部分範囲・表座標・親グループを持たない。元単位のIDと文字列を保持し、separatorを単位の間に表示する。標題紙の分割見出しなどに使い、通常の独立した段落をまとめない。
 - 既存グループの原文が単位原文の連結と異なる場合は、別の組み立て・校訂による異同としてsource_variantsに保持する。訳文の連結が一致していても原文の異同は保持する。
 - Membersの順序は `segments` の順序に一致させる。間に別の注などが入っていても、それをグループの本文として取り込まない。
 - 親子グループは循環せず、子の段落集合は親の集合に含まれる。同じ親の下で同じ段落を重複所属させない。交差する重なりを認めない。
+- 一つの段落内に独立した引用が複数ある場合は、各translation_spanが重ならない範囲を参照する。原文範囲だけの分離で、日本語側の段落全体同士の重複を許可しない。原文範囲も両方指定されている場合は、その非重複も確認する。
 - 並列本文の旧訳・新訳、欄、行の区別は確認済みのラベル・座標で表す。既存IDの語句から版系統を推測しない。
 - 表のセルは `kind: table_cell` のSegmentと行・列の組で表し、同じ表の同一セルを重複させない。
 

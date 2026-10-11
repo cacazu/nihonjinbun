@@ -34,6 +34,33 @@ class ContractTests(unittest.TestCase):
     def assert_valid(self, data):
         self.assertEqual([], validate_document(data))
 
+    def test_joined_heading_and_paragraph_groups_require_adjacent_whole_units(self):
+        for kind in ('heading', 'paragraph'):
+            d = document()
+            d['segments'][0]['kind'] = kind
+            other = copy.deepcopy(d['segments'][0]); other['id'] = 'p2'
+            d['segments'].append(other)
+            d['groups'] = [dict(id='joined', kind=kind, separator='',
+                                members=[dict(segment_id='p1'),dict(segment_id='p2')])]
+            self.assert_valid(d)
+            d['groups'][0]['members'][0]['translation_span'] = dict(start=0,end=1,exact='例')
+            self.assertTrue(validate_document(d))
+            d['groups'][0]['members'][0].pop('translation_span')
+            d['segments'][1]['kind'] = 'note_body'
+            self.assertTrue(validate_document(d))
+
+    def test_disjoint_quotations_in_one_segment_are_independent_groups(self):
+        d = document()
+        d['groups'] = [dict(id='q1',kind='quotation',separator='',members=[dict(segment_id='p1',translation_span=dict(start=0,end=1,exact='例'))]),
+                       dict(id='q2',kind='quotation',separator='',members=[dict(segment_id='p1',translation_span=dict(start=2,end=3,exact='。'))])]
+        self.assert_valid(d)
+        d['groups'][1]['members'][0]['translation_span'] = dict(start=0,end=2,exact='例😀')
+        self.assertTrue(validate_document(d))
+        for group, start in zip(d['groups'], (0, 1)):
+            member=group['members'][0];member.pop('translation_span')
+            member['source_span']=dict(start=start,end=start+1,exact=d['segments'][0]['source_text'][start:start+1])
+        self.assertTrue(validate_document(d))
+
     def test_minimal_document_and_unknown_field(self):
         d = document()
         self.assert_valid(d)
