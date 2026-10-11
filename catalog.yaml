@@ -159,5 +159,10 @@
     "sha256": "d78cd8a8b16659f47e186164e67b89b050395965c4d00f8ec13db0b806cb266f"
     "coverage_note": "1891年版第三巻の第八部（続き）・第九部・第十部、付録、原注469件（番号1〜462および264-a〜264-g）、巻末目次、原刊図版2点。原著の疑義は本文を保持し訳注で区別。肖像下端の極小署名のみ判読不能。電子版の注は別区分。完稿後の全文対訳通読・日本語単独通読・独立レビューを完了。"
     "source_and_rights": "底本はProject Gutenbergの1891年版第三巻。原典図版・原注・訳注を区別し、権利表示と留保はYAML内に記載。"
+  - "work_id": "talleyrand-memoirs-volume-4"
+    "file": "translations/talleyrand/memoirs-volume-4-fr-ja.yaml"
+    "title": "タレーラン公回想録 第四巻"
+    "sha256": "f3b017bb23f9846fac8111d3942128b2c3a799f8d0ab75d49e373336def70858"
+    "coverage_note": "一八九一年版第四巻の第十部（続き）・付録、原注四一〇件、巻末目次・刊記、原刊図版二点。電子版の注は別区分で収録。日付・年代などの食い違いは訳注で示す。肖像下部の小さな文字のみ判読不能。"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿は翻訳YAML 2.0。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"
