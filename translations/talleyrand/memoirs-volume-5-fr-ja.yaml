@@ -119819,35 +119819,6 @@
     "url": "https://www.gutenberg.org/cache/epub/42292/pg42292-images.html#Page_593"
     "source_sequence": 2364
     "printed_page": "593"
-- "id": "v05-index-v05-u002364-49"
-  "kind": "index"
-  "origin": "source"
-  "from":
-    "segment_id": "v05-u002364"
-    "source_span":
-      "start": 68
-      "end": 71
-      "exact": "406"
-    "translation_span":
-      "start": 49
-      "end": 52
-      "exact": "406"
-  "to":
-    "type": "source_location"
-    "location":
-      "source_id": "pg30913"
-      "precision": "page"
-      "printed_page": "406"
-      "url": "https://www.gutenberg.org/cache/epub/30913/pg30913-images.html#Page_406"
-  "status": "verified"
-  "description_ja": "原著索引の明示された巻・頁に対応する電子原典の頁。星印は原注の所在を示す。"
-  "evidence":
-  - "source_id": "pg42292"
-    "precision": "block"
-    "xpath": "/html/body/div[6]/p[1]"
-    "url": "https://www.gutenberg.org/cache/epub/42292/pg42292-images.html#Page_593"
-    "source_sequence": 2364
-    "printed_page": "593"
 - "id": "v05-index-v05-u002364-55"
   "kind": "index"
   "origin": "source"
@@ -332849,7 +332820,7 @@
     "status": "complete"
     "completed_at": "2026-10-12T00:40:23.319678Z"
     "reviewed_by": "/root（利用者指定の漏れ・意味不明・明白な誤訳を全単位原文対照）"
-    "content_sha256": "27d9037a8b6a0d1ca7a6c1c61903e58ea6fb2bc74cc7c87b8453569ce98895ce"
+    "content_sha256": "e10db687ecaffe841fc055a3177b275540d039a254a5823200d983a89305ec6b"
 "provenance":
   "source_preservation_repository": "https://github.com/cacazu/nihonjinbun"
   "source_preservation_commit": "ce1b9bc9904d3d973fc0b6bc03d01a6b0e896c07"
@@ -338415,7 +338386,7 @@
     "original_reference_text": "340*."
     "finding_ja": "原文の巻番号なしの先頭頁列が訳から全て落ちていたため、原文全文・訳文全文を表示して確認し、頁列を復元した。巻番号を推測で付けず、原文を保持する。これだけで全巻の意味確認の完了とは認定しない。"
   "index_link_verification":
-    "linked_page_references": 7149
+    "linked_page_references": 7148
     "unlinked_page_references":
     - "segment_id": "v05-u002364"
       "volume": 5
@@ -338973,3 +338944,4 @@
       "volume": 5
       "printed_page": "252"
     "method_ja": "原文・訳文の巻・頁・範囲・星印の同一列を照合し、各巻の正本に実在する原典頁のURLのみを付ける。巻の指定がない頁や未収録頁の到達先は推測しない。"
+    "note_marker_exclusion_ja": "ABERDEEN 項目の [406] は原注参照であり頁ではないため、この範囲には原注の往復リンクのみを保持する。同項目の後の頁406へのリンクは保持する。"
