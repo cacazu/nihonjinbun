@@ -1,0 +1,218 @@
+{
+  "schema": "talleyrand-volume-5-source-payload-v1",
+  "volume": 5,
+  "title": "Mémoires du prince de Talleyrand",
+  "edition": "Paris, Calmann Lévy, 1892; edited by Albert de Broglie",
+  "scope": "Bounded French source payload: saved Gutenberg witnesses, stable text units, historical notes and index structures, and ten separately transcribed facsimile units. No Japanese translation is included.",
+  "copyright_scope": "Project Gutenberg states public-domain status in the USA. No separate worldwide copyright clearance or facsimile redistribution permission is asserted.",
+  "gutenberg_id": 42292,
+  "pg_unit_count": 4521,
+  "facsimile_supplement_unit_count": 10,
+  "combined_unit_count": 4531,
+  "combined_word_count": 187511,
+  "full_facsimile_collation": false,
+  "bundled_primary_scan_images": [
+    "facsimile/toronto-n8.jpg",
+    "facsimile/toronto-n677.jpg",
+    "facsimile/toronto-n678.jpg"
+  ],
+  "unbundled_corroboration": [
+    {
+      "witness_id": "uc_davis",
+      "institution_mark_visible": "LIBRARY UNIVERSITY OF CALIFORNIA DAVIS",
+      "digitizer_mark_visible": "Digitized by Google; Original from UNIVERSITY OF CALIFORNIA",
+      "repository": "Internet Archive, third-party upload in Folkscanomy",
+      "identifier": "talleyrand-perigord-memoires-du-prince-de-talleyrand-v-5",
+      "catalog_url": "https://archive.org/details/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-5",
+      "pdf_url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-5/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%205.pdf",
+      "pdf_sha256": "b38673f450401172af4bfe487bcb604de6d11e0f51a8e77d700f68414255e3f6",
+      "pdf_pages": 688,
+      "title_pdf_page_1based": 13,
+      "table_pdf_page_1based": 683,
+      "end_formula_pdf_page_1based": 682,
+      "bundled": false,
+      "provenance_caution": "This is a third-party reprocessed PDF with Google and UC Davis marks, not a directly downloaded institutional original. It is corroborating evidence, not the principal restoration witness."
+    },
+    {
+      "description": "Toronto images for blank pagination positions 2 and 268; linked in facsimile-restoration.json.",
+      "image_urls": [
+        "https://archive.org/download/mmoirespubli05talluoft/page/n29.jpg",
+        "https://archive.org/download/mmoirespubli05talluoft/page/n295.jpg"
+      ],
+      "bundled": false
+    }
+  ],
+  "file_count": 28,
+  "total_bytes": 20788894,
+  "files": [
+    {
+      "path": "catalog.html",
+      "bytes": 25268,
+      "sha256": "867c895c1b6dcd758de6199421457ff1eef35f044cfde3783ddd76d033b11d16",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "digital-editorial-exclusions.json",
+      "bytes": 962,
+      "sha256": "0edf194c3dffd65fc75767ce3b8739ccad0e7a224f87b686a5beacbed114dc5e",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "documents-inventory.json",
+      "bytes": 437728,
+      "sha256": "d5425aef3fec0fdaba2d4bb9d509c584c137f8ab2622fbb6bd3ecc1f0d26a25b",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "facsimile-restoration.json",
+      "bytes": 22555,
+      "sha256": "8a407c287aac2b2d43e14f05ffe74a8c5aa6cc6249388b68a60402a66ecfccb8",
+      "content_role": "reader_facing_source_metadata"
+    },
+    {
+      "path": "facsimile-supplement-units.json",
+      "bytes": 12057,
+      "sha256": "59fa36faac5225c603ec063a78205e3b69cc699eb0560b0fa91a56dd8a078f14",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "facsimile-supplement.txt",
+      "bytes": 357,
+      "sha256": "6af06df92dadc5fa465e984efa23dd9cd65fc88dcd2259dd5b679ece77a08f6f",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "facsimile/toronto-n677.jpg",
+      "bytes": 283984,
+      "sha256": "f9006e541d713cdd5e5a6602360b659738b85347d4d1ffc8c71ef847368d7c32",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "facsimile/toronto-n678.jpg",
+      "bytes": 266763,
+      "sha256": "d4b2fa5173dcd8b435f0aaeab40fa38bc17810daba1f48d2ef203a34b99a40bd",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "facsimile/toronto-n8.jpg",
+      "bytes": 333409,
+      "sha256": "7906d07209b49718fb216c954195d6e8160f0b7672d6893380ea8d1c739421d3",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "illustrations-manifest.json",
+      "bytes": 1547,
+      "sha256": "34fd5a353d3be281a30bcdc1b73248399e6a386a6c9ad5313ca5f94a24b3b5ff",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "images/colophon.jpg",
+      "bytes": 12619,
+      "sha256": "61c4fbd9c5e7fb6fe7d9c97b73a0a59faa56bd28d4e05361122dd441b1bdd161",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "images/illus003.jpg",
+      "bytes": 30271,
+      "sha256": "17b57d1962dd7b898a11aa1f1ae90bc14d9fb4b12a3ba6af2a86611b742b0709",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "index-structures.json",
+      "bytes": 887640,
+      "sha256": "097101e2db079dd44ed9461fce07948ae8f69464f66899216bf47af7beb6c5de",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "marker-links.json",
+      "bytes": 930460,
+      "sha256": "60eaf2217a6f00961f290c37a996923ccd0776217f317840073e0ae0c12e06c0",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "marker-only-blocks.json",
+      "bytes": 9236,
+      "sha256": "5ceabd75f65c688cc042ef4a45153baff726d55c96a6cb75b316e4f29bf51b9e",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "metadata.rdf",
+      "bytes": 18906,
+      "sha256": "c1bee60d42f3f076cc64295fba26d4e9403f2a12f6f35264e34594021e3c87fa",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "notes-inventory.json",
+      "bytes": 254081,
+      "sha256": "fa62c5648bf4ac7319611e42325a8543a12d3c1d74223a0b01b91aa6d79a9a1d",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "official-file-index.html",
+      "bytes": 1211,
+      "sha256": "32a822b4ac04ddf2c394d8d1b7a05ca3434d7e71f3a07e48449f7a37c94c6ce2",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "page-markers.json",
+      "bytes": 105410,
+      "sha256": "1a86a4750e1881c22d1a09d7c4926c3a24efaf9631b4db6ce88dcda44ee71fb6",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "provenance-manifest.json",
+      "bytes": 10722,
+      "sha256": "6bf96278944480442a2bbcb52ddeef6e69905fee0a055b8528405a0f9d6451cf",
+      "content_role": "reader_facing_source_metadata"
+    },
+    {
+      "path": "source-issues.json",
+      "bytes": 63762,
+      "sha256": "4b5d2d745b375f2c838de7a2f7b3c1043c2efcd1e9b82547f2118b63c5584579",
+      "content_role": "reader_facing_source_metadata"
+    },
+    {
+      "path": "source-legacy.html",
+      "bytes": 1480565,
+      "sha256": "d3dbbe0b3c8f9113958704e4e794eba7071475edf76e575ca650d4b47bd7e1f0",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "source-legacy.txt",
+      "bytes": 1231166,
+      "sha256": "5df45d8a305c81815f0957270527482e6b112677da3b3e4c872708124a22e7b2",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "source-reading-sequence.json",
+      "bytes": 1481572,
+      "sha256": "2be64148d48bdac7a116968b3ad2c03557432620c43a69ba4d38c35e4a779618",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "source-variants.json",
+      "bytes": 4395,
+      "sha256": "d64e50ca77586669ac49997d1bea057c0dadca8a730893fc462496db6f6e1449",
+      "content_role": "reader_facing_source_metadata"
+    },
+    {
+      "path": "source.html",
+      "bytes": 1516880,
+      "sha256": "554944e0802e91bf8dab197edbc89f8f161855ba443664cb90bf7e6a07ae2e74",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "source.txt",
+      "bytes": 1251131,
+      "sha256": "b862016952fc7f5e97e19e5c9d028c7da02264c0d4da6375df473e203979d553",
+      "content_role": "preserved_source_content_or_evidence"
+    },
+    {
+      "path": "units.json",
+      "bytes": 10114237,
+      "sha256": "c7256fabd38f86cfe421170a44c03a5477edda9ee0be36d7839a4a983d781f0a",
+      "content_role": "preserved_source_content_or_evidence"
+    }
+  ],
+  "manifest_self_excluded": true
+}

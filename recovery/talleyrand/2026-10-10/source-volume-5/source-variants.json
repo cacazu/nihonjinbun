@@ -1,0 +1,71 @@
+{
+  "scope": "Modern and files-route HTML exhaustively compared after whitespace normalization and wrapper removal. The two TXT renditions also exhaustively compared between Gutenberg delimiters, excluding the legacy 21-word closing Gutenberg credit, after whitespace normalization. HTML/TXT collation remains selective.",
+  "primary_inventory": "HTML",
+  "current_vs_legacy_html_equal": true,
+  "current_vs_legacy_txt_equal": true,
+  "current_txt_book_sha256": "6be03f04b5eaf9cb5d42f43da104b2bf6cdabe8152620ac911a2e4d94a02d1c7",
+  "legacy_txt_book_sha256": "6be03f04b5eaf9cb5d42f43da104b2bf6cdabe8152620ac911a2e4d94a02d1c7",
+  "format_differences": [
+    "TXT interleaves notes near their references; HTML collects all 406 historical notes after the index.",
+    "HTML supplies page anchors and links only for volume V references within the five-volume index; references to other volumes remain printed text.",
+    "TXT marks emphasis with underscores; HTML retains inline typography.",
+    "Both downloaded HTML and TXT omit the printed table of contents and printer colophon; separately recovered scan material is kept in its own inventory."
+  ],
+  "observed_variants": [
+    {
+      "kind": "digital_transcriber_notice_differs",
+      "html_notice": "Note sur la transcription: Les erreurs clairement introduites par le typographe ont été corrigées. L'orthographe d'origine a été conservée et n'a pas été harmonisée. Les numéros des pages blanches n'ont pas été repris.",
+      "txt_notice": "Note sur la transcription: Les erreurs clairement introduites par le typographe ont été corrigées. L'orthographe d'origine a été conservée et n'a pas été harmonisée.",
+      "action": "Preserve both exact files. HTML notice contains an additional sentence about omitted blank-page numbers."
+    },
+    {
+      "id": "V5-FACSIMILE-001",
+      "severity": "medium",
+      "category": "facsimile_variant",
+      "description": "The final ZUYLEN DE NYEVELDT index entry ends with volume-V page 339 in all four saved Gutenberg renditions, but page 403 in both inspected matching 1892 facsimile witnesses.",
+      "evidence": [
+        {
+          "unit_id": "v05-u004051",
+          "source_xpath": "/html/body/div[30]/p[10]",
+          "source_line": 19183,
+          "source_html_sha256": "120c528234a2ed6bb7377eed371da8b72cc9412da5d8bed8b3125aa3aa7eec42",
+          "text_sha256": "2cf271b2d51e9f6397b2ab99920d3e8aad23508ae0a8c5f552aa20dfe3a939d2",
+          "exact_quote": "ZUYLEN DE NYEVELDT (Hugo, baron de), diplomate hollandais.—III, 423*.—IV, 183, 184, 186, 190.—V, 27, 35, 51, 53, 87, 88, 339.",
+          "quote_start_codepoint": 0,
+          "quote_end_codepoint": 125
+        }
+      ],
+      "gutenberg_reading": "V, 27, 35, 51, 53, 87, 88, 339.",
+      "printed_reading": "V, 27, 35, 51, 53, 87, 88, 403.",
+      "facsimile_evidence": [
+        {
+          "witness": "University of Toronto, Robarts",
+          "file": "facsimile/toronto-n677.jpg",
+          "sha256": "f9006e541d713cdd5e5a6602360b659738b85347d4d1ffc8c71ef847368d7c32",
+          "url": "https://archive.org/download/mmoirespubli05talluoft/page/n677.jpg",
+          "printed_page": "650",
+          "visually_verified": true,
+          "bundled": true
+        },
+        {
+          "witness": "UC Davis / Google, reprocessed corroborating PDF",
+          "sha256": "ba243118f7f4d749dcef5b15e30bbf94dfae538853da1aee06c2439019cba282",
+          "url": "https://archive.org/download/talleyrand-perigord-memoires-du-prince-de-talleyrand-v-5/Talleyrand-Perigord%20Memoires%20du%20prince%20de%20Talleyrand%20v%205.pdf",
+          "pdf_page_1based": 682,
+          "printed_page": "650",
+          "visually_verified": true,
+          "resolution_caution": "Lower resolution; primary reading established from Toronto.",
+          "bundled": false,
+          "hash_description": "SHA-256 of the unbundled rendered page image used for corroboration."
+        }
+      ],
+      "caution": "Preserve the PG source reading unchanged and disclose the printed variant. This incidental comparison does not establish which reference is historically correct, whether PG deliberately corrected the printed reference, or complete index/volume collation."
+    }
+  ],
+  "encodings": {
+    "source.html": "UTF-8",
+    "source.txt": "UTF-8",
+    "source-legacy.html": "UTF-8",
+    "source-legacy.txt": "UTF-8"
+  }
+}
