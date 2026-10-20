@@ -1,0 +1,297 @@
+"schema_version": "2.0"
+"work_id": "rimbaud-ma-boheme-fr-ja"
+"metadata":
+  "title_ja": "わが放浪"
+  "title_original": "Ma bohème"
+  "subtitle_ja": "幻想曲"
+  "original_languages":
+  - "fr"
+  "target_language": "ja"
+  "contributors":
+  - "id": "rimbaud"
+    "name_ja": "アルチュール・ランボー"
+    "name_original": "Arthur Rimbaud"
+    "roles":
+    - "author"
+  - "id": "hartmann"
+    "name_ja": "ポール・アルトマン"
+    "name_original": "Paul Hartmann"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": null
+    "name_original": null
+    "roles":
+    - "translator"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "日本人文『わが放浪』日本語新訳（AIによる翻訳・照合）"
+    "note_ja": "電子翻刻に基づく新訳として、出典表示・継承条件を保持する。原著の権利状態とは区別する。"
+  "genres":
+  - "詩"
+  - "ソネット"
+  "reader_notes_ja":
+  - "1958年版『Œuvres』所収の全14行と標題・副題を、フランス語から新訳した。原詩の四つの連と14行を保持する。"
+  - "AIによる翻訳と原文対照を含む。日本語での脚韻の再現は行わず、語り口とイメージを重視した。"
+"sources":
+- "id": "wikisource-hartmann-1958"
+  "role": "primary"
+  "title": "Œuvres — Poésies — Ma Bohème (Fantaisie)"
+  "languages":
+  - "fr"
+  "url": "https://fr.wikisource.org/w/index.php?title=%C5%92uvres_(Rimbaud)/Po%C3%A9sies/Ma_Boh%C3%A8me&oldid=13591931"
+  "edition": "Paul Hartmann本文校訂、Mercure de France、Paris、1958年、58頁。フランス語Wikisourceの電子翻刻。"
+  "contributor_ids":
+  - "rimbaud"
+  - "hartmann"
+  "work_rights":
+    "status": "public_domain"
+    "note_ja": "原著者ランボーは1891年没。原著本文の保護期間満了と、編集・電子翻刻の利用条件を区別する。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "フランス語Wikisource「Œuvres (Rimbaud)/Poésies/Ma Bohème」の寄稿者。"
+    "evidence_url": "https://fr.wikisource.org/wiki/Wikisource:Copyrights"
+  "sha256": "9020f7fcbf5d575a7908e82ee89567499b42e53f4cf9ad6747336f22419b357c"
+  "description_ja": "詩の標題・副題と4・4・3・3行からなる四連の本文。電子版の案内・編集用表示は含めない。"
+"scope":
+  "included":
+  - "source_id": "wikisource-hartmann-1958"
+    "description_ja": "標題「Ma Bohème」、副題「Fantaisie」、全14行・四連の全文。"
+  "excluded":
+  - "source_id": "wikisource-hartmann-1958"
+    "description_ja": "同書の他の詩、編者の全巻解説・校注、電子版の案内・編集用表示。"
+  "known_gaps": []
+"sections":
+- "id": "ma-boheme"
+  "parent_id": null
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "mb-heading"
+"segments":
+- "id": "mb-heading"
+  "section_id": "ma-boheme"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "Ma Bohème (Fantaisie)"
+  "source_languages":
+  - "fr"
+  "source_locations":
+  - "source_id": "wikisource-hartmann-1958"
+    "precision": "block"
+    "printed_page": "58"
+    "url": "https://fr.wikisource.org/w/index.php?title=%C5%92uvres_(Rimbaud)/Po%C3%A9sies/Ma_Boh%C3%A8me&oldid=13591931"
+    "xpath": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/div/h3"
+  "translation_ja": "わが放浪（幻想曲）"
+  "translation_status": "reviewed"
+  "annotations":
+  - "side": "source"
+    "kind": "emphasis"
+    "span":
+      "start": 11
+      "end": 20
+      "exact": "Fantaisie"
+  - "side": "translation"
+    "kind": "emphasis"
+    "span":
+      "start": 5
+      "end": 8
+      "exact": "幻想曲"
+- "id": "mb-stanza-1"
+  "section_id": "ma-boheme"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Je m’en allais, les poings dans mes poches crevées ;
+    Mon paletot aussi devenait idéal ;
+    J’allais sous le ciel, Muse ! et j’étais ton féal ;
+    Oh ! là là ! que d’amours splendides j’ai rêvées !
+  "source_languages":
+  - "fr"
+  "source_locations":
+  - "source_id": "wikisource-hartmann-1958"
+    "precision": "block"
+    "printed_page": "58"
+    "url": "https://fr.wikisource.org/w/index.php?title=%C5%92uvres_(Rimbaud)/Po%C3%A9sies/Ma_Boh%C3%A8me&oldid=13591931"
+    "xpath": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/div/div[2]/div"
+  "translation_ja": |-
+    破れたポケットに拳を突っ込み、ぼくは歩いていた。
+    上着も、もう形を失いかけていた。
+    空の下を歩いた。詩の女神よ、ぼくはきみに忠実なしもべだった。
+    ああ、なんとすばらしい恋を、いくつ夢見たことだろう！
+  "translation_status": "reviewed"
+- "id": "mb-stanza-2"
+  "section_id": "ma-boheme"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Mon unique culotte avait un large trou.
+    — Petit-Poucet rêveur, j’égrenais dans ma course
+    Des rimes. Mon auberge était à la Grande-Ourse.
+    — Mes étoiles au ciel avaient un doux frou-frou
+  "source_languages":
+  - "fr"
+  "source_locations":
+  - "source_id": "wikisource-hartmann-1958"
+    "precision": "block"
+    "printed_page": "58"
+    "url": "https://fr.wikisource.org/w/index.php?title=%C5%92uvres_(Rimbaud)/Po%C3%A9sies/Ma_Boh%C3%A8me&oldid=13591931"
+    "xpath": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/div/div[2]/div"
+  "translation_ja": |-
+    たった一本のズボンには、大きな穴が開いていた。
+    ――夢見る親指小僧のぼくは、道すがらこぼしていった、
+    韻のつぶを。ぼくの宿は〈おおぐま座〉にあった。
+    ――ぼくの星たちは空で、やさしい衣ずれの音を立てた。
+  "translation_status": "reviewed"
+- "id": "mb-stanza-3"
+  "section_id": "ma-boheme"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Et je les écoutais, assis au bord des routes,
+    Ces bons soirs de septembre où je sentais des gouttes
+    De rosée à mon front, comme un vin de vigueur ;
+  "source_languages":
+  - "fr"
+  "source_locations":
+  - "source_id": "wikisource-hartmann-1958"
+    "precision": "block"
+    "printed_page": "58"
+    "url": "https://fr.wikisource.org/w/index.php?title=%C5%92uvres_(Rimbaud)/Po%C3%A9sies/Ma_Boh%C3%A8me&oldid=13591931"
+    "xpath": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/div/div[2]/div"
+  "translation_ja": |-
+    ぼくは道ばたに座って、星たちに耳を澄ませた、
+    あの心地よい九月の夕べ、額に感じた
+    露のしずくは、力の湧く葡萄酒のようだった。
+  "translation_status": "reviewed"
+- "id": "mb-stanza-4"
+  "section_id": "ma-boheme"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Où, rimant au milieu des ombres fantastiques.
+    Comme des lyres, je tirais les élastiques
+    De mes souliers blessés, un pied près de mon cœur !
+  "source_languages":
+  - "fr"
+  "source_locations":
+  - "source_id": "wikisource-hartmann-1958"
+    "precision": "block"
+    "printed_page": "58"
+    "url": "https://fr.wikisource.org/w/index.php?title=%C5%92uvres_(Rimbaud)/Po%C3%A9sies/Ma_Boh%C3%A8me&oldid=13591931"
+    "xpath": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/div/div[2]/div"
+  "translation_ja": |-
+    そして、不思議な影のなかで韻をつくりながら、
+    竪琴の弦のように、ぼくは引っぱっていた、
+    傷だらけの靴のゴム紐を、片足を胸に寄せながら！
+  "translation_status": "reviewed"
+- "id": "mb-note-1-body"
+  "section_id": "ma-boheme"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "「形を失いかけていた」の原文はdevenait idéal。すり切れた上着が、実物というより観念に近づいてゆくという言葉遊びとして訳した。"
+  "translation_status": "reviewed"
+- "id": "mb-note-2-body"
+  "section_id": "ma-boheme"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "親指小僧は、道に目印を残して歩く童話の少年。ここでは、その目印が韻に置き換えられている。"
+  "translation_status": "reviewed"
+"notes":
+- "id": "mb-note-1"
+  "origin": "translator"
+  "label": "1"
+  "form": "endnote"
+  "body":
+  - "segment_id": "mb-note-1-body"
+- "id": "mb-note-2"
+  "origin": "translator"
+  "label": "2"
+  "form": "endnote"
+  "body":
+  - "segment_id": "mb-note-2-body"
+"references":
+- "id": "mb-note-1-ref"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "mb-stanza-1"
+  "to":
+    "type": "note"
+    "id": "mb-note-1"
+  "status": "verified"
+- "id": "mb-note-2-ref"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "mb-stanza-2"
+  "to":
+    "type": "note"
+    "id": "mb-note-2"
+  "status": "verified"
+"groups":
+- "id": "mb-poem-1"
+  "kind": "poem"
+  "members":
+  - "segment_id": "mb-stanza-1"
+  "separator": |2+
+
+- "id": "mb-poem-2"
+  "kind": "poem"
+  "members":
+  - "segment_id": "mb-stanza-2"
+  "separator": |2+
+
+- "id": "mb-poem-3"
+  "kind": "poem"
+  "members":
+  - "segment_id": "mb-stanza-3"
+  "separator": |2+
+
+- "id": "mb-poem-4"
+  "kind": "poem"
+  "members":
+  - "segment_id": "mb-stanza-4"
+  "separator": |2+
+
+"terminology":
+- "id": "rimbaud-name"
+  "kind": "person"
+  "source_language": "fr"
+  "source": "Arthur Rimbaud"
+  "translation_ja": "アルチュール・ランボー"
+  "related_work_ids":
+  - "rimbaud-illuminations-fr-ja"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-20T10:19:36Z"
+    "reviewed_by": "Codex 独立レビュアー（全篇原文対照）、Codex（修正箇所の照合）"
+    "content_sha256": "9a754b5574bf06472868c708d9cc612f2f4e8d8ef286a34208c34175c8e626ff"
+"provenance":
+  "translation_specification_commit": "1d89b892fafc82f60495e828f37b4f6ddc6ec7d7"
+  "source_acquired_on": "2026-10-20"
+  "source_line_counts":
+  - 4
+  - 4
+  - 3
+  - 3
+  "translation_policy_ja": "既存『イリュミナシオン』の作者名と一人称を参照。一人称は「ぼく」、原詩の連と行数を保ち、語り口・ユーモアとイメージを優先する。"
+  "full_review_evidence_ja": |
+    2026-10-20 Codex独立レビュアー translation_review による完稿後の原文対照。
+    標題・副題、全14行（4・4・3・3行の四連）、訳注2件を底本と一回通して対照した。
+    本文の訳抜け、否定・主体・数量の明確な取り違えはなく、日本語の意味が通る。修正指摘なし。未確認範囲なし。
+    devenait idéal の「形を失いかけていた」と訳注1の説明、親指小僧と「韻のつぶ」の本文・訳注2の対応も確認済み。
+    対照対象の初稿YAML SHA-256: e7d5ad5b5060713a384e3ec6ae56d1bb4adbebb091a020022554ad2f5f2c53d4
+    実装者が追加した標題の原文・訳文の強調範囲は、Fantaisie／幻想曲の実文字列に照合した。訳文の変更はない。
