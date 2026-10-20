@@ -1,0 +1,1912 @@
+"schema_version": "2.0"
+"work_id": "swift-three-prayers-and-sermons"
+"metadata":
+  "title_ja": "三つの祈りと説教"
+  "title_original": "Three Prayers and Sermons"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "morley"
+    "name_ja": "ヘンリー・モーリー"
+    "name_original": "Henry Morley"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。原著の権利状態および電子翻刻の条件と区別する。"
+  "genres":
+  - "宗教"
+  - "祈り"
+  - "説教"
+  "reader_notes_ja":
+  - "1889年版に基づき、ステラのための三つの祈りと、「互いに従うことについて」「教会で眠ることについて」「この世の知恵について」の三説教を全文訳す。"
+  - "聖書の引用は底本の英語に従って訳し、引用の言い回しや原著者の史実上の記述を、現代の版に合わせて改めない。"
+"sources":
+- "id": "gutenberg-4738"
+  "role": "primary"
+  "title": "Three Prayers and Sermons"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+  "edition": |-
+    1889年George Routledge and Sons刊『The Tale of a Tub and Other Works』版に基づくProject Gutenberg eBook 4738。電子版2015年4月7日公開（初回2002年3月10日）。
+  "contributor_ids":
+  - "swift"
+  - "morley"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/4738"
+    "note_ja": "スウィフトは1745年没。1889年刊本。Project Gutenbergは米国でパブリックドメインと表示。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "Transcribed by Stephen Rice. Additional proofing by David Price."
+  "sha256": "f907d4ffa40f44ce6018749cd87c5cb7d52d3947dfab25ed5adcdb2ae7dec5f2"
+  "description_ja": "段落と見出しの順序を保持。HTMLの段落内の組版用改行・連続空白は単一空白とし、brによる明示改行を保持。原刊頁表示は原文文字列から分離して出典位置に記録。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-4738"
+    "description_ja": "書名・著者表示、三祈祷の見出し・日付・全文、説教三篇の見出し・聖書引用・全文と結語。"
+    "section_ids":
+    - "title"
+    - "prayers"
+    - "prayer-1"
+    - "prayer-2"
+    - "prayer-3"
+    - "mutual-subjection"
+    - "sleeping-in-church"
+    - "wisdom-of-this-world"
+  "excluded":
+  - "source_id": "gutenberg-4738"
+    "description_ja": "Orrery署名の底本作品評[377]はスウィフトの自作文ではないため対象外とし、原文のみ保持する。説教見出しの同注呼出し[377]も翻訳対象外。"
+    "segment_ids":
+    - "prayers-103"
+    "source_ranges":
+    - "segment_id": "prayers-010"
+      "span":
+        "start": 22
+        "end": 27
+        "exact": "[377]"
+  - "source_id": "gutenberg-4738"
+    "description_ja": "電子版の翻刻者案内・利用条件本文、編集目次、表紙画像、編者注の見出しは翻訳対象外。"
+  "known_gaps": []
+"sections":
+- "id": "title"
+  "parent_id": null
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "prayers-001"
+- "id": "prayers"
+  "parent_id": null
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "prayers-003"
+- "id": "prayer-1"
+  "parent_id": "prayers"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "prayers-004"
+- "id": "prayer-2"
+  "parent_id": "prayers"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "prayers-006"
+- "id": "prayer-3"
+  "parent_id": "prayers"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "prayers-008"
+- "id": "mutual-subjection"
+  "parent_id": null
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "prayers-010"
+- "id": "sleeping-in-church"
+  "parent_id": null
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "prayers-029"
+- "id": "wisdom-of-this-world"
+  "parent_id": null
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "prayers-059"
+- "id": "editor-notes"
+  "parent_id": null
+  "kind": "editorial_group"
+  "origin": "editorial"
+  "heading_segment_ids": []
+  "label_ja": "底本の編者注"
+"segments":
+- "id": "prayers-001"
+  "section_id": "title"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    THREE PRAYERS AND SERMONS
+    By JONATHAN SWIFT
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/h1[1]"
+    "source_sequence": 1
+  "translation_ja": |-
+    三つの祈りと説教
+    ジョナサン・スウィフト著
+  "translation_status": "reviewed"
+- "id": "prayers-003"
+  "section_id": "prayers"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    THREE PRAYERS
+    USED BY THE DEAN FOR STELLA
+    IN HER LAST SICKNESS, 1727.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/h2[2]"
+    "source_sequence": 3
+    "printed_page": "373"
+  "translation_ja": |-
+    三つの祈り
+    一七二七年、ステラの最後の病の間に首席司祭が用いたもの
+  "translation_status": "reviewed"
+- "id": "prayers-004"
+  "section_id": "prayer-1"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "I."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/h3[1]"
+    "source_sequence": 4
+    "printed_page": "373"
+  "translation_ja": "第一の祈り"
+  "translation_status": "reviewed"
+- "id": "prayers-005"
+  "section_id": "prayer-1"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Almighty and most gracious Lord God, extend, we beseech Thee, Thy pity and compassion toward this Thy languishing servant; teach her to place her hope and confidence entirely in Thee; give her a true sense of the emptiness and vanity of all earthly things; make her truly sensible of all the infirmities of her life past, and grant to her such a true sincere repentance as is not to be repented of. Preserve her, O Lord, in a sound mind and understanding during this Thy visitation; keep her from both the sad extremes of presumption and despair. If Thou shalt please to restore her to her former health, give her grace to be ever mindful of that mercy, and to keep those good resolutions she now makes in her sickness, so that no length of time nor prosperity may entice her to forget them. Let no thought of her misfortunes distract her mind, and prevent the means toward her recovery, or disturb her in her preparations for a better life. We beseech thee also, O Lord, of Thy infinite goodness, to remember the good actions of this Thy servant; that the naked she hath clothed, the hungry she hath fed, the sick and the fatherless whom she hath relieved, may be reckoned according to Thy gracious promise, as if they had been done unto Thee. Hearken, O Lord, to the prayers offered up by the friends of this Thy servant in her behalf, and especially those now made by us unto thee. Give Thy blessing to those endeavours used for her recovery; but take from her all violent desire either of life or death, further than with resignation to Thy holy will. And now, O Lord, we implore Thy gracious favour toward us here met together. Grant that the sense of this Thy servant’s weakness may add strength to our faith; that we, considering the infirmities of our nature and the uncertainty of life, may by this example be drawn to repentance before it shall please Thee to visit us in like manner. Accept these prayers, we beseech Thee, for the sake of Thy dear Son Jesus Christ, our Lord, who, with Thee and the Holy Ghost, liveth and reigneth, ever one God, world without end. Amen.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[3]"
+    "source_sequence": 5
+  "translation_ja": |-
+    全能にして、いと恵み深い主なる神よ、衰えゆくあなたのこのしもべに、どうか憐れみと慈しみをおかけください。希望も信頼もひたすらあなたに置くことを教え、地上のものはすべて空しく、はかないと心から悟らせてください。これまでの生涯の弱さを残らず深く自覚させ、悔いを残すことのない、真実で誠実な悔い改めをお与えください。主よ、あなたがこうしてお試しになる間も、彼女の心と判断を健やかに保ち、思い上がりと絶望という、二つの悲しい極端からお守りください。もし以前の健康をお返しくださるなら、その憐れみをいつまでも心にとどめ、病の床で今立てている善い決意を守り続ける恵みをお授けください。どれほど時が過ぎても、どれほど暮らしが栄えても、その決意を忘れる誘惑に負けないようにしてください。不幸を思いわずらうことで心が乱れ、回復のための手だてが妨げられたり、よりよい命への備えが乱されたりすることのないようにしてください。また主よ、あなたの限りない慈しみによって、このしもべの善い行いを覚えていてくださるよう、お願いいたします。衣のない者に着せ、飢えた者に食べさせ、病人や父のない子を助けたことを、恵み深いお約束のとおり、あなたご自身にしたこととしてお認めください。このしもべのために友人たちがささげる祈り、とりわけ今ここで私たちがあなたにささげる祈りにお耳をお傾けください。回復のために尽くされる努力を祝福してください。ただし、生きることにも死ぬことにも、あなたの聖なる御心に従う範囲を越えて激しく執着することのないようにしてください。そして今、主よ、ここに集まった私たちにも、恵み深い慈しみをお願いいたします。このしもべの弱さを身に感じることが、私たちの信仰をいっそう強めますように。私たち自身の性質の弱さと命の不確かさを思い、この姿を戒めとして、あなたが同じように私たちをお試しになるより前に、悔い改めへと導かれますように。どうか、あなたの愛する御子、私たちの主イエス・キリストのために、この祈りをお受け入れください。主はあなたと聖霊とともに、永遠にただ一人の神として生き、世の終わりなく治めておられます。アーメン。
+  "translation_status": "reviewed"
+- "id": "prayers-006"
+  "section_id": "prayer-2"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    II.
+    WRITTEN OCTOBER 17, 1727.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/h3[2]"
+    "source_sequence": 6
+    "printed_page": "373"
+  "translation_ja": |-
+    第二の祈り
+    一七二七年十月十七日記す
+  "translation_status": "reviewed"
+- "id": "prayers-007"
+  "section_id": "prayer-2"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Most merciful Father, accept our humblest prayers in behalf of this Thy languishing servant; forgive the sins, the frailties, and infirmities of her life past. Accept the good deeds she hath done in such a manner that, at whatever time Thou shalt please to call her, she may be received into everlasting habitations. Give her grace to continue sincerely thankful to Thee for the many favours Thou hast bestowed upon her, the ability and inclination and practice to do good, and those virtues which have procured the esteem and love of her friends and a most unspotted name in the world. O God, Thou dispensest Thy blessings and Thy punishments as it becometh infinite justice and mercy; and since it was Thy pleasure to afflict her with a long, constant, weakly state of health, make her truly sensible that it was for very wise ends, and was largely made up to her in other blessings more valuable and less common. Continue to her, O Lord, that firmness and constancy of mind wherewith Thou hast most graciously endowed her, together with that contempt of worldly things and vanities that she has shown in the whole conduct of her life. O All-powerful Being, the least motion of whose will can create or destroy a world, pity us, the mournful friends of Thy distressed servant, who sink under the weight of her present condition, and the fear of losing the most valuable of our friends. Restore her to us, O Lord, if it be Thy gracious will, or inspire us with constancy and resignation to support ourselves under so heavy an affliction. Restore her, O Lord, for the sake of those poor who, by losing her, will be desolate, and those sick who will not only want her bounty, but her care and tending; or else, in Thy mercy, raise up some other in her place with equal disposition and better abilities. Lessen, O Lord, we beseech Thee, her bodily pains, or give her a double strength of mind to support them. And if Thou wilt soon take her to Thyself, turn our thoughts rather upon that felicity which we hope she shall enjoy, than upon that unspeakable loss we shall endure. Let her memory be ever dear unto us, and the example of her many virtues, as far as human infirmity will admit, our constant imitation. Accept, O Lord, these prayers, poured from the very bottom of our hearts, in Thy mercy, and for the merits of our blessed Saviour. Amen.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[4]"
+    "source_sequence": 7
+  "translation_ja": |-
+    いと憐れみ深い父よ、衰えゆくあなたのこのしもべのために、私たちがへりくだってささげる祈りをお受け入れください。これまでの生涯の罪も、もろさも、弱さもお赦しください。彼女の善い行いをお受け入れになり、いつお召しになっても、永遠の住まいへ迎え入れられるようにしてください。あなたから授かった数々の恵み、善をなす力と意欲と実践、そして友人たちの敬愛と世に一点の汚れもない名をもたらした美徳のために、心から感謝し続ける恵みをお与えください。神よ、あなたは限りない正義と憐れみにふさわしく、祝福も罰もお授けになります。あなたの御心によって、彼女は長く絶え間ない病弱さに苦しんできました。それが深い知恵に基づく目的のためであり、いっそう価値が高く、いっそう得がたいほかの恵みによって、十分に埋め合わされていたことを、心から悟らせてください。主よ、あなたが恵み深く授けてくださった、揺るがず耐える心と、生涯の行い全体を通して示してきた、世俗の事物や虚栄にとらわれない心を、これからも保たせてください。意志をわずかに動かすだけで世界を造り、また滅ぼすこともできる全能の御方よ、苦しむしもべを思って悲しむ私たち友人をお憐れみください。彼女の今の姿と、かけがえのない友を失う恐れが重くのしかかり、私たちはくずおれています。主よ、それがあなたの恵み深い御心なら、彼女を私たちのもとへお返しください。そうでなければ、これほど重い苦しみのもとでも身を支えられるよう、揺るがぬ心と御心に従う心をお与えください。主よ、彼女を失えば見捨てられる貧しい人々のため、施しだけでなく気づかいや看護も失う病人たちのために、彼女をお返しください。さもなければ、憐れみによって、同じ心を持ち、さらに大きな力を備えた人を、代わりにお立てください。主よ、どうか体の痛みを軽くしてください。そうでなければ、それに耐える心の力を倍にしてください。まもなく彼女を御もとへ召されるのでしたら、私たちが受ける言いようのない喪失よりも、彼女が享受すると私たちが望んでいる幸いへと、私たちの思いを向けてください。その思い出がいつまでも私たちにとって大切なものであり、人間の弱さが許す限り、その多くの美徳を常に手本として倣えますように。主よ、心の底から注ぎ出すこの祈りを、あなたの憐れみと、私たちの祝福された救い主の功績によってお受け入れください。アーメン。
+  "translation_status": "reviewed"
+- "id": "prayers-008"
+  "section_id": "prayer-3"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    III.
+    WRITTEN NOVEMBER 6, 1727.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/h3[3]"
+    "source_sequence": 8
+    "printed_page": "373"
+  "translation_ja": |-
+    第三の祈り
+    一七二七年十一月六日記す
+  "translation_status": "reviewed"
+- "id": "prayers-009"
+  "section_id": "prayer-3"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    O merciful Father, who never afflictest Thy children but for their own good, and with justice, over which Thy mercy always prevaileth, either to turn them to repentance, or to punish them in the present life in order to reward them in a better; take pity, we beseech Thee, upon this Thy poor afflicted servant, languishing so long and so grievously under the weight of Thy hand. Give her strength, O Lord, to support her weakness, and patience to endure her pains without repining at Thy correction. Forgive every rash and inconsiderate expression which her anguish may at any time force from her tongue, while her heart continueth in an entire submission to Thy will. Suppress in her, O Lord, all eager desires of life, and lessen her fears of death by inspiring into her an humble yet assured hope of Thy mercy. Give her a sincere repentance for all her transgressions and omissions, and a firm resolution to pass the remainder of her life in endeavouring to her utmost to observe all Thy precepts. We beseech Thee likewise to compose her thoughts, and preserve to her the use of her memory and reason during the course of her sickness. Give her a true conception of the vanity, folly, and insignificance of all human things, and strengthen her so as to beget in her a sincere love of Thee in the midst of her sufferings. Accept and impute all her good deeds, and forgive her all those offences against Thee which she hath sincerely repented of or through the frailty of memory hath forgot. And now, O Lord, we turn to Thee in behalf of ourselves and the rest of her sorrowful friends. Let not our grief afflict her mind, and thereby have an ill effect on her present distemper. Forgive the sorrow and weakness of those among us who sink under the grief and terror of losing so dear and useful a friend. Accept and pardon our most earnest prayers and wishes for her longer continuance in this evil world, to do what Thou art pleased to call Thy service, and is only her bounden duty, that she may be still a comfort to us and to all others who will want the benefit of her conversation, her advice, her good offices, or her charity. And since Thou hast promised that where two or three are gathered together in Thy name Thou wilt be in the midst of them to grant their request, O gracious Lord, grant to us who are here met in Thy name that those requests, which in the utmost sincerity and earnestness of our hearts we have now made in behalf of this Thy distressed servant and of ourselves, may effectually be answered, through the merits of Jesus Christ our Lord. Amen.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[5]"
+    "source_sequence": 9
+  "translation_ja": |-
+    憐れみ深い父よ、あなたが御自分の子らを苦しめられるのは、ただその者たちの益のためであり、正義にかなってのことです。しかもその正義には、常にあなたの憐れみがまさっています。悔い改めへと導くため、あるいは、よりよい命において報いるために今の世で罰するために、苦しみをお与えになるのです。あなたの御手の重みのもとで、かくも長く、かくも激しく衰え苦しむ、この哀れなしもべを、どうかお憐れみください。主よ、その弱さを支える力を与え、あなたの懲らしめを恨まず、痛みを忍ぶ忍耐をお授けください。心は変わらずまったくあなたの御心に従っていても、苦痛のために、ふと軽率で思慮に欠けた言葉が口をついて出ることがありましたら、どうか残らずお赦しください。主よ、生への激しい欲求を鎮め、あなたの憐れみへの、へりくだりながらも確かな希望を吹き込み、死への恐れを和らげてください。犯した罪も、なすべきことを怠った罪も、すべて心から悔い改めさせ、残された生涯を、あなたのあらゆる戒めを力の限り守るために費やす、固い決意をお与えください。また、思いを落ち着かせ、病の間も記憶と理性の働きを保ってくださるよう、お願いいたします。人間にかかわるものはすべて、空しく、愚かで、取るに足りないことを正しく悟らせ、苦しみのただ中でも、あなたへの誠実な愛が生まれるほどに強めてください。彼女の善い行いをすべてお受け入れになり、善として数えてください。また、あなたに対して犯した罪のうち、心から悔い改めたものや、記憶の弱さのために忘れてしまったものを、すべてお赦しください。そして今、主よ、私たち自身と、悲しむほかの友人たちのために、あなたを仰ぎます。私たちの悲しみが彼女の心を苦しめ、それによって今の病を悪くすることのないようにしてください。私たちのうち、これほど親しく、人々の役に立つ友を失う悲しみと恐れに耐えかねている者たちの、その悲嘆と弱さをお赦しください。この悪しき世にもうしばらく彼女をとどめてくださるようにと、切に祈り、願う私たちを、お受け入れになり、お赦しください。あなたが御自身への奉仕と呼んでくださることを、彼女が果たせますように。それはただ彼女の当然の務めにすぎませんが、そうしてなお私たちを慰め、語らいや助言や親切や施しの恩恵をこれからも必要とする、すべての人の慰めとなれますように。また、あなたは、二人か三人が御名によって集まるところには、そのただ中にいて願いをかなえると約束してくださいました。恵み深い主よ、御名によってここに集まった私たちの願いをおかなえください。苦しむあなたのこのしもべと私たち自身のために、今、心から誠実に、熱心にささげた願いが、私たちの主イエス・キリストの功績によって、確かに聞き届けられますように。アーメン。
+  "translation_status": "reviewed"
+- "id": "prayers-010"
+  "section_id": "mutual-subjection"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    ON MUTUAL SUBJECTION. [377]
+    (FIRST PRINTED IN 1744.)
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/h2[3]"
+    "source_sequence": 10
+    "printed_page": "377"
+  "translation_ja": |-
+    互いに従うことについて
+    （一七四四年初刊）
+  "translation_status": "reviewed"
+- "id": "prayers-011"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "“Yea, all of you be subject one to another.”—I Peter v. 5"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/blockquote[1]/p[1]"
+    "source_sequence": 11
+  "translation_ja": "「あなたがたは皆、互いに従いなさい。」――『ペトロの手紙一』五章五節"
+  "translation_status": "reviewed"
+- "id": "prayers-012"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The Apostle having, in many parts of this Epistle, given directions to Christians concerning the duty of subjection or obedience to superiors, in the several instances of the subject to the prince, the child to his parent, the servant to his master, the wife to her husband, and the younger to the elder, doth here, in the words of my text, sum up the whole by advancing a point of doctrine, which at first may appear a little extraordinary. “Yea, all of you,” saith he, “be subject one to another.” For it should seem that two persons cannot properly be said to be subject to each other, and that subjection is only due from inferiors to those above them; yet St. Paul hath several passages to the same purpose. For he exhorts the Romans “in honour to prefer one another;” and the Philippians, “that in lowliness of mind they should each esteem other better than themselves;” and the Ephesians, “that they should submit themselves one to another in the fear of the Lord.” Here we find these two great Apostles recommending to all Christians this duty of mutual subjection. For we may observe, by St. Peter, that having mentioned the several relations which men bear to each other, as governor and subject, master and servant, and the rest which I have already repeated, he makes no exception, but sums up the whole with commanding “all to be subject one to another.” Whence we may conclude that this subjection due from all men to all men is something more than the compliment of course, when our betters are pleased to tell us they are our humble servants, but understand us to be their slaves.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[6]"
+    "source_sequence": 12
+  "translation_ja": |-
+    使徒はこの手紙の多くの箇所で、上に立つ者に従い、服従する務めについて、キリスト者に教えている。臣民は君主に、子は親に、召使いは主人に、妻は夫に、若者は年長者に従うというように、それぞれの場合を挙げたうえで、今取り上げた聖句では、一見するといささか意外な教えを示し、そのすべてをまとめている。「あなたがたは皆、互いに従いなさい」と言うのである。二人の者が互いに従うというのは、厳密にはおかしく、従うのは下位の者から上位の者に対してだけだと思われるかもしれない。だが聖パウロにも、同じ趣旨の言葉がいくつもある。ローマの人々には「互いに敬い合うことでは、相手を先に立てるように」、フィリピの人々には「へりくだった心で、それぞれ自分より相手を優れた者と思うように」、エフェソの人々には「主を畏れて互いに従うように」と勧めている。この二人の偉大な使徒は、すべてのキリスト者に、互いに従うこの務めを勧めているのである。聖ペトロの言葉に注目すると、治める者と臣民、主人と召使い、そして先ほど挙げたそのほかの人間関係に触れたあとで、例外を一つも設けず、「皆、互いに従うように」と命じて全体を結んでいる。だから、すべての人がすべての人に対して果たすべきこの服従は、私たちより身分の高い人が、こちらを奴隷扱いするつもりでいながら、「何なりとお申しつけください」と言ってくれるような、お決まりの挨拶以上のものだとわかる。
+  "translation_status": "reviewed"
+- "id": "prayers-013"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I know very well that some of those who explain this text apply it to humility, to the duties of charity, to private exhortations, and to bearing with each other’s infirmities; and it is probable the Apostle may have had a regard to all these. But, however, many learned men agree that there is something more understood, and so the words in their plain natural meaning must import, as you will observe yourselves if you read them with the beginning of the verse, which is thus: “Likewise, ye younger, submit yourselves unto the elder; yea, all of you be subject one to another.” So that, upon the whole, there must be some kind of subjection due from every man to every man, which cannot be made void by any power, pre-eminence, or authority whatsoever. Now what sort of subjection this is, and how it ought to be paid, shall be the subject of my present discourse.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[7]"
+    "source_sequence": 13
+  "translation_ja": |-
+    この聖句を説明する人の中に、謙遜、慈愛の務め、個人的な勧め合い、互いの弱さを忍び合うことに結びつける人がいるのは、よく承知している。使徒がこれらすべてを念頭に置いていたことも、おそらく確かだろう。しかし、多くの学識ある人は、それ以上の意味があるという点で一致している。実際、その言葉をありのまま、自然な意味で受け取れば、そうなるはずである。節の冒頭と合わせて読めば、皆さんにもわかる。「同じように、若い人たちよ、年長者に従いなさい。そう、あなたがたは皆、互いに従いなさい」とあるのだ。つまり総じて、一人ひとりがすべての人に対して果たすべき、ある種の服従が存在するはずであり、いかなる権力、優越した地位、権威も、それを無効にはできない。では、それはどのような服従であり、どう果たすべきなのか。今日はそのことをお話ししたい。
+  "translation_status": "reviewed"
+- "id": "prayers-014"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    As God hath contrived all the works of Nature to be useful, and in some manner a support to each other, by which the whole frame of the world, under His providence, is preserved and kept up, so among mankind our particular stations are appointed to each of us by God Almighty, wherein we are obliged to act as far as our power reacheth toward the good of the whole community. And he who doth not perform that part assigned him towards advancing the benefit of the whole, in proportion to his opportunities and abilities, is not only a useless, but a very mischievous member of the public; because he takes his share of the profit, and yet leaves his share of the burden to be borne by others, which is the true principal cause of most miseries and misfortunes in life. For a wise man who does not assist with his counsels, a great man with his protection, a rich man with his bounty and charity, and a poor man with his labour, are perfect nuisances in a commonwealth. Neither is any condition of life more honourable in the sight of God than another; otherwise He would be a respecter of persons, which He assures us He is not; for He hath proposed the same salvation to all men, and hath only placed them in different ways or stations to work it out. Princes are born with no more advantages of strength or wisdom than other men, and, by an unhappy education, are usually more defective in both than thousands of their subjects. They depend for every necessary of life upon the meanest of their people; besides, obedience and subjection were never enjoined by God to humour the passions, lusts, and vanities of those who demand them from us; but we are commanded to obey our governors, because disobedience would breed seditions in the state. Thus servants are directed to obey their masters, children their parents, and wives their husbands, not from any respect of persons in God, but because otherwise there would be nothing but confusion in private families. This matter will be clearly explained by considering the comparison which St. Paul makes between the Church of Christ and the body of man; for the same resemblance will hold not only to families and kingdoms, but to the whole corporation of mankind. “The eye,” saith he, “cannot say unto the hand, ‘I have no need of thee;’ nor again the hand to the foot, ‘I have no need of thee.’ Nay, much more those members of the body which seem to be more feeble are necessary; and whether one member suffer, all the members suffer with it; or one member be honoured, all the members rejoice with it.” The case is directly the same among mankind. The prince cannot say to the merchant, “I have no need of thee,” nor the merchant to the labourer, “I have no need of thee.” Nay, much more those members which seem to be more feeble are necessary; for the poor are generally more necessary members of the commonwealth than the rich; which clearly shows that God never intended such possessions for the sake and service of those to whom He lends them, but because he hath assigned every man his particular station to be useful in life, and this for the reason given by the Apostle, “that there may be no schism in the body.”
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[8]"
+    "source_sequence": 14
+  "translation_ja": |-
+    神は自然界のあらゆる働きを、有用で、何らかの形で互いに支え合うようにお造りになり、その摂理のもとで、世界の仕組み全体が保たれている。同じように人間の間でも、それぞれの立場は全能の神によって一人ひとりに定められており、私たちはその場で、共同体全体の益のため、力の及ぶ限り働く義務がある。機会と能力に応じて全体の利益を増すために割り当てられた役目を果たさない者は、社会にとって役立たないばかりか、大いに有害な一員である。利益は自分の分を受け取りながら、負担は自分の分までほかの人に負わせるからであり、これこそ人生のほとんどの苦難と不幸を生む、本当の主な原因なのだ。賢い者が助言せず、地位の高い者が保護せず、富む者が惜しみなく施しをせず、貧しい者が労働によって助けないなら、その者たちは国家にとってまったくの厄介者である。また、神の御前で、ある暮らしの境遇がほかの境遇より尊いということもない。もしそうなら、神は人を分け隔てなさることになるが、御自身、決してそうはしないと断言しておられる。すべての人に同じ救いを示し、ただそれを成し遂げる道筋や立場を違えて置かれただけなのである。君主も、生まれつき、ほかの人より力や知恵に恵まれているわけではない。それどころか、不幸な教育のために、配下の何千人という臣民より、そのどちらも劣っていることが多い。暮らしに欠かせないものはすべて、最も身分の低い民に頼っている。加えて、私たちに服従を求める者の情念や欲望や虚栄を満たすために、従順や服従を神がお命じになったことはない。統治者に従うように命じられるのは、従わなければ国に反乱が生じるからだ。同じように、召使いには主人に、子には親に、妻には夫に従うよう教えられているのも、神が人を分け隔てなさるからではなく、そうしなければ家庭の中が混乱ばかりになるからである。聖パウロがキリストの教会を人間の体にたとえた言葉を考えれば、この点ははっきりする。そのたとえは、家庭や国家だけでなく、人類という共同体全体にも当てはまるからだ。「目は手に向かって、お前は要らないとは言えず、また手も足に向かって、お前は要らないとは言えない。それどころか、体の中でいっそう弱く見える部分こそ、なくてはならない。そして一つの部分が苦しめば、すべての部分がともに苦しみ、一つの部分が尊ばれれば、すべての部分がともに喜ぶ」と言う。人間同士の場合もまったく同じである。君主は商人に向かって「お前は要らない」とは言えず、商人も労働者に向かって「お前は要らない」とは言えない。それどころか、いっそう弱く見える部分こそ、なくてはならない。一般に、貧しい人は富む人よりも、国家にとって欠かせない一員なのである。このことからも明らかなように、神がそのような財産をお与えになるのは、それを貸し与えられた本人のため、その者に仕えるためではない。一人ひとりに、生涯を有益に生きるための固有の立場を割り当てておられるからであり、その理由は、使徒の言う「体の中に分裂がないようにするため」なのである。
+  "translation_status": "reviewed"
+- "id": "prayers-015"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    From hence may partly be gathered the nature of that subjection which we all owe to one another. God Almighty hath been pleased to put us into an imperfect state, where we have perpetual occasion of each other’s assistance. There is none so low as not to be in a capacity of assisting the highest, nor so high as not to want the assistance of the lowest.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[9]"
+    "source_sequence": 15
+  "translation_ja": |-
+    ここから、私たち皆が互いに対して負う服従とはどういうものか、その一端が見えてくる。全能の神は、私たちを不完全な境遇に置かれた。そのため私たちは、絶えず互いの助けを必要とする。最も高い地位の者を助けられないほど低い者はなく、最も低い者の助けを必要としないほど高い者もないのである。
+  "translation_status": "reviewed"
+- "id": "prayers-016"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    It plainly appears, from what hath been said, that no one human creature is more worthy than another in the sight of God, further than according to the goodness or holiness of their lives; and that power, wealth, and the like outward advantages, are so far from being the marks of God’s approving or preferring those on whom they are bestowed, that, on the contrary, He is pleased to suffer them to be almost engrossed by those who have least title to His favour. Now, according to this equality wherein God hath placed all mankind with relation to Himself, you will observe that in all the relations between man and man there is a mutual dependence, whereby the one cannot subsist without the other. Thus no man can be a prince without subjects, nor a master without servants, nor a father without children. And this both explains and confirms the doctrine of the text; for where there is a mutual dependence there must be a mutual duty, and consequently a mutual subjection. For instance, the subject must obey his prince, because God commands it, human laws require it, and the safety of the public makes it necessary; for the same reasons we must obey all that are in authority, and submit ourselves not only to the good and gentle, but also to the froward, whether they rule according to our liking or not. On the other side, in those countries that pretend to freedom, princes are subject to those laws which their people have chosen; they are bound to protect their subjects in liberty, property, and religion, to receive their petitions and redress their grievances, so that the best prince is, in the opinion of wise men, only the greatest servant of the nation—not only a servant to the public in general, but in some sort to every man in it. In the like manner a servant owes obedience, and diligence, and faithfulness to his master, from whom, at the same time, he hath a just demand for protection, and maintenance, and gentle treatment. Nay, even the poor beggar hath a just demand of an alms from the rich man, who is guilty of fraud, injustice, and oppression if he does not afford relief according to his abilities.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[10]"
+    "source_sequence": 16
+  "translation_ja": |-
+    これまで述べたことから明らかなように、神の御前で、ある人がほかの人よりも価値があるのは、その生き方の善さ、聖らかさによる場合だけである。権力や財産など、外面的な有利さは、それを授かった者を神がお認めになり、好んでおられるしるしであるどころか、逆に、神の恩寵を受ける資格が最も乏しい者たちに、ほとんど独占されるままにしておられる。神との関係において、神が全人類をこのように平等に置かれたことを考えるなら、人と人とのあらゆる関係には、互いに依存するところがあり、一方がなければ他方も成り立たないことに気づくだろう。臣民がなければ君主ではありえず、召使いがなければ主人ではありえず、子がなければ父でもありえない。これこそ聖句の教えを説明し、同時に裏づけるものである。互いに依存するところには互いの務めがあり、したがって互いの服従があるはずだからだ。たとえば臣民が君主に従わなければならないのは、神がお命じになり、人間の法が求め、社会の安全のために必要だからである。同じ理由で、権威のある者すべてに従い、善良で穏やかな者だけでなく、気難しい者にも、その治め方が気に入ろうと入るまいと従わねばならない。一方、自由を標榜する国々では、君主も国民が選んだ法に従う。臣民の自由、財産、信仰を守り、請願を受け付け、苦情を正す義務がある。だから賢者の考えでは、最良の君主とは、国で最も大きな務めを担う奉仕者にほかならない。社会全体への奉仕者であるばかりでなく、ある意味では、その中の一人ひとりへの奉仕者でもある。同じように、召使いは主人に従順、勤勉、忠実を尽くす義務を負うが、同時に主人に対して、保護、生活の保障、穏やかな扱いを求める正当な権利がある。いや、貧しい物乞いにさえ、富む人に施しを求める正当な権利がある。その人が能力に応じた救いの手を差し伸べなければ、欺き、不正、抑圧の罪を犯すことになる。
+  "translation_status": "reviewed"
+- "id": "prayers-017"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    But this subjection we all owe one another is nowhere more necessary than in the common conversations of life, for without it there could be no society among men. If the learned would not sometimes submit to the ignorant, the wise to the simple, the gentle to the froward, the old to the weaknesses of the young, there would be nothing but everlasting variance in the world. This our Saviour Himself confirmed by His own example; for He appeared in the form of a servant and washed His disciples’ feet, adding those memorable words, “Ye call me Lord and Master, and ye say well, for so I am. If I then, your Lord and Master, wash your feet, how much more ought ye to wash one another’s feet?” Under which expression of washing the feet is included all that subjection, assistance, love, and duty, which every good Christian ought to pay his brother, in whatever station God hath placed him. For the greatest prince and the meanest slave are not, by infinite degrees, so distant as our Saviour and those disciples, whose feet He vouchsafed to wash.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[11]"
+    "source_sequence": 17
+  "translation_ja": |-
+    だが、私たちが皆、互いに負うこの服従が、最も必要なのは、日常の交わりにおいてである。これがなければ、人々の社会は成り立たない。学識ある者が無学な者に、賢い者が素朴な者に、穏やかな者が気難しい者に、年長者が若者の弱さに、ときに自分を合わせようとしなければ、世の中には果てしない不和しかないだろう。このことを救い主御自身、御自身の行いによって確かなものとされた。しもべの姿で現れ、弟子たちの足を洗い、あの忘れがたい言葉を付け加えられたからだ。「あなたがたは私を主、師と呼ぶ。そのとおりである。私はそうなのだから。主であり、師である私が、あなたがたの足を洗うなら、あなたがたもなおさら互いの足を洗うべきではないか。」この、足を洗うという言い方には、神からどのような立場に置かれようと、善いキリスト者が兄弟に対して果たすべき、あらゆる服従、援助、愛、務めが含まれている。最も偉大な君主と最も卑しい奴隷との隔たりも、足を洗ってくださった救い主とその弟子たちの隔たりには、比べようもないほど及ばないのである。
+  "translation_status": "reviewed"
+- "id": "prayers-018"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    And although this doctrine of subjecting ourselves to one another may seem to grate upon the pride and vanity of mankind, and may therefore be hard to be digested by those who value themselves upon their greatness or their wealth, yet it is really no more than what most men practise upon other occasions. For if our neighbour, who is our inferior, comes to see us, we rise to receive him; we place him above us, and respect him as if he were better than ourselves; and this is thought both decent and necessary, and is usually called good manners. Now the duty required by the Apostle is only that we should enlarge our minds, and that what we thus practise in the common course of life we should imitate in all our actions and proceedings whatsoever; since our Saviour tells us that every man is our neighbour, and since we are so ready, in point of civility, to yield to others in our own houses, where only we have any title to govern.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[12]"
+    "source_sequence": 18
+  "translation_ja": |-
+    互いに従うというこの教えは、人間の高慢や虚栄を逆なでするように見え、地位や財産を鼻にかける者には、受け入れがたいかもしれない。けれども実際は、大半の人が別の機会には行っていることにすぎない。自分より下の立場にある近所の人が訪ねてくれば、私たちは立ち上がって迎え、自分より上の席へ案内し、まるで相手のほうが優れているかのように敬意を示す。これはふさわしく必要なことと思われ、普通、礼儀と呼ばれている。使徒が求める務めとは、ただ心を広くし、日常の暮らしでこうして行っていることを、あらゆる行動、あらゆる事柄でも実行することでしかない。救い主は、すべての人が私たちの隣人だと教えておられるし、私たちも、唯一自分に取り仕切る権限のある自宅でさえ、礼儀の点ではあれほど進んで人に譲っているではないか。
+  "translation_status": "reviewed"
+- "id": "prayers-019"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Having thus shown you what sort of subjection it is which all men owe one another, and in what manner it ought to be paid, I shall now draw some observations from what hath been said.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[13]"
+    "source_sequence": 19
+  "translation_ja": "これで、すべての人が互いに対して果たすべき服従とは何か、どのように果たすべきかをお示しした。ここからは、これまでの話をもとに、いくつか考察を引き出したい。"
+  "translation_status": "reviewed"
+- "id": "prayers-020"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    And first, a thorough practice of this duty of subjecting ourselves to the wants and infirmities of each other would utterly extinguish in us the vice of pride.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[14]"
+    "source_sequence": 20
+  "translation_ja": "第一に、互いの不足と弱さに応じて自分を従わせるこの務めを徹底して実践すれば、高慢という悪徳は私たちの中からすっかり消えるだろう。"
+  "translation_status": "reviewed"
+- "id": "prayers-021"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    For if God has pleased to intrust me with a talent, not for my own sake, but for the service of others, and at the same time hath left me full of wants and necessities which others must supply, I can then have no cause to set any extraordinary value upon myself, or to despise my brother because he hath not the same talents which were lent to me. His being may probably be as useful to the public as mine; and therefore, by the rules of right reason, I am in no sort preferable to him.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[15]"
+    "source_sequence": 21
+  "translation_ja": |-
+    神が私にある才能を委ねてくださったのが、私自身のためではなく、ほかの人々に役立てるためであり、同時に私を、ほかの人に補ってもらわねばならない不足や必要に満ちたままにしておられるのなら、自分をことさら高く評価したり、私が貸し与えられたものと同じ才能を持たないからといって、兄弟を見下したりする理由はない。その人がいることは、私がいることと同じほど社会に役立っているかもしれない。だから正しい理性の規則によれば、私はいかなる点でも、その人より上なのではない。
+  "translation_status": "reviewed"
+- "id": "prayers-022"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Secondly, It is very manifest, from what has been said, that no man ought to look upon the advantages of life, such as riches, honour, power, and the like, as his property, but merely as a trust which God hath deposited with him to be employed for the use of his brethren, and God will certainly punish the breach of that trust, though the laws of man will not, or rather indeed cannot; because the trust was conferred only by God, who has not left it to any power on earth to decide infallibly whether a man makes a good use of his talents or not, or to punish him where he fails. And therefore God seems to have more particularly taken this matter into His own hands, and will most certainly reward or punish us in proportion to our good or ill performance in it. Now, although the advantages which one possesseth more than another may, in some sense, be called his property with respect to other men, yet with respect to God they are, as I said, only a trust, which will plainly appear from hence: if a man does not use those advantages to the good of the public or the benefit of his neighbour, it is certain he doth not deserve them, and consequently that God never intended them for a blessing to him; and on the other side, whoever does employ his talents as he ought will find, by his own experience, that they were chiefly lent him for the service of others, for to the service of others he will certainly employ them.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[16]"
+    "source_sequence": 22
+  "translation_ja": |-
+    第二に、これまでの話からきわめて明らかなのは、富、名誉、権力といった人生の有利な条件を、自分の所有物と考えるべきではないということである。それらはただ、兄弟のために用いるよう、神から預けられたものにすぎない。その信託に背けば、人間の法は罰しないとしても――いや、厳密には罰することができないとしても――神は必ず罰せられる。それを委ねたのは神だけであり、人が才能を善用しているかどうかを誤りなく判断したり、怠った場合に罰したりする権限を、地上のいかなる権力にも任せてはおられないからだ。そこで神は、この事柄をことさらに御自身の手にとどめておられるように見える。そして、その務めをよく果たしたか、悪く果たしたかに応じて、必ず私たちに報いや罰をお与えになる。ある人がほかの人より多く持つ利点は、人間同士の関係では、ある意味でその人の所有物と呼べるかもしれない。しかし神との関係では、述べたとおり、預かり物にすぎない。それは次のことから明らかになる。ある人がその利点を社会の益や隣人のために用いないなら、それに値する者でないのは確かであり、したがって神は、その人自身の祝福となるように、それを与えるおつもりではなかったのだ。逆に、自分の才能をしかるべく用いる者は誰でも、それが主として他者に役立てるために貸し与えられたものだと、経験によってわかるだろう。なぜなら、その人は必ず、それを他者への奉仕に用いるからである。
+  "translation_status": "reviewed"
+- "id": "prayers-023"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Thirdly, If we could all be brought to practise this duty of subjecting ourselves to each other, it would very much contribute to the general happiness of mankind, for this would root out envy and malice from the heart of man; because you cannot envy your neighbour’s strength if he make use of it to defend your life or carry your burden; you cannot envy his wisdom if he gives you good counsel; nor his riches if he supplies your wants; nor his greatness if he employs it to your protection. The miseries of life are not properly owing to the unequal distribution of things, but God Almighty, the great King of heaven, is treated like the kings of the earth, who, although perhaps intending well themselves, have often most abominable ministers and stewards, and those generally the vilest to whom they intrust the most talents. But here is the difference, that the princes of this world see by other men’s eyes, but God sees all things; and therefore, whenever He permits His blessings to be dealt among those who are unworthy, we may certainly conclude that He intends them only as a punishment to an evil world, as well as to the owners. It were well if those would consider this, whose riches serve them only as a spur to avarice or as an instrument of their lusts; whose wisdom is only of this world, to put false colours upon things, to call good evil and evil good against the conviction of their own consciences; and lastly, who employ their power and favour in acts of oppression or injustice, in misrepresenting persons and things, or in countenancing the wicked to the ruin of the innocent.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[17]"
+    "source_sequence": 23
+  "translation_ja": |-
+    第三に、私たち皆が互いに従うこの務めを実践するようになれば、人類全体の幸福に大いに役立つだろう。そうすれば人の心から、ねたみと悪意が根こそぎ除かれるからだ。隣人がその力であなたの命を守り、あなたの荷を運んでくれるなら、その力をねたむことはできない。よい助言をくれるならその知恵を、必要を満たしてくれるならその富を、あなたを守るために用いてくれるならその地位を、ねたむことはできない。人生の苦しみは、厳密には、物の分配が不平等であるせいではない。天の偉大な王である全能の神が、地上の王と同じような扱いを受けておられるのだ。地上の王は、本人には善意があっても、ひどく忌まわしい大臣や管理人を持つことが多く、最も多くの才能を委ねた者が、たいてい最も卑劣なのである。ただ、違いがある。この世の君主は他人の目で見るが、神はすべてを御覧になる。だから、ふさわしくない者たちに祝福が配られるのをお許しになる場合、それは祝福を持つ者だけでなく、悪に染まった世を罰するためなのだと、確かに結論できる。財産が貪欲をあおる刺激や欲望の道具にしかならない者、知恵がただこの世のもので、良心ではわかっていながら、物事を偽って見せ、善を悪、悪を善と呼ぶために使われる者、そして権力や寵遇を、抑圧や不正、人や物事の歪曲、悪人をかばって罪のない者を破滅させる行いに使う者は、このことをよく考えるがよい。
+  "translation_status": "reviewed"
+- "id": "prayers-024"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Fourthly, The practice of this duty of being subject to one another would make us rest contented in the several stations of life wherein God hath thought fit to place us, because it would, in the best and easiest manner, bring us back, as it were, to that early state of the Gospel when Christians had all things in common. For if the poor found the rich disposed to supply their want, if the ignorant found the wise ready to instruct and direct them, or if the weak might always find protection from the mighty, they could none of them, with the least pretence of justice, lament their own condition.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[18]"
+    "source_sequence": 24
+  "translation_ja": |-
+    第四に、互いに従うこの務めを実践すれば、神がそれぞれにふさわしいとお定めになった境遇に、満ち足りていられるようになる。というのも、いわば、キリスト者がすべてを共有していた福音の初めのころの状態へ、最もよく、最もたやすく立ち戻らせてくれるからである。貧しい者が、自分の不足を満たそうとする富む者を見いだし、無学な者が、自分を教え導こうとする賢者を見いだし、弱い者が、強い者の保護をいつでも得られるなら、自分の境遇を嘆く正当な理由は、その誰にも少しもないはずだ。
+  "translation_status": "reviewed"
+- "id": "prayers-025"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    From all that hath been hitherto said it appears that great abilities of any sort, when they are employed as God directs, do but make the owners of them greater and more painful servants to their neighbour and the public. However, we are by no means to conclude from hence that they are not really blessings, when they are in the hands of good men. For, first, what can be a greater honour than to be chosen one of the stewards and dispensers of God’s bounty to mankind? What is there that can give a generous spirit more pleasure and complacency of mind than to consider that he is an instrument of doing much good; that great numbers owe to him, under God, their subsistence, their safety, their health, and the good conduct of their lives? The wickedest man upon earth takes a pleasure in doing good to those he loves; and therefore surely a good Christian, who obeys our Saviour’s commands of loving all men, cannot but take delight in doing good even to his enemies. God, who gives all things to all men, can receive nothing from any; and those among men who do the most good and receive the fewest returns do most resemble the Creator; for which reason St. Paul delivers it as a saying of our Saviour, that “it is more blessed to give than receive.” By this rule, what must become of those things which the world values as the greatest blessings—riches, power, and the like—when our Saviour plainly determines that the best way to make them blessings is to part with them? Therefore, although the advantages which one man hath over another may be called blessings, yet they are by no means so in the sense the world usually understands. Thus, for example, great riches are no blessings in themselves, because the poor man, with the common necessaries of life, enjoys more health and has fewer cares without them. How then do they become blessings? No otherwise than by being employed in feeding the hungry, clothing the naked, rewarding worthy men, and, in short, doing acts of charity and generosity. Thus, likewise, power is no blessing in itself, because private men bear less envy, and trouble, and anguish without it. But when it is employed to protect the innocent, to relieve the oppressed, and to punish the oppressor, then it becomes a great blessing.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[19]"
+    "source_sequence": 25
+  "translation_ja": |-
+    ここまでのすべてからわかるように、どのような優れた能力も、神の指示どおりに用いるなら、その持ち主を、隣人や社会のために、より大きな務めを負い、より骨を折る奉仕者にするだけである。しかし、だからといって、善い人の手にある場合にも、それが本当の祝福ではないと考えてはならない。第一に、人類への神の恵みを預かり、配る者の一人に選ばれる以上の名誉が、どこにあるだろう。自分が多くの善をなす道具となり、神のもとで、多くの人の暮らし、安全、健康、正しい生き方を支えていると思うほど、寛大な心に喜びと満足を与えることがあるだろうか。地上で最も邪悪な者でさえ、愛する相手に善いことをするのは楽しい。それなら、すべての人を愛せよという救い主の命令に従う善いキリスト者は、敵に善をなすことさえ、喜ばずにはいられないはずだ。すべての人にすべてを与える神は、誰からも何一つ受け取ることができない。人間のうちでも、最も多くの善をなし、最も少ない見返りしか受け取らない者が、創造主に最もよく似ている。そのため聖パウロは、救い主の言葉として、「受けるよりも与えるほうが幸いである」と伝えている。この規則に照らすと、世が最大の祝福と見なす富や権力などは、いったいどうなるだろう。それらを祝福にする最良の道は、手放すことだと、救い主ははっきり定めておられるのだから。だから、ある人がほかの人より有利に持つものを祝福と呼べるにしても、世間が普通に考える意味での祝福では、決してない。たとえば、大きな富は、それ自体では祝福ではない。暮らしに普通に必要なものを持つ貧しい人のほうが、富がなくても、より健康で、心配も少ないからだ。では、どうすれば祝福となるのか。飢えた者を食べさせ、衣のない者に着せ、ふさわしい者に報い、要するに、慈善と寛大な行いに用いることによってしか、祝福にはならない。同じく権力も、それ自体では祝福ではない。私人のほうが、権力がなければ、ねたまれることも、面倒も、苦悩も少ないからだ。しかし、罪のない者を守り、抑圧された者を救い、抑圧する者を罰するために使われるとき、それは大きな祝福となる。
+  "translation_status": "reviewed"
+- "id": "prayers-026"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    And so, lastly, even great wisdom is, in the opinion of Solomon, not a blessing in itself; for “in much wisdom is much sorrow;” and men of common understanding, if they serve God and mind their callings, make fewer mistakes in the conduct of life than those who have better heads. And yet wisdom is a mighty blessing when it is applied to good purposes, to instruct the ignorant, to be a faithful counsellor either in public or private, to be a director to youth, and to many other ends needless here to mention.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[20]"
+    "source_sequence": 26
+  "translation_ja": |-
+    そして最後に、優れた知恵でさえ、ソロモンの考えでは、それ自体で祝福とはならない。「知恵が多ければ、悲しみも多い」からであり、普通の理解力を持つ人も、神に仕え、自分の務めに心を配るなら、自分より頭のよい人より、生き方を誤ることは少ない。それでも、無学な者を教え、公私いずれにおいても忠実な助言者となり、若者を導くなど、ここでいちいち挙げるまでもない多くの善い目的に用いられるとき、知恵は大いなる祝福なのである。
+  "translation_status": "reviewed"
+- "id": "prayers-027"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    To conclude: God sent us into the world to obey His commands, by doing as much good as our abilities will reach, and as little evil as our many infirmities will permit. Some He hath only trusted with one talent, some with five, and some with ten. No man is without his talent; and he that is faithful or negligent in a little shall be rewarded or punished, as well as he that hath been so in a great deal.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[21]"
+    "source_sequence": 27
+  "translation_ja": |-
+    結びに言おう。神は、御命令に従わせるために、私たちをこの世に遣わされた。能力の及ぶ限り善を多くなし、数々の弱さが許す限り悪を少なくするためである。ある者には一タラント、ある者には五タラント、ある者には十タラントをお委ねになった。自分のタラントを持たない者はいない。多くのものについて忠実だった者、怠った者がそうされるのと同じく、わずかなものについて忠実だった者も、怠った者も、報い、あるいは罰を受けるのである。
+  "translation_status": "reviewed"
+- "id": "prayers-028"
+  "section_id": "mutual-subjection"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Consider what hath been said, &c."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[22]"
+    "source_sequence": 28
+  "translation_ja": "以上述べたことを考えよ、云々。"
+  "translation_status": "reviewed"
+- "id": "prayers-029"
+  "section_id": "sleeping-in-church"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "ON SLEEPING IN CHURCH."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/h2[4]"
+    "source_sequence": 29
+    "printed_page": "385"
+  "translation_ja": "教会で眠ることについて"
+  "translation_status": "reviewed"
+- "id": "prayers-030"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    “And there sat in the window a certain young man named Eutychus, being fallen into a deep sleep; and while Paul was long preaching, he sunk down with sleep, and fell down from the third loft, and was taken up dead.”—Acts xx. 9.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/blockquote[2]/p[1]"
+    "source_sequence": 30
+  "translation_ja": "「窓のところに、エウティコという若者が座っていた。パウロの説教が長く続くうちに、彼は深い眠りに落ち、眠りに負けて三階から転落した。抱き起こしてみると、死んでいた。」――『使徒言行録』二十章九節"
+  "translation_status": "reviewed"
+- "id": "prayers-031"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I have chosen these words with design, if possible, to disturb some part in this audience of half an hour’s sleep, for the convenience and exercise whereof this place, at this season of the day, is very much celebrated.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[23]"
+    "source_sequence": 31
+  "translation_ja": "この言葉を選んだのは、できることなら、この会衆の何人かが楽しむ三十分の眠りを妨げたいと思ったからである。この場所は、一日のこの時刻には、眠るのに都合がよく、実際によく眠れる場所として、大いに名をはせている。"
+  "translation_status": "reviewed"
+- "id": "prayers-032"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    There is indeed one mortal disadvantage to which all preaching is subject, that those who, by the wickedness of their lives, stand in greatest need, have usually the smallest share; for either they are absent upon the account of idleness, or spleen, or hatred to religion, or in order to doze away the intemperance of the week; or, if they do come, they are sure to employ their minds rather any other way than regarding or attending to the business of the place.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[24]"
+    "source_sequence": 32
+  "translation_ja": |-
+    実際、あらゆる説教には、一つの致命的な不利がある。生き方が悪いために説教を最も必要とする人々が、たいてい、その恩恵に最もあずからないのである。怠け心、不機嫌、宗教嫌いのために来なかったり、その週の不摂生を居眠りでやり過ごそうとして来なかったりする。来ても、この場所でなされることに心を向け、耳を傾けるくらいなら、必ずほかの何かに心を使おうとするのだ。
+  "translation_status": "reviewed"
+- "id": "prayers-033"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The accident which happened to this young man in the text hath not been sufficient to discourage his successors; but because the preachers now in the world, however they may exceed St. Paul in the art of setting men to sleep, do extremely fall short of him in the working of miracles, therefore men are become so cautious as, to choose more safe and convenient stations and postures for taking their repose without hazard of their persons, and upon the whole matter choose rather to trust their destruction to a miracle than their safety. However, this being not the only way by which the lukewarm Christians and scorners of the age discover their neglect and contempt of preaching, I shall enter expressly into consideration of this matter, and order my discourse in the following method:—
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[25]"
+    "source_sequence": 33
+  "translation_ja": |-
+    聖句の若者に起きた事故も、彼に続く人々を思いとどまらせるには足りなかった。ただ、今の世の説教者は、人を眠らせる技では聖パウロをしのぐにしても、奇跡を行う点では遠く及ばない。そのため人々は用心深くなり、身を危険にさらさず休めるよう、もっと安全で都合のよい場所と姿勢を選ぶようになった。要するに、助かるのに奇跡が要るより、死ぬのに奇跡が要るほうを選んでいるのである。しかし、今の時代の生ぬるいキリスト者や嘲る人々が、説教への無関心と軽蔑を示すのは、このやり方だけではない。そこで、この問題を正面から取り上げ、次の順序で話を進めたい。
+  "translation_status": "reviewed"
+- "id": "prayers-034"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "First, I shall produce several instances to show the great neglect of preaching now among us."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[26]"
+    "source_sequence": 34
+  "translation_ja": "第一に、今、私たちの間で説教がひどくおろそかにされていることを、いくつかの例で示す。"
+  "translation_status": "reviewed"
+- "id": "prayers-035"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Secondly, I shall reckon up some of the usual quarrels men have against preaching."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[27]"
+    "source_sequence": 35
+  "translation_ja": "第二に、人々が説教に対して抱く、お決まりの不満をいくつか挙げる。"
+  "translation_status": "reviewed"
+- "id": "prayers-036"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Thirdly, I shall get forth the great evil of this neglect and contempt of preaching, and discover the real causes whence it proceedeth.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[28]"
+    "source_sequence": 36
+  "translation_ja": "第三に、この無関心と軽蔑がもたらす大きな害を明らかにし、それがどこから生じるか、本当の原因を示す。"
+  "translation_status": "reviewed"
+- "id": "prayers-037"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Lastly, I shall offer some remedies against this great and spreading evil."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[29]"
+    "source_sequence": 37
+  "translation_ja": "最後に、この大きく広がりつつある悪弊への対処を、いくつか提案する。"
+  "translation_status": "reviewed"
+- "id": "prayers-038"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "First, I shall produce certain instances to show the great neglect of preaching now among us."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[30]"
+    "source_sequence": 38
+  "translation_ja": "第一に、今、私たちの間で説教がひどくおろそかにされていることを、具体例で示そう。"
+  "translation_status": "reviewed"
+- "id": "prayers-039"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    These may be reduced under two heads. First, men’s absence from the service of the church; and secondly, their misbehaviour when they are here.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[31]"
+    "source_sequence": 39
+  "translation_ja": "これは二つにまとめられる。第一は、人々が教会の礼拝に出ないこと。第二は、ここに来ているときの行儀の悪さである。"
+  "translation_status": "reviewed"
+- "id": "prayers-040"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "The first instance of men’s neglect is in their frequent absence from the church."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[32]"
+    "source_sequence": 40
+  "translation_ja": "人々の無関心を示す第一の例は、しばしば教会を欠席することだ。"
+  "translation_status": "reviewed"
+- "id": "prayers-041"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    There is no excuse so trivial that will not pass upon some men’s consciences to excuse their attendance at the public worship of God. Some are so unfortunate as to be always indisposed on the Lord’s day, and think nothing so unwholesome as the air of a church. Others have their affairs so oddly contrived as to be always unluckily prevented by business. With some it is a great mark of wit and deep understanding to stay at home on Sundays. Others again discover strange fits of laziness, that seize them particularly on that day, and confine them to their beds. Others are absent out of mere contempt of religion. And lastly, there are not a few who look upon it as a day of rest, and therefore claim the privilege of their cattle, to keep the Sabbath by eating, drinking, and sleeping, after the toil and labour of the week. Now in all this, the worst circumstance is that these persons are such whose company is most required, and who stand most in need of a physician.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[33]"
+    "source_sequence": 41
+  "translation_ja": |-
+    ある人々の良心にかかると、神を公に礼拝する場に出ない言い訳として通らないほど、つまらない口実というものはない。ある人は不運にも、主の日になると必ず体調が悪くなり、教会の空気ほど健康に悪いものはないと思っている。ある人は暮らしの段取りが妙なことになっていて、必ず運悪く仕事に妨げられる。日曜日に家にいることが、機知と深い理解力の大きなしるしになる人もいる。またある人は、奇妙な怠けの発作を起こし、それがことにこの日を狙って襲いかかるため、床から出られない。宗教への軽蔑だけを理由に来ない人もいる。そして、これを安息の日と見なし、一週間の骨折りと労働のあと、食べ、飲み、眠って安息日を守るという、自分の家畜と同じ特権を求める人も少なくない。だが、こうしたことすべてのうちで最も悪いのは、これらの人こそ、ここにいてもらう必要が最も大きく、医者を最も必要としている人々だという点である。
+  "translation_status": "reviewed"
+- "id": "prayers-042"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Secondly, Men’s great neglect and contempt of preaching appear by their misbehaviour when at church."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[34]"
+    "source_sequence": 42
+  "translation_ja": "第二に、説教をひどくおろそかにし、軽んじていることは、教会にいるときの行儀の悪さにも現れる。"
+  "translation_status": "reviewed"
+- "id": "prayers-043"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    If the audience were to be ranked under several heads, according to their behaviour when the Word of God is delivered, how small a number would appear of those who receive it as they ought! How much of the seed then sown would be found to fall by the wayside, upon stony ground, or among thorns! and how little good ground would there be to take it! A preacher cannot look round from the pulpit without observing that some are in a perpetual whisper, and by their air and gesture give occasion to suspect that they are in those very minutes defaming their neighbour. Others have their eyes and imagination constantly engaged in such a circle of objects, perhaps to gratify the most unwarrantable desires, that they never once attend to the business of the place; the sound of the preacher’s words do not so much as once interrupt them. Some have their minds wandering among idle, worldly, or vicious thoughts; some lie at catch to ridicule whatever they hear, and with much wit and humour, provide a stock of laughter by furnishing themselves from the pulpit. But of all misbehaviour, none is comparable to that of those who come here to sleep. Opium is not so stupefying to many persons as an afternoon sermon. Perpetual custom hath so brought it about that the words of whatever preacher become only a sort of uniform sound at a distance, than which nothing is more effectual to lull the senses. For that it is the very sound of the sermon which bindeth up their faculties is manifest from hence, because they all awake so very regularly as soon as it ceaseth, and with much devotion receive the blessing, dozed and besotted with indecencies I am ashamed to repeat.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[35]"
+    "source_sequence": 43
+  "translation_ja": |-
+    神の言葉が語られるときの振る舞いによって、会衆をいくつかの組に分けたなら、しかるべく受け入れている者は、なんとわずかだろう。そのときまかれる種の、なんと多くが道端や石地や茨の間に落ち、受け止めるよい土は、なんと少ないだろう。説教者が説教壇から見渡せば、絶え間なくひそひそ話をしている者が目に入らずにはいられない。その様子や身振りから、まさにその瞬間にも、隣人の悪口を言っているのではないかと疑いたくなる。またある者は、目も想像力も、ある種の目の前のものに始終奪われ、おそらくは最も許しがたい欲望を満たそうとして、この場所で行われることには一度も心を向けない。説教者の声も、その邪魔を一度さえしない。心がつまらないこと、世俗のこと、悪いことを考えてさまよう者もいる。聞こえるものを何でも嘲ろうと待ち構え、機知とユーモアを大いに働かせ、説教壇から材料を仕入れて、笑いの種を蓄える者もいる。しかし、どのような不作法も、眠るためにここへ来る者の不作法には及ばない。多くの人にとって、阿片も午後の説教ほどには頭をぼんやりさせない。絶えず繰り返す習慣によって、どんな説教者の言葉も、ただ遠くの単調な音のようになってしまい、それほど効果的に感覚を眠らせるものはない。人の働きを封じているのが、まさしく説教の音そのものであるのは、次のことからわかる。説教がやむと、皆があれほど規則正しく目を覚まし、ここで口にするのも恥ずかしいような不作法をして、居眠りともうろうとした状態にありながら、たいそう信心深く祝福を受けるのである。
+  "translation_status": "reviewed"
+- "id": "prayers-044"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I proceed, secondly, to reckon up some of the usual quarrels men have against preaching, and to show the unreasonableness of them.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[36]"
+    "source_sequence": 44
+  "translation_ja": "次に第二として、人々が説教に対して抱く、お決まりの不満を挙げ、それがいかに理にかなわないかを示そう。"
+  "translation_status": "reviewed"
+- "id": "prayers-045"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Such unwarrantable behaviour as I have described among Christians in the house of God in a solemn assembly, while their faith and duty are explained and delivered, have put those who are guilty upon inventing some excuses to extenuate their fault; this they do by turning the blame either upon the particular preacher or upon preaching in general. First, they object against the particular preacher: his manner, his delivery, his voice, are disagreeable; his style and expression are flat and slow, sometimes improper and absurd; the matter is heavy, trivial, and insipid, sometimes despicable and perfectly ridiculous; or else, on the other side, he runs up into unintelligible speculation, empty notions, and abstracted flights, all clad in words above usual understandings.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[37]"
+    "source_sequence": 45
+  "translation_ja": |-
+    神の家の厳粛な集まりで、自分たちの信仰と務めが説き明かされ、教えられているのに、キリスト者が今述べたような許されない振る舞いをする。その当人たちは、自分の非を軽く見せるため、いくつか言い訳を考え出した。特定の説教者か、説教そのものへと責任を転じるのである。まず、特定の説教者に難癖をつける。態度も、話し方も、声も気に入らない。文体や言い回しは平板でのろく、ときには不適切でばかげている。内容は重苦しく、つまらず、味気なく、ときには取るに足りず、まったく笑いものだ。かと思うと逆に、理解できない思索や空虚な観念、抽象的な飛躍へと駆け上がり、何もかも普通の理解力を越えた言葉で包んでしまう、というのだ。
+  "translation_status": "reviewed"
+- "id": "prayers-046"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Secondly, They object against preaching in general. It is a perfect road of talk; they know already whatever can be said; they have heard the same a hundred times over. They quarrel that preachers do not relieve an old beaten subject with wit and invention, and that now the art is lost of moving men’s passions, so common among the ancient orators of Greece and Rome. These and the like objections are frequently in the mouths of men who despise the foolishness of preaching. But let us examine the reasonableness of them.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[38]"
+    "source_sequence": 46
+  "translation_ja": |-
+    第二に、説教全般を非難する。話はまったく決まりきっている。言えることは何でも、こちらはとっくに知っている。同じことを百回も聞いた。使い古した題材を、機知や創意で面白くしてくれないのはけしからん、古代ギリシアやローマの弁論家には当たり前だった、人の情念を動かす技が、今は失われている、と不平を言う。説教の愚かしさを蔑む人々は、これらに類する非難をしきりに口にする。だが、それが理にかなっているか、調べてみよう。
+  "translation_status": "reviewed"
+- "id": "prayers-047"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The doctrine delivered by all preachers is the same: “So we preach, and so ye believe.” But the manner of delivering is suited to the skill and abilities of each, which differ in preachers just as in the rest of mankind. However, in personal dislikes of a particular preacher, are these men sure they are always in the right? Do they consider how mixed a thing is every audience, whose taste and judgment differ, perhaps, every day, not only from each other, but themselves? And how to calculate a discourse that shall exactly suit them all, is beyond the force and reach of human reason, knowledge, or invention. Wit and eloquence are shining qualities that God hath imparted in great degrees to very few, nor any more to be expected in the generality of any rank among men than riches and honour. But further, if preaching in general be all old and beaten, and that they are already so well acquainted with it, more shame and guilt to them who so little edify by it! But these men, whose ears are so delicate as not to endure a plain discourse of religion, who expect a constant supply of wit and eloquence on a subject handled so many thousand times, what will they say when we turn the objection upon themselves, who, with all the rude and profane liberty of discourse they take upon so many thousand subjects, are so dull as to furnish nothing but tedious repetitions, and little paltry, nauseous commonplaces, so vulgar, so worn, or so obvious, as, upon any other occasion but that of advancing vice, would be hooted off the stage? Nor, lastly, are preachers justly blamed for neglecting human oratory to move the passions, which is not the business of a Christian orator, whose office it is only to work upon faith and reason. All other eloquence hath been a perfect cheat, to stir up men’s passions against truth and justice for the service of a faction, to put false colours upon things, and, by an amusement of agreeable words, make the worst reason appear to be the better. This is certainly not to be allowed in Christian eloquence, and therefore St. Paul took quite the other course. He “came not with the excellency of words, or enticing speech of men’s wisdom, but in plain evidence of the Spirit and power.” And perhaps it was for that reason the young man Eutychus, used to the Grecian eloquence, grew tired and fell so fast asleep.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[39]"
+    "source_sequence": 47
+  "translation_ja": |-
+    どの説教者が伝える教えも同じである。「私たちはこのように宣べ伝え、あなたがたはこのように信じた。」だが、その伝え方は、それぞれの技量や能力に応じる。説教者の能力に違いがあるのは、ほかの人々と同じだ。それに、特定の説教者を個人的に嫌うとき、この人々は、自分がいつも正しいと確信しているのだろうか。会衆がどれほど雑多なものか、考えているだろうか。その好みや判断は、互いに違うだけでなく、おそらく日ごとに、本人の中でも変わる。そんなすべての人にぴったり合う話を組み立てるのは、人間の理性も知識も創意も、力の及ぶ範囲ではない。機知と雄弁は輝かしい資質であり、神がそれを大きく授けたのは、ごくわずかな人だけである。どんな階層でも、その大多数にそれを期待することは、富や名誉を期待するのと同じくできない。さらに、説教がどれも古びて使い古され、自分はすでによく知っているというのなら、それを聞いてこれほど改まらない彼らの恥と罪は、ますます大きいではないか。宗教についての平明な話さえ耐えられないほど耳が繊細で、何千回も扱われた題材に、絶えず機知と雄弁が供給されることを期待するこの人々は、非難を自分に返されたら、何と言うだろう。自分たちは何千という題材について、無作法にも不敬にも好き放題しゃべりながら、退屈な繰り返しや、けちで、うんざりする決まり文句しか出てこないほど鈍い。それはあまりに俗で、擦り切れ、わかりきっているため、悪徳を広める場合でさえなければ、どんな場でも舞台からやじり出されるようなものなのだ。最後に、情念を動かす人間の弁論術を用いないからといって、説教者を責めるのも正しくない。キリスト者の弁論家の仕事は、情念を動かすことではなく、ただ信仰と理性に働きかけることだからだ。それ以外の雄弁は、ひいきの一派のため、真理や正義に逆らって情念をかき立て、物事を偽って見せ、心地よい言葉で楽しませながら、最も悪い理屈をよいものに見せる、まったくのごまかしだった。キリスト教の雄弁に、そんなものを許してはならない。だから聖パウロは、まったく逆の道を取った。「優れた言葉や、人間の知恵による巧みな話し方ではなく、霊と力の明らかな証しによって」来たのである。ギリシア流の雄弁に慣れた若者エウティコが、退屈し、あれほど深く眠り込んだのも、ひょっとすると、そのためだったのかもしれない。
+  "translation_status": "reviewed"
+- "id": "prayers-048"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I go on, thirdly, to set forth the great evil of this neglect and scorn of preaching, and to discover the real causes whence it proceedeth.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[40]"
+    "source_sequence": 48
+  "translation_ja": "続いて第三に、説教をおろそかにし、嘲ることの大きな害を示し、それを生む本当の原因を明らかにしよう。"
+  "translation_status": "reviewed"
+- "id": "prayers-049"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I think it is obvious that this neglect of preaching hath very much occasioned the great decay of religion among us. To this may be imputed no small part of that contempt some men bestow on the clergy, for whoever talketh without being regarded is sure to be despised. To this we owe in a great measure the spreading of atheism and infidelity among us, for religion, like all other things, is soonest put out of countenance by being ridiculed. The scorn of preaching might perhaps have been at first introduced by men of nice ears and refined taste, but it is now become a spreading evil through all degrees and both sexes; for, since sleeping, talking, and laughing are qualities sufficient to furnish out a critic, the meanest and most ignorant have set up a title, and succeeded in it as well as their betters. Thus are the last efforts of reforming mankind rendered wholly useless. “How shall they hear,” saith the Apostle, “without a preacher?” But if they have a preacher, and make it a point of wit or breeding not to hear him, what remedy is left? To this neglect of preaching we may also entirely impute that gross ignorance among us in the very principles of religion, which it is amazing to find in persons who very much value their own knowledge and understanding in other things; yet it is a visible, inexcusable ignorance, even in the meanest among us, considering the many advantages they have of learning their duty. And it hath been the great encouragement to all manner of vice; for in vain we preach down sin to a people “whose hearts are waxed gross, whose ears are dull of hearing and whose eyes are closed.” Therefore Christ Himself in His discourses frequently rouseth up the attention of the multitude, and of His disciples themselves, with this expression, “He that hath ears to hear let him hear.” But among all neglects of preaching, none is so fatal as that of sleeping in the house of God. A scorner may listen to truth and reason, and in time grow serious; an unbeliever may feel the pangs of a guilty conscience; one whose thoughts or eyes wander among other objects may, by a lucky word, be called back to attention; but the sleeper shuts up all avenues to his soul; he is “like the deaf adder, that hearkeneth not to the voice of the charmer, charm he never so wisely;” and we may preach with as good success to the grave that is under his feet.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[41]"
+    "source_sequence": 49
+  "translation_ja": |-
+    説教への無関心が、私たちの間で宗教を大きく衰えさせたことは、明白だと思う。一部の人々が聖職者に向ける軽蔑のかなりの部分も、これに帰せられるだろう。話しても相手にされない者は、必ず見下されるからだ。無神論や不信仰が私たちの間に広がることも、大いにこれに由来する。宗教もほかのすべてのものと同じで、からかわれるのが、最も早く面目を失う道だからである。説教を嘲ることは、初めは、耳が肥え、趣味の洗練された人々が持ち込んだのかもしれない。だが今では、あらゆる身分、男女双方に広がる悪弊となった。眠る、しゃべる、笑う、それだけで批評家としての資格が揃うので、最も身分が低く、最も無知な者まで、その称号を名乗り、上の人々に劣らずうまくやっている。こうして、人類を改めるために残された最後の努力は、すっかり役に立たなくされる。「宣べ伝える者がなくて、どうして聞くことができようか」と使徒は言う。だが、説教者がいても、それを聞かないことこそ機知や教養のしるしとするのなら、どんな手だてが残るだろう。私たちの間にある、宗教の初歩そのものについてのひどい無知も、まったくこの説教への無関心のせいだと言ってよい。ほかのことでは自分の知識や理解力を大いに誇る人にそれが見られるのは、驚くほかない。けれども、最も低い立場の人でさえ、自分の務めを学ぶ機会がいくらもあることを考えれば、それは明白で、言い訳のできない無知である。しかもこれは、あらゆる悪徳を大いに助長してきた。「心が鈍り、耳が聞こえにくくなり、目を閉ざした」人々に対して、罪をやめよといくら説教しても、むだだからだ。それゆえキリスト御自身も、説話の中で、しばしば「聞く耳のある者は聞きなさい」と言い、群衆や弟子たち自身の注意を呼び覚ましておられる。だが、説教をおろそかにするあらゆるやり方のうち、神の家で眠ることほど致命的なものはない。嘲る者でも真理や道理に耳を傾け、やがて真面目になるかもしれない。不信心者も、罪を犯した良心のうずきを感じるかもしれない。心や目がほかにさまよっている人も、うまく響いた一言で注意を取り戻すかもしれない。だが眠る者は、魂へ通じる入口をすべて閉ざしている。「耳をふさいだ毒蛇が、蛇使いの巧みな呪文にも耳を貸さない」のと同じであり、足もとの墓に向かって説教するのと、同じだけの効果しかないのである。
+  "translation_status": "reviewed"
+- "id": "prayers-050"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    But the great evil of this neglect will further yet appear from considering the real causes whence it proceedeth, whereof the first I take to be an evil conscience. Many men come to church to save or gain a reputation, or because they will not be singular, but comply with an established custom, yet all the while they are loaded with the guilt of old rooted sins. These men can expect to hear of nothing but terrors and threatenings, their sins laid open in true colours, and eternal misery the reward of them; therefore, no wonder they stop their care and divert their thoughts, and seek any amusement rather than stir the hell within them.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[42]"
+    "source_sequence": 50
+  "translation_ja": |-
+    しかし、この無関心がもたらす大きな害は、その本当の原因を考えれば、いっそう明らかになる。第一の原因は、罪の意識だと私は考える。多くの者は評判を保ち、あるいは得るため、または風変わりな人にならず、定着した習慣に合わせるために教会へ来る。だが、その間ずっと、根深い古くからの罪の重荷を背負っている。そのような者は、恐怖と脅しを聞かされ、罪をありのままに暴かれ、その報いは永遠の苦しみだと告げられることしか期待できない。だから、内なる地獄をかき立てるくらいなら、心を閉ざし、考えをそらし、どんな気晴らしでも探そうとするのは、不思議ではない。
+  "translation_status": "reviewed"
+- "id": "prayers-051"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Another cause of this neglect is a heart set upon worldly things. Men whose minds are much enslaved to earthly affairs all the week cannot disengage or break the chain of their thoughts so suddenly as to apply to a discourse that is wholly foreign to what they have most at heart. Tell a usurer of charity, and mercy, and restitution—you talk to the deaf; his heart and soul, with all his senses, are got among his bags, or he is gravely asleep and dreaming of a mortgage. Tell a man of business, that the cares of the world choke the good seed; that we must not encumber ourselves with much serving; that the salvation of his soul is the one thing necessary; you see, indeed, the shape of a man before you, but his faculties are all gone off among clients and papers, thinking how to defend a bad cause or find flaws in a good one; or he weareth out the time in drowsy nods.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[43]"
+    "source_sequence": 51
+  "translation_ja": |-
+    この無関心のもう一つの原因は、心を世俗の物事に奪われていることだ。一週間ずっと、地上の事柄の奴隷となっている人は、思考の鎖を急に断ち切って、自分が最も気にかけるものとはまったく関係のない話へ向かうことはできない。高利貸しに慈善、憐れみ、不当に得たものの返還を説いても、耳の聞こえない者に話すのと同じだ。その心も魂も、すべての感覚も、金袋の間に入り込んでいる。さもなければ、重々しく眠りながら、抵当の夢を見ている。実務に追われる人に、この世の心配事はよい種をふさいでしまう、あれこれ立ち働くことに煩わされてはならない、魂の救いこそ唯一必要なものだと説いてみるがよい。確かに、目の前には人間の姿が見える。だがその働きはすっかり依頼人や書類の間へ抜け出し、悪い訴えをどう弁護するか、正しい訴えのどこに穴を見つけるかと考えている。さもなければ、こくりこくりと居眠りしながら時を費やしている。
+  "translation_status": "reviewed"
+- "id": "prayers-052"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    A third cause of the great neglect and scorn of preaching ariseth from the practice of men who set up to decry and disparage religion; these, being zealous to promote infidelity and vice, learn a rote of buffoonery that serveth all occasions, and refutes the strongest arguments for piety and good manners. These have a set of ridicule calculated for all sermons and all preachers, and can be extremely witty as often as they please upon the same fund.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[44]"
+    "source_sequence": 52
+  "translation_ja": |-
+    説教をひどくおろそかにし、嘲る第三の原因は、宗教を非難し、おとしめることを仕事にしている人々の振る舞いから生じる。不信仰と悪徳を広めることに熱心な彼らは、どんな機会にも使え、信心や善い行いのための最も強い議論さえ退ける、お決まりの道化話を暗記している。どんな説教、どんな説教者にも当てはまるからかいを一揃い用意し、同じ持ちネタから、好きなだけ何度でも、たいそう気の利いた冗談を繰り出せるのだ。
+  "translation_status": "reviewed"
+- "id": "prayers-053"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Let me now, in the last place, offer some remedies against this great evil."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[45]"
+    "source_sequence": 53
+  "translation_ja": "では最後に、この大きな悪弊への対処をいくつか提案したい。"
+  "translation_status": "reviewed"
+- "id": "prayers-054"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    It will be one remedy against the contempt of preaching rightly to consider the end for which it was designed. There are many who place abundance of merit in going to church, although it be with no other prospect but that of being well entertained, wherein if they happen to fail, they return wholly disappointed. Hence it is become an impertinent vein among people of all sorts to hunt after what they call a good sermon, as if it were a matter of pastime and diversion. Our business, alas! is quite another thing; either to learn, or at least be reminded of, our duty; to apply the doctrines delivered, compare the rules we hear with our lives and actions, and find wherein we have transgressed. These are the dispositions men should bring into the house of God, and then they will be little concerned about the preacher’s wit or eloquence, nor be curious to inquire out his faults and infirmities, but consider how to correct their own.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[46]"
+    "source_sequence": 54
+  "translation_ja": |-
+    説教への軽蔑を改める一つの方法は、説教が何のために設けられたかを、正しく考えることだ。教会に行きさえすれば大いに功徳があると考える人が多いが、その目的は、十分に楽しませてもらうことだけで、そうならなければ、まったくの期待外れで帰っていく。ここから、あらゆる種類の人々の間に、いわゆるよい説教を、暇つぶしや娯楽でもあるかのように探し回る、見当違いな流行が生まれた。ああ、私たちの務めはまるで違う。自分の務めを学ぶこと、少なくとも思い出すこと、伝えられた教えを自分に当てはめ、聞いた規則を自分の暮らしや行いと比べ、どこで背いたかを見つけることである。神の家へ来るときには、このような心構えであるべきだ。そうすれば、説教者の機知や雄弁などほとんど気にしなくなり、その欠点や弱さを詮索する代わりに、自分のものをどう正すかと考えるようになる。
+  "translation_status": "reviewed"
+- "id": "prayers-055"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Another remedy against the contempt of preaching is that men would consider whether it be not reasonable to give more allowance for the different abilities of preachers than they usually do. Refinements of style and flights of wit, as they are not properly the business of any preacher, so they cannot possibly be the talents of all. In most other discourses, men are satisfied with sober sense and plain reason; and, as understandings usually go, even that is not over-frequent. Then why they should be so over-nice in expectation of eloquence, where it is neither necessary nor convenient, is hard to imagine.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[47]"
+    "source_sequence": 55
+  "translation_ja": |-
+    説教への軽蔑を改めるもう一つの方法は、説教者ごとの能力の違いについて、普段よりも寛容に見るのが道理ではないかと、人々が考えることである。文体を磨き、機知を華々しく発揮することは、本来、説教者の仕事ではなく、ましてすべての説教者が持てる才能ではない。ほかの大半の話では、人々は落ち着いた良識と平明な理屈で満足している。しかも普通の理解力のありさまを考えれば、それさえ、あり余るほどあるわけではない。それなら、雄弁が必要でも、ふさわしくもないところで、なぜそんなに好みをうるさくして、雄弁を期待するのか、私には考えにくい。
+  "translation_status": "reviewed"
+- "id": "prayers-056"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Lastly, The scorners of preaching would do well to consider that this talent of ridicule they value so much is a perfection very easily acquired, and applied to all things whatsoever; neither is anything at all the worse because it is capable of being perverted to burlesque; perhaps it may be the more perfect upon that score, since we know the most celebrated pieces have been thus treated with greatest success. It is in any man’s power to suppose a fool’s-cap on the wisest head, and then laugh at his own supposition. I think there are not many things cheaper than supposing and laughing; and if the uniting these two talents can bring a thing into contempt, it is hard to know where it may end.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[48]"
+    "source_sequence": 56
+  "translation_ja": |-
+    最後に、説教を嘲る人々は、あれほど高く評価する、人をからかう才能など、きわめてたやすく身につき、どんなものにでも向けられる技であることを考えたほうがよい。何かが滑稽なものに歪められるからといって、そのものの価値が少しでも落ちるわけではない。むしろ、その点で、いっそう優れているのかもしれない。最も名高い作品をそのように滑稽に仕立てたものが、最も大きな成功を収めてきたのを、私たちは知っているからだ。どれほど賢い頭の上にも道化帽をかぶせたつもりになり、その自分の空想を笑うことは、誰にでもできる。空想して笑うより安上がりなものは、あまりないと思う。この二つの才能を合わせれば何かを軽蔑させられるというなら、それがどこで止まるのか、わかったものではない。
+  "translation_status": "reviewed"
+- "id": "prayers-057"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    To conclude: These considerations may perhaps have some effect while men are awake; but what arguments shall we use to the sleeper? What methods shall we take to hold open his eyes? Will he be moved by considerations of common civility? We know it is reckoned a point of very bad manners to sleep in private company, when, perhaps, the tedious impertinence of many talkers would render it at least as excusable as the dullest sermon. Do they think it a small thing to watch four hours at a play, where all virtue and religion are openly reviled; and can they not watch one half hour to hear them defended? Is this to deal like a judge (I mean like a good judge), to listen on one side of the cause and sleep on the other? I shall add but one word more. That this indecent sloth is very much owing to that luxury and excess men usually practise upon this day, by which half the service thereof is turned to sin; men dividing their time between God and their bellies, when, after a gluttonous meal, their senses dozed and stupefied, they retire to God’s house to sleep out the afternoon. Surely, brethren, these things ought not so to be.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[49]"
+    "source_sequence": 57
+  "translation_ja": |-
+    結びに言おう。これらの考察は、人々が起きていれば、いくらか効き目があるかもしれない。だが眠っている人には、どんな議論を使えばよいのか。どんな方法で、その目を開けておけるのか。普通の礼儀のことを考えれば、心が動くだろうか。私的な集まりで眠るのは、ひどく行儀が悪いと見なされるのを、私たちは知っている。そこで話す多くの者の退屈で無用な話を考えれば、どれほどつまらない説教の場合にも劣らず、少なくとも同じくらい、眠っても仕方がないかもしれないのに。あらゆる美徳と宗教が公然と嘲られる芝居には、四時間起きていても何でもないと思うのに、それらを弁護する話を、たった三十分、起きて聞くことはできないのか。訴えの片方は聞き、もう片方では眠る。それが裁判官らしい――私の言うのは、よい裁判官らしい――扱いだろうか。もう一言だけ付け加えたい。このみっともない怠惰は、人々がこの日にふけるのを常とする贅沢と度を越した飲食に、大いに由来する。そのせいで、この日の礼拝の半分は罪へと変わってしまう。人々は神と自分の腹に時間を分け与え、大食のあとで感覚が眠く、もうろうとなると、神の家へ引き上げ、午後を寝て過ごすのである。兄弟たちよ、このようなことがあってはならない。
+  "translation_status": "reviewed"
+- "id": "prayers-058"
+  "section_id": "sleeping-in-church"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    “He that hath ears to hear let him hear.” And God give us all, grace to hear and receive His Holy Word to the salvation of our own souls.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[50]"
+    "source_sequence": 58
+  "translation_ja": "「聞く耳のある者は聞きなさい。」そして神が私たち皆に、聖なる御言葉を聞き、受け入れて、自分の魂の救いへ至る恵みをお与えになりますように。"
+  "translation_status": "reviewed"
+- "id": "prayers-059"
+  "section_id": "wisdom-of-this-world"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "ON THE WISDOM OF THIS WORLD."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/h2[5]"
+    "source_sequence": 59
+    "printed_page": "393"
+  "translation_ja": "この世の知恵について"
+  "translation_status": "reviewed"
+- "id": "prayers-060"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "“The wisdom of this world is foolishness with God.”—I Cor. iii. 19."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/blockquote[3]/p[1]"
+    "source_sequence": 60
+  "translation_ja": "「この世の知恵は、神の御前では愚かなものだからである。」――『コリントの信徒への手紙一』三章十九節"
+  "translation_status": "reviewed"
+- "id": "prayers-061"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    It is remarkable that about the time of our Saviour’s coming into the world all kinds of learning flourished to a very great degree, insomuch that nothing is more frequent in the mouths of many men, even such who pretend to read and to know, than an extravagant praise and opinion of the wisdom and virtue of the Gentile sages of those days, and likewise of those ancient philosophers who went before them, whose doctrines are left upon record, either by themselves or other writers. As far as this may be taken for granted, it may be said that the providence of God brought this about for several very wise ends and purposes; for it is certain that these philosophers had been a long time before searching out where to fix the true happiness of man; and not being able to agree upon any certainty about it, they could not possibly but conclude, if they judged impartially, that all their inquiries were in the end but vain and fruitless, the consequence of which must be not only an acknowledgment of the weakness of all human wisdom, but likewise an open passage hereby made for letting in those beams of light which the glorious sunshine of the Gospel then brought into the world, by revealing those hidden truths which they had so long before been labouring to discover, and fixing the general happiness of mankind beyond all controversy and dispute. And therefore the providence of God wisely suffered men of deep genius and learning then to arise, who should search into the truth of the Gospel now made known, and canvass its doctrines with all the subtilty and knowledge they were masters of, and in the end freely acknowledge that to be the true wisdom only “which cometh from above.”
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[51]"
+    "source_sequence": 61
+  "translation_ja": |-
+    注目すべきことに、救い主がこの世に来られたころ、あらゆる種類の学問は大いに栄えていた。そのため、少なからぬ人々は、読書も知識もあると称する者まで含めて、当時の異教の賢者や、それ以前の古代の哲学者の知恵と徳を、しきりに大げさに褒め上げ、高く評価している。その教えは、本人またはほかの著述家によって記録され、今に残っている。こうした学問の繁栄を事実として認めるなら、神の摂理が、いくつかの深い知恵に基づく目的のために、それを生じさせたと言ってよい。なぜなら、これらの哲学者は、それよりずっと前から、人間の真の幸福をどこに置くべきか、探し続けていたのは確かだからだ。それなのに、何一つ確かな点で一致できなかった以上、公平に判断したなら、探究は結局むなしく、実りがなかったと結論せざるをえなかったはずである。そこからは、人間のあらゆる知恵の弱さを認めるだけでなく、そのころ、輝かしい福音の日の光が世にもたらした光線を、迎え入れる道も開けたはずだ。福音は、彼らがかくも長く苦労して見つけようとしていた隠れた真理を明らかにし、人類全体の幸福を、もはや論争も議論もできないところに定めたのである。それゆえ神の摂理は、深い才知と学識を持つ人々が、そのころ現れるのを、賢明にもお許しになった。彼らが、今や知らされた福音の真理を調べ、持てる限りの鋭さと知識でその教えを吟味し、ついには、「上から来る」知恵だけが真の知恵だと、自ら認めるためであった。
+  "translation_status": "reviewed"
+- "id": "prayers-062"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    However, to make a further inquiry into the truth of this observation, I doubt not but there is reason to think that a great many of those encomiums given to ancient philosophers are taken upon trust, and by a sort of men who are not very likely to be at the pains of an inquiry that would employ so much time and thinking. For the usual ends why men affect this kind of discourse appear generally to be either out of ostentation, that they may pass upon the world for persons of great knowledge and observation, or, what is worse, there are some who highly exalt the wisdom of those Gentile sages, thereby obliquely to glance at and traduce Divine revelation, and more especially that of the Gospel; for the consequence they would have us draw is this: that since those ancient philosophers rose to a greater pitch of wisdom and virtue than was ever known among Christians, and all this purely upon the strength of their own reason and liberty of thinking; therefore it must follow that either all revelation is false, or, what is worse, that it has depraved the nature of man, and left him worse than it found him.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[52]"
+    "source_sequence": 62
+  "translation_ja": |-
+    しかし、この見方が本当に正しいかをさらに調べるなら、古代の哲学者にささげられる賛辞の多くは、受け売りであり、しかも、そのように時間と思索を要する調査の労を、とうてい取ろうとしそうにない種類の人々によるものだと考える理由が、確かにあると思う。というのも、人々がこの種の話を好んでする普通の目的は、たいてい、豊かな知識と観察力を持つ人だと世間に思わせるための見せびらかしであるか、さもなければ、もっと悪いものだからだ。異教の賢者たちの知恵を大いに持ち上げ、それによって神の啓示、とりわけ福音の啓示に、遠回しな当てこすりや中傷を加えようとする者がいる。その者たちが私たちに導かせたい結論は、こうである。古代の哲学者たちは、自分の理性と自由な思索の力だけで、キリスト者の間ではかつて知られなかったほど高い知恵と徳に達した。したがって、啓示はすべて偽りであるか、あるいは、さらに悪いことに、人間の本性を堕落させ、啓示に出会う前より悪くしてしまったに違いない、というのである。
+  "translation_status": "reviewed"
+- "id": "prayers-063"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    But this high opinion of heathen wisdom is not very ancient in the world, nor at all countenanced from primitive times. Our Saviour had but a low esteem of it, as appears by His treatment of the Pharisees and Sadducees, who followed the doctrines of Plato and Epicurus. St. Paul likewise, who was well versed in all the Grecian literature, seems very much to despise their philosophy, as we find in his writings, cautioning the Colossians to “beware lest any man spoil them through philosophy and vain deceit;” and in another place he advises Timothy to “avoid profane and vain babblings, and oppositions of science falsely so called;” that is, not to introduce into the Christian doctrine the janglings of those vain philosophers, which they would pass upon the world for science. And the reasons he gives are, first, that those who professed them did err concerning the faith; secondly, because the knowledge of them did increase ungodliness, vain babblings being otherwise expounded vanities or empty sounds; that is, tedious disputes about words, which the philosophers were always so full of, and which were the natural product of disputes and dissensions between several sects.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[53]"
+    "source_sequence": 63
+  "translation_ja": |-
+    だが、異教の知恵をこれほど高く評価することは、世の中でそれほど古いものでもなく、初期の時代から少しも支持されていない。救い主はそれを低く評価しておられた。プラトンとエピクロスの教えに従っていたファリサイ派やサドカイ派に、どのように接しておられたかを見ればわかる。同じく、ギリシアのあらゆる学芸に通じた聖パウロも、その著作からわかるとおり、彼らの哲学を大いに軽蔑しているように見える。コロサイの人々には、「哲学や空しい欺きによって、誰にもとりこにされないよう気をつけよ」と警告し、別の箇所ではテモテに、「俗悪で空虚なおしゃべりと、知識と偽って呼ばれるものの反論を避けよ」と勧めている。つまり、空しい哲学者たちが知識として世に通そうとする、あのやかましい言い争いを、キリスト教の教えに持ち込むな、ということである。その理由として、第一に、そういうものを公言する者は信仰を踏み外したこと、第二に、それを知ることが不敬虔を増したことを挙げる。「空虚なおしゃべり」は、空しいこと、または空っぽの音とも解される。すなわち、哲学者たちがいつも熱中していた、言葉についての退屈な論争であり、諸学派の争いや不和から自然に生じたものを指している。
+  "translation_status": "reviewed"
+- "id": "prayers-064"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Neither had the primitive fathers any great or good opinion of the heathen philosophy, as is manifest from several passages in their writings; so that this vein of affecting to raise the reputation of those sages so high Is a mode and a vice but of yesterday, assumed chiefly, as I have said, to disparage revealed knowledge and the consequences of it among us.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[54]"
+    "source_sequence": 64
+  "translation_ja": |-
+    初期の教父たちも、異教の哲学を高く、あるいは好意的に評価していなかったことは、その著作のいくつもの箇所から明らかである。したがって、あの賢者たちの評判を好んであれほど高く持ち上げる風潮は、昨日今日の流行であり、悪癖にすぎない。述べたとおり、主として、啓示された知と、それが私たちにもたらすものを、おとしめるために取り入れられたのである。
+  "translation_status": "reviewed"
+- "id": "prayers-065"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Now, because this is a prejudice which may prevail with some persons so far as to lessen the influence of the Gospel, and whereas, therefore, this is an opinion which men of education are likely to be encountered with when they have produced themselves into the world, I shall endeavour to show that their preference of heathen wisdom and virtue before that of the Christian is every way unjust, and grounded upon ignorance or mistake; in order to which I shall consider four things:—
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[55]"
+    "source_sequence": 65
+  "translation_ja": |-
+    さて、この偏見が人によっては強く働き、福音の影響を弱めるほどになるかもしれない。またそれゆえ、教育を受けた人々が世に出れば、この意見に出会うことも十分ありうる。そこで私は、異教の知恵と徳をキリスト教のものより上に置くのは、あらゆる点で不当であり、無知か誤解に基づくことを示したい。そのため、四つの事柄を考える。
+  "translation_status": "reviewed"
+- "id": "prayers-066"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    First, I shall produce certain points wherein the wisdom and virtue of all unrevealed philosophy in general fell short and was very imperfect.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[56]"
+    "source_sequence": 66
+  "translation_ja": "第一に、啓示によらない哲学全般の知恵と徳が、どのような点で不足し、甚だしく不完全だったかを挙げる。"
+  "translation_status": "reviewed"
+- "id": "prayers-067"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Secondly, I shall show, in several instances, where some of the most renowned philosophers have been grossly defective in their lessons of morality.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[57]"
+    "source_sequence": 67
+  "translation_ja": "第二に、最も名高い哲学者のうちの何人かが、道徳の教えにおいて甚だしく不十分だった点を、いくつかの例で示す。"
+  "translation_status": "reviewed"
+- "id": "prayers-068"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Thirdly, I shall prove the perfection of Christian wisdom from the proper characters and marks\
+    \ of it."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[58]"
+    "source_sequence": 68
+  "translation_ja": "第三に、キリスト教の知恵に固有の性質としるしから、その完全さを証明する。"
+  "translation_status": "reviewed"
+- "id": "prayers-069"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Lastly, I shall show that the great examples of wisdom and virtue among the heathen wise men were produced by personal merit, and not influenced by the doctrine of any sect; whereas, in Christianity, it is quite the contrary.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[59]"
+    "source_sequence": 69
+  "translation_ja": "最後に、異教の賢者に見られる知恵と徳の偉大な実例は、いずれかの学派の教えに影響されて生まれたものではなく、個人の優れた資質によるものだったのに対し、キリスト教では、まったく逆であることを示す。"
+  "translation_status": "reviewed"
+- "id": "prayers-070"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    First, I shall produce certain points wherein the wisdom and virtue of all unrevealed philosophy in general fell short and was very imperfect.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[60]"
+    "source_sequence": 70
+  "translation_ja": "第一に、啓示によらない哲学全般の知恵と徳が、どのような点で不足し、甚だしく不完全だったかを挙げよう。"
+  "translation_status": "reviewed"
+- "id": "prayers-071"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    My design is to persuade men that Christian philosophy is in all things preferable to heathen wisdom; from which, or its professors, I shall, however, have no occasion to detract. They were as wise and as good as it was possible for them to be under such disadvantages, and would have probably been infinitely more so with such aids as we enjoy; but our lessons are certainly much better, however our practices may fall short.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[61]"
+    "source_sequence": 71
+  "translation_ja": |-
+    私の目的は、キリスト教の哲学が、あらゆる点で異教の知恵にまさることを、人々に納得してもらうことである。ただし、そのために、異教の知恵や、それを説いた人々をけなす必要はない。あのような不利な条件のもとで、可能な限り、彼らは賢く、善良であった。私たちが享受するような助けがあったなら、おそらく、はるかにそうであったろう。しかし、私たちの実践がどれほど及ばなくても、教えそのものは、確かにはるかに優れているのである。
+  "translation_status": "reviewed"
+- "id": "prayers-072"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The first point I shall mention is that universal defect which was in all their schemes, that they could not agree about their chief good, or wherein to place the happiness of mankind; nor had any of them a tolerable answer upon this difficulty to satisfy a reasonable person. For to say, as the most plausible of them did, “That happiness consisted in virtue,” was but vain babbling, and a mere sound of words to amuse others and themselves; because they were not agreed what this virtue was or wherein it did consist; and likewise, because several among the best of them taught quite different things, placing happiness in health or good fortune, in riches or in honour, where all were agreed that virtue was not, as I shall have occasion to show when I speak of their particular tenets.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[62]"
+    "source_sequence": 72
+  "translation_ja": |-
+    最初に挙げたいのは、彼らのあらゆる体系に共通した欠陥である。最高善とは何か、人類の幸福をどこに置くべきかについて、一致できなかった。しかも、この難問に対し、理性ある人を納得させられる、まずまずの答えを持っていた者は、一人もいなかった。最ももっともらしいことを言う者たちがしたように、「幸福は徳にある」と言っても、それは空虚なおしゃべり、自他を楽しませるだけの言葉の響きにすぎなかった。その徳とは何か、何に成り立つのかについて、一致していなかったからだ。加えて、最良の哲学者のうちにも、まったく異なることを教え、幸福を健康や幸運、富や名誉に置いた者がいくらもいた。それらが徳ではないことには、皆が同意していたのである。これについては、個々の主張を述べるとき、また示す機会がある。
+  "translation_status": "reviewed"
+- "id": "prayers-073"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The second great defect in the Gentile philosophy was that it wanted some suitable reward proportioned to the better part of man—his mind, as an encouragement for his progress in virtue. The difficulties they met with upon the score of this default were great, and not to be accounted for; bodily goods, being only suitable to bodily wants, are no rest at all for the mind; and if they were, yet are they not the proper fruits of wisdom and virtue, being equally attainable by the ignorant and wicked. Now human nature is so constituted that we can never pursue anything heartily but upon hopes of a reward. If we run a race, it is in expectation of a prize; and the greater the prize the faster we run; for an incorruptible crown, if we understand it and believe it to be such, more than a corruptible one. But some of the philosophers gave all this quite another turn, and pretended to refine so far as to call virtue its own reward, and worthy to be followed only for itself; whereas, if there be anything in this more than the sound of the words, it is at least too abstracted to become a universal influencing principle in the world, and therefore could not be of general use.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[63]"
+    "source_sequence": 73
+  "translation_ja": |-
+    異教の哲学の第二の大きな欠陥は、徳の道を進む励ましとして、人間のより優れた部分、すなわち精神に見合う、適切な報いを欠いていたことだ。この欠如のために出会った難問は大きく、解き明かしがたかった。肉体のためによいものは、肉体の必要に見合うだけで、精神を少しも安らがせない。たとえ安らがせるとしても、知恵や徳にふさわしい実りではない。無知な者も悪人も、同じように手に入れられるからである。ところで人間の本性は、報いを望まなければ、何一つ心から追い求めることができないようにできている。競走するのは、賞を期待するからだ。賞が大きいほど、速く走る。朽ちない冠が本当にそういうものだと理解し、信じるなら、朽ちる冠を目指すより、いっそう速く走るだろう。ところが一部の哲学者は、これをすっかり別の方向へ曲げ、徳はそれ自身が報いであり、ただそれ自身のために追求するに値すると言うほどまで、考えを洗練したつもりになった。だが、その言葉の響き以上の意味があるとしても、少なくとも抽象的すぎて、世の人を普遍的に動かす原理にはなれず、したがって、広く役立つものにはなりえなかった。
+  "translation_status": "reviewed"
+- "id": "prayers-074"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    It was the want of assigning some happiness proportioned to the soul of man that caused many of them, either on the one hand, to be sour and morose, supercilious and untreatable, or, on the other, to fall into the vulgar pursuits of common men, to hunt after greatness and riches, to make their court and to serve occasions, as Plato did to the younger Dionysius, and Aristotle to Alexander the Great. So impossible it is for a man who looks no further than the present world to fix himself long in a contemplation where the present world has no part; he has no sure hold, no firm footing; he can never expect to remove the earth he rests upon while he has no support besides for his feet, but wants, like Archimedes, some other place whereon to stand. To talk of bearing pain and grief without any sort of present or future hope cannot be purely greatness of spirit; there must be a mixture in it of affectation and an alloy of pride, or perhaps is wholly counterfeit.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[64]"
+    "source_sequence": 74
+  "translation_ja": |-
+    人間の魂に見合う幸福を定められなかったため、多くの哲学者は、一方では、不機嫌で気難しく、高慢で近寄りがたくなり、他方では、普通の人の俗な追求へと落ち込み、地位や富を追い、権力者に取り入り、機会に迎合した。プラトンが小ディオニュシオスに、アリストテレスがアレクサンドロス大王に対してしたように、である。この世より先を見ない人間が、この世とは関係のない観想に長くとどまることは、それほど不可能なのだ。確かな手がかりも、しっかりした足場もない。足を支えるものがほかにないのに、自分が乗っている地球を動かせると思っても、無理である。アルキメデスのように、ほかに立つ場所が要るのだ。現在にも未来にも何の希望もなしに、苦痛と悲しみに耐えるなどと言うのは、純粋に心が大きいからとは言えない。気取りが混じり、高慢という混ぜ物があるはずで、あるいは、まったくの見せかけなのかもしれない。
+  "translation_status": "reviewed"
+- "id": "prayers-075"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    It is true there has been all along in the world a notion of rewards and punishments in another life, but it seems to have rather served as an entertainment to poets or as a terror of children than a settled principle by which men pretended to govern any of their actions. The last celebrated words of Socrates, a little before his death, do not seem to reckon or build much upon any such opinion; and Cæsar made no scruple to disown it and ridicule it in open senate.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[65]"
+    "source_sequence": 75
+  "translation_ja": |-
+    確かに、来世の報いと罰という考えは、昔から世にあった。しかしそれは、人々が行動を律するための確かな原理というより、詩人の楽しみや子供への脅しとして役立っていたように見える。ソクラテスが死の少し前に語った、あの有名な最後の言葉も、そのような考えを大して当てにせず、それに頼ってもいないようだし、カエサルは、元老院の公の席で、それをはばからず否定し、嘲ったのである。
+  "translation_status": "reviewed"
+- "id": "prayers-076"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Thirdly, the greatest and wisest of all their philosophers were never able to give any satisfaction to others and themselves in their notions of a deity. They were often extremely gross and absurd in their conceptions, and those who made the fairest conjectures are such as were generally allowed by the learned to have seen the system of Moses, if I may so call it, who was in great reputation at that time in the heathen world, as we find by Diodorus, Justin, Longinus, and other authors; for the rest, the wisest among them laid aside all notions after a deity as a disquisition vain and fruitless, which indeed it was upon unrevealed principles; and those who ventured to engage too far fell into incoherence and confusion.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[66]"
+    "source_sequence": 76
+  "translation_ja": |-
+    第三に、彼らの最も偉大で賢い哲学者も、神についての考えでは、他人にも自分にも、納得できる答えを一度も与えられなかった。その理解はしばしば、はなはだ粗野で、ばかげていた。最もましな推測をした者たちは、いわばモーセの体系と呼べるものに触れたと、学識ある人々から一般に認められている者たちだった。ディオドロス、ユスティヌス、ロンギノスなどの著者からわかるように、モーセは当時の異教世界でも、大いに尊敬されていたのである。それ以外の者では、最も賢い者たちは、神をめぐる考えをすべて、むなしく実りのない探究として捨ててしまった。実際、啓示によらない原理では、そうならざるをえなかったし、あえて深く入り込んだ者は、筋の通らなさと混乱に陥った。
+  "translation_status": "reviewed"
+- "id": "prayers-077"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Fourthly, Those among them who had the justest conceptions of a Divine power, and did also admit a providence, had no notion at all of entirely relying and depending upon either; they trusted in themselves for all things, but as for a trust or dependence upon God, they would not have understood the phrase; it made no part of the profane style.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[67]"
+    "source_sequence": 77
+  "translation_ja": |-
+    第四に、彼らの中で、神的な力を最も正しく理解し、摂理も認めていた者たちでさえ、そのどちらかに、まったく頼り、身を委ねるという考えを、少しも持っていなかった。何事においても自分を頼みとしたが、神を信頼し、神に依存するという言い方は、理解さえできなかっただろう。それは異教の言葉遣いには、なかったのである。
+  "translation_status": "reviewed"
+- "id": "prayers-078"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Therefore it was that, in all issues and events which they could not reconcile to their own sentiments of reason and justice, they were quite disconcerted; they had no retreat, but upon every blow of adverse fortune, either affected to be indifferent, or grew sullen and severe, or else yielded and sunk like other men.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[68]"
+    "source_sequence": 78
+  "translation_ja": |-
+    だからこそ、理性や正義についての自分たちの考えと折り合いがつかない成り行きや出来事には、彼らはすっかりうろたえた。逃げ場がなかったのだ。不運が一撃を加えるたび、平気なふりをするか、むっつりと厳しくなるか、あるいは、ほかの人と同じように屈し、くずおれるかであった。
+  "translation_status": "reviewed"
+- "id": "prayers-079"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Having now produced certain points wherein the wisdom and virtue of all unrevealed philosophy fell short and was very imperfect, I go on, in the second place, to show, in several instances, where some of the most renowned philosophers have been grossly defective in their lessons of morality.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[69]"
+    "source_sequence": 79
+  "translation_ja": "これで、啓示によらない哲学全般の知恵と徳が不足し、甚だしく不完全だった点を、いくつか挙げた。続いて第二に、最も名高い哲学者のうちの何人かが、道徳の教えにおいて甚だしく不十分だった点を、いくつかの例で示そう。"
+  "translation_status": "reviewed"
+- "id": "prayers-080"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Thales, the founder of the Ionic sect, so celebrated for morality, being asked how a man might bear ill-fortune with greatest ease, answered, “By seeing his enemies in a worse condition.” An answer truly barbarous, unworthy of human nature, and which included such consequences as must destroy all society from the world.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[70]"
+    "source_sequence": 80
+  "translation_ja": |-
+    道徳であれほど名高いイオニア学派の創始者タレスは、どうすれば不運に最もたやすく耐えられるかと尋ねられ、「敵がもっと悪い境遇にあるのを見ることだ」と答えた。実に野蛮で、人間性にふさわしくない答えである。その意味を推し進めれば、世のあらゆる社会を滅ぼさずにはいない。
+  "translation_status": "reviewed"
+- "id": "prayers-081"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Solon lamenting the death of a son, one told him, “You lament in vain.” “Therefore,” said he, “I lament, because it is in vain.” This was a plain confession how imperfect all his philosophy was, and that something was still wanting. He owned that all his wisdom and morals were useless, and this upon one of the most frequent accidents in life. How much better could he have learned to support himself even from David, by his entire dependence upon God, and that before our Saviour had advanced the notions of religion to the height and perfection wherewith He hath instructed His disciples!
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[71]"
+    "source_sequence": 81
+  "translation_ja": |-
+    ソロンが息子の死を嘆いていると、ある者が「嘆いてもむだです」と言った。「だからこそ嘆くのだ。むだなのだから」と彼は答えた。これは、自分の哲学全体がいかに不完全で、なお何かを欠いていたかを、はっきり告白したものだった。自分の知恵も道徳も、すべて役に立たないと認めたのであり、しかも人生で最もよくある出来事の一つについて、そうだったのだ。神にまったく身を委ねたダビデだけからでも、もっとはるかによく、自分を支えるすべを学べたことだろう。それも、救い主が宗教の理解を高め、弟子たちに教えられた、あの高みと完全さへ導かれる以前のダビデから、である。
+  "translation_status": "reviewed"
+- "id": "prayers-082"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Plato himself, with all his refinements, placed happiness in wisdom, health, good fortune, honour, and riches, and held that they who enjoyed all these were perfectly happy; which opinion was indeed unworthy its owner, leaving the wise and good man wholly at the mercy of uncertain chance, and to be miserable without resource.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[72]"
+    "source_sequence": 82
+  "translation_ja": |-
+    あれほど洗練されたプラトン自身も、幸福を知恵、健康、幸運、名誉、富に置き、これらをすべて享受する人は完全に幸福だと考えた。これは、その人にふさわしくない意見だった。賢く善い人を、不確かな偶然のなすがままに任せ、救いようもなく不幸になるに任せるからである。
+  "translation_status": "reviewed"
+- "id": "prayers-083"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    His scholar Aristotle fell more grossly into the same notion, and plainly affirmed, “That virtue, without the goods of fortune, was not sufficient for happiness, but that a wise man must be miserable in poverty and sickness.” Nay, Diogenes himself, from whose pride and singularity one would have looked for other notions, delivered it as his opinion, “That a poor old man was the most miserable thing in life.”
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[73]"
+    "source_sequence": 83
+  "translation_ja": |-
+    弟子のアリストテレスは、いっそうひどく同じ考えに陥り、「徳は運に恵まれることなしには幸福に足りず、賢者も貧困と病の中では不幸であるはずだ」と、はっきり断言した。それどころか、高慢さと風変わりさからすれば、別の考えを期待したくなるディオゲネスでさえ、「貧しい老人は、人生で最も不幸なものである」と、自分の意見を述べたのだ。
+  "translation_status": "reviewed"
+- "id": "prayers-084"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Zeno also and his followers fell into many absurdities, among which nothing could be greater than that of maintaining all crimes to be equal; which, instead of making vice hateful, rendered it as a thing indifferent and familiar to all men.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[74]"
+    "source_sequence": 84
+  "translation_ja": "ゼノンとその弟子たちも、多くのばかげた考えに陥った。とりわけ大きいのは、すべての罪は等しいと主張したことである。それは悪徳を憎むべきものにする代わりに、誰にとっても、どうでもよい、ありふれたものにしてしまった。"
+  "translation_status": "reviewed"
+- "id": "prayers-085"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Lastly, Epicurus had no notion of justice but as it was profitable; and his placing happiness in pleasure, with all the advantages he could expound it by, was liable to very great exception; for although he taught that pleasure did consist in virtue, yet he did not any way fix or ascertain the boundaries of virtue, as he ought to have done; by which means he misled his followers into the greatest vices, making their names to become odious and scandalous even in the heathen world.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[75]"
+    "source_sequence": 85
+  "translation_ja": |-
+    最後に、エピクロスは、利益になるという以外に、正義の観念を持っていなかった。また幸福を快楽に置いたことは、それを説明するためにどんな有利な解釈を添えようと、きわめて大きな異論を免れない。快楽は徳にあると教えたにしても、当然そうすべきだったのに、徳の境界を何ら定めず、確かにしなかったからだ。そのために弟子たちを最も大きな悪徳へ迷い込ませ、異教の世でさえ、その名を忌み嫌われ、恥とされるものにしてしまった。
+  "translation_status": "reviewed"
+- "id": "prayers-086"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I have produced these few instances from a great many others to show the imperfection of heathen philosophy, wherein I have confined myself wholly to their morality. And surely we may pronounce upon it, in the words of St. James, that “This wisdom descended not from above, but was earthly and sensual.” What if I had produced their absurd notions about God and the soul? It would then have completed the character given it by that Apostle, and appeared to have been devilish too. But it is easy to observe from the nature of these few particulars that their defects in morals were purely the flagging and fainting of the mind for want of a support by revelation from God.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[76]"
+    "source_sequence": 86
+  "translation_ja": |-
+    数多い例の中から、このわずかな実例を挙げたのは、異教の哲学の不完全さを示すためであり、ここでは、もっぱら道徳に話を限った。それについては、聖ヤコブの言葉を借り、「この知恵は上から降ったものではなく、地上のものであり、肉欲に属するものだった」と、確かに言えるだろう。もし神や魂についての、ばかげた考えまで挙げていたら、どうだったろう。そうすれば、この使徒による特徴づけは完成し、悪魔的なものでもあったと、わかったはずだ。だが、今挙げたわずかな事柄の性質からでも、彼らの道徳上の欠陥は、神の啓示による支えを欠いたため、ただ精神が力尽き、衰えた結果であることは、たやすく見て取れる。
+  "translation_status": "reviewed"
+- "id": "prayers-087"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I proceed, therefore, in the third place, to show the perfection of Christian wisdom from above; and I shall endeavour to make it appear from those proper characters and marks of it by the Apostle before mentioned, in the third chapter, and 15th, 16th, and 17th verses.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[77]"
+    "source_sequence": 87
+  "translation_ja": "そこで第三に、上から来るキリスト教の知恵の完全さを示そう。先ほど触れた使徒が、三章の十五、十六、十七節で挙げている、その知恵に固有の性質としるしから、それを明らかにしたい。"
+  "translation_status": "reviewed"
+- "id": "prayers-088"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "The words run thus—"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[78]"
+    "source_sequence": 88
+  "translation_ja": "その言葉は、次のとおりである。"
+  "translation_status": "reviewed"
+- "id": "prayers-089"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "“This wisdom descendeth not from above, but is earthly, sensual, devilish."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[79]"
+    "source_sequence": 89
+  "translation_ja": "「この知恵は上から降るものではなく、地上のものであり、肉欲に属し、悪魔的なものである。"
+  "translation_status": "reviewed"
+- "id": "prayers-090"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "“For where envying and strife is, there is confusion and every evil work."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[80]"
+    "source_sequence": 90
+  "translation_ja": "「ねたみと争いのあるところには、混乱とあらゆる悪い行いがあるからである。"
+  "translation_status": "reviewed"
+- "id": "prayers-091"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    “But the wisdom that is from above is first pure, then peaceable, gentle, and easy to be entreated, full of mercy and good fruits, without partiality and without hypocrisy.”
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[81]"
+    "source_sequence": 91
+  "translation_ja": "「しかし、上からの知恵は、まず清く、次に平和を好み、穏やかで、人の願いをよく聞き、憐れみと善い実りに満ち、偏りがなく、偽りがない。」"
+  "translation_status": "reviewed"
+- "id": "prayers-092"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    “The wisdom from above is first pure.” This purity of the mind and spirit is peculiar to the Gospel. Our Saviour says, “Blessed are the pure in heart, for they shall see God.” A mind free from all pollution of lusts shall have a daily vision of God, whereof unrevealed religion can form no notion. This is it that keeps us unspotted from the world, and hereby many have been prevailed upon to live in the practice of all purity, holiness, and righteousness, far beyond the examples of the most celebrated philosophers.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[82]"
+    "source_sequence": 92
+  "translation_ja": |-
+    「上からの知恵は、まず清い。」この心と霊の清さは、福音に固有のものである。救い主は、「心の清い人々は幸いである。その人たちは神を見る」と言われる。欲望のあらゆる汚れから自由な心は、日々神を見ることになる。啓示によらない宗教には、思い描くことさえできないものである。これこそ、世に汚されないよう私たちを守るものだ。そして、これに動かされた多くの人々は、あらゆる清さ、聖らかさ、正しさを実践し、最も名高い哲学者の実例をはるかに越えて生きるようになったのである。
+  "translation_status": "reviewed"
+- "id": "prayers-093"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    It is “peaceable, gentle, and easy to be entreated.” The Christian doctrine teacheth us all those dispositions that make us affable and courteous, gentle and kind, without any morose leaven of pride or vanity, which entered into the composition of most heathen schemes: so we are taught to be meek and lowly. Our Saviour’s last legacy was peace, and He commands us to forgive our offending brother unto seventy times seven. Christian wisdom is full of mercy and good works, teaching the height of all moral virtues, of which the heathens fell infinitely short. Plato indeed (and it is worth observing) has somewhere a dialogue, or part of one, about forgiving our enemies, which was perhaps the highest strain ever reached by man without Divine assistance; yet how little is that to what our Saviour commands us, “To love them that hate us, to bless them that curse us, and to do good to them that despitefully use us.”
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[83]"
+    "source_sequence": 93
+  "translation_ja": |-
+    それは「平和を好み、穏やかで、人の願いをよく聞く」。キリスト教の教えは、私たちを愛想よく礼儀正しく、穏やかで親切にする、あらゆる心のあり方を教える。異教の体系の大半に入り込んでいた、高慢や虚栄という、気難しさを生む種は、そこには少しもない。こうして私たちは、柔和でへりくだるよう教えられる。救い主が最後に遺されたものは平和であり、私たちに罪を犯した兄弟を、七の七十倍までも赦すよう命じておられる。キリスト教の知恵は、憐れみと善い行いに満ち、あらゆる道徳的な徳の頂点を教える。異教徒たちは、それに遠く及ばなかった。もっともプラトンには、注目すべきことだが、敵を赦すことについての対話篇、またはその一部分が、どこかにある。これはおそらく、神の助けなしに、人がかつて達した最高の調べだったろう。だが、それでさえ、救い主が命じる「私たちを憎む者を愛し、呪う者を祝福し、悪意をもって扱う者に善をなす」ことに比べれば、なんとわずかなことだろう。
+  "translation_status": "reviewed"
+- "id": "prayers-094"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Christian wisdom is “without partiality;” it is not calculated for this or that nation of people, but the whole race of mankind. Not so the philosophical schemes, which were narrow and confined, adapted to their peculiar towns, governments, or sects; but “in every nation, he that feareth God and worketh righteousness is accepted with Him.”
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[84]"
+    "source_sequence": 94
+  "translation_ja": |-
+    キリスト教の知恵は「偏りがない」。あれこれの民族のためではなく、全人類のために用意されたものだからだ。哲学の諸体系はそうではなかった。狭く、限られていて、特定の都市や政体や学派に合わせて作られていた。しかし、「どの国の人でも、神を畏れ、正義を行う者は、神に受け入れられる」のである。
+  "translation_status": "reviewed"
+- "id": "prayers-095"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Lastly, It is “without hypocrisy;” it appears to be what it really is; it is all of a piece. By the doctrines of the Gospel we are so far from being allowed to publish to the world those virtues we have not, that we are commanded to hide even from ourselves those we really have, and not to let our right hand know what our left hand does, unlike several branches of the heathen wisdom, which pretended to teach insensibility and indifference, magnanimity and contempt of life, while at the same time, in other parts, it belied its own doctrines.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[85]"
+    "source_sequence": 95
+  "translation_ja": |-
+    最後に、それは「偽りがない」。実際の姿そのままに見え、どこを取っても筋が通っている。福音の教えでは、持ってもいない徳を世に言いふらすことを許されないばかりか、本当に持つ徳さえ、自分自身に隠し、左の手のすることを右の手に知らせてはならないと命じられる。これは、平然として動じないことや、心の大きさや、命への無執着を教えるふりをしながら、ほかの点では、自分の教えに背いていた、異教の知恵のいくつかの流れとは違うのである。
+  "translation_status": "reviewed"
+- "id": "prayers-096"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I come now, in the last place, to show that the great examples of wisdom and virtue among the Grecian sages were produced by personal merit; and not influenced by the doctrine of any particular sect, whereas in Christianity it is quite the contrary.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[86]"
+    "source_sequence": 96
+  "translation_ja": "では最後に、ギリシアの賢者に見られる知恵と徳の偉大な実例は、特定の学派の教えに影響されて生じたものではなく、個人の優れた資質によるものだったのに対し、キリスト教では、まったく逆であることを示そう。"
+  "translation_status": "reviewed"
+- "id": "prayers-097"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The two virtues most celebrated by ancient moralists were fortitude and temperance, as relating to the government of man in his private capacity, to which their schemes were generally addressed and confined, and the two instances wherein those virtues arrived at the greatest height were Socrates and Cato. But neither these, nor any other virtues possessed by these two, were at all owing to any lessons or doctrines of a sect. For Socrates himself was of none at all; and although Cato was called a Stoic, it was more from a resemblance of manners in his worst qualities, than that he avowed himself one of their disciples. The same may be affirmed of many other great men of antiquity. Whence I infer that those who were renowned for virtue among them were more obliged to the good natural dispositions of their own minds than to the doctrines of any sect they pretended to follow.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[87]"
+    "source_sequence": 97
+  "translation_ja": |-
+    古代の道徳家が最もたたえた二つの徳は、剛毅と節制だった。それらは、私人としての人間が自分を治めることにかかわる。彼らの体系も、一般に、そこに向けられ、そこに限られていた。そして、この二つの徳が最も高みに達した実例が、ソクラテスとカトーであった。だが、この二人の持つ、これらの徳も、ほかのどんな徳も、いずれかの学派の教訓や教義に由来したものでは、少しもなかった。ソクラテス自身は、どの学派にも属していなかった。カトーはストア派と呼ばれたが、それは、自らその弟子と公言していたからというより、彼の最も悪い性質の振る舞いが似ていたからである。同じことは、古代のほかの多くの偉人についても言える。そこで私は、彼らのうち、徳によって名高かった者たちは、従うと称した学派の教えよりも、自分自身の心に生まれつき備わった善い性向に、多くを負っていたと推論する。
+  "translation_status": "reviewed"
+- "id": "prayers-098"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    On the other side, as the examples of fortitude and patience among the primitive Christians have been infinitely greater, and more numerous, so they were altogether the product of their principles and doctrine, and were such as the same persons, without those aids, would never have arrived to. Of this truth most of the Apostles, with many thousand martyrs, are a cloud of witnesses beyond exception. Having, therefore, spoken so largely upon the former heads, I shall dwell no longer upon this.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[88]"
+    "source_sequence": 98
+  "translation_ja": |-
+    これに対して、初期のキリスト者の間に見られた剛毅と忍耐の実例は、はるかに偉大で、数もはるかに多かったが、それらはまったく、その原理と教えから生まれたものだった。その助けがなければ、同じ人々も決して達せなかったようなものだったのである。大半の使徒と、幾千もの殉教者は、この真理について、異論の余地のない、おびただしい証人である。前の項目でこれほど長く話したので、この点には、これ以上とどまらないことにしよう。
+  "translation_status": "reviewed"
+- "id": "prayers-099"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    And if it should here be objected, Why does not Christianity still produce the same effects? it is easy to answer, first, that, although the number of pretended Christians be great, yet that of true believers, in proportion to the other, was never so small; and it is a true lively faith alone that, by the assistance of God’s grace, can influence our practice.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[89]"
+    "source_sequence": 99
+  "translation_ja": |-
+    もしここで、なぜキリスト教は今も同じ効果を生まないのか、という異論が出るなら、答えはたやすい。第一に、キリスト者と称する者の数は多くても、その数に比べて真の信者が、これほど少なかったことはないからである。そして、神の恵みに助けられて、私たちの行いを動かせるのは、真に生きた信仰だけなのだ。
+  "translation_status": "reviewed"
+- "id": "prayers-100"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Secondly, We may answer that Christianity itself has very much suffered by being blended up with Gentile philosophy. The Platonic system, first taken into religion, was thought to have given matter for some early heresies in the Church. When disputes began to arise, the Peripatetic forms were introduced by Scotus as best fitted for controversy. And however this may now have become necessary, it was surely the author of a litigious vein, which has since occasioned very pernicious consequences, stopped the progress of Christianity, and been a great promoter of vice; verifying that sentence given by St. James, and mentioned before, “Where envying and strife is, there is confusion and every evil work.” This was the fatal stop to the Grecians in their progress both of arts and arms; their wise men were divided under several sects, and their governments under several commonwealths, all in opposition to each other, which engaged them in eternal quarrels among themselves, while they should have been armed against the common enemy. And I wish we had no other examples, from the like causes, less foreign or ancient than that. Diogenes said Socrates was a madman; the disciples of Zeno and Epicurus, nay, of Plato and Aristotle, were engaged in fierce disputes about the most insignificant trifles. And if this be the present language and practice among us Christians no wonder that Christianity does not still produce the same effects which it did at first, when it was received and embraced in its utmost purity and perfection; for such wisdom as this cannot “descend from above,” but must be “earthly, sensual, devilish, full of confusion and every evil work,” whereas, “the wisdom from above is first pure, then peaceable, gentle, and easy to be entreated, full of mercy and good fruits, without partiality, and without hypocrisy.” This is the true heavenly wisdom, which Christianity only can boast of, and which the greatest of the heathen wise men could never arrive at.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[90]"
+    "source_sequence": 100
+  "translation_ja": |-
+    第二に、キリスト教そのものが、異教の哲学を混ぜ込まれたために、大いに損なわれたと答えられる。初めに宗教へ取り入れられたプラトンの体系は、教会初期のいくつかの異端に、材料を与えたと考えられていた。争論が起こり始めると、スコトゥスが、論争に最も適するものとして、逍遥学派の形式を導入した。今ではそれが必要になっているとしても、確かにそれは、争うことを好む気風を生んだ。その後この気風は、きわめて有害な結果をもたらし、キリスト教の進歩を妨げ、悪徳を大いに助長し、先に挙げた聖ヤコブの言葉、「ねたみと争いのあるところには、混乱とあらゆる悪い行いがある」を、事実によって裏づけたのである。これは、ギリシア人が学芸と武力の両面で進歩するうえでも、致命的な妨げとなった。賢者たちは諸学派に、政体は諸国家に分かれ、すべてが互いに敵対していた。そのため、共通の敵に対して武装すべきときに、果てしない内輪の争いに巻き込まれたのだ。そして、同じ原因による実例が、それほど遠い国や昔のものではないところにもある、というのでなければよいのだが。ディオゲネスは、ソクラテスを狂人だと言った。ゼノンやエピクロスの弟子たち、いや、プラトンやアリストテレスの弟子たちも、最も取るに足りない些細なことで、激しい論争を繰り広げていた。もしそれが、今の私たちキリスト者の言葉と行いであるなら、キリスト教が、最大限に清く完全な姿で受け入れられ、信奉されていた初めのころと、同じ効果を生まないのも不思議ではない。このような知恵は、「上から降る」ことはありえず、「地上のものであり、肉欲に属し、悪魔的で、混乱とあらゆる悪い行いに満ちたもの」であるはずだ。それに対して、「上からの知恵は、まず清く、次に平和を好み、穏やかで、人の願いをよく聞き、憐れみと善い実りに満ち、偏りがなく、偽りがない」。これこそ、キリスト教だけが誇れる、天からの真の知恵であり、異教の最も偉大な賢者たちにも、決して達せなかったものなのである。
+  "translation_status": "reviewed"
+- "id": "prayers-101"
+  "section_id": "wisdom-of-this-world"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Now to God the Father, &c."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[91]"
+    "source_sequence": 101
+  "translation_ja": "さて、父なる神に、云々。"
+  "translation_status": "reviewed"
+- "id": "prayers-103"
+  "section_id": "editor-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [377] A clearer style, or a discourse more properly adapted to a public audience, can scarce be framed. Every paragraph is simple, nervous, and intelligible. The threads of each argument are closely connected and logically pursued.—Orrery.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-4738"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/4738/4738-h/4738-h.htm"
+    "xpath": "/html[1]/body[1]/p[92]"
+    "source_sequence": 103
+  "translation_ja": null
+  "translation_status": "pending"
+  "translation_required": false
+  "attributions":
+  - "voice": "editor"
+    "name_original": "Orrery"
+    "name_ja": "オーラリー"
+    "evidence_ja": "底本の脚注末尾にOrreryと署名された作品評。スウィフトの本文・原注ではない。"
+"notes":
+- "id": "editor-note-377"
+  "origin": "editor"
+  "label": "377"
+  "body":
+  - "segment_id": "prayers-103"
+  "form": "footnote"
+  "description_ja": "Orrery署名の作品評。翻訳対象外。"
+"references": []
+"groups":
+- "id": "quote-011"
+  "kind": "quotation"
+  "members":
+  - "segment_id": "prayers-011"
+  "separator": |2+
+
+- "id": "quote-030"
+  "kind": "quotation"
+  "members":
+  - "segment_id": "prayers-030"
+  "separator": |2+
+
+- "id": "quote-060"
+  "kind": "quotation"
+  "members":
+  - "segment_id": "prayers-060"
+  "separator": |2+
+
+- "id": "quote-james-3"
+  "kind": "quotation"
+  "members":
+  - "segment_id": "prayers-089"
+  - "segment_id": "prayers-090"
+  - "segment_id": "prayers-091"
+  "separator": |2+
+
+
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "swift-name"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Jonathan Swift"
+  "translation_ja": "ジョナサン・スウィフト"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+- "id": "subjection"
+  "kind": "term"
+  "source_language": "en"
+  "source": "subjection"
+  "translation_ja": "従うこと／服従"
+  "note_ja": "互恵的な務めの意味と、制度上の服従の意味を文脈に応じて訳す。"
+- "id": "stella-name"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Stella"
+  "translation_ja": "ステラ"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-20T23:38:33Z"
+    "reviewed_by": "Codex（初稿完成後の全文原文対照）"
+    "content_sha256": "086a51832fe40ba5980ed14c57172eacf89e8582f23a8cac9b29fada8df0c392"
+"provenance":
+  "source_acquired_on": "2026-10-21"
+  "translation_method_ja": "原典の英語から新訳。既存日本語訳の転用なし。既存『樽物語』の著者名・代表段落・用語表を参照。"
+  "translation_specification_commit": "1277c50ba475bbe1fd793e158145f5e46491094f"
+  "source_block_count": 105
+  "draft_translated_segment_count": 100
+  "full_review_evidence_ja": |-
+    初稿完成後、標題・祈祷三篇・説教三篇の聖書引用・全段落・結語を原著順に一回通して原文と日本語訳を対照した。出力で省略された第一説教の012〜017は別に全量表示して照合。訳抜け、否定、主体、数量、論旨と日本語の意味を確認。第三祈祷の神の子らという表現と構文、第二説教の奇跡に関する反語、滑稽化される作品の説明を修正し、該当原文と前後を再照合した。底本作品評[377]は対象外として原文のみ保持。未確認の本文範囲なし。
+  "full_review_complete_sections":
+  - "title"
+  - "prayers"
+  - "prayer-1"
+  - "prayer-2"
+  - "prayer-3"
+  - "mutual-subjection"
+  - "sleeping-in-church"
+  - "wisdom-of-this-world"

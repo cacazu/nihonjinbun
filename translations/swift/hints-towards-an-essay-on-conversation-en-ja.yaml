@@ -1,0 +1,564 @@
+"schema_version": "2.0"
+"work_id": "swift-hints-towards-an-essay-on-conversation"
+"metadata":
+  "title_ja": "会話論のための覚書"
+  "title_original": "Hints towards an Essay on Conversation"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "morley"
+    "name_ja": "ヘンリー・モーリー"
+    "name_original": "Henry Morley"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。原著と電子翻刻の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "随筆"
+  - "風刺"
+  "reader_notes_ja":
+  - "1886年Cassell & Company版の英語電子翻刻に基づく。見出しと本文全23段落を収録。"
+"sources":
+- "id": "gutenberg-623"
+  "role": "primary"
+  "title": "The Battle of the Books, and Other Short Pieces"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+  "edition": "ヘンリー・モーリー編、Cassell & Company、1886年版。Project Gutenberg eBook 623の旧HTML。HTML内の公開日記載は2007年1月15日。"
+  "contributor_ids":
+  - "swift"
+  - "morley"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/623"
+    "note_ja": "著者1745年没、編者1894年没の1886年刊本。Project Gutenberg書誌は米国でパブリックドメインと表示。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "Transcribed from the 1886 Cassell & Company edition by David Price."
+    "note_ja": "原著の著作権状態と、Project Gutenbergの商標・電子版配布条件を区別する。"
+  "sha256": "6362b44a9f5703d1c2a3d10313ead9c9e124f845d138d725e602b6f1bf630517"
+  "description_ja": "2007年1月15日と記載された旧HTMLを2026年10月21日に取得。現在のcache版と混同しない。HTMLの段落内改行と連続する組版用空白を単一空白に整理し、各h2・pの境界と語句を保持。選定3篇内の通し原文順をsource_sequenceとし、元HTMLのXPathと開始行を併記。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-623"
+    "description_ja": "見出しと本文全23段落を収録。"
+    "section_ids":
+    - "work"
+  "excluded":
+  - "source_id": "gutenberg-623"
+    "description_ja": "同一巻の他作品、巻全体の標題紙・編者序文・目次、電子版の利用案内・開始終了表示・末尾利用条件。対象作品の本文は省略しない。"
+  "known_gaps": []
+"sections":
+- "id": "work"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "hints-towards-an-essay-on-conversation-title"
+  "origin": "source"
+"segments":
+- "id": "hints-towards-an-essay-on-conversation-title"
+  "section_id": "work"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    HINTS TOWARDS AN ESSAY ON CONVERSATION.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[24]"
+    "line_start": 4107
+    "source_sequence": 4
+  "translation_ja": |-
+    会話論のための覚書
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-001"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I have observed few obvious subjects to have been so seldom, or at least so slightly, handled as this; and, indeed, I know few so difficult to be treated as it ought, nor yet upon which there seemeth so much to be said.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[277]"
+    "line_start": 4108
+    "source_sequence": 5
+  "translation_ja": |-
+    これほど身近な主題でありながら、これほどめったに、あるいはこれほど浅くしか論じられてこなかったものは、ほかにあまりないと私は思う。実際、しかるべく論じるのがこれほど難しく、しかも、これほど多くのことが言えそうに思われる主題も、あまり知らない。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-002"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Most things pursued by men for the happiness of public or private life our wit or folly have so refined, that they seldom subsist but in idea; a true friend, a good marriage, a perfect form of government, with some others, require so many ingredients, so good in their several kinds, and so much niceness in mixing them, that for some thousands of years men have despaired of reducing their schemes to perfection. But in conversation it is or might be otherwise; for here we are only to avoid a multitude of errors, which, although a matter of some difficulty, may be in every man’s power, for want of which it remaineth as mere an idea as the other. Therefore it seemeth to me that the truest way to understand conversation is to know the faults and errors to which it is subject, and from thence every man to form maxims to himself whereby it may be regulated, because it requireth few talents to which most men are not born, or at least may not acquire without any great genius or study. For nature bath left every man a capacity of being agreeable, though not of shining in company; and there are a hundred men sufficiently qualified for both, who, by a very few faults that they might correct in half an hour, are not so much as tolerable.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[278]"
+    "line_start": 4112
+    "source_sequence": 6
+  "translation_ja": |-
+    公の生活であれ私生活であれ、幸福のために人々が追い求めるものの大半は、私たちの才知、あるいは愚かさによって、あまりに精緻なものに仕立てられ、ほとんど観念の中にしか存在しなくなった。真の友人、よい結婚、完全な政体、その他いくつかのものには、それぞれ申し分のない材料があまりにも多く必要で、それらを混ぜ合わせるにも、あまりにも繊細な手際がいる。そのため人々は、何千年もの間、その構想を完成させる望みを失ってきた。だが、会話では事情が違うし、少なくとも違ってよい。ここでは、数多くの過ちを避けさえすればよいからである。多少の難しさはあっても、それは誰にでもできるはずだ。それをしないために、会話もほかのものと同じく、ただの観念にとどまっている。したがって、会話を理解するもっとも確かな方法は、会話に付きまとう欠点や誤りを知り、そこから各人が、自分の会話を律する格言を作ることだと、私には思われる。というのも、会話に必要な才能は、たいていの人が生まれながらに備えているか、少なくとも、並外れた才や勉強なしに身につけられるものが、ほとんどだからである。自然は誰にでも、人中で光彩を放つ力までは与えなかったにせよ、感じのよい人になる力は残してくれた。両方を十分に備えていながら、半時間もあれば直せる、ごくわずかな欠点のために、我慢して付き合うことさえできない者が、百人もいるのである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-003"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I was prompted to write my thoughts upon this subject by mere indignation, to reflect that so useful and innocent a pleasure, so fitted for every period and condition of life, and so much in all men’s power, should be so much neglected and abused.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[279]"
+    "line_start": 4133
+    "source_sequence": 7
+  "translation_ja": |-
+    この主題について考えを書こうと思い立ったのは、ただ憤りからである。これほど役に立ち、害のない楽しみが、人生のどの時期、どの境遇にもふさわしく、これほど誰の手にも届くものでありながら、これほどないがしろにされ、誤用されているとは、と考えたからである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-004"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    And in this discourse it will be necessary to note those errors that are obvious, as well as others which are seldomer observed, since there are few so obvious or acknowledged into which most men, some time or other, are not apt to run.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[280]"
+    "line_start": 4138
+    "source_sequence": 8
+  "translation_ja": |-
+    そして、この論では、めったに気づかれない誤りとともに、誰の目にも明らかな誤りにも触れる必要がある。どれほど明白で、広く認められた誤りでも、大抵の人が、いつかは陥りがちなものだからである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-005"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    For instance, nothing is more generally exploded than the folly of talking too much; yet I rarely remember to have seen five people together where some one among them hath not been predominant in that kind, to the great constraint and disgust of all the rest. But among such as deal in multitudes of words, none are comparable to the sober deliberate talker, who proceedeth with much thought and caution, maketh his preface, brancheth out into several digressions, findeth a hint that putteth him in mind of another story, which he promiseth to tell you when this is done; cometh back regularly to his subject, cannot readily call to mind some person’s name, holdeth his head, complaineth of his memory; the whole company all this while in suspense; at length, says he, it is no matter, and so goes on. And, to crown the business, it perhaps proveth at last a story the company hath heard fifty times before; or, at best, some insipid adventure of the relater.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[281]"
+    "line_start": 4142
+    "source_sequence": 9
+  "translation_ja": |-
+    たとえば、しゃべりすぎる愚かさほど、広く非難されるものはない。それなのに、五人が集まったとき、そのうちの誰かが話を独占して、ほかの全員をひどく窮屈にさせ、うんざりさせなかった例を、私はほとんど思い出せない。しかし、言葉をふんだんに使う人々の中でも、まじめくさって、ゆっくり話す者にかなう者はいない。その男は、いちいち考え、用心しながら話を進め、まず前置きをし、いくつも脇道へそれ、そこに別の話を思い出させるきっかけを見つけて、この話が終わったら、それを話そうと約束する。それから、きちんと本題へ戻る。ある人の名前がすぐには思い出せず、頭を抱え、記憶力の衰えを嘆く。その間、一同はずっと待たされる。ついに男は「まあ、どうでもいい」と言って、話を続ける。おまけに、ようやく話が終わってみると、皆がすでに五十回は聞いた話だったり、せいぜい、話し手自身に起きた退屈な出来事だったりするのである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-006"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Another general fault in conversation is that of those who affect to talk of themselves. Some, without any ceremony, will run over the history of their lives; will relate the annals of their diseases, with the several symptoms and circumstances of them; will enumerate the hardships and injustice they have suffered in court, in parliament, in love, or in law. Others are more dexterous, and with great art will lie on the watch to hook in their own praise. They will call a witness to remember they always foretold what would happen in such a case, but none would believe them; they advised such a man from the beginning, and told him the consequences just as they happened, but he would have his own way. Others make a vanity of telling their faults. They are the strangest men in the world; they cannot dissemble; they own it is a folly; they have lost abundance of advantages by it; but, if you would give them the world, they cannot help it; there is something in their nature that abhors insincerity and constraint; with many other unsufferable topics of the same altitude.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[282]"
+    "line_start": 4158
+    "source_sequence": 10
+  "translation_ja": |-
+    会話によくある、もう一つの欠点は、自分のことを話したがる人々のものである。何の遠慮もなく、自分の一生の歴史を語り尽くす者もいる。自分の病歴を、さまざまな症状や事情とともに語り、宮廷で、議会で、恋愛で、裁判で受けた苦労や不当な仕打ちを、一つ残らず並べ立てる。また、もっと器用な者は、巧みに機会をうかがい、自分を褒める話へ引っ張り込む。あの件がどうなるか、自分は前々から言い当てていたのに、誰も信じなかったではないか、と証人を呼び出す。あの男には初めから忠告し、その後に起きたとおりの成り行きを告げてやったのに、本人が自分の考えを通したのだ、と言う。自分の欠点を語るのを自慢にする者もいる。自分ほど変わった男はいない、取り繕うことができないのだ、愚かなこととは認めるし、そのせいで得られるはずの利益をずいぶん逃してきた、だが世界をまるごとくれると言われても、こればかりはどうにもならない、生まれつき、不誠実なことや窮屈なことを嫌う何かがあるのだ、といった調子で、同じくらい鼻持ちならない話題を、いくつも持ち出すのである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-007"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Of such mighty importance every man is to himself, and ready to think he is so to others, without once making this easy and obvious reflection, that his affairs can have no more weight with other men than theirs have with him; and how little that is he is sensible enough.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[283]"
+    "line_start": 4176
+    "source_sequence": 11
+  "translation_ja": |-
+    誰しも、自分にとってはこれほどまでに重要な存在であり、他人にとってもそうだと思いたがる。自分の用事が他人にとって重みを持つ程度は、他人の用事が自分にとって重みを持つ程度と変わらないという、たやすく明白なことさえ、一度も考えてみない。そして、それがいかに軽いものかは、本人にも十分わかっているのである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-008"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Where company hath met, I often have observed two persons discover by some accident that they were bred together at the same school or university, after which the rest are condemned to silence, and to listen while these two are refreshing each other’s memory with the arch tricks and passages of themselves and their comrades.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[284]"
+    "line_start": 4181
+    "source_sequence": 12
+  "translation_ja": |-
+    人々が集まったとき、二人が何かの偶然で、同じ学校か大学で育ったと気づくことがあるのを、私はしばしば見てきた。すると、ほかの者たちは沈黙を命じられたも同然になり、その二人が、自分たちや仲間のいたずらや出来事を、互いに思い出し合うのを、聞かされるのである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-009"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I know a great officer of the army, who will sit for some time with a supercilious and impatient silence, full of anger and contempt for those who are talking; at length of a sudden demand audience; decide the matter in a short dogmatical way; then withdraw within himself again, and vouchsafe to talk no more, until his spirits circulate again to the same point.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[285]"
+    "line_start": 4187
+    "source_sequence": 13
+  "translation_ja": |-
+    私の知る陸軍のある高官は、話している人々への怒りと軽蔑を胸いっぱいに抱き、しばらくは、見下すような、いら立った沈黙を守って座っている。やがて、突然、自分の話を聞くよう求め、手短に、独断的な調子で問題を片づけると、再び自分の殻にこもる。そして、気分が巡り巡って同じところへ戻ってくるまで、もう言葉を賜ろうとはしない。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-010"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    There are some faults in conversation which none are so subject to as the men of wit, nor ever so much as when they are with each other. If they have opened their mouths without endeavouring to say a witty thing, they think it is so many words lost. It is a torment to the hearers, as much as to themselves, to see them upon the rack for invention, and in perpetual constraint, with so little success. They must do something extraordinary, in order to acquit themselves, and answer their character, else the standers by may be disappointed and be apt to think them only like the rest of mortals. I have known two men of wit industriously brought together, in order to entertain the company, where they have made a very ridiculous figure, and provided all the mirth at their own expense.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[286]"
+    "line_start": 4193
+    "source_sequence": 14
+  "translation_ja": |-
+    会話には、才人が誰よりも陥りやすく、しかも、才人同士が一緒にいるときに、もっとも甚だしくなる欠点がある。気の利いたことを言おうともせずに口を開けば、その言葉はすべて無駄になったと考えるのである。何かをひねり出そうと苦しみ抜き、絶えず気を張っていながら、ほとんど成果のない姿を見るのは、本人たちだけでなく、聞き手にとっても苦痛だ。面目を保ち、評判に応えるためには、何か並外れたことをしなくてはならない。さもなければ、周囲の者は期待を裏切られ、この人たちも普通の人間と変わらないと思いかねない。集まった人々を楽しませようと、わざわざ二人の才人を引き合わせたところ、二人がたいへん滑稽な姿をさらし、自分たちを笑いものにすることで、その場の笑いをすべて提供してしまった例を、私は知っている。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-011"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I know a man of wit, who is never easy but where he can be allowed to dictate and preside; he neither expecteth to be informed or entertained, but to display his own talents. His business is to be good company, and not good conversation, and therefore he chooseth to frequent those who are content to listen, and profess themselves his admirers. And, indeed, the worst conversation I ever remember to have heard in my life was that at Will’s coffee-house, where the wits, as they were called, used formerly to assemble; that is to say, five or six men who had written plays, or at least prologues, or had share in a miscellany, came thither, and entertained one another with their trifling composures in so important an air, as if they had been the noblest efforts of human nature, or that the fate of kingdoms depended on them; and they were usually attended with a humble audience of young students from the inns of courts, or the universities, who, at due distance, listened to these oracles, and returned home with great contempt for their law and philosophy, their heads filled with trash under the name of politeness, criticism, and belles lettres.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[287]"
+    "line_start": 4207
+    "source_sequence": 15
+  "translation_ja": |-
+    私の知るある才人は、指図して座を取り仕切ることを許されなければ、少しも落ち着かない。知識を得たり、楽しませてもらったりすることは期待せず、自分の才能を見せびらかすことだけを望んでいる。その目的は、人を楽しませる相手になることであって、よい会話を交わすことではない。そこで、聞くだけで満足し、自分の崇拝者だと公言する人々のもとへ、好んで通うのである。実際、私が生涯で耳にした、もっともひどい会話は、以前、いわゆる才人たちが集まっていた、ウィルズ・コーヒーハウスでのものだった。つまり、芝居を書いたことがあるか、せめてプロローグを書いたか、あるいは雑詩集に一篇寄せたことのある五、六人がやって来て、自分たちのつまらない作品で互いを楽しませるのだが、そのもったいぶった様子ときたら、それが人間のなしうる最高の仕事であるか、王国の運命がそこにかかっているかのようだった。そして、たいていは、法学院や大学から来た若い学生たちが、つつましい聴衆として付き従い、しかるべき距離を置いて、この神託に耳を傾けていた。帰るころには、自分たちの法律や哲学をひどく軽蔑し、礼法、批評、文芸という名のがらくたで、頭がいっぱいになっているのである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-012"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    By these means the poets, for many years past, were all overrun with pedantry. For, as I take it, the word is not properly used; because pedantry is the too front or unseasonable obtruding our own knowledge in common discourse, and placing too great a value upon it; by which definition men of the court or the army may be as guilty of pedantry as a philosopher or a divine; and it is the same vice in women when they are over copious upon the subject of their petticoats, or their fans, or their china. For which reason, although it be a piece of prudence, as well as good manners, to put men upon talking on subjects they are best versed in, yet that is a liberty a wise man could hardly take; because, beside the imputation of pedantry, it is what he would never improve by.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[288]"
+    "line_start": 4226
+    "source_sequence": 16
+  "translation_ja": |-
+    こうしたことから、長年にわたって、詩人たちはみな、衒学にすっかり侵されていた。というのも、私の考えでは、この言葉は正しく使われていない。衒学とは、普通の会話の中で、自分の知識をむやみに、あるいは場違いに押しつけ、それをあまりに高く買いかぶることだからである。この定義によれば、宮廷人や軍人も、哲学者や聖職者と同じくらい、衒学の罪を犯しうる。女たちが、ペチコートや扇や陶磁器について、あまりに長々と話すときも、それは同じ悪癖である。だから、人々に、もっともよく知っている主題を話させるのは、賢明でもあり、礼儀でもあるとはいえ、賢い人は、そんなふうに得意なことを話す自由を、なかなか自分には許せない。衒学だと見られるうえに、それによって自分が何かを学ぶことはないからである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-013"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    This great town is usually provided with some player, mimic, or buffoon, who hath a general reception at the good tables; familiar and domestic with persons of the first quality, and usually sent for at every meeting to divert the company, against which I have no objection. You go there as to a farce or a puppet-show; your business is only to laugh in season, either out of inclination or civility, while this merry companion is acting his part. It is a business he hath undertaken, and we are to suppose he is paid for his day’s work. I only quarrel when in select and private meetings, where men of wit and learning are invited to pass an evening, this jester should be admitted to run over his circle of tricks, and make the whole company unfit for any other conversation, besides the indignity of confounding men’s talents at so shameful a rate.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[289]"
+    "line_start": 4239
+    "source_sequence": 17
+  "translation_ja": |-
+    この大きな町には、たいてい、立派な食卓で広く歓迎される、役者や物まね芸人や道化が、何人かいる。最高の身分の人々とも家族同然に親しく付き合い、集まりがあるたびに、座を楽しませるために呼びにやられる。私は、それに異議はない。そこへ行くのは、笑劇や人形芝居を見に行くようなものだ。この愉快な男が役を演じている間、こちらは、笑いたければ笑い、礼儀のためなら礼儀として、頃合いに笑えばよい。それが彼の引き受けた仕事であり、一日分の働きには報酬が出ているものと、考えればよいのである。私が異議を唱えるのは、才知と学識のある人々を招いて夕べを過ごす、内輪の選ばれた集まりにまで、この道化を入れ、一通りの芸を披露させ、その場の全員を、ほかの会話が一切できない状態にしてしまう場合である。それぞれの才能を、これほど恥ずかしい仕方で一緒くたにするという、侮辱もさることながら。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-014"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Raillery is the finest part of conversation; but, as it is our usual custom to counterfeit and adulterate whatever is too dear for us, so we have done with this, and turned it all into what is generally called repartee, or being smart; just as when an expensive fashion cometh up, those who are not able to reach it content themselves with some paltry imitation. It now passeth for raillery to run a man down in discourse, to put him out of countenance, and make him ridiculous, sometimes to expose the defects of his person or understanding; on all which occasions he is obliged not to be angry, to avoid the imputation of not being able to take a jest. It is admirable to observe one who is dexterous at this art, singling out a weak adversary, getting the laugh on his side, and then carrying all before him. The French, from whom we borrow the word, have a quite different idea of the thing, and so had we in the politer age of our fathers. Raillery was, to say something that at first appeared a reproach or reflection, but, by some turn of wit unexpected and surprising, ended always in a compliment, and to the advantage of the person it was addressed to. And surely one of the best rules in conversation is, never to say a thing which any of the company can reasonably wish we had rather left unsaid; nor can there anything be well more contrary to the ends for which people meet together, than to part unsatisfied with each other or themselves.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[290]"
+    "line_start": 4253
+    "source_sequence": 18
+  "translation_ja": |-
+    軽妙なからかいは、会話のもっとも上等な部分である。だが私たちは、手が届かないほど高価なものは、何でも偽物や混ぜ物で間に合わせるのが常であり、これについても同じことをして、すっかり、いわゆる当意即妙の応酬や、鋭い切り返しに変えてしまった。高価な流行が現れると、それに手の届かない者が、安っぽいまねごとで満足するのと同じだ。今では、会話の中で人をやり込め、恥をかかせ、笑いものにし、ときには容姿や知性の欠点をさらすのが、軽妙なからかいとされる。そうされる側は、どんな場合にも、冗談のわからない奴だと言われないよう、怒ってはならないことになっている。この技に長けた者が、弱い相手を一人選び、笑いを味方につけて、向かうところ敵なしに振る舞うのは、見事な眺めである。この言葉を借りてきた先のフランス人は、それをまったく違うものと考えているし、私たちも、父祖の時代の、もっと礼儀正しいころには、そう考えていた。軽妙なからかいとは、初めは非難や皮肉に聞こえることを言いながら、思いもよらない、はっとするような機知の転換によって、いつも最後は、相手を褒め、その人を引き立てるものだった。たしかに、会話における最良の規則の一つは、その場の誰かが、言わずにいてくれたほうがよかったと、もっともに思うようなことは、決して言わないことである。他人にも自分自身にも不満を抱いて別れることほど、人々が集まる目的に反するものも、まずあるまい。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-015"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    There are two faults in conversation which appear very different, yet arise from the same root, and are equally blamable; I mean, an impatience to interrupt others, and the uneasiness of being interrupted ourselves. The two chief ends of conversation are, to entertain and improve those we are among, or to receive those benefits ourselves; which whoever will consider, cannot easily run into either of those two errors; because, when any man speaketh in company, it is to be supposed he doth it for his hearers’ sake, and not his own; so that common discretion will teach us not to force their attention, if they are not willing to lend it; nor, on the other side, to interrupt him who is in possession, because that is in the grossest manner to give the preference to our own good sense.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[291]"
+    "line_start": 4277
+    "source_sequence": 19
+  "translation_ja": |-
+    会話には、一見まったく違いながら、同じ根から生じ、同じくらい非難すべき、二つの欠点がある。他人の話を遮りたくてたまらないことと、自分の話が遮られると不快になることである。会話の二つの主な目的は、一緒にいる人々を楽しませ、益を与えること、あるいは自分がその恩恵を受けることだ。これを考えれば、どちらの過ちにも、そう簡単には陥らないはずである。なぜなら、人中で何かを話す人は、自分のためでなく、聞き手のために話しているものと考えるべきだからだ。したがって、普通の分別があれば、聞き手が耳を傾けたがらないときに、その注意を無理に引きつけようとはしないはずだし、逆に、今話している人を遮ることもしないはずである。それは、何より無作法なやり方で、自分の判断力のほうが上だと言うことになるからだ。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-016"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    There are some people whose good manners will not suffer them to interrupt you; but, what is almost as bad, will discover abundance of impatience, and lie upon the watch until you have done, because they have started something in their own thoughts which they long to be delivered of. Meantime, they are so far from regarding what passes, that their imaginations are wholly turned upon what they have in reserve, for fear it should slip out of their memory; and thus they confine their invention, which might otherwise range over a hundred things full as good, and that might be much more naturally introduced.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[292]"
+    "line_start": 4290
+    "source_sequence": 20
+  "translation_ja": |-
+    礼儀がよいために、あなたの話を遮りはしないが、それとほとんど同じくらい困ったことに、あからさまに待ちきれない様子を示し、話が終わるのをじっとうかがっている人がいる。自分の頭に何かを思いつき、早く吐き出したくてたまらないからである。その間、その人は、今交わされている話に注意を払うどころか、せっかくため込んだものを忘れまいとして、心をすっかりそこへ向けている。こうして、自分の発想を狭く閉じ込めてしまう。本来なら、同じくらいよい事柄を百も自由に巡り、それらを、はるかに自然に持ち出すことができるかもしれないのに。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-017"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    There is a sort of rude familiarity, which some people, by practising among their intimates, have introduced into their general conversation, and would have it pass for innocent freedom or humour, which is a dangerous experiment in our northern climate, where all the little decorum and politeness we have are purely forced by art, and are so ready to lapse into barbarity. This, among the Romans, was the raillery of slaves, of which we have many instances in Plautus. It seemeth to have been introduced among us by Cromwell, who, by preferring the scum of the people, made it a court-entertainment, of which I have heard many particulars; and, considering all things were turned upside down, it was reasonable and judicious; although it was a piece of policy found out to ridicule a point of honour in the other extreme, when the smallest word misplaced among gentlemen ended in a duel.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[293]"
+    "line_start": 4300
+    "source_sequence": 21
+  "translation_ja": |-
+    ある種の無作法ななれなれしさを、親しい者同士で行ううちに、普通の会話にまで持ち込み、無邪気な気安さや、おかしみとして通そうとする人々がいる。これは、わが北国の風土では危険な試みである。わずかばかりある礼節も洗練も、まったく人為的に身につけたもので、たちまち野蛮に逆戻りしがちだからである。ローマ人の間では、これは奴隷のからかいであり、プラウトゥスには、その例がたくさんある。わが国には、クロムウェルが持ち込んだものらしい。彼は人民のくずを取り立て、これを宮廷の娯楽にしたという。私は、その具体的な話を、いくつも聞いたことがある。万事がひっくり返っていたことを考えれば、それも筋が通り、賢明なことだった。もっともそれは、紳士同士で、ほんの一言、言い損なっただけでも決闘になったという、反対の極端な名誉観を笑いものにするために考え出された、政治的な手段でもあったのである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-018"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    There are some men excellent at telling a story, and provided with a plentiful stock of them, which they can draw out upon occasion in all companies; and considering how low conversation runs now among us, it is not altogether a contemptible talent; however, it is subject to two unavoidable defects: frequent repetition, and being soon exhausted; so that whoever valueth this gift in himself hath need of a good memory, and ought frequently to shift his company, that he may not discover the weakness of his fund; for those who are thus endowed have seldom any other revenue, but live upon the main stock.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[294]"
+    "line_start": 4315
+    "source_sequence": 22
+  "translation_ja": |-
+    物語を語るのが抜群にうまく、話の種も豊富で、どんな集まりでも、機会に応じて取り出せる人がいる。わが国の会話が今どれほど低調かを考えれば、それは、まったく軽蔑してよい才能でもない。しかし、それには避けられない二つの欠点がある。何度も同じ話をすることと、じきに話の種が尽きることである。だから、この才能を自慢にする者には、よい記憶力が必要であり、手持ちの乏しさを見抜かれないよう、しばしば相手を替えなくてはならない。というのも、こうした才のある者には、めったにほかの収入がなく、元手を食いつぶして暮らしているからである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-019"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Great speakers in public are seldom agreeable in private conversation, whether their faculty be natural, or acquired by practice and often venturing. Natural elocution, although it may seem a paradox, usually springeth from a barrenness of invention and of words, by which men who have only one stock of notions upon every subject, and one set of phrases to express them in, they swim upon the superficies, and offer themselves on every occasion; therefore, men of much learning, and who know the compass of a language, are generally the worst talkers on a sudden, until much practice hath inured and emboldened them; because they are confounded with plenty of matter, variety of notions, and of words, which they cannot readily choose, but are perplexed and entangled by too great a choice, which is no disadvantage in private conversation; where, on the other side, the talent of haranguing is, of all others, most insupportable.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[295]"
+    "line_start": 4325
+    "source_sequence": 23
+  "translation_ja": |-
+    公の場での大演説家は、その能力が生まれつきのものであれ、練習と度重なる挑戦で得たものであれ、私的な会話では、めったに感じのよい相手ではない。逆説めくかもしれないが、生まれつきの弁舌の才は、たいてい、発想と言葉の乏しさから生じる。どんな主題についても、一そろいの考えと、それを表す一そろいの言い回ししか持たない者は、それらがいつも表面に浮かんでいて、どんな機会にも、すぐに出てくるからだ。だから、学識が豊かで、言語の広がりを知っている人々は、十分な練習で慣れ、自信をつけるまでは、たいてい、とっさに話すのが、もっとも下手である。題材の豊富さ、考えと言葉の多様さに戸惑い、すぐには選べず、選べるものが多すぎて、混乱し、もつれてしまうからである。私的な会話では、それは不利にならない。反対に、長広舌を振るう才能こそ、ほかの何よりも我慢のならないものなのである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-020"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Nothing hath spoiled men more for conversation than the character of being wits; to support which, they never fail of encouraging a number of followers and admirers, who list themselves in their service, wherein they find their accounts on both sides by pleasing their mutual vanity. This hath given the former such an air of superiority, and made the latter so pragmatical, that neither of them are well to be endured. I say nothing here of the itch of dispute and contradiction, telling of lies, or of those who are troubled with the disease called the wandering of the thoughts, that they are never present in mind at what passeth in discourse; for whoever labours under any of these possessions is as unfit for conversation as madmen in Bedlam.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[296]"
+    "line_start": 4341
+    "source_sequence": 24
+  "translation_ja": |-
+    才人だという評判ほど、人を会話に不向きにしてきたものはない。その評判を保つために、彼らは必ず、みずから進んで仕える、大勢の追随者や崇拝者を育てる。そうした奉仕では、互いの虚栄を満たすことで、両方が得をするのである。このため、前者には優越した態度が染みつき、後者はあまりにしたり顔になり、どちらも、まともには付き合えない。ここでは、議論や反駁をしたがる癖、嘘をつくこと、あるいは「思考のさまよい」と呼ばれる病気に悩み、会話で何が話されているのか、心が一度もそこにない者については、何も言うまい。そうしたものの、どれか一つにでも取りつかれている者は、ベドラムの狂人と同じくらい、会話に不向きだからである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-021"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I think I have gone over most of the errors in conversation that have fallen under my notice or memory, except some that are merely personal, and others too gross to need exploding; such as lewd or profane talk; but I pretend only to treat the errors of conversation in general, and not the several subjects of discourse, which would be infinite. Thus we see how human nature is most debased, by the abuse of that faculty, which is held the great distinction between men and brutes; and how little advantage we make of that which might be the greatest, the most lasting, and the most innocent, as well as useful pleasure of life: in default of which, we are forced to take up with those poor amusements of dress and visiting, or the more pernicious ones of play, drink, and vicious amours, whereby the nobility and gentry of both sexes are entirely corrupted both in body and mind, and have lost all notions of love, honour, friendship, and generosity; which, under the name of fopperies, have been for some time laughed out of doors.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[297]"
+    "line_start": 4354
+    "source_sequence": 25
+  "translation_ja": |-
+    私が気づいたり、思い出したりした、会話の誤りは、これで大半を扱ったと思う。ただし、純粋に個人的なものや、わざわざ非難する必要もないほど露骨なもの、たとえば卑猥な話や、神を汚す話は除く。私が扱おうとするのは、会話一般の誤りだけであって、個々の話題ではない。それでは際限がないからだ。このように、人間と獣を分ける大きな違いとされる能力の誤用によって、人間性がいかにひどく貶められるかが、わかる。また、人生でもっとも大きく、もっとも長続きし、もっとも害がなく、しかも有益な楽しみとなりうるものから、私たちがいかにわずかな利益しか得ていないかも、わかる。それを欠くために、身なりや訪問といった貧弱な娯楽か、もっと有害な、賭け事、飲酒、ふしだらな恋愛で間に合わせざるをえない。そして、そのために、男女を問わず、貴族も郷紳も、心身ともにすっかり堕落し、愛、名誉、友情、寛大さの観念を、まったく失ってしまった。そうしたものは、しばらく前から、気取ったたわごとと呼ばれ、笑って追い払われているのである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-022"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    This degeneracy of conversation, with the pernicious consequences thereof upon our humours and dispositions, hath been owing, among other causes, to the custom arisen, for some time past, of excluding women from any share in our society, further than in parties at play, or dancing, or in the pursuit of an amour. I take the highest period of politeness in England (and it is of the same date in France) to have been the peaceable part of King Charles I.’s reign; and from what we read of those times, as well as from the accounts I have formerly met with from some who lived in that court, the methods then used for raising and cultivating conversation were altogether different from ours; several ladies, whom we find celebrated by the poets of that age, had assemblies at their houses, where persons of the best understanding, and of both sexes, met to pass the evenings in discoursing upon whatever agreeable subjects were occasionally started; and although we are apt to ridicule the sublime Platonic notions they had, or personated in love and friendship, I conceive their refinements were grounded upon reason, and that a little grain of the romance is no ill ingredient to preserve and exalt the dignity of human nature, without which it is apt to degenerate into everything that is sordid, vicious, and low. If there were no other use in the conversation of ladies, it is sufficient that it would lay a restraint upon those odious topics of immodesty and indecencies, into which the rudeness of our northern genius is so apt to fall. And, therefore, it is observable in those sprightly gentlemen about the town, who are so very dexterous at entertaining a vizard mask in the park or the playhouse, that, in the company of ladies of virtue and honour, they are silent and disconcerted, and out of their element.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[298]"
+    "line_start": 4371
+    "source_sequence": 26
+  "translation_ja": |-
+    このような会話の堕落と、それが私たちの気質や性向に及ぼす有害な結果には、いくつかの原因があるが、その一つは、近年生じた、賭け事や踊りの集まり、あるいは恋愛の追求を除けば、女を私たちの交際から締め出す習慣である。イングランドでもっとも礼節が栄えた時期は、チャールズ一世の治世の、平和だったころだと私は考える。フランスでも同じ時期である。当時の記録や、その宮廷で暮らしていた人々から、以前聞いた話によれば、そのころ、会話を高め、育てるために用いられた方法は、私たちのものとは、まるで違っていた。同時代の詩人たちにたたえられている、何人かの婦人は、自宅で集まりを開いていた。そこには、男女を問わず、もっとも理解力のすぐれた人々が集まり、その場で持ち出される、どんな愉快な主題についてでも語り合い、夕べを過ごしたのである。私たちは、彼らが恋愛や友情について抱き、あるいは演じていた、高尚なプラトン風の観念を笑いがちだが、その洗練は理性に根ざしていたと私は思う。そして、ほんの少しのロマンスは、人間性の尊厳を守り、高めるための、悪くない材料である。それがなければ、人間性は、卑しく、悪く、低いものへと、いくらでも堕ちやすい。婦人と会話することに、ほかに何の効用もないとしても、わが北国の粗野な気質が、つい陥りがちな、みだらで下品な、不快な話題を抑えるだけで、十分なのである。だから、公園や芝居小屋で、仮面をつけた女を楽しませるのが、あれほど巧みな、町の陽気な紳士たちが、貞淑で名誉ある婦人たちの前では、黙り込み、うろたえ、勝手が違ってしまうのは、注目すべきことである。
+  "translation_status": "reviewed"
+- "id": "hints-towards-an-essay-on-conversation-023"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    There are some people who think they sufficiently acquit themselves and entertain their company with relating of facts of no consequence, nor at all out of the road of such common incidents as happen every day; and this I have observed more frequently among the Scots than any other nation, who are very careful not to omit the minutest circumstances of time or place; which kind of discourse, if it were not a little relieved by the uncouth terms and phrases, as well as accent and gesture peculiar to that country, would be hardly tolerable. It is not a fault in company to talk much; but to continue it long is certainly one; for, if the majority of those who are got together be naturally silent or cautious, the conversation will flag, unless it be often renewed by one among them who can start new subjects, provided he doth not dwell upon them, but leaveth room for answers and replies.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[299]"
+    "line_start": 4401
+    "source_sequence": 27
+  "translation_ja": |-
+    何の重要さもなく、毎日どこにでも起きる、ごく普通の出来事から少しも外れない事実を語るだけで、自分の役目を十分に果たし、一座を楽しませていると思う人々がいる。私は、このことを、ほかのどの国民よりも、スコットランド人の間で多く見かけた。彼らは、時や場所の、どんな細かな事情も省かないよう、たいへん気をつける。そうした話は、その国特有の、奇妙な語や言い回し、なまりや身振りに、多少救われなければ、ほとんど耐えられないだろう。人中でたくさん話すことは、欠点ではない。だが、長く話し続けることは、確かに欠点である。集まった人々の大半が、生まれつき無口であったり、用心深かったりする場合、新しい話題を持ち出せる誰かが、たびたび会話を立て直さなければ、話は途切れがちになる。ただし、その話題にいつまでも居座らず、答えや応酬の余地を残しておくことが条件である。
+  "translation_status": "reviewed"
+"notes": []
+"references": []
+"groups": []
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "swift-name"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Jonathan Swift"
+  "translation_ja": "ジョナサン・スウィフト"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+  "note_ja": "既存『樽物語』の著者名表記を踏襲。"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-20T23:40:35Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "b97ce047baf0781caa0f5c650f93dcfde301c4febd7c29bf311e47cbdacdd86c"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "1277c50ba475bbe1fd793e158145f5e46491094f"
+  "translation_method": "Codexによる原文からの新訳。既存日本語訳の転用なし。初稿完成後、見出し・副題を含む全対訳単位を原文と一回対照し、同じ読みの中で意味、否定、数量、人物、性別、皮肉、順序を確認。"
+  "drafted_segment_count": 24
+  "next_segment_id": null
+  "full_review_segment_ids":
+  - "hints-towards-an-essay-on-conversation-title"
+  - "hints-towards-an-essay-on-conversation-001"
+  - "hints-towards-an-essay-on-conversation-002"
+  - "hints-towards-an-essay-on-conversation-003"
+  - "hints-towards-an-essay-on-conversation-004"
+  - "hints-towards-an-essay-on-conversation-005"
+  - "hints-towards-an-essay-on-conversation-006"
+  - "hints-towards-an-essay-on-conversation-007"
+  - "hints-towards-an-essay-on-conversation-008"
+  - "hints-towards-an-essay-on-conversation-009"
+  - "hints-towards-an-essay-on-conversation-010"
+  - "hints-towards-an-essay-on-conversation-011"
+  - "hints-towards-an-essay-on-conversation-012"
+  - "hints-towards-an-essay-on-conversation-013"
+  - "hints-towards-an-essay-on-conversation-014"
+  - "hints-towards-an-essay-on-conversation-015"
+  - "hints-towards-an-essay-on-conversation-016"
+  - "hints-towards-an-essay-on-conversation-017"
+  - "hints-towards-an-essay-on-conversation-018"
+  - "hints-towards-an-essay-on-conversation-019"
+  - "hints-towards-an-essay-on-conversation-020"
+  - "hints-towards-an-essay-on-conversation-021"
+  - "hints-towards-an-essay-on-conversation-022"
+  - "hints-towards-an-essay-on-conversation-023"
+  "full_review_corrections_ja":
+  - "第10段落の主語と修飾関係を日本語で明確化。"

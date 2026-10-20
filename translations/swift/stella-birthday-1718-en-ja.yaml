@@ -1,0 +1,256 @@
+schema_version: '2.0'
+work_id: swift-stella-birthday-1718
+metadata:
+  title_ja: ステラの誕生日、一七一八年
+  title_original: Stella’s Birthday, 1718
+  original_languages:
+  - en
+  target_language: ja
+  contributors:
+  - id: swift
+    name_ja: ジョナサン・スウィフト
+    name_original: Jonathan Swift
+    roles:
+    - author
+  - id: morley
+    name_ja: ヘンリー・モーリー
+    name_original: Henry Morley
+    roles:
+    - editor
+  - id: translator
+    name_ja: 心霊研究家ポロミン
+    name_original: null
+    roles:
+    - translator
+    url: https://x.com/cacazu_right
+  translation_rights:
+    status: unknown
+    attribution: 心霊研究家ポロミン
+    note_ja: この新訳の利用条件は未指定。
+  genres:
+  - 文学
+  - 詩
+  reader_notes_ja:
+  - 一七一八年の誕生日に寄せた詩。原題と全十八行を、底本の八行・十行の二連に従って収録する。
+  - 第十七行の異読と訳の解釈を訳注に記した。
+sources:
+- id: gutenberg-623
+  role: primary
+  title: The Battle of the Books, and Other Short Pieces
+  languages:
+  - en
+  url: https://www.gutenberg.org/files/623/623-h/623-h.htm
+  edition: Henry Morley編、Cassell & Company、1886年版。David PriceによるProject Gutenberg eBook 623の翻刻。取得したHTML内の公開日は2007年1月15日。
+  contributor_ids:
+  - swift
+  - morley
+  work_rights:
+    status: public_domain
+    jurisdiction: US
+    evidence_url: https://www.gutenberg.org/ebooks/623
+    note_ja: Project Gutenberg書誌は米国でパブリックドメインと表示。著者は1745年没、編者は1894年没。
+  transcription_rights:
+    status: licensed
+    license_id: LicenseRef-Project-Gutenberg
+    license_url: https://www.gutenberg.org/policy/license.html
+    attribution: Transcribed by David Price
+  description_ja: 2026年10月21日取得のHTML所収「STELLA’S BIRTHDAY, 1718.」。原詩の行分け・連の区切りを保持。
+- id: wikisource-1801
+  role: comparison
+  title: 'The Works of the Rev. Jonathan Swift, Volume 7: Stella''s Birthday, 1718–19'
+  languages:
+  - en
+  url: https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Stella's_Birthday,_1718-9
+  edition: Sheridan・Nichols編、1801年版、第7巻。印字日付はMarch 15, 1718–19。
+  work_rights:
+    status: public_domain
+    evidence_url: https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Stella's_Birthday,_1718-9
+    note_ja: Wikisourceの原典公有表示。
+  transcription_rights:
+    status: unknown
+    note_ja: 電子翻刻の付加的編集要素の利用条件は未確認。原詩第十七行の異読の照合に限る。
+scope:
+  included:
+  - source_id: gutenberg-623
+    description_ja: 「STELLA’S BIRTHDAY, 1718.」の見出しと本文全十八行。
+    section_ids:
+    - stella-birthday-1718
+  - source_id: wikisource-1801
+    description_ja: 原詩第十七行の異読を照合。全文の底本としては用いない。
+  excluded:
+  - source_id: gutenberg-623
+    description_ja: 同じ論集の他の作品、編者の序論、刊記と電子版の利用案内。他の年の誕生日詩は別作品として扱う。
+  known_gaps: []
+sections:
+- id: stella-birthday-1718
+  parent_id: null
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - sb1718-heading
+- id: translator-notes
+  parent_id: null
+  kind: editorial_group
+  origin: editorial
+  label_ja: 訳注
+  heading_segment_ids: []
+segments:
+- id: sb1718-heading
+  section_id: stella-birthday-1718
+  kind: heading
+  origin: source
+  source_text: STELLA’S BIRTHDAY, 1718.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-623
+    precision: block
+    url: https://www.gutenberg.org/files/623/623-h/623-h.htm
+    xpath: /html/body/h2[14]
+    source_sequence: 0
+  translation_ja: ステラの誕生日、一七一八年
+  translation_status: reviewed
+- id: sb1718-stanza-1
+  section_id: stella-birthday-1718
+  kind: verse
+  origin: source
+  source_text: 'Stella this day is thirty-four
+
+    (We shan’t dispute a year or more)
+
+    However, Stella, be not troubled,
+
+    Although thy size and years are doubled
+
+    Since first I saw thee at sixteen,
+
+    The brightest virgin on the green.
+
+    So little is thy form declined;
+
+    Made up so largely in thy mind.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-623
+    precision: block
+    url: https://www.gutenberg.org/files/623/623-h/623-h.htm
+    xpath: /html/body/p[190]
+    source_sequence: 1
+  translation_ja: 'ステラは今日で三十四。
+
+    （一つ二つの違いは、言い合うまい。）
+
+    それでもステラ、気にすることはない。
+
+    体つきも年齢も、二倍になったとはいえ、
+
+    私が初めて会った十六のころ、
+
+    野に集う娘たちの中で、君はいちばん輝いていた。
+
+    姿かたちの衰えはほんのわずか、
+
+    心の豊かさが、あり余るほど埋め合わせている。'
+  translation_status: reviewed
+- id: sb1718-stanza-2
+  section_id: stella-birthday-1718
+  kind: verse
+  origin: source
+  source_text: 'Oh, would it please the gods to split
+
+    Thy beauty, size, and years, and wit,
+
+    No age could furnish out a pair
+
+    Of nymphs so graceful, wise, and fair:
+
+    With half the lustre of your eyes,
+
+    With half your wit, your years, and size.
+
+    And then, before it grew too late,
+
+    How should I beg of gentle fate,
+
+    (That either nymph might lack her swain),
+
+    To split my worship too in twain.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-623
+    precision: block
+    url: https://www.gutenberg.org/files/623/623-h/623-h.htm
+    xpath: /html/body/p[191]
+    source_sequence: 2
+  translation_ja: 'ああ、神々が分けてくださるなら、
+
+    君の美しさも、体つきも、年齢も、才知も。
+
+    どんな時代を探しても、こんな二人の乙女はいまい、
+
+    これほど気品があり、賢く、美しい乙女たちは。
+
+    君の瞳の輝きも半分ずつ、
+
+    才知も、年齢も、体つきも半分ずつなのに。
+
+    そのとき私は、手遅れになる前に、
+
+    優しい運命の神に、どれほど願うことだろう、
+
+    （どちらかの乙女が、恋人なしになってはと、）
+
+    どうかこの私も、二つに分けてほしいと。'
+  translation_status: reviewed
+  source_variants:
+  - kind: comparison
+    text: That either nymph might have her swain,
+    source_locations:
+    - source_id: wikisource-1801
+      precision: work
+      url: https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Stella's_Birthday,_1718-9
+    description_ja: 原詩第十七行のみの異読。翻訳底本はlack、1801年版はhave。
+- id: sb1718-variant-note
+  section_id: translator-notes
+  kind: note_body
+  origin: translator
+  source_text: null
+  source_languages: []
+  source_locations: []
+  translation_ja: 第十七行の底本の語句は「どちらかの乙女が恋人を欠くかもしれない」。自分も二人になって相手を務めるという文脈から、欠けてしまうことを案じる意味に訳した。1801年版では「どちらの乙女にも恋人がいるように」となっている。
+  translation_status: reviewed
+groups:
+- id: sb1718-poem
+  kind: poem
+  members:
+  - segment_id: sb1718-stanza-1
+  - segment_id: sb1718-stanza-2
+  separator: '
+
+
+    '
+workflow:
+  stage: ready
+  full_review:
+    status: complete
+    completed_at: '2026-10-20T23:41:37.441979Z'
+    reviewed_by: Codex（完稿後の原題・全十八行対照。第十七行の訳・異読・訳注と前後を再確認）
+    content_sha256: 5437b2e6e2ea1efc677fb38de2d028f366eb75654efede71be646e729cd25a95
+notes:
+- id: sb1718-note-1
+  origin: translator
+  label: '1'
+  body:
+  - segment_id: sb1718-variant-note
+references:
+- id: sb1718-reference-1
+  kind: note
+  origin: translator
+  status: verified
+  from:
+    segment_id: sb1718-stanza-2
+  to:
+    type: note
+    id: sb1718-note-1

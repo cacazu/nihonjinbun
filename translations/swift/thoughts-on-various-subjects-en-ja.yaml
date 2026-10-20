@@ -1,0 +1,1935 @@
+"schema_version": "2.0"
+"work_id": "swift-thoughts-on-various-subjects"
+"metadata":
+  "title_ja": "さまざまな主題についての考察"
+  "title_original": "Thoughts on Various Subjects"
+  "original_languages":
+  - "en"
+  - "la"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "morley"
+    "name_ja": "ヘンリー・モーリー"
+    "name_original": "Henry Morley"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。原著と電子翻刻の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "随筆"
+  - "風刺"
+  "reader_notes_ja":
+  - "1886年Cassell & Company版の英語電子翻刻に基づく。見出しと本文全95段落を収録。底本で反復される格言も、収録順どおり保持する。"
+"sources":
+- "id": "gutenberg-623"
+  "role": "primary"
+  "title": "The Battle of the Books, and Other Short Pieces"
+  "languages":
+  - "en"
+  - "la"
+  "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+  "edition": "ヘンリー・モーリー編、Cassell & Company、1886年版。Project Gutenberg eBook 623の旧HTML。HTML内の公開日記載は2007年1月15日。"
+  "contributor_ids":
+  - "swift"
+  - "morley"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/623"
+    "note_ja": "著者1745年没、編者1894年没の1886年刊本。Project Gutenberg書誌は米国でパブリックドメインと表示。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "Transcribed from the 1886 Cassell & Company edition by David Price."
+    "note_ja": "原著の著作権状態と、Project Gutenbergの商標・電子版配布条件を区別する。"
+  "sha256": "6362b44a9f5703d1c2a3d10313ead9c9e124f845d138d725e602b6f1bf630517"
+  "description_ja": "2007年1月15日と記載された旧HTMLを2026年10月21日に取得。現在のcache版と混同しない。HTMLの段落内改行と連続する組版用空白を単一空白に整理し、各h2・pの境界と語句を保持。選定3篇内の通し原文順をsource_sequenceとし、元HTMLのXPathと開始行を併記。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-623"
+    "description_ja": "見出しと本文全95段落を収録。底本で反復される格言も、収録順どおり保持する。"
+    "section_ids":
+    - "work"
+  "excluded":
+  - "source_id": "gutenberg-623"
+    "description_ja": "同一巻の他作品、巻全体の標題紙・編者序文・目次、電子版の利用案内・開始終了表示・末尾利用条件。対象作品の本文は省略しない。"
+  "known_gaps": []
+"sections":
+- "id": "work"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "thoughts-on-various-subjects-title"
+  "origin": "source"
+"segments":
+- "id": "thoughts-on-various-subjects-title"
+  "section_id": "work"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    THOUGHTS ON VARIOUS SUBJECTS.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[25]"
+    "line_start": 4416
+    "source_sequence": 28
+  "translation_ja": |-
+    さまざまな主題についての考察
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-001"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    We have just enough religion to make us hate, but not enough to make us love one another.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[300]"
+    "line_start": 4417
+    "source_sequence": 29
+  "translation_ja": |-
+    私たちの信仰は、互いに憎み合うには十分だが、愛し合うには足りない。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-002"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Reflect on things past as wars, negotiations, factions, etc. We enter so little into those interests, that we wonder how men could possibly be so busy and concerned for things so transitory; look on the present times, we find the same humour, yet wonder not at all.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[301]"
+    "line_start": 4419
+    "source_sequence": 30
+  "translation_ja": |-
+    戦争、交渉、党派争いなど、過去の出来事を考えてみよう。私たちは、その利害にほとんど関わりがないので、あれほどはかないものに、人々がどうしてあれほど忙しく立ち回り、心を砕けたのかと、不思議に思う。今の時代を見ると、同じ気質が見つかるのに、少しも不思議に思わない。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-003"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    A wise man endeavours, by considering all circumstances, to make conjectures and form conclusions; but the smallest accident intervening (and in the course of affairs it is impossible to foresee all) does often produce such turns and changes, that at last he is just as much in doubt of events as the most ignorant and inexperienced person.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[302]"
+    "line_start": 4424
+    "source_sequence": 31
+  "translation_ja": |-
+    賢い人は、あらゆる事情を考慮して、推測し、結論を出そうと努める。だが、ほんの小さな偶然が割り込むと――物事の成り行きでは、すべてを予見するのは不可能である――思いもよらない転換や変化がしばしば起こり、しまいには、もっとも無知で経験のない者と、まったく同じくらい、結果がわからなくなる。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-004"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Positiveness is a good quality for preachers and orators, because he that would obtrude his thoughts and reasons upon a multitude, will convince others the more, as he appears convinced himself.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[303]"
+    "line_start": 4430
+    "source_sequence": 32
+  "translation_ja": |-
+    断言する態度は、説教師や弁論家にとっては、よい資質である。自分の考えや理屈を大勢に押しつけようとする者は、自分自身が確信しているように見えるほど、他人を納得させられるからだ。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-005"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    How is it possible to expect that mankind will take advice, when they will not so much as take warning?
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[304]"
+    "line_start": 4434
+    "source_sequence": 33
+  "translation_ja": |-
+    人間は警告にさえ耳を貸さないのに、忠告を聞くと期待できるはずがあろうか。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-006"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I forget whether Advice be among the lost things which Aristo says are to be found in the moon; that and Time ought to have been there.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[305]"
+    "line_start": 4436
+    "source_sequence": 34
+  "translation_ja": |-
+    アリストが、月に見つかると言っている、なくした物の中に、忠告があったかどうかは忘れた。忠告と時間は、そこにあるべきだった。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-007"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    No preacher is listened to but Time, which gives us the same train and turn of thought that older people have tried in vain to put into our heads before.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[306]"
+    "line_start": 4439
+    "source_sequence": 35
+  "translation_ja": |-
+    人が耳を貸す説教師は、時のほかにない。時は、年長者たちが以前、いくら頭に入れようとしても無駄だったのと同じ、考えの筋道や向きを、私たちに与える。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-008"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    When we desire or solicit anything, our minds run wholly on the good side or circumstances of it; when it is obtained, our minds run wholly on the bad ones.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[307]"
+    "line_start": 4442
+    "source_sequence": 36
+  "translation_ja": |-
+    何かを欲しがったり、求めたりしている間、心は、そのよい側面や事情ばかりを追う。手に入れると、悪いほうばかりを追う。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-009"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    In a glass-house the workmen often fling in a small quantity of fresh coals, which seems to disturb the fire, but very much enlivens it. This seems to allude to a gentle stirring of the passions, that the mind may not languish.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[308]"
+    "line_start": 4445
+    "source_sequence": 37
+  "translation_ja": |-
+    ガラス工場では、職人たちが、新しい石炭を少しずつ、しばしば炉に投げ込む。火を乱すように見えるが、たいへんよく燃え立たせる。これは、心が衰えないように、情念を穏やかに揺り動かすことを、暗示しているように思える。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-010"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Religion seems to have grown an infant with age, and requires miracles to nurse it, as it had in its infancy.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[309]"
+    "line_start": 4449
+    "source_sequence": 38
+  "translation_ja": |-
+    信仰は、年を取るにつれて幼子に戻り、その幼いころと同じように、養ってもらうための奇跡を必要とするようになったらしい。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-011"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    All fits of pleasure are balanced by an equal degree of pain or languor; it is like spending this year part of the next year’s revenue.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[310]"
+    "line_start": 4451
+    "source_sequence": 39
+  "translation_ja": |-
+    快楽の高まりは、どれも、それと同じだけの苦痛や倦怠で差し引きされる。今年のうちに、来年の収入の一部を使ってしまうようなものだ。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-012"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The latter part of a wise man’s life is taken up in curing the follies, prejudices, and false opinions he had contracted in the former.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[311]"
+    "line_start": 4454
+    "source_sequence": 40
+  "translation_ja": |-
+    賢い人の人生の後半は、前半に身につけてしまった、愚かさ、偏見、誤った意見を治すことに費やされる。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-013"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Would a writer know how to behave himself with relation to posterity, let him consider in old books what he finds that he is glad to know, and what omissions he most laments.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[312]"
+    "line_start": 4457
+    "source_sequence": 41
+  "translation_ja": |-
+    著述家が、後世に対してどう振る舞うべきか知りたければ、古い本の中で、何を知ってよかったと思い、何が書かれていないのを、もっとも残念に思うかを、考えればよい。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-014"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Whatever the poets pretend, it is plain they give immortality to none but themselves; it is Homer and Virgil we reverence and admire, not Achilles or Æneas. With historians it is quite the contrary; our thoughts are taken up with the actions, persons, and events we read, and we little regard the authors.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[313]"
+    "line_start": 4460
+    "source_sequence": 42
+  "translation_ja": |-
+    詩人が何を言おうと、彼らが不滅にするのは、自分自身だけだということは明らかだ。私たちが敬い、感嘆するのは、ホメロスとウェルギリウスであって、アキレウスやアエネアスではない。歴史家の場合は、まったく逆である。私たちの考えは、読んでいる行為、人物、出来事で占められ、著者のことは、ほとんど気にしない。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-015"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    When a true genius appears in the world you may know him by this sign; that the dunces are all in confederacy against him.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[314]"
+    "line_start": 4466
+    "source_sequence": 43
+  "translation_ja": |-
+    真の天才が世に現れたときは、このしるしで、それとわかる。愚か者たちが、こぞって結託し、その人に反対するのである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-016"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Men who possess all the advantages of life, are in a state where there are many accidents to disorder and discompose, but few to please them.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[315]"
+    "line_start": 4469
+    "source_sequence": 44
+  "translation_ja": |-
+    人生の恵みをすべて手にしている者は、心を乱し、落ち着きを失わせる偶然は数多くあるが、喜ばせてくれる偶然は少ない、という境遇にいる。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-017"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    It is unwise to punish cowards with ignominy, for if they had regarded that they would not have been cowards; death is their proper punishment, because they fear it most.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[316]"
+    "line_start": 4472
+    "source_sequence": 45
+  "translation_ja": |-
+    臆病者を恥辱で罰するのは、賢明ではない。恥辱を気にする者だったなら、臆病者にはならなかったからだ。ふさわしい罰は死である。本人が、もっとも恐れているものだからだ。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-018"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The greatest inventions were produced in the times of ignorance, as the use of the compass, gunpowder, and printing, and by the dullest nation, as the Germans.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[317]"
+    "line_start": 4475
+    "source_sequence": 46
+  "translation_ja": |-
+    羅針盤の使用、火薬、印刷術といった、もっとも偉大な発明は、無知の時代に、しかもドイツ人のような、もっとも鈍い国民によって生み出された。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-019"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    One argument to prove that the common relations of ghosts and spectres are generally false, may be drawn from the opinion held that spirits are never seen by more than one person at a time; that is to say, it seldom happens to above one person in a company to be possessed with any high degree of spleen or melancholy.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[318]"
+    "line_start": 4478
+    "source_sequence": 47
+  "translation_ja": |-
+    幽霊や亡霊についての、よくある話がおおむね嘘だと証明する論拠の一つは、霊は同時に二人以上の人間には見えない、という通念から得られる。つまり、一つの集まりで、強い憂鬱や沈鬱に取りつかれている者が、二人以上いることは、めったにないということだ。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-020"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I am apt to think that, in the day of Judgment, there will be small allowance given to the wise for their want of morals, nor to the ignorant for their want of faith, because both are without excuse. This renders the advantages equal of ignorance and knowledge. But, some scruples in the wise, and some vices in the ignorant, will perhaps be forgiven upon the strength of temptation to each.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[319]"
+    "line_start": 4484
+    "source_sequence": 48
+  "translation_ja": |-
+    最後の審判の日には、賢い者の不道徳にも、無知な者の不信仰にも、ほとんど酌量は与えられないだろうと、私は思う。どちらにも、言い訳がないからである。これで、無知と知識の利点は等しくなる。ただし、賢い者の疑念の一部と、無知な者の悪徳の一部は、それぞれの誘惑の強さを考慮して、赦されるかもしれない。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-021"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The value of several circumstances in story lessens very much by distance of time, though some minute circumstances are very valuable; and it requires great judgment in a writer to distinguish.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[320]"
+    "line_start": 4491
+    "source_sequence": 49
+  "translation_ja": |-
+    物語のさまざまな細部の価値は、時が隔たるにつれて、たいへん小さくなる。とはいえ、ごく細かな事情でも、たいへん価値のあるものがある。両者を見分けるには、書き手に大きな判断力が必要だ。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-022"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    It is grown a word of course for writers to say, “This critical age,” as divines say, “This sinful age.”
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[321]"
+    "line_start": 4495
+    "source_sequence": 50
+  "translation_ja": |-
+    聖職者が「この罪深い時代」と言うように、著述家が「この批評の時代」と言うのは、もう決まり文句になった。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-023"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    It is pleasant to observe how free the present age is in laying taxes on the next. Future ages shall talk of this; this shall be famous to all posterity. Whereas their time and thoughts will be taken up about present things, as ours are now.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[322]"
+    "line_start": 4498
+    "source_sequence": 51
+  "translation_ja": |-
+    今の時代が、次の時代に、なんと気軽に税を課すかを見るのは、おもしろい。後の時代は、このことを語るだろう、これは末代まで名高いものになるだろう、と言う。しかし、後世の人々の時間と思考は、今の私たちと同じく、目の前の事柄で占められるのだ。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-024"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The chameleon, who is said to feed upon nothing but air, hath, of all animals, the nimblest tongue.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[323]"
+    "line_start": 4503
+    "source_sequence": 52
+  "translation_ja": |-
+    空気以外は何も食べないと言われるカメレオンは、あらゆる動物の中で、もっともよく回る舌を持っている。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-025"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    When a man is made a spiritual peer he loses his surname; when a temporal, his Christian name.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[324]"
+    "line_start": 4505
+    "source_sequence": 53
+  "translation_ja": |-
+    聖職貴族になると、男は姓を失う。世俗貴族になると、洗礼名を失う。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-026"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    It is in disputes as in armies, where the weaker side sets up false lights, and makes a great noise, to make the enemy believe them more numerous and strong than they really are.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[325]"
+    "line_start": 4507
+    "source_sequence": 54
+  "translation_ja": |-
+    論争は、軍隊と同じである。弱い側ほど、偽の明かりを掲げ、大きな物音を立てて、実際よりも数が多く、強いのだと、敵に思わせようとする。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-027"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Some men, under the notions of weeding out prejudices, eradicate virtue, honesty, and religion.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[326]"
+    "line_start": 4510
+    "source_sequence": 55
+  "translation_ja": |-
+    偏見を取り除くという考えのもとに、徳、正直さ、信仰を根こそぎにする者もいる。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-028"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    In all well-instituted commonwealths, care has been taken to limit men’s possessions; which is done for many reasons, and among the rest, for one which perhaps is not often considered: that when bounds are set to men’s desires, after they have acquired as much as the laws will permit them, their private interest is at an end, and they have nothing to do but to take care of the public.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[327]"
+    "line_start": 4512
+    "source_sequence": 56
+  "translation_ja": |-
+    よく整えられた国家では、どこでも、人々の所有財産に限度を設けるよう、配慮してきた。理由はいろいろあるが、その中には、おそらく、あまり考慮されないものが一つある。人々の欲望に境を定めれば、法律が許すだけのものを手に入れた後には、私的な利益はそこで尽き、あとは公共のことを気にかける以外、することがなくなる、という理由である。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-029"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    There are but three ways for a man to revenge himself of the censure of the world: to despise it, to return the like, or to endeavour to live so as to avoid it. The first of these is usually pretended, the last is almost impossible; the universal practice is for the second.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[328]"
+    "line_start": 4519
+    "source_sequence": 57
+  "translation_ja": |-
+    世間の非難に仕返しする方法は、三つしかない。それを軽蔑すること、同じものを返すこと、あるいは、非難を避けられるように生きようと努めることだ。第一の方法は、たいてい、そう見せかけているだけであり、最後の方法は、ほとんど不可能である。広く行われているのは、第二の方法だ。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-030"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I never heard a finer piece of satire against lawyers than that of astrologers, when they pretend by rules of art to tell when a suit will end, and whether to the advantage of the plaintiff or defendant; thus making the matter depend entirely upon the influence of the stars, without the least regard to the merits of the cause.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[329]"
+    "line_start": 4524
+    "source_sequence": 58
+  "translation_ja": |-
+    弁護士に対する風刺で、占星術師のするものほど見事なものを、私は聞いたことがない。占星術師は、その技術の法則によって、訴訟がいつ終わり、原告と被告のどちらに有利な結果となるかを、言い当てるという。そうして、訴えの正当性には少しもかまわず、何もかも星の影響に左右されることにしてしまうのである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-031"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The expression in Apocrypha about Tobit and his dog following him I have often heard ridiculed, yet Homer has the same words of Telemachus more than once; and Virgil says something like it of Evander. And I take the book of Tobit to be partly poetical.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[330]"
+    "line_start": 4530
+    "source_sequence": 59
+  "translation_ja": |-
+    外典の、トビトと、その後をついて行く犬についての表現が、笑いものにされるのを、何度も聞いた。だが、ホメロスはテレマコスについて、同じ言葉を一度ならず使っているし、ウェルギリウスも、エウアンドロスについて、似たことを言っている。そして私は、『トビト記』には、詩的なところもあると考える。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-032"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I have known some men possessed of good qualities, which were very serviceable to others, but useless to themselves; like a sun-dial on the front of a house, to inform the neighbours and passengers, but not the owner within.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[331]"
+    "line_start": 4535
+    "source_sequence": 60
+  "translation_ja": |-
+    他人にはたいへん役立つが、自分には役立たない長所を持つ人を、私は何人か知っている。家の正面に取りつけられた日時計のようなものだ。近所の人や通行人には時刻を知らせるが、中にいる家の主人には知らせない。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-033"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    If a man would register all his opinions upon love, politics, religion, learning, etc., beginning from his youth and so go on to old age, what a bundle of inconsistencies and contradictions would appear at last!
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[332]"
+    "line_start": 4539
+    "source_sequence": 61
+  "translation_ja": |-
+    恋愛、政治、信仰、学問などについての意見を、若いころから老年まで、すべて書き留めていったなら、最後には、どれほど不一致と矛盾の束ができあがることだろう。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-034"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    What they do in heaven we are ignorant of; what they do not we are told expressly: that they neither marry, nor are given in marriage.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[333]"
+    "line_start": 4543
+    "source_sequence": 62
+  "translation_ja": |-
+    天国で人々が何をするのか、私たちは知らない。何をしないかは、はっきり教えられている。めとることも、嫁ぐこともないのである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-035"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    It is a miserable thing to live in suspense; it is the life of a spider.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[334]"
+    "line_start": 4546
+    "source_sequence": 63
+  "translation_ja": |-
+    宙ぶらりんで暮らすのは、惨めなことだ。それは、蜘蛛の生き方である。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-036"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The Stoical scheme of supplying our wants by lopping off our desires, is like cutting off our feet when we want shoes.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[335]"
+    "line_start": 4548
+    "source_sequence": 64
+  "translation_ja": |-
+    欲望を切り落として不足を満たすという、ストア派のやり方は、靴がないときに足を切り落とすようなものだ。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-037"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Physicians ought not to give their judgment of religion, for the same reason that butchers are not admitted to be jurors upon life and death.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[336]"
+    "line_start": 4550
+    "source_sequence": 65
+  "translation_ja": |-
+    医師は、信仰について判断を下すべきではない。肉屋が、人の生死を決める陪審員に認められないのと、同じ理由からである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-038"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The reason why so few marriages are happy, is, because young ladies spend their time in making nets, not in making cages.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[337]"
+    "line_start": 4553
+    "source_sequence": 66
+  "translation_ja": |-
+    幸せな結婚がこれほど少ないのは、若い婦人たちが、籠ではなく、網を作ることに時間を費やすからである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-039"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    If a man will observe as he walks the streets, I believe he will find the merriest countenances in mourning coaches.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[338]"
+    "line_start": 4555
+    "source_sequence": 67
+  "translation_ja": |-
+    街を歩くとき、よく気をつけて見るなら、もっとも陽気な顔は、葬列の馬車の中で見つかるだろうと、私は思う。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-040"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Nothing more unqualifies a man to act with prudence than a misfortune that is attended with shame and guilt.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[339]"
+    "line_start": 4557
+    "source_sequence": 68
+  "translation_ja": |-
+    恥と罪悪感を伴う不幸ほど、人から賢明に行動する力を奪うものはない。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-041"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The power of fortune is confessed only by the miserable; for the happy impute all their success to prudence or merit.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[340]"
+    "line_start": 4559
+    "source_sequence": 69
+  "translation_ja": |-
+    運命の力を認めるのは、不幸な者だけだ。幸福な者は、すべての成功を、自分の用心や功績のおかげにするからである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-042"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Ambition often puts men upon doing the meanest offices; so climbing is performed in the same posture with creeping.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[341]"
+    "line_start": 4561
+    "source_sequence": 70
+  "translation_ja": |-
+    野心は、しばしば人に、もっとも卑しい役目をさせる。上へよじ登るのも、地をはうのも、姿勢は同じなのである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-043"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Censure is the tax a man pays to the public for being eminent.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[342]"
+    "line_start": 4563
+    "source_sequence": 71
+  "translation_ja": |-
+    非難とは、人が抜きんでた存在であるために、社会へ払う税である。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-044"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Although men are accused for not knowing their own weakness, yet perhaps as few know their own strength. It is, in men as in soils, where sometimes there is a vein of gold which the owner knows not of.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[343]"
+    "line_start": 4565
+    "source_sequence": 72
+  "translation_ja": |-
+    人は自分の弱さを知らないと非難されるが、自分の強さを知っている者も、同じくらい少ないのかもしれない。人間も、土地と同じである。ときには、持ち主の知らない金の鉱脈が、隠れている。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-045"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Satire is reckoned the easiest of all wit, but I take it to be otherwise in very bad times: for it is as hard to satirise well a man of distinguished vices, as to praise well a man of distinguished virtues. It is easy enough to do either to people of moderate characters.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[344]"
+    "line_start": 4569
+    "source_sequence": 73
+  "translation_ja": |-
+    風刺は、あらゆる機知の中で、もっともたやすいものとされる。だが、たいへん悪い時代には、そうではないと私は考える。悪徳の際立った人を、うまく風刺するのは、美徳の際立った人を、うまく称賛するのと、同じくらい難しいからである。ほどほどの人物なら、どちらも、たやすい。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-046"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Invention is the talent of youth, and judgment of age; so that our judgment grows harder to please, when we have fewer things to offer it: this goes through the whole commerce of life. When we are old, our friends find it difficult to please us, and are less concerned whether we be pleased or no.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[345]"
+    "line_start": 4574
+    "source_sequence": 74
+  "translation_ja": |-
+    創意は若者の才であり、判断力は老人の才である。だから、自分の判断力に差し出せるものが減るころには、判断力のほうは、ますます満足させにくくなる。これは、人生のあらゆる付き合いに当てはまる。年を取ると、友人たちは、私たちを喜ばせるのを難しく感じるようになり、私たちが喜ぶかどうかを、あまり気にしなくなる。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-047"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    No wise man ever wished to be younger.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[346]"
+    "line_start": 4579
+    "source_sequence": 75
+  "translation_ja": |-
+    賢い人で、もっと若ければと願った者は、一人もいない。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-048"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    An idle reason lessens the weight of the good ones you gave before.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[347]"
+    "line_start": 4580
+    "source_sequence": 76
+  "translation_ja": |-
+    つまらない理由を一つ出せば、それまでに挙げた、よい理由の重みを減らしてしまう。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-049"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The motives of the best actions will not bear too strict an inquiry. It is allowed that the cause of most actions, good or bad, may he resolved into the love of ourselves; but the self-love of some men inclines them to please others, and the self-love of others is wholly employed in pleasing themselves. This makes the great distinction between virtue and vice. Religion is the best motive of all actions, yet religion is allowed to be the highest instance of self-love.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[348]"
+    "line_start": 4582
+    "source_sequence": 77
+  "translation_ja": |-
+    最善の行いの動機も、あまりに厳しい詮索には耐えられない。善悪を問わず、大半の行為の原因は、自己愛に帰着させられると認められている。だが、ある人の自己愛は、他人を喜ばせるほうへ向かい、別の人の自己愛は、ひたすら自分を喜ばせることに費やされる。徳と悪徳を大きく分けるのは、この違いである。信仰は、あらゆる行動の最良の動機である。それでも信仰は、自己愛の最高の例だと認められている。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-050"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Old men view best at a distance with the eyes of their understanding as well as with those of nature.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[349]"
+    "line_start": 4590
+    "source_sequence": 78
+  "translation_ja": |-
+    老人は、自然の目でも、理解の目でも、遠くのものが、もっともよく見える。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-051"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Some people take more care to hide their wisdom than their folly.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[350]"
+    "line_start": 4592
+    "source_sequence": 79
+  "translation_ja": |-
+    自分の愚かさを隠すより、自分の知恵を隠すことに、気を遣う人もいる。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-052"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Anthony Henley’s farmer, dying of an asthma, said, “Well, if I can get this breath once out, I’ll take care it never got in again.”
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[351]"
+    "line_start": 4594
+    "source_sequence": 80
+  "translation_ja": |-
+    アンソニー・ヘンリーの小作人は、喘息で死にかけていたとき、こう言った。「よし、この息を一度吐き出せたら、二度と入ってこないようにしてやるぞ。」
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-053"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The humour of exploding many things under the name of trifles, fopperies, and only imaginary goods, is a very false proof either of wisdom or magnanimity, and a great check to virtuous actions. For instance, with regard to fame, there is in most people a reluctance and unwillingness to be forgotten. We observe, even among the vulgar, how fond they are to have an inscription over their grave. It requires but little philosophy to discover and observe that there is no intrinsic value in all this; however, if it be founded in our nature as an incitement to virtue, it ought not to be ridiculed.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[352]"
+    "line_start": 4597
+    "source_sequence": 81
+  "translation_ja": |-
+    多くのものを、つまらぬこと、気取り、想像上の善にすぎないものとして退ける気風は、知恵や度量の大きさの、まったく当てにならない証拠であり、徳ある行為を大いに妨げる。たとえば、名声について言えば、大半の人々には、忘れられるのを嫌がり、ためらう気持ちがある。庶民の間でさえ、墓に銘を刻みたがるのが見られる。こうしたものに、それ自体の価値はないと見抜き、指摘するのに、大した哲学はいらない。それでも、徳を促すものとして、人間の本性に根ざしているのなら、笑いものにすべきではない。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-054"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Complaint is the largest tribute heaven receives, and the sincerest part of our devotion.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[353]"
+    "line_start": 4607
+    "source_sequence": 82
+  "translation_ja": |-
+    不平は、天が受け取る最大の貢ぎ物であり、私たちの祈りの、もっとも心のこもった部分である。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-055"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The common fluency of speech in many men, and most women, is owing to a scarcity of matter, and a scarcity of words; for whoever is a master of language, and hath a mind full of ideas, will be apt, in speaking, to hesitate upon the choice of both; whereas common speakers have only one set of ideas, and one set of words to clothe them in, and these are always ready at the mouth. So people come faster out of a church when it is almost empty, than when a crowd is at the door.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[354]"
+    "line_start": 4609
+    "source_sequence": 83
+  "translation_ja": |-
+    多くの男と、大半の女に、ごく普通に見られる、よどみない話しぶりは、話す中身の乏しさと、言葉の乏しさによる。言葉を使いこなし、頭が考えで満ちている者は、話すときに、どちらを選ぶかで、ためらいがちになるからだ。一方、普通の話し手には、一そろいの考えと、それを着飾らせる一そろいの言葉しかなく、いつでも口元に用意されている。教会が、ほとんど空になっているときのほうが、戸口に群衆が詰まっているときより、人々が早く出てこられるのと、同じことである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-056"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Few are qualified to shine in company; but it is in most men’s power to be agreeable. The reason, therefore, why conversation runs so low at present, is not the defect of understanding, but pride, vanity, ill-nature, affectation, singularity, positiveness, or some other vice, the effect of a wrong education.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[355]"
+    "line_start": 4617
+    "source_sequence": 84
+  "translation_ja": |-
+    人中で光彩を放てる者は少ないが、感じのよい人になることは、大抵の人にできる。だから、今の会話がこれほど低調なのは、理解力が足りないからではない。高慢、虚栄、意地の悪さ、気取り、奇癖、独断、あるいは、そのほかの悪癖のためである。誤った教育の結果だ。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-057"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    To be vain is rather a mark of humility than pride. Vain men delight in telling what honours have been done them, what great company they have kept, and the like, by which they plainly confess that these honours were more than their due, and such as their friends would not believe if they had not been told: whereas a man truly proud thinks the greatest honours below his merit, and consequently scorns to boast. I therefore deliver it as a maxim, that whoever desires the character of a proud man, ought to conceal his vanity.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[356]"
+    "line_start": 4623
+    "source_sequence": 85
+  "translation_ja": |-
+    虚栄心があるのは、高慢というより、むしろ謙虚さのしるしである。虚栄心の強い者は、どんな名誉を受けたか、どんな偉い人々と付き合ったか、といった話を喜んでする。それによって、それらの名誉が、自分には過分であり、自分から言わなければ、友人たちにも信じてもらえないほどのものだと、はっきり認めているのである。それに対して、真に高慢な者は、最大の名誉でさえ、自分の功績には足りないと思うので、自慢することを軽蔑する。したがって、私は格言として、こう述べておく。高慢な男だという評判を得たい者は、自分の虚栄心を隠すべきである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-058"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Law, in a free country, is, or ought to be, the determination of the majority of those who have property in land.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[357]"
+    "line_start": 4632
+    "source_sequence": 86
+  "translation_ja": |-
+    自由な国の法律は、土地に財産を持つ者たちの多数決による決定である。あるいは、そうあるべきだ。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-059"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    One argument used to the disadvantage of Providence I take to be a very strong one in its defence. It is objected that storms and tempests, unfruitful seasons, serpents, spiders, flies, and other noxious or troublesome animals, with many more instances of the like kind, discover an imperfection in nature, because human life would be much easier without them; but the design of Providence may clearly be perceived in this proceeding. The motions of the sun and moon—in short, the whole system of the universe, as far as philosophers have been able to discover and observe, are in the utmost degree of regularity and perfection; but wherever God hath left to man the power of interposing a remedy by thought or labour, there he hath placed things in a state of imperfection, on purpose to stir up human industry, without which life would stagnate, or, indeed, rather, could not subsist at all: Curis accuunt mortalia corda.
+  "source_languages":
+  - "en"
+  - "la"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[358]"
+    "line_start": 4634
+    "source_sequence": 87
+  "translation_ja": |-
+    摂理を非難するために用いられる、ある論拠は、むしろ、それを擁護する、きわめて強い論拠だと、私は考える。嵐や暴風、不作の季節、蛇、蜘蛛、蠅、そのほか有害だったり、厄介だったりする動物、さらに、そのたぐいの多くの例は、自然の不完全さを示す、と反論される。そうしたものがなければ、人間の暮らしは、はるかに楽だからである。だが、この仕組みには、摂理の意図が、はっきり見える。太陽と月の運行、要するに、学者が発見し観察できたかぎり、宇宙の全体系は、このうえなく規則正しく、完全である。だが、人間が思考や労働によって、救済策を差し挟む力を、神が残したところでは、どこでも、物事は不完全な状態に置かれている。わざと人間の勤勉を呼び起こすためである。それがなければ、生活はよどみ、いや、実際には、そもそも成り立たないだろう。「苦労は、人の心を研ぎ澄ます。」
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-060"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Praise is the daughter of present power.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[359]"
+    "line_start": 4650
+    "source_sequence": 88
+  "translation_ja": |-
+    称賛は、今ある権力の娘である。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-061"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    How inconsistent is man with himself!
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[360]"
+    "line_start": 4651
+    "source_sequence": 89
+  "translation_ja": |-
+    人間は、自分自身と、なんと矛盾していることか！
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-062"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I have known several persons of great fame for wisdom in public affairs and counsels governed by foolish servants.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[361]"
+    "line_start": 4652
+    "source_sequence": 90
+  "translation_ja": |-
+    公務や政策について、知恵者として大いに名のある人々が、愚かな召使いに支配されている例を、私はいくつも知っている。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-063"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I have known great Ministers, distinguished for wit and learning, who preferred none but dunces.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[362]"
+    "line_start": 4654
+    "source_sequence": 91
+  "translation_ja": |-
+    才知と学識で際立っていながら、愚か者しか取り立てない、大物の大臣たちを、私は知っている。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-064"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I have known men of great valour cowards to their wives.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[363]"
+    "line_start": 4656
+    "source_sequence": 92
+  "translation_ja": |-
+    すぐれた勇気の持ち主でありながら、妻には臆病な男たちを、私は知っている。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-065"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I have known men of the greatest cunning perpetually cheated.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[364]"
+    "line_start": 4657
+    "source_sequence": 93
+  "translation_ja": |-
+    このうえなく抜け目がないのに、絶えずだまされている男たちを、私は知っている。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-066"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I knew three great Ministers, who could exactly compute and settle the accounts of a kingdom, but were wholly ignorant of their own economy.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[365]"
+    "line_start": 4659
+    "source_sequence": 94
+  "translation_ja": |-
+    王国の会計を、正確に計算して決算できながら、自分の家計については、まったく無知な大物の大臣を、私は三人知っていた。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-067"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The preaching of divines helps to preserve well-inclined men in the course of virtue, but seldom or never reclaims the vicious.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[366]"
+    "line_start": 4662
+    "source_sequence": 95
+  "translation_ja": |-
+    聖職者の説教は、よい心掛けの人々を、徳の道にとどめる助けになる。だが、悪徳に染まった者を改心させることは、めったに、あるいは決してない。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-068"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Princes usually make wiser choices than the servants whom they trust for the disposal of places: I have known a prince, more than once, choose an able Minister, but I never observed that Minister to use his credit in the disposal of an employment to a person whom he thought the fittest for it. One of the greatest in this age owned and excused the matter from the violence of parties and the unreasonableness of friends.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[367]"
+    "line_start": 4665
+    "source_sequence": 96
+  "translation_ja": |-
+    君主は、役職の配分を任せた臣下たちよりも、たいてい、賢い人選をする。私は、君主が有能な大臣を選ぶのを、一度ならず見たことがある。だが、その大臣が、自分の影響力を使って、本人がもっとも適任だと思う人物に職を与えたのは、一度も見たことがない。今の時代の、もっとも偉い大臣の一人は、このことを認め、党派の激しさと、友人たちの無理な要求を理由に、弁解した。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-069"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Small causes are sufficient to make a man uneasy when great ones are not in the way. For want of a block he will stumble at a straw.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[368]"
+    "line_start": 4672
+    "source_sequence": 97
+  "translation_ja": |-
+    大きな原因が行く手にないときは、小さな原因でも、人を不機嫌にするには十分である。木の塊がなければ、藁につまずく。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-070"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Dignity, high station, or great riches, are in some sort necessary to old men, in order to keep the younger at a distance, who are otherwise too apt to insult them upon the score of their age.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[369]"
+    "line_start": 4675
+    "source_sequence": 98
+  "translation_ja": |-
+    尊厳、高い地位、あるいは大きな財産は、老人が若者を遠ざけておくために、ある程度必要である。そうしたものがなければ、若者は、年を取っているというだけで、老人を侮辱しがちだからである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-071"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Every man desires to live long; but no man would be old.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[370]"
+    "line_start": 4679
+    "source_sequence": 99
+  "translation_ja": |-
+    誰もが長生きしたいと願うが、誰も年寄りにはなりたがらない。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-072"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Love of flattery in most men proceeds from the mean opinion they have of themselves; in women from the contrary.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[371]"
+    "line_start": 4680
+    "source_sequence": 100
+  "translation_ja": |-
+    お世辞を好む気持ちは、大半の男では、自分への評価の低さから生じ、女では、その反対から生じる。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-073"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    If books and laws continue to increase as they have done for fifty years past, I am in some concern for future ages how any man will be learned, or any man a lawyer.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[372]"
+    "line_start": 4682
+    "source_sequence": 101
+  "translation_ja": |-
+    本と法律が、過去五十年と同じように増え続けるなら、後の時代に、どうやって人が学者や法律家になれるのか、私はいくらか心配である。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-074"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Kings are commonly said to have long hands; I wish they had as long ears.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[373]"
+    "line_start": 4685
+    "source_sequence": 102
+  "translation_ja": |-
+    王は、よく、長い手を持つと言われる。同じくらい長い耳も、持っていてほしいものだ。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-075"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Princes in their infancy, childhood, and youth are said to discover prodigious parts and wit, to speak things that surprise and astonish. Strange, so many hopeful princes, and so many shameful kings! If they happen to die young, they would have been prodigies of wisdom and virtue. If they live, they are often prodigies indeed, but of another sort.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[374]"
+    "line_start": 4687
+    "source_sequence": 103
+  "translation_ja": |-
+    王子は、乳児、子供、若者のころには、並外れた才能と才知を示し、人を驚かせ、感嘆させることを言う、とされる。奇妙なことだ。前途有望な王子は、こんなに多いのに、恥ずべき王も、こんなに多い！ たまたま若死にすると、知恵と徳の驚異となったはずだと言われる。生き延びると、確かに驚異となることは多いが、別の種類の驚異なのである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-076"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Politics, as the word is commonly understood, are nothing but corruptions, and consequently of no use to a good king or a good ministry; for which reason Courts are so overrun with politics.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[375]"
+    "line_start": 4693
+    "source_sequence": 104
+  "translation_ja": |-
+    普通に理解されている意味での政治術は、腐敗以外の何ものでもない。したがって、よい王や、よい政府には、役に立たない。それゆえ、宮廷には政治術が、こんなにはびこっている。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-077"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    A nice man is a man of nasty ideas.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[376]"
+    "line_start": 4697
+    "source_sequence": 105
+  "translation_ja": |-
+    やたらと潔癖な男は、不潔な考えの持ち主である。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-078"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Apollo was held the god of physic and sender of diseases. Both were originally the same trade, and still continue.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[377]"
+    "line_start": 4698
+    "source_sequence": 106
+  "translation_ja": |-
+    アポロンは、医術の神であるとともに、病気を送る神とされていた。もともと、この二つは同じ商売だった。今もそうである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-079"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Old men and comets have been reverenced for the same reason: their long beards, and pretences to foretell events.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[378]"
+    "line_start": 4701
+    "source_sequence": 107
+  "translation_ja": |-
+    老人と彗星は、同じ理由で、あがめられてきた。長いひげと、出来事を予言できるという触れ込みである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-080"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    A person was asked at court, what he thought of an ambassador and his train, who were all embroidery and lace, full of bows, cringes, and gestures; he said, it was Solomon’s importation, gold and apes.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[379]"
+    "line_start": 4703
+    "source_sequence": 108
+  "translation_ja": |-
+    宮廷で、ある人が、刺繡とレースずくめで、お辞儀や、へりくだりや、身振りばかりの大使と、その一行をどう思うかと、尋ねられた。その人は答えた。ソロモンの輸入品だ、金と猿だ、と。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-081"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Most sorts of diversion in men, children, and other animals, is an imitation of fighting.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[380]"
+    "line_start": 4707
+    "source_sequence": 109
+  "translation_ja": |-
+    大人、子供、その他の動物の遊びは、大半が戦いのまねである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-082"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Augustus meeting an ass with a lucky name foretold himself good fortune. I meet many asses, but none of them have lucky names.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[381]"
+    "line_start": 4709
+    "source_sequence": 110
+  "translation_ja": |-
+    アウグストゥスは、縁起のよい名のロバに出会って、自分の幸運を予言した。私も多くのロバに出会うが、縁起のよい名のものは、一頭もいない。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-083"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    If a man makes me keep my distance, the comfort is he keeps his at the same time.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[382]"
+    "line_start": 4712
+    "source_sequence": 111
+  "translation_ja": |-
+    誰かが私に、距離を置くよう求めるなら、その人も同時に距離を保つというのが、せめてもの慰めである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-084"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Who can deny that all men are violent lovers of truth when we see them so positive in their errors, which they will maintain out of their zeal to truth, although they contradict themselves every day of their lives?
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[383]"
+    "line_start": 4714
+    "source_sequence": 112
+  "translation_ja": |-
+    人々が自分の誤りを、あれほど確信し、真理への熱意から、それを守り通そうとするのを見るなら、誰もが真理を激しく愛していることを、誰が否定できよう。本人は、来る日も来る日も、自分自身と矛盾しているのだが。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-085"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    That was excellently observed, say I, when I read a passage in an author, where his opinion agrees with mine. When we differ, there I pronounce him to be mistaken.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[384]"
+    "line_start": 4718
+    "source_sequence": 113
+  "translation_ja": |-
+    ある著者の一節を読んで、その意見が自分と一致すると、私は、これは見事な観察だと言う。意見が違うところでは、この著者は間違っていると宣告する。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-086"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Very few men, properly speaking, live at present, but are providing to live another time.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[385]"
+    "line_start": 4721
+    "source_sequence": 114
+  "translation_ja": |-
+    厳密に言えば、今を生きている人は、ごく少ない。人々は、別のときに生きるための、準備をしているのである。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-087"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Laws penned with the utmost care and exactness, and in the vulgar language, are often perverted to wrong meanings; then why should we wonder that the Bible is so?
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[386]"
+    "line_start": 4723
+    "source_sequence": 115
+  "translation_ja": |-
+    このうえなく注意深く、正確に、しかも日常の言葉で書かれた法律でさえ、しばしば、誤った意味へとねじ曲げられる。では、聖書がそうされることを、なぜ不思議に思うのだろう。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-088"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Although men are accused for not knowing their weakness, yet perhaps as few know their own strength.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[387]"
+    "line_start": 4726
+    "source_sequence": 116
+  "translation_ja": |-
+    人は自分の弱さを知らないと非難されるが、自分の強さを知っている者も、同じくらい少ないのかもしれない。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-089"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    A man seeing a wasp creeping into a vial filled with honey, that was hung on a fruit tree, said thus: “Why, thou sottish animal, art thou mad to go into that vial, where you see many hundred of your kind there dying in it before you?” “The reproach is just,” answered the wasp, “but not from you men, who are so far from taking example by other people’s follies, that you will not take warning by your own. If after falling several times into this vial, and escaping by chance, I should fall in again, I should then but resemble you.”
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[388]"
+    "line_start": 4728
+    "source_sequence": 117
+  "translation_ja": |-
+    ある男が、果樹につるした、蜂蜜入りの瓶に、スズメバチがはい込もうとしているのを見て、こう言った。「おい、愚かな虫め、気でも違ったのか。お前より先に入った仲間が、何百匹も死にかけているのが見えるのに、どうして、その瓶に入るのだ。」スズメバチは答えた。「そのお叱りは、もっともです。でも、人間のあなた方に言われたくはありません。他人の愚かさを教訓にするどころか、自分の愚かさにも、警告を受けないのですから。もし私が、この瓶に何度か落ち、偶然逃げ出せたあげく、また落ちたとしたら、そのとき初めて、あなた方と同じになるだけです。」
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-090"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    An old miser kept a tame jackdaw, that used to steal pieces of money, and hide them in a hole, which the cat observing, asked why he would hoard up those round shining things that he could make no use of? “Why,” said the jackdaw, “my master has a whole chest full, and makes no more use of them than I.”
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[389]"
+    "line_start": 4738
+    "source_sequence": 118
+  "translation_ja": |-
+    年老いたけちん坊が、一羽のコクマルガラスを飼い慣らしていた。鳥は、硬貨を盗んでは、穴に隠していた。それを見た猫が、何の役にも立てられない、そんな丸い光るものを、なぜため込むのかと尋ねた。「だって」と、コクマルガラスは言った。「主人は、櫃いっぱいに持っているのに、私と同じくらいしか、役に立てていないじゃないか。」
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-091"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Men are content to be laughed at for their wit, but not for their folly.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[390]"
+    "line_start": 4744
+    "source_sequence": 119
+  "translation_ja": |-
+    人は、自分の機知のために笑われるのは構わないが、自分の愚かさのために笑われるのは、我慢できない。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-092"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    If the men of wit and genius would resolve never to complain in their works of critics and detractors, the next age would not know that they ever had any.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[391]"
+    "line_start": 4746
+    "source_sequence": 120
+  "translation_ja": |-
+    才知と天分のある人々が、自分の作品の中では、批評家や中傷者の不平を決して言わないと決めれば、次の時代の人々は、そんな相手がいたことすら、知らないだろう。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-093"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    After all the maxims and systems of trade and commerce, a stander-by would think the affairs of the world were most ridiculously contrived.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[392]"
+    "line_start": 4749
+    "source_sequence": 121
+  "translation_ja": |-
+    貿易や商業に関する、あらゆる格言や体系を聞いた後では、傍観者は、世の中の仕組みは、なんとも馬鹿げて作られていると思うだろう。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-094"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    There are few countries which, if well cultivated, would not support double the number of their inhabitants, and yet fewer where one-third of the people are not extremely stinted even in the necessaries of life. I send out twenty barrels of corn, which would maintain a family in bread for a year, and I bring back in return a vessel of wine, which half a dozen good follows would drink in less than a month, at the expense of their health and reason.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[393]"
+    "line_start": 4752
+    "source_sequence": 122
+  "translation_ja": |-
+    十分に耕作すれば、今の住民の二倍を養えない国は、ほとんどない。それなのに、住民の三分の一が、生活の必需品にさえ、ひどく事欠いていない国は、さらに少ない。私は、一家族を一年間、パンで養える、二十樽の穀物を送り出し、その代わりに、一樽の葡萄酒を持ち帰る。気のいい仲間が六人もいれば、一か月もかからず、自分たちの健康と理性を代償に、飲み干してしまうものを。
+  "translation_status": "reviewed"
+- "id": "thoughts-on-various-subjects-095"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    A man would have but few spectators, if he offered to show for threepence how he could thrust a red-hot iron into a barrel of gunpowder, and it should not take fire.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[394]"
+    "line_start": 4760
+    "source_sequence": 123
+  "translation_ja": |-
+    真っ赤に焼けた鉄を、火薬の樽に突き込んでも、火がつかないところを、三ペンスで見せようと申し出たところで、見物人は、ごくわずかしか集まらないだろう。
+  "translation_status": "reviewed"
+"notes": []
+"references": []
+"groups": []
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "swift-name"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Jonathan Swift"
+  "translation_ja": "ジョナサン・スウィフト"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+  "note_ja": "既存『樽物語』の著者名表記を踏襲。"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-20T23:40:35Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "821aca0028f466a40885ae77e4da8be3d25804eec711618632abcca1734f9c43"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "1277c50ba475bbe1fd793e158145f5e46491094f"
+  "translation_method": "Codexによる原文からの新訳。既存日本語訳の転用なし。初稿完成後、見出し・副題を含む全対訳単位を原文と一回対照し、同じ読みの中で意味、否定、数量、人物、性別、皮肉、順序を確認。"
+  "drafted_segment_count": 96
+  "next_segment_id": null
+  "full_review_segment_ids":
+  - "thoughts-on-various-subjects-title"
+  - "thoughts-on-various-subjects-001"
+  - "thoughts-on-various-subjects-002"
+  - "thoughts-on-various-subjects-003"
+  - "thoughts-on-various-subjects-004"
+  - "thoughts-on-various-subjects-005"
+  - "thoughts-on-various-subjects-006"
+  - "thoughts-on-various-subjects-007"
+  - "thoughts-on-various-subjects-008"
+  - "thoughts-on-various-subjects-009"
+  - "thoughts-on-various-subjects-010"
+  - "thoughts-on-various-subjects-011"
+  - "thoughts-on-various-subjects-012"
+  - "thoughts-on-various-subjects-013"
+  - "thoughts-on-various-subjects-014"
+  - "thoughts-on-various-subjects-015"
+  - "thoughts-on-various-subjects-016"
+  - "thoughts-on-various-subjects-017"
+  - "thoughts-on-various-subjects-018"
+  - "thoughts-on-various-subjects-019"
+  - "thoughts-on-various-subjects-020"
+  - "thoughts-on-various-subjects-021"
+  - "thoughts-on-various-subjects-022"
+  - "thoughts-on-various-subjects-023"
+  - "thoughts-on-various-subjects-024"
+  - "thoughts-on-various-subjects-025"
+  - "thoughts-on-various-subjects-026"
+  - "thoughts-on-various-subjects-027"
+  - "thoughts-on-various-subjects-028"
+  - "thoughts-on-various-subjects-029"
+  - "thoughts-on-various-subjects-030"
+  - "thoughts-on-various-subjects-031"
+  - "thoughts-on-various-subjects-032"
+  - "thoughts-on-various-subjects-033"
+  - "thoughts-on-various-subjects-034"
+  - "thoughts-on-various-subjects-035"
+  - "thoughts-on-various-subjects-036"
+  - "thoughts-on-various-subjects-037"
+  - "thoughts-on-various-subjects-038"
+  - "thoughts-on-various-subjects-039"
+  - "thoughts-on-various-subjects-040"
+  - "thoughts-on-various-subjects-041"
+  - "thoughts-on-various-subjects-042"
+  - "thoughts-on-various-subjects-043"
+  - "thoughts-on-various-subjects-044"
+  - "thoughts-on-various-subjects-045"
+  - "thoughts-on-various-subjects-046"
+  - "thoughts-on-various-subjects-047"
+  - "thoughts-on-various-subjects-048"
+  - "thoughts-on-various-subjects-049"
+  - "thoughts-on-various-subjects-050"
+  - "thoughts-on-various-subjects-051"
+  - "thoughts-on-various-subjects-052"
+  - "thoughts-on-various-subjects-053"
+  - "thoughts-on-various-subjects-054"
+  - "thoughts-on-various-subjects-055"
+  - "thoughts-on-various-subjects-056"
+  - "thoughts-on-various-subjects-057"
+  - "thoughts-on-various-subjects-058"
+  - "thoughts-on-various-subjects-059"
+  - "thoughts-on-various-subjects-060"
+  - "thoughts-on-various-subjects-061"
+  - "thoughts-on-various-subjects-062"
+  - "thoughts-on-various-subjects-063"
+  - "thoughts-on-various-subjects-064"
+  - "thoughts-on-various-subjects-065"
+  - "thoughts-on-various-subjects-066"
+  - "thoughts-on-various-subjects-067"
+  - "thoughts-on-various-subjects-068"
+  - "thoughts-on-various-subjects-069"
+  - "thoughts-on-various-subjects-070"
+  - "thoughts-on-various-subjects-071"
+  - "thoughts-on-various-subjects-072"
+  - "thoughts-on-various-subjects-073"
+  - "thoughts-on-various-subjects-074"
+  - "thoughts-on-various-subjects-075"
+  - "thoughts-on-various-subjects-076"
+  - "thoughts-on-various-subjects-077"
+  - "thoughts-on-various-subjects-078"
+  - "thoughts-on-various-subjects-079"
+  - "thoughts-on-various-subjects-080"
+  - "thoughts-on-various-subjects-081"
+  - "thoughts-on-various-subjects-082"
+  - "thoughts-on-various-subjects-083"
+  - "thoughts-on-various-subjects-084"
+  - "thoughts-on-various-subjects-085"
+  - "thoughts-on-various-subjects-086"
+  - "thoughts-on-various-subjects-087"
+  - "thoughts-on-various-subjects-088"
+  - "thoughts-on-various-subjects-089"
+  - "thoughts-on-various-subjects-090"
+  - "thoughts-on-various-subjects-091"
+  - "thoughts-on-various-subjects-092"
+  - "thoughts-on-various-subjects-093"
+  - "thoughts-on-various-subjects-094"
+  - "thoughts-on-various-subjects-095"
+  "full_review_corrections_ja":
+  - "第90段落の貨幣について、原文にない金貨・銀貨への限定を除去。"

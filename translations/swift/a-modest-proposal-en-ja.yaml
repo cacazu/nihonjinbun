@@ -1,0 +1,1046 @@
+"schema_version": "2.0"
+"work_id": "swift-a-modest-proposal"
+"metadata":
+  "title_ja": "穏健なる提案"
+  "title_original": "A Modest Proposal"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。原著と電子翻刻の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "風刺"
+  "reader_notes_ja":
+  - "1729年の風刺論考。原題、副題、著者表示、年記と本文全33段落を訳す。"
+"sources":
+- "id": "gutenberg-1080"
+  "role": "primary"
+  "title": "A Modest Proposal"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+  "edition": "Project Gutenberg eBook 1080。1997年10月1日公開、2025年9月28日更新の英語電子翻刻。原作1729年。"
+  "contributor_ids":
+  - "swift"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/1080"
+    "note_ja": "原著者ジョナサン・スウィフトは1745年没。Project Gutenbergの書誌は米国でパブリックドメインと表示。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "An Anonymous Volunteer and David Widger"
+    "note_ja": "原著の著作権状態と、Project Gutenbergの商標・電子版配布条件を区別する。"
+  "sha256": "331340f2ada84a7f79d756a344f6ce7d78026cd1d2359d33f79ca4a13d9f1519"
+  "description_ja": "https://www.gutenberg.org/ebooks/1080.txt.utf-8 のHTTPS配信先を取得。原文の段落内改行を保持。英語原文からの新訳であり、既存日本語訳は用いない。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-1080"
+    "description_ja": "原題、長い副題、著者表示、1729年の年記、および本文の全33段落。"
+    "section_ids":
+    - "title"
+    - "body"
+  "excluded":
+  - "source_id": "gutenberg-1080"
+    "description_ja": "電子版の冒頭利用案内・書誌、開始終了の定型表示、末尾のProject Gutenberg利用条件全文。原著本文の省略ではない。"
+  "known_gaps": []
+"sections":
+- "id": "title"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "proposal-title"
+  - "proposal-subtitle"
+  "origin": "source"
+- "id": "body"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "label_ja": "本文"
+  "origin": "editorial"
+"segments":
+- "id": "proposal-title"
+  "section_id": "title"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "A Modest Proposal"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 29
+    "line_end": 29
+    "source_sequence": 0
+  "translation_ja": "穏健なる提案"
+  "translation_status": "reviewed"
+- "id": "proposal-subtitle"
+  "section_id": "title"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    For preventing the children of poor people in Ireland,
+    from being a burden on their parents or country,
+    and for making them beneficial to the publick.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 31
+    "line_end": 33
+    "source_sequence": 1
+  "translation_ja": "アイルランドの貧しい人々の子供たちが、親や国の重荷になるのを防ぎ、社会の役に立つようにするために"
+  "translation_status": "reviewed"
+- "id": "proposal-author"
+  "section_id": "title"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "by Dr. Jonathan Swift"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 35
+    "line_end": 35
+    "source_sequence": 2
+  "translation_ja": "ジョナサン・スウィフト博士 著"
+  "translation_status": "reviewed"
+- "id": "proposal-date"
+  "section_id": "title"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "1729"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 37
+    "line_end": 37
+    "source_sequence": 3
+  "translation_ja": "1729年"
+  "translation_status": "reviewed"
+- "id": "proposal-001"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    It is a melancholy object to those, who walk through this great town,
+    or travel in the country, when they see the streets, the roads, and
+    cabbin-doors crowded with beggars of the female sex, followed by three,
+    four, or six children, all in rags, and importuning every passenger for
+    an alms. These mothers, instead of being able to work for their honest
+    livelihood, are forced to employ all their time in stroling to beg
+    sustenance for their helpless infants who, as they grow up, either turn
+    thieves for want of work, or leave their dear native country, to fight
+    for the Pretender in Spain, or sell themselves to the Barbadoes.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 42
+    "line_end": 50
+    "source_sequence": 4
+  "translation_ja": "この大きな町を歩き、あるいは田舎を旅する者にとって、街路や道端や小屋の戸口に女の物乞いが群がり、その後ろに、ぼろをまとった子供が三人、四人、あるいは六人も付き従って、通る人ごとに施しをせがむ有様は、まことに気のめいる眺めである。母親たちは、まっとうに働いて生計を立てることもできず、か弱い幼子の食べ物を乞い求めて、一日中さまよい歩かざるをえない。その子供たちも、大きくなれば、仕事がないために盗人になるか、愛する祖国を去って、スペインで王位僭称者のために戦うか、バルバドスへ身を売ることになる。"
+  "translation_status": "reviewed"
+- "id": "proposal-002"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I think it is agreed by all parties, that this prodigious number of
+    children in the arms, or on the backs, or at the heels of their
+    mothers, and frequently of their fathers, is in the present deplorable
+    state of the kingdom, a very great additional grievance; and therefore
+    whoever could find out a fair, cheap and easy method of making these
+    children sound and useful members of the commonwealth, would deserve so
+    well of the publick, as to have his statue set up for a preserver of
+    the nation.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 52
+    "line_end": 59
+    "source_sequence": 5
+  "translation_ja": "母親の腕に抱かれ、背に負われ、あるいはその後ろをついて歩く、しかも父親についても同じ有様である、このおびただしい数の子供たちが、今の王国の嘆かわしい境遇に、さらに大きな苦しみを加えていることには、どの立場の人も異論があるまい。したがって、こうした子供たちを、健全で役に立つ社会の一員にする、公正で、費用のかからない、たやすい方法を見つける者があれば、その公共への功績は、国の救い主として銅像を建てられるに値するはずである。"
+  "translation_status": "reviewed"
+- "id": "proposal-003"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    But my intention is very far from being confined to provide only for
+    the children of professed beggars: it is of a much greater extent, and
+    shall take in the whole number of infants at a certain age, who are
+    born of parents in effect as little able to support them, as those who
+    demand our charity in the streets.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 61
+    "line_end": 65
+    "source_sequence": 6
+  "translation_ja": "ただし、私の意図は、物乞いを職業としている者の子供だけを養うことに限られるものでは、決してない。その範囲ははるかに広く、街頭で私たちの慈悲にすがる者と、実際にはほとんど変わらないほど子供を養う力のない親から生まれた、ある一定の年齢の幼児を、すべて含むものである。"
+  "translation_status": "reviewed"
+- "id": "proposal-004"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    As to my own part, having turned my thoughts for many years upon this
+    important subject, and maturely weighed the several schemes of our
+    projectors, I have always found them grossly mistaken in their
+    computation. It is true, a child just dropt from its dam, may be
+    supported by her milk, for a solar year, with little other nourishment:
+    at most not above the value of two shillings, which the mother may
+    certainly get, or the value in scraps, by her lawful occupation of
+    begging; and it is exactly at one year old that I propose to provide
+    for them in such a manner, as, instead of being a charge upon their
+    parents, or the parish, or wanting food and raiment for the rest of
+    their lives, they shall, on the contrary, contribute to the feeding,
+    and partly to the clothing of many thousands.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 67
+    "line_end": 78
+    "source_sequence": 7
+  "translation_ja": "私自身は、この重要な問題について長年考え、わが国の計画家たちが出したさまざまな案を十分に検討してきたが、その計算にはいつも大きな誤りがあると感じてきた。確かに、母親から生まれ落ちたばかりの子供は、太陽暦で一年の間は、母乳のほかにはほとんど栄養を与えずに育てられる。ほかに必要なものの値段は、多くても二シリングを超えまい。それくらいなら母親も、物乞いという合法的な仕事で、金銭か、それに相当する残飯を、確実に手に入れられるはずである。私が面倒を見ようというのは、まさにその一歳になった時点からである。親や教区の負担になったり、その後の一生、食べる物にも着る物にも困ったりする代わりに、逆に何千、何万もの人々の食料となり、一部は衣料をも供給するような方法を、提案したいのである。"
+  "translation_status": "reviewed"
+- "id": "proposal-005"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    There is likewise another great advantage in my scheme, that it will
+    prevent those voluntary abortions, and that horrid practice of women
+    murdering their bastard children, alas! too frequent among us,
+    sacrificing the poor innocent babes, I doubt, more to avoid the expence
+    than the shame, which would move tears and pity in the most savage and
+    inhuman breast.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 80
+    "line_end": 85
+    "source_sequence": 8
+  "translation_ja": "私の案には、もう一つ大きな利点がある。わが国では、悲しいことにあまりに頻繁に行われている、自ら堕胎をしたり、私生児を生んだ女がその子を殺したりする、あの恐ろしい行いを防げることである。罪もない、いたいけな赤子が犠牲にされるのは、おそらく恥を逃れるためというより、養育費を免れるためなのだろう。この有様には、どれほど残忍で人間らしい情のない者でも、涙と憐れみを覚えずにはいられまい。"
+  "translation_status": "reviewed"
+- "id": "proposal-006"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    The number of souls in this kingdom being usually reckoned one million
+    and a half, of these I calculate there may be about two hundred
+    thousand couple, whose wives are breeders; from which number I subtract
+    thirty thousand couple, who are able to maintain their own children,
+    (although I apprehend there cannot be so many under the present
+    distresses of the kingdom) but this being granted, there will remain a
+    hundred and seventy thousand breeders. I again subtract fifty thousand,
+    for those women who miscarry, or whose children die by accident or
+    disease within the year. There only remain a hundred and twenty
+    thousand children of poor parents annually born. The question therefore
+    is, How this number shall be reared and provided for? which, as I have
+    already said, under the present situation of affairs, is utterly
+    impossible by all the methods hitherto proposed. For we can neither
+    employ them in handicraft or agriculture; they neither build houses, (I
+    mean in the country) nor cultivate land: they can very seldom pick up a
+    livelihood by stealing till they arrive at six years old; except where
+    they are of towardly parts, although I confess they learn the rudiments
+    much earlier; during which time they can however be properly looked
+    upon only as probationers; as I have been informed by a principal
+    gentleman in the county of Cavan, who protested to me, that he never
+    knew above one or two instances under the age of six, even in a part of
+    the kingdom so renowned for the quickest proficiency in that art.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 87
+    "line_end": 108
+    "source_sequence": 9
+  "translation_ja": "この王国の人口は、普通、百五十万人と見積もられている。そのうち、妻が子を産む夫婦はおよそ二十万組と、私は計算する。そこから、自分の子供を養える三万組を差し引く。もっとも、今の王国の窮状では、それほどの数があるとも思えないが、それは認めるとして、子を産む女は十七万人残る。さらに、流産する女、あるいは生まれた子が一年以内に事故や病気で死ぬ女を五万人差し引く。すると、貧しい親から毎年生まれてくる子供は、十二万人だけとなる。問題は、これだけの子供をどう育て、どう養うか、ということである。すでに述べたとおり、今の事情では、これまで提案されたどんな方法を使っても、それはまったく不可能だ。手工業にも農業にも使えない。この者たちは家も建てず――田舎の話である――土地も耕さない。盗みで暮らしを立てることさえ、よほど才能に恵まれた者を除けば、六歳になるまでは、めったにできないのである。もっとも、その初歩を覚えるのはずっと早いとは認めよう。それでも、その間はまだ見習いと見るのが適当である。これはキャヴァン州の有力な紳士に聞いたことで、その方は、この技の上達がとりわけ早いと名高い王国のその地方でさえ、六歳未満でひとり立ちした例を、一人か二人より多くは知らないと、私に断言された。"
+  "translation_status": "reviewed"
+- "id": "proposal-007"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I am assured by our merchants, that a boy or a girl, before twelve
+    years old, is no saleable commodity, and even when they come to this
+    age, they will not yield above three pounds, or three pounds and half a
+    crown at most, on the exchange; which cannot turn to account either to
+    the parents or kingdom, the charge of nutriments and rags having been
+    at least four times that value.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 110
+    "line_end": 115
+    "source_sequence": 10
+  "translation_ja": "わが国の商人たちの確かな話では、男の子でも女の子でも、十二歳になるまでは売り物にならず、その年齢になっても、市場では三ポンド、せいぜい三ポンドと半クラウンにしかならないという。これでは親にも王国にも利益はない。それまでの食べ物とぼろ着に、少なくともその四倍はかかっているからである。"
+  "translation_status": "reviewed"
+- "id": "proposal-008"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I shall now therefore humbly propose my own thoughts, which I hope will
+    not be liable to the least objection.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 117
+    "line_end": 118
+    "source_sequence": 11
+  "translation_ja": "そこで私は、自分の考えを謹んで提案することにしたい。これには、いささかの異議も出ないだろうと期待している。"
+  "translation_status": "reviewed"
+- "id": "proposal-009"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I have been assured by a very knowing American of my acquaintance in
+    London, that a young healthy child well nursed, is, at a year old, a
+    most delicious nourishing and wholesome food, whether stewed, roasted,
+    baked, or boiled; and I make no doubt that it will equally serve in a
+    fricasee, or a ragoust.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 120
+    "line_end": 124
+    "source_sequence": 12
+  "translation_ja": "ロンドンで知り合った、たいそう物知りのアメリカ人に、確かな話を聞いた。健康で、よく乳を飲んで育った幼児は、一歳になると、煮込んでも、あぶっても、オーブンで焼いても、ゆでても、実においしく、栄養があり、体によい食べ物になるというのである。フリカッセやラグーにしても、同じように役立つことは疑いない。"
+  "translation_status": "reviewed"
+- "id": "proposal-010"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I do therefore humbly offer it to publick consideration, that of the
+    hundred and twenty thousand children, already computed, twenty thousand
+    may be reserved for breed, whereof only one fourth part to be males;
+    which is more than we allow to sheep, black cattle, or swine, and my
+    reason is, that these children are seldom the fruits of marriage, a
+    circumstance not much regarded by our savages, therefore, one male will
+    be sufficient to serve four females. That the remaining hundred
+    thousand may, at a year old, be offered in sale to the persons of
+    quality and fortune, through the kingdom, always advising the mother to
+    let them suck plentifully in the last month, so as to render them
+    plump, and fat for a good table. A child will make two dishes at an
+    entertainment for friends, and when the family dines alone, the fore or
+    hind quarter will make a reasonable dish, and seasoned with a little
+    pepper or salt, will be very good boiled on the fourth day, especially
+    in winter.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 126
+    "line_end": 140
+    "source_sequence": 13
+  "translation_ja": "したがって、先に計算した十二万人の子供のうち、二万人を繁殖用に残し、その四分の一だけを雄にすることを、私は謹んで世の検討に供したい。これは、羊、牛、豚の場合に私たちが認めている割合よりも高い。その理由は、この子供たちはめったに正式な結婚から生まれたものではなく、わが国の野蛮人たちは、そんな事情をあまり気にしないからである。ゆえに、一頭の雄で四頭の雌をまかなえば十分だ。残りの十万人は、一歳になったところで、王国中の身分と財産のある人々に売りに出せばよい。その際、母親には必ず、最後の一か月にはたっぷり乳を飲ませ、立派な食卓にふさわしく、丸々と太らせるよう勧めておく。子供一人で、友人を招く宴の料理なら二皿になる。家族だけで食事をするなら、前脚側か後脚側の四分の一で、ほどよい一皿ができよう。少し胡椒か塩を利かせれば、四日目でも、特に冬なら、ゆでてたいへんおいしく食べられる。"
+  "translation_status": "reviewed"
+- "id": "proposal-011"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I have reckoned upon a medium, that a child just born will weigh 12
+    pounds, and in a solar year, if tolerably nursed, encreaseth to 28
+    pounds.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 142
+    "line_end": 144
+    "source_sequence": 14
+  "translation_ja": "私の計算では、生まれたばかりの子供の体重は平均十二ポンドであり、まずまずの育て方をすれば、太陽暦で一年のうちに二十八ポンドに増える。"
+  "translation_status": "reviewed"
+- "id": "proposal-012"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I grant this food will be somewhat dear, and therefore very proper for
+    landlords, who, as they have already devoured most of the parents, seem
+    to have the best title to the children.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 146
+    "line_end": 148
+    "source_sequence": 15
+  "translation_ja": "この食べ物がいくらか高価になることは認める。だからこそ地主たちには、まことにふさわしい。すでに親の大部分を食い尽くしているのだから、その子供に対しても、もっとも正当な権利を持っているように見えるからである。"
+  "translation_status": "reviewed"
+- "id": "proposal-013"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Infant’s flesh will be in season throughout the year, but more
+    plentiful in March, and a little before and after; for we are told by a
+    grave author, an eminent French physician, that fish being a prolifick
+    dyet, there are more children born in Roman Catholick countries about
+    nine months after Lent, than at any other season; therefore, reckoning
+    a year after Lent, the markets will be more glutted than usual, because
+    the number of Popish infants, is at least three to one in this kingdom,
+    and therefore it will have one other collateral advantage, by lessening
+    the number of Papists among us.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 150
+    "line_end": 158
+    "source_sequence": 16
+  "translation_ja": "幼児の肉は一年中が旬だが、三月とその少し前後には、さらに豊富に出回るだろう。フランスの著名な医師である、ある重々しい著述家によれば、魚は多産を促す食べ物なので、ローマ・カトリックの国々では、四旬節からおよそ九か月後に、ほかの季節より多くの子供が生まれるという。したがって、四旬節から一年後を見込めば、市場にはいつも以上に品があふれるはずだ。この王国では、カトリックの幼児とそれ以外の幼児の比率は、少なくとも三対一なのだから。そこで、この案には、わが国の教皇派の数を減らすという、もう一つの副次的な利点もあることになる。"
+  "translation_status": "reviewed"
+- "id": "proposal-014"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I have already computed the charge of nursing a beggar’s child (in
+    which list I reckon all cottagers, labourers, and four-fifths of the
+    farmers) to be about two shillings per annum, rags included; and I
+    believe no gentleman would repine to give ten shillings for the carcass
+    of a good fat child, which, as I have said, will make four dishes of
+    excellent nutritive meat, when he hath only some particular friend, or
+    his own family to dine with him. Thus the squire will learn to be a
+    good landlord, and grow popular among his tenants, the mother will have
+    eight shillings neat profit, and be fit for work till she produces
+    another child.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 160
+    "line_end": 169
+    "source_sequence": 17
+  "translation_ja": "物乞いの子を育てる費用は、ぼろ着も含めて一年におよそ二シリングと、すでに計算した。ここで物乞いには、小屋住まいの者、労働者の全員と、農民の五分の四を数えている。一方、よく太った子供の肉体一つに十シリング払うのを惜しむ紳士はいないだろう。先に述べたとおり、特に親しい友人か、自分の家族だけと食卓を囲むなら、これで、栄養に富んだ上等の肉料理が四皿できるのである。こうすれば、郷紳はよい地主となるすべを覚え、小作人たちの人気も高まる。母親には八シリングの純益が入り、次の子を産むまでは、働ける体でいられる。"
+  "translation_status": "reviewed"
+- "id": "proposal-015"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Those who are more thrifty (as I must confess the times require) may
+    flay the carcass; the skin of which, artificially dressed, will make
+    admirable gloves for ladies, and summer boots for fine gentlemen.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 171
+    "line_end": 173
+    "source_sequence": 18
+  "translation_ja": "もっと倹約したい人は――確かに、今の時勢ではそうする必要があるが――その皮をはいでもよい。巧みに加工すれば、婦人用の見事な手袋や、しゃれた紳士向けの夏の長靴になるだろう。"
+  "translation_status": "reviewed"
+- "id": "proposal-016"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    As to our City of Dublin, shambles may be appointed for this purpose,
+    in the most convenient parts of it, and butchers we may be assured will
+    not be wanting; although I rather recommend buying the children alive,
+    and dressing them hot from the knife, as we do roasting pigs.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 175
+    "line_end": 178
+    "source_sequence": 19
+  "translation_ja": "わがダブリン市については、もっとも便利な何か所かに、この目的のための肉市場を設ければよい。肉屋に事欠くことは、まずないはずだ。もっとも私は、丸焼きにする子豚の場合と同じく、子供を生きたまま買い、刃物を入れたばかりの、まだ温かいうちに料理するほうをお勧めする。"
+  "translation_status": "reviewed"
+- "id": "proposal-017"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    A very worthy person, a true lover of his country, and whose virtues I
+    highly esteem, was lately pleased in discoursing on this matter, to
+    offer a refinement upon my scheme. He said, that many gentlemen of this
+    kingdom, having of late destroyed their deer, he conceived that the
+    want of venison might be well supplied by the bodies of young lads and
+    maidens, not exceeding fourteen years of age, nor under twelve; so
+    great a number of both sexes in every county being now ready to starve
+    for want of work and service: and these to be disposed of by their
+    parents if alive, or otherwise by their nearest relations. But with due
+    deference to so excellent a friend, and so deserving a patriot, I
+    cannot be altogether in his sentiments; for as to the males, my
+    American acquaintance assured me from frequent experience, that their
+    flesh was generally tough and lean, like that of our schoolboys, by
+    continual exercise, and their taste disagreeable, and to fatten them
+    would not answer the charge. Then as to the females, it would, I think,
+    with humble submission, be a loss to the publick, because they soon
+    would become breeders themselves: and besides, it is not improbable
+    that some scrupulous people might be apt to censure such a practice,
+    (although indeed very unjustly) as a little bordering upon cruelty,
+    which, I confess, hath always been with me the strongest objection
+    against any project, how well soever intended.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 180
+    "line_end": 200
+    "source_sequence": 20
+  "translation_ja": "たいへん立派な人物で、真に国を愛し、その徳を私も深く尊敬している方が、先ごろこの問題について話していた折に、私の案をさらに改良する策を示してくださった。その方によれば、この王国では近ごろ、多くの紳士が飼っていた鹿を殺し尽くしてしまったので、鹿肉の不足は、十二歳から十四歳までの少年少女の体で、十分に補えるのではないかという。どの州にも、仕事や奉公口がなくて飢え死にしかけている男女が、大勢いるのだから。これを、親が生きていれば親が、いなければもっとも近い親族が売り払うというのである。しかし、これほどすばらしい友人、このように功績ある愛国者には、しかるべく敬意を払うにしても、私はその意見に全面的には賛成できない。というのも、男のほうは、先のアメリカ人の知人が、豊富な経験に基づいて確言したところでは、いつも運動しているために、わが国の学童と同様、肉はおおむね硬くて脂がなく、味もよくないうえ、太らせる費用に見合わないからである。女のほうにしても、失礼ながら、まもなく自身が子を産むようになるのだから、社会の損失になると思う。そのうえ、良心のやかましい人々の中には、このやり方を、いくらか残酷に近いものとして非難しがちな者も、いないとは限らない。むろん、それは実に不当な非難ではあるが。実のところ、どんなによい意図の計画であっても、残酷だという点は、私にとって常にもっとも強い反対理由なのである。"
+  "translation_status": "reviewed"
+- "id": "proposal-018"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    But in order to justify my friend, he confessed, that this expedient
+    was put into his head by the famous Psalmanaazor, a native of the
+    island Formosa, who came from thence to London, above twenty years ago,
+    and in conversation told my friend, that in his country, when any young
+    person happened to be put to death, the executioner sold the carcass to
+    persons of quality, as a prime dainty; and that, in his time, the body
+    of a plump girl of fifteen, who was crucified for an attempt to poison
+    the Emperor, was sold to his imperial majesty’s prime minister of
+    state, and other great mandarins of the court in joints from the
+    gibbet, at four hundred crowns. Neither indeed can I deny, that if the
+    same use were made of several plump young girls in this town, who
+    without one single groat to their fortunes, cannot stir abroad without
+    a chair, and appear at a playhouse and assemblies in foreign fineries
+    which they never will pay for, the kingdom would not be the worse.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 202
+    "line_end": 215
+    "source_sequence": 21
+  "translation_ja": "ただし、友人の弁護のために申し添えると、この策を思いついたきっかけは、フォルモサ島生まれの、あの有名なサルマナザールだと、本人は打ち明けていた。その男は二十年以上前に島からロンドンへ来て、友人との会話の中で、故国では若者が死刑になると、処刑人がその体を、極上の珍味として身分の高い人々に売るのだ、と話したという。また、自分のいたころ、皇帝を毒殺しようとして磔にされた、十五歳の丸々と太った少女の体が、刑台から切り分けられて、皇帝陛下の宰相や、そのほかの宮廷の高官に、四百クラウンで売られたことがある、とも話したそうだ。実際、この町にいる何人かのふっくらした若い娘たちも、同じように利用したところで、王国の損にはならないだろうということは、私も否定できない。そうした娘たちは、財産は四ペンス貨一枚もないくせに、駕籠がなければ外出もせず、この先も決して代金を払わない外国製の晴れ着で、芝居小屋や社交の集まりに姿を見せているのである。"
+  "translation_status": "reviewed"
+- "id": "proposal-019"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Some persons of a desponding spirit are in great concern about that
+    vast number of poor people, who are aged, diseased, or maimed; and I
+    have been desired to employ my thoughts what course may be taken, to
+    ease the nation of so grievous an incumbrance. But I am not in the
+    least pain upon that matter, because it is very well known, that they
+    are every day dying, and rotting, by cold and famine, and filth, and
+    vermin, as fast as can be reasonably expected. And as to the young
+    labourers, they are now in almost as hopeful a condition. They cannot
+    get work, and consequently pine away from want of nourishment, to a
+    degree, that if at any time they are accidentally hired to common
+    labour, they have not strength to perform it, and thus the country and
+    themselves are happily delivered from the evils to come.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 217
+    "line_end": 228
+    "source_sequence": 22
+  "translation_ja": "気の弱い人々の中には、老いた者、病人、体の不自由な者といった、おびただしい数の貧民を、ひどく心配する人がいる。そして、このような重荷から国を解放するには、どうしたらよいか、私に考えてほしいという依頼もあった。しかし、この点は私には少しも気がかりではない。というのも、その者たちは、寒さや飢えや汚れや害虫によって、当然期待してよいだけの速さで、日々死に、腐っていっていることが、広く知られているからだ。若い労働者たちも、今やほとんど同じくらい、先の明るい状態にある。仕事にありつけず、そのため栄養不足で衰えていくので、たまたま普通の力仕事に雇われても、それをこなす力さえないほどである。こうして、国も本人たちも、この先に待つ災いから、めでたく解放されるのである。"
+  "translation_status": "reviewed"
+- "id": "proposal-020"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I have too long digressed, and therefore shall return to my subject. I
+    think the advantages by the proposal which I have made are obvious and
+    many, as well as of the highest importance.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 230
+    "line_end": 232
+    "source_sequence": 23
+  "translation_ja": "脇道に入りすぎたので、本題に戻ろう。私の提案には、明らかで、数多く、しかもきわめて重要な利点があると思う。"
+  "translation_status": "reviewed"
+- "id": "proposal-021"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    For first, as I have already observed, it would greatly lessen the
+    number of Papists, with whom we are yearly overrun, being the principal
+    breeders of the nation, as well as our most dangerous enemies, and who
+    stay at home on purpose with a design to deliver the kingdom to the
+    Pretender, hoping to take their advantage by the absence of so many
+    good Protestants, who have chosen rather to leave their country, than
+    stay at home and pay tithes against their conscience to an episcopal
+    curate.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 234
+    "line_end": 241
+    "source_sequence": 24
+  "translation_ja": "第一に、すでに述べたとおり、わが国にはびこって年々増え続けている、教皇派の数を大幅に減らせる。この者たちは、国でもっとも多く子を産むと同時に、もっとも危険な敵でもある。しかも、わざわざ国内にとどまるのは、王国を王位僭称者に引き渡そうというたくらみがあり、国教会の牧師に、良心に背いて十分の一税を払うくらいなら祖国を去るほうを選んだ、多くの善良なプロテスタントがいなくなったのを、好機と見ているからである。"
+  "translation_status": "reviewed"
+- "id": "proposal-022"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Secondly, The poorer tenants will have something valuable of their own,
+    which by law may be made liable to a distress, and help to pay their
+    landlord’s rent, their corn and cattle being already seized, and money
+    a thing unknown.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 243
+    "line_end": 246
+    "source_sequence": 25
+  "translation_ja": "第二に、貧しい小作人たちは、法律により差し押さえることができ、地主への地代の支払いに充てられる、価値あるものを自分で持てるようになる。穀物も家畜もすでに差し押さえられ、金などは見たこともないのだから。"
+  "translation_status": "reviewed"
+- "id": "proposal-023"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Thirdly, Whereas the maintainance of a hundred thousand children, from
+    two years old, and upwards, cannot be computed at less than ten
+    shillings a piece per annum, the nation’s stock will be thereby
+    encreased fifty thousand pounds per annum, besides the profit of a new
+    dish, introduced to the tables of all gentlemen of fortune in the
+    kingdom, who have any refinement in taste. And the money will circulate
+    among our selves, the goods being entirely of our own growth and
+    manufacture.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 248
+    "line_end": 255
+    "source_sequence": 26
+  "translation_ja": "第三に、二歳以上の子供十万人の扶養費は、一人当たり年に十シリングを下回るとは見積もれないから、この案によって、国の資産は年に五万ポンド増えることになる。それに加えて、王国中の、味の洗練を心得た資産家の紳士たちの食卓には、新しい料理がもたらされる利益もある。また、商品はことごとく国内で生まれ、国内で加工されるのだから、金は私たちの間で循環する。"
+  "translation_status": "reviewed"
+- "id": "proposal-024"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Fourthly, The constant breeders, besides the gain of eight shillings
+    sterling per annum by the sale of their children, will be rid of the
+    charge of maintaining them after the first year.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 257
+    "line_end": 259
+    "source_sequence": 27
+  "translation_ja": "第四に、毎年子を産む者は、子供を売って年に八シリングの利益を得るほか、最初の一年を過ぎた後の扶養費からも解放される。"
+  "translation_status": "reviewed"
+- "id": "proposal-025"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Fifthly, This food would likewise bring great custom to taverns, where
+    the vintners will certainly be so prudent as to procure the best
+    receipts for dressing it to perfection; and consequently have their
+    houses frequented by all the fine gentlemen, who justly value
+    themselves upon their knowledge in good eating; and a skilful cook, who
+    understands how to oblige his guests, will contrive to make it as
+    expensive as they please.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 261
+    "line_end": 267
+    "source_sequence": 28
+  "translation_ja": "第五に、この食べ物は、酒場にも大いに客を呼ぶだろう。店主たちは、これを申し分なく料理する最良の調理法を手に入れるくらいの抜け目なさは、きっと持ち合わせている。そうなれば、美食の知識をもっともなことに自慢にしている、しゃれた紳士たちが、そろって店に通うようになる。そして、客を喜ばせるすべを心得た腕のよい料理人なら、客が望むだけ高い料理に仕立てる工夫もするはずである。"
+  "translation_status": "reviewed"
+- "id": "proposal-026"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Sixthly, This would be a great inducement to marriage, which all wise
+    nations have either encouraged by rewards, or enforced by laws and
+    penalties. It would encrease the care and tenderness of mothers towards
+    their children, when they were sure of a settlement for life to the
+    poor babes, provided in some sort by the publick, to their annual
+    profit instead of expence. We should soon see an honest emulation among
+    the married women, which of them could bring the fattest child to the
+    market. Men would become as fond of their wives, during the time of
+    their pregnancy, as they are now of their mares in foal, their cows in
+    calf, or sows when they are ready to farrow; nor offer to beat or kick
+    them (as is too frequent a practice) for fear of a miscarriage.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 269
+    "line_end": 279
+    "source_sequence": 29
+  "translation_ja": "第六に、この案は結婚を大いに促すだろう。賢明な国々はみな、報奨で結婚を奨励するか、法律や罰則で強いてきた。貧しい赤子の一生の身の振り方が、いわば社会によって用意され、毎年の出費ではなく、利益になると確信できるのだから、母親が子供に寄せる心遣いや愛情も深まるだろう。誰がいちばん太った子を市場へ連れてこられるか、既婚の女たちの間には、ほどなく健全な競争が生まれるはずだ。男たちも、今、子を宿した牝馬や牝牛、まもなく産む牝豚を大切にしているのと同じように、妊娠中の妻をいとおしむようになるだろう。そして、流産を恐れて、妻を殴ったり蹴ったりしようとはしなくなる。今はそれが、あまりに頻繁に行われているのである。"
+  "translation_status": "reviewed"
+- "id": "proposal-027"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Many other advantages might be enumerated. For instance, the addition
+    of some thousand carcasses in our exportation of barrel’d beef: the
+    propagation of swine’s flesh, and improvement in the art of making good
+    bacon, so much wanted among us by the great destruction of pigs, too
+    frequent at our tables; which are no way comparable in taste or
+    magnificence to a well grown, fat yearling child, which roasted whole
+    will make a considerable figure at a Lord Mayor’s feast, or any other
+    publick entertainment. But this, and many others, I omit, being
+    studious of brevity.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 281
+    "line_end": 289
+    "source_sequence": 30
+  "translation_ja": "このほかにも、多くの利点を挙げられる。たとえば、輸出する樽詰めの牛肉に、さらに数千体の肉を加えられること。豚肉の増産と、よいベーコンを作る技術の向上。これらは、わが国の食卓であまりに頻繁に子豚が食べられ、大量に殺されているために、切望されているものである。子豚など、よく育って太った一歳の子供とは、味でも豪華さでも、まるで比べものにならない。それを丸焼きにすれば、市長の宴席や、そのほか公の祝宴でも、ひときわ見栄えがするはずだ。しかし、簡潔を旨として、これも、ほかの多くの利点も、省くことにする。"
+  "translation_status": "reviewed"
+- "id": "proposal-028"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Supposing that one thousand families in this city, would be constant
+    customers for infants flesh, besides others who might have it at merry
+    meetings, particularly at weddings and christenings, I compute that
+    Dublin would take off annually about twenty thousand carcasses; and the
+    rest of the kingdom (where probably they will be sold somewhat cheaper)
+    the remaining eighty thousand.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 291
+    "line_end": 296
+    "source_sequence": 31
+  "translation_ja": "この市の千家族が幼児の肉の常得意になると仮定し、そのほかの人々も、にぎやかな集まり、特に結婚式や洗礼式の宴などで食べるとすれば、ダブリンだけで年に二万体ほどが売れ、王国のほかの地方では――おそらくいくらか安く売られるだろうが――残りの八万体が売れると、私は計算する。"
+  "translation_status": "reviewed"
+- "id": "proposal-029"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I can think of no one objection, that will possibly be raised against
+    this proposal, unless it should be urged, that the number of people
+    will be thereby much lessened in the kingdom. This I freely own, and
+    was indeed one principal design in offering it to the world. I desire
+    the reader will observe, that I calculate my remedy for this one
+    individual Kingdom of Ireland, and for no other that ever was, is, or,
+    I think, ever can be upon Earth. Therefore let no man talk to me of
+    other expedients: Of taxing our absentees at five shillings a pound: Of
+    using neither clothes, nor houshold furniture, except what is of our
+    own growth and manufacture: Of utterly rejecting the materials and
+    instruments that promote foreign luxury: Of curing the expensiveness of
+    pride, vanity, idleness, and gaming in our women: Of introducing a vein
+    of parsimony, prudence and temperance: Of learning to love our country,
+    wherein we differ even from Laplanders, and the inhabitants of
+    Topinamboo: Of quitting our animosities and factions, nor acting any
+    longer like the Jews, who were murdering one another at the very moment
+    their city was taken: Of being a little cautious not to sell our
+    country and consciences for nothing: Of teaching landlords to have at
+    least one degree of mercy towards their tenants. Lastly, of putting a
+    spirit of honesty, industry, and skill into our shopkeepers, who, if a
+    resolution could now be taken to buy only our native goods, would
+    immediately unite to cheat and exact upon us in the price, the measure,
+    and the goodness, nor could ever yet be brought to make one fair
+    proposal of just dealing, though often and earnestly invited to it.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 298
+    "line_end": 321
+    "source_sequence": 32
+  "translation_ja": "この提案に対して出そうな反論は、王国の人口が大いに減ってしまうというもの以外、私には一つも思いつかない。それは私も、率直に認める。実際、それこそ、この案を世に示した主な目的の一つだった。読者に心に留めていただきたいのは、私の救済策は、ほかならぬ、このアイルランド王国だけのために計算したものだということである。かつて存在し、今存在し、また、思うにこれからも地上に存在しうる、ほかのどんな国のためのものでもない。だから、ほかの方策など、誰も私に持ち出さないでいただきたい。国外住まいの地主に一ポンド当たり五シリングの税をかけるとか、衣服も家具も、国内で生産し製造したもの以外は使わないとか、外国の贅沢を助長する材料や道具を全面的に退けるとか、女たちの高慢、虚栄、怠惰、賭け事による浪費を治すとか、倹約、用心、節制の気風を広めるとか、祖国を愛することを覚えるとか――この点では、私たちはラップランド人やトピナンブーの住民とさえ違っている――、憎み合いや党派争いをやめ、都が攻略されているその瞬間にも殺し合っていたユダヤ人のように振る舞うのを、もうやめるとか、国や良心をただ同然で売り渡さないよう、少しは気をつけるとか、地主に、小作人へのせめてわずかばかりの慈悲を教えるとか。そして最後に、わが国の商人に、正直さ、勤勉さ、腕前の精神を吹き込むとか。この商人たちは、国産品しか買わないという決意が今なされたとしたら、たちまち結託して、値段でも、分量でも、品質でも、私たちをだまし、むしり取るだろう。そして、公正な取引のためのまともな提案を一つでもするよう、何度も熱心に求められてきたのに、いまだに応じさせることができたためしがないのである。"
+  "translation_status": "reviewed"
+- "id": "proposal-030"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    Therefore I repeat, let no man talk to me of these and the like
+    expedients, till he hath at least some glympse of hope, that there will
+    ever be some hearty and sincere attempt to put them into practice.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 323
+    "line_end": 325
+    "source_sequence": 33
+  "translation_ja": "だから繰り返すが、そうした方策を、いつか熱意と誠意をもって実行に移そうとする試みが、少しでも期待できるのでなければ、そのような案や、それに似た案を、誰も私に持ち出さないでいただきたい。"
+  "translation_status": "reviewed"
+- "id": "proposal-031"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    But, as to myself, having been wearied out for many years with offering
+    vain, idle, visionary thoughts, and at length utterly despairing of
+    success, I fortunately fell upon this proposal, which, as it is wholly
+    new, so it hath something solid and real, of no expence and little
+    trouble, full in our own power, and whereby we can incur no danger in
+    disobliging England. For this kind of commodity will not bear
+    exportation, and flesh being of too tender a consistence, to admit a
+    long continuance in salt, although perhaps I could name a country,
+    which would be glad to eat up our whole nation without it.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 327
+    "line_end": 335
+    "source_sequence": 34
+  "translation_ja": "私としては、長年、むなしく、役にも立たず、夢のような考えを提案し続けて疲れ果て、とうとう成功をすっかり諦めた末に、幸運にも、この案を思いついたのである。まったく新しい案でありながら、確かな現実味があり、費用はかからず、手間もわずかで、すべて私たち自身の力で実行でき、しかもイングランドの機嫌を損なう危険もない。この種の商品は輸出に耐えず、肉の質も柔らかすぎて、長く塩漬けにしておけないからである。もっとも、塩漬けなどにしなくても、わが国民をまるごと喜んで食い尽くすだろう国の名を、一つ挙げられそうではあるが。"
+  "translation_status": "reviewed"
+- "id": "proposal-032"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    After all, I am not so violently bent upon my own opinion, as to reject
+    any offer, proposed by wise men, which shall be found equally innocent,
+    cheap, easy, and effectual. But before something of that kind shall be
+    advanced in contradiction to my scheme, and offering a better, I desire
+    the author or authors will be pleased maturely to consider two points.
+    First, As things now stand, how they will be able to find food and
+    raiment for a hundred thousand useless mouths and backs. And secondly,
+    There being a round million of creatures in humane figure throughout
+    this kingdom, whose whole subsistence put into a common stock, would
+    leave them in debt two million of pounds sterling, adding those who are
+    beggars by profession, to the bulk of farmers, cottagers and labourers,
+    with their wives and children, who are beggars in effect; I desire
+    those politicians who dislike my overture, and may perhaps be so bold
+    to attempt an answer, that they will first ask the parents of these
+    mortals, whether they would not at this day think it a great happiness
+    to have been sold for food at a year old, in the manner I prescribe,
+    and thereby have avoided such a perpetual scene of misfortunes, as they
+    have since gone through, by the oppression of landlords, the
+    impossibility of paying rent without money or trade, the want of common
+    sustenance, with neither house nor clothes to cover them from the
+    inclemencies of the weather, and the most inevitable prospect of
+    intailing the like, or greater miseries, upon their breed for ever.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 337
+    "line_end": 358
+    "source_sequence": 35
+  "translation_ja": "とはいえ私は、自分の意見にあまりに激しく固執して、賢明な人々の出す、同じように害がなく、安上がりで、たやすく、効果のある提案を、何でも退けるほどではない。ただ、私の案に反対し、さらによい案として、そうしたものを提出する前に、その提案者には、次の二点を十分に考えていただきたい。第一に、今の状況で、何の役にも立たない十万人の口と体に、どうやって食べ物と着る物を見つけてやれるのか。第二に、この王国全体には、人間の姿をした生き物が、ざっと百万人いる。職業として物乞いをしている者に、実際には物乞い同然の、大部分の農民、小屋住まいの者、労働者と、その妻子を加えた数である。その者たちの暮らし向きを一つにまとめて勘定すれば、差し引き二百万ポンドの赤字になる。私の提案を嫌い、ことによると大胆にも答えを試みる政治家たちには、まず、こうした人々の親に尋ねてほしい。私の勧めるやり方で、一歳のときに食料として売られていれば、今となっては、大きな幸せだったと思わないだろうか。そうしていれば、その後ずっと経験してきた、あの絶え間ない不幸を免れたはずなのだ。地主の圧迫、金も商いもないのに地代を払うという不可能事、ありふれた食料さえない暮らし、風雨をしのぐ家も着る物もない境遇、そして、同じ、あるいはそれ以上の悲惨さを、自分の子孫に永久に受け継がせるという、どうにも逃れようのない見通しを。"
+  "translation_status": "reviewed"
+- "id": "proposal-033"
+  "section_id": "body"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    I profess in the sincerity of my heart, that I have not the least
+    personal interest in endeavouring to promote this necessary work,
+    having no other motive than the publick good of my country, by
+    advancing our trade, providing for infants, relieving the poor, and
+    giving some pleasure to the rich. I have no children, by which I can
+    propose to get a single penny; the youngest being nine years old, and
+    my wife past child-bearing.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-1080"
+    "precision": "line"
+    "url": "https://www.gutenberg.org/cache/epub/1080/pg1080.txt"
+    "line_start": 360
+    "line_end": 366
+    "source_sequence": 36
+  "translation_ja": "私は心の底から誠実に申し上げるが、この必要な事業を推し進めようとするに当たり、個人的な利害は、いささかも持ち合わせていない。動機はただ、商業を振興し、幼児の身の振り方を定め、貧民を救い、金持ちにいくらか楽しみを与えることで、祖国の公共の利益に尽くす、それだけである。私には、この案で一ペニーでも稼げるような子供はいない。末の子は九歳であり、妻はもう子供を産める年齢を過ぎている。"
+  "translation_status": "reviewed"
+"notes": []
+"references": []
+"groups": []
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "swift-name"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Jonathan Swift"
+  "translation_ja": "ジョナサン・スウィフト"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+  "note_ja": "既存『樽物語』の著者名表記を踏襲。"
+- "id": "papists"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Papists"
+  "translation_ja": "教皇派"
+  "note_ja": "語り手による反カトリック的な呼称を保持。Roman Catholick等は文脈に応じカトリックとする。"
+- "id": "pretender"
+  "kind": "person"
+  "source_language": "en"
+  "source": "the Pretender"
+  "translation_ja": "王位僭称者"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-20T23:32:36Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "23a48028853939b8ed0740b9cb1970393486da4b2817456c4f2ac0aa74710350"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "1277c50ba475bbe1fd793e158145f5e46491094f"
+  "translation_method": "Codexによる英語原文からの新訳。既存日本語訳の転用なし。初稿保存後、全37単位を原文と一回対照し、同じ読解の中で日本語の意味と皮肉、数値、否定、順序を確認。"
+  "source_body_paragraph_count": 33
+  "drafted_segment_count": 37
+  "next_segment_id": null
+  "full_review_segment_ids":
+  - "proposal-title"
+  - "proposal-subtitle"
+  - "proposal-author"
+  - "proposal-date"
+  - "proposal-001"
+  - "proposal-002"
+  - "proposal-003"
+  - "proposal-004"
+  - "proposal-005"
+  - "proposal-006"
+  - "proposal-007"
+  - "proposal-008"
+  - "proposal-009"
+  - "proposal-010"
+  - "proposal-011"
+  - "proposal-012"
+  - "proposal-013"
+  - "proposal-014"
+  - "proposal-015"
+  - "proposal-016"
+  - "proposal-017"
+  - "proposal-018"
+  - "proposal-019"
+  - "proposal-020"
+  - "proposal-021"
+  - "proposal-022"
+  - "proposal-023"
+  - "proposal-024"
+  - "proposal-025"
+  - "proposal-026"
+  - "proposal-027"
+  - "proposal-028"
+  - "proposal-029"
+  - "proposal-030"
+  - "proposal-031"
+  - "proposal-032"
+  - "proposal-033"
+  "full_review_corrections_ja":
+  - "本文第18段落のgroatに原文が指定しない銅貨という材質を付加した箇所を除去。服の代金は支払う意図の断定を避け、未来の不払いとして修正。"

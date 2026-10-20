@@ -1,0 +1,183 @@
+"schema_version": "2.0"
+"work_id": "swift-a-meditation-upon-a-broomstick"
+"metadata":
+  "title_ja": "箒の柄についての瞑想"
+  "title_original": "A Meditation upon a Broomstick"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "morley"
+    "name_ja": "ヘンリー・モーリー"
+    "name_original": "Henry Morley"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。原著と電子翻刻の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "随筆"
+  - "風刺"
+  "reader_notes_ja":
+  - "1886年Cassell & Company版の英語電子翻刻に基づく。見出し、副題と本文全2段落を収録。"
+"sources":
+- "id": "gutenberg-623"
+  "role": "primary"
+  "title": "The Battle of the Books, and Other Short Pieces"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+  "edition": "ヘンリー・モーリー編、Cassell & Company、1886年版。Project Gutenberg eBook 623の旧HTML。HTML内の公開日記載は2007年1月15日。"
+  "contributor_ids":
+  - "swift"
+  - "morley"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/623"
+    "note_ja": "著者1745年没、編者1894年没の1886年刊本。Project Gutenberg書誌は米国でパブリックドメインと表示。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "Transcribed from the 1886 Cassell & Company edition by David Price."
+    "note_ja": "原著の著作権状態と、Project Gutenbergの商標・電子版配布条件を区別する。"
+  "sha256": "6362b44a9f5703d1c2a3d10313ead9c9e124f845d138d725e602b6f1bf630517"
+  "description_ja": "2007年1月15日と記載された旧HTMLを2026年10月21日に取得。現在のcache版と混同しない。HTMLの段落内改行と連続する組版用空白を単一空白に整理し、各h2・pの境界と語句を保持。選定3篇内の通し原文順をsource_sequenceとし、元HTMLのXPathと開始行を併記。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-623"
+    "description_ja": "見出し、副題と本文全2段落を収録。"
+    "section_ids":
+    - "work"
+  "excluded":
+  - "source_id": "gutenberg-623"
+    "description_ja": "同一巻の他作品、巻全体の標題紙・編者序文・目次、電子版の利用案内・開始終了表示・末尾利用条件。対象作品の本文は省略しない。"
+  "known_gaps": []
+"sections":
+- "id": "work"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "a-meditation-upon-a-broomstick-title"
+  "origin": "source"
+"segments":
+- "id": "a-meditation-upon-a-broomstick-title"
+  "section_id": "work"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    A MEDITATION UPON A BROOMSTICK.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[7]"
+    "line_start": 1185
+    "source_sequence": 0
+  "translation_ja": |-
+    箒の柄についての瞑想
+  "translation_status": "reviewed"
+- "id": "a-meditation-upon-a-broomstick-001"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    According to the Style and Manner of the Hon. Robert Boyle’s Meditations.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[49]"
+    "line_start": 1186
+    "source_sequence": 1
+  "translation_ja": |-
+    ロバート・ボイル閣下の『瞑想録』の文体と流儀にならって
+  "translation_status": "reviewed"
+- "id": "a-meditation-upon-a-broomstick-002"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    This single stick, which you now behold ingloriously lying in that neglected corner, I once knew in a flourishing state in a forest. It was full of sap, full of leaves, and full of boughs; but now in vain does the busy art of man pretend to vie with nature, by tying that withered bundle of twigs to its sapless trunk; it is now at best but the reverse of what it was, a tree turned upside-down, the branches on the earth, and the root in the air; it is now handled by every dirty wench, condemned to do her drudgery, and, by a capricious kind of fate, destined to make other things clean, and be nasty itself; at length, worn to the stumps in the service of the maids, it is either thrown out of doors or condemned to the last use—of kindling a fire. When I behold this I sighed, and said within myself, “Surely mortal man is a broomstick!” Nature sent him into the world strong and lusty, in a thriving condition, wearing his own hair on his head, the proper branches of this reasoning vegetable, till the axe of intemperance has lopped off his green boughs, and left him a withered trunk; he then flies to art, and puts on a periwig, valuing himself upon an unnatural bundle of hairs, all covered with powder, that never grew on his head; but now should this our broomstick pretend to enter the scene, proud of those birchen spoils it never bore, and all covered with dust, through the sweepings of the finest lady’s chamber, we should be apt to ridicule and despise its vanity. Partial judges that we are of our own excellencies, and other men’s defaults!
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[50]"
+    "line_start": 1188
+    "source_sequence": 2
+  "translation_ja": |-
+    今、あの放り置かれた隅に、みすぼらしく転がっているこの一本の棒を、私はかつて、森の中で青々と栄えていたころから知っている。樹液に満ち、葉に満ち、枝に満ちていたものだ。ところが今では、人間のせわしない細工が、その樹液の尽きた幹に、しおれた小枝の束をくくりつけて、自然と張り合おうとしているが、むなしいことだ。今の姿は、せいぜい昔の裏返しにすぎない。枝を地面に、根を空に向けた、逆さまの木なのである。今では、どの汚い下働き女にも手に取られ、その雑用をさせられ、気まぐれな運命によって、ほかの物をきれいにしながら、自分は汚くなるよう定められている。やがて女中たちに使い尽くされ、先が擦り切れると、戸外へ捨てられるか、最後の用――火をたきつけること――に処せられる。これを見て私はため息をつき、心の中で言った。「まことに、死すべき人間とは箒の柄である！」自然は人間を、強く、たくましく、勢いに満ちた姿で世に送り出した。その頭には自前の髪が生えていた。理性を持つこの植物にふさわしい枝である。ところが、不摂生という斧がその青い枝を切り落とし、枯れた幹だけにしてしまう。すると人間は細工に頼り、かつらをかぶる。そして、自分の頭に生えたこともない、不自然な髪の束を、すっかり粉で覆って、自慢にするのである。だが、この箒の柄が、自分では一度も生やしたことのない白樺の枝を戦利品のように誇り、最高に上品な婦人の部屋を掃いて、全身ほこりだらけになった姿で、ひとかどの顔をして現れたらどうだろう。私たちは、その虚栄を笑い、軽蔑するに違いない。自分の長所と、他人の欠点とを量るとき、私たちの判断は、なんと身びいきなことか！
+  "translation_status": "reviewed"
+- "id": "a-meditation-upon-a-broomstick-003"
+  "section_id": "work"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    But a broomstick, perhaps you will say, is an emblem of a tree standing on its head; and pray what is a man but a topsy-turvy creature, his animal faculties perpetually mounted on his rational, his head where his heels should be, grovelling on the earth? And yet, with all his faults, he sets up to be a universal reformer and corrector of abuses, a remover of grievances, rakes into every slut’s corner of nature, bringing hidden corruptions to the light, and raises a mighty dust where there was none before, sharing deeply all the while in the very same pollutions he pretends to sweep away. His last days are spent in slavery to women, and generally the least deserving; till, worn to the stumps, like his brother besom, he is either kicked out of doors, or made use of to kindle flames for others to warm themselves by.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[51]"
+    "line_start": 1214
+    "source_sequence": 3
+  "translation_ja": |-
+    だが、箒の柄とは、頭で逆立ちした木の象徴ではないか、とあなたは言うかもしれない。では、人間とは、いったい何だろう。動物的な能力が、いつも理性的な能力の上に乗り、踵のあるべきところに頭を置いて、地べたをはい回る、逆さまの生き物ではないか。それなのに、これほどの欠点を抱えたまま、万事の改革者、不正の是正者、苦情の解決者を気取り、自然のあらゆる汚い片隅をほじくり、隠れた腐敗を明るみに出し、以前にはなかったところに、もうもうとほこりを立てる。その間ずっと、自分が掃き払うふりをしている、まさにその汚れに、深々と染まっているのである。晩年は女たちに、しかもたいていは、もっとも仕える値打ちのない女たちに、奴隷のように仕えて過ごす。そして、兄弟分の箒と同じように、先が擦り切れるまで使われたあげく、戸外へ蹴り出されるか、ほかの者たちが暖まるための炎をたきつけるのに、利用されるのである。
+  "translation_status": "reviewed"
+"notes": []
+"references": []
+"groups": []
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "swift-name"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Jonathan Swift"
+  "translation_ja": "ジョナサン・スウィフト"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+  "note_ja": "既存『樽物語』の著者名表記を踏襲。"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-20T23:40:35Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "fd6b80826e6b523f8b1a5b902896d067d91fbfb4d7da883c92053b91741c80bc"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "1277c50ba475bbe1fd793e158145f5e46491094f"
+  "translation_method": "Codexによる原文からの新訳。既存日本語訳の転用なし。初稿完成後、見出し・副題を含む全対訳単位を原文と一回対照し、同じ読みの中で意味、否定、数量、人物、性別、皮肉、順序を確認。"
+  "drafted_segment_count": 4
+  "next_segment_id": null
+  "full_review_segment_ids":
+  - "a-meditation-upon-a-broomstick-title"
+  - "a-meditation-upon-a-broomstick-001"
+  - "a-meditation-upon-a-broomstick-002"
+  - "a-meditation-upon-a-broomstick-003"
+  "full_review_corrections_ja": []
