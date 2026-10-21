@@ -1,0 +1,1006 @@
+"schema_version": "2.0"
+"work_id": "swift-the-ladys-dressing-room"
+"metadata":
+  "title_ja": "淑女の化粧室"
+  "title_original": "The Lady's Dressing-Room. 1730"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "browning"
+    "name_ja": "ウィリアム・アーンスト・ブラウニング"
+    "name_original": "William Ernst Browning"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "今回の新訳の利用条件は未指定。原著・底本編集物・電子翻刻の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "詩"
+  - "風刺"
+  "reader_notes_ja":
+  - "1910年ブラウニング編版の題と1730年記、詩全144行、底本注三件を収録。"
+  - "詩中の伏字と、底本注が示す1732年の異文を残した。無署名の異文注二件と、W・E・B署名の引用注を区別する。"
+"sources":
+- "id": "gutenberg-14353"
+  "role": "primary"
+  "title": "The Poems of Jonathan Swift, D.D., Volume I"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+  "edition": "William Ernst Browning編、London: G. Bell and Sons, Ltd.、1910年。Project Gutenberg eBook 14353。HTMLに初公開2004年12月14日・最終更新2024年10月28日と記載。"
+  "contributor_ids":
+  - "swift"
+  - "browning"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/14353"
+    "note_ja": "原著者Swiftは1745年没。1910年刊本で、Project Gutenberg書誌は米国で公有と表示。編者Browningの没年1916はスコットランド国立図書館一次アーカイブ目録のCreator欄（https://manuscripts.nls.uk/repositories/2/archival_objects/18799）で1830–1916と記載。原著と後代の編集注を区別する。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "E-text prepared by Clare Boothby, G. Graustein, and the Project Gutenberg Online Distributed Proofreading\
+      \ Team"
+    "note_ja": "公有の原著・1910年版編集物と、Project Gutenbergの商標および電子版配布条件を区別する。"
+  "sha256": "86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc"
+  "description_ja": "1910年刊本の当該詩と底本注を収録。題にある1730年は底本の年記として保持し、初刊年とは断定しない。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "題と1730年記・詩の全144行・底本注三件。"
+    "section_ids":
+    - "poem"
+    - "source-notes"
+  "excluded":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "巻全体の前付・編者序文・目次、前後の他作品、次篇The Power of Time、電子版の定型利用案内とライセンス。比較資料にある主底本とは別の注は加えない。対象詩本文と底本注に省略なし。"
+  "known_gaps": []
+"sections":
+- "id": "poem"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "ldr-title"
+  "origin": "source"
+- "id": "source-notes"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "label_ja": "底本注"
+  "origin": "editorial"
+"segments":
+- "id": "ldr-title"
+  "section_id": "poem"
+  "kind": "heading"
+  "source_text": |-
+    THE LADY'S DRESSING-ROOM. 1730
+  "translation_ja": |-
+    淑女の化粧室。一七三〇年
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/h2[85]"
+    "line_start": 10184
+    "line_end": 10186
+    "source_sequence": 0
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ldr-verse-001"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Five hours (and who can do it less in?)
+    By haughty Celia spent in dressing;
+    The goddess from her chamber issues,
+    Array'd in lace, brocades, and tissues.
+  "translation_ja": |-
+    五時間を（これより短く、誰が済ませられよう）、
+    高慢なシーリアは、身支度に費やした。
+    女神は、部屋から姿を現す、
+    レースと錦織と薄絹をまとって。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[207]"
+    "line_start": 10188
+    "line_end": 10191
+    "source_sequence": 1
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ldr-verse-002"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      Strephon, who found the room was void,
+    And Betty otherwise employ'd,
+    Stole in, and took a strict survey
+    Of all the litter as it lay:
+    Whereof, to make the matter clear,
+    An inventory follows here.
+  "translation_ja": |-
+    ストレフォンは、部屋が空いていて、
+    ベティも、ほかの仕事にかかっていると知り、
+    忍び込み、散らかり放題の品々を、
+    一つ残らず、念入りに見て回った。
+    そこで、事を明らかにするため、
+    ここに、その目録を掲げよう。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[207]"
+    "line_start": 10192
+    "line_end": 10197
+    "source_sequence": 2
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ldr-verse-003"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      And, first, a dirty smock appear'd,
+    Beneath the arm-pits well besmear'd;
+    Strephon, the rogue, display'd it wide,
+    And turn'd it round on ev'ry side:
+    On such a point, few words are best,
+    And Strephon bids us guess the rest;
+    But swears, how damnably the men lie
+    In calling Celia sweet and cleanly.
+  "translation_ja": |-
+    まず、汚れた肌着が現れた、
+    脇の下は、すっかり汚れにまみれている。
+    悪党ストレフォンは、それを広げ、
+    ひっくり返して、隅々まで眺めた。
+    こういう点は、多くを語らぬにかぎる、
+    あとは察しろと、ストレフォンは言う。
+    だが、シーリアを、よい香りの、清潔な女と呼ぶ、
+    男どもは、とんでもない嘘つきだと、罵って誓う。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[207]"
+    "line_start": 10198
+    "line_end": 10205
+    "source_sequence": 3
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ldr-verse-004"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      Now listen, while he next produces
+    The various combs for various uses;
+    Fill'd up with dirt so closely fixt,
+    No brush could force a way betwixt;
+    A paste of composition rare,
+    Sweat, dandriff, powder, lead, and hair:
+    A fore-head cloth with oil upon't,
+    To smooth the wrinkles on her front:
+    Here alum-flour, to stop the steams
+    Exhaled from sour unsavoury streams:
+    There night-gloves made of Tripsey's hide,
+    [1]Bequeath'd by Tripsey when she died;
+    With puppy-water, beauty's help,
+    Distil'd from Tripsey's darling whelp.
+    Here gallipots and vials placed,
+    Some fill'd with washes, some with paste;
+    Some with pomatums, paints, and slops,
+    And ointments good for scabby chops.
+    Hard by a filthy bason stands,
+    Foul'd with the scouring of her hands:
+    The bason takes whatever comes,
+    The scrapings from her teeth and gums,
+    A nasty compound of all hues,
+    For here she spits, and here she spues.
+  "translation_ja": |-
+    さて、お聴きあれ、彼が次に取り出すのは、
+    さまざまな用途に使う、さまざまな櫛。
+    汚れが、びっしり詰まって、こびりつき、
+    ブラシ一本、隙間を通せない。
+    何とも珍しい配合の、練り物だ、
+    汗、ふけ、白粉、鉛、それに毛髪。
+    額のしわを伸ばすための、
+    油のついた、額当ての布。
+    こちらには、酸っぱく不快な流れから、
+    立ちのぼる湯気を止める、明礬の粉。
+    あちらには、トリプシーの皮の夜用手袋、
+    トリプシーが、死ぬとき遺してくれたもの。[1]
+    それに、美容の助けとなる「仔犬の水」、
+    トリプシーの愛しい仔犬から、蒸留したもの。
+    ここには、軟膏壺や小瓶が並び、
+    化粧水のものも、練り物のものもあり、
+    ポマード、塗料、べちゃべちゃした液体、
+    かさぶただらけの頬に効く、軟膏のものもある。
+    すぐそばには、汚らしい洗面鉢、
+    手から洗い落とした汚れで、汚れている。
+    この鉢は、来るものは、何でも受け止める、
+    歯や歯茎から、こそげ落としたものも、
+    あらゆる色の、汚らしい混ぜ物も、
+    ここに、彼女は唾を吐き、ここで、吐くのだから。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[207]"
+    "line_start": 10206
+    "line_end": 10229
+    "source_sequence": 4
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ldr-verse-005"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      But, oh! it turn'd poor Strephon's bowels
+    When he beheld and smelt the towels,
+    Begumm'd, bematter'd, and beslim'd,
+    With dirt, and sweat, and ear-wax grim'd;
+    No object Strephon's eye escapes;
+    Here petticoats in frouzy heaps;
+    Nor be the handkerchiefs forgot,
+    All varnish'd o'er with snuff and snot.
+    The stockings why should I expose,
+    Stain'd with the moisture of her toes,[2]
+    Or greasy coifs, and pinners reeking,
+    Which Celia slept at least a week in?
+    A pair of tweezers next he found,
+    To pluck her brows in arches round;
+    Or hairs that sink the forehead low,
+    Or on her chin like bristles grow.
+  "translation_ja": |-
+    だが、ああ、気の毒なストレフォンは、腹の底からむかついた、
+    手ぬぐいを目にし、その臭いを嗅いだときに。
+    ねばつき、膿と粘液にまみれ、
+    垢と汗と耳垢で、黒ずんでいる。
+    ストレフォンの目を、逃れる物はない。
+    ここには、かび臭い山をなす、ペティコート。
+    ハンカチも、忘れてはならない、
+    嗅ぎ煙草と鼻汁で、すっかり艶をつけたものを。
+    なぜ、私が、靴下までさらそう、
+    足の指の湿り気で、染みだらけのものを。[2]
+    あるいは、あぶらじみた頭巾や、臭う垂れ布つきの帽子、
+    少なくとも一週間は、シーリアがかぶって寝たものを。
+    次には、毛抜きを一つ、見つけた、
+    眉を、丸い弧の形に抜くためのもの、
+    あるいは、額へ低く生え下がった毛や、
+    顎に剛毛のように生える毛を、抜くためのものを。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[207]"
+    "line_start": 10230
+    "line_end": 10245
+    "source_sequence": 5
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ldr-verse-006"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      The virtues we must not let pass
+    Of Celia's magnifying glass;
+    When frighted Strephon cast his eye on't,
+    It shew'd the visage of a giant:
+    A glass that can to sight disclose
+    The smallest worm in Celia's nose,
+    And faithfully direct her nail
+    To squeeze it out from head to tail;
+    For, catch it nicely by the head,
+    It must come out, alive or dead.
+  "translation_ja": |-
+    見逃すわけにはゆかないのが、
+    シーリアの、拡大鏡の効能だ。
+    ぎょっとしたストレフォンが、目を向けると、
+    そこには、巨人の顔が映った。
+    シーリアの鼻の、最も小さい虫まで、
+    目に見えるようにしてくれる鏡であり、
+    爪を確実に導いて、
+    頭から尾まで、絞り出させてくれる。
+    頭を、うまくつかみさえすれば、
+    生きていようが死んでいようが、そいつは出てくる。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[207]"
+    "line_start": 10246
+    "line_end": 10255
+    "source_sequence": 6
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ldr-verse-007"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      Why, Strephon, will you tell the rest?
+    And must you needs describe the chest?
+    That careless wench! no creature warn her
+    To move it out from yonder corner!
+    But leave it standing full in sight,
+    For you to exercise your spight?
+    In vain the workman shew'd his wit,
+    With rings and hinges counterfeit,
+    To make it seem in this disguise
+    A cabinet to vulgar eyes:
+    Which Strephon ventur'd to look in,
+    Resolved to go thro' thick and thin.
+    He lifts the lid: there needs no more,
+    He smelt it all the time before.
+  "translation_ja": |-
+    ストレフォン、なぜ、残りまで話すのだ。
+    どうしても、あの箱を描き出さねばならないのか。
+    あの、うっかり女中め！　誰も言ってやらなかったのか、
+    あの隅から、どかしておけと。
+    それなのに、丸見えのまま、置いておくとは、
+    おまえが、意地の悪さを振るえるようにとでもいうのか。
+    職人が、知恵を見せたのも、無駄だった、
+    見せかけの、取っ手の輪や蝶番をつけ、
+    その偽装で、普通の目には、
+    飾り戸棚と見えるようにしたのも。
+    ストレフォンは、思い切って、中をのぞいた、
+    どんなことになろうと、やり抜くと決めて。
+    蓋を上げた。もう、それ以上は要らない、
+    それまでも、ずっと、臭いは嗅いでいたのだから。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[207]"
+    "line_start": 10256
+    "line_end": 10269
+    "source_sequence": 7
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ldr-verse-008"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      As, from within Pandora's box,
+    When Epimetheus op'd the locks,
+    A sudden universal crew
+    Of human evils upward flew;
+    He still was comforted to find
+    That hope at last remain'd behind:
+    So Strephon, lifting up the lid,
+    To view what in the chest was hid,
+    The vapours flew from up the vent;
+    But Strephon, cautious, never meant
+    The bottom of the pan to grope,
+    And foul his hands in search of hope.
+    O! ne'er may such a vile machine
+    Be once in Celia's chamber seen!
+    O! may she better learn to keep
+    Those "secrets of the hoary deep." [3]
+  "translation_ja": |-
+    パンドラの箱の中から、
+    エピメテウスが、錠を開けたとき、
+    人間を襲う、ありとあらゆる災いの群れが、
+    不意に、上へと飛び出したとき、
+    それでも、最後には、希望だけが、
+    あとに残ったと知り、彼は慰められた。
+    それと同じく、ストレフォンが蓋を上げ、
+    箱に隠されたものを見ようとすると、
+    湯気が、穴から、上へと吹き出した。
+    だが、用心深いストレフォンは、そもそも、
+    便壺の底を、手探りして、
+    希望を求め、手を汚すつもりはなかった。
+    ああ、こんな汚らしい仕掛けが、
+    シーリアの部屋で、一度たりとも、見られませんように！
+    ああ、彼女が、もっと上手に隠せますように、
+    かの「太古の深淵の秘密」を。[3]
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[207]"
+    "line_start": 10270
+    "line_end": 10285
+    "source_sequence": 8
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ldr-verse-009"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      As mutton-cutlets, prime of meat,
+    Which, tho' with art you salt and beat,
+    As laws of cookery require,
+    And toast them at the clearest fire;
+    If from upon the hopeful chops
+    The fat upon a cinder drops,
+    To stinking smoke it turns the flame,
+    Pois'ning the flesh from whence it came,
+    And up exhales a greasy stench,
+    For which you curse the careless wench:
+    So things which must not be exprest,
+    When drop'd into the reeking chest,
+    Send up an excremental smell
+    To taint the part from whence they fell:
+    The petticoats and gown perfume,
+    And waft a stink round ev'ry room.
+  "translation_ja": |-
+    極上の肉、羊肉の骨つき切り身も、
+    料理の掟が、要求するとおり、
+    手をかけて、塩をすり込み、叩いて、
+    煙の出ぬ火で、炙り上げようとも、
+    その、うまそうな骨つき肉から、
+    脂が、燃えさしへ滴り落ちれば、
+    炎を、臭い煙へと変えて、
+    脂のもととなった肉を、台無しにし、
+    上へ、脂ぎった悪臭を立ちのぼらせ、
+    そのため、不注意な女中を、罵ることになる。
+    それと同じく、口に出してはならぬものも、
+    湯気の立つ箱へ、落とされれば、
+    排泄物の臭いを、立ちのぼらせて、
+    それが落ちてきた部位へ、臭いを染みつかせる。
+    ペティコートやガウンを、香らせ、
+    部屋という部屋へ、悪臭を漂わせる。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[207]"
+    "line_start": 10286
+    "line_end": 10301
+    "source_sequence": 9
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ldr-verse-010"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      Thus finishing his grand survey,
+    Disgusted Strephon slunk away;
+    Repeating in his amorous fits,
+    "Oh! Celia, Celia, Celia sh—!"
+    But Vengeance, goddess never sleeping,
+    Soon punish'd Strephon for his peeping:
+    His foul imagination links
+    Each dame he sees with all her stinks;
+    And, if unsavoury odours fly,
+    Conceives a lady standing by.
+    All women his description fits,
+    And both ideas jump like wits;
+    By vicious fancy coupled fast,
+    And still appearing in contrast.
+  "translation_ja": |-
+    こうして、大探検を終え、
+    うんざりしたストレフォンは、こそこそ立ち去った。
+    恋の発作にとらわれては、繰り返す、
+    「おお、シーリア、シーリア、シーリアは、くそを——！」
+    だが、決して眠らぬ女神、復讐は、
+    のぞき見したストレフォンを、すぐ罰した。
+    その不潔な想像力は、目にする、どの女をも、
+    その女の、ありとあらゆる悪臭と、結びつける。
+    そして、不快な臭いが漂えば、
+    そばに、婦人が立っていると思い込む。
+    どんな女にも、彼の描く姿は当てはまり、
+    二つの観念は、才人の考えのように、ぴたりと合う。
+    いびつな空想で、固く結ばれ、
+    しかも、いつも、互いに対照をなして現れる。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[207]"
+    "line_start": 10302
+    "line_end": 10315
+    "source_sequence": 10
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ldr-verse-011"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      I pity wretched Strephon, blind
+    To all the charms of woman kind.
+    Should I the Queen of Love refuse,
+    Because she rose from stinking ooze?
+    To him that looks behind the scene,
+    Statira's but some pocky quean.
+  "translation_ja": |-
+    私は、哀れなストレフォンを気の毒に思う、
+    女というものの、すべての魅力が、彼には見えぬ。
+    臭い泥から生まれ出たからといって、
+    私が、恋の女王を、拒むべきなのか。
+    舞台裏をのぞく男にとっては、
+    スタテイラも、あばただらけの売女にすぎない。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[207]"
+    "line_start": 10316
+    "line_end": 10321
+    "source_sequence": 11
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ldr-verse-012"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      When Celia in her glory shews,
+    If Strephon would but stop his nose,
+    (Who now so impiously blasphemes
+    Her ointments, daubs, and paints, and creams,
+    Her washes, slops, and every clout,
+    With which he makes so foul a rout;)
+    He soon would learn to think like me,
+    And bless his ravish'd sight to see
+    Such order from confusion sprung,
+    Such gaudy tulips raised from dung.
+  "translation_ja": |-
+    シーリアが、その栄光のうちに、姿を現すとき、
+    ストレフォンが、ただ鼻をつまみさえすれば、
+    （今では、あまりにも不敬にも、罵っている、
+    彼女の軟膏、塗りもの、化粧料、クリーム、
+    化粧水、どろどろの液、あらゆる布切れを、
+    それをもとに、あれほど、汚く騒ぎ立てているのだが）、
+    彼も、すぐに、私のように考えることを覚え、
+    その光景に心を奪われる目を、祝福するだろう、
+    あれほどの秩序が、混乱から生まれ、
+    あれほど、華やかなチューリップが、糞から育つのを見て。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[207]"
+    "line_start": 10322
+    "line_end": 10331
+    "source_sequence": 12
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ldr-note-001"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "source_text": |-
+    [Footnote 1: Var. "The bitch bequeath'd her when she died."—1732.]
+  "translation_ja": |-
+    [1] 異文。「雌犬が、死ぬとき、彼女に遺したもの。」――一七三二年版。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[208]"
+    "line_start": 10334
+    "line_end": 10334
+    "source_sequence": 13
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "attributions":
+  - "voice": "unknown"
+    "evidence_ja": "1732年の異文を挙げる無署名の底本注。"
+- "id": "ldr-note-002"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "source_text": |-
+    [Footnote 2: Var. "marks of stinking toes."—1732.]
+  "translation_ja": |-
+    [2] 異文。「臭い足指の跡。」――一七三二年版。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[208]"
+    "line_start": 10336
+    "line_end": 10336
+    "source_sequence": 14
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "attributions":
+  - "voice": "unknown"
+    "evidence_ja": "1732年の異文を挙げる無署名の底本注。"
+- "id": "ldr-note-003"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "source_text": |-
+    [Footnote 3: Milton, "Paradise Lost," ii, 890-1: "Before their eyes in sudden view appear The secrets of the hoary deep."—W. E. B.]
+  "translation_ja": |-
+    [3] ミルトン『失楽園』第二巻、第八九〇〜八九一行。
+    「彼らの目の前に、不意に現れる、
+    太古の深淵の秘密が。」――W・E・B。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[208]"
+    "line_start": 10338
+    "line_end": 10340
+    "source_sequence": 15
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "browning"
+    "evidence_ja": "巻の編者の頭文字に一致するW. E. B.署名。"
+"notes":
+- "id": "ldr-footnote-1"
+  "origin": "unknown"
+  "label": "1"
+  "form": "footnote"
+  "body":
+  - "segment_id": "ldr-note-001"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[208]"
+    "line_start": 10334
+    "line_end": 10334
+    "source_sequence": 13
+  "description_ja": "底本が1732年と記す異文の比較注。無署名のため注者個人は特定せず、Swiftの自注とも断定しない。"
+- "id": "ldr-footnote-2"
+  "origin": "unknown"
+  "label": "2"
+  "form": "footnote"
+  "body":
+  - "segment_id": "ldr-note-002"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[208]"
+    "line_start": 10336
+    "line_end": 10336
+    "source_sequence": 14
+  "description_ja": "底本が1732年と記す異文の比較注。無署名のため注者個人は特定せず、Swiftの自注とも断定しない。"
+- "id": "ldr-footnote-3"
+  "origin": "editor"
+  "label": "3"
+  "form": "footnote"
+  "body":
+  - "segment_id": "ldr-note-003"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[208]"
+    "line_start": 10338
+    "line_end": 10340
+    "source_sequence": 15
+  "contributor_id": "browning"
+  "description_ja": "底本のW. E. B.署名の編者注。ミルトン『失楽園』を引用する。"
+"references":
+- "id": "ldr-reference-1"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "ldr-verse-004"
+    "source_span":
+      "start": 404
+      "end": 407
+      "exact": "[1]"
+    "translation_span":
+      "start": 211
+      "end": 214
+      "exact": "[1]"
+  "to":
+    "type": "note"
+    "id": "ldr-footnote-1"
+  "status": "verified"
+- "id": "ldr-reference-2"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "ldr-verse-005"
+    "source_span":
+      "start": 372
+      "end": 375
+      "exact": "[2]"
+    "translation_span":
+      "start": 198
+      "end": 201
+      "exact": "[2]"
+  "to":
+    "type": "note"
+    "id": "ldr-footnote-2"
+  "status": "verified"
+- "id": "ldr-reference-3"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "ldr-verse-008"
+    "source_span":
+      "start": 525
+      "end": 528
+      "exact": "[3]"
+    "translation_span":
+      "start": 291
+      "end": 294
+      "exact": "[3]"
+  "to":
+    "type": "note"
+    "id": "ldr-footnote-3"
+  "status": "verified"
+"groups": []
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "ldr-term-01"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Celia"
+  "translation_ja": "シーリア"
+- "id": "ldr-term-02"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Strephon"
+  "translation_ja": "ストレフォン"
+- "id": "ldr-term-03"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Betty"
+  "translation_ja": "ベティ"
+- "id": "ldr-term-04"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Tripsey"
+  "translation_ja": "トリプシー"
+  "note_ja": "本文ではその皮と仔犬が言及され、異文注では雌犬と明示される。"
+- "id": "ldr-term-05"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Pandora"
+  "translation_ja": "パンドラ"
+- "id": "ldr-term-06"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Epimetheus"
+  "translation_ja": "エピメテウス"
+  "note_ja": "箱の錠を開く主体は主底本の記載どおり。別の神話叙述へ直さない。"
+- "id": "ldr-term-07"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Statira"
+  "translation_ja": "スタテイラ"
+- "id": "ldr-term-08"
+  "kind": "term"
+  "source_language": "en"
+  "source": "tissues"
+  "translation_ja": "薄絹"
+  "note_ja": "Merriam-Websterの繊細で軽い薄布の語義を参照。"
+- "id": "ldr-term-09"
+  "kind": "term"
+  "source_language": "en"
+  "source": "pinners"
+  "translation_ja": "垂れ布つきの帽子"
+  "note_ja": "Merriam-Websterの17〜18世紀女性用の垂れ布つき帽子という語義を参照。"
+- "id": "ldr-term-10"
+  "kind": "term"
+  "source_language": "en"
+  "source": "chops"
+  "translation_ja": "頬"
+  "note_ja": "Merriam-Websterの顎を覆う肉の部分という語義を参照。肉の切り身のchopsとは文脈を分ける。"
+- "id": "ldr-term-11"
+  "kind": "term"
+  "source_language": "en"
+  "source": "puppy-water"
+  "translation_ja": "仔犬の水"
+  "note_ja": "本文の説明する仔犬から蒸留した美容用の液体として訳す。"
+- "id": "ldr-term-12"
+  "kind": "term"
+  "source_language": "en"
+  "source": "hoary deep"
+  "translation_ja": "太古の深淵"
+  "note_ja": "本文と底本のMilton引用注で表記を統一。"
+- "id": "ldr-term-13"
+  "kind": "term"
+  "source_language": "en"
+  "source": "pocky quean"
+  "translation_ja": "あばただらけの売女"
+  "note_ja": "原文の侮蔑を保持。pockyの痘疹を持つという語義とqueanの侮蔑的な売女の語義を参照し、特定疾患を新たに診断しない。"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-21T01:38:57Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "bc895042b9914af949bc86f36ca3ff14a026d2b1405d778e76b0a976b90f25ce"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "00a4e8cd918148827c146b09100da1939f3ec450"
+  "canonical_repository_head_at_save": "00a4e8cd918148827c146b09100da1939f3ec450"
+  "translation_method": "Codexによる原文からの新訳。連続した詩段のまとまりごとに初稿を保存。全16単位の初稿完成後、題・年記・全144詩行・底本注全三件を原文と一回全文対照。三単位各一箇所を意味のため訂正し、変更箇所を原文と修正案で再確認。日本語だけの追加全文通読・文体磨きは行っていない。"
+  "drafted_segment_count": 16
+  "next_segment_id": null
+  "source_unit_json_sha256": "dcd44ee9b75f403fc053786c6ea0c746d28f72756702ddd93252fc02a0889348"
+  "source_verse_line_count": 144
+  "translation_verse_line_count": 144
+  "verse_groups": 12
+  "verse_inventory":
+  - "segment_id": "ldr-verse-001"
+    "first_poem_line": 1
+    "last_poem_line": 4
+    "line_count": 4
+  - "segment_id": "ldr-verse-002"
+    "first_poem_line": 5
+    "last_poem_line": 10
+    "line_count": 6
+  - "segment_id": "ldr-verse-003"
+    "first_poem_line": 11
+    "last_poem_line": 18
+    "line_count": 8
+  - "segment_id": "ldr-verse-004"
+    "first_poem_line": 19
+    "last_poem_line": 42
+    "line_count": 24
+  - "segment_id": "ldr-verse-005"
+    "first_poem_line": 43
+    "last_poem_line": 58
+    "line_count": 16
+  - "segment_id": "ldr-verse-006"
+    "first_poem_line": 59
+    "last_poem_line": 68
+    "line_count": 10
+  - "segment_id": "ldr-verse-007"
+    "first_poem_line": 69
+    "last_poem_line": 82
+    "line_count": 14
+  - "segment_id": "ldr-verse-008"
+    "first_poem_line": 83
+    "last_poem_line": 98
+    "line_count": 16
+  - "segment_id": "ldr-verse-009"
+    "first_poem_line": 99
+    "last_poem_line": 114
+    "line_count": 16
+  - "segment_id": "ldr-verse-010"
+    "first_poem_line": 115
+    "last_poem_line": 128
+    "line_count": 14
+  - "segment_id": "ldr-verse-011"
+    "first_poem_line": 129
+    "last_poem_line": 134
+    "line_count": 6
+  - "segment_id": "ldr-verse-012"
+    "first_poem_line": 135
+    "last_poem_line": 144
+    "line_count": 10
+  "verse_grouping_ja": "空行のない原詩。先頭の共通余白五字を除去し、七字下げの各行を新しい詩段の開始として十二段に区切る。元の二字下げは原文に保持。"
+  "source_boundary":
+    "start_xpath": "/html/body/h2[85]"
+    "start_html_line": 10184
+    "verse_xpath": "/html/body/pre[207]"
+    "note_xpath": "/html/body/pre[208]"
+    "next_excluded_xpath": "/html/body/h2[86]"
+    "next_excluded_html_line": 10352
+    "next_excluded_heading": "THE POWER OF TIME. 1730"
+  "source_extraction_ja": "詩の各行・句読点・伏字sh—・[1][2][3]の参照ラベルを保持。題の改行と注の折返しのみ単一空白に整理。元HTMLのXPathと開始終了行、全単位の連続順を保持。"
+  "source_note_authorship_ja": "注1/2は1732年の異文を示す無署名の比較注で注者個人は未特定。注3はW. E. B.署名のBrowning編者注。Swiftの原注へ付け替えない。"
+  "source_censorship_ja": "第118行のsh—は主底本自身の伏字。前の第117行とともに収録されており、訳抜け・欠行とは扱わない。日本語でも動詞を完結させず、くそを——とした。"
+  "authorship_evidence":
+    "classification": "swift"
+    "authors":
+    - "Jonathan Swift"
+    "individual_evidence":
+    - "kind": "contemporary_author_self_identification_in_letter_printed_in_1801"
+      "source_url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_14/Letters_Between_Jonathan_Swift_and_Alexander_Pope_%E2%80%93_Complete"
+      "source_file": "tmp/swift/ladys-dressing-room/1801-v14-pope-letters.html"
+      "xpath": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/p[279]"
+      "html_line": 1517
+      "excerpt": "As to other things of mine since I left you ... the Lady’s Dressingroom (a stolen copy) ... all these have\
+        \ been printed in London."
+      "assessment_ja": "SwiftがPope宛書簡の自作列挙にこの題を含める。全集に収録されているというだけの証拠ではない。"
+      "printed_date": "Dublin, June 12, 1731"
+      "date_locator":
+        "xpath": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/div[129]"
+        "html_line": 1514
+      "date_discrepancy_ja": "1801年版は1731と表示する。Williams1937年版の同作注[13]は同書簡を1732年6月12日とする。今回日付の校訂根拠までは追わず、差を保持する。"
+    - "kind": "1801_specific_editorial_attribution"
+      "source_url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_8/The_Ladies_Dressing_Room"
+      "source_file": "tmp/swift/ladys-dressing-room/1801-v08-dressing-room.html"
+      "xpath": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[4]/div/ol/li[1]"
+      "html_line": 663
+      "excerpt": "the whole poem of Dr. Swift"
+      "assessment_ja": "題に付された弁護文紹介注が、当該作品を個別にDr.Swiftの詩と説明する。弁護文自体は友人作と区別される。"
+    - "kind": "later_critical_bibliography_not_original_1732_titlepage"
+      "source_url": "https://publish.uwo.ca/~shroyer/authors/Swift/texts/swift_poems_fulltext"
+      "source_file": "tmp/swift/volume-7-review/williams-1937-poems.txt"
+      "heading_xpath": "/html/body/h4[300]"
+      "html_lines":
+      - 18801
+      - 18811
+      - 18832
+      "assessment_ja": "Williams1937年版は1732年Roberts刊本のRev.Dr.S---t表示、Faulkner刊本のD---n S---t表示を転記し、SwiftのPope宛書簡も指示する。1732刊本の原標題紙・自筆書簡を実見したとの主張ではない。"
+    "doubt_found_in_reviewed_material": false
+    "limit_ja": "今回見た資料に作者疑義はない。ただし帰属研究全体の網羅調査ではない。"
+  "authorship_evidence_verification_ja": "独立担当の調査報告に加え、翻訳担当も保存された1801年第14巻の当該書簡段落と表示日付を実際に読み、Swiftの自作列挙にthe Lady's Dressingroom\
+    \ (a stolen copy)があることを確認。原自筆書簡を見たとは扱わない。Wikisourceの現代翻刻・編集物の利用表示とSwift原文の公有を区別する。"
+  "independent_source_check_sha256": "ac0d862eb4b0d358f2ee409d3fdd16b3b9af89ed6d1ae5b096e14afe44010ad9"
+  "independent_source_check_scope_ja": "原文の範囲・行数・字下げ区分・底本注・個別帰属・公開権利表示の独立確認。短い異版箇所と作品言及のみを追加確認し、全文異版校合・翻訳・訳文の全文対照は行わない。"
+  "comparison_limits_ja": "独立担当が1801年版の題・冒頭・末尾・短い欠行候補と注を確認した。異版の全文校合は行っておらず、比較版にしかない注は収録しない。1732年刊本・自筆書簡・Milton原刊の原頁は未実見。"
+  "full_review_segment_ids":
+  - "ldr-title"
+  - "ldr-verse-001"
+  - "ldr-verse-002"
+  - "ldr-verse-003"
+  - "ldr-verse-004"
+  - "ldr-verse-005"
+  - "ldr-verse-006"
+  - "ldr-verse-007"
+  - "ldr-verse-008"
+  - "ldr-verse-009"
+  - "ldr-verse-010"
+  - "ldr-verse-011"
+  - "ldr-verse-012"
+  - "ldr-note-001"
+  - "ldr-note-002"
+  - "ldr-note-003"
+  "full_review_snapshot_sha256": "562955954ecd53c7205538183cb5444b6e4fb602c5e4e26af2558845414baa7f"
+  "full_review_result_sha256": "17e70e5b927bece92587c65d73601e37cfd95d236366c131224b341f19a0b5cb"
+  "full_review_corrections_ja":
+  - "segment_id": "ldr-verse-008"
+    "reason_ja": "パンドラの箱の比喩はwhenを伴う過去の出来事。譲歩条件とも読める「飛び出しても」を、過去の時点の「飛び出したとき」に訂正。"
+  - "segment_id": "ldr-verse-011"
+    "reason_ja": "blindなのは同情する語り手ではなくStrephon。日本語の連用形で主語が曖昧になっていたため、彼には見えぬと明示。"
+  - "segment_id": "ldr-verse-012"
+    "reason_ja": "paintsはこの列挙では化粧用の顔料を広く指す。色を白に限定する白粉から化粧料へ訂正。"
+  "lexical_checks":
+  - "word": "tissue"
+    "url": "https://www.merriam-webster.com/dictionary/tissue"
+  - "word": "pinner"
+    "url": "https://www.merriam-webster.com/dictionary/pinner"
+  - "word": "chops"
+    "url": "https://www.merriam-webster.com/dictionary/chops"
+  - "word": "pocky"
+    "url": "https://www.merriam-webster.com/dictionary/pocky"
+  - "word": "quean"
+    "url": "https://www.merriam-webster.com/dictionary/quean"
+  - "word": "matter"
+    "url": "https://www.merriam-webster.com/dictionary/matter"
+  "lexical_check_limit_ja": "bematterのMerriam-Websterページは取得できなかった。語形成とmatterの膿・排出物の語義、詩中の文脈を参照して訳した。"
+  "reading_start_segment_id": "ldr-title"
+  "first_speech_candidate": "淑女の化粧室。一七三〇年"
+  "speech_skip_sections": []

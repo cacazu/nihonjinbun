@@ -1,0 +1,1392 @@
+"schema_version": "2.0"
+"work_id": "swift-the-journal-of-a-modern-lady"
+"metadata":
+  "title_ja": "今どきの淑女の日記"
+  "title_original": "The Journal of a Modern Lady"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "browning"
+    "name_ja": "ウィリアム・アーンスト・ブラウニング"
+    "name_original": "William Ernst Browning"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。原著や電子版の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "詩"
+  - "風刺"
+  "reader_notes_ja":
+  - "一七二八年の年記をもつ、ある身分の高い人への手紙。冒頭の省略表示は、一七二九年刊本にもある。除去部分の現存本文は未確認で、詩行を補っていない。"
+"sources":
+- "id": "gutenberg-14353"
+  "role": "primary"
+  "title": "The Poems of Jonathan Swift, D.D., Volume I"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+  "edition": "William Ernst Browning編、London: G. Bell and Sons, Ltd.、1910年。Project Gutenberg第14353番、2004年12月14日公開、2024年10月28日更新と記載。"
+  "contributor_ids":
+  - "swift"
+  - "browning"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/14353"
+    "note_ja": "原著者スウィフトは1745年没、底本編者ブラウニングは1916年没の1910年刊本。Project Gutenberg書誌は米国でパブリックドメインと表示。原著・底本の編集文章と電子版の配布条件を区別する。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "E-text prepared by Clare Boothby, G. Graustein, and the Project Gutenberg Online Distributed Proofreading Team"
+    "note_ja": "Project Gutenbergの商標・電子版配布条件。日本語訳への利用許諾を意味しない。"
+  "sha256": "86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc"
+  "description_ja": "2026年10月21日取得のHTML。THE JOURNAL OF A MODERN LADYのh2題、直後のh3副題・年記、pre[186]の詩本文と省略表示のみを採り、次のTHE LOGICIANS REFUTED直前で止める。CRLFをLFにし、pre全体の共通左余白と前後の空行だけを除く。字下げと省略表示の空行で区切られる各ブロックの原文を保持する。"
+- "id": "ia-modern-lady-1729"
+  "role": "comparison"
+  "title": "The Journal of a Modern Lady. In a Letter to a Person of Quality. By the Author of Cadenus and Vanessa."
+  "languages":
+  - "en"
+  "url": "https://archive.org/download/bim_eighteenth-century_the-journal-of-a-modern-_swift-jonathan_1729/bim_eighteenth-century_the-journal-of-a-modern-_swift-jonathan_1729.pdf#page=4"
+  "edition": "London: J. Wilford, 1729年。Dublin初印をLondonで再版とする単独刊本。ESTC T124974。"
+  "contributor_ids":
+  - "swift"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://archive.org/download/bim_eighteenth-century_the-journal-of-a-modern-_swift-jonathan_1729/bim_eighteenth-century_the-journal-of-a-modern-_swift-jonathan_1729.pdf#page=1"
+    "note_ja": "比較対象は1745年没のJonathan Swiftによる十八世紀刊の原著本文。現代の編者による解説とは区別する。"
+  "transcription_rights":
+    "status": "unknown"
+    "note_ja": "公開デジタル画像の再利用条件は未確認。Internet Archiveの取得書誌に明示の画像ライセンスはなく、公開取得可能なことを再利用許諾とは扱わない。"
+  "sha256": "36a5f4934465f5a036d814f076c38588955aa02e6993bd45996fd2eca2f408c1"
+  "description_ja": "標題紙と本文四・五頁の実画像を確認。冒頭の省略表示と前後の二行を比較するための出典。詩行の追加底本や本文図版としては採用しない。"
+- "id": "ia-modern-lady-1730"
+  "role": "comparison"
+  "title": "The Metamorphosis of the Town. The Second Edition. To which is added, The Journal of a Modern Lady. In a Letter to a Person of Quality. By Dr. Swift."
+  "languages":
+  - "en"
+  "url": "https://archive.org/download/bim_eighteenth-century_the-metamorphosis-of-the_thomas-elizabeth_1730/bim_eighteenth-century_the-metamorphosis-of-the_thomas-elizabeth_1730.pdf#page=27"
+  "edition": "London: J. Wilford, 1730年。The Metamorphosis of the Town第二版所収。標題紙は当該詩をBy Dr. Swiftと記す。ESTC T095773。"
+  "contributor_ids":
+  - "swift"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://archive.org/download/bim_eighteenth-century_the-metamorphosis-of-the_thomas-elizabeth_1730/bim_eighteenth-century_the-metamorphosis-of-the_thomas-elizabeth_1730.pdf#page=1"
+    "note_ja": "比較対象は1745年没のJonathan Swiftによる十八世紀刊の原著本文。現代の編者による解説とは区別する。"
+  "transcription_rights":
+    "status": "unknown"
+    "note_ja": "公開デジタル画像の再利用条件は未確認。Internet Archiveの取得書誌に明示の画像ライセンスはなく、公開取得可能なことを再利用許諾とは扱わない。"
+  "sha256": "ccb9aee5c06285707957aee3272214252bc9d666d0d917e61acbb05848ade86a"
+  "description_ja": "標題紙と本文二十七頁の実画像を確認。同じ冒頭の省略表示がある。詩行の追加底本や本文図版としては採用しない。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "原題、副題・1728年記、底本に掲載された全293詩行（字下げと省略表示で区切られる18ブロック）、底本の省略表示一件。底本注はない。"
+    "section_ids":
+    - "poem"
+  "excluded":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "隣接するTHE LOGICIANS REFUTEDを含む他作品、巻全体の前付・序文・目次・電子版利用案内と末尾ライセンス。"
+  - "source_id": "ia-modern-lady-1729"
+    "description_ja": "省略表示の成立時期を確かめる比較参照に限る。詩行の追加や原図の収録は行わない。"
+  - "source_id": "ia-modern-lady-1730"
+    "description_ja": "省略表示の成立時期を確かめる比較参照に限る。詩行の追加や原図の収録は行わない。"
+  "known_gaps":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "底本の冒頭にある数行の省略表示は、一七二九年刊本にもある。除去部分の現存本文は未確認で、詩行を補っていない。作者書簡にある家族に関わる除去と、この表示が同じ範囲を指すとは断定しない。"
+    "segment_ids":
+    - "modern-lady-omission-notice"
+"sections":
+- "id": "poem"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "modern-lady-heading"
+  "origin": "source"
+- "id": "translation-notes"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "origin": "editorial"
+  "label_ja": "訳注"
+"segments":
+- "id": "modern-lady-heading"
+  "section_id": "poem"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "THE JOURNAL OF A MODERN LADY"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/h2[76]"
+    "line_start": 9202
+  "translation_ja": "今どきの淑女の日記"
+  "translation_status": "reviewed"
+- "id": "modern-lady-subtitle"
+  "section_id": "poem"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "IN A LETTER TO A PERSON OF QUALITY. 1728"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/h3[41]"
+    "line_start": 9205
+  "translation_ja": "ある身分の高い人への手紙として。一七二八年"
+  "translation_status": "reviewed"
+- "id": "modern-lady-verse-01"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    SIR, 'twas a most unfriendly part
+         In you, who ought to know my heart,
+         Are well acquainted with my zeal
+         For all the female commonweal—
+         How could it come into your mind
+         To pitch on me, of all mankind,
+         Against the sex to write a satire,
+         And brand me for a woman-hater?
+         On me, who think them all so fair,
+         They rival Venus to a hair;
+         Their virtues never ceased to sing,
+         Since first I learn'd to tune a string?
+         Methinks I hear the ladies cry,
+         Will he his character belie?
+         Must never our misfortunes end?
+         And have we lost our only friend?
+         Ah, lovely nymphs! remove your fears,
+         No more let fall those precious tears.
+         Sooner shall, etc.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    あなた、それは、何と薄情な仕打ちであったろう。
+    私の心を知っているはずの、あなたともあろう人が、
+    すべての女性の幸せのために、
+    私がいかに熱を入れているか、よくご存じの人が。
+    どうして、そんなことを、思いつけたのか、
+    この世のあらゆる男のうちから、私を選んで、
+    女性に向けた風刺を書かせ、
+    女嫌いの烙印を、私に押そうとは。
+    私は、女性は誰もが、たいそう美しく、
+    ヴィーナスにも、寸分の差なく張り合うと思っている。
+    初めて、詩の弦を調べる術を覚えて以来、
+    その美徳を、絶えず歌ってきた、この私を。
+    淑女たちの叫ぶ声が、聞こえるようだ、
+    「あの方は、自分の評判を裏切るのかしら。
+    私たちの不幸は、いつまでたっても終わらないの。
+    ただ一人の味方まで、失ってしまったの。」
+    ああ、愛らしい乙女たち、心配はお捨てなさい。
+    その貴い涙を、もう流さないでほしい。
+    それより先に、何々が起ころう、云々。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-omission-notice"
+  "section_id": "poem"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "     [Here several verses are omitted.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": "［ここで、数行の詩が省略されている。］"
+  "translation_status": "reviewed"
+  "source_kind": "omission_notice"
+  "attributions":
+  - "voice": "unknown"
+    "evidence_ja": "角括弧内に数行の省略を告げる表示があるが、底本中にこの表示の筆者署名はない。著者の詩行ともBrowningの文とも断定しない。"
+- "id": "modern-lady-verse-02"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+         The hound be hunted by the hare,
+         Than I turn rebel to the fair.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    私が、美しい女性たちに背くよりは、
+    猟犬が、野兎に追われるほうが先であろう。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-03"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           'Twas you engaged me first to write,
+         Then gave the subject out of spite:
+         The journal of a modern dame,
+         Is, by my promise, what you claim.
+         My word is past, I must submit;
+         And yet perhaps you may be bit.
+         I but transcribe; for not a line
+         Of all the satire shall be mine.
+         Compell'd by you to tag in rhymes
+         The common slanders of the times,
+         Of modern times, the guilt is yours,
+         And me my innocence secures.
+         Unwilling Muse, begin thy lay,
+         The annals of a female day.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    初めに、書いてくれと私に頼んだのは、あなただった。
+    そして、意地悪にも、題材をお決めになった。
+    今どきの淑女の日記、
+    約束どおり、それを書けと、おっしゃるのだ。
+    一度口にした以上、従わねばなるまい。
+    だが、ひょっとすると、あなたのほうが一杯食うかもしれぬ。
+    私は、ただ写すだけ、風刺のうち、
+    一行たりとも、私のものにはならない。
+    あなたに強いられて、韻にくくるのは、
+    この時代の、ありふれた悪口、
+    今どきの世間の悪口なのだから、罪はあなたにある、
+    私は、潔白の身で、安全というわけだ。
+    気の進まぬ詩の女神よ、さあ、お前の歌を始めよ、
+    一人の女の、一日の記録を。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-04"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           By nature turn'd to play the rake well,
+         (As we shall show you in the sequel,)
+         The modern dame is waked by noon,
+         (Some authors say not quite so soon,)
+         Because, though sore against her will,
+         She sat all night up at quadrille.
+         She stretches, gapes, unglues her eyes,
+         And asks if it be time to rise;
+         Of headache and the spleen complains;
+         And then, to cool her heated brains,
+         Her night-gown and her slippers brought her,
+         Takes a large dram of citron water.
+         Then to her glass; and, "Betty, pray,
+         Don't I look frightfully to-day?
+         But was it not confounded hard?
+         Well, if I ever touch a card!
+         Four matadores, and lose codille!
+         Depend upon't, I never will.
+         But run to Tom, and bid him fix
+         The ladies here to-night by six."
+         "Madam, the goldsmith waits below;
+         He says, his business is to know
+         If you'll redeem the silver cup
+         He keeps in pawn?"—"Why, show him up."
+         "Your dressing-plate he'll be content
+         To take, for interest cent. per cent.
+         And, madam, there's my Lady Spade
+         Has sent this letter by her maid."
+         "Well, I remember what she won;
+         And has she sent so soon to dun?
+         Here, carry down these ten pistoles
+         My husband left to pay for coals:
+         I thank my stars they all are light,
+         And I may have revenge to-night."
+         Now, loitering o'er her tea and cream,
+         She enters on her usual theme;
+         Her last night's ill success repeats,
+         Calls Lady Spade a hundred cheats:
+         "She slipt spadillo in her breast,
+         Then thought to turn it to a jest:
+         There's Mrs. Cut and she combine,
+         And to each other give the sign."
+         Through every game pursues her tale,
+         Like hunters o'er their evening ale.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    生まれつき、放蕩者の役を、巧みに演じる性分の、
+    （この先で、お見せするように、）
+    今どきの奥様が起こされるのは、昼の十二時、
+    （それほど早くはない、という著者もいる。）
+    というのも、まことに不本意ながら、
+    一晩じゅう、カドリーユをして起きていたからだ。
+    伸びをし、あくびをし、貼りついた目をこじ開け、
+    もう起きる時間なの、と尋ねる。
+    頭痛と気鬱を訴えてから、
+    熱くなった頭を冷まそうと、
+    部屋着とスリッパを、持ってこさせ、
+    シトロン酒を、たっぷり一杯ひっかける。
+    それから鏡に向かう、「ねえ、ベティ、
+    今日の私、ひどい顔をしていないこと。
+    でも、まったく、ひどい仕打ちだったわね。
+    もう二度と、札なんかに手を触れるものですか。
+    マタドールが四枚もあって、コディーユ負けだなんて。
+    絶対に、もうやらないわ。
+    でも、トムのところへ、ひと走りして、
+    今夜、六時までに、奥様方をここへお呼びするよう、言ってちょうだい。」
+    「奥様、金細工師が、階下でお待ちでございます。
+    質にお預かりしている銀のカップを、
+    お請け出しになるかどうか、
+    お尋ねにまいったそうです。」「では、上へお通しなさい。」
+    「奥様の銀の化粧道具を、
+    十割の利息の代わりに頂ければ、よろしいそうです。
+    それから、奥様、スペード様が、
+    小間使いに、この手紙を持たせておいでです。」
+    「ええ、あの方の勝った分は、覚えているわ。
+    もう、こんなに早く、催促してきたの。
+    さあ、この十ピストール金貨を、下へ持っていって、
+    夫が、石炭代の支払いに残していったお金よ。
+    どれも目方が足りなくて、ありがたいわ、
+    今夜は、仕返しができるかもしれないし。」
+    さて、紅茶とクリームを、だらだら味わいながら、
+    いつもの話題に入っていく。
+    昨夜の不運を、繰り返しては、
+    スペード様を、百通りもの言い方で、いかさま師呼ばわりする。
+    「あの方、スパディリオを胸に隠したのよ、
+    それから、冗談で済ませようとしたの。
+    カットさんと、ぐるになっていて、
+    お互いに、合図を送り合うのよ。」
+    どの勝負のことも、一つ残らず話していく、
+    夕べのエールを飲みながら、獲物を語る猟師のように。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-05"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           Now to another scene give place:
+         Enter the folks with silks and lace:
+         Fresh matter for a world of chat,
+         Right Indian this, right Mechlin that:
+         "Observe this pattern—there's a stuff;
+         I can have customers enough.
+         Dear madam, you are grown so hard—
+         This lace is worth twelve pounds a-yard:
+         Madam, if there be truth in man,
+         I never sold so cheap a fan."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    さて、別の場面へ移ろう。
+    絹とレースを持った連中が登場する。
+    際限のないおしゃべりに、新たな種、
+    これは本物のインド絹、あれは本物のメヘレンのレース。
+    「こちらの柄を、ご覧ください、これぞ上物、
+    買い手には、事欠きませんよ。
+    まあ、奥様、ずいぶん、お値段に厳しくおなりで、
+    このレースは、一ヤード、十二ポンドの値打ちがございます。
+    奥様、人間の言葉に、誠というものがあるなら、
+    扇を、これほど安く売ったことは、一度もございません。」
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-06"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           This business of importance o'er,
+         And madam almost dress'd by four;
+         The footman, in his usual phrase,
+         Comes up with, "Madam, dinner stays."
+         She answers, in her usual style,
+         "The cook must keep it back a while;
+         I never can have time to dress,
+         No woman breathing takes up less;
+         I'm hurried so, it makes me sick;
+         I wish the dinner at Old Nick."
+         At table now she acts her part,
+         Has all the dinner cant by heart:
+         "I thought we were to dine alone,
+         My dear; for sure, if I had known
+         This company would come to-day—
+         But really 'tis my spouse's way!
+         He's so unkind, he never sends
+         To tell when he invites his friends:
+         I wish ye may but have enough!"
+         And while with all this paltry stuff
+         She sits tormenting every guest,
+         Nor gives her tongue one moment's rest,
+         In phrases batter'd, stale, and trite,
+         Which modern ladies call polite;
+         You see the booby husband sit
+         In admiration at her wit!
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    この大事な用事が済み、
+    四時には、奥様の身支度も、ほぼ整う。
+    従僕が、いつもの言い方で、
+    「奥様、お食事がお待ちしております。」と、上がってくる。
+    奥様も、いつもの調子で答える、
+    「料理人に、もうしばらく待たせるように言いなさい。
+    身支度をする時間が、ちっとも取れないわ、
+    私ほど時間をかけない女なんて、この世にいないのに。
+    こう急かされては、気分まで悪くなる、
+    食事なんか、悪魔にくれてやりたいわ。」
+    さて、食卓で、奥様は自分の役を演じ、
+    食事どきの決まり文句を、何一つ忘れずに披露する。
+    「今日は、二人だけで食事をすると思っていたわ、
+    あなた、だって、もしも、知っていたなら、
+    皆様が、今日いらっしゃると――
+    でも、本当に、うちの人は、いつもこうなのよ。
+    お友達をお招きになるときも、
+    知らせをよこしてくれない、薄情な人なの。
+    どうか、お料理が足りますように。」
+    こうした、くだらぬことばかりで、
+    座ったまま、客という客を苦しめ、
+    一瞬たりとも、舌を休ませない。
+    使い古され、陳腐で、ありきたりの言い回し、
+    それを、今どきの淑女は、上品だと称している。
+    見れば、間抜けな夫が、席について、
+    妻の機知に、感心しているではないか。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-07"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           But let me now a while survey
+         Our madam o'er her evening tea;
+         Surrounded with her noisy clans
+         Of prudes, coquettes, and harridans,
+         When, frighted at the clamorous crew,
+         Away the God of Silence flew,
+         And fair Discretion left the place,
+         And modesty with blushing face;
+         Now enters overweening Pride,
+         And Scandal, ever gaping wide,
+         Hypocrisy with frown severe,
+         Scurrility with gibing air;
+         Rude laughter seeming like to burst,
+         And Malice always judging worst;
+         And Vanity with pocket glass,
+         And Impudence with front of brass;
+         And studied Affectation came,
+         Each limb and feature out of frame;
+         While Ignorance, with brain of lead,
+         Flew hovering o'er each female head.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    さて、しばらく、眺めてみよう、
+    夕方のお茶を飲む、われらが奥様を。
+    貞淑ぶった女、媚を売る女、鬼婆ども、
+    騒々しい取り巻きに、囲まれている。
+    やかましい一団に、おびえた沈黙の神は、
+    飛んで逃げ去り、
+    美しい分別も、その場を去った、
+    慎みも、顔を赤らめながら。
+    そこへ、うぬぼれきった高慢が現れ、
+    いつも大口を開けている醜聞も来る。
+    険しい顔をした偽善、
+    冷やかし顔の下品な悪口、
+    いまにも、はじけそうな下卑た笑い、
+    いつでも、いちばん悪く取る悪意。
+    手鏡を持った虚栄と、
+    真鍮の面の皮を持つ厚かましさ。
+    わざとらしく気取った、虚飾も来た、
+    手足も顔つきも、一つ残らず、ゆがめながら。
+    そして、鉛の脳みそを持つ無知が、
+    女たち一人一人の頭上を、飛びまわっていた。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-08"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           Why should I ask of thee, my Muse,
+         A hundred tongues, as poets use,
+         When, to give every dame her due,
+         A hundred thousand were too few?
+         Or how should I, alas! relate
+         The sum of all their senseless prate,
+         Their innuendoes, hints, and slanders,
+         Their meanings lewd, and double entendres?
+         Now comes the general scandal charge;
+         What some invent, the rest enlarge;
+         And, "Madam, if it be a lie,
+         You have the tale as cheap as I;
+         I must conceal my author's name:
+         But now 'tis known to common fame."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    なぜ、私の詩の女神よ、お前に、
+    詩人たちの常のように、百の舌を求めようか、
+    奥様方を、一人残らず、存分に描き出すには、
+    十万の舌でも、まだ足りないのだから。
+    それに、ああ、どうして私が語り尽くせよう、
+    あの愚かなおしゃべりの、何もかもを、
+    当てこすり、ほのめかし、陰口、
+    卑猥な含みや、二重の意味を持つ言葉を。
+    さて、いっせいに、醜聞の攻撃が始まる、
+    ある者がこしらえれば、ほかの者が話を膨らます。
+    そして、「奥様、もし嘘だったとしても、
+    私同様、あなたも、ただでお聞きになったお話ですからね。
+    誰に聞いたかは、伏せておかなければなりませんが、
+    もう、世間じゅうに知られていることですよ。」
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-09"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           Say, foolish females, bold and blind,
+         Say, by what fatal turn of mind,
+         Are you on vices most severe,
+         Wherein yourselves have greatest share?
+         Thus every fool herself deludes;
+         The prude condemns the absent prudes:
+         Mopsa, who stinks her spouse to death,
+         Accuses Chloe's tainted breath;
+         Hircina, rank with sweat, presumes
+         To censure Phyllis for perfumes;
+         While crooked Cynthia, sneering, says,
+         That Florimel wears iron stays;
+         Chloe, of every coxcomb jealous,
+         Admires how girls can talk with fellows;
+         And, full of indignation, frets,
+         That women should be such coquettes:
+         Iris, for scandal most notorious,
+         Cries, "Lord, the world is so censorious!"
+         And Rufa, with her combs of lead,
+         Whispers that Sappho's hair is red:
+         Aura, whose tongue you hear a mile hence,
+         Talks half a day in praise of silence;
+         And Sylvia, full of inward guilt,
+         Calls Amoret an arrant jilt.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    言ってみるがいい、大胆で、目の曇った、愚かな女たち、
+    どんな、たちの悪い心のねじれからなのか、
+    自分たちが、いちばん深くかかわる悪徳にこそ、
+    いちばん厳しく当たるのは。
+    こうして、どの愚か者も、自分で自分を欺く、
+    貞淑ぶる女は、不在の、貞淑ぶる女を責める。
+    夫を、臭さで殺さんばかりのモプサは、
+    クロイーの、臭う息を非難する。
+    汗臭いヒルキーナは、図々しくも、
+    フィリスが香水をつけるのを、とがめ立てする。
+    体のゆがんだシンシアは、せせら笑って言う、
+    フロリメルは、鉄のコルセットをつけていると。
+    どのしゃれ男のことでも、やきもちを焼くクロイーは、
+    娘たちは、よくも男と話などできるものだ、と驚き、
+    怒りに満ちて、いらだっている、
+    女たちが、あんなに色目を使うとは、と。
+    陰口好きで、名の知れたアイリスは、
+    「まあ、世間というのは、何て批判好きなの。」と叫ぶ。
+    鉛の櫛を使っているルーファは、
+    サッフォーの髪は赤い、とささやく。
+    一マイル先からでも、声の聞こえるオーラは、
+    沈黙のよさを、半日も、しゃべり立て、
+    腹に、やましさのいっぱい詰まったシルヴィアは、
+    アモレットを、とんだ浮気女呼ばわりする。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-10"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           Now voices over voices rise,
+         While each to be the loudest vies:
+         They contradict, affirm, dispute,
+         No single tongue one moment mute;
+         All mad to speak, and none to hearken,
+         They set the very lap-dog barking;
+         Their chattering makes a louder din
+         Than fishwives o'er a cup of gin;
+         Not schoolboys at a barring out
+         Raised ever such incessant rout;
+         The jumbling particles of matter
+         In chaos made not such a clatter;
+         Far less the rabble roar and rail,
+         When drunk with sour election ale.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    いまや、声に声が重なり、
+    誰もが、いちばん大きな声を出そうと競う。
+    否定し、断言し、言い争い、
+    どの舌も、一瞬たりとも黙らない。
+    皆、しゃべることに夢中で、聞こうとする者はなく、
+    座敷犬まで、吠え出させる。
+    そのおしゃべりの騒々しさは、
+    ジンを一杯飲んだ魚売り女たちよりも、まだひどい。
+    教師を締め出す生徒たちでさえ、
+    これほど、とめどない騒ぎを立てたためしはない。
+    混沌の中で、ぶつかり合う物質の粒でさえ、
+    これほど、がたがたと音を立てなかった。
+    選挙用の酸っぱいエールに酔って、
+    群衆が上げる怒号や罵声も、はるかに及ばない。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-11"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           Nor do they trust their tongues alone,
+         But speak a language of their own;
+         Can read a nod, a shrug, a look,
+         Far better than a printed book;
+         Convey a libel in a frown,
+         And wink a reputation down;
+         Or by the tossing of the fan,
+         Describe the lady and the man.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    しかも、頼みとするのは、舌だけではない、
+    自分たち独自の言葉も、話すのだ。
+    うなずき、肩をすくめる仕草、目つきの意味を、
+    印刷された本より、はるかによく読み取り、
+    眉をひそめるだけで、中傷を伝え、
+    目くばせ一つで、人の評判を落とし、
+    あるいは、扇を、ひらりと動かすだけで、
+    あの奥様、あの男と、名指してみせる。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-12"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           But see, the female club disbands,
+         Each twenty visits on her hands.
+         Now all alone poor madam sits
+         In vapours and hysteric fits;
+         "And was not Tom this morning sent?
+         I'd lay my life he never went;
+         Past six, and not a living soul!
+         I might by this have won a vole."
+         A dreadful interval of spleen!
+         How shall we pass the time between?
+         "Here, Betty, let me take my drops;
+         And feel my pulse, I know it stops;
+         This head of mine, lord, how it swims!
+         And such a pain in all my limbs!"
+         "Dear madam, try to take a nap"—
+         But now they hear a footman's rap:
+         "Go, run, and light the ladies up:
+         It must be one before we sup."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    だが、ご覧、女たちの集まりが解散する、
+    皆それぞれに、訪問先が、二十軒もあるのだ。
+    気の毒に、奥様は一人きりで座り、
+    気鬱と、ヒステリーの発作に苦しむ。
+    「今朝、トムを使いにやったはずでしょう。
+    きっと、行きはしなかったのよ、命を賭けてもいいわ。
+    六時を過ぎたのに、誰一人、来ないなんて。
+    いまごろは、ヴォールを勝ち取っていたかもしれないのに。」
+    気鬱に苦しむ、この恐ろしい合間、
+    この時間を、どうやって過ごせばよいのか。
+    「ねえ、ベティ、薬を飲ませてちょうだい、
+    それから、脈を取って、きっと止まっているわ。
+    まあ、頭が、ぐらぐらすること。
+    手足も、どこもかしこも、こんなに痛むのよ。」
+    「奥様、少し、お眠りになっては。」
+    と、そのとき、従僕が、戸をたたく音がする。
+    「さあ、走って、灯を持って、奥様方を上へお通しして。
+    夜食にするのは、一時になってからね。」
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-13"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           The table, cards, and counters, set,
+         And all the gamester ladies met,
+         Her spleen and fits recover'd quite,
+         Our madam can sit up all night;
+         "Whoever comes, I'm not within."
+         Quadrille's the word, and so begin.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    テーブルに、札とチップが用意され、
+    賭博好きな奥様方が、皆、そろうと、
+    気鬱も発作も、すっかり治り、
+    われらが奥様は、一晩じゅう起きていられる。
+    「誰が来ても、留守だと言いなさい。」
+    合言葉は、カドリーユ、さあ、勝負の始まりだ。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-14"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           How can the Muse her aid impart,
+         Unskill'd in all the terms of art?
+         Or in harmonious numbers put
+         The deal, the shuffle, and the cut?
+         The superstitious whims relate,
+         That fill a female gamester's pate?
+         What agony of soul she feels
+         To see a knave's inverted heels!
+         She draws up card by card, to find
+         Good fortune peeping from behind;
+         With panting heart, and earnest eyes,
+         In hope to see spadillo rise;
+         In vain, alas! her hope is fed;
+         She draws an ace, and sees it red;
+         In ready counters never pays,
+         But pawns her snuff-box, rings, and keys;
+         Ever with some new fancy struck,
+         Tries twenty charms to mend her luck.
+         "This morning, when the parson came,
+         I said I should not win a game.
+         This odious chair, how came I stuck in't?
+         I think I never had good luck in't.
+         I'm so uneasy in my stays:
+         Your fan, a moment, if you please.
+         Stand farther, girl, or get you gone;
+         I always lose when you look on."
+         "Lord! madam, you have lost codille:
+         I never saw you play so ill."
+         "Nay, madam, give me leave to say,
+         'Twas you that threw the game away:
+         When Lady Tricksey play'd a four,
+         You took it with a matadore;
+         I saw you touch your wedding ring
+         Before my lady call'd a king;
+         You spoke a word began with H,
+         And I know whom you meant to teach,
+         Because you held the king of hearts;
+         Fie, madam, leave these little arts."
+         "That's not so bad as one that rubs
+         Her chair to call the king of clubs;
+         And makes her partner understand
+         A matadore is in her hand."
+         "Madam, you have no cause to flounce,
+         I swear I saw you thrice renounce."
+         "And truly, madam, I know when
+         Instead of five you scored me ten.
+         Spadillo here has got a mark;
+         A child may know it in the dark:
+         I guess'd the hand: it seldom fails:
+         I wish some folks would pare their nails."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    詩の女神が、どうして、助けの手を貸せよう、
+    遊びの術語を、何一つ知らないのに。
+    どうして、調べのよい韻律に収められよう、
+    札を配り、切り混ぜ、山を分ける、その手順を。
+    女の賭博師の頭を満たしている、
+    迷信じみた気まぐれを、どう語ればよいのか。
+    ジャックの足が、逆さになっているのを見て、
+    彼女の心は、どれほど苦しむことか。
+    札を一枚ずつ、引き上げていって、
+    その陰から、幸運が、のぞかないかと探る。
+    胸を高鳴らせ、目を凝らし、
+    スパディリオが現れることを、期待しながら。
+    だが、ああ、その期待は、むなしく膨らむばかり、
+    引き出したエースを見れば、それは赤い。
+    手元のチップで、支払うことは、決してせず、
+    嗅ぎ煙草入れや、指輪や、鍵を、質に置く。
+    絶えず、新しい思いつきにとらわれ、
+    運をよくしようと、二十もの、まじないを試す。
+    「今朝、牧師さんが来たとき、
+    今日は、一勝もできないわ、と言ったのよ。
+    この嫌な椅子、どうして、こんなものに座ってしまったの。
+    この椅子で、ついていたことなんて、なかった気がする。
+    コルセットが、ひどく苦しいわ、
+    扇を、ちょっと、貸していただけないこと。
+    もっと離れていなさい、そこの娘、それとも、あっちへお行き、
+    あなたが見ていると、私は、いつも負けるのよ。」
+    「まあ、奥様、コディーユ負けですわ、
+    こんなに、ひどい打ち方は、初めて見ました。」
+    「いいえ、奥様、言わせていただきますけれど、
+    勝負を台無しになさったのは、あなたですわ。
+    トリックシー様が、四を出したとき、
+    あなたは、マタドールでお取りになったでしょう。
+    あの奥様が、キングを指定する前に、
+    あなたが、結婚指輪に触ったのを、見ましたわ。
+    Hで始まる言葉を、おっしゃったでしょう、
+    誰に教えようとなさったか、分かっていましてよ、
+    ハートのキングを、お持ちでしたもの。
+    まあ、奥様、そんな小細工は、およしなさいな。」
+    「椅子をこすって、クラブのキングを呼び出し、
+    自分がマタドールを持っていると、
+    組のお相手に知らせる、
+    どなたかさんよりは、まだましですわ。」
+    「奥様、そう、ふくれるには及びませんわ、
+    同じマークの札を持つのに、出さぬ反則を、三度なさったのを、確かに見ましたから。」
+    「ええ、奥様、私も覚えていますわ、
+    五のところを、私に十と、おつけになりましたね。
+    このスパディリオには、印がついていますよ、
+    子供でも、暗闇で見分けられるほどのね。
+    その手のうちは、読めていましたわ、めったに外れませんから、
+    爪をお切りになるといい、どなたかさんが、いらっしゃいますわね。」
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-15"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           While thus they rail, and scold, and storm,
+         It passes but for common form:
+         But, conscious that they all speak true,
+         And give each other but their due,
+         It never interrupts the game,
+         Or makes them sensible of shame.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    こうして、ののしり、叱りつけ、わめき合っても、
+    ただ、いつもの作法で通ってしまう。
+    皆、自分たちの言っていることが真実で、
+    お互い、当然のことしか言われていないと、承知しているから、
+    それで、勝負が途切れることもなければ、
+    恥ずかしく思うこともない。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-16"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           The time too precious now to waste,
+         The supper gobbled up in haste;
+         Again afresh to cards they run,
+         As if they had but just begun.
+         But I shall not again repeat,
+         How oft they squabble, snarl, and cheat.
+         At last they hear the watchman knock,
+         "A frosty morn—past four o'clock."
+         The chairmen are not to be found,
+         "Come, let us play the other round."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    いまや、時間は貴重で、無駄にはできず、
+    夜食を、大急ぎで、がつがつと平らげ、
+    また、札のところへ、駆け戻る、
+    まるで、たったいま、始めたばかりのように。
+    だが、どれほど、言い争い、唸り合い、いかさまをするか、
+    もう一度、繰り返すことはするまい。
+    ようやく、夜警の戸をたたく音が聞こえる、
+    「霜の降りた朝、四時を回りました。」
+    駕籠かきは、見つからない、
+    「さあ、もう一回り、勝負しましょうよ。」
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-17"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           Now all in haste they huddle on
+         Their hoods, their cloaks, and get them gone;
+         But, first, the winner must invite
+         The company to-morrow night.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    さて、皆、大慌てで、
+    頭巾と外套を、ひっかぶり、引き揚げていく。
+    ただし、まず、勝った人が、
+    明日の夜、この仲間を、招かなければならない。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-verse-18"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+           Unlucky madam, left in tears,
+         (Who now again quadrille forswears,)
+         With empty purse, and aching head,
+         Steals to her sleeping spouse to bed.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[186]"
+    "line_start": 9208
+  "translation_ja": |-
+    不運な奥様は、一人残って涙に暮れ、
+    （いままた、カドリーユは、二度としないと誓い、）
+    からっぽの財布と、痛む頭を抱えて、
+    眠っている夫のそばへ、そっと、寝床に潜り込む。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "modern-lady-translation-note"
+  "section_id": "translation-notes"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "カドリーユは四人で行うカード遊び。マタドールは上位の切札、スパディリオはスペードのエースで、最上位の切札を指す。コディーユは規定の勝数に届かない負け方、ヴォールは全取りをいう。作中で責められるrenounceは、同じマークの札を持つのに、出す義務に背く不正を指す。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "translator"
+    "contributor_id": "translator"
+"notes":
+- "id": "modern-lady-translator-note-1"
+  "origin": "translator"
+  "label": "訳注1"
+  "form": "footnote"
+  "contributor_id": "translator"
+  "body":
+  - "segment_id": "modern-lady-translation-note"
+"references":
+- "id": "modern-lady-cardgame-ref"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "modern-lady-verse-04"
+    "source_span":
+      "start": 245
+      "end": 254
+      "exact": "quadrille"
+    "translation_span":
+      "start": 109
+      "end": 114
+      "exact": "カドリーユ"
+  "to":
+    "type": "note"
+    "id": "modern-lady-translator-note-1"
+  "status": "verified"
+  "label": "訳注1"
+"groups":
+- "id": "modern-lady-poem"
+  "kind": "poem"
+  "members":
+  - "segment_id": "modern-lady-verse-01"
+  - "segment_id": "modern-lady-omission-notice"
+  - "segment_id": "modern-lady-verse-02"
+  - "segment_id": "modern-lady-verse-03"
+  - "segment_id": "modern-lady-verse-04"
+  - "segment_id": "modern-lady-verse-05"
+  - "segment_id": "modern-lady-verse-06"
+  - "segment_id": "modern-lady-verse-07"
+  - "segment_id": "modern-lady-verse-08"
+  - "segment_id": "modern-lady-verse-09"
+  - "segment_id": "modern-lady-verse-10"
+  - "segment_id": "modern-lady-verse-11"
+  - "segment_id": "modern-lady-verse-12"
+  - "segment_id": "modern-lady-verse-13"
+  - "segment_id": "modern-lady-verse-14"
+  - "segment_id": "modern-lady-verse-15"
+  - "segment_id": "modern-lady-verse-16"
+  - "segment_id": "modern-lady-verse-17"
+  - "segment_id": "modern-lady-verse-18"
+  "separator": |2+
+
+  "description_ja": "原典の掲載293詩行と、その途中の省略表示を順に保持。18の詩段落は字下げ・省略表示の境界に対応し、長さの同じ定型の連とみなさない。"
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "modern-lady-term-quadrille"
+  "kind": "term"
+  "source_language": "en"
+  "source": "quadrille"
+  "translation_ja": "カドリーユ"
+- "id": "modern-lady-term-spadillo"
+  "kind": "term"
+  "source_language": "en"
+  "source": "spadillo"
+  "translation_ja": "スパディリオ"
+- "id": "modern-lady-term-codille"
+  "kind": "term"
+  "source_language": "en"
+  "source": "codille"
+  "translation_ja": "コディーユ"
+- "id": "modern-lady-term-matadore"
+  "kind": "term"
+  "source_language": "en"
+  "source": "matadore"
+  "translation_ja": "マタドール"
+- "id": "modern-lady-term-vole"
+  "kind": "term"
+  "source_language": "en"
+  "source": "vole"
+  "translation_ja": "ヴォール"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-21T01:36:49Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "85cfd017e75e06d7827db5d87f112ce75a7667e6e93b8919f6105cdbdd4ef044"
+"provenance":
+  "source_schema_reference_commit": "8353c0a876b11cfc615c2b0e7b6c393ef0ce5109"
+  "source_file_sha256": "86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc"
+  "attribution_evidence":
+  - "url": "https://www.gutenberg.org/ebooks/14353"
+    "basis_ja": "Swiftを著者とする1910年Browning編詩集に、独立した題と1728年記の詩として収録。"
+  - "url": "https://www.grubstreetproject.net/publications/T124974/"
+    "basis_ja": "University of SaskatchewanのGrub Street Project書誌（ESTC T124974）は、1729年J. Wilford刊本の標題にBy the author of Cadenus and Vanessaと記されることを示し、当該著者をJonathan Swiftと特定している。"
+    "scope_ja": "同時代刊本の標題書誌による帰属確認。その後、1729年刊本の表題紙実画像も確認した。CERLのESTCページは403のため到達成功としない。"
+  - "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/The_Journal_of_a_Modern_Lady"
+    "basis_ja": "1801年全集第7巻の当該本文ページでも同題・同副題1728年記と、冒頭の省略表示を確認。"
+    "scope_ja": "帰属・範囲の補助確認に限る。1801年版の全面異版校合・追加本文の翻訳は行わない。"
+  "source_scope":
+    "heading_xpath": "/html/body/h2[76]"
+    "subtitle_xpath": "/html/body/h3[41]"
+    "poem_xpath": "/html/body/pre[186]"
+    "next_excluded_heading": "THE LOGICIANS REFUTED"
+    "poem_display_lines_with_blanks": 296
+    "poem_verse_lines_excluding_notice_and_blanks": 293
+    "blank_lines": 2
+    "omission_notices": 1
+    "poem_blocks": 18
+    "source_notes": 0
+    "translator_notes": 1
+    "block_ranges":
+    - "id": "modern-lady-verse-01"
+      "pre_normalized_start_line": 1
+      "pre_normalized_end_line": 19
+      "source_lines": 19
+    - "id": "modern-lady-omission-notice"
+      "pre_normalized_start_line": 21
+      "pre_normalized_end_line": 21
+      "source_lines": 1
+    - "id": "modern-lady-verse-02"
+      "pre_normalized_start_line": 23
+      "pre_normalized_end_line": 24
+      "source_lines": 2
+    - "id": "modern-lady-verse-03"
+      "pre_normalized_start_line": 25
+      "pre_normalized_end_line": 38
+      "source_lines": 14
+    - "id": "modern-lady-verse-04"
+      "pre_normalized_start_line": 39
+      "pre_normalized_end_line": 82
+      "source_lines": 44
+    - "id": "modern-lady-verse-05"
+      "pre_normalized_start_line": 83
+      "pre_normalized_end_line": 92
+      "source_lines": 10
+    - "id": "modern-lady-verse-06"
+      "pre_normalized_start_line": 93
+      "pre_normalized_end_line": 118
+      "source_lines": 26
+    - "id": "modern-lady-verse-07"
+      "pre_normalized_start_line": 119
+      "pre_normalized_end_line": 138
+      "source_lines": 20
+    - "id": "modern-lady-verse-08"
+      "pre_normalized_start_line": 139
+      "pre_normalized_end_line": 152
+      "source_lines": 14
+    - "id": "modern-lady-verse-09"
+      "pre_normalized_start_line": 153
+      "pre_normalized_end_line": 176
+      "source_lines": 24
+    - "id": "modern-lady-verse-10"
+      "pre_normalized_start_line": 177
+      "pre_normalized_end_line": 190
+      "source_lines": 14
+    - "id": "modern-lady-verse-11"
+      "pre_normalized_start_line": 191
+      "pre_normalized_end_line": 198
+      "source_lines": 8
+    - "id": "modern-lady-verse-12"
+      "pre_normalized_start_line": 199
+      "pre_normalized_end_line": 216
+      "source_lines": 18
+    - "id": "modern-lady-verse-13"
+      "pre_normalized_start_line": 217
+      "pre_normalized_end_line": 222
+      "source_lines": 6
+    - "id": "modern-lady-verse-14"
+      "pre_normalized_start_line": 223
+      "pre_normalized_end_line": 272
+      "source_lines": 50
+    - "id": "modern-lady-verse-15"
+      "pre_normalized_start_line": 273
+      "pre_normalized_end_line": 278
+      "source_lines": 6
+    - "id": "modern-lady-verse-16"
+      "pre_normalized_start_line": 279
+      "pre_normalized_end_line": 288
+      "source_lines": 10
+    - "id": "modern-lady-verse-17"
+      "pre_normalized_start_line": 289
+      "pre_normalized_end_line": 292
+      "source_lines": 4
+    - "id": "modern-lady-verse-18"
+      "pre_normalized_start_line": 293
+      "pre_normalized_end_line": 296
+      "source_lines": 4
+  "draft_completed_at": "2026-10-21T01:25:29Z"
+  "full_review_history":
+  - "status": "complete"
+    "completed_at": "2026-10-21T01:27:51Z"
+    "reviewed_ids":
+    - "modern-lady-heading"
+    - "modern-lady-subtitle"
+    - "modern-lady-verse-01"
+    - "modern-lady-omission-notice"
+    - "modern-lady-verse-02"
+    - "modern-lady-verse-03"
+    - "modern-lady-verse-04"
+    - "modern-lady-verse-05"
+    - "modern-lady-verse-06"
+    - "modern-lady-verse-07"
+    - "modern-lady-verse-08"
+    - "modern-lady-verse-09"
+    - "modern-lady-verse-10"
+    - "modern-lady-verse-11"
+    - "modern-lady-verse-12"
+    - "modern-lady-verse-13"
+    - "modern-lady-verse-14"
+    - "modern-lady-verse-15"
+    - "modern-lady-verse-16"
+    - "modern-lady-verse-17"
+    - "modern-lady-verse-18"
+    - "modern-lady-translation-note"
+    "review_method_ja": "全初稿を指定正本に保存後、題・副題年記・掲載全293詩行・省略表示・訳注を原文と日本語で一回全文対照。意味・数量・否定・話者・引用・順序を確認。意味訂正箇所と対応訳注・参照のみ再確認し、追加の日本語単独通読や文体磨き、全面異版校合は行わない。"
+    "corrections":
+    - "segment_id": "modern-lady-verse-04"
+      "reason_ja": "a hundred cheatsの百という誇張を保ち、訳の「百も」の数える対象を明確にした。"
+    - "segment_id": "modern-lady-verse-07"
+      "reason_ja": "prudesはここでは単に高慢な女ではなく、貞淑を装って他者を責める女を指す。"
+    - "segment_id": "modern-lady-verse-09"
+      "reason_ja": "同じprudesの道徳を装う含意を対応させた。"
+    - "segment_id": "modern-lady-verse-08"
+      "reason_ja": "詩人が全員を描くために多くの舌を求める比喩であり、女性たちに舌を配る意味ではない。"
+    - "segment_id": "modern-lady-verse-09"
+      "reason_ja": "jealousの恋愛上のやきもちを、男そのものへの羨望と誤読させないよう訂正。"
+    - "segment_id": "modern-lady-verse-14"
+      "reason_ja": "cutは配札の反復ではなく、札の山を分ける操作を指す。"
+    - "segment_id": "modern-lady-verse-14"
+      "reason_ja": "girlに職種は明記されていないため、小間使いと断定する補足を除いた。"
+    - "segment_id": "modern-lady-verse-14"
+      "reason_ja": "renounceで従うべき札種を、対戦相手の組やチームと混同しないよう明確化。"
+    - "segment_id": "modern-lady-verse-14"
+      "reason_ja": "I guess’d the handの過去を保ち、handを特定の人物の手だけと断定せず、手札・手口の含みを「手のうち」に残した。"
+    - "segment_id": "modern-lady-translation-note"
+      "reason_ja": "本文のrenounceの意味訂正に対応する訳注の明確化。"
+    "post_correction_check_ja": "訂正した短句・前後の文脈・訳注を原文で再確認。全18詩ブロックの行数を保持し、訳注参照のsource_span/translation_spanを現在の文から再計算。"
+    "content_sha256": "0165dfcb46b8dee255f56b4c38ec8aee3f753d758f8ac0c325c0743491eb9d25"
+  "lexical_checks":
+  - "url": "https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/QUADRILLE"
+    "source_title": "L’Encyclopédie, première édition, QUADRILLE, tome13, pp.643–645"
+    "basis_ja": "当時の遊戯解説のうち、四人のカドリーユ、上位切札、codille、vole、同じ札種に従う義務の説明を語義確認に参照。訳注は必要な語の短い説明にとどめ、規則全文を転訳しない。"
+  "source_observations_ja":
+  - "副題の1728年記、matadores/codille/spadillo等の底本綴り、本文の省略表示を保持する。1729年刊本の書誌確認を理由として年記を書き換えない。"
+  - "底本には注や編者紹介はない。省略表示の筆者は無署名であり、著者または編者と確定しない。"
+  - "隣接するLogicians Refutedは対象外。著者帰属の疑義を当該詩へ混ぜない。"
+  - "I guess’d the handは、印をつけられた札と爪についてのやり取りにある。handの手札・手口の含みを「手のうち」に保ち、印付けの実行者を特定した発言とは断定しない。"
+  "reference_check_ja": "カドリーユ初出から訳注1への参照を原文・訳文の現在の文字範囲で確認。"
+  "omission_research":
+    "report_path": "tmp/swift/modern-lady-gap/omission-research.json"
+    "report_sha256": "0e912e9fe7b09f89fc90e38d784b28226a159876c8a1362bb9f7d4c0f677131d"
+    "verified_at": "2026-10-21T01:36:49Z"
+    "primary_witness_source_ids":
+    - "ia-modern-lady-1729"
+    - "ia-modern-lady-1730"
+    "conclusion_ja": "1910年Browning版にある省略表示は、少なくとも1729年London単独刊本と1730年第二版所収本に既に印刷されている。今回実見した資料に、省略された数行を補える本文は見つからなかった。"
+    "not_established_ja":
+    - "この冒頭表示の作成者や、省略が作者の意図・初期の編集・印刷の事情のいずれによるかは確定していない。"
+    - "1729年Dublin初印の全本文、手稿・家蔵稿の所在や現存全文は未確認。世界のすべての刊本・手稿を調べて不在を証明したものではない。"
+    - "Swift書簡でいう家族にかかわる除去と、この特定の冒頭省略表示が同一の範囲とは断定できない。"
+    - "省略表示が戯作的な表現であり、対応する数行が実際には存在しなかった可能性も、この照合だけでは確定も排除もできない。"
+    "author_letter_context":
+      "author": "Jonathan Swift"
+      "recipient": "Alexander Pope"
+      "date_as_printed": "MARCH 6, 1728-9."
+      "edition": "The Works of the Rev. Jonathan Swift, Volume18, pp.261 and264"
+      "date_url": "https://en.wikisource.org/wiki/Page:The_Works_of_the_Rev._Jonathan_Swift,_Volume_18.djvu/275"
+      "passage_url": "https://en.wikisource.org/wiki/Page:The_Works_of_the_Rev._Jonathan_Swift,_Volume_18.djvu/278"
+      "short_source_phrases":
+      - "leaving out what concerned the family"
+      - "most horridly mangled in the press"
+      "finding_ja": "本人はJournal of a Dublin LadyをAcheson家で書き、家族にかかわる部分を除いて印刷へ送ったこと、単独刊行時に大きく改変されたことを述べている。"
+      "inference_limit_ja": "これは初期刊行の経緯に関する本人証言であり、今回の冒頭表示の範囲を特定する証言とは扱わない。"
+      "local_download_manifest": "tmp/swift/modern-lady-gap/letter-source-downloads.json"
+      "digital_conditions_ja": "原著書簡と古い刊本はPD、Wikisourceの電子転記条件は別。書簡全体の新訳・取込は今回行わない。"
+  "metadata_amendments":
+  - "verified_at": "2026-10-21T01:36:49Z"
+    "scope_ja": "1729・1730刊本の表題紙と冒頭省略表示、Swift書簡の該当段落だけを新規原典確認し、reader_notes、known_gaps、比較出典を追記。既訳293詩行と訳注は再全文対照せず、内容不変を機械検証。"
+    "inherited_full_review_content_sha256": "0165dfcb46b8dee255f56b4c38ec8aee3f753d758f8ac0c325c0743491eb9d25"
+    "body_support_fields":
+    - "sections"
+    - "segments"
+    - "groups"
+    - "notes"
+    - "references"
+    - "terminology"
+    - "assets"
+    - "figures"
+    - "aliases"
+    "body_support_sha256_before": "90f7cd4725d104cbdf2b37dd581d8a97ced7a0f8e97e4ab51e66e3296175c3bf"
+    "body_support_sha256_after": "90f7cd4725d104cbdf2b37dd581d8a97ced7a0f8e97e4ab51e66e3296175c3bf"
+    "content_sha256": "85cfd017e75e06d7827db5d87f112ce75a7667e6e93b8919f6105cdbdd4ef044"

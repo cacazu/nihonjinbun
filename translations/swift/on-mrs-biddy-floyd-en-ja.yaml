@@ -1,0 +1,247 @@
+schema_version: '2.0'
+work_id: swift-on-mrs-biddy-floyd
+metadata:
+  title_ja: ビディ・フロイドについて
+  title_original: On Mrs. Biddy Floyd; or, The Receipt to Form a Beauty. 1707
+  original_languages:
+  - en
+  target_language: ja
+  contributors:
+  - id: swift
+    name_ja: ジョナサン・スウィフト
+    name_original: Jonathan Swift
+    roles:
+    - author
+  - id: browning
+    name_ja: ウィリアム・アーンスト・ブラウニング
+    name_original: William Ernst Browning
+    roles:
+    - editor
+  - id: translator
+    name_ja: 心霊研究家ポロミン
+    name_original: null
+    roles:
+    - translator
+    url: https://x.com/cacazu_right
+  translation_rights:
+    status: unknown
+    attribution: 心霊研究家ポロミン
+    note_ja: 今回の新訳の利用条件は未指定。原著・底本編集物・電子翻刻の条件を日本語訳へ自動適用しない。
+  genres:
+  - 文学
+  - 詩
+  - 風刺
+  reader_notes_ja:
+  - 1910年Browning編版の題・副題と1707年記、全12行を収録。二、三行目の行分けと性質の列挙は1801年版も参照して訳した。
+sources:
+- id: gutenberg-14353
+  role: primary
+  title: The Poems of Jonathan Swift, D.D., Volume I
+  languages:
+  - en
+  url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+  edition: 'William Ernst Browning編、London: G. Bell and Sons, Ltd.、1910年。Project Gutenberg eBook 14353。HTMLに初公開2004年12月14日・最終更新2024年10月28日と記載。'
+  contributor_ids:
+  - swift
+  - browning
+  work_rights:
+    status: public_domain
+    evidence_url: https://www.gutenberg.org/ebooks/14353
+    note_ja: 原著者Swiftは1745年没。1910年刊本で、Project Gutenberg書誌は米国で公有と表示。編者Browningの没年1916はスコットランド国立図書館一次アーカイブ目録のCreator欄（https://manuscripts.nls.uk/repositories/2/archival_objects/18799）で1830–1916と記載。原著と後代の編集注を区別する。
+  transcription_rights:
+    status: licensed
+    license_id: LicenseRef-Project-Gutenberg
+    license_url: https://www.gutenberg.org/policy/license.html
+    attribution: E-text prepared by Clare Boothby, G. Graustein, and the Project Gutenberg Online Distributed Proofreading
+      Team
+    note_ja: 公有の原著・1910年版編集物と、Project Gutenbergの商標および電子版配布条件を区別する。
+  sha256: 86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc
+  description_ja: 当該詩の題・副題と全12行を採用。当該範囲に底本注はない。
+- id: swift-1801-volume-7
+  role: comparison
+  title: 'The Works of the Rev. Jonathan Swift, Volume 7: On Mrs. Biddy Floyd'
+  languages:
+  - en
+  url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_7/On_Mrs._Biddy_Floyd&oldid=10241119
+  edition: London, 1801年版。Wikisource固定版10241119。
+  work_rights:
+    status: public_domain
+    evidence_url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_7/On_Mrs._Biddy_Floyd&oldid=10241119
+    note_ja: 原著者Swiftは1745年没。比較対象は1801年刊本の原著本文。原著と現代の電子翻刻の条件を区別する。
+  transcription_rights:
+    status: licensed
+    license_id: CC-BY-SA-4.0
+    license_url: https://creativecommons.org/licenses/by-sa/4.0/
+    attribution: Wikisource contributors
+    note_ja: Wikisourceの電子翻刻の利用条件。公有の原著と今回の日本語訳の条件を自動的に同一としない。
+  description_ja: 当該詩の全12行を実読。2行目末receipt,と3行目頭Jove sentの区切り、10行目nice, coquetの読点を確認。1801年版のLatin訳に関する編者注は採用底本の一部として混入しない。
+  sha256: 622d1f25f65ba3008c7c06ff5a30d71443137d37979c65ea8b42a61835b9260d
+scope:
+  included:
+  - source_id: gutenberg-14353
+    description_ja: 題・副題・1707年記と詩本文全12行。
+    section_ids:
+    - poem
+  excluded:
+  - source_id: gutenberg-14353
+    description_ja: 巻全体の編者資料・目次・前後の他作品・電子版の定型案内。後続The Reverseは帰属未確定の別候補として分け、当該詩へ含めない。
+  known_gaps: []
+sections:
+- id: poem
+  parent_id: null
+  kind: section
+  heading_segment_ids:
+  - biddy-heading
+  origin: source
+segments:
+- id: biddy-heading
+  kind: heading
+  source_text: ON MRS. BIDDY FLOYD;
+  translation_ja: ビディ・フロイドについて
+  translation_status: reviewed
+  source_locations:
+  - source_id: gutenberg-14353
+    precision: block
+    url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+    xpath: /html/body/h2[20]
+    line_start: 3453
+    source_sequence: 0
+  section_id: poem
+  origin: source
+  source_languages:
+  - en
+- id: biddy-subtitle
+  kind: paragraph
+  source_text: OR, THE RECEIPT TO FORM A BEAUTY. 1707
+  translation_ja: または、美人を作る処方。一七〇七年
+  translation_status: reviewed
+  source_locations:
+  - source_id: gutenberg-14353
+    precision: block
+    url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+    xpath: /html/body/h3[10]
+    line_start: 3456
+    source_sequence: 1
+  section_id: poem
+  origin: source
+  source_languages:
+  - en
+- id: biddy-verse-001
+  kind: verse
+  source_text: 'When Cupid did his grandsire Jove entreat
+
+    To form some Beauty by a new receipt, Jove sent, and found, far in a
+
+    country scene,
+
+    Truth, innocence, good nature, look serene:
+
+    From which ingredients first the dext''rous boy
+
+    Pick''d the demure, the awkward, and the coy.
+
+    The Graces from the court did next provide
+
+    Breeding, and wit, and air, and decent pride:
+
+    These Venus cleans''d from ev''ry spurious grain
+
+    Of nice coquet, affected, pert, and vain.
+
+    Jove mix''d up all, and the best clay employ''d;
+
+    Then call''d the happy composition FLOYD.'
+  translation_ja: 'キューピッドが、祖父ユピテルに願ったとき、
+
+    新しい処方で、美人を一人作ってほしいと、
+
+    ユピテルは、人を遣わし、遠い田舎の風景に見つけた、
+
+    真実、無垢、気立てのよさ、穏やかな顔つきを。
+
+    その材料から、まず、手先の器用な少年が、
+
+    すまし顔、不器用さ、はにかみを抜き取った。
+
+    次に、三美神が、宮廷から持ってきた、
+
+    礼儀、才知、身こなし、ほどよい誇りを。
+
+    ウェヌスは、そこから、不純な粒をことごとく取り除いた、
+
+    気むずかしさ、媚態、わざとらしさ、小生意気さ、虚栄を。
+
+    ユピテルは、すべてを混ぜ合わせ、最上の粘土を用い、
+
+    その見事なできあがりを、フロイドと名づけた。'
+  translation_status: reviewed
+  source_locations:
+  - source_id: gutenberg-14353
+    precision: block
+    url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+    xpath: /html/body/pre[69]
+    line_start: 3460
+    source_sequence: 2
+    line_end: 3471
+  section_id: poem
+  origin: source
+  source_languages:
+  - en
+notes: []
+references: []
+groups: []
+assets: []
+figures: []
+aliases: []
+terminology:
+- id: biddy-term-1
+  kind: person
+  source_language: en
+  source: Cupid
+  translation_ja: キューピッド
+- id: biddy-term-2
+  kind: person
+  source_language: en
+  source: Venus
+  translation_ja: ウェヌス
+- id: biddy-term-3
+  kind: person
+  source_language: en
+  source: Jove
+  translation_ja: ユピテル
+- id: biddy-term-4
+  kind: term
+  source_language: en
+  source: receipt
+  translation_ja: 処方
+  note_ja: 調合法の意味。
+workflow:
+  stage: ready
+  full_review:
+    status: complete
+    completed_at: '2026-10-21T01:33:01Z'
+    reviewed_by: Codex
+    content_sha256: 3dd65528760e461faa1563686b467b7bc1579edc97fb451824d90934801705d5
+provenance:
+  source_retrieved_at: '2026-10-21'
+  schema_repository: https://github.com/cacazu/nihonjinbun
+  schema_commit: 00a4e8cd918148827c146b09100da1939f3ec450
+  translation_method: 全初稿保存後、題・副題・全12行を原文と一回全文対照。1801年版の短い同詩を行分けと読点の確認に使い、変更箇所は原文と再確認。日本語だけの追加全文通読は行っていない。
+  drafted_segment_count: 3
+  next_segment_id: null
+  source_verse_line_count: 12
+  translation_verse_line_count: 12
+  full_review_segment_ids:
+  - biddy-heading
+  - biddy-subtitle
+  - biddy-verse-001
+  full_review_snapshot_sha256: 57831c613e2ac71565244fdff36fa9612d021b94a6ed21e4ace7d40ae30df693
+  full_review_result_sha256: 5e641aaac4c49330441a82e53a63083b38af2ba570e33308bb56351132030a46
+  full_review_corrections_ja:
+  - segment_id: biddy-verse-001
+    reason_ja: Cupid/Venusを既存同著者訳のキューピッド/ウェヌスへ統一。nice/coquetは1801年版の読点を実確認し、五性質の列挙として別々に訳す。happy compositionは幸運な成分でなく見事なできあがりの意味とする。
+    changed_context_rechecked: true
+  source_extraction_ja: PG14353の題・副題・pre全行を採用。共通左余白5字のみ除く。電子版で2行目に3行目の前半が連結し、3行目がcountry sceneのみとなる形はsource_textに保持。訳の2–3行は1801年版の詩行境界に従う。
+  remaining_ambiguities_ja:
+  - niceは過度の繊細さ・気難しさと解釈。coquetとは1801年版の読点に従い分けた。
+  - Pick’dは、次のウェヌスの浄化と平行する不要な性質の除去と解釈し、抜き取ったと訳した。
