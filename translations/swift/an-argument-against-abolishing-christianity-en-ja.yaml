@@ -1,0 +1,816 @@
+"schema_version": "2.0"
+"work_id": "swift-an-argument-against-abolishing-christianity"
+"metadata":
+  "title_ja": "キリスト教廃止論"
+  "title_original": "An Argument to Prove That the Abolishing of Christianity in England May, as Things Now Stand, Be Attended\
+    \ with Some Inconveniences, and Perhaps Not Produce Those Many Good Effects Proposed Thereby"
+  "original_languages":
+  - "en"
+  - "la"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "morley"
+    "name_ja": "ヘンリー・モーリー"
+    "name_original": "Henry Morley"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。原著と電子翻刻の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "随筆"
+  - "風刺"
+  "reader_notes_ja":
+  - "1886年Cassell & Company版の英語電子翻刻に基づく。長い原題、1708年の執筆年記、本文全29段落を収録。"
+  - "底本のpaxodoxical、test、they、promisesの四箇所は、1801年全集のparadoxical、taste、this、premisesを参照して訳した。原文の語形は保持し、それぞれの比較読みを記録した。"
+"sources":
+- "id": "gutenberg-623"
+  "role": "primary"
+  "title": "The Battle of the Books, and Other Short Pieces"
+  "languages":
+  - "en"
+  - "la"
+  "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+  "edition": "ヘンリー・モーリー編、Cassell & Company、1886年版。Project Gutenberg eBook 623の旧HTML。HTML内の公開日記載は2007年1月15日。"
+  "contributor_ids":
+  - "swift"
+  - "morley"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/623"
+    "note_ja": "著者1745年没、編者1894年没の1886年刊本。Project Gutenberg書誌は米国でパブリックドメインと表示。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "Transcribed from the 1886 Cassell & Company edition by David Price."
+    "note_ja": "原著の著作権状態と、Project Gutenbergの商標・電子版配布条件を区別する。"
+  "sha256": "6362b44a9f5703d1c2a3d10313ead9c9e124f845d138d725e602b6f1bf630517"
+  "description_ja": "2007年1月15日と記載された旧HTMLを2026年10月21日に取得。現在のcache版と混同しない。当該作品のh2とそれに続く30個のp（年記1・本文29）を、次作品のHINTS見出し直前まで収録。段落内改行と連続する組版用空白を単一空白に整理し、語句と境界を保持。全31単位の元HTMLのXPath・開始行・本文一致を実照合した。source_sequenceは対象作品内の順序。"
+- "id": "wikisource-1801-v2"
+  "role": "comparison"
+  "title": "The Works of the Rev. Jonathan Swift, Volume II: An Argument to Prove That the Abolishing of Christianity in England\
+    \ May Be Attended with Some Inconveniences"
+  "languages":
+  - "en"
+  - "la"
+  "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_2/An_Argument_to_prove_that_the_Abolishing_of_Christianity_in_England_may_be_attended_with_some_Inconveniences"
+  "edition": "Thomas Sheridan編、John Nichols校訂、1801年ロンドン刊・全19巻版の第2巻、381頁以下。Wikisource翻刻。巻の標題紙の1801年記載を確認。"
+  "contributor_ids":
+  - "swift"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_2"
+    "note_ja": "1801年刊。著者1745年没。巻ページも公有表示を持つ。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "Wikisource contributors"
+    "note_ja": "Wikisourceページ脚部がリンクするCC BY-SA4.0を確認。原著の公有とサイトの翻刻・編集物の利用表示を区別する。"
+  "description_ja": "2026年10月21日に、四箇所の短い語句の解釈を照合するため参照。主底本の全文をこの版へ差し替えず、この版の追加の語句や脚注は収録しない。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-623"
+    "description_ja": "長い原題・1708年の執筆年記・本文全29段落、計31単位。本文の引用・ラテン語と角括弧を含む。"
+    "section_ids":
+    - "title"
+    - "body"
+  "excluded":
+  - "source_id": "gutenberg-623"
+    "description_ja": "同巻の他作品、巻全体の標題紙・編者序文・目次、電子版の定型利用案内・ライセンス。対象作品の本文に省略なし。"
+  - "source_id": "wikisource-1801-v2"
+    "description_ja": "比較読み4件以外の本文・脚注。この版で主底本の本文を置換・増補しない。"
+  "known_gaps": []
+"sections":
+- "id": "title"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "christianity-000"
+  "origin": "source"
+- "id": "body"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids": []
+  "label_ja": "本文"
+  "origin": "editorial"
+"segments":
+- "id": "christianity-000"
+  "section_id": "title"
+  "kind": "heading"
+  "source_text": |-
+    AN ARGUMENT TO PROVE THAT THE ABOLISHING OF CHRISTIANITY IN ENGLAND MAY, AS THINGS NOW STAND, BE ATTENDED WITH SOME INCONVENIENCES, AND PERHAPS NOT PRODUCE THOSE MANY GOOD EFFECTS PROPOSED THEREBY.
+  "translation_ja": |-
+    イングランドにおけるキリスト教の廃止は、現状では、いくつかの不都合を伴い、それによって見込まれる数々のよい効果も、おそらく生まないであろうことを証明する議論
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[23]"
+    "line_start": 3626
+    "source_sequence": 0
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-001"
+  "section_id": "title"
+  "kind": "paragraph"
+  "source_text": |-
+    Written in the year 1708.
+  "translation_ja": |-
+    一七〇八年執筆。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[247]"
+    "line_start": 3630
+    "source_sequence": 1
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-002"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    I am very sensible what a weakness and presumption it is to reason against the general humour and disposition of the world. I remember it was with great justice, and a due regard to the freedom, both of the public and the press, forbidden upon several penalties to write, or discourse, or lay wagers against the --- even before it was confirmed by Parliament; because that was looked upon as a design to oppose the current of the people, which, besides the folly of it, is a manifest breach of the fundamental law, that makes this majority of opinions the voice of God. In like manner, and for the very same reasons, it may perhaps be neither safe nor prudent to argue against the abolishing of Christianity, at a juncture when all parties seem so unanimously determined upon the point, as we cannot but allow from their actions, their discourses, and their writings. However, I know not how, whether from the affectation of singularity, or the perverseness of human nature, but so it unhappily falls out, that I cannot be entirely of this opinion. Nay, though I were sure an order were issued for my immediate prosecution by the Attorney-General, I should still confess, that in the present posture of our affairs at home or abroad, I do not yet see the absolute necessity of extirpating the Christian religion from among us.
+  "translation_ja": |-
+    世間一般の気分や傾向に逆らって論じるのが、どれほど弱々しく、思い上がった振る舞いかは、よく承知している。かの——に反する文章を書き、議論し、賭けをすることが、それが議会で承認される前にさえ、幾つもの罰則をもって禁じられたのを、私は覚えている。まことに正当にも、公衆と出版双方の自由へ、しかるべき配慮が払われたのである。そうした行為は、人民の流れへ逆らおうとする企てと見なされたからだ。それは愚かであるばかりか、意見の多数を神の声とする根本の法を、明らかに犯すものでもある。同じように、まったく同じ理由で、いま、あらゆる党派がこの点について、あれほど満場一致で決意を固めているように見える時に、キリスト教の廃止に反対する議論をするのは、安全でも賢明でもないのかもしれない。各党派の行動、談話、著作からして、そう認めずにはいられないのだから。それでも、変わり者を気取りたいからか、人間の本性のひねくれによるのか、自分でもわからぬが、不幸にして、私は、この意見にすっかり賛成することができないのである。それどころか、司法長官へ、私を直ちに訴追する命令が出たとわかっていても、なお告白せずにはいられない。国内外の情勢が現在のようなありさまにある以上、我々の間からキリスト教を根絶する絶対の必要は、まだ私には見えない。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[248]"
+    "line_start": 3631
+    "source_sequence": 2
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-003"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    This perhaps may appear too great a paradox even for our wise and paxodoxical age to endure; therefore I shall handle it with all tenderness, and with the utmost deference to that great and profound majority which is of another sentiment.
+  "translation_ja": |-
+    これでは、賢明で逆説を好む我々の時代にさえ、耐えられぬほど甚だしい逆説と思われるかもしれない。したがって私は、できる限り穏やかに、別の考えを持つ、あの偉大で深遠な多数派へ、この上ない敬意を払いながら、これを扱うことにしよう。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[249]"
+    "line_start": 3653
+    "source_sequence": 3
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "paradoxical"
+    "source_locations":
+    - "source_id": "wikisource-1801-v2"
+      "precision": "work"
+      "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_2/An_Argument_to_prove_that_the_Abolishing_of_Christianity_in_England_may_be_attended_with_some_Inconveniences"
+    "description_ja": "底本paxodoxicalに対してparadoxical。逆説を好む時代という文脈に沿い、逆説の意で訳した。 主底本のsource_textは変更しない。"
+- "id": "christianity-004"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    And yet the curious may please to observe, how much the genius of a nation is liable to alter in half an age. I have heard it affirmed for certain by some very odd people, that the contrary opinion was even in their memories as much in vogue as the other is now; and that a project for the abolishing of Christianity would then have appeared as singular, and been thought as absurd, as it would be at this time to write or discourse in its defence.
+  "translation_ja": |-
+    それにしても、国民の気質が、半世紀のうちにどれほど変わりうるかは、好奇心のある方々に、ご覧いただきたい。ずいぶん奇妙な人々が、確かなこととして断言するのを聞いたことがある。自分たちの記憶にある時代には、反対の意見が、いまの意見と同じほど流行していたというのである。当時なら、キリスト教の廃止という計画は、いま、その擁護を書くことや語ることがそうであるように、奇矯に見え、馬鹿げていると思われただろうというのだ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[250]"
+    "line_start": 3657
+    "source_sequence": 4
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-005"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    Therefore I freely own, that all appearances are against me. The system of the Gospel, after the fate of other systems, is generally antiquated and exploded, and the mass or body of the common people, among whom it seems to have had its latest credit, are now grown as much ashamed of it as their betters; opinions, like fashions, always descending from those of quality to the middle sort, and thence to the vulgar, where at length they are dropped and vanish.
+  "translation_ja": |-
+    だから、見たところすべてが私に不利であることは、率直に認める。福音の体系も、ほかの体系と同じ運命をたどり、一般に時代遅れとされ、退けられている。最後までその信用が残っていたらしい庶民の大多数も、いまでは、自分たちより身分の高い者と同じほど、それを恥じるようになった。意見は、流行と同じく、いつも上流の人々から中ほどの階層へ、そこから下々へと降りてゆき、そこでついに捨てられ、消えてしまうものなのだ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[251]"
+    "line_start": 3665
+    "source_sequence": 5
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-006"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    But here I would not be mistaken, and must therefore be so bold as to borrow a distinction from the writers on the other side, when they make a difference betwixt nominal and real Trinitarians. I hope no reader imagines me so weak to stand up in the defence of real Christianity, such as used in primitive times (if we may believe the authors of those ages) to have an influence upon men’s belief and actions. To offer at the restoring of that, would indeed be a wild project: it would be to dig up foundations; to destroy at one blow all the wit, and half the learning of the kingdom; to break the entire frame and constitution of things; to ruin trade, extinguish arts and sciences, with the professors of them; in short, to turn our courts, exchanges, and shops into deserts; and would be full as absurd as the proposal of Horace, where he advises the Romans, all in a body, to leave their city, and seek a new seat in some remote part of the world, by way of a cure for the corruption of their manners.
+  "translation_ja": |-
+    だが、この点で誤解はされたくないので、反対側の著述家たちが、名目上の三位一体論者と実質上の三位一体論者とを分けるときの区別を、あえて借りなければならない。原始の時代には、人々の信念や行いに影響を及ぼしていたという、真のキリスト教を、私が擁護しようとするほど愚かだとは、どの読者も思わないでいただきたい。もっとも、その時代の著述家たちを信じてよいのなら、ということだが。それを復興しようなどとは、まったく途方もない計画になるだろう。土台を掘り返し、王国の才知のすべてと、学問の半分を一撃で滅ぼし、物事の仕組みと構成を丸ごと壊し、商業を破滅させ、技芸と科学を、その専門家もろとも絶やすことになる。要するに、我々の宮廷も、取引所も、商店も、荒野に変えるのである。それは、風俗の腐敗を治すため、ローマ人全員が一団となって都を去り、世界のどこか遠い所に新天地を求めよと勧めた、ホラティウスの提案と、まったく同じほど馬鹿げているだろう。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[252]"
+    "line_start": 3673
+    "source_sequence": 6
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-007"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    Therefore I think this caution was in itself altogether unnecessary (which I have inserted only to prevent all possibility of cavilling), since every candid reader will easily understand my discourse to be intended only in defence of nominal Christianity, the other having been for some time wholly laid aside by general consent, as utterly inconsistent with all our present schemes of wealth and power.
+  "translation_ja": |-
+    したがって、この注意書きは、そもそも、まったく不要だったと思う。揚げ足を取られる可能性を、少しでも残さぬために挿入しただけである。偏見のない読者なら、私の議論が、名目だけのキリスト教を擁護するためだけのものだと、容易にわかるはずだからだ。もう一方のものは、いまの富と権力を目指す我々のあらゆる企てと、まったく相容れないとして、しばらく前から、万人の同意によって、すっかり放棄されているのである。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[253]"
+    "line_start": 3690
+    "source_sequence": 7
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-008"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    But why we should therefore cut off the name and title of Christians, although the general opinion and resolution be so violent for it, I confess I cannot (with submission) apprehend the consequence necessary. However, since the undertakers propose such wonderful advantages to the nation by this project, and advance many plausible objections against the system of Christianity, I shall briefly consider the strength of both, fairly allow them their greatest weight, and offer such answers as I think most reasonable. After which I will beg leave to show what inconveniences may possibly happen by such an innovation, in the present posture of our affairs.
+  "translation_ja": |-
+    しかし、そのために、キリスト教徒という名や肩書きまで切り捨てなければならない理由は何だろう。世間一般の意見や決意が、いかに激しくそれを求めていようと、恐れながら、その結論が必然とは、私には理解できないと告白する。それでも、企画者たちは、この計画で国にすばらしい利益がもたらされると説き、キリスト教の体系に対して、もっともらしい異論を数多く出している。そこで私は、その利益と異論の双方について、どれほどの力があるかを手短に検討し、その重みを十分に、公正に認めたうえで、最も理にかなうと思う答えを出そう。そのあとで、我々の情勢が現在のようにある以上、このような新機軸から、どんな不都合が生じうるかを、お示しするお許しを願いたい。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[254]"
+    "line_start": 3697
+    "source_sequence": 8
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-009"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    First, one great advantage proposed by the abolishing of Christianity is, that it would very much enlarge and establish liberty of conscience, that great bulwark of our nation, and of the Protestant religion, which is still too much limited by priestcraft, notwithstanding all the good intentions of the legislature, as we have lately found by a severe instance. For it is confidently reported, that two young gentlemen of real hopes, bright wit, and profound judgment, who, upon a thorough examination of causes and effects, and by the mere force of natural abilities, without the least tincture of learning, having made a discovery that there was no God, and generously communicating their thoughts for the good of the public, were some time ago, by an unparalleled severity, and upon I know not what obsolete law, broke for blasphemy. And as it has been wisely observed, if persecution once begins, no man alive knows how far it may reach, or where it will end.
+  "translation_ja": |-
+    まず、キリスト教の廃止によって見込まれる大きな利益の一つは、良心の自由を大いに広げ、確立できることだという。良心の自由は、我が国とプロテスタントの宗教の、偉大な防壁であるが、立法府の善意にもかかわらず、いまなお聖職者の策謀によって、あまりに制限されている。このことは、先ごろ、厳しい一例で明らかになった。確かな報道によれば、前途有望で、才気が輝き、判断の深い二人の若い紳士が、原因と結果を徹底的に調べ、学問の色が少しもついていない、生来の能力の力だけによって、神はいないと発見し、寛大にも、公衆の利益のために、その考えを知らせたところ、しばらく前、空前の厳しさによって、何やら古びた法律を根拠に、冒瀆の罪で免官されたというのである。賢くも言われているように、ひとたび迫害が始まれば、どこまで及び、どこで終わるか、生きている者には誰もわからない。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[255]"
+    "line_start": 3708
+    "source_sequence": 9
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-010"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    In answer to all which, with deference to wiser judgments, I think this rather shows the necessity of a nominal religion among us. Great wits love to be free with the highest objects; and if they cannot be allowed a god to revile or renounce, they will speak evil of dignities, abuse the government, and reflect upon the ministry, which I am sure few will deny to be of much more pernicious consequence, according to the saying of Tiberius, deorum offensa diis curœ. As to the particular fact related, I think it is not fair to argue from one instance, perhaps another cannot be produced: yet (to the comfort of all those who may be apprehensive of persecution) blasphemy we know is freely spoke a million of times in every coffee-house and tavern, or wherever else good company meet. It must be allowed, indeed, that to break an English free-born officer only for blasphemy was, to speak the gentlest of such an action, a very high strain of absolute power. Little can be said in excuse for the general; perhaps he was afraid it might give offence to the allies, among whom, for aught we know, it may be the custom of the country to believe a God. But if he argued, as some have done, upon a mistaken principle, that an officer who is guilty of speaking blasphemy may, some time or other, proceed so far as to raise a mutiny, the consequence is by no means to be admitted: for surely the commander of an English army is like to be but ill obeyed whose soldiers fear and reverence him as little as they do a Deity.
+  "translation_ja": |-
+    以上のすべてへの答えとして、さらに賢明な判断へ敬意を払いながら申すと、むしろ、我々の間には名目だけの宗教が必要なのだと、これが示しているように思う。偉大な才人は、最も高いものを遠慮なく扱いたがる。罵ったり、否認したりするための神を認めてもらえなければ、高位の者を悪く言い、政府を罵り、大臣たちを当てこするだろう。その結果が、はるかに有害なのは、否定する者もほとんどいないはずである。ティベリウスの言うとおり、deorum offensa diis curœ――神々への侮辱は、神々に任せよ――なのだ。挙げられた具体的な事件については、一例から論じるのは公正でないと思う。もう一例を出すことさえ、できないかもしれない。しかも、迫害を恐れるすべての方々への慰めに言えば、我々の知るとおり、どの珈琲店や酒場でも、あるいは気の利いた人々の集まる所ならどこででも、冒瀆の言葉は、自由に百万回も語られている。確かに、生まれながら自由なイングランドの将校を、ただ冒瀆だけで免官するのは、できるだけ穏やかに言っても、絶対権力の、この上なく強引な行使だったとは、認めねばならない。将軍を弁護する言葉は、ほとんどない。もしかすると、同盟国の機嫌を損ねるのを恐れたのかもしれない。我々の知るかぎりでは、そこでは神を信じるのが、国の習慣になっているのかもしれないからだ。だが、ある人々のように、冒瀆を口にする将校は、いつか反乱を起こすところまで行きかねないという、誤った原理から論じたのなら、その結論は、決して認められない。兵士たちが、自分を、神と同じ程度にしか恐れず、敬ってもいないイングランド軍の司令官は、きっと、ろくに命令を聞いてもらえないに違いないのだから。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[256]"
+    "line_start": 3724
+    "source_sequence": 10
+  "origin": "source"
+  "source_languages":
+  - "en"
+  - "la"
+- "id": "christianity-011"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    It is further objected against the Gospel system that it obliges men to the belief of things too difficult for Freethinkers, and such who have shook off the prejudices that usually cling to a confined education. To which I answer, that men should be cautious how they raise objections which reflect upon the wisdom of the nation. Is not everybody freely allowed to believe whatever he pleases, and to publish his belief to the world whenever he thinks fit, especially if it serves to strengthen the party which is in the right? Would any indifferent foreigner, who should read the trumpery lately written by Asgil, Tindal, Toland, Coward, and forty more, imagine the Gospel to be our rule of faith, and to be confirmed by Parliaments? Does any man either believe, or say he believes, or desire to have it thought that he says he believes, one syllable of the matter? And is any man worse received upon that score, or does he find his want of nominal faith a disadvantage to him in the pursuit of any civil or military employment? What if there be an old dormant statute or two against him, are they not now obsolete, to a degree, that Empson and Dudley themselves, if they were now alive, would find it impossible to put them in execution?
+  "translation_ja": |-
+    さらに、福音の体系は、自由思想家や、狭い教育につきまとう偏見を振り払った人々には、難しすぎる事柄を信じるよう強いる、という異論もある。これには、国民の知恵を傷つけるような異論を持ち出すときは、用心すべきだと答えよう。誰もが、何でも好きなことを信じ、望みさえすれば、いつでも、その信念を世に公表するのを、自由に認められてはいないか。とりわけ、それが正しい側に立つ党派を強めるのに役立つなら、なおさらである。アスギル、ティンダル、トーランド、カワード、その他四十人もの者が、近ごろ書いた、あのくだらぬものを読んだ、公平な外国人なら、福音が我々の信仰の規範であり、議会によって確認されているなどと、想像するだろうか。その事柄を、一音節でも信じている者、信じていると言う者、信じていると言っているのだと、思われたい者がいるだろうか。そして、そのことで冷たく迎えられたり、名目上の信仰を持たないのが、文官や武官の職を求める際、不利になったりする者がいるだろうか。その者に不利な、古く眠った法律が、一つ二つあるからといって、何だというのだ。いまでは、それもあまりに廃れているので、エンプソンとダドリー自身が、今日生きていたとしても、執行は不可能だとわかるのではないか。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[257]"
+    "line_start": 3749
+    "source_sequence": 11
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-012"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    It is likewise urged, that there are, by computation, in this kingdom, above ten thousand parsons, whose revenues, added to those of my lords the bishops, would suffice to maintain at least two hundred young gentlemen of wit and pleasure, and free-thinking, enemies to priestcraft, narrow principles, pedantry, and prejudices, who might be an ornament to the court and town: and then again, so a great number of able [bodied] divines might be a recruit to our fleet and armies. This indeed appears to be a consideration of some weight; but then, on the other side, several things deserve to be considered likewise: as, first, whether it may not be thought necessary that in certain tracts of country, like what we call parishes, there should be one man at least of abilities to read and write. Then it seems a wrong computation that the revenues of the Church throughout this island would be large enough to maintain two hundred young gentlemen, or even half that number, after the present refined way of living, that is, to allow each of them such a rent as, in the modern form of speech, would make them easy. But still there is in this project a greater mischief behind; and we ought to beware of the woman’s folly, who killed the hen that every morning laid her a golden egg. For, pray what would become of the race of men in the next age, if we had nothing to trust to beside the scrofulous consumptive production furnished by our men of wit and pleasure, when, having squandered away their vigour, health, and estates, they are forced, by some disagreeable marriage, to piece up their broken fortunes, and entail rottenness and politeness on their posterity? Now, here are ten thousand persons reduced, by the wise regulations of Henry VIII., to the necessity of a low diet, and moderate exercise, who are the only great restorers of our breed, without which the nation would in an age or two become one great hospital.
+  "translation_ja": |-
+    また、王国には、計算によれば一万人を超える牧師がいて、その収入を司教閣下たちの収入へ加えれば、才気と快楽と自由思想に富み、聖職者の策謀、狭い原則、学者気取り、偏見の敵である、少なくとも二百人の若い紳士を養える、とも言われる。彼らは宮廷と都の飾りになれるだろうし、そうなれば、あれほど大勢の、［身体の］頑健な聖職者を、海軍と陸軍の補充に回せるというのだ。確かに、これは多少の重みのある考慮に見える。だが、もう一方では、同じように考慮すべきことが幾つかある。第一に、例えば、我々が教区と呼んでいるような、ある一定の土地には、少なくとも一人、読み書きのできる者が、必要だと思われはしないだろうか。また、この島全体の教会の収入が、二百人の若い紳士を、いや、その半数さえ、現在の洗練された暮らし方で養うに足りるというのは、計算違いらしい。つまり、いま風の言い方をすれば、一人一人が気楽に暮らせるほどの年収を、与えようというのである。だが、この計画には、もっと大きな害が、まだ控えている。毎朝、金の卵を産む牝鶏を殺した、あの女の愚かさを、我々は警戒しなければならない。いったい、次の世代の人類は、どうなるだろう。頼りになるのが、我が才人、快楽人たちの供給する、瘰癧や肺病にかかった子孫だけだとしたら。彼らは、精力と健康と財産を使い果たすと、気の進まぬ結婚によって、崩れた身代を継ぎ合わせ、腐敗と洗練を、子孫の代まで伝えるほかなくなるのである。ところが、ここには一万人の人々がいて、ヘンリー八世の賢明な規定によって、質素な食事と適度な運動を、余儀なくされている。この人々こそ、我々の血統を大いに立て直す、ただ一つの力なのだ。それがなければ、国は一世代か二世代のうちに、一つの巨大な病院となるだろう。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[258]"
+    "line_start": 3770
+    "source_sequence": 12
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-013"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    Another advantage proposed by the abolishing of Christianity is the clear gain of one day in seven, which is now entirely lost, and consequently the kingdom one seventh less considerable in trade, business, and pleasure; besides the loss to the public of so many stately structures now in the hands of the clergy, which might be converted into play-houses, exchanges, market-houses, common dormitories, and other public edifices.
+  "translation_ja": |-
+    キリスト教の廃止に期待される、もう一つの利益は、七日のうち一日が、そっくり手に入ることだ。いまはその日が、まったく無駄になっており、そのため、商業、仕事、快楽の点で、王国の力が七分の一小さくなっている。しかも、あれほど多くの堂々たる建物が、いま、聖職者の手にあるため、公共の損失にもなっているのだ。それらは、劇場、取引所、市場の建物、共同寝室、その他の公共の建物へ、転用できるだろう。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[259]"
+    "line_start": 3802
+    "source_sequence": 13
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-014"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    I hope I shall be forgiven a hard word if I call this a perfect cavil. I readily own there hath been an old custom, time out of mind, for people to assemble in the churches every Sunday, and that shops are still frequently shut, in order, as it is conceived, to preserve the memory of that ancient practice; but how this can prove a hindrance to business or pleasure is hard to imagine. What if the men of pleasure are forced, one day in the week, to game at home instead of the chocolate-house? Are not the taverns and coffee-houses open? Can there be a more convenient season for taking a dose of physic? Is not that the chief day for traders to sum up the accounts of the week, and for lawyers to prepare their briefs? But I would fain know how it can be pretended that the churches are misapplied? Where are more appointments and rendezvouses of gallantry? Where more care to appear in the foremost box, with greater advantage of dress? Where more meetings for business? Where more bargains driven of all sorts? And where so many conveniences or incitements to sleep?
+  "translation_ja": |-
+    これを、まったくの言いがかりと呼んでも、そのきつい言葉を、お許しいただきたい。毎日曜日、人々が教会に集まるという、いつ始まったとも知れぬ古い習慣があったことや、いまも、その古い慣行の記憶を保つためと考えられているのだが、店がよく閉まっていることは、進んで認める。だが、どうして、それが仕事や快楽の妨げになるのかは、想像しにくい。快楽を求める人々が、週に一日、チョコレート喫茶の代わりに、自宅で賭け事をせざるをえないからといって、何だというのだ。酒場や珈琲店は開いているではないか。薬を一服飲むのに、それ以上都合のよい時はあるだろうか。商人が一週間の勘定を締め、法律家が訴訟の準備書面を整えるのも、主にその日ではないか。だが、教会が不適切に使われているとは、どうして言えるのか、それこそ聞いてみたい。色恋の約束や逢い引きが、もっと多い所があるだろうか。最前列の桟敷に姿を見せ、衣装をより引き立てようと、もっと心を配る所があるだろうか。商談の集まりが、もっと多い所があるだろうか。あらゆる種類の取引が、もっと多く結ばれる所があるだろうか。そして、眠るのに、あれほど多くの便宜や誘いのある所が、あるだろうか。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[260]"
+    "line_start": 3809
+    "source_sequence": 14
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-015"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    There is one advantage greater than any of the foregoing, proposed by the abolishing of Christianity, that it will utterly extinguish parties among us, by removing those factious distinctions of high and low church, of Whig and Tory, Presbyterian and Church of England, which are now so many mutual clogs upon public proceedings, and are apt to prefer the gratifying themselves or depressing their adversaries before the most important interest of the State.
+  "translation_ja": |-
+    キリスト教を廃止すれば、これまでのどれよりも大きな利益が得られるという。それは、我々の間の党派を、完全になくせることだ。高教会派と低教会派、ホイッグとトーリー、長老派とイングランド国教会という、党派的な区別を取り除けるからである。いま、この区別は、それぞれ互いに、公の営みの足かせとなり、国家の最も重要な利益よりも、自分たちを満足させたり、敵対者を押さえつけたりすることを、優先しがちなのである。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[261]"
+    "line_start": 3828
+    "source_sequence": 15
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-016"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    I confess, if it were certain that so great an advantage would redound to the nation by this expedient, I would submit, and be silent; but will any man say, that if the words, whoring, drinking, cheating, lying, stealing, were, by Act of Parliament, ejected out of the English tongue and dictionaries, we should all awake next morning chaste and temperate, honest and just, and lovers of truth? Is this a fair consequence? Or if the physicians would forbid us to pronounce the words pox, gout, rheumatism, and stone, would that expedient serve like so many talismen to destroy the diseases themselves? Are party and faction rooted in men’s hearts no deeper than phrases borrowed from religion, or founded upon no firmer principles? And is our language so poor that we cannot find other terms to express them? Are envy, pride, avarice, and ambition such ill nomenclators, that they cannot furnish appellations for their owners? Will not heydukes and mamalukes, mandarins and patshaws, or any other words formed at pleasure, serve to distinguish those who are in the ministry from others who would be in it if they could? What, for instance, is easier than to vary the form of speech, and instead of the word church, make it a question in politics, whether the monument be in danger? Because religion was nearest at hand to furnish a few convenient phrases, is our invention so barren we can find no other? Suppose, for argument sake, that the Tories favoured Margarita, the Whigs, Mrs. Tofts, and the Trimmers, Valentini, would not Margaritians, Toftians, and Valentinians be very tolerable marks of distinction? The Prasini and Veniti, two most virulent factions in Italy, began, if I remember right, by a distinction of colours in ribbons, which we might do with as good a grace about the dignity of the blue and the green, and serve as properly to divide the Court, the Parliament, and the kingdom between them, as any terms of art whatsoever, borrowed from religion. And therefore I think there is little force in this objection against Christianity, or prospect of so great an advantage as is proposed in the abolishing of it.
+  "translation_ja": |-
+    この方法で、これほど大きな利益が国にもたらされると確かなら、私は従い、黙るだろうとは認める。だが、議会の法律によって、淫行、飲酒、詐欺、虚言、窃盗という語が、英語と辞書から追い出されたら、翌朝、我々はみな、貞潔で節制し、誠実で公正で、真実を愛する者として目覚めると、誰か言うだろうか。それは、もっともな結論なのか。あるいは、医師たちが、梅毒、痛風、リューマチ、結石という語を口にするのを禁じたら、その方便は、それぞれの護符のように、病そのものを滅ぼす役に立つだろうか。党派や派閥が人の心に根を張る深さは、宗教から借りた言い回しを超えず、根拠とする原理も、それ以上、確かなものではないのだろうか。我々の言語は、それを表す別の語も見つからぬほど、貧しいのだろうか。嫉妬、高慢、貪欲、野心は、名付け親として、それほど拙いので、それに取りつかれた者の呼び名も、用意できないのだろうか。ハイドゥクとマムルーク、マンダリンとパシャ、あるいは、好きに作った、ほかのどんな語でも、現に大臣の職にある者と、できるものなら、そこへ就きたいと思う者とを、区別する役には立つまいか。例えば、言い方を変え、「教会」という語の代わりに、「記念碑」が危険にさらされているかどうかを、政治の争点にするほど、たやすいことがあるだろうか。便利な言い回しを幾つか供給するのに、宗教がいちばん手近にあったからといって、ほかに何も見つけられぬほど、我々の発想は貧しいのか。仮に、議論のために、トーリーはマルガリータを、ホイッグはトフツ夫人を、日和見派はヴァレンティーニを、ひいきするとしよう。マルガリータ派、トフツ派、ヴァレンティーニ派は、なかなか使える、区別のしるしにならないだろうか。イタリアの、あのきわめて激しい二派、プラシニとヴェニティは、私の記憶が正しければ、リボンの色の違いから始まった。我々も、青と緑の尊厳をめぐって、同じほど立派に、そうすることができるだろう。そして、宗教から借りた、いかなる専門用語にも劣らず、宮廷、議会、王国を、二つに分ける役に立つはずである。だから、キリスト教に対する、この異論には、たいした力はなく、それを廃止すれば得られるとされる、あれほど大きな利益の見込みも、乏しいと思う。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[262]"
+    "line_start": 3836
+    "source_sequence": 16
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-017"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    It is again objected, as a very absurd, ridiculous custom, that a set of men should be suffered, much less employed and hired, to bawl one day in seven against the lawfulness of those methods most in use towards the pursuit of greatness, riches, and pleasure, which are the constant practice of all men alive on the other six. But this objection is, I think, a little unworthy so refined an age as ours. Let us argue this matter calmly. I appeal to the breast of any polite Free-thinker, whether, in the pursuit of gratifying a pre-dominant passion, he hath not always felt a wonderful incitement, by reflecting it was a thing forbidden; and therefore we see, in order to cultivate this test, the wisdom of the nation hath taken special care that the ladies should be furnished with prohibited silks, and the men with prohibited wine. And indeed it were to be wished that some other prohibitions were promoted, in order to improve the pleasures of the town, which, for want of such expedients, begin already, as I am told, to flag and grow languid, giving way daily to cruel inroads from the spleen.
+  "translation_ja": |-
+    また、大いに馬鹿げた、滑稽な習慣だという異論もある。ある一群の者が、七日のうち一日、偉さと富と快楽を求めるために、最もよく使われる方法の正当性を否定して、わめき立てるのを許すどころか、そのために雇い、金まで払うというのだ。それは、生きとし生ける人がみな、残りの六日に、絶えず実行している方法なのである。だが、この異論は、我々のように洗練された時代には、少々ふさわしくないと思う。落ち着いて、この問題を論じよう。洗練された自由思想家の、誰の胸にも問いかける。支配的な情念を満足させようとする際、それが禁じられたことだと思えば、いつも、すばらしい刺激を感じなかっただろうか。だからこそ、この好みを育てるため、国民の知恵は、婦人方に禁制の絹を、男たちには禁制の葡萄酒を供給するよう、特別の配慮をしているのである。実際、都の快楽を向上させるため、さらに幾つかの禁令を推進してほしいものだ。そのような方便がないため、都の快楽は、聞くところでは、もう、勢いを失い、だれ始め、憂鬱症の容赦ない侵入に、日ごとに場所を明け渡しているというからである。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[263]"
+    "line_start": 3872
+    "source_sequence": 17
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "in order to cultivate this taste"
+    "source_locations":
+    - "source_id": "wikisource-1801-v2"
+      "precision": "work"
+      "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_2/An_Argument_to_prove_that_the_Abolishing_of_Christianity_in_England_may_be_attended_with_some_Inconveniences"
+    "description_ja": "底本testに対してtaste。禁じられたものへの嗜好という文脈に沿い、この好みと訳した。 主底本のsource_textは変更しない。"
+- "id": "christianity-018"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    ’Tis likewise proposed, as a great advantage to the public, that if we once discard the system of the Gospel, all religion will of course be banished for ever, and consequently along with it those grievous prejudices of education which, under the names of conscience, honour, justice, and the like, are so apt to disturb the peace of human minds, and the notions whereof are so hard to be eradicated by right reason or free-thinking, sometimes during the whole course of our lives.
+  "translation_ja": |-
+    また、公衆にとっての大きな利益として、ひとたび福音の体系を捨てれば、あらゆる宗教は、当然、永久に追放される、とも言われる。したがって、それと一緒に、良心、名誉、正義などという名で、人の心の平穏を、ひどく乱しがちな、あの厄介な教育上の偏見も、追放されるというのである。それらの観念は、正しい理性や自由思想によって根絶するのが、時には一生を通じて、なかなか難しいものなのだ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[264]"
+    "line_start": 3891
+    "source_sequence": 18
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-019"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    Here first I observe how difficult it is to get rid of a phrase which the world has once grown fond of, though the occasion that first produced it be entirely taken away. For some years past, if a man had but an ill-favoured nose, the deep thinkers of the age would, some way or other contrive to impute the cause to the prejudice of his education. From this fountain were said to be derived all our foolish notions of justice, piety, love of our country; all our opinions of God or a future state, heaven, hell, and the like; and there might formerly perhaps have been some pretence for this charge. But so effectual care hath been since taken to remove those prejudices, by an entire change in the methods of education, that (with honour I mention it to our polite innovators) the young gentlemen, who are now on the scene, seem to have not the least tincture left of those infusions, or string of those weeds, and by consequence the reason for abolishing nominal Christianity upon that pretext is wholly ceased.
+  "translation_ja": |-
+    ここで、まず指摘しておきたいのは、世間が、ひとたび気に入った言い回しを捨てるのが、いかに難しいかということである。初めにそれを生んだ事情が、すっかり取り除かれていても、そうなのだ。この数年来、たとえ鼻の形が悪いだけでも、その時代の深遠な思想家たちは、何とか工夫して、原因を、その人が受けた教育の偏見へ帰してしまった。正義、敬虔、愛国心についての、我々の愚かな考えはすべて、神や来世、天国や地獄などについての、意見もすべて、この源から来ると言われた。昔なら、この非難にも、多少の口実があったかもしれない。しかし、その後、教育法をすっかり変え、この偏見を取り除くため、あれほど有効な注意が払われたので、いま世に出ている若い紳士たちには、ああした注入物の色も、ああした雑草の根筋も、少しも残っていないように見える。我が洗練された改革者たちの名誉として、これを申し上げる。したがって、その口実で、名目だけのキリスト教を廃止する理由は、すっかりなくなったのである。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[265]"
+    "line_start": 3899
+    "source_sequence": 19
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-020"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    For the rest, it may perhaps admit a controversy, whether the banishing all notions of religion whatsoever would be inconvenient for the vulgar. Not that I am in the least of opinion with those who hold religion to have been the invention of politicians, to keep the lower part of the world in awe by the fear of invisible powers; unless mankind were then very different from what it is now; for I look upon the mass or body of our people here in England to be as Freethinkers, that is to say, as staunch unbelievers, as any of the highest rank. But I conceive some scattered notions about a superior power to be of singular use for the common people, as furnishing excellent materials to keep children quiet when they grow peevish, and providing topics of amusement in a tedious winter night.
+  "translation_ja": |-
+    それ以外の点では、宗教の観念を、何もかも追放してしまうのは、下々の者に不都合だろうかという議論には、余地があるかもしれない。もちろん私は、宗教は政治家の発明であって、見えない力への恐怖によって、世の下層を畏服させておくためのものだったという人々に、少しも賛成してはいない。当時の人類が、いまとは、よほど違っていたのでない限り、そうだ。ここ、イングランドの庶民の大多数は、どの最上層の者と比べても、同じように自由思想家、つまり、筋金入りの不信者だと、私は考えているからである。しかし、上位の力についての、ばらばらな幾つかの観念は、庶民にとって、とりわけ役立つと思う。子供がぐずるとき、静かにさせる、すばらしい材料になり、長く退屈な冬の夜を楽しむ、話題にもなるからである。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[266]"
+    "line_start": 3916
+    "source_sequence": 20
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-021"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    Lastly, it is proposed, as a singular advantage, that the abolishing of Christianity will very much contribute to the uniting of Protestants, by enlarging the terms of communion, so as to take in all sorts of Dissenters, who are now shut out of the pale upon account of a few ceremonies, which all sides confess to be things indifferent. That this alone will effectually answer the great ends of a scheme for comprehension, by opening a large noble gate, at which all bodies may enter; whereas the chaffering with Dissenters, and dodging about this or t’other ceremony, is but like opening a few wickets, and leaving them at jar, by which no more than one can get in at a time, and that not without stooping, and sideling, and squeezing his body.
+  "translation_ja": |-
+    最後に、特別の利益として、キリスト教の廃止は、プロテスタントの統合に大いに貢献する、と言われる。教会で交わるための条件を広げ、いまは、どの側も本質的でない事柄だと認める、わずかな儀式のために、囲いの外へ締め出されている、あらゆる種類の非国教徒を、受け入れられるようにするからだ。これだけで、どの団体も入れる、大きく立派な門を開き、包括の計画の、大いなる目的を、十分達せられるというのである。それに引き換え、非国教徒と駆け引きし、あれやこれやの儀式をめぐって、身をかわし合うのは、小さな潜り戸を幾つか開け、少しだけ開いたままにしておくようなものだ。それでは、一度に一人しか入れず、それも、かがみ、横向きになり、体を押し縮めなければ、入れないというのである。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[267]"
+    "line_start": 3929
+    "source_sequence": 21
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-022"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    To all this I answer, that there is one darling inclination of mankind which usually affects to be a retainer to religion, though she be neither its parent, its godmother, nor its friend. I mean the spirit of opposition, that lived long before Christianity, and can easily subsist without it. Let us, for instance, examine wherein the opposition of sectaries among us consists. We shall find Christianity to have no share in it at all. Does the Gospel anywhere prescribe a starched, squeezed countenance, a stiff formal gait, a singularity of manners and habit, or any affected forms and modes of speech different from the reasonable part of mankind? Yet, if Christianity did not lend its name to stand in the gap, and to employ or divert these humours, they must of necessity be spent in contraventions to the laws of the land, and disturbance of the public peace. There is a portion of enthusiasm assigned to every nation, which, if it hath not proper objects to work on, will burst out, and set all into a flame. If the quiet of a State can be bought by only flinging men a few ceremonies to devour, it is a purchase no wise man would refuse. Let the mastiffs amuse themselves about a sheep’s skin stuffed with hay, provided it will keep them from worrying the flock. The institution of convents abroad seems in one point a strain of great wisdom, there being few irregularities in human passions which may not have recourse to vent themselves in some of those orders, which are so many retreats for the speculative, the melancholy, the proud, the silent, the politic, and the morose, to spend themselves, and evaporate the noxious particles; for each of whom we in this island are forced to provide a several sect of religion to keep them quiet; and whenever Christianity shall be abolished, the Legislature must find some other expedient to employ and entertain them. For what imports it how large a gate you open, if there will be always left a number who place a pride and a merit in not coming in?
+  "translation_ja": |-
+    これらのすべてに、私は、こう答える。人類には、ひどく好まれる性向が一つあって、宗教が、その生みの親でも、洗礼の名付け親でも、友でもないのに、いつも宗教の従者を気取りたがる。反対する精神のことである。それは、キリスト教のはるか以前から生きており、キリスト教がなくても、たやすく存続できる。例えば、我々の間の分派の人々の、反対が何から成るかを調べてみよう。そこには、キリスト教が、まったく関わっていないと、わかるはずだ。福音のどこかに、糊の利いたような、しかめた顔つき、堅苦しく形式ばった歩き方、風俗や衣装の奇異さ、あるいは、人類の分別ある人々と異なる、何か気取った話し方や言い回しが、定められているだろうか。それでも、キリスト教がその名を貸して、破れ口をふさぎ、この気性のはけ口になり、あるいは、気をそらしていなければ、その気性は、必ず国法への違反や、公の平穏を乱すことへ費やされるだろう。どの国民にも、一定量の熱狂が割り当てられている。それが働きかける、しかるべき対象を持たなければ、爆発して、すべてを炎に包む。人々に、食らいつくための儀式を幾つか投げ与えるだけで、国家の平穏が買えるなら、賢者なら誰も、その買い物を拒まないだろう。群れを噛み殺すのを防げるなら、番犬どもは、干し草を詰めた羊の皮を相手に、遊ばせておけばよい。外国の修道院制度は、ある点では、大いなる知恵の発揮に見える。人間の情念の乱れで、ああした修道会のどれかに頼り、はけ口を求められないものは、ほとんどないからだ。思索好きの者、憂鬱な者、高慢な者、無口な者、策を弄する者、気難しい者には、それぞれ、それらの隠れ場所があり、自分を使い尽くし、有害な粒子を蒸発させられる。この島では、そうした者を、それぞれ静かにさせるため、別々の宗派を用意せねばならない。キリスト教が廃止されれば、立法府は、その者たちを働かせ、楽しませる、別の方便を探さねばならない。そもそも、入らないことを誇りとし、手柄とする者が、いつも幾人か残るのなら、どれほど大きな門を開こうと、何の意味があるだろうか。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[268]"
+    "line_start": 3942
+    "source_sequence": 22
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-023"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    Having thus considered the most important objections against Christianity, and the chief advantages proposed by the abolishing thereof, I shall now, with equal deference and submission to wiser judgments, as before, proceed to mention a few inconveniences that may happen if the Gospel should be repealed, which, perhaps, the projectors may not have sufficiently considered.
+  "translation_ja": |-
+    このように、キリスト教に対する、最も重要な異論と、その廃止によって見込まれる主な利益を検討したので、ここからは、前と同じく、より賢明な判断へ敬意を払い、へりくだりながら、福音を廃止した場合に生じうる、不都合を幾つか挙げることにしよう。おそらく、計画を立てた人々も、それを十分には考えなかったのだろう。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[269]"
+    "line_start": 3976
+    "source_sequence": 23
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-024"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    And first, I am very sensible how much the gentlemen of wit and pleasure are apt to murmur, and be choked at the sight of so many daggle-tailed parsons that happen to fall in their way, and offend their eyes; but at the same time, these wise reformers do not consider what an advantage and felicity it is for great wits to be always provided with objects of scorn and contempt, in order to exercise and improve their talents, and divert their spleen from falling on each other, or on themselves, especially when all this may be done without the least imaginable danger to their persons.
+  "translation_ja": |-
+    第一に、才気と快楽を好む紳士たちが、たまたま行く手へ現れ、目障りになる、あれほど大勢の、裾を泥で汚した牧師たちを見て、どれほど不平を言い、胸を詰まらせがちかは、よく承知している。だが同時に、この賢い改革者たちは、偉大な才人にとって、嘲り、軽蔑する相手が、いつも用意されているのが、どれほどの利益と幸福かを考えていない。それによって、才能を働かせ、磨くことができ、癇癪が、互いへ、あるいは自分自身へ、向かわぬよう、そらすこともできるのだ。とりわけ、こうしたことがすべて、自分の身には、想像しうる、いささかの危険もなく、できるのだから。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[270]"
+    "line_start": 3983
+    "source_sequence": 24
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-025"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    And to urge another argument of a parallel nature: if Christianity were once abolished, how could the Freethinkers, the strong reasoners, and the men of profound learning be able to find another subject so calculated in all points whereon to display their abilities? What wonderful productions of wit should we be deprived of from those whose genius, by continual practice, hath been wholly turned upon raillery and invectives against religion, and would therefore never be able to shine or distinguish themselves upon any other subject? We are daily complaining of the great decline of wit among as, and would we take away the greatest, perhaps the only topic we have left? Who would ever have suspected Asgil for a wit, or Toland for a philosopher, if the inexhaustible stock of Christianity had not been at hand to provide them with materials? What other subject through all art or nature could have produced Tindal for a profound author, or furnished him with readers? It is the wise choice of the subject that alone adorns and distinguishes the writer. For had a hundred such pens as these been employed on the side of religion, they would have immediately sunk into silence and oblivion.
+  "translation_ja": |-
+    同じ性質の議論を、もう一つ出そう。ひとたびキリスト教が廃止されたら、自由思想家、強力な論客、深い学識のある人々は、自分たちの能力を示すのに、どの点でも、これほどぴったりした、別の題材を、どうして見つけられるだろうか。絶えず繰り返すうちに、才能が、すっかり宗教への嘲弄と悪罵へ向けられ、そのため、ほかの題材では、決して輝けず、目立つこともできなくなった人々の、どれほどすばらしい才知の作品が、我々から奪われるだろう。我々の間の才知が、大いに衰えたと、毎日嘆いているのに、残された最大の、おそらく唯一の題材を、取り上げようというのか。尽きることのないキリスト教の蓄えが、材料を供給するため、手近になかったなら、アスギルを才人、トーランドを哲学者と思う者など、誰がいただろうか。技芸と自然のすべてを通じて、ほかのどの題材が、ティンダルを深遠な著述家に仕立てたり、彼に読者を用意したり、できただろうか。題材の賢い選び方、それだけが、著述家を飾り、際立たせるのだ。このような筆が百本、宗教の側で使われていたなら、たちまち、沈黙と忘却の中へ沈んでいたはずだからである。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[271]"
+    "line_start": 3993
+    "source_sequence": 25
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-026"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    Nor do I think it wholly groundless, or my fears altogether imaginary, that the abolishing of Christianity may perhaps bring the Church in danger, or at least put the Senate to the trouble of another securing vote. I desire I may not be mistaken; I am far from presuming to affirm or think that the Church is in danger at present, or as things now stand; but we know not how soon it may be so when the Christian religion is repealed. As plausible as this project seems, there may be a dangerous design lurk under it. Nothing can be more notorious than that the Atheists, Deists, Socinians, Anti-Trinitarians, and other subdivisions of Freethinkers, are persons of little zeal for the present ecclesiastical establishment: their declared opinion is for repealing the sacramental test; they are very indifferent with regard to ceremonies; nor do they hold the Jus Divinum of episcopacy: therefore they may be intended as one politic step towards altering the constitution of the Church established, and setting up Presbytery in the stead, which I leave to be further considered by those at the helm.
+  "translation_ja": |-
+    また、キリスト教の廃止が、教会を危険にさらすかもしれず、少なくとも、議会へ、もう一度、安全を確かめる決議をする手間をかけるかもしれないという懸念にも、まったく根拠がないとは思わず、私の恐れが、すっかり空想だとも思わない。どうか、誤解しないでいただきたい。教会が、いま、現在の情勢のもとで、危険にさらされているなどと、大胆にも断言したり、考えたりするつもりは、毛頭ない。だが、キリスト教が廃止されれば、どれほど早く、そうなるかは、わからない。この計画は、いかにもっともらしく見えても、その下に、危険な企てを隠しているかもしれない。無神論者、理神論者、ソッツィーニ派、反三位一体論者、そのほか自由思想家の細かな諸派が、現在の教会体制に、ほとんど熱意のない人々なのは、この上なく知れ渡っている。公言する意見は、聖餐による資格審査の撤廃であり、儀式には、きわめて無頓着で、監督制の神授権、Jus Divinumも、認めていない。したがって、この計画は、国教会の構成を変え、その代わりに長老制を据えるための、政治上の一段階として、目論まれているのかもしれない。この点は、舵を取る人々に、さらに考えていただくことにしよう。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[272]"
+    "line_start": 4013
+    "source_sequence": 26
+  "origin": "source"
+  "source_languages":
+  - "en"
+  - "la"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "therefore this may be intended as one politick step"
+    "source_locations":
+    - "source_id": "wikisource-1801-v2"
+      "precision": "work"
+      "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_2/An_Argument_to_prove_that_the_Abolishing_of_Christianity_in_England_may_be_attended_with_some_Inconveniences"
+    "description_ja": "底本theyに対してthis。政治上の一段階として目論まれるのは冒頭からの廃止計画と解釈し、この計画と訳した。 主底本のsource_textは変更しない。"
+- "id": "christianity-027"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    In the last place, I think nothing can be more plain, than that by this expedient we shall run into the evil we chiefly pretend to avoid; and that the abolishment of the Christian religion will be the readiest course we can take to introduce Popery. And I am the more inclined to this opinion because we know it has been the constant practice of the Jesuits to send over emissaries, with instructions to personate themselves members of the several prevailing sects amongst us. So it is recorded that they have at sundry times appeared in the guise of Presbyterians, Anabaptists, Independents, and Quakers, according as any of these were most in credit; so, since the fashion hath been taken up of exploding religion, the Popish missionaries have not been wanting to mix with the Freethinkers; among whom Toland, the great oracle of the Anti-Christians, is an Irish priest, the son of an Irish priest; and the most learned and ingenious author of a book called the “Rights of the Christian Church,” was in a proper juncture reconciled to the Romish faith, whose true son, as appears by a hundred passages in his treatise, he still continues. Perhaps I could add some others to the number; but the fact is beyond dispute, and the reasoning they proceed by is right: for supposing Christianity to be extinguished the people will never he at ease till they find out some other method of worship, which will as infallibly produce superstition as this will end in Popery.
+  "translation_ja": |-
+    最後に、これほど明らかなことはないと思う。この方法では、我々は、避けると称している、まさにその害悪に陥る。キリスト教の廃止こそ、教皇教を持ち込むために、我々が取れる、いちばんの近道になるのだ。私が、いっそうこの意見へ傾くのは、イエズス会士が、我々の間で優勢な各宗派の信徒に、なりすますよう命じた密使を送り込むのが、昔からの慣行だと知っているからである。記録によれば、その時々に、どれが最も信用されていたかに応じ、長老派、再洗礼派、独立派、クエーカーの姿で現れてきた。それと同じく、宗教を退けるのが流行するようになると、教皇派の宣教師たちは、自由思想家へ交じるのを怠らなかった。そのうち、反キリスト教徒の偉大な託宣者、トーランドは、アイルランドの司祭の子である、アイルランドの司祭である。また、『キリスト教会の権利』という本の、あの、きわめて学識と才気のある著者も、しかるべき時機に、ローマの信仰と和解した。その論文の百もの箇所から明らかなように、いまなお、ローマの真の息子であり続けている。もしかすると、この数に、ほかにも幾人かを加えられるかもしれない。だが、事実は、争う余地がなく、彼らの進める推論も正しい。キリスト教が絶えたとすれば、人民は、何か別の礼拝の仕方を見つけるまで、決して落ち着かないだろう。それが迷信を生むのは、その迷信が教皇教に行き着くのと、同じほど確実なのだから。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[273]"
+    "line_start": 4031
+    "source_sequence": 27
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-028"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    And therefore, if, notwithstanding all I have said, it still be thought necessary to have a Bill brought in for repealing Christianity, I would humbly offer an amendment, that instead of the word Christianity may be put religion in general, which I conceive will much better answer all the good ends proposed by the projectors of it. For as long as we leave in being a God and His Providence, with all the necessary consequences which curious and inquisitive men will be apt to draw from such promises, we do not strike at the root of the evil, though we should ever so effectually annihilate the present scheme of the Gospel; for of what use is freedom of thought if it will not produce freedom of action, which is the sole end, how remote soever in appearance, of all objections against Christianity? and therefore, the Freethinkers consider it as a sort of edifice, wherein all the parts have such a mutual dependence on each other, that if you happen to pull out one single nail, the whole fabric must fall to the ground. This was happily expressed by him who had heard of a text brought for proof of the Trinity, which in an ancient manuscript was differently read; he thereupon immediately took the hint, and by a sudden deduction of a long Sorites, most logically concluded: why, if it be as you say, I may safely drink on, and defy the parson. From which, and many the like instances easy to be produced, I think nothing can be more manifest than that the quarrel is not against any particular points of hard digestion in the Christian system, but against religion in general, which, by laying restraints on human nature, is supposed the great enemy to the freedom of thought and action.
+  "translation_ja": |-
+    それゆえ、私の言ったすべてにもかかわらず、なお、キリスト教を廃止する法案の提出が必要だと思われるなら、恐れながら、修正を一つ提案したい。「キリスト教」という語の代わりに、「宗教一般」を入れてはどうだろうか。そのほうが、計画者たちの見込む、あらゆるよい目的に、ずっとよくかなうと考えるからだ。神と、その摂理を、探究好きで詮索好きな人々が、そのような前提から引き出しがちな、あらゆる必然の帰結とともに、存続させておく限り、現在の福音の体系を、いかに有効に消し去っても、害悪を根から断ったことにはならない。行動の自由を生まないなら、思想の自由に、何の役があるのか。キリスト教への、あらゆる異論の、唯一の目的は、見かけはいかに遠くとも、その行動の自由なのだ。したがって、自由思想家は、キリスト教を、一種の建物と見なす。そのすべての部分が、互いに、これほど依存し合っているので、うっかり一本の釘を抜けば、構造全体が地面へ崩れ落ちるという建物である。このことを、うまく言い表した人がいた。三位一体の証明として挙げられた聖句が、ある古い写本では、違う読みになっていたと聞いた人である。たちまち、そこから暗示をつかみ、長い連鎖論法を、一気に推し進め、これ以上ないほど論理的に、こう結論した。「何だ、君の言うとおりなら、安心して飲み続け、牧師なんか、はねつけてやれるじゃないか」。この例や、たやすく挙げられる、数多くの似た例からすると、争いの相手は、キリスト教の体系の中の、何か特定の、のみ込みにくい論点ではなく、宗教一般なのだということは、この上なく明白だと思う。人間の本性を制限するために、宗教は、思想と行動の自由の、大敵とされているのである。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[274]"
+    "line_start": 4056
+    "source_sequence": 28
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "from such premises"
+    "source_locations":
+    - "source_id": "wikisource-1801-v2"
+      "precision": "work"
+      "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_2/An_Argument_to_prove_that_the_Abolishing_of_Christianity_in_England_may_be_attended_with_some_Inconveniences"
+    "description_ja": "底本promisesに対してpremises。神と摂理の存在からの推論を論じる文脈に沿い、前提と訳した。 主底本のsource_textは変更しない。"
+- "id": "christianity-029"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    Upon the whole, if it shall still be thought for the benefit of Church and State that Christianity be abolished, I conceive, however, it may be more convenient to defer the execution to a time of peace, and not venture in this conjuncture to disoblige our allies, who, as it falls out, are all Christians, and many of them, by the prejudices of their education, so bigoted as to place a sort of pride in the appellation. If, upon being rejected by them, we are to trust to an alliance with the Turk, we shall find ourselves much deceived; for, as he is too remote, and generally engaged in war with the Persian emperor, so his people would be more scandalised at our infidelity than our Christian neighbours. For they are not only strict observers of religions worship, but what is worse, believe a God; which is more than is required of us, even while we preserve the name of Christians.
+  "translation_ja": |-
+    全体として、なお、教会と国家のため、キリスト教を廃止すべきだと考えられるとしても、実行は平和な時まで延ばし、この時局に、同盟国の機嫌を、あえて損ねないほうが、都合がよいのではないかと思う。たまたま、その国々は、みなキリスト教徒であり、その多くは、教育の偏見のために、あまりに凝り固まっていて、その呼び名を、いくらか誇りにさえしているからだ。彼らに拒まれたとき、トルコの君主との同盟を頼みにしようというなら、大いに当てが外れると、わかるだろう。遠すぎるうえに、大抵、ペルシア皇帝との戦争にかかりきりであり、その人民も、我々の不信仰に、キリスト教徒の隣人より、いっそう衝撃を受けるだろうからだ。彼らは、宗教上の礼拝を厳格に守るばかりか、もっと悪いことに、神を信じている。それは、キリスト教徒の名を保っている間でさえ、我々には要求されていないことなのだ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[275]"
+    "line_start": 4084
+    "source_sequence": 29
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "christianity-030"
+  "section_id": "body"
+  "kind": "paragraph"
+  "source_text": |-
+    To conclude, whatever some may think of the great advantages to trade by this favourite scheme, I do very much apprehend that in six months’ time after the Act is passed for the extirpation of the Gospel, the Bank and East India stock may fall at least one per cent. And since that is fifty times more than ever the wisdom of our age thought fit to venture for the preservation of Christianity, there is no reason we should be at so great a loss merely for the sake of destroying it.
+  "translation_ja": |-
+    結びに、この人気の計画で、商業に大きな利益があると考える人もいるだろうが、福音の根絶法が通ってから、六か月のうちに、銀行株と東インド会社株が、少なくとも一パーセント下がるのではないかと、私は、大いに懸念している。それは、我が時代の知恵が、キリスト教の存続のために、危険を冒してもよいと考えてきた額の、五十倍なのだ。ただ、それを滅ぼすためだけに、これほど大きな損をする理由はないのである。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[276]"
+    "line_start": 4099
+    "source_sequence": 30
+  "origin": "source"
+  "source_languages":
+  - "en"
+"notes": []
+"references": []
+"groups": []
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "nominal-christianity"
+  "kind": "term"
+  "source_language": "en"
+  "source": "nominal Christianity"
+  "translation_ja": "名目だけのキリスト教"
+  "note_ja": "実践を伴うreal Christianityと区別し、著者の反語を保持。"
+- "id": "real-christianity"
+  "kind": "term"
+  "source_language": "en"
+  "source": "real Christianity"
+  "translation_ja": "真のキリスト教"
+- "id": "freethinker"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Freethinker"
+  "translation_ja": "自由思想家"
+- "id": "priestcraft"
+  "kind": "term"
+  "source_language": "en"
+  "source": "priestcraft"
+  "translation_ja": "聖職者の策謀"
+- "id": "dissenters"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Dissenters"
+  "translation_ja": "非国教徒"
+- "id": "popery"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Popery"
+  "translation_ja": "教皇教"
+  "note_ja": "原文の反カトリック的な呼称を保持。"
+- "id": "sorites"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Sorites"
+  "translation_ja": "連鎖論法"
+- "id": "jus-divinum"
+  "kind": "term"
+  "source_language": "la"
+  "source": "Jus Divinum"
+  "translation_ja": "神授権"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-21T00:50:39Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "da9c017c3e20130bc8fc3ddc1a86d485d46a47b3d5c50256f01fb6a0a5644ed0"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "8353c0a876b11cfc615c2b0e7b6c393ef0ce5109"
+  "translation_method": "Codexによる原文からの新訳。既存日本語訳の転用なし。原著順の連続範囲を逐次保存し、全31単位の初稿完成後に、原文と日本語を一回全文対照した。日本語だけの追加全文通読・文体磨きは行っていない。"
+  "drafted_segment_count": 31
+  "next_segment_id": null
+  "full_review_segment_ids":
+  - "christianity-000"
+  - "christianity-001"
+  - "christianity-002"
+  - "christianity-003"
+  - "christianity-004"
+  - "christianity-005"
+  - "christianity-006"
+  - "christianity-007"
+  - "christianity-008"
+  - "christianity-009"
+  - "christianity-010"
+  - "christianity-011"
+  - "christianity-012"
+  - "christianity-013"
+  - "christianity-014"
+  - "christianity-015"
+  - "christianity-016"
+  - "christianity-017"
+  - "christianity-018"
+  - "christianity-019"
+  - "christianity-020"
+  - "christianity-021"
+  - "christianity-022"
+  - "christianity-023"
+  - "christianity-024"
+  - "christianity-025"
+  - "christianity-026"
+  - "christianity-027"
+  - "christianity-028"
+  - "christianity-029"
+  - "christianity-030"
+  "full_review_snapshot_sha256": "264926428dd2502300fcd040ff798439192f26f9fc1707a94a531cb956d5a272"
+  "full_review_result_sha256": "575df079c9b0af4e7f6604549e2acc77ead233a537191d3378e2f62b1cd0867e"
+  "full_review_corrections_ja":
+  - "segment_id": "christianity-002"
+    "reason_ja": "pressはここでは出版の自由。一般的な言論へ広げず、原文の媒体を明示する。"
+  - "segment_id": "christianity-014"
+    "reason_ja": "chocolate-houseはチョコレート飲料を出して人々が集まり賭け事もする店。菓子の小売店と読まれないよう喫茶の場と明示。"
+  - "segment_id": "christianity-017"
+    "reason_ja": "against the lawfulnessは方法の正当性に反対すること。反対方向を曖昧にせず否定と明示。"
+  - "segment_id": "christianity-021"
+    "reason_ja": "all sidesは二者だけでなく議論に参加するどの側も、という範囲。双方への限定を除く。"
+  - "segment_id": "christianity-022"
+    "reason_ja": "sheは宗教を擬人化する主語。宗教が性向の親などではないという関係に戻し、godmotherの洗礼の役割も訳へ明示。"
+  - "segment_id": "christianity-026"
+    "reason_ja": "政治上の一段階として目論まれる対象は、人々そのものではなく、冒頭からのキリスト教廃止計画。PGのtheyはWikisource掲載の別版ではthisであり、文脈に沿いこの計画と明示した。source_textは改変しない。"
+  "source_extraction_check_ja": "元HTMLのSHA256を確認し、全31単位のXPath・開始行・正規化原文全文を元HTMLと照合。一致。原文4982語。"
+  "comparison_scope_ja": "1801年版の4件の語句のみ参照。全版校合や他版の追加段落の収録ではない。"
+  "remaining_source_uncertainties_ja": "主底本の明らかに不自然な4語形を保持し、比較読みと解釈を各単位へ記録。未訳・欠落はない。"

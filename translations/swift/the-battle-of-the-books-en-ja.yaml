@@ -1,0 +1,1072 @@
+"schema_version": "2.0"
+"work_id": "swift-the-battle-of-the-books"
+"metadata":
+  "title_ja": "書物合戦"
+  "title_original": "The Battle of the Books"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。原著と電子翻刻の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "風刺"
+  "reader_notes_ja":
+  - "書店主から読者への言葉、著者の序、書物の合戦本文、ベントリーとウォットンの挿話を訳す。"
+  - "本文中のラテン語による欠落表示も訳した。底本は「さて、いまや……」「以下欠落」で終わる。翻訳による省略ではない。"
+"sources":
+- "id": "gutenberg-623"
+  "role": "primary"
+  "title": "The Battle of the Books, and Other Short Pieces"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+  "edition": "1886年、Cassell & Company刊、Henry Morley編。David Priceによる電子翻刻、Project Gutenberg eBook 623。"
+  "contributor_ids":
+  - "swift"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/623"
+    "note_ja": "原著者ジョナサン・スウィフトは1745年没。Project Gutenbergの書誌は米国でパブリックドメインと表示。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "David Price"
+    "note_ja": "原著の著作権状態と、Project Gutenbergの商標・電子版配布条件を区別する。"
+  "sha256": "6362b44a9f5703d1c2a3d10313ead9c9e124f845d138d725e602b6f1bf630517"
+  "description_ja": "英語HTMLから『書物合戦』の書店主の言葉・著者序・本文・挿話を収録。英語原文からの新訳であり、既存日本語訳は用いない。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-623"
+    "description_ja": "書店主の言葉と著者序、合戦本文、ベントリーとウォットンの挿話から末尾のAnd now...とDesunt cœteraまで。見出しを含む全40単位。"
+    "section_ids":
+    - "bookseller"
+    - "preface"
+    - "battle"
+    - "episode"
+  "excluded":
+  - "source_id": "gutenberg-623"
+    "description_ja": "Henry Morleyの紹介、電子版の目次・書誌・利用案内、後続の別作品、末尾のProject Gutenberg利用条件全文。『書物合戦』本文の省略ではない。"
+  "known_gaps":
+  - "source_id": "gutenberg-623"
+    "segment_ids":
+    - "btb-029"
+    - "btb-030"
+    - "btb-031"
+    - "btb-032"
+    - "btb-038"
+    - "btb-039"
+    "description_ja": "底本本文にラテン語の欠落表示と省略点があり、末尾もAnd now... / Desunt cœtera.となっている。表示自体をすべて訳出しており、翻訳の未訳や省略を示すものではない。"
+"sections":
+- "id": "bookseller"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "btb-000"
+  "origin": "source"
+- "id": "preface"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "btb-003"
+  "origin": "source"
+- "id": "battle"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "btb-006"
+  "origin": "source"
+- "id": "episode"
+  "parent_id": "battle"
+  "kind": "section"
+  "heading_segment_ids":
+  - "btb-033"
+  "origin": "source"
+"segments":
+- "id": "btb-000"
+  "section_id": "bookseller"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "THE BOOKSELLER TO THE READER."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[3]"
+    "line_start": 223
+    "source_sequence": 0
+  "translation_ja": "書店主から読者へ"
+  "translation_status": "reviewed"
+- "id": "btb-001"
+  "section_id": "bookseller"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "This discourse, as it is unquestionably of the same author, so it seems to have been written about the same time, with “The Tale of a Tub;” I mean the year 1697, when the famous dispute was on foot about ancient and modern learning. The controversy took its rise from an essay of Sir William Temple’s upon that subject; which was answered by W. Wotton, B.D., with an appendix by Dr. Bentley, endeavouring to destroy the credit of Æsop and Phalaris for authors, whom Sir William Temple had, in the essay before mentioned, highly commended. In that appendix the doctor falls hard upon a new edition of Phalaris, put out by the Honourable Charles Boyle, now Earl of Orrery, to which Mr. Boyle replied at large with great learning and wit; and the Doctor voluminously rejoined. In this dispute the town highly resented to see a person of Sir William Temple’s character and merits roughly used by the two reverend gentlemen aforesaid, and without any manner of provocation. At length, there appearing no end of the quarrel, our author tells us that the BOOKS in St. James’s Library, looking\
+    \ upon themselves as parties principally concerned, took up the controversy, and came to a decisive battle; but the manuscript, by the injury of fortune or weather, being in several places imperfect, we cannot learn to which side the victory fell."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[13]"
+    "line_start": 224
+    "source_sequence": 1
+  "translation_ja": "この論考が『樽物語』と同じ著者の作であることに疑いはないが、書かれた時期もほぼ同じと思われる。つまり、古代と近代の学問をめぐる、あの有名な論争が行われていた一六九七年である。論争の発端は、この主題についてウィリアム・テンプル卿が書いた一篇の論考だった。それに神学士W・ウォットンが反論し、ベントリー博士の付論を添えた。付論は、テンプル卿が先の論考で高く称えたイソップとファラリスについて、著者としての信用を覆そうとしたものである。その中で博士は、今はオラリー伯となっているチャールズ・ボイル閣下が刊行したファラリスの新版を、激しく攻撃した。ボイル氏が豊かな学識と才知をもって詳しく反論すると、博士も大部の再反論を出した。この争いでは、テンプル卿ほどの人格と功績を持つ人が、何の挑発もしていないのに、先の二人の聖職者から手荒く扱われるのを見て、世間は大いに憤った。ついに争いの終わりが見えなくなると、わが著者の言うところでは、セント・ジェームズ図書館の本どもが、自分たちこそ主たる当事者であると考え、この論争を引き受けて、雌雄を決する戦いに及んだ。だが原稿は、不運か風雨のためか、ところどころ欠けており、どちらが勝ったかはわからない。"
+  "translation_status": "reviewed"
+- "id": "btb-002"
+  "section_id": "bookseller"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "I must warn the reader to beware of applying to persons what is here meant only of books, in the most literal sense. So, when Virgil is mentioned, we are not to understand the person of a famous poet called by that name; but only certain sheets of paper bound up in leather, containing in print the works of the said poet: and so of the rest."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[14]"
+    "line_start": 247
+    "source_sequence": 2
+  "translation_ja": "読者には、ここで文字どおり本だけを指していることを、人物に当てはめぬよう、ご注意いただかねばならない。たとえばウェルギリウスとあっても、その名の有名な詩人本人を意味するのではなく、ただ、その詩人の著作を印刷した何枚かの紙を、革で綴じたものだけを意味する。ほかも同様である。"
+  "translation_status": "reviewed"
+- "id": "btb-003"
+  "section_id": "preface"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "THE PREFACE OF THE AUTHOR."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[4]"
+    "line_start": 253
+    "source_sequence": 3
+  "translation_ja": "著者の序"
+  "translation_status": "reviewed"
+- "id": "btb-004"
+  "section_id": "preface"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Satire is a sort of glass wherein beholders do generally discover everybody’s face but their own; which is the chief reason for that kind reception it meets with in the world, and that so very few are offended with it. But, if it should happen otherwise, the danger is not great; and I have learned from long experience never to apprehend mischief from those understandings I have been able to provoke: for anger and fury, though they add strength to the sinews of the body, yet are found to relax those of the mind, and to render all its efforts feeble and impotent."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[15]"
+    "line_start": 254
+    "source_sequence": 4
+  "translation_ja": "風刺は一種の鏡であって、見る者はたいてい、そこに誰の顔でも見つけるが、自分の顔だけは見つけない。風刺が世間で好意的に迎えられ、腹を立てる者がほとんどいないのは、主としてそのためである。だが、そうならなかったとしても、大した危険はない。長い経験から学んだことだが、私が怒らせることのできた程度の頭脳から、害を受ける心配はないからだ。怒りや激情は、肉体の筋には力を加えても、精神の筋を緩ませ、そのあらゆる働きを弱く、無力にしてしまうとわかっている。"
+  "translation_status": "reviewed"
+- "id": "btb-005"
+  "section_id": "preface"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "There is a brain that will endure but one scumming; let the owner gather it with discretion, and manage his little stock with husbandry; but, of all things, let him beware of bringing it under the lash of his betters, because that will make it all bubble up into impertinence, and he will find no new supply. Wit without knowledge being a sort of cream, which gathers in a night to the top, and by a skilful hand may be soon whipped into froth; but once scummed away, what appears underneath will be fit for nothing but to be thrown to the hogs."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[16]"
+    "line_start": 264
+    "source_sequence": 5
+  "translation_ja": "上澄みを一度すくえば、それきりという頭もある。持ち主は慎重にすくい取り、ささやかな蓄えを倹約して使うがよい。だが何より、自分よりすぐれた者の鞭の下へ差し出さぬように気をつけることだ。そんなことをすれば、すべてが泡立って、くだらないおしゃべりとなり、あとには何も補充されないだろう。知識のない才知は、一晩で表面にたまるクリームのようなもので、巧みな手にかかれば、たちまち泡に立てられる。しかし、いったんすくい取れば、その下に現れるものは、豚に投げてやるよりほかに使い道がない。"
+  "translation_status": "reviewed"
+- "id": "btb-006"
+  "section_id": "battle"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "A FULL AND TRUE ACCOUNT OF THE BATTLE FOUGHT LAST FRIDAY BETWEEN THE ANCIENT AND THE MODERN BOOKS IN SAINT JAMES’S LIBRARY."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[5]"
+    "line_start": 274
+    "source_sequence": 6
+  "translation_ja": "去る金曜日、セント・ジェームズ図書館において、古代と近代の書物の間に戦われた合戦の、完全にして真実なる報告"
+  "translation_status": "reviewed"
+- "id": "btb-007"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Whoever examines, with due circumspection, into the annual records of time, will find it remarked that War is the child of Pride, and Pride the daughter of Riches:—the former of which assertions may be soon granted, but one cannot so easily subscribe to the latter; for Pride is nearly related to Beggary and Want, either by father or mother, and sometimes by both: and, to speak naturally, it very seldom happens among men to fall out when all have enough; invasions usually travelling from north to south, that is to say, from poverty to plenty. The most ancient and natural grounds of quarrels are lust and avarice; which, though we may allow to be brethren, or collateral branches of pride, are certainly the issues of want. For, to speak in the phrase of writers upon politics, we may observe in the republic of dogs, which in its original seems to be an institution of the many, that the whole state is ever in the profoundest peace after a full meal; and that civil broils arise among them when it happens for one great bone to be seized on by some leading dog, who either divides\
+    \ it among the few, and then it falls to an oligarchy, or keeps it to himself, and then it runs up to a tyranny. The same reasoning also holds place among them in those dissensions we behold upon a turgescency in any of their females. For the right of possession lying in common (it being impossible to establish a property in so delicate a case), jealousies and suspicions do so abound, that the whole commonwealth of that street is reduced to a manifest state of war, of every citizen against every citizen, till some one of more courage, conduct, or fortune than the rest seizes and enjoys the prize: upon which naturally arises plenty of heart-burning, and envy, and snarling against the happy dog. Again, if we look upon any of these republics engaged in a foreign war, either of invasion or defence, we shall find the same reasoning will serve as to the grounds and occasions of each; and that poverty or want, in some degree or other (whether real or in opinion, which makes no alteration in the case), has a great share, as well as pride, on the part of the aggressor."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[17]"
+    "line_start": 277
+    "source_sequence": 7
+  "translation_ja": "年代の記録を、しかるべく用心深く調べる者は、戦争は高慢の子であり、高慢は富の娘だと、記されているのを見いだすだろう。前の主張は、すぐ認めてもよいが、後の主張には、そう容易に賛成できない。高慢は、父方か母方、ときには両方で、乞食や欠乏と近い親類だからである。自然に即して言えば、皆が十分に持っているとき、人間同士が争うことは、めったにない。侵略は、普通、北から南へ、つまり、貧乏から豊かさへ向かう。争いの、最も古く自然な原因は、情欲と貪欲である。高慢の兄弟か、傍系の枝とは認めるにしても、確かに欠乏の子なのだ。政治を論じる書き手の言い方を借りれば、犬の共和国を見てみよう。もともとは多数者の制度らしいが、十分に食べたあとでは、国家全体が、いつも、この上ない平和にある。ところが、有力な犬が、大きな骨を一本、手に入れると、内紛が起こる。少数へ分ければ寡頭制へ落ち、自分で独り占めすれば、僭主政へ走るのである。雌のどれかが発情するとき、我々の見る争いにも、同じ議論が当てはまる。この微妙な場合には、所有権を立てることは不可能で、占有の権利は共有されるので、嫉妬と疑惑が、あまりに満ちあふれ、その通りの共和国全体が、市民と市民、すべてが敵となる、明白な戦争状態へ陥る。ほかより勇気、指揮の腕、あるいは幸運を持つ一匹が、獲物を奪い、ものにするまで、そうなのだ。すると当然、ひどい腹立ち、妬み、幸運な犬への唸り声が起こる。さらに、こうした共和国が、侵略にせよ防衛にせよ、外国との戦争へ入るところを見れば、その根拠ときっかけにも、同じ議論が役立つとわかる。攻撃する側には、高慢とともに、何らかの程度の貧しさや欠乏が、大きく関わるのだ。それが実際のものか、思い込みかは、この場合、何の違いも生まない。"
+  "translation_status": "reviewed"
+- "id": "btb-008"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Now whoever will please to take this scheme, and either reduce or adapt it to an intellectual state or commonwealth of learning, will soon discover the first ground of disagreement between the two great parties at this time in arms, and may form just conclusions upon the merits of either cause. But the issue or events of this war are not so easy to conjecture at; for the present quarrel is so inflamed by the warm heads of either faction, and the pretensions somewhere or other so exorbitant, as not to admit the least overtures of accommodation. This quarrel first began, as I have heard it affirmed by an old dweller in the neighbourhood, about a small spot of ground, lying and being upon one of the two tops of the hill Parnassus; the highest and largest of which had, it seems, been time out of mind in quiet possession of certain tenants, called the Ancients; and the other was held by the Moderns. But these disliking their present station, sent certain ambassadors to the Ancients, complaining of a great nuisance; how the height of that part of Parnassus quite spoiled the\
+    \ prospect of theirs, especially towards the east; and therefore, to avoid a war, offered them the choice of this alternative, either that the Ancients would please to remove themselves and their effects down to the lower summit, which the Moderns would graciously surrender to them, and advance into their place; or else the said Ancients will give leave to the Moderns to come with shovels and mattocks, and level the said hill as low as they shall think it convenient. To which the Ancients made answer, how little they expected such a message as this from a colony whom they had admitted, out of their own free grace, to so near a neighbourhood. That, as to their own seat, they were aborigines of it, and therefore to talk with them of a removal or surrender was a language they did not understand. That if the height of the hill on their side shortened the prospect of the Moderns, it was a disadvantage they could not help; but desired them to consider whether that injury (if it be any) were not largely recompensed by the shade and shelter it afforded them. That as to the levelling or digging\
+    \ down, it was either folly or ignorance to propose it if they did or did not know how that side of the hill was an entire rock, which would break their tools and hearts, without any damage to itself. That they would therefore advise the Moderns rather to raise their own side of the hill than dream of pulling down that of the Ancients; to the former of which they would not only give licence, but also largely contribute. All this was rejected by the Moderns with much indignation, who still insisted upon one of the two expedients; and so this difference broke out into a long and obstinate war, maintained on the one part by resolution, and by the courage of certain leaders and allies; but, on the other, by the greatness of their number, upon all defeats affording continual recruits. In this quarrel whole rivulets of ink have been exhausted, and the virulence of both parties enormously augmented. Now, it must be here understood, that ink is the great missive weapon in all battles of the learned, which, conveyed through a sort of engine called a quill, infinite numbers of these are darted\
+    \ at the enemy by the valiant on each side, with equal skill and violence, as if it were an engagement of porcupines. This malignant liquor was compounded, by the engineer who invented it, of two ingredients, which are, gall and copperas; by its bitterness and venom to suit, in some degree, as well as to foment, the genius of the combatants. And as the Grecians, after an engagement, when they could not agree about the victory, were wont to set up trophies on both sides, the beaten party being content to be at the same expense, to keep itself in countenance (a laudable and ancient custom, happily revived of late in the art of war), so the learned, after a sharp and bloody dispute, do, on both sides, hang out their trophies too, whichever comes by the worst. These trophies have largely inscribed on them the merits of the cause; a full impartial account of such a Battle, and how the victory fell clearly to the party that set them up. They are known to the world under several names; as disputes, arguments, rejoinders, brief considerations, answers, replies, remarks, reflections, objections,\
+    \ confutations. For a very few days they are fixed up all in public places, either by themselves or their representatives, for passengers to gaze at; whence the chiefest and largest are removed to certain magazines they call libraries, there to remain in a quarter purposely assigned them, and thenceforth begin to be called books of controversy."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[18]"
+    "line_start": 312
+    "source_sequence": 8
+  "translation_ja": "この図式を受け取り、知性の国家、あるいは学問の共和国へ、形を変え、当てはめようとする者は、いま武器を取っている、二大党派の不和の、最初の原因を、すぐに見いだし、どちらの主張が正しいかについても、妥当な結論を出せるだろう。しかし、この戦争の結末や成り行きは、そう容易に推測できない。目下の争いは、双方の党派の熱血漢によって、ひどく燃え上がり、どこかの主張は、あまりに法外で、和解の申し出を、少しも受け入れないからだ。近所の古い住人が断言するのを聞いたところでは、発端は、パルナッソス山の、二つの頂の一方にある、小さな土地だった。高く広いほうの頂は、昔から、古代派と呼ぶ住人たちが、平穏に占有し、もう一方は、近代派が持っていたらしい。だが近代派は、いまの場所が気に入らず、古代派へ使節を送って、大きな迷惑を訴えた。そちらのパルナッソスの高さが、こちらの眺めを、とくに東のほうへ向かって、すっかり台無しにするというのである。そこで、戦争を避けるため、次の二つのうち、どちらかを選べと申し出た。古代派が、身の回りの物とともに、低い頂へ移り、近代派が、恵み深くも譲ってやるその場所と引き換えに、自分たちの場所へ、近代派を進ませるか。それとも、近代派が鋤と鍬を持って来て、好きな高さまで山を削り、平らにすることを、許すかである。古代派は答えた。まったく自発的な恩恵から、これほど近い隣に住むのを認めた入植者に、このような口上を受けるとは、少しも思わなかった、と。自分たちの住まいについては、もともとの住人なのだから、移転や明け渡しの話をされても、理解できぬ言葉だ、と。こちらの山の高さが、近代派の眺めを狭めるなら、どうしようもない不利だが、そこから得る日陰や風よけで、その損害なるものは、もし損害なら、十分すぎるほど埋め合わされていないか、考えてほしい、と。平らにしたり、掘り崩したりすることについては、こちら側の山が、すべて一枚岩だと、知っていて提案するなら愚か、知らずにするなら無知である。岩そのものには傷もつかず、道具と心が砕けるだけだからだ、と。だから、古代派の山を壊す夢を見るより、自分たちの側を高くするよう勧める。それなら、許すばかりでなく、大いに力も貸そう、と。近代派は、これをすべて、ひどく憤って退け、相変わらず、二つの方策の一方を言い張った。こうして、不和は、長く頑固な戦争となった。一方は、決意と、ある指導者や同盟者の勇気によって支えられ、他方は、数の多さによって、負けるたびに、絶えず補充を送り込んで支えた。この争いでは、幾筋もの小川ほどのインクが使い果たされ、双方の毒気は、途方もなく増した。ここで心得ておくべきことだが、インクは、学者の、あらゆる合戦における、主要な飛び道具である。羽根ペンという、一種の機械を通して運ばれ、双方の勇士が、無数のそれを、等しい巧みさと激しさで敵へ投げつける。まるで、山嵐の戦いのようだ。この悪性の液体は、発明した技師が、没食子と緑礬という、二つの材料で作った。その苦さと毒で、戦う者の気質に、幾らか似せるとともに、それを煽るためである。そして、ギリシア人が、戦いのあと、勝敗で一致しないとき、双方に戦勝の記念を立て、負けた側も、顔を保つため、同じ費用を喜んで出したように――称賛すべき古い習慣で、近ごろ、幸いにも兵法のうちに復活した――学者も、激しく血なまぐさい論争のあと、どちらが負けようと、双方で、戦勝の記念を掲げる。そこには、主張の正しさ、ある合戦の完全で公平な報告、そして、記念を立てた側の勝利が、いかに明白だったかが、大きく書かれている。世間では、論争、議論、再反駁、短い考察、答弁、応答、所見、省察、異論、論駁など、さまざまな名で知られる。ごく数日の間、本人か代理人によって、公の場所へ掲げられ、通行人の目にさらされる。その中で、最も大きく、主だったものは、図書館という倉庫へ移され、特に割り当てられた一角へ置かれ、その後は、論争書と呼ばれ始めるのである。"
+  "translation_status": "reviewed"
+- "id": "btb-009"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "In these books is wonderfully instilled and preserved the spirit of each warrior while he is alive; and after his death his soul transmigrates thither to inform them. This, at least, is the more common opinion; but I believe it is with libraries as with other cemeteries, where some philosophers affirm that a certain spirit, which they call brutum hominis, hovers over the monument, till the body is corrupted and turns to dust or to worms, but then vanishes or dissolves; so, we may say, a restless spirit haunts over every book, till dust or worms have seized upon it—which to some may happen in a few days, but to others later—and therefore, books of controversy being, of all others, haunted by the most disorderly spirits, have always been confined in a separate lodge from the rest, and for fear of a mutual violence against each other, it was thought prudent by our ancestors to bind them to the peace with strong iron chains. Of which invention the original occasion was this: When the works of Scotus first came out, they were carried to a certain library, and had lodgings\
+    \ appointed them; but this author was no sooner settled than he went to visit his master Aristotle, and there both concerted together to seize Plato by main force, and turn him out from his ancient station among the divines, where he had peaceably dwelt near eight hundred years. The attempt succeeded, and the two usurpers have reigned ever since in his stead; but, to maintain quiet for the future, it was decreed that all polemics of the larger size should be hold fast with a chain."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[19]"
+    "line_start": 389
+    "source_sequence": 9
+  "translation_ja": "こうした書物には、勇士の生前、その気魄が、驚くべき仕方で注ぎ込まれ、保存される。そして、死後は、その魂が移り住み、書物へ命を与える。少なくとも、よくある意見は、そういうものだ。しかし私は、図書館も、ほかの墓地と同じだと信じる。ある哲学者たちの言うところでは、墓の上には、ブルートゥム・ホミニス、すなわち、人間の獣的な部分と呼ぶ、ある霊が漂い、体が腐り、塵や虫になると、消えるか、溶けてなくなるという。同じように、どの本の上にも、落ち着かぬ霊が取りつき、塵や虫が、それを捕らえるまで続くと言えよう。ある本では、数日でそうなるが、ほかでは、もっと遅い。したがって、あらゆる本のうち、最も乱暴な霊の取りつく論争書は、いつも、ほかと別の宿へ閉じ込められてきた。互いに暴力を振るうのを恐れ、先祖たちは、丈夫な鉄鎖で、平和を守るよう縛るのが、賢明だと考えた。その工夫が、初めて必要になったのは、こういうことからだった。スコトゥスの著作が初めて出たとき、ある図書館へ運ばれ、宿を割り当てられた。ところが、落ち着くやいなや、師のアリストテレスを訪ね、二人で相談し、プラトンを力ずくで捕らえ、八百年近く、平穏に住んできた、神学者たちの中の古い座から、追い出した。企ては成功し、この二人の簒奪者は、それ以来、その代わりに君臨している。しかし、今後の静けさを保つため、大型の論争書は、すべて鎖で、しっかり留めねばならぬと、定められたのである。"
+  "translation_status": "reviewed"
+- "id": "btb-010"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "By this expedient, the public peace of libraries might certainly have been preserved if a new species of controversial books had not arisen of late years, instinct with a more malignant spirit, from the war above mentioned between the learned about the higher summit of Parnassus."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[20]"
+    "line_start": 415
+    "source_sequence": 10
+  "translation_ja": "この方策で、図書館の公共の平和も、確かに保たれただろう。近年、先に述べた、パルナッソスの高い頂をめぐる学者の戦争から、いっそう悪性の霊を吹き込まれた、新種の論争書が現れなかったならば。"
+  "translation_status": "reviewed"
+- "id": "btb-011"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "When these books were first admitted into the public libraries, I remember to have said, upon occasion, to several persons concerned, how I was sure they would create broils wherever they came, unless a world of care were taken; and therefore I advised that the champions of each side should be coupled together, or otherwise mixed, that, like the blending of contrary poisons, their malignity might be employed among themselves. And it seems I was neither an ill prophet nor an ill counsellor; for it was nothing else but the neglect of this caution which gave occasion to the terrible fight that happened on Friday last between the Ancient and Modern Books in the King’s library. Now, because the talk of this battle is so fresh in everybody’s mouth, and the expectation of the town so great to be informed in the particulars, I, being possessed of all qualifications requisite in an historian, and retained by neither party, have resolved to comply with the urgent importunity of my friends, by writing down a full impartial account thereof."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[21]"
+    "line_start": 420
+    "source_sequence": 11
+  "translation_ja": "こうした本が、初めて公共の図書館へ入れられたとき、機会を見て、関係者の幾人かに、こう言ったのを覚えている。よほど気をつけない限り、行く先々で騒ぎを起こすに違いない、と。だから、双方の勇士を、一組ずつ結ぶか、ほかの仕方で混ぜ、反対の毒を混ぜるときのように、その毒気を、互いの間で使わせるのがよいと、忠告した。私は、悪い予言者でも、悪い助言者でもなかったらしい。ほかならぬ、この注意を怠ったことが、先週の金曜日、国王の図書館で、古代と近代の書物の間に起きた、あの恐ろしい合戦の原因となったからだ。いま、この合戦の話は、誰の口にも新しく、世間は、その細部を知ろうと、大きな期待を寄せている。そこで、歴史家に必要な資格を、すべて備え、どちらの党にも雇われていない私は、友人たちの、やかましい催促に応じ、完全で公平な報告を書くことに決めた。"
+  "translation_status": "reviewed"
+- "id": "btb-012"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "The guardian of the regal library, a person of great valour, but chiefly renowned for his humanity, had been a fierce champion for the Moderns, and, in an engagement upon Parnassus, had vowed with his own hands to knock down two of the ancient chiefs who guarded a small pass on the superior rock, but, endeavouring to climb up, was cruelly obstructed by his own unhappy weight and tendency towards his centre, a quality to which those of the Modern party are extremely subject; for, being light-headed, they have, in speculation, a wonderful agility, and conceive nothing too high for them to mount, but, in reducing to practice, discover a mighty pressure about their posteriors and their heels. Having thus failed in his design, the disappointed champion bore a cruel rancour to the Ancients, which he resolved to gratify by showing all marks of his favour to the books of their adversaries, and lodging them in the fairest apartments; when, at the same time, whatever book had the boldness to own itself for an advocate of the Ancients was buried alive in some obscure corner, and\
+    \ threatened, upon the least displeasure, to be turned out of doors. Besides, it so happened that about this time there was a strange confusion of place among all the books in the library, for which several reasons were assigned. Some imputed it to a great heap of learned dust, which a perverse wind blew off from a shelf of Moderns into the keeper’s eyes. Others affirmed he had a humour to pick the worms out of the schoolmen, and swallow them fresh and fasting, whereof some fell upon his spleen, and some climbed up into his head, to the great perturbation of both. And lastly, others maintained that, by walking much in the dark about the library, he had quite lost the situation of it out of his head; and therefore, in replacing his books, he was apt to mistake and clap Descartes next to Aristotle, poor Plato had got between Hobbes and the Seven Wise Masters, and Virgil was hemmed in with Dryden on one side and Wither on the other."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[22]"
+    "line_start": 438
+    "source_sequence": 12
+  "translation_ja": "王室図書館の守護者は、たいへん勇猛な人物だったが、とりわけ、人情で名高かった。かつて近代派の激しい闘士として、パルナッソスの戦いでは、高い岩の小さな隘路を守る、古代の首領二人を、自分の手で打ち倒すと誓ったことがあった。だが、登ろうとすると、不運にも、自分の重さと、中心へ引かれる傾きに、ひどく妨げられた。近代派の者には、きわめてありがちな性質である。頭が軽いので、思弁では、驚くほど身軽で、登るのに高すぎるものなど、考えもしない。しかし、実行へ移すとなると、尻や踵のあたりに、たいへんな重みを発見するのである。こうして企てに失敗し、失望した闘士は、古代派に、ひどい恨みを抱いた。そこで、敵側の本へ、あらゆる好意を示し、最も美しい部屋へ置くことで、晴らそうとした。その一方で、大胆にも古代派の味方を名乗る本は、暗い隅へ生き埋めにされ、ほんの少しでも機嫌を損ねれば、外へ追い出すと脅された。そのうえ、このころ、図書館の本の置き場所が、奇妙に混乱し、さまざまな理由が挙げられた。近代派の棚から、ひねくれた風が、学問の埃を大量に吹き落とし、管理人の目へ入れたせいだ、とする者もいた。別の者は、スコラ学者の本から虫を拾い出し、新鮮なまま、空き腹へ飲み込む癖があるのだ、と断言した。その虫の、あるものは脾臓へ落ち、あるものは頭へ登り、両方を大いにかき乱したという。最後には、暗闇の図書館を、あまりに歩き回ったため、配置を、すっかり頭から失ったのだ、と主張する者もいた。そのため、本を戻すと、間違いやすく、デカルトをアリストテレスの隣へ押し込み、気の毒なプラトンは、ホッブズと『七賢人物語』の間へ入り、ウェルギリウスは、片側をドライデン、もう片側をウィザーに挟まれていた。"
+  "translation_status": "reviewed"
+- "id": "btb-013"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Meanwhile, those books that were advocates for the Moderns, chose out one from among them to make a progress through the whole library, examine the number and strength of their party, and concert their affairs. This messenger performed all things very industriously, and brought back with him a list of their forces, in all, fifty thousand, consisting chiefly of light-horse, heavy-armed foot, and mercenaries; whereof the foot were in general but sorrily armed and worse clad; their horses large, but extremely out of case and heart; however, some few, by trading among the Ancients, had furnished themselves tolerably enough."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[23]"
+    "line_start": 471
+    "source_sequence": 13
+  "translation_ja": "その間、近代派に味方する本どもは、仲間から一冊を選び、図書館全体を巡って、党の数と力を調べ、段取りを整えさせた。使者は、すべてを、たいそう熱心に行い、兵力の名簿を持ち帰った。総勢五万、主として軽騎兵、重装歩兵、傭兵からなっていた。歩兵は、概して装備が悪く、衣服は、さらにひどかった。馬は大きいが、ひどく痩せ、元気もなかった。もっとも、古代派との取引で、まずまず身支度を整えた者も、わずかながらいた。"
+  "translation_status": "reviewed"
+- "id": "btb-014"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "While things were in this ferment, discord grew extremely high; hot words passed on both sides, and ill blood was plentifully bred. Here a solitary Ancient, squeezed up among a whole shelf of Moderns, offered fairly to dispute the case, and to prove by manifest reason that the priority was due to them from long possession, and in regard of their prudence, antiquity, and, above all, their great merits toward the Moderns. But these denied the premises, and seemed very much to wonder how the Ancients could pretend to insist upon their antiquity, when it was so plain (if they went to that) that the Moderns were much the more ancient of the two. As for any obligations they owed to the Ancients, they renounced them all. “It is true,” said they, “we are informed some few of our party have been so mean as to borrow their subsistence from you, but the rest, infinitely the greater number (and especially we French and English), were so far from stooping to so base an example, that there never passed, till this very hour, six words between us. For our horses were of our own breeding,\
+    \ our arms of our own forging, and our clothes of our own cutting out and sewing.” Plato was by chance up on the next shelf, and observing those that spoke to be in the ragged plight mentioned a while ago, their jades lean and foundered, their weapons of rotten wood, their armour rusty, and nothing but rags underneath, he laughed loud, and in his pleasant way swore, by ---, he believed them."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[24]"
+    "line_start": 482
+    "source_sequence": 14
+  "translation_ja": "事態が、こうして沸き立つ間、不和は、ひどく高まり、双方で激しい言葉が交わされ、悪感情が、たっぷり育った。ここで、近代派の棚一つ分に、押し込まれていた、孤立した古代派の一冊が、公平に論じ合おうと申し出た。長い占有と、思慮深さ、古さ、そして、とりわけ、近代派へ尽くした大きな功績から、優先権は自分たちにあることを、明白な理性で証明しよう、というのである。しかし、相手は前提を否定し、そういう話なら、二者のうち、近代派のほうが、ずっと古いのは明白なのに、古代派が古さを主張するとは、どうしたことかと、大いに不思議がる様子だった。古代派に負う恩があるという点も、すべて否認した。「たしかに」と彼らは言った。「我々の党の、わずかな者が、卑しくも、そちらから生活の糧を借りたと、聞いてはいる。だが、残りの、はるかに多い大多数、とりわけ、我々フランス人とイングランド人は、そんな低い模範に屈するどころか、この瞬間まで、六語の言葉さえ、互いに交わしたことがない。我々の馬は、自分で育て、武器は、自分で鍛え、衣服は、自分で裁ち、縫ったものなのだから」。たまたま、次の棚の上にいたプラトンは、話す者たちが、先ほど述べた、ぼろぼろのありさまで、駄馬は痩せ、脚を悪くし、武器は腐った木、鎧は錆び、その下は、ぼろしかないと見て、大声で笑った。そして、いつもの陽気な仕方で、――にかけて、彼らを信じる、と誓った。"
+  "translation_status": "reviewed"
+- "id": "btb-015"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Now, the Moderns had not proceeded in their late negotiation with secrecy enough to escape the notice of the enemy. For those advocates who had begun the quarrel, by setting first on foot the dispute of precedency, talked so loud of coming to a battle, that Sir William Temple happened to overhear them, and gave immediate intelligence to the Ancients, who thereupon drew up their scattered troops together, resolving to act upon the defensive; upon which, several of the Moderns fled over to their party, and among the rest Temple himself. This Temple, having been educated and long conversed among the Ancients, was, of all the Moderns, their greatest favourite, and became their greatest champion."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[25]"
+    "line_start": 507
+    "source_sequence": 15
+  "translation_ja": "ところで、近代派の、先の交渉は、敵の注意を逃れるほど、ひそかには行われなかった。最初に優先権の論争を持ち出して、争いを始めた弁護者たちが、戦いになると、あまり大声で話したので、ウィリアム・テンプル卿が、たまたま聞きつけ、ただちに古代派へ知らせたのである。古代派は、散らばる軍勢を集め、防御に徹すると決めた。すると、近代派の幾人かが、相手の党へ走り、その中には、テンプル自身もいた。このテンプルは、古代派のもとで教育を受け、長く交わったため、近代派のうち、最も深く気に入られており、彼らの最大の闘士となった。"
+  "translation_status": "reviewed"
+- "id": "btb-016"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Things were at this crisis when a material accident fell out. For upon the highest corner of a large window, there dwelt a certain spider, swollen up to the first magnitude by the destruction of infinite numbers of flies, whose spoils lay scattered before the gates of his palace, like human bones before the cave of some giant. The avenues to his castle were guarded with turnpikes and palisadoes, all after the modern way of fortification. After you had passed several courts you came to the centre, wherein you might behold the constable himself in his own lodgings, which had windows fronting to each avenue, and ports to sally out upon all occasions of prey or defence. In this mansion he had for some time dwelt in peace and plenty, without danger to his person by swallows from above, or to his palace by brooms from below; when it was the pleasure of fortune to conduct thither a wandering bee, to whose curiosity a broken pane in the glass had discovered itself, and in he went, where, expatiating a while, he at last happened to alight upon one of the outward walls of the spider’s\
+    \ citadel; which, yielding to the unequal weight, sunk down to the very foundation. Thrice he endeavoured to force his passage, and thrice the centre shook. The spider within, feeling the terrible convulsion, supposed at first that nature was approaching to her final dissolution, or else that Beelzebub, with all his legions, was come to revenge the death of many thousands of his subjects whom his enemy had slain and devoured. However, he at length valiantly resolved to issue forth and meet his fate. Meanwhile the bee had acquitted himself of his toils, and, posted securely at some distance, was employed in cleansing his wings, and disengaging them from the ragged remnants of the cobweb. By this time the spider was adventured out, when, beholding the chasms, the ruins, and dilapidations of his fortress, he was very near at his wit’s end; he stormed and swore like a madman, and swelled till he was ready to burst. At length, casting his eye upon the bee, and wisely gathering causes from events (for they know each other by sight), “A plague split you,” said he; “is it you, with a vengeance,\
+    \ that have made this litter here; could not you look before you, and be d---d? Do you think I have nothing else to do (in the devil’s name) but to mend and repair after you?” “Good words, friend,” said the bee, having now pruned himself, and being disposed to droll; “I’ll give you my hand and word to come near your kennel no more; I was never in such a confounded pickle since I was born.” “Sirrah,” replied the spider, “if it were not for breaking an old custom in our family, never to stir abroad against an enemy, I should come and teach you better manners.” “I pray have patience,” said the bee, “or you’ll spend your substance, and, for aught I see, you may stand in need of it all, towards the repair of your house.” “Rogue, rogue,” replied the spider, “yet methinks you should have more respect to a person whom all the world allows to be so much your betters.” “By my troth,” said the bee, “the comparison will amount to a very good jest, and you will do me a favour to let me know the reasons that all the world is pleased to use in so hopeful a dispute.” At this the spider, having swelled\
+    \ himself into the size and posture of a disputant, began his argument in the true spirit of controversy, with resolution to be heartily scurrilous and angry, to urge on his own reasons without the least regard to the answers or objections of his opposite, and fully predetermined in his mind against all conviction."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[26]"
+    "line_start": 519
+    "source_sequence": 16
+  "translation_ja": "事態が、この危機に達したとき、重要な出来事が起こった。大きな窓の、いちばん高い隅に、ある蜘蛛が住んでいたのである。無数の蠅を滅ぼして、最大級の大きさに膨れ、獲物の残骸は、巨人の洞穴の前の人骨のように、宮殿の門前へ散らばっていた。城へ通じる道は、回転する防柵や、杭柵で守られ、すべて近代式の築城法に、ならっていた。幾つもの中庭を通ると、中央へ出て、城代自身の住まいが見えた。どの通路にも向いた窓と、獲物を捕らえ、防御するため、いつでも出撃できる門を備えていた。この館で、しばらくの間、平穏と豊かさの中に住み、身には、上からの燕、宮殿には、下からの箒の危険もなかった。そこへ、運命の気まぐれで、さまよう蜜蜂が導かれた。割れた窓ガラスが、その好奇心に姿を現したので、入って来たのである。しばらく飛び回った末、たまたま、蜘蛛の城の外壁の一つへ止まった。壁は、釣り合わぬ重みに負け、土台まで崩れた。三度、通り抜けようとし、三度、中心が震えた。中の蜘蛛は、恐ろしい震動を感じ、初めは、自然の最後の崩壊が近づいたのか、それとも、何千もの臣民を敵に殺され、食われた、ベルゼブブが、全軍を率いて仇を討ちに来たのかと思った。しかし、ついには、勇ましく出て、運命に会おうと決めた。その間に、蜜蜂は、絡みつくものから逃れ、少し離れた安全な場所で、翼を整え、ぼろぼろの蜘蛛の巣の残りを、払いのけていた。このころ、蜘蛛も思い切って外へ出た。要塞の亀裂、廃墟、崩壊を見ると、ほとんど正気を失い、狂人のように怒鳴り、悪態をつき、裂けそうなほど膨れた。やがて蜜蜂を見て、賢くも、結果から原因を推した。二匹は、互いに顔を知っていたのである。「疫病に引き裂かれろ」と言った。「この散らかしようは、てめえの仕業か。前を見られなかったのか、この罰当たりめ。悪魔にかけて、おれには、てめえのあと始末と修理しか、仕事がないと思うのか」。「言葉は穏やかに、友よ」と、身繕いを終え、からかう気になっていた蜜蜂は言った。「握手して、約束しよう。二度と、君の寝ぐらへ近づかない。生まれてこのかた、こんな、ひどい目には遭ったことがない」。「こら」と蜘蛛は答えた。「敵に向かって、外へ出ないという、家の古いしきたりを破るのでなければ、行って、もう少し礼儀を教えてやるところだ」。「どうか、辛抱したまえ」と蜜蜂は言った。「さもないと、身の蓄えを使い果たす。見たところ、家を修理するのに、全部、要るかもしれないよ」。「悪党め、悪党め」と蜘蛛は答えた。「それでも、世界中から、てめえより、ずっと上だと認められる者には、もう少し敬意を払うべきだろう」。「まったく」と蜜蜂は言った。「その比較は、なかなか、よい冗談になる。この、見込みのありそうな論争で、世間が、お使いになる理由を、ぜひ教えてくれたまえ」。そこで蜘蛛は、論争家の大きさと構えに膨れ上がり、真の論争精神をもって、議論を始めた。心底、罵り、怒り、相手の答えや異論には、少しも構わず、自分の理由だけを押し進め、いかなる説得にも屈しまいと、あらかじめ、心に決めていた。"
+  "translation_status": "reviewed"
+- "id": "btb-017"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "“Not to disparage myself,” said he, “by the comparison with such a rascal, what art thou but a vagabond without house or home, without stock or inheritance? born to no possession of your own, but a pair of wings and a drone-pipe. Your livelihood is a universal plunder upon nature; a freebooter over fields and gardens; and, for the sake of stealing, will rob a nettle as easily as a violet. Whereas I am a domestic animal, furnished with a native stock within myself. This large castle (to show my improvements in the mathematics) is all built with my own hands, and the materials extracted altogether out of my own person.”"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[27]"
+    "line_start": 581
+    "source_sequence": 17
+  "translation_ja": "「てめえのような、ならず者と比べて、自分を貶めるつもりはないが」と蜘蛛は言った。「家も住まいも、元手も相続財産もない、浮浪者以外の何者だ。生まれたときから持っているのは、翼一対と、うなる笛だけではないか。暮らしは、自然からの、やみくもな略奪だ。野原や庭の海賊で、盗むためなら、菫でも、蕁麻でも、同じように奪う。それに引き換え、おれは、家に住む動物で、自分の中に、生まれつきの元手を備えている。この大きな城は、数学の進歩を示すために言うが、すべて、おれ自身の手で建て、材料も、すっかり自分の体から取り出したのだ」。"
+  "translation_status": "reviewed"
+- "id": "btb-018"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "“I am glad,” answered the bee, “to hear you grant at least that I am come honestly by my wings and my voice; for then, it seems, I am obliged to Heaven alone for my flights and my music; and Providence would never have bestowed on me two such gifts without designing them for the noblest ends. I visit, indeed, all the flowers and blossoms of the field and garden, but whatever I collect thence enriches myself without the least injury to their beauty, their smell, or their taste. Now, for you and your skill in architecture and other mathematics, I have little to say: in that building of yours there might, for aught I know, have been labour and method enough; but, by woeful experience for us both, it is too plain the materials are naught; and I hope you will henceforth take warning, and consider duration and matter, as well as method and art. You boast, indeed, of being obliged to no other creature, but of drawing and spinning out all from yourself; that is to say, if we may judge of the liquor in the vessel by what issues out, you possess a good plentiful store of dirt and\
+    \ poison in your breast; and, though I would by no means lesson or disparage your genuine stock of either, yet I doubt you are somewhat obliged, for an increase of both, to a little foreign assistance. Your inherent portion of dirt does not fall of acquisitions, by sweepings exhaled from below; and one insect furnishes you with a share of poison to destroy another. So that, in short, the question comes all to this: whether is the nobler being of the two, that which, by a lazy contemplation of four inches round, by an overweening pride, feeding, and engendering on itself, turns all into excrement and venom, producing nothing at all but flybane and a cobweb; or that which, by a universal range, with long search, much study, true judgment, and distinction of things, brings home honey and wax.”"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[28]"
+    "line_start": 592
+    "source_sequence": 18
+  "translation_ja": "「少なくとも、翼と声は、正直に手に入れたと認めてくれて、うれしいね」と蜜蜂は答えた。「それなら、飛ぶことと音楽については、天にだけ恩があるらしい。そして、摂理は、最も高貴な目的を定めずに、こんな二つの賜物を、与えはしなかったろう。たしかに、野原や庭の、あらゆる花を訪ねる。だが、そこから何を集めても、自分を豊かにするだけで、美しさ、香り、味を、少しも傷つけない。さて、君の建築術や、その他の数学の腕前には、あまり言うことがない。その建物には、私の知る限り、十分な労苦や秩序も、あったかもしれない。だが、双方の悲しい経験から、材料が駄目なのは、あまりに明白だ。これからは、戒めとして、方法と技術だけでなく、耐久性と素材も、考えてもらいたい。君は、ほかの生き物には、一切恩がなく、すべて自分から引き出し、紡ぎ出すと自慢する。つまり、出るものから、器の中の液体を判断してよいなら、胸に、たっぷりの汚物と毒を蓄えているのだ。生まれつきの、そのどちらの元手も、少なくしたり、貶したりするつもりは、決してないが、それを増やすためには、多少、よその助けに恩があるのではないかと思う。持ち前の汚物も、下から舞い上がる掃き屑で、増し分には事欠かない。また、一匹の虫が、別の虫を殺す毒の、一部を供給している。だから、要するに、問題は、どちらが、より高貴な存在かということに尽きる。自分の周囲四インチを、怠けて眺め、思い上がった高慢で、自分自身を糧とし、自分だけで子を生み、すべてを糞と毒へ変え、蠅殺しと蜘蛛の巣しか生まないものか。それとも、広く巡り、長く探し、大いに学び、正しく判断して、物事を見分け、蜜と蝋を、持ち帰るものか」。"
+  "translation_status": "reviewed"
+- "id": "btb-019"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "This dispute was managed with such eagerness, clamour, and warmth, that the two parties of books, in arms below, stood silent a while, waiting in suspense what would be the issue; which was not long undetermined: for the bee, grown impatient at so much loss of time, fled straight away to a bed of roses, without looking for a reply, and left the spider, like an orator, collected in himself, and just prepared to burst out."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[29]"
+    "line_start": 624
+    "source_sequence": 19
+  "translation_ja": "この論争は、あまりの熱意、騒ぎ、激しさで行われたので、下で武器を取る、二党の本どもは、しばらく黙り、どう決着するか、息を詰めて待った。結末は、長くは定まらぬままでいなかった。蜜蜂は、これほどの時間の損失に、辛抱できなくなり、返事を待たず、まっすぐ薔薇の花壇へ飛び去った。そして、演説家のように、心を集中し、まさに、ほとばしり出ようとしていた蜘蛛を、残したのである。"
+  "translation_status": "reviewed"
+- "id": "btb-020"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "It happened upon this emergency that Æsop broke silence first. He had been of late most barbarously treated by a strange effect of the regent’s humanity, who had torn off his title-page, sorely defaced one half of his leaves, and chained him fast among a shelf of Moderns. Where, soon discovering how high the quarrel was likely to proceed, he tried all his arts, and turned himself to a thousand forms. At length, in the borrowed shape of an ass, the regent mistook him for a Modern; by which means he had time and opportunity to escape to the Ancients, just when the spider and the bee were entering into their contest; to which he gave his attention with a world of pleasure, and, when it was ended, swore in the loudest key that in all his life he had never known two cases, so parallel and adapt to each other as that in the window and this upon the shelves. “The disputants,” said he, “have admirably managed the dispute between them, have taken in the full strength of all that is to be said on both sides, and exhausted the substance of every argument pro and con. It is but to\
+    \ adjust the reasonings of both to the present quarrel, then to compare and apply the labours and fruits of each, as the bee has learnedly deduced them, and we shall find the conclusion fall plain and close upon the Moderns and us. For pray, gentlemen, was ever anything so modern as the spider in his air, his turns, and his paradoxes? he argues in the behalf of you, his brethren, and himself, with many boastings of his native stock and great genius; that he spins and spits wholly from himself, and scorns to own any obligation or assistance from without. Then he displays to you his great skill in architecture and improvement in the mathematics. To all this the bee, as an advocate retained by us, the Ancients, thinks fit to answer, that, if one may judge of the great genius or inventions of the Moderns by what they have produced, you will hardly have countenance to bear you out in boasting of either. Erect your schemes with as much method and skill as you please; yet, if the materials be nothing but dirt, spun out of your own entrails (the guts of modern brains), the edifice will conclude\
+    \ at last in a cobweb; the duration of which, like that of other spiders’ webs, may be imputed to their being forgotten, or neglected, or hid in a corner. For anything else of genuine that the Moderns may pretend to, I cannot recollect; unless it be a large vein of wrangling and satire, much of a nature and substance with the spiders’ poison; which, however they pretend to spit wholly out of themselves, is improved by the same arts, by feeding upon the insects and vermin of the age. As for us, the Ancients, we are content with the bee, to pretend to nothing of our own beyond our wings and our voice: that is to say, our flights and our language. For the rest, whatever we have got has been by infinite labour and search, and ranging through every corner of nature; the difference is, that, instead of dirt and poison, we have rather chosen to till our hives with honey and wax; thus furnishing mankind with the two noblest of things, which are sweetness and light.”"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[30]"
+    "line_start": 631
+    "source_sequence": 20
+  "translation_ja": "この事態で、初めに沈黙を破ったのは、イソップだった。近ごろ、図書館の支配者の人情の、奇妙な作用によって、最も野蛮に扱われていたのである。扉を破り取り、頁の半分をひどく傷つけ、近代派の棚の中へ、鎖で、しっかり縛りつけたのだった。そこで、争いが、どれほど高まろうとしているか、すぐ見て取り、あらゆる技を試し、千もの姿へ変わった。ついに、借り物の驢馬の姿になると、支配者は、近代派の一冊と間違えた。そのおかげで、古代派へ逃れる時と機会が生まれ、ちょうど、蜘蛛と蜜蜂が、論争に入るところへ来た。たいそう楽しく、それを聞き、終わると、生まれてこのかた、窓の中の件と、棚の上の件ほど、ぴったり対応する二つの場合を、知ったことはないと、いちばん大きな声で誓った。「二人の論者は」と言った。「見事に論争を進め、双方で言うべきことの、力をすべて取り込み、賛否のあらゆる議論の中身を、尽くした。双方の推論を、目下の争いへ合わせ、蜜蜂が学識深く論じた、それぞれの労働と実りを、比べ、当てはめさえすればよい。すると、結論は、近代派と我々へ、明白かつ、ぴたりと当てはまる。さて、諸君、あの蜘蛛の態度、身のこなし、逆説ほど、近代的なものが、かつてあっただろうか。彼は、兄弟たる諸君と、自分自身のため、生まれつきの元手や、大きな天才を、自慢たっぷりに論じる。すべてを自分から紡ぎ、吐き出し、外からの恩や助けを認めるのを、軽蔑する。それから、建築の腕と、数学の進歩を見せびらかす。それに対し、我々古代派に雇われた弁護人たる蜜蜂は、こう答えるのがよいと考える。近代派の生んだものから、その大きな天才や発明を判断してよいなら、どちらを自慢するにも、とても、顔を保てまい。好きなだけ、秩序と技術をもって、構想を築くがよい。しかし材料が、自分のはらわた、すなわち近代の頭脳の腹から紡いだ、汚物にすぎないなら、建物は、ついには蜘蛛の巣となる。その長持ちも、ほかの蜘蛛の巣と同じく、忘れられ、放置され、隅に隠れたためと、考えられよう。ほかに近代派が、自前だと称しうるものは、思い出せない。あるとすれば、言い争いと風刺の、豊かな才能で、性質も中身も、蜘蛛の毒によく似る。すべて自分から吐き出すと称しても、やはり、同時代の虫や害虫を食べる、同じ技によって、強まるのだ。我々古代派は、蜜蜂とともに、翼と声、すなわち飛翔と言葉のほかには、自分のものを称さず、満足する。残りは、手に入れたものすべてが、果てしない労苦と探索、自然の隅々を巡ることによる。違いは、汚物と毒の代わりに、蜜と蝋で巣を満たすほうを選んだことだ。こうして人類へ、最も高貴な二つのもの、甘さと光を、供給するのである」。"
+  "translation_status": "reviewed"
+- "id": "btb-021"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "It is wonderful to conceive the tumult arisen among the books upon the close of this long descant of Æsop: both parties took the hint, and heightened their animosities so on a sudden, that they resolved it should come to a battle. Immediately the two main bodies withdrew, under their several ensigns, to the farther parts of the library, and there entered into cabals and consults upon the present emergency. The Moderns were in very warm debates upon the choice of their leaders; and nothing less than the fear impending from their enemies could have kept them from mutinies upon this occasion. The difference was greatest among the horse, where every private trooper pretended to the chief command, from Tasso and Milton to Dryden and Wither. The light-horse were commanded by Cowley and Despreaux. There came the bowmen under their valiant leaders, Descartes, Gassendi, and Hobbes; whose strength was such that they could shoot their arrows beyond the atmosphere, never to fall down again, but turn, like that of Evander, into meteors; or, like the cannon-ball, into stars. Paracelsus\
+    \ brought a squadron of stinkpot-flingers from the snowy mountains of Rhætia. There came a vast body of dragoons, of different nations, under the leading of Harvey, their great aga: part armed with scythes, the weapons of death; part with lances and long knives, all steeped in poison; part shot bullets of a most malignant nature, and used white powder, which infallibly killed without report. There came several bodies of heavy-armed foot, all mercenaries, under the ensigns of Guicciardini, Davila, Polydore Vergil, Buchanan, Mariana, Camden, and others. The engineers were commanded by Regiomontanus and Wilkins. The rest was a confused multitude, led by Scotus, Aquinas, and Bellarmine; of mighty bulk and stature, but without either arms, courage, or discipline. In the last place came infinite swarms of calones, a disorderly rout led by L’Estrange; rogues and ragamuffins, that follow the camp for nothing but the plunder, all without coats to cover them."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[31]"
+    "line_start": 684
+    "source_sequence": 21
+  "translation_ja": "イソップの、この長い談論が終わったとき、本どもの間に起きた騒ぎは、想像するにも驚くほどだった。双方が合図を受け取り、たちまち敵意を高め、合戦に訴えると決めた。すぐに、二つの主力は、それぞれの旗のもと、図書館の奥へ退き、この危急の事態について、密議と相談を始めた。近代派は、指導者の選択をめぐり、ひどく熱い論議になった。敵の差し迫る恐れがなければ、この機に、反乱を起こさずには済まなかったろう。とくに騎兵の争いが大きく、タッソ、ミルトンから、ドライデン、ウィザーまで、一兵卒が、皆、最高の指揮権を求めた。軽騎兵は、カウリーとデプレオーが率いた。弓兵は、勇敢な指導者、デカルト、ガッサンディ、ホッブズのもとに来た。その力は、大気の外まで矢を射るほどで、矢は二度と落ちず、エウアンドロスの矢のように流星となり、あるいは、砲弾のように星となった。パラケルススは、ラエティアの雪山から、悪臭弾投げの一隊を連れてきた。さまざまな国の、膨大な竜騎兵が、その大アガたるハーヴィーの指揮で来た。ある者は、死の武器である大鎌を持ち、ある者は、すべて毒に浸した槍や長い刃物を持った。ある者は、最も悪性の弾を撃ち、音を立てずに、必ず殺す、白い火薬を使った。重装歩兵の幾隊もが、グイッチャルディーニ、ダヴィラ、ポリドール・ヴァージル、ブキャナン、マリアナ、カムデンらの旗のもとに来た。すべて傭兵だった。工兵は、レギオモンタヌスとウィルキンズが率いた。残りは、スコトゥス、アクイナス、ベラルミーノに率いられた、雑然とした大群で、体も背丈も大きいが、武器も、勇気も、規律もなかった。最後には、カロネス、すなわち陣営の雑役者たちの、無数の群れが来た。レストレンジに率いられた、乱れた群衆で、略奪だけを目当てに従軍する、悪党や、ぼろをまとう連中だった。皆、身を覆う上着もなかった。"
+  "translation_status": "reviewed"
+- "id": "btb-022"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "The army of the Ancients was much fewer in number; Homer led the horse, and Pindar the light-horse; Euclid was chief engineer; Plato and Aristotle commanded the bowmen; Herodotus and Livy the foot; Hippocrates, the dragoons; the allies, led by Vossius and Temple, brought up the rear."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[32]"
+    "line_start": 718
+    "source_sequence": 22
+  "translation_ja": "古代派の軍は、数では、はるかに少なかった。ホメロスが騎兵、ピンダロスが軽騎兵を率い、エウクレイデスが工兵長となり、プラトンとアリストテレスが弓兵、ヘロドトスとリウィウスが歩兵、ヒポクラテスが竜騎兵を指揮した。フォッシウスとテンプルに率いられた同盟軍が、後衛となった。"
+  "translation_status": "reviewed"
+- "id": "btb-023"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "All things violently tending to a decisive battle, Fame, who much frequented, and had a large apartment formerly assigned her in the regal library, fled up straight to Jupiter, to whom she delivered a faithful account of all that passed between the two parties below; for among the gods she always tells truth. Jove, in great concern, convokes a council in the Milky Way. The senate assembled, he declares the occasion of convening them; a bloody battle just impendent between two mighty armies of ancient and modern creatures, called books, wherein the celestial interest was but too deeply concerned. Momus, the patron of the Moderns, made an excellent speech in their favour, which was answered by Pallas, the protectress of the Ancients. The assembly was divided in their affections; when Jupiter commanded the Book of Fate to be laid before him. Immediately were brought by Mercury three large volumes in folio, containing memoirs of all things past, present, and to come. The clasps were of silver double gilt, the covers of celestial turkey leather, and the paper such as here\
+    \ on earth might pass almost for vellum. Jupiter, having silently read the decree, would communicate the import to none, but presently shut up the book."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[33]"
+    "line_start": 723
+    "source_sequence": 23
+  "translation_ja": "何もかもが、雌雄を決する合戦へ、激しく向かっていた。王室図書館へ、たびたび通い、以前から広い部屋も割り当てられていた、名声の女神は、まっすぐユピテルへ飛び上がり、下の二党の間に起きたことを、すべて忠実に報告した。神々の間では、いつも真実を語るのである。ユピテルは、大いに心を痛め、銀河で会議を召集した。神々の会議が集まると、召集の理由を告げた。本と呼ばれる、古代と近代の生き物の、強大な二軍の間に、いま、血なまぐさい合戦が迫り、天上の利害も、あまりに深く関わっているのだ、と。近代派の守護神、モモスは、彼らのため、見事な演説をし、古代派の守護者、パラスが、それに答えた。会議の心は二つに分かれた。そこで、ユピテルは、運命の書を持ってくるよう命じた。メルクリウスが、すぐに、大きな二つ折判三巻を運んできた。過去、現在、未来の、あらゆる事柄の記録を収めていた。留め金は、二重の金箔を施した銀、表紙は、天上のトルコ革、紙は、地上なら、ほとんど犢皮紙として通るようなものだった。ユピテルは、黙って定めを読み、意味を誰にも伝えず、すぐに本を閉じた。"
+  "translation_status": "reviewed"
+- "id": "btb-024"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Without the doors of this assembly there attended a vast number of light, nimble gods, menial servants to Jupiter: those are his ministering instruments in all affairs below. They travel in a caravan, more or less together, and are fastened to each other like a link of galley-slaves, by a light chain, which passes from them to Jupiter’s great toe: and yet, in receiving or delivering a message, they may never approach above the lowest step of his throne, where he and they whisper to each other through a large hollow trunk. These deities are called by mortal men accidents or events; but the gods call them second causes. Jupiter having delivered his message to a certain number of these divinities, they flew immediately down to the pinnacle of the regal library, and consulting a few minutes, entered unseen, and disposed the parties according to their orders."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[34]"
+    "line_start": 744
+    "source_sequence": 24
+  "translation_ja": "会議の戸の外には、軽く、身のすばやい神々が、大勢控えていた。ユピテルの下僕で、下界の、あらゆる事柄で、その働きの道具となる者たちである。多かれ少なかれ、群れをなして旅し、ガレー船の奴隷の列のように、軽い鎖で、互いに結ばれていた。鎖は、彼らから、ユピテルの足の親指へ通じていた。それでも、用件を受けたり伝えたりするとき、玉座の、いちばん下の段より上へは、決して近づけず、大きな中空の管を通して、互いに囁いた。この神々を、人間は偶然や出来事と呼ぶが、神々は、第二原因と呼ぶ。ユピテルが、そのうち幾柱かへ用件を授けると、ただちに王室図書館の尖頂へ飛び降り、数分相談してから、見えぬまま入り、命令どおり、双方を配置した。"
+  "translation_status": "reviewed"
+- "id": "btb-025"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Meanwhile Momus, fearing the worst, and calling to mind an ancient prophecy which bore no very good face to his children the Moderns, bent his flight to the region of a malignant deity called Criticism. She dwelt on the top of a snowy mountain in Nova Zembla; there Momus found her extended in her den, upon the spoils of numberless volumes, half devoured. At her right hand sat Ignorance, her father and husband, blind with age; at her left, Pride, her mother, dressing her up in the scraps of paper herself had torn. There was Opinion, her sister, light of foot, hood-winked, and head-strong, yet giddy and perpetually turning. About her played her children, Noise and Impudence, Dulness and Vanity, Positiveness, Pedantry, and Ill-manners. The goddess herself had claws like a cat; her head, and ears, and voice resembled those of an ass; her teeth fallen out before, her eyes turned inward, as if she looked only upon herself; her diet was the overflowing of her own gall; her spleen was so large as to stand prominent, like a dug of the first rate; nor wanted excrescences in form\
+    \ of teats, at which a crew of ugly monsters were greedily sucking; and, what is wonderful to conceive, the bulk of spleen increased faster than the sucking could diminish it. “Goddess,” said Momus, “can you sit idly here while our devout worshippers, the Moderns, are this minute entering into a cruel battle, and perhaps now lying under the swords of their enemies? who then hereafter will ever sacrifice or build altars to our divinities? Haste, therefore, to the British Isle, and, if possible, prevent their destruction; while I make factions among the gods, and gain them over to our party.”"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[35]"
+    "line_start": 759
+    "source_sequence": 25
+  "translation_ja": "一方、モモスは、最悪を恐れ、自分の子たる近代派に、あまり好ましくない、古い予言を思い出し、批評という、悪性の神の領域へ飛んだ。女神は、ノヴァ・ゼンブラの雪山の頂に住んでいた。モモスが見つけたときには、巣穴で、半ば食い尽くした、無数の書物の残骸の上へ、身を伸ばしていた。右手には、父であり夫でもある無知が、年のため目を失い、座っていた。左手には、母の高慢が、自ら裂いた紙切れで、娘を飾っていた。妹の意見もいた。足が軽く、目隠しされ、強情だが、ふらつき、絶えず向きを変えていた。周囲には、子供たちの、騒音と厚顔、愚鈍と虚栄、独断、衒学、無作法が遊んでいた。女神自身は、猫のような爪を持ち、頭、耳、声は驢馬に似ていた。前歯は抜け、目は、自分だけを見るかのように、内側へ向いていた。食事は、自分の胆汁の、あふれたものだった。脾臓は、たいそう大きく、最大級の乳房のように、突き出していた。乳首の形の出っ張りにも事欠かず、醜い怪物どもが、むさぼるように吸っていた。しかも、驚くべきことに、脾臓は、吸われて減るよりも速く、膨らんだ。「女神よ」とモモスは言った。「敬虔な崇拝者たる近代派が、いま、この瞬間、激しい合戦へ入り、ひょっとすると、もう敵の剣の下へ倒れているのに、ここで怠けて座っていられるか。これから、誰が、我々の神格へ、生贄を捧げ、祭壇を建てるのか。だから急いで、ブリテンの島へ行き、できれば、彼らの滅亡を防いでくれ。その間、私は神々の間に党派を作り、我々の側へ引き入れよう」。"
+  "translation_status": "reviewed"
+- "id": "btb-026"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Momus, having thus delivered himself, stayed not for an answer, but left the goddess to her own resentment. Up she rose in a rage, and, as it is the form on such occasions, began a soliloquy: “It is I” (said she) “who give wisdom to infants and idiots; by me children grow wiser than their parents, by me beaux become politicians, and schoolboys judges of philosophy; by me sophisters debate and conclude upon the depths of knowledge; and coffee-house wits, instinct by me, can correct an author’s style, and display his minutest errors, without understanding a syllable of his matter or his language; by me striplings spend their judgment, as they do their estate, before it comes into their hands. It is I who have deposed wit and knowledge from their empire over poetry, and advanced myself in their stead. And shall a few upstart Ancients dare to oppose me? But come, my aged parent, and you, my children dear, and thou, my beauteous sister; let us ascend my chariot, and haste to assist our devout Moderns, who are now sacrificing to us a hecatomb, as I perceive by that grateful\
+    \ smell which from thence reaches my nostrils.”"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[36]"
+    "line_start": 787
+    "source_sequence": 26
+  "translation_ja": "こう言うと、モモスは返事も待たず、女神を、その憤りに任せて去った。女神は、怒って立ち上がり、このような場合の作法どおり、独白を始めた。「幼児と愚か者へ、知恵を与えるのは、私だ。私によって、子供は親より賢くなり、伊達男は政治家、学校の少年は、哲学の裁判官となる。私によって、詭弁家は、知識の深みを論じ、結論を下す。コーヒー店の才人も、私に吹き込まれれば、著者の主題や言語を、一音節も理解せずに、文体を直し、最も細かな誤りを、さらけ出せる。若者たちは、私によって、財産と同じく、判断力を、手に入る前から使い果たす。詩を支配する帝位から、機知と知識を退け、自分を、その代わりへ上げたのも、この私だ。わずかな成り上がりの古代派が、あえて私へ逆らうというのか。さあ、老いた父よ、いとしい子供たちよ、美しい妹よ。私の車へ乗り、敬虔な近代派を、急いで助けよう。いま、私たちへ、百牛の生贄を捧げているのが、そこから鼻へ届く、ありがたい匂いでわかるのだから」。"
+  "translation_status": "reviewed"
+- "id": "btb-027"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "The goddess and her train, having mounted the chariot, which was drawn by tame geese, flew over infinite regions, shedding her influence in due places, till at length she arrived at her beloved island of Britain; but in hovering over its metropolis, what blessings did she not let fall upon her seminaries of Gresham and Covent-garden! And now she reached the fatal plain of St. James’s library, at what time the two armies were upon the point to engage; where, entering with all her caravan unseen, and landing upon a case of shelves, now desert, but once inhabited by a colony of virtuosos, she stayed awhile to observe the posture of both armies."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[37]"
+    "line_start": 806
+    "source_sequence": 27
+  "translation_ja": "女神と、その一行は、飼い慣らした鵞鳥の引く車へ乗り、無数の地方を飛び越え、適当な所で影響を降り注ぎ、ついに、愛するブリテン島へ着いた。しかし、都の上に舞ったとき、グレシャムや、コヴェント・ガーデンの養成所へ、どれほどの恵みを落とさなかっただろう。やがて、セント・ジェームズ図書館の、運命の戦場へ達した。そのとき、二軍は、まさに戦いを始めるところだった。女神は、一団すべてと、姿を見せずに入り、いまは空だが、かつて博識家たちの集落が住んだ、一つの書棚へ降り、しばらく、双方の軍の構えを眺めた。"
+  "translation_status": "reviewed"
+- "id": "btb-028"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "But here the tender cares of a mother began to fill her thoughts and move in her breast: for at the head of a troup of Modern bowmen she cast her eyes upon her son Wotton, to whom the fates had assigned a very short thread. Wotton, a young hero, whom an unknown father of mortal race begot by stolen embraces with this goddess. He was the darling of his mother above all her children, and she resolved to go and comfort him. But first, according to the good old custom of deities, she cast about to change her shape, for fear the divinity of her countenance might dazzle his mortal sight and overcharge the rest of his senses. She therefore gathered up her person into an octavo compass: her body grow white and arid, and split in pieces with dryness; the thick turned into pasteboard, and the thin into paper; upon which her parents and children artfully strewed a black juice, or decoction of gall and soot, in form of letters: her head, and voice, and spleen, kept their primitive form; and that which before was a cover of skin did still continue so. In this guise she marched on\
+    \ towards the Moderns, indistinguishable in shape and dress from the divine Bentley, Wotton’s dearest friend. “Brave Wotton,” said the goddess, “why do our troops stand idle here, to spend their present vigour and opportunity of the day? away, let us haste to the generals, and advise to give the onset immediately.” Having spoke thus, she took the ugliest of her monsters, full glutted from her spleen, and flung it invisibly into his mouth, which, flying straight up into his head, squeezed out his eye-balls, gave him a distorted look, and half-overturned his brain. Then she privately ordered two of her beloved children, Dulness and Ill-manners, closely to attend his person in all encounters. Having thus accoutred him, she vanished in a mist, and the hero perceived it was the goddess his mother."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[38]"
+    "line_start": 817
+    "source_sequence": 28
+  "translation_ja": "しかし、ここで、母の優しい心配が、思いを満たし、胸を動かし始めた。近代派の弓兵の一隊の先頭に、運命が、ごく短い糸を割り当てた、息子ウォットンを見つけたからだ。若い勇士ウォットンは、名も知れぬ人間の父が、この女神との、ひそかな抱擁によって生んだ子だった。子の中でも、最も深い母の寵愛を受けており、女神は、行って慰めようと決めた。しかし、まず、神々の、よき古い習慣どおり、姿を変える算段をした。顔の神性が、人間の目を眩ませ、ほかの感覚にも、負担をかけるのを恐れたのである。そこで、身を八つ折判の大きさへ縮めた。体は白く乾き、乾燥で、ばらばらに裂けた。厚い所は厚紙、薄い所は紙となり、そこへ、両親と子供たちが、黒い汁、すなわち没食子と煤の煎液を、文字の形へ、巧みに散らした。頭、声、脾臓は、元の形を保ち、以前、皮の覆いだったものも、そのままだった。この姿で、近代派へ進んだ。形と服装は、ウォットンの、最も親しい友、神学者ベントリーと、見分けがつかなかった。「勇敢なウォットンよ」と女神は言った。「なぜ、我が軍は、ここで怠け、いまの勢いと、その日の好機を、空費しているのか。さあ、将軍たちへ急ぎ、ただちに攻撃を始めるよう、進言しよう」。そう言うと、脾臓から、たっぷり吸った、最も醜い怪物を取り、見えぬまま、その口へ投げ込んだ。怪物は、まっすぐ頭へ飛び上がり、眼球を押し出し、顔を歪め、脳を半ば、ひっくり返した。それから、愛する子のうち、愚鈍と無作法の二人へ、どんな戦いにも、ぴったり付き添うよう、ひそかに命じた。こうして身支度を整えると、霧の中へ消え、勇士は、それが母なる女神だったと悟った。"
+  "translation_status": "reviewed"
+- "id": "btb-029"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "The destined hour of fate being now arrived, the fight began; whereof, before I dare adventure to make a particular description, I must, after the example of other authors, petition for a hundred tongues, and mouths, and hands, and pens, which would all be too little to perform so immense a work. Say, goddess, that presidest over history, who it was that first advanced in the field of battle! Paracelsus, at the head of his dragoons, observing Galen in the adverse wing, darted his javelin with a mighty force, which the brave Ancient received upon his shield, the point breaking in the second fold . . . Hic pauca . . . . desunt They bore the wounded aga on their shields to his chariot . . . Desunt . . . nonnulla. . . ."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[39]"
+    "line_start": 849
+    "source_sequence": 29
+  "translation_ja": "いまや、運命の定めた時が来て、戦いが始まった。だが、あえて詳しい描写へ入る前に、ほかの著者の例にならい、百の舌、口、手、筆を願わねばならない。それでも、これほど巨大な仕事には、すべて、少なすぎるだろう。歴史を司る女神よ、告げたまえ。初めに戦場へ進んだのは、誰だったか。パラケルススは、竜騎兵の先頭で、敵の翼にガレノスを見ると、力いっぱい投槍を放った。勇敢な古代派は、盾で受け、穂先は、二枚目の層で折れた。……〔ここに若干欠落〕……手負いのアガを、盾に載せ、戦車へ運んだ。……〔若干欠落〕……。"
+  "translation_status": "reviewed"
+- "id": "btb-030"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Then Aristotle, observing Bacon advance with a furious mien, drew his bow to the head, and let fly his arrow, which missed the valiant Modern and went whizzing over his head; but Descartes it hit; the steel point quickly found a defect in his head-piece; it pierced the leather and the pasteboard, and went in at his right eye. The torture of the pain whirled the valiant bow-man round till death, like a star of superior influence, drew him into his own vortex Ingens hiatus . . . . hic in MS. . . . . . . . . when Homer appeared at the head of the cavalry, mounted on a furious horse, with difficulty managed by the rider himself, but which no other mortal durst approach; he rode among the enemy’s ranks, and bore down all before him. Say, goddess, whom he slew first and whom he slew last! First, Gondibert advanced against him, clad in heavy armour and mounted on a staid sober gelding, not so famed for his speed as his docility in kneeling whenever his rider would mount or alight. He had made a vow to Pallas that he would never leave the field till he had spoiled Homer of his\
+    \ armour: madman, who had never once seen the wearer, nor understood his strength! Him Homer overthrew, horse and man, to the ground, there to be trampled and choked in the dirt. Then with a long spear he slew Denham, a stout Modern, who from his father’s side derived his lineage from Apollo, but his mother was of mortal race. He fell, and bit the earth. The celestial part Apollo took, and made it a star; but the terrestrial lay wallowing upon the ground. Then Homer slew Sam Wesley with a kick of his horse’s heel; he took Perrault by mighty force out of his saddle, then hurled him at Fontenelle, with the same blow dashing out both their brains."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[40]"
+    "line_start": 865
+    "source_sequence": 30
+  "translation_ja": "次に、アリストテレスは、猛烈な顔つきでベーコンが進むのを見て、矢尻まで弓を引き、矢を放った。勇敢な近代派には当たらず、頭上を唸って飛んだが、デカルトに命中した。鋼の穂先は、すぐに兜の弱点を見つけ、革と厚紙を貫き、右目へ入った。痛みの苦しみは、勇ましい弓兵を、ぐるぐる回したが、やがて死が、強い影響力を持つ星のように、自分の渦へ引き込んだ。〔原稿のここに、大きな欠落〕…………そのとき、ホメロスが騎兵の先頭に現れた。荒れ狂う馬に乗り、本人も、やっと扱っていたが、ほかの人間には、近寄る勇気さえなかった。敵の列の中を駆け、行く手の、すべてをなぎ倒した。女神よ、初めに誰を殺し、最後に誰を殺したか、告げたまえ。まず、ゴンディバートが、重い鎧を着け、落ち着いた、おとなしい去勢馬に乗り、立ち向かった。馬は、速さよりも、乗り手が乗り降りするとき、いつでも膝をつく、従順さで名高かった。彼はパラスへ、ホメロスの鎧を奪うまで、戦場を去らないと誓っていた。一度も、着る者を見ず、その力も知らなかった、狂人よ。ホメロスは、馬も人も地へ倒し、踏みつけられ、泥で息を詰まらせるに任せた。次には、長槍で、頑丈な近代派、デナムを殺した。父方ではアポロンの血を引いたが、母は人間だった。倒れて、大地を噛んだ。天の部分は、アポロンが取って星にしたが、地の部分は、地上をのたうった。それからホメロスは、馬の後ろ蹄の一蹴りで、サム・ウェズリーを殺し、ペローを、怪力で鞍から引き抜き、フォントネルへ投げつけ、一撃で、二人の脳髄を、打ち砕いた。"
+  "translation_status": "reviewed"
+- "id": "btb-031"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "On the left wing of the horse Virgil appeared, in shining armour, completely fitted to his body; he was mounted on a dapple-grey steed, the slowness of whose pace was an effect of the highest mettle and vigour. He cast his eye on the adverse wing, with a desire to find an object worthy of his valour, when behold upon a sorrel gelding of a monstrous size appeared a foe, issuing from among the thickest of the enemy’s squadrons; but his speed was less than his noise; for his horse, old and lean, spent the dregs of his strength in a high trot, which, though it made slow advances, yet caused a loud clashing of his armour, terrible to hear. The two cavaliers had now approached within the throw of a lance, when the stranger desired a parley, and, lifting up the visor of his helmet, a face hardly appeared from within which, after a pause, was known for that of the renowned Dryden. The brave Ancient suddenly started, as one possessed with surprise and disappointment together; for the helmet was nine times too large for the head, which appeared situate far in the hinder part, even\
+    \ like the lady in a lobster, or like a mouse under a canopy of state, or like a shrivelled beau from within the penthouse of a modern periwig; and the voice was suited to the visage, sounding weak and remote. Dryden, in a long harangue, soothed up the good Ancient; called him father, and, by a large deduction of genealogies, made it plainly appear that they were nearly related. Then he humbly proposed an exchange of armour, as a lasting mark of hospitality between them. Virgil consented (for the goddess Diffidence came unseen, and cast a mist before his eyes), though his was of gold and cost a hundred beeves, the other’s but of rusty iron. However, this glittering armour became the Modern yet worsen than his own. Then they agreed to exchange horses; but, when it came to the trial, Dryden was afraid and utterly unable to mount. . . Alter hiatus . . . . in MS. Lucan appeared upon a fiery horse of admirable shape, but headstrong, bearing the rider where he list over the field; he made a mighty slaughter among the enemy’s horse; which destruction to stop, Blackmore, a famous Modern (but\
+    \ one of the mercenaries), strenuously opposed himself, and darted his javelin with a strong hand, which, falling short of its mark, struck deep in the earth. Then Lucan threw a lance; but Æsculapius came unseen and turned off the point. “Brave Modern,” said Lucan, “I perceive some god protects you, for never did my arm so deceive me before: but what mortal can contend with a god? Therefore, let us fight no longer, but present gifts to each other.” Lucan then bestowed on the Modern a pair of spurs, and Blackmore gave Lucan a bridle. . . . Pauca desunt. . . . . . . . Creech: but the goddess Dulness took a cloud, formed into the shape of Horace, armed and mounted, and placed in a flying posture before him. Glad was the cavalier to begin a combat with a flying foe, and pursued the image, threatening aloud; till at last it led him to the peaceful bower of his father, Ogleby, by whom he was disarmed and assigned to his repose."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[41]"
+    "line_start": 896
+    "source_sequence": 31
+  "translation_ja": "騎兵の左翼には、体へ完全に合った、輝く鎧姿で、ウェルギリウスが現れた。斑のある芦毛に乗り、その歩みが遅いのは、最高の気性と活力のためだった。勇気にふさわしい相手を見つけようと、敵の翼を見ると、そこに、途方もなく大きな栗毛の去勢馬に乗り、敵の最も密な隊列から出てくる者がいた。しかし、速さは、騒音ほどではなかった。老いて痩せた馬が、残る力を、足を高く上げる速足へ費やし、進みは遅いが、鎧を、聞くも恐ろしい大音響で、がちゃがちゃ鳴らしたのである。二騎が、槍の届く所まで来ると、見知らぬ騎士は、話し合いを求め、兜の面頬を上げた。中から顔が、かろうじて現れ、しばらくして、名高いドライデンとわかった。勇敢な古代派は、驚きと失望に、同時に捕らえられた者のように、はっと身じろぎした。兜は頭の九倍も大きく、頭は、ずっと奥へ引っ込んで見えた。まるで、ロブスターの中の「貴婦人」、国王の天蓋の下の鼠、あるいは、近代の鬘の庇から見える、しなびた伊達男のようだった。声も、顔に似合い、弱く、遠くから響いた。ドライデンは、長い弁舌で、善良な古代派をなだめ、父と呼び、系図を長々とたどって、近い親類であることを、明白に示した。それから、二人の間の歓待の、永遠のしるしとして、鎧を取り替えようと、恭しく申し出た。ウェルギリウスは同意した。謙遜の女神が、姿を見せずに来て、目の前へ霧をかけたからである。自分の鎧は金製で、牛百頭の値がし、相手のは、錆びた鉄にすぎなかったのに。だが、この輝く鎧は、近代派へ、自分のものより、さらに似合わなかった。それから、馬を交換することでも一致したが、試す段になると、ドライデンは恐れ、まったく乗れなかった。……〔原稿に、さらに欠落〕……ルカヌスが、見事な姿の、激しい馬に乗って現れた。しかし馬は強情で、思うままに、乗り手を戦場中へ運んだ。彼は、敵の騎兵を大いに殺した。この破壊を止めようと、近代派の名高いブラックモアが――ただし傭兵の一人だった――力を込めて立ち向かい、強い手で投槍を放った。だが、的まで届かず、地へ深く刺さった。次にルカヌスが槍を投げたが、アスクレピオスが、見えぬまま来て、穂先をそらした。「勇敢な近代派よ」とルカヌスは言った。「何かの神が、お前を守るとわかる。これまで、自分の腕に、こうも裏切られたことはないからだ。しかし、人間が、神と争えようか。だから、もう戦わず、互いに贈り物をしよう」。ルカヌスは、近代派へ一対の拍車を贈り、ブラックモアは、ルカヌスへ頭絡を与えた。……〔若干欠落〕…………クリーチ。しかし、愚鈍の女神は、雲を取り、武装して馬に乗るホラティウスの姿へ変え、逃げる格好で、彼の前へ置いた。騎士は、逃げる敵との戦いを喜び、大声で脅しながら、幻を追った。ついには、父オグルビーの、平穏な木陰へ導かれ、そこで武装を解かれ、休息を命じられた。"
+  "translation_status": "reviewed"
+- "id": "btb-032"
+  "section_id": "battle"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Then Pindar slew ---, and --- and Oldham, and ---, and Afra the Amazon, light of foot; never advancing in a direct line, but wheeling with incredible agility and force, he made a terrible slaughter among the enemy’s light-horse. Him when Cowley observed, his generous heart burnt within him, and he advanced against the fierce Ancient, imitating his address, his pace, and career, as well as the vigour of his horse and his own skill would allow. When the two cavaliers had approached within the length of three javelins, first Cowley threw a lance, which missed Pindar, and, passing into the enemy’s ranks, fell ineffectual to the ground. Then Pindar darted a javelin so large and weighty, that scarce a dozen Cavaliers, as cavaliers are in our degenerate days, could raise it from the ground; yet he threw it with ease, and it went, by an unerring hand, singing through the air; nor could the Modern have avoided present death if he had not luckily opposed the shield that had been given him by Venus. And now both heroes drew their swords; but the Modern was so aghast and disordered\
+    \ that he knew not where he was; his shield dropped from his hands; thrice he fled, and thrice he could not escape. At last he turned, and lifting up his hand in the posture of a suppliant, “Godlike Pindar,” said he, “spare my life, and possess my horse, with these arms, beside the ransom which my friends will give when they hear I am alive and your prisoner.” “Dog!” said Pindar, “let your ransom stay with your friends; but your carcase shall be left for the fowls of the air and the beasts of the field.” With that he raised his sword, and, with a mighty stroke, cleft the wretched Modern in twain, the sword pursuing the blow; and one half lay panting on the ground, to be trod in pieces by the horses’ feet; the other half was borne by the frighted steed through the field. This Venus took, washed it seven times in ambrosia, then struck it thrice with a sprig of amaranth; upon which the leather grow round and soft, and the leaves turned into feathers, and, being gilded before, continued gilded still; so it became a dove, and she harnessed it to her chariot. . . . . . . . Hiatus valde de-\
+    \ . . . . flendus in MS."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[42]"
+    "line_start": 952
+    "source_sequence": 32
+  "translation_ja": "次にピンダロスは、――、――、オールダム、――、そして、足の軽い、アマゾンの女戦士アフラを殺した。決して直線には進まず、信じ難い敏捷さと力で回り、敵の軽騎兵を、恐ろしいほど殺した。それを見たカウリーは、気高い心を内に燃やし、猛々しい古代派へ進んだ。馬の活力と、自分の腕が許す限り、その身ごなし、歩み、駆け方をまねた。二騎が、投槍三本の長さまで近づくと、まずカウリーが槍を投げた。ピンダロスを外れ、敵の列へ入り、何の効き目もなく、地へ落ちた。そこでピンダロスは、この衰えた時代の騎士なら、十二人でも、やっと地面から持ち上げるほど、大きく重い投槍を放った。しかし、容易に投げ、誤らぬ手から、空中を歌って飛んだ。近代派は、幸い、ヴィーナスから与えられた盾を差し出さなければ、その場の死を逃れられなかったろう。いま、両雄は剣を抜いたが、近代派は、あまりに恐れ、混乱し、自分がどこにいるかも、わからなかった。盾は手から落ち、三度逃げ、三度、逃れられなかった。ついに振り返り、懇願の構えで手を上げ、「神のごときピンダロスよ」と言った。「命を助け、馬と、この武具を、お取りください。友人たちも、私が生きて、あなたの捕虜になったと聞けば、身代金を出すでしょう」。「犬め」とピンダロスは言った。「身代金は、友人のもとに置け。だが、屍は、空の鳥と、野の獣へ残してやる」。そう言うと、剣を上げ、強烈な一撃で、哀れな近代派を、真っ二つにした。剣は、振り抜かれ、半分は地面で息をあえぎ、馬の足で粉々に踏まれるままとなり、もう半分は、おびえた馬に乗り、戦場を運ばれた。ヴィーナスは、この半分を取り、アムブロシアで七度洗い、不凋花の小枝で三度打った。すると、革は丸く柔らかくなり、紙葉は羽毛へ変わり、もとからの金箔は、そのまま残った。こうして鳩となり、女神は、自分の車へつないだ。…………〔原稿に、まことに嘆かわしい欠落〕……。"
+  "translation_status": "reviewed"
+- "id": "btb-033"
+  "section_id": "episode"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "THE EPISODE OF BENTLEY AND WOTTON."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[6]"
+    "line_start": 991
+    "source_sequence": 33
+  "translation_ja": "ベントリーとウォットンの挿話"
+  "translation_status": "reviewed"
+- "id": "btb-034"
+  "section_id": "episode"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Day being far spent, and the numerous forces of the Moderns half inclining to a retreat, there issued forth, from a squadron of their heavy-armed foot, a captain whose name was Bentley, the most deformed of all the Moderns; tall, but without shape or comeliness; large, but without strength or proportion. His armour was patched up of a thousand incoherent pieces, and the sound of it, as he marched, was loud and dry, like that made by the fall of a sheet of lead, which an Etesian wind blows suddenly down from the roof of some steeple. His helmet was of old rusty iron, but the vizor was brass, which, tainted by his breath, corrupted into copperas, nor wanted gall from the same fountain, so that, whenever provoked by anger or labour, an atramentous quality, of most malignant nature, was seen to distil from his lips. In his right hand he grasped a flail, and (that he might never be unprovided of an offensive weapon) a vessel full of ordure in his left. Thus completely armed, he advanced with a slow and heavy pace where the Modern chiefs were holding a consult upon the sum\
+    \ of things, who, as he came onwards, laughed to behold his crooked leg and humped shoulder, which his boot and armour, vainly endeavouring to hide, were forced to comply with and expose. The generals made use of him for his talent of railing, which, kept within government, proved frequently of great service to their cause, but, at other times, did more mischief than good; for, at the least touch of offence, and often without any at all, he would, like a wounded elephant, convert it against his leaders. Such, at this juncture, was the disposition of Bentley, grieved to see the enemy prevail, and dissatisfied with everybody’s conduct but his own. He humbly gave the Modern generals to understand that he conceived, with great submission, they were all a pack of rogues, and fools, and confounded logger-heads, and illiterate whelps, and nonsensical scoundrels; that, if himself had been constituted general, those presumptuous dogs, the Ancients, would long before this have been beaten out of the field. “You,” said he, “sit here idle, but when I, or any other valiant Modern kill an enemy,\
+    \ you are sure to seize the spoil. But I will not march one foot against the foe till you all swear to me that whomever I take or kill, his arms I shall quietly possess.” Bentley having spoken thus, Scaliger, bestowing him a sour look, “Miscreant prater!” said he, “eloquent only in thine own eyes, thou railest without wit, or truth, or discretion. The malignity of thy temper perverteth nature; thy learning makes thee more barbarous; thy study of humanity more inhuman; thy converse among poets more grovelling, miry, and dull. All arts of civilising others render thee rude and untractable; courts have taught thee ill manners, and polite conversation has finished thee a pedant. Besides, a greater coward burdeneth not the army. But never despond; I pass my word, whatever spoil thou takest shall certainly be thy own; though I hope that vile carcase will first become a prey to kites and worms.”"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[43]"
+    "line_start": 992
+    "source_sequence": 34
+  "translation_ja": "日も大いに暮れ、近代派の大軍が、半ば退却へ傾くころ、重装歩兵の一隊から、ベントリーという隊長が出た。近代派で、最も不格好な者だった。背は高いが、姿にも美しさにも欠け、体は大きいが、力も釣り合いもなかった。鎧は、互いに合わぬ千もの破片を継ぎ合わせ、進むたび、高く、乾いた音を立てた。エテシアの風に、突然、尖塔の屋根から吹き落とされた、鉛板の音のようだった。兜は、古い錆びた鉄で、面頬は真鍮だったが、息に汚され、腐って緑礬となっていた。同じ源から、胆汁にも事欠かなかったので、怒りや労苦に駆られると、最も悪性の、インクのようなものが、唇から滴るのが見えた。右手には殻竿、左手には、攻撃の武器に、決して不足せぬよう、汚物を満たした器を握っていた。完全武装した、この姿で、近代派の首領たちが、情勢全体を相談する所へ、ゆっくり重い足取りで進んだ。将軍たちは、近づくと、その曲がった脚と、盛り上がった肩を見て笑った。長靴と鎧は、隠そうと、むなしく努めたが、その形へ従い、さらけ出さざるを得なかった。将軍たちは、罵倒の才能を利用していた。管理しておけば、しばしば、大いに役立つが、そうでなければ、益より害が大きかった。少しでも気に障ると、しばしば、何もなくても、傷ついた象のように、自分の指導者へ向けたからだ。いまのベントリーは、まさに、そういう気分だった。敵が優勢なのを悔しがり、自分以外、誰の行動にも不満だった。近代派の将軍たちへ、恭しく、こう申し上げた。恐れながら、自分の考えでは、諸君は皆、悪党、馬鹿、とんでもない木偶の坊、無学な小犬、たわけたならず者の集まりだ。自分を将軍にしておけば、生意気な犬ども、古代派などは、とっくに戦場から叩き出されていたはずだ、と。「諸君は」と言った。「ここで怠けて座るが、おれか、ほかの勇敢な近代派が敵を殺せば、必ず戦利品を奪う。だが、おれが捕らえ、殺した者の武具は、誰のものでも、邪魔されずに取れると、皆で誓うまでは、敵へ向かって一歩も進まないぞ」。ベントリーが、こう言うと、スカリジェは、苦々しい目を向けた。「下劣なおしゃべりめ」と言った。「自分の目の中でしか雄弁でないくせに、機知も、真実も、分別もなく罵る。性質の悪意が、自然をねじ曲げ、学識は、お前を、もっと野蛮にし、人文学の研究は、もっと非人間的にし、詩人との交わりは、もっと卑屈で、泥まみれで、愚鈍にする。他人を文明化する、あらゆる技が、お前を粗野で、扱いにくくする。宮廷は無作法を教え、洗練された会話は、衒学者へ仕上げた。そのうえ、これほどの臆病者を、この軍はほかに抱えていない。しかし、決して落胆するな。約束しよう。取った戦利品は、何でも、確かに、お前のものとなる。ただし、その前に、卑しい屍が、鳶と虫の餌になるよう願うがね」。"
+  "translation_status": "reviewed"
+- "id": "btb-035"
+  "section_id": "episode"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Bentley durst not reply, but, half choked with spleen and rage, withdrew, in full resolution of performing some great achievement. With him, for his aid and companion, he took his beloved Wotton, resolving by policy or surprise to attempt some neglected quarter of the Ancients’ army. They began their march over carcases of their slaughtered friends; then to the right of their own forces; then wheeled northward, till they came to Aldrovandus’s tomb, which they passed on the side of the declining sun. And now they arrived, with fear, toward the enemy’s out-guards, looking about, if haply they might spy the quarters of the wounded, or some straggling sleepers, unarmed and remote from the rest. As when two mongrel curs, whom native greediness and domestic want provoke and join in partnership, though fearful, nightly to invade the folds of some rich grazier, they, with tails depressed and lolling tongues, creep soft and slow. Meanwhile the conscious moon, now in her zenith, on their guilty heads darts perpendicular rays; nor dare they bark, though much provoked at her refulgent\
+    \ visage, whether seen in puddle by reflection or in sphere direct; but one surveys the region round, while the other scouts the plain, if haply to discover, at distance from the flock, some carcase half devoured, the refuse of gorged wolves or ominous ravens. So marched this lovely, loving pair of friends, nor with less fear and circumspection, when at a distance they might perceive two shining suits of armour hanging upon an oak, and the owners not far off in a profound sleep. The two friends drew lots, and the pursuing of this adventure fell to Bentley; on he went, and in his van Confusion and Amaze, while Horror and Affright brought up the rear. As he came near, behold two heroes of the Ancient army, Phalaris and Æsop, lay fast asleep. Bentley would fain have despatched them both, and, stealing close, aimed his flail at Phalaris’s breast; but then the goddess Affright, interposing, caught the Modern in her icy arms, and dragged him from the danger she foresaw; both the dormant heroes happened to turn at the same instant, though soundly sleeping, and busy in a dream. For Phalaris\
+    \ was just that minute dreaming how a most vile poetaster had lampooned him, and how he had got him roaring in his bull. And Æsop dreamed that as he and the Ancient were lying on the ground, a wild ass broke loose, ran about, trampling and kicking in their faces. Bentley, leaving the two heroes asleep, seized on both their armours, and withdrew in quest of his darling Wotton."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[44]"
+    "line_start": 1044
+    "source_sequence": 35
+  "translation_ja": "ベントリーは、返す勇気もなく、ひがみと怒りに、半ば喉を詰まらせ、大きな手柄を立てようと、固く決心して退いた。助け手と連れとして、最愛のウォットンを伴い、計略か奇襲で、古代派の軍の、手薄な一角を襲うつもりだった。殺された友人の屍を越えて進み、自軍の右手へ出て、北へ回り、アルドロヴァンドゥスの墓へ至ると、沈む日の側を通り過ぎた。いまや、恐れながら敵の前哨へ近づき、負傷者の宿か、武器も持たず、仲間から離れて眠る、はぐれ者が見えぬかと、見回した。生まれつきの貪欲と、家の欠乏に駆られ、手を組んだ二匹の雑種犬が、恐れながらも、夜ごと、豊かな牧畜家の囲いへ侵入しようと、尾を下げ、舌を垂らし、そっと、ゆっくり這うようなものだった。その間、天頂へ達した、すべてを見通す月は、罪深い頭へ、垂直の光を射す。水たまりに映る姿で見ようと、空で直接見ようと、輝く顔に、いくら苛立っても、吠える勇気はない。一匹が周囲を見渡す間、もう一匹は平地を探る。群れから離れた所に、腹いっぱいの狼や、不吉な烏の残した、半ば食われた屍を見つけられないかと。この、美しく、愛し合う二人の友も、劣らぬ恐怖と用心をもって進んだ。すると、遠くに、樫へ掛けられた、輝く鎧が二領と、近くで深く眠る、その持ち主が見えた。二人は籤を引き、この冒険は、ベントリーに当たった。進む先頭には混乱と驚愕、後尾には恐怖と戦慄がついた。近づくと、見よ、古代派の二勇士、ファラリスとイソップが、熟睡していた。ベントリーは、二人とも片づけたくてたまらず、忍び寄り、ファラリスの胸へ殻竿を向けた。だが、そのとき、戦慄の女神が割って入り、氷の腕で近代派を抱え、予見した危険から引きずり離した。眠る二勇士が、熟睡したまま、夢に夢中で、同時に寝返りを打ったのだ。ファラリスは、ちょうど、甚だ卑しいへぼ詩人に風刺され、その者を、自分の牡牛の中へ入れ、吠えさせる夢を見ていた。イソップは、古代の友と地面に寝ていると、逃げ出した野驢馬が走り回り、顔を踏み、蹴る夢を見た。ベントリーは、二勇士を眠るまま残し、両方の鎧を奪うと、最愛のウォットンを探しに退いた。"
+  "translation_status": "reviewed"
+- "id": "btb-036"
+  "section_id": "episode"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "He, in the meantime, had wandered long in search of some enterprise, till at length he arrived at a small rivulet that issued from a fountain hard by, called, in the language of mortal men, Helicon. Here he stopped, and, parched with thirst, resolved to allay it in this limpid stream. Thrice with profane hands he essayed to raise the water to his lips, and thrice it slipped all through his fingers. Then he stopped prone on his breast, but, ere his mouth had kissed the liquid crystal, Apollo came, and in the channel held his shield betwixt the Modern and the fountain, so that he drew up nothing but mud. For, although no fountain on earth can compare with the clearness of Helicon, yet there lies at bottom a thick sediment of slime and mud; for so Apollo begged of Jupiter, as a punishment to those who durst attempt to taste it with unhallowed lips, and for a lesson to all not to draw too deep or far from the spring."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[45]"
+    "line_start": 1087
+    "source_sequence": 36
+  "translation_ja": "その間、ウォットンは、手柄を求めて長くさまよい、ついに、人間の言葉でヘリコンと呼ぶ、近くの泉から流れる、小さな川へ着いた。そこで止まり、喉が渇いていたので、この澄んだ流れで癒そうとした。三度、汚れた手で水を唇へ運ぼうとし、三度、すべて指の間から、こぼれ落ちた。そこで、胸を下に伏せた。だが、口が、液体の水晶へ接吻する前に、アポロンが来て、流れの中で、近代派と泉の間へ盾を置いたので、泥しか吸えなかった。地上の、どの泉も、ヘリコンの清さには及ばないが、底には、粘土と泥が、厚く沈んでいるのである。アポロンがユピテルへ、そう願ったのだ。聖められぬ唇で、あえて味わおうとする者への罰、そして、あまり深く、あるいは源から遠くで、汲まぬよう、すべての者への教訓とするためである。"
+  "translation_status": "reviewed"
+- "id": "btb-037"
+  "section_id": "episode"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "At the fountain-head Wotton discerned two heroes; the one he could not distinguish, but the other was soon known for Temple, general of the allies to the Ancients. His back was turned, and he was employed in drinking large draughts in his helmet from the fountain, where he had withdrawn himself to rest from the toils of the war. Wotton, observing him, with quaking knees and trembling hands, spoke thus to himself: O that I could kill this destroyer of our army, what renown should I purchase among the chiefs! but to issue out against him, man against man, shield against shield, and lance against lance, what Modern of us dare? for he fights like a god, and Pallas or Apollo are ever at his elbow. But, O mother! if what Fame reports be true, that I am the son of so great a goddess, grant me to hit Temple with this lance, that the stroke may send him to hell, and that I may return in safety and triumph, laden with his spoils. The first part of this prayer the gods granted at the intercession of his mother and of Momus; but the rest, by a perverse wind sent from Fate, was scattered\
+    \ in the air. Then Wotton grasped his lance, and, brandishing it thrice over his head, darted it with all his might; the goddess, his mother, at the same time adding strength to his arm. Away the lance went hizzing, and reached even to the belt of the averted Ancient, upon which, lightly grazing, it fell to the ground. Temple neither felt the weapon touch him nor heard it fall: and Wotton might have escaped to his army, with the honour of having remitted his lance against so great a leader unrevenged; but Apollo, enraged that a javelin flung by the assistance of so foul a goddess should pollute his fountain, put on the shape of ---, and softly came to young Boyle, who then accompanied Temple: he pointed first to the lance, then to the distant Modern that flung it, and commanded the young hero to take immediate revenge. Boyle, clad in a suit of armour which had been given him by all the gods, immediately advanced against the trembling foe, who now fled before him. As a young lion in the Libyan plains, or Araby desert, sent by his aged sire to hunt for prey, or health, or exercise, he\
+    \ scours along, wishing to meet some tiger from the mountains, or a furious boar; if chance a wild ass, with brayings importune, affronts his ear, the generous beast, though loathing to distain his claws with blood so vile, yet, much provoked at the offensive noise, which Echo, foolish nymph, like her ill-judging sex, repeats much louder, and with more delight than Philomela’s song, he vindicates the honour of the forest, and hunts the noisy long-eared animal. So Wotton fled, so Boyle pursued. But Wotton, heavy-armed, and slow of foot, began to slack his course, when his lover Bentley appeared, returning laden with the spoils of the two sleeping Ancients. Boyle observed him well, and soon discovering the helmet and shield of Phalaris his friend, both which he had lately with his own hands new polished and gilt, rage sparkled in his eyes, and, leaving his pursuit after Wotton, he furiously rushed on against this new approacher. Fain would he be revenged on both; but both now fled different ways: and, as a woman in a little house that gets a painful livelihood by spinning, if chance\
+    \ her geese be scattered o’er the common, she courses round the plain from side to side, compelling here and there the stragglers to the flock; they cackle loud, and flutter o’er the champaign; so Boyle pursued, so fled this pair of friends: finding at length their flight was vain, they bravely joined, and drew themselves in phalanx. First Bentley threw a spear with all his force, hoping to pierce the enemy’s breast; but Pallas came unseen, and in the air took off the point, and clapped on one of lead, which, after a dead bang against the enemy’s shield, fell blunted to the ground. Then Boyle, observing well his time, took up a lance of wondrous length and sharpness; and, as this pair of friends compacted, stood close side by side, he wheeled him to the right, and, with unusual force, darted the weapon. Bentley saw his fate approach, and flanking down his arms close to his ribs, hoping to save his body, in went the point, passing through arm and side, nor stopped or spent its force till it had also pierced the valiant Wotton, who, going to sustain his dying friend, shared his fate.\
+    \ As when a skilful cook has trussed a brace of woodcocks, he with iron skewer pierces the tender sides of both, their legs and wings close pinioned to the rib; so was this pair of friends transfixed, till down they fell, joined in their lives, joined in their deaths; so closely joined that Charon would mistake them both for one, and waft them over Styx for half his fare. Farewell, beloved, loving pair; few equals have you left behind: and happy and immortal shall you be, if all my wit and eloquence can make you."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[46]"
+    "line_start": 1103
+    "source_sequence": 37
+  "translation_ja": "泉の湧き口に、ウォットンは、二人の勇士を見た。一人は見分けられなかったが、もう一人は、すぐ、古代派の同盟軍の将、テンプルとわかった。背を向け、兜で泉から、たっぷり水を飲んでいた。戦争の疲れを休めるため、退いていたのである。それを見たウォットンは、膝を震わせ、手をわななかせ、こう独り言を言った。ああ、我が軍を滅ぼす、この者を殺せたなら、首領たちの間で、どれほど名声を得られよう。しかし、人と人、盾と盾、槍と槍で立ち向かう勇気が、我々近代派の誰にあるだろう。神のように戦い、パラスかアポロンが、いつも肘のそばにいるのだから。だが、母よ、これほど偉大な女神の息子だという、名声の女神の話が真実なら、この槍をテンプルへ命中させ、一撃で地獄へ送り、戦利品を抱え、無事、勝利の帰還を遂げさせたまえ。この祈りの初めの部分は、母とモモスの取りなしで、神々が聞き入れた。だが、残りは、運命の送った、つむじ曲がりの風に、空中へ散らされた。そこでウォットンは槍を握り、頭上で三度振り、力いっぱい投げた。女神たる母も、同時に腕へ力を加えた。槍は唸って飛び、背を向けた古代派の帯まで達し、軽くかすめて、地へ落ちた。テンプルは、武器の触れたのも感じず、落ちた音も聞かなかった。ウォットンは、これほど偉大な将へ槍を投げ、報復も受けなかった名誉を携え、自軍へ逃げ帰れたかもしれない。しかし、アポロンは、これほど醜い女神の助けで投げた槍が、泉を汚したことへ怒り、――の姿となり、そのとき、テンプルに同行していた、若いボイルへ、そっと近づいた。まず槍を、次に、それを投げた遠い近代派を指し、ただちに仇を討てと、若い勇士へ命じた。すべての神々から与えられた、一揃いの鎧を着けたボイルは、すぐに、震える敵へ進み、敵は逃げ出した。リビアの平原か、アラビアの砂漠で、老いた父から、獲物を捕るため、健康のため、運動のために送り出された、若い獅子のように駆けた。山の虎か、猛る猪へ会いたいと思っていると、たまたま、うるさく鳴く野驢馬が、耳を辱める。気高い獣は、これほど卑しい血で爪を汚すのを嫌うが、不快な声に、ひどく怒る。愚かなニンフ、エコーも、判断の悪い同性の仲間らしく、フィロメラの歌より、ずっと大きく、ずっと喜んで繰り返す。そこで、森の名誉を守るため、騒々しい、耳の長い動物を追う。ウォットンは、そのように逃げ、ボイルは、そのように追った。しかし、重装備で、足の遅いウォットンの走りは、鈍り始めた。そこへ、眠る古代派二人の戦利品を抱えて戻る、彼を愛するベントリーが現れた。ボイルは、よく見て、友ファラリスの兜と盾を、すぐに見つけた。近ごろ、自分の手で磨き、金箔を施したものだった。目に怒りが閃き、ウォットンの追跡をやめ、新たに来る者へ、猛烈に突進した。どちらにも仇を討ちたかったが、二人は、別々へ逃げた。小さな家で、糸を紡ぎ、苦しい暮らしを立てる女が、共有地に鵞鳥を散らしてしまうと、平地を、あちらへこちらへ走り回り、はぐれた者を、あちこちで群れへ戻すようなものだった。鵞鳥は、大声で鳴き、野を羽ばたく。ボイルは、そのように追い、二人の友は、そのように逃げた。ついに、逃走も無駄だとわかると、勇敢にも合流し、密集陣を組んだ。まずベントリーが、敵の胸を貫こうと、全力で槍を投げた。だがパラスが、見えぬまま来て、空中で穂先を外し、鉛の穂を取りつけた。それは、敵の盾へ鈍く当たり、潰れて地へ落ちた。次にボイルは、よく機をうかがい、驚くほど長く鋭い槍を取った。二人の友が、ぴったり横に並んで固まると、右へ回り、並外れた力で、その武器を投げた。ベントリーは、運命が迫るのを見ると、体を守ろうと、両腕を、肋骨へ、ぴたりと下ろした。穂先は、腕と脇腹を通り抜け、その勢いを止めず、使い果たさず、死にゆく友を支えようとした、勇敢なウォットンまでも貫き、同じ運命を分け合わせた。腕のよい料理人が、山鷸二羽の、脚と翼を肋へぴたりと縛り、鉄串で、柔らかな両方の脇を刺し通すようなものだった。二人の友は、そのように串刺しになり、倒れた。生きて結ばれ、死んで結ばれ、あまりに固く結ばれたので、カロンも二人を一人と間違え、半額の船賃で、ステュクスを渡すだろう。さらば、愛され、愛し合う二人よ。残した者に、比肩する者は少ない。私の機知と雄弁の、すべてで、そうできるなら、幸せに、不滅となるだろう。"
+  "translation_status": "reviewed"
+- "id": "btb-038"
+  "section_id": "episode"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "And now. . . ."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[47]"
+    "line_start": 1183
+    "source_sequence": 38
+  "translation_ja": "さて、いまや……。"
+  "translation_status": "reviewed"
+- "id": "btb-039"
+  "section_id": "episode"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Desunt cœtera."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[48]"
+    "line_start": 1184
+    "source_sequence": 39
+  "translation_ja": "以下欠落。"
+  "translation_status": "reviewed"
+"notes": []
+"references": []
+"groups": []
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "swift-name"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Jonathan Swift"
+  "translation_ja": "ジョナサン・スウィフト"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+  "note_ja": "既存『樽物語』の表記を踏襲。"
+- "id": "bentley"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Bentley"
+  "translation_ja": "ベントリー"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+  "note_ja": "既存『樽物語』の表記を踏襲。"
+- "id": "wotton"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Wotton"
+  "translation_ja": "ウォットン"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+  "note_ja": "既存『樽物語』の表記を踏襲。"
+- "id": "momus"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Momus"
+  "translation_ja": "モモス"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+  "note_ja": "既存『樽物語』の表記を踏襲。"
+- "id": "virgil"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Virgil"
+  "translation_ja": "ウェルギリウス"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+  "note_ja": "既存『樽物語』の表記を踏襲。"
+- "id": "perrault"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Perrault"
+  "translation_ja": "ペロー"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+  "note_ja": "既存『樽物語』の表記を踏襲。"
+- "id": "ancients"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Ancients"
+  "translation_ja": "古代派"
+- "id": "moderns"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Moderns"
+  "translation_ja": "近代派"
+- "id": "gall-and-copperas"
+  "kind": "term"
+  "source_language": "en"
+  "source": "gall and copperas"
+  "translation_ja": "没食子と緑礬"
+  "note_ja": "インクの原料。gallには胆汁・苦味を指す語義も重なる。"
+- "id": "sweetness-and-light"
+  "kind": "term"
+  "source_language": "en"
+  "source": "sweetness and light"
+  "translation_ja": "甘さと光"
+  "note_ja": "蜜の甘さと蝋の灯りを重ねる。"
+- "id": "criticism"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Criticism"
+  "translation_ja": "批評"
+- "id": "diffidence"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Diffidence"
+  "translation_ja": "謙遜"
+  "note_ja": "ウェルギリウスの慎み深さ・控えめな性質を人格化した女神。"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-21T00:53:30Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "954bb0f6896e51f7a9e8f724710966179a9d33569e61caa6301b33400a1d8a95"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "8353c0a876b11cfc615c2b0e7b6c393ef0ce5109"
+  "translation_method": "Codexによる英語原文からの新訳。全40単位の初稿保存後、原文と日本語を原著順に一回全文対照し、意味、欠落、数量、否定、話者、固有名を確認・修正。別個の日本語単独通読や文体だけの磨き直しは実施していない。"
+  "drafted_segment_count": 40
+  "next_segment_id": null
+  "source_word_count": 9980
+  "source_units_sha256": "9715c07fcf55218e293c2131a701c0c418a7ec8a4854b9aa042f0fea25691bb9"
+  "reviewed_draft_sha256": "6e126385b239c012ed9466db088cb08981fb92385b5c010a931cf1e324038160"
+  "full_review_segment_ids":
+  - "btb-000"
+  - "btb-001"
+  - "btb-002"
+  - "btb-003"
+  - "btb-004"
+  - "btb-005"
+  - "btb-006"
+  - "btb-007"
+  - "btb-008"
+  - "btb-009"
+  - "btb-010"
+  - "btb-011"
+  - "btb-012"
+  - "btb-013"
+  - "btb-014"
+  - "btb-015"
+  - "btb-016"
+  - "btb-017"
+  - "btb-018"
+  - "btb-019"
+  - "btb-020"
+  - "btb-021"
+  - "btb-022"
+  - "btb-023"
+  - "btb-024"
+  - "btb-025"
+  - "btb-026"
+  - "btb-027"
+  - "btb-028"
+  - "btb-029"
+  - "btb-030"
+  - "btb-031"
+  - "btb-032"
+  - "btb-033"
+  - "btb-034"
+  - "btb-035"
+  - "btb-036"
+  - "btb-037"
+  - "btb-038"
+  - "btb-039"
+  "full_review_units":
+  - "id": "btb-000"
+    "source_sha256": "fc55bb1007b3cf32d27978b53f8265497f4b570bf426fdd40bf3819d619c16b2"
+    "translation_sha256": "c3d92c332e4f982fab4fc85f06b3478d61d799cc0110ab678b87a9df15200fc1"
+  - "id": "btb-001"
+    "source_sha256": "8cbc959e8f650b268eb5835512d76a3c715bc06332c3caab29774c5b2e9b6582"
+    "translation_sha256": "275d3bdb95267e2469656f6c36b993d7e9cb24377196c9d676dc7d21dc36fe05"
+  - "id": "btb-002"
+    "source_sha256": "db2703f84e7a722d665cfd81382fa18aca96326652813f9e17e78ad0b161e984"
+    "translation_sha256": "c8d4a059bf30a17024c93ff74d6fc4eeacc12588be824449acd7100cc0c512bf"
+  - "id": "btb-003"
+    "source_sha256": "a4ef52b67eb034da66caf48c3d3876e10d5fa2bc3df92117dd580b1affa37898"
+    "translation_sha256": "dc35563c389425b93d5ef79bbdeac46bda396187046986cba69d7ffb7d367722"
+  - "id": "btb-004"
+    "source_sha256": "d27bf93f01403b03a533245b3c1813cdd76f2e81bb7b1d92ba1853fd74635fd3"
+    "translation_sha256": "a975f5365fcb2161c8eeab9675d338da531d0a526d13318f290979dc44e76131"
+  - "id": "btb-005"
+    "source_sha256": "1ad917a795a1e00b021beba6f112d954adea3a25d32a566ea43d99e4ecdce04a"
+    "translation_sha256": "7e59b46cecee37748fc548309b9f31db6babb35dc7ca459a8ec733231a47dbbb"
+  - "id": "btb-006"
+    "source_sha256": "e2f163662374a8a4a910857968d5530259a3b73d8b706942850b7ef36750bbae"
+    "translation_sha256": "06d620b3e1e222d53f529185e326b1b2ae12342d1118f253c9fbd0d53c09d731"
+  - "id": "btb-007"
+    "source_sha256": "7c510360933cd15eaba291c573798568477d312c2a1cc0080ad547a2266b6924"
+    "translation_sha256": "5535e925283f0de470dc3c9d00c1c39ad1ac402fc5ee27e65dce4d9306efe1c1"
+  - "id": "btb-008"
+    "source_sha256": "36c7cf680d49906fee40fb062e4617e4961636ab74102a4738b7316712e156f5"
+    "translation_sha256": "8aed419773b0b2305672e5b9e0af9d8118861aa947f639750acf3d8fac74f3b5"
+  - "id": "btb-009"
+    "source_sha256": "7605e5314528feca1c437472276c09c25e0481836999b9f916edecdd943dc465"
+    "translation_sha256": "94e361f7def000d1ccc38e5d0e6126b29e3cd1748f705b144e413ba6d2861324"
+  - "id": "btb-010"
+    "source_sha256": "4c7a8f8a10dcf5943e92bdce1e89f93cafbb98860b18bd8e028a52932d7580be"
+    "translation_sha256": "90e34ca6f065ffca68e974c2946f71f4d3b6ae98bf5966c0d7fb4a40270411c7"
+  - "id": "btb-011"
+    "source_sha256": "36d6cdf21f25d176020dc565492ced3dff7376576903048399b3ee7b1e512160"
+    "translation_sha256": "f3d3df8cded4af1333ec0a3f83d74d99d72e8def98ded3e0959aef4c70629416"
+  - "id": "btb-012"
+    "source_sha256": "685f7bbf9cd23b1a8fe2025ca220b7fd4c4932a4a65ebfd016dc2a17e71d74e5"
+    "translation_sha256": "8a48c66e5186f89828a8922527d522022132b4c2c31f21f22cd30dc6df4ec92c"
+  - "id": "btb-013"
+    "source_sha256": "222c0513dcf16ed63310605acf96a96b2f194d02f34433a9f44ad17ab549265c"
+    "translation_sha256": "dae1c1d567afd9e532c61d4c08f58e6075f58c7ed784330b759db35624f25c1f"
+  - "id": "btb-014"
+    "source_sha256": "b8705a3b01c244e6baa82a8fb0ff9a998e175adbbcbb31aa968e3682ea626dec"
+    "translation_sha256": "8d560da92b6d9aaca194fe66b39cf527b30057a9210a60ec73d5647116508275"
+  - "id": "btb-015"
+    "source_sha256": "fa5f27acd18f772b4e58cc16c8d5269f0c20ca828a4421016946c9ca80f42e83"
+    "translation_sha256": "706dc0d9632f2459c5605c3a641a3323498cedd9476d1f9d906f556deeee57ea"
+  - "id": "btb-016"
+    "source_sha256": "271ddb95e2a895a44b50209e69d9a027fbcd48e2c4ee1de171f64f4f758a4570"
+    "translation_sha256": "623677ecadba8a339c07106e464ef9805f261bf7c324514ed5f4bcf376d2908b"
+  - "id": "btb-017"
+    "source_sha256": "13819950256a480be5e580b612cce7985179a152e5bfbb56a8f819e9d2718aa8"
+    "translation_sha256": "040b54bf005cf08d521eddc0597253f8ede555bc5a7c3fdbdce88e306b0d8bb0"
+  - "id": "btb-018"
+    "source_sha256": "8d4aa472f1f3f5917f00095a6706d87fc1604ed7f84dda66425d079d317cddc9"
+    "translation_sha256": "5e1280988e1bd6072a5dc408290dff24914dc9b592a69a04d68c700ae90da641"
+  - "id": "btb-019"
+    "source_sha256": "8d27c2238e97eaf6949f4948e56b00bf1df12ff918573221ab602eec798ed25d"
+    "translation_sha256": "0ef75a8ff9c3c6b9040e10c773a4f8cb32d3e434252ea3c5cf6f48d313a6ba45"
+  - "id": "btb-020"
+    "source_sha256": "c0949242173b96d1ea0fb9f919aabad7550a92ee08a5a4f4b1e2cbac29285f6a"
+    "translation_sha256": "53f3326650a3f51a29de9540cae2c04b6f4d100c5363431e8958e7d4aaa2de13"
+  - "id": "btb-021"
+    "source_sha256": "85e321b691772628cf2a67eed3a0ab3b9f99e084bcfe796abe90216c00108c3e"
+    "translation_sha256": "239d920be7e8a77056b895fd0b4d5da6893440503784f586cd6e3206bf0f506c"
+  - "id": "btb-022"
+    "source_sha256": "23dae4e9541883c16e606fcaed783606808875c5f6c399edc130d1679d5e13bb"
+    "translation_sha256": "b23f771a2bddf3262d4885cd8213e17c02b2e312d357d7276beb174c469553ec"
+  - "id": "btb-023"
+    "source_sha256": "b5bf764390c7f051389f12bac3a3a96596bd50fe5c36eb84f76c3da5c9ff3260"
+    "translation_sha256": "f522d3ba319158d83f0f627979c266c456e72ddd6dad7172da6cc0ff74555040"
+  - "id": "btb-024"
+    "source_sha256": "f6b76144bc7210609c6c9e04a959f802cbe8309ffcfec7c62c573f3da0682ac8"
+    "translation_sha256": "12070c5d41d266220792b10bf76a3c8e0c7eef73d267338bc8a2bbb25e1450b0"
+  - "id": "btb-025"
+    "source_sha256": "c1df173634a3c2b0d8973e9a6db0b95bd37b20a59c7fe221e6d5e4164fa8bd67"
+    "translation_sha256": "1f8354c6fde026c8256e3cc8b67afd0278bc2c7c35d3710cddfd2ae57057105e"
+  - "id": "btb-026"
+    "source_sha256": "a38636259e28f894eeff192ddcaff9591714c10a0e7de73d5b1b30d65e29b590"
+    "translation_sha256": "ef931b8fc7f850eadb1897a596c6ca0858fb6077baa37841fb8432cad5b079ca"
+  - "id": "btb-027"
+    "source_sha256": "85d61a5ed07817101d05359043988af7b34011db0cdb8826ee1c6bc04de06f55"
+    "translation_sha256": "314d0a7d1f4a765716879346b29148b054688b231c772e7baeebf60e187b83ea"
+  - "id": "btb-028"
+    "source_sha256": "dd4a1b79c463fe7e98f4642ecf2771ccd75142d9c657343d24b6143d7f7b7e6f"
+    "translation_sha256": "b288b0904be9c617a7fac4f46950f4e164dfec14377c846662a73ade5bbca64d"
+  - "id": "btb-029"
+    "source_sha256": "02df4a72e18f5eb28dd432046614c7346d32ec1104960f5e28a98672813ff89d"
+    "translation_sha256": "5d188f8f4cc8cb03a7082e96236e0204ecd8c2112c75a5a85eff67b504902795"
+  - "id": "btb-030"
+    "source_sha256": "175f8622dca46266055476c02ed84d85c09cadc84d11f89652b026855e2ae5bd"
+    "translation_sha256": "75fc799ae8cc833902b44e9baa69b56ae176047c5346e29738f197db82233ace"
+  - "id": "btb-031"
+    "source_sha256": "86353828b70b740e887c376fee76404a32d7e77fd66c3b2299ddb4b41b042bd3"
+    "translation_sha256": "565d6861ef2d95e11db5104a758a375a8bc2486262298c70cebf1928b5af0bb8"
+  - "id": "btb-032"
+    "source_sha256": "24e1043637b6b85daa4c2a3f35a4de380b1ed7468e40f1b32bef6f02af67cb32"
+    "translation_sha256": "f28f2634c3ae5c769955904b8e6fcd8d7bb8758a956dead50f871043707f2129"
+  - "id": "btb-033"
+    "source_sha256": "ef414d5c0ee4960298078dc4f18d0c9d996fab19c77b0047a46df03811b04256"
+    "translation_sha256": "95ee6d64f305448827c16073b6718126dd3c07954f32537961add9b88568d46b"
+  - "id": "btb-034"
+    "source_sha256": "24a7071c0abfa0a34edd1372b8628c780db912245f98eca7e27cf6c76162f967"
+    "translation_sha256": "3b8a9e0cf2c5d0b74345b237bd6b318438f6de89f560d699bda69ec20cce0105"
+  - "id": "btb-035"
+    "source_sha256": "2a51fc45246665e1ab68f49618757e6dd1b1bb72d2f55f7ededa6d867d55546f"
+    "translation_sha256": "a76a2f37c5843bfcd7ace96adb5eabdd16e221d7736800b7ea8f83af5e72876f"
+  - "id": "btb-036"
+    "source_sha256": "1b56b336c6f31e292085ace5486a8b44bd10328ea297bd7db59a965ce5f5495f"
+    "translation_sha256": "dee7956694a3ff97a4245b47e05d37e0887ec00f31340ec52ee8fe77c2b75f56"
+  - "id": "btb-037"
+    "source_sha256": "397777f5a9dc849c2b6e5a6dbffe83dd01376bf8f4f9f465398caa6195f62b04"
+    "translation_sha256": "75c79e8430ccf76ac165e6c447575a6111f2c1c04e2542243460f49f3134dcf6"
+  - "id": "btb-038"
+    "source_sha256": "77307b99174fbaf0012242ed9e7a082f4032c586cb4c49cf5deb361cbb061870"
+    "translation_sha256": "b7755b3a256e8411ed809ac9447d6a75fed3e5f45ad4966ccebdc3a77de424dd"
+  - "id": "btb-039"
+    "source_sha256": "3fc5609de2eedb039f35db7a759ba107c95fa915eba6a75712a3546be39cbd0d"
+    "translation_sha256": "83633283015412f2dfa9836f5badf615fdc471c72c043a34a4a82fe68631d0cd"
+  "full_review_corrections":
+  - "id": "btb-001"
+    "old_translation_sha256": "a49b61d0baf042f3cd6e59a7cc2e607a407896db772b689887048413c297c88b"
+    "reason_ja": "was on footは論争が進行していたことをいう。発端の年を1697年と断定する訳を修正。"
+  - "id": "btb-009"
+    "old_translation_sha256": "860ab8f0e0fdb9b29de2aece8f6e085aa56b4aab46cc87368d79606e7c7d4fc2"
+    "reason_ja": "ラテン語brutum hominisの属格と、霊的残存物をいう文脈に合わせ、獣的な性格の霊という解釈へ寄せず、人間の獣的な部分という呼称を示す。"
+  - "id": "btb-018"
+    "old_translation_sha256": "dad38ae0c51387769c9eb1072fbce94829f2f545f0ce6665ef5f76f41ed647ab"
+    "reason_ja": "four inches roundに原文にない正方形を設定した点を修正。feeding and engendering on itselfの、自分だけを糧とし産出するという閉鎖的な比喩も明確にする。"
+  - "id": "btb-020"
+    "old_translation_sha256": "a55c534a31d89e53a23e60667c400af7eb2b482ca06299e68e5d33e7c1ee5d08"
+    "reason_ja": "a large veinはここでは性向・資質を指し、論理のつながりである脈絡ではないため修正。"
+  - "id": "btb-031"
+    "old_translation_sha256": "d9dbb2fcfc62d87a336f0319d77e4d76238cc47344b2c3f625d42a2462775733"
+    "reason_ja": "Diffidenceはウェルギリウスの慎み深さ・控えめな性質を人格化した語で、決断をためらう意味ではない。古代伝記を引くRunning Commentary p.145でもshyness and modestyと確認した。"
+  - "id": "btb-032"
+    "old_translation_sha256": "a61c5327f6289f9cf14b7c9280892ccf84156e522a596da42f2e59ff351e0c29"
+    "reason_ja": "to be trodは倒れた半身が踏まれるに任せられることを表す。既に踏まれ終わった出来事として読ませないよう時の関係を修正。"
+  - "id": "btb-034"
+    "old_translation_sha256": "5f2c7f6c8cba6d34a07a6c3f60d2529fae8410bb5b3ccccd589af785a6f3395b"
+    "reason_ja": "a greater coward burdeneth not the armyの、軍で最も臆病な者だという比較関係を明確にする。"
+  - "id": "btb-035"
+    "old_translation_sha256": "ebab8d33e06902e726be9da3eb2eb7c699e4a52483550394e2d093aa2f92d134"
+    "reason_ja": "by reflectionは月の影が落ちることではなく、水面に映る姿を見ることをいうため修正。"
+  "full_review_notes":
+  - "全40単位の初稿が揃った後、書店主の2段落、著者序の鏡・クリーム比喩、本文冒頭の戦争と高慢・犬の共和国まで、btb000〜007の全原文と日本語を一回対照。btb001の進行中を発端とする誤読を修正。Bentleyの表記は既訳のベントリーを確認。"
+  - "btb008〜013を英日全文対照。パルナッソスの二案、岩への応答、羽根ペンと戦勝記念の列挙、八百年と五万兵、図書館での人名と配置を確認。gall/copperasは原料の没食子/緑礬でよいことを、当時の製法を引く研究者のRunning Commentary（https://www.uni-muenster.de/imperia/md/content/englischesseminar/swift/battle_commentary.pdf pp.22〜23）および一次の製法集（https://www.gutenberg.org/files/46254/old/46254-h/46254-h.htm）で確認。brutum hominisも同Commentary pp.25〜26のVaughan/Paracelsus一次引用に照らして語義を確認。"
+  - "btb014〜020の全原文と日本語を対照。プラトンの皮肉、テンプルの転属、蜘蛛と蜂の発話順・三度の反復・生まれつきの元手・自然からの採集、イソップの適用と甘さ／光の比喩を確認。source_textにあるlesson/fall/tillを改変せず、対になるdisparage、増分の源、蜜と蝋の文脈からlessen/fail/fillの意味で訳すことを確認。"
+  - "btb021〜028の全原文と訳文を対照。両軍の部隊・人名・役割、名声とユピテルの運命の書、批評とその家族、ウォットンへの憑依を確認。八つ折判・二つ折判、七人の子、没食子と煤の墨、神学者ベントリーの呼称を確認。"
+  - "btb029〜039の全原文と訳文を対照。各戦闘の攻撃者と防御者、兜九倍・牛百頭・投槍三本・十二騎・三度と七度の反復、身体と書物を二重に指す比喩、二人の死と半額の渡し賃、末尾の欠落表示を確認。欠落を示すラテン語はすべて訳出済み。Diffidenceは同Running Commentary p.145のDonatus古代伝記引用を確認。lady in a lobsterは同p.142〜143および初期辞書の用例を確認し、原語の貴婦人という呼称を保った。"
+  "boundary_note_ja": "Morleyの紹介と後続の別作品は別範囲。書店主の言葉からDesunt cœteraまでの40単位を原文順に保持。図なし。"

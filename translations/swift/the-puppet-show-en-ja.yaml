@@ -1,0 +1,822 @@
+"schema_version": "2.0"
+"work_id": "swift-the-puppet-show"
+"metadata":
+  "title_ja": "人形芝居"
+  "title_original": "The Puppet-Show"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "browning"
+    "name_ja": "ウィリアム・アーンスト・ブラウニング"
+    "name_original": "William Ernst Browning"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "今回の新訳の利用条件は未指定。原著・底本編集物・電子翻刻の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "詩"
+  - "風刺"
+  "reader_notes_ja":
+  - "1910年G. Bell and Sons版の電子翻刻による。詩の全72行・18連と底本注二件を収録。"
+"sources":
+- "id": "gutenberg-14353"
+  "role": "primary"
+  "title": "The Poems of Jonathan Swift, D.D., Volume I"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+  "edition": "William Ernst Browning編、London: G. Bell and Sons, Ltd.、1910年。Project Gutenberg eBook 14353。HTMLに初公開2004年12月14日・最終更新2024年10月28日と記載。"
+  "contributor_ids":
+  - "swift"
+  - "browning"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/14353"
+    "note_ja": "原著者Swiftは1745年没。1910年刊本で、Project Gutenberg書誌は米国で公有と表示。編者Browningの没年1916はスコットランド国立図書館一次アーカイブ目録のCreator欄（https://manuscripts.nls.uk/repositories/2/archival_objects/18799）で1830–1916と記載。原著と後代の編集注を区別する。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "E-text prepared by Clare Boothby, G. Graustein, and the Project Gutenberg Online Distributed Proofreading\
+      \ Team"
+    "note_ja": "公有の原著・1910年版編集物と、Project Gutenbergの商標および電子版配布条件を区別する。"
+  "sha256": "86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc"
+  "description_ja": "1910年刊本の当該篇と底本注を収録。原著者の詩・序文と後代の編集注を区別する。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "題・詩本文全72行18連・底本注2件。"
+    "section_ids":
+    - "poem"
+    - "source-notes"
+  "excluded":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "巻全体の標題紙・編者序文・序論・目次、同巻の前後の他作品、電子版の定型利用案内とライセンス。空の段落・装飾罫線・アンカーだけの要素は本文と区別。対象作品本文と底本注に省略なし。"
+  "known_gaps": []
+"sections":
+- "id": "poem"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "ps-title"
+  "origin": "source"
+- "id": "source-notes"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "label_ja": "底本注"
+  "origin": "editorial"
+"segments":
+- "id": "ps-title"
+  "section_id": "poem"
+  "kind": "heading"
+  "source_text": |-
+    THE PUPPET-SHOW
+  "translation_ja": |-
+    人形芝居
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/h2[75]"
+    "line_start": 9093
+    "source_sequence": 0
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-001"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    The life of man to represent,
+      And turn it all to ridicule,
+    Wit did a puppet-show invent,
+      Where the chief actor is a fool.
+  "translation_ja": |-
+    人の一生を映し出し、
+      そのすべてを笑いものにしようと、
+    才知は人形芝居を発明した、
+      主役を務めるのは愚か者。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9097
+    "line_end": 9100
+    "source_sequence": 1
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-002"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    The gods of old were logs of wood,
+      And worship was to puppets paid;
+    In antic dress the idol stood,
+      And priest and people bow'd the head.
+  "translation_ja": |-
+    昔の神々は木の丸太、
+      人形に礼拝が捧げられた。
+    奇妙な衣装で偶像は立ち、
+      神官も民も頭を垂れた。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9102
+    "line_end": 9105
+    "source_sequence": 2
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-003"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    No wonder then, if art began
+      The simple votaries to frame,
+    To shape in timber foolish man,
+      And consecrate the block to fame.
+  "translation_ja": |-
+    だから、細工の技が始めたとしても不思議はない、
+      あの無邪気な信者を作ることを。
+    愚かな人間を材木で形作り、
+      木の塊を名声のために聖別することを。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9107
+    "line_end": 9110
+    "source_sequence": 3
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-004"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    From hence poetic fancy learn'd
+      That trees might rise from human forms;
+    The body to a trunk be turn'd,
+      And branches issue from the arms.
+  "translation_ja": |-
+    ここから詩人の空想は学んだ、
+      人の姿から木々が生え出てもよいのだと。
+    胴体は幹に変わり、
+      腕から枝が伸び出すのだと。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9112
+    "line_end": 9115
+    "source_sequence": 4
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-005"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Thus Dædalus and Ovid too,
+      That man's a blockhead, have confest:
+    Powel and Stretch[1] the hint pursue;
+      Life is a farce, the world a jest.
+  "translation_ja": |-
+    かくして、ダイダロスもオウィディウスも、
+      人間は木偶の坊だと認めた。
+    パウエルとストレッチ[1]は、その暗示を受け継ぐ。
+      人生は茶番、この世は冗談なのだ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9117
+    "line_end": 9120
+    "source_sequence": 5
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-006"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    The same great truth South Sea has proved
+      On that famed theatre, the alley;
+    Where thousands, by directors moved
+      Are now sad monuments of folly.
+  "translation_ja": |-
+    同じ偉大な真実を、南海会社も証明した、
+      かの名高い舞台、あの取引小路で。
+    取締役に動かされた幾千人もが、
+      いまでは愚かさの、悲しい記念碑なのだから。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9122
+    "line_end": 9125
+    "source_sequence": 6
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-007"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    What Momus was of old to Jove,
+      The same a Harlequin is now;
+    The former was buffoon above,
+      The latter is a Punch below.
+  "translation_ja": |-
+    昔、ユピテルに対するモモスだったもの、
+      いまのアルルカンも同じこと。
+    前者は天上の道化であり、
+      後者は地上のパンチである。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9127
+    "line_end": 9130
+    "source_sequence": 7
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-008"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    This fleeting scene is but a stage,
+      Where various images appear;
+    In different parts of youth and age,
+      Alike the prince and peasant share.
+  "translation_ja": |-
+    この移ろう景色は、ただの舞台、
+      さまざまな像が姿を見せる。
+    若い役も、老いた役も、
+      君主も農夫も、等しく分け持つ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9132
+    "line_end": 9135
+    "source_sequence": 8
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-009"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Some draw our eyes by being great,
+      False pomp conceals mere wood within;
+    And legislators ranged in state
+      Are oft but wisdom in machine.
+  "translation_ja": |-
+    偉いというだけで、我々の目を引く者もいる、
+      偽りの威儀が、中のただの木を隠す。
+    そして、いかめしく居並ぶ立法者も、
+      しばしば、機械仕掛けの知恵にすぎぬ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9137
+    "line_end": 9140
+    "source_sequence": 9
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-010"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    A stock may chance to wear a crown,
+      And timber as a lord take place;
+    A statue may put on a frown,
+      And cheat us with a thinking face.
+  "translation_ja": |-
+    木の塊が、王冠をかぶることもあり、
+      材木が、貴族として席を占めもする。
+    彫像がしかめ面を装い、
+      考えているような顔で、我々を欺きもする。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9142
+    "line_end": 9145
+    "source_sequence": 10
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-011"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Others are blindly led away,
+      And made to act for ends unknown;
+    By the mere spring of wires they play,
+      And speak in language not their own.
+  "translation_ja": |-
+    ほかの者は、わけもわからず引かれるまま、
+      知りもしない目的のために動かされる。
+    ただ針金の仕掛けで演じ、
+      自分のものではない言葉で話す。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9147
+    "line_end": 9150
+    "source_sequence": 11
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-012"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Too oft, alas! a scolding wife
+      Usurps a jolly fellow's throne;
+    And many drink the cup of life,
+      Mix'd and embitter'd by a Joan.
+  "translation_ja": |-
+    ああ、あまりにもよくあるのは、口やかましい妻が、
+      陽気な男の王座を奪うこと。
+    多くの者が、ジョーンの混ぜ物で苦くなった、
+      人生の杯を飲むのである。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9152
+    "line_end": 9155
+    "source_sequence": 12
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-013"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    In short, whatever men pursue,
+      Of pleasure, folly, war, or love:
+    This mimic race brings all to view:
+      Alike they dress, they talk, they move.
+  "translation_ja": |-
+    要するに、人々が追い求めるものなら何でも、
+      快楽も、愚行も、戦争も、恋も、
+    この物真似の種族が、すべて見せてくれる。
+      同じように着て、話して、動くのだ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9157
+    "line_end": 9160
+    "source_sequence": 13
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-014"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Go on, great Stretch, with artful hand,
+      Mortals to please and to deride;
+    And, when death breaks thy vital band,
+      Thou shalt put on a puppet's pride.
+  "translation_ja": |-
+    進め、偉大なストレッチよ、巧みな手で、
+      人間どもを楽しませ、嘲るために。
+    死がお前の命の絆を断つときには、
+      人形の晴れ姿をまとうだろう。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9162
+    "line_end": 9165
+    "source_sequence": 14
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-015"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Thou shalt in puny wood be shown,
+      Thy image shall preserve thy fame;
+    Ages to come thy worth shall own,
+      Point at thy limbs, and tell thy name.
+  "translation_ja": |-
+    お前は、ちっぽけな木の姿で見せられ、
+      その像が、お前の名声を保つだろう。
+    来たる世々は、お前の値打ちを認め、
+      手足を指差し、その名を語るだろう。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9167
+    "line_end": 9170
+    "source_sequence": 15
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-016"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Tell Tom,[2] he draws a farce in vain,
+      Before he looks in nature's glass;
+    Puns cannot form a witty scene,
+      Nor pedantry for humour pass.
+  "translation_ja": |-
+    トム[2]には言え、茶番を書いても無駄だと、
+      自然の鏡を覗き込まぬうちは。
+    駄洒落では、気の利いた場面は作れず、
+      学者気取りは、ユーモアでは通らない。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9172
+    "line_end": 9175
+    "source_sequence": 16
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-017"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    To make men act as senseless wood,
+      And chatter in a mystic strain,
+    Is a mere force on flesh and blood,
+      And shows some error in the brain.
+  "translation_ja": |-
+    人を、感覚のない木のように動かし、
+      わけのわからぬ調子で、しゃべらせるのは、
+    生身の人間に対する、ただの無理強いであり、
+      頭のどこかの間違いを示している。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9177
+    "line_end": 9180
+    "source_sequence": 17
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-verse-018"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    He that would thus refine on thee,
+      And turn thy stage into a school,
+    The jest of Punch will ever be,
+      And stand confest the greater fool.
+  "translation_ja": |-
+    こうして、お前より上を行こうとして、
+      お前の舞台を学校に変えたがる者は、
+    いつまでも、パンチの笑い種になり、
+      もっとひどい愚か者だと、白日のもとに立つだろう。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[184]"
+    "line_start": 9182
+    "line_end": 9185
+    "source_sequence": 18
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-note-001"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "source_text": |-
+    [Footnote 1: Two famous puppet-show men.]
+  "translation_ja": |-
+    [1] 二人の名高い人形芝居師。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[185]"
+    "line_start": 9188
+    "line_end": 9188
+    "source_sequence": 19
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "ps-note-002"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "source_text": |-
+    [Footnote 2: Sheridan.]
+  "translation_ja": |-
+    [2] シェリダン。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[185]"
+    "line_start": 9190
+    "line_end": 9190
+    "source_sequence": 20
+  "origin": "source"
+  "source_languages":
+  - "en"
+"notes":
+- "id": "ps-footnote-1"
+  "origin": "unknown"
+  "label": "1"
+  "form": "footnote"
+  "body":
+  - "segment_id": "ps-note-001"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[185]"
+    "line_start": 9188
+    "line_end": 9188
+    "source_sequence": 19
+  "description_ja": "底本注。注者の署名は当該箇所にない。"
+- "id": "ps-footnote-2"
+  "origin": "unknown"
+  "label": "2"
+  "form": "footnote"
+  "body":
+  - "segment_id": "ps-note-002"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[185]"
+    "line_start": 9190
+    "line_end": 9190
+    "source_sequence": 20
+  "description_ja": "底本注。注者の署名は当該箇所にない。"
+"references":
+- "id": "ps-reference-1"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "ps-verse-005"
+    "source_span":
+      "start": 84
+      "end": 87
+      "exact": "[1]"
+    "translation_span":
+      "start": 47
+      "end": 50
+      "exact": "[1]"
+  "to":
+    "type": "note"
+    "id": "ps-footnote-1"
+  "status": "verified"
+- "id": "ps-reference-2"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "ps-verse-016"
+    "source_span":
+      "start": 9
+      "end": 12
+      "exact": "[2]"
+    "translation_span":
+      "start": 2
+      "end": 5
+      "exact": "[2]"
+  "to":
+    "type": "note"
+    "id": "ps-footnote-2"
+  "status": "verified"
+"groups": []
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "ps-term-01"
+  "kind": "term"
+  "source_language": "en"
+  "source": "blockhead"
+  "translation_ja": "木偶の坊"
+  "note_ja": "木の頭と愚か者の掛詞。"
+- "id": "ps-term-02"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Powel"
+  "translation_ja": "パウエル"
+- "id": "ps-term-03"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Stretch"
+  "translation_ja": "ストレッチ"
+- "id": "ps-term-04"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Momus"
+  "translation_ja": "モモス"
+- "id": "ps-term-05"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Jove"
+  "translation_ja": "ユピテル"
+  "note_ja": "既存の同著者訳と表記を統一。"
+- "id": "ps-term-06"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Harlequin"
+  "translation_ja": "アルルカン"
+- "id": "ps-term-07"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Punch"
+  "translation_ja": "パンチ"
+  "note_ja": "人形芝居の道化の名。"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-21T00:58:52Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "9e3be15db2e684c17da468b8a5f5218a35bf51fb8e8269a46c35ef49a755430c"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "8353c0a876b11cfc615c2b0e7b6c393ef0ce5109"
+  "translation_method": "Codexによる原文からの新訳。連続範囲を逐次保存し、各作品の全初稿完成後、題・序・全詩行・全底本注を原文と一回全文対照。変更箇所は原文と修正案を再確認。日本語だけの追加全文通読・文体磨きは行っていない。"
+  "drafted_segment_count": 21
+  "next_segment_id": null
+  "source_verse_line_count": 72
+  "translation_verse_line_count": 72
+  "verse_groups":
+  - "segment_id": "ps-verse-001"
+    "first_verse_line": 1
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-002"
+    "first_verse_line": 5
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-003"
+    "first_verse_line": 9
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-004"
+    "first_verse_line": 13
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-005"
+    "first_verse_line": 17
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-006"
+    "first_verse_line": 21
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-007"
+    "first_verse_line": 25
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-008"
+    "first_verse_line": 29
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-009"
+    "first_verse_line": 33
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-010"
+    "first_verse_line": 37
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-011"
+    "first_verse_line": 41
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-012"
+    "first_verse_line": 45
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-013"
+    "first_verse_line": 49
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-014"
+    "first_verse_line": 53
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-015"
+    "first_verse_line": 57
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-016"
+    "first_verse_line": 61
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-017"
+    "first_verse_line": 65
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  - "segment_id": "ps-verse-018"
+    "first_verse_line": 69
+    "verse_line_count": 4
+    "original_indent_at_opening": 0
+  "verse_grouping_ja": "Puppetは原文の空行による18連。Beastsは空行のない詩を、原文で先頭が二字下げされる13詩段へ分節。原文・訳文とも各行を重複なく一度だけ収録。"
+  "full_review_segment_ids":
+  - "ps-title"
+  - "ps-verse-001"
+  - "ps-verse-002"
+  - "ps-verse-003"
+  - "ps-verse-004"
+  - "ps-verse-005"
+  - "ps-verse-006"
+  - "ps-verse-007"
+  - "ps-verse-008"
+  - "ps-verse-009"
+  - "ps-verse-010"
+  - "ps-verse-011"
+  - "ps-verse-012"
+  - "ps-verse-013"
+  - "ps-verse-014"
+  - "ps-verse-015"
+  - "ps-verse-016"
+  - "ps-verse-017"
+  - "ps-verse-018"
+  - "ps-note-001"
+  - "ps-note-002"
+  "full_review_snapshot_sha256": "f0e817d30da1a8ef5ca2028bdc03aa7a4bcddacba649b9e1a5a1c76968755957"
+  "full_review_result_sha256": "009c8636df105924b692973fb349fb515148038534a0d3221c2105033c2b1189"
+  "full_review_corrections_ja":
+  - "segment_id": "ps-verse-005"
+    "reason_ja": "blockheadは木の頭と愚者の掛詞。日本語でも木偶と愚か者の両義が成立する木偶の坊とする。"
+  - "segment_id": "ps-verse-009"
+    "reason_ja": "greatは偽の威儀と立法者の文脈で社会的な偉さ。物理的な体の大きさに限定しない。"
+  - "segment_id": "ps-verse-011"
+    "reason_ja": "blindlyは後続のends unknownと結ぶ無批判な盲従。身体的な視力の喪失という原文にない限定を除く。"
+  "source_extraction_ja": "詩preの共通左余白5字のみ除去し、残る字下げ・各行・参照番号を保持。散文と底本注の折り返しは空白へ統合。元HTMLのXPathと開始・終了行、作品内の連続順を記録。"
+  "source_note_authorship_ja": "W. E. B.署名は編者Browningへ帰属。F.署名と無署名の注は人物を推測せずunknownとし、原署名を保持。"

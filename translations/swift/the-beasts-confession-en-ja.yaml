@@ -1,0 +1,1230 @@
+"schema_version": "2.0"
+"work_id": "swift-the-beasts-confession"
+"metadata":
+  "title_ja": "獣たちの告解"
+  "title_original": "The Beasts’ Confession to the Priest, on Observing How Most Men Mistake Their Own Talents"
+  "original_languages":
+  - "en"
+  - "la"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "browning"
+    "name_ja": "ウィリアム・アーンスト・ブラウニング"
+    "name_original": "William Ernst Browning"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "今回の新訳の利用条件は未指定。原著・底本編集物・電子翻刻の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "詩"
+  - "風刺"
+  "reader_notes_ja":
+  - "1910年G. Bell and Sons版の電子翻刻による。本篇に付された序文二段落、詩の全220行、底本注四件を収録。"
+  - "序文が挙げる四種の動物と、詩本文に山羊も登場する構成、副題の1732年と注の1733年は、それぞれ底本の記載のまま残した。"
+"sources":
+- "id": "gutenberg-14353"
+  "role": "primary"
+  "title": "The Poems of Jonathan Swift, D.D., Volume I"
+  "languages":
+  - "en"
+  - "la"
+  "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+  "edition": "William Ernst Browning編、London: G. Bell and Sons, Ltd.、1910年。Project Gutenberg eBook 14353。HTMLに初公開2004年12月14日・最終更新2024年10月28日と記載。"
+  "contributor_ids":
+  - "swift"
+  - "browning"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/14353"
+    "note_ja": "原著者Swiftは1745年没。1910年刊本で、Project Gutenberg書誌は米国で公有と表示。編者Browningの没年1916はスコットランド国立図書館一次アーカイブ目録のCreator欄（https://manuscripts.nls.uk/repositories/2/archival_objects/18799）で1830–1916と記載。原著と後代の編集注を区別する。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "E-text prepared by Clare Boothby, G. Graustein, and the Project Gutenberg Online Distributed Proofreading\
+      \ Team"
+    "note_ja": "公有の原著・1910年版編集物と、Project Gutenbergの商標および電子版配布条件を区別する。"
+  "sha256": "86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc"
+  "description_ja": "1910年刊本の当該篇と底本注を収録。原著者の詩・序文と後代の編集注を区別する。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "題・副題と1732年記・本篇の序題と序文全2段落・詩本文全220行・底本注4件。"
+    "section_ids":
+    - "title"
+    - "preface"
+    - "poem"
+    - "source-notes"
+  "excluded":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "巻全体の標題紙・編者序文・序論・目次、同巻の前後の他作品、電子版の定型利用案内とライセンス。空の段落・装飾罫線・アンカーだけの要素は本文と区別。対象作品本文と底本注に省略なし。"
+  "known_gaps": []
+"sections":
+- "id": "title"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "bc-title"
+  - "bc-subtitle"
+  "origin": "source"
+- "id": "preface"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "bc-preface-title"
+  "origin": "source"
+- "id": "poem"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "label_ja": "詩"
+  "origin": "editorial"
+- "id": "source-notes"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "label_ja": "底本注"
+  "origin": "editorial"
+"segments":
+- "id": "bc-title"
+  "section_id": "title"
+  "kind": "heading"
+  "source_text": |-
+    THE BEASTS' CONFESSION TO THE PRIEST,
+  "translation_ja": |-
+    獣たちの司祭への告解
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/h2[104]"
+    "line_start": 12040
+    "source_sequence": 0
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-subtitle"
+  "section_id": "title"
+  "kind": "heading"
+  "source_text": |-
+    ON OBSERVING HOW MOST MEN MISTAKE THEIR OWN TALENTS. 1732
+  "translation_ja": |-
+    大抵の人が自分の才能を取り違えているのを見て。一七三二年。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/h3[56]"
+    "line_start": 12043
+    "source_sequence": 1
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-preface-title"
+  "section_id": "preface"
+  "kind": "heading"
+  "source_text": |-
+    PREFACE
+  "translation_ja": |-
+    序
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/h2[105]"
+    "line_start": 12056
+    "source_sequence": 2
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "attributions":
+  - "voice": "author"
+    "evidence_ja": "本篇の題・副題の後に独立したPREFACEとして置かれた文章。巻全体の編者序文とは別。"
+- "id": "bc-preface-001"
+  "section_id": "preface"
+  "kind": "paragraph"
+  "source_text": |-
+    I have been long of opinion, that there is not a more general and greater mistake, or of worse consequences through the commerce of mankind, than the wrong judgments they are apt to entertain of their own talents. I knew a stuttering alderman in London, a great frequenter of coffeehouses, who, when a fresh newspaper was brought in, constantly seized it first, and read it aloud to his brother citizens; but in a manner as little intelligible to the standers-by as to himself. How many pretenders to learning expose themselves, by choosing to discourse on those very parts of science wherewith they are least acquainted! It is the same case in every other qualification. By the multitude of those who deal in rhymes, from half a sheet to twenty, which come out every minute, there must be at least five hundred poets in the city and suburbs of London: half as many coffeehouse orators, exclusive of the clergy, forty thousand politicians, and four thousand five hundred profound scholars; not to mention the wits, the railers, the smart fellows, and critics; all as illiterate and impudent as a suburb whore. What are we to think of the fine-dressed sparks, proud of their own personal deformities, which appear the more hideous by the contrast of wearing scarlet and gold, with what they call toupees[1] on their heads, and all the frippery of a modern beau, to make a figure before women; some of them with hump-backs, others hardly five feet high, and every feature of their faces distorted: I have seen many of these insipid pretenders entering into conversation with persons of learning, constantly making the grossest blunders in every sentence, without conveying one single idea fit for a rational creature to spend a thought on; perpetually confounding all chronology, and geography, even of present times. I compute, that London hath eleven native fools of the beau and puppy kind, for one among us in Dublin; besides two-thirds of ours transplanted thither, who are now naturalized: whereby that overgrown capital exceeds ours in the articles of dunces by forty to one; and what is more to our farther mortification, there is no one distinguished fool of Irish birth or education, who makes any noise in that famous metropolis, unless the London prints be very partial or defective; whereas London is seldom without a dozen of their own educating, who engross the vogue for half a winter together, and are never heard of more, but give place to a new set. This has been the constant progress for at least thirty years past, only allowing for the change of breed and fashion.
+  "translation_ja": |-
+    人が自分の才能について抱きがちな誤った判断ほど、広く、大きく、人間同士の交わりに悪い結果を及ぼす間違いはない、と私は長いこと考えている。ロンドンで、吃音のある市参事会員を知っていた。珈琲店へ、たいそうよく通う男で、新しい新聞が届くと、決まって真っ先につかみ、同じ市の仲間に声を出して読んだ。だが、その読み方ときたら、本人にわからぬのと同じくらい、そばの者にも、わからないものだった。学問を気取る者が、学問の諸分野のうち、まさに、いちばん知らない部分を選んで論じ、自分の正体をさらしてしまう例は、どれほど多いことか。ほかのどんな能力についても、事情は同じである。半枚から二十枚までの、韻を並べる作品が、毎分のように出てくる、その数からすると、ロンドン市と郊外には、少なくとも五百人の詩人がいるに違いない。珈琲店の雄弁家は、その半数、ただし聖職者は除く。政治家は四万人、深遠な学者は四千五百人である。才人、悪口屋、気の利いた男、批評家は、言うまでもない。皆、郊外の娼婦と同じほど、無学で厚かましい。着飾った洒落男どもを、我々は、どう考えたらよいだろう。自分の身体の不格好さを誇り、女の前で見栄えをよくしようと、緋色と金をまとい、頭にはトゥーペ[1]と呼ぶものをかぶり、当世の伊達男の、あらゆる飾りをつけるため、その対照で、かえって醜さを際立たせる者たちである。背中が曲がった者もいれば、身の丈が五フィートにも満たず、顔の造作が、どこも歪んだ者もいる。私は、この味気ない、気取り屋どもの多くが、学識のある人々との会話へ入り、文を口にするたび、この上なくひどい間違いを、絶えずしでかすのを見てきた。理性的な生き物が、一瞬でも考えるに値する観念は、一つも伝えず、年代も地理も、いま現在のことさえ、いつも混同する。私の計算では、伊達男や、青二才の類の、生粋の愚か者は、ここダブリンの我々の中の一人に対して、ロンドンには十一人いる。それに加え、こちらの愚か者の三分の二が、あちらへ移植され、いまでは帰化している。そのため、あの肥大した首都は、のろまの数では、四十対一の割合で、我々の都をしのぐ。さらに、我々の恥を深めることには、あの名高い大都市で、評判になっている、アイルランド生まれ、あるいはアイルランド育ちの、傑出した愚か者が、一人もいない。ロンドンの印刷物が、よほど偏っているか、欠けているのでない限り、そうなのである。それに引き換え、ロンドンには、自ら育てた者が、十二人ほど、いつでもと言ってよいほどいて、冬の半分もの間、流行の評判を独占し、それからは、もう名を聞かれず、新しい一団へ道を譲る。血統と流行の変化だけを勘定に入れれば、少なくとも、この三十年来、これは、変わらぬ成り行きだった。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/p[404]"
+    "line_start": 12059
+    "source_sequence": 3
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "attributions":
+  - "voice": "author"
+    "evidence_ja": "本篇の題・副題の後に独立したPREFACEとして置かれた文章。巻全体の編者序文とは別。"
+- "id": "bc-preface-002"
+  "section_id": "preface"
+  "kind": "paragraph"
+  "source_text": |-
+    The poem is grounded upon the universal folly in mankind of mistaking their talents; by which the author does a great honour to his own species, almost equalling them with certain brutes; wherein, indeed, he is too partial, as he freely confesses: and yet he has gone as low as he well could, by specifying four animals; the wolf, the ass, the swine, and the ape; all equally mischievous, except the last, who outdoes them in the article of cunning: so great is the pride of man!
+  "translation_ja": |-
+    この詩は、自分の才能を取り違えるという、人類に普遍的な愚かさに基づく。それによって、著者は、自分の種族を、ある種の獣に、ほとんど等しくするという、大きな名誉を与えている。実際、この点では、自分でも率直に認めるとおり、ひいきが過ぎる。それでも、できる限り低く下りたのである。狼、驢馬、豚、猿という、四種の動物を、わざわざ挙げたのだから。最後の猿が、狡猾さの点で、ほかをしのぐのを除けば、皆、同じように始末が悪い。これほどまでに、人の高慢は大きいのだ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/p[405]"
+    "line_start": 12097
+    "source_sequence": 4
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "attributions":
+  - "voice": "author"
+    "evidence_ja": "本篇の題・副題の後に独立したPREFACEとして置かれた文章。巻全体の編者序文とは別。"
+- "id": "bc-verse-001"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    When beasts could speak, (the learned say
+    They still can do so every day,)
+    It seems, they had religion then,
+    As much as now we find in men.
+    It happen'd, when a plague broke out,
+    (Which therefore made them more devout,)
+    The king of brutes (to make it plain,
+    Of quadrupeds I only mean)
+    By proclamation gave command,
+    That every subject in the land
+    Should to the priest confess their sins;
+    And thus the pious Wolf begins:
+    Good father, I must own with shame,
+    That often I have been to blame:
+    I must confess, on Friday last,
+    Wretch that I was! I broke my fast:
+    But I defy the basest tongue
+    To prove I did my neighbour wrong;
+    Or ever went to seek my food,
+    By rapine, theft, or thirst of blood.
+  "translation_ja": |-
+    獣が話せたころのこと、（学者の言うには、
+    いまでも毎日、話せるそうだが、）
+    当時も、獣は宗教を持っていたらしい、
+    いま人の間に見られるのと、同じほどに。
+    さて、疫病が流行したとき、
+    （そのため、彼らは、いっそう敬虔になった、）
+    獣の王は、（はっきりさせておこう、
+    四足獣だけのことを言う、）
+    お触れを出して、命じた、
+    国中の臣民は、一匹残らず、
+    司祭へ、自分の罪を告解せよと。
+    すると、信心深い狼が、こう始めた。
+    「よき神父様、恥を忍んで認めます、
+    しばしば、悪いことをいたしました。
+    告白せねばなりません、この前の金曜日、
+    何と情けないことか、断食を破りました。
+    ですが、いちばん下劣な舌にだって、こう言えます、
+    私が隣人を害したと、証明してみせよと。
+    あるいは、奪い、盗み、血に飢えて、
+    餌を求めに出たことがあるというなら、それも」。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[244]"
+    "line_start": 12107
+    "line_end": 12126
+    "source_sequence": 5
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-verse-002"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      The Ass approaching next, confess'd,
+    That in his heart he loved a jest:
+    A wag he was, he needs must own,
+    And could not let a dunce alone:
+    Sometimes his friend he would not spare,
+    And might perhaps be too severe:
+    But yet the worst that could be said,
+    He was a wit both born and bred;
+    And, if it be a sin and shame,
+    Nature alone must bear the blame:
+    One fault he has, is sorry for't,
+    His ears are half a foot too short;
+    Which could he to the standard bring,
+    He'd show his face before the king:
+    Then for his voice, there's none disputes
+    That he's the nightingale of brutes.
+  "translation_ja": |2-
+      次に進み出た驢馬は、告白した、
+    心の中では、冗談が好きなのだと。
+    おどけ者なのは、認めるしかなく、
+    のろまを、放ってはおけなかった。
+    ときには友も、容赦せず、
+    厳しすぎることも、あったかもしれない。
+    だが、いちばん悪く言ったところで、
+    生まれも育ちも、才人なのだ。
+    それが罪で、恥ならば、
+    自然だけが、責めを負わねばならぬ。
+    欠点が一つあり、それは申し訳なく思う、
+    耳が、半フィート短すぎることだ。
+    これを標準まで伸ばせたら、
+    王の前にも、顔を出せるのだが。
+    さて、声なら、誰も異議を唱えない、
+    獣の中のナイチンゲールなのだ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[244]"
+    "line_start": 12127
+    "line_end": 12142
+    "source_sequence": 6
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-verse-003"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      The Swine with contrite heart allow'd,
+    His shape and beauty made him proud:
+    In diet was perhaps too nice,
+    But gluttony was ne'er his vice:
+    In every turn of life content,
+    And meekly took what fortune sent:
+    Inquire through all the parish round,
+    A better neighbour ne'er was found;
+    His vigilance might some displease;
+    'Tis true, he hated sloth like pease.
+  "translation_ja": |2-
+      豚は、悔い改めた心で認めた、
+    自分の姿と美しさが、自分を高慢にしたと。
+    食べ物には、少々うるさすぎたかもしれぬが、
+    大食いは、決して自分の悪徳ではなかった。
+    人生の、どんな移り変わりにも満足し、
+    運命のくれるものを、従順に受け取った。
+    教区の周りを、残らず尋ねてもらいたい、
+    もっとよい隣人は、決して見つからぬはず。
+    その用心深さを、嫌がる者はいるかもしれぬ、
+    確かに、豆を憎むのと同じほど、怠惰を憎んだ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[244]"
+    "line_start": 12143
+    "line_end": 12152
+    "source_sequence": 7
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-verse-004"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      The mimic Ape began his chatter,
+    How evil tongues his life bespatter;
+    Much of the censuring world complain'd,
+    Who said, his gravity was feign'd:
+    Indeed, the strictness of his morals
+    Engaged him in a hundred quarrels:
+    He saw, and he was grieved to see't,
+    His zeal was sometimes indiscreet:
+    He found his virtues too severe
+    For our corrupted times to bear;
+    Yet such a lewd licentious age
+    Might well excuse a stoic's rage.
+  "translation_ja": |2-
+      物真似の猿が、しゃべり始めた、
+    悪い舌が、どれほど自分の生涯を汚すかを。
+    あら探しばかりの世間へ、大いに不平を述べた、
+    世間は、自分の重々しさを、見せかけだと言う。
+    実際、道徳の厳しさのため、
+    百もの喧嘩に、巻き込まれたのだ。
+    自分の熱意が、ときには無分別だと、
+    わかっており、そうと知って悲しかった。
+    自分の徳は、いまの腐敗した世が、
+    耐えるには、厳しすぎるのだと知った。
+    だが、これほど淫らで、放埒な時代なら、
+    ストア派の怒りも、もっともではないか。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[244]"
+    "line_start": 12153
+    "line_end": 12164
+    "source_sequence": 8
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-verse-005"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      The Goat advanced with decent pace,
+    And first excused his youthful face;
+    Forgiveness begg'd that he appear'd
+    ('Twas Nature's fault) without a beard.
+    'Tis true, he was not much inclined
+    To fondness for the female kind:
+    Not, as his enemies object,
+    From chance, or natural defect;
+    Not by his frigid constitution;
+    But through a pious resolution:
+    For he had made a holy vow
+    Of Chastity, as monks do now:
+    Which he resolved to keep for ever hence
+    And strictly too, as doth his reverence.[2]
+  "translation_ja": |2-
+      山羊は、しかるべき足取りで進み出て、
+    まず、自分の若々しい顔を、詫びた。
+    鬚がないのを、許してほしいと願った、
+    （自然のせいなのだが）。
+    確かに、雌というものへの愛情には、
+    あまり心が向かなかった。
+    敵たちが非難するように、
+    偶然や、生まれつきの欠陥のためではない。
+    性欲の薄い体質によるのでもなく、
+    敬虔な決意によるのである。
+    いまの修道士がするように、
+    貞潔の、神聖な誓いを立てたからだ。
+    それを、これから永遠に守ろうと決めた、
+    あの司祭様[2]と同じく、厳格に。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[244]"
+    "line_start": 12165
+    "line_end": 12178
+    "source_sequence": 9
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-verse-006"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      Apply the tale, and you shall find,
+    How just it suits with human kind.
+    Some faults we own; but can you guess?
+    —Why, virtue's carried to excess,
+    Wherewith our vanity endows us,
+    Though neither foe nor friend allows us.
+  "translation_ja": |2-
+      話を当てはめてみれば、わかるだろう、
+    どれほど、ぴたりと人類に合うか。
+    幾つかの欠点は認めるが、さて、何だと思う？
+    ――何と、美徳が行き過ぎただけなのだ、
+    敵も友も、決して認めてくれない、
+    虚栄が、我々に授ける美徳が。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[244]"
+    "line_start": 12179
+    "line_end": 12184
+    "source_sequence": 10
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-verse-007"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      The Lawyer swears (you may rely on't)
+    He never squeezed a needy client;
+    And this he makes his constant rule,
+    For which his brethren call him fool;
+    His conscience always was so nice,
+    He freely gave the poor advice;
+    By which he lost, he may affirm,
+    A hundred fees last Easter term;
+    While others of the learned robe,
+    Would break the patience of a Job.
+    No pleader at the bar could match
+    His diligence and quick dispatch;
+    Ne'er kept a cause, he well may boast,
+    Above a term or two at most.
+  "translation_ja": |2-
+      法律家は誓う、（信じてもよい、）
+    困窮した依頼人を、搾ったことはないと。
+    それを、いつもの決まりとしているので、
+    同業者たちは、愚か者と呼ぶのだと。
+    良心は、いつも、それほど繊細だったから、
+    貧しい者には、ただで助言をした。
+    そのため、断言してもよいが、
+    この前の復活祭開廷期には、報酬を百件、失った。
+    あの学者の法服を着る、ほかの者たちなら、
+    ヨブの忍耐さえ、尽きさせるだろうに。
+    法廷のどの弁護士も、彼の勤勉さ、
+    処理の速さには、かなわなかった。
+    自慢してもよいことに、訴訟を抱えたまま、
+    長くても、一開廷期か二開廷期を、越したことはない。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[244]"
+    "line_start": 12185
+    "line_end": 12198
+    "source_sequence": 11
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-verse-008"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      The cringing knave, who seeks a place
+    Without success, thus tells his case:
+    Why should he longer mince the matter?
+    He fail'd, because he could not flatter;
+    He had not learn'd to turn his coat,
+    Nor for a party give his vote:
+    His crime he quickly understood;
+    Too zealous for the nation's good:
+    He found the ministers resent it,
+    Yet could not for his heart repent it.
+  "translation_ja": |2-
+      地位を求めて、首尾の上がらぬ、
+    卑屈な悪党は、こう身の上を語る。
+    もう、どうして、言葉を濁していようか、
+    お世辞を言えなかった、それが失敗の理由なのだ。
+    風向きで上着を替えるすべも、
+    一党派のために票を投じるすべも、習わなかった。
+    自分の罪は、すぐにわかった、
+    国の利益に、熱心すぎたのである。
+    大臣たちが、それを不快に思うとわかったが、
+    どうしても、心から悔いることは、できなかった。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[244]"
+    "line_start": 12199
+    "line_end": 12208
+    "source_sequence": 12
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-verse-009"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      The Chaplain vows, he cannot fawn,
+    Though it would raise him to the lawn:
+    He pass'd his hours among his books;
+    You find it in his meagre looks:
+    He might, if he were worldly wise,
+    Preferment get, and spare his eyes;
+    But owns he had a stubborn spirit.
+    That made him trust alone to merit;
+    Would rise by merit to promotion;
+    Alas! a mere chimeric notion.
+  "translation_ja": |2-
+      付き牧師は誓う、自分には媚びへつらえぬと、
+    たとえ、それで司教の衣に、昇れるとしても。
+    時は、書物の間で過ごしていた、
+    それは、やせた顔つきを見ればわかる。
+    世渡りに賢かったなら、
+    昇進もでき、目も傷めずにすんだろう。
+    だが、強情な心の持ち主なのは認める、
+    それゆえ、功績だけを頼みにした。
+    功績によって、出世を求めたのだ、
+    ああ、まったく架空の考えでしかない。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[244]"
+    "line_start": 12209
+    "line_end": 12218
+    "source_sequence": 13
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-verse-010"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      The Doctor, if you will believe him,
+    Confess'd a sin; (and God forgive him!)
+    Call'd up at midnight, ran to save
+    A blind old beggar from the grave:
+    But see how Satan spreads his snares;
+    He quite forgot to say his prayers.
+    He cannot help it, for his heart,
+    Sometimes to act the parson's part:
+    Quotes from the Bible many a sentence,
+    That moves his patients to repentance;
+    And, when his medicines do no good,
+    Supports their minds with heavenly food:
+    At which, however well intended,
+    He hears the clergy are offended;
+    And grown so bold behind his back,
+    To call him hypocrite and quack.
+    In his own church he keeps a seat;
+    Says grace before and after meat;
+    And calls, without affecting airs,
+    His household twice a-day to prayers.
+    He shuns apothecaries' shops,
+    And hates to cram the sick with slops:
+    He scorns to make his art a trade;
+    Nor bribes my lady's favourite maid.
+    Old nurse-keepers would never hire,
+    To recommend him to the squire;
+    Which others, whom he will not name,
+    Have often practised to their shame.
+  "translation_ja": |2-
+      医者は、信じてもらえるなら、
+    罪を一つ、告白した、（神よ、彼を許したまえ！）
+    真夜中に呼ばれて、走り出した、
+    盲目の老乞食を、墓から救うために。
+    だが、見よ、サタンが、どう罠を張るか、
+    祈りを唱えるのを、すっかり忘れたのである。
+    どうしても、心ならずも、
+    ときには牧師の役を、務めてしまう。
+    聖書から、幾つもの言葉を引き、
+    患者を、悔い改めへと動かす。
+    そして、薬が役に立たぬときには、
+    天上の糧で、その心を支える。
+    だが、どれほどよい意図であれ、そのことで、
+    聖職者たちは、怒っていると聞く。
+    陰では、あまりに大胆になって、
+    偽善者、藪医者と、自分を呼ぶのだという。
+    自分の教会には、席を保ち、
+    食事の前後には、感謝を捧げる。
+    そして、気取った様子もなく、
+    家中の者を、一日二度、祈りに呼ぶ。
+    薬屋の店を避け、
+    病人に、薄い汁を、詰め込むのを嫌う。
+    自分の術を、金儲けにするのを軽蔑し、
+    奥様お気に入りの小間使いにも、賄賂を贈らぬ。
+    年を取った付添い看護婦を、雇ったりはしない、
+    地主様に、自分を推薦させるために。
+    名は挙げぬが、ほかの者は、
+    恥ずべきことに、よくやってきたのだが。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[244]"
+    "line_start": 12219
+    "line_end": 12246
+    "source_sequence": 14
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-verse-011"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      The Statesman tells you, with a sneer,
+    His fault is to be too sincere;
+    And having no sinister ends,
+    Is apt to disoblige his friends.
+    The nation's good, his master's glory,
+    Without regard to Whig or Tory,
+    Were all the schemes he had in view,
+    Yet he was seconded by few:
+    Though some had spread a thousand lies,
+    'Twas he defeated the excise.[3]
+    'Twas known, though he had borne aspersion,
+    That standing troops were his aversion:
+    His practice was, in every station:
+    To serve the king, and please the nation.
+    Though hard to find in every case
+    The fittest man to fill a place:
+    His promises he ne'er forgot,
+    But took memorials on the spot;
+    His enemies, for want of charity,
+    Said, he affected popularity:
+    'Tis true, the people understood,
+    That all he did was for their good;
+    Their kind affections he has tried;
+    No love is lost on either side.
+    He came to court with fortune clear,
+    Which now he runs out every year;
+    Must, at the rate that he goes on,
+    Inevitably be undone:
+    O! if his majesty would please
+    To give him but a writ of ease,
+    Would grant him license to retire,
+    As it has long been his desire,
+    By fair accounts it would be found,
+    He's poorer by ten thousand pound.
+    He owns, and hopes it is no sin,
+    He ne'er was partial to his kin;
+    He thought it base for men in stations,
+    To crowd the court with their relations:
+    His country was his dearest mother,
+    And every virtuous man his brother;
+    Through modesty or awkward shame,
+    (For which he owns himself to blame,)
+    He found the wisest man he could,
+    Without respect to friends or blood;
+    Nor ever acts on private views,
+    When he has liberty to choose.
+  "translation_ja": |2-
+      政治家は、薄笑いを浮かべて言う、
+    自分の欠点は、誠実すぎることだと。
+    よからぬ目的を持たぬので、
+    友人の機嫌を、損ねがちなのだと。
+    国の利益、主君の栄光、
+    ホイッグかトーリーかは、問わずに、
+    それが、目に置いた企てのすべてだった、
+    だが、賛同する者は、わずかだった。
+    ある者どもが、千もの嘘を広めたとはいえ、
+    物品税を潰したのは、自分だったのだ。[3]
+    中傷を受けはしたが、知られていたとおり、
+    常備軍は、嫌いだった。
+    どの地位にあっても、実行したのは、
+    王に仕え、国民を喜ばせることだった。
+    どんな場合にも、地位を埋めるのに、
+    最適の人物を見つけるのは、難しいが、
+    自分は決して、約束を忘れず、
+    その場で、覚え書きを受け取った。
+    敵たちは、慈愛が足りないので、
+    彼は人気を得ようとする、と言った。
+    確かに、国民は理解していた、
+    することはすべて、国民のためなのだと。
+    その温かな情愛は、試してみてある、
+    どちらの側にも、愛の無駄はない。
+    借金のない財産を持って、宮廷へ来たのだが、
+    いまでは、毎年、それを使い減らしている。
+    この調子で行けば、
+    破産するのは、避けられない。
+    ああ、陛下が、よろこんで、
+    ただ、御役御免の令状さえ、くださるなら。
+    かねての望みどおり、
+    引退する許しを、くださるなら。
+    公正に勘定すれば、わかるだろう、
+    一万ポンド、貧しくなっているのだと。
+    これは、罪ではないと望むのだが、認めよう、
+    身内を、えこひいきしたことは、一度もない。
+    地位ある者が、親類で宮廷を、
+    いっぱいにするのは、卑しいと思っていた。
+    国は、いちばん愛する母であり、
+    徳のある者はみな、兄弟だった。
+    慎み深さ、あるいは、不器用な羞恥のため、
+    （この点は、自分が悪いと認める、）
+    見つけられる限り、最も賢い者を探した、
+    友人や血縁への配慮なしに。
+    選ぶ自由があるときには、
+    私的な思惑で、行動したりは決してしない。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[244]"
+    "line_start": 12247
+    "line_end": 12292
+    "source_sequence": 15
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-verse-012"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      The Sharper swore he hated play,
+    Except to pass an hour away:
+    And well he might; for, to his cost,
+    By want of skill, he always lost;
+    He heard there was a club of cheats,
+    Who had contrived a thousand feats;
+    Could change the stock, or cog a die,
+    And thus deceive the sharpest eye:
+    Nor wonder how his fortune sunk,
+    His brothers fleece him when he's drunk.
+  "translation_ja": |2-
+      いかさま師は誓った、賭け事は嫌いだと、
+    一時間を、紛らすだけなら別だが。
+    それも、もっとも、身銭を切って知ったのだ、
+    腕が足りず、いつも負けたのだから。
+    いかさま師の仲間がいると、聞いてはいた、
+    千もの手口を、考え出した連中だ。
+    札の山を替えたり、賽へ細工したりして、
+    どれほど鋭い目をも、欺けるという。
+    財産が減ったのも、不思議はない、
+    酔っていると、同業者が、丸裸にするのだから。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[244]"
+    "line_start": 12293
+    "line_end": 12302
+    "source_sequence": 16
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-verse-013"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |2-
+      I own the moral not exact,
+    Besides, the tale is false, in fact;
+    And so absurd, that could I raise up,
+    From fields Elysian, fabling Æsop,
+    I would accuse him to his face,
+    For libelling the four-foot race.
+    Creatures of every kind but ours
+    Well comprehend their natural powers,
+    While we, whom reason ought to sway,
+    Mistake our talents every day.
+    The Ass was never known so stupid,
+    To act the part of Tray or Cupid;
+    Nor leaps upon his master's lap,
+    There to be stroked, and fed with pap,
+    As Æsop would the world persuade;
+    He better understands his trade:
+    Nor comes whene'er his lady whistles,
+    But carries loads, and feeds on thistles.
+    Our author's meaning, I presume, is
+    A creature bipes et implumis;
+    Wherein the moralist design'd
+    A compliment on human kind;
+    For here he owns, that now and then
+    Beasts may degenerate into men.[4]
+  "translation_ja": |2-
+      この教訓は、正確ではないと認めよう、
+    それに、話は、事実として偽りである。
+    あまりに馬鹿げているので、もし呼び戻せるなら、
+    エリュシオンの野から、寓話のイソップを、
+    その面前で、告発してやろう、
+    四足の種族を、誹謗した罪で。
+    我々以外の、どんな種類の生き物も、
+    自分の生まれつきの力を、よく心得ている。
+    それなのに、理性に従うべき我々は、
+    毎日、自分の才能を取り違える。
+    驢馬が、こんなに愚かだった例はない、
+    トレイやキューピッドの役を、演じようとしたり、
+    主人の膝に、跳び乗って、
+    撫でられ、粥を食わせてもらおうとしたり。
+    イソップは、世間に、そう信じさせようとするが、
+    驢馬は、自分の仕事を、もっとよく知っている。
+    女主人が笛を鳴らすたび、来るのでもなく、
+    荷物を運び、薊を食べるのである。
+    我が著者の言いたいものは、思うに、
+    bipes et implumis、二足で羽のない生き物。
+    そこで、この道徳家は、人類への、
+    お世辞を、意図していたのだ。
+    というのも、ここで認めているからである、ときには、
+    獣も堕落して、人間になりうると。[4]
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[244]"
+    "line_start": 12303
+    "line_end": 12326
+    "source_sequence": 17
+  "origin": "source"
+  "source_languages":
+  - "en"
+  - "la"
+- "id": "bc-note-001"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "source_text": |-
+    [Footnote 1: Wigs with long black tails, at that time very much in fashion. It was very common also to call the wearers of them by the same name.—F.]
+  "translation_ja": |-
+    [1] 黒い尾の長い鬘で、当時たいそう流行していた。それをかぶる人々も、同じ名で呼ぶことが、きわめて普通だった。――F。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[245]"
+    "line_start": 12329
+    "line_end": 12331
+    "source_sequence": 18
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-note-002"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "source_text": |-
+    [Footnote 2: The priest, his confessor.—F.]
+  "translation_ja": |-
+    [2] その告解を聴く司祭。――F。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[245]"
+    "line_start": 12333
+    "line_end": 12333
+    "source_sequence": 19
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "bc-note-003"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "source_text": |-
+    [Footnote 3: A bill was brought into the House of Commons of England, in March, 1733, for laying an excise on wines and tobacco, but so violent was the outcry against the measure, that when it came on for the second reading, 11th April, Walpole moved that it be postponed for two months, and thus it was dropped.—W. E. B.]
+  "translation_ja": |-
+    [3] 一七三三年三月、葡萄酒と煙草に物品税を課す法案が、イングランドの庶民院に提出された。しかし、この措置への抗議は、あまりに激しく、四月十一日に第二読会へ進んだとき、ウォルポールは、二か月延期するよう動議を出した。こうして、この法案は立ち消えになった。――W・E・B。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[245]"
+    "line_start": 12335
+    "line_end": 12339
+    "source_sequence": 20
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "attributions":
+  - "voice": "editor"
+    "evidence_ja": "W. E. B.署名。巻の編者William Ernst Browningの頭文字と一致。"
+- "id": "bc-note-004"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "source_text": |-
+    [Footnote 4: See Gulliver's Travels; voyage to the country of the Houyhnhnms, "Prose Works," vol. viii.—W. E. B.]
+  "translation_ja": |-
+    [4] 『ガリヴァー旅行記』の、フウイヌム族の国への航海を参照。『散文作品集』第八巻。――W・E・B。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[245]"
+    "line_start": 12341
+    "line_end": 12342
+    "source_sequence": 21
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "attributions":
+  - "voice": "editor"
+    "evidence_ja": "W. E. B.署名。巻の編者William Ernst Browningの頭文字と一致。"
+"notes":
+- "id": "bc-footnote-1"
+  "origin": "unknown"
+  "label": "1"
+  "form": "footnote"
+  "body":
+  - "segment_id": "bc-note-001"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[245]"
+    "line_start": 12329
+    "line_end": 12331
+    "source_sequence": 18
+  "description_ja": "底本のF.署名の注。署名の人物は本箇所では特定しない。"
+- "id": "bc-footnote-2"
+  "origin": "unknown"
+  "label": "2"
+  "form": "footnote"
+  "body":
+  - "segment_id": "bc-note-002"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[245]"
+    "line_start": 12333
+    "line_end": 12333
+    "source_sequence": 19
+  "description_ja": "底本のF.署名の注。署名の人物は本箇所では特定しない。"
+- "id": "bc-footnote-3"
+  "origin": "editor"
+  "label": "3"
+  "form": "footnote"
+  "body":
+  - "segment_id": "bc-note-003"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[245]"
+    "line_start": 12335
+    "line_end": 12339
+    "source_sequence": 20
+  "contributor_id": "browning"
+  "description_ja": "底本の署名W. E. B.による編者注。"
+- "id": "bc-footnote-4"
+  "origin": "editor"
+  "label": "4"
+  "form": "footnote"
+  "body":
+  - "segment_id": "bc-note-004"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[245]"
+    "line_start": 12341
+    "line_end": 12342
+    "source_sequence": 21
+  "contributor_id": "browning"
+  "description_ja": "底本の署名W. E. B.による編者注。"
+"references":
+- "id": "bc-reference-1"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "bc-preface-001"
+    "source_span":
+      "start": 1302
+      "end": 1305
+      "exact": "[1]"
+    "translation_span":
+      "start": 519
+      "end": 522
+      "exact": "[1]"
+  "to":
+    "type": "note"
+    "id": "bc-footnote-1"
+  "status": "verified"
+- "id": "bc-reference-2"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "bc-verse-005"
+    "source_span":
+      "start": 482
+      "end": 485
+      "exact": "[2]"
+    "translation_span":
+      "start": 224
+      "end": 227
+      "exact": "[2]"
+  "to":
+    "type": "note"
+    "id": "bc-footnote-2"
+  "status": "verified"
+- "id": "bc-reference-3"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "bc-verse-011"
+    "source_span":
+      "start": 340
+      "end": 343
+      "exact": "[3]"
+    "translation_span":
+      "start": 175
+      "end": 178
+      "exact": "[3]"
+  "to":
+    "type": "note"
+    "id": "bc-footnote-3"
+  "status": "verified"
+- "id": "bc-reference-4"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "bc-verse-013"
+    "source_span":
+      "start": 823
+      "end": 826
+      "exact": "[4]"
+    "translation_span":
+      "start": 472
+      "end": 475
+      "exact": "[4]"
+  "to":
+    "type": "note"
+    "id": "bc-footnote-4"
+  "status": "verified"
+"groups": []
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "bc-term-01"
+  "kind": "term"
+  "source_language": "en"
+  "source": "toupees"
+  "translation_ja": "トゥーペ"
+  "note_ja": "底本注1に説明がある。現代の部分鬘の意味へ置き換えない。"
+- "id": "bc-term-02"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Chaplain"
+  "translation_ja": "付き牧師"
+- "id": "bc-term-03"
+  "kind": "term"
+  "source_language": "en"
+  "source": "excise"
+  "translation_ja": "物品税"
+  "note_ja": "底本注3の葡萄酒・煙草に課す税。"
+- "id": "bc-term-04"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Elysian"
+  "translation_ja": "エリュシオン"
+- "id": "bc-term-05"
+  "kind": "term"
+  "source_language": "la"
+  "source": "bipes et implumis"
+  "translation_ja": "二足で羽のない"
+  "note_ja": "ラテン語の原句も訳文へ併記。"
+- "id": "bc-term-06"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Houyhnhnms"
+  "translation_ja": "フウイヌム族"
+  "note_ja": "既存ガリヴァー全訳と表記を統一。"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-21T00:59:55Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "f0b5a875362dd1948eee16171a77876ea0690816f63a0bd7229b816a4acea8ac"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "8353c0a876b11cfc615c2b0e7b6c393ef0ce5109"
+  "translation_method": "Codexによる原文からの新訳。連続範囲を逐次保存し、各作品の全初稿完成後、題・序・全詩行・全底本注を原文と一回全文対照。変更箇所は原文と修正案を再確認。日本語だけの追加全文通読・文体磨きは行っていない。"
+  "drafted_segment_count": 22
+  "next_segment_id": null
+  "source_verse_line_count": 220
+  "translation_verse_line_count": 220
+  "verse_groups":
+  - "segment_id": "bc-verse-001"
+    "first_verse_line": 1
+    "verse_line_count": 20
+    "original_indent_at_opening": 0
+  - "segment_id": "bc-verse-002"
+    "first_verse_line": 21
+    "verse_line_count": 16
+    "original_indent_at_opening": 2
+  - "segment_id": "bc-verse-003"
+    "first_verse_line": 37
+    "verse_line_count": 10
+    "original_indent_at_opening": 2
+  - "segment_id": "bc-verse-004"
+    "first_verse_line": 47
+    "verse_line_count": 12
+    "original_indent_at_opening": 2
+  - "segment_id": "bc-verse-005"
+    "first_verse_line": 59
+    "verse_line_count": 14
+    "original_indent_at_opening": 2
+  - "segment_id": "bc-verse-006"
+    "first_verse_line": 73
+    "verse_line_count": 6
+    "original_indent_at_opening": 2
+  - "segment_id": "bc-verse-007"
+    "first_verse_line": 79
+    "verse_line_count": 14
+    "original_indent_at_opening": 2
+  - "segment_id": "bc-verse-008"
+    "first_verse_line": 93
+    "verse_line_count": 10
+    "original_indent_at_opening": 2
+  - "segment_id": "bc-verse-009"
+    "first_verse_line": 103
+    "verse_line_count": 10
+    "original_indent_at_opening": 2
+  - "segment_id": "bc-verse-010"
+    "first_verse_line": 113
+    "verse_line_count": 28
+    "original_indent_at_opening": 2
+  - "segment_id": "bc-verse-011"
+    "first_verse_line": 141
+    "verse_line_count": 46
+    "original_indent_at_opening": 2
+  - "segment_id": "bc-verse-012"
+    "first_verse_line": 187
+    "verse_line_count": 10
+    "original_indent_at_opening": 2
+  - "segment_id": "bc-verse-013"
+    "first_verse_line": 197
+    "verse_line_count": 24
+    "original_indent_at_opening": 2
+  "verse_grouping_ja": "Puppetは原文の空行による18連。Beastsは空行のない詩を、原文で先頭が二字下げされる13詩段へ分節。原文・訳文とも各行を重複なく一度だけ収録。"
+  "full_review_segment_ids":
+  - "bc-title"
+  - "bc-subtitle"
+  - "bc-preface-title"
+  - "bc-preface-001"
+  - "bc-preface-002"
+  - "bc-verse-001"
+  - "bc-verse-002"
+  - "bc-verse-003"
+  - "bc-verse-004"
+  - "bc-verse-005"
+  - "bc-verse-006"
+  - "bc-verse-007"
+  - "bc-verse-008"
+  - "bc-verse-009"
+  - "bc-verse-010"
+  - "bc-verse-011"
+  - "bc-verse-012"
+  - "bc-verse-013"
+  - "bc-note-001"
+  - "bc-note-002"
+  - "bc-note-003"
+  - "bc-note-004"
+  "full_review_snapshot_sha256": "ba4589988f694acb08fbc602ffc1b18e7b6ca14578d27fd84d1bb248fb191499"
+  "full_review_result_sha256": "4c87b5ed71849f9d66369e51524f2b86441454e168ec4b7783c715d7551779ec"
+  "full_review_corrections_ja":
+  - "segment_id": "bc-preface-001"
+    "reason_ja": "scienceはここでは学問一般の分野であり、現代の自然科学へ範囲を限定しない。"
+  - "segment_id": "bc-verse-003"
+    "reason_ja": "vigilanceは警戒・注意深さ。目覚ましさという賞賛語へのずれを修正。like peaseも豆を憎むこととの比較と明示し、豚の自己賛美の反語を保つ。"
+  - "segment_id": "bc-verse-005"
+    "reason_ja": "frigid constitutionは雌への愛情・貞潔を論じる性欲の乏しい体質。体温や冷え症の限定と読まれないよう意味を明示。"
+  - "segment_id": "bc-verse-009"
+    "reason_ja": "Chaplainは付属の牧師職。礼拝付きという不成立の職名を付き牧師へ修正。"
+  - "segment_id": "bc-verse-011"
+    "reason_ja": "exciseは注3の葡萄酒・煙草へ課す物品税。現代日本の一般消費税と混同しない表記に統一。"
+  - "segment_id": "bc-verse-012"
+    "reason_ja": "fleeceは賭博で金を搾り取ること。身体の毛を文字どおり剝ぐ動作という誤読を除き、金銭を奪う比喩を保つ。"
+  - "segment_id": "bc-verse-013"
+    "reason_ja": "fields Elysianのギリシア神話の地名を、一般的な極楽へ置き換えずに保持。"
+  - "segment_id": "bc-note-003"
+    "reason_ja": "詩本体のexciseと同じ物品税へ統一。年・日付・二か月延期・署名は不変。"
+  "source_extraction_ja": "詩preの共通左余白5字のみ除去し、残る字下げ・各行・参照番号を保持。散文と底本注の折り返しは空白へ統合。元HTMLのXPathと開始・終了行、作品内の連続順を記録。"
+  "source_note_authorship_ja": "W. E. B.署名は編者Browningへ帰属。F.署名と無署名の注は人物を推測せずunknownとし、原署名を保持。"

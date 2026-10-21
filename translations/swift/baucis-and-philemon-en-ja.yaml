@@ -1,0 +1,2156 @@
+"sections":
+- "id": "version-1"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "origin": "editorial"
+  "label_ja": "手稿版"
+- "id": "version-1-notes"
+  "parent_id": "version-1"
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "origin": "editorial"
+  "label_ja": "底本注"
+- "id": "version-2"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "origin": "editorial"
+  "label_ja": "改稿版"
+- "id": "version-2-notes"
+  "parent_id": "version-2"
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "origin": "editorial"
+  "label_ja": "底本注"
+"segments":
+- "id": "bp-v1-heading"
+  "section_id": "version-1"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "BAUCIS AND PHILEMON[1]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/h2[26]"
+    "line_start": 3985
+  "translation_ja": "バウキスとピレモン[1]"
+  "translation_status": "reviewed"
+- "id": "bp-v1-subtitle"
+  "section_id": "version-1"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "ON THE EVER-LAMENTED LOSS OF THE TWO YEW-TREES IN THE PARISH OF CHILTHORNE, SOMERSET. 1706. IMITATED\
+    \ FROM THE EIGHTH BOOK OF OVID"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/p[232]"
+    "line_start": 3988
+  "translation_ja": "サマセット州チルソーン教区の二本のイチイが失われたことを、いつまでも嘆いて。一七〇六年。オウィディウス『変身物語』第八巻にならう。"
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-01"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    In ancient time, as story tells,
+    The saints would often leave their cells,
+    And stroll about, but hide their quality,
+    To try good people's hospitality.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 3993
+    "line_end": 3996
+  "translation_ja": |-
+    昔々、物語によると、
+    聖人たちは、よく庵を離れ、
+    身分を隠して、あちこち歩き、
+    善良な人々の、もてなしぶりを試した。
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-02"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      It happen'd on a winter's night,
+    As authors of the legend write,
+    Two brother hermits, saints by trade,
+    Taking their tour in masquerade,
+    Came to a village hard by Rixham,[2]
+    Ragged and not a groat betwixt 'em.
+    It rain'd as hard as it could pour,
+    Yet they were forced to walk an hour
+    From house to house, wet to the skin,
+    Before one soul would let 'em in.
+    They call'd at every door: "Good people,
+    My comrade's blind, and I'm a creeple!
+    Here we lie starving in the street,
+    'Twould grieve a body's heart to see't,
+    No Christian would turn out a beast,
+    In such a dreadful night at least;
+    Give us but straw and let us lie
+    In yonder barn to keep us dry."
+    Thus in the stroller's usual cant,
+    They begg'd relief, which none would grant.
+    No creature valued what they said,
+    One family was gone to bed:
+    The master bawled out half asleep,
+    "You fellows, what a noise you keep!
+    So many beggars pass this way,
+    We can't be quiet, night nor day;
+    We cannot serve you every one;
+    Pray take your answer, and be gone."
+    One swore he'd send 'em to the stocks;
+    A third could not forbear his mocks;
+    But bawl'd as loud as he could roar
+    "You're on the wrong side of the door!"
+    One surly clown look't out and said,
+    "I'll fling the p—pot on your head:
+    You sha'nt come here, nor get a sous!
+    You look like rogues would rob a house.
+    Can't you go work, or serve the King?
+    You blind and lame! 'Tis no such thing.
+    That's but a counterfeit sore leg!
+    For shame! two sturdy rascals beg!
+    If I come down, I'll spoil your trick,
+    And cure you both with a good stick."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 3997
+    "line_end": 4038
+  "translation_ja": |-
+    それは、ある冬の夜のこと、
+    伝説を書いた人々の話では、
+    仲間の隠者二人、商売は聖人、
+    姿を変えて、巡り歩き、
+    リクサム近くの村へ来た。[2]
+    ぼろをまとい、二人合わせても一文なし。
+    雨は、これ以上ないほど降りしきり、
+    それでも一時間は歩かねばならなかった、
+    家から家へ、肌までずぶ濡れになって、
+    入れてくれる人が、一人でも見つかるまでは。
+    どの戸口でも、こう呼びかけた。「善良な皆さん、
+    連れは盲で、私は跛です！
+    ここで、道に倒れて飢えております、
+    見れば、胸が痛むでしょう。
+    キリスト教徒なら、獣だって追い出しますまい、
+    せめて、こんな恐ろしい夜には。
+    藁だけでも恵み、寝かせてください、
+    あそこの納屋で、雨をしのがせて。」
+    こうして、流れ者のお決まりの口調で、
+    助けを乞うたが、誰も恵まなかった。
+    その言葉を、気に留める者もなく、
+    ある家では、もう皆、寝ていた。
+    主人は、半分眠ったまま怒鳴った。
+    「お前ら、何を騒ぎ立てる！
+    ここは、物乞いが何人も通って、
+    夜も昼も、静かにできん。
+    一人残らず、面倒を見られるものか。
+    返事は、それだけだ。さっさと行け。」
+    足枷台へ送ってやる、と誓う者もいた。
+    また別の者は、からかわずにいられず、
+    ありったけの大声で、怒鳴った。
+    「お前ら、戸の外側にいるんだぞ！」
+    不機嫌な田舎者は、顔を出して言った。
+    「頭から、尿——瓶をぶちまけてやる。
+    ここには入れん。一銭もやらんぞ！
+    家へ押し込む悪党の面だ。
+    働くか、王に仕えるかできんのか。
+    盲だの跛だの、真っ赤な嘘だ。
+    その脚の傷も、ただの見せかけだろう！
+    恥を知れ、頑丈な悪党二人で物乞いか！
+    下へ行ったら、その芝居を終わらせ、
+    太い棒で、二人とも治してやる。」
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-03"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      Our wand'ring saints, in woful state,
+    Treated at this ungodly rate,
+    Having thro' all the village past,
+    To a small cottage came at last
+    Where dwelt a good old honest ye'man,
+    Call'd thereabout good man Philemon;
+    Who kindly did the saints invite
+    In his poor house to pass the night;
+    And then the hospitable sire
+    Bid Goody Baucis mend the fire;
+    Whilst he from out the chimney took
+    A flitch of bacon off the hook,
+    And freely from the fattest side
+    Cut out large slices to be fry'd;
+    Which tost up in a pan with batter,
+    And served up in an earthen platter,
+    Quoth Baucis, "This is wholesome fare,
+    Eat, honest friends, and never spare,
+    And if we find our victuals fail,
+    We can but make it out in ale."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 4039
+    "line_end": 4058
+  "translation_ja": |-
+    さすらう聖人たちは、惨めな姿で、
+    こんな不信心な扱いを受け、
+    村を、すっかり通り抜けて、
+    ついに、小さな家へたどり着いた。
+    そこには、善良で正直な老自作農が住み、
+    近所では、ピレモン爺さんと呼ばれていた。
+    彼は、親切にも聖人たちを招き、
+    貧しい家で、一夜を明かさせた。
+    人をもてなすのが好きな老人は、
+    バウキス婆さんに、火をつぎ足すよう言い、
+    自分は、炉の中の鉤から、
+    塩漬け豚肉の片身を外し、
+    いちばん脂ののった所から、惜しみなく、
+    炒めるため、大きく何枚も切り取った。
+    それを、衣とともに鍋で炒め、
+    土の大皿に盛ると、
+    バウキスは言った。「体によい食べ物です。
+    さあ、お客さん、遠慮せず食べてください。
+    食べ物が、足りなくなったとしても、
+    エールで、お腹を満たせばよいのです。」
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-04"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      To a small kilderkin of beer,
+    Brew'd for the good time of the year,
+    Philemon, by his wife's consent,
+    Stept with a jug, and made a vent,
+    And having fill'd it to the brink,
+    Invited both the saints to drink.
+    When they had took a second draught,
+    Behold, a miracle was wrought;
+    For, Baucis with amazement found,
+    Although the jug had twice gone round,
+    It still was full up to the top,
+    As they ne'er had drunk a drop.
+    You may be sure so strange a sight,
+    Put the old people in a fright:
+    Philemon whisper'd to his wife,
+    "These men are—Saints—I'll lay my life!"
+    The strangers overheard, and said,
+    "You're in the right—but be'nt afraid:
+    No hurt shall come to you or yours:
+    But for that pack of churlish boors,
+    Not fit to live on Christian ground,
+    They and their village shall be drown'd;
+    Whilst you shall see your cottage rise,
+    And grow a church before your eyes."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 4059
+    "line_end": 4082
+  "translation_ja": |-
+    小さなキルダーキン樽のビールへ、
+    祝いの季節に向けて醸したビールへ、
+    ピレモンは、妻の同意を得て、
+    水差しを手に近づき、穴を開け、
+    縁いっぱいまで注いでから、
+    二人の聖人に、飲むよう勧めた。
+    二杯目を、飲み終えると、
+    見よ、奇跡が起こった。
+    バウキスは、驚いて気づいた、
+    水差しは、二度も回されたのに、
+    相変わらず、口までいっぱいで、
+    まるで、一滴も飲まなかったようなのだ。
+    当然、こんな不思議な光景に、
+    老人たちは、怯えた。
+    ピレモンは、妻へ囁いた。
+    「あの方々は——聖人だ——命を賭けてもよい！」
+    客人たちは、聞きつけて言った。
+    「そのとおり。だが、怖がることはない。
+    お前たちにも、家族にも、害は及ばぬ。
+    ただし、あの無礼な田舎者ども、
+    キリスト教徒の土地に住む資格のない連中は、
+    村ともども、水に沈めてやろう。
+    その間に、お前たちの家は立ち上がり、
+    目の前で、教会に変わるだろう。」
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-05"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      Scarce had they spoke, when fair and soft,
+    The roof began to mount aloft;
+    Aloft rose ev'ry beam and rafter;
+    The heavy wall went clambering after.
+    The chimney widen'd, and grew higher,
+    Became a steeple with a spire.
+    The kettle to the top was hoist,
+    And there stood fastened to a joist,
+    But with the upside down, to show
+    Its inclination for below:
+    In vain; for a superior force
+    Applied at bottom stops its course:
+    Doom'd ever in suspense to dwell,
+    'Tis now no kettle, but a bell.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 4083
+    "line_end": 4096
+  "translation_ja": |-
+    言い終わるか終わらぬうちに、静かに、ゆっくり、
+    屋根が、高く上がり始めた。
+    梁も垂木も、ことごとく上がり、
+    重たい壁も、あとからよじ登った。
+    煙突は、幅も高さも増し、
+    尖塔のついた、鐘楼となった。
+    釜は、てっぺんへ吊り上げられ、
+    そこで、梁へしっかり留められた。
+    ただし逆さまで、下のほうへ、
+    行きたがる気持ちを示している。
+    だが無駄だ。それに勝る力が、
+    底へ加わり、動きを止めている。
+    いつまでも、宙ぶらりんと定められ、
+    もはや釜ではなく、鐘となった。
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-06"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      The wooden jack, which had almost
+    Lost by disuse the art to roast,
+    A sudden alteration feels,
+    Increas'd by new intestine wheels;
+    But what adds to the wonder more,
+    The number made the motion slower.
+    The flyer, altho't had leaden feet,
+    Would turn so quick you scarce could see't;
+    But, now stopt by some hidden powers,
+    Moves round but twice in twice twelve hours,
+    While in the station of a jack,
+    'Twas never known to turn its back,
+    A friend in turns and windings tried,
+    Nor ever left the chimney's side.
+    The chimney to a steeple grown,
+    The jack would not be left alone;
+    But, up against the steeple rear'd,
+    Became a clock, and still adher'd;
+    And still its love to household cares,
+    By a shrill voice at noon declares,
+    Warning the cookmaid not to burn
+    That roast meat, which it cannot turn.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 4097
+    "line_end": 4118
+  "translation_ja": |-
+    木製の焼き串回しは、ほとんど、
+    使われぬまま、肉を焼く技を忘れていたが、
+    突然、変化を感じ、
+    中には、新しい歯車が増えた。
+    しかも、不思議を増すことには、
+    数が増えると、動きは遅くなった。
+    鉛の足のついた、回転する羽根は、
+    もとは、ほとんど見えぬほど速く回ったのに、
+    今は、隠れた力に止められて、
+    二十四時間に、二度しか回らない。
+    串回しの役を務めていたころは、
+    背を向けたことなど、一度もなかった。
+    幾度の回転と曲折にも耐えた友として、
+    煙突のそばを、離れなかった。
+    煙突が、鐘楼となったからには、
+    串回しも、独り置いていかれはせず、
+    鐘楼に沿って、高く据えられ、
+    時計となって、なお寄り添った。
+    今も、家事への愛着を、
+    正午の鋭い声で告げる。
+    料理女中に、焦がさぬよう注意するのだ、
+    自分には、もう回せない焼き肉を。
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-07"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      The groaning-chair began to crawl,
+    Like a huge insect, up the wall;
+    There stuck, and to a pulpit grew,
+    But kept its matter and its hue,
+    And mindful of its ancient state,
+    Still groans while tattling gossips prate.
+    The mortar only chang'd its name,
+    In its old shape a font became.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 4119
+    "line_end": 4126
+  "translation_ja": |-
+    産婦の椅子は、這い始めた、
+    巨大な虫のように、壁を上へ。
+    そこで貼りつき、説教壇となったが、
+    材質も色も、もとのまま。
+    昔の身分を忘れずに、
+    おしゃべり仲間が喋ると、今も呻く。
+    乳鉢は、名前だけを変え、
+    もとの形のまま、洗礼盤となった。
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-08"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      The porringers, that in a row,
+    Hung high, and made a glitt'ring show,
+    To a less noble substance chang'd,
+    Were now but leathern buckets rang'd.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 4127
+    "line_end": 4130
+  "translation_ja": |-
+    粥椀は、一列に、
+    高く掛けられ、きらきらしていたが、
+    もっと卑しい材質へ変わり、
+    今では、革の手桶が並ぶばかり。
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-09"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      The ballads, pasted on the wall,
+    Of Chevy Chase, and English Mall,[3]
+    Fair Rosamond, and Robin Hood,
+    The little Children in the Wood,
+    Enlarged in picture, size, and letter,
+    And painted, lookt abundance better,
+    And now the heraldry describe
+    Of a churchwarden, or a tribe.
+    A bedstead of the antique mode,
+    Composed of timber many a load,
+    Such as our grandfathers did use,
+    Was metamorphos'd into pews;
+    Which yet their former virtue keep
+    By lodging folk disposed to sleep.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 4131
+    "line_end": 4144
+  "translation_ja": |-
+    壁に貼ってあった、物語歌、
+    『チェヴィー・チェイス』に『イングランドのモール』、[3]
+    『美しきロザモンド』に『ロビン・フッド』、
+    『森の中の幼い子供たち』は、
+    絵も、大きさも、文字も拡大され、
+    色を塗られて、ずっと立派に見え、
+    今では、教会委員か、部族の、
+    紋章を描き出すものとなった。
+    昔ふうの寝台は、
+    何車分もの木材でできた、
+    祖父たちが、使ったような代物で、
+    教会の腰掛けへ姿を変えた。
+    それでも、昔の長所は残し、
+    眠りたい人々を、寝かせてくれる。
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-10"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      The cottage, with such feats as these,
+    Grown to a church by just degrees,
+    The holy men desired their host
+    To ask for what he fancied most.
+    Philemon, having paused a while,
+    Replied in complimental style:
+    "Your goodness, more than my desert,
+    Makes you take all things in good part:
+    You've raised a church here in a minute,
+    And I would fain continue in it;
+    I'm good for little at my days,
+    Make me the parson if you please."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 4145
+    "line_end": 4156
+  "translation_ja": |-
+    こうした、あれこれの技によって、
+    家が、順々に教会へ育つと、
+    聖人たちは、主人へ勧めた、
+    いちばん欲しいものを、願いなさいと。
+    ピレモンは、しばらく考え、
+    丁重な言葉で答えた。
+    「私の値打ちより、お慈悲のほうが勝るので、
+    何もかも、よいように受け取ってくださいます。
+    あっという間に、ここへ教会を建ててくださり、
+    私は、このまま住み続けたいのです。
+    この歳では、大して役にも立てません。
+    どうか、ここの牧師にしてください。」
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-11"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      He spoke, and presently he feels
+    His grazier's coat reach down his heels;
+    The sleeves new border'd with a list,
+    Widen'd and gather'd at his wrist,
+    But, being old, continued just
+    As threadbare, and as full of dust.
+    A shambling awkward gait he took,
+    With a demure dejected look,
+    Talk't of his offerings, tythes, and dues,
+    Could smoke and drink and read the news,
+    Or sell a goose at the next town,
+    Decently hid beneath his gown.
+    Contriv'd to preach old sermons next,
+    Chang'd in the preface and the text.
+    At christ'nings well could act his part,
+    And had the service all by heart;
+    Wish'd women might have children fast,
+    And thought whose sow had farrow'd last;
+    Against dissenters would repine.
+    And stood up firm for "right divine;"
+    Carried it to his equals higher,
+    But most obedient to the squire.
+    Found his head fill'd with many a system;
+    But classic authors,—he ne'er mist 'em.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 4157
+    "line_end": 4180
+  "translation_ja": |-
+    そう言うと、たちまち気づいた、
+    牧畜業者の上着が、踵まで延びている。
+    袖には、新たに縁飾りがつき、
+    広がってから、手首で絞られた。
+    だが、古着であるから、相変わらず、
+    すり切れ、埃だらけなのは同じ。
+    ぎこちなく、足を引きずって歩き、
+    すまし顔で、うつむいた。
+    話すのは、献金、十分の一税、納付金、
+    煙草を吸い、酒を飲み、新聞を読み、
+    隣町では、鵞鳥も売れた、
+    法衣の下へ、行儀よく隠して。
+    次には、古い説教をする工夫をした、
+    前置きと、引用聖句を取り替えて。
+    洗礼式では、役をうまく務め、
+    式文は、すっかり暗記していた。
+    女たちが、次々子を産むのを願い、
+    最後に子を産んだのは、誰の雌豚だったかと考えた。
+    非国教徒には、不平を鳴らし、
+    「神授の権利」を、断固として擁護した。
+    同輩には、偉そうに振る舞ったが、
+    地主には、ひたすら従順だった。
+    頭は、多くの学説で満ちたが、
+    古典の著者がなくても、少しも困らなかった。
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-12"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      Thus having furbish'd up a parson,
+    Dame Baucis next they play'd their farce on.
+    Instead of homespun coifs, were seen
+    Good pinners edg'd with colberteen;[4]
+    Her petticoat, transform'd apace,
+    Became black satin, flounced with lace.
+    "Plain Goody" would no longer down,
+    'Twas "Madam," in her grogram gown.
+    Philemon was in great surprise,
+    And hardly could believe his eyes.
+    Amaz'd to see her look so prim,
+    And she admir'd as much at him.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 4181
+    "line_end": 4192
+  "translation_ja": |-
+    こうして、牧師を仕立て上げると、
+    次に、バウキス婆さんへ茶番を仕掛けた。
+    手織りの頭巾に代わって、
+    コルベルティーンで縁取った、立派な垂れ布の頭飾り。[4]
+    ペティコートは、たちまち姿を変え、
+    レースの襞飾りのついた、黒いサテンとなった。
+    ただの「婆さん」では、もう通用しない、
+    グログラムの服を着れば、「奥様」だった。
+    ピレモンは、たいそう驚き、
+    自分の目を、ほとんど信じられなかった。
+    妻が、あんなにおすましなのに驚き、
+    妻も、同じほど夫に驚いた。
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-13"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      Thus happy in their change of life,
+    Were several years this man and wife:
+    When on a day, which prov'd their last,
+    Discoursing o'er old stories past,
+    They went by chance, amidst their talk,
+    To the churchyard, to take a walk;
+    When Baucis hastily cry'd out,
+    "My dear, I see your forehead sprout!"—
+    "Sprout;" quoth the man; "what's this you tell us?
+    I hope you don't believe me jealous!
+    But yet, methinks, I feel it true,
+    And really yours is budding too—
+    Nay,—now I cannot stir my foot;
+    It feels as if 'twere taking root."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 4193
+    "line_end": 4206
+  "translation_ja": |-
+    こうして、変わった暮らしを幸せに、
+    夫婦は、幾年か過ごした。
+    やがて、最後となった、ある日、
+    昔の物語を、あれこれ話し、
+    喋りながら、ふと歩いていった、
+    教会の墓地へ、散歩するために。
+    すると、バウキスが、急に叫んだ。
+    「あなた、額から芽が出ているわ！」
+    「芽だと？」と夫は言った。「何を言う？
+    まさか、私をやきもち焼きだと思うまいな！
+    だが、どうも本当らしい、感じがする。
+    それに、お前にも芽が出ているぞ。
+    おや、もう、足が動かせぬ、
+    根を張っているような気がする。」
+  "translation_status": "reviewed"
+- "id": "bp-v1-stanza-14"
+  "section_id": "version-1"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      Description would but tire my Muse,
+    In short, they both were turn'd to yews.
+    Old Goodman Dobson of the Green
+    Remembers he the trees has seen;
+    He'll talk of them from noon till night,
+    And goes with folk to show the sight;
+    On Sundays, after evening prayer,
+    He gathers all the parish there;
+    Points out the place of either yew,
+    Here Baucis, there Philemon, grew:
+    Till once a parson of our town,
+    To mend his barn, cut Baucis down;
+    At which, 'tis hard to be believ'd
+    How much the other tree was griev'd,
+    Grew scrubby, dy'd a-top, was stunted,
+    So the next parson stubb'd and burnt it.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[79]"
+    "line_start": 4207
+    "line_end": 4222
+  "translation_ja": |-
+    描き続けても、詩神が疲れるだけ。
+    要するに、二人はイチイとなった。
+    村の緑地の、老ドブソン爺さんは、
+    あの木々を見たのを、覚えている。
+    昼から夜まで、その話をし、
+    人々についていって、見せてくれる。
+    日曜には、夕べの祈りのあと、
+    教区の皆を、そこへ集め、
+    二本のイチイの場所を、指し示す、
+    ここにバウキス、そこにピレモンが育ったと。
+    ところが、あるとき、この町の牧師が、
+    納屋の修繕に、バウキスを切り倒した。
+    それで、もう一本が、どれほど悲しんだかは、
+    信じがたいほどだった。
+    枝は貧弱になり、梢が枯れ、成長も止まったので、
+    次の牧師が、根ごと抜いて燃やした。
+  "translation_status": "reviewed"
+- "id": "bp-v1-note-1"
+  "section_id": "version-1-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [Footnote 1: I here give the original version of this poem, which Forster
+    found in Swift's handwriting at Narford; and which has never been
+    published. It is well known that, at Addison's suggestion, Swift made
+    extensive changes in this, "one of the happiest of his poems," concerning
+    which Forster says, in his "Life of Swift," at p. 165: "The poem, as
+    printed, contains one hundred and seventy-eight lines; the poem, as I
+    found it at Narford, has two hundred and thirty; and the changes in the
+    latter bringing it into the condition of the former, by which only it has
+    been thus far known, comprise the omission of ninety-six lines, the
+    addition of forty-four, and the alteration of twenty-two. The question
+    can now be discussed whether or not the changes were improvements, and,
+    in my opinion, the decision must be adverse to Addison."—W. E. B.]
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[80]"
+    "line_start": 4224
+  "translation_ja": "[1] ここには、この詩の原稿版を掲げる。フォースターが、ナーフォードで、スウィフトの自筆原稿を見つけたもので、これまで公刊されていなかった。スウィフトが、アディソンの助言で、この「彼の詩のうち、最も見事なものの一つ」に、大幅な変更を加えたことは、よく知られている。フォースターは、『スウィフト伝』一六五頁で、この詩について、こう述べる。「印刷された詩は百七十八行、私がナーフォードで見つけた詩は二百三十行ある。後者を、これまで唯一知られてきた前者の形にする変更は、九十六行の削除、四十四行の追加、二十二行の改変からなる。この変更が改良だったかどうかは、今や論じられるが、私の考えでは、判定はアディソンに不利でなければならない。」――W・E・B。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "browning"
+  - "voice": "quoted_person"
+    "contributor_id": "forster"
+    "source_span":
+      "start": 339
+      "end": 836
+      "exact": |-
+        "The poem, as
+        printed, contains one hundred and seventy-eight lines; the poem, as I
+        found it at Narford, has two hundred and thirty; and the changes in the
+        latter bringing it into the condition of the former, by which only it has
+        been thus far known, comprise the omission of ninety-six lines, the
+        addition of forty-four, and the alteration of twenty-two. The question
+        can now be discussed whether or not the changes were improvements, and,
+        in my opinion, the decision must be adverse to Addison."
+    "translation_span":
+      "start": 169
+      "end": 315
+      "exact": "「印刷された詩は百七十八行、私がナーフォードで見つけた詩は二百三十行ある。後者を、これまで唯一知られてきた前者の形にする変更は、九十六行の削除、四十四行の追加、二十二行の改変からなる。この変更が改良だったかどうかは、今や論じられるが、私の考えでは、判定はアディソンに不利でなければならない。」"
+    "evidence_ja": "ブラウニングの注がフォースター『スウィフト伝』165頁を引用する箇所。"
+- "id": "bp-v1-note-2"
+  "section_id": "version-1-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [Footnote 2: The "village hard by Rixham" of the original has as little
+    connection with "Chilthorne" as the "village down in Kent" of the altered
+    version, and Swift had probably no better reason than his rhyme for
+    either.—Forster.]
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[80]"
+    "line_start": 4224
+  "translation_ja": "[2] 原稿版の「リクサム近くの村」は、改稿版の「ケントの奥の村」と同じく、「チルソーン」とは、ほとんど関係がない。スウィフトが、どちらを選んだ理由も、おそらく韻以上のものではなかったろう。――フォースター。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "forster"
+- "id": "bp-v1-note-3"
+  "section_id": "version-1-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [Footnote 3: See the next poem for note on this line. Chevy Chase seems
+    more suitable to the characters than the Joan of Arc of the altered
+    version.—W. E. B.]
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[80]"
+    "line_start": 4224
+  "translation_ja": "[3] この行についての注は、次の詩を参照。改稿版のジャンヌ・ダルクより、『チェヴィー・チェイス』のほうが、登場人物にはふさわしく思われる。――W・E・B。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "browning"
+- "id": "bp-v1-note-4"
+  "section_id": "version-1-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [Footnote 4: A lace so called after the celebrated French Minister, M.
+    Colbert Planché's "Costume," p. 395.—W. E. B.]
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[80]"
+    "line_start": 4224
+  "translation_ja": "[4] 著名なフランスの大臣コルベール氏にちなんで、そう呼ばれるレース。プランシェ『服飾』三九五頁。――W・E・B。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "browning"
+- "id": "bp-v2-heading"
+  "section_id": "version-2"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "BAUCIS AND PHILEMON[1]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/h2[27]"
+    "line_start": 4260
+  "translation_ja": "バウキスとピレモン[1]"
+  "translation_status": "reviewed"
+- "id": "bp-v2-subtitle"
+  "section_id": "version-2"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "ON THE EVER-LAMENTED LOSS OF THE TWO YEW-TREES IN THE PARISH OF CHILTHORNE, SOMERSET. 1706. IMITATED\
+    \ FROM THE EIGHTH BOOK OF OVID"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/p[235]"
+    "line_start": 4263
+  "translation_ja": "サマセット州チルソーン教区の二本のイチイが失われたことを、いつまでも嘆いて。一七〇六年。オウィディウス『変身物語』第八巻にならう。"
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-01"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    In ancient times, as story tells,
+    The saints would often leave their cells,
+    And stroll about, but hide their quality,
+    To try good people's hospitality.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4268
+    "line_end": 4271
+  "translation_ja": |-
+    昔々、物語によると、
+    聖人たちは、よく庵を離れ、
+    身分を隠して、あちこち歩き、
+    善良な人々の、もてなしぶりを試した。
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-02"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      It happen'd on a winter night,
+    As authors of the legend write,
+    Two brother hermits, saints by trade,
+    Taking their tour in masquerade,
+    Disguis'd in tatter'd habits, went
+    To a small village down in Kent;
+    Where, in the strollers' canting strain,
+    They begg'd from door to door in vain,
+    Try'd ev'ry tone might pity win;
+    But not a soul would let them in.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4272
+    "line_end": 4281
+  "translation_ja": |-
+    それは、ある冬の夜のこと、
+    伝説を書いた人々の話では、
+    仲間の隠者二人、商売は聖人、
+    姿を変えて、巡り歩き、
+    ぼろぼろの服に身をやつして、
+    ケントの奥の、小さな村へ来た。
+    そこで、流れ者の、お決まりの口調で、
+    戸から戸へ物を乞うたが、無駄だった。
+    同情を誘いそうな声を、すべて試したが、
+    入れてくれる人は、一人もいなかった。
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-03"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      Our wand'ring saints, in woful state,
+    Treated at this ungodly rate,
+    Having thro' all the village past,
+    To a small cottage came at last
+    Where dwelt a good old honest ye'man,
+    Call'd in the neighbourhood Philemon;
+    Who kindly did these saints invite
+    In his poor hut to pass the night;
+    And then the hospitable sire
+    Bid Goody Baucis mend the fire;
+    While he from out the chimney took
+    A flitch of bacon off the hook,
+    And freely from the fattest side
+    Cut out large slices to be fry'd;
+    Then stepp'd aside to fetch 'em drink,
+    Fill'd a large jug up to the brink,
+    And saw it fairly twice go round;
+    Yet (what was wonderful) they found
+    'Twas still replenished to the top,
+    As if they ne'er had touch'd a drop.
+    The good old couple were amaz'd,
+    And often on each other gaz'd;
+    For both were frighten'd to the heart,
+    And just began to cry, "What art!"
+    Then softly turn'd aside, to view
+    Whether the lights were burning blue.
+    The gentle pilgrims, soon aware on't,
+    Told them their calling and their errand:
+    "Good folk, you need not be afraid,
+    We are but saints," the hermits said;
+    "No hurt shall come to you or yours:
+    But for that pack of churlish boors,
+    Not fit to live on Christian ground,
+    They and their houses shall be drown'd;
+    While you shall see your cottage rise,
+    And grow a church before your eyes."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4282
+    "line_end": 4317
+  "translation_ja": |-
+    さすらう聖人たちは、惨めな姿で、
+    こんな不信心な扱いを受け、
+    村を、すっかり通り抜けて、
+    ついに、小さな家へたどり着いた。
+    そこには、善良で正直な老自作農が住み、
+    近所では、ピレモンと呼ばれていた。
+    彼は、親切にも、この聖人たちを招き、
+    貧しい小屋で、一夜を明かさせた。
+    人をもてなすのが好きな老人は、
+    バウキス婆さんに、火をつぎ足すよう言い、
+    自分は、炉の中の鉤から、
+    塩漬け豚肉の片身を外し、
+    いちばん脂ののった所から、惜しみなく、
+    炒めるため、大きく何枚も切り取った。
+    それから、飲み物を取りに、脇へ行き、
+    大きな水差しへ、縁いっぱいに注ぎ、
+    きちんと、二度回したのを見た。
+    ところが、不思議なことに、気づいたのだ、
+    相変わらず、口まで満たされ、
+    まるで、一滴も口をつけなかったようなのだ。
+    善良な老夫婦は、驚き、
+    何度も、互いの顔を見た。
+    二人とも、心の底から怯え、
+    「何者なのだ！」と叫びかけ、
+    それから、そっと脇を向いて確かめた、
+    明かりが、青く燃えてはいないかと。
+    穏やかな巡礼たちは、すぐに気づき、
+    自分たちの仕事と、旅の目的を告げた。
+    「善良な人々よ、怖がることはない、
+    ただの聖人だ」と、隠者たちは言った。
+    「お前たちにも、家族にも、害は及ばぬ。
+    ただし、あの無礼な田舎者ども、
+    キリスト教徒の土地に住む資格のない連中は、
+    家々ともども、水に沈めてやろう。
+    その間に、お前たちの家は立ち上がり、
+    目の前で、教会に変わるだろう。」
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "resolved"
+    "message_ja": "What art! は What art [thou]? の言いさしと解する。直後に訪問者が calling and errand を明かし We are but saints と答える文脈に基づく解釈。術の種類を尋ねる意味に限定しない。底本のartと句読点はsource_textに保持する。"
+- "id": "bp-v2-stanza-04"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      They scarce had spoke, when fair and soft,
+    The roof began to mount aloft;
+    Aloft rose ev'ry beam and rafter;
+    The heavy wall climb'd slowly after.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4318
+    "line_end": 4321
+  "translation_ja": |-
+    言い終わるか終わらぬうちに、静かに、ゆっくり、
+    屋根が、高く上がり始めた。
+    梁も垂木も、ことごとく上がり、
+    重たい壁も、ゆっくり、あとから登った。
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-05"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      The chimney widen'd, and grew higher
+    Became a steeple with a spire.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4322
+    "line_end": 4323
+  "translation_ja": |-
+    煙突は、幅も高さも増し、
+    尖塔のついた、鐘楼となった。
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-06"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      The kettle to the top was hoist,
+    And there stood fasten'd to a joist,
+    But with the upside down, to show
+    Its inclination for below:
+    In vain; for a superior force
+    Applied at bottom stops its course:
+    Doom'd ever in suspense to dwell,
+    'Tis now no kettle, but a bell.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4324
+    "line_end": 4331
+  "translation_ja": |-
+    釜は、てっぺんへ吊り上げられ、
+    そこで、梁へしっかり留められた。
+    ただし逆さまで、下のほうへ、
+    行きたがる気持ちを示している。
+    だが無駄だ。それに勝る力が、
+    底へ加わり、動きを止めている。
+    いつまでも、宙ぶらりんと定められ、
+    もはや釜ではなく、鐘となった。
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-07"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      A wooden jack, which had almost
+    Lost by disuse the art to roast,
+    A sudden alteration feels,
+    Increas'd by new intestine wheels;
+    And, what exalts the wonder more,
+    The number made the motion slower.
+    The flyer, though it had leaden feet,
+    Turn'd round so quick you scarce could see't;
+    But, slacken'd by some secret power,
+    Now hardly moves an inch an hour.
+    The jack and chimney, near ally'd,
+    Had never left each other's side;
+    The chimney to a steeple grown,
+    The jack would not be left alone;
+    But, up against the steeple rear'd,
+    Became a clock, and still adher'd;
+    And still its love to household cares,
+    By a shrill voice at noon, declares,
+    Warning the cookmaid not to burn
+    That roast meat, which it cannot turn.
+    The groaning-chair began to crawl,
+    Like an huge snail, half up the wall;
+    There stuck aloft in public view,
+    And with small change, a pulpit grew.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4332
+    "line_end": 4355
+  "translation_ja": |-
+    木製の焼き串回しは、ほとんど、
+    使われぬまま、肉を焼く技を忘れていたが、
+    突然、変化を感じ、
+    中には、新しい歯車が増えた。
+    しかも、不思議を増すことには、
+    数が増えると、動きは遅くなった。
+    鉛の足のついた、回転する羽根は、
+    もとは、ほとんど見えぬほど速く回ったのに、
+    ある秘密の力に、速度を落とされ、
+    今は、一時間に、一インチも動かぬほど。
+    串回しと煙突は、近しい仲で、
+    互いのそばを、離れたことがなかった。
+    煙突が、鐘楼となったからには、
+    串回しも、独り置いていかれはせず、
+    鐘楼に沿って、高く据えられ、
+    時計となって、なお寄り添った。
+    今も、家事への愛着を、
+    正午の鋭い声で告げる。
+    料理女中に、焦がさぬよう注意するのだ、
+    自分には、もう回せない焼き肉を。
+    産婦の椅子は、這い始めた、
+    巨大な蝸牛のように、壁の半ばまで。
+    高い所で貼りつき、人目にさらされ、
+    わずかに姿を変え、説教壇となった。
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-08"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      The porringers, that in a row
+    Hung high, and made a glitt'ring show,
+    To a less noble substance chang'd,
+    Were now but leathern buckets rang'd.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4356
+    "line_end": 4359
+  "translation_ja": |-
+    粥椀は、一列に、
+    高く掛けられ、きらきらしていたが、
+    もっと卑しい材質へ変わり、
+    今では、革の手桶が並ぶばかり。
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-09"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      The ballads, pasted on the wall,
+    Of Joan[2] of France, and English Mall,[3]
+    Fair Rosamond, and Robin Hood,
+    The little Children in the Wood,
+    Now seem'd to look abundance better,
+    Improved in picture, size, and letter:
+    And, high in order plac'd, describe
+    The heraldry of ev'ry tribe.[4]
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4360
+    "line_end": 4367
+  "translation_ja": |-
+    壁に貼ってあった、物語歌、
+    フランスのジャンヌ[2]と、イングランドのモール[3]、
+    『美しきロザモンド』に『ロビン・フッド』、
+    『森の中の幼い子供たち』は、
+    今では、ずっと立派に見えた、
+    絵も、大きさも、文字も、よくなって。
+    高い所へ、整然と据えられ、
+    部族それぞれの紋章を、描き出す。[4]
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-10"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      A bedstead of the antique mode,
+    Compact of timber many a load,
+    Such as our ancestors did use,
+    Was metamorphos'd into pews;
+    Which still their ancient nature keep
+    By lodging folk disposed to sleep.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4368
+    "line_end": 4373
+  "translation_ja": |-
+    昔ふうの寝台は、
+    何車分もの木材を組み合わせた、
+    先祖たちが、使ったような代物で、
+    教会の腰掛けへ姿を変えた。
+    それでも、昔の性質は残し、
+    眠りたい人々を、寝かせてくれる。
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-11"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      The cottage, by such feats as these,
+    Grown to a church by just degrees,
+    The hermits then desired their host
+    To ask for what he fancy'd most.
+    Philemon, having paused a while,
+    Return'd them thanks in homely style;
+    Then said, "My house is grown so fine,
+    Methinks, I still would call it mine.
+    I'm old, and fain would live at ease;
+    Make me the parson if you please."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4374
+    "line_end": 4383
+  "translation_ja": |-
+    こうした、あれこれの技によって、
+    家が、順々に教会へ育つと、
+    隠者たちは、主人へ勧めた、
+    いちばん欲しいものを、願いなさいと。
+    ピレモンは、しばらく考え、
+    飾らぬ言葉で、礼を述べた。
+    それから言った。「我が家は、こんなに立派になり、
+    このまま、我が物と呼んでいたい気がします。
+    歳も取り、楽に暮らしたいのです。
+    どうか、ここの牧師にしてください。」
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-12"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      He spoke, and presently he feels
+    His grazier's coat fall down his heels:
+    He sees, yet hardly can believe,
+    About each arm a pudding sleeve;
+    His waistcoat to a cassock grew,
+    And both assumed a sable hue;
+    But, being old, continued just
+    As threadbare, and as full of dust.
+    His talk was now of tithes and dues:
+    Could smoke his pipe, and read the news;
+    Knew how to preach old sermons next,
+    Vamp'd in the preface and the text;
+    At christ'nings well could act his part,
+    And had the service all by heart;
+    Wish'd women might have children fast,
+    And thought whose sow had farrow'd last;
+    Against dissenters would repine,
+    And stood up firm for "right divine;"
+    Found his head fill'd with many a system;
+    But classic authors,—he ne'er mist 'em.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4384
+    "line_end": 4403
+  "translation_ja": |-
+    そう言うと、たちまち気づいた、
+    牧畜業者の上着が、踵まで垂れている。
+    目にしても、ほとんど信じられぬ、
+    両腕の周りに、膨らんだ袖。
+    胴着は、カソックへと変わり、
+    どちらも、黒い色となった。
+    だが、古着であるから、相変わらず、
+    すり切れ、埃だらけなのは同じ。
+    今や、話すのは、十分の一税と納付金、
+    パイプで煙草を吸い、新聞を読めた。
+    次には、古い説教をする術を心得た、
+    前置きと、引用聖句を、つぎはぎして。
+    洗礼式では、役をうまく務め、
+    式文は、すっかり暗記していた。
+    女たちが、次々子を産むのを願い、
+    最後に子を産んだのは、誰の雌豚だったかと考えた。
+    非国教徒には、不平を鳴らし、
+    「神授の権利」を、断固として擁護した。
+    頭は、多くの学説で満ちたが、
+    古典の著者がなくても、少しも困らなかった。
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-13"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      Thus having furbish'd up a parson,
+    Dame Baucis next they play'd their farce on.
+    Instead of homespun coifs, were seen
+    Good pinners edg'd with colberteen;
+    Her petticoat, transform'd apace,
+    Became black satin, flounced with lace.
+    "Plain Goody" would no longer down,
+    'Twas "Madam," in her grogram gown.
+    Philemon was in great surprise,
+    And hardly could believe his eyes.
+    Amaz'd to see her look so prim,
+    And she admir'd as much at him.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4404
+    "line_end": 4415
+  "translation_ja": |-
+    こうして、牧師を仕立て上げると、
+    次に、バウキス婆さんへ茶番を仕掛けた。
+    手織りの頭巾に代わって、
+    コルベルティーンで縁取った、立派な垂れ布の頭飾り。
+    ペティコートは、たちまち姿を変え、
+    レースの襞飾りのついた、黒いサテンとなった。
+    ただの「婆さん」では、もう通用しない、
+    グログラムの服を着れば、「奥様」だった。
+    ピレモンは、たいそう驚き、
+    自分の目を、ほとんど信じられなかった。
+    妻が、あんなにおすましなのに驚き、
+    妻も、同じほど夫に驚いた。
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-14"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      Thus happy in their change of life,
+    Were several years this man and wife:
+    When on a day, which prov'd their last,
+    Discoursing o'er old stories past,
+    They went by chance, amidst their talk,
+    [5]To the churchyard to take a walk;
+    When Baucis hastily cry'd out,
+    "My dear, I see your forehead sprout!"—
+    "Sprout;" quoth the man; "what's this you tell us?
+    I hope you don't believe me jealous!
+    But yet, methinks, I feel it true,
+    And really yours is budding too—Nay,—now
+    I cannot stir my foot;
+    It feels as if 'twere taking root."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4416
+    "line_end": 4429
+  "translation_ja": |-
+    こうして、変わった暮らしを幸せに、
+    夫婦は、幾年か過ごした。
+    やがて、最後となった、ある日、
+    昔の物語を、あれこれ話し、
+    喋りながら、ふと歩いていった、
+    [5]教会の墓地へ、散歩するために。
+    すると、バウキスが、急に叫んだ。
+    「あなた、額から芽が出ているわ！」
+    「芽だと？」と夫は言った。「何を言う？
+    まさか、私をやきもち焼きだと思うまいな！
+    だが、どうも本当らしい、感じがする。
+    それに、お前にも芽が出ているぞ——おや、もう、
+    足が動かせぬ、
+    根を張っているような気がする。」
+  "translation_status": "reviewed"
+- "id": "bp-v2-stanza-15"
+  "section_id": "version-2"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |2-
+      Description would but tire my Muse,
+    In short, they both were turn'd to yews.
+    Old Goodman Dobson of the Green
+    Remembers he the trees has seen;
+    He'll talk of them from noon till night,
+    And goes with folk to show the sight;
+    On Sundays, after evening prayer,
+    He gathers all the parish there;
+    Points out the place of either yew,
+    Here Baucis, there Philemon, grew:
+    Till once a parson of our town,
+    To mend his barn, cut Baucis down;
+    At which, 'tis hard to be believ'd
+    How much the other tree was griev'd,
+    Grew scrubby, dy'd a-top, was stunted,
+    So the next parson stubb'd and burnt it.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[81]"
+    "line_start": 4430
+    "line_end": 4445
+  "translation_ja": |-
+    描き続けても、詩神が疲れるだけ。
+    要するに、二人はイチイとなった。
+    村の緑地の、老ドブソン爺さんは、
+    あの木々を見たのを、覚えている。
+    昼から夜まで、その話をし、
+    人々についていって、見せてくれる。
+    日曜には、夕べの祈りのあと、
+    教区の皆を、そこへ集め、
+    二本のイチイの場所を、指し示す、
+    ここにバウキス、そこにピレモンが育ったと。
+    ところが、あるとき、この町の牧師が、
+    納屋の修繕に、バウキスを切り倒した。
+    それで、もう一本が、どれほど悲しんだかは、
+    信じがたいほどだった。
+    枝は貧弱になり、梢が枯れ、成長も止まったので、
+    次の牧師が、根ごと抜いて燃やした。
+  "translation_status": "reviewed"
+- "id": "bp-v2-note-1"
+  "section_id": "version-2-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [Footnote 1: This is the version of the poem as altered by Swift in
+    accordance with Addison's suggestions.—W. E. B.]
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[82]"
+    "line_start": 4447
+  "translation_ja": "[1] これは、アディソンの助言に従って、スウィフトが改めた形の本文である。――W・E・B。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "browning"
+- "id": "bp-v2-note-2"
+  "section_id": "version-2-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [Footnote 2: La Pucelle d'Orléans. See "Hudibras," "Lady's Answer," verse
+    285, and note in Grey's edition, ii, 439.—W. E. B.]
+  "source_languages":
+  - "en"
+  - "fr"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[82]"
+    "line_start": 4447
+  "translation_ja": "[2] オルレアンの乙女。『ヒューディブラス』「婦人の返答」第二八五行と、グレイ版、第二巻四三九頁の注を参照。――W・E・B。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "browning"
+- "id": "bp-v2-note-3"
+  "section_id": "version-2-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [Footnote 3: Mary Ambree, on whose exploits in Flanders the popular
+    ballad was written. The line in the text is from "Hudibras," Part I,
+    c. 2, 367, where she is compared with Trulla:
+      "A bold virago, stout and tall,
+      As Joan of France, or English Mall."
+    The ballad is preserved in Percy's "Reliques of English Poetry," vol. ii,
+    239.—W. E. B.]
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[82]"
+    "line_start": 4447
+  "translation_ja": |-
+    [3] メアリー・アンブリー。フランドルでの武勲をもとに、よく知られた物語歌が作られた。本文の一行は、『ヒューディブラス』第一部第二歌三六七行にあり、そこで、彼女はトルラと比べられている。
+    「大胆な女丈夫、たくましく、背も高い、
+    フランスのジャンヌか、イングランドのモールのよう。」
+    この物語歌は、パーシー『イギリス古詩拾遺』第二巻二三九頁に収められている。――W・E・B。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "browning"
+- "id": "bp-v2-note-4"
+  "section_id": "version-2-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [Footnote 4: The tribes of Israel were sometimes distinguished in country
+    churches by the ensigns given to them by Jacob.—Dublin Edition.]
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[82]"
+    "line_start": 4447
+  "translation_ja": "[4] 田舎の教会では、ときに、ヤコブが授けた旗印によって、イスラエルの部族を区別して示した。――ダブリン版。"
+  "translation_status": "reviewed"
+- "id": "bp-v2-note-5"
+  "section_id": "version-2-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[Footnote 5: In the churchyard to fetch a walk.—Dublin Edition.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[83]"
+    "line_start": 4465
+  "translation_ja": "[5] 「教会の墓地へ、ひと歩きしに。」――ダブリン版。"
+  "translation_status": "reviewed"
+"notes":
+- "id": "bp-v1-fn-1"
+  "origin": "editor"
+  "label": "1"
+  "form": "footnote"
+  "body":
+  - "segment_id": "bp-v1-note-1"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[80]"
+    "line_start": 4224
+  "contributor_id": "browning"
+- "id": "bp-v1-fn-2"
+  "origin": "editor"
+  "label": "2"
+  "form": "footnote"
+  "body":
+  - "segment_id": "bp-v1-note-2"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[80]"
+    "line_start": 4224
+  "contributor_id": "forster"
+- "id": "bp-v1-fn-3"
+  "origin": "editor"
+  "label": "3"
+  "form": "footnote"
+  "body":
+  - "segment_id": "bp-v1-note-3"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[80]"
+    "line_start": 4224
+  "contributor_id": "browning"
+- "id": "bp-v1-fn-4"
+  "origin": "editor"
+  "label": "4"
+  "form": "footnote"
+  "body":
+  - "segment_id": "bp-v1-note-4"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[80]"
+    "line_start": 4224
+  "contributor_id": "browning"
+- "id": "bp-v2-fn-1"
+  "origin": "editor"
+  "label": "1"
+  "form": "footnote"
+  "body":
+  - "segment_id": "bp-v2-note-1"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[82]"
+    "line_start": 4447
+  "contributor_id": "browning"
+- "id": "bp-v2-fn-2"
+  "origin": "editor"
+  "label": "2"
+  "form": "footnote"
+  "body":
+  - "segment_id": "bp-v2-note-2"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[82]"
+    "line_start": 4447
+  "contributor_id": "browning"
+- "id": "bp-v2-fn-3"
+  "origin": "editor"
+  "label": "3"
+  "form": "footnote"
+  "body":
+  - "segment_id": "bp-v2-note-3"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[82]"
+    "line_start": 4447
+  "contributor_id": "browning"
+- "id": "bp-v2-fn-4"
+  "origin": "editor"
+  "label": "4"
+  "form": "footnote"
+  "body":
+  - "segment_id": "bp-v2-note-4"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[82]"
+    "line_start": 4447
+  "description_ja": "底本末尾署名Dublin Editionによる版の編者注。個人名は示されない。"
+- "id": "bp-v2-fn-5"
+  "origin": "editor"
+  "label": "5"
+  "form": "footnote"
+  "body":
+  - "segment_id": "bp-v2-note-5"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[83]"
+    "line_start": 4465
+  "description_ja": "底本末尾署名Dublin Editionによる版の編者注。個人名は示されない。"
+"groups":
+- "id": "bp-v1-poem"
+  "kind": "poem"
+  "members":
+  - "segment_id": "bp-v1-stanza-01"
+  - "segment_id": "bp-v1-stanza-02"
+  - "segment_id": "bp-v1-stanza-03"
+  - "segment_id": "bp-v1-stanza-04"
+  - "segment_id": "bp-v1-stanza-05"
+  - "segment_id": "bp-v1-stanza-06"
+  - "segment_id": "bp-v1-stanza-07"
+  - "segment_id": "bp-v1-stanza-08"
+  - "segment_id": "bp-v1-stanza-09"
+  - "segment_id": "bp-v1-stanza-10"
+  - "segment_id": "bp-v1-stanza-11"
+  - "segment_id": "bp-v1-stanza-12"
+  - "segment_id": "bp-v1-stanza-13"
+  - "segment_id": "bp-v1-stanza-14"
+  "separator": |2+
+
+  "description_ja": "底本preの字下げされた詩段落の境界を保持。詩行は改行で対応する。"
+- "id": "bp-v2-poem"
+  "kind": "poem"
+  "members":
+  - "segment_id": "bp-v2-stanza-01"
+  - "segment_id": "bp-v2-stanza-02"
+  - "segment_id": "bp-v2-stanza-03"
+  - "segment_id": "bp-v2-stanza-04"
+  - "segment_id": "bp-v2-stanza-05"
+  - "segment_id": "bp-v2-stanza-06"
+  - "segment_id": "bp-v2-stanza-07"
+  - "segment_id": "bp-v2-stanza-08"
+  - "segment_id": "bp-v2-stanza-09"
+  - "segment_id": "bp-v2-stanza-10"
+  - "segment_id": "bp-v2-stanza-11"
+  - "segment_id": "bp-v2-stanza-12"
+  - "segment_id": "bp-v2-stanza-13"
+  - "segment_id": "bp-v2-stanza-14"
+  - "segment_id": "bp-v2-stanza-15"
+  "separator": |2+
+
+  "description_ja": "底本preの字下げされた詩段落の境界を保持。詩行は改行で対応する。"
+"schema_version": "2.0"
+"work_id": "swift-baucis-and-philemon"
+"metadata":
+  "title_ja": "バウキスとピレモン"
+  "title_original": "Baucis and Philemon"
+  "subtitle_ja": "手稿版と改稿版"
+  "original_languages":
+  - "en"
+  - "fr"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "browning"
+    "name_ja": "ウィリアム・アーンスト・ブラウニング"
+    "name_original": "William Ernst Browning"
+    "roles":
+    - "editor"
+  - "id": "forster"
+    "name_ja": "ジョン・フォースター"
+    "name_original": "John Forster"
+    "roles":
+    - "contributor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。原著や電子版の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "詩"
+  - "風刺"
+  "reader_notes_ja":
+  - "一九一〇年ブラウニング編の詩集に続けて収められた、手稿版二百三十行と改稿版百七十八行を、それぞれの底本注とともに訳す。二版の共通する部分も、各版の一部として残す。"
+  - "版の由来は底本注に従う。手稿版はフォースターがナーフォードで見つけたスウィフト自筆の本文、改稿版はアディソンの助言を受けた変更後の本文とされる。"
+  - "「手稿版」「改稿版」「底本注」は今回の収録を整理するための見出し。底本注九件は編者の文章として区別する。"
+"sources":
+- "id": "gutenberg-14353"
+  "role": "primary"
+  "title": "The Poems of Jonathan Swift, D.D., Volume I"
+  "languages":
+  - "en"
+  - "fr"
+  "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+  "edition": "William Ernst Browning編、London: G. Bell and Sons, Ltd.、1910年。Project Gutenberg第14353番、2004年12月14日公開、2024年10月28日更新と記載。"
+  "contributor_ids":
+  - "swift"
+  - "browning"
+  - "forster"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/14353"
+    "note_ja": "原著者スウィフトは1745年没、底本編者ブラウニングは1916年没の1910年刊本。Project Gutenberg書誌は米国でパブリックドメインと表示。原著・底本の編集文章と電子版の配布条件を区別する。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "E-text prepared by Clare Boothby, G. Graustein, and the Project Gutenberg Online Distributed\
+      \ Proofreading Team"
+    "note_ja": "Project Gutenbergの商標・電子版配布条件。日本語訳への利用許諾を意味しない。"
+  "sha256": "86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc"
+  "description_ja": "2026年10月21日取得のHTML。同題h2二件の標題・副題・詩preと各底本注preを対象とする。CRLFをLFにし、pre共通の左余白と前後の空行を除き、詩行・語句・字下げによる詩段落境界は保持。次のpreにある別作品THE\
+    \ HISTORY OF VANBRUGH’S HOUSEは取り込まない。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "Baucis and Philemonの手稿版230行・改稿版178行、各標題・副題、手稿版の底本注1〜4と改稿版の底本注1〜5の全文。"
+    "section_ids":
+    - "version-1"
+    - "version-1-notes"
+    - "version-2"
+    - "version-2-notes"
+  "excluded":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "詩集の他作品、巻全体の前付・序文・目次・電子版利用案内と末尾ライセンス。改稿版の底本注5直後の別作品THE HISTORY OF VANBRUGH’S HOUSEは対象外。"
+  "known_gaps": []
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-21T01:03:15Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "627e9be317060e8737e3d165c202ee05ed4049daea584d34fe3d8f4c65844260"
+"references":
+- "id": "bp-v1-heading-ref-1"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "bp-v1-heading"
+    "source_span":
+      "start": 19
+      "end": 22
+      "exact": "[1]"
+    "translation_span":
+      "start": 9
+      "end": 12
+      "exact": "[1]"
+  "to":
+    "type": "note"
+    "id": "bp-v1-fn-1"
+  "status": "verified"
+  "label": "1"
+- "id": "bp-v1-stanza-02-ref-2"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "bp-v1-stanza-02"
+    "source_span":
+      "start": 171
+      "end": 174
+      "exact": "[2]"
+    "translation_span":
+      "start": 67
+      "end": 70
+      "exact": "[2]"
+  "to":
+    "type": "note"
+    "id": "bp-v1-fn-2"
+  "status": "verified"
+  "label": "2"
+- "id": "bp-v1-stanza-09-ref-3"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "bp-v1-stanza-09"
+    "source_span":
+      "start": 68
+      "end": 71
+      "exact": "[3]"
+    "translation_span":
+      "start": 40
+      "end": 43
+      "exact": "[3]"
+  "to":
+    "type": "note"
+    "id": "bp-v1-fn-3"
+  "status": "verified"
+  "label": "3"
+- "id": "bp-v1-stanza-12-ref-4"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "bp-v1-stanza-12"
+    "source_span":
+      "start": 154
+      "end": 157
+      "exact": "[4]"
+    "translation_span":
+      "start": 75
+      "end": 78
+      "exact": "[4]"
+  "to":
+    "type": "note"
+    "id": "bp-v1-fn-4"
+  "status": "verified"
+  "label": "4"
+- "id": "bp-v2-heading-ref-1"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "bp-v2-heading"
+    "source_span":
+      "start": 19
+      "end": 22
+      "exact": "[1]"
+    "translation_span":
+      "start": 9
+      "end": 12
+      "exact": "[1]"
+  "to":
+    "type": "note"
+    "id": "bp-v2-fn-1"
+  "status": "verified"
+  "label": "1"
+- "id": "bp-v2-stanza-09-ref-2"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "bp-v2-stanza-09"
+    "source_span":
+      "start": 42
+      "end": 45
+      "exact": "[2]"
+    "translation_span":
+      "start": 23
+      "end": 26
+      "exact": "[2]"
+  "to":
+    "type": "note"
+    "id": "bp-v2-fn-2"
+  "status": "verified"
+  "label": "2"
+- "id": "bp-v2-stanza-09-ref-3"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "bp-v2-stanza-09"
+    "source_span":
+      "start": 74
+      "end": 77
+      "exact": "[3]"
+    "translation_span":
+      "start": 38
+      "end": 41
+      "exact": "[3]"
+  "to":
+    "type": "note"
+    "id": "bp-v2-fn-3"
+  "status": "verified"
+  "label": "3"
+- "id": "bp-v2-stanza-09-ref-4"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "bp-v2-stanza-09"
+    "source_span":
+      "start": 282
+      "end": 285
+      "exact": "[4]"
+    "translation_span":
+      "start": 144
+      "end": 147
+      "exact": "[4]"
+  "to":
+    "type": "note"
+    "id": "bp-v2-fn-4"
+  "status": "verified"
+  "label": "4"
+- "id": "bp-v2-stanza-14-ref-5"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "bp-v2-stanza-14"
+    "source_span":
+      "start": 191
+      "end": 194
+      "exact": "[5]"
+    "translation_span":
+      "start": 77
+      "end": 80
+      "exact": "[5]"
+  "to":
+    "type": "note"
+    "id": "bp-v2-fn-5"
+  "status": "verified"
+  "label": "5"
+- "id": "bp-v1-note-3-to-v2-note-2"
+  "kind": "cross_reference"
+  "origin": "translator"
+  "from":
+    "segment_id": "bp-v1-note-3"
+    "source_span":
+      "start": 113
+      "end": 124
+      "exact": "Joan of Arc"
+    "translation_span":
+      "start": 26
+      "end": 34
+      "exact": "ジャンヌ・ダルク"
+  "to":
+    "type": "segment"
+    "id": "bp-v2-note-2"
+  "status": "verified"
+  "label": "改稿版の底本注2"
+  "description_ja": "底本の「次の詩」を、同じ読書版に収めた改稿版の対応注へ結ぶ。"
+- "id": "bp-v1-note-3-to-v2-note-3"
+  "kind": "cross_reference"
+  "origin": "translator"
+  "from":
+    "segment_id": "bp-v1-note-3"
+    "source_span":
+      "start": 21
+      "end": 30
+      "exact": "next poem"
+    "translation_span":
+      "start": 15
+      "end": 18
+      "exact": "次の詩"
+  "to":
+    "type": "segment"
+    "id": "bp-v2-note-3"
+  "status": "verified"
+  "label": "改稿版の底本注3"
+  "description_ja": "底本の「次の詩」を、同じ読書版に収めた改稿版の対応注へ結ぶ。"
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "term-baucis"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Baucis"
+  "translation_ja": "バウキス"
+- "id": "term-philemon"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Philemon"
+  "translation_ja": "ピレモン"
+"provenance":
+  "source_schema_reference_commit": "8353c0a876b11cfc615c2b0e7b6c393ef0ce5109"
+  "source_file_sha256": "86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc"
+  "source_boundaries":
+    "manuscript_anchor": "link2H_4_0025"
+    "revised_anchor": "link2H_4_0026"
+    "manuscript_poem_pre_characters_raw": 9606
+    "revised_poem_pre_characters_raw": 7450
+    "manuscript_lines": 230
+    "revised_lines": 178
+    "manuscript_verse_paragraphs": 14
+    "revised_verse_paragraphs": 15
+    "editor_notes": 9
+    "stop_before": "THE HISTORY OF VANBRUGH'S HOUSE"
+  "editor_dates_evidence":
+    "url": "https://manuscripts.nls.uk/repositories/2/archival_objects/18799"
+    "note_ja": "調整担当がNLS一次アーカイブ目録のCreator欄でWilliam Ernst Browning 1830–1916を確認。直接openは403のため到達成功とは記録しない。"
+  "draft_progress":
+    "saved_units": 42
+    "expected_units": 42
+    "next_segment_id": null
+    "draft_completed_at": "2026-10-21T00:58:44Z"
+  "full_review_history":
+  - "status": "complete"
+    "reviewed_ids":
+    - "bp-v1-heading"
+    - "bp-v1-subtitle"
+    - "bp-v1-stanza-01"
+    - "bp-v1-stanza-02"
+    - "bp-v1-stanza-03"
+    - "bp-v1-stanza-04"
+    - "bp-v1-stanza-05"
+    - "bp-v1-stanza-06"
+    - "bp-v1-stanza-07"
+    - "bp-v1-stanza-08"
+    - "bp-v1-stanza-09"
+    - "bp-v1-stanza-10"
+    - "bp-v1-stanza-11"
+    - "bp-v1-stanza-12"
+    - "bp-v1-stanza-13"
+    - "bp-v1-stanza-14"
+    - "bp-v1-note-1"
+    - "bp-v1-note-2"
+    - "bp-v1-note-3"
+    - "bp-v1-note-4"
+    - "bp-v2-heading"
+    - "bp-v2-subtitle"
+    - "bp-v2-stanza-01"
+    - "bp-v2-stanza-02"
+    - "bp-v2-stanza-03"
+    - "bp-v2-stanza-04"
+    - "bp-v2-stanza-05"
+    - "bp-v2-stanza-06"
+    - "bp-v2-stanza-07"
+    - "bp-v2-stanza-08"
+    - "bp-v2-stanza-09"
+    - "bp-v2-stanza-10"
+    - "bp-v2-stanza-11"
+    - "bp-v2-stanza-12"
+    - "bp-v2-stanza-13"
+    - "bp-v2-stanza-14"
+    - "bp-v2-stanza-15"
+    - "bp-v2-note-1"
+    - "bp-v2-note-2"
+    - "bp-v2-note-3"
+    - "bp-v2-note-4"
+    - "bp-v2-note-5"
+    "next_segment_id": null
+    "corrections":
+    - "segment_id": "bp-v1-stanza-04"
+      "reason_ja": "made a ventは開口を作ること。原文にない既存の栓の開閉を仮定しない。"
+    - "segment_id": "bp-v1-stanza-12"
+      "reason_ja": "grogramはgrosgrainとは別の織物。別素材名のグログランをグログラムへ訂正する。"
+    - "segment_id": "bp-v2-stanza-13"
+      "reason_ja": "grogramはgrosgrainとは別の織物。別素材名のグログランをグログラムへ訂正する。"
+    - "segment_id": "bp-v2-stanza-03"
+      "reason_ja": "What art! を名詞art=術と限定せず、直後の正体開示に応じる be動詞artの省略疑問と読み「何者なのだ！」へ。解釈の根拠と留保を当該単位のresolved issueへ保持。"
+    "source_ja_full_pass_completed_at": "2026-10-21T01:00:47Z"
+    "completed_at": "2026-10-21T01:01:39Z"
+    "review_method_ja": "全初稿保存後、手稿版・改稿版の標題、副題、全408詩行、底本注9件を原文と日本語で一回全文対照。意味・数量・引用・話者・否定・順序・注番号を確認。変更した句と参照のみ再確認し、追加の日本語単独通読・文体磨き・全面異版校合は行わない。"
+    "content_sha256": "627e9be317060e8737e3d165c202ee05ed4049daea584d34fe3d8f4c65844260"
+  "lexical_checks":
+  - "term": "groaning-chair"
+    "meaning_ja": "産婦が祝いの訪問を受ける椅子。出産にも使われた。本文では産婦の椅子と訳す。"
+    "evidence_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/A_glossary_of_North_country_words%2C_in_use_-_with_their_etymology%2C_and_affinity_to_other_languages_%3B_and_occasional_notices_of_local_customs_and_popular_superstitions_%28IA_glossaryofnorthc00brocrich%29.pdf"
+    "scope_ja": "語義のみ確認。詩本文の底本の差替えや全文異版校合には用いない。"
+  "reading_decisions":
+  - "segment_id": "bp-v2-stanza-03"
+    "primary_spelling": "What art!"
+    "comparison_spelling": "What ar’t!"
+    "comparison_url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Baucis_and_Philemon"
+    "scope_ja": "必要語の読みを確認した一行のみ。元のPG本文や1706年の年記を差し替えず、比較版全体の異文校合は行わない。"
+    "decision_ja": "artを二人称be動詞とする解釈を採り、直後のcalling and errand / We are but saintsに接続する。省略の補充は訳の判断として明示。"
+  "reference_preflight_adjustment_ja": "共通render_bodyは範囲のないcross_referenceを本文内リンクへ描画しないため、訳文を変えず、手稿版注3の「次の詩」「ジャンヌ・ダルク」それぞれに重ならない確認済み文字範囲を付けた。改稿版の注3・注2との対応と変更範囲だけ再確認。"
+  "preflight_summary":
+    "units": 42
+    "verse_lines": 408
+    "source_notes": 9
+    "source_note_refs": 9
+    "cross_refs": 2
+    "unique_rendered_ids": 88
+    "local_anchors": 24
+    "exact_canonical_text_and_order": true
+    "html_file_written": false
