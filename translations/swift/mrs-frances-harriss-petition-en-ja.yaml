@@ -1,0 +1,1006 @@
+"schema_version": "2.0"
+"work_id": "swift-mrs-frances-harriss-petition"
+"metadata":
+  "title_ja": "フランシス・ハリスの請願"
+  "title_original": "Mrs. Frances Harris's Petition, 1699"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "browning"
+    "name_ja": "ウィリアム・アーンスト・ブラウニング"
+    "name_original": "William Ernst Browning"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  - "id": "faulkner"
+    "name_ja": "ジョージ・フォークナー"
+    "name_original": "George Faulkner"
+    "roles":
+    - "editor"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。原著や電子版の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "詩"
+  - "風刺"
+  "reader_notes_ja":
+  - "一六九九年の年記をもつ請願詩。底本編者の紹介と、原注・編者注十四件を併せて収録する。"
+"sources":
+- "id": "gutenberg-14353"
+  "role": "primary"
+  "title": "The Poems of Jonathan Swift, D.D., Volume I"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+  "edition": "William Ernst Browning編、London: G. Bell and Sons, Ltd.、1910年。Project Gutenberg第14353番、2004年12月14日公開、2024年10月28日更新と記載。"
+  "contributor_ids":
+  - "swift"
+  - "browning"
+  - "faulkner"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/14353"
+    "note_ja": "原著者スウィフトは1745年没、底本編者ブラウニングは1916年没の1910年刊本。Project Gutenberg書誌は米国でパブリックドメインと表示。原著・底本の編集文章と電子版の配布条件を区別する。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "E-text prepared by Clare Boothby, G. Graustein, and the Project Gutenberg Online Distributed Proofreading Team"
+    "note_ja": "Project Gutenbergの商標・電子版配布条件。日本語訳への利用許諾を意味しない。"
+  "sha256": "86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc"
+  "description_ja": "2026年10月21日取得のHTML。h2[12]の題、Browning署名の紹介pre[50]、請願本文pre[51]、底本注pre[52]を採り、次のA BALLAD ON THE GAME OF TRAFFIC直前で止める。CRLFをLFにし、pre共通の左余白と前後の空行だけを除く。本文の長行の折返し、字下げ、注番号を保持する。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "原題と年記、Browningの紹介、請願本文全体、底本注全14件。紹介と注は原著者本文から区別。"
+    "section_ids":
+    - "work"
+    - "editor-introduction"
+    - "petition"
+    - "source-notes"
+  "excluded":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "次のA BALLAD ON THE GAME OF TRAFFICを含む他作品、巻全体の前付・序文・目次・電子版利用案内と末尾ライセンス。"
+  "known_gaps": []
+"sections":
+- "id": "work"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "harris-heading"
+  "origin": "source"
+- "id": "editor-introduction"
+  "parent_id": "work"
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "origin": "editorial"
+  "label_ja": "底本編者の紹介"
+- "id": "petition"
+  "parent_id": "work"
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "origin": "editorial"
+  "label_ja": "請願本文"
+- "id": "source-notes"
+  "parent_id": "work"
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "origin": "editorial"
+  "label_ja": "底本注"
+"segments":
+- "id": "harris-heading"
+  "section_id": "work"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "MRS. FRANCES HARRIS'S PETITION, 1699"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/h2[12]"
+    "line_start": 2769
+  "translation_ja": "フランシス・ハリスの請願、一六九九年"
+  "translation_status": "reviewed"
+- "id": "harris-editor-introduction"
+  "section_id": "editor-introduction"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    This, the most humorous example of vers de société in the English
+    language, well illustrates the position of a parson in a family of
+    distinction at that period.—W. E. B.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[50]"
+    "line_start": 2772
+  "translation_ja": "英語で書かれた社交詩のうち、最もユーモアに富むこの作品は、当時、身分の高い家における牧師の立場を、よく示している。――W・E・B。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "browning"
+- "id": "harris-poem"
+  "section_id": "petition"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    To their Excellencies the Lords Justices of Ireland,[1]
+      The humble petition of Frances Harris,
+    Who must starve and die a maid if it miscarries;
+    Humbly sheweth, that I went to warm myself in Lady Betty's[2] chamber,
+      because I was cold;
+    And I had in a purse seven pounds, four shillings, and sixpence,
+      (besides farthings) in money and gold;
+    So because I had been buying things for my lady last night,
+    I was resolved to tell my money, to see if it was right.
+    Now, you must know, because my trunk has a very bad lock,
+    Therefore all the money I have, which, God knows, is a very small stock,
+    I keep in my pocket, ty'd about my middle, next my smock.
+    So when I went to put up my purse, as God would have it, my smock was
+      unript,
+    And instead of putting it into my pocket, down it slipt;
+    Then the bell rung, and I went down to put my lady to bed;
+    And, God knows, I thought my money was as safe as my maidenhead.
+    So, when I came up again, I found my pocket feel very light;
+    But when I search'd, and miss'd my purse, Lord! I thought I should have
+      sunk outright.
+    "Lord! madam," says Mary, "how d'ye do?"—"Indeed," says I, "never worse:
+    But pray, Mary, can you tell what I have done with my purse?"
+    "Lord help me!" says Mary, "I never stirr'd out of this place!"
+    "Nay," said I, "I had it in Lady Betty's chamber, that's a  plain case."
+    So Mary got me to bed, and cover'd me up warm:
+    However, she stole away my garters, that I might do myself no harm.
+    So I tumbled and toss'd all night, as you may very well think,
+    But hardly ever set my eyes together, or slept a wink.
+    So I was a-dream'd, methought, that I went and search'd the folks round,
+    And in a corner of Mrs. Duke's[3] box, ty'd in a rag, the money was
+      found.
+    So next morning we told Whittle,[4] and he fell a swearing:
+    Then my dame Wadgar[5] came, and she, you know, is thick of hearing.
+    "Dame," said I, as loud as I could bawl, "do you know what a loss I have
+      had?"
+    "Nay," says she, "my Lord Colway's[6] folks are all very sad:
+    For my Lord Dromedary[7] comes a Tuesday without fail."
+    "Pugh!" said I, "but that's not the business that I ail."
+    Says Cary,[8] says he, "I have been a servant this five and twenty years
+      come spring,
+    And in all the places I lived I never heard of such a thing."
+    "Yes," says the steward,[9] "I remember when I was at my Lord
+      Shrewsbury's,
+    Such a thing as this happen'd, just about the time of gooseberries."
+    So I went to the party suspected, and I found her full of grief:
+    (Now, you must know, of all things in the world I hate a thief:)
+    However, I was resolved to bring the discourse slily about:
+    "Mrs. Duke," said I, "here's an ugly accident has happened out:
+    'Tis not that I value the money three skips of a louse:[10]
+    But the thing I stand upon is the credit of the house.
+    'Tis true, seven pounds, four shillings, and sixpence makes a great hole
+      in my wages:
+    Besides, as they say, service is no inheritance in these ages.
+    Now, Mrs. Duke, you know, and everybody understands,
+    That though 'tis hard to judge, yet money can't go without hands."
+    "The devil take me!" said she, (blessing herself,) "if ever I saw't!"
+    So she roar'd like a bedlam, as thof I had call'd her all to naught.
+    So, you know, what could I say to her any more?
+    I e'en left her, and came away as wise as I was before.
+    Well; but then they would have had me gone to the cunning man:
+    "No," said I, "'tis the same thing, the CHAPLAIN[11] will be here anon."
+    So the Chaplain came in. Now the servants say he is my sweetheart,
+    Because he's always in my chamber, and I always take his part.
+    So, as the devil would have it, before I was aware, out I blunder'd,
+    "Parson" said I, "can you cast a nativity, when a body's plunder'd?"
+    (Now you must know, he hates to be called Parson, like the devil!)
+    "Truly," says he, "Mrs. Nab, it might become you to be more civil;
+    If your money be gone, as a learned Divine says,[12] d'ye see,
+    You are no text for my handling; so take that from me:
+    I was never taken for a Conjurer before, I'd have you to know."
+    "Lord!" said I, "don't be angry, I am sure I never thought you so;
+    You know I honour the cloth; I design to be a Parson's wife;
+    I never took one in your coat for a conjurer in all my life."
+    With that he twisted his girdle at me like a rope, as who should say,
+    "Now you may go hang yourself for me!" and so went away.
+    Well: I thought I should have swoon'd. "Lord!" said I, "what shall I do?
+    I have lost my money, and shall lose my true love too!"
+    Then my lord call'd me: "Harry,"[13] said my lord, "don't cry;
+    I'll give you something toward thy loss." "And," says my lady, "so will
+     I."
+    Oh! but, said I, what if, after all, the Chaplain won't come to?
+    For that, he said (an't please your Excellencies), I must petition you.
+      The premisses tenderly consider'd, I desire your Excellencies'
+      protection,
+    And that I may have a share in next Sunday's collection;
+    And, over and above, that I may have your Excellencies' letter,
+    With an order for the Chaplain aforesaid, or, instead of him, a better:
+    And then your poor petitioner, both night and day,
+    Or the Chaplain (for 'tis his trade,[14]) as in duty bound, shall ever
+      pray.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[51]"
+    "line_start": 2777
+  "translation_ja": |-
+    アイルランド総督代理閣下お二方[1]へ、
+      フランシス・ハリスの慎ましき請願。
+    これがしくじれば、飢え死にして、嫁にも行けぬまま世を去る身でございます。
+    恐れながら申し上げます、私は、ベティ様[2]のお部屋へ、暖まりにまいりました、
+      寒かったものですから。
+    そのとき財布には、七ポンド四シリング六ペンス、
+      （ファージング銅貨は別に）、小銭と金貨で入っておりました。
+    それで、昨晩は奥様のお買物をしていたものですから、
+    お金を数えて、ちゃんと合っているか、確かめようと思ったのでございます。
+    お聞きくださいな、私の長持ちの錠前は、ひどく具合が悪いので、
+    私のお金は全部――神様もご存じの、ほんのわずかな蓄えですが――、
+    肌着のすぐ上で、腰に結びつけたポケットに入れておくのでございます。
+    それで、財布をしまおうとしたとき、何の因果か、肌着の縫い目が、
+      ほつれておりまして、
+    ポケットへ入らず、そのまま下へ、すべり落ちたのでございます。
+    そこへ呼び鈴が鳴り、私は、奥様をお寝かせするため、階下へまいりました。
+    神様もご存じのとおり、お金は、私の操と同じほど無事だと、思っておりました。
+    ところが、戻ってまいりますと、ポケットが、とても軽いのでございます。
+    探ってみて、財布がないと分かったときは、まあ、私は、その場で、
+      へたり込んでしまうかと思いました。
+    「まあ、どうなさいましたの。」とメアリー。「本当に、」と私、「こんなに困ったことはないわ。
+    ねえ、メアリー、私のお財布、どうしたか、知らないかしら。」
+    「とんでもない。」とメアリー、「私は、ここから一歩も動いていませんよ。」
+    「いいえ、ベティ様のお部屋では、ちゃんと持っていたのよ、それは確かだわ。」と私。
+    それで、メアリーは私を寝床に入れ、暖かく掛け物をしてくれましたが、
+    私が自分を傷つけないようにと、靴下留めを、こっそり持ち去りました。
+    お察しのとおり、私は、一晩じゅう、寝返りばかり打って、
+    ほとんど目も閉じず、まんじりともしませんでした。
+    それで夢を見ましたの、あたりの人たちの持ち物を、私が調べてまわりますと、
+    デュークさん[3]の箱の隅に、ぼろに包まれたお金が、
+      見つかったのでございます。
+    そこで翌朝、ウィトル[4]に話しましたら、あの人は、ひどく悪態をつきまして、
+    そこへ、ワドガー婆さん[5]がまいりました、あの方は、ご存じのとおり、耳が遠いのです。
+    「婆さん、私が、どんな損をしたか、
+      知っているかい。」と、私は、ありったけの大声で叫びました。
+    「いえね、」と婆さん、「コルウェイ卿[6]のお屋敷の皆さんは、たいそう悲しんでいるよ。
+    ドロメダリー卿[7]が、火曜日に、きっとおいでになるからね。」
+    「もう、私が困っているのは、そんなことじゃないのよ。」と私。
+    するとケアリー[8]が、「わしは、この春で、召使いをして、
+      二十五年になるが、
+    どのお屋敷にいたときも、こんなことは聞いたためしがない。」と言います。
+    「いや、」と執事[9]、「私がシュルーズベリー卿の、
+      お屋敷にいたころ、
+    こんなことがあったな、ちょうど、スグリの実るころだった。」
+    そこで私は、疑われている人のところへ行きましたら、しきりに悲しんでおりました。
+    （お聞きくださいな、私は、何よりも、泥棒というものが大嫌いなのでございます。）
+    それでも、それとなく、その話へ持っていこうと決めまして、
+    「デュークさん、困ったことが起きましたねえ、」と申しました。
+    「お金なんて、シラミが三跳ねするほども、惜しくはないんですけれどね。[10]
+    私が気にするのは、お屋敷の信用なのですよ。
+    確かに、七ポンド四シリング六ペンスは、私のお給金には、
+      大きな穴をあけますけれど、
+    それに、いまどきの奉公は、相続できる財産ではない、と言いますでしょう。
+    ねえ、デュークさん、あなたもご存じですし、誰だって分かっていますわね、
+    誰の仕業かは決めかねても、お金は、誰かの手なしには、なくならないということを。」
+    「悪魔にさらわれてもいいよ、」とあの人は（神様のお守りを祈りながら）、「私が一度でも、それを見たというんならね。」
+    そして、私が、散々にののしったかのように、気違いじみた大声を上げました。
+    それでは、ご存じのとおり、もう何が言えましょう。
+    私は、さっさとあの人から離れ、何も分からぬまま、引き揚げました。
+    そうしましたら、今度は皆が、占い師のところへ行けと言うのでございます。
+    「いいえ、同じことですよ、もうすぐ、お抱え牧師様[11]がいらっしゃるわ。」と私。
+    それで、お抱え牧師様がおいでになりました。召使いたちは、あの方が、私の恋人だと言いますの、
+    いつも私の部屋にいらっしゃいますし、私も、いつも、あの方の味方をするものですから。
+    ところが、悪魔のいたずらで、私は、ついうっかり、口を滑らせました。
+    「牧師さん、盗まれた人の、生まれ星を占うことは、できますか。」
+    （お聞きくださいな、あの方は、「牧師さん」と呼ばれるのを、死ぬほどお嫌いなのです。）
+    「まったく、ナブさん、もう少し礼儀正しくしてもよいでしょう、」と、あの方。
+    「お金がなくなったのなら、ある学識高い神学者の言葉どおり[12]、よろしいか、
+    あなたは、私が取り上げる説教の題ではないのです、そう覚えておきなさい。
+    私は、これまで、魔法使いと思われたことなど、一度もないのですよ。」
+    「まあ、怒らないでくださいな、そんなことは、決して思ったことはありませんわ。
+    私が聖職を敬っているのは、ご存じでしょう、牧師の奥さんになるつもりですもの。
+    あなたと同じ服を着たお方を、魔法使いだと思ったことは、生まれて一度もございません。」
+    すると、あの方は、私に向かって、腰ひもを縄のようによじって見せました、まるで、
+    「首でも吊るがいい、私は知らん。」と言うようにして、そのまま行ってしまわれました。
+    さて、私は、気を失いそうでした。「まあ、どうしたらいいのかしら。
+    お金をなくしたうえに、大事な恋人まで、失くしてしまうわ。」
+    そこへ、ご主人様がお呼びになり、「ハリー[13]、泣くんじゃない、
+    損の埋め合わせに、少し、やろう。」とおっしゃいました。「では、私も、」と奥様が、
+      おっしゃいました。
+    でも、私は申しました、「お抱え牧師様が、それでも、承知してくださらなかったら、どうしましょう。」
+    そのことなら、閣下方には恐れ入りますが、お二方に請願を出せと、ご主人様がおっしゃったのでございます。
+      以上の事情を、どうか、あわれとお考えになり、閣下方の、
+      お庇護を賜りたく、
+    また、今度の日曜の献金を、私にも、お分けいただきたく存じます。
+    そのうえ、さらに、閣下方のお手紙を、賜りまして、
+    前述のお抱え牧師様か、その代わりに、もっとよいお方を、私にお与えになるよう、お命じいただきたく存じます。
+    そうすれば、貧しい願い人である私は、夜も昼も、
+    あるいは、お抱え牧師様が（それが、お仕事ですから[14]）、務めとして、いつまでも、
+      お祈り申し上げます。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "harris-note-1"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[Footnote 1: The Earl of Berkeley and the Earl of Galway.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[1] バークリー伯爵とゴールウェイ伯爵。"
+  "translation_status": "reviewed"
+- "id": "harris-note-2"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[Footnote 2: Lady Betty Berkeley, afterwards Germaine.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[2] ベティ・バークリー嬢、のちのジャーメイン夫人。"
+  "translation_status": "reviewed"
+- "id": "harris-note-3"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[Footnote 3: Wife to one of the footmen.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[3] 従僕の一人の妻。"
+  "translation_status": "reviewed"
+- "id": "harris-note-4"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[Footnote 4: The Earl of Berkeley's valet.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[4] バークリー伯爵の身の回りの世話役。"
+  "translation_status": "reviewed"
+- "id": "harris-note-5"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[Footnote 5: The old deaf housekeeper.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[5] 耳の遠い、年取った女中頭。"
+  "translation_status": "reviewed"
+- "id": "harris-note-6"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[Footnote 6: Galway.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[6] ゴールウェイ。"
+  "translation_status": "reviewed"
+- "id": "harris-note-7"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [Footnote 7: The Earl of Drogheda, who, with the primate, was to succeed
+    the two earls, then lords justices of Ireland.]
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[7] ドロヘダ伯爵。首座大主教とともに、当時、アイルランド総督代理であった二人の伯爵の後任になることになっていた。"
+  "translation_status": "reviewed"
+- "id": "harris-note-8"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[Footnote 8: Clerk of the kitchen.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[8] 厨房係の書記。"
+  "translation_status": "reviewed"
+- "id": "harris-note-9"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [Footnote 9: Ferris; whom the poet terms in his Journal to Stella, 21st
+    Dec., 1710, a "beast," and a "Scoundrel dog." See "Prose Works," ii, p.
+    79—W. E. B.]
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[9] フェリス。この詩人は、一七一〇年十二月二十一日付『ステラへの日記』で、この人物を「けだもの」「ならず者の犬」と呼んでいる。『散文作品集』第二巻七九頁を参照。――W・E・B。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "browning"
+- "id": "harris-note-10"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[Footnote 10: A usual saying of hers.—Swift.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[10] 彼女が、よく口にする言葉。――スウィフト。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+- "id": "harris-note-11"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[Footnote 11: Swift.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[11] スウィフト。"
+  "translation_status": "reviewed"
+- "id": "harris-note-12"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[Footnote 12: Dr. Bolton, one of the chaplains.—Faulkner.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[12] お抱え牧師の一人、ボルトン博士。――フォークナー。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "faulkner"
+- "id": "harris-note-13"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[Footnote 13: A cant word of Lord and Lady Berkeley to Mrs. Harris.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[13] バークリー卿夫妻が、ハリスさんに使っていた、仲間うちの呼び名。"
+  "translation_status": "reviewed"
+- "id": "harris-note-14"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [Footnote 14: Swift elsewhere terms his own calling a trade. See his
+    letter to Pope, 29th Sept., 1725, cited in Introduction to Gulliver,
+    "Prose Works," vol. viii, p. xxv.—W. E. B.]
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[52]"
+    "line_start": 2869
+  "translation_ja": "[14] スウィフトは、ほかの箇所でも、自分の聖職を稼業と呼んでいる。『ガリヴァー』序論に引用された、一七二五年九月二十九日付ポープ宛書簡を参照。『散文作品集』第八巻二五頁（ローマ数字）。――W・E・B。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "browning"
+"notes":
+- "id": "harris-fn-1"
+  "origin": "editor"
+  "label": "1"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-1"
+  "description_ja": "底本の無署名編者注。Swift自身の署名がある注10と区別する。"
+- "id": "harris-fn-2"
+  "origin": "editor"
+  "label": "2"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-2"
+  "description_ja": "底本の無署名編者注。Swift自身の署名がある注10と区別する。"
+- "id": "harris-fn-3"
+  "origin": "editor"
+  "label": "3"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-3"
+  "description_ja": "底本の無署名編者注。Swift自身の署名がある注10と区別する。"
+- "id": "harris-fn-4"
+  "origin": "editor"
+  "label": "4"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-4"
+  "description_ja": "底本の無署名編者注。Swift自身の署名がある注10と区別する。"
+- "id": "harris-fn-5"
+  "origin": "editor"
+  "label": "5"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-5"
+  "description_ja": "底本の無署名編者注。Swift自身の署名がある注10と区別する。"
+- "id": "harris-fn-6"
+  "origin": "editor"
+  "label": "6"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-6"
+  "description_ja": "底本の無署名編者注。Swift自身の署名がある注10と区別する。"
+- "id": "harris-fn-7"
+  "origin": "editor"
+  "label": "7"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-7"
+  "description_ja": "底本の無署名編者注。Swift自身の署名がある注10と区別する。"
+- "id": "harris-fn-8"
+  "origin": "editor"
+  "label": "8"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-8"
+  "description_ja": "底本の無署名編者注。Swift自身の署名がある注10と区別する。"
+- "id": "harris-fn-9"
+  "origin": "editor"
+  "label": "9"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-9"
+  "contributor_id": "browning"
+- "id": "harris-fn-10"
+  "origin": "author"
+  "label": "10"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-10"
+  "contributor_id": "swift"
+- "id": "harris-fn-11"
+  "origin": "editor"
+  "label": "11"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-11"
+  "description_ja": "底本の無署名編者注。Swift自身の署名がある注10と区別する。"
+- "id": "harris-fn-12"
+  "origin": "editor"
+  "label": "12"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-12"
+  "contributor_id": "faulkner"
+- "id": "harris-fn-13"
+  "origin": "editor"
+  "label": "13"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-13"
+  "description_ja": "底本の無署名編者注。Swift自身の署名がある注10と区別する。"
+- "id": "harris-fn-14"
+  "origin": "editor"
+  "label": "14"
+  "form": "footnote"
+  "body":
+  - "segment_id": "harris-note-14"
+  "contributor_id": "browning"
+"references":
+- "id": "harris-ref-1"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 52
+      "end": 55
+      "exact": "[1]"
+    "translation_span":
+      "start": 15
+      "end": 18
+      "exact": "[1]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-1"
+  "status": "verified"
+  "label": "1"
+- "id": "harris-ref-2"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 204
+      "end": 207
+      "exact": "[2]"
+    "translation_span":
+      "start": 97
+      "end": 100
+      "exact": "[2]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-2"
+  "status": "verified"
+  "label": "2"
+- "id": "harris-ref-3"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 1670
+      "end": 1673
+      "exact": "[3]"
+    "translation_span":
+      "start": 903
+      "end": 906
+      "exact": "[3]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-3"
+  "status": "verified"
+  "label": "3"
+- "id": "harris-ref-4"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 1749
+      "end": 1752
+      "exact": "[4]"
+    "translation_span":
+      "start": 950
+      "end": 953
+      "exact": "[4]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-4"
+  "status": "verified"
+  "label": "4"
+- "id": "harris-ref-5"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 1796
+      "end": 1799
+      "exact": "[5]"
+    "translation_span":
+      "start": 990
+      "end": 993
+      "exact": "[5]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-5"
+  "status": "verified"
+  "label": "5"
+- "id": "harris-ref-6"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 1961
+      "end": 1964
+      "exact": "[6]"
+    "translation_span":
+      "start": 1091
+      "end": 1094
+      "exact": "[6]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-6"
+  "status": "verified"
+  "label": "6"
+- "id": "harris-ref-7"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 2010
+      "end": 2013
+      "exact": "[7]"
+    "translation_span":
+      "start": 1124
+      "end": 1127
+      "exact": "[7]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-7"
+  "status": "verified"
+  "label": "7"
+- "id": "harris-ref-8"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 2113
+      "end": 2116
+      "exact": "[8]"
+    "translation_span":
+      "start": 1187
+      "end": 1190
+      "exact": "[8]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-8"
+  "status": "verified"
+  "label": "8"
+- "id": "harris-ref-9"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 2277
+      "end": 2280
+      "exact": "[9]"
+    "translation_span":
+      "start": 1266
+      "end": 1269
+      "exact": "[9]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-9"
+  "status": "verified"
+  "label": "9"
+- "id": "harris-ref-10"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 2709
+      "end": 2713
+      "exact": "[10]"
+    "translation_span":
+      "start": 1501
+      "end": 1505
+      "exact": "[10]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-10"
+  "status": "verified"
+  "label": "10"
+- "id": "harris-ref-11"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 3394
+      "end": 3398
+      "exact": "[11]"
+    "translation_span":
+      "start": 1898
+      "end": 1902
+      "exact": "[11]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-11"
+  "status": "verified"
+  "label": "11"
+- "id": "harris-ref-12"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 3869
+      "end": 3873
+      "exact": "[12]"
+    "translation_span":
+      "start": 2179
+      "end": 2183
+      "exact": "[12]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-12"
+  "status": "verified"
+  "label": "12"
+- "id": "harris-ref-13"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 4481
+      "end": 4485
+      "exact": "[13]"
+    "translation_span":
+      "start": 2547
+      "end": 2551
+      "exact": "[13]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-13"
+  "status": "verified"
+  "label": "13"
+- "id": "harris-ref-14"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "harris-poem"
+    "source_span":
+      "start": 5085
+      "end": 5089
+      "exact": "[14]"
+    "translation_span":
+      "start": 2914
+      "end": 2918
+      "exact": "[14]"
+  "to":
+    "type": "note"
+    "id": "harris-fn-14"
+  "status": "verified"
+  "label": "14"
+"groups":
+- "id": "harris-petition-poem"
+  "kind": "poem"
+  "members":
+  - "segment_id": "harris-poem"
+  "separator": |2+
+
+  "description_ja": "底本本文に空行による連区切りはなく、一続きの請願詩。長行の折返しを含む全90表示行と字下げを保持。"
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "harris-term-lords-justices"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Lords Justices of Ireland"
+  "translation_ja": "アイルランド総督代理"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-21T01:18:36Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "b14461e726a6e636b9f38765bc3d3787cb442df1916ee99f64a484f8df490fbd"
+"provenance":
+  "source_schema_reference_commit": "8353c0a876b11cfc615c2b0e7b6c393ef0ce5109"
+  "source_file_sha256": "86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc"
+  "attribution_evidence":
+  - "url": "https://www.gutenberg.org/ebooks/14353"
+    "basis_ja": "Swiftを著者とする1910年Browning編詩集に本人作として収録。本文内のお抱え牧師を注11がSwiftと特定し、注10はSwiftの署名をもつ。"
+  - "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Mrs._Harris%27s_Petition"
+    "basis_ja": "1801年全集第7巻にも同題・1699年記で収録され、注11はchaplainをDr. Swiftと特定する。"
+    "scope_ja": "帰属と単独収録範囲の補助確認。翻訳底本はPG14353であり、1801年版の全文を別途校合・採用しない。"
+  "source_scope":
+    "heading_xpath": "/html/body/h2[12]"
+    "intro_xpath": "/html/body/pre[50]"
+    "poem_xpath": "/html/body/pre[51]"
+    "notes_xpath": "/html/body/pre[52]"
+    "next_excluded_heading": "A BALLAD ON THE GAME OF TRAFFIC"
+    "poem_physical_lines_including_wraps": 90
+    "poem_continuous_blocks": 1
+    "notes": 14
+  "draft_completed_at": "2026-10-21T01:17:02Z"
+  "full_review_history":
+  - "status": "complete"
+    "completed_at": "2026-10-21T01:18:09Z"
+    "reviewed_ids":
+    - "harris-heading"
+    - "harris-editor-introduction"
+    - "harris-poem"
+    - "harris-note-1"
+    - "harris-note-2"
+    - "harris-note-3"
+    - "harris-note-4"
+    - "harris-note-5"
+    - "harris-note-6"
+    - "harris-note-7"
+    - "harris-note-8"
+    - "harris-note-9"
+    - "harris-note-10"
+    - "harris-note-11"
+    - "harris-note-12"
+    - "harris-note-13"
+    - "harris-note-14"
+    "review_method_ja": "全初稿の正本保存後、原題・年記・紹介・全90表示行・底本注14件を原文と日本語で一回全文対照。意味・数量・否定・話者・引用・順序・注番号を確認し、訂正箇所と依存参照のみ再確認。追加の日本語単独通読や文体磨き、全面異版校合は行わない。"
+    "corrections":
+    - "segment_ids":
+      - "harris-poem"
+      - "harris-note-7"
+      "reason_ja": "Lords Justicesはここではアイルランドを統治する総督代理であり、司法官と誤読させる「統治判事」を訂正。"
+    - "segment_id": "harris-poem"
+      "reason_ja": "die a maidは婚姻せず死ぬという意味。「娘のまま」の年齢的な読みを避け、「嫁にも行けぬまま」とした。"
+    - "segment_id": "harris-poem"
+      "reason_ja": "maidenheadは処女性・操の状態を指す。「私の処女」が女性自身を指すように読めるため「私の操」へ訂正。"
+    "post_correction_check_ja": "本文冒頭3行、操に関する第17行、注7を原文と再確認し、すべての日本語注番号文字範囲を現在の訳から再計算。"
+    "content_sha256": "b14461e726a6e636b9f38765bc3d3787cb442df1916ee99f64a484f8df490fbd"
+  "source_observations_ja":
+  - "年記1699、口語・綴り（a-dream’d、thof、unript等）、本文内の誤称Colway/Dromedaryを底本どおり保持。注6/7の正式名と区別して訳す。"
+  - "紹介のW. E. B.はBrowningの署名。注9/14もBrowning、注12はFaulkner、注10はSwiftの原注。他の注者は署名がないため断定しない。"
+  - "Mrs.は未婚の女性にも使われる敬称として、本文では「さん」等とした。maidenheadとdie a maidの未婚・処女性の含意を保持する。"
+  "lexical_checks":
+  - "term": "Lords Justices of Ireland"
+    "translation_ja": "アイルランド総督代理"
+    "url": "https://celt.ucc.ie/document/T100072/"
+    "source_title": "Fynes Moryson, The Commonwealth of Ireland（University College Cork, CELT）"
+    "basis_ja": "Lord Deputy不在等の間に統治するLords Justicesの職権を述べる原典記述を、官職の意味確認に限って参照。本文へ当該文を引用・追加していない。"
+  "reference_check_ja": "訂正後の原注番号について、14件すべての原文範囲・日本語範囲・対応注を確認。"

@@ -1,0 +1,3387 @@
+"schema_version": "2.0"
+"work_id": "swift-cadenus-and-vanessa"
+"metadata":
+  "title_ja": "カデヌスとヴァネッサ"
+  "title_original": "Cadenus and Vanessa"
+  "original_languages":
+  - "en"
+  - "fr"
+  - "la"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "morley"
+    "name_ja": "ヘンリー・モーリー"
+    "name_original": "Henry Morley"
+    "roles":
+    - "editor"
+  - "id": "browning"
+    "name_ja": "ウィリアム・アーンスト・ブラウニング"
+    "name_original": "William Ernst Browning"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "今回の新訳の利用条件は未指定。原著・底本編集物・電子翻刻の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "詩"
+  - "風刺"
+  "reader_notes_ja":
+  - "ヘンリー・モーリー編、1886年Cassell & Company版による。題と1713年の年記、全47連・889行を収録。"
+  - "意味の不明瞭な底本の短句は、ブラウニング編1910年版の対応箇所も参照して訳した。1910年版の追加の編者注三件や、1801年版の年記にある地名と編者注は、この底本の一部として加えていない。"
+"sources":
+- "id": "gutenberg-623"
+  "role": "primary"
+  "title": "The Battle of the Books, and Other Short Pieces"
+  "languages":
+  - "en"
+  - "fr"
+  - "la"
+  "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+  "edition": "ヘンリー・モーリー編、Cassell & Company、1886年版。Project Gutenberg eBook 623の旧HTML。HTML内の公開日記載は2007年1月15日。"
+  "contributor_ids":
+  - "swift"
+  - "morley"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/623"
+    "note_ja": "原著者Swiftは1745年没、編者Morleyは1894年没の1886年刊本。Project Gutenberg書誌は米国で公有と表示。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "Transcribed from the 1886 Cassell & Company edition by David Price."
+    "note_ja": "原著と1886年版編集物の公有状態、およびProject Gutenbergの商標・電子版配布条件を区別する。"
+  "sha256": "6362b44a9f5703d1c2a3d10313ead9c9e124f845d138d725e602b6f1bf630517"
+  "description_ja": "1886年版の当該篇。題と1713年記、全詩を収録。"
+- "id": "gutenberg-13621"
+  "role": "comparison"
+  "title": "The Poems of Jonathan Swift, D.D., Volume II"
+  "languages":
+  - "en"
+  - "fr"
+  - "la"
+  "url": "https://www.gutenberg.org/cache/epub/13621/pg13621-images.html"
+  "edition": "William Ernst Browning編、London: G. Bell and Sons, Ltd.、1910年。Project Gutenberg eBook 13621。HTMLに初公開2004年10月5日・最終更新2024年10月28日と記載。"
+  "contributor_ids":
+  - "swift"
+  - "browning"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/13621"
+    "note_ja": "原著者Swiftは1745年没、1910年刊本。Project Gutenberg書誌は米国で公有と表示。編者Browningはスコットランド国立図書館一次アーカイブ目録のCreator欄（https://manuscripts.nls.uk/repositories/2/archival_objects/18799）に1830–1916と記載。原著と後代の編集物を区別する。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "Etext produced by Clare Boothby, G. Graustein and the PG Online Distributed Proofreading Team. HTML file\
+      \ produced by David Widger."
+    "note_ja": "原著・1910年版編集物の公有と、Project Gutenbergの商標・電子版配布条件を区別する。"
+  "sha256": "a334c49fee29ca1561e604e9a20b9975060450914b0023661d097954ef56d6e4"
+  "description_ja": "主底本で意味が不明瞭な短句十二箇所の解釈を照合するため参照。全篇をこの版へ差し替えず、この版の追加の編者注三件も収録しない。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-623"
+    "description_ja": "題・Written Anno 1713.の年記・全47連889行。対象の全49単位、原詩の連構造と行境界を保持。"
+    "section_ids":
+    - "title"
+    - "poem"
+  "excluded":
+  - "source_id": "gutenberg-623"
+    "description_ja": "巻全体の前付・編者序文・目次、前後の他作品、電子版の定型利用案内とライセンス。次篇Stella’s Birthday, 1718.は含めない。対象作品の詩に省略なし。"
+  - "source_id": "gutenberg-13621"
+    "description_ja": "この版の追加の編者注三件と収録篇の区分見出し。比較に用いた短句以外の本文を主底本へ混入しない。"
+  "known_gaps": []
+"sections":
+- "id": "title"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "cv-title"
+  "origin": "source"
+- "id": "poem"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "label_ja": "詩"
+  "origin": "editorial"
+"segments":
+- "id": "cv-title"
+  "section_id": "title"
+  "kind": "heading"
+  "source_text": |-
+    CADENUS AND VANESSA.
+  "translation_ja": |-
+    カデヌスとヴァネッサ
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[13]"
+    "line_start": 1982
+    "line_end": 1982
+    "source_sequence": 0
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-date"
+  "section_id": "title"
+  "kind": "paragraph"
+  "source_text": |-
+    Written Anno 1713.
+  "translation_ja": |-
+    一七一三年執筆。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[142]"
+    "line_start": 1983
+    "line_end": 1983
+    "source_sequence": 1
+  "origin": "source"
+  "source_languages":
+  - "en"
+  - "la"
+- "id": "cv-verse-001"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    The shepherds and the nymphs were seen
+    Pleading before the Cyprian Queen.
+    The counsel for the fair began
+    Accusing the false creature, man.
+  "translation_ja": |-
+    羊飼いたちとニンフたちが、姿を見せ、
+    キュプロスの女王の前で、訴えを争っていた。
+    美女たちの代理人が口を開き、
+    男という不実な生き物を、告発した。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[143]"
+    "line_start": 1984
+    "line_end": 1987
+    "source_sequence": 2
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-002"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    The brief with weighty crimes was charged,
+    On which the pleader much enlarged:
+    That Cupid now has lost his art,
+    Or blunts the point of every dart;
+    His altar now no longer smokes;
+    His mother’s aid no youth invokes—
+    This tempts free-thinkers to refine,
+    And bring in doubt their powers divine,
+    Now love is dwindled to intrigue,
+    And marriage grown a money-league.
+    Which crimes aforesaid (with her leave)
+    Were (as he humbly did conceive)
+    Against our Sovereign Lady’s peace,
+    Against the statutes in that case,
+    Against her dignity and crown:
+    Then prayed an answer and sat down.
+  "translation_ja": |-
+    訴訟要旨書には、重い罪が書き連ねられ、
+    弁論人は、それを、詳しく述べ立てた。
+    いまやキューピッドは、技を失ったか、
+    どの矢の先も、鈍らせてしまったのだ。
+    その祭壇からは、もう煙が立たず、
+    その母の助けを、若者は誰も祈らない。
+    このため、自由思想家は、理屈をこね、
+    二人の神聖な力を、疑うようになる。
+    いまや恋は、密かな情事へと縮み、
+    結婚は、金のための同盟となった。
+    右に掲げた罪は、（お許しいただければ、）
+    （恐れながら、そう考えますが、）
+    我らが君主たる女王陛下の、平安に反し、
+    かかる場合の法令に反し、
+    その尊厳と王冠に、背くものである。
+    そうして、答弁を願い、席に着いた。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[144]"
+    "line_start": 1988
+    "line_end": 2003
+    "source_sequence": 3
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-003"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    The nymphs with scorn beheld their foes:
+    When the defendant’s counsel rose,
+    And, what no lawyer ever lacked,
+    With impudence owned all the fact.
+    But, what the gentlest heart would vex,
+    Laid all the fault on t’other sex.
+    That modern love is no such thing
+    As what those ancient poets sing;
+    A fire celestial, chaste, refined,
+    Conceived and kindled in the mind,
+    Which having found an equal flame,
+    Unites, and both become the same,
+    In different breasts together burn,
+    Together both to ashes turn.
+    But women now feel no such fire,
+    And only know the gross desire;
+    Their passions move in lower spheres,
+    Where’er caprice or folly steers.
+    A dog, a parrot, or an ape,
+    Or some worse brute in human shape
+    Engross the fancies of the fair,
+    The few soft moments they can spare
+    From visits to receive and pay,
+    From scandal, politics, and play,
+    From fans, and flounces, and brocades,
+    From equipage and park-parades,
+    From all the thousand female toys,
+    From every trifle that employs
+    The out or inside of their heads
+    Between their toilets and their beds.
+  "translation_ja": |-
+    ニンフたちは、敵を、蔑んで見つめた。
+    すると、被告の代理人が立ち、
+    どの法律家も欠いたことのないもの、
+    厚かましさをもって、事実はすべて認めた。
+    だが、どんな優しい心をも、苛立たせることに、
+    罪をすべて、もう一方の性へ、なすりつけた。
+    当世の恋は、あの昔の詩人たちが、
+    歌うものとは、まったく違うのだ。
+    天上の、貞らかで、精妙な火、
+    心の中で宿り、燃え立つ火、
+    それが、等しい炎を見つけると、
+    結ばれ、二つは、一つになり、
+    別々の胸で、ともに燃え、
+    ともに、灰となる、あの火とは。
+    だが、いまの女たちに、そんな火はなく、
+    知っているのは、粗野な欲望だけ。
+    その情念は、もっと低い天球を動く、
+    気まぐれや愚かさの、導くままに。
+    犬か鸚鵡か、猿か、
+    人の姿をした、もっと悪い獣かが、
+    美女たちの空想を、占めきっている。
+    訪問を受け、訪問を返すことから、
+    中傷、政治、賭け事から、
+    扇、フリル、錦織から、
+    馬車、公園での練り歩きから、
+    女の、あの千もの玩具から、
+    化粧台と寝床の間で、
+    頭の外や中を占める、あらゆる些事から、
+    やっと割ける、わずかな優しい時間を、
+    そうしたものが、独り占めしているのだ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[145]"
+    "line_start": 2004
+    "line_end": 2033
+    "source_sequence": 4
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-004"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    In a dull stream, which, moving slow,
+    You hardly see the current flow,
+    If a small breeze obstructs the course,
+    It whirls about for want of force,
+    And in its narrow circle gathers
+    Nothing but chaff, and straws, and feathers:
+    The current of a female mind
+    Stops thus, and turns with every wind;
+    Thus whirling round, together draws
+    Fools, fops, and rakes, for chaff and straws.
+    Hence we conclude, no women’s hearts
+    Are won by virtue, wit, and parts;
+    Nor are the men of sense to blame
+    For breasts incapable of flame:
+    The fault must on the nymphs be placed,
+    Grown so corrupted in their taste.
+  "translation_ja": |-
+    流れが動くのも、ほとんど見えない、
+    のろのろ進む、鈍い小川では、
+    わずかな風が、行く手を妨げると、
+    力がないので、くるくる回り、
+    その狭い輪の中へ集めるのは、
+    穀物の殻、藁、羽ばかり。
+    女の心の流れも、こうして止まり、
+    吹く風ごとに、向きを変える。
+    こうして回り、殻や藁の代わりに、
+    愚か者、伊達男、放蕩者を、引き寄せる。
+    ゆえに、女の心は、美徳や才知や能力で、
+    勝ち取られはしない、と結論する。
+    炎を宿せぬ胸のために、
+    分別ある男を、責めることもできぬ。
+    罪は、ニンフたちに負わせねばならない、
+    好みが、これほど腐ってしまったのだから。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[146]"
+    "line_start": 2034
+    "line_end": 2049
+    "source_sequence": 5
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-005"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    The pleader having spoke his best,
+    Had witness ready to attest,
+    Who fairly could on oath depose,
+    When questions on the fact arose,
+    That every article was true;
+    Nor further those deponents knew:
+    Therefore he humbly would insist,
+    The bill might be with costs dismissed.
+  "translation_ja": |-
+    弁論人は、力を尽くして述べ終えると、
+    証言する証人も、用意していた。
+    事実について、問いが出たなら、
+    正々堂々、宣誓して証言できる者たちだ。
+    どの条項も、すべて真実だと、
+    しかも、供述者が知るのは、それだけなのだと。
+    ゆえに、恐れながら、強く求める、
+    訴状は棄却し、訴訟費用も相手に負わせよと。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[147]"
+    "line_start": 2050
+    "line_end": 2057
+    "source_sequence": 6
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-006"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    The cause appeared of so much weight,
+    That Venus from the judgment-seat
+    Desired them not to talk so loud,
+    Else she must interpose a cloud:
+    For if the heavenly folk should know
+    These pleadings in the Courts below,
+    That mortals here disdain to love,
+    She ne’er could show her face above.
+    For gods, their betters, are too wise
+    To value that which men despise.
+    “And then,” said she, “my son and I
+    Must stroll in air ’twixt earth and sky:
+    Or else, shut out from heaven and earth,
+    Fly to the sea, my place of birth;
+    There live with daggled mermaids pent,
+    And keep on fish perpetual Lent.”
+  "translation_ja": |-
+    訴えは、あまりに重く見えたので、
+    ウェヌスは、裁判の座から、
+    声を、あまり高くしないよう、求めた。
+    さもなければ、雲を間に置くほかない。
+    もし、天上の者たちが、下界の法廷で、
+    こんな弁論があったと知ったら、
+    地上の人間が、恋を軽蔑していると知ったら、
+    二度と、上で顔向けできないからだ。
+    人より上の神々は、あまりに賢いので、
+    人の蔑むものを、重んじたりはしない。
+    「そうなれば」と、女神は言った、「息子と私は、
+    地と空の間で、空中をさまようか、
+    天からも地からも、締め出され、
+    生まれた海へ、逃げるしかない。
+    そこで、びしょ濡れの人魚に囲まれ、
+    魚ばかりで、永遠の四旬節を過ごすのだ」。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[148]"
+    "line_start": 2058
+    "line_end": 2073
+    "source_sequence": 7
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-007"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    But since the case appeared so nice,
+    She thought it best to take advice.
+    The Muses, by their king’s permission,
+    Though foes to love, attend the session,
+    And on the right hand took their places
+    In order; on the left, the Graces:
+    To whom she might her doubts propose
+    On all emergencies that rose.
+    The Muses oft were seen to frown;
+    The Graces half ashamed look down;
+    And ’twas observed, there were but few
+    Of either sex, among the crew,
+    Whom she or her assessors knew.
+    The goddess soon began to see
+    Things were not ripe for a decree,
+    And said she must consult her books,
+    The lovers’ Fletas, Bractons, Cokes.
+    First to a dapper clerk she beckoned,
+    To turn to Ovid, book the second;
+    She then referred them to a place
+    In Virgil (vide Dido’s case);
+    As for Tibullus’s reports,
+    They never passed for law in Courts:
+    For Cowley’s brief, and pleas of Waller,
+    Still their authority is smaller.
+  "translation_ja": |-
+    だが、事件が、これほど微妙なので、
+    助言を求めるのが、最善と考えた。
+    ムーサたちは、その王の許しを得て、
+    恋には敵であるのに、審理に列席し、
+    右側へ、順に席を占めた。
+    左側には、優美の女神たち。
+    新しい難題が、どんなときに起きても、
+    疑問を、この者たちに、諮れるように。
+    ムーサたちは、たびたび眉をひそめ、
+    優美の女神たちは、いくらか恥じて、目を伏せた。
+    そして、この一団の中には、男女どちらにも、
+    女神や、その陪席者の知る者は、
+    ほとんどいないことが、見て取れた。
+    まもなく女神は、わかり始めた、
+    判決には、まだ熟していないと。
+    そこで、書物を調べねばならぬと言った、
+    恋人たちの、フリータ、ブラクトン、コークを。
+    まず、こざっぱりした書記へ、合図して、
+    オウィディウスの第二巻を、開かせた。
+    次に、ウェルギリウスの一節を示した、
+    （ディードーの事件を、参照のこと。）
+    ティブッルスの判例集に至っては、
+    法廷で、法として通ったことはない。
+    カウリーの要旨書、ウォラーの弁論ともなると、
+    その権威は、さらに乏しいのである。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[149]"
+    "line_start": 2074
+    "line_end": 2098
+    "source_sequence": 8
+  "origin": "source"
+  "source_languages":
+  - "en"
+  - "la"
+- "id": "cv-verse-008"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    There was on both sides much to say;
+    She’d hear the cause another day;
+    And so she did, and then a third,
+    She heard it—there she kept her word;
+    But with rejoinders and replies,
+    Long bills, and answers, stuffed with lies
+    Demur, imparlance, and essoign,
+    The parties ne’er could issue join:
+    For sixteen years the cause was spun,
+    And then stood where it first begun.
+  "translation_ja": |-
+    双方には、言いたいことが、山ほどあった。
+    女神は、別の日に、訴えを聴くとした。
+    実際、そうして、さらに三日目も、
+    聴いた。この点は、約束を守った。
+    だが、再答弁と、返答と、
+    嘘を詰めた、長い訴状と、答弁と、
+    抗弁、和解猶予、欠席の弁明で、
+    当事者たちは、争点を、定められぬ。
+    十六年も、訴訟は引き延ばされ、
+    結局、初めの場所に、立ったまま。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[150]"
+    "line_start": 2099
+    "line_end": 2108
+    "source_sequence": 9
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-009"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Now, gentle Clio, sing or say,
+    What Venus meant by this delay.
+    The goddess, much perplexed in mind,
+    To see her empire thus declined,
+    When first this grand debate arose
+    Above her wisdom to compose,
+    Conceived a project in her head,
+    To work her ends; which, if it sped,
+    Would show the merits of the cause
+    Far better than consulting laws.
+  "translation_ja": |-
+    さて、優しいクレイオよ、歌え、あるいは語れ、
+    ウェヌスが、この引き延ばしで、何を狙ったか。
+    女神は、自分の帝国が、これほど衰えたのを見て、
+    心に、ひどく思い悩んだ。
+    この大きな争いが、初めて起き、
+    自分の知恵では、治められぬと知ると、
+    胸の中に、一つの計画を思いついた、
+    目的を果たすためのもの。それが成功すれば、
+    法を調べるより、はるかによく、
+    訴えの実質を、示せるだろうという計画を。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[151]"
+    "line_start": 2109
+    "line_end": 2118
+    "source_sequence": 10
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-010"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    In a glad hour Lucina’s aid
+    Produced on earth a wondrous maid,
+    On whom the queen of love was bent
+    To try a new experiment.
+    She threw her law-books on the shelf,
+    And thus debated with herself:—
+  "translation_ja": |-
+    めでたい時、ルキナの助けによって、
+    地上に、不思議な乙女が生まれた。
+    恋の女王は、その娘を使い、
+    新たな実験をしようと、心に決めた。
+    法律書を棚へ投げ、
+    自分自身と、こう論じた。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[152]"
+    "line_start": 2119
+    "line_end": 2124
+    "source_sequence": 11
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-011"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    “Since men allege they ne’er can find
+    Those beauties in a female mind
+    Which raise a flame that will endure
+    For ever, uncorrupt and pure;
+    If ’tis with reason they complain,
+    This infant shall restore my reign.
+    I’ll search where every virtue dwells,
+    From Courts inclusive down to cells.
+    What preachers talk, or sages write,
+    These I will gather and unite,
+    And represent them to mankind
+    Collected in that infant’s mind.”
+  "translation_ja": |-
+    「男たちは、女の心の中には、
+    あの美しさを、決して見つけられぬと言う。
+    永遠に、損なわれず、清らかに、
+    持ちこたえる炎を、燃え上がらせる美しさを。
+    理にかなって、そう不平を言うのなら、
+    この幼子が、私の支配を、取り戻してくれよう。
+    あらゆる美徳の住む所を、私は探そう、
+    宮廷も含め、下は、隠者の庵まで。
+    説教師の語ること、賢者の書くこと、
+    それらを集め、一つにしよう。
+    この幼子の心の中へ、すべて集め、
+    人類に、示してみせよう」。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[153]"
+    "line_start": 2125
+    "line_end": 2136
+    "source_sequence": 12
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-012"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    This said, she plucks in heaven’s high bowers
+    A sprig of Amaranthine flowers,
+    In nectar thrice infuses bays,
+    Three times refined in Titan’s rays:
+    Then calls the Graces to her aid,
+    And sprinkles thrice the now-born maid.
+    From whence the tender skin assumes
+    A sweetness above all perfumes;
+    From whence a cleanliness remains,
+    Incapable of outward stains;
+    From whence that decency of mind,
+    So lovely in a female kind.
+    Where not one careless thought intrudes
+    Less modest than the speech of prudes;
+    Where never blush was called in aid,
+    The spurious virtue in a maid,
+    A virtue but at second-hand;
+    They blush because they understand.
+  "translation_ja": |-
+    そう言うと、天上の、高い木陰で、
+    萎れぬ花、アマランスの小枝を摘み、
+    月桂樹を、三たび神酒に浸し、
+    三たび、ティタンの光で精めた。
+    それから、優美の女神たちを助けに呼び、
+    生まれたばかりの娘へ、三たび振りかけた。
+    そのため、柔らかな肌は、
+    どんな香水にも勝る、甘い香りを得た。
+    そのため、清潔さが残り、
+    外からの汚れは、つくことがない。
+    そのため、女というものには、これほど愛らしい、
+    心の慎みが、備わった。
+    お堅い女の言葉より、少しでも慎みに欠ける、
+    不用意な思いは、一つも入り込まない。
+    乙女の、偽物の美徳である、
+    赤面の助けは、一度も求められなかった。
+    二次的なものにすぎぬ、あの美徳、
+    女たちは、意味がわかるから、赤くなるのだ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[154]"
+    "line_start": 2137
+    "line_end": 2154
+    "source_sequence": 13
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-013"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    The Graces next would act their part,
+    And show but little of their art;
+    Their work was half already done,
+    The child with native beauty shone,
+    The outward form no help required:
+    Each breathing on her thrice, inspired
+    That gentle, soft, engaging air
+    Which in old times adorned the fair,
+    And said, “Vanessa be the name
+    By which thou shalt be known to fame;
+    Vanessa, by the gods enrolled:
+    Her name on earth—shall not be told.”
+  "translation_ja": |-
+    次に、優美の女神たちが、役目を果たそうとしたが、
+    自分たちの技は、ほんの少し示すだけだった。
+    仕事の半分は、すでに済み、
+    幼子は、生来の美に輝いていた。
+    外の姿は、何の助けも要らなかった。
+    一人一人が、三たび息を吹きかけ、
+    昔の美女を飾った、あの優しく、
+    柔らかで、心を引く様子を、吹き込んだ。
+    そして言った、「ヴァネッサを、その名とせよ、
+    その名によって、名声に知られるように。
+    神々の帳簿に記すのは、ヴァネッサ。
+    地上での名は――語らぬことにしよう」。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[155]"
+    "line_start": 2155
+    "line_end": 2166
+    "source_sequence": 14
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-014"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    But still the work was not complete,
+    When Venus thought on a deceit:
+    Drawn by her doves, away she flies,
+    And finds out Pallas in the skies:
+    Dear Pallas, I have been this morn
+    To see a lovely infant born:
+    A boy in yonder isle below,
+    So like my own without his bow,
+    By beauty could your heart be won,
+    You’d swear it is Apollo’s son;
+    But it shall ne’er be said, a child
+    So hopeful has by me been spoiled;
+    I have enough besides to spare,
+    And give him wholly to your care.
+  "translation_ja": |-
+    だが、仕事は、まだ完成していなかった、
+    ウェヌスが、一つの欺きを思いついたときには。
+    鳩に引かれて、飛び去り、
+    天で、パラスを探し出す。
+    「親愛なるパラス、今朝、私は、
+    愛らしい幼子の、誕生を見てきたの。
+    下界の、あの島の男の子、
+    弓がないだけで、私の子に、そっくりよ。
+    もし、美しさで、あなたの心が奪えるなら、
+    アポロンの息子に違いないと、言うはず。
+    でも、これほど有望な子供が、
+    私のせいで駄目になったとは、決して言わせない。
+    ほかにも、手放せる子は、十分いるから、
+    この子は、まるごと、あなたに預けるわ」。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[156]"
+    "line_start": 2167
+    "line_end": 2180
+    "source_sequence": 15
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-015"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Wisdom’s above suspecting wiles;
+    The queen of learning gravely smiles,
+    Down from Olympus comes with joy,
+    Mistakes Vanessa for a boy;
+    Then sows within her tender mind
+    Seeds long unknown to womankind;
+    For manly bosoms chiefly fit,
+    The seeds of knowledge, judgment, wit,
+    Her soul was suddenly endued
+    With justice, truth, and fortitude;
+    With honour, which no breath can stain,
+    Which malice must attack in vain:
+    With open heart and bounteous hand:
+    But Pallas here was at a stand;
+    She know in our degenerate days
+    Bare virtue could not live on praise,
+    That meat must be with money bought:
+    She therefore, upon second thought,
+    Infused yet as it were by stealth,
+    Some small regard for state and wealth:
+    Of which as she grew up there stayed
+    A tincture in the prudent maid:
+    She managed her estate with care,
+    Yet liked three footmen to her chair,
+    But lest he should neglect his studies
+    Like a young heir, the thrifty goddess
+    (For fear young master should be spoiled)
+    Would use him like a younger child;
+    And, after long computing, found
+    ’Twould come to just five thousand pound.
+  "translation_ja": |-
+    知恵は、人の企みなどを疑わぬ、高みにいる。
+    学問の女王は、重々しく微笑み、
+    喜んで、オリュンポスから下り、
+    ヴァネッサを、男の子と取り違える。
+    そして、その柔らかな心へ、種をまいた、
+    女たちが、長いこと知らなかった種を。
+    主として、男らしい胸に、ふさわしい、
+    知識、判断、才知という種を。
+    その魂には、たちまち、公正と、
+    真実と、剛毅が、授けられた。
+    どんな風評にも、汚せず、
+    悪意が、むなしく攻めるだけの名誉が。
+    開かれた心と、物惜しみせぬ手が。
+    だが、ここで、パラスは、立ち止まった。
+    堕落した、この時代には、
+    美徳だけでは、褒め言葉で暮らせぬと知っていた。
+    肉は、金で買わねばならぬ。
+    そこで、考え直して、
+    まるで、忍び込ませるように、なお幾らか、
+    身分と富への、わずかな関心を、吹き込んだ。
+    娘が育つにつれ、その色合いは、
+    思慮ある、その乙女に残った。
+    自分の財産は、注意して管理したが、
+    輿には、三人の従僕がつくのを、好んだ。
+    だが、若い跡取りのように、彼が学業を怠らぬよう、
+    倹約な女神は、（若旦那が、
+    駄目になるのを恐れて、）
+    弟に当たる子のように、扱おうとした。
+    長く勘定した末、ちょうど、
+    五千ポンドになると、わかった。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[157]"
+    "line_start": 2181
+    "line_end": 2210
+    "source_sequence": 16
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "She knew, in our degenerate days,"
+    "source_locations":
+    - "source_id": "gutenberg-13621"
+      "precision": "block"
+      "url": "https://www.gutenberg.org/cache/epub/13621/pg13621-images.html"
+      "xpath": "/html/body/pre[2]"
+    "description_ja": "主底本knowに対してknew。女神が当時の世相を知っていたという過去形で訳す。 比較版の詩pre内213行目を確認。主底本のsource_textは変更しない。"
+- "id": "cv-verse-016"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    The Queen of Love was pleased and proud
+    To we Vanessa thus endowed;
+    She doubted not but such a dame
+    Through every breast would dart a flame;
+    That every rich and lordly swain
+    With pride would drag about her chain;
+    That scholars would forsake their books
+    To study bright Vanessa’s looks:
+    As she advanced that womankind
+    Would by her model form their mind,
+    And all their conduct would be tried
+    By her, as an unerring guide.
+    Offending daughters oft would hear
+    Vanessa’s praise rung in their ear:
+    Miss Betty, when she does a fault,
+    Lets fall her knife, or spills the salt,
+    Will thus be by her mother chid,
+    “’Tis what Vanessa never did.”
+    Thus by the nymphs and swains adored,
+    My power shall be again restored,
+    And happy lovers bless my reign—
+    So Venus hoped, but hoped in vain.
+  "translation_ja": |-
+    恋の女王は、喜び、誇らしかった、
+    ヴァネッサが、このように授かったのを見て。
+    こんな娘なら、どんな胸へも、
+    炎を射込めると、疑わなかった。
+    金持ちで、高貴な羊飼いは、誰もが、
+    誇りをもって、彼女の鎖を引きずるだろうと。
+    学者は、書物を投げ出し、
+    輝くヴァネッサの顔を、研究するだろうと。
+    彼女が成長するにつれ、女たちは、
+    彼女を模範に、心を形作り、
+    あらゆる振る舞いが、間違わぬ導き手である、
+    彼女によって、試されるだろうと。
+    悪さをした娘たちは、たびたび、
+    ヴァネッサを褒める声を、耳元で聞くだろう。
+    ベティ嬢が、失敗し、
+    ナイフを落とし、塩をこぼせば、
+    母親に、こう叱られるだろう、
+    「ヴァネッサなら、決してしなかったことよ」。
+    「こうして、ニンフにも羊飼いにも崇められ、
+    私の力は、ふたたび取り戻され、
+    幸せな恋人たちが、私の治世を祝福する」。
+    そう、ウェヌスは望んだが、その望みは、むなしかった。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[158]"
+    "line_start": 2211
+    "line_end": 2232
+    "source_sequence": 17
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "To see Vanessa thus endow'd:"
+    "source_locations":
+    - "source_id": "gutenberg-13621"
+      "precision": "block"
+      "url": "https://www.gutenberg.org/cache/epub/13621/pg13621-images.html"
+      "xpath": "/html/body/pre[2]"
+    "description_ja": "主底本To weに対してTo see。ヴァネッサがかくも恵まれた姿を見るという構文で訳す。 比較版の詩pre内230行目を確認。主底本のsource_textは変更しない。"
+- "id": "cv-verse-017"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    For when in time the martial maid
+    Found out the trick that Venus played,
+    She shakes her helm, she knits her brows,
+    And fired with indignation, vows
+    To-morrow, ere the setting sun,
+    She’d all undo that she had done.
+  "translation_ja": |-
+    やがて、戦の乙女が、
+    ウェヌスの仕掛けた、企みを知ると、
+    兜を振り、眉を寄せ、
+    怒りに燃えて、誓ったからだ、
+    明日、日が沈むより前に、
+    自分のしたことを、すべて元へ戻すと。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[159]"
+    "line_start": 2233
+    "line_end": 2238
+    "source_sequence": 18
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-018"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    But in the poets we may find
+    A wholesome law, time out of mind,
+    Had been confirmed by Fate’s decree;
+    That gods, of whatso’er degree,
+    Resume not what themselves have given,
+    Or any brother-god in Heaven;
+    Which keeps the peace among the gods,
+    Or they must always be at odds.
+    And Pallas, if she broke the laws,
+    Must yield her foe the stronger cause;
+    A shame to one so much adored
+    For Wisdom, at Jove’s council-board.
+    Besides, she feared the queen of love
+    Would meet with better friends above.
+    And though she must with grief reflect
+    To see a mortal virgin deck’d
+    With graces hitherto unknown
+    To female breasts, except her own,
+    Yet she would act as best became
+    A goddess of unspotted fame;
+    She knew, by augury divine,
+    Venus would fail in her design:
+    She studied well the point, and found
+    Her foe’s conclusions were not sound,
+    From premises erroneous brought,
+    And therefore the deduction’s nought,
+    And must have contrary effects
+    To what her treacherous foe expects.
+  "translation_ja": |-
+    だが、詩人たちの中に、見つけられる、
+    いつ始まったとも知れぬ、有益な法が、
+    運命の布告により、確かめられていたのを。
+    神々は、どの位にあろうとも、
+    自ら与えたもの、あるいは天上の、
+    同胞の神の与えたものを、取り戻せない。
+    これが、神々の平和を保っている、
+    さもなければ、いつまでも、仲違いせねばならぬ。
+    パラスも、この法を破ったなら、
+    敵に、より強い言い分を、譲るほかない。
+    ユピテルの評議会で、知恵のために、
+    あれほど崇められる者には、恥である。
+    そのうえ、恋の女王なら、天上に、
+    もっとよい味方を、見つけそうだと恐れた。
+    自分以外の、女の胸には、
+    これまで知られぬ恵みで飾られた、
+    人間の乙女を見るのは、
+    悲しみをもって、思うほかなかったけれど、
+    それでも、汚れなき名声を持つ女神に、
+    最もふさわしく、振る舞おうとした。
+    神聖な占いによって、わかっていた、
+    ウェヌスの企ては、失敗すると。
+    その論点を、よく調べ、見抜いたのだ、
+    敵の結論は、確かでないと。
+    誤った前提から、導き出されているので、
+    推論には、何の値打ちもなく、
+    あの裏切り者の敵の、期待するものとは、
+    逆の結果を、生むはずだと。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[160]"
+    "line_start": 2239
+    "line_end": 2266
+    "source_sequence": 19
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-019"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    In proper season Pallas meets
+    The queen of love, whom thus she greets
+    (For Gods, we are by Homer told,
+    Can in celestial language scold),
+    “Perfidious Goddess! but in vain
+    You formed this project in your brain,
+    A project for thy talents fit,
+    With much deceit, and little wit;
+    Thou hast, as thou shalt quickly see,
+    Deceived thyself instead of me;
+    For how can heavenly wisdom prove
+    An instrument to earthly love?
+    Know’st thou not yet that men commence
+    Thy votaries, for want of sense?
+    Nor shall Vanessa be the theme
+    To manage thy abortive scheme;
+    She’ll prove the greatest of thy foes,
+    And yet I scorn to interpose,
+    But using neither skill nor force,
+    Leave all things to their natural course.”
+  "translation_ja": |-
+    よい時機に、パラスは、恋の女王に会い、
+    こう、挨拶した。
+    （ホメロスの教えるところでは、神々も、
+    天上の言葉で、罵ることができるのだ。）
+    「不実な女神め！　だが、無駄なことだ、
+    頭の中で、この計画を立てたところで。
+    お前の才能には、ぴったりの計画、
+    欺きは多く、才知は乏しい。
+    すぐにわかるだろうが、お前は、
+    私の代わりに、自分自身を欺いたのだ。
+    天上の知恵が、どうして、
+    地上の恋の、道具になれよう。
+    まだ知らぬか、男が、お前の信者になるのは、
+    分別が欠けているからだということを。
+    実を結ばぬ、お前の企てを運ぶ、
+    材料に、ヴァネッサがなることもない。
+    彼女は、お前の最大の敵になるだろう、
+    それでも私は、手出しなど、軽蔑してするまい。
+    技も力も、使わずに、
+    すべてを、自然の成り行きへ任せておこう」。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[161]"
+    "line_start": 2267
+    "line_end": 2286
+    "source_sequence": 20
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-020"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    The goddess thus pronounced her doom,
+    When, lo, Vanessa in her bloom,
+    Advanced like Atalanta’s star,
+    But rarely seen, and seen from far:
+    In a new world with caution stepped,
+    Watched all the company she kept,
+    Well knowing from the books she read
+    What dangerous paths young virgins tread;
+    Would seldom at the park appear,
+    Nor saw the play-house twice a year;
+    Yet not incurious, was inclined
+    To know the converse of mankind.
+  "translation_ja": |-
+    女神が、その運命を、こう言い渡すと、
+    見よ、花盛りのヴァネッサが、
+    アタランタの星のように、現れた、
+    ただ、めったに見えず、遠くから、見えるばかり。
+    新しい世界へ、用心深く足を踏み入れ、
+    付き合う者には、すべて目を配った。
+    読んだ書物から、よく知っていたのだ、
+    若い乙女が、どれほど危ない道を歩くかを。
+    公園には、めったに姿を見せず、
+    芝居小屋も、年に二度は、見に行かなかった。
+    だが、好奇心がないのではなく、
+    人々の交わりを、知りたいとは思っていた。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[162]"
+    "line_start": 2287
+    "line_end": 2298
+    "source_sequence": 21
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-021"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    First issued from perfumers’ shops
+    A crowd of fashionable fops;
+    They liked her how she liked the play?
+    Then told the tattle of the day,
+    A duel fought last night at two
+    About a lady—you know who;
+    Mentioned a new Italian, come
+    Either from Muscovy or Rome;
+    Gave hints of who and who’s together;
+    Then fell to talking of the weather:
+    Last night was so extremely fine,
+    The ladies walked till after nine.
+    Then in soft voice, and speech absurd,
+    With nonsense every second word,
+    With fustian from exploded plays,
+    They celebrate her beauty’s praise,
+    Run o’er their cant of stupid lies,
+    And tell the murders of her eyes.
+  "translation_ja": |-
+    まず、香料屋の店から出てきたのは、
+    流行を追う、伊達男の一団。
+    芝居は、お気に召したかと、彼女に尋ね、
+    それから、その日の噂話を語った。
+    昨夜、二時に、決闘があって、
+    あるご婦人のことで――誰かは、ご承知のはず。
+    新しく来た、イタリア人にも触れた、
+    モスコヴィアからか、ローマからか、どちらかの。
+    誰と誰が、できているかを、ほのめかし、
+    それから、天気の話へ移った。
+    昨夜は、実にすばらしく晴れていて、
+    婦人方は、九時過ぎまで、散歩していた。
+    それから、柔らかな声、馬鹿げた言葉で、
+    一語おきに、無意味なことを言い、
+    廃れた芝居の、大げさな台詞を使い、
+    彼女の美しさを、讃え上げる。
+    愚かな嘘の、決まり文句を並べ立て、
+    その目が、いかに人を殺すかを、言い聞かせる。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[163]"
+    "line_start": 2299
+    "line_end": 2316
+    "source_sequence": 22
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "They ask'd her how she liked the play;"
+    "source_locations":
+    - "source_id": "gutenberg-13621"
+      "precision": "block"
+      "url": "https://www.gutenberg.org/cache/epub/13621/pg13621-images.html"
+      "xpath": "/html/body/pre[2]"
+    "description_ja": "主底本They liked her howに対してThey ask'd her how。芝居をどう思ったか尋ねる意で訳す。 比較版の詩pre内319行目を確認。主底本のsource_textは変更しない。"
+- "id": "cv-verse-022"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    With silent scorn Vanessa sat,
+    Scarce list’ning to their idle chat;
+    Further than sometimes by a frown,
+    When they grew pert, to pull them down.
+    At last she spitefully was bent
+    To try their wisdom’s full extent;
+    And said, she valued nothing less
+    Than titles, figure, shape, and dress;
+    That merit should be chiefly placed
+    In judgment, knowledge, wit, and taste;
+    And these, she offered to dispute,
+    Alone distinguished man from brute:
+    That present times have no pretence
+    To virtue, in the noble sense
+    By Greeks and Romans understood,
+    To perish for our country’s good.
+    She named the ancient heroes round,
+    Explained for what they were renowned;
+    Then spoke with censure, or applause,
+    Of foreign customs, rites, and laws;
+    Through nature and through art she ranged,
+    And gracefully her subject changed:
+    In vain; her hearers had no share
+    In all she spoke, except to stare.
+    Their judgment was upon the whole,
+    —That lady is the dullest soul—
+    Then tipped their forehead in a jeer,
+    As who should say—she wants it here;
+    She may be handsome, young, and rich,
+    But none will burn her for a witch.
+  "translation_ja": |-
+    ヴァネッサは、黙った軽蔑で、座っていた。
+    その、たわいない話を、ほとんど聴きもせず、
+    せいぜい、ときどき、眉をひそめて、
+    生意気になった者を、抑えるだけ。
+    しまいには、意地悪にも、心に決めた、
+    この者たちの知恵が、どこまでか、試そうと。
+    そして、自分が、何よりも軽く見るのは、
+    爵位、体面、姿、衣装だと言った。
+    値打ちは、何より、判断、知識、
+    才知、趣味に、置くべきであり、
+    論じてもよいが、これらだけが、
+    人間を獣から、区別すると言った。
+    現代は、ギリシア人とローマ人の理解した、
+    あの高貴な意味での美徳を、
+    自分のものと称する、資格はない、
+    祖国のために、死ぬという美徳を。
+    古代の英雄を、次々に名指し、
+    なぜ名高いのかを、説明した。
+    次には、外国の習慣、儀式、法律を、
+    非難し、あるいは称賛しながら、語った。
+    自然も技芸も、広く巡り、
+    優雅に、話題を変えていった。
+    むなしかった。聴き手たちは、そのすべてに、
+    目を丸くするほか、何の関わりも持てない。
+    全体について、下した判断は、
+    ――あの婦人ほど、退屈な人はいない――
+    それから、嘲って、額を指でたたいた、
+    ここが足りない、とでも言うように。
+    美人で、若く、金持ちかもしれないが、
+    魔女として火あぶりにする者は、誰もいまい。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[164]"
+    "line_start": 2317
+    "line_end": 2346
+    "source_sequence": 23
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-023"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    A party next of glittering dames,
+    From round the purlieus of St. James,
+    Came early, out of pure goodwill,
+    To see the girl in deshabille.
+    Their clamour ’lighting from their chairs,
+    Grew louder, all the way up stairs;
+    At entrance loudest, where they found
+    The room with volumes littered round,
+    Vanessa held Montaigne, and read,
+    Whilst Mrs. Susan combed her head:
+    They called for tea and chocolate,
+    And fell into their usual chat,
+    Discoursing with important face,
+    On ribbons, fans, and gloves, and lace:
+    Showed patterns just from India brought,
+    And gravely asked her what she thought,
+    Whether the red or green were best,
+    And what they cost?  Vanessa guessed,
+    As came into her fancy first,
+    Named half the rates, and liked the worst.
+    To scandal next—What awkward thing
+    Was that, last Sunday, in the ring?
+    I’m sorry Mopsa breaks so fast;
+    I said her face would never last,
+    Corinna with that youthful air,
+    Is thirty, and a bit to spare.
+    Her fondness for a certain earl
+    Began, when I was but a girl.
+    Phyllis, who but a month ago
+    Was married to the Tunbridge beau,
+    I saw coquetting t’other night
+    In public with that odious knight.
+  "translation_ja": |-
+    次に、きらびやかな婦人たちの一団が、
+    セント・ジェームズ界隈から、
+    まったくの善意で、朝早く来た、
+    部屋着姿の、その娘を見ようと。
+    輿から下りるときの、かしましさは、
+    階段を上がる間、ますます高まり、
+    入った所で、最も高くなった。部屋には、
+    本が、そこら中に散らかっていたからだ。
+    ヴァネッサは、モンテーニュを手にして読み、
+    その間、スーザン夫人が、髪を梳いていた。
+    客たちは、茶とチョコレートを求め、
+    いつもの、おしゃべりを始めた。
+    大事そうな顔で、論じ合ったのは、
+    リボン、扇、手袋、レース。
+    インドから来たばかりの、見本を出し、
+    重々しく、彼女の意見を尋ねた、
+    赤と緑は、どちらがよく、
+    いくらするかと。ヴァネッサは、当てずっぽうで、
+    まず頭に浮かんだとおりに、
+    半値を答え、悪いほうを選んだ。
+    次は、中傷。「この前の日曜、リングの周回路にいた、
+    不格好なものは、何だったの。
+    モプサが、あんなに早く衰えるのは、残念だわ、
+    あの顔は長持ちしないと、言っていたのだけれど。
+    あの若々しい様子の、コリンナも、
+    三十歳を、少し越しているのよ。
+    あの伯爵への、ご執心は、
+    私が、ほんの娘のころから、始まったわ。
+    ほんの一か月前に、タンブリッジの伊達男と、
+    結婚した、フィリスだけれど、
+    この前の晩、人前で、あの嫌な騎士に、
+    媚びているところを、見たのよ」。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[165]"
+    "line_start": 2347
+    "line_end": 2378
+    "source_sequence": 24
+  "origin": "source"
+  "source_languages":
+  - "en"
+  - "fr"
+- "id": "cv-verse-024"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    They rallied next Vanessa’s dress;
+    That gown was made for old Queen Bess.
+    Dear madam, let me set your head;
+    Don’t you intend to put on red?
+    A petticoat without a hoop!
+    Sure, you are not ashamed to stoop;
+    With handsome garters at your knees,
+    No matter what a fellow sees.
+  "translation_ja": |-
+    次には、ヴァネッサの衣装を、からかった。
+    「あの服は、昔のベス女王のために、作ったのね。
+    ねえ、あなた、髪を、整えてさしあげましょう。
+    頬紅は、つけるおつもりでなくて？
+    輪骨もない、ペティコートだなんて！
+    まさか、かがむのが、恥ずかしいのではないでしょう。
+    膝に、きれいな靴下留めがあれば、
+    男に何が見えようと、構わないのに」。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[166]"
+    "line_start": 2379
+    "line_end": 2386
+    "source_sequence": 25
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-025"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Filled with disdain, with rage inflamed,
+    Both of herself and sex ashamed,
+    The nymph stood silent out of spite,
+    Nor would vouchsafe to set them right.
+    Away the fair detractors went,
+    And gave, by turns, their censures vent.
+    She’s not so handsome in my eyes:
+    For wit, I wonder where it lies.
+    She’s fair and clean, and that’s the most;
+    But why proclaim her for a toast?
+    A baby face, no life, no airs,
+    But what she learnt at country fairs.
+    Scarce knows what difference is between
+    Rich Flanders lace, and Colberteen.
+    I’ll undertake my little Nancy,
+    In flounces has a better fancy.
+    With all her wit, I would not ask
+    Her judgment, how to buy a mask.
+    We begged her but to patch her face,
+    She never hit one proper place;
+    Which every girl at five years old
+    Can do as soon as she is told.
+    I own, that out-of-fashion stuff
+    Becomes the creature well enough.
+    The girl might pass, if we could get her
+    To know the world a little better.
+    (To know the world! a modern phrase
+    For visits, ombre, balls, and plays.)
+  "translation_ja": |-
+    軽蔑に満ち、怒りに燃え、
+    自分も、女という性も、恥ずかしく思い、
+    ニンフは、腹立ちまぎれに、黙って立ち、
+    間違いを正してやる、気にもならなかった。
+    美しい誹謗者たちは、去ってゆき、
+    順繰りに、非難を吐き出した。
+    「私の目には、あんなに美しくないわ。
+    才知なら、いったい、どこにあるのかしら。
+    色が白く、清潔、それだけのこと。
+    なのに、なぜ、乾杯の的と、言い立てるの。
+    赤ん坊の顔で、生気も、物腰もない、
+    田舎の市で、覚えたもの以外は。
+    豪華なフランドル・レースと、コルバーティーンの、
+    違いさえ、ほとんどわからない。
+    うちの小さなナンシーのほうが、
+    フリルの趣味なら、ましだと請け合うわ。
+    あれほどの才知でも、仮面を買うときの、
+    意見は、聞きたいと思わない。
+    つけぼくろを、顔に貼ってと、頼んだだけなのに、
+    正しい場所は、一つも当たらなかった。
+    女の子なら、五歳でも、
+    言われるとすぐ、できることなのに。
+    確かに、あの流行遅れの服地は、
+    あの子に、まずまず似合っている。
+    もう少し、世間を知るようにできれば、
+    あの娘も、どうやら通るかもしれないわ」。
+    （世間を知る！　いま風の言い方では、
+    訪問、オンブル、舞踏会、芝居を、いうのである。）
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[167]"
+    "line_start": 2387
+    "line_end": 2414
+    "source_sequence": 26
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-026"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Thus, to the world’s perpetual shame,
+    The queen of beauty lost her aim,
+    Too late with grief she understood
+    Pallas had done more harm than good;
+    For great examples are but vain,
+    Where ignorance begets disdain.
+    Both sexes, armed with guilt and spite,
+    Against Vanessa’s power unite;
+    To copy her few nymphs aspired;
+    Her virtues fewer swains admired;
+    So stars, beyond a certain height,
+    Give mortals neither heat nor light.
+  "translation_ja": |-
+    こうして、世間の、永遠の恥として、
+    美の女王は、狙いを外した。
+    遅すぎたが、悲しんで悟った、
+    パラスは、益より、多くの害をなしたのだと。
+    無知が、軽蔑を生む所では、
+    偉大な模範も、むなしいだけなのだ。
+    男女ともに、罪と敵意で身を固め、
+    ヴァネッサの力に対して、団結する。
+    彼女を倣おうとする、ニンフは少なく、
+    その徳に感じ入る、羊飼いは、もっと少ない。
+    かくして、ある高さを越した星は、
+    人間に、熱も光も、与えない。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[168]"
+    "line_start": 2415
+    "line_end": 2426
+    "source_sequence": 27
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-027"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Yet some of either sex, endowed
+    With gifts superior to the crowd,
+    With virtue, knowledge, taste, and wit,
+    She condescended to admit;
+    With pleasing arts she could reduce
+    Men’s talents to their proper use;
+    And with address each genius hold
+    To that wherein it most excelled;
+    Thus making others’ wisdom known,
+    Could please them and improve her own.
+    A modest youth said something new,
+    She placed it in the strongest view.
+    All humble worth she strove to raise;
+    Would not be praised, yet loved to praise.
+    The learned met with free approach,
+    Although they came not in a coach.
+    Some clergy too she would allow,
+    Nor quarreled at their awkward bow.
+    But this was for Cadenus’ sake;
+    A gownman of a different make.
+    Whom Pallas, once Vanessa’s tutor,
+    Had fixed on for her coadjutor.
+  "translation_ja": |-
+    それでも、男女どちらにも、幾人か、
+    群れを超えた、資質を授かり、
+    美徳、知識、趣味、才知を持つ者はいて、
+    彼女は、謙虚に、その者たちを迎え入れた。
+    人を喜ばせる術によって、
+    その才能を、ふさわしい用へ導き、
+    巧みに、それぞれの天分を、
+    最も優れたところへ、とどめることができた。
+    こうして、他人の知恵を、知らしめることで、
+    その者を喜ばせ、自分の知恵も、磨けた。
+    慎みある若者が、新しいことを言えば、
+    いちばん強い光を当てて、見せた。
+    謙虚な値打ちを、みな、高めようと努めた。
+    褒められるのは嫌いでも、褒めるのは好きだった。
+    学識ある者は、気兼ねなく近づけた、
+    馬車で来たのでは、なくても。
+    聖職者も、幾人か、受け入れ、
+    その不器用な、お辞儀を、とがめなかった。
+    だが、それは、カデヌスのためだった、
+    ひと味違う、聖職者である。
+    かつて、ヴァネッサの教師だったパラスが、
+    自分の補佐役にと、選んだ人物だった。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[169]"
+    "line_start": 2427
+    "line_end": 2448
+    "source_sequence": 28
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-028"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    But Cupid, full of mischief, longs
+    To vindicate his mother’s wrongs.
+    On Pallas all attempts are vain;
+    One way he knows to give her pain;
+    Vows on Vanessa’s heart to take
+    Due vengeance, for her patron’s sake.
+    Those early seeds by Venus sown,
+    In spite of Pallas, now were grown;
+    And Cupid hoped they would improve
+    By time, and ripen into love.
+    The boy made use of all his craft,
+    In vain discharging many a shaft,
+    Pointed at colonels, lords, and beaux;
+    Cadenus warded off the blows,
+    For placing still some book betwixt,
+    The darts were in the cover fixed,
+    Or often blunted and recoiled,
+    On Plutarch’s morals struck, were spoiled.
+  "translation_ja": |-
+    だが、悪戯でいっぱいのキューピッドは、
+    母の受けた侮辱を、晴らしたくてたまらぬ。
+    パラスへは、どんな試みも、むなしいが、
+    苦しめる方法を、一つだけ知っている。
+    庇護する女神への仕返しに、
+    ヴァネッサの心へ、正当な復讐をしようと誓う。
+    ウェヌスのまいた、あの早い時期の種は、
+    パラスにもかかわらず、いまでは育っていた。
+    キューピッドは、この種が、時とともに伸び、
+    恋へと、熟すことを望んだ。
+    少年は、あらゆる策略を使い、
+    むなしく、多くの矢を放った、
+    大佐、貴族、伊達男を狙った矢を。
+    カデヌスは、その打撃を防いだ、
+    いつも、何か書物を、間にはさんだので、
+    矢は、表紙へ突き刺さるか、
+    しばしば、鈍って跳ね返り、
+    プルタルコスの道徳論に当たって、駄目になった。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[170]"
+    "line_start": 2449
+    "line_end": 2466
+    "source_sequence": 29
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-029"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    The queen of wisdom could foresee,
+    But not prevent the Fates decree;
+    And human caution tries in vain
+    To break that adamantine chain.
+    Vanessa, though by Pallas taught,
+    By love invulnerable thought,
+    Searching in books for wisdom’s aid,
+    Was, in the very search, betrayed.
+  "translation_ja": |-
+    知恵の女王は、予見することはできても、
+    運命の定めを、防ぐことは、できなかった。
+    人間の用心も、あの金剛の鎖を、
+    断とうとするが、むなしい。
+    ヴァネッサは、パラスに教えられ、
+    恋にも傷つかぬと、思われていたが、
+    書物に、知恵の助けを探すうち、
+    まさに、その探求の中で、裏切られた。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[171]"
+    "line_start": 2467
+    "line_end": 2474
+    "source_sequence": 30
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-030"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Cupid, though all his darts were lost,
+    Yet still resolved to spare no cost;
+    He could not answer to his fame
+    The triumphs of that stubborn dame,
+    A nymph so hard to be subdued,
+    Who neither was coquette nor prude.
+    I find, says he, she wants a doctor,
+    Both to adore her, and instruct her:
+    I’ll give her what she most admires,
+    Among those venerable sires.
+    Cadenus is a subject fit,
+    Grown old in politics and wit;
+    Caressed by Ministers of State,
+    Of half mankind the dread and hate.
+    Whate’er vexations love attend,
+    She need no rivals apprehend
+    Her sex, with universal voice,
+    Must laugh at her capricious choice.
+  "translation_ja": |-
+    キューピッドは、矢をすべて失っても、
+    なお、費用を惜しむまいと、決意した。
+    あの頑固な娘の勝利を、
+    自分の名声に照らし、許すことはできない。
+    これほど、屈服させにくいニンフ、
+    媚びる女でもなく、お堅い女でもない。
+    「わかったぞ」と言う、「彼女には、博士が要る、
+    崇めるとともに、教えてもくれる博士が。
+    あの尊い年配の男たちの中から、
+    彼女が、いちばん感心するものを、与えよう。
+    カデヌスは、ふさわしい相手だ、
+    政治と才知のうちに、年を取った。
+    大臣たちに、ちやほやされ、
+    人類の半分からは、恐れられ、憎まれている。
+    恋につきまとう悩みが、いかなるものであれ、
+    彼女は、競争相手の心配は、要らない。
+    女たちは、声をそろえて、
+    その気まぐれな選択を、笑うほかあるまい」。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[172]"
+    "line_start": 2475
+    "line_end": 2492
+    "source_sequence": 31
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-031"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Cadenus many things had writ,
+    Vanessa much esteemed his wit,
+    And called for his poetic works!
+    Meantime the boy in secret lurks.
+    And while the book was in her hand,
+    The urchin from his private stand
+    Took aim, and shot with all his strength
+    A dart of such prodigious length,
+    It pierced the feeble volume through,
+    And deep transfixed her bosom too.
+    Some lines, more moving than the rest,
+    Struck to the point that pierced her breast;
+    And, borne directly to the heart,
+    With pains unknown, increased her smart.
+  "translation_ja": |-
+    カデヌスは、多くのものを書いていた。
+    ヴァネッサは、その才知を、大いに尊び、
+    彼の詩集を、求めた。
+    その間、少年は、ひそかに潜んでいる。
+    書物が、彼女の手にあったとき、
+    悪戯小僧は、隠れた場所から、
+    狙いを定め、力を尽くして、射た、
+    途方もなく長い、一本の矢を。
+    矢は、弱い一巻を、突き通し、
+    その胸にも、深々と突き刺さった。
+    ほかより、心を動かす、幾行かが、
+    胸を貫いた、その先端に、くっついた。
+    そして、まっすぐ心へ運ばれ、
+    知らぬ苦しみで、その痛みを増した。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[173]"
+    "line_start": 2493
+    "line_end": 2506
+    "source_sequence": 32
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-032"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Vanessa, not in years a score,
+    Dreams of a gown of forty-four;
+    Imaginary charms can find,
+    In eyes with reading almost blind;
+    Cadenus now no more appears
+    Declined in health, advanced in years.
+    She fancies music in his tongue,
+    Nor farther looks, but thinks him young.
+    What mariner is not afraid
+    To venture in a ship decayed?
+    What planter will attempt to yoke
+    A sapling with a falling oak?
+    As years increase, she brighter shines,
+    Cadenus with each day declines,
+    And he must fall a prey to Time,
+    While she continues in her prime.
+  "translation_ja": |-
+    二十歳にもならぬ、ヴァネッサが、
+    四十四歳の、聖職服の男を、夢見る。
+    読書で、ほとんど見えなくなった目に、
+    空想の魅力を、見つけ出す。
+    いまやカデヌスは、健康が衰え、
+    年を重ねた者には、もう見えない。
+    その舌に、音楽を感じ、
+    それ以上は見ず、若いと思う。
+    朽ちた船で、乗り出すのを、
+    恐れない船乗りが、いるだろうか。
+    若木を、倒れかけた樫に、
+    結びつけようとする、植え手がいるだろうか。
+    年が増せば、彼女は、いっそう輝き、
+    カデヌスは、一日ごとに衰える。
+    彼は、時の餌食に、なるほかない、
+    彼女が、なお、盛りを保つ間に。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[174]"
+    "line_start": 2507
+    "line_end": 2522
+    "source_sequence": 33
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-033"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Cadenus, common forms apart,
+    In every scene had kept his heart;
+    Had sighed and languished, vowed and writ,
+    For pastime, or to show his wit;
+    But time, and books, and State affairs,
+    Had spoiled his fashionable airs,
+    He now could praise, esteem, approve,
+    But understood not what was love.
+    His conduct might have made him styled
+    A father, and the nymph his child.
+    That innocent delight he took
+    To see the virgin mind her book,
+    Was but the master’s secret joy
+    In school to hear the finest boy.
+    Her knowledge with her fancy grew,
+    She hourly pressed for something new;
+    Ideas came into her mind
+    So fact, his lessons lagged behind;
+    She reasoned, without plodding long,
+    Nor ever gave her judgment wrong.
+    But now a sudden change was wrought,
+    She minds no longer what he taught.
+    Cadenus was amazed to find
+    Such marks of a distracted mind;
+    For though she seemed to listen more
+    To all he spoke, than e’er before.
+    He found her thoughts would absent range,
+    Yet guessed not whence could spring the change.
+    And first he modestly conjectures,
+    His pupil might be tired with lectures,
+    Which helped to mortify his pride,
+    Yet gave him not the heart to chide;
+    But in a mild dejected strain,
+    At last he ventured to complain:
+    Said, she should be no longer teased,
+    Might have her freedom when she pleased;
+    Was now convinced he acted wrong,
+    To hide her from the world so long,
+    And in dull studies to engage
+    One of her tender sex and age.
+    That every nymph with envy owned,
+    How she might shine in the Grande-Monde,
+    And every shepherd was undone,
+    To see her cloistered like a nun.
+    This was a visionary scheme,
+    He waked, and found it but a dream;
+    A project far above his skill,
+    For Nature must be Nature still.
+    If she was bolder than became
+    A scholar to a courtly dame,
+    She might excuse a man of letters;
+    Thus tutors often treat their betters,
+    And since his talk offensive grew,
+    He came to take his last adieu.
+  "translation_ja": |-
+    カデヌスは、普通の儀礼を、別にすれば、
+    どんな場面でも、心は守ってきた。
+    ため息をつき、やつれ、誓い、書きもしたが、
+    暇つぶしか、才知を示すためだった。
+    だが、時と書物と国事が、
+    その、当世風の物腰を、駄目にした。
+    いまでは、褒め、尊び、認めることはできても、
+    恋とは何か、わからなかった。
+    その振る舞いからすれば、彼は父親、
+    ニンフは、その子と、呼べたかもしれない。
+    乙女が書物に励むのを見て、
+    覚えた、あの無邪気な喜びは、
+    学校で、いちばんよい少年の答えを聴く、
+    教師の、ひそかな喜びにすぎなかった。
+    知識は、空想力とともに育ち、
+    彼女は、時ごとに、新しいことを求めた。
+    観念が、心へ、あまりに速く入るので、
+    彼の教えは、後れを取った。
+    長く苦労せず、筋道を立て、
+    判断を、誤ったこともなかった。
+    だが、いま、急な変化が起きた。
+    彼の教えを、もう心に留めない。
+    カデヌスは、驚いた、
+    取り乱した心の、こんなしるしを見て。
+    というのも、以前にも増して、熱心に、
+    彼のすべての話を、聴くように見えたのに、
+    思いは、遠く、さまよっていたからだ。
+    だが、変化の源が何か、見当もつかなかった。
+    初めは、慎み深く、推し量った、
+    生徒は、講義に疲れたのかもしれないと。
+    それは、彼の高慢を、くじきはしたが、
+    叱る気には、させなかった。
+    だが、穏やかで、しょげた調子で、
+    しまいには、思い切って、不平を述べた。
+    もう、煩わせはしないと言った、
+    好きなときに、自由になってよいと。
+    いまでは、自分が間違っていたと、確信している、
+    こんなに長く、世間から隠し、
+    まだ若く、か弱い女の身を、
+    退屈な勉学に、携わらせていたのは。
+    どのニンフも、妬みをもって認めていた、
+    彼女が、上流社会で、どれほど輝けるかを。
+    どの羊飼いも、尼僧のように、
+    閉じこもる彼女を見て、打ちのめされていた。
+    これは、夢想の計画だったのだ、
+    目覚めれば、ただの夢とわかった。
+    自分の腕には、はるかに及ばぬ企て、
+    自然は、なお、自然のままで、なくてはならぬ。
+    もし、社交界の婦人に対する、
+    学者の分を越えた、大胆さを示したなら、
+    学者の男を、許してもらいたい。
+    教師は、こうして、目上を扱うことが多い。
+    自分の話が、不快になったのだから、
+    最後の別れを告げに、来たのであると。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[175]"
+    "line_start": 2523
+    "line_end": 2576
+    "source_sequence": 34
+  "origin": "source"
+  "source_languages":
+  - "en"
+  - "fr"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "So fast, his lessons lagg'd behind;"
+    "source_locations":
+    - "source_id": "gutenberg-13621"
+      "precision": "block"
+      "url": "https://www.gutenberg.org/cache/epub/13621/pg13621-images.html"
+      "xpath": "/html/body/pre[2]"
+    "description_ja": "主底本factに対してfast。彼女の観念の発達が速く、教えが追いつかない意で訳す。 比較版の詩pre内558行目を確認。主底本のsource_textは変更しない。"
+  - "kind": "comparison"
+    "text": "If he were bolder than became"
+    "source_locations":
+    - "source_id": "gutenberg-13621"
+      "precision": "block"
+      "url": "https://www.gutenberg.org/cache/epub/13621/pg13621-images.html"
+      "xpath": "/html/body/pre[2]"
+    "description_ja": "主底本If she wasに対してIf he were。聖職者である彼自身の、社交界の婦人への大胆さを詫びる発言と解する。 比較版の詩pre内589行目を確認。主底本のsource_textは変更しない。"
+- "id": "cv-verse-034"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Vanessa, filled with just disdain,
+    Would still her dignity maintain,
+    Instructed from her early years
+    To scorn the art of female tears.
+  "translation_ja": |-
+    ヴァネッサは、正当な軽蔑に満ち、
+    なお、自分の威厳を、保とうとした。
+    幼いころから、教えられていた、
+    女の涙の手管は、軽蔑せよと。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[176]"
+    "line_start": 2577
+    "line_end": 2580
+    "source_sequence": 35
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-035"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Had he employed his time so long,
+    To teach her what was right or wrong,
+    Yet could such notions entertain,
+    That all his lectures were in vain?
+    She owned the wand’ring of her thoughts,
+    But he must answer for her faults.
+    She well remembered, to her cost,
+    That all his lessons were not lost.
+    Two maxims she could still produce,
+    And sad experience taught her use;
+    That virtue, pleased by being shown,
+    Knows nothing which it dare not own;
+    Can make us without fear disclose
+    Our inmost secrets to our foes;
+    That common forms were not designed
+    Directors to a noble mind.
+    Now, said the nymph, I’ll let you see
+    My actions with your rules agree,
+    That I can vulgar forms despise,
+    And have no secrets to disguise.
+    I knew by what you said and writ,
+    How dangerous things were men of wit;
+    You cautioned me against their charms,
+    But never gave me equal arms;
+    Your lessons found the weakest part,
+    Aimed at the head, but reached the heart.
+  "translation_ja": |-
+    何が正しく、何が悪いかを、
+    教えるために、こんな長い時を費やしながら、
+    すべての講義が、むなしかったなどという、
+    考えを、抱けるものだろうか。
+    思いのさまよったことは、認める、
+    だが、彼は、その過ちに、責めを負わねばならぬ。
+    教えのすべてが、失われたのではないことを、
+    身にこたえて、よく覚えていた。
+    二つの格言なら、なお、出してみせられた、
+    悲しい経験が、その使い方を、教えていた。
+    美徳は、自らを示して、喜ぶものであり、
+    認める勇気のないことは、何も知らない。
+    我々を、恐れもなく、敵にさえ、
+    いちばん奥の秘密を、明かせるようにする。
+    世間普通の儀礼は、気高い心の、
+    導き手として、作られたものではない。
+    「では」とニンフは言った、「見せましょう、
+    私の行いが、あなたの規則に、かなうことを。
+    世間の作法を、軽蔑できることを、
+    隠すべき秘密は、持たないことを。
+    あなたの言葉や書いたものから、知りました、
+    才知ある男が、どれほど危ないものかを。
+    その魅力には、用心せよと教えたのに、
+    対等な武器は、くださらなかった。
+    あなたの教えは、いちばん弱い所を見つけ、
+    頭を狙って、心へと、届いたのです」。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[177]"
+    "line_start": 2581
+    "line_end": 2606
+    "source_sequence": 36
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-036"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Cadenus felt within him rise
+    Shame, disappointment, guilt, surprise.
+    He know not how to reconcile
+    Such language, with her usual style:
+    And yet her words were so expressed,
+    He could not hope she spoke in jest.
+    His thoughts had wholly been confined
+    To form and cultivate her mind.
+    He hardly knew, till he was told,
+    Whether the nymph were young or old;
+    Had met her in a public place,
+    Without distinguishing her face,
+    Much less could his declining age
+    Vanessa’s earliest thoughts engage.
+    And if her youth indifference met,
+    His person must contempt beget,
+    Or grant her passion be sincere,
+    How shall his innocence be clear?
+    Appearances were all so strong,
+    The world must think him in the wrong;
+    Would say he made a treach’rous use.
+    Of wit, to flatter and seduce;
+    The town would swear he had betrayed,
+    By magic spells, the harmless maid;
+    And every beau would have his jokes,
+    That scholars were like other folks;
+    That when Platonic flights were over,
+    The tutor turned a mortal lover.
+    So tender of the young and fair;
+    It showed a true paternal care—
+    Five thousand guineas in her purse;
+    The doctor might have fancied worst,—
+    Hardly at length he silence broke,
+    And faltered every word he spoke;
+    Interpreting her complaisance,
+    Just as a man sans consequence.
+    She rallied well, he always knew;
+    Her manner now was something new;
+    And what she spoke was in an air,
+    As serious as a tragic player.
+    But those who aim at ridicule,
+    Should fix upon some certain rule,
+    Which fairly hints they are in jest,
+    Else he must enter his protest;
+    For let a man be ne’er so wise,
+    He may be caught with sober lies;
+    A science which he never taught,
+    And, to be free, was dearly bought;
+    For, take it in its proper light,
+    ’Tis just what coxcombs call a bite.
+  "translation_ja": |-
+    カデヌスは、胸のうちに、湧き上がるのを感じた、
+    恥、落胆、罪の思い、驚きを。
+    こんな言葉を、いつもの話し方と、
+    どう調和させたらよいか、わからない。
+    しかも、その言葉の、あまりの表し方に、
+    冗談だとの、望みも、かけられない。
+    考えは、もっぱら、彼女の心を、
+    形作り、育てることに、限られていた。
+    言われるまでは、そのニンフが、
+    若いか老いているかも、ほとんど知らなかった。
+    人前で会っても、
+    その顔を、見分けてはいなかった。
+    まして、衰えゆく自分の年齢が、
+    ヴァネッサの、最初の思いを、占められるはずはない。
+    その若さに、無関心で応じたなら、
+    自分の姿は、軽蔑を、生むほかあるまい。
+    あるいは、彼女の情熱が、真実だと認めても、
+    自分の無実は、どうして明らかになろう。
+    見かけは、あまりに、そろって不利であり、
+    世間は、彼が悪いと、思うほかあるまい。
+    才知を、裏切りのために用い、
+    おだて、誘惑したと、言うだろう。
+    都は、彼が、魔法の呪文で、
+    罪のない娘を、裏切ったと言い張るだろう。
+    伊達男は、一人残らず、冗談を言うだろう、
+    学者も、ほかの人間と、同じだったのだと。
+    プラトン流の、高い飛翔が終われば、
+    教師は、生身の恋人に、変わったのだと。
+    「若い美女に、何と優しいこと、
+    まことに、父親らしい、お心遣いだ。
+    財布には、五千ギニー、
+    博士も、もっと悪い相手を、好んだかもしれない」。
+    やっとのことで、しまいに、沈黙を破り、
+    言葉の一つ一つを、口ごもった。
+    彼女の好意を、そう受け取ろうとした、
+    取るに足らぬ男、sans consequenceのつもりで。
+    彼女が、よく、からかいをするのは、知っていた。
+    だが、いまのやり方は、少し新しかった。
+    言ったことは、悲劇役者と、
+    同じほど真剣な、調子だった。
+    だが、人を笑いものに、しようとする者なら、
+    何か、一定の規則を、定めるべきである、
+    冗談なのだと、正々堂々、ほのめかすために。
+    さもなくば、自分は、異議を申し立てねばならない。
+    どんなに、賢い男でも、
+    真顔の嘘には、捕まることがあるのだから。
+    そんな技は、教えたことがなく、
+    率直に言えば、手に入れるには、高くついた。
+    というのも、正しい光で、見てみれば、
+    伊達男どもが、「かつぎ」と呼ぶ、ただ、それだからだ。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[178]"
+    "line_start": 2607
+    "line_end": 2656
+    "source_sequence": 37
+  "origin": "source"
+  "source_languages":
+  - "en"
+  - "fr"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "He knew not how to reconcile"
+    "source_locations":
+    - "source_id": "gutenberg-13621"
+      "precision": "block"
+      "url": "https://www.gutenberg.org/cache/epub/13621/pg13621-images.html"
+      "xpath": "/html/body/pre[2]"
+    "description_ja": "主底本knowに対してknew。彼女の告白を従来の態度とどう両立させるか、彼にはわからなかったという過去形で訳す。 比較版の詩pre内627行目を確認。主底本のsource_textは変更しない。"
+  - "kind": "comparison"
+    "text": "The doctor might have fancied worse.—"
+    "source_locations":
+    - "source_id": "gutenberg-13621"
+      "precision": "block"
+      "url": "https://www.gutenberg.org/cache/epub/13621/pg13621-images.html"
+      "xpath": "/html/body/pre[2]"
+    "description_ja": "主底本worstに対してworse。若く富裕な娘との縁組を悪くないとする世間の当てこすりとして訳す。 比較版の詩pre内656行目を確認。主底本のsource_textは変更しない。"
+- "id": "cv-verse-037"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    But not to dwell on things minute,
+    Vanessa finished the dispute,
+    Brought weighty arguments to prove,
+    That reason was her guide in love.
+    She thought he had himself described,
+    His doctrines when she fist imbibed;
+    What he had planted now was grown,
+    His virtues she might call her own;
+    As he approves, as he dislikes,
+    Love or contempt her fancy strikes.
+    Self-love in nature rooted fast,
+    Attends us first, and leaves us last:
+    Why she likes him, admire not at her,
+    She loves herself, and that’s the matter.
+    How was her tutor wont to praise
+    The geniuses of ancient days!
+    (Those authors he so oft had named
+    For learning, wit, and wisdom famed).
+    Was struck with love, esteem, and awe,
+    For persons whom he never saw.
+    Suppose Cadenus flourished then,
+    He must adore such God-like men.
+    If one short volume could comprise
+    All that was witty, learned, and wise,
+    How would it be esteemed, and read,
+    Although the writer long were dead?
+    If such an author were alive,
+    How all would for his friendship strive;
+    And come in crowds to see his face?
+    And this she takes to be her case.
+    Cadenus answers every end,
+    The book, the author, and the friend,
+    The utmost her desires will reach,
+    Is but to learn what he can teach;
+    His converse is a system fit
+    Alone to fill up all her wit;
+    While ev’ry passion of her mind
+    In him is centred and confined.
+  "translation_ja": |-
+    だが、細かなことには、とどまるまい。
+    ヴァネッサは、その論争を、終わらせ、
+    重い議論を持ち出して、証明した、
+    恋の導き手は、理性なのだと。
+    初めて、その教えを、吸い込んだとき、
+    彼は、自分自身を、描いていたと思ったのだ。
+    彼が植えたものは、いま、育ち、
+    彼の美徳を、自分のものと、呼べた。
+    彼が認めるか、嫌うかに従い、
+    愛か軽蔑が、彼女の思いを、打つ。
+    本性に、しっかり根を張る、自己愛は、
+    初めから付き添い、最後まで離れない。
+    なぜ彼が好きかと、不思議に思うな、
+    自分を愛している、それだけのことだ。
+    その教師は、何とよく、讃えたことだろう、
+    昔の時代の、天才たちを。
+    （学問、才知、知恵で、名高いとして、
+    あれほど、しばしば名を挙げた、著者たちを。）
+    会ったこともない人々への、
+    愛と尊敬と畏れに、打たれていた。
+    カデヌスが、その時代に栄えたと、してみよう、
+    あの神のような人々を、崇めるほかないはずだ。
+    一冊の薄い本に、才知と学問と、
+    知恵あるものが、すべて収まるとしたら、
+    著者が、とっくに死んでいても、
+    どれほど、尊ばれ、読まれるだろう。
+    そんな著者が、生きていたら、
+    皆が、どれほど、友情を求めて競い、
+    その顔を見に、群れて来ることだろう。
+    それが、自分の場合だと、彼女は考える。
+    カデヌスは、すべての目的を、満たしている、
+    書物、著者、友人を。
+    望みが届く、いちばん遠い所も、
+    彼の教えられることを、学ぶことにすぎない。
+    彼との会話は、それだけで、
+    才知のすべてを、満たせる、ふさわしい体系である。
+    一方、心の、あらゆる情念は、
+    彼の中へ集まり、そこに、限られている。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[179]"
+    "line_start": 2657
+    "line_end": 2694
+    "source_sequence": 38
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "His doctrines when she first imbibed;"
+    "source_locations":
+    - "source_id": "gutenberg-13621"
+      "precision": "block"
+      "url": "https://www.gutenberg.org/cache/epub/13621/pg13621-images.html"
+      "xpath": "/html/body/pre[2]"
+    "description_ja": "主底本fistに対してfirst。教えを最初に吸収した時の意で訳す。 比較版の詩pre内680行目を確認。主底本のsource_textは変更しない。"
+- "id": "cv-verse-038"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Love can with speech inspire a mute,
+    And taught Vanessa to dispute.
+    This topic, never touched before,
+    Displayed her eloquence the more:
+    Her knowledge, with such pains acquired,
+    By this new passion grew inspired.
+    Through this she made all objects pass,
+    Which gave a tincture o’er the mass;
+    As rivers, though they bend and twine,
+    Still to the sea their course incline;
+    Or, as philosophers, who find
+    Some fav’rite system to their mind,
+    In every point to make it fit,
+    Will force all nature to submit.
+  "translation_ja": |-
+    恋は、口の利けぬ者にも、言葉を吹き込み、
+    ヴァネッサにも、議論を教えた。
+    以前は、触れたこともない、この話題が、
+    その雄弁を、いっそう際立たせた。
+    苦労して得た、その知識は、
+    新しい情念によって、霊感を受けた。
+    すべてのものを、この中へ、通したので、
+    その色合いが、全体に及んだ。
+    川が、曲がり、うねっても、
+    なお、海へと、流れを向けるように。
+    あるいは、心に合う、好みの体系を、
+    見つけた哲学者が、
+    どの点でも、それに合うように、
+    自然のすべてを、無理に従わせるように。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[180]"
+    "line_start": 2695
+    "line_end": 2708
+    "source_sequence": 39
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-039"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Cadenus, who could ne’er suspect
+    His lessons would have such effect,
+    Or be so artfully applied,
+    Insensibly came on her side;
+    It was an unforeseen event,
+    Things took a turn he never meant.
+    Whoe’er excels in what we prize,
+    Appears a hero to our eyes;
+    Each girl, when pleased with what is taught,
+    Will have the teacher in her thought.
+    When miss delights in her spinnet,
+    A fiddler may a fortune get;
+    A blockhead, with melodious voice
+    In boarding-schools can have his choice;
+    And oft the dancing-master’s art
+    Climbs from the toe to touch the heart.
+    In learning let a nymph delight,
+    The pedant gets a mistress by’t.
+    Cadenus, to his grief and shame,
+    Could scarce oppose Vanessa’s flame;
+    But though her arguments were strong,
+    At least could hardly with them wrong.
+    Howe’er it came, he could not tell,
+    But, sure, she never talked so well.
+    His pride began to interpose,
+    Preferred before a crowd of beaux,
+    So bright a nymph to come unsought,
+    Such wonder by his merit wrought;
+    ’Tis merit must with her prevail,
+    He never know her judgment fail.
+    She noted all she ever read,
+    And had a most discerning head.
+  "translation_ja": |-
+    カデヌスは、自分の教えに、こんな効果があろうとも、
+    こんなに巧みに、使われようとも、
+    思ったことは、決してなかったが、
+    いつの間にか、彼女の側へ、寄っていった。
+    それは、予見しなかった出来事だった。
+    意図しなかった方向へ、事が転じた。
+    我々の尊ぶことで、秀でる者は、
+    我々の目には、英雄に映る。
+    どんな娘も、教わることが、気に入れば、
+    教師のことを、思うようになる。
+    お嬢さんが、スピネットを喜ぶなら、
+    ヴァイオリン弾きは、一財産、得られもしよう。
+    声のよい、のろまなら、
+    寄宿学校で、好きな相手を、選べもする。
+    踊りの先生の技も、しばしば、
+    爪先から、心に触れるまで、上ってゆく。
+    ニンフに、学問を喜ばせれば、
+    学者気取りは、それで、恋人を得る。
+    カデヌスは、悲しくも、恥ずかしくも、
+    ヴァネッサの炎に、ほとんど逆らえなかった。
+    その議論が、強くはあったが、
+    少なくとも、誤りであれとは、ほとんど望めなかった。
+    なぜそうなったか、わからなかったが、
+    確かに、こんなによく、彼女は、話したことがない。
+    高慢が、割り込んできた、
+    伊達男の群れよりも、自分が好まれ、
+    こんな輝くニンフが、求めずとも来る、
+    自分の功績が、こんな不思議を、起こしたと。
+    彼女に通じるのは、きっと、功績なのだ、
+    その判断が、誤ったところを、見たことはない。
+    読んだものは、すべて心に留め、
+    この上なく、識別に優れた頭を、持っていた。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[181]"
+    "line_start": 2709
+    "line_end": 2740
+    "source_sequence": 40
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "At least could hardly wish them wrong."
+    "source_locations":
+    - "source_id": "gutenberg-13621"
+      "precision": "block"
+      "url": "https://www.gutenberg.org/cache/epub/13621/pg13621-images.html"
+      "xpath": "/html/body/pre[2]"
+    "description_ja": "主底本withに対してwish。自分の生徒に不利なことを望みはしないという自尊心の文脈で訳す。 比較版の詩pre内748行目を確認。主底本のsource_textは変更しない。"
+  - "kind": "comparison"
+    "text": "He never knew her judgment fail!"
+    "source_locations":
+    - "source_id": "gutenberg-13621"
+      "precision": "block"
+      "url": "https://www.gutenberg.org/cache/epub/13621/pg13621-images.html"
+      "xpath": "/html/body/pre[2]"
+    "description_ja": "主底本knowに対してknew。彼女の判断が誤ることを知らなかったという過去形で訳す。 比較版の詩pre内756行目を確認。主底本のsource_textは変更しない。"
+- "id": "cv-verse-040"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    ’Tis an old maxim in the schools,
+    That vanity’s the food of fools;
+    Yet now and then your men of wit
+    Will condescend to take a bit.
+  "translation_ja": |-
+    学び舎の、古い格言にある、
+    虚栄は、愚か者の食べ物であると。
+    それでも、才人の皆様も、ときには、
+    身をかがめて、一口つまむのである。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[182]"
+    "line_start": 2741
+    "line_end": 2744
+    "source_sequence": 41
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-041"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    So when Cadenus could not hide,
+    He chose to justify his pride;
+    Construing the passion she had shown,
+    Much to her praise, more to his own.
+    Nature in him had merit placed,
+    In her, a most judicious taste.
+    Love, hitherto a transient guest,
+    Ne’er held possession in his breast;
+    So long attending at the gate,
+    Disdain’d to enter in so late.
+    Love, why do we one passion call?
+    When ’tis a compound of them all;
+    Where hot and cold, where sharp and sweet,
+    In all their equipages meet;
+    Where pleasures mixed with pains appear,
+    Sorrow with joy, and hope with fear.
+    Wherein his dignity and age
+    Forbid Cadenus to engage.
+    But friendship in its greatest height,
+    A constant, rational delight,
+    On virtue’s basis fixed to last,
+    When love’s allurements long are past;
+    Which gently warms, but cannot burn;
+    He gladly offers in return;
+    His want of passion will redeem,
+    With gratitude, respect, esteem;
+    With that devotion we bestow,
+    When goddesses appear below.
+  "translation_ja": |-
+    こうして、カデヌスは、隠せなくなると、
+    自分の高慢を、正当化することを選んだ。
+    彼女の示した情熱を、彼女の誉れへ、
+    さらに多くは、自分の誉れへと、解釈した。
+    自然は、彼に、功績を置き、
+    彼女には、この上なく賢い好みを、置いたのだ。
+    これまで、一時の客だった恋は、
+    その胸を、占領したことがなく、
+    こんなに長く、門で待ち、
+    いまさら入るのは、軽蔑して嫌がった。
+    恋を、なぜ、一つの情念と呼ぶのか、
+    すべての情念の、合成物なのに。
+    熱いものと冷たいもの、鋭いものと甘いものが、
+    あらゆる装いをこらして、出会う所。
+    快楽は、苦痛と混じって現れ、
+    悲しみは喜びと、希望は恐れと、混じる所。
+    そこへ身を投じることは、カデヌスの、
+    威厳と年齢が、禁じていた。
+    だが、いちばん高いところまで、育った友情、
+    変わらず、理性的な喜び、
+    徳を土台に、続くよう据えられ、
+    恋の誘惑が、とっくに過ぎても、残るもの、
+    穏やかに温めるが、燃やしはしないもの、
+    それなら、喜んで、返しに差し出す。
+    情熱の欠如は、感謝、敬意、
+    尊重によって、償おうとする、
+    女神が、下界に現れるときに、
+    我々の捧げる、あの崇敬によって。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[183]"
+    "line_start": 2745
+    "line_end": 2772
+    "source_sequence": 42
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-042"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    While thus Cadenus entertains
+    Vanessa in exalted strains,
+    The nymph in sober words intreats
+    A truce with all sublime conceits.
+    For why such raptures, flights, and fancies,
+    To her who durst not read romances;
+    In lofty style to make replies,
+    Which he had taught her to despise?
+    But when her tutor will affect
+    Devotion, duty, and respect,
+    He fairly abdicates his throne,
+    The government is now her own;
+    He has a forfeiture incurred,
+    She vows to take him at his word,
+    And hopes he will not take it strange
+    If both should now their stations change
+    The nymph will have her turn, to be
+    The tutor; and the pupil he:
+    Though she already can discern
+    Her scholar is not apt to learn;
+    Or wants capacity to reach
+    The science she designs to teach;
+    Wherein his genius was below
+    The skill of every common beau;
+    Who, though he cannot spell, is wise
+    Enough to read a lady’s eyes?
+    And will each accidental glance
+    Interpret for a kind advance.
+  "translation_ja": |-
+    こうしてカデヌスが、崇高な調子で、
+    ヴァネッサの相手をしていると、
+    ニンフは、落ち着いた言葉で求めた、
+    その高邁な趣向とは、停戦をと。
+    恋愛物語を、読む勇気もなかった者に、
+    なぜ、そんなに、有頂天になり、飛び上がり、空想するのか。
+    自分に、軽蔑せよと教えた、
+    高尚な文体で、なぜ答えるのか。
+    だが、教師が、崇敬、義務、
+    敬意を、気取りたがるなら、
+    それは、はっきり、王座を捨てることだ。
+    いま、支配は、彼女自身のものとなった。
+    彼は、没収の罰を、招いたのだ。
+    彼の言葉を、そのまま受け取ろうと、誓った。
+    いま、双方が、地位を替えても、
+    不思議に思わないでほしいと、願った。
+    ニンフの番が、来るのである、
+    教師になり、彼が生徒になる番が。
+    もっとも、すでに、彼女にはわかる、
+    自分の生徒は、学ぶのが、得意でないか、
+    教えるつもりの学問へ、届く、
+    能力が、足りないのだと。
+    その点では、彼の天分は、どこにでもいる、
+    伊達男の腕前にも、及ばなかった。
+    あの者なら、綴りを知らなくても、
+    婦人の目は読めるほど、賢く、
+    ふとした、一つ一つの視線を、
+    好意ある接近と、解釈するのだから。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[184]"
+    "line_start": 2773
+    "line_end": 2800
+    "source_sequence": 43
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-043"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    But what success Vanessa met
+    Is to the world a secret yet;
+    Whether the nymph, to please her swain,
+    Talks in a high romantic strain;
+    Or whether he at last descends
+    To like with less seraphic ends;
+    Or to compound the bus’ness, whether
+    They temper love and books together;
+    Must never to mankind be told,
+    Nor shall the conscious muse unfold.
+  "translation_ja": |-
+    だが、ヴァネッサが、どんな成功を収めたか、
+    それは、いまも、世間にとって、秘密である。
+    ニンフが、自分の羊飼いを、喜ばせようと、
+    高尚な、恋愛物語の調子で、話すのか。
+    あるいは、彼が、ついに下りてきて、
+    もっと天使めかぬ目的で、振る舞うのか。
+    あるいは、折り合いをつけるために、
+    恋と書物を、ともに、ほどよく混ぜるのか。
+    それを、人類へ、語ってはならず、
+    承知しているムーサも、明かしはしまい。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[185]"
+    "line_start": 2801
+    "line_end": 2810
+    "source_sequence": 44
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "To act with less seraphic ends;"
+    "source_locations":
+    - "source_id": "gutenberg-13621"
+      "precision": "block"
+      "url": "https://www.gutenberg.org/cache/epub/13621/pg13621-images.html"
+      "xpath": "/html/body/pre[2]"
+    "description_ja": "主底本likeに対してact。彼が天使めかぬ、より人間的な恋の目的で振る舞うのかという意で訳す。 比較版の詩pre内824行目を確認。主底本のsource_textは変更しない。"
+- "id": "cv-verse-044"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    Meantime the mournful queen of love
+    Led but a weary life above.
+    She ventures now to leave the skies,
+    Grown by Vanessa’s conduct wise.
+    For though by one perverse event
+    Pallas had crossed her first intent,
+    Though her design was not obtained,
+    Yet had she much experience gained;
+    And, by the project vainly tried,
+    Could better now the cause decide.
+    She gave due notice that both parties,
+    Coram Regina prox’ die Martis,
+    Should at their peril without fail
+    Come and appear, and save their bail.
+    All met, and silence thrice proclaimed,
+    One lawyer to each side was named.
+    The judge discovered in her face
+    Resentments for her late disgrace;
+    And, full of anger, shame, and grief,
+    Directed them to mind their brief;
+    Nor spend their time to show their reading,
+    She’d have a summary proceeding.
+    She gathered under every head,
+    The sum of what each lawyer said;
+    Gave her own reasons last; and then
+    Decreed the cause against the men.
+  "translation_ja": |-
+    その間、悲しむ恋の女王は、
+    天上で、疲れた暮らしを、送っていた。
+    いま、思い切って、空を離れる、
+    ヴァネッサの振る舞いで、賢くなったのだ。
+    一つの、つむじ曲がりな出来事によって、
+    パラスが、初めの意図を妨げたとはいえ、
+    企ては、果たせなかったとはいえ、
+    多くの経験は、得ていたからだ。
+    むなしく試した、その計画によって、
+    いまや、訴えを、もっとよく裁けた。
+    双方の当事者へ、しかるべく告知した、
+    Coram Regina prox’ die Martis、次の火曜日、女王の面前へ、
+    違反の責任は、自ら負うものとして、
+    必ず出頭し、保釈保証を、失わぬようにと。
+    皆が集まり、三たび、静粛を布告された。
+    双方へ、一人ずつ、法律家が選ばれた。
+    裁判官は、その顔に、
+    先の不名誉への、怒りを示していた。
+    怒りと恥と悲しみに、いっぱいになり、
+    要旨書を、心に留めるよう命じた。
+    読んだものを、見せびらかすため、時を使うな、
+    簡略な手続きで、進めたいのだと。
+    それぞれの弁護士が言ったことを、
+    項目ごとに、まとめ上げ、
+    最後に、自分の理由を述べ、それから、
+    男たちの敗訴を、言い渡した。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[186]"
+    "line_start": 2811
+    "line_end": 2836
+    "source_sequence": 45
+  "origin": "source"
+  "source_languages":
+  - "en"
+  - "la"
+- "id": "cv-verse-045"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    But, in a weighty case like this,
+    To show she did not judge amiss,
+    Which evil tongues might else report,
+    She made a speech in open court;
+    Wherein she grievously complains,
+    “How she was cheated by the swains.”
+    On whose petition (humbly showing
+    That women were not worth the wooing,
+    And that unless the sex would mend,
+    The race of lovers soon must end);
+    “She was at Lord knows what expense,
+    To form a nymph of wit and sense;
+    A model for her sex designed,
+    Who never could one lover find,
+    She saw her favour was misplaced;
+    The follows had a wretched taste;
+    She needs must tell them to their face,
+    They were a senseless, stupid race;
+    And were she to begin again,
+    She’d study to reform the men;
+    Or add some grains of folly more
+    To women than they had before.
+    To put them on an equal foot;
+    And this, or nothing else, would do’t.
+    This might their mutual fancy strike,
+    Since every being loves its like.
+  "translation_ja": |-
+    だが、これほど重い事件で、
+    間違った判断を、しなかったと示すため、
+    さもなければ、悪い舌が、そう言い触らしかねぬので、
+    公開の法廷で、演説をした。
+    そこで、ひどく、不平を述べた、
+    「いかに、羊飼いたちに、欺かれたか」と。
+    その者たちが、恐れながら、こう申し立てたため、
+    （女たちは、口説くに値せず、
+    この性が、改まらなければ、
+    恋人の種族は、まもなく絶えると、）
+    「才知と分別あるニンフを、作るため、
+    どれほどの費用をかけたか、神のみぞ知る。
+    女たちの模範になるはずだったのに、
+    一人の恋人も、見つけられなかった。
+    私は、厚意の向け先を、間違えたと悟った。
+    あの連中の好みは、惨めなものだった。
+    面と向かって、言うほかなかった、
+    分別もない、愚かな種族だと。
+    もし、もう一度、始めるなら、
+    男たちを、改めようと、努めるだろう。
+    それとも、女たちへ、以前持っていたより、
+    幾粒か、もっと多くの愚かさを、加えるだろう。
+    同じ足並みに、そろえるために。
+    これ以外、何も、それを果たせない。
+    そうすれば、互いの好みも、動くかもしれない、
+    どんなものも、似たものを、愛するのだから。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[187]"
+    "line_start": 2837
+    "line_end": 2862
+    "source_sequence": 46
+  "origin": "source"
+  "source_languages":
+  - "en"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "The fellows had a wretched taste;"
+    "source_locations":
+    - "source_id": "gutenberg-13621"
+      "precision": "block"
+      "url": "https://www.gutenberg.org/cache/epub/13621/pg13621-images.html"
+      "xpath": "/html/body/pre[2]"
+    "description_ja": "主底本followsに対してfellows。男どもを指す語として訳す。 比較版の詩pre内870行目を確認。主底本のsource_textは変更しない。"
+- "id": "cv-verse-046"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    But now, repenting what was done,
+    She left all business to her son;
+    She puts the world in his possession,
+    And let him use it at discretion.”
+  "translation_ja": |-
+    だが、いまでは、したことを悔い、
+    仕事はすべて、息子に任せた。
+    世界を、その手に渡し、
+    その裁量で、扱わせることにしたのだ」。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[188]"
+    "line_start": 2863
+    "line_end": 2866
+    "source_sequence": 47
+  "origin": "source"
+  "source_languages":
+  - "en"
+- "id": "cv-verse-047"
+  "section_id": "poem"
+  "kind": "verse"
+  "source_text": |-
+    The crier was ordered to dismiss
+    The court, so made his last O yes!
+    The goddess would no longer wait,
+    But rising from her chair of state,
+    Left all below at six and seven,
+    Harnessed her doves, and flew to Heaven.
+  "translation_ja": |-
+    廷吏は、法廷を閉じよと命じられ、
+    最後の、「お聞きあれ！」を、叫んだ。
+    女神は、もう待とうとはせず、
+    王座の椅子から、立ち上がり、
+    下界を、すっかり混乱させたまま、
+    鳩に車を引かせ、天へと飛んでいった。
+  "translation_status": "reviewed"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[189]"
+    "line_start": 2867
+    "line_end": 2872
+    "source_sequence": 48
+  "origin": "source"
+  "source_languages":
+  - "en"
+"notes": []
+"references": []
+"groups": []
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "cv-term-01"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Cadenus"
+  "translation_ja": "カデヌス"
+- "id": "cv-term-02"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Vanessa"
+  "translation_ja": "ヴァネッサ"
+- "id": "cv-term-03"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Venus"
+  "translation_ja": "ウェヌス"
+  "note_ja": "既存の同著者訳と表記を統一。"
+- "id": "cv-term-04"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Cupid"
+  "translation_ja": "キューピッド"
+  "note_ja": "既存の同著者訳と表記を統一。"
+- "id": "cv-term-05"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Pallas"
+  "translation_ja": "パラス"
+- "id": "cv-term-06"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Jove"
+  "translation_ja": "ユピテル"
+  "note_ja": "既存の同著者訳と表記を統一。"
+- "id": "cv-term-07"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Clio"
+  "translation_ja": "クレイオ"
+- "id": "cv-term-08"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Lucina"
+  "translation_ja": "ルキナ"
+- "id": "cv-term-09"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Muses"
+  "translation_ja": "ムーサたち"
+- "id": "cv-term-10"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Graces"
+  "translation_ja": "優美の女神たち"
+- "id": "cv-term-11"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Plutarch"
+  "translation_ja": "プルタルコス"
+- "id": "cv-term-12"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Montaigne"
+  "translation_ja": "モンテーニュ"
+- "id": "cv-term-13"
+  "kind": "term"
+  "source_language": "en"
+  "source": "doctor"
+  "translation_ja": "博士"
+  "note_ja": "本篇では学識ある聖職者Cadenusを指す呼称。医師の意味にしない。"
+- "id": "cv-term-14"
+  "kind": "term"
+  "source_language": "en"
+  "source": "gownman"
+  "translation_ja": "聖職者"
+  "note_ja": "聖職服を着る者という本篇の文脈。"
+- "id": "cv-term-15"
+  "kind": "term"
+  "source_language": "en"
+  "source": "imparlance"
+  "translation_ja": "和解猶予"
+  "note_ja": "訴答前に和解のため与えられる猶予。Merriam-Webster公式定義を確認。"
+- "id": "cv-term-16"
+  "kind": "term"
+  "source_language": "en"
+  "source": "essoign"
+  "translation_ja": "欠席の弁明"
+  "note_ja": "指定された法廷へ出頭できないことの弁明。Merriam-Websterのessoign/essoinを確認。"
+- "id": "cv-term-17"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Muscovy"
+  "translation_ja": "モスコヴィア"
+  "note_ja": "モスクワ公国・ロシアを指す地域名。市名モスクワへ限定しない。Merriam-Webster公式定義を確認。"
+- "id": "cv-term-18"
+  "kind": "term"
+  "source_language": "en"
+  "source": "the ring"
+  "translation_ja": "リングの周回路"
+  "note_ja": "Hyde Parkの馬・馬車の社交の周回路。管理主体Royal Parksの公的な公園史を確認。"
+- "id": "cv-term-19"
+  "kind": "term"
+  "source_language": "fr"
+  "source": "sans consequence"
+  "translation_ja": "取るに足らぬ男"
+  "note_ja": "意味を日本語で示し、無アクセントの主底本の原句も併記。"
+- "id": "cv-term-20"
+  "kind": "term"
+  "source_language": "fr"
+  "source": "Grande-Monde"
+  "translation_ja": "上流社会"
+- "id": "cv-term-21"
+  "kind": "term"
+  "source_language": "la"
+  "source": "Coram Regina prox’ die Martis"
+  "translation_ja": "次の火曜日、女王の面前へ"
+  "note_ja": "法廷のラテン語の告知。主底本の略語を含む原句も訳文へ併記。"
+- "id": "cv-term-22"
+  "kind": "term"
+  "source_language": "en"
+  "source": "Colberteen"
+  "translation_ja": "コルバーティーン"
+  "note_ja": "品名を保つ。比較版の追加注は主底本の注として取り込まない。"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-21T01:15:53Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "4371567fd64823568e48abd18296736aed2fddf8c0c392ea630632b3c6dbe9c7"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "4e8f1eff8a467dbc9d764234c314053a2e2d9d1b"
+  "canonical_repository_head_at_save": "4e8f1eff8a467dbc9d764234c314053a2e2d9d1b"
+  "translation_method": "Codexによる原文からの新訳。連続した詩連のまとまりごとに初稿を保存。全49単位の初稿完成後に題・年記・全889詩行を原文と一回全文対照し、必要な9単位10箇所を訂正。変更箇所は固定原文と修正案で再確認。日本語だけの追加全文通読・文体磨きは行っていない。"
+  "drafted_segment_count": 49
+  "next_segment_id": null
+  "source_verse_line_count": 889
+  "translation_verse_line_count": 889
+  "verse_groups": 47
+  "verse_inventory":
+  - "segment_id": "cv-verse-001"
+    "stanza_index": 1
+    "first_verse_line": 1
+    "last_verse_line": 4
+    "verse_line_count": 4
+    "html_xpath": "/html/body/p[143]"
+  - "segment_id": "cv-verse-002"
+    "stanza_index": 2
+    "first_verse_line": 5
+    "last_verse_line": 20
+    "verse_line_count": 16
+    "html_xpath": "/html/body/p[144]"
+  - "segment_id": "cv-verse-003"
+    "stanza_index": 3
+    "first_verse_line": 21
+    "last_verse_line": 50
+    "verse_line_count": 30
+    "html_xpath": "/html/body/p[145]"
+  - "segment_id": "cv-verse-004"
+    "stanza_index": 4
+    "first_verse_line": 51
+    "last_verse_line": 66
+    "verse_line_count": 16
+    "html_xpath": "/html/body/p[146]"
+  - "segment_id": "cv-verse-005"
+    "stanza_index": 5
+    "first_verse_line": 67
+    "last_verse_line": 74
+    "verse_line_count": 8
+    "html_xpath": "/html/body/p[147]"
+  - "segment_id": "cv-verse-006"
+    "stanza_index": 6
+    "first_verse_line": 75
+    "last_verse_line": 90
+    "verse_line_count": 16
+    "html_xpath": "/html/body/p[148]"
+  - "segment_id": "cv-verse-007"
+    "stanza_index": 7
+    "first_verse_line": 91
+    "last_verse_line": 115
+    "verse_line_count": 25
+    "html_xpath": "/html/body/p[149]"
+  - "segment_id": "cv-verse-008"
+    "stanza_index": 8
+    "first_verse_line": 116
+    "last_verse_line": 125
+    "verse_line_count": 10
+    "html_xpath": "/html/body/p[150]"
+  - "segment_id": "cv-verse-009"
+    "stanza_index": 9
+    "first_verse_line": 126
+    "last_verse_line": 135
+    "verse_line_count": 10
+    "html_xpath": "/html/body/p[151]"
+  - "segment_id": "cv-verse-010"
+    "stanza_index": 10
+    "first_verse_line": 136
+    "last_verse_line": 141
+    "verse_line_count": 6
+    "html_xpath": "/html/body/p[152]"
+  - "segment_id": "cv-verse-011"
+    "stanza_index": 11
+    "first_verse_line": 142
+    "last_verse_line": 153
+    "verse_line_count": 12
+    "html_xpath": "/html/body/p[153]"
+  - "segment_id": "cv-verse-012"
+    "stanza_index": 12
+    "first_verse_line": 154
+    "last_verse_line": 171
+    "verse_line_count": 18
+    "html_xpath": "/html/body/p[154]"
+  - "segment_id": "cv-verse-013"
+    "stanza_index": 13
+    "first_verse_line": 172
+    "last_verse_line": 183
+    "verse_line_count": 12
+    "html_xpath": "/html/body/p[155]"
+  - "segment_id": "cv-verse-014"
+    "stanza_index": 14
+    "first_verse_line": 184
+    "last_verse_line": 197
+    "verse_line_count": 14
+    "html_xpath": "/html/body/p[156]"
+  - "segment_id": "cv-verse-015"
+    "stanza_index": 15
+    "first_verse_line": 198
+    "last_verse_line": 227
+    "verse_line_count": 30
+    "html_xpath": "/html/body/p[157]"
+  - "segment_id": "cv-verse-016"
+    "stanza_index": 16
+    "first_verse_line": 228
+    "last_verse_line": 249
+    "verse_line_count": 22
+    "html_xpath": "/html/body/p[158]"
+  - "segment_id": "cv-verse-017"
+    "stanza_index": 17
+    "first_verse_line": 250
+    "last_verse_line": 255
+    "verse_line_count": 6
+    "html_xpath": "/html/body/p[159]"
+  - "segment_id": "cv-verse-018"
+    "stanza_index": 18
+    "first_verse_line": 256
+    "last_verse_line": 283
+    "verse_line_count": 28
+    "html_xpath": "/html/body/p[160]"
+  - "segment_id": "cv-verse-019"
+    "stanza_index": 19
+    "first_verse_line": 284
+    "last_verse_line": 303
+    "verse_line_count": 20
+    "html_xpath": "/html/body/p[161]"
+  - "segment_id": "cv-verse-020"
+    "stanza_index": 20
+    "first_verse_line": 304
+    "last_verse_line": 315
+    "verse_line_count": 12
+    "html_xpath": "/html/body/p[162]"
+  - "segment_id": "cv-verse-021"
+    "stanza_index": 21
+    "first_verse_line": 316
+    "last_verse_line": 333
+    "verse_line_count": 18
+    "html_xpath": "/html/body/p[163]"
+  - "segment_id": "cv-verse-022"
+    "stanza_index": 22
+    "first_verse_line": 334
+    "last_verse_line": 363
+    "verse_line_count": 30
+    "html_xpath": "/html/body/p[164]"
+  - "segment_id": "cv-verse-023"
+    "stanza_index": 23
+    "first_verse_line": 364
+    "last_verse_line": 395
+    "verse_line_count": 32
+    "html_xpath": "/html/body/p[165]"
+  - "segment_id": "cv-verse-024"
+    "stanza_index": 24
+    "first_verse_line": 396
+    "last_verse_line": 403
+    "verse_line_count": 8
+    "html_xpath": "/html/body/p[166]"
+  - "segment_id": "cv-verse-025"
+    "stanza_index": 25
+    "first_verse_line": 404
+    "last_verse_line": 431
+    "verse_line_count": 28
+    "html_xpath": "/html/body/p[167]"
+  - "segment_id": "cv-verse-026"
+    "stanza_index": 26
+    "first_verse_line": 432
+    "last_verse_line": 443
+    "verse_line_count": 12
+    "html_xpath": "/html/body/p[168]"
+  - "segment_id": "cv-verse-027"
+    "stanza_index": 27
+    "first_verse_line": 444
+    "last_verse_line": 465
+    "verse_line_count": 22
+    "html_xpath": "/html/body/p[169]"
+  - "segment_id": "cv-verse-028"
+    "stanza_index": 28
+    "first_verse_line": 466
+    "last_verse_line": 483
+    "verse_line_count": 18
+    "html_xpath": "/html/body/p[170]"
+  - "segment_id": "cv-verse-029"
+    "stanza_index": 29
+    "first_verse_line": 484
+    "last_verse_line": 491
+    "verse_line_count": 8
+    "html_xpath": "/html/body/p[171]"
+  - "segment_id": "cv-verse-030"
+    "stanza_index": 30
+    "first_verse_line": 492
+    "last_verse_line": 509
+    "verse_line_count": 18
+    "html_xpath": "/html/body/p[172]"
+  - "segment_id": "cv-verse-031"
+    "stanza_index": 31
+    "first_verse_line": 510
+    "last_verse_line": 523
+    "verse_line_count": 14
+    "html_xpath": "/html/body/p[173]"
+  - "segment_id": "cv-verse-032"
+    "stanza_index": 32
+    "first_verse_line": 524
+    "last_verse_line": 539
+    "verse_line_count": 16
+    "html_xpath": "/html/body/p[174]"
+  - "segment_id": "cv-verse-033"
+    "stanza_index": 33
+    "first_verse_line": 540
+    "last_verse_line": 593
+    "verse_line_count": 54
+    "html_xpath": "/html/body/p[175]"
+  - "segment_id": "cv-verse-034"
+    "stanza_index": 34
+    "first_verse_line": 594
+    "last_verse_line": 597
+    "verse_line_count": 4
+    "html_xpath": "/html/body/p[176]"
+  - "segment_id": "cv-verse-035"
+    "stanza_index": 35
+    "first_verse_line": 598
+    "last_verse_line": 623
+    "verse_line_count": 26
+    "html_xpath": "/html/body/p[177]"
+  - "segment_id": "cv-verse-036"
+    "stanza_index": 36
+    "first_verse_line": 624
+    "last_verse_line": 673
+    "verse_line_count": 50
+    "html_xpath": "/html/body/p[178]"
+  - "segment_id": "cv-verse-037"
+    "stanza_index": 37
+    "first_verse_line": 674
+    "last_verse_line": 711
+    "verse_line_count": 38
+    "html_xpath": "/html/body/p[179]"
+  - "segment_id": "cv-verse-038"
+    "stanza_index": 38
+    "first_verse_line": 712
+    "last_verse_line": 725
+    "verse_line_count": 14
+    "html_xpath": "/html/body/p[180]"
+  - "segment_id": "cv-verse-039"
+    "stanza_index": 39
+    "first_verse_line": 726
+    "last_verse_line": 757
+    "verse_line_count": 32
+    "html_xpath": "/html/body/p[181]"
+  - "segment_id": "cv-verse-040"
+    "stanza_index": 40
+    "first_verse_line": 758
+    "last_verse_line": 761
+    "verse_line_count": 4
+    "html_xpath": "/html/body/p[182]"
+  - "segment_id": "cv-verse-041"
+    "stanza_index": 41
+    "first_verse_line": 762
+    "last_verse_line": 789
+    "verse_line_count": 28
+    "html_xpath": "/html/body/p[183]"
+  - "segment_id": "cv-verse-042"
+    "stanza_index": 42
+    "first_verse_line": 790
+    "last_verse_line": 817
+    "verse_line_count": 28
+    "html_xpath": "/html/body/p[184]"
+  - "segment_id": "cv-verse-043"
+    "stanza_index": 43
+    "first_verse_line": 818
+    "last_verse_line": 827
+    "verse_line_count": 10
+    "html_xpath": "/html/body/p[185]"
+  - "segment_id": "cv-verse-044"
+    "stanza_index": 44
+    "first_verse_line": 828
+    "last_verse_line": 853
+    "verse_line_count": 26
+    "html_xpath": "/html/body/p[186]"
+  - "segment_id": "cv-verse-045"
+    "stanza_index": 45
+    "first_verse_line": 854
+    "last_verse_line": 879
+    "verse_line_count": 26
+    "html_xpath": "/html/body/p[187]"
+  - "segment_id": "cv-verse-046"
+    "stanza_index": 46
+    "first_verse_line": 880
+    "last_verse_line": 883
+    "verse_line_count": 4
+    "html_xpath": "/html/body/p[188]"
+  - "segment_id": "cv-verse-047"
+    "stanza_index": 47
+    "first_verse_line": 884
+    "last_verse_line": 889
+    "verse_line_count": 6
+    "html_xpath": "/html/body/p[189]"
+  "source_word_count": 5518
+  "poem_source_word_count": 5512
+  "source_unit_json_sha256": "c55ec2e43a129384f9f4e358b4813e98878a1dac1901cd1f44ce14fd32601c5d"
+  "source_extraction_ja": "HTML実体参照をUnicode文字へ復号。各brを詩行の境界にし、pごとの47連を保持。タグ内の通常の空白・物理改行は行内空白1字へ整形し、句読点・大文字小文字・綴り・行順を変更しない。1箇所のNBSPはそのまま保持。見出しとイタリック体の年記Written\
+    \ Anno 1713.は別単位。"
+  "source_boundary":
+    "start_xpath": "/html/body/h2[13]"
+    "start_html_line": 1982
+    "start_heading": "CADENUS AND VANESSA."
+    "end_html_line_inclusive": 2872
+    "next_excluded_xpath": "/html/body/h2[14]"
+    "next_excluded_html_line": 2873
+    "next_excluded_heading": "STELLA’S BIRTHDAY, 1718."
+  "primary_html_verification_ja": "保存した旧HTMLのh2[13]、年記p[142]と詩p[143]〜p[189]をlxmlで解釈し、各brを行境界、タグ内の通常空白を一空白へ整えた結果を固定原文全49単位と実照合。全一致。NBSPも保持。"
+  "source_notes_ja": "主底本の当該篇には注記号・注本文がない。PG13621の追加注三件、および1801年第7巻の地名を含む年記・Goldsmith評の編者注は主底本へ加えない。"
+  "comparison_scope_ja": "原文の意味を左右する疑義十二短句をPG13621の詩preと実照合。異版の全文校合を行ったとは扱わない。主底本の十二短句はsource_textへそのまま残し、比較版の読みと解釈をsource_variantsへ記録。"
+  "comparison_short_line_count": 12
+  "full_review_segment_ids":
+  - "cv-title"
+  - "cv-date"
+  - "cv-verse-001"
+  - "cv-verse-002"
+  - "cv-verse-003"
+  - "cv-verse-004"
+  - "cv-verse-005"
+  - "cv-verse-006"
+  - "cv-verse-007"
+  - "cv-verse-008"
+  - "cv-verse-009"
+  - "cv-verse-010"
+  - "cv-verse-011"
+  - "cv-verse-012"
+  - "cv-verse-013"
+  - "cv-verse-014"
+  - "cv-verse-015"
+  - "cv-verse-016"
+  - "cv-verse-017"
+  - "cv-verse-018"
+  - "cv-verse-019"
+  - "cv-verse-020"
+  - "cv-verse-021"
+  - "cv-verse-022"
+  - "cv-verse-023"
+  - "cv-verse-024"
+  - "cv-verse-025"
+  - "cv-verse-026"
+  - "cv-verse-027"
+  - "cv-verse-028"
+  - "cv-verse-029"
+  - "cv-verse-030"
+  - "cv-verse-031"
+  - "cv-verse-032"
+  - "cv-verse-033"
+  - "cv-verse-034"
+  - "cv-verse-035"
+  - "cv-verse-036"
+  - "cv-verse-037"
+  - "cv-verse-038"
+  - "cv-verse-039"
+  - "cv-verse-040"
+  - "cv-verse-041"
+  - "cv-verse-042"
+  - "cv-verse-043"
+  - "cv-verse-044"
+  - "cv-verse-045"
+  - "cv-verse-046"
+  - "cv-verse-047"
+  "full_review_snapshot_sha256": "05800a2922655ab569d56e29c52ce6238cc773fa3ebbba5c9f7a0ee44e2284df"
+  "full_review_result_sha256": "2b4e3bf4e66c8806be19a3afe9ea8d14333faa76bd989bd64785e10ba1b1b663"
+  "full_review_corrections_ja":
+  - "segment_id": "cv-verse-008"
+    "reason_ja": "essoignは指定時刻に英国法廷へ出ないことの弁解。一般的な欠席通知ではなく弁明であると明示。"
+  - "segment_id": "cv-verse-016"
+    "reason_ja": "as she advancedのsheは模範となるVanessa。ほかの女たち自身が成長する条件と読まれないよう明示。"
+  - "segment_id": "cv-verse-021"
+    "reason_ja": "Muscovyは歴史的な国・地域名であり、現代のモスクワ市へ置き換えず音写を保持する。"
+  - "segment_id": "cv-verse-023"
+    "reason_ja": "the ringは社交の周回路の名。管理主体Royal Parksの公的なHyde Park史でもRingを馬・馬車の環状路と説明。人々の輪の中という読みを訂正。"
+  - "segment_id": "cv-verse-024"
+    "reason_ja": "Madamは女性への呼びかけで、未婚のVanessaを既婚者とする奥様の限定を避ける。"
+  - "segment_id": "cv-verse-028"
+    "reason_ja": "they would improveの主体はVenusのまいた種であり、Cupid自身が成長する文と読まれないよう明示。"
+  - "segment_id": "cv-verse-033"
+    "reason_ja": "tender sex and ageは女性という性と若い年齢のか弱さを述べる。「性と年齢の一人」という不成立の指示表現を改め、原文の性別観と若さを明示する。"
+  - "segment_id": "cv-verse-036"
+    "reason_ja": "fancied worse（主底本worst）は金持ちの若い娘より悪い相手を好む可能性、つまり縁組を悪くないとする世間の当てこすり。道徳的に悪い望みへのずれを除く。併記French句も主底本どおり無アクセントのsans\
+      \ consequenceを保持。"
+  - "segment_id": "cv-verse-043"
+    "reason_ja": "主底本To like with less seraphic endsは比較版PG13621でTo act with less seraphic ends。地上の恋を目的に行動する意味で、生きるへの推測を訂正。"
+  "lexical_checks":
+  - "term": "imparlance"
+    "url": "https://www.merriam-webster.com/dictionary/imparlance"
+    "finding_ja": "訴答前の和解猶予。"
+  - "term": "essoign / essoin"
+    "urls":
+    - "https://www.merriam-webster.com/dictionary/essoign"
+    - "https://www.merriam-webster.com/dictionary/essoin"
+    "finding_ja": "英国法廷の指定日時に出頭できないことの弁明。"
+  - "term": "demurrer"
+    "url": "https://www.merriam-webster.com/dictionary/demurrer"
+    "finding_ja": "主張された事実を認めても救済の根拠にならないという抗弁。"
+  - "term": "Muscovy"
+    "url": "https://www.merriam-webster.com/dictionary/Muscovy"
+    "finding_ja": "モスクワ公国およびロシアを指す地域名。"
+  - "term": "the ring"
+    "urls":
+    - "https://www.royalparks.org.uk/visit/parks/hyde-park/history"
+    - "https://www.royalparks.org.uk/read-watch-listen/rotten-row"
+    "finding_ja": "公園の馬・馬車の環状路で、社交の場。"
+  "reading_start_segment_id": "cv-title"
+  "speech_skip_sections": []

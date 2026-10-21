@@ -1,0 +1,293 @@
+schema_version: '2.0'
+work_id: swift-written-in-a-ladys-ivory-table-book
+metadata:
+  title_ja: 淑女の象牙の手帳に
+  title_original: Written in a Lady's Ivory Table-Book, 1698
+  original_languages:
+  - en
+  target_language: ja
+  contributors:
+  - id: swift
+    name_ja: ジョナサン・スウィフト
+    name_original: Jonathan Swift
+    roles:
+    - author
+  - id: browning
+    name_ja: ウィリアム・アーンスト・ブラウニング
+    name_original: William Ernst Browning
+    roles:
+    - editor
+  - id: translator
+    name_ja: 心霊研究家ポロミン
+    name_original: null
+    roles:
+    - translator
+    url: https://x.com/cacazu_right
+  translation_rights:
+    status: unknown
+    attribution: 心霊研究家ポロミン
+    note_ja: 今回の新訳の利用条件は未指定。原著・底本編集物・電子翻刻の条件を日本語訳へ自動適用しない。
+  genres:
+  - 文学
+  - 詩
+  - 風刺
+  reader_notes_ja:
+  - 手帳そのものが語り手となる詩。1910年版の全30行を訳した。1801年版は年記が1699年で、本文の「自分の頭から生まれたものが／あの男の頭から出る糞に」の二行がなく、全28行である。
+  - 書き込みの「Tru tel deth」は「True till death（死ぬまで忠実に）」、「For an el breth」は「For an ill breath（口臭には）」と読む戯画的な綴り。訳文では意味を示した。
+sources:
+- id: gutenberg-14353
+  role: primary
+  title: The Poems of Jonathan Swift, D.D., Volume I
+  languages:
+  - en
+  url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+  edition: 'William Ernst Browning編、London: G. Bell and Sons, Ltd.、1910年。Project Gutenberg eBook 14353。HTMLに初公開2004年12月14日・最終更新2024年10月28日と記載。'
+  contributor_ids:
+  - swift
+  - browning
+  work_rights:
+    status: public_domain
+    evidence_url: https://www.gutenberg.org/ebooks/14353
+    note_ja: 原著者Swiftは1745年没。1910年刊本で、Project Gutenberg書誌は米国で公有と表示。編者Browningの没年1916はスコットランド国立図書館一次アーカイブ目録のCreator欄（https://manuscripts.nls.uk/repositories/2/archival_objects/18799）で1830–1916と記載。原著と後代の編集注を区別する。
+  transcription_rights:
+    status: licensed
+    license_id: LicenseRef-Project-Gutenberg
+    license_url: https://www.gutenberg.org/policy/license.html
+    attribution: E-text prepared by Clare Boothby, G. Graustein, and the Project Gutenberg Online Distributed Proofreading
+      Team
+    note_ja: 公有の原著・1910年版編集物と、Project Gutenbergの商標および電子版配布条件を区別する。
+  sha256: 86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc
+  description_ja: 当該詩の題と全30行を採用。1801年版との差を読者注に記した。
+- id: swift-1801-volume-7
+  role: comparison
+  title: 'The Works of the Rev. Jonathan Swift, Volume 7: Written in a Lady''s Ivory Tablebook'
+  languages:
+  - en
+  url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Written_in_a_Lady%27s_Ivory_Tablebook&oldid=10241110
+  edition: London, 1801年版。Wikisource固定版10241110。
+  work_rights:
+    status: public_domain
+    evidence_url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Written_in_a_Lady%27s_Ivory_Tablebook&oldid=10241110
+    note_ja: 原著者Swiftは1745年没。比較対象は1801年刊本の原著本文。原著と現代の電子翻刻の条件を区別する。
+  transcription_rights:
+    status: licensed
+    license_id: CC-BY-SA-4.0
+    license_url: https://creativecommons.org/licenses/by-sa/4.0/
+    attribution: Wikisource contributors
+    note_ja: Wikisourceの電子翻刻の利用条件。公有の原著と今回の日本語訳の条件を自動的に同一としない。
+  description_ja: 年記1699と全28行を確認。採用底本の年記・本文をこの版へ置換していない。
+scope:
+  included:
+  - source_id: gutenberg-14353
+    description_ja: 題と1698年記、詩本文全30行。底本の当該範囲に脚注はない。
+    section_ids:
+    - poem
+  excluded:
+  - source_id: gutenberg-14353
+    description_ja: 巻の標題紙・編者序・序論・目次、前後の他作品、電子版の定型案内。空の段落・装飾・アンカーだけの要素は本文と区別。対象の全詩行に省略なし。
+  known_gaps: []
+sections:
+- id: poem
+  parent_id: null
+  kind: section
+  heading_segment_ids:
+  - itb-title
+  origin: source
+segments:
+- id: itb-title
+  kind: heading
+  source_text: WRITTEN IN A LADY'S IVORY TABLE-BOOK, 1698
+  source_locations:
+  - source_id: gutenberg-14353
+    precision: block
+    url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+    xpath: /html/body/h2[11]
+    line_start: 2724
+    source_sequence: 0
+  translation_ja: ある淑女の象牙の手帳に書きつけた詩、一六九八年
+  translation_status: reviewed
+  section_id: poem
+  origin: source
+  source_languages:
+  - en
+- id: itb-verse-001
+  kind: verse
+  source_text: 'Peruse my leaves thro'' ev''ry part,
+
+    And think thou seest my owner''s heart,
+
+    Scrawl''d o''er with trifles thus, and quite
+
+    As hard, as senseless, and as light;
+
+    Expos''d to ev''ry coxcomb''s eyes,
+
+    But hid with caution from the wise.
+
+    Here you may read, "Dear charming saint;"
+
+    Beneath, "A new receipt for paint:"
+
+    Here, in beau-spelling, "Tru tel deth;"
+
+    There, in her own, "For an el breth:"
+
+    Here, "Lovely nymph, pronounce my doom!"
+
+    There, "A safe way to use perfume:"
+
+    Here, a page fill''d with billets-doux;
+
+    On t''other side, "Laid out for shoes"—
+
+    "Madam, I die without your grace"—
+
+    "Item, for half a yard of lace."
+
+    Who that had wit would place it here,
+
+    For ev''ry peeping fop to jeer?
+
+    To think that your brains'' issue is
+
+    Exposed to th''excrement of his,
+
+    In pow''r of spittle and a clout,
+
+    Whene''er he please, to blot it out;
+
+    And then, to heighten the disgrace,
+
+    Clap his own nonsense in the place.
+
+    Whoe''er expects to hold his part
+
+    In such a book, and such a heart,
+
+    If he be wealthy, and a fool,
+
+    Is in all points the fittest tool;
+
+    Of whom it may be justly said,
+
+    He''s a gold pencil tipp''d with lead.'
+  source_locations:
+  - source_id: gutenberg-14353
+    precision: block
+    url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+    xpath: /html/body/pre[49]
+    line_start: 2728
+    source_sequence: 1
+    line_end: 2757
+  translation_ja: '私のページを、隅々まで読み、
+
+    持ち主の心を見ているつもりになってごらん。
+
+    こんなふうに、つまらぬことで書き散らされ、まったく、
+
+    同じほど堅く、無情で、軽い心を。
+
+    どんな気取り屋の目にもさらされているのに、
+
+    賢い人からは、用心深く隠されている。
+
+    ここには読める、「愛しい、魅惑の聖女よ」、
+
+    その下には、「新しいおしろいの処方」。
+
+    ここには、しゃれ男の綴りで、「死ぬまで忠実に」、
+
+    そこには、彼女自身の綴りで、「口臭には」。
+
+    ここには、「美しい乙女よ、私の運命を告げたまえ！」、
+
+    そこには、「香料を安全に使う方法」。
+
+    ここには、恋文で埋まったページ、
+
+    その裏には、「靴に支払った金額」――
+
+    「奥様、お恵みがなければ、私は死んでしまいます」――
+
+    「同じく、レース半ヤードの代金」。
+
+    才知のある者なら、誰がここに書くだろう、
+
+    覗き込むしゃれ者というしゃれ者に、嘲られるために。
+
+    自分の頭から生まれたものが、
+
+    あの男の頭から出る糞に、さらされると思えば。
+
+    唾とぼろ布の力に、身を委ねて、
+
+    あの男が好きなときに、拭き消せるのだ。
+
+    おまけに、恥をいっそうひどくするため、
+
+    自分のたわごとを、その跡に書きつけるのだ。
+
+    こんな手帳に、こんな心に、
+
+    自分の場所を保てると、あてにする者は、
+
+    金持ちで、そのうえ愚か者なら、
+
+    あらゆる点で、うってつけの道具である。
+
+    そんな男なら、まさしくこう言ってよい、
+
+    金の軸に、鉛の先をつけた筆だ、と。'
+  translation_status: reviewed
+  section_id: poem
+  origin: source
+  source_languages:
+  - en
+notes: []
+references: []
+groups: []
+assets: []
+figures: []
+aliases: []
+terminology:
+- id: itb-term-1
+  kind: term
+  source_language: en
+  source: table-book
+  translation_ja: 手帳
+  note_ja: 本文の唾と布で消せる記入面をもつ、象牙の手帳。
+- id: itb-term-2
+  kind: term
+  source_language: en
+  source: receipt
+  translation_ja: 処方
+  note_ja: 領収書ではなく、化粧品の調合法の意味。
+workflow:
+  stage: ready
+  full_review:
+    status: complete
+    completed_at: '2026-10-21T01:13:19Z'
+    reviewed_by: Codex
+    content_sha256: 9b317ba13c1422d53d58b976d9e2ce8a13d8af786f1bba273dd0a77bb20f9642
+provenance:
+  source_retrieved_at: '2026-10-21'
+  schema_repository: https://github.com/cacazu/nihonjinbun
+  schema_commit: 4e8f1eff8a467dbc9d764234c314053a2e2d9d1b
+  translation_method: Codexによる原文からの新訳。全初稿保存後、題と全30行を原文と一回全文対照し、変更箇所を原文と再確認した。日本語だけの追加全文通読は行っていない。
+  drafted_segment_count: 2
+  next_segment_id: null
+  source_verse_line_count: 30
+  translation_verse_line_count: 30
+  full_review_segment_ids:
+  - itb-title
+  - itb-verse-001
+  full_review_snapshot_sha256: 97231d38cd1b2bad03c186533a6404ea5cb7133727d46b062faac966d3d2f0e5
+  full_review_result_sha256: ca7b7e15c49f832c2b24d3faec994f47cfc1c81f01f6355356955a59e42308fa
+  full_review_corrections_ja:
+  - segment_id: itb-verse-001
+    reason_ja: 17行のWhoは書き手を問う主語であり、誤った目的語の「誰を」を訂正。9–10行の英語の誤綴りを日本語の擬似旧仮名へ置き換えると効果が曖昧になるため、訳では意味を示し、二つの原綴りを読者注で説明する。
+    changed_context_rechecked: true
+  remaining_ambiguities_ja:
+  - leadは原語に従い鉛と訳す。金の軸と価値の低い芯の対照を保ち、筆記具の芯の材質史を断定しない。
+  source_extraction_ja: h2の題と、次作品のh2に達する前のpre全30行。共通左余白5字だけを除き、原綴りと各行を保持。元HTMLのXPath・行範囲を記録。
+  comparison_access_ja: web toolで1801年版の固定版10241110に相当する現行ページの全28行を2026-10-21に確認。年記と二行の差を記録。網羅的な全異版校合ではない。

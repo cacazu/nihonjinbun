@@ -1,0 +1,364 @@
+schema_version: '2.0'
+work_id: swift-on-the-union
+metadata:
+  title_ja: 合同について
+  title_original: On the Union
+  original_languages:
+  - en
+  target_language: ja
+  contributors:
+  - id: swift
+    name_ja: ジョナサン・スウィフト
+    name_original: Jonathan Swift
+    roles:
+    - author
+  - id: browning
+    name_ja: ウィリアム・アーンスト・ブラウニング
+    name_original: William Ernst Browning
+    roles:
+    - editor
+  - id: translator
+    name_ja: 心霊研究家ポロミン
+    name_original: null
+    roles:
+    - translator
+    url: https://x.com/cacazu_right
+  translation_rights:
+    status: unknown
+    attribution: 心霊研究家ポロミン
+    note_ja: 今回の新訳の利用条件は未指定。原著・底本編集物・電子翻刻の条件を日本語訳へ自動適用しない。
+  genres:
+  - 文学
+  - 詩
+  - 風刺
+  reader_notes_ja:
+  - イングランドとスコットランドの合同を、継ぎ当ての衣服と二重底の船にたとえた詩。1910年Browning編版の全22行と底本注二件を収録。
+  - 操船のくだりは原文の表現が簡略なため、風が変わって船が風下へ流される意味で訳した。
+sources:
+- id: gutenberg-14353
+  role: primary
+  title: The Poems of Jonathan Swift, D.D., Volume I
+  languages:
+  - en
+  url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+  edition: 'William Ernst Browning編、London: G. Bell and Sons, Ltd.、1910年。Project Gutenberg eBook 14353。HTMLに初公開2004年12月14日・最終更新2024年10月28日と記載。'
+  contributor_ids:
+  - swift
+  - browning
+  work_rights:
+    status: public_domain
+    evidence_url: https://www.gutenberg.org/ebooks/14353
+    note_ja: 原著者Swiftは1745年没。1910年刊本で、Project Gutenberg書誌は米国で公有と表示。編者Browningの没年1916はスコットランド国立図書館一次アーカイブ目録のCreator欄（https://manuscripts.nls.uk/repositories/2/archival_objects/18799）で1830–1916と記載。原著と後代の編集注を区別する。
+  transcription_rights:
+    status: licensed
+    license_id: LicenseRef-Project-Gutenberg
+    license_url: https://www.gutenberg.org/policy/license.html
+    attribution: E-text prepared by Clare Boothby, G. Graustein, and the Project Gutenberg Online Distributed Proofreading
+      Team
+    note_ja: 公有の原著・1910年版編集物と、Project Gutenbergの商標および電子版配布条件を区別する。
+  sha256: 86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc
+  description_ja: 当該詩の題と全22行、底本注二件を採用。注1のN.署名と、注2の無署名を保持。
+- id: swift-1801-volume-7
+  role: comparison
+  title: 'The Works of the Rev. Jonathan Swift, Volume 7: On the Union'
+  languages:
+  - en
+  url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_7/On_the_Union&oldid=10241118
+  edition: London, 1801年版。Wikisource固定版10241118。
+  work_rights:
+    status: public_domain
+    evidence_url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_7/On_the_Union&oldid=10241118
+    note_ja: 原著者Swiftは1745年没。比較対象は1801年刊本の原著本文。原著と現代の電子翻刻の条件を区別する。
+  transcription_rights:
+    status: licensed
+    license_id: CC-BY-SA-4.0
+    license_url: https://creativecommons.org/licenses/by-sa/4.0/
+    attribution: Wikisource contributors
+    note_ja: Wikisourceの電子翻刻の利用条件。公有の原著と今回の日本語訳の条件を自動的に同一としない。
+  description_ja: 同名詩の全22行と第一注を比較。1910年版第二注は1801年版の当該転記にはない。
+scope:
+  included:
+  - source_id: gutenberg-14353
+    description_ja: 題、詩本文全22行、底本注二件。
+    section_ids:
+    - poem
+    - source-notes
+  excluded:
+  - source_id: gutenberg-14353
+    description_ja: 巻全体の標題紙・編者序・序論・目次、前後の他作品、電子版の定型案内。対象作品本文と注に省略なし。
+  known_gaps: []
+sections:
+- id: poem
+  parent_id: null
+  kind: section
+  heading_segment_ids:
+  - union-heading
+  origin: source
+- id: source-notes
+  parent_id: null
+  kind: editorial_group
+  heading_segment_ids: []
+  label_ja: 底本注
+  origin: editorial
+segments:
+- id: union-heading
+  kind: heading
+  source_text: ON THE UNION
+  translation_ja: 合同について
+  translation_status: reviewed
+  source_locations:
+  - source_id: gutenberg-14353
+    precision: block
+    url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+    xpath: /html/body/h2[19]
+    line_start: 3411
+    source_sequence: 0
+  section_id: poem
+  origin: source
+  source_languages:
+  - en
+- id: union-verse-001
+  kind: verse
+  source_text: 'The queen has lately lost a part
+
+    Of her ENTIRELY-ENGLISH[1] heart,
+
+    For want of which, by way of botch,
+
+    She pieced it up again with SCOTCH.
+
+    Blest revolution! which creates
+
+    Divided hearts, united states!
+
+    See how the double nation lies,
+
+    Like a rich coat with skirts of frize:
+
+    As if a man, in making posies,
+
+    Should bundle thistles up with roses.
+
+    Who ever yet a union saw
+
+    Of kingdoms without faith or law?[2]
+
+    Henceforward let no statesman dare
+
+    A kingdom to a ship compare;
+
+    Lest he should call our commonweal
+
+    A vessel with a double keel:
+
+    Which, just like ours, new rigg''d and mann''d,
+
+    And got about a league from land,
+
+    By change of wind to leeward side,
+
+    The pilot knew not how to guide.
+
+    So tossing faction will o''erwhelm
+
+    Our crazy double-bottom''d realm.'
+  translation_ja: '女王はこのごろ、なくしてしまわれた、
+
+    「イングランド一筋」の[1]お心を、ひとかけら。
+
+    それが欠けたので、間に合わせの継ぎを当て、
+
+    スコットランドもので、また繕いなされた。
+
+    ありがたい変革だ！　これが生み出すのは、
+
+    分裂する心と、合同する国家！
+
+    見よ、この二重の国のありさまは、
+
+    上等の上着に、粗いラシャの裾をつけたよう。
+
+    まるで、花束を作る者が、
+
+    薔薇と薊を、一緒くたに束ねるよう。
+
+    これまで、誰が見たというのか、
+
+    信仰も法もない、王国の合同など？[2]
+
+    これからは、どんな政治家も、恐れ多くも、
+
+    王国を船になど、たとえてはならぬ、
+
+    わが国を、二重の竜骨を備えた、
+
+    船と呼んでしまわないために。
+
+    その船は、わが国とそっくり、新たに帆具も船員も整え、
+
+    陸から、一リーグほど進んだところで、
+
+    風が変わり、風下へと流されると、
+
+    水先案内は、どう導けばよいか、わからなくなった。
+
+    そうして、揺さぶり立てる党争が、ついには沈めるだろう、
+
+    わが、がたつく二重底の王国を。'
+  translation_status: reviewed
+  source_locations:
+  - source_id: gutenberg-14353
+    precision: block
+    url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+    xpath: /html/body/pre[67]
+    line_start: 3415
+    source_sequence: 1
+    line_end: 3436
+  section_id: poem
+  origin: source
+  source_languages:
+  - en
+- id: union-note-1
+  kind: note_body
+  source_text: '[Footnote 1: The motto on Queen Anne''s coronation medal.—N.]'
+  translation_ja: '[1] アン女王の戴冠記念章に記された標語。――N。'
+  translation_status: reviewed
+  source_locations:
+  - source_id: gutenberg-14353
+    precision: block
+    url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+    xpath: /html/body/pre[68]
+    line_start: 3439
+    source_sequence: 2
+  section_id: source-notes
+  origin: source
+  source_languages:
+  - en
+- id: union-note-2
+  kind: note_body
+  source_text: '[Footnote 2: I.e., Differing in religion and law.]'
+  translation_ja: '[2] すなわち、宗教と法律が異なっている、ということ。'
+  translation_status: reviewed
+  source_locations:
+  - source_id: gutenberg-14353
+    precision: block
+    url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+    xpath: /html/body/pre[68]
+    line_start: 3441
+    source_sequence: 3
+  section_id: source-notes
+  origin: source
+  source_languages:
+  - en
+notes:
+- id: union-fn-1
+  origin: unknown
+  label: '1'
+  form: footnote
+  body:
+  - segment_id: union-note-1
+  source_locations:
+  - source_id: gutenberg-14353
+    precision: block
+    url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+    xpath: /html/body/pre[68]
+    line_start: 3439
+    source_sequence: 2
+  description_ja: 底本注。N.の署名を保持し、人物の同定は断定しない。
+- id: union-fn-2
+  origin: unknown
+  label: '2'
+  form: footnote
+  body:
+  - segment_id: union-note-2
+  source_locations:
+  - source_id: gutenberg-14353
+    precision: block
+    url: https://www.gutenberg.org/cache/epub/14353/pg14353-images.html
+    xpath: /html/body/pre[68]
+    line_start: 3441
+    source_sequence: 3
+  description_ja: 底本の無署名注。
+references:
+- id: union-reference-1
+  kind: note
+  origin: source
+  from:
+    segment_id: union-verse-001
+    source_span:
+      start: 56
+      end: 59
+      exact: '[1]'
+    translation_span:
+      start: 30
+      end: 33
+      exact: '[1]'
+  to:
+    type: note
+    id: union-fn-1
+  status: verified
+- id: union-reference-2
+  kind: note
+  origin: source
+  from:
+    segment_id: union-verse-001
+    source_span:
+      start: 400
+      end: 403
+      exact: '[2]'
+    translation_span:
+      start: 225
+      end: 228
+      exact: '[2]'
+  to:
+    type: note
+    id: union-fn-2
+  status: verified
+groups: []
+assets: []
+figures: []
+aliases: []
+terminology:
+- id: union-term-1
+  kind: term
+  source_language: en
+  source: union
+  translation_ja: 合同
+  note_ja: イングランドとスコットランドの政治的合同。
+- id: union-term-2
+  kind: term
+  source_language: en
+  source: frize
+  translation_ja: 粗いラシャ
+  note_ja: 上等の上着と対照される粗い毛織物。
+workflow:
+  stage: ready
+  full_review:
+    status: complete
+    completed_at: '2026-10-21T01:18:36Z'
+    reviewed_by: Codex
+    content_sha256: 954add7bc1e519e485fb6c35737c422ca6090f3da38da9e0c07674a3352ddc69
+provenance:
+  source_retrieved_at: '2026-10-21'
+  schema_repository: https://github.com/cacazu/nihonjinbun
+  schema_commit: 4e8f1eff8a467dbc9d764234c314053a2e2d9d1b
+  translation_method: 全初稿保存後、題・詩全22行・底本注2件を原文と一回全文対照。変更箇所を原文と再確認し、日本語のみの追加全文通読は実施していない。
+  drafted_segment_count: 4
+  next_segment_id: null
+  source_verse_line_count: 22
+  translation_verse_line_count: 22
+  full_review_segment_ids:
+  - union-heading
+  - union-verse-001
+  - union-note-1
+  - union-note-2
+  full_review_snapshot_sha256: b354db2b8b6ae9e469a4cf5d6d09e2493fef5287452709d14c14285260e8b50a
+  full_review_result_sha256: 2cc0520280f347678b9b6bd6b89b137683da47067fab51dbd427f6df451f3c8d
+  full_review_corrections_ja:
+  - segment_id: union-verse-001
+    reason_ja: 一行目をlossの受動態と誤読させないよう、女王が心の一部を失った意味に訂正。19行は風そのものが風下へ変わるという不明瞭な訳を避け、風が変わったため船が風下へ流される読みを明示し、読者注に解釈を示す。
+    changed_context_rechecked: true
+  comparison_access_ja: 2026-10-21にweb toolで1801年版の全22行と第一注を実読。同じ詩の対応を確認し、原文の綴りや第二注を混合しない。
+  remaining_ambiguities_ja:
+  - to leeward sideの簡略な構文は、風が変わって船が風下へ流される意味と解釈し読者注に記した。
+  - 第一注のN.が指す人物は未同定。署名を保持し、Swift本人の注と決めつけない。

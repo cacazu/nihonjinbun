@@ -1,0 +1,367 @@
+"schema_version": "2.0"
+"work_id": "swift-a-description-of-the-morning"
+"metadata":
+  "title_ja": "朝の情景"
+  "title_original": "A Description of the Morning"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "browning"
+    "name_ja": "ウィリアム・アーンスト・ブラウニング"
+    "name_original": "William Ernst Browning"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  - "id": "faulkner"
+    "name_ja": "ジョージ・フォークナー"
+    "name_original": "George Faulkner"
+    "roles":
+    - "editor"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。原著や電子版の条件を日本語訳へ自動適用しない。"
+  "genres":
+  - "文学"
+  - "詩"
+  - "風刺"
+  "reader_notes_ja":
+  - "底本に一七〇九年四月の作、『タトラー』初出と記された本文十八行と、底本注三件を収録する。"
+"sources":
+- "id": "gutenberg-14353"
+  "role": "primary"
+  "title": "The Poems of Jonathan Swift, D.D., Volume I"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+  "edition": "William Ernst Browning編、London: G. Bell and Sons, Ltd.、1910年。Project Gutenberg第14353番、2004年12月14日公開、2024年10月28日更新と記載。"
+  "contributor_ids":
+  - "swift"
+  - "browning"
+  - "faulkner"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/14353"
+    "note_ja": "原著者スウィフトは1745年没、底本編者ブラウニングは1916年没の1910年刊本。Project Gutenberg書誌は米国でパブリックドメインと表示。原著・底本の編集文章と電子版の配布条件を区別する。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "E-text prepared by Clare Boothby, G. Graustein, and the Project Gutenberg Online Distributed\
+      \ Proofreading Team"
+    "note_ja": "Project Gutenbergの商標・電子版配布条件。日本語訳への利用許諾を意味しない。"
+  "sha256": "86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc"
+  "description_ja": "2026年10月21日取得のHTML。当該h2、直後のh3年記、詩preと底本注preのみを採る。CRLFをLFにし、pre共通の左余白と前後の空行を除き、詩行と字下げによる詩段落境界を保持する。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "標題、年記、全18詩行（1詩段落）、該当底本注全3件。"
+    "section_ids":
+    - "poem"
+    - "source-notes"
+  "excluded":
+  - "source_id": "gutenberg-14353"
+    "description_ja": "次のA DESCRIPTION OF A CITY SHOWERを含む他作品、巻全体の前付・序文・目次・電子版利用案内と末尾ライセンス。"
+  "known_gaps": []
+"sections":
+- "id": "poem"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "morning-heading"
+  "origin": "source"
+- "id": "source-notes"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "origin": "editorial"
+  "label_ja": "底本注"
+"segments":
+- "id": "morning-heading"
+  "section_id": "poem"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "A DESCRIPTION OF THE MORNING"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/h2[30]"
+    "line_start": 4701
+  "translation_ja": "朝の情景"
+  "translation_status": "reviewed"
+- "id": "morning-subtitle"
+  "section_id": "poem"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "WRITTEN IN APRIL 1709, AND FIRST PRINTED IN \"THE TATLER\"[1]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/h3[16]"
+    "line_start": 4704
+  "translation_ja": "一七〇九年四月に書かれ、『タトラー』に初めて掲載。[1]"
+  "translation_status": "reviewed"
+- "id": "morning-stanza-01"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Now hardly here and there an hackney-coach
+    Appearing, show'd the ruddy morn's approach.
+    Now Betty from her master's bed had flown,
+    And softly stole to discompose her own;
+    The slip-shod 'prentice from his master's door
+    Had pared the dirt, and sprinkled round the floor.
+    Now Moll had whirl'd her mop with dext'rous airs,
+    Prepared to scrub the entry and the stairs.
+    The youth with broomy stumps began to trace
+    The kennel's edge, where wheels had worn the place.[2]
+    The small-coal man was heard with cadence deep,
+    Till drown'd in shriller notes of chimney-sweep:
+    Duns at his lordship's gate began to meet;
+    And brickdust Moll had scream'd through half the street.
+    The turnkey now his flock returning sees,
+    Duly let out a-nights to steal for fees:[3]
+    The watchful bailiffs take their silent stands,
+    And schoolboys lag with satchels in their hands.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[89]"
+    "line_start": 4708
+  "translation_ja": |-
+    いまは、まだ、そこここに辻馬車が、
+    ようやく現れ、赤い朝の近づくのを告げる。
+    いま、ベティは、主人の寝床を抜け出し、
+    そっと忍び寄り、自分の寝床を乱しておく。
+    かかとを踏んだ靴の徒弟は、主人の戸口で、
+    泥を削ぎ取り、床の辺りに、水をまいたところだ。
+    いま、モールは、器用な身振りでモップを回し、
+    入口と階段を、磨く支度を整えた。
+    若者は、すり減った箒の切れ端で、なぞり始める、
+    車輪が削った、側溝の縁を。[2]
+    小粒の炭売りの、低く節のついた声が響く、
+    煙突掃除の、甲高い呼び声に、かき消されるまで。
+    貴族の屋敷の門に、借金取りが集まり始め、
+    煉瓦粉売りのモールは、通りの半分まで叫んで回った。
+    牢番は、いま、自分の群れが戻るのを見る、
+    毎晩、納付金を盗みで稼ぐため、きちんと放ってやった連中だ。[3]
+    目を光らす執行吏が、黙って持ち場につき、
+    学校通いの少年たちは、鞄を手に、のろのろ歩く。
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "author"
+    "contributor_id": "swift"
+    "evidence_ja": "1910年ブラウニング編Swift詩集の帰属表示と、1711年J.G.署名The Present State of WitにあるSwiftのTown Shower/Description\
+      \ of the Morning供稿の名指し証言を照合。後者は帰属確認のみ。"
+- "id": "morning-note-1"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [Footnote 1: No. 9. See the excellent edition in six vols., with notes,
+    1786.—W. E. B.]
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[90]"
+    "line_start": 4727
+  "translation_ja": "[1] 第九号。注を付した、一七八六年の優れた全六巻版を参照。――W・E・B。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "browning"
+- "id": "morning-note-2"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[Footnote 2: To find old nails.—Faulkner.]"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[90]"
+    "line_start": 4727
+  "translation_ja": "[2] 古釘を見つけるため。――フォークナー。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "faulkner"
+- "id": "morning-note-3"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": |-
+    [Footnote 3: To meet the charges levied upon them by the keeper of the
+    prison.—W. E. B.]
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-14353"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/cache/epub/14353/pg14353-images.html"
+    "xpath": "/html/body/pre[90]"
+    "line_start": 4727
+  "translation_ja": "[3] 監獄の管理人が取り立てる費用を、払うためである。――W・E・B。"
+  "translation_status": "reviewed"
+  "attributions":
+  - "voice": "editor"
+    "contributor_id": "browning"
+"notes":
+- "id": "morning-fn-1"
+  "origin": "editor"
+  "label": "1"
+  "form": "footnote"
+  "body":
+  - "segment_id": "morning-note-1"
+  "contributor_id": "browning"
+- "id": "morning-fn-2"
+  "origin": "editor"
+  "label": "2"
+  "form": "footnote"
+  "body":
+  - "segment_id": "morning-note-2"
+  "contributor_id": "faulkner"
+- "id": "morning-fn-3"
+  "origin": "editor"
+  "label": "3"
+  "form": "footnote"
+  "body":
+  - "segment_id": "morning-note-3"
+  "contributor_id": "browning"
+"references":
+- "id": "morning-subtitle-ref-1"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "morning-subtitle"
+    "source_span":
+      "start": 56
+      "end": 59
+      "exact": "[1]"
+    "translation_span":
+      "start": 25
+      "end": 28
+      "exact": "[1]"
+  "to":
+    "type": "note"
+    "id": "morning-fn-1"
+  "status": "verified"
+  "label": "1"
+- "id": "morning-stanza-01-ref-2"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "morning-stanza-01"
+    "source_span":
+      "start": 458
+      "end": 461
+      "exact": "[2]"
+    "translation_span":
+      "start": 202
+      "end": 205
+      "exact": "[2]"
+  "to":
+    "type": "note"
+    "id": "morning-fn-2"
+  "status": "verified"
+  "label": "2"
+- "id": "morning-stanza-01-ref-3"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "morning-stanza-01"
+    "source_span":
+      "start": 741
+      "end": 744
+      "exact": "[3]"
+    "translation_span":
+      "start": 348
+      "end": 351
+      "exact": "[3]"
+  "to":
+    "type": "note"
+    "id": "morning-fn-3"
+  "status": "verified"
+  "label": "3"
+"groups":
+- "id": "morning-poem"
+  "kind": "poem"
+  "members":
+  - "segment_id": "morning-stanza-01"
+  "separator": |2+
+
+  "description_ja": "底本の詩行と、字下げで示された詩段落の境界を保持。"
+"assets": []
+"figures": []
+"aliases": []
+"terminology": []
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-21T01:11:53Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "cae30cd76124afb6454af7741327203893f0cbe5a5ba14fb93e1078373ab74f6"
+"provenance":
+  "source_schema_reference_commit": "8353c0a876b11cfc615c2b0e7b6c393ef0ce5109"
+  "source_file_sha256": "86bbbb302626463b53ffb38ca48eb7d0f2145120ef6d729feafdf2cbcd8b79dc"
+  "attribution_evidence":
+  - "url": "https://www.gutenberg.org/ebooks/14353"
+    "basis_ja": "Jonathan Swiftを著者とする1910年ブラウニング編詩集に本人作として収録。"
+  - "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_18/The_Present_State_of_Wit"
+    "basis_ja": "1711年、J.G.署名（John Gay）の同時代文が、SteeleはTatler最終巻でSwiftによるTown ShowerとDescription of the Morningの供稿に謝意を示したと明記する。"
+    "scope_ja": "帰属の確認にのみ参照し、当該文の本文を翻訳対象へ混ぜない。"
+  "full_review_history":
+  - "status": "complete"
+    "completed_at": "2026-10-21T01:11:15Z"
+    "reviewed_ids":
+    - "morning-heading"
+    - "morning-subtitle"
+    - "morning-stanza-01"
+    - "morning-note-1"
+    - "morning-note-2"
+    - "morning-note-3"
+    "review_method_ja": "各作の全初稿保存後、原題・年記・全詩行・全底本注を原文と日本語で一回全文対照。意味・数量・否定・話者・引用・順序・注番号を確認し、訂正箇所と依存参照のみ再確認。追加の日本語単独通読・文体磨きや全面異版校合は行わない。"
+    "corrections": []
+    "content_sha256": "cae30cd76124afb6454af7741327203893f0cbe5a5ba14fb93e1078373ab74f6"
+  "draft_completed_at": "2026-10-21T01:09:42Z"
+  "reference_check_ja": "訳文訂正後に原注番号の日本語文字範囲を現在の訳から再計算し、原文範囲・対応注・日本語exactを全件確認。"
+  "preflight_summary":
+    "work_id": "swift-a-description-of-the-morning"
+    "units": 6
+    "verse_lines": 18
+    "verse_paragraphs": 1
+    "notes": 3
+    "source_note_refs": 3
+    "unique_rendered_ids": 21
+    "local_links": 8
+    "exact_source_scope_order": true
+    "exact_ja_text_and_order": true
+    "all_link_targets_exist": true
+    "html_file_written": false
