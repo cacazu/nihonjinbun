@@ -1,6 +1,6 @@
 "schema_version": "2.0"
 "title": "原文・日本語対訳データ集"
-"updated": "2026-10-11"
+"updated": "2026-10-21"
 "format": "UTF-8 YAML"
 "description": "原文と日本語訳を固定IDで対応付けた翻訳データ。章・出典頁・注記・未解決事項を保持。HTMLは別の閲覧用表現。"
 "editorial_status": "AIによる翻訳・照合を含む。専門家による校訂版ではない。原文判読や歴史的編者の省略等に由来する留保は各ファイルに明示。"
@@ -309,5 +309,9 @@
   "file": "translations/swift/the-ladys-dressing-room-en-ja.yaml"
   "title": "淑女の化粧室"
   "sha256": "1d79dad9499088c17b0c4098912f797c245144ee6ae3976e289da427683ef4da"
+- "work_id": "swift-drapiers-letters"
+  "file": "translations/swift/drapiers-letters-en-ja.yaml"
+  "title": "ドレイピア書簡集"
+  "sha256": "e1e795527c168af222f3fc934d4f0277105b6b7a1be92dd34b2c8e1feac89e65"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿は翻訳YAML 2.0。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"
