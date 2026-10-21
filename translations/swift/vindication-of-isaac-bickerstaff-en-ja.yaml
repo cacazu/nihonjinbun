@@ -1,0 +1,481 @@
+schema_version: '2.0'
+work_id: swift-vindication-of-isaac-bickerstaff
+metadata:
+  title_ja: アイザック・ビッカースタッフ氏の弁護
+  title_original: A Vindication of Isaac Bickerstaff, Esq.
+  original_languages:
+  - en
+  - la
+  target_language: ja
+  contributors:
+  - id: swift
+    name_ja: ジョナサン・スウィフト
+    name_original: Jonathan Swift
+    roles:
+    - author
+  - id: translator
+    name_ja: 心霊研究家ポロミン
+    name_original: null
+    roles:
+    - translator
+    url: https://x.com/cacazu_right
+  - id: sheridan
+    name_ja: トマス・シェリダン
+    name_original: Thomas Sheridan
+    roles:
+    - editor
+  - id: nichols
+    name_ja: ジョン・ニコルズ
+    name_original: John Nichols
+    roles:
+    - editor
+  translation_rights:
+    status: unknown
+    attribution: 心霊研究家ポロミン
+    note_ja: 新訳の利用条件は未指定。原著と電子翻刻の条件を自動的に継承しない。
+  genres:
+  - 文学
+  - 風刺
+  reader_notes_ja:
+  - 一八〇一年版全集第五巻の本文を底本とし、標題・副題・筆名署名・年記、全十一段落と底本注二件を収録する。
+  - 他の電子版では省かれた、妻の証言を用いる第二の論拠も収録した。原著のからかいと、学者らしい大げさな弁明の口調を保つ。
+sources:
+- id: wikisource-1801-v05-vindication
+  role: primary
+  title: 'The Works of the Rev. Jonathan Swift, Volume 5: A Vindication of Isaac Bickerstaff, Esq.'
+  languages:
+  - en
+  - la
+  url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418
+  edition: トマス・シェリダン編、ジョン・ニコルズ改訂、一八〇一年版全集第五巻。English Wikisource固定版10241418。
+  contributor_ids:
+  - swift
+  - sheridan
+  - nichols
+  sha256: 4c2870b5880fd382d6e8d2f8b4d065f9279abe2f8b67492d8626aa4213e4b365
+  work_rights:
+    status: public_domain
+    evidence_url: https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.
+    note_ja: 1745年没の著者による原著と1801年刊全集の本文。現代の電子翻刻・編集追加の条件とは区別する。
+  transcription_rights:
+    status: licensed
+    license_id: CC-BY-SA-4.0
+    license_url: https://creativecommons.org/licenses/by-sa/4.0/
+    attribution: English Wikisource contributors
+    evidence_url: https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.
+    note_ja: 同ページフッターのCC BY-SA 4.0表示。公有の原著要素と翻刻・編集追加を区別し、日本語訳へ自動適用しない。
+  description_ja: 2026年10月21日取得のHTML。版の固定URL、HTMLのSHA256、要素ID・XPath・行位置で各原文単位に対応。CSS・ページ境界・注の戻り矢印だけを除き、組版用空白を単一空白へ整理。標題は四段落、副題は二段落を改行で結合し、他の本文段落と注の境界を保持する。
+scope:
+  included:
+  - source_id: wikisource-1801-v05-vindication
+    description_ja: 原題・副題・筆名署名・年記と全十一本文段落、底本注二件。第二の論拠を含む全五論拠を省略しない。
+    section_ids:
+    - vindication
+    - source-notes
+  excluded:
+  - source_id: wikisource-1801-v05-vindication
+    description_ja: 巻の他作品、巻全体の前付・目次・索引、サイトのナビゲーション・CSS・電子版利用案内。対象篇の本文と底本注は省略しない。
+  known_gaps: []
+sections:
+- id: vindication
+  parent_id: null
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - bicker-vindication-000
+- id: source-notes
+  parent_id: null
+  kind: editorial_group
+  origin: editorial
+  heading_segment_ids: []
+  label_ja: 底本注
+segments:
+- id: bicker-vindication-000
+  section_id: vindication
+  kind: heading
+  origin: source
+  source_text: 'A
+
+    VINDICATION
+
+    OF
+
+    ISAAC BICKERSTAFF Esq.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwCw
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/div/p[1]
+    line_start: 515
+    source_sequence: 0
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwDQ
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/div/p[2]
+    line_start: 517
+    source_sequence: 0
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwEA
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/div/p[3]
+    line_start: 519
+    source_sequence: 0
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwEg
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/div/p[4]
+    line_start: 521
+    source_sequence: 0
+  translation_ja: アイザック・ビッカースタッフ氏の弁護
+  translation_status: reviewed
+- id: bicker-vindication-001
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: 'AGAINST
+
+    WHAT IS OBJECTED TO HIM BY MR. PARTRIDGE IS HIS ALMANACK FOR THE PRESENT YEAR 1709.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwFQ
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/div/p[5]
+    line_start: 523
+    source_sequence: 1
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwFg
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/div/p[6]
+    line_start: 525
+    source_sequence: 1
+  translation_ja: 本年一七〇九年の暦で、パートリッジ氏が同氏に加えた反論に答える。
+  translation_status: reviewed
+- id: bicker-vindication-002
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: By the said ISAAC BICKERSTAFF Esq.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwGQ
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/div/p[7]
+    line_start: 527
+    source_sequence: 2
+  translation_ja: 前記アイザック・ビッカースタッフ氏著。
+  translation_status: reviewed
+- id: bicker-vindication-003
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: WRITTEN IN THE YEAR 1709.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwHQ
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/div/p[8]
+    line_start: 529
+    source_sequence: 3
+  translation_ja: 一七〇九年記す。
+  translation_status: reviewed
+- id: bicker-vindication-004
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: 'MR. PARTRIDGE has been lately pleased to treat me after a very rough manner, in that which is called his Almanack for the present year: such usage is very indecent from one gentleman to another, and does not at all contribute to the discovery of truth, which ought to be the great end in all disputes of the learned. To call a man a fool and villain, an impudent fellow, only for differing from him in a point merely speculative, is, in my humble opinion, a very improper style for a person of his education. I appeal to the learned world, whether, in my last year''s predictions, I gave him the least provocation for such unworthy treatment. Philosophers have differed in all ages; but the discreetest among them have always differed as became philosophers. Scurrility and passion, in a controversy among scholars, is just so much of nothing to the purpose, and at best a tacit confession of a weak cause: my concern is not so much for my own reputation, as that of the republick of letters,
+    which Mr. Partridge has endeavoured to wound through my sides. If men of publick spirit must be superciliously treated for their ingenious attempts, how will true useful knowledge be ever advanced? I wish Mr. Partridge knew thet houghts, which foreign universities have conceived of his ungenerous proceedings with me; but I am too tender of his reputation to publish them to the world. That spirit of envy and pride, which blasts so many rising geniuses in our nation, is yet unknown among professors abroad: the necessity of justifying myself will excuse my vanity, when I tell the reader, that I have near a hundred honorary letters from several parts of Europe (some as far as Muscovy) in praise of my performance. Beside several others, which, as I have been credibly informed, were opened in the postoffice, and never sent me. It is true, the inquisition in Portugal was pleased to burn my predictions[1], and condemn the author and the readers of them: but I hope at the same time, it will be
+    considered, in how deplorable a state learning lies at present in that kingdom: and with the profoundest veneration for crowned heads, I will presume to add, that it a little concerned his majesty of Portugal to interpose his authority in behalf of a scholar and a gentleman, the subject of a nation, with which he is now in so strict an alliance. But the other kingdoms and states of Europe have treated me with more candour and generosity. If I had leave to print the Latin letters transmitted to me from foreign parts, they would fill a volume, and be a full defence against all that Mr. Partridge, or his accomplices of the Portugal inquisition, will be ever able to object; who, by the way, are the only enemies my predictions have ever met with at home or abroad. But I hope I know better what is due to the honour of a learned correspondence, in so tender a point. Yet some of those illustrious persons will perhaps excuse me, for transcribing a passage or two in my vindication[2]. The most
+    learned monsieur Leibnitz thus addresses to me his third letter: illustrissimo Bickerstaffio astrologiæ instauratori, &c. Monsieur le Clerc, quoting my Predictions in a treatise he published last year, is pleased to say, ita nuperrimè Bickerstaffius magnum illud Angliæ sidus. Another great professor writing of me, has these words: Bickerstaffius, nobilis Anglus, astrologorum hujusce sæculi facile princeps. Signior Magliabecchi, the great duke''s famous library keeper, spends almost his whole letter in compliments and praises. It is true, the renowned professor of astronomy at Utrecht seemed to differ from me in one article; but it is after the modest manner that becomes a philosopher; as, pace tanti viri dixerim: and page 55, he seems to lay the errour upon the printer, (as indeed it ought) and says, vel forsan error typographi, cum alioquin Bickerstaffius vir doctissimus, &c.'
+  source_languages:
+  - en
+  - la
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwKA
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/p[3]
+    line_start: 534
+    source_sequence: 4
+  translation_ja: パートリッジ氏は最近、本年の暦と称するものの中で、私をたいそう手荒に扱ってくださった。紳士が別の紳士にこんな仕打ちをするのは、はなはだ見苦しい。学者のあらゆる論争が大きな目標とすべき、真理の発見にも少しも役立たない。純粋に思弁上の一点で意見が違うというだけで、人を馬鹿だの悪党だの厚かましい奴だのと呼ぶのは、僭越ながら、あれほどの教育を受けた人物にはまことにふさわしくない言葉遣いである。私は学界に問いたい。昨年の予言の中で、このような卑劣な扱いを受けるだけの挑発を、私が少しでもしただろうか。哲学者は、いつの時代にも意見を異にしてきた。だが、そのうち最も分別のある人々は、いつも哲学者にふさわしい仕方で意見を異にした。学者同士の論争で悪口を吐いたり激高したりするのは、それだけ議論を空費することであり、よく見ても、自分の言い分が弱いと暗に認めることでしかない。私が心を痛めるのは、自分の評判よりも、文芸共和国の評判である。パートリッジ氏は私の脇腹を突くことで、その共和国に傷を負わせようとしたのだ。公共のためを思う人々が、創意ある試みをしたために尊大な扱いを受けるなら、本当に役立つ知識は、どうして進歩できよう。私に対するあの狭量な振る舞いを、外国の大学がどう考えているか、氏にも知っていただきたい。とはいえ、私は氏の評判を気遣うあまり、それを世間に公表することができない。わが国の多くの新進の才人を打ちしおれさせる、あの嫉妬と高慢の精神は、外国の教授たちにはまだ知られていない。弁明に迫られてのことだから、次の自慢も読者にはお許しいただきたい。私の仕事をたたえる称賛の手紙が、ヨーロッパ各地から百通近く届いている。中には、遠くモスクワの国から来たものさえある。そのほかにも何通かあったのだが、確かな筋の話によれば、郵便局で開封され、私には届けられなかったという。確かに、ポルトガルの異端審問所は、わざわざ私の予言書を焼き[1]、著者と読者を断罪してくださった。だが、それと同時に、あの王国の学問が、今どれほど嘆かわしい状態にあるかも、お考えいただきたい。また、王冠を戴く方々にこの上ない敬意を払いながら、あえて付け加えるなら、ポルトガル国王陛下には、ご自身が今、固い同盟を結んでいる国の臣民であり、学者であり紳士でもある者のために、権威をもってお取り計らいになる責任が、多少はおありだったはずである。しかし、ヨーロッパのほかの王国や国家は、もっと公正に、もっと寛大に私を扱ってくれた。外国から送られてきたラテン語の手紙を印刷する許しがあれば、それだけで一巻を満たし、パートリッジ氏や、その共犯者たるポルトガルの異端審問官たちの、いかなる反論に対しても十分な弁護となろう。ついでに申せば、国内でも国外でも、私の予言が出会った敵は、この人々だけである。しかし、このような微妙な問題で、学問上の書簡の名誉に対して何を尽くすべきか、私はもっと心得ているつもりだ。とはいえ、あの高名な方々の中には、私の弁護のために一、二節を書き写すくらいは、許してくださる方もあるだろう[2]。博学きわまりないライプニッツ氏は、三通目の手紙を、こう呼びかけて始めている。「占星術の再興者、いとも高名なるビッカースタッフ殿へ」云々。ル・クレール氏は、昨年刊行した論文で私の予言を引用し、ありがたくもこう述べている。「つい最近、かの英国の大いなる星、ビッカースタッフは、このように語った。」別の偉大な教授は、私についてこう書いている。「ビッカースタッフは高貴なイングランド人であり、当世の占星術師の中では、疑いなく第一人者である。」大公の高名な図書館長、マリアベッキ氏は、手紙のほとんど全部を賛辞と称賛に費やしている。確かに、ユトレヒトの名高い天文学教授は、一点だけ私と意見が違うようだった。だが、その言い方は、「かくも偉大な方のお許しを得て申し上げるが」というように、哲学者らしく控えめである。そして五十五ページでは、どうやら誤りを印刷工のせいにしている。実際、そのとおりにすべきなのだが、こう書いているのである。「あるいは印刷工の誤植かもしれない。なにしろ、ほかの点ではビッカースタッフはきわめて博学な人物なのだから」云々。
+  translation_status: reviewed
+- id: bicker-vindication-005
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: 'If Mr. Partridge had followed these examples in the controversy between us, he might have spared me the trouble of justifying myself in so publick a manner. I believe no man is readier to own his errours than I, or more thankful to those who will please to inform him of them. But it seems, this gentleman, instead of encouraging the progress of his own art, is pleased to look upon all attempts of that kind, as an invasion of his province. He has been indeed so wise as to make no objection against the truth of my predictions, except in one single point relating to himself: and to demonstrate how much men are blinded by their own partiality, I do solemnly assure the reader, that he is the only person, from whom I ever heard that objection offered; which consideration alone, I think, will take off all its weight.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwTQ
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/p[4]
+    line_start: 538
+    source_sequence: 5
+  translation_ja: パートリッジ氏も、私との論争でこうした例に倣っていれば、これほど公に弁明する手間を、私にかけさせずに済んだだろう。私ほど進んで自分の誤りを認め、その誤りを教えてくれる方に深く感謝する者は、ほかにいないと思う。だが、この紳士は、自分の術の進歩を奨励するどころか、その種のあらゆる試みを、自分の縄張りへの侵入と見なしておいでらしい。実際、自分自身に関するただ一点を除けば、私の予言の真実性に異議を唱えなかったのは、賢明であった。人が自分をひいきするあまり、どれほど目を曇らされるか、その証拠に、読者に厳粛に申し上げておく。あの異議を唱えたと私が聞いた人物は、ただ氏一人なのだ。この一点を考えるだけで、その反論の重みはすべて失われると思う。
+  translation_status: reviewed
+- id: bicker-vindication-006
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: 'With my utmost endeavours I have not been able to trace above two objections ever made against the truth of my last year''s prophecies: the first was, of a Frenchman, who was pleased to publish to the world, "that the cardinal de Noailles was still alive, notwithstanding the pretended prophecy of monsieur Biquerstaffe:" but how far a Frenchman, a papist, and an enemy, is to be believed in his own cause, against an English protestant, who is true to the government, I shall leave to the candid and impartial reader.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwTw
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/p[5]
+    line_start: 540
+    source_sequence: 6
+  translation_ja: 力を尽くして調べても、昨年の私の予言の真実性に対して唱えられた異議は、二つしか見つからなかった。一つ目は、あるフランス人のもので、わざわざ世間に向けて、「ビケルスタフ氏の、いわゆる予言にもかかわらず、ノアイユ枢機卿はまだ生きている」と発表なさった。しかし、政府に忠実なイングランドのプロテスタントに対して、フランス人であり、ローマ教皇派であり、敵でもある人物が、自分に関わる件でどこまで信じられるか。それは、公正で偏りのない読者の判断にお任せしよう。
+  translation_status: reviewed
+- id: bicker-vindication-007
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: The other objection, is the unhappy occasion of this discourse, and relates to an article in my Predictions, which foretold the death of Mr. Partridge to happen on March 29, 1708. This he is pleased to contradict absolutely in the almanack he has published for the present year and in that ungentlemanly manner (pardon the expression) as I have above related. In that work he very roundly asserts, that he "is not only now alive, but was likewise alive upon that very 29th of March, when I had foretold he should die." This is the subject of the present controversy between us; which I design to handle with all brevity, perspicuity, and calmness. In this dispute, I am sensible the eyes not only of England, but of all Europe, will be upon us; and the learned in every country, will, I doubt not, take part on that siden, where they find most appearance of reason and truth.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwUw
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/p[6]
+    line_start: 542
+    source_sequence: 7
+  translation_ja: もう一つの異議が、不幸にもこの文章を書くきっかけとなった。それは、私の予言の中で、パートリッジ氏の死が一七〇八年三月二十九日に起こると告げた一項に関わる。氏は本年刊行した暦で、これを真っ向から否定し、しかも、先に述べたような紳士らしからぬ仕方でそうしている。失礼な言い方はお許しいただきたい。その著作で氏は、臆面もなく、「今生きているばかりか、私が死ぬと予言した、まさにその三月二十九日にも生きていた」と断言する。これが、現在の私たちの論争の争点である。私はできる限り簡潔に、明快に、そして冷静にこの問題を扱うつもりだ。この論争には、イングランドだけでなく、ヨーロッパ全体の目が注がれるものと心得ている。どの国の学者も、より理性と真実にかなって見える側に味方してくれるだろう。私はそう信じて疑わない。
+  translation_status: reviewed
+- id: bicker-vindication-008
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: 'Without entering into criticisms of chronology about the hour of his death, I shall only prove that Mr. Partridge is not alive. And my first argument is this: about a thousand gentlemen having bought his almanacks for this year, merely to find what he said against me, at every line they read, they would lift up their eyes, and cry out, betwixt rage and laughter, "they were sure no man alive ever writ such damned stuff as this." Neither did I ever hear that opinion disputed; so that Mr. Partridge lies under a dilemma, either of disowning his almanack, or allowing himself to be no man alive. Secondly, Death is defined by all philosophers, a separation of the soul and body. Now it is certain, that the poor woman, who has best reason to know, has gone about for some time to every alley in the neighbourhood; and sworn to the gossips, that her husband had neither life nor soul in him. Therefore, if an uninformed carcase walks still about, and is pleased to call itself Partridge,
+    Mr. Bickerstaff does not think himself any way answerable for that. Neither had the said carcase any right to beat the poor boy, who happened to pass by it in the street, crying, "a full and true account of Dr. Partridge''s death," &c.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwVw
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/p[7]
+    line_start: 544
+    source_sequence: 8
+  translation_ja: 氏の死の時刻をめぐる細かい考証には立ち入らず、ここでは、パートリッジ氏は生きていないということだけを証明しよう。第一の論拠はこうだ。千人ほどの紳士が、氏が私の悪口を何と書いているかを確かめるためだけに、今年の暦を買った。そして一行読むたび、目を上げ、怒りながらも笑って、こう叫んだのである。「こんなひどい代物を書いた生きた人間など、いるはずがない。」この意見に異を唱える者がいたとは、私も聞いたことがない。従ってパートリッジ氏は、あの暦は自分の作ではないと否認するか、自分は「生きた人間ではない」と認めるか、二つに一つを選ばねばならない。第二に、あらゆる哲学者は、死を魂と肉体の分離と定義している。さて、誰よりもよく知っているはずの、あの気の毒な奥さんは、このところ近所の路地という路地を回り、うちの夫には命も魂もない、と女友達に言い張っていた。これは確かなことだ。従って、魂の宿らない躯が今なお歩き回り、パートリッジと名乗りたがっているとしても、そのことについてビッカースタッフ氏がいかなる責任を負うとも思わない。また、その躯には、たまたま通りを通りかかり、「パートリッジ博士の死について、詳しく真実を伝える報告」云々と呼び売りしていた気の毒な少年を殴る権利もなかったのである。
+  translation_status: reviewed
+- id: bicker-vindication-009
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: 'Thirdly, Mr. Partridge pretends to tell fortunes, and recover stolen goods; which all the parish says, he must do by conversing with the devil, and other evil spirits: and no wise man will ever allow, he could converse personally with either, till after he was dead.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwXA
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/p[8]
+    line_start: 546
+    source_sequence: 9
+  translation_ja: 第三に、パートリッジ氏は、運勢を占い、盗品を取り戻せると称している。教区の誰もが、それは悪魔や、ほかの悪霊と語り合って行っているに違いないと言う。だが、氏が死ぬ前からそうした相手と直接語り合えたなどと、分別のある者なら決して認めないだろう。
+  translation_status: reviewed
+- id: bicker-vindication-010
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: Fourthly, I will plainly prove him to be dead, out of his own almanack for this year, and from the very passage, which he produces to make us think him alive. He there says, "he is not only now alive, but was also alive upon that very 29th of March, which I foretold he should die on:" by this, he declares his opinion, that a man may be alive now, who was not alive a twelvemonth ago. And indeed, there lies the sophistry of his argument. He dares not assert he was alive ever since that 29th of March, but that he "is now alive, and was so on that day:" I grant the latter; for he did not die till night, as appears by the printed account of his death, in a Letter to a Lord; and whether he be since revived, I leave the world to judge. This indeed is perfect cavilling, and I am ashamed to dwell any longer upon it.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwXg
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/p[9]
+    line_start: 548
+    source_sequence: 10
+  translation_ja: 第四に、氏自身の今年の暦から、しかも、氏が自分は生きていると私たちに思わせようとして持ち出した、その同じ一節から、氏は死んでいるとはっきり証明してみせよう。そこには、「今生きているばかりか、私が死ぬと予言した、まさにその三月二十九日にも生きていた」とある。これによって氏は、一年前には生きていなかった人間も、今は生きていることがありうるという、自分の考えを表明しているのだ。実際、氏の議論の詭弁はそこにある。あの三月二十九日以来、ずっと生きていたと断言する勇気はなく、ただ「今は生きており、あの日もそうだった」と言っているだけなのだ。後のほうは私も認める。氏が死んだのは夜になってからだからである。それは、ある貴族への手紙として印刷された、氏の死の報告からも明らかだ。その後、氏が生き返ったかどうかは、世間の判断に任せよう。こんなものはまったくの屁理屈であり、これ以上かかずらっているのも恥ずかしい。
+  translation_status: reviewed
+- id: bicker-vindication-011
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: Fifthly, I will appeal to Mr. Partridge himself, whether it be probable I could have been so indiscreet, to begin my predictions with the only falsehood, that ever was pretended to be in them; and this in an affair at home, where I had so many opportunities to be exact; and must have given such advantages against me to a person of Mr. Partridge's wit and learning, who, if he could possibly have raised one single objection more against the truth of my prophecies, would hardly have spared me.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwYA
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/p[10]
+    line_start: 550
+    source_sequence: 11
+  translation_ja: 第五に、パートリッジ氏ご自身に伺いたい。私の予言の中で虚偽だと言われた、たった一つの事柄を冒頭に置くほど、私が軽率であったと考えられるだろうか。しかもそれは、正確を期す機会がいくらでもある国内の出来事であり、パートリッジ氏ほどの才知と学識のある人物に、私を攻撃するうえでたいへん有利な材料を与えずにはおかない。私の予言の真実性に対して、もう一つでも反論を思いつけたものなら、あの方が私を見逃してくださったはずもないのに。
+  translation_status: reviewed
+- id: bicker-vindication-012
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: And here I must take occasion to reprove the abovementioned writer of the relation of Mr, Partridge's death, in a Letter to a Lord; who was pleased to tax me with a mistake of four whole hours in my calculation of that event. I must confess, this censure pronounced with an air of certainty, in a matter that so nearly concerned me, and by a grave judicious author, moved me not a little. But though I was at that time out of town, yet several of my friends, whose curiosity had led them to be exactly informed, (for as to my own part, having no doubt at all in the matter, I never once thought of it) assured me, I computed to something under half an hour; which (I speak my private opinion) is an errour of no very great magnitude, that men should raise a clamour about it. I shall only say, it would not be amiss, if that author would henceforth be more tender of other men's reputation, as well as his own. It is well there were no more mistakes of that kind; if there had, I presume
+    he would have told me of them with as little ceremony.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwZA
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/p[11]
+    line_start: 552
+    source_sequence: 12
+  translation_ja: ここで、ある貴族への手紙の中でパートリッジ氏の死を報告した、先ほどの筆者をたしなめておかねばならない。この方は、あの出来事の時刻を、私が丸四時間も計算し違えたと責めてくださった。私にとってこれほど重大な事柄について、重々しく分別ある著者から、確信に満ちた調子で非難を下されたのだから、正直なところ、私も相当に心を動かされた。しかし、私はその時町を離れていたものの、好奇心から事実を正確に調べた友人たちが、私の計算のずれは半時間にも満たなかったと、請け合ってくれたのである。なお、私自身は、この件には何の疑いも持たなかったので、一度として調べようと思わなかった。半時間足らずの誤差など、それをめぐって人々が騒ぎ立てるほど大きなものではないと、これは個人的な意見ながら、私は思う。ただ、あの著者が今後、自分の評判と同じくらい、他人の評判も大切にしてくだされば、悪いことではあるまいとだけ申し上げておこう。あの種の間違いが、ほかになかったのは幸いだ。あったとしたら、この方は同じように遠慮なく、私に知らせてくださっただろうから。
+  translation_status: reviewed
+- id: bicker-vindication-013
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: 'There is one objection against Mr. Partridge''s death, which I have sometimes met with, though indeed very slightly offered, that he still continues to write almanacks. But this is no more than what is common to all of that profession: Gadbury, Poor Robin, Dove, Wing, and several others, do yearly publish their almanacks, though several of them have been dead since before the Revolution. Now the natural reason of this I take to be, that whereas it is the privilege of authors to live after their death, almanackmakers are alone excluded; because their dissertations, treating only upon the minutes as they pass, become useless as those go oft. In consideration of which, time, whose registers they are, gives them a lease in reversion, to continue their works after death.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwZg
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/p[12]
+    line_start: 554
+    source_sequence: 13
+  translation_ja: パートリッジ氏の死については、もう一つ、時折耳にする異議がある。もっとも、実に軽く持ち出されるだけだが、氏が今なお暦を書き続けている、というのだ。しかし、それは同業者には誰にでもあることにすぎない。ガドベリー、プア・ロビン、ダヴ、ウィング、その他何人もが、毎年暦を刊行している。そのうちの何人かは、革命より前から死んでいるというのに。これには、次のような自然な理由があると思う。作家には死後も生き続ける特権があるが、暦作りだけは、その仲間に入れてもらえない。その論説は、刻々と過ぎる時だけを扱うので、その時が過ぎれば役に立たなくなるからである。そこで、記録係として彼らを雇っている「時」は、その事情を考慮し、死後も著作を続けられるよう、死後に効力を生じる借用権を与えてくれるのだ。
+  translation_status: reviewed
+- id: bicker-vindication-014
+  section_id: vindication
+  kind: paragraph
+  origin: source
+  source_text: 'I should not have given the publick, or myself, the trouble of this vindication, if my name had not been made use of by several persons, to whom I never lent it; one of which, a few days ago, was pleased to father on me a new set of predictions. But I think these are things too serious to be trifled with. It grieved me to the heart, when I saw my labours, which had cost me so much thought and watching, bawled about by the common hawkers of Grub street, which I only intended for the weighty consideration of the gravest persons. This prejudiced the world so much at first, that several of my friends had the assurance to ask me whether I were in jest? to which I only answered coldly, "that the event would show." But it is the talent of our age and nation, to turn things of the greatest importance into ridicule. When the end of the year had verified all my predictions, out comes Mr. Partridge''s almanack, disputing the point of his death; so that I am employed, like the general
+    who was forced to kill his enemies twice over, whom a necromancer had raised to life. If Mr. Partridge have practised the same experiment upon himself, and be again alive, long may he continue so; that does not in the least contradict my veracity: but I think I have clearly proved, by invincible demonstration, that he died, at farthest, within half an hour of the time I foretold, and not four hours sooner, as the abovementioned author, in his Letter to a Lord, has maliciously suggested, with design to blast my credit, by charging me with so gross a mistake.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#mwbg
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[3]/p[13]
+    line_start: 556
+    source_sequence: 14
+  translation_ja: そもそも、私が名を貸した覚えもない人々が、勝手に私の名を使わなかったら、この弁護のために世間にも自分にも手間をかけることはなかったはずだ。そうした者の一人は、つい先日も、新しい一組の予言を私の作ということにしてくださった。しかし、このような事柄は、ふざけて扱うには深刻すぎると思う。私があれほど思案を重ね、夜も眠らずに仕上げ、きわめて真面目な方々に重々しく検討していただくことだけを意図した仕事を、グラブ街のありふれた呼び売り人たちが、大声で売り歩くのを見たときは、心の底から悲しかった。おかげで世間は初めからひどい偏見を抱き、友人の何人かに至っては、冗談でやっているのか、と大胆にも尋ねてきた。私はただ、冷ややかに、「結果を見ればわかる」と答えた。だが、この上なく重大な事柄を笑い種に変えるのが、わが時代、わが国民の得意とするところなのだ。年の終わりが私の予言をすべて実証したと思うと、今度はパートリッジ氏の暦が出て、自分が死んだという点に異議を唱える。おかげで私は、魔術師が敵を生き返らせたために、同じ敵を二度殺さねばならなかった将軍のように、働かされている。パートリッジ氏が自分自身に同じ術を試し、再び生きておいでなら、どうぞ末永く生き続けていただきたい。それは、私が真実を述べたことと、少しも矛盾しない。しかし、動かしがたい論証によって、私は明確に証明できたと考えている。氏が死んだのは、遅くとも私の予告した時刻から半時間以内であり、先ほどの著者が、ある貴族への手紙で、あのような大きな間違いを私に着せて信用を傷つけようと、悪意をもってほのめかしたように、四時間も前のことではなかったのである。
+  translation_status: reviewed
+- id: bicker-vindication-015
+  section_id: source-notes
+  kind: paragraph
+  origin: source
+  source_text: This is fact, as the author was assured by sir Paul Methuen, then ambassador to that crown.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#cite_note-1
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[4]/div/ol/li[1]
+    line_start: 561
+    source_sequence: 15
+  translation_ja: これは事実である。当時あの王国に駐在していた大使、ポール・メシュエン卿が、著者にそう請け合った。
+  translation_status: reviewed
+  source_kind: footnote
+- id: bicker-vindication-016
+  section_id: source-notes
+  kind: paragraph
+  origin: source
+  source_text: The quotations here inserted are in imitation of Dr. Bentley, in some part of the famous controversy between him and Mr. Boyle.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: wikisource-1801-v05-vindication
+    precision: block
+    url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/A_Vindication_of_Isaac_Bickerstaff,_Esq.&oldid=10241418#cite_note-2
+    xpath: /html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section/div[4]/div/ol/li[2]
+    line_start: 562
+    source_sequence: 16
+  translation_ja: ここに挿入された引用は、ベントリー博士とボイル氏との、あの有名な論争の中で、博士が行ったことをまねたものである。
+  translation_status: reviewed
+  source_kind: footnote
+notes:
+- id: bicker-vindication-note-1
+  origin: unknown
+  label: '1'
+  form: footnote
+  body:
+  - segment_id: bicker-vindication-015
+  description_ja: 1801年版の底本注。署名がなく、著者注とは断定しない。
+- id: bicker-vindication-note-2
+  origin: unknown
+  label: '2'
+  form: footnote
+  body:
+  - segment_id: bicker-vindication-016
+  description_ja: 1801年版の底本注。署名がなく、著者注とは断定しない。
+references:
+- id: bicker-vindication-callout-1
+  kind: note
+  origin: source
+  status: verified
+  from:
+    segment_id: bicker-vindication-004
+    source_span:
+      start: 1899
+      end: 1902
+      exact: '[1]'
+    translation_span:
+      start: 812
+      end: 815
+      exact: '[1]'
+  to:
+    type: note
+    id: bicker-vindication-note-1
+- id: bicker-vindication-callout-2
+  kind: note
+  origin: source
+  status: verified
+  from:
+    segment_id: bicker-vindication-004
+    source_span:
+      start: 2977
+      end: 2980
+      exact: '[2]'
+    translation_span:
+      start: 1282
+      end: 1285
+      exact: '[2]'
+  to:
+    type: note
+    id: bicker-vindication-note-2
+groups: []
+assets: []
+figures: []
+aliases: []
+terminology: []
+workflow:
+  stage: ready
+  full_review:
+    status: complete
+    completed_at: '2026-10-21T00:12:48Z'
+    reviewed_by: Codex（初稿完成後の全17単位原文対照）
+    content_sha256: df1e16081e7123bf90aad1d967fe27b418efef0455eceaa7859b4703ad524384
+provenance:
+  source_acquisition:
+    local_file: humanism/tmp/swift/vindication-1801.html
+    sha256: 4c2870b5880fd382d6e8d2f8b4d065f9279abe2f8b67492d8626aa4213e4b365
+    fixed_revision: 10241418
+  full_review:
+    method: 初稿をJSONへ全17単位保存した後、000〜008と009〜016の連続二範囲で全文原文・訳文を一回対照。008の時刻に関する表現を修正し、その変更文と前後を再確認。
+    unit_count: 17
+    body_paragraph_count: 11
+    source_note_count: 2
+    unresolved: []
+  edition_selection:
+    compared_url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0006
+    reason_ja: PG1090には魂と肉体の分離・妻の証言を使う第二の論拠がなく、後続論拠の番号も異なる。五論拠を持つ1801年版を一貫した底本として選んだ。

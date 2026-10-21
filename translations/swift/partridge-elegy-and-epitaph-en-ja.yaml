@@ -1,0 +1,966 @@
+schema_version: '2.0'
+work_id: swift-partridge-elegy-and-epitaph
+metadata:
+  title_ja: パートリッジへの哀歌と墓碑銘
+  title_original: An Elegy on the supposed Death of Partridge, the Almanack-Maker; An Epitaph on Partridge
+  original_languages:
+  - en
+  - la
+  target_language: ja
+  contributors:
+  - id: swift
+    name_ja: ジョナサン・スウィフト
+    name_original: Jonathan Swift
+    roles:
+    - author
+  - id: translator
+    name_ja: 心霊研究家ポロミン
+    name_original: null
+    roles:
+    - translator
+    url: https://x.com/cacazu_right
+  translation_rights:
+    status: unknown
+    attribution: 心霊研究家ポロミン
+    note_ja: 新訳の利用条件は未指定。原著と電子翻刻の条件を自動的に継承しない。
+  genres:
+  - 文学
+  - 詩
+  - 風刺
+  reader_notes_ja:
+  - ビッカースタッフの予言を受け、まだ生きている暦作りパートリッジを死者として扱う哀歌と墓碑銘。哀歌は九十四行・十二連、墓碑銘は十四行。
+  - 底本はProject Gutenberg eBook 1090の英語本文。二篇の本文と哀歌に付く底本注三件を全収録する。
+sources:
+- id: gutenberg-1090
+  role: primary
+  title: The Bickerstaff-Partridge Papers
+  languages:
+  - en
+  - la
+  url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm
+  edition: Project Gutenberg eBook 1090。1997年11月1日公開、2015年3月5日更新。印刷底本の版は未確認。
+  contributor_ids:
+  - swift
+  work_rights:
+    status: public_domain
+    evidence_url: https://www.gutenberg.org/ebooks/1090
+    note_ja: 原著者ジョナサン・スウィフトは1745年没。本篇は1708年の作品。Project Gutenbergは米国でパブリックドメインと表示。
+  transcription_rights:
+    status: licensed
+    license_id: LicenseRef-Project-Gutenberg
+    license_url: https://www.gutenberg.org/policy/license.html
+    attribution: Produced by An Anonymous Volunteer, and David Widger.
+  sha256: b92d8c5a9f940b890fdc128837aea0d0a28a8e43e336164d9b22ac65cf7a9a07
+  description_ja: 段落と読書順を保持。HTMLの組版用改行・連続空白のみ単一空白化。明示改行と原著の綴りは保持。照合による読みは異読記録へ区別する。
+- id: wikisource-1801-v07-partridge
+  role: comparison
+  title: 'The Works of the Rev. Jonathan Swift, Volume 7: Elegy on Partridge the Almanack Maker'
+  languages:
+  - en
+  url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Elegy_on_Partridge_the_Almanack_Maker&oldid=10241124
+  edition: 1801年版全集第七巻。原文二箇所の文意と著者表示の比較に使用。
+  work_rights:
+    status: public_domain
+    evidence_url: https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Elegy_on_Partridge_the_Almanack_Maker
+    note_ja: 1745年没の著者による原著と1801年刊全集の本文。
+  transcription_rights:
+    status: licensed
+    license_id: CC-BY-SA-4.0
+    license_url: https://creativecommons.org/licenses/by-sa/4.0/
+    attribution: English Wikisource contributors
+    note_ja: 同ページフッターのCC BY-SA 4.0表示。原著の公有要素と電子翻刻の追加要素を区別し、日本語訳へ自動適用しない。
+scope:
+  included:
+  - source_id: gutenberg-1090
+    description_ja: 第三篇の哀歌の標題と94行・12連、底本注3件、および第四篇の墓碑銘の標題と14行。
+    section_ids:
+    - elegy
+    - source-notes
+    - epitaph
+  excluded:
+  - source_id: gutenberg-1090
+    description_ja: 同じ電子本の他の散文・詩・返答、目次、巻全体の案内と電子版利用条件。二篇の本文は省略しない。
+  known_gaps: []
+sections:
+- id: elegy
+  parent_id: null
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - partridge-elegy-heading
+- id: source-notes
+  parent_id: null
+  kind: editorial_group
+  origin: editorial
+  label_ja: 哀歌の底本注
+  heading_segment_ids: []
+- id: epitaph
+  parent_id: null
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - partridge-epitaph-heading
+- id: translator-notes
+  parent_id: null
+  kind: editorial_group
+  origin: editorial
+  label_ja: 訳注
+  heading_segment_ids: []
+segments:
+- id: partridge-elegy-heading
+  section_id: elegy
+  kind: heading
+  origin: source
+  source_text: An Elegy on the supposed Death of Partridge, the Almanack-Maker.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/h2[5]
+    line_start: 611
+    source_sequence: 0
+  translation_ja: 暦作りパートリッジの、いわゆる死を悼む哀歌
+  translation_status: reviewed
+- id: partridge-elegy-stanza-1
+  section_id: elegy
+  kind: verse
+  origin: source
+  source_text: 'Well, ''tis as Bickerstaff has guess''d,
+
+    Tho'' we all took it for a jest;
+
+    Partridge is dead, nay more, he dy''d
+
+    E''re he could prove the good ''Squire ly''d.
+
+    Strange, an Astrologer shou''d die,
+
+    Without one Wonder in the Sky!
+
+    Not one of all his Crony Stars
+
+    To pay their Duty at his Herse?
+
+    No Meteor, no Eclipse appear''d?
+
+    No Comet with a flaming Beard?
+
+    The Sun has rose, and gone to Bed,
+
+    Just as if partridge were not dead:
+
+    Nor hid himself behind the Moon,
+
+    To make a dreadful Night at Noon.
+
+    He at fit Periods walks through Aries,
+
+    Howe''er our earthly Motion varies;
+
+    And twice a Year he''ll cut th'' Equator,
+
+    As if there had been no such Matter.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 1
+  translation_ja: 'さて、ビッカースタッフの見立てどおりだった、
+
+    私たちは皆、冗談だと思っていたが。
+
+    パートリッジは死んだ。それどころか、
+
+    あのご立派な氏を嘘つきと立証する前に死んだ。
+
+    不思議ではないか、占星術師が死んだのに、
+
+    空には不思議が一つもないとは。
+
+    仲良しの星々は、その一つとして、
+
+    霊柩に敬意を払いに来なかったのか。
+
+    流星も出ず、日食も月食も起こらず、
+
+    燃える髭をなびかせた彗星も出なかったのか。
+
+    太陽は昇り、そして寝床に入った、
+
+    まるでパートリッジが死ななかったかのように。
+
+    月の陰に身を隠して、
+
+    真昼を恐ろしい夜に変えることもなかった。
+
+    太陽はいつもの時期に、牡羊座を通ってゆく、
+
+    地上の私たちの動きが、どう変わろうとも。
+
+    そして年に二度、赤道を横切る、
+
+    そんな事件など、なかったかのように。'
+  translation_status: reviewed
+- id: partridge-elegy-stanza-2
+  section_id: elegy
+  kind: verse
+  origin: source
+  source_text: 'Some Wits have wonder''d what Analogy
+
+    There is ''twixt Cobbling* and Astrology:
+
+    How Partridge made his Optics rise,
+
+    From a Shoe-Sole, to reach the Skies.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 2
+  translation_ja: '物知りの中には、不思議がる者もいた、
+
+    靴直し[1]と占星術に、どんな似たところがあるのかと。
+
+    パートリッジは、どうしてその目を、
+
+    靴底から引き上げ、空にまで届かせたのかと。'
+  translation_status: reviewed
+- id: partridge-elegy-stanza-3
+  section_id: elegy
+  kind: verse
+  origin: source
+  source_text: 'A List of Coblers Temples Ties,
+
+    To keep the Hair out of their Eyes;
+
+    From whence ''tis plain the Diadem
+
+    That Princes wear, derives from them.
+
+    And therefore Crowns are now-a-days
+
+    Adorn''d with Golden Stars and Rays,
+
+    Which plainly shews the near Alliance
+
+    ''Twixt cobling and the Planets Science.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 3
+  translation_ja: '靴直しは、布の細帯でこめかみを縛る、
+
+    髪が目にかからないように。
+
+    だから、君主たちの戴く王冠も、
+
+    そこから生まれたことは明らかだ。
+
+    従って今の王冠には、
+
+    金の星と光が飾られている。
+
+    これもはっきり示している、靴直しと、
+
+    惑星の学問の、近しいつながりを。'
+  translation_status: reviewed
+  source_variants:
+  - kind: comparison
+    text: 'A list the cobbler''s temples ties,
+
+      To keep the hair out of their eyes;'
+    source_locations:
+    - source_id: wikisource-1801-v07-partridge
+      precision: work
+      url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Elegy_on_Partridge_the_Almanack_Maker&oldid=10241124
+    description_ja: 1801年版の該当行。底本の語句を保持し、日本語訳の文意を確認するために参照。
+- id: partridge-elegy-stanza-4
+  section_id: elegy
+  kind: verse
+  origin: source
+  source_text: 'Besides, that slow-pac''d Sign Bootes,
+
+    As ''tis miscall''d, we know not who ''tis?
+
+    But Partridge ended all Disputes,
+
+    He knew his Trade, and call''d it **Boots.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 4
+  translation_ja: 'そのうえ、ゆっくり歩く星座、ボオーテスは、
+
+    そう呼び違えられていても、何者なのか誰も知らない。
+
+    だが、パートリッジは、すべての論争にけりをつけた、
+
+    本業を心得て、「ブーツ」と呼んだのだ。[2]'
+  translation_status: reviewed
+- id: partridge-elegy-stanza-5
+  section_id: elegy
+  kind: verse
+  origin: source
+  source_text: 'The Horned Moon, which heretofore
+
+    Upon their Shoes the Romans wore,
+
+    Whose Wideness kept their Toes from Corns,
+
+    And whence we claim our Shooing-Horns;
+
+    Shows how the Art of Cobling bears
+
+    A near Resemblance to the Spheres.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 5
+  translation_ja: '昔、ローマ人が、
+
+    靴につけていた、角のある月の飾り、
+
+    その幅広い形は、足の指に魚の目ができるのを防ぎ、
+
+    私たちの靴べらも、そこから来たというが、
+
+    それもまた、靴直しの技が、いかに、
+
+    天球とよく似ているかを示している。'
+  translation_status: reviewed
+- id: partridge-elegy-stanza-6
+  section_id: elegy
+  kind: verse
+  origin: source
+  source_text: 'A Scrap of Parchment hung by Geometry
+
+    (A great Refinement in Barometry)
+
+    Can, like the Stars, foretel the Weather;
+
+    And what is Parchment else but Leather?
+
+    Which an Astrologer might use,
+
+    Either for Almanacks or Shoes.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 6
+  translation_ja: '幾何学に従って吊るした、羊皮紙の切れ端は、
+
+    （気圧の測定では、大した進歩だが、）
+
+    星々と同じように、天気を予告できる。
+
+    しかも羊皮紙とは、皮以外の何だろう。
+
+    占星術師は、その皮を、
+
+    暦にも、靴にも使えるのだ。'
+  translation_status: reviewed
+- id: partridge-elegy-stanza-7
+  section_id: elegy
+  kind: verse
+  origin: source
+  source_text: 'Thus Partridge, by his Wit and Parts,
+
+    At once did practise both these Arts;
+
+    And as the boading Owl (or rather
+
+    The Bat, because her Wings are Leather)
+
+    Steals from her private Cell by Night,
+
+    And flies about the Candle-Light;
+
+    So learned Partridge could as well
+
+    Creep in the Dark from Leathern Cell,
+
+    And, in his Fancy, fly as fair,
+
+    To peep upon a twinkling Star.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 7
+  translation_ja: 'こうしてパートリッジは、機知と才能によって、
+
+    この二つの技を、一度に営んだ。
+
+    そして、不吉を告げる梟が、いや、むしろ、
+
+    蝙蝠が、その翼は皮でできているのだから、
+
+    夜になると、奥の隠れ家からそっと抜け出し、
+
+    蝋燭の明かりのまわりを飛ぶように、
+
+    学識あるパートリッジもまた、
+
+    暗がりの中、皮の仕事場から這い出して、
+
+    空想の中で、遠くまで飛んでゆき、
+
+    またたく星を、のぞき見ることができた。'
+  translation_status: reviewed
+  source_variants:
+  - kind: comparison
+    text: And in his fancy fly as far,
+    source_locations:
+    - source_id: wikisource-1801-v07-partridge
+      precision: work
+      url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Elegy_on_Partridge_the_Almanack_Maker&oldid=10241124
+    description_ja: 1801年版の該当行。底本の語句を保持し、日本語訳の文意を確認するために参照。
+- id: partridge-elegy-stanza-8
+  section_id: elegy
+  kind: verse
+  origin: source
+  source_text: 'Besides, he could confound the Spheres,
+
+    And set the Planets by the Ears;
+
+    To shew his Skill, he Mars could join
+
+    To Venus in Aspect Mali''n;
+
+    Then call in Mercury for Aid,
+
+    And cure the Wounds that Venus made.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 8
+  translation_ja: 'そればかりか、天球を混乱させ、
+
+    惑星同士を、喧嘩させることさえできた。
+
+    腕を見せようと、火星を、
+
+    金星と、不吉な位置関係に置く。
+
+    それから水星を、助けに呼んで、
+
+    金星が負わせた傷を、治すのだ。'
+  translation_status: reviewed
+- id: partridge-elegy-stanza-9
+  section_id: elegy
+  kind: verse
+  origin: source
+  source_text: 'Great Scholars have in Lucian read,
+
+    When Philip, King of Greece was dead,
+
+    His Soul and Spirit did divide,
+
+    And each Part took a diff''rent Side;
+
+    One rose a Star, the other fell
+
+    Beneath, and mended Shoes in Hell.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 9
+  translation_ja: '偉い学者たちは、ルキアノスで読んだことだろう、
+
+    ギリシア王フィリッポスが死んだとき、
+
+    その魂と霊は、二つに分かれ、
+
+    それぞれ、別の方へ向かったと。
+
+    一方は昇って星となり、もう一方は、
+
+    下へ落ち、地獄で靴を直したと。'
+  translation_status: reviewed
+- id: partridge-elegy-stanza-10
+  section_id: elegy
+  kind: verse
+  origin: source
+  source_text: 'Thus Partridge still shines in each Art,
+
+    The Cobling and Star-gazing Part,
+
+    And is install''d as good a Star
+
+    As any of the Caesars are.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 10
+  translation_ja: 'こうしてパートリッジは、今も二つの技で輝く、
+
+    靴直しの技と、星を見る技で。
+
+    そして、歴代のカエサルたちに劣らぬ、
+
+    立派な星の地位を授けられた。'
+  translation_status: reviewed
+- id: partridge-elegy-stanza-11
+  section_id: elegy
+  kind: verse
+  origin: source
+  source_text: 'Triumphant Star! some Pity shew
+
+    On Coblers militant below,
+
+    Whom roguish Boys in stormy Nights
+
+    Torment, by pissing out their Lights;
+
+    Or thro'' a Chink convey their Smoke;
+
+    Inclos''d Artificers to choke.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 11
+  translation_ja: '勝利の星よ、少しは情けをかけてくれ、
+
+    地上で、今なお戦っている靴直したちに。
+
+    嵐の夜には、いたずら小僧たちが、
+
+    小便で灯を消し、彼らを苦しめる。
+
+    あるいは隙間から、煙を吹き込み、
+
+    狭い中の職人たちを、窒息させようとするのだ。'
+  translation_status: reviewed
+- id: partridge-elegy-stanza-12
+  section_id: elegy
+  kind: verse
+  origin: source
+  source_text: 'Thou, high exalted in thy Sphere,
+
+    May''st follow still thy Calling there.
+
+    To thee the Bull will lend his hide,
+
+    By Phoebus newly tann''d and dry''d.
+
+    For thee they Argo''s Hulk will tax,
+
+    And scrape her pitchy Sides for Wax.
+
+    Then Ariadne kindly lends
+
+    Her braided Hair to make thee Ends.
+
+    The Point of Sagittarius'' Dart
+
+    Turns to an awl, by heav''nly Art;
+
+    And Vulcan, wheedled by his Wife,
+
+    Will forge for thee a Paring-Knife.
+
+    For want of Room, by Virgo''s Side,
+
+    She''ll strain a Point, and sit astride***,
+
+    To take thee kindly in between,
+
+    And then the Signs will be Thirteen.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 12
+  translation_ja: '高く天球へ昇ったお前は、
+
+    そこでも、これまでの職を続けられる。
+
+    牡牛はお前に、その皮を貸してくれるだろう、
+
+    ポイボスが、なめして干したばかりの皮を。
+
+    お前のために、アルゴ船の船体に取り立てをかけ、
+
+    瀝青を塗った船腹を削り、靴糸の蝋を取るだろう。
+
+    そしてアリアドネは、親切にも、
+
+    編んだ髪を貸して、糸を作らせてくれる。
+
+    射手座の矢の先は、
+
+    天の技で、錐に変わる。
+
+    妻になだめすかされたウルカヌスは、
+
+    お前のために、革包丁を鍛えてくれるだろう。
+
+    乙女座の隣に、場所が足りなければ、
+
+    乙女は少し無理をして、両脚を広げて座り、[3]
+
+    親切にも、その間へお前を迎え入れる。
+
+    そうなれば、星座は十三になるだろう。'
+  translation_status: reviewed
+- id: partridge-source-note-1
+  section_id: source-notes
+  kind: paragraph
+  origin: source
+  source_text: '*Partridge was a Cobler.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 13
+  translation_ja: パートリッジは靴直しだった。
+  translation_status: reviewed
+  source_kind: footnote
+- id: partridge-source-note-2
+  section_id: source-notes
+  kind: paragraph
+  origin: source
+  source_text: '** See his Almanack'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 14
+  translation_ja: 彼の暦を参照。
+  translation_status: reviewed
+  source_kind: footnote
+- id: partridge-source-note-3
+  section_id: source-notes
+  kind: paragraph
+  origin: source
+  source_text: '***Tibi brachia contrahet ingens Scorpius, etc.'
+  source_languages:
+  - la
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0003
+    xpath: /html/body/pre[1]
+    line_start: 614
+    source_sequence: 15
+  translation_ja: 「巨大な蠍座も、あなたのために腕を縮めるだろう」云々。
+  translation_status: reviewed
+  source_kind: footnote
+- id: partridge-epitaph-heading
+  section_id: epitaph
+  kind: heading
+  origin: source
+  source_text: An Epitaph on Partridge.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0004
+    xpath: /html/body/h2[6]
+    line_start: 735
+    source_sequence: 16
+  translation_ja: パートリッジの墓碑銘
+  translation_status: reviewed
+- id: partridge-epitaph-stanza-1
+  section_id: epitaph
+  kind: verse
+  origin: source
+  source_text: 'Here, five Foot deep, lies on his Back,
+
+    A Cobler, Starmonger, and Quack;
+
+    Who to the Stars in pure Good-will,
+
+    Does to his best look upward still.
+
+    Weep all you Customers that use
+
+    His Pills, his Almanacks, or Shoes;
+
+    And you that did your Fortunes seek,
+
+    Step to his Grave but once a Week:
+
+    This Earth which bears his Body''s Print,
+
+    You''ll find has so much Vertue in''t,
+
+    That I durst pawn my Ears ''twill tell
+
+    Whate''er concerns you full as well,
+
+    In Physick, Stolen Goods, or Love,
+
+    As he himself could, when above.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0004
+    xpath: /html/body/pre[2]
+    line_start: 738
+    source_sequence: 17
+  translation_ja: 'ここ、深さ五フィートの地に、仰向けに眠る、
+
+    靴直し、星占い師、いかさま医者。
+
+    星々への、まったくの好意から、
+
+    今も、できる限り上を見つめている。
+
+    泣いてくれ、彼の丸薬、暦、靴を、
+
+    愛用していた、すべての客たちよ。
+
+    そして、運勢を尋ねていた者たちも、
+
+    週に一度だけ、この墓を訪ねてくれ。
+
+    彼の体の跡をとどめる、この土には、
+
+    それほどの効き目があると、わかるだろう。
+
+    私の耳を賭けてもよい、この土は教えてくれる、
+
+    お前たちに関わる、どんなことでも、まったく同じように、
+
+    病のことも、盗品も、恋のことも、
+
+    彼自身が、地上にいたときにできたのと同じくらいに。'
+  translation_status: reviewed
+- id: partridge-translator-note
+  section_id: translator-notes
+  kind: paragraph
+  origin: translator
+  source_text: null
+  source_languages: []
+  source_locations: []
+  translation_ja: 哀歌第三連の冒頭は底本ではA List of Coblers Temples Tiesだが、一八〇一年版のA list the cobbler’s temples tiesを参照し、布の細帯でこめかみを縛る意味に読んだ。第七連のfly as fairは同版のfly as farを参照し「遠くまで飛ぶ」とした。第八連のMercuryは水星と水銀、Venusは金星と恋愛の女神を意味する。星々の話には、恋がもたらす病を水銀で治すという皮肉も重なる。
+  translation_status: reviewed
+notes:
+- id: partridge-note-1
+  origin: unknown
+  label: '1'
+  form: footnote
+  body:
+  - segment_id: partridge-source-note-1
+  description_ja: PG底本の注。署名による注者の特定は行わず、著者注とは断定しない。
+- id: partridge-note-2
+  origin: unknown
+  label: '2'
+  form: footnote
+  body:
+  - segment_id: partridge-source-note-2
+  description_ja: PG底本の注。署名による注者の特定は行わず、著者注とは断定しない。
+- id: partridge-note-3
+  origin: unknown
+  label: '3'
+  form: footnote
+  body:
+  - segment_id: partridge-source-note-3
+  description_ja: PG底本の注。署名による注者の特定は行わず、著者注とは断定しない。
+- id: partridge-translation-note
+  origin: translator
+  label: 訳注1
+  form: endnote
+  body:
+  - segment_id: partridge-translator-note
+references:
+- id: partridge-callout-1
+  kind: note
+  origin: source
+  status: verified
+  from:
+    segment_id: partridge-elegy-stanza-2
+    source_span:
+      start: 61
+      end: 62
+      exact: '*'
+    translation_span:
+      start: 22
+      end: 25
+      exact: '[1]'
+  to:
+    type: note
+    id: partridge-note-1
+- id: partridge-callout-2
+  kind: note
+  origin: source
+  status: verified
+  from:
+    segment_id: partridge-elegy-stanza-4
+    source_span:
+      start: 146
+      end: 148
+      exact: '**'
+    translation_span:
+      start: 93
+      end: 96
+      exact: '[2]'
+  to:
+    type: note
+    id: partridge-note-2
+- id: partridge-callout-3
+  kind: note
+  origin: source
+  status: verified
+  from:
+    segment_id: partridge-elegy-stanza-12
+    source_span:
+      start: 488
+      end: 491
+      exact: '***'
+    translation_span:
+      start: 259
+      end: 262
+      exact: '[3]'
+  to:
+    type: note
+    id: partridge-note-3
+- id: partridge-translator-callout-3
+  kind: note
+  origin: translator
+  status: verified
+  from:
+    segment_id: partridge-elegy-stanza-3
+  to:
+    type: note
+    id: partridge-translation-note
+- id: partridge-translator-callout-7
+  kind: note
+  origin: translator
+  status: verified
+  from:
+    segment_id: partridge-elegy-stanza-7
+  to:
+    type: note
+    id: partridge-translation-note
+- id: partridge-translator-callout-8
+  kind: note
+  origin: translator
+  status: verified
+  from:
+    segment_id: partridge-elegy-stanza-8
+  to:
+    type: note
+    id: partridge-translation-note
+groups:
+- id: partridge-elegy-poem
+  kind: poem
+  separator: '
+
+
+    '
+  members:
+  - segment_id: partridge-elegy-stanza-1
+  - segment_id: partridge-elegy-stanza-2
+  - segment_id: partridge-elegy-stanza-3
+  - segment_id: partridge-elegy-stanza-4
+  - segment_id: partridge-elegy-stanza-5
+  - segment_id: partridge-elegy-stanza-6
+  - segment_id: partridge-elegy-stanza-7
+  - segment_id: partridge-elegy-stanza-8
+  - segment_id: partridge-elegy-stanza-9
+  - segment_id: partridge-elegy-stanza-10
+  - segment_id: partridge-elegy-stanza-11
+  - segment_id: partridge-elegy-stanza-12
+- id: partridge-epitaph-poem
+  kind: poem
+  separator: '
+
+
+    '
+  members:
+  - segment_id: partridge-epitaph-stanza-1
+assets: []
+figures: []
+aliases: []
+terminology: []
+workflow:
+  stage: ready
+  full_review:
+    status: complete
+    completed_at: '2026-10-21T00:19:50Z'
+    reviewed_by: Codex（初稿完成後の全19単位原文対照）
+    content_sha256: 8f4e1f6cd0b6a993537e4ccaaa9de9daeb4d353033e84ac67c8755d993963779
+provenance:
+  full_review:
+    method: 全初稿保存後、哀歌の前六連、後六連・底本注三件・墓碑銘の順に連続範囲で原文と訳文を一回対照。追加訳注の異読と語の二重の意味、および対応する三連を確認。
+    source_verse_lines: 108
+    source_stanzas: 13
+    source_notes: 3
+    translator_notes: 1
+    unresolved: []
+  authorship_evidence:
+  - url: https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Elegy_on_Partridge_the_Almanack_Maker
+    evidence_ja: 1801年版全集第七巻の作品見出しにJonathan Swift作と明示。前後の作品案内でHis Epitaphへ接続し、PG1090の二篇と原題・冒頭・結末が対応。
+  extraction:
+    verse_line_breaks: pre内の非空行を保持し、先頭の組版用字下げだけ除去。空行で12連と注3件、別preの墓碑銘1連を区分。各連の元pre内範囲は原文文字列で同定。
