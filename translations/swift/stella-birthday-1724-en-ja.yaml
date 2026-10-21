@@ -1,0 +1,320 @@
+"schema_version": "2.0"
+"work_id": "swift-stella-birthday-1724"
+"metadata":
+  "title_ja": "ステラの誕生日、一七二四年"
+  "title_original": "Stella’s Birthday, 1724"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "morley"
+    "name_ja": "ヘンリー・モーリー"
+    "name_original": "Henry Morley"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。"
+  "genres":
+  - "文学"
+  - "詩"
+  "reader_notes_ja":
+  - "1886年モーリー編の底本に従い、本文全54行を4連の構成で収録する。"
+"sources":
+- "id": "gutenberg-623"
+  "role": "primary"
+  "title": "The Battle of the Books, and Other Short Pieces"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+  "edition": "Henry Morley編、Cassell & Company、1886年版。Project Gutenberg eBook 623旧HTML、公開日表記2007年1月15日。"
+  "contributor_ids":
+  - "swift"
+  - "morley"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/623"
+    "note_ja": "原著者1745年没、編者1894年没の1886年刊本。Project Gutenberg書誌は米国でパブリックドメインと表示。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "Transcribed from the 1886 Cassell & Company edition by David Price."
+  "sha256": "6362b44a9f5703d1c2a3d10313ead9c9e124f845d138d725e602b6f1bf630517"
+  "description_ja": "2026年10月21日に確認した旧HTML。h2と詩連pの境界を保持し、brを詩行の改行として保存。HTML組版上の行折りと余分な空白のみ整理。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-623"
+    "description_ja": "原題、本文全54行・4連。"
+    "section_ids":
+    - "poem"
+  "excluded":
+  - "source_id": "gutenberg-623"
+    "description_ja": "同一巻の他の詩・論考、巻全体の編者序文、刊記、電子版の利用案内と末尾ライセンス。"
+  "known_gaps": []
+"sections":
+- "id": "poem"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "sb1724-heading"
+  "origin": "source"
+"segments":
+- "id": "sb1724-heading"
+  "section_id": "poem"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    STELLA’S BIRTHDAY, 1724.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[17]"
+    "line_start": 3035
+    "source_sequence": 224
+  "translation_ja": |-
+    ステラの誕生日、一七二四年
+  "translation_status": "reviewed"
+- "id": "sb1724-stanza-1"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    As when a beauteous nymph decays,
+    We say she’s past her dancing days;
+    So poets lose their feet by time,
+    And can no longer dance in rhyme.
+    Your annual bard had rather chose
+    To celebrate your birth in prose;
+    Yet merry folks who want by chance
+    A pair to make a country dance,
+    Call the old housekeeper, and get her
+    To fill a place, for want of better;
+    While Sheridan is off the hooks,
+    And friend Delany at his books,
+    That Stella may avoid disgrace,
+    Once more the Dean supplies their place.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[206]"
+    "line_start": 3036
+    "source_sequence": 225
+  "translation_ja": |-
+    美しい乙女も、衰えれば、
+    もう踊る年ではない、と言われるように、
+    詩人も時とともに、足取りと詩脚を失い、
+    韻を踏んで、踊れなくなる。
+    君に年ごとの詩を捧げる男も、できれば、
+    君の誕生日を、散文で祝いたかった。
+    だが、陽気な人々が、たまたま、
+    田舎踊りに、一組足りないとなれば、
+    年老いた家政婦を呼んできて、
+    ほかによい相手がないので、空きを埋めてもらう。
+    シェリダンは、調子を外し、
+    友人ディレイニーは、本にかじりついているから、
+    ステラに、恥をかかせないため、
+    もう一度、この首席司祭が、二人の代わりを務めよう。
+  "translation_status": "reviewed"
+- "id": "sb1724-stanza-2"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Beauty and wit, too sad a truth,
+    Have always been confined to youth;
+    The god of wit, and beauty’s queen,
+    He twenty-one, and she fifteen;
+    No poet ever sweetly sung.
+    Unless he were like Phœbus, young;
+    Nor ever nymph inspired to rhyme,
+    Unless like Venus in her prime.
+    At fifty-six, if this be true,
+    Am I a poet fit for you;
+    Or at the age of forty-three,
+    Are you a subject fit for me?
+    Adieu bright wit, and radiant eyes;
+    You must be grave, and I be wise.
+    Our fate in vain we would oppose,
+    But I’ll be still your friend in prose;
+    Esteem and friendship to express,
+    Will not require poetic dress;
+    And if the muse deny her aid
+    To have them sung, they may be said.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[207]"
+    "line_start": 3050
+    "source_sequence": 226
+  "translation_ja": |-
+    美と才知は、悲しすぎる真実だが、
+    いつも、若さに限られてきた。
+    才知の神と、美の女王は、
+    男が二十一、女が十五。
+    美しい歌を歌えた詩人は、いなかった、
+    ポイボスのように、若い者でなければ。
+    韻を踏む気にさせた乙女も、いなかった、
+    ウェヌスのように、花盛りでなければ。
+    これが本当なら、五十六歳で、
+    私は君に、ふさわしい詩人だろうか。
+    あるいは、四十三歳の君は、
+    私に、ふさわしい題材だろうか。
+    さようなら、輝く才知、光り輝く瞳。
+    君はまじめになり、私は賢くならねばならない。
+    運命に逆らおうとしても、むだだが、
+    散文では、今も君の友でいよう。
+    尊敬と友情を、言い表すのに、
+    詩の衣装は、要らないのだから。
+    女神が、歌にするための助けを断っても、
+    言葉で告げることは、できるだろう。
+  "translation_status": "reviewed"
+- "id": "sb1724-stanza-3"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    But, Stella say, what evil tongue
+    Reports you are no longer young?
+    That Time sits with his scythe to mow
+    Where erst sat Cupid with his bow;
+    That half your locks are turned to grey;
+    I’ll ne’er believe a word they say.
+    ’Tis true, but let it not be known,
+    My eyes are somewhat dimish grown;
+    For nature, always in the right,
+    To your decays adapts my sight,
+    And wrinkles undistinguished pass,
+    For I’m ashamed to use a glass;
+    And till I see them with these eyes,
+    Whoever says you have them, lies.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[208]"
+    "line_start": 3070
+    "source_sequence": 227
+  "translation_ja": |-
+    だがステラ、教えてくれ、どんな悪い舌が、
+    君は、もう若くないと言いふらすのか。
+    昔、弓を持ったキューピッドがいた場所に、
+    今は、時が、大鎌を持って刈り取ろうと座るのだと。
+    君の髪の半分は、白くなったのだと。
+    そんな言葉は、一言も信じはしない。
+    確かに、だが、内緒にしておいてほしい、
+    私の目は、少しばかり薄暗くなった。
+    自然は、いつも間違いなく、
+    君の衰えに、私の視力を合わせてくれる。
+    しわも、見分けられぬまま、見過ごされる、
+    眼鏡を使うのは、恥ずかしいから。
+    この目で見る、そのときまでは、
+    君にしわがあると言う者は、誰でも嘘つきだ。
+  "translation_status": "reviewed"
+- "id": "sb1724-stanza-4"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    No length of time can make you quit
+    Honour and virtue, sense and wit,
+    Thus you may still be young to me,
+    While I can better hear than see:
+    Oh, ne’er may fortune show her spite,
+    To make me deaf, and mend my sight.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[209]"
+    "line_start": 3084
+    "source_sequence": 228
+  "translation_ja": |-
+    どれほど時がたっても、君は手放しはしない、
+    名誉と徳、分別と才知を。
+    こうして、私には、君はいつまでも若くいられる、
+    目で見るより、耳で聞くほうが得意な間は。
+    ああ、運命よ、意地悪を見せないでほしい、
+    私の耳をふさぎ、目をよくすることなどで。
+  "translation_status": "reviewed"
+"notes": []
+"references": []
+"groups":
+- "id": "sb1724-poem"
+  "kind": "poem"
+  "members":
+  - "segment_id": "sb1724-stanza-1"
+  - "segment_id": "sb1724-stanza-2"
+  - "segment_id": "sb1724-stanza-3"
+  - "segment_id": "sb1724-stanza-4"
+  "separator": "\n\n"
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "stella"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Stella"
+  "translation_ja": "ステラ"
+  "related_work_ids":
+  - "swift-stella-birthday-1718"
+- "id": "swift-name"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Jonathan Swift"
+  "translation_ja": "ジョナサン・スウィフト"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-20T23:58:53Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "5173ed8e5090abea9b21ad7c8fa2fc7de6a21397dbd8b665a197708e4c29e7dd"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "e8201a5357514daed2d5fc2fd72b57496ae93e10"
+  "translation_method": "Codexによる原文からの新訳。初稿保存後、見出し・副題・全詩行・注を原文と一回通して対照し、同じ読みで意味、否定、人数・年齢、話者、性別、皮肉、順序を確認。修正箇所のみ再確認。"
+  "source_poem_line_count": 54
+  "source_stanza_line_counts":
+  - 14
+  - 20
+  - 14
+  - 6
+  "drafted_segment_count": 5
+  "next_segment_id": null
+  "full_review_segment_ids":
+  - "sb1724-heading"
+  - "sb1724-stanza-1"
+  - "sb1724-stanza-2"
+  - "sb1724-stanza-3"
+  - "sb1724-stanza-4"
+  "full_review_corrections_ja": []

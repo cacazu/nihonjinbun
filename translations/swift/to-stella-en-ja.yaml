@@ -1,0 +1,699 @@
+"schema_version": "2.0"
+"work_id": "swift-to-stella"
+"metadata":
+  "title_ja": "ステラへ"
+  "title_original": "To Stella"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "morley"
+    "name_ja": "ヘンリー・モーリー"
+    "name_original": "Henry Morley"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。"
+  "genres":
+  - "文学"
+  - "詩"
+  "reader_notes_ja":
+  - "1886年モーリー編の底本に従い、本文全124行を12連の構成で収録する。"
+"sources":
+- "id": "gutenberg-623"
+  "role": "primary"
+  "title": "The Battle of the Books, and Other Short Pieces"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+  "edition": "Henry Morley編、Cassell & Company、1886年版。Project Gutenberg eBook 623旧HTML、公開日表記2007年1月15日。"
+  "contributor_ids":
+  - "swift"
+  - "morley"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/623"
+    "note_ja": "原著者1745年没、編者1894年没の1886年刊本。Project Gutenberg書誌は米国でパブリックドメインと表示。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "Transcribed from the 1886 Cassell & Company edition by David Price."
+  "sha256": "6362b44a9f5703d1c2a3d10313ead9c9e124f845d138d725e602b6f1bf630517"
+  "description_ja": "2026年10月21日に確認した旧HTML。h2と詩連pの境界を保持し、brを詩行の改行として保存。HTML組版上の行折りと余分な空白のみ整理。"
+- "id": "wikisource-1801"
+  "role": "comparison"
+  "title": "The Works of the Rev. Jonathan Swift, Volume 7"
+  "languages":
+  - "en"
+  "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/To_Stella_Visiting_Me_in_My_Sickness"
+  "edition": "1801年ロンドン刊全集第7巻のWikisource電子翻刻。指定箇所の語句・年記のみ照合。"
+  "contributor_ids":
+  - "swift"
+  "work_rights":
+    "status": "public_domain"
+    "note_ja": "1745年没の原著者による1801年刊本文。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "English Wikisource contributors"
+    "note_ja": "当該サイトの電子編集・追加要素の条件と、公有の原著本文を区別する。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-623"
+    "description_ja": "原題、副題、本文全124行・12連。"
+    "section_ids":
+    - "poem"
+  - "source_id": "wikisource-1801"
+    "description_ja": "source_variantsおよび訳注に示す語句・年記を照合。本文全体の底本としては用いない。"
+  "excluded":
+  - "source_id": "gutenberg-623"
+    "description_ja": "同一巻の他の詩・論考、巻全体の編者序文、刊記、電子版の利用案内と末尾ライセンス。 詩の後のWhile Dr. Swift...で始まる文章は、後続の二つの祈祷文を導く編者案内であり、詩の本文や注ではないため対象外。"
+  "known_gaps": []
+"sections":
+- "id": "poem"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "to-stella-heading"
+  "origin": "source"
+- "id": "translator-notes"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "origin": "editorial"
+  "label_ja": "訳注"
+"segments":
+- "id": "to-stella-heading"
+  "section_id": "poem"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "TO STELLA,"
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[19]"
+    "line_start": 3179
+    "source_sequence": 237
+  "translation_ja": "ステラへ"
+  "translation_status": "reviewed"
+- "id": "to-stella-subtitle"
+  "section_id": "poem"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "Visiting me in my sickness, October, 1727."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[217]"
+    "line_start": 3180
+    "source_sequence": 238
+  "translation_ja": "病中の私を訪ねて。一七二七年十月。"
+  "translation_status": "reviewed"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "VISITING ME IN MY SICKNESS, 1720."
+    "source_locations":
+    - "source_id": "wikisource-1801"
+      "precision": "work"
+      "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/To_Stella_Visiting_Me_in_My_Sickness"
+    "description_ja": "副題の年記のみ照合。底本1727年10月に対して1801年版は1720年。原稿は底本年記を維持。"
+- "id": "to-stella-stanza-1"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Pallas, observing Stella’s wit
+    Was more than for her sex was fit;
+    And that her beauty, soon or late,
+    Might breed confusion in the state;
+    In high concern for human kind,
+    Fixed honour in her infant mind.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[218]"
+    "line_start": 3181
+    "source_sequence": 239
+  "translation_ja": |-
+    パラスは、ステラの才知が、
+    女の身には、ふさわしくないほどであり、
+    その美しさも、遅かれ早かれ、
+    国を混乱させかねないと見て、
+    人類を、深く案じるあまり、
+    幼い君の心に、名誉の心を据えた。
+  "translation_status": "reviewed"
+- "id": "to-stella-stanza-2"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    But (not in wranglings to engage
+    With such a stupid vicious age),
+    If honour I would here define,
+    It answers faith in things divine.
+    As natural life the body warms,
+    And, scholars teach, the soul informs;
+    So honour animates the whole,
+    And is the spirit of the soul.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[219]"
+    "line_start": 3187
+    "source_sequence": 240
+  "translation_ja": |-
+    だが、この愚かで、悪徳に染まった時代と、
+    言い争いを始めるつもりはないけれど、
+    ここで、名誉を定義するとしたら、
+    神にかかわる事柄での、信仰に当たる。
+    自然の生命が、体を温め、
+    学者の教えるとおり、魂が体に形を与えるように、
+    名誉は、全体を生き生きと動かし、
+    魂の中の、精気となるのである。
+  "translation_status": "reviewed"
+- "id": "to-stella-stanza-3"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Those numerous virtues which the tribe
+    Of tedious moralists describe,
+    And by such various titles call,
+    True honour comprehends them all.
+    Let melancholy rule supreme,
+    Choler preside, or blood, or phlegm.
+    It makes no difference in the case.
+    Nor is complexion honour’s place.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[220]"
+    "line_start": 3195
+    "source_sequence": 241
+  "translation_ja": |-
+    退屈な道徳家の一群が、
+    書き並べる、あれほど多くの徳、
+    さまざまな名前で、呼び分ける徳を、
+    真の名誉は、すべて含んでいる。
+    黒胆汁が、いちばん力を振るおうと、
+    黄胆汁、血液、粘液が、支配しようと、
+    この点では、何の違いもない。
+    名誉の居場所は、体質などではないのだから。
+  "translation_status": "reviewed"
+- "id": "to-stella-stanza-4"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    But, lest we should for honour take
+    The drunken quarrels of a rake,
+    Or think it seated in a scar,
+    Or on a proud triumphal car,
+    Or in the payment of a debt,
+    We lose with sharpers at piquet;
+    Or, when a whore in her vocation,
+    Keeps punctual to an assignation;
+    Or that on which his lordship swears,
+    When vulgar knaves would lose their ears:
+    Let Stella’s fair example preach
+    A lesson she alone can teach.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[221]"
+    "line_start": 3203
+    "source_sequence": 242
+  "translation_ja": |-
+    だが、名誉と取り違えてはならない、
+    放蕩者の、酔った上での喧嘩を。
+    あるいは、傷跡に宿るものと思ってはならない、
+    誇らかな、凱旋の車に宿るものとも。
+    いかさま師相手のピケで、
+    負けた借金を、払うこととも。
+    娼婦が、その商売の中で、
+    逢い引きの約束を、きちんと守ることとも。
+    並の悪党なら、耳を落とされるところで、
+    貴族が、それにかけて誓うものとも。
+    ステラの、美しい手本に、説いてもらおう、
+    君ひとりにしか、教えられない教えを。
+  "translation_status": "reviewed"
+- "id": "to-stella-stanza-5"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    In points of honour to be tried,
+    All passions must be laid aside;
+    Ask no advice, but think alone,
+    Suppose the question not your own;
+    How shall I act? is not the case,
+    But how would Brutus in my place;
+    In such a cause would Cato bleed;
+    And how would Socrates proceed?
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[222]"
+    "line_start": 3215
+    "source_sequence": 243
+  "translation_ja": |-
+    名誉にかかわる問題を、吟味するときは、
+    あらゆる情念を、脇へ置かねばならない。
+    忠告を求めず、一人で考え、
+    自分の問題ではないと、仮定するのだ。
+    私ならどうするか、それが問いなのではない、
+    ブルートゥスなら、私の立場でどうするだろうか。
+    このような大義に、カトーは血を流すだろうか。
+    そして、ソクラテスなら、どう進むだろうか。
+  "translation_status": "reviewed"
+- "id": "to-stella-stanza-6"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Drive all objections from your mind,
+    Else you relapse to human kind;
+    Ambition, avarice, and lust,
+    And factious rage, and breach of trust,
+    And flattery tipped with nauseous fleer,
+    And guilt and shame, and servile fear,
+    Envy, and cruelty, and pride,
+    Will in your tainted heart preside.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[223]"
+    "line_start": 3223
+    "source_sequence": 244
+  "translation_ja": |-
+    心から、あらゆる異議を追い払え。
+    さもなければ、普通の人間に逆戻りし、
+    野心、貪欲、肉欲、
+    党派の怒り、信頼への裏切り、
+    むかつく作り笑いを先につけた、へつらい、
+    罪、恥辱、奴隷のような恐れ、
+    嫉妬、残酷、高慢が、
+    汚れた君の心を、支配するだろう。
+  "translation_status": "reviewed"
+- "id": "to-stella-stanza-7"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Heroes and heroines of old,
+    By honour only were enrolled
+    Among their brethren in the skies,
+    To which (though late) shall Stella rise.
+    Ten thousand oaths upon record
+    Are not so sacred as her word;
+    The world shall in its atoms end
+    Ere Stella can deceive a friend.
+    By honour seated in her breast,
+    She still determines what is best;
+    What indignation in her mind,
+    Against enslavers of mankind!
+    Base kings and ministers of state,
+    Eternal objects of her hate.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[224]"
+    "line_start": 3231
+    "source_sequence": 245
+  "translation_ja": |-
+    昔の、男の英雄も、女の英雄も、
+    名誉だけによって、名を連ねた、
+    天にいる、同胞たちの中へ。
+    そこへステラも、やがて、だが遠い先に、昇るだろう。
+    記録された一万の誓いも、
+    君の一言ほど、神聖ではない。
+    ステラが、友を欺くより先に、
+    世界のほうが、原子に砕けて終わるだろう。
+    胸に宿る名誉によって、
+    君はいつも、何が最善かを決める。
+    君の心の、なんという憤りだろう、
+    人類を奴隷にする者たちへの！
+    卑しい王や、国の大臣たちは、
+    永久に、君の憎しみの的である。
+  "translation_status": "reviewed"
+- "id": "to-stella-stanza-8"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    She thinks that Nature ne’er designed,
+    Courage to man alone confined;
+    Can cowardice her sex adorn,
+    Which most exposes ours to scorn;
+    She wonders where the charm appears
+    In Florimel’s affected fears;
+    For Stella never learned the art
+    At proper times to scream and start;
+    Nor calls up all the house at night,
+    And swears she saw a thing in white.
+    Doll never flies to cut her lace,
+    Or throw cold water in her face,
+    Because she heard a sudden drum,
+    Or found an earwig in a plum.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[225]"
+    "line_start": 3245
+    "source_sequence": 246
+  "translation_ja": |-
+    自然が、勇気を男だけに限ろうと、
+    意図したことはないと、君は考える。
+    私たち男を、何より軽蔑にさらす臆病が、
+    女の身なら、飾りになるだろうか。
+    フロリメルの、わざとらしい怖がり方の、
+    どこに魅力があるのかと、君はいぶかる。
+    ステラは、覚えたことがない、
+    頃合いを見て、悲鳴を上げたり、びくりとしたりする技を。
+    夜中に、家じゅうを呼び起こし、
+    白いものを見たと、言い張ることもない。
+    ドールが飛んできて、胴着のひもを切ったり、
+    顔に冷たい水をかけたりすることもない、
+    急に太鼓の音が聞こえたからとか、
+    プラムに、ハサミムシを見つけたからといって。
+  "translation_status": "reviewed"
+- "id": "to-stella-stanza-9"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Her hearers are amazed from whence
+    Proceeds that fund of wit and sense;
+    Which, though her modesty would shroud,
+    Breaks like the sun behind a cloud,
+    While gracefulness its art conceals,
+    And yet through every motion steals.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[226]"
+    "line_start": 3259
+    "source_sequence": 247
+  "translation_ja": |-
+    君の話を聞く者は、驚く、どこから来るのかと、
+    あの豊かな、才知と分別は。
+    君の慎みは、それを隠そうとするけれど、
+    雲の後ろの太陽のように、輝き出る。
+    優雅さは、その技を隠しながら、
+    それでも、一つ一つの動きに、そっと現れる。
+  "translation_status": "reviewed"
+- "id": "to-stella-stanza-10"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Say, Stella, was Prometheus blind,
+    And forming you, mistook your kind?
+    No; ’twas for you alone he stole
+    The fire that forms a manly soul;
+    Then, to complete it every way,
+    He moulded it with female clay,
+    To that you owe the nobler flame,
+    To this, the beauty of your frame.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[227]"
+    "line_start": 3265
+    "source_sequence": 248
+  "translation_ja": |-
+    ステラ、教えてくれ、プロメテウスは目が見えず、
+    君を作るとき、性を取り違えたのか。
+    いや、君ひとりのために、盗んだのだ、
+    男らしい魂を形づくる、あの火を。
+    そして、何もかもを完全にするために、
+    女の粘土で、それを包んで形を作った。
+    あの火から、君は高貴な炎を受け、
+    この粘土から、体の美しさを受けた。
+  "translation_status": "reviewed"
+- "id": "to-stella-stanza-11"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    How would ingratitude delight?
+    And how would censure glut her spite?
+    If I should Stella’s kindness hide
+    In silence, or forget with pride,
+    When on my sickly couch I lay,
+    Impatient both of night and day,
+    Lamenting in unmanly strains,
+    Called every power to ease my pains,
+    Then Stella ran to my relief
+    With cheerful face and inward grief;
+    And though by Heaven’s severe decree
+    She suffers hourly more than me,
+    No cruel master could require,
+    From slaves employed for daily hire,
+    What Stella by her friendship warmed,
+    With vigour and delight performed.
+    My sinking spirits now supplies
+    With cordials in her hands and eyes,
+    Now with a soft and silent tread,
+    Unheard she moves about my bed.
+    I see her taste each nauseous draught,
+    And so obligingly am caught:
+    I bless the hand from whence they came,
+    Nor dare distort my face for shame.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[228]"
+    "line_start": 3273
+    "source_sequence": 249
+  "translation_ja": |-
+    恩知らずは、どれほど喜ぶことだろう。
+    非難は、どれほど意地悪な心を、満たすことだろう。
+    もし私が、ステラの親切を、
+    黙って隠したり、高慢にも忘れたりしたなら。
+    私が、病の床に横たわり、
+    夜にも、昼にも、耐えられず、
+    男らしくもない声で、嘆きながら、
+    あらゆる力に、苦痛を和らげてくれと呼びかけたとき、
+    ステラは、私を救いに駆けつけた、
+    明るい顔と、内に秘めた悲しみを抱いて。
+    天の厳しい定めにより、
+    君は、いつも私より苦しんでいるのに、
+    どんな残酷な主人でも、求められはしない、
+    日ごとに金で雇う、奴隷たちにさえ、
+    友情に心を温められたステラが、
+    力強く、喜んで果たしてくれたほどのことは。
+    あるときは、沈みゆく私の心を、支えてくれる、
+    君の手と眼差しにある、気付け薬で。
+    あるときは、柔らかで、静かな足取りで、
+    音も立てずに、私の寝床の周りを動く。
+    君が、いやな薬を、一つ一つ味見するのを見て、
+    私は、その優しい心遣いの罠にかかる。
+    薬を差し出す、その手に祝福を送り、
+    恥ずかしくて、顔をしかめることもできない。
+  "translation_status": "reviewed"
+- "id": "to-stella-stanza-12"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Best pattern of true friends beware,
+    You pay too dearly for your care;
+    If while your tenderness secures
+    My life, it must endanger yours.
+    For such a fool was never found,
+    Who pulled a palace to the ground,
+    Only to have the ruins made
+    Materials for a house decayed.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[229]"
+    "line_start": 3297
+    "source_sequence": 250
+  "translation_ja": |-
+    真の友の、最良の手本よ、気をつけてほしい。
+    その看護に、あまりに高い代価を払っている、
+    君の優しさが、私の命を守りながら、
+    君の命を、危うくするのなら。
+    そんな愚か者は、かつて一人もいなかった、
+    宮殿を、地面まで取り壊し、
+    ただ、そのがれきを、
+    傷んだ家の、材料にするためだけに。
+  "translation_status": "reviewed"
+- "id": "to-stella-translation-note"
+  "section_id": "translator-notes"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "副題の年記は底本どおり、一七二七年十月とした。照合した一八〇一年版の副題は一七二〇年と記す。年次を確定するための異版調査は行わず、底本と比較本文の違いとして残した。"
+  "translation_status": "reviewed"
+"notes":
+- "id": "to-stella-translation-note-definition"
+  "origin": "translator"
+  "form": "endnote"
+  "body":
+  - "segment_id": "to-stella-translation-note"
+"references":
+- "id": "to-stella-translation-note-ref"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "to-stella-subtitle"
+  "to":
+    "type": "note"
+    "id": "to-stella-translation-note-definition"
+  "status": "verified"
+  "description_ja": "原文と訳注の説明を対照し、同じ箇所に関する訳者注への段落単位の参照を付す。本文・訳注の文字は変更しない。"
+"groups":
+- "id": "to-stella-poem"
+  "kind": "poem"
+  "members":
+  - "segment_id": "to-stella-stanza-1"
+  - "segment_id": "to-stella-stanza-2"
+  - "segment_id": "to-stella-stanza-3"
+  - "segment_id": "to-stella-stanza-4"
+  - "segment_id": "to-stella-stanza-5"
+  - "segment_id": "to-stella-stanza-6"
+  - "segment_id": "to-stella-stanza-7"
+  - "segment_id": "to-stella-stanza-8"
+  - "segment_id": "to-stella-stanza-9"
+  - "segment_id": "to-stella-stanza-10"
+  - "segment_id": "to-stella-stanza-11"
+  - "segment_id": "to-stella-stanza-12"
+  "separator": |2+
+
+
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "stella"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Stella"
+  "translation_ja": "ステラ"
+  "related_work_ids":
+  - "swift-stella-birthday-1718"
+- "id": "swift-name"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Jonathan Swift"
+  "translation_ja": "ジョナサン・スウィフト"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-21T00:09:16Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "c10b530022ebce57ee38b974e1158d19f59d3d65eeb2d8dcd87d9247617ec28f"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "e8201a5357514daed2d5fc2fd72b57496ae93e10"
+  "translation_method": "Codexによる原文からの新訳。初稿保存後、見出し・副題・全詩行・注を原文と一回通して対照し、同じ読みで意味、否定、人数・年齢、話者、性別、皮肉、順序を確認。修正箇所のみ再確認。"
+  "source_poem_line_count": 124
+  "source_stanza_line_counts":
+  - 6
+  - 8
+  - 8
+  - 12
+  - 8
+  - 8
+  - 14
+  - 14
+  - 6
+  - 8
+  - 24
+  - 8
+  "drafted_segment_count": 15
+  "next_segment_id": null
+  "full_review_segment_ids":
+  - "to-stella-heading"
+  - "to-stella-subtitle"
+  - "to-stella-stanza-1"
+  - "to-stella-stanza-2"
+  - "to-stella-stanza-3"
+  - "to-stella-stanza-4"
+  - "to-stella-stanza-5"
+  - "to-stella-stanza-6"
+  - "to-stella-stanza-7"
+  - "to-stella-stanza-8"
+  - "to-stella-stanza-9"
+  - "to-stella-stanza-10"
+  - "to-stella-stanza-11"
+  - "to-stella-stanza-12"
+  - "to-stella-translation-note"
+  "full_review_corrections_ja": []
+  "reference_amendment_reviews":
+  - "completed_at": "2026-10-21T00:09:16Z"
+    "reviewed_by": "Codex"
+    "previous_full_review":
+      "status": "complete"
+      "completed_at": "2026-10-20T23:58:53Z"
+      "reviewed_by": "Codex"
+      "content_sha256": "3f048c6280ac01c460f22446024f90a39e446a9f5312d8eff8b5cba9927ba23a"
+    "reference_ids":
+    - "to-stella-translation-note-ref"
+    "scope_ja": "既に全文対照を終えた原稿に、本文から訳注への参照一件を追加。参照元・訳注・異読記録の対応と描画時の往復だけを再確認。本文・訳注・原文・読書順は全件不変。全篇の新たな通読は行っていない。"

@@ -1,0 +1,1043 @@
+schema_version: '2.0'
+work_id: swift-predictions-for-the-year-1708
+metadata:
+  title_ja: 一七〇八年の予言
+  title_original: Predictions For The Year 1708
+  original_languages:
+  - en
+  target_language: ja
+  contributors:
+  - id: swift
+    name_ja: ジョナサン・スウィフト
+    name_original: Jonathan Swift
+    roles:
+    - author
+  - id: translator
+    name_ja: 心霊研究家ポロミン
+    name_original: null
+    roles:
+    - translator
+    url: https://x.com/cacazu_right
+  translation_rights:
+    status: unknown
+    attribution: 心霊研究家ポロミン
+    note_ja: 新訳の利用条件は未指定。原著と電子翻刻の条件を自動的に継承しない。
+  genres:
+  - 文学
+  - 風刺
+sources:
+- id: gutenberg-1090
+  role: primary
+  title: The Bickerstaff-Partridge Papers
+  languages:
+  - en
+  - la
+  url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm
+  edition: Project Gutenberg eBook 1090。1997年11月1日公開、2015年3月5日更新。印刷底本の版は未確認。
+  contributor_ids:
+  - swift
+  work_rights:
+    status: public_domain
+    evidence_url: https://www.gutenberg.org/ebooks/1090
+    note_ja: 原著者ジョナサン・スウィフトは1745年没。本篇は1708年の作品。Project Gutenbergは米国でパブリックドメインと表示。
+  transcription_rights:
+    status: licensed
+    license_id: LicenseRef-Project-Gutenberg
+    license_url: https://www.gutenberg.org/policy/license.html
+    attribution: Produced by An Anonymous Volunteer, and David Widger.
+  sha256: b92d8c5a9f940b890fdc128837aea0d0a28a8e43e336164d9b22ac65cf7a9a07
+  description_ja: 段落と読書順を保持。HTMLの組版用改行・連続空白のみ単一空白化。明示改行と原著の綴りは保持。照合による読みは異読記録へ区別する。
+- id: swift-works-1801-volume5-predictions
+  role: comparison
+  title: The Works of the Rev. Jonathan Swift, Volume V
+  languages:
+  - en
+  - la
+  url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/Predictions_For_the_Year_1708,_By_Isaac_Bickerstaff,_Esq.&oldid=10241414
+  edition: Thomas Sheridan編、John Nichols訂、London、1801年版、10頁以下のPredictions。英語Wikisource電子翻刻。
+  work_rights:
+    status: public_domain
+    note_ja: 1801年刊本中のスウィフト原著と古い編集注を、帰属と語句の確認に使用。
+  transcription_rights:
+    status: unknown
+    note_ja: 電子翻刻の付加的な編集要素の利用条件は未確認。原著語句・古い編集注の照合に限り使用。
+scope:
+  included:
+  - source_id: gutenberg-1090
+    section_ids:
+    - predictions
+    description_ja: PG1090の最初の篇。標題、副題、趣旨、筆名署名、序説、3月から9月までの予言、ラテン語引用、末尾の弁明を含む全文。
+  excluded:
+  - source_id: gutenberg-1090
+    description_ja: PG1090の編集標題・目次・電子版案内と、この篇以外の文章。後続のElegy、Epitaph、Partridge返答、Vindication、Merlin、Arbuthnot・Popeの文章は混ぜない。
+  known_gaps: []
+sections:
+- id: predictions
+  parent_id: null
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - bicker-predictions-000
+segments:
+- id: bicker-predictions-000
+  section_id: predictions
+  kind: heading
+  origin: source
+  source_text: Predictions For The Year 1708
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/h2[3]
+    line_start: 107
+    line_end: 109
+    source_sequence: 0
+  translation_ja: 一七〇八年の予言
+  translation_status: reviewed
+- id: bicker-predictions-001
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: Wherein the month, and day of the month are set down, the persons named, and the great actions and events of next year particularly related, as will come to pass.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[8]
+    line_start: 110
+    line_end: 114
+    source_sequence: 1
+  translation_ja: 来年起こる大きな行動と出来事を、それが起こるとおりに詳しく述べ、月日を記し、関係する人物の名を挙げたもの。
+  translation_status: reviewed
+  source_kind: subtitle
+- id: bicker-predictions-002
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: Written to prevent the people of England from being farther imposed on by vulgar almanack-makers.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[9]
+    line_start: 115
+    line_end: 118
+    source_sequence: 2
+  translation_ja: イングランドの人々が、俗な暦作りたちにこれ以上だまされないようにするために記す。
+  translation_status: reviewed
+  source_kind: prefatory_statement
+- id: bicker-predictions-003
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: By Isaac Bickerstaff, Esq.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[10]
+    line_start: 119
+    line_end: 121
+    source_sequence: 3
+  translation_ja: アイザック・ビッカースタッフ氏著
+  translation_status: reviewed
+  source_kind: pseudonymous_byline
+- id: bicker-predictions-004
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'I have long consider''d the gross abuse of astrology in this kingdom, and upon debating the matter with myself, I could not possibly lay the fault upon the art, but upon those gross impostors, who set up to be the artists. I know several learned men have contended that the whole is a cheat; that it is absurd and ridiculous to imagine, the stars can have any influence at all upon human actions, thoughts, or inclinations: And whoever has not bent his studies that way, may be excused for thinking so, when he sees in how wretched a manner that noble art is treated by a few mean illiterate traders between us and the stars; who import a yearly stock of nonsense, lyes, folly, and impertinence, which they offer to the world as genuine from the planets, tho'' they descend from no greater a height than their own brains.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[11]
+    line_start: 122
+    line_end: 135
+    source_sequence: 4
+  translation_ja: 私は、この王国で占星術がひどく悪用されていることを、長い間考えてきた。自分なりにあれこれ検討した末に、その罪を術そのものに負わせることは、どうしてもできなかった。責めるべきは、その術の使い手を名乗る、ひどい山師どもなのである。幾人もの学者が、何もかもがいかさまだ、星が人間の行動や思考や気質に、いささかでも影響するなどと考えるのは、ばかげていておかしい、と主張してきたのは承知している。この道を研究したことのない者がそう考えるのも、無理はない。この気高い術が、私たちと星々の間を仲介する、身分の低い無学な商売人たちによって、どれほど惨めに扱われているかを見れば、そうだろう。彼らは毎年、無意味な話、嘘、愚かさ、くだらないことをひと山仕入れ、惑星から届いた本物として世間に売りつける。だが、その出所は、彼ら自身の頭より高いところではないのだ。
+  translation_status: reviewed
+- id: bicker-predictions-005
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'I intend in a short time to publish a large and rational defence of this art, and therefore shall say no more in its justification at present, than that it hath been in all ages defended by many learned men, and among the rest by Socrates himself, whom I look upon as undoubtedly the wisest of uninspir''d mortals: To which if we add, that those who have condemned this art, though otherwise learned, having been such as either did not apply their studies this way, or at least did not succeed in their applications; their testimony will not be of much weight to its disadvantage, since they are liable to the common objection of condemning what they did not understand.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[12]
+    line_start: 136
+    line_end: 147
+    source_sequence: 5
+  translation_ja: 私は近いうちに、この術を理にかなった仕方で擁護する大部の書を出すつもりなので、今はその正当化について、これ以上述べない。ただ、どの時代にも多くの学者がこれを擁護してきたこと、なかにはソクラテスその人もいたことを言っておこう。神の霊感を受けなかった人間の中では、彼こそ疑いなく最も賢い者だったと、私は考えている。さらに、この術を非難した人々は、ほかのことには通じていても、この道には研究を向けなかったか、少なくとも研究して成果を挙げられなかった者たちだという点を加えれば、その証言がこの術に不利に働く重みは、大したものではあるまい。理解しないものを非難している、というよくある反論が、彼らには当てはまるからだ。
+  translation_status: reviewed
+- id: bicker-predictions-006
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: Nor am I at all offended, or think it an injury to the art, when I see the common dealers in it, the students in astrology, the philomaths, and the rest of that tribe, treated by wise men with the utmost scorn and contempt; but rather wonder, when I observe gentlemen in the country, rich enough to serve the nation in parliament, poring in Partridge's almanack, to find out the events of the year at home and abroad; not daring to propose a hunting-match, till Gadbury or he have fixed the weather.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[13]
+    line_start: 148
+    line_end: 156
+    source_sequence: 6
+  translation_ja: また、よくいるこの道の商売人、占星術の学徒、数理を好むと称する連中、その他同類の者たちが、賢者たちから徹底的に嘲られ、軽蔑されるのを見ても、私は少しも腹を立てず、この術が傷つけられたとも思わない。それよりむしろ驚くのは、議会で国に奉仕できるほど裕福な地方の紳士たちが、その年の国内外の出来事を知ろうと、パートリッジの暦をじっと読みふけっていることだ。ガドベリーか彼が天気を決めてくれるまでは、狩りの会を提案することさえ、あえてしないのである。
+  translation_status: reviewed
+- id: bicker-predictions-007
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'I will allow either of the two I have mentioned, or any other of the fraternity, to be not only astrologers, but conjurers too, if I do not produce a hundred instances in all their almanacks, to convince any reasonable man, that they do not so much as understand common grammar and syntax; that they are not able to spell any word out of the usual road, nor even in their prefaces write common sense or intelligible English. Then for their observations and predictions, they are such as will equally suit any age or country in the world. "This month a certain great person will be threatened with death or sickness." This the news-papers will tell them; for there we find at the end of the year, that no month passes without the death of some person of note; and it would be hard if it should be otherwise, when there are at least two thousand persons of not in this kingdom, many of them old, and the almanack-maker has the liberty of chusing the sickliest season of the year where he
+    may fix his prediction. Again, "This month an eminent clergyman will be preferr''d;" of which there may be some hundreds half of them with one foot in the grave. Then "such a planet in such a house shews great machinations, plots and conspiracies, that may in time be brought to light:" After which, if we hear of any discovery, the astrologer gets the honour; if not, his prediction still stands good. And at last, "God preserve King William from all his open and secret enemies, Amen." When if the King should happen to have died, the astrologer plainly foretold it; otherwise it passes but for the pious ejaculation of a loyal subject: Though it unluckily happen''d in some of their almanacks, that poor King William was pray''d for many months after he was dead, because it fell out that he died about the beginning of the year.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[14]
+    line_start: 157
+    line_end: 184
+    source_sequence: 7
+  translation_ja: 今挙げた二人でも、その仲間のほかの誰でも、私がその暦の中から百の実例を示せなかったら、占星術師どころか魔術師だとさえ認めよう。その実例を見れば、理性のある人なら誰でも、彼らが普通の文法や構文さえ理解していないこと、ありふれた範囲を少しでも外れる単語は綴れず、序文でさえ、筋の通ることや、意味のわかる英語を書けないことを、納得するはずである。さて、その観測と予言に至っては、世界のどの時代、どの国にも同じように当てはまるものばかりだ。「今月、ある大人物が、死または病に脅かされるだろう。」そのくらいは新聞が教えてくれる。年末に新聞を振り返れば、名のある誰かが死なない月など、ないとわかるからだ。この王国だけでも、少なくとも二千人の名士がおり、その多くは高齢で、暦作りには、予言を置く時期として一年で最も病人の多い季節を選ぶ自由まであるのだから、そうならないほうが難しい。また、「今月、高名な聖職者が昇進するだろう」。そういう聖職者は何百人もいて、その半分は墓穴に片足を入れているかもしれない。次には、「ある惑星がある宮にあることは、大きなたくらみ、陰謀、謀反のしるしであり、それらはいずれ明るみに出るかもしれない」。そのあとで何かの発覚を聞けば、占星術師の手柄となる。聞かなければ、その予言はまだ有効なのだ。そして最後は、「神よ、公然の敵からも隠れた敵からも、ウィリアム王をお守りください。アーメン」。もし王がたまたま亡くなれば、占星術師は、それをはっきり予言していたことになる。そうでなければ、忠実な臣民の敬虔な祈りで済む。ただし一部の暦では、気の毒なウィリアム王が死んでからも、何か月もそのために祈り続けるという、まずいことになった。王は、たまたま年の初めごろに亡くなったからである。
+  translation_status: reviewed
+  source_variants:
+  - kind: comparison
+    text: persons of note
+    source_locations:
+    - source_id: swift-works-1801-volume5-predictions
+      precision: work
+      url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/Predictions_For_the_Year_1708,_By_Isaac_Bickerstaff,_Esq.&oldid=10241414
+    description_ja: 対応語句のみ。底本のpersons of notを原文のまま保持し、前後と1801年版のpersons of noteを照合して「名士」と訳した。
+- id: bicker-predictions-008
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'To mention no more of their impertinent predictions: What have we to do with their advertisements about pills and drink for the venereal disease? Or their mutual quarrels in verse and prose of Whig and Tory, wherewith the stars have little to do?'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[15]
+    line_start: 185
+    line_end: 190
+    source_sequence: 8
+  translation_ja: 彼らのくだらない予言は、これ以上挙げまい。性病の丸薬や飲み薬の広告など、私たちに何の関係があるのか。また、韻文や散文で、ホイッグだトーリーだと互いに争うことに、星々はほとんど関係がないではないか。
+  translation_status: reviewed
+- id: bicker-predictions-009
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'Having long observed and lamented these, and a hundred other abuses of this art, too tedious to repeat, I resolved to proceed in a new way, which I doubt not will be to the general satisfaction of the kingdom: I can this year produce but a specimen of what I design for the future; having employ''d most part of my time in adjusting and correcting the calculations I made some years past, because I would offer nothing to the world of which I am not as fully satisfied, as that I am now alive. For these two last years I have not failed in above one or two particulars, and those of no very great moment. I exactly foretold the miscarriage at Toulon, with all its particulars; and the loss of Admiral Shovel, tho'' I was mistaken as to the day, placing that accident about thirty-six hours sooner than it happen''d; but upon reviewing my schemes, I quickly found the cause of that error. I likewise foretold the Battle of Almanza to the very day and hour, with the loss on both sides, and
+    the consequences thereof. All which I shewed to some friends many months before they happened, that is, I gave them papers sealed up, to open at such a time, after which they were at liberty to read them; and there they found my predictions true in every article, except one or two, very minute.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[16]
+    line_start: 191
+    line_end: 210
+    source_sequence: 9
+  translation_ja: 私は、これらをはじめ、繰り返せば退屈になる、百ものこの術の悪用を、長い間見て嘆いてきた。そこで、新しい道を進むことに決めた。王国全体を満足させるものになると、私は確信している。今年示せるのは、将来の構想の見本だけである。数年前に行った計算を調整し、訂正するのに、時間の大半を費やしたからだ。今自分が生きていることと同じほど確信できないものは、何一つ世に出したくなかったのである。この二年間、私が外したのは、一つか二つの細部だけで、それも大した重要性のないものだった。トゥーロンでの失敗は、あらゆる細部に至るまで正確に予告した。ショヴェル提督の喪失もそうだった。ただ、日を誤り、実際に起きた時刻より三十六時間ほど早く置いてしまった。しかし星の配置図を調べ直すと、すぐにその誤りの原因がわかった。アルマンサの戦いも、両軍の損失とその後の結果まで含め、日付と時刻を正確に予告した。これらはすべて、起きる何か月も前に友人たちに示しておいた。つまり、封をした書類を渡し、しかるべき時刻に開封してもらい、そのあと自由に読めるようにしたのである。すると友人たちは、ごく小さな一つか二つの点を除き、私の予言がすべての項目で正しかったと知ったのだ。
+  translation_status: reviewed
+- id: bicker-predictions-010
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'As for the few following predictions I now offer the world, I forbore to publish them till I had perused the several almanacks for the year we are now enter''d on. I find them in all the usual strain, and I beg the reader will compare their manner with mine: And here I make bold to tell the world, that I lay the whole credit of my art upon the truth of these predictions; and I will be content, that Partridge, and the rest of his clan, may hoot me for a cheat and impostor, if I fail in any singular particular of moment. I believe, any man who reads this paper, will look upon me to be at least a person of as much honesty and understanding, as a common maker of almanacks. I do not lurk in the dark; I am not wholly unknown in the world; I have set my name at length, to be a mark of infamy to mankind, if they shall find I deceive them.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[17]
+    line_start: 211
+    line_end: 224
+    source_sequence: 10
+  translation_ja: 今回世に示す、以下のいくつかの予言については、今入ったこの年の各種の暦を調べ終わるまで、公表を控えていた。どれも相変わらずの調子だった。読者には、彼らのやり方と私のやり方とを比べてもらいたい。ここではっきり世に告げておく。私はこの予言が真実かどうかに、自分の術の信用のすべてを賭ける。重要な点で、一つでも具体的に外したなら、パートリッジ一党に、いかさま師だ、山師だとやじられても、甘んじて受けよう。この文を読む者は誰でも、私を、少なくとも普通の暦作りに劣らないほど、正直で理解力のある人物だと見るだろう。私は闇に隠れてはいない。世間にまったく知られない人間でもない。氏名を省略せずに記したのだから、人々が私にだまされたと知ったなら、その名を人類の不名誉のしるしにできるのである。
+  translation_status: reviewed
+- id: bicker-predictions-011
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'In one thing I must desire to be forgiven, that I talk more sparingly of home-affairs: As it will be imprudence to discover secrets of state, so it would be dangerous to my person; but in smaller matters, and that are not of publick consequence, I shall be very free; and the truth of my conjectures will as much appear from those as the other. As for the most signal events abroad in France, Flanders, Italy and Spain, I shall make no scruple to predict them in plain terms: Some of them are of importance, and I hope I shall seldom mistake the day they will happen; therefore, I think good to inform the reader, that I all along make use of the Old Style observed in England, which I desire he will compare with that of the news-papers, at the time they relate the actions I mention.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[18]
+    line_start: 225
+    line_end: 237
+    source_sequence: 11
+  translation_ja: 一つだけ、お許しいただきたいことがある。国内の事柄については、口数を控えるということだ。国家の秘密を明かすのは軽率であり、私自身の身にも危険が及ぶだろう。だが、小さな事柄で、公の重大事にかかわらないものについては、遠慮なく語ろう。私の推測の正しさは、大事からと同じくらい、小事からも明らかになるはずだ。国外のフランス、フランドル、イタリア、スペインで起きる、特に大きな出来事は、ためらわず平明な言葉で予言する。重要なものもいくつかあり、起きる日を外すことは、めったにないと望んでいる。そこで読者に知らせておこう。私は一貫して、イングランドで用いられる旧暦を使う。私の述べる出来事が報道されたときには、新聞の日付と照らし合わせてもらいたい。
+  translation_status: reviewed
+- id: bicker-predictions-012
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'I must add one word more: I know it hath been the opinion of several of the learned, who think well enough of the true art of astrology, That the stars do only incline, and not force the actions or wills of men: And therefore, however I may proceed by right rules, yet I cannot in prudence so confidently assure the events will follow exactly as I predict them.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[19]
+    line_start: 238
+    line_end: 244
+    source_sequence: 12
+  translation_ja: もう一言付け加えなければならない。真の占星術を十分に評価する学者のうちにも、星は人の行動や意志に傾向を与えるだけで、強制するのではない、と考える者が幾人もいることを、私は知っている。この見方からすれば、私は、いかに正しい規則に従って進めても、出来事が予言どおり正確に起きると、それほど自信をもって言い切るわけにはいかない、ということになる。
+  translation_status: reviewed
+- id: bicker-predictions-013
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'I hope I have maturely considered this objection, which in some cases is of no little weight. For example: A man may, by the influence of an over-ruling planet, be disposed or inclined to lust, rage, or avarice, and yet by the force of reason overcome that bad influence; and this was the case of Socrates: But as the great events of the world usually depend upon numbers of men, it cannot be expected they should all unite to cross their inclinations, from pursuing a general design, wherein they unanimously agree. Besides the influence of the stars reaches to many actions and events which are not any way in the power of reason; as sickness, death, and what we commonly call accidents, with many more, needless to repeat.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[20]
+    line_start: 245
+    line_end: 256
+    source_sequence: 13
+  translation_ja: 私はこの反論を、十分に考え抜いたつもりである。場合によっては、その重みは小さくない。たとえば人は、支配的な惑星の影響で、淫欲、怒り、貪欲へ向かう性向や傾きを持っても、理性の力によって、その悪い影響に打ち勝つかもしれない。ソクラテスの場合は、まさにそうだった。だが、世の大きな出来事は、普通、多数の人間に左右される。だから、全員一致の大きな計画を進めようとするのをやめ、皆がそろって、自分たちの気持ちに逆らうとは、期待できない。加えて、星の影響は、理性の力ではどうにもならない多くの行動や出来事にも及ぶ。病、死、一般に事故と呼ばれるものなど、ここで繰り返すまでもない、多くのものがある。
+  translation_status: reviewed
+- id: bicker-predictions-014
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'But now it is time to proceed to my predictions, which I have begun to calculate from the time that the Sun enters into Aries. And this I take to be properly the beginning of the natural year. I pursue them to the time that he enters Libra, or somewhat more, which is the busy period of the year. The remainder I have not yet adjusted, upon account of several impediments needless here to mention: Besides, I must remind the reader again, that this is but a specimen of what I design in succeeding years to treat more at large, if I may have liberty and encouragement.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[21]
+    line_start: 257
+    line_end: 266
+    source_sequence: 14
+  translation_ja: さて、そろそろ予言に進む時である。計算は、太陽が白羊宮に入る時から始めた。これこそ、自然の一年の始まりと呼ぶべき時だと、私は考える。そこから、太陽が天秤宮に入る時まで、あるいは少し先まで、追っていく。一年のうちで、活動の盛んな時期である。残りは、ここで挙げるまでもない、いくつかの妨げのため、まだ調整を終えていない。それに、もう一度読者に思い出してもらいたい。これは、自由と励ましをいただけるなら、今後の年にはもっと詳しく扱いたいと考えていることの、ただの見本なのである。
+  translation_status: reviewed
+- id: bicker-predictions-015
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'My first prediction is but a trifle, yet I will mention it, to show how ignorant those sottish pretenders to astrology are in their own concerns: It relates to Partridge the almanack-maker; I have consulted the stars of his nativity by my own rules, and find he will infallibly die upon the 29th of March next, about eleven at night, of a raging fever; therefore I advise him to consider of it, and settle his affairs in time.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[22]
+    line_start: 267
+    line_end: 274
+    source_sequence: 15
+  translation_ja: 最初の予言は、ほんの些細なものだ。それでも挙げておこう。占星術師を気取るあの間抜けどもが、自分自身のことについてさえ、どれほど無知かを示すためである。これは暦作りのパートリッジに関するものだ。私は自分の規則に従って、彼の誕生時の星を調べた。その結果、来たる3月29日、夜11時ごろ、激しい熱病で間違いなく死ぬとわかった。だから、このことをよく考え、手遅れにならないうちに、身辺を整えるよう忠告する。
+  translation_status: reviewed
+- id: bicker-predictions-016
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'The month of April will be observable for the death of many great persons. On the 4th will die the Cardinal de Noailles, Archbishop of Paris: On the 11th the young Prince of Asturias, son to the Duke of Anjou: On the 14th a great peer of this realm will die at his country-house: On the 19th an old layman of great fame for learning: and on the 23rd an eminent goldsmith in Lombard-Street. I could mention others, both at home and abroad, if I did not consider it is of very little use or instruction to the reader, or to the world.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[23]
+    line_start: 275
+    line_end: 284
+    source_sequence: 16
+  translation_ja: 4月は、多くの大人物の死によって注目される。4日には、パリ大司教ノアイユ枢機卿が死ぬ。11日には、アンジュー公の息子、幼いアストゥリアス公が死ぬ。14日には、この王国の大貴族が田舎の屋敷で死ぬ。19日には、学識で大いに名を知られた老齢の在俗者が、23日には、ロンバード街の有名な金細工師が死ぬ。国内外のほかの者も挙げられるが、読者にも世間にも、ほとんど役に立たず、教訓にもならないことを思い、とどめておく。
+  translation_status: reviewed
+- id: bicker-predictions-017
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'As to publick affairs: On the 7th of this month there will be an insurrection in Dauphine, occasion''d by the oppressions of the people, which will not be quieted in some months.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[24]
+    line_start: 285
+    line_end: 289
+    source_sequence: 17
+  translation_ja: 公の事柄については、この月の7日、民への圧政を原因として、ドーフィネで反乱が起きる。これは何か月もの間、鎮まらない。
+  translation_status: reviewed
+- id: bicker-predictions-018
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: On the 15th will be a violent storm on the south-east coast of France, which will destroy many of their ships, and some in the very harbour.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[25]
+    line_start: 290
+    line_end: 293
+    source_sequence: 18
+  translation_ja: 15日には、フランスの南東海岸で激しい嵐が起こり、多くの船が壊れる。港の中にいる船も、いくつか含まれる。
+  translation_status: reviewed
+- id: bicker-predictions-019
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: The 19th will be famous for the revolt of a whole province or kingdom, excepting one city, by which the affairs of a certain prince in the alliance will take a better face.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[26]
+    line_start: 294
+    line_end: 298
+    source_sequence: 19
+  translation_ja: 19日は、ある州、または王国の全土が、一つの都市を除いて反乱を起こすことで名を残す。それによって、同盟側のある君主の形勢は、好転する。
+  translation_status: reviewed
+- id: bicker-predictions-020
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: May, against common conjectures, will be no very busy month in Europe, but very signal for the death of the Dauphin, which will happen on the 7th, after a short fit of sickness, and grievous torments with the strangury. He dies less lamented by the court than the kingdom.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[27]
+    line_start: 299
+    line_end: 304
+    source_sequence: 20
+  translation_ja: 5月は、一般の予想に反して、ヨーロッパではそれほど動きの多い月にはならない。ただ、フランス王太子の死によって、ひときわ目立つことになる。王太子は、短い病と、排尿困難による激しい苦痛のあと、7日に死ぬ。宮廷がその死を惜しむ気持ちは、国民ほどではない。
+  translation_status: reviewed
+- id: bicker-predictions-021
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: On the 9th a Mareschal of France will break his leg by a fall from his horse. I have not been able to discover whether he will then die or not.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[28]
+    line_start: 305
+    line_end: 308
+    source_sequence: 21
+  translation_ja: 9日には、フランスのある元帥が、落馬して脚を折る。そのとき死ぬかどうかまでは、突き止められなかった。
+  translation_status: reviewed
+- id: bicker-predictions-022
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'On the 11th will begin a most important siege, which the eyes of all Europe will be upon: I cannot be more particular: for in relating affairs that so nearly concern the Confederates, and consequently this Kingdom, I am forced to confine myself, for several reasons very obvious to the reader.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[29]
+    line_start: 309
+    line_end: 315
+    source_sequence: 22
+  translation_ja: 11日には、ヨーロッパ中が注目する、きわめて重要な包囲戦が始まる。これ以上詳しくは言えない。同盟諸国、したがって、この王国とこれほど深くかかわる事柄を述べるには、読者にもよくわかるいくつかの理由から、私は口を慎まざるをえないのである。
+  translation_status: reviewed
+- id: bicker-predictions-023
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: On the 15th news will arrive of a very surprizing event, than which nothing could be more unexpected.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[30]
+    line_start: 316
+    line_end: 319
+    source_sequence: 23
+  translation_ja: 15日には、これほど予想外のことはないという、たいそう驚くべき出来事の報せが届く。
+  translation_status: reviewed
+- id: bicker-predictions-024
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: On the 19th three noble ladies of this Kingdom will, against all expectation, prove with child, to the great joy of their husbands.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[31]
+    line_start: 320
+    line_end: 323
+    source_sequence: 24
+  translation_ja: 19日には、この王国の貴婦人三人が、あらゆる予想に反して、身ごもっていることがわかり、夫たちを大いに喜ばせる。
+  translation_status: reviewed
+- id: bicker-predictions-025
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: On the 23rd a famous buffoon of the play-house will die a ridiculous death, suitable to his vocation.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[32]
+    line_start: 324
+    line_end: 327
+    source_sequence: 25
+  translation_ja: 23日には、劇場の名高い道化役者が、その職業にふさわしい、ばかばかしい死に方をする。
+  translation_status: reviewed
+- id: bicker-predictions-026
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: June. This month will be distinguish'd at home, by the utter dispersing of those ridiculous deluded enthusiasts, commonly call'd the Prophets; occasion'd chiefly by seeing the time come that many of their prophecies should be fulfill'd, and then finding themselves deceiv'd by contrary events. It is indeed to be admir'd how any deceiver can be so weak, to foretel things near at hand, when a very few months must of necessity discover the impostor to all the world; in this point less prudent than common almanack-makers, who are so wise to wonder in generals, and talk dubiously, and leave to the reader the business of interpreting.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[33]
+    line_start: 328
+    line_end: 338
+    source_sequence: 26
+  translation_ja: 6月。この月、国内で目立つのは、一般に「預言者」と呼ばれる、あのばかげた、妄信に陥った狂信者たちが、完全に離散することである。主な原因は、多くの預言が成就するはずの時を迎えてみると、反対の出来事が起こり、自分たちがだまされていたとわかることにある。実際、どんな山師であれ、目の前のことを予言するほど愚かでいられるとは、驚くべきことだ。ほんの数か月のうちに、必ずその正体が世間中に知られてしまうのだから。この点では、普通の暦作りより用心が足りない。普通の連中は賢いので、大まかな話の中をうろつき、曖昧に語り、解釈する仕事は読者に任せておくのである。
+  translation_status: reviewed
+  source_variants:
+  - kind: comparison
+    text: wander in generals
+    source_locations:
+    - source_id: swift-works-1801-volume5-predictions
+      precision: work
+      url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/Predictions_For_the_Year_1708,_By_Isaac_Bickerstaff,_Esq.&oldid=10241414
+    description_ja: 対応語句のみ。底本のwonder in generalsを原文のまま保持し、1801年版のwander in generalsを照合して、曖昧な一般論の中をうろつく意味に訳した。
+- id: bicker-predictions-027
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: On the 1st of this month a French general will be killed by a random shot of a cannon-ball.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[34]
+    line_start: 339
+    line_end: 342
+    source_sequence: 27
+  translation_ja: この月の1日には、フランスのある将軍が、たまたま飛んできた砲弾に当たって死ぬ。
+  translation_status: reviewed
+- id: bicker-predictions-028
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: On the 6th a fire will break out in the suburbs of Paris, which will destroy above a thousand houses; and seems to be the foreboding of what will happen, to the surprize of all Europe, about the end of the following month.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[35]
+    line_start: 343
+    line_end: 348
+    source_sequence: 28
+  translation_ja: 6日には、パリの郊外で火事が起こり、千軒を超える家が焼ける。これは、翌月末ごろ、ヨーロッパ全体を驚かせる出来事の前兆らしい。
+  translation_status: reviewed
+- id: bicker-predictions-029
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: On the 10th a great battle will be fought, which will begin at four of the clock in the afternoon; and last till nine at night with great obstinacy, but no very decisive event. I shall not name the place, for the reasons aforesaid; but the commanders on each left wing will be killed.—I see bonfires, and hear the noise of guns for a victory.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[36]
+    line_start: 349
+    line_end: 355
+    source_sequence: 29
+  translation_ja: 10日には大きな戦いがあり、午後4時に始まり、夜9時まで、両軍とも激しく粘り強く戦うが、あまり決定的な結果には至らない。先に挙げた理由で、場所の名は言わない。ただし、両軍とも左翼の指揮官が戦死する。――私には、勝利を祝うかがり火が見え、祝砲の音が聞こえる。
+  translation_status: reviewed
+- id: bicker-predictions-030
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: On the 14th there will be a false report of the French king's death.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[37]
+    line_start: 356
+    line_end: 358
+    source_sequence: 30
+  translation_ja: 14日には、フランス王が死んだという誤報が流れる。
+  translation_status: reviewed
+- id: bicker-predictions-031
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: On the 20th Cardinal Portocarero will die of a dysentery, with great suspicion of poison; but the report of his intention to revolt to King Charles, will prove false.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[38]
+    line_start: 359
+    line_end: 363
+    source_sequence: 31
+  translation_ja: 20日には、ポルトカレーロ枢機卿が赤痢で死に、毒殺ではないかと強く疑われる。だが、カルロス王へ寝返るつもりだったという噂は、誤りとわかる。
+  translation_status: reviewed
+- id: bicker-predictions-032
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: July. The 6th of this month a certain general will, by a glorious action, recover the reputation he lost by former misfortunes.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[39]
+    line_start: 364
+    line_end: 367
+    source_sequence: 32
+  translation_ja: 7月。この月の6日、ある将軍が、輝かしい戦功によって、以前の不運で失った名声を取り戻す。
+  translation_status: reviewed
+- id: bicker-predictions-033
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: On the 12th a great commander will die a prisoner in the hands of his enemies.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[40]
+    line_start: 368
+    line_end: 371
+    source_sequence: 33
+  translation_ja: 12日には、ある大指揮官が、敵の捕虜のまま死ぬ。
+  translation_status: reviewed
+- id: bicker-predictions-034
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: On the 14th a shameful discovery will be made of a French Jesuit, giving poison to a great foreign general; and when he is put to the torture, will make wonderful discoveries.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[41]
+    line_start: 372
+    line_end: 376
+    source_sequence: 34
+  translation_ja: 14日には、フランスのあるイエズス会士が、外国の偉大な将軍に毒を盛るという、恥ずべき行為が発覚する。この男は拷問にかけられると、驚くべき数々の事実を明かす。
+  translation_status: reviewed
+- id: bicker-predictions-035
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: In short this will prove a month of great action, if I might have liberty to relate the particulars.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[42]
+    line_start: 377
+    line_end: 380
+    source_sequence: 35
+  translation_ja: 要するに、詳しいことを述べる自由さえあれば、大きな活動の月になるとわかるはずだ。
+  translation_status: reviewed
+- id: bicker-predictions-036
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: At home, the death of an old famous senator will happen on the 15th at his country-house, worn with age and diseases.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[43]
+    line_start: 381
+    line_end: 384
+    source_sequence: 36
+  translation_ja: 国内では、年と病に衰えた、老齢の名高い議員が、15日に田舎の屋敷で死ぬ。
+  translation_status: reviewed
+- id: bicker-predictions-037
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: But that which will make this month memorable to all posterity, is the death of the French King, Lewis the fourteenth, after a week's sickness at Marli, which will happen on the 29th, about six o'clock in the evening. It seems to be an effect of the gout in his stomach, followed by a flux. And in three days after Monsieur Chamillard will follow his master, dying suddenly of an appoplexy.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[44]
+    line_start: 385
+    line_end: 392
+    source_sequence: 37
+  translation_ja: だが、この月をすべての後世の人々の記憶に残すのは、フランス王ルイ十四世の死である。マルリーで一週間病んだのち、29日の夕方6時ごろに死ぬ。胃に起こった痛風に、下痢が続いた結果らしい。その三日後には、シャミヤール氏も、卒中で突然死に、主君のあとを追う。
+  translation_status: reviewed
+- id: bicker-predictions-038
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: In this month likewise an ambassador will die in London; but I cannot assign the day.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[45]
+    line_start: 393
+    line_end: 396
+    source_sequence: 38
+  translation_ja: 同じ月に、ロンドンで大使が一人死ぬ。ただし、日付は指定できない。
+  translation_status: reviewed
+- id: bicker-predictions-039
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: August. The affairs of France will seem to suffer no change for a while under the Duke of Burgundy's administration; but the genius that animated the whole machine being gone, will be the cause of mighty turns and revolutions in the following year. The new King makes yet little change either in the army or the ministry; but the libels against his grandfather, that fly about his very court, give him uneasiness.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[46]
+    line_start: 397
+    line_end: 404
+    source_sequence: 39
+  translation_ja: 8月。ブルゴーニュ公の統治のもとで、フランスの情勢は、しばらく何も変わらないように見える。だが、機構全体に活力を与えていた才気が失われたことが、翌年、大きな転変と変革の原因となる。新王はまだ、軍にも政府にも、ほとんど変更を加えない。しかし、祖父を中傷する文書が、自分の宮廷にまで飛び交い、不安を感じている。
+  translation_status: reviewed
+- id: bicker-predictions-040
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: I see an express in mighty haste, with joy and wonder in his looks, arriving by break of day on the 26th of this month, having travell'd in three days a prodigious journey by land and sea. In the evening I hear bells and guns, and see the blazing of a thousand bonfires.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[47]
+    line_start: 405
+    line_end: 410
+    source_sequence: 40
+  translation_ja: この月の26日、夜明けとともに、顔に喜びと驚きを浮かべた急使が、大急ぎで到着するのが、私には見える。陸と海を渡る途方もない道のりを、三日で駆けてきたのだ。その晩には、鐘と砲の音が聞こえ、千のかがり火が燃え上がるのが見える。
+  translation_status: reviewed
+- id: bicker-predictions-041
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: A young admiral of noble birth, does likewise this month gain immortal honour by a great achievement.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[48]
+    line_start: 411
+    line_end: 414
+    source_sequence: 41
+  translation_ja: 高貴な生まれの若い提督も、この月、大きな功績によって、不滅の栄誉を得る。
+  translation_status: reviewed
+- id: bicker-predictions-042
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'The affairs of Poland are this month entirely settled: Augustus resigns his pretensions which he had again taken up for some time: Stanislaus is peaceably possess''d of the throne; and the King of Sweden declares for the Emperor.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[49]
+    line_start: 415
+    line_end: 420
+    source_sequence: 42
+  translation_ja: ポーランドの情勢は、この月、完全に落ち着く。アウグストは、しばらく前に再び唱えていた王位への要求を取り下げ、スタニスワフが、穏やかに王位を保つ。スウェーデン王は、皇帝を支持すると表明する。
+  translation_status: reviewed
+- id: bicker-predictions-043
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: I cannot omit one particular accident here at home; that near the end of this month much mischief will be done at Bartholomew Fair, by the fall of a booth.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[50]
+    line_start: 421
+    line_end: 425
+    source_sequence: 43
+  translation_ja: 国内で起きる、ある事故も省くわけにはいかない。月末近く、バーソロミューの市で、露店の倒壊によって大きな被害が出る。
+  translation_status: reviewed
+- id: bicker-predictions-044
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: September. This month begins with a very surprizing fit of frosty weather, which will last near twelve days.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[51]
+    line_start: 426
+    line_end: 429
+    source_sequence: 44
+  translation_ja: 9月。この月は、きわめて意外な、霜の降りる寒さで始まり、十二日ほど続く。
+  translation_status: reviewed
+- id: bicker-predictions-045
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: The Pope having long languish'd last month, the swellings in his legs breaking, and the flesh mortifying, will die on the 11th instant; and in three weeks time, after a mighty contest, be succeeded by a cardinal of the imperial faction, but native of Tuscany, who is now about sixty-one years old.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[52]
+    line_start: 430
+    line_end: 436
+    source_sequence: 45
+  translation_ja: 教皇は前の月から長く衰え、脚の腫れが破れ、肉が壊疽に陥り、この月の11日に死ぬ。それから三週間のうちに、激しい争いの末、皇帝派に属しながら、トスカーナ出身の、現在六十一歳ほどの枢機卿が、後を継ぐ。
+  translation_status: reviewed
+- id: bicker-predictions-046
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: The French army acts now wholly on the defensive, strongly fortify'd in their trenches; and the young French King sends overtures for a treaty of peace by the Duke of Mantua; which, because it is a matter of state that concerns us here at home, I shall speak no farther of it.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[53]
+    line_start: 437
+    line_end: 442
+    source_sequence: 46
+  translation_ja: フランス軍は今や、塹壕を固く守って、もっぱら防戦に回る。若いフランス王は、マントヴァ公を通じ、和平条約の打診をする。これは、国内の私たちにもかかわる国政上の事柄なので、これ以上は語らない。
+  translation_status: reviewed
+- id: bicker-predictions-047
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: I shall add but one prediction more, and that in mystical terms, which shall be included in a verse out of Virgil,
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[54]
+    line_start: 443
+    line_end: 446
+    source_sequence: 47
+  translation_ja: もう一つだけ予言を加えよう。これは謎めいた言葉とし、ウェルギリウスの詩句に込めることにする。
+  translation_status: reviewed
+- id: bicker-predictions-048
+  section_id: predictions
+  kind: verse
+  origin: source
+  source_text: Alter erit jam Tethys, & altera quae vehat Argo. Delectos heroas.
+  source_languages:
+  - la
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[55]
+    line_start: 447
+    line_end: 449
+    source_sequence: 48
+  translation_ja: また別のテテュスが現れ、また別のアルゴー船が、選ばれた英雄たちを乗せて行くだろう。
+  translation_status: reviewed
+  source_variants:
+  - kind: comparison
+    text: 'Alter erit jam Tethys, et altera quæ vehat Argo
+
+      Delectos heroas.'
+    source_locations:
+    - source_id: swift-works-1801-volume5-predictions
+      precision: work
+      url: https://en.wikisource.org/w/index.php?title=The_Works_of_the_Rev._Jonathan_Swift/Volume_5/Predictions_For_the_Year_1708,_By_Isaac_Bickerstaff,_Esq.&oldid=10241414
+    description_ja: 対応語句のみ。1801年版もTethysと綴る。原文を訂正せず、日本語でもテテュスと音写した。
+- id: bicker-predictions-049
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: Upon the 25th day of this month, the fulfilling of this prediction will be manifest to every body.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[56]
+    line_start: 450
+    line_end: 453
+    source_sequence: 49
+  translation_ja: この月の25日には、この予言の成就が、誰の目にも明らかになる。
+  translation_status: reviewed
+- id: bicker-predictions-050
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'This is the farthest I have proceeded in my calculations for the present year. I do not pretend, that these are all the great events which will happen in this period, but that those I have set down will infallibly come to pass. It will perhaps still be objected, why I have not spoke more particularly of affairs at home, or of the success of our armies abroad, which I might, and could very largely have done; but those in power have wisely discouraged men from meddling in publick concerns, and I was resolv''d by no means to give the least offence. This I will venture to say, That it will be a glorious campaign for the allies, wherein the English forces, both by sea and land, will have their full share of honour: That her Majesty Queen Anne will continue in health and prosperity: And that no ill accident will arrive to any of the chief ministry.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[57]
+    line_start: 454
+    line_end: 468
+    source_sequence: 50
+  translation_ja: 今年の計算を、今のところ進めたのは、ここまでである。この期間に起きる大事件は、これだけだと主張するつもりはない。ただ、書き記したものは、間違いなく起きると言っているのだ。それでもなお、国内の事柄や、海外でのわが軍の戦果について、なぜもっと詳しく話さなかったのか、と異論が出るかもしれない。そうすることもできたし、詳しく述べるだけの材料も、十分あった。しかし、権力を持つ人々は、国の問題に手を出すなと、賢明にも人々を戒めておられるので、私は、わずかでも機嫌を損ねることは、決してすまいと決めていた。これだけは、あえて言おう。同盟諸国にとって、輝かしい戦役となるだろう。イングランド軍も、海陸ともに、その栄誉を十分に分かつだろう。アン女王陛下は、引き続き健やかに、栄えられるだろう。そして、主要な閣僚の誰にも、悪い事故は起こらないだろう。
+  translation_status: reviewed
+- id: bicker-predictions-051
+  section_id: predictions
+  kind: paragraph
+  origin: source
+  source_text: 'As to the particular events I have mention''d, the readers may judge by the fulfilling of ''em, whether I am on the level with common astrologers; who, with an old paultry cant, and a few pothook for planets, to amuse the vulgar, have, in my opinion, too long been suffer''d to abuse the world: But an honest physician ought not to be despis''d, because there are such things as mountebanks. I hope I have some share of reputation, which I would not willingly forfeit for a frolick or humour: And I believe no gentleman, who reads this paper, will look upon it to be of the same cast or mould with the common scribblers that are every day hawk''d about. My fortune has placed me above the little regard of scribbling for a few pence, which I neither value or want: Therefore let no wise men too hastily condemn this essay, intended for a good design, to cultivate and improve an ancient art, long in disgrace, by having fallen into mean and unskilful hands. A little time will determine
+    whether I have deceived others or myself: and I think it is no very unreasonable request, that men would please to suspend their judgments till then. I was once of the opinion with those who despise all predictions from the stars, till the year 1686, a man of quality shew''d me, written in his album, That the most learned astronomer, Captain H. assured him, he would never believe any thing of the stars'' influence, if there were not a great revolution in England in the year 1688. Since that time I began to have other thoughts, and after eighteen years diligent study and application, I think I have no reason to repent of my pains. I shall detain the reader no longer, than to let him know, that the account I design to give of next year''s events, shall take in the principal affairs that happen in Europe; and if I be denied the liberty of offering it to my own country, I shall appeal to the learned world, by publishing it in Latin, and giving order to have it printed in Holland.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0001
+    xpath: /html[1]/body[1]/p[58]
+    line_start: 469
+    line_end: 498
+    source_sequence: 51
+  translation_ja: 述べてきた個々の出来事については、その成就によって、私が普通の占星術師と同じ水準かどうか、読者に判断してもらえばよい。古びた安っぽい決まり文句と、惑星を表す、二つ三つの引っかき文字で、俗人を面白がらせる、ああいう連中が世間をだますのを、放っておいた期間は長すぎると、私は思う。だが、いかさま薬売りというものがあるからといって、正直な医者まで軽蔑すべきではない。私にも、いくらかの評判はあるつもりだ。戯れや気まぐれのために、それを進んで失いたくはない。この文を読む紳士であれば、日々呼び売りされる、ありふれた駄文と同じ型から出たものとは、見ないだろうと信じる。私の資産は、二、三ペンスのために書き散らすなどという、けちな考えを超えたところに、私を置いてくれた。そのはした金は、欲しいとも思わず、必要でもない。だから賢い人々には、この試みを、あまり急いで非難しないでもらいたい。卑しく未熟な者の手に落ちて、長く不名誉にまみれてきた古い術を育て、改良するという、善い目的のためのものなのである。少し時がたてば、私がだましたのが他人だったか、自分自身だったかは、決着する。それまでは判断を控えていただきたいというのは、さほど無理な頼みではあるまい。私もかつては、星からなされる予言をすべて蔑む人々と、同じ意見だった。ところが一六八六年、ある身分の高い人が、手帳に書いてあったことを見せてくれた。きわめて学識豊かな天文学者、H船長が、一六八八年にイングランドで大きな革命が起こらなければ、星の影響については何一つ信じまい、とその人に断言したというのである。そのときから、私は別の考えを持ち始めた。そして十八年間、勤勉に研究し、力を尽くした今、その労を悔やむ理由はないと思っている。読者を引き止めるのは、あと一つだけだ。来年の出来事について予定している報告では、ヨーロッパで起こる主な事柄を取り上げるつもりである。自国にそれを差し出す自由を認めてもらえなければ、ラテン語で公表し、オランダで印刷するよう手配して、学識ある世界に訴えよう。
+  translation_status: reviewed
+notes: []
+references: []
+groups:
+- id: predictions-virgil-quotation
+  kind: quotation
+  members:
+  - segment_id: bicker-predictions-048
+  separator: '
+
+    '
+assets: []
+figures: []
+aliases: []
+terminology:
+- id: swift-name
+  kind: person
+  source_language: en
+  source: Jonathan Swift
+  translation_ja: ジョナサン・スウィフト
+  related_work_ids:
+  - swift-tale-of-a-tub
+- id: bickerstaff-name
+  kind: person
+  source_language: en
+  source: Isaac Bickerstaff
+  translation_ja: アイザック・ビッカースタッフ
+  note_ja: スウィフトが『予言』で用いる筆名。第二篇は別人を装った書簡の語り手。
+- id: partridge-name
+  kind: person
+  source_language: en
+  source: Partridge
+  translation_ja: パートリッジ
+workflow:
+  stage: ready
+  full_review:
+    status: complete
+    completed_at: '2026-10-20T23:56:07Z'
+    reviewed_by: Codex（初稿後の全文原文対照）
+    content_sha256: 2d807102d5dee20f69f53e6031d1c895d4a10908715d68379f6ce13d2bdd9069
+provenance:
+  source_acquired_on: '2026-10-21'
+  draft_only: true
+  source_anchor: link2H_4_0001
+  source_end_exclusive_anchor: link2H_4_0002
+  source_word_count: 3488
+  full_review_evidence_ja: 初稿完成後、標題・副題・署名・全段落・ラテン語引用を原著順に一回、原文と日本語で対照した。主体、否定、日付・時刻、数量、皮肉、対話の話者と日本語の意味を確認。予言第12ブロックの語り手を明確にする修正を行い、該当原文と前後を再照合。出力の省略なし。未確認の本文範囲なし。

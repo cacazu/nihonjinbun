@@ -1,0 +1,240 @@
+schema_version: '2.0'
+work_id: swift-accomplishment-of-first-prediction
+metadata:
+  title_ja: ビッカースタッフ氏の最初の予言の成就
+  title_original: The Accomplishment of the First of Mr Bickerstaff's Predictions
+  original_languages:
+  - en
+  target_language: ja
+  contributors:
+  - id: swift
+    name_ja: ジョナサン・スウィフト
+    name_original: Jonathan Swift
+    roles:
+    - author
+  - id: translator
+    name_ja: 心霊研究家ポロミン
+    name_original: null
+    roles:
+    - translator
+    url: https://x.com/cacazu_right
+  translation_rights:
+    status: unknown
+    attribution: 心霊研究家ポロミン
+    note_ja: 新訳の利用条件は未指定。原著と電子翻刻の条件を自動的に継承しない。
+  genres:
+  - 文学
+  - 風刺
+sources:
+- id: gutenberg-1090
+  role: primary
+  title: The Bickerstaff-Partridge Papers
+  languages:
+  - en
+  - la
+  url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm
+  edition: Project Gutenberg eBook 1090。1997年11月1日公開、2015年3月5日更新。印刷底本の版は未確認。
+  contributor_ids:
+  - swift
+  work_rights:
+    status: public_domain
+    evidence_url: https://www.gutenberg.org/ebooks/1090
+    note_ja: 原著者ジョナサン・スウィフトは1745年没。本篇は1708年の作品。Project Gutenbergは米国でパブリックドメインと表示。
+  transcription_rights:
+    status: licensed
+    license_id: LicenseRef-Project-Gutenberg
+    license_url: https://www.gutenberg.org/policy/license.html
+    attribution: Produced by An Anonymous Volunteer, and David Widger.
+  sha256: b92d8c5a9f940b890fdc128837aea0d0a28a8e43e336164d9b22ac65cf7a9a07
+  description_ja: 段落と読書順を保持。HTMLの組版用改行・連続空白のみ単一空白化。明示改行と原著の綴りは保持。照合による読みは異読記録へ区別する。
+- id: swift-works-1801-volume5-accomplishment
+  role: comparison
+  title: The Works of the Rev. Jonathan Swift, Volume V
+  languages:
+  - en
+  - la
+  url: https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_5/An_Account_of_the_Death_of_Partridge_the_Almanack_Maker
+  edition: Thomas Sheridan編、John Nichols訂、London、1801年版、31頁以下のAn Account of the Death of Partridge。英語Wikisource電子翻刻。
+  work_rights:
+    status: public_domain
+    note_ja: 1801年刊本中のスウィフト原著と古い編集注を、帰属と語句の確認に使用。
+  transcription_rights:
+    status: unknown
+    note_ja: 電子翻刻の付加的な編集要素の利用条件は未確認。原著語句・古い編集注の照合に限り使用。
+scope:
+  included:
+  - source_id: gutenberg-1090
+    section_ids:
+    - accomplishment
+    description_ja: PG1090の二番目の篇。標題、副題、書簡形式と年記、呼びかけ、死去報告の全二段落を含む全文。
+  excluded:
+  - source_id: gutenberg-1090
+    description_ja: PG1090の編集標題・目次・電子版案内と、この篇以外の文章。後続のElegy、Epitaph、Partridge返答、Vindication、Merlin、Arbuthnot・Popeの文章は混ぜない。
+  known_gaps: []
+sections:
+- id: accomplishment
+  parent_id: null
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - bicker-accomplishment-000
+segments:
+- id: bicker-accomplishment-000
+  section_id: accomplishment
+  kind: heading
+  origin: source
+  source_text: The Accomplishment of the First of Mr Bickerstaff's Predictions;
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0002
+    xpath: /html[1]/body[1]/h2[4]
+    line_start: 507
+    line_end: 509
+    source_sequence: 52
+  translation_ja: ビッカースタッフ氏の最初の予言の成就
+  translation_status: reviewed
+- id: bicker-accomplishment-001
+  section_id: accomplishment
+  kind: paragraph
+  origin: source
+  source_text: being an account of the death of Mr Partridge, the almanack-maker, upon the 29th instant.
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0002
+    xpath: /html[1]/body[1]/p[60]
+    line_start: 510
+    line_end: 513
+    source_sequence: 53
+  translation_ja: すなわち、当月二十九日における、暦作りのパートリッジ氏の死についての報告。
+  translation_status: reviewed
+  source_kind: subtitle
+- id: bicker-accomplishment-002
+  section_id: accomplishment
+  kind: paragraph
+  origin: source
+  source_text: In a letter to a person of honour Written in the year 1708
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0002
+    xpath: /html[1]/body[1]/p[61]
+    line_start: 514
+    line_end: 516
+    source_sequence: 54
+  translation_ja: 'ある高貴な人物への手紙
+
+    一七〇八年記す'
+  translation_status: reviewed
+  source_kind: subtitle_and_date
+- id: bicker-accomplishment-003
+  section_id: accomplishment
+  kind: paragraph
+  origin: source
+  source_text: My Lord,
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0002
+    xpath: /html[1]/body[1]/p[62]
+    line_start: 517
+    line_end: 519
+    source_sequence: 55
+  translation_ja: 閣下
+  translation_status: reviewed
+  source_kind: salutation
+- id: bicker-accomplishment-004
+  section_id: accomplishment
+  kind: paragraph
+  origin: source
+  source_text: 'In obedience to your Lordship''s commands, as well as to satisfy my own curiosity, I have for some days past enquired constantly after Partridge the almanack-maker, of whom it was foretold in Mr. Bickerstaff''s predictions, publish''d about a month ago, that he should die on the 29th instant about eleven at night of a raging fever. I had some sort of knowledge of him when I was employ''d in the Revenue, because he used every year to present me with his almanack, as he did other gentlemen, upon the score of some little gratuity we gave him. I saw him accidentally once or twice about ten days before he died, and observed he began very much to droop and languish, tho'' I hear his friends did not seem to apprehend him in any danger. About two or three days ago he grew ill, and was confin''d first to his chamber, and in a few hours after to his bed, where Dr. Case and Mrs. Kirleus were sent for to visit, and to prescribe to him. Upon this intelligence I sent thrice every day one
+    servant or other to enquire after his health; and yesterday, about four in the afternoon, word was brought me that he was past hopes: Upon which, I prevailed with myself to go and see him, partly out of commiseration, and I confess, partly out of curiosity. He knew me very well, seem''d surpriz''d at my condescension, and made me compliments upon it as well as he could, in the condition he was. The people about him said, he had been for some time delirious; but when I saw him, he had his understanding as well as ever I knew, and spake strong and hearty, without any seeming uneasiness or constraint. After I told him how sorry I was to see him in those melancholy circumstances, and said some other civilities, suitable to the occasion, I desired him to tell me freely and ingeniously, whether the predictions Mr. Bickerstaff had publish''d relating to his death, had not too much affected and worked on his imagination. He confess''d he had often had it in his head, but never with much apprehension,
+    till about a fortnight before; since which time it had the perpetual possession of his mind and thoughts, and he did verily believe was the true natural cause of his present distemper: For, said he, I am thoroughly persuaded, and I think I have very good reasons, that Mr. Bickerstaff spoke altogether by guess, and knew no more what will happen this year than I did myself. I told him his discourse surprized me; and I would be glad he were in a state of health to be able to tell me what reason he had to be convinc''d of Mr. Bickerstaff''s ignorance. He reply''d, I am a poor ignorant fellow, bred to a mean trade, yet I have sense enough to know that all pretences of foretelling by astrology are deceits, for this manifest reason, because the wise and the learned, who can only know whether there be any truth in this science, do all unanimously agree to laugh at and despise it; and none but the poor ignorant vulgar give it any credit, and that only upon the word of such silly wretches as I
+    and my fellows, who can hardly write or read. I then asked him why he had not calculated his own nativity, to see whether it agreed with Bickerstaff''s prediction? at which he shook his head, and said, Oh! sir, this is no time for jesting, but for repenting those fooleries, as I do now from the very bottom of my heart. By what I can gather from you, said I, the observations and predictions you printed, with your almanacks, were mere impositions on the people. He reply''d, if it were otherwise I should have the less to answer for. We have a common form for all those things, as to foretelling the weather, we never meddle with that, but leave it to the printer, who takes it out of any old almanack, as he thinks fit; the rest was my own invention, to make my almanack sell, having a wife to maintain, and no other way to get my bread; for mending old shoes is a poor livelihood; and, (added he, sighing) I wish I may not have done more mischief by my physick than my astrology; tho'' I had some
+    good receipts from my grandmother, and my own compositions were such as I thought could at least do no hurt.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0002
+    xpath: /html[1]/body[1]/p[63]
+    line_start: 520
+    line_end: 578
+    source_sequence: 56
+  translation_ja: 閣下の仰せに従うとともに、私自身の好奇心をも満たすため、この数日間、暦作りのパートリッジの様子を、絶えず尋ねていた。一か月ほど前に公表されたビッカースタッフ氏の予言によれば、彼は当月29日、夜11時ごろ、激しい熱病で死ぬことになっていた。私が税務に勤めていたころ、彼とは、いくらか面識があった。私やほかの紳士たちが、ささやかな謝礼をやるので、毎年、自分の暦を贈ってきたからである。彼が死ぬ十日ほど前にも、偶然一度か二度会い、ひどくしおれ、衰え始めているのに気づいた。ただ、聞くところでは、友人たちは、危険な状態とは思っていなかったらしい。二、三日前、彼は病気になって、まず部屋に引きこもり、それから数時間後には床についた。そこへ、診察して薬を出してもらおうと、ケイス博士とカールース夫人が呼ばれた。この報せを聞くと、私は毎日三度ずつ、召使いを誰かしら送り、容体を尋ねさせた。そして昨日の午後4時ごろ、もう望みはないと伝えられた。そこで私は、憐れみからという気持ちもあり、白状すれば、好奇心からという気持ちもあって、自分で見舞いに行く気になった。彼は私が誰かをよく覚えており、私がわざわざ来たのに驚いたようで、その状態でできる限り、礼を述べた。まわりの人は、しばらく前からうわごとを言っていたと話したが、私が見たときには、これまで知っていたのと変わらず、しっかり理解し、苦しそうな様子や無理をしている様子もなく、力強く、はっきりと話した。私は、これほど痛ましい状態にあるのを見て、どんなにつらいかを伝え、その場にふさわしい、ほかの挨拶もいくらか述べた。そのあとで、ビッカースタッフ氏が彼の死について公表した予言が、想像力にあまりに強く作用し、心を乱したのではないか、遠慮なく率直に話してほしいと頼んだ。彼は、それをたびたび頭に思い浮かべていたことは認めたが、二週間ほど前までは、大して恐ろしくなかったと言った。それ以後は、そのことが心と思考を絶えず占領し、今の病気の本当の、自然な原因になったのだと、心から信じているという。というのも、と彼は言った、ビッカースタッフ氏は、何もかも当て推量で言ったのであって、今年起こることについて、私自身以上のことは、何も知らなかったと、私は十分に確信しているし、そう思うだけの、たいへんよい理由もある、と。私は、その話には驚いた、ビッカースタッフ氏の無知を確信する、どんな理由があったのか、話せるだけの健康があればよいのに、と言った。すると彼は答えた。私は、卑しい商売を仕込まれた、貧しく無学な男です。それでも、占星術で先のことがわかるなどという主張は、すべていかさまだと知るだけの分別はあります。理由ははっきりしています。この学問にいくらかでも真実があるかどうか、判断できるのは、賢者や学者だけです。その人たちが皆、声をそろえて笑い、軽蔑しているのです。信じるのは、貧しく無学な俗人だけで、それも、読み書きもろくにできない、私や同業者のような、間抜けなろくでなしどもの言葉をうのみにしているだけなのです。そこで私は、ビッカースタッフの予言と合うかどうか、自分の誕生時の星を、なぜ計算しなかったのかと尋ねた。彼は頭を振り、ああ、旦那、今は冗談を言うときではありません。あんな愚行を悔い改めるときです。今こうして、心の底から悔いているのです、と言った。あなたの話からすると、と私は言った、あなたが暦と一緒に印刷した観測や予言は、まったく人々をだますものだったのですね。彼は答えた。そうでなければ、私の罪も、もう少し軽くなりましょう。ああいうことには皆、決まった型があるのです。天気の予報などには、私たちは一切手を出さず、印刷屋に任せます。向こうが適当に、古い暦のどれかから引っ張ってくるのです。ほかは、暦を売るため、私が考え出したものです。養わねばならない妻がいて、ほかに食べる道がないものですから。古靴の修繕では、たいした暮らしにはなりません。そして、と彼はため息をついて付け加えた、占星術よりも、薬のほうで、もっとひどい害を与えていなければよいのですが。祖母から教わった、よい処方もいくつかありましたし、自分で調合したものも、少なくとも害はないと思ったものでは、ありましたが。
+  translation_status: reviewed
+  source_variants:
+  - kind: comparison
+    text: freely and ingenuously
+    source_locations:
+    - source_id: swift-works-1801-volume5-accomplishment
+      precision: work
+      url: https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_5/An_Account_of_the_Death_of_Partridge_the_Almanack_Maker
+    description_ja: 対応語句のみ。底本のfreely and ingeniouslyを原文のまま保持し、1801年版のfreely and ingenuouslyを照合して「遠慮なく率直に」と訳した。
+- id: bicker-accomplishment-005
+  section_id: accomplishment
+  kind: paragraph
+  origin: source
+  source_text: 'I had some other discourse with him, which now I cannot call to mind; and I fear I have already tired your Lordship. I shall only add one circumstance, That on his death-bed he declared himself a Nonconformist, and had a fanatick preacher to be his spiritual guide. After half an hour''s conversation I took my leave, being half stifled by the closeness of the room. I imagine he could not hold out long, and therefore withdrew to a little coffee-house hard by, leaving a servant at the house with orders to come immediately, and tell me, as near as he could, the minute when Partridge should expire, which was not above two hours after; when, looking upon my watch, I found it to be above five minutes after seven; by which it is clear that Mr. Bickerstaff was mistaken almost four hours in his calculation. In the other circumstances he was exact enough. But whether he has not been the cause of this poor man''s death, as well as the predictor, may be very reasonably disputed. However,
+    it must be confess''d the matter is odd enough, whether we should endeavour to account for it by chance, or the effect of imagination: For my own part, tho'' I believe no man has less faith in these matters, yet I shall wait with some impatience, and not without some expectation, the fulfilling of Mr. Bickerstaff''s second prediction, that the Cardinal de Noailles is to die upon the fourth of April, and if that should be verified as exactly as this of poor Partridge, I must own I should be wholly surprized, and at a loss, and should infallibly expect the accomplishment of all the rest.'
+  source_languages:
+  - en
+  source_locations:
+  - source_id: gutenberg-1090
+    precision: block
+    url: https://www.gutenberg.org/files/1090/1090-h/1090-h.htm#link2H_4_0002
+    xpath: /html[1]/body[1]/p[64]
+    line_start: 579
+    line_end: 602
+    source_sequence: 57
+  translation_ja: ほかにもいくらか話をしたが、今は思い出せない。すでに閣下を、お疲れにしてしまったのではないかと思う。もう一つだけ事情を付け加えよう。彼は死の床で、自分は非国教徒だと告白し、狂信的な説教師を、魂の導き手としていた。三十分ほど話したあと、私は暇を告げた。部屋が締め切ってあって、半ば息が詰まりそうだったからだ。彼はもう長くは持たないと思い、すぐ近くの小さなコーヒー店へ退いた。召使いを一人その家に残し、パートリッジが息を引き取ったら、できる限り正確な時刻を、すぐ知らせに来るよう命じておいた。それは二時間もたたないうちのことだった。時計を見ると、7時5分を少し過ぎていた。これによって、ビッカースタッフ氏の計算には、四時間近い誤りがあったことが明らかである。ほかの事情については、十分正確だった。だが、彼がこの気の毒な男の死を予告しただけでなく、その原因にもなったのではないか、という点は、議論するだけの理由が大いにあるだろう。いずれにせよ、偶然として説明しようと、想像力の作用として説明しようと、この件が、かなり奇妙であることは認めざるをえない。私自身、この手のことへの信頼は、誰にも劣らず乏しいつもりだが、それでも、ノアイユ枢機卿が4月4日に死ぬという、ビッカースタッフ氏の第二の予言の成就を、いささか待ち遠しく、また、いくらかの期待をもって待つつもりである。それが、気の毒なパートリッジについての予言と同じほど正確に確かめられたなら、私も、ただ驚き、途方に暮れるだろうし、残りもすべて、間違いなく成就するものと期待するほかない、と白状しなければならない。
+  translation_status: reviewed
+notes: []
+references: []
+groups: []
+assets: []
+figures: []
+aliases: []
+terminology:
+- id: swift-name
+  kind: person
+  source_language: en
+  source: Jonathan Swift
+  translation_ja: ジョナサン・スウィフト
+  related_work_ids:
+  - swift-tale-of-a-tub
+- id: bickerstaff-name
+  kind: person
+  source_language: en
+  source: Isaac Bickerstaff
+  translation_ja: アイザック・ビッカースタッフ
+  note_ja: スウィフトが『予言』で用いる筆名。第二篇は別人を装った書簡の語り手。
+- id: partridge-name
+  kind: person
+  source_language: en
+  source: Partridge
+  translation_ja: パートリッジ
+workflow:
+  stage: ready
+  full_review:
+    status: complete
+    completed_at: '2026-10-20T23:56:07Z'
+    reviewed_by: Codex（初稿後の全文原文対照）
+    content_sha256: 294260a3f35f437b6fa5fa9974a8685d91feefea30ea723b96fa3409549c5af3
+provenance:
+  source_acquired_on: '2026-10-21'
+  draft_only: true
+  source_anchor: link2H_4_0002
+  source_end_exclusive_anchor: link2H_4_0003
+  source_word_count: 1084
+  full_review_evidence_ja: 初稿完成後、標題・副題・署名・全段落・ラテン語引用を原著順に一回、原文と日本語で対照した。主体、否定、日付・時刻、数量、皮肉、対話の話者と日本語の意味を確認。予言第12ブロックの語り手を明確にする修正を行い、該当原文と前後を再照合。出力の省略なし。未確認の本文範囲なし。

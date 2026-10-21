@@ -1,0 +1,719 @@
+"schema_version": "2.0"
+"work_id": "swift-stella-birthday-1722"
+"metadata":
+  "title_ja": "ステラの誕生日、一七二二年"
+  "title_original": "Stella’s Birthday"
+  "original_languages":
+  - "en"
+  - "la"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "morley"
+    "name_ja": "ヘンリー・モーリー"
+    "name_original": "Henry Morley"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。"
+  "genres":
+  - "文学"
+  - "詩"
+  "reader_notes_ja":
+  - "1886年モーリー編の底本に従い、本文全80行を9連の構成で収録する。"
+"sources":
+- "id": "gutenberg-623"
+  "role": "primary"
+  "title": "The Battle of the Books, and Other Short Pieces"
+  "languages":
+  - "en"
+  - "la"
+  "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+  "edition": "Henry Morley編、Cassell & Company、1886年版。Project Gutenberg eBook 623旧HTML、公開日表記2007年1月15日。"
+  "contributor_ids":
+  - "swift"
+  - "morley"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/623"
+    "note_ja": "原著者1745年没、編者1894年没の1886年刊本。Project Gutenberg書誌は米国でパブリックドメインと表示。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "Transcribed from the 1886 Cassell & Company edition by David Price."
+  "sha256": "6362b44a9f5703d1c2a3d10313ead9c9e124f845d138d725e602b6f1bf630517"
+  "description_ja": "2026年10月21日に確認した旧HTML。h2と詩連pの境界を保持し、brを詩行の改行として保存。HTML組版上の行折りと余分な空白のみ整理。"
+- "id": "wikisource-1801"
+  "role": "comparison"
+  "title": "The Works of the Rev. Jonathan Swift, Volume 7"
+  "languages":
+  - "en"
+  "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Stella's_Birthday,_1722-3"
+  "edition": "1801年ロンドン刊全集第7巻のWikisource電子翻刻。指定箇所の語句・年記のみ照合。"
+  "contributor_ids":
+  - "swift"
+  "work_rights":
+    "status": "public_domain"
+    "note_ja": "1745年没の原著者による1801年刊本文。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "English Wikisource contributors"
+    "note_ja": "当該サイトの電子編集・追加要素の条件と、公有の原著本文を区別する。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-623"
+    "description_ja": "原題、副題、本文全80行・9連。 原文の注[2]〜[4]も全文訳し、本文中の参照に対応させる。"
+    "section_ids":
+    - "poem"
+    - "source-notes"
+  - "source_id": "wikisource-1801"
+    "description_ja": "source_variantsおよび訳注に示す語句・年記を照合。本文全体の底本としては用いない。"
+  "excluded":
+  - "source_id": "gutenberg-623"
+    "description_ja": "同一巻の他の詩・論考、巻全体の編者序文、刊記、電子版の利用案内と末尾ライセンス。"
+  "known_gaps": []
+"sections":
+- "id": "poem"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "sb1722-heading"
+  "origin": "source"
+- "id": "translator-notes"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "origin": "editorial"
+  "label_ja": "訳注"
+- "id": "source-notes"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "origin": "editorial"
+  "label_ja": "底本注"
+"segments":
+- "id": "sb1722-heading"
+  "section_id": "poem"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "STELLA’S BIRTHDAY."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[16]"
+    "line_start": 2949
+    "source_sequence": 213
+  "translation_ja": "ステラの誕生日"
+  "translation_status": "reviewed"
+- "id": "sb1722-subtitle"
+  "section_id": "poem"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "A great bottle of wine, long buried, being that day dug up. 1722."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[196]"
+    "line_start": 2950
+    "source_sequence": 214
+  "translation_ja": "長く埋めてあった大瓶の葡萄酒を、この日、掘り出した。一七二二年。"
+  "translation_status": "reviewed"
+- "id": "sb1722-stanza-1"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Resolved my annual verse to pay,
+    By duty bound, on Stella’s day;
+    Furnished with paper, pens, and ink,
+    I gravely sat me down to think:
+    I bit my nails, and scratched my head,
+    But found my wit and fancy fled;
+    Or, if with more than usual pain,
+    A thought came slowly from my brain,
+    It cost me Lord knows how much time
+    To shape it into sense and rhyme;
+    And, what was yet a greater curse,
+    Long-thinking made my fancy worse
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[197]"
+    "line_start": 2952
+    "source_sequence": 215
+  "translation_ja": |-
+    年ごとの詩を、今年も納めようと決めた。
+    ステラの日には、それが務めである。
+    紙とペンとインクをそろえ、
+    まじめくさって座り込み、考えた。
+    爪をかみ、頭をかいたが、
+    機知も空想も、逃げてしまっていた。
+    いつもより、もっと苦しんだあげく、
+    何かが、のろのろ頭から出てきても、
+    どれほど時間がかかったか、神のみぞ知る、
+    それを意味と韻の形にするまでには。
+    しかも、さらに困ったことに、
+    長く考えるほど、空想は悪くなる。
+  "translation_status": "reviewed"
+- "id": "sb1722-stanza-2"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Forsaken by th’ inspiring nine,
+    I waited at Apollo’s shrine;
+    I told him what the world would sa
+    If Stella were unsung to-day;
+    How I should hide my head for shame,
+    When both the Jacks and Robin came;
+    How Ford would frown, how Jim would leer,
+    How Sh---r the rogue would sneer,
+    And swear it does not always follow,
+    That Semel’n anno ridet Apollo.
+    I have assured them twenty times,
+    That Phœbus helped me in my rhymes,
+    Phœbus inspired me from above,
+    And he and I were hand and glove.
+    But finding me so dull and dry since,
+    They’ll call it all poetic licence.
+    And when I brag of aid divine,
+    Think Eusden’s right as good as mine.
+  "source_languages":
+  - "en"
+  - "la"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[198]"
+    "line_start": 2964
+    "source_sequence": 216
+  "translation_ja": |-
+    霊感をくれる九柱の女神に見放され、
+    私は、アポロンの社の前で待った。
+    今日、ステラを詩にたたえなかったら、
+    世間が何と言うだろうかと、神に訴えた。
+    二人のジャックや、ロビンがやって来たら、
+    恥ずかしくて、どれほど顔を隠したくなるか。
+    フォードは眉をひそめ、ジムは横目で笑い、
+    いたずら者のSh――rは、せせら笑って、
+    こう毒づくだろう、いつも本当とは限らぬぞ、
+    「アポロンは年に一度は笑う」というのも、と。
+    私は、二十回も言い切ってきた、
+    ポイボスが、私の韻文を助けてくれると。
+    天から私に、霊感を授けてくれ、
+    神と私は、つうと言えばかあの仲なのだと。
+    だが、その後の私が、これほど鈍く、干からびていれば、
+    皆、あれは全部、詩人の勝手な言い分だと言うだろう。
+    私が神の助けを自慢しても、
+    ユーズデンにも、同じだけの権利があると思うだろう。
+  "translation_status": "reviewed"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "I told him what the world would say,"
+    "source_locations":
+    - "source_id": "wikisource-1801"
+      "precision": "work"
+      "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Stella's_Birthday,_1722-3"
+    "description_ja": "第三行のみ。底本は末尾がsaで途切れている。sayを参照して訳す。"
+- "id": "sb1722-stanza-3"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Nor do I ask for Stella’s sake;
+    ’Tis my own credit lies at stake.
+    And Stella will be sung, while I
+    Can only be a stander by.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[199]"
+    "line_start": 2982
+    "source_sequence": 217
+  "translation_ja": |-
+    それに、私が頼むのは、ステラのためではない。
+    危ないのは、私自身の評判なのだ。
+    ステラは、きっと誰かにたたえられるだろう、
+    私には、脇で眺めることしかできなくても。
+  "translation_status": "reviewed"
+- "id": "sb1722-stanza-4"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Apollo having thought a little,
+    Returned this answer to a tittle.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[200]"
+    "line_start": 2986
+    "source_sequence": 218
+  "translation_ja": |-
+    アポロンは、少し考えた後、
+    一言も違えず、こう答えた。
+  "translation_status": "reviewed"
+- "id": "sb1722-stanza-5"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Tho’ you should live like old Methusalem,
+    I furnish hints, and you should use all ’em,
+    You yearly sing as she grows old,
+    You’d leave her virtues half untold.
+    But to say truth, such dulness reigns
+    Through the whole set of Irish Deans;
+    I’m daily stunned with such a medley,
+    Dean W---, Dean D---l, and Dean S---;
+    That let what Dean soever come,
+    My orders are, I’m not at home;
+    And if your voice had not been loud,
+    You must have passed among the crowd.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[201]"
+    "line_start": 2988
+    "source_sequence": 219
+  "translation_ja": |-
+    たとえお前が、老メトシェラほど長生きし、
+    私の与える着想を、一つ残らず使っても、
+    彼女が年を取るたび、毎年歌い続けても、
+    その徳の半分は、なお語られずに残るだろう。
+    だが、正直に言えば、こうも愚鈍がはびこっているのだ、
+    アイルランドの首席司祭という連中の間じゅうに。
+    私は毎日、こんな寄せ集めに、耳をつぶされている、
+    W――師、D――l師、それにS――師と。
+    だから、どの首席司祭が来たところで、
+    留守だと伝えよ、と命じてある。
+    お前の声が、大きくなかったなら、
+    やはり群衆に紛れて、通り過ぎたはずだ。
+  "translation_status": "reviewed"
+- "id": "sb1722-stanza-6"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    But, now your danger to prevent,
+    You must apply to Mrs. Brent, [2]
+    For she, as priestess, knows the rites
+    Wherein the God of Earth delights.
+    First, nine ways looking, let her stand
+    With an old poker in her hand;
+    Let her describe a circle round
+    In Saunder’s [3] cellar on the ground
+    A spade let prudent Archy [4] hold,
+    And with discretion dig the mould;
+    Let Stella look with watchful eye,
+    Rebecea, Ford, and Grattons by.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[202]"
+    "line_start": 3000
+    "source_sequence": 220
+  "translation_ja": |-
+    だが今は、お前の危機を救うために、
+    ブレント夫人に、頼むがよい。[2]
+    巫女である彼女は、心得ている、
+    地の神の、お気に召す儀式を。
+    まず、九方を見回して、立たせるがよい、
+    古い火かき棒を、手に持たせて。
+    ぐるりと円を、描かせるがよい、
+    ソーンダーズの[3]酒蔵の、地面の上に。
+    用心深いアーチーに[4]、鋤を持たせ、
+    慎重に、土を掘らせるがよい。
+    ステラには、目を凝らして見守らせよ、
+    そばには、レベッカ、フォード、グラットンたちを。
+  "translation_status": "reviewed"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "Rebecca, Ford, and Grattans by."
+    "source_locations":
+    - "source_id": "wikisource-1801"
+      "precision": "work"
+      "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Stella's_Birthday,_1722-3"
+    "description_ja": "第十二行のみ。底本のRebeceaに対してRebecca。人名の読みに参照。"
+- "id": "sb1722-stanza-7"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Behold the bottle, where it lies
+    With neck elated tow’rds the skies!
+    The god of winds, and god of fire,
+    Did to its wondrous birth conspire;
+    And Bacchus for the poet’s use
+    Poured in a strong inspiring juice:
+    See! as you raise it from its tomb,
+    It drags behind a spacious womb,
+    And in the spacious womb contains
+    A sovereign med’cine for the brains.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[203]"
+    "line_start": 3015
+    "source_sequence": 221
+  "translation_ja": |-
+    見よ、あそこに横たわる瓶を、
+    首を高く、空へ向けている！
+    風の神と、火の神が、
+    力を合わせ、その不思議な誕生を助けた。
+    そしてバッカスは、詩人のために、
+    力強く、霊感をもたらす液を、注ぎ込んだ。
+    見よ、墓から、その瓶を引き上げると、
+    大きな腹を、後ろに引きずってくる。
+    その大きな腹の中に、収められているのは、
+    頭脳のための、無上の妙薬なのだ。
+  "translation_status": "reviewed"
+- "id": "sb1722-stanza-8"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    You’ll find it soon, if fate consents;
+    If not, a thousand Mrs. Brents,
+    Ten thousand Archys arm’d with spades,
+    May dig in vain to Pluto’s shades.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[204]"
+    "line_start": 3025
+    "source_sequence": 222
+  "translation_ja": |-
+    運命が許せば、すぐに見つかる。
+    さもなければ、ブレント夫人が千人、
+    鋤を携えたアーチーが一万人いようと、
+    冥王プルートーの陰の国まで、むなしく掘るばかりだ。
+  "translation_status": "reviewed"
+- "id": "sb1722-stanza-9"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    From thence a plenteous draught infuse,
+    And boldly then invoke the muse
+    (But first let Robert on his knees
+    With caution drain it from the lees);
+    The muse will at your call appear,
+    With Stella’s praise to crown the year.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[205]"
+    "line_start": 3029
+    "source_sequence": 223
+  "translation_ja": |-
+    そこから、たっぷり一杯を、注ぎ込むがよい。
+    それから大胆に、詩の女神を呼べ。
+    （だが、先にロバートを膝まずかせ、
+    澱を入れぬよう、用心して、酒を移させよ。）
+    女神は、お前の呼び声に応えて現れ、
+    ステラをたたえる詩で、今年を飾るだろう。
+  "translation_status": "reviewed"
+- "id": "sb1722-translation-note"
+  "section_id": "translator-notes"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "底本で途切れたsaは、照合した一八〇一年版のsayにより「言う」と読んだ。Rebeceaは同版のRebeccaを参照してレベッカと表記した。伏せられた人物名は底本どおりに残した。"
+  "translation_status": "reviewed"
+- "id": "sb1722-source-note-2"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[2] The house-keeper."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[396]"
+    "line_start": 4766
+    "source_sequence": 424
+  "translation_ja": "[2] 家政婦。"
+  "translation_status": "reviewed"
+- "id": "sb1722-source-note-3"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[3] The butler."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[397]"
+    "line_start": 4768
+    "source_sequence": 425
+  "translation_ja": "[3] 執事。"
+  "translation_status": "reviewed"
+- "id": "sb1722-source-note-4"
+  "section_id": "source-notes"
+  "kind": "note_body"
+  "origin": "source"
+  "source_text": "[4] The footman."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[398]"
+    "line_start": 4770
+    "source_sequence": 426
+  "translation_ja": "[4] 従僕。"
+  "translation_status": "reviewed"
+"notes":
+- "id": "sb1722-translation-note-definition"
+  "origin": "translator"
+  "form": "endnote"
+  "body":
+  - "segment_id": "sb1722-translation-note"
+- "id": "sb1722-source-note-2-definition"
+  "origin": "unknown"
+  "label": "2"
+  "form": "footnote"
+  "body":
+  - "segment_id": "sb1722-source-note-2"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[396]"
+    "line_start": 4766
+    "source_sequence": 424
+  "description_ja": "底本の注。注者の記載を確認できず、著者注とは断定しない。"
+- "id": "sb1722-source-note-3-definition"
+  "origin": "unknown"
+  "label": "3"
+  "form": "footnote"
+  "body":
+  - "segment_id": "sb1722-source-note-3"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[397]"
+    "line_start": 4768
+    "source_sequence": 425
+  "description_ja": "底本の注。注者の記載を確認できず、著者注とは断定しない。"
+- "id": "sb1722-source-note-4-definition"
+  "origin": "unknown"
+  "label": "4"
+  "form": "footnote"
+  "body":
+  - "segment_id": "sb1722-source-note-4"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[398]"
+    "line_start": 4770
+    "source_sequence": 426
+  "description_ja": "底本の注。注者の記載を確認できず、著者注とは断定しない。"
+"references":
+- "id": "sb1722-callout-2"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "sb1722-stanza-6"
+    "source_span":
+      "start": 63
+      "end": 66
+      "exact": "[2]"
+    "translation_span":
+      "start": 32
+      "end": 35
+      "exact": "[2]"
+  "to":
+    "type": "note"
+    "id": "sb1722-source-note-2-definition"
+  "status": "verified"
+- "id": "sb1722-callout-3"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "sb1722-stanza-6"
+    "source_span":
+      "start": 257
+      "end": 260
+      "exact": "[3]"
+    "translation_span":
+      "start": 126
+      "end": 129
+      "exact": "[3]"
+  "to":
+    "type": "note"
+    "id": "sb1722-source-note-3-definition"
+  "status": "verified"
+- "id": "sb1722-callout-4"
+  "kind": "note"
+  "origin": "source"
+  "from":
+    "segment_id": "sb1722-stanza-6"
+    "source_span":
+      "start": 308
+      "end": 311
+      "exact": "[4]"
+    "translation_span":
+      "start": 149
+      "end": 152
+      "exact": "[4]"
+  "to":
+    "type": "note"
+    "id": "sb1722-source-note-4-definition"
+  "status": "verified"
+- "id": "sb1722-translation-note-ref"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "sb1722-stanza-6"
+  "to":
+    "type": "note"
+    "id": "sb1722-translation-note-definition"
+  "status": "verified"
+  "description_ja": "原文と訳注の説明を対照し、同じ箇所に関する訳者注への段落単位の参照を付す。本文・訳注の文字は変更しない。"
+"groups":
+- "id": "sb1722-poem"
+  "kind": "poem"
+  "members":
+  - "segment_id": "sb1722-stanza-1"
+  - "segment_id": "sb1722-stanza-2"
+  - "segment_id": "sb1722-stanza-3"
+  - "segment_id": "sb1722-stanza-4"
+  - "segment_id": "sb1722-stanza-5"
+  - "segment_id": "sb1722-stanza-6"
+  - "segment_id": "sb1722-stanza-7"
+  - "segment_id": "sb1722-stanza-8"
+  - "segment_id": "sb1722-stanza-9"
+  "separator": |2+
+
+
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "stella"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Stella"
+  "translation_ja": "ステラ"
+  "related_work_ids":
+  - "swift-stella-birthday-1718"
+- "id": "swift-name"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Jonathan Swift"
+  "translation_ja": "ジョナサン・スウィフト"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-21T00:09:16Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "d3a18b90d16738df115f022d819913029d06dcd1be3624a5a7e6b04393755b3f"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "e8201a5357514daed2d5fc2fd72b57496ae93e10"
+  "translation_method": "Codexによる原文からの新訳。初稿保存後、見出し・副題・全詩行・注を原文と一回通して対照し、同じ読みで意味、否定、人数・年齢、話者、性別、皮肉、順序を確認。修正箇所のみ再確認。"
+  "source_poem_line_count": 80
+  "source_stanza_line_counts":
+  - 12
+  - 18
+  - 4
+  - 2
+  - 12
+  - 12
+  - 10
+  - 4
+  - 6
+  "drafted_segment_count": 15
+  "next_segment_id": null
+  "full_review_segment_ids":
+  - "sb1722-heading"
+  - "sb1722-subtitle"
+  - "sb1722-stanza-1"
+  - "sb1722-stanza-2"
+  - "sb1722-stanza-3"
+  - "sb1722-stanza-4"
+  - "sb1722-stanza-5"
+  - "sb1722-stanza-6"
+  - "sb1722-stanza-7"
+  - "sb1722-stanza-8"
+  - "sb1722-stanza-9"
+  - "sb1722-translation-note"
+  - "sb1722-source-note-2"
+  - "sb1722-source-note-3"
+  - "sb1722-source-note-4"
+  "full_review_corrections_ja":
+  - "見出し訳は原文どおり年記なしにし、年は副題と書誌に保持。"
+  - "複数のGrattonsに原文が限定しない家族関係を加えないよう修正。"
+  - "butlerを酒蔵係と狭く限定せず、執事と修正。"
+  "reference_amendment_reviews":
+  - "completed_at": "2026-10-21T00:09:16Z"
+    "reviewed_by": "Codex"
+    "previous_full_review":
+      "status": "complete"
+      "completed_at": "2026-10-20T23:58:53Z"
+      "reviewed_by": "Codex"
+      "content_sha256": "ea5e437943643f47bbe0662825f0850d8be7f6f446f284289d8589dfa09524f3"
+    "reference_ids":
+    - "sb1722-translation-note-ref"
+    "scope_ja": "既に全文対照を終えた原稿に、本文から訳注への参照一件を追加。参照元・訳注・異読記録の対応と描画時の往復だけを再確認。本文・訳注・原文・読書順は全件不変。全篇の新たな通読は行っていない。"

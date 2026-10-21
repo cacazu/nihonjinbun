@@ -1,0 +1,538 @@
+"schema_version": "2.0"
+"work_id": "swift-stella-birthday-1726"
+"metadata":
+  "title_ja": "ステラの誕生日、一七二六年三月十三日"
+  "title_original": "Stella’s Birthday, March 13, 1726"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "morley"
+    "name_ja": "ヘンリー・モーリー"
+    "name_original": "Henry Morley"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。"
+  "genres":
+  - "文学"
+  - "詩"
+  "reader_notes_ja":
+  - "1886年モーリー編の底本に従い、本文全88行を7連の構成で収録する。"
+"sources":
+- "id": "gutenberg-623"
+  "role": "primary"
+  "title": "The Battle of the Books, and Other Short Pieces"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+  "edition": "Henry Morley編、Cassell & Company、1886年版。Project Gutenberg eBook 623旧HTML、公開日表記2007年1月15日。"
+  "contributor_ids":
+  - "swift"
+  - "morley"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/623"
+    "note_ja": "原著者1745年没、編者1894年没の1886年刊本。Project Gutenberg書誌は米国でパブリックドメインと表示。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "Transcribed from the 1886 Cassell & Company edition by David Price."
+  "sha256": "6362b44a9f5703d1c2a3d10313ead9c9e124f845d138d725e602b6f1bf630517"
+  "description_ja": "2026年10月21日に確認した旧HTML。h2と詩連pの境界を保持し、brを詩行の改行として保存。HTML組版上の行折りと余分な空白のみ整理。"
+- "id": "wikisource-1801"
+  "role": "comparison"
+  "title": "The Works of the Rev. Jonathan Swift, Volume 7"
+  "languages":
+  - "en"
+  "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Stella's_Birthday,_1726-7"
+  "edition": "1801年ロンドン刊全集第7巻のWikisource電子翻刻。指定箇所の語句・年記のみ照合。"
+  "contributor_ids":
+  - "swift"
+  "work_rights":
+    "status": "public_domain"
+    "note_ja": "1745年没の原著者による1801年刊本文。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "English Wikisource contributors"
+    "note_ja": "当該サイトの電子編集・追加要素の条件と、公有の原著本文を区別する。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-623"
+    "description_ja": "原題、本文全88行・7連。"
+    "section_ids":
+    - "poem"
+  - "source_id": "wikisource-1801"
+    "description_ja": "source_variantsおよび訳注に示す語句・年記を照合。本文全体の底本としては用いない。"
+  "excluded":
+  - "source_id": "gutenberg-623"
+    "description_ja": "同一巻の他の詩・論考、巻全体の編者序文、刊記、電子版の利用案内と末尾ライセンス。"
+  "known_gaps": []
+"sections":
+- "id": "poem"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "sb1726-heading"
+  "origin": "source"
+- "id": "translator-notes"
+  "parent_id": null
+  "kind": "editorial_group"
+  "heading_segment_ids": []
+  "origin": "editorial"
+  "label_ja": "訳注"
+"segments":
+- "id": "sb1726-heading"
+  "section_id": "poem"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": "STELLA’S BIRTHDAY, MARCH 13, 1726."
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[18]"
+    "line_start": 3090
+    "source_sequence": 229
+  "translation_ja": "ステラの誕生日、一七二六年三月十三日"
+  "translation_status": "reviewed"
+- "id": "sb1726-stanza-1"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    This day, whate’er the Fates decree,
+    Shall still be kept with joy by me;
+    This day, then, let us not be told
+    That you are sick, and I grown old,
+    Nor think on our approaching ills,
+    And talk of spectacles and pills;
+    To-morrow will be time enough
+    To hear such mortifying stuff.
+    Yet, since from reason may be brought
+    A better and more pleasing thought,
+    Which can, in spite of all decays,
+    Support a few remaining days:
+    From not the gravest of divines
+    Accept for once some serious lines.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[210]"
+    "line_start": 3091
+    "source_sequence": 230
+  "translation_ja": |-
+    この日は、運命の女神たちが何を定めようとも、
+    私には、いつも喜びの祝い日である。
+    だから、この日に限っては、聞かせないでほしい、
+    君は病気で、私は老いたという話を。
+    迫ってくる災いを、思いもせず、
+    眼鏡や丸薬の話も、やめておこう。
+    そんな、気のめいる話を聞くのは、
+    明日になってからで、十分だ。
+    だが、理性からなら、引き出せるかもしれない、
+    もっとよく、もっと喜ばしい考えを。
+    あらゆる衰えにもかかわらず、
+    残るわずかな日々を、支えてくれる考えを。
+    もっともまじめな聖職者とはいえない私から、
+    今度だけは、少しまじめな詩を、受け取ってほしい。
+  "translation_status": "reviewed"
+- "id": "sb1726-stanza-2"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Although we now can form no more
+    Long schemes of life, as heretofore;
+    Yet you, while time is running fast,
+    Can look with joy on what is past.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[211]"
+    "line_start": 3105
+    "source_sequence": 231
+  "translation_ja": |-
+    昔のように、これからの長い人生の計画を、
+    もう立てることは、できなくなったけれど、
+    君は、時が急いで過ぎる中でも、
+    過去を、喜びとともに振り返ることができる。
+  "translation_status": "reviewed"
+- "id": "sb1726-stanza-3"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Were future happiness and pain
+    A mere contrivance of the brain,
+    As Atheists argue, to entice,
+    And fit their proselytes for vice
+    (The only comfort they propose,
+    To have companions in their woes).
+    Grant this the case, yet sure ’tis hard
+    That virtue, styled its own reward,
+    And by all sages understood
+    To be the chief of human good,
+    Should acting, die, or leave behind
+    Some lasting pleasure in the mind.
+    Which by remembrance will assuage
+    Grief, sickness, poverty, and age;
+    And strongly shoot a radiant dart,
+    To shine through life’s declining part.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[212]"
+    "line_start": 3109
+    "source_sequence": 232
+  "translation_ja": |-
+    もし、来世の幸福も苦しみも、
+    頭の中の、ただの作り事だとしても、
+    無神論者が、そう言い張って、信者を誘い、
+    悪徳へ導こうとする、そのとおりだとしても、
+    （彼らの差し出す、ただ一つの慰めは、
+    自分たちの苦悩の、道連れを得ることだ。）
+    そうだと認めよう。それでも、確かに理不尽ではないか、
+    それ自体が報いと呼ばれる徳が、
+    人間にとって、最高の善であると、
+    あらゆる賢人の認める徳が、
+    行いとともに消え、後に、何も残さないとは、
+    心の中の、長く続く喜びさえも。
+    思い出すことで、和らげてくれる喜びを、
+    悲しみや病気、貧困や老いを。
+    力強く、光り輝く矢を放ち、
+    人生の、衰えゆく日々を照らす喜びを。
+  "translation_status": "reviewed"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "Should acting die; nor leave behind"
+    "source_locations":
+    - "source_id": "wikisource-1801"
+      "precision": "work"
+      "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Stella's_Birthday,_1726-7"
+    "description_ja": "第十一行のみ。底本orに対してnor。訳の否定関係は同版の読みを参照。"
+- "id": "sb1726-stanza-4"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Say, Stella, feel you no content,
+    Reflecting on a life well spent;
+    Your skilful hand employed to save
+    Despairing wretches from the grave;
+    And then supporting with your store,
+    Those whom you dragged from death before?
+    So Providence on mortals waits,
+    Preserving what it first creates,
+    You generous boldness to defend
+    An innocent and absent friend;
+    That courage which can make you just,
+    To merit humbled in the dust;
+    The detestation you express
+    For vice in all its glittering dress:
+    That patience under to torturing pain,
+    Where stubborn stoics would complain.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[213]"
+    "line_start": 3125
+    "source_sequence": 233
+  "translation_ja": |-
+    ステラ、教えてくれ、君は満ち足りた思いがしないだろうか、
+    よく生きた一生を、振り返るときに。
+    君の巧みな手は、救うために働いてきた、
+    絶望した、不幸な人々を、墓から。
+    そして、自分の蓄えで、支えてきた、
+    以前、死から引き戻してやった人々を。
+    摂理も、そうして人間に付き添い、
+    初めに生み出したものを、守り続ける。
+    君の、寛大で大胆な心――
+    罪のない、その場にいない友を、かばう心。
+    塵にまみれて、低く押しやられた値打ちを、
+    公平に認められる、その勇気。
+    悪徳が、どれほどきらびやかな衣装を着ようと、
+    君のあらわす、その嫌悪。
+    頑固なストア派でさえ、泣き言をこぼすような、
+    責め苦のような痛みの中での、その忍耐。
+  "translation_status": "reviewed"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "Your generous boldness to defend"
+    "source_locations":
+    - "source_id": "wikisource-1801"
+      "precision": "work"
+      "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Stella's_Birthday,_1726-7"
+    "description_ja": "第九行のみ。底本Youに対してYour。"
+  - "kind": "comparison"
+    "text": "That patience under torturing pain."
+    "source_locations":
+    - "source_id": "wikisource-1801"
+      "precision": "work"
+      "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Stella's_Birthday,_1726-7"
+    "description_ja": "第十五行のみ。底本under toに対してunder。"
+- "id": "sb1726-stanza-5"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Must these like empty shadows pass,
+    Or forms reflected from a glass?
+    Or mere chimæras in the mind,
+    That fly, and leave no marks behind?
+    Does not the body thrive and grow
+    By food of twenty years ago?
+    And, had it not been still supplied,
+    It must a thousand times have died.
+    Then, who with reason can maintain
+    That no effects of food remain?
+    And, is not virtue in mankind
+    The nutriment that feeds the mind?
+    Upheld by each good action past,
+    And still continued by the last:
+    Then, who with reason can pretend
+    That all effects of virtue end?
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[214]"
+    "line_start": 3141
+    "source_sequence": 234
+  "translation_ja": |-
+    こうしたものは、空しい影のように、過ぎ去るのか、
+    鏡に映った姿のように。
+    あるいは、心の中の、ただの幻のように、
+    飛び去って、何の跡も残さないのか。
+    二十年前に食べたものによっても、
+    体は、栄え、育っているのではないか。
+    食べ物を、与え続けられなかったなら、
+    とっくに千回も、死んでいたはずだ。
+    それなら、誰が、理をもって言えるだろう、
+    食べ物の効き目は、何も残らないなどと。
+    そして、人間にとっての徳は、
+    心を養う、糧ではないか。
+    過去の、よい行いの一つ一つに支えられ、
+    最新の行いによって、また支え続けられる。
+    それなら、誰が、理をもって主張できるだろう、
+    徳の効き目は、すべて尽きてしまうなどと。
+  "translation_status": "reviewed"
+- "id": "sb1726-stanza-6"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Believe me, Stella, when you show
+    That true contempt for things below,
+    Nor prize your life for other ends
+    Than merely to oblige your friends,
+    Your former actions claim their part,
+    And join to fortify your heart.
+    For virtue in her daily race,
+    Like Janus, bears a double face.
+    Look back with joy where she has gone,
+    And therefore goes with courage on.
+    She at your sickly couch will wait,
+    And guide you to a better state.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[215]"
+    "line_start": 3157
+    "source_sequence": 235
+  "translation_ja": |-
+    信じてほしい、ステラ、君が示すとき、
+    この世のものへの、真の軽蔑を。
+    ただ友人たちを喜ばせるほかには、
+    自分の命に、何の値打ちも置かないとき、
+    君の過去の行いも、分け前を求め、
+    力を合わせ、君の心を強くする。
+    徳は、日々の道のりの中で、
+    ヤヌスのように、二つの顔を持つのだから。
+    喜びをもって、通ってきた道を振り返り、
+    それゆえ、勇気をもって、前へ進む。
+    徳は、君の病の床に付き添い、
+    もっとよい境涯へと、導くだろう。
+  "translation_status": "reviewed"
+  "source_variants":
+  - "kind": "comparison"
+    "text": "Looks back with joy where she has gone,"
+    "source_locations":
+    - "source_id": "wikisource-1801"
+      "precision": "work"
+      "url": "https://en.wikisource.org/wiki/The_Works_of_the_Rev._Jonathan_Swift/Volume_7/Stella's_Birthday,_1726-7"
+    "description_ja": "第九行のみ。底本Lookに対してLooks。主語は前行の徳。"
+- "id": "sb1726-stanza-7"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    O then, whatever heav’n intends,
+    Take pity on your pitying friends;
+    Nor let your ills affect your mind,
+    To fancy they can be unkind;
+    Me, surely me, you ought to spare,
+    Who gladly would your sufferings share;
+    Or give my scrap of life to you,
+    And think it far beneath your due;
+    You to whose care so oft I owe
+    That I’m alive to tell you so.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[216]"
+    "line_start": 3169
+    "source_sequence": 236
+  "translation_ja": |-
+    ああ、それなら、天が何を意図しようとも、
+    君を思いやる友人たちを、思いやってほしい。
+    君の病に、心を乱され、
+    友人が冷淡だなどと、思い込まないでほしい。
+    私を、そう、この私だけは、大事にしてほしい、
+    君の苦しみを、喜んで分かち合い、
+    この命の切れ端を、君に渡したいと願い、
+    それでも、君にふさわしい贈り物には、ほど遠いと思う私を。
+    私が生きて、こう伝えられるのは、
+    幾度となく、君の看護のおかげだったのだから。
+  "translation_status": "reviewed"
+- "id": "sb1726-translation-note"
+  "section_id": "translator-notes"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "第三連第十一行の底本はorだが、一八〇一年版はnorである。「徳が行為とともに消え、長く続く喜びも残さないとは理不尽だ」という前後の論旨に従い、norの読みを参照した。第四連のYouはYour、under toはunder、第六連のLookはLooksという同版の異読も、文意の確認に用いた。年記は底本の一七二六年を保持した。"
+  "translation_status": "reviewed"
+"notes":
+- "id": "sb1726-translation-note-definition"
+  "origin": "translator"
+  "form": "endnote"
+  "body":
+  - "segment_id": "sb1726-translation-note"
+"references":
+- "id": "sb1726-translation-note-ref"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "sb1726-stanza-3"
+  "to":
+    "type": "note"
+    "id": "sb1726-translation-note-definition"
+  "status": "verified"
+  "description_ja": "原文と訳注の説明を対照し、同じ箇所に関する訳者注への段落単位の参照を付す。本文・訳注の文字は変更しない。"
+"groups":
+- "id": "sb1726-poem"
+  "kind": "poem"
+  "members":
+  - "segment_id": "sb1726-stanza-1"
+  - "segment_id": "sb1726-stanza-2"
+  - "segment_id": "sb1726-stanza-3"
+  - "segment_id": "sb1726-stanza-4"
+  - "segment_id": "sb1726-stanza-5"
+  - "segment_id": "sb1726-stanza-6"
+  - "segment_id": "sb1726-stanza-7"
+  "separator": |2+
+
+
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "stella"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Stella"
+  "translation_ja": "ステラ"
+  "related_work_ids":
+  - "swift-stella-birthday-1718"
+- "id": "swift-name"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Jonathan Swift"
+  "translation_ja": "ジョナサン・スウィフト"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-21T00:09:16Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "c74f65c5d3751442418304ccc54d869eb18e610468aa737fafcf452cb7e50324"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "e8201a5357514daed2d5fc2fd72b57496ae93e10"
+  "translation_method": "Codexによる原文からの新訳。初稿保存後、見出し・副題・全詩行・注を原文と一回通して対照し、同じ読みで意味、否定、人数・年齢、話者、性別、皮肉、順序を確認。修正箇所のみ再確認。"
+  "source_poem_line_count": 88
+  "source_stanza_line_counts":
+  - 14
+  - 4
+  - 16
+  - 16
+  - 16
+  - 12
+  - 10
+  "drafted_segment_count": 9
+  "next_segment_id": null
+  "full_review_segment_ids":
+  - "sb1726-heading"
+  - "sb1726-stanza-1"
+  - "sb1726-stanza-2"
+  - "sb1726-stanza-3"
+  - "sb1726-stanza-4"
+  - "sb1726-stanza-5"
+  - "sb1726-stanza-6"
+  - "sb1726-stanza-7"
+  - "sb1726-translation-note"
+  "full_review_corrections_ja": []
+  "reference_amendment_reviews":
+  - "completed_at": "2026-10-21T00:09:16Z"
+    "reviewed_by": "Codex"
+    "previous_full_review":
+      "status": "complete"
+      "completed_at": "2026-10-20T23:58:53Z"
+      "reviewed_by": "Codex"
+      "content_sha256": "9b19fe02f278cab066d10c209771c75dad1d9e6ee33b076511dbd8ff65e71bed"
+    "reference_ids":
+    - "sb1726-translation-note-ref"
+    "scope_ja": "既に全文対照を終えた原稿に、本文から訳注への参照一件を追加。参照元・訳注・異読記録の対応と描画時の往復だけを再確認。本文・訳注・原文・読書順は全件不変。全篇の新たな通読は行っていない。"

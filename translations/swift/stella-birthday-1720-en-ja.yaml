@@ -1,0 +1,324 @@
+"schema_version": "2.0"
+"work_id": "swift-stella-birthday-1720"
+"metadata":
+  "title_ja": "ステラの誕生日、一七二〇年"
+  "title_original": "Stella’s Birthday, 1720"
+  "original_languages":
+  - "en"
+  "target_language": "ja"
+  "contributors":
+  - "id": "swift"
+    "name_ja": "ジョナサン・スウィフト"
+    "name_original": "Jonathan Swift"
+    "roles":
+    - "author"
+  - "id": "morley"
+    "name_ja": "ヘンリー・モーリー"
+    "name_original": "Henry Morley"
+    "roles":
+    - "editor"
+  - "id": "translator"
+    "name_ja": "心霊研究家ポロミン"
+    "name_original": null
+    "roles":
+    - "translator"
+    "url": "https://x.com/cacazu_right"
+  "translation_rights":
+    "status": "unknown"
+    "attribution": "心霊研究家ポロミン"
+    "note_ja": "この新訳の利用条件は未指定。"
+  "genres":
+  - "文学"
+  - "詩"
+  "reader_notes_ja":
+  - "1886年モーリー編の底本に従い、本文全56行を4連の構成で収録する。"
+"sources":
+- "id": "gutenberg-623"
+  "role": "primary"
+  "title": "The Battle of the Books, and Other Short Pieces"
+  "languages":
+  - "en"
+  "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+  "edition": "Henry Morley編、Cassell & Company、1886年版。Project Gutenberg eBook 623旧HTML、公開日表記2007年1月15日。"
+  "contributor_ids":
+  - "swift"
+  - "morley"
+  "work_rights":
+    "status": "public_domain"
+    "evidence_url": "https://www.gutenberg.org/ebooks/623"
+    "note_ja": "原著者1745年没、編者1894年没の1886年刊本。Project Gutenberg書誌は米国でパブリックドメインと表示。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "LicenseRef-Project-Gutenberg"
+    "license_url": "https://www.gutenberg.org/policy/license.html"
+    "attribution": "Transcribed from the 1886 Cassell & Company edition by David Price."
+  "sha256": "6362b44a9f5703d1c2a3d10313ead9c9e124f845d138d725e602b6f1bf630517"
+  "description_ja": "2026年10月21日に確認した旧HTML。h2と詩連pの境界を保持し、brを詩行の改行として保存。HTML組版上の行折りと余分な空白のみ整理。"
+"scope":
+  "included":
+  - "source_id": "gutenberg-623"
+    "description_ja": "原題、本文全56行・4連。"
+    "section_ids":
+    - "poem"
+  "excluded":
+  - "source_id": "gutenberg-623"
+    "description_ja": "同一巻の他の詩・論考、巻全体の編者序文、刊記、電子版の利用案内と末尾ライセンス。"
+  "known_gaps": []
+"sections":
+- "id": "poem"
+  "parent_id": null
+  "kind": "section"
+  "heading_segment_ids":
+  - "sb1720-heading"
+  "origin": "source"
+"segments":
+- "id": "sb1720-heading"
+  "section_id": "poem"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    STELLA’S BIRTHDAY, 1720.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/h2[15]"
+    "line_start": 2892
+    "source_sequence": 208
+  "translation_ja": |-
+    ステラの誕生日、一七二〇年
+  "translation_status": "reviewed"
+- "id": "sb1720-stanza-1"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    All travellers at first incline
+    Where’er they see the fairest sign;
+    And if they find the chambers neat,
+    And like the liquor and the meat,
+    Will call again and recommend
+    The Angel Inn to every friend
+    What though the painting grows decayed,
+    The house will never lose its trade:
+    Nay, though the treach’rous tapster Thomas
+    Hangs a new angel two doors from us,
+    As fine as daubers’ hands can make it,
+    In hopes that strangers may mistake it,
+    We think it both a shame and sin,
+    To quit the true old Angel Inn.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[192]"
+    "line_start": 2893
+    "source_sequence": 209
+  "translation_ja": |-
+    旅人は誰しも、初めには、
+    いちばん見栄えのよい看板へ足が向く。
+    部屋がこざっぱりとしていて、
+    酒も料理も気に入れば、
+    また訪れ、友人の誰にも、
+    「天使亭」を勧めるものだ。
+    看板の絵が古びたところで、
+    その宿の商いは衰えはしない。
+    たとえ裏切り者の酒場男トマスが、
+    二軒先に、新しい天使を掲げ、
+    へぼ絵描きの手で、精いっぱい飾り立て、
+    よその客が取り違えるのを当てにしても、
+    私たちは、恥であり、罪だと思う、
+    本物の、昔ながらの天使亭を見捨てることを。
+  "translation_status": "reviewed"
+- "id": "sb1720-stanza-2"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Now, this is Stella’s case in fact,
+    An angel’s face, a little cracked
+    (Could poets, or could painters fix
+    How angels look at, thirty-six):
+    This drew us in at first, to find
+    In such a form an angel’s mind;
+    And every virtue now supplies
+    The fainting rays of Stella’s eyes.
+    See, at her levee, crowding swains,
+    Whom Stella freely entertains,
+    With breeding, humour, wit, and sense;
+    And puts them but to small expense;
+    Their mind so plentifully fills,
+    And makes such reasonable bills,
+    So little gets for what she gives,
+    We really wonder how she lives!
+    And had her stock been less, no doubt,
+    She must have long ago run out.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[193]"
+    "line_start": 2907
+    "source_sequence": 210
+  "translation_ja": |-
+    さて、これこそ、ステラにそのまま当てはまる。
+    天使の顔に、少しひびが入っただけ。
+    （詩人や画家に描けるものなら描いてほしい、
+    三十六歳の天使とは、どんな顔か。）
+    初めは、その顔に引かれて訪れ、
+    その姿のうちに、天使の心を見つけた。
+    そして今は、あらゆる徳が埋め合わせている、
+    ステラの瞳の、薄れゆく輝きを。
+    見よ、君の朝の客間に群がる男たちを。
+    ステラは気前よく、皆をもてなす、
+    礼儀とユーモアと、才知と分別で。
+    しかも、ほとんど出費をさせずに。
+    皆の心を、こんなに豊かに満たし、
+    勘定も、こんなに良心的で、
+    与えるものに比べ、受け取るものは、あまりに少ない。
+    どうやって暮らしているのか、本当に不思議だ。
+    その蓄えが、もっと乏しかったなら、間違いなく、
+    とうの昔に、使い果たしていたはずである。
+  "translation_status": "reviewed"
+- "id": "sb1720-stanza-3"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Then who can think we’ll quit the place,
+    When Doll hangs out a newer face;
+    Or stop and light at Cloe’s Head,
+    With scraps and leavings to be fed.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[194]"
+    "line_start": 2925
+    "source_sequence": 211
+  "translation_ja": |-
+    それなのに、誰が思うだろう、私たちがここを離れるなどと、
+    ドールが、もっと新しい顔の看板を出したからといって。
+    あるいは「クロエの顔」亭で足を止め、馬を降り、
+    切れ端や食べ残しを、あてがわれようなどと。
+  "translation_status": "reviewed"
+- "id": "sb1720-stanza-4"
+  "section_id": "poem"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    Then Cloe, still go on to prate
+    Of thirty-six, and thirty-eight;
+    Pursue your trade of scandal picking,
+    Your hints that Stella is no chicken.
+    Your innuendoes when you tell us,
+    That Stella loves to talk with fellows;
+    And let me warn you to believe
+    A truth, for which your soul should grieve:
+    That should you live to see the day
+    When Stella’s locks, must all be grey,
+    When age must print a furrowed trace
+    On every feature of her face;
+    Though you and all your senseless tribe,
+    Could art, or time, or nature bribe
+    To make you look like beauty’s queen,
+    And hold for ever at fifteen;
+    No bloom of youth can ever blind
+    The cracks and wrinkles of your mind;
+    All men of sense will pass your door,
+    And crowd to Stella’s at fourscore.
+  "source_languages":
+  - "en"
+  "source_locations":
+  - "source_id": "gutenberg-623"
+    "precision": "block"
+    "url": "https://www.gutenberg.org/files/623/623-h/623-h.htm"
+    "xpath": "/html/body/p[195]"
+    "line_start": 2929
+    "source_sequence": 212
+  "translation_ja": |-
+    だからクロエ、まだしゃべり続けるがいい、
+    三十六だ、三十八だと。
+    悪口の種を拾う商売を続けるがいい、
+    ステラはもう、ひよっこではないという、当てこすりを。
+    男たちと話すのが、ステラは好きなのだと、
+    私たちに告げる、その思わせぶりな口ぶりも。
+    だが、これだけは信じるよう、忠告しておこう。
+    君の心には、嘆かわしい真実だろうが、
+    もし君が、その日まで生き延びたとしても、
+    ステラの髪が、すっかり白くなり、
+    年齢が、深いしわの跡を刻む日まで、
+    その顔の、あらゆるところに。
+    君と、君の愚かな仲間の全員が、
+    細工にも、時にも、自然にも、賄賂を渡し、
+    美の女王そっくりに、してもらい、
+    永遠に十五歳で、いられたとしても、
+    若さの花盛りは、決して隠せはしない、
+    君たちの心の、ひびや、しわを。
+    分別ある男たちは皆、君の戸口を通り過ぎ、
+    八十になったステラのもとへ、群がるだろう。
+  "translation_status": "reviewed"
+"notes": []
+"references": []
+"groups":
+- "id": "sb1720-poem"
+  "kind": "poem"
+  "members":
+  - "segment_id": "sb1720-stanza-1"
+  - "segment_id": "sb1720-stanza-2"
+  - "segment_id": "sb1720-stanza-3"
+  - "segment_id": "sb1720-stanza-4"
+  "separator": "\n\n"
+"assets": []
+"figures": []
+"aliases": []
+"terminology":
+- "id": "stella"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Stella"
+  "translation_ja": "ステラ"
+  "related_work_ids":
+  - "swift-stella-birthday-1718"
+- "id": "swift-name"
+  "kind": "person"
+  "source_language": "en"
+  "source": "Jonathan Swift"
+  "translation_ja": "ジョナサン・スウィフト"
+  "related_work_ids":
+  - "swift-tale-of-a-tub"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-20T23:58:53Z"
+    "reviewed_by": "Codex"
+    "content_sha256": "252bd4ccfab8e288b3c5745220c4d856b1f4575b5339578e780711f47ac86302"
+"provenance":
+  "source_retrieved_at": "2026-10-21"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_commit": "e8201a5357514daed2d5fc2fd72b57496ae93e10"
+  "translation_method": "Codexによる原文からの新訳。初稿保存後、見出し・副題・全詩行・注を原文と一回通して対照し、同じ読みで意味、否定、人数・年齢、話者、性別、皮肉、順序を確認。修正箇所のみ再確認。"
+  "source_poem_line_count": 56
+  "source_stanza_line_counts":
+  - 14
+  - 18
+  - 4
+  - 20
+  "drafted_segment_count": 5
+  "next_segment_id": null
+  "full_review_segment_ids":
+  - "sb1720-heading"
+  - "sb1720-stanza-1"
+  - "sb1720-stanza-2"
+  - "sb1720-stanza-3"
+  - "sb1720-stanza-4"
+  "full_review_corrections_ja": []
