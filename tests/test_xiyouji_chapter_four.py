@@ -122,6 +122,10 @@ class ChapterFourTests(unittest.TestCase):
             '030': ['太白金星', '孫悟空', '太白金星'],
             '031': ['太白金星', '玉帝', '孫悟空'],
         }
+        # Speaker identity is unchanged; displayed names follow the scene's status.
+        for number, labels in expected.items():
+            name = '弼馬温' if number == '009' else '斉天大聖' if int(number) >= 13 else '孫悟空'
+            expected[number] = [name if label == '孫悟空' else label for label in labels]
         speakers = set(x for items in expected.values() for x in items)
         pattern = r'^(' + '|'.join(sorted(map(re.escape, speakers), key=len, reverse=True)) + ')「'
         for number, labels in expected.items():
