@@ -24,6 +24,7 @@ h1.story-text{font-size:1.5rem;line-height:1.8}
 ul{padding-left:1.4em}
 li+li{margin-top:.8em}
 .chapter-nav{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:2rem;padding-top:1rem;border-top:1px solid #d9dcd2}
+.chapter-nav:first-child{margin-top:0;margin-bottom:2rem;padding-top:0;border-top:0}
 .chapter-nav a:last-child{margin-left:auto}
 :target{scroll-margin-top:24px}
 .note-card:target,.note-ref:target{background:#eeefe4}
