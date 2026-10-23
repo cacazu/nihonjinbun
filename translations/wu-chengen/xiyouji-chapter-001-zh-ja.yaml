@@ -1,0 +1,1985 @@
+"schema_version": "2.0"
+"work_id": "xiyouji-chapter-001-zh-ja"
+"metadata":
+  "title_ja": "西遊記 第一回"
+  "title_original": "西遊記 第一回 靈根育孕源流出 心性修持大道生"
+  "original_languages":
+    - "zh-Hant"
+  "target_language": "ja"
+  "contributors":
+    - "id": "traditional-author"
+      "name_ja": "呉承恩（伝）"
+      "name_original": "吳承恩"
+      "roles":
+        - "author"
+    - "id": "ai-translator"
+      "name_ja": "ChatGPT（AIによる新訳）"
+      "name_original": null
+      "roles":
+        - "translator"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "西遊記第一回 日本語新訳（AI生成）。原文：中文維基文庫『西遊記/第001回』oldid=2562136。"
+    "note_ja": "中文Wikisourceの電子翻刻に基づく日本語新訳の全面改訂版。出典表示と継承条件を保持する。AIによる原文対照・日本語全文見直しを実施。専門家による独立校訂は未実施。"
+  "genres":
+    - "古典文学"
+    - "神魔小説"
+    - "中国文学"
+  "reader_notes_ja":
+    - "対象は『西遊記』第一回の全体。第一巻の全五回ではない。回題から回末の結語まで、全52の既存対訳IDと読書順を保持する。"
+    - "前稿の全訳文を原文と照合し、2026年10月23日に全面改訂。動植物・食物・衣服・遊び・宗教用語・慣用句を見直し、冒頭詩、挿入詩、歌、会話も対象に含めた。あらすじへの置換はしていない。"
+    - "原文は中文Wikisourceの固定版oldid=2562136の繁体表示。原文欄と用語表のsource欄は対照のため中国語を保持する。日本語本文は現代語を基本とし、固有名、経典名、命名の言葉遊びに必要な文字には読みまたは説明を付す。"
+    - "六か所の語りの文を原文欄へ復元した。王遣の句は照合資料の天遣という補訂を訳に採用し、原文欄は底本どおりとして異文と訳注を添えた。全版にわたる校合は行っていない。"
+    - "原文・日本語の全文をAIで見直した版。専門家の独立校訂を受けた版ではない。特定植物の種の同定、カキの形、三三行の解釈に関する留保は訳注と該当箇所に明記した。"
+    - "詩文の脚韻は再現しない。原典の薬草・養生の描写を、現代の採取・実食・服用の案内として扱わない。"
+"sources":
+  - "id": "wikisource-xiyou-ch1-2562136"
+    "role": "primary"
+    "title": "西遊記/第001回"
+    "languages":
+      - "zh-Hant"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+    "edition": "中文維基文庫固定版 oldid=2562136（最終編集表示 2025-05-20）。繁体字表示。"
+    "contributor_ids":
+      - "traditional-author"
+    "work_rights":
+      "status": "public_domain"
+      "note_ja": "明代に成立した原著本文。呉承恩への帰属は伝統的なもので諸説ある。"
+    "transcription_rights":
+      "status": "licensed"
+      "license_id": "CC-BY-SA-4.0"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "evidence_url": "https://zh.wikisource.org/wiki/Wikisource:Copyrights"
+      "attribution": "中文維基文庫の「西遊記/第001回」参加者（固定版oldid=2562136）"
+      "note_ja": "原著の公有状態とは別に、電子翻刻サイトの利用条件とその固定版を記録する。"
+    "description_ja": "第一回の回題から回末の結語まで。繁体字表示を原文欄に保持し、前稿で欠けていた六か所の語りの短句を復元。source_sequenceはこの章における既存対訳単位の順序である。原刊頁やHTML要素の位置は未確認のため、precisionはworkとした。「王遣」の訳は別の公開翻刻に示された「天遣」の補訂を採用し、該当単位のsource_variantsと訳注に明示する。"
+  - "id": "pharm-matsuhodo"
+    "role": "comparison"
+    "title": "日本薬学会「マツホド」"
+    "languages":
+      - "ja"
+    "url": "https://www.pharm.or.jp/yakusou/2023/01/post-131.html"
+    "edition": null
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+      "note_ja": "語義・異文の確認に使用。現代の解説本文は転載していない。"
+    "description_ja": "マツホドと、その菌核を用いる生薬の関係を確認した。薬効の推奨や実食の案内には使用しない。"
+  - "id": "toho-hatomugi"
+    "role": "comparison"
+    "title": "東邦大学薬学部付属薬用植物園「ハトムギ」"
+    "languages":
+      - "ja"
+    "url": "https://www.lab.toho-u.ac.jp/phar/yakusou/hatomugi.html"
+    "edition": null
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+      "note_ja": "語義・異文の確認に使用。現代の解説本文は転載していない。"
+    "description_ja": "植物名と種子の利用部位、生薬名との対応を確認した。"
+  - "id": "pharm-narukoyuri"
+    "role": "comparison"
+    "title": "日本薬学会「ナルコユリ」"
+    "languages":
+      - "ja"
+    "url": "https://www.pharm.or.jp/flowers/post_58.html"
+    "edition": null
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+      "note_ja": "語義・異文の確認に使用。現代の解説本文は転載していない。"
+    "description_ja": "中国の黄精と日本のナルコユリの対応に留保が必要なことを踏まえ、訳ではナルコユリの仲間とした。"
+  - "id": "wujunzhi-ch30"
+    "role": "comparison"
+    "title": "范成大『呉郡志』巻三十「蠟櫻桃」"
+    "languages":
+      - "zh-Hant"
+    "url": "https://www.shidianguji.com/zh/book/CADAL08000297/chapter/1l1wrvtggvfhg"
+    "edition": null
+    "work_rights":
+      "status": "public_domain"
+    "transcription_rights":
+      "status": "unknown"
+      "note_ja": "語義・異文の確認に使用。現代の解説本文は転載していない。"
+    "description_ja": "色が微黄で蠟櫻と呼ぶサクランボの記述を確認し、本章の臘櫻桃の解釈に参照した。"
+  - "id": "ctext-xiyouji-comparison"
+    "role": "comparison"
+    "title": "中国哲学書電子化計画『唐三藏西游厄釋傳』"
+    "languages":
+      - "zh"
+    "url": "https://ctext.org/wiki.pl?chapter=799794&if=gb"
+    "edition": null
+    "work_rights":
+      "status": "public_domain"
+    "transcription_rights":
+      "status": "unknown"
+      "note_ja": "語義・異文の確認に使用。現代の解説本文は転載していない。"
+    "description_ja": "「有緣居此地，天（原作王）遣入仙宮」の補訂表示を確認。本稿の訳では天を採用する。本文全体の底本にはしていない。"
+  - "id": "zdic-ma"
+    "role": "comparison"
+    "title": "漢典「帓」"
+    "languages":
+      - "zh"
+    "url": "https://www.zdic.net/hans/帓"
+    "edition": null
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+      "note_ja": "語義・異文の確認に使用。現代の解説本文は転載していない。"
+    "description_ja": "足に着ける物を表し、袜に通じる読みを確認。草帓は草で編んだ靴下と訳した。"
+  - "id": "zdic-yuanlong"
+    "role": "comparison"
+    "title": "漢典「元龍」"
+    "languages":
+      - "zh"
+    "url": "https://www.zdic.net/hant/元龍"
+    "edition": null
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+      "note_ja": "語義・異文の確認に使用。現代の解説本文は転載していない。"
+    "description_ja": "本章を用例とする、道を得た境地という語義を確認した。"
+  - "id": "zdic-sansan"
+    "role": "comparison"
+    "title": "漢典「三三」"
+    "languages":
+      - "zh"
+    "url": "https://www.zdic.net/hans/三三"
+    "edition": null
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+      "note_ja": "語義・異文の確認に使用。現代の解説本文は転載していない。"
+    "description_ja": "三を三つ重ねた九という数の読みを参照。三三行の具体的な修行体系を確定する資料とはしていない。"
+"scope":
+  "included":
+    - "source_id": "wikisource-xiyou-ch1-2562136"
+      "description_ja": "第一回の回題・冒頭詩・本文・賦・挿入詩・歌・回末の結語の全52対訳単位。前稿で原文欄から欠けていた六か所の語りの短句も復元した。訳者による新しい注は原著とは区別して巻末へ置く。"
+      "section_ids":
+        - "chapter-01"
+  "excluded":
+    - "source_id": "wikisource-xiyou-ch1-2562136"
+      "description_ja": "サイトのメニュー、ナビゲーション、編集履歴案内、著作権案内、および第二回以降の本文。"
+  "known_gaps":
+    - "source_id": "wikisource-xiyou-ch1-2562136"
+      "segment_ids":
+        - "xy-ch01-026"
+      "description_ja": "カキの四瓣が指す具体的な部位には解釈上の留保がある。本文は四つに分かれた形と訳し、訳注で説明した。本文・訳文の欠落ではない。"
+    - "source_id": "wikisource-xiyou-ch1-2562136"
+      "segment_ids":
+        - "xy-ch01-047"
+      "description_ja": "三三行の具体的な修行体系は未確定。三三を九として訳し、特定の修行分類を創作しない。本文・訳文の欠落ではない。"
+"sections":
+  - "id": "chapter-01"
+    "parent_id": null
+    "kind": "chapter"
+    "origin": "source"
+    "heading_segment_ids":
+      - "xy-ch01-heading"
+  - "id": "translator-notes"
+    "parent_id": null
+    "kind": "editorial_group"
+    "heading_segment_ids": []
+    "origin": "editorial"
+    "label_ja": "訳注"
+"segments":
+  - "id": "xy-ch01-heading"
+    "section_id": "chapter-01"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": "第一回　靈根育孕源流出　心性修持大道生"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 0
+    "translation_ja": |-
+      第一回　霊妙な命が育まれ、その由来が明らかになる
+      　　　　心の本性を修めて、大いなる道が開ける
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-001"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "詩曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 1
+    "translation_ja": "まずは、一編の詩から。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-002"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      混沌未分天地亂，茫茫渺渺無人見。
+      自從盤古破鴻濛，開闢從茲清濁辨。
+      覆載群生仰至仁，發明萬物皆成善。
+      欲知造化會元功，須看《西遊釋厄傳》。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 2
+    "translation_ja": |-
+      混沌がまだ分かれず、天も地も入り乱れていたころ、その果てしなくおぼろな姿を見た者はいない。
+      盤古（ばんこ）が太初の混沌を打ち破ると、世界は開け、澄んだものと濁ったものが分かれた。
+      天は覆い、地は支え、生きとし生けるものはその深い慈しみにすがり、万物は生み育てられて、それぞれの姿を全うする。
+      天地がものを生み、長大な時が巡る、その働きを知りたければ、『西遊釈厄伝』――西への旅で災いを乗り越えるこの物語を読むがよい。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-003"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "蓋聞天地之數，有十二萬九千六百歲為一元。將一元分為十二會，乃子、丑、寅、卯、辰、巳、午、未、申、酉、戌、亥之十二支也。每會該一萬八百歲。且就一日而論：子時得陽氣，而丑則雞鳴；寅不通光，而卯則日出；辰時食後，而巳則挨排；日午天中，而未則西蹉；申時晡，而日落酉，戌黃昏，而人定亥。譬於大數，若到戌會之終，則天地昏曚而萬物否矣。再去五千四百歲，交亥會之初，則當黑暗，而兩間人物俱無矣，故曰混沌。又五千四百歲，亥會將終，貞下起元，近子之會，而復逐漸開明。邵康節曰：「冬至子之半，天心無改移。一陽初動處，萬物未生時。」到此，天始有根。再五千四百歲，正當子會，輕清上騰，有日，有月，有星，有辰。日、月、星、辰，謂之四象。故曰，天開於子。又經五千四百歲，子會將終，近丑之會，而逐漸堅實。《易》曰：「大哉乾元！至哉坤元！萬物資生，乃順承天。」至此，地始凝結。再五千四百歲，正當丑會，重濁下凝，有水，有火，有山，有石，有土。水、火、山、石、土，謂之五形。故曰，地闢於丑。又經五千四百歲，丑會終而寅會之初，發生萬物。曆曰：「天氣下降，地氣上升；天地交合，群物皆生。」至此，天清地爽，陰陽交合。再五千四百歲，正當寅會，生人，生獸，生禽，正謂天地人，三才定位。故曰，人生於寅。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 3
+    "translation_ja": |-
+      さて、天地の時の巡りでは、十二万九千六百年を「一元」というそうである。一元を十二の「会」に分け、子・丑・寅・卯・辰・巳・午・未・申・酉・戌・亥という十二支に当てる。一会は一万八百年である。
+      これを一日の移り変わりになぞらえてみよう。子の刻に陽の気が生じ、丑の刻には鶏が鳴く。寅の刻にはまだ明るくならず、卯の刻に日が昇る。辰の刻には朝食を終え、巳の刻には日がさらに進む。午の刻に太陽が空の真ん中に来て、未の刻には西へ傾く。申の刻は午後の食事どき、酉の刻には日が沈み、戌の刻にはたそがれ、亥の刻には人々が寝静まる。
+      これを天地の大きな周期に当てはめると、戌の会の終わりには天地が暗くなり、万物の営みが閉ざされる。それから五千四百年がたち、亥の会の初めに入ると、世界は闇に包まれ、天地の間には人も物もなくなる。これを混沌という。さらに五千四百年が過ぎ、亥の会が終わりに近づくと、終わりの底から新たな始まりが芽生え、子の会が近づくにつれて、世界は再び少しずつ明るくなる。
+      邵康節（しょうこうせつ）はこう詠んだ。「冬至は子の半ばに当たり、天の本来の働きは変わらない。陽の気がひと筋、初めて動くとき、万物はまだ生まれていない」。ここに至って、天のもとが形づくられ始める。
+      さらに五千四百年がたって、ちょうど子の会の半ばになると、軽く澄んだ気が上に昇り、太陽、月、星々、そして星の巡る区分ができる。これらを日・月・星・辰の「四象」、すなわち天に現れる四つの姿という。「天は子に開く」とは、このことである。
+      また五千四百年がたち、子の会が終わって丑の会が近づくと、地が次第に固まり始める。『易経』にはこうある。「なんと偉大なことか、天の創造の力は。なんと至り尽くしていることか、地の生成の力は。万物は地に支えられて生まれ、地は天の働きを従順に受け継ぐ」。ここで、地が初めて形を結ぶ。
+      さらに五千四百年がたち、ちょうど丑の会の半ばになると、重く濁った気が下に固まり、水・火・山・石・土ができる。この五つを「五形」という。「地は丑に開ける」とは、このことである。
+      また五千四百年がたち、丑の会が終わって寅の会が始まると、万物が生まれ始める。暦の書には、「天の気は下り、地の気は昇る。天地の気が交わって、あらゆるものが生まれる」とある。こうして天は澄み、地は清らかになり、陰と陽が交わる。さらに五千四百年がたって寅の会の半ばになると、人が生まれ、獣が生まれ、鳥が生まれる。天・地・人という、世界を成り立たせる三つのものの位置が定まったのである。「人は寅に生まれる」とは、このことである。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-004"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "感盤古開闢，三皇治世，五帝定倫，世界之間，遂分為四大部洲：曰東勝神洲，曰西牛賀洲，曰南贍部洲，曰北俱蘆洲。這部書單表東勝神洲。海外有一國土，名曰傲來國。國近大海，海中有一座名山，喚為花果山。此山乃十洲之祖脈，三島之來龍，自開清濁而立，鴻濛判後而成。真個好山！有詞賦為證。賦曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 4
+    "translation_ja": |-
+      天地を開いた盤古（ばんこ）、世を治めた三皇、人の世の秩序を定めた五帝――そうした神々や伝説の君主の時代を経て、世界は四つの大陸に分かれた。東勝神洲（とうしょうしんしゅう）、西牛賀洲（さいごかしゅう）、南贍部洲（なんせんぶしゅう）、北倶盧洲（ほっくるしゅう）である。
+      この物語では、まず東勝神洲のことから話そう。海の向こうに、傲来国（ごうらいこく）という国があった。その国は大海に面し、海の中には花果山（かかざん）という名高い山がそびえていた。この山は、仙人の住む十の洲へ連なる山脈のおおもとであり、三つの仙島へ続く地の力の源でもあった。天と地が分かれたときから立ち、太初の混沌が開かれたときから成っている。実に見事な山である。その景色を歌い上げた詩を聞いていただこう。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-005"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "勢鎮汪洋，威寧瑤海。勢鎮汪洋，潮湧銀山魚入穴；威寧瑤海，波翻雪浪蜃離淵。水火方隅高積上，東海之處聳崇巔。丹崖怪石，削壁奇峰。丹崖上，彩鳳雙鳴；削壁前，麒麟獨臥。峰頭時聽錦雞鳴，石窟每觀龍出入。林中有壽鹿仙狐，樹上有靈禽玄鶴。瑤草奇花不謝，青松翠柏長春。仙桃常結果，修竹每留雲。一條澗壑籐蘿密，四面原堤草色新。正是百川會處擎天柱，萬劫無移大地根。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 5
+    "translation_ja": |-
+      その山の勢いは大海を押さえ、その威厳は玉のように輝く海を鎮める。
+      大海を押さえる山のもと、潮は銀の山のように盛り上がり、魚は岩穴へ逃げ込む。
+      輝く海を鎮める山のもと、雪のような白波が逆巻き、蜃気楼を吐く大ハマグリは深い淵を離れる。
+      水と火の気が交わるところに高く盛り上がり、東の海に険しい頂をそびやかす。
+      赤い崖に奇岩、切り立つ岩壁に奇妙な峰。
+      赤い崖では、色鮮やかな鳳凰が二羽、鳴き交わし、切り立つ岩壁の前には、霊獣の麒麟が一頭、横たわる。
+      峰の上からは折々、キンケイの鳴く声が聞こえ、岩の洞穴には幾度も龍が出入りする。
+      林には長寿の鹿と仙術を得た狐、木の上には不思議な力を持つ鳥や黒い鶴がいる。
+      宝のような草も珍しい花も枯れず、松やヒノキの仲間は青々と茂り、いつまでも春の姿を保つ。
+      仙人の桃は絶えず実を結び、すらりと伸びた竹にはいつも雲がとどまる。
+      谷筋には藤などのつる草が生い茂り、四方の野や土手には若草の色がみなぎる。
+      まさしく幾多の川が集まるところに立つ、天を支える柱。果てしない時を経ても動かぬ、大地のおおもとである。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-006"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那座山正當頂上，有一塊仙石。其石有三丈六尺五寸高，有二丈四尺圍圓。三丈六尺五寸高，按周天三百六十五度；二丈四尺圍圓，按政曆二十四氣。上有九竅八孔，按九宮八卦。四面更無樹木遮陰，左右倒有芝蘭相襯。蓋自開闢以來，每受天真地秀，日精月華，感之既久，遂有靈通之意。內育仙胞，一日迸裂，產一石卵，似圓毬樣大。因見風，化作一個石猴，五官俱備，四肢皆全。便就學爬學走，拜了四方。目運兩道金光，射沖斗府。驚動高天上聖大慈仁者玉皇大天尊玄穹高上帝，駕座金闕雲宮靈霄寶殿，聚集仙卿，見有金光燄燄，即命千里眼、順風耳開南天門觀看。二將果奉旨出門外，看的真，聽的明。須臾回報道：「臣奉旨觀聽金光之處，乃東勝神洲海東傲來小國之界，有一座花果山，山上有一仙石，石產一卵，見風化一石猴，在那裡拜四方，眼運金光，射沖斗府。如今服餌水食，金光將潛息矣。」玉帝垂賜恩慈曰：「下方之物，乃天地精華所生，不足為異。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 6
+    "translation_ja": |-
+      その山のちょうど頂に、不思議な力を秘めた石が一つあった。高さは三丈六尺五寸、周囲は二丈四尺。高さは天の一周を表す三百六十五度に、周囲は暦の二十四節気に対応していた。表面には九つの穴と八つの孔があり、天地を九つの区画で表す配置と、陰陽を組み合わせた八種類の基本図形に対応していた。四方には日陰をつくる木がなく、左右にはレイシというキノコやランが生えて、趣を添えていた。
+      天地が開けて以来、この石は天と地のすぐれた気、太陽の精気、月の光を絶えず受けていた。長くそれらに感応するうち、ついに霊妙な働きが生じ、内側に不思議な命が育った。ある日、石ははじけ割れ、丸いまりほどの石の卵を一つ生み落とした。その卵は風に触れると、一匹の石猿になった。目、耳、鼻、口など顔の器官はそろい、手足もすべて備わっていた。
+      石猿はすぐに、はうことと歩くことを覚え、四方を拝んだ。すると両目から二筋の金色の光が放たれ、北斗の星々の宮殿まで突き抜けた。
+      その光に驚かされたのは、天高くにおわす聖なる神、限りない慈悲と仁愛を備えた玉皇大天尊――奥深い天を治める至高の帝、玉帝（ぎょくてい）であった。玉帝は金の門をそなえた雲上の宮殿、その奥の霊霄宝殿（れいしょうほうでん）で、仙人の臣下たちを集めていた。金の光が燃え立つのを見ると、遠くまで見通す千里眼と、遠くの音まで聞き取る順風耳（じゅんぷうじ）に、南天門を開けて調べるよう命じた。
+      二人の将軍は命を受けて門の外に出ると、目と耳で確かめ、ほどなく戻って報告した。
+      「お命じにより、金の光が出た場所を見聞きいたしました。東勝神洲の海の東、傲来という小国の領内に花果山がございます。その山の霊石が卵を生み、卵は風に触れて石猿となりました。その猿が四方を拝み、両目から金色の光を放って、北斗の宮殿まで届かせたのでございます。今は水を飲み、食べ物を口にしておりますので、その光もしだいに消えようとしております」
+      玉帝は慈悲深く言われた。
+      「下界のものが、天地の精気を受けて生まれたのであろう。怪しむには及ばぬ」
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-007"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那猴在山中，卻會行走跳躍，食草木，飲澗泉，採山花，覓樹果；與狼蟲為伴，虎豹為群，獐鹿為友，獼猿為親；夜宿石崖之下，朝遊峰洞之中。真是：「山中無甲子，寒盡不知年。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 7
+    "translation_ja": "その猿は山の中で、歩いたり跳ねたりして暮らした。草木を食べ、谷の泉を飲み、山の花を摘み、木の実を探した。狼などの獣を仲間にし、虎や豹と群れ、キバノロや鹿を友とし、さまざまな猿と身内のように親しんだ。夜は岩壁の下に泊まり、朝は峰や洞穴で遊ぶ。まさしく、「山の中には暦がない。寒さが去っても、何年たったか分からない」という暮らしだった。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-008"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "一朝天氣炎熱，與群猴避暑，都在松陰之下頑耍。你看他一個個："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 8
+    "translation_ja": "ある暑い日、石猿は仲間の猿たちと暑さを避け、みなで松の木陰で遊んでいた。一匹一匹を見れば、こんな具合である。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-009"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "跳樹攀枝，採花覓果；拋彈子，邷麼兒；跑沙窩，砌寶塔；趕蜻蜓，撲\U00027222蠟；參老天，拜菩薩；扯葛籐，編草帓；捉虱子，咬又掐；理毛衣，剔指甲。挨的挨，擦的擦；推的推，壓的壓；扯的扯，拉的拉：青松林下任他頑，綠水澗邊隨洗濯。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 9
+    "translation_ja": |-
+      木に跳びつき、枝によじ登り、花を摘んでは木の実を探す。
+      玉を放り投げ、小石を使ったお手玉遊びをし、砂のくぼみを駆け回っては塔を積む。
+      トンボを追いかけ、バッタを捕まえ、天の神様を拝み、菩薩に手を合わせる。
+      クズのつるを引っぱり、草で靴下を編む。
+      シラミを捕って、かみつぶしたり、指でつまみつぶしたり。
+      毛並みを整え、爪の垢をほじくり出す。
+      寄り添うもの、こすりつけるもの、押すもの、押さえつけるもの、つかむもの、引っぱるもの。
+      青々とした松林の下で好き放題に遊び、緑の水をたたえた谷川で、思うままに体を洗う。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-010"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "一群猴子耍了一會，卻去那山澗中洗澡。見那股澗水奔流，真個似滾瓜湧濺。古云：「禽有禽言，獸有獸語。」眾猴都道：「這股水不知是那裡的水。我們今日趕閑無事，順澗邊往上溜頭尋看源流，耍子去耶！」喊一聲，都拖男挈女，呼弟呼兄，一齊跑來，順澗爬山，直至源流之處，乃是一股瀑布飛泉。但見那："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 10
+    "translation_ja": |-
+      ひとしきり遊ぶと、猿たちは谷川へ水浴びに行った。谷の水は勢いよく流れ、まるで丸い瓜がごろごろ転がるように、湧き立っては飛び散っていた。昔から「鳥には鳥の言葉、獣には獣の言葉がある」という。猿たちは口々に言った。
+      「この水は、いったいどこから来るんだろう。今日は暇で、何もすることがない。川べりをさかのぼって、水の出どころを探しに行こうじゃないか。ひと遊びしよう！」
+      わっと声を上げると、雄も雌も手を取り合い、弟や兄を呼び合って、いっせいに走り出した。谷沿いに山を登り、水の源に行き着くと、そこには高く流れ落ちる滝があった。その眺めは、こうである。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-011"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      一派白虹起，千尋雪浪飛。
+      海風吹不斷，江月照還依。
+      冷氣分青嶂，餘流潤翠微。
+      潺湲名瀑布，真似掛簾帷。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 11
+    "translation_ja": |-
+      一筋の白い虹が立ち、はるか高みから雪のような白波が飛ぶ。
+      海風が吹いても途切れることなく、水辺の月に照らされても、変わらず懸かる。
+      冷たい気は緑の峰々の間を分けて流れ、落ちた水は山の緑を潤す。
+      絶えず音を立てて流れるこの滝は、まるで垂らした幕のようだ。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-012"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "眾猴拍手稱揚道：「好水，好水！原來此處遠通山腳之下，直接大海之波。」又道：「那一個有本事的，鑽進去尋個源頭出來，不傷身體者，我等即拜他為王。」連呼了三聲，忽見叢雜中跳出一個石猴，應聲高叫道：「我進去，我進去。」好猴！也是他："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 12
+    "translation_ja": |-
+      猿たちは手をたたいて褒めそやした。
+      「いい水だ、いい水だ！　ここから水が遠く山の麓まで流れて、そのまま大海の波につながっているんだな」
+      そして、こう言い合った。
+      「腕に覚えのあるやつがいたら、あの中に入り込んで、水の出どころを探してこい。けが一つせずに戻ってきたら、そいつを俺たちの王にしよう」
+      三度そう呼びかけると、茂みの中から石猿が跳び出し、すかさず大声を上げた。
+      「俺が入る！　俺が入る！」
+      さても見事な猿である。この猿こそ、まさしく――
+    "translation_status": "reviewed"
+    "source_variants":
+      - "kind": "corrected"
+        "text": "眾猴拍手稱揚道：「好水，好水！原來此處遠通山腳之下，直接大海之波。」又道：「那一個有本事的，鑽進去尋個源頭出來，不傷身體者，我等即拜他為王。」連呼了三聲，忽見叢雜中跳出一個石猴，應聲高叫道：「我進去，我進去。」"
+        "description_ja": "前稿の転記。段落末の語りの文が欠落していたため、固定版原文に照合してsource_textに復元した。原典の異文ではない。"
+  - "id": "xy-ch01-013"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      今日芳名顯，時來大運通。
+      有緣居此地，王遣入仙宮。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 13
+    "translation_ja": |-
+      今日こそ、その名が世に知られ、時を得て大きな運が開ける。
+      この地に住む縁に恵まれ、天の導きによって、仙人の宮へ入ってゆく。
+    "translation_status": "reviewed"
+    "source_variants":
+      - "kind": "comparison"
+        "text": "有緣居此地，天遣入仙宮。"
+        "source_locations":
+          - "source_id": "ctext-xiyouji-comparison"
+            "precision": "work"
+            "url": "https://ctext.org/wiki.pl?chapter=799794&if=gb"
+        "description_ja": "照合用の公開翻刻は「天」に「原作王」と注記する。source_textの王は底本どおり残し、日本語訳では天の補訂を採用した。"
+  - "id": "xy-ch01-014"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "你看他瞑目蹲身，將身一縱，徑跳入瀑布泉中，忽睜睛擡頭觀看，那裡邊卻無水無波，明明朗朗的一架橋梁。他住了身，定了神，仔細再看，原來是座鐵板橋。橋下之水，沖貫於石竅之間，倒掛流出去，遮閉了橋門。卻又欠身上橋頭，再走再看，卻似有人家住處一般，真個好所在。但見那："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 14
+    "translation_ja": |-
+      石猿は目を閉じ、身をかがめると、勢いよく跳び上がって滝の中へ飛び込んだ。ぱっと目を開け、顔を上げて見ると、中には水も波もなく、一本の橋がはっきりと見えた。
+      足を止め、気持ちを落ち着けてよく見ると、鉄の板でできた橋だった。橋の下の水が岩の穴を勢いよく通り抜け、外へ垂れ落ちて、橋の入口を隠していたのである。
+      石猿は身を起こして橋のたもとへ上がり、歩きながら辺りを見た。まるで人の住まいのようで、実に気持ちのよい所だった。そこには――
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-015"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "翠蘚堆藍，白雲浮玉，光搖片片煙霞。虛窗靜室，滑凳板生花。乳窟龍珠倚掛，縈迴滿地奇葩。鍋灶傍崖存火跡，樽罍靠案見殽渣。石座石床真可愛，石盆石碗更堪誇。又見那一竿兩竿修竹，三點五點梅花。幾樹青松常帶雨，渾然像個人家。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 15
+    "translation_ja": |-
+      青々とした苔が藍色を重ね、白雲は白玉のように浮かび、ひとひらごとの霞に光が揺れる。
+      窓の開いた静かな部屋。滑らかな腰掛けの板には、花のような模様が浮かぶ。
+      鍾乳洞には龍の宝玉のような石が垂れ下がり、珍しい花が地面を埋め、辺りを取り巻く。
+      崖ぎわの鍋とかまどには火を使った跡があり、卓のそばには酒器が置かれ、料理の残りも見える。
+      石の椅子と寝床は実に心地よさそうで、石のたらいと椀も見事なもの。
+      さらに、一、二本のすらりとした竹、三つ五つの梅の花。
+      幾本かの青い松はいつも雨をまとい、そっくり人の住む家に見える。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-016"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "看罷多時，跳過橋中間，左右觀看。只見正當中有一石碣，碣上有一行楷書大字，鐫著「花果山福地，水簾洞洞天」。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 16
+    "translation_ja": |-
+      石猿はしばらく眺め、それから橋の真ん中を跳び渡って、左右を見回した。ちょうど中央に石碑が立ち、整った楷書の大文字で一行、こう刻まれていた。
+      「花果山は恵み豊かな仙境、水簾洞（すいれんどう）は洞窟に開けた別天地」
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-017"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "石猿喜不自勝，急抽身往外便走，復瞑目蹲身，跳出水外，打了兩個呵呵道：「大造化！大造化！」眾猴把他圍住，問道：「裡面怎麼樣？水有多深？」石猴道：「沒水！沒水！原來是一座鐵板橋，橋那邊是一座天造地設的家當。」眾猴道：「怎見得是個家當？」石猴笑道：「這股水乃是橋下沖貫石橋，倒掛下來遮閉門戶的。橋邊有花有樹，乃是一座石房。房內有石窩、石灶、石碗、石盆、石床、石凳。中間一塊石碣上，鐫著『花果山福地，水簾洞洞天』。真個是我們安身之處。裡面且是寬闊，容得千百口老小。我們都進去住，也省得受老天之氣。這裡邊："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 17
+    "translation_ja": |-
+      石猿はうれしくてたまらず、急いで向きを変えて外へ走った。また目を閉じて身をかがめ、滝の外へ跳び出すと、はっはと二声、笑って言った。
+      「なんて運がいいんだ！　なんて運がいいんだ！」
+      猿たちは周りに集まって尋ねた。
+      「中はどうだった？　水はどれくらい深い？」
+      「水なんかない！　水なんかないぞ！　鉄の橋があって、その向こうに、天地がこしらえた住まいがあるんだ」
+      「どうして住まいだと分かるんだ？」
+      石猿は笑って答えた。
+      「この水は橋の下を通り抜けて、下へ垂れ落ち、入口を隠しているだけなんだ。橋のそばには花も木もあって、そこに石の部屋がある。中には石のくぼみ、石のかまど、石の椀、石のたらい、石の寝床、石の腰掛けがある。真ん中の石碑には、『花果山は恵み豊かな仙境、水簾洞は洞窟に開けた別天地』と彫ってあった。あそこは本当に、俺たちが安心して暮らせる場所だ。広いから、年寄りから子どもまで、何百匹、何千匹でも住める。みんなで中に入って住めば、空の気まぐれに悩まされずに済む。あの中なら――
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-018"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      刮風有處躲，下雨好存身。
+      霜雪全無懼，雷聲永不聞。
+      煙霞常照耀，祥瑞每蒸熏。
+      松竹年年秀，奇花日日新。」
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 18
+    "translation_ja": |-
+      風が吹いても逃げ込む所があり、雨が降っても身を寄せられる。
+      霜も雪も恐れることはなく、雷の音さえ聞こえない。
+      霞の光は絶えず照り映え、めでたい気がいつも立ちのぼる。
+      松も竹も毎年青々と茂り、珍しい花は日ごとに新しく咲くんだ」
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-019"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "眾猴聽得，個個歡喜。都道：「你還先走，帶我們進去，進去。」石猴卻又瞑目蹲身，往裡一跳，叫道：「都隨我進來，進來。」那些猴有膽大的，都跳進去了；膽小的，一個個伸頭縮頸，抓耳撓腮，大聲叫喊，纏一會，也都進去了。跳過橋頭，一個個搶盆奪碗，佔灶爭床，搬過來，移過去，正是猴性頑劣，再無一個寧時，只搬得力倦神疲方止。石猿端坐上面道：「列位呵，『人而無信，不知其可。』你們才說有本事進得來，出得去，不傷身體者，就拜他為王。我如今進來又出去，出去又進來，尋了這一個洞天與列位安眠穩睡，各享成家之福，何不拜我為王？」眾猴聽說，即拱伏無違，一個個序齒排班，朝上禮拜，都稱「千歲大王」。自此，石猿高登王位，將「石」字兒隱了，遂稱「美猴王」。有詩為證。詩曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 19
+    "translation_ja": |-
+      話を聞いた猿たちは、みな大喜びして言った。
+      「それなら、もう一度先に行ってくれ。俺たちを連れていってくれよ！」
+      石猿はまた目を閉じてしゃがみ、中へ跳び込むと叫んだ。
+      「みんな、俺について入ってこい！　入ってこい！」
+      度胸のある猿は、次々と跳び込んだ。臆病な猿は首を突き出しては引っ込め、耳をかいたり頬をひっかいたりして、大声で騒いでいた。それでも、しばらくもめた末には、みな中に入った。
+      橋を跳び渡ると、今度は一匹残らず、たらいを取り合い、椀を奪い合い、かまどを占め、寝床を争った。あちらからこちらへ物を運び、こちらからあちらへ動かす。生まれつきいたずら好きな猿のこと、一時も静まらず、心も体もすっかり疲れ果てて、ようやくやめた。
+      石猿は高い所にきちんと座って言った。
+      「みんな、聞いてくれ。『約束を守らない者とは、どう付き合えばよいか分からない』というじゃないか。さっきお前たちは、けがをせずに中へ入って戻って来られる者を、王にすると言った。俺は中へ入って外へ出て、また中へ入った。しかも、この別天地を見つけて、お前たちが安心してぐっすり眠り、それぞれ住まいを持つ幸せを味わえるようにした。それなのに、なぜ俺を王にしないんだ？」
+      猿たちはこの言葉を聞くと、逆らうことなく手を合わせてひれ伏した。年の順に並び、上座に向かって拝礼し、みなで「大王、千年の長寿を！」と唱えた。
+      こうして石猿は王位に就き、名から「石」の字を引っ込めて、美猴王（びこうおう）――美しき猿の王と名乗るようになった。そのことを詠んだ詩がある。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-020"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      三陽交泰產群生，仙石胞含日月精。
+      借卵化猴完大道，假他名姓配丹成。
+      內觀不識因無相，外合明知作有形。
+      歷代人人皆屬此，稱王稱聖任縱橫。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 20
+    "translation_ja": |-
+      三つの陽の気が満ち、天地が和らいで、さまざまな命が生まれる。霊石の胎には、太陽と月の精気が宿る。
+      卵から猿に姿を変えることに、道を全うする営みを託し、その名と姓に、不老長寿の霊薬が成る理を重ねる。
+      内に目を向けても、それには形がないので見分けられず、外の姿に照らせば、形を取ったものとしてはっきり分かる。
+      いつの時代の人も、みなこの道理の内にある。王と名乗ろうと、聖者と名乗ろうと、思う存分に振る舞うがよい。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-021"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "美猴王領一群猿猴、獼猴、馬猴等，分派了君臣佐使。朝遊花果山，暮宿水簾洞，合契同情，不入飛鳥之叢，不從走獸之類，獨自為王，不勝歡樂。是以："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 21
+    "translation_ja": |-
+      美猴王は、手長の猿や、ふつうの猿、大柄な猿など、さまざまな仲間を率いた。そして、王と臣下、補佐役や使者の役目を決めた。
+      朝は花果山で遊び、夕方には水簾洞で眠る。皆の気持ちは通じ合い、鳥の群れにも、地を走る獣の群れにも従わず、自分たちだけの王国をつくって、限りなく楽しく暮らした。その暮らしぶりは――
+    "translation_status": "reviewed"
+    "source_variants":
+      - "kind": "corrected"
+        "text": "美猴王領一群猿猴、獼猴、馬猴等，分派了君臣佐使。朝遊花果山，暮宿水簾洞，合契同情，不入飛鳥之叢，不從走獸之類，獨自為王，不勝歡樂。"
+        "description_ja": "前稿の転記。段落末の語りの文が欠落していたため、固定版原文に照合してsource_textに復元した。原典の異文ではない。"
+  - "id": "xy-ch01-022"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      春採百花為飲食，夏尋諸果作生涯。
+      秋收芋栗延時節，冬覓黃精度歲華。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 22
+    "translation_ja": |-
+      春にはさまざまな花を摘んで食べ、夏にはいろいろな果物を探して暮らす。
+      秋には芋と栗を集めて季節をしのぎ、冬にはナルコユリの仲間の地下茎を掘って、一年を過ごす。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-023"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "美猴王享樂天真，何期有三五百載。一日，與群猴喜宴之間，忽然憂惱，墮下淚來。眾猴慌忙羅拜道：「大王何為煩惱？」猴王道：「我雖在歡喜之時，卻有一點兒遠慮，故此煩惱。」眾猴又笑道：「大王好不知足。我等日日歡會，在仙山福地，古洞神洲，不伏麒麟轄，不伏鳳凰管，又不伏人間王位所拘束，自由自在，乃無量之福，為何遠慮而憂也？」猴王道：「今日雖不歸人王法律，不懼禽獸威嚴，將來年老血衰，暗中有閻王老子管著，一旦身亡，可不枉生世界之中，不得久注天人之內？」眾猴聞此言，一個個掩面悲啼，俱以無常為慮。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 23
+    "translation_ja": |-
+      美猴王が、生まれつきののびやかな心のままに楽しんでいるうちに、いつしか三百年、五百年という歳月が過ぎていた。
+      ある日、仲間たちとにぎやかに宴を楽しんでいたとき、美猴王は不意に思い悩み、涙を流した。猿たちは慌てて周りにひれ伏し、尋ねた。
+      「大王、何をお悩みなのですか？」
+      「今は楽しい盛りだ。だが、先のことを考えると、一つ気がかりがある。それで悲しくなったんだ」
+      猿たちはまた笑い出した。
+      「大王は、なんと満ち足りることをご存じないのでしょう。私たちは毎日、この恵まれた仙境の山、神々の大陸にある古い洞窟で、楽しく集まって暮らしています。麒麟にも鳳凰にも従わず、人間の王にも縛られず、自由気まま。これほどの幸せがほかにあるでしょうか。なぜ先のことで思い悩まれるのです？」
+      猿王は言った。
+      「今は人間の王の法律に縛られず、鳥や獣の威勢も恐れずに済む。だが、いつか年を取り、血の勢いが衰えれば、見えない所で閻魔大王が支配しているのだ。ひとたび死んでしまえば、天界にも人の世にも長くとどまれない。せっかくこの世界に生まれてきたのが、むだになってしまうではないか」
+      これを聞くと、猿たちは一匹一匹、顔を覆って悲しく泣き、いつか命が尽きることを思って、みな不安になった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-024"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "只見那班部中，忽跳出一個通背猿猴，厲聲高叫道：「大王若是這般遠慮，真所謂道心開發也。如今五蟲之內，惟有三等名色不伏閻王老子所管。」猴王道：「你知那三等人？」猿猴道：「乃是佛與仙與神聖三者，躲過輪迴，不生不滅，與天地山川齊壽。」猴王道：「此三者居於何所？」猿猴道：「他只在閻浮世界之中，古洞仙山之內。」猴王聞之，滿心歡喜道：「我明日就辭汝等下山，雲遊海角，遠涉天涯，務必訪此三者，學一個不老長生，常躲過閻君之難。」噫！這句話，頓教跳出輪迴網，致使齊天大聖成。眾猴鼓掌稱揚，都道：「善哉，善哉！我等明日越嶺登山，廣尋些果品，大設筵宴送大王也。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 24
+    "translation_ja": |-
+      そのとき、並んだ猿の中から、長い腕を持つ猿が一匹、跳び出し、よく通る声で叫んだ。
+      「大王がそこまで先をお考えになるとは、まさに、道を求める心が目覚めたということです。この世の生き物は五つの種類に分けられますが、その中に、閻魔大王の支配を受けない者が三通りだけおります」
+      猿王は尋ねた。
+      「その三通りとは、どんな者だ？」
+      「仏、仙人、そして神々です。生まれ変わりを繰り返す輪廻から抜け出し、生まれることも滅びることもなく、天地や山川と同じだけ長く生きます」
+      「その者たちは、どこに住んでいる？」
+      「この人間の世界の、古い洞窟や仙人の山におります」
+      猿王はこれを聞くと、心から喜んで言った。
+      「明日、お前たちに別れを告げて山を下りよう。海の果てまでさまよい、空の果てまで遠く旅をして、必ずその三通りの者を訪ねてみせる。不老長寿の術を学んで、閻魔に命を取られる災いから、いつまでも逃れるのだ」
+      ああ、この一言こそが、やがて輪廻の網を跳び出させ、天にも等しい大聖者――斉天大聖を生むのである。
+      猿たちは手をたたいて褒めたたえた。
+      「ご立派です、ご立派です！　明日は峰を越え、山を登り、果物をたくさん探してまいります。そして盛大な宴を開き、大王をお送りしましょう」
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-025"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "次日，眾猴果去採仙桃，摘異果，刨山藥，斸黃精。芝蘭香蕙，瑤草奇花，般般件件，整整齊齊，擺開石凳石桌，排列仙酒仙餚。但見那："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 25
+    "translation_ja": "翌日、猿たちは言ったとおり、仙人の桃や珍しい果物を摘み、山芋やナルコユリの仲間の地下茎を掘った。レイシやラン、香りのよい草、宝のような草や珍しい花まで、品々をきちんと取りそろえた。石の腰掛けと卓を並べ、仙人の酒とごちそうを広げた。その様子は、こんな具合である。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-026"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "金丸珠彈，紅綻黃肥。金丸珠彈臘櫻桃，色真甘美；紅綻黃肥熟梅子，味果香酸。鮮龍眼，肉甜皮薄；火荔枝，核小囊紅。林檎碧實連枝獻，枇杷緗苞帶葉擎。兔頭梨子雞心棗，消渴除煩更解酲。香桃爛杏，美甘甘似玉液瓊漿；脆李楊梅，酸蔭蔭如脂酥膏酪。紅囊黑子熟西瓜，四瓣黃皮大柿子。石榴裂破，丹砂粒現火晶珠；芋栗剖開，堅硬肉團金瑪瑙。胡桃銀杏可傳茶，椰子葡萄能做酒。榛松榧柰滿盤盛，橘蔗柑橙盈案擺。熟煨山藥，爛煮黃精。搗碎茯苓並薏苡，石鍋微火漫炊羹。人間縱有珍饈味，怎比山猴樂更寧。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 26
+    "translation_ja": |-
+      金の玉、真珠の粒のような実。赤く色づき、黄色くふっくらと熟れた果物。
+      金の玉や真珠に似た、黄色い実のサクランボは、色も美しく、甘さも格別。
+      赤く色づき、黄色くふっくらと熟した梅は、香り高く、よい酸味がある。
+      採れたてのリュウガンは皮が薄く、果肉が甘い。燃えるように赤いライチは、種が小さく、実を包む殻が赤い。
+      青い小リンゴは枝ごと差し出され、淡い黄色のビワは葉をつけたまま捧げられる。
+      兎の頭の形をしたナシと、鶏の心臓の形をしたナツメは、のどの渇きと胸のむかつきを鎮め、酔いも覚ます。
+      香りのよいモモと、とろけるほど熟れたアンズは、仙人の妙なる酒のように甘い。
+      歯ざわりのよいスモモとヤマモモは、乳の脂や、乳を固めて作る食べ物を思わせる、こっくりとした心地よい酸味。
+      赤い果肉に黒い種の熟れたスイカ。四つに分かれた形の、黄色い皮の大きなカキ。
+      ザクロが割れれば、朱色の粒が、火のように輝く宝玉となって現れる。
+      芋やクリを割れば、堅い中身は、黄金色のめのうの塊のよう。
+      クルミとギンナンは茶請けになり、ヤシの実とブドウは酒になる。
+      ハシバミの実、松の実、カヤの実、リンゴを、皿いっぱいに盛り上げる。
+      タチバナ、サトウキビ、ミカン、ダイダイを、卓いっぱいに並べる。
+      山芋は埋み火でじっくり焼き、ナルコユリの仲間の地下茎は柔らかく煮込む。
+      松の根もとにできるマツホドというキノコの塊と、ハトムギの実をつき砕き、石鍋を弱火にかけて、とろりとした汁に炊き上げる。
+      人の世にどんな珍味があろうとも、この山の猿たちの、楽しく心安らかな暮らしに、どうして及ぶだろう。
+    "translation_status": "reviewed"
+    "issues":
+      - "kind": "uncertain_translation"
+        "status": "open"
+        "message_ja": "カキの四瓣が指す具体的な部位には解釈上の留保がある。本文は四つに分かれた形と訳し、訳注で説明した。本文・訳文の欠落ではない。"
+        "source_span":
+          "start": 122
+          "end": 129
+          "exact": "四瓣黃皮大柿子"
+  - "id": "xy-ch01-027"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "群猴尊美猴王上坐，各依齒肩排於下邊，一個個輪流上前奉酒、奉花、奉果，痛飲了一日。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 27
+    "translation_ja": "猿たちは美猴王を上座に迎え、年の順に、その下へ並んだ。一匹ずつ代わる代わる進み出て、酒を捧げ、花を捧げ、果物を捧げた。そして丸一日、思う存分に飲み明かした。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-028"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "次日，美猴王早起，教：「小的們，替我折些枯松，編作栰子，取個竹竿作篙，收拾些果品之類，我將去也。」果獨自登栰，儘力撐開，飄飄蕩蕩，徑向大海波中，趁天風，來渡南贍部洲地界。這一去，正是那："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 28
+    "translation_ja": |-
+      翌朝、美猴王は早く起き、こう命じた。
+      「お前たち、枯れた松の木を折って、いかだに組んでくれ。竹を一本、さおにして、果物なども用意してくれ。俺は出かけるぞ」
+      こうして一人でいかだに乗り、力いっぱいさおを突いて岸を離れた。ゆらりゆらりと大海の波間に出て、空からの風に乗り、南贍部洲の地を目指して渡っていった。この旅立ちは、まさしく――
+    "translation_status": "reviewed"
+    "source_variants":
+      - "kind": "corrected"
+        "text": "次日，美猴王早起，教：「小的們，替我折些枯松，編作栰子，取個竹竿作篙，收拾些果品之類，我將去也。」果獨自登栰，儘力撐開，飄飄蕩蕩，徑向大海波中，趁天風，來渡南贍部洲地界。"
+        "description_ja": "前稿の転記。段落末の語りの文が欠落していたため、固定版原文に照合してsource_textに復元した。原典の異文ではない。"
+  - "id": "xy-ch01-029"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      天產仙猴道行隆，離山駕栰趁天風。
+      飄洋過海尋仙道，立志潛心建大功。
+      有分有緣休俗願，無憂無慮會元龍。
+      料應必遇知音者，說破源流萬法通。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 29
+    "translation_ja": |-
+      天が生み出した、道を修める大きな力を秘めた猿は、山を離れ、いかだに乗って、空からの風を受ける。
+      大海を渡って仙人の道を探し、志を立てて一心に励み、大いなる修行の成果を得ようとする。
+      巡り合わせと縁を得て、俗世への願いを捨て、憂いも悩みもなく、道を極めた境地に達する。
+      きっと心を知ってくれる者に出会い、物事の根源を説き明かされて、あらゆる教えに通じるであろう。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-030"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "也是他運至時來，自登木栰之後，連日東南風緊，將他送到西北岸前，乃是南贍部洲地界。持篙試水，偶得淺水，棄了栰子，跳上岸來。只見海邊有人捕魚、打雁、穵蛤、淘鹽。他走近前，弄個把戲，妝個\U0002192B虎，嚇得那些人丟筐棄網，四散奔跑。將那跑不動的拿住一個，剝了他的衣裳，也學人穿在身上。搖搖擺擺，穿州過府，在市廛中學人禮，學人話。朝餐夜宿，一心裡訪問佛、仙、神聖之道，覓個長生不老之方。見世人都是為名為利之徒，更無一個為身命者。正是那："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 30
+    "translation_ja": |-
+      ちょうど運の向く時が来ていたのだ。木のいかだに乗ってから、何日も強い東南の風が吹き続け、猿王を西北の岸まで送り届けた。そこが南贍部洲だった。
+      さおを差して水深を探っていると、浅瀬に行き当たった。そこでいかだを捨て、岸へ跳び上がった。浜辺には、魚を捕る者、ガンを狩る者、ハマグリを掘る者、塩を採る者がいた。
+      猿王は近寄ると、ひとついたずらを仕掛けた。恐ろしい顔をつくって脅かしたのである。人々は籠も網も投げ捨て、四方へ逃げ散った。猿王は逃げきれなかった一人を捕まえ、着物をはぎ取ると、人間のまねをして着込んだ。
+      それから、体を揺すりながらあちこちの土地や町を巡り、市場では人間の礼儀作法と言葉を学んだ。朝には食事を取り、夜には宿を求め、ひたすら仏、仙人、神々の道を尋ね、不老長寿の方法を探した。
+      だが、世間の人は名誉や利益ばかりを求め、自分の命そのものを真剣に考える者は一人もいなかった。まさしく、次の詩のとおりである。
+    "translation_status": "reviewed"
+    "source_variants":
+      - "kind": "corrected"
+        "text": "也是他運至時來，自登木栰之後，連日東南風緊，將他送到西北岸前，乃是南贍部洲地界。持篙試水，偶得淺水，棄了栰子，跳上岸來。只見海邊有人捕魚、打雁、穵蛤、淘鹽。他走近前，弄個把戲，妝個\U0002192B虎，嚇得那些人丟筐棄網，四散奔跑。將那跑不動的拿住一個，剝了他的衣裳，也學人穿在身上。搖搖擺擺，穿州過府，在市廛中學人禮，學人話。朝餐夜宿，一心裡訪問佛、仙、神聖之道，覓個長生不老之方。見世人都是為名為利之徒，更無一個為身命者。"
+        "description_ja": "前稿の転記。段落末の語りの文が欠落していたため、固定版原文に照合してsource_textに復元した。原典の異文ではない。"
+  - "id": "xy-ch01-031"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      爭名奪利幾時休？早起遲眠不自由！
+      騎著驢騾思駿馬，官居宰相望王侯。
+      只愁衣食耽勞碌，何怕閻君就取勾。
+      繼子蔭孫圖富貴，更無一個肯回頭。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 31
+    "translation_ja": |-
+      名誉を争い、利益を奪い合うのは、いつになればやむのだろう。朝早く起き、夜遅く寝て、自由などありはしない。
+      ロバやラバに乗れば駿馬を欲しがり、宰相になれば王や諸侯になりたがる。
+      衣食の心配ばかりして、あくせく働き、閻魔が今にも命を取り立てに来ることは、少しも恐れない。
+      子や孫に富と高い身分を残そうと計り、誰一人として立ち止まって、己の生き方を振り返ろうとしない。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-032"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "猴王參訪仙道，無緣得遇。在於南贍部洲，串長城，遊小縣，不覺八九年餘。忽行至西洋大海，他想著海外必有神仙。獨自個依前作栰，又飄過西海，直至西牛賀洲地界。登岸遍訪多時，忽見一座高山秀麗，林麓幽深。他也不怕狼蟲，不懼虎豹，登在山頂上觀看。果是好山："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 32
+    "translation_ja": |-
+      猿王は仙人の道を求めて訪ね歩いたが、出会う縁がなかった。南贍部洲の大きな町を巡り、小さな町を訪ねるうち、いつの間にか八、九年あまりが過ぎた。
+      やがて西の大海に行き着くと、海の向こうにはきっと仙人がいるはずだと思った。そこで前と同じように、一人でいかだを作り、再び西の海を漂い渡って、西牛賀洲へたどり着いた。
+      上陸して長いあいだ方々を訪ね歩くうちに、美しく高い山を見つけた。麓には深く静かな森が広がっている。猿王は狼などの獣も恐れず、虎や豹にもひるまず、頂まで登って見渡した。実に見事な山だった。
+    "translation_status": "reviewed"
+    "source_variants":
+      - "kind": "corrected"
+        "text": "猴王參訪仙道，無緣得遇。在於南贍部洲，串長城，遊小縣，不覺八九年餘。忽行至西洋大海，他想著海外必有神仙。獨自個依前作栰，又飄過西海，直至西牛賀洲地界。登岸遍訪多時，忽見一座高山秀麗，林麓幽深。他也不怕狼蟲，不懼虎豹，登在山頂上觀看。"
+        "description_ja": "前稿の転記。段落末の語りの文が欠落していたため、固定版原文に照合してsource_textに復元した。原典の異文ではない。"
+  - "id": "xy-ch01-033"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "千峰排戟，萬仞開屏。日映嵐光輕鎖翠，雨收黛色冷含青。瘦籐纏老樹，古渡界幽程。奇花瑞草，修竹喬松。修竹喬松，萬載常青欺福地；奇花瑞草，四時不謝賽蓬瀛。幽鳥啼聲近，源泉響溜清。重重谷壑芝蘭繞，處處巉崖苔蘚生。起伏巒頭龍脈好，必有高人隱姓名。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 33
+    "translation_ja": |-
+      幾千もの峰が、刃をつけたほこを並べたように立ち、果てしなく高い岩壁が、屏風のように広がる。
+      日が差すと、山の霞が緑を薄く包み、雨がやむと、山の藍色にひんやりとした青さが宿る。
+      細いつるが老木に巻きつき、古い渡し場の先には、奥深い道が延びている。
+      珍しい花と、めでたい草。すらりと伸びた竹と、高々とそびえる松。
+      竹と松は一万年を経ても青々と茂り、恵まれた仙境にも勝る。花や草は四季を通じて枯れず、仙人の島、蓬莱（ほうらい）や瀛洲（えいしゅう）にも引けを取らない。
+      奥深い森にすむ鳥の声が近く聞こえ、湧き出る泉の流れる音は澄んでいる。
+      幾重にも重なる谷にはレイシやランが生い茂り、険しい岩壁には至る所、苔が生える。
+      起伏する峰々には、龍にたとえられるよい地の力が通っている。きっと、道を極めた人が名を隠して住んでいるのだろう。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-034"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "正觀看間，忽聞得林深之處有人言語。急忙趨步，穿入林中，側耳而聽，原來是歌唱之聲。歌曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 34
+    "translation_ja": "眺めていると、林の奥から、ふと人の声が聞こえた。猿王は急いで木立の中へ入り、耳を澄ませた。聞こえてきたのは歌声だった。その歌は、こういうものである。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-035"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      「觀棋柯爛，伐木丁丁，雲邊谷口徐行。賣薪沽酒，狂笑自陶情。蒼逕秋高對月，枕松根、一覺天明。認舊林，登崖過嶺，持斧斷枯籐。
+      收來成一擔，行歌市上，易米三升。更無些子爭競，時價平平。不會機謀巧算，沒榮辱、恬淡延生。相逢處，非仙即道，靜坐講《黃庭》。」
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 35
+    "translation_ja": |-
+      「碁に見とれているうちに、斧の柄は朽ち果てる。木を切る音は、こつん、こつん。雲のかかる谷の入り口を、ゆっくりと歩いていく。
+      薪を売って酒を買い、大笑いして、心のままに楽しむ。草木の茂る小道で、澄み渡る秋空の月を眺め、松の根を枕に眠れば、ひと眠りで夜が明ける。なじみの林を目指し、崖を登り、峰を越え、斧を振るって枯れたつるを切る。
+      集めた薪を一荷にまとめ、歌いながら市場へ出て、三升の米と取り換える。競り合う気など少しもなく、値段は穏やかに、相場のまま。
+      人を出し抜く知恵も、巧みな駆け引きも知らない。誉れも恥も気にせず、心静かに命を養う。出会う相手は仙人か道士ばかり。静かに座り、道教の経典『黄庭経』を語り合う」
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-036"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "美猴王聽得此言，滿心歡喜道：「神仙原來藏在這裡！」即忙跳入裡面，仔細再看，乃是一個樵子，在那裡舉斧砍柴。但看他打扮非常："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 36
+    "translation_ja": |-
+      美猴王はこの歌を聞くと、うれしさで胸がいっぱいになった。
+      「仙人は、こんな所に隠れていたのか！」
+      すぐに木立の奥へ跳び込み、よく見ると、斧を振り上げて薪を切っている一人の木こりだった。その身なりは、なかなか目を引いた。
+    "translation_status": "reviewed"
+    "source_variants":
+      - "kind": "corrected"
+        "text": "美猴王聽得此言，滿心歡喜道：「神仙原來藏在這裡！」即忙跳入裡面，仔細再看，乃是一個樵子，在那裡舉斧砍柴。"
+        "description_ja": "前稿の転記。段落末の語りの文が欠落していたため、固定版原文に照合してsource_textに復元した。原典の異文ではない。"
+  - "id": "xy-ch01-037"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "頭上戴箬笠，乃是新筍初脫之籜。身上穿布衣，乃是木綿撚就之紗。腰間繫環絛，乃是老蠶口吐之絲。足下踏草履，乃是枯莎槎就之爽。手執衠鋼斧，擔挽火麻繩。扳松劈枯樹，爭似此樵能。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 37
+    "translation_ja": |-
+      頭にかぶった竹笠は、若いタケノコが脱ぎ捨てたばかりの皮で編んだもの。
+      身に着けた布の衣は、綿をより合わせて作った糸で織ったもの。
+      腰に巻いた組みひもは、十分に育った蚕が口から吐いた糸で編んだもの。
+      足に履いた草履は、枯れたスゲをより合わせた、軽やかな履物。
+      手にはよく鍛えた鋼の斧を握り、荷をまとめるのは麻の縄。
+      松の枝を引き寄せ、枯れ木を割る。その腕前で、この木こりにかなう者がいようか。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-038"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "猴王近前叫道：「老神仙，弟子起手。」那樵漢慌忙丟了斧，轉身答禮道：「不當人，不當人。我拙漢衣食不全，怎敢當『神仙』二字？」猴王道：「你不是神仙，如何說出神仙的話來？」樵夫道：「我說甚麼神仙話？」猴王道：「我才來至林邊，只聽的你說：『相逢處，非仙即道，靜坐講《黃庭》。』《黃庭》乃道德真言，非神仙而何？」樵夫笑道：「實不瞞你說，這個詞名做《滿庭芳》，乃一神仙教我的。那神仙與我舍下相鄰，他見我家事勞苦，日常煩惱，教我遇煩惱時，即把這詞兒念念，一則散心，二則解困。我才有些不足處思慮，故此念念，不期被你聽了。」猴王道：「你家既與神仙相鄰，何不從他修行？學得個不老之方，卻不是好？」樵夫道：「我一生命苦：自幼蒙父母養育至八九歲，才知人事，不幸父喪，母親居孀。再無兄弟姊妹，只我一人，沒奈何，早晚侍奉。如今母老，一發不敢拋離。卻又田園荒蕪，衣食不足，只得斫兩束柴薪，挑向市廛之間，貨幾文錢，糴幾升米，自炊自造，安排些茶飯，供養老母。所以不能修行。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 38
+    "translation_ja": |-
+      猿王は近づいて呼びかけた。
+      「仙人さま、どうかご挨拶をさせてください」
+      木こりはあわてて斧を放し、振り向いて礼を返した。
+      「とんでもない、とんでもない。私は食べる物にも着る物にも事欠く、つまらない男です。仙人などと呼んでいただける者ではありません」
+      「仙人でないなら、なぜ仙人の言葉を口にしていたのですか」
+      「私が、どんな仙人の言葉を言いましたか」
+      「先ほど林のそばへ来たとき、こうおっしゃるのが聞こえました。『出会う相手は仙人か道士ばかり。静かに座り、黄庭経を語り合う』と。『黄庭経』といえば、道の真理を説く経典です。仙人でなくて、何だというのです」
+      木こりは笑った。
+      「正直にお話ししましょう。あれは『満庭芳』という曲に合わせた歌で、一人の仙人から教わったのです。その方は、私の家の近くに住んでおられます。私が暮らしに追われて、毎日くよくよしているのをご覧になり、悩み事があるときは、この歌を唱えるようにと教えてくださいました。そうすれば気が晴れ、苦しさも和らぐと。先ほども、暮らしの足りない物のことなどを考えていたので、歌っていたのです。あなたがお聞きになるとは思いませんでした」
+      猿王は言った。
+      「仙人がお近くに住んでいらっしゃるのなら、どうしてその方に従って修行しないのです。不老の方法を習えば、よいではありませんか」
+      木こりは答えた。
+      「私の一生は、苦労の連続なのです。幼いころは両親に育ててもらいましたが、八、九歳になって、ようやく物心がついたころ、不幸にも父が亡くなり、母は夫を失いました。兄弟も姉妹もなく、子は私一人です。ほかに頼れる者もなく、朝晩、母の世話をしなければなりませんでした。今では母も年を取り、いっそう置いてはいけません。そのうえ田畑は荒れ、衣食も足りません。仕方なく薪を二束ばかり切って町へ担いでいき、何文かの銭に換え、米を何升か買って帰ります。自分で煮炊きし、お茶や食事を用意して、老いた母を養っているのです。ですから、修行はできないのです」
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-039"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "猴王道：「據你說起來，乃是一個行孝的君子，向後必有好處。但望你指與我那神仙住處，卻好拜訪去也。」樵夫道：「不遠，不遠。此山叫做靈臺方寸山，山中有座斜月三星洞，那洞中有一個神仙，稱名須菩提祖師。那祖師出去的徒弟，也不計其數，見今還有三四十人從他修行。你順那條小路兒，向南行七八里遠近，即是他家了。」猴王用手扯住樵夫道：「老兄，你便同我去去，若還得了好處，決不忘你指引之恩。」樵夫道：「你這漢子甚不通變，我方才這般與你說了，你還不省？假若我與你去了，卻不誤了我的生意？老母何人奉養？我要斫柴，你自去，自去。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 39
+    "translation_ja": |-
+      猿王は言った。
+      「お話を聞けば、あなたは親孝行を尽くす、立派な方です。きっと先々、よい報いがあるでしょう。どうか、その仙人のお住まいを教えてください。訪ねていきたいのです」
+      木こりは答えた。
+      「遠くありませんよ、遠くありません。この山は霊台方寸山（れいだいほうすんざん）といい、山中には斜月三星洞（しゃげつさんせいどう）という洞窟があります。その洞窟に、須菩提祖師（すぼだいそし）と呼ばれる仙人がお住まいです。すでに門下を巣立った弟子は数えきれず、今でも三、四十人が教えを受けて修行しています。あの小道を南へ七、八里ほど行けば、そのお住まいです」
+      猿王は木こりをつかまえて引き留めた。
+      「あなたも一緒に来てくれませんか。よい教えを授かることができたら、案内していただいたご恩は、決して忘れません」
+      木こりは言った。
+      「あんたは、なんとも話の分からない人だ。さっき、あれだけ説明したのに、まだ分からないのか。あんたについていったら、仕事ができなくなるだろう。年老いた母を、誰が養うんだ。私は薪を切らなくてはいけない。一人で行ってくれ、一人で」
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-040"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "猴王聽說，只得相辭。出深林，找上路徑，過一山坡，約有七八里遠，果然望見一座洞府。挺身觀看，真好去處！但見："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 40
+    "translation_ja": |-
+      そう言われて、猿王はあきらめ、別れを告げた。深い林を抜け、小道を見つけて、山の斜面を一つ越えた。七、八里ほど進むと、果たして洞窟の住まいが見えてきた。
+      背を伸ばして眺めると、実にすばらしい所だった。その景色は、こうである。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-041"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "煙霞散彩，日月搖光。千株老柏，萬節修篁。千株老柏，帶雨半空青冉冉；萬節修篁，含煙一壑色蒼蒼。門外奇花佈錦，橋邊瑤草噴香。石崖突兀青苔潤，懸壁高張翠蘚長。時聞仙鶴唳，每見鳳凰翔。仙鶴唳時，聲振九皋霄漢遠；鳳凰翔起，翎毛五色彩雲光。玄猿白鹿隨隱見，金獅玉象任行藏。細觀靈福地，真個賽天堂。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 41
+    "translation_ja": |-
+      霞はあでやかな色を広げ、日と月は光を揺らす。
+      ヒノキの仲間の老木が幾千本も並び、すらりとした竹は、数えきれないほどの節を重ねる。
+      老木は雨を帯びて、空高く青々と茂り、長い竹はもやを含んで、谷一面を深い緑に染める。
+      門の外では珍しい花が錦のように咲き広がり、橋のたもとでは美しい草が香りを放つ。
+      突き出した岩の崖には、青い苔がしっとりと生え、高く切り立つ岩壁にも、緑の苔が長く伸びる。
+      折々、仙境の鶴が鳴く声が聞こえ、しばしば鳳凰が飛ぶ姿が見える。
+      鶴が鳴けば、その声は幾重もの沢を越え、はるかな大空まで響く。鳳凰が舞い上がれば、五色の羽が、色とりどりの雲のように輝く。
+      黒い猿と白い鹿が、思い思いに姿を見せ、また隠れる。金色の獅子と、玉のような象も、気の向くままに行き来する。
+      霊気に満ちた、この恵まれた土地をつぶさに眺めれば、まことに天上の楽園にも勝っている。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-042"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "又見那洞門緊閉，靜悄悄杳無人跡。忽回頭，見崖頭立一石碑，約有三丈餘高，八尺餘闊，上有一行十個大字，乃是「靈臺方寸山，斜月三星洞」。美猴王十分歡喜道：「此間人果是樸實，果有此山此洞。」看夠多時，不敢敲門。且去跳上松枝梢頭，摘松子吃了頑耍。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 42
+    "translation_ja": |-
+      ところが、洞窟の門は固く閉じられ、あたりは静まり返って、人の気配がなかった。ふと振り向くと、崖の上に、高さ三丈あまり、幅八尺あまりの石碑が立っていた。一列に十字の大きな文字が刻んである。
+      「霊台方寸山　斜月三星洞」
+      美猴王は、たいそう喜んだ。
+      「ここの人は本当に正直だ。教えてくれた山も、洞窟も、ちゃんとある」
+      長いこと眺めていたが、門をたたく勇気が出なかった。そこで松の梢へ跳び上がり、松の実を摘んで食べながら、遊んでいた。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-043"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "少頃間，只聽得呀的一聲，洞門開處，裡面走出一個仙童，真個丰姿英偉，像貌清奇，比尋常俗子不同。但見他："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 43
+    "translation_ja": "しばらくすると、ぎいっと音がして、洞窟の門が開いた。中から出てきたのは、仙人に仕える一人の童子だった。姿はりりしく、顔立ちは清らかで、俗世の子供とはまるで違っていた。その様子を述べるなら――"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-044"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      髽髻雙絲綰，寬袍兩袖風。
+      貌和身自別，心與相俱空。
+      物外長年客，山中永壽童。
+      一塵全不染，甲子任翻騰。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 44
+    "translation_ja": |-
+      結い上げた髪は二筋のひもで留め、ゆったりした衣の両袖には風が通う。
+      顔は穏やかだが、その身には人並みでないものがある。心にも姿にも、執着の影がない。
+      俗世を離れて長い年月を生き、山の中で永遠の命を保つ童子。
+      俗世の塵には少しも染まらず、歳月がどれほど巡ろうと、意に介さない。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-045"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那童子出得門來，高叫道：「甚麼人在此搔擾？」猴王撲的跳下樹來，上前躬身道：「仙童，我是個訪道學仙之弟子，更不敢在此搔擾。」仙童笑道：「你是個訪道的麼？」猴王道：「是。」童子道：「我家師父正才下榻，登壇講道，還未說出原由，就教我出來開門。說：『外面有個修行的來了，可去接待接待。』想必就是你了？」猴王笑道：「是我，是我。」童子道：「你跟我進來。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 45
+    "translation_ja": |-
+      童子は門の外へ出ると、大声で呼びかけた。
+      「誰だ。ここで騒いでいるのは」
+      猿王は木からぱっと跳び下り、進み出て、身をかがめた。
+      「童子さま、私は道を求め、仙人の教えを学びたくて参りました。ここで騒ごうなどとは、決して思っておりません」
+      童子は笑った。
+      「道を求めて来たのか」
+      「はい」
+      「お師匠さまは、つい今しがた寝台を下り、教えを説こうと壇に上がられた。ところが、まだ話を始めないうちに、私に門を開けるようお命じになったのだ。『外に修行を志す者が来ている。迎えてやりなさい』とね。それは、きっとお前のことだろう」
+      猿王は笑って答えた。
+      「私です、私です」
+      「では、ついておいで」
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-046"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "這猴王整衣端肅，隨童子徑入洞天深處觀看：一層層深閣瓊樓，一進進珠宮貝闕，說不盡那靜室幽居。直至瑤臺之下，見那菩提祖師端坐在臺上，兩邊有三十個小仙侍立臺下。果然是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 46
+    "translation_ja": |-
+      猿王は衣服を整え、姿勢を正し、童子に従って、洞窟の奥に開けた仙境へ入った。見渡せば、玉で飾られた奥深い楼閣が幾重にもそびえ、さらに奥へ進むたびに、真珠や貝で飾られた宮殿と門が続いている。静かな部屋や、奥まった住まいの数々は、とても語り尽くせない。
+      やがて玉で飾られた壇の下まで進むと、菩提祖師が壇上に姿勢を正して座っていた。壇の下では、三十人の若い仙人が左右に分かれて立ち、控えていた。まさしく、次の詩のとおりである。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-047"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      大覺金仙沒垢姿，西方妙相祖菩提。
+      不生不滅三三行，全氣全神萬萬慈。
+      空寂自然隨變化，真如本性任為之。
+      與天同壽莊嚴體，歷劫明心大法師。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 47
+    "translation_ja": |-
+      大いなる悟りを開いた、尊い仙人。その姿に汚れはない。西方の聖なる姿を備えるのは、菩提祖師。
+      九重の修行を成し遂げ、生まれることも滅びることもない境地にあり、生命の気も精神も完全に保ち、その慈しみは果てしない。
+      執着を離れた静けさのうちに、自然のまま、あらゆる変化に応じる。真実そのものの本性に従い、自在に振る舞う。
+      天と等しい寿命を持つ、気高く厳かな姿。果てしない時代を経て、己の心を明らかにした、偉大な師。
+    "translation_status": "reviewed"
+    "issues":
+      - "kind": "uncertain_translation"
+        "status": "open"
+        "message_ja": "三三行の具体的な修行体系は未確定。三三を九として訳し、特定の修行分類を創作しない。本文・訳文の欠落ではない。"
+        "source_span":
+          "start": 21
+          "end": 24
+          "exact": "三三行"
+  - "id": "xy-ch01-048"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "美猴王一見，倒身下拜，磕頭不計其數，口中只道：「師父，師父，我弟子志心朝禮，志心朝禮。」祖師道：「你是那方人氏？且說個鄉貫、姓名明白，再拜。」猴王道：「弟子乃東勝神洲傲來國花果山水簾洞人氏。」祖師喝令：「趕出去！他本是個撒詐搗虛之徒，那裡修甚麼道果！」猴王慌忙磕頭不住道：「弟子是老實之言，決無虛詐。」祖師道：「你既老實，怎麼說東勝神洲？那去處到我這裡隔兩重大海，一座南贍部洲，如何就得到此？」猴王叩頭道：「弟子飄洋過海，登界遊方，有十數個年頭，方才訪到此處。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 48
+    "translation_ja": |-
+      美猴王は祖師を見るなり身を投げ出してひれ伏し、数えきれないほど額を地につけた。口にするのは、ただこの言葉ばかりだった。
+      「お師匠さま、お師匠さま。真心を込めて拝礼いたします。真心を込めて拝礼いたします」
+      祖師は言った。
+      「お前は、どこの者だ。まず生まれ故郷と姓名を、はっきり名乗りなさい。拝礼は、それからだ」
+      猿王は答えた。
+      「私は、東勝神洲、傲来国の花果山、水簾洞から参りました」
+      祖師は一喝した。
+      「追い出せ。この者は、うそをつき、でたらめを言って人をだますやつだ。そんな者が、修行で何を身につけられるものか」
+      猿王はあわてて、何度も額を地につけた。
+      「本当のことを申し上げております。決して、うそ偽りはございません」
+      「正直に言っているのなら、なぜ東勝神洲などと言うのだ。そこからここまでは、二つの大海と、南贍部洲という一つの大陸を隔てている。どうして、ここまで来られたのだ」
+      猿王は額を下げたまま答えた。
+      「海を漂い渡り、方々の土地を旅して回り、十数年かかって、ようやくこちらにたどり着いたのでございます」
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-049"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "祖師道：「既是逐漸行來的也罷。你姓甚麼？」猴王又道：「我無性。人若罵我，我也不惱；若打我，我也不嗔。只是陪個禮兒就罷了。一生無性。」祖師道：「不是這個性。你父母原來姓甚麼？」猴王道：「我也無父母。」祖師道：「既無父母，想是樹上生的？」猴王道：「我雖不是樹上生，卻是石裡長的。我只記得花果山上有一塊仙石，其年石破，我便生也。」祖師聞言暗喜，道：「這等說，卻是個天地生成的。你起來走走我看。」猴王縱身跳起，拐呀拐的走了兩遍。祖師笑道：「你身軀雖是鄙陋，卻像個食松果的猢猻。我與你就身上取個姓氏，意思教你姓『猢』。猢字去了個獸傍，乃是個古月。古者，老也；月者，陰也。老陰不能化育，教你姓『猻』倒好。猻字去了獸傍，乃是個子系。子者，兒男也；系者。嬰細也，正合嬰兒之本論。教你姓『孫』罷。」猴王聽說，滿心歡喜，朝上叩頭道：「好！好！好！今日方知姓也。萬望師父慈悲，既然有姓，再乞賜個名字，卻好呼喚。」祖師道：「我門中有十二個字，分派起名，到你乃第十輩之小徒矣。」猴王道：「那十二個字？」祖師道：「乃廣、大、智、慧、真、如、性、海、穎、悟、圓、覺十二字。排到你，正當『悟』字。與你起個法名叫做『孫悟空』，好麼？」猴王笑道：「好！好！好！自今就叫做孫悟空也。」正是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 49
+    "translation_ja": |-
+      祖師は言った。
+      「少しずつ旅をして来たというのなら、よかろう。それで、お前の姓（せい）は何という」
+      猿王は答えた。
+      「性（せい）といいますと、私には、怒るような気性はありません。悪口を言われても腹を立てませんし、殴られても怒りません。ただ、おわびをして済ませます。生まれてこのかた、かんしゃくというものがないのです」
+      「その『性』ではない。お前の両親の姓を聞いているのだ」
+      「私には、両親もおりません」
+      「両親がいない。それでは、木から生まれたとでもいうのか」
+      「木から生まれたのではございません。石の中から生まれました。花果山に、不思議な力を持つ石が一つあったのを覚えております。ある年、その石が割れて、私が生まれたのです」
+      祖師はそれを聞き、ひそかに喜んだ。
+      「それなら、天地が生み出した者というわけか。立って、少し歩いてみなさい」
+      猿王は勢いよく跳び起き、ひょこひょこと、二度歩いてみせた。
+      祖師は笑った。
+      「姿は不格好だが、松の実を食べる『猢猻（こそん）』、つまり猿によく似ている。お前の姿にちなんだ姓をつけてやろう。まず、『猢』の字はどうかと考えた。この字から獣偏を取ると、『古』と『月』になる。『古』は老いたもの、『月』は陰の気を表す。老いきった陰には、ものを生み育てる力がない。それなら、『猻』のほうがよいな。この字から獣偏を取ると、『子』と『系』になる。『子』は男の子、『系』は小さく幼いものを意味する。これなら、赤子のあり方を根本とする教えに、ぴったり合う。お前の姓は、『孫』にしよう」
+      猿王は、うれしさで胸がいっぱいになり、壇へ向かって額を地につけた。
+      「ありがたい、ありがたい、ありがたい！　今日、初めて自分の姓が分かりました。どうか、お師匠さま、お慈悲をお願いいたします。姓をいただけたのですから、次には、人に呼んでもらえる名前もお授けください」
+      祖師は言った。
+      「わが門では、十二の文字を順に割り当て、弟子の代ごとに名をつけている。お前は、第十代の弟子に当たる」
+      「その十二の文字とは、何でございますか」
+      「広・大・智・慧・真・如・性・海・穎・悟・円・覚、この十二字だ。お前の代は、ちょうど『悟』に当たる。修行者としての名を、『孫悟空（そんごくう）』とつけよう。どうだ」
+      猿王は笑った。
+      「ありがたい、ありがたい、ありがたい！　今日から私は、孫悟空です」
+      まさに、次の詩にいうとおりである。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-050"
+    "section_id": "chapter-01"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "鴻濛初闢原無姓，打破頑空須悟空。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 50
+    "translation_ja": |-
+      天地の混沌が初めて開かれたとき、もとより姓などはなかった。
+      ただ空しいだけの境地を打ち破るには、「空」の真の意味を悟らねばならない。
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-051"
+    "section_id": "chapter-01"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "畢竟不知向後修些甚麼道果，且聽下回分解。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch1-2562136"
+        "precision": "work"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+        "source_sequence": 51
+    "translation_ja": "さて、この先、どのような修行を積み、何を成し遂げることになるのか。その話は、次の回に譲るとしよう。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-note-food-names"
+    "section_id": "translator-notes"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "マツホドはキノコの一種で、ここで食材として挙がるのは、松の根に関連してできる菌糸の塊、すなわち菌核である。松の根そのものではなく、傘を開いた通常のキノコの姿とも異なる。本文では形が伝わるよう「松の根もとにできるマツホドというキノコの塊」とした。ハトムギは料理の文脈なので「ハトムギの実」と訳した。ここは古典小説の食物描写であり、採取・調理・服用を勧める記述ではない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-note-yellow-cherry"
+    "section_id": "translator-notes"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "黄色い実のサクランボと訳した。范成大『呉郡志』巻三十には、実がほのかに黄色く、蠟櫻と呼ばれるサクランボが記される。本章の表記は「臘櫻桃」だが、金の玉にたとえる色の描写とも合わせ、この黄色いサクランボを指すと解した。乾燥したサクランボや、ユスラウメとする根拠は採っていない。現代の特定品種名までは確定しない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-note-plant-identification"
+    "section_id": "translator-notes"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "ナルコユリの仲間の地下茎、という訳では、古い中国の植物名を、日本にある単一の植物種へ機械的に置き換えていない。中国の生薬の基原には複数の近縁種があり、本章だけから種は特定できない。また、本文のヒノキの仲間は中国語の柏という針葉樹の呼び名に対応し、日本語のカシワという広葉樹とは区別した。古い果物名や柑橘名も現代の品種・分類と一対一には対応しないため、訳は一般的な呼び名にとどめる。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-note-persimmon"
+    "section_id": "translator-notes"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "カキの「四つに分かれた形」は、原文の四瓣という形の表現を残した訳である。果実の形や、四つに分かれたへたを表す可能性があり、この句だけでは部位まで確定しない。前稿の「皮が四つに割れた」という訳は、原文にない皮の裂け目を断定していたため改めた。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-note-animals-and-play"
+    "section_id": "translator-notes"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "手長の猿、ふつうの猿、大柄な猿という呼び分けは、古典の猿の名称を読みやすく言い換えたもので、現代動物学の厳密な種の同定ではない。長い腕を持つ猿も同様である。遊びの場面の草の靴下は、原字が足に着ける物を表すためで、後の木こりの草履とは訳し分けた。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-note-tian-variant"
+    "section_id": "translator-notes"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "底本は「王に遣わされて仙宮に入る」と読める字面だが、この時点の物語には命令する王が現れない。照合用の公開翻刻は、王を天へ改め、元の字を注記している。本訳もこの補訂を採り、「天の導きによって」とした。底本原文の王は書き換えず、別の読みをsource_variantsに記録している。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-note-yuanlong"
+    "section_id": "translator-notes"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "ここは龍という動物との出会いではなく、道を極めた境地に至る、という意味に取った。漢典は本章の句を用例に、この語義を挙げている。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-note-sansan"
+    "section_id": "translator-notes"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "九重の修行は、原文の三三を三かける三、すなわち九と読む解釈を採ったもの。特定の九種類の修行法が列挙されているわけではなく、具体的な道教・仏教の体系との対応は確定していない。数の表現は訳に残し、未確認の修行名や分類は補っていない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-note-name-wordplay"
+    "section_id": "translator-notes"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "姓を尋ねられて気性の話をするのは、姓と性の同音を使った言葉遊びである。日本語でも両字を「せい」と読むことで対応させた。後半は、猿を表す呼び名の漢字から獣偏を除き、字を分解して孫という姓を作る作中の説明である。猢猻という語や個々の漢字は、この名づけの仕組みを示す必要があるため、読みと説明を添えて残した。「系」の語義を含め、この説明を現代の文字学上の定説として提示しているわけではない。赤子のあり方を根本とする教えは、幼子の自然さや純真さを尊ぶ思想を表す。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch01-note-empty-and-wukong"
+    "section_id": "translator-notes"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "結びの詩は、孫悟空という名の「悟空」を、「空の意味を悟る」と読む言葉遊びでもある。頑空は、ただ何もないと考えるだけの、悟りを欠いた空しさを指すものとして訳した。何も存在しないという思い込みと、悟りとしての空を区別する表現である。"
+    "translation_status": "reviewed"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-23T11:21:07Z"
+    "reviewed_by": "ChatGPT（AIによる原文対照・日本語全文見直し）"
+    "content_sha256": "2a6ea0dcec62c408ebed85730519b313d827298777c16b3e49f866b76b9d461a"
+"terminology":
+  - "id": "sun-wukong"
+    "kind": "person"
+    "source_language": "zh-Hant"
+    "source": "孫悟空"
+    "translation_ja": "孫悟空"
+  - "id": "beautiful-monkey-king"
+    "kind": "form_of_address"
+    "source_language": "zh-Hant"
+    "source": "美猴王"
+    "translation_ja": "美猴王"
+  - "id": "subhuti"
+    "kind": "person"
+    "source_language": "zh-Hant"
+    "source": "須菩提祖師"
+    "translation_ja": "須菩提祖師"
+  - "id": "flower-fruit-mountain"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "花果山"
+    "translation_ja": "花果山"
+  - "id": "water-curtain-cave"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "水簾洞"
+    "translation_ja": "水簾洞"
+  - "id": "jambudvipa"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "南贍部洲"
+    "translation_ja": "南贍部洲"
+  - "id": "linge-fangcun"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "靈臺方寸山"
+    "translation_ja": "霊台方寸山"
+  - "id": "term-fuling"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "茯苓"
+    "translation_ja": "マツホドというキノコの塊"
+    "note_ja": "食材としての菌核を指す。松の根そのものではない。"
+  - "id": "term-yiyi"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "薏苡"
+    "translation_ja": "ハトムギの実"
+    "note_ja": "料理の文脈での訳。"
+  - "id": "term-la-yingtao"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "臘櫻桃"
+    "translation_ja": "黄色い実のサクランボ"
+    "note_ja": "古典の蠟櫻桃に当たると解釈。現代品種は特定しない。"
+  - "id": "term-huangjing"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "黃精"
+    "translation_ja": "ナルコユリの仲間の地下茎"
+    "note_ja": "中国の複数の基原種と日本の種を区別する。"
+  - "id": "term-longyan"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "龍眼"
+    "translation_ja": "リュウガン"
+    "note_ja": "果実の一般的な日本語名。"
+  - "id": "term-lizhi"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "荔枝"
+    "translation_ja": "ライチ"
+    "note_ja": "赤いのは果肉ではなく実を包む殻。"
+  - "id": "term-yangmei"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "楊梅"
+    "translation_ja": "ヤマモモ"
+  - "id": "term-li-fruit"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "李"
+    "translation_ja": "スモモ"
+  - "id": "term-zhen-nut"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "榛"
+    "translation_ja": "ハシバミの実"
+  - "id": "term-fei-nut"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "榧"
+    "translation_ja": "カヤの実"
+  - "id": "term-zhe"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "蔗"
+    "translation_ja": "サトウキビ"
+  - "id": "term-bai-tree"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "柏"
+    "translation_ja": "ヒノキの仲間"
+    "note_ja": "中国語の針葉樹の呼称。日本語のカシワとはしない。"
+  - "id": "term-caoma"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "草帓"
+    "translation_ja": "草で編んだ靴下"
+    "note_ja": "後出の草履とは区別。"
+  - "id": "term-langchong"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "狼蟲"
+    "translation_ja": "狼などの獣"
+    "note_ja": "虫類との組み合わせとは読まない。"
+  - "id": "term-yuanlong"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "元龍"
+    "translation_ja": "道を極めた境地"
+  - "id": "term-yuanhou"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "猿猴"
+    "translation_ja": "手長の猿"
+    "note_ja": "古典的な呼び分けの説明訳。現代の厳密な種同定ではない。"
+  - "id": "term-mihou"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "獼猴"
+    "translation_ja": "ふつうの猿"
+    "note_ja": "同じ列挙内の手長の猿・大柄な猿との対照として訳す。"
+  - "id": "term-mahou"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "馬猴"
+    "translation_ja": "大柄な猿"
+    "note_ja": "動物分類上の独立種を断定しない。"
+  - "id": "term-tongbeiyuan"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "通背猿猴"
+    "translation_ja": "長い腕を持つ猿"
+  - "id": "term-yuan-time"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "元"
+    "translation_ja": "十二万九千六百年の大周期"
+    "note_ja": "冒頭の宇宙論における語。"
+  - "id": "term-hui-time"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "會"
+    "translation_ja": "一元を十二に分けた一万八百年の期間"
+    "note_ja": "冒頭の宇宙論における語。"
+  - "id": "term-dongtian"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "洞天"
+    "translation_ja": "洞窟に開けた別天地"
+    "note_ja": "文脈により仙境とも訳す。"
+  - "id": "term-fudi"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "福地"
+    "translation_ja": "恵み豊かな仙境"
+  - "id": "term-huangting"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "黃庭"
+    "translation_ja": "黄庭経"
+    "note_ja": "道教の経典名。"
+  - "id": "term-mantingfang"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "滿庭芳"
+    "translation_ja": "満庭芳"
+    "note_ja": "木こりの歌が従う曲の名として説明する。"
+  - "id": "term-daoguo"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "道果"
+    "translation_ja": "修行の成果"
+    "note_ja": "文脈に応じて、修行で成し遂げること、とも訳す。"
+  - "id": "term-wankong"
+    "kind": "term"
+    "source_language": "zh-Hant"
+    "source": "頑空"
+    "translation_ja": "ただ空しいだけの境地"
+    "note_ja": "悟りを欠いた空の理解として訳す。"
+"notes":
+  - "id": "note-food-names"
+    "origin": "translator"
+    "body":
+      - "segment_id": "xy-ch01-note-food-names"
+    "form": "endnote"
+    "contributor_id": "ai-translator"
+    "source_locations":
+      - "source_id": "pharm-matsuhodo"
+        "precision": "work"
+        "url": "https://www.pharm.or.jp/yakusou/2023/01/post-131.html"
+      - "source_id": "toho-hatomugi"
+        "precision": "work"
+        "url": "https://www.lab.toho-u.ac.jp/phar/yakusou/hatomugi.html"
+  - "id": "note-yellow-cherry"
+    "origin": "translator"
+    "body":
+      - "segment_id": "xy-ch01-note-yellow-cherry"
+    "form": "endnote"
+    "contributor_id": "ai-translator"
+    "source_locations":
+      - "source_id": "wujunzhi-ch30"
+        "precision": "work"
+        "url": "https://www.shidianguji.com/zh/book/CADAL08000297/chapter/1l1wrvtggvfhg"
+  - "id": "note-plant-identification"
+    "origin": "translator"
+    "body":
+      - "segment_id": "xy-ch01-note-plant-identification"
+    "form": "endnote"
+    "contributor_id": "ai-translator"
+    "source_locations":
+      - "source_id": "pharm-narukoyuri"
+        "precision": "work"
+        "url": "https://www.pharm.or.jp/flowers/post_58.html"
+  - "id": "note-persimmon"
+    "origin": "translator"
+    "body":
+      - "segment_id": "xy-ch01-note-persimmon"
+    "form": "endnote"
+    "contributor_id": "ai-translator"
+  - "id": "note-animals-and-play"
+    "origin": "translator"
+    "body":
+      - "segment_id": "xy-ch01-note-animals-and-play"
+    "form": "endnote"
+    "contributor_id": "ai-translator"
+    "source_locations":
+      - "source_id": "zdic-ma"
+        "precision": "work"
+        "url": "https://www.zdic.net/hans/帓"
+  - "id": "note-tian-variant"
+    "origin": "translator"
+    "body":
+      - "segment_id": "xy-ch01-note-tian-variant"
+    "form": "endnote"
+    "contributor_id": "ai-translator"
+    "source_locations":
+      - "source_id": "ctext-xiyouji-comparison"
+        "precision": "work"
+        "url": "https://ctext.org/wiki.pl?chapter=799794&if=gb"
+  - "id": "note-yuanlong"
+    "origin": "translator"
+    "body":
+      - "segment_id": "xy-ch01-note-yuanlong"
+    "form": "endnote"
+    "contributor_id": "ai-translator"
+    "source_locations":
+      - "source_id": "zdic-yuanlong"
+        "precision": "work"
+        "url": "https://www.zdic.net/hant/元龍"
+  - "id": "note-sansan"
+    "origin": "translator"
+    "body":
+      - "segment_id": "xy-ch01-note-sansan"
+    "form": "endnote"
+    "contributor_id": "ai-translator"
+    "source_locations":
+      - "source_id": "zdic-sansan"
+        "precision": "work"
+        "url": "https://www.zdic.net/hans/三三"
+  - "id": "note-name-wordplay"
+    "origin": "translator"
+    "body":
+      - "segment_id": "xy-ch01-note-name-wordplay"
+    "form": "endnote"
+    "contributor_id": "ai-translator"
+  - "id": "note-empty-and-wukong"
+    "origin": "translator"
+    "body":
+      - "segment_id": "xy-ch01-note-empty-and-wukong"
+    "form": "endnote"
+    "contributor_id": "ai-translator"
+"references":
+  - "id": "ref-food-names-1"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-026"
+      "source_span":
+        "start": 200
+        "end": 202
+        "exact": "茯苓"
+      "translation_span":
+        "start": 576
+        "end": 588
+        "exact": "マツホドというキノコの塊"
+    "to":
+      "type": "note"
+      "id": "note-food-names"
+    "status": "verified"
+  - "id": "ref-food-names-2"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-026"
+      "source_span":
+        "start": 203
+        "end": 205
+        "exact": "薏苡"
+      "translation_span":
+        "start": 590
+        "end": 596
+        "exact": "ハトムギの実"
+    "to":
+      "type": "note"
+      "id": "note-food-names"
+    "status": "verified"
+  - "id": "ref-yellow-cherry-1"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-026"
+      "source_span":
+        "start": 14
+        "end": 17
+        "exact": "臘櫻桃"
+      "translation_span":
+        "start": 45
+        "end": 55
+        "exact": "黄色い実のサクランボ"
+    "to":
+      "type": "note"
+      "id": "note-yellow-cherry"
+    "status": "verified"
+  - "id": "ref-plant-identification-1"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-022"
+      "source_span":
+        "start": 27
+        "end": 29
+        "exact": "黃精"
+      "translation_span":
+        "start": 55
+        "end": 67
+        "exact": "ナルコユリの仲間の地下茎"
+    "to":
+      "type": "note"
+      "id": "note-plant-identification"
+    "status": "verified"
+  - "id": "ref-plant-identification-2"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-025"
+      "source_span":
+        "start": 20
+        "end": 22
+        "exact": "黃精"
+      "translation_span":
+        "start": 31
+        "end": 43
+        "exact": "ナルコユリの仲間の地下茎"
+    "to":
+      "type": "note"
+      "id": "note-plant-identification"
+    "status": "verified"
+  - "id": "ref-plant-identification-3"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-026"
+      "source_span":
+        "start": 195
+        "end": 197
+        "exact": "黃精"
+      "translation_span":
+        "start": 545
+        "end": 557
+        "exact": "ナルコユリの仲間の地下茎"
+    "to":
+      "type": "note"
+      "id": "note-plant-identification"
+    "status": "verified"
+  - "id": "ref-plant-identification-4"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-005"
+      "source_span":
+        "start": 121
+        "end": 123
+        "exact": "翠柏"
+      "translation_span":
+        "start": 318
+        "end": 324
+        "exact": "ヒノキの仲間"
+    "to":
+      "type": "note"
+      "id": "note-plant-identification"
+    "status": "verified"
+  - "id": "ref-plant-identification-5"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-041"
+      "source_span":
+        "start": 12
+        "end": 14
+        "exact": "老柏"
+      "translation_span":
+        "start": 23
+        "end": 29
+        "exact": "ヒノキの仲間"
+    "to":
+      "type": "note"
+      "id": "note-plant-identification"
+    "status": "verified"
+  - "id": "ref-persimmon-1"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-026"
+      "source_span":
+        "start": 122
+        "end": 129
+        "exact": "四瓣黃皮大柿子"
+      "translation_span":
+        "start": 350
+        "end": 370
+        "exact": "四つに分かれた形の、黄色い皮の大きなカキ"
+    "to":
+      "type": "note"
+      "id": "note-persimmon"
+    "status": "verified"
+  - "id": "ref-animals-and-play-1"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-021"
+      "source_span":
+        "start": 6
+        "end": 14
+        "exact": "猿猴、獼猴、馬猴"
+      "translation_span":
+        "start": 5
+        "end": 21
+        "exact": "手長の猿や、ふつうの猿、大柄な猿"
+    "to":
+      "type": "note"
+      "id": "note-animals-and-play"
+    "status": "verified"
+  - "id": "ref-animals-and-play-2"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-024"
+      "source_span":
+        "start": 12
+        "end": 16
+        "exact": "通背猿猴"
+      "translation_span":
+        "start": 14
+        "end": 21
+        "exact": "長い腕を持つ猿"
+    "to":
+      "type": "note"
+      "id": "note-animals-and-play"
+    "status": "verified"
+  - "id": "ref-animals-and-play-3"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-009"
+      "source_span":
+        "start": 47
+        "end": 49
+        "exact": "草帓"
+      "translation_span":
+        "start": 114
+        "end": 118
+        "exact": "草で靴下"
+    "to":
+      "type": "note"
+      "id": "note-animals-and-play"
+    "status": "verified"
+  - "id": "ref-tian-variant-1"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-013"
+      "source_span":
+        "start": 19
+        "end": 24
+        "exact": "王遣入仙宮"
+      "translation_span":
+        "start": 41
+        "end": 60
+        "exact": "天の導きによって、仙人の宮へ入ってゆく"
+    "to":
+      "type": "note"
+      "id": "note-tian-variant"
+    "status": "verified"
+  - "id": "ref-yuanlong-1"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-029"
+      "source_span":
+        "start": 47
+        "end": 49
+        "exact": "元龍"
+      "translation_span":
+        "start": 121
+        "end": 128
+        "exact": "道を極めた境地"
+    "to":
+      "type": "note"
+      "id": "note-yuanlong"
+    "status": "verified"
+  - "id": "ref-sansan-1"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-047"
+      "source_span":
+        "start": 21
+        "end": 24
+        "exact": "三三行"
+      "translation_span":
+        "start": 46
+        "end": 51
+        "exact": "九重の修行"
+    "to":
+      "type": "note"
+      "id": "note-sansan"
+    "status": "verified"
+  - "id": "ref-name-wordplay-1"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-049"
+      "source_span":
+        "start": 15
+        "end": 19
+        "exact": "你姓甚麼"
+      "translation_span":
+        "start": 35
+        "end": 48
+        "exact": "お前の姓（せい）は何という"
+    "to":
+      "type": "note"
+      "id": "note-name-wordplay"
+    "status": "verified"
+  - "id": "ref-name-wordplay-2"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-049"
+      "source_span":
+        "start": 231
+        "end": 233
+        "exact": "猢猻"
+      "translation_span":
+        "start": 424
+        "end": 431
+        "exact": "猢猻（こそん）"
+    "to":
+      "type": "note"
+      "id": "note-name-wordplay"
+    "status": "verified"
+  - "id": "ref-empty-and-wukong-1"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch01-050"
+      "source_span":
+        "start": 8
+        "end": 15
+        "exact": "打破頑空須悟空"
+      "translation_span":
+        "start": 30
+        "end": 65
+        "exact": "ただ空しいだけの境地を打ち破るには、「空」の真の意味を悟らねばならない"
+    "to":
+      "type": "note"
+      "id": "note-empty-and-wukong"
+    "status": "verified"
+"provenance":
+  "revision_date": "2026-10-23"
+  "input_file": "xiyouji-chapter-001-zh-ja.yaml"
+  "input_file_sha256": "815db68d8ad65c1d8fc8dd6c4f092ec7a0c906198d9e950e7ff955a082801825"
+  "schema_repository": "https://github.com/cacazu/nihonjinbun"
+  "schema_path": "schemas/translation-2.0.schema.json"
+  "schema_blob_sha": "bb6e6e3a383da1223c1afb0384b9eee4c4c7639d"
+  "review_extent_ja": "既存の全52対訳単位を原文対照で見直し、日本語全文を再読。本文を省略せず全面改訂し、10件の訳注を追加。"
+  "restored_source_transitions":
+    "xy-ch01-012": "好猴！也是他："
+    "xy-ch01-021": "是以："
+    "xy-ch01-028": "這一去，正是那："
+    "xy-ch01-030": "正是那："
+    "xy-ch01-032": "果是好山："
+    "xy-ch01-036": "但看他打扮非常："
+  "original_segment_ids_preserved": true
+  "validation_method_ja": "独自のローカル検査でYAML構文、重複キー・禁止構文、IDと参照先、文字範囲、原文順序、対訳の欠落、確認対象ハッシュを検証。リポジトリの検証スクリプトそのものを実行したものではない。"
