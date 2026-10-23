@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the four-chapter Xiyouji reader from validated, canonical YAML 2.0."""
+"""Build the five-chapter Xiyouji reader from validated, canonical YAML 2.0."""
 import argparse
 import html
 from collections import defaultdict
@@ -8,8 +8,8 @@ from urllib.parse import urlsplit
 
 from translation_yaml import ROOT, load_document, validate_document
 
-CHAPTERS = tuple(f"xiyouji-chapter-{n:03d}-zh-ja.yaml" for n in range(1, 5))
-NUMERALS = ("一", "二", "三", "四")
+CHAPTERS = tuple(f"xiyouji-chapter-{n:03d}-zh-ja.yaml" for n in range(1, 6))
+NUMERALS = ("一", "二", "三", "四", "五")
 DISCLAIMER = "AIによる日本語新訳です。全文レビューは進行中で、専門家による独立校訂は未実施です。解釈の未確定箇所は、本文の留保・訳注をご確認ください。"
 
 
@@ -41,7 +41,7 @@ def page_shell(title, content, chapter=None):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="西遊記 第一回から第四回。AIによる日本語新訳を、中国語原文・訳注とともに読む静かな読書室。専門家による独立校訂は未実施。">
+<meta name="description" content="西遊記 第一回から第五回。AIによる日本語新訳を、中国語原文・訳注とともに読む静かな読書室。専門家による独立校訂は未実施。">
 <meta name="referrer" content="no-referrer">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'; connect-src 'none'">
 <title>{esc(title)} | 西遊記を読む</title>
@@ -50,7 +50,7 @@ def page_shell(title, content, chapter=None):
 </head>
 <body class="{'chapter-page' if chapter is not None else 'index-page'}">
 <a class="skip-link" href="#main">本文へ移動</a>
-<header class="site-header"><a class="brand" href="index.html"><span class="brand-seal" aria-hidden="true">西</span><span>西遊記を読む<small>原文と日本語の読書室</small></span></a><a class="header-link" href="index.html#chapters">公開四回の目次</a></header>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-seal" aria-hidden="true">西</span><span>西遊記を読む<small>原文と日本語の読書室</small></span></a><a class="header-link" href="index.html#chapters">公開五回の目次</a></header>
 {controls}
 <main id="main" tabindex="-1">{content}</main>
 <footer class="site-footer"><a href="index.html">西遊記を読む</a><span>呉承恩（伝） / 日本語新訳：ChatGPT</span><p>本文・原文翻刻は各回に表示した出典と利用条件に従います。<br>外部送信・アクセス解析は行いません。表示と文字サイズの設定だけを、このブラウザに保存します。</p><a href="#main">ページの先頭へ ↑</a></footer>
@@ -61,7 +61,7 @@ def page_shell(title, content, chapter=None):
 
 def chapter_navigation(number, position):
     previous = f'<a rel="prev" href="chapter-{number-1:03d}.html">← 第{NUMERALS[number-2]}回</a>' if number > 1 else '<span class="nav-edge">物語のはじまり</span>'
-    following = f'<a rel="next" href="chapter-{number+1:03d}.html">第{NUMERALS[number]}回 →</a>' if number < 4 else '<span class="nav-edge">公開分はここまで</span>'
+    following = f'<a rel="next" href="chapter-{number+1:03d}.html">第{NUMERALS[number]}回 →</a>' if number < len(CHAPTERS) else '<span class="nav-edge">公開分はここまで</span>'
     return f'<nav class="chapter-nav" aria-label="各回の移動（{position}）">{previous}<a href="index.html#chapters">目次へ戻る</a>{following}</nav>'
 
 
