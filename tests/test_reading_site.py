@@ -56,6 +56,25 @@ class ReadingSiteTests(unittest.TestCase):
     def test_only_explicit_public_files(self):
         self.assertEqual(set(self.pages), {"index.html", ".nojekyll", "assets/reading.css", "assets/reading.js", *(f"chapter-{n:03d}.html" for n in range(1, 5))})
 
+    def test_index_contains_only_contents_and_repository(self):
+        page = self.html["index.html"]
+        body, = [node for node in page.nodes if node["tag"] == "body"]
+        self.assertEqual(
+            body["text"].split(),
+            ["目次", "第一回第二回第三回第四回", "https://github.com/cacazu/nihonjinbun"],
+        )
+        links = [(node["text"], node["attrs"]["href"])
+                 for node in page.nodes if node["tag"] == "a"]
+        self.assertEqual(links, [
+            *((f"第{numeral}回", f"chapter-{number:03d}.html")
+              for number, numeral in enumerate(reader.NUMERALS, 1)),
+            ("https://github.com/cacazu/nihonjinbun", "https://github.com/cacazu/nihonjinbun"),
+        ])
+        self.assertFalse(any(node["tag"] in ("header", "footer", "script", "button")
+                             for node in page.nodes))
+        heading, = page.by_id("chapters")
+        self.assertEqual((heading["tag"], heading["text"]), ("h1", "目次"))
+
     def test_every_character_and_newline_is_preserved(self):
         for n, data in enumerate(self.documents, 1):
             page = self.html[f"chapter-{n:03d}.html"]
