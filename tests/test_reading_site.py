@@ -23,7 +23,7 @@ class Elements(HTMLParser):
     def handle_starttag(self, tag, attrs):
         node = {"tag": tag, "attrs": dict(attrs), "text": "", "parents": list(self.stack)}
         self.nodes.append(node)
-        if tag not in ("meta", "link", "br", "img", "input", "hr"):
+        if tag not in ("meta", "link", "br", "img", "input", "hr", "wbr"):
             self.stack.append(node)
 
     def handle_endtag(self, tag):
@@ -54,7 +54,7 @@ class ReadingSiteTests(unittest.TestCase):
         cls.temp.cleanup()
 
     def test_only_explicit_public_files(self):
-        self.assertEqual(set(self.pages), {"index.html", ".nojekyll", "assets/reading.css", "assets/reading.js", *(f"chapter-{n:03d}.html" for n in range(1, 6))})
+        self.assertEqual(set(self.pages), {"index.html", ".nojekyll", "assets/reading.css", *(f"chapter-{n:03d}.html" for n in range(1, 6))})
 
     def test_index_contains_only_contents_and_repository(self):
         page = self.html["index.html"]
@@ -83,14 +83,14 @@ class ReadingSiteTests(unittest.TestCase):
                             if node["attrs"].get("rel") == "prev"]
                 following = [node["attrs"]["href"] for node in page.nodes
                              if node["attrs"].get("rel") == "next"]
-                self.assertEqual(previous, [f"chapter-{number-1:03d}.html"] * 3 if number > 1 else [])
-                self.assertEqual(following, [f"chapter-{number+1:03d}.html"] * 3 if number < 5 else [])
-                header_link, = [node for node in page.nodes
-                                if node["attrs"].get("class") == "header-link"]
-                self.assertEqual(header_link["text"], "公開五回の目次")
-                description, = [node for node in page.nodes
-                                if node["attrs"].get("name") == "description"]
-                self.assertIn("第一回から第五回", description["attrs"]["content"])
+                self.assertEqual(previous, [f"chapter-{number-1:03d}.html"] if number > 1 else [])
+                self.assertEqual(following, [f"chapter-{number+1:03d}.html"] if number < 5 else [])
+                navigation, = [node for node in page.nodes if node["tag"] == "nav"]
+                links = [node for node in page.nodes if navigation in node["parents"] and node["tag"] == "a"]
+                self.assertEqual(links[-1]["text"], "トップページに戻る")
+                self.assertEqual(links[-1]["attrs"]["href"], "index.html")
+                self.assertEqual([node["text"] for node in links[:-1]],
+                                 (["前の話"] if number > 1 else []) + (["次の話"] if number < 5 else []))
 
     def test_every_character_and_newline_is_preserved(self):
         for n, data in enumerate(self.documents, 1):
@@ -105,7 +105,7 @@ class ReadingSiteTests(unittest.TestCase):
                     if segment["kind"] == "note_body":
                         self.assertEqual(node["text"], segment["translation_ja"])
                     else:
-                        for css, field in (("translation", "translation_ja"), ("source", "source_text")):
+                        for css, field in (("translation", "translation_ja"),):
                             matches = [child for child in page.nodes if node in child["parents"] and css in child["attrs"].get("class", "").split()]
                             self.assertEqual(len(matches), 1)
                             self.assertEqual(matches[0]["text"], segment[field])
@@ -136,7 +136,7 @@ class ReadingSiteTests(unittest.TestCase):
         self.assertEqual(len(data["notes"]), 10)
         self.assertEqual(len(data["references"]), 18)
         for ref in data["references"]:
-            for field, lang in (("translation_span", "ja"), ("source_span", "zh")):
+            for field, lang in (("translation_span", "ja"),):
                 node, = page.by_id(f'{ref["id"]}-{lang}')
                 self.assertEqual(node["text"], ref["from"][field]["exact"])
                 self.assertEqual(node["attrs"]["href"], "#" + ref["to"]["id"])
@@ -147,10 +147,18 @@ class ReadingSiteTests(unittest.TestCase):
         for number, data in enumerate(self.documents, 1):
             text = self.html[f"chapter-{number:03d}.html"].nodes[0]["text"]
             self.assertIn(reader.DISCLAIMER, text)
-            for note in data["metadata"]["reader_notes_ja"]:
-                self.assertIn(note, text)
+            for contributor in data["metadata"]["contributors"]:
+                if "author" in contributor["roles"]:
+                    self.assertIn(contributor["name_ja"], text)
             for gap in data["scope"]["known_gaps"]:
                 self.assertIn(gap["description_ja"], text)
+            for segment in data["segments"]:
+                for variant in segment.get("source_variants", []):
+                    if variant["kind"] != "corrected":
+                        self.assertIn(variant["description_ja"], text)
+                        self.assertIn(variant["text"], text)
+                for attribution in segment.get("attributions", []):
+                    self.assertIn(attribution["evidence_ja"], text)
             self.assertIn(data["metadata"]["translation_rights"]["attribution"], text)
             for source in data["sources"]:
                 for rights in (source["work_rights"], source["transcription_rights"]):
@@ -187,17 +195,36 @@ class ReadingSiteTests(unittest.TestCase):
         for name, content in self.pages.items():
             self.assertEqual((ROOT / "docs" / name).read_text(encoding="utf-8"), content, "Committed docs must be regenerated")
 
-    def test_no_js_defaults_are_readable_and_controls_hidden(self):
-        for name, page in self.html.items():
-            if name == "index.html":
-                continue
-            self.assertEqual(page.nodes[0]["attrs"]["data-mode"], "parallel")
-            controls = next(n for n in page.nodes if n["attrs"].get("class") == "reader-controls")
-            self.assertIn("hidden", controls["attrs"])
-            self.assertTrue(any(n["tag"] == "noscript" for n in page.nodes))
-            self.assertTrue(any(n["attrs"].get("lang") == "zh-Hant" for n in page.nodes))
+    def test_chapters_contain_only_reading_annotations_and_navigation(self):
+        for number, data in enumerate(self.documents, 1):
+            page = self.html[f"chapter-{number:03d}.html"]
+            main, = page.by_id("main")
+            children = [n for n in page.nodes if n["parents"] and n["parents"][-1] is main]
+            self.assertEqual([n["tag"] for n in children], ["article", "section", "nav"])
+            self.assertEqual(children[1]["attrs"]["id"], "notes")
+            heading, = [n for n in page.nodes if n["tag"] == "h1"]
+            expected, = [s for s in data["segments"] if s["kind"] == "heading"]
+            self.assertEqual(heading["text"], expected["translation_ja"])
+            notes, = page.by_id("notes")
+            notes_heading, = [n for n in page.nodes if n["tag"] == "h2"]
+            self.assertEqual(notes_heading["text"], "注釈")
+            self.assertIn(notes, notes_heading["parents"])
+            self.assertFalse(any(n["tag"] in ("script", "noscript", "button", "header", "footer", "details") for n in page.nodes))
+            self.assertFalse(any(n["attrs"].get("lang") == "zh-Hant" for n in page.nodes))
+            self.assertNotIn("data-mode", page.nodes[0]["attrs"])
+            self.assertNotIn("data-size", page.nodes[0]["attrs"])
+            self.assertFalse(page.by_id("edition"))
             policy = next(n["attrs"]["content"] for n in page.nodes if n["attrs"].get("http-equiv") == "Content-Security-Policy")
             self.assertIn("connect-src 'none'", policy)
+            self.assertNotIn("script-src", policy)
+            # No duplicated Chinese references or controls in the public document.
+            self.assertFalse(any(n["attrs"].get("id", "").endswith("-zh") for n in page.nodes))
+
+    def test_retired_generated_script_is_removed_on_rebuild(self):
+        stale = self.output / "assets" / "reading.js"
+        stale.write_text("old controls", encoding="utf-8")
+        reader.build(self.output)
+        self.assertFalse(stale.exists())
 
 
 if __name__ == "__main__":
