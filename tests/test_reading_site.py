@@ -1,4 +1,4 @@
-"""The reader must faithfully publish only the four explicitly selected chapters."""
+"""The reader must faithfully publish only the five explicitly selected chapters."""
 import copy
 import hashlib
 import sys
@@ -54,14 +54,14 @@ class ReadingSiteTests(unittest.TestCase):
         cls.temp.cleanup()
 
     def test_only_explicit_public_files(self):
-        self.assertEqual(set(self.pages), {"index.html", ".nojekyll", "assets/reading.css", "assets/reading.js", *(f"chapter-{n:03d}.html" for n in range(1, 5))})
+        self.assertEqual(set(self.pages), {"index.html", ".nojekyll", "assets/reading.css", "assets/reading.js", *(f"chapter-{n:03d}.html" for n in range(1, 6))})
 
     def test_index_contains_only_contents_and_repository(self):
         page = self.html["index.html"]
         body, = [node for node in page.nodes if node["tag"] == "body"]
         self.assertEqual(
             body["text"].split(),
-            ["目次", "第一回第二回第三回第四回", "https://github.com/cacazu/nihonjinbun"],
+            ["目次", "第一回第二回第三回第四回第五回", "https://github.com/cacazu/nihonjinbun"],
         )
         links = [(node["text"], node["attrs"]["href"])
                  for node in page.nodes if node["tag"] == "a"]
@@ -74,6 +74,23 @@ class ReadingSiteTests(unittest.TestCase):
                              for node in page.nodes))
         heading, = page.by_id("chapters")
         self.assertEqual((heading["tag"], heading["text"]), ("h1", "目次"))
+
+    def test_chapter_navigation_and_publication_range(self):
+        for number in range(1, 6):
+            with self.subTest(chapter=number):
+                page = self.html[f"chapter-{number:03d}.html"]
+                previous = [node["attrs"]["href"] for node in page.nodes
+                            if node["attrs"].get("rel") == "prev"]
+                following = [node["attrs"]["href"] for node in page.nodes
+                             if node["attrs"].get("rel") == "next"]
+                self.assertEqual(previous, [f"chapter-{number-1:03d}.html"] * 3 if number > 1 else [])
+                self.assertEqual(following, [f"chapter-{number+1:03d}.html"] * 3 if number < 5 else [])
+                header_link, = [node for node in page.nodes
+                                if node["attrs"].get("class") == "header-link"]
+                self.assertEqual(header_link["text"], "公開五回の目次")
+                description, = [node for node in page.nodes
+                                if node["attrs"].get("name") == "description"]
+                self.assertIn("第一回から第五回", description["attrs"]["content"])
 
     def test_every_character_and_newline_is_preserved(self):
         for n, data in enumerate(self.documents, 1):
