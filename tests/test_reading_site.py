@@ -83,14 +83,16 @@ class ReadingSiteTests(unittest.TestCase):
                             if node["attrs"].get("rel") == "prev"]
                 following = [node["attrs"]["href"] for node in page.nodes
                              if node["attrs"].get("rel") == "next"]
-                self.assertEqual(previous, [f"chapter-{number-1:03d}.html"] if number > 1 else [])
-                self.assertEqual(following, [f"chapter-{number+1:03d}.html"] if number < 5 else [])
-                navigation, = [node for node in page.nodes if node["tag"] == "nav"]
-                links = [node for node in page.nodes if navigation in node["parents"] and node["tag"] == "a"]
-                self.assertEqual(links[-1]["text"], "トップページに戻る")
-                self.assertEqual(links[-1]["attrs"]["href"], "index.html")
-                self.assertEqual([node["text"] for node in links[:-1]],
-                                 (["前の話"] if number > 1 else []) + (["次の話"] if number < 5 else []))
+                self.assertEqual(previous, [f"chapter-{number-1:03d}.html"] * 2 if number > 1 else [])
+                self.assertEqual(following, [f"chapter-{number+1:03d}.html"] * 2 if number < 5 else [])
+                navigations = [node for node in page.nodes if node["tag"] == "nav"]
+                self.assertEqual(len(navigations), 2)
+                for navigation in navigations:
+                    links = [node for node in page.nodes if any(parent is navigation for parent in node["parents"]) and node["tag"] == "a"]
+                    self.assertEqual(links[-1]["text"], "目次に戻る")
+                    self.assertEqual(links[-1]["attrs"]["href"], "index.html")
+                    self.assertEqual([node["text"] for node in links[:-1]],
+                                     (["前の話"] if number > 1 else []) + (["次の話"] if number < 5 else []))
 
     def test_every_character_and_newline_is_preserved(self):
         for n, data in enumerate(self.documents, 1):
@@ -200,8 +202,8 @@ class ReadingSiteTests(unittest.TestCase):
             page = self.html[f"chapter-{number:03d}.html"]
             main, = page.by_id("main")
             children = [n for n in page.nodes if n["parents"] and n["parents"][-1] is main]
-            self.assertEqual([n["tag"] for n in children], ["article", "section", "nav"])
-            self.assertEqual(children[1]["attrs"]["id"], "notes")
+            self.assertEqual([n["tag"] for n in children], ["nav", "article", "section", "nav"])
+            self.assertEqual(children[2]["attrs"]["id"], "notes")
             heading, = [n for n in page.nodes if n["tag"] == "h1"]
             expected, = [s for s in data["segments"] if s["kind"] == "heading"]
             self.assertEqual(heading["text"], expected["translation_ja"])
