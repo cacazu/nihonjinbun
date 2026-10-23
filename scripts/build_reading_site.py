@@ -2,7 +2,6 @@
 """Build the four-chapter Xiyouji reader from validated, canonical YAML 2.0."""
 import argparse
 import html
-import re
 from collections import defaultdict
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -186,16 +185,31 @@ def render_chapter(data, number):
 
 
 def render_index(documents):
-    cards = []
-    for number, data in enumerate(documents, 1):
-        heading = next(s for s in data["segments"] if s["kind"] == "heading")
-        subtitle = re.sub(r"^第[一二三四]回[\s\u3000]*", "", heading["translation_ja"])
-        count = sum(s["kind"] != "note_body" for s in data["segments"])
-        cards.append(f'''<li><a class="chapter-card" href="chapter-{number:03d}.html"><span class="chapter-number">{number:02d}</span><div><p class="chapter-label">第{NUMERALS[number-1]}回</p><h3>{esc(subtitle)}</h3><p class="card-meta">全文 {count}対訳単位 <span>日本語 / 中国語原文</span></p></div><span class="card-arrow" aria-hidden="true">↗</span></a></li>''')
-    content = f'''<section class="index-hero"><p class="eyebrow">JOURNEY TO THE WEST</p><p class="hero-kicker">一匹の石猿から、物語ははじまる。</p><h1>西遊記<span>を読む。</span></h1><p class="hero-intro">古典のことばを、いまの日本語で。<br>第一回から第四回を、原文と訳注とともに。</p><p class="byline">呉承恩（伝）<span>日本語新訳：ChatGPT</span></p><a class="start-reading" href="chapter-001.html">第一回を読む <span aria-hidden="true">→</span></a><span class="hero-mark" aria-hidden="true">西<br>遊<br>記</span></section>
-<section id="chapters" class="contents"><div class="section-heading"><div><p class="eyebrow">CONTENTS</p><h2>四つの回を、順にたどる。</h2></div><span class="contents-count">第一回 — 第四回</span></div><ol class="chapter-list">{"".join(cards)}</ol></section>
-<section class="index-note"><p class="eyebrow">A NOTE TO READERS</p><h2>原文をそばに、ゆっくりと。</h2><p>日本語だけでも、中国語原文と見比べながらでも。各回で表示と文字サイズを選べます。本文中の下線付きの語は、訳注への入口です。</p><p>{esc(DISCLAIMER)}</p><p>公開しているのは第一回〜第四回です。『西遊記』全体の完訳ではありません。原文は中文維基文庫の固定版を使用し、出典・帰属・CC BY-SA 4.0の条件を各回の末尾に記載しています。</p></section>'''
-    return page_shell("目次", content)
+    links = "".join(
+        f'<li><a href="chapter-{number:03d}.html">第{NUMERALS[number-1]}回</a></li>'
+        for number, _ in enumerate(documents, 1)
+    )
+    # The landing page contains only the contents and repository address.
+    # Attribution, edition notes and reading controls stay on chapter pages.
+    return f'''<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'; connect-src 'none'">
+<title>目次</title>
+<link rel="stylesheet" href="assets/reading.css">
+</head>
+<body class="index-page">
+<main id="main" class="contents">
+<h1 id="chapters">目次</h1>
+<ul>{links}</ul>
+<p><a href="https://github.com/cacazu/nihonjinbun" rel="noreferrer">https://github.com/<wbr>cacazu/nihonjinbun</a></p>
+</main>
+</body>
+</html>
+'''
 
 
 def build(output):
