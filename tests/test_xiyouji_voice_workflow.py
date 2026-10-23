@@ -24,13 +24,24 @@ class VoiceWorkflowTests(unittest.TestCase):
         self.assertIn('各作品フォルダの README.md', skill)
         self.assertIn('創作例', book)
         profiles = re.findall(r'^### ([^\n]+)\n(.*?)(?=^### |^## |\Z)', book, re.M | re.S)
-        self.assertEqual(11, len(profiles))
+        names = {name for name, _ in profiles}
+        # Later chapters may add profiles; retain all 11 original profiles.
+        original_names = {
+            '孫悟空（石猿・美猴王と同一人物）', '須菩提祖師',
+            '花果山の猿たち（さらわれた猿たちを含む）', '長腕の猿',
+            '木こり', '童子', '兄弟子たち・弟子たち', '玉帝',
+            '千里眼と順風耳', '混世魔王', '小妖怪',
+        }
+        self.assertTrue(original_names <= names)
+        self.assertEqual(len(profiles), len(names), 'Duplicate voice profiles')
         for name, body in profiles:
             self.assertEqual(['1', '2', '3'], re.findall(r'^([123])\. ', body, re.M), name)
             self.assertIn('根拠：', body, name)
 
     def test_originals_ids_and_order_preserved(self):
-        for path in sorted(BOOK.glob('*.yaml')):
+        # This baseline predates chapter 3 and only guards the voice-only revision.
+        for chapter in (1, 2):
+            path = BOOK / f'xiyouji-chapter-{chapter:03}-zh-ja.yaml'
             rel = path.relative_to(ROOT).as_posix()
             old = yaml.safe_load(subprocess.check_output(['git', 'show', f'{BASELINE}:{rel}'], cwd=ROOT))
             current = load_document(path)
