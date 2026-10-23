@@ -17,18 +17,17 @@
 
 ## 西遊記の読書サイト
 
-第一回〜第五回の正本YAMLから、PC・スマートフォン向けの静的読書サイトを `docs/` に生成する。原稿は編集せず、日本語／原文の切替、文字サイズ、訳注の相互リンク、出典・帰属・校訂上の留保を表示する。JavaScriptが無効でも、原文・日本語・訳注を読める。
+第一回〜第五回の正本YAMLから、PC・スマートフォン向けの静的読書サイトを `docs/` に生成する。トップページは目次とリポジトリURLのみ。各話はタイトル・日本語本文・注釈・前の話・次の話・トップページに戻るリンクのみを表示する。訳注、解釈の留保、必要な出典・帰属・利用条件は注釈欄にまとめる。原文を含む正本YAMLは変更しない。
 
 ```sh
 python -m pip install -r requirements.txt
 python scripts/build_reading_site.py
 python -m unittest discover -s tests
-node tests/test_reading_preferences.cjs
 python -m http.server 8000 --directory docs
 ```
 
-`http://localhost:8000/` で確認できる。`docs/` は GitHub Pages の公開用ディレクトリで、生成したHTML・ローカルCSS/JSと `.nojekyll` のみを含む。第一回〜第五回以外の原稿や作業スキルはコピーしない。すべてのサイト内リンクは相対パスなので、`/nihonjinbun/` のようなサブパスでも動作する。Pagesの公開設定・デプロイは別途行う。
+`http://localhost:8000/` で確認できる。`docs/` は GitHub Pages の公開用ディレクトリで、生成したHTML・ローカルCSSと `.nojekyll` のみを含む。第一回〜第五回以外の原稿や作業スキルはコピーしない。すべてのサイト内リンクは相対パスなので、`/nihonjinbun/` のようなサブパスでも動作する。Pagesの公開設定・デプロイは別途行う。
 
-生成器は `scripts/build_reading_site.py`、表示用の正本は `scripts/reading_site.css` と `scripts/reading_site.js`。生成物を直接編集せず、正本から再生成してコミットする。ビルドは入力YAMLを既存の検証器で検証し、本文・改行・訳注の欠落や参照範囲の不一致があれば失敗する。読書設定以外は保存せず、アクセス解析・外部フォント・外部JavaScriptは使用しない。原稿のレビュー状態を完了に引き上げるものではない。
+生成器は `scripts/build_reading_site.py`、表示用の正本は `scripts/reading_site.css`。生成物を直接編集せず、正本から再生成してコミットする。ビルドは入力YAMLを既存の検証器で検証し、本文・改行・訳注の欠落や参照範囲の不一致があれば失敗する。JavaScriptや設定保存、アクセス解析、外部フォントは使用しない。原稿のレビュー状態を完了に引き上げるものではない。
 
-読書サイトだけの検証は `python -m unittest discover -s tests -p test_reading_site.py` で実行できる。設定操作の単体テストは `node tests/test_reading_preferences.cjs`（追加依存なし）。実ブラウザの表示検証は、この単体テストとは別に行う。
+読書サイトだけの検証は `python -m unittest discover -s tests -p test_reading_site.py` で実行できる。旧表示切替用の `scripts/reading_site.js` とその単体テストは公開サイトでは使用しない。実ブラウザの表示検証は、この単体テストとは別に行う。
