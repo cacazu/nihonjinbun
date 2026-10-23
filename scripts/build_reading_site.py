@@ -53,7 +53,7 @@ def chapter_navigation(number):
         links.append(f'<a rel="prev" href="chapter-{number-1:03d}.html">前の話</a>')
     if number < len(CHAPTERS):
         links.append(f'<a rel="next" href="chapter-{number+1:03d}.html">次の話</a>')
-    links.append('<a href="index.html">トップページに戻る</a>')
+    links.append('<a href="index.html">目次に戻る</a>')
     return f'<nav class="chapter-nav" aria-label="各回の移動">{"".join(links)}</nav>'
 
 
@@ -158,7 +158,7 @@ def render_chapter(data, number):
         by_note[ref["to"]["id"]].append(ref)
     body_segments = [s for s in data["segments"] if s["kind"] != "note_body"]
     body = "\n".join(render_segment(s, by_segment[s["id"]], note_numbers) for s in body_segments)
-    content = (f'<article id="reading" class="reading-body">{body}</article>'
+    content = (f'{chapter_navigation(number)}<article id="reading" class="reading-body">{body}</article>'
                f'{render_annotations(data, by_note, note_numbers)}{chapter_navigation(number)}')
     return page_shell(data["metadata"]["title_ja"], content)
 
