@@ -1642,6 +1642,10 @@
     "title": "西遊記/第021回（中文維基文庫・固定版）"
     "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第021回&oldid=2609807"
     "accessed_at": "2026-10-24"
+  - "id": "xy-reference-411"
+    "title": "西遊記/第022回（中文維基文庫・固定版）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第022回&oldid=7910914"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -2878,6 +2882,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成からの推定。当該表記全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-form-2037"
+        "text": "霊霄"
+        "relation": "short_form"
+        "reading":
+          "kana": "れいしょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
   - "id": "xy-term-054"
     "kind": "person"
     "headword": "千里眼"
@@ -10658,6 +10670,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語訳でこの名が使われることは検索索引で確認。ページ取得は文字コードエラーで、読みの明記は確認できず「赤脚・大仙」を音読みした推定。"
+      - "id": "xy-form-2049"
+        "text": "赤脚大天仙"
+        "relation": "title"
+        "reading":
+          "kana": "せききゃくだいてんせん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
   - "id": "xy-entry-0461"
     "kind": "concept"
     "headword": "気"
@@ -18757,6 +18777,30 @@
           "source_ids":
             - "xy-reference-220"
           "reason_ja": "検索結果の本文引用に「沙悟浄（さごじょう）」の読みを確認。ページ本体の取得は失敗したため、確認範囲は検索表示。"
+      - "id": "xy-form-2036"
+        "text": "捲簾将"
+        "relation": "short_form"
+        "reading":
+          "kana": "けんれんしょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+      - "id": "xy-form-2064"
+        "text": "悟浄"
+        "relation": "short_form"
+        "reading":
+          "kana": "ごじょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+      - "id": "xy-form-2065"
+        "text": "沙和尚"
+        "relation": "alias"
+        "reading":
+          "kana": "さおしょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
   - "id": "xy-entry-0886"
     "kind": "object"
     "headword": "宝杖"
@@ -19169,6 +19213,22 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-form-2034"
+        "text": "大天蓬"
+        "relation": "title"
+        "reading":
+          "kana": "だいてんぽう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+      - "id": "xy-form-2035"
+        "text": "天蓬帥"
+        "relation": "short_form"
+        "reading":
+          "kana": "てんぽうすい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
   - "id": "xy-entry-0903"
     "kind": "concept"
     "headword": "精霊"
@@ -34349,3 +34409,507 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1712"
+    "kind": "object"
+    "headword": "戒刀"
+    "definition_ja": "僧が携帯する小刀。ここでは剃髪に用いられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "本文で剃髪に用いることと日本語の古典語義に基づく。"
+    "forms":
+      - "id": "xy-form-2031"
+        "text": "戒刀"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいとう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音から推定。読みを明示する外部資料は未確認。"
+  - "id": "xy-entry-1713"
+    "kind": "object"
+    "headword": "大火"
+    "definition_ja": "季節の移り変わりを示す赤い星、心宿二（アンタレス）の古名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2032"
+        "text": "大火"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいか"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1714"
+    "kind": "object"
+    "headword": "降妖杖"
+    "definition_ja": "流沙河の妖怪、のちに加入する沙悟浄の宝杖の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2033"
+        "text": "降妖杖"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうようじょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1715"
+    "kind": "term"
+    "headword": "大四平"
+    "definition_ja": "武術で体や武器を大きく開いて据える構えの名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2038"
+        "text": "大四平"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいしへい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1716"
+    "kind": "term"
+    "headword": "迎風戧"
+    "definition_ja": "武術の突きの名。底本の戧の字を保持する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2039"
+        "text": "迎風戧"
+        "relation": "preferred"
+        "reading":
+          "kana": "げいふうそう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1717"
+    "kind": "concept"
+    "headword": "木母"
+    "definition_ja": "内丹修行の寓意的な語。人物寓意では八戒に対応する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2040"
+        "text": "木母"
+        "relation": "preferred"
+        "reading":
+          "kana": "もくぼ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1718"
+    "kind": "concept"
+    "headword": "金公"
+    "definition_ja": "内丹修行で金の働きを表す象徴語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2041"
+        "text": "金公"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんこう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1719"
+    "kind": "concept"
+    "headword": "明堂"
+    "definition_ja": "内丹修行で身体内の場所を指す語。ここでの具体的な対応には留保がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2042"
+        "text": "明堂"
+        "relation": "preferred"
+        "reading":
+          "kana": "めいどう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1720"
+    "kind": "concept"
+    "headword": "重楼"
+    "definition_ja": "内丹修行で喉など身体内の段階・場所を示す象徴語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2043"
+        "text": "重楼"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゅうろう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1721"
+    "kind": "concept"
+    "headword": "肝火"
+    "definition_ja": "内丹修行の詩で肝と火を結びつける語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2044"
+        "text": "肝火"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんか"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1722"
+    "kind": "place"
+    "headword": "明華"
+    "definition_ja": "捲簾将の自叙詩で朝礼の向かう対象として挙がる名。厳密な同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2045"
+        "text": "明華"
+        "relation": "preferred"
+        "reading":
+          "kana": "めいか"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1723"
+    "kind": "object"
+    "headword": "虎頭牌"
+    "definition_ja": "捲簾将が腰に帯びた虎頭の意匠を持つ牌。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2046"
+        "text": "虎頭牌"
+        "relation": "preferred"
+        "reading":
+          "kana": "ことうはい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1724"
+    "kind": "object"
+    "headword": "玉玻璃"
+    "definition_ja": "捲簾将が宴で誤って壊した器を表す語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2047"
+        "text": "玉玻璃"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくはり"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1725"
+    "kind": "title"
+    "headword": "左輔相"
+    "definition_ja": "朝廷で君主を補佐し命を執行する高官。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2048"
+        "text": "左輔相"
+        "relation": "preferred"
+        "reading":
+          "kana": "さほしょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1726"
+    "kind": "term"
+    "headword": "鳳点頭"
+    "definition_ja": "鳳凰がうなずくという名の、攻撃を避ける武術の動作。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2050"
+        "text": "鳳点頭"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうてんとう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1727"
+    "kind": "person"
+    "headword": "喪門"
+    "definition_ja": "不吉な星・凶神を示す名称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2051"
+        "text": "喪門"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうもん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1728"
+    "kind": "term"
+    "headword": "鯁"
+    "definition_ja": "魚の列挙に現れる底本の字。魚種の厳密な同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2052"
+        "text": "鯁"
+        "relation": "preferred"
+        "reading":
+          "kana": "こう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1729"
+    "kind": "term"
+    "headword": "鮊"
+    "definition_ja": "白い体をもつ淡水魚の類を表す字。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2053"
+        "text": "鮊"
+        "relation": "preferred"
+        "reading":
+          "kana": "はく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1730"
+    "kind": "term"
+    "headword": "鱖"
+    "definition_ja": "淡水魚の名。一般にケツギョ類を指す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2054"
+        "text": "鱖"
+        "relation": "preferred"
+        "reading":
+          "kana": "けい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1731"
+    "kind": "term"
+    "headword": "鱉"
+    "definition_ja": "スッポンを表す漢字。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2055"
+        "text": "鱉"
+        "relation": "preferred"
+        "reading":
+          "kana": "べつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1732"
+    "kind": "term"
+    "headword": "黿"
+    "definition_ja": "大型のスッポン類を指す古い動物名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2056"
+        "text": "黿"
+        "relation": "preferred"
+        "reading":
+          "kana": "げん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1733"
+    "kind": "person"
+    "headword": "呉剛"
+    "definition_ja": "月の木を切る仙人として登場し、宝杖の枝を切り出した者。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2057"
+        "text": "呉剛"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごごう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1734"
+    "kind": "object"
+    "headword": "梭羅"
+    "definition_ja": "宝杖の材料になった月の樹木の名。底本の梭羅を保持する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2058"
+        "text": "梭羅"
+        "relation": "preferred"
+        "reading":
+          "kana": "さら"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1735"
+    "kind": "concept"
+    "headword": "刀圭"
+    "definition_ja": "内丹術の象徴語。圭の二土から、ここでは土の性を持つ河の妖怪に対応するとみられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2059"
+        "text": "刀圭"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうけい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1736"
+    "kind": "title"
+    "headword": "二十四路諸天"
+    "definition_ja": "普陀山で悟空を迎える二十四の部の天部の神々。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2060"
+        "text": "二十四路諸天"
+        "relation": "preferred"
+        "reading":
+          "kana": "にじゅうしろしょてん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1737"
+    "kind": "place"
+    "headword": "宝蓮池"
+    "definition_ja": "観音菩薩が竜女と花を眺める池。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2061"
+        "text": "宝蓮池"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうれんち"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1738"
+    "kind": "place"
+    "headword": "雲巌"
+    "definition_ja": "観音菩薩が池から戻る岩屋の呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2062"
+        "text": "雲巌"
+        "relation": "preferred"
+        "reading":
+          "kana": "うんがん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1739"
+    "kind": "concept"
+    "headword": "九宮"
+    "definition_ja": "九つの位置を方位に従って配する図式。髑髏と瓢箪で船を作る配置に使う。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-411"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+    "forms":
+      - "id": "xy-form-2063"
+        "text": "九宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
