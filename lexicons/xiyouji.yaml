@@ -1770,6 +1770,34 @@
     "title": "コトバンク「寸」"
     "url": "https://kotobank.jp/word/%E5%AF%B8-85418"
     "accessed_at": "2026-10-24"
+  - "id": "xy-ch31-primary"
+    "title": "中文維基文庫 西遊記/第031回 固定版1455580"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第031回&oldid=1455580"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch31-funi"
+    "title": "DILA 電子佛教辭典 不二法門"
+    "url": "https://glossaries.dila.edu.tw/search?commit=Search&locale=zh-TW&term=%E4%B8%8D%E4%BA%8C%E6%B3%95%E9%96%80&utf8=%E2%9C%93"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch31-neidan"
+    "title": "コトバンク 内丹（世界大百科事典）"
+    "url": "https://kotobank.jp/word/%E5%86%85%E4%B8%B9-1381618"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch31-daigo"
+    "title": "コトバンク 醍醐（デジタル大辞泉ほか）"
+    "url": "https://kotobank.jp/word/%E9%86%8D%E9%86%90-91079"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch31-military-books"
+    "title": "国立国会図書館レファレンス協同データベース 六韜について知りたい"
+    "url": "https://crd.ndl.go.jp/reference/entry/reference/show?id=1000141868&page=ref_view"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch31-gokei"
+    "title": "コトバンク 五刑"
+    "url": "https://kotobank.jp/word/%E4%BA%94%E5%88%91-64465"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch31-kui"
+    "title": "コトバンク 奎"
+    "url": "https://kotobank.jp/word/%E5%A5%8E-488047"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -2863,6 +2891,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+      - "id": "xy-ch31-elder-sun-form"
+        "text": "孫長老"
+        "relation": "title"
+        "reading":
+          "kana": "そんちょうろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -6935,11 +6972,12 @@
   - "id": "xy-entry-0248"
     "kind": "title"
     "headword": "玉女"
-    "definition_ja": "天界で文書を取り次ぐ女性の仙人"
+    "definition_ja": "天界に仕える女性の仙人。文書の取次ぎや香の世話などを務める。"
     "definition_evidence":
       "status": "estimated"
-      "source_ids": []
-      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "既出の文書を取り次ぐ玉女と、固定版本文の香に仕える玉女の双方に通じる説明へ整理した。特定人物の前世を一般称号の語義へ混入させない。"
     "forms":
       - "id": "xy-form-0271"
         "text": "玉女"
@@ -9831,6 +9869,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch31-five-dou-form"
+        "text": "五斗"
+        "relation": "short_form"
+        "reading":
+          "kana": "ごと"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
   - "id": "xy-entry-0407"
     "kind": "object"
     "headword": "金花"
@@ -11418,6 +11465,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の通常の漢字音訓と語構成からの推定。当該語形・文脈の日本語読みを明記する資料は今回未確認。"
+      - "id": "xy-ch31-four-masters-surnames-form"
+        "text": "張・葛・許・丘"
+        "relation": "alias"
+        "reading":
+          "kana": "ちょう・かつ・きょ・きゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
   - "id": "xy-entry-0492"
     "kind": "concept"
     "headword": "丹元大会"
@@ -15714,6 +15770,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成からの推定。当該表記全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-ch31-great-leiyin-form"
+        "text": "大雷音"
+        "relation": "alias"
+        "reading":
+          "kana": "だいらいおん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
   - "id": "xy-entry-0712"
     "kind": "person"
     "headword": "四金剛"
@@ -17599,11 +17664,12 @@
   - "id": "xy-entry-0815"
     "kind": "object"
     "headword": "舎利"
-    "definition_ja": "仏や聖者の遺骨。ここでは聖なる光のもと"
+    "definition_ja": "仏や聖者の遺骨をいう語。物語では聖なる光を発するものや、修行で練った珠状の内丹にも用いる。"
     "definition_evidence":
       "status": "estimated"
-      "source_ids": []
-      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "仏教語の一般的語義と、本回で黄袍怪が口から取り出す内丹を舎利子と呼ぶ用例を区別して説明。"
     "forms":
       - "id": "xy-form-0934"
         "text": "舎利"
@@ -31863,6 +31929,15 @@
           "source_ids":
             - "xy-reference-375"
           "reason_ja": "当該資料に明記された、この語形の日本語仮名を直接確認した。"
+      - "id": "xy-ch31-six-gates-form"
+        "text": "六門"
+        "relation": "alias"
+        "reading":
+          "kana": "ろくもん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
   - "id": "xy-entry-1561"
     "kind": "concept"
     "headword": "無漏"
@@ -37757,12 +37832,13 @@
   - "id": "xy-entry-1875"
     "kind": "person"
     "headword": "黄袍"
-    "definition_ja": "波月洞の妖怪の名。"
+    "definition_ja": "波月洞の妖怪の名。黄袍怪・黄袍郎とも呼ばれ、天上では二十八宿の奎木狼（奎星・奎宿）である。"
     "definition_evidence":
       "status": "estimated"
       "source_ids":
         - "xy-reference-424"
-      "reason_ja": "固定版の当該場面の用法と前後関係、日本語での一般的語義に基づく。"
+        - "xy-ch31-primary"
+      "reason_ja": "波月洞での既知の名と、天界の調査・本人の奏上による正体の判明を照合した。本文の各話初出説明には、判明前の情報を先取りしない。"
     "forms":
       - "id": "xy-form-2230"
         "text": "黄袍"
@@ -37788,6 +37864,33 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+      - "id": "xy-ch31-kui-star-form"
+        "text": "奎星"
+        "relation": "alias"
+        "reading":
+          "kana": "けいせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+      - "id": "xy-ch31-kui-wood-wolf-form"
+        "text": "奎木狼"
+        "relation": "alias"
+        "reading":
+          "kana": "けいもくろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+      - "id": "xy-ch31-kui-lodge-form"
+        "text": "奎宿"
+        "relation": "alias"
+        "reading":
+          "kana": "けいしゅく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
   - "id": "xy-entry-1876"
     "kind": "term"
     "headword": "槐"
@@ -38931,3 +39034,288 @@
           "source_ids":
             - "xy-reference-441"
           "reason_ja": "日本国語大辞典・世界大百科事典等の長さの単位としての見出し「ぶ」を確認。"
+  - "id": "xy-ch31-danyuan"
+    "kind": "concept"
+    "headword": "丹元"
+    "definition_ja": "修行によって練り上げる丹の根源的な精気。詩では心猿と木母の結合に重ねる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-danyuan-form"
+        "text": "丹元"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんげん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+  - "id": "xy-ch31-funi-homon"
+    "kind": "concept"
+    "headword": "不二法門"
+    "definition_ja": "相対する二つへのとらわれを離れ、分け隔てのない真理へ入る仏教の教え。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch31-funi"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-funi-homon-form"
+        "text": "不二法門"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふにほうもん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch31-funi"
+          "reason_ja": "当該語形の日本語読みを資料に直接確認。検索表示のみの確認の場合は出典注記に記す。"
+  - "id": "xy-ch31-sanqi"
+    "kind": "concept"
+    "headword": "三契"
+    "definition_ja": "三者の結びつき・一致。兄弟の和合と修行上の調和を重ねた詩の語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-sanqi-form"
+        "text": "三契"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんけい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+  - "id": "xy-ch31-daigo"
+    "kind": "object"
+    "headword": "醍醐"
+    "definition_ja": "乳を精製して得る最上の味のもの。仏の悟りや教えのたとえにも用いる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch31-daigo"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-daigo-form"
+        "text": "醍醐"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいご"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch31-daigo"
+          "reason_ja": "当該語形の日本語読みを資料に直接確認。検索表示のみの確認の場合は出典注記に記す。"
+  - "id": "xy-ch31-five-punishments"
+    "kind": "term"
+    "headword": "五刑"
+    "definition_ja": "古代中国で定められた五種の刑罰。種類は時代で異なる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-five-punishments-form"
+        "text": "五刑"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごけい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch31-gokei"
+          "reason_ja": "検索結果に掲載された辞典・図書館回答の日本語読みを確認。ページ本体は取得できなかったため、確認範囲は検索表示。"
+  - "id": "xy-ch31-inner-elixir"
+    "kind": "concept"
+    "headword": "内丹"
+    "definition_ja": "道教の修行で体内の精気から練り成す丹、またその修行法。物語では体外へ取り出せる珠として描かれる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-inner-elixir-form"
+        "text": "内丹"
+        "relation": "preferred"
+        "reading":
+          "kana": "ないたん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch31-neidan"
+          "reason_ja": "当該語形の日本語読みを資料に直接確認。検索表示のみの確認の場合は出典注記に記す。"
+  - "id": "xy-ch31-three-heads-six-arms"
+    "kind": "term"
+    "headword": "三頭六臂"
+    "definition_ja": "頭が三つ、腕が六本ある姿。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-three-heads-six-arms-form"
+        "text": "三頭六臂"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんとうろっぴ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+  - "id": "xy-ch31-sanlue"
+    "kind": "object"
+    "headword": "三略"
+    "definition_ja": "中国の兵法書。黄石公に仮託される三篇から成る書。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-sanlue-form"
+        "text": "三略"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんりゃく"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch31-military-books"
+          "reason_ja": "検索結果に掲載された辞典・図書館回答の日本語読みを確認。ページ本体は取得できなかったため、確認範囲は検索表示。"
+  - "id": "xy-ch31-liutao"
+    "kind": "object"
+    "headword": "六韜"
+    "definition_ja": "中国の兵法書。太公望に仮託される六篇から成る書。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-liutao-form"
+        "text": "六韜"
+        "relation": "preferred"
+        "reading":
+          "kana": "りくとう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch31-military-books"
+          "reason_ja": "検索結果に掲載された辞典・図書館回答の日本語読みを確認。ページ本体は取得できなかったため、確認範囲は検索表示。"
+  - "id": "xy-ch31-high-horse-scout"
+    "kind": "term"
+    "headword": "高探馬"
+    "definition_ja": "武術の構えの名。本文では棒を両手で上げ、下段へ隙を見せる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-high-horse-scout-form"
+        "text": "高探馬"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうたんば"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+  - "id": "xy-ch31-great-middle-level"
+    "kind": "term"
+    "headword": "大中平"
+    "definition_ja": "武術の構えの名。本文では相手の刀をはね上げる動作に用いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-great-middle-level-form"
+        "text": "大中平"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいちゅうへい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+  - "id": "xy-ch31-peach-under-leaves"
+    "kind": "term"
+    "headword": "葉底偸桃"
+    "definition_ja": "葉の下から桃を盗る意の技の名。本文では相手の頭に棒を打ち込む。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-peach-under-leaves-form"
+        "text": "葉底偸桃"
+        "relation": "preferred"
+        "reading":
+          "kana": "ようていとうとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+  - "id": "xy-ch31-pixiang-hall"
+    "kind": "place"
+    "headword": "披香殿"
+    "definition_ja": "天界の宮殿。香を扱う玉女が仕える。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-pixiang-hall-form"
+        "text": "披香殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひこうでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+  - "id": "xy-ch31-shorten-earth"
+    "kind": "concept"
+    "headword": "縮地法"
+    "definition_ja": "地の距離を縮めるようにして、遠くまで一瞬で運ぶ術。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-shorten-earth-form"
+        "text": "縮地法"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅくちほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+  - "id": "xy-ch31-east-hall"
+    "kind": "place"
+    "headword": "東閣"
+    "definition_ja": "宮中の東側の殿舎。王がもてなしの宴を開く場所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch31-primary"
+      "reason_ja": "固定版本文の指示対象と語構成から採った説明。専門的な体系や語源まで実証したものではない。"
+    "forms":
+      - "id": "xy-ch31-east-hall-form"
+        "text": "東閣"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうかく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch31-primary"
+          "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
