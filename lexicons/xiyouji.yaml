@@ -1674,6 +1674,10 @@
     "title": "西遊記/第024回（中文維基文庫・固定版）"
     "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第024回&oldid=1455573"
     "accessed_at": "2026-10-24"
+  - "id": "xy-reference-419"
+    "title": "西遊記/第025回（中文維基文庫・固定版）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第025回&oldid=1455574"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -29903,6 +29907,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+      - "id": "xy-form-2130"
+        "text": "緊箍児経"
+        "relation": "alias"
+        "reading":
+          "kana": "きんこじきょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
   - "id": "xy-entry-1472"
     "kind": "term"
     "headword": "圯橋進履"
@@ -35531,6 +35543,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+      - "id": "xy-form-2140"
+        "text": "鎮元仙"
+        "relation": "alias"
+        "reading":
+          "kana": "ちんげんせん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
   - "id": "xy-entry-1769"
     "kind": "object"
     "headword": "草還丹"
@@ -35917,3 +35937,255 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1790"
+    "kind": "object"
+    "headword": "楞厳経"
+    "definition_ja": "八戒が名を挙げる仏教経典。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "本文の使用例と一般的な語義に基づく。"
+    "forms":
+      - "id": "xy-form-2125"
+        "text": "楞厳経"
+        "relation": "preferred"
+        "reading":
+          "kana": "りょうごんきょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
+  - "id": "xy-entry-1791"
+    "kind": "place"
+    "headword": "東天門"
+    "definition_ja": "天界の東側の門。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "本文の場所を示す用例による。"
+    "forms":
+      - "id": "xy-form-2126"
+        "text": "東天門"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうてんもん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "字の日本語音訓からの推定。"
+  - "id": "xy-entry-1792"
+    "kind": "place"
+    "headword": "兜率"
+    "definition_ja": "鎮元子の天界からの帰路として記される地名。兜率天またはその宮の領域を指すと解される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "本文の場所を示す用例による。"
+    "forms":
+      - "id": "xy-form-2127"
+        "text": "兜率"
+        "relation": "preferred"
+        "reading":
+          "kana": "とそつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "字の日本語音訓からの推定。"
+  - "id": "xy-entry-1793"
+    "kind": "object"
+    "headword": "麈尾"
+    "definition_ja": "獣の尾毛などを柄につけた払子。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "本文の使用例と一般的な語義に基づく。"
+    "forms":
+      - "id": "xy-form-2128"
+        "text": "麈尾"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅび"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
+  - "id": "xy-entry-1794"
+    "kind": "concept"
+    "headword": "五金"
+    "definition_ja": "金・銀・銅・鉄・錫など、主要な金属の総称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "本文の使用例と一般的な語義に基づく。"
+    "forms":
+      - "id": "xy-form-2129"
+        "text": "五金"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごきん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
+  - "id": "xy-entry-1795"
+    "kind": "place"
+    "headword": "元始宮"
+    "definition_ja": "鎮元子が講義を聴いて戻った宮殿名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "第二十五回の本文用例と語構成による説明。術語・衣服の細部は未確定。"
+    "forms":
+      - "id": "xy-form-2131"
+        "text": "元始宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんしきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
+  - "id": "xy-entry-1796"
+    "kind": "title"
+    "headword": "太乙散仙"
+    "definition_ja": "鎮元子が悟空を評する仙人の位・種別の呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "第二十五回の本文用例と語構成による説明。術語・衣服の細部は未確定。"
+    "forms":
+      - "id": "xy-form-2132"
+        "text": "太乙散仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいいつさんせん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
+  - "id": "xy-entry-1797"
+    "kind": "object"
+    "headword": "百衲袍"
+    "definition_ja": "多くの布を継ぎ合わせた衣。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "第二十五回の本文用例と語構成による説明。術語・衣服の細部は未確定。"
+    "forms":
+      - "id": "xy-form-2133"
+        "text": "百衲袍"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひゃくのうほう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
+  - "id": "xy-entry-1798"
+    "kind": "object"
+    "headword": "呂公絛"
+    "definition_ja": "呂洞賓風の道士が結ぶ組紐の帯。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "第二十五回の本文用例と語構成による説明。術語・衣服の細部は未確定。"
+    "forms":
+      - "id": "xy-form-2134"
+        "text": "呂公絛"
+        "relation": "preferred"
+        "reading":
+          "kana": "りょこうとう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
+  - "id": "xy-entry-1799"
+    "kind": "object"
+    "headword": "漁鼓"
+    "definition_ja": "道士が歌などに合わせて鳴らす筒形の打楽器。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "第二十五回の本文用例と語構成による説明。術語・衣服の細部は未確定。"
+    "forms":
+      - "id": "xy-form-2135"
+        "text": "漁鼓"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょこ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
+  - "id": "xy-entry-1800"
+    "kind": "object"
+    "headword": "九陽巾"
+    "definition_ja": "道士の頭巾の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "第二十五回の本文用例と語構成による説明。術語・衣服の細部は未確定。"
+    "forms":
+      - "id": "xy-form-2136"
+        "text": "九陽巾"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうようきん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
+  - "id": "xy-entry-1801"
+    "kind": "object"
+    "headword": "月児高"
+    "definition_ja": "旅の道士に化けた鎮元子が歌う曲の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "第二十五回の本文用例と語構成による説明。術語・衣服の細部は未確定。"
+    "forms":
+      - "id": "xy-form-2137"
+        "text": "月児高"
+        "relation": "preferred"
+        "reading":
+          "kana": "げつじこう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
+  - "id": "xy-entry-1802"
+    "kind": "concept"
+    "headword": "袖裏乾坤"
+    "definition_ja": "袖に別天地を包み、相手を閉じ込める鎮元子の術。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "第二十五回の本文用例と語構成による説明。術語・衣服の細部は未確定。"
+    "forms":
+      - "id": "xy-form-2138"
+        "text": "袖裏乾坤"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅうりけんこん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
+  - "id": "xy-entry-1803"
+    "kind": "object"
+    "headword": "七星鞭"
+    "definition_ja": "鎮元子が処罰に使う、竜の皮で作った鞭。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-419"
+      "reason_ja": "第二十五回の本文用例と語構成による説明。術語・衣服の細部は未確定。"
+    "forms":
+      - "id": "xy-form-2139"
+        "text": "七星鞭"
+        "relation": "preferred"
+        "reading":
+          "kana": "しちせいべん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
