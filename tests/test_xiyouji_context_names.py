@@ -9,7 +9,13 @@ ROOT = Path(__file__).resolve().parents[1]
 BASELINE = '57dcd51727202083a53e6f383789cf118d1974e2'
 
 
+def without_readings(text):
+    # Readings are presentation metadata, not a character-name or dialogue change.
+    return re.sub(r'（[ぁ-ゖァ-ヺー・ 　]+）', '', text)
+
+
 def quotations(text):
+    text = without_readings(text)
     # Compare across the entire chapter: a speech can continue in the next segment.
     result, start, depth = [], 0, 0
     for i, char in enumerate(text):
@@ -34,7 +40,7 @@ class ContextNamesTests(unittest.TestCase):
             cls.docs[chapter] = yaml.safe_load((ROOT / rel).read_text())
             cls.old[chapter] = yaml.safe_load(subprocess.check_output(
                 ['git', 'show', f'{BASELINE}:{rel}'], cwd=ROOT))
-        cls.text = {s['id']: s['translation_ja'] for doc in cls.docs.values() for s in doc['segments']}
+        cls.text = {s['id']: without_readings(s['translation_ja']) for doc in cls.docs.values() for s in doc['segments']}
 
     def test_all_source_fields_order_and_quotes_preserved(self):
         for chapter, doc in self.docs.items():
@@ -82,7 +88,7 @@ class ContextNamesTests(unittest.TestCase):
         before = {s['id']: s['translation_ja'] for s in self.old[4]['segments']}
         for s in self.docs[4]['segments']:
             if s['kind'] == 'verse':
-                self.assertEqual(before[s['id']], s['translation_ja'])
+                self.assertEqual(without_readings(before[s['id']]), without_readings(s['translation_ja']))
         skill = (ROOT / '.agents/skills/translation-dialogue/SKILL.md').read_text()
         book = (ROOT / 'translations/wu-chengen/README.md').read_text()
         self.assertIn('同じ場面の地の文と発言者ラベルは同じ呼称', skill)

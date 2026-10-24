@@ -1,4 +1,4 @@
-"""Regression fingerprints independently captured from 4a8f60b before moving glosses."""
+"""Frozen paragraph-gloss fingerprints; approved naming revisions refresh only affected chapters."""
 import copy
 import hashlib
 import json
