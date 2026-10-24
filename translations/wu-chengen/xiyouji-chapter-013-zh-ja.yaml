@@ -1,0 +1,1970 @@
+"schema_version": "2.0"
+"metadata":
+  "title_ja": "西遊記 第十三回"
+  "title_original": "西遊記 第十三回 陷虎穴金星解厄　雙叉嶺伯欽留僧"
+  "original_languages":
+  - "zh-Hant"
+  "target_language": "ja"
+  "contributors":
+  - "id": "traditional-author"
+    "name_ja": "呉承恩（伝）"
+    "name_original": "吳承恩"
+    "roles":
+    - "author"
+  - "id": "ai-translator"
+    "name_ja": "ChatGPT（AIによる新訳）"
+    "name_original": null
+    "roles":
+    - "translator"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "『西遊記』第十三回 日本語新訳（AI生成）。原文は中文維基文庫「西遊記/第013回」oldid=1500625。"
+    "note_ja": "電子翻刻の帰属表示と継承条件を保持するためCC BY-SA 4.0を明示。原典は公有と区別する。AIによる対訳と確認であり、専門家の独立校訂は未実施。"
+  "genres":
+  - "中国古典文学"
+  - "神魔小説"
+  - "物語"
+  "reader_notes_ja":
+  - "第十三回の回題から結語まで全42対訳単位に収録。散文・会話・詩詞・書簡・布告等を省略しない。"
+  - "底本は中文維基文庫固定版oldid=1500625（2018-09-12T14:58Z）、無変換表示の原字・句読を保持。"
+  - "日本語はAIによる新訳。専門家による独立校訂は未実施。"
+  - "化生寺、河州衛、河奎などは底本の表記を保持した。年代・地理の不整合や異字らしき箇所を無断で訂正していない。"
+  - "太白星の書付は会話ではなく韻文として残した。最後の山の下の声は、原文どおりこの回では正体を明かさない。"
+  - "准靈惟顯處、性服青衣穩などの難解な詩句と、叵羅衣・山地榆の詳細には解釈上の留保がある。原文の全字句を保持した。"
+"work_id": "xiyouji-chapter-013-zh-ja"
+"sources":
+- "id": "wikisource-xiyou-ch13-1500625"
+  "role": "primary"
+  "title": "西遊記/第013回"
+  "languages":
+  - "zh-Hant"
+  "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+  "edition": "中文維基文庫、固定版oldid=1500625（2018-09-12T14:58Z）、無変換表示。"
+  "contributor_ids":
+  - "traditional-author"
+  "work_rights":
+    "status": "public_domain"
+    "note_ja": "明代成立の古典本文。伝統的には呉承恩作とされるが著者帰属には議論がある。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "evidence_url": "https://zh.wikisource.org/wiki/Wikisource:Copyrights"
+    "attribution": "中文維基文庫「西遊記/第013回」の寄稿者（oldid=1500625）。"
+  "description_ja": "第十三回の回題、全散文・会話・韻文・文書・結語。"
+  "local_path": "translations/wu-chengen/verification/xiyouji-chapter-013-source-1500625-zh-hant.txt"
+  "sha256": "8bf9794cbda5771a55e45f98500d439e16c9d325776e849201e82b5ac4089c96"
+"scope":
+  "included":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "description_ja": "第十三回の回題から結語まで全体。"
+    "section_ids":
+    - "chapter-13"
+  "excluded":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "description_ja": "著者欄、前後回案内、サイトナビゲーションとフッター。"
+  "known_gaps":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-003"
+    "description_ja": "底本の『秉教迦持』は第八回にも見える字句で、迦を加へ補訂せず保持した。訳では『教えを奉じ、加持を受け』と解したが、語構成には留保がある。 『尋龍穴』は比喩的な求道表現と考えられるが、竜のすみかを尋ねるという字面を残し、特定の内丹説・風水説を本文に補わなかった。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-006"
+    "description_ja": "底本の寺名は『化生寺』。別表記へ修正しない。法輪を回すとは仏の教えを広めることとして訳す。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-009"
+    "description_ja": "『河州衛』『總兵』『僧綱』などの制度名は、唐代という物語設定と時代差があっても底本どおり残した。河州衛をここで国境といいながら後段も唐領とされる地理は、独自に整合させない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-010"
+    "description_ja": "洞内から『拿將來』と命じる個人は原文に明記されない。魔王へ断定せず『話者不明』とした。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-011"
+    "description_ja": "『東海黃公』は虎を制する幻術師が結局虎に殺されるという故事を踏まえる。南山の白額の王は虎の詩的呼称であり、固有の別妖怪を登場させない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-013"
+    "description_ja": "『向來符吉夢』は熊の夢を男子誕生の吉兆とする伝統に関係するが、本文の吉夢以上の説明は訳詩に加えなかった。 『准靈惟顯處』の語構成は未詳。准靈を霊妙な力が確かに現れる意と解して全句を訳したが、独立校訂は未了。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-015"
+    "description_ja": "『性服青衣穩』は文法・字面に疑問を残す。底本を改めず、青い衣に身を落ち着ける姿として訳した。牯・牸はそれぞれ雄牛・雌牛の古語として保持する。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-019"
+    "description_ja": "老人が述べる『本性元明』と食べられなかった理由は人物の説明として訳した。語り手の別の因果説明を付け加えない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-021"
+    "description_ja": "四句の頌は書付であって、その場で音読する会話ではない。太白星の名乗りを保持し、会話用の話者ラベルは加えない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-023"
+    "description_ja": "獐・麂は古典の獣名として区別し、現生種を厳密に同定したとは扱わない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-026"
+    "description_ja": "『叵羅衣』はこの箇所で羊毛の錦織りと説明される服名。裁断・形状は確定せず、名称と原文の材質を残した。 『弔客』『河奎』は恐ろしい容貌を表す神名の比喩。河奎は通常の河魁へ無断訂正しない。河奎という字面全体の日本語慣用読みは未確認。 『山蟲』はこの文脈では虎の俗称で、昆虫ではない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-028"
+    "description_ja": "劉伯欽がいう『山猫』はここでは虎の呼び名。大きな猫の別種が登場したと読み替えない。030の同じ呼び方も保持した。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-031"
+    "description_ja": "稀字を含む『迤\U000284E6』を原文に保持し、曲がりくねりながら進む様子として訳した。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-035"
+    "description_ja": "底本の『山地榆』は茶に煎じる葉の植物名として残した。地榆の薬草名か、山の榆をいうか、具体的な植物種の同定は留保する。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-038"
+    "description_ja": "『度亡經』は亡者を救う経として訳し、特定の現存経典の正式名へ置き換えていない。 『苾蒭』は比丘と同義。日本語側では通常の別表記『苾芻』を採用した。どの洗業の故事かは原文に詳細がなく、特定の物語を補わない。 『紙馬』は祭祀で焼く神像などの紙を指すので、馬の姿だけを焼いたことにはしない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-039"
+    "description_ja": "『夫妻們俱…我與媳婦』は語り手の主語が夫婦複数なのに発言内は夫の言い方になる。合同ラベル『劉伯欽夫妻』を保持し、台詞も『私も妻も』として原文のずれを残した。 一家で礼を述べる『都至前拜謝道』も、発言内では『我亡父』となる。『劉伯欽の一家』の合同発言とし、原文の『亡き父』を消さなかった。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "segment_ids":
+    - "xy-ch13-041"
+    "description_ja": "末尾の叫びの正体はこの回の結語で次回へ保留される。発言者は『山の下の声』とし、後の回の人物名を先取りしない。 本文の欠落ではなく解釈・校訂上の留保。"
+"sections":
+- "id": "chapter-13"
+  "parent_id": null
+  "kind": "chapter"
+  "heading_segment_ids":
+  - "xy-ch13-001"
+"segments":
+- "id": "xy-ch13-001"
+  "section_id": "chapter-13"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    第十三回
+    陷虎穴金星解厄　雙叉嶺伯欽留僧
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 117
+    "line_end": 118
+  "translation_ja": |-
+    第十三回
+    虎の穴に落ちた三蔵を金星が救い、双叉嶺では伯欽が僧を留める
+  "translation_status": "reviewed"
+- "id": "xy-ch13-002"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "詩曰："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 122
+    "line_end": 122
+  "translation_ja": "詩にいう。"
+  "translation_status": "reviewed"
+- "id": "xy-ch13-003"
+  "section_id": "chapter-13"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    大有唐王降敕封，欽差玄奘問禪宗。
+    堅心磨琢尋龍穴，著意修持上鷲峰。
+    邊界遠遊多少國，雲山前度萬千重。
+    自今別駕投西去，秉教迦持悟大空。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 123
+    "line_end": 126
+  "translation_ja": |-
+    大いなる唐王（とうおう）は勅命を下して称号を授け、玄奘（げんじょう）を遣わして仏の教えを尋ねさせる。
+    堅い心を磨き上げて竜のすみかを尋ね、修行に思いを凝らして霊鷲山（りょうじゅせん）へ登る。
+    国境を越えて幾つの国を遠く旅し、雲のかかる山々を幾千幾万と越えるのか。
+    今こそ天子の御車（みくるま）に別れを告げて西へ向かい、教えを奉じ、加持（かじ）を受け、大空（だいくう）を悟る。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "底本の『秉教迦持』は第八回にも見える字句で、迦を加へ補訂せず保持した。訳では『教えを奉じ、加持を受け』と解したが、語構成には留保がある。"
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "『尋龍穴』は比喩的な求道表現と考えられるが、竜のすみかを尋ねるという字面を残し、特定の内丹説・風水説を本文に補わなかった。"
+- "id": "xy-ch13-004"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "卻說三藏自貞觀十三年九月望前三日，蒙唐王與多官送出長安關外。一二日馬不停蹄，早至法門寺。本寺住持上房長老，帶領眾僧有五百餘人，兩邊羅列，接至裡面，相見獻茶。茶罷進齋，齋後不覺天晚。正是那："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 128
+    "line_end": 128
+  "translation_ja": "さて三蔵（さんぞう）は、貞観（じょうがん）十三年九月の十五日の三日前、太宗（たいそう）と大勢の官人に見送られ、長安（ちょうあん）の関外へ出た。一日、二日と馬を休めず、早くも法門寺（ほうもんじ）に着いた。この寺の住持（じゅうじ）で、上房（じょうぼう）に住まう長老が五百余人の僧を率い、左右に並んで迎え、寺の中へ案内した。挨拶を交わして茶を出し、茶が済むと精進の食事を供した。食事を終えるころには、いつしか日も暮れていた。まさしく、"
+  "translation_status": "reviewed"
+- "id": "xy-ch13-005"
+  "section_id": "chapter-13"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    影動星河近，月明無點塵。
+    雁聲鳴遠漢，砧韻響西鄰。
+    歸鳥棲枯樹，禪僧講梵音。
+    蒲團一榻上，坐到夜將分。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 130
+    "line_end": 133
+  "translation_ja": |-
+    星の影は揺れ、天の川は近く、明るい月に塵ひとつない。
+    雁の声は遠い大空に響き、西隣からは砧（きぬた）の音が聞こえる。
+    帰る鳥は枯れ木にとまり、禅僧は仏の教えを説く。
+    寝台ひとつ、蒲の座布団の上に、夜半近くまで座っている。
+  "translation_status": "reviewed"
+- "id": "xy-ch13-006"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "眾僧們燈下議論佛門定旨，上西天取經的原由：有的說水遠山高，有的說路多虎豹；有的說峻嶺陡崖難度，有的說毒魔惡怪難降。三藏箝口不言，但以手指自心，點頭幾度。眾僧們莫解其意，合掌請問道：「法師指心點頭者，何也？」三藏答曰：「心生，種種魔生；心滅，種種魔滅。我弟子曾在化生寺對佛說下洪誓大願，不由我不盡此心。這一去，定要到西天，見佛求經，使我們法輪回轉，願聖主皇圖永固。」眾僧聞得此言，人人稱羨，個個宣揚，都叫一聲：「忠心赤膽大闡法師！」誇讚不盡，請師入榻安寐。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 135
+    "line_end": 135
+  "translation_ja": |-
+    僧たちは灯の下で、仏門の教えの要と、西天（さいてん）へ経を取りに行くわけを論じ合った。ある者は川が遠く山が高いと言い、ある者は道に虎や豹が多いと言う。険しい山や切り立った崖は越えがたいと言う者も、悪魔や恐ろしい妖怪は降しがたいと言う者もあった。三蔵は口を閉ざしたまま、ただ自分の胸を指し、何度かうなずいた。僧たちはその意味が分からず、合掌して尋ねた。
+    法門寺の僧たち「法師が胸を指してうなずかれるのは、どういうわけでしょうか。」
+    三蔵「心が生じれば、さまざまな魔が生じ、心が滅すれば、さまざまな魔も滅します。弟子の私は、かつて化生寺（けしょうじ）で仏の御前に大きな誓願を立てました。この心を尽くさずにはおれません。このたびは必ず西天に至り、仏にお会いして経を求め、私たちの法輪（ほうりん）を回らせ、聖なる主君の国が永く揺るがぬよう願うのです。」
+    これを聞いた僧たちは、誰もが感服し、口々に称賛した。
+    法門寺の僧たち「忠義のまことを尽くし、教えを大きく広める法師であられる！」
+    いくら褒めても褒め足りぬまま、三蔵を寝所へ案内して休ませた。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "底本の寺名は『化生寺』。別表記へ修正しない。法輪を回すとは仏の教えを広めることとして訳す。"
+- "id": "xy-ch13-007"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "早又是竹敲殘月落，雞唱曉雲生。那眾僧起來，收拾茶水、早齋。玄奘遂穿了袈裟，上正殿，佛前禮拜道：「弟子陳玄奘，前往西天取經，但肉眼愚迷，不識活佛真形。今願立誓：路中逢廟燒香，遇佛拜佛，遇塔掃塔。但願我佛慈悲，早現丈六金身，賜真經，留傳東土。」祝罷，回方丈進齋。齋畢，那二從者整頓了鞍馬，促趲行程。三藏出了山門，辭別眾僧。眾僧不忍分別，直送有十里之遙，噙淚而返。三藏遂直西前進。正是那季秋天氣，但見："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 136
+    "line_end": 136
+  "translation_ja": |-
+    ほどなく、竹の触れ合う音に残月は沈み、鶏の声に朝雲が湧く時となった。僧たちは起き出して、茶と朝の精進料理を支度した。三蔵は袈裟を着て本堂へ上がり、仏前に礼拝した。
+    三蔵「弟子の陳玄奘（ちんげんじょう）は、西天へ経を取りに参ります。しかし、この肉眼は愚かで迷い深く、生きた仏のまことのお姿を見分けられません。今ここに誓います。道中で廟（びょう）に会えば香をたき、仏に会えば仏を拝み、塔に会えば塔を掃きます。どうか仏よ、慈悲をもって、早く丈六（じょうろく）の金身（こんじん）をお現しになり、真の経を授けて東土（とうど）へ伝えさせてください。」
+    祈りを終えると方丈（ほうじょう）に戻って食事をした。食事が済むと、二人の従者が鞍と馬を整え、旅を急いだ。三蔵は山門を出て僧たちに別れを告げた。僧たちは別れを忍びがたく、十里（り）もの先まで送り、涙を浮かべて引き返した。三蔵はそのまま西へ進んだ。ちょうど晩秋のころで、目に入るのは、
+  "translation_status": "reviewed"
+- "id": "xy-ch13-008"
+  "section_id": "chapter-13"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "數村木落蘆花碎，幾樹楓楊紅葉墜。路途煙雨故人稀，黃菊麗，山骨細，水寒荷破人憔悴。白蘋紅蓼霜天雪，落霞孤鶩長空墜。依稀黯淡野雲飛，玄鳥去，賓鴻至，嘹嘹嚦嚦聲宵碎。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 138
+    "line_end": 138
+  "translation_ja": "幾つかの村では木の葉が散り、葦の穂は砕け、楓や楊の幾本かから赤い葉が落ちる。旅路は煙る雨に包まれ、なじみの人もまれである。黄菊は美しく、山は痩せた骨を見せ、水は冷たく蓮の葉は破れ、人もやつれる。白い浮草と赤い蓼（たで）は霜の空の下、雪にも似て、夕焼けの霞と一羽の鴨が広い空から降りてくる。野の雲はおぼろに暗く流れ、燕は去り、渡りの雁が来て、澄んだ鳴き声が夜を切り裂く。"
+  "translation_status": "reviewed"
+- "id": "xy-ch13-009"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "師徒們行了數日，到了鞏州城，早有鞏州合屬官吏人等迎接入城中。安歇一夜，次早出城前去。一路饑餐渴飲，夜住曉行，兩三日，又至河州衛。此乃是大唐的山河邊界。早有鎮邊的總兵與本處僧道，聞得是欽差御弟法師上西方見佛，無不恭敬。接至裡面供給了，著僧綱請往福原寺安歇。本寺僧人，一一參見，安排晚齋。齋畢，吩咐二從者飽喂馬匹，天不明就行。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 140
+    "line_end": 140
+  "translation_ja": "三蔵たちは数日歩いて鞏州城（きょうしゅうじょう）へ着いた。鞏州（きょうしゅう）に属する官吏たちが早くも出迎え、城内へ案内した。一晩休み、翌朝また城を出て進む。道中、空腹になれば食べ、渇けば飲み、夜は泊まり、夜明けには歩いた。二、三日で、今度は河州衛（かしゅうえい）に着いた。ここは大唐（だいとう）の国土の境である。国境を守る総兵（そうへい）と土地の僧や道士（どうし）は、天子の勅使である御弟法師（ぎょていほうし）が、西方へ仏に会いに行くのだと聞き、誰もが敬意を尽くした。中へ迎えてもてなし、僧綱（そうごう）に命じて福原寺（ふくげんじ）へ案内させ、休ませることにした。寺の僧たちは一人ずつ挨拶に出て、夕餉の精進料理を整えた。食事を終えると、三蔵は二人の従者に、馬へ十分に飼葉を与え、夜が明けぬうちに出立するよう言いつけた。"
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "『河州衛』『總兵』『僧綱』などの制度名は、唐代という物語設定と時代差があっても底本どおり残した。河州衛をここで国境といいながら後段も唐領とされる地理は、独自に整合させない。"
+- "id": "xy-ch13-010"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "及雞方鳴，隨喚從者，卻又驚動寺僧，整治茶湯齋供。齋罷，出離邊界。這長老心忙，太起早了。原來此時秋深時節，雞鳴得早，只好有四更天氣。一行三人，連馬四口，迎著清霜，看著明月，行有數十里遠近，見一山嶺，只得撥草尋路，說不盡崎嶇難走，又恐怕錯了路徑。正疑思之間，忽然失足，三人連馬都跌落坑坎之中。三藏心慌，從者膽戰。卻才悚懼，又聞得裡面哮吼高呼，叫：「拿將來！拿將來！」只見狂風滾滾，擁出五六十個妖邪，將三藏、從者揪了上去。這法師戰戰兢兢的偷眼觀看，上面坐的那魔王十分兇惡。真個是："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 141
+    "line_end": 141
+  "translation_ja": |-
+    鶏が鳴くや、三蔵は従者を呼び起こした。それで寺の僧たちも目を覚まし、茶湯と精進の食事を用意した。食事を済ませ、一行は国境を越えた。この三蔵、気が急くあまり、起きるのが早すぎたのである。何しろ秋の深い時節は鶏が早く鳴くので、まだ四更（しこう）ごろにすぎなかった。人間三人と馬一頭の一行は、冷たい霜を迎え、明月を仰ぎながら、数十里ほど進んだ。山の尾根が見え、草をかき分けて道を探すほかなかった。道は言いようもなく険しく歩きづらいうえ、道を間違えたのではないかと気にかかる。疑い迷っているうちに、ふと足を滑らせ、三人とも馬もろとも穴の中へ落ちてしまった。三蔵は慌てふためき、従者は震え上がった。恐れおののいていると、奥から吠えるような大声がした。
+    話者不明「連れてこい！　連れてこい！」
+    たちまち荒れ狂う風に押し出されるように五、六十匹の妖怪が現れ、三蔵と従者を引っつかんで上へ連れていった。三蔵が震えながらそっと目を上げると、上座に座る魔王は実に恐ろしい。まさしく、
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "洞内から『拿將來』と命じる個人は原文に明記されない。魔王へ断定せず『話者不明』とした。"
+- "id": "xy-ch13-011"
+  "section_id": "chapter-13"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "雄威身凜凜，猛氣貌堂堂。電目飛光艷，雷聲振四方。鋸牙舒口外，鑿齒露腮旁。錦繡圍身體，文斑裹脊梁。鋼鬍稀見肉，鉤爪利如霜。東海黃公懼，南山白額王。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 143
+    "line_end": 143
+  "translation_ja": "威勢は雄々しく、体は凜として、猛々しい気をまとい、姿は堂々としている。目は稲妻の光を放ち、声は雷のように四方を震わせる。鋸のような牙が口の外へ突き出し、鑿のような歯が頬の脇にのぞく。錦のような模様が身を巡り、斑の紋が背を包む。鋼のようなひげに肌も隠れ、鉤の爪は霜の刃さながら。東海黄公（とうかいこうこう）さえ恐れる、南山（なんざん）の白額の王である。"
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "『東海黃公』は虎を制する幻術師が結局虎に殺されるという故事を踏まえる。南山の白額の王は虎の詩的呼称であり、固有の別妖怪を登場させない。"
+- "id": "xy-ch13-012"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "諕得個三藏魂飛魄散，二從者骨軟筋麻。魔王喝令綁了。眾妖一齊將三人用繩索綁縛。正要安排吞食，只聽得外面喧嘩，有人來報：「熊山君與特處士二位來也。」三藏聞言，擡頭觀看，前走的是一條黑漢。你道他是怎生模樣："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 145
+    "line_end": 145
+  "translation_ja": |-
+    三蔵は魂も消し飛ぶほど驚き、二人の従者は骨も筋も力を失った。魔王が縛れと命じると、妖怪たちは一斉に三人を縄で縛り上げた。これから食ってやろうと支度するところへ、外が騒がしくなり、報告に来る者があった。
+    報告者「熊山君（ゆうさんくん）と特処士（とくしょし）のお二方がおいでです。」
+    三蔵はそれを聞いて顔を上げた。先に来るのは色の黒い大男。どのような姿かといえば、
+  "translation_status": "reviewed"
+- "id": "xy-ch13-013"
+  "section_id": "chapter-13"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    雄豪多膽量，輕健夯身軀。
+    涉水惟兇力，跑林逞怒威。
+    向來符吉夢，今獨露英姿。
+    綠樹能攀折，知寒善諭時。
+    准靈惟顯處，故此號山君。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 147
+    "line_end": 151
+  "translation_ja": |-
+    雄々しく豪胆、肝も太く、頑丈な体で身は軽い。
+    水を渡れば猛力を頼み、林を駆ければ怒りの威を振るう。
+    古くから吉夢のしるしとなり、今ひとりその雄姿を現す。
+    緑の木々をよじ登り折り、寒さを知って時節をよく悟る。
+    霊妙な力の現れも確かゆえ、山君（さんくん）という名を持つ。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "『向來符吉夢』は熊の夢を男子誕生の吉兆とする伝統に関係するが、本文の吉夢以上の説明は訳詩に加えなかった。"
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "『准靈惟顯處』の語構成は未詳。准靈を霊妙な力が確かに現れる意と解して全句を訳したが、独立校訂は未了。"
+- "id": "xy-ch13-014"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "又見那後邊來的是一條胖漢。你道怎生模樣："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 152
+    "line_end": 152
+  "translation_ja": "また、その後から来るのは太った大男だった。どんな姿かといえば、"
+  "translation_status": "reviewed"
+- "id": "xy-ch13-015"
+  "section_id": "chapter-13"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    嵯峨雙角冠，端肅聳肩背。
+    性服青衣穩，蹄步多遲滯。
+    宗名父作牯，原號母稱牸。
+    能為田者功，因名特處士。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 154
+    "line_end": 157
+  "translation_ja": |-
+    高々とそびえる二本の角を冠とし、肩も背もいかめしく盛り上がる。
+    青い衣に身を落ち着け、蹄の歩みはいつもゆったりしている。
+    その一族、父は牯（こ）と呼ばれ、母の名は牸（じ）という。
+    田を耕す者に力を貸せるので、名づけて特処士という。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "『性服青衣穩』は文法・字面に疑問を残す。底本を改めず、青い衣に身を落ち着ける姿として訳した。牯・牸はそれぞれ雄牛・雌牛の古語として保持する。"
+- "id": "xy-ch13-016"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "這兩個搖搖擺擺，走入裡面，慌得那魔王奔出迎接。熊山君道：「寅將軍一向得意，可賀，可賀。」特處士道：「寅將軍丰姿勝常，真可喜，真可喜。」魔王道：「二公連日如何？」山君道：「惟守素耳。」處士道：「惟隨時耳。」三個敘罷，各坐談笑。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 159
+    "line_end": 159
+  "translation_ja": |-
+    この二人がゆさゆさと身を揺らして奥へ入ると、魔王はあわてて出迎えに走った。
+    熊山君「寅将軍（いんしょうぐん）、相変わらず景気がよいようだ。めでたい、めでたい。」
+    特処士「寅将軍、いつもに増して立派なお姿だ。実に喜ばしい、喜ばしい。」
+    寅将軍「お二人は、このところどうかね。」
+    熊山君「ただ、いつもの暮らしを守っているよ。」
+    特処士「ただ、時の流れに任せているよ。」
+    三人は挨拶を終えると、それぞれ座って笑い語らった。
+  "translation_status": "reviewed"
+- "id": "xy-ch13-017"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "只見那從者綁得痛切悲啼。那黑漢道：「此三者何來？」魔王道：「自送上門來者。」處士笑云：「可能待客否？」魔王道：「奉承，奉承。」山君道：「不可盡用，食其二，留其一可也。」魔王領諾，即呼左右，將二從者剖腹剜心，剁碎其屍：將首級與心肝奉獻二客，將四肢自食，其餘骨肉分給各妖。只聽得嘓啅之聲，真似虎啖羊羔，霎時食盡。把一個長老幾乎諕死。這才是初出長安第一場苦難。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 161
+    "line_end": 161
+  "translation_ja": |-
+    二人の従者は、縛られた痛みに悲しく泣いていた。
+    熊山君「この三人は、どこから来たのかね。」
+    寅将軍「自分から戸口へやって来たのさ。」
+    特処士は笑った。
+    特処士「客のもてなしに使えるかな。」
+    寅将軍「お出ししよう、お出ししよう。」
+    熊山君「全部使ってしまってはいかん。二人を食い、一人を残せばよい。」
+    寅将軍は承知し、すぐさま左右の者を呼びつけた。二人の従者の腹を裂き、心臓をえぐり、死体を切り刻ませた。首と心臓、肝臓は二人の客へ献じ、四肢は自分で食い、残りの骨肉は妖怪たちに分け与えた。聞こえるのは、くちゃくちゃと食らう音ばかり。まるで虎が子羊を食うように、たちまちすべて平らげた。三蔵は危うく恐怖のあまり死ぬところだった。これこそ、長安を出て最初の苦難であった。
+  "translation_status": "reviewed"
+- "id": "xy-ch13-018"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "正愴慌之間，漸漸的東方發白。那二怪至天曉方散，俱道：「今日厚擾，容日竭誠奉酬。」方一擁而退。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 163
+    "line_end": 163
+  "translation_ja": |-
+    三蔵が悲しみ怯えているうちに、東の空が少しずつ白んできた。二匹の妖怪は明け方になってようやく帰ることにし、そろって言った。
+    熊山君と特処士「今日は手厚くご馳走になった。いずれ日を改め、心を尽くしてお返ししよう。」
+    それから皆して引き揚げた。
+  "translation_status": "reviewed"
+- "id": "xy-ch13-019"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "不一時，紅日高昇，三藏昏昏沉沉，也辨不得東西南北。正在那不得命處，忽然見一老叟，手持拄杖而來。走上前，用手一拂，繩索皆斷。對面吹了一口氣，三藏方甦，跪拜於地道：「多謝老公公，搭救貧僧性命。」老叟答禮道：「你起來。你可曾疏失了甚麼東西？」三藏道：「貧僧的從人已是被怪食了。只不知行李、馬匹在於何處？」老叟用杖指道：「那廂不是一匹馬、兩個包袱？」三藏回頭看時，果是他的物件，並不曾失落，心才略放下些。問老叟曰：「老公公，此處是甚所在？公公何由在此？」老叟道：「此是雙叉嶺，乃虎狼巢穴處。你為何墮此？」三藏道：「貧僧雞鳴時，出河州衛界，不料起得早了，冒霜撥露，忽失落此地。見一魔王，兇頑太甚，將貧僧與二從者綁了。又見一條黑漢，稱是熊山君；一條胖漢，稱是特處士：走進來，稱那魔王是寅將軍。他三個把我二從者吃了，天光才散。不想我是那裡有這大緣大分，感得老公公來此救我？」老叟道：「處士者，是個野牛精；山君者，是個熊羆精；寅將軍者，是個老虎精。左右妖邪，盡都是山精樹鬼、怪獸蒼狼。只因你的本性元明，所以吃不得你。你跟我來，引你上路。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 164
+    "line_end": 164
+  "translation_ja": |-
+    ほどなく赤い太陽が高く昇った。三蔵は意識がもうろうとして、東西南北の見分けもつかない。生き延びようもないところへ、ふいに杖をついた老人がやって来た。老人がそばへ来て手を一振りすると、縄はすべて切れた。顔へ一息吹きかけると、三蔵はようやく正気づき、地にひざまずいて拝んだ。
+    三蔵「おじいさま、私の命を救ってくださり、ありがとうございます。」
+    老人は礼を返した。
+    老人「立ちなさい。何かなくした物はないかね。」
+    三蔵「私の従者は、もう妖怪に食われてしまいました。荷物と馬がどこにあるか、それだけ分かりません。」
+    老人は杖で指した。
+    老人「あちらにいるのが馬一頭、そのそばに包み二つではないかね。」
+    三蔵が振り返って見ると、確かに自分の持ち物で、何一つなくなっていなかった。それで少しだけ気が落ち着き、老人に尋ねた。
+    三蔵「おじいさま、ここは何という所ですか。どうしてこちらにおいでだったのでしょう。」
+    老人「ここは双叉嶺（そうされい）、虎や狼の巣くう所だ。お前はなぜここへ落ちたのかね。」
+    三蔵「鶏が鳴いたときに河州衛の境を出たのですが、思いがけず起きるのが早すぎました。霜と露をかき分けて進むうち、突然ここへ落ちたのです。すると、ひどく凶暴で頑なな魔王がいて、私と二人の従者を縛りました。その後、熊山君という黒い大男と、特処士という太った大男が来て、魔王を寅将軍と呼びました。三人で私の従者二人を食い、明るくなるまで帰りませんでした。私にどれほどの縁や福分があって、おじいさまが助けに来てくださったのでしょう。」
+    老人「処士（しょし）とは野牛の精、山君とは熊羆（ゆうひ）の精、寅将軍とは虎の精だ。周りの妖怪も、皆、山や木の精霊や、怪しい獣、青灰色の狼なのだよ。ただ、お前の本性がもともと明らかで清らかだったので、食べることができなかったのだ。私についておいで。道へ案内しよう。」
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "老人が述べる『本性元明』と食べられなかった理由は人物の説明として訳した。語り手の別の因果説明を付け加えない。"
+- "id": "xy-ch13-020"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "三藏不勝感激，將包袱捎在馬上，牽著韁繩，相隨老叟徑出了坑坎之中，走上大路。卻將馬拴在道旁草頭上，轉身拜謝那公公，那公公遂化作一陣清風，跨一隻硃頂白鶴，騰空而去。只見風飄飄遺下一張簡帖，書上四句頌子。頌子云："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 165
+    "line_end": 165
+  "translation_ja": "三蔵は感謝に堪えず、包みを馬へ載せ、手綱を取って老人についていった。まっすぐ穴から出て、大きな道へ上がった。そこで馬を道端の草むらにつなぎ、振り返って老人に礼をしようとすると、老人は一陣の清風となり、頭の赤い白鶴にまたがって空へ昇っていった。風にひらひらと一枚の書付が落ちてきた。そこには四句の頌（じゅ）が書かれていた。その頌にいう。"
+  "translation_status": "reviewed"
+- "id": "xy-ch13-021"
+  "section_id": "chapter-13"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    吾乃西天太白星，特來搭救汝生靈。
+    前行自有神徒助，莫為艱難報怨經。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 167
+    "line_end": 168
+  "translation_ja": |-
+    私は西天の太白星（たいはくせい）、お前の命を救おうと、わざわざここへ来たのだ。
+    この先では神通力ある弟子が助けよう。苦難のために、経を恨んではならぬ。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "四句の頌は書付であって、その場で音読する会話ではない。太白星の名乗りを保持し、会話用の話者ラベルは加えない。"
+- "id": "xy-ch13-022"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "三藏看了，對天禮拜道：「多謝金星，度脫此難。」拜畢，牽了馬匹，獨自個孤孤悽悽，往前苦進。這嶺上，真個是："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 170
+    "line_end": 170
+  "translation_ja": |-
+    三蔵は読み終えると、天に向かって礼拝した。
+    三蔵「金星（きんせい）さま、この難を救ってくださり、ありがとうございます。」
+    拝み終え、馬を引いて、ただ一人、寂しく心細いまま、苦労して先へ進んだ。この尾根の上は、まさしく、
+  "translation_status": "reviewed"
+- "id": "xy-ch13-023"
+  "section_id": "chapter-13"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "寒颯颯雨林風，響潺潺澗下水。香馥馥野花開，密叢叢亂石磊。鬧嚷嚷鹿與猿，一隊隊獐和麂。喧雜雜鳥聲多，靜悄悄人事靡。那長老，戰兢兢心不寧；這馬兒，力怯怯蹄難舉。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 172
+    "line_end": 172
+  "translation_ja": "雨に濡れた林の風は冷たく吹きすさび、谷底の水はさらさらと音を立てる。野の花はかぐわしく咲き、乱れた岩はぎっしり重なる。鹿と猿は騒ぎ立ち、牙のある獐（しょう）や小型の鹿である麂（き）は群れをなす。鳥の声ばかりが入り乱れ、人の営みはひっそりと絶えている。あの三蔵は、びくびくして心が休まらず、この馬は、おずおずとして蹄も上げられぬ。"
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "獐・麂は古典の獣名として区別し、現生種を厳密に同定したとは扱わない。"
+- "id": "xy-ch13-024"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "三藏捨身拚命，上了那峻嶺之間。行經半日，更不見個人煙村舍。一則腹中饑了，二則路又不平。正在危急之際，只見前面有兩隻猛虎咆哮，後邊有幾條長蛇盤繞。左有毒蟲，右有怪獸。三藏孤身無策，只得放下身心，聽天所命。又無奈那馬腰軟蹄彎，即便跪下，伏倒在地，打又打不起，牽又牽不動。苦得個法師襯身無地，真個有萬分悽楚，已自分必死，莫可奈何。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 174
+    "line_end": 174
+  "translation_ja": "三蔵は身を捨てる覚悟で、命懸けで険しい尾根へ登った。半日進んでも、村も家も、人の煙も見えない。腹は空くし、道は険しい。その危うい折も折、前には二匹の猛虎が吠え、後ろには何匹もの大蛇がとぐろを巻いていた。左には毒虫、右には怪しい獣。三蔵は独りきりでなす術もなく、身も心も投げ出して天の定めに任せるしかなかった。おまけに馬まで腰が抜け、脚が折れ曲がり、その場にひざまずいて倒れてしまった。打っても立たず、引いても動かない。三蔵は身を置く所さえなく、言いようもない心細さに、もう死ぬものと覚悟を決め、どうすることもできなかった。"
+  "translation_status": "reviewed"
+- "id": "xy-ch13-025"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "卻說他雖有災迍，卻有救應。正在那不得命處，忽然見毒蟲奔走，妖獸飛逃，猛虎潛蹤，長蛇隱跡。三藏擡頭看時，只見一人，手執鋼叉，腰懸弓箭，自那山坡前轉出，果然是一條好漢。你看他："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 175
+    "line_end": 175
+  "translation_ja": "さて、災難はあっても、それを救う者はいるものだ。命も尽きようというそのとき、急に毒虫が走り去り、怪獣は飛ぶように逃げ、猛虎も大蛇も姿を隠した。三蔵が顔を上げると、一人の男が鋼の叉（さ）を手にし、腰に弓矢を帯びて、山の斜面の向こうから現れた。実に見事な男である。その姿は、"
+  "translation_status": "reviewed"
+- "id": "xy-ch13-026"
+  "section_id": "chapter-13"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "頭上戴一頂艾葉花斑豹皮帽，身上穿一領羊絨織錦叵羅衣，腰間束一條獅蠻帶，腳下屣一對麂皮靴。環眼圓睛如弔客，圈鬚亂擾似河奎。懸一囊毒藥弓矢，拿一桿點鋼大叉。雷聲震破山蟲膽，勇猛驚殘野雉魂。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 177
+    "line_end": 177
+  "translation_ja": "頭には艾（よもぎ）の葉に似た斑模様の豹皮の帽子、身には羊毛で錦模様を織り出した叵羅衣（はらい）、腰には獅蛮帯（しばんたい）を締め、足には麂皮の靴を履く。見開いた丸い眼は弔客（ちょうきゃく）のようで、顎を巡る乱れたひげは河奎（かけい）に似る。毒矢を入れた矢筒と弓を吊り、手には上質の鋼で作った大叉一本。雷のような声は虎の胆を砕き、その勇猛さは野の雉の魂を震わせる。"
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "『叵羅衣』はこの箇所で羊毛の錦織りと説明される服名。裁断・形状は確定せず、名称と原文の材質を残した。"
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "『弔客』『河奎』は恐ろしい容貌を表す神名の比喩。河奎は通常の河魁へ無断訂正しない。河奎という字面全体の日本語慣用読みは未確認。"
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "『山蟲』はこの文脈では虎の俗称で、昆虫ではない。"
+- "id": "xy-ch13-027"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "三藏見他來得漸近，跪在路傍，合掌高叫道：「大王救命！大王救命！」那條漢到邊前，放下鋼叉，用手攙起道：「長老休怕。我不是歹人，我是這山中的獵戶，姓劉名伯欽，綽號鎮山太保。我才自來，要尋兩隻山蟲食用。不期遇著你，多有衝撞。」三藏道：「貧僧是大唐駕下欽差，往西天拜佛求經的和尚。適間來到此處，遇著些狼虎蛇蟲，四邊圍繞，不能前進。忽見太保來，眾獸皆走，救了貧僧性命，多謝，多謝。」伯欽道：「我在這裡住人，專倚打些狼虎為生，捉些蛇蟲過活，故此眾獸怕我走了。你既是唐朝來的，與我都是鄉里。此間還是大唐的地界，我也是唐朝的百姓，我和你同食皇王的水土，誠然是一國之人。你休怕，跟我來，到我舍下歇馬，明朝我送你上路。」三藏聞言，滿心歡喜，謝了伯欽，牽馬隨行。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 179
+    "line_end": 179
+  "translation_ja": |-
+    男が近づいてくるのを見て、三蔵は道の脇にひざまずき、合掌して大声で叫んだ。
+    三蔵「大王、命をお助けください！　大王、お助けください！」
+    男はそばへ来ると鋼の叉を置き、手を取って起こした。
+    狩人「長老、怖がることはありません。私は悪者ではなく、この山の猟師です。姓は劉（りゅう）、名は伯欽（はくきん）、あだ名を鎮山太保（ちんざんたいほ）といいます。食うために虎を二匹ほど探そうと来たところ、思いがけずあなたに会いました。驚かせてしまいましたね。」
+    三蔵「私は大唐の天子より遣わされ、西天へ仏を拝み、経を求めに行く僧です。先ほどここへ来たところ、狼や虎、蛇や毒虫に四方を囲まれ、進むこともできませんでした。太保（たいほ）が現れると、獣はみな逃げました。私の命をお救いくださり、ありがとうございます。ありがとうございます。」
+    劉伯欽（りゅうはくきん）「私はここに住み、狼や虎を狩ることだけを頼りに暮らし、蛇や虫を捕って生きています。ですから獣どもは私を恐れて逃げたのです。あなたが唐（とう）からおいでなら、私と同郷です。この辺りはまだ大唐の領内で、私も唐の民です。同じ天子の水と土に養われる、まさしく同じ国の人間なのです。怖がらずについておいでなさい。私の家で馬を休め、明日は私が道まで送りましょう。」
+    三蔵は聞いて心から喜び、劉伯欽に礼を述べ、馬を引いてついていった。
+  "translation_status": "reviewed"
+- "id": "xy-ch13-028"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "過了山坡，又聽得呼呼風響。伯欽道：「長老休走，坐在此間。風響處，是個山貓來了，等我拿他家去管待你。」三藏見說，又膽戰心驚，不敢舉步。那太保執了鋼叉，拽開步，迎將上去。只見一隻斑斕虎，對面撞見，他看見伯欽，急回頭就走。這太保霹靂一聲，咄道：「那業畜那裡走！」那虎見趕得急，轉身掄爪撲來。這太保三股叉舉手迎敵。諕得個三藏軟癱在草地。這和尚自出娘肚皮，那曾見這樣凶險的勾當。太保與那虎在那山坡下，人虎相持，果是一場好鬥。但見："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 180
+    "line_end": 180
+  "translation_ja": |-
+    山の斜面を越えると、また、ううっと風の鳴る音が聞こえた。
+    劉伯欽「長老、歩くのをやめて、ここに座っていてください。あの風の鳴る所から、山猫が来ます。捕まえて家へ持ち帰り、あなたにご馳走しましょう。」
+    それを聞いた三蔵は、またも肝を冷やして震え、足を動かせなかった。劉伯欽は鋼の叉を握り、大股で向かっていった。現れた一匹の斑のある虎は、真正面で劉伯欽を見るや、あわてて向きを変えて逃げ出した。劉伯欽は雷が落ちるような声で怒鳴った。
+    劉伯欽「この畜生、どこへ逃げる！」
+    虎は激しく追い立てられると、振り向きざまに爪を振り上げ、飛びかかってきた。劉伯欽は三つ又の叉を上げて迎え撃つ。三蔵は怖さのあまり、草の上にへなへなと崩れ落ちた。この僧は母の腹から生まれてこのかた、こんな危険な仕業を見たことなどなかった。山の斜面の下で、劉伯欽と虎は一歩も譲らず、まことに見事な戦いとなった。そのさまは、
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "劉伯欽がいう『山猫』はここでは虎の呼び名。大きな猫の別種が登場したと読み替えない。030の同じ呼び方も保持した。"
+- "id": "xy-ch13-029"
+  "section_id": "chapter-13"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "怒氣紛紛，狂風滾滾。怒氣紛紛，太保沖冠多膂力；狂風滾滾，斑彪逞勢噴紅塵。那一個張牙舞爪，這一個轉步回身。三股叉擎天幌日，千花尾擾霧雲飛。這一個當胸亂刺，那一個劈面來吞。閃過的再生人道，撞著的定見閻君。只聽得那斑彪哮吼，太保聲狠。斑彪哮吼，振裂山川驚鳥獸；太保聲狠，喝開天府現星辰。那一個金睛怒出，這一個壯膽生嗔。可愛鎮山劉太保，堪誇據地獸之君。人虎貪生爭勝負，些兒有慢喪三魂。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 182
+    "line_end": 182
+  "translation_ja": "怒気は湧き立ち、狂風は渦巻く。怒気は湧き立ち、太保は髪も冠を突き上げんばかりに腕力を振るう。狂風は渦巻き、斑の虎は威を張って土ぼこりを吹き上げる。一方は牙をむいて爪を振るい、一方は足を運び身をひるがえす。三つ又の叉は天を支え、日にきらめき、千の模様を持つ尾は霧をかき乱し、雲を飛ばす。こちらは胸元をしきりに突き、あちらは顔をめがけて食いつこうとする。かわした者は人の世に生き残り、当たった者は必ず閻君（えんくん）にまみえる。聞こえるのは、斑の虎の吠え声と、太保の厳しい叫び。斑の虎が吠えれば、山川も裂けんばかりに震え、鳥獣は驚く。太保が声を張れば、天の御殿も開いて星々が現れる。一方は金色の眼を怒りにむき出し、一方は肝を据え、いよいよ怒る。見事なのは山を鎮める劉太保（りゅうたいほ）、称えるべきは土地を占める獣の王。人も虎も生に執着して勝負を争い、わずかでも気を緩めれば三魂（さんこん）を失う。"
+  "translation_status": "reviewed"
+- "id": "xy-ch13-030"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "他兩個鬥了有一個時辰，只見那虎爪慢腰鬆，被太保舉叉平胸刺倒。可憐啊，鋼叉尖穿透心肝，霎時間血流滿地。揪著耳朵，拖上路來。好男子，氣不連喘，面不改色，對三藏道：「造化，造化。這隻山貓，夠長老食用一日。」三藏誇讚不盡道：「太保真山神也！」伯欽道：「有何本事，敢勞過獎？這個是長老的洪福。去來，趕早兒剝了皮，煮些肉，管待你也。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 183
+    "line_end": 183
+  "translation_ja": |-
+    一人と一匹は一時辰（いちじしん）ほど戦った。やがて虎の爪の動きが鈍り、腰にも力がなくなると、劉伯欽は叉を上げ、真正面から胸を突いて倒した。あわれ、鋼の叉の先は心臓と肝臓を貫き、たちまち地面は血で覆われた。劉伯欽はその耳をつかんで、道まで引きずり上げた。なんという男だろう。息を切らせることもなく、顔色も変えずに三蔵へ言った。
+    劉伯欽「運がよい、運がよい。この山猫がいれば、長老の一日分の食事になります。」
+    三蔵は褒めても褒めても褒め足りなかった。
+    三蔵「太保は、まことに山の神でいらっしゃる！」
+    劉伯欽「たいした腕でもありませんのに、そんなにお褒めいただいては。これも長老の大きな福のおかげです。さあ行きましょう。早く皮を剥ぎ、肉を煮てご馳走しましょう。」
+  "translation_status": "reviewed"
+- "id": "xy-ch13-031"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "他一隻手執著叉，一隻手拖著虎，在前引路。三藏牽著馬，隨後而行。迤\U000284E6行過山坡，忽見一座山莊。那門前真個是："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 185
+    "line_end": 185
+  "translation_ja": "劉伯欽は一方の手に叉を握り、もう一方で虎を引きずり、先に立って道を案内した。三蔵は馬を引き、後について歩く。山の斜面を曲がりくねりながら越えていくと、ふいに一軒の山荘が見えた。その門前は、まさしく、"
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "稀字を含む『迤\U000284E6』を原文に保持し、曲がりくねりながら進む様子として訳した。"
+- "id": "xy-ch13-032"
+  "section_id": "chapter-13"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "參天古樹，漫路荒籐。萬壑風塵冷，千崖氣象奇。一徑野花香襲體，數竿幽竹綠依依。草門樓，籬笆院，堪描堪畫；石板橋，白土壁，真樂真稀。秋容蕭索，爽氣孤高。道傍黃葉落，嶺上白雲飄。疏林內山禽聒聒，莊門外細犬嘹嘹。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 187
+    "line_end": 187
+  "translation_ja": "古木は天に届き、野の蔓は道を覆う。幾万の谷は風も土ぼこりも冷たく、幾千の崖はひときわ奇景をなす。一本道の野の花は香りで身を包み、数本の奥深い竹は緑をたたえてそよいでいる。草葺きの門楼と垣根の庭は絵に描きたいほど、石板の橋と白い土壁は、まことに楽しく世にもまれ。秋景色はもの寂しく、澄んだ気はひとり高い。道端には黄葉が落ち、尾根の上には白雲が漂う。まばらな林では山鳥がかしましく、山荘の門外では細身の猟犬が高く鳴く。"
+  "translation_status": "reviewed"
+- "id": "xy-ch13-033"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "伯欽到了門首，將死虎擲下，叫：「小的們何在？」只見走出三四個家僮，都是怪形惡相之類，上前拖拖拉拉，把隻虎扛將進去。伯欽吩咐教趕早剝了皮，安排將來待客。復回頭迎接三藏進內，彼此相見，三藏又拜謝伯欽厚恩憐憫救命。伯欽道：「同鄉之人，何勞致謝。」坐定茶罷，有一老嫗領著一個媳婦，對三藏進禮。伯欽道：「此是家母、小妻。」三藏道：「請令堂上坐，貧僧奉拜。」老嫗道：「長老遠客，各請自珍，不勞拜罷。」伯欽道：「母親啊，他是唐王駕下，差往西天見佛求經者。適間在嶺頭上遇著孩兒，孩兒念一國之人，請他來家歇馬，明日送他上路。」老嫗聞言，十分懽喜道：「好，好，好。就是請他，不得這般恰好。明日你父親週忌，就浼長老做些好事，念卷經文，到後日送他去罷。」這劉伯欽雖是一個殺虎手，鎮山的太保，他卻有些孝順之心。聞得母言，就要安排香紙，留住三藏。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 188
+    "line_end": 188
+  "translation_ja": |-
+    劉伯欽は門口へ着くと、死んだ虎を投げ下ろして呼んだ。
+    劉伯欽「お前たち、どこにいる！」
+    三、四人の召使いが出てきた。いずれも異様な姿、恐ろしい顔つきで、虎を引いたり押したりしながら、担いで中へ運んでいった。劉伯欽は、早く皮を剥いで客をもてなす支度をせよと言いつけた。それから振り返って三蔵を家へ迎え入れた。互いに礼を交わすと、三蔵は哀れんで命を救ってくれた厚い恩を、改めて拝謝した。
+    劉伯欽「同郷の者同士、何をお礼など。」
+    座って茶を飲むと、一人の老女が嫁を連れて来て、三蔵へ礼をした。
+    劉伯欽「こちらは私の母と妻です。」
+    三蔵「お母上には、どうか上座へ。私から拝礼いたします。」
+    劉伯欽の母「長老は遠くからのお客さまです。お互いお気遣いなく、拝礼には及びません。」
+    劉伯欽「母上、この方は唐王のお使いで、西天へ仏に会い、経を求めに行かれるのです。先ほど尾根で私と出会いました。同じ国の方なので、家へお招きして馬を休めていただき、明日、道までお送りするつもりです。」
+    母はそれを聞き、たいそう喜んだ。
+    劉伯欽の母「それはよい、それはよい。本当にありがたい。こちらからお招きしたって、こんなによい巡り合わせにはならないよ。明日はお前の父さんの年忌だから、長老にお願いして供養をしていただき、お経を一巻読んでいただこう。お送りするのは明後日におし。」
+    この劉伯欽、虎を殺す腕を持つ鎮山太保ではあっても、親を敬う心も持ち合わせていた。母の言葉を聞くと、香と紙銭（しせん）を用意して、三蔵に留まってもらうことにした。
+  "translation_status": "reviewed"
+- "id": "xy-ch13-034"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "說話間，不覺的天色將晚。小的們排開桌凳，拿幾盤爛熟虎肉，熱騰騰的放在上面。伯欽請三藏權用，再另辦飯。三藏合掌當胸道：「善哉！貧僧不瞞太保說，自出娘胎，就做和尚，更不曉得吃葷。」伯欽聞得此說，沉吟了半晌道：「長老，寒家歷代以來，不曉得吃素。就是有些竹筍，採些木耳，尋些乾菜，做些豆腐，也都是獐鹿虎豹的油煎，卻無甚素處。有兩眼鍋灶，也都是油膩透了。這等奈何？反是我請長老的不是。」三藏道：「太保不必多心，請自受用。我貧僧就是三五日不吃飯，也可忍餓，只是不敢破了齋戒。」伯欽道：「倘或餓死，卻如之何？」三藏道：「感得太保天恩，搭救出虎狼叢裡，就是餓死，也強如喂虎。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 189
+    "line_end": 189
+  "translation_ja": |-
+    話しているうちに、いつしか日が暮れかけた。召使いたちは卓と腰掛けを並べ、よく煮えた虎肉を幾皿も、湯気を上げたまま載せた。劉伯欽は三蔵に、ひとまずこれを食べてもらい、飯は別に用意すると勧めた。三蔵は胸の前で合掌した。
+    三蔵「ああ、ありがたいことです。太保、隠さずに申しますが、私は母の腹から生まれて以来、ずっと僧の身で、肉を食べることなど知りません。」
+    劉伯欽はこれを聞き、しばらく考え込んだ。
+    劉伯欽「長老、私の家では代々、精進料理を食べたことがありません。たとえ筍があっても、木耳を採っても、干し菜を探しても、豆腐を作っても、みな獐や鹿、虎や豹の脂で炒めますから、精進といえるものはないのです。鍋釜も二口ありますが、どちらも脂が染みついています。これはどうしたものでしょう。私がお招きしたのが、かえって悪かった。」
+    三蔵「太保、どうかお気遣いなく。ご自分は召し上がってください。私は三日や五日食べなくても、飢えには耐えられます。ただ、斎戒（さいかい）を破るわけにはまいりません。」
+    劉伯欽「もし飢え死になさったら、どうするのです。」
+    三蔵「太保の天にも等しいお恵みで、虎や狼の群れから救い出していただいたのです。たとえ飢え死にしても、虎の餌になるよりはましです。」
+  "translation_status": "reviewed"
+- "id": "xy-ch13-035"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "伯欽的母親聞說，叫道：「孩兒不要與長老閑講，我自有素物，可以管待。」伯欽道：「素物何來？」母親道：「你莫管我，我自有素的。」叫媳婦將小鍋取下，著火燒了油膩，刷了又刷，洗了又洗，卻仍安在灶上。先燒半鍋滾水，別用。卻又將些山地榆葉子，著水煎作茶湯。然後將些黃粱粟米，煮起飯來。又把些乾菜煮熟。盛了兩碗，拿出來鋪在桌上。老母對著三藏道：「長老請齋。這是老身與兒婦，親自動手整理的些極潔極淨的茶飯。」三藏下來謝了，方才上坐。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 191
+    "line_end": 191
+  "translation_ja": |-
+    劉伯欽の母はそれを聞き、声をかけた。
+    劉伯欽の母「お前は長老とそんな話をしていないでおくれ。私に精進の食べ物の当てがあるから、おもてなしできるよ。」
+    劉伯欽「精進の食べ物が、どこにあるのです。」
+    劉伯欽の母「私に任せておきなさい。ちゃんと精進のものがあるよ。」
+    母は嫁に小鍋を取り外させ、火にかけて脂を焼き切らせた。何度もこすり、何度も洗って、また竈に据えた。まず鍋に半分ほど湯を沸かし、別の用に取っておく。それから山地榆（さんちゆ）の葉を水で煎じて茶とし、黄粱（こうりょう）と粟米（ぞくべい）を炊き、さらに干し菜を煮た。飯と菜を二つの碗によそい、運び出して卓に並べると、母は三蔵へ言った。
+    劉伯欽の母「長老、どうぞお召し上がりください。私と嫁が自分たちの手で、たいそう清く、きれいに整えた茶と食事でございます。」
+    三蔵はいったん席を下りて礼をし、それから席に着いた。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "底本の『山地榆』は茶に煎じる葉の植物名として残した。地榆の薬草名か、山の榆をいうか、具体的な植物種の同定は留保する。"
+- "id": "xy-ch13-036"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "那伯欽另設一處，鋪排些沒鹽沒醬的老虎肉、香獐肉、蟒蛇肉、狐狸肉、兔肉，點剁鹿肉乾巴，滿盤滿碗的陪著三藏吃齋。方坐下，心欲舉箸，只見三藏合掌誦經，諕得個伯欽不敢動箸，急起身立在旁邊。三藏念不數句，卻教請齋。伯欽道：「你是個念短頭經的和尚？」三藏道：「此非是經，乃是一卷揭齋之咒。」伯欽道：「你們出家人，偏有許多計較，吃飯便也念誦念誦。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 192
+    "line_end": 192
+  "translation_ja": |-
+    劉伯欽は別の場所にも膳を設けた。塩も醤も使っていない虎肉、麝香（じゃこう）を持つ獐の肉、大蛇の肉、狐の肉、兎の肉を並べ、干した鹿肉を少し刻んで、皿にも碗にもいっぱいに盛り、三蔵の精進の食事につき合った。座って箸を上げようとすると、三蔵が合掌してお経を唱えている。劉伯欽は驚いて箸をつけられず、あわてて立ち上がり、脇に控えた。三蔵は数句唱えただけで、食事を勧めた。
+    劉伯欽「あなたは、短いお経を唱えるお坊さまなのですか。」
+    三蔵「これはお経ではなく、食事を始めるための揭斎（けいさい）の呪です。」
+    劉伯欽「あなた方出家の人には、まったくいろいろと決まりがある。飯を食うにも、唱えごとをするのですね。」
+  "translation_status": "reviewed"
+- "id": "xy-ch13-037"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "吃了齋飯，收了盤碗，漸漸天晚。伯欽引著三藏出中宅，到後邊走走。穿過夾道，有一座草亭。推開門，入到裡面。只見那四壁上掛幾張強弓硬弩，插幾壺箭；過梁上搭兩塊血腥的虎皮；牆根頭插著許多槍刀叉棒；正中間設兩張坐器。伯欽請三藏坐坐。三藏見這般兇險腌臢，不敢久坐，遂出了草亭。又往後再行，是一座大園子，卻看不盡那叢叢菊蕊堆黃，樹樹楓楊掛赤。又見呼的一聲，跑出十來隻肥鹿，一大陣黃獐，見了人，呢呢痴痴，更不恐懼。三藏道：「這獐鹿想是太保養家了的？」伯欽道：「似你那長安城中人家，有錢的集財寶，有莊的集聚稻糧。我們這打獵的，只得聚養些野獸，備天陰耳。」他兩個說話閑行，不覺黃昏，復轉前宅安歇。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 194
+    "line_end": 194
+  "translation_ja": |-
+    食事を終え、皿や碗を片づけるうち、夕暮れが迫った。劉伯欽は三蔵を母屋から連れ出し、裏手を散歩した。細い通路を抜けると、草葺きの小屋があった。戸を押して中へ入ると、四方の壁には強い弓や硬い弩（ど）が何張も掛かり、矢筒も幾つか挿してあった。梁には血なまぐさい虎の皮が二枚掛けられ、壁際には槍、刀、叉、棒が数多く立てかけてある。中央には腰掛けが二つ置かれていた。劉伯欽は三蔵に座って休むよう勧めたが、三蔵は、これほど物騒で汚れたさまを見て長居する気になれず、小屋を出た。さらに裏へ進むと、大きな庭があった。群れ咲く菊の花は黄を重ね、木々の楓や楊は赤い葉を垂らし、とても見尽くせない。すると、どっと十頭余りの肥えた鹿と、大群の黄色い獐が走り出てきた。人を見てもぼんやりとのんびりして、少しも怖がらない。
+    三蔵「この獐や鹿は、太保がお飼いになって、家に慣れたものでしょうか。」
+    劉伯欽「あなたのいた長安の家々では、金のある者は財宝をため、田畑を持つ者は米や穀物を蓄えますね。私たち猟師は、こうして獣を集めて飼い、雨の日に備えるしかないのです。」
+    二人は話しながらそぞろ歩き、気づけば黄昏となっていたので、表の家へ戻って休んだ。
+  "translation_status": "reviewed"
+- "id": "xy-ch13-038"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "次早，那合家老小都起來，就整素齋，管待長老，請開啟念經。這長老淨了手，同太保家堂前拈了香，拜了家堂。三藏方敲響木魚，先念了淨口業的真言，又念了淨身心的神咒，然後開《度亡經》一卷。誦畢，伯欽又請寫薦亡疏一道，再開念《金剛經》、《觀音經》。一一朗音高誦。誦畢，吃了午齋，又念《法華經》、《彌陀經》，各誦幾卷，又念一卷《孔雀經》，及談苾蒭洗業的故事，早又天晚。獻過了種種香火，化了眾神紙馬，燒了薦亡文疏。佛事已畢，又各安寢。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 195
+    "line_end": 195
+  "translation_ja": "翌朝、一家の老いも若きも皆起き出して、精進料理を作って三蔵をもてなし、読経の法要を始めてくれるよう頼んだ。三蔵は手を清め、劉伯欽とともに家の祖先を祭る堂で香を捧げ、礼拝した。それから木魚を打ち、まず口の業を清める真言、続いて身心を清める神呪（しんじゅ）を唱え、『度亡経（どもうきょう）』を一巻読んだ。読み終わると、劉伯欽は亡者を供養する疏文（しょもん）を一通書いてくれるよう頼んだ。さらに『金剛経（こんごうきょう）』と『観音経（かんのんきょう）』を開き、どれも朗々と高い声で読誦（どくじゅ）した。終わって昼の精進料理を食べると、『法華経（ほけきょう）』と『弥陀経（みだきょう）』をそれぞれ幾巻か読み、さらに『孔雀経（くじゃくきょう）』一巻を読み、苾芻（ひっしゅ）が業を洗い清めた故事を語った。そうするうち、もう日が暮れた。さまざまな香を供え、神々を描いた紙馬（しば）を焼き、亡者供養の疏文も焼いた。仏事がすべて終わり、それぞれ床に就いた。"
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "『度亡經』は亡者を救う経として訳し、特定の現存経典の正式名へ置き換えていない。"
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "『苾蒭』は比丘と同義。日本語側では通常の別表記『苾芻』を採用した。どの洗業の故事かは原文に詳細がなく、特定の物語を補わない。"
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "『紙馬』は祭祀で焼く神像などの紙を指すので、馬の姿だけを焼いたことにはしない。"
+- "id": "xy-ch13-039"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "卻說那伯欽的父親之靈，超薦得脫沉淪，鬼魂兒早來到自家宅內，托一夢與合宅長幼道：「我在陰司裡苦難難脫，日久不得超生。今幸得聖僧念了經卷，消了我的罪業，閻王差人送我上中華富地，長者人家托生去了。你們可好生謝送長老，不要怠慢，不要怠慢。我去也。」這才是：萬法莊嚴端有意，薦亡離苦出沉淪。那合家兒夢醒，又早太陽東上。伯欽的娘子道：「太保，我今夜夢見公公來家，說他在陰司苦難難脫，日久不得超生。今幸得聖僧念了經卷，消了他的罪業，閻王差人送他上中華富地，長者人家托生去，教我們好生謝那長老，不得怠慢他。說罷，徑出門，徉徜去了。我們叫他不應，留他不住。醒來卻是一夢。」伯欽道：「我也是那等一夢，與你一般。我們起去對母親說去。」他兩口子正欲去說，只見老母叫道：「伯欽孩兒，你來，我與你說話。」二人至前，老母坐在床上道：「兒啊，我今夜得了個喜夢，夢見你父親來家，說多虧了長老超度，已消了罪業，上中華富地，長者家去托生。」夫妻們俱呵呵大笑道：「我與媳婦皆有此夢，正來告稟，不期母親呼喚，也是此夢。」遂叫一家大小起來，安排謝意，替他收拾馬匹，都至前拜謝道：「多謝長老超薦我亡父脫難超生，報答不盡。」三藏道：「貧僧有何能處，敢勞致謝？」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 196
+    "line_end": 196
+  "translation_ja": |-
+    さて、劉伯欽の父の霊は、供養によって沈淪（ちんりん）の境から救い出され、早くもわが家へ戻ってきた。家じゅうの老いも若きも皆の夢枕に立って告げた。
+    劉伯欽の父の霊「私は冥府で苦しみから抜け出せず、長いあいだ生まれ変わることもできなかった。今、幸いにも聖僧が経を読んでくださったので、私の罪業は消えた。閻王（えんおう）が使いをつけ、中華（ちゅうか）の豊かな土地にある長者の家へ、私を生まれ変わらせてくださる。お前たちは長老へ心から礼を尽くし、お送りしてくれ。おろそかにするな、おろそかにするな。私は行くぞ。」
+    まさしく、
+    幾多の法を厳かに修するには確かな意味があり、亡者を供養して苦しみを離れさせ、沈淪の底から救い出す。
+    一家が夢から覚めると、もう東に朝日が昇っていた。
+    劉伯欽の妻「太保、今夜、お父さまが家へ帰ってこられる夢を見ました。冥府での苦しみから抜け出せず、長いあいだ生まれ変われなかったけれど、幸いにも聖僧が経を読んで罪業を消してくださったので、閻王が使いをつけ、中華の豊かな土地にある長者の家へ生まれ変わらせてくださる、とおっしゃいました。私たちには、長老へ十分に礼を尽くし、おろそかにしてはいけないと。そう言って、まっすぐ門を出て、ゆったりと去ってゆかれました。呼んでも返事はなく、引き留めても止められません。目が覚めてみれば、夢だったのです。」
+    劉伯欽「私も同じ夢を見た。あなたとまったく一緒だ。起きて母上へお伝えしよう。」
+    夫婦が話しに行こうとすると、母の声がした。
+    劉伯欽の母「伯欽、おいで。話があるよ。」
+    二人が行くと、母は寝台に座ったまま言った。
+    劉伯欽の母「お前、今夜はうれしい夢を見たよ。父さんが家へ帰ってきて、長老が供養してくださったおかげで罪業が消え、中華の豊かな土地の長者の家へ、生まれ変わりに行くと言ったのだよ。」
+    夫婦は二人とも、声を上げて笑った。
+    劉伯欽夫妻「私も妻もその夢を見て、ちょうどお知らせに参るところでした。母上に呼ばれて来てみれば、母上も同じ夢だったのですね。」
+    そこで一家をみな起こし、謝礼を整え、三蔵の馬の支度をし、そろって前に出て拝謝した。
+    劉伯欽の一家「長老、亡き父を供養し、苦難から救って生まれ変わらせてくださり、ありがとうございます。ご恩は返しても返しきれません。」
+    三蔵「私にどれほどの力がありましょう。どうしてお礼などいただけましょうか。」
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "『夫妻們俱…我與媳婦』は語り手の主語が夫婦複数なのに発言内は夫の言い方になる。合同ラベル『劉伯欽夫妻』を保持し、台詞も『私も妻も』として原文のずれを残した。"
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "一家で礼を述べる『都至前拜謝道』も、発言内では『我亡父』となる。『劉伯欽の一家』の合同発言とし、原文の『亡き父』を消さなかった。"
+- "id": "xy-ch13-040"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "伯欽把三口兒的夢話對三藏陳訴一遍，三藏也喜。早供給了素齋，又具白銀一兩為謝。三藏分文不受。一家兒又懇懇拜央，三藏畢竟分文未受。但道：「是你肯發慈悲送我一程，足感至愛。」伯欽與母妻無奈，急做了些粗麵燒餅乾糧，叫伯欽遠送。三藏歡喜收納。太保領了母命，又喚兩三個家僮，各帶捕獵的器械，同上大路。看不盡那山中野景，嶺上風光。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 197
+    "line_end": 197
+  "translation_ja": |-
+    劉伯欽が三人の見た夢を一通り三蔵へ語ると、三蔵も喜んだ。一家は早くも精進料理を供し、そのうえ白銀一両（りょう）を謝礼に用意した。三蔵は一文（もん）たりとも受け取らなかった。一家はまた熱心に拝んで願ったが、結局、三蔵は一文も受け取らず、ただ言った。
+    三蔵「慈悲のお心で、道をひと区切り送っていただければ、その厚いお心だけで十分ありがたいのです。」
+    劉伯欽も母も妻も仕方なく、急いで粗挽きの粉の焼餅（しょうへい）などの携帯食を作り、劉伯欽に遠くまで送るよう言いつけた。三蔵は喜んでそれを受け取った。劉伯欽は母の言いつけを受け、さらに二、三人の召使いを呼んで、それぞれ狩りの道具を持たせ、そろって大きな道へ出た。山の野趣も尾根の眺めも、見尽くせぬほどであった。
+  "translation_status": "reviewed"
+- "id": "xy-ch13-041"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "行經半日，只見對面處有一座大山，真個是高接青霄，崔巍險峻。三藏不一時到了邊前。那太保登此山如行平地，正走到半山之中，伯欽回身，立於路下道：「長老，請自前進，我卻告回。」三藏聞言，滾鞍下馬道：「千萬敢勞太保再送一程。」伯欽道：「長老不知。此山喚做兩界山，東半邊屬我大唐所管，西半邊乃是韃靼的地界。那廂狼虎不伏我降，我卻也不能過界，你自去罷。」三藏心驚，掄開手，牽衣執袂，滴淚難分。正在那叮嚀拜別之際，只聽得山腳下叫喊如雷道：「我師父來也！我師父來也！」諕得個三藏痴呆，伯欽打掙。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 199
+    "line_end": 199
+  "translation_ja": |-
+    半日ほど進むと、向かいに大きな山が現れた。青空にまで達するほど高く、険しくそびえ立っている。三蔵はほどなくその麓へ着いた。劉伯欽は平地を歩くように山を登り、ちょうど中腹へ来たとき、振り返って道の脇に立った。
+    劉伯欽「長老、ここからはご自分でお進みください。私はお別れして戻ります。」
+    三蔵はこれを聞くと、鞍から転げるように馬を下りた。
+    三蔵「どうか、どうか太保、もうひと区切りだけお送りください。」
+    劉伯欽「長老はご存じないのです。この山は両界山（りょうかいざん）といって、東半分はわが大唐の支配する土地、西半分は韃靼（だったん）の領地です。向こうの狼や虎は私に従いませんし、私も境を越えるわけにはいきません。お一人でお進みください。」
+    三蔵は胸を冷やし、両手を広げて劉伯欽の衣と袖をつかみ、涙を流して別れがたく思った。念を押し、礼をして別れようとする、そのときである。山の下から雷のような叫びが聞こえた。
+    山の下の声「俺のお師匠さまが来た！　俺のお師匠さまが来た！」
+    三蔵は驚いて茫然とし、劉伯欽は身構えた。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "末尾の叫びの正体はこの回の結語で次回へ保留される。発言者は『山の下の声』とし、後の回の人物名を先取りしない。"
+- "id": "xy-ch13-042"
+  "section_id": "chapter-13"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "畢竟不知是甚人叫喊，且聽下回分解。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch13-1500625"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第013回&oldid=1500625"
+    "line_start": 201
+    "line_end": 201
+  "translation_ja": "いったい何者が叫んだのか。それは次の回でお話ししよう。"
+  "translation_status": "reviewed"
+"groups":
+- "id": "poem-003"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch13-003"
+  "separator": |2+
+
+  "description_ja": "語り手による挿入韻文。全文を保持。"
+- "id": "poem-005"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch13-005"
+  "separator": |2+
+
+  "description_ja": "語り手による挿入韻文。全文を保持。"
+- "id": "poem-008"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch13-008"
+  "separator": |2+
+
+  "description_ja": "語り手による挿入韻文。全文を保持。"
+- "id": "poem-011"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch13-011"
+  "separator": |2+
+
+  "description_ja": "語り手による挿入韻文。全文を保持。"
+- "id": "poem-013"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch13-013"
+  "separator": |2+
+
+  "description_ja": "語り手による挿入韻文。全文を保持。"
+- "id": "poem-015"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch13-015"
+  "separator": |2+
+
+  "description_ja": "語り手による挿入韻文。全文を保持。"
+- "id": "poem-021"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch13-021"
+  "separator": |2+
+
+  "description_ja": "語り手による挿入韻文。全文を保持。"
+- "id": "poem-023"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch13-023"
+  "separator": |2+
+
+  "description_ja": "語り手による挿入韻文。全文を保持。"
+- "id": "poem-026"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch13-026"
+  "separator": |2+
+
+  "description_ja": "語り手による挿入韻文。全文を保持。"
+- "id": "poem-029"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch13-029"
+  "separator": |2+
+
+  "description_ja": "語り手による挿入韻文。全文を保持。"
+- "id": "poem-032"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch13-032"
+  "separator": |2+
+
+  "description_ja": "語り手による挿入韻文。全文を保持。"
+"workflow":
+  "stage": "reviewing"
+  "full_review":
+    "status": "in_progress"
+"provenance":
+  "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-013-source-1500625-zh-hant.txt"
+  "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-013-manifest-1500625.json"
+  "acquired_at": "2026-10-24"
+  "pretranslation_workflow": "ルートREADME、翻訳スキル、作品README、仕様を順に読み、固定版全文通読後、人物別口調ガイドを作成して翻訳。"
+  "source_normalization": "Wikisourceの固定リンクからoldid=1500625を確認し、Web取得の全234行を保存した。回次・回題117–118行、本文122–201行の空行以外を全て一度ずつ収録し、著者欄・前後回リンク・サイト案内は除外した。表示上の詩の字下げ4空白だけ除き、本文の文字・句読点・詩の行区切りを保持した。単一表示行の韻文へ原文改行は追加していない。"
+  "review_note": "固定版の全42単位を原文と照合し、独立したAI全文レビューの指摘4件（境を出る描写、客へのご馳走、席に着く動作、金銭のみの辞退）を修正して再照合。読み・意味・初出span・出典・全文ハッシュ・生成HTMLを検証。専門家による独立校訂は未実施で、解釈上の留保は残す。"
+  "lexicon_revision_ja": "人物名・地名・固有名・古典特有の難語の初出を本文で確認し、読みは語直後の括弧、採用する意味は同段落末に表示するgloss_jaへ分離。読みの確度は共通辞書の根拠に保持。初出位置は当原稿内のみへ記録。"
+"lexicon":
+  "dictionary_id": "xiyouji"
+  "file": "lexicons/xiyouji.yaml"
+  "first_occurrences":
+  - "entry_id": "xy-entry-0937"
+    "form_id": "xy-form-1489"
+    "segment_id": "xy-ch13-003"
+    "rendered_text": "唐王（とうおう）"
+    "gloss_ja": "唐の皇帝をいう呼称。玄奘の取経を支援する太宗。"
+    "translation_span":
+      "start": 4
+      "end": 6
+      "exact": "唐王"
+  - "entry_id": "xy-entry-0874"
+    "form_id": "xy-form-1167"
+    "segment_id": "xy-ch13-003"
+    "rendered_text": "玄奘（げんじょう）"
+    "gloss_ja": "唐から西天へ経典を求めに行く僧。三蔵の法名。"
+    "translation_span":
+      "start": 25
+      "end": 27
+      "exact": "玄奘"
+  - "entry_id": "xy-entry-0709"
+    "form_id": "xy-form-0923"
+    "segment_id": "xy-ch13-003"
+    "rendered_text": "霊鷲山（りょうじゅせん）"
+    "gloss_ja": "如来の住む霊妙な山。"
+    "translation_span":
+      "start": 79
+      "end": 82
+      "exact": "霊鷲山"
+  - "entry_id": "xy-entry-0306"
+    "form_id": "xy-form-0333"
+    "segment_id": "xy-ch13-003"
+    "rendered_text": "御車（みくるま）"
+    "gloss_ja": "帝王の乗る車を敬っていう語。"
+    "translation_span":
+      "start": 138
+      "end": 140
+      "exact": "御車"
+  - "entry_id": "xy-entry-1396"
+    "form_id": "xy-form-1616"
+    "segment_id": "xy-ch13-003"
+    "rendered_text": "加持（かじ）"
+    "gloss_ja": "仏の力を受けて支えられること。"
+    "translation_span":
+      "start": 165
+      "end": 167
+      "exact": "加持"
+  - "entry_id": "xy-entry-1397"
+    "form_id": "xy-form-1617"
+    "segment_id": "xy-ch13-003"
+    "rendered_text": "大空（だいくう）"
+    "gloss_ja": "ここでは天の空ではなく、仏教の空の悟りをいう。"
+    "translation_span":
+      "start": 175
+      "end": 177
+      "exact": "大空"
+  - "entry_id": "xy-entry-0874"
+    "form_id": "xy-form-1610"
+    "segment_id": "xy-ch13-004"
+    "rendered_text": "三蔵（さんぞう）"
+    "gloss_ja": "玄奘が取経に出立する際に授けられた称号。"
+    "translation_span":
+      "start": 2
+      "end": 4
+      "exact": "三蔵"
+  - "entry_id": "xy-entry-0938"
+    "form_id": "xy-form-1080"
+    "segment_id": "xy-ch13-004"
+    "rendered_text": "貞観（じょうがん）"
+    "gloss_ja": "唐の太宗の治世に用いられた年号。"
+    "translation_span":
+      "start": 12
+      "end": 14
+      "exact": "貞観"
+  - "entry_id": "xy-entry-0937"
+    "form_id": "xy-form-1079"
+    "segment_id": "xy-ch13-004"
+    "rendered_text": "太宗（たいそう）"
+    "gloss_ja": "唐の第二代皇帝、李世民。玄奘の取経を支援する。"
+    "translation_span":
+      "start": 35
+      "end": 37
+      "exact": "太宗"
+  - "entry_id": "xy-entry-0922"
+    "form_id": "xy-form-1063"
+    "segment_id": "xy-ch13-004"
+    "rendered_text": "長安（ちょうあん）"
+    "gloss_ja": "唐の都。現在の西安にあたる。"
+    "translation_span":
+      "start": 55
+      "end": 57
+      "exact": "長安"
+  - "entry_id": "xy-entry-1398"
+    "form_id": "xy-form-1618"
+    "segment_id": "xy-ch13-004"
+    "rendered_text": "法門寺（ほうもんじ）"
+    "gloss_ja": "長安の西方にあり、取経の旅に出た玄奘が宿泊する寺。"
+    "translation_span":
+      "start": 86
+      "end": 89
+      "exact": "法門寺"
+  - "entry_id": "xy-entry-1439"
+    "form_id": "xy-form-1670"
+    "segment_id": "xy-ch13-004"
+    "rendered_text": "住持（じゅうじ）"
+    "gloss_ja": "寺を管理し、僧たちを率いる住職。"
+    "translation_span":
+      "start": 105
+      "end": 107
+      "exact": "住持"
+  - "entry_id": "xy-entry-1440"
+    "form_id": "xy-form-1671"
+    "segment_id": "xy-ch13-004"
+    "rendered_text": "上房（じょうぼう）"
+    "gloss_ja": "寺の住持などが居る上等の部屋。"
+    "translation_span":
+      "start": 115
+      "end": 117
+      "exact": "上房"
+  - "entry_id": "xy-entry-1441"
+    "form_id": "xy-form-1672"
+    "segment_id": "xy-ch13-005"
+    "rendered_text": "砧（きぬた）"
+    "gloss_ja": "布を木槌で打ち、柔らかくしたり艶を出したりするための台。"
+    "translation_span":
+      "start": 44
+      "end": 45
+      "exact": "砧"
+  - "entry_id": "xy-entry-0439"
+    "form_id": "xy-form-0498"
+    "segment_id": "xy-ch13-006"
+    "rendered_text": "西天（さいてん）"
+    "gloss_ja": "西方にある仏の世界。取経の目的地。"
+    "translation_span":
+      "start": 18
+      "end": 20
+      "exact": "西天"
+  - "entry_id": "xy-entry-1333"
+    "form_id": "xy-form-1535"
+    "segment_id": "xy-ch13-006"
+    "rendered_text": "化生寺（けしょうじ）"
+    "gloss_ja": "玄奘が仏前で取経の大願を立てた寺の名。"
+    "translation_span":
+      "start": 263
+      "end": 266
+      "exact": "化生寺"
+  - "entry_id": "xy-entry-1399"
+    "form_id": "xy-form-1619"
+    "segment_id": "xy-ch13-006"
+    "rendered_text": "法輪（ほうりん）"
+    "gloss_ja": "仏の教えを車輪にたとえたもの。法輪を回すとは教えを広めること。"
+    "translation_span":
+      "start": 336
+      "end": 338
+      "exact": "法輪"
+  - "entry_id": "xy-entry-0874"
+    "form_id": "xy-form-1527"
+    "segment_id": "xy-ch13-007"
+    "rendered_text": "陳玄奘（ちんげんじょう）"
+    "gloss_ja": "俗姓の陳を添えた玄奘の名乗り。"
+    "translation_span":
+      "start": 88
+      "end": 91
+      "exact": "陳玄奘"
+  - "entry_id": "xy-entry-0589"
+    "form_id": "xy-form-0671"
+    "segment_id": "xy-ch13-007"
+    "rendered_text": "廟（びょう）"
+    "gloss_ja": "神や祖先を祭る建物。"
+    "translation_span":
+      "start": 165
+      "end": 166
+      "exact": "廟"
+  - "entry_id": "xy-entry-0782"
+    "form_id": "xy-form-0896"
+    "segment_id": "xy-ch13-007"
+    "rendered_text": "丈六（じょうろく）"
+    "gloss_ja": "一丈六尺。仏の身の大きさを示す慣用表現。"
+    "translation_span":
+      "start": 217
+      "end": 219
+      "exact": "丈六"
+  - "entry_id": "xy-entry-0783"
+    "form_id": "xy-form-0897"
+    "segment_id": "xy-ch13-007"
+    "rendered_text": "金身（こんじん）"
+    "gloss_ja": "黄金色に輝く仏の身体。"
+    "translation_span":
+      "start": 227
+      "end": 229
+      "exact": "金身"
+  - "entry_id": "xy-entry-0847"
+    "form_id": "xy-form-0971"
+    "segment_id": "xy-ch13-007"
+    "rendered_text": "東土（とうど）"
+    "gloss_ja": "西方の仏国に対して、東方の中国をいう。"
+    "translation_span":
+      "start": 250
+      "end": 252
+      "exact": "東土"
+  - "entry_id": "xy-entry-1015"
+    "form_id": "xy-form-1169"
+    "segment_id": "xy-ch13-007"
+    "rendered_text": "方丈（ほうじょう）"
+    "gloss_ja": "寺の住持の居室。"
+    "translation_span":
+      "start": 277
+      "end": 279
+      "exact": "方丈"
+  - "entry_id": "xy-term-089"
+    "form_id": "xy-term-089-form"
+    "segment_id": "xy-ch13-007"
+    "rendered_text": "里（り）"
+    "gloss_ja": "昔の道のりの単位。中国と日本では長さが異なり、時代によっても変わる。"
+    "translation_span":
+      "start": 355
+      "end": 356
+      "exact": "里"
+  - "entry_id": "xy-entry-0628"
+    "form_id": "xy-form-0725"
+    "segment_id": "xy-ch13-008"
+    "rendered_text": "蓼（たで）"
+    "gloss_ja": "水辺などに生える、細かな花を付ける草。"
+    "translation_span":
+      "start": 104
+      "end": 105
+      "exact": "蓼"
+  - "entry_id": "xy-entry-1400"
+    "form_id": "xy-form-1621"
+    "segment_id": "xy-ch13-009"
+    "rendered_text": "鞏州城（きょうしゅうじょう）"
+    "gloss_ja": "鞏州の城郭都市。"
+    "translation_span":
+      "start": 10
+      "end": 13
+      "exact": "鞏州城"
+  - "entry_id": "xy-entry-1400"
+    "form_id": "xy-form-1620"
+    "segment_id": "xy-ch13-009"
+    "rendered_text": "鞏州（きょうしゅう）"
+    "gloss_ja": "中国西方の州名。取経の旅で通過する地。"
+    "translation_span":
+      "start": 29
+      "end": 31
+      "exact": "鞏州"
+  - "entry_id": "xy-entry-1401"
+    "form_id": "xy-form-1623"
+    "segment_id": "xy-ch13-009"
+    "rendered_text": "河州衛（かしゅうえい）"
+    "gloss_ja": "河州に置かれた軍事拠点。物語では大唐の辺境とされる。"
+    "translation_span":
+      "start": 121
+      "end": 124
+      "exact": "河州衛"
+  - "entry_id": "xy-entry-0792"
+    "form_id": "xy-form-1078"
+    "segment_id": "xy-ch13-009"
+    "rendered_text": "大唐（だいとう）"
+    "gloss_ja": "唐王朝を敬っていう呼称。"
+    "translation_span":
+      "start": 140
+      "end": 142
+      "exact": "大唐"
+  - "entry_id": "xy-entry-1402"
+    "form_id": "xy-form-1624"
+    "segment_id": "xy-ch13-009"
+    "rendered_text": "総兵（そうへい）"
+    "gloss_ja": "辺境の軍を統率する武官。"
+    "translation_span":
+      "start": 162
+      "end": 164
+      "exact": "総兵"
+  - "entry_id": "xy-term-081"
+    "form_id": "xy-term-081-form"
+    "segment_id": "xy-ch13-009"
+    "rendered_text": "道士（どうし）"
+    "gloss_ja": "道教の教えに従って修行する人。"
+    "translation_span":
+      "start": 176
+      "end": 178
+      "exact": "道士"
+  - "entry_id": "xy-entry-0874"
+    "form_id": "xy-form-1625"
+    "segment_id": "xy-ch13-009"
+    "rendered_text": "御弟法師（ぎょていほうし）"
+    "gloss_ja": "皇帝の義弟である法師という、玄奘への敬称。"
+    "translation_span":
+      "start": 193
+      "end": 197
+      "exact": "御弟法師"
+  - "entry_id": "xy-entry-1403"
+    "form_id": "xy-form-1626"
+    "segment_id": "xy-ch13-009"
+    "rendered_text": "僧綱（そうごう）"
+    "gloss_ja": "僧侶や寺院を監督する役の僧。"
+    "translation_span":
+      "start": 245
+      "end": 247
+      "exact": "僧綱"
+  - "entry_id": "xy-entry-1404"
+    "form_id": "xy-form-1627"
+    "segment_id": "xy-ch13-009"
+    "rendered_text": "福原寺（ふくげんじ）"
+    "gloss_ja": "河州衛にある寺の名。"
+    "translation_span":
+      "start": 257
+      "end": 260
+      "exact": "福原寺"
+  - "entry_id": "xy-entry-1405"
+    "form_id": "xy-form-1628"
+    "segment_id": "xy-ch13-010"
+    "rendered_text": "四更（しこう）"
+    "gloss_ja": "夜を五分したうちの第四の時刻。まだ夜明け前。"
+    "translation_span":
+      "start": 113
+      "end": 115
+      "exact": "四更"
+  - "entry_id": "xy-entry-1406"
+    "form_id": "xy-form-1629"
+    "segment_id": "xy-ch13-011"
+    "rendered_text": "東海黄公（とうかいこうこう）"
+    "gloss_ja": "虎を制する幻術を使ったが、のちに虎に殺されたという伝説上の人物。"
+    "translation_span":
+      "start": 138
+      "end": 142
+      "exact": "東海黄公"
+  - "entry_id": "xy-entry-1407"
+    "form_id": "xy-form-1630"
+    "segment_id": "xy-ch13-011"
+    "rendered_text": "南山（なんざん）"
+    "gloss_ja": "南方の山をいう呼称。虎のすむ山として詠まれるが、特定の実在地との同定は未詳。"
+    "translation_span":
+      "start": 158
+      "end": 160
+      "exact": "南山"
+  - "entry_id": "xy-entry-1408"
+    "form_id": "xy-form-1631"
+    "segment_id": "xy-ch13-012"
+    "rendered_text": "熊山君（ゆうさんくん）"
+    "gloss_ja": "双叉嶺で寅将軍を訪ねる熊の妖怪。"
+    "translation_span":
+      "start": 105
+      "end": 108
+      "exact": "熊山君"
+  - "entry_id": "xy-entry-1409"
+    "form_id": "xy-form-1633"
+    "segment_id": "xy-ch13-012"
+    "rendered_text": "特処士（とくしょし）"
+    "gloss_ja": "双叉嶺で寅将軍を訪ねる野牛の妖怪。"
+    "translation_span":
+      "start": 117
+      "end": 120
+      "exact": "特処士"
+  - "entry_id": "xy-entry-1408"
+    "form_id": "xy-form-1632"
+    "segment_id": "xy-ch13-013"
+    "rendered_text": "山君（さんくん）"
+    "gloss_ja": "熊の妖怪、熊山君の略称。"
+    "translation_span":
+      "start": 117
+      "end": 119
+      "exact": "山君"
+  - "entry_id": "xy-entry-1410"
+    "form_id": "xy-form-1635"
+    "segment_id": "xy-ch13-015"
+    "rendered_text": "牯（こ）"
+    "gloss_ja": "雄牛のこと。"
+    "translation_span":
+      "start": 68
+      "end": 69
+      "exact": "牯"
+  - "entry_id": "xy-entry-1411"
+    "form_id": "xy-form-1636"
+    "segment_id": "xy-ch13-015"
+    "rendered_text": "牸（じ）"
+    "gloss_ja": "雌牛のこと。"
+    "translation_span":
+      "start": 81
+      "end": 82
+      "exact": "牸"
+  - "entry_id": "xy-entry-1412"
+    "form_id": "xy-form-1637"
+    "segment_id": "xy-ch13-016"
+    "rendered_text": "寅将軍（いんしょうぐん）"
+    "gloss_ja": "双叉嶺で三蔵一行を捕らえた虎の妖怪。"
+    "translation_span":
+      "start": 42
+      "end": 45
+      "exact": "寅将軍"
+  - "entry_id": "xy-entry-1413"
+    "form_id": "xy-form-1638"
+    "segment_id": "xy-ch13-019"
+    "rendered_text": "双叉嶺（そうされい）"
+    "gloss_ja": "三蔵が妖怪に捕らわれ、太白金星に救われた山の尾根。"
+    "translation_span":
+      "start": 405
+      "end": 408
+      "exact": "双叉嶺"
+  - "entry_id": "xy-entry-1409"
+    "form_id": "xy-form-1634"
+    "segment_id": "xy-ch13-019"
+    "rendered_text": "処士（しょし）"
+    "gloss_ja": "野牛の妖怪、特処士の略称。"
+    "translation_span":
+      "start": 659
+      "end": 661
+      "exact": "処士"
+  - "entry_id": "xy-entry-1414"
+    "form_id": "xy-form-1639"
+    "segment_id": "xy-ch13-019"
+    "rendered_text": "熊羆（ゆうひ）"
+    "gloss_ja": "熊や羆の類。"
+    "translation_span":
+      "start": 677
+      "end": 679
+      "exact": "熊羆"
+  - "entry_id": "xy-entry-1442"
+    "form_id": "xy-form-1673"
+    "segment_id": "xy-ch13-020"
+    "rendered_text": "頌（じゅ）"
+    "gloss_ja": "教えや賛美などを韻文で表したもの。"
+    "translation_span":
+      "start": 147
+      "end": 148
+      "exact": "頌"
+  - "entry_id": "xy-entry-0250"
+    "form_id": "xy-form-1640"
+    "segment_id": "xy-ch13-021"
+    "rendered_text": "太白星（たいはくせい）"
+    "gloss_ja": "玉帝に仕え、地上では老人の姿でも現れる星の神、太白金星の別称。"
+    "translation_span":
+      "start": 5
+      "end": 8
+      "exact": "太白星"
+  - "entry_id": "xy-entry-0250"
+    "form_id": "xy-form-0292"
+    "segment_id": "xy-ch13-022"
+    "rendered_text": "金星（きんせい）"
+    "gloss_ja": "星の神、太白金星の略称。"
+    "translation_span":
+      "start": 25
+      "end": 27
+      "exact": "金星"
+  - "entry_id": "xy-entry-1415"
+    "form_id": "xy-form-1641"
+    "segment_id": "xy-ch13-023"
+    "rendered_text": "獐（しょう）"
+    "gloss_ja": "牙のある小型の鹿の類。"
+    "translation_span":
+      "start": 72
+      "end": 73
+      "exact": "獐"
+  - "entry_id": "xy-entry-1416"
+    "form_id": "xy-form-1642"
+    "segment_id": "xy-ch13-023"
+    "rendered_text": "麂（き）"
+    "gloss_ja": "小型の鹿の一種。"
+    "translation_span":
+      "start": 86
+      "end": 87
+      "exact": "麂"
+  - "entry_id": "xy-entry-0163"
+    "form_id": "xy-form-0171"
+    "segment_id": "xy-ch13-025"
+    "rendered_text": "叉（さ）"
+    "gloss_ja": "先が幾つかに分かれた長柄の武器。"
+    "translation_span":
+      "start": 88
+      "end": 89
+      "exact": "叉"
+  - "entry_id": "xy-entry-1443"
+    "form_id": "xy-form-1674"
+    "segment_id": "xy-ch13-026"
+    "rendered_text": "艾（よもぎ）"
+    "gloss_ja": "香りが強く、葉の裏に白い毛を持つ草。ヨモギ。"
+    "translation_span":
+      "start": 3
+      "end": 4
+      "exact": "艾"
+  - "entry_id": "xy-entry-1417"
+    "form_id": "xy-form-1643"
+    "segment_id": "xy-ch13-026"
+    "rendered_text": "叵羅衣（はらい）"
+    "gloss_ja": "羊毛で錦模様を織り出した衣。詳しい形は明らかでない。"
+    "translation_span":
+      "start": 39
+      "end": 42
+      "exact": "叵羅衣"
+  - "entry_id": "xy-entry-1418"
+    "form_id": "xy-form-1644"
+    "segment_id": "xy-ch13-026"
+    "rendered_text": "獅蛮帯（しばんたい）"
+    "gloss_ja": "獅子の意匠をあしらった帯。"
+    "translation_span":
+      "start": 51
+      "end": 54
+      "exact": "獅蛮帯"
+  - "entry_id": "xy-entry-1419"
+    "form_id": "xy-form-1645"
+    "segment_id": "xy-ch13-026"
+    "rendered_text": "弔客（ちょうきゃく）"
+    "gloss_ja": "疾病や悲嘆をもたらす凶神。ここでは恐ろしい目つきの比喩。"
+    "translation_span":
+      "start": 84
+      "end": 86
+      "exact": "弔客"
+  - "entry_id": "xy-entry-1420"
+    "form_id": "xy-form-1646"
+    "segment_id": "xy-ch13-026"
+    "rendered_text": "河奎（かけい）"
+    "gloss_ja": "凶神の名として使われる語。底本の「河奎」を保持し、通常の「河魁」へ改めていない。"
+    "translation_span":
+      "start": 109
+      "end": 111
+      "exact": "河奎"
+  - "entry_id": "xy-entry-1421"
+    "form_id": "xy-form-1648"
+    "segment_id": "xy-ch13-027"
+    "rendered_text": "劉（りゅう）"
+    "gloss_ja": "猟師の劉伯欽の姓。"
+    "translation_span":
+      "start": 132
+      "end": 133
+      "exact": "劉"
+  - "entry_id": "xy-entry-1421"
+    "form_id": "xy-form-1649"
+    "segment_id": "xy-ch13-027"
+    "rendered_text": "伯欽（はくきん）"
+    "gloss_ja": "猟師の劉伯欽の名。"
+    "translation_span":
+      "start": 141
+      "end": 143
+      "exact": "伯欽"
+  - "entry_id": "xy-entry-1421"
+    "form_id": "xy-form-1650"
+    "segment_id": "xy-ch13-027"
+    "rendered_text": "鎮山太保（ちんざんたいほ）"
+    "gloss_ja": "山中の猛獣を押さえる劉伯欽の異名。"
+    "translation_span":
+      "start": 154
+      "end": 158
+      "exact": "鎮山太保"
+  - "entry_id": "xy-entry-1421"
+    "form_id": "xy-form-1651"
+    "segment_id": "xy-ch13-027"
+    "rendered_text": "太保（たいほ）"
+    "gloss_ja": "鎮山太保と呼ばれる猟師、劉伯欽への略称。"
+    "translation_span":
+      "start": 301
+      "end": 303
+      "exact": "太保"
+  - "entry_id": "xy-entry-1421"
+    "form_id": "xy-form-1647"
+    "segment_id": "xy-ch13-027"
+    "rendered_text": "劉伯欽（りゅうはくきん）"
+    "gloss_ja": "山中の猛獣を狩って暮らし、玄奘を救ってもてなす猟師。"
+    "translation_span":
+      "start": 360
+      "end": 363
+      "exact": "劉伯欽"
+  - "entry_id": "xy-entry-0792"
+    "form_id": "xy-form-0907"
+    "segment_id": "xy-ch13-027"
+    "rendered_text": "唐（とう）"
+    "gloss_ja": "中国の王朝の名。玄奘の出身国。"
+    "translation_span":
+      "start": 437
+      "end": 438
+      "exact": "唐"
+  - "entry_id": "xy-enma"
+    "form_id": "xy-form-1351"
+    "segment_id": "xy-ch13-029"
+    "rendered_text": "閻君（えんくん）"
+    "gloss_ja": "冥府の王への敬称。"
+    "translation_span":
+      "start": 198
+      "end": 200
+      "exact": "閻君"
+  - "entry_id": "xy-entry-1421"
+    "form_id": "xy-form-1652"
+    "segment_id": "xy-ch13-029"
+    "rendered_text": "劉太保（りゅうたいほ）"
+    "gloss_ja": "姓に異名の略を添えた劉伯欽の呼称。"
+    "translation_span":
+      "start": 330
+      "end": 333
+      "exact": "劉太保"
+  - "entry_id": "xy-entry-1422"
+    "form_id": "xy-form-1653"
+    "segment_id": "xy-ch13-029"
+    "rendered_text": "三魂（さんこん）"
+    "gloss_ja": "人に宿るとされた三つの魂。ここでは生命を指す。"
+    "translation_span":
+      "start": 385
+      "end": 387
+      "exact": "三魂"
+  - "entry_id": "xy-vocab-141"
+    "form_id": "xy-vocab-141-form"
+    "segment_id": "xy-ch13-030"
+    "rendered_text": "一時辰（いちじしん）"
+    "gloss_ja": "一昼夜を十二に分けた時間の一つで、およそ二時間。"
+    "translation_span":
+      "start": 6
+      "end": 9
+      "exact": "一時辰"
+  - "entry_id": "xy-entry-1444"
+    "form_id": "xy-form-1675"
+    "segment_id": "xy-ch13-033"
+    "rendered_text": "紙銭（しせん）"
+    "gloss_ja": "祭祀や供養の際、神や死者に供えて焼く紙製の銭。"
+    "translation_span":
+      "start": 625
+      "end": 627
+      "exact": "紙銭"
+  - "entry_id": "xy-entry-0911"
+    "form_id": "xy-form-1048"
+    "segment_id": "xy-ch13-034"
+    "rendered_text": "斎戒（さいかい）"
+    "gloss_ja": "身心を清め、飲食などの戒めを守ること。"
+    "translation_span":
+      "start": 418
+      "end": 420
+      "exact": "斎戒"
+  - "entry_id": "xy-entry-1423"
+    "form_id": "xy-form-1654"
+    "segment_id": "xy-ch13-035"
+    "rendered_text": "山地榆（さんちゆ）"
+    "gloss_ja": "葉を煎じて茶にする植物。どの植物を指すかは確定していない。"
+    "translation_span":
+      "start": 208
+      "end": 211
+      "exact": "山地榆"
+  - "entry_id": "xy-entry-1424"
+    "form_id": "xy-form-1655"
+    "segment_id": "xy-ch13-035"
+    "rendered_text": "黄粱（こうりょう）"
+    "gloss_ja": "黄色い実の粟の類。"
+    "translation_span":
+      "start": 229
+      "end": 231
+      "exact": "黄粱"
+  - "entry_id": "xy-entry-1425"
+    "form_id": "xy-form-1656"
+    "segment_id": "xy-ch13-035"
+    "rendered_text": "粟米（ぞくべい）"
+    "gloss_ja": "食用に精製した粟の実。"
+    "translation_span":
+      "start": 239
+      "end": 241
+      "exact": "粟米"
+  - "entry_id": "xy-entry-1445"
+    "form_id": "xy-form-1676"
+    "segment_id": "xy-ch13-036"
+    "rendered_text": "麝香（じゃこう）"
+    "gloss_ja": "ジャコウジカの雄から得られる、強い香りを持つ物質。"
+    "translation_span":
+      "start": 29
+      "end": 31
+      "exact": "麝香"
+  - "entry_id": "xy-entry-1426"
+    "form_id": "xy-form-1657"
+    "segment_id": "xy-ch13-036"
+    "rendered_text": "揭斎（けいさい）"
+    "gloss_ja": "食事を始めること。ここでは食前の短い呪文。"
+    "translation_span":
+      "start": 233
+      "end": 235
+      "exact": "揭斎"
+  - "entry_id": "xy-entry-0162"
+    "form_id": "xy-form-0170"
+    "segment_id": "xy-ch13-037"
+    "rendered_text": "弩（ど）"
+    "gloss_ja": "台と引き金の仕組みを備えた弓。"
+    "translation_span":
+      "start": 93
+      "end": 94
+      "exact": "弩"
+  - "entry_id": "xy-entry-1446"
+    "form_id": "xy-form-1677"
+    "segment_id": "xy-ch13-038"
+    "rendered_text": "神呪（しんじゅ）"
+    "gloss_ja": "神秘な力を持つとされる呪文。"
+    "translation_span":
+      "start": 118
+      "end": 120
+      "exact": "神呪"
+  - "entry_id": "xy-entry-1427"
+    "form_id": "xy-form-1658"
+    "segment_id": "xy-ch13-038"
+    "rendered_text": "度亡経（どもうきょう）"
+    "gloss_ja": "亡者を救済するために読まれる経。特定の現存経典との同定は留保する。"
+    "translation_span":
+      "start": 131
+      "end": 134
+      "exact": "度亡経"
+  - "entry_id": "xy-entry-1428"
+    "form_id": "xy-form-1659"
+    "segment_id": "xy-ch13-038"
+    "rendered_text": "疏文（しょもん）"
+    "gloss_ja": "神仏へ供養や祈願の趣旨を伝える文書。"
+    "translation_span":
+      "start": 168
+      "end": 170
+      "exact": "疏文"
+  - "entry_id": "xy-entry-1429"
+    "form_id": "xy-form-1660"
+    "segment_id": "xy-ch13-038"
+    "rendered_text": "金剛経（こんごうきょう）"
+    "gloss_ja": "金剛般若波羅蜜経の略称。"
+    "translation_span":
+      "start": 195
+      "end": 198
+      "exact": "金剛経"
+  - "entry_id": "xy-entry-1430"
+    "form_id": "xy-form-1661"
+    "segment_id": "xy-ch13-038"
+    "rendered_text": "観音経（かんのんきょう）"
+    "gloss_ja": "観音の救済を説く経。一般に法華経の観世音菩薩普門品をいう。"
+    "translation_span":
+      "start": 210
+      "end": 213
+      "exact": "観音経"
+  - "entry_id": "xy-entry-1447"
+    "form_id": "xy-form-1678"
+    "segment_id": "xy-ch13-038"
+    "rendered_text": "読誦（どくじゅ）"
+    "gloss_ja": "経文などを声に出して読むこと。"
+    "translation_span":
+      "start": 237
+      "end": 239
+      "exact": "読誦"
+  - "entry_id": "xy-entry-1431"
+    "form_id": "xy-form-1662"
+    "segment_id": "xy-ch13-038"
+    "rendered_text": "法華経（ほけきょう）"
+    "gloss_ja": "妙法蓮華経の略称。"
+    "translation_span":
+      "start": 265
+      "end": 268
+      "exact": "法華経"
+  - "entry_id": "xy-entry-1432"
+    "form_id": "xy-form-1663"
+    "segment_id": "xy-ch13-038"
+    "rendered_text": "弥陀経（みだきょう）"
+    "gloss_ja": "阿弥陀経の略称。"
+    "translation_span":
+      "start": 278
+      "end": 281
+      "exact": "弥陀経"
+  - "entry_id": "xy-entry-1433"
+    "form_id": "xy-form-1664"
+    "segment_id": "xy-ch13-038"
+    "rendered_text": "孔雀経（くじゃくきょう）"
+    "gloss_ja": "孔雀明王の功徳を説く経。"
+    "translation_span":
+      "start": 304
+      "end": 307
+      "exact": "孔雀経"
+  - "entry_id": "xy-entry-1434"
+    "form_id": "xy-form-1665"
+    "segment_id": "xy-ch13-038"
+    "rendered_text": "苾芻（ひっしゅ）"
+    "gloss_ja": "比丘と同じく、出家した僧のこと。"
+    "translation_span":
+      "start": 323
+      "end": 325
+      "exact": "苾芻"
+  - "entry_id": "xy-entry-1435"
+    "form_id": "xy-form-1666"
+    "segment_id": "xy-ch13-038"
+    "rendered_text": "紙馬（しば）"
+    "gloss_ja": "神々の姿を描き、供養で焼く紙。馬の絵だけを指す語ではない。"
+    "translation_span":
+      "start": 377
+      "end": 379
+      "exact": "紙馬"
+  - "entry_id": "xy-entry-1436"
+    "form_id": "xy-form-1667"
+    "segment_id": "xy-ch13-039"
+    "rendered_text": "沈淪（ちんりん）"
+    "gloss_ja": "ここでは亡者が苦しみの境に沈んでいること。"
+    "translation_span":
+      "start": 18
+      "end": 20
+      "exact": "沈淪"
+  - "entry_id": "xy-enma"
+    "form_id": "xy-form-0237"
+    "segment_id": "xy-ch13-039"
+    "rendered_text": "閻王（えんおう）"
+    "gloss_ja": "冥府で死者の罪や生まれ変わりを裁く王。"
+    "translation_span":
+      "start": 149
+      "end": 151
+      "exact": "閻王"
+  - "entry_id": "xy-entry-1437"
+    "form_id": "xy-form-1668"
+    "segment_id": "xy-ch13-039"
+    "rendered_text": "中華（ちゅうか）"
+    "gloss_ja": "中国の中心文明圏をいう呼称。"
+    "translation_span":
+      "start": 164
+      "end": 166
+      "exact": "中華"
+  - "entry_id": "xy-entry-1448"
+    "form_id": "xy-form-1679"
+    "segment_id": "xy-ch13-040"
+    "rendered_text": "両（りょう）"
+    "gloss_ja": "銀などの重さを量り、貨幣の額を表すためにも用いる単位。"
+    "translation_span":
+      "start": 49
+      "end": 50
+      "exact": "両"
+  - "entry_id": "xy-term-085"
+    "form_id": "xy-term-085-form"
+    "segment_id": "xy-ch13-040"
+    "rendered_text": "文（もん）"
+    "gloss_ja": "昔の銅銭を数える貨幣の単位。"
+    "translation_span":
+      "start": 68
+      "end": 69
+      "exact": "文"
+  - "entry_id": "xy-entry-1449"
+    "form_id": "xy-form-1680"
+    "segment_id": "xy-ch13-040"
+    "rendered_text": "焼餅（しょうへい）"
+    "gloss_ja": "粉を練って焼いた平たい食べ物。日本の餅とは異なる。"
+    "translation_span":
+      "start": 195
+      "end": 197
+      "exact": "焼餅"
+  - "entry_id": "xy-entry-0731"
+    "form_id": "xy-form-1669"
+    "segment_id": "xy-ch13-041"
+    "rendered_text": "両界山（りょうかいざん）"
+    "gloss_ja": "東半分が唐、西半分が韃靼とされる境界の山。"
+    "translation_span":
+      "start": 220
+      "end": 223
+      "exact": "両界山"
+  - "entry_id": "xy-entry-0882"
+    "form_id": "xy-form-1008"
+    "segment_id": "xy-ch13-041"
+    "rendered_text": "韃靼（だったん）"
+    "gloss_ja": "中国の北方・西方の異民族やその地域を指す古い呼称。"
+    "translation_span":
+      "start": 257
+      "end": 259
+      "exact": "韃靼"
