@@ -1394,6 +1394,38 @@
     "title": "西遊記/第014回（中文維基文庫・固定版）"
     "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第014回&oldid=1455563"
     "accessed_at": "2026-10-24"
+  - "id": "xy-reference-349"
+    "title": "小学館『デジタル大辞泉』『精選版 日本国語大辞典』「万法」"
+    "url": "https://kotobank.jp/word/%E4%B8%87%E6%B3%95-607325"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-350"
+    "title": "小学館『デジタル大辞泉』『精選版 日本国語大辞典』「浄業」"
+    "url": "https://kotobank.jp/word/%E6%B5%84%E6%A5%AD-531452"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-351"
+    "title": "コトバンク収録辞書「王莽」"
+    "url": "https://kotobank.jp/word/%E7%8E%8B%E8%8E%BD-38896"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-352"
+    "title": "小学館『デジタル大辞泉』『日本大百科全書』「頭陀」"
+    "url": "https://kotobank.jp/word/%E9%A0%AD%E9%99%80-541970"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-353"
+    "title": "漢字辞典オンライン「裰」"
+    "url": "https://kanji.jitenon.jp/kanjiu/10045"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-354"
+    "title": "神奈川県立図書館 レファレンス協同データベース「孫悟空の頭にはまっている輪の名前」"
+    "url": "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000128702"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-355"
+    "title": "CiNii Books 著者「黄石公」"
+    "url": "https://ci.nii.ac.jp/author/DA11811719"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-356"
+    "title": "コトバンク収録辞書「張良」"
+    "url": "https://kotobank.jp/word/%E5%BC%B5%E8%89%AF-98224"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -2447,6 +2479,22 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-form-1691"
+        "text": "行者"
+        "relation": "alias"
+        "reading":
+          "kana": "ぎょうじゃ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+      - "id": "xy-form-1692"
+        "text": "孫行者"
+        "relation": "alias"
+        "reading":
+          "kana": "そんぎょうじゃ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -4950,6 +4998,22 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の慣用音・構成字の音訓による推定。調査でこの表記全体の確実な日本語読みを明記する資料は未確認。"
+      - "id": "xy-form-1719"
+        "text": "竜王"
+        "relation": "alias"
+        "reading":
+          "kana": "りゅうおう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+      - "id": "xy-form-1720"
+        "text": "老竜王"
+        "relation": "alias"
+        "reading":
+          "kana": "ろうりゅうおう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
   - "id": "xy-entry-0180"
     "kind": "title"
     "headword": "上仙"
@@ -5203,6 +5267,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の通常の漢字音訓と語構成からの推定。当該語形・文脈の日本語読みを明記する資料は今回未確認。"
+      - "id": "xy-form-1693"
+        "text": "天河鎮底神珍鉄"
+        "relation": "alias"
+        "reading":
+          "kana": "てんがちんていしんちんてつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
   - "id": "xy-entry-0192"
     "kind": "person"
     "headword": "大禹"
@@ -14504,6 +14576,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-form-1689"
+        "text": "仏祖"
+        "relation": "alias"
+        "reading":
+          "kana": "ぶっそ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
   - "id": "xy-entry-0688"
     "kind": "place"
     "headword": "双林"
@@ -17931,6 +18011,22 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "語形「御弟法師」の構成字の日本語音訓・語構成から「ぎょていほうし」と推定。この語形の日本語読みを直接明記する資料は未確認。"
+      - "id": "xy-form-1696"
+        "text": "唐僧"
+        "relation": "alias"
+        "reading":
+          "kana": "とうそう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+      - "id": "xy-form-1701"
+        "text": "御弟三蔵"
+        "relation": "alias"
+        "reading":
+          "kana": "ぎょていさんぞう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
   - "id": "xy-entry-0875"
     "kind": "object"
     "headword": "栴檀"
@@ -28624,3 +28720,565 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "語形「焼餅」の構成字の日本語音訓・語構成から「しょうへい」と推定。この語形の日本語読みを直接明記する資料は未確認。"
+  - "id": "xy-entry-1450"
+    "kind": "concept"
+    "headword": "真心"
+    "definition_ja": "迷いや作為を離れた真実の心。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1681"
+        "text": "真心"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1451"
+    "kind": "concept"
+    "headword": "実相"
+    "definition_ja": "物事の真実のあり方。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1682"
+        "text": "実相"
+        "relation": "preferred"
+        "reading":
+          "kana": "じっそう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1452"
+    "kind": "concept"
+    "headword": "回向"
+    "definition_ja": "修行の功徳を他者の救いなどへ振り向けること。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1683"
+        "text": "回向"
+        "relation": "preferred"
+        "reading":
+          "kana": "えこう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1453"
+    "kind": "place"
+    "headword": "仏国"
+    "definition_ja": "仏が教えを施す国土。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1684"
+        "text": "仏国"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶっこく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1454"
+    "kind": "concept"
+    "headword": "万法"
+    "definition_ja": "あらゆる存在や現象をいう仏教語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1685"
+        "text": "万法"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばんぽう"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-349"
+          "reason_ja": "出典に示された当該語形の日本語仮名を直接確認。"
+  - "id": "xy-entry-1455"
+    "kind": "concept"
+    "headword": "浄業"
+    "definition_ja": "清らかな行い。仏教でいう善い行為。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1686"
+        "text": "浄業"
+        "relation": "preferred"
+        "reading":
+          "kana": "じょうごう"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-350"
+          "reason_ja": "出典に示された当該語形の日本語仮名を直接確認。"
+  - "id": "xy-entry-1456"
+    "kind": "term"
+    "headword": "南無釈迦葉"
+    "definition_ja": "仏を敬って帰依を表す句。釈迦葉という字形の指示対象は未詳。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1687"
+        "text": "南無釈迦葉"
+        "relation": "preferred"
+        "reading":
+          "kana": "なむしゃかしょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "底本の稀な字形を保持。南無・釈迦の慣用音と、迦葉の仏教音を参考に組み合わせた仮の読みで、語形全体の読みと指示対象は未確定。"
+  - "id": "xy-entry-1457"
+    "kind": "person"
+    "headword": "王莽"
+    "definition_ja": "漢の帝位を奪って新を建てた人物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1688"
+        "text": "王莽"
+        "relation": "preferred"
+        "reading":
+          "kana": "おうもう"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-351"
+          "reason_ja": "出典に示された当該語形の日本語仮名を直接確認。"
+  - "id": "xy-entry-1458"
+    "kind": "term"
+    "headword": "頭陀"
+    "definition_ja": "衣食住の欲を捨てて修行する僧。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1690"
+        "text": "頭陀"
+        "relation": "preferred"
+        "reading":
+          "kana": "ずだ"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-352"
+          "reason_ja": "出典に示された当該語形の日本語仮名を直接確認。"
+  - "id": "xy-entry-1459"
+    "kind": "term"
+    "headword": "唐人"
+    "definition_ja": "唐の国の人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1694"
+        "text": "唐人"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうじん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1460"
+    "kind": "object"
+    "headword": "糖人"
+    "definition_ja": "砂糖を細工して作る人形の菓子。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1695"
+        "text": "糖人"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうじん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1461"
+    "kind": "person"
+    "headword": "陳老人"
+    "definition_ja": "両界山の西方に住み、三蔵と孫悟空を泊める老人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1697"
+        "text": "陳老人"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちんろうじん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+      - "id": "xy-form-1698"
+        "text": "陳"
+        "relation": "alias"
+        "reading":
+          "kana": "ちん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1462"
+    "kind": "place"
+    "headword": "弘農郡"
+    "definition_ja": "三蔵が自分の出身地として挙げる郡名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1699"
+        "text": "弘農郡"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうのうぐん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1463"
+    "kind": "place"
+    "headword": "聚賢荘"
+    "definition_ja": "三蔵が自分の生まれた村として挙げる地名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1700"
+        "text": "聚賢荘"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅけんそう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1464"
+    "kind": "object"
+    "headword": "直裰"
+    "definition_ja": "僧が着る長衣の一種。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1702"
+        "text": "直裰"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょくたつ"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-353"
+          "reason_ja": "出典に示された当該語形の日本語仮名を直接確認。"
+  - "id": "xy-entry-1465"
+    "kind": "person"
+    "headword": "眼看喜"
+    "definition_ja": "目で見て喜ぶことを表す賊の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1703"
+        "text": "眼看喜"
+        "relation": "preferred"
+        "reading":
+          "kana": "がんかんき"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1466"
+    "kind": "person"
+    "headword": "耳聴怒"
+    "definition_ja": "耳で聞いて怒ることを表す賊の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1704"
+        "text": "耳聴怒"
+        "relation": "preferred"
+        "reading":
+          "kana": "じちょうど"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1467"
+    "kind": "person"
+    "headword": "鼻嗅愛"
+    "definition_ja": "鼻で嗅いで愛することを表す賊の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1705"
+        "text": "鼻嗅愛"
+        "relation": "preferred"
+        "reading":
+          "kana": "びきゅうあい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1468"
+    "kind": "person"
+    "headword": "舌嘗思"
+    "definition_ja": "舌で味わい思うことを表す賊の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1706"
+        "text": "舌嘗思"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぜつしょうし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1469"
+    "kind": "person"
+    "headword": "意見慾"
+    "definition_ja": "意識でとらえて欲することを表す賊の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1707"
+        "text": "意見慾"
+        "relation": "preferred"
+        "reading":
+          "kana": "いけんよく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1470"
+    "kind": "person"
+    "headword": "身本憂"
+    "definition_ja": "身体をもとに憂えることを表す賊の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1708"
+        "text": "身本憂"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんほんゆう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1471"
+    "kind": "concept"
+    "headword": "定心真言"
+    "definition_ja": "孫悟空の頭の輪を締め、服従させる呪文。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1709"
+        "text": "定心真言"
+        "relation": "preferred"
+        "reading":
+          "kana": "じょうしんしんごん"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-354"
+          "reason_ja": "出典に示された当該語形の日本語仮名を直接確認。"
+      - "id": "xy-form-1710"
+        "text": "緊箍児呪"
+        "relation": "alias"
+        "reading":
+          "kana": "きんこじじゅ"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-354"
+          "reason_ja": "出典に示された当該語形の日本語仮名を直接確認。"
+      - "id": "xy-form-1721"
+        "text": "緊箍呪"
+        "relation": "alias"
+        "reading":
+          "kana": "きんこじゅ"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-354"
+          "reason_ja": "出典に示された当該語形の日本語仮名を直接確認。"
+      - "id": "xy-form-1722"
+        "text": "緊箍経"
+        "relation": "alias"
+        "reading":
+          "kana": "きんこきょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1472"
+    "kind": "term"
+    "headword": "圯橋進履"
+    "definition_ja": "圯橋で張良が黄石公に履を差し出す故事。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1711"
+        "text": "圯橋進履"
+        "relation": "preferred"
+        "reading":
+          "kana": "いきょうしんり"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+      - "id": "xy-form-1712"
+        "text": "圯橋三進履"
+        "relation": "alias"
+        "reading":
+          "kana": "いきょうさんしんり"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+      - "id": "xy-form-1713"
+        "text": "三進履"
+        "relation": "alias"
+        "reading":
+          "kana": "さんしんり"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1473"
+    "kind": "person"
+    "headword": "黄石公"
+    "definition_ja": "張良に兵法書を授けたと伝えられる老人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1714"
+        "text": "黄石公"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうせきこう"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-355"
+          "reason_ja": "出典に示された当該語形の日本語仮名を直接確認。"
+  - "id": "xy-entry-1474"
+    "kind": "person"
+    "headword": "張良"
+    "definition_ja": "漢の成立を助けた軍師。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1715"
+        "text": "張良"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうりょう"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-356"
+          "reason_ja": "出典に示された当該語形の日本語仮名を直接確認。"
+  - "id": "xy-entry-1475"
+    "kind": "place"
+    "headword": "圯橋"
+    "definition_ja": "張良が黄石公と出会ったとされる橋。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1716"
+        "text": "圯橋"
+        "relation": "preferred"
+        "reading":
+          "kana": "いきょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1476"
+    "kind": "object"
+    "headword": "天書"
+    "definition_ja": "天上の教えを記した神秘的な書。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1717"
+        "text": "天書"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんしょ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+  - "id": "xy-entry-1477"
+    "kind": "person"
+    "headword": "赤松子"
+    "definition_ja": "中国古代の伝説上の仙人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-348"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1718"
+        "text": "赤松子"
+        "relation": "preferred"
+        "reading":
+          "kana": "せきしょうし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
