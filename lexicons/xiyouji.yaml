@@ -1558,6 +1558,38 @@
     "title": "新纂浄土宗大辞典「護符」"
     "url": "https://jodoshuzensho.jp/daijiten/index.php/%E8%AD%B7%E7%AC%A6"
     "accessed_at": "2026-10-24"
+  - "id": "xy-reference-390"
+    "title": "西遊記/第019回（中文維基文庫・固定版）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第019回&oldid=1455568"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-391"
+    "title": "佐立治人「明朝の立法・刑罰・裁判」関西大学法学論集67巻6号"
+    "url": "https://kansai-u.repo.nii.ac.jp/record/4013/files/KU-1100-20180301-08.pdf"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-392"
+    "title": "コトバンク・平凡社『世界大百科事典』「多心経」"
+    "url": "https://kotobank.jp/word/%E5%A4%9A%E5%BF%83%E7%B5%8C-1361448"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-393"
+    "title": "耕雲寺「第108話 般若」"
+    "url": "https://kouunji.or.jp/buddhism_lecture/words/3618/"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-394"
+    "title": "コトバンク・小学館『精選版 日本国語大辞典』「観自在」"
+    "url": "https://kotobank.jp/word/%E8%A6%B3%E8%87%AA%E5%9C%A8-469995"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-395"
+    "title": "コトバンク・平凡社『世界大百科事典』「舎利子」"
+    "url": "https://kotobank.jp/word/%E8%88%8E%E5%88%A9%E5%AD%90-1334992"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-396"
+    "title": "コトバンク・小学館『デジタル大辞泉』『日本大百科全書』「菩薩」"
+    "url": "https://kotobank.jp/word/%E8%8F%A9%E8%96%A9-132948"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-397"
+    "title": "コトバンク・小学館『精選版 日本国語大辞典』「三藐三菩提」"
+    "url": "https://kotobank.jp/word/%E4%B8%89%E8%97%90%E4%B8%89%E8%8F%A9%E6%8F%90-514931"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -2872,6 +2904,15 @@
           "source_ids":
             - "bosatsu"
           "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+      - "id": "xy-form-1964"
+        "text": "菩提薩埵"
+        "relation": "alias"
+        "reading":
+          "kana": "ぼだいさった"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-396"
+          "reason_ja": "出典に示された当該語形全体の日本語仮名を直接確認した。"
   - "id": "xy-term-059"
     "kind": "term"
     "headword": "楷書"
@@ -3000,6 +3041,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "本文の語形「閻君」を日本語の通常の漢字音訓・語構成から「えんくん」と読む推定。当該表記と文脈の読みを明記する信頼資料は今回未確認。"
+      - "id": "xy-form-1929"
+        "text": "閻羅"
+        "relation": "short_form"
+        "reading":
+          "kana": "えんら"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
   - "id": "xy-term-065"
     "kind": "person"
     "headword": "長腕の猿"
@@ -4177,6 +4226,14 @@
           "source_ids":
             - "yusen"
           "reason_ja": "経穴名の「湧泉（ゆうせん）」を確認。"
+      - "id": "xy-form-1896"
+        "text": "湧泉穴"
+        "relation": "alias"
+        "reading":
+          "kana": "ゆうせんけつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
   - "id": "xy-vocab-125"
     "kind": "concept"
     "headword": "泥丸宮"
@@ -6724,6 +6781,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "語形「太白星」の構成字の日本語音訓・語構成から「たいはくせい」と推定。この語形の日本語読みを直接明記する資料は未確認。"
+      - "id": "xy-form-1913"
+        "text": "太白李金星"
+        "relation": "alias"
+        "reading":
+          "kana": "たいはくりきんせい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
   - "id": "xy-entry-0251"
     "kind": "term"
     "headword": "帰順"
@@ -10551,6 +10616,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の通常の漢字音訓と語構成からの推定。当該語形・文脈の日本語読みを明記する資料は今回未確認。"
+      - "id": "xy-form-1949"
+        "text": "青鸞"
+        "relation": "alias"
+        "reading":
+          "kana": "せいらん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
   - "id": "xy-entry-0463"
     "kind": "term"
     "headword": "萼"
@@ -12252,6 +12325,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-form-1954"
+        "text": "観自在菩薩"
+        "relation": "alias"
+        "reading":
+          "kana": "かんじざいぼさつ"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-394"
+          "reason_ja": "出典に示された当該語形全体の日本語仮名を直接確認した。"
   - "id": "xy-entry-0553"
     "kind": "person"
     "headword": "恵岸行者"
@@ -12882,6 +12964,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成からの推定。当該表記全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-form-1931"
+        "text": "小聖二郎"
+        "relation": "alias"
+        "reading":
+          "kana": "しょうせいじろう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
   - "id": "xy-entry-0582"
     "kind": "place"
     "headword": "灌洲"
@@ -15925,6 +16015,14 @@
           "source_ids":
             - "xy-reference-192"
           "reason_ja": "玉京の辞書読み「ぎょくけい」と金闕の通常の字音を組み合わせた推定。複合名称全体の読みは未確認。"
+      - "id": "xy-form-1909"
+        "text": "金闕"
+        "relation": "short_form"
+        "reading":
+          "kana": "きんけつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
   - "id": "xy-entry-0748"
     "kind": "place"
     "headword": "太玄宝宮"
@@ -16594,6 +16692,14 @@
           "source_ids":
             - "xy-reference-197"
           "reason_ja": "書名の読み「ミダニョライミョウゴウトク」により弥陀の読みを確認。人物同定を如来・釈迦へ変更する根拠にはしない。"
+      - "id": "xy-form-1932"
+        "text": "阿弥陀仏"
+        "relation": "alias"
+        "reading":
+          "kana": "あみだぶつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
   - "id": "xy-entry-0787"
     "kind": "object"
     "headword": "花座"
@@ -18822,6 +18928,30 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+      - "id": "xy-form-1891"
+        "text": "九歯釘鈀"
+        "relation": "alias"
+        "reading":
+          "kana": "きゅうしていは"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-form-1915"
+        "text": "九歯鈀"
+        "relation": "short_form"
+        "reading":
+          "kana": "きゅうしは"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-form-1925"
+        "text": "上宝沁金鈀"
+        "relation": "alias"
+        "reading":
+          "kana": "じょうほうしんきんは"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
   - "id": "xy-entry-0901"
     "kind": "person"
     "headword": "太歳"
@@ -18891,6 +19021,46 @@
           "source_ids":
             - "xy-reference-387"
           "reason_ja": "武田雅哉「戦え、養猪姑娘〈韓梅梅〉！」本文冒頭（誌面133頁）に「猪剛鬣」へのルビ「ちょごうりょう」がある。"
+      - "id": "xy-form-1914"
+        "text": "天蓬水神"
+        "relation": "alias"
+        "reading":
+          "kana": "てんぽうすいじん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-form-1927"
+        "text": "天蓬"
+        "relation": "alias"
+        "reading":
+          "kana": "てんぽう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-form-1938"
+        "text": "悟能"
+        "relation": "short_form"
+        "reading":
+          "kana": "ごのう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-form-1939"
+        "text": "八戒"
+        "relation": "alias"
+        "reading":
+          "kana": "はっかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-form-1940"
+        "text": "猪八戒"
+        "relation": "alias"
+        "reading":
+          "kana": "ちょはっかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
   - "id": "xy-entry-0903"
     "kind": "concept"
     "headword": "精霊"
@@ -31827,6 +31997,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+      - "id": "xy-form-1944"
+        "text": "烏斯蔵"
+        "relation": "short_form"
+        "reading":
+          "kana": "うしぞう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
   - "id": "xy-entry-1593"
     "kind": "place"
     "headword": "高老荘"
@@ -31845,6 +32023,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+      - "id": "xy-form-1933"
+        "text": "高家荘"
+        "relation": "alias"
+        "reading":
+          "kana": "こうかそう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
   - "id": "xy-entry-1594"
     "kind": "person"
     "headword": "高太公"
@@ -32083,3 +32269,1113 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+  - "id": "xy-entry-1607"
+    "kind": "concept"
+    "headword": "三途"
+    "definition_ja": "地獄・餓鬼・畜生という三つの苦しい生存のあり方。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1892"
+        "text": "三途"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんず"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1608"
+    "kind": "concept"
+    "headword": "天関"
+    "definition_ja": "内丹の修練で身体の上方に見立てる関門。具体的な部位の同定は一定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1893"
+        "text": "天関"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんかん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1609"
+    "kind": "concept"
+    "headword": "地闕"
+    "definition_ja": "内丹の修練で身体の下方に見立てる門。具体的な部位の同定は一定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1894"
+        "text": "地闕"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちけつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1610"
+    "kind": "concept"
+    "headword": "九転大還丹"
+    "definition_ja": "幾重にも精錬を重ねて仙人の境地を得るとする錬丹の法。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1895"
+        "text": "九転大還丹"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうてんだいかんたん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1611"
+    "kind": "concept"
+    "headword": "腎水"
+    "definition_ja": "内丹術で腎に属するとされる水の働き、または精。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1897"
+        "text": "腎水"
+        "relation": "preferred"
+        "reading":
+          "kana": "じんすい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1612"
+    "kind": "concept"
+    "headword": "華池"
+    "definition_ja": "道教の身体観で口中や舌下などに見立てられる霊液のたまる場所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1898"
+        "text": "華池"
+        "relation": "preferred"
+        "reading":
+          "kana": "かち"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1613"
+    "kind": "concept"
+    "headword": "丹田"
+    "definition_ja": "道教の修練で精気を養い集めると考えられた身体内の場所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1899"
+        "text": "丹田"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんでん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1614"
+    "kind": "concept"
+    "headword": "嬰児"
+    "definition_ja": "内丹術で身体内の精気や完成した霊的な働きを幼児にたとえた象徴。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1900"
+        "text": "嬰児"
+        "relation": "preferred"
+        "reading":
+          "kana": "えいじ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1615"
+    "kind": "concept"
+    "headword": "姹女"
+    "definition_ja": "内丹術で身体内の陰陽の働きの一方を若い女性にたとえる象徴。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1901"
+        "text": "姹女"
+        "relation": "preferred"
+        "reading":
+          "kana": "たじょ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1616"
+    "kind": "concept"
+    "headword": "鉛"
+    "definition_ja": "内丹術で陰陽の働きを表す象徴の一つ。汞と組み合わせて語られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1902"
+        "text": "鉛"
+        "relation": "preferred"
+        "reading":
+          "kana": "えん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1617"
+    "kind": "concept"
+    "headword": "汞"
+    "definition_ja": "水銀を表す字を用い、内丹術で鉛と対にしていう陰陽の象徴。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1903"
+        "text": "汞"
+        "relation": "preferred"
+        "reading":
+          "kana": "こう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1618"
+    "kind": "concept"
+    "headword": "離龍"
+    "definition_ja": "易の離と竜に結び付けられた内丹術の象徴。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1904"
+        "text": "離龍"
+        "relation": "preferred"
+        "reading":
+          "kana": "りりゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1619"
+    "kind": "concept"
+    "headword": "坎虎"
+    "definition_ja": "易の坎と虎に結び付けられた内丹術の象徴。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1905"
+        "text": "坎虎"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんこ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1620"
+    "kind": "concept"
+    "headword": "霊亀"
+    "definition_ja": "内丹術で水や陰の側の働きを霊妙な亀にたとえた象徴。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1906"
+        "text": "霊亀"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいき"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1621"
+    "kind": "concept"
+    "headword": "三花聚頂"
+    "definition_ja": "精・気・神などの三つの霊的要素が頭頂に集まるとする内丹術の境地。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1907"
+        "text": "三花聚頂"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんかじゅちょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1622"
+    "kind": "concept"
+    "headword": "五気朝元"
+    "definition_ja": "五臓に配された気が根源へ集まるとする内丹術の境地。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1908"
+        "text": "五気朝元"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごきちょうげん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1623"
+    "kind": "term"
+    "headword": "憲節"
+    "definition_ja": "官が法度を取り締まる権限のしるしである符節。また、そこから転じた官の権威を示す呼び方。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1910"
+        "text": "憲節"
+        "relation": "preferred"
+        "reading":
+          "kana": "けんせつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1624"
+    "kind": "place"
+    "headword": "広寒宮"
+    "definition_ja": "嫦娥が住むとされる月の宮殿。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1911"
+        "text": "広寒宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうかんきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1625"
+    "kind": "term"
+    "headword": "天関"
+    "definition_ja": "天界へ通じる関門。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1912"
+        "text": "天関"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんかん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1626"
+    "kind": "term"
+    "headword": "雑犯"
+    "definition_ja": "名目上は死罪に当たるが、代償を納めるなどして減刑できる犯罪の区分。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-391"
+      "reason_ja": "「雑犯死罪」と「真犯死罪」の対比で、贖刑の可否と死刑執行の違いが明示されている。"
+    "forms":
+      - "id": "xy-form-1916"
+        "text": "雑犯"
+        "relation": "preferred"
+        "reading":
+          "kana": "ざっぱん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1627"
+    "kind": "term"
+    "headword": "三媒六証"
+    "definition_ja": "婚姻を仲立ちする仲人と、婚約を証明する証人たち。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1917"
+        "text": "三媒六証"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんばいろくしょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1628"
+    "kind": "term"
+    "headword": "真犯"
+    "definition_ja": "法の定める死刑を実行し、贖刑を許さない犯罪の区分。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-391"
+      "reason_ja": "「雑犯死罪」と「真犯死罪」の対比で、贖刑の可否と死刑執行の違いが明示されている。"
+    "forms":
+      - "id": "xy-form-1918"
+        "text": "真犯"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんぱん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1629"
+    "kind": "object"
+    "headword": "神氷鉄"
+    "definition_ja": "仙界の武器を鍛えるための霊妙な鉄。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1919"
+        "text": "神氷鉄"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんひょうてつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1630"
+    "kind": "person"
+    "headword": "熒\U000243D8"
+    "definition_ja": "火星を神格化した存在と解される神。熒惑の異表記。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1920"
+        "text": "熒\U000243D8"
+        "relation": "preferred"
+        "reading":
+          "kana": "けいわく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1631"
+    "kind": "person"
+    "headword": "五方五帝"
+    "definition_ja": "東・西・南・北・中央の五方に配される天界の帝神。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1921"
+        "text": "五方五帝"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごほうごてい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1632"
+    "kind": "concept"
+    "headword": "六曜"
+    "definition_ja": "天体の運行や暦に結び付けられる六つの曜。具体的な内訳は文脈による。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1922"
+        "text": "六曜"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろくよう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1633"
+    "kind": "concept"
+    "headword": "五星"
+    "definition_ja": "木星・火星・土星・金星・水星の五つの惑星。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1923"
+        "text": "五星"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごせい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1634"
+    "kind": "term"
+    "headword": "四時"
+    "definition_ja": "春・夏・秋・冬の四季。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1924"
+        "text": "四時"
+        "relation": "preferred"
+        "reading":
+          "kana": "しじ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1635"
+    "kind": "title"
+    "headword": "大羅仙"
+    "definition_ja": "道教で高い天上の境地に達した仙人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1926"
+        "text": "大羅仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいらせん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1636"
+    "kind": "place"
+    "headword": "天曹"
+    "definition_ja": "天界の政務を扱う役所、または天上の官界。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1928"
+        "text": "天曹"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんそう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1637"
+    "kind": "term"
+    "headword": "鼉"
+    "definition_ja": "ワニに似た大きな水棲の爬虫類をいう古語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1930"
+        "text": "鼉"
+        "relation": "preferred"
+        "reading":
+          "kana": "だ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1638"
+    "kind": "concept"
+    "headword": "心猿"
+    "definition_ja": "落ち着かず動き回る心を猿にたとえた語。物語では孫悟空にも重ねられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1934"
+        "text": "心猿"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんえん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1639"
+    "kind": "concept"
+    "headword": "木龍"
+    "definition_ja": "内丹術で木の働きを竜にたとえた象徴。猪悟能の寓意にも用いられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1935"
+        "text": "木龍"
+        "relation": "preferred"
+        "reading":
+          "kana": "もくりゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1640"
+    "kind": "concept"
+    "headword": "三交三合"
+    "definition_ja": "三つの要素が交わり合い、調和することをいう内丹術的な表現。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1936"
+        "text": "三交三合"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんこうさんごう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1641"
+    "kind": "concept"
+    "headword": "貞元"
+    "definition_ja": "易で終わりと始まりの循環に結び付けられる語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1937"
+        "text": "貞元"
+        "relation": "preferred"
+        "reading":
+          "kana": "ていげん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1642"
+    "kind": "term"
+    "headword": "火居道士"
+    "definition_ja": "寺観に住まず、家庭を持って暮らす道士。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1941"
+        "text": "火居道士"
+        "relation": "preferred"
+        "reading":
+          "kana": "かきょどうし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1643"
+    "kind": "concept"
+    "headword": "意馬"
+    "definition_ja": "駆け回る馬になぞらえた、抑え難く動く思いや意識。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1942"
+        "text": "意馬"
+        "relation": "preferred"
+        "reading":
+          "kana": "いば"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1644"
+    "kind": "concept"
+    "headword": "金華"
+    "definition_ja": "内丹術で修練によって凝り成す光や精華をいう象徴的な語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1943"
+        "text": "金華"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんか"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1645"
+    "kind": "place"
+    "headword": "浮屠山"
+    "definition_ja": "烏巣禅師が修行する山。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1945"
+        "text": "浮屠山"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふとざん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1646"
+    "kind": "person"
+    "headword": "烏巣禅師"
+    "definition_ja": "浮屠山の木の巣に住み、三蔵へ心経を伝える禅師。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1946"
+        "text": "烏巣禅師"
+        "relation": "preferred"
+        "reading":
+          "kana": "うそうぜんじ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1647"
+    "kind": "term"
+    "headword": "柏槇"
+    "definition_ja": "ヒノキ科の常緑針葉樹。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1947"
+        "text": "柏槇"
+        "relation": "preferred"
+        "reading":
+          "kana": "びゃくしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1648"
+    "kind": "term"
+    "headword": "麋鹿"
+    "definition_ja": "中国に生息する大型のシカを指す古語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1948"
+        "text": "麋鹿"
+        "relation": "preferred"
+        "reading":
+          "kana": "びろく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1649"
+    "kind": "term"
+    "headword": "錦鶏"
+    "definition_ja": "鮮やかな羽を持つキジの一種。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1950"
+        "text": "錦鶏"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんけい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1650"
+    "kind": "concept"
+    "headword": "魔瘴"
+    "definition_ja": "妖魔による妨げや、人を害すると考えられた瘴気。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1951"
+        "text": "魔瘴"
+        "relation": "preferred"
+        "reading":
+          "kana": "ましょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1651"
+    "kind": "object"
+    "headword": "多心経"
+    "definition_ja": "般若心経の別称。智慧の完成と空を説く短い仏典。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1952"
+        "text": "多心経"
+        "relation": "preferred"
+        "reading":
+          "kana": "たしんきょう"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-392"
+          "reason_ja": "出典に示された当該語形全体の日本語仮名を直接確認した。"
+      - "id": "xy-form-1953"
+        "text": "摩訶般若波羅蜜多心経"
+        "relation": "alias"
+        "reading":
+          "kana": "まかはんにゃはらみったしんぎょう"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-393"
+          "reason_ja": "出典に示された当該語形全体の日本語仮名を直接確認した。"
+  - "id": "xy-entry-1652"
+    "kind": "concept"
+    "headword": "般若波羅蜜多"
+    "definition_ja": "悟りへ至る智慧の完成。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1955"
+        "text": "般若波羅蜜多"
+        "relation": "preferred"
+        "reading":
+          "kana": "はんにゃはらみった"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1653"
+    "kind": "person"
+    "headword": "舎利子"
+    "definition_ja": "釈迦の弟子、舎利弗の別名。智慧に優れるとされる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-395"
+      "reason_ja": "辞書の人物同定または悟りの語義の説明が、採用した定義全体を裏付ける。"
+    "forms":
+      - "id": "xy-form-1956"
+        "text": "舎利子"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゃりし"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-395"
+          "reason_ja": "出典に示された当該語形全体の日本語仮名を直接確認した。"
+  - "id": "xy-entry-1654"
+    "kind": "concept"
+    "headword": "受"
+    "definition_ja": "感覚対象を受けて生じる感受作用。五蘊の一つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1957"
+        "text": "受"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゅ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1655"
+    "kind": "concept"
+    "headword": "想"
+    "definition_ja": "対象の姿をとらえ、心に表象する作用。五蘊の一つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1958"
+        "text": "想"
+        "relation": "preferred"
+        "reading":
+          "kana": "そう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1656"
+    "kind": "concept"
+    "headword": "行"
+    "definition_ja": "意志を含む、心のさまざまな形成作用。五蘊の一つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1959"
+        "text": "行"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1657"
+    "kind": "concept"
+    "headword": "識"
+    "definition_ja": "対象を認識し、識別する意識作用。五蘊の一つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1960"
+        "text": "識"
+        "relation": "preferred"
+        "reading":
+          "kana": "しき"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1658"
+    "kind": "concept"
+    "headword": "眼界"
+    "definition_ja": "眼・色・眼識の関係で数えられる、見る感官の領域。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1961"
+        "text": "眼界"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1659"
+    "kind": "concept"
+    "headword": "意識界"
+    "definition_ja": "十八界の一つで、心による認識作用の領域。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1962"
+        "text": "意識界"
+        "relation": "preferred"
+        "reading":
+          "kana": "いしきかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1660"
+    "kind": "concept"
+    "headword": "無明"
+    "definition_ja": "物事の真実を知らず、迷いの根となる無知。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1963"
+        "text": "無明"
+        "relation": "preferred"
+        "reading":
+          "kana": "むみょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1661"
+    "kind": "concept"
+    "headword": "阿耨多羅三藐三菩提"
+    "definition_ja": "一切の真理を正しくあまねく悟る、仏の悟り。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-397"
+      "reason_ja": "辞書の人物同定または悟りの語義の説明が、採用した定義全体を裏付ける。"
+    "forms":
+      - "id": "xy-form-1965"
+        "text": "阿耨多羅三藐三菩提"
+        "relation": "preferred"
+        "reading":
+          "kana": "あのくたらさんみゃくさんぼだい"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-397"
+          "reason_ja": "出典に示された当該語形全体の日本語仮名を直接確認した。"
+  - "id": "xy-entry-1662"
+    "kind": "place"
+    "headword": "烏巣"
+    "definition_ja": "烏巣禅師が木の上に作って住む巣。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1966"
+        "text": "烏巣"
+        "relation": "preferred"
+        "reading":
+          "kana": "うそう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1663"
+    "kind": "place"
+    "headword": "接天崖"
+    "definition_ja": "烏巣禅師が西へ向かう道中の地として挙げる崖。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1967"
+        "text": "接天崖"
+        "relation": "preferred"
+        "reading":
+          "kana": "せってんがい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1664"
+    "kind": "place"
+    "headword": "摩耳巌"
+    "definition_ja": "烏巣禅師が西へ向かう道中の地として挙げる険しい岩場。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1968"
+        "text": "摩耳巌"
+        "relation": "preferred"
+        "reading":
+          "kana": "まじがん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1665"
+    "kind": "place"
+    "headword": "黒松林"
+    "definition_ja": "烏巣禅師が妖狐の多い道中の地として挙げる林。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1969"
+        "text": "黒松林"
+        "relation": "preferred"
+        "reading":
+          "kana": "こくしょうりん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1666"
+    "kind": "term"
+    "headword": "琴堂"
+    "definition_ja": "琴を弾いて善政を行った故事にちなむ、地方長官の役所の雅称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1970"
+        "text": "琴堂"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんどう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+  - "id": "xy-entry-1667"
+    "kind": "title"
+    "headword": "主簿"
+    "definition_ja": "文書や帳簿を扱い、長官を補佐する官職。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-390"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+    "forms":
+      - "id": "xy-form-1971"
+        "text": "主簿"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅぼ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
