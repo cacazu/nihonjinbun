@@ -1,2383 +1,3770 @@
-schema_version: '2.0'
-work_id: xiyouji-chapter-010-zh-ja
-metadata:
-  title_ja: 西遊記 第十回
-  title_original: 西遊記 第十回 老龍王拙計犯天條 魏丞相遺書託冥吏
-  original_languages:
-  - zh-Hant
-  target_language: ja
-  contributors:
-  - id: traditional-author
-    name_ja: 呉承恩（伝）
-    name_original: 吳承恩
-    roles:
-    - author
-  - id: ai-translator
-    name_ja: ChatGPT（AIによる新訳）
-    name_original: null
-    roles:
-    - translator
-  translation_rights:
-    status: licensed
-    license_id: CC-BY-SA-4.0
-    license_url: https://creativecommons.org/licenses/by-sa/4.0/
-    attribution: 『西遊記』第十回 日本語新訳（AI生成）。原文は中文維基文庫「西遊記/第010回」oldid=2194739。
-    note_ja: 電子翻刻の帰属表示と継承条件を保持するためCC BY-SA 4.0を明示。原典は公有と区別する。AIによる対訳と確認であり、専門家の独立校訂は未実施。
-  genres:
-  - 中国古典文学
-  - 神魔小説
-  - 物語
-  reader_notes_ja:
-  - 第十回の回題から結語まで、全54対訳単位に全文を収録。冒頭の詞10首・詩2首・聯句2篇、独立韻文7箇所、韻文の勅書、『爛柯経』の引用を省略しない。魏徴の手紙は原典に全文がないため補わない。
-  - 底本は中文維基文庫固定版oldid=2194739（2022年11月15日15:30 UTC）、同サイトの第001〜009回に連続する系列。原典は公有、電子翻刻の帰属と継承条件を保持。AI新訳であり、専門家の独立校訂は未実施。
-  - 地の文と話者は張稍、李定、涇河の竜王、袁守誠、太宗、魏徴、徐世勣、秦叔宝、尉遅恭等に統一。白衣の学者への変身も同一人物と分かるよう訳した。聯句二篇は原文に各句の話者指定がないため、張稍と李定の合同ラベルを付け、先に詠む人物は前文に示す。
-  - 原文の胡敬德・敬德・尉遲恭は同一人物の呼称として整理し、会話の秦・胡は保持。劉洪紀・太后・茲洲・臺政・壘荼などの底本表記は別版で訂正しない。鳥英・黄楝等の植物の同定は留保する。
-  - 尺・寸・点の雨量や時刻は物語内の数値を保持し、現代の雨量や時刻に確定換算しない。占術、医官の診断、門神の由来は物語の記述。西施・三象・余丁などの細義には留保がある。
-sources:
-- id: wikisource-xiyou-ch10-2194739
-  role: primary
-  title: 西遊記/第010回
-  languages:
-  - zh-Hant
-  url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-  edition: 中文維基文庫、固定版oldid=2194739（2022年11月15日15:30 UTC）、無変換表示。
-  contributor_ids:
-  - traditional-author
-  work_rights:
-    status: public_domain
-    note_ja: 明代成立の古典本文。伝統的には呉承恩作とされるが著者帰属には議論がある。
-  transcription_rights:
-    status: licensed
-    license_id: CC-BY-SA-4.0
-    license_url: https://creativecommons.org/licenses/by-sa/4.0/
-    evidence_url: https://zh.wikisource.org/wiki/Wikisource:Copyrights
-    attribution: 中文維基文庫「西遊記/第010回」の寄稿者（oldid=2194739）。
-  description_ja: 回題、全散文、詩詞・聯句、勅書、棋論引用、結語。
-  local_path: translations/wu-chengen/verification/xiyouji-chapter-010-source-2194739-zh-hant.txt
-  sha256: 21d001a4b044b5ae23a1b5fb44667f1f6dbb17988cf72894b53d4f12d17f707a
-- id: moe-nan
-  role: comparison
-  title: 教育部《重編國語辭典修訂本》：柟
-  languages:
-  - zh-Hant
-  url: https://dict.revised.moe.edu.tw/dictView.jsp?ID=2989&la=0&powerMode=0
-  edition: 臺灣學術網路第六版
-  work_rights:
-    status: unknown
-  transcription_rights:
-    status: unknown
-  description_ja: 独立AIレビューで柟の植物語義を照合。辞書本文は転載しない。
-scope:
-  included:
-  - source_id: wikisource-xiyou-ch10-2194739
-    description_ja: 第十回の回題から結語まで全体。
-    section_ids:
-    - chapter-10
-  excluded:
-  - source_id: wikisource-xiyou-ch10-2194739
-    description_ja: 著者欄、前後回案内、サイトの表示・フッター。
-  known_gaps:
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-002
-    description_ja: 西施聲音の具体的な音の比喩・掛詞は未確定のため、西施の名を保持する。 本文の欠落ではなく解釈・校訂上の留保。
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-004
-    description_ja: 鳥英は底本の原字を保持。植物の厳密な同定は未確定。 本文の欠落ではなく解釈・校訂上の留保。
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-005
-    description_ja: 黄楝・山茶の植物種や食用部位は厳密には未確定。 本文の欠落ではなく解釈・校訂上の留保。
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-014
-    description_ja: 聯句の各句の話者は原文に逐一指定がない。二人の共同発話として示し、句単位の推定割当はしない。大沖、拆牌道字等の細義は留保。 本文の欠落ではなく解釈・校訂上の留保。
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-015
-    description_ja: 聯句の先行者は李定。各句の話者は推測せず合同ラベルとした。余丁の身分上の細義は留保。 本文の欠落ではなく解釈・校訂上の留保。
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-020
-    description_ja: 原文は群衆中の占術の声の話者を明記しない。袁守誠と断定せず話者不明とする。占術の組合せを別資料で訂正しない。 本文の欠落ではなく解釈・校訂上の留保。
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-021
-    description_ja: 臺政新經を台政新経として保持。臺正等への補訂は行わない。 本文の欠落ではなく解釈・校訂上の留保。
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-032
-    description_ja: 三象の指示対象は未確定。原語を保持する。 本文の欠落ではなく解釈・校訂上の留保。
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-033
-    description_ja: 底本の胡敬德は文脈上の尉遅恭と同一として地の文を統一。劉洪紀の表記は劉弘基等へ無断訂正しない。 本文の欠落ではなく解釈・校訂上の留保。
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-044
-    description_ja: 太后は底本の呼称を保持。医官の診断は歴史的物語の描写であり、現代医学上の説明ではない。 本文の欠落ではなく解釈・校訂上の留保。
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-049
-    description_ja: 胡・敬德・尉遲恭を同一人物として本文の呼称を統一するが、太宗の発話内の秦・胡は保持。 本文の欠落ではなく解釈・校訂上の留保。
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-051
-    description_ja: 壘荼を原字で保持。神荼・鬱壘等への無断訂正はしない。坐折の細義は留保し、靴の折り目と解する。 本文の欠落ではなく解釈・校訂上の留保。
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-053
-    description_ja: 茲洲の地名を原字で保持。先受茲洲令の官職上の不整合や侍長の詳細は留保。太后も底本のまま。 本文の欠落ではなく解釈・校訂上の留保。
-  - source_id: wikisource-xiyou-ch10-2194739
-    segment_ids:
-    - xy-ch10-009
-    description_ja: 柟はクスノキ科の楠木類の古称だが、日本のクスノキと同一視しない。原字を保持し厳密な種同定は留保。 本文の欠落ではなく解釈・校訂上の留保。
-sections:
-- id: chapter-10
-  parent_id: null
-  kind: chapter
-  heading_segment_ids:
-  - xy-ch10-001
-segments:
-- id: xy-ch10-001
-  section_id: chapter-10
-  kind: heading
-  origin: source
-  source_text: '第十回
-
-    老龍王拙計犯天條　魏丞相遺書託冥吏'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 117
-    line_end: 118
-  translation_ja: '第十回
-
-    老竜王、拙い計略で天の掟を犯し　魏丞相、書を託して冥界の役人に頼む'
-  translation_status: reviewed
-- id: xy-ch10-002
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '且不題光蕊盡職，玄奘修行。卻說長安城外涇河岸邊，有兩個賢人：一個是漁翁，名喚張稍；一個是樵子，名喚李定。他兩個是不登科的進士，能識字的山人。一日，在長安城裡賣了肩上柴，貨了籃中鯉，同入酒館之中，吃了半酣，各攜一瓶，順涇河岸邊，徐步而回。張稍道：「李兄，我想那爭名的，因名喪體；奪利的，為利亡身；受爵的，抱虎而眠；承恩的，袖蛇而走。算起來，還不如我們水秀山青，逍遙自在，甘淡薄，隨緣而過。」李定道：「張兄說得有理。但只是你那水秀，不如我的山青。」張稍道：「你山青不如我的水秀。有一《蝶戀花》詞為證。詞曰：
-
+"schema_version": "2.0"
+"work_id": "xiyouji-chapter-010-zh-ja"
+"metadata":
+  "title_ja": "西遊記 第十回"
+  "title_original": "西遊記 第十回 老龍王拙計犯天條 魏丞相遺書託冥吏"
+  "original_languages":
+  - "zh-Hant"
+  "target_language": "ja"
+  "contributors":
+  - "id": "traditional-author"
+    "name_ja": "呉承恩（伝）"
+    "name_original": "吳承恩"
+    "roles":
+    - "author"
+  - "id": "ai-translator"
+    "name_ja": "ChatGPT（AIによる新訳）"
+    "name_original": null
+    "roles":
+    - "translator"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "『西遊記』第十回 日本語新訳（AI生成）。原文は中文維基文庫「西遊記/第010回」oldid=2194739。"
+    "note_ja": "電子翻刻の帰属表示と継承条件を保持するためCC BY-SA 4.0を明示。原典は公有と区別する。AIによる対訳と確認であり、専門家の独立校訂は未実施。"
+  "genres":
+  - "中国古典文学"
+  - "神魔小説"
+  - "物語"
+  "reader_notes_ja":
+  - "第十回の回題から結語まで、全54対訳単位に全文を収録。冒頭の詞10首・詩2首・聯句2篇、独立韻文7箇所、韻文の勅書、『爛柯経』の引用を省略しない。魏徴の手紙は原典に全文がないため補わない。"
+  - "底本は中文維基文庫固定版oldid=2194739（2022年11月15日15:30 UTC）、同サイトの第001〜009回に連続する系列。原典は公有、電子翻刻の帰属と継承条件を保持。AI新訳であり、専門家の独立校訂は未実施。"
+  - "地の文と話者は張稍、李定、涇河の竜王、袁守誠、太宗、魏徴、徐世勣、秦叔宝、尉遅恭等に統一。白衣の学者への変身も同一人物と分かるよう訳した。聯句二篇は原文に各句の話者指定がないため、張稍と李定の合同ラベルを付け、先に詠む人物は前文に示す。"
+  - "原文の胡敬德・敬德・尉遲恭は同一人物の呼称として整理し、会話の秦・胡は保持。劉洪紀・太后・茲洲・臺政・壘荼などの底本表記は別版で訂正しない。鳥英・黄楝等の植物の同定は留保する。"
+  - "尺・寸・点の雨量や時刻は物語内の数値を保持し、現代の雨量や時刻に確定換算しない。占術、医官の診断、門神の由来は物語の記述。西施・三象・余丁などの細義には留保がある。"
+"sources":
+- "id": "wikisource-xiyou-ch10-2194739"
+  "role": "primary"
+  "title": "西遊記/第010回"
+  "languages":
+  - "zh-Hant"
+  "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+  "edition": "中文維基文庫、固定版oldid=2194739（2022年11月15日15:30 UTC）、無変換表示。"
+  "contributor_ids":
+  - "traditional-author"
+  "work_rights":
+    "status": "public_domain"
+    "note_ja": "明代成立の古典本文。伝統的には呉承恩作とされるが著者帰属には議論がある。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "evidence_url": "https://zh.wikisource.org/wiki/Wikisource:Copyrights"
+    "attribution": "中文維基文庫「西遊記/第010回」の寄稿者（oldid=2194739）。"
+  "description_ja": "回題、全散文、詩詞・聯句、勅書、棋論引用、結語。"
+  "local_path": "translations/wu-chengen/verification/xiyouji-chapter-010-source-2194739-zh-hant.txt"
+  "sha256": "21d001a4b044b5ae23a1b5fb44667f1f6dbb17988cf72894b53d4f12d17f707a"
+- "id": "moe-nan"
+  "role": "comparison"
+  "title": "教育部《重編國語辭典修訂本》：柟"
+  "languages":
+  - "zh-Hant"
+  "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=2989&la=0&powerMode=0"
+  "edition": "臺灣學術網路第六版"
+  "work_rights":
+    "status": "unknown"
+  "transcription_rights":
+    "status": "unknown"
+  "description_ja": "独立AIレビューで柟の植物語義を照合。辞書本文は転載しない。"
+"scope":
+  "included":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "description_ja": "第十回の回題から結語まで全体。"
+    "section_ids":
+    - "chapter-10"
+  "excluded":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "description_ja": "著者欄、前後回案内、サイトの表示・フッター。"
+  "known_gaps":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-002"
+    "description_ja": "西施聲音の具体的な音の比喩・掛詞は未確定のため、西施の名を保持する。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-004"
+    "description_ja": "鳥英は底本の原字を保持。植物の厳密な同定は未確定。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-005"
+    "description_ja": "黄楝・山茶の植物種や食用部位は厳密には未確定。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-014"
+    "description_ja": "聯句の各句の話者は原文に逐一指定がない。二人の共同発話として示し、句単位の推定割当はしない。大沖、拆牌道字等の細義は留保。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-015"
+    "description_ja": "聯句の先行者は李定。各句の話者は推測せず合同ラベルとした。余丁の身分上の細義は留保。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-020"
+    "description_ja": "原文は群衆中の占術の声の話者を明記しない。袁守誠と断定せず話者不明とする。占術の組合せを別資料で訂正しない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-021"
+    "description_ja": "臺政新經を台政新経として保持。臺正等への補訂は行わない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-032"
+    "description_ja": "三象の指示対象は未確定。原語を保持する。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-033"
+    "description_ja": "底本の胡敬德は文脈上の尉遅恭と同一として地の文を統一。劉洪紀の表記は劉弘基等へ無断訂正しない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-044"
+    "description_ja": "太后は底本の呼称を保持。医官の診断は歴史的物語の描写であり、現代医学上の説明ではない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-049"
+    "description_ja": "胡・敬德・尉遲恭を同一人物として本文の呼称を統一するが、太宗の発話内の秦・胡は保持。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-051"
+    "description_ja": "壘荼を原字で保持。神荼・鬱壘等への無断訂正はしない。坐折の細義は留保し、靴の折り目と解する。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-053"
+    "description_ja": "茲洲の地名を原字で保持。先受茲洲令の官職上の不整合や侍長の詳細は留保。太后も底本のまま。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "segment_ids":
+    - "xy-ch10-009"
+    "description_ja": "柟はクスノキ科の楠木類の古称だが、日本のクスノキと同一視しない。原字を保持し厳密な種同定は留保。 本文の欠落ではなく解釈・校訂上の留保。"
+"sections":
+- "id": "chapter-10"
+  "parent_id": null
+  "kind": "chapter"
+  "heading_segment_ids":
+  - "xy-ch10-001"
+"segments":
+- "id": "xy-ch10-001"
+  "section_id": "chapter-10"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    第十回
+    老龍王拙計犯天條　魏丞相遺書託冥吏
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 117
+    "line_end": 118
+  "translation_ja": |-
+    第十回
+    老竜王、拙い計略で天の掟を犯し　魏丞相、書を託して冥界の役人に頼む
+  "translation_status": "reviewed"
+- "id": "xy-ch10-002"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    且不題光蕊盡職，玄奘修行。卻說長安城外涇河岸邊，有兩個賢人：一個是漁翁，名喚張稍；一個是樵子，名喚李定。他兩個是不登科的進士，能識字的山人。一日，在長安城裡賣了肩上柴，貨了籃中鯉，同入酒館之中，吃了半酣，各攜一瓶，順涇河岸邊，徐步而回。張稍道：「李兄，我想那爭名的，因名喪體；奪利的，為利亡身；受爵的，抱虎而眠；承恩的，袖蛇而走。算起來，還不如我們水秀山青，逍遙自在，甘淡薄，隨緣而過。」李定道：「張兄說得有理。但只是你那水秀，不如我的山青。」張稍道：「你山青不如我的水秀。有一《蝶戀花》詞為證。詞曰：
     煙波萬里扁舟小，靜依孤篷，西施聲音遶。滌慮洗心名利少，閑攀蓼穗蒹葭草。
-
-    數點沙鷗堪樂道，柳岸蘆灣，妻子同歡笑。一覺安眠風浪消，無榮無辱無煩惱。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 121
-    line_end: 124
-  translation_ja: '陳光蕊が職務を尽くし、玄奘が修行する話は、ひとまず置こう。さて、長安の城外、涇河の岸辺に二人の賢人がいた。一人は漁師で、名を張稍といい、もう一人は木こりで、名を李定といった。二人とも、科挙に及第してはいない進士、読み書きのできる山人というべき者だった。ある日、長安の町で肩の薪と籠の鯉を売り、そろって酒屋へ入り、ほろ酔いになった。各々酒を一瓶持つと、涇河の岸に沿って、ゆっくり歩いて帰った。
-
-    張稍「李兄、私が思うに、名を争う者は名のため身を失い、利を奪い合う者は利のため命を落とす。爵位を受けるのは虎を抱いて眠るようなもの、恩寵を受けるのは袖に蛇を入れて歩くようなものだ。考えてみれば、私たちの美しい水、青い山で、のびのび自由に、質素を楽しみ、縁に任せて暮らす方がよい。」
-
-    李定「張兄の言うことはもっともだ。ただ、お前の水の美しさは、私の山の青さにかなわない。」
-
-    張稍「お前の山の青さこそ、私の水の美しさにかなわない。その証しに、『蝶恋花』の詞が一つある。こうだ。
-
+    數點沙鷗堪樂道，柳岸蘆灣，妻子同歡笑。一覺安眠風浪消，無榮無辱無煩惱。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 121
+    "line_end": 124
+  "translation_ja": |-
+    陳光蕊（ちんこうずい・推定。玄奘の父で、官人となった人物）が職務を尽くし、玄奘（げんじょう。のちに経典を求めて西へ旅する僧）が修行する話は、ひとまず置こう。さて、長安（ちょうあん・推定。唐の都。現在の西安に当たる）の城外、涇河（けいが・推定。長安近くを流れ、渭河へ注ぐ川）の岸辺に二人の賢人がいた。一人は漁師で、名を張稍（ちょうしょう・推定。涇河で漁をし、李定と詩を交わす漁師）といい、もう一人は木こりで、名を李定（りてい・推定。張稍の友人で、詩を好む木こり）といった。二人とも、科挙（かきょ。中国で官人を選ぶために行われた試験制度）に及第してはいない進士（しんし・推定。科挙の試験に合格した者の称。ここでは学識ある人にたとえる）、読み書きのできる山人（さんじん・推定。山里に暮らし、世俗を離れた人）というべき者だった。ある日、長安の町で肩の薪と籠の鯉を売り、そろって酒屋へ入り、ほろ酔いになった。各々酒を一瓶持つと、涇河の岸に沿って、ゆっくり歩いて帰った。
+    張稍「李兄（りけい・推定。李定を親しみと敬意を込めて呼ぶ名）、私が思うに、名を争う者は名のため身を失い、利を奪い合う者は利のため命を落とす。爵位（しゃくい・推定。功績や身分に応じて授けられる貴族の位）を受けるのは虎を抱いて眠るようなもの、恩寵（おんちょう・推定。君主などから特別に受ける慈しみ）を受けるのは袖に蛇を入れて歩くようなものだ。考えてみれば、私たちの美しい水、青い山で、のびのび自由に、質素を楽しみ、縁に任せて暮らす方がよい。」
+    李定「張兄（ちょうけい・推定。張稍を親しみと敬意を込めて呼ぶ名）の言うことはもっともだ。ただ、お前の水の美しさは、私の山の青さにかなわない。」
+    張稍「お前の山の青さこそ、私の水の美しさにかなわない。その証しに、『蝶恋花（ちょうれんか・推定。詞の曲調と字数・韻の型を示す名）』の詞（し・推定。曲調に合わせ、句の長さと韻を定めた中国の詩歌形式）が一つある。こうだ。
     煙る波は万里、小舟は小さく、
-
-    一つの篷に静かに寄れば、西施の声が巡る。
-
+    一つの篷（とま。舟を覆う、竹や草などで編んだ屋根）に静かに寄れば、西施（せいし。古代中国の美女。ここでの声の比喩の細義は未確定）の声が巡る。
     思いをすすぎ、心を洗い、名利への思いは少なく、
-
-    のんびり蓼の穂や葦の草を手折る。
-
+    のんびり蓼（たで・推定。水辺などに生えるタデ科の草）の穂や葦の草を手折る。
     点々といる砂洲のカモメこそ、語る楽しみ。
-
     柳の岸、葦の入り江で、妻や子と笑い合う。
-
     一眠り安らかにすれば、風も波も静まり、
-
-    栄誉も恥辱もなく、悩みもない。」'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 西施聲音の具体的な音の比喩・掛詞は未確定のため、西施の名を保持する。
-- id: xy-ch10-003
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '李定道：「你的水秀，不如我的山青。也有個《蝶戀花》詞為證。詞曰：
-
+    栄誉も恥辱もなく、悩みもない。」
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "西施聲音の具体的な音の比喩・掛詞は未確定のため、西施の名を保持する。"
+- "id": "xy-ch10-003"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    李定道：「你的水秀，不如我的山青。也有個《蝶戀花》詞為證。詞曰：
     雲林一段松花滿，默聽鶯啼，巧舌如調管。紅瘦綠肥春正暖，倏然夏至光陰轉。
-
-    又值秋來容易換，黃花香，堪供玩。迅速嚴冬如指撚，逍遙四季無人管。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 126
-    line_end: 129
-  translation_ja: '李定「お前の水の美しさは、私の山の青さにかなわない。私にも、その証しに『蝶恋花』がある。こう詠む。
-
+    又值秋來容易換，黃花香，堪供玩。迅速嚴冬如指撚，逍遙四季無人管。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 126
+    "line_end": 129
+  "translation_ja": |-
+    李定「お前の水の美しさは、私の山の青さにかなわない。私にも、その証しに『蝶恋花』がある。こう詠む。
     雲の林の一画に、松の花が満ち、
-
     黙って聞けば、鶯の巧みな舌は笛を奏でるよう。
-
     紅い花は減り、緑の葉は茂り、春は暖かく、
-
     ふと夏が来て、月日は移る。
-
     また秋が来れば、移り変わるのもたやすく、
-
     黄色い花は香り、眺めて楽しむに足る。
-
     厳しい冬も指をひねる間に巡り来るが、
-
-    四季をのびのび暮らし、誰にも指図されぬ。」'
-  translation_status: reviewed
-- id: xy-ch10-004
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '漁翁道：「你山青不如我水秀，受用些好物。有一《鷓鴣天》為證：
-
+    四季をのびのび暮らし、誰にも指図されぬ。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-004"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    漁翁道：「你山青不如我水秀，受用些好物。有一《鷓鴣天》為證：
     仙鄉雲水足生涯，擺櫓橫舟便是家。活剖鮮鱗烹綠鱉，旋蒸紫蟹煮紅蝦。
-
-    青蘆筍，水荇芽，菱角雞頭更可誇。嬌藕老蓮芹葉嫩，慈菇茭白鳥英花。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 131
-    line_end: 133
-  translation_ja: '張稍「お前の山の青さは、私の水の美しさにかなわない。うまいものも楽しめる。その証しに『鷓鴣天』がある。
-
-    仙郷の雲と水で、生計は十分、
-
-    櫓を動かし、舟を横たえれば、そこが我が家。
-
+    青蘆筍，水荇芽，菱角雞頭更可誇。嬌藕老蓮芹葉嫩，慈菇茭白鳥英花。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 131
+    "line_end": 133
+  "translation_ja": |-
+    張稍「お前の山の青さは、私の水の美しさにかなわない。うまいものも楽しめる。その証しに『鷓鴣天（しゃこてん。詞の曲調と字数・韻の型を示す名）』がある。
+    仙郷（せんきょう・推定。仙人の住む境地。ここでは美しい水辺のたとえ）の雲と水で、生計は十分、
+    櫓（ろ・推定。舟の後方で動かし、水をかいて進める道具）を動かし、舟を横たえれば、そこが我が家。
     生きのよい魚をさばき、緑のスッポンを煮て、
-
     すぐに紫のカニを蒸し、赤いエビを煮る。
-
-    青い葦の芽、アサザの芽、
-
-    ヒシの実、オニバスの実も自慢の品。
-
+    青い葦の芽、アサザ（水面に葉を浮かべ、黄色い花を咲かせる水草）の芽、
+    ヒシの実、オニバス（とげのある大きな浮葉を持ち、実を食用にする水草）の実も自慢の品。
     柔らかな蓮根、熟れた蓮の実、若いセリの葉、
-
-    クワイ、マコモの茎、鳥英の花。」'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 鳥英は底本の原字を保持。植物の厳密な同定は未確定。
-- id: xy-ch10-005
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '樵夫道：「你水秀不如我山青，受用些好物。亦有一《鷓鴣天》為證：
-
+    クワイ（水田などで育て、地下の塊茎を食べる水草）、マコモ（水辺に生えるイネ科の草。肥大した茎を食べる）の茎、鳥英（ちょうえい・推定。原文に挙がる食用の花の名。植物の同定は未確定）の花。」
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "鳥英は底本の原字を保持。植物の厳密な同定は未確定。"
+- "id": "xy-ch10-005"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    樵夫道：「你水秀不如我山青，受用些好物。亦有一《鷓鴣天》為證：
     崔巍峻嶺接天涯，草舍茅庵是我家。醃臘雞鵝強蟹鱉，獐豝兔鹿勝魚蝦。
-
-    香椿葉，黃楝芽，竹筍山茶更可誇。紫李紅桃梅杏熟，甜梨酸棗木樨花。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 135
-    line_end: 138
-  translation_ja: '李定「お前の水の美しさは、私の山の青さにかなわない。こちらにもうまいものがある。やはり『鷓鴣天』を証しにしよう。
-
+    香椿葉，黃楝芽，竹筍山茶更可誇。紫李紅桃梅杏熟，甜梨酸棗木樨花。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 135
+    "line_end": 138
+  "translation_ja": |-
+    李定「お前の水の美しさは、私の山の青さにかなわない。こちらにもうまいものがある。やはり『鷓鴣天』を証しにしよう。
     険しい峰々は空の果てへ続き、
-
     草葺きの家、茅の庵こそ我が家。
-
-    塩漬けの鶏や鵞鳥は、カニやスッポンよりうまく、
-
-    キバノロ、雌の猪、兎や鹿は、魚やエビにまさる。
-
-    チャンチンの葉、黄楝の芽、
-
-    タケノコ、山茶も自慢の品。
-
+    塩漬けの鶏や鵞鳥（がちょう・推定。ガンを飼い慣らした家禽）は、カニやスッポンよりうまく、
+    キバノロ（雄に長い牙がある小型のシカ）、雌の猪、兎や鹿は、魚やエビにまさる。
+    チャンチン（若芽や若葉を食用にするセンダン科の木）の葉、黄楝（こうれん・推定。原文に芽を食べる植物として挙がる名。種の同定は未確定）の芽、
+    タケノコ、山茶（さんちゃ・推定。山に生える茶やツバキ類を指す語。ここでの種は未確定）も自慢の品。
     紫のスモモ、紅い桃、梅や杏は熟れ、
-
-    甘い梨、酸っぱいナツメ、モクセイの花もある。」'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 黄楝・山茶の植物種や食用部位は厳密には未確定。
-- id: xy-ch10-006
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '漁翁道：「你山青真個不如我的水秀。又有《天仙子》一首：
-
+    甘い梨、酸っぱいナツメ、モクセイの花もある。」
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "黄楝・山茶の植物種や食用部位は厳密には未確定。"
+- "id": "xy-ch10-006"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    漁翁道：「你山青真個不如我的水秀。又有《天仙子》一首：
     一葉小舟隨所寓，萬疊煙波無恐懼。垂鉤撒網捉鮮鱗，沒醬膩，偏有味，老妻稚子團圓會。
-
-    魚多又貨長安市，換得香醪吃個醉。簑衣當被臥秋江，鼾鼾睡，無憂慮，不戀人間榮與貴。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 140
-    line_end: 143
-  translation_ja: '張稍「お前の青い山は、まったく私の美しい水にかなわない。さらに『天仙子』を一首。
-
+    魚多又貨長安市，換得香醪吃個醉。簑衣當被臥秋江，鼾鼾睡，無憂慮，不戀人間榮與貴。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 140
+    "line_end": 143
+  "translation_ja": |-
+    張稍「お前の青い山は、まったく私の美しい水にかなわない。さらに『天仙子（てんせんし・推定。詞の曲調と字数・韻の型を示す名）』を一首。
     一葉の小舟は、行く先がそのまま住まい、
-
     幾重もの煙る波にも、恐れはない。
-
     釣り針を垂れ、網を撒き、生きのよい魚を捕る。
-
-    こってりした醬はなくても、格別の味、
-
+    こってりした醬（ひしお・推定。穀物や肉・魚などを発酵させて作る濃い調味料）はなくても、格別の味、
     老いた妻と幼い子が、そろって集まる。
-
     魚が多ければ長安の市で売り、
-
     香りよい濁り酒に換え、酔いしれる。
-
-    蓑を布団に、秋の川に寝そべり、
-
+    蓑（みの・推定。草やわらを編んで作る雨具）を布団に、秋の川に寝そべり、
     いびきをかいて、憂いなく眠り、
-
-    この世の栄華も富貴も恋しくない。」'
-  translation_status: reviewed
-- id: xy-ch10-007
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '樵子道：「你水秀還不如我的山青。也有《天仙子》一首：
-
+    この世の栄華も富貴も恋しくない。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-007"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    樵子道：「你水秀還不如我的山青。也有《天仙子》一首：
     茆舍數椽山下蓋，松竹梅蘭真可愛。穿林越嶺覓乾柴，沒人怪，從我賣，或少或多憑世界。
-
-    將錢沽酒隨心快，瓦缽磁甌殊自在。酕醄醉了臥松陰，無掛礙，無利害，不管人間興與敗。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 145
-    line_end: 148
-  translation_ja: '李定「お前の美しい水は、やはり私の青い山にかなわない。私も『天仙子』を一首。
-
-    山の麓に幾間かの茅屋を建て、
-
+    將錢沽酒隨心快，瓦缽磁甌殊自在。酕醄醉了臥松陰，無掛礙，無利害，不管人間興與敗。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 145
+    "line_end": 148
+  "translation_ja": |-
+    李定「お前の美しい水は、やはり私の青い山にかなわない。私も『天仙子』を一首。
+    山の麓に幾間かの茅屋（ぼうおく・推定。茅や草で屋根をふいた質素な家）を建て、
     松、竹、梅、蘭を、心から愛でる。
-
     林を抜け、峰を越え、乾いた薪を捜す。
-
     とがめる人もなく、売るのも自由、
-
     多いか少ないかは世間次第。
-
     その銭で酒を買い、心のままに楽しみ、
-
     土の鉢、磁器の碗で、まことに気楽。
-
     酔いしれて松陰に横たわり、
-
     しがらみも、利害もなく、
-
-    人の世の栄えや衰えなど構わない。」'
-  translation_status: reviewed
-- id: xy-ch10-008
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '漁翁道：「李兄，你山中不如我水上生意快活。有一《西江月》為證：
-
+    人の世の栄えや衰えなど構わない。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-008"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    漁翁道：「李兄，你山中不如我水上生意快活。有一《西江月》為證：
     紅蓼花繁映月，黃蘆葉亂搖風。碧天清遠楚江空，牽攪一潭星動。
-
-    入網大魚作隊，吞鉤小鱖成叢。得來烹煮味偏濃，笑傲江湖打鬨。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 150
-    line_end: 152
-  translation_ja: '張稍「李兄、山での仕事は、私の水上の商いほど楽しくはない。その証しに『西江月』を詠もう。
-
+    入網大魚作隊，吞鉤小鱖成叢。得來烹煮味偏濃，笑傲江湖打鬨。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 150
+    "line_end": 152
+  "translation_ja": |-
+    張稍「李兄、山での仕事は、私の水上の商いほど楽しくはない。その証しに『西江月（せいこうげつ・推定。詞の曲調と字数・韻の型を示す名）』を詠もう。
     紅い蓼の花は繁り、月を映し、
-
     黄ばんだ葦の葉は、乱れて風に揺れる。
-
-    青空は澄んで遠く、楚の川は広々と空き、
-
+    青空は澄んで遠く、楚（そ・推定。古代中国の国名で、長江中流域の地域名でもある）の川は広々と空き、
     舟を引いて水をかき回せば、一淵の星が動く。
-
     網に入る大魚は群れをなし、
-
-    針を飲む小さなケツギョは集まる。
-
+    針を飲む小さなケツギョ（中国の淡水にすむ、肉食性の食用魚）は集まる。
     捕って煮れば、その味はいっそう濃く、
-
-    川や湖で大笑いし、気ままに騒ぐ。」'
-  translation_status: reviewed
-- id: xy-ch10-009
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '樵夫道：「張兄，你水上還不如我山中的生意快活。亦有《西江月》為證：
-
+    川や湖で大笑いし、気ままに騒ぐ。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-009"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    樵夫道：「張兄，你水上還不如我山中的生意快活。亦有《西江月》為證：
     敗葉枯藤滿路，破梢老竹盈山。女蘿乾葛亂牽攀，折取收繩殺擔。
-
-    蟲蛀空心榆柳，風吹斷頭松柟。採來堆積備冬寒，換酒換錢從俺。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 154
-    line_end: 157
-  translation_ja: '李定「張兄、水上の商いは、やはり山での仕事ほど楽しくない。私も『西江月』を証しにしよう。
-
+    蟲蛀空心榆柳，風吹斷頭松柟。採來堆積備冬寒，換酒換錢從俺。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 154
+    "line_end": 157
+  "translation_ja": |-
+    李定「張兄、水上の商いは、やはり山での仕事ほど楽しくない。私も『西江月』を証しにしよう。
     朽ち葉と枯れ藤は道に満ち、
-
     折れた枝や老いた竹は山にいっぱい。
-
-    サルオガセや乾いた葛が乱れ絡まり、
-
+    サルオガセ（木の枝から糸状に垂れ下がる地衣類）や乾いた葛が乱れ絡まり、
     折り取って縄でまとめ、荷に締める。
-
     虫に食われ、芯の空いたニレや柳、
-
-    風に梢を折られた松や柟の木。
-
+    風に梢を折られた松や柟（なん・推定。クスノキ科の楠木類を指す字。日本のクスと同一とは限らない）の木。
     集めて積んで、冬の寒さに備え、
-
-    酒に換えるも銭に換えるも、私の自由。」'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 柟はクスノキ科の楠木類の古称だが、日本のクスノキと同一視しない。原字を保持し厳密な種同定は留保。
-- id: xy-ch10-010
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '漁翁道：「你山中雖可比過，還不如我水秀的幽雅。有一《臨江仙》為證：
-
+    酒に換えるも銭に換えるも、私の自由。」
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "柟はクスノキ科の楠木類の古称だが、日本のクスノキと同一視しない。原字を保持し厳密な種同定は留保。"
+- "id": "xy-ch10-010"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    漁翁道：「你山中雖可比過，還不如我水秀的幽雅。有一《臨江仙》為證：
     潮落旋移孤艇去，夜深罷棹歌來。簑衣殘月甚幽哉，宿鷗驚不起，天際彩雲開。
-
-    困臥蘆洲無個事，三竿日上還捱。隨心儘意自安排，朝臣寒待漏，怎似我寬懷。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 159
-    line_end: 162
-  translation_ja: '張稍「お前の山にも比べられるところはあるが、私の美しい水の静かな趣には及ばない。その証しに『臨江仙』がある。
-
+    困臥蘆洲無個事，三竿日上還捱。隨心儘意自安排，朝臣寒待漏，怎似我寬懷。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 159
+    "line_end": 162
+  "translation_ja": |-
+    張稍「お前の山にも比べられるところはあるが、私の美しい水の静かな趣には及ばない。その証しに『臨江仙（りんこうせん・推定。詞の曲調と字数・韻の型を示す名）』がある。
     潮が引けば、すぐ一艘の舟を移し、
-
     夜更け、棹を収めて歌い帰る。
-
     蓑にかかる残月の、なんと静かなこと。
-
     眠るカモメも驚かず、
-
     空の果てに彩雲が開く。
-
     疲れれば葦の洲に寝て、何の用もなく、
-
-    日が三竿も上がってなお、ぐずぐずしている。
-
+    日が三竿（さんかん・推定。太陽が竿三本ほどの高さに昇るころという、朝の遅さの表現）も上がってなお、ぐずぐずしている。
     心のまま、思いのまま、自分で暮らしを決める。
-
-    朝臣は寒い中、朝参の時を待つが、
-
-    私のこの気楽さに、どうして及ぼう。」'
-  translation_status: reviewed
-- id: xy-ch10-011
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '樵夫道：「你水秀的幽雅，還不如我山青更幽雅。亦有《臨江仙》可證：
-
+    朝臣（ちょうしん・推定。朝廷に仕える臣下）は寒い中、朝参（ちょうさん・推定。臣下が朝廷へ出仕すること）の時を待つが、
+    私のこの気楽さに、どうして及ぼう。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-011"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    樵夫道：「你水秀的幽雅，還不如我山青更幽雅。亦有《臨江仙》可證：
     蒼徑秋高拽斧去，晚涼擡擔回來。野花插鬢更奇哉，撥雲尋路出，待月叫門開。
-
-    稚子山妻欣笑接，草床木枕攲捱。蒸梨炊黍旋鋪排，甕中新釀熟，真個壯幽懷。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 164
-    line_end: 167
-  translation_ja: '李定「お前の美しい水の静かな趣も、私の青い山には及ばない。こちらも『臨江仙』を証しにしよう。
-
+    稚子山妻欣笑接，草床木枕攲捱。蒸梨炊黍旋鋪排，甕中新釀熟，真個壯幽懷。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 164
+    "line_end": 167
+  "translation_ja": |-
+    李定「お前の美しい水の静かな趣も、私の青い山には及ばない。こちらも『臨江仙』を証しにしよう。
     青い小道、秋空高く、斧を引いて行き、
-
     夕涼みには、荷を担いで帰ってくる。
-
-    野の花を鬢に挿すのも、また格別。
-
+    野の花を鬢（びん・推定。顔の左右、耳の前に生える髪）に挿すのも、また格別。
     雲を払い、道を捜して抜け、
-
     月を待ち、門を開けよと呼ぶ。
-
     幼い子と田舎の妻が、笑って迎え、
-
     草の床と木の枕に、身を寄せて横たわる。
-
-    梨を蒸し、黍を炊いて、すぐ食卓を整える。
-
-    甕の新酒も飲みごろとなり、
-
-    この静かな心持ちを、まことに豊かにしてくれる。」'
-  translation_status: reviewed
-- id: xy-ch10-012
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '漁翁道：「這都是我兩個生意，贍身的勾當，你卻沒有我閑時節的好處。有詩為證。詩曰：
-
+    梨を蒸し、黍（きび・推定。小さな粒を食用にするイネ科の穀物）を炊いて、すぐ食卓を整える。
+    甕（かめ・推定。酒や水などを入れる口の狭い大きな器）の新酒も飲みごろとなり、
+    この静かな心持ちを、まことに豊かにしてくれる。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-012"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    漁翁道：「這都是我兩個生意，贍身的勾當，你卻沒有我閑時節的好處。有詩為證。詩曰：
     閑看蒼天白鶴飛，停舟溪畔掩蒼扉。
-
     倚篷教子搓鉤線，罷棹同妻晒網圍。
-
     性定果然如浪靜，身安自是覺風微。
-
-    綠簑青笠隨時著，勝掛朝中紫綬衣。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 169
-    line_end: 173
-  translation_ja: '張稍「ここまでは私たち二人の商い、身を養う仕事のことだ。だが、暇なときの楽しさでは、私にはかなうまい。証しの詩がある。こうだ。
-
+    綠簑青笠隨時著，勝掛朝中紫綬衣。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 169
+    "line_end": 173
+  "translation_ja": |-
+    張稍「ここまでは私たち二人の商い、身を養う仕事のことだ。だが、暇なときの楽しさでは、私にはかなうまい。証しの詩がある。こうだ。
     暇には青空を白鶴が飛ぶのを眺め、
-
     渓流のほとりに舟を止め、青い扉を閉める。
-
     篷に寄って、子に釣り糸をよるのを教え、
-
     棹を収めれば、妻とともに網を干す。
-
     心が静まれば、まさしく波の静けさのよう、
-
     身が安らかなら、おのずと風もかすかに感じる。
-
     緑の蓑と青い笠を、折々に着ける方が、
-
-    朝廷で紫綬の衣をまとうよりよい。」'
-  translation_status: reviewed
-- id: xy-ch10-013
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '樵夫道：「你那閑時又不如我的閑時好也。亦有詩為證。詩曰：
-
+    朝廷で紫綬（しじゅ。高位の官人が印を帯びるために使う紫の組みひも）の衣をまとうよりよい。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-013"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    樵夫道：「你那閑時又不如我的閑時好也。亦有詩為證。詩曰：
     閑觀縹緲白雲飛，獨坐茅庵掩竹扉。
-
     無事訓兒開卷讀，有時對客把棋圍。
-
     喜來策杖歌芳徑，興到攜琴上翠微。
-
-    草履麻絛粗布被，心寬強似著羅衣。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 175
-    line_end: 180
-  translation_ja: '李定「その暇なときとて、私の暇の楽しさにはかなうまい。私にも証しの詩がある。こうだ。
-
+    草履麻絛粗布被，心寬強似著羅衣。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 175
+    "line_end": 180
+  "translation_ja": |-
+    李定「その暇なときとて、私の暇の楽しさにはかなうまい。私にも証しの詩がある。こうだ。
     暇には、はるかに白雲が飛ぶのを眺め、
-
     一人、茅の庵に座り、竹の扉を閉める。
-
     用がなければ子に書を開いて読むよう教え、
-
     ときには客を相手に碁盤を囲む。
-
     うれしければ杖をついて香る小道を歌い、
-
     興が湧けば琴を携え、緑の山腹へ登る。
-
     草履、麻の帯、粗布の着物でも、
-
-    心の広さは、薄絹をまとう身にまさる。」'
-  translation_status: reviewed
-- id: xy-ch10-014
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '張稍道：「李定，我兩個真是微吟可相狎，不須檀板共金樽。但散道詞章，不為稀罕。且各聯幾句，看我們漁樵攀話何如？」李定道：「張兄言之最妙。請兄先吟。」
-
+    心の広さは、薄絹をまとう身にまさる。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-014"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    張稍道：「李定，我兩個真是微吟可相狎，不須檀板共金樽。但散道詞章，不為稀罕。且各聯幾句，看我們漁樵攀話何如？」李定道：「張兄言之最妙。請兄先吟。」
     「舟停綠水煙波內，家住深山曠野中。
-
     偏愛溪橋春水漲，最憐岩岫曉雲蒙。
-
     龍門鮮鯉時烹煮，蟲蛀乾柴日燎烘。
-
     釣網多般堪贍老，擔繩二事可容終。
-
     小舟仰臥觀飛雁，草徑斜欹聽唳鴻。
-
     口舌場中無我分，是非海內少吾蹤。
-
     溪邊掛晒繒如錦，石上重磨斧似鋒。
-
     秋月暉暉常獨釣，春山寂寂沒人逢。
-
     魚多換酒同妻飲，柴剩沽壺共子叢。
-
     自唱自斟隨放蕩，長歌長嘆任顛風。
-
     呼兄喚弟邀船夥，挈友攜朋聚野翁。
-
     行令猜拳頻遞盞，拆牌道字漫傳鐘。
-
     烹蝦煮蟹朝朝樂，炒鴨爊雞日日豐。
-
     愚婦煎茶情散淡，山妻造飯意從容。
-
     曉來舉杖淘輕浪，日出擔柴過大沖。
-
     雨後披簑擒活鯉，風前弄斧伐枯松。
-
-    潛蹤避世妝痴蠢，隱姓埋名作啞聾。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 182
-    line_end: 199
-  translation_ja: '張稍「李定、私たちはまさに、小声で詩を吟じれば親しみ合えて、檀の拍子木や金の酒器も要らぬ仲だな。ただ、別々に詞を詠むだけでは珍しくない。各々何句かずつつなぎ、漁師と木こりの語らいが、どんなものになるか試そうじゃないか。」
-
+    潛蹤避世妝痴蠢，隱姓埋名作啞聾。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 182
+    "line_end": 199
+  "translation_ja": |-
+    張稍「李定、私たちはまさに、小声で詩を吟じれば親しみ合えて、檀（だん・推定。堅い材を持ち、拍子木などに用いる木の呼び名）の拍子木や金の酒器も要らぬ仲だな。ただ、別々に詞を詠むだけでは珍しくない。各々何句かずつつなぎ、漁師と木こりの語らいが、どんなものになるか試そうじゃないか。」
     李定「張兄、実に妙案だ。どうか先に詠んでくれ。」
-
     張稍から詠み始め、二人は句をつないだ。
-
     張稍と李定「舟は緑の水、煙る波の中に止め、家は深山、広い野の中に置く。
-
     ひときわ愛すのは渓橋に春の水が増すさま、何より好むのは岩峰に朝の雲がかかるさま。
-
-    竜門の新鮮な鯉を折々煮て、虫食いの乾いた薪を日々燃やす。
-
+    竜門（りゅうもん・推定。黄河の急流にある峡谷。鯉が登ると竜になるという伝説の地）の新鮮な鯉を折々煮て、虫食いの乾いた薪を日々燃やす。
     釣りと網のさまざまな道具で老いを養い、担い棒と縄の二つで一生を終えられる。
-
     小舟にあおむいて飛ぶ雁を眺め、草の道に身を傾け、雁の鳴く声を聞く。
-
     口論の場に私の出番はなく、是非の海に私の足跡は少ない。
-
     川辺に掛け干す網は錦のよう、石に重ねて研ぐ斧は鋭い刃のよう。
-
     秋の月が明るければいつも独りで釣り、春の山が静かなら人に会うこともない。
-
     魚が多ければ酒に換えて妻と飲み、薪が余れば一壺買って子と集まる。
-
     自ら歌い、自ら注ぎ、気ままに楽しみ、長く歌い、長く嘆き、狂おしいまま振る舞う。
-
     兄よ弟よと舟仲間を誘い、友を連れて野の翁たちと集まる。
-
-    酒令や拳遊びでしきりに杯を回し、牌を読み、文字を分ける遊びでゆるりと酒器を巡らす。
-
+    酒令（しゅれい・推定。酒席で詩や勝負などの決まりに従い杯を回す遊び）や拳遊びでしきりに杯を回し、牌（はい・推定。文字や模様を記した札で、遊戯に用いる）を読み、文字を分ける遊びでゆるりと酒器を巡らす。
     エビを煮、カニをゆで、朝ごとに楽しみ、鴨を炒め、鶏をじっくり煮て、日々豊か。
-
     愚妻が茶を煎じれば心は淡く静まり、山の妻が飯を作れば気持ちはゆったり。
-
     朝には竿を挙げて軽い波をかき、日が出れば薪を担いで大きな窪地を越える。
-
     雨の後は蓑を着て生きた鯉を捕り、風の前では斧を振るって枯れ松を伐る。
-
-    姿を隠し世を避けて愚か者を装い、姓も名も伏せ、口も耳も利かぬふりをする。」'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 聯句の各句の話者は原文に逐一指定がない。二人の共同発話として示し、句単位の推定割当はしない。大沖、拆牌道字等の細義は留保。
-- id: xy-ch10-015
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: '張稍道：「李兄，我才僭先起句，今到我兄，也先起一聯，小弟亦當續之。」
-
+    姿を隠し世を避けて愚か者を装い、姓も名も伏せ、口も耳も利かぬふりをする。」
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "聯句の各句の話者は原文に逐一指定がない。二人の共同発話として示し、句単位の推定割当はしない。大沖、拆牌道字等の細義は留保。"
+- "id": "xy-ch10-015"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    張稍道：「李兄，我才僭先起句，今到我兄，也先起一聯，小弟亦當續之。」
     「風月佯狂山野漢，江湖寄傲老餘丁。
-
     清閑有分隨瀟灑，口舌無聞喜太平。
-
     月夜身眠茅屋穩，天昏體蓋箬簑輕。
-
     忘情結識松梅友，樂意相交鷗鷺盟。
-
     名利心頭無算計，干戈耳畔不聞聲。
-
     隨時一酌香醪酒，度日三餐野菜羹。
-
     兩束柴薪為活計，一竿鉤線是營生。
-
     閑呼稚子磨鋼斧，靜喚憨兒補舊繒。
-
     春到愛觀楊柳綠，時融喜看荻蘆青。
-
     夏天避暑修新竹，六月乘涼摘嫩菱。
-
     霜降雞肥常日宰，重陽蟹壯及時烹。
-
     冬來日上還沉睡，數九天高自不寒。
-
     八節山中隨放性，四時湖裡任陶情。
-
     採薪自有仙家興，垂釣全無世俗形。
-
     門外野花香豔豔，船頭綠水浪平平。
-
     身安不說三公位，性定強如十里城。
-
     十里城高防閫令，三公位顯聽宣聲。
-
-    樂山樂水真是罕，謝天謝地謝神明。」'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 201
-    line_end: 219
-  translation_ja: '張稍「李兄、先ほどは出過ぎながら私から詠み始めた。今度はお前の番だ。先にひと組の句を出してくれ、私もそれを継ごう。」
-
+    樂山樂水真是罕，謝天謝地謝神明。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 201
+    "line_end": 219
+  "translation_ja": |-
+    張稍「李兄、先ほどは出過ぎながら私から詠み始めた。今度はお前の番だ。先にひと組の句を出してくれ、私もそれを継ごう。」
     今度は李定から詠み始めた。
-
-    張稍と李定「風月の中で狂人を装う山野の男、川や湖に誇りを託す老いた余丁。
-
+    張稍と李定「風月の中で狂人を装う山野の男、川や湖に誇りを託す老いた余丁（よてい・推定。正規の役務に割り当てられない男子。この詩での細かな意味は未確定）。
     清閑に恵まれ、気ままに暮らし、口争いも聞かず、太平を喜ぶ。
-
     月の夜には茅屋で安らかに眠り、空が暗くなれば、軽い笹の蓑を身に掛ける。
-
     世情を忘れ、松と梅を友とし、喜んでカモメやサギと盟を結ぶ。
-
     名利の算段は心になく、戦の音も耳に入らぬ。
-
     折々、香る濁り酒を一杯くみ、日々の三食は野菜の汁。
-
     二束の薪を生計とし、一本の釣り竿と糸をなりわいとする。
-
     のんびり幼子を呼んで鋼の斧を研がせ、静かに素朴な子を呼んで古網を繕わせる。
-
     春になれば柳の緑を喜び眺め、暖かくなれば荻や葦の青さを楽しむ。
-
     夏には暑さを避けて新竹を整え、六月には涼みながら若いヒシを摘む。
-
-    霜が降りれば鶏は肥え、日ごとにさばき、重陽にはカニが太り、時を逃さず煮る。
-
+    霜が降りれば鶏は肥え、日ごとにさばき、重陽（ちょうよう。陰暦九月九日の節句）にはカニが太り、時を逃さず煮る。
     冬になれば日が高くてもまだ深く眠り、真冬の空が高くても、身に寒さはない。
-
     八つの節目も山で心のまま、四季を湖で思いを楽しませる。
-
-    薪取りにはおのずと仙人の趣があり、釣りには少しも俗世の姿がない。
-
+    薪取りにはおのずと仙人（せんにん・推定。修行によって不老長寿や不思議な力を得たとされる人）の趣があり、釣りには少しも俗世の姿がない。
     門の外の野花は、香りも色も鮮やか、船首の緑の水は波も穏やか。
-
-    身が安らかなら三公の位も口にせず、心が定まれば十里の城にもまさる。
-
+    身が安らかなら三公（さんこう・推定。中国で最高位にある三つの官職、またはその官人）の位も口にせず、心が定まれば十里の城にもまさる。
     十里の高城には城門を守る命令があり、三公の高位には召し出しの声を聞かねばならぬ。
-
-    山を楽しみ、水を楽しむのは、まことに得難いこと、天に感謝し、地に感謝し、神明に感謝しよう。」'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 聯句の先行者は李定。各句の話者は推測せず合同ラベルとした。余丁の身分上の細義は留保。
-- id: xy-ch10-016
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 他二人既各道詞章，又相聯詩句。行到那分路去處，躬身作別。張稍道：「李兄啊，途中保重，上山仔細看虎。假若有些凶險，正是『明日街頭少故人』。」李定聞言，大怒道：「你這廝憊懶！好朋友也替得生死，你怎麼咒我？我若遇虎遭害，你必遇浪翻江。」張稍道：「我永世也不得翻江。」李定道：「『天有不測風雲，人有暫時禍福。』你怎麼就保得無事？」張稍道：「李兄，你雖這等說，你還沒捉摸；不若我的生意有捉摸，定不遭此等事。」李定道：「你那水面上營生，極凶極險，隱隱暗暗，有甚麼捉摸？」張稍道：「你是不曉得。這長安城裡，西門街上，有一個賣卦的先生。我每日送他一尾金色鯉，他就與我袖傳一課，依方位，百下百著。今日我又去買卦，他教我在涇河灣頭東邊下網，西岸拋鉤，定獲滿載魚蝦而歸。明日上城來，賣錢沽酒，再與老兄相敘。」二人從此敘別。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 220
-    line_end: 220
-  translation_ja: '二人はこのように、それぞれ詞を詠み、さらに詩句をつなぎ合った。道の分かれる所まで来ると、身をかがめて別れを告げた。
-
+    山を楽しみ、水を楽しむのは、まことに得難いこと、天に感謝し、地に感謝し、神明（しんめい・推定。天地の神々）に感謝しよう。」
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "聯句の先行者は李定。各句の話者は推測せず合同ラベルとした。余丁の身分上の細義は留保。"
+- "id": "xy-ch10-016"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "他二人既各道詞章，又相聯詩句。行到那分路去處，躬身作別。張稍道：「李兄啊，途中保重，上山仔細看虎。假若有些凶險，正是『明日街頭少故人』。」李定聞言，大怒道：「你這廝憊懶！好朋友也替得生死，你怎麼咒我？我若遇虎遭害，你必遇浪翻江。」張稍道：「我永世也不得翻江。」李定道：「『天有不測風雲，人有暫時禍福。』你怎麼就保得無事？」張稍道：「李兄，你雖這等說，你還沒捉摸；不若我的生意有捉摸，定不遭此等事。」李定道：「你那水面上營生，極凶極險，隱隱暗暗，有甚麼捉摸？」張稍道：「你是不曉得。這長安城裡，西門街上，有一個賣卦的先生。我每日送他一尾金色鯉，他就與我袖傳一課，依方位，百下百著。今日我又去買卦，他教我在涇河灣頭東邊下網，西岸拋鉤，定獲滿載魚蝦而歸。明日上城來，賣錢沽酒，再與老兄相敘。」二人從此敘別。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 220
+    "line_end": 220
+  "translation_ja": |-
+    二人はこのように、それぞれ詞を詠み、さらに詩句をつなぎ合った。道の分かれる所まで来ると、身をかがめて別れを告げた。
     張稍「李兄、道中、気をつけろよ。山へ入ったら、虎に用心することだ。万一危ないことでもあれば、まさに『明日は町角に、古い友が一人減る』というものだ。」
-
     李定は聞くと、ひどく怒った。
-
     李定「このろくでなし！　よい友なら、生死さえ身代わりになるものなのに、なぜ私を呪うのだ。私が虎に遭って死ぬなら、お前も波に遭って川で転覆するぞ。」
-
-    張稍「私は未来永劫、川で転覆などしない。」
-
-    李定「『天には測れぬ風雲があり、人には時ならぬ禍福がある』という。どうして無事だと保証できる。」
-
+    張稍「私は未来永劫（みらいえいごう・推定。これから先、限りなく続く長い時間）、川で転覆などしない。」
+    李定「『天には測れぬ風雲があり、人には時ならぬ禍福（かふく・推定。災いと幸せ）がある』という。どうして無事だと保証できる。」
     張稍「李兄、そう言っても、お前には確かな当てがない。私の商いには当てがあるから、そんなことには決して遭わないのだ。」
-
     李定「水の上で生計を立てるのは、この上なく危険で、先も見えない。どんな確かな当てがあるというのだ。」
-
-    張稍「お前は知らないのだ。長安の西門街に、占いを売る先生がいる。私は毎日、金色の鯉を一匹届ける。すると先生が袖の中で一卦を出してくれ、その方角に従えば、百回投げて百回当たる。今日も占いを買いに行くと、涇河の曲がりの東側で網を下ろし、西岸で釣り針を投げれば、魚やエビを満載して帰れると教えてくれた。明日また町へ来て、売った銭で酒を買い、お前と語り合おう。」
-
-    二人はこうして別れた。'
-  translation_status: reviewed
-- id: xy-ch10-017
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 這正是：「路上說話，草裡有人。」原來這涇河水府有一個巡水的夜叉，聽見了百下百著之言，急轉水晶宮，慌忙報與龍王道：「禍事了！禍事了！」龍王問：「有甚禍事？」夜叉道：「臣巡水去到河邊，只聽得兩個漁、樵攀話，相別時，言語甚是利害。那漁翁說：長安城裡，西門街上，有個賣卦先生，算得最準。他每日送他鯉魚一尾，他就袖傳一課，教他百下百著。若依此等算準，卻不將水族盡情打了？何以壯觀水府，何以躍浪翻波，輔助大王威力？」龍王甚怒，急提了劍，就要上長安城，誅滅這賣卦的。旁邊閃過龍子、龍孫、蝦臣、蟹士、鰣軍師、鱖少卿、鯉太宰，一齊啟奏道：「大王且息怒。常言道：『過耳之言，不可聽信。』大王此去，必有雲從，必有雨助，恐驚了長安黎庶，上天見責。大王隱顯莫測，變化無方，但只變一秀士，到長安城內訪問一番。果有此輩，容加誅滅不遲；若無此輩，可不是妄害他人也？」
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 221
-    line_end: 221
-  translation_ja: 'まさに「道で話せば、草の中に人がいる」というところ。実は涇河の水府に仕える巡水夜叉が、百回投げて百回当たるという話を聞いていた。急いで水晶宮へ戻り、慌てて涇河の竜王に報告した。
-
+    張稍「お前は知らないのだ。長安の西門街（せいもんがい・推定。長安の西門付近の通り）に、占いを売る先生がいる。私は毎日、金色の鯉を一匹届ける。すると先生が袖の中で一卦（いっか・推定。易で得られる一つの卦、または一回の占い）を出してくれ、その方角に従えば、百回投げて百回当たる。今日も占いを買いに行くと、涇河の曲がりの東側で網を下ろし、西岸で釣り針を投げれば、魚やエビを満載して帰れると教えてくれた。明日また町へ来て、売った銭で酒を買い、お前と語り合おう。」
+    二人はこうして別れた。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-017"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "這正是：「路上說話，草裡有人。」原來這涇河水府有一個巡水的夜叉，聽見了百下百著之言，急轉水晶宮，慌忙報與龍王道：「禍事了！禍事了！」龍王問：「有甚禍事？」夜叉道：「臣巡水去到河邊，只聽得兩個漁、樵攀話，相別時，言語甚是利害。那漁翁說：長安城裡，西門街上，有個賣卦先生，算得最準。他每日送他鯉魚一尾，他就袖傳一課，教他百下百著。若依此等算準，卻不將水族盡情打了？何以壯觀水府，何以躍浪翻波，輔助大王威力？」龍王甚怒，急提了劍，就要上長安城，誅滅這賣卦的。旁邊閃過龍子、龍孫、蝦臣、蟹士、鰣軍師、鱖少卿、鯉太宰，一齊啟奏道：「大王且息怒。常言道：『過耳之言，不可聽信。』大王此去，必有雲從，必有雨助，恐驚了長安黎庶，上天見責。大王隱顯莫測，變化無方，但只變一秀士，到長安城內訪問一番。果有此輩，容加誅滅不遲；若無此輩，可不是妄害他人也？」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 221
+    "line_end": 221
+  "translation_ja": |-
+    まさに「道で話せば、草の中に人がいる」というところ。実は涇河の水府（すいふ。水中にある竜王の居所や役所）に仕える巡水夜叉（じゅんすいやしゃ・推定。涇河の水域を巡回し、竜王に仕える夜叉）が、百回投げて百回当たるという話を聞いていた。急いで水晶宮（すいしょうきゅう・推定。涇河の竜王が住む水中の宮殿）へ戻り、慌てて涇河の竜王（けいがのりゅうおう・推定。涇河を治め、降雨をつかさどる竜王）に報告した。
     巡水夜叉「大変です、大変です！」
-
     涇河の竜王「何が大変なのだ。」
-
-    巡水夜叉「臣が水を巡って川辺へ行くと、漁師と木こりが話しておりました。別れ際の言葉が、ひどく恐ろしいのです。漁師は、長安の西門街にいる占い師はたいそうよく当たる、と申しました。毎日、鯉を一匹届けると、袖の中で一卦を出してくれ、百回投げて百回当たるようにしてくれるとか。これほど正確に占われては、水族を残らず捕り尽くされるではありませんか。何をもって水府を立派に飾り、何をもって波を躍らせ、うねりを起こし、大王の威力をお助けすればよいのでしょう。」
-
-    涇河の竜王は激怒し、すぐ剣をつかんで長安へ行き、その占い師を殺そうとした。脇から、竜の子や孫、エビの臣、カニの士、鰣軍師、鱖少卿、鯉太宰が進み出て、一斉に奏上した。
-
-    竜の子孫と水族の臣下たち「大王、まずはお怒りをお鎮めください。『耳をかすめた言葉を、すぐ信じてはならぬ』といいます。大王がおいでになれば、必ず雲が従い、雨も助けるでしょう。長安の民を驚かせ、天上のおとがめを受ける恐れがあります。大王の隠顕は測り知れず、変化も自在です。学者一人の姿に化けて、長安で調べてみられてはいかがでしょう。本当にそんな者がいれば、殺すのはその後でも遅くありません。いなければ、むやみに人を害することになるではありませんか。」'
-  translation_status: reviewed
-- id: xy-ch10-018
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 龍王依奏，遂棄寶劍，也不興雲雨，出岸上，搖身一變，變作一個白衣秀士，真個：
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 223
-    line_end: 223
-  translation_ja: 涇河の竜王は進言に従い、宝剣を手放し、雲も雨も起こさず、岸へ上がった。体を揺すって変身すると、白衣の学者となった。その姿は、まことに、
-  translation_status: reviewed
-- id: xy-ch10-019
-  section_id: chapter-10
-  kind: verse
-  origin: source
-  source_text: 丰姿英偉，聳壑昂霄。步履端祥，循規蹈矩。語言遵孔孟，禮貌體周文。身穿玉色羅襴服，頭戴逍遙一字巾。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 225
-    line_end: 225
-  translation_ja: '風采は雄々しく秀で、深い谷から高い空へそびえる気概。
-
-    歩みは穏やかで端正、規矩に従い、作法を守る。
-
-    言葉は孔子・孟子に従い、礼儀は周の文物にかなう。
-
-    身には玉色の薄絹の襴服、頭には逍遥一字巾。'
-  translation_status: reviewed
-- id: xy-ch10-020
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 上路來，拽開雲步，徑到長安城西門大街上。只見一簇人，擠擠雜雜，鬧鬧哄哄。內有高談闊論的道：「屬龍的本命，屬虎的相沖。寅辰巳亥，雖稱合局，但怕的是日犯歲君。」龍王聞言，情知是賣卜之處。走上前，分開眾人，望裡觀看。只見：
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 226
-    line_end: 226
-  translation_ja: '道へ出ると、雲のようにゆったりと歩を進め、長安の西門大街へまっすぐ向かった。人だかりがあり、ごった返して騒いでいる。その中で、高らかに論じる声がした。
-
-    話者不明「辰年生まれの本命には、寅が冲となる。寅・辰・巳・亥は組合せが整うといっても、日が太歳に触れるのが恐ろしい。」
-
-    涇河の竜王は聞いて、占いを売る場所だと悟った。前へ出て人をかき分け、中をのぞくと、こんなありさまだった。'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 原文は群衆中の占術の声の話者を明記しない。袁守誠と断定せず話者不明とする。占術の組合せを別資料で訂正しない。
-- id: xy-ch10-021
-  section_id: chapter-10
-  kind: verse
-  origin: source
-  source_text: 四壁珠璣，滿堂綺繡。寶鴨香無斷，磁瓶水恁清。兩邊羅列王維畫，座上高懸鬼谷形。端溪硯，金煙墨，相襯著霜毫大筆；火珠林，郭璞數，謹對了臺政新經。六爻熟諳，八卦精通。能知天地理，善曉鬼神情。一槃子午安排定，滿腹星辰佈列清。真個那未來事，過去事，觀如月鏡；幾家興，幾家敗，鑑若神明。知凶定吉，斷死言生。開談風雨迅，下筆鬼神驚。招牌有字書名姓，神課先生袁守誠。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 228
-    line_end: 228
-  translation_ja: '四方の壁には珠玉が並び、広間には綾や刺繡が満ちる。
-
+    巡水夜叉「臣（しん。臣下が君主に対して用いる自称）が水を巡って川辺へ行くと、漁師と木こりが話しておりました。別れ際の言葉が、ひどく恐ろしいのです。漁師は、長安の西門街にいる占い師はたいそうよく当たる、と申しました。毎日、鯉を一匹届けると、袖の中で一卦を出してくれ、百回投げて百回当たるようにしてくれるとか。これほど正確に占われては、水族（すいぞく・推定。魚やエビなど水中に暮らす生き物。ここでは竜王の臣下）を残らず捕り尽くされるではありませんか。何をもって水府を立派に飾り、何をもって波を躍らせ、うねりを起こし、大王の威力をお助けすればよいのでしょう。」
+    涇河の竜王は激怒し、すぐ剣をつかんで長安へ行き、その占い師を殺そうとした。脇から、竜の子や孫、エビの臣、カニの士、鰣軍師（じぐんし・推定。鰣の姿の臣下で、竜王へ計略を進言する軍師）、鱖少卿（けつしょうけい・推定。鱖の姿をし、少卿の官名を持つ竜王の臣下）、鯉太宰（りたいさい・推定。鯉の姿をし、太宰の官名を持つ竜王の臣下）が進み出て、一斉に奏上（そうじょう・推定。帝王に申し上げること）した。
+    竜の子孫と水族の臣下たち「大王、まずはお怒りをお鎮めください。『耳をかすめた言葉を、すぐ信じてはならぬ』といいます。大王がおいでになれば、必ず雲が従い、雨も助けるでしょう。長安の民を驚かせ、天上のおとがめを受ける恐れがあります。大王の隠顕（いんけん・推定。姿を隠すことと現すこと）は測り知れず、変化（へんげ。術によって姿や形を変えること）も自在です。学者一人の姿に化けて、長安で調べてみられてはいかがでしょう。本当にそんな者がいれば、殺すのはその後でも遅くありません。いなければ、むやみに人を害することになるではありませんか。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-018"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "龍王依奏，遂棄寶劍，也不興雲雨，出岸上，搖身一變，變作一個白衣秀士，真個："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 223
+    "line_end": 223
+  "translation_ja": "涇河の竜王は進言に従い、宝剣を手放し、雲も雨も起こさず、岸へ上がった。体を揺すって変身すると、白衣の学者となった。その姿は、まことに、"
+  "translation_status": "reviewed"
+- "id": "xy-ch10-019"
+  "section_id": "chapter-10"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "丰姿英偉，聳壑昂霄。步履端祥，循規蹈矩。語言遵孔孟，禮貌體周文。身穿玉色羅襴服，頭戴逍遙一字巾。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 225
+    "line_end": 225
+  "translation_ja": |-
+    風采は雄々しく秀で、深い谷から高い空へそびえる気概。
+    歩みは穏やかで端正、規矩（きく。物事の手本となる規則や作法）に従い、作法を守る。
+    言葉は孔子（こうし・推定。儒教のもとを築いた中国の思想家）・孟子（もうし。孔子の教えを受け継いだ中国の思想家）に従い、礼儀は周（しゅう・推定。礼楽の制度で知られる古代中国の王朝）の文物にかなう。
+    身には玉色の薄絹の襴服（らんぷく・推定。裾に横布を付けた、中国の学者などが着る長衣）、頭には逍遥一字巾（しょうよういちじきん・推定。学者風の人物がかぶる頭巾の名）。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-020"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "上路來，拽開雲步，徑到長安城西門大街上。只見一簇人，擠擠雜雜，鬧鬧哄哄。內有高談闊論的道：「屬龍的本命，屬虎的相沖。寅辰巳亥，雖稱合局，但怕的是日犯歲君。」龍王聞言，情知是賣卜之處。走上前，分開眾人，望裡觀看。只見："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 226
+    "line_end": 226
+  "translation_ja": |-
+    道へ出ると、雲のようにゆったりと歩を進め、長安の西門大街（せいもんたいがい・推定。長安の西門に通じる大通り）へまっすぐ向かった。人だかりがあり、ごった返して騒いでいる。その中で、高らかに論じる声がした。
+    話者不明「辰年（たつどし。十二支の辰に当たる年）生まれの本命（ほんみょう。生まれ年に配当され、運命を支配するとされる星や干支）には、寅（とら・推定。年や時刻、占いに用いる十二支の一つ）が冲（ちゅう・推定。占術で、干支どうしが対立して不調和になる組合せ）となる。寅・辰（たつ・推定。年や時刻、占いに用いる十二支の一つ）・巳（み・推定。年や時刻、占いに用いる十二支の一つ）・亥（い・推定。年や時刻、占いに用いる十二支の一つ）は組合せが整うといっても、日が太歳（たいさい・推定。年ごとの運勢をつかさどるとされる星や神）に触れるのが恐ろしい。」
+    涇河の竜王は聞いて、占いを売る場所だと悟った。前へ出て人をかき分け、中をのぞくと、こんなありさまだった。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "原文は群衆中の占術の声の話者を明記しない。袁守誠と断定せず話者不明とする。占術の組合せを別資料で訂正しない。"
+- "id": "xy-ch10-021"
+  "section_id": "chapter-10"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "四壁珠璣，滿堂綺繡。寶鴨香無斷，磁瓶水恁清。兩邊羅列王維畫，座上高懸鬼谷形。端溪硯，金煙墨，相襯著霜毫大筆；火珠林，郭璞數，謹對了臺政新經。六爻熟諳，八卦精通。能知天地理，善曉鬼神情。一槃子午安排定，滿腹星辰佈列清。真個那未來事，過去事，觀如月鏡；幾家興，幾家敗，鑑若神明。知凶定吉，斷死言生。開談風雨迅，下筆鬼神驚。招牌有字書名姓，神課先生袁守誠。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 228
+    "line_end": 228
+  "translation_ja": |-
+    四方の壁には珠玉が並び、広間には綾や刺繡が満ちる。
     鴨形の香炉に香は絶えず、磁器の瓶の水は何と清らか。
-
-    両脇には王維の絵が並び、座の上には鬼谷子の像が高く掛かる。
-
-    端渓の硯、金煙墨には、白い毛の大筆がよく似合い、
-
-    『火珠林』と郭璞の術数は、『台政新経』と慎重に照らし合わせてある。
-
-    六爻に習熟し、八卦に精通し、
-
-    天地の理を知り、鬼神の情に明るい。
-
-    盤には子午が定まり、胸の内には星辰が明瞭に並ぶ。
-
+    両脇には王維（おうい。詩と山水画で知られる唐代の文人）の絵が並び、座の上には鬼谷子（きこくし。戦国時代の兵法・遊説の祖とされる伝説的な人物）の像が高く掛かる。
+    端渓（たんけい。良質の硯石を産する中国広東の地）の硯、金煙墨（きんえんぼく・推定。良質のすすから作られた上等な墨）には、白い毛の大筆がよく似合い、
+    『火珠林（かじゅりん・推定。易占いを説明する中国の占術書）』と郭璞（かくはく。晋代の学者・詩人で、占術にも通じたとされる人物）の術数（じゅっすう・推定。暦や陰陽などを用いて吉凶を占う方法）は、『台政新経（たいせいしんけい・推定。占術書として本文に挙がる書名。書誌の同定は未確定）』と慎重に照らし合わせてある。
+    六爻（りくこう。易の一つの卦を構成する六本の線）に習熟し、八卦（はっけ・推定。易で陰陽の三本の線を組み合わせた八つの基本形）に精通し、
+    天地の理を知り、鬼神（きしん・推定。人知を超える霊や神々）の情に明るい。
+    盤には子午（しご・推定。十二支の子と午。占盤では北と南の位置を示す）が定まり、胸の内には星辰（せいしん・推定。星々や星座）が明瞭に並ぶ。
     未来のことも過去のことも、明月の鏡に見るよう、
-
     幾家の栄えも衰えも、神のように見抜く。
-
     凶を知り、吉を定め、死を判断し、生を語る。
-
     口を開けば風雨のように速やか、筆を下ろせば鬼神も驚く。
-
-    看板には名と姓が記されていた、神卦の先生、袁守誠と。'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 臺政新經を台政新経として保持。臺正等への補訂は行わない。
-- id: xy-ch10-022
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 此人是誰？原來是當朝欽天監臺正先生袁天罡的叔父，袁守誠是也。那先生果然相貌稀奇，儀容秀麗；名揚大國，術冠長安。龍王入門來，與先生相見。禮畢，請龍上坐，童子獻茶。先生問曰：「公來問何事？」龍王曰：「請卜天上陰晴事如何。」先生即袖傳一課，斷曰：「雲迷山頂，霧罩林梢。若占雨澤，準在明朝。」龍王曰：「明日甚時下雨？雨有多少尺寸？」先生道：「明日辰時布雲，巳時發雷，午時下雨，未時雨足，共得水三尺三寸零四十八點。」龍王笑曰：「此言不可作戲。如是明日有雨，依你斷的時辰、數目，我送課金五十兩奉謝；若無雨，或不按時辰、數目，我與你實說：定要打壞你的門面，扯碎你的招牌，即時趕出長安，不許在此惑眾。」先生忻然而答：「這個一定任你。請了，請了。明朝雨後來會。」
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 229
-    line_end: 229
-  translation_ja: 'この人は誰か。実は、当代の欽天監の台正、袁天罡の叔父、袁守誠である。その顔つきはまことに並外れ、姿は端麗で、名は大国に響き、術は長安一を誇っていた。涇河の竜王は門を入り、袁守誠と対面した。礼が済むと、上座に勧められ、童子が茶を差し出した。
-
+    看板には名と姓が記されていた、神卦（しんか・推定。神わざのようによく当たる占い）の先生、袁守誠（えんしゅせい・推定。長安で占いを行い、竜王の運命を見抜く占者）と。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "臺政新經を台政新経として保持。臺正等への補訂は行わない。"
+- "id": "xy-ch10-022"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "此人是誰？原來是當朝欽天監臺正先生袁天罡的叔父，袁守誠是也。那先生果然相貌稀奇，儀容秀麗；名揚大國，術冠長安。龍王入門來，與先生相見。禮畢，請龍上坐，童子獻茶。先生問曰：「公來問何事？」龍王曰：「請卜天上陰晴事如何。」先生即袖傳一課，斷曰：「雲迷山頂，霧罩林梢。若占雨澤，準在明朝。」龍王曰：「明日甚時下雨？雨有多少尺寸？」先生道：「明日辰時布雲，巳時發雷，午時下雨，未時雨足，共得水三尺三寸零四十八點。」龍王笑曰：「此言不可作戲。如是明日有雨，依你斷的時辰、數目，我送課金五十兩奉謝；若無雨，或不按時辰、數目，我與你實說：定要打壞你的門面，扯碎你的招牌，即時趕出長安，不許在此惑眾。」先生忻然而答：「這個一定任你。請了，請了。明朝雨後來會。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 229
+    "line_end": 229
+  "translation_ja": |-
+    この人は誰か。実は、当代の欽天監（きんてんかん。天文観測や暦の作成をつかさどる役所）の台正（たいせい・推定。ここでは欽天監の長官を表す官名）、袁天罡（えんてんこう・推定。唐代の占術家。物語では袁守誠の甥）の叔父、袁守誠である。その顔つきはまことに並外れ、姿は端麗で、名は大国に響き、術は長安一を誇っていた。涇河の竜王は門を入り、袁守誠と対面した。礼が済むと、上座に勧められ、童子（どうじ・推定。少年。ここでは占者のもとで茶を運ぶ者）が茶を差し出した。
     袁守誠「何をお尋ねになりたいのですか。」
-
     涇河の竜王「空の曇り晴れを占っていただきたい。」
-
     袁守誠は袖の中で一卦を出し、判断を告げた。
-
     袁守誠「雲は山頂を隠し、霧は林の梢を覆う。恵みの雨を占うなら、必ず明朝に降りましょう。」
-
     涇河の竜王「明日の何刻に降り、雨量は何尺何寸になるのですか。」
-
-    袁守誠「明日は辰の刻に雲が広がり、巳の刻に雷が鳴り、午の刻に雨が降り、未の刻に雨が十分に行き渡ります。合わせて三尺三寸四十八点の水となるでしょう。」
-
+    袁守誠「明日は辰の刻（たつのこく・推定。十二支で表す時刻の一つ。おおむね午前八時前後）に雲が広がり、巳の刻（みのこく・推定。十二支で表す時刻の一つ。おおむね午前十時前後）に雷が鳴り、午の刻（うまのこく・推定。十二支で表す時刻の一つ。おおむね正午前後）に雨が降り、未の刻（ひつじのこく・推定。十二支で表す時刻の一つ。おおむね午後二時前後）に雨が十分に行き渡ります。合わせて三尺三寸四十八点（さんしゃくさんずんしじゅうはってん・推定。物語で指定された雨量。点を含む古い単位で表す）の水となるでしょう。」
     涇河の竜王は笑った。
-
-    涇河の竜王「冗談では済まされませんぞ。明日、本当に雨が降り、お前の言う時刻と量のとおりなら、礼として占い料五十両を贈ろう。雨が降らぬか、時刻や量が違えば、はっきり言っておく、お前の店構えを壊し、看板を引き裂き、ただちに長安から追い出して、ここで人を惑わせることを許さぬ。」
-
+    涇河の竜王「冗談では済まされませんぞ。明日、本当に雨が降り、お前の言う時刻と量のとおりなら、礼として占い料五十両（ごじゅうりょう・推定。銀などを重さで数えた金額の表示）を贈ろう。雨が降らぬか、時刻や量が違えば、はっきり言っておく、お前の店構えを壊し、看板を引き裂き、ただちに長安から追い出して、ここで人を惑わせることを許さぬ。」
     袁守誠は喜んで答えた。
-
-    袁守誠「それは、必ずお任せしましょう。では、お引き取りください。明日、雨の後にお会いしましょう。」'
-  translation_status: reviewed
-- id: xy-ch10-023
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 龍王辭別，出長安，回水府。大小水神接著，問曰：「大王訪那賣卦的如何？」龍王道：「有，有，有。但是一個掉嘴口討春的先生。我問他幾時下雨，他就說明日下雨。問他甚麼時辰，甚麼雨數，他就說辰時布雲，巳時發雷，午時下雨，未時雨足，得水三尺三寸零四十八點。我與他打了個賭賽：若果如他言，送他謝金五十兩；如略差些，就打破他門面，趕他起身，不許在長安惑眾。」眾水族笑曰：「大王是八河都總管，司雨大龍神，有雨無雨，惟大王知之。他怎敢這等胡言？那賣卦的定是輸了，定是輸了。」
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 230
-    line_end: 230
-  translation_ja: '涇河の竜王は別れを告げ、長安を出て水府へ帰った。大小の水神が迎えて尋ねた。
-
+    袁守誠「それは、必ずお任せしましょう。では、お引き取りください。明日、雨の後にお会いしましょう。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-023"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "龍王辭別，出長安，回水府。大小水神接著，問曰：「大王訪那賣卦的如何？」龍王道：「有，有，有。但是一個掉嘴口討春的先生。我問他幾時下雨，他就說明日下雨。問他甚麼時辰，甚麼雨數，他就說辰時布雲，巳時發雷，午時下雨，未時雨足，得水三尺三寸零四十八點。我與他打了個賭賽：若果如他言，送他謝金五十兩；如略差些，就打破他門面，趕他起身，不許在長安惑眾。」眾水族笑曰：「大王是八河都總管，司雨大龍神，有雨無雨，惟大王知之。他怎敢這等胡言？那賣卦的定是輸了，定是輸了。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 230
+    "line_end": 230
+  "translation_ja": |-
+    涇河の竜王は別れを告げ、長安を出て水府へ帰った。大小の水神が迎えて尋ねた。
     水神たち「大王、占い師をお調べになって、いかがでしたか。」
-
     涇河の竜王「いた、いた。ただ口先でうまいことを言い、稼ぐ先生にすぎぬ。いつ雨が降るかと聞けば、明日降ると言う。時刻と量を聞けば、辰の刻に雲、巳の刻に雷、午の刻に雨、未の刻に十分に降って、三尺三寸四十八点の水になると言うのだ。それで賭けをした。本当に言ったとおりなら、礼金五十両をやる。少しでも違えば、店構えを壊して追い払い、長安で人を惑わせることを許さぬとな。」
-
     水族たちは笑った。
-
-    水族たち「大王は八つの川の総管、雨を司る大竜神です。雨が降るか降らぬか、ご存じなのは大王だけ。よくもそんなでたらめを言えたものです。占い師は負けに決まっています、負けに決まっています。」'
-  translation_status: reviewed
-- id: xy-ch10-024
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 此時龍子、龍孫與那魚卿、蟹士正歡笑談此事未畢，只聽得半空中叫：「涇河龍王接旨。」眾擡頭上看，是一個金衣力士，手擎玉帝敕旨，徑投水府而來。慌得龍王整衣端肅，焚香接了旨。金衣力士回空而去。龍王謝恩，拆封看時，上寫著：
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 232
-    line_end: 232
-  translation_ja: '竜の子や孫、魚の卿、カニの士が、このことを笑って語り合っていると、空中から叫ぶ声がした。
-
-    金衣力士「涇河の竜王、勅命を受けよ。」
-
-    一同が見上げると、金の衣の力士が玉帝の勅旨を手に、水府へまっすぐ降りてきた。涇河の竜王は慌てて衣を整え、姿勢を正し、香を焚いて勅旨を受け取った。金衣力士は空へ帰った。涇河の竜王は恩命を謝し、封を開いて見ると、こう記されていた。'
-  translation_status: reviewed
-- id: xy-ch10-025
-  section_id: chapter-10
-  kind: verse
-  origin: source
-  source_text: '敕命八河總，驅雷掣電行：
-
-    明朝施雨澤，普濟長安城。'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 234
-    line_end: 235
-  translation_ja: '八河の総管に勅命す、雷を駆り、稲妻を走らせよ。
-
-    明朝、恵みの雨を施し、広く長安の都を潤せ。'
-  translation_status: reviewed
-- id: xy-ch10-026
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 旨意上時辰、數目，與那先生判斷者毫髮不差。諕得那龍王魂飛魄散。少頃甦醒，對眾水族曰：「塵世上有此靈人，真個是能通天地理，卻不輸與他啊！」鰣軍師奏云：「大王放心。要贏他有何難處？臣有小計，管教滅那廝的口嘴。」龍王問計，軍師道：「行雨差了時辰，少些點數，就是那廝斷卦不準，怕不贏他？那時捽碎招牌，趕他跑路，果何難也？」龍王依他所奏，果不擔憂。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 236
-    line_end: 236
-  translation_ja: '勅旨にある時刻と量は、袁守誠の判断と寸分違わなかった。涇河の竜王は魂も散るほど驚き、しばらくして我に返ると、水族たちに言った。
-
+    水族たち「大王は八つの川の総管（そうかん・推定。ある区域や部門をまとめて統括する官職）、雨を司る大竜神です。雨が降るか降らぬか、ご存じなのは大王だけ。よくもそんなでたらめを言えたものです。占い師は負けに決まっています、負けに決まっています。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-024"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "此時龍子、龍孫與那魚卿、蟹士正歡笑談此事未畢，只聽得半空中叫：「涇河龍王接旨。」眾擡頭上看，是一個金衣力士，手擎玉帝敕旨，徑投水府而來。慌得龍王整衣端肅，焚香接了旨。金衣力士回空而去。龍王謝恩，拆封看時，上寫著："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 232
+    "line_end": 232
+  "translation_ja": |-
+    竜の子や孫、魚の卿、カニの士が、このことを笑って語り合っていると、空中から叫ぶ声がした。
+    金衣力士（きんいりきし・推定。金の衣をまとい、玉帝の命令を運ぶ神の使者）「涇河の竜王、勅命（ちょくめい。帝王が下す命令）を受けよ。」
+    一同が見上げると、金の衣の力士（りきし・推定。ここでは金の衣を着て玉帝の勅旨を運ぶ使者）が玉帝（ぎょくてい・推定。天上の神々を治める帝王）の勅旨（ちょくし・推定。帝王の意向や、それを伝える命令）を手に、水府へまっすぐ降りてきた。涇河の竜王は慌てて衣を整え、姿勢を正し、香を焚いて勅旨を受け取った。金衣力士は空へ帰った。涇河の竜王は恩命（おんめい・推定。帝王から賜ったありがたい命令）を謝し、封を開いて見ると、こう記されていた。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-025"
+  "section_id": "chapter-10"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    敕命八河總，驅雷掣電行：
+    明朝施雨澤，普濟長安城。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 234
+    "line_end": 235
+  "translation_ja": |-
+    八河（はっか・推定。長安の周辺を流れる八つの川）の総管に勅命す、雷を駆り、稲妻を走らせよ。
+    明朝、恵みの雨を施し、広く長安の都を潤せ。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-026"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "旨意上時辰、數目，與那先生判斷者毫髮不差。諕得那龍王魂飛魄散。少頃甦醒，對眾水族曰：「塵世上有此靈人，真個是能通天地理，卻不輸與他啊！」鰣軍師奏云：「大王放心。要贏他有何難處？臣有小計，管教滅那廝的口嘴。」龍王問計，軍師道：「行雨差了時辰，少些點數，就是那廝斷卦不準，怕不贏他？那時捽碎招牌，趕他跑路，果何難也？」龍王依他所奏，果不擔憂。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 236
+    "line_end": 236
+  "translation_ja": |-
+    勅旨にある時刻と量は、袁守誠の判断と寸分違わなかった。涇河の竜王は魂も散るほど驚き、しばらくして我に返ると、水族たちに言った。
     涇河の竜王「人の世に、こんな霊妙な者がいたのか。まさに天地の理に通じている。これでは、あの男に負けるではないか。」
-
     鰣軍師「大王、ご安心ください。あの者に勝つなど、何の難しいことがありましょう。臣に小さな策がございます。必ずあの口を黙らせてみせます。」
-
     涇河の竜王が策を尋ねると、鰣軍師は答えた。
-
     鰣軍師「雨を降らせる時刻をずらし、量をいくらか減らすのです。そうすれば、あの者の占いが外れたことになります。どうして勝てぬことがありましょう。そのとき看板を叩き壊し、追い出すのなど、まったく造作もありません。」
-
-    涇河の竜王はその進言に従い、もう心配しなくなった。'
-  translation_status: reviewed
-- id: xy-ch10-027
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 至次日，點札風伯、雷公、雲童、電母，直至長安城九霄空上。他挨到那巳時方布雲，午時發雷，未時落雨，申時雨止，卻只得三尺零四十點。改了他一個時辰，剋了他三寸八點。雨後發放眾將班師。他又按落雲頭，還變作白衣秀士，到那西門裡大街上，撞入袁守誠卦舖，不容分說，就把他招牌、筆、硯等一齊捽碎。那先生坐在椅上，公然不動。這龍王又掄起門板便打，罵道：「這妄言禍福的妖人，擅惑眾心的潑漢！你卦又不靈，言又狂謬。說今日下雨的時辰、點數俱不相對。你還危然高坐，趁早去，饒你死罪！」守誠猶公然不懼分毫，仰面朝天冷笑道：「我不怕，我不怕。我無死罪，只怕你倒有個死罪哩。別人好瞞，只是難瞞我也。我認得你，你不是秀士，乃是涇河龍王。你違了玉帝敕旨，改了時辰，剋了點數，犯了天條。你在那剮龍臺上，恐難免一刀，你還在此罵我？」龍王見說，心驚膽戰，毛骨悚然。急丟了門板，整衣伏禮，向先生跪下道：「先生休怪。前言戲之耳，豈知弄假成真，果然違犯天條，奈何？望先生救我一救；不然，我死也不放你。」守誠曰：「我救你不得，只是指條生路與你投生便了。」龍曰：「願求指教。」先生曰：「你明日午時三刻，該赴人曹官魏徵處聽斬。你果要性命，須當急急去告當今唐太宗皇帝方好。那魏徵是唐王駕下的丞相，若是討他個人情，方保無事。」
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 237
-    line_end: 237
-  translation_ja: '翌日、風伯・雷公・雲童・電母を点呼して遣わし、長安の九重の空へ直行した。涇河の竜王は巳の刻まで待って初めて雲を広げ、午の刻に雷を鳴らし、未の刻に雨を降らせ、申の刻にやませた。水はわずか三尺四十点だった。一刻をずらし、三寸八点を減らしたのである。雨の後、配下の将たちを帰らせた。自分も雲を降り、再び白衣の学者に化け、西門内の大街へ向かうと、袁守誠の占いの店に押し入り、弁解もさせず、看板、筆、硯などを残らず叩き壊した。袁守誠は椅子に座ったまま、平然として動かなかった。涇河の竜王はさらに戸板を振り上げて打ちかかり、罵った。
-
+    涇河の竜王はその進言に従い、もう心配しなくなった。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-027"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "至次日，點札風伯、雷公、雲童、電母，直至長安城九霄空上。他挨到那巳時方布雲，午時發雷，未時落雨，申時雨止，卻只得三尺零四十點。改了他一個時辰，剋了他三寸八點。雨後發放眾將班師。他又按落雲頭，還變作白衣秀士，到那西門裡大街上，撞入袁守誠卦舖，不容分說，就把他招牌、筆、硯等一齊捽碎。那先生坐在椅上，公然不動。這龍王又掄起門板便打，罵道：「這妄言禍福的妖人，擅惑眾心的潑漢！你卦又不靈，言又狂謬。說今日下雨的時辰、點數俱不相對。你還危然高坐，趁早去，饒你死罪！」守誠猶公然不懼分毫，仰面朝天冷笑道：「我不怕，我不怕。我無死罪，只怕你倒有個死罪哩。別人好瞞，只是難瞞我也。我認得你，你不是秀士，乃是涇河龍王。你違了玉帝敕旨，改了時辰，剋了點數，犯了天條。你在那剮龍臺上，恐難免一刀，你還在此罵我？」龍王見說，心驚膽戰，毛骨悚然。急丟了門板，整衣伏禮，向先生跪下道：「先生休怪。前言戲之耳，豈知弄假成真，果然違犯天條，奈何？望先生救我一救；不然，我死也不放你。」守誠曰：「我救你不得，只是指條生路與你投生便了。」龍曰：「願求指教。」先生曰：「你明日午時三刻，該赴人曹官魏徵處聽斬。你果要性命，須當急急去告當今唐太宗皇帝方好。那魏徵是唐王駕下的丞相，若是討他個人情，方保無事。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 237
+    "line_end": 237
+  "translation_ja": |-
+    翌日、風伯（ふうはく・推定。風をつかさどる神）・雷公（らいこう・推定。雷をつかさどる神）・雲童（うんどう・推定。雲をつかさどる童子の神）・電母（でんぼ・推定。稲妻をつかさどる女神）を点呼して遣わし、長安の九重の空へ直行した。涇河の竜王は巳の刻まで待って初めて雲を広げ、午の刻に雷を鳴らし、未の刻に雨を降らせ、申の刻（さるのこく・推定。十二支で表す時刻の一つ。おおむね午後四時前後）にやませた。水はわずか三尺四十点だった。一刻（いっこく。ここでは十二支で分ける時刻の一区分。三刻の刻とは数え方が異なる）をずらし、三寸八点を減らしたのである。雨の後、配下の将たちを帰らせた。自分も雲を降り、再び白衣の学者に化け、西門内の大街へ向かうと、袁守誠の占いの店に押し入り、弁解もさせず、看板、筆、硯などを残らず叩き壊した。袁守誠は椅子に座ったまま、平然として動かなかった。涇河の竜王はさらに戸板を振り上げて打ちかかり、罵った。
     涇河の竜王「禍福をでたらめに語る妖人、人心を勝手に惑わすろくでなしめ！　占いは当たらず、言うことは狂ったたわ言だ。今日の雨の時刻も量も、どちらも違ったではないか。それでも、まだ堂々と座っているのか。早く出ていけ、そうすれば命だけは助けてやる！」
-
     袁守誠は相変わらず少しも恐れず、天を仰いで冷笑した。
-
-    袁守誠「怖くはない、怖くはない。私に死罪はないが、むしろお前に死罪があるだろうよ。ほかの者はだませても、私をだますのは難しい。お前の正体は分かっている。学者ではなく、涇河の竜王だ。玉帝の勅旨に背き、時刻を変え、量を減らし、天の掟を犯した。剮竜台で刃の一撃を免れまいに、まだここで私を罵るのか。」
-
+    袁守誠「怖くはない、怖くはない。私に死罪はないが、むしろお前に死罪があるだろうよ。ほかの者はだませても、私をだますのは難しい。お前の正体は分かっている。学者ではなく、涇河の竜王だ。玉帝の勅旨に背き、時刻を変え、量を減らし、天の掟を犯した。剮竜台（かりゅうだい・推定。罪を犯した竜を処刑する場所）で刃の一撃を免れまいに、まだここで私を罵るのか。」
     涇河の竜王は聞くと、肝をつぶし、身の毛がよだった。急いで戸板を捨て、衣を整えて伏し拝み、袁守誠の前にひざまずいた。
-
     涇河の竜王「先生、どうかお許しください。先ほどの言葉は、ほんの冗談でした。戯れが本当になり、まことに天の掟を犯してしまうとは。どうすればよいのでしょう。先生、どうかお救いください。そうでなければ、死んでもあなたを放しません。」
-
     袁守誠「私には救えない。ただ、生きる道を一つ教え、そちらへ向かわせることはできる。」
-
     涇河の竜王「どうかお教えください。」
-
-    袁守誠「お前は明日、午の刻三刻に、人曹官の魏徴のもとで斬首を受ける定めだ。本当に命が欲しいなら、急いで今の唐の太宗皇帝に願い出るのがよい。魏徴は唐の皇帝に仕える丞相だ。皇帝に情けをかけてもらえれば、無事を保てるだろう。」'
-  translation_status: reviewed
-- id: xy-ch10-028
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 龍王聞言，拜辭含淚而去。不覺紅日西沉，太陰星上。但見：
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 238
-    line_end: 238
-  translation_ja: 涇河の竜王は聞くと、礼をして別れ、涙を浮かべて立ち去った。いつしか紅い日は西へ沈み、月が昇った。見れば、
-  translation_status: reviewed
-- id: xy-ch10-029
-  section_id: chapter-10
-  kind: verse
-  origin: source
-  source_text: 煙凝山紫歸鴉倦，遠路行人投旅店。渡頭新雁宿汀沙，銀河現，催更籌，孤村燈火光無焰。風裊爐煙清道院，蝴蝶夢中人不見。月移花影上欄杆，星光亂，漏聲換，不覺深沉夜已半。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 240
-    line_end: 240
-  translation_ja: '靄は固まり、山は紫、帰る烏も疲れ、
-
+    袁守誠「お前は明日、午の刻三刻（さんこく・推定。時刻を細分した区分。ここでは午の時刻の三刻目）に、人曹官（じんそうかん・推定。人間界にいながら天界の裁断を執行する役目）の魏徴（ぎちょう。唐の太宗に仕える臣で、夢の中で竜王を斬る）のもとで斬首を受ける定めだ。本当に命が欲しいなら、急いで今の唐（とう・推定。長安を都とする中国の王朝）の太宗皇帝（たいそうこうてい・推定。唐の第二代皇帝、李世民）に願い出るのがよい。魏徴は唐の皇帝に仕える丞相（じょうしょう。君主を補佐して国政を担う高官）だ。皇帝に情けをかけてもらえれば、無事を保てるだろう。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-028"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "龍王聞言，拜辭含淚而去。不覺紅日西沉，太陰星上。但見："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 238
+    "line_end": 238
+  "translation_ja": "涇河の竜王は聞くと、礼をして別れ、涙を浮かべて立ち去った。いつしか紅い日は西へ沈み、月が昇った。見れば、"
+  "translation_status": "reviewed"
+- "id": "xy-ch10-029"
+  "section_id": "chapter-10"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "煙凝山紫歸鴉倦，遠路行人投旅店。渡頭新雁宿汀沙，銀河現，催更籌，孤村燈火光無焰。風裊爐煙清道院，蝴蝶夢中人不見。月移花影上欄杆，星光亂，漏聲換，不覺深沉夜已半。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 240
+    "line_end": 240
+  "translation_ja": |-
+    靄は固まり、山は紫、帰る烏も疲れ、
     遠路の旅人は宿屋へ入る。
-
     渡し場の新来の雁は砂洲に宿り、
-
-    天の川が現れ、夜番の時を促す。
-
+    天の川（あまのがわ。夜空を帯状に渡る星の集まり）が現れ、夜番の時を促す。
     ひとり離れた村の灯は、炎も見えぬほどほのか。
-
-    風は清らかな道観の香炉の煙を揺らし、
-
+    風は清らかな道観（どうかん・推定。道教の寺院）の香炉の煙を揺らし、
     人影はなく、皆、蝶の夢の中。
-
     月が花の影を欄干へ移し、
-
     星の光は入り乱れ、水時計の音も変わる。
-
-    気づけば夜は深まり、半ばを過ぎていた。'
-  translation_status: reviewed
-- id: xy-ch10-030
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 這涇河龍王也不回水府，只在空中。等到子時前後，收了雲頭，斂了霧角，徑來皇宮門首。此時唐王正夢出宮門之外，步月花陰。忽然龍王變作人相，上前跪拜，口叫：「陛下，救我，救我。」太宗云：「你是何人？朕當救你。」龍王云：「陛下是真龍，臣是業龍。臣因犯了天條，該陛下賢臣人曹官魏徵處斬，故來拜求，望陛下救我一救。」太宗曰：「既是魏徵處斬，朕可以救你，你放心前去。」龍王歡喜，叩謝而去。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 242
-    line_end: 242
-  translation_ja: '涇河の竜王は水府へは帰らず、空中にとどまった。子の刻の前後を待ち、雲を収め、霧を引き締め、まっすぐ皇宮の門前へ来た。そのとき太宗は、宮門を出て花陰で月を眺めて歩く夢を見ていた。突然、涇河の竜王が人の姿に化け、進み出てひざまずき、叫んだ。
-
+    気づけば夜は深まり、半ばを過ぎていた。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-030"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "這涇河龍王也不回水府，只在空中。等到子時前後，收了雲頭，斂了霧角，徑來皇宮門首。此時唐王正夢出宮門之外，步月花陰。忽然龍王變作人相，上前跪拜，口叫：「陛下，救我，救我。」太宗云：「你是何人？朕當救你。」龍王云：「陛下是真龍，臣是業龍。臣因犯了天條，該陛下賢臣人曹官魏徵處斬，故來拜求，望陛下救我一救。」太宗曰：「既是魏徵處斬，朕可以救你，你放心前去。」龍王歡喜，叩謝而去。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 242
+    "line_end": 242
+  "translation_ja": |-
+    涇河の竜王は水府へは帰らず、空中にとどまった。子の刻（ねのこく・推定。十二支で表す時刻の一つ。おおむね真夜中）の前後を待ち、雲を収め、霧を引き締め、まっすぐ皇宮の門前へ来た。そのとき太宗（たいそう。唐の第二代皇帝、李世民）は、宮門を出て花陰で月を眺めて歩く夢を見ていた。突然、涇河の竜王が人の姿に化け、進み出てひざまずき、叫んだ。
     涇河の竜王「陛下、お助けください、お助けください。」
-
     太宗「そなたは何者か。朕が救ってやろう。」
-
-    涇河の竜王「陛下は真の竜、臣は罪業を負う竜です。臣は天の掟を犯し、陛下の賢臣、人曹官の魏徴に斬られる定めです。それゆえ、お願いに参りました。どうかお救いください。」
-
+    涇河の竜王「陛下は真の竜、臣は罪業（ざいごう・推定。悪い行いと、その結果として負う罪）を負う竜です。臣は天の掟を犯し、陛下の賢臣、人曹官の魏徴に斬られる定めです。それゆえ、お願いに参りました。どうかお救いください。」
     太宗「魏徴が斬るのであれば、朕が救える。安心して戻るがよい。」
-
-    涇河の竜王は喜び、額を地につけて礼を言い、去っていった。'
-  translation_status: reviewed
-- id: xy-ch10-031
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 卻說那太宗夢醒後，念念在心。早已至五鼓三點，太宗設朝，聚集兩班文武官員。但見那：
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 244
-    line_end: 244
-  translation_ja: さて、太宗は夢から覚めると、そのことが頭を離れなかった。早くも五鼓の三点となり、太宗は朝議を開き、文武二班の官人たちを集めた。そのありさまは、
-  translation_status: reviewed
-- id: xy-ch10-032
-  section_id: chapter-10
-  kind: verse
-  origin: source
-  source_text: 煙籠鳳闕，香藹龍樓。光搖丹扆動，雲拂翠華流。君臣相契同堯舜，禮樂威嚴近漢周。侍臣燈，宮女扇，雙雙映彩；孔雀屏，麒麟殿，處處光浮。山呼萬歲，華祝千秋。靜鞭三下響，衣冠拜冕旒。宮花燦爛天香襲，堤柳輕柔御樂謳。珍珠簾，翡翠簾，金鉤高控；龍鳳扇，山河扇，寶輦停留。文官英秀，武將抖擻。御道分高下，丹墀列品流。金章紫綬乘三象，地久天長萬萬秋。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 245
-    line_end: 245
-  translation_ja: '靄は鳳闕を包み、香りは竜楼に満ちる。
-
+    涇河の竜王は喜び、額を地につけて礼を言い、去っていった。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-031"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "卻說那太宗夢醒後，念念在心。早已至五鼓三點，太宗設朝，聚集兩班文武官員。但見那："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 244
+    "line_end": 244
+  "translation_ja": "さて、太宗は夢から覚めると、そのことが頭を離れなかった。早くも五鼓（ごこ・推定。一夜を五つに分けた最後の時刻。明け方ごろ）の三点（さんてん・推定。一つの更をさらに分けた三番目の区切り）となり、太宗は朝議（ちょうぎ・推定。君主のもとで臣下たちが行う会議）を開き、文武二班の官人たちを集めた。そのありさまは、"
+  "translation_status": "reviewed"
+- "id": "xy-ch10-032"
+  "section_id": "chapter-10"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "煙籠鳳闕，香藹龍樓。光搖丹扆動，雲拂翠華流。君臣相契同堯舜，禮樂威嚴近漢周。侍臣燈，宮女扇，雙雙映彩；孔雀屏，麒麟殿，處處光浮。山呼萬歲，華祝千秋。靜鞭三下響，衣冠拜冕旒。宮花燦爛天香襲，堤柳輕柔御樂謳。珍珠簾，翡翠簾，金鉤高控；龍鳳扇，山河扇，寶輦停留。文官英秀，武將抖擻。御道分高下，丹墀列品流。金章紫綬乘三象，地久天長萬萬秋。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 245
+    "line_end": 245
+  "translation_ja": |-
+    靄は鳳闕（ほうけつ。鳳凰の飾りを持つ宮門。転じて皇居をいう）を包み、香りは竜楼（りゅうろう・推定。竜の飾りのある楼閣。天子の宮殿のたとえ）に満ちる。
     光は朱の御屏風に揺れ、雲は翠の旗を払って流れる。
-
-    君臣の心の通いは堯舜のよう、礼楽の威厳は漢や周に近い。
-
+    君臣の心の通いは堯舜（ぎょうしゅん・推定。理想の政治を行ったとされる古代中国の二人の聖王）のよう、礼楽（れいがく。社会の秩序を整える礼儀と、人の心を和らげる音楽）の威厳は漢（かん・推定。古代中国の王朝名）や周に近い。
     侍臣の灯、宮女の扇は、対になって彩りを映し、
-
-    孔雀の屏風、麒麟の殿には、至る所に光が浮かぶ。
-
-    山を震わす万歳の声、華封の人のように千秋を祝う言葉。
-
-    静粛を促す鞭が三度鳴り、衣冠の官人が冕旒を拝む。
-
-    宮中の花はきらめいて天の香を放ち、堤の柳は柔らかく、御楽が歌われる。
-
-    真珠の簾、翡翠の簾は、金の鉤に高く掛かり、
-
-    竜鳳の扇、山河の扇のもとに、宝の輦が止まる。
-
+    孔雀の屏風、麒麟（きりん。平和な世に現れるとされる中国の伝説の獣）の殿には、至る所に光が浮かぶ。
+    山を震わす万歳の声、華封（かほう・推定。堯に長寿・富・子孫繁栄を祝った華の地の番人を指す故事）の人のように千秋を祝う言葉。
+    静粛を促す鞭が三度鳴り、衣冠（いかん・推定。衣服と冠。ここでは官人の装束）の官人が冕旒（べんりゅう。天子の冠から垂らす玉飾り。ここでは天子自身を指す）を拝む。
+    宮中の花はきらめいて天の香を放ち、堤の柳は柔らかく、御楽（ぎょがく・推定。宮廷で奏でる音楽）が歌われる。
+    真珠の簾、翡翠（ひすい。ここでは緑色の宝玉）の簾は、金の鉤に高く掛かり、
+    竜鳳の扇、山河の扇のもとに、宝の輦（れん。人が引く、天子などの乗り物）が止まる。
     文官は秀でて麗しく、武将は奮い立ち、
-
-    御道に上下が分かれ、朱の階前に位順で並ぶ。
-
-    金印と紫綬は三象の運に乗り、天地とともに幾万秋も続く。'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 三象の指示対象は未確定。原語を保持する。
-- id: xy-ch10-033
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 眾官朝賀已畢，各各分班。唐王閃鳳目龍睛，一一從頭觀看，只見那文官內是房玄齡、杜如晦、徐世勣、許敬宗、王珪等，武官內是馬三寶、段志玄、殷開山、程咬金、劉洪紀、胡敬德、秦叔寶等，一個個威儀端肅，卻不見魏徵丞相。唐王召徐世勣上殿道：「朕夜間得一怪夢：夢見一人，迎面拜謁，口稱是涇河龍王，犯了天條，該人曹官魏徵處斬，拜告寡人救他，朕已許諾。今日班前獨不見魏徵，何也？」世勣對曰：「此夢告準。須喚魏徵來朝，陛下不要放他出門，過此一日，可救夢中之龍。」唐王大喜，即傳旨，著當駕官宣魏徵入朝。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 247
-    line_end: 247
-  translation_ja: '官人たちは朝賀を終え、それぞれの列に分かれた。太宗は鳳の目、竜の眼を光らせ、一人ずつ見渡した。文官には房玄齢、杜如晦、徐世勣、許敬宗、王珪ら、武官には馬三宝、段志玄、殷開山、程咬金、劉洪紀、尉遅恭、秦叔宝らが、いずれも威儀正しく控えていたが、丞相の魏徴だけが見えなかった。太宗は徐世勣を殿へ呼んで言った。
-
+    御道（ぎょどう・推定。君主の宮殿に通じる道や宮中の通路）に上下が分かれ、朱の階前に位順で並ぶ。
+    金印と紫綬は三象（さんしょう・推定。日・月・星などの天象をいう語。ここでの指示対象は未確定）の運に乗り、天地とともに幾万秋も続く。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "三象の指示対象は未確定。原語を保持する。"
+- "id": "xy-ch10-033"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "眾官朝賀已畢，各各分班。唐王閃鳳目龍睛，一一從頭觀看，只見那文官內是房玄齡、杜如晦、徐世勣、許敬宗、王珪等，武官內是馬三寶、段志玄、殷開山、程咬金、劉洪紀、胡敬德、秦叔寶等，一個個威儀端肅，卻不見魏徵丞相。唐王召徐世勣上殿道：「朕夜間得一怪夢：夢見一人，迎面拜謁，口稱是涇河龍王，犯了天條，該人曹官魏徵處斬，拜告寡人救他，朕已許諾。今日班前獨不見魏徵，何也？」世勣對曰：「此夢告準。須喚魏徵來朝，陛下不要放他出門，過此一日，可救夢中之龍。」唐王大喜，即傳旨，著當駕官宣魏徵入朝。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 247
+    "line_end": 247
+  "translation_ja": |-
+    官人たちは朝賀（ちょうが。朝廷に出て君主を祝い、拝礼すること）を終え、それぞれの列に分かれた。太宗は鳳の目、竜の眼を光らせ、一人ずつ見渡した。文官には房玄齢（ぼうげんれい。唐の太宗を補佐した政治家）、杜如晦（とじょかい。房玄齢とともに太宗を補佐した唐の政治家）、徐世勣（じょせいせき。唐の太宗に仕える臣で、竜王救済の策を進言する）、許敬宗（きょけいそう。唐の太宗らに仕えた政治家・文人）、王珪（おうけい・推定。唐の太宗に仕えた官人）ら、武官には馬三宝（ばさんぽう・推定。唐の朝廷に列する武将）、段志玄（だんしげん・推定。唐の太宗に仕えた武将）、殷開山（いんかいざん・推定。唐の臣で、玄奘の外祖父に当たる人物）、程咬金（ていこうきん。唐の朝廷に列する勇将）、劉洪紀（りゅうこうき・推定。本文にこの名で列挙される唐の武将。劉弘基へ無断訂正しない）、尉遅恭（うっちきょう。唐の武将で、秦叔宝と宮門を守る。字は敬徳）、秦叔宝（しんしゅくほう。唐の武将で、尉遅恭と宮門を守る）らが、いずれも威儀正しく控えていたが、丞相の魏徴だけが見えなかった。太宗は徐世勣を殿へ呼んで言った。
     太宗「朕は昨夜、不思議な夢を見た。一人の者が前に来て拝礼し、涇河の竜王だと名乗った。天の掟を犯し、人曹官の魏徴に斬られるので救ってほしいと願い、朕は承知したのだ。今日、列の中に魏徴だけが見えぬのは、なぜだ。」
-
     徐世勣「その夢は、確かな知らせでございます。魏徴を朝廷へ呼び、陛下が外へ出さぬようにしてください。この一日が過ぎれば、夢の中の竜を救えましょう。」
-
-    太宗は大いに喜び、ただちに勅命を伝え、側仕えの官に魏徴を召し出させた。'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 底本の胡敬德は文脈上の尉遅恭と同一として地の文を統一。劉洪紀の表記は劉弘基等へ無断訂正しない。
-- id: xy-ch10-034
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 卻說魏徵丞相在府，夜觀乾象，正爇寶香，只聞得九霄鶴唳，卻是天差仙使，捧玉帝金旨一道，著他午時三刻，夢斬涇河老龍。這丞相謝了天恩，齋戒沐浴，在府中試慧劍，運元神，故此不曾入朝。一見當駕官齎賫來宣，惶懼無任；又不敢違遲君命，只得急急整衣束帶，同旨入朝，在御前叩頭請罪。唐王道：「赦卿無罪。」那時諸臣尚未退朝，至此，卻命捲簾散朝。獨留魏徵，宣上金鑾，召入便殿，先議論安邦之策，定國之謀。將近巳末午初時候，卻命宮人：「取過大棋來，朕與賢卿對弈一局。」眾嬪妃隨取棋枰，鋪設御案。魏徵謝了恩，即與唐王對弈，一遞一著，擺開陣勢。正合《爛柯經》云：
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 248
-    line_end: 248
-  translation_ja: '一方、丞相の魏徴は自邸で夜の天象を見て、香を焚いていた。九重の空で鶴が鳴く声がしたと思うと、天から遣わされた仙使が玉帝の金の勅旨を携え、午の刻三刻に夢の中で涇河の老竜を斬れ、と命じたのである。魏徴は天の恩を謝し、斎戒沐浴をして、自邸で智慧の剣を試し、元神を働かせていたため、参朝していなかった。側仕えの官が勅命を持って呼びに来ると、恐れおののいたが、君命に背いて遅れるわけにもいかず、急いで衣を整え帯を締め、使者とともに参朝し、御前に額づいて罪を詫びた。
-
+    太宗は大いに喜び、ただちに勅命を伝え、側仕えの官に魏徴を召し出させた。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "底本の胡敬德は文脈上の尉遅恭と同一として地の文を統一。劉洪紀の表記は劉弘基等へ無断訂正しない。"
+- "id": "xy-ch10-034"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "卻說魏徵丞相在府，夜觀乾象，正爇寶香，只聞得九霄鶴唳，卻是天差仙使，捧玉帝金旨一道，著他午時三刻，夢斬涇河老龍。這丞相謝了天恩，齋戒沐浴，在府中試慧劍，運元神，故此不曾入朝。一見當駕官齎賫來宣，惶懼無任；又不敢違遲君命，只得急急整衣束帶，同旨入朝，在御前叩頭請罪。唐王道：「赦卿無罪。」那時諸臣尚未退朝，至此，卻命捲簾散朝。獨留魏徵，宣上金鑾，召入便殿，先議論安邦之策，定國之謀。將近巳末午初時候，卻命宮人：「取過大棋來，朕與賢卿對弈一局。」眾嬪妃隨取棋枰，鋪設御案。魏徵謝了恩，即與唐王對弈，一遞一著，擺開陣勢。正合《爛柯經》云："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 248
+    "line_end": 248
+  "translation_ja": |-
+    一方、丞相の魏徴は自邸で夜の天象を見て、香を焚いていた。九重の空で鶴が鳴く声がしたと思うと、天から遣わされた仙使（せんし・推定。天界から命令を伝える使者）が玉帝の金の勅旨を携え、午の刻三刻に夢の中で涇河の老竜を斬れ、と命じたのである。魏徴は天の恩を謝し、斎戒沐浴（さいかいもくよく。飲食や行動を慎み、体を洗い清めること）をして、自邸で智慧（ちえ・推定。物事の道理を正しく見抜く力）の剣を試し、元神（げんしん・推定。道教でいう根源的な精神。ここでは体を離れて働く霊魂）を働かせていたため、参朝（さんちょう・推定。朝廷へ出仕すること）していなかった。側仕えの官が勅命を持って呼びに来ると、恐れおののいたが、君命に背いて遅れるわけにもいかず、急いで衣を整え帯を締め、使者とともに参朝し、御前に額づいて罪を詫びた。
     太宗「卿の罪は赦す。」
-
-    そのとき、まだ臣たちは退朝していなかったが、ここで簾を巻き上げ、朝議を終えるよう命じた。ただ魏徴だけを残し、金鑾殿に上がらせ、さらに便殿へ招き、まず国を安んじ、天下を定める策を論じ合った。巳の終わり、午の初めが近づくと、太宗は宮人に命じた。
-
+    そのとき、まだ臣たちは退朝していなかったが、ここで簾を巻き上げ、朝議を終えるよう命じた。ただ魏徴だけを残し、金鑾殿（きんらんでん・推定。天子が政務や儀式を行う宮殿の名）に上がらせ、さらに便殿（べんでん・推定。天子が日常の執務や休息に用いる御殿）へ招き、まず国を安んじ、天下を定める策を論じ合った。巳の終わり、午の初めが近づくと、太宗は宮人に命じた。
     太宗「大きな碁盤を持ってまいれ。朕は卿と一局打とう。」
-
-    妃たちはすぐ碁盤を取り、御机に据えた。魏徴は恩を謝し、太宗と対局して、交互に一手ずつ打ち、陣を敷いた。まさに『爛柯経』のいうところである。'
-  translation_status: reviewed
-- id: xy-ch10-035
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 博弈之道，貴乎嚴謹。高者在腹，下者在邊，中者在角，此棋家之常法。法曰：「寧輸一子，不失一先。」擊左則視右，攻後則瞻前。有先而後，有後而先。兩生勿斷，皆活勿連。闊不可太疏，密不可太促。與其戀子以求生，不若棄之而取勝；與其無事而獨行，不若固之而自補。彼眾我寡，先謀其生；我眾彼寡，務張其勢。善勝者不爭，善陣者不戰；善戰者不敗，善敗者不亂。夫棋始以正合，終以奇勝。凡敵無事而自補者，有侵絕之意；棄小而不救者，有圖大之心；隨手而下者，無謀之人；不思而應者，取敗之道。《詩》云：「惴惴小心，如臨于谷。」此之謂也。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 249
-    line_end: 249
-  translation_ja: 碁を打つ道は、厳密で慎重であることを尊ぶ。上策は中央、下策は辺、中策は隅にある。これが碁家の常法である。法にいう、「一子を失っても、先手を一つ失うな」と。左を撃てば右を見、後ろを攻めれば前を見よ。先が後になり、後が先になることもある。二つがともに生きていれば切らず、すべて生きていればつながぬ。広くてもまばらすぎてはならず、密でも詰まりすぎてはならぬ。石を惜しんで生きようとするより、捨てて勝ちを取る方がよい。何事もないのに単独で進むより、固めて自分を補う方がよい。敵が多く、こちらが少なければ、まず生きることを図る。こちらが多く、敵が少なければ、勢力を広げるよう努める。よく勝つ者は争わず、よく陣を敷く者は戦わず、よく戦う者は敗れず、よく敗れる者は乱れない。碁は初め正攻で向かい合い、最後には奇策で勝つ。敵が何事もないのに自分を補うなら、侵入して断ち切る意図がある。小さいものを捨てて救わぬなら、大きなものを図る心がある。手なりに打つ者は策のない人、考えず応じるのは敗北を招く道である。『詩経』にいう、「恐れ慎み心を細やかに、深い谷に臨むように」とは、このことだ。
-  translation_status: reviewed
-- id: xy-ch10-036
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 詩曰：
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 251
-    line_end: 251
-  translation_ja: 詩にいう。
-  translation_status: reviewed
-- id: xy-ch10-037
-  section_id: chapter-10
-  kind: verse
-  origin: source
-  source_text: '棋盤為地子為天，色按陰陽造化全。
-
-    下到玄微通變處，笑誇當日爛柯仙。'
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 253
-    line_end: 254
-  translation_ja: '碁盤を地とし、碁石を天とし、色は陰陽に応じて造化を尽くす。
-
-    玄妙な変化に通じるところまで打ち進めば、かの爛柯の仙人にも笑って誇れよう。'
-  translation_status: reviewed
-- id: xy-ch10-038
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 君臣兩個對弈，此棋正下到午時三刻，一盤殘局未終，魏徵忽然俯伏在案邊，鼾鼾盹睡。太宗笑曰：「賢卿真是匡扶社稷之心勞，創立江山之力倦，所以不覺盹睡。」太宗任他睡著，更不呼喚。不多時，魏徵醒來，俯伏在地道：「臣該萬死，臣該萬死！卻才倦困，不知所為，望陛下赦臣慢君之罪。」太宗道：「卿有何慢罪？且起來，拂退殘棋，與卿從新更著。」
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 256
-    line_end: 256
-  translation_ja: '君臣二人が碁を打ち、ちょうど午の刻三刻になっても、一局はまだ終わっていなかった。魏徴は突然、机の脇にうつぶせになり、いびきをかいて居眠りを始めた。太宗は笑った。
-
-    太宗「卿はまことに、社稷を支える心を疲らせ、天下を築く力を使い果たしている。それゆえ、知らぬ間に居眠りをしてしまったのだな。」
-
+    妃たちはすぐ碁盤を取り、御机に据えた。魏徴は恩を謝し、太宗と対局して、交互に一手ずつ打ち、陣を敷いた。まさに『爛柯経（らんかきょう・推定。囲碁の打ち方を説く書として引用される書名）』のいうところである。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-035"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "博弈之道，貴乎嚴謹。高者在腹，下者在邊，中者在角，此棋家之常法。法曰：「寧輸一子，不失一先。」擊左則視右，攻後則瞻前。有先而後，有後而先。兩生勿斷，皆活勿連。闊不可太疏，密不可太促。與其戀子以求生，不若棄之而取勝；與其無事而獨行，不若固之而自補。彼眾我寡，先謀其生；我眾彼寡，務張其勢。善勝者不爭，善陣者不戰；善戰者不敗，善敗者不亂。夫棋始以正合，終以奇勝。凡敵無事而自補者，有侵絕之意；棄小而不救者，有圖大之心；隨手而下者，無謀之人；不思而應者，取敗之道。《詩》云：「惴惴小心，如臨于谷。」此之謂也。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 249
+    "line_end": 249
+  "translation_ja": "碁を打つ道は、厳密で慎重であることを尊ぶ。上策は中央、下策は辺、中策は隅にある。これが碁家の常法である。法にいう、「一子を失っても、先手を一つ失うな」と。左を撃てば右を見、後ろを攻めれば前を見よ。先が後になり、後が先になることもある。二つがともに生きていれば切らず、すべて生きていればつながぬ。広くてもまばらすぎてはならず、密でも詰まりすぎてはならぬ。石を惜しんで生きようとするより、捨てて勝ちを取る方がよい。何事もないのに単独で進むより、固めて自分を補う方がよい。敵が多く、こちらが少なければ、まず生きることを図る。こちらが多く、敵が少なければ、勢力を広げるよう努める。よく勝つ者は争わず、よく陣を敷く者は戦わず、よく戦う者は敗れず、よく敗れる者は乱れない。碁は初め正攻で向かい合い、最後には奇策で勝つ。敵が何事もないのに自分を補うなら、侵入して断ち切る意図がある。小さいものを捨てて救わぬなら、大きなものを図る心がある。手なりに打つ者は策のない人、考えず応じるのは敗北を招く道である。『詩経（しきょう・推定。古代中国の詩歌を集めた儒教の経典）』にいう、「恐れ慎み心を細やかに、深い谷に臨むように」とは、このことだ。"
+  "translation_status": "reviewed"
+- "id": "xy-ch10-036"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "詩曰："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 251
+    "line_end": 251
+  "translation_ja": "詩にいう。"
+  "translation_status": "reviewed"
+- "id": "xy-ch10-037"
+  "section_id": "chapter-10"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    棋盤為地子為天，色按陰陽造化全。
+    下到玄微通變處，笑誇當日爛柯仙。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 253
+    "line_end": 254
+  "translation_ja": |-
+    碁盤を地とし、碁石を天とし、色は陰陽（いんよう。天地や物事の変化を生むとされた陰と陽の二つの働き）に応じて造化（ぞうか・推定。天地が万物を生み育てる働き）を尽くす。
+    玄妙（げんみょう・推定。奥深く、容易には知り尽くせないこと）な変化に通じるところまで打ち進めば、かの爛柯（らんか。仙人の碁を見ている間に斧の柄が腐ったという故事。囲碁の異称）の仙人にも笑って誇れよう。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-038"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "君臣兩個對弈，此棋正下到午時三刻，一盤殘局未終，魏徵忽然俯伏在案邊，鼾鼾盹睡。太宗笑曰：「賢卿真是匡扶社稷之心勞，創立江山之力倦，所以不覺盹睡。」太宗任他睡著，更不呼喚。不多時，魏徵醒來，俯伏在地道：「臣該萬死，臣該萬死！卻才倦困，不知所為，望陛下赦臣慢君之罪。」太宗道：「卿有何慢罪？且起來，拂退殘棋，與卿從新更著。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 256
+    "line_end": 256
+  "translation_ja": |-
+    君臣二人が碁を打ち、ちょうど午の刻三刻になっても、一局はまだ終わっていなかった。魏徴は突然、机の脇にうつぶせになり、いびきをかいて居眠りを始めた。太宗は笑った。
+    太宗「卿はまことに、社稷（しゃしょく。土地と穀物の神。転じて国家をいう）を支える心を疲らせ、天下を築く力を使い果たしている。それゆえ、知らぬ間に居眠りをしてしまったのだな。」
     太宗は眠るに任せ、呼び起こさなかった。ほどなく魏徴が目覚め、地に伏した。
-
     魏徴「臣は万死に値します、万死に値します！　先ほどは疲れ眠くなり、何をしているか分からなくなりました。陛下、君を侮った罪をお赦しください。」
-
-    太宗「卿に何の侮りの罪があろう。さあ立つがよい。途中の石を片づけ、もう一局打ち直そう。」'
-  translation_status: reviewed
-- id: xy-ch10-039
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 魏徵謝了恩，卻才撚子在手，忽聽得朝門外大呼小叫。原來是秦叔寶、徐茂公等，將著一個血淋的龍頭，擲在帝前，啟奏道：「陛下，海淺河枯曾有見，這般異事卻無聞。」太宗與魏徵起身道：「此物何來？」叔寶、茂公道：「千步廊南，十字街上，雲端裡落下這顆龍頭，微臣不敢不奏。」唐王驚問魏徵：「此是何說？」魏徵轉身叩頭道：「是臣才一夢斬的。」唐王聞言，大驚道：「賢卿盹睡之時，又不曾見動身動手，又無刀劍，如何卻斬此龍？」魏徵奏道：「主公，臣的身在君前，夢離陛下。身在君前對殘局，合眼朦朧；夢離陛下乘瑞雲，出神抖擻。那條龍在剮龍臺上，被天兵將綁縛其中。是臣道：『你犯天條，合當死罪。我奉天命，斬汝殘生。』龍聞哀苦，臣抖精神。龍聞哀苦，伏爪收鱗甘受死；臣抖精神，撩衣進步舉霜鋒。扢扠一聲刀過處，龍頭因此落虛空。」
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 257
-    line_end: 257
-  translation_ja: '魏徴は恩を謝し、手に石をつまんだところで、朝門の外から騒ぎ声が聞こえた。秦叔宝と徐世勣らが、血まみれの竜の頭を持ってきて、皇帝の前に投げ置き、奏上した。
-
+    太宗「卿に何の侮りの罪があろう。さあ立つがよい。途中の石を片づけ、もう一局打ち直そう。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-039"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "魏徵謝了恩，卻才撚子在手，忽聽得朝門外大呼小叫。原來是秦叔寶、徐茂公等，將著一個血淋的龍頭，擲在帝前，啟奏道：「陛下，海淺河枯曾有見，這般異事卻無聞。」太宗與魏徵起身道：「此物何來？」叔寶、茂公道：「千步廊南，十字街上，雲端裡落下這顆龍頭，微臣不敢不奏。」唐王驚問魏徵：「此是何說？」魏徵轉身叩頭道：「是臣才一夢斬的。」唐王聞言，大驚道：「賢卿盹睡之時，又不曾見動身動手，又無刀劍，如何卻斬此龍？」魏徵奏道：「主公，臣的身在君前，夢離陛下。身在君前對殘局，合眼朦朧；夢離陛下乘瑞雲，出神抖擻。那條龍在剮龍臺上，被天兵將綁縛其中。是臣道：『你犯天條，合當死罪。我奉天命，斬汝殘生。』龍聞哀苦，臣抖精神。龍聞哀苦，伏爪收鱗甘受死；臣抖精神，撩衣進步舉霜鋒。扢扠一聲刀過處，龍頭因此落虛空。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 257
+    "line_end": 257
+  "translation_ja": |-
+    魏徴は恩を謝し、手に石をつまんだところで、朝門（ちょうもん・推定。宮廷の門）の外から騒ぎ声が聞こえた。秦叔宝と徐世勣らが、血まみれの竜の頭を持ってきて、皇帝の前に投げ置き、奏上した。
     秦叔宝と徐世勣「陛下、海が浅くなり、川が枯れることは見聞きしたこともありますが、これほどの異変は聞いたことがございません。」
-
     太宗と魏徴は立ち上がった。
-
     太宗と魏徴「これはどこから来たのだ。」
-
-    秦叔宝と徐世勣「千歩廊の南、十字路の上で、雲の中からこの竜の頭が落ちてきました。臣ども、ご報告せずにはおれませんでした。」
-
+    秦叔宝と徐世勣「千歩廊（せんぽろう・推定。宮廷の前にある長い回廊の名）の南、十字路の上で、雲の中からこの竜の頭が落ちてきました。臣ども、ご報告せずにはおれませんでした。」
     太宗は驚いて魏徴に尋ねた。
-
     太宗「これはどういうことだ。」
-
     魏徴は身を返し、額づいた。
-
     魏徴「臣が先ほど、夢の中で斬ったものでございます。」
-
     太宗は聞いて、たいそう驚いた。
-
     太宗「卿が眠っているとき、体も手も動かさず、刀も剣もなかった。それなのに、どうしてこの竜を斬れたのだ。」
-
-    魏徴「陛下、臣の身は御前にあり、夢は陛下のもとを離れておりました。身は御前で打ちかけの碁に向かい、目を閉じてうとうとし、夢は陛下を離れて瑞雲に乗り、元神を出して奮い立ちました。あの竜は剮竜台で、天兵天将に縛られておりました。臣は『お前は天の掟を犯し、死罪に当たる。私は天命を受け、お前の残りの命を斬る』と告げました。竜は聞いて悲しみ苦しみ、臣は気力を奮いました。竜は悲しみ、爪を伏せ、鱗を収め、甘んじて死を受け、臣は奮い立ち、裾を上げ、歩み寄り、霜の刃を振り上げました。ざくりと一声、刀が通れば、竜の頭はこうして空から落ちたのでございます。」'
-  translation_status: reviewed
-- id: xy-ch10-040
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 太宗聞言，心中悲喜不一。喜者，誇獎魏徵好臣，朝中有此豪傑，愁甚江山不穩？悲者，謂夢中曾許救龍，不期竟致遭誅。只得強打精神，傳旨著叔寶將龍頭懸掛市曹，曉諭長安黎庶。一壁廂賞了魏徵，眾官散訖。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 259
-    line_end: 259
-  translation_ja: 太宗は聞くと、心に悲しみと喜びが入り交じった。喜びは、魏徴をよき臣と褒め、朝廷にこれほどの豪傑がいれば、天下の不安など何を憂えよう、と思うことであった。悲しみは、夢の中で竜を救うと約束したのに、思いがけず処刑されてしまったことである。やむなく気を取り直し、秦叔宝に命じて竜の頭を市中の刑場に掛け、長安の民に知らせた。一方で魏徴に褒美を与え、官人たちはみな退出した。
-  translation_status: reviewed
-- id: xy-ch10-041
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 當晚回宮，心中只是憂悶。想那夢中之龍，哭啼啼哀告求生，豈知無常，難免此患。思念多時，漸覺神魂倦怠，身體不安。當夜二更時分，只聽得宮門外有號泣之聲，太宗愈加驚恐。正朦朧睡間，又見那涇河龍王手提著一顆血淋淋的首級，高叫：「唐太宗，還我命來！還我命來！你昨夜滿口許諾救我，怎麼天明時反宣人曹官來斬我？你出來，你出來，我與你到閻君處折辨折辨。」他扯住太宗，再三嚷鬧不放。太宗箝口難言，只掙得汗流遍體。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 260
-    line_end: 260
-  translation_ja: 'その夜、宮中に戻っても、太宗の心は憂いに沈むばかりだった。夢の中の竜は、泣きながら命乞いをしていた。それが世の無常、この災いを免れなかったとは。長く思い続けるうち、次第に魂が疲れ、体の具合も悪くなった。その夜、二更ごろ、宮門の外に泣き叫ぶ声が聞こえ、太宗はいっそう恐れた。うとうと眠りかけると、涇河の竜王が血まみれの頭を手に提げ、叫ぶのが見えた。
-
-    涇河の竜王「唐の太宗、命を返せ！　命を返せ！　昨夜は、救うと口を極めて約束したではないか。それなのに、なぜ夜が明けると、かえって人曹官を呼んで私を斬らせたのだ。出てこい、出てこい。閻君のもとへ行って、どちらが正しいか言い争おう。」
-
-    太宗をつかみ、何度も騒ぎ立てて放さなかった。太宗は口がふさがったように言葉も出ず、もがいて全身に汗を流すばかりだった。'
-  translation_status: reviewed
-- id: xy-ch10-042
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 正在那難分難解之時，只見正南上香雲繚繞，彩霧飄飄，有一個女真人上前，將楊柳枝用手一擺，那沒頭的龍悲悲啼啼，徑往西北而去。原來這是觀音菩薩領佛旨，上東土尋取經人，住此長安城都土地廟裡，夜聞鬼泣神號，特來喝退業龍，救脫皇帝。那龍徑到陰司地獄具告不題。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 262
-    line_end: 262
-  translation_ja: 振りほどくことも引き離すこともできない、そのさなか、真南に香る雲がたなびき、彩りの霧が漂った。一人の女真人が進み出て、手にした柳の枝をひと振りすると、首のない竜は悲しげに泣きながら、まっすぐ西北へ去った。実はこれは観音菩薩であった。仏の命を受け、東土で取経の人を捜すため、長安の都の土地廟に泊まっていたところ、夜、鬼神の泣き叫ぶ声を聞き、わざわざ来て罪業の竜を叱り退け、皇帝を救い出したのである。竜はそのまま冥府の地獄へ訴え出たが、その話は置こう。
-  translation_status: reviewed
-- id: xy-ch10-043
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 卻說太宗甦醒回來，只叫：「有鬼！有鬼！」慌得那三宮皇后、六院嬪妃，與近侍太監，戰兢兢，一夜無眠。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 264
-    line_end: 264
-  translation_ja: 'さて、太宗は正気に戻ると、ただ叫び続けた。
-
+    魏徴「陛下、臣の身は御前にあり、夢は陛下のもとを離れておりました。身は御前で打ちかけの碁に向かい、目を閉じてうとうとし、夢は陛下を離れて瑞雲（ずいうん・推定。めでたい兆しとされる美しい雲）に乗り、元神を出して奮い立ちました。あの竜は剮竜台で、天兵天将（てんぺいてんしょう・推定。天界の兵士と将軍たち）に縛られておりました。臣は『お前は天の掟を犯し、死罪に当たる。私は天命を受け、お前の残りの命を斬る』と告げました。竜は聞いて悲しみ苦しみ、臣は気力を奮いました。竜は悲しみ、爪を伏せ、鱗を収め、甘んじて死を受け、臣は奮い立ち、裾を上げ、歩み寄り、霜の刃を振り上げました。ざくりと一声、刀が通れば、竜の頭はこうして空から落ちたのでございます。」
+  "translation_status": "reviewed"
+- "id": "xy-ch10-040"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "太宗聞言，心中悲喜不一。喜者，誇獎魏徵好臣，朝中有此豪傑，愁甚江山不穩？悲者，謂夢中曾許救龍，不期竟致遭誅。只得強打精神，傳旨著叔寶將龍頭懸掛市曹，曉諭長安黎庶。一壁廂賞了魏徵，眾官散訖。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 259
+    "line_end": 259
+  "translation_ja": "太宗は聞くと、心に悲しみと喜びが入り交じった。喜びは、魏徴をよき臣と褒め、朝廷にこれほどの豪傑がいれば、天下の不安など何を憂えよう、と思うことであった。悲しみは、夢の中で竜を救うと約束したのに、思いがけず処刑されてしまったことである。やむなく気を取り直し、秦叔宝に命じて竜の頭を市中の刑場に掛け、長安の民に知らせた。一方で魏徴に褒美を与え、官人たちはみな退出した。"
+  "translation_status": "reviewed"
+- "id": "xy-ch10-041"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "當晚回宮，心中只是憂悶。想那夢中之龍，哭啼啼哀告求生，豈知無常，難免此患。思念多時，漸覺神魂倦怠，身體不安。當夜二更時分，只聽得宮門外有號泣之聲，太宗愈加驚恐。正朦朧睡間，又見那涇河龍王手提著一顆血淋淋的首級，高叫：「唐太宗，還我命來！還我命來！你昨夜滿口許諾救我，怎麼天明時反宣人曹官來斬我？你出來，你出來，我與你到閻君處折辨折辨。」他扯住太宗，再三嚷鬧不放。太宗箝口難言，只掙得汗流遍體。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 260
+    "line_end": 260
+  "translation_ja": |-
+    その夜、宮中に戻っても、太宗の心は憂いに沈むばかりだった。夢の中の竜は、泣きながら命乞いをしていた。それが世の無常、この災いを免れなかったとは。長く思い続けるうち、次第に魂が疲れ、体の具合も悪くなった。その夜、二更（にこう・推定。一夜を五つに分けた二番目の時刻。宵を過ぎたころ）ごろ、宮門の外に泣き叫ぶ声が聞こえ、太宗はいっそう恐れた。うとうと眠りかけると、涇河の竜王が血まみれの頭を手に提げ、叫ぶのが見えた。
+    涇河の竜王「唐の太宗、命を返せ！　命を返せ！　昨夜は、救うと口を極めて約束したではないか。それなのに、なぜ夜が明けると、かえって人曹官を呼んで私を斬らせたのだ。出てこい、出てこい。閻君（えんくん・推定。冥界で死者の罪を裁く王の呼び名）のもとへ行って、どちらが正しいか言い争おう。」
+    太宗をつかみ、何度も騒ぎ立てて放さなかった。太宗は口がふさがったように言葉も出ず、もがいて全身に汗を流すばかりだった。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-042"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "正在那難分難解之時，只見正南上香雲繚繞，彩霧飄飄，有一個女真人上前，將楊柳枝用手一擺，那沒頭的龍悲悲啼啼，徑往西北而去。原來這是觀音菩薩領佛旨，上東土尋取經人，住此長安城都土地廟裡，夜聞鬼泣神號，特來喝退業龍，救脫皇帝。那龍徑到陰司地獄具告不題。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 262
+    "line_end": 262
+  "translation_ja": "振りほどくことも引き離すこともできない、そのさなか、真南に香る雲がたなびき、彩りの霧が漂った。一人の女真人（にょしんじん・推定。道を極めた女性の仙人。ここでは観音の姿を指す）が進み出て、手にした柳の枝をひと振りすると、首のない竜は悲しげに泣きながら、まっすぐ西北へ去った。実はこれは観音菩薩（かんのんぼさつ。人々の苦しみを救う菩薩で、取経の人を捜す）であった。仏の命を受け、東土（とうど・推定。仏教の伝来先として東方にある中国の地）で取経（しゅきょう・推定。仏教の経典を求めて手に入れること）の人を捜すため、長安の都の土地廟（とちびょう・推定。その土地を守る神をまつる祠）に泊まっていたところ、夜、鬼神の泣き叫ぶ声を聞き、わざわざ来て罪業の竜を叱り退け、皇帝を救い出したのである。竜はそのまま冥府（めいふ・推定。死者の魂が送られる世界）の地獄へ訴え出たが、その話は置こう。"
+  "translation_status": "reviewed"
+- "id": "xy-ch10-043"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "卻說太宗甦醒回來，只叫：「有鬼！有鬼！」慌得那三宮皇后、六院嬪妃，與近侍太監，戰兢兢，一夜無眠。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 264
+    "line_end": 264
+  "translation_ja": |-
+    さて、太宗は正気に戻ると、ただ叫び続けた。
     太宗「幽霊だ！　幽霊だ！」
-
-    三宮の皇后、六院の妃たち、側仕えの宦官は慌てふためき、震えながら一夜を眠らず過ごした。'
-  translation_status: reviewed
-- id: xy-ch10-044
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 不覺五更三點，那滿朝文武多官，都在朝門外候朝。等到天明，猶不見臨朝，諕得一個個驚懼躊躇。及日上三竿，方有旨意出來道：「朕心不快，眾官免朝。」不覺倏五七日，眾官憂惶，都正要撞門見駕問安，只見太后有旨，召醫官入宮用藥。眾人在朝門外等候討信。少時，醫官出來，眾問何疾。醫官道：「皇上脈氣不正，虛而又數，狂言見鬼。又診得十動一代，五臟無氣，恐不諱只在七日之內矣。」眾官聞言，大驚失色。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 265
-    line_end: 265
-  translation_ja: 'いつしか五更の三点となり、満朝の文武の官人たちは、朝門の外で朝議を待っていた。夜が明けても皇帝は現れず、みな恐れ、途方に暮れた。日が三竿も上がって、ようやく勅命が出た。
-
+    三宮（さんぐう・推定。皇后などの住まう宮殿、またはそこにいる后妃を表す語）の皇后、六院（りくいん・推定。後宮の複数の御殿、またはそこに住む妃たちを表す語）の妃たち、側仕えの宦官（かんがん・推定。去勢され、宮中で皇帝や后妃に仕えた男性の役人）は慌てふためき、震えながら一夜を眠らず過ごした。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-044"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "不覺五更三點，那滿朝文武多官，都在朝門外候朝。等到天明，猶不見臨朝，諕得一個個驚懼躊躇。及日上三竿，方有旨意出來道：「朕心不快，眾官免朝。」不覺倏五七日，眾官憂惶，都正要撞門見駕問安，只見太后有旨，召醫官入宮用藥。眾人在朝門外等候討信。少時，醫官出來，眾問何疾。醫官道：「皇上脈氣不正，虛而又數，狂言見鬼。又診得十動一代，五臟無氣，恐不諱只在七日之內矣。」眾官聞言，大驚失色。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 265
+    "line_end": 265
+  "translation_ja": |-
+    いつしか五更（ごこう。一夜を五つに分けた最後の時刻。明け方ごろ）の三点となり、満朝の文武の官人たちは、朝門の外で朝議を待っていた。夜が明けても皇帝は現れず、みな恐れ、途方に暮れた。日が三竿も上がって、ようやく勅命が出た。
     太宗の勅命「朕は心地がよくない。今日は朝議を免ずる。」
-
-    瞬く間に五、七日が過ぎ、官人たちは不安に駆られ、門を押して入ってでも、お加減を伺おうとした。そのとき太后の命があり、医官を宮中へ呼んで薬を用いさせた。一同は朝門の外で知らせを待った。しばらくして医官が出てくると、何の病かと尋ねた。
-
-    医官「陛下の脈は乱れ、弱いうえに速く、鬼が見えると譫言を申されます。また、十の拍動に一度、脈が途切れ、五臓に気がございません。恐れながら、七日以内に御不幸があるかと存じます。」
-
-    官人たちは聞いて驚き、顔色を失った。'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 太后は底本の呼称を保持。医官の診断は歴史的物語の描写であり、現代医学上の説明ではない。
-- id: xy-ch10-045
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 正愴惶間，又聽得太后有旨宣徐茂公、護國公、尉遲恭見駕。三公奉旨，急入到分宮樓下。拜畢，太宗正色強言道：「賢卿，寡人十九歲領兵，南征北伐，東擋西除，苦歷數載，更不曾見半點邪祟，今日卻反見鬼。」尉遲恭道：「創立江山，殺人無數，何怕鬼乎？」太宗道：「卿是不信。朕這寢宮門外，入夜就拋磚弄瓦，鬼魅呼號，著然難處。白日猶可，昏夜難禁。」叔寶道：「陛下寬心，今晚臣與敬德把守宮門，看有甚麼鬼祟。」太宗准奏。茂公謝恩而出。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 267
-    line_end: 267
-  translation_ja: 'うろたえているところへ、また太后の命があり、徐世勣、秦叔宝、尉遅恭を召し出した。三公は命を受け、急いで分宮楼の下へ入った。拝礼が済むと、太宗は顔を正し、力を振り絞って言った。
-
+    瞬く間に五、七日が過ぎ、官人たちは不安に駆られ、門を押して入ってでも、お加減を伺おうとした。そのとき太后（たいこう・推定。先帝の后などに対する尊称。本文ではこの表記を保つ）の命があり、医官を宮中へ呼んで薬を用いさせた。一同は朝門の外で知らせを待った。しばらくして医官が出てくると、何の病かと尋ねた。
+    医官「陛下の脈は乱れ、弱いうえに速く、鬼が見えると譫言（うわごと。意識のはっきりしないときに口走る、筋の通らない言葉）を申されます。また、十の拍動に一度、脈が途切れ、五臓（ごぞう・推定。伝統医学でいう肝・心・脾・肺・腎）に気がございません。恐れながら、七日以内に御不幸があるかと存じます。」
+    官人たちは聞いて驚き、顔色を失った。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "太后は底本の呼称を保持。医官の診断は歴史的物語の描写であり、現代医学上の説明ではない。"
+- "id": "xy-ch10-045"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "正愴惶間，又聽得太后有旨宣徐茂公、護國公、尉遲恭見駕。三公奉旨，急入到分宮樓下。拜畢，太宗正色強言道：「賢卿，寡人十九歲領兵，南征北伐，東擋西除，苦歷數載，更不曾見半點邪祟，今日卻反見鬼。」尉遲恭道：「創立江山，殺人無數，何怕鬼乎？」太宗道：「卿是不信。朕這寢宮門外，入夜就拋磚弄瓦，鬼魅呼號，著然難處。白日猶可，昏夜難禁。」叔寶道：「陛下寬心，今晚臣與敬德把守宮門，看有甚麼鬼祟。」太宗准奏。茂公謝恩而出。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 267
+    "line_end": 267
+  "translation_ja": |-
+    うろたえているところへ、また太后の命があり、徐世勣、秦叔宝、尉遅恭を召し出した。三公（さんこう・推定。ここでは徐世勣・秦叔宝・尉遅恭の三人への敬称）は命を受け、急いで分宮楼（ぶんきゅうろう・推定。唐の宮中にある楼門の名）の下へ入った。拝礼が済むと、太宗は顔を正し、力を振り絞って言った。
     太宗「卿らよ、朕は十九で兵を率い、南征北伐、東を防ぎ西を討ち、幾年も苦労を重ねたが、邪悪なものなど少しも見たことはなかった。それが今日、かえって幽霊を見るとは。」
-
     尉遅恭「天下を築くため、数知れぬ人を殺してこられたのに、どうして幽霊をお恐れになります。」
-
     太宗「卿は信じぬのだな。この寝宮の門外では、夜になると煉瓦を投げ、瓦を鳴らし、鬼どもが叫ぶ。まことに手に負えぬ。昼間はまだよいが、夜の暗さには耐えられぬ。」
-
-    秦叔宝「陛下、ご安心ください。今夜は臣と敬徳が宮門を守り、どんな鬼がいるのか、見届けましょう。」
-
-    太宗は進言を認めた。徐世勣は恩を謝して退出した。'
-  translation_status: reviewed
-- id: xy-ch10-046
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 當日天晚，各取披掛，他兩個介冑整齊，執金瓜、鉞斧，在宮門外把守。好將軍！你看他怎生打扮：
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 269
-    line_end: 269
-  translation_ja: その日、暮れると、二人はそれぞれ武具を取り、鎧兜をきちんと着け、金瓜と鉞斧を持ち、宮門の外を守った。見事な将軍たちだ。その装いをご覧あれ。
-  translation_status: reviewed
-- id: xy-ch10-047
-  section_id: chapter-10
-  kind: verse
-  origin: source
-  source_text: 頭戴金盔光爍爍，身披鎧甲龍鱗。護心寶鏡幌祥雲，獅蠻收緊扣，繡帶彩霞新。這一個鳳眼朝天星斗怕，那一個環睛映電月光浮。他本是英雄豪傑舊勳臣，只落得千年稱戶尉，萬古作門神。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 270
-    line_end: 270
-  translation_ja: '頭の金兜は光り輝き、身を覆う鎧は竜の鱗。
-
+    秦叔宝「陛下、ご安心ください。今夜は臣と敬徳（けいとく・推定。尉遅恭の字）が宮門を守り、どんな鬼がいるのか、見届けましょう。」
+    太宗は進言を認めた。徐世勣は恩を謝して退出した。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-046"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "當日天晚，各取披掛，他兩個介冑整齊，執金瓜、鉞斧，在宮門外把守。好將軍！你看他怎生打扮："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 269
+    "line_end": 269
+  "translation_ja": "その日、暮れると、二人はそれぞれ武具を取り、鎧兜をきちんと着け、金瓜（きんか・推定。瓜形の頭を備えた、儀仗にも用いる打撃武器）と鉞斧（えっぷ。大きな刃を持つ斧状の武器）を持ち、宮門の外を守った。見事な将軍たちだ。その装いをご覧あれ。"
+  "translation_status": "reviewed"
+- "id": "xy-ch10-047"
+  "section_id": "chapter-10"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "頭戴金盔光爍爍，身披鎧甲龍鱗。護心寶鏡幌祥雲，獅蠻收緊扣，繡帶彩霞新。這一個鳳眼朝天星斗怕，那一個環睛映電月光浮。他本是英雄豪傑舊勳臣，只落得千年稱戶尉，萬古作門神。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 270
+    "line_end": 270
+  "translation_ja": |-
+    頭の金兜は光り輝き、身を覆う鎧は竜の鱗。
     胸を守る宝鏡には瑞雲が揺れ、獅子の飾りの留め金は固く締まり、刺繡の帯は彩雲のように鮮やか。
-
     こちらが鳳の目を天へ向ければ星も恐れ、あちらの丸い眼には稲妻が映り、月光が浮かぶ。
-
-    もとは英雄豪傑、古参の功臣、ついには千年、戸を守る武官と呼ばれ、万世の門神となった。'
-  translation_status: reviewed
-- id: xy-ch10-048
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 二將軍侍立門傍，一夜天曉，更不曾見一點邪祟。是夜，太宗在宮，安寢無事。曉來宣二將軍，重重賞勞道：「朕自得疾，數日不能得睡，今夜仗二將軍威勢甚安。卿且請出安息安息，待晚間再一護衛。」二將謝恩而出。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 272
-    line_end: 272
-  translation_ja: '二将軍は門の脇に立ち、一夜が明けるまで、邪悪なものを少しも見なかった。その夜、太宗は宮中で無事、安らかに眠った。朝になると二人を召し、手厚くねぎらい、賞した。
-
+    もとは英雄豪傑、古参の功臣、ついには千年、戸を守る武官と呼ばれ、万世の門神（もんしん・推定。門を守って悪いものを防ぐ神）となった。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-048"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "二將軍侍立門傍，一夜天曉，更不曾見一點邪祟。是夜，太宗在宮，安寢無事。曉來宣二將軍，重重賞勞道：「朕自得疾，數日不能得睡，今夜仗二將軍威勢甚安。卿且請出安息安息，待晚間再一護衛。」二將謝恩而出。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 272
+    "line_end": 272
+  "translation_ja": |-
+    二将軍（にしょうぐん・推定。太宗の宮門を守る二人の将軍、秦叔宝と尉遅恭）は門の脇に立ち、一夜が明けるまで、邪悪なものを少しも見なかった。その夜、太宗は宮中で無事、安らかに眠った。朝になると二人を召し、手厚くねぎらい、賞した。
     太宗「病になってから幾日も眠れなかったが、今夜は二将軍の威勢に頼って、たいそう安らかだった。ひとまず退出して休むがよい。夜になったら、また守ってくれ。」
-
-    二将軍は恩を謝して退出した。'
-  translation_status: reviewed
-- id: xy-ch10-049
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 遂此二三夜把守俱安。只是御膳減損，病轉覺重。太宗又不忍二將辛苦，又宣叔寶、敬德與杜、房諸公入宮，吩咐道：「這兩日朕雖得安，卻只難為秦、胡二將軍徹夜辛苦。朕欲召巧手丹青，傳二將軍真容，貼於門上，免得勞他。如何？」眾臣即依旨，選兩個會寫真的，著胡、秦二公依前披掛，照樣畫了，貼在門上。夜間也即無事。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 274
-    line_end: 274
-  translation_ja: 'こうして二、三夜の警護はいずれも無事だった。ただ、食事の量は減り、病はますます重く感じられた。太宗は二将軍の苦労にも忍びず、また秦叔宝、尉遅恭、杜如晦、房玄齢らを宮中へ呼び、命じた。
-
-    太宗「この二日は安らかに過ごせたが、秦・胡の二将軍に徹夜の苦労をかけた。腕のよい絵師を呼んで、二人の真の姿を描き、門に貼って、その労を省きたい。どうであろう。」
-
-    臣たちは命に従い、肖像のうまい者を二人選んだ。尉遅恭と秦叔宝に先と同じ武装をさせ、そのまま描いて門に貼った。夜もやはり何事もなかった。'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 胡・敬德・尉遲恭を同一人物として本文の呼称を統一するが、太宗の発話内の秦・胡は保持。
-- id: xy-ch10-050
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 如此二三日，又聽得後宰門乒乓乒乓，磚瓦亂響。曉來即宣眾臣曰：「連日前門幸喜無事，今夜後門又響，卻不又驚殺寡人也。」茂公進前奏道：「前門不安，是敬德、叔寶護衛；後門不安，該著魏徵護衛。」太宗准奏，又宣魏徵今夜把守後門。徵領旨，當夜結束整齊，提著那誅龍的寶劍，侍立在後宰門前，真個的好英雄也。他怎生打扮：
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 276
-    line_end: 276
-  translation_ja: 'そうして二、三日すると、また後宰門で、がたがたと煉瓦や瓦の乱れ鳴る音がした。朝、太宗はすぐ臣たちを召した。
-
+    二将軍は恩を謝して退出した。
+  "translation_status": "reviewed"
+- "id": "xy-ch10-049"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "遂此二三夜把守俱安。只是御膳減損，病轉覺重。太宗又不忍二將辛苦，又宣叔寶、敬德與杜、房諸公入宮，吩咐道：「這兩日朕雖得安，卻只難為秦、胡二將軍徹夜辛苦。朕欲召巧手丹青，傳二將軍真容，貼於門上，免得勞他。如何？」眾臣即依旨，選兩個會寫真的，著胡、秦二公依前披掛，照樣畫了，貼在門上。夜間也即無事。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 274
+    "line_end": 274
+  "translation_ja": |-
+    こうして二、三夜の警護はいずれも無事だった。ただ、食事の量は減り、病はますます重く感じられた。太宗は二将軍の苦労にも忍びず、また秦叔宝、尉遅恭、杜如晦、房玄齢らを宮中へ呼び、命じた。
+    太宗「この二日は安らかに過ごせたが、秦（しん・推定。ここでは秦叔宝を姓で呼ぶ名）・胡（こ・推定。本文で尉遅恭を指す略称として使われる表記）の二将軍に徹夜の苦労をかけた。腕のよい絵師を呼んで、二人の真の姿を描き、門に貼って、その労を省きたい。どうであろう。」
+    臣たちは命に従い、肖像のうまい者を二人選んだ。尉遅恭と秦叔宝に先と同じ武装をさせ、そのまま描いて門に貼った。夜もやはり何事もなかった。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "胡・敬德・尉遲恭を同一人物として本文の呼称を統一するが、太宗の発話内の秦・胡は保持。"
+- "id": "xy-ch10-050"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "如此二三日，又聽得後宰門乒乓乒乓，磚瓦亂響。曉來即宣眾臣曰：「連日前門幸喜無事，今夜後門又響，卻不又驚殺寡人也。」茂公進前奏道：「前門不安，是敬德、叔寶護衛；後門不安，該著魏徵護衛。」太宗准奏，又宣魏徵今夜把守後門。徵領旨，當夜結束整齊，提著那誅龍的寶劍，侍立在後宰門前，真個的好英雄也。他怎生打扮："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 276
+    "line_end": 276
+  "translation_ja": |-
+    そうして二、三日すると、また後宰門（こうさいもん・推定。宮殿の後方にある門の名）で、がたがたと煉瓦や瓦の乱れ鳴る音がした。朝、太宗はすぐ臣たちを召した。
     太宗「この数日、前門は幸い無事だったが、今夜は後門がまた鳴った。これでは、また朕を驚かせて殺すようなものではないか。」
-
     徐世勣は進み出て奏上した。
-
-    徐世勣「前門が安らかでなかったときは、敬徳と叔宝が守りました。後門が安らかでなければ、魏徴に守らせるべきでございます。」
-
-    太宗は進言を認め、魏徴を呼んで、その夜の後門を守らせた。魏徴は命を受け、その晩、装いを整え、竜を斬った宝剣を提げて、後宰門の前に立った。まことに見事な英雄である。その装いは、'
-  translation_status: reviewed
-- id: xy-ch10-051
-  section_id: chapter-10
-  kind: verse
-  origin: source
-  source_text: 熟絹青巾抹額，錦袍玉帶垂腰。兜風氅袖采霜飄，壓賽壘荼神貌。腳踏烏靴坐折，手持利刃兇驍。圓睜兩眼四邊瞧，那個邪神敢到？
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 277
-    line_end: 277
-  translation_ja: '練絹の青い頭巾を額に巻き、錦の袍には玉の帯が腰に垂れる。
-
-    風をはらむ広い袖には霜の光が翻り、壘荼の神の姿にもまさる。
-
+    徐世勣「前門が安らかでなかったときは、敬徳と叔宝（しゅくほう・推定。秦叔宝を字で呼ぶ名）が守りました。後門が安らかでなければ、魏徴に守らせるべきでございます。」
+    太宗は進言を認め、魏徴を呼んで、その夜の後門を守らせた。魏徴は命を受け、その晩、装いを整え、竜を斬った宝剣を提げて、後宰門の前に立った。まことに見事な英雄である。その装いは、
+  "translation_status": "reviewed"
+- "id": "xy-ch10-051"
+  "section_id": "chapter-10"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "熟絹青巾抹額，錦袍玉帶垂腰。兜風氅袖采霜飄，壓賽壘荼神貌。腳踏烏靴坐折，手持利刃兇驍。圓睜兩眼四邊瞧，那個邪神敢到？"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 277
+    "line_end": 277
+  "translation_ja": |-
+    練絹（ねりぎぬ・推定。生糸のにかわ質を除いて柔らかくした絹）の青い頭巾を額に巻き、錦の袍（ほう・推定。体をゆったり包む丈の長い衣）には玉の帯が腰に垂れる。
+    風をはらむ広い袖には霜の光が翻り、壘荼（るいと・推定。本文にこの表記で現れる門の守護神。神荼・鬱壘との関連が考えられる）の神の姿にもまさる。
     足には折り目のついた黒い靴、手には鋭い刃、凄まじい勇姿。
-
-    両眼を丸く見開き、四方を見回せば、どの邪神が近寄れよう。'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 壘荼を原字で保持。神荼・鬱壘等への無断訂正はしない。坐折の細義は留保し、靴の折り目と解する。
-- id: xy-ch10-052
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 一夜通明，也無鬼魅。雖是前後門無事，只是身體漸重。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 279
-    line_end: 279
-  translation_ja: 夜が明けるまで、やはり鬼は出なかった。前門も後門も無事になったが、体の具合だけは、次第に重くなっていった。
-  translation_status: reviewed
-- id: xy-ch10-053
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 一日，太后又傳旨，召眾臣商議殯殮後事。太宗又宣徐茂公，吩咐國家大事，叮囑倣劉蜀主託孤之意。言畢，沐浴更衣，待時而已。傍閃魏徵，手扯龍衣，奏道：「陛下寬心，臣有一事，管保陛下長生。」太宗道：「病勢已入膏肓，命將危矣，如何保得？」徵云：「臣有書一封，進與陛下，捎去到陰司，付酆都判官崔珏。」太宗道：「崔珏是誰？」徵云：「崔珏乃是太上先皇帝駕前之臣，先受茲洲令，後陞禮部侍郎。在日與臣八拜為交，相知甚厚。他如今已死，現在陰司做掌生死文簿的酆都判官，夢中常與臣相會。此去若將此書付與他，他念微臣薄分，必然放陛下回來。管教魂魄還陽世，定取龍顏轉帝都。」太宗聞言，接在手中，籠入袖裡，遂瞑目而亡。那三宮六院、皇后嬪妃、侍長儲君及兩班文武，俱舉哀戴孝。又在白虎殿上，停著梓宮不題。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 281
-    line_end: 281
-  translation_ja: 'ある日、太后はまた命を下し、臣たちを呼んで、納棺や葬儀など後のことを相談した。太宗も徐世勣を呼び、国家の大事を託し、蜀の君主、劉備が孤児を託したときにならって、ねんごろに言い聞かせた。言い終えると、湯浴みして衣を替え、あとはその時を待つばかりだった。脇から魏徴が進み出て、竜の衣を引き、奏上した。
-
+    両眼を丸く見開き、四方を見回せば、どの邪神が近寄れよう。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "壘荼を原字で保持。神荼・鬱壘等への無断訂正はしない。坐折の細義は留保し、靴の折り目と解する。"
+- "id": "xy-ch10-052"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "一夜通明，也無鬼魅。雖是前後門無事，只是身體漸重。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 279
+    "line_end": 279
+  "translation_ja": "夜が明けるまで、やはり鬼は出なかった。前門も後門も無事になったが、体の具合だけは、次第に重くなっていった。"
+  "translation_status": "reviewed"
+- "id": "xy-ch10-053"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "一日，太后又傳旨，召眾臣商議殯殮後事。太宗又宣徐茂公，吩咐國家大事，叮囑倣劉蜀主託孤之意。言畢，沐浴更衣，待時而已。傍閃魏徵，手扯龍衣，奏道：「陛下寬心，臣有一事，管保陛下長生。」太宗道：「病勢已入膏肓，命將危矣，如何保得？」徵云：「臣有書一封，進與陛下，捎去到陰司，付酆都判官崔珏。」太宗道：「崔珏是誰？」徵云：「崔珏乃是太上先皇帝駕前之臣，先受茲洲令，後陞禮部侍郎。在日與臣八拜為交，相知甚厚。他如今已死，現在陰司做掌生死文簿的酆都判官，夢中常與臣相會。此去若將此書付與他，他念微臣薄分，必然放陛下回來。管教魂魄還陽世，定取龍顏轉帝都。」太宗聞言，接在手中，籠入袖裡，遂瞑目而亡。那三宮六院、皇后嬪妃、侍長儲君及兩班文武，俱舉哀戴孝。又在白虎殿上，停著梓宮不題。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 281
+    "line_end": 281
+  "translation_ja": |-
+    ある日、太后はまた命を下し、臣たちを呼んで、納棺や葬儀など後のことを相談した。太宗も徐世勣を呼び、国家の大事を託し、蜀（しょく・推定。劉備が建てた三国時代の国）の君主、劉備（りゅうび・推定。三国時代に蜀を建てた君主）が孤児を託したときにならって、ねんごろに言い聞かせた。言い終えると、湯浴みして衣を替え、あとはその時を待つばかりだった。脇から魏徴が進み出て、竜の衣を引き、奏上した。
     魏徴「陛下、ご安心ください。臣に一つ手立てがございます。必ず陛下の長命を保証いたします。」
-
-    太宗「病はすでに膏肓に入り、命も危うい。どうして保証できるのだ。」
-
-    魏徴「臣の手紙を一通、陛下に差し上げます。冥府へお持ちになり、酆都の判官、崔珏へお渡しください。」
-
+    太宗「病はすでに膏肓（こうこう。昔、治療が及ばないと考えた体の奥。「病が膏肓に入る」は重病になること）に入り、命も危うい。どうして保証できるのだ。」
+    魏徴「臣の手紙を一通、陛下に差し上げます。冥府へお持ちになり、酆都（ほうと。死者の世界があるとされた場所。ここでは冥府の所在地）の判官（はんがん。冥府で死者の帳簿や裁判に携わる役人）、崔珏（さいかく・推定。魏徴と親交があり、死後は冥府の判官となった人物）へお渡しください。」
     太宗「崔珏とは誰だ。」
+    魏徴「崔珏は先代の太上皇帝（たいじょうこうてい・推定。皇帝の父や退位した皇帝に対する尊称）に仕えた臣で、初め茲洲（じしゅう・推定。本文に崔珏の赴任地として現れる地名。字を補訂せず保持する）の県令（けんれい・推定。一つの県を治める地方長官）に任じられ、後に礼部侍郎（れいぶじろう・推定。儀礼や科挙などを担う礼部の次官）へ昇りました。生前、臣とは八拝の交わり（はっぱいのまじわり・推定。互いに礼拝し、兄弟同然の深い親交を結ぶこと）を結び、たいそう深い親交がございました。今は亡くなり、冥府で生死の帳簿を司る酆都の判官となっておりますが、夢の中でよく臣と会います。此度おいでになる際、この手紙をお渡しになれば、臣とのわずかな縁を思って、必ず陛下を帰してくれましょう。魂は必ず陽の世に戻り、竜顔（りゅうがん・推定。天子の顔を敬っていう語）はきっと帝都へお帰りになります。」
+    太宗は聞くと、手に受け取り、袖へしまい、そのまま目を閉じて亡くなった。三宮六院（さんぐうりくいん・推定。皇后や妃たちの住む後宮全体を表す言い方）の皇后、妃たち、側仕えの長、皇太子（こうたいし。皇位を継ぐことになっている皇子）、文武二班の臣たちは、みな声を上げて泣き、喪服を着けた。白虎殿（びゃっこでん・推定。太宗の棺を安置した宮殿の名）には天子の棺を安置したが、この話はひとまず置こう。
+  "translation_status": "reviewed"
+  "issues":
+  - "kind": "uncertain_translation"
+    "status": "open"
+    "message_ja": "茲洲の地名を原字で保持。先受茲洲令の官職上の不整合や侍長の詳細は留保。太后も底本のまま。"
+- "id": "xy-ch10-054"
+  "section_id": "chapter-10"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "畢竟不知太宗如何還魂，且聽下回分解。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch10-2194739"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739"
+    "line_start": 283
+    "line_end": 283
+  "translation_ja": "さて、太宗はいかにして生き返るのか。それは次回の説き明かしをお聞きあれ。"
+  "translation_status": "reviewed"
+"workflow":
+  "stage": "reviewing"
+  "full_review":
+    "status": "in_progress"
+"groups":
+- "id": "poem-019"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-019"
+  "separator": |2+
 
-    魏徴「崔珏は先代の太上皇帝に仕えた臣で、初め茲洲の県令に任じられ、後に礼部侍郎へ昇りました。生前、臣とは八拝の交わりを結び、たいそう深い親交がございました。今は亡くなり、冥府で生死の帳簿を司る酆都の判官となっておりますが、夢の中でよく臣と会います。此度おいでになる際、この手紙をお渡しになれば、臣とのわずかな縁を思って、必ず陛下を帰してくれましょう。魂は必ず陽の世に戻り、竜顔はきっと帝都へお帰りになります。」
+  "description_ja": "語り手の挿入韻文。"
+- "id": "poem-021"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-021"
+  "separator": |2+
 
-    太宗は聞くと、手に受け取り、袖へしまい、そのまま目を閉じて亡くなった。三宮六院の皇后、妃たち、側仕えの長、皇太子、文武二班の臣たちは、みな声を上げて泣き、喪服を着けた。白虎殿には天子の棺を安置したが、この話はひとまず置こう。'
-  translation_status: reviewed
-  issues:
-  - kind: uncertain_translation
-    status: open
-    message_ja: 茲洲の地名を原字で保持。先受茲洲令の官職上の不整合や侍長の詳細は留保。太后も底本のまま。
-- id: xy-ch10-054
-  section_id: chapter-10
-  kind: paragraph
-  origin: source
-  source_text: 畢竟不知太宗如何還魂，且聽下回分解。
-  source_languages:
-  - zh-Hant
-  source_locations:
-  - source_id: wikisource-xiyou-ch10-2194739
-    precision: line
-    url: https://zh.wikisource.org/w/index.php?title=西遊記/第010回&oldid=2194739
-    line_start: 283
-    line_end: 283
-  translation_ja: さて、太宗はいかにして生き返るのか。それは次回の説き明かしをお聞きあれ。
-  translation_status: reviewed
-workflow:
-  stage: reviewing
-  full_review:
-    status: complete
-    completed_at: '2026-10-24T01:09:54Z'
-    reviewed_by: ChatGPT（全文自己対照と別AI読み手の読取専用レビュー、専門家校訂は未実施）
-    content_sha256: 57645493216bc467b9259e325ae55545cd8246ac90cc3069e3d2f65de308c368
-groups:
-- id: poem-019
-  kind: poem
-  members:
-  - segment_id: xy-ch10-019
-  separator: '
+  "description_ja": "語り手の挿入韻文。"
+- "id": "poem-029"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-029"
+  "separator": |2+
 
-    '
-  description_ja: 語り手の挿入韻文。
-- id: poem-021
-  kind: poem
-  members:
-  - segment_id: xy-ch10-021
-  separator: '
+  "description_ja": "語り手の挿入韻文。"
+- "id": "poem-032"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-032"
+  "separator": |2+
 
-    '
-  description_ja: 語り手の挿入韻文。
-- id: poem-029
-  kind: poem
-  members:
-  - segment_id: xy-ch10-029
-  separator: '
+  "description_ja": "語り手の挿入韻文。"
+- "id": "poem-037"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-037"
+  "separator": |2+
 
-    '
-  description_ja: 語り手の挿入韻文。
-- id: poem-032
-  kind: poem
-  members:
-  - segment_id: xy-ch10-032
-  separator: '
+  "description_ja": "語り手の挿入韻文。"
+- "id": "poem-047"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-047"
+  "separator": |2+
 
-    '
-  description_ja: 語り手の挿入韻文。
-- id: poem-037
-  kind: poem
-  members:
-  - segment_id: xy-ch10-037
-  separator: '
+  "description_ja": "語り手の挿入韻文。"
+- "id": "poem-051"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-051"
+  "separator": |2+
 
-    '
-  description_ja: 語り手の挿入韻文。
-- id: poem-047
-  kind: poem
-  members:
-  - segment_id: xy-ch10-047
-  separator: '
-
-    '
-  description_ja: 語り手の挿入韻文。
-- id: poem-051
-  kind: poem
-  members:
-  - segment_id: xy-ch10-051
-  separator: '
-
-    '
-  description_ja: 語り手の挿入韻文。
-- id: spoken-poem-002
-  kind: poem
-  members:
-  - segment_id: xy-ch10-002
-    source_span:
-      start: 252
-      end: 324
-      exact: '煙波萬里扁舟小，靜依孤篷，西施聲音遶。滌慮洗心名利少，閑攀蓼穗蒹葭草。
-
-        數點沙鷗堪樂道，柳岸蘆灣，妻子同歡笑。一覺安眠風浪消，無榮無辱無煩惱。」'
-    translation_span:
-      start: 433
-      end: 588
-      exact: '煙る波は万里、小舟は小さく、
-
-        一つの篷に静かに寄れば、西施の声が巡る。
-
+  "description_ja": "語り手の挿入韻文。"
+- "id": "spoken-poem-002"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-002"
+    "source_span":
+      "start": 252
+      "end": 324
+      "exact": |-
+        煙波萬里扁舟小，靜依孤篷，西施聲音遶。滌慮洗心名利少，閑攀蓼穗蒹葭草。
+        數點沙鷗堪樂道，柳岸蘆灣，妻子同歡笑。一覺安眠風浪消，無榮無辱無煩惱。」
+    "translation_span":
+      "start": 831
+      "end": 1057
+      "exact": |-
+        煙る波は万里、小舟は小さく、
+        一つの篷（とま。舟を覆う、竹や草などで編んだ屋根）に静かに寄れば、西施（せいし。古代中国の美女。ここでの声の比喩の細義は未確定）の声が巡る。
         思いをすすぎ、心を洗い、名利への思いは少なく、
-
-        のんびり蓼の穂や葦の草を手折る。
-
+        のんびり蓼（たで・推定。水辺などに生えるタデ科の草）の穂や葦の草を手折る。
         点々といる砂洲のカモメこそ、語る楽しみ。
-
         柳の岸、葦の入り江で、妻や子と笑い合う。
-
         一眠り安らかにすれば、風も波も静まり、
+        栄誉も恥辱もなく、悩みもない。」
+  "separator": |2+
 
-        栄誉も恥辱もなく、悩みもない。」'
-  separator: '
-
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: spoken-poem-003
-  kind: poem
-  members:
-  - segment_id: xy-ch10-003
-    source_span:
-      start: 33
-      end: 102
-      exact: '雲林一段松花滿，默聽鶯啼，巧舌如調管。紅瘦綠肥春正暖，倏然夏至光陰轉。
-
-        又值秋來容易換，黃花香，堪供玩。迅速嚴冬如指撚，逍遙四季無人管。」'
-    translation_span:
-      start: 50
-      end: 204
-      exact: '雲の林の一画に、松の花が満ち、
-
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "spoken-poem-003"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-003"
+    "source_span":
+      "start": 33
+      "end": 102
+      "exact": |-
+        雲林一段松花滿，默聽鶯啼，巧舌如調管。紅瘦綠肥春正暖，倏然夏至光陰轉。
+        又值秋來容易換，黃花香，堪供玩。迅速嚴冬如指撚，逍遙四季無人管。」
+    "translation_span":
+      "start": 50
+      "end": 204
+      "exact": |-
+        雲の林の一画に、松の花が満ち、
         黙って聞けば、鶯の巧みな舌は笛を奏でるよう。
-
         紅い花は減り、緑の葉は茂り、春は暖かく、
-
         ふと夏が来て、月日は移る。
-
         また秋が来れば、移り変わるのもたやすく、
-
         黄色い花は香り、眺めて楽しむに足る。
-
         厳しい冬も指をひねる間に巡り来るが、
+        四季をのびのび暮らし、誰にも指図されぬ。」
+  "separator": |2+
 
-        四季をのびのび暮らし、誰にも指図されぬ。」'
-  separator: '
-
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: spoken-poem-004
-  kind: poem
-  members:
-  - segment_id: xy-ch10-004
-    source_span:
-      start: 31
-      end: 97
-      exact: '仙鄉雲水足生涯，擺櫓橫舟便是家。活剖鮮鱗烹綠鱉，旋蒸紫蟹煮紅蝦。
-
-        青蘆筍，水荇芽，菱角雞頭更可誇。嬌藕老蓮芹葉嫩，慈菇茭白鳥英花。」'
-    translation_span:
-      start: 52
-      end: 200
-      exact: '仙郷の雲と水で、生計は十分、
-
-        櫓を動かし、舟を横たえれば、そこが我が家。
-
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "spoken-poem-004"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-004"
+    "source_span":
+      "start": 31
+      "end": 97
+      "exact": |-
+        仙鄉雲水足生涯，擺櫓橫舟便是家。活剖鮮鱗烹綠鱉，旋蒸紫蟹煮紅蝦。
+        青蘆筍，水荇芽，菱角雞頭更可誇。嬌藕老蓮芹葉嫩，慈菇茭白鳥英花。」
+    "translation_span":
+      "start": 75
+      "end": 405
+      "exact": |-
+        仙郷（せんきょう・推定。仙人の住む境地。ここでは美しい水辺のたとえ）の雲と水で、生計は十分、
+        櫓（ろ・推定。舟の後方で動かし、水をかいて進める道具）を動かし、舟を横たえれば、そこが我が家。
         生きのよい魚をさばき、緑のスッポンを煮て、
-
         すぐに紫のカニを蒸し、赤いエビを煮る。
-
-        青い葦の芽、アサザの芽、
-
-        ヒシの実、オニバスの実も自慢の品。
-
+        青い葦の芽、アサザ（水面に葉を浮かべ、黄色い花を咲かせる水草）の芽、
+        ヒシの実、オニバス（とげのある大きな浮葉を持ち、実を食用にする水草）の実も自慢の品。
         柔らかな蓮根、熟れた蓮の実、若いセリの葉、
+        クワイ（水田などで育て、地下の塊茎を食べる水草）、マコモ（水辺に生えるイネ科の草。肥大した茎を食べる）の茎、鳥英（ちょうえい・推定。原文に挙がる食用の花の名。植物の同定は未確定）の花。」
+  "separator": |2+
 
-        クワイ、マコモの茎、鳥英の花。」'
-  separator: '
-
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: spoken-poem-005
-  kind: poem
-  members:
-  - segment_id: xy-ch10-005
-    source_span:
-      start: 32
-      end: 98
-      exact: '崔巍峻嶺接天涯，草舍茅庵是我家。醃臘雞鵝強蟹鱉，獐豝兔鹿勝魚蝦。
-
-        香椿葉，黃楝芽，竹筍山茶更可誇。紫李紅桃梅杏熟，甜梨酸棗木樨花。」'
-    translation_span:
-      start: 57
-      end: 205
-      exact: '険しい峰々は空の果てへ続き、
-
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "spoken-poem-005"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-005"
+    "source_span":
+      "start": 32
+      "end": 98
+      "exact": |-
+        崔巍峻嶺接天涯，草舍茅庵是我家。醃臘雞鵝強蟹鱉，獐豝兔鹿勝魚蝦。
+        香椿葉，黃楝芽，竹筍山茶更可誇。紫李紅桃梅杏熟，甜梨酸棗木樨花。」
+    "translation_span":
+      "start": 57
+      "end": 332
+      "exact": |-
+        険しい峰々は空の果てへ続き、
         草葺きの家、茅の庵こそ我が家。
-
-        塩漬けの鶏や鵞鳥は、カニやスッポンよりうまく、
-
-        キバノロ、雌の猪、兎や鹿は、魚やエビにまさる。
-
-        チャンチンの葉、黄楝の芽、
-
-        タケノコ、山茶も自慢の品。
-
+        塩漬けの鶏や鵞鳥（がちょう・推定。ガンを飼い慣らした家禽）は、カニやスッポンよりうまく、
+        キバノロ（雄に長い牙がある小型のシカ）、雌の猪、兎や鹿は、魚やエビにまさる。
+        チャンチン（若芽や若葉を食用にするセンダン科の木）の葉、黄楝（こうれん・推定。原文に芽を食べる植物として挙がる名。種の同定は未確定）の芽、
+        タケノコ、山茶（さんちゃ・推定。山に生える茶やツバキ類を指す語。ここでの種は未確定）も自慢の品。
         紫のスモモ、紅い桃、梅や杏は熟れ、
+        甘い梨、酸っぱいナツメ、モクセイの花もある。」
+  "separator": |2+
 
-        甘い梨、酸っぱいナツメ、モクセイの花もある。」'
-  separator: '
-
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: spoken-poem-006
-  kind: poem
-  members:
-  - segment_id: xy-ch10-006
-    source_span:
-      start: 28
-      end: 110
-      exact: '一葉小舟隨所寓，萬疊煙波無恐懼。垂鉤撒網捉鮮鱗，沒醬膩，偏有味，老妻稚子團圓會。
-
-        魚多又貨長安市，換得香醪吃個醉。簑衣當被臥秋江，鼾鼾睡，無憂慮，不戀人間榮與貴。」'
-    translation_span:
-      start: 41
-      end: 221
-      exact: '一葉の小舟は、行く先がそのまま住まい、
-
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "spoken-poem-006"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-006"
+    "source_span":
+      "start": 28
+      "end": 110
+      "exact": |-
+        一葉小舟隨所寓，萬疊煙波無恐懼。垂鉤撒網捉鮮鱗，沒醬膩，偏有味，老妻稚子團圓會。
+        魚多又貨長安市，換得香醪吃個醉。簑衣當被臥秋江，鼾鼾睡，無憂慮，不戀人間榮與貴。」
+    "translation_span":
+      "start": 67
+      "end": 297
+      "exact": |-
+        一葉の小舟は、行く先がそのまま住まい、
         幾重もの煙る波にも、恐れはない。
-
         釣り針を垂れ、網を撒き、生きのよい魚を捕る。
-
-        こってりした醬はなくても、格別の味、
-
+        こってりした醬（ひしお・推定。穀物や肉・魚などを発酵させて作る濃い調味料）はなくても、格別の味、
         老いた妻と幼い子が、そろって集まる。
-
         魚が多ければ長安の市で売り、
-
         香りよい濁り酒に換え、酔いしれる。
-
-        蓑を布団に、秋の川に寝そべり、
-
+        蓑（みの・推定。草やわらを編んで作る雨具）を布団に、秋の川に寝そべり、
         いびきをかいて、憂いなく眠り、
+        この世の栄華も富貴も恋しくない。」
+  "separator": |2+
 
-        この世の栄華も富貴も恋しくない。」'
-  separator: '
-
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: spoken-poem-007
-  kind: poem
-  members:
-  - segment_id: xy-ch10-007
-    source_span:
-      start: 27
-      end: 109
-      exact: '茆舍數椽山下蓋，松竹梅蘭真可愛。穿林越嶺覓乾柴，沒人怪，從我賣，或少或多憑世界。
-
-        將錢沽酒隨心快，瓦缽磁甌殊自在。酕醄醉了臥松陰，無掛礙，無利害，不管人間興與敗。」'
-    translation_span:
-      start: 39
-      end: 202
-      exact: '山の麓に幾間かの茅屋を建て、
-
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "spoken-poem-007"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-007"
+    "source_span":
+      "start": 27
+      "end": 109
+      "exact": |-
+        茆舍數椽山下蓋，松竹梅蘭真可愛。穿林越嶺覓乾柴，沒人怪，從我賣，或少或多憑世界。
+        將錢沽酒隨心快，瓦缽磁甌殊自在。酕醄醉了臥松陰，無掛礙，無利害，不管人間興與敗。」
+    "translation_span":
+      "start": 39
+      "end": 226
+      "exact": |-
+        山の麓に幾間かの茅屋（ぼうおく・推定。茅や草で屋根をふいた質素な家）を建て、
         松、竹、梅、蘭を、心から愛でる。
-
         林を抜け、峰を越え、乾いた薪を捜す。
-
         とがめる人もなく、売るのも自由、
-
         多いか少ないかは世間次第。
-
         その銭で酒を買い、心のままに楽しみ、
-
         土の鉢、磁器の碗で、まことに気楽。
-
         酔いしれて松陰に横たわり、
-
         しがらみも、利害もなく、
+        人の世の栄えや衰えなど構わない。」
+  "separator": |2+
 
-        人の世の栄えや衰えなど構わない。」'
-  separator: '
-
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: spoken-poem-008
-  kind: poem
-  members:
-  - segment_id: xy-ch10-008
-    source_span:
-      start: 32
-      end: 92
-      exact: '紅蓼花繁映月，黃蘆葉亂搖風。碧天清遠楚江空，牽攪一潭星動。
-
-        入網大魚作隊，吞鉤小鱖成叢。得來烹煮味偏濃，笑傲江湖打鬨。」'
-    translation_span:
-      start: 45
-      end: 188
-      exact: '紅い蓼の花は繁り、月を映し、
-
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "spoken-poem-008"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-008"
+    "source_span":
+      "start": 32
+      "end": 92
+      "exact": |-
+        紅蓼花繁映月，黃蘆葉亂搖風。碧天清遠楚江空，牽攪一潭星動。
+        入網大魚作隊，吞鉤小鱖成叢。得來烹煮味偏濃，笑傲江湖打鬨。」
+    "translation_span":
+      "start": 72
+      "end": 262
+      "exact": |-
+        紅い蓼の花は繁り、月を映し、
         黄ばんだ葦の葉は、乱れて風に揺れる。
-
-        青空は澄んで遠く、楚の川は広々と空き、
-
+        青空は澄んで遠く、楚（そ・推定。古代中国の国名で、長江中流域の地域名でもある）の川は広々と空き、
         舟を引いて水をかき回せば、一淵の星が動く。
-
         網に入る大魚は群れをなし、
-
-        針を飲む小さなケツギョは集まる。
-
+        針を飲む小さなケツギョ（中国の淡水にすむ、肉食性の食用魚）は集まる。
         捕って煮れば、その味はいっそう濃く、
+        川や湖で大笑いし、気ままに騒ぐ。」
+  "separator": |2+
 
-        川や湖で大笑いし、気ままに騒ぐ。」'
-  separator: '
-
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: spoken-poem-009
-  kind: poem
-  members:
-  - segment_id: xy-ch10-009
-    source_span:
-      start: 34
-      end: 94
-      exact: '敗葉枯藤滿路，破梢老竹盈山。女蘿乾葛亂牽攀，折取收繩殺擔。
-
-        蟲蛀空心榆柳，風吹斷頭松柟。採來堆積備冬寒，換酒換錢從俺。」'
-    translation_span:
-      start: 45
-      end: 180
-      exact: '朽ち葉と枯れ藤は道に満ち、
-
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "spoken-poem-009"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-009"
+    "source_span":
+      "start": 34
+      "end": 94
+      "exact": |-
+        敗葉枯藤滿路，破梢老竹盈山。女蘿乾葛亂牽攀，折取收繩殺擔。
+        蟲蛀空心榆柳，風吹斷頭松柟。採來堆積備冬寒，換酒換錢從俺。」
+    "translation_span":
+      "start": 45
+      "end": 234
+      "exact": |-
+        朽ち葉と枯れ藤は道に満ち、
         折れた枝や老いた竹は山にいっぱい。
-
-        サルオガセや乾いた葛が乱れ絡まり、
-
+        サルオガセ（木の枝から糸状に垂れ下がる地衣類）や乾いた葛が乱れ絡まり、
         折り取って縄でまとめ、荷に締める。
-
         虫に食われ、芯の空いたニレや柳、
-
-        風に梢を折られた松や柟の木。
-
+        風に梢を折られた松や柟（なん・推定。クスノキ科の楠木類を指す字。日本のクスと同一とは限らない）の木。
         集めて積んで、冬の寒さに備え、
+        酒に換えるも銭に換えるも、私の自由。」
+  "separator": |2+
 
-        酒に換えるも銭に換えるも、私の自由。」'
-  separator: '
-
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: spoken-poem-010
-  kind: poem
-  members:
-  - segment_id: xy-ch10-010
-    source_span:
-      start: 34
-      end: 106
-      exact: '潮落旋移孤艇去，夜深罷棹歌來。簑衣殘月甚幽哉，宿鷗驚不起，天際彩雲開。
-
-        困臥蘆洲無個事，三竿日上還捱。隨心儘意自安排，朝臣寒待漏，怎似我寬懷。」'
-    translation_span:
-      start: 55
-      end: 228
-      exact: '潮が引けば、すぐ一艘の舟を移し、
-
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "spoken-poem-010"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-010"
+    "source_span":
+      "start": 34
+      "end": 106
+      "exact": |-
+        潮落旋移孤艇去，夜深罷棹歌來。簑衣殘月甚幽哉，宿鷗驚不起，天際彩雲開。
+        困臥蘆洲無個事，三竿日上還捱。隨心儘意自安排，朝臣寒待漏，怎似我寬懷。」
+    "translation_span":
+      "start": 82
+      "end": 334
+      "exact": |-
+        潮が引けば、すぐ一艘の舟を移し、
         夜更け、棹を収めて歌い帰る。
-
         蓑にかかる残月の、なんと静かなこと。
-
         眠るカモメも驚かず、
-
         空の果てに彩雲が開く。
-
         疲れれば葦の洲に寝て、何の用もなく、
-
-        日が三竿も上がってなお、ぐずぐずしている。
-
+        日が三竿（さんかん・推定。太陽が竿三本ほどの高さに昇るころという、朝の遅さの表現）も上がってなお、ぐずぐずしている。
         心のまま、思いのまま、自分で暮らしを決める。
+        朝臣（ちょうしん・推定。朝廷に仕える臣下）は寒い中、朝参（ちょうさん・推定。臣下が朝廷へ出仕すること）の時を待つが、
+        私のこの気楽さに、どうして及ぼう。」
+  "separator": |2+
 
-        朝臣は寒い中、朝参の時を待つが、
-
-        私のこの気楽さに、どうして及ぼう。」'
-  separator: '
-
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: spoken-poem-011
-  kind: poem
-  members:
-  - segment_id: xy-ch10-011
-    source_span:
-      start: 33
-      end: 105
-      exact: '蒼徑秋高拽斧去，晚涼擡擔回來。野花插鬢更奇哉，撥雲尋路出，待月叫門開。
-
-        稚子山妻欣笑接，草床木枕攲捱。蒸梨炊黍旋鋪排，甕中新釀熟，真個壯幽懷。」'
-    translation_span:
-      start: 47
-      end: 226
-      exact: '青い小道、秋空高く、斧を引いて行き、
-
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "spoken-poem-011"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-011"
+    "source_span":
+      "start": 33
+      "end": 105
+      "exact": |-
+        蒼徑秋高拽斧去，晚涼擡擔回來。野花插鬢更奇哉，撥雲尋路出，待月叫門開。
+        稚子山妻欣笑接，草床木枕攲捱。蒸梨炊黍旋鋪排，甕中新釀熟，真個壯幽懷。」
+    "translation_span":
+      "start": 47
+      "end": 296
+      "exact": |-
+        青い小道、秋空高く、斧を引いて行き、
         夕涼みには、荷を担いで帰ってくる。
-
-        野の花を鬢に挿すのも、また格別。
-
+        野の花を鬢（びん・推定。顔の左右、耳の前に生える髪）に挿すのも、また格別。
         雲を払い、道を捜して抜け、
-
         月を待ち、門を開けよと呼ぶ。
-
         幼い子と田舎の妻が、笑って迎え、
-
         草の床と木の枕に、身を寄せて横たわる。
+        梨を蒸し、黍（きび・推定。小さな粒を食用にするイネ科の穀物）を炊いて、すぐ食卓を整える。
+        甕（かめ・推定。酒や水などを入れる口の狭い大きな器）の新酒も飲みごろとなり、
+        この静かな心持ちを、まことに豊かにしてくれる。」
+  "separator": |2+
 
-        梨を蒸し、黍を炊いて、すぐ食卓を整える。
-
-        甕の新酒も飲みごろとなり、
-
-        この静かな心持ちを、まことに豊かにしてくれる。」'
-  separator: '
-
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: spoken-poem-012
-  kind: poem
-  members:
-  - segment_id: xy-ch10-012
-    source_span:
-      start: 41
-      end: 109
-      exact: '閑看蒼天白鶴飛，停舟溪畔掩蒼扉。
-
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "spoken-poem-012"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-012"
+    "source_span":
+      "start": 41
+      "end": 109
+      "exact": |-
+        閑看蒼天白鶴飛，停舟溪畔掩蒼扉。
         倚篷教子搓鉤線，罷棹同妻晒網圍。
-
         性定果然如浪靜，身安自是覺風微。
-
-        綠簑青笠隨時著，勝掛朝中紫綬衣。」'
-    translation_span:
-      start: 64
-      end: 220
-      exact: '暇には青空を白鶴が飛ぶのを眺め、
-
+        綠簑青笠隨時著，勝掛朝中紫綬衣。」
+    "translation_span":
+      "start": 64
+      "end": 248
+      "exact": |-
+        暇には青空を白鶴が飛ぶのを眺め、
         渓流のほとりに舟を止め、青い扉を閉める。
-
         篷に寄って、子に釣り糸をよるのを教え、
-
         棹を収めれば、妻とともに網を干す。
-
         心が静まれば、まさしく波の静けさのよう、
-
         身が安らかなら、おのずと風もかすかに感じる。
-
         緑の蓑と青い笠を、折々に着ける方が、
+        朝廷で紫綬（しじゅ。高位の官人が印を帯びるために使う紫の組みひも）の衣をまとうよりよい。」
+  "separator": |2+
 
-        朝廷で紫綬の衣をまとうよりよい。」'
-  separator: '
-
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: spoken-poem-013
-  kind: poem
-  members:
-  - segment_id: xy-ch10-013
-    source_span:
-      start: 29
-      end: 97
-      exact: '閑觀縹緲白雲飛，獨坐茅庵掩竹扉。
-
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "spoken-poem-013"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-013"
+    "source_span":
+      "start": 29
+      "end": 97
+      "exact": |-
+        閑觀縹緲白雲飛，獨坐茅庵掩竹扉。
         無事訓兒開卷讀，有時對客把棋圍。
-
         喜來策杖歌芳徑，興到攜琴上翠微。
-
-        草履麻絛粗布被，心寬強似著羅衣。」'
-    translation_span:
-      start: 43
-      end: 192
-      exact: '暇には、はるかに白雲が飛ぶのを眺め、
-
+        草履麻絛粗布被，心寬強似著羅衣。」
+    "translation_span":
+      "start": 43
+      "end": 192
+      "exact": |-
+        暇には、はるかに白雲が飛ぶのを眺め、
         一人、茅の庵に座り、竹の扉を閉める。
-
         用がなければ子に書を開いて読むよう教え、
-
         ときには客を相手に碁盤を囲む。
-
         うれしければ杖をついて香る小道を歌い、
-
         興が湧けば琴を携え、緑の山腹へ登る。
-
         草履、麻の帯、粗布の着物でも、
+        心の広さは、薄絹をまとう身にまさる。」
+  "separator": |2+
 
-        心の広さは、薄絹をまとう身にまさる。」'
-  separator: '
-
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: spoken-poem-014
-  kind: poem
-  members:
-  - segment_id: xy-ch10-014
-    source_span:
-      start: 74
-      end: 364
-      exact: '「舟停綠水煙波內，家住深山曠野中。
-
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "spoken-poem-014"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-014"
+    "source_span":
+      "start": 74
+      "end": 364
+      "exact": |-
+        「舟停綠水煙波內，家住深山曠野中。
         偏愛溪橋春水漲，最憐岩岫曉雲蒙。
-
         龍門鮮鯉時烹煮，蟲蛀乾柴日燎烘。
-
         釣網多般堪贍老，擔繩二事可容終。
-
         小舟仰臥觀飛雁，草徑斜欹聽唳鴻。
-
         口舌場中無我分，是非海內少吾蹤。
-
         溪邊掛晒繒如錦，石上重磨斧似鋒。
-
         秋月暉暉常獨釣，春山寂寂沒人逢。
-
         魚多換酒同妻飲，柴剩沽壺共子叢。
-
         自唱自斟隨放蕩，長歌長嘆任顛風。
-
         呼兄喚弟邀船夥，挈友攜朋聚野翁。
-
         行令猜拳頻遞盞，拆牌道字漫傳鐘。
-
         烹蝦煮蟹朝朝樂，炒鴨爊雞日日豐。
-
         愚婦煎茶情散淡，山妻造飯意從容。
-
         曉來舉杖淘輕浪，日出擔柴過大沖。
-
         雨後披簑擒活鯉，風前弄斧伐枯松。
-
-        潛蹤避世妝痴蠢，隱姓埋名作啞聾。」'
-    translation_span:
-      start: 156
-      end: 756
-      exact: '張稍と李定「舟は緑の水、煙る波の中に止め、家は深山、広い野の中に置く。
-
+        潛蹤避世妝痴蠢，隱姓埋名作啞聾。」
+    "translation_span":
+      "start": 185
+      "end": 881
+      "exact": |-
+        張稍と李定「舟は緑の水、煙る波の中に止め、家は深山、広い野の中に置く。
         ひときわ愛すのは渓橋に春の水が増すさま、何より好むのは岩峰に朝の雲がかかるさま。
-
-        竜門の新鮮な鯉を折々煮て、虫食いの乾いた薪を日々燃やす。
-
+        竜門（りゅうもん・推定。黄河の急流にある峡谷。鯉が登ると竜になるという伝説の地）の新鮮な鯉を折々煮て、虫食いの乾いた薪を日々燃やす。
         釣りと網のさまざまな道具で老いを養い、担い棒と縄の二つで一生を終えられる。
-
         小舟にあおむいて飛ぶ雁を眺め、草の道に身を傾け、雁の鳴く声を聞く。
-
         口論の場に私の出番はなく、是非の海に私の足跡は少ない。
-
         川辺に掛け干す網は錦のよう、石に重ねて研ぐ斧は鋭い刃のよう。
-
         秋の月が明るければいつも独りで釣り、春の山が静かなら人に会うこともない。
-
         魚が多ければ酒に換えて妻と飲み、薪が余れば一壺買って子と集まる。
-
         自ら歌い、自ら注ぎ、気ままに楽しみ、長く歌い、長く嘆き、狂おしいまま振る舞う。
-
         兄よ弟よと舟仲間を誘い、友を連れて野の翁たちと集まる。
-
-        酒令や拳遊びでしきりに杯を回し、牌を読み、文字を分ける遊びでゆるりと酒器を巡らす。
-
+        酒令（しゅれい・推定。酒席で詩や勝負などの決まりに従い杯を回す遊び）や拳遊びでしきりに杯を回し、牌（はい・推定。文字や模様を記した札で、遊戯に用いる）を読み、文字を分ける遊びでゆるりと酒器を巡らす。
         エビを煮、カニをゆで、朝ごとに楽しみ、鴨を炒め、鶏をじっくり煮て、日々豊か。
-
         愚妻が茶を煎じれば心は淡く静まり、山の妻が飯を作れば気持ちはゆったり。
-
         朝には竿を挙げて軽い波をかき、日が出れば薪を担いで大きな窪地を越える。
-
         雨の後は蓑を着て生きた鯉を捕り、風の前では斧を振るって枯れ松を伐る。
+        姿を隠し世を避けて愚か者を装い、姓も名も伏せ、口も耳も利かぬふりをする。」
+  "separator": |2+
 
-        姿を隠し世を避けて愚か者を装い、姓も名も伏せ、口も耳も利かぬふりをする。」'
-  separator: '
-
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: spoken-poem-015
-  kind: poem
-  members:
-  - segment_id: xy-ch10-015
-    source_span:
-      start: 35
-      end: 342
-      exact: '「風月佯狂山野漢，江湖寄傲老餘丁。
-
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "spoken-poem-015"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch10-015"
+    "source_span":
+      "start": 35
+      "end": 342
+      "exact": |-
+        「風月佯狂山野漢，江湖寄傲老餘丁。
         清閑有分隨瀟灑，口舌無聞喜太平。
-
         月夜身眠茅屋穩，天昏體蓋箬簑輕。
-
         忘情結識松梅友，樂意相交鷗鷺盟。
-
         名利心頭無算計，干戈耳畔不聞聲。
-
         隨時一酌香醪酒，度日三餐野菜羹。
-
         兩束柴薪為活計，一竿鉤線是營生。
-
         閑呼稚子磨鋼斧，靜喚憨兒補舊繒。
-
         春到愛觀楊柳綠，時融喜看荻蘆青。
-
         夏天避暑修新竹，六月乘涼摘嫩菱。
-
         霜降雞肥常日宰，重陽蟹壯及時烹。
-
         冬來日上還沉睡，數九天高自不寒。
-
         八節山中隨放性，四時湖裡任陶情。
-
         採薪自有仙家興，垂釣全無世俗形。
-
         門外野花香豔豔，船頭綠水浪平平。
-
         身安不說三公位，性定強如十里城。
-
         十里城高防閫令，三公位顯聽宣聲。
-
-        樂山樂水真是罕，謝天謝地謝神明。」'
-    translation_span:
-      start: 73
-      end: 673
-      exact: '張稍と李定「風月の中で狂人を装う山野の男、川や湖に誇りを託す老いた余丁。
-
+        樂山樂水真是罕，謝天謝地謝神明。」
+    "translation_span":
+      "start": 73
+      "end": 811
+      "exact": |-
+        張稍と李定「風月の中で狂人を装う山野の男、川や湖に誇りを託す老いた余丁（よてい・推定。正規の役務に割り当てられない男子。この詩での細かな意味は未確定）。
         清閑に恵まれ、気ままに暮らし、口争いも聞かず、太平を喜ぶ。
-
         月の夜には茅屋で安らかに眠り、空が暗くなれば、軽い笹の蓑を身に掛ける。
-
         世情を忘れ、松と梅を友とし、喜んでカモメやサギと盟を結ぶ。
-
         名利の算段は心になく、戦の音も耳に入らぬ。
-
         折々、香る濁り酒を一杯くみ、日々の三食は野菜の汁。
-
         二束の薪を生計とし、一本の釣り竿と糸をなりわいとする。
-
         のんびり幼子を呼んで鋼の斧を研がせ、静かに素朴な子を呼んで古網を繕わせる。
-
         春になれば柳の緑を喜び眺め、暖かくなれば荻や葦の青さを楽しむ。
-
         夏には暑さを避けて新竹を整え、六月には涼みながら若いヒシを摘む。
-
-        霜が降りれば鶏は肥え、日ごとにさばき、重陽にはカニが太り、時を逃さず煮る。
-
+        霜が降りれば鶏は肥え、日ごとにさばき、重陽（ちょうよう。陰暦九月九日の節句）にはカニが太り、時を逃さず煮る。
         冬になれば日が高くてもまだ深く眠り、真冬の空が高くても、身に寒さはない。
-
         八つの節目も山で心のまま、四季を湖で思いを楽しませる。
-
-        薪取りにはおのずと仙人の趣があり、釣りには少しも俗世の姿がない。
-
+        薪取りにはおのずと仙人（せんにん・推定。修行によって不老長寿や不思議な力を得たとされる人）の趣があり、釣りには少しも俗世の姿がない。
         門の外の野花は、香りも色も鮮やか、船首の緑の水は波も穏やか。
-
-        身が安らかなら三公の位も口にせず、心が定まれば十里の城にもまさる。
-
+        身が安らかなら三公（さんこう・推定。中国で最高位にある三つの官職、またはその官人）の位も口にせず、心が定まれば十里の城にもまさる。
         十里の高城には城門を守る命令があり、三公の高位には召し出しの声を聞かねばならぬ。
+        山を楽しみ、水を楽しむのは、まことに得難いこと、天に感謝し、地に感謝し、神明（しんめい・推定。天地の神々）に感謝しよう。」
+  "separator": |2+
 
-        山を楽しみ、水を楽しむのは、まことに得難いこと、天に感謝し、地に感謝し、神明に感謝しよう。」'
-  separator: '
+  "description_ja": "人物が詠む詩詞または聯句。話者ラベルと全句を保持。"
+- "id": "quotation-025"
+  "kind": "quotation"
+  "members":
+  - "segment_id": "xy-ch10-025"
+  "separator": |2+
 
-    '
-  description_ja: 人物が詠む詩詞または聯句。話者ラベルと全句を保持。
-- id: quotation-025
-  kind: quotation
-  members:
-  - segment_id: xy-ch10-025
-  separator: '
+  "description_ja": "玉帝の勅書。"
+- "id": "quotation-035"
+  "kind": "quotation"
+  "members":
+  - "segment_id": "xy-ch10-035"
+  "separator": |2+
 
-    '
-  description_ja: 玉帝の勅書。
-- id: quotation-035
-  kind: quotation
-  members:
-  - segment_id: xy-ch10-035
-  separator: '
-
-    '
-  description_ja: 爛柯経の引用。人物の口頭発話ではない。
-terminology: []
-provenance:
-  source_snapshot: translations/wu-chengen/verification/xiyouji-chapter-010-source-2194739-zh-hant.txt
-  source_manifest: translations/wu-chengen/verification/xiyouji-chapter-010-manifest-2194739.json
-  acquired_at: '2026-10-24'
-  pretranslation_workflow: 必須の順で資料を読み、固定原文通読後、chapter-009-010-voices.mdに新規人物ごとの3例と呼称を記入して翻訳。
-  source_normalization: 固定版117〜118行を回題、121〜283行を本文として機械抽出。原字・句読を保持、表示用行頭空白と空行のみ除去。冒頭の詩詞・聯句は発話導入と同じ対訳単位に収め、韻文の改行を保持。
-  review_note: 全54対訳単位をAIで原文対照し、日本語全文、全発話の話者と場面別呼称、雨量・時刻、全詩詞と聯句、勅書、爛柯経引用を見直した。別AI読み手による全54単位の独立読取レビューを実施し、護国公の地の文呼称、茲洲の原字、柟の植物名、金樽の語義を修正して再読。柟は教育部辞典で語義照合。専門家による独立校訂は未実施のためreviewingを保持。
-notes: []
-references: []
-assets: []
-figures: []
-aliases: []
+  "description_ja": "爛柯経の引用。人物の口頭発話ではない。"
+"terminology": []
+"provenance":
+  "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-010-source-2194739-zh-hant.txt"
+  "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-010-manifest-2194739.json"
+  "acquired_at": "2026-10-24"
+  "pretranslation_workflow": "必須の順で資料を読み、固定原文通読後、chapter-009-010-voices.mdに新規人物ごとの3例と呼称を記入して翻訳。"
+  "source_normalization": "固定版117〜118行を回題、121〜283行を本文として機械抽出。原字・句読を保持、表示用行頭空白と空行のみ除去。冒頭の詩詞・聯句は発話導入と同じ対訳単位に収め、韻文の改行を保持。"
+  "review_note": "全54対訳単位をAIで原文対照し、日本語全文、全発話の話者と場面別呼称、雨量・時刻、全詩詞と聯句、勅書、爛柯経引用を見直した。別AI読み手による全54単位の独立読取レビューを実施し、護国公の地の文呼称、茲洲の原字、柟の植物名、金樽の語義を修正して再読。柟は教育部辞典で語義照合。専門家による独立校訂は未実施のためreviewingを保持。"
+  "lexicon_revision_ja": "2026年10月24日、本文・会話・詩を通読し、人物名・地名・固有名・難語の初出へ読みと短い説明を補った。資料未確認の読みは推定と明示。初出は当原稿内へ保存し、作品共通辞書とは分離。原文・固定ID・順序と既存注を保持し、翻訳側参照spanを更新。専門家による校訂は未実施。 独立レビューで全本文・詩・会話ラベルの初出と読み・意味を再点検し、指摘箇所を修正した。原文・固定ID・順序と訳文の注挿入以外の不変を照合した。"
+"notes": []
+"references": []
+"assets": []
+"figures": []
+"aliases": []
+"lexicon":
+  "dictionary_id": "xiyouji"
+  "file": "lexicons/xiyouji.yaml"
+  "first_occurrences":
+  - "entry_id": "xy-entry-0952"
+    "form_id": "xy-form-1099"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 0
+      "end": 3
+      "exact": "陳光蕊"
+    "rendered_text": "陳光蕊（ちんこうずい・推定。玄奘の父で、官人となった人物）"
+  - "entry_id": "xy-entry-0874"
+    "form_id": "xy-form-1167"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 37
+      "end": 39
+      "exact": "玄奘"
+    "rendered_text": "玄奘（げんじょう。のちに経典を求めて西へ旅する僧）"
+  - "entry_id": "xy-entry-0922"
+    "form_id": "xy-form-1063"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 81
+      "end": 83
+      "exact": "長安"
+    "rendered_text": "長安（ちょうあん・推定。唐の都。現在の西安に当たる）"
+  - "entry_id": "xy-entry-1057"
+    "form_id": "xy-form-1214"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 111
+      "end": 113
+      "exact": "涇河"
+    "rendered_text": "涇河（けいが・推定。長安近くを流れ、渭河へ注ぐ川）"
+  - "entry_id": "xy-entry-1058"
+    "form_id": "xy-form-1215"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 158
+      "end": 160
+      "exact": "張稍"
+    "rendered_text": "張稍（ちょうしょう・推定。涇河で漁をし、李定と詩を交わす漁師）"
+  - "entry_id": "xy-entry-1059"
+    "form_id": "xy-form-1216"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 205
+      "end": 207
+      "exact": "李定"
+    "rendered_text": "李定（りてい・推定。張稍の友人で、詩を好む木こり）"
+  - "entry_id": "xy-entry-1060"
+    "form_id": "xy-form-1217"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 240
+      "end": 242
+      "exact": "科挙"
+    "rendered_text": "科挙（かきょ。中国で官人を選ぶために行われた試験制度）"
+  - "entry_id": "xy-entry-1061"
+    "form_id": "xy-form-1218"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 276
+      "end": 278
+      "exact": "進士"
+    "rendered_text": "進士（しんし・推定。科挙の試験に合格した者の称。ここでは学識ある人にたとえる）"
+  - "entry_id": "xy-entry-1062"
+    "form_id": "xy-form-1219"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 324
+      "end": 326
+      "exact": "山人"
+    "rendered_text": "山人（さんじん・推定。山里に暮らし、世俗を離れた人）"
+  - "entry_id": "xy-entry-1059"
+    "form_id": "xy-form-1220"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 433
+      "end": 435
+      "exact": "李兄"
+    "rendered_text": "李兄（りけい・推定。李定を親しみと敬意を込めて呼ぶ名）"
+  - "entry_id": "xy-entry-0838"
+    "form_id": "xy-form-0961"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 500
+      "end": 502
+      "exact": "爵位"
+    "rendered_text": "爵位（しゃくい・推定。功績や身分に応じて授けられる貴族の位）"
+  - "entry_id": "xy-entry-1063"
+    "form_id": "xy-form-1221"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 549
+      "end": 551
+      "exact": "恩寵"
+    "rendered_text": "恩寵（おんちょう・推定。君主などから特別に受ける慈しみ）"
+  - "entry_id": "xy-entry-1058"
+    "form_id": "xy-form-1222"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 653
+      "end": 655
+      "exact": "張兄"
+    "rendered_text": "張兄（ちょうけい・推定。張稍を親しみと敬意を込めて呼ぶ名）"
+  - "entry_id": "xy-entry-1064"
+    "form_id": "xy-form-1223"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 756
+      "end": 759
+      "exact": "蝶恋花"
+    "rendered_text": "蝶恋花（ちょうれんか・推定。詞の曲調と字数・韻の型を示す名）"
+  - "entry_id": "xy-entry-0809"
+    "form_id": "xy-form-0926"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 788
+      "end": 789
+      "exact": "詞"
+    "rendered_text": "詞（し・推定。曲調に合わせ、句の長さと韻を定めた中国の詩歌形式）"
+  - "entry_id": "xy-entry-1065"
+    "form_id": "xy-form-1224"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 849
+      "end": 850
+      "exact": "篷"
+    "rendered_text": "篷（とま。舟を覆う、竹や草などで編んだ屋根）"
+  - "entry_id": "xy-entry-1066"
+    "form_id": "xy-form-1225"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 879
+      "end": 881
+      "exact": "西施"
+    "rendered_text": "西施（せいし。古代中国の美女。ここでの声の比喩の細義は未確定）"
+  - "entry_id": "xy-entry-0628"
+    "form_id": "xy-form-0725"
+    "segment_id": "xy-ch10-002"
+    "translation_span":
+      "start": 945
+      "end": 946
+      "exact": "蓼"
+    "rendered_text": "蓼（たで・推定。水辺などに生えるタデ科の草）"
+  - "entry_id": "xy-entry-1067"
+    "form_id": "xy-form-1226"
+    "segment_id": "xy-ch10-004"
+    "translation_span":
+      "start": 43
+      "end": 46
+      "exact": "鷓鴣天"
+    "rendered_text": "鷓鴣天（しゃこてん。詞の曲調と字数・韻の型を示す名）"
+  - "entry_id": "xy-entry-1068"
+    "form_id": "xy-form-1227"
+    "segment_id": "xy-ch10-004"
+    "translation_span":
+      "start": 75
+      "end": 77
+      "exact": "仙郷"
+    "rendered_text": "仙郷（せんきょう・推定。仙人の住む境地。ここでは美しい水辺のたとえ）"
+  - "entry_id": "xy-entry-1069"
+    "form_id": "xy-form-1228"
+    "segment_id": "xy-ch10-004"
+    "translation_span":
+      "start": 122
+      "end": 123
+      "exact": "櫓"
+    "rendered_text": "櫓（ろ・推定。舟の後方で動かし、水をかいて進める道具）"
+  - "entry_id": "xy-entry-1070"
+    "form_id": "xy-form-1229"
+    "segment_id": "xy-ch10-004"
+    "translation_span":
+      "start": 218
+      "end": 221
+      "exact": "アサザ"
+    "rendered_text": "アサザ（水面に葉を浮かべ、黄色い花を咲かせる水草）"
+  - "entry_id": "xy-entry-1071"
+    "form_id": "xy-form-1230"
+    "segment_id": "xy-ch10-004"
+    "translation_span":
+      "start": 252
+      "end": 256
+      "exact": "オニバス"
+    "rendered_text": "オニバス（とげのある大きな浮葉を持ち、実を食用にする水草）"
+  - "entry_id": "xy-entry-1072"
+    "form_id": "xy-form-1231"
+    "segment_id": "xy-ch10-004"
+    "translation_span":
+      "start": 312
+      "end": 315
+      "exact": "クワイ"
+    "rendered_text": "クワイ（水田などで育て、地下の塊茎を食べる水草）"
+  - "entry_id": "xy-entry-1073"
+    "form_id": "xy-form-1232"
+    "segment_id": "xy-ch10-004"
+    "translation_span":
+      "start": 337
+      "end": 340
+      "exact": "マコモ"
+    "rendered_text": "マコモ（水辺に生えるイネ科の草。肥大した茎を食べる）"
+  - "entry_id": "xy-entry-1074"
+    "form_id": "xy-form-1233"
+    "segment_id": "xy-ch10-004"
+    "translation_span":
+      "start": 366
+      "end": 368
+      "exact": "鳥英"
+    "rendered_text": "鳥英（ちょうえい・推定。原文に挙がる食用の花の名。植物の同定は未確定）"
+  - "entry_id": "xy-entry-1075"
+    "form_id": "xy-form-1234"
+    "segment_id": "xy-ch10-005"
+    "translation_span":
+      "start": 94
+      "end": 96
+      "exact": "鵞鳥"
+    "rendered_text": "鵞鳥（がちょう・推定。ガンを飼い慣らした家禽）"
+  - "entry_id": "xy-term-101"
+    "form_id": "xy-term-101-form"
+    "segment_id": "xy-ch10-005"
+    "translation_span":
+      "start": 133
+      "end": 137
+      "exact": "キバノロ"
+    "rendered_text": "キバノロ（雄に長い牙がある小型のシカ）"
+  - "entry_id": "xy-entry-1076"
+    "form_id": "xy-form-1235"
+    "segment_id": "xy-ch10-005"
+    "translation_span":
+      "start": 172
+      "end": 177
+      "exact": "チャンチン"
+    "rendered_text": "チャンチン（若芽や若葉を食用にするセンダン科の木）"
+  - "entry_id": "xy-entry-1077"
+    "form_id": "xy-form-1236"
+    "segment_id": "xy-ch10-005"
+    "translation_span":
+      "start": 200
+      "end": 202
+      "exact": "黄楝"
+    "rendered_text": "黄楝（こうれん・推定。原文に芽を食べる植物として挙がる名。種の同定は未確定）"
+  - "entry_id": "xy-entry-1078"
+    "form_id": "xy-form-1237"
+    "segment_id": "xy-ch10-005"
+    "translation_span":
+      "start": 247
+      "end": 249
+      "exact": "山茶"
+    "rendered_text": "山茶（さんちゃ・推定。山に生える茶やツバキ類を指す語。ここでの種は未確定）"
+  - "entry_id": "xy-entry-1079"
+    "form_id": "xy-form-1238"
+    "segment_id": "xy-ch10-006"
+    "translation_span":
+      "start": 32
+      "end": 35
+      "exact": "天仙子"
+    "rendered_text": "天仙子（てんせんし・推定。詞の曲調と字数・韻の型を示す名）"
+  - "entry_id": "xy-entry-1080"
+    "form_id": "xy-form-1239"
+    "segment_id": "xy-ch10-006"
+    "translation_span":
+      "start": 133
+      "end": 134
+      "exact": "醬"
+    "rendered_text": "醬（ひしお・推定。穀物や肉・魚などを発酵させて作る濃い調味料）"
+  - "entry_id": "xy-entry-1081"
+    "form_id": "xy-form-1240"
+    "segment_id": "xy-ch10-006"
+    "translation_span":
+      "start": 228
+      "end": 229
+      "exact": "蓑"
+    "rendered_text": "蓑（みの・推定。草やわらを編んで作る雨具）"
+  - "entry_id": "xy-entry-1082"
+    "form_id": "xy-form-1241"
+    "segment_id": "xy-ch10-007"
+    "translation_span":
+      "start": 47
+      "end": 49
+      "exact": "茅屋"
+    "rendered_text": "茅屋（ぼうおく・推定。茅や草で屋根をふいた質素な家）"
+  - "entry_id": "xy-entry-1083"
+    "form_id": "xy-form-1242"
+    "segment_id": "xy-ch10-008"
+    "translation_span":
+      "start": 35
+      "end": 38
+      "exact": "西江月"
+    "rendered_text": "西江月（せいこうげつ・推定。詞の曲調と字数・韻の型を示す名）"
+  - "entry_id": "xy-entry-1084"
+    "form_id": "xy-form-1243"
+    "segment_id": "xy-ch10-008"
+    "translation_span":
+      "start": 115
+      "end": 116
+      "exact": "楚"
+    "rendered_text": "楚（そ・推定。古代中国の国名で、長江中流域の地域名でもある）"
+  - "entry_id": "xy-entry-1085"
+    "form_id": "xy-form-1244"
+    "segment_id": "xy-ch10-008"
+    "translation_span":
+      "start": 198
+      "end": 202
+      "exact": "ケツギョ"
+    "rendered_text": "ケツギョ（中国の淡水にすむ、肉食性の食用魚）"
+  - "entry_id": "xy-entry-1086"
+    "form_id": "xy-form-1245"
+    "segment_id": "xy-ch10-009"
+    "translation_span":
+      "start": 77
+      "end": 82
+      "exact": "サルオガセ"
+    "rendered_text": "サルオガセ（木の枝から糸状に垂れ下がる地衣類）"
+  - "entry_id": "xy-entry-1087"
+    "form_id": "xy-form-1246"
+    "segment_id": "xy-ch10-009"
+    "translation_span":
+      "start": 158
+      "end": 159
+      "exact": "柟"
+    "rendered_text": "柟（なん・推定。クスノキ科の楠木類を指す字。日本のクスと同一とは限らない）"
+  - "entry_id": "xy-entry-1088"
+    "form_id": "xy-form-1247"
+    "segment_id": "xy-ch10-010"
+    "translation_span":
+      "start": 46
+      "end": 49
+      "exact": "臨江仙"
+    "rendered_text": "臨江仙（りんこうせん・推定。詞の曲調と字数・韻の型を示す名）"
+  - "entry_id": "xy-entry-1089"
+    "form_id": "xy-form-1248"
+    "segment_id": "xy-ch10-010"
+    "translation_span":
+      "start": 177
+      "end": 179
+      "exact": "三竿"
+    "rendered_text": "三竿（さんかん・推定。太陽が竿三本ほどの高さに昇るころという、朝の遅さの表現）"
+  - "entry_id": "xy-entry-1090"
+    "form_id": "xy-form-1249"
+    "segment_id": "xy-ch10-010"
+    "translation_span":
+      "start": 257
+      "end": 259
+      "exact": "朝臣"
+    "rendered_text": "朝臣（ちょうしん・推定。朝廷に仕える臣下）"
+  - "entry_id": "xy-entry-1091"
+    "form_id": "xy-form-1250"
+    "segment_id": "xy-ch10-010"
+    "translation_span":
+      "start": 283
+      "end": 285
+      "exact": "朝参"
+    "rendered_text": "朝参（ちょうさん・推定。臣下が朝廷へ出仕すること）"
+  - "entry_id": "xy-entry-1092"
+    "form_id": "xy-form-1251"
+    "segment_id": "xy-ch10-011"
+    "translation_span":
+      "start": 88
+      "end": 89
+      "exact": "鬢"
+    "rendered_text": "鬢（びん・推定。顔の左右、耳の前に生える髪）"
+  - "entry_id": "xy-entry-1093"
+    "form_id": "xy-form-1252"
+    "segment_id": "xy-ch10-011"
+    "translation_span":
+      "start": 193
+      "end": 194
+      "exact": "黍"
+    "rendered_text": "黍（きび・推定。小さな粒を食用にするイネ科の穀物）"
+  - "entry_id": "xy-entry-0472"
+    "form_id": "xy-form-0533"
+    "segment_id": "xy-ch10-011"
+    "translation_span":
+      "start": 233
+      "end": 234
+      "exact": "甕"
+    "rendered_text": "甕（かめ・推定。酒や水などを入れる口の狭い大きな器）"
+  - "entry_id": "xy-entry-1094"
+    "form_id": "xy-form-1253"
+    "segment_id": "xy-ch10-012"
+    "translation_span":
+      "start": 206
+      "end": 208
+      "exact": "紫綬"
+    "rendered_text": "紫綬（しじゅ。高位の官人が印を帯びるために使う紫の組みひも）"
+  - "entry_id": "xy-entry-1095"
+    "form_id": "xy-form-1254"
+    "segment_id": "xy-ch10-014"
+    "translation_span":
+      "start": 30
+      "end": 31
+      "exact": "檀"
+    "rendered_text": "檀（だん・推定。堅い材を持ち、拍子木などに用いる木の呼び名）"
+  - "entry_id": "xy-entry-1096"
+    "form_id": "xy-form-1255"
+    "segment_id": "xy-ch10-014"
+    "translation_span":
+      "start": 262
+      "end": 264
+      "exact": "竜門"
+    "rendered_text": "竜門（りゅうもん・推定。黄河の急流にある峡谷。鯉が登ると竜になるという伝説の地）"
+  - "entry_id": "xy-entry-1097"
+    "form_id": "xy-form-1256"
+    "segment_id": "xy-ch10-014"
+    "translation_span":
+      "start": 598
+      "end": 600
+      "exact": "酒令"
+    "rendered_text": "酒令（しゅれい・推定。酒席で詩や勝負などの決まりに従い杯を回す遊び）"
+  - "entry_id": "xy-entry-1098"
+    "form_id": "xy-form-1257"
+    "segment_id": "xy-ch10-014"
+    "translation_span":
+      "start": 646
+      "end": 647
+      "exact": "牌"
+    "rendered_text": "牌（はい・推定。文字や模様を記した札で、遊戯に用いる）"
+  - "entry_id": "xy-entry-1099"
+    "form_id": "xy-form-1258"
+    "segment_id": "xy-ch10-015"
+    "translation_span":
+      "start": 106
+      "end": 108
+      "exact": "余丁"
+    "rendered_text": "余丁（よてい・推定。正規の役務に割り当てられない男子。この詩での細かな意味は未確定）"
+  - "entry_id": "xy-entry-1100"
+    "form_id": "xy-form-1259"
+    "segment_id": "xy-ch10-015"
+    "translation_span":
+      "start": 444
+      "end": 446
+      "exact": "重陽"
+    "rendered_text": "重陽（ちょうよう。陰暦九月九日の節句）"
+  - "entry_id": "xy-term-035"
+    "form_id": "xy-term-035-form"
+    "segment_id": "xy-ch10-015"
+    "translation_span":
+      "start": 554
+      "end": 556
+      "exact": "仙人"
+    "rendered_text": "仙人（せんにん・推定。修行によって不老長寿や不思議な力を得たとされる人）"
+  - "entry_id": "xy-entry-1101"
+    "form_id": "xy-form-1260"
+    "segment_id": "xy-ch10-015"
+    "translation_span":
+      "start": 650
+      "end": 652
+      "exact": "三公"
+    "rendered_text": "三公（さんこう・推定。中国で最高位にある三つの官職、またはその官人）"
+  - "entry_id": "xy-entry-1102"
+    "form_id": "xy-form-1261"
+    "segment_id": "xy-ch10-015"
+    "translation_span":
+      "start": 786
+      "end": 788
+      "exact": "神明"
+    "rendered_text": "神明（しんめい・推定。天地の神々）"
+  - "entry_id": "xy-entry-1103"
+    "form_id": "xy-form-1262"
+    "segment_id": "xy-ch10-016"
+    "translation_span":
+      "start": 227
+      "end": 231
+      "exact": "未来永劫"
+    "rendered_text": "未来永劫（みらいえいごう・推定。これから先、限りなく続く長い時間）"
+  - "entry_id": "xy-entry-1104"
+    "form_id": "xy-form-1263"
+    "segment_id": "xy-ch10-016"
+    "translation_span":
+      "start": 296
+      "end": 298
+      "exact": "禍福"
+    "rendered_text": "禍福（かふく・推定。災いと幸せ）"
+  - "entry_id": "xy-entry-1105"
+    "form_id": "xy-form-1264"
+    "segment_id": "xy-ch10-016"
+    "translation_span":
+      "start": 462
+      "end": 465
+      "exact": "西門街"
+    "rendered_text": "西門街（せいもんがい・推定。長安の西門付近の通り）"
+  - "entry_id": "xy-entry-1106"
+    "form_id": "xy-form-1265"
+    "segment_id": "xy-ch10-016"
+    "translation_span":
+      "start": 526
+      "end": 528
+      "exact": "一卦"
+    "rendered_text": "一卦（いっか・推定。易で得られる一つの卦、または一回の占い）"
+  - "entry_id": "xy-entry-1001"
+    "form_id": "xy-form-1151"
+    "segment_id": "xy-ch10-017"
+    "translation_span":
+      "start": 31
+      "end": 33
+      "exact": "水府"
+    "rendered_text": "水府（すいふ。水中にある竜王の居所や役所）"
+  - "entry_id": "xy-entry-1107"
+    "form_id": "xy-form-1266"
+    "segment_id": "xy-ch10-017"
+    "translation_span":
+      "start": 56
+      "end": 60
+      "exact": "巡水夜叉"
+    "rendered_text": "巡水夜叉（じゅんすいやしゃ・推定。涇河の水域を巡回し、竜王に仕える夜叉）"
+  - "entry_id": "xy-entry-1108"
+    "form_id": "xy-form-1267"
+    "segment_id": "xy-ch10-017"
+    "translation_span":
+      "start": 118
+      "end": 121
+      "exact": "水晶宮"
+    "rendered_text": "水晶宮（すいしょうきゅう・推定。涇河の竜王が住む水中の宮殿）"
+  - "entry_id": "xy-entry-1109"
+    "form_id": "xy-form-1268"
+    "segment_id": "xy-ch10-017"
+    "translation_span":
+      "start": 155
+      "end": 160
+      "exact": "涇河の竜王"
+    "rendered_text": "涇河の竜王（けいがのりゅうおう・推定。涇河を治め、降雨をつかさどる竜王）"
+  - "entry_id": "xy-entry-1055"
+    "form_id": "xy-form-1212"
+    "segment_id": "xy-ch10-017"
+    "translation_span":
+      "start": 236
+      "end": 237
+      "exact": "臣"
+    "rendered_text": "臣（しん。臣下が君主に対して用いる自称）"
+  - "entry_id": "xy-entry-1110"
+    "form_id": "xy-form-1269"
+    "segment_id": "xy-ch10-017"
+    "translation_span":
+      "start": 397
+      "end": 399
+      "exact": "水族"
+    "rendered_text": "水族（すいぞく・推定。魚やエビなど水中に暮らす生き物。ここでは竜王の臣下）"
+  - "entry_id": "xy-entry-1111"
+    "form_id": "xy-form-1270"
+    "segment_id": "xy-ch10-017"
+    "translation_span":
+      "start": 566
+      "end": 569
+      "exact": "鰣軍師"
+    "rendered_text": "鰣軍師（じぐんし・推定。鰣の姿の臣下で、竜王へ計略を進言する軍師）"
+  - "entry_id": "xy-entry-1112"
+    "form_id": "xy-form-1271"
+    "segment_id": "xy-ch10-017"
+    "translation_span":
+      "start": 600
+      "end": 603
+      "exact": "鱖少卿"
+    "rendered_text": "鱖少卿（けつしょうけい・推定。鱖の姿をし、少卿の官名を持つ竜王の臣下）"
+  - "entry_id": "xy-entry-1113"
+    "form_id": "xy-form-1272"
+    "segment_id": "xy-ch10-017"
+    "translation_span":
+      "start": 636
+      "end": 639
+      "exact": "鯉太宰"
+    "rendered_text": "鯉太宰（りたいさい・推定。鯉の姿をし、太宰の官名を持つ竜王の臣下）"
+  - "entry_id": "xy-entry-0555"
+    "form_id": "xy-form-0627"
+    "segment_id": "xy-ch10-017"
+    "translation_span":
+      "start": 678
+      "end": 680
+      "exact": "奏上"
+    "rendered_text": "奏上（そうじょう・推定。帝王に申し上げること）"
+  - "entry_id": "xy-entry-1114"
+    "form_id": "xy-form-1273"
+    "segment_id": "xy-ch10-017"
+    "translation_span":
+      "start": 822
+      "end": 824
+      "exact": "隠顕"
+    "rendered_text": "隠顕（いんけん・推定。姿を隠すことと現すこと）"
+  - "entry_id": "xy-entry-0174"
+    "form_id": "xy-form-0182"
+    "segment_id": "xy-ch10-017"
+    "translation_span":
+      "start": 852
+      "end": 854
+      "exact": "変化"
+    "rendered_text": "変化（へんげ。術によって姿や形を変えること）"
+  - "entry_id": "xy-entry-1115"
+    "form_id": "xy-form-1274"
+    "segment_id": "xy-ch10-019"
+    "translation_span":
+      "start": 37
+      "end": 39
+      "exact": "規矩"
+    "rendered_text": "規矩（きく。物事の手本となる規則や作法）"
+  - "entry_id": "xy-entry-1116"
+    "form_id": "xy-form-1275"
+    "segment_id": "xy-ch10-019"
+    "translation_span":
+      "start": 71
+      "end": 73
+      "exact": "孔子"
+    "rendered_text": "孔子（こうし・推定。儒教のもとを築いた中国の思想家）"
+  - "entry_id": "xy-entry-1117"
+    "form_id": "xy-form-1276"
+    "segment_id": "xy-ch10-019"
+    "translation_span":
+      "start": 98
+      "end": 100
+      "exact": "孟子"
+    "rendered_text": "孟子（もうし。孔子の教えを受け継いだ中国の思想家）"
+  - "entry_id": "xy-entry-0933"
+    "form_id": "xy-form-1074"
+    "segment_id": "xy-ch10-019"
+    "translation_span":
+      "start": 130
+      "end": 131
+      "exact": "周"
+    "rendered_text": "周（しゅう・推定。礼楽の制度で知られる古代中国の王朝）"
+  - "entry_id": "xy-entry-1118"
+    "form_id": "xy-form-1277"
+    "segment_id": "xy-ch10-019"
+    "translation_span":
+      "start": 175
+      "end": 177
+      "exact": "襴服"
+    "rendered_text": "襴服（らんぷく・推定。裾に横布を付けた、中国の学者などが着る長衣）"
+  - "entry_id": "xy-entry-1119"
+    "form_id": "xy-form-1278"
+    "segment_id": "xy-ch10-019"
+    "translation_span":
+      "start": 212
+      "end": 217
+      "exact": "逍遥一字巾"
+    "rendered_text": "逍遥一字巾（しょうよういちじきん・推定。学者風の人物がかぶる頭巾の名）"
+  - "entry_id": "xy-entry-1105"
+    "form_id": "xy-form-1279"
+    "segment_id": "xy-ch10-020"
+    "translation_span":
+      "start": 24
+      "end": 28
+      "exact": "西門大街"
+    "rendered_text": "西門大街（せいもんたいがい・推定。長安の西門に通じる大通り）"
+  - "entry_id": "xy-entry-1218"
+    "form_id": "xy-form-1385"
+    "segment_id": "xy-ch10-020"
+    "translation_span":
+      "start": 107
+      "end": 109
+      "exact": "辰年"
+    "rendered_text": "辰年（たつどし。十二支の辰に当たる年）"
+  - "entry_id": "xy-entry-1120"
+    "form_id": "xy-form-1280"
+    "segment_id": "xy-ch10-020"
+    "translation_span":
+      "start": 130
+      "end": 132
+      "exact": "本命"
+    "rendered_text": "本命（ほんみょう。生まれ年に配当され、運命を支配するとされる星や干支）"
+  - "entry_id": "xy-term-009"
+    "form_id": "xy-term-009-form"
+    "segment_id": "xy-ch10-020"
+    "translation_span":
+      "start": 168
+      "end": 169
+      "exact": "寅"
+    "rendered_text": "寅（とら・推定。年や時刻、占いに用いる十二支の一つ）"
+  - "entry_id": "xy-entry-1121"
+    "form_id": "xy-form-1281"
+    "segment_id": "xy-ch10-020"
+    "translation_span":
+      "start": 195
+      "end": 196
+      "exact": "冲"
+    "rendered_text": "冲（ちゅう・推定。占術で、干支どうしが対立して不調和になる組合せ）"
+  - "entry_id": "xy-term-011"
+    "form_id": "xy-term-011-form"
+    "segment_id": "xy-ch10-020"
+    "translation_span":
+      "start": 234
+      "end": 235
+      "exact": "辰"
+    "rendered_text": "辰（たつ・推定。年や時刻、占いに用いる十二支の一つ）"
+  - "entry_id": "xy-term-012"
+    "form_id": "xy-term-012-form"
+    "segment_id": "xy-ch10-020"
+    "translation_span":
+      "start": 261
+      "end": 262
+      "exact": "巳"
+    "rendered_text": "巳（み・推定。年や時刻、占いに用いる十二支の一つ）"
+  - "entry_id": "xy-term-018"
+    "form_id": "xy-term-018-form"
+    "segment_id": "xy-ch10-020"
+    "translation_span":
+      "start": 287
+      "end": 288
+      "exact": "亥"
+    "rendered_text": "亥（い・推定。年や時刻、占いに用いる十二支の一つ）"
+  - "entry_id": "xy-entry-0901"
+    "form_id": "xy-form-1033"
+    "segment_id": "xy-ch10-020"
+    "translation_span":
+      "start": 327
+      "end": 329
+      "exact": "太歳"
+    "rendered_text": "太歳（たいさい・推定。年ごとの運勢をつかさどるとされる星や神）"
+  - "entry_id": "xy-entry-1122"
+    "form_id": "xy-form-1282"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 56
+      "end": 58
+      "exact": "王維"
+    "rendered_text": "王維（おうい。詩と山水画で知られる唐代の文人）"
+  - "entry_id": "xy-entry-1123"
+    "form_id": "xy-form-1283"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 90
+      "end": 93
+      "exact": "鬼谷子"
+    "rendered_text": "鬼谷子（きこくし。戦国時代の兵法・遊説の祖とされる伝説的な人物）"
+  - "entry_id": "xy-entry-1124"
+    "form_id": "xy-form-1284"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 132
+      "end": 134
+      "exact": "端渓"
+    "rendered_text": "端渓（たんけい。良質の硯石を産する中国広東の地）"
+  - "entry_id": "xy-entry-1125"
+    "form_id": "xy-form-1285"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 159
+      "end": 162
+      "exact": "金煙墨"
+    "rendered_text": "金煙墨（きんえんぼく・推定。良質のすすから作られた上等な墨）"
+  - "entry_id": "xy-entry-1126"
+    "form_id": "xy-form-1286"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 207
+      "end": 210
+      "exact": "火珠林"
+    "rendered_text": "火珠林（かじゅりん・推定。易占いを説明する中国の占術書）"
+  - "entry_id": "xy-entry-1127"
+    "form_id": "xy-form-1287"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 237
+      "end": 239
+      "exact": "郭璞"
+    "rendered_text": "郭璞（かくはく。晋代の学者・詩人で、占術にも通じたとされる人物）"
+  - "entry_id": "xy-entry-1128"
+    "form_id": "xy-form-1288"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 270
+      "end": 272
+      "exact": "術数"
+    "rendered_text": "術数（じゅっすう・推定。暦や陰陽などを用いて吉凶を占う方法）"
+  - "entry_id": "xy-entry-1129"
+    "form_id": "xy-form-1289"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 303
+      "end": 307
+      "exact": "台政新経"
+    "rendered_text": "台政新経（たいせいしんけい・推定。占術書として本文に挙がる書名。書誌の同定は未確定）"
+  - "entry_id": "xy-entry-1130"
+    "form_id": "xy-form-1290"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 361
+      "end": 363
+      "exact": "六爻"
+    "rendered_text": "六爻（りくこう。易の一つの卦を構成する六本の線）"
+  - "entry_id": "xy-entry-0670"
+    "form_id": "xy-form-0772"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 390
+      "end": 392
+      "exact": "八卦"
+    "rendered_text": "八卦（はっけ・推定。易で陰陽の三本の線を組み合わせた八つの基本形）"
+  - "entry_id": "xy-vocab-100"
+    "form_id": "xy-vocab-100-form"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 437
+      "end": 439
+      "exact": "鬼神"
+    "rendered_text": "鬼神（きしん・推定。人知を超える霊や神々）"
+  - "entry_id": "xy-entry-1131"
+    "form_id": "xy-form-1291"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 469
+      "end": 471
+      "exact": "子午"
+    "rendered_text": "子午（しご・推定。十二支の子と午。占盤では北と南の位置を示す）"
+  - "entry_id": "xy-entry-1132"
+    "form_id": "xy-form-1292"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 510
+      "end": 512
+      "exact": "星辰"
+    "rendered_text": "星辰（せいしん・推定。星々や星座）"
+  - "entry_id": "xy-entry-1220"
+    "form_id": "xy-form-1387"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 644
+      "end": 646
+      "exact": "神卦"
+    "rendered_text": "神卦（しんか・推定。神わざのようによく当たる占い）"
+  - "entry_id": "xy-entry-1133"
+    "form_id": "xy-form-1293"
+    "segment_id": "xy-ch10-021"
+    "translation_span":
+      "start": 673
+      "end": 676
+      "exact": "袁守誠"
+    "rendered_text": "袁守誠（えんしゅせい・推定。長安で占いを行い、竜王の運命を見抜く占者）"
+  - "entry_id": "xy-entry-1134"
+    "form_id": "xy-form-1294"
+    "segment_id": "xy-ch10-022"
+    "translation_span":
+      "start": 13
+      "end": 16
+      "exact": "欽天監"
+    "rendered_text": "欽天監（きんてんかん。天文観測や暦の作成をつかさどる役所）"
+  - "entry_id": "xy-entry-1135"
+    "form_id": "xy-form-1295"
+    "segment_id": "xy-ch10-022"
+    "translation_span":
+      "start": 43
+      "end": 45
+      "exact": "台正"
+    "rendered_text": "台正（たいせい・推定。ここでは欽天監の長官を表す官名）"
+  - "entry_id": "xy-entry-1136"
+    "form_id": "xy-form-1296"
+    "segment_id": "xy-ch10-022"
+    "translation_span":
+      "start": 71
+      "end": 74
+      "exact": "袁天罡"
+    "rendered_text": "袁天罡（えんてんこう・推定。唐代の占術家。物語では袁守誠の甥）"
+  - "entry_id": "xy-entry-1137"
+    "form_id": "xy-form-1297"
+    "segment_id": "xy-ch10-022"
+    "translation_span":
+      "start": 187
+      "end": 189
+      "exact": "童子"
+    "rendered_text": "童子（どうじ・推定。少年。ここでは占者のもとで茶を運ぶ者）"
+  - "entry_id": "xy-entry-1138"
+    "form_id": "xy-form-1298"
+    "segment_id": "xy-ch10-022"
+    "translation_span":
+      "start": 378
+      "end": 381
+      "exact": "辰の刻"
+    "rendered_text": "辰の刻（たつのこく・推定。十二支で表す時刻の一つ。おおむね午前八時前後）"
+  - "entry_id": "xy-entry-1139"
+    "form_id": "xy-form-1299"
+    "segment_id": "xy-ch10-022"
+    "translation_span":
+      "start": 421
+      "end": 424
+      "exact": "巳の刻"
+    "rendered_text": "巳の刻（みのこく・推定。十二支で表す時刻の一つ。おおむね午前十時前後）"
+  - "entry_id": "xy-entry-1140"
+    "form_id": "xy-form-1300"
+    "segment_id": "xy-ch10-022"
+    "translation_span":
+      "start": 462
+      "end": 465
+      "exact": "午の刻"
+    "rendered_text": "午の刻（うまのこく・推定。十二支で表す時刻の一つ。おおむね正午前後）"
+  - "entry_id": "xy-entry-1141"
+    "form_id": "xy-form-1301"
+    "segment_id": "xy-ch10-022"
+    "translation_span":
+      "start": 502
+      "end": 505
+      "exact": "未の刻"
+    "rendered_text": "未の刻（ひつじのこく・推定。十二支で表す時刻の一つ。おおむね午後二時前後）"
+  - "entry_id": "xy-entry-1142"
+    "form_id": "xy-form-1302"
+    "segment_id": "xy-ch10-022"
+    "translation_span":
+      "start": 556
+      "end": 564
+      "exact": "三尺三寸四十八点"
+    "rendered_text": "三尺三寸四十八点（さんしゃくさんずんしじゅうはってん・推定。物語で指定された雨量。点を含む古い単位で表す）"
+  - "entry_id": "xy-entry-1143"
+    "form_id": "xy-form-1303"
+    "segment_id": "xy-ch10-022"
+    "translation_span":
+      "start": 685
+      "end": 688
+      "exact": "五十両"
+    "rendered_text": "五十両（ごじゅうりょう・推定。銀などを重さで数えた金額の表示）"
+  - "entry_id": "xy-entry-1144"
+    "form_id": "xy-form-1304"
+    "segment_id": "xy-ch10-023"
+    "translation_span":
+      "start": 273
+      "end": 275
+      "exact": "総管"
+    "rendered_text": "総管（そうかん・推定。ある区域や部門をまとめて統括する官職）"
+  - "entry_id": "xy-entry-1145"
+    "form_id": "xy-form-1305"
+    "segment_id": "xy-ch10-024"
+    "translation_span":
+      "start": 45
+      "end": 49
+      "exact": "金衣力士"
+    "rendered_text": "金衣力士（きんいりきし・推定。金の衣をまとい、玉帝の命令を運ぶ神の使者）"
+  - "entry_id": "xy-entry-0252"
+    "form_id": "xy-form-0276"
+    "segment_id": "xy-ch10-024"
+    "translation_span":
+      "start": 88
+      "end": 90
+      "exact": "勅命"
+    "rendered_text": "勅命（ちょくめい。帝王が下す命令）"
+  - "entry_id": "xy-entry-1145"
+    "form_id": "xy-form-1306"
+    "segment_id": "xy-ch10-024"
+    "translation_span":
+      "start": 125
+      "end": 127
+      "exact": "力士"
+    "rendered_text": "力士（りきし・推定。ここでは金の衣を着て玉帝の勅旨を運ぶ使者）"
+  - "entry_id": "xy-jade-emperor"
+    "form_id": "xy-term-052-form"
+    "segment_id": "xy-ch10-024"
+    "translation_span":
+      "start": 157
+      "end": 159
+      "exact": "玉帝"
+    "rendered_text": "玉帝（ぎょくてい・推定。天上の神々を治める帝王）"
+  - "entry_id": "xy-entry-1146"
+    "form_id": "xy-form-1307"
+    "segment_id": "xy-ch10-024"
+    "translation_span":
+      "start": 182
+      "end": 184
+      "exact": "勅旨"
+    "rendered_text": "勅旨（ちょくし・推定。帝王の意向や、それを伝える命令）"
+  - "entry_id": "xy-entry-0980"
+    "form_id": "xy-form-1127"
+    "segment_id": "xy-ch10-024"
+    "translation_span":
+      "start": 277
+      "end": 279
+      "exact": "恩命"
+    "rendered_text": "恩命（おんめい・推定。帝王から賜ったありがたい命令）"
+  - "entry_id": "xy-entry-1147"
+    "form_id": "xy-form-1308"
+    "segment_id": "xy-ch10-025"
+    "translation_span":
+      "start": 0
+      "end": 2
+      "exact": "八河"
+    "rendered_text": "八河（はっか・推定。長安の周辺を流れる八つの川）"
+  - "entry_id": "xy-entry-1148"
+    "form_id": "xy-form-1309"
+    "segment_id": "xy-ch10-027"
+    "translation_span":
+      "start": 3
+      "end": 5
+      "exact": "風伯"
+    "rendered_text": "風伯（ふうはく・推定。風をつかさどる神）"
+  - "entry_id": "xy-entry-1149"
+    "form_id": "xy-form-1310"
+    "segment_id": "xy-ch10-027"
+    "translation_span":
+      "start": 24
+      "end": 26
+      "exact": "雷公"
+    "rendered_text": "雷公（らいこう・推定。雷をつかさどる神）"
+  - "entry_id": "xy-entry-1150"
+    "form_id": "xy-form-1311"
+    "segment_id": "xy-ch10-027"
+    "translation_span":
+      "start": 45
+      "end": 47
+      "exact": "雲童"
+    "rendered_text": "雲童（うんどう・推定。雲をつかさどる童子の神）"
+  - "entry_id": "xy-entry-1151"
+    "form_id": "xy-form-1312"
+    "segment_id": "xy-ch10-027"
+    "translation_span":
+      "start": 69
+      "end": 71
+      "exact": "電母"
+    "rendered_text": "電母（でんぼ・推定。稲妻をつかさどる女神）"
+  - "entry_id": "xy-entry-1152"
+    "form_id": "xy-form-1313"
+    "segment_id": "xy-ch10-027"
+    "translation_span":
+      "start": 154
+      "end": 157
+      "exact": "申の刻"
+    "rendered_text": "申の刻（さるのこく・推定。十二支で表す時刻の一つ。おおむね午後四時前後）"
+  - "entry_id": "xy-entry-1227"
+    "form_id": "xy-form-1394"
+    "segment_id": "xy-ch10-027"
+    "translation_span":
+      "start": 210
+      "end": 212
+      "exact": "一刻"
+    "rendered_text": "一刻（いっこく。ここでは十二支で分ける時刻の一区分。三刻の刻とは数え方が異なる）"
+  - "entry_id": "xy-entry-1153"
+    "form_id": "xy-form-1314"
+    "segment_id": "xy-ch10-027"
+    "translation_span":
+      "start": 677
+      "end": 680
+      "exact": "剮竜台"
+    "rendered_text": "剮竜台（かりゅうだい・推定。罪を犯した竜を処刑する場所）"
+  - "entry_id": "xy-entry-1221"
+    "form_id": "xy-form-1388"
+    "segment_id": "xy-ch10-027"
+    "translation_span":
+      "start": 978
+      "end": 980
+      "exact": "三刻"
+    "rendered_text": "三刻（さんこく・推定。時刻を細分した区分。ここでは午の時刻の三刻目）"
+  - "entry_id": "xy-entry-1154"
+    "form_id": "xy-form-1315"
+    "segment_id": "xy-ch10-027"
+    "translation_span":
+      "start": 1014
+      "end": 1017
+      "exact": "人曹官"
+    "rendered_text": "人曹官（じんそうかん・推定。人間界にいながら天界の裁断を執行する役目）"
+  - "entry_id": "xy-entry-0946"
+    "form_id": "xy-form-1088"
+    "segment_id": "xy-ch10-027"
+    "translation_span":
+      "start": 1050
+      "end": 1052
+      "exact": "魏徴"
+    "rendered_text": "魏徴（ぎちょう。唐の太宗に仕える臣で、夢の中で竜王を斬る）"
+  - "entry_id": "xy-entry-0792"
+    "form_id": "xy-form-0907"
+    "segment_id": "xy-ch10-027"
+    "translation_span":
+      "start": 1109
+      "end": 1110
+      "exact": "唐"
+    "rendered_text": "唐（とう・推定。長安を都とする中国の王朝）"
+  - "entry_id": "xy-entry-0937"
+    "form_id": "xy-form-1316"
+    "segment_id": "xy-ch10-027"
+    "translation_span":
+      "start": 1131
+      "end": 1135
+      "exact": "太宗皇帝"
+    "rendered_text": "太宗皇帝（たいそうこうてい・推定。唐の第二代皇帝、李世民）"
+  - "entry_id": "xy-entry-0945"
+    "form_id": "xy-form-1087"
+    "segment_id": "xy-ch10-027"
+    "translation_span":
+      "start": 1181
+      "end": 1183
+      "exact": "丞相"
+    "rendered_text": "丞相（じょうしょう。君主を補佐して国政を担う高官）"
+  - "entry_id": "xy-entry-0190"
+    "form_id": "xy-form-0200"
+    "segment_id": "xy-ch10-029"
+    "translation_span":
+      "start": 47
+      "end": 50
+      "exact": "天の川"
+    "rendered_text": "天の川（あまのがわ。夜空を帯状に渡る星の集まり）"
+  - "entry_id": "xy-entry-1155"
+    "form_id": "xy-form-1317"
+    "segment_id": "xy-ch10-029"
+    "translation_span":
+      "start": 113
+      "end": 115
+      "exact": "道観"
+    "rendered_text": "道観（どうかん・推定。道教の寺院）"
+  - "entry_id": "xy-entry-1156"
+    "form_id": "xy-form-1318"
+    "segment_id": "xy-ch10-030"
+    "translation_span":
+      "start": 23
+      "end": 26
+      "exact": "子の刻"
+    "rendered_text": "子の刻（ねのこく・推定。十二支で表す時刻の一つ。おおむね真夜中）"
+  - "entry_id": "xy-entry-0937"
+    "form_id": "xy-form-1079"
+    "segment_id": "xy-ch10-030"
+    "translation_span":
+      "start": 91
+      "end": 93
+      "exact": "太宗"
+    "rendered_text": "太宗（たいそう。唐の第二代皇帝、李世民）"
+  - "entry_id": "xy-entry-0920"
+    "form_id": "xy-form-1061"
+    "segment_id": "xy-ch10-030"
+    "translation_span":
+      "start": 230
+      "end": 232
+      "exact": "罪業"
+    "rendered_text": "罪業（ざいごう・推定。悪い行いと、その結果として負う罪）"
+  - "entry_id": "xy-entry-1157"
+    "form_id": "xy-form-1319"
+    "segment_id": "xy-ch10-031"
+    "translation_span":
+      "start": 31
+      "end": 33
+      "exact": "五鼓"
+    "rendered_text": "五鼓（ごこ・推定。一夜を五つに分けた最後の時刻。明け方ごろ）"
+  - "entry_id": "xy-entry-0974"
+    "form_id": "xy-form-1121"
+    "segment_id": "xy-ch10-031"
+    "translation_span":
+      "start": 62
+      "end": 64
+      "exact": "三点"
+    "rendered_text": "三点（さんてん・推定。一つの更をさらに分けた三番目の区切り）"
+  - "entry_id": "xy-entry-0422"
+    "form_id": "xy-form-0481"
+    "segment_id": "xy-ch10-031"
+    "translation_span":
+      "start": 99
+      "end": 101
+      "exact": "朝議"
+    "rendered_text": "朝議（ちょうぎ・推定。君主のもとで臣下たちが行う会議）"
+  - "entry_id": "xy-entry-1158"
+    "form_id": "xy-form-1320"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 2
+      "end": 4
+      "exact": "鳳闕"
+    "rendered_text": "鳳闕（ほうけつ。鳳凰の飾りを持つ宮門。転じて皇居をいう）"
+  - "entry_id": "xy-entry-1159"
+    "form_id": "xy-form-1321"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 37
+      "end": 39
+      "exact": "竜楼"
+    "rendered_text": "竜楼（りゅうろう・推定。竜の飾りのある楼閣。天子の宮殿のたとえ）"
+  - "entry_id": "xy-entry-1160"
+    "form_id": "xy-form-1322"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 108
+      "end": 110
+      "exact": "堯舜"
+    "rendered_text": "堯舜（ぎょうしゅん・推定。理想の政治を行ったとされる古代中国の二人の聖王）"
+  - "entry_id": "xy-entry-1222"
+    "form_id": "xy-form-1389"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 149
+      "end": 151
+      "exact": "礼楽"
+    "rendered_text": "礼楽（れいがく。社会の秩序を整える礼儀と、人の心を和らげる音楽）"
+  - "entry_id": "xy-entry-0935"
+    "form_id": "xy-form-1076"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 185
+      "end": 186
+      "exact": "漢"
+    "rendered_text": "漢（かん・推定。古代中国の王朝名）"
+  - "entry_id": "xy-term-039"
+    "form_id": "xy-term-039-form"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 238
+      "end": 240
+      "exact": "麒麟"
+    "rendered_text": "麒麟（きりん。平和な世に現れるとされる中国の伝説の獣）"
+  - "entry_id": "xy-entry-1161"
+    "form_id": "xy-form-1323"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 291
+      "end": 293
+      "exact": "華封"
+    "rendered_text": "華封（かほう・推定。堯に長寿・富・子孫繁栄を祝った華の地の番人を指す故事）"
+  - "entry_id": "xy-entry-0992"
+    "form_id": "xy-form-1140"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 355
+      "end": 357
+      "exact": "衣冠"
+    "rendered_text": "衣冠（いかん・推定。衣服と冠。ここでは官人の装束）"
+  - "entry_id": "xy-entry-1162"
+    "form_id": "xy-form-1324"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 384
+      "end": 386
+      "exact": "冕旒"
+    "rendered_text": "冕旒（べんりゅう。天子の冠から垂らす玉飾り。ここでは天子自身を指す）"
+  - "entry_id": "xy-entry-1223"
+    "form_id": "xy-form-1390"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 449
+      "end": 451
+      "exact": "御楽"
+    "rendered_text": "御楽（ぎょがく・推定。宮廷で奏でる音楽）"
+  - "entry_id": "xy-entry-0928"
+    "form_id": "xy-form-1069"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 481
+      "end": 483
+      "exact": "翡翠"
+    "rendered_text": "翡翠（ひすい。ここでは緑色の宝玉）"
+  - "entry_id": "xy-entry-1163"
+    "form_id": "xy-form-1325"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 529
+      "end": 530
+      "exact": "輦"
+    "rendered_text": "輦（れん。人が引く、天子などの乗り物）"
+  - "entry_id": "xy-entry-1224"
+    "form_id": "xy-form-1391"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 573
+      "end": 575
+      "exact": "御道"
+    "rendered_text": "御道（ぎょどう・推定。君主の宮殿に通じる道や宮中の通路）"
+  - "entry_id": "xy-entry-1164"
+    "form_id": "xy-form-1326"
+    "segment_id": "xy-ch10-032"
+    "translation_span":
+      "start": 627
+      "end": 629
+      "exact": "三象"
+    "rendered_text": "三象（さんしょう・推定。日・月・星などの天象をいう語。ここでの指示対象は未確定）"
+  - "entry_id": "xy-entry-1225"
+    "form_id": "xy-form-1392"
+    "segment_id": "xy-ch10-033"
+    "translation_span":
+      "start": 5
+      "end": 7
+      "exact": "朝賀"
+    "rendered_text": "朝賀（ちょうが。朝廷に出て君主を祝い、拝礼すること）"
+  - "entry_id": "xy-entry-1165"
+    "form_id": "xy-form-1327"
+    "segment_id": "xy-ch10-033"
+    "translation_span":
+      "start": 75
+      "end": 78
+      "exact": "房玄齢"
+    "rendered_text": "房玄齢（ぼうげんれい。唐の太宗を補佐した政治家）"
+  - "entry_id": "xy-entry-1166"
+    "form_id": "xy-form-1328"
+    "segment_id": "xy-ch10-033"
+    "translation_span":
+      "start": 100
+      "end": 103
+      "exact": "杜如晦"
+    "rendered_text": "杜如晦（とじょかい。房玄齢とともに太宗を補佐した唐の政治家）"
+  - "entry_id": "xy-entry-1167"
+    "form_id": "xy-form-1329"
+    "segment_id": "xy-ch10-033"
+    "translation_span":
+      "start": 131
+      "end": 134
+      "exact": "徐世勣"
+    "rendered_text": "徐世勣（じょせいせき。唐の太宗に仕える臣で、竜王救済の策を進言する）"
+  - "entry_id": "xy-entry-1168"
+    "form_id": "xy-form-1330"
+    "segment_id": "xy-ch10-033"
+    "translation_span":
+      "start": 166
+      "end": 169
+      "exact": "許敬宗"
+    "rendered_text": "許敬宗（きょけいそう。唐の太宗らに仕えた政治家・文人）"
+  - "entry_id": "xy-entry-1169"
+    "form_id": "xy-form-1331"
+    "segment_id": "xy-ch10-033"
+    "translation_span":
+      "start": 194
+      "end": 196
+      "exact": "王珪"
+    "rendered_text": "王珪（おうけい・推定。唐の太宗に仕えた官人）"
+  - "entry_id": "xy-entry-1170"
+    "form_id": "xy-form-1332"
+    "segment_id": "xy-ch10-033"
+    "translation_span":
+      "start": 222
+      "end": 225
+      "exact": "馬三宝"
+    "rendered_text": "馬三宝（ばさんぽう・推定。唐の朝廷に列する武将）"
+  - "entry_id": "xy-entry-1171"
+    "form_id": "xy-form-1333"
+    "segment_id": "xy-ch10-033"
+    "translation_span":
+      "start": 247
+      "end": 250
+      "exact": "段志玄"
+    "rendered_text": "段志玄（だんしげん・推定。唐の太宗に仕えた武将）"
+  - "entry_id": "xy-entry-0962"
+    "form_id": "xy-form-1107"
+    "segment_id": "xy-ch10-033"
+    "translation_span":
+      "start": 272
+      "end": 275
+      "exact": "殷開山"
+    "rendered_text": "殷開山（いんかいざん・推定。唐の臣で、玄奘の外祖父に当たる人物）"
+  - "entry_id": "xy-entry-1172"
+    "form_id": "xy-form-1334"
+    "segment_id": "xy-ch10-033"
+    "translation_span":
+      "start": 305
+      "end": 308
+      "exact": "程咬金"
+    "rendered_text": "程咬金（ていこうきん。唐の朝廷に列する勇将）"
+  - "entry_id": "xy-entry-1173"
+    "form_id": "xy-form-1335"
+    "segment_id": "xy-ch10-033"
+    "translation_span":
+      "start": 328
+      "end": 331
+      "exact": "劉洪紀"
+    "rendered_text": "劉洪紀（りゅうこうき・推定。本文にこの名で列挙される唐の武将。劉弘基へ無断訂正しない）"
+  - "entry_id": "xy-entry-1174"
+    "form_id": "xy-form-1336"
+    "segment_id": "xy-ch10-033"
+    "translation_span":
+      "start": 372
+      "end": 375
+      "exact": "尉遅恭"
+    "rendered_text": "尉遅恭（うっちきょう。唐の武将で、秦叔宝と宮門を守る。字は敬徳）"
+  - "entry_id": "xy-entry-1175"
+    "form_id": "xy-form-1337"
+    "segment_id": "xy-ch10-033"
+    "translation_span":
+      "start": 405
+      "end": 408
+      "exact": "秦叔宝"
+    "rendered_text": "秦叔宝（しんしゅくほう。唐の武将で、尉遅恭と宮門を守る）"
+  - "entry_id": "xy-entry-1176"
+    "form_id": "xy-form-1338"
+    "segment_id": "xy-ch10-034"
+    "translation_span":
+      "start": 54
+      "end": 56
+      "exact": "仙使"
+    "rendered_text": "仙使（せんし・推定。天界から命令を伝える使者）"
+  - "entry_id": "xy-entry-1177"
+    "form_id": "xy-form-1339"
+    "segment_id": "xy-ch10-034"
+    "translation_span":
+      "start": 127
+      "end": 131
+      "exact": "斎戒沐浴"
+    "rendered_text": "斎戒沐浴（さいかいもくよく。飲食や行動を慎み、体を洗い清めること）"
+  - "entry_id": "xy-entry-0853"
+    "form_id": "xy-form-0977"
+    "segment_id": "xy-ch10-034"
+    "translation_span":
+      "start": 167
+      "end": 169
+      "exact": "智慧"
+    "rendered_text": "智慧（ちえ・推定。物事の道理を正しく見抜く力）"
+  - "entry_id": "xy-entry-1178"
+    "form_id": "xy-form-1340"
+    "segment_id": "xy-ch10-034"
+    "translation_span":
+      "start": 196
+      "end": 198
+      "exact": "元神"
+    "rendered_text": "元神（げんしん・推定。道教でいう根源的な精神。ここでは体を離れて働く霊魂）"
+  - "entry_id": "xy-entry-0976"
+    "form_id": "xy-form-1123"
+    "segment_id": "xy-ch10-034"
+    "translation_span":
+      "start": 243
+      "end": 245
+      "exact": "参朝"
+    "rendered_text": "参朝（さんちょう・推定。朝廷へ出仕すること）"
+  - "entry_id": "xy-entry-1179"
+    "form_id": "xy-form-1341"
+    "segment_id": "xy-ch10-034"
+    "translation_span":
+      "start": 420
+      "end": 423
+      "exact": "金鑾殿"
+    "rendered_text": "金鑾殿（きんらんでん・推定。天子が政務や儀式を行う宮殿の名）"
+  - "entry_id": "xy-entry-1180"
+    "form_id": "xy-form-1342"
+    "segment_id": "xy-ch10-034"
+    "translation_span":
+      "start": 459
+      "end": 461
+      "exact": "便殿"
+    "rendered_text": "便殿（べんでん・推定。天子が日常の執務や休息に用いる御殿）"
+  - "entry_id": "xy-entry-1181"
+    "form_id": "xy-form-1343"
+    "segment_id": "xy-ch10-034"
+    "translation_span":
+      "start": 624
+      "end": 627
+      "exact": "爛柯経"
+    "rendered_text": "爛柯経（らんかきょう・推定。囲碁の打ち方を説く書として引用される書名）"
+  - "entry_id": "xy-entry-1182"
+    "form_id": "xy-form-1344"
+    "segment_id": "xy-ch10-035"
+    "translation_span":
+      "start": 445
+      "end": 447
+      "exact": "詩経"
+    "rendered_text": "詩経（しきょう・推定。古代中国の詩歌を集めた儒教の経典）"
+  - "entry_id": "xy-term-046"
+    "form_id": "xy-term-046-form"
+    "segment_id": "xy-ch10-037"
+    "translation_span":
+      "start": 16
+      "end": 18
+      "exact": "陰陽"
+    "rendered_text": "陰陽（いんよう。天地や物事の変化を生むとされた陰と陽の二つの働き）"
+  - "entry_id": "xy-vocab-122"
+    "form_id": "xy-vocab-122-form"
+    "segment_id": "xy-ch10-037"
+    "translation_span":
+      "start": 53
+      "end": 55
+      "exact": "造化"
+    "rendered_text": "造化（ぞうか・推定。天地が万物を生み育てる働き）"
+  - "entry_id": "xy-entry-1183"
+    "form_id": "xy-form-1345"
+    "segment_id": "xy-ch10-037"
+    "translation_span":
+      "start": 83
+      "end": 85
+      "exact": "玄妙"
+    "rendered_text": "玄妙（げんみょう・推定。奥深く、容易には知り尽くせないこと）"
+  - "entry_id": "xy-entry-1184"
+    "form_id": "xy-form-1346"
+    "segment_id": "xy-ch10-037"
+    "translation_span":
+      "start": 133
+      "end": 135
+      "exact": "爛柯"
+    "rendered_text": "爛柯（らんか。仙人の碁を見ている間に斧の柄が腐ったという故事。囲碁の異称）"
+  - "entry_id": "xy-entry-1185"
+    "form_id": "xy-form-1347"
+    "segment_id": "xy-ch10-038"
+    "translation_span":
+      "start": 91
+      "end": 93
+      "exact": "社稷"
+    "rendered_text": "社稷（しゃしょく。土地と穀物の神。転じて国家をいう）"
+  - "entry_id": "xy-entry-1226"
+    "form_id": "xy-form-1393"
+    "segment_id": "xy-ch10-039"
+    "translation_span":
+      "start": 21
+      "end": 23
+      "exact": "朝門"
+    "rendered_text": "朝門（ちょうもん・推定。宮廷の門）"
+  - "entry_id": "xy-entry-1186"
+    "form_id": "xy-form-1348"
+    "segment_id": "xy-ch10-039"
+    "translation_span":
+      "start": 197
+      "end": 200
+      "exact": "千歩廊"
+    "rendered_text": "千歩廊（せんぽろう・推定。宮廷の前にある長い回廊の名）"
+  - "entry_id": "xy-entry-0398"
+    "form_id": "xy-form-0457"
+    "segment_id": "xy-ch10-039"
+    "translation_span":
+      "start": 483
+      "end": 485
+      "exact": "瑞雲"
+    "rendered_text": "瑞雲（ずいうん・推定。めでたい兆しとされる美しい雲）"
+  - "entry_id": "xy-entry-1187"
+    "form_id": "xy-form-1349"
+    "segment_id": "xy-ch10-039"
+    "translation_span":
+      "start": 536
+      "end": 540
+      "exact": "天兵天将"
+    "rendered_text": "天兵天将（てんぺいてんしょう・推定。天界の兵士と将軍たち）"
+  - "entry_id": "xy-entry-1188"
+    "form_id": "xy-form-1350"
+    "segment_id": "xy-ch10-041"
+    "translation_span":
+      "start": 105
+      "end": 107
+      "exact": "二更"
+    "rendered_text": "二更（にこう・推定。一夜を五つに分けた二番目の時刻。宵を過ぎたころ）"
+  - "entry_id": "xy-enma"
+    "form_id": "xy-form-1351"
+    "segment_id": "xy-ch10-041"
+    "translation_span":
+      "start": 296
+      "end": 298
+      "exact": "閻君"
+    "rendered_text": "閻君（えんくん・推定。冥界で死者の罪を裁く王の呼び名）"
+  - "entry_id": "xy-entry-1189"
+    "form_id": "xy-form-1352"
+    "segment_id": "xy-ch10-042"
+    "translation_span":
+      "start": 50
+      "end": 53
+      "exact": "女真人"
+    "rendered_text": "女真人（にょしんじん・推定。道を極めた女性の仙人。ここでは観音の姿を指す）"
+  - "entry_id": "xy-entry-0552"
+    "form_id": "xy-form-0624"
+    "segment_id": "xy-ch10-042"
+    "translation_span":
+      "start": 141
+      "end": 145
+      "exact": "観音菩薩"
+    "rendered_text": "観音菩薩（かんのんぼさつ。人々の苦しみを救う菩薩で、取経の人を捜す）"
+  - "entry_id": "xy-entry-0847"
+    "form_id": "xy-form-0971"
+    "segment_id": "xy-ch10-042"
+    "translation_span":
+      "start": 187
+      "end": 189
+      "exact": "東土"
+    "rendered_text": "東土（とうど・推定。仏教の伝来先として東方にある中国の地）"
+  - "entry_id": "xy-entry-1190"
+    "form_id": "xy-form-1353"
+    "segment_id": "xy-ch10-042"
+    "translation_span":
+      "start": 217
+      "end": 219
+      "exact": "取経"
+    "rendered_text": "取経（しゅきょう・推定。仏教の経典を求めて手に入れること）"
+  - "entry_id": "xy-entry-1191"
+    "form_id": "xy-form-1354"
+    "segment_id": "xy-ch10-042"
+    "translation_span":
+      "start": 259
+      "end": 262
+      "exact": "土地廟"
+    "rendered_text": "土地廟（とちびょう・推定。その土地を守る神をまつる祠）"
+  - "entry_id": "xy-entry-0220"
+    "form_id": "xy-form-0262"
+    "segment_id": "xy-ch10-042"
+    "translation_span":
+      "start": 346
+      "end": 348
+      "exact": "冥府"
+    "rendered_text": "冥府（めいふ・推定。死者の魂が送られる世界）"
+  - "entry_id": "xy-entry-1192"
+    "form_id": "xy-form-1355"
+    "segment_id": "xy-ch10-043"
+    "translation_span":
+      "start": 36
+      "end": 38
+      "exact": "三宮"
+    "rendered_text": "三宮（さんぐう・推定。皇后などの住まう宮殿、またはそこにいる后妃を表す語）"
+  - "entry_id": "xy-entry-1193"
+    "form_id": "xy-form-1356"
+    "segment_id": "xy-ch10-043"
+    "translation_span":
+      "start": 77
+      "end": 79
+      "exact": "六院"
+    "rendered_text": "六院（りくいん・推定。後宮の複数の御殿、またはそこに住む妃たちを表す語）"
+  - "entry_id": "xy-entry-1194"
+    "form_id": "xy-form-1357"
+    "segment_id": "xy-ch10-043"
+    "translation_span":
+      "start": 122
+      "end": 124
+      "exact": "宦官"
+    "rendered_text": "宦官（かんがん・推定。去勢され、宮中で皇帝や后妃に仕えた男性の役人）"
+  - "entry_id": "xy-entry-0973"
+    "form_id": "xy-form-1120"
+    "segment_id": "xy-ch10-044"
+    "translation_span":
+      "start": 4
+      "end": 6
+      "exact": "五更"
+    "rendered_text": "五更（ごこう。一夜を五つに分けた最後の時刻。明け方ごろ）"
+  - "entry_id": "xy-entry-1195"
+    "form_id": "xy-form-1358"
+    "segment_id": "xy-ch10-044"
+    "translation_span":
+      "start": 189
+      "end": 191
+      "exact": "太后"
+    "rendered_text": "太后（たいこう・推定。先帝の后などに対する尊称。本文ではこの表記を保つ）"
+  - "entry_id": "xy-entry-1196"
+    "form_id": "xy-form-1359"
+    "segment_id": "xy-ch10-044"
+    "translation_span":
+      "start": 314
+      "end": 316
+      "exact": "譫言"
+    "rendered_text": "譫言（うわごと。意識のはっきりしないときに口走る、筋の通らない言葉）"
+  - "entry_id": "xy-vocab-126"
+    "form_id": "xy-vocab-126-form"
+    "segment_id": "xy-ch10-044"
+    "translation_span":
+      "start": 372
+      "end": 374
+      "exact": "五臓"
+    "rendered_text": "五臓（ごぞう・推定。伝統医学でいう肝・心・脾・肺・腎）"
+  - "entry_id": "xy-entry-1217"
+    "form_id": "xy-form-1384"
+    "segment_id": "xy-ch10-045"
+    "translation_span":
+      "start": 40
+      "end": 42
+      "exact": "三公"
+    "rendered_text": "三公（さんこう・推定。ここでは徐世勣・秦叔宝・尉遅恭の三人への敬称）"
+  - "entry_id": "xy-entry-1197"
+    "form_id": "xy-form-1360"
+    "segment_id": "xy-ch10-045"
+    "translation_span":
+      "start": 83
+      "end": 86
+      "exact": "分宮楼"
+    "rendered_text": "分宮楼（ぶんきゅうろう・推定。唐の宮中にある楼門の名）"
+  - "entry_id": "xy-entry-1174"
+    "form_id": "xy-form-1361"
+    "segment_id": "xy-ch10-045"
+    "translation_span":
+      "start": 371
+      "end": 373
+      "exact": "敬徳"
+    "rendered_text": "敬徳（けいとく・推定。尉遅恭の字）"
+  - "entry_id": "xy-entry-0702"
+    "form_id": "xy-form-0807"
+    "segment_id": "xy-ch10-046"
+    "translation_span":
+      "start": 32
+      "end": 34
+      "exact": "金瓜"
+    "rendered_text": "金瓜（きんか・推定。瓜形の頭を備えた、儀仗にも用いる打撃武器）"
+  - "entry_id": "xy-entry-1198"
+    "form_id": "xy-form-1362"
+    "segment_id": "xy-ch10-046"
+    "translation_span":
+      "start": 64
+      "end": 66
+      "exact": "鉞斧"
+    "rendered_text": "鉞斧（えっぷ。大きな刃を持つ斧状の武器）"
+  - "entry_id": "xy-entry-1199"
+    "form_id": "xy-form-1363"
+    "segment_id": "xy-ch10-047"
+    "translation_span":
+      "start": 144
+      "end": 146
+      "exact": "門神"
+    "rendered_text": "門神（もんしん・推定。門を守って悪いものを防ぐ神）"
+  - "entry_id": "xy-entry-1216"
+    "form_id": "xy-form-1383"
+    "segment_id": "xy-ch10-048"
+    "translation_span":
+      "start": 0
+      "end": 3
+      "exact": "二将軍"
+    "rendered_text": "二将軍（にしょうぐん・推定。太宗の宮門を守る二人の将軍、秦叔宝と尉遅恭）"
+  - "entry_id": "xy-entry-1175"
+    "form_id": "xy-form-1364"
+    "segment_id": "xy-ch10-049"
+    "translation_span":
+      "start": 110
+      "end": 111
+      "exact": "秦"
+    "rendered_text": "秦（しん・推定。ここでは秦叔宝を姓で呼ぶ名）"
+  - "entry_id": "xy-entry-1174"
+    "form_id": "xy-form-1365"
+    "segment_id": "xy-ch10-049"
+    "translation_span":
+      "start": 133
+      "end": 134
+      "exact": "胡"
+    "rendered_text": "胡（こ・推定。本文で尉遅恭を指す略称として使われる表記）"
+  - "entry_id": "xy-entry-1200"
+    "form_id": "xy-form-1366"
+    "segment_id": "xy-ch10-050"
+    "translation_span":
+      "start": 14
+      "end": 17
+      "exact": "後宰門"
+    "rendered_text": "後宰門（こうさいもん・推定。宮殿の後方にある門の名）"
+  - "entry_id": "xy-entry-1175"
+    "form_id": "xy-form-1367"
+    "segment_id": "xy-ch10-050"
+    "translation_span":
+      "start": 173
+      "end": 175
+      "exact": "叔宝"
+    "rendered_text": "叔宝（しゅくほう・推定。秦叔宝を字で呼ぶ名）"
+  - "entry_id": "xy-entry-1201"
+    "form_id": "xy-form-1368"
+    "segment_id": "xy-ch10-051"
+    "translation_span":
+      "start": 0
+      "end": 2
+      "exact": "練絹"
+    "rendered_text": "練絹（ねりぎぬ・推定。生糸のにかわ質を除いて柔らかくした絹）"
+  - "entry_id": "xy-entry-0361"
+    "form_id": "xy-form-0393"
+    "segment_id": "xy-ch10-051"
+    "translation_span":
+      "start": 43
+      "end": 44
+      "exact": "袍"
+    "rendered_text": "袍（ほう・推定。体をゆったり包む丈の長い衣）"
+  - "entry_id": "xy-entry-1202"
+    "form_id": "xy-form-1369"
+    "segment_id": "xy-ch10-051"
+    "translation_span":
+      "start": 95
+      "end": 97
+      "exact": "壘荼"
+    "rendered_text": "壘荼（るいと・推定。本文にこの表記で現れる門の守護神。神荼・鬱壘との関連が考えられる）"
+  - "entry_id": "xy-entry-1203"
+    "form_id": "xy-form-1370"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 58
+      "end": 59
+      "exact": "蜀"
+    "rendered_text": "蜀（しょく・推定。劉備が建てた三国時代の国）"
+  - "entry_id": "xy-entry-1204"
+    "form_id": "xy-form-1371"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 84
+      "end": 86
+      "exact": "劉備"
+    "rendered_text": "劉備（りゅうび・推定。三国時代に蜀を建てた君主）"
+  - "entry_id": "xy-entry-1205"
+    "form_id": "xy-form-1372"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 246
+      "end": 248
+      "exact": "膏肓"
+    "rendered_text": "膏肓（こうこう。昔、治療が及ばないと考えた体の奥。「病が膏肓に入る」は重病になること）"
+  - "entry_id": "xy-entry-1206"
+    "form_id": "xy-form-1373"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 344
+      "end": 346
+      "exact": "酆都"
+    "rendered_text": "酆都（ほうと。死者の世界があるとされた場所。ここでは冥府の所在地）"
+  - "entry_id": "xy-entry-0238"
+    "form_id": "xy-form-0258"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 378
+      "end": 380
+      "exact": "判官"
+    "rendered_text": "判官（はんがん。冥府で死者の帳簿や裁判に携わる役人）"
+  - "entry_id": "xy-entry-1207"
+    "form_id": "xy-form-1374"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 405
+      "end": 407
+      "exact": "崔珏"
+    "rendered_text": "崔珏（さいかく・推定。魏徴と親交があり、死後は冥府の判官となった人物）"
+  - "entry_id": "xy-entry-1208"
+    "form_id": "xy-form-1375"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 472
+      "end": 476
+      "exact": "太上皇帝"
+    "rendered_text": "太上皇帝（たいじょうこうてい・推定。皇帝の父や退位した皇帝に対する尊称）"
+  - "entry_id": "xy-entry-1209"
+    "form_id": "xy-form-1376"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 517
+      "end": 519
+      "exact": "茲洲"
+    "rendered_text": "茲洲（じしゅう・推定。本文に崔珏の赴任地として現れる地名。字を補訂せず保持する）"
+  - "entry_id": "xy-entry-1210"
+    "form_id": "xy-form-1377"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 558
+      "end": 560
+      "exact": "県令"
+    "rendered_text": "県令（けんれい・推定。一つの県を治める地方長官）"
+  - "entry_id": "xy-entry-1211"
+    "form_id": "xy-form-1378"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 590
+      "end": 594
+      "exact": "礼部侍郎"
+    "rendered_text": "礼部侍郎（れいぶじろう・推定。儀礼や科挙などを担う礼部の次官）"
+  - "entry_id": "xy-entry-1212"
+    "form_id": "xy-form-1379"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 634
+      "end": 640
+      "exact": "八拝の交わり"
+    "rendered_text": "八拝の交わり（はっぱいのまじわり・推定。互いに礼拝し、兄弟同然の深い親交を結ぶこと）"
+  - "entry_id": "xy-entry-1213"
+    "form_id": "xy-form-1380"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 804
+      "end": 806
+      "exact": "竜顔"
+    "rendered_text": "竜顔（りゅうがん・推定。天子の顔を敬っていう語）"
+  - "entry_id": "xy-entry-1214"
+    "form_id": "xy-form-1381"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 881
+      "end": 885
+      "exact": "三宮六院"
+    "rendered_text": "三宮六院（さんぐうりくいん・推定。皇后や妃たちの住む後宮全体を表す言い方）"
+  - "entry_id": "xy-entry-1219"
+    "form_id": "xy-form-1386"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 932
+      "end": 935
+      "exact": "皇太子"
+    "rendered_text": "皇太子（こうたいし。皇位を継ぐことになっている皇子）"
+  - "entry_id": "xy-entry-1215"
+    "form_id": "xy-form-1382"
+    "segment_id": "xy-ch10-053"
+    "translation_span":
+      "start": 986
+      "end": 989
+      "exact": "白虎殿"
+    "rendered_text": "白虎殿（びゃっこでん・推定。太宗の棺を安置した宮殿の名）"
