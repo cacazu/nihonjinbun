@@ -1694,6 +1694,34 @@
     "title": "西遊記/第027回（中文維基文庫・固定版）"
     "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第027回&oldid=1455576"
     "accessed_at": "2026-10-24"
+  - "id": "xy-reference-424"
+    "title": "西遊記/第028回（中文維基文庫・固定版）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第028回&oldid=1455577"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-425"
+    "title": "『西遊記』修辭現象研究（南華大学学位論文）"
+    "url": "https://nhuir.nhu.edu.tw/retrieve/28566/093NHU05076009-001.pdf"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-426"
+    "title": "漢字ペディア「槐（えんじゅ）」"
+    "url": "https://www.kanjipedia.jp/kotoba/0000820700"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-427"
+    "title": "漢字ペディア「楡」"
+    "url": "https://www.kanjipedia.jp/kanji/0006833900"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-428"
+    "title": "教育部異體字字典「柘」"
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=60220&la=1"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-429"
+    "title": "漢字ペディア「柘」"
+    "url": "https://www.kanjipedia.jp/kanji/0002973700"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-430"
+    "title": "JLogos・福武国語辞典「鳥黐」"
+    "url": "https://www.jlogos.com/d001/705254120.html"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -13180,6 +13208,22 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+      - "id": "xy-form-2206"
+        "text": "顕聖二郎神"
+        "relation": "alias"
+        "reading":
+          "kana": "けんせいじろうしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+      - "id": "xy-form-2211"
+        "text": "二郎菩薩"
+        "relation": "alias"
+        "reading":
+          "kana": "じろうぼさつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
   - "id": "xy-entry-0582"
     "kind": "place"
     "headword": "灌洲"
@@ -13374,6 +13418,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "公開資料でこの表記全体の慣用日本語読みを確定できず、日本語の音訓・語構成と本文の文脈から推定した。"
+      - "id": "xy-form-2207"
+        "text": "梅山の七兄弟"
+        "relation": "alias"
+        "reading":
+          "kana": "ばいざんのしちきょうだい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
   - "id": "xy-entry-0592"
     "kind": "person"
     "headword": "康"
@@ -18954,6 +19006,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-form-2232"
+        "text": "降妖杖"
+        "relation": "alias"
+        "reading":
+          "kana": "ごうようじょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
   - "id": "xy-entry-0887"
     "kind": "concept"
     "headword": "白虎"
@@ -37237,3 +37297,482 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "各漢字の日本語音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1855"
+    "kind": "term"
+    "headword": "古風"
+    "definition_ja": "近体詩の格律に縛られない形式の漢詩。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+      "reason_ja": "固定版の当該場面の用法と前後関係、日本語での一般的語義に基づく。"
+    "forms":
+      - "id": "xy-form-2208"
+        "text": "古風"
+        "relation": "preferred"
+        "reading":
+          "kana": "こふう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1856"
+    "kind": "term"
+    "headword": "香椿"
+    "definition_ja": "中国の樹木。原文の椿であり、日本のツバキではない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+      "reason_ja": "固定版の当該場面の用法と前後関係、日本語での一般的語義に基づく。"
+    "forms":
+      - "id": "xy-form-2209"
+        "text": "香椿"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちゃんちん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1857"
+    "kind": "term"
+    "headword": "芝蘭"
+    "definition_ja": "芝と蘭。古典で香りよく美しい草の類をいう。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+      "reason_ja": "固定版の当該場面の用法と前後関係、日本語での一般的語義に基づく。"
+    "forms":
+      - "id": "xy-form-2210"
+        "text": "芝蘭"
+        "relation": "preferred"
+        "reading":
+          "kana": "しらん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1858"
+    "kind": "object"
+    "headword": "狼牙箭"
+    "definition_ja": "狼の牙に似た鋭い鏃の矢。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+      "reason_ja": "固定版の当該場面の用法と前後関係、日本語での一般的語義に基づく。"
+    "forms":
+      - "id": "xy-form-2212"
+        "text": "狼牙箭"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろうがせん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1859"
+    "kind": "term"
+    "headword": "海東青"
+    "definition_ja": "狩猟に用いる猛禽の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+      "reason_ja": "固定版の当該場面の用法と前後関係、日本語での一般的語義に基づく。"
+    "forms":
+      - "id": "xy-form-2213"
+        "text": "海東青"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいとうせい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1860"
+    "kind": "term"
+    "headword": "烏頭"
+    "definition_ja": "トリカブトの根に由来する薬名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+        - "xy-reference-425"
+      "reason_ja": "固定版の詞と南華大学の学位論文『西遊記修辭現象研究』122頁の九薬名の指摘に基づく。個々の語義と掛詞には推定を含む。"
+    "forms":
+      - "id": "xy-form-2214"
+        "text": "烏頭"
+        "relation": "preferred"
+        "reading":
+          "kana": "うず"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1861"
+    "kind": "term"
+    "headword": "海馬"
+    "definition_ja": "タツノオトシゴに由来する薬名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+        - "xy-reference-425"
+      "reason_ja": "固定版の詞と南華大学の学位論文『西遊記修辭現象研究』122頁の九薬名の指摘に基づく。個々の語義と掛詞には推定を含む。"
+    "forms":
+      - "id": "xy-form-2215"
+        "text": "海馬"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいば"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1862"
+    "kind": "term"
+    "headword": "人参"
+    "definition_ja": "薬用のオタネニンジン。霊果の人参果とは別。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+        - "xy-reference-425"
+      "reason_ja": "固定版の詞と南華大学の学位論文『西遊記修辭現象研究』122頁の九薬名の指摘に基づく。個々の語義と掛詞には推定を含む。"
+    "forms":
+      - "id": "xy-form-2216"
+        "text": "人参"
+        "relation": "preferred"
+        "reading":
+          "kana": "にんじん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1863"
+    "kind": "term"
+    "headword": "官桂"
+    "definition_ja": "桂皮の類をいう薬名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+        - "xy-reference-425"
+      "reason_ja": "固定版の詞と南華大学の学位論文『西遊記修辭現象研究』122頁の九薬名の指摘に基づく。個々の語義と掛詞には推定を含む。"
+    "forms":
+      - "id": "xy-form-2217"
+        "text": "官桂"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんけい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1864"
+    "kind": "term"
+    "headword": "朱砂"
+    "definition_ja": "赤い鉱物である辰砂をいう薬名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+        - "xy-reference-425"
+      "reason_ja": "固定版の詞と南華大学の学位論文『西遊記修辭現象研究』122頁の九薬名の指摘に基づく。個々の語義と掛詞には推定を含む。"
+    "forms":
+      - "id": "xy-form-2218"
+        "text": "朱砂"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅしゃ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+      - "id": "xy-form-2224"
+        "text": "丹砂"
+        "relation": "alias"
+        "reading":
+          "kana": "たんしゃ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1865"
+    "kind": "term"
+    "headword": "附子"
+    "definition_ja": "トリカブトに由来する薬名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+        - "xy-reference-425"
+      "reason_ja": "固定版の詞と南華大学の学位論文『西遊記修辭現象研究』122頁の九薬名の指摘に基づく。個々の語義と掛詞には推定を含む。"
+    "forms":
+      - "id": "xy-form-2219"
+        "text": "附子"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1866"
+    "kind": "term"
+    "headword": "檳榔"
+    "definition_ja": "ヤシ科植物の実に由来する薬名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+        - "xy-reference-425"
+      "reason_ja": "固定版の詞と南華大学の学位論文『西遊記修辭現象研究』122頁の九薬名の指摘に基づく。個々の語義と掛詞には推定を含む。"
+    "forms":
+      - "id": "xy-form-2220"
+        "text": "檳榔"
+        "relation": "preferred"
+        "reading":
+          "kana": "びんろう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1867"
+    "kind": "term"
+    "headword": "軽粉"
+    "definition_ja": "水銀化合物に由来する伝統的な薬名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+        - "xy-reference-425"
+      "reason_ja": "固定版の詞と南華大学の学位論文『西遊記修辭現象研究』122頁の九薬名の指摘に基づく。個々の語義と掛詞には推定を含む。"
+    "forms":
+      - "id": "xy-form-2221"
+        "text": "軽粉"
+        "relation": "preferred"
+        "reading":
+          "kana": "けいふん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1868"
+    "kind": "term"
+    "headword": "紅娘子"
+    "definition_ja": "赤い虫に由来する薬名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+        - "xy-reference-425"
+      "reason_ja": "固定版の詞と南華大学の学位論文『西遊記修辭現象研究』122頁の九薬名の指摘に基づく。個々の語義と掛詞には推定を含む。"
+    "forms":
+      - "id": "xy-form-2222"
+        "text": "紅娘子"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうじょうし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1869"
+    "kind": "term"
+    "headword": "斑竹"
+    "definition_ja": "斑点のある竹。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+      "reason_ja": "固定版の当該場面の用法と前後関係、日本語での一般的語義に基づく。"
+    "forms":
+      - "id": "xy-form-2223"
+        "text": "斑竹"
+        "relation": "preferred"
+        "reading":
+          "kana": "はんちく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1870"
+    "kind": "object"
+    "headword": "定魂樁"
+    "definition_ja": "妖怪の洞で三蔵を縛るために使われる杭。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+      "reason_ja": "固定版の当該場面の用法と前後関係、日本語での一般的語義に基づく。"
+    "forms":
+      - "id": "xy-form-2225"
+        "text": "定魂樁"
+        "relation": "preferred"
+        "reading":
+          "kana": "ていこんしょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1871"
+    "kind": "place"
+    "headword": "碗子山"
+    "definition_ja": "波月洞のある山。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+      "reason_ja": "固定版の当該場面の用法と前後関係、日本語での一般的語義に基づく。"
+    "forms":
+      - "id": "xy-form-2226"
+        "text": "碗子山"
+        "relation": "preferred"
+        "reading":
+          "kana": "わんしざん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1872"
+    "kind": "place"
+    "headword": "波月洞"
+    "definition_ja": "碗子山にある妖怪の洞。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+      "reason_ja": "固定版の当該場面の用法と前後関係、日本語での一般的語義に基づく。"
+    "forms":
+      - "id": "xy-form-2227"
+        "text": "波月洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "はげつどう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1873"
+    "kind": "object"
+    "headword": "磲石"
+    "definition_ja": "帯の飾りに使う宝石状の材。硨磲の類と解する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+      "reason_ja": "固定版の当該場面の用法と前後関係、日本語での一般的語義に基づく。"
+    "forms":
+      - "id": "xy-form-2228"
+        "text": "磲石"
+        "relation": "preferred"
+        "reading":
+          "kana": "きょせき"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1874"
+    "kind": "object"
+    "headword": "歩雲絛"
+    "definition_ja": "妖怪が鎧を締める、歩雲と呼ばれる組紐。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+      "reason_ja": "固定版の当該場面の用法と前後関係、日本語での一般的語義に基づく。"
+    "forms":
+      - "id": "xy-form-2229"
+        "text": "歩雲絛"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうんとう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1875"
+    "kind": "person"
+    "headword": "黄袍"
+    "definition_ja": "波月洞の妖怪の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-424"
+      "reason_ja": "固定版の当該場面の用法と前後関係、日本語での一般的語義に基づく。"
+    "forms":
+      - "id": "xy-form-2230"
+        "text": "黄袍"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうほう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+      - "id": "xy-form-2231"
+        "text": "黄袍怪"
+        "relation": "alias"
+        "reading":
+          "kana": "こうほうかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1876"
+    "kind": "term"
+    "headword": "槐"
+    "definition_ja": "マメ科の落葉高木。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-426"
+      "reason_ja": "出典の語義を確認し、この文脈で該当する意味を採用した。"
+    "forms":
+      - "id": "xy-form-2233"
+        "text": "槐"
+        "relation": "preferred"
+        "reading":
+          "kana": "えんじゅ"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-426"
+          "reason_ja": "出典がこの表記の日本語読みを明記している。"
+  - "id": "xy-entry-1877"
+    "kind": "term"
+    "headword": "楡"
+    "definition_ja": "ニレ科の落葉高木の類。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-427"
+      "reason_ja": "出典の語義を確認し、この文脈で該当する意味を採用した。"
+    "forms":
+      - "id": "xy-form-2234"
+        "text": "楡"
+        "relation": "preferred"
+        "reading":
+          "kana": "にれ"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-427"
+          "reason_ja": "出典がこの表記の日本語読みを明記している。"
+  - "id": "xy-entry-1878"
+    "kind": "term"
+    "headword": "柘"
+    "definition_ja": "中国で柘桑と呼ぶクワ科の樹木。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-428"
+      "reason_ja": "出典の語義を確認し、この文脈で該当する意味を採用した。"
+    "forms":
+      - "id": "xy-form-2235"
+        "text": "柘"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゃ"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-429"
+          "reason_ja": "出典がこの表記の日本語読みを明記している。"
+  - "id": "xy-entry-1879"
+    "kind": "term"
+    "headword": "鳥黐"
+    "definition_ja": "小鳥や虫を捕らえるための粘り気の強い物質。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-430"
+      "reason_ja": "出典の語義を確認し、この文脈で該当する意味を採用した。"
+    "forms":
+      - "id": "xy-form-2236"
+        "text": "鳥黐"
+        "relation": "preferred"
+        "reading":
+          "kana": "とりもち"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-430"
+          "reason_ja": "出典がこの表記の日本語読みを明記している。"
