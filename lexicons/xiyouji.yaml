@@ -1670,6 +1670,10 @@
     "title": "小学館デジタル大辞泉「周公」（コトバンク掲載）"
     "url": "https://kotobank.jp/word/%E5%91%A8%E5%85%AC-526637"
     "accessed_at": "2026-10-24"
+  - "id": "xy-reference-418"
+    "title": "西遊記/第024回（中文維基文庫・固定版）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第024回&oldid=1455573"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -13746,6 +13750,14 @@
           "source_ids":
             - "xy-reference-167"
           "reason_ja": "参照資料がこの表記の日本語読みを明示している。"
+      - "id": "xy-form-2089"
+        "text": "崑崙"
+        "relation": "alias"
+        "reading":
+          "kana": "こんろん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
   - "id": "xy-entry-0616"
     "kind": "term"
     "headword": "霊怪"
@@ -15054,6 +15066,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した読み。語形全体の日本語読みを明記する資料による独立確認はしていない。"
+      - "id": "xy-form-2124"
+        "text": "如来仏"
+        "relation": "alias"
+        "reading":
+          "kana": "にょらいぶつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
   - "id": "xy-entry-0688"
     "kind": "place"
     "headword": "双林"
@@ -16277,6 +16297,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-form-2103"
+        "text": "元始天尊"
+        "relation": "alias"
+        "reading":
+          "kana": "げんしてんそん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
   - "id": "xy-entry-0754"
     "kind": "person"
     "headword": "上清霊宝天尊"
@@ -35315,3 +35343,577 @@
           "source_ids":
             - "xy-reference-417"
           "reason_ja": "小学館デジタル大辞泉が「しゅうこう」と直接示す。"
+  - "id": "xy-entry-1759"
+    "kind": "place"
+    "headword": "千年峰"
+    "definition_ja": "万寿山の景観を描く賦に見える峰の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2090"
+        "text": "千年峰"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんねんほう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1760"
+    "kind": "place"
+    "headword": "五福峰"
+    "definition_ja": "万寿山の景観を描く賦に見える峰の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2091"
+        "text": "五福峰"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごふくほう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1761"
+    "kind": "place"
+    "headword": "芙蓉峰"
+    "definition_ja": "万寿山の景観を描く賦に見える峰の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2092"
+        "text": "芙蓉峰"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふようほう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1762"
+    "kind": "place"
+    "headword": "万歳石"
+    "definition_ja": "万寿山の景観を描く賦に見える岩の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2093"
+        "text": "万歳石"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばんざいせき"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1763"
+    "kind": "place"
+    "headword": "虎牙石"
+    "definition_ja": "万寿山の景観を描く賦に見える岩の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2094"
+        "text": "虎牙石"
+        "relation": "preferred"
+        "reading":
+          "kana": "こがせき"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1764"
+    "kind": "place"
+    "headword": "三天石"
+    "definition_ja": "万寿山の景観を描く賦に見える岩の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2095"
+        "text": "三天石"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんてんせき"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1765"
+    "kind": "place"
+    "headword": "閬苑"
+    "definition_ja": "仙人の住む美しい苑。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2096"
+        "text": "閬苑"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろうえん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1766"
+    "kind": "place"
+    "headword": "万寿山"
+    "definition_ja": "五荘観のある仙山。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2097"
+        "text": "万寿山"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばんじゅさん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1767"
+    "kind": "place"
+    "headword": "五荘観"
+    "definition_ja": "万寿山にある道教の道観。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2098"
+        "text": "五荘観"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごそうかん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1768"
+    "kind": "person"
+    "headword": "鎮元子"
+    "definition_ja": "五荘観に住む仙人の道号。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2099"
+        "text": "鎮元子"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちんげんし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+      - "id": "xy-form-2100"
+        "text": "与世同君"
+        "relation": "alias"
+        "reading":
+          "kana": "よせいどうくん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1769"
+    "kind": "object"
+    "headword": "草還丹"
+    "definition_ja": "五荘観の霊木に実る寿命を延ばす果実。人参果とも呼ぶ。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2101"
+        "text": "草還丹"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうかんたん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+      - "id": "xy-form-2102"
+        "text": "人参果"
+        "relation": "alias"
+        "reading":
+          "kana": "にんじんか"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1770"
+    "kind": "place"
+    "headword": "上清天"
+    "definition_ja": "この回で元始天尊の講義が行われる天界の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2104"
+        "text": "上清天"
+        "relation": "preferred"
+        "reading":
+          "kana": "じょうせいてん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1771"
+    "kind": "place"
+    "headword": "弥羅宮"
+    "definition_ja": "この底本で元始天尊の講義場所とされる宮殿。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2105"
+        "text": "弥羅宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "みらきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1772"
+    "kind": "concept"
+    "headword": "混元道果"
+    "definition_ja": "宇宙の根源にかかわる道の境地・修行の成果。この回の講義題。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "本文の用例と語構成からの解釈。具体的な同定・意味の範囲は未確定。"
+    "forms":
+      - "id": "xy-form-2106"
+        "text": "混元道果"
+        "relation": "preferred"
+        "reading":
+          "kana": "こんげんどうか"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1773"
+    "kind": "person"
+    "headword": "清風"
+    "definition_ja": "鎮元子の弟子で、五荘観の留守を守る仙童。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2107"
+        "text": "清風"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいふう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1774"
+    "kind": "person"
+    "headword": "明月"
+    "definition_ja": "鎮元子の弟子で、清風と留守を守る仙童。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2108"
+        "text": "明月"
+        "relation": "preferred"
+        "reading":
+          "kana": "めいげつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1775"
+    "kind": "concept"
+    "headword": "太乙玄門"
+    "definition_ja": "仙人の道を修める道教の教門をいう。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2109"
+        "text": "太乙玄門"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいいつげんもん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1776"
+    "kind": "concept"
+    "headword": "蘭盆会"
+    "definition_ja": "鎮元子と金蝉子が会った仏教の法会。底本は蘭盆会と記す。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2110"
+        "text": "蘭盆会"
+        "relation": "preferred"
+        "reading":
+          "kana": "らんぼんえ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1777"
+    "kind": "person"
+    "headword": "元辰"
+    "definition_ja": "生年・方位などをつかさどる神々。ここでは鎮元子より下位の客として挙げられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "本文の用例と語構成からの解釈。具体的な同定・意味の範囲は未確定。"
+    "forms":
+      - "id": "xy-form-2111"
+        "text": "元辰"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1778"
+    "kind": "title"
+    "headword": "愛聖"
+    "definition_ja": "童子たちが三蔵をほめる際に用いる聖者の称。底本の表記。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "本文の用例と語構成からの解釈。具体的な同定・意味の範囲は未確定。"
+    "forms":
+      - "id": "xy-form-2112"
+        "text": "愛聖"
+        "relation": "preferred"
+        "reading":
+          "kana": "あいせい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1779"
+    "kind": "object"
+    "headword": "金撃子"
+    "definition_ja": "人参果をたたき落とすための金の棒。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2113"
+        "text": "金撃子"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんげきし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1780"
+    "kind": "object"
+    "headword": "丹盤"
+    "definition_ja": "人参果を受ける朱色の盆。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "本文の用例と語構成からの解釈。具体的な同定・意味の範囲は未確定。"
+    "forms":
+      - "id": "xy-form-2114"
+        "text": "丹盤"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんばん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1781"
+    "kind": "place"
+    "headword": "流杯亭"
+    "definition_ja": "五荘観の花園にある亭。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2115"
+        "text": "流杯亭"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうはいてい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1782"
+    "kind": "place"
+    "headword": "賞月台"
+    "definition_ja": "五荘観の花園で月を眺める台。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2116"
+        "text": "賞月台"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうげつだい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1783"
+    "kind": "term"
+    "headword": "錦巣榴"
+    "definition_ja": "花園の賦に見える、赤く咲くザクロの飾り名と解される語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "本文の用例と語構成からの解釈。具体的な同定・意味の範囲は未確定。"
+    "forms":
+      - "id": "xy-form-2117"
+        "text": "錦巣榴"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんそうりゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1784"
+    "kind": "term"
+    "headword": "繍墩草"
+    "definition_ja": "花園の賦に見える緑の草の飾り名。植物種は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "本文の用例と語構成からの解釈。具体的な同定・意味の範囲は未確定。"
+    "forms":
+      - "id": "xy-form-2118"
+        "text": "繍墩草"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅうとんそう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1785"
+    "kind": "term"
+    "headword": "碧砂蘭"
+    "definition_ja": "花園の賦に見える青々とした蘭の飾り名。植物種は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "本文の用例と語構成からの解釈。具体的な同定・意味の範囲は未確定。"
+    "forms":
+      - "id": "xy-form-2119"
+        "text": "碧砂蘭"
+        "relation": "preferred"
+        "reading":
+          "kana": "へきさらん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1786"
+    "kind": "place"
+    "headword": "牡丹亭"
+    "definition_ja": "五荘観の花園にある牡丹に囲まれた亭。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2120"
+        "text": "牡丹亭"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼたんてい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1787"
+    "kind": "term"
+    "headword": "羊頭菜"
+    "definition_ja": "菜園の詩の羊頭を菜名として残したもの。植物の同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "本文の用例と語構成からの解釈。具体的な同定・意味の範囲は未確定。"
+    "forms":
+      - "id": "xy-form-2121"
+        "text": "羊頭菜"
+        "relation": "preferred"
+        "reading":
+          "kana": "ようとうさい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1788"
+    "kind": "object"
+    "headword": "霊丹"
+    "definition_ja": "仙人の作る霊妙な丹薬。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2122"
+        "text": "霊丹"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいたん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+  - "id": "xy-entry-1789"
+    "kind": "concept"
+    "headword": "鬼仙"
+    "definition_ja": "この回では地仙より下位に置かれる仙の種別。土地神が自称する。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-418"
+      "reason_ja": "固定版第二十四回の当該語の紹介・描写に基づく。読みは日本語音訓による推定。"
+    "forms":
+      - "id": "xy-form-2123"
+        "text": "鬼仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "きせん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
