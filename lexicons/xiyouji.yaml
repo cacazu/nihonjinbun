@@ -1722,6 +1722,18 @@
     "title": "JLogos・福武国語辞典「鳥黐」"
     "url": "https://www.jlogos.com/d001/705254120.html"
     "accessed_at": "2026-10-24"
+  - "id": "xy-reference-431"
+    "title": "西遊記/第029回（中文維基文庫・固定版）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第029回&oldid=1455578"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-432"
+    "title": "教育部重編國語辭典修訂本「開路神」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=76651&q=1&word=%E9%96%8B"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-433"
+    "title": "教育部重編國語辭典修訂本「三停」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=144442&la=0&powerMode=0"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -18981,6 +18993,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+      - "id": "xy-form-2270"
+        "text": "沙長老"
+        "relation": "alias"
+        "reading":
+          "kana": "さちょうろう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
   - "id": "xy-entry-0886"
     "kind": "object"
     "headword": "宝杖"
@@ -19417,6 +19437,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+      - "id": "xy-form-2269"
+        "text": "猪長老"
+        "relation": "alias"
+        "reading":
+          "kana": "ちょちょうろう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
   - "id": "xy-entry-0903"
     "kind": "concept"
     "headword": "精霊"
@@ -37700,6 +37728,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+      - "id": "xy-form-2239"
+        "text": "黄袍郎"
+        "relation": "alias"
+        "reading":
+          "kana": "こうほうろう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
   - "id": "xy-entry-1876"
     "kind": "term"
     "headword": "槐"
@@ -37776,3 +37812,696 @@
           "source_ids":
             - "xy-reference-430"
           "reason_ja": "出典がこの表記の日本語読みを明記している。"
+  - "id": "xy-entry-1880"
+    "kind": "place"
+    "headword": "宝象国"
+    "definition_ja": "碗子山の西方にあり、百花羞の父王が治める国。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2237"
+        "text": "宝象国"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうぞうこく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1881"
+    "kind": "person"
+    "headword": "百花羞"
+    "definition_ja": "宝象国王の第三公主の幼名。黄袍怪にさらわれたと本人が明かす。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2238"
+        "text": "百花羞"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひゃっかしゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+      - "id": "xy-form-2268"
+        "text": "百花公主"
+        "relation": "alias"
+        "reading":
+          "kana": "ひゃっかこうしゅ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1882"
+    "kind": "term"
+    "headword": "南柯"
+    "definition_ja": "夢の中で栄華を得る南柯の故事にちなむ語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2240"
+        "text": "南柯"
+        "relation": "preferred"
+        "reading":
+          "kana": "なんか"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1883"
+    "kind": "object"
+    "headword": "長亭"
+    "definition_ja": "街道の十里ごとに置かれた旅人の休息所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2241"
+        "text": "長亭"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうてい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1884"
+    "kind": "object"
+    "headword": "短亭"
+    "definition_ja": "街道の五里ごとに置かれた旅人の休息所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2242"
+        "text": "短亭"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんてい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1885"
+    "kind": "term"
+    "headword": "金城湯池"
+    "definition_ja": "金属の城壁と熱湯の堀にたとえる、堅固な守り。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2243"
+        "text": "金城湯池"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんじょうとうち"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1886"
+    "kind": "place"
+    "headword": "太極殿"
+    "definition_ja": "宝象国の都市賛に挙げられる宮殿名。歴史上の建物との同一性は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2244"
+        "text": "太極殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいきょくでん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1887"
+    "kind": "place"
+    "headword": "華蓋殿"
+    "definition_ja": "宝象国の都市賛に挙げられる宮殿名。歴史上の建物との同一性は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2245"
+        "text": "華蓋殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "かがいでん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1888"
+    "kind": "place"
+    "headword": "焼香殿"
+    "definition_ja": "宝象国の都市賛に挙げられる宮殿名。歴史上の建物との同一性は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2246"
+        "text": "焼香殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうこうでん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1889"
+    "kind": "place"
+    "headword": "観文殿"
+    "definition_ja": "宝象国の都市賛に挙げられる宮殿名。歴史上の建物との同一性は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2247"
+        "text": "観文殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんぶんでん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1890"
+    "kind": "place"
+    "headword": "宣政殿"
+    "definition_ja": "宝象国の都市賛に挙げられる宮殿名。歴史上の建物との同一性は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2248"
+        "text": "宣政殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんせいでん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1891"
+    "kind": "place"
+    "headword": "延英殿"
+    "definition_ja": "宝象国の都市賛に挙げられる宮殿名。歴史上の建物との同一性は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2249"
+        "text": "延英殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "えんえいでん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1892"
+    "kind": "place"
+    "headword": "大明宮"
+    "definition_ja": "宝象国の都市賛に挙げられる宮殿名。歴史上の建物との同一性は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2250"
+        "text": "大明宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいめいきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1893"
+    "kind": "place"
+    "headword": "昭陽宮"
+    "definition_ja": "宝象国の都市賛に挙げられる宮殿名。歴史上の建物との同一性は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2251"
+        "text": "昭陽宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうようきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1894"
+    "kind": "place"
+    "headword": "長楽宮"
+    "definition_ja": "宝象国の都市賛に挙げられる宮殿名。歴史上の建物との同一性は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2252"
+        "text": "長楽宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうらくきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1895"
+    "kind": "place"
+    "headword": "華清宮"
+    "definition_ja": "宝象国の都市賛に挙げられる宮殿名。歴史上の建物との同一性は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2253"
+        "text": "華清宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "かせいきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1896"
+    "kind": "place"
+    "headword": "建章宮"
+    "definition_ja": "宝象国の都市賛に挙げられる宮殿名。歴史上の建物との同一性は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2254"
+        "text": "建章宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "けんしょうきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1897"
+    "kind": "place"
+    "headword": "未央宮"
+    "definition_ja": "宝象国の都市賛に挙げられる宮殿名。歴史上の建物との同一性は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2255"
+        "text": "未央宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "びおうきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1898"
+    "kind": "place"
+    "headword": "禁苑"
+    "definition_ja": "君主のための宮中の庭園。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2256"
+        "text": "禁苑"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんえん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1899"
+    "kind": "term"
+    "headword": "五馬"
+    "definition_ja": "五頭立ての車、またはそれに乗る地方長官を示す語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2257"
+        "text": "五馬"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごば"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1900"
+    "kind": "term"
+    "headword": "双鵰"
+    "definition_ja": "二羽の大きな猛禽。射術の巧みさを示す描写。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2258"
+        "text": "双鵰"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうちょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1901"
+    "kind": "place"
+    "headword": "洛陽橋"
+    "definition_ja": "都市のにぎわいを比べる対象として挙げられる橋。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2259"
+        "text": "洛陽橋"
+        "relation": "preferred"
+        "reading":
+          "kana": "らくようきょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1902"
+    "kind": "title"
+    "headword": "閣門大使"
+    "definition_ja": "宮門で来訪者を取り次ぐ役職。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2260"
+        "text": "閣門大使"
+        "relation": "preferred"
+        "reading":
+          "kana": "かくもんたいし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1903"
+    "kind": "title"
+    "headword": "黄門奏事官"
+    "definition_ja": "宮中で国王へ用件を取り次ぎ奏上する官人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2261"
+        "text": "黄門奏事官"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうもんそうじかん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1904"
+    "kind": "concept"
+    "headword": "三魂七魄"
+    "definition_ja": "人に宿るとされる三つの魂と七つの魄。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2262"
+        "text": "三魂七魄"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんこんしちはく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1905"
+    "kind": "object"
+    "headword": "玉璽"
+    "definition_ja": "君主が文書に押す玉の印。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2263"
+        "text": "玉璽"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくじ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1906"
+    "kind": "term"
+    "headword": "花押"
+    "definition_ja": "文書の認証に使う、図案化した署名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2264"
+        "text": "花押"
+        "relation": "preferred"
+        "reading":
+          "kana": "かおう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1907"
+    "kind": "title"
+    "headword": "翰林院大学士"
+    "definition_ja": "文書の起草や学問を担う翰林院の高官。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2265"
+        "text": "翰林院大学士"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんりんいんだいがくし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1908"
+    "kind": "place"
+    "headword": "龍鳳殿"
+    "definition_ja": "百花羞の書簡で父王の御前を示す宮殿名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2266"
+        "text": "龍鳳殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうほうでん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1909"
+    "kind": "title"
+    "headword": "公主"
+    "definition_ja": "帝王の娘に対する称号。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2267"
+        "text": "公主"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうしゅ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1910"
+    "kind": "person"
+    "headword": "開路神"
+    "definition_ja": "葬列を先導する、恐ろしい顔で体の大きな紙張りの神像。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-432"
+      "reason_ja": "教育部辞典「開路神」の出棺行列を先導する紙張り神像の語義と、本回の巨体の比喩を照合。日本語読みは未確認のまま。"
+    "forms":
+      - "id": "xy-form-2271"
+        "text": "開路神"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいろしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1911"
+    "kind": "title"
+    "headword": "鎮殿将軍"
+    "definition_ja": "宮殿を守護する将軍の称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2272"
+        "text": "鎮殿将軍"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちんでんしょうぐん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1912"
+    "kind": "object"
+    "headword": "瓜"
+    "definition_ja": "瓜のような頭部をつけた柄のある打撃武器。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2273"
+        "text": "瓜"
+        "relation": "preferred"
+        "reading":
+          "kana": "か"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1913"
+    "kind": "concept"
+    "headword": "蜃"
+    "definition_ja": "水中に住むとされる龍に似た霊獣。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2274"
+        "text": "蜃"
+        "relation": "preferred"
+        "reading":
+          "kana": "しん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1914"
+    "kind": "title"
+    "headword": "九嬪"
+    "definition_ja": "宮中の妃たちの位・集団を示す称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2275"
+        "text": "九嬪"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうひん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1915"
+    "kind": "object"
+    "headword": "爵"
+    "definition_ja": "酒を入れて勧める古い礼器。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "第29回固定本文での指示対象と一般的な漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2276"
+        "text": "爵"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゃく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1916"
+    "kind": "concept"
+    "headword": "鰲魚"
+    "definition_ja": "伝承上の大きな水の生き物。巨大な亀、または大魚として語られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+      "reason_ja": "本回は釣り針を離れた鰲魚を脱難にたとえる。動物学的種別には固定しない。"
+    "forms":
+      - "id": "xy-form-2277"
+        "text": "鰲魚"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごうぎょ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "鰲・魚の日本語漢字音による読み。この表記の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1917"
+    "kind": "term"
+    "headword": "三停"
+    "definition_ja": "本回で沙悟浄の腕の幅を表す語。具体的な幅の基準は明示されない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-431"
+        - "xy-reference-433"
+      "reason_ja": "教育部辞典には三部分・三成等の意味があるが、本句の身体寸法の基準は確定できない。三倍とは断定せず原語を残す。"
+    "forms":
+      - "id": "xy-form-2278"
+        "text": "三停"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんてい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓からの推定。この語形の日本語読みを直接示す資料は未確認。"
