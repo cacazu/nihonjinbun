@@ -1646,6 +1646,30 @@
     "title": "西遊記/第022回（中文維基文庫・固定版）"
     "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第022回&oldid=7910914"
     "accessed_at": "2026-10-24"
+  - "id": "xy-reference-412"
+    "title": "西遊記/第023回（中文維基文庫・固定版）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第023回&oldid=1512800"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-413"
+    "title": "教育部『重編國語辭典修訂本』「黄婆」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=86399&la=0&powerMode=0"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-414"
+    "title": "教育部『重編國語辭典修訂本』「比甲」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=17533&la=0&powerMode=0"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-415"
+    "title": "文化遺産オンライン「童子存星方勝形合子」"
+    "url": "https://online.bunka.go.jp/heritages/detail/504284"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-416"
+    "title": "教育部『重編國語辭典修訂本』「撒帳」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=143924&la=0&powerMode=0"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-417"
+    "title": "小学館デジタル大辞泉「周公」（コトバンク掲載）"
+    "url": "https://kotobank.jp/word/%E5%91%A8%E5%85%AC-526637"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -12438,6 +12462,14 @@
           "source_ids":
             - "xy-reference-394"
           "reason_ja": "出典に示された当該語形全体の日本語仮名を直接確認した。"
+      - "id": "xy-form-2088"
+        "text": "南海菩薩"
+        "relation": "title"
+        "reading":
+          "kana": "なんかいぼさつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
   - "id": "xy-entry-0553"
     "kind": "person"
     "headword": "恵岸行者"
@@ -19452,6 +19484,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の通常の日本語音訓、仏教語の慣用音と本文の文脈から推定。語形全体の仮名読みを直接示す資料による確認は未了。"
+      - "id": "xy-form-2069"
+        "text": "竜馬三太子"
+        "relation": "title"
+        "reading":
+          "kana": "りゅうめさんたいし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "既存の同一人物の読み「竜馬（りゅうめ）」「玉竜三太子（ぎょくりゅうさんたいし）」に合わせた語構成上の推定。"
   - "id": "xy-entry-0915"
     "kind": "object"
     "headword": "明珠"
@@ -27476,6 +27516,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と仏教語の慣用音から推定。語形全体の読みを明記する資料は未確認。"
+      - "id": "xy-form-2068"
+        "text": "九環杖"
+        "relation": "short_form"
+        "reading":
+          "kana": "きゅうかんじょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
   - "id": "xy-entry-1348"
     "kind": "place"
     "headword": "東華門"
@@ -30740,6 +30788,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "驪山の慣用音りざんと老母の音を組み合わせた推定。二次的な私設Wikiにはれいざんろうぼの例もあるが、当該名の慣用読みを確定する資料とはしない。"
+      - "id": "xy-form-2087"
+        "text": "黎山老母"
+        "relation": "variant"
+        "reading":
+          "kana": "りざんろうぼ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "同一人物の既存語形「驪山老母」の読みを用いる。底本の黎の字は変更しない。"
   - "id": "xy-entry-1519"
     "kind": "place"
     "headword": "西蕃"
@@ -34913,3 +34969,349 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+  - "id": "xy-entry-1740"
+    "kind": "concept"
+    "headword": "黄婆"
+    "definition_ja": "道教の養生・内丹の象徴語。脾の働きや、互いを結び合わせる役割に関わる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-412"
+        - "xy-reference-413"
+      "reason_ja": "教育部辞典の道教の脾液を指す語義と、本回の木母・金公・赤子と並ぶ用法を照合した。人物への具体的な対応は固定しない。"
+    "forms":
+      - "id": "xy-form-2066"
+        "text": "黄婆"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうば"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1741"
+    "kind": "concept"
+    "headword": "赤子"
+    "definition_ja": "ここでは内丹修行の詩に現れる、赤ん坊を用いた象徴語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "第二十三回固定版本文の語と文脈に基づく。歴史的な制度・物品や内丹寓意の細部には留保がある。"
+    "forms":
+      - "id": "xy-form-2067"
+        "text": "赤子"
+        "relation": "preferred"
+        "reading":
+          "kana": "せきし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1742"
+    "kind": "term"
+    "headword": "寿山福海"
+    "definition_ja": "寿命を山に、幸福を海にたとえて祝う語。ここではその意匠の吉祥画。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "第二十三回固定版本文の語と文脈に基づく。歴史的な制度・物品や内丹寓意の細部には留保がある。"
+    "forms":
+      - "id": "xy-form-2070"
+        "text": "寿山福海"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゅざんふくかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1743"
+    "kind": "object"
+    "headword": "春聯"
+    "definition_ja": "新年の祝いの対句を赤紙などに書き、門や柱の左右に貼るもの。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "第二十三回固定版本文の語と文脈に基づく。歴史的な制度・物品や内丹寓意の細部には留保がある。"
+    "forms":
+      - "id": "xy-form-2071"
+        "text": "春聯"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅんれん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1744"
+    "kind": "object"
+    "headword": "交椅"
+    "definition_ja": "脚を交差させた折り畳み式の椅子。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "第二十三回固定版本文の語と文脈に基づく。歴史的な制度・物品や内丹寓意の細部には留保がある。"
+    "forms":
+      - "id": "xy-form-2072"
+        "text": "交椅"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1745"
+    "kind": "object"
+    "headword": "比甲"
+    "definition_ja": "袖のない上着。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-414"
+      "reason_ja": "教育部辞典の「背心」という説明および襟・袖のない服という引用に基づく。"
+    "forms":
+      - "id": "xy-form-2073"
+        "text": "比甲"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひこう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1746"
+    "kind": "term"
+    "headword": "賈"
+    "definition_ja": "女主人が実家の姓として名乗る中国の姓。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "本回の「娘家姓賈」で明示される。正体や姓の寓意は初出注へ先取りしない。"
+    "forms":
+      - "id": "xy-form-2074"
+        "text": "賈"
+        "relation": "preferred"
+        "reading":
+          "kana": "か"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1747"
+    "kind": "term"
+    "headword": "莫"
+    "definition_ja": "女主人が嫁ぎ先の姓として名乗る中国の姓。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "本回の「夫家姓莫」で明示される。正体や姓の寓意は初出注へ先取りしない。"
+    "forms":
+      - "id": "xy-form-2075"
+        "text": "莫"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1748"
+    "kind": "term"
+    "headword": "丁亥"
+    "definition_ja": "十干十二支を組み合わせた年の呼び名の一つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "第二十三回固定版本文の語と文脈に基づく。歴史的な制度・物品や内丹寓意の細部には留保がある。"
+    "forms":
+      - "id": "xy-form-2076"
+        "text": "丁亥"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひのとい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1749"
+    "kind": "person"
+    "headword": "真真"
+    "definition_ja": "女主人が長女の名前として明かす呼称。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "本回で母親が娘の名を順に語る文に基づく。"
+    "forms":
+      - "id": "xy-form-2077"
+        "text": "真真"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1750"
+    "kind": "person"
+    "headword": "愛愛"
+    "definition_ja": "女主人が次女の名前として明かす呼称。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "本回で母親が娘の名を順に語る文に基づく。"
+    "forms":
+      - "id": "xy-form-2078"
+        "text": "愛愛"
+        "relation": "preferred"
+        "reading":
+          "kana": "あいあい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1751"
+    "kind": "person"
+    "headword": "憐憐"
+    "definition_ja": "女主人が末娘の名前として明かす呼称。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "本回で母親が娘の名を順に語る文に基づく。"
+    "forms":
+      - "id": "xy-form-2079"
+        "text": "憐憐"
+        "relation": "preferred"
+        "reading":
+          "kana": "れんれん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1752"
+    "kind": "term"
+    "headword": "方勝"
+    "definition_ja": "二つの菱形をつなぎ合わせた形の意匠。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-415"
+      "reason_ja": "文化遺産オンラインの東京国立博物館所蔵「童子存星方勝形合子」の解説に基づく。"
+    "forms":
+      - "id": "xy-form-2080"
+        "text": "方勝"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうしょう"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-415"
+          "reason_ja": "文化遺産オンラインの作品解説が「方勝（ほうしょう）」と直接示す。"
+  - "id": "xy-entry-1753"
+    "kind": "object"
+    "headword": "花鈿"
+    "definition_ja": "顔や髪を飾る花形の装飾。ここでの装着部位は特定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "第二十三回固定版本文の語と文脈に基づく。歴史的な制度・物品や内丹寓意の細部には留保がある。"
+    "forms":
+      - "id": "xy-form-2081"
+        "text": "花鈿"
+        "relation": "preferred"
+        "reading":
+          "kana": "かでん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1754"
+    "kind": "term"
+    "headword": "天恩"
+    "definition_ja": "暦の吉凶判断で用いられる吉神・吉日の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "第二十三回固定版本文の語と文脈に基づく。歴史的な制度・物品や内丹寓意の細部には留保がある。"
+    "forms":
+      - "id": "xy-form-2082"
+        "text": "天恩"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんおん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1755"
+    "kind": "title"
+    "headword": "陰陽師"
+    "definition_ja": "ここでは暦や吉凶を判断し、婚礼の儀式を扱う者。日本の官職としての陰陽師を意味しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "第二十三回固定版本文の語と文脈に基づく。歴史的な制度・物品や内丹寓意の細部には留保がある。"
+    "forms":
+      - "id": "xy-form-2083"
+        "text": "陰陽師"
+        "relation": "preferred"
+        "reading":
+          "kana": "いんようし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "中国の「陰陽」を業とする者という語構成から、日本の官職名の慣用読みにせず「いんようし」とした。読みの直接資料は未確認。"
+  - "id": "xy-entry-1756"
+    "kind": "term"
+    "headword": "拝堂"
+    "definition_ja": "婚礼で天地・祖先・親などに拝礼する儀式。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-412"
+      "reason_ja": "第二十三回固定版本文の語と文脈に基づく。歴史的な制度・物品や内丹寓意の細部には留保がある。"
+    "forms":
+      - "id": "xy-form-2084"
+        "text": "拝堂"
+        "relation": "preferred"
+        "reading":
+          "kana": "はいどう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1757"
+    "kind": "term"
+    "headword": "撒帳"
+    "definition_ja": "古い中国の婚礼で、新夫婦の周囲に銭や果実などをまく風習。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-416"
+      "reason_ja": "教育部辞典の婚礼習俗の説明と、本回を挙げる用例に基づく。"
+    "forms":
+      - "id": "xy-form-2085"
+        "text": "撒帳"
+        "relation": "preferred"
+        "reading":
+          "kana": "さっちょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+  - "id": "xy-entry-1758"
+    "kind": "person"
+    "headword": "周公"
+    "definition_ja": "周の政治家、周公旦。礼楽や制度を定めたとされ、ここでは婚礼の礼を指して名が挙がる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-417"
+        - "xy-reference-412"
+      "reason_ja": "小学館デジタル大辞泉の周公の経歴と礼楽・制度についての記述、本回の「周公禮」の文脈を合わせた。"
+    "forms":
+      - "id": "xy-form-2086"
+        "text": "周公"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅうこう"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-417"
+          "reason_ja": "小学館デジタル大辞泉が「しゅうこう」と直接示す。"
