@@ -231,7 +231,7 @@ lexicon:
       form_id: "stone-monkey-form"
       segment_id: "paragraph-1"
       translation_span: {start: 0, end: 2, exact: "石猿"}
-      rendered_text: "石猿（いしざる・推定）"
+      rendered_text: "石猿（いしざる）"
 ```
 
 ## 9. 進捗と全文見直し

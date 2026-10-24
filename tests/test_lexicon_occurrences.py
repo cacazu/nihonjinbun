@@ -33,6 +33,14 @@ class ChapterLexiconTests(unittest.TestCase):
     def test_valid_unicode_body_anchor(self):
         self.assertEqual([], validate_document(self.data, self.root))
 
+    def test_estimated_reading_does_not_require_body_confidence_label(self):
+        reading = self.dictionary['entries'][0]['forms'][0]['reading']
+        reading.update(status='estimated', source_ids=[], reason_ja='漢字の音からの仮の読み')
+        self.write_dictionary()
+        self.assertNotIn('推定', self.data['segments'][0]['translation_ja'])
+        self.assertEqual([], validate_document(self.data, self.root))
+        self.assertEqual('estimated', reading['status'])
+
     def test_old_document_hash_unchanged_and_new_field_is_hashed(self):
         self.assertEqual('09ff9f94c739a8d14fbc1b869e8e11101d2baadd2ba4a95583b863c1408be5b0',
                          content_hash(document()))
