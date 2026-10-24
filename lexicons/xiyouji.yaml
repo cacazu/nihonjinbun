@@ -138,6 +138,34 @@
     "title": "カサスゲ（三河の植物観察）"
     "url": "https://mikawanoyasou.org/data/kasasuge.htm"
     "accessed_at": "2026-10-24"
+  - "id": "hossu"
+    "title": "本熊毛 携帯用払子（仏具専門店 放光）"
+    "url": "https://hoko-butugu.com/SHOP/094-17-2.html"
+    "accessed_at": "2026-10-24"
+  - "id": "mohism"
+    "title": "墨家（日本大百科全書ほか）"
+    "url": "https://kotobank.jp/word/墨家-132676"
+    "accessed_at": "2026-10-24"
+  - "id": "shojinkessai"
+    "title": "精進潔斎（漢字ペディア）"
+    "url": "https://www.kanjipedia.jp/kotoba/0003916000"
+    "accessed_at": "2026-10-24"
+  - "id": "yusen"
+    "title": "湧泉（せんねん灸）"
+    "url": "https://sennenkyu.co.jp/tubo/yusen/"
+    "accessed_at": "2026-10-24"
+  - "id": "cangwu"
+    "title": "蒼梧（デジタル大辞泉）"
+    "url": "https://kotobank.jp/word/蒼梧-552183"
+    "accessed_at": "2026-10-24"
+  - "id": "lingling"
+    "title": "零陵（日本大百科全書）"
+    "url": "https://kotobank.jp/word/零陵-1608571"
+    "accessed_at": "2026-10-24"
+  - "id": "konsei-ntj"
+    "title": "混世魔王（国立劇場文化デジタルライブラリー・役名）"
+    "url": "https://www2.ntj.jac.go.jp/dglib/plays/search?class=bunraku&division=plays&iselect=%E3%81%93&istart=all&type=role"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -1093,6 +1121,14 @@
           "source_ids":
             - "seiten"
           "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+      - "id": "xy-wukong-short-form"
+        "text": "悟空"
+        "relation": "short_form"
+        "reading":
+          "kana": "ごくう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -1987,3 +2023,884 @@
           "source_ids":
             - "suge-leaves"
           "reason_ja": "資料の片仮名表記を平仮名へ転記。本文は既に片仮名で読めるため、同じ読みを重ねない。"
+  - "id": "xy-vocab-097"
+    "kind": "concept"
+    "headword": "座禅"
+    "definition_ja": "座って姿勢と心を整える仏教の修行"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-097-form"
+        "text": "座禅"
+        "relation": "preferred"
+        "reading":
+          "kana": "ざぜん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-098"
+    "kind": "term"
+    "headword": "瞑想"
+    "definition_ja": "心を静めて深く思いを集中すること"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-098-form"
+        "text": "瞑想"
+        "relation": "preferred"
+        "reading":
+          "kana": "めいそう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-099"
+    "kind": "concept"
+    "headword": "妙法"
+    "definition_ja": "奥深く優れた教えや方法"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-099-form"
+        "text": "妙法"
+        "relation": "preferred"
+        "reading":
+          "kana": "みょうほう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-100"
+    "kind": "concept"
+    "headword": "鬼神"
+    "definition_ja": "人知を超える霊や神々"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-100-form"
+        "text": "鬼神"
+        "relation": "preferred"
+        "reading":
+          "kana": "きしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-101"
+    "kind": "object"
+    "headword": "石弓"
+    "definition_ja": "仕掛けを使って矢や石を放つ弓"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-101-form"
+        "text": "石弓"
+        "relation": "preferred"
+        "reading":
+          "kana": "いしゆみ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-102"
+    "kind": "term"
+    "headword": "高座"
+    "definition_ja": "教えを説く人が座る高い席"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-102-form"
+        "text": "高座"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうざ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-103"
+    "kind": "concept"
+    "headword": "仙道"
+    "definition_ja": "仙人になるための修行の道"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-103-form"
+        "text": "仙道"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんどう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-104"
+    "kind": "object"
+    "headword": "払子"
+    "definition_ja": "柄の先に毛などを束ねた、塵や虫を払う道具"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "hossu"
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-104-form"
+        "text": "払子"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほっす"
+          "status": "verified"
+          "source_ids":
+            - "hossu"
+          "reason_ja": "品名の「払子（ほっす）」と道具の説明を確認。"
+  - "id": "xy-vocab-105"
+    "kind": "concept"
+    "headword": "九重の天"
+    "definition_ja": "幾重にも重なる高い天"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-105-form"
+        "text": "九重の天"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうちょうのてん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-106"
+    "kind": "concept"
+    "headword": "仏教"
+    "definition_ja": "仏の悟りと苦しみからの解放を説く教え"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-106-form"
+        "text": "仏教"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶっきょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-107"
+    "kind": "concept"
+    "headword": "禅"
+    "definition_ja": "心を静めて真理を悟る修行"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-107-form"
+        "text": "禅"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぜん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-108"
+    "kind": "concept"
+    "headword": "儒教"
+    "definition_ja": "孔子の教えに発する、礼と道徳を重んじる思想"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-108-form"
+        "text": "儒教"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゅきょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-109"
+    "kind": "place"
+    "headword": "爛桃山"
+    "definition_ja": "祖師の住まいの裏にある桃の山"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-109-form"
+        "text": "爛桃山"
+        "relation": "preferred"
+        "reading":
+          "kana": "らんとうざん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-110"
+    "kind": "concept"
+    "headword": "易"
+    "definition_ja": "陰と陽の組合せで変化や吉凶を判断する占い"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-110-form"
+        "text": "易"
+        "relation": "preferred"
+        "reading":
+          "kana": "えき"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-111"
+    "kind": "concept"
+    "headword": "墨家"
+    "definition_ja": "墨子に始まり、差別のない愛や倹約を説いた学派"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "mohism"
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-111-form"
+        "text": "墨家"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼくか"
+          "status": "verified"
+          "source_ids":
+            - "mohism"
+          "reason_ja": "見出しの「ぼくか」を確認。"
+  - "id": "xy-vocab-112"
+    "kind": "term"
+    "headword": "精進潔斎"
+    "definition_ja": "飲食や行動を慎んで心身を清めること"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "shojinkessai"
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-112-form"
+        "text": "精進潔斎"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうじんけっさい"
+          "status": "verified"
+          "source_ids":
+            - "shojinkessai"
+          "reason_ja": "見出しの「ショウジンケッサイ」を確認。"
+  - "id": "xy-vocab-113"
+    "kind": "object"
+    "headword": "庵"
+    "definition_ja": "修行などのためにこもる小さな住まい"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-113-form"
+        "text": "庵"
+        "relation": "preferred"
+        "reading":
+          "kana": "いおり"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-114"
+    "kind": "object"
+    "headword": "鼎"
+    "definition_ja": "薬物などを煮る、足の付いた器"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-114-form"
+        "text": "鼎"
+        "relation": "preferred"
+        "reading":
+          "kana": "かなえ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-115"
+    "kind": "term"
+    "headword": "教戒"
+    "definition_ja": "教えさとして戒めること"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-115-form"
+        "text": "教戒"
+        "relation": "preferred"
+        "reading":
+          "kana": "きょうかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-116"
+    "kind": "term"
+    "headword": "三更"
+    "definition_ja": "夜を五つに分けた第三の時間帯で、真夜中ごろ"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-116-form"
+        "text": "三更"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんこう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-117"
+    "kind": "concept"
+    "headword": "丹"
+    "definition_ja": "不老長生を求める仙術の薬や、体内で練る生命の精髄"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-117-form"
+        "text": "丹"
+        "relation": "preferred"
+        "reading":
+          "kana": "たん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-118"
+    "kind": "concept"
+    "headword": "精"
+    "definition_ja": "道教で生命の根本とされる精髄"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-118-form"
+        "text": "精"
+        "relation": "preferred"
+        "reading":
+          "kana": "せい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-119"
+    "kind": "concept"
+    "headword": "気"
+    "definition_ja": "身体や天地に巡ると考えられた生命の働き"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-119-form"
+        "text": "気"
+        "relation": "preferred"
+        "reading":
+          "kana": "き"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-120"
+    "kind": "concept"
+    "headword": "玉の兎"
+    "definition_ja": "月にすむとされる兎で、月を象徴する"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-120-form"
+        "text": "玉の兎"
+        "relation": "preferred"
+        "reading":
+          "kana": "たまのうさぎ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-121"
+    "kind": "concept"
+    "headword": "金の烏"
+    "definition_ja": "太陽にすむとされる烏で、太陽を象徴する"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-121-form"
+        "text": "金の烏"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんのからす"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-122"
+    "kind": "concept"
+    "headword": "造化"
+    "definition_ja": "天地が万物を生み育てる働き"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-122-form"
+        "text": "造化"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぞうか"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-123"
+    "kind": "concept"
+    "headword": "陰の火"
+    "definition_ja": "仙術修行者を体内から焼くという災いの火"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-123-form"
+        "text": "陰の火"
+        "relation": "preferred"
+        "reading":
+          "kana": "いんのひ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-124"
+    "kind": "term"
+    "headword": "湧泉"
+    "definition_ja": "足の裏にあるつぼ"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "yusen"
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-124-form"
+        "text": "湧泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "ゆうせん"
+          "status": "verified"
+          "source_ids":
+            - "yusen"
+          "reason_ja": "経穴名の「湧泉（ゆうせん）」を確認。"
+  - "id": "xy-vocab-125"
+    "kind": "concept"
+    "headword": "泥丸宮"
+    "definition_ja": "道教で頭の内に想定する、精神を宿す場所"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-125-form"
+        "text": "泥丸宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "でいがんきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-126"
+    "kind": "term"
+    "headword": "五臓"
+    "definition_ja": "伝統医学でいう肝・心・脾・肺・腎"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-126-form"
+        "text": "五臓"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごぞう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-127"
+    "kind": "term"
+    "headword": "四肢"
+    "definition_ja": "両手と両足"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-127-form"
+        "text": "四肢"
+        "relation": "preferred"
+        "reading":
+          "kana": "しし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-128"
+    "kind": "term"
+    "headword": "六腑"
+    "definition_ja": "伝統医学でいう胆・胃・腸・膀胱などの内臓"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-128-form"
+        "text": "六腑"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろっぷ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-129"
+    "kind": "term"
+    "headword": "五臓六腑"
+    "definition_ja": "伝統医学でいう内臓全体"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-129-form"
+        "text": "五臓六腑"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごぞうろっぷ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-130"
+    "kind": "place"
+    "headword": "北海"
+    "definition_ja": "四方の海のうち北にある海"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-130-form"
+        "text": "北海"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほっかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-131"
+    "kind": "place"
+    "headword": "蒼梧"
+    "definition_ja": "仙人の旅の行き先として挙げられる地名"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "cangwu"
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-131-form"
+        "text": "蒼梧"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうご"
+          "status": "verified"
+          "source_ids":
+            - "cangwu"
+          "reason_ja": "地名の見出し「そうご」を確認。"
+  - "id": "xy-vocab-132"
+    "kind": "place"
+    "headword": "東海"
+    "definition_ja": "四方の海のうち東にある海"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-132-form"
+        "text": "東海"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-133"
+    "kind": "place"
+    "headword": "西海"
+    "definition_ja": "四方の海のうち西にある海"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-133-form"
+        "text": "西海"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-134"
+    "kind": "place"
+    "headword": "南海"
+    "definition_ja": "四方の海のうち南にある海"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-134-form"
+        "text": "南海"
+        "relation": "preferred"
+        "reading":
+          "kana": "なんかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-135"
+    "kind": "place"
+    "headword": "零陵"
+    "definition_ja": "中国南部の古い地名で、蒼梧に関連して挙げられる土地"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "lingling"
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-135-form"
+        "text": "零陵"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいりょう"
+          "status": "verified"
+          "source_ids":
+            - "lingling"
+          "reason_ja": "地名見出しの「れいりょう」を確認。"
+  - "id": "xy-vocab-136"
+    "kind": "concept"
+    "headword": "筋斗雲"
+    "definition_ja": "宙返り一つで十万八千里を進む仙術の雲"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-136-form"
+        "text": "筋斗雲"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんとうん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-137"
+    "kind": "term"
+    "headword": "印"
+    "definition_ja": "術や祈りのため指で結ぶ決まった形"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-137-form"
+        "text": "印"
+        "relation": "preferred"
+        "reading":
+          "kana": "いん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-138"
+    "kind": "term"
+    "headword": "真言"
+    "definition_ja": "神聖な力があるとされる呪文"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-138-form"
+        "text": "真言"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんごん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-139"
+    "kind": "concept"
+    "headword": "功徳"
+    "definition_ja": "善行や修行によって得られるよい働きや報い"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-139-form"
+        "text": "功徳"
+        "relation": "preferred"
+        "reading":
+          "kana": "くどく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-140"
+    "kind": "concept"
+    "headword": "三災"
+    "definition_ja": "修行者を襲う雷・火・風の三つの災難"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-140-form"
+        "text": "三災"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんさい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-141"
+    "kind": "term"
+    "headword": "一時辰"
+    "definition_ja": "一日を十二に分けた時間の一つで、およそ二時間"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-141-form"
+        "text": "一時辰"
+        "relation": "preferred"
+        "reading":
+          "kana": "いちじしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-142"
+    "kind": "person"
+    "headword": "混世魔王"
+    "definition_ja": "花果山の猿たちを襲った妖怪の首領"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "konsei-ntj"
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-142-form"
+        "text": "混世魔王"
+        "relation": "preferred"
+        "reading":
+          "kana": "こんせいまおう"
+          "status": "verified"
+          "source_ids":
+            - "konsei-ntj"
+          "reason_ja": "役名一覧の「混世魔王（こんせいまおう）」を確認。"
+  - "id": "xy-vocab-143"
+    "kind": "concept"
+    "headword": "三界"
+    "definition_ja": "仏教で生きものの住む世界を三つに分けたもの"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-143-form"
+        "text": "三界"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんがい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-144"
+    "kind": "place"
+    "headword": "坎源山"
+    "definition_ja": "混世魔王が住む水臓洞のある山"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-144-form"
+        "text": "坎源山"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんげんざん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-145"
+    "kind": "concept"
+    "headword": "五行"
+    "definition_ja": "木・火・土・金・水の五つの働き"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-145-form"
+        "text": "五行"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごぎょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-146"
+    "kind": "place"
+    "headword": "水臓洞"
+    "definition_ja": "坎源山にある混世魔王の住まい"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-146-form"
+        "text": "水臓洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいぞうどう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+  - "id": "xy-vocab-147"
+    "kind": "term"
+    "headword": "出家"
+    "definition_ja": "俗世の暮らしを離れて宗教の修行に入ること"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids": []
+      "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
+    "forms":
+      - "id": "xy-vocab-147-form"
+        "text": "出家"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅっけ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
