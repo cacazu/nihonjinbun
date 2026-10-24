@@ -1530,6 +1530,34 @@
     "title": "弘誓（デジタル大辞泉ほか、コトバンク）"
     "url": "https://kotobank.jp/word/%E5%BC%98%E8%AA%93-55396"
     "accessed_at": "2026-10-24"
+  - "id": "xy-reference-383"
+    "title": "西遊記/第018回（中文維基文庫・固定版）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第018回&oldid=1455567"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-384"
+    "title": "小学館・平凡社辞典「蜀錦」"
+    "url": "https://kotobank.jp/word/%E8%9C%80%E9%8C%A6-534908"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-385"
+    "title": "小学館・平凡社辞典「斗」"
+    "url": "https://kotobank.jp/word/%E6%96%97-579152"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-386"
+    "title": "小学館辞典「八節」"
+    "url": "https://kotobank.jp/word/%E5%85%AB%E7%AF%80-602714"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-387"
+    "title": "武田雅哉「戦え、養猪姑娘〈韓梅梅〉！」『連環画研究』9号、2020年"
+    "url": "https://eprints.lib.hokudai.ac.jp/repo/huscap/all/98488/renkanga_9_133-159.pdf"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-388"
+    "title": "教育部『重編國語辭典修訂本』「天罡」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=53020&la=0&powerMode=0"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-389"
+    "title": "新纂浄土宗大辞典「護符」"
+    "url": "https://jodoshuzensho.jp/daijiten/index.php/%E8%AD%B7%E7%AC%A6"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -18786,6 +18814,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-form-1887"
+        "text": "釘鈀"
+        "relation": "alias"
+        "reading":
+          "kana": "ていは"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
   - "id": "xy-entry-0901"
     "kind": "person"
     "headword": "太歳"
@@ -18846,6 +18882,15 @@
           "source_ids":
             - "xy-reference-214"
           "reason_ja": "青空文庫『悟浄出世』第七節のルビ「猪悟能（ちょごのう）」を確認。"
+      - "id": "xy-form-1885"
+        "text": "猪剛鬣"
+        "relation": "alias"
+        "reading":
+          "kana": "ちょごうりょう"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-387"
+          "reason_ja": "武田雅哉「戦え、養猪姑娘〈韓梅梅〉！」本文冒頭（誌面133頁）に「猪剛鬣」へのルビ「ちょごうりょう」がある。"
   - "id": "xy-entry-0903"
     "kind": "concept"
     "headword": "精霊"
@@ -30840,6 +30885,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の構成漢字の音訓と語の構成による推定。この語形全体と指示対象に対応する明示的な日本語仮名資料は未確認。"
+      - "id": "xy-form-1873"
+        "text": "紅風洞"
+        "relation": "alias"
+        "reading":
+          "kana": "こうふうどう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
   - "id": "xy-entry-1546"
     "kind": "object"
     "headword": "錦襴袈裟"
@@ -31738,3 +31791,295 @@
           "source_ids":
             - "xy-reference-382"
           "reason_ja": "当該資料に明記された、この語形の日本語仮名を直接確認した。"
+  - "id": "xy-entry-1591"
+    "kind": "term"
+    "headword": "香楠"
+    "definition_ja": "香りのある楠木類の木。日本のクスノキと同一種とは確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-383"
+      "reason_ja": "固定原文の指示対象・行動・語構成に基づく編集上の説明。一般的な説明を含むため定義全体を直接実証済みとはしない。"
+    "forms":
+      - "id": "xy-form-1872"
+        "text": "香楠"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうなん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+  - "id": "xy-entry-1592"
+    "kind": "place"
+    "headword": "烏斯蔵国"
+    "definition_ja": "高老荘のある国。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-383"
+      "reason_ja": "固定原文の指示対象・行動・語構成に基づく編集上の説明。一般的な説明を含むため定義全体を直接実証済みとはしない。"
+    "forms":
+      - "id": "xy-form-1874"
+        "text": "烏斯蔵国"
+        "relation": "preferred"
+        "reading":
+          "kana": "うしぞうこく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+  - "id": "xy-entry-1593"
+    "kind": "place"
+    "headword": "高老荘"
+    "definition_ja": "高姓の家が多く住み、高太公の家がある村。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-383"
+      "reason_ja": "固定原文の指示対象・行動・語構成に基づく編集上の説明。一般的な説明を含むため定義全体を直接実証済みとはしない。"
+    "forms":
+      - "id": "xy-form-1875"
+        "text": "高老荘"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうろうそう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+  - "id": "xy-entry-1594"
+    "kind": "person"
+    "headword": "高太公"
+    "definition_ja": "高老荘に住む家の主人で、香蘭・玉蘭・翠蘭の父。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-383"
+      "reason_ja": "固定原文の指示対象・行動・語構成に基づく編集上の説明。一般的な説明を含むため定義全体を直接実証済みとはしない。"
+    "forms":
+      - "id": "xy-form-1876"
+        "text": "高太公"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうたいこう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+  - "id": "xy-entry-1595"
+    "kind": "person"
+    "headword": "高才"
+    "definition_ja": "高太公に仕え、妖怪を降す法師を探す使用人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-383"
+      "reason_ja": "固定原文の指示対象・行動・語構成に基づく編集上の説明。一般的な説明を含むため定義全体を直接実証済みとはしない。"
+    "forms":
+      - "id": "xy-form-1877"
+        "text": "高才"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうさい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+  - "id": "xy-entry-1596"
+    "kind": "object"
+    "headword": "蜀錦"
+    "definition_ja": "中国の蜀、現在の四川で産する錦織物。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-384"
+      "reason_ja": "同ページの世界大百科事典「蜀江錦」の説明が、蜀（四川）産の錦織物を蜀錦とする。"
+    "forms":
+      - "id": "xy-form-1878"
+        "text": "蜀錦"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょっきん"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-384"
+          "reason_ja": "デジタル大辞泉の見出しが「しょっきん」を明記する。"
+  - "id": "xy-entry-1597"
+    "kind": "person"
+    "headword": "香蘭"
+    "definition_ja": "高太公の長女。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-383"
+      "reason_ja": "固定原文の指示対象・行動・語構成に基づく編集上の説明。一般的な説明を含むため定義全体を直接実証済みとはしない。"
+    "forms":
+      - "id": "xy-form-1879"
+        "text": "香蘭"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうらん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+  - "id": "xy-entry-1598"
+    "kind": "person"
+    "headword": "玉蘭"
+    "definition_ja": "高太公の次女。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-383"
+      "reason_ja": "固定原文の指示対象・行動・語構成に基づく編集上の説明。一般的な説明を含むため定義全体を直接実証済みとはしない。"
+    "forms":
+      - "id": "xy-form-1880"
+        "text": "玉蘭"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくらん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+  - "id": "xy-entry-1599"
+    "kind": "person"
+    "headword": "翠蘭"
+    "definition_ja": "高太公の三女で、猪剛鬣に妻とされている娘。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-383"
+      "reason_ja": "固定原文の指示対象・行動・語構成に基づく編集上の説明。一般的な説明を含むため定義全体を直接実証済みとはしない。"
+    "forms":
+      - "id": "xy-form-1881"
+        "text": "翠蘭"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいらん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+  - "id": "xy-entry-1600"
+    "kind": "term"
+    "headword": "斗"
+    "definition_ja": "穀物などの容量を量る単位で、通常は十升。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-385"
+      "reason_ja": "同ページの普及版字通が穀量を量る単位として十升と説明する。"
+    "forms":
+      - "id": "xy-form-1882"
+        "text": "斗"
+        "relation": "preferred"
+        "reading":
+          "kana": "と"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-385"
+          "reason_ja": "デジタル大辞泉と精選版日本国語大辞典が容量単位の「斗」の読みを「と」と明記する。"
+  - "id": "xy-entry-1601"
+    "kind": "term"
+    "headword": "小跌"
+    "definition_ja": "相手を投げ倒す技を指す語。現代武術の特定の技との対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-383"
+      "reason_ja": "固定原文の指示対象・行動・語構成に基づく編集上の説明。一般的な説明を含むため定義全体を直接実証済みとはしない。"
+    "forms":
+      - "id": "xy-form-1883"
+        "text": "小跌"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうてつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+  - "id": "xy-entry-1602"
+    "kind": "term"
+    "headword": "八節"
+    "definition_ja": "立春・春分・立夏・夏至・立秋・秋分・立冬・冬至という一年の八つの節目。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-386"
+      "reason_ja": "デジタル大辞泉・精選版日本国語大辞典が一年の八つの節目とその内訳を示す。"
+    "forms":
+      - "id": "xy-form-1884"
+        "text": "八節"
+        "relation": "preferred"
+        "reading":
+          "kana": "はっせつ"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-386"
+          "reason_ja": "デジタル大辞泉の季節の節目をいう語義に「はっせつ」と明記する。"
+  - "id": "xy-entry-1603"
+    "kind": "concept"
+    "headword": "天罡"
+    "definition_ja": "道教でいう三十六の天罡に対応する数。変化の術では三十六種を表す。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-388"
+      "reason_ja": "教育部辞典が三十六天罡と七十二地煞の対応を説明し、三十六般の変化をいう原典の用例を挙げる。"
+    "forms":
+      - "id": "xy-form-1886"
+        "text": "天罡"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんこう"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-389"
+          "reason_ja": "新纂浄土宗大辞典「護符」が「天罡」に「てんこう」と仮名を添える。"
+  - "id": "xy-entry-1604"
+    "kind": "person"
+    "headword": "九天蕩魔祖師"
+    "definition_ja": "魔を退治する天上の祖師として呼ばれる神。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-383"
+      "reason_ja": "固定原文の指示対象・行動・語構成に基づく編集上の説明。一般的な説明を含むため定義全体を直接実証済みとはしない。"
+    "forms":
+      - "id": "xy-form-1888"
+        "text": "九天蕩魔祖師"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうてんとうまそし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+  - "id": "xy-entry-1605"
+    "kind": "place"
+    "headword": "斗牛宮"
+    "definition_ja": "斗宿・牛宿に結びつく天上の宮をいう呼び方。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-383"
+      "reason_ja": "固定原文の指示対象・行動・語構成に基づく編集上の説明。一般的な説明を含むため定義全体を直接実証済みとはしない。"
+    "forms":
+      - "id": "xy-form-1889"
+        "text": "斗牛宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "とぎゅうきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
+  - "id": "xy-entry-1606"
+    "kind": "place"
+    "headword": "枉死獄"
+    "definition_ja": "非業の死を遂げた者に関わる、冥界の獄の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-383"
+      "reason_ja": "固定原文の指示対象・行動・語構成に基づく編集上の説明。一般的な説明を含むため定義全体を直接実証済みとはしない。"
+    "forms":
+      - "id": "xy-form-1890"
+        "text": "枉死獄"
+        "relation": "preferred"
+        "reading":
+          "kana": "おうしごく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "漢字の日本語音訓と語構成からの推定。この語形全体と指示対象に対応する直接の日本語仮名資料は未確認。"
