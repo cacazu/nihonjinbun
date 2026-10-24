@@ -1690,6 +1690,10 @@
     "title": "漢字辞典オンライン「鋘」・熟語「錕鋘（こんご）」"
     "url": "https://kanji.jitenon.jp/kanjip/7643"
     "accessed_at": "2026-10-24"
+  - "id": "xy-reference-423"
+    "title": "西遊記/第027回（中文維基文庫・固定版）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第027回&oldid=1455576"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -9144,6 +9148,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-form-2200"
+        "text": "歩雲履"
+        "relation": "alias"
+        "reading":
+          "kana": "ほうんり"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "各漢字の日本語音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
   - "id": "xy-entry-0373"
     "kind": "object"
     "headword": "磬"
@@ -25890,6 +25902,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "語形「阿鼻獄」の構成漢字の通常の日本語音により「あびごく」と推定。語全体の読みを直接示す信頼できる日本語資料は今回未確認。"
+      - "id": "xy-form-2205"
+        "text": "阿鼻地獄"
+        "relation": "alias"
+        "reading":
+          "kana": "あびじごく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "各漢字の日本語音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
   - "id": "xy-entry-1261"
     "kind": "place"
     "headword": "秤杆獄"
@@ -37091,3 +37111,129 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓・既存呼称と語構成による推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1848"
+    "kind": "place"
+    "headword": "白虎嶺"
+    "definition_ja": "三蔵一行が通る、妖怪の住む山。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-423"
+      "reason_ja": "固定版の当該場面の用法と前後関係に基づく説明。"
+    "forms":
+      - "id": "xy-form-2197"
+        "text": "白虎嶺"
+        "relation": "preferred"
+        "reading":
+          "kana": "びゃっこれい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "各漢字の日本語音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1849"
+    "kind": "concept"
+    "headword": "解屍法"
+    "definition_ja": "偽の死体を残して霊を逃がす妖怪の術。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-423"
+      "reason_ja": "固定版の当該場面の用法と前後関係に基づく説明。"
+    "forms":
+      - "id": "xy-form-2198"
+        "text": "解屍法"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいしほう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "各漢字の日本語音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1850"
+    "kind": "object"
+    "headword": "紫金冠"
+    "definition_ja": "紫がかった上質の金で作った冠。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-423"
+      "reason_ja": "固定版の当該場面の用法と前後関係に基づく説明。"
+    "forms":
+      - "id": "xy-form-2199"
+        "text": "紫金冠"
+        "relation": "preferred"
+        "reading":
+          "kana": "しきんかん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "各漢字の日本語音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1851"
+    "kind": "concept"
+    "headword": "鬆箍児呪"
+    "definition_ja": "頭の輪を緩めるために悟空が唱えるよう求めた呪文。三蔵はそのような呪文を知らないと答える。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-423"
+      "reason_ja": "固定版の当該場面の用法と前後関係に基づく説明。"
+    "forms":
+      - "id": "xy-form-2201"
+        "text": "鬆箍児呪"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうこじじゅ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "各漢字の日本語音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1852"
+    "kind": "person"
+    "headword": "彭祖"
+    "definition_ja": "中国の伝説における長寿の人物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-423"
+      "reason_ja": "固定版の当該場面の用法と前後関係に基づく説明。"
+    "forms":
+      - "id": "xy-form-2202"
+        "text": "彭祖"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうそ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "各漢字の日本語音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1853"
+    "kind": "term"
+    "headword": "駅站"
+    "definition_ja": "宿駅で人馬・物資の継立てを行う交通施設。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-423"
+      "reason_ja": "固定版の当該場面の用法と前後関係に基づく説明。"
+    "forms":
+      - "id": "xy-form-2203"
+        "text": "駅站"
+        "relation": "preferred"
+        "reading":
+          "kana": "えきたん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "各漢字の日本語音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1854"
+    "kind": "person"
+    "headword": "白骨夫人"
+    "definition_ja": "悟空が倒した妖怪の背骨に記されている名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-423"
+      "reason_ja": "固定版の当該場面の用法と前後関係に基づく説明。"
+    "forms":
+      - "id": "xy-form-2204"
+        "text": "白骨夫人"
+        "relation": "preferred"
+        "reading":
+          "kana": "はっこつふじん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "各漢字の日本語音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
