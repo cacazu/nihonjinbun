@@ -76,11 +76,15 @@ def render_text(text, refs, field, note_numbers):
     return "".join(result)
 
 
-def render_segment(segment, refs, note_numbers):
+def render_segment(segment, refs, note_numbers, occurrences=()):
     tag = "h1" if segment["kind"] == "heading" else "div"
     japanese = render_text(segment["translation_ja"], refs, "translation_span", note_numbers)
+    glosses = "".join(f'<div>{esc(item["translation_span"]["exact"])}：{esc(item["gloss_ja"])}</div>'
+                      for item in sorted(occurrences, key=lambda item: item["translation_span"]["start"])
+                      if "gloss_ja" in item)
+    glosses = f'<div class="paragraph-glosses" lang="ja">{glosses}</div>' if glosses else ""
     return (f'<section class="segment {esc(segment["kind"])}" id="{esc(segment["id"])}">'
-            f'<{tag} class="story-text translation" lang="ja">{japanese}</{tag}></section>')
+            f'<{tag} class="story-text translation" lang="ja">{japanese}</{tag}>{glosses}</section>')
 
 
 def render_notes(data, refs_by_note, note_numbers):
@@ -156,8 +160,11 @@ def render_chapter(data, number):
             raise ValueError(f'Unsupported reference target: {ref["id"]}')
         by_segment[ref["from"]["segment_id"]].append(ref)
         by_note[ref["to"]["id"]].append(ref)
+    occurrences = defaultdict(list)
+    for item in data.get("lexicon", {}).get("first_occurrences", []):
+        occurrences[item["segment_id"]].append(item)
     body_segments = [s for s in data["segments"] if s["kind"] != "note_body"]
-    body = "\n".join(render_segment(s, by_segment[s["id"]], note_numbers) for s in body_segments)
+    body = "\n".join(render_segment(s, by_segment[s["id"]], note_numbers, occurrences[s["id"]]) for s in body_segments)
     content = (f'{chapter_navigation(number)}<article id="reading" class="reading-body">{body}</article>'
                f'{render_annotations(data, by_note, note_numbers)}{chapter_navigation(number)}')
     return page_shell(data["metadata"]["title_ja"], content)

@@ -106,6 +106,26 @@ class ChapterLexiconTests(unittest.TestCase):
         occurrence.update(translation_span={'start': 0, 'end': 3, 'exact': 'レイシ'}, rendered_text='レイシ')
         self.assertEqual([], validate_document(self.data, self.root))
 
+    def test_separate_gloss_is_optional_validated_and_hashed(self):
+        occurrence = self.data['lexicon']['first_occurrences'][0]
+        self.data['segments'][0]['translation_ja'] = '😀石猿（せきえん）は進んだ。'
+        occurrence['rendered_text'] = '石猿（せきえん）'
+        without = content_hash(self.data)
+        self.assertEqual([], validate_document(self.data, self.root))
+        occurrence['gloss_ja'] = '石から生まれた猿'
+        self.assertEqual([], validate_document(self.data, self.root))
+        self.assertNotEqual(without, content_hash(self.data))
+        occurrence['rendered_text'] = '石猿（せきえん。石から生まれた猿）'
+        self.data['segments'][0]['translation_ja'] = '😀石猿（せきえん。石から生まれた猿）は進んだ。'
+        self.assertTrue(validate_document(self.data, self.root))
+        occurrence['rendered_text'] = '石猿（せきえん）'
+        self.data['segments'][0]['translation_ja'] = '😀石猿（せきえん）は進んだ。'
+        for bad in ('', ' 　', None, [], 1):
+            occurrence['gloss_ja'] = bad
+            self.assertTrue(validate_document(self.data, self.root))
+        del occurrence['gloss_ja']
+        self.assertEqual(without, content_hash(self.data))
+
     def test_paths_id_mismatch_and_symlink_escape_rejected(self):
         for path in ('../xiyouji.yaml', '/tmp/xiyouji.yaml', 'lexicons/../xiyouji.yaml', 'lexicons/other.yaml'):
             bad = copy.deepcopy(self.data); bad['lexicon']['file'] = path

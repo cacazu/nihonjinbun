@@ -157,6 +157,14 @@ def validate_lexicon_occurrences(data, repo_root):
         rendered = occurrence['rendered_text']
         if not rendered.startswith(form['text']) or text[start:start + len(rendered)] != rendered:
             errors.append(f'{label}: rendered_text does not match body')
+        if 'gloss_ja' in occurrence:
+            # Separate glosses must not also be duplicated inside the body reading.
+            suffix = rendered[len(form['text']):]
+            kana_only = re.fullmatch(r'[ぁ-ゖァ-ヺー・ 　]+', form['text'])
+            reading = form['reading']['kana']
+            allowed = ('',) if kana_only else (f'（{reading}）', f'({reading})')
+            if suffix not in allowed:
+                errors.append(f'{label}: separate gloss requires reading-only rendered_text')
         # Kana-only spellings are already readable; do not duplicate their reading.
         if not re.fullmatch(r'[ぁ-ゖァ-ヺー・ 　]+', form['text']):
             suffix = rendered[len(form['text']):]

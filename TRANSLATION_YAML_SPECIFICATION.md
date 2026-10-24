@@ -214,7 +214,7 @@ ProvenanceはJSON互換の記録用マッピング。元原稿のリポジトリ
 
 `dictionary_id` は英数字開始で英数字・`_`・`-` のみ。`file` はリポジトリルート相対で厳密に `lexicons/<dictionary_id>.yaml`。絶対パス、`..`、URL、辞書ディレクトリ外へ解決されるシンボリックリンクは不可。参照先の `dictionary_id` が一致し、参照するentryとformが存在することを検証する。辞書全体の語彙・出典の検証は辞書専用schemaと検証器で行う。
 
-LexiconOccurrenceの必須項目は `entry_id`、`form_id`、`segment_id`、`translation_span: Span`、`rendered_text: string`。`translation_span` は `translation_ja` 中の**語そのもの**を指し、`exact` は辞書formの `text` と完全一致する。`rendered_text` は同じstartから始まる語＋括弧付き読み・説明の実文字列。仮名のみの表記は同じ読みを重ねず、語のみ、または語＋説明を記録できる。
+LexiconOccurrenceの必須項目は `entry_id`、`form_id`、`segment_id`、`translation_span: Span`、`rendered_text: string`。`translation_span` は `translation_ja` 中の**語そのもの**を指し、`exact` は辞書formの `text` と完全一致する。`rendered_text` は同じstartから始まる語＋括弧付き読みの実文字列。仮名のみの表記は同じ読みを重ねず、語のみを記録できる。省略可能な `gloss_ja: string` は、その回で採用した意味説明（空白のみ不可）。本文の自然な説明文とは分離し、同じSegmentの本文末尾に `語：説明` として初出位置順に表示する。詩は改行を保った全体の後、会話は発言者ラベルと発話を保った段落の後に置き、章末には集約しない。読みだけの初出には意味を新規追加しない。辞書は共通の語義の正本、gloss_jaは採用した説明の記録であり、辞書の改訂だけで既存の説明表示を変更しない。省略されたgloss_jaをハッシュ計算時に補わない。
 
 配列は `segments` 順、同一segment内はstart順。各formについて一原稿一件。人が文脈を読んで選んだ初出を記録する。地の文・台詞・発言者名・詩を含み、回題・見出し・注本文は除外する。長い別名の一部や説明中の同じ文字列を、機械検索で独立した初出とみなさない。検証器は参照先・順序・文字範囲・本文表示を確認するが、語の網羅性と文脈上の初出判断は人の確認を要する。
 

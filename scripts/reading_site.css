@@ -11,6 +11,7 @@ h1{margin:0 0 2.5rem}
 .story-text{font-family:"Yu Mincho","Hiragino Mincho ProN",serif;font-size:1.125rem;line-height:2.1;white-space:pre-wrap;line-break:strict}
 h1.story-text{font-size:1.5rem;line-height:1.8}
 .verse .story-text{border-left:2px solid #c5cdbe;padding-left:1.25rem}
+.paragraph-glosses{margin-top:.65rem;color:#58605b;font-size:.875rem;line-height:1.8}
 .note-ref{text-decoration-style:dotted}
 .note-ref::after{content:attr(data-note);vertical-align:super;font-size:.65em;line-height:0;margin-left:2px}
 .apparatus{margin-top:3rem;padding-top:1rem;border-top:1px solid #d9dcd2;line-height:1.9;font-size:.9rem}
