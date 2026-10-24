@@ -1638,6 +1638,10 @@
     "title": "日本漢字能力検定協会・漢字ペディア「梭」"
     "url": "https://www.kanjipedia.jp/kotoba/0002470500"
     "accessed_at": "2026-10-24"
+  - "id": "xy-reference-410"
+    "title": "西遊記/第021回（中文維基文庫・固定版）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第021回&oldid=2609807"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -2715,6 +2719,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成からの推定。当該表記全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-form-2025"
+        "text": "孫悟空行者"
+        "relation": "alias"
+        "reading":
+          "kana": "そんごくうぎょうじゃ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -6845,6 +6857,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-form-2022"
+        "text": "李長庚"
+        "relation": "alias"
+        "reading":
+          "kana": "りちょうこう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
   - "id": "xy-entry-0251"
     "kind": "term"
     "headword": "帰順"
@@ -12287,6 +12307,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と仏教語の慣用音から推定。語形全体の読みを明記する資料は未確認。"
+      - "id": "xy-form-2011"
+        "text": "普陀山"
+        "relation": "short_form"
+        "reading":
+          "kana": "ふださん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
   - "id": "xy-entry-0551"
     "kind": "concept"
     "headword": "大慈大悲"
@@ -12924,7 +12952,7 @@
     "definition_evidence":
       "status": "estimated"
       "source_ids": []
-      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。"
+      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。 第二十一回の別表記「顕聖郎」を二郎真君の称号とみなす同定は文脈に基づく解釈であり、直接の典拠による確定ではない。"
     "forms":
       - "id": "xy-form-0662"
         "text": "顕聖二郎真君"
@@ -13028,6 +13056,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-form-2000"
+        "text": "顕聖郎"
+        "relation": "title"
+        "reading":
+          "kana": "けんせいろう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
   - "id": "xy-entry-0582"
     "kind": "place"
     "headword": "灌洲"
@@ -29963,6 +29999,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の通常の日本語音訓、仏教語の慣用音と本文の文脈から推定。語形全体の仮名読みを直接示す資料による確認は未了。"
+      - "id": "xy-form-2018"
+        "text": "護法伽藍"
+        "relation": "alias"
+        "reading":
+          "kana": "ごほうがらん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
   - "id": "xy-entry-1483"
     "kind": "person"
     "headword": "金頭掲諦"
@@ -33169,7 +33213,7 @@
       "status": "estimated"
       "source_ids":
         - "xy-reference-390"
-      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。"
+      "reason_ja": "固定原文の指示対象・行動・語構成と一般的な語義を照合した編集上の説明。名称や行動を示す原文だけで定義全体が実証されたとは扱わない。 第二十一回の別表記「般若波羅」を般若波羅蜜多の省略形とみなす点は文脈に基づく解釈であり、直接の典拠による確定ではない。"
     "forms":
       - "id": "xy-form-1955"
         "text": "般若波羅蜜多"
@@ -33179,6 +33223,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-form-2027"
+        "text": "般若波羅"
+        "relation": "short_form"
+        "reading":
+          "kana": "はんにゃはら"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
   - "id": "xy-entry-1653"
     "kind": "person"
     "headword": "舎利子"
@@ -33587,6 +33639,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成による推定。語形全体の日本語読みを示す信頼できる資料による直接確認はできていない。"
+      - "id": "xy-form-2026"
+        "text": "黄風山"
+        "relation": "alias"
+        "reading":
+          "kana": "こうふうざん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
   - "id": "xy-entry-1675"
     "kind": "term"
     "headword": "五爻"
@@ -33887,3 +33947,405 @@
           "source_ids":
             - "xy-reference-409"
           "reason_ja": "資料に当該語形全体の日本語仮名が直接示される。"
+  - "id": "xy-entry-1691"
+    "kind": "term"
+    "headword": "烏竜掠地"
+    "definition_ja": "悟空が叉を払いのけるときに使う棒術の構えの名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2001"
+        "text": "烏竜掠地"
+        "relation": "preferred"
+        "reading":
+          "kana": "うりゅうりゃくち"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1692"
+    "kind": "concept"
+    "headword": "身外身"
+    "definition_ja": "自分の毛を多数の分身に変える悟空の術。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2002"
+        "text": "身外身"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんがいしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1693"
+    "kind": "place"
+    "headword": "湘江"
+    "definition_ja": "黄風の詩に現れる川の名。中国の湖南を流れる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "本文の川名と一般的な地理名称に基づく。"
+    "forms":
+      - "id": "xy-form-2003"
+        "text": "湘江"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうこう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1694"
+    "kind": "title"
+    "headword": "五百羅漢"
+    "definition_ja": "黄風の詩で騒ぎ立てる五百人の羅漢。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2004"
+        "text": "五百羅漢"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごひゃくらかん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1695"
+    "kind": "person"
+    "headword": "文殊"
+    "definition_ja": "黄風の詩で青毛の獅子を失う菩薩。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2005"
+        "text": "文殊"
+        "relation": "preferred"
+        "reading":
+          "kana": "もんじゅ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1696"
+    "kind": "person"
+    "headword": "普賢"
+    "definition_ja": "黄風の詩で白象を見失う菩薩。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2006"
+        "text": "普賢"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふげん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1697"
+    "kind": "person"
+    "headword": "真武"
+    "definition_ja": "黄風の詩に亀と蛇を従える神として現れる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2007"
+        "text": "真武"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんぶ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1698"
+    "kind": "person"
+    "headword": "梓橦"
+    "definition_ja": "黄風の詩で騾馬とともに現れる神名。梓潼帝君を指すとみられるが、底本の橦の字を保持する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2008"
+        "text": "梓橦"
+        "relation": "preferred"
+        "reading":
+          "kana": "しとう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1699"
+    "kind": "place"
+    "headword": "灌州城"
+    "definition_ja": "黄風の詩で二郎真君が見失う城。底本の灌州表記を保持する。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2009"
+        "text": "灌州城"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんしゅうじょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1700"
+    "kind": "place"
+    "headword": "趙州"
+    "definition_ja": "黄風の詩で石橋が崩れる地名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2010"
+        "text": "趙州"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうしゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1701"
+    "kind": "term"
+    "headword": "夾脳風"
+    "definition_ja": "八戒が風の名と取り違えて挙げる古い病名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2012"
+        "text": "夾脳風"
+        "relation": "preferred"
+        "reading":
+          "kana": "きょうのうふう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1702"
+    "kind": "term"
+    "headword": "羊耳風"
+    "definition_ja": "八戒が風の名と取り違えて挙げる古い病名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2013"
+        "text": "羊耳風"
+        "relation": "preferred"
+        "reading":
+          "kana": "ようじふう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1703"
+    "kind": "term"
+    "headword": "大麻風"
+    "definition_ja": "八戒が風の名と取り違えて挙げる古い病名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2014"
+        "text": "大麻風"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいまふう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1704"
+    "kind": "term"
+    "headword": "偏正頭風"
+    "definition_ja": "八戒が風の名と取り違えて挙げる、頭痛に関係する古い病名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2015"
+        "text": "偏正頭風"
+        "relation": "preferred"
+        "reading":
+          "kana": "へんせいずふう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1705"
+    "kind": "concept"
+    "headword": "三昧神風"
+    "definition_ja": "黄風怪が起こす、天地を暗くし岩を裂く強烈な風。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2016"
+        "text": "三昧神風"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんまいしんぷう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1706"
+    "kind": "object"
+    "headword": "三花九子膏"
+    "definition_ja": "宿の老人が悟空の目にさす軟膏状の薬。風による目の病を治すと説明される。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2017"
+        "text": "三花九子膏"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんかきゅうしこう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1707"
+    "kind": "person"
+    "headword": "霊吉菩薩"
+    "definition_ja": "黄風怪の風を鎮めることができると語られる菩薩。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2019"
+        "text": "霊吉菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいきつぼさつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+      - "id": "xy-form-2030"
+        "text": "霊吉"
+        "relation": "short_form"
+        "reading":
+          "kana": "れいきつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "霊吉菩薩の略称であり既存の日本語漢字音に基づく。短称そのものの読みの直接資料は未確認。"
+  - "id": "xy-entry-1708"
+    "kind": "place"
+    "headword": "小須弥山"
+    "definition_ja": "霊吉菩薩が経を説く道場のある山。この回では須弥山とも略称される。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2020"
+        "text": "小須弥山"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうしゅみせん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+      - "id": "xy-form-2021"
+        "text": "須弥山"
+        "relation": "short_form"
+        "reading":
+          "kana": "しゅみせん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1709"
+    "kind": "object"
+    "headword": "飛竜杖"
+    "definition_ja": "霊吉菩薩が仏から授かった杖。飛竜宝杖とも呼ばれる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2023"
+        "text": "飛竜杖"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひりゅうじょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+      - "id": "xy-form-2024"
+        "text": "飛竜宝杖"
+        "relation": "alias"
+        "reading":
+          "kana": "ひりゅうほうじょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1710"
+    "kind": "object"
+    "headword": "定風丹"
+    "definition_ja": "如来が霊吉菩薩に授けた風を鎮める丹薬。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2028"
+        "text": "定風丹"
+        "relation": "preferred"
+        "reading":
+          "kana": "ていふうたん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+  - "id": "xy-entry-1711"
+    "kind": "term"
+    "headword": "貂鼠"
+    "definition_ja": "黄風怪の本体を表す底本の動物名。黄色い毛を持ち、本文では後に鼠とも呼ぶ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-410"
+      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+    "forms":
+      - "id": "xy-form-2029"
+        "text": "貂鼠"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうそ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
