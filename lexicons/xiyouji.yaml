@@ -1,0 +1,1989 @@
+"schema_version": "1.0"
+"dictionary_id": "xiyouji"
+"title_ja": "西遊記 読みと意味の辞書"
+"sources":
+  - "id": "banko"
+    "title": "盤古（精選版日本国語大辞典ほか）"
+    "url": "https://kotobank.jp/word/盤古-117995"
+    "accessed_at": "2026-10-24"
+  - "id": "shaoyong"
+    "title": "家傳邵康節先生心易卦數（慶應義塾）"
+    "url": "https://objecthub.keio.ac.jp/ja/object/11955"
+    "accessed_at": "2026-10-24"
+  - "id": "shiyakuden"
+    "title": "唐三藏西遊釋厄傳（CiNii Books）"
+    "url": "https://ci.nii.ac.jp/ncid/BN0774115X"
+    "accessed_at": "2026-10-24"
+  - "id": "sanko"
+    "title": "三皇五帝（日本大百科全書ほか）"
+    "url": "https://kotobank.jp/word/三皇五帝-70649"
+    "accessed_at": "2026-10-24"
+  - "id": "huangting"
+    "title": "黄庭経（文化遺産オンライン）"
+    "url": "https://online.bunka.go.jp/heritages/detail/401497"
+    "accessed_at": "2026-10-24"
+  - "id": "huangting-alt"
+    "title": "黄庭経（日本大百科全書ほか）"
+    "url": "https://kotobank.jp/word/黄庭経-62790"
+    "accessed_at": "2026-10-24"
+  - "id": "subodai"
+    "title": "須菩提像（興福寺）"
+    "url": "https://www.kohfukuji.com/property/b-0020/"
+    "accessed_at": "2026-10-24"
+  - "id": "shunpu"
+    "title": "順風耳（文化遺産オンライン）"
+    "url": "https://api.online.bunka.go.jp/heritages/detail/482182"
+    "accessed_at": "2026-10-24"
+  - "id": "senrigan"
+    "title": "雷震（青森ねぶた祭公式）"
+    "url": "https://www.nebuta.jp/archive/nebuta/2005jr.html"
+    "accessed_at": "2026-10-24"
+  - "id": "gyokko"
+    "title": "玉皇大帝（高雄三鳳宮、日本語）"
+    "url": "https://sunfong.org.tw/?act=menuinfo&cmd=detail&mi_id=20220721003&ml_id=20220720003"
+    "accessed_at": "2026-10-24"
+  - "id": "seiten"
+    "title": "孫悟空 天界で大暴れ（文化芸術による子供育成推進事業）"
+    "url": "https://www.kodomogeijutsu.go.jp/junkai/dl/program/r04/d53.pdf"
+    "accessed_at": "2026-10-24"
+  - "id": "mantei"
+    "title": "滿庭芳（中國哲學書電子化計劃）"
+    "url": "https://ctext.org/dictionary.pl?char=%E6%BB%BF%E5%BA%AD%E8%8A%B3&if=en"
+    "accessed_at": "2026-10-24"
+  - "id": "yinyang"
+    "title": "陰陽（デジタル大辞泉）"
+    "url": "https://kotobank.jp/word/陰陽-438095"
+    "accessed_at": "2026-10-24"
+  - "id": "eki"
+    "title": "易（デジタル大辞泉）"
+    "url": "https://kotobank.jp/word/易-36156"
+    "accessed_at": "2026-10-24"
+  - "id": "phoenix"
+    "title": "鳳凰（日本大百科全書ほか）"
+    "url": "https://kotobank.jp/word/鳳凰-131802"
+    "accessed_at": "2026-10-24"
+  - "id": "kirin"
+    "title": "麒麟（日本大百科全書ほか）"
+    "url": "https://kotobank.jp/word/麒麟-480476"
+    "accessed_at": "2026-10-24"
+  - "id": "enma"
+    "title": "閻魔（精選版日本国語大辞典ほか）"
+    "url": "https://kotobank.jp/word/閻魔-448212"
+    "accessed_at": "2026-10-24"
+  - "id": "enma-dai"
+    "title": "閻魔大王（国際日本文化研究センター）"
+    "url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiDB3/youkai_card.cgi?ID=2190170"
+    "accessed_at": "2026-10-24"
+  - "id": "bosatsu"
+    "title": "菩薩（デジタル大辞泉ほか）"
+    "url": "https://kotobank.jp/word/菩薩-132948"
+    "accessed_at": "2026-10-24"
+  - "id": "horai"
+    "title": "蓬莱（奈良文化財研究所庭園用語集）"
+    "url": "https://www.nabunken.go.jp/org/bunka/jgd/pages/Horai.html"
+    "accessed_at": "2026-10-24"
+  - "id": "ikka"
+    "title": "一・熟語一覧（漢字ペディア）"
+    "url": "https://www.kanjipedia.jp/kanji/0000209400"
+    "accessed_at": "2026-10-24"
+  - "id": "doji"
+    "title": "童子（デジタル大辞泉ほか）"
+    "url": "https://kotobank.jp/word/童子-580363"
+    "accessed_at": "2026-10-24"
+  - "id": "chapter-001-primary"
+    "title": "西遊記/第001回（同梱原文の固定版）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第001回&oldid=2562136&variant=zh-hant"
+    "accessed_at": "2026-10-24"
+  - "id": "eishu"
+    "title": "瀛洲（改訂新版 世界大百科事典）"
+    "url": "https://kotobank.jp/word/瀛洲-1275895"
+    "accessed_at": "2026-10-24"
+  - "id": "aolai-reading"
+    "title": "「西遊記」の「傲来国」の読み方（国立国会図書館レファレンス協同データベース）"
+    "url": "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000167096"
+    "accessed_at": "2026-10-24"
+  - "id": "suirendo-reading"
+    "title": "西遊記・水簾洞の段（国立劇場文化デジタルライブラリー）"
+    "url": "https://www2.ntj.jac.go.jp/dglib/plays/view_detail?class=bunraku&did=33318988&division=plays&pdate_M=07&pdate_M_to=&pdate_Y=2012&pdate_Y_to=&sid=6&trace=detail&type=series"
+    "accessed_at": "2026-10-24"
+  - "id": "kato-kyogeki"
+    "title": "加藤徹「親と子の京劇鑑賞会2019」配付資料"
+    "url": "https://www.isc.meiji.ac.jp/~katotoru/pdf/20190615.pdf"
+    "accessed_at": "2026-10-24"
+  - "id": "lingyin-east"
+    "title": "霊隠寺「天王殿」日本語解説"
+    "url": "https://jp.lingyinsi.org/detail_1151.html"
+    "accessed_at": "2026-10-24"
+  - "id": "nan-senbu"
+    "title": "南贍部洲（小学館デジタル大辞泉）"
+    "url": "https://kotobank.jp/word/南贍部洲-590571"
+    "accessed_at": "2026-10-24"
+  - "id": "bdk-north"
+    "title": "浄土双六用語解説（仏教伝道協会）"
+    "url": "https://www.bdk.or.jp/pdf/sugoroku/sugoroku_kaisetsu.pdf"
+    "accessed_at": "2026-10-24"
+  - "id": "kinkei-zoo"
+    "title": "キンケイ（福岡市動物園）"
+    "url": "https://zoo.city.fukuoka.lg.jp/animals/detail/208"
+    "accessed_at": "2026-10-24"
+  - "id": "kibanoro-museum"
+    "title": "キバノロ（国立科学博物館ヨシモトコレクション）"
+    "url": "https://www.kahaku.go.jp/research/db/zoology/yoshimoto/database/32069_SEM.html"
+    "accessed_at": "2026-10-24"
+  - "id": "narukoyuri-pharm"
+    "title": "ナルコユリ（日本薬学会）"
+    "url": "https://www.pharm.or.jp/flowers/post_58.html"
+    "accessed_at": "2026-10-24"
+  - "id": "suge-leaves"
+    "title": "カサスゲ（三河の植物観察）"
+    "url": "https://mikawanoyasou.org/data/kasasuge.htm"
+    "accessed_at": "2026-10-24"
+"entries":
+  - "id": "xy-term-001"
+    "kind": "term"
+    "headword": "混沌"
+    "definition_ja": "天地や物の区別がまだなく、入り混じっている状態"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-001-form"
+        "text": "混沌"
+        "relation": "preferred"
+        "reading":
+          "kana": "こんとん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-002"
+    "kind": "person"
+    "headword": "盤古"
+    "definition_ja": "中国の神話で、天地を開いたとされる神"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "banko"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-002-form"
+        "text": "盤古"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばんこ"
+          "status": "verified"
+          "source_ids":
+            - "banko"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-003"
+    "kind": "term"
+    "headword": "太初"
+    "definition_ja": "天地が始まる、いちばん初めの時"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-003-form"
+        "text": "太初"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいしょ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-004"
+    "kind": "title"
+    "headword": "西遊釈厄伝"
+    "definition_ja": "冒頭の詩で、この西遊の物語を指している書名"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "shiyakuden"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-004-form"
+        "text": "西遊釈厄伝"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいゆうしゃくやくでん"
+          "status": "verified"
+          "source_ids":
+            - "shiyakuden"
+          "reason_ja": "CiNiiの唐三藏西遊釋厄傳のタイトル読みで、部分「サイユウ シャクヤクデン」を確認。この本文と同一版本であるとの主張ではない。"
+  - "id": "xy-term-005"
+    "kind": "term"
+    "headword": "一元"
+    "definition_ja": "この宇宙観で十二万九千六百年を表す時間の単位"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-005-form"
+        "text": "一元"
+        "relation": "preferred"
+        "reading":
+          "kana": "いちげん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-006"
+    "kind": "term"
+    "headword": "会"
+    "definition_ja": "この宇宙観で一万八百年を表す時間の単位"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-006-form"
+        "text": "会"
+        "relation": "preferred"
+        "reading":
+          "kana": "かい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-007"
+    "kind": "term"
+    "headword": "子"
+    "definition_ja": "十二支の一つ。ここでは時刻や天地の時代区分にも用いる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-007-form"
+        "text": "子"
+        "relation": "preferred"
+        "reading":
+          "kana": "ね"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-008"
+    "kind": "term"
+    "headword": "丑"
+    "definition_ja": "十二支の一つ。ここでは時刻や天地の時代区分にも用いる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-008-form"
+        "text": "丑"
+        "relation": "preferred"
+        "reading":
+          "kana": "うし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-009"
+    "kind": "term"
+    "headword": "寅"
+    "definition_ja": "十二支の一つ。ここでは時刻や天地の時代区分にも用いる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-009-form"
+        "text": "寅"
+        "relation": "preferred"
+        "reading":
+          "kana": "とら"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-010"
+    "kind": "term"
+    "headword": "卯"
+    "definition_ja": "十二支の一つ。ここでは時刻や天地の時代区分にも用いる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-010-form"
+        "text": "卯"
+        "relation": "preferred"
+        "reading":
+          "kana": "う"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-011"
+    "kind": "term"
+    "headword": "辰"
+    "definition_ja": "十二支の一つ。ここでは時刻や天地の時代区分にも用いる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-011-form"
+        "text": "辰"
+        "relation": "preferred"
+        "reading":
+          "kana": "たつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-012"
+    "kind": "term"
+    "headword": "巳"
+    "definition_ja": "十二支の一つ。ここでは時刻や天地の時代区分にも用いる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-012-form"
+        "text": "巳"
+        "relation": "preferred"
+        "reading":
+          "kana": "み"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-013"
+    "kind": "term"
+    "headword": "午"
+    "definition_ja": "十二支の一つ。ここでは時刻や天地の時代区分にも用いる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-013-form"
+        "text": "午"
+        "relation": "preferred"
+        "reading":
+          "kana": "うま"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-014"
+    "kind": "term"
+    "headword": "未"
+    "definition_ja": "十二支の一つ。ここでは時刻や天地の時代区分にも用いる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-014-form"
+        "text": "未"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひつじ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-015"
+    "kind": "term"
+    "headword": "申"
+    "definition_ja": "十二支の一つ。ここでは時刻や天地の時代区分にも用いる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-015-form"
+        "text": "申"
+        "relation": "preferred"
+        "reading":
+          "kana": "さる"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-016"
+    "kind": "term"
+    "headword": "酉"
+    "definition_ja": "十二支の一つ。ここでは時刻や天地の時代区分にも用いる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-016-form"
+        "text": "酉"
+        "relation": "preferred"
+        "reading":
+          "kana": "とり"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-017"
+    "kind": "term"
+    "headword": "戌"
+    "definition_ja": "十二支の一つ。ここでは時刻や天地の時代区分にも用いる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-017-form"
+        "text": "戌"
+        "relation": "preferred"
+        "reading":
+          "kana": "いぬ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-018"
+    "kind": "term"
+    "headword": "亥"
+    "definition_ja": "十二支の一つ。ここでは時刻や天地の時代区分にも用いる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-018-form"
+        "text": "亥"
+        "relation": "preferred"
+        "reading":
+          "kana": "い"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-019"
+    "kind": "term"
+    "headword": "十二支"
+    "definition_ja": "年・方角・時刻などを十二に分けて表す名の組"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-019-form"
+        "text": "十二支"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゅうにし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-020"
+    "kind": "term"
+    "headword": "刻"
+    "definition_ja": "ここでは、一日を十二支で区切った時刻"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-020-form"
+        "text": "刻"
+        "relation": "preferred"
+        "reading":
+          "kana": "こく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-021"
+    "kind": "term"
+    "headword": "陽の気"
+    "definition_ja": "明るさや活動に結びつく、万物を生む力の一方"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+        - "yinyang"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-021-form"
+        "text": "陽の気"
+        "relation": "preferred"
+        "reading":
+          "kana": "ようのき"
+          "status": "verified"
+          "source_ids":
+            - "yinyang"
+          "reason_ja": "陰陽の説明に基づく文脈上の要約。気を物理的なエネルギーと断定しない。"
+  - "id": "xy-term-022"
+    "kind": "person"
+    "headword": "邵康節"
+    "definition_ja": "十一世紀の中国の学者。天地の変化を数で説いた。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "shaoyong"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-022-form"
+        "text": "邵康節"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうこうせつ"
+          "status": "verified"
+          "source_ids":
+            - "shaoyong"
+          "reason_ja": "慶應義塾所蔵書誌に読み。人物説明は原文の宇宙論との文脈を要約。"
+  - "id": "xy-term-023"
+    "kind": "term"
+    "headword": "四象"
+    "definition_ja": "ここでは日・月・星・辰という、天に現れる四つの姿"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-023-form"
+        "text": "四象"
+        "relation": "preferred"
+        "reading":
+          "kana": "ししょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-024"
+    "kind": "title"
+    "headword": "易経"
+    "definition_ja": "占いの原理と、天地や人の世の変化を説く中国の古典"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "eki"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-024-form"
+        "text": "易経"
+        "relation": "preferred"
+        "reading":
+          "kana": "えききょう"
+          "status": "verified"
+          "source_ids":
+            - "eki"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-025"
+    "kind": "term"
+    "headword": "五形"
+    "definition_ja": "ここでは水・火・山・石・土の五つ。一般的な五行説の五要素とは異なる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-025-form"
+        "text": "五形"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごぎょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "五形の読みは構成字による推定。一般的な五行（木火土金水）と混同しない。"
+  - "id": "xy-term-026"
+    "kind": "term"
+    "headword": "陰と陽"
+    "definition_ja": "暗さや静けさに結びつく陰と、明るさや活動に結びつく陽という、相対して働く二つの気"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+        - "yinyang"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-026-form"
+        "text": "陰と陽"
+        "relation": "preferred"
+        "reading":
+          "kana": "いんとよう"
+          "status": "verified"
+          "source_ids":
+            - "yinyang"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-027"
+    "kind": "person"
+    "headword": "三皇"
+    "definition_ja": "中国の伝説にいう三人の古い聖王"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "sanko"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-027-form"
+        "text": "三皇"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんこう"
+          "status": "verified"
+          "source_ids":
+            - "sanko"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-028"
+    "kind": "person"
+    "headword": "五帝"
+    "definition_ja": "中国の伝説にいう五人の古い帝王"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "sanko"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-028-form"
+        "text": "五帝"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごてい"
+          "status": "verified"
+          "source_ids":
+            - "sanko"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-029"
+    "kind": "place"
+    "headword": "東勝神洲"
+    "definition_ja": "物語の世界を構成する四大陸のうち東の大陸"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-029-form"
+        "text": "東勝神洲"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうしょうしんしゅう"
+          "status": "verified"
+          "source_ids":
+            - "lingyin-east"
+          "reason_ja": "持国天の説明で「東勝神洲（とうしょうしんしゅう）」を確認。"
+  - "id": "xy-term-030"
+    "kind": "place"
+    "headword": "西牛賀洲"
+    "definition_ja": "物語の世界を構成する四大陸のうち西の大陸"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-030-form"
+        "text": "西牛賀洲"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいごかしゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "信頼できる日本語資料でこの名称全体の読みを確認できず、既存訳の読みまたは構成字の音訓による推定。"
+  - "id": "xy-term-031"
+    "kind": "place"
+    "headword": "南贍部洲"
+    "definition_ja": "物語の世界を構成する四大陸のうち南の大陸"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-031-form"
+        "text": "南贍部洲"
+        "relation": "preferred"
+        "reading":
+          "kana": "なんせんぶしゅう"
+          "status": "verified"
+          "source_ids":
+            - "nan-senbu"
+          "reason_ja": "辞典見出しの読み「なんせんぶしゅう」を確認。"
+  - "id": "xy-term-032"
+    "kind": "place"
+    "headword": "北倶盧洲"
+    "definition_ja": "物語の世界を構成する四大陸のうち北の大陸"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-032-form"
+        "text": "北倶盧洲"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほっくるしゅう"
+          "status": "verified"
+          "source_ids":
+            - "bdk-north"
+          "reason_ja": "3頁・項目22の「ほっくるしゅう」を確認。"
+  - "id": "xy-aolai"
+    "kind": "place"
+    "headword": "傲来国"
+    "definition_ja": "東勝神洲の海に面し、花果山のある国"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-033-form"
+        "text": "傲来国"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごうらいこく"
+          "status": "verified"
+          "source_ids":
+            - "aolai-reading"
+          "reason_ja": "国立国会図書館レファレンス協同データベースの回答で、君島久子訳『西遊記』に基づく「ごうらいこく」を確認。"
+      - "id": "xy-term-057-form"
+        "text": "傲来"
+        "relation": "short_form"
+        "reading":
+          "kana": "ごうらい"
+          "status": "verified"
+          "source_ids":
+            - "aolai-reading"
+          "reason_ja": "傲来国の読み「ごうらいこく」から国の接尾語を除いた略称。"
+  - "id": "xy-term-034"
+    "kind": "place"
+    "headword": "花果山"
+    "definition_ja": "石猿が生まれ、猿たちが暮らす山"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-034-form"
+        "text": "花果山"
+        "relation": "preferred"
+        "reading":
+          "kana": "かかざん"
+          "status": "verified"
+          "source_ids":
+            - "kato-kyogeki"
+          "reason_ja": "3頁の「花果山（かかざん）」を確認。"
+  - "id": "xy-term-035"
+    "kind": "term"
+    "headword": "仙人"
+    "definition_ja": "修行によって不老長寿や不思議な力を得たとされる人"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-035-form"
+        "text": "仙人"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんにん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-036"
+    "kind": "term"
+    "headword": "洲"
+    "definition_ja": "ここでは仙人が住むとされる海上の陸地"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-036-form"
+        "text": "洲"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-037"
+    "kind": "term"
+    "headword": "仙島"
+    "definition_ja": "仙人が住むとされる島"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-037-form"
+        "text": "仙島"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんとう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-038"
+    "kind": "concept"
+    "headword": "鳳凰"
+    "definition_ja": "中国の伝説に登場する、めでたい鳥"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+        - "phoenix"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-038-form"
+        "text": "鳳凰"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうおう"
+          "status": "verified"
+          "source_ids":
+            - "phoenix"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-039"
+    "kind": "concept"
+    "headword": "麒麟"
+    "definition_ja": "中国の伝説の獣。実在の首の長いキリンとは別"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+        - "kirin"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-039-form"
+        "text": "麒麟"
+        "relation": "preferred"
+        "reading":
+          "kana": "きりん"
+          "status": "verified"
+          "source_ids":
+            - "kirin"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-040"
+    "kind": "term"
+    "headword": "霊獣"
+    "definition_ja": "神秘的な力を持つとされる獣"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-040-form"
+        "text": "霊獣"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいじゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-041"
+    "kind": "concept"
+    "headword": "龍"
+    "definition_ja": "中国の伝説で、水や雲と結びつく神秘的な生き物"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-041-form"
+        "text": "龍"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-042"
+    "kind": "term"
+    "headword": "丈"
+    "definition_ja": "昔の長さの単位。一丈は十尺"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-042-form"
+        "text": "丈"
+        "relation": "preferred"
+        "reading":
+          "kana": "じょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-043"
+    "kind": "term"
+    "headword": "尺"
+    "definition_ja": "昔の長さの単位。一尺は十寸。実際の長さは時代や地域で異なる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-043-form"
+        "text": "尺"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゃく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-044"
+    "kind": "term"
+    "headword": "寸"
+    "definition_ja": "昔の長さの単位。一尺の十分の一"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-044-form"
+        "text": "寸"
+        "relation": "preferred"
+        "reading":
+          "kana": "すん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-045"
+    "kind": "term"
+    "headword": "二十四節気"
+    "definition_ja": "一年の太陽の動きを二十四に分け、季節の目安にしたもの"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-045-form"
+        "text": "二十四節気"
+        "relation": "preferred"
+        "reading":
+          "kana": "にじゅうしせっき"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-046"
+    "kind": "term"
+    "headword": "陰陽"
+    "definition_ja": "陰と陽の二つの気。天地や物事の変化を生むと考えられた"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+        - "yinyang"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-046-form"
+        "text": "陰陽"
+        "relation": "preferred"
+        "reading":
+          "kana": "いんよう"
+          "status": "verified"
+          "source_ids":
+            - "yinyang"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-047"
+    "kind": "term"
+    "headword": "レイシ"
+    "definition_ja": "木に生える硬いキノコの仲間"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-047-form"
+        "text": "レイシ"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-048"
+    "kind": "term"
+    "headword": "精気"
+    "definition_ja": "ここでは、命を生み育てる清らかな力"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-048-form"
+        "text": "精気"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいき"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-sun-wukong"
+    "kind": "person"
+    "headword": "孫悟空"
+    "definition_ja": "石から生まれた主人公の猿。石猿はその生まれにちなむ呼び名で、美猴王は「美しい猿の王」。修行に訪れた先で須菩提祖師から孫という姓と、孫悟空という名を授かる。斉天大聖も同じ主人公の称号で、「天と等しいほど偉大な聖者」を意味する。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "seiten"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-049-form"
+        "text": "石猿"
+        "relation": "alias"
+        "reading":
+          "kana": "いしざる"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "訳語「石猿」を訓読する編集上の推定読み。原文の石猴・石猿に対応し、後に美猴王・孫悟空となる同一人物。"
+      - "id": "xy-term-062-form"
+        "text": "美猴王"
+        "relation": "title"
+        "reading":
+          "kana": "びこうおう"
+          "status": "verified"
+          "source_ids":
+            - "seiten"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+      - "id": "xy-term-068-form"
+        "text": "斉天大聖"
+        "relation": "title"
+        "reading":
+          "kana": "せいてんたいせい"
+          "status": "verified"
+          "source_ids":
+            - "seiten"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+      - "id": "xy-term-097-form"
+        "text": "孫"
+        "relation": "short_form"
+        "reading":
+          "kana": "そん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+      - "id": "xy-term-098-form"
+        "text": "孫悟空"
+        "relation": "preferred"
+        "reading":
+          "kana": "そんごくう"
+          "status": "verified"
+          "source_ids":
+            - "seiten"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-050"
+    "kind": "concept"
+    "headword": "北斗"
+    "definition_ja": "北の空にひしゃく形に並ぶ七つの星"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-050-form"
+        "text": "北斗"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほくと"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-jade-emperor"
+    "kind": "person"
+    "headword": "玉帝"
+    "definition_ja": "天上の神々を統べる帝王。玉皇大天尊はその尊称。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-051-form"
+        "text": "玉皇大天尊"
+        "relation": "title"
+        "reading":
+          "kana": "ぎょくこうだいてんそん"
+          "status": "estimated"
+          "source_ids":
+            - "gyokko"
+          "reason_ja": "三鳳宮は称号を確認できるが全体の日本語読みは掲載なし。玉皇＝ぎょくこうと構成字の音読から推定。"
+      - "id": "xy-term-052-form"
+        "text": "玉帝"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくてい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-053"
+    "kind": "place"
+    "headword": "霊霄宝殿"
+    "definition_ja": "玉帝が臣下たちを集める天上の宮殿"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-053-form"
+        "text": "霊霄宝殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいしょうほうでん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "信頼できる日本語資料でこの名称全体の読みを確認できず、既存訳の読みまたは構成字の音訓による推定。"
+  - "id": "xy-term-054"
+    "kind": "person"
+    "headword": "千里眼"
+    "definition_ja": "遠くのものまで見通す天上の将軍"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "senrigan"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-054-form"
+        "text": "千里眼"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんりがん"
+          "status": "verified"
+          "source_ids":
+            - "senrigan"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-055"
+    "kind": "person"
+    "headword": "順風耳"
+    "definition_ja": "遠くの音まで聞き取る天上の将軍"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "shunpu"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-055-form"
+        "text": "順風耳"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゅんぷうじ"
+          "status": "verified"
+          "source_ids":
+            - "shunpu"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-056"
+    "kind": "place"
+    "headword": "南天門"
+    "definition_ja": "天上の宮殿に通じる南側の門"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-056-form"
+        "text": "南天門"
+        "relation": "preferred"
+        "reading":
+          "kana": "なんてんもん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "信頼できる日本語資料でこの名称全体の読みを確認できず、既存訳の読みまたは構成字の音訓による推定。"
+  - "id": "xy-term-058"
+    "kind": "concept"
+    "headword": "菩薩"
+    "definition_ja": "悟りを求めながら、人々を救おうとする仏教の尊い存在"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+        - "bosatsu"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-058-form"
+        "text": "菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼさつ"
+          "status": "verified"
+          "source_ids":
+            - "bosatsu"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-059"
+    "kind": "term"
+    "headword": "楷書"
+    "definition_ja": "点や線を崩さず、一画ずつ整えて書く漢字の書体"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-059-form"
+        "text": "楷書"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいしょ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-060"
+    "kind": "term"
+    "headword": "仙境"
+    "definition_ja": "仙人が住むとされる、俗世から離れた場所"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-060-form"
+        "text": "仙境"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんきょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-061"
+    "kind": "place"
+    "headword": "水簾洞"
+    "definition_ja": "滝の裏に隠れた、猿たちの住まいとなる洞窟"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-061-form"
+        "text": "水簾洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいれんどう"
+          "status": "verified"
+          "source_ids":
+            - "suirendo-reading"
+          "reason_ja": "国立劇場の西遊記公演データ「水簾洞の段」の読みを確認。"
+  - "id": "xy-term-063"
+    "kind": "term"
+    "headword": "地下茎"
+    "definition_ja": "地中を伸びる茎。根とは異なる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-063-form"
+        "text": "地下茎"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちかけい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-enma"
+    "kind": "person"
+    "headword": "閻魔大王"
+    "definition_ja": "死者の世界を治め、人の寿命や死を支配するとされる王"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "enma-dai"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-064-form"
+        "text": "閻魔大王"
+        "relation": "preferred"
+        "reading":
+          "kana": "えんまだいおう"
+          "status": "verified"
+          "source_ids":
+            - "enma-dai"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+      - "id": "xy-term-067-form"
+        "text": "閻魔"
+        "relation": "short_form"
+        "reading":
+          "kana": "えんま"
+          "status": "verified"
+          "source_ids":
+            - "enma"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-065"
+    "kind": "person"
+    "headword": "長腕の猿"
+    "definition_ja": "美猴王に、不老長寿を得た者たちの存在を教える猿"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-065-form"
+        "text": "長腕の猿"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうわんのさる"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "原文の通背猿猴の訳語。現代動物学的な種や、後の回の同名の存在と同定しない。呼称の読みは構成語による推定。"
+  - "id": "xy-term-066"
+    "kind": "term"
+    "headword": "輪廻"
+    "definition_ja": "死んで生まれ変わることを繰り返すこと"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-066-form"
+        "text": "輪廻"
+        "relation": "preferred"
+        "reading":
+          "kana": "りんね"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-069"
+    "kind": "term"
+    "headword": "リュウガン"
+    "definition_ja": "丸い殻の中に、半透明で甘い果肉がある果物"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-069-form"
+        "text": "リュウガン"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうがん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-070"
+    "kind": "term"
+    "headword": "めのう"
+    "definition_ja": "色や縞模様を持ち、飾りにも使われる石"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-070-form"
+        "text": "めのう"
+        "relation": "preferred"
+        "reading":
+          "kana": "めのう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-071"
+    "kind": "term"
+    "headword": "ハシバミ"
+    "definition_ja": "丸い堅果をつける低木の仲間"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-071-form"
+        "text": "ハシバミ"
+        "relation": "preferred"
+        "reading":
+          "kana": "はしばみ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-072"
+    "kind": "term"
+    "headword": "カヤ"
+    "definition_ja": "堅い種をつける常緑の針葉樹"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-072-form"
+        "text": "カヤ"
+        "relation": "preferred"
+        "reading":
+          "kana": "かや"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-073"
+    "kind": "term"
+    "headword": "埋み火"
+    "definition_ja": "灰の中に埋めて、火もちをよくした炭火"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-073-form"
+        "text": "埋み火"
+        "relation": "preferred"
+        "reading":
+          "kana": "うずみび"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-074"
+    "kind": "term"
+    "headword": "マツホド"
+    "definition_ja": "松の根に関連して菌糸の塊を作るキノコ"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-074-form"
+        "text": "マツホド"
+        "relation": "preferred"
+        "reading":
+          "kana": "まつほど"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-075"
+    "kind": "term"
+    "headword": "宰相"
+    "definition_ja": "君主を補佐して政治を取り仕切る最高位の大臣"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-075-form"
+        "text": "宰相"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいしょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-076"
+    "kind": "term"
+    "headword": "諸侯"
+    "definition_ja": "領地を治める君主たち"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-076-form"
+        "text": "諸侯"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょこう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-077"
+    "kind": "place"
+    "headword": "蓬莱"
+    "definition_ja": "仙人が住むとされた海上の山・島"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "horai"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-077-form"
+        "text": "蓬莱"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうらい"
+          "status": "verified"
+          "source_ids":
+            - "horai"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-078"
+    "kind": "place"
+    "headword": "瀛洲"
+    "definition_ja": "仙人が住むとされた海上の山・島"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-078-form"
+        "text": "瀛洲"
+        "relation": "preferred"
+        "reading":
+          "kana": "えいしゅう"
+          "status": "verified"
+          "source_ids":
+            - "eishu"
+          "reason_ja": "辞典見出しに「えいしゅう」と明記。"
+  - "id": "xy-term-079"
+    "kind": "term"
+    "headword": "一荷"
+    "definition_ja": "一人が一度に担いで運ぶひとまとまりの荷"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+        - "ikka"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-079-form"
+        "text": "一荷"
+        "relation": "preferred"
+        "reading":
+          "kana": "いっか"
+          "status": "verified"
+          "source_ids":
+            - "ikka"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-080"
+    "kind": "term"
+    "headword": "升"
+    "definition_ja": "穀物や液体の量を量る昔の単位。量は時代や地域で異なる"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-080-form"
+        "text": "升"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-081"
+    "kind": "concept"
+    "headword": "道士"
+    "definition_ja": "道教の教えに従って修行する人"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-081-form"
+        "text": "道士"
+        "relation": "preferred"
+        "reading":
+          "kana": "どうし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-082"
+    "kind": "concept"
+    "headword": "道教"
+    "definition_ja": "不老長寿や自然にかなう生き方などを求める、中国で生まれた宗教"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-082-form"
+        "text": "道教"
+        "relation": "preferred"
+        "reading":
+          "kana": "どうきょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-083"
+    "kind": "title"
+    "headword": "黄庭経"
+    "definition_ja": "心身を養い、不老長寿を求める道教の経典"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "huangting"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-083-form"
+        "text": "黄庭経"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうていきょう"
+          "status": "verified"
+          "source_ids":
+            - "huangting"
+          "reason_ja": "文化遺産オンラインの読み「こうていきょう」を採用。コトバンクの主見出しは「こうていけい」もある。"
+  - "id": "xy-term-084"
+    "kind": "title"
+    "headword": "満庭芳"
+    "definition_ja": "詞という中国の詩歌を作る際の、曲調・形式の名"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "mantei"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-084-form"
+        "text": "満庭芳"
+        "relation": "preferred"
+        "reading":
+          "kana": "まんていほう"
+          "status": "estimated"
+          "source_ids":
+            - "mantei"
+          "reason_ja": "中國哲學書電子化計劃で詞牌名としての語義を確認。日本語読みは構成字の音読から推定。"
+  - "id": "xy-term-085"
+    "kind": "term"
+    "headword": "文"
+    "definition_ja": "昔の銅銭を数える貨幣の単位"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-085-form"
+        "text": "文"
+        "relation": "preferred"
+        "reading":
+          "kana": "もん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-086"
+    "kind": "place"
+    "headword": "霊台方寸山"
+    "definition_ja": "須菩提祖師が住む山"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-086-form"
+        "text": "霊台方寸山"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいだいほうすんざん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "信頼できる日本語資料でこの名称全体の読みを確認できず、既存訳の読みまたは構成字の音訓による推定。"
+  - "id": "xy-term-087"
+    "kind": "place"
+    "headword": "斜月三星洞"
+    "definition_ja": "霊台方寸山にある、須菩提祖師の洞窟の住まい"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-087-form"
+        "text": "斜月三星洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゃげつさんせいどう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "信頼できる日本語資料でこの名称全体の読みを確認できず、既存訳の読みまたは構成字の音訓による推定。"
+  - "id": "xy-term-088"
+    "kind": "person"
+    "headword": "須菩提祖師"
+    "definition_ja": "霊台方寸山の斜月三星洞に住み、美猴王を弟子に迎える仙人"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "subodai"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-088-form"
+        "text": "須菩提祖師"
+        "relation": "preferred"
+        "reading":
+          "kana": "すぼだいそし"
+          "status": "verified"
+          "source_ids":
+            - "kato-kyogeki"
+          "reason_ja": "2–3頁の「須菩提祖師（すぼだいそし）」を確認。釈迦の弟子と物語の仙人を同一人物とは断定しない。"
+  - "id": "xy-term-089"
+    "kind": "term"
+    "headword": "里"
+    "definition_ja": "昔の道のりの単位。ここで日本の一里と同じ長さに換算はできない"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-089-form"
+        "text": "里"
+        "relation": "preferred"
+        "reading":
+          "kana": "り"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-090"
+    "kind": "person"
+    "headword": "童子"
+    "definition_ja": "ここでは、仙人に仕える少年の姿の者"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "chapter-001-primary"
+        - "doji"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-090-form"
+        "text": "童子"
+        "relation": "preferred"
+        "reading":
+          "kana": "どうじ"
+          "status": "verified"
+          "source_ids":
+            - "doji"
+          "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+  - "id": "xy-term-091"
+    "kind": "term"
+    "headword": "楼閣"
+    "definition_ja": "階を重ねて高く造った建物"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-091-form"
+        "text": "楼閣"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろうかく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-092"
+    "kind": "term"
+    "headword": "姓"
+    "definition_ja": "家や一族を表す名。名字"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-092-form"
+        "text": "姓"
+        "relation": "preferred"
+        "reading":
+          "kana": "せい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-093"
+    "kind": "term"
+    "headword": "猢猻"
+    "definition_ja": "中国語で猿を表す語。ここでは姓を作る文字遊びに使う"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-093-form"
+        "text": "猢猻"
+        "relation": "preferred"
+        "reading":
+          "kana": "こそん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "信頼できる日本語資料でこの名称全体の読みを確認できず、既存訳の読みまたは構成字の音訓による推定。"
+  - "id": "xy-term-094"
+    "kind": "term"
+    "headword": "獣偏"
+    "definition_ja": "「猢」「猻」などの左側にある「犭」の部首"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-094-form"
+        "text": "獣偏"
+        "relation": "preferred"
+        "reading":
+          "kana": "けものへん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-095"
+    "kind": "term"
+    "headword": "猢"
+    "definition_ja": "猢猻を構成する漢字の一つ"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-095-form"
+        "text": "猢"
+        "relation": "preferred"
+        "reading":
+          "kana": "こ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "信頼できる日本語資料でこの名称全体の読みを確認できず、既存訳の読みまたは構成字の音訓による推定。"
+  - "id": "xy-term-096"
+    "kind": "term"
+    "headword": "猻"
+    "definition_ja": "猢猻を構成する漢字の一つ"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-096-form"
+        "text": "猻"
+        "relation": "preferred"
+        "reading":
+          "kana": "そん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "信頼できる日本語資料でこの名称全体の読みを確認できず、既存訳の読みまたは構成字の音訓による推定。"
+  - "id": "xy-term-099"
+    "kind": "concept"
+    "headword": "空"
+    "definition_ja": "仏教で、あらゆるものには固定した実体がないとする考え"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "chapter-001-primary"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+    "forms":
+      - "id": "xy-term-099-form"
+        "text": "空"
+        "relation": "preferred"
+        "reading":
+          "kana": "くう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+  - "id": "xy-term-100"
+    "kind": "term"
+    "headword": "キンケイ"
+    "definition_ja": "雄の羽が色鮮やかなキジの仲間。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "kinkei-zoo"
+        - "chapter-001-primary"
+      "reason_ja": "掲載資料の動植物説明と底本の語を照合した。現代分類と古典の名称を一対一に固定せず、読書に必要な範囲へ説明を限定。"
+    "forms":
+      - "id": "xy-term-100-form"
+        "text": "キンケイ"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんけい"
+          "status": "verified"
+          "source_ids":
+            - "kinkei-zoo"
+          "reason_ja": "資料の片仮名表記を平仮名へ転記。本文は既に片仮名で読めるため、同じ読みを重ねない。"
+  - "id": "xy-term-101"
+    "kind": "term"
+    "headword": "キバノロ"
+    "definition_ja": "シカの仲間。原文の獐をこの訳語で表す。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "kibanoro-museum"
+        - "chapter-001-primary"
+      "reason_ja": "掲載資料の動植物説明と底本の語を照合した。現代分類と古典の名称を一対一に固定せず、読書に必要な範囲へ説明を限定。"
+    "forms":
+      - "id": "xy-term-101-form"
+        "text": "キバノロ"
+        "relation": "preferred"
+        "reading":
+          "kana": "きばのろ"
+          "status": "verified"
+          "source_ids":
+            - "kibanoro-museum"
+          "reason_ja": "資料の片仮名表記を平仮名へ転記。本文は既に片仮名で読めるため、同じ読みを重ねない。"
+  - "id": "xy-term-102"
+    "kind": "term"
+    "headword": "ナルコユリ"
+    "definition_ja": "地下茎を伸ばし、小さな筒形の花を垂らす草。訳文の「ナルコユリの仲間」は原文の黄精に対応し、日本産の一種だけに同定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "narukoyuri-pharm"
+        - "chapter-001-primary"
+      "reason_ja": "掲載資料の動植物説明と底本の語を照合した。現代分類と古典の名称を一対一に固定せず、読書に必要な範囲へ説明を限定。"
+    "forms":
+      - "id": "xy-term-102-form"
+        "text": "ナルコユリ"
+        "relation": "preferred"
+        "reading":
+          "kana": "なるこゆり"
+          "status": "verified"
+          "source_ids":
+            - "narukoyuri-pharm"
+          "reason_ja": "資料の片仮名表記を平仮名へ転記。本文は既に片仮名で読めるため、同じ読みを重ねない。"
+  - "id": "xy-term-103"
+    "kind": "term"
+    "headword": "スゲ"
+    "definition_ja": "細長い葉を持つ草の仲間。笠や履物の材料に用いられるものがあるが、本文の植物種までは確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "suge-leaves"
+        - "chapter-001-primary"
+      "reason_ja": "掲載資料の動植物説明と底本の語を照合した。現代分類と古典の名称を一対一に固定せず、読書に必要な範囲へ説明を限定。"
+    "forms":
+      - "id": "xy-term-103-form"
+        "text": "スゲ"
+        "relation": "preferred"
+        "reading":
+          "kana": "すげ"
+          "status": "verified"
+          "source_ids":
+            - "suge-leaves"
+          "reason_ja": "資料の片仮名表記を平仮名へ転記。本文は既に片仮名で読めるため、同じ読みを重ねない。"

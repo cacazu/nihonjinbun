@@ -97,6 +97,81 @@ def image_dimensions(path, media_type):
         return size
 
 
+def validate_lexicon_occurrences(data, repo_root):
+    """Check chapter-owned annotations without guessing lexical first matches."""
+    if 'lexicon' not in data:
+        return []
+    link = data['lexicon']
+    errors = []
+    root = Path(repo_root if repo_root is not None else ROOT).resolve()
+    expected = f"lexicons/{link['dictionary_id']}.yaml"
+    path = (root / link['file']).resolve()
+    # Require the fixed dictionary filename and reject symlink/path escapes.
+    if link['file'] != expected or not path.is_relative_to(root / 'lexicons'):
+        return ['lexicon: unsafe or mismatched dictionary path']
+    try:
+        dictionary = load_document(path)
+        if dictionary['dictionary_id'] != link['dictionary_id']:
+            return ['lexicon: dictionary ID differs']
+        entries = {entry['id']: entry for entry in dictionary['entries']}
+        if len(entries) != len(dictionary['entries']):
+            return ['lexicon: duplicate dictionary entry ID']
+        forms = {}
+        for entry in entries.values():
+            for form in entry['forms']:
+                if form['id'] in forms:
+                    return ['lexicon: duplicate dictionary form ID']
+                if not isinstance(form['text'], str) or not isinstance(form['reading']['kana'], str):
+                    return ['lexicon: invalid dictionary form']
+                forms[form['id']] = (entry['id'], form)
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        return [f'lexicon: cannot read dictionary: {exc}']
+    segments = {segment['id']: (i, segment) for i, segment in enumerate(data['segments'])}
+    headings = {sid for section in data['sections'] for sid in section['heading_segment_ids']}
+    note_bodies = {p['segment_id'] for note in data.get('notes', []) for p in note['body']}
+    seen, order = set(), []
+    for occurrence in link['first_occurrences']:
+        entry_id, form_id = occurrence['entry_id'], occurrence['form_id']
+        label = f'lexicon/{form_id}'
+        if form_id in seen:
+            errors.append(f'{label}: duplicate first occurrence')
+        seen.add(form_id)
+        if entry_id not in entries or form_id not in forms or forms[form_id][0] != entry_id:
+            errors.append(f'{label}: unknown or mismatched entry/form reference')
+            continue
+        form = forms[form_id][1]
+        segment_id = occurrence['segment_id']
+        if segment_id not in segments:
+            errors.append(f'{label}: unknown segment ID {segment_id}')
+            continue
+        position, segment = segments[segment_id]
+        if segment['kind'] in ('heading', 'note_body') or segment_id in headings | note_bodies:
+            errors.append(f'{label}: first occurrence must be body, not heading or note')
+        text = segment.get('translation_ja') or ''
+        span = occurrence['translation_span']
+        start, end = span['start'], span['end']
+        if not 0 <= start < end <= len(text) or text[start:end] != span['exact']:
+            errors.append(f'{label}: translation_span does not match body')
+        if span['exact'] != form['text']:
+            errors.append(f'{label}: span exact must match dictionary form')
+        rendered = occurrence['rendered_text']
+        if not rendered.startswith(form['text']) or text[start:start + len(rendered)] != rendered:
+            errors.append(f'{label}: rendered_text does not match body')
+        # Kana-only spellings are already readable; do not duplicate their reading.
+        if not re.fullmatch(r'[ぁ-ゖァ-ヺー・ 　]+', form['text']):
+            suffix = rendered[len(form['text']):]
+            reading = form['reading']['kana']
+            closing = {'（': '）', '(': ')'}.get(suffix[:1])
+            after_reading = suffix[1 + len(reading):]
+            if (closing is None or not suffix[1:].startswith(reading) or not after_reading or
+                    after_reading[0] not in '）。、・;；:： 　)' or not suffix.endswith(closing)):
+                errors.append(f'{label}: exact parenthesized reading required')
+        order.append((position, start))
+    if order != sorted(order):
+        errors.append('lexicon: first occurrences must follow segment/start order')
+    return errors
+
+
 def validate_document(data, repo_root=None):
     errors = [f"{'/'.join(map(str, e.absolute_path))}: {e.message}"
               for e in SCHEMA_VALIDATOR.iter_errors(data)]
@@ -451,6 +526,8 @@ def validate_document(data, repo_root=None):
         seen_aliases.add((alias['type'], alias['old_id']))
         if exists(collection, alias['new_id'], alias['old_id']) and alias['type'] == 'segment':
             spans(alias, indexes[collection][alias['new_id']], alias['old_id'])
+
+    errors.extend(validate_lexicon_occurrences(data, repo_root))
 
     review = data['workflow'].get('full_review', {})
     if review.get('status') == 'complete':

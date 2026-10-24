@@ -89,6 +89,9 @@
     },
     "provenance": {
       "type": "object"
+    },
+    "lexicon": {
+      "$ref": "#/$defs/Lexicon"
     }
   },
   "required": [
@@ -1590,6 +1593,64 @@
       },
       "required": [
         "stage"
+      ],
+      "additionalProperties": false
+    },
+    "Lexicon": {
+      "type": "object",
+      "properties": {
+        "dictionary_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]*$"
+        },
+        "file": {
+          "type": "string",
+          "pattern": "^lexicons/[A-Za-z0-9][A-Za-z0-9_-]*\\.yaml$"
+        },
+        "first_occurrences": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/LexiconOccurrence"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "dictionary_id",
+        "file",
+        "first_occurrences"
+      ],
+      "additionalProperties": false
+    },
+    "LexiconOccurrence": {
+      "type": "object",
+      "properties": {
+        "entry_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "form_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "segment_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "translation_span": {
+          "$ref": "#/$defs/Span"
+        },
+        "rendered_text": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "entry_id",
+        "form_id",
+        "segment_id",
+        "translation_span",
+        "rendered_text"
       ],
       "additionalProperties": false
     }

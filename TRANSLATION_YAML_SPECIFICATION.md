@@ -34,6 +34,7 @@
 | `figures` | Figure[] | 任意 | 図の説明と配置、対応する画像・図中文字 |
 | `aliases` | Alias[] | 任意 | 既に統合された旧IDなどの明示的な移動先 |
 | `terminology` | Term[] | 任意 | 用語、人名、呼称の統一に必要な対応 |
+| `lexicon` | Lexicon | 任意 | 共通辞書への参照と、この原稿本文の初出位置 |
 | `provenance` | object | 任意 | 元原稿の固定版・照合資料・移行の由来 |
 
 IDは `^[A-Za-z0-9][A-Za-z0-9._:-]*$` に一致する文字列とする。各配列の `id` はその配列内で一意。同じ文字列を別種別で使用した場合は、種別とIDの組で識別する。IDを配列位置・章番号・訳文から再生成しない。
@@ -207,13 +208,39 @@ ProvenanceはJSON互換の記録用マッピング。元原稿のリポジトリ
 
 原稿の正本は一つとする。旧原稿の完全な状態は固定Gitコミットへ残し、同じ作品の旧形式と新形式を二つの現役原稿として置かない。
 
+### 8.1 共通辞書と原稿ごとの初出
+
+省略可能な `lexicon` は、`dictionary_id: string`、`file: string`、`first_occurrences: LexiconOccurrence[]` を持つ。共通辞書には語の読み・意味・別表記・根拠・出典だけを保存し、各話の初出位置は各話の原稿YAMLへ保存する。原稿自身の `work_id` を初出ごとに複製しない。
+
+`dictionary_id` は英数字開始で英数字・`_`・`-` のみ。`file` はリポジトリルート相対で厳密に `lexicons/<dictionary_id>.yaml`。絶対パス、`..`、URL、辞書ディレクトリ外へ解決されるシンボリックリンクは不可。参照先の `dictionary_id` が一致し、参照するentryとformが存在することを検証する。辞書全体の語彙・出典の検証は辞書専用schemaと検証器で行う。
+
+LexiconOccurrenceの必須項目は `entry_id`、`form_id`、`segment_id`、`translation_span: Span`、`rendered_text: string`。`translation_span` は `translation_ja` 中の**語そのもの**を指し、`exact` は辞書formの `text` と完全一致する。`rendered_text` は同じstartから始まる語＋括弧付き読み・説明の実文字列。仮名のみの表記は同じ読みを重ねず、語のみ、または語＋説明を記録できる。
+
+配列は `segments` 順、同一segment内はstart順。各formについて一原稿一件。人が文脈を読んで選んだ初出を記録する。地の文・台詞・発言者名・詩を含み、回題・見出し・注本文は除外する。長い別名の一部や説明中の同じ文字列を、機械検索で独立した初出とみなさない。検証器は参照先・順序・文字範囲・本文表示を確認するが、語の網羅性と文脈上の初出判断は人の確認を要する。
+
+このobjectは必要な原稿だけに追加する。省略時に空objectや空配列をハッシュ計算へ補わないため、既存原稿のハッシュを変えない。存在する場合は通常の本文データと同じく内容ハッシュの対象とする。追加・変更した原稿は古い全文見直しハッシュを再使用せず、既存のレビュー規則に従う。
+
+例（ID・文字位置は説明用）：
+
+```yaml
+lexicon:
+  dictionary_id: "xiyouji"
+  file: "lexicons/xiyouji.yaml"
+  first_occurrences:
+    - entry_id: "stone-monkey"
+      form_id: "stone-monkey-form"
+      segment_id: "paragraph-1"
+      translation_span: {start: 0, end: 2, exact: "石猿"}
+      rendered_text: "石猿（いしざる・推定）"
+```
+
 ## 9. 進捗と全文見直し
 
 Workflowの必須は `stage: translating|reviewing|ready`。任意は `full_review: FullReview`。
 
 FullReviewの必須は `status: not_started|in_progress|complete`。`complete` は `completed_at: string`、`reviewed_by: string`、`content_sha256: string` を持つ。日時は引用符付きのUTCのISO 8601表記。逐次翻訳中の部分確認を完稿後の全文見直しとして記録しない。
 
-確認対象のハッシュは、`workflow` と `provenance` を除く文書データを [RFC 8785 JCS](https://www.rfc-editor.org/rfc/rfc8785.html) で正規化してUTF-8のSHA-256を計算する。省略された任意の最上位配列は、計算前に空配列へ補う。文字列のUnicode正規化は行わない。画像データはAssetに保持した実ファイルハッシュで対象へ含める。
+確認対象のハッシュは、`workflow` と `provenance` を除く文書データを [RFC 8785 JCS](https://www.rfc-editor.org/rfc/rfc8785.html) で正規化してUTF-8のSHA-256を計算する。既存の任意の最上位配列（notes、references、groups、assets、figures、aliases、terminology）は、計算前に空配列へ補う。省略されたlexiconは補わない。文字列のUnicode正規化は行わない。画像データはAssetに保持した実ファイルハッシュで対象へ含める。
 
 `ready` の条件は次のすべて。
 
