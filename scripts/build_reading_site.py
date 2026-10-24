@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the ten-chapter Xiyouji reader from validated, canonical YAML 2.0."""
+"""Build the explicitly published Xiyouji chapters from canonical YAML 2.0."""
 import argparse
 import html
 from collections import defaultdict
@@ -8,8 +8,10 @@ from urllib.parse import urlsplit
 
 from translation_yaml import ROOT, load_document, validate_document
 
-CHAPTERS = tuple(f"xiyouji-chapter-{n:03d}-zh-ja.yaml" for n in range(1, 11))
-NUMERALS = ("一", "二", "三", "四", "五", "六", "七", "八", "九", "十")
+PUBLISHED_CHAPTER_COUNT = 11
+CHAPTERS = tuple(f"xiyouji-chapter-{n:03d}-zh-ja.yaml" for n in range(1, PUBLISHED_CHAPTER_COUNT + 1))
+NUMERALS = ("一", "二", "三", "四", "五", "六", "七", "八", "九", "十",
+            "十一", "十二", "十三", "十四", "十五", "十六", "十七", "十八", "十九", "二十")
 DISCLAIMER = "日本語訳：ChatGPT（AIによる新訳）。専門家による独立校訂は未実施。"
 
 

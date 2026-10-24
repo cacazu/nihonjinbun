@@ -41,18 +41,21 @@ def without_annotations(data):
 
 
 class ParagraphGlossTests(unittest.TestCase):
-    def test_all_ten_chapters_preserve_content_explanations_and_references(self):
+    def test_published_chapters_preserve_content_explanations_and_references(self):
         expected = json.loads((ROOT / 'tests/fixtures/paragraph_glosses_before.json').read_text())
         for number, name in enumerate(reader.CHAPTERS, 1):
             with self.subTest(chapter=number):
                 data = load_document(ROOT / 'translations/wu-chengen' / name)
                 self.assertEqual([], validate_document(data, ROOT))
-                before = expected[str(number)]
-                self.assertEqual(before['content_without_annotations'], fingerprint(without_annotations(data)))
-                glosses = [[o['segment_id'], o['form_id'], o['gloss_ja']]
-                           for o in data['lexicon']['first_occurrences'] if 'gloss_ja' in o]
-                self.assertEqual(before['gloss_count'], len(glosses))
-                self.assertEqual(before['glosses'], fingerprint(glosses))
+                # The original regression fingerprints cover chapters 1–10;
+                # paragraph rendering below is checked for every published chapter.
+                if str(number) in expected:
+                    before = expected[str(number)]
+                    self.assertEqual(before['content_without_annotations'], fingerprint(without_annotations(data)))
+                    glosses = [[o['segment_id'], o['form_id'], o['gloss_ja']]
+                               for o in data['lexicon']['first_occurrences'] if 'gloss_ja' in o]
+                    self.assertEqual(before['gloss_count'], len(glosses))
+                    self.assertEqual(before['glosses'], fingerprint(glosses))
                 page = Elements(reader.render_chapter(data, number))
                 for segment in data['segments']:
                     items = [o for o in data['lexicon']['first_occurrences'] if o['segment_id'] == segment['id']]

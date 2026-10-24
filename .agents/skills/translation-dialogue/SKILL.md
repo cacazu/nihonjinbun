@@ -36,7 +36,7 @@ description: nihonjinbun の翻訳作成・改訂・レビュー、共通辞書�
 ## 読書HTMLとGitHub Pages
 
 - 正本は各話の翻訳YAML。生成器は `scripts/build_reading_site.py`、CSSの正本は `scripts/reading_site.css`。`docs/` のHTMLやCSSを直接直さず、対象の正本を修正して再生成する。HTML化のために原文・固定ID・順序を書き換えない。
-- 公開対象は生成器の `CHAPTERS` に明示した第一回〜第十回。`docs/` には `index.html`、`chapter-001.html`〜`chapter-010.html`、`assets/reading.css`、`.nojekyll` を生成する。未依頼の回、辞書、原稿、作業スキルを公開物へコピーしない。
+- 公開対象は生成器の `PUBLISHED_CHAPTER_COUNT` と `CHAPTERS` に明示した回だけ。新しい回を依頼に沿って追加するときは、その回の本文・辞書・初出・レビューを整えてから公開範囲を一回ずつ延ばす。`docs/` には `index.html`、指定回の `chapter-NNN.html`、`assets/reading.css`、`.nojekyll` を生成する。未依頼の回、辞書、原稿、作業スキルを公開物へコピーしない。
 - トップは目次とリポジトリリンクのみ。各話はタイトル・日本語本文（段落末の意味説明を含む）・注釈と、上下両方の「前の話・次の話・目次に戻る」のみ。第一回には前の話、最終公開回には次の話を付けない。訳注・解釈の留保・出典・帰属・利用条件は注釈欄へまとめる。
 - サイト内リンクは相対パスを維持し、GitHub Pagesのサブパスでも参照できるようにする。現行サイトはJavaScript・表示切替・設定保存・外部フォント・アクセス解析を使わない。旧 `scripts/reading_site.js` とそのテストを、公開サイトに必要なものとして戻さない。
 - ローカル表示は `python -m http.server 8000 --directory docs` で配信し、`http://localhost:8000/` を開く。PC幅・スマートフォン幅で改行、読み、段落末の意味、訳注との往復、上下の移動リンクを確認する。単体テストの合格を実ブラウザ確認と呼ばない。
