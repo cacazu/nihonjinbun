@@ -1826,6 +1826,14 @@
     "title": "上清靈寶大法 卷之六十二（公開翻刻）"
     "url": "https://inchia9688.blogspot.com/2025/04/blog-post_23.html"
     "accessed_at": "2026-10-24"
+  - "id": "xy-ch33-source-1500615"
+    "title": "西遊記/第033回（取得ページが示す固定版1500615）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第033回&oldid=1500615"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch33-4gamer-readings"
+    "title": "4Gamer.net 剣と魔法の博物館 第42回・紫金紅葫蘆（読み表記のみ参照）"
+    "url": "https://www.4gamer.net/weekly/sandm/042/sandm_042.shtml"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -19180,6 +19188,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+      - "id": "xy-ch33-demon-subduing-staff-form"
+        "text": "降妖棒"
+        "relation": "alias"
+        "reading":
+          "kana": "ごうようぼう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
   - "id": "xy-entry-0887"
     "kind": "concept"
     "headword": "白虎"
@@ -36444,6 +36460,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
+      - "id": "xy-ch33-hundred-patch-robe-form"
+        "text": "百衲衣"
+        "relation": "alias"
+        "reading":
+          "kana": "ひゃくのうえ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
   - "id": "xy-entry-1798"
     "kind": "object"
     "headword": "呂公絛"
@@ -39557,3 +39581,418 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+  - "id": "xy-ch33-six-tactics-three-strategies"
+    "kind": "title"
+    "headword": "六韜三略"
+    "definition_ja": "六韜と三略という、中国古代の二つの兵法書。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-six-tactics-three-strategies-form"
+        "text": "六韜三略"
+        "relation": "preferred"
+        "reading":
+          "kana": "りくとうさんりゃく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-star-cap"
+    "kind": "object"
+    "headword": "星冠"
+    "definition_ja": "道士が着ける冠の呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-star-cap-form"
+        "text": "星冠"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいかん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-cloud-shoes"
+    "kind": "object"
+    "headword": "雲履"
+    "definition_ja": "道士・仙人の履物の呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-cloud-shoes-form"
+        "text": "雲履"
+        "relation": "preferred"
+        "reading":
+          "kana": "うんり"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-qingniu-daoshi"
+    "kind": "person"
+    "headword": "清牛道士"
+    "definition_ja": "仙人らしい姿の比較に挙げられる道士の呼称。底本の清牛という表記を保持し、特定の伝説上の人物への同定は留保する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-qingniu-daoshi-form"
+        "text": "清牛道士"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいぎゅうどうし"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-suquan-xiansheng"
+    "kind": "title"
+    "headword": "素券先生"
+    "definition_ja": "道士の威容をたとえる呼称。固有人物名なのか道士の位号なのかは本文だけでは確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-suquan-xiansheng-form"
+        "text": "素券先生"
+        "relation": "preferred"
+        "reading":
+          "kana": "そけんせんせい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-north-dipper-scripture"
+    "kind": "object"
+    "headword": "北斗経"
+    "definition_ja": "北斗の星神をめぐる道教の経典。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-north-dipper-scripture-form"
+        "text": "北斗経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほくときょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-south-dipper-scripture"
+    "kind": "object"
+    "headword": "南斗経"
+    "definition_ja": "南斗の星神をめぐる道教の経典。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-south-dipper-scripture-form"
+        "text": "南斗経"
+        "relation": "preferred"
+        "reading":
+          "kana": "なんときょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-emei-mountain"
+    "kind": "place"
+    "headword": "峨嵋山"
+    "definition_ja": "中国の名山。物語では銀角大王が空中へ移して悟空を押さえようとする山の一つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-emei-mountain-form"
+        "text": "峨嵋山"
+        "relation": "preferred"
+        "reading":
+          "kana": "がびさん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-black-killing-deity"
+    "kind": "person"
+    "headword": "黒殺神"
+    "definition_ja": "戦闘の詩で妖怪の凶悪な姿をたとえる神名。底本の黒殺という表記を保持する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-black-killing-deity-form"
+        "text": "黒殺神"
+        "relation": "preferred"
+        "reading":
+          "kana": "こくさつしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-purple-gold-red-gourd"
+    "kind": "object"
+    "headword": "紫金紅葫蘆"
+    "definition_ja": "呼ばれて応じた者を中へ収め、封じると溶かす宝の瓢箪。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-purple-gold-red-gourd-form"
+        "text": "紫金紅葫蘆"
+        "relation": "preferred"
+        "reading":
+          "kana": "しきんべにひさご"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch33-4gamer-readings"
+          "reason_ja": "参照記事がこの語形の日本語仮名を明記していることを確認。記事の物語要約は翻訳の底本にせず、読みのみ採用。"
+      - "id": "xy-red-gourd-form"
+        "text": "紅葫蘆"
+        "relation": "short_form"
+        "reading":
+          "kana": "べにひさご"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-mutton-fat-jade-vase"
+    "kind": "object"
+    "headword": "羊脂玉浄瓶"
+    "definition_ja": "羊の脂のように白い玉の瓶。呼ばれて応じた者を中へ収める宝物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-mutton-fat-jade-vase-form"
+        "text": "羊脂玉浄瓶"
+        "relation": "preferred"
+        "reading":
+          "kana": "ようしぎょくじょうへい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+      - "id": "xy-jade-vase-form"
+        "text": "玉浄瓶"
+        "relation": "short_form"
+        "reading":
+          "kana": "ぎょくじょうへい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-jingxigui"
+    "kind": "person"
+    "headword": "精細鬼"
+    "definition_ja": "蓮花洞の小妖。宝の瓢箪を持って悟空を捕らえるよう命じられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-jingxigui-form"
+        "text": "精細鬼"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいさいき"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch33-4gamer-readings"
+          "reason_ja": "参照記事がこの語形の日本語仮名を明記していることを確認。記事の物語要約は翻訳の底本にせず、読みのみ採用。"
+  - "id": "xy-linglichong"
+    "kind": "person"
+    "headword": "伶俐虫"
+    "definition_ja": "蓮花洞の小妖。宝の瓶を持って悟空を捕らえるよう命じられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-linglichong-form"
+        "text": "伶俐虫"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいりちゅう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch33-4gamer-readings"
+          "reason_ja": "参照記事がこの語形の日本語仮名を明記していることを確認。記事の物語要約は翻訳の底本にせず、読みのみ採用。"
+  - "id": "xy-ch33-urgent-ritual-command"
+    "kind": "term"
+    "headword": "急急如律令"
+    "definition_ja": "法の命令のように急いで実行せよ、という呪文の定型句。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-urgent-ritual-command-form"
+        "text": "急急如律令"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうきゅうにょりつりょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-brief-moment"
+    "kind": "term"
+    "headword": "一時三刻"
+    "definition_ja": "ごく短い時間をいう表現。細かな現代時間へ換算しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-brief-moment-form"
+        "text": "一時三刻"
+        "relation": "preferred"
+        "reading":
+          "kana": "いちじさんこく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-quanzhen"
+    "kind": "concept"
+    "headword": "全真"
+    "definition_ja": "真の道を修めること。道士に用いられる呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-quanzhen-form"
+        "text": "全真"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぜんしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-jianban"
+    "kind": "object"
+    "headword": "簡板"
+    "definition_ja": "道士の歌などに合わせて打ち鳴らす板状の楽器。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-jianban-form"
+        "text": "簡板"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんばん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-day-patrol-god"
+    "kind": "person"
+    "headword": "日遊神"
+    "definition_ja": "昼に巡回する神。悟空の依頼を天上へ伝える。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-day-patrol-god-form"
+        "text": "日遊神"
+        "relation": "preferred"
+        "reading":
+          "kana": "にちゆうしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-night-patrol-god"
+    "kind": "person"
+    "headword": "夜遊神"
+    "definition_ja": "夜に巡回する神。悟空が天上への使いとして呼び出す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-night-patrol-god-form"
+        "text": "夜遊神"
+        "relation": "preferred"
+        "reading":
+          "kana": "やゆうしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-north-heaven-gate"
+    "kind": "place"
+    "headword": "北天門"
+    "definition_ja": "天界の北の門。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-north-heaven-gate-form"
+        "text": "北天門"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほくてんもん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-black-eagle-banner"
+    "kind": "object"
+    "headword": "皂雕旗"
+    "definition_ja": "真武が持つ黒い旗。この物語では広げると日・月・星の光を覆い隠す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-black-eagle-banner-form"
+        "text": "皂雕旗"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうちょうき"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch33-bohai"
+    "kind": "place"
+    "headword": "渤海"
+    "definition_ja": "中国の北方にある海。悟空が小妖を脅かす作り話に挙げる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch33-source-1500615"
+      "reason_ja": "取得した第三十三回の原文用例・語構成を根拠とする編集上の説明。歴史上の同定や術語の細部を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch33-bohai-form"
+        "text": "渤海"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼっかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
