@@ -27,7 +27,7 @@
 
 1. ルートREADME → 翻訳スキル → 西遊記README → 対象回とこの辞書の順に確認する。
 2. 全本文を読み、対象語・別名・初出を確認し、資料の読みと語義を照合する。未確定の読みは辞書内に推定と根拠を記す。
-3. 原文・固定ID・順序を保って本文へ読みと説明を入れ、その回の `lexicon.first_occurrences` と本文側のすべての注参照spanを更新する。調査した読み・意味・別名・出典は共通辞書へ反映する。独立校訂を実施していなければ完了扱いにしない。
+3. 原文・固定ID・順序を保って本文へ `語（よみ）` を入れ、採用する意味説明はその回の `lexicon.first_occurrences` の `gloss_ja` に保存する。意味は読書HTMLの当該段落末に表示し、読みの括弧内には入れない。初出の `translation_span`・`rendered_text` と本文側のすべての注参照spanを更新する。調査した読み・意味・別名・出典は共通辞書へ反映する。独立校訂を実施していなければ完了扱いにしない。
 4. 通常の語彙追加・対象回の改訂では次の対象別検証を実行し、差分・対象読書ページ・その回の初出を目視で確認する。生成HTMLを直接編集しない。対象回のパスは作業する回に置き換える。
 
 ```sh
@@ -36,9 +36,10 @@ python scripts/translation_yaml.py translations/wu-chengen/xiyouji-chapter-001-z
 python -m unittest discover -s tests -p test_xiyouji_lexicon.py
 python -m unittest discover -s tests -p test_lexicon_occurrences.py
 python scripts/build_reading_site.py
+python -m unittest discover -s tests -p test_paragraph_glosses.py
 python -m unittest discover -s tests -p test_reading_site.py
 ```
 
-本文を変更した場合は、対象原稿の目録ハッシュも更新する。辞書だけの変更では目録・読書HTMLの更新は不要。
+原稿YAML（初出記録・`gloss_ja` を含む）を変更した場合は、`python scripts/sync_catalog.py` で目録ハッシュも更新し、対象外の差分がないことを確認する。辞書だけの変更では目録・読書HTMLの更新は不要だが、formの表記・読み・IDを変えた場合は利用する各話との整合を検証する。
 
-共有schema・共通検証器などの変更で他作品への影響が想定される場合は、影響範囲を判断して既存翻訳検証テストや全件検証を追加する。通常の語彙追加のたびに全原稿・全テストを反復実行しない。目録全体を再同期する必要がある場合のみ `python scripts/sync_catalog.py` を使い、無関係な差分がないことを確認する。
+共有schema・共通検証器などの変更で他作品への影響が想定される場合は、影響範囲を判断して既存翻訳検証テストや全件検証を追加する。通常の語彙追加のたびに全原稿・全テストを反復実行しない。HTMLの公開範囲・表示規則・検証とコミット・プッシュは[翻訳スキル](../.agents/skills/translation-dialogue/SKILL.md)に従う。

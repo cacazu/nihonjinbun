@@ -1,11 +1,11 @@
 ---
 name: translation-dialogue
-description: nihonjinbun の翻訳作成・改訂・レビュー時に、ルートREADMEから作品別の人物口調ガイドへ進み、話者を明記した一貫した日本語訳と検証を行う。
+description: nihonjinbun の翻訳作成・改訂・レビュー、共通辞書と各話の読み・意味説明の整備、読書HTMLの生成・検証・GitHubへの反映に使う。ルートREADMEから作品別ガイドへ進み、原文と固定IDを保って作業する。
 ---
 
-# 人物の口調設計と会話翻訳
+# 翻訳・辞書・読書HTMLの作業手順
 
-このリポジトリの翻訳を作成・改訂・レビューする際に使用する。本文の保存形式はルートの `TRANSLATION_YAML_SPECIFICATION.md` に従う。
+このリポジトリの翻訳・辞書・読書サイトを整備する際に使用する。本文の保存形式はルートの `TRANSLATION_YAML_SPECIFICATION.md` に従う。辞書やHTMLだけの依頼で、未依頼の翻訳・口調改訂・公開範囲の拡大を行わない。
 
 ## 必須の作業順序
 
@@ -18,6 +18,52 @@ description: nihonjinbun の翻訳作成・改訂・レビュー時に、ルー�
 5. 会話の全発言を原文と照合する。各セリフの前に発言者を付け、口調の一貫性と意味・敬意・感情の保持を確認する。既存訳が適切なら、修正件数のためだけに書き換えない。
 6. 問題・修正点を記録し、作品固有の人物判断は作品 README、他作品にも起こる手順上の問題はこのスキルへ反映する。変更した手順でもう一度対象訳を確認する。
 7. YAML仕様に従い内容ハッシュ・目録・参照・レビュー状態を整合させ、差分とテストを確認し、依頼対象の変更だけをコミット・プッシュする。変更対象、保持した原文・ID、検証結果、未確認範囲を報告する。
+
+辞書・HTMLのみの作業でも読み順は同じ。人物ガイドの新規作成・口調改訂は対象に必要な場合だけ行い、以下の該当手順へ進む。
+
+## 共通辞書と各話の初出
+
+西遊記では、作品 README の「各話初出の読み・難語説明と西遊記辞書」を読んだうえで、[辞書の項目・根拠の仕様](../../../lexicons/README.md)と[翻訳YAML仕様8.1](../../../TRANSLATION_YAML_SPECIFICATION.md#81-共通辞書と原稿ごとの初出)に従う。
+
+- **共通辞書** `lexicons/xiyouji.yaml` は西遊記全体で一つ。語の意味 `definition_ja`、意味の根拠 `definition_evidence`、別名・称号・異表記の `forms`、各formの `reading`、出典を保存する。同じ人物の別名は同じentryのformsにまとめる。回ID・段落ID・初出位置・本文表示を辞書へ入れず、辞書を翻訳原稿として `catalog.yaml` へ登録しない。
+- **各話の初出** はその回の正本YAMLの `lexicon` に `dictionary_id: xiyouji`、`file: lexicons/xiyouji.yaml`、`first_occurrences` として保存する。各要素は `entry_id`、`form_id`、`segment_id`、`translation_span`、`rendered_text` を持つ。語の登録と、その語を本文で注釈する判断は別にする。
+- 各話ごと・各表記（form）ごとに本文の初出を確認し、一件ずつ本文順に記録する。地の文・台詞・発言者名・詩を対象にし、回題・見出し・注本文・説明括弧内だけの出現・長い別名の部分一致は除く。前の回で既出でも、その回の初出には読みを付ける。検索の最初の一致を無条件に採用しない。
+- `translation_span` は読みを除く**語そのもの**の範囲。Unicodeコードポイントで0始まりの `[start, end)` とし、`translation_ja[start:end] == exact == form.text` を保つ。`rendered_text` は同じstartからの実文字列 `語（よみ）` と一致させる。仮名だけの表記は読みを重ねず、語だけでよい。同一段落内の初出はstart順に並べる。
+- 読みは語の直後の括弧に残す。意味説明を採用する場合は初出要素の `gloss_ja` に分離し、HTMLでは**その本文段落（Segment）の末尾**に `語：意味` として初出順に表示する。意味を読みの括弧へ戻したり、章末へ集約したりしない。詩の改行、発言者ラベル、原訳にある自然な説明文は保持する。読みだけの初出へ、表示変更を理由に意味を新規追加しない。共通語義の改訂だけで既存の `gloss_ja` を自動的に置き換えない。
+- 読みを調べても確定できなければ省略せず、根拠を伴う推定を採用する。辞書の `reading.status`・`definition_evidence.status` と `source_ids`・`reason_ja` に確度を残し、資料で確認したものだけを `verified` とする。本文・HTMLの読みに「推定」などの確度ラベルを出さないが、表示を消すために辞書の `estimated` を `verified` へ変えない。本文に関する解釈の留保や必要な訳注は別途保持する。
+- 姑・舅など現代の一般的な語に、読みや意味を機械的に付けない。人物名・地名・固有名詞の読みと、古典特有の難解な語義・制度・宗教用語の説明に絞る。本文から注釈を外したら各話の初出記録も合わせるが、共通辞書の語は残してよい。
+
+## 読書HTMLとGitHub Pages
+
+- 正本は各話の翻訳YAML。生成器は `scripts/build_reading_site.py`、CSSの正本は `scripts/reading_site.css`。`docs/` のHTMLやCSSを直接直さず、対象の正本を修正して再生成する。HTML化のために原文・固定ID・順序を書き換えない。
+- 公開対象は生成器の `CHAPTERS` に明示した第一回〜第十回。`docs/` には `index.html`、`chapter-001.html`〜`chapter-010.html`、`assets/reading.css`、`.nojekyll` を生成する。未依頼の回、辞書、原稿、作業スキルを公開物へコピーしない。
+- トップは目次とリポジトリリンクのみ。各話はタイトル・日本語本文（段落末の意味説明を含む）・注釈と、上下両方の「前の話・次の話・目次に戻る」のみ。第一回には前の話、最終公開回には次の話を付けない。訳注・解釈の留保・出典・帰属・利用条件は注釈欄へまとめる。
+- サイト内リンクは相対パスを維持し、GitHub Pagesのサブパスでも参照できるようにする。現行サイトはJavaScript・表示切替・設定保存・外部フォント・アクセス解析を使わない。旧 `scripts/reading_site.js` とそのテストを、公開サイトに必要なものとして戻さない。
+- ローカル表示は `python -m http.server 8000 --directory docs` で配信し、`http://localhost:8000/` を開く。PC幅・スマートフォン幅で改行、読み、段落末の意味、訳注との往復、上下の移動リンクを確認する。単体テストの合格を実ブラウザ確認と呼ばない。
+
+## 対象別の検証とコミット・プッシュ
+
+以下はリポジトリルートで実行する。依存が未導入なら `python -m pip install -r requirements.txt`。対象回のパスは依頼範囲に置き換え、該当する検証を選ぶ。
+
+```sh
+# 辞書の語彙・根拠と、対象回の初出・注参照を別々に検証
+python scripts/validate_xiyouji_lexicon.py
+python scripts/translation_yaml.py translations/wu-chengen/xiyouji-chapter-001-zh-ja.yaml
+python -m unittest discover -s tests -p test_xiyouji_lexicon.py
+python -m unittest discover -s tests -p test_lexicon_occurrences.py
+
+# 本文・初出・gloss_jaまたは生成器・CSSを変更した場合
+python scripts/build_reading_site.py
+python -m unittest discover -s tests -p test_paragraph_glosses.py
+python -m unittest discover -s tests -p test_reading_site.py
+```
+
+- 原稿YAMLを変更した場合は `python scripts/sync_catalog.py` で目録を同期し、対象外の差分がないことを確認する。目録の実バイトハッシュと全文見直し用の内容ハッシュは別物。内容ハッシュの取得は `python scripts/translation_yaml.py 対象回.yaml --hash` だが、実際に全文見直しを完了していなければ `workflow.full_review` を完了へ変更しない。古い確認ハッシュの使い回しや、検証を通すためだけの更新をしない。
+- 辞書だけの変更では目録・HTMLの再生成は不要。ただしformの表記・読み・IDを変更したら、利用する各話の初出記録との整合を検証する。文書だけの変更も原稿や生成物へ不要な差分を作らない。
+- 共有schema・検証器・目録処理などの変更では、影響範囲に応じて `python scripts/translation_yaml.py`（全原稿と目録）、`python -m unittest discover -s tests`（全Pythonテスト）を追加する。通常の語彙追加では対象別検証を基本にし、機械検証だけで読み・語義・初出判断・網羅性を確認済みにしない。
+- `git status --short`、`git diff --check`、差分を確認する。依頼に関係する辞書・対象回YAML・目録・仕様／ガイド・生成 `docs/` を、実際に変更したものだけ明示してstageする。無関係な既存変更を巻き込まず、変更と検証がまとまった区切りでコミットし、設定済みのGitHubリモートの対象ブランチへプッシュする。
+- プッシュ前に現在のブランチ・上流・リモートを確認する。リモートが進んでいれば差分を確認して整合させ、強制プッシュや無関係な変更の破棄をしない。CLI認証が使えない場合、利用可能な認証済みGitHub連携で同じ差分を反映し、競合検知付きの通常更新を使う。新しい認証設定を勝手に始めない。失敗・結果不明時はリモートの状態を確認してから対応する。
+- リモートのコミットと変更内容を確認してから「プッシュ済み」と報告する。HTMLを更新した場合は、設定済みのPagesのデプロイ結果と確認できた公開URLも確かめる。プッシュ成功・Pagesデプロイ成功・実際の公開表示を区別し、未確認や失敗を明記する。Pagesの公開設定を新設・変更することは、この手順だけでは許可されない。文書だけの変更をサイト表示の更新として報告しない。
 
 ## 必須ルール
 
