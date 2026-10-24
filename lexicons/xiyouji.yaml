@@ -1798,6 +1798,34 @@
     "title": "コトバンク 奎"
     "url": "https://kotobank.jp/word/%E5%A5%8E-488047"
     "accessed_at": "2026-10-24"
+  - "id": "xy-ch32-primary-1808364"
+    "title": "西遊記 第三十二回 固定版1808364"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第032回&oldid=1808364"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch32-zdic-jiaoliao"
+    "title": "漢典「蟭蟟」"
+    "url": "https://zdic.net/hant/%E8%9F%AD%E8%9F%9F"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch32-zdic-jiao"
+    "title": "漢典「醮」"
+    "url": "https://zdic.net/hans/%E9%86%AE"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch32-yingshen-definition"
+    "title": "字典網「影神」"
+    "url": "https://zidian.openi.cn/cidian/yingshen/"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch32-jiao-fenwei-research"
+    "title": "中央研究院歴史語言研究所公開の黎志添論文、490頁注259"
+    "url": "https://www11.ihp.sinica.edu.tw/storage/w2_file/3031IDIxVGb.pdf"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch32-jinpingmei39-parallel"
+    "title": "金瓶梅詞話 第三十九回（公開電子版）"
+    "url": "https://static.latexstudio.net/wp-content/uploads/2013/03/JinPingMei_20120105.pdf"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch32-lingbao62-transcription"
+    "title": "上清靈寶大法 卷之六十二（公開翻刻）"
+    "url": "https://inchia9688.blogspot.com/2025/04/blog-post_23.html"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -11601,6 +11629,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の通常の日本語音訓、仏教語の慣用音と本文の文脈から推定。語形全体の仮名読みを直接示す資料による確認は未了。"
+      - "id": "xy-day-duty-merit-officer-form"
+        "text": "日値功曹"
+        "relation": "title"
+        "reading":
+          "kana": "にっちこうそう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "底本の「日值功曹」を日本の字体で「日値功曹」とする。日（ニチ）・値（チ）・功曹（コウソウ）から促音化して推定。日直と表記する慣行へ無断統一せず、この語形全体の仮名を明記する資料は未確認。"
   - "id": "xy-entry-0499"
     "kind": "term"
     "headword": "星斗"
@@ -33556,6 +33592,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-uchao-monk-form"
+        "text": "烏巣和尚"
+        "relation": "alias"
+        "reading":
+          "kana": "うそうおしょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
   - "id": "xy-entry-1647"
     "kind": "term"
     "headword": "柏槇"
@@ -33656,6 +33700,14 @@
           "source_ids":
             - "xy-reference-393"
           "reason_ja": "出典に示された当該語形全体の日本語仮名を直接確認した。"
+      - "id": "xy-heart-sutra-short-form"
+        "text": "心経"
+        "relation": "short_form"
+        "reading":
+          "kana": "しんぎょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
   - "id": "xy-entry-1652"
     "kind": "concept"
     "headword": "般若波羅蜜多"
@@ -39319,3 +39371,189 @@
           "source_ids":
             - "xy-ch31-primary"
           "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+  - "id": "xy-flat-summit-mountain"
+    "kind": "place"
+    "headword": "平頂山"
+    "definition_ja": "一行が通りかかる険しい山。山中に蓮花洞がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch32-primary-1808364"
+      "reason_ja": "固定版の語の使用箇所と文脈から対象を確認した編集上の説明。原文にない来歴や後の正体は加えない。"
+    "forms":
+      - "id": "xy-flat-summit-mountain-form"
+        "text": "平頂山"
+        "relation": "preferred"
+        "reading":
+          "kana": "へいちょうざん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+  - "id": "xy-lotus-cave"
+    "kind": "place"
+    "headword": "蓮花洞"
+    "definition_ja": "平頂山にある洞窟。二人の魔王が住む。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch32-primary-1808364"
+      "reason_ja": "固定版の語の使用箇所と文脈から対象を確認した編集上の説明。原文にない来歴や後の正体は加えない。"
+    "forms":
+      - "id": "xy-lotus-cave-form"
+        "text": "蓮花洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "れんげどう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+  - "id": "xy-golden-horn-king"
+    "kind": "person"
+    "headword": "金角大王"
+    "definition_ja": "蓮花洞にいる二人の妖怪の兄。弟に唐僧一行を捕らえるよう命じる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch32-primary-1808364"
+      "reason_ja": "固定版の語の使用箇所と文脈から対象を確認した編集上の説明。原文にない来歴や後の正体は加えない。"
+    "forms":
+      - "id": "xy-golden-horn-king-form"
+        "text": "金角大王"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんかくだいおう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+  - "id": "xy-silver-horn-king"
+    "kind": "person"
+    "headword": "銀角大王"
+    "definition_ja": "蓮花洞にいる二人の妖怪の弟。配下を率いて山を巡回する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch32-primary-1808364"
+      "reason_ja": "固定版の語の使用箇所と文脈から対象を確認した編集上の説明。原文にない来歴や後の正体は加えない。"
+    "forms":
+      - "id": "xy-silver-horn-king-form"
+        "text": "銀角大王"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎんかくだいおう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+  - "id": "xy-seven-star-sword"
+    "kind": "object"
+    "headword": "七星剣"
+    "definition_ja": "銀角大王が八戒との戦いで使う剣。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch32-primary-1808364"
+      "reason_ja": "固定版の語の使用箇所と文脈から対象を確認した編集上の説明。原文にない来歴や後の正体は加えない。"
+    "forms":
+      - "id": "xy-seven-star-sword-form"
+        "text": "七星剣"
+        "relation": "preferred"
+        "reading":
+          "kana": "しちせいけん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+  - "id": "xy-fire-virtue"
+    "kind": "person"
+    "headword": "火徳"
+    "definition_ja": "火をつかさどる神の呼称。ここでは南方に属する魔物の引渡し先として挙げられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch32-primary-1808364"
+      "reason_ja": "固定版の語の使用箇所と文脈から対象を確認した編集上の説明。原文にない来歴や後の正体は加えない。"
+    "forms":
+      - "id": "xy-fire-virtue-form"
+        "text": "火徳"
+        "relation": "preferred"
+        "reading":
+          "kana": "かとく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+  - "id": "xy-jiaoliao-insect"
+    "kind": "term"
+    "headword": "蟭蟟虫"
+    "definition_ja": "きわめて小さな虫の呼び名。語としては小さな緑色の蝉を指すが、物語では悟空の変身する微小な虫として描かれる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch32-primary-1808364"
+        - "xy-ch32-zdic-jiaoliao"
+      "reason_ja": "漢典「蟭蟟」は小型の緑色の蝉とする。本文の飛翔・潜伏描写も照合したが、現代の昆虫種への同定はしない。"
+    "forms":
+      - "id": "xy-jiaoliao-insect-form"
+        "text": "蟭蟟虫"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうりょうちゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+  - "id": "xy-original-yang"
+    "kind": "concept"
+    "headword": "元陽"
+    "definition_ja": "生命の根源となる陽の精気。この台詞では、性によって損なわれていない精気を指す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch32-primary-1808364"
+      "reason_ja": "金角大王の「一點元陽未泄」と、十世修行・長生の話のつながりから解釈する。実在の健康効果を述べる語ではない。"
+    "forms":
+      - "id": "xy-original-yang-form"
+        "text": "元陽"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんよう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+  - "id": "xy-image-spirit"
+    "kind": "term"
+    "headword": "影神"
+    "definition_ja": "肖像や人の姿を写した像。人の影や像に霊が宿るという考えを含みうる呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch32-primary-1808364"
+        - "xy-ch32-yingshen-definition"
+      "reason_ja": "語義資料の「人影有神靈」「畫像」と原文の「沒精神」「影神傳將來」を照合。八戒の迷信的な連想を語り手の事実認定にしない。"
+    "forms":
+      - "id": "xy-image-spirit-form"
+        "text": "影神"
+        "relation": "preferred"
+        "reading":
+          "kana": "えいしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+  - "id": "xy-pure-jiao-rite"
+    "kind": "term"
+    "headword": "清醮"
+    "definition_ja": "道士が壇を設けて、神に祈りや供物をささげる儀礼。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch32-primary-1808364"
+        - "xy-ch32-zdic-jiao"
+        - "xy-ch32-jiao-fenwei-research"
+        - "xy-ch32-jinpingmei39-parallel"
+        - "xy-ch32-lingbao62-transcription"
+      "reason_ja": "漢典「醮」の語義を確認。二十四分は、分位が祭壇上の神位を表すという歴史研究（490頁注259）、金瓶梅第三十九回の二十四分位、上清靈寶大法巻六十二の清醮三百六十分位という用例に照らして解釈。具体的な神名・祭式構成は断定しない。"
+    "forms":
+      - "id": "xy-pure-jiao-rite-form"
+        "text": "清醮"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいしょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
