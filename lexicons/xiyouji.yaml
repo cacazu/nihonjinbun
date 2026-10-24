@@ -1734,6 +1734,42 @@
     "title": "教育部重編國語辭典修訂本「三停」"
     "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=144442&la=0&powerMode=0"
     "accessed_at": "2026-10-24"
+  - "id": "xy-reference-434"
+    "title": "曹植（デジタル大辞泉ほか、コトバンク）"
+    "url": "https://kotobank.jp/word/%E6%9B%B9%E6%A4%8D-89461"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-435"
+    "title": "潘安再世（教育部《國語辭典簡編本》）"
+    "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=2745&la=0&powerMode=1"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-436"
+    "title": "擲果（教育部《重編國語辭典修訂本》）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=113762&q=1&word=%E6%9E%9C"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-437"
+    "title": "西遊記/第030回（中文維基文庫・固定版）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第030回&oldid=1455579"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-438"
+    "title": "漢字ペディア「褶」"
+    "url": "https://www.kanjipedia.jp/kanji/0004837300"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-439"
+    "title": "滿堂紅（教育部《重編國語辭典修訂本》）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=29790&la=1&powerMode=0"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-440"
+    "title": "手本（中日辞典第3版、コトバンク）"
+    "url": "https://kotobank.jp/zhjaword/%E6%89%8B%E6%9C%AC"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-441"
+    "title": "コトバンク・日本国語大辞典等「分（ぶ）」"
+    "url": "https://kotobank.jp/word/%E5%88%86-122190"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-reference-442"
+    "title": "コトバンク「寸」"
+    "url": "https://kotobank.jp/word/%E5%AF%B8-85418"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -5704,6 +5740,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成による推定。語形全体の日本語読みを示す信頼できる資料による直接確認はできていない。"
+      - "id": "xy-form-2300"
+        "text": "葬式棒"
+        "relation": "alias"
+        "reading":
+          "kana": "そうしきぼう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語に置き換えた語の通常の音訓による読み。原語は哭喪棒。"
   - "id": "xy-entry-0192"
     "kind": "person"
     "headword": "大禹"
@@ -19676,6 +19720,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "既存の同一人物の読み「竜馬（りゅうめ）」「玉竜三太子（ぎょくりゅうさんたいし）」に合わせた語構成上の推定。"
+      - "id": "xy-form-2290"
+        "text": "小竜王"
+        "relation": "alias"
+        "reading":
+          "kana": "しょうりゅうおう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
   - "id": "xy-entry-0915"
     "kind": "object"
     "headword": "明珠"
@@ -38505,3 +38557,377 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓からの推定。この語形の日本語読みを直接示す資料は未確認。"
+  - "id": "xy-entry-1918"
+    "kind": "person"
+    "headword": "曹植"
+    "definition_ja": "中国三国時代の魏の詩人。字は子建。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-434"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2279"
+        "text": "曹植"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうしょく"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-434"
+          "reason_ja": "デジタル大辞泉ほかの見出し「そう‐しょく」を確認。"
+      - "id": "xy-form-2280"
+        "text": "子建"
+        "relation": "alias"
+        "reading":
+          "kana": "しけん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1919"
+    "kind": "person"
+    "headword": "潘安"
+    "definition_ja": "晋の文人潘岳を指す呼び名。美男子の典型とされた。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-435"
+        - "xy-reference-436"
+      "reason_ja": "教育部の「潘安再世」は晋の美男子と説明し、「擲果」は潘岳に果物を投げ贈った故事を記す。"
+    "forms":
+      - "id": "xy-form-2281"
+        "text": "潘安"
+        "relation": "preferred"
+        "reading":
+          "kana": "はんあん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1920"
+    "kind": "object"
+    "headword": "鵲尾冠"
+    "definition_ja": "鵲の尾に似た形に作られた冠。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2282"
+        "text": "鵲尾冠"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゃくびかん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1921"
+    "kind": "object"
+    "headword": "玉羅褶"
+    "definition_ja": "美しい薄絹で作った、広袖の上衣。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2283"
+        "text": "玉羅褶"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくらしゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-reference-438"
+          "reason_ja": "漢字ペディアの褶の音シュウと衣服語袴褶の読みを参照した語構成による推定。玉羅褶全体の慣用読みは未確認。"
+  - "id": "xy-entry-1922"
+    "kind": "title"
+    "headword": "駙馬"
+    "definition_ja": "皇帝や王の娘の婿をいう称号。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2284"
+        "text": "駙馬"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふば"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1923"
+    "kind": "concept"
+    "headword": "黒眼定身法"
+    "definition_ja": "黄袍怪が三蔵を虎の姿に変える際に使う術の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2285"
+        "text": "黒眼定身法"
+        "relation": "preferred"
+        "reading":
+          "kana": "こくがんていしんほう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1924"
+    "kind": "title"
+    "headword": "校尉"
+    "definition_ja": "兵を率いる武官の称号。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2286"
+        "text": "校尉"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1925"
+    "kind": "place"
+    "headword": "朝房"
+    "definition_ja": "宮廷で官人が控え、用務を行う部屋。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2287"
+        "text": "朝房"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうぼう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1926"
+    "kind": "place"
+    "headword": "銀安殿"
+    "definition_ja": "宝象国の宮殿。黄袍怪の酒宴が開かれる殿。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2288"
+        "text": "銀安殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎんあんでん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1927"
+    "kind": "place"
+    "headword": "金亭館駅"
+    "definition_ja": "三蔵一行が宝象国で宿泊する駅館の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2289"
+        "text": "金亭館駅"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんていかんえき"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1928"
+    "kind": "concept"
+    "headword": "功果"
+    "definition_ja": "修行や善行によって積む功徳と、その成果。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2291"
+        "text": "功果"
+        "relation": "preferred"
+        "reading":
+          "kana": "くか"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1929"
+    "kind": "object"
+    "headword": "満堂紅"
+    "definition_ja": "祝いの席で用いる灯明具。ここでは鉄製の燭台。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-439"
+        - "xy-reference-437"
+      "reason_ja": "教育部「滿堂紅」第一義に燭台があり、第30回の本句を例示する。鉄製・重量は本回本文。"
+    "forms":
+      - "id": "xy-form-2292"
+        "text": "満堂紅"
+        "relation": "preferred"
+        "reading":
+          "kana": "まんどうこう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1930"
+    "kind": "concept"
+    "headword": "逼水法"
+    "definition_ja": "水を押し留め、液体が杯の縁からこぼれないようにする術。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2293"
+        "text": "逼水法"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひつすいほう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1931"
+    "kind": "place"
+    "headword": "御水河"
+    "definition_ja": "宝象国の宮中付近を流れる川。竜馬が潜って難を逃れる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2294"
+        "text": "御水河"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょすいが"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1932"
+    "kind": "term"
+    "headword": "時辰"
+    "definition_ja": "一昼夜を十二に分けた時間の単位。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2295"
+        "text": "時辰"
+        "relation": "preferred"
+        "reading":
+          "kana": "じしん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1933"
+    "kind": "term"
+    "headword": "手本"
+    "definition_ja": "身元や用件を記して差し出す短い書面。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-440"
+      "reason_ja": "中日辞典第3版は明清期の名刺とし、門下生から師、官人から上官への面会に用いると説明する。"
+    "forms":
+      - "id": "xy-form-2296"
+        "text": "手本"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅほん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1934"
+    "kind": "place"
+    "headword": "玉女洗頭盆"
+    "definition_ja": "仙女が髪を洗う鉢・水盤にたとえた、花果山上方の水の景。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2297"
+        "text": "玉女洗頭盆"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくじょせんとうぼん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1935"
+    "kind": "place"
+    "headword": "洞天福地"
+    "definition_ja": "仙人が住むとされる、恵まれた霊地。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2298"
+        "text": "洞天福地"
+        "relation": "preferred"
+        "reading":
+          "kana": "どうてんふくち"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1936"
+    "kind": "object"
+    "headword": "楊梅"
+    "definition_ja": "赤い実のなるヤマモモの木、またその果実。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-reference-437"
+      "reason_ja": "第30回固定本文の指示対象と漢語の語構成に基づく。後の正体や展開は含めない。"
+    "forms":
+      - "id": "xy-form-2299"
+        "text": "楊梅"
+        "relation": "preferred"
+        "reading":
+          "kana": "やまもも"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+  - "id": "xy-entry-1937"
+    "kind": "term"
+    "headword": "分"
+    "definition_ja": "長さの単位。寸の十分の一。実際の長さは時代や地域で異なる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-reference-441"
+        - "xy-reference-442"
+      "reason_ja": "辞典で寸の十分の一を確認。寸・尺の実長の時代差も別見出しで確認し、日本の現代換算値を本回へ適用しない。"
+    "forms":
+      - "id": "xy-form-2301"
+        "text": "分"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶ"
+          "status": "verified"
+          "source_ids":
+            - "xy-reference-441"
+          "reason_ja": "日本国語大辞典・世界大百科事典等の長さの単位としての見出し「ぶ」を確認。"
