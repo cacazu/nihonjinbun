@@ -1,0 +1,1322 @@
+"schema_version": "2.0"
+"work_id": "xiyouji-chapter-008-zh-ja"
+"metadata":
+  "title_ja": "西遊記 第八回"
+  "title_original": "西遊記 第八回 我佛造經傳極樂　觀音奉旨上長安"
+  "original_languages":
+  - "zh-Hant"
+  "target_language": "ja"
+  "contributors":
+  - "id": "traditional-author"
+    "name_ja": "呉承恩（伝）"
+    "name_original": "吳承恩"
+    "roles":
+    - "author"
+  - "id": "ai-translator"
+    "name_ja": "ChatGPT（AIによる新訳）"
+    "name_original": null
+    "roles":
+    - "translator"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "『西遊記』第八回 日本語新訳（AI生成）。原文は中文維基文庫「西遊記/第008回」oldid=1807472。"
+    "note_ja": "電子翻刻の帰属表示と継承条件を保持するためCC BY-SA 4.0を明示。原典は公有と区別する。AIによる対訳と確認であり、専門家の独立校訂は未実施。"
+  "genres":
+  - "中国古典文学"
+  - "神魔小説"
+  - "物語"
+  "reader_notes_ja":
+  - "第八回の回題から結語まで、散文・会話・挿入韻文を省略せず全47対訳単位に収めた。"
+  - "底本は中文維基文庫の固定版oldid=1807472。無変換表示の原字・句読を保持。"
+  - "日本語はAIによる新訳。専門家による独立校訂は未実施。"
+  - "地の文と発言者ラベルを場面別に統一。沙悟浄・猪悟能は法名を授けられた後だけ使用し、会話内の元の官職・敬称・侮称は別に扱う。"
+"sources":
+- "id": "wikisource-xiyou-ch8-1807472"
+  "role": "primary"
+  "title": "西遊記/第008回"
+  "languages":
+  - "zh-Hant"
+  "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+  "edition": "中文維基文庫、固定版oldid=1807472（2020年5月10日02:51 UTC）、無変換表示。"
+  "contributor_ids":
+  - "traditional-author"
+  "work_rights":
+    "status": "public_domain"
+    "note_ja": "明代成立の古典本文。伝統的には呉承恩作とされるが、著者帰属には議論がある。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "evidence_url": "https://zh.wikisource.org/wiki/Wikisource:Copyrights"
+    "attribution": "中文維基文庫「西遊記/第008回」の寄稿者（oldid=1807472）。"
+  "description_ja": "第八回の回題・全散文・会話・挿入韻文・結語。"
+  "local_path": "translations/wu-chengen/verification/xiyouji-chapter-008-source-1807472-zh-hant.txt"
+  "sha256": "cc76e55ea8e677683dd113ad8b3fe7c5bd81b59c8daf19cbed2c1ddb6ceae08a"
+- "id": "moe-buyiri"
+  "role": "comparison"
+  "title": "教育部《重編國語辭典修訂本》：不一日"
+  "languages":
+  - "zh-Hant"
+  "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=21826&q=1&word=%E4%B8%80%E6%97%A5"
+  "edition": null
+  "work_rights":
+    "status": "unknown"
+  "transcription_rights":
+    "status": "unknown"
+  "description_ja": "不一日を幾日もたたずにと訳す語義の確認。 独立AIレビューで参照。辞書本文は転載しない。"
+- "id": "moe-lanxinhuixing"
+  "role": "comparison"
+  "title": "教育部《重編國語辭典修訂本》：蘭心蕙性"
+  "languages":
+  - "zh-Hant"
+  "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=60945&la=1&powerMode=0"
+  "edition": null
+  "work_rights":
+    "status": "unknown"
+  "transcription_rights":
+    "status": "unknown"
+  "description_ja": "蘭心・蕙性の香草の比喩を確認。 独立AIレビューで参照。辞書本文は転載しない。"
+- "id": "moe-nuo"
+  "role": "comparison"
+  "title": "教育部《國語辭典簡編本》：喏"
+  "languages":
+  - "zh-Hant"
+  "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=12967&la=0&powerMode=0"
+  "edition": null
+  "work_rights":
+    "status": "unknown"
+  "transcription_rights":
+    "status": "unknown"
+  "description_ja": "喏喏が声による応答であることを確認。 独立AIレビューで参照。辞書本文は転載しない。"
+"scope":
+  "included":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "description_ja": "第八回の回題から結語まで全体。"
+    "section_ids":
+    - "chapter-08"
+  "excluded":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "description_ja": "著者欄、前後回案内、サイトナビゲーションとフッター。"
+  "known_gaps":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "segment_ids":
+    - "xy-ch08-002"
+    "description_ja": "「龍王三寶」は底本の表記を保持し、竜王の三宝と直訳。禅の公案・四生六道・十地三乗などの教義的な細部、何を指す三宝かは留保する。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "segment_ids":
+    - "xy-ch08-003"
+    "description_ja": "如来の韻律を持つ説法「殄伏乖猴，是事莫識。名生死始」は底本どおり訳し、別字に補訂しない。冒頭の無辺菩薩と後段の四菩薩、前回の鎮圧とこの回の回想の描写の違いもそのまま保つ。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "segment_ids":
+    - "xy-ch08-017"
+    "description_ja": "法・論・経という三蔵の分類と説明、各部洲の善悪は物語中の如来の発言として保持し、実際の地域の人々の性質や一般的な仏教教義の事実説明とはしない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "segment_ids":
+    - "xy-ch08-018"
+    "description_ja": "「故鎮太山」は底本どおり太山を鎮めると訳した。「金落索」は金の鎖飾りと解するが装身具の具体的な形状は未確定。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "segment_ids":
+    - "xy-ch08-021"
+    "description_ja": "金蝉長老・栴檀は詩にある予告として保持。栴檀の含意をこの段階で特定の仏号へ展開しない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "segment_ids":
+    - "xy-ch08-023"
+    "description_ja": "求道・知己の探索をめぐる詩。「求人忽若渾如此」等の構文の細部は留保し、特定人物の過去の経歴を補わない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "segment_ids":
+    - "xy-ch08-024"
+    "description_ja": "「弱水三千」は広大な弱水をいう定型表現として三千里と訳した。後の川幅八百里と独自に整合させない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "segment_ids":
+    - "xy-ch08-029"
+    "description_ja": "尋蛇撥草・撲鷂分松は原文の動作比喩に沿って訳し、武術の具体的な型は補わない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "segment_ids":
+    - "xy-ch08-033"
+    "description_ja": "「捲臟」「勒甲絲絛蟒退鱗」は字義を残した訳。捲臟の部位と比喩、蟒退鱗の構文は確定できず、後世の猪八戒像に合わせて原文を修正しない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "segment_ids":
+    - "xy-ch08-038"
+    "description_ja": "五葷三厭は食の禁忌の呼称として保持。宗教・時代によって内訳が異なるため、本文に特定の食材一覧を補わない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "segment_ids":
+    - "xy-ch08-041"
+    "description_ja": "六字真言は底本の「唵嘛呢叭\U00020E97吽」を保持。第七回固定版の「咪」とは異なる字であり、無断で統一しない。 本文の欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "segment_ids":
+    - "xy-ch08-045"
+    "description_ja": "「秉教迦持」は教えを受けて守ると解した。「迦」を別字に修正しない。「聖經」は聖なる経書で、キリスト教の聖書ではない。 本文の欠落ではなく解釈・校訂上の留保。"
+"sections":
+- "id": "chapter-08"
+  "parent_id": null
+  "kind": "chapter"
+  "origin": "source"
+  "heading_segment_ids":
+  - "xy-ch08-001"
+"segments":
+- "id": "xy-ch08-001"
+  "section_id": "chapter-08"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    第八回
+    我佛造經傳極樂　觀音奉旨上長安
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 117
+    "line_end": 118
+    "source_sequence": 1
+  "translation_ja": |-
+    第八回
+    わが仏、経を成して極楽を伝え　観音、命を奉じて長安へ向かう
+  "translation_status": "draft"
+- "id": "xy-ch08-002"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "試問禪關，參求無數，往往到頭虛老。磨磚作鏡，積雪為糧，迷了幾多年少。毛吞大海，芥納須彌，金色頭陀微笑。悟時超十地三乘，凝滯了四生六道。誰聽得，絕想崖前，無陰樹下，杜宇一聲春曉。曹溪路險，鷲嶺雲深，此處故人音杳。千丈冰崖，五葉蓮開，古殿簾垂香裊。那時節，識破源流，便見龍王三寶。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 121
+    "line_end": 121
+    "source_sequence": 2
+  "translation_ja": |-
+    禅の関門を問えば、探り求める者は数知れず、果てには空しく老いる者が多い。
+    瓦を磨いて鏡とし、雪を積んで食糧とする。どれほどの若者が迷ったことか。
+    毛が大海をのみ、芥子の粒が須弥山を収め、金色の頭陀がほほえむ。
+    悟れば十地三乗を超え、滞れば四生六道にとどまる。
+    誰が聞くだろう、思いの絶えた崖の前、陰なき木の下、春の明け方のほととぎすの一声を。
+    曹渓への道は険しく、霊鷲山には雲深く、この地で旧友の便りは絶えた。
+    千丈の氷の崖に五葉の蓮が開き、古い殿の簾が垂れて香が細く立ちのぼる。
+    そのとき、源と流れを見抜けば、竜王の三宝が見えるのだ。
+  "translation_status": "draft"
+- "id": "xy-ch08-003"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "這一篇詞，名《蘇武慢》。話表我佛如來辭別了玉帝，回至雷音寶剎。但見那三千諸佛、五百阿羅、八大金剛、無邊菩薩，一個個都執著幢幡寶蓋、異寶仙花，擺列在靈山仙境娑羅雙林之下接迎。如來駕住祥雲，對眾道：「我以甚深般若，遍觀三界。根本性原，畢竟寂滅。同虛空相，一無所有。殄伏乖猴，是事莫識。名生死始，法相如是。」說罷，放舍利之光，滿空有白虹四十二道，南北通連。大眾見了，皈身禮拜。少頃間，聚慶雲彩霧，登上品蓮臺，端然坐下。那三千諸佛、五百羅漢、八金剛、四菩薩，合掌近前禮畢，問曰：「鬧天宮攪亂蟠桃者，何也？」如來道：「那廝乃花果山產的一妖猴，罪惡滔天，不可名狀。概天神將，俱莫能降伏；雖二郎捉獲，老君用火鍛煉，亦莫能傷損。我去時，正在雷將中間揚威耀武，賣弄精神。被我止住兵戈，問他來歷。他言有神通，會變化，又駕觔斗雲，一去十萬八千里。我與他打了個賭賽，他出不得我手，卻將他一把抓住，指化五行山，封壓他在那裡。玉帝大開金闕瑤宮，請我坐了首席，立安天大會謝我，卻方辭駕而回。」大眾聽言喜悅，極口稱揚。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 122
+    "line_end": 122
+    "source_sequence": 3
+  "translation_ja": |-
+    この詞は「蘇武慢」という調べである。さて、わが仏如来は玉帝に別れを告げ、雷音宝刹へ戻った。見ると、三千の仏、五百の阿羅漢、八大金剛、無数の菩薩が、一人残らず幢や幡、宝蓋、珍宝や仙花を手に、霊山の仙境、娑羅双樹の林の下に並んで迎えていた。如来は祥雲を止め、一同に語った。
+    如来「私は甚深なる般若によって、あまねく三界を見た。根本の本性は、究極には寂滅であり、虚空の相に等しく、何一つ有するものはない。あの悪賢い猿を鎮め降したが、このことを知る者はいない。名は生死の始まりであり、法の相はこのとおりだ。」
+    言い終えると舎利の光を放ち、空いっぱいに四十二筋の白虹が南北を結んだ。一同はそれを見て、身を捧げて礼拝した。しばらくすると、如来はめでたい雲と色とりどりの霧を集め、上品の蓮台に上って、端然と座った。三千の仏、五百の羅漢、八金剛、四菩薩が合掌して前へ進み、礼を済ませて尋ねた。
+    仏・羅漢・金剛・菩薩の一同「天宮で暴れ、蟠桃の宴を乱したのは、何者なのですか。」
+    如来「あれは花果山に生まれた妖猿で、罪悪は天に満ち、言い表せぬほどだった。天の神将は誰も降伏させられず、二郎が捕らえ、老君が火で練っても傷つけられなかった。私が行ったときも、雷将たちの中で威を振るい、力をひけらかしていた。私は戦いを止めさせ、素性を尋ねた。神通を持ち、変化をなし、筋斗雲に乗ればひと跳び十万八千里だという。そこで賭けをしたが、私の手から出られなかった。それをひとつかみにし、指を五行山へ変えて、その下に封じたのだ。玉帝は黄金の楼門と玉の宮を大きく開き、私を上座に迎え、安天大会を催して謝意を表された。それから、お暇して戻ったところだ。」
+    一同は聞いて喜び、口をきわめてたたえた。
+  "translation_status": "draft"
+- "id": "xy-ch08-004"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "謝罷，各分班而退，各執乃事，共樂天真。果然是："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 124
+    "line_end": 124
+    "source_sequence": 4
+  "translation_ja": "礼を述べ終えると、それぞれの組に分かれて退き、各自の務めを取り、ともに自然の真性を楽しんだ。まことに、こうである。"
+  "translation_status": "draft"
+- "id": "xy-ch08-005"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "瑞靄漫天竺，虹光擁世尊。西方稱第一，無相法王門。常見玄猿獻果，麋鹿啣花；青鸞舞，彩鳳鳴；靈龜捧壽，仙鶴噙芝。安享淨土祗園，受用龍宮法界。日日花開，時時果熟。習靜歸真，參禪果正。不滅不生，不增不減。煙霞縹緲隨來往，寒暑無侵不記年。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 125
+    "line_end": 125
+    "source_sequence": 5
+  "translation_ja": |-
+    瑞雲は天竺に満ち、虹の光は世尊を包む。西方第一と称えられる、姿なき法王の門。
+    黒い猿が果物を献じ、鹿が花をくわえるのは、いつもの眺め。青い鸞が舞い、彩り美しい鳳凰が鳴く。
+    霊亀は長寿を捧げ、仙鶴は霊芝をくわえる。浄土の祇園を安らかに楽しみ、竜宮の法界を享受する。
+    日ごとに花が咲き、時ごとに果実が熟す。静けさを習って真に帰り、禅を究めて正しい果を得る。
+    滅せず、生ぜず、増さず、減らず。煙霞はかすかに往来に従い、寒暑に侵されず、年を数えない。
+  "translation_status": "draft"
+- "id": "xy-ch08-006"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "詩曰："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 127
+    "line_end": 127
+    "source_sequence": 6
+  "translation_ja": "詩にいう。"
+  "translation_status": "draft"
+- "id": "xy-ch08-007"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    去來自在任優游，也無恐怖也無愁。
+    極樂場中俱坦蕩，大千之處沒春秋。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 129
+    "line_end": 130
+    "source_sequence": 7
+  "translation_ja": |-
+    行くも来るも自在に、思うまま悠々と遊び、恐れもなく、憂いもない。
+    極楽の地はすべて広々と安らかで、大千世界には春秋もない。
+  "translation_status": "draft"
+- "id": "xy-ch08-008"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "佛祖居於靈山大雷音寶剎之間。一日，喚聚諸佛、阿羅、揭諦、菩薩、金剛、比丘僧尼等眾曰：「自伏乖猿安天之後，我處不知年月，料凡間有半千年矣。今值孟秋望日，我有一寶盆，盆中具設百樣奇花、千般異果等物，與汝等享此盂蘭盆會，如何？」概眾一個個合掌，禮佛三匝領會。如來卻將寶盆中花果品物，著阿儺捧定，著迦葉佈散。大眾感激，各獻詩伸謝。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 132
+    "line_end": 132
+    "source_sequence": 8
+  "translation_ja": |-
+    如来は霊山の大雷音宝刹に住んでいた。ある日、仏、阿羅漢、掲諦、菩薩、金剛、比丘・比丘尼などの一同を呼び集めて告げた。
+    如来「悪賢い猿を降し、天を安んじて以来、ここでは年月を知らぬが、人の世では五百年ほどたったであろう。今日は初秋の十五日。私には宝の盆があり、百種の珍しい花、千種の変わった果実などを盛ってある。お前たちとこの盂蘭盆会を楽しみたいが、どうだ。」
+    一同はそれぞれ合掌し、如来を三たび巡って礼拝し、会にあずかった。如来は宝の盆の花や果実などを阿儺に持たせ、迦葉に配らせた。一同は感激して、それぞれ詩を献じ、感謝を表した。
+  "translation_status": "draft"
+- "id": "xy-ch08-009"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "福詩曰："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 134
+    "line_end": 134
+    "source_sequence": 9
+  "translation_ja": "福をたたえる詩にいう。"
+  "translation_status": "draft"
+- "id": "xy-ch08-010"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    福星光耀世尊前，福納彌深遠更綿。
+    福德無疆同地久，福緣有慶與天連。
+    福田廣種年年盛，福海洪深歲歲堅。
+    福滿乾坤多福蔭，福增無量永周全。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 136
+    "line_end": 139
+    "source_sequence": 10
+  "translation_ja": |-
+    福星の光は世尊の前を照らし、福はますます深く、遠く長く受け入れられる。
+    福徳は限りなく大地とともに久しく、福の縁はめでたく天につながる。
+    福田は広く耕されて年ごとに盛んとなり、福の海は広く深く、歳ごとに堅固となる。
+    福は天地に満ち、多くの恵みを垂れ、福は無量に増して、永く隅々まで行き渡る。
+  "translation_status": "draft"
+- "id": "xy-ch08-011"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "祿詩曰："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 141
+    "line_end": 141
+    "source_sequence": 11
+  "translation_ja": "禄をたたえる詩にいう。"
+  "translation_status": "draft"
+- "id": "xy-ch08-012"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    祿重如山彩鳳鳴，祿隨時泰祝長庚。
+    祿添萬斛身康健，祿享千鍾世太平。
+    祿俸齊天還永固，祿名似海更澄清。
+    祿恩遠繼多瞻仰，祿爵無邊萬國榮。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 142
+    "line_end": 145
+    "source_sequence": 12
+  "translation_ja": |-
+    禄は山のように重く、彩り美しい鳳凰が鳴く。禄は泰平の時に従い、長庚を祝う。
+    禄は万斛も増し、身は健やか。禄は千鍾を享け、世は太平となる。
+    禄の俸給は天に等しく、なお永く揺るがず、禄の誉れは海のように、いよいよ澄みわたる。
+    禄の恩は遠くまで続き、多くの者が仰ぎ、禄と爵位は果てしなく、万国が栄える。
+  "translation_status": "draft"
+- "id": "xy-ch08-013"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "壽詩曰："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 147
+    "line_end": 147
+    "source_sequence": 13
+  "translation_ja": "寿をたたえる詩にいう。"
+  "translation_status": "draft"
+- "id": "xy-ch08-014"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    壽星獻彩對如來，壽域光華自此開。
+    壽果滿盤生瑞靄，壽花新採插蓮臺。
+    壽詩清雅多奇妙，壽曲調音按美才。
+    壽命延長同日月，壽如山海更悠哉。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 149
+    "line_end": 152
+    "source_sequence": 14
+  "translation_ja": |-
+    寿星は如来に彩りを献じ、長寿の境の光は、ここから開ける。
+    長寿の果実は盆に満ちて瑞雲を生み、摘みたての長寿の花は蓮台に挿される。
+    長寿の詩は清雅で妙趣に富み、長寿の歌は優れた才に合わせて調べを整える。
+    寿命は延びて日月と同じく、長寿は山や海のように、いよいよ悠久となる。
+  "translation_status": "draft"
+- "id": "xy-ch08-015"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "眾菩薩獻畢，因請如來明示根本，指解源流。那如來微開善口，敷演大法，宣揚正果，講的是三乘妙典，五蘊楞嚴。但見那天龍圍繞，花雨繽紛。正是："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 154
+    "line_end": 154
+    "source_sequence": 15
+  "translation_ja": "菩薩たちは献じ終えると、如来に根本を明らかにし、源と流れを解き示すよう願った。如来は清らかな口をわずかに開き、大いなる法を広く説いて正果を宣揚した。語ったのは三乗の妙典、五蘊と楞厳の教えである。天竜が周りを囲み、花の雨がひらひらと降り注いだ。まさに、こうである。"
+  "translation_status": "draft"
+- "id": "xy-ch08-016"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "禪心朗照千江月，真性清涵萬里天。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 156
+    "line_end": 156
+    "source_sequence": 16
+  "translation_ja": "禅の心は千の川に映る月のように明るく照り、真の本性は万里の空を清らかに包む。"
+  "translation_status": "draft"
+- "id": "xy-ch08-017"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "如來講罷，對眾言曰：「我觀四大部洲，眾生善惡，各方不一：東勝神洲者，敬天禮地，心爽氣平；北俱盧洲者，雖好殺生，只因糊口，性拙情疏，無多作踐；我西牛賀洲者，不貪不殺，養氣潛靈，雖無上真，人人固壽；但那南贍部洲者，貪淫樂禍，多殺多爭，正所謂口舌兇場，是非惡海。我今有三藏真經，可以勸人為善。」諸菩薩聞言，合掌皈依，向佛前問曰：「如來有那三藏真經？」如來曰：「我有法一藏，談天；論一藏，說地；經一藏，度鬼。三藏共計三十五部，該一萬五千一百四十四卷，乃是修真之經，正善之門。我待要送上東土，叵耐那方眾生愚蠢，毀謗真言，不識我法門之旨要，怠慢了瑜迦之正宗。怎麼得一個有法力的，去東土尋一個善信，教他苦歷千山，詢經萬水，到我處求取真經，永傳東土，勸化眾生，卻乃是個山大的福緣，海深的善慶。誰肯去走一遭來？」當有觀音菩薩行近蓮臺，禮佛三匝道：「弟子不才，願上東土尋一個取經人來也。」諸眾擡頭觀看，那菩薩："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 157
+    "line_end": 157
+    "source_sequence": 17
+  "translation_ja": |-
+    如来は説法を終えると、一同に告げた。
+    如来「四大部洲を見るに、衆生の善悪は土地ごとに異なる。東勝神洲の者は天を敬い地を礼し、心はさわやかで気は穏やかだ。北俱盧洲の者は殺生を好むが、ただ口を養うためであり、性質は不器用で情は疎く、ひどく害をなすことは少ない。私の西牛賀洲の者は貪らず、殺さず、気を養って霊性をひそかに保ち、至高の真人ではなくても、誰もが寿命を堅く保つ。ところが南贍部洲の者は貪欲で淫ら、災いを喜び、殺し合い争い合うことが多い。まさに口舌の凶場、是非の悪海というべきだ。今、私には三蔵の真経があり、人々に善を勧めることができる。」
+    菩薩たちは聞くと、合掌して帰依し、如来の前で尋ねた。
+    菩薩たち「如来がお持ちの三蔵の真経とは、どのようなものでしょうか。」
+    如来「法の一蔵は天を論じ、論の一蔵は地を説き、経の一蔵は亡霊を救う。三蔵は合わせて三十五部、一万五千百四十四巻で、真を修める経、善を正す門である。東土へ送ろうと思うが、困ったことに、あちらの衆生は愚かで、真言をそしり、私の法門の要旨を知らず、瑜伽の正統を軽んじている。法力のある者が東土へ行って信心深い善人を探し、その者に千の山を苦労して越え、万の川を経を求めて渡り、ここへ真経を取りに来させられぬものか。それを永く東土へ伝え、衆生を教化するなら、山ほど大きな福縁、海ほど深い善い果報となる。誰か、ひと往復してくれる者はいないか。」
+    すると観音菩薩が蓮台に近づき、如来を三たび巡って礼拝した。
+    観音菩薩「不才の弟子ながら、東土へ行き、経を取りに来る者を探してまいりたいと存じます。」
+    一同が顔を上げて見ると、その観音菩薩は、
+  "translation_status": "draft"
+- "id": "xy-ch08-018"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "理圓四德，智滿金身。纓絡垂珠翠，香環結寶明。烏雲巧疊盤龍髻，繡帶輕飄彩鳳翎。碧玉紐，素羅袍，祥光籠罩；錦絨裙，金落索，瑞氣遮迎。眉如小月，眼似雙星。玉面天生喜，朱脣一點紅。淨瓶甘露年年盛，斜插垂楊歲歲青。解八難，度群生，大慈憫：故鎮太山，居南海，救苦尋聲，萬稱萬應，千聖千靈。蘭心欣紫竹，蕙性愛香藤。他是落伽山上慈悲主，潮音洞裡活觀音。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 158
+    "line_end": 158
+    "source_sequence": 18
+  "translation_ja": |-
+    理は四徳を円満にし、智慧は金身に満ちる。瓔珞には真珠と翡翠が垂れ、香りある環には宝が輝く。
+    黒雲のような髪は巧みに重ねた盤竜の髻、刺繍の帯は彩り美しい鳳凰の羽のように軽くなびく。
+    碧玉の紐飾り、白絹の袍は、吉祥の光に包まれる。錦織の裳、金の鎖飾りは、瑞気に覆われる。
+    眉は小さな月のよう、目は二つの星のよう。玉の顔は生まれながら喜びに満ち、朱の唇は紅の一点。
+    浄瓶の甘露は年ごとに満ち、斜めに挿したしだれ柳は歳ごとに青い。
+    八難を解き、衆生を救う、大いなる慈悲。ゆえに太山を鎮め、南海に住み、救いを求める声に応じる。
+    万の呼び声に万たび応え、千の聖なる働きに千の霊験を示す。蘭のような心は紫竹を喜び、蕙のように清らかな性は香る藤を愛する。
+    落伽山の慈悲の主、潮音洞に生きる観音である。
+  "translation_status": "draft"
+- "id": "xy-ch08-019"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "如來見了，心中大喜道：「別個是也去不得。須是觀音尊者，神通廣大，方可去得。」菩薩道：「弟子此去東土，有甚言語吩咐？」如來道：「這一去，要踏看路道，不許在霄漢中行。須是要半雲半霧，目過山水，謹記程途遠近之數，叮嚀那取經人。但恐善信難行，我與你五件寶貝。」即命阿儺、迦葉取出錦襴袈裟一領。九環錫杖一根，對菩薩言曰：「這袈裟、錫杖，可與那取經人親用。若肯堅心來此，穿我的袈裟，免墮輪迴；持我的錫杖，不遭毒害。」這菩薩皈依拜領。如來又取出三個箍兒，遞與菩薩道：「此寶喚做緊箍兒，雖是一樣三個，但只是用各不同。我有金緊禁的咒語三篇。假若路上撞見神通廣大的妖魔，你須是勸他學好，跟那取經人做個徒弟。他若不伏使喚，可將此箍兒與他戴在頭上，自然見肉生根。各依所用的咒語念一念，眼脹頭痛，腦門皆裂，管教他入我門來。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 159
+    "line_end": 159
+    "source_sequence": 19
+  "translation_ja": |-
+    如来は見て、心から喜んだ。
+    如来「ほかの者では行けぬ。神通広大な観音尊者であってこそ、行けるのだ。」
+    観音菩薩「弟子が東土へ参るに当たり、何か仰せはございますか。」
+    如来「今度は道筋を見て歩き、空高くを行ってはならぬ。雲と霧の中ほどを進み、山や川を目に収め、道のりの遠近をよく覚えて、経を取りに来る者へ詳しく言い聞かせなさい。ただ、信心ある者にも旅は難しかろう。五つの宝をお前に与えよう。」
+    如来は阿儺と迦葉に、錦襴の袈裟一領と九環の錫杖一本を取り出させ、観音菩薩へ告げた。
+    如来「この袈裟と錫杖は、取経人が自ら使うよう渡してよい。固い決心でここへ来るなら、私の袈裟を着れば輪廻に落ちるのを免れ、私の錫杖を持てば毒害に遭わぬ。」
+    観音菩薩は帰依の礼をして受け取った。如来はさらに輪を三つ取り出し、観音菩薩に渡した。
+    如来「この宝は緊箍という。三つとも同じ形だが、それぞれ使い道が違う。私には金・緊・禁の三つの呪文がある。もし道中、神通広大な妖魔に出会ったら、善を学ぶよう勧め、取経人に従って弟子になるよう言いなさい。言うことを聞かなければ、この輪を頭にはめてやるがよい。肉に触れれば、おのずと根を生やす。それぞれに合う呪文を唱えれば、目は張り、頭は痛み、額まで裂けて、必ず私の門に入るようになる。」
+  "translation_status": "draft"
+- "id": "xy-ch08-020"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "那菩薩聞言，踴躍作禮而退。即喚惠岸行者隨行。那惠岸使一條渾鐵棍，重有千斤，只在菩薩左右作一個降魔的大力士。菩薩遂將錦襴袈裟，作一個包裹，令他背了。菩薩將金箍藏了，執了錫杖，徑下靈山。這一去，有分教："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 161
+    "line_end": 161
+    "source_sequence": 20
+  "translation_ja": "観音菩薩は聞いて喜び、礼をして退いた。そして恵岸行者を呼び、供をさせた。恵岸行者は重さ千斤の総鉄製の棒を使い、いつも観音菩薩のそばで魔を降す力士を務めていた。観音菩薩は錦襴の袈裟を包みにし、恵岸行者に背負わせた。自らは金箍をしまい、錫杖を手に、まっすぐ霊山を下った。この旅によって、やがてこうなる。"
+  "translation_status": "draft"
+- "id": "xy-ch08-021"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "佛子還來歸本願，金蟬長老裹栴檀。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 163
+    "line_end": 163
+    "source_sequence": 21
+  "translation_ja": "仏弟子は戻って本願に帰り、金蝉長老は栴檀をまとう。"
+  "translation_status": "draft"
+- "id": "xy-ch08-022"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "那菩薩到山腳下，有玉真觀金頂大仙在觀門首接住，請菩薩獻茶。菩薩不敢久停，曰：「今領如來法旨，上東土尋取經人去。」大仙道：「取經人幾時方到？」菩薩道：「未定，約摸二三年間，或可至此。」遂辭了大仙，半雲半霧，約記程途。有詩為證。詩曰："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 164
+    "line_end": 164
+    "source_sequence": 22
+  "translation_ja": |-
+    観音菩薩が山の麓へ来ると、玉真観の金頂大仙が門前で迎え、お茶を勧めた。観音菩薩は長くとどまるわけにはいかず、告げた。
+    観音菩薩「今、如来の法旨を受けて、東土へ取経人を探しに参ります。」
+    金頂大仙「取経人は、いつごろ到着するのでしょうか。」
+    観音菩薩「まだ決まっていませんが、おおよそ二、三年のうちには、ここへ来られるかもしれません。」
+    こうして金頂大仙に別れ、雲と霧の中ほどを進み、道のりをおおむね記憶していった。証しの詩にいう。
+  "translation_status": "draft"
+- "id": "xy-ch08-023"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    萬里相尋自不言，卻云誰得意難全。
+    求人忽若渾如此，是我平生豈偶然。
+    傳道有方成妄說，說明無信也虛傳。
+    願傾肝膽尋相識，料想前頭必有緣。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 166
+    "line_end": 169
+    "source_sequence": 23
+  "translation_ja": |-
+    万里を訪ね求める苦労は言うまい。それでも誰が、思いをすべて果たせるだろう。
+    人を求めるとは、ふと気づけばこのようなもの。わが生涯にとって、どうして偶然であろう。
+    道を伝えるすべがあるというのも妄説となり、説き明かしても信がなければ、むなしい伝えとなる。
+    肝胆を尽くし、心を知り合う者を探したい。この先にはきっと縁があるはずだ。
+  "translation_status": "draft"
+- "id": "xy-ch08-024"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "師徒二人正走間，忽然見弱水三千，乃是流沙河界。菩薩道：「徒弟呀，此處卻是難行。取經人濁骨凡胎，如何得渡？」惠岸道：「師父，你看河有多遠？」那菩薩停立雲步看時，只見："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 171
+    "line_end": 171
+    "source_sequence": 24
+  "translation_ja": |-
+    師弟二人が進むうち、突如、三千里にも及ぶ弱水が見えた。流沙河の境である。
+    観音菩薩「弟子よ、ここは通りにくいところです。取経人は生身の人間、どうして渡れるでしょう。」
+    恵岸行者「お師匠さま、川の幅がどれほどあるか、ご覧ください。」
+    観音菩薩が雲の歩みを止めて見ると、
+  "translation_status": "draft"
+- "id": "xy-ch08-025"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "東連沙磧，西抵諸番，南達烏戈，北通韃靼。徑過有八百里遙，上下有千萬里遠。水流一似地翻身，浪滾卻如山聳背。洋洋浩浩，漠漠茫茫，十里遙聞萬丈洪。仙槎難到此，蓮葉莫能浮。衰草斜陽流曲浦，黃雲影日暗長堤。那裡得客商來往？何曾有漁叟依棲？平沙無雁落，遠岸有猿啼。只是紅蓼花蘩知景色，白蘋香細任依依。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 173
+    "line_end": 173
+    "source_sequence": 25
+  "translation_ja": |-
+    東は砂漠に連なり、西は異国の地に届き、南は烏戈に達し、北は韃靼に通じる。
+    真っすぐ渡る幅は八百里、上流下流は千万里もの遠さ。
+    流れは大地が寝返りを打つかのよう、逆巻く波は山が背をもたげるかのよう。
+    広々、果てしなく、ぼうぼうと霞む。万丈の奔流の音は、十里先まで聞こえる。
+    仙人の筏もここには至りがたく、蓮の葉も浮かべない。
+    枯れ草と夕日が曲がる入江に映り、黄色い雲が日を遮って、長い堤は暗い。
+    どこに商人が往来しよう。漁師の老人が住みついたこともない。
+    平たい砂地に雁は下りず、遠い岸には猿の声。
+    ただ赤い蓼の花が繁く咲いて景色を知り、白い浮草は淡い香りを放ち、静かに揺れる。
+  "translation_status": "draft"
+- "id": "xy-ch08-026"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "菩薩正然點看，只見那河中潑剌一聲響喨，水波裡跳出一個妖魔來，十分醜惡。他生得："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 175
+    "line_end": 175
+    "source_sequence": 26
+  "translation_ja": "観音菩薩が見定めていると、川の中でざぶりと大きな音がして、水波の中から、ひどく醜悪な妖魔が跳び出した。その姿は、"
+  "translation_status": "draft"
+- "id": "xy-ch08-027"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "青不青，黑不黑，晦氣色臉；長不長，短不短，赤腳筋軀。眼光閃爍，好似灶底雙燈；口角丫叉，就如屠家火缽。獠牙撐劍刃，紅髮亂蓬鬆。一聲叱咤如雷吼，兩腳奔波似滾風。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 176
+    "line_end": 176
+    "source_sequence": 27
+  "translation_ja": |-
+    青いとも黒いともつかぬ、不吉な色の顔。長くも短くもない、裸足の筋張った体。
+    目はきらめき、かまどの底の二つの灯のよう。口の端は大きく裂け、屠殺場の火鉢のよう。
+    牙は剣の刃のように突き出し、赤い髪はぼうぼうと乱れる。
+    一声の叱咤は雷のとどろき、両足で駆ける勢いは、巻き起こる風のよう。
+  "translation_status": "draft"
+- "id": "xy-ch08-028"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "那怪物手執一根寶杖，走上岸就捉菩薩，卻被惠岸掣渾鐵棒擋住，喝聲：「休走！」那怪物就持寶杖來迎。兩個在流沙河邊這一場惡殺，真個驚人："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 178
+    "line_end": 178
+    "source_sequence": 28
+  "translation_ja": |-
+    流沙河の妖怪は宝杖を一本持ち、岸へ上がると観音菩薩を捕らえようとした。恵岸行者は総鉄の棒を抜いて遮り、喝した。
+    恵岸行者「逃がさぬぞ！」
+    流沙河の妖怪も宝杖を持って迎え撃った。二人の流沙河の岸での激戦は、まことに驚くばかり。
+  "translation_status": "draft"
+- "id": "xy-ch08-029"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "木吒渾鐵棒，護法顯神通；怪物降妖杖，努力逞英雄。雙條銀蟒河邊舞，一對神僧岸上沖。那一個威鎮流沙施本事，這一個力保觀音建大功。那一個翻波躍浪，這一個吐霧噴風。翻波躍浪乾坤暗，吐霧噴風日月昏。那個降妖杖，好便似出山的白虎；這個渾鐵棒，卻就如臥道的黃龍。那個使將來，尋蛇撥草；這個丟開去，撲鷂分松。只殺得昏漠漠，星辰燦爛；霧騰騰，天地朦朧。那個久住弱水惟他狠，這個初出靈山第一功。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 180
+    "line_end": 180
+    "source_sequence": 29
+  "translation_ja": |-
+    木吒の総鉄の棒は、法を守って神通を示す。妖怪の降妖の杖は、力を尽くして勇を誇る。
+    二筋の銀色の大蛇が川辺で舞い、二人の神僧が岸辺でぶつかる。
+    あちらは流沙を威圧する技を振るい、こちらは観音を力強く守って大功を立てる。
+    あちらは波を翻し波間に躍り、こちらは霧を吐き風を噴く。
+    波を翻し躍れば天地は暗くなり、霧を吐き風を噴けば日月もかすむ。
+    あの降妖の杖は山を出る白虎のよう、この総鉄の棒は道に伏す黄竜のよう。
+    あちらが振るえば蛇を探して草を払うさま、こちらが打ち出せば鷂を襲って松を分けるさま。
+    戦いは暗く沈んで星々がきらめき、霧が湧き上がって天地は朦朧とするほど。
+    あちらは長く弱水に住む、ひときわ荒々しい者。こちらは霊山を出たばかり、最初の功を立てようとする。
+  "translation_status": "draft"
+- "id": "xy-ch08-030"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "他兩個來來往往，戰上數十合，不分勝負。那怪物架住了鐵棒道：「你是那裡和尚，敢來與我抵敵？」木吒道：「我是托塔天王二太子木吒惠岸行者，今保我師父往東土尋取經人去。你是何怪，敢大膽阻路？」那怪方才醒悟道：「我記得你跟南海觀音在紫竹林中修行，你為何來此？」木吒道：「那岸上不是我師父？」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 182
+    "line_end": 182
+    "source_sequence": 30
+  "translation_ja": |-
+    二人は行きつ戻りつ数十合を戦ったが、勝敗はつかない。流沙河の妖怪は鉄棒を受け止めて尋ねた。
+    流沙河の妖怪「お前はどこの僧だ。よくも俺に立ち向かうな。」
+    恵岸行者「私は托塔天王の第二太子、木吒恵岸行者だ。今、お師匠さまをお守りし、東土へ取経人を探しに行くところだ。お前は何の妖怪で、大胆にも道をふさぐのだ。」
+    流沙河の妖怪は、ようやく気づいた。
+    流沙河の妖怪「お前は南海観音について、紫竹林で修行しているはずだ。なぜここへ来た？」
+    恵岸行者「あの岸にいるのが、私のお師匠さまではないか。」
+  "translation_status": "draft"
+- "id": "xy-ch08-031"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "怪物聞言，連聲喏喏，收了寶杖。讓木吒揪了去見觀音，納頭下拜，告道：「菩薩，恕我之罪，待我訴告：我不是妖邪，我是靈霄殿下侍鑾輿的捲簾大將。只因在蟠桃會上失手打碎了玻璃盞，玉帝把我打了八百，貶下界來，變得這般模樣。又叫七日一次，將飛劍來穿我胸脅百餘下方回。故此這般苦惱。沒奈何，饑寒難忍，三二日間，出波濤尋一個行人食用。不期今日無知，衝撞了大慈菩薩。」菩薩道：「你在天有罪，既貶下來，今又這等傷生，正所謂罪上加罪。我今領了佛旨，上東土尋取經人。你何不入我門來，皈依善果，跟那取經人做個徒弟，上西天拜佛求經？我叫飛劍不來穿你。那時節功成免罪，復你本職，心下如何？」那怪道：「我願皈正果。」又向前道：「菩薩，我在此間吃人無數，向來有幾次取經人來，都被我吃了。凡吃的人頭，拋落流沙，竟沉水底。這個水，鵝毛也不能浮。惟有九個取經人的骷髏浮在水面，再不能沉。我以為異物，將索兒穿在一處，閑時拿來頑耍。這去，但恐取經人不得到此，卻不是反誤了我的前程也？」菩薩曰：「豈有不到之理？你可將骷髏兒掛在頭項下，等候取經人，自有用處。」怪物道：「既然如此，願領教誨。」菩薩方與他摩頂受戒，指沙為姓，就姓了沙；起個法名，叫做個沙悟淨。當時入了沙門，送菩薩過了河，他洗心滌慮，再不傷生，專等取經人。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 183
+    "line_end": 183
+    "source_sequence": 31
+  "translation_ja": |-
+    流沙河の妖怪は聞くと、何度もかしこまった返事をして、宝杖を収めた。恵岸行者に引かれて観音菩薩の前へ行き、頭を下げて拝した。
+    流沙河の妖怪「菩薩さま、罪をお許しください。事情をお聞きください。私は妖邪ではなく、霊霄宝殿の下でお輿に仕えた捲簾大将でございます。蟠桃会でうっかり玻璃の杯を割ったため、玉帝に八百回打たれ、下界へ落とされて、この姿になりました。さらに七日に一度、飛剣が来て、胸や脇を百回余り貫いてから帰るよう命じられたのです。そのため、このように苦しんでおります。仕方なく、飢えと寒さに耐えかね、二、三日に一度、波間から出て旅人を一人探し、食べています。今日は何も知らず、大慈悲の菩薩さまにぶつかってしまいました。」
+    観音菩薩「天界で罪を犯して落とされたのに、今またこのように命を害するとは、まさしく罪の上に罪を重ねることです。私は仏の命を受け、東土へ取経人を探しに行きます。私の門に入って善い果に帰依し、その取経人の弟子となって、西天へ仏を拝み、経を求めに行きませんか。飛剣が来てお前を貫くことのないようにしてあげましょう。功を成し遂げれば罪を免れ、もとの役に戻れます。どう思いますか。」
+    流沙河の妖怪「正しい果に帰依したく存じます。」
+    さらに前へ進んで告げた。
+    流沙河の妖怪「菩薩さま、私はここで数えきれない人を食べました。これまで何度か取経人が来ましたが、皆、食べてしまいました。食べた者の頭を流沙へ投げると、どれも底へ沈むのです。この水には、鵞鳥の羽も浮きません。ところが九人の取経人の髑髏だけは、水面に浮かんで、どうしても沈みませんでした。不思議なものだと思い、縄で一つにつなぎ、暇なときに持って遊んでおります。今回、その取経人がここまで来られなかったら、かえって私の行く末を損なうことになりませんか。」
+    観音菩薩「来ないはずがありましょうか。その髑髏を首に掛け、取経人を待ちなさい。おのずと使い道があります。」
+    流沙河の妖怪「それでしたら、お教えに従います。」
+    観音菩薩はその頭をなでて戒を授け、砂を指して姓を沙とし、法名を沙悟浄とつけた。沙悟浄はその場で仏門に入り、観音菩薩を川の向こうへ送り渡した。心を洗い、思いを清め、二度と命を害さず、ひたすら取経人を待つことにした。
+  "translation_status": "draft"
+- "id": "xy-ch08-032"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "菩薩與他別了，同木吒徑奔東土。行了多時，又見一座高山，山上有惡氣遮漫，不能步上。正欲駕雲過山，不覺狂風起處，又閃上一個妖魔。他生得又甚兇險，但見他："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 184
+    "line_end": 184
+    "source_sequence": 32
+  "translation_ja": "観音菩薩は沙悟浄と別れ、恵岸行者と東土へ向かった。長く進むうち、また高い山が見えた。山には邪気が広く立ちこめ、歩いて上がれない。雲に乗って越えようとすると、不意に狂風が起こり、別の妖魔がさっと現れた。これまた、ひどく凶悪な姿である。見ると、"
+  "translation_status": "draft"
+- "id": "xy-ch08-033"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    捲臟蓮蓬吊搭嘴，耳如蒲扇顯金睛。
+    獠牙鋒利如鋼剉，長嘴張開似火盆。
+    金盔緊繫腮邊帶，勒甲絲絛蟒退鱗。
+    手執釘鈀龍探爪，腰挎彎弓月半輪。
+    糾糾威風欺太歲，昂昂志氣壓天神。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 186
+    "line_end": 190
+    "source_sequence": 33
+  "translation_ja": |-
+    巻いた臓腑、蓮の実の房のような垂れた口。耳は蒲の団扇のようで、金色の目が光る。
+    牙は鋼のやすりのように鋭く、長い口を開けば火盆のよう。
+    金の兜の紐は頬の脇に固く結ばれ、鎧を締める絹の組紐には、大蛇が鱗を脱ぐようなさま。
+    手の釘熊手は竜が爪を伸ばすよう、腰に掛けた曲弓は半輪の月。
+    勇ましい威風は太歳をしのぎ、高々とした気概は天神を圧する。
+  "translation_status": "draft"
+- "id": "xy-ch08-034"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "他撞上來，不分好歹，望菩薩舉釘鈀就築。被木吒行者擋住，大喝一聲道：「那潑怪，休得無禮，看棒。」妖魔道：「這和尚不知死活。看鈀。」兩個在山底下一衝一撞，賭鬥輸贏，真個好殺："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 192
+    "line_end": 192
+    "source_sequence": 34
+  "translation_ja": |-
+    福陵山の妖怪は突進して、見境もなく観音菩薩に向かい、釘熊手を振り上げて打ち下ろした。恵岸行者が遮り、大喝した。
+    恵岸行者「この乱暴者、無礼は許さぬ。棒を受けよ！」
+    福陵山の妖怪「命知らずの坊主め。この熊手を受けろ！」
+    二人は山の麓でぶつかり合い、勝ち負けを競った。まことに激しい戦い。
+  "translation_status": "draft"
+- "id": "xy-ch08-035"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "妖魔兇猛，惠岸威能。鐵棒分心搗，釘鈀劈面迎。播土揚塵天地暗，飛砂走石鬼神驚。九齒鈀，光耀耀，雙環響喨；一條棒，黑悠悠，兩手飛騰。這個是天王太子，那個是元帥精靈。一個在普陀為護法，一個在山洞作妖精。這場相遇爭高下，不知那個虧輸那個贏。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 194
+    "line_end": 194
+    "source_sequence": 35
+  "translation_ja": |-
+    妖魔は凶猛、恵岸は威力に満ちる。鉄棒は胸の真ん中を突き、釘熊手は顔めがけて迎え撃つ。
+    土と埃をまき上げて天地は暗く、砂を飛ばし石を走らせて鬼神も驚く。
+    九本歯の熊手はきらきら輝き、二つの環は高く鳴る。一本の棒は真っ黒で、両手の間を飛び回る。
+    こちらは天王の太子、あちらは元帥だった精霊。一人は普陀で法を守り、一人は山の洞で妖怪をしている。
+    今ここに出会って優劣を争うが、どちらが負け、どちらが勝つのだろう。
+  "translation_status": "draft"
+- "id": "xy-ch08-036"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "他兩個正殺到好處，觀世音在半空中拋下蓮花，隔開鈀、杖。怪物見了心驚，便問：「你是那裡和尚，敢弄甚麼眼前花兒哄我？」木吒道：「我把你個肉眼凡胎的潑物！我是南海菩薩的徒弟。這是我師父拋來的蓮花，你也不認得哩！」那怪道：「南海菩薩，可是掃三災救八難的觀世音麼？」木吒道：「不是他是誰？」怪物撇了釘鈀，納頭下禮道：「老兄，菩薩在那裡？累煩你引見一引見。」木吒仰面指道：「那不是？」怪物朝上磕頭，厲聲高叫道：「菩薩，恕罪，恕罪。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 195
+    "line_end": 195
+    "source_sequence": 36
+  "translation_ja": |-
+    戦いがまさに佳境に入ったとき、観音菩薩が空中から蓮の花を投げ、熊手と杖を隔てた。福陵山の妖怪は見て驚き、尋ねた。
+    福陵山の妖怪「お前はどこの坊主だ。よくも目くらましの花なんぞで、俺をだまそうとするな。」
+    恵岸行者「この肉眼しか持たぬ凡胎の乱暴者め。私は南海の菩薩の弟子だ。これはお師匠さまが投げてくださった蓮の花だ。それも見分けられぬのか！」
+    福陵山の妖怪「南海の菩薩とは、三災を払い、八難を救う観世音か？」
+    恵岸行者「あの方でなくて、誰だというのだ。」
+    福陵山の妖怪は釘熊手を投げ出し、頭を下げて礼をした。
+    福陵山の妖怪「兄さん、菩薩さまはどちらに？　お手数だが、ひとつ取り次いでくれないか。」
+    恵岸行者は顔を上げて指さした。
+    恵岸行者「あそこではないか。」
+    福陵山の妖怪は上に向かって頭を地につけ、声を張って叫んだ。
+    福陵山の妖怪「菩薩さま、お許しください。お許しを！」
+  "translation_status": "draft"
+- "id": "xy-ch08-037"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "觀音按下雲頭，前來問道：「你是那裡成精的野豕，何方作怪的老彘，敢在此間擋我？」那怪道：「我不是野豕，亦不是老彘，我本是天河裡天蓬元帥。只因帶酒戲弄嫦娥，玉帝把我打了二千鎚，貶下塵凡。一靈真性，徑來奪舍投胎，不期錯了道路，投在個母豬胎裡，變得這般模樣。是我咬殺母豬，打死群彘，在此處占了山場，吃人度日。不期撞著菩薩，萬望拔救拔救。」菩薩道：「此山叫做甚麼山？」怪物道：「叫做福陵山。山中有一洞，叫做雲棧洞。洞裡原有個卵二姐，他見我有些武藝，招我做了家長，又喚做倒蹅門。不上一年，他死了，將一洞的家當，盡歸我受用。在此日久年深，沒有贍身的勾當，只是依本等吃人度日。萬望菩薩恕罪。」菩薩道：「古人云，『若要有前程，莫做沒前程。』你既上界違法，今又不改兇心，傷生造孽，卻不是二罪俱罰？」那怪道：「前程，前程，若依你，教我喝風？常言道：『依著官法打殺，依著佛法餓殺。』去也，去也，還不如捉個行人，肥膩膩的吃他家娘，管甚麼二罪三罪，千罪萬罪！」菩薩道：「『人有善願，天必從之。』汝若肯歸依正果，自有養身之處。世有五穀，可以濟饑，為何吃人度日？」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 196
+    "line_end": 196
+    "source_sequence": 37
+  "translation_ja": |-
+    観音菩薩は雲を下ろし、前へ来て尋ねた。
+    観音菩薩「お前はどこで精となった野猪、どこで妖怪となった老豚ですか。よくもここで私を遮りましたね。」
+    福陵山の妖怪「私は野猪でも老豚でもありません。もとは天河の天蓬元帥でした。酒に酔って嫦娥に戯れかかったため、玉帝に二千回、鎚で打たれ、塵の世へ落とされたのです。ひとつの霊なる真性は、そのまま身を借りて胎に入ろうとしましたが、道を誤って雌豚の胎に入り、この姿になりました。母豚をかみ殺し、豚どもを打ち殺して、この山の一帯を占拠して、人を食べて暮らしております。思いがけず菩薩さまにお会いしました。どうか、どうかお救いください。」
+    観音菩薩「この山は何といいますか。」
+    福陵山の妖怪「福陵山といいます。山には雲桟洞という洞があり、もとは卵二姐という者が住んでいました。私にいくらか武芸があるのを見て、一家の主として迎えました。婿入りというやつです。一年もたたずに彼女は死に、洞の財産はすっかり私のものになりました。ここで長年暮らしても、身を養う仕事はなく、ただ持ち前のやり方で人を食べて日を送っております。どうか罪をお許しください。」
+    観音菩薩「古人は『よい行く末を望むなら、行く末をなくすことをするな』と言いました。お前は天界で法に背き、今も凶暴な心を改めず、命を害して罪を重ねています。二つの罪をともに罰せられるのではありませんか。」
+    福陵山の妖怪「行く末、行く末って、あんたに従って風でも飲んでいろというのか？　『役所の法に従えば打ち殺され、仏の法に従えば飢え死にする』というじゃないか。やめだ、やめだ。旅人を一人捕まえて、ちくしょう、脂ののったところを食うほうがましだ。二つ三つの罪だろうが、千でも万でも、知ったことか！」
+    観音菩薩「『人に善い願いがあれば、天は必ずそれに従う』といいます。正しい果に帰依する気があるなら、身を養う場所もおのずとあります。世には五穀があり、飢えをしのげるのに、なぜ人を食べて暮らすのですか。」
+  "translation_status": "draft"
+- "id": "xy-ch08-038"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "怪物聞言，似夢方覺，向菩薩道：「我欲從正，奈何『獲罪於天，無所禱也』。」菩薩道：「我領了佛旨，上東土尋取經人。你可跟他做個徒弟，往西天走一遭來，將功折罪，管教你脫離災瘴。」那怪滿口道：「願隨，願隨。」菩薩才與他摩頂受戒，指身為姓，就姓了豬；替他起了法名，就叫做豬悟能。遂此領命歸真，持齋把素，斷絕了五葷三厭，專候那取經人。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 197
+    "line_end": 197
+    "source_sequence": 38
+  "translation_ja": |-
+    福陵山の妖怪は聞くと、夢から覚めたかのようになり、観音菩薩に言った。
+    福陵山の妖怪「正しい道に従いたいのですが、『天に罪を得れば、祈るところもない』というではありませんか。どうすればよいのでしょう。」
+    観音菩薩「私は仏の命を受け、東土へ取経人を探しに行きます。その者について弟子となり、西天へひと往復しなさい。功で罪を償えば、必ず災いから抜け出せるようにしてあげましょう。」
+    福陵山の妖怪は口をきわめて答えた。
+    福陵山の妖怪「従います、従います。」
+    観音菩薩は頭をなでて戒を授け、その体を指して姓を猪とし、法名を猪悟能とつけた。猪悟能はこうして命を受け、真に帰り、斎戒して精進を守り、五葷三厭を絶ち、ひたすら取経人を待った。
+  "translation_status": "draft"
+- "id": "xy-ch08-039"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "菩薩卻與木吒辭了悟能，半興雲霧前來。正走處，只見空中有一條玉龍叫喚。菩薩近前問曰：「你是何龍，在此受罪？」那龍道：「我是西海龍王敖閏之子，因縱火燒了殿上明珠，我父王表奏天庭，告了忤逆。玉帝把我吊在空中，打了三百，不日遭誅。望菩薩搭救搭救。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 199
+    "line_end": 199
+    "source_sequence": 39
+  "translation_ja": |-
+    観音菩薩と恵岸行者は猪悟能に別れを告げ、雲と霧を半ば立てて進んだ。途中、空中で一頭の玉竜が叫んでいるのが見えた。観音菩薩は近づいて尋ねた。
+    観音菩薩「お前は何という竜で、ここで罰を受けているのですか。」
+    玉竜「私は西海竜王、敖閏の子です。火を放って殿上の明珠を焼いてしまい、父王が天庭へ上奏して、親に逆らったと訴えました。玉帝は私を空に吊り、三百回打たせました。間もなく処刑されます。菩薩さま、どうかお助けください。」
+  "translation_status": "draft"
+- "id": "xy-ch08-040"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "觀音聞言，即與木吒撞上南天門裡，早有丘、張二天師接著，問道：「何往？」菩薩道：「貧僧要見玉帝一面。」二天師即忙上奏。玉帝遂下殿迎接。菩薩上前禮畢道：「貧僧領佛旨上東土尋取經人，路遇孽龍懸吊，特來啟奏，饒他性命，賜與貧僧，教他與取經人做個腳力。」玉帝聞言，即傳旨赦宥，差天將解放，送與菩薩。菩薩謝恩而出。這小龍叩頭謝活命之恩，聽從菩薩使喚。菩薩把他送在深澗之中，只等取經人來，變做白馬，上西方立功。小龍領命潛身不題。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 201
+    "line_end": 201
+    "source_sequence": 40
+  "translation_ja": |-
+    観音菩薩は聞くと、恵岸行者とともに南天門へ駆け入った。早くも丘・張の二天師が迎え、尋ねた。
+    丘・張の二天師「どちらへおいでですか。」
+    観音菩薩「僧の私が、玉帝に一度お目にかかりたいのです。」
+    丘・張の二天師は急いで奏上した。玉帝は殿を下りて出迎えた。観音菩薩は進み出て礼を済ませ、告げた。
+    観音菩薩「仏の命を受け、東土へ取経人を探しに行く途中、罪を犯した竜が吊られているのに出会いました。その命をお許しになり、私に賜って、取経人の乗り物にさせていただきたく、特に奏上に参りました。」
+    玉帝は聞くと、ただちに赦免を命じ、天将に解放させて観音菩薩へ引き渡した。観音菩薩は恩に感謝して退出した。玉竜は頭を地につけて救命の恩に礼を述べ、観音菩薩の指図に従った。観音菩薩は玉竜を深い谷川へ送り、取経人が来るのを待って、白馬に変じ、西方へ行って功を立てるようにした。玉竜は命を受けて身を潜めたが、その話はひとまずおく。
+  "translation_status": "draft"
+- "id": "xy-ch08-041"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "菩薩帶引木吒行者過了此山，又奔東土。行不多時，忽見金光萬道，瑞氣千條。木吒道：「師父，那放光之處，乃是五行山了，見有如來的壓帖在那裡。」菩薩道：「此卻是那攪亂蟠桃會、大鬧天宮的齊天大聖，今乃壓在此也。」木吒道：「正是，正是。」師徒俱上山來，觀看帖子，乃是「唵嘛呢叭\U00020E97吽」六字真言。菩薩看罷，嘆惜不已，作詩一首。詩曰："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 202
+    "line_end": 202
+    "source_sequence": 41
+  "translation_ja": |-
+    観音菩薩は恵岸行者を連れ、この山を越えて、また東土へ向かった。ほどなく、万筋の金の光、千筋の瑞気が見えた。
+    恵岸行者「お師匠さま、あの光るところは五行山です。如来の封じ札があるのが見えます。」
+    観音菩薩「あの蟠桃会を乱し、天宮で大暴れした斉天大聖が、今ここに押さえられているのですね。」
+    恵岸行者「そのとおりです、そのとおりです。」
+    師弟はともに山へ上がり、札を見ると、「唵嘛呢叭𠺗吽」の六字真言だった。観音菩薩は見終えて、しきりに嘆き、詩を一首作った。詩にいう。
+  "translation_status": "draft"
+- "id": "xy-ch08-042"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    堪嘆妖猴不奉公，當年狂妄逞英雄。
+    欺心攪亂蟠桃會，大膽私行兜率宮。
+    十萬軍中無敵手，九重天上有威風。
+    自遭我佛如來困，何日舒伸再顯功？
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 204
+    "line_end": 207
+    "source_sequence": 42
+  "translation_ja": |-
+    嘆かわしい、妖猿は公の務めを守らず、あの年、思い上がって英雄を気取った。
+    良心を欺いて蟠桃会を乱し、大胆にもひそかに兜率宮へ入った。
+    十万の軍中に敵はなく、九重の天上で威風を振るった。
+    わが仏如来に閉じ込められた今、いつ身を伸ばし、再び力を示すのか。
+  "translation_status": "draft"
+- "id": "xy-ch08-043"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "師徒們正說話處，早驚動了那大聖。大聖在山根下高叫道：「是那個在山上吟詩，揭我的短哩？」菩薩聞言，徑下山來尋看。只見那石崖之下，有土地、山神、監押大聖的天將，都來拜接了菩薩，引至那大聖面前。看時，他原來壓於石匣之中，口能言，身不能動。菩薩道：「姓孫的，你認得我麼？」大聖睜開火眼金睛，點著頭兒高叫道：「我怎麼不認得你，你好的是那南海普陀落伽山救苦救難大慈大悲南無觀世音菩薩。承看顧，承看顧。我在此度日如年，更無一個相知的來看我一看。你從那裡來也？」菩薩道：「我奉佛旨，上東土尋取經人去，從此經過，特留殘步看你。」大聖道：「如來哄了我，把我壓在此山，五百餘年了，不能展掙。萬望菩薩方便一二，救我老孫一救。」菩薩道：「你這廝罪業彌深，救你出來，恐你又生禍害，反為不美。」大聖道：「我已知悔了，但願大慈悲指條門路，情願修行。」這才是："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 208
+    "line_end": 208
+    "source_sequence": 43
+  "translation_ja": |-
+    師弟が話していると、早くも斉天大聖が気づいた。山の根元から、大声で叫んだ。
+    斉天大聖「誰だ、山の上で詩を吟じて、俺の恥をあばいているのは！」
+    観音菩薩は聞くと、まっすぐ山を下りて探した。岩崖の下には土地神、山神、斉天大聖を監視する天将がおり、皆、観音菩薩を拝して迎え、斉天大聖の前へ案内した。見ると、石の箱に押し込められ、口は利けるが体は動かせない。
+    観音菩薩「孫というお前、私が分かりますか。」
+    斉天大聖は火眼金睛を開き、うなずきながら大声で言った。
+    斉天大聖「どうして分からないことがありましょう。あなたこそ、南海普陀落伽山の、苦難を救う大慈大悲、南無観世音菩薩さまです。お心にかけてくださり、ありがたいことです。私はここで一日を一年のように過ごし、知り合いの一人も訪ねてきてくれません。どちらからおいでになったのですか。」
+    観音菩薩「仏の命を受け、東土へ取経人を探しに行くところです。ここを通ったので、わざわざ足を止めてお前に会いに来ました。」
+    斉天大聖「如来にだまされ、この山の下へ押し込められて、もう五百年余りです。身を伸ばすこともできません。どうか菩薩さま、お力添えをいただき、この私をお救いください。」
+    観音菩薩「お前は罪業があまりに深い。救い出しても、また災いを起こすのでは、かえってよくありません。」
+    斉天大聖「もう後悔しております。どうか大慈悲をもって、道をお示しください。喜んで修行いたします。」
+    これこそ、こういうこと。
+  "translation_status": "draft"
+- "id": "xy-ch08-044"
+  "section_id": "chapter-08"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    人心生一念，天地盡皆知。
+    善惡若無報，乾坤必有私。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 210
+    "line_end": 211
+    "source_sequence": 44
+  "translation_ja": |-
+    人の心に一つの思いが生まれれば、天地はすべて知っている。
+    善悪に報いがないならば、天地にはきっと私情があるのだろう。
+  "translation_status": "draft"
+- "id": "xy-ch08-045"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "那菩薩聞得此言，滿心歡喜，對大聖道：「聖經云：『出其言善，則千里之外應之；出其言不善，則千里之外違之。』你既有此心，待我到了東土大唐國尋一個取經的人來，教他救你。你可跟他做個徒弟，秉教迦持，入我佛門，再修正果，如何？」大聖聲聲道：「願去，願去。」菩薩道：「既有善果，我與你起個法名。」大聖道：「我已有名了，叫做孫悟空。」菩薩又喜道：「我前面也有二人歸降，正是『悟』字排行，你今也是『悟』字，卻與他相合，甚好，甚好。這等也不消叮囑，我去也。」那大聖見性明心歸佛教，這菩薩留情在意訪神僧。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 212
+    "line_end": 212
+    "source_sequence": 45
+  "translation_ja": |-
+    観音菩薩はこの言葉を聞いて、心から喜び、斉天大聖に告げた。
+    観音菩薩「聖なる経書に『善い言葉を発すれば、千里の外でも応じる。不善の言葉を発すれば、千里の外でも背く』とあります。お前にその心があるなら、東土の大唐国へ着いた後、取経人を一人探して来させ、お前を救わせましょう。その者に従って弟子となり、教えを受けて守り、わが仏門に入り、改めて正しい果を修めてはどうですか。」
+    斉天大聖は繰り返し答えた。
+    斉天大聖「参ります、参ります。」
+    観音菩薩「善い果に向かうのなら、法名をつけてあげましょう。」
+    斉天大聖「私にはもう名があり、孫悟空と申します。」
+    観音菩薩はまた喜んだ。
+    観音菩薩「この前にも二人が帰依し、ちょうど『悟』の字を共通に持つ法名をつけました。お前も『悟』の字なら、二人と合います。よいこと、よいこと。それなら、これ以上念を押すまでもありません。私は行きます。」
+    かの斉天大聖は本性を見、心を明らかにして仏教へ帰依し、この観音菩薩は思いやりを心にとどめ、神僧を訪ねるのであった。
+  "translation_status": "draft"
+- "id": "xy-ch08-046"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "他與木吒離了此處，一直東來，不一日就到了長安大唐國。斂霧收雲，師徒們變作兩個疥癩遊僧，入長安城裡，早不覺天晚。行至大市街傍，見一座土地廟祠，二人徑入。諕得那土地心慌，鬼兵膽戰，知是菩薩，叩頭接入。那土地又急跑報與城隍、社令，及滿長安各廟神祗，都知是菩薩，參見告道：「菩薩，恕眾神接遲之罪。」菩薩道：「汝等切不可走漏一毫消息。我奉佛旨，特來此處尋訪取經人。借你廟宇，權住幾日，待訪著真僧即回。」眾神各歸本處，把個土地趕在城隍廟裡暫住，他師徒們隱遁真形。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 214
+    "line_end": 214
+    "source_sequence": 46
+  "translation_ja": |-
+    観音菩薩は恵岸行者とここを離れ、まっすぐ東へ進み、幾日もたたずに大唐国の長安へ着いた。霧を収め雲を消し、師弟は疥癬にかかった二人の行脚僧に姿を変え、長安の城内へ入った。いつしか夕方になっていた。大市街の傍らへ来ると、土地神の祠があったので、二人はそのまま入った。土地神は慌て、鬼兵はおびえたが、観音菩薩と知って、頭を地につけて迎え入れた。土地神はすぐ走って、城隍、社令、長安のあらゆる廟の神々へ知らせた。神々は観音菩薩と知ると、参上して告げた。
+    長安の神々「菩薩さま、出迎えが遅れた私どもの罪をお許しください。」
+    観音菩薩「お前たちは、決して一言も知らせを漏らしてはなりません。私は仏の命を受け、取経人を探すため、特にここへ来ました。この廟を借りて、しばらく数日泊まり、真の僧が見つかれば帰ります。」
+    神々はそれぞれの場所へ戻り、土地神を城隍の廟へ追いやって、仮住まいさせた。観音菩薩と恵岸行者は、本来の姿を隠して過ごした。
+  "translation_status": "draft"
+- "id": "xy-ch08-047"
+  "section_id": "chapter-08"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "畢竟不知尋出那個取經人來，且聽下回分解。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch8-1807472"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第008回&oldid=1807472"
+    "line_start": 216
+    "line_end": 216
+    "source_sequence": 47
+  "translation_ja": "さて、どのような取経人を探し出すのだろうか。続きは次回のお話に。"
+  "translation_status": "draft"
+"workflow":
+  "stage": "reviewing"
+  "full_review":
+    "status": "in_progress"
+"groups":
+- "id": "poem-002"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-002"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-005"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-005"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-007"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-007"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-010"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-010"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-012"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-012"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-014"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-014"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-016"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-016"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-018"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-018"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-021"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-021"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-023"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-023"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-025"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-025"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-027"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-027"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-029"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-029"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-033"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-033"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-035"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-035"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-042"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-042"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+- "id": "poem-044"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch08-044"
+  "separator": |2+
+
+  "description_ja": "挿入韻文。原文の改行を保持。"
+"terminology":
+- "id": "jingdouyun"
+  "kind": "term"
+  "source_language": "zh-Hant"
+  "source": "觔斗雲"
+  "translation_ja": "筋斗雲"
+  "note_ja": "既存回の表記を継承。"
+- "id": "jingu-bang"
+  "kind": "term"
+  "source_language": "zh-Hant"
+  "source": "如意金箍棒"
+  "translation_ja": "如意金箍棒"
+  "note_ja": "意に応じて伸縮する鉄棒。地の文で固有名を示すときは如意金箍棒に統一する。"
+- "id": "bimawen"
+  "kind": "term"
+  "source_language": "zh-Hant"
+  "source": "弼馬溫"
+  "translation_ja": "弼馬温"
+  "note_ja": "御馬監の長官として与えられる位階外の官名。"
+- "id": "qitian"
+  "kind": "term"
+  "source_language": "zh-Hant"
+  "source": "齊天大聖"
+  "translation_ja": "斉天大聖"
+  "note_ja": "天に等しい大聖。悟空が自称し、後に玉帝が授ける称号。"
+- "id": "nezha"
+  "kind": "person"
+  "source_language": "zh-Hant"
+  "source": "哪吒"
+  "translation_ja": "哪吒"
+  "note_ja": "托塔李天王の三太子。"
+- "id": "erlang"
+  "kind": "person"
+  "source_language": "zh-Hant"
+  "source": "二郎真君"
+  "translation_ja": "二郎真君"
+  "note_ja": "真君・二郎・小聖を地の文とラベルで統一。"
+- "id": "huian"
+  "kind": "person"
+  "source_language": "zh-Hant"
+  "source": "惠岸"
+  "translation_ja": "恵岸行者"
+  "note_ja": "木吒・木叉と同一人物。原文の異表記を保持。"
+"provenance":
+  "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-008-source-1807472-zh-hant.txt"
+  "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-008-manifest-1807472.json"
+  "acquired_at": "2026-10-24"
+  "pretranslation_workflow": "ルートREADME、翻訳スキル、作品README、仕様を順に読み、固定版全文を確認し、専用人物ガイドを翻訳前に作成。"
+  "source_normalization": "回題と本文を採録。案内・著者欄・空行・行頭の表示用空白を除外し、連続詩行を一単位にまとめた。原字・句読は保持。"
+  "review_note": "全47単位の原文対応と日本語全文を自己レビューし、別のAI読み手が独立全文レビュー。不一日の期間、蕙性の香草の比喩、喏喏の声による応答、反復の保持、山場の日本語を修正し、全文整合を再確認。原文6331コードポイント、17韻文単位、全単位ハッシュ、行範囲、順序、snapshot完全一致、回題から結語までの非空行網羅を確認。命名前後の呼称、全台詞の話者、刑罰・巻数・宝の数量を照合。専門家による独立校訂は未実施のため既存回と同じreviewingを保持。"
+  "independent_ai_review":
+    "completed_at": "2026-10-24T01:09:41Z"
+    "scope": "47対訳単位の全文。"
+    "findings_resolved":
+    - "xy-ch08-046 不一日"
+    - "xy-ch08-018 蕙性"
+    - "xy-ch08-031 連聲喏喏"
+    - "xy-ch08-041 正是の反復"
+    - "xy-ch08-037 山場の日本語"
