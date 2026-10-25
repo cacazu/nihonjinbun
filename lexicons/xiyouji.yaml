@@ -4138,6 +4138,26 @@
     "title": "東京文化財研究所 箕のかたち（表示本文L11で箕のみという読みと穀物を選別する道具の義を確認）"
     "url": "https://www.tobunken.go.jp/ich/research/mi/"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch93-primary-1455642"
+    "title": "中文維基文庫 西遊記 第093回 固定版1455642（固定リンクから実際に取得。全211表示行を保存）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第093回&oldid=1455642"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch93-santai-moe"
+    "title": "教育部 重編國語辭典修訂本 三臺（表示本文で三つの台・官署・星座の各語義を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=144425&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch93-sudatta"
+    "title": "小学館 デジタル大辞泉 須達（コトバンク表示本文で須達多しゅだった、給孤独との同一性を確認）"
+    "url": "https://kotobank.jp/word/須達-77823"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch93-gikodoku-jodo"
+    "title": "新纂浄土宗大辞典 給孤独（検索表示で須達多との同一性・施し・祇園寄進を確認。ページopenはナビ表示のみ）"
+    "url": "https://jodoshuzensho.jp/daijiten/index.php/給孤独"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch93-danna-nichiren"
+    "title": "日蓮宗公式 旦那（表示本文で檀那だんなと布施者を指す語義を確認）"
+    "url": "https://www.nichiren.or.jp/glossary/id250/"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -21843,6 +21863,69 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-ch93-gold-cloth-monastery-form"
+        "text": "布金禅寺"
+        "relation": "alias"
+        "reading":
+          "kana": "ふきんぜんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "寺僧が給孤独園寺・祇園の改名として説明し、同じ寺へ明示的に接続する。原址と現在の建物の同一年代までは意味しない。 全語形の仮名資料は未確認で、構成漢字の音から読む。"
+      - "id": "xy-ch93-gold-cloth-short-form"
+        "text": "布金"
+        "relation": "short_form"
+        "reading":
+          "kana": "ふきん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "三蔵が寺名の語を切り出して反復する短い形。黄金を敷くという字義を考える用法で、別寺や新人物を指すものではない。 全語形の仮名資料は未確認で、構成漢字の音から読む。"
+      - "id": "xy-ch93-gold-monastery-form"
+        "text": "布金寺"
+        "relation": "short_form"
+        "reading":
+          "kana": "ふきんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "三蔵が直前の布金禅寺を短く呼ぶ形。 全語形の仮名資料は未確認で、構成漢字の音から読む。"
+      - "id": "xy-ch93-jeta-garden-long-form"
+        "text": "祇樹給孤園"
+        "relation": "alias"
+        "reading":
+          "kana": "ぎじゅぎっこおん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "釈迦の説法の場として祇園と同じ故事で語る原文の短い名称。独を勝手に補わず、この全語形の読みは推定。 全語形の仮名資料は未確認で、構成漢字の音から読む。"
+      - "id": "xy-ch93-anathapindika-monastery-form"
+        "text": "給孤独園寺"
+        "relation": "alias"
+        "reading":
+          "kana": "ぎっこどくおんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "寺僧が今の寺の元の名、祇園の別名として明示する。 全語形の仮名資料は未確認で、構成漢字の音から読む。"
+      - "id": "xy-ch93-anathapindika-gold-monastery-form"
+        "text": "給孤布金寺"
+        "relation": "alias"
+        "reading":
+          "kana": "ぎっこふきんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "寺僧が金を敷く故事から名づけた同じ寺の名として明示する。 全語形の仮名資料は未確認で、構成漢字の音から読む。"
+      - "id": "xy-ch93-anathapindika-garden-short-form"
+        "text": "給孤園"
+        "relation": "short_form"
+        "reading":
+          "kana": "ぎっこおん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "三蔵が前に説明を受けた祇園の跡を尋ねるときの短称。 全語形の仮名資料は未確認で、構成漢字の音から読む。"
   - "id": "xy-entry-0823"
     "kind": "place"
     "headword": "竜宮"
@@ -38340,6 +38423,15 @@
           "source_ids":
             - "xy-ch80-primary-1808715"
           "reason_ja": "既存の摩訶般若波羅蜜多心経と同じ経名で、原文が密を使う字形差。既存の読みを継承するが、当該全字形の仮名資料は未確認。"
+      - "id": "xy-ch93-heart-sutra-form"
+        "text": "般若心経"
+        "relation": "alias"
+        "reading":
+          "kana": "はんにゃしんぎょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "烏巣禅師の心経について同一の会話で三蔵が般若心經と呼ぶため、既存の多心経・心経と同じ経典。 全語形の仮名資料は未確認で、構成漢字の音から読む。"
   - "id": "xy-entry-1652"
     "kind": "concept"
     "headword": "般若波羅蜜多"
@@ -41824,6 +41916,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓・語構成に基づく推定。この語形の読みを直接示す資料は未確認。"
+      - "id": "xy-ch93-flower-cycle-form"
+        "text": "花甲"
+        "relation": "alias"
+        "reading":
+          "kana": "かこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "干支が一巡する六十年という既存甲子の歳月の語義。原文の45歳との差と105歳との計算が一致し、干支の初日の意味ではない。 全語形の仮名資料は未確認で、構成漢字の音から読む。"
   - "id": "xy-entry-1829"
     "kind": "person"
     "headword": "東方朔"
@@ -60963,6 +61064,15 @@
           "source_ids":
             - "xy-ch68-primary-1455617"
           "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch93-huitong-station-form"
+        "text": "会同館駅"
+        "relation": "variant"
+        "reading":
+          "kana": "かいどうかんえき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "公の旅人を迎える宿駅制度の名称で、既存会同館の語義を継承。朱紫国の館と同じ建物・職員であるとは意味しない。 全語形の仮名資料は未確認で、構成漢字の音から読む。"
   - "id": "xy-ch68-zhuzi-wufeng-tower"
     "kind": "place"
     "headword": "五鳳楼"
@@ -66161,6 +66271,15 @@
           "source_ids":
             - "xy-ch81-danotsu"
           "reason_ja": "漢字ペディアの越の項、下つき語に「檀越(ダンオツ)」と明記される。"
+      - "id": "xy-ch93-donor-danna-form"
+        "text": "檀那"
+        "relation": "alias"
+        "reading":
+          "kana": "だんな"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch93-danna-nichiren"
+          "reason_ja": "布施をする在家の施主という語義。木材の檀とは異なり、既存檀越と同じ語義として追加する。 表示本文で当該語形の日本語仮名も直接確認。"
   - "id": "xy-ch81-liang-repentance"
     "kind": "term"
     "headword": "梁王懺"
@@ -71969,3 +72088,357 @@
           "source_ids":
             - "xy-ch92-mi-reading-definition"
           "reason_ja": "表示本文で道具の箕の訓読み「み」を確認。星宿名の字音読みとは区別する。"
+  - "id": "xy-ch93-three-terraces"
+    "kind": "term"
+    "headword": "三台"
+    "definition_ja": "古代の帝王が天文・四時・鳥獣などを観察する霊台・時台・囿台。修養詩の用例ではこの語義が考えられるが、同表記の官署や星座との選択には留保がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+        - "xy-ch93-santai-moe"
+      "reason_ja": "教育部辞典に複数語義を確認。原文の霊明との対置から三つの台と解する可能性を採るが確定しない。"
+    "forms":
+      - "id": "xy-ch93-three-terraces-form"
+        "text": "三台"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんだい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-five-sacrifices"
+    "kind": "term"
+    "headword": "五牲"
+    "definition_ja": "祭礼に供える五種の動物の供え物。種類の組合せは用例によって異なり、本文だけでは特定できない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "五牲花果を用意して生祠へ供える文脈に基づく。五種の内訳や調理法を補わない。"
+    "forms":
+      - "id": "xy-ch93-five-sacrifices-form"
+        "text": "五牲"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-sravasti-realm"
+    "kind": "place"
+    "headword": "舎衛国"
+    "definition_ja": "仏教説話に現れる国・領域の名。舎衛城を中心とする土地として語られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "原文は国界・居住国と都市の舎衛城を区別して記す。既存の都市entryを国全体へ無断拡張せず、領域を示す項目とする。"
+    "forms":
+      - "id": "xy-ch93-sravasti-realm-form"
+        "text": "舎衛国"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゃえこく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-anathapindika"
+    "kind": "person"
+    "headword": "給孤独長者"
+    "definition_ja": "釈迦を支援した長者、須達多。貧しく身寄りのない人々へ施し、太子の園を買い取って仏の教団に寄進したと伝えられる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+        - "xy-ch93-sudatta"
+        - "xy-ch93-gikodoku-jodo"
+      "reason_ja": "給孤独と須達多の同一性、寄進と施しは新纂浄土宗大辞典とデジタル大辞泉の公開表示で確認。"
+    "forms":
+      - "id": "xy-ch93-anathapindika-form"
+        "text": "給孤独長者"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎっこどくちょうじゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch93-sudatta-form"
+        "text": "須達多"
+        "relation": "alias"
+        "reading":
+          "kana": "しゅだった"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch93-sudatta"
+          "reason_ja": "長者名と給孤独の対応を公開辞書の本文で確認。 表示本文で当該語形の日本語仮名も直接確認。"
+  - "id": "xy-ch93-bodhi-tree"
+    "kind": "object"
+    "headword": "菩提樹"
+    "definition_ja": "仏の悟りに結び付けて尊ばれる木。僧の姿をたとえる宗教的な樹木の像にも用いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "僧の身体をたとえる原文と仏教的語構成からの説明。現代日本で同名の特定種と同定しない。"
+    "forms":
+      - "id": "xy-ch93-bodhi-tree-form"
+        "text": "菩提樹"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼだいじゅ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-hundred-feet-mountain"
+    "kind": "place"
+    "headword": "百脚山"
+    "definition_ja": "布金禅寺のある山の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "寺僧が自分たちの山の名として百腳山と答える。別の百眼魔君や蜈蚣の地名とは同定しない。"
+    "forms":
+      - "id": "xy-ch93-hundred-feet-mountain-form"
+        "text": "百脚山"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひゃっきゃくさん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-cockcrow-pass"
+    "kind": "place"
+    "headword": "鶏鳴関"
+    "definition_ja": "百脚山の麓にある関所。旅人は鶏の鳴く時刻を待って通る。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "寺僧の説明と一行の通過が連続して同じ関所を示す。実在の同名関所へ同定しない。"
+    "forms":
+      - "id": "xy-ch93-cockcrow-pass-form"
+        "text": "鶏鳴関"
+        "relation": "preferred"
+        "reading":
+          "kana": "けいめいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-jueluo"
+    "kind": "term"
+    "headword": "覚羅"
+    "definition_ja": "長者が付き従う存在を詠む仏教的な詩語。悟りの境地の者を指すと推測されるが、具体的な人物や原語は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "長者何方伴覺羅という句の文脈に限った推測。同表記の清朝の氏族・宗室称号と結び付けない。"
+    "forms":
+      - "id": "xy-ch93-jueluo-form"
+        "text": "覚羅"
+        "relation": "preferred"
+        "reading":
+          "kana": "かくら"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-three-drawings"
+    "kind": "term"
+    "headword": "三汲"
+    "definition_ja": "銅の水時計を配した夜景に現れる語。水の汲み取りや時の経過との関連が考えられるが、具体的な意味は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "銅壺點點看三汲の原字を保持。三更等の別字に補訂せず、地名や寺名へも同定しない。"
+    "forms":
+      - "id": "xy-ch93-three-drawings-form"
+        "text": "三汲"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-nine-radiances"
+    "kind": "term"
+    "headword": "九華"
+    "definition_ja": "天の川に照らされるものをいう詩語。華やかさを含む表現だが、具体的に何を指すかは未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "銀漢明明照九華という夜景の句による。九華山や特定の建物・灯火へ確定しない。"
+    "forms":
+      - "id": "xy-ch93-nine-radiances-form"
+        "text": "九華"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-tianzhu-founder"
+    "kind": "person"
+    "headword": "太祖"
+    "definition_ja": "天竺国の王朝の初期の君主を呼ぶ号。具体的な名や史実上の人物との同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "駅丞が自国の王朝の歴史として太祖・太宗を並べる。中国諸王朝の同号の皇帝と同一視しない。"
+    "forms":
+      - "id": "xy-ch93-tianzhu-founder-form"
+        "text": "太祖"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいそ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-tianzhu-taizong"
+    "kind": "person"
+    "headword": "太宗"
+    "definition_ja": "天竺国の王朝の初期の君主を呼ぶ号。具体的な名や史実上の人物との同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "駅丞が自国の歴史として太祖と並べる。唐の李世民を指す既存太宗とは文脈上の所属国が異なり、旧項目を拡張しない。"
+    "forms":
+      - "id": "xy-ch93-tianzhu-taizong-form"
+        "text": "太宗"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-yizong-king"
+    "kind": "person"
+    "headword": "怡宗皇帝"
+    "definition_ja": "天竺国を治める国王の呼び名。山水や花を好むと語られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "駅丞が現在の国王の号と説明。中国史上の同名・近似名の皇帝へ同定しない。"
+    "forms":
+      - "id": "xy-ch93-yizong-king-form"
+        "text": "怡宗皇帝"
+        "relation": "preferred"
+        "reading":
+          "kana": "いそうこうてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-jingyan-era"
+    "kind": "term"
+    "headword": "靖宴"
+    "definition_ja": "天竺国の国王、怡宗皇帝の年号。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "駅丞が改元靖宴と語る。別の史実上の年号と同定しない。"
+    "forms":
+      - "id": "xy-ch93-jingyan-era-form"
+        "text": "靖宴"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいえん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-marriage-ball"
+    "kind": "object"
+    "headword": "繍毬"
+    "definition_ja": "刺繍を施した飾りの毬。高所から投げ、当たった相手を婚姻の相手として選ぶ話に用いられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "王女の選婿と三蔵の母の回想に用いる道具。哪吒の武器を指す既存の繡球とは実物・役割が異なるため分離する。"
+    "forms":
+      - "id": "xy-ch93-marriage-ball-form"
+        "text": "繍毬"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅうきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-taiyi-upper-immortal"
+    "kind": "title"
+    "headword": "太乙上仙"
+    "definition_ja": "太乙の境地に達した上位の仙人という称号。他の太乙を含む称号との階位の同一性は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "妖怪が元陽真気を採って達しようとする境地の名。太乙天仙・太乙金仙・太乙散仙を同じ階位とする証拠はなく、旧項目を拡張しない。"
+    "forms":
+      - "id": "xy-ch93-taiyi-upper-immortal-form"
+        "text": "太乙上仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいいつじょうせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-meridian-gate"
+    "kind": "place"
+    "headword": "午門"
+    "definition_ja": "王宮の門の名。朝廷へ入る者が命を待つ場所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "国王への報告で宮外の待機場所として示す。北京の実在の午門へ同定しない。"
+    "forms":
+      - "id": "xy-ch93-meridian-gate-form"
+        "text": "午門"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごもん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch93-liberation"
+    "kind": "concept"
+    "headword": "解脱"
+    "definition_ja": "煩悩や迷いの束縛から離れ、自由になること。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch93-primary-1455642"
+      "reason_ja": "無愛無思・清淨・超然と結び付く詩の文脈と仏教語の一般的語義による。"
+    "forms":
+      - "id": "xy-ch93-liberation-form"
+        "text": "解脱"
+        "relation": "preferred"
+        "reading":
+          "kana": "げだつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch93-primary-1455642"
+          "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
