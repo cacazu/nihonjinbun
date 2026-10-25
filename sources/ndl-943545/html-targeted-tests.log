@@ -1,0 +1,18 @@
+test_only_explicit_public_files (__main__.TanakaPublication.test_only_explicit_public_files) ... ok
+test_ids_unique_and_all_local_links_resolve (__main__.TanakaPublication.test_ids_unique_and_all_local_links_resolve) ... ok
+test_root_and_author_indexes_are_minimal_and_navigable (__main__.TanakaPublication.test_root_and_author_indexes_are_minimal_and_navigable) ... ok
+test_kodo_full_translation_groups_caveat_and_language_labels (__main__.TanakaPublication.test_kodo_full_translation_groups_caveat_and_language_labels) ... ok
+test_kokoku_full_translation_groups_notes_and_intro_toc (__main__.TanakaPublication.test_kokoku_full_translation_groups_notes_and_intro_toc) ... ok
+test_nihon_full_translation_groups_notes_and_uncertainties (__main__.TanakaPublication.test_nihon_full_translation_groups_notes_and_uncertainties) ... ok
+test_history_full_text_continuation_links_marginal_headings_and_note (__main__.TanakaPublication.test_history_full_text_continuation_links_marginal_headings_and_note) ... ok
+test_taii_continued_paragraphs_join_without_added_breaks (__main__.TanakaPublication.test_taii_continued_paragraphs_join_without_added_breaks) ... ok
+test_taii_every_translation_character_and_segment_once (__main__.TanakaPublication.test_taii_every_translation_character_and_segment_once) ... ok
+test_taii_invalid_group_order_fails_instead_of_losing_text (__main__.TanakaPublication.test_taii_invalid_group_order_fails_instead_of_losing_text) ... ok
+test_taii_note_origins_descriptions_and_source_positions (__main__.TanakaPublication.test_taii_note_origins_descriptions_and_source_positions) ... ok
+test_taii_reader_keeps_caveats_but_not_raw_ocr_history (__main__.TanakaPublication.test_taii_reader_keeps_caveats_but_not_raw_ocr_history) ... ok
+test_taii_toc_source_annotations_and_note_backlinks (__main__.TanakaPublication.test_taii_toc_source_annotations_and_note_backlinks) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 2.741s
+
+OK

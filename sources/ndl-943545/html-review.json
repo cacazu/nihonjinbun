@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "failures": [],
+  "source_sha256": "f274ec66cccd6a55b060ad06a84863e7efdbe71c54dc5604556a6019868469ae",
+  "html_sha256": "e4d2bf30c282b6475d3d3bc209ba68a73e13734dfaa93b7130efd97351d130ec",
+  "generator_sha256": "1cb304a017139d23e9eee6c2334290906436f57d375575cd81e0a4f6dc4ac82a",
+  "segments": 199,
+  "groups": 20,
+  "continuation_references": 13,
+  "notes": 1,
+  "marginal_headings_separated": 15,
+  "source_note_original_position_and_backlink": "pass",
+  "annotations": 114,
+  "caveats": 12,
+  "existing_docs_changed": [
+    "docs/tanaka/index.html"
+  ],
+  "visual_review": "not performed; public browser review belongs to integrator",
+  "targeted_tests": "13passed;actualTanaka5workbuildvalidation+exactregeneration;wholeXiyouji100notrerun"
+}

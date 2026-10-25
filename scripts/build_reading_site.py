@@ -10,7 +10,7 @@ from translation_yaml import ROOT, load_document, validate_document
 
 PUBLISHED_CHAPTER_COUNT = 100
 CHAPTERS = tuple(f"xiyouji-chapter-{n:03d}-zh-ja.yaml" for n in range(1, PUBLISHED_CHAPTER_COUNT + 1))
-TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai", "kokoku-dento-no-seishin", "nihon-seishin-kokutai")
+TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai", "kokoku-dento-no-seishin", "nihon-seishin-kokutai", "shinto-shi-koyo")
 NUMERALS = (
     "一", "二", "三", "四", "五", "六", "七", "八", "九", "十",
     "十一", "十二", "十三", "十四", "十五", "十六", "十七", "十八", "十九", "二十",
@@ -245,12 +245,15 @@ def render_redirect(number):
 def render_taii(data, *, include_reader_notes=False):
     title = data["metadata"]["title_ja"]
     note_numbers = {note["id"]: i for i, note in enumerate(data.get("notes", []), 1)}
-    by_segment, by_note = defaultdict(list), defaultdict(list)
+    by_segment, by_note, continuations = defaultdict(list), defaultdict(list), defaultdict(list)
     for ref in data.get("references", []):
-        if ref["to"]["type"] != "note":
+        if ref["to"]["type"] == "note":
+            by_segment[ref["from"]["segment_id"]].append(ref)
+            by_note[ref["to"]["id"]].append(ref)
+        elif ref["to"]["type"] == "segment" and ref["kind"] == "cross_reference" and ref["origin"] == "translator" and not any(key in ref["from"] for key in ("source_span", "translation_span")):
+            continuations[ref["from"]["segment_id"]].append(ref)
+        else:
             raise ValueError(f'Unsupported reference target: {ref["id"]}')
-        by_segment[ref["from"]["segment_id"]].append(ref)
-        by_note[ref["to"]["id"]].append(ref)
     segments = {s["id"]: s for s in data["segments"]}
     body_segments = [s for s in data["segments"] if s["kind"] != "note_body"]
     groups, grouped = {}, set()
@@ -264,6 +267,11 @@ def render_taii(data, *, include_reader_notes=False):
             raise ValueError("Reading groups must contain consecutive, unique segments")
         groups[members[0]] = group
         grouped.update(members)
+    def continuation_links(segment_ids):
+        return ''.join(f'<p class="paragraph-glosses continuation-link" id="{esc(ref["id"])}-ja"><a href="#{esc(ref["to"]["id"])}">{esc(ref.get("label", "本文の続き"))} →</a></p>'
+                       for sid in segment_ids for ref in continuations[sid])
+    marginal_ids = {sid for record in data.get("provenance", {}).get("nonadjacent_continuations", [])
+                    for sid in record.get("intervening_segment_ids", []) if segments[sid]["kind"] == "heading"}
     body = []
     source_note_by_segment = {b["segment_id"]: n for n in data.get("notes", []) for b in n["body"] if n.get("origin") != "translator"}
     for segment in data["segments"]:
@@ -280,11 +288,18 @@ def render_taii(data, *, include_reader_notes=False):
                             f'{render_text(segments[m["segment_id"]]["translation_ja"], by_segment[m["segment_id"]], "translation_span", note_numbers)}</span>'
                             for m in group["members"])
             body.append(f'<section class="segment paragraph" id="{esc(group["id"])}"><div class="story-text">{spans}</div></section>')
+            links = continuation_links([member["segment_id"] for member in group["members"]])
+            if links:
+                body.append(links)
         elif sid not in grouped:
             rendered = render_segment(segment, by_segment[sid], note_numbers)
             if segment["kind"] == "heading":
                 rendered = rendered.replace('<h1 ', '<h2 ').replace('</h1>', '</h2>')
+            if sid in marginal_ids:
+                rendered = '<aside class="source-marginal-heading" aria-label="原典の欄外見出し"><p class="paragraph-glosses">原典の欄外見出し</p>' + rendered + '</aside>'
             body.append(rendered)
+            if continuations[sid]:
+                body.append(continuation_links([sid]))
     toc = []
     for section in data["sections"]:
         if section.get("parent_id") == "main-text":
