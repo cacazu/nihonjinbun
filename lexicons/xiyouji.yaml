@@ -3406,6 +3406,58 @@
     "title": "漢字辞典オンライン「鴏」（独立レビューで字音トク・ドクの本文を確認）"
     "url": "https://kanji.jitenon.jp/kanjiy/18477"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch73-primary-1500620"
+    "title": "中文維基文庫 西遊記 第073回 固定版oldid1500620（独立取得・全文照合、著者時の取得失敗履歴保存）"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1500620&title=%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC073%E5%9B%9E"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch73-pangolin"
+    "title": "国立科学博物館 常設展示データベース ミミセンザンコウ（公開本文）"
+    "url": "https://db.kahaku.go.jp/exh/detail?cls=col_z1_01&pkey=1750194"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch73-liu-ruan"
+    "title": "法鼓文理学院 人名規範資料庫 阮肇（公開本文）"
+    "url": "https://authority.dila.edu.tw/person/search.php?aid=A011221"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch73-liu-ruan-reading"
+    "title": "橋本公民館 公開資料 劉阮天台（読みを検索表示で確認、PDF直接取得404）"
+    "url": "https://www.sagamihara-kouminkan.jp/hashimoto-k/kyoudop-hukkokuban.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch73-four-truths"
+    "title": "立正佼成会 四諦（公式公開本文）"
+    "url": "https://www.kosei-kai.or.jp/official/faith/creed/creed-1-2/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch73-female-address-reading"
+    "title": "泉鏡花 開扉一妖帖 青空文庫公開本文（同形語の読み）"
+    "url": "https://www.aozora.gr.jp/cards/000050/files/3661_22422.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch73-yushi"
+    "title": "教育部重編國語辭典修訂本 羽士（検索表示）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=163659&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch73-dada"
+    "title": "阪南大学 シルクロード学概論II（検索表示、達達・韃靼の同義）"
+    "url": "https://hannan-u.repo.nii.ac.jp/record/424/files/4_takahashi.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch73-li-weight"
+    "title": "教育部重編國語辭典修訂本 釐（検索表示）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=3419&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch73-fen-weight"
+    "title": "中央研究院 漢字 分（検索表示）"
+    "url": "https://chardb.iis.sinica.edu.tw/char/7677"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch73-qiangjin"
+    "title": "教育部 教育百科 戧金（公開本文）"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail/?search=%E6%88%A7%E9%87%91&title=%E6%88%A7%E9%87%91"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch73-qihua"
+    "title": "香港中文大学 漢語多功能字庫 琪（検索表示）"
+    "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E7%90%AA"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch73-phoenix-shoes"
+    "title": "仁徳医護管理専科学校 仁心與濟術第五期 鳳履（検索表示）"
+    "url": "https://academics.jente.edu.tw/gedu/wp-content/uploads/sites/26/2015/01/download_Form_jente_no5-0303.pdf"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -5342,6 +5394,16 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+      - "id": "xy-ch73-yushi-form"
+        "text": "羽士"
+        "relation": "alias"
+        "reading":
+          "kana": "うし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+            - "xy-ch73-yushi"
+          "reason_ja": "羽・士の漢字音から採用。教育部資料は道士との同義のみ確認でき、日本語読みの実証資料ではない。"
   - "id": "xy-term-082"
     "kind": "concept"
     "headword": "道教"
@@ -15374,6 +15436,15 @@
           "source_ids":
             - "xy-ch55-primary-2316520"
           "reason_ja": "昴の星の神の呼びかけ・詩的短称。星座区分ではなく作中で来訪し発話する神を指す。日本語の字音に基づく。"
+      - "id": "xy-ch73-mao-sun-short-form"
+        "text": "昴日星"
+        "relation": "short_form"
+        "reading":
+          "kana": "ぼうじつせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
   - "id": "xy-entry-0561"
     "kind": "person"
     "headword": "星日馬"
@@ -21905,6 +21976,16 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-ch73-dada-form"
+        "text": "達達"
+        "relation": "variant"
+        "reading":
+          "kana": "たつたつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-dada"
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "達の日本語音を重ねる読みを採用。阪南大学論文の検索表示で韃靼との異表記関係を確認したが、日本語仮名読みは未確認。"
   - "id": "xy-entry-0883"
     "kind": "object"
     "headword": "筏"
@@ -34307,6 +34388,24 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "同一人物の既存語形「驪山老母」の読みを用いる。底本の黎の字は変更しない。"
+      - "id": "xy-ch73-lishan-laomu-variant-form"
+        "text": "黎山老姆"
+        "relation": "variant"
+        "reading":
+          "kana": "りざんろうぼ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+      - "id": "xy-ch73-old-mother-address-form"
+        "text": "老姆"
+        "relation": "title"
+        "reading":
+          "kana": "ろうぼ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
   - "id": "xy-entry-1519"
     "kind": "place"
     "headword": "西蕃"
@@ -62295,3 +62394,400 @@
           "source_ids":
             - "xy-ch72-primary-2557105"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch73-liu-chen"
+    "kind": "person"
+    "headword": "劉晨"
+    "definition_ja": "阮肇とともに天台山で仙女に会ったと伝えられる人物。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch73-liu-ruan"
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "本文の語構成・文脈・役割から判断。未開示事項と未確定の解釈を補わない。"
+    "forms":
+      - "id": "xy-ch73-liu-chen-form"
+        "text": "劉晨"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうしん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch73-liu-ruan-reading"
+          "reason_ja": "公民館公開資料の検索表示に劉晨（りゅうしん）と明示。直接PDF取得は404で失敗し、検索表示に限る。"
+  - "id": "xy-ch73-ruan-zhao"
+    "kind": "person"
+    "headword": "阮肇"
+    "definition_ja": "劉晨とともに天台山で仙女に会ったと伝えられる人物。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch73-liu-ruan"
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "本文の語構成・文脈・役割から判断。未開示事項と未確定の解釈を補わない。"
+    "forms":
+      - "id": "xy-ch73-ruan-zhao-form"
+        "text": "阮肇"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんちょう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch73-liu-ruan-reading"
+          "reason_ja": "公民館公開資料の検索表示に阮肇（げんちょう）と明示。直接PDF取得は404で失敗し、検索表示に限る。"
+  - "id": "xy-ch73-huanghua-temple"
+    "kind": "place"
+    "headword": "黄花観"
+    "definition_ja": "百眼魔君が道士として住む道観。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "門額の黄花観と住人の道士、後の百眼魔君という説明を照合。本文初出の語釈には後の名や正体を入れない。"
+    "forms":
+      - "id": "xy-ch73-huanghua-temple-form"
+        "text": "黄花観"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうかかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-qihua"
+    "kind": "term"
+    "headword": "琪花"
+    "definition_ja": "玉のように美しい、仙境に咲く花をいう語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch73-primary-1500620"
+        - "xy-ch73-qihua"
+      "reason_ja": "本文の語構成・文脈・役割から判断。未開示事項と未確定の解釈を補わない。"
+    "forms":
+      - "id": "xy-ch73-qihua-form"
+        "text": "琪花"
+        "relation": "preferred"
+        "reading":
+          "kana": "きか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-qiangjin-cap"
+    "kind": "object"
+    "headword": "戧金冠"
+    "definition_ja": "金の模様を彫り込んだ装飾の冠。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch73-primary-1500620"
+        - "xy-ch73-qiangjin"
+      "reason_ja": "戧金の工芸語義と冠の語構成から判断。冠の具体的な素材や製作方法の全体は本文にない。"
+    "forms":
+      - "id": "xy-ch73-qiangjin-cap-form"
+        "text": "戧金冠"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうきんかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-guatie"
+    "kind": "term"
+    "headword": "瓜鉄"
+    "definition_ja": "顔をたとえる表現に用いられる難語。具体的な字義は未詳。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "底本の瓜鐵を保持。既知の別字へ無断補訂せず、語義未詳という留保を残す。"
+    "forms":
+      - "id": "xy-ch73-guatie-form"
+        "text": "瓜鉄"
+        "relation": "preferred"
+        "reading":
+          "kana": "かてつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-weight-fen"
+    "kind": "term"
+    "headword": "分"
+    "definition_ja": "重量の小単位。一般に一両の百分の一、一釐の十倍。長さの分とは別の語義。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch73-fen-weight"
+        - "xy-ch73-li-weight"
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "中央研究院の検索表示は両の百分の一、教育部の釐は両の千分の一とする。現代重量へ確定換算しない。"
+    "forms":
+      - "id": "xy-ch73-weight-fen-form"
+        "text": "分"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-weight-li"
+    "kind": "term"
+    "headword": "釐"
+    "definition_ja": "重量の小単位。一般に一両の千分の一、分の十分の一。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch73-li-weight"
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "教育部の検索表示で重量単位の語義を確認。長さ・地積・利率の同形異義とは分ける。"
+    "forms":
+      - "id": "xy-ch73-weight-li-form"
+        "text": "釐"
+        "relation": "preferred"
+        "reading":
+          "kana": "り"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-pangolin"
+    "kind": "term"
+    "headword": "穿山甲"
+    "definition_ja": "硬い鱗で体を覆われた哺乳類、センザンコウの漢名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch73-pangolin"
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "国立科学博物館の公開本文で穿山甲とせんざんこう、哺乳綱・有鱗目の対応を確認。物語中の個体をミミセンザンコウという一種に限定しない。"
+    "forms":
+      - "id": "xy-ch73-pangolin-form"
+        "text": "穿山甲"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんざんこう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch73-pangolin"
+          "reason_ja": "公開本文のキーワードにせんざんこう・穿山甲を併記。"
+      - "id": "xy-ch73-linglilin-form"
+        "text": "鯪鯉鱗"
+        "relation": "alias"
+        "reading":
+          "kana": "りょうりりん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-hundred-eyes"
+    "kind": "person"
+    "headword": "百眼魔君"
+    "definition_ja": "黄花観に道士として住む妖怪。多目怪とも呼ばれる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "喪服の女の説明で道士の名と別名を明示する。早い語釈には本相や後の結果を補わない。"
+    "forms":
+      - "id": "xy-ch73-hundred-eyes-form"
+        "text": "百眼魔君"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひゃくがんまくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+      - "id": "xy-ch73-many-eyes-form"
+        "text": "多目怪"
+        "relation": "alias"
+        "reading":
+          "kana": "たもくかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-purple-cloud-mountain"
+    "kind": "place"
+    "headword": "紫雲山"
+    "definition_ja": "毘藍婆の住む千花洞がある山。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "喪服の女の案内で山・洞・聖者を結び付ける。既存の紫雲仙という人物とは別義。"
+    "forms":
+      - "id": "xy-ch73-purple-cloud-mountain-form"
+        "text": "紫雲山"
+        "relation": "preferred"
+        "reading":
+          "kana": "しうんざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-thousand-flowers-cave"
+    "kind": "place"
+    "headword": "千花洞"
+    "definition_ja": "紫雲山にある毘藍婆の住まい。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "本文の語構成・文脈・役割から判断。未開示事項と未確定の解釈を補わない。"
+    "forms":
+      - "id": "xy-ch73-thousand-flowers-cave-form"
+        "text": "千花洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんかどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-pilanpo"
+    "kind": "person"
+    "headword": "毘藍婆"
+    "definition_ja": "紫雲山の千花洞に住む聖者。毘藍菩薩などとも呼ばれる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "女の案内、洞内の人物を示す詩末、直接の問答から同一性を確認。法華経の同名の羅刹女とは同名だけで断定同定しない。"
+    "forms":
+      - "id": "xy-ch73-pilanpo-form"
+        "text": "毘藍婆"
+        "relation": "preferred"
+        "reading":
+          "kana": "びらんば"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+      - "id": "xy-ch73-pilan-bodhisattva-form"
+        "text": "毘藍菩薩"
+        "relation": "alias"
+        "reading":
+          "kana": "びらんぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+      - "id": "xy-ch73-pilanpo-bodhisattva-form"
+        "text": "毘藍婆菩薩"
+        "relation": "alias"
+        "reading":
+          "kana": "びらんばぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+      - "id": "xy-ch73-pilan-short-form"
+        "text": "毘藍"
+        "relation": "short_form"
+        "reading":
+          "kana": "びらん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-phoenix-head-shoes"
+    "kind": "object"
+    "headword": "鳳頭履"
+    "definition_ja": "爪先に鳳凰の頭の形や飾りを付けた履物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch73-primary-1500620"
+        - "xy-ch73-phoenix-shoes"
+      "reason_ja": "本文の装束と鳳頭鞋・鳳頭履を同じ履物として説明する学校公開資料の検索表示を照合。雲頭履とは飾りの呼称が異なる。"
+    "forms":
+      - "id": "xy-ch73-phoenix-head-shoes-form"
+        "text": "鳳頭履"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうとうり"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-four-truths"
+    "kind": "concept"
+    "headword": "四諦"
+    "definition_ja": "仏教の四つの真理。苦、苦の原因、苦の消滅、消滅へ至る道をいう。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch73-four-truths"
+      "reason_ja": "本文の語構成・文脈・役割から判断。未開示事項と未確定の解釈を補わない。"
+    "forms":
+      - "id": "xy-ch73-four-truths-form"
+        "text": "四諦"
+        "relation": "preferred"
+        "reading":
+          "kana": "したい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch73-four-truths"
+          "reason_ja": "公式公開本文が四（し）諦（たい）と示す。"
+  - "id": "xy-ch73-sun-eye"
+    "kind": "term"
+    "headword": "日眼"
+    "definition_ja": "日と眼を結び付けた神秘的な呼称。神聖な針が練り上げられる場所として語られるが、具体的な指示対象は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "本文の小兒日眼裡と、悟空による兒子在日眼裡という言い直しを保持。太陽そのものか息子の眼かを断定しない。"
+    "forms":
+      - "id": "xy-ch73-sun-eye-form"
+        "text": "日眼"
+        "relation": "preferred"
+        "reading":
+          "kana": "じつがん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-antidote-pill"
+    "kind": "object"
+    "headword": "解毒丹"
+    "definition_ja": "物語で毘藍婆が毒を取り除くために与える丸薬。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "本人の解毒丹という呼称と三粒の授与、服薬後の回復を本文が描写。現実の医薬的効能の説明にはしない。"
+    "forms":
+      - "id": "xy-ch73-antidote-pill-form"
+        "text": "解毒丹"
+        "relation": "preferred"
+        "reading":
+          "kana": "げどくたん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現だけを日本語読みの証拠とはしない。"
+  - "id": "xy-ch73-female-bodhisattva-address"
+    "kind": "title"
+    "headword": "女菩薩"
+    "definition_ja": "女性の信者や施主に対する敬称。相手が実際に菩薩であるとは限らない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch73-primary-1500620"
+      "reason_ja": "素性を知らぬ喪服の女に悟空が礼を込めて呼びかける用例。人物の正体を確定する名ではなく、既存の菩薩一般と区別する。"
+    "forms":
+      - "id": "xy-ch73-female-bodhisattva-address-form"
+        "text": "女菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "にょぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch73-female-address-reading"
+            - "xy-ch73-primary-1500620"
+          "reason_ja": "青空文庫公開本文に同形語の女菩薩（にょぼさつ）を確認し漢字音として採用。本作の女性への敬称を扱う仮名資料そのものではないので、語義まで同一視せず推定を維持。"
