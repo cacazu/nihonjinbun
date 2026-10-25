@@ -3470,6 +3470,30 @@
     "title": "道教文化中心 上清十一大曜燈儀（検索表示で星神の構成を確認）"
     "url": "https://zh.daoinfo.org/index.php?mobileaction=toggle_view_desktop&title=上清十一大曜燈儀&variant=zh-hans"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch75-primary-2093000"
+    "title": "中文維基文庫 西遊記 第075回 固定版2093000（固定URLの本文全269表示行を取得）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第075回&oldid=2093000"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch75-diamond-borer"
+    "title": "香港中文大学図書館 玉石工芸の秘密 展覧会図録（公開PDFの本文抽出で金鋼鑽を確認）"
+    "url": "https://www.lordwilson-heritagetrust.org.hk/filemanager/archive/project_doc/27-9-26-1/19.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch75-refined-iron"
+    "title": "教育部重編國語辭典修訂本 鑌鐵（公開本文）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=19271&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch75-nanyue"
+    "title": "愛媛大学 南岳・衡山に関する論文（同定は検索表示。PDF取得成功、本文抽出0行・画像取得失敗）"
+    "url": "https://henro.ll.ehime-u.ac.jp/wp-content/uploads/2004/02/3626da267e1bf5d1da2220c615a75a4c.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch75-guangzhou"
+    "title": "教育部教育百科 廣裡（広州の意と第075回の引用を検索表示で確認。直接取得失敗）"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail/?search=%E5%8F%96%E7%B6%93&title=%E5%BB%A3%E8%A3%A1"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch75-qingming"
+    "title": "八王子市 星を見る会2024年4月 公開PDF（清明の語義・せいめいの読みを本文抽出で確認）"
+    "url": "https://www.city.hachioji.tokyo.jp/shisetsu/003/p005064_d/fil/2024-4hoshizora.pdf"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -4395,6 +4419,15 @@
           "source_ids":
             - "yinyang"
           "reason_ja": "出典の読みを確認。本文における指示対象は当該原文を照合。"
+      - "id": "xy-ch75-yin-yang-two-qi-form"
+        "text": "陰陽二気"
+        "relation": "alias"
+        "reading":
+          "kana": "いんようにき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "陰陽と二気の漢字音による。陰と陽の二つの気という既存陰陽の概念を表す語形。瓶そのものの名とは区別する。"
   - "id": "xy-term-047"
     "kind": "term"
     "headword": "レイシ"
@@ -4698,6 +4731,15 @@
           "source_ids":
             - "xy-ch74-primary-1500622"
           "reason_ja": "総鑽風の札を作った悟空が、昇進という虚偽の説明で用いる總巡風の字面を保持。別人物や実際の任官とせず、字音による読み。"
+      - "id": "xy-ch75-sun-master-form"
+        "text": "孫老爺"
+        "relation": "title"
+        "reading":
+          "kana": "そんろうや"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -4850,6 +4892,15 @@
           "source_ids":
             - "xy-ch71-primary-1455620"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch75-golden-palace-emperor-form"
+        "text": "金闕天皇"
+        "relation": "alias"
+        "reading":
+          "kana": "きんけつてんこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "金闕と天皇の漢字音から採用。天宮騒動で如来を招くという既出の行動との照合により、玉帝の称号として扱う。日本語仮名を明示した資料は未確認。"
   - "id": "xy-term-053"
     "kind": "place"
     "headword": "霊霄宝殿"
@@ -7692,6 +7743,33 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語に置き換えた語の通常の音訓による読み。原語は哭喪棒。"
+      - "id": "xy-ch75-mourning-staff-form"
+        "text": "哭喪棒"
+        "relation": "alias"
+        "reading":
+          "kana": "こくそうぼう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "哭喪と棒の漢字音から採用。敵が悟空の棒を葬式の杖扱いする侮称であり、既存の葬式棒という語形と同じ武器の呼びかけ。"
+      - "id": "xy-ch75-divine-treasure-short-form"
+        "text": "神珍"
+        "relation": "short_form"
+        "reading":
+          "kana": "しんちん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+      - "id": "xy-ch75-spirit-yang-staff-form"
+        "text": "霊陽棒"
+        "relation": "alias"
+        "reading":
+          "kana": "れいようぼう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
   - "id": "xy-entry-0192"
     "kind": "person"
     "headword": "大禹"
@@ -21591,6 +21669,15 @@
           "source_ids":
             - "xy-ch63-primary-1808654"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch75-purple-gold-hoop-form"
+        "text": "紫金箍"
+        "relation": "alias"
+        "reading":
+          "kana": "しきんこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "紫金と箍の漢字音による。三蔵が悟空の頭にはめたという文脈から、既存の緊箍を指す別称と判断。棒の金の輪や別の宝の輪ではない。"
   - "id": "xy-entry-0868"
     "kind": "concept"
     "headword": "金"
@@ -58909,6 +58996,16 @@
           "source_ids":
             - "xy-ch66-primary-1455615"
           "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch75-southern-peak-form"
+        "text": "南岳"
+        "relation": "alias"
+        "reading":
+          "kana": "なんがく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+            - "xy-ch75-nanyue"
+          "reason_ja": "南・岳の漢字音から採用。愛媛大学論文の検索表示で南岳と衡山の対応を確認したが、かな読みの実証資料ではない。PDF本文抽出0行、ページ画像取得失敗なので全文確認とはしない。"
   - "id": "xy-ch66-great-sage-zen-temple"
     "kind": "place"
     "headword": "大聖禅寺"
@@ -63020,6 +63117,15 @@
           "source_ids":
             - "xy-ch74-primary-1500622"
           "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+      - "id": "xy-ch75-great-peng-eagle-form"
+        "text": "大鵬鵰"
+        "relation": "alias"
+        "reading":
+          "kana": "たいほうちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "大鵬と鵰の漢字音から採用。語全体の日本語仮名資料は未確認。前回の雲程万里鵬と今回右の第三の大王を示す詩の人物が同じと本文から確認し、別個体の鵬魔王・一般種の大鵬には混同しない。"
   - "id": "xy-ch74-yin-yang-bottle"
     "kind": "object"
     "headword": "陰陽二気瓶"
@@ -63058,3 +63164,254 @@
           "source_ids":
             - "xy-ch74-primary-1500622"
           "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+  - "id": "xy-ch75-blue-maned-lion"
+    "kind": "person"
+    "headword": "青毛獅子怪"
+    "definition_ja": "獅駝洞の三人の大王のうち、中央に座る第一の大王。青みがかった毛の獅子の妖怪。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch75-primary-2093000"
+      "reason_ja": "容貌詩末の獣中王青毛獅子怪と、それまでの中央の大王の説明を照合。既存の獅猁王と同じ獅子というだけで同定せず、神仏の乗物との関係も未開示なので定義に含めない。"
+    "forms":
+      - "id": "xy-ch75-blue-maned-lion-form"
+        "text": "青毛獅子怪"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいもうししかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+  - "id": "xy-ch75-yellow-tusk-elephant"
+    "kind": "person"
+    "headword": "黄牙老象"
+    "definition_ja": "獅駝洞の三人の大王のうち、左の下座にいる第二の大王。黄色い牙を持つ年老いた象の妖怪。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch75-primary-2093000"
+      "reason_ja": "容貌詩末の黄牙老象と、左の下座の者という位置関係を照合。未開示の持ち主や来歴は補わない。"
+    "forms":
+      - "id": "xy-ch75-yellow-tusk-elephant-form"
+        "text": "黄牙老象"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうがろうぞう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+  - "id": "xy-ch75-lifesaving-hairs"
+    "kind": "object"
+    "headword": "救命毫毛"
+    "definition_ja": "観音菩薩が悟空に授けた、危難から命を救うための三本の毛。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch75-primary-2093000"
+      "reason_ja": "悟空が蛇盤山で菩薩から三本を授けられたと回想し、後頭部から取り出して使用する描写による。一般の変化用の毛すべてとは区別する。"
+    "forms":
+      - "id": "xy-ch75-lifesaving-hairs-form"
+        "text": "救命毫毛"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうめいごうもう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+  - "id": "xy-ch75-diamond-borer"
+    "kind": "object"
+    "headword": "金鋼鑽"
+    "definition_ja": "硬い玉などに穴をあける、金剛石を用いた錐の呼称。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch75-primary-2093000"
+        - "xy-ch75-diamond-borer"
+      "reason_ja": "香港中文大学図書館の公開図録PDF本文抽出で金鋼鑽とDIAMOND BORERの対応、および玉への穿孔を確認。底本の鋼という字形を残す。"
+    "forms":
+      - "id": "xy-ch75-diamond-borer-form"
+        "text": "金鋼鑽"
+        "relation": "preferred"
+        "reading":
+          "kana": "こんごうさん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "金剛石の道具を指す語としてこんごうさんを採用。ただし底本の字は金鋼鑽であり、同表記の日本語仮名資料は未確認。"
+  - "id": "xy-ch75-four-dipper-officers"
+    "kind": "person"
+    "headword": "四斗星官"
+    "definition_ja": "四斗に関わる星の神々をまとめた呼称。具体的な構成神は本文では示されない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch75-primary-2093000"
+      "reason_ja": "悟空の頭を造るのを監督したという自慢の句に現れる四斗を保持。既存の五斗星君と同じ集合とは確定せず、数を五へ修正しない。"
+    "forms":
+      - "id": "xy-ch75-four-dipper-officers-form"
+        "text": "四斗星官"
+        "relation": "preferred"
+        "reading":
+          "kana": "しとせいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+  - "id": "xy-ch75-nine-refinings"
+    "kind": "term"
+    "headword": "九転"
+    "definition_ja": "錬成で九たび、または幾重にも練り上げることを表す語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch75-primary-2093000"
+      "reason_ja": "九轉鑌鐵煉という棒の由来を述べる句から採る。九転金丹など個々の丹薬の名と、精錬の過程そのものを区別する。"
+    "forms":
+      - "id": "xy-ch75-nine-refinings-form"
+        "text": "九転"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうてん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+  - "id": "xy-ch75-refined-iron"
+    "kind": "term"
+    "headword": "鑌鉄"
+    "definition_ja": "精錬して硬くした鉄。武器などの材質としていう。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch75-primary-2093000"
+        - "xy-ch75-refined-iron"
+      "reason_ja": "教育部公開本文の精煉的鐵という定義と、棒の材料である原文の文脈を照合。現代の鋼種や製法に限定しない。"
+    "forms":
+      - "id": "xy-ch75-refined-iron-form"
+        "text": "鑌鉄"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひんてつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+  - "id": "xy-ch75-northern-dipper-palace"
+    "kind": "place"
+    "headword": "北斗宮"
+    "definition_ja": "北斗の名を持つ天界の宮殿。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch75-primary-2093000"
+      "reason_ja": "天宮で棒を振るったという悟空の自慢に宮殿名として現れる。星々そのものの北斗やその神々とは別の場所の呼称。"
+    "forms":
+      - "id": "xy-ch75-northern-dipper-palace-form"
+        "text": "北斗宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほくときゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+  - "id": "xy-ch75-southern-pole-court"
+    "kind": "place"
+    "headword": "南極院"
+    "definition_ja": "南極の名を持つ天界の殿院。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch75-primary-2093000"
+      "reason_ja": "北斗宮と対に挙げられる建物の呼称。南極老人という神の名や星そのものと同一視しない。"
+    "forms":
+      - "id": "xy-ch75-southern-pole-court-form"
+        "text": "南極院"
+        "relation": "preferred"
+        "reading":
+          "kana": "なんきょくいん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+  - "id": "xy-ch75-xinhua-sword"
+    "kind": "object"
+    "headword": "新華剣"
+    "definition_ja": "太歳の剣として名を挙げられる武器。名の由来や他の剣名との異同は未詳。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch75-primary-2093000"
+      "reason_ja": "太歲新華劍という底本の字形と所属表現を保持。青華などの別表記へ推測で改めない。"
+    "forms":
+      - "id": "xy-ch75-xinhua-sword-form"
+        "text": "新華剣"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんかけん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+  - "id": "xy-ch75-circulation-method"
+    "kind": "concept"
+    "headword": "搬運法"
+    "definition_ja": "身体の働きを調える道術上の修練法。物語では座禅とともに行い、食を断つために用いると語られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch75-primary-2093000"
+      "reason_ja": "打起禪來、使個搬運法、一冬不吃飯という発言の関係から訳す。物を別の場所へ移す五鬼搬運の術とは同義と決めず、現代の健康法として勧める定義にしない。"
+    "forms":
+      - "id": "xy-ch75-circulation-method-form"
+        "text": "搬運法"
+        "relation": "preferred"
+        "reading":
+          "kana": "はんうんほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+  - "id": "xy-ch75-guangzhou"
+    "kind": "place"
+    "headword": "広州"
+    "definition_ja": "中国南部の都市、広州。廣裡という古い口語の呼び方でも示される。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch75-primary-2093000"
+        - "xy-ch75-guangzhou"
+      "reason_ja": "教育部教育百科の検索表示が廣裡を廣州と定義し、この本文を例示する。直接取得は失敗しており、検索表示の証拠として保持。"
+    "forms":
+      - "id": "xy-ch75-guangzhou-form"
+        "text": "広州"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうしゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch75-primary-2093000"
+          "reason_ja": "広・州の標準的な漢字音から採用。同資料は中国語語義の証拠で、日本語の仮名資料ではない。"
+  - "id": "xy-ch75-qingming"
+    "kind": "term"
+    "headword": "清明"
+    "definition_ja": "二十四節気の一つ。春、草木が育ち、万物が清らかに明るくなるころ。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch75-qingming"
+        - "xy-ch75-primary-2093000"
+      "reason_ja": "八王子市公開PDFの本文に二十四節気の清明と、その季節の説明を確認。旧暦三月の特定日などへの固定換算はしない。"
+    "forms":
+      - "id": "xy-ch75-qingming-form"
+        "text": "清明"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいめい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch75-qingming"
+          "reason_ja": "公開PDF本文が清明にせいめいの仮名を示す。"
