@@ -2110,6 +2110,14 @@
     "title": "連雲港市政府「虾婆婆」（現代の地域名の比較。古典の種の同定資料とはしない）"
     "url": "https://www.lyg.gov.cn/zglygzfmhwz/szgc/content/1e2aab7a-ea28-477c-a7a4-8805e2b6f771.shtml"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch42-primary-1808580"
+    "title": "中文維基文庫 西遊記 第042回（現行取得ページのフッター版1808580）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第042回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch42-shiyiji-vol2"
+    "title": "拾遺記 巻二「夏禹」：玄亀が青泥を運ぶ伝承"
+    "url": "https://zh.wikisource.org/wiki/拾遺記/卷二"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -9474,6 +9482,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch42-zhang-daoling-form"
+        "text": "張道齡"
+        "relation": "alias"
+        "reading":
+          "kana": "ちょうどうれい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0365"
     "kind": "person"
     "headword": "托塔李天王"
@@ -13045,6 +13062,24 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓・語構成に基づく推定。この語形の読みを直接示す資料は未確認。"
+      - "id": "xy-ch42-luojia-cliff-form"
+        "text": "落伽崖"
+        "relation": "variant"
+        "reading":
+          "kana": "らっかがい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch42-luojia-short-form"
+        "text": "落伽"
+        "relation": "short_form"
+        "reading":
+          "kana": "らっか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0551"
     "kind": "concept"
     "headword": "大慈大悲"
@@ -13228,6 +13263,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-ch42-dharma-huian-form"
+        "text": "護法恵岸行者"
+        "relation": "title"
+        "reading":
+          "kana": "ごほうえがんぎょうじゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0554"
     "kind": "title"
     "headword": "天師"
@@ -37759,6 +37803,24 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓・語構成に基づく推定。この語形の読みを直接示す資料は未確認。"
+      - "id": "xy-ch42-shancai-dragon-girl-form"
+        "text": "善財竜女"
+        "relation": "alias"
+        "reading":
+          "kana": "ぜんざいりゅうにょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch42-shancai-dragon-girl-short-form"
+        "text": "善財"
+        "relation": "short_form"
+        "reading":
+          "kana": "ぜんざい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-1835"
     "kind": "title"
     "headword": "海主"
@@ -43219,6 +43281,24 @@
           "source_ids":
             - "xy-ch41-primary-1500598"
           "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+      - "id": "xy-ch42-holy-infant-short-form"
+        "text": "聖嬰"
+        "relation": "short_form"
+        "reading":
+          "kana": "せいえい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch42-sudhana-boy-form"
+        "text": "善財童子"
+        "relation": "title"
+        "reading":
+          "kana": "ぜんざいどうじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-ch41-fire-tip-spear"
     "kind": "object"
     "headword": "火尖槍"
@@ -43733,3 +43813,374 @@
           "source_ids":
             - "xy-ch41-primary-1500598"
           "reason_ja": "姓の敖の字音ゴウと、一家を表す家のケを組み合わせた推定読み。語全体の仮名を直接示す資料は未確認。"
+  - "id": "xy-ch42-pengying"
+    "kind": "place"
+    "headword": "蓬瀛"
+    "definition_ja": "仙人の住むとされる蓬莱と瀛洲を合わせた呼び方。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文の用例と文脈に基づく説明。語源や本文にない人物関係は補わない。"
+    "forms":
+      - "id": "xy-ch42-pengying-form"
+        "text": "蓬瀛"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうえい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-wish-bag"
+    "kind": "object"
+    "headword": "如意袋"
+    "definition_ja": "紅孩児が捕らえた八戒をつるしている袋の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文の用例と文脈に基づく説明。語源や本文にない人物関係は補わない。"
+    "forms":
+      - "id": "xy-ch42-wish-bag-form"
+        "text": "如意袋"
+        "relation": "preferred"
+        "reading":
+          "kana": "にょいたい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-long-fast"
+    "kind": "term"
+    "headword": "長斎"
+    "definition_ja": "期間を限らず長く肉食を避けるなどの戒めを守ること。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文の用例と文脈に基づく説明。語源や本文にない人物関係は補わない。"
+    "forms":
+      - "id": "xy-ch42-long-fast-form"
+        "text": "長斎"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-month-fast"
+    "kind": "term"
+    "headword": "月斎"
+    "definition_ja": "月を定めて行う斎戒。原文では長斎と対比して挙げる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "長斎・雷斎との対比による解釈。具体的な月や期間は底本に示されないので断定しない。"
+    "forms":
+      - "id": "xy-ch42-month-fast-form"
+        "text": "月斎"
+        "relation": "preferred"
+        "reading":
+          "kana": "げっさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-thunder-fast"
+    "kind": "term"
+    "headword": "雷斎"
+    "definition_ja": "雷神に関わる斎戒。物語では辛の日と月の六日の、ひと月四日と説明される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文の用例と文脈に基づく説明。語源や本文にない人物関係は補わない。"
+    "forms":
+      - "id": "xy-ch42-thunder-fast-form"
+        "text": "雷斎"
+        "relation": "preferred"
+        "reading":
+          "kana": "らいさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-metal-rooster"
+    "kind": "term"
+    "headword": "辛酉"
+    "definition_ja": "干支の組合せの一つ。暦で日などを表す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文の用例と文脈に基づく説明。語源や本文にない人物関係は補わない。"
+    "forms":
+      - "id": "xy-ch42-metal-rooster-form"
+        "text": "辛酉"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんゆう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-ziping"
+    "kind": "concept"
+    "headword": "子平"
+    "definition_ja": "生年月日時の干支を用いて運命を占う術。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文の用例と文脈に基づく説明。語源や本文にない人物関係は補わない。"
+    "forms":
+      - "id": "xy-ch42-ziping-form"
+        "text": "子平"
+        "relation": "preferred"
+        "reading":
+          "kana": "しへい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-eight-characters"
+    "kind": "concept"
+    "headword": "八字"
+    "definition_ja": "生年・月・日・時を、それぞれ干支二字ずつで表した八つの字。命運を占う際に用いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文の用例と文脈に基づく説明。語源や本文にない人物関係は補わない。"
+    "forms":
+      - "id": "xy-ch42-eight-characters-form"
+        "text": "八字"
+        "relation": "preferred"
+        "reading":
+          "kana": "はちじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-hariti-deva"
+    "kind": "person"
+    "headword": "鬼子母諸天"
+    "definition_ja": "観音菩薩のもとで悟空の来訪を取り次ぐ神の呼び名。鬼子母神に関わる呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文の用例と文脈に基づく説明。語源や本文にない人物関係は補わない。"
+    "forms":
+      - "id": "xy-ch42-hariti-deva-form"
+        "text": "鬼子母諸天"
+        "relation": "preferred"
+        "reading":
+          "kana": "きしもしょてん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-bangni"
+    "kind": "term"
+    "headword": "幫泥"
+    "definition_ja": "瓶を背負う亀を詩中で呼ぶ名。禹の治水を泥運びで助ける玄亀の伝承との関連が考えられるが、直接の語源は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+        - "xy-ch42-shiyiji-vol2"
+      "reason_ja": "西遊記の詩と、拾遺記巻二で玄亀が青泥を背負い禹の治水を助ける記述を照合。拾遺記の当該箇所に幫泥という語自体はないため、両者の関連は推定にとどめる。"
+    "forms":
+      - "id": "xy-ch42-bangni-form"
+        "text": "幫泥"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうでい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-fuxi"
+    "kind": "person"
+    "headword": "伏羲"
+    "definition_ja": "中国の古代伝承に登場する聖王。易の卦を作った人物とされる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文の用例と文脈に基づく説明。語源や本文にない人物関係は補わない。"
+    "forms":
+      - "id": "xy-ch42-fuxi-form"
+        "text": "伏羲"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふっき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-nine-palaces-eight-trigrams"
+    "kind": "concept"
+    "headword": "九宮八卦"
+    "definition_ja": "九つの区画からなる九宮と、八つの図形からなる八卦。詩では甲の模様に重ねる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文の用例と文脈に基づく説明。語源や本文にない人物関係は補わない。"
+    "forms":
+      - "id": "xy-ch42-nine-palaces-eight-trigrams-form"
+        "text": "九宮八卦"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうきゅうはっけ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-three-rivers-five-lakes"
+    "kind": "place"
+    "headword": "三江五湖"
+    "definition_ja": "三つの大河と五つの湖を合わせていう呼び方。広く多くの河川や湖をも指す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文の用例と文脈に基づく説明。語源や本文にない人物関係は補わない。"
+    "forms":
+      - "id": "xy-ch42-three-rivers-five-lakes-form"
+        "text": "三江五湖"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんこうごこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-tiangang-blades"
+    "kind": "object"
+    "headword": "天罡刀"
+    "definition_ja": "李天王から一そろい三十六本を借りる刀。観音菩薩が妖怪を降伏させるために用いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文の用例と文脈に基づく説明。語源や本文にない人物関係は補わない。"
+    "forms":
+      - "id": "xy-ch42-tiangang-blades-form"
+        "text": "天罡刀"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんこうとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-cloud-tower-palace"
+    "kind": "place"
+    "headword": "雲楼宮"
+    "definition_ja": "天上で李天王のいる宮殿。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文の用例と文脈に基づく説明。語源や本文にない人物関係は補わない。"
+    "forms":
+      - "id": "xy-ch42-cloud-tower-palace-form"
+        "text": "雲楼宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "うんろうきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-body-fixing-meditation"
+    "kind": "concept"
+    "headword": "定身禅"
+    "definition_ja": "身を定める禅の法をいう語。観音菩薩の降魔の術を描く詩に現れる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原語「定身禪」を保持する。普陀の仙境を現す描写の中の語で、通常の定身法と作用が同一かは断定しない。"
+    "forms":
+      - "id": "xy-ch42-body-fixing-meditation-form"
+        "text": "定身禅"
+        "relation": "preferred"
+        "reading":
+          "kana": "ていしんぜん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-huian-vajra"
+    "kind": "object"
+    "headword": "降妖杵"
+    "definition_ja": "恵岸行者が使う、妖魔を降す杵形の武器。降魔杵とも表記される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文が同じ動作の中で「降妖杵」「降魔杵」と記す。既存の哪吒の武器項目とは使用者を区別する。"
+    "forms":
+      - "id": "xy-ch42-huian-vajra-form"
+        "text": "降妖杵"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごうようしょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch42-huian-vajra-variant-form"
+        "text": "降魔杵"
+        "relation": "variant"
+        "reading":
+          "kana": "ごうましょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-taishan-hair"
+    "kind": "term"
+    "headword": "太山圧頂"
+    "definition_ja": "頭の毛を部分的に剃り、三か所に毛を残して髷にした姿をいう、原文の髪形の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "原文「太山壓頂」と続く三か所の残髪・結髪の描写による。具体的な髪形の復元や字の補訂はしない。"
+    "forms":
+      - "id": "xy-ch42-taishan-hair-form"
+        "text": "太山圧頂"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいざんあっちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch42-forbidding-fillet"
+    "kind": "object"
+    "headword": "禁箍"
+    "definition_ja": "如来が観音に授けた三つの輪の一つ。金箍・緊箍とともに挙げられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch42-primary-1808580"
+      "reason_ja": "この底本で山を守る大神を従えた輪と説明される。他の回の呼称と無断で入れ替えない。既存の「禁」は呪文名の項目なので、物品の輪を区別する。"
+    "forms":
+      - "id": "xy-ch42-forbidding-fillet-form"
+        "text": "禁箍"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch42-primary-1808580"
+          "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
