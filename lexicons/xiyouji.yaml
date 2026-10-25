@@ -2498,6 +2498,46 @@
     "title": "デジタル大辞泉「胡」（民族呼称の意味・読み）"
     "url": "https://kotobank.jp/word/胡-61196"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch53-primary-1498139"
+    "title": "中文維基文庫 西遊記 第053回（現行取得ページ、フッター識別版1498139）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第053回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch53-moe-huahong"
+    "title": "教育部 教育百科「花紅」（重編國語辭典修訂本）"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail/?search=花紅&title=花紅"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch53-moe-biaoli"
+    "title": "教育部 重編國語辭典修訂本「表禮」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=18565&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch53-moe-parenzi"
+    "title": "教育部 重編國語辭典修訂本「怕人子」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=22410&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch53-moe-diaohu"
+    "title": "教育部 重編國語辭典修訂本「調虎離山」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=46018&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch53-cns-qia"
+    "title": "CNS11643 全字庫「\U0002192B」"
+    "url": "https://www.cns11643.gov.tw/wordView.jsp?ID=357737"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch53-ndhu-neidan"
+    "title": "王婉甄「《西遊原旨》中『妖魔』的內丹意涵」"
+    "url": "https://faculty.ndhu.edu.tw/~dhjcs/text/textvol4/vol4.5.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch53-zhenquan"
+    "title": "西遊真詮 第五十三回（中国哲学書電子化計画の検索取得抜粋）"
+    "url": "https://ctext.org/wiki.pl?chapter=85870&if=en"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch53-wen-marshal"
+    "title": "関西大学公開資料「道教における元帥神」"
+    "url": "https://kansai-u.repo.nii.ac.jp/record/13054/files/KU-0150-20061001-04.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch53-star-readings"
+    "title": "大阪工業大学公開スライド「20251206_StarMapStatistics_slide」二十八宿名の音読表"
+    "url": "https://www.oit.ac.jp/labs/is/system/shinkai/Viewgraphs/20251206_StarMapStatistics_slide.pdf"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -10548,6 +10588,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch53-dou-star-mansion-form"
+        "text": "斗宿"
+        "relation": "alias"
+        "reading":
+          "kana": "としゅく"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch53-star-readings"
+          "reason_ja": "大学公開資料の検索表示に、二十八宿名と仮名読みを直接確認。PDF本体の取得は容量制限で失敗し、全頁・画像の校合はしていない。神格化した同名の武将とは別の星座区分。"
   - "id": "xy-entry-0389"
     "kind": "concept"
     "headword": "牛"
@@ -10565,6 +10614,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch53-niu-star-mansion-form"
+        "text": "牛宿"
+        "relation": "alias"
+        "reading":
+          "kana": "ぎゅうしゅく"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch53-star-readings"
+          "reason_ja": "大学公開資料の検索表示に、二十八宿名と仮名読みを直接確認。PDF本体の取得は容量制限で失敗し、全頁・画像の校合はしていない。神格化した同名の武将とは別の星座区分。"
   - "id": "xy-entry-0390"
     "kind": "term"
     "headword": "合"
@@ -15158,6 +15216,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成による推定。語形全体の日本語読みを示す信頼できる資料による直接確認はできていない。"
+      - "id": "xy-ch53-west-hua-mountain-form"
+        "text": "西華山"
+        "relation": "alias"
+        "reading":
+          "kana": "せいかざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0615"
     "kind": "place"
     "headword": "崑崙山"
@@ -50273,6 +50340,15 @@
           "source_ids":
             - "xy-ch52-primary-1498137"
           "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch53-elixir-sand-short-form"
+        "text": "丹砂"
+        "relation": "short_form"
+        "reading":
+          "kana": "たんしゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "如来から借りた宝を振り返る本文の短称。鉱物・薬名の同形語とは指示対象を区別する。読みは通常の日本語字音から採用。"
   - "id": "xy-ch52-dragon-subduing-arhat"
     "kind": "person"
     "headword": "降龍"
@@ -50381,3 +50457,359 @@
           "source_ids":
             - "xy-ch52-hu-ethnic-reading"
           "reason_ja": "独立レビューで辞典本文の民族呼称「こ【胡】」の見出しと語義を直接確認した。人名の読み資料を流用しない。"
+  - "id": "xy-ch53-zimu-river"
+    "kind": "place"
+    "headword": "子母河"
+    "definition_ja": "西梁女国にある川。物語では水を飲むと子を宿すと説明される。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch53-primary-1498139"
+      "reason_ja": "原文の名称と説明・行動から確認できる範囲の語義。物語の設定と現実の効能を区別する。"
+    "forms":
+      - "id": "xy-ch53-zimu-river-form"
+        "text": "子母河"
+        "relation": "preferred"
+        "reading":
+          "kana": "しぼか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-yingyang-station"
+    "kind": "place"
+    "headword": "迎陽館駅"
+    "definition_ja": "西梁女国の都の外にある駅館。門外に照胎泉がある。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch53-primary-1498139"
+      "reason_ja": "原文の名称と説明・行動から確認できる範囲の語義。物語の設定と現実の効能を区別する。"
+    "forms":
+      - "id": "xy-ch53-yingyang-station-form"
+        "text": "迎陽館駅"
+        "relation": "preferred"
+        "reading":
+          "kana": "げいようかんえき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch53-yingyang-short-form"
+        "text": "迎陽館"
+        "relation": "short_form"
+        "reading":
+          "kana": "げいようかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-zhaotai-spring"
+    "kind": "place"
+    "headword": "照胎泉"
+    "definition_ja": "迎陽館駅の門外にある泉。物語では子を宿した者が自分を映し、影が二つになるかを見る。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch53-primary-1498139"
+      "reason_ja": "原文の名称と説明・行動から確認できる範囲の語義。物語の設定と現実の効能を区別する。"
+    "forms":
+      - "id": "xy-ch53-zhaotai-spring-form"
+        "text": "照胎泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうたいせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-jieyang-mountain"
+    "kind": "place"
+    "headword": "解陽山"
+    "definition_ja": "落胎泉のある破児洞を抱く山。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch53-primary-1498139"
+      "reason_ja": "原文の名称と説明・行動から確認できる範囲の語義。物語の設定と現実の効能を区別する。"
+    "forms":
+      - "id": "xy-ch53-jieyang-mountain-form"
+        "text": "解陽山"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいようざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-poer-cave"
+    "kind": "place"
+    "headword": "破児洞"
+    "definition_ja": "解陽山にある洞。落胎泉があり、如意真仙により聚仙庵と改称された。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch53-primary-1498139"
+      "reason_ja": "原文の名称と説明・行動から確認できる範囲の語義。物語の設定と現実の効能を区別する。"
+    "forms":
+      - "id": "xy-ch53-poer-cave-form"
+        "text": "破児洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "はじどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-luotai-spring"
+    "kind": "place"
+    "headword": "落胎泉"
+    "definition_ja": "解陽山の洞に湧く泉。物語ではその水を飲むと子母河の水による胎が解けるとされる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch53-primary-1498139"
+      "reason_ja": "原文の名称と説明・行動から確認できる範囲の語義。物語の設定と現実の効能を区別する。"
+    "forms":
+      - "id": "xy-ch53-luotai-spring-form"
+        "text": "落胎泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "らくたいせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-ruyi-immortal"
+    "kind": "person"
+    "headword": "如意真仙"
+    "definition_ja": "解陽山の落胎泉を占有する道士・妖仙。牛魔王の弟で、紅孩児の叔父。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch53-primary-1498139"
+      "reason_ja": "原文の名称と説明・行動から確認できる範囲の語義。物語の設定と現実の効能を区別する。"
+    "forms":
+      - "id": "xy-ch53-ruyi-immortal-form"
+        "text": "如意真仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "にょいしんせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch53-ruyi-short-form"
+        "text": "如意仙"
+        "relation": "short_form"
+        "reading":
+          "kana": "にょいせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-juxian-hermitage"
+    "kind": "place"
+    "headword": "聚仙庵"
+    "definition_ja": "如意真仙が破児洞を改称した庵。落胎泉を囲っている。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch53-primary-1498139"
+      "reason_ja": "原文の名称と説明・行動から確認できる範囲の語義。物語の設定と現実の効能を区別する。"
+    "forms":
+      - "id": "xy-ch53-juxian-hermitage-form"
+        "text": "聚仙庵"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅせんあん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-huahong"
+    "kind": "object"
+    "headword": "花紅"
+    "definition_ja": "祝いの飾り花や紅い絹、また謝礼として贈る金品。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch53-moe-huahong"
+      "reason_ja": "教育部辞典の飾り花と紅綢、贈答・謝礼の金品という二つの語義を確認。本文では贈り物の列挙に含まれる。"
+    "forms":
+      - "id": "xy-ch53-huahong-form"
+        "text": "花紅"
+        "relation": "preferred"
+        "reading":
+          "kana": "かこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-ruyi-hook"
+    "kind": "object"
+    "headword": "如意鉤"
+    "definition_ja": "如意真仙が使う、長い柄の鉤形の武器。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch53-primary-1498139"
+      "reason_ja": "原文の名称と説明・行動から確認できる範囲の語義。物語の設定と現実の効能を区別する。"
+    "forms":
+      - "id": "xy-ch53-ruyi-hook-form"
+        "text": "如意鉤"
+        "relation": "preferred"
+        "reading":
+          "kana": "にょいこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch53-ruyi-gold-hook-form"
+        "text": "如意金鉤"
+        "relation": "variant"
+        "reading":
+          "kana": "にょいきんこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-diaohu-strategy"
+    "kind": "concept"
+    "headword": "調虎離山"
+    "definition_ja": "虎を山から誘い出すこと。相手を有利な拠点から離れさせ、その隙に目的を果たす策略。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch53-moe-diaohu"
+      "reason_ja": "教育部辞典の定義と、この本文の用例を確認。"
+    "forms":
+      - "id": "xy-ch53-diaohu-strategy-form"
+        "text": "調虎離山"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうこりざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-well-bucket"
+    "kind": "object"
+    "headword": "釣瓶"
+    "definition_ja": "井戸の水を汲むため、縄を付けて下ろす桶。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch53-primary-1498139"
+      "reason_ja": "原文の吊桶と井戸での動作に対応する日本語訳語。日本語の通常の語義として説明する。"
+    "forms":
+      - "id": "xy-ch53-well-bucket-form"
+        "text": "釣瓶"
+        "relation": "preferred"
+        "reading":
+          "kana": "つるべ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-true-lead"
+    "kind": "concept"
+    "headword": "真鉛"
+    "definition_ja": "内丹の修行で陽の働きなどを表す鉛の象徴。単なる金属の処方ではない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch53-zhenquan"
+        - "xy-ch53-ndhu-neidan"
+      "reason_ja": "西遊真詮の真鉛之陽、および内丹解釈研究を参照。象徴の体系は流派・文脈で異なるため単一の身体器官や物質へ固定しない。"
+    "forms":
+      - "id": "xy-ch53-true-lead-form"
+        "text": "真鉛"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんえん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-true-water"
+    "kind": "concept"
+    "headword": "真水"
+    "definition_ja": "内丹で鉛や汞の働きを調和させる水の象徴。物語では胎を解く泉水に重ねられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch53-zhenquan"
+        - "xy-ch53-primary-1498139"
+      "reason_ja": "西遊真詮の陽の水による調和の説明と、詩の泉水への重なりに基づく解釈。"
+    "forms":
+      - "id": "xy-ch53-true-water-form"
+        "text": "真水"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-true-mercury"
+    "kind": "concept"
+    "headword": "真汞"
+    "definition_ja": "内丹の修行で陰の働きなどを表す水銀の象徴。単なる薬物としての水銀ではない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch53-zhenquan"
+        - "xy-ch53-ndhu-neidan"
+      "reason_ja": "西遊真詮の真汞之陰、および内丹解釈研究を参照。象徴体系の一つとして説明する。"
+    "forms":
+      - "id": "xy-ch53-true-mercury-form"
+        "text": "真汞"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-numinous-cinnabar"
+    "kind": "concept"
+    "headword": "霊砂"
+    "definition_ja": "仙丹を成す霊妙な丹砂を表す内丹の象徴語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch53-zhenquan"
+        - "xy-ch53-primary-1498139"
+      "reason_ja": "内丹詩と西遊真詮の解釈による。通常の鉱物や如来の戦闘用の宝と同一の品として扱わない。"
+    "forms":
+      - "id": "xy-ch53-numinous-cinnabar-form"
+        "text": "霊砂"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいしゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch53-wen-marshal-comparison"
+    "kind": "person"
+    "headword": "温元帥"
+    "definition_ja": "如意真仙の恐ろしい形相の比喩に挙げられる元帥神。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch53-primary-1498139"
+        - "xy-ch53-wen-marshal"
+      "reason_ja": "原文「形容惡似溫元帥，爭奈衣冠不一同」が示す比較対象に限定する。第十六回の南天門で行者を迎える「溫」および第五十一回の四元帥の「溫」との同一性は、この比較箇所に明示されないため結合しない。役割別登録は別人であるとの断定ではない。元帥神の研究は保存済み検索表示のみでPDF全文は未取得。"
+    "forms":
+      - "id": "xy-ch53-wen-marshal-comparison-form"
+        "text": "温元帥"
+        "relation": "preferred"
+        "reading":
+          "kana": "おんげんすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch53-wen-marshal"
+            - "xy-ch53-primary-1498139"
+          "reason_ja": "日本語仮名は通常の字音による推定。研究の検索表示で温元帥という元帥神の呼称を確認したが、PDF本体は429で取得できず全文・画像校合はしていない。南天門の同姓神将との同一性を、この資料や表記の一致だけで確定しない。"
