@@ -3614,6 +3614,42 @@
     "title": "人民網雲南 西遊記裡的美食（検索本文の鴛鴦錠・獅仙糖の説明）"
     "url": "https://yn.people.com.cn/BIG5/n2/2023/1110/c372453-40635336.html"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch80-primary-1808715"
+    "title": "中文維基文庫 西遊記 第080回 固定版1808715（全217表示行を直接取得）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第080回&oldid=1808715"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch80-she-day"
+    "title": "コトバンク所載 小学館・平凡社 社日（表示本文で読みと中国の祭日を確認）"
+    "url": "https://kotobank.jp/word/社日-76137"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch80-bone-tiles"
+    "title": "曲海總目提要 巻二十四 骨牌名一覧（公開転写の検索表示）"
+    "url": "https://m.39017.com/a/1727mtnw/125681z.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch80-station-labor"
+    "title": "教育部 重編国語辞典修訂本 擺站（表示本文）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=14522&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch80-inappropriate-law"
+    "title": "朝鮮王朝実録 高宗35年4月9日 大明律不応為の引用（検索表示）"
+    "url": "https://sillok.history.go.kr/id/wza_13504009_003"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch80-pair-reading"
+    "title": "日本麻雀連盟 基礎用語（対子の全語読みを表示本文で確認）"
+    "url": "https://www.nihon-majan.org/majyankisoyougo.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch80-wu-mountains"
+    "title": "コトバンク 日本国語大辞典等 巫山（読み・十二峰の検索表示）"
+    "url": "https://kotobank.jp/word/巫山-617886"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch80-lama"
+    "title": "コトバンク 日本大百科全書 チベット仏教（喇嘛の読み・用例の検索表示）"
+    "url": "https://kotobank.jp/word/ちべつと仏教-3158997"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch80-hundred-tongues"
+    "title": "教育部 重編国語辞典修訂本 百舌（検索表示の鳥の説明）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=14371&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -21507,6 +21543,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-ch80-tripitaka-scripture-form"
+        "text": "三蔵経"
+        "relation": "alias"
+        "reading":
+          "kana": "さんぞうきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
   - "id": "xy-entry-0846"
     "kind": "object"
     "headword": "真経"
@@ -37378,6 +37423,15 @@
           "source_ids":
             - "xy-ch45-primary-1455594"
           "reason_ja": "既存の般若心経の経名と、底本の密多心經という表記を対応させる。密多を蜜多へ本文補訂せず、日本語仏典での蜜多の音「みった」を援用した読みで、当該異表記の直接確認は未了。"
+      - "id": "xy-ch80-heart-sutra-mi-form"
+        "text": "摩訶般若波羅密多心経"
+        "relation": "variant"
+        "reading":
+          "kana": "まかはんにゃはらみったしんぎょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "既存の摩訶般若波羅蜜多心経と同じ経名で、原文が密を使う字形差。既存の読みを継承するが、当該全字形の仮名資料は未確認。"
   - "id": "xy-entry-1652"
     "kind": "concept"
     "headword": "般若波羅蜜多"
@@ -44804,6 +44858,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "語全体の日本語仮名表記を直接示す資料は未確認。構成漢字の音訓と宗教・固有名詞の語構成から採用した読み。"
+      - "id": "xy-ch80-daxiong-hall-short-form"
+        "text": "大雄殿"
+        "relation": "short_form"
+        "reading":
+          "kana": "だいおうでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
   - "id": "xy-ch36-donghua"
     "kind": "term"
     "headword": "曇花"
@@ -64627,3 +64690,326 @@
           "source_ids":
             - "xy-ch79-primary-1455628"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch80-hundred-tongues"
+    "kind": "term"
+    "headword": "百舌"
+    "definition_ja": "さまざまな鳥の鳴き声をまねるとされる鳥の呼称。日本のモズと同じ種とは断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+        - "xy-ch80-hundred-tongues"
+      "reason_ja": "教育部辞典は伯労に似た黒い鳥で、各種の鳥の声をまねると説明。日本語の百舌の訓もずへ機械的に置換せず、原語を保持し、現代の厳密な種名への同定は保留する。"
+    "forms":
+      - "id": "xy-ch80-hundred-tongues-form"
+        "text": "百舌"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひゃくぜつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch80-she-day"
+    "kind": "term"
+    "headword": "社日"
+    "definition_ja": "土地の神を祭る日。中国では春と秋に行われ、日取りは時代によって異なる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+        - "xy-ch80-she-day"
+      "reason_ja": "公開辞書の表示本文に読みと中国の社祭の説明があり、原詩の春の景と一致する。日本の現行の祭日へ一律換算しない。"
+    "forms":
+      - "id": "xy-ch80-she-day-form"
+        "text": "社日"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゃにち"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch80-she-day"
+          "reason_ja": "取得表示L12・16・42等にしゃにちの読みが明記される。"
+  - "id": "xy-ch80-sky-tile"
+    "kind": "term"
+    "headword": "天牌"
+    "definition_ja": "中国の骨牌遊びの牌名。天子の命令を思わせる言葉にも掛けられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+        - "xy-ch80-bone-tiles"
+      "reason_ja": "曲海総目提要の検索表示に骨牌名として天牌がある。原詩の伝旨意との結びを掛詞と解す。具体的な点の数や遊び方は断定しない。"
+    "forms":
+      - "id": "xy-ch80-sky-tile-form"
+        "text": "天牌"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんぱい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch80-counter-cavalry-tile"
+    "kind": "term"
+    "headword": "拗馬軍"
+    "definition_ja": "中国の骨牌の組合せの名。旅の困難に重ねる比喩の細部は未詳。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+        - "xy-ch80-bone-tiles"
+      "reason_ja": "曲海総目提要の骨牌名一覧の検索表示に正馬軍と拗馬軍がある。本文の難句を他版の揚・拋へ置換せず保持する。"
+    "forms":
+      - "id": "xy-ch80-counter-cavalry-tile-form"
+        "text": "拗馬軍"
+        "relation": "preferred"
+        "reading":
+          "kana": "おうばぐん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch80-wu-mountains"
+    "kind": "place"
+    "headword": "巫山"
+    "definition_ja": "中国の山の名。十二の峰や神女の伝説でも知られ、詩の山々の旅の表現に使われる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+        - "xy-ch80-wu-mountains"
+      "reason_ja": "公開辞書の検索表示で山名、十二峰、神女伝説を確認。骨牌の句の働きもあるため、取経路の確定した地理上の位置にはしない。"
+    "forms":
+      - "id": "xy-ch80-wu-mountains-form"
+        "text": "巫山"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふざん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch80-wu-mountains"
+          "reason_ja": "検索本文で巫山（ふざん）という語全体の読みを確認。直接ページ本文を取得したという主張ではない。"
+  - "id": "xy-ch80-paired-tiles"
+    "kind": "term"
+    "headword": "対子"
+    "definition_ja": "骨牌などで二枚が対になる組合せ。帝へ向き合うことにも重ねたと解される語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+        - "xy-ch80-bone-tiles"
+      "reason_ja": "骨牌名一覧に對子があり、原詩は何時對子見當今とする。個々のゲームの得点や役へ限定しない。"
+    "forms":
+      - "id": "xy-ch80-paired-tiles-form"
+        "text": "対子"
+        "relation": "preferred"
+        "reading":
+          "kana": "といつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-pair-reading"
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "日本麻雀連盟の表示本文L59に対子（トイツ）とある。現代の牌語の日本語読みを古い骨牌の同系語へ適用するが、この古典の牌名自体の読み資料ではないので推定。"
+  - "id": "xy-ch80-pinpo-country"
+    "kind": "place"
+    "headword": "貧婆国"
+    "definition_ja": "林の女が、自分の家のある所だと語る国名。女の語る身の上話の真偽を保証しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+      "reason_ja": "女の出身地の主張として示される。語り手が虚情仮意と明記する発話であり、実在国や他の国名へ同定しない。"
+    "forms":
+      - "id": "xy-ch80-pinpo-country-form"
+        "text": "貧婆国"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひんばこく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch80-inappropriate-offense"
+    "kind": "term"
+    "headword": "不応"
+    "definition_ja": "してはならない行いをしたとして問う、古い法の不応為に関わる罪の呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+        - "xy-ch80-inappropriate-law"
+      "reason_ja": "大明律の不応為を引く朝鮮王朝実録の検索表示と、問個不應の文脈を照合。現代法の罪名や実際の判決としない。"
+    "forms":
+      - "id": "xy-ch80-inappropriate-offense-form"
+        "text": "不応"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch80-piluo-pavilion"
+    "kind": "place"
+    "headword": "毘羅閣"
+    "definition_ja": "寺の境内に挙げられる閣の名。毘羅の字義・同定は未詳。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+      "reason_ja": "底本の毘羅閣を保持。既存の毘盧という仏名へ自動訂正せず、同じ名に似た建築や人物とも統合しない。"
+    "forms":
+      - "id": "xy-ch80-piluo-pavilion-form"
+        "text": "毘羅閣"
+        "relation": "preferred"
+        "reading":
+          "kana": "びらかく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch80-manjusri-hall"
+    "kind": "place"
+    "headword": "文殊殿"
+    "definition_ja": "文殊の名を冠する、寺院内の殿堂。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+      "reason_ja": "寺の建築を並べる賦にある名称。人物の文殊と建物を分け、別の寺の堂との個体同一性は断定しない。"
+    "forms":
+      - "id": "xy-ch80-manjusri-hall-form"
+        "text": "文殊殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "もんじゅでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch80-sutra-wheel-hall"
+    "kind": "place"
+    "headword": "輪蔵堂"
+    "definition_ja": "経典を納める輪蔵に関わる寺院の堂と解される名称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+      "reason_ja": "寺院の建築の列挙にある。既存の冥界で転生する場所をいう輪蔵とは語義が違うため分ける。建物の設備の細部は未確認。"
+    "forms":
+      - "id": "xy-ch80-sutra-wheel-hall-form"
+        "text": "輪蔵堂"
+        "relation": "preferred"
+        "reading":
+          "kana": "りんぞうどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch80-five-blessings-tower"
+    "kind": "place"
+    "headword": "五福楼"
+    "definition_ja": "寺の境内に挙げられる楼の名。五福という吉祥の名を冠する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+      "reason_ja": "寺の荘厳を並べる賦にある楼名。観音禅院の五福堂や五福峰と別の場所・物として扱い、名前の類似だけで同一にしない。"
+    "forms":
+      - "id": "xy-ch80-five-blessings-tower-form"
+        "text": "五福楼"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごふくろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch80-blue-cloud-hall"
+    "kind": "place"
+    "headword": "碧雲宮"
+    "definition_ja": "寺の境内の景を詠む賦に現れる宮の呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+      "reason_ja": "碧雲宮裡放金光という寺内の景の名称。他の実在宮殿や雲の色を冠した別の建物へ同定しない。"
+    "forms":
+      - "id": "xy-ch80-blue-cloud-hall-form"
+        "text": "碧雲宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "へきうんきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch80-zhenhai-temple"
+    "kind": "place"
+    "headword": "鎮海禅林寺"
+    "definition_ja": "松の深い林を出た旅人が訪れる寺。山門に掲げられた寺名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+      "reason_ja": "原文が山門の五つの大字を鎮海禪林寺と明示する。後の出来事や未開示の人物関係を定義へ入れない。"
+    "forms":
+      - "id": "xy-ch80-zhenhai-temple-form"
+        "text": "鎮海禅林寺"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちんかいぜんりんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch80-poluo-fabric"
+    "kind": "term"
+    "headword": "頗羅"
+    "definition_ja": "僧の毛糸の服に付く呼称。織物に関わる語とみられるが、材質や語源は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+      "reason_ja": "頗羅毛線服という衣装の文脈に限定。酒器をいう同形語や後世の特定の織物名に決めつけない。"
+    "forms":
+      - "id": "xy-ch80-poluo-fabric-form"
+        "text": "頗羅"
+        "relation": "preferred"
+        "reading":
+          "kana": "はら"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch80-lama-monk"
+    "kind": "term"
+    "headword": "喇嘛僧"
+    "definition_ja": "チベット系の仏教僧を指す呼称。特定の民族・宗派・個人を確定するものではない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch80-primary-1808715"
+        - "xy-ch80-lama"
+      "reason_ja": "日本大百科全書の検索表示が、中国文献で喇嘛はチベット僧の呼称と説明。原詩の語を保持し、当該僧の宗派や出身国は補わない。"
+    "forms":
+      - "id": "xy-ch80-lama-monk-form"
+        "text": "喇嘛僧"
+        "relation": "preferred"
+        "reading":
+          "kana": "らまそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-lama"
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "検索表示に喇嘛（らま）とあるが、喇嘛僧全体の仮名ではないため、僧の音そうを合成する推定。"
+      - "id": "xy-ch80-young-lama-form"
+        "text": "小喇嘛"
+        "relation": "alias"
+        "reading":
+          "kana": "しょうらま"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch80-primary-1808715"
+          "reason_ja": "小の音しょうと、喇嘛の読みらまを合わせる。語形全体を日本語仮名で示す資料は未確認。"
