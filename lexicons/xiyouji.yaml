@@ -2130,6 +2130,58 @@
     "title": "教育部《重編國語辭典修訂本》「琵琶骨」"
     "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=24663&la=0&powerMode=0"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch44-primary-1455593"
+    "title": "中文維基文庫 西遊記 第044回（取得現行ページのフッター版1455593）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第044回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch44-moe-basket"
+    "title": "教育部 教育百科「水火籃兒」"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=水火籃兒"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch44-sanyang"
+    "title": "コトバンク 精選版日本国語大辞典「三陽」"
+    "url": "https://kotobank.jp/word/三陽-1327766"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch44-taihao"
+    "title": "コトバンク 精選版日本国語大辞典「太皡・太昊・大皓」"
+    "url": "https://kotobank.jp/word/太皡-2058260"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch44-star-prayer"
+    "title": "コトバンク 普及版字通「禳星」"
+    "url": "https://kotobank.jp/word/禳星-2834161"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch44-moe-bingding"
+    "title": "教育部 重編國語辭典修訂本「餅錠」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=19662&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch44-moe-youzha"
+    "title": "教育部 重編國語辭典修訂本「油煠」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=153878&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch44-moe-platter"
+    "title": "教育部 重編國語辭典修訂本「簇盤」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=142290&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch44-tuolu-study"
+    "title": "中國語文論叢「朴通事新註新譯（一）」179頁、拖爐の古注と食品の考証（検索本文）"
+    "url": "https://journal.kci.go.kr/kucsi/archive/articlePdf?artiId=ART001578506"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch44-gongde-painting"
+    "title": "国立台湾歴史博物館「水德星君功德畫掛軸」解説"
+    "url": "https://tcmb.culture.tw/zh-tw/detail?id=11000129973&indexCode=MOCCOLLECTIONS"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch44-zhengsu-record"
+    "title": "余杭歴史文化研究叢書 歴史文献（六）所収「棲里景物略」の菓子名列挙（検索本文）"
+    "url": "https://www.yuhang.gov.cn/module/download/downfile.jsp?classid=0&filename=d07517569c274623b87dd68f7bb989ec.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch44-neidan-study"
+    "title": "康自強論文所引『重陽真人金關玉鎖訣』、夾脊と雙關（検索本文）"
+    "url": "https://www.ch.ntnu.edu.tw/SIS/downloadfile.php?issue_id=12&paper_id=57&periodicalsPage=2"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch44-cloud-shoe-study"
+    "title": "客家委員会研究報告「翹鞋」9頁、雲頭履の形制（検索本文）"
+    "url": "https://cloud.hakka.gov.tw/Attachment/1/2619585271.pdf"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -3874,6 +3926,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓・既存呼称と語構成による推定。この語形の日本語読みを直接示す資料は未確認。"
+      - "id": "xy-ch44-penghu-form"
+        "text": "蓬壺"
+        "relation": "alias"
+        "reading":
+          "kana": "ほうこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-term-078"
     "kind": "place"
     "headword": "瀛洲"
@@ -17164,6 +17225,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-ch44-lingbao-daojun-form"
+        "text": "霊宝道君"
+        "relation": "title"
+        "reading":
+          "kana": "れいほうどうくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0755"
     "kind": "person"
     "headword": "五炁真君"
@@ -18518,6 +18588,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-ch44-three-thousand-worlds-form"
+        "text": "三千世界"
+        "relation": "alias"
+        "reading":
+          "kana": "さんぜんせかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0828"
     "kind": "person"
     "headword": "掲諦"
@@ -40650,6 +40729,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+      - "id": "xy-ch44-wandering-quanzhen-form"
+        "text": "雲水全真"
+        "relation": "alias"
+        "reading":
+          "kana": "うんすいぜんしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-ch33-jianban"
     "kind": "object"
     "headword": "簡板"
@@ -45110,3 +45198,812 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語字音による推定。西海の宮を指すこの語形全体の日本語仮名を明示した資料は未確認。"
+  - "id": "xy-ch44-three-yang"
+    "kind": "concept"
+    "headword": "三陽"
+    "definition_ja": "易の陽爻が三つそろうことから、旧暦正月と春の到来をいう語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch44-sanyang"
+      "reason_ja": "精選版日本国語大辞典の三陽①と補助注記を確認。本文では早春を描く。"
+    "forms":
+      - "id": "xy-ch44-three-yang-form"
+        "text": "三陽"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんよう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch44-sanyang"
+          "reason_ja": "精選版日本国語大辞典に「さんよう」とある。"
+  - "id": "xy-ch44-taihao"
+    "kind": "person"
+    "headword": "太昊"
+    "definition_ja": "東方と春をつかさどる伝説上の帝王・神。伏羲と同一視される。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch44-taihao"
+      "reason_ja": "精選版日本国語大辞典が異表記太昊を挙げ、伏羲・東方神・春神と説明する。"
+    "forms":
+      - "id": "xy-ch44-taihao-form"
+        "text": "太昊"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいこう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch44-taihao"
+          "reason_ja": "辞典の見出しに太昊を含めて「たいこう」と示す。"
+  - "id": "xy-ch44-goumang"
+    "kind": "person"
+    "headword": "勾芒"
+    "definition_ja": "春と草木の生育をつかさどる神。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-goumang-form"
+        "text": "勾芒"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうぼう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-great-strength-king"
+    "kind": "title"
+    "headword": "大力王菩薩"
+    "definition_ja": "力仕事をする僧たちが掛け声として唱える菩薩の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "本文の僧たちの唱名を根拠とする。特定の仏教尊格への同定は行わない。"
+    "forms":
+      - "id": "xy-ch44-great-strength-king-form"
+        "text": "大力王菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいりきおうぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-cloud-head-shoes"
+    "kind": "object"
+    "headword": "雲頭履"
+    "definition_ja": "つま先を高く反らせ、雲のような形にした履物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+        - "xy-ch44-cloud-shoe-study"
+      "reason_ja": "古代の翹鞋研究の検索本文に雲頭履を高頭鞋履とする説明がある。材質や細かな造形は断定しない。"
+    "forms":
+      - "id": "xy-ch44-cloud-head-shoes-form"
+        "text": "雲頭履"
+        "relation": "preferred"
+        "reading":
+          "kana": "うんとうり"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-water-fire-basket"
+    "kind": "object"
+    "headword": "水火籃"
+    "definition_ja": "食べ物を入れて携帯する小さな籠。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch44-moe-basket"
+      "reason_ja": "教育部辞典が本作の同じ箇所を引用し、食物を入れる小籠とする。語尾の兒を除いた形。"
+    "forms":
+      - "id": "xy-ch44-water-fire-basket-form"
+        "text": "水火籃"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいからん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-dao-song"
+    "kind": "term"
+    "headword": "道情"
+    "definition_ja": "道教の教えや出家の思いを歌う語り物・歌。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-dao-song-form"
+        "text": "道情"
+        "relation": "preferred"
+        "reading":
+          "kana": "どうじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-dao-elder"
+    "kind": "title"
+    "headword": "道長"
+    "definition_ja": "道士に対する敬称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-dao-elder-form"
+        "text": "道長"
+        "relation": "preferred"
+        "reading":
+          "kana": "どうちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-chechi-state"
+    "kind": "place"
+    "headword": "車遅国"
+    "definition_ja": "道士を優遇し、僧を強制労働に就かせる王国。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-chechi-state-form"
+        "text": "車遅国"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゃちこく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-tiger-strength-master"
+    "kind": "person"
+    "headword": "虎力大仙"
+    "definition_ja": "車遅国で尊ばれる三人の道士の師の一人。弟子は第一の師と呼ぶ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-tiger-strength-master-form"
+        "text": "虎力大仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "こりきたいせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch44-tiger-strength-short-form"
+        "text": "虎力"
+        "relation": "short_form"
+        "reading":
+          "kana": "こりき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-deer-strength-master"
+    "kind": "person"
+    "headword": "鹿力大仙"
+    "definition_ja": "車遅国で尊ばれる三人の道士の師の一人。弟子は第二の師と呼ぶ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-deer-strength-master-form"
+        "text": "鹿力大仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろくりきたいせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch44-deer-strength-short-form"
+        "text": "鹿力"
+        "relation": "short_form"
+        "reading":
+          "kana": "ろくりき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-goat-strength-master"
+    "kind": "person"
+    "headword": "羊力大仙"
+    "definition_ja": "車遅国で尊ばれる三人の道士の師の一人。弟子は第三の師と呼ぶ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-goat-strength-master-form"
+        "text": "羊力大仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "ようりきたいせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-nature-life"
+    "kind": "concept"
+    "headword": "性命"
+    "definition_ja": "人の本性と生命。道教では修行によって養い完成させる対象。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-nature-life-form"
+        "text": "性命"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいめい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-canopy-star"
+    "kind": "concept"
+    "headword": "華蓋"
+    "definition_ja": "星占いで孤独や出家などに結びつけられる星・運命の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "悟空が僧たちをからかう発言で出家と結びつける。話者の占い的説明を客観的事実として断定しない。"
+    "forms":
+      - "id": "xy-ch44-canopy-star-form"
+        "text": "華蓋"
+        "relation": "preferred"
+        "reading":
+          "kana": "かがい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-three-pure-temple"
+    "kind": "place"
+    "headword": "三清観"
+    "definition_ja": "三清を祀る道教寺院。車遅国の道士たちが儀礼を行う所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-three-pure-temple-form"
+        "text": "三清観"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんせいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-national-preceptor"
+    "kind": "title"
+    "headword": "国師"
+    "definition_ja": "国王・国家から特に尊ばれ、師とされる宗教者の称号。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-national-preceptor-form"
+        "text": "国師"
+        "relation": "preferred"
+        "reading":
+          "kana": "こくし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-silence-spell"
+    "kind": "term"
+    "headword": "寂"
+    "definition_ja": "出現させた姿を収めるときに唱える一字の呪。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "本文で毛から現れた護衛を毛に戻す合図として用いる。通常の語義「静まる」との関係を想定した説明。"
+    "forms":
+      - "id": "xy-ch44-silence-spell-form"
+        "text": "寂"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゃく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-zhiyuan-temple"
+    "kind": "place"
+    "headword": "智淵寺"
+    "definition_ja": "車遅国の仏寺。先王太祖が造り、その像を祀るため取り壊しを免れたと僧が説明する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-zhiyuan-temple-form"
+        "text": "智淵寺"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちえんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch44-imperial-zhiyuan-temple-form"
+        "text": "勅建智淵寺"
+        "relation": "title"
+        "reading":
+          "kana": "ちょっけんちえんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-vajra-hall"
+    "kind": "place"
+    "headword": "金剛殿"
+    "definition_ja": "寺の入口側にある、仏法の守護神を祀る堂。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-vajra-hall-form"
+        "text": "金剛殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "こんごうでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-star-prayer"
+    "kind": "term"
+    "headword": "禳星"
+    "definition_ja": "星を祭り、災厄を払う祈り。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch44-star-prayer"
+      "reason_ja": "字通の「禳星」は星祭とする。本文の道教儀礼の文脈に従う。"
+    "forms":
+      - "id": "xy-ch44-star-prayer-form"
+        "text": "禳星"
+        "relation": "preferred"
+        "reading":
+          "kana": "じょうせい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch44-star-prayer"
+          "reason_ja": "字通の見出し「じようせい」を現代仮名の「じょうせい」で記す。"
+  - "id": "xy-ch44-huale-palace"
+    "kind": "place"
+    "headword": "化楽宮"
+    "definition_ja": "道観の清らかさをたとえる、天上の宮殿の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "底本の化樂宮を保持する。仏教の化楽天等との厳密な対応は確定しない。"
+    "forms":
+      - "id": "xy-ch44-huale-palace-form"
+        "text": "化楽宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "けらくきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-high-officiant"
+    "kind": "title"
+    "headword": "高公"
+    "definition_ja": "道教の儀式を主宰する高位の道士を指す呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "儀礼を主宰して玉簡を捧げる文脈から解する。通用表記の高功に本文を無断で改めず、高公の原字を保存した。"
+    "forms":
+      - "id": "xy-ch44-high-officiant-form"
+        "text": "高公"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-jade-tablet"
+    "kind": "object"
+    "headword": "玉簡"
+    "definition_ja": "玉で作った文書用・儀礼用の札。道教儀礼で手に捧げ持つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-jade-tablet-form"
+        "text": "玉簡"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-repentance-ritual"
+    "kind": "concept"
+    "headword": "懺法"
+    "definition_ja": "罪を悔い改め、災厄を除くための儀礼や読誦。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-repentance-ritual-form"
+        "text": "懺法"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんぼう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-daodejing"
+    "kind": "object"
+    "headword": "道徳経"
+    "definition_ja": "老子の教えを伝える書。道教で重要な経典とされる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-daodejing-form"
+        "text": "道徳経"
+        "relation": "preferred"
+        "reading":
+          "kana": "どうとくきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-dao-talisman"
+    "kind": "object"
+    "headword": "符"
+    "definition_ja": "神々の力を招くため、文字や記号を記した道教の札。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-dao-talisman-form"
+        "text": "符"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-dipper-gang"
+    "kind": "concept"
+    "headword": "罡"
+    "definition_ja": "北斗に関わる星の位置や、道教儀礼でそれに対応させる歩み・配置をいう語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "底本の查罡佈斗という対句から解した。具体的な歩法・配置は確定しない。"
+    "forms":
+      - "id": "xy-ch44-dipper-gang-form"
+        "text": "罡"
+        "relation": "preferred"
+        "reading":
+          "kana": "こう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-couplet"
+    "kind": "term"
+    "headword": "対聯"
+    "definition_ja": "二本一組で掲げる、語数や意味を対にした句。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-couplet-form"
+        "text": "対聯"
+        "relation": "preferred"
+        "reading":
+          "kana": "ついれん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-heavenly-venerable"
+    "kind": "title"
+    "headword": "天尊"
+    "definition_ja": "道教で高位の神に用いる尊称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "三清への祈りと呼びかけに用いる一般称号。既存の玉帝の別称としての天尊とは指示範囲が違うため、一般称号項目を分ける。"
+    "forms":
+      - "id": "xy-ch44-heavenly-venerable-form"
+        "text": "天尊"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんそん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-dao-sacrifice"
+    "kind": "concept"
+    "headword": "斎醮"
+    "definition_ja": "身を清め、供物や読経を用いて神々へ祈る道教儀礼。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-dao-sacrifice-form"
+        "text": "斎醮"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-three-pure-hall"
+    "kind": "place"
+    "headword": "三清殿"
+    "definition_ja": "三清の像を安置する堂。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-three-pure-hall-form"
+        "text": "三清殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんせいでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-merit-painting"
+    "kind": "object"
+    "headword": "功徳画"
+    "definition_ja": "宗教儀礼の場で壁に掛け、礼拝する神仏の巻物画。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch44-gongde-painting"
+      "reason_ja": "国立台湾歴史博物館の解説に、法会で壁に掛ける礼拝用巻軸画とある。本文の功德を画と解した。"
+    "forms":
+      - "id": "xy-ch44-merit-painting-form"
+        "text": "功徳画"
+        "relation": "preferred"
+        "reading":
+          "kana": "くどくが"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-heaven-secret"
+    "kind": "concept"
+    "headword": "天機"
+    "definition_ja": "天の秘められた働きや機密。転じて、明かしてはならない秘密。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-heaven-secret-form"
+        "text": "天機"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-five-grains-cycle"
+    "kind": "term"
+    "headword": "五穀輪廻"
+    "definition_ja": "食べた穀物が排泄物となって巡ることをいう、便所の婉曲表現。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-five-grains-cycle-form"
+        "text": "五穀輪廻"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごこくりんね"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-east-latrine"
+    "kind": "place"
+    "headword": "東厠"
+    "definition_ja": "便所をいう語。字面では東の便所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-east-latrine-form"
+        "text": "東厠"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-tuolu-cake"
+    "kind": "object"
+    "headword": "拖炉"
+    "definition_ja": "小麦粉をこねて焼いた菓子の一種。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+        - "xy-ch44-tuolu-study"
+      "reason_ja": "朴通事の古注を紹介する論文の検索本文で小麦粉・油・蜜を用いた焼き餅とする説明を確認した。現代の同名郷土菓子の具や形を持ち込まない。"
+    "forms":
+      - "id": "xy-ch44-tuolu-cake-form"
+        "text": "拖炉"
+        "relation": "preferred"
+        "reading":
+          "kana": "たろ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-bingding-cake"
+    "kind": "object"
+    "headword": "餅錠"
+    "definition_ja": "餅菓子・糕餅類の食品。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch44-moe-bingding"
+      "reason_ja": "教育部辞典が本作の列挙を引き、糕餅類の食品と説明する。形状は特定しない。"
+    "forms":
+      - "id": "xy-ch44-bingding-cake-form"
+        "text": "餅錠"
+        "relation": "preferred"
+        "reading":
+          "kana": "へいてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-youzha-cake"
+    "kind": "object"
+    "headword": "油煠"
+    "definition_ja": "小麦粉などの生地を油で揚げた食品。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch44-moe-youzha"
+      "reason_ja": "教育部辞典が本作を引き、油條や麻花のような油揚げの麵食とする。日本語音は煠の漢字音により採る。"
+    "forms":
+      - "id": "xy-ch44-youzha-cake-form"
+        "text": "油煠"
+        "relation": "preferred"
+        "reading":
+          "kana": "ゆさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-zhengsu-cake"
+    "kind": "object"
+    "headword": "蒸酥"
+    "definition_ja": "菓子の一種。字面では蒸した酥菓子で、具体的な製法は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+        - "xy-ch44-zhengsu-record"
+      "reason_ja": "作品の供物列挙と、棲里景物略の菓子列挙に蒸酥があることを確認。乳製品や特定の現代菓子へ同定しない。"
+    "forms":
+      - "id": "xy-ch44-zhengsu-cake-form"
+        "text": "蒸酥"
+        "relation": "preferred"
+        "reading":
+          "kana": "じょうそ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-seven-po"
+    "kind": "concept"
+    "headword": "七魄"
+    "definition_ja": "人の身体に宿ると考えられた七つの魄。三魂とともにいう。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-seven-po-form"
+        "text": "七魄"
+        "relation": "preferred"
+        "reading":
+          "kana": "しちはく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch44-grandmaster"
+    "kind": "title"
+    "headword": "師公"
+    "definition_ja": "師の師に対する呼びかけ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch44-primary-1455593"
+      "reason_ja": "原文の語形・指示対象・文脈から採った説明。後の正体・展開・未確認の細部を補っていない。"
+    "forms":
+      - "id": "xy-ch44-grandmaster-form"
+        "text": "師公"
+        "relation": "preferred"
+        "reading":
+          "kana": "しこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch44-primary-1455593"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
