@@ -1,6 +1,7 @@
 """The reader must faithfully publish only the explicitly selected chapters."""
 import copy
 import hashlib
+import posixpath
 import sys
 import tempfile
 import unittest
@@ -75,7 +76,7 @@ class IndexRenderingTests(unittest.TestCase):
         main, = page.by_id("main")
         children = [node for node in page.nodes if node["parents"]
                     and node["parents"][-1] is main]
-        self.assertEqual([node["tag"] for node in children], ["h1", "p", "h2", "ul", "p"])
+        self.assertEqual([node["tag"] for node in children], ["h1", "p", "h2", "ul", "p", "p"])
         self.assertEqual(children[0]["text"], "西遊記")
         self.assertEqual(children[2]["text"], "目次")
         self.assertEqual(children[2]["attrs"]["id"], "chapters")
@@ -84,6 +85,7 @@ class IndexRenderingTests(unittest.TestCase):
             heading, = [segment["translation_ja"] for segment in document["segments"]
                         if segment["kind"] == "heading"]
             expected.append((" ".join(heading.split()), f"chapter-{number:03d}.html"))
+        expected.append(("索引に戻る", "../index.html"))
         expected.append(("https://github.com/cacazu/nihonjinbun",
                          "https://github.com/cacazu/nihonjinbun"))
         self.assertEqual([(node["text"], node["attrs"]["href"])
@@ -112,6 +114,7 @@ class ReadingSiteTests(unittest.TestCase):
         cls.temp = tempfile.TemporaryDirectory()
         cls.output = Path(cls.temp.name)
         cls.documents = [load_document(ROOT / "translations" / "wu-chengen" / name) for name in reader.CHAPTERS]
+        cls.taii = load_document(ROOT / "translations/tanaka/shinto-taii-ja.yaml")
         cls.pages = reader.build(cls.output)
         cls.html = {name: Elements(text) for name, text in cls.pages.items() if name.endswith(".html")}
 
@@ -120,12 +123,12 @@ class ReadingSiteTests(unittest.TestCase):
         cls.temp.cleanup()
 
     def test_only_explicit_public_files(self):
-        self.assertEqual(set(self.pages), {"index.html", ".nojekyll", "assets/reading.css", *(f"chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1))})
+        self.assertEqual(set(self.pages), {"index.html", "xiyouji/index.html", "tanaka/index.html", "tanaka/shinto-taii.html", ".nojekyll", "assets/reading.css", "xiyouji/assets/reading.css", *(f"chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1)), *(f"xiyouji/chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1))})
 
     def test_chapter_navigation_and_publication_range(self):
         for number in range(1, len(reader.CHAPTERS) + 1):
             with self.subTest(chapter=number):
-                page = self.html[f"chapter-{number:03d}.html"]
+                page = self.html[f"xiyouji/chapter-{number:03d}.html"]
                 previous = [node["attrs"]["href"] for node in page.nodes
                             if node["attrs"].get("rel") == "prev"]
                 following = [node["attrs"]["href"] for node in page.nodes
@@ -143,7 +146,7 @@ class ReadingSiteTests(unittest.TestCase):
 
     def test_every_character_and_newline_is_preserved(self):
         for n, data in enumerate(self.documents, 1):
-            page = self.html[f"chapter-{n:03d}.html"]
+            page = self.html[f"xiyouji/chapter-{n:03d}.html"]
             ids_in_order = []
             for segment in data["segments"]:
                 with self.subTest(chapter=n, segment=segment["id"]):
@@ -174,16 +177,18 @@ class ReadingSiteTests(unittest.TestCase):
                         self.assertEqual(node["tag"], "a", "External resources must never load")
                         continue
                     self.assertFalse(url.path.startswith("/"), "All site links must work under /nihonjinbun/")
-                    target = url.path or name
+                    target = posixpath.normpath(posixpath.join(posixpath.dirname(name), unquote(url.path))) if url.path else name
                     self.assertIn(target, self.pages, (name, node))
                     if url.fragment:
                         self.assertEqual(len(self.html[target].by_id(unquote(url.fragment))), 1, (name, node))
 
     def test_all_eighteen_references_and_ten_notes(self):
         data = self.documents[0]
-        page = self.html["chapter-001.html"]
+        page = self.html["xiyouji/chapter-001.html"]
         self.assertEqual(len(data["notes"]), 10)
         self.assertEqual(len(data["references"]), 18)
+        self.assertTrue(all(n["text"].startswith("訳注 ") for n in page.nodes
+                            if n["tag"] == "h3" and n["attrs"].get("id", "").startswith("note-label-")))
         for ref in data["references"]:
             for field, lang in (("translation_span", "ja"),):
                 node, = page.by_id(f'{ref["id"]}-{lang}')
@@ -194,7 +199,7 @@ class ReadingSiteTests(unittest.TestCase):
 
     def test_metadata_caveats_and_attribution_are_present(self):
         for number, data in enumerate(self.documents, 1):
-            text = self.html[f"chapter-{number:03d}.html"].nodes[0]["text"]
+            text = self.html[f"xiyouji/chapter-{number:03d}.html"].nodes[0]["text"]
             self.assertIn(reader.DISCLAIMER, text)
             for contributor in data["metadata"]["contributors"]:
                 if "author" in contributor["roles"]:
@@ -238,6 +243,7 @@ class ReadingSiteTests(unittest.TestCase):
 
     def test_reproducible_and_sources_untouched(self):
         paths = [ROOT / "translations" / "wu-chengen" / name for name in reader.CHAPTERS]
+        paths.append(ROOT / "translations/tanaka/shinto-taii-ja.yaml")
         before = [hashlib.sha256(path.read_bytes()).hexdigest() for path in paths]
         self.assertEqual(self.pages, reader.build(self.output))
         self.assertEqual(before, [hashlib.sha256(path.read_bytes()).hexdigest() for path in paths])
@@ -246,7 +252,7 @@ class ReadingSiteTests(unittest.TestCase):
 
     def test_chapters_contain_only_reading_annotations_and_navigation(self):
         for number, data in enumerate(self.documents, 1):
-            page = self.html[f"chapter-{number:03d}.html"]
+            page = self.html[f"xiyouji/chapter-{number:03d}.html"]
             main, = page.by_id("main")
             children = [n for n in page.nodes if n["parents"] and n["parents"][-1] is main]
             self.assertEqual([n["tag"] for n in children], ["nav", "article", "section", "nav"])
@@ -268,6 +274,129 @@ class ReadingSiteTests(unittest.TestCase):
             self.assertNotIn("script-src", policy)
             # No duplicated Chinese references or controls in the public document.
             self.assertFalse(any(n["attrs"].get("id", "").endswith("-zh") for n in page.nodes))
+
+    def test_root_and_author_indexes_are_minimal_and_navigable(self):
+        root = self.html["index.html"]
+        self.assertEqual([n["text"] for n in root.nodes if n["tag"] == "h1"], ["索引"])
+        self.assertEqual([(n["text"], n["attrs"]["href"]) for n in root.nodes if n["tag"] == "a"],
+                         [("西遊記", "xiyouji/index.html"), ("田中義能", "tanaka/index.html"),
+                          ("リポジトリ", "https://github.com/cacazu/nihonjinbun")])
+        author = self.html["tanaka/index.html"]
+        self.assertEqual([n["text"] for n in author.nodes if n["tag"] == "h1"], ["田中義能"])
+        self.assertEqual([(n["text"], n["attrs"]["href"]) for n in author.nodes if n["tag"] == "a"],
+                         [("神道大意", "shinto-taii.html"), ("索引に戻る", "../index.html")])
+        for page in (root, author):
+            self.assertFalse(any(n["tag"] in ("script", "button", "iframe") for n in page.nodes))
+
+    def test_old_chapter_urls_redirect_to_exact_new_canonical_page(self):
+        for number in range(1, len(reader.CHAPTERS) + 1):
+            page = self.html[f"chapter-{number:03d}.html"]
+            target = f"xiyouji/chapter-{number:03d}.html"
+            refresh, = [n for n in page.nodes if n["attrs"].get("http-equiv") == "refresh"]
+            self.assertEqual(refresh["attrs"]["content"], "0;url=" + target)
+            canonical, = [n for n in page.nodes if n["attrs"].get("rel") == "canonical"]
+            self.assertEqual(canonical["attrs"]["href"], target)
+            link, = [n for n in page.nodes if n["tag"] == "a"]
+            self.assertEqual(link["attrs"]["href"], target)
+            self.assertFalse(page.by_id("reading"), "Old paths must not duplicate the book")
+
+    def test_taii_every_translation_character_and_segment_once(self):
+        page = self.html["tanaka/shinto-taii.html"]
+        self.assertEqual(len(self.taii["segments"]), 422)
+        reading, = page.by_id("reading")
+        notes, = page.by_id("notes")
+        positions = []
+        for segment in self.taii["segments"]:
+            node, = page.by_id(segment["id"])
+            self.assertEqual(node["text"], segment["translation_ja"], segment["id"])
+            if segment["kind"] == "note_body":
+                self.assertIn(notes, node["parents"])
+            else:
+                self.assertIn(reading, node["parents"])
+                positions.append(page.nodes.index(node))
+        self.assertEqual(positions, sorted(positions))
+        self.assertEqual([n["text"] for n in page.nodes if n["tag"] == "h1"], ["神道大意"])
+
+    def test_taii_continued_paragraphs_join_without_added_breaks(self):
+        page = self.html["tanaka/shinto-taii.html"]
+        segments = {s["id"]: s for s in self.taii["segments"]}
+        self.assertEqual(len(self.taii["groups"]), 24)
+        for group in self.taii["groups"]:
+            node, = page.by_id(group["id"])
+            expected = group.get("separator", "").join(segments[m["segment_id"]]["translation_ja"]
+                                                       for m in group["members"])
+            self.assertEqual(node["text"], expected, group["id"])
+            members = [n for n in page.nodes if n["attrs"].get("id") in
+                       {m["segment_id"] for m in group["members"]} and node in n["parents"]]
+            self.assertEqual([n["attrs"]["id"] for n in members],
+                             [m["segment_id"] for m in group["members"]])
+            self.assertTrue(all(n["tag"] == "span" for n in members))
+
+    def test_taii_toc_source_annotations_and_note_backlinks(self):
+        page = self.html["tanaka/shinto-taii.html"]
+        toc, = page.by_id("contents")
+        toc_links = [n for n in page.nodes if n["tag"] == "a" and toc in n["parents"]]
+        segments = {s["id"]: s for s in self.taii["segments"]}
+        expected = []
+        for section in self.taii["sections"]:
+            if section.get("parent_id") == "main-text":
+                sid = section["heading_segment_ids"][0]
+                expected.append((segments[sid]["translation_ja"], "#" + sid))
+            elif section["id"] in ("colophon", "advertisements"):
+                sid = next(s["id"] for s in self.taii["segments"]
+                           if s["section_id"] == section["id"] or
+                           (section["id"] == "advertisements" and s["section_id"].startswith("ads-scan-")))
+                expected.append((section["label_ja"], "#" + sid))
+        self.assertEqual([(n["text"], n["attrs"]["href"]) for n in toc_links], expected)
+        annotation_nodes = [n for n in page.nodes if n["tag"] == "li" and
+                            n["text"].startswith(("原文のルビ", "原文の傍点"))]
+        annotations = [(s, a) for s in self.taii["segments"] for a in s.get("annotations", [])]
+        self.assertEqual(len(annotations), 26)
+        self.assertEqual(len(annotation_nodes), len(annotations))
+        for node, (segment, annotation) in zip(annotation_nodes, annotations):
+            self.assertIn(annotation["span"]["exact"], node["text"])
+            if annotation.get("reading"):
+                self.assertIn(annotation["reading"], node["text"])
+            link, = [n for n in page.nodes if n["tag"] == "a" and any(parent is node for parent in n["parents"])]
+            self.assertEqual(link["attrs"]["href"], "#" + segment["id"])
+        for ref in self.taii["references"]:
+            node, = page.by_id(ref["id"] + "-ja")
+            self.assertEqual(node["text"], ref["from"]["translation_span"]["exact"])
+            self.assertEqual(node["attrs"]["href"], "#" + ref["to"]["id"])
+            self.assertEqual(len([n for n in page.nodes if n["attrs"].get("href") == "#" + ref["id"] + "-ja"]), 1)
+
+    def test_taii_note_origins_descriptions_and_source_positions(self):
+        page = self.html["tanaka/shinto-taii.html"]
+        self.assertEqual([n["text"] for n in page.nodes if n["tag"] == "h3" and
+                          n["attrs"].get("id", "").startswith("note-label-")],
+                         ["書込み（筆者不明） 01", "原注 02", "訳注 03"])
+        for note in self.taii["notes"]:
+            card, = page.by_id(note["id"])
+            self.assertIn(note["description_ja"], card["text"])
+            if note["origin"] != "translator":
+                marker, = page.by_id("source-note-" + note["id"])
+                self.assertTrue(any(n["attrs"].get("id") == "reading" for n in marker["parents"]))
+                link, = [n for n in page.nodes if n["tag"] == "a" and marker in n["parents"]]
+                self.assertEqual(link["attrs"]["href"], "#" + note["id"])
+                self.assertTrue(any(n["attrs"].get("href") == "#source-note-" + note["id"]
+                                    for n in page.nodes if card in n["parents"]))
+
+    def test_taii_reader_keeps_caveats_but_not_raw_ocr_history(self):
+        text = self.html["tanaka/shinto-taii.html"].nodes[0]["text"]
+        for gap in self.taii["scope"]["known_gaps"]:
+            self.assertIn(gap["description_ja"], text)
+        ocr_descriptions = {v["description_ja"] for s in self.taii["segments"]
+                            for v in s.get("source_variants", []) if v["kind"] == "ocr"}
+        for description in ocr_descriptions:
+            self.assertNotIn(description, text)
+        self.assertIn(self.taii["metadata"]["translation_rights"]["attribution"], text)
+        self.assertIn(self.taii["metadata"]["translation_rights"]["note_ja"], text)
+
+    def test_taii_invalid_group_order_fails_instead_of_losing_text(self):
+        data = copy.deepcopy(self.taii)
+        data["groups"][0]["members"].reverse()
+        with self.assertRaises(ValueError):
+            reader.render_taii(data)
 
     def test_retired_generated_script_is_removed_on_rebuild(self):
         stale = self.output / "assets" / "reading.js"
