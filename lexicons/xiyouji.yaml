@@ -2054,6 +2054,22 @@
     "title": "デジタル大辞泉「寡人」コトバンク収録"
     "url": "https://kotobank.jp/word/寡人-462471"
     "accessed_at": "2026-10-24"
+  - "id": "xy-ch39-primary-1500596"
+    "title": "中文維基文庫 西遊記 第039回（現行ページ末尾がoldid=1500596と表示）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第039回&oldid=1500596"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch39-monju-reading"
+    "title": "普仁の会 御朱印コレクション「文殊菩薩」"
+    "url": "https://www.puninokai.com/wp-content/uploads/2015/10/GoshuinCollection_B4.pdf"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch39-inner-alchemy-research"
+    "title": "廖宜惠「身體內的遊歷――內丹視域下的《西遊記》」漢学研究31巻1期"
+    "url": "https://ccsndb.ncl.edu.tw/nclccs/pdf/01_032_001_01_04.pdf"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch39-moe-phoenix-pavilion"
+    "title": "教育部《重編國語辭典修訂本》「鳳閣」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=37711&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -4781,7 +4797,8 @@
     "definition_ja": "道教で頭の内に想定する、精神を宿す場所"
     "definition_evidence":
       "status": "estimated"
-      "source_ids": []
+      "source_ids":
+        - "xy-ch39-primary-1500596"
       "reason_ja": "物語の文脈と一般的な語義に基づく編集上の説明。現代の医学・地理・単位の実長を断定しない。"
     "forms":
       - "id": "xy-vocab-125-form"
@@ -4792,6 +4809,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+      - "id": "xy-ch39-mud-wall-palace-form"
+        "text": "泥垣宮"
+        "relation": "variant"
+        "reading":
+          "kana": "でいえんきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
   - "id": "xy-vocab-126"
     "kind": "term"
     "headword": "五臓"
@@ -20822,6 +20847,22 @@
           "source_ids":
             - "xy-reference-233"
           "reason_ja": "同項が「諫臣魏徴(ぎちょう)」と明記。"
+      - "id": "xy-ch39-wei-surname-form"
+        "text": "魏"
+        "relation": "short_form"
+        "reading":
+          "kana": "ぎ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+      - "id": "xy-ch39-zheng-given-form"
+        "text": "徴"
+        "relation": "short_form"
+        "reading":
+          "kana": "ちょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
   - "id": "xy-entry-0947"
     "kind": "term"
     "headword": "卿"
@@ -33033,6 +33074,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-ch39-wusi-short-form"
+        "text": "烏斯国"
+        "relation": "short_form"
+        "reading":
+          "kana": "うしこく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
   - "id": "xy-entry-1593"
     "kind": "place"
     "headword": "高老荘"
@@ -34959,12 +35008,13 @@
   - "id": "xy-entry-1695"
     "kind": "person"
     "headword": "文殊"
-    "definition_ja": "黄風の詩で青毛の獅子を失う菩薩。"
+    "definition_ja": "仏教の菩薩の一人。青毛の獅子を乗り物とする。"
     "definition_evidence":
-      "status": "estimated"
+      "status": "verified"
       "source_ids":
-        - "xy-reference-410"
-      "reason_ja": "第二十一回固定版の対象語を含む本文に基づく。読みと、語の細かな同定は別途留保する。"
+        - "xy-ch39-primary-1500596"
+        - "xy-ch39-monju-reading"
+      "reason_ja": "物語での登場と、文殊菩薩・乗り物の説明を照合した。"
     "forms":
       - "id": "xy-form-2005"
         "text": "文殊"
@@ -34974,6 +35024,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+      - "id": "xy-ch39-manjusri-title-form"
+        "text": "文殊菩薩"
+        "relation": "title"
+        "reading":
+          "kana": "もんじゅぼさつ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch39-monju-reading"
+          "reason_ja": "資料が文殊菩薩の仮名を明示する。"
   - "id": "xy-entry-1696"
     "kind": "person"
     "headword": "普賢"
@@ -42397,3 +42456,282 @@
           "source_ids":
             - "xy-ch38-senzai-dictionary"
           "reason_ja": "日本語辞書で同表記の「せんざい」は確認できるが、中国の尊称として使う場合の日本語仮名を明記した資料は未確認のため、読みの確度はestimatedとする。"
+  - "id": "xy-ch39-soul-returning-elixir"
+    "kind": "object"
+    "headword": "九転還魂丹"
+    "definition_ja": "太上老君が持つ、死者の魂を戻して生き返らせる仙薬。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文中の説明、発話と行動から指示対象または意味を確認した。"
+    "forms":
+      - "id": "xy-ch39-soul-returning-elixir-form"
+        "text": "九転還魂丹"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうてんかんこんたん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+      - "id": "xy-ch39-soul-returning-elixir-short-form"
+        "text": "還魂丹"
+        "relation": "short_form"
+        "reading":
+          "kana": "かんこんたん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-east-view"
+    "kind": "term"
+    "headword": "東観"
+    "definition_ja": "悟空が南天門から降りて戻る先として記される語。具体的な場所や建物の同定は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文の用例と前後の文脈から採った解釈。語義や指示対象を確定する独立の資料は得られていない。"
+    "forms":
+      - "id": "xy-ch39-east-view-form"
+        "text": "東観"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうかん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-hao-cry"
+    "kind": "term"
+    "headword": "嚎"
+    "definition_ja": "涙を伴わず、口だけで声を張り上げて泣くこととして悟空が説明する語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文中の説明、発話と行動から指示対象または意味を確認した。"
+    "forms":
+      - "id": "xy-ch39-hao-cry-form"
+        "text": "嚎"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-tao-cry"
+    "kind": "term"
+    "headword": "啕"
+    "definition_ja": "涙を絞り出して泣くこととして悟空が説明する語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文中の説明、発話と行動から指示対象または意味を確認した。"
+    "forms":
+      - "id": "xy-ch39-tao-cry-form"
+        "text": "啕"
+        "relation": "preferred"
+        "reading":
+          "kana": "とう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-bitter-wailing"
+    "kind": "term"
+    "headword": "嚎啕痛哭"
+    "definition_ja": "涙と心のこもった、声を上げる激しい泣き方。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文中の説明、発話と行動から指示対象または意味を確認した。"
+    "forms":
+      - "id": "xy-ch39-bitter-wailing-form"
+        "text": "嚎啕痛哭"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごうとうつうこく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-one-drink-one-peck"
+    "kind": "term"
+    "headword": "一飲一啄"
+    "definition_ja": "飲む一口、食べる一口という、人の暮らしのごく小さな出来事までをいう語。ここではすべて前もって定まるという言い方。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文中の説明、発話と行動から指示対象または意味を確認した。"
+    "forms":
+      - "id": "xy-ch39-one-drink-one-peck-form"
+        "text": "一飲一啄"
+        "relation": "preferred"
+        "reading":
+          "kana": "いちいんいったく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-metal-and-wood"
+    "kind": "concept"
+    "headword": "金木"
+    "definition_ja": "内丹修行で、金と木の二つの働きを合わせていう象徴語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文の用例と前後の文脈から採った解釈。語義や指示対象を確定する独立の資料は得られていない。"
+    "forms":
+      - "id": "xy-ch39-metal-and-wood-form"
+        "text": "金木"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんぼく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-elixir-mother"
+    "kind": "concept"
+    "headword": "丹母"
+    "definition_ja": "内丹の修行で、丹を生むもとを母にたとえる語。詩では嬰児と対をなす。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文の用例と前後の文脈から採った解釈。語義や指示対象を確定する独立の資料は得られていない。"
+    "forms":
+      - "id": "xy-ch39-elixir-mother-form"
+        "text": "丹母"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんぼ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-five-bows-three-kowtows"
+    "kind": "term"
+    "headword": "五拝三叩頭"
+    "definition_ja": "五度拝し、三度頭を地につけるという、君主への大きな礼。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文中の説明、発話と行動から指示対象または意味を確認した。"
+    "forms":
+      - "id": "xy-ch39-five-bows-three-kowtows-form"
+        "text": "五拝三叩頭"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごはいさんこうとう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-duan-gate"
+    "kind": "place"
+    "headword": "端門"
+    "definition_ja": "烏鶏国の宮殿で、門を守る役人が朝廷へ取り次ぐ際に入る門。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文中の説明、発話と行動から指示対象または意味を確認した。"
+    "forms":
+      - "id": "xy-ch39-duan-gate-form"
+        "text": "端門"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんもん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-attendant-novice"
+    "kind": "term"
+    "headword": "行童"
+    "definition_ja": "僧や道士に付き従い、雑務をする者。ここでは荷担ぎの従者という身分。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文中の説明、発話と行動から指示対象または意味を確認した。"
+    "forms":
+      - "id": "xy-ch39-attendant-novice-form"
+        "text": "行童"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょうどう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-blue-maned-lion"
+    "kind": "person"
+    "headword": "獅猁王"
+    "definition_ja": "文殊菩薩が乗る青毛の獅子。鏡に妖怪の本体として映る姿の呼称。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文中の説明、発話と行動から指示対象または意味を確認した。"
+    "forms":
+      - "id": "xy-ch39-blue-maned-lion-form"
+        "text": "獅猁王"
+        "relation": "preferred"
+        "reading":
+          "kana": "しりおう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-imperial-water-river"
+    "kind": "place"
+    "headword": "御水河"
+    "definition_ja": "文殊菩薩が烏鶏国王に縄で縛られ、投げ込まれたと語る川。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文中の説明、発話と行動から指示対象または意味を確認した。"
+    "forms":
+      - "id": "xy-ch39-imperial-water-river-form"
+        "text": "御水河"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょすいが"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-wutai-mountain"
+    "kind": "place"
+    "headword": "五台山"
+    "definition_ja": "文殊菩薩が獅子に乗って帰っていく山。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "原文中の説明、発話と行動から指示対象または意味を確認した。"
+    "forms":
+      - "id": "xy-ch39-wutai-mountain-form"
+        "text": "五台山"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごだいさん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch39-phoenix-pavilion"
+    "kind": "term"
+    "headword": "鳳閣"
+    "definition_ja": "美しく華やかな楼閣。ここでは宮殿の楼閣を形容する語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch39-moe-phoenix-pavilion"
+        - "xy-ch39-primary-1500596"
+      "reason_ja": "教育部辞書の第一義「綺麗的樓閣」と原文の宮殿描写を照合。中書省の別称の語義ではない。"
+    "forms":
+      - "id": "xy-ch39-phoenix-pavilion-form"
+        "text": "鳳閣"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうかく"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
