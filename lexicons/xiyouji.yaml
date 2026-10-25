@@ -2438,6 +2438,34 @@
     "title": "東大寺別当橋村公英師対談 奈良いのちの電話広報第400号"
     "url": "https://www.nara-inochi.jp/koho400.pdf"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch51-primary-1498138"
+    "title": "中文維基文庫 西遊記 第051回（現行取得ページ、フッター識別版1498138）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第051回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch51-naoj-mansions"
+    "title": "国立天文台暦計算室 暦Wiki「二十八宿」"
+    "url": "https://eco.mtk.nao.ac.jp/koyomi/wiki/C6F3BDBDC8ACBDC9.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch51-nadc-seven"
+    "title": "国家天文科学数据中心 天文学名詞「七曜；七政」"
+    "url": "https://nadc.china-vo.org/astrodict/termdetails?id=3784"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch51-four-hidden"
+    "title": "邢雲路『古今律歷考』卷六十四（識典古籍）"
+    "url": "https://www.shidianguji.com/zh/mid-page/7430936901244420122"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch51-moe-balance"
+    "title": "教育部 重編國語辭典修訂本「定盤星」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=47024&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch51-daofa-thunder"
+    "title": "『道法會元』卷七十三 雷霆神器（公開翻刻）"
+    "url": "https://www.ichingtrilogy.com/post/dao-fa-hui-yuan-73-jue-qi/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch51-wuyuan-commentary"
+    "title": "劉一明『西遊記百回詳注』第五十一回（中文維基文庫）"
+    "url": "https://zh.wikisource.org/zh-hans/西遊記百回詳注/51"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -3612,6 +3640,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+      - "id": "xy-ch51-north-seven-principles-form"
+        "text": "北斗七元"
+        "relation": "alias"
+        "reading":
+          "kana": "ほくとしちげん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-jade-emperor"
     "kind": "person"
     "headword": "玉帝"
@@ -7790,6 +7827,15 @@
           "source_ids":
             - "xy-reference-096"
           "reason_ja": "国立国会図書館資料の人物索引に葛仙翁「カッセンオウ」がある。天師を含む全称の読みは未確認。葛玄か葛洪かの同定を本文の説明へ追加しない。"
+      - "id": "xy-ch51-ge-short-form"
+        "text": "葛仙翁"
+        "relation": "short_form"
+        "reading":
+          "kana": "かっせんおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0248"
     "kind": "title"
     "headword": "玉女"
@@ -9874,6 +9920,15 @@
           "source_ids":
             - "xy-ch42-primary-1808580"
           "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch51-zhang-daoling-form"
+        "text": "張道陵"
+        "relation": "variant"
+        "reading":
+          "kana": "ちょうどうりょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0365"
     "kind": "person"
     "headword": "托塔李天王"
@@ -10287,6 +10342,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch51-kan-sword-form"
+        "text": "砍妖剣"
+        "relation": "variant"
+        "reading":
+          "kana": "かんようけん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0383"
     "kind": "object"
     "headword": "砍妖刀"
@@ -10304,6 +10368,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch51-zhan-blade-form"
+        "text": "斬妖刀"
+        "relation": "variant"
+        "reading":
+          "kana": "ざんようとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0384"
     "kind": "object"
     "headword": "縛妖索"
@@ -10338,6 +10411,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch51-nezha-demon-club-form"
+        "text": "降魔杵"
+        "relation": "variant"
+        "reading":
+          "kana": "ごうましょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0386"
     "kind": "object"
     "headword": "刺繍の毬"
@@ -10355,6 +10437,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch51-embroidered-ball-form"
+        "text": "繡球"
+        "relation": "alias"
+        "reading":
+          "kana": "しゅうきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0387"
     "kind": "object"
     "headword": "火の輪"
@@ -10372,6 +10463,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch51-fire-wheel-form"
+        "text": "火輪"
+        "relation": "alias"
+        "reading":
+          "kana": "かりん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0388"
     "kind": "concept"
     "headword": "斗"
@@ -11052,6 +11152,24 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の通常の漢字音訓と語構成からの推定。当該語形・文脈の日本語読みを明記する資料は今回未確認。"
+      - "id": "xy-ch51-xu-short-form"
+        "text": "許旌陽"
+        "relation": "short_form"
+        "reading":
+          "kana": "きょせいよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+      - "id": "xy-ch51-jingyang-form"
+        "text": "旌陽"
+        "relation": "short_form"
+        "reading":
+          "kana": "せいよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0424"
     "kind": "person"
     "headword": "土地神"
@@ -12348,6 +12466,15 @@
           "source_ids":
             - "xy-ch31-primary"
           "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+      - "id": "xy-ch51-four-masters-form"
+        "text": "四天師"
+        "relation": "short_form"
+        "reading":
+          "kana": "してんし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0492"
     "kind": "concept"
     "headword": "丹元大会"
@@ -12568,6 +12695,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "藤沢市の公開資料は通常表記「羅睺星」を「らごうせい」と明記。この底本は「羅猴星」なので字を置換せず同じ星名とみた推定読みとする。"
+      - "id": "xy-ch51-rahu-short-form"
+        "text": "羅睺"
+        "relation": "variant"
+        "reading":
+          "kana": "らごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0504"
     "kind": "person"
     "headword": "計都星"
@@ -12586,6 +12722,15 @@
           "source_ids":
             - "xy-reference-148"
           "reason_ja": "精選版日本国語大辞典の見出しに「けいとせい」と明記。"
+      - "id": "xy-ch51-ketu-short-form"
+        "text": "計都"
+        "relation": "short_form"
+        "reading":
+          "kana": "けいと"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0505"
     "kind": "person"
     "headword": "太陰星"
@@ -12603,6 +12748,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の通常の漢字音訓と語構成からの推定。当該語形・文脈の日本語読みを明記する資料は今回未確認。"
+      - "id": "xy-ch51-moon-short-form"
+        "text": "太陰"
+        "relation": "short_form"
+        "reading":
+          "kana": "たいいん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0506"
     "kind": "person"
     "headword": "太陽星"
@@ -12620,6 +12774,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の通常の漢字音訓と語構成からの推定。当該語形・文脈の日本語読みを明記する資料は今回未確認。"
+      - "id": "xy-ch51-sun-short-form"
+        "text": "太陽"
+        "relation": "short_form"
+        "reading":
+          "kana": "たいよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0507"
     "kind": "person"
     "headword": "五行星"
@@ -15672,6 +15835,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-ch51-south-six-offices-form"
+        "text": "南斗六司"
+        "relation": "alias"
+        "reading":
+          "kana": "なんとろくし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0656"
     "kind": "title"
     "headword": "火部"
@@ -40735,6 +40907,33 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+      - "id": "xy-ch51-fire-lord-form"
+        "text": "火徳星君"
+        "relation": "title"
+        "reading":
+          "kana": "かとくせいくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+      - "id": "xy-ch51-yinghuo-fire-lord-form"
+        "text": "熒惑火徳星君"
+        "relation": "title"
+        "reading":
+          "kana": "けいこくかとくせいくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+      - "id": "xy-ch51-south-three-qi-lord-form"
+        "text": "南方三炁火徳星君"
+        "relation": "title"
+        "reading":
+          "kana": "なんぽうさんきかとくせいくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-jiaoliao-insect"
     "kind": "term"
     "headword": "蟭蟟虫"
@@ -42237,6 +42436,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "語全体の日本語仮名表記を直接示す資料は未確認。構成漢字の音訓と宗教・固有名詞の語構成から採用した読み。"
+      - "id": "xy-ch51-duowen-king-form"
+        "text": "多聞天王"
+        "relation": "title"
+        "reading":
+          "kana": "たもんてんのう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-ch36-temple-daoren"
     "kind": "term"
     "headword": "道人"
@@ -49065,3 +49273,729 @@
           "source_ids":
             - "xy-ch50-primary-1498134"
           "reason_ja": "構成漢字の日本語字音から採用した読み。語全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch51-si-beast"
+    "kind": "term"
+    "headword": "兕"
+    "definition_ja": "古典で一角の犀に似た獣を指す字。妖怪の呼称にも用いられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "兕怪という呼称の字義を説明するが、妖怪の具体的な正体をこの語から断定しない。"
+    "forms":
+      - "id": "xy-ch51-si-beast-form"
+        "text": "兕"
+        "relation": "preferred"
+        "reading":
+          "kana": "じ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-kahan-office"
+    "kind": "term"
+    "headword": "可韓司"
+    "definition_ja": "天界の神々を調べる命令を受ける役所の呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-kahan-office-form"
+        "text": "可韓司"
+        "relation": "preferred"
+        "reading":
+          "kana": "かかんし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-kahan-perfect-lord"
+    "kind": "person"
+    "headword": "可韓丈人真君"
+    "definition_ja": "玉帝の命で天界の神々を調べる神。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-kahan-perfect-lord-form"
+        "text": "可韓丈人真君"
+        "relation": "preferred"
+        "reading":
+          "kana": "かかんじょうじんしんくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+      - "id": "xy-ch51-kahan-office-lord-form"
+        "text": "可韓司丈人真君"
+        "relation": "alias"
+        "reading":
+          "kana": "かかんしじょうじんしんくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-three-wei-enclosures"
+    "kind": "place"
+    "headword": "三微垣"
+    "definition_ja": "天の領域を指す底本の呼称。三垣を思わせるが、字形を保持する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文は三微垣。三垣と一般的に呼ばれる天区との関係は推定に留め、微を削除しない。"
+    "forms":
+      - "id": "xy-ch51-three-wei-enclosures-form"
+        "text": "三微垣"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんびえん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-shen-mansion"
+    "kind": "person"
+    "headword": "参"
+    "definition_ja": "二十八宿の一つ、参宿の神。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+        - "xy-ch51-naoj-mansions"
+      "reason_ja": "国立天文台の表で西方白虎の参宿を確認。本文の東七宿の列挙に参が入ることとは区別する。"
+    "forms":
+      - "id": "xy-ch51-shen-mansion-form"
+        "text": "参"
+        "relation": "preferred"
+        "reading":
+          "kana": "さん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-seven-luminaries"
+    "kind": "concept"
+    "headword": "七政"
+    "definition_ja": "日・月と、水・火・木・金・土の五つの惑星を合わせた呼称。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch51-nadc-seven"
+      "reason_ja": "国家天文科学数据中心の天文学名詞が、日月五星の総称と説明する。"
+    "forms":
+      - "id": "xy-ch51-seven-luminaries-form"
+        "text": "七政"
+        "relation": "preferred"
+        "reading":
+          "kana": "しちせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-qi-hidden-luminary"
+    "kind": "person"
+    "headword": "炁"
+    "definition_ja": "四余に数える隠曜の一つ。紫炁の略称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+        - "xy-ch51-four-hidden"
+      "reason_ja": "古今律歷考は四余の紫氣を説明する際に炁と略す。本文の語形を保持し、一般的な気や三炁と区別する。"
+    "forms":
+      - "id": "xy-ch51-qi-hidden-luminary-form"
+        "text": "炁"
+        "relation": "preferred"
+        "reading":
+          "kana": "き"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-bo-hidden-luminary"
+    "kind": "person"
+    "headword": "孛"
+    "definition_ja": "四余に数える隠曜の一つ。月孛の略称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+        - "xy-ch51-four-hidden"
+      "reason_ja": "古今律歷考の四余の説明で月孛を孛と略す用例を確認。本文の略称を保持する。"
+    "forms":
+      - "id": "xy-ch51-bo-hidden-luminary-form"
+        "text": "孛"
+        "relation": "preferred"
+        "reading":
+          "kana": "はい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-four-hidden-luminaries"
+    "kind": "concept"
+    "headword": "四余"
+    "definition_ja": "七政に加えて数える、羅睺・計都・紫炁・月孛の四つの隠曜。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch51-four-hidden"
+      "reason_ja": "古今律歷考は七政のほかにある四隠曜を四餘と呼ぶと明記する。"
+    "forms":
+      - "id": "xy-ch51-four-hidden-luminaries-form"
+        "text": "四余"
+        "relation": "preferred"
+        "reading":
+          "kana": "しよ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-five-eight-directions"
+    "kind": "term"
+    "headword": "五方八極"
+    "definition_ja": "東西南北と中央、さらに八方の果て。あらゆる場所をいう。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-five-eight-directions-form"
+        "text": "五方八極"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごほうはっきょく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-thunder-wedge"
+    "kind": "object"
+    "headword": "雷の楔"
+    "definition_ja": "雷神が空から打ち下ろすとされる、楔状の道具。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+        - "xy-ch51-daofa-thunder"
+      "reason_ja": "道法會元の雷楔の説明と、頭へ打ち込む本文の動作による。底本の雷㨝という異字は訳注に保持し、同字と断定して原文を変更しない。"
+    "forms":
+      - "id": "xy-ch51-thunder-wedge-form"
+        "text": "雷の楔"
+        "relation": "preferred"
+        "reading":
+          "kana": "かみなりのくさび"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-nine-heaven-bureau"
+    "kind": "place"
+    "headword": "九天府"
+    "definition_ja": "雷公を選び出して派遣する天上の役所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-nine-heaven-bureau-form"
+        "text": "九天府"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうてんふ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-deng-hua"
+    "kind": "person"
+    "headword": "鄧化"
+    "definition_ja": "玉帝の命で派遣される雷公の一人。張蕃と行動する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-deng-hua-form"
+        "text": "鄧化"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-zhang-fan"
+    "kind": "person"
+    "headword": "張蕃"
+    "definition_ja": "玉帝の命で派遣される雷公の一人。鄧化と行動する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-zhang-fan-form"
+        "text": "張蕃"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうはん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-tonghua-palace"
+    "kind": "place"
+    "headword": "彤華宮"
+    "definition_ja": "火徳星君と火部の神々がいる天上の宮殿。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-tonghua-palace-form"
+        "text": "彤華宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうかきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-ning-qi"
+    "kind": "person"
+    "headword": "甯戚"
+    "definition_ja": "春秋時代の人物。牛に関わる故事で知られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "本文の甯戚鞭牛という故事的人名を保持。ここで火と結び付く理由は未確定とし、他人へ訂正しない。"
+    "forms":
+      - "id": "xy-ch51-ning-qi-form"
+        "text": "甯戚"
+        "relation": "preferred"
+        "reading":
+          "kana": "ねいせき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-zhou-lang"
+    "kind": "person"
+    "headword": "周郎"
+    "definition_ja": "三国時代の呉の将、周瑜の呼び名。赤壁の火攻めで知られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "赤壁と結び付く周郎という呼称を慣用に従って解する。日本語読みと細かな史実の独立確認は未実施。"
+    "forms":
+      - "id": "xy-ch51-zhou-lang-form"
+        "text": "周郎"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅうろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-water-lord"
+    "kind": "person"
+    "headword": "水徳星君"
+    "definition_ja": "水をつかさどる神々を率いる天上の神。烏浩宮にいる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-water-lord-form"
+        "text": "水徳星君"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいとくせいくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-wuhao-palace"
+    "kind": "place"
+    "headword": "烏浩宮"
+    "definition_ja": "水徳星君のいる天上の宮殿。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-wuhao-palace-form"
+        "text": "烏浩宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "うこうきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-three-rivers"
+    "kind": "place"
+    "headword": "三江"
+    "definition_ja": "三つの大河をいう呼称。広く河川を表すこともある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "水域を列挙する本文の語形に基づく。ここでいう三本の川を本文は特定しない。"
+    "forms":
+      - "id": "xy-ch51-three-rivers-form"
+        "text": "三江"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-nine-streams"
+    "kind": "place"
+    "headword": "九派"
+    "definition_ja": "幾筋にも分かれた川の流れをいう呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "水域を列挙する文脈の語。九つの流派や宗派ではなく川の分流と解するが、個々の水路は本文が明記しない。"
+    "forms":
+      - "id": "xy-ch51-nine-streams-form"
+        "text": "九派"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうは"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-yellow-river-water-god"
+    "kind": "person"
+    "headword": "水伯"
+    "definition_ja": "黄河をつかさどる水の神。水を収めた白玉の鉢を持つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-yellow-river-water-god-form"
+        "text": "水伯"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいはく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+      - "id": "xy-ch51-yellow-river-water-king-form"
+        "text": "黄河水伯神王"
+        "relation": "title"
+        "reading":
+          "kana": "こうがすいはくしんおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+      - "id": "xy-ch51-yellow-river-god-form"
+        "text": "黄河神"
+        "relation": "alias"
+        "reading":
+          "kana": "こうがしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-double-flying-kick"
+    "kind": "term"
+    "headword": "双飛脚"
+    "definition_ja": "両足を飛ばすように蹴る拳法の技名。具体的な身体操作は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-double-flying-kick-form"
+        "text": "双飛脚"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうひきゃく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-heavenly-bellows"
+    "kind": "term"
+    "headword": "天橐"
+    "definition_ja": "拳法の技を描写する語。字面では天の袋・ふいごをいうが、具体的な動作は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "扭腕拿天橐という難句の語形を保持する。武術の流派や技術的な同定をしない。"
+    "forms":
+      - "id": "xy-ch51-heavenly-bellows-form"
+        "text": "天橐"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんたく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-guanyin-palm"
+    "kind": "term"
+    "headword": "観音掌"
+    "definition_ja": "観音の名を冠した掌を用いる拳法の技名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-guanyin-palm-form"
+        "text": "観音掌"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんのんしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-arhat-kick"
+    "kind": "term"
+    "headword": "羅漢脚"
+    "definition_ja": "羅漢の名を冠した蹴りの技名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-arhat-kick-form"
+        "text": "羅漢脚"
+        "relation": "preferred"
+        "reading":
+          "kana": "らかんきゃく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-badger"
+    "kind": "term"
+    "headword": "獾"
+    "definition_ja": "アナグマ類をいう中国語の呼び名。具体的な生物種は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "獾頭精という変身した姿を、獾の頭をした妖怪と訳すための説明。"
+    "forms":
+      - "id": "xy-ch51-badger-form"
+        "text": "獾"
+        "relation": "preferred"
+        "reading":
+          "kana": "かん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-curd"
+    "kind": "term"
+    "headword": "酪"
+    "definition_ja": "乳を加工した、発酵乳や凝乳などの食品。製法や状態には幅がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "羊酪という本文の語形に基づく。現代の特定のチーズや酒へ一義的に固定しない。"
+    "forms":
+      - "id": "xy-ch51-curd-form"
+        "text": "酪"
+        "relation": "preferred"
+        "reading":
+          "kana": "らく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-jiao-dragon"
+    "kind": "term"
+    "headword": "蛟竜"
+    "definition_ja": "水中に住むとされる竜の類。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "原文の語形・指示対象・前後の行動に基づく説明。原文にない来歴・同定・後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch51-jiao-dragon-form"
+        "text": "蛟竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch51-primary-1498138"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch51-thunder-officer-tao"
+    "kind": "person"
+    "headword": "陶"
+    "definition_ja": "雷霆の官将として列挙される神の姓、陶。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "「雷霆官將陶、張、辛、鄧，苟、畢、龐、劉」という列挙で役割と姓を確認。南天門の同姓天兵や、名・称号を持つ他の雷神との同一性は本文で未確定のため結合しない。"
+    "forms":
+      - "id": "xy-ch51-thunder-officer-tao-form"
+        "text": "陶"
+        "relation": "preferred"
+        "reading":
+          "kana": "とう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "姓の漢字「陶」の通常の日本語字音から「とう」と推定。この雷霆官将の日本語読みを直接示す資料は未確認。他の同姓人物との同一性を読みの根拠にはしない。"
+  - "id": "xy-ch51-thunder-officer-zhang"
+    "kind": "person"
+    "headword": "張"
+    "definition_ja": "雷霆の官将として列挙される神の姓、張。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "「雷霆官將陶、張、辛、鄧，苟、畢、龐、劉」という列挙で役割と姓を確認。南天門の同姓天兵や、名・称号を持つ他の雷神との同一性は本文で未確定のため結合しない。"
+    "forms":
+      - "id": "xy-ch51-thunder-officer-zhang-form"
+        "text": "張"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "姓の漢字「張」の通常の日本語字音から「ちょう」と推定。この雷霆官将の日本語読みを直接示す資料は未確認。他の同姓人物との同一性を読みの根拠にはしない。"
+  - "id": "xy-ch51-thunder-officer-xin"
+    "kind": "person"
+    "headword": "辛"
+    "definition_ja": "雷霆の官将として列挙される神の姓、辛。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "「雷霆官將陶、張、辛、鄧，苟、畢、龐、劉」という列挙で役割と姓を確認。南天門の同姓天兵や、名・称号を持つ他の雷神との同一性は本文で未確定のため結合しない。"
+    "forms":
+      - "id": "xy-ch51-thunder-officer-xin-form"
+        "text": "辛"
+        "relation": "preferred"
+        "reading":
+          "kana": "しん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "姓の漢字「辛」の通常の日本語字音から「しん」と推定。この雷霆官将の日本語読みを直接示す資料は未確認。他の同姓人物との同一性を読みの根拠にはしない。"
+  - "id": "xy-ch51-thunder-officer-deng"
+    "kind": "person"
+    "headword": "鄧"
+    "definition_ja": "雷霆の官将として列挙される神の姓、鄧。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "「雷霆官將陶、張、辛、鄧，苟、畢、龐、劉」という列挙で役割と姓を確認。南天門の同姓天兵や、名・称号を持つ他の雷神との同一性は本文で未確定のため結合しない。"
+    "forms":
+      - "id": "xy-ch51-thunder-officer-deng-form"
+        "text": "鄧"
+        "relation": "preferred"
+        "reading":
+          "kana": "とう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "姓の漢字「鄧」の通常の日本語字音から「とう」と推定。この雷霆官将の日本語読みを直接示す資料は未確認。他の同姓人物との同一性を読みの根拠にはしない。"
+  - "id": "xy-ch51-thunder-officer-gou"
+    "kind": "person"
+    "headword": "苟"
+    "definition_ja": "雷霆の官将として列挙される神の姓、苟。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "「雷霆官將陶、張、辛、鄧，苟、畢、龐、劉」という列挙で役割と姓を確認。南天門の同姓天兵や、名・称号を持つ他の雷神との同一性は本文で未確定のため結合しない。"
+    "forms":
+      - "id": "xy-ch51-thunder-officer-gou-form"
+        "text": "苟"
+        "relation": "preferred"
+        "reading":
+          "kana": "こう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "姓の漢字「苟」の通常の日本語字音から「こう」と推定。この雷霆官将の日本語読みを直接示す資料は未確認。他の同姓人物との同一性を読みの根拠にはしない。"
+  - "id": "xy-ch51-thunder-officer-bi"
+    "kind": "person"
+    "headword": "畢"
+    "definition_ja": "雷霆の官将として列挙される神の姓、畢。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "「雷霆官將陶、張、辛、鄧，苟、畢、龐、劉」という列挙で役割と姓を確認。南天門の同姓天兵や、名・称号を持つ他の雷神との同一性は本文で未確定のため結合しない。"
+    "forms":
+      - "id": "xy-ch51-thunder-officer-bi-form"
+        "text": "畢"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひつ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "姓の漢字「畢」の通常の日本語字音から「ひつ」と推定。この雷霆官将の日本語読みを直接示す資料は未確認。他の同姓人物との同一性を読みの根拠にはしない。"
+  - "id": "xy-ch51-thunder-officer-pang"
+    "kind": "person"
+    "headword": "龐"
+    "definition_ja": "雷霆の官将として列挙される神の姓、龐。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "「雷霆官將陶、張、辛、鄧，苟、畢、龐、劉」という列挙で役割と姓を確認。南天門の同姓天兵や、名・称号を持つ他の雷神との同一性は本文で未確定のため結合しない。"
+    "forms":
+      - "id": "xy-ch51-thunder-officer-pang-form"
+        "text": "龐"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "姓の漢字「龐」の通常の日本語字音から「ほう」と推定。この雷霆官将の日本語読みを直接示す資料は未確認。他の同姓人物との同一性を読みの根拠にはしない。"
+  - "id": "xy-ch51-thunder-officer-liu"
+    "kind": "person"
+    "headword": "劉"
+    "definition_ja": "雷霆の官将として列挙される神の姓、劉。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch51-primary-1498138"
+      "reason_ja": "「雷霆官將陶、張、辛、鄧，苟、畢、龐、劉」という列挙で役割と姓を確認。南天門の同姓天兵や、名・称号を持つ他の雷神との同一性は本文で未確定のため結合しない。"
+    "forms":
+      - "id": "xy-ch51-thunder-officer-liu-form"
+        "text": "劉"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "姓の漢字「劉」の通常の日本語字音から「りゅう」と推定。この雷霆官将の日本語読みを直接示す資料は未確認。他の同姓人物との同一性を読みの根拠にはしない。"
