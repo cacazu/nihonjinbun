@@ -2538,6 +2538,50 @@
     "title": "大阪工業大学公開スライド「20251206_StarMapStatistics_slide」二十八宿名の音読表"
     "url": "https://www.oit.ac.jp/labs/is/system/shinkai/Viewgraphs/20251206_StarMapStatistics_slide.pdf"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch54-primary-1455603"
+    "title": "中文維基文庫 西遊記 第054回（現行取得ページ、フッター識別版1455603）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第054回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch54-moe-kenjiu"
+    "title": "教育部 重編國語辭典修訂本「肯酒」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=77516&q=1&word=肯"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch54-moe-poluo"
+    "title": "教育部 重編國語辭典修訂本「叵羅」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=22530&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch54-moe-cuoluo"
+    "title": "教育部 教育百科「錯落」（鑿落の酒器の語義）"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail/?search=西都賦&title=錯落"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch54-moe-mo"
+    "title": "教育部 重編國語辭典修訂本「抹」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1063&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch54-moe-yuxie"
+    "title": "教育部 重編國語辭典修訂本「玉屑」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=163990&q=1&word=屑"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch54-npm-cups"
+    "title": "国立故宮博物院「鸚鵡杯及其他」"
+    "url": "https://www.npm.edu.tw/NewChineseArtDownload.ashx?bid=2767"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch54-jstage-face"
+    "title": "人類学雑誌「我國の人相學に於ける十字面と觀念」"
+    "url": "https://www.jstage.jst.go.jp/article/ase1911/59/9/59_9_311/_pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch54-kanjipedia-ran"
+    "title": "漢字ペディア「襴」"
+    "url": "https://www.kanjipedia.jp/kanji/0007067500/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch54-shidian-qia"
+    "title": "識典古籍「\U0002192B」古籍用例"
+    "url": "https://www.shidianguji.com/character/\U0002192B"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch54-shidian-yu"
+    "title": "識典古籍「\U0002984F」古籍用例"
+    "url": "https://www.shidianguji.com/character/\U0002984F"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -3123,6 +3167,15 @@
           "source_ids":
             - "nan-senbu"
           "reason_ja": "辞典見出しの読み「なんせんぶしゅう」を確認。"
+      - "id": "xy-ch54-southern-continent-short-form"
+        "text": "南贍"
+        "relation": "short_form"
+        "reading":
+          "kana": "なんせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-term-032"
     "kind": "place"
     "headword": "北倶盧洲"
@@ -17743,6 +17796,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-ch54-nine-heavens-immortal-variant-form"
+        "text": "九天の仙女"
+        "relation": "variant"
+        "reading":
+          "kana": "きゅうてんのせんにょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-entry-0747"
     "kind": "place"
     "headword": "玉京金闕"
@@ -47279,6 +47341,15 @@
           "source_ids":
             - "xy-ch45-primary-1455594"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+      - "id": "xy-ch54-pass-alias-form"
+        "text": "通関文牒"
+        "relation": "alias"
+        "reading":
+          "kana": "つうかんもんちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-ch45-spirit-dispatch"
     "kind": "term"
     "headword": "檄文"
@@ -48910,6 +48981,24 @@
           "source_ids":
             - "xy-ch48-primary-1808610"
           "reason_ja": "漢字の日本語音と語構成から採る。表記全体の日本語仮名読みを直接示す資料は未確認。中国語本文の出現を日本語読みに対する実証とはしない。"
+      - "id": "xy-ch54-xiliang-state-form"
+        "text": "西梁国"
+        "relation": "short_form"
+        "reading":
+          "kana": "せいりょうこく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch54-xiliang-short-form"
+        "text": "西梁"
+        "relation": "short_form"
+        "reading":
+          "kana": "せいりょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-ch48-qian-unit"
     "kind": "term"
     "headword": "銭"
@@ -50504,6 +50593,15 @@
           "source_ids":
             - "xy-ch53-primary-1498139"
           "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch54-yingyang-post-form"
+        "text": "迎陽駅"
+        "relation": "short_form"
+        "reading":
+          "kana": "げいようえき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-ch53-zhaotai-spring"
     "kind": "place"
     "headword": "照胎泉"
@@ -50813,3 +50911,579 @@
             - "xy-ch53-wen-marshal"
             - "xy-ch53-primary-1498139"
           "reason_ja": "日本語仮名は通常の字音による推定。研究の検索表示で温元帥という元帥神の呼称を確認したが、PDF本体は429で取得できず全文・画像校合はしていない。南天門の同姓神将との同一性を、この資料や表記の一致だけで確定しない。"
+  - "id": "xy-ch54-xiao-pig"
+    "kind": "term"
+    "headword": "銷猪"
+    "definition_ja": "豚についての呼び名。去勢された豚と解することがあるが、字形と語義に解釈上の余地が残る。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "底本は銷豬。女性が人種と叫ぶ場面での八戒の自称。本文のみでは去勢の有無を確定できず、種豚・臊い豚に関係する解釈もあり、原字を残して留保する。"
+    "forms":
+      - "id": "xy-ch54-xiao-pig-form"
+        "text": "銷猪"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうちょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-qia-hu"
+    "kind": "term"
+    "headword": "\U0002192B虎"
+    "definition_ja": "人を驚かす恐ろしい顔つきや姿を表す語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+        - "xy-ch54-shidian-qia"
+      "reason_ja": "本文の威嚇の動作と、識典古籍に収める西遊記等の\U0002192B・\U0002BC7Fの用例から解する。厳密な日本語語彙としての読みは確認していない。"
+    "forms":
+      - "id": "xy-ch54-qia-hu-form"
+        "text": "\U0002192B虎"
+        "relation": "preferred"
+        "reading":
+          "kana": "かこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-station-chief"
+    "kind": "title"
+    "headword": "駅丞"
+    "definition_ja": "宿駅を管理し、旅人の届け出や通行文書を扱う役人。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "本文の語形と指示対象、具体的な行動・説明から確認した範囲。別の人物・来歴へ同定しない。"
+    "forms":
+      - "id": "xy-ch54-station-chief-form"
+        "text": "駅丞"
+        "relation": "preferred"
+        "reading":
+          "kana": "えきじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-moon-old-man"
+    "kind": "person"
+    "headword": "月老"
+    "definition_ja": "男女の縁を赤い糸や縄で結ぶとされる、縁結びの老人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "本文の赤縄で夫婦を結ぶという引用の内容と一般的な故事による。"
+    "forms":
+      - "id": "xy-ch54-moon-old-man-form"
+        "text": "月老"
+        "relation": "preferred"
+        "reading":
+          "kana": "げつろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-betrothal-wine"
+    "kind": "concept"
+    "headword": "肯酒"
+    "definition_ja": "婚約の承諾を表して飲む祝いの酒。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch54-moe-kenjiu"
+      "reason_ja": "教育部辞典は訂婚酒、女方が縁談を承諾する意を表す酒と説明。物語の具体的なやり取りは本文に従う。"
+    "forms":
+      - "id": "xy-ch54-betrothal-wine-form"
+        "text": "肯酒"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうしゅ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-true-essence"
+    "kind": "concept"
+    "headword": "真精"
+    "definition_ja": "修行者が保持すべきものとされる根源の精気。性交に伴う精の流失にも結びつけられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "元陽を失うことと走真精を並べる三蔵の発言から説明。宗教的な身体観であり、現代医学の概念に同一化しない。"
+    "forms":
+      - "id": "xy-ch54-true-essence-form"
+        "text": "真精"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-fragrant-variant"
+    "kind": "term"
+    "headword": "馥\U0002984F"
+    "definition_ja": "香りが豊かに漂うさま。馥郁に当たる表記と解される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+        - "xy-ch54-shidian-yu"
+      "reason_ja": "異香と並ぶ本文、および識典古籍の香雲馥\U0002984F・異香馥\U0002984F等の用例に基づく。珍字の表記を保存する。"
+    "forms":
+      - "id": "xy-ch54-fragrant-variant-form"
+        "text": "馥\U0002984F"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふくいく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-mandarin-ducks"
+    "kind": "term"
+    "headword": "鴛鴦"
+    "definition_ja": "つがいの仲のよさにたとえられる鳥。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "本文では扇の装飾と婚姻の比喩に用いる。一般語義に基づく説明。"
+    "forms":
+      - "id": "xy-ch54-mandarin-ducks-form"
+        "text": "鴛鴦"
+        "relation": "preferred"
+        "reading":
+          "kana": "おしどり"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-ran-garment"
+    "kind": "object"
+    "headword": "襴衣"
+    "definition_ja": "衣と裳をつなぐ襴を備えた衣。ここでは三蔵の着る装束。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+        - "xy-ch54-kanjipedia-ran"
+      "reason_ja": "漢字ペディアの襴の衣裳をつなぐ語義を参照。本文の襴衣がどの装束形式かは詳細を断定しない。"
+    "forms":
+      - "id": "xy-ch54-ran-garment-form"
+        "text": "襴衣"
+        "relation": "preferred"
+        "reading":
+          "kana": "らんい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-tiancang-face"
+    "kind": "term"
+    "headword": "天倉"
+    "definition_ja": "伝統的な人相術で、額の左右、前頭部の張りをいう部位名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch54-jstage-face"
+      "reason_ja": "人相術史の論文は天倉を前頭隆起付近と説明。占いの有効性を認めるものではなく、古い部位名として採用。"
+    "forms":
+      - "id": "xy-ch54-tiancang-face-form"
+        "text": "天倉"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-dige-face"
+    "kind": "term"
+    "headword": "地閣"
+    "definition_ja": "伝統的な人相術で、顎または下顎部をいう部位名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch54-jstage-face"
+      "reason_ja": "人相術史の論文の部位説明を確認。医学的診断や人物評価へ応用しない。"
+    "forms":
+      - "id": "xy-ch54-dige-face-form"
+        "text": "地閣"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちかく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-zhaojun"
+    "kind": "person"
+    "headword": "昭君"
+    "definition_ja": "古くから美人としてたたえられる王昭君。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "本文は西施と並べて女王の美の比較対象にする。一般的な人物同定に基づくが、本文にない経歴を加えない。"
+    "forms":
+      - "id": "xy-ch54-zhaojun-form"
+        "text": "昭君"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-duan-gate-xiliang"
+    "kind": "place"
+    "headword": "端門"
+    "definition_ja": "西梁女国の宮殿へ入る門の名。烏鶏国の同名の門とは別の場所。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "本文の語形と指示対象、具体的な行動・説明から確認した範囲。別の人物・来歴へ同定しない。"
+    "forms":
+      - "id": "xy-ch54-duan-gate-xiliang-form"
+        "text": "端門"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんもん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-qilin-hall"
+    "kind": "place"
+    "headword": "麒麟殿"
+    "definition_ja": "西梁女国の宮殿を描く詩に現れる殿堂の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "本文の語形と指示対象、具体的な行動・説明から確認した範囲。別の人物・来歴へ同定しない。"
+    "forms":
+      - "id": "xy-ch54-qilin-hall-form"
+        "text": "麒麟殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "きりんでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-jade-hall"
+    "kind": "place"
+    "headword": "玉堂"
+    "definition_ja": "玉で飾られたように立派な宮殿の堂。宮廷をたたえる語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "金馬と並ぶ宮殿の詩の文脈による。漢代の具体的な宮殿そのものとは断定しない。"
+    "forms":
+      - "id": "xy-ch54-jade-hall-form"
+        "text": "玉堂"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-golden-horse-gate"
+    "kind": "place"
+    "headword": "金馬"
+    "definition_ja": "金馬門にちなむ宮門の呼び方。宮廷の壮麗さをたたえる語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "玉堂と対になる古典的表現。ここでは西梁女国の宮殿描写であり、漢代の実在宮門との同一視はしない。"
+    "forms":
+      - "id": "xy-ch54-golden-horse-gate-form"
+        "text": "金馬"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんば"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-jade-flakes-food"
+    "kind": "object"
+    "headword": "玉屑"
+    "definition_ja": "玉のかけらを意味する語。料理を美しく呼ぶ表現と考えられるが、具体的な食品は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+        - "xy-ch54-moe-yuxie"
+      "reason_ja": "教育部辞典では玉の破片・仙薬・美文の比喩。本篇は食物の列挙なので食品の美称と解するが、何を指すか断定せず原語を残す。"
+    "forms":
+      - "id": "xy-ch54-jade-flakes-food-form"
+        "text": "玉屑"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくせつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-daylily-food"
+    "kind": "object"
+    "headword": "黄花菜"
+    "definition_ja": "ワスレグサ類の花のつぼみを食用にしたもの。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "精進料理の列挙と一般的な中国食物語彙に基づく。植物の細かな種は確定しない。"
+    "forms":
+      - "id": "xy-ch54-daylily-food-form"
+        "text": "黄花菜"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうかさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-huangjing-food"
+    "kind": "object"
+    "headword": "黄精"
+    "definition_ja": "ナルコユリ類の根茎を食用・薬用にする際の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "精進料理の列挙と伝統的な食物・生薬の語義による。医薬的効能はここでは述べない。"
+    "forms":
+      - "id": "xy-ch54-huangjing-food-form"
+        "text": "黄精"
+        "relation": "preferred"
+        "reading":
+          "kana": "おうせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-gong-cup"
+    "kind": "object"
+    "headword": "觥"
+    "definition_ja": "酒を入れて飲む大きな杯。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "大觥でさらに飲むという本文の行動から説明。特定の考古資料の器形には同定しない。"
+    "forms":
+      - "id": "xy-ch54-gong-cup-form"
+        "text": "觥"
+        "relation": "preferred"
+        "reading":
+          "kana": "こう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-parrot-cup"
+    "kind": "object"
+    "headword": "鸚鵡杯"
+    "definition_ja": "オウムガイの殻を使うものや、オウムの形に作るものがある酒杯。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch54-npm-cups"
+      "reason_ja": "国立故宮博物院の記事は螺殻製と鳥形その他の材質の可能性を論じる。本篇の材質は未指定なので限定しない。"
+    "forms":
+      - "id": "xy-ch54-parrot-cup-form"
+        "text": "鸚鵡杯"
+        "relation": "preferred"
+        "reading":
+          "kana": "おうむはい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-cormorant-ladle"
+    "kind": "object"
+    "headword": "鸕鶿杓"
+    "definition_ja": "鵜にちなむ形や名を持つ、酒をくむ杓。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch54-npm-cups"
+      "reason_ja": "国立故宮博物院の記事の鸕鶿杓は酒をくむ道具という説明を確認。"
+    "forms":
+      - "id": "xy-ch54-cormorant-ladle-form"
+        "text": "鸕鶿杓"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろじしゃく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-gold-poluo"
+    "kind": "object"
+    "headword": "金叵羅"
+    "definition_ja": "金製の叵羅という酒器。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch54-moe-poluo"
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "教育部辞典の酒器という定義と金叵羅の用例を確認。"
+    "forms":
+      - "id": "xy-ch54-gold-poluo-form"
+        "text": "金叵羅"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんはら"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-silver-zaoluo"
+    "kind": "object"
+    "headword": "銀鑿落"
+    "definition_ja": "銀製の、鑿落と呼ばれる酒器。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch54-moe-cuoluo"
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "教育部辞典由来の錯落項は酒器の語義と鑿の異文を示す。"
+    "forms":
+      - "id": "xy-ch54-silver-zaoluo-form"
+        "text": "銀鑿落"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎんさくらく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-glass-goblet"
+    "kind": "object"
+    "headword": "玻璃盞"
+    "definition_ja": "ガラス、または玻璃と呼ばれる透明な材質の酒杯。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "本文の酒器列挙と語構成による。材質の時代的な同定は留保。"
+    "forms":
+      - "id": "xy-ch54-glass-goblet-form"
+        "text": "玻璃盞"
+        "relation": "preferred"
+        "reading":
+          "kana": "はりさん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-crystal-bowl"
+    "kind": "object"
+    "headword": "水晶盆"
+    "definition_ja": "水晶の鉢形の器。酒器の列挙に用いられる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "本文の語形と指示対象、具体的な行動・説明から確認した範囲。別の人物・来歴へ同定しない。"
+    "forms":
+      - "id": "xy-ch54-crystal-bowl-form"
+        "text": "水晶盆"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいしょうぼん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-penglai-bowl"
+    "kind": "object"
+    "headword": "蓬萊碗"
+    "definition_ja": "蓬萊の名を冠した碗形の酒器。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "本文の酒器名と語構成から説明。装飾・材質・製法を本文以上に断定しない。"
+    "forms":
+      - "id": "xy-ch54-penglai-bowl-form"
+        "text": "蓬萊碗"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうらいわん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-amber-cup"
+    "kind": "object"
+    "headword": "琥珀鍾"
+    "definition_ja": "琥珀を用いた、または琥珀色の杯と解される酒器。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "本文の酒器列挙と語構成による。材質・色のいずれを主にいうかは留保。"
+    "forms":
+      - "id": "xy-ch54-amber-cup-form"
+        "text": "琥珀鍾"
+        "relation": "preferred"
+        "reading":
+          "kana": "こはくしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-wusi-village"
+    "kind": "place"
+    "headword": "烏斯荘"
+    "definition_ja": "三蔵が八戒の出身地として挙げる荘の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "底本の地名をそのまま保持。既往の烏斯蔵国や高老荘の表記へ無断で訂正せず、同一地名と断定しない。"
+    "forms":
+      - "id": "xy-ch54-wusi-village-form"
+        "text": "烏斯荘"
+        "relation": "preferred"
+        "reading":
+          "kana": "うしそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch54-cloth-pi"
+    "kind": "term"
+    "headword": "匹"
+    "definition_ja": "布の長さ・まとまりを数える昔の単位。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch54-primary-1455603"
+      "reason_ja": "綾錦十疋という数量表現による。時代による差を無視して現代の長さに固定換算しない。"
+    "forms":
+      - "id": "xy-ch54-cloth-pi-form"
+        "text": "匹"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
