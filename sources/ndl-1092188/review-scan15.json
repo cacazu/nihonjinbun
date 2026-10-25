@@ -1,0 +1,22 @@
+{
+  "reviewer": "independent-integrator",
+  "reviewed_scans": [
+    15
+  ],
+  "status": "partial_review_only",
+  "segments": [
+    {
+      "id": "kds-p0015-001",
+      "sha256": "06e971e8500c423c9f5e409cb2aade794db1982b3e0b84ea85688ac5692cc2d8"
+    }
+  ],
+  "items": [
+    {
+      "segment_id": "kds-p0015-001",
+      "field": "translation_ja",
+      "reason": "対話の魚の返答直後の「では連れてこい」と続く「これです」は綿津見の神と明示。兄の拒絶直後の千本作り「これだけ」は火遠理命と明示。",
+      "status": "sent_to_translator"
+    }
+  ],
+  "scope_ja": "コマ15両頁の全原画像・全対訳を通読照合。釣り針の500/1000、綿津見訪問、侍女と玉、魚の返答、潮の玉と救助・帰順の順序と内容保持。14→15接続確認。対話の話者明示修正と原典ルビ最終整形は未確認。"
+}

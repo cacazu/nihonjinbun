@@ -1,0 +1,54 @@
+{
+  "reviewer": "independent-integrator",
+  "reviewed_scans": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "status": "partial_review_only",
+  "segments": [
+    {
+      "id": "kds-p0001-001",
+      "sha256": "6da55081021d4bcfd07bc5e83761cc99d441c8115dab6fe79d15324dee51c3a7"
+    },
+    {
+      "id": "kds-p0002-001",
+      "sha256": "2b346f0407e540f585faabb20eecad36f55b397c9c19496321768a7234ed79ba"
+    },
+    {
+      "id": "kds-p0003-001",
+      "sha256": "5b784f8c4d6b9ea5155dc951056b20907f091e85565473f0463ea9ed2b38410f"
+    },
+    {
+      "id": "kds-p0003-002",
+      "sha256": "d1275523fc799ba06e98e91581aa07fe22cd0c1feab49f70a9d29aad855e313d"
+    },
+    {
+      "id": "kds-p0003-003",
+      "sha256": "1a641deaea7d57c2160eb045b0c78fd9f0c82e8e98082139107f0a6a522c7d2f"
+    },
+    {
+      "id": "kds-p0004-001",
+      "sha256": "c483082d3902cccb7ce9a29c5bc812a7dd11e083d7a6f035812129a65346b273"
+    },
+    {
+      "id": "kds-p0004-002",
+      "sha256": "5e6d4b8564faf74c2d25437333f35f7a3ab0bb00b8ab44fbf5ecd22866a46e15"
+    },
+    {
+      "id": "kds-p0004-003",
+      "sha256": "ec5f11c100059bebf75b5ff989363d44f8b072a6be9a868851ab8110de2b6823"
+    },
+    {
+      "id": "kds-p0004-004",
+      "sha256": "5ae09a675193a9522067f892d21cd2ed88eced6a73a6bb5894fd3ce7f3747f33"
+    },
+    {
+      "id": "kds-p0004-005",
+      "sha256": "2e6d99cb419ca8b92e26c12cf4e46dac77378466afb389f06aaaaa983d18fecc"
+    }
+  ],
+  "items": [],
+  "scope_ja": "コマ1–4の全原画像を開き、標題と本文を原稿10単位に照合。意味、引用範囲、脱落、OCR補訂を確認。コマ4→5の接続は次範囲で確認する。全書レビューではない。"
+}

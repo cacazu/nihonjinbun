@@ -1,0 +1,53 @@
+{
+  "reviewer": "independent-integrator",
+  "reviewed_scans": [
+    16,
+    17
+  ],
+  "status": "partial_review_only",
+  "segments": [
+    {
+      "id": "kds-p0016-001",
+      "sha256": "5e16b568b27b91127a77bd16ad4293524e0bc6fad219b2b17e15a01e57e6b6d9"
+    },
+    {
+      "id": "kds-p0016-002",
+      "sha256": "922b8c1f4ab7261c1a320a1037ee19e9a58947fefcbecad77bc5704bd7e59056"
+    },
+    {
+      "id": "kds-p0016-003",
+      "sha256": "8c7f3b7d776cd47d2fad0ee7587ad8563b4edf3497713952e24073e8c4ce0d57"
+    },
+    {
+      "id": "kds-p0016-004",
+      "sha256": "a876c22552ade2cfec81d26f2940a54f649d9c7d8826d7d63a80cae650429684"
+    },
+    {
+      "id": "kds-p0016-005",
+      "sha256": "fa781e6e172312bbecd09b2766464adb9bea6f30ad0af968c09b84f97b6a128f"
+    },
+    {
+      "id": "kds-p0017-001",
+      "sha256": "891cd31ecc5f96d42e043d5bdec4f3456e5989b5ce6afbf40284e8605c448f17"
+    },
+    {
+      "id": "kds-p0017-002",
+      "sha256": "75352117b941a8c354d78b5f613f01e8d3ec1658dfd95351149252d7c75bcdbb"
+    },
+    {
+      "id": "kds-p0017-003",
+      "sha256": "3093fc7aee54d1f52de83d9428bc649ec163b71bf31a92070314571913e844ac"
+    }
+  ],
+  "items": [
+    {
+      "segment_id": "kds-p0017-003",
+      "field": "source_text",
+      "old": "といふ具合に言ヘルバルト",
+      "new": "といふ具合に言ふ。ヘルバルト",
+      "reason": "原刊28頁の行末言に続く次列冒頭ふ。を原画像拡大で確認。OCRの欠落。",
+      "status": "sent_to_translator"
+    }
+  ],
+  "scope_ja": "コマ16–17全原画像・全8単位を通読照合。皇室慈愛/事実尊重/皇室中心の原著の主張、引用と神話例、善悪基準、罪と罰の推量を確認。15→16、16→17接続確認。原典の変則引用符とルビは最終整形待ち。"
+}

@@ -1,0 +1,32 @@
+{
+  "reviewer": "independent-integrator",
+  "reviewed_scans": [
+    12
+  ],
+  "status": "partial_review_only",
+  "segments": [
+    {
+      "id": "kds-p0012-001",
+      "sha256": "9598937a2a6a755f5c2c51d04d9af74f7f08edfbfe4466150c5dee49ff120927"
+    },
+    {
+      "id": "kds-p0012-002",
+      "sha256": "85bfb0dec5d95fb7f615290387dca5018d5389e1c0f70ef07bf55831a7e926cc"
+    },
+    {
+      "id": "kds-p0012-003",
+      "sha256": "25d385d26f84d510b5e32006af7c9b92a82d057a5f15af05b98a07ddd746daef"
+    }
+  ],
+  "items": [
+    {
+      "segment_id": "kds-p0012-001",
+      "field": "translation_ja",
+      "old": "その中に鏡と剣を納め、豊鉏入比売命にお仕えさせられたものと思われます。",
+      "new": "その中に鏡と剣を納められたものと思われます。そして、豊鉏入比売命にお仕えさせられました。",
+      "reason": "原文の推量は鏡剣を納めたことに限り、奉仕の記述へ拡張しない。",
+      "status": "sent_to_translator"
+    }
+  ],
+  "scope_ja": "コマ12全原画像・3単位を通読照合、崇神の祭祀と神籬/磐境/宮の説明、本文の読順確認。磐は座という原刊表記は拡大確認し、後続の堅固の語義との矛盾は原刊のものとして留保を依頼。11→12接続確認。原典ルビと注の最終整形は未確認。"
+}

@@ -1,0 +1,45 @@
+{
+  "reviewer": "independent-integrator",
+  "reviewed_scans": [
+    10,
+    11
+  ],
+  "status": "partial_review_only",
+  "segments": [
+    {
+      "id": "kds-p0010-001",
+      "sha256": "c20d2984d0fad6e9fdf9d2c0352ea51a64d73ae8f0249c60a5671c29419992f7"
+    },
+    {
+      "id": "kds-p0010-002",
+      "sha256": "353f302b0e191f3f46da7b2be81be6f09299edac2859bb47f2d0fbeb08b695c9"
+    },
+    {
+      "id": "kds-p0011-001",
+      "sha256": "9f0578b5eebc629726c9588242263014fc4013d8f088b1b35d3e4d99f599d54f"
+    },
+    {
+      "id": "kds-p0011-002",
+      "sha256": "39b21a379c2e1e44a9b5cb6db03b25d971b1381a2a3f9a147ca1ecd1c7773d4b"
+    },
+    {
+      "id": "kds-p0011-003",
+      "sha256": "219e69c9f94825d21b337d419041eb00b12292e3f7ff827a991c3c09ec175981"
+    },
+    {
+      "id": "kds-p0011-004",
+      "sha256": "616248b6a9f03269ebe175b981796787e59ac567ba8a4d2481f7bf4a94600d75"
+    }
+  ],
+  "items": [
+    {
+      "segment_id": "kds-p0011-004",
+      "field": "translation_ja",
+      "old": "「室」は、今日では「むろ」といいます。",
+      "new": "「むろ」は、今日の「部屋」に当たります。",
+      "reason": "原刊17頁のルビは室（むろ）と今日の室（へや）の対比。原画像拡大で確認。",
+      "status": "sent_to_translator"
+    }
+  ],
+  "scope_ja": "コマ10–11全原画像と全6単位を通読照合。難波大助・幸徳秋水の著者の評価、汁粉逸話の数量・金額・医学的主張、敬神の論述、室の語義を確認。9→10、10→11接続確認。菅原道實の原刊異表記注と原典ルビ保存は最終整形待ち。"
+}

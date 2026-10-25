@@ -34,3 +34,7 @@
 ## 皇道の使命と世界の将来（1940年、NDL 1099271）
 
 [作品別翻訳ガイド](guides/kodo-no-shimei-sekai-no-shorai.md)。正本は `kodo-no-shimei-sekai-no-shorai-ja.yaml`。全24コマ・62対訳を独立画像照合済み。原OCR・取得記録・独立校閲は `sources/ndl-1099271/`。原刊の不鮮明字1件は原字と文意訳を区別して留保する。原稿レビュー・プッシュの後に読書HTMLを別途生成・レビュー・プッシュする。
+
+## 皇国伝統の精神（1936年、NDL 1092188）
+
+[作品別ガイド](guides/kokoku-dento-no-seishin.md)。正本は `kokoku-dento-no-seishin-ja.yaml`。全26コマ、原典82単位と訳注3件を収録。原ルビ144件・漢文訓点7箇所を画像照合した。原OCR、取得記録、独立全文校閲と最終差分レビューは `sources/ndl-1092188/`。原刊の疑わしい表記は訳注に残す。原稿プッシュの後にHTMLを別途作成・見直し・プッシュする。
