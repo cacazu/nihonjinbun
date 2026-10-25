@@ -3374,6 +3374,38 @@
     "title": "教育部台湾台語常用詞辞典 外公"
     "url": "https://sutian.moe.edu.tw/zh-hant/su/1428/"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch72-primary-2557105"
+    "title": "中文維基文庫 西遊記 第072回（現行ページ取得、フッター版2557105。固定URL直接取得は不成功）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第072回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch72-moe-jinlian"
+    "title": "教育部重編國語辭典修訂本 金蓮（検索表示確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=94063&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch72-moe-banmao"
+    "title": "教育部重編國語辭典修訂本 班毛（検索表示確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=16414&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch72-huashan-primary"
+    "title": "華山碑を引く古籍資料（検索表示確認）"
+    "url": "https://www.shidianguji.com/zh/book/HY0355/chapter/1kg30byqm4egk"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch72-zdic-dai"
+    "title": "漢典 鴏（検索表示確認）"
+    "url": "https://zdic.net/hans/%E9%B4%8F"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch72-moe-guanfeng"
+    "title": "教育部教育百科 關風（検索表示確認）"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E9%97%9C%E9%A2%A8"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch72-moe-epilepsy"
+    "title": "教育部重編國語辭典修訂本 羊兒風（検索表示確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=157311&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch72-review-jitenon-dai"
+    "title": "漢字辞典オンライン「鴏」（独立レビューで字音トク・ドクの本文を確認）"
+    "url": "https://kanji.jitenon.jp/kanjiy/18477"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -16521,6 +16553,16 @@
           "source_ids":
             - "xy-ch53-primary-1498139"
           "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の日本語仮名を明記する資料は未確認。中国語の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch72-taihua-form"
+        "text": "太華"
+        "relation": "alias"
+        "reading":
+          "kana": "たいか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+            - "xy-ch72-huashan-primary"
+          "reason_ja": "太華山を華山とする古籍の用例を検索表示で照合。日本語の太・華の字音による短縮形の読みで、表記全体の仮名は未確認。"
   - "id": "xy-entry-0615"
     "kind": "place"
     "headword": "崑崙山"
@@ -16582,6 +16624,15 @@
           "source_ids":
             - "xy-reference-168"
           "reason_ja": "鷂の音読みヨウと鷹の音読みヨウを組み合わせた推定。中国語の鳥名を特定の現生種に断定しない。"
+      - "id": "xy-ch72-yao-hawk-short-form"
+        "text": "鷂"
+        "relation": "short_form"
+        "reading":
+          "kana": "よう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0618"
     "kind": "term"
     "headword": "鵜"
@@ -16635,6 +16686,15 @@
             - "xy-reference-169"
             - "xy-reference-170"
           "reason_ja": "サントリーの鳥百科が「魚鷹（うおたか）」を明示。中国語では魚を捕る鳥の総称にもなるため、本文の種の同定とは分ける。"
+      - "id": "xy-ch72-fish-hawk-short-form"
+        "text": "魚"
+        "relation": "short_form"
+        "reading":
+          "kana": "ぎょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0621"
     "kind": "term"
     "headword": "鷂"
@@ -22461,6 +22521,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "猪八戒の「八」を「九」に替えた、悟空の仮定の冗談。実在の別人物名ではない。漢字の音から読む。"
+      - "id": "xy-ch72-wuneng-bajie-form"
+        "text": "悟能八戒"
+        "relation": "alias"
+        "reading":
+          "kana": "ごのうはっかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0903"
     "kind": "concept"
     "headword": "精霊"
@@ -55501,6 +55570,15 @@
           "source_ids":
             - "xy-ch61-primary-1500610"
           "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+      - "id": "xy-ch72-yellow-hawk-short-form"
+        "text": "黄"
+        "relation": "short_form"
+        "reading":
+          "kana": "こう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
   - "id": "xy-ch61-black-phoenix"
     "kind": "term"
     "headword": "烏鳳"
@@ -61437,3 +61515,783 @@
           "source_ids":
             - "xy-ch71-repentance"
           "reason_ja": "公開辞書の検索表示が仏語さんげを明示。"
+  - "id": "xy-ch72-female-foot-jinlian"
+    "kind": "term"
+    "headword": "金蓮"
+    "definition_ja": "女性の小さな足、または小さな靴を美称する語。蓮の花そのものの意味とは区別する。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch72-moe-jinlian"
+      "reason_ja": "教育部辞典の女子纖細的小腳或小鞋を検索表示で確認。仏の座を飾る金色の蓮という既存項目とは語義が違う。"
+    "forms":
+      - "id": "xy-ch72-female-foot-jinlian-form"
+        "text": "金蓮"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんれん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-cuju"
+    "kind": "term"
+    "headword": "蹴鞠"
+    "definition_ja": "鞠を足などで扱って遊ぶ中国の古い球技。日本の蹴鞠と競技法を同一視しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-cuju-form"
+        "text": "蹴鞠"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅうきく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-natou"
+    "kind": "term"
+    "headword": "拿頭"
+    "definition_ja": "蹴鞠の技法名。頭を使う型と考えられるが、細かな動作は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-natou-form"
+        "text": "拿頭"
+        "relation": "preferred"
+        "reading":
+          "kana": "だとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-guolun"
+    "kind": "term"
+    "headword": "過論"
+    "definition_ja": "蹴鞠の技法として列挙される語。底本の表記を残し、具体的な動作と語の切れ目には留保を置く。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-guolun-form"
+        "text": "過論"
+        "relation": "preferred"
+        "reading":
+          "kana": "かろん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-zhangfan"
+    "kind": "term"
+    "headword": "張泛"
+    "definition_ja": "蹴鞠で鞠を送り出す技法として現れる語。底本の表記と動作の細部は留保する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-zhangfan-form"
+        "text": "張泛"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうはん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-guai"
+    "kind": "term"
+    "headword": "拐"
+    "definition_ja": "蹴鞠で足の側などを使って鞠を打つ技法を表す語。細かな型は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-guai-form"
+        "text": "拐"
+        "relation": "preferred"
+        "reading":
+          "kana": "かい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-musk-rose"
+    "kind": "term"
+    "headword": "木香"
+    "definition_ja": "あずまやに絡ませる花木の名。ここではモッコウバラ類と解するが、薬材の木香との同名異物に注意する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-musk-rose-form"
+        "text": "木香"
+        "relation": "preferred"
+        "reading":
+          "kana": "もっこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-immortal-points-way"
+    "kind": "term"
+    "headword": "仙人指路"
+    "definition_ja": "一方の手を前へ伸ばし、他方を腰にくくり、両足を後ろへ向け、三本の縄で背を上にして吊るす姿に付けた名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-immortal-points-way-form"
+        "text": "仙人指路"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんにんしろ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-pansi-ridge"
+    "kind": "place"
+    "headword": "盤糸嶺"
+    "definition_ja": "盤糸洞のある嶺の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-pansi-ridge-form"
+        "text": "盤糸嶺"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばんしれい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-pansi-cave"
+    "kind": "place"
+    "headword": "盤糸洞"
+    "definition_ja": "七人の女の妖怪が住む洞の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-pansi-cave-form"
+        "text": "盤糸洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばんしどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-zhuogou-spring"
+    "kind": "place"
+    "headword": "濯垢泉"
+    "definition_ja": "盤糸嶺の南方にある天然の温泉。元は天上の仙女の浴場とされる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-zhuogou-spring-form"
+        "text": "濯垢泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "たっこうせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-seven-celestial-fairies"
+    "kind": "person"
+    "headword": "七仙姑"
+    "definition_ja": "濯垢泉をもとの浴場としていたと土地神が述べる、天上の七人の仙女。蟠桃会に遣わされた七衣仙女との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-seven-celestial-fairies-form"
+        "text": "七仙姑"
+        "relation": "preferred"
+        "reading":
+          "kana": "しちせんこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-seven-cave-mothers-title"
+    "kind": "person"
+    "headword": "七仙姑"
+    "definition_ja": "七人の虫の小妖怪が、自分たちの母である盤糸洞の女の妖怪たちを呼ぶ称号。温泉のもとの持ち主だった天女とは区別する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-seven-cave-mothers-title-form"
+        "text": "七仙姑"
+        "relation": "preferred"
+        "reading":
+          "kana": "しちせんこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-yi-archer"
+    "kind": "person"
+    "headword": "羿"
+    "definition_ja": "弓で九つの太陽の烏を射落としたと語られる伝説の射手。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-yi-archer-form"
+        "text": "羿"
+        "relation": "preferred"
+        "reading":
+          "kana": "げい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-nine-yang-springs"
+    "kind": "place"
+    "headword": "九陽泉"
+    "definition_ja": "射落とされた九羽の太陽の烏から生まれたという、九か所の温泉の総称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-nine-yang-springs-form"
+        "text": "九陽泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうようせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-xiangleng-spring"
+    "kind": "place"
+    "headword": "香冷泉"
+    "definition_ja": "太陽の烏が変じたという九陽泉の一つとして列挙される泉の固有名。実在地との同定はしない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-xiangleng-spring-form"
+        "text": "香冷泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうれいせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-banshan-spring"
+    "kind": "place"
+    "headword": "伴山泉"
+    "definition_ja": "太陽の烏が変じたという九陽泉の一つとして列挙される泉の固有名。実在地との同定はしない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-banshan-spring-form"
+        "text": "伴山泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばんざんせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-wen-spring"
+    "kind": "place"
+    "headword": "温泉"
+    "definition_ja": "太陽の烏が変じたという九陽泉の一つとして列挙される泉の固有名。実在地との同定はしない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-wen-spring-form"
+        "text": "温泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "おんせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-donghe-spring"
+    "kind": "place"
+    "headword": "東合泉"
+    "definition_ja": "太陽の烏が変じたという九陽泉の一つとして列挙される泉の固有名。実在地との同定はしない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-donghe-spring-form"
+        "text": "東合泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうごうせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-huangshan-spring"
+    "kind": "place"
+    "headword": "潢山泉"
+    "definition_ja": "太陽の烏が変じたという九陽泉の一つとして列挙される泉の固有名。実在地との同定はしない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-huangshan-spring-form"
+        "text": "潢山泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうざんせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-xiaoan-spring"
+    "kind": "place"
+    "headword": "孝安泉"
+    "definition_ja": "太陽の烏が変じたという九陽泉の一つとして列挙される泉の固有名。実在地との同定はしない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-xiaoan-spring-form"
+        "text": "孝安泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうあんせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-guangfen-spring"
+    "kind": "place"
+    "headword": "広汾泉"
+    "definition_ja": "太陽の烏が変じたという九陽泉の一つとして列挙される泉の固有名。実在地との同定はしない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-guangfen-spring-form"
+        "text": "広汾泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうふんせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-tang-spring"
+    "kind": "place"
+    "headword": "湯泉"
+    "definition_ja": "太陽の烏が変じたという九陽泉の一つとして列挙される泉の固有名。実在地との同定はしない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-tang-spring-form"
+        "text": "湯泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-mafeng"
+    "kind": "term"
+    "headword": "螞蜂"
+    "definition_ja": "蜂の一種を表す古い呼び名。螞の字だけから蟻とはしない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-mafeng-form"
+        "text": "螞蜂"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-lufeng"
+    "kind": "term"
+    "headword": "蠦蜂"
+    "definition_ja": "蜂の一種として現れる古い呼び名。原字の蠦を保ち、現代の種には同定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-lufeng-form"
+        "text": "蠦蜂"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-banmao"
+    "kind": "term"
+    "headword": "班毛"
+    "definition_ja": "麻蠅、すなわちまだら模様のハエを表す古い語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch72-moe-banmao"
+      "reason_ja": "著者は教育部辞典「班毛」の検索表示を確認。独立レビューでは同項目の本文で「麻蠅」という定義と、西遊記の七虫列挙を引用する用例を再確認した。特定の現代種へは同定しない。"
+    "forms":
+      - "id": "xy-ch72-banmao-form"
+        "text": "班毛"
+        "relation": "preferred"
+        "reading":
+          "kana": "はんもう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-niumeng"
+    "kind": "term"
+    "headword": "牛蜢"
+    "definition_ja": "虫の名。牛虻類を指すと考えられるが、原字の蜢を保ち、現代の種名への同定を留保する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-niumeng-form"
+        "text": "牛蜢"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎゅうもう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-mola"
+    "kind": "term"
+    "headword": "抹蜡"
+    "definition_ja": "虫の名。底本の表記を残し、具体的な現代の種名は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-mola-form"
+        "text": "抹蜡"
+        "relation": "preferred"
+        "reading":
+          "kana": "まつさ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-insect-son-mi"
+    "kind": "person"
+    "headword": "蜜"
+    "definition_ja": "盤糸洞の女の妖怪と義理の親子の契りを結んだ、ミツバチの小妖怪の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-insect-son-mi-form"
+        "text": "蜜"
+        "relation": "preferred"
+        "reading":
+          "kana": "みつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-insect-son-ma"
+    "kind": "person"
+    "headword": "螞"
+    "definition_ja": "盤糸洞の女の妖怪と義理の親子の契りを結んだ、螞蜂の小妖怪の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-insect-son-ma-form"
+        "text": "螞"
+        "relation": "preferred"
+        "reading":
+          "kana": "ば"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-insect-son-lu"
+    "kind": "person"
+    "headword": "蠦"
+    "definition_ja": "盤糸洞の女の妖怪と義理の親子の契りを結んだ、蠦蜂の小妖怪の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-insect-son-lu-form"
+        "text": "蠦"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-insect-son-ban"
+    "kind": "person"
+    "headword": "班"
+    "definition_ja": "盤糸洞の女の妖怪と義理の親子の契りを結んだ、班毛の小妖怪の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-insect-son-ban-form"
+        "text": "班"
+        "relation": "preferred"
+        "reading":
+          "kana": "はん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-insect-son-meng"
+    "kind": "person"
+    "headword": "蜢"
+    "definition_ja": "盤糸洞の女の妖怪と義理の親子の契りを結んだ、牛蜢の小妖怪の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-insect-son-meng-form"
+        "text": "蜢"
+        "relation": "preferred"
+        "reading":
+          "kana": "もう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-insect-son-la"
+    "kind": "person"
+    "headword": "蜡"
+    "definition_ja": "盤糸洞の女の妖怪と義理の親子の契りを結んだ、抹蜡の小妖怪の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-insect-son-la-form"
+        "text": "蜡"
+        "relation": "preferred"
+        "reading":
+          "kana": "さ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-insect-son-qing"
+    "kind": "person"
+    "headword": "蜻"
+    "definition_ja": "盤糸洞の女の妖怪と義理の親子の契りを結んだ、トンボの小妖怪の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-insect-son-qing-form"
+        "text": "蜻"
+        "relation": "preferred"
+        "reading":
+          "kana": "せい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-hemp-hawk"
+    "kind": "term"
+    "headword": "麻鷹"
+    "definition_ja": "まだら模様などにちなむ鷹の呼び名。現代の種名は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-hemp-hawk-form"
+        "text": "麻鷹"
+        "relation": "preferred"
+        "reading":
+          "kana": "まよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch72-hemp-hawk-short-form"
+        "text": "麻"
+        "relation": "short_form"
+        "reading":
+          "kana": "ま"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-dai-hawk"
+    "kind": "term"
+    "headword": "鴏鷹"
+    "definition_ja": "七種の鷹として挙げられる鳥名。鴏という字を用い、特定の現代の鳥種への同定は留保する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+        - "xy-ch72-zdic-dai"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-dai-hawk-form"
+        "text": "鴏鷹"
+        "relation": "preferred"
+        "reading":
+          "kana": "とくよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+            - "xy-ch72-review-jitenon-dai"
+          "reason_ja": "漢字辞典オンラインの鴏の字音トク・ドクを本文で確認し、トクを採用。漢典が引く廣韻・集韻の徒得切・敵德切、音特とも照合した。ただしこの物語の鷹名としての読みと種、複合語全体の日本語仮名は未確定のためestimatedを保つ。"
+      - "id": "xy-ch72-dai-hawk-short-form"
+        "text": "鴏"
+        "relation": "short_form"
+        "reading":
+          "kana": "とく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+            - "xy-ch72-review-jitenon-dai"
+          "reason_ja": "漢字辞典オンラインの鴏の字音トク・ドクを本文で確認し、トクを採用。漢典が引く廣韻・集韻の徒得切・敵德切、音特とも照合した。ただしこの物語の鷹名としての読みと種、複合語全体の日本語仮名は未確定のためestimatedを保つ。"
+  - "id": "xy-ch72-white-hawk"
+    "kind": "term"
+    "headword": "白鷹"
+    "definition_ja": "白い鷹という鳥の呼び方。現代の種名は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-white-hawk-form"
+        "text": "白鷹"
+        "relation": "preferred"
+        "reading":
+          "kana": "はくよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch72-white-hawk-short-form"
+        "text": "白"
+        "relation": "short_form"
+        "reading":
+          "kana": "はく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch72-eagle-hawk"
+    "kind": "term"
+    "headword": "鵰鷹"
+    "definition_ja": "大きな猛禽を表す鳥名。現代のワシ類の特定種へ同定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch72-primary-2557105"
+      "reason_ja": "原文の語形・対象・文脈に基づく。現代的分類や後の正体・展開を加えない。"
+    "forms":
+      - "id": "xy-ch72-eagle-hawk-form"
+        "text": "鵰鷹"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch72-eagle-hawk-short-form"
+        "text": "鵰"
+        "relation": "short_form"
+        "reading":
+          "kana": "ちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch72-primary-2557105"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
