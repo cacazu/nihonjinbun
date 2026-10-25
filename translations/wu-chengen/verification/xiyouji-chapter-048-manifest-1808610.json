@@ -2435,7 +2435,7 @@
       "source_codepoints": 18
     }
   ],
-  "content_sha256": "654f1067b030d54b2c33cff3bf1097b99ebb741361e9c7891a477d40d53b4344",
+  "content_sha256": "e6fdf198dec3ed4cef337a368c281bcb935db22b5ca87ce85e2fc995d84347fc",
   "review_checks": {
     "all_target_source_lines_exact_once": true,
     "translation_units_self_compared": 40,
@@ -2448,5 +2448,42 @@
     "paragraph_glosses_independently_compared": 54,
     "independent_reviewer_type": "AI, not author; not human or expert collation",
     "independent_current_page_lines_exact": 215
+  },
+  "naming_continuity_followup": {
+    "reviewer": "Independent naming-continuity follow-up AI, separate from the original author and original complete reviewer",
+    "date": "2026-10-25",
+    "scope": "Full 047 setup and full 048 source/translation context reread; narrow continuity correction only. Existing source acquisition and earlier full-review evidence are retained, not claimed as new retrieval.",
+    "intake_yaml_sha256": "9920ac816ff4b89b401961679ae6e6396b691c6ca1809573a8b7c4064b699120",
+    "prior_complete_review": {
+      "status": "complete",
+      "completed_at": "2026-10-25T01:22:56Z",
+      "reviewed_by": "Independent AI reviewer (not the author; not human or expert collation)",
+      "content_sha256": "654f1067b030d54b2c33cff3bf1097b99ebb741361e9c7891a477d40d53b4344"
+    },
+    "report": "2026-10-25-chapter-048-naming-correction.md",
+    "changed_source_unit_ids": [
+      "xy-ch48-004",
+      "xy-ch48-006",
+      "xy-ch48-007",
+      "xy-ch48-008",
+      "xy-ch48-009",
+      "xy-ch48-010",
+      "xy-ch48-035",
+      "xy-ch48-036",
+      "xy-ch48-038"
+    ],
+    "dictionary_change": false,
+    "identity_boundary_segment": "xy-ch48-004",
+    "identity_boundary_new_start": 98,
+    "species_or_ownership_added": false,
+    "source_units_independently_reread": 40,
+    "note_bodies_independently_reread": 23,
+    "first_occurrences_independently_reread": 73,
+    "paragraph_glosses_independently_reread": 54,
+    "final_content_sha256": "e6fdf198dec3ed4cef337a368c281bcb935db22b5ca87ce85e2fc995d84347fc",
+    "completed_at": "2026-10-25T02:21:00Z",
+    "intake_manifest_sha256": "4c9d9070ee01ca93bddb6432cf640bd3becce709363c3db7c26c0f08fa7f8663",
+    "final_yaml_sha256": "11e29793f55b3076b37ec1bf461f267cd0efcb18da60a89c24169e914d66814a",
+    "changed_occurrences": 35
   }
 }
