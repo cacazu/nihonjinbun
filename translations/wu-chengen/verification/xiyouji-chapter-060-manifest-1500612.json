@@ -1,0 +1,2872 @@
+{
+  "work_id": "xiyouji-chapter-060-zh-ja",
+  "source_revision": "1500612",
+  "source_revision_timestamp": "2018-09-12T14:43",
+  "source_revision_timestamp_note_ja": "現行取得フッターの表示。秒・タイムゾーンの明示は未確認。",
+  "retrieved_at": "2026-10-25",
+  "fixed_url": "https://zh.wikisource.org/w/index.php?title=西遊記/第060回&oldid=1500612",
+  "actual_acquisition_url": "https://zh.wikisource.org/zh-hant/西遊記/第060回",
+  "fixed_url_fetch_success": true,
+  "acquisition_note_ja": "原文スナップショットは作者の現行繁体表示取得のまま。独立レビュアーが同じ現行全202行を照合し、固定リンク先の版全206行も別に取得。固定リンク経由は成功したが、従来形式URLの直接open失敗を成功に改変しない。",
+  "extraction_note_ja": "現行ページの二回の表示を統合し全202行L0〜L201を番号付きで保存。回題L113〜L114と本文L117〜L169の非空行を一度ずつ収録。詩行先頭の字下げのみ除去し、原字・句読点・行内文字・詩の行境界を保持。底本の珍字・異体字も原文に保持。source_locationsはスナップショット物理行（1始まり）なので表示L番号に1を加える。",
+  "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-060-source-1500612-zh-hant.txt",
+  "source_snapshot_sha256": "53c2234293e4425e385b706762369814c5ab5b23b358ef8308c19971f65e3ccf",
+  "source_segment_count": 36,
+  "source_codepoint_count": 6991,
+  "snapshot_total_lines": 202,
+  "target_nonempty_lines": [
+    113,
+    114,
+    117,
+    118,
+    120,
+    122,
+    123,
+    125,
+    127,
+    128,
+    130,
+    131,
+    132,
+    134,
+    135,
+    136,
+    137,
+    139,
+    140,
+    142,
+    143,
+    145,
+    147,
+    149,
+    150,
+    151,
+    153,
+    154,
+    155,
+    157,
+    159,
+    160,
+    162,
+    163,
+    164,
+    165,
+    167,
+    169
+  ],
+  "fixed_source_lines_field_note_ja": "既存検証との互換キーであり、作者の現行繁体表示全202行を保持。別取得の固定版はindependent_fixed_snapshotを参照。",
+  "fixed_source_lines": [
+    {
+      "line": 0,
+      "text": "【0†跳至內容】"
+    },
+    {
+      "line": 1,
+      "text": ""
+    },
+    {
+      "line": 2,
+      "text": "[Input] 主選單"
+    },
+    {
+      "line": 3,
+      "text": ""
+    },
+    {
+      "line": 4,
+      "text": "主選單"
+    },
+    {
+      "line": 5,
+      "text": ""
+    },
+    {
+      "line": 6,
+      "text": "[Button: 移至側邊欄] [Button: 隱藏]"
+    },
+    {
+      "line": 7,
+      "text": ""
+    },
+    {
+      "line": 8,
+      "text": "導覽"
+    },
+    {
+      "line": 9,
+      "text": ""
+    },
+    {
+      "line": 10,
+      "text": "  * 【1†首頁】"
+    },
+    {
+      "line": 11,
+      "text": "  * 【2†隨機作品】"
+    },
+    {
+      "line": 12,
+      "text": "  * 【3†隨機作者】"
+    },
+    {
+      "line": 13,
+      "text": "  * 【4†隨機原本】"
+    },
+    {
+      "line": 14,
+      "text": "  * 【5†所有頁面】"
+    },
+    {
+      "line": 15,
+      "text": ""
+    },
+    {
+      "line": 16,
+      "text": "編輯者"
+    },
+    {
+      "line": 17,
+      "text": ""
+    },
+    {
+      "line": 18,
+      "text": "  * 【6†社群入口】"
+    },
+    {
+      "line": 19,
+      "text": "  * 【7†寫字間】"
+    },
+    {
+      "line": 20,
+      "text": "  * 【8†近期變更】"
+    },
+    {
+      "line": 21,
+      "text": "  * 【9†特殊頁面】"
+    },
+    {
+      "line": 22,
+      "text": ""
+    },
+    {
+      "line": 23,
+      "text": "說明"
+    },
+    {
+      "line": 24,
+      "text": ""
+    },
+    {
+      "line": 25,
+      "text": "  * 【10†說明】"
+    },
+    {
+      "line": 26,
+      "text": "  * 【11†關於維基文庫】"
+    },
+    {
+      "line": 27,
+      "text": "  * 【12†聯絡我們】"
+    },
+    {
+      "line": 28,
+      "text": "  * 【13†方針與指引】"
+    },
+    {
+      "line": 29,
+      "text": ""
+    },
+    {
+      "line": 30,
+      "text": "显示选项"
+    },
+    {
+      "line": 31,
+      "text": ""
+    },
+    {
+      "line": 32,
+      "text": "【14†搜尋】"
+    },
+    {
+      "line": 33,
+      "text": ""
+    },
+    {
+      "line": 34,
+      "text": "[Input: 在Wikisource搜尋]"
+    },
+    {
+      "line": 35,
+      "text": ""
+    },
+    {
+      "line": 36,
+      "text": "[Input]"
+    },
+    {
+      "line": 37,
+      "text": ""
+    },
+    {
+      "line": 38,
+      "text": "[Button: 搜尋]"
+    },
+    {
+      "line": 39,
+      "text": ""
+    },
+    {
+      "line": 40,
+      "text": "[Input] 外觀"
+    },
+    {
+      "line": 41,
+      "text": ""
+    },
+    {
+      "line": 42,
+      "text": "  * 【15†贊助†donate.wikimedia.org】"
+    },
+    {
+      "line": 43,
+      "text": "  * 【16†建立帳號】"
+    },
+    {
+      "line": 44,
+      "text": "  * 【17†登入】"
+    },
+    {
+      "line": 45,
+      "text": ""
+    },
+    {
+      "line": 46,
+      "text": "[Input] 個人工具"
+    },
+    {
+      "line": 47,
+      "text": ""
+    },
+    {
+      "line": 48,
+      "text": "  * 【15†贊助†donate.wikimedia.org】"
+    },
+    {
+      "line": 49,
+      "text": "  * 【16†建立帳號】"
+    },
+    {
+      "line": 50,
+      "text": "  * 【17†登入】"
+    },
+    {
+      "line": 51,
+      "text": "# 西遊記/第060回"
+    },
+    {
+      "line": 52,
+      "text": ""
+    },
+    {
+      "line": 53,
+      "text": "[Input] 新增語言"
+    },
+    {
+      "line": 54,
+      "text": ""
+    },
+    {
+      "line": 55,
+      "text": "【18†新增連結†www.wikidata.org】"
+    },
+    {
+      "line": 56,
+      "text": ""
+    },
+    {
+      "line": 57,
+      "text": "  * 【19†作品】"
+    },
+    {
+      "line": 58,
+      "text": "  * 【20†討論】"
+    },
+    {
+      "line": 59,
+      "text": ""
+    },
+    {
+      "line": 60,
+      "text": "[Input] 繁體"
+    },
+    {
+      "line": 61,
+      "text": ""
+    },
+    {
+      "line": 62,
+      "text": "  * 【21†不转换】"
+    },
+    {
+      "line": 63,
+      "text": "  * 【22†简体】"
+    },
+    {
+      "line": 64,
+      "text": "  * 【23†繁體】"
+    },
+    {
+      "line": 65,
+      "text": ""
+    },
+    {
+      "line": 66,
+      "text": "  * 【19†閱讀】"
+    },
+    {
+      "line": 67,
+      "text": "  * 【24†編輯】"
+    },
+    {
+      "line": 68,
+      "text": "  * 【25†檢視歷史】"
+    },
+    {
+      "line": 69,
+      "text": ""
+    },
+    {
+      "line": 70,
+      "text": "[Input] 工具"
+    },
+    {
+      "line": 71,
+      "text": ""
+    },
+    {
+      "line": 72,
+      "text": "工具"
+    },
+    {
+      "line": 73,
+      "text": ""
+    },
+    {
+      "line": 74,
+      "text": "[Button: 移至側邊欄] [Button: 隱藏]"
+    },
+    {
+      "line": 75,
+      "text": ""
+    },
+    {
+      "line": 76,
+      "text": "操作"
+    },
+    {
+      "line": 77,
+      "text": ""
+    },
+    {
+      "line": 78,
+      "text": "  * 【19†閱讀】"
+    },
+    {
+      "line": 79,
+      "text": "  * 【24†編輯】"
+    },
+    {
+      "line": 80,
+      "text": "  * 【25†檢視歷史】"
+    },
+    {
+      "line": 81,
+      "text": ""
+    },
+    {
+      "line": 82,
+      "text": "一般"
+    },
+    {
+      "line": 83,
+      "text": ""
+    },
+    {
+      "line": 84,
+      "text": "  * 【26†連結至此的頁面】"
+    },
+    {
+      "line": 85,
+      "text": "  * 【27†相關變更】"
+    },
+    {
+      "line": 86,
+      "text": "  * 【28†上傳檔案†commons.wikimedia.org】"
+    },
+    {
+      "line": 87,
+      "text": "  * 【29†固定連結】"
+    },
+    {
+      "line": 88,
+      "text": "  * 【30†頁面資訊】"
+    },
+    {
+      "line": 89,
+      "text": "  * 【31†引用此頁面】"
+    },
+    {
+      "line": 90,
+      "text": "  * 【32†取得短連結】"
+    },
+    {
+      "line": 91,
+      "text": ""
+    },
+    {
+      "line": 92,
+      "text": "列印/匯出"
+    },
+    {
+      "line": 93,
+      "text": "  * 可列印版"
+    },
+    {
+      "line": 94,
+      "text": "  * 【33†下載 EPUB†ws-export.wmcloud.org】"
+    },
+    {
+      "line": 95,
+      "text": "  * 【34†下載為 MOBI†ws-export.wmcloud.org】"
+    },
+    {
+      "line": 96,
+      "text": "  * 【35†下載為PDF†ws-export.wmcloud.org】"
+    },
+    {
+      "line": 97,
+      "text": "  * 【36†其它格式†ws-export.wmcloud.org】"
+    },
+    {
+      "line": 98,
+      "text": ""
+    },
+    {
+      "line": 99,
+      "text": "在其他專案中"
+    },
+    {
+      "line": 100,
+      "text": ""
+    },
+    {
+      "line": 101,
+      "text": "  * 【37†維基數據項目†www.wikidata.org】"
+    },
+    {
+      "line": 102,
+      "text": ""
+    },
+    {
+      "line": 103,
+      "text": "外觀"
+    },
+    {
+      "line": 104,
+      "text": ""
+    },
+    {
+      "line": 105,
+      "text": "[Button: 移至側邊欄] [Button: 隱藏]"
+    },
+    {
+      "line": 106,
+      "text": ""
+    },
+    {
+      "line": 107,
+      "text": "【33†下載†ws-export.wmcloud.org】"
+    },
+    {
+      "line": 108,
+      "text": ""
+    },
+    {
+      "line": 109,
+      "text": "< 【38†西遊記】"
+    },
+    {
+      "line": 110,
+      "text": ""
+    },
+    {
+      "line": 111,
+      "text": "←  |"
+    },
+    {
+      "line": 112,
+      "text": "【39†第五十九回唐三藏路阻火焰山孫行者一調芭蕉扇】  | 西遊記"
+    },
+    {
+      "line": 113,
+      "text": "第六十回"
+    },
+    {
+      "line": 114,
+      "text": "牛魔王罷戰赴華筵　孫行者二調芭蕉扇"
+    },
+    {
+      "line": 115,
+      "text": "作者：【40†吳承恩】  |"
+    },
+    {
+      "line": 116,
+      "text": "【41†第六十一回豬八戒助力破一作「敗」魔王孫行者三調芭蕉扇】"
+    },
+    {
+      "line": 117,
+      "text": "土地說：「大力王即牛魔王也。」行者道：「這山本是牛魔王放的火，假名火焰山？」土地道：「不是，不是。大聖若肯赦小神之罪，方敢直言。」行者道：「你有何罪？直說無妨。」土地道：「這火原是大聖放的。」行者怒道：「我在那裡？你這等亂談。我可是放火之輩？」土地道：「是你也認不得我了。此間原無這座山。因大聖五百年前大鬧天宮時，被顯聖擒了，壓赴老君，將大聖安於八卦爐內。煅煉之後開鼎，被你蹬倒丹爐，落了幾個磚來，內有餘火，到此處化為火焰山。我本是兜率宮守爐的道人，當被老君怪我失守，降下此間，就做了火焰山土地也。」豬八戒聞言，恨道：「怪道你這等打扮，原來是道士變的土地。」"
+    },
+    {
+      "line": 118,
+      "text": "行者半信不信道：「你且說，早尋大力王何故？』土地道：「大力王乃羅剎女丈夫。他這向撇了羅剎，現在積雷山摩雲洞。有個萬年狐王，那狐王死了，遺下一個女兒，叫做玉面公主。那公主有百萬家私，無人掌管。二年前，訪著牛魔王神通廣大，情願倒陪家私，招贅為夫。那牛王棄了羅剎，久不回顧。若大聖尋著牛王，拜求來此，方借得真扇：一則搧息火焰，可保師父前進；二來永除火患，可保此地生靈；三者赦我歸天，回繳老君法旨。」行者道：「積雷山坐落何處？到彼有多少程途？」土地道：「在正南方。此間到彼，有三千餘里。」"
+    },
+    {
+      "line": 119,
+      "text": ""
+    },
+    {
+      "line": 120,
+      "text": "行者聞言，即吩咐沙僧、八戒保護師父，又教土地陪伴勿回。隨即忽的一聲，渺然不見。那裡消半個時辰，早見一座高山凌漢。按落雲頭，停立巔峰之上觀看，真是好山："
+    },
+    {
+      "line": 121,
+      "text": ""
+    },
+    {
+      "line": 122,
+      "text": "    高不高，頂摩碧漢；大不大，根扎黃泉。山前日暖，嶺後風寒。山前日暖，有三冬草木無知；嶺後風寒，見九夏冰霜不化。龍潭接澗水長流，虎穴依崖花放早。水流千派似飛瓊，花放一心如布錦。灣環嶺上灣環樹，扢扠石外扢扠松。真個是：高的山，峻的嶺；陡的崖，深的澗；香的花，美的果；紅的藤，紫的竹；青的松，翠的柳。八節四時顏不改，千年萬古色如龍。"
+    },
+    {
+      "line": 123,
+      "text": "大聖看夠多時，步下尖峰，入深山，找尋路徑。正自沒個消息，忽見松陰下有一女子，手摺了一枝香蘭，嬝嬝娜娜而來。大聖閃在怪石之傍，定睛觀看，那女子怎生模樣："
+    },
+    {
+      "line": 124,
+      "text": ""
+    },
+    {
+      "line": 125,
+      "text": "    嬌嬌傾國色，緩緩步移蓮。貌若王嬙，顏如楚女。如花解語，似玉生香。高髻堆青𢷑碧鴉，雙睛蘸綠橫秋水。湘裙半露弓鞋小，翠袖微舒粉腕長。說甚麼暮雨朝雲，真個是朱唇皓齒。錦江滑膩蛾眉秀，賽過文君與薛濤。"
+    },
+    {
+      "line": 126,
+      "text": ""
+    },
+    {
+      "line": 127,
+      "text": "那女子漸漸走近石邊，大聖躬身施禮，緩緩而言曰：「女菩薩何往？」那女子未曾觀看，聽得叫問，卻自擡頭。忽見大聖的相貌醜陋，老大心驚，欲退難退，欲行難行，只得戰兢兢，勉強答道：「你是何方來者？敢在此間問誰？」大聖沉思道：「我若說出取經求扇之事，恐這廝與牛王有親。且只以假親托意，來請魔王之言而答方可。」那女子見他不語，變了顏色，怒聲喝道：「你是何人，敢來問我？」大聖躬身陪笑道：「我是翠雲山來的，初到貴處，不知路徑。敢問菩薩，此間可是積雷山？」那女子道：「正是。」大聖道：「有個摩雲洞，坐落何處？」那女子道：「你尋那洞做甚？」大聖道：「我是翠雲山芭蕉洞鐵扇公主央來請牛魔王的。」"
+    },
+    {
+      "line": 128,
+      "text": "那女子一聽鐵扇公主請牛魔王之言，心中大怒，徹耳根子通紅，潑口罵道：「這賤婢，著實無知。牛王自到我家，未及二載，也不知送了他多少珠翠金銀、綾羅緞疋，年供柴，月供米，自自在在受用，還不識羞，又來請他怎的？」大聖聞言，情知是玉面公主，故意掣出金箍棒，大喝一聲道：「你這潑賤，將家私買住牛王，誠然是陪錢嫁漢，你倒不羞，卻敢罵誰？」那女子見了，諕得魄散魂飛，沒好步，亂𤜱金蓮，戰兢兢回頭便走。這大聖吆吆喝喝，隨後相跟。原來穿過松陰，就是摩雲洞口。女子跑進去，撲的把門關了。大聖卻收了金箍棒，停步看時，好所在："
+    },
+    {
+      "line": 129,
+      "text": ""
+    },
+    {
+      "line": 130,
+      "text": "    樹林森密，崖削崚嶒。薜蘿陰冉冉，蘭蕙味馨馨。流泉漱玉穿修竹，巧石知機帶落英。煙霞籠遠岫，日月照雲屏。龍吟虎嘯，鶴唳鶯鳴。一片清幽真可愛，琪花瑤草景常明。不亞天臺仙洞，勝如海上蓬瀛。"
+    },
+    {
+      "line": 131,
+      "text": "且不言行者這裡觀看景致。卻說那女子跑得粉汗淋淋，諕得蘭心吸吸，徑入書房裡面。原來牛魔王正在那裡靜玩丹書。這女子沒好氣倒在懷裡，抓耳撓腮，放聲大哭。牛王滿面陪笑道：「美人，休得煩惱。有甚話說？」那女子跳天索地，口中罵道：「潑魔害殺我也！」牛王笑道：「你為甚事罵我？」女子道：「我因父母無依，招你護身養命。江湖中說你是條好漢，你原來是個懼內的庸夫。」牛王聞說，將女子抱住道：「美人，我有那些不是處？你且慢慢說來，我與你陪禮。」女子道：「適才我在洞外閑步花陰，折蘭採蕙，忽有一個毛臉雷公嘴的和尚，猛地前來施禮，把我嚇了個呆掙。及定性問是何人，他說是鐵扇公主央他來請牛魔王的。被我說了兩句，他倒罵了我一場，將一根棍子趕著我打。若不是走得快些，幾乎被他打死。這不是招你為禍？害殺我也。」牛王聞言，卻與他整容陪禮，溫存良久，女子方才息氣。魔王卻發狠道：「美人在上，不敢相瞞。那芭蕉洞雖是僻靜，卻清幽自在。我山妻自幼修持，也是個得道的女仙，卻是家門嚴謹，內無一尺之童，焉得有雷公嘴的男子央來？這想是那裡來的妖怪，或者假綽名聲，至此訪我。等我出去看看。」"
+    },
+    {
+      "line": 132,
+      "text": "好魔王，拽開步，出了書房，上大廳取了披掛，結束了。拿了一條混鐵棍，出門高叫道：「是誰人在我這裡無狀？」行者在傍，見他那模樣，與五百年前又大不同。只見："
+    },
+    {
+      "line": 133,
+      "text": ""
+    },
+    {
+      "line": 134,
+      "text": "    頭上戴一頂水磨銀亮熟鐵盔，身上貫一副絨穿錦繡黃金甲，足下踏一雙捲尖粉底麂皮靴；腰間束一條攢絲三股獅蠻帶。一雙眼光如明鏡，兩道眉艷似紅霓。口若血盆，齒排銅板。吼聲響震山神怕，行動威風惡鬼慌。四海有名稱混世，西方大力號魔王。"
+    },
+    {
+      "line": 135,
+      "text": "這大聖整衣上前，深深的唱個大喏道：「長兄，還認得小弟麼？」牛王答禮道：「你是齊天大聖孫悟空麼？」大聖道：「正是，正是。一向久別未拜。適才到此問一女子，方得見兄。丰采果勝常，可賀也。」牛王喝道：「且休巧舌。我聞你鬧了天宮，被佛祖降壓在五行山下，近解脫天災，保護唐僧西天見佛求經，怎麼在號山枯松澗火雲洞把我小兒牛聖嬰害了？正在這裡惱你，你卻怎麼又來尋我？」大聖作禮道：「長兄勿得誤怪小弟。當時令郎捉住吾師，要食其肉，小弟近他不得，幸觀音菩薩欲救我師，勸他歸正。現今做了善財童子，比兄長還高，享極樂之門堂，受逍遙之永壽，有何不可，返怪我耶？」牛王罵道：「這個乖嘴的猢猻！害子之情，被你說過；你才欺我愛妾，打上我門何也？」大聖笑道：「我因拜謁長兄不見，向那女子拜問，不知就是二嫂嫂。因他罵了我幾句，是小弟一時粗鹵，驚了嫂嫂。望長兄寬恕寬恕。」牛王道：「既如此說，我看故舊之情，饒你去罷。」"
+    },
+    {
+      "line": 136,
+      "text": "大聖道：「既蒙寬恩，感謝不盡。但尚有一事奉瀆，萬望周濟周濟。」牛王罵道：「這猢猻不識起倒，饒了你，倒還不走，反來纏我。甚麼周濟周濟？」大聖道：「實不瞞長兄，小弟因保唐僧西進，路阻火焰山，不能前進。詢問土人，知尊嫂羅剎女有一柄芭蕉扇，欲求一用。昨到舊府奉拜嫂嫂，嫂嫂堅執不借。是以特求長兄，望兄長開天地之心，同小弟到大嫂處一行，千萬借扇搧滅火焰，保得唐僧過山，即時完璧。」牛王聞言，心如火發，咬響鋼牙罵道：「你說你不無禮，你原來是借扇之故。一定先欺我山妻，山妻想是不肯，故來尋我，且又趕我愛妾。常言道：『朋友妻，不可欺；朋友妾，不可滅。』你既欺我妻又滅我妾，多大無禮？上來吃我一棍。」大聖道：「哥要說打，弟也不懼。但求寶貝，是我真心，萬乞借我使使。」牛王道：「你若三合敵得我，我著山妻借你；如敵不過，打死你，與我雪恨。」大聖道：「哥說得是。小弟這一向疏懶，不曾與兄相會，不知這幾年武藝比昔日如何，我兄弟們請演演棍看。」這牛王那容分說，掣混鐵棍，劈頭就打；這大聖持金箍棒，隨手相迎。兩個這場好鬥："
+    },
+    {
+      "line": 137,
+      "text": "    金箍棒，混鐵棍，變臉不以朋友論。那個說：「正怪你這猢猻害子情。」這個說：「你令郎已得道休嗔恨。」那個說：「你無知怎敢上我門？」這個說：「我有因特地來相問。」一個要求扇子保唐僧，一個不借芭蕉忒鄙吝。語去言來失舊情，舉家無義皆生忿。牛王棍起賽蛟龍，大聖棒迎神鬼遁。初時爭鬥在山前，後來齊駕祥雲進。半空之內顯神通，五彩光中施妙運。兩條棍響振天關，不見輸贏皆傍寸。"
+    },
+    {
+      "line": 138,
+      "text": ""
+    },
+    {
+      "line": 139,
+      "text": "這大聖與那牛王鬥經百十回合，不分勝負。正在難解難分之際，只聽得山峰上有人叫道：「牛爺爺，我大王多多拜上，幸賜早臨，好安座也。」牛王聞說，使混鐵棍支住金箍棒，叫道：「猢猻，你且住了，等我去一個朋友家赴會來者。」言畢，按下雲頭，徑至洞裡，對玉面公主道：「美人，才那雷公嘴的男子乃孫悟空猢猻，被我一頓棍打走了，再不敢來。你放心耍子。我到一個朋友處吃酒去也。」他才卸了盔甲，穿一領鴉青剪絨襖子，走出門，跨上辟水金睛獸，著小的們看守門庭，半雲半霧，一直向西北方而去。"
+    },
+    {
+      "line": 140,
+      "text": "大聖在高峰上看著，心中暗想道：「這老牛不知又結識了甚麼朋友，往那裡去赴會。等老孫跟他走走。」好行者，將身幌一幌，變作一陣清風趕上，隨著同走。不多時，到了一座山中，那牛王寂然不見。大聖聚了原身，入山尋看。那山中有一面清水深潭，潭邊有一座石碣，碣上有六個大字，乃「亂石山碧波潭」。大聖暗想道：「老牛斷然下水去了。水底之精，若不是蛟精，必是龍精、魚精，或是龜鱉黿鼉之精。等老孫也下去水看看。」"
+    },
+    {
+      "line": 141,
+      "text": ""
+    },
+    {
+      "line": 142,
+      "text": "好大聖，捻著訣，念個咒語，搖身一變，變作一個螃蟹，不大不小的有三十六斤重。撲的跳在水中，徑沉潭底。忽見一座玲瓏剔透的牌樓，樓下拴著那個辟水金睛獸。進牌樓裡面，卻就沒水。大聖爬進去，仔細看時，只見那壁廂一派音樂之聲。但見："
+    },
+    {
+      "line": 143,
+      "text": "    朱宮貝闕，與世不殊。黃金為屋瓦，白玉作門樞。屏開玳瑁甲，檻砌珊瑚珠。祥雲瑞藹輝蓮座，上接三光下入衢。非是天宮並海藏，果然此處賽蓬壺。高堂設宴羅賓主，大小官員冠冕珠。忙呼玉女捧牙槃，催喚仙娥調律呂。長鯨鳴，巨蟹舞，鱉吹笙，鼉擊鼓，驪頷之珠照樽俎。鳥篆之文列翠屏，蝦鬚之簾掛廊廡。八音迭奏雜仙韶，宮商響徹遏雲霄。青頭鱸妓撫瑤瑟，紅眼馬郎品玉簫。鱖婆頂獻香獐脯，龍女頭簪金鳳翹。吃的是，天廚八寶珍饈味；飲的是，紫府瓊漿熟醞醪。"
+    },
+    {
+      "line": 144,
+      "text": ""
+    },
+    {
+      "line": 145,
+      "text": "那上面坐的是牛魔王，左右有三四個蛟精，前面坐著一個老龍精，兩邊乃龍子、龍孫、龍婆、龍女。"
+    },
+    {
+      "line": 146,
+      "text": ""
+    },
+    {
+      "line": 147,
+      "text": "正在那裡觥籌交錯之際，孫大聖一直走將上去，被老龍看見，即命：「拿下那個野蟹來。」龍子、龍孫一擁上前，把大聖拿住。大聖忽作人言，叫：「饒命，饒命。」老龍道：「你是那裡來的野蟹？怎麼敢上廳堂，在尊客之前，橫行亂走？快早供來，免汝死罪。」好大聖，假捏虛言，對眾供道："
+    },
+    {
+      "line": 148,
+      "text": ""
+    },
+    {
+      "line": 149,
+      "text": "    「生自湖中為活，傍崖作窟權居。蓋因日久得身舒，官受橫行介士。"
+    },
+    {
+      "line": 150,
+      "text": "    踏草拖泥落索，從來未習行儀。不知法度冒王威，伏望尊慈恕罪！」"
+    },
+    {
+      "line": 151,
+      "text": "座上眾精聞言，都拱身對老龍作禮道：「蟹介士初入瑤宮，不知王禮，望尊公饒他去罷。」老龍稱謝了。眾精即教：「放了那廝，且記打，外面伺候。」大聖應了一聲，往外逃命，徑至牌樓之下。心中暗想道：「這牛王在此貪杯，那裡等得他散？就是散了，也不肯借扇與我。不如偷了他的金睛獸，變做牛魔王，去哄那羅剎女，騙他扇子，送我師父過山為妙。」"
+    },
+    {
+      "line": 152,
+      "text": ""
+    },
+    {
+      "line": 153,
+      "text": "好大聖，即現本像，將金睛獸解了韁繩，撲一把，跨上雕鞍，徑直騎出水底。到於潭外，將身變作牛王模樣。打著獸，縱著雲，不多時，已至翠雲山芭蕉洞口。叫聲：「開門。」那洞門裡有兩個女童，聞得聲音開了門，看見是牛魔王嘴臉，即入報：「奶奶，爺爺來家了。」那羅剎聽言，忙整雲鬟，急移蓮步，出門迎接。這大聖下雕鞍，牽進金睛獸；弄大膽，誆騙女佳人。羅剎女肉眼，認他不出，即攜手而入，著丫鬟設座看茶。一家子見是主公，無不敬謹。"
+    },
+    {
+      "line": 154,
+      "text": "須臾間敘及寒溫，「牛王」道：「夫人久闊。」羅剎道：「大王萬福。」又云：「大王寵幸新婚，拋撇奴家，今日是那陣風兒吹你來的？』大聖笑道：「非敢拋撇，只因玉面公主招後，家事繁冗，朋友多顧，是以稽留在外，卻也又治得一個家當了。」又道：「近聞悟空那廝保唐僧，將近火焰山界，恐他來問你借扇子。我恨那廝害子之仇未報，但來時，可差人報我，等我拿他，分屍萬段，以雪我夫妻之恨。」羅剎聞言，滴淚告道：「大王，常言說：『男兒無婦財無主，女子無夫身無主。』我的性命，險些兒被這猢猻害了。」大聖聽得，故意發怒，罵道：「那潑猴幾時過去了？」羅剎道：「還未去。昨日到我這裡借扇子，我因他害孩兒之故，披掛了，掄寶劍出門，就砍那猢猻。他忍著疼，叫我做嫂嫂，說大王曾與他結義。」大聖道：「是五百年前曾拜為七弟兄。」羅剎道：「被我罵也不敢回言，砍也不敢動手。後被我一扇子搧去。不知在那裡尋得個定風法兒，今早又在門外叫喚。是我又使扇搧，莫想得動。急掄劍砍時，他就不讓我了。我怕他棒重，就走入洞裡，緊關上門。不知他又從何處，鑽在我肚腹之內，險被他害了性命。是我叫他幾聲叔叔，將扇與他去也。」"
+    },
+    {
+      "line": 155,
+      "text": "大聖又假意搥胸道：「可惜，可惜。夫人錯了，怎麼就把這寶貝與那猢猻？惱殺我也。」羅剎笑道：「大王息怒。與他的是假扇，但哄他去了。」大聖問：「真扇在於何處？」羅剎道：「放心，放心，我收著哩。」叫丫鬟整酒接風賀喜。遂擎杯奉上道：「大王，燕爾新婚，千萬莫忘結髮，且吃一杯鄉中之水。」大聖不敢不接，只得笑吟吟，舉觴在手道：「夫人先飲。我因圖治外產，久別夫人，早晚蒙護守家門，權為酬謝。」羅剎復接杯斟起，遞與大王道：「自古道：『妻者，齊也。』夫乃養身之父，謝甚麼？」他兩人謙謙講講，方才坐下巡酒。大聖不敢破葷，只吃幾個果子，與他言言語語。"
+    },
+    {
+      "line": 156,
+      "text": ""
+    },
+    {
+      "line": 157,
+      "text": "酒至數巡，羅剎覺有半酣，色情微動，就和孫大聖挨挨擦擦，搭搭拈拈：攜著手，俏語溫存；並著肩，低聲俯就。將一杯酒，你喝一口，我喝一口，卻又哺果。大聖假意虛情，相陪相笑，沒奈何，也與他相倚相偎。果然是："
+    },
+    {
+      "line": 158,
+      "text": ""
+    },
+    {
+      "line": 159,
+      "text": "    釣詩鉤，掃愁帚，破除萬事無過酒。男兒立節放襟懷，女子忘情開笑口。面赤似夭桃，身搖如嫩柳。絮絮叨叨話語多，捻捻掐掐風情有。時見掠雲鬟，又見掄尖手。幾番常把腳兒蹺，數次每將衣袖抖。粉項自然低，蠻腰漸覺扭。合歡言語不曾丟，酥胸半露鬆金鈕。醉來真個玉山頹，餳眼摩娑幾弄醜。"
+    },
+    {
+      "line": 160,
+      "text": "大聖見他這等酣然，暗自留心，挑鬥道：「夫人，真扇子你收在那裡？早晚仔細，但恐孫行者變化多端，卻又來騙去。」羅剎笑嘻嘻的，口中吐出，只有一個杏葉兒大小，遞與大聖道：「這個不是寶貝？」大聖接在手中，卻又不信，暗想著：「這些些兒，怎生搧得火滅？怕又是假的。」羅剎見他看著寶貝沉思，忍不住上前，將粉面搵在行者臉上，叫道：「親親，你收了寶貝吃酒罷，只管出神想甚麼哩？」大聖就趁腳兒蹺，問他一句道：「這般小小之物，如何搧得八百里火焰？」羅剎酒陶真性，無忌憚，就說出方法道：「大王，與你別了二載，你想是晝夜貪歡，被那玉面公主弄傷了神思，怎麼自家的寶貝事情，也都忘了？只將左手大指頭捻著那柄兒上第七縷紅絲，念一聲『𠲛噓啊吸嘻吹呼』，即長一丈二尺長短。這寶貝變化無窮！那怕他八萬里火焰，可一扇而消也。」"
+    },
+    {
+      "line": 161,
+      "text": ""
+    },
+    {
+      "line": 162,
+      "text": "大聖聞言，切切記在心上。卻把扇兒也噙在口裡，把臉抹一抹，現了本像。厲聲高叫道：「羅剎女，你看看我可是你親老公？就把我纏了這許多醜勾當，不羞，不羞。」那女子一見是孫行者，慌得推倒桌席，跌落塵埃，羞愧無比，只叫：「氣殺我也！氣殺我也！」"
+    },
+    {
+      "line": 163,
+      "text": "這大聖不管他死活，捽脫手，拽大步，徑出了芭蕉洞。正是：無心貪美色，得意笑顏回。將身一縱，踏祥雲，跳上高山，將扇子吐出來，演演方法。將左手大指頭捻著那柄上第七縷紅絲，念了一聲「𠲛噓啊吸嘻吹呼」，果然長了有一丈二尺長短。拿在手中，仔細看了又看，比前番假的果是不同。只見祥光晃晃，瑞氣紛紛，上有三十六縷紅絲，穿經度絡，表裡相聯。原來行者只討了個長的方法，不曾討他個小的口訣，左右只是那等長短。沒奈何，只得搴在肩上，找舊路而回，不題。"
+    },
+    {
+      "line": 164,
+      "text": "卻說那牛魔王在碧波潭底與眾精散了筵席，出得門來，不見了辟水金睛獸。老龍王聚眾精問道：「是誰偷放牛爺的金睛獸也？」眾精跪下道：「沒人敢偷。我等俱在筵前供酒捧盤，供唱奏樂，更無一人在前。」老龍道：「家樂兒斷乎不敢，可曾有甚生人進來？」龍子、龍孫道：「適才安座之時，有個蟹精到此，那個便是生人。」牛王聞說，頓然省悟道：「不消講了。早間賢友著人邀我時，有個孫悟空保唐僧取經，路遇火焰山難過，曾問我求借芭蕉扇。我不曾與他，他和我賭鬥一場，未分勝負。我卻丟了他，徑赴盛會。那猴子千般伶俐，萬樣機關，斷乎是那廝變作蟹精，來此打探消息，偷了我獸，去山妻處騙了那一把芭蕉扇兒也。」眾精見說，一個個膽戰心驚，問道：「可是那大鬧天宮的孫悟空麼？」牛王道：「正是。列公若在西天路上，有不是處，切要躲避他些兒。」老龍道：「似這般說，大王的駿騎卻如之何？」牛王笑道：「不妨，不妨。列公各散，等我趕他去來。」"
+    },
+    {
+      "line": 165,
+      "text": "遂而分開水路，跳出潭底，駕黃雲，徑至翠雲山芭蕉洞。只聽得羅剎女跌腳搥胸，大呼小叫。推開門，又見辟水金睛獸拴在下邊。牛王高叫：「夫人，孫悟空那廂去了？」眾女童看見牛魔，一齊跪下道：「爺爺來了？」羅剎女扯住牛王，磕頭撞腦，口裡罵道：「潑老天殺的！怎樣這般不謹慎，著那猢猻偷了金睛獸，變作你的模樣，到此騙我？」牛王切齒道：「猢猻那廂去了？」羅剎搥著胸膛罵道：「那潑猴賺了我的寶貝，現出原身走了。氣殺我也！」牛王道：「夫人保重，勿得心焦。等我趕上猢猻，奪了寶貝，剝了他皮，剉碎他骨，擺出他的心肝，與你出氣。」叫：「拿兵器來。」女童道：「爺爺的兵器不在這裡。」牛王道：「拿你奶奶的兵器來罷。」侍婢將兩把青鋒寶劍捧出。牛王脫了那赴宴的鴉青絨襖，束一束貼身的小衣，雙手綽劍，走出芭蕉洞，徑奔火焰山上趕來。正是那："
+    },
+    {
+      "line": 166,
+      "text": ""
+    },
+    {
+      "line": 167,
+      "text": "    忘恩漢騙了痴心婦，烈性魔來近木叉人。"
+    },
+    {
+      "line": 168,
+      "text": ""
+    },
+    {
+      "line": 169,
+      "text": "畢竟不知此去吉凶如何，且聽下回分解。"
+    },
+    {
+      "line": 170,
+      "text": ""
+    },
+    {
+      "line": 171,
+      "text": "【42†Image】"
+    },
+    {
+      "line": 172,
+      "text": ""
+    },
+    {
+      "line": 173,
+      "text": "取自「【29†https://zh.wikisource.org/w/index.php?title=西遊記/第060回&oldid=1500612】」"
+    },
+    {
+      "line": 174,
+      "text": ""
+    },
+    {
+      "line": 175,
+      "text": "【43†分類】："
+    },
+    {
+      "line": 176,
+      "text": ""
+    },
+    {
+      "line": 177,
+      "text": "  * 【44†吳承恩】"
+    },
+    {
+      "line": 178,
+      "text": "  * 此頁面最後編輯於2018年9月12日 (星期三) 14:43。"
+    },
+    {
+      "line": 179,
+      "text": "  * 本站的全部文字在【45†創作共用 姓名標示-相同方式分享協議†zh.wikipedia.org】之條款下提供，附加條款亦可能應用。（請參閱【46†使用條款†foundation.wikimedia.org】）"
+    },
+    {
+      "line": 180,
+      "text": "在部份國家和地區，包括中國大陸、澳門和臺灣，作者精神權（含署名權）永久有效（【47†詳情】）。"
+    },
+    {
+      "line": 181,
+      "text": "Wikisource®和維基文庫標誌是【48†維基媒體基金會†wikimediafoundation.org】的註冊商標；維基™是維基媒體基金會的商標。"
+    },
+    {
+      "line": 182,
+      "text": "維基媒體基金會是在美國佛羅里達州登記的501(c)(3)【49†免稅†donate.wikimedia.org】、非營利、慈善機構。"
+    },
+    {
+      "line": 183,
+      "text": "  * 【50†隱私權政策†foundation.wikimedia.org】"
+    },
+    {
+      "line": 184,
+      "text": "  * 【11†關於維基文庫】"
+    },
+    {
+      "line": 185,
+      "text": "  * 【51†免責聲明】"
+    },
+    {
+      "line": 186,
+      "text": "  * 【52†法律與安全事項聯絡方式†foundation.wikimedia.org】"
+    },
+    {
+      "line": 187,
+      "text": "  * 【53†行為準則†foundation.wikimedia.org】"
+    },
+    {
+      "line": 188,
+      "text": "  * 【54†開發人員†developer.wikimedia.org】"
+    },
+    {
+      "line": 189,
+      "text": "  * 【55†統計†stats.wikimedia.org】"
+    },
+    {
+      "line": 190,
+      "text": "  * 【56†Cookie聲明†foundation.wikimedia.org】"
+    },
+    {
+      "line": 191,
+      "text": "  * 搜尋"
+    },
+    {
+      "line": 192,
+      "text": ""
+    },
+    {
+      "line": 193,
+      "text": "[Input: 在Wikisource搜尋]"
+    },
+    {
+      "line": 194,
+      "text": ""
+    },
+    {
+      "line": 195,
+      "text": "[Input]"
+    },
+    {
+      "line": 196,
+      "text": ""
+    },
+    {
+      "line": 197,
+      "text": "[Button: 搜尋]"
+    },
+    {
+      "line": 198,
+      "text": ""
+    },
+    {
+      "line": 199,
+      "text": "西遊記/第060回"
+    },
+    {
+      "line": 200,
+      "text": ""
+    },
+    {
+      "line": 201,
+      "text": "新增語言 【57†新增話題】"
+    }
+  ],
+  "source_lines": [
+    {
+      "display_line": 0,
+      "physical_line": 1,
+      "text": "【0†跳至內容】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 1,
+      "physical_line": 2,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 2,
+      "physical_line": 3,
+      "text": "[Input] 主選單",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 3,
+      "physical_line": 4,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 4,
+      "physical_line": 5,
+      "text": "主選單",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 5,
+      "physical_line": 6,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 6,
+      "physical_line": 7,
+      "text": "[Button: 移至側邊欄] [Button: 隱藏]",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 7,
+      "physical_line": 8,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 8,
+      "physical_line": 9,
+      "text": "導覽",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 9,
+      "physical_line": 10,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 10,
+      "physical_line": 11,
+      "text": "  * 【1†首頁】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 11,
+      "physical_line": 12,
+      "text": "  * 【2†隨機作品】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 12,
+      "physical_line": 13,
+      "text": "  * 【3†隨機作者】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 13,
+      "physical_line": 14,
+      "text": "  * 【4†隨機原本】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 14,
+      "physical_line": 15,
+      "text": "  * 【5†所有頁面】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 15,
+      "physical_line": 16,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 16,
+      "physical_line": 17,
+      "text": "編輯者",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 17,
+      "physical_line": 18,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 18,
+      "physical_line": 19,
+      "text": "  * 【6†社群入口】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 19,
+      "physical_line": 20,
+      "text": "  * 【7†寫字間】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 20,
+      "physical_line": 21,
+      "text": "  * 【8†近期變更】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 21,
+      "physical_line": 22,
+      "text": "  * 【9†特殊頁面】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 22,
+      "physical_line": 23,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 23,
+      "physical_line": 24,
+      "text": "說明",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 24,
+      "physical_line": 25,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 25,
+      "physical_line": 26,
+      "text": "  * 【10†說明】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 26,
+      "physical_line": 27,
+      "text": "  * 【11†關於維基文庫】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 27,
+      "physical_line": 28,
+      "text": "  * 【12†聯絡我們】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 28,
+      "physical_line": 29,
+      "text": "  * 【13†方針與指引】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 29,
+      "physical_line": 30,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 30,
+      "physical_line": 31,
+      "text": "显示选项",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 31,
+      "physical_line": 32,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 32,
+      "physical_line": 33,
+      "text": "【14†搜尋】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 33,
+      "physical_line": 34,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 34,
+      "physical_line": 35,
+      "text": "[Input: 在Wikisource搜尋]",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 35,
+      "physical_line": 36,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 36,
+      "physical_line": 37,
+      "text": "[Input]",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 37,
+      "physical_line": 38,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 38,
+      "physical_line": 39,
+      "text": "[Button: 搜尋]",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 39,
+      "physical_line": 40,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 40,
+      "physical_line": 41,
+      "text": "[Input] 外觀",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 41,
+      "physical_line": 42,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 42,
+      "physical_line": 43,
+      "text": "  * 【15†贊助†donate.wikimedia.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 43,
+      "physical_line": 44,
+      "text": "  * 【16†建立帳號】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 44,
+      "physical_line": 45,
+      "text": "  * 【17†登入】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 45,
+      "physical_line": 46,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 46,
+      "physical_line": 47,
+      "text": "[Input] 個人工具",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 47,
+      "physical_line": 48,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 48,
+      "physical_line": 49,
+      "text": "  * 【15†贊助†donate.wikimedia.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 49,
+      "physical_line": 50,
+      "text": "  * 【16†建立帳號】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 50,
+      "physical_line": 51,
+      "text": "  * 【17†登入】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 51,
+      "physical_line": 52,
+      "text": "# 西遊記/第060回",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 52,
+      "physical_line": 53,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 53,
+      "physical_line": 54,
+      "text": "[Input] 新增語言",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 54,
+      "physical_line": 55,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 55,
+      "physical_line": 56,
+      "text": "【18†新增連結†www.wikidata.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 56,
+      "physical_line": 57,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 57,
+      "physical_line": 58,
+      "text": "  * 【19†作品】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 58,
+      "physical_line": 59,
+      "text": "  * 【20†討論】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 59,
+      "physical_line": 60,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 60,
+      "physical_line": 61,
+      "text": "[Input] 繁體",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 61,
+      "physical_line": 62,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 62,
+      "physical_line": 63,
+      "text": "  * 【21†不转换】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 63,
+      "physical_line": 64,
+      "text": "  * 【22†简体】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 64,
+      "physical_line": 65,
+      "text": "  * 【23†繁體】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 65,
+      "physical_line": 66,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 66,
+      "physical_line": 67,
+      "text": "  * 【19†閱讀】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 67,
+      "physical_line": 68,
+      "text": "  * 【24†編輯】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 68,
+      "physical_line": 69,
+      "text": "  * 【25†檢視歷史】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 69,
+      "physical_line": 70,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 70,
+      "physical_line": 71,
+      "text": "[Input] 工具",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 71,
+      "physical_line": 72,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 72,
+      "physical_line": 73,
+      "text": "工具",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 73,
+      "physical_line": 74,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 74,
+      "physical_line": 75,
+      "text": "[Button: 移至側邊欄] [Button: 隱藏]",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 75,
+      "physical_line": 76,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 76,
+      "physical_line": 77,
+      "text": "操作",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 77,
+      "physical_line": 78,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 78,
+      "physical_line": 79,
+      "text": "  * 【19†閱讀】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 79,
+      "physical_line": 80,
+      "text": "  * 【24†編輯】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 80,
+      "physical_line": 81,
+      "text": "  * 【25†檢視歷史】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 81,
+      "physical_line": 82,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 82,
+      "physical_line": 83,
+      "text": "一般",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 83,
+      "physical_line": 84,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 84,
+      "physical_line": 85,
+      "text": "  * 【26†連結至此的頁面】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 85,
+      "physical_line": 86,
+      "text": "  * 【27†相關變更】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 86,
+      "physical_line": 87,
+      "text": "  * 【28†上傳檔案†commons.wikimedia.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 87,
+      "physical_line": 88,
+      "text": "  * 【29†固定連結】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 88,
+      "physical_line": 89,
+      "text": "  * 【30†頁面資訊】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 89,
+      "physical_line": 90,
+      "text": "  * 【31†引用此頁面】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 90,
+      "physical_line": 91,
+      "text": "  * 【32†取得短連結】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 91,
+      "physical_line": 92,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 92,
+      "physical_line": 93,
+      "text": "列印/匯出",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 93,
+      "physical_line": 94,
+      "text": "  * 可列印版",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 94,
+      "physical_line": 95,
+      "text": "  * 【33†下載 EPUB†ws-export.wmcloud.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 95,
+      "physical_line": 96,
+      "text": "  * 【34†下載為 MOBI†ws-export.wmcloud.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 96,
+      "physical_line": 97,
+      "text": "  * 【35†下載為PDF†ws-export.wmcloud.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 97,
+      "physical_line": 98,
+      "text": "  * 【36†其它格式†ws-export.wmcloud.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 98,
+      "physical_line": 99,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 99,
+      "physical_line": 100,
+      "text": "在其他專案中",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 100,
+      "physical_line": 101,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 101,
+      "physical_line": 102,
+      "text": "  * 【37†維基數據項目†www.wikidata.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 102,
+      "physical_line": 103,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 103,
+      "physical_line": 104,
+      "text": "外觀",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 104,
+      "physical_line": 105,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 105,
+      "physical_line": 106,
+      "text": "[Button: 移至側邊欄] [Button: 隱藏]",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 106,
+      "physical_line": 107,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 107,
+      "physical_line": 108,
+      "text": "【33†下載†ws-export.wmcloud.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 108,
+      "physical_line": 109,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 109,
+      "physical_line": 110,
+      "text": "< 【38†西遊記】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 110,
+      "physical_line": 111,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 111,
+      "physical_line": 112,
+      "text": "←  |",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 112,
+      "physical_line": 113,
+      "text": "【39†第五十九回唐三藏路阻火焰山孫行者一調芭蕉扇】  | 西遊記",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 113,
+      "physical_line": 114,
+      "text": "第六十回",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-001",
+      "reason": null
+    },
+    {
+      "display_line": 114,
+      "physical_line": 115,
+      "text": "牛魔王罷戰赴華筵　孫行者二調芭蕉扇",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-001",
+      "reason": null
+    },
+    {
+      "display_line": 115,
+      "physical_line": 116,
+      "text": "作者：【40†吳承恩】  |",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 116,
+      "physical_line": 117,
+      "text": "【41†第六十一回豬八戒助力破一作「敗」魔王孫行者三調芭蕉扇】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 117,
+      "physical_line": 118,
+      "text": "土地說：「大力王即牛魔王也。」行者道：「這山本是牛魔王放的火，假名火焰山？」土地道：「不是，不是。大聖若肯赦小神之罪，方敢直言。」行者道：「你有何罪？直說無妨。」土地道：「這火原是大聖放的。」行者怒道：「我在那裡？你這等亂談。我可是放火之輩？」土地道：「是你也認不得我了。此間原無這座山。因大聖五百年前大鬧天宮時，被顯聖擒了，壓赴老君，將大聖安於八卦爐內。煅煉之後開鼎，被你蹬倒丹爐，落了幾個磚來，內有餘火，到此處化為火焰山。我本是兜率宮守爐的道人，當被老君怪我失守，降下此間，就做了火焰山土地也。」豬八戒聞言，恨道：「怪道你這等打扮，原來是道士變的土地。」",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-002",
+      "reason": null
+    },
+    {
+      "display_line": 118,
+      "physical_line": 119,
+      "text": "行者半信不信道：「你且說，早尋大力王何故？』土地道：「大力王乃羅剎女丈夫。他這向撇了羅剎，現在積雷山摩雲洞。有個萬年狐王，那狐王死了，遺下一個女兒，叫做玉面公主。那公主有百萬家私，無人掌管。二年前，訪著牛魔王神通廣大，情願倒陪家私，招贅為夫。那牛王棄了羅剎，久不回顧。若大聖尋著牛王，拜求來此，方借得真扇：一則搧息火焰，可保師父前進；二來永除火患，可保此地生靈；三者赦我歸天，回繳老君法旨。」行者道：「積雷山坐落何處？到彼有多少程途？」土地道：「在正南方。此間到彼，有三千餘里。」",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-003",
+      "reason": null
+    },
+    {
+      "display_line": 119,
+      "physical_line": 120,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 120,
+      "physical_line": 121,
+      "text": "行者聞言，即吩咐沙僧、八戒保護師父，又教土地陪伴勿回。隨即忽的一聲，渺然不見。那裡消半個時辰，早見一座高山凌漢。按落雲頭，停立巔峰之上觀看，真是好山：",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-004",
+      "reason": null
+    },
+    {
+      "display_line": 121,
+      "physical_line": 122,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 122,
+      "physical_line": 123,
+      "text": "    高不高，頂摩碧漢；大不大，根扎黃泉。山前日暖，嶺後風寒。山前日暖，有三冬草木無知；嶺後風寒，見九夏冰霜不化。龍潭接澗水長流，虎穴依崖花放早。水流千派似飛瓊，花放一心如布錦。灣環嶺上灣環樹，扢扠石外扢扠松。真個是：高的山，峻的嶺；陡的崖，深的澗；香的花，美的果；紅的藤，紫的竹；青的松，翠的柳。八節四時顏不改，千年萬古色如龍。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-005",
+      "reason": null
+    },
+    {
+      "display_line": 123,
+      "physical_line": 124,
+      "text": "大聖看夠多時，步下尖峰，入深山，找尋路徑。正自沒個消息，忽見松陰下有一女子，手摺了一枝香蘭，嬝嬝娜娜而來。大聖閃在怪石之傍，定睛觀看，那女子怎生模樣：",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-006",
+      "reason": null
+    },
+    {
+      "display_line": 124,
+      "physical_line": 125,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 125,
+      "physical_line": 126,
+      "text": "    嬌嬌傾國色，緩緩步移蓮。貌若王嬙，顏如楚女。如花解語，似玉生香。高髻堆青𢷑碧鴉，雙睛蘸綠橫秋水。湘裙半露弓鞋小，翠袖微舒粉腕長。說甚麼暮雨朝雲，真個是朱唇皓齒。錦江滑膩蛾眉秀，賽過文君與薛濤。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-007",
+      "reason": null
+    },
+    {
+      "display_line": 126,
+      "physical_line": 127,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 127,
+      "physical_line": 128,
+      "text": "那女子漸漸走近石邊，大聖躬身施禮，緩緩而言曰：「女菩薩何往？」那女子未曾觀看，聽得叫問，卻自擡頭。忽見大聖的相貌醜陋，老大心驚，欲退難退，欲行難行，只得戰兢兢，勉強答道：「你是何方來者？敢在此間問誰？」大聖沉思道：「我若說出取經求扇之事，恐這廝與牛王有親。且只以假親托意，來請魔王之言而答方可。」那女子見他不語，變了顏色，怒聲喝道：「你是何人，敢來問我？」大聖躬身陪笑道：「我是翠雲山來的，初到貴處，不知路徑。敢問菩薩，此間可是積雷山？」那女子道：「正是。」大聖道：「有個摩雲洞，坐落何處？」那女子道：「你尋那洞做甚？」大聖道：「我是翠雲山芭蕉洞鐵扇公主央來請牛魔王的。」",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-008",
+      "reason": null
+    },
+    {
+      "display_line": 128,
+      "physical_line": 129,
+      "text": "那女子一聽鐵扇公主請牛魔王之言，心中大怒，徹耳根子通紅，潑口罵道：「這賤婢，著實無知。牛王自到我家，未及二載，也不知送了他多少珠翠金銀、綾羅緞疋，年供柴，月供米，自自在在受用，還不識羞，又來請他怎的？」大聖聞言，情知是玉面公主，故意掣出金箍棒，大喝一聲道：「你這潑賤，將家私買住牛王，誠然是陪錢嫁漢，你倒不羞，卻敢罵誰？」那女子見了，諕得魄散魂飛，沒好步，亂𤜱金蓮，戰兢兢回頭便走。這大聖吆吆喝喝，隨後相跟。原來穿過松陰，就是摩雲洞口。女子跑進去，撲的把門關了。大聖卻收了金箍棒，停步看時，好所在：",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-009",
+      "reason": null
+    },
+    {
+      "display_line": 129,
+      "physical_line": 130,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 130,
+      "physical_line": 131,
+      "text": "    樹林森密，崖削崚嶒。薜蘿陰冉冉，蘭蕙味馨馨。流泉漱玉穿修竹，巧石知機帶落英。煙霞籠遠岫，日月照雲屏。龍吟虎嘯，鶴唳鶯鳴。一片清幽真可愛，琪花瑤草景常明。不亞天臺仙洞，勝如海上蓬瀛。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-010",
+      "reason": null
+    },
+    {
+      "display_line": 131,
+      "physical_line": 132,
+      "text": "且不言行者這裡觀看景致。卻說那女子跑得粉汗淋淋，諕得蘭心吸吸，徑入書房裡面。原來牛魔王正在那裡靜玩丹書。這女子沒好氣倒在懷裡，抓耳撓腮，放聲大哭。牛王滿面陪笑道：「美人，休得煩惱。有甚話說？」那女子跳天索地，口中罵道：「潑魔害殺我也！」牛王笑道：「你為甚事罵我？」女子道：「我因父母無依，招你護身養命。江湖中說你是條好漢，你原來是個懼內的庸夫。」牛王聞說，將女子抱住道：「美人，我有那些不是處？你且慢慢說來，我與你陪禮。」女子道：「適才我在洞外閑步花陰，折蘭採蕙，忽有一個毛臉雷公嘴的和尚，猛地前來施禮，把我嚇了個呆掙。及定性問是何人，他說是鐵扇公主央他來請牛魔王的。被我說了兩句，他倒罵了我一場，將一根棍子趕著我打。若不是走得快些，幾乎被他打死。這不是招你為禍？害殺我也。」牛王聞言，卻與他整容陪禮，溫存良久，女子方才息氣。魔王卻發狠道：「美人在上，不敢相瞞。那芭蕉洞雖是僻靜，卻清幽自在。我山妻自幼修持，也是個得道的女仙，卻是家門嚴謹，內無一尺之童，焉得有雷公嘴的男子央來？這想是那裡來的妖怪，或者假綽名聲，至此訪我。等我出去看看。」",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-011",
+      "reason": null
+    },
+    {
+      "display_line": 132,
+      "physical_line": 133,
+      "text": "好魔王，拽開步，出了書房，上大廳取了披掛，結束了。拿了一條混鐵棍，出門高叫道：「是誰人在我這裡無狀？」行者在傍，見他那模樣，與五百年前又大不同。只見：",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-012",
+      "reason": null
+    },
+    {
+      "display_line": 133,
+      "physical_line": 134,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 134,
+      "physical_line": 135,
+      "text": "    頭上戴一頂水磨銀亮熟鐵盔，身上貫一副絨穿錦繡黃金甲，足下踏一雙捲尖粉底麂皮靴；腰間束一條攢絲三股獅蠻帶。一雙眼光如明鏡，兩道眉艷似紅霓。口若血盆，齒排銅板。吼聲響震山神怕，行動威風惡鬼慌。四海有名稱混世，西方大力號魔王。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-013",
+      "reason": null
+    },
+    {
+      "display_line": 135,
+      "physical_line": 136,
+      "text": "這大聖整衣上前，深深的唱個大喏道：「長兄，還認得小弟麼？」牛王答禮道：「你是齊天大聖孫悟空麼？」大聖道：「正是，正是。一向久別未拜。適才到此問一女子，方得見兄。丰采果勝常，可賀也。」牛王喝道：「且休巧舌。我聞你鬧了天宮，被佛祖降壓在五行山下，近解脫天災，保護唐僧西天見佛求經，怎麼在號山枯松澗火雲洞把我小兒牛聖嬰害了？正在這裡惱你，你卻怎麼又來尋我？」大聖作禮道：「長兄勿得誤怪小弟。當時令郎捉住吾師，要食其肉，小弟近他不得，幸觀音菩薩欲救我師，勸他歸正。現今做了善財童子，比兄長還高，享極樂之門堂，受逍遙之永壽，有何不可，返怪我耶？」牛王罵道：「這個乖嘴的猢猻！害子之情，被你說過；你才欺我愛妾，打上我門何也？」大聖笑道：「我因拜謁長兄不見，向那女子拜問，不知就是二嫂嫂。因他罵了我幾句，是小弟一時粗鹵，驚了嫂嫂。望長兄寬恕寬恕。」牛王道：「既如此說，我看故舊之情，饒你去罷。」",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-014",
+      "reason": null
+    },
+    {
+      "display_line": 136,
+      "physical_line": 137,
+      "text": "大聖道：「既蒙寬恩，感謝不盡。但尚有一事奉瀆，萬望周濟周濟。」牛王罵道：「這猢猻不識起倒，饒了你，倒還不走，反來纏我。甚麼周濟周濟？」大聖道：「實不瞞長兄，小弟因保唐僧西進，路阻火焰山，不能前進。詢問土人，知尊嫂羅剎女有一柄芭蕉扇，欲求一用。昨到舊府奉拜嫂嫂，嫂嫂堅執不借。是以特求長兄，望兄長開天地之心，同小弟到大嫂處一行，千萬借扇搧滅火焰，保得唐僧過山，即時完璧。」牛王聞言，心如火發，咬響鋼牙罵道：「你說你不無禮，你原來是借扇之故。一定先欺我山妻，山妻想是不肯，故來尋我，且又趕我愛妾。常言道：『朋友妻，不可欺；朋友妾，不可滅。』你既欺我妻又滅我妾，多大無禮？上來吃我一棍。」大聖道：「哥要說打，弟也不懼。但求寶貝，是我真心，萬乞借我使使。」牛王道：「你若三合敵得我，我著山妻借你；如敵不過，打死你，與我雪恨。」大聖道：「哥說得是。小弟這一向疏懶，不曾與兄相會，不知這幾年武藝比昔日如何，我兄弟們請演演棍看。」這牛王那容分說，掣混鐵棍，劈頭就打；這大聖持金箍棒，隨手相迎。兩個這場好鬥：",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-015",
+      "reason": null
+    },
+    {
+      "display_line": 137,
+      "physical_line": 138,
+      "text": "    金箍棒，混鐵棍，變臉不以朋友論。那個說：「正怪你這猢猻害子情。」這個說：「你令郎已得道休嗔恨。」那個說：「你無知怎敢上我門？」這個說：「我有因特地來相問。」一個要求扇子保唐僧，一個不借芭蕉忒鄙吝。語去言來失舊情，舉家無義皆生忿。牛王棍起賽蛟龍，大聖棒迎神鬼遁。初時爭鬥在山前，後來齊駕祥雲進。半空之內顯神通，五彩光中施妙運。兩條棍響振天關，不見輸贏皆傍寸。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-016",
+      "reason": null
+    },
+    {
+      "display_line": 138,
+      "physical_line": 139,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 139,
+      "physical_line": 140,
+      "text": "這大聖與那牛王鬥經百十回合，不分勝負。正在難解難分之際，只聽得山峰上有人叫道：「牛爺爺，我大王多多拜上，幸賜早臨，好安座也。」牛王聞說，使混鐵棍支住金箍棒，叫道：「猢猻，你且住了，等我去一個朋友家赴會來者。」言畢，按下雲頭，徑至洞裡，對玉面公主道：「美人，才那雷公嘴的男子乃孫悟空猢猻，被我一頓棍打走了，再不敢來。你放心耍子。我到一個朋友處吃酒去也。」他才卸了盔甲，穿一領鴉青剪絨襖子，走出門，跨上辟水金睛獸，著小的們看守門庭，半雲半霧，一直向西北方而去。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-017",
+      "reason": null
+    },
+    {
+      "display_line": 140,
+      "physical_line": 141,
+      "text": "大聖在高峰上看著，心中暗想道：「這老牛不知又結識了甚麼朋友，往那裡去赴會。等老孫跟他走走。」好行者，將身幌一幌，變作一陣清風趕上，隨著同走。不多時，到了一座山中，那牛王寂然不見。大聖聚了原身，入山尋看。那山中有一面清水深潭，潭邊有一座石碣，碣上有六個大字，乃「亂石山碧波潭」。大聖暗想道：「老牛斷然下水去了。水底之精，若不是蛟精，必是龍精、魚精，或是龜鱉黿鼉之精。等老孫也下去水看看。」",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-018",
+      "reason": null
+    },
+    {
+      "display_line": 141,
+      "physical_line": 142,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 142,
+      "physical_line": 143,
+      "text": "好大聖，捻著訣，念個咒語，搖身一變，變作一個螃蟹，不大不小的有三十六斤重。撲的跳在水中，徑沉潭底。忽見一座玲瓏剔透的牌樓，樓下拴著那個辟水金睛獸。進牌樓裡面，卻就沒水。大聖爬進去，仔細看時，只見那壁廂一派音樂之聲。但見：",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-019",
+      "reason": null
+    },
+    {
+      "display_line": 143,
+      "physical_line": 144,
+      "text": "    朱宮貝闕，與世不殊。黃金為屋瓦，白玉作門樞。屏開玳瑁甲，檻砌珊瑚珠。祥雲瑞藹輝蓮座，上接三光下入衢。非是天宮並海藏，果然此處賽蓬壺。高堂設宴羅賓主，大小官員冠冕珠。忙呼玉女捧牙槃，催喚仙娥調律呂。長鯨鳴，巨蟹舞，鱉吹笙，鼉擊鼓，驪頷之珠照樽俎。鳥篆之文列翠屏，蝦鬚之簾掛廊廡。八音迭奏雜仙韶，宮商響徹遏雲霄。青頭鱸妓撫瑤瑟，紅眼馬郎品玉簫。鱖婆頂獻香獐脯，龍女頭簪金鳳翹。吃的是，天廚八寶珍饈味；飲的是，紫府瓊漿熟醞醪。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-020",
+      "reason": null
+    },
+    {
+      "display_line": 144,
+      "physical_line": 145,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 145,
+      "physical_line": 146,
+      "text": "那上面坐的是牛魔王，左右有三四個蛟精，前面坐著一個老龍精，兩邊乃龍子、龍孫、龍婆、龍女。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-021",
+      "reason": null
+    },
+    {
+      "display_line": 146,
+      "physical_line": 147,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 147,
+      "physical_line": 148,
+      "text": "正在那裡觥籌交錯之際，孫大聖一直走將上去，被老龍看見，即命：「拿下那個野蟹來。」龍子、龍孫一擁上前，把大聖拿住。大聖忽作人言，叫：「饒命，饒命。」老龍道：「你是那裡來的野蟹？怎麼敢上廳堂，在尊客之前，橫行亂走？快早供來，免汝死罪。」好大聖，假捏虛言，對眾供道：",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-022",
+      "reason": null
+    },
+    {
+      "display_line": 148,
+      "physical_line": 149,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 149,
+      "physical_line": 150,
+      "text": "    「生自湖中為活，傍崖作窟權居。蓋因日久得身舒，官受橫行介士。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-023",
+      "reason": null
+    },
+    {
+      "display_line": 150,
+      "physical_line": 151,
+      "text": "    踏草拖泥落索，從來未習行儀。不知法度冒王威，伏望尊慈恕罪！」",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-023",
+      "reason": null
+    },
+    {
+      "display_line": 151,
+      "physical_line": 152,
+      "text": "座上眾精聞言，都拱身對老龍作禮道：「蟹介士初入瑤宮，不知王禮，望尊公饒他去罷。」老龍稱謝了。眾精即教：「放了那廝，且記打，外面伺候。」大聖應了一聲，往外逃命，徑至牌樓之下。心中暗想道：「這牛王在此貪杯，那裡等得他散？就是散了，也不肯借扇與我。不如偷了他的金睛獸，變做牛魔王，去哄那羅剎女，騙他扇子，送我師父過山為妙。」",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-024",
+      "reason": null
+    },
+    {
+      "display_line": 152,
+      "physical_line": 153,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 153,
+      "physical_line": 154,
+      "text": "好大聖，即現本像，將金睛獸解了韁繩，撲一把，跨上雕鞍，徑直騎出水底。到於潭外，將身變作牛王模樣。打著獸，縱著雲，不多時，已至翠雲山芭蕉洞口。叫聲：「開門。」那洞門裡有兩個女童，聞得聲音開了門，看見是牛魔王嘴臉，即入報：「奶奶，爺爺來家了。」那羅剎聽言，忙整雲鬟，急移蓮步，出門迎接。這大聖下雕鞍，牽進金睛獸；弄大膽，誆騙女佳人。羅剎女肉眼，認他不出，即攜手而入，著丫鬟設座看茶。一家子見是主公，無不敬謹。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-025",
+      "reason": null
+    },
+    {
+      "display_line": 154,
+      "physical_line": 155,
+      "text": "須臾間敘及寒溫，「牛王」道：「夫人久闊。」羅剎道：「大王萬福。」又云：「大王寵幸新婚，拋撇奴家，今日是那陣風兒吹你來的？』大聖笑道：「非敢拋撇，只因玉面公主招後，家事繁冗，朋友多顧，是以稽留在外，卻也又治得一個家當了。」又道：「近聞悟空那廝保唐僧，將近火焰山界，恐他來問你借扇子。我恨那廝害子之仇未報，但來時，可差人報我，等我拿他，分屍萬段，以雪我夫妻之恨。」羅剎聞言，滴淚告道：「大王，常言說：『男兒無婦財無主，女子無夫身無主。』我的性命，險些兒被這猢猻害了。」大聖聽得，故意發怒，罵道：「那潑猴幾時過去了？」羅剎道：「還未去。昨日到我這裡借扇子，我因他害孩兒之故，披掛了，掄寶劍出門，就砍那猢猻。他忍著疼，叫我做嫂嫂，說大王曾與他結義。」大聖道：「是五百年前曾拜為七弟兄。」羅剎道：「被我罵也不敢回言，砍也不敢動手。後被我一扇子搧去。不知在那裡尋得個定風法兒，今早又在門外叫喚。是我又使扇搧，莫想得動。急掄劍砍時，他就不讓我了。我怕他棒重，就走入洞裡，緊關上門。不知他又從何處，鑽在我肚腹之內，險被他害了性命。是我叫他幾聲叔叔，將扇與他去也。」",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-026",
+      "reason": null
+    },
+    {
+      "display_line": 155,
+      "physical_line": 156,
+      "text": "大聖又假意搥胸道：「可惜，可惜。夫人錯了，怎麼就把這寶貝與那猢猻？惱殺我也。」羅剎笑道：「大王息怒。與他的是假扇，但哄他去了。」大聖問：「真扇在於何處？」羅剎道：「放心，放心，我收著哩。」叫丫鬟整酒接風賀喜。遂擎杯奉上道：「大王，燕爾新婚，千萬莫忘結髮，且吃一杯鄉中之水。」大聖不敢不接，只得笑吟吟，舉觴在手道：「夫人先飲。我因圖治外產，久別夫人，早晚蒙護守家門，權為酬謝。」羅剎復接杯斟起，遞與大王道：「自古道：『妻者，齊也。』夫乃養身之父，謝甚麼？」他兩人謙謙講講，方才坐下巡酒。大聖不敢破葷，只吃幾個果子，與他言言語語。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-027",
+      "reason": null
+    },
+    {
+      "display_line": 156,
+      "physical_line": 157,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 157,
+      "physical_line": 158,
+      "text": "酒至數巡，羅剎覺有半酣，色情微動，就和孫大聖挨挨擦擦，搭搭拈拈：攜著手，俏語溫存；並著肩，低聲俯就。將一杯酒，你喝一口，我喝一口，卻又哺果。大聖假意虛情，相陪相笑，沒奈何，也與他相倚相偎。果然是：",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-028",
+      "reason": null
+    },
+    {
+      "display_line": 158,
+      "physical_line": 159,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 159,
+      "physical_line": 160,
+      "text": "    釣詩鉤，掃愁帚，破除萬事無過酒。男兒立節放襟懷，女子忘情開笑口。面赤似夭桃，身搖如嫩柳。絮絮叨叨話語多，捻捻掐掐風情有。時見掠雲鬟，又見掄尖手。幾番常把腳兒蹺，數次每將衣袖抖。粉項自然低，蠻腰漸覺扭。合歡言語不曾丟，酥胸半露鬆金鈕。醉來真個玉山頹，餳眼摩娑幾弄醜。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-029",
+      "reason": null
+    },
+    {
+      "display_line": 160,
+      "physical_line": 161,
+      "text": "大聖見他這等酣然，暗自留心，挑鬥道：「夫人，真扇子你收在那裡？早晚仔細，但恐孫行者變化多端，卻又來騙去。」羅剎笑嘻嘻的，口中吐出，只有一個杏葉兒大小，遞與大聖道：「這個不是寶貝？」大聖接在手中，卻又不信，暗想著：「這些些兒，怎生搧得火滅？怕又是假的。」羅剎見他看著寶貝沉思，忍不住上前，將粉面搵在行者臉上，叫道：「親親，你收了寶貝吃酒罷，只管出神想甚麼哩？」大聖就趁腳兒蹺，問他一句道：「這般小小之物，如何搧得八百里火焰？」羅剎酒陶真性，無忌憚，就說出方法道：「大王，與你別了二載，你想是晝夜貪歡，被那玉面公主弄傷了神思，怎麼自家的寶貝事情，也都忘了？只將左手大指頭捻著那柄兒上第七縷紅絲，念一聲『𠲛噓啊吸嘻吹呼』，即長一丈二尺長短。這寶貝變化無窮！那怕他八萬里火焰，可一扇而消也。」",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-030",
+      "reason": null
+    },
+    {
+      "display_line": 161,
+      "physical_line": 162,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 162,
+      "physical_line": 163,
+      "text": "大聖聞言，切切記在心上。卻把扇兒也噙在口裡，把臉抹一抹，現了本像。厲聲高叫道：「羅剎女，你看看我可是你親老公？就把我纏了這許多醜勾當，不羞，不羞。」那女子一見是孫行者，慌得推倒桌席，跌落塵埃，羞愧無比，只叫：「氣殺我也！氣殺我也！」",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-031",
+      "reason": null
+    },
+    {
+      "display_line": 163,
+      "physical_line": 164,
+      "text": "這大聖不管他死活，捽脫手，拽大步，徑出了芭蕉洞。正是：無心貪美色，得意笑顏回。將身一縱，踏祥雲，跳上高山，將扇子吐出來，演演方法。將左手大指頭捻著那柄上第七縷紅絲，念了一聲「𠲛噓啊吸嘻吹呼」，果然長了有一丈二尺長短。拿在手中，仔細看了又看，比前番假的果是不同。只見祥光晃晃，瑞氣紛紛，上有三十六縷紅絲，穿經度絡，表裡相聯。原來行者只討了個長的方法，不曾討他個小的口訣，左右只是那等長短。沒奈何，只得搴在肩上，找舊路而回，不題。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-032",
+      "reason": null
+    },
+    {
+      "display_line": 164,
+      "physical_line": 165,
+      "text": "卻說那牛魔王在碧波潭底與眾精散了筵席，出得門來，不見了辟水金睛獸。老龍王聚眾精問道：「是誰偷放牛爺的金睛獸也？」眾精跪下道：「沒人敢偷。我等俱在筵前供酒捧盤，供唱奏樂，更無一人在前。」老龍道：「家樂兒斷乎不敢，可曾有甚生人進來？」龍子、龍孫道：「適才安座之時，有個蟹精到此，那個便是生人。」牛王聞說，頓然省悟道：「不消講了。早間賢友著人邀我時，有個孫悟空保唐僧取經，路遇火焰山難過，曾問我求借芭蕉扇。我不曾與他，他和我賭鬥一場，未分勝負。我卻丟了他，徑赴盛會。那猴子千般伶俐，萬樣機關，斷乎是那廝變作蟹精，來此打探消息，偷了我獸，去山妻處騙了那一把芭蕉扇兒也。」眾精見說，一個個膽戰心驚，問道：「可是那大鬧天宮的孫悟空麼？」牛王道：「正是。列公若在西天路上，有不是處，切要躲避他些兒。」老龍道：「似這般說，大王的駿騎卻如之何？」牛王笑道：「不妨，不妨。列公各散，等我趕他去來。」",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-033",
+      "reason": null
+    },
+    {
+      "display_line": 165,
+      "physical_line": 166,
+      "text": "遂而分開水路，跳出潭底，駕黃雲，徑至翠雲山芭蕉洞。只聽得羅剎女跌腳搥胸，大呼小叫。推開門，又見辟水金睛獸拴在下邊。牛王高叫：「夫人，孫悟空那廂去了？」眾女童看見牛魔，一齊跪下道：「爺爺來了？」羅剎女扯住牛王，磕頭撞腦，口裡罵道：「潑老天殺的！怎樣這般不謹慎，著那猢猻偷了金睛獸，變作你的模樣，到此騙我？」牛王切齒道：「猢猻那廂去了？」羅剎搥著胸膛罵道：「那潑猴賺了我的寶貝，現出原身走了。氣殺我也！」牛王道：「夫人保重，勿得心焦。等我趕上猢猻，奪了寶貝，剝了他皮，剉碎他骨，擺出他的心肝，與你出氣。」叫：「拿兵器來。」女童道：「爺爺的兵器不在這裡。」牛王道：「拿你奶奶的兵器來罷。」侍婢將兩把青鋒寶劍捧出。牛王脫了那赴宴的鴉青絨襖，束一束貼身的小衣，雙手綽劍，走出芭蕉洞，徑奔火焰山上趕來。正是那：",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-034",
+      "reason": null
+    },
+    {
+      "display_line": 166,
+      "physical_line": 167,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 167,
+      "physical_line": 168,
+      "text": "    忘恩漢騙了痴心婦，烈性魔來近木叉人。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-035",
+      "reason": null
+    },
+    {
+      "display_line": 168,
+      "physical_line": 169,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 169,
+      "physical_line": 170,
+      "text": "畢竟不知此去吉凶如何，且聽下回分解。",
+      "disposition": "translated",
+      "segment_id": "xy-ch60-036",
+      "reason": null
+    },
+    {
+      "display_line": 170,
+      "physical_line": 171,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 171,
+      "physical_line": 172,
+      "text": "【42†Image】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 172,
+      "physical_line": 173,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 173,
+      "physical_line": 174,
+      "text": "取自「【29†https://zh.wikisource.org/w/index.php?title=西遊記/第060回&oldid=1500612】」",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 174,
+      "physical_line": 175,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 175,
+      "physical_line": 176,
+      "text": "【43†分類】：",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 176,
+      "physical_line": 177,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 177,
+      "physical_line": 178,
+      "text": "  * 【44†吳承恩】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 178,
+      "physical_line": 179,
+      "text": "  * 此頁面最後編輯於2018年9月12日 (星期三) 14:43。",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 179,
+      "physical_line": 180,
+      "text": "  * 本站的全部文字在【45†創作共用 姓名標示-相同方式分享協議†zh.wikipedia.org】之條款下提供，附加條款亦可能應用。（請參閱【46†使用條款†foundation.wikimedia.org】）",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 180,
+      "physical_line": 181,
+      "text": "在部份國家和地區，包括中國大陸、澳門和臺灣，作者精神權（含署名權）永久有效（【47†詳情】）。",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 181,
+      "physical_line": 182,
+      "text": "Wikisource®和維基文庫標誌是【48†維基媒體基金會†wikimediafoundation.org】的註冊商標；維基™是維基媒體基金會的商標。",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 182,
+      "physical_line": 183,
+      "text": "維基媒體基金會是在美國佛羅里達州登記的501(c)(3)【49†免稅†donate.wikimedia.org】、非營利、慈善機構。",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 183,
+      "physical_line": 184,
+      "text": "  * 【50†隱私權政策†foundation.wikimedia.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 184,
+      "physical_line": 185,
+      "text": "  * 【11†關於維基文庫】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 185,
+      "physical_line": 186,
+      "text": "  * 【51†免責聲明】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 186,
+      "physical_line": 187,
+      "text": "  * 【52†法律與安全事項聯絡方式†foundation.wikimedia.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 187,
+      "physical_line": 188,
+      "text": "  * 【53†行為準則†foundation.wikimedia.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 188,
+      "physical_line": 189,
+      "text": "  * 【54†開發人員†developer.wikimedia.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 189,
+      "physical_line": 190,
+      "text": "  * 【55†統計†stats.wikimedia.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 190,
+      "physical_line": 191,
+      "text": "  * 【56†Cookie聲明†foundation.wikimedia.org】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 191,
+      "physical_line": 192,
+      "text": "  * 搜尋",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 192,
+      "physical_line": 193,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 193,
+      "physical_line": 194,
+      "text": "[Input: 在Wikisource搜尋]",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 194,
+      "physical_line": 195,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 195,
+      "physical_line": 196,
+      "text": "[Input]",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 196,
+      "physical_line": 197,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 197,
+      "physical_line": 198,
+      "text": "[Button: 搜尋]",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 198,
+      "physical_line": 199,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 199,
+      "physical_line": 200,
+      "text": "西遊記/第060回",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    },
+    {
+      "display_line": 200,
+      "physical_line": 201,
+      "text": "",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "空白表示行"
+    },
+    {
+      "display_line": 201,
+      "physical_line": 202,
+      "text": "新增語言 【57†新增話題】",
+      "disposition": "excluded",
+      "segment_id": null,
+      "reason": "サイト案内・前後回・著者欄・フッター"
+    }
+  ],
+  "segments": [
+    {
+      "id": "xy-ch60-001",
+      "kind": "heading",
+      "line_start": 113,
+      "line_end": 114,
+      "snapshot_line_start": 114,
+      "snapshot_line_end": 115,
+      "source_sha256": "2559be4e3a90c6bb032cc304ddedd9396f7866019de9829c2984805227b4c2f7",
+      "source_codepoints": 22
+    },
+    {
+      "id": "xy-ch60-002",
+      "kind": "paragraph",
+      "line_start": 117,
+      "line_end": 117,
+      "snapshot_line_start": 118,
+      "snapshot_line_end": 118,
+      "source_sha256": "04cc05b832ea56a5eb7873087ba32f3f1d6559f7be04ec65f398d74dc477f459",
+      "source_codepoints": 279
+    },
+    {
+      "id": "xy-ch60-003",
+      "kind": "paragraph",
+      "line_start": 118,
+      "line_end": 118,
+      "snapshot_line_start": 119,
+      "snapshot_line_end": 119,
+      "source_sha256": "d834fa18f6338bb4cc9c7be16b2184b3e1149b8c8dc2a94bc22ae29b0e049490",
+      "source_codepoints": 240
+    },
+    {
+      "id": "xy-ch60-004",
+      "kind": "paragraph",
+      "line_start": 120,
+      "line_end": 120,
+      "snapshot_line_start": 121,
+      "snapshot_line_end": 121,
+      "source_sha256": "a70029c54490408e1bf4212ba4969c3b0ee310cfb5600a4cefad7f26263557cb",
+      "source_codepoints": 75
+    },
+    {
+      "id": "xy-ch60-005",
+      "kind": "verse",
+      "line_start": 122,
+      "line_end": 122,
+      "snapshot_line_start": 123,
+      "snapshot_line_end": 123,
+      "source_sha256": "8cb7893dbef37286b98e69735773c2505758cf913682cfed7d41173c0af8f71c",
+      "source_codepoints": 162
+    },
+    {
+      "id": "xy-ch60-006",
+      "kind": "paragraph",
+      "line_start": 123,
+      "line_end": 123,
+      "snapshot_line_start": 124,
+      "snapshot_line_end": 124,
+      "source_sha256": "06c88d85355896977484b804d24cd3974c3e13e8a843a09a36dc56300e7fd998",
+      "source_codepoints": 75
+    },
+    {
+      "id": "xy-ch60-007",
+      "kind": "verse",
+      "line_start": 125,
+      "line_end": 125,
+      "snapshot_line_start": 126,
+      "snapshot_line_end": 126,
+      "source_sha256": "b091b114984bbc77761880ef0756d12462b66e0fba5468f96cfe5c837eecfd84",
+      "source_codepoints": 96
+    },
+    {
+      "id": "xy-ch60-008",
+      "kind": "paragraph",
+      "line_start": 127,
+      "line_end": 127,
+      "snapshot_line_start": 128,
+      "snapshot_line_end": 128,
+      "source_sha256": "7b5f9b41326d01405a67382ec0ce3e5288036caaeed550e2e4812430eff85833",
+      "source_codepoints": 286
+    },
+    {
+      "id": "xy-ch60-009",
+      "kind": "paragraph",
+      "line_start": 128,
+      "line_end": 128,
+      "snapshot_line_start": 129,
+      "snapshot_line_end": 129,
+      "source_sha256": "8c2c048192e01fdae78d541850cda5c95614bb507924fa01cd2c2e101b008ac0",
+      "source_codepoints": 249
+    },
+    {
+      "id": "xy-ch60-010",
+      "kind": "verse",
+      "line_start": 130,
+      "line_end": 130,
+      "snapshot_line_start": 131,
+      "snapshot_line_end": 131,
+      "source_sha256": "173f066e416692a2de55444c4c3b5ea068d1ffce8df2aa55f934f3920a8848a0",
+      "source_codepoints": 90
+    },
+    {
+      "id": "xy-ch60-011",
+      "kind": "paragraph",
+      "line_start": 131,
+      "line_end": 131,
+      "snapshot_line_start": 132,
+      "snapshot_line_end": 132,
+      "source_sha256": "9adf118fc96a5c090f8b117b1159656f1e23bffed10d0c68198f6f60c04c50e2",
+      "source_codepoints": 469
+    },
+    {
+      "id": "xy-ch60-012",
+      "kind": "paragraph",
+      "line_start": 132,
+      "line_end": 132,
+      "snapshot_line_start": 133,
+      "snapshot_line_end": 133,
+      "source_sha256": "b52b7c6924d14f73a14ecbe5dbb31abf6105e75aa485fd7b24bac365a3490399",
+      "source_codepoints": 75
+    },
+    {
+      "id": "xy-ch60-013",
+      "kind": "verse",
+      "line_start": 134,
+      "line_end": 134,
+      "snapshot_line_start": 135,
+      "snapshot_line_end": 135,
+      "source_sha256": "ba12202daf8357f0192c791adfd8aada59c725ff74cc51ce90fa6dae481dbe50",
+      "source_codepoints": 110
+    },
+    {
+      "id": "xy-ch60-014",
+      "kind": "paragraph",
+      "line_start": 135,
+      "line_end": 135,
+      "snapshot_line_start": 136,
+      "snapshot_line_end": 136,
+      "source_sha256": "e80d5a0ebc2c02ac2248998a5e70d6357a15755bfeff12ec6fa12d3e27058a63",
+      "source_codepoints": 390
+    },
+    {
+      "id": "xy-ch60-015",
+      "kind": "paragraph",
+      "line_start": 136,
+      "line_end": 136,
+      "snapshot_line_start": 137,
+      "snapshot_line_end": 137,
+      "source_sha256": "3ae453a7fb3f603a5d9b6c07f1317ea2d4ea6215fcb8b2733a2a514ba359c71f",
+      "source_codepoints": 446
+    },
+    {
+      "id": "xy-ch60-016",
+      "kind": "verse",
+      "line_start": 137,
+      "line_end": 137,
+      "snapshot_line_start": 138,
+      "snapshot_line_end": 138,
+      "source_sha256": "34fe4da3c6bec13f1875eb33a117c5c41fe379b23fb51db9fad62612372ee20b",
+      "source_codepoints": 178
+    },
+    {
+      "id": "xy-ch60-017",
+      "kind": "paragraph",
+      "line_start": 139,
+      "line_end": 139,
+      "snapshot_line_start": 140,
+      "snapshot_line_end": 140,
+      "source_sha256": "1c848ac4a00e028290f76ab30befe4fcf74e8e5a0d055cedf6a81c8e4ec3b40f",
+      "source_codepoints": 228
+    },
+    {
+      "id": "xy-ch60-018",
+      "kind": "paragraph",
+      "line_start": 140,
+      "line_end": 140,
+      "snapshot_line_start": 141,
+      "snapshot_line_end": 141,
+      "source_sha256": "a8a54320b7e5889112b37a5d1acd93a6c7823e8cf8c7d1573011852bbfe5704b",
+      "source_codepoints": 193
+    },
+    {
+      "id": "xy-ch60-019",
+      "kind": "paragraph",
+      "line_start": 142,
+      "line_end": 142,
+      "snapshot_line_start": 143,
+      "snapshot_line_end": 143,
+      "source_sha256": "f84aa474cc71a4658534767583d7e6d73935a9735e54712242b370bbe88fb178",
+      "source_codepoints": 110
+    },
+    {
+      "id": "xy-ch60-020",
+      "kind": "verse",
+      "line_start": 143,
+      "line_end": 143,
+      "snapshot_line_start": 144,
+      "snapshot_line_end": 144,
+      "source_sha256": "82804f193e5b8d05d7054ea91776b0508856704de2488790d124ec5c8a324bd2",
+      "source_codepoints": 210
+    },
+    {
+      "id": "xy-ch60-021",
+      "kind": "paragraph",
+      "line_start": 145,
+      "line_end": 145,
+      "snapshot_line_start": 146,
+      "snapshot_line_end": 146,
+      "source_sha256": "e8e808b0236541904454215bf796bd515938df86f07b35b96b950fb558686c05",
+      "source_codepoints": 44
+    },
+    {
+      "id": "xy-ch60-022",
+      "kind": "paragraph",
+      "line_start": 147,
+      "line_end": 147,
+      "snapshot_line_start": 148,
+      "snapshot_line_end": 148,
+      "source_sha256": "87aae1a7d35fedc4272f38dd50b15053e4fe8a0635e2dd3341fd389093fcd945",
+      "source_codepoints": 130
+    },
+    {
+      "id": "xy-ch60-023",
+      "kind": "verse",
+      "line_start": 149,
+      "line_end": 150,
+      "snapshot_line_start": 150,
+      "snapshot_line_end": 151,
+      "source_sha256": "a70011655ed2c32f973b0dc04c46f3fafdf9ebbfc9515de4c8dd2e3f6087ab13",
+      "source_codepoints": 61
+    },
+    {
+      "id": "xy-ch60-024",
+      "kind": "paragraph",
+      "line_start": 151,
+      "line_end": 151,
+      "snapshot_line_start": 152,
+      "snapshot_line_end": 152,
+      "source_sha256": "2f6e2b2076f0f2d9ffa2cfa0749e5a25c18c692b0dae87786ddbc230b205ae9e",
+      "source_codepoints": 159
+    },
+    {
+      "id": "xy-ch60-025",
+      "kind": "paragraph",
+      "line_start": 153,
+      "line_end": 153,
+      "snapshot_line_start": 154,
+      "snapshot_line_end": 154,
+      "source_sha256": "9b5295bb1695a31ea93e63540c58318ea9170796001b41ecbd16ce4786b7c53f",
+      "source_codepoints": 202
+    },
+    {
+      "id": "xy-ch60-026",
+      "kind": "paragraph",
+      "line_start": 154,
+      "line_end": 154,
+      "snapshot_line_start": 155,
+      "snapshot_line_end": 155,
+      "source_sha256": "9b0fb774c912712b0054b5753f512d1c313affa39864b9d4060abb1a6f33db77",
+      "source_codepoints": 474
+    },
+    {
+      "id": "xy-ch60-027",
+      "kind": "paragraph",
+      "line_start": 155,
+      "line_end": 155,
+      "snapshot_line_start": 156,
+      "snapshot_line_end": 156,
+      "source_sha256": "00c2265a2e07b2b80e0b4d803515bc1311a2f832b3b4885276cd52528b3c5654",
+      "source_codepoints": 263
+    },
+    {
+      "id": "xy-ch60-028",
+      "kind": "paragraph",
+      "line_start": 157,
+      "line_end": 157,
+      "snapshot_line_start": 158,
+      "snapshot_line_end": 158,
+      "source_sha256": "888b1d9e1ef30495e8da590d03a6ef325d49f777b549ff7a3c536068db8c7c93",
+      "source_codepoints": 98
+    },
+    {
+      "id": "xy-ch60-029",
+      "kind": "verse",
+      "line_start": 159,
+      "line_end": 159,
+      "snapshot_line_start": 160,
+      "snapshot_line_end": 160,
+      "source_sha256": "0f7584437c06299946e8163ae9ef5b6de36c47e60e979ed3f40de04d0bb0c5e7",
+      "source_codepoints": 132
+    },
+    {
+      "id": "xy-ch60-030",
+      "kind": "paragraph",
+      "line_start": 160,
+      "line_end": 160,
+      "snapshot_line_start": 161,
+      "snapshot_line_end": 161,
+      "source_sha256": "ef28ef0e9032399452d78916263029cf1066dfe5e173944e5bc8c21e20b4fc14",
+      "source_codepoints": 342
+    },
+    {
+      "id": "xy-ch60-031",
+      "kind": "paragraph",
+      "line_start": 162,
+      "line_end": 162,
+      "snapshot_line_start": 163,
+      "snapshot_line_end": 163,
+      "source_sha256": "9144bea108e9d6a46e0b482c10f6b4d4624f9701368bc43086ffbd8393ebb7c5",
+      "source_codepoints": 116
+    },
+    {
+      "id": "xy-ch60-032",
+      "kind": "paragraph",
+      "line_start": 163,
+      "line_end": 163,
+      "snapshot_line_start": 164,
+      "snapshot_line_end": 164,
+      "source_sha256": "a48b1ba8dabd6fe00c9e95ba5aa72fea78d1e5a4d19471b992a4ac3c6f98917f",
+      "source_codepoints": 213
+    },
+    {
+      "id": "xy-ch60-033",
+      "kind": "paragraph",
+      "line_start": 164,
+      "line_end": 164,
+      "snapshot_line_start": 165,
+      "snapshot_line_end": 165,
+      "source_sha256": "e4ba2f50984fb58de503041aa4c39f01f4f5fc9044e09475d618b46a7d4b3e98",
+      "source_codepoints": 389
+    },
+    {
+      "id": "xy-ch60-034",
+      "kind": "paragraph",
+      "line_start": 165,
+      "line_end": 165,
+      "snapshot_line_start": 166,
+      "snapshot_line_end": 166,
+      "source_sha256": "1409a4a9f0b3b8a31be1c16457c59a0691d47b9d8fbd314dca3235603db12a59",
+      "source_codepoints": 349
+    },
+    {
+      "id": "xy-ch60-035",
+      "kind": "verse",
+      "line_start": 167,
+      "line_end": 167,
+      "snapshot_line_start": 168,
+      "snapshot_line_end": 168,
+      "source_sha256": "0dc5fd2c36e03988836cbc04237410e21605af96e615b6412c78154506da5a67",
+      "source_codepoints": 18
+    },
+    {
+      "id": "xy-ch60-036",
+      "kind": "paragraph",
+      "line_start": 169,
+      "line_end": 169,
+      "snapshot_line_start": 170,
+      "snapshot_line_end": 170,
+      "source_sha256": "3f64991b426940a1f9bd87fa1d992d33a7896db6f5f5b88e1ac7fd4aa906f47f",
+      "source_codepoints": 18
+    }
+  ],
+  "content_sha256": "bc5526f09a3f27515a49f0329e2f1e55691cf51fceae617bab68dbe987ab5f6c",
+  "review_checks": {
+    "all_target_source_lines_exact_once": true,
+    "translation_units_self_compared": 36,
+    "translation_units_independently_compared": 36,
+    "expert_review": false,
+    "all_note_bodies_compared_at_exact_clickable_start": 26,
+    "all_readings_compared": 84,
+    "all_glosses_compared": 56,
+    "independent_reviewer_type": "AI",
+    "actual_browser_review": false
+  },
+  "author_fixed_url_fetch_success": false,
+  "independent_fixed_acquisition_url": "https://zh.wikisource.org/w/index.php?oldid=1500612&title=%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC060%E5%9B%9E",
+  "independent_fixed_snapshot": "independent-source-fixed-1500612-no-conversion.txt",
+  "independent_source_difference": {
+    "segment_id": "xy-ch60-006",
+    "current_line": 123,
+    "fixed_line": 127,
+    "current": "手摺了一枝香蘭",
+    "fixed": "手折了一枝香蘭",
+    "decision": "保持作者現行繁体表示「摺」。独立固定版は無変換表示の「折」。異なる翻刻本文へ差し替えない。"
+  },
+  "independent_fixed_snapshot_sha256": "ec3df0086767895eca13e9175ef8c8dfddcae6c11aa016741c74442c88850782"
+}

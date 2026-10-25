@@ -2782,6 +2782,54 @@
     "title": "教育部 重編國語辭典修訂本「溲話」"
     "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=144235&la=0&powerMode=0"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch60-primary-1500612"
+    "title": "中文維基文庫 西遊記 第060回（現行取得、フッター識別版1500612）"
+    "url": "https://zh.wikisource.org/zh-hant/西遊記/第060回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch60-moe-wangqiang"
+    "title": "教育部 重編國語辭典修訂本「王嬙」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=162630&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch60-kotobank-zhaojun"
+    "title": "日本語辞典「王昭君」（コトバンク掲載）"
+    "url": "https://kotobank.jp/word/王昭君-38723"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch60-kotobank-xuetao"
+    "title": "日本語辞典「薛濤」（コトバンク掲載）"
+    "url": "https://kotobank.jp/word/薛濤-87385"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch60-moe-zhen"
+    "title": "教育部 異體字字典「抮」異体字\U00022DD1"
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=58798"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch60-shidian-xian"
+    "title": "識典古籍 字典「\U00022DD1」"
+    "url": "https://www.shidianguji.com/character/\U00022DD1"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch60-shidian-ba"
+    "title": "識典古籍 字典「\U00024731」"
+    "url": "https://www.shidianguji.com/character/\U00024731"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch60-zdic-crab"
+    "title": "漢典「橫行介士」"
+    "url": "https://zdic.net/hans/橫行介士"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch60-odict-hui"
+    "title": "漢字字典「\U00020C9B」"
+    "url": "https://zidian.odict.net/zh-tw/1176067639343/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch60-ntu-shiman"
+    "title": "《朴通事諺解》及其所引《西遊記》新探（獅蠻帶脚注検索表示）"
+    "url": "https://buddhism.lib.ntu.edu.tw/FT/JA/654755.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch60-moe-bu"
+    "title": "教育部 重編國語辭典修訂本「哺」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=564&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch60-cidian-chenjiao"
+    "title": "詞典網「趁腳蹺」"
+    "url": "https://m.cidianwang.com/cd/c/chenjiaoqiao304663.htm"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -14914,6 +14962,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+      - "id": "xy-ch60-manifest-sage-form"
+        "text": "顕聖"
+        "relation": "short_form"
+        "reading":
+          "kana": "けんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
   - "id": "xy-entry-0582"
     "kind": "place"
     "headword": "灌洲"
@@ -44747,6 +44804,15 @@
           "source_ids":
             - "xy-ch42-primary-1808580"
           "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch60-niu-shengying-form"
+        "text": "牛聖嬰"
+        "relation": "alias"
+        "reading":
+          "kana": "ぎゅうせいえい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
   - "id": "xy-ch41-fire-tip-spear"
     "kind": "object"
     "headword": "火尖槍"
@@ -51551,6 +51617,15 @@
           "source_ids":
             - "xy-ch54-primary-1455603"
           "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch60-wangqiang-form"
+        "text": "王嬙"
+        "relation": "alias"
+        "reading":
+          "kana": "おうしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-kotobank-zhaojun"
+          "reason_ja": "日本語辞典に王昭君の名を嬙（しょう）とすることを確認し、姓王のおうと組み合わせる。語形全体の仮名の直接提示ではない。"
   - "id": "xy-ch54-duan-gate-xiliang"
     "kind": "place"
     "headword": "端門"
@@ -53485,3 +53560,516 @@
           "source_ids":
             - "xy-ch59-primary-1455608"
           "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
+  - "id": "xy-ch60-jilei-mountain"
+    "kind": "place"
+    "headword": "積雷山"
+    "definition_ja": "牛魔王が現在暮らす摩雲洞のある山。土地神は火焔山から南へ三千余里と説明する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-jilei-mountain-form"
+        "text": "積雷山"
+        "relation": "preferred"
+        "reading":
+          "kana": "せきらいざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-moyun-cave"
+    "kind": "place"
+    "headword": "摩雲洞"
+    "definition_ja": "積雷山にある洞穴。玉面公主が住み、牛魔王を夫に迎えている。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-moyun-cave-form"
+        "text": "摩雲洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "まうんどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-millennial-fox-king"
+    "kind": "person"
+    "headword": "万年狐王"
+    "definition_ja": "玉面公主の父とされる狐の王。土地神の説明時にはすでに亡くなっている。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-millennial-fox-king-form"
+        "text": "万年狐王"
+        "relation": "preferred"
+        "reading":
+          "kana": "まんねんこおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-jade-face-princess"
+    "kind": "person"
+    "headword": "玉面公主"
+    "definition_ja": "万年狐王の娘。多くの財産を継ぎ、牛魔王を夫に迎えた女性。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-jade-face-princess-form"
+        "text": "玉面公主"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくめんこうしゅ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-xiang-skirt"
+    "kind": "object"
+    "headword": "湘裙"
+    "definition_ja": "女性の美しい裳・スカートをいう詩語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "女性の装束の詩で、靴を半ば見せる裳として読む。特定の布地・色・産地の確定は留保する。"
+    "forms":
+      - "id": "xy-ch60-xiang-skirt-form"
+        "text": "湘裙"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-bow-shoes"
+    "kind": "object"
+    "headword": "弓靴"
+    "definition_ja": "弓のように小さく曲がった女性の靴。纏足を美化する古典的描写に用いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "底本の弓鞋を日本語の靴で表す。形の描写を保ち、特定の寸法は追加しない。"
+    "forms":
+      - "id": "xy-ch60-bow-shoes-form"
+        "text": "弓靴"
+        "relation": "preferred"
+        "reading":
+          "kana": "ゆみぐつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-wenjun"
+    "kind": "person"
+    "headword": "文君"
+    "definition_ja": "古代の美しい女性として詩に引かれる卓文君。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "文君と薛濤を並べる美人の典故として卓文君と解する。具体的な生涯は本文へ補わない。"
+    "forms":
+      - "id": "xy-ch60-wenjun-form"
+        "text": "文君"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶんくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-xuetao"
+    "kind": "person"
+    "headword": "薛濤"
+    "definition_ja": "唐代の女性詩人・歌妓。ここでは美しい女性の比較対象として引かれる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch60-kotobank-xuetao"
+      "reason_ja": "日本国語大辞典・日本大百科全書等の人名と読みを確認。生没年の異説には踏み込まない。"
+    "forms":
+      - "id": "xy-ch60-xuetao-form"
+        "text": "薛濤"
+        "relation": "preferred"
+        "reading":
+          "kana": "せっとう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch60-kotobank-xuetao"
+          "reason_ja": "辞典見出しの仮名を確認。"
+  - "id": "xy-ch60-jinjiang"
+    "kind": "place"
+    "headword": "錦江"
+    "definition_ja": "成都の川の呼び名。詩ではなめらかな美しさをたとえる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "成都ゆかりの文君・薛濤と並ぶ川名として読む。本文の比喩から川の具体的区間を決めない。"
+    "forms":
+      - "id": "xy-ch60-jinjiang-form"
+        "text": "錦江"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-alchemy-book"
+    "kind": "object"
+    "headword": "丹書"
+    "definition_ja": "仙術や丹の修行を記した書。ここでは牛魔王が静かに読んでいる書物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "静玩丹書という読書の文脈に基づく。丹色で書かれた文書の別義や特定の書名へ断定しない。"
+    "forms":
+      - "id": "xy-ch60-alchemy-book-form"
+        "text": "丹書"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんしょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-mixed-iron-staff"
+    "kind": "object"
+    "headword": "混鉄棍"
+    "definition_ja": "牛魔王が振るう鉄の棍。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "牛魔王が洞から持ち出し、金箍棒と打ち合わせる武器。既存の別の鉄棒と同一視しない。"
+    "forms":
+      - "id": "xy-ch60-mixed-iron-staff-form"
+        "text": "混鉄棍"
+        "relation": "preferred"
+        "reading":
+          "kana": "こんてつこん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-water-parting-beast"
+    "kind": "object"
+    "headword": "辟水金睛獣"
+    "definition_ja": "牛魔王が乗る、水中を行き来する獣。名は水を避ける金色の眼の獣という意。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-water-parting-beast-form"
+        "text": "辟水金睛獣"
+        "relation": "preferred"
+        "reading":
+          "kana": "へきすいきんせいじゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch60-golden-eyed-beast-form"
+        "text": "金睛獣"
+        "relation": "short_form"
+        "reading":
+          "kana": "きんせいじゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-luanshi-mountain"
+    "kind": "place"
+    "headword": "乱石山"
+    "definition_ja": "碧波潭の岸の石碑に刻まれた山名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-luanshi-mountain-form"
+        "text": "乱石山"
+        "relation": "preferred"
+        "reading":
+          "kana": "らんせきざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-bibo-pool"
+    "kind": "place"
+    "headword": "碧波潭"
+    "definition_ja": "乱石山にある深い淵。岸の石碑に名が記される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-bibo-pool-form"
+        "text": "碧波潭"
+        "relation": "preferred"
+        "reading":
+          "kana": "へきはたん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-pailou"
+    "kind": "object"
+    "headword": "牌楼"
+    "definition_ja": "柱と屋根を組んだ門形の建造物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-pailou-form"
+        "text": "牌楼"
+        "relation": "preferred"
+        "reading":
+          "kana": "はいろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-three-lights"
+    "kind": "concept"
+    "headword": "三光"
+    "definition_ja": "太陽・月・星の三つの光。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-three-lights-form"
+        "text": "三光"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-bird-seal-script"
+    "kind": "term"
+    "headword": "鳥篆"
+    "definition_ja": "鳥の姿を取り入れた飾り文字・篆書。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-bird-seal-script-form"
+        "text": "鳥篆"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうてん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-eight-timbres"
+    "kind": "term"
+    "headword": "八音"
+    "definition_ja": "金・石・糸・竹・匏・土・革・木という素材による八種の楽器、転じて器楽全般。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-eight-timbres-form"
+        "text": "八音"
+        "relation": "preferred"
+        "reading":
+          "kana": "はちおん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-gong-shang"
+    "kind": "term"
+    "headword": "宮商"
+    "definition_ja": "中国音楽の音階名。宮と商を挙げ、楽の調べを表す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-gong-shang-form"
+        "text": "宮商"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-banquet-malang"
+    "kind": "term"
+    "headword": "馬郎"
+    "definition_ja": "宴席で玉の簫を奏する赤い目の水族の呼び名。魚種は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "宴席の原文「紅眼馬郎」を音楽の役として読む。第四十一回の兵の紅眼馬郎と同じ語系だが、個体の同一性は示されず、既存の役割定義を広げない。別項目は別種・別人との断定ではない。"
+    "forms":
+      - "id": "xy-ch60-banquet-malang-form"
+        "text": "馬郎"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-banquet-gui-woman"
+    "kind": "person"
+    "headword": "鱖婆"
+    "definition_ja": "水中の宴席で獐の干し肉を捧げる、鱖の名を持つ女性。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "第四十八回の斑衣鱖婆と同一との根拠はない。宴席の役に限定して区別し、別人との断定もしない。鱖は魚の名。"
+    "forms":
+      - "id": "xy-ch60-banquet-gui-woman-form"
+        "text": "鱖婆"
+        "relation": "preferred"
+        "reading":
+          "kana": "けつば"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-purple-palace"
+    "kind": "place"
+    "headword": "紫府"
+    "definition_ja": "仙人の住む宮殿・仙境をいう語。ここでは酒の由来を飾る。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-purple-palace-form"
+        "text": "紫府"
+        "relation": "preferred"
+        "reading":
+          "kana": "しふ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-crab-armored-officer"
+    "kind": "title"
+    "headword": "横行介士"
+    "definition_ja": "蟹の戯称。横歩きと、甲を着た武士に似る姿を重ねる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch60-zdic-crab"
+      "reason_ja": "辞典に蟹の戯称とあり、傅肱『蟹譜』の用例が示される。本篇の任官は悟空の虚言であり、実際の官歴ではない。"
+    "forms":
+      - "id": "xy-ch60-crab-armored-officer-form"
+        "text": "横行介士"
+        "relation": "preferred"
+        "reading":
+          "kana": "おうこうかいし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch60-armored-officer-form"
+        "text": "介士"
+        "relation": "short_form"
+        "reading":
+          "kana": "かいし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-first-marriage"
+    "kind": "term"
+    "headword": "結髪"
+    "definition_ja": "髪を結い合わせた最初の婚姻、また若いころから連れ添う夫婦をいう。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の紹介・役割・行為を確認した範囲で説明する。明示されない個体の同一性や後の展開を補わない。"
+    "forms":
+      - "id": "xy-ch60-first-marriage-form"
+        "text": "結髪"
+        "relation": "preferred"
+        "reading":
+          "kana": "けっぱつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch60-fan-growth-spell"
+    "kind": "term"
+    "headword": "\U00020C9B噓啊吸嘻吹呼"
+    "definition_ja": "羅刹女が教える、芭蕉扇を大きくする七字の呪文。字義の文としては訳さず原字を保つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "本文の口訣を原形のまま保存。最初の\U00020C9Bを別字へ補訂せず、各字の音を仮に当てる。"
+    "forms":
+      - "id": "xy-ch60-fan-growth-spell-form"
+        "text": "\U00020C9B噓啊吸嘻吹呼"
+        "relation": "preferred"
+        "reading":
+          "kana": "かい・きょ・あ・きゅう・き・すい・こ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+            - "xy-ch60-odict-hui"
+          "reason_ja": "\U00020C9Bはhuíとする資料と回の字形からカイを仮定し、噓・啊・吸・嘻・吹・呼の字音を続けた。呪文全体の日本語読誦は未確認で、確定した唱え方ではない。"
+  - "id": "xy-ch60-closing-mucha-person"
+    "kind": "term"
+    "headword": "木叉人"
+    "definition_ja": "予告詩に置かれた呼称。何を指すかは確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch60-primary-1500612"
+      "reason_ja": "文脈上の追跡対象や内丹寓意との関係を考えられるが、既知の木叉・恵岸とも、他の人物とも同一視しない。原字を残す。"
+    "forms":
+      - "id": "xy-ch60-closing-mucha-person-form"
+        "text": "木叉人"
+        "relation": "preferred"
+        "reading":
+          "kana": "もくさじん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch60-primary-1500612"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
