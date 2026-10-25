@@ -4206,6 +4206,30 @@
     "title": "明史 巻72 礼部（維基文庫の取得表示L189・192で儀制司の礼儀・大婚の職掌を確認）"
     "url": "https://zh.wikisource.org/wiki/明史/卷72"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch95-primary-1500606"
+    "title": "中文維基文庫 西遊記 第095回 固定版1500606（固定リンクから実際に取得。全233表示行を保存）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第095回&oldid=1500606"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch95-five-tones"
+    "title": "精選版日本国語大辞典 宮商角徴羽（コトバンク検索表示で全語のかなと五音の語義を確認）"
+    "url": "https://kotobank.jp/word/宮商角徴羽-2028860"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch95-ting-character"
+    "title": "漢字辞典オンライン 楟（検索表示でテイと梨類の意味を確認。直接openはInternal Error）"
+    "url": "https://kanji.jitenon.jp/amp/kanjiy/12157"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch95-five-rings-commentary"
+    "title": "劉一明 西遊記百回詳注95（公開本文の五環を五行に関連づける注を確認）"
+    "url": "https://zh.wikisource.org/zh-hant/西遊記百回詳注/95"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch95-chang-e-reading"
+    "title": "小学館デジタル大辞泉・精選版日本国語大辞典 嫦娥（コトバンク本文で嫦娥じょうが・姮娥こうがを確認）"
+    "url": "https://kotobank.jp/word/嫦娥-530746"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch95-changong-moe"
+    "title": "教育部重編國語辭典修訂本 蟾宮（検索表示で月宮の語義を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=122969&q=1&word=蟾"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -15047,6 +15071,15 @@
           "source_ids":
             - "xy-ch51-primary-1498138"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+      - "id": "xy-ch95-moon-star-lord-form"
+        "text": "太陰星君"
+        "relation": "title"
+        "reading":
+          "kana": "たいいんせいくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "月を神とした既存太陰星の尊称。原文は太陰星君・太陰君・太陰星を同じ一行の主人に連続して用い、月宮へ帰る行為も一致する。 日本語の全語形かな資料は未確認で、漢字の音に従う。"
   - "id": "xy-entry-0506"
     "kind": "person"
     "headword": "太陽星"
@@ -21983,6 +22016,15 @@
           "source_ids":
             - "xy-ch93-primary-1455642"
           "reason_ja": "三蔵が前に説明を受けた祇園の跡を尋ねるときの短称。 全語形の仮名資料は未確認で、構成漢字の音から読む。"
+      - "id": "xy-ch95-imperial-gold-monastery-form"
+        "text": "勅建宝華山給孤布金寺"
+        "relation": "title"
+        "reading":
+          "kana": "ちょっけんほうかさんぎっこふきんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "王女を保護した同じ布金寺に国王が授ける寺号として明記。 日本語の全語形かな資料は未確認で、漢字の音に従う。"
   - "id": "xy-entry-0823"
     "kind": "place"
     "headword": "竜宮"
@@ -37959,6 +38001,24 @@
           "source_ids":
             - "xy-ch49-primary-1808612"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch95-toad-palace-form"
+        "text": "蟾宮"
+        "relation": "alias"
+        "reading":
+          "kana": "せんきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "月宮の呼び名であることを教育部辞典で確認。詩でも広寒宮・桂殿と同じ天上の居所を語る。 日本語の全語形かな資料は未確認で、漢字の音に従う。"
+      - "id": "xy-ch95-cassia-palace-form"
+        "text": "桂殿"
+        "relation": "alias"
+        "reading":
+          "kana": "けいでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "蟾宮と対で語り、広寒宮であることを同じ武器詩で述べる月の殿の詩的呼称。別の地上の桂殿という建物へ拡張しない。 日本語の全語形かな資料は未確認で、漢字の音に従う。"
   - "id": "xy-entry-1625"
     "kind": "term"
     "headword": "天関"
@@ -44075,6 +44135,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+      - "id": "xy-ch95-blessed-land-short-form"
+        "text": "福地"
+        "relation": "short_form"
+        "reading":
+          "kana": "ふくち"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "神々が山を仙境の恵まれた土地と呼ぶ語。既存洞天福地の霊地という語義と一致し、別の固有地名ではない。 日本語の全語形かな資料は未確認で、漢字の音に従う。"
   - "id": "xy-entry-1936"
     "kind": "object"
     "headword": "楊梅"
@@ -72307,6 +72376,15 @@
           "source_ids":
             - "xy-ch93-primary-1455642"
           "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch95-baohua-mountain-form"
+        "text": "宝華山"
+        "relation": "alias"
+        "reading":
+          "kana": "ほうかさん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "国王が百脚山を宝華山へ改名することを明記。同名の別の寺山ではなく同じ山の新名。 日本語の全語形かな資料は未確認で、漢字の音に従う。"
   - "id": "xy-ch93-cockcrow-pass"
     "kind": "place"
     "headword": "鶏鳴関"
@@ -72991,3 +73069,423 @@
             - "xy-ch94-primary-1500607"
             - "xy-ch94-zhique-reading"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。 鳷鵲のみのシジャクを検索表示で確認し、宮を音読みして組み合わせた。"
+  - "id": "xy-ch95-five-tones"
+    "kind": "term"
+    "headword": "宮商角徴羽"
+    "definition_ja": "中国古来の音楽の五つの基本音の名称を並べた語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+        - "xy-ch95-five-tones"
+      "reason_ja": "日本国語大辞典の表示で全語の読みと五音の列挙を確認。既存宮商は二音を挙げ楽の調べを表す語で、本項は五つの音の完整な列挙を指す。"
+    "forms":
+      - "id": "xy-ch95-five-tones-form"
+        "text": "宮商角徴羽"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうしょうかくちう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch95-five-tones"
+          "reason_ja": "資料の当該語形に日本語仮名を直接確認。取得範囲は出典名に記録。"
+  - "id": "xy-ch95-rose"
+    "kind": "term"
+    "headword": "玫瑰"
+    "definition_ja": "香りのあるバラ類の花をいう古い植物名。特定の現代種へは限定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "香りを持つ花として列挙される文脈と一般的語義から説明。現代のバラ品種や鉱物名へ同定しない。"
+    "forms":
+      - "id": "xy-ch95-rose-form"
+        "text": "玫瑰"
+        "relation": "preferred"
+        "reading":
+          "kana": "まいかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-ting-glyph"
+    "kind": "term"
+    "headword": "楟"
+    "definition_ja": "菱や蓮と並ぶ詩句の字。辞書では梨の類をいうが、その詩句で何を指すかは未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+        - "xy-ch95-ting-character"
+      "reason_ja": "字典の検索表示で音テイと梨の類の語義を確認。直接openはInternal Error。茎に相当する別字の可能性を考えても原字を改めない。"
+    "forms":
+      - "id": "xy-ch95-ting-glyph-form"
+        "text": "楟"
+        "relation": "preferred"
+        "reading":
+          "kana": "てい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch95-ting-character"
+          "reason_ja": "資料の当該語形に日本語仮名を直接確認。取得範囲は出典名に記録。"
+  - "id": "xy-ch95-west-pang"
+    "kind": "person"
+    "headword": "龐"
+    "definition_ja": "護国天王に従って西天門を守る四大元帥の一人の姓。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "場所・所属・役割を本文で確認。南天門の天兵、雷霆官将、龐涓と照合したが同一性は確定しないため役割に限定する。別人と断定するものでもない。"
+    "forms":
+      - "id": "xy-ch95-west-pang-form"
+        "text": "龐"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-west-liu"
+    "kind": "person"
+    "headword": "劉"
+    "definition_ja": "護国天王に従って西天門を守る四大元帥の一人の姓。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "南天門の天兵・雷霆官将・人間の劉姓各人と、姓以外の同一性を示す根拠はない。西天門の役割に限定し、他の神と別人とも断定しない。"
+    "forms":
+      - "id": "xy-ch95-west-liu-form"
+        "text": "劉"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-west-gou"
+    "kind": "person"
+    "headword": "苟"
+    "definition_ja": "護国天王に従って西天門を守る四大元帥の一人の姓。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "南天門の同姓天兵や雷霆官将との同一性は本文で確定しない。西天門の役割に限定し、別人とも断定しない。"
+    "forms":
+      - "id": "xy-ch95-west-gou-form"
+        "text": "苟"
+        "relation": "preferred"
+        "reading":
+          "kana": "こう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-west-bi"
+    "kind": "person"
+    "headword": "畢"
+    "definition_ja": "護国天王に従って西天門を守る四大元帥の一人の姓。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "南天門の同姓天兵や雷霆官将、畢宿の星神と同一視しない。西天門の役割に限定し、他の門の人物と別人とも断定しない。"
+    "forms":
+      - "id": "xy-ch95-west-bi-form"
+        "text": "畢"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-three-origins"
+    "kind": "concept"
+    "headword": "三元"
+    "definition_ja": "宇宙や修養を構成する三つの根源的なものを指す語。天地人や精気神などの解釈があり、具体的な内訳は文脈により異なる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "四相・五行と対に仙器の調和を述べる語として読む。科挙の三つの首席や三つの祭日とは決めない。"
+    "forms":
+      - "id": "xy-ch95-three-origins-form"
+        "text": "三元"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんげん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-medicine-pestle"
+    "kind": "object"
+    "headword": "搗薬杵"
+    "definition_ja": "広寒宮で薬をつく杵。短い棒に似た形をし、武器としても用いられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "武器の来歴を述べる詩末の命名と、太陰星君の仙薬をつくという説明を照合。既存金剛杵や一般の杵と同じ実物にはしない。"
+    "forms":
+      - "id": "xy-ch95-medicine-pestle-form"
+        "text": "搗薬杵"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうやくしょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-maoying-mountain"
+    "kind": "place"
+    "headword": "毛穎山"
+    "definition_ja": "天竺国の南にある山。山の神々は三つの兎穴があると説明する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "悟空が国の真南へ戻り、神々が山の名と三穴を答える原文を照合。韓愈の擬人伝の毛穎と同じ人物とはしない。"
+    "forms":
+      - "id": "xy-ch95-maoying-mountain-form"
+        "text": "毛穎山"
+        "relation": "preferred"
+        "reading":
+          "kana": "もうえいざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-five-rings"
+    "kind": "concept"
+    "headword": "五環"
+    "definition_ja": "仙境の福地を形容する語。五行を集める修養の象徴という解釈があるが、具体的な意味は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+        - "xy-ch95-five-rings-commentary"
+      "reason_ja": "底本の五環を保持。劉一明の内丹的注釈を参照するが、原文唯一の意味とは断定しない。"
+    "forms":
+      - "id": "xy-ch95-five-rings-form"
+        "text": "五環"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-moon-fairies"
+    "kind": "person"
+    "headword": "姮娥仙子"
+    "definition_ja": "太陰星君に従う月の仙女たち。姮娥・嫦娥という月の仙女の呼称が集団に用いられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "眾姮娥仙子・眾嫦娥という複数の用例と同じ一行の行動を確認。旧辞書の単独の月神の伝承を全員に移さず、各人の経歴は未確定。"
+    "forms":
+      - "id": "xy-ch95-moon-fairies-form"
+        "text": "姮娥仙子"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうがせんし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+      - "id": "xy-ch95-moon-fairies-chang-e-form"
+        "text": "嫦娥"
+        "relation": "alias"
+        "reading":
+          "kana": "じょうが"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch95-chang-e-reading"
+          "reason_ja": "同じ月の仙女一行を姮娥仙子・嫦娥と交互に呼ぶ。読みだけは日本国語大辞典の嫦娥じょうがで直接確認できるが、個人伝承の同一性は含めない。 読みは資料の仮名表示を確認。"
+  - "id": "xy-ch95-mystic-frost"
+    "kind": "object"
+    "headword": "玄霜"
+    "definition_ja": "月の宮で玉兔がつくという仙薬の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "太陰星君が搗玄霜仙藥と述べる文脈。現実の同名の薬品や材料へ同定せず、実用の医療情報にしない。"
+    "forms":
+      - "id": "xy-ch95-mystic-frost-form"
+        "text": "玄霜"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-jade-hare-person"
+    "kind": "person"
+    "headword": "玉兔"
+    "definition_ja": "広寒宮で仙薬をつく兎。天竺の王女をさらってその姿に化け、太陰星君に連れ戻される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "太陰星君の証言・本体の描写・帰還行為で同じ個体と確認。既存玉の兎は月一般の象徴概念であり、その全用例を本個体の行為へ同定しない。"
+    "forms":
+      - "id": "xy-ch95-jade-hare-person-form"
+        "text": "玉兔"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくと"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-sue-princess"
+    "kind": "person"
+    "headword": "素娥"
+    "definition_ja": "蟾宮の仙女で、天竺国の王女として生まれたと太陰星君が語る人物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "星君の説明と悟空による再引用で王女との同一性を明示。一般の月の異称や嫦娥という単独の神話人物と機械的に統合しない。"
+    "forms":
+      - "id": "xy-ch95-sue-princess-form"
+        "text": "素娥"
+        "relation": "preferred"
+        "reading":
+          "kana": "そが"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+      - "id": "xy-ch95-sue-fairy-form"
+        "text": "素娥仙子"
+        "relation": "title"
+        "reading":
+          "kana": "そがせんし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "悟空が星君の説明を再引用して同じ素娥を仙子と呼ぶ。 日本語の全語形かな資料は未確認で、漢字の音に従う。"
+  - "id": "xy-ch95-nishang-fairy"
+    "kind": "person"
+    "headword": "霓裳仙子"
+    "definition_ja": "太陰星君に従う月の仙女の一人。八戒に抱きつかれる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "現場の名と行為を確認。八戒の旧知という発言だけから、前の経歴に出る嫦娥と同一の個人とは確定しない。"
+    "forms":
+      - "id": "xy-ch95-nishang-fairy-form"
+        "text": "霓裳仙子"
+        "relation": "preferred"
+        "reading":
+          "kana": "げいしょうせんし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-last-watch-third-point"
+    "kind": "term"
+    "headword": "五更三点"
+    "definition_ja": "夜を五分した最後の更の中の、三点という細分時刻。明け方を示す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "五更と三点の複合を原文どおり保持。季節と制度で長さが変わり、現代の時計の一点に固定しない。"
+    "forms":
+      - "id": "xy-ch95-last-watch-third-point-form"
+        "text": "五更三点"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごこうさんてん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-duyu-bird"
+    "kind": "term"
+    "headword": "杜宇"
+    "definition_ja": "ホトトギス類の鳥を指す古い呼び名。中国では蜀の王の伝承と結び付けられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "春の夜に鳴く鳥の詩語として読む。人名の杜宇がその場で発話したことにはしない。"
+    "forms":
+      - "id": "xy-ch95-duyu-bird-form"
+        "text": "杜宇"
+        "relation": "preferred"
+        "reading":
+          "kana": "とう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-works-ministry"
+    "kind": "title"
+    "headword": "工部"
+    "definition_ja": "国家の造営や土木などを担当する役所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "寺の修復の資材をそろえる命令を受ける原文と一般の官制語義による。特定の史実の官員名は補わない。"
+    "forms":
+      - "id": "xy-ch95-works-ministry-form"
+        "text": "工部"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうぶ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-patriotic-monk-officer"
+    "kind": "title"
+    "headword": "報国僧官"
+    "definition_ja": "王女を保護した老院主に与えられる僧官の号。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "国王の任命・世襲と俸禄の記述による。別の僧の役職や後継者へ特定しない。"
+    "forms":
+      - "id": "xy-ch95-patriotic-monk-officer-form"
+        "text": "報国僧官"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうこくそうかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch95-huayi-tower"
+    "kind": "place"
+    "headword": "華夷楼"
+    "definition_ja": "天竺国で四人の僧の肖像を掲げ、供養する楼の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch95-primary-1500606"
+      "reason_ja": "華夷樓という原字と役割を保持。永鎮華夷閣と同じ建物かは明記されず、名称を統一する確証はない。"
+    "forms":
+      - "id": "xy-ch95-huayi-tower-form"
+        "text": "華夷楼"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
