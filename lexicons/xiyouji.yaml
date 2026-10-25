@@ -2002,6 +2002,58 @@
     "title": "日本漢字能力検定協会 漢字ペディア「中原」"
     "url": "https://www.kanjipedia.jp/kotoba/0004723900"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch38-primary-1455587"
+    "title": "西遊記 第三十八回 固定版1455587"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第038回&oldid=1455587"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch38-ten-directions-dictionary"
+    "title": "小学館・平凡社ほか「十方」コトバンク収録"
+    "url": "https://kotobank.jp/word/十方-521720"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch38-nine-springs-kokugakuin"
+    "title": "國學院大學デジタル・ミュージアム「きゅうせん」"
+    "url": "https://jmapps.ne.jp/kokugakuin/det.html?data_id=31936"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch38-youli-dictionary"
+    "title": "精選版日本国語大辞典「羑里」コトバンク収録"
+    "url": "https://kotobank.jp/word/羑里-1431233"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch38-xiaohe-dictionary"
+    "title": "小学館・平凡社ほか「蕭何」コトバンク収録"
+    "url": "https://kotobank.jp/word/蕭何-78868"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch38-huai-ndl"
+    "title": "近畿大学中央図書館「淮河について知りたい。」国立国会図書館レファレンス協同データベース"
+    "url": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000068872&page=ref_view"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch38-huai-dictionary"
+    "title": "小学館・平凡社ほか「淮水」コトバンク収録"
+    "url": "https://kotobank.jp/word/淮水-664321"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch38-ji-dictionary"
+    "title": "平凡社ほか「済水」コトバンク収録"
+    "url": "https://kotobank.jp/word/済水-1178886"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch38-mantra-research"
+    "title": "千賀由佳『明末通俗小説における僧侶と神異』（東京大学博士論文、2021年）27頁"
+    "url": "https://repository.dl.itc.u-tokyo.ac.jp/record/2008563/files/A38580.pdf"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch38-qiansui-moe"
+    "title": "教育部《重編國語辭典修訂本》「千歲」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=100519&la=1&powerMode=0"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch38-senzai-dictionary"
+    "title": "デジタル大辞泉「千歳」コトバンク収録"
+    "url": "https://kotobank.jp/word/千歳-96354"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch38-royal-ko-dictionary"
+    "title": "精選版日本国語大辞典「孤」コトバンク収録"
+    "url": "https://kotobank.jp/word/孤-493398"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch38-kajin-dictionary"
+    "title": "デジタル大辞泉「寡人」コトバンク収録"
+    "url": "https://kotobank.jp/word/寡人-462471"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -19795,10 +19847,11 @@
   - "id": "xy-entry-0902"
     "kind": "person"
     "headword": "猪悟能"
-    "definition_ja": "福陵山で観音に帰依した豚の妖怪。元の天蓬元帥"
+    "definition_ja": "福陵山で観音に帰依した豚の妖怪。元の天蓬元帥 「猪九戒」は八戒の名をもじって悟空が仮に持ち出す冗談の呼び名。"
     "definition_evidence":
       "status": "estimated"
-      "source_ids": []
+      "source_ids":
+        - "xy-ch38-primary-1455587"
       "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。"
     "forms":
       - "id": "xy-form-1034"
@@ -19908,6 +19961,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+      - "id": "xy-zhu-jiujie-joke-form"
+        "text": "猪九戒"
+        "relation": "alias"
+        "reading":
+          "kana": "ちょきゅうかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "猪八戒の「八」を「九」に替えた、悟空の仮定の冗談。実在の別人物名ではない。漢字の音から読む。"
   - "id": "xy-entry-0903"
     "kind": "concept"
     "headword": "精霊"
@@ -26913,7 +26974,8 @@
       "status": "estimated"
       "source_ids":
         - "xy-ch37-primary-1808441"
-      "reason_ja": "既存の太宗の着用例に加え、同名の冠を別の王も戴く原文に合わせ、個人限定でなく冠の種類として説明する。"
+        - "xy-ch38-primary-1455587"
+      "reason_ja": "複数の帝王の装いとして冠の着用が明記されるため、特定の個人だけに限定しない。沖天の形容の解釈を含むため確度を留保する。"
     "forms":
       - "id": "xy-form-1458"
         "text": "沖天冠"
@@ -42054,3 +42116,284 @@
           "source_ids":
             - "xy-ch37-zhongyuan-kanjipedia"
           "reason_ja": "漢字ペディアが「中原」に「チュウゲン」と明記する。"
+  - "id": "xy-ten-directions"
+    "kind": "concept"
+    "headword": "十方"
+    "definition_ja": "東西南北、四隅、上下を合わせた十の方角。仏教ではあらゆる世界を表す。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-ten-directions-dictionary"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-ten-directions-form"
+        "text": "十方"
+        "relation": "preferred"
+        "reading":
+          "kana": "じっぽう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch38-ten-directions-dictionary"
+          "reason_ja": "参照資料がこの語形の日本語読みを明記している。"
+  - "id": "xy-nine-springs"
+    "kind": "concept"
+    "headword": "九泉"
+    "definition_ja": "大地の下にあるとされる死者の世界。黄泉。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-nine-springs-kokugakuin"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-nine-springs-form"
+        "text": "九泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうせん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch38-nine-springs-kokugakuin"
+          "reason_ja": "参照資料がこの語形の日本語読みを明記している。"
+  - "id": "xy-brocade-fragrance-pavilion"
+    "kind": "place"
+    "headword": "錦香亭"
+    "definition_ja": "烏鶏国の宮中にある亭。皇后がここで太子を迎える。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-primary-1455587"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-brocade-fragrance-pavilion-form"
+        "text": "錦香亭"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんこうてい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を独立に確認できる資料は得られなかった。"
+  - "id": "xy-youli-prison"
+    "kind": "place"
+    "headword": "羑里"
+    "definition_ja": "殷の紂王が周の文王を幽閉したとされる地名。転じて牢獄をいう。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-youli-dictionary"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-youli-prison-form"
+        "text": "羑里"
+        "relation": "preferred"
+        "reading":
+          "kana": "ゆうり"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch38-youli-dictionary"
+          "reason_ja": "参照資料がこの語形の日本語読みを明記している。"
+  - "id": "xy-purify-dharmadhatu-mantra"
+    "kind": "concept"
+    "headword": "唵藍浄法界"
+    "definition_ja": "悟空が山神や土地神を呼び出すときに唱える真言。浄法界真言の「唵藍」に関係する句。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-primary-1455587"
+        - "xy-ch38-mantra-research"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-purify-dharmadhatu-mantra-form"
+        "text": "唵藍浄法界"
+        "relation": "preferred"
+        "reading":
+          "kana": "おんらんじょうほっかい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を独立に確認できる資料は得られなかった。"
+  - "id": "xy-spirit-soldiers"
+    "kind": "concept"
+    "headword": "陰兵"
+    "definition_ja": "神々に使役される、霊の兵。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-primary-1455587"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-spirit-soldiers-form"
+        "text": "陰兵"
+        "relation": "preferred"
+        "reading":
+          "kana": "いんぺい"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を独立に確認できる資料は得られなかった。"
+  - "id": "xy-xiao-he"
+    "kind": "person"
+    "headword": "蕭何"
+    "definition_ja": "前漢の建国を支えた政治家。法律制度を整えた人物として知られる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-xiaohe-dictionary"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-xiao-he-form"
+        "text": "蕭何"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうか"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch38-xiaohe-dictionary"
+          "reason_ja": "参照資料がこの語形の日本語読みを明記している。"
+  - "id": "xy-well-dragon-king"
+    "kind": "person"
+    "headword": "井竜王"
+    "definition_ja": "烏鶏国の井戸の底に住む竜王。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-primary-1455587"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-well-dragon-king-form"
+        "text": "井竜王"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいりゅうおう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を独立に確認できる資料は得られなかった。"
+  - "id": "xy-well-crystal-palace"
+    "kind": "place"
+    "headword": "水晶宮"
+    "definition_ja": "烏鶏国の井戸の底にある井竜王の宮殿。東海・洪江・涇河の同名の宮とは区別する。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-primary-1455587"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-well-crystal-palace-form"
+        "text": "水晶宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいしょうきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を独立に確認できる資料は得られなかった。"
+  - "id": "xy-huai-river"
+    "kind": "place"
+    "headword": "淮水"
+    "definition_ja": "中国の河川、淮河の別称。長江・黄河・済水とともに四瀆に数えられる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-huai-dictionary"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-huai-river-form"
+        "text": "淮水"
+        "relation": "preferred"
+        "reading":
+          "kana": "わいすい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch38-huai-ndl"
+          "reason_ja": "参照資料がこの語形の日本語読みを明記している。"
+  - "id": "xy-ji-river"
+    "kind": "place"
+    "headword": "済水"
+    "definition_ja": "中国で古く長江・黄河・淮水とともに四瀆に数えられた川。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-ji-dictionary"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-ji-river-form"
+        "text": "済水"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいすい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch38-ji-dictionary"
+          "reason_ja": "参照資料がこの語形の日本語読みを明記している。"
+  - "id": "xy-water-repelling-pearl"
+    "kind": "object"
+    "headword": "辟水珠"
+    "definition_ja": "水を退ける宝珠。井竜王がこれを外すと、水晶宮の外に水が満ちる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-primary-1455587"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-water-repelling-pearl-form"
+        "text": "辟水珠"
+        "relation": "preferred"
+        "reading":
+          "kana": "へきすいしゅ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を独立に確認できる資料は得られなかった。"
+  - "id": "xy-royal-ko"
+    "kind": "term"
+    "headword": "孤"
+    "definition_ja": "中国の王侯が自分をへりくだって呼ぶ言葉。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-royal-ko-dictionary"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-royal-ko-form"
+        "text": "孤"
+        "relation": "preferred"
+        "reading":
+          "kana": "こ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch38-royal-ko-dictionary"
+          "reason_ja": "参照資料がこの語形の日本語読みを明記している。"
+  - "id": "xy-royal-kajin"
+    "kind": "term"
+    "headword": "寡人"
+    "definition_ja": "徳の少ない者という意を込めた、君主の自称。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-kajin-dictionary"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-royal-kajin-form"
+        "text": "寡人"
+        "relation": "preferred"
+        "reading":
+          "kana": "かじん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch38-kajin-dictionary"
+          "reason_ja": "参照資料がこの語形の日本語読みを明記している。"
+  - "id": "xy-qiansui-honorific"
+    "kind": "title"
+    "headword": "千歳"
+    "definition_ja": "中国の小説や芝居で、親王など皇族を敬って呼ぶ言葉。千年の長寿を祝う意を持つ。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch38-qiansui-moe"
+        - "xy-ch38-senzai-dictionary"
+      "reason_ja": "参照資料の説明および原文の指示対象を照合した。後の正体・展開は加えていない。"
+    "forms":
+      - "id": "xy-qiansui-honorific-form"
+        "text": "千歳"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんざい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch38-senzai-dictionary"
+          "reason_ja": "日本語辞書で同表記の「せんざい」は確認できるが、中国の尊称として使う場合の日本語仮名を明記した資料は未確認のため、読みの確度はestimatedとする。"
