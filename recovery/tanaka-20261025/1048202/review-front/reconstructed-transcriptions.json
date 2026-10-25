@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "document_id": "1048202",
+    "scope_scans": [
+      1,
+      12
+    ],
+    "recovery_method": "conversation_summary_reconstruction",
+    "status": "reconstructed_not_reverified",
+    "warning": "旧ファイルの復元ではない。残存要約記録に残る具体的事項だけを再構築した。今回の原画像再照合は未実施。旧件数を回収件数とみなさない。source_text/hash/offsetは未回収のため生成しない。",
+    "previous_reported_totals": {
+      "transcription_records": 74,
+      "ruby": 218,
+      "emphasis": 1,
+      "translation_corrections": 25
+    },
+    "previous_artifacts_reported_sha256": {
+      "input.json": "c127eac6cb68825d85f74dd3042da817a30caf8646e57936b8cf2f1f225c8926",
+      "transcriptions.json": "3cfb2524b9103a5ac40d8f806a6e7d9946932fb4e0fab3fdc1fa2d84b8202a2e",
+      "translation-corrections.json": "497afad7a88457f1beefa3074ae82bac1840202505eabc50be184f418bc3147f",
+      "independent-review.json": "3413c24cd5df4983d96b6c47d8cd90ea60d1293d10b0f8ad0d6d1b318ee3b8bd"
+    },
+    "hash_warning": "上記は旧成果に関する残存記録であり、この再構築ファイルのハッシュではない。"
+  },
+  "records": [
+    {
+      "scan": 6,
+      "segment_ids": [
+        "ns-p0006-014",
+        "ns-p0006-015"
+      ],
+      "base": "陰陽",
+      "reading": "ヲガミメガミ",
+      "note": "著者採用訓。賀茂真淵の引用訓メガミヲガミと混同不可。"
+    },
+    {
+      "scan": 7,
+      "segment_id": "ns-p0007-002",
+      "base": "正",
+      "reading": "タダシキヲ",
+      "edition": "敷田年治 日本紀標註"
+    },
+    {
+      "scan": 7,
+      "kind": "emphasis",
+      "exact_text": "タカミクラヰと云語は、『紀』中の訓より外には、をさ〱見あたらず",
+      "note": "原文の輪形傍点。segment_id/offset未回収。"
+    },
+    {
+      "scan": 7,
+      "base": "位",
+      "reading": "クラヰ",
+      "occurrence_hint": "旧原稿の4番目。記傳に、位は座…の箇所。新原稿の出現番号として使用不可。"
+    },
+    {
+      "scan": 7,
+      "base": "座",
+      "reading": "クラ",
+      "occurrence_hint": "旧原稿の4番目。同上。新原稿の出現番号として使用不可。"
+    },
+    {
+      "scan": 7,
+      "base": "居",
+      "reading": "スヱ",
+      "occurrence_hint": "旧原稿の4番目。物を居る臺…の箇所。新原稿の出現番号として使用不可。"
+    },
+    {
+      "scan": 8,
+      "base": "經始",
+      "reading": "ツクリハジム",
+      "segment_ids": [
+        "ns-p0008-003",
+        "ns-p0008-004",
+        "ns-p0008-005",
+        "ns-p0008-006",
+        "ns-p0008-007",
+        "ns-p0008-009"
+      ]
+    },
+    {
+      "scan": 8,
+      "base": "功德",
+      "reading": "ノリノワザ",
+      "note": "第五比較表。各対象行IDは未回収。"
+    },
+    {
+      "scan": 8,
+      "base": "功",
+      "reading": "ノリ",
+      "edition": "▲本書"
+    },
+    {
+      "scan": 8,
+      "base": "德",
+      "reading": "コト",
+      "edition": "▲本書"
+    },
+    {
+      "scan": 8,
+      "base": "禮拜",
+      "reading": "ミヅカラヲガム",
+      "edition": "通釋"
+    },
+    {
+      "scan": 9,
+      "base": "國司",
+      "reading": "ミコトモチ",
+      "note": "大半の比較行。各行ID未回収。"
+    },
+    {
+      "scan": 9,
+      "segment_id": "ns-p0009-004",
+      "base": "司",
+      "reading": "ミコトモチ",
+      "edition": "図書寮本",
+      "note": "國に読みがなく司だけにルビが付く。本文の説明と対応。"
+    },
+    {
+      "scan": 9,
+      "base": "國司",
+      "reading": "クニノミコトモチ",
+      "edition": "▲本書"
+    },
+    {
+      "scan": 9,
+      "base": "國國宰",
+      "reading": "クニグニノミコトモチ",
+      "note": "比較表後の説明。"
+    },
+    {
+      "scan": 12,
+      "base": "義",
+      "reading": "ヨシ",
+      "note": "著者名原ルビ。"
+    },
+    {
+      "scan": 12,
+      "base": "能",
+      "reading": "タウ",
+      "note": "著者名原ルビは歴史的表記ヨシタウ。"
+    }
+  ],
+  "uncertainties": [
+    {
+      "scan": 6,
+      "location": "第一比較表第1・第3行、遘合",
+      "issue": "小字ク/グおよび括弧付きマヒの配置未確定。"
+    },
+    {
+      "scan": 8,
+      "location": "第五比較表の初期漢文訓点行",
+      "issue": "微小返り点の配置未確定。標準訓点で補完しない。"
+    },
+    {
+      "scan": 8,
+      "segment_id": "ns-p0008-022",
+      "location": "國史大系、讃",
+      "issue": "小字はノのように見えるが未確定。ほめてと推測補完不可。"
+    },
+    {
+      "scan": 12,
+      "location": "朴略のルビ",
+      "issue": "ホクリャクらしいが濁点未確定。"
+    }
+  ]
+}

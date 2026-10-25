@@ -1,0 +1,2190 @@
+{
+  "status": "reconstructed_not_revalidated",
+  "source_images_available": false,
+  "input_snapshot_available": false,
+  "prior_body_reviewed": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64
+  ],
+  "prior_fine_reviewed": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "current_verified_pages": [],
+  "corrections": [
+    {
+      "segment_id": "ns-p0042-001",
+      "field": "translation_ja",
+      "old": "「すめむつかむろぎかむろみのみこともちて」、また「ここをもちてあまつかみのみこともちて」",
+      "new": "「皇祖の神である神漏岐・神漏美の仰せによって」、また「こうして天津神の仰せによって」",
+      "reason_ja": "音写だけでなく命＝御言という著者語釈に即して現代語化。"
+    },
+    {
+      "segment_id": "ns-p0052-004",
+      "field": "translation_ja",
+      "old": "残忍なところがあった",
+      "new": "怒りを内に秘めているところがあった",
+      "reason_ja": "原刊安忍の訓イブリナルを54著者語釈「言に出さないで…憤つて居らるゝ」に即す。51漢文一般訳は別扱い。"
+    },
+    {
+      "segment_id": "ns-p0049-005",
+      "field": "translation_ja",
+      "old": "トンボが交尾しているようだ",
+      "new": "トンボが尾をくわえるようだ",
+      "reason_ja": "蜻蛉之臀呫トナメの姿の比喩。交尾に限定しない。"
+    },
+    {
+      "segment_id": "ns-p0056-001",
+      "field": "translation_ja",
+      "old": "当時、中国で最も有力な神だった",
+      "new": "当時、葦原中国で最も有力な神だった",
+      "reason_ja": "現代の中国国家との混同を避ける。"
+    },
+    {
+      "segment_id": "ns-p0057-005",
+      "field": "translation_ja",
+      "old": "嫡孫が祖父を継ぐ",
+      "new": "嫡孫が祖父母を継ぐ",
+      "reason_ja": "祖は天照大神から皇孫の継承、祖父だけに限定しない。"
+    },
+    {
+      "segment_id": "ns-p0058-004",
+      "field": "translation_ja",
+      "old": "幾千もの秋に豊かな稲穂の実る国",
+      "new": "幾千もの秋にわたってみずみずしく栄える優れた国",
+      "reason_ja": "61–62著者は瑞穂を稲穂とする解釈を退け瑞秀國とする。著者訓読訳として整合。漢文一般訳は別扱い。"
+    },
+    {
+      "segment_id": "ns-p0058-004",
+      "field": "translation_ja",
+      "old": "お行きなさい。",
+      "new": "つつがなくお過ごしなさい。",
+      "reason_ja": "行ませの原ルビサキクマセと62の幸くましませ祝福の語釈に従う。"
+    },
+    {
+      "segment_id": "ns-p0063-005",
+      "field": "translation_ja",
+      "old": "私が高天原で治めている斎庭の穂を、わが子にも奉りなさい",
+      "new": "私が高天原で食する斎庭の稲穂を、わが子にも召し上がらせなさい",
+      "reason_ja": "65著者語釈「所聞食を主として傳へられた」と御字の食事の義。統治ではない。"
+    },
+    {
+      "segment_id": "ns-p0063-007",
+      "field": "translation_ja",
+      "old": "私が高天原で治めている斎庭の穂を、わが子にも奉りなさい",
+      "new": "私が高天原で食する斎庭の稲穂を、わが子にも召し上がらせなさい",
+      "reason_ja": "65著者語釈「所聞食を主として傳へられた」と御字の食事の義。統治ではない。"
+    }
+  ],
+  "annotations": [
+    {
+      "segment_id": "ns-p0033-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "鴨脚",
+      "occurrence_zero_based": 0,
+      "reading": "イチヤウ"
+    },
+    {
+      "segment_id": "ns-p0034-010",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "頃",
+      "occurrence_zero_based": 0,
+      "reading": "コノゴロ"
+    },
+    {
+      "segment_id": "ns-p0035-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "熙皞",
+      "occurrence_zero_based": 0,
+      "reading": "キカウ"
+    },
+    {
+      "segment_id": "ns-p0035-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "兼方",
+      "occurrence_zero_based": 1,
+      "reading": "カネカタ"
+    },
+    {
+      "segment_id": "ns-p0035-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "懷賢",
+      "occurrence_zero_based": 0,
+      "reading": "カネカタ"
+    },
+    {
+      "segment_id": "ns-p0036-006",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "士淸",
+      "occurrence_zero_based": 0,
+      "reading": "コトスガ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "古",
+      "occurrence_zero_based": 0,
+      "reading": "イニシヘ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "天地",
+      "occurrence_zero_based": 0,
+      "reading": "アメツチ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "未",
+      "occurrence_zero_based": 0,
+      "reading": "イマ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "剖",
+      "occurrence_zero_based": 0,
+      "reading": "ワカ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "陰陽",
+      "occurrence_zero_based": 0,
+      "reading": "メヲ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "分",
+      "occurrence_zero_based": 0,
+      "reading": "ワカ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "渾沌",
+      "occurrence_zero_based": 0,
+      "reading": "マロカレ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "雞子",
+      "occurrence_zero_based": 0,
+      "reading": "トリノコ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "溟涬",
+      "occurrence_zero_based": 0,
+      "reading": "ククモ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "牙",
+      "occurrence_zero_based": 0,
+      "reading": "カビ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "含",
+      "occurrence_zero_based": 0,
+      "reading": "フク"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "其",
+      "occurrence_zero_based": 0,
+      "reading": "ソ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "淸",
+      "occurrence_zero_based": 0,
+      "reading": "ス"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "陽",
+      "occurrence_zero_based": 1,
+      "reading": "アキラ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "者",
+      "occurrence_zero_based": 0,
+      "reading": "モノ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "薄靡",
+      "occurrence_zero_based": 0,
+      "reading": "タナビ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "天",
+      "occurrence_zero_based": 1,
+      "reading": "アメ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "爲",
+      "occurrence_zero_based": 0,
+      "reading": "ナ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "重",
+      "occurrence_zero_based": 0,
+      "reading": "オモ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "濁",
+      "occurrence_zero_based": 0,
+      "reading": "ニゴ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "淹滯",
+      "occurrence_zero_based": 0,
+      "reading": "ツヅ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "地",
+      "occurrence_zero_based": 1,
+      "reading": "ツチ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "爲",
+      "occurrence_zero_based": 1,
+      "reading": "ナ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "及",
+      "occurrence_zero_based": 0,
+      "reading": "オヨ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "精",
+      "occurrence_zero_based": 0,
+      "reading": "クハ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "妙",
+      "occurrence_zero_based": 0,
+      "reading": "タヘ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "合",
+      "occurrence_zero_based": 0,
+      "reading": "ア"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "搏",
+      "occurrence_zero_based": 0,
+      "reading": "アフ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "易",
+      "occurrence_zero_based": 0,
+      "reading": "ヤス"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "重",
+      "occurrence_zero_based": 1,
+      "reading": "オモ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "濁",
+      "occurrence_zero_based": 1,
+      "reading": "ニゴ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "凝",
+      "occurrence_zero_based": 0,
+      "reading": "コゴ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "揭",
+      "occurrence_zero_based": 0,
+      "reading": "カカヨ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "難",
+      "occurrence_zero_based": 0,
+      "reading": "ガタ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "故",
+      "occurrence_zero_based": 0,
+      "reading": "カ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "先",
+      "occurrence_zero_based": 0,
+      "reading": "マ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "成",
+      "occurrence_zero_based": 0,
+      "reading": "ナ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "地",
+      "occurrence_zero_based": 2,
+      "reading": "ツチ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "後",
+      "occurrence_zero_based": 0,
+      "reading": "ノチ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "定",
+      "occurrence_zero_based": 0,
+      "reading": "サダ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "然",
+      "occurrence_zero_based": 0,
+      "reading": "シカ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "後",
+      "occurrence_zero_based": 1,
+      "reading": "ノチ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "神聖",
+      "occurrence_zero_based": 0,
+      "reading": "カミ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "其",
+      "occurrence_zero_based": 1,
+      "reading": "ソ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "中",
+      "occurrence_zero_based": 0,
+      "reading": "ナカ"
+    },
+    {
+      "segment_id": "ns-p0037-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "生",
+      "occurrence_zero_based": 0,
+      "reading": "ア"
+    },
+    {
+      "segment_id": "ns-p0037-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "伊邇志閉",
+      "occurrence_zero_based": 0,
+      "reading": "イニシヘ"
+    },
+    {
+      "segment_id": "ns-p0037-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "去方",
+      "occurrence_zero_based": 0,
+      "reading": "イニシヘ"
+    },
+    {
+      "segment_id": "ns-p0037-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "目方",
+      "occurrence_zero_based": 0,
+      "reading": "メヘ"
+    },
+    {
+      "segment_id": "ns-p0037-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "尻方",
+      "occurrence_zero_based": 0,
+      "reading": "シリヘ"
+    },
+    {
+      "segment_id": "ns-p0038-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "阿米都知",
+      "occurrence_zero_based": 0,
+      "reading": "アメツチ"
+    },
+    {
+      "segment_id": "ns-p0038-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "蒼々",
+      "occurrence_zero_based": 0,
+      "reading": "アヲアヲ"
+    },
+    {
+      "segment_id": "ns-p0038-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "都",
+      "occurrence_zero_based": 0,
+      "reading": "スベ"
+    },
+    {
+      "segment_id": "ns-p0038-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "圓形",
+      "occurrence_zero_based": 0,
+      "reading": "マロカタ"
+    },
+    {
+      "segment_id": "ns-p0038-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "圍成",
+      "occurrence_zero_based": 0,
+      "reading": "カコナセ"
+    },
+    {
+      "segment_id": "ns-p0038-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "疆界",
+      "occurrence_zero_based": 0,
+      "reading": "カギリ"
+    },
+    {
+      "segment_id": "ns-p0038-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "阿米",
+      "occurrence_zero_based": 0,
+      "reading": "アメ"
+    },
+    {
+      "segment_id": "ns-p0038-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "大地",
+      "occurrence_zero_based": 0,
+      "reading": "オホツチ"
+    },
+    {
+      "segment_id": "ns-p0038-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "未剖",
+      "occurrence_zero_based": 0,
+      "reading": "イマダワカレズ"
+    },
+    {
+      "segment_id": "ns-p0038-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "賣袁",
+      "occurrence_zero_based": 0,
+      "reading": "メヲ"
+    },
+    {
+      "segment_id": "ns-p0038-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "麻呂加禮",
+      "occurrence_zero_based": 0,
+      "reading": "マロカレ"
+    },
+    {
+      "segment_id": "ns-p0038-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "牟良加禮",
+      "occurrence_zero_based": 0,
+      "reading": "ムラカレ"
+    },
+    {
+      "segment_id": "ns-p0038-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "聚在",
+      "occurrence_zero_based": 0,
+      "reading": "ムラガリ"
+    },
+    {
+      "segment_id": "ns-p0038-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "一沌",
+      "occurrence_zero_based": 0,
+      "reading": "ヒトカタマリ"
+    },
+    {
+      "segment_id": "ns-p0038-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "叢雲",
+      "occurrence_zero_based": 0,
+      "reading": "ムラクモ"
+    },
+    {
+      "segment_id": "ns-p0038-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "村鳥",
+      "occurrence_zero_based": 0,
+      "reading": "ムラトリ"
+    },
+    {
+      "segment_id": "ns-p0038-005",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "圓在",
+      "occurrence_zero_based": 0,
+      "reading": "マロカレ"
+    },
+    {
+      "segment_id": "ns-p0038-005",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "聚在",
+      "occurrence_zero_based": 0,
+      "reading": "ムラガリ"
+    },
+    {
+      "segment_id": "ns-p0038-005",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "如雞子",
+      "occurrence_zero_based": 0,
+      "reading": "トリノコノゴトシ"
+    },
+    {
+      "segment_id": "ns-p0038-005",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "復重",
+      "occurrence_zero_based": 0,
+      "reading": "マタカサ"
+    },
+    {
+      "segment_id": "ns-p0038-006",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "久々母理",
+      "occurrence_zero_based": 0,
+      "reading": "ククモリ"
+    },
+    {
+      "segment_id": "ns-p0038-006",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "曇",
+      "occurrence_zero_based": 0,
+      "reading": "クモリ"
+    },
+    {
+      "segment_id": "ns-p0038-006",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "加備",
+      "occurrence_zero_based": 0,
+      "reading": "カビ"
+    },
+    {
+      "segment_id": "ns-p0038-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "多奈毘伎",
+      "occurrence_zero_based": 0,
+      "reading": "タナビキ"
+    },
+    {
+      "segment_id": "ns-p0038-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "靉靆",
+      "occurrence_zero_based": 0,
+      "reading": "タナビ"
+    },
+    {
+      "segment_id": "ns-p0038-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "多奈毘伎",
+      "occurrence_zero_based": 1,
+      "reading": "タナビキ"
+    },
+    {
+      "segment_id": "ns-p0038-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "級長津彥",
+      "occurrence_zero_based": 0,
+      "reading": "シナツヒコ"
+    },
+    {
+      "segment_id": "ns-p0038-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "長",
+      "occurrence_zero_based": 1,
+      "reading": "ナ"
+    },
+    {
+      "segment_id": "ns-p0038-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "通碁流",
+      "occurrence_zero_based": 0,
+      "reading": "ニゴル"
+    },
+    {
+      "segment_id": "ns-p0038-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "土凝",
+      "occurrence_zero_based": 0,
+      "reading": "ニコ"
+    },
+    {
+      "segment_id": "ns-p0038-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "都豆伎氏",
+      "occurrence_zero_based": 0,
+      "reading": "ツヅキテ"
+    },
+    {
+      "segment_id": "ns-p0038-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "浮膏",
+      "occurrence_zero_based": 0,
+      "reading": "ウキアブラ"
+    },
+    {
+      "segment_id": "ns-p0038-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "旋轉",
+      "occurrence_zero_based": 0,
+      "reading": "メグ"
+    },
+    {
+      "segment_id": "ns-p0038-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "聯",
+      "occurrence_zero_based": 0,
+      "reading": "ツラナ"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "久波志久多閇那留",
+      "occurrence_zero_based": 0,
+      "reading": "クハシクタヘナル"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "細矛千足國",
+      "occurrence_zero_based": 0,
+      "reading": "クハシホコチタルクニ"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "久波志伎",
+      "occurrence_zero_based": 0,
+      "reading": "クハシキ"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "多閇",
+      "occurrence_zero_based": 1,
+      "reading": "タヘ"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "白栲",
+      "occurrence_zero_based": 0,
+      "reading": "シロタヘ"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "栲",
+      "occurrence_zero_based": 1,
+      "reading": "タク"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "可美",
+      "occurrence_zero_based": 0,
+      "reading": "ウマ"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "皆靈",
+      "occurrence_zero_based": 0,
+      "reading": "ミナクシ"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "妙",
+      "occurrence_zero_based": 5,
+      "reading": "クシ"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "靈妙",
+      "occurrence_zero_based": 0,
+      "reading": "クシタヘ"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "合",
+      "occurrence_zero_based": 1,
+      "reading": "アヘ"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "合團",
+      "occurrence_zero_based": 0,
+      "reading": "アヒマト"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "阿布伎夜須久",
+      "occurrence_zero_based": 0,
+      "reading": "アフキヤスク"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "振",
+      "occurrence_zero_based": 0,
+      "reading": "フリ"
+    },
+    {
+      "segment_id": "ns-p0038-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "振團",
+      "occurrence_zero_based": 0,
+      "reading": "フリマル"
+    },
+    {
+      "segment_id": "ns-p0038-010",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "其矛鋒滴瀝之潮凝成一島",
+      "occurrence_zero_based": 0,
+      "reading": "ソノホコノサキヨリシタタルシホコリテヒトツノシマトナル"
+    },
+    {
+      "segment_id": "ns-p0038-010",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "鹽許袁呂許袁呂邇",
+      "occurrence_zero_based": 0,
+      "reading": "シホコヲロコヲロニ"
+    },
+    {
+      "segment_id": "ns-p0038-010",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "鹽許袁呂許袁呂",
+      "occurrence_zero_based": 1,
+      "reading": "シホコヲロコヲロ"
+    },
+    {
+      "segment_id": "ns-p0038-010",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "漸々",
+      "occurrence_zero_based": 0,
+      "reading": "ヤウヤウ"
+    },
+    {
+      "segment_id": "ns-p0039-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "濁",
+      "occurrence_zero_based": 0,
+      "reading": "ニゴ"
+    },
+    {
+      "segment_id": "ns-p0039-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "凝",
+      "occurrence_zero_based": 0,
+      "reading": "コ"
+    },
+    {
+      "segment_id": "ns-p0039-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "揭",
+      "occurrence_zero_based": 0,
+      "reading": "カカマ"
+    },
+    {
+      "segment_id": "ns-p0039-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "迦禮",
+      "occurrence_zero_based": 0,
+      "reading": "カレ"
+    },
+    {
+      "segment_id": "ns-p0039-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "迦迦禮婆",
+      "occurrence_zero_based": 0,
+      "reading": "カカレバ"
+    },
+    {
+      "segment_id": "ns-p0039-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "約",
+      "occurrence_zero_based": 0,
+      "reading": "ツヅマリ"
+    },
+    {
+      "segment_id": "ns-p0039-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "迦微",
+      "occurrence_zero_based": 0,
+      "reading": "カミ"
+    },
+    {
+      "segment_id": "ns-p0039-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "迦微",
+      "occurrence_zero_based": 1,
+      "reading": "カミ"
+    },
+    {
+      "segment_id": "ns-p0039-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "迦",
+      "occurrence_zero_based": 2,
+      "reading": "カ"
+    },
+    {
+      "segment_id": "ns-p0039-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "微",
+      "occurrence_zero_based": 2,
+      "reading": "ミ"
+    },
+    {
+      "segment_id": "ns-p0039-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "高皇產靈",
+      "occurrence_zero_based": 0,
+      "reading": "タカミムスビ"
+    },
+    {
+      "segment_id": "ns-p0039-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "靈",
+      "occurrence_zero_based": 2,
+      "reading": "ビ"
+    },
+    {
+      "segment_id": "ns-p0039-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "上",
+      "occurrence_zero_based": 0,
+      "reading": "カミ"
+    },
+    {
+      "segment_id": "ns-p0039-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "加美",
+      "occurrence_zero_based": 0,
+      "reading": "カミ"
+    },
+    {
+      "segment_id": "ns-p0039-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "如此",
+      "occurrence_zero_based": 0,
+      "reading": "カカル"
+    },
+    {
+      "segment_id": "ns-p0039-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "臆度",
+      "occurrence_zero_based": 0,
+      "reading": "オシハカリ"
+    },
+    {
+      "segment_id": "ns-p0039-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "姑",
+      "occurrence_zero_based": 0,
+      "reading": "シバラ"
+    },
+    {
+      "segment_id": "ns-p0039-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "未",
+      "occurrence_zero_based": 0,
+      "reading": "イマダ"
+    },
+    {
+      "segment_id": "ns-p0039-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "有",
+      "occurrence_zero_based": 0,
+      "reading": "アラ"
+    },
+    {
+      "segment_id": "ns-p0039-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "孰",
+      "occurrence_zero_based": 0,
+      "reading": "タレ"
+    },
+    {
+      "segment_id": "ns-p0039-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "空言作事",
+      "occurrence_zero_based": 0,
+      "reading": "ソラコトツクリゴト"
+    },
+    {
+      "segment_id": "ns-p0039-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "謬見",
+      "occurrence_zero_based": 0,
+      "reading": "アヤマリタルミカタ"
+    },
+    {
+      "segment_id": "ns-p0039-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "何人",
+      "occurrence_zero_based": 0,
+      "reading": "タレ"
+    },
+    {
+      "segment_id": "ns-p0039-005",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "精妙",
+      "occurrence_zero_based": 0,
+      "reading": "クハシ"
+    },
+    {
+      "segment_id": "ns-p0039-005",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "微妙",
+      "occurrence_zero_based": 0,
+      "reading": "タヘ"
+    },
+    {
+      "segment_id": "ns-p0039-005",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "產靈",
+      "occurrence_zero_based": 0,
+      "reading": "ムスビ"
+    },
+    {
+      "segment_id": "ns-p0039-005",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "可美葦牙彥男神",
+      "occurrence_zero_based": 0,
+      "reading": "ウマシアシカビヒコヂノカミ"
+    },
+    {
+      "segment_id": "ns-p0039-005",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "天常立神",
+      "occurrence_zero_based": 0,
+      "reading": "アマノトコタチノカミ"
+    },
+    {
+      "segment_id": "ns-p0039-004",
+      "side": "source",
+      "kind": "emphasis",
+      "exact": "日本の文字",
+      "occurrence_zero_based": 0
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "故",
+      "occurrence_zero_based": 0,
+      "reading": "カ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "曰",
+      "occurrence_zero_based": 0,
+      "reading": "イ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "開闢之初",
+      "occurrence_zero_based": 0,
+      "reading": "アメツチノワカルルハジメ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "洲壤",
+      "occurrence_zero_based": 0,
+      "reading": "クニツチ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "浮",
+      "occurrence_zero_based": 0,
+      "reading": "ウカ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "漂",
+      "occurrence_zero_based": 0,
+      "reading": "タダヨ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "譬",
+      "occurrence_zero_based": 0,
+      "reading": "タト"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "猶",
+      "occurrence_zero_based": 0,
+      "reading": "ナホ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "游",
+      "occurrence_zero_based": 0,
+      "reading": "オヨ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "魚",
+      "occurrence_zero_based": 0,
+      "reading": "ウヲ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "水",
+      "occurrence_zero_based": 0,
+      "reading": "ミヅ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "浮",
+      "occurrence_zero_based": 1,
+      "reading": "ウ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "于時",
+      "occurrence_zero_based": 0,
+      "reading": "ソノトキ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "天地",
+      "occurrence_zero_based": 0,
+      "reading": "アメツチ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "中",
+      "occurrence_zero_based": 0,
+      "reading": "ナカ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "一",
+      "occurrence_zero_based": 0,
+      "reading": "ヒトツ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "物",
+      "occurrence_zero_based": 0,
+      "reading": "モノ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "狀",
+      "occurrence_zero_based": 0,
+      "reading": "カタチ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "葦牙",
+      "occurrence_zero_based": 0,
+      "reading": "アシカビ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "如",
+      "occurrence_zero_based": 0,
+      "reading": "ゴト"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "便",
+      "occurrence_zero_based": 0,
+      "reading": "スナハ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "神",
+      "occurrence_zero_based": 0,
+      "reading": "カミ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "化爲",
+      "occurrence_zero_based": 0,
+      "reading": "ナ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "國常立尊",
+      "occurrence_zero_based": 0,
+      "reading": "クニノトコタチノミコト"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "號",
+      "occurrence_zero_based": 0,
+      "reading": "ナヅ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "至",
+      "occurrence_zero_based": 0,
+      "reading": "イタリ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "貴",
+      "occurrence_zero_based": 0,
+      "reading": "タフトキ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "尊",
+      "occurrence_zero_based": 1,
+      "reading": "ミコト"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "自余",
+      "occurrence_zero_based": 0,
+      "reading": "シヨ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "命",
+      "occurrence_zero_based": 0,
+      "reading": "ミコト"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "並",
+      "occurrence_zero_based": 0,
+      "reading": "ナラビ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "美擧等",
+      "occurrence_zero_based": 0,
+      "reading": "ミコト"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "下",
+      "occurrence_zero_based": 0,
+      "reading": "シモ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "次",
+      "occurrence_zero_based": 0,
+      "reading": "ツギ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "國狹槌尊",
+      "occurrence_zero_based": 0,
+      "reading": "クニノサツチノミコト"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "次",
+      "occurrence_zero_based": 1,
+      "reading": "ツギ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "豐斟渟尊",
+      "occurrence_zero_based": 0,
+      "reading": "トヨクムヌノミコト"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "凡",
+      "occurrence_zero_based": 0,
+      "reading": "スベ"
+    },
+    {
+      "segment_id": "ns-p0040-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "三神",
+      "occurrence_zero_based": 0,
+      "reading": "ミハシラノカミ"
+    },
+    {
+      "segment_id": "ns-p0040-006",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "阿米都智乃和加流々波自米",
+      "occurrence_zero_based": 0,
+      "reading": "アメツチノワカルルハジメ"
+    },
+    {
+      "segment_id": "ns-p0040-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "國土",
+      "occurrence_zero_based": 0,
+      "reading": "クニツチ"
+    },
+    {
+      "segment_id": "ns-p0040-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "宇加禮多陀用布",
+      "occurrence_zero_based": 0,
+      "reading": "ウカレタダヨフ"
+    },
+    {
+      "segment_id": "ns-p0040-007",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "久羅下那洲多陀用幣流",
+      "occurrence_zero_based": 0,
+      "reading": "クラゲナスタダヨヘル"
+    },
+    {
+      "segment_id": "ns-p0040-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "阿曾夫",
+      "occurrence_zero_based": 0,
+      "reading": "アソブ"
+    },
+    {
+      "segment_id": "ns-p0040-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "於與具",
+      "occurrence_zero_based": 0,
+      "reading": "オヨグ"
+    },
+    {
+      "segment_id": "ns-p0040-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "宇遠",
+      "occurrence_zero_based": 0,
+      "reading": "ウヲ"
+    },
+    {
+      "segment_id": "ns-p0040-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "伊遠",
+      "occurrence_zero_based": 0,
+      "reading": "イヲ"
+    },
+    {
+      "segment_id": "ns-p0040-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "稚",
+      "occurrence_zero_based": 0,
+      "reading": "ワカ"
+    },
+    {
+      "segment_id": "ns-p0040-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "浮脂",
+      "occurrence_zero_based": 0,
+      "reading": "ウキアブラ"
+    },
+    {
+      "segment_id": "ns-p0040-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "膏",
+      "occurrence_zero_based": 0,
+      "reading": "アブラ"
+    },
+    {
+      "segment_id": "ns-p0040-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "漂蕩",
+      "occurrence_zero_based": 0,
+      "reading": "タダヨ"
+    },
+    {
+      "segment_id": "ns-p0040-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "海",
+      "occurrence_zero_based": 0,
+      "reading": "ウナ"
+    },
+    {
+      "segment_id": "ns-p0040-008",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "根係",
+      "occurrence_zero_based": 0,
+      "reading": "ネガカ"
+    },
+    {
+      "segment_id": "ns-p0040-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "曾能登伎",
+      "occurrence_zero_based": 0,
+      "reading": "ソノトキ"
+    },
+    {
+      "segment_id": "ns-p0040-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "疾",
+      "occurrence_zero_based": 0,
+      "reading": "ハヤキ"
+    },
+    {
+      "segment_id": "ns-p0040-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "葦牙",
+      "occurrence_zero_based": 0,
+      "reading": "アシカビ"
+    },
+    {
+      "segment_id": "ns-p0040-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "萠騰",
+      "occurrence_zero_based": 0,
+      "reading": "モエアガ"
+    },
+    {
+      "segment_id": "ns-p0040-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "浮漂",
+      "occurrence_zero_based": 0,
+      "reading": "ウカレタダヨ"
+    },
+    {
+      "segment_id": "ns-p0040-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "國",
+      "occurrence_zero_based": 0,
+      "reading": "クヌ"
+    },
+    {
+      "segment_id": "ns-p0040-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "浮脂",
+      "occurrence_zero_based": 0,
+      "reading": "ウキアブラ"
+    },
+    {
+      "segment_id": "ns-p0040-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "先",
+      "occurrence_zero_based": 0,
+      "reading": "マヅ"
+    },
+    {
+      "segment_id": "ns-p0040-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "一沌",
+      "occurrence_zero_based": 0,
+      "reading": "ヒトマロカレ"
+    },
+    {
+      "segment_id": "ns-p0040-009",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "萠騰",
+      "occurrence_zero_based": 1,
+      "reading": "モエアガ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "遺",
+      "occurrence_zero_based": 0,
+      "reading": "ノコ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "留",
+      "occurrence_zero_based": 0,
+      "reading": "トマ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "是",
+      "occurrence_zero_based": 0,
+      "reading": "コレ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "一",
+      "occurrence_zero_based": 4,
+      "reading": "ヒトツ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "物",
+      "occurrence_zero_based": 3,
+      "reading": "モノ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "虛中",
+      "occurrence_zero_based": 0,
+      "reading": "オホゾラ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "狀貌",
+      "occurrence_zero_based": 0,
+      "reading": "アリカタ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "云稱",
+      "occurrence_zero_based": 0,
+      "reading": "イフナ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "百名",
+      "occurrence_zero_based": 0,
+      "reading": "モモナ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "諸名",
+      "occurrence_zero_based": 0,
+      "reading": "モロナ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "約",
+      "occurrence_zero_based": 0,
+      "reading": "ツヅマ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "那",
+      "occurrence_zero_based": 0,
+      "reading": "ナ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "能",
+      "occurrence_zero_based": 0,
+      "reading": "ノ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "多在",
+      "occurrence_zero_based": 0,
+      "reading": "オホクア"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "百能物知人",
+      "occurrence_zero_based": 0,
+      "reading": "モモノモノシリヒト"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "諸能物知人",
+      "occurrence_zero_based": 0,
+      "reading": "モロノモノシリヒト"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "諸名",
+      "occurrence_zero_based": 1,
+      "reading": "モロナ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "母能",
+      "occurrence_zero_based": 0,
+      "reading": "モノ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "諸名",
+      "occurrence_zero_based": 2,
+      "reading": "モロナ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "物",
+      "occurrence_zero_based": 7,
+      "reading": "モノ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "物部",
+      "occurrence_zero_based": 0,
+      "reading": "モノノフ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "諸名",
+      "occurrence_zero_based": 3,
+      "reading": "モロナ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "某",
+      "occurrence_zero_based": 0,
+      "reading": "ソレ"
+    },
+    {
+      "segment_id": "ns-p0041-001",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "號",
+      "occurrence_zero_based": 0,
+      "reading": "ナヅ"
+    },
+    {
+      "segment_id": "ns-p0041-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "阿斯訶備",
+      "occurrence_zero_based": 0,
+      "reading": "アシカビ"
+    },
+    {
+      "segment_id": "ns-p0041-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "生初",
+      "occurrence_zero_based": 0,
+      "reading": "オヒソメ"
+    },
+    {
+      "segment_id": "ns-p0041-002",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "萠騰",
+      "occurrence_zero_based": 0,
+      "reading": "モエアガ"
+    },
+    {
+      "segment_id": "ns-p0041-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "可美葦牙彥男神",
+      "occurrence_zero_based": 0,
+      "reading": "ウマシアシカビヒコヂノカミ"
+    },
+    {
+      "segment_id": "ns-p0041-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "便",
+      "occurrence_zero_based": 1,
+      "reading": "スナハチ"
+    },
+    {
+      "segment_id": "ns-p0041-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "其竟",
+      "occurrence_zero_based": 0,
+      "reading": "ソノハテ"
+    },
+    {
+      "segment_id": "ns-p0041-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "畢竟",
+      "occurrence_zero_based": 0,
+      "reading": "ヲハリ"
+    },
+    {
+      "segment_id": "ns-p0041-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "果然",
+      "occurrence_zero_based": 0,
+      "reading": "ハタ"
+    },
+    {
+      "segment_id": "ns-p0041-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "迦微",
+      "occurrence_zero_based": 0,
+      "reading": "カミ"
+    },
+    {
+      "segment_id": "ns-p0041-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "化爲",
+      "occurrence_zero_based": 3,
+      "reading": "ナ"
+    },
+    {
+      "segment_id": "ns-p0041-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "文",
+      "occurrence_zero_based": 1,
+      "reading": "カザ"
+    },
+    {
+      "segment_id": "ns-p0041-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "成坐",
+      "occurrence_zero_based": 0,
+      "reading": "ナリマセ"
+    },
+    {
+      "segment_id": "ns-p0041-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "姑",
+      "occurrence_zero_based": 0,
+      "reading": "シバラク"
+    },
+    {
+      "segment_id": "ns-p0041-003",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "便成坐流神者",
+      "occurrence_zero_based": 0,
+      "reading": "スナハチナリマセルカミハ"
+    },
+    {
+      "segment_id": "ns-p0041-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "天神",
+      "occurrence_zero_based": 0,
+      "reading": "アマツカミ"
+    },
+    {
+      "segment_id": "ns-p0041-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "常",
+      "occurrence_zero_based": 2,
+      "reading": "トコ"
+    },
+    {
+      "segment_id": "ns-p0041-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "底",
+      "occurrence_zero_based": 0,
+      "reading": "ソコ"
+    },
+    {
+      "segment_id": "ns-p0041-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "都",
+      "occurrence_zero_based": 0,
+      "reading": "ツ"
+    },
+    {
+      "segment_id": "ns-p0041-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "乃",
+      "occurrence_zero_based": 0,
+      "reading": "ノ"
+    },
+    {
+      "segment_id": "ns-p0041-004",
+      "side": "source",
+      "kind": "ruby",
+      "exact": "知",
+      "occurrence_zero_based": 1,
+      "reading": "チ"
+    }
+  ],
+  "diplomatic_variants": [
+    {
+      "segment_id": "ns-p0033-009",
+      "kind": "diplomatic",
+      "text": "以〔テ〕㆓武庫相傳〔ノ〕祕本〔ヲ〕㆒令〔ムルモノナリ〕㆓書寫〔セ〕㆒者也。於〔テ〕㆓金澤〔ノ〕之風亭〔ニ〕㆒、以〔テ〕㆓前神祇伯二位入道殿〔ノ〕祕本〔ヲ〕㆒令〔ム〕㆑寫〔サ〕。",
+      "description_ja": "原画像の訓点・送り仮名を線形転写。〔〕は小字送り仮名、Unicode返り点は原刊の返読位置。残存記録より再構築、再検証要。"
+    },
+    {
+      "segment_id": "ns-p0033-010",
+      "kind": "diplomatic",
+      "text": "於〔テ〕㆓巨",
+      "description_ja": "原画像の訓点・送り仮名を線形転写。〔〕は小字送り仮名、Unicode返り点は原刊の返読位置。残存記録より再構築、再検証要。"
+    },
+    {
+      "segment_id": "ns-p0034-001",
+      "kind": "diplomatic",
+      "text": "福山建長蘭若（鎌倉建長寺）書窓〔ニ〕㆒寫す",
+      "description_ja": "原画像の訓点・送り仮名を線形転写。〔〕は小字送り仮名、Unicode返り点は原刊の返読位置。残存記録より再構築、再検証要。"
+    },
+    {
+      "segment_id": "ns-p0035-007",
+      "kind": "diplomatic",
+      "text": "卜部〔ノ〕宿禰懷賢",
+      "description_ja": "原画像の訓点・送り仮名を線形転写。〔〕は小字送り仮名、Unicode返り点は原刊の返読位置。残存記録より再構築、再検証要。"
+    },
+    {
+      "segment_id": "ns-p0037-006",
+      "kind": "diplomatic",
+      "text": "古、天地未〔ダ…ズ〕㆑剖〔レ〕、陰陽不〔ルトキ〕㆑分〔レ〕、渾沌〔タルコト〕如〔ク〕㆓雞子〔ノ〕㆒、溟涬〔リテ〕而含〔メリ〕㆑牙〔ヲ〕。及〔ビテ〕㆘其〔ノ〕淸〔ミ〕陽〔カナル〕者〔ハ〕薄靡〔キテ〕而爲〔リ〕㆑天〔ト〕、重〔ク〕濁〔レル〕者〔ハ〕淹滯〔キテ〕而爲〔ルニ〕㆖㆑地〔ト〕、精〔シク〕妙〔ナルガ〕之合〔ヘルハ〕搏〔ギ〕易〔ク〕、重〔ク〕濁〔レルガ〕之凝〔レルハ〕揭〔リ〕難〔シ〕。故〔レ〕天先〔ヅ〕成〔リテ〕而地後〔ニ〕定〔マレリ〕。然〔シテ〕後〔ニ〕神聖生〔レマセリ〕㆓其〔ノ〕中〔ニ〕㆒焉。",
+      "description_ja": "原画像の訓点・送り仮名を線形転写。〔〕は小字送り仮名、Unicode返り点は原刊の返読位置。残存記録より再構築、再検証要。"
+    },
+    {
+      "segment_id": "ns-p0039-004",
+      "kind": "diplomatic",
+      "text": "未〔ダ…ズ〕㆑有㆓天地㆒",
+      "description_ja": "原画像の訓点・送り仮名を線形転写。〔〕は小字送り仮名、Unicode返り点は原刊の返読位置。残存記録より再構築、再検証要。"
+    },
+    {
+      "segment_id": "ns-p0039-005",
+      "kind": "diplomatic",
+      "text": "天地未㆑剖、陰陽不㆑分",
+      "description_ja": "原画像の訓点・送り仮名を線形転写。〔〕は小字送り仮名、Unicode返り点は原刊の返読位置。残存記録より再構築、再検証要。"
+    },
+    {
+      "segment_id": "ns-p0040-003",
+      "kind": "diplomatic",
+      "text": "故〔レ〕曰〔ク〕開闢之初、洲壤〔ノ〕浮漂〔ヘルコト〕、譬〔ヘバ〕猶〔ホ〕游〔グ〕魚〔ノ〕之浮〔ケルガ〕㆓水〔ノ〕上〔ニ〕㆒也。于時天地〔ノ〕之中〔ニ〕、生〔レリ〕㆓一〔ノ〕物㆒、狀如〔シ〕㆓葦牙㆒。便〔チ〕化〔リ〕㆓爲神〔ト〕㆒、號〔ス〕㆓國常立尊〔ト〕㆒。〔至〔テ〕貴〔ヲ〕曰〔ヒ〕㆑尊〔ト〕、自余〔ヲ〕曰〔フ〕㆑命〔ト〕。並〔ニ〕訓〔ム〕㆓美擧等〔ト〕㆒也。下皆效〔ヘ〕㆑此〔ニ〕。〕次〔ニ〕國狹槌尊、次〔ニ〕豐斟渟尊、凡〔テ〕三〔ハシラノ〕神〔マス〕矣。",
+      "description_ja": "原画像の訓点・送り仮名を線形転写。〔〕は小字送り仮名、Unicode返り点は原刊の返読位置。残存記録より再構築、再検証要。"
+    },
+    {
+      "segment_id": "ns-p0040-008",
+      "kind": "diplomatic",
+      "text": "和名宇遠、俗云〔ニ〕伊遠",
+      "description_ja": "原画像の訓点・送り仮名を線形転写。〔〕は小字送り仮名、Unicode返り点は原刊の返読位置。残存記録より再構築、再検証要。"
+    },
+    {
+      "segment_id": "ns-p0041-003",
+      "kind": "diplomatic",
+      "text": "狀如㆓葦牙㆒／猶游魚之浮㆓水上㆒也／便化㆓爲神㆒／便化㆓爲人㆒／神聖在㆓其中㆒／便成坐流神者／卽如㆓葦牙㆒／便化㆓爲神㆒",
+      "description_ja": "原画像の訓点・送り仮名を線形転写。〔〕は小字送り仮名、Unicode返り点は原刊の返読位置。残存記録より再構築、再検証要。"
+    }
+  ],
+  "issues": [
+    {
+      "segment_id": "ns-p0051-003",
+      "status": "open",
+      "message_ja": "右頁最終行の深遠以降は独立拡大・階調補正でも末尾確定不可。「深遠であるかを…」は候補にとどめ局所留保。"
+    },
+    {
+      "segment_id": "ns-p0039-005",
+      "status": "open",
+      "message_ja": "可美葦牙彥○神の○が男/別様。田の中横画不鮮明。原ルビ ヒコヂノカミ 明瞭。41同名字形と比較未決。"
+    }
+  ],
+  "limitations": [
+    "以前の原画像照合記録から回収。新環境では原画像もinput.jsonも未取得。再検証まで完成・PASS扱い不可。",
+    "annotationは旧source_textのexact文字列と0起算出現順のみ。新source_text取得後にoffset再計算が必要。",
+    "33–41の小字追補、42は画像表示までで記録未了、43–64細字未了。",
+    "引用帰属の構造化は未着手。"
+  ],
+  "pending_checks": [
+    {
+      "scan": 56,
+      "segment_id": "ns-p0056-002",
+      "text": "大地酒知",
+      "reason": "OCR疑い。大地沼知/牟知等に見えるが原画像確認未決。標準語から補うな。"
+    },
+    {
+      "scan": 58,
+      "segment_id": "ns-p0058-002",
+      "text": "右の第一一書",
+      "reason": "第一一書=第一の一書か第十一書か、字形切れで未決。"
+    },
+    {
+      "scan": 60,
+      "segment_id": "ns-p0060-003",
+      "reason": "割注の彦狭知命語釈、古語拾遺引用内著者注の帰属を分離要。"
+    },
+    {
+      "scan": 62,
+      "reason": "秀/國/秀眞國等の傍点、小字が未独立照合。"
+    },
+    {
+      "scan": 41,
+      "reason": "男を標準神名に正規化しない。42埿、46阿能米迦具夜麻の原字順も維持。"
+    }
+  ],
+  "counts": {
+    "corrections": 9,
+    "annotations": 245,
+    "diplomatic_variants": 10,
+    "issues": 2
+  }
+}

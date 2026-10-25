@@ -1,0 +1,983 @@
+[
+  {
+    "scan": 1,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000001/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:20.088732+00:00",
+    "status": 200,
+    "bytes": 913939,
+    "sha256": "2124a799a82ddf0cccf11b6633445c3eb2d3254eb9a8b1e9591372f92ab4cdb1"
+  },
+  {
+    "scan": 2,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000002/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:20.089325+00:00",
+    "status": 200,
+    "bytes": 1169025,
+    "sha256": "f0cd279fa4f416bc258c0129b1ae09fbd8600a31c897ee3973d6c61152f74bf4"
+  },
+  {
+    "scan": 3,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000003/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:20.089923+00:00",
+    "status": 200,
+    "bytes": 1123511,
+    "sha256": "077fab3b3c5bac5d88dda385980aed5f78a7d7aa420243a54c90ec3136e5c9cc"
+  },
+  {
+    "scan": 4,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000004/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:26.917917+00:00",
+    "status": 200,
+    "bytes": 1135357,
+    "sha256": "d06ac32fac9da10e38d8010220389ed479c39694a54ad3a0b0b1e7435f18d4ef"
+  },
+  {
+    "scan": 5,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000005/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:27.092940+00:00",
+    "status": 200,
+    "bytes": 1047745,
+    "sha256": "c1147487b38c9dc333d829b303faeaaf88805c56b681b9f0ce5034aec04f06c9"
+  },
+  {
+    "scan": 6,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000006/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:27.138165+00:00",
+    "status": 200,
+    "bytes": 1206781,
+    "sha256": "c76f566700d38e78282b32ae5f658e94f4552e9860a3eb1a5701a01e434215e4"
+  },
+  {
+    "scan": 7,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000007/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:29.794000+00:00",
+    "status": 200,
+    "bytes": 1150449,
+    "sha256": "f11aae5539bfc205232f84df36bb83f116880f2cc8d6274a93420f2e6ebbdbae"
+  },
+  {
+    "scan": 8,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000008/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:30.737248+00:00",
+    "status": 200,
+    "bytes": 1128018,
+    "sha256": "63a45bc96ab74d3ef3f20029848df7c02ee4ec4c175c2b284cb5be90c1712033"
+  },
+  {
+    "scan": 9,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000009/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:30.754989+00:00",
+    "status": 200,
+    "bytes": 993887,
+    "sha256": "54706bb333280e9fed2f9850090d505a3df932200c48efcf9cd8442f9058edcc"
+  },
+  {
+    "scan": 10,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000010/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:34.018754+00:00",
+    "status": 200,
+    "bytes": 1054920,
+    "sha256": "e3e4db81a5d95917e4c6f990746122b88650a6652895d136497a61213e0708e6"
+  },
+  {
+    "scan": 11,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000011/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:34.138944+00:00",
+    "status": 200,
+    "bytes": 1139150,
+    "sha256": "c83ea12e7bc3b1f899411fef0aba69bff8d7c713bdbe0b9be9262b54811912c6"
+  },
+  {
+    "scan": 12,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000012/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:34.295642+00:00",
+    "status": 200,
+    "bytes": 1161131,
+    "sha256": "eacc41a6d6f7026558ffb470d49c155f17e0e1285b3a35a69edb89587e50c745"
+  },
+  {
+    "scan": 13,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000013/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:37.270620+00:00",
+    "status": 200,
+    "bytes": 1599344,
+    "sha256": "75ccc0063305ad19970d7bbeba89aa915ab4142f52be4fd37b0ad4d9fcb94b41"
+  },
+  {
+    "scan": 14,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000014/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:37.914788+00:00",
+    "status": 200,
+    "bytes": 1386190,
+    "sha256": "85c7edafbaa5ef5e16fdc5eeed2d46c2d5c3f8ce6d802f0250942b7c629fec71"
+  },
+  {
+    "scan": 15,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000015/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:38.072901+00:00",
+    "status": 200,
+    "bytes": 1507753,
+    "sha256": "d870ee8abbebc7a621f03831446746d2eafe8abff784112d1b640566b16a0f0d"
+  },
+  {
+    "scan": 16,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000016/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:40.442646+00:00",
+    "status": 200,
+    "bytes": 1419591,
+    "sha256": "039a920ab82e3328e78075368bdc57a7d02feb940440c684bb7bef47e0f5800e"
+  },
+  {
+    "scan": 17,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000017/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:41.314959+00:00",
+    "status": 200,
+    "bytes": 1477590,
+    "sha256": "3a6f328ce73fb5569a0a3b97c80b7a9848af9cdddcd1954383c19c546b45f8a0"
+  },
+  {
+    "scan": 18,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000018/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:41.327082+00:00",
+    "status": 200,
+    "bytes": 1513488,
+    "sha256": "74b263d4abaf19d7897a79aefd95ed4328bbabf796ada377dd82caa948ebf650"
+  },
+  {
+    "scan": 19,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000019/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:44.170903+00:00",
+    "status": 200,
+    "bytes": 1476023,
+    "sha256": "636d627c6d2382800a612f9e55e5247fc4f082e912fb2ced8ba39afeb874c35b"
+  },
+  {
+    "scan": 20,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000020/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:44.390973+00:00",
+    "status": 200,
+    "bytes": 1410215,
+    "sha256": "b4e82e0a6637cbdfddf5634b00f9cc28c5baac01f72429af9b0a06f7fe2d55cd"
+  },
+  {
+    "scan": 21,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000021/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:44.525344+00:00",
+    "status": 200,
+    "bytes": 1489352,
+    "sha256": "143a4d81601e0fcd12894cd208d5ddabdd23144fc614867587de8a9b9300d6f9"
+  },
+  {
+    "scan": 22,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000022/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:47.978983+00:00",
+    "status": 200,
+    "bytes": 1414844,
+    "sha256": "0d02ff6ee1d0504bf466004f7ef6dbf5a927fb18d8462b4f5484d39b7746d150"
+  },
+  {
+    "scan": 23,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000023/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:47.982646+00:00",
+    "status": 200,
+    "bytes": 1516633,
+    "sha256": "e37704942b35d03ed0bd19e71baa1d2a0d299b12229675beb8598f5d4f283033"
+  },
+  {
+    "scan": 24,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000024/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:48.397583+00:00",
+    "status": 200,
+    "bytes": 1463364,
+    "sha256": "56089472dc8b21447aeacfacb5152b54f274fff72ab7ff6aeca188ab6b2be106"
+  },
+  {
+    "scan": 25,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000025/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:52.131168+00:00",
+    "status": 200,
+    "bytes": 1358027,
+    "sha256": "e297128afe69f7f051b9dece55eb85f29157df5c0279aed9354bdb4abbb8aab1"
+  },
+  {
+    "scan": 26,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000026/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:52.149720+00:00",
+    "status": 200,
+    "bytes": 1423252,
+    "sha256": "e533732bf5a469cd6ce28643848f33c47e51c5b705a5bf55cddbfd51f7f807f4"
+  },
+  {
+    "scan": 27,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000027/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:52.162001+00:00",
+    "status": 200,
+    "bytes": 1447731,
+    "sha256": "209c4b284777acde946122dcada90bb91e2a23689fc21d862a87ebb6095ba690"
+  },
+  {
+    "scan": 28,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000028/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:55.847111+00:00",
+    "status": 200,
+    "bytes": 1456180,
+    "sha256": "a937cd0fb90930748b3508b498e4149455fe34631cdc124282073a2d57a2ccdf"
+  },
+  {
+    "scan": 29,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000029/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:55.928263+00:00",
+    "status": 200,
+    "bytes": 1422854,
+    "sha256": "a8f016e11560c8c2e36f5fd780797ec3508d2bd8c86706ed486b3c7263c14ed5"
+  },
+  {
+    "scan": 30,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000030/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:56.328089+00:00",
+    "status": 200,
+    "bytes": 1455119,
+    "sha256": "421cc20598cfe884e1e1e3f5e6a7d131fa9059628635dc4044b932848b38d339"
+  },
+  {
+    "scan": 31,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000031/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:58.813679+00:00",
+    "status": 200,
+    "bytes": 1442034,
+    "sha256": "e034a0a4eaab1f7ad498906c82102e687d4f12b049a3f425b9da92ce593fe9e6"
+  },
+  {
+    "scan": 32,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000032/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:59.469069+00:00",
+    "status": 200,
+    "bytes": 1263320,
+    "sha256": "5eb014f6113f0ef3ecc5f81ad0ef4ba9cb8f52d4ee3edee1b8563b72f85f6cb0"
+  },
+  {
+    "scan": 33,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000033/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:53:59.781580+00:00",
+    "status": 200,
+    "bytes": 1234597,
+    "sha256": "fe5437a498743567c4a70310cd08cc2255b11fbc5875308b7d9777dc82067b0d"
+  },
+  {
+    "scan": 34,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000034/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:03.656749+00:00",
+    "status": 200,
+    "bytes": 1201736,
+    "sha256": "00fdc80cda97bf4b75f7460278d03e496feb6016bb5463f98b26a2599634c546"
+  },
+  {
+    "scan": 35,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000035/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:03.894594+00:00",
+    "status": 200,
+    "bytes": 1260067,
+    "sha256": "00c42febfdd3ece4e92e05d59eefec28b1ffccf98b03bc8da7f02e533b203f90"
+  },
+  {
+    "scan": 36,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000036/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:03.983656+00:00",
+    "status": 200,
+    "bytes": 1189090,
+    "sha256": "76c4758317dc3bd56dbaa3f88d2675babe6b5e64f0682c12b5014ca5a0ab6b62"
+  },
+  {
+    "scan": 37,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000037/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:07.798231+00:00",
+    "status": 200,
+    "bytes": 1246850,
+    "sha256": "3749811fdfd70f7b8d749e56ba3e2acc4be1229f109c297dfcde5b5b0c9a5e1b"
+  },
+  {
+    "scan": 38,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000038/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:07.886233+00:00",
+    "status": 200,
+    "bytes": 1579772,
+    "sha256": "23d0a5816ba229cb0b0ee68ab9f087cdc847aa6ef12aa28bdde8c2d17b89a64a"
+  },
+  {
+    "scan": 39,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000039/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:07.891703+00:00",
+    "status": 200,
+    "bytes": 1545834,
+    "sha256": "b1ed77b4758a3118e638d1c06c1172ce5001177d06c5fa530ff409b171e801b2"
+  },
+  {
+    "scan": 40,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000040/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:10.958302+00:00",
+    "status": 200,
+    "bytes": 1484025,
+    "sha256": "168a74d3e329764c2aae1e5883294bf909809e153ffa02486a4547a5a145ce08"
+  },
+  {
+    "scan": 41,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000041/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:11.642498+00:00",
+    "status": 200,
+    "bytes": 1567716,
+    "sha256": "740f3ded3b01465ef7ba91e4288796fb7a1de87098ace6f6951e33e662bb6768"
+  },
+  {
+    "scan": 42,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000042/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:11.794124+00:00",
+    "status": 200,
+    "bytes": 1524546,
+    "sha256": "0b42d23379758f937846219cf56eac36a79bdac58f45e158baf63291f446e4f5"
+  },
+  {
+    "scan": 43,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000043/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:13.981959+00:00",
+    "status": 200,
+    "bytes": 1581769,
+    "sha256": "0e100d2d859be4a87bfc39465c58cc9e268fdbbf4c01b1b20eb7fb0901300808"
+  },
+  {
+    "scan": 44,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000044/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:14.689901+00:00",
+    "status": 200,
+    "bytes": 1572187,
+    "sha256": "d08e4b65be3da08d7737bbd91f47b846682c84f940f54c2997c64990850a4712"
+  },
+  {
+    "scan": 45,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000045/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:14.947905+00:00",
+    "status": 200,
+    "bytes": 1363905,
+    "sha256": "e5e1b90fa1fe3fdaf62673664a83a9f0a6a89106a66083519784b3e6a672b88e"
+  },
+  {
+    "scan": 46,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000046/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:17.158700+00:00",
+    "status": 200,
+    "bytes": 1624220,
+    "sha256": "a501b79500a11ecb29c4086a58f81358b8a3514733208457aff2a70c6aa01fea"
+  },
+  {
+    "scan": 47,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000047/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:18.039784+00:00",
+    "status": 200,
+    "bytes": 1569067,
+    "sha256": "53edfa6b5626f148e7b75218b42e1b15c18fb44017b0a930ede72b642ed5bc3c"
+  },
+  {
+    "scan": 48,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000048/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:18.087884+00:00",
+    "status": 200,
+    "bytes": 1604239,
+    "sha256": "090113ded2bd226eecdc8732485b5c2cf56496f757b07819c591ec023a8d4e80"
+  },
+  {
+    "scan": 49,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000049/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:21.595065+00:00",
+    "status": 200,
+    "bytes": 1603123,
+    "sha256": "9a8fc4828753b444456b8071db6ea3cc2ad5ec809ebf69c1791ab7af4b27645e"
+  },
+  {
+    "scan": 50,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000050/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:21.864972+00:00",
+    "status": 200,
+    "bytes": 1556757,
+    "sha256": "772400b07f7958e6a12922d605d647a10681e8e2e5883c2fa86d5a1488e325cc"
+  },
+  {
+    "scan": 51,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000051/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:21.869385+00:00",
+    "status": 200,
+    "bytes": 970010,
+    "sha256": "59e822a98ca0c1a9d88995285dcff51859f9fee0546bab9e6e9c053f1d2ee22d"
+  },
+  {
+    "scan": 52,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000052/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:29.792852+00:00",
+    "status": 200,
+    "bytes": 1495464,
+    "sha256": "6d231e7fa6c621be92fb410e99b7c56a217da4b9438e15b3f61b52ca24d01f5d"
+  },
+  {
+    "scan": 53,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000053/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:29.885413+00:00",
+    "status": 200,
+    "bytes": 1496268,
+    "sha256": "72f45957db0ede68beeba4243a4988972e0ac0df1f651d816bda640ac67f1730"
+  },
+  {
+    "scan": 54,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000054/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:29.916035+00:00",
+    "status": 200,
+    "bytes": 1464406,
+    "sha256": "03c67a14a668f24f805ce5417ff269ff43911ec798ff7c2a4ca3e0978258a59b"
+  },
+  {
+    "scan": 55,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000055/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:33.380958+00:00",
+    "status": 200,
+    "bytes": 1546535,
+    "sha256": "9c260318debc0f35065c8718d4947879d0512975f1c318ecfff1e9f121b2ead1"
+  },
+  {
+    "scan": 56,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000056/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:33.636457+00:00",
+    "status": 200,
+    "bytes": 1589033,
+    "sha256": "bb7845a49ba77db5b8674f028d4029515bd262c629258bc9c143f69a28f71942"
+  },
+  {
+    "scan": 57,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000057/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:33.645057+00:00",
+    "status": 200,
+    "bytes": 1573210,
+    "sha256": "b834ea34b90a9087b363febe561f9612878232f5c51b67210e7f86e06c0b1ce9"
+  },
+  {
+    "scan": 58,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000058/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:36.382231+00:00",
+    "status": 200,
+    "bytes": 1445998,
+    "sha256": "e9a7100e7440be097627795a64a9e60042ded57e172dd7bd36299ca2cf9a238f"
+  },
+  {
+    "scan": 59,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000059/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:37.415978+00:00",
+    "status": 200,
+    "bytes": 1568764,
+    "sha256": "3bf1c77e8237b61ae11d4dc8bbd4aecf1d42f51107cae1fac3397722abd867d1"
+  },
+  {
+    "scan": 60,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000060/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:37.497991+00:00",
+    "status": 200,
+    "bytes": 1623237,
+    "sha256": "3d4b52dccb2e4d5caf4b6557e969e5f33aa0e9eb832b2c54a14bd50f450d16cd"
+  },
+  {
+    "scan": 61,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000061/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:40.618149+00:00",
+    "status": 200,
+    "bytes": 1536944,
+    "sha256": "8fbe3dfe8740469e4dc0ea5e92883675387617b53f04f3eeb12b654a4b923263"
+  },
+  {
+    "scan": 62,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000062/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:40.809788+00:00",
+    "status": 200,
+    "bytes": 1539530,
+    "sha256": "6126bb90d03f44304f9c17da5e1273bfc4d8a12cfacbe5066ceccc6123534e80"
+  },
+  {
+    "scan": 63,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000063/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:41.054064+00:00",
+    "status": 200,
+    "bytes": 1475792,
+    "sha256": "a8dc34a1d71c3371f73773a96142b009130a8c000b55466fb610bdd35cb8d186"
+  },
+  {
+    "scan": 64,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000064/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:44.552695+00:00",
+    "status": 200,
+    "bytes": 1595574,
+    "sha256": "5b5b85f13b20789278c01c0b8920a26bc37d39571ad32b6ebc2dd34b3cf9f2fa"
+  },
+  {
+    "scan": 65,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000065/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:44.558720+00:00",
+    "status": 200,
+    "bytes": 1548964,
+    "sha256": "a39f23623d879a195f151e0da93c1bb3982b9e8d8bc95e3feb1f330bae6a1cb2"
+  },
+  {
+    "scan": 66,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000066/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:44.608476+00:00",
+    "status": 200,
+    "bytes": 1572954,
+    "sha256": "2cb0051bb31b44edd7a38df35ee26843fa46f1b39dc67fa89cb279c1a7c12d5d"
+  },
+  {
+    "scan": 67,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000067/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:48.465772+00:00",
+    "status": 200,
+    "bytes": 1469534,
+    "sha256": "47c3295d9058185c42af66100b14da9a0afdd3484d0c612019d170cbbe6690ba"
+  },
+  {
+    "scan": 68,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000068/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:48.502107+00:00",
+    "status": 200,
+    "bytes": 1258999,
+    "sha256": "9f5ae295f2e8d08c96a2feba372f72659d9fcc20a4752e3506347a6ac121c341"
+  },
+  {
+    "scan": 69,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000069/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:48.578019+00:00",
+    "status": 200,
+    "bytes": 1427692,
+    "sha256": "869e332835ffe8d0dbcfa4745d73b16540915569e85ae5fe79fc44290349852e"
+  },
+  {
+    "scan": 70,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000070/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:51.466261+00:00",
+    "status": 200,
+    "bytes": 1434253,
+    "sha256": "5ff46a8a9f5109f3715da1d6f25b3f4e803c15e53275927227fb1a7a6f06c99e"
+  },
+  {
+    "scan": 71,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000071/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:52.084199+00:00",
+    "status": 200,
+    "bytes": 1441811,
+    "sha256": "9d521194e7a8d4c067ce1b52ac4ec86675444bf4c31640f250e73302753bb0cc"
+  },
+  {
+    "scan": 72,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000072/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:52.423855+00:00",
+    "status": 200,
+    "bytes": 1536914,
+    "sha256": "683880fb608caa432135d440e91255dd0f0dd2b74855aec11d14ee6ce39218b3"
+  },
+  {
+    "scan": 73,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000073/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:55.079001+00:00",
+    "status": 200,
+    "bytes": 1552891,
+    "sha256": "5fa271c40fba84a5547ca2b49f2998c427a4c47f3058c3b9246ba4850ccd449d"
+  },
+  {
+    "scan": 74,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000074/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:55.080675+00:00",
+    "status": 200,
+    "bytes": 1495271,
+    "sha256": "4d13eef12a6393b0c1bdacfbfd4a0ccf263496eb7899047ec7da02f6baa5374a"
+  },
+  {
+    "scan": 75,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000075/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:55.416389+00:00",
+    "status": 200,
+    "bytes": 1440487,
+    "sha256": "efddd9d1e29315bb462253814193312e091b5526558169da64411ff4c33e6a67"
+  },
+  {
+    "scan": 76,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000076/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:57.882017+00:00",
+    "status": 200,
+    "bytes": 1529904,
+    "sha256": "0c6fecf97e4470f1c631a098f0ffa53ea92d1e42756f2960f464b4b082211aa0"
+  },
+  {
+    "scan": 77,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000077/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:58.528915+00:00",
+    "status": 200,
+    "bytes": 1471740,
+    "sha256": "782f1f4c7029f572b0028ac86dce1d1b9eaaf8c0e99e762c109d5e9d5e7e70ce"
+  },
+  {
+    "scan": 78,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000078/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:54:58.612677+00:00",
+    "status": 200,
+    "bytes": 1479825,
+    "sha256": "ec85e4155ecc9825f699d874d002a3f15fafe9aa4c0c733197fa904f60ffb1c4"
+  },
+  {
+    "scan": 79,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000079/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:01.757836+00:00",
+    "status": 200,
+    "bytes": 1486634,
+    "sha256": "addc10cb6c1fd4b63d0f9195420287ab9dd4fc14579bd26c6518b793d3f2aba8"
+  },
+  {
+    "scan": 80,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000080/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:02.103585+00:00",
+    "status": 200,
+    "bytes": 1477540,
+    "sha256": "82ab2d558e96aae06f6540ee2bebf3fa8ae10c72e41f1516e31961f16a1094fc"
+  },
+  {
+    "scan": 81,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000081/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:02.187653+00:00",
+    "status": 200,
+    "bytes": 1448317,
+    "sha256": "2dc8dd6ce50e3a92b8aed723d68c91377404d45d19333e53918e2ac3e88c0ef9"
+  },
+  {
+    "scan": 82,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000082/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:05.612962+00:00",
+    "status": 200,
+    "bytes": 1607041,
+    "sha256": "aa33d072c6bf70b4013a5175ca71546cf562810e9e433e8f126ba4026a7fa9e7"
+  },
+  {
+    "scan": 83,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000083/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:05.614735+00:00",
+    "status": 200,
+    "bytes": 1613656,
+    "sha256": "08ffefd6606ead3b7f7ec2c1ab210281fef199c0a255ec0f26315912ee8f8a3c"
+  },
+  {
+    "scan": 84,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000084/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:05.617660+00:00",
+    "status": 200,
+    "bytes": 1571216,
+    "sha256": "2c0afdc317519080e6579bb2e1e2a493b0fc40ba901ec07c1b1083ff389914be"
+  },
+  {
+    "scan": 85,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000085/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:09.096814+00:00",
+    "status": 200,
+    "bytes": 1482329,
+    "sha256": "44f311cd7ece5006e11440c9c2495cb00ecb086546ae90e7e2a7548921908aa9"
+  },
+  {
+    "scan": 86,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000086/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:09.362588+00:00",
+    "status": 200,
+    "bytes": 1450035,
+    "sha256": "805a5e59683155bd7d1d637fe1a5376056a7eece47f96e022b036b6ebe1e9940"
+  },
+  {
+    "scan": 87,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000087/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:09.384368+00:00",
+    "status": 200,
+    "bytes": 1566780,
+    "sha256": "f4144658ae7c8e2f1fd47e81dd1c123599f19e06006aa3340f356d635b20002b"
+  },
+  {
+    "scan": 88,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000088/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:13.802665+00:00",
+    "status": 200,
+    "bytes": 1511940,
+    "sha256": "d23b01530c83379ac9fea0ca7b6b3ca97240adfffcd25bef52b0cc496f0f6baf"
+  },
+  {
+    "scan": 89,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000089/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:13.871420+00:00",
+    "status": 200,
+    "bytes": 1478661,
+    "sha256": "f71f87b449865b9cebde6128b5e552eaf7a99680488ddf5dcfa7ef1c4642c2a4"
+  },
+  {
+    "scan": 90,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000090/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:13.903251+00:00",
+    "status": 200,
+    "bytes": 1465864,
+    "sha256": "41289b312f35367cac57ccfc185de80a2d21fbb99db84927a38978d59d3c35e5"
+  },
+  {
+    "scan": 91,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000091/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:17.548049+00:00",
+    "status": 200,
+    "bytes": 1550552,
+    "sha256": "ebd657bb07bac4e789a0efeafd8f7d4f5652a698990b19131dd4ddf3f0499064"
+  },
+  {
+    "scan": 92,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000092/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:17.674763+00:00",
+    "status": 200,
+    "bytes": 1428528,
+    "sha256": "5967b8ee607c3d04daa492be994d80292bc0b3027ef4b0a72496e3c6acca7a2f"
+  },
+  {
+    "scan": 93,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000093/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:17.727939+00:00",
+    "status": 200,
+    "bytes": 1308962,
+    "sha256": "810b7dc4606e865d593bb0faa2663a0e906f38f04ac989e58c6e357b6c1a6eb5"
+  },
+  {
+    "scan": 94,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000094/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:21.454170+00:00",
+    "status": 200,
+    "bytes": 1560491,
+    "sha256": "bae56b074d48f76d4f31a171d0ddc2b68f05da25aec753fd241d452570efb896"
+  },
+  {
+    "scan": 95,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000095/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:21.466835+00:00",
+    "status": 200,
+    "bytes": 1540398,
+    "sha256": "9771c9871e8195b876ff4e6292f6c8e6a23a687f3ad8988b17a449407ab2ea9c"
+  },
+  {
+    "scan": 96,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000096/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:21.665844+00:00",
+    "status": 200,
+    "bytes": 1344931,
+    "sha256": "5a2de3deb129093dc417430347278b86b5f0233910547066652907cd20a381d5"
+  },
+  {
+    "scan": 97,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000097/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:25.508277+00:00",
+    "status": 200,
+    "bytes": 1439695,
+    "sha256": "cad21c2d6e23a384745f47f374a0a6c08133aa545c386860a30f223d654b0382"
+  },
+  {
+    "scan": 98,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000098/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:25.532985+00:00",
+    "status": 200,
+    "bytes": 1570423,
+    "sha256": "e4128ae72b7eed8cfdb9cc5406240dd8088c4bf0436370a471cd16bdb5aedeba"
+  },
+  {
+    "scan": 99,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000099/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:25.616257+00:00",
+    "status": 200,
+    "bytes": 1481454,
+    "sha256": "5dad985d36d2369fa0683c0128947a3169ef7cd4ddf34fc5a2c23aca6f507947"
+  },
+  {
+    "scan": 100,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000100/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:28.910416+00:00",
+    "status": 200,
+    "bytes": 1573118,
+    "sha256": "495d558bfb634905ded6c4b10c6338c44ee774d7fe300f3f7e4d2eee0c129a32"
+  },
+  {
+    "scan": 101,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000101/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:29.511115+00:00",
+    "status": 200,
+    "bytes": 1456965,
+    "sha256": "469f3f9e9be53259fc585790196c14a16a87cc0aa120158bdb650315c831ecbb"
+  },
+  {
+    "scan": 102,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000102/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:29.581777+00:00",
+    "status": 200,
+    "bytes": 1458853,
+    "sha256": "f66ee76541175bf400891bb3233c29d9b95f2b34b72d90ab3ef84dbce3942473"
+  },
+  {
+    "scan": 103,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000103/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:32.882649+00:00",
+    "status": 200,
+    "bytes": 1625665,
+    "sha256": "f12893e55f75c541bd42e6246dcc27e268eb698b2cb6b7e96e34386c649be6b5"
+  },
+  {
+    "scan": 104,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000104/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:32.993013+00:00",
+    "status": 200,
+    "bytes": 1468846,
+    "sha256": "9575055e1665dabccd29fa5384a4353ad4ee9e8c4b31c448f6da8e0faa2921a3"
+  },
+  {
+    "scan": 105,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000105/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:33.001846+00:00",
+    "status": 200,
+    "bytes": 1585488,
+    "sha256": "f39fb083e168e31c2808cdf423bd9fbfe5ec4e2e422c0e5f279aff3e943a165f"
+  },
+  {
+    "scan": 106,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000106/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:36.559441+00:00",
+    "status": 200,
+    "bytes": 1545442,
+    "sha256": "7b0658f4ee83346ef85d70b30ea2e398b45e494ffdb733de80094b325198d1d4"
+  },
+  {
+    "scan": 107,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000107/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:36.800641+00:00",
+    "status": 200,
+    "bytes": 1374358,
+    "sha256": "af920f4303525e8b9724161bcd9463f46dd88d8225f3cec3a13b9979a2c52f1d"
+  },
+  {
+    "scan": 108,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000108/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:36.962669+00:00",
+    "status": 200,
+    "bytes": 1414119,
+    "sha256": "ba657b50d7ffd044ab0154d7aa10d2b1c76ed2bc9b13b21286adf1ccae57efba"
+  },
+  {
+    "scan": 109,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000109/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:40.386271+00:00",
+    "status": 200,
+    "bytes": 1490296,
+    "sha256": "bfc4206ae5297fdf468093de92b113da72252c28bf2ed2e00b743014aea0eb6a"
+  },
+  {
+    "scan": 110,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000110/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:40.618972+00:00",
+    "status": 200,
+    "bytes": 1554966,
+    "sha256": "38fd3893532ccd25a474e71efe313041ad9a42674dbb38442df6ec9b315b652f"
+  },
+  {
+    "scan": 111,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000111/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:40.802580+00:00",
+    "status": 200,
+    "bytes": 1574938,
+    "sha256": "13526d3086840c79d17d4f7e78d062a172fe057a557bbd9ca85e176556c6a258"
+  },
+  {
+    "scan": 112,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000112/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:44.102449+00:00",
+    "status": 200,
+    "bytes": 1565607,
+    "sha256": "6f9a1c9694cc9fc0ab708fc2594a23704b55b51c42153fd34ad961074bd7657e"
+  },
+  {
+    "scan": 113,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000113/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:44.314973+00:00",
+    "status": 200,
+    "bytes": 1594687,
+    "sha256": "73f4fc522cd2828bc3aae8ee99b142f9a01c66b175f21934dea14d898a6ce81b"
+  },
+  {
+    "scan": 114,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000114/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:44.400760+00:00",
+    "status": 200,
+    "bytes": 1555220,
+    "sha256": "895e19a0e3dcfce281c459b11608bc1ea69844b6da1792b697b0bb29cdeacef1"
+  },
+  {
+    "scan": 115,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000115/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:47.230359+00:00",
+    "status": 200,
+    "bytes": 1563656,
+    "sha256": "3456d28e40e3c52700605d1a574eecd46a0a0eb0783add9dac8e29713b3c17d8"
+  },
+  {
+    "scan": 116,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000116/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:48.119596+00:00",
+    "status": 200,
+    "bytes": 1489984,
+    "sha256": "277fcc21804c5f341a2c383bdd3ecce3ed973687c9a76d50843b1026b0034f46"
+  },
+  {
+    "scan": 117,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000117/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:48.198860+00:00",
+    "status": 200,
+    "bytes": 1378871,
+    "sha256": "703562c74f1327a4702e19535948f4c8f48f4fccf0ecf081ffc008f58e80a983"
+  },
+  {
+    "scan": 118,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000118/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:51.206085+00:00",
+    "status": 200,
+    "bytes": 1543877,
+    "sha256": "75c2be85e09689de8d4cc957e9ca9270641896e72791402e612fcfc393f7010e"
+  },
+  {
+    "scan": 119,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000119/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:51.219817+00:00",
+    "status": 200,
+    "bytes": 1597026,
+    "sha256": "90a0738d46df2b0892131bd92eadefc8a66d4cbff3571854f6d9a8b5b3330d44"
+  },
+  {
+    "scan": 120,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000120/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:51.525877+00:00",
+    "status": 200,
+    "bytes": 1302136,
+    "sha256": "412985bbfbfb71d326c85f5ff83594b797b8e9d8d69e9d4aa1c5b876d286da32"
+  },
+  {
+    "scan": 121,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000121/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:54.994402+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "status": 403
+  },
+  {
+    "scan": 122,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000122/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:55.199032+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "status": 403
+  },
+  {
+    "scan": 123,
+    "url": "https://dl.ndl.go.jp/api/iiif/1048202/R0000123/full/full/0/default.jpg",
+    "retrieved_at": "2026-10-25T22:55:55.307221+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "status": 403
+  }
+]
