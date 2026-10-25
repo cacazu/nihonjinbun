@@ -1834,6 +1834,18 @@
     "title": "4Gamer.net 剣と魔法の博物館 第42回・紫金紅葫蘆（読み表記のみ参照）"
     "url": "https://www.4gamer.net/weekly/sandm/042/sandm_042.shtml"
     "accessed_at": "2026-10-24"
+  - "id": "xy-ch34-primary-1500614"
+    "title": "西遊記 第三十四回 固定版1500614"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第034回&oldid=1500614"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch34-hakusanro-museum"
+    "title": "国立文化財機構・九州国立博物館 購入文化財「青磁博山炉」"
+    "url": "https://www.nich.go.jp/wp-content/uploads/2023/07/konyu2022_kyusyu-1.pdf"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch34-bashosen-reading"
+    "title": "芥川龍之介「俊寛」青空文庫・芭蕉扇のルビ"
+    "url": "https://www.aozora.gr.jp/cards/000879/files/159_15201.html"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -2936,6 +2948,14 @@
           "source_ids":
             - "xy-ch31-primary"
           "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+      - "id": "xy-ch34-zhexingsun-form"
+        "text": "者行孫"
+        "relation": "alias"
+        "reading":
+          "kana": "しゃぎょうそん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -13422,6 +13442,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "公開資料でこの表記全体の慣用日本語読みを確定できず、日本語の音訓・語構成と本文の文脈から推定した。"
+      - "id": "xy-ch34-guankou-form"
+        "text": "灌口"
+        "relation": "short_form"
+        "reading":
+          "kana": "かんこう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
   - "id": "xy-entry-0584"
     "kind": "person"
     "headword": "六怪"
@@ -39485,6 +39513,14 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+      - "id": "xy-seven-star-treasure-sword-form"
+        "text": "七星宝剣"
+        "relation": "alias"
+        "reading":
+          "kana": "しちせいほうけん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
   - "id": "xy-fire-virtue"
     "kind": "person"
     "headword": "火徳"
@@ -39996,3 +40032,221 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+  - "id": "xy-ch34-wish-buddha-treasure"
+    "kind": "concept"
+    "headword": "如意仏宝"
+    "definition_ja": "持ち主の姿の変化に従い、大きさを自在に変えられる霊宝の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch34-primary-1500614"
+      "reason_ja": "資料の説明と本文の指示対象を照合。物語の場面から分かる範囲に限り、後の正体や展開を加えない。"
+    "forms":
+      - "id": "xy-ch34-wish-buddha-treasure-form"
+        "text": "如意仏宝"
+        "relation": "preferred"
+        "reading":
+          "kana": "にょいぶっぽう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
+  - "id": "xy-ch34-banana-fan"
+    "kind": "object"
+    "headword": "芭蕉扇"
+    "definition_ja": "芭蕉の葉に似た扇の名。銀角大王が持つ宝の一つとして挙げられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch34-primary-1500614"
+      "reason_ja": "資料の説明と本文の指示対象を照合。物語の場面から分かる範囲に限り、後の正体や展開を加えない。"
+    "forms":
+      - "id": "xy-ch34-banana-fan-form"
+        "text": "芭蕉扇"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばしょうせん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch34-bashosen-reading"
+          "reason_ja": "芥川龍之介「俊寛」の電子翻刻で、同じ表記の語へ「ばしょうせん」のルビが付く。西遊記での宝の効能はこの読み資料から推定しない。"
+  - "id": "xy-ch34-golden-binding-rope"
+    "kind": "object"
+    "headword": "幌金縄"
+    "definition_ja": "相手を捕らえて縛る金の縄の霊宝。締める呪文と緩める呪文を用いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch34-primary-1500614"
+      "reason_ja": "資料の説明と本文の指示対象を照合。物語の場面から分かる範囲に限り、後の正体や展開を加えない。"
+    "forms":
+      - "id": "xy-ch34-golden-binding-rope-form"
+        "text": "幌金縄"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうきんじょう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
+  - "id": "xy-ch34-press-dragon-mountain"
+    "kind": "place"
+    "headword": "圧竜山"
+    "definition_ja": "金角大王と銀角大王が母と呼ぶ老妖の住む山。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch34-primary-1500614"
+      "reason_ja": "資料の説明と本文の指示対象を照合。物語の場面から分かる範囲に限り、後の正体や展開を加えない。"
+    "forms":
+      - "id": "xy-ch34-press-dragon-mountain-form"
+        "text": "圧竜山"
+        "relation": "preferred"
+        "reading":
+          "kana": "あつりゅうざん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
+  - "id": "xy-ch34-press-dragon-cave"
+    "kind": "place"
+    "headword": "圧竜洞"
+    "definition_ja": "圧竜山にある、二人の大王の母と呼ばれる老妖の洞窟。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch34-primary-1500614"
+      "reason_ja": "資料の説明と本文の指示対象を照合。物語の場面から分かる範囲に限り、後の正体や展開を加えない。"
+    "forms":
+      - "id": "xy-ch34-press-dragon-cave-form"
+        "text": "圧竜洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "あつりゅうどう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
+  - "id": "xy-ch34-bashanhu"
+    "kind": "person"
+    "headword": "巴山虎"
+    "definition_ja": "金角大王と銀角大王に仕える小妖。倚海竜とともに使いを務める。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch34-primary-1500614"
+      "reason_ja": "資料の説明と本文の指示対象を照合。物語の場面から分かる範囲に限り、後の正体や展開を加えない。"
+    "forms":
+      - "id": "xy-ch34-bashanhu-form"
+        "text": "巴山虎"
+        "relation": "preferred"
+        "reading":
+          "kana": "はざんこ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
+  - "id": "xy-ch34-yihailong"
+    "kind": "person"
+    "headword": "倚海竜"
+    "definition_ja": "金角大王と銀角大王に仕える小妖。巴山虎とともに使いを務める。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch34-primary-1500614"
+      "reason_ja": "資料の説明と本文の指示対象を照合。物語の場面から分かる範囲に限り、後の正体や展開を加えない。"
+    "forms":
+      - "id": "xy-ch34-yihailong-form"
+        "text": "倚海竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "いかいりゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
+  - "id": "xy-ch34-seventy-two-transformations"
+    "kind": "concept"
+    "headword": "七十二変"
+    "definition_ja": "悟空が学んだ、さまざまな姿へ変化する神通の術。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch34-primary-1500614"
+      "reason_ja": "資料の説明と本文の指示対象を照合。物語の場面から分かる範囲に限り、後の正体や展開を加えない。"
+    "forms":
+      - "id": "xy-ch34-seventy-two-transformations-form"
+        "text": "七十二変"
+        "relation": "preferred"
+        "reading":
+          "kana": "しちじゅうにへん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
+  - "id": "xy-ch34-hakusanro"
+    "kind": "object"
+    "headword": "博山炉"
+    "definition_ja": "仙山をかたどった蓋を持つ中国の香炉。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch34-hakusanro-museum"
+      "reason_ja": "資料の説明と本文の指示対象を照合。物語の場面から分かる範囲に限り、後の正体や展開を加えない。"
+    "forms":
+      - "id": "xy-ch34-hakusanro-form"
+        "text": "博山炉"
+        "relation": "preferred"
+        "reading":
+          "kana": "はくさんろ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch34-hakusanro-museum"
+          "reason_ja": "国立文化財機構の九州国立博物館購入文化財資料に「青磁博山炉（せいじはくさんろ）」と明記される。"
+  - "id": "xy-ch34-tighten-rope-spell"
+    "kind": "concept"
+    "headword": "緊縄呪"
+    "definition_ja": "幌金縄を固く締めて、捕らえた相手を逃げられなくする呪文。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch34-primary-1500614"
+      "reason_ja": "資料の説明と本文の指示対象を照合。物語の場面から分かる範囲に限り、後の正体や展開を加えない。"
+    "forms":
+      - "id": "xy-ch34-tighten-rope-spell-form"
+        "text": "緊縄呪"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんじょうじゅ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
+  - "id": "xy-ch34-loosen-rope-spell"
+    "kind": "concept"
+    "headword": "鬆縄呪"
+    "definition_ja": "幌金縄を緩めて、縛られた者を傷つけずに逃がす呪文。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch34-primary-1500614"
+      "reason_ja": "資料の説明と本文の指示対象を照合。物語の場面から分かる範囲に限り、後の正体や展開を加えない。"
+    "forms":
+      - "id": "xy-ch34-loosen-rope-spell-form"
+        "text": "鬆縄呪"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうじょうじゅ"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
+  - "id": "xy-ch34-slim-body-method"
+    "kind": "concept"
+    "headword": "痩身法"
+    "definition_ja": "体を細くして、拘束から抜け出そうとする変化の術。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch34-primary-1500614"
+      "reason_ja": "資料の説明と本文の指示対象を照合。物語の場面から分かる範囲に限り、後の正体や展開を加えない。"
+    "forms":
+      - "id": "xy-ch34-slim-body-method-form"
+        "text": "痩身法"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうしんほう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
