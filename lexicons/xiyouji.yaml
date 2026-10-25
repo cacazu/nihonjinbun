@@ -3978,6 +3978,30 @@
     "title": "教育部 重編國語辭典修訂本 火候（一般の火加減・時間と修養の語義は検索表示で確認、内丹語義全体の実証とはしない）"
     "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=84425"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch89-primary-1500528"
+    "title": "中文維基文庫 西遊記 第089回 固定版1500528（固定URLの全208表示行を取得、変換なし表示）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第089回&oldid=1500528"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch89-shantou-meaning"
+    "title": "教育部 重編國語辭典修訂本 山頭（表示本文で壁の語義を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=130652"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch89-children-idiom"
+    "title": "教育部 重編國語辭典修訂本 拖男挾女（表示本文の本回用例で子どもを連れる意味を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=54541&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch89-zun-meaning"
+    "title": "教育部 重編國語辭典修訂本 鐏（表示本文で柄下端の金属部分を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=9675&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch89-liuxu-reading"
+    "title": "漢字ペディア 絮（表示本文で柳絮のリュウジョと綿毛の意味を確認）"
+    "url": "https://www.kanjipedia.jp/kanji/0003328400"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch89-zijing-reading"
+    "title": "漢字ペディア 紫荊（表示本文ではなずおう・マメ科落葉低木を確認）"
+    "url": "https://www.kanjipedia.jp/kotoba/0002803800"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -15729,6 +15753,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の通常の漢字音訓と語構成からの推定。当該語形・文脈の日本語読みを明記する資料は今回未確認。"
+      - "id": "xy-ch89-spade-short-form"
+        "text": "鏟"
+        "relation": "short_form"
+        "reading":
+          "kana": "さん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "四明鏟を取って戦う同じ場面で鏟と短く呼ぶ。その武器に限定した略称として追加。全ての鏟武器を四明鏟と同一視するものではない。旧四明鏟の読みを保ち、その構成字を推定で読む。"
   - "id": "xy-entry-0549"
     "kind": "term"
     "headword": "狢"
@@ -20513,6 +20546,15 @@
           "source_ids":
             - "xy-reference-193"
           "reason_ja": "現代の同表記の地名に「ぶりょうげん」と明記されるが、この詩が指す桃源郷そのものの読み明記資料は未確認。漢字音と同表記の読例から推定し、指示対象を現代の観光地へ変えない。"
+      - "id": "xy-ch89-peach-source-cave-form"
+        "text": "桃源洞"
+        "relation": "alias"
+        "reading":
+          "kana": "とうげんどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "洞の景色を世を離れた桃源の理想郷へなぞらえる文脈で、既存武陵源の意味する桃源郷と同じ故事の表現。実在の観光洞窟に同定しない。全語仮名資料は未確認。"
   - "id": "xy-entry-0770"
     "kind": "title"
     "headword": "仙姫"
@@ -23378,6 +23420,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-ch89-nine-tooth-gilded-rake-form"
+        "text": "九歯滲金釘鈀"
+        "relation": "alias"
+        "reading":
+          "kana": "きゅうししんきんていは"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "黄獅が盗んだ三武器を説明する文脈で、既出の八戒の九歯釘鈀と同一物。滲金は金を施す表現と解し、旧上宝沁金鈀の沁を置換せず新語形だけ追加。全語仮名資料は未確認。"
   - "id": "xy-entry-0901"
     "kind": "person"
     "headword": "太歳"
@@ -69491,6 +69542,15 @@
           "source_ids":
             - "xy-ch88-primary-1500527"
           "reason_ja": "地名を短くした形。玉華王という人物名の部分一致ではなく、玉華の王子という土地を示す独立用法に用いる。読みは漢字音による。"
+      - "id": "xy-ch89-yuhua-prefecture-variant-form"
+        "text": "玉華州"
+        "relation": "variant"
+        "reading":
+          "kana": "ぎょくかしゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "前回から続く同じ王・三王子・王府の城を本文が玉華州と呼ぶ。別の都市を立てず玉華県の語形追加。行政区分の表記を無断統一しない。全語の日本語仮名資料は未確認。"
   - "id": "xy-ch88-yuhua-king"
     "kind": "person"
     "headword": "玉華王"
@@ -69933,3 +69993,490 @@
           "source_ids":
             - "xy-ch88-primary-1500527"
           "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch89-dragon-vein"
+    "kind": "concept"
+    "headword": "竜脈"
+    "definition_ja": "風水で、竜の動きになぞらえる山並みや地勢の連なり。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "山の景観を詠む龍脈・來龍・地脈の連続を根拠とする。近代地質学の地層や実際の生物と同定しない。"
+    "forms":
+      - "id": "xy-ch89-dragon-vein-form"
+        "text": "竜脈"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうみゃく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-willow-down"
+    "kind": "term"
+    "headword": "柳絮"
+    "definition_ja": "柳の種に付く、綿のような白い毛。また、それが飛び舞うもの。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+        - "xy-ch89-liuxu-reading"
+      "reason_ja": "蝶が戯れる絮を柳の綿毛として解する。漢字ペディアの絮項で綿毛の語義と柳絮の日本語読みを確認。"
+    "forms":
+      - "id": "xy-ch89-willow-down-form"
+        "text": "柳絮"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうじょ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch89-liuxu-reading"
+          "reason_ja": "表示本文で当該表記の日本語仮名を確認。中国語の出現を読みの証明としたものではない。"
+  - "id": "xy-ch89-rake-feast"
+    "kind": "term"
+    "headword": "釘鈀会"
+    "definition_ja": "手に入れた釘鈀を祝い、黄獅が催そうとする宴。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "狼頭の小妖が慶釘鈀會と述べ、黄獅の招待状にも宴の目的が明記される。"
+    "forms":
+      - "id": "xy-ch89-rake-feast-form"
+        "text": "釘鈀会"
+        "relation": "preferred"
+        "reading":
+          "kana": "ていはかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-qianfang-market"
+    "kind": "place"
+    "headword": "乾方集"
+    "definition_ja": "豚や羊を買いに行く先として挙げられる市の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "二匹の小妖の買物の相談と、商人の所在地を述べる悟空の虚言に現れる地名。実在地の同定はしない。"
+    "forms":
+      - "id": "xy-ch89-qianfang-market-form"
+        "text": "乾方集"
+        "relation": "preferred"
+        "reading":
+          "kana": "けんぽうしゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-fixing-mantra"
+    "kind": "term"
+    "headword": "唵吽吒唎"
+    "definition_ja": "悟空が二匹の妖怪に定身法をかける際に唱える四字の呪文。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "唱句と術の作用が同じ文脈で記される。サンスクリット原句や既存の六字真言と同一視しない。"
+    "forms":
+      - "id": "xy-ch89-fixing-mantra-form"
+        "text": "唵吽吒唎"
+        "relation": "preferred"
+        "reading":
+          "kana": "おんうんたり"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "唵・吽などの真言の音写的読例と各字音を組み合わせた推定。四字全体の日本語仮名資料や梵語原句は未確認。"
+  - "id": "xy-ch89-diaozuan-guguai"
+    "kind": "person"
+    "headword": "刁鑽古怪"
+    "definition_ja": "黄獅に仕え、豚と羊の買い出しに出る狼頭の妖怪の一人。古怪刁鑽とは別の名札を持つ。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "二匹の名札と、八戒・悟空への変装の割当を原文で確認。前の個別の台詞を名札のいずれかへ推測で割り当てない。"
+    "forms":
+      - "id": "xy-ch89-diaozuan-guguai-form"
+        "text": "刁鑽古怪"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうさんこかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-guguai-diaozuan"
+    "kind": "person"
+    "headword": "古怪刁鑽"
+    "definition_ja": "黄獅に仕え、豚と羊の買い出しに出る狼頭の妖怪の一人。刁鑽古怪とは別の名札を持つ。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "二匹の名札と、悟空・八戒への変装の割当を原文で確認。同じ二語を逆順にする別個体の名であり統合しない。"
+    "forms":
+      - "id": "xy-ch89-guguai-diaozuan-form"
+        "text": "古怪刁鑽"
+        "relation": "preferred"
+        "reading":
+          "kana": "こかいちょうさん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-grass-shoes"
+    "kind": "object"
+    "headword": "莎蒲履"
+    "definition_ja": "莎や蒲などの草を用いる履物と解される語。具体的な素材・編み方は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "使者の小妖の足元の詩と莎・蒲・履の字義から解する。厳密な植物種や独立した語義資料は未確認。"
+    "forms":
+      - "id": "xy-ch89-grass-shoes-form"
+        "text": "莎蒲履"
+        "relation": "preferred"
+        "reading":
+          "kana": "さほり"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-zhujie-mountain"
+    "kind": "place"
+    "headword": "竹節山"
+    "definition_ja": "黄獅の招待の使者が向かう山。九曲盤桓洞がある。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "使者の行先と黄獅が逃れて到着する山の名を原文で確認。洞名の初出より前の語釈では山名のみを説明する。"
+    "forms":
+      - "id": "xy-ch89-zhujie-mountain-form"
+        "text": "竹節山"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちくせつざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-jiuling-yuansheng"
+    "kind": "person"
+    "headword": "九霊元聖"
+    "definition_ja": "黄獅に祖翁と呼ばれる、竹節山の九曲盤桓洞の老妖。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "黄獅の招待状の宛名と、逃れ着いた洞の説明で同じ名と関係を確認。未開示の本相・飼い主・来歴は加えない。"
+    "forms":
+      - "id": "xy-ch89-jiuling-yuansheng-form"
+        "text": "九霊元聖"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうれいげんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-huangshi"
+    "kind": "person"
+    "headword": "黄獅"
+    "definition_ja": "豹頭山の虎口洞に住み、三人の僧の武器を盗んだ妖王。九霊元聖を祖翁と呼ぶ。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "招待状の署名と武器を奪い返す場面、黄獅の訴えを原文で照合。日本語の黄は原文黃の字体対応。"
+    "forms":
+      - "id": "xy-ch89-huangshi-form"
+        "text": "黄獅"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+      - "id": "xy-ch89-yellow-lion-spirit-form"
+        "text": "黄獅精"
+        "relation": "alias"
+        "reading":
+          "kana": "こうしせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "原回題の黃獅精は本文の署名黄獅と同じ妖王。回題の語を本文の開示前へ移さない。全語仮名資料は未確認。"
+  - "id": "xy-ch89-grandfather-address"
+    "kind": "title"
+    "headword": "祖翁"
+    "definition_ja": "祖父に対する敬称。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "黄獅が九霊元聖に用いる招待状の呼称で、後の対面でも祖爺爺・孫という関係が述べられる。具体的な血統や師弟系譜は特定しない。"
+    "forms":
+      - "id": "xy-ch89-grandfather-address-form"
+        "text": "祖翁"
+        "relation": "preferred"
+        "reading":
+          "kana": "そおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-chinese-redbud"
+    "kind": "term"
+    "headword": "紫荊"
+    "definition_ja": "ハナズオウ。マメ科の落葉低木。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+        - "xy-ch89-zijing-reading"
+      "reason_ja": "漢字ペディアの紫荊の表示本文で日本語読みとマメ科落葉低木であることを確認。"
+    "forms":
+      - "id": "xy-ch89-chinese-redbud-form"
+        "text": "紫荊"
+        "relation": "preferred"
+        "reading":
+          "kana": "はなずおう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch89-zijing-reading"
+          "reason_ja": "表示本文で当該表記の日本語仮名を確認。中国語の出現を読みの証明としたものではない。"
+  - "id": "xy-ch89-diaozuan-address"
+    "kind": "term"
+    "headword": "刁鑽児"
+    "definition_ja": "刁鑽古怪・古怪刁鑽の名を構成する語から取った呼びかけ。どちらか一方だけの短称と断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "黄獅は古怪刁鑽に化けた悟空を刁鑽兒と呼び、別の場面では買い出し役をまとめて指す。短称から個体を固定すると変装の割当を壊すため、呼びかけの語として区別。"
+    "forms":
+      - "id": "xy-ch89-diaozuan-address-form"
+        "text": "刁鑽児"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうさんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-guguai-address"
+    "kind": "term"
+    "headword": "古怪"
+    "definition_ja": "刁鑽古怪・古怪刁鑽の名を構成する語から取った呼びかけ。どちらか一方だけの短称と断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "黄獅は刁鑽古怪に化けた八戒を古怪と呼ぶ。二名の共有要素を示す呼称として扱い、別個体は作らない。"
+    "forms":
+      - "id": "xy-ch89-guguai-address-form"
+        "text": "古怪"
+        "relation": "preferred"
+        "reading":
+          "kana": "こかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-ishizuki"
+    "kind": "object"
+    "headword": "石突"
+    "definition_ja": "長柄の武器の柄の下端に付ける金属部分。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+        - "xy-ch89-zun-meaning"
+      "reason_ja": "原文の鐏について、教育部辞典の柄下端の金属部分という説明を実見し、日本語で石突と訳した。"
+    "forms":
+      - "id": "xy-ch89-ishizuki-form"
+        "text": "石突"
+        "relation": "preferred"
+        "reading":
+          "kana": "いしづき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-cornered-enemy"
+    "kind": "term"
+    "headword": "窮寇"
+    "definition_ja": "追いつめられ、逃げ場や余力のなくなった敵。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "敗走する黄獅を追わないよう悟空が窮寇勿追を引く文脈と語構成から解する。"
+    "forms":
+      - "id": "xy-ch89-cornered-enemy-form"
+        "text": "窮寇"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-jiuqu-panhuan-cave"
+    "kind": "place"
+    "headword": "九曲盤桓洞"
+    "definition_ja": "竹節山にある、九霊元聖の住む洞。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "黄獅が逃れて到着する洞の説明に名と居住者が明記される。"
+    "forms":
+      - "id": "xy-ch89-jiuqu-panhuan-cave-form"
+        "text": "九曲盤桓洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうきょくばんかんどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-qinglianer"
+    "kind": "person"
+    "headword": "青臉児"
+    "definition_ja": "黄獅の招待状を九霊元聖へ届ける、青い顔と赤毛の小妖。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "容貌の描写、招待状を運ぶ場面と、九曲盤桓洞での呼び名と登場を照合。同じ使者と確認して名へ接続する。"
+    "forms":
+      - "id": "xy-ch89-qinglianer-form"
+        "text": "青臉児"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいれんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-naoshi-grandson"
+    "kind": "person"
+    "headword": "猱獅"
+    "definition_ja": "九霊元聖に孫と呼ばれ、黄獅を助けに出る妖怪の一人。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "九霊元聖が呼び集める六名の一つ。旧xy-ch55-naoshiは縛られた姿の比喩に用いる獣の一般名であり、個体の同一性の証拠にならない。"
+    "forms":
+      - "id": "xy-ch89-naoshi-grandson-form"
+        "text": "猱獅"
+        "relation": "preferred"
+        "reading":
+          "kana": "どうし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-xueshi-grandson"
+    "kind": "person"
+    "headword": "雪獅"
+    "definition_ja": "九霊元聖に孫と呼ばれ、黄獅を助けに出る妖怪の一人。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "呼び集められた六名の一つとして原文が明記。毛色や種族の詳細を名前だけから断定しない。"
+    "forms":
+      - "id": "xy-ch89-xueshi-grandson-form"
+        "text": "雪獅"
+        "relation": "preferred"
+        "reading":
+          "kana": "せつし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-suanni-grandson"
+    "kind": "person"
+    "headword": "狻猊"
+    "definition_ja": "九霊元聖に孫と呼ばれ、黄獅を助けに出る妖怪の一人。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "呼び集められる六名の一つ。旧xy-entry-0166は獣の一般名で、同名の個体との同一性の証拠ではない。"
+    "forms":
+      - "id": "xy-ch89-suanni-grandson-form"
+        "text": "狻猊"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅんげい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-baize-grandson"
+    "kind": "person"
+    "headword": "白沢"
+    "definition_ja": "九霊元聖に孫と呼ばれ、黄獅を助けに出る妖怪の一人。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "六名の列挙にある白澤を日本語字体の白沢で表した。神獣一般や他の同名人物の来歴を持ち込まない。"
+    "forms":
+      - "id": "xy-ch89-baize-grandson-form"
+        "text": "白沢"
+        "relation": "preferred"
+        "reading":
+          "kana": "はくたく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-fuli-grandson"
+    "kind": "person"
+    "headword": "伏狸"
+    "definition_ja": "九霊元聖に孫と呼ばれ、黄獅を助けに出る妖怪の一人。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "六名の列挙の原字伏狸を保つ。別字への訂正や種の同定はしない。"
+    "forms":
+      - "id": "xy-ch89-fuli-grandson-form"
+        "text": "伏狸"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふくり"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch89-tuanxiang-grandson"
+    "kind": "person"
+    "headword": "摶象"
+    "definition_ja": "九霊元聖に孫と呼ばれ、黄獅を助けに出る妖怪の一人。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch89-primary-1500528"
+      "reason_ja": "六名の列挙の原字摶象を保つ。摶を搏へ訂正せず、名だけから外見や象との関係を補わない。"
+    "forms":
+      - "id": "xy-ch89-tuanxiang-grandson-form"
+        "text": "摶象"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch89-primary-1500528"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
