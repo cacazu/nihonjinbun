@@ -4050,6 +4050,62 @@
     "title": "西遊真詮 第90回（Ctext表示本文の清代評。原作者の唯一の意図とは扱わない）"
     "url": "https://ctext.org/wiki.pl?chapter=450544&if=gb"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-primary-1455640"
+    "title": "中文維基文庫 西遊記 第091回 固定版1455640（全210表示行を固定URLで直接取得）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第091回&oldid=1455640"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-rinzo"
+    "title": "新纂浄土宗大辞典 輪蔵（表示本文L42–43で読みと書架の義）"
+    "url": "https://jodoshuzensho.jp/daijiten/index.php/輪蔵"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-saie"
+    "title": "國學院大學デジタル・ミュージアム さいえ（検索掲載本文で読みと僧への食事供養の義）"
+    "url": "https://jmapps.ne.jp/kokugakuin/det.html?data_id=31984"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-jingu"
+    "title": "玉圓寺 法然上人御法語第二十一（検索掲載本文で金谷園の読みと石崇の園を確認。個別openの抜粋は説明の前で切れた）"
+    "url": "https://www.gyokuenji.or.jp/old/diary/detail/detailG000000066_23.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-wangchuan"
+    "title": "大阪市立美術館 画中游（表示L73で輞川図のかな、検索掲載本文で画題を確認）"
+    "url": "https://www.osaka-art-museum.jp/planned_exhibition/9649"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-jasmine"
+    "title": "山科植物資料館 オウバイ（検索掲載本文で中国名迎春花を確認）"
+    "url": "https://yamashina-botanical.com/botanical/オウバイ/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-daphne"
+    "title": "東海国立大学機構 瑞香科（検索掲載翻刻に瑞香ズイカウ、ジンチョウゲとの対応）"
+    "url": "https://da.adm.thers.ac.jp/item/n002-20230901-12207"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-aoshan"
+    "title": "教育部 重編國語辭典 鰲山（検索表示で義を確認、直接openはCache miss）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=147408&q=1&word=鰲"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-fengyi"
+    "title": "教育部 重編國語辭典 馮夷（表示本文L32で河神・河伯）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=37568&q=1&word=夷"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-libai"
+    "title": "本間美術館 李白観瀑図・周茂叔愛蓮図（検索掲載本文で作品名の李白のかなと唐の詩人の説明）"
+    "url": "https://search.homma-museum.or.jp/search/b-b000054-1967/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-running-lamp"
+    "title": "教育部 重編國語辭典 走馬燈（検索掲載本文の第一義で回転機構を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=138798&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-three-yang"
+    "title": "國立故宮博物院 竹雕三陽開泰（表示L19・55で三羊と吉祥の意を確認）"
+    "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/62370?dep=U"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-lantern-night"
+    "title": "小学館 goo国語辞書 元宵（検索表示でげんしょうを確認、個別本文未取得）"
+    "url": "https://dictionary.goo.ne.jp/word/元宵/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch91-shangyuan"
+    "title": "山口県文書館 年中行事正月（検索抽出の表に上元じょうげん。PDF全体未実見）"
+    "url": "https://archives.pref.yamaguchi.lg.jp/user_data/upload/File/kiyou/047/kiyou47kanaya.pdf"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -4818,6 +4874,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch91-phoenix-short-form"
+        "text": "鳳"
+        "relation": "short_form"
+        "reading":
+          "kana": "ほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "鸞と並べる鳳は、伝説の鳳凰を短く呼ぶ語。婚姻比喩の鸞鳳全体や別種の鳥へ統合しない。単独語形のかな資料は今回未確認。"
   - "id": "xy-term-039"
     "kind": "concept"
     "headword": "麒麟"
@@ -23150,6 +23215,15 @@
           "source_ids":
             - "xy-ch84-primary-2597328"
           "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch91-wujing-monk-form"
+        "text": "悟浄和尚"
+        "relation": "alias"
+        "reading":
+          "kana": "ごじょうおしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "三蔵が姓は沙、名は悟淨和尚と紹介する既知の沙悟浄。既存の悟浄に僧の称を付けた名乗り。全語かな未確認。"
   - "id": "xy-entry-0886"
     "kind": "object"
     "headword": "宝杖"
@@ -23692,6 +23766,15 @@
           "source_ids":
             - "xy-ch85-primary-1455634"
           "reason_ja": "八戒自身の法名の原字形。既存の猪八戒と同じ人物を指す。既存読みを字形違いへ適用するが、この表記の全語仮名の直接確認とはしない。"
+      - "id": "xy-ch91-tianpeng-grand-marshal-form"
+        "text": "天蓬大元帥"
+        "relation": "title"
+        "reading":
+          "kana": "てんぽうだいげんすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "三蔵が八戒の前世の職位として明示。既存の天蓬元帥と同一人の称号で、天蓬の別の神entryへ誤接続しない。全語かな未確認。"
   - "id": "xy-entry-0903"
     "kind": "concept"
     "headword": "精霊"
@@ -67357,6 +67440,15 @@
           "source_ids":
             - "xy-ch82-primary-1455631"
           "reason_ja": "構成漢字の日本語音訓と語構成による読み。語全体の仮名資料は未確認であり、中国語原文の出現だけを日本語読みの実証としない。"
+      - "id": "xy-ch91-hanxiao-flower-form"
+        "text": "含笑花"
+        "relation": "alias"
+        "reading":
+          "kana": "がんしょうか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "庭園の花木列の含笑花で、既存含笑の花を明示した呼び方。紫という前の詩の色を新たな花に付けず、原定義の種未確定も保持。全語仮名未確認。"
   - "id": "xy-ch82-fusang-flower"
     "kind": "term"
     "headword": "仏桑"
@@ -67759,6 +67851,24 @@
           "source_ids":
             - "xy-ch84-primary-2597328"
           "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch91-yuanxiao-form"
+        "text": "元宵"
+        "relation": "short_form"
+        "reading":
+          "kana": "げんしょう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch91-lantern-night"
+          "reason_ja": "同じ正月十五日の灯祭りの短称。goo国語辞書検索表示のげんしょうを確認、個別本文未取得。"
+      - "id": "xy-ch91-shangyuan-form"
+        "text": "上元"
+        "relation": "alias"
+        "reading":
+          "kana": "じょうげん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch91-shangyuan"
+          "reason_ja": "原文が十五上元と明示し、元宵と同じ祭日を指す。県文書館PDFの検索抽出表の仮名を確認、PDF全体は未実見。"
   - "id": "xy-ch84-wang-xiaoer"
     "kind": "person"
     "headword": "王小二"
@@ -69627,6 +69737,15 @@
           "source_ids":
             - "xy-ch89-primary-1500528"
           "reason_ja": "前回から続く同じ王・三王子・王府の城を本文が玉華州と呼ぶ。別の都市を立てず玉華県の語形追加。行政区分の表記を無断統一しない。全語の日本語仮名資料は未確認。"
+      - "id": "xy-ch91-yuhua-city-form"
+        "text": "玉華城"
+        "relation": "alias"
+        "reading":
+          "kana": "ぎょくかじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "玉華王の城を発った継続場面で用いる同じ玉華の城下町。前の玉華県・玉華州との地理的連続を確認し、類似字だけで統合していない。全語仮名未確認。"
   - "id": "xy-ch88-yuhua-king"
     "kind": "person"
     "headword": "玉華王"
@@ -70834,3 +70953,658 @@
           "source_ids":
             - "xy-ch90-primary-1455639"
           "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-ciyun-temple"
+    "kind": "place"
+    "headword": "慈雲寺"
+    "definition_ja": "金平府の東門外の町にある寺。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "山門の銘文と金平府の寺僧の説明、師弟の往復で確認。後の事件を定義へ含めない。"
+    "forms":
+      - "id": "xy-ch91-ciyun-temple-form"
+        "text": "慈雲寺"
+        "relation": "preferred"
+        "reading":
+          "kana": "じうんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-sutra-wheel"
+    "kind": "object"
+    "headword": "輪蔵"
+    "definition_ja": "経典を納める回転式の書架。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+        - "xy-ch91-rinzo"
+      "reason_ja": "浄土宗辞典の輪蔵の実物説明に対応。冥府の転生先xy-entry-1238は別義、xy-ch80-sutra-wheel-hallは書架を安置する堂で、装置そのものとは区別する。"
+    "forms":
+      - "id": "xy-ch91-sutra-wheel-form"
+        "text": "輪蔵"
+        "relation": "preferred"
+        "reading":
+          "kana": "りんぞう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch91-rinzo"
+          "reason_ja": "資料の表示本文または明記した検索掲載本文で対応する日本語かなを確認。中国語の出現だけを仮名確認にはしない。"
+  - "id": "xy-ch91-saie"
+    "kind": "term"
+    "headword": "斎会"
+    "definition_ja": "僧を招き、食事を供えて営む仏教の法会。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+        - "xy-ch91-saie"
+      "reason_ja": "寺内で人家のため做齋し、齋主が同席する文脈。食物だけの斎食、道教儀式の斎醮とは対象が異なる。大学資料でも僧への食物供養の法会と確認。"
+    "forms":
+      - "id": "xy-ch91-saie-form"
+        "text": "斎会"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいえ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch91-saie"
+          "reason_ja": "資料の表示本文または明記した検索掲載本文で対応する日本語かなを確認。中国語の出現だけを仮名確認にはしない。"
+  - "id": "xy-ch91-sponsor"
+    "kind": "title"
+    "headword": "斎主"
+    "definition_ja": "僧に食事を供えるなど、斎会を施す側の人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "原文で僧とは別に施主として同席し宿泊を勧める。日本の神道で儀式を執行する斎主とは意味を分ける。全語の仏教語日本語読みの直接資料は未確認。"
+    "forms":
+      - "id": "xy-ch91-sponsor-form"
+        "text": "斎主"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいしゅ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-outer-prefecture"
+    "kind": "term"
+    "headword": "外郡"
+    "definition_ja": "都の外にある地方の郡。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "天竺国の一地方として府名を答え、都まで二千里とする文脈。既存の鳳仙郡などの個別地名とは区別する。"
+    "forms":
+      - "id": "xy-ch91-outer-prefecture-form"
+        "text": "外郡"
+        "relation": "preferred"
+        "reading":
+          "kana": "がいぐん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-jinping-prefecture"
+    "kind": "place"
+    "headword": "金平府"
+    "definition_ja": "天竺国の地方にある府の名。慈雲寺や金灯橋がある。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "寺僧による地名の返答と、同じ町内の移動で確認。本文の語釈では未出の施設を足さない。"
+    "forms":
+      - "id": "xy-ch91-jinping-prefecture-form"
+        "text": "金平府"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんぺいふ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-taishou"
+    "kind": "title"
+    "headword": "太守"
+    "definition_ja": "郡や府を治める地方長官の呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "金平府の民を治める役人への敬称として用いる。刺史とは別の官名であり、一般の州主の単なる字形差ではない。"
+    "forms":
+      - "id": "xy-ch91-taishou-form"
+        "text": "太守"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいしゅ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-gold-lamp-bridge"
+    "kind": "place"
+    "headword": "金灯橋"
+    "definition_ja": "金平府で金の灯を掲げる橋の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "寺僧の祭礼説明と後の橋上の場面から確認。原文の燈を灯にした表記で、独立した既存同名の橋はない。"
+    "forms":
+      - "id": "xy-ch91-gold-lamp-bridge-form"
+        "text": "金灯橋"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんとうきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-jingu-garden"
+    "kind": "place"
+    "headword": "金谷園"
+    "definition_ja": "西晋の石崇が設けた、豪奢なことで知られる園。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+        - "xy-ch91-jingu"
+      "reason_ja": "園林描写で富麗の典型に引く固有名。玉圓寺の検索掲載本文の読み・由来と照合した。個別openの抜粋は該当説明の前で切れ、ページ全体の読了とはしない。"
+    "forms":
+      - "id": "xy-ch91-jingu-garden-form"
+        "text": "金谷園"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんこくえん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch91-jingu"
+          "reason_ja": "資料の表示本文または明記した検索掲載本文で対応する日本語かなを確認。中国語の出現だけを仮名確認にはしない。"
+  - "id": "xy-ch91-wangchuan-picture"
+    "kind": "object"
+    "headword": "輞川図"
+    "definition_ja": "王維の別荘地である輞川の景勝を描く絵の題材。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+        - "xy-ch91-wangchuan"
+      "reason_ja": "寺の庭の比較対象となる絵図。大阪市立美術館の表示と検索掲載本文で読み・画題を確認。特定の現存模本そのものとは同定しない。"
+    "forms":
+      - "id": "xy-ch91-wangchuan-picture-form"
+        "text": "輞川図"
+        "relation": "preferred"
+        "reading":
+          "kana": "もうせんず"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch91-wangchuan"
+          "reason_ja": "資料の表示本文または明記した検索掲載本文で対応する日本語かなを確認。中国語の出現だけを仮名確認にはしない。"
+  - "id": "xy-ch91-winter-jasmine"
+    "kind": "term"
+    "headword": "迎春花"
+    "definition_ja": "早春に黄色い花を咲かせるオウバイの中国名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+        - "xy-ch91-jasmine"
+      "reason_ja": "山科植物資料館の検索掲載本文が中国名を明記。原文の庭の花名に対応。全語の日本語かなは独立した一次資料で未確認。"
+    "forms":
+      - "id": "xy-ch91-winter-jasmine-form"
+        "text": "迎春花"
+        "relation": "preferred"
+        "reading":
+          "kana": "げいしゅんか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-daphne"
+    "kind": "term"
+    "headword": "瑞香"
+    "definition_ja": "ジンチョウゲの中国名。香りのよい花を咲かせる木。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+        - "xy-ch91-daphne"
+      "reason_ja": "名古屋大学所蔵伊藤圭介稿本の検索掲載翻刻で瑞香ズイカウとジンチョウゲの対応を確認。公開原画像や翻刻全体の実見とはしない。読みは歴史的仮名遣いを現代表記にした。"
+    "forms":
+      - "id": "xy-ch91-daphne-form"
+        "text": "瑞香"
+        "relation": "preferred"
+        "reading":
+          "kana": "ずいこう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch91-daphne"
+          "reason_ja": "資料の表示本文または明記した検索掲載本文で対応する日本語かなを確認。中国語の出現だけを仮名確認にはしない。"
+  - "id": "xy-ch91-nature-cultivation-tower"
+    "kind": "place"
+    "headword": "養性楼"
+    "definition_ja": "心身や本性を養うための楼という寺院施設の呼び方。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "庭園内の一二座養性樓。語構成から機能を解し、特定寺院建築の公的名称には広げない。"
+    "forms":
+      - "id": "xy-ch91-nature-cultivation-tower-form"
+        "text": "養性楼"
+        "relation": "preferred"
+        "reading":
+          "kana": "ようせいろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-demon-discipline-room"
+    "kind": "place"
+    "headword": "煉魔室"
+    "definition_ja": "心を乱す魔を退ける修行のための部屋という呼び方。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "庭園の三四處煉魔室。原文の煉を練へ直さず、魔を練り除く修養の場と解する。具体的な修法や器具は補わない。"
+    "forms":
+      - "id": "xy-ch91-demon-discipline-room-form"
+        "text": "煉魔室"
+        "relation": "preferred"
+        "reading":
+          "kana": "れんましつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-ao-lamp-mountain"
+    "kind": "object"
+    "headword": "鰲山灯"
+    "definition_ja": "大亀の鰲になぞらえ、山のように高く組んだ祭りの灯飾り。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+        - "xy-ch91-aoshan"
+      "reason_ja": "教育部の鰲山検索表示は元宵の灯を鰲形に積む装飾と説明。個別ページ取得はCache miss。鰲そのものの生物項目とは別物。"
+    "forms":
+      - "id": "xy-ch91-ao-lamp-mountain-form"
+        "text": "鰲山灯"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごうざんとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+      - "id": "xy-ch91-ao-peak-form"
+        "text": "鰲峰"
+        "relation": "alias"
+        "reading":
+          "kana": "ごうほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "元宵の灯景色の高い飾りを鰲峰と詠む。後の鰲山灯と同じ山形の灯の種類と解し、実際の山名や鰲という生物ではない。全語かな未確認。"
+  - "id": "xy-ch91-fengyi"
+    "kind": "person"
+    "headword": "馮夷"
+    "definition_ja": "河伯とも呼ばれる、中国の伝説上の水の神。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+        - "xy-ch91-fengyi"
+      "reason_ja": "教育部表示本文で河神・河伯と確認。作品の現実の月運行をこの神が行うとする断定ではなく、詩の比喩として現れる。"
+    "forms":
+      - "id": "xy-ch91-fengyi-form"
+        "text": "馮夷"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひょうい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-libai"
+    "kind": "person"
+    "headword": "李白"
+    "definition_ja": "唐代の詩人。仙人にたとえられ、絵や祭りの飾りの題材にもなる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+        - "xy-ch91-libai"
+      "reason_ja": "本文の魚や鯨の上の灯飾りの人物。美術館の検索掲載の作品解説が詩人の名と題材を説明する。検索表示の作品名の李白のかな部分を確認。"
+    "forms":
+      - "id": "xy-ch91-libai-form"
+        "text": "李白"
+        "relation": "preferred"
+        "reading":
+          "kana": "りはく"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch91-libai"
+          "reason_ja": "資料の表示本文または明記した検索掲載本文で対応する日本語かなを確認。中国語の出現だけを仮名確認にはしない。"
+  - "id": "xy-ch91-revolving-lantern"
+    "kind": "object"
+    "headword": "走馬灯"
+    "definition_ja": "灯の熱によって内側の紙の輪が回り、人や馬などの影が動いて見える灯籠。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+        - "xy-ch91-running-lamp"
+      "reason_ja": "教育部の検索掲載本文が仕組みを説明する。作品本文では武将の戦いを見せる灯で、比喩的な記憶の連続とは区別。"
+    "forms":
+      - "id": "xy-ch91-revolving-lantern-form"
+        "text": "走馬灯"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうまとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-mintian-county"
+    "kind": "place"
+    "headword": "旻天県"
+    "definition_ja": "金平府の奥にある県の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "寺僧の灯油負担の説明に名喚旻天縣と明示。旻を昊などに直さない。"
+    "forms":
+      - "id": "xy-ch91-mintian-county-form"
+        "text": "旻天県"
+        "relation": "preferred"
+        "reading":
+          "kana": "びんてんけん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-lamp-oil-household"
+    "kind": "term"
+    "headword": "灯油大戸"
+    "definition_ja": "祭礼の灯油代を負担するよう割り当てられた家。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "毎年の差徭名簿、二百四十家と年間負担の説明に基づく。本物語の役負担の呼称で、裕福な家一般や日本の戸主制度に置き換えない。"
+    "forms":
+      - "id": "xy-ch91-lamp-oil-household-form"
+        "text": "灯油大戸"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうゆたいこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-suhe-oil"
+    "kind": "object"
+    "headword": "酥合香油"
+    "definition_ja": "強い芳香を持つ、高価な灯油の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "原文で香り、灯火への用途、価格、食用目的が述べられる。蘇合香との関係は考えられるが同一製法・成分は断定せず、原字酥を保持。乳製品の酥とは別の油の名称。"
+    "forms":
+      - "id": "xy-ch91-suhe-oil-form"
+        "text": "酥合香油"
+        "relation": "preferred"
+        "reading":
+          "kana": "そごうこうゆ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-ren-length"
+    "kind": "term"
+    "headword": "仞"
+    "definition_ja": "古い長さの単位。山や崖の大きな高さをいう表現に用いられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "万仞の一万という数量を残し、単位部分を説明する。既存の千仞は千という数量を含む句で、単位単体とは定義範囲を区別。固定したメートル換算はしない。"
+    "forms":
+      - "id": "xy-ch91-ren-length-form"
+        "text": "仞"
+        "relation": "preferred"
+        "reading":
+          "kana": "じん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-kaitai"
+    "kind": "concept"
+    "headword": "開泰"
+    "definition_ja": "運が開け、物事が順調になることを願う言葉。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "羊追いの掛け声と功曹自身の説明に基づく。掛け声を独立した名前や後の人物名にしない。"
+    "forms":
+      - "id": "xy-ch91-kaitai-form"
+        "text": "開泰"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいたい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-three-yang-prosperity"
+    "kind": "concept"
+    "headword": "三陽開泰"
+    "definition_ja": "よい運が開け、物事が順調になることを祝う言葉。三匹の羊に託す吉祥図柄でも表される。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+        - "xy-ch91-three-yang"
+      "reason_ja": "原文の三羊との語呂合わせ、故宮の三匹の羊の造形解説を照合。具体的な易の月別卦配当まで注で断定しない。"
+    "forms":
+      - "id": "xy-ch91-three-yang-prosperity-form"
+        "text": "三陽開泰"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんようかいたい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-qinglong-mountain"
+    "kind": "place"
+    "headword": "青竜山"
+    "definition_ja": "玄英洞がある山の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "四値功曹の説明と門の石碑で同じ山と洞の関係を確認。原文の青龍山を新字体にし、現実の同名山と同定しない。"
+    "forms":
+      - "id": "xy-ch91-qinglong-mountain-form"
+        "text": "青竜山"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいりゅうざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-xuanying-cave"
+    "kind": "place"
+    "headword": "玄英洞"
+    "definition_ja": "青竜山にある、三大王の住む洞の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "四値功曹による所在説明、石碑、三大王の行動で確認。未開示の動物種は語釈へ入れない。"
+    "forms":
+      - "id": "xy-ch91-xuanying-cave-form"
+        "text": "玄英洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんえいどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-cold-warding-king"
+    "kind": "person"
+    "headword": "辟寒大王"
+    "definition_ja": "青竜山の玄英洞に住む三大王のうち、最年長の妖怪。名は寒さを避けるという意味。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "功曹が大的個名辟寒大王と明示、後の旗銘も一致。原文の辟を避へ直さず、将来の末路や未開示の種族を含めない。"
+    "forms":
+      - "id": "xy-ch91-cold-warding-king-form"
+        "text": "辟寒大王"
+        "relation": "preferred"
+        "reading":
+          "kana": "へきかんだいおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+      - "id": "xy-ch91-cold-short-form"
+        "text": "辟寒"
+        "relation": "short_form"
+        "reading":
+          "kana": "へきかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "戦闘詩で既知の三大王を並べて呼ぶ短称。各大王の同一個体として接続し、同じ字を持つ道具とは区別する。全語かな未確認。"
+  - "id": "xy-ch91-heat-warding-king"
+    "kind": "person"
+    "headword": "辟暑大王"
+    "definition_ja": "青竜山の玄英洞に住む三大王のうち、二番目の妖怪。名は暑さを避けるという意味。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "功曹の第二個號辟暑大王、後の旗銘で確認。同じ辟の字を持つ別人と統合しない。"
+    "forms":
+      - "id": "xy-ch91-heat-warding-king-form"
+        "text": "辟暑大王"
+        "relation": "preferred"
+        "reading":
+          "kana": "へきしょだいおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+      - "id": "xy-ch91-heat-short-form"
+        "text": "辟暑"
+        "relation": "short_form"
+        "reading":
+          "kana": "へきしょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "戦闘詩で既知の三大王を並べて呼ぶ短称。各大王の同一個体として接続し、同じ字を持つ道具とは区別する。全語かな未確認。"
+  - "id": "xy-ch91-dust-warding-king"
+    "kind": "person"
+    "headword": "辟塵大王"
+    "definition_ja": "青竜山の玄英洞に住む三大王のうち、三番目の妖怪。名は塵を避けるという意味。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "功曹の第三個號辟塵大王、旗銘、武器を振って合図する行為で確認。既存の辟塵珠は宝物であって人物ではない。"
+    "forms":
+      - "id": "xy-ch91-dust-warding-king-form"
+        "text": "辟塵大王"
+        "relation": "preferred"
+        "reading":
+          "kana": "へきじんだいおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+      - "id": "xy-ch91-dust-short-form"
+        "text": "辟塵"
+        "relation": "short_form"
+        "reading":
+          "kana": "へきじん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "戦闘詩で既知の三大王を並べて呼ぶ短称。各大王の同一個体として接続し、同じ字を持つ道具とは区別する。全語かな未確認。"
+  - "id": "xy-ch91-altar-leader"
+    "kind": "title"
+    "headword": "壇主"
+    "definition_ja": "法会の壇を主宰する僧。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "三蔵が水陸大会で選ばれた役目として、大闡都綱とともに述べる。大闡都綱そのものとは官名の範囲が異なるので別語。"
+    "forms":
+      - "id": "xy-ch91-altar-leader-form"
+        "text": "壇主"
+        "relation": "preferred"
+        "reading":
+          "kana": "だんしゅ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-knotted-rattan"
+    "kind": "object"
+    "headword": "扢撻藤"
+    "definition_ja": "辟塵大王が振るう藤製の棒の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "武器列の扢撻藤と悟空の回顧の藤棍を照合。疙瘩の連想から節くれだった棒とも解されるが、語形は変更せず細部は断定しない。扢コツ・撻タツ・藤トウを連ね促音化した仮の音読みで全語仮名未確認。"
+    "forms":
+      - "id": "xy-ch91-knotted-rattan-form"
+        "text": "扢撻藤"
+        "relation": "preferred"
+        "reading":
+          "kana": "こったつとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch91-cishi"
+    "kind": "title"
+    "headword": "刺史"
+    "definition_ja": "地方行政を担う長官の官名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch91-primary-1455640"
+      "reason_ja": "金平府で偽仏の証明を受ける役人として言及。太守と同一個人かは本文で確定せず、役職語として別に登録。"
+    "forms":
+      - "id": "xy-ch91-cishi-form"
+        "text": "刺史"
+        "relation": "preferred"
+        "reading":
+          "kana": "しし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch91-primary-1455640"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
