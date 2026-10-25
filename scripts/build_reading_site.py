@@ -184,11 +184,15 @@ def render_chapter(data, number):
 
 
 def render_index(documents):
-    links = "".join(
-        f'<li><a href="chapter-{number:03d}.html">第{NUMERALS[number-1]}回</a></li>'
-        for number, _ in enumerate(documents, 1)
-    )
-    # The landing page contains only the contents and repository address.
+    links = []
+    for number, document in enumerate(documents, 1):
+        heading = next(segment["translation_ja"] for segment in document["segments"]
+                       if segment["kind"] == "heading")
+        # Reuse the complete existing Japanese title, folding layout whitespace only.
+        title = " ".join(heading.split())
+        links.append(f'<li><a href="chapter-{number:03d}.html">{esc(title)}</a></li>')
+    links = "".join(links)
+    # The landing page contains only the book title, contents and repository address.
     # Notes and required attribution stay on chapter pages.
     return f'''<!doctype html>
 <html lang="ja">
@@ -197,12 +201,13 @@ def render_index(documents):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'; connect-src 'none'">
-<title>目次</title>
+<title>西遊記 目次</title>
 <link rel="stylesheet" href="assets/reading.css">
 </head>
 <body class="index-page">
 <main id="main" class="contents">
-<h1 id="chapters">目次</h1>
+<h1>西遊記</h1>
+<h2 id="chapters">目次</h2>
 <ul>{links}</ul>
 <p><a href="https://github.com/cacazu/nihonjinbun" rel="noreferrer">https://github.com/<wbr>cacazu/nihonjinbun</a></p>
 </main>

@@ -40,6 +40,47 @@ class Elements(HTMLParser):
         return [n for n in self.nodes if n["attrs"].get("id") == value]
 
 
+class IndexRenderingTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.documents = [load_document(ROOT / "translations" / "wu-chengen" / name)
+                         for name in reader.CHAPTERS]
+
+    def test_index_contains_book_title_chapter_titles_and_repository_only(self):
+        page = Elements(reader.render_index(self.documents))
+        main, = page.by_id("main")
+        children = [node for node in page.nodes if node["parents"]
+                    and node["parents"][-1] is main]
+        self.assertEqual([node["tag"] for node in children], ["h1", "h2", "ul", "p"])
+        self.assertEqual(children[0]["text"], "西遊記")
+        self.assertEqual(children[1]["text"], "目次")
+        self.assertEqual(children[1]["attrs"]["id"], "chapters")
+        expected = []
+        for number, document in enumerate(self.documents, 1):
+            heading, = [segment["translation_ja"] for segment in document["segments"]
+                        if segment["kind"] == "heading"]
+            expected.append((" ".join(heading.split()), f"chapter-{number:03d}.html"))
+        expected.append(("https://github.com/cacazu/nihonjinbun",
+                         "https://github.com/cacazu/nihonjinbun"))
+        self.assertEqual([(node["text"], node["attrs"]["href"])
+                          for node in page.nodes if node["tag"] == "a"], expected)
+        self.assertFalse(any(node["tag"] in ("header", "footer", "script", "button")
+                             for node in page.nodes))
+        self.assertEqual([node["text"] for node in page.nodes if node["tag"] == "title"],
+                         ["西遊記 目次"])
+
+    def test_index_escapes_titles_and_only_folds_layout_whitespace(self):
+        title = '第一回\n<仏> & "猿"\n 天地'
+        document = {"segments": [{"kind": "heading", "translation_ja": title}]}
+        before = copy.deepcopy(document)
+        rendered = reader.render_index([document])
+        page = Elements(rendered)
+        first_link = next(node for node in page.nodes if node["tag"] == "a")
+        self.assertEqual(first_link["text"], '第一回 <仏> & "猿" 天地')
+        self.assertIn('&lt;仏&gt; &amp; &quot;猿&quot;', rendered)
+        self.assertEqual(document, before)
+
+
 class ReadingSiteTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -55,25 +96,6 @@ class ReadingSiteTests(unittest.TestCase):
 
     def test_only_explicit_public_files(self):
         self.assertEqual(set(self.pages), {"index.html", ".nojekyll", "assets/reading.css", *(f"chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1))})
-
-    def test_index_contains_only_contents_and_repository(self):
-        page = self.html["index.html"]
-        body, = [node for node in page.nodes if node["tag"] == "body"]
-        self.assertEqual(
-            body["text"].split(),
-            ["目次", "".join(f"第{n}回" for n in reader.NUMERALS[:len(reader.CHAPTERS)]), "https://github.com/cacazu/nihonjinbun"],
-        )
-        links = [(node["text"], node["attrs"]["href"])
-                 for node in page.nodes if node["tag"] == "a"]
-        self.assertEqual(links, [
-            *((f"第{numeral}回", f"chapter-{number:03d}.html")
-              for number, numeral in enumerate(reader.NUMERALS[:len(reader.CHAPTERS)], 1)),
-            ("https://github.com/cacazu/nihonjinbun", "https://github.com/cacazu/nihonjinbun"),
-        ])
-        self.assertFalse(any(node["tag"] in ("header", "footer", "script", "button")
-                             for node in page.nodes))
-        heading, = page.by_id("chapters")
-        self.assertEqual((heading["tag"], heading["text"]), ("h1", "目次"))
 
     def test_chapter_navigation_and_publication_range(self):
         for number in range(1, len(reader.CHAPTERS) + 1):
