@@ -35,3 +35,5 @@ python -m http.server 8000 --directory docs
 読書サイトだけの検証は `python -m unittest discover -s tests -p test_reading_site.py` で実行できる。旧表示切替用の `scripts/reading_site.js` とその単体テストは公開サイトでは使用しない。実ブラウザの表示検証は、この単体テストとは別に行う。
 
 『神道大意』は `translations/tanaka/shinto-taii-ja.yaml` から `docs/tanaka/shinto-taii.html` を生成する。全対訳単位と注釈を保持し、`groups` で指定された改頁継続段落を連結表示する。原文OCRは本文へ再掲せず、原典のルビ・傍点は注記欄へ分ける。
+
+田中義能の公開作品は生成器の `TANAKA_WORKS` で明示する。『皇道の使命と世界の将来』は `translations/tanaka/kodo-no-shimei-sekai-no-shorai-ja.yaml` から `docs/tanaka/kodo-no-shimei-sekai-no-shorai.html` へ生成する。原稿の独立レビューとプッシュが済んだ作品だけを追加し、HTMLも別途見直してプッシュする。

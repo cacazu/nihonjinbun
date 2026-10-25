@@ -10,6 +10,7 @@ from translation_yaml import ROOT, load_document, validate_document
 
 PUBLISHED_CHAPTER_COUNT = 100
 CHAPTERS = tuple(f"xiyouji-chapter-{n:03d}-zh-ja.yaml" for n in range(1, PUBLISHED_CHAPTER_COUNT + 1))
+TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai")
 NUMERALS = (
     "一", "二", "三", "四", "五", "六", "七", "八", "九", "十",
     "十一", "十二", "十三", "十四", "十五", "十六", "十七", "十八", "十九", "二十",
@@ -134,7 +135,7 @@ def render_annotations(data, refs_by_note, note_numbers, *, include_ocr=True):
         messages = []
         if segment["id"] not in covered:
             messages.extend(issue["message_ja"] for issue in segment.get("issues", []))
-        messages.extend(f'{item.get("name_ja", "話者不明")}：{item["evidence_ja"]}' for item in segment.get("attributions", []))
+        messages.extend(f'{item.get("name_ja") or "話者不明"}' + (f'：{item["evidence_ja"]}' if item.get("evidence_ja") else "") for item in segment.get("attributions", []))
         # Corrected transcription history is not an alternative reading.
         for variant in segment.get("source_variants", []):
             if variant["kind"] == "corrected" or (not include_ocr and variant["kind"] == "ocr"):
@@ -228,8 +229,9 @@ def render_library_index():
                       '<p><a href="https://github.com/cacazu/nihonjinbun">リポジトリ</a></p>', "assets/reading.css")
 
 
-def render_tanaka_index():
-    return page_shell("田中義能", '<h1>田中義能</h1><ul><li><a href="shinto-taii.html">神道大意</a></li></ul>'
+def render_tanaka_index(documents):
+    links = ''.join(f'<li><a href="{esc(slug)}.html">{esc(data["metadata"]["title_ja"])}</a></li>' for slug, data in documents)
+    return page_shell("田中義能", '<h1>田中義能</h1><ul>' + links + '</ul>'
                       '<p><a href="../index.html">索引に戻る</a></p>')
 
 
@@ -240,7 +242,8 @@ def render_redirect(number):
     return content.replace('<title>', f'<meta http-equiv="refresh" content="0;url={target}">\n<link rel="canonical" href="{target}">\n<title>', 1)
 
 
-def render_taii(data):
+def render_taii(data, *, include_reader_notes=False):
+    title = data["metadata"]["title_ja"]
     note_numbers = {note["id"]: i for i, note in enumerate(data.get("notes", []), 1)}
     by_segment, by_note = defaultdict(list), defaultdict(list)
     for ref in data.get("references", []):
@@ -284,26 +287,36 @@ def render_taii(data):
             body.append(rendered)
     toc = []
     for section in data["sections"]:
-        if section.get("parent_id") == "main-text":
+        if section.get("parent_id") == "main-text" and section["heading_segment_ids"]:
             sid = section["heading_segment_ids"][0]
             toc.append(f'<li><a href="#{esc(sid)}">{esc(segments[sid]["translation_ja"])}</a></li>')
         elif section["id"] in ("colophon", "advertisements"):
             sid = next(s["id"] for s in body_segments if s["section_id"] == section["id"] or
                        (section["id"] == "advertisements" and s["section_id"].startswith("ads-scan-")))
             toc.append(f'<li><a href="#{esc(sid)}">{esc(section["label_ja"])}</a></li>')
+    if not any(section.get("parent_id") == "main-text" for section in data["sections"]):
+        toc = []
+        for section in data["sections"]:
+            members = [segment for segment in body_segments if segment["section_id"] == section["id"]]
+            if members:
+                label = section.get("label_ja") or members[0]["translation_ja"]
+                toc.append(f'<li><a href="#{esc(members[0]["id"])}">{esc(label)}</a></li>')
     nav = '<nav class="chapter-nav" aria-label="読書ページの移動"><a href="#contents">目次に戻る</a><a href="index.html">田中義能</a><a href="../index.html">索引に戻る</a></nav>'
     # Source-side ruby/emphasis remains provenance, not newly invented translation ruby.
     source_annotations = []
     for segment in data["segments"]:
         for annotation in segment.get("annotations", []):
-            label = "原文のルビ" if annotation["kind"] == "ruby" else "原文の傍点"
-            value = f'：{annotation["reading"]}' if annotation.get("reading") else ""
+            label = {"ruby": "原文のルビ", "emphasis": "原文の傍点", "language": "原文の言語"}.get(annotation["kind"])
+            if label is None:
+                raise ValueError(f"Unsupported source annotation: {annotation['kind']}")
+            value = f'：{annotation["reading"]}' if annotation.get("reading") else (f'：{annotation["language"]}' if annotation.get("language") else "")
             source_annotations.append(f'<li>{label}「{esc(annotation["span"]["exact"])}」{esc(value)} <a href="#{esc(segment["id"])}">該当箇所</a></li>')
     annotation_html = '<section class="apparatus"><h2>原典の注記</h2><ul>' + ''.join(source_annotations) + '</ul></section>' if source_annotations else ''
-    content = (nav + '<h1>神道大意</h1><nav id="contents" aria-label="神道大意の目次"><h2>目次</h2><ul>'
+    reader_notes = ('<section class="apparatus"><h2>この訳について</h2>' + ''.join(f'<p>{esc(note)}</p>' for note in data["metadata"].get("reader_notes_ja", [])) + '</section>') if include_reader_notes and data["metadata"].get("reader_notes_ja") else ""
+    content = (nav + f'<h1>{esc(title)}</h1><nav id="contents" aria-label="{esc(title)}の目次"><h2>目次</h2><ul>'
                + ''.join(toc) + '</ul></nav><article id="reading" class="reading-body">' + '\n'.join(body) + '</article>'
-               + render_annotations(data, by_note, note_numbers, include_ocr=False) + annotation_html + nav)
-    return page_shell("神道大意 日本語訳", content)
+               + render_annotations(data, by_note, note_numbers, include_ocr=False) + reader_notes + annotation_html + nav)
+    return page_shell(title + " 日本語訳", content)
 
 
 def build(output):
@@ -322,16 +335,24 @@ def build(output):
         if note_body_ids != set(rendered_ids) or len(rendered_ids) != len(set(rendered_ids)):
             raise ValueError(f"Note bodies must render exactly once: {filename}")
         documents.append(data)
-    taii = load_document(ROOT / "translations/tanaka/shinto-taii-ja.yaml")
-    errors = validate_document(taii, ROOT)
-    if errors:
-        raise ValueError("shinto-taii: " + "; ".join(errors))
-    note_ids = {s["id"] for s in taii["segments"] if s["kind"] == "note_body"}
-    rendered_ids = [b["segment_id"] for n in taii.get("notes", []) for b in n["body"]]
-    if note_ids != set(rendered_ids) or len(rendered_ids) != len(set(rendered_ids)):
-        raise ValueError("Shinto Taii note bodies must render exactly once")
+    tanaka_documents = []
+    for slug in TANAKA_WORKS:
+        data = load_document(ROOT / f"translations/tanaka/{slug}-ja.yaml")
+        errors = validate_document(data, ROOT)
+        if errors:
+            raise ValueError(slug + ": " + "; ".join(errors))
+        if data["workflow"]["stage"] != "ready":
+            raise ValueError(slug + ": manuscript must be reviewed before publication")
+        if any(segment["kind"] not in ("heading", "paragraph", "verse", "note_body", "list_item", "separator") for segment in data["segments"]):
+            raise ValueError(slug + ": unsupported segment kind")
+        note_ids = {segment["id"] for segment in data["segments"] if segment["kind"] == "note_body"}
+        rendered_ids = [body["segment_id"] for note in data.get("notes", []) for body in note["body"]]
+        if note_ids != set(rendered_ids) or len(rendered_ids) != len(set(rendered_ids)):
+            raise ValueError(slug + ": note bodies must render exactly once")
+        tanaka_documents.append((slug, data))
     pages = {"index.html": render_library_index(), "xiyouji/index.html": render_index(documents),
-             "tanaka/index.html": render_tanaka_index(), "tanaka/shinto-taii.html": render_taii(taii)}
+             "tanaka/index.html": render_tanaka_index(tanaka_documents)}
+    pages.update({f"tanaka/{slug}.html": render_taii(data, include_reader_notes=slug != "shinto-taii") for slug, data in tanaka_documents})
     pages.update({f"xiyouji/chapter-{i:03d}.html": render_chapter(d, i) for i, d in enumerate(documents, 1)})
     pages.update({f"chapter-{i:03d}.html": render_redirect(i) for i in range(1, len(documents)+1)})
     pages.update({f"assets/reading.{ext}": (ROOT / "scripts" / f"reading_site.{ext}").read_text(encoding="utf-8") for ext in ("css",)})
