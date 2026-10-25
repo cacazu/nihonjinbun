@@ -3798,6 +3798,30 @@
     "title": "教育部 重編国語辞典 九秋（表示本文を確認）"
     "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=92090&la=0&powerMode=0"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch84-primary-2597328"
+    "title": "中文維基文庫 西遊記 第084回 固定版2597328（全214表示行を直接取得）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第084回&oldid=2597328"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch84-suxiang"
+    "title": "漢字辞典オンライン 驦（表示本文で驌驦の読み・良馬の語義を確認）"
+    "url": "https://kanji.jitenon.jp/kanjin/6781"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch84-kuanduan"
+    "title": "教育部 重編国語辞典 款段（表示本文で馬の語義を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=78382&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch84-kuanduan-reading"
+    "title": "駒澤大学 増刊本下学集と饅頭屋本節用集 生類・畜類門名語彙集（検索表示に款段の仮名を確認、PDF全文未閲覧）"
+    "url": "https://www.komazawa-u.ac.jp/~hagi/hagi-chikuruirui131116.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch84-five-offices"
+    "title": "小学館等 五軍都督府（公開辞書の表示本文）"
+    "url": "https://kotobank.jp/word/五軍都督府-64461"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch84-six-ministries"
+    "title": "小学館等 六部（官制の読みと意味を表示本文で確認）"
+    "url": "https://kotobank.jp/word/六部-148563"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -5062,6 +5086,24 @@
           "source_ids":
             - "xy-ch81-primary-1455630"
           "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+      - "id": "xy-ch84-sun-erguan-form"
+        "text": "孫二官"
+        "relation": "alias"
+        "reading":
+          "kana": "そんじかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch84-erguan-form"
+        "text": "二官"
+        "relation": "short_form"
+        "reading":
+          "kana": "じかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -10879,11 +10921,13 @@
   - "id": "xy-entry-0324"
     "kind": "object"
     "headword": "驌驦"
-    "definition_ja": "天界の御馬監で飼われる名馬の名"
+    "definition_ja": "天界の御馬監で飼われる名馬の名。古くから名馬をいう名でもあり、比較の対象にも用いられる。"
     "definition_evidence":
       "status": "estimated"
-      "source_ids": []
-      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+        - "xy-ch84-suxiang"
+      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。 比較詩では名馬をいう語として用いられ、閲覧した日本語辞書も良馬の語義を示す。御馬監の特定の馬が同一個体として再登場したとは同定しない。旧来の推定状態と読み・語形は保持する。"
     "forms":
       - "id": "xy-form-0356"
         "text": "驌驦"
@@ -22483,6 +22527,15 @@
           "source_ids":
             - "xy-ch48-primary-1808610"
           "reason_ja": "八戒が三蔵の冗談の名として述べる語。字音から読む。一般の副詞とは文脈上の用法が異なる。"
+      - "id": "xy-ch84-tang-daguan-form"
+        "text": "唐大官"
+        "relation": "alias"
+        "reading":
+          "kana": "とうたいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0875"
     "kind": "object"
     "headword": "栴檀"
@@ -22767,6 +22820,15 @@
           "source_ids":
             - "xy-ch62-primary-1500611"
           "reason_ja": "構成漢字の日本語音と語構成に基づく読み。日本語仮名で当該語形全体を示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch84-sha-siguan-form"
+        "text": "沙四官"
+        "relation": "alias"
+        "reading":
+          "kana": "さしかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0886"
     "kind": "object"
     "headword": "宝杖"
@@ -23264,6 +23326,24 @@
           "source_ids":
             - "xy-ch72-primary-2557105"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用。表記全体の日本語仮名を直接示す資料は未確認。中国語原文での出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch84-zhu-sanguan-form"
+        "text": "朱三官"
+        "relation": "alias"
+        "reading":
+          "kana": "しゅさんかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch84-zhu-short-form"
+        "text": "朱"
+        "relation": "short_form"
+        "reading":
+          "kana": "しゅ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "悟空が定める偽名の姓で、豬と同音の朱。原文の朱を保ち、既存の他人物へ同姓だけで結ばない。漢字の日本語音による読みで全語仮名の直接資料は未確認。"
   - "id": "xy-entry-0903"
     "kind": "concept"
     "headword": "精霊"
@@ -34424,6 +34504,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の通常の日本語音訓、仏教語の慣用音と本文の文脈から推定。語形全体の仮名読みを直接示す資料による確認は未了。"
+      - "id": "xy-ch84-three-corpses-form"
+        "text": "三尸"
+        "relation": "short_form"
+        "reading":
+          "kana": "さんし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-1487"
     "kind": "term"
     "headword": "七竅"
@@ -38475,6 +38564,15 @@
           "source_ids":
             - "xy-ch35-primary-1500616"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+      - "id": "xy-ch84-great-division-spell-form"
+        "text": "大分身普会神法"
+        "relation": "alias"
+        "reading":
+          "kana": "だいぶんしんふえしんぽう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "既存の毛を分身へ変える術の、分身を広く展開する名称。大分身・普会・神法の仏教的語構成と日本語音から読むが、この全語の仮名資料は未確認。"
   - "id": "xy-entry-1693"
     "kind": "place"
     "headword": "湘江"
@@ -62140,6 +62238,15 @@
           "source_ids":
             - "xy-ch71-primary-1455620"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch84-sleep-insect-original-form"
+        "text": "瞌睡虫"
+        "relation": "alias"
+        "reading":
+          "kana": "かっすいちゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
   - "id": "xy-ch71-hundred-surnames"
     "kind": "object"
     "headword": "百家姓"
@@ -67119,3 +67226,329 @@
           "source_ids":
             - "xy-ch83-primary-1455632"
           "reason_ja": "如意黄金宝塔を天王が手に載せる場面での短い呼び名。同じ物品を指す。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch84-miefa-country"
+    "kind": "place"
+    "headword": "滅法国"
+    "definition_ja": "僧を一万人殺す誓いを王が立てたと語られる、西行の道中の国。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "老婆が行く手の国の名と国王の誓いを語る。後の国名や帰依の成否は入れない。"
+    "forms":
+      - "id": "xy-ch84-miefa-country-form"
+        "text": "滅法国"
+        "relation": "preferred"
+        "reading":
+          "kana": "めっぽうこく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-miefa-king"
+    "kind": "person"
+    "headword": "滅法王"
+    "definition_ja": "滅法国を治める国王。僧を一万人殺す誓いを立てたと語られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "悟空が滅法国の王をこの名で呼ぶ。同姓の王氏という意味ではなく国名による呼称。のちの処遇や改心は補わない。"
+    "forms":
+      - "id": "xy-ch84-miefa-king-form"
+        "text": "滅法王"
+        "relation": "preferred"
+        "reading":
+          "kana": "めっぽうおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-six-armies"
+    "kind": "term"
+    "headword": "六軍"
+    "definition_ja": "天子の軍をいう古い呼称。六つの軍、また軍勢全体を表す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "町の夜景の詩で軍営を数える。六という原数を保ち、特定の六部隊名は補わない。"
+    "forms":
+      - "id": "xy-ch84-six-armies-form"
+        "text": "六軍"
+        "relation": "preferred"
+        "reading":
+          "kana": "りくぐん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-lantern-festival"
+    "kind": "term"
+    "headword": "元宵節"
+    "definition_ja": "旧暦正月十五日の祭り。灯をともして祝う。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "並ぶ提灯を見て悟空が元宵の祝いかと尋ねる。実際の季節が正月だと確定しない。"
+    "forms":
+      - "id": "xy-ch84-lantern-festival-form"
+        "text": "元宵節"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんしょうせつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-wang-xiaoer"
+    "kind": "person"
+    "headword": "王小二"
+    "definition_ja": "滅法国の町で宿を営む男。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "看板の王小二店と、同宿の店主王小二を原文が明示する。劉小二とは姓も所在も異なり、同じ小二という呼称で同定しない。"
+    "forms":
+      - "id": "xy-ch84-wang-xiaoer-form"
+        "text": "王小二"
+        "relation": "preferred"
+        "reading":
+          "kana": "おうしょうじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-wang-xiaoer-inn"
+    "kind": "place"
+    "headword": "王小二店"
+    "definition_ja": "王小二が営む、食事と宿泊を提供する店。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "提灯に四字で書かれた宿の名。既存の劉小二の宿とは異なる。"
+    "forms":
+      - "id": "xy-ch84-wang-xiaoer-inn-form"
+        "text": "王小二店"
+        "relation": "preferred"
+        "reading":
+          "kana": "おうしょうじてん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-zhao-surname"
+    "kind": "term"
+    "headword": "趙"
+    "definition_ja": "中国の姓の一つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "女主人が亡夫の姓として明かす姓の語義。既存の南天門神将の個人項目の趙や、趙甲・趙州とは別。"
+    "forms":
+      - "id": "xy-ch84-zhao-surname-form"
+        "text": "趙"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-widow-zhao"
+    "kind": "person"
+    "headword": "趙寡婦"
+    "definition_ja": "亡夫の姓が趙である、宿の女主人の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "本人が亡夫の姓と死別、店名を明かす。個人名が示されているとはせず、通称として扱う。"
+    "forms":
+      - "id": "xy-ch84-widow-zhao-form"
+        "text": "趙寡婦"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうかふ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-widow-zhao-inn"
+    "kind": "place"
+    "headword": "趙寡婦の店"
+    "definition_ja": "夫を亡くした趙寡婦が営む、宿泊と食事を提供する店。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "女主人が紹介する店名。王小二店の斜め向かいにある別の宿で、両店を混同しない。"
+    "forms":
+      - "id": "xy-ch84-widow-zhao-inn-form"
+        "text": "趙寡婦の店"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうかふのみせ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-gengshen-fast"
+    "kind": "term"
+    "headword": "庚申斎"
+    "definition_ja": "庚申の日に行う斎戒。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "悟空が食事の条件としてこの名を挙げ、庚申の日に精進すると説明する。三蔵の新たな信仰や翌日の殺生への同意は補わない。"
+    "forms":
+      - "id": "xy-ch84-gengshen-fast-form"
+        "text": "庚申斎"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうしんさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-gengshen"
+    "kind": "term"
+    "headword": "庚申"
+    "definition_ja": "十干の庚と十二支の申を組み合わせた干支。日などを表す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "悟空が現在の日を庚申と呼び、次の日を辛酉とする。"
+    "forms":
+      - "id": "xy-ch84-gengshen-form"
+        "text": "庚申"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-fujian"
+    "kind": "place"
+    "headword": "福建"
+    "definition_ja": "中国東南部の地域の名。閩ともいう。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "料理の原材料である閩筍の閩を地域名の福建に開いた。取経路の現在地を福建とするものではない。"
+    "forms":
+      - "id": "xy-ch84-fujian-form"
+        "text": "福建"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふっけん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-military-police-office"
+    "kind": "term"
+    "headword": "兵馬司"
+    "definition_ja": "都城の区域の治安や警備などを担当する役所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "賊の追跡と押収品の保管に関わる東城の役所。五城兵馬官という役職と制度上は関係するが、役職と役所の名を区別し、同一の個人や他国の役所には同定しない。"
+    "forms":
+      - "id": "xy-ch84-military-police-office-form"
+        "text": "兵馬司"
+        "relation": "preferred"
+        "reading":
+          "kana": "へいばし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-kuanduan-horse"
+    "kind": "term"
+    "headword": "款段"
+    "definition_ja": "歩みの遅い馬、小馬や駑馬を表す古い語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+        - "xy-ch84-kuanduan"
+      "reason_ja": "教育部辞典の馬の語義と本文の比較表現を照合。名馬と並ぶからといって、別の名馬名へ補訂しない。"
+    "forms":
+      - "id": "xy-ch84-kuanduan-horse-form"
+        "text": "款段"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんだん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch84-kuanduan-reading"
+          "reason_ja": "取得した公開辞書・検索表示に、この語形の日本語仮名を確認。中国語音からの換算ではない。"
+  - "id": "xy-ch84-five-military-offices"
+    "kind": "term"
+    "headword": "五府"
+    "definition_ja": "軍を統轄する五つの官署をまとめて呼ぶ語。明代の五軍都督府に結びつく呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+        - "xy-ch84-five-offices"
+      "reason_ja": "五府六部という併称と、辞書が述べる五軍都督府の制度から解する。物語の国を明の実在都市へ同定しない。"
+    "forms":
+      - "id": "xy-ch84-five-military-offices-form"
+        "text": "五府"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごふ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch84-six-ministries"
+    "kind": "term"
+    "headword": "六部"
+    "definition_ja": "中国の中央行政を分担する、吏・戸・礼・兵・刑・工の六官庁の総称。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+        - "xy-ch84-six-ministries"
+      "reason_ja": "公開辞書の官制の六部を確認。巡礼者をいう日本の六十六部の略称とは異なる。"
+    "forms":
+      - "id": "xy-ch84-six-ministries-form"
+        "text": "六部"
+        "relation": "preferred"
+        "reading":
+          "kana": "りくぶ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch84-six-ministries"
+          "reason_ja": "取得した公開辞書・検索表示に、この語形の日本語仮名を確認。中国語音からの換算ではない。"
+  - "id": "xy-ch84-dharma-king-poetic"
+    "kind": "title"
+    "headword": "法王"
+    "definition_ja": "仏法の王という仏教的な尊称。王と法を重ねる寓意的な用法では、指示対象を一人に確定できない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch84-primary-2597328"
+      "reason_ja": "原詩は法王滅法、法王成正果と重ねる。既存の如来本人の別称だけに結ぶと、僧を殺す王と同一人物だとの誤認を生むため、寓意的称号として指示を留保する。"
+    "forms":
+      - "id": "xy-ch84-dharma-king-poetic-form"
+        "text": "法王"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch84-primary-2597328"
+          "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
