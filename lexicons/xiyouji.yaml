@@ -3078,6 +3078,54 @@
     "title": "故宮博物院「湘妃竹」（検索表示、博物志の二妃の涙の故事）"
     "url": "https://www.dpm.org.cn/lemmas/244115.html"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch65-primary-1455614"
+    "title": "中文維基文庫 西遊記 第065回 固定版1455614（固定リンク取得成功、全221表示行）"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455614&title=西遊記/第065回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch65-suqin"
+    "title": "教育部重編國語辭典 蘇秦（検索表示、字季子と縦横家の役割）"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail/?search=季子&title=蘇秦"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch65-nao"
+    "title": "教育部重編國語辭典 鐃（検索表示、二枚一組の打楽器）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=2974&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch65-jing-deer"
+    "title": "漢字辞典オンライン 麖（検索表示、日本語読みと鹿類の語義）"
+    "url": "https://kanji.jitenon.jp/kanjio/7251"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch65-nyohachi"
+    "title": "国際日本文化研究センター 銅拍子・鐃鉢（検索表示、日本語読み）"
+    "url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiGazou/card.cgi?identifier=U426_nichibunken_0054_0007_0012"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch65-xianshu"
+    "title": "教育部重編國語辭典 仙鼠（検索表示、蝙蝠の別名）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=107662"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch65-senso"
+    "title": "普及版字通 仙鼠（検索表示、日本語読み）"
+    "url": "https://kotobank.jp/word/仙鼠-1353735"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch65-mantra"
+    "title": "李奭學論文（PDF検索表示の唵㘕と浄法界真言、PDF全文未取得）"
+    "url": "https://teric.naer.edu.tw/wSite/PDFReader?fileName=1581321618194&format=pdf&xmlId=2048096"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch65-wula"
+    "title": "東国大学文化学術院2022学術大会資料（PDF検索表示の烏喇鞋と防寒用皮靴、PDF全文未取得）"
+    "url": "https://hkplus.dongguk.edu/include/dn.php?mode=bbs&rfile=제9회+국내학술대회+자료집.pdf&ufile=20230112160149.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch65-yi"
+    "title": "來知德 周易集註 乾卦（検索表示、元亨利貞の卦辞）"
+    "url": "https://eee-learning.com/book/leijuder1"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch65-zhenwu"
+    "title": "間野 明朝と太和山について（PDF検索表示、武当山と真武信仰、PDF全文未取得）"
+    "url": "https://otani.repo.nii.ac.jp/record/3283/files/大谷學報%20第38卷第3號-07間野.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch65-yu"
+    "title": "漢字辞典オンライン 㺄（検索表示、字の日本語読み）"
+    "url": "https://kanji.jitenon.jp/kanjiy/20660"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -13668,6 +13716,15 @@
           "source_ids":
             - "xy-reference-149"
           "reason_ja": "普及版字通の「道教の神の名」の項目に「りくてい」と明記。"
+      - "id": "xy-ch65-six-ding-gods-form"
+        "text": "六丁神"
+        "relation": "alias"
+        "reading":
+          "kana": "りくていしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0515"
     "kind": "person"
     "headword": "六甲"
@@ -13686,6 +13743,15 @@
           "source_ids":
             - "xy-reference-150"
           "reason_ja": "精選版日本国語大辞典の六甲項に「ろっこう」と明記。"
+      - "id": "xy-ch65-six-jia-gods-form"
+        "text": "六甲神"
+        "relation": "alias"
+        "reading":
+          "kana": "ろっこうしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0516"
     "kind": "person"
     "headword": "四瀆"
@@ -13722,6 +13788,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-jiao-form"
+        "text": "角木蛟"
+        "relation": "alias"
+        "reading":
+          "kana": "かくもくこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0518"
     "kind": "person"
     "headword": "亢"
@@ -13740,6 +13815,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-kang-form"
+        "text": "亢金竜"
+        "relation": "alias"
+        "reading":
+          "kana": "こうきんりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0519"
     "kind": "person"
     "headword": "氐"
@@ -13758,6 +13842,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-di-form"
+        "text": "氐土蝠"
+        "relation": "alias"
+        "reading":
+          "kana": "ていどふく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0520"
     "kind": "person"
     "headword": "房"
@@ -13812,6 +13905,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-lou-form"
+        "text": "婁金狗"
+        "relation": "alias"
+        "reading":
+          "kana": "ろうきんく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0523"
     "kind": "person"
     "headword": "胃"
@@ -13830,6 +13932,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-wei-stomach-form"
+        "text": "胃土彘"
+        "relation": "alias"
+        "reading":
+          "kana": "いどてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0524"
     "kind": "person"
     "headword": "昴"
@@ -13866,6 +13977,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-dou-form"
+        "text": "斗木獬"
+        "relation": "alias"
+        "reading":
+          "kana": "ともくかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0526"
     "kind": "person"
     "headword": "牛"
@@ -13884,6 +14004,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-niu-form"
+        "text": "牛金牛"
+        "relation": "alias"
+        "reading":
+          "kana": "ぎゅうきんぎゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0527"
     "kind": "person"
     "headword": "女"
@@ -13902,6 +14031,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-nv-form"
+        "text": "女土貉"
+        "relation": "alias"
+        "reading":
+          "kana": "じょどかく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0528"
     "kind": "person"
     "headword": "虚"
@@ -13938,6 +14076,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-wei-roof-form"
+        "text": "危月燕"
+        "relation": "alias"
+        "reading":
+          "kana": "きげつえん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0530"
     "kind": "person"
     "headword": "室"
@@ -13956,6 +14103,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-shi-form"
+        "text": "室火猪"
+        "relation": "alias"
+        "reading":
+          "kana": "しつかちょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0531"
     "kind": "person"
     "headword": "壁"
@@ -13974,6 +14130,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-bi-wall-form"
+        "text": "壁水㺄"
+        "relation": "alias"
+        "reading":
+          "kana": "へきすいゆ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0532"
     "kind": "person"
     "headword": "心"
@@ -13992,6 +14157,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-xin-form"
+        "text": "心月狐"
+        "relation": "alias"
+        "reading":
+          "kana": "しんげつこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0533"
     "kind": "person"
     "headword": "尾"
@@ -14010,6 +14184,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-wei-form"
+        "text": "尾火虎"
+        "relation": "alias"
+        "reading":
+          "kana": "びかこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0534"
     "kind": "person"
     "headword": "箕"
@@ -14028,6 +14211,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-ji-form"
+        "text": "箕水豹"
+        "relation": "alias"
+        "reading":
+          "kana": "きすいひょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0535"
     "kind": "person"
     "headword": "井"
@@ -14046,6 +14238,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-jing-form"
+        "text": "井木犴"
+        "relation": "alias"
+        "reading":
+          "kana": "せいもくかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0536"
     "kind": "person"
     "headword": "鬼"
@@ -14064,6 +14265,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-gui-form"
+        "text": "鬼金羊"
+        "relation": "alias"
+        "reading":
+          "kana": "ききんよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0537"
     "kind": "person"
     "headword": "柳"
@@ -14082,6 +14292,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-liu-form"
+        "text": "柳土獐"
+        "relation": "alias"
+        "reading":
+          "kana": "りゅうどしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0538"
     "kind": "person"
     "headword": "星"
@@ -14118,6 +14337,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-zhang-form"
+        "text": "張月鹿"
+        "relation": "alias"
+        "reading":
+          "kana": "ちょうげつろく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0540"
     "kind": "person"
     "headword": "翼"
@@ -14136,6 +14364,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-yi-form"
+        "text": "翼火蛇"
+        "relation": "alias"
+        "reading":
+          "kana": "よくかだ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0541"
     "kind": "person"
     "headword": "軫"
@@ -14154,6 +14391,15 @@
           "source_ids":
             - "xy-reference-152"
           "reason_ja": "こよみ博物館の二十八宿一覧に当該星宿名と仮名の読みを明記。神としての指示対象は第五回本文で確認。"
+      - "id": "xy-ch65-star-zhen-form"
+        "text": "軫水蚓"
+        "relation": "alias"
+        "reading":
+          "kana": "しんすいいん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0542"
     "kind": "concept"
     "headword": "十悪"
@@ -14792,6 +15038,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "公開資料でこの表記全体の慣用日本語読みを確定できず、日本語の音訓・語構成と本文の文脈から推定した。"
+      - "id": "xy-ch65-star-fang-form"
+        "text": "房日兎"
+        "relation": "variant"
+        "reading":
+          "kana": "ぼうじつと"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-0563"
     "kind": "term"
     "headword": "中軍"
@@ -30608,6 +30863,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と仏教語の慣用音から推定。語形全体の読みを明記する資料は未確認。"
+      - "id": "xy-ch65-sravasti-short-form"
+        "text": "舎衛"
+        "relation": "short_form"
+        "reading":
+          "kana": "しゃえ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-1371"
     "kind": "place"
     "headword": "招提"
@@ -36997,6 +37261,24 @@
           "source_ids":
             - "xy-ch50-xuandi"
           "reason_ja": "玄天上帝・真武の称号との同定は台湾民俗文物辞典により確認。仮名読みは玄と帝の日本語字音から採用。"
+      - "id": "xy-ch65-northern-zhenwu-form"
+        "text": "北方真武"
+        "relation": "title"
+        "reading":
+          "kana": "ほっぽうしんぶ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+      - "id": "xy-ch65-demon-clearing-venerable-form"
+        "text": "蕩魔天尊"
+        "relation": "title"
+        "reading":
+          "kana": "とうまてんそん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-entry-1698"
     "kind": "person"
     "headword": "梓橦"
@@ -44296,6 +44578,16 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を独立に確認できる資料は得られなかった。"
+      - "id": "xy-ch65-purify-mantra-variant-form"
+        "text": "唵㘕浄法界"
+        "relation": "variant"
+        "reading":
+          "kana": "おんらんじょうほっかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+            - "xy-ch65-mantra"
+          "reason_ja": "既存の唵藍浄法界と同じ浄法界真言の役割。論文の検索表示に㘕の字形を確認したが、仮名全文の実証ではないため読みは推定を保つ。"
   - "id": "xy-spirit-soldiers"
     "kind": "concept"
     "headword": "陰兵"
@@ -44761,6 +45053,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+      - "id": "xy-ch65-wutai-short-form"
+        "text": "五台"
+        "relation": "short_form"
+        "reading":
+          "kana": "ごだい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-ch39-phoenix-pavilion"
     "kind": "term"
     "headword": "鳳閣"
@@ -50513,6 +50814,15 @@
           "source_ids":
             - "xy-ch51-primary-1498138"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+      - "id": "xy-ch65-star-shen-form"
+        "text": "参水猿"
+        "relation": "alias"
+        "reading":
+          "kana": "しんすいえん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-ch51-seven-luminaries"
     "kind": "concept"
     "headword": "七政"
@@ -54684,6 +54994,15 @@
           "source_ids":
             - "xy-ch61-kato-emei"
           "reason_ja": "公開資料の該当語形の仮名を検索表示で確認。本文の役割・語義とは区別する。"
+      - "id": "xy-ch65-emei-short-form"
+        "text": "峨眉"
+        "relation": "short_form"
+        "reading":
+          "kana": "がび"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
   - "id": "xy-ch61-cool-cave"
     "kind": "place"
     "headword": "清涼洞"
@@ -56485,3 +56804,304 @@
           "source_ids":
             - "xy-ch64-primary-1455613"
           "reason_ja": "漢字の通常の日本語音と語構成に基づく。語形全体の日本語仮名を明記する資料は未確認。中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch65-black-sea-inner"
+    "kind": "concept"
+    "headword": "黒海"
+    "definition_ja": "修行の詩で、三関と対になって満たすべきものとされる象徴的な海。具体的な身体部位の対応は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+      "reason_ja": "三関を貫く内丹の文脈に即して解する。実在の海とは同定せず、黒海に対応する部位を十分な根拠なく補わない。"
+    "forms":
+      - "id": "xy-ch65-black-sea-inner-form"
+        "text": "黒海"
+        "relation": "preferred"
+        "reading":
+          "kana": "こっかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+  - "id": "xy-ch65-jizi-suqin"
+    "kind": "person"
+    "headword": "季子"
+    "definition_ja": "弁舌で知られる中国戦国期の縦横家、蘇秦の字。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+        - "xy-ch65-suqin"
+      "reason_ja": "教育部辞典で蘇秦の字を季子と確認。詩の舌縦横という弁舌の文脈が縦横家の役割に合うためこの人物と解する。同じ呼称を持つ季札とは表記だけで同定しない。"
+    "forms":
+      - "id": "xy-ch65-jizi-suqin-form"
+        "text": "季子"
+        "relation": "preferred"
+        "reading":
+          "kana": "きし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+  - "id": "xy-ch65-jing-deer"
+    "kind": "term"
+    "headword": "麖"
+    "definition_ja": "鹿の類をいう古い動物名。本文中の個体を現代の特定種へ限定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+        - "xy-ch65-jing-deer"
+      "reason_ja": "固定版の実際の役割と指示対象を確認。未開示の正体・来歴・持ち主を加えない。"
+    "forms":
+      - "id": "xy-ch65-jing-deer-form"
+        "text": "麖"
+        "relation": "preferred"
+        "reading":
+          "kana": "けい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch65-jing-deer"
+          "reason_ja": "参照資料の取得した検索表示に、この語形の日本語仮名を確認。"
+  - "id": "xy-ch65-little-thunder-temple"
+    "kind": "place"
+    "headword": "小雷音寺"
+    "definition_ja": "山門の額に記された寺の名。雷音寺とは小の一字が異なる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+      "reason_ja": "固定版の実際の役割と指示対象を確認。未開示の正体・来歴・持ち主を加えない。"
+    "forms":
+      - "id": "xy-ch65-little-thunder-temple-form"
+        "text": "小雷音寺"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうらいおんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+  - "id": "xy-ch65-gold-cymbals"
+    "kind": "object"
+    "headword": "金鐃"
+    "definition_ja": "二枚を合わせて打ち鳴らす金の仏具。相手を中に挟み込める宝物として現れる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+        - "xy-ch65-nao"
+      "reason_ja": "固定版の実際の役割と指示対象を確認。未開示の正体・来歴・持ち主を加えない。"
+    "forms":
+      - "id": "xy-ch65-gold-cymbals-form"
+        "text": "金鐃"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんにょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "金の音きんと、仏具の鐃の慣用音にょうを合わせた読み。字通の金鐃にはきんどう、鈴の解説にはこんにょうがあるが、当該宝具の語形全体にきんにょうと明記する独立典拠は未確認。"
+      - "id": "xy-ch65-gold-cymbals-nyohachi-form"
+        "text": "鐃鉢"
+        "relation": "alias"
+        "reading":
+          "kana": "にょうはち"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch65-nyohachi"
+          "reason_ja": "参照資料の取得した検索表示に、この語形の日本語仮名を確認。"
+  - "id": "xy-ch65-qian-four-virtues"
+    "kind": "concept"
+    "headword": "乾元亨利貞"
+    "definition_ja": "易の乾卦にある元亨利貞の句。大いなる通達や正しさを表す語として、呪文にも組み込まれる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+        - "xy-ch65-yi"
+      "reason_ja": "原文が唱える句と周易集註の卦辞を照合。古代の占辞の詳細な解釈には異説があるので一義に固定しない。"
+    "forms":
+      - "id": "xy-ch65-qian-four-virtues-form"
+        "text": "乾元亨利貞"
+        "relation": "preferred"
+        "reading":
+          "kana": "けんげんこうりてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+  - "id": "xy-ch65-star-bi-net"
+    "kind": "person"
+    "headword": "畢月烏"
+    "definition_ja": "二十八宿の畢宿を表す星神。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+      "reason_ja": "玉帝の遣わす二十八宿という紹介と、全員の列挙における役割を照合。動物字を含む名を保ち、他作品の同名人物や星神以外の動物へ同定しない。"
+    "forms":
+      - "id": "xy-ch65-star-bi-net-form"
+        "text": "畢月烏"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひつげつう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+  - "id": "xy-ch65-star-zi"
+    "kind": "person"
+    "headword": "觜火猴"
+    "definition_ja": "二十八宿の觜宿を表す星神。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+      "reason_ja": "玉帝の遣わす二十八宿という紹介と、全員の列挙における役割を照合。動物字を含む名を保ち、他作品の同名人物や星神以外の動物へ同定しない。"
+    "forms":
+      - "id": "xy-ch65-star-zi-form"
+        "text": "觜火猴"
+        "relation": "preferred"
+        "reading":
+          "kana": "しかこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+  - "id": "xy-ch65-wula-shoes"
+    "kind": "object"
+    "headword": "烏喇靴"
+    "definition_ja": "皮で作られる中国東北地方の防寒用の履物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+        - "xy-ch65-wula"
+      "reason_ja": "学術大会資料のPDF検索表示に烏喇鞋の皮と草による防寒の説明を確認。全文と日本語仮名は未確認。当該人物の靴の材質の細部は本文へ補わない。"
+    "forms":
+      - "id": "xy-ch65-wula-shoes-form"
+        "text": "烏喇靴"
+        "relation": "preferred"
+        "reading":
+          "kana": "うらぐつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+  - "id": "xy-ch65-little-western-heaven"
+    "kind": "place"
+    "headword": "小西天"
+    "definition_ja": "小雷音寺のある所として、妖王が名乗る地名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+      "reason_ja": "固定版の実際の役割と指示対象を確認。未開示の正体・来歴・持ち主を加えない。"
+    "forms":
+      - "id": "xy-ch65-little-western-heaven-form"
+        "text": "小西天"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうさいてん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+  - "id": "xy-ch65-yellow-brow-king"
+    "kind": "person"
+    "headword": "黄眉大王"
+    "definition_ja": "小雷音寺で仏を装う妖王の呼び名。自らは黄眉老仏と名乗る。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+      "reason_ja": "固定版の実際の役割と指示対象を確認。未開示の正体・来歴・持ち主を加えない。"
+    "forms":
+      - "id": "xy-ch65-yellow-brow-king-form"
+        "text": "黄眉大王"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうびだいおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+      - "id": "xy-ch65-yellow-brow-old-buddha-form"
+        "text": "黄眉老仏"
+        "relation": "title"
+        "reading":
+          "kana": "こうびろうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+      - "id": "xy-ch65-yellow-brow-grandfather-form"
+        "text": "黄眉爺爺"
+        "relation": "title"
+        "reading":
+          "kana": "こうびやや"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+  - "id": "xy-ch65-immortal-mouse"
+    "kind": "term"
+    "headword": "仙鼠"
+    "definition_ja": "蝙蝠の別名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+        - "xy-ch65-xianshu"
+        - "xy-ch65-senso"
+      "reason_ja": "固定版の実際の役割と指示対象を確認。未開示の正体・来歴・持ち主を加えない。"
+    "forms":
+      - "id": "xy-ch65-immortal-mouse-form"
+        "text": "仙鼠"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんそ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch65-senso"
+          "reason_ja": "参照資料の取得した検索表示に、この語形の日本語仮名を確認。"
+  - "id": "xy-ch65-silver-headed-jiedi"
+    "kind": "person"
+    "headword": "銀頭掲諦"
+    "definition_ja": "五方掲諦の一柱。金頭掲諦と並んで神々の中に挙げられる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+      "reason_ja": "固定版の実際の役割と指示対象を確認。未開示の正体・来歴・持ち主を加えない。"
+    "forms":
+      - "id": "xy-ch65-silver-headed-jiedi-form"
+        "text": "銀頭掲諦"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎんとうぎゃてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+  - "id": "xy-ch65-wudang-mountain"
+    "kind": "place"
+    "headword": "武当山"
+    "definition_ja": "真武を祀る中国の山。物語では南贍部洲にある真武の居所とされる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch65-primary-1455614"
+        - "xy-ch65-zhenwu"
+      "reason_ja": "固定版の実際の役割と指示対象を確認。未開示の正体・来歴・持ち主を加えない。"
+    "forms":
+      - "id": "xy-ch65-wudang-mountain-form"
+        "text": "武当山"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶとうざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch65-primary-1455614"
+          "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
