@@ -3762,6 +3762,42 @@
     "title": "教育部 重編国語辞典 藍橋（表示本文）"
     "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=61028&la=0&powerMode=0"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch83-primary-1455632"
+    "title": "中文維基文庫 西遊記 第083回 固定版1455632（全199表示行を直接取得）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第083回&oldid=1455632"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch83-gua-character"
+    "title": "台湾全字庫 \U00027FFC（字形と中国語音の表示本文。本文動詞の語義は未確認）"
+    "url": "https://www.cns11643.gov.tw/wordView.jsp?ID=343137"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch83-geqi"
+    "title": "教育部 重編国語辞典 閣氣（表示本文を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=68187&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch83-monk-wood"
+    "title": "教育部 重編国語辞典 和尚拖木頭（表示本文を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=79306&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch83-lacquer"
+    "title": "高松市美術館 彫漆―魅惑の挑戦（読みと技法を表示本文で確認）"
+    "url": "https://www.city.takamatsu.kagawa.jp/museum/takamatsu/event/exhibitions/2011_tenji/josetsu/20110616.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch83-jianaofeng"
+    "title": "朱嘉雯 誰是夾腦風（検索表示の語義を参照。個別ページ取得は失敗）"
+    "url": "https://blog.udn.com/fguedu/34420515"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch83-poetic-variant"
+    "title": "跨文化視域下陌生化翻訳の論考公開PDF（暖韬烟の検索表示。全文・版面校合未実施）"
+    "url": "https://xuebao.zyufl.edu.cn/_upload/article/files/bc/02/d237011e4e95aa695876e9ef8d38/08163b87-87f6-43bf-afc0-8119a2ae7a6e.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch83-sanchun"
+    "title": "教育部 重編国語辞典 三春（表示本文を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=144757&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch83-jiuqiu"
+    "title": "教育部 重編国語辞典 九秋（表示本文を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=92090&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -5187,6 +5223,15 @@
           "source_ids":
             - "xy-ch75-primary-2093000"
           "reason_ja": "金闕と天皇の漢字音から採用。天宮騒動で如来を招くという既出の行動との照合により、玉帝の称号として扱う。日本語仮名を明示した資料は未確認。"
+      - "id": "xy-ch83-heavenly-lord-form"
+        "text": "天主"
+        "relation": "title"
+        "reading":
+          "kana": "てんしゅ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "悟空が玉帝へ奏上するときの天の主という尊称。別の宗教の同形名には結び付けない。漢字の音による推定。"
   - "id": "xy-term-053"
     "kind": "place"
     "headword": "霊霄宝殿"
@@ -9536,6 +9581,24 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+      - "id": "xy-ch83-west-changgeng-star-form"
+        "text": "西方長庚太白金星"
+        "relation": "title"
+        "reading":
+          "kana": "さいほうちょうこうたいはくきんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "既知の太白金星が玉帝に召される正式な長称。構成要素を組み合わせた読みで、語形全体の仮名資料は未確認。"
+      - "id": "xy-ch83-changgeng-old-form"
+        "text": "長庚老"
+        "relation": "title"
+        "reading":
+          "kana": "ちょうこうろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "李天王が太白金星を老長庚と呼ぶところを、日本語では長庚老とした同一人物への敬称。漢字音による読みで、語形全体の仮名資料は未確認。"
   - "id": "xy-entry-0251"
     "kind": "term"
     "headword": "帰順"
@@ -11635,6 +11698,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch83-nezha-god-title-form"
+        "text": "三壇海会之神"
+        "relation": "title"
+        "reading":
+          "kana": "さんだんかいえのかみ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "既存の三壇海会大神と同じ哪吒への任官名。海会のカイエなど既存の読みと字音による推定。之はノと訓じ、原文の称号差を保持する。"
   - "id": "xy-entry-0367"
     "kind": "term"
     "headword": "三軍"
@@ -11728,6 +11800,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch83-yaksha-marshal-form"
+        "text": "薬叉雄帥"
+        "relation": "title"
+        "reading":
+          "kana": "やくしゃゆうすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "既存の李天王の天軍に属する薬叉将に対応する、薬叉の指揮官としての呼び名。現れる役割と並ぶ巨霊神・魚肚将が一致するため同じ項目で扱うが、未知の伝承や能力は補わない。字音による推定読み。"
   - "id": "xy-entry-0371"
     "kind": "object"
     "headword": "宣花斧"
@@ -65500,6 +65581,33 @@
           "source_ids":
             - "xy-ch81-primary-1455630"
           "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+      - "id": "xy-ch83-gold-nose-white-mouse-form"
+        "text": "金鼻白毛老鼠精"
+        "relation": "alias"
+        "reading":
+          "kana": "きんびはくもうろうそせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "既存の毛姹女と同じ女の妖怪の名として、哪吒が三名称を順に明示する。構成漢字の日本語音に基づく読みで、原文の出現だけを仮名の実証とはしない。"
+      - "id": "xy-ch83-half-guanyin-form"
+        "text": "半截観音"
+        "relation": "alias"
+        "reading":
+          "kana": "はんせつかんのん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "既存の毛姹女と同じ女の妖怪の名として、哪吒が三名称を順に明示する。構成漢字の日本語音に基づく読みで、原文の出現だけを仮名の実証とはしない。"
+      - "id": "xy-ch83-diyong-lady-form"
+        "text": "地湧夫人"
+        "relation": "alias"
+        "reading":
+          "kana": "ちゆうふじん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "既存の毛姹女と同じ女の妖怪の名として、哪吒が三名称を順に明示する。構成漢字の日本語音に基づく読みで、原文の出現だけを仮名の実証とはしない。"
   - "id": "xy-ch81-feicui-image"
     "kind": "term"
     "headword": "翡翠"
@@ -66792,3 +66900,222 @@
           "source_ids":
             - "xy-ch82-primary-1455631"
           "reason_ja": "構成漢字の日本語音訓と語構成による読み。語全体の仮名資料は未確認であり、中国語原文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch83-pure-yin"
+    "kind": "concept"
+    "headword": "純陰"
+    "definition_ja": "混じりのない陰の気・性質。内丹などで陽と対置される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch83-primary-1455632"
+      "reason_ja": "原詩の元陽・聖胎・水火・陰陽との対置から説明。姹女という比喩の名や陰陽全体と同一の語に統合しない。"
+    "forms":
+      - "id": "xy-ch83-pure-yin-form"
+        "text": "純陰"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゅんいん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch83-dali-south-gate-king"
+    "kind": "person"
+    "headword": "大力天王"
+    "definition_ja": "南天門を守る天王の呼び名。具体的な個人同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch83-primary-1455632"
+      "reason_ja": "護国天王と並んで門を守ると記す。四天王の既知の個人や同名の称号へ無断で同定しない。"
+    "forms":
+      - "id": "xy-ch83-dali-south-gate-king-form"
+        "text": "大力天王"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいりきてんのう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch83-protect-country-south-king"
+    "kind": "person"
+    "headword": "護国天王"
+    "definition_ja": "南天門を大力天王とともに守る天王の呼び名。北天門で語られる同称号の人物との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch83-primary-1455632"
+      "reason_ja": "既存の護国天王は北天門での眠り虫の回想に限定される。門と役割の違いを保持し、同表記だけで定義を広げない。別人と断定する分割でもない。"
+    "forms":
+      - "id": "xy-ch83-protect-country-south-king-form"
+        "text": "護国天王"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごこくてんのう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch83-carved-lacquer"
+    "kind": "object"
+    "headword": "彫漆"
+    "definition_ja": "幾重にも塗り重ねた漆の層に、模様を彫り表す技法。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch83-primary-1455632"
+        - "xy-ch83-lacquer"
+      "reason_ja": "高松市美術館の解説本文に読みと技法が明記され、供物卓の雕漆に対応する。"
+    "forms":
+      - "id": "xy-ch83-carved-lacquer-form"
+        "text": "彫漆"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうしつ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch83-lacquer"
+          "reason_ja": "高松市美術館の表示本文に彫漆（ちょうしつ）と明記。"
+  - "id": "xy-ch83-jinzha"
+    "kind": "person"
+    "headword": "金吒"
+    "definition_ja": "李天王の長男で、如来に仕えるとされる人物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch83-primary-1455632"
+      "reason_ja": "李天王が三男一女を列挙する際、長男として名と役目を説明する。木叉・哪吒や別作品の同名人物の設定とは混同しない。"
+    "forms":
+      - "id": "xy-ch83-jinzha-form"
+        "text": "金吒"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんた"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "金をキン、吒は既知の哪吒・木吒で用いられるタの音に合わせた。別作品紹介のきんたくという例はあるが、この原作人物名の日本語読みの確証にはしない。"
+  - "id": "xy-ch83-vanguard-dharma-protector"
+    "kind": "title"
+    "headword": "前部護法"
+    "definition_ja": "如来に仕える金吒の役目として述べられる、前部の護法という呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch83-primary-1455632"
+      "reason_ja": "前部という位置・役割を伴う称号であり、護法一般や天軍の前部総督先鋒という別の官職と同一にはしない。"
+    "forms":
+      - "id": "xy-ch83-vanguard-dharma-protector-form"
+        "text": "前部護法"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぜんぶごほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch83-zhenying"
+    "kind": "person"
+    "headword": "貞英"
+    "definition_ja": "李天王の幼い実の娘の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch83-primary-1455632"
+      "reason_ja": "李天王が七歳の娘として紹介する。語りにない母の名・武器・能力は補わない。"
+    "forms":
+      - "id": "xy-ch83-zhenying-form"
+        "text": "貞英"
+        "relation": "preferred"
+        "reading":
+          "kana": "ていえい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch83-li-demon-rope"
+    "kind": "object"
+    "headword": "縛妖索"
+    "definition_ja": "李天王の配下が妖怪の捕縛に用いる綱。哪吒の武器一覧にある同名の綱と同じ個体かは未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch83-primary-1455632"
+      "reason_ja": "既存0384は哪吒の所持品に限定。李天王の命で配下が用い、天兵が取り出す綱として役割を限定する。貸与・所有の一致を示す明文はなく、個体を同一とも別物とも断定しない。"
+    "forms":
+      - "id": "xy-ch83-li-demon-rope-form"
+        "text": "縛妖索"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばくようさく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch83-li-cleaving-demon-blade"
+    "kind": "object"
+    "headword": "砍妖刀"
+    "definition_ja": "李天王が手に取り、悟空へ斬りつけようとする妖魔退治の刀。哪吒の同名の刀との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch83-primary-1455632"
+      "reason_ja": "既存0383は哪吒の所持品に限定。ここでは天王が取って振るう刀で、同名の品を父子が共有したという明文はない。既存定義を拡大せず、役割限定の項目として留保する。"
+    "forms":
+      - "id": "xy-ch83-li-cleaving-demon-blade-form"
+        "text": "砍妖刀"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんようとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch83-nezha-memory-crystal-palace"
+    "kind": "place"
+    "headword": "水晶宮"
+    "definition_ja": "幼い哪吒が海で踏み倒したと語られる宮殿。海域と主の名は明示されない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch83-primary-1455632"
+      "reason_ja": "既存の東海・洪江・涇河・井戸・西海の各水晶宮と表記だけで統合しない。別伝承の竜王名や地理を補わず、回想の役割へ限定する。"
+    "forms":
+      - "id": "xy-ch83-nezha-memory-crystal-palace-form"
+        "text": "水晶宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいしょうきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+  - "id": "xy-ch83-golden-pagoda"
+    "kind": "object"
+    "headword": "如意黄金宝塔"
+    "definition_ja": "如来が李天王へ授けた、舎利子と各層の仏を備える光輝く黄金の宝塔。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch83-primary-1455632"
+      "reason_ja": "哪吒と天王の怨恨を解くために授けられた塔として説明される。既存の金光寺の塔や仏教一般の舎利とは別の物品。"
+    "forms":
+      - "id": "xy-ch83-golden-pagoda-form"
+        "text": "如意黄金宝塔"
+        "relation": "preferred"
+        "reading":
+          "kana": "にょいおうごんほうとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+      - "id": "xy-ch83-golden-pagoda-short-form"
+        "text": "黄金宝塔"
+        "relation": "short_form"
+        "reading":
+          "kana": "おうごんほうとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch83-primary-1455632"
+          "reason_ja": "如意黄金宝塔を天王が手に載せる場面での短い呼び名。同じ物品を指す。語形全体の日本語仮名資料は未確認。"
