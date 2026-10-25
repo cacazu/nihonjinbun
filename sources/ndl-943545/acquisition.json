@@ -1,0 +1,424 @@
+{
+  "source_page": "https://lab.ndl.go.jp/dl/book/943545",
+  "fulltext_download_url": "https://lab.ndl.go.jp/dl/api/book/fulltext/943545",
+  "retrieved_at": "2026-10-25T15:14:18.597127+00:00",
+  "archive_sha256": "b728d558d915b483fb154eeeee5f4791fb27c3d052240de00eb93f5d8a26d212",
+  "scan_count": 45,
+  "ocr_text_files": 46,
+  "ocr_page_text_files": 45,
+  "ocr_json_files": 45,
+  "combined_text": "raw/943545.txt",
+  "combined_text_is_duplicate_of_page_text": true,
+  "manifest_url": "https://dl.ndl.go.jp/api/iiif/943545/manifest.json",
+  "manifest_sha256": "9927084b56ff04dcc84f6df9da9e5817f1ce005ecbb0e3be7a0e2887a71dfb44",
+  "manifest_license": "https://dl.ndl.go.jp/ja/help_iiif#api-%E3%81%AE%E5%88%A9%E7%94%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+  "manifest_attribution": "国立国会図書館 National Diet Library, JAPAN",
+  "image_records": [
+    {
+      "scan": 1,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000001/full/full/0/default.jpg",
+      "path": "images/943545_0000001.jpg",
+      "sha256": "194ba4c3310f059efb0fc8ca12e669cda42c6e25f8345dfce5950ad6659088be",
+      "bytes": 1077064,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 2,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000002/full/full/0/default.jpg",
+      "path": "images/943545_0000002.jpg",
+      "sha256": "38c89d6a3ff7f27dfff721d27e6c19ebee839655abc4f68fdc3e98f01ae2bd96",
+      "bytes": 838935,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 3,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000003/full/full/0/default.jpg",
+      "path": "images/943545_0000003.jpg",
+      "sha256": "91cfe0092e4e1539fa1beeb6fbb823a388e3e7981b949387c639f32faf217e5c",
+      "bytes": 1133086,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 4,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000004/full/full/0/default.jpg",
+      "path": "images/943545_0000004.jpg",
+      "sha256": "3022033ae2aa3bf81b70131e2ec252a4bfc68446f05f26a02339c8193c7262f9",
+      "bytes": 1280015,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 5,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000005/full/full/0/default.jpg",
+      "path": "images/943545_0000005.jpg",
+      "sha256": "c9ec93682e9d3da48591ad3f2bc936ecf3ee3ce1c66ad1468205f7d42f78cf77",
+      "bytes": 1125730,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 6,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000006/full/full/0/default.jpg",
+      "path": "images/943545_0000006.jpg",
+      "sha256": "eb29d2e2784709630fb9d1b1a20db4cfac62a68ec89cf6d421d01f1936cef98c",
+      "bytes": 1399805,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 7,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000007/full/full/0/default.jpg",
+      "path": "images/943545_0000007.jpg",
+      "sha256": "3c320c32cd3a2a35b8a27bce76943d087a35fc26f7327b4c80a1d578ad0989e3",
+      "bytes": 1446396,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 8,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000008/full/full/0/default.jpg",
+      "path": "images/943545_0000008.jpg",
+      "sha256": "9390c339605eeced2868612058e7a73a1ad97c0edf20a868e4cf50981044349f",
+      "bytes": 1347055,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 9,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000009/full/full/0/default.jpg",
+      "path": "images/943545_0000009.jpg",
+      "sha256": "f5cdfae8d9c19d3504b25a2d0b722d0e2dfdb21d93034742f2ef7184634f10e8",
+      "bytes": 1375027,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 10,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000010/full/full/0/default.jpg",
+      "path": "images/943545_0000010.jpg",
+      "sha256": "7c01aafae6611444429174e4eabae8347214e044f4bdee330d70a876c94494e0",
+      "bytes": 1344037,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 11,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000011/full/full/0/default.jpg",
+      "path": "images/943545_0000011.jpg",
+      "sha256": "de0f6912b4063295f75beaefea0e2fb9e39cca27f19c58503d16f60683a419b3",
+      "bytes": 1364861,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 12,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000012/full/full/0/default.jpg",
+      "path": "images/943545_0000012.jpg",
+      "sha256": "5475bec39dcc71b6d37dd7b06e2534697d9603c812eeeb3d1b0a792097b1099a",
+      "bytes": 1343475,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 13,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000013/full/full/0/default.jpg",
+      "path": "images/943545_0000013.jpg",
+      "sha256": "44abd8a71fcdab8ed897b9c139e484f69a73de020d1006abc747de7d3f8852aa",
+      "bytes": 1356055,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 14,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000014/full/full/0/default.jpg",
+      "path": "images/943545_0000014.jpg",
+      "sha256": "ef2548acc50408ca82aa382d16ac77d80b47de13a83016b77fa06b6d794f1fe0",
+      "bytes": 1326927,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 15,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000015/full/full/0/default.jpg",
+      "path": "images/943545_0000015.jpg",
+      "sha256": "afc2d515779dc2e3e6376d317887c983c40153284df5004a84a31543806f56a6",
+      "bytes": 1375943,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 16,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000016/full/full/0/default.jpg",
+      "path": "images/943545_0000016.jpg",
+      "sha256": "1939db14d9fc0735ee076029cc0183783687dc2cdd10fa546a114ff47896a5eb",
+      "bytes": 1380150,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 17,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000017/full/full/0/default.jpg",
+      "path": "images/943545_0000017.jpg",
+      "sha256": "c38bb967fe0f52c99dd18bc882fdb3cef55c40cea00f60dfe2f520d4ea2dcf26",
+      "bytes": 1334761,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 18,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000018/full/full/0/default.jpg",
+      "path": "images/943545_0000018.jpg",
+      "sha256": "b26aa994d9c808dc4a3aeeff4786bbae01978b50ab918249f32bd499599a0e03",
+      "bytes": 1391233,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 19,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000019/full/full/0/default.jpg",
+      "path": "images/943545_0000019.jpg",
+      "sha256": "43abb41625af41fd53728d0ec0bd2d1cfbdd79327801d1e80ec65de969230b31",
+      "bytes": 1266910,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 20,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000020/full/full/0/default.jpg",
+      "path": "images/943545_0000020.jpg",
+      "sha256": "7c42a82c1d1ab3040eb8a50f8583e0f3a3f540f086ebee33b91a049910cfa2c2",
+      "bytes": 1287349,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 21,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000021/full/full/0/default.jpg",
+      "path": "images/943545_0000021.jpg",
+      "sha256": "0e74339d46ef6f53887692c8758db2495095773c0ea042096ce997e43b2324b9",
+      "bytes": 1322341,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 22,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000022/full/full/0/default.jpg",
+      "path": "images/943545_0000022.jpg",
+      "sha256": "48679a8365b5e03e57b84fe640584622bf95cdc3114285b2febcdd2c2ef002d5",
+      "bytes": 1299259,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 23,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000023/full/full/0/default.jpg",
+      "path": "images/943545_0000023.jpg",
+      "sha256": "94c51f5216f4d666bd264e3320878ec9cde72b9648bf644c3a5f8299fe83a116",
+      "bytes": 1306986,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 24,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000024/full/full/0/default.jpg",
+      "path": "images/943545_0000024.jpg",
+      "sha256": "35ba3cc84d538ec84cd0487f988254990a4d068b5e1925382c5767b183ed89e3",
+      "bytes": 1269134,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 25,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000025/full/full/0/default.jpg",
+      "path": "images/943545_0000025.jpg",
+      "sha256": "5daa19eb6236f9404fe9fb4e4351c30bd0755988b23ff10bacee5587c748a8bc",
+      "bytes": 1307570,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 26,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000026/full/full/0/default.jpg",
+      "path": "images/943545_0000026.jpg",
+      "sha256": "760febc9ec808237753963e5f5f8e49492a702f76fc853f6e769771f4d1dd3e6",
+      "bytes": 1353906,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 27,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000027/full/full/0/default.jpg",
+      "path": "images/943545_0000027.jpg",
+      "sha256": "835629ecc60f36e8637c2a9a14fd96fac34e2f217847bdbd126a5ca7c6b5870a",
+      "bytes": 1352087,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 28,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000028/full/full/0/default.jpg",
+      "path": "images/943545_0000028.jpg",
+      "sha256": "e7ca6058a04502490ce228afe67abec7ab33bfc1db643c4359c39bd17a11ac0c",
+      "bytes": 1330237,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 29,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000029/full/full/0/default.jpg",
+      "path": "images/943545_0000029.jpg",
+      "sha256": "1471b7f4bcfb99ccc69b27c594dc2e12feddb0985d4dda52fdff4ec25bbadc48",
+      "bytes": 1339333,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 30,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000030/full/full/0/default.jpg",
+      "path": "images/943545_0000030.jpg",
+      "sha256": "4af620264856cd70ce6ab91b2c4f6645f114fbbdf4057331e9d49588a3b87c47",
+      "bytes": 1372154,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 31,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000031/full/full/0/default.jpg",
+      "path": "images/943545_0000031.jpg",
+      "sha256": "3f01206221abb478e30df8ecd87b9dfd4c99e277c76a7669bf0b3a8fef73cc48",
+      "bytes": 1372704,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 32,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000032/full/full/0/default.jpg",
+      "path": "images/943545_0000032.jpg",
+      "sha256": "b8f7fdfa3d9f6808de7f2c3a1e8077259443d0eb0e4a9c272770ae0417506873",
+      "bytes": 1368428,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 33,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000033/full/full/0/default.jpg",
+      "path": "images/943545_0000033.jpg",
+      "sha256": "33855201aa47c06f336875cd6440786a834a0847969cbf3bdb102777c94f6b80",
+      "bytes": 1330008,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 34,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000034/full/full/0/default.jpg",
+      "path": "images/943545_0000034.jpg",
+      "sha256": "f606c50948feb7a8fe16dd12bfb30d8bad2cb4bb2eb8667f35f3f9f23d3871cd",
+      "bytes": 1380586,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 35,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000035/full/full/0/default.jpg",
+      "path": "images/943545_0000035.jpg",
+      "sha256": "a44e2dc980b81693691d64ee19fe14d24396fcdc032ecba3a523269e76196a3b",
+      "bytes": 1289912,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 36,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000036/full/full/0/default.jpg",
+      "path": "images/943545_0000036.jpg",
+      "sha256": "9ae912b825e0066894e3ab6deae9ca22e5c379e0001ed1932e97c0ae9fcb0944",
+      "bytes": 1328883,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 37,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000037/full/full/0/default.jpg",
+      "path": "images/943545_0000037.jpg",
+      "sha256": "c7ac622729bb7f6ddd90948dc5b1c185aa718b4f4b8065ab672d7dfa1a777e51",
+      "bytes": 1354629,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 38,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000038/full/full/0/default.jpg",
+      "path": "images/943545_0000038.jpg",
+      "sha256": "54a274fcf08f229042d92867f4a888c9751f8f6fedb429b396412a22b2c59b16",
+      "bytes": 1268053,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 39,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000039/full/full/0/default.jpg",
+      "path": "images/943545_0000039.jpg",
+      "sha256": "240dcea769b73c13b5593893a28593902e7768f4b85bff8d241a5078a2fabd27",
+      "bytes": 1362507,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 40,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000040/full/full/0/default.jpg",
+      "path": "images/943545_0000040.jpg",
+      "sha256": "655a82965d24be5394a332c6e9ac9d006a6b509a6e1c9d45c9713f6ce103d77e",
+      "bytes": 1339030,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 41,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000041/full/full/0/default.jpg",
+      "path": "images/943545_0000041.jpg",
+      "sha256": "83bf659a590584804c9d3feaa33f5bbb7f053acdd4c8d4536d4a4138cb300fc5",
+      "bytes": 1126620,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 42,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000042/full/full/0/default.jpg",
+      "path": "images/943545_0000042.jpg",
+      "sha256": "d32ad7b2069ee4e3b7b9931068f8c0cf8b115b323c88416d48f79f81633df6a8",
+      "bytes": 1514775,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 43,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000043/full/full/0/default.jpg",
+      "path": "images/943545_0000043.jpg",
+      "sha256": "58ff97dfb1783def60a4418a1aa5fd7f133acab686317c569bdec41d2eae728b",
+      "bytes": 1947868,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 44,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000044/full/full/0/default.jpg",
+      "path": "images/943545_0000044.jpg",
+      "sha256": "e0a9881aeb8838ee6c2a26da364f394c4851c417cc6b45b77e01e9b95885a771",
+      "bytes": 1049166,
+      "width": 3924,
+      "height": 2628
+    },
+    {
+      "scan": 45,
+      "url": "https://dl.ndl.go.jp/api/iiif/943545/R0000045/full/full/0/default.jpg",
+      "path": "images/943545_0000045.jpg",
+      "sha256": "8e5e3125f0ac98ad2f13783b94f7cc75b5cfbbf5bc9cf39db5c321f5ebb0723b",
+      "bytes": 963549,
+      "width": 3924,
+      "height": 2628
+    }
+  ],
+  "image_review_status": "downloaded_not_read"
+}
