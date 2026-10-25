@@ -4158,6 +4158,54 @@
     "title": "日蓮宗公式 旦那（表示本文で檀那だんなと布施者を指す語義を確認）"
     "url": "https://www.nichiren.or.jp/glossary/id250/"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch94-primary-1500607"
+    "title": "中文維基文庫 西遊記 第094回 固定版1500607（全278表示行を直接取得、固定版は変換なし表示）"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch94-hejin"
+    "title": "デジタル大辞泉 合巹（コトバンク掲載本文でごうきん・婚礼の杯の由来を確認）"
+    "url": "https://kotobank.jp/word/合巹-494794"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch94-animal-charcoal"
+    "title": "教育部 重編國語辭典修訂本 獸炭（表示本文で獣骨の炭と獣形に固めた炭の二義を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=130584&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch94-maoqiang"
+    "title": "教育部 重編國語辭典修訂本 毛嬙（表示本文で古代の美女・西施との併称を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=29271&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch94-lichun"
+    "title": "教育部 重編國語辭典修訂本 麗春花（表示本文でケシ科ケシ属・虞美人の別名を確認。最初の短いURLは取得失敗）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=62773&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch94-nuan"
+    "title": "中央研究院 小學堂 餪（検索表示で嫁いだ娘への食物・祝い事前の宴・婚後三日の宴の義を確認）"
+    "url": "https://chardb.iis.sinica.edu.tw/char/26030"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch94-mubi"
+    "title": "國立興大附農森林科 白玉蘭（検索表示で木筆という別称を確認）"
+    "url": "https://www.tcavs.tc.edu.tw/forestry/7-2.asp?proid=20140302110410&trarea=3"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch94-hanxiao"
+    "title": "國立興大附農森林科 含笑花（検索表示で含笑の別名を確認）"
+    "url": "https://www.tcavs.tc.edu.tw/forestry/7-2.asp?proid=20180828142651&trarea=3"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch94-zhique"
+    "title": "教育部 教育百科 鳷鵲（検索表示で漢代の宮観の名を確認。天竺の宮殿との同一性を保証しない）"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=鳷鵲"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch94-zhique-reading"
+    "title": "漢字林 鳷（検索表示で鳷鵲のシジャクを確認。鳷鵲宮全体の読みは未確認）"
+    "url": "https://ksbookshelf.com/DW/Kanjirin/Kanjirinb2.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch94-zhoutang"
+    "title": "漢語網 周堂（検索表示で陰陽家の婚喪の吉日という説明を確認）"
+    "url": "https://www.chinesewords.org/dict/63735-531.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch94-mingshi72"
+    "title": "明史 巻72 礼部（維基文庫の取得表示L189・192で儀制司の礼儀・大婚の職掌を確認）"
+    "url": "https://zh.wikisource.org/wiki/明史/卷72"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -5619,6 +5667,15 @@
           "source_ids":
             - "xy-ch83-primary-1455632"
           "reason_ja": "悟空が玉帝へ奏上するときの天の主という尊称。別の宗教の同形名には結び付けない。漢字の音による推定。"
+      - "id": "xy-ch94-xuanqiong-short-form"
+        "text": "玄穹"
+        "relation": "short_form"
+        "reading":
+          "kana": "げんきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "昇天し捲簾大将に任じられる自述の天界の君主。既存の玄穹帝・玄穹高上帝君の短称として扱う。音読みを組み合わせ、全語仮名は未確認。"
   - "id": "xy-term-053"
     "kind": "place"
     "headword": "霊霄宝殿"
@@ -37704,6 +37761,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-ch94-inner-child-form"
+        "text": "孩児"
+        "relation": "alias"
+        "reading":
+          "kana": "がいじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "沙悟浄の修行の自述で姹女と結び合わせる象徴的な子。既存の嬰児の内丹的意味と一致し、紅孩児という人物や普通の子供と混同しない。全語仮名は未確認。"
   - "id": "xy-entry-1615"
     "kind": "concept"
     "headword": "姹女"
@@ -48755,6 +48821,15 @@
           "source_ids":
             - "xy-ch43-primary-1455592"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+      - "id": "xy-ch94-three-three-short-form"
+        "text": "三三"
+        "relation": "short_form"
+        "reading":
+          "kana": "さんさん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "既存の三三の行と同じ内丹修行の数表現。八戒の自述で二八と対に置かれる短形。具体的分類は断定せず、語形全体の仮名は未確認。"
   - "id": "xy-ch43-black-water-river"
     "kind": "place"
     "headword": "黒水河"
@@ -53805,6 +53880,15 @@
           "source_ids":
             - "xy-ch52-primary-1498137"
           "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch94-first-watch-alias-form"
+        "text": "初更"
+        "relation": "alias"
+        "reading":
+          "kana": "しょこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "原文の入更を初更に入ると訳した。一夜の最初の更という意味が既存の一更と一致するため、別項目でなく異称を追加。現代の厳密な時刻は補わず、全語仮名は未確認。"
   - "id": "xy-ch52-qiu-lun"
     "kind": "object"
     "headword": "裘輪"
@@ -62554,6 +62638,15 @@
           "source_ids":
             - "xy-ch70-primary-1455619"
           "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+      - "id": "xy-ch94-inner-four-aspects-form"
+        "text": "四相"
+        "relation": "variant"
+        "reading":
+          "kana": "しそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "沙悟浄が三千の功に続けて調和させる内丹修行の四つの働き。既存の四象の同じ象徴的文脈として異表記を追加するが、原文の相を象に校訂しない。四霊や四人の臣ではない。全語仮名は未確認。"
   - "id": "xy-ch70-inner-yellow-way"
     "kind": "concept"
     "headword": "黄道"
@@ -72442,3 +72535,459 @@
           "source_ids":
             - "xy-ch93-primary-1455642"
           "reason_ja": "日本語の漢字音訓・語構成から採用した読み。語形全体の仮名を示す資料は未確認。中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch94-yinyang-official"
+    "kind": "title"
+    "headword": "陰陽官"
+    "definition_ja": "暦や日取りの吉凶を判断し、婚礼の日を選ぶ役人。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "婚礼の日と日の干支・吉凶を国王へ奏上する役割から説明。現実の占術の効能を保証しない。 既存の陰陽は気の概念であり、この役人・官職そのものではない。"
+    "forms":
+      - "id": "xy-ch94-yinyang-official-form"
+        "text": "陰陽官"
+        "relation": "preferred"
+        "reading":
+          "kana": "おんようかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-renzi-day"
+    "kind": "term"
+    "headword": "壬子"
+    "definition_ja": "十干の壬と十二支の子を組み合わせた、干支の一つ。日・年などを表す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "婚期の十二日を壬子とする本文と、干支の語構成による。"
+    "forms":
+      - "id": "xy-ch94-renzi-day-form"
+        "text": "壬子"
+        "relation": "preferred"
+        "reading":
+          "kana": "じんし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-wushen-day"
+    "kind": "term"
+    "headword": "戊申"
+    "definition_ja": "十干の戊と十二支の申を組み合わせた、干支の一つ。日・年などを表す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "八日を戊申とし申を猿に結び付ける本文と、干支の語構成による。"
+    "forms":
+      - "id": "xy-ch94-wushen-day-form"
+        "text": "戊申"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-zhoutang-day"
+    "kind": "concept"
+    "headword": "周堂"
+    "definition_ja": "婚姻などの儀礼の日取りについて、関係者への吉凶を判定する暦占の考え方。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+        - "xy-ch94-zhoutang"
+      "reason_ja": "婚期に周堂通利とする本文、漢語詞典の陰陽家語として婚喪の吉日の説明を照合。詳細な計算法を本文に足さない。"
+    "forms":
+      - "id": "xy-ch94-zhoutang-day-form"
+        "text": "周堂"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅうどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-hejin-wedding"
+    "kind": "term"
+    "headword": "合巹"
+    "definition_ja": "夫婦の縁を結ぶこと。もとは二つに割った瓢の杯で新郎新婦が酒を交わす婚礼の儀礼。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+        - "xy-ch94-hejin"
+      "reason_ja": "デジタル大辞泉の掲載本文で、ごうきんの仮名と婚礼・杯の由来を確認。"
+    "forms":
+      - "id": "xy-ch94-hejin-wedding-form"
+        "text": "合巹"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごうきん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch94-hejin"
+          "reason_ja": "掲載本文で語形全体の日本語仮名を確認。中国語の出現だけで読みを実証しない。"
+  - "id": "xy-ch94-qiang-flute"
+    "kind": "object"
+    "headword": "羌笛"
+    "definition_ja": "羌に由来するとされる笛の呼称。詩に歌われる笛の一種。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "原文の羌笛聲殘と構成字・一般的な古典語義に基づく。楽器の具体的な構造は本文から確定しない。"
+    "forms":
+      - "id": "xy-ch94-qiang-flute-form"
+        "text": "羌笛"
+        "relation": "preferred"
+        "reading":
+          "kana": "きょうてき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-yizhi-office"
+    "kind": "title"
+    "headword": "儀制司"
+    "definition_ja": "宮廷の礼儀・儀礼を担う官署。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+        - "xy-ch94-mingshi72"
+      "reason_ja": "三人の案内と宴席への誘導を担当する本文の役割と、明史の礼部儀制司の制度を局所照合。天竺の設定を歴史上の明朝の官制と同一視しない。"
+    "forms":
+      - "id": "xy-ch94-yizhi-office-form"
+        "text": "儀制司"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎせいし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-huayi-pavilion"
+    "kind": "place"
+    "headword": "永鎮華夷閣"
+    "definition_ja": "天竺国の御花園にある楼閣。国王が客をもてなす宴席となる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "原文で国王と三蔵の席を二卓設ける楼閣の名として明示。後の華夷閣は同じ楼閣の略称である。"
+    "forms":
+      - "id": "xy-ch94-huayi-pavilion-form"
+        "text": "永鎮華夷閣"
+        "relation": "preferred"
+        "reading":
+          "kana": "えいちんかいかく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+      - "id": "xy-ch94-huayi-short-form"
+        "text": "華夷閣"
+        "relation": "short_form"
+        "reading":
+          "kana": "かいかく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "永鎮華夷閣に席を設けた後、同じ国王と三蔵が案内される楼閣の短称。全語仮名は未確認。"
+  - "id": "xy-ch94-liuchun-pavilion"
+    "kind": "place"
+    "headword": "留春亭"
+    "definition_ja": "天竺国の御花園にあるあずまや。宴や宿泊に用いられる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "三人の席を三卓整え、そのまま宿泊もする建物として本文で確認。他国の同形の名と同一視しない。"
+    "forms":
+      - "id": "xy-ch94-liuchun-pavilion-form"
+        "text": "留春亭"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうしゅんてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-nuanzi-feast"
+    "kind": "term"
+    "headword": "餪子"
+    "definition_ja": "婚礼に伴って飲食などを贈り、祝いの宴を行うことをいう語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+        - "xy-ch94-nuan"
+      "reason_ja": "本文は婚礼前の宴に用いる。中央研究院の餪の字義には初嫁の女への食物、祝い事前の宴、婚後三日の宴がある。子を伴う語の細部と時期の幅は留保する。"
+    "forms":
+      - "id": "xy-ch94-nuanzi-feast-form"
+        "text": "餪子"
+        "relation": "preferred"
+        "reading":
+          "kana": "だんし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-phoenix-terrace"
+    "kind": "place"
+    "headword": "鳳台"
+    "definition_ja": "鳳凰にちなむ高台をいう、宮苑の詩的な呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "御花園の描写で竜沼と対に置かれ、簫を吹いて鳳凰を招くという。特定の歴史的建築や伝説の人物は補わない。"
+    "forms":
+      - "id": "xy-ch94-phoenix-terrace-form"
+        "text": "鳳台"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうだい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-dragon-pool"
+    "kind": "place"
+    "headword": "竜沼"
+    "definition_ja": "竜にちなむ池をいう、宮苑の詩的な呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "御花園の描写で鳳台と対に置かれ、養う魚が竜と化すという。竜宮や特定の竜王の居所とは同定しない。"
+    "forms":
+      - "id": "xy-ch94-dragon-pool-form"
+        "text": "竜沼"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-lichun-flower"
+    "kind": "term"
+    "headword": "麗春花"
+    "definition_ja": "ヒナゲシ類の花を指すと解される古い植物名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+        - "xy-ch94-lichun"
+      "reason_ja": "教育部辞典の麗春花の説明を参照するが、詩の植物を特定の現代種と同定することは留保する。"
+    "forms":
+      - "id": "xy-ch94-lichun-flower-form"
+        "text": "麗春花"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいしゅんか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-mubi-flower"
+    "kind": "term"
+    "headword": "木筆花"
+    "definition_ja": "つぼみが筆に似たモクレン類の花木を指す呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+        - "xy-ch94-mubi"
+      "reason_ja": "木筆は辛夷・玉蘭類に用いられる植物名。公的学校の木筆という別称を含む解説も照合したが、詩での現代種は確定しない。"
+    "forms":
+      - "id": "xy-ch94-mubi-flower-form"
+        "text": "木筆花"
+        "relation": "preferred"
+        "reading":
+          "kana": "もくひつか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-hanlin-scholars"
+    "kind": "title"
+    "headword": "翰林"
+    "definition_ja": "宮廷で文筆や学問を担う学士たち、またその官署をいう呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "屏風に詩を題した翰林名士という本文の用法。既存の翰林院大学士は特定の高官名であり、同じ職位の全称・略称と決めず、より広い文士の呼称を別にする。 一般の学問官をいう既存の学士とも、所属範囲の限定が異なる。翰林という官署・所属集団の呼称を、学士一般の異称として広げない。"
+    "forms":
+      - "id": "xy-ch94-hanlin-scholars-form"
+        "text": "翰林"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんりん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-four-writing-treasures"
+    "kind": "object"
+    "headword": "文房四宝"
+    "definition_ja": "筆・墨・硯・紙という、書画に用いる四つの道具。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "国王が詩を書き留めるために取らせる文房四寶の語構成と一般的な文化語義による。"
+    "forms":
+      - "id": "xy-ch94-four-writing-treasures-form"
+        "text": "文房四宝"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶんぼうしほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-animal-charcoal"
+    "kind": "object"
+    "headword": "獣炭"
+    "definition_ja": "獣の形に固めた炭、または獣骨を焼いて作る炭を指す語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+        - "xy-ch94-animal-charcoal"
+      "reason_ja": "教育部の獸炭の二通りの説明を確認。詩では炉の燃料という以上に製法は定まらない。"
+    "forms":
+      - "id": "xy-ch94-animal-charcoal-form"
+        "text": "獣炭"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゅうたん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-monks-staff"
+    "kind": "object"
+    "headword": "禅杖"
+    "definition_ja": "僧が用いる杖。打撃に使われることもある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "三蔵が八戒を打つために振るう杖として本文で確認。既存の錫杖は金属輪の構造を伴う定義で、本語との完全同一性は確定しない。沙悟浄の降妖杖の別名ともみなさない。"
+    "forms":
+      - "id": "xy-ch94-monks-staff-form"
+        "text": "禅杖"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぜんじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-mao-qiang"
+    "kind": "person"
+    "headword": "毛嬙"
+    "definition_ja": "古代の美女として伝えられ、西施と並べて称される人物。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+        - "xy-ch94-maoqiang"
+      "reason_ja": "教育部辞典と荘子の例示にある美女の名を確認。王嬙とは別人物で、同じ嬙の字だけで統合しない。"
+    "forms":
+      - "id": "xy-ch94-mao-qiang-form"
+        "text": "毛嬙"
+        "relation": "preferred"
+        "reading":
+          "kana": "もうしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-chu-maiden"
+    "kind": "term"
+    "headword": "楚妹"
+    "definition_ja": "楚の美女をいう詩的な呼び名。特定の人物との同一性は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "毛嬙に続いて美しさの比較対象として挙げる本文による。楚女など近い表現の典故から神女や実在人物を断定しない。"
+    "forms":
+      - "id": "xy-ch94-chu-maiden-form"
+        "text": "楚妹"
+        "relation": "preferred"
+        "reading":
+          "kana": "そまい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-tianzhu-zhaoyang"
+    "kind": "place"
+    "headword": "昭陽宮"
+    "definition_ja": "天竺国の内宮にある宮殿。王妃たちが集う場所。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "天竺国王が内宮へ入り、后妃たちが談笑している宮として明示。宝象国・朱紫国の既存の同名宮殿と同じ建物に統合しない。"
+    "forms":
+      - "id": "xy-ch94-tianzhu-zhaoyang-form"
+        "text": "昭陽宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうようきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-ingot-unit"
+    "kind": "term"
+    "headword": "錠"
+    "definition_ja": "金銀などを一定の形に鋳固めた塊。また、その塊を数える語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+      "reason_ja": "金十錠・白金二十錠を贈る本文から、金銀塊の個数として訳す。重さや現代通貨額は定めない。餅錠・鴛鴦錠などの菓子とは別義。"
+    "forms":
+      - "id": "xy-ch94-ingot-unit-form"
+        "text": "錠"
+        "relation": "preferred"
+        "reading":
+          "kana": "じょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch94-tianzhu-zhique"
+    "kind": "place"
+    "headword": "鳷鵲宮"
+    "definition_ja": "天竺国の宮中にある宮殿。婚礼の宴を設ける場所。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch94-primary-1500607"
+        - "xy-ch94-zhique"
+      "reason_ja": "宮官が合巹の宴の場所として告げる名を確認。漢代の同じ鳷鵲という名の宮観とは同じ建物と断定しない。日本語の鳷鵲しじゃくは字典の検索表示で確認するが、全名のかなは未確認。"
+    "forms":
+      - "id": "xy-ch94-tianzhu-zhique-form"
+        "text": "鳷鵲宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "しじゃくきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch94-primary-1500607"
+            - "xy-ch94-zhique-reading"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。 鳷鵲のみのシジャクを検索表示で確認し、宮を音読みして組み合わせた。"

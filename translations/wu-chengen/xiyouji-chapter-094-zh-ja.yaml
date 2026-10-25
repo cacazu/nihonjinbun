@@ -1,0 +1,3359 @@
+"schema_version": "2.0"
+"work_id": "xiyouji-chapter-094-zh-ja"
+"metadata":
+  "title_ja": "西遊記 第九十四回"
+  "title_original": "西遊記 第九十四回 四僧宴樂御花園　一怪空懷情慾喜"
+  "original_languages":
+    - "zh-Hant"
+  "target_language": "ja"
+  "contributors":
+    - "id": "traditional-author"
+      "name_ja": "呉承恩（伝）"
+      "name_original": "吳承恩"
+      "roles":
+        - "author"
+    - "id": "ai-translator"
+      "name_ja": "ChatGPT（AIによる新訳）"
+      "name_original": null
+      "roles":
+        - "translator"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "『西遊記』第九十四回 日本語新訳（AI生成）。原文は中文維基文庫「西遊記/第094回」固定版oldid=1500607。"
+    "note_ja": "電子翻刻の帰属表示と継承条件を保持するためCC BY-SA 4.0を明示。原典は公有と区別する。AIによる対訳と確認であり、専門家の独立校訂は未実施。"
+  "genres":
+    - "中国古典文学"
+    - "神魔小説"
+    - "物語"
+  "reader_notes_ja":
+    - "第九十四回の回題から結語まで、全散文・会話・十八組の韻文を63対訳単位に省略なく収録した。"
+    - "中文維基文庫の固定版oldid=1500607を直接取得し、全278表示行を保存した。版表示は2018年9月12日14:40。秒とタイムゾーンは未確認。"
+    - "日本語はAIによる新訳。作者とは別のAIが全原文・訳文、韻文、読み、段落末語釈と注を独立照合した。人間・専門家の校訂、実ブラウザ表示確認は未実施。"
+    - "通常の名前は悟空・三蔵・八戒・沙悟浄に統一。偽の王女の呼称は前回の地の文の開示を受けたもの。未開示の本相や主人は補わない。"
+"sources":
+  - "id": "wikisource-xiyou-ch94-1500607"
+    "role": "primary"
+    "title": "西遊記/第094回"
+    "languages":
+      - "zh-Hant"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+    "edition": "中文維基文庫 固定版oldid=1500607。版表示2018年9月12日14:40（秒とタイムゾーン未確認）。固定URL本文を直接取得。固定版は変換なし表示。"
+    "contributor_ids":
+      - "traditional-author"
+    "work_rights":
+      "status": "public_domain"
+      "note_ja": "明代成立の古典本文。伝統的には呉承恩作とされるが著者帰属には議論がある。"
+    "transcription_rights":
+      "status": "licensed"
+      "license_id": "CC-BY-SA-4.0"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "evidence_url": "https://zh.wikisource.org/wiki/Wikisource:Copyrights"
+      "attribution": "中文維基文庫「西遊記/第094回」の寄稿者。固定版oldid=1500607。"
+    "description_ja": "第九十四回の回題から結語まで。固定URLの複数取得表示を重複照合し、全278表示行を保存。珍字・句読点・数量と不整合も原文どおり保持。"
+    "local_path": "translations/wu-chengen/verification/xiyouji-chapter-094-source-1500607-zh-hant.txt"
+    "sha256": "f78e3f56742bdbd878f07582c2b501ef129e9514d34658c2e5b99228731189e0"
+  - "id": "xy-ch94-hejin"
+    "role": "comparison"
+    "title": "デジタル大辞泉 合巹（コトバンク掲載本文でごうきん・婚礼の杯の由来を確認）"
+    "languages":
+      - "ja"
+    "url": "https://kotobank.jp/word/合巹-494794"
+    "edition": "2026-10-25、保存した研究応答と調査報告で実見範囲・取得失敗を区別。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "語義・語形の局所的照合。検索表示のみの資料を全文実見と扱わない。"
+  - "id": "xy-ch94-animal-charcoal"
+    "role": "comparison"
+    "title": "教育部 重編國語辭典修訂本 獸炭（表示本文で獣骨の炭と獣形に固めた炭の二義を確認）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=130584&la=0&powerMode=0"
+    "edition": "2026-10-25、保存した研究応答と調査報告で実見範囲・取得失敗を区別。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "語義・語形の局所的照合。検索表示のみの資料を全文実見と扱わない。"
+  - "id": "xy-ch94-maoqiang"
+    "role": "comparison"
+    "title": "教育部 重編國語辭典修訂本 毛嬙（表示本文で古代の美女・西施との併称を確認）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=29271&la=0&powerMode=0"
+    "edition": "2026-10-25、保存した研究応答と調査報告で実見範囲・取得失敗を区別。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "語義・語形の局所的照合。検索表示のみの資料を全文実見と扱わない。"
+  - "id": "xy-ch94-lichun"
+    "role": "comparison"
+    "title": "教育部 重編國語辭典修訂本 麗春花（表示本文でケシ科ケシ属・虞美人の別名を確認。最初の短いURLは取得失敗）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=62773&la=0&powerMode=0"
+    "edition": "2026-10-25、保存した研究応答と調査報告で実見範囲・取得失敗を区別。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "語義・語形の局所的照合。検索表示のみの資料を全文実見と扱わない。"
+  - "id": "xy-ch94-nuan"
+    "role": "comparison"
+    "title": "中央研究院 小學堂 餪（検索表示で嫁いだ娘への食物・祝い事前の宴・婚後三日の宴の義を確認）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://chardb.iis.sinica.edu.tw/char/26030"
+    "edition": "2026-10-25、保存した研究応答と調査報告で実見範囲・取得失敗を区別。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "語義・語形の局所的照合。検索表示のみの資料を全文実見と扱わない。"
+  - "id": "xy-ch94-mubi"
+    "role": "comparison"
+    "title": "國立興大附農森林科 白玉蘭（検索表示で木筆という別称を確認）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://www.tcavs.tc.edu.tw/forestry/7-2.asp?proid=20140302110410&trarea=3"
+    "edition": "2026-10-25、保存した研究応答と調査報告で実見範囲・取得失敗を区別。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "語義・語形の局所的照合。検索表示のみの資料を全文実見と扱わない。"
+  - "id": "xy-ch94-hanxiao"
+    "role": "comparison"
+    "title": "國立興大附農森林科 含笑花（検索表示で含笑の別名を確認）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://www.tcavs.tc.edu.tw/forestry/7-2.asp?proid=20180828142651&trarea=3"
+    "edition": "2026-10-25、保存した研究応答と調査報告で実見範囲・取得失敗を区別。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "語義・語形の局所的照合。検索表示のみの資料を全文実見と扱わない。"
+  - "id": "xy-ch94-zhique"
+    "role": "comparison"
+    "title": "教育部 教育百科 鳷鵲（検索表示で漢代の宮観の名を確認。天竺の宮殿との同一性を保証しない）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=鳷鵲"
+    "edition": "2026-10-25、保存した研究応答と調査報告で実見範囲・取得失敗を区別。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "語義・語形の局所的照合。検索表示のみの資料を全文実見と扱わない。"
+  - "id": "xy-ch94-zhique-reading"
+    "role": "comparison"
+    "title": "漢字林 鳷（検索表示で鳷鵲のシジャクを確認。鳷鵲宮全体の読みは未確認）"
+    "languages":
+      - "ja"
+    "url": "https://ksbookshelf.com/DW/Kanjirin/Kanjirinb2.html"
+    "edition": "2026-10-25、保存した研究応答と調査報告で実見範囲・取得失敗を区別。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "語義・語形の局所的照合。検索表示のみの資料を全文実見と扱わない。"
+  - "id": "xy-ch94-zhoutang"
+    "role": "comparison"
+    "title": "漢語網 周堂（検索表示で陰陽家の婚喪の吉日という説明を確認）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://www.chinesewords.org/dict/63735-531.html"
+    "edition": "2026-10-25、保存した研究応答と調査報告で実見範囲・取得失敗を区別。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "語義・語形の局所的照合。検索表示のみの資料を全文実見と扱わない。"
+  - "id": "xy-ch94-mingshi72"
+    "role": "comparison"
+    "title": "明史 巻72 礼部（維基文庫の取得表示L189・192で儀制司の礼儀・大婚の職掌を確認）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://zh.wikisource.org/wiki/明史/卷72"
+    "edition": "2026-10-25、保存した研究応答と調査報告で実見範囲・取得失敗を区別。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "語義・語形の局所的照合。検索表示のみの資料を全文実見と扱わない。"
+"scope":
+  "included":
+    - "source_id": "wikisource-xiyou-ch94-1500607"
+      "description_ja": "第九十四回の回題から結語まで全体。"
+      "section_ids":
+        - "chapter-94"
+  "excluded":
+    - "source_id": "wikisource-xiyou-ch94-1500607"
+      "description_ja": "サイトのナビゲーション、著者欄、前後回リンク、版情報、フッター。"
+  "known_gaps":
+    - "source_id": "wikisource-xiyou-ch94-1500607"
+      "segment_ids":
+        - "xy-ch94-006"
+      "description_ja": "二八と三三は、道教の内丹修行を数で表す象徴的な言い方。二八は陰陽を等しく合わせる表現と解するが、ここにいう三三の前後の具体的な手順・区分は本文だけでは定まらない。数を単なる年齢や回数へ置き換えなかった。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch94-1500607"
+      "segment_ids":
+        - "xy-ch94-009"
+      "description_ja": "孩児と姹女は内丹で身体内の働きを男女に見立てた語と解し、実際の出産や婚姻としない。四相は内丹の四象に通じる象徴と解するが、原文の相を象へ直してはいない。四つの具体的な内訳と三千の功の数え方は、本文だけでは確定しない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch94-1500607"
+      "segment_ids":
+        - "xy-ch94-018"
+      "description_ja": "上頭は婚礼に備えて髪を結い上げる儀礼。餪子は婚礼に伴う飲食の祝いと解した。餪には婚礼後三日の食物の贈り物・宴という用法もあるが、底本では十二日の婚礼より前に置かれる。一般的な習俗に合わせて物語の日程を直さない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch94-1500607"
+      "segment_ids":
+        - "xy-ch94-020"
+      "description_ja": "茉藜はジャスミン類、麗春花はヒナゲシ類、木筆花はモクレン類、含笑花はオガタマ類の花木を指すと解されるが、ここでの現代的な種の特定は留保する。蕙と萱にも古い植物名としての幅があるため、色の描写を残し、学名を断定しない。鳳台の簫と鳳凰、竜沼の魚と竜は詩の描写のまま訳し、原文にない具体的な伝説の人物は補わない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch94-1500607"
+      "segment_ids":
+        - "xy-ch94-031"
+      "description_ja": "底本は「天雨飛雲」。ここでは天から雨が降り、雲が飛ぶと読む。天字を他の文字へ改めたり、雨を無言で雪に統一したりしない。句の切り方には留保を残す。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch94-1500607"
+      "segment_ids":
+        - "xy-ch94-040"
+      "description_ja": "獣炭には、獣の形に成形した炭と、獣骨から作った炭という説明がある。この詩では炉に使う炭である以上に製法を確定せず、語を残す。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch94-1500607"
+      "segment_ids":
+        - "xy-ch94-043"
+      "description_ja": "原文は「侮著他嘴」。直後の発話制止という文脈から、口をふさぐ動作と解したが、侮の字は原文欄にそのまま残し、捂などへの補訂は施さない。また二十打ちは三蔵の命令であり、取りなしが入るまでに何打ちしたかは記されない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch94-1500607"
+      "segment_ids":
+        - "xy-ch94-049"
+      "description_ja": "楚妹は、毛嬙と対に置かれた楚の美女の呼び名と解した。特定の女性や神女の名は本文に明示されず、別の伝承の人物との同一性は断定しない。毛嬙と王嬙は同じ嬙の字を持つが、別の美女を指す。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch94-1500607"
+      "segment_ids":
+        - "xy-ch94-060"
+      "description_ja": "蜜蜂の詞の「淘染」は語義が確定しにくく、採ったものを加工して蜜を醸すという前後の流れから「蜜を練り上げる」と訳した。「名狀」は名と姿を残すと読んだが、句の含意には留保がある。末尾の反語と、働いても自らは味わえないという嘆きを保持する。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch94-1500607"
+      "segment_ids":
+        - "xy-ch94-062"
+      "description_ja": "原文の「邪主」は「邪な主」と訳し、誰を指すかを注で一人に決めつけない。「愛花花」「動念念」の語の反復と、花が災いを、念が憂いを生むという対句の構造を残した。 原文の欠落ではなく、解釈・校訂上の留保。"
+"sections":
+  - "id": "chapter-94"
+    "parent_id": null
+    "kind": "chapter"
+    "heading_segment_ids":
+      - "xy-ch94-001"
+"segments":
+  - "id": "xy-ch94-001"
+    "section_id": "chapter-94"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": |-
+      第九十四回
+      四僧宴樂御花園　一怪空懷情慾喜
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 118
+        "line_end": 119
+    "translation_ja": |-
+      第九十四回
+      四人の僧は御花園で宴を楽しみ、一匹の妖怪は情欲の喜びをむなしく胸に抱く
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-002"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "話表孫行者三人隨著宣召官至午門外，黃門官即時傳奏宣進。他三個齊齊站定，更不下拜。國王問道：「那三位是聖僧駙馬之高徒？姓甚名誰？何方居住？因甚事出家？取何經卷？」行者即近前，意欲上殿。傍有護駕的喝道：「不要走，有甚話，立下奏來。」行者笑道：「我們出家人，得一步就進一步。」隨後八戒、沙僧亦俱近前。長老恐他村魯驚駕，便起身叫道：「徒弟啊，陛下問你來因，你即奏上。」行者見他那師父在傍侍立，忍不住大叫一聲道：「陛下輕人輕己。既招我師為駙馬，如何教他侍立？世間稱女夫謂之貴人，豈有貴人不坐之理。」國王聽說，大驚失色，欲退殿，恐失了觀瞻。只得硬著膽，教近侍的取繡墩來，請唐僧坐了。行者才奏道："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 122
+        "line_end": 122
+    "translation_ja": |-
+      さて、悟空（ごくう）たち三人は召しに来た役人に従って午門（ごもん）の外へ着いた。黄門官（こうもんかん）がただちに取り次ぎ、入るよう命が下った。三人は並んで立ったまま、拝礼もしなかった。
+      国王「そなたたち三人が、聖僧であるお婿殿の高弟か。姓は何、名は何と申す。どこに住み、何があって出家し、どのような経を取りに行くのだ。」
+      悟空が前へ進み、御殿に上がろうとすると、そばの護衛が怒鳴った。
+      護衛「動くな。話があるなら、その場に立って申し上げよ。」
+      悟空は笑った。
+      悟空「我々出家の者は、一歩進めるなら一歩進むものですよ。」
+      八戒（はっかい）と沙悟浄（さごじょう）も後に続いて前へ出た。三蔵（さんぞう）は、弟子たちの無作法が国王を驚かせはしないかと案じ、立ち上がって呼びかけた。
+      三蔵「弟子たちよ、陛下がお前たちの来歴をお尋ねです。すぐに申し上げなさい。」
+      師が脇に立って仕えているのを見た悟空は、たまらず声を張り上げた。
+      悟空「陛下、人を軽んじるのは、ご自分を軽んじることです。師を駙馬（ふば）に迎えたというのに、なぜ脇に立たせておくのです。世間では娘の婿を貴人と呼ぶでしょう。貴人を座らせないなどという道理がありますか。」
+      国王は聞くなり顔色を失った。御殿から引き下がりたかったが、人前で威厳を失うのも恐ろしい。やむなく気を強く持ち、近侍に刺繍の腰掛けを持ってこさせ、三蔵に座ってもらった。そこでようやく悟空が来歴を申し上げた。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-003"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "「老孫祖居東勝神洲傲來國花果山水簾洞。父天母地，石裂吾生。曾拜至人，學成大道。復轉仙鄉，嘯聚在洞天福地。下海降龍，登山擒獸。消死名，上生籍，官拜齊天大聖。玩賞瓊樓，喜遊寶閣。會天仙，日日歌歡；居聖境，朝朝快樂。只因亂卻蟠桃宴，大反天宮，被佛擒伏。困壓在五行山下，饑餐鐵彈，渴飲銅汁，五百年未嘗茶飯。幸我師出東土，拜西方，觀音教令脫天災，離大難，皈正在瑜伽門下。舊諱悟空，稱名行者。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 124
+        "line_end": 124
+    "translation_ja": "悟空「私の故郷は、東勝神洲（とうしょうしんしゅう）、傲来国（ごうらいこく）の花果山（かかざん）、水簾洞（すいれんどう）です。天を父、地を母とし、石が裂けてこの身が生まれました。かつて道を極めた人を師と仰ぎ、大道（だいどう）を学び終えると、仙境の故郷へ帰り、恵まれた洞天（どうてん）に仲間を呼び集めました。海に潜って竜を降し、山に登って獣を捕らえ、死者の名簿から名を消し、長生の名簿へ名を載せ、斉天大聖（せいてんたいせい）に任じられました。玉の楼閣を眺め、宝の御殿を喜んで巡り、天仙（てんせん）たちと会っては日ごとに歌い楽しみ、聖なる境に住んでは朝ごとに喜びを味わいました。ただ、蟠桃（ばんとう）の宴を乱し、天宮（てんきゅう）に大いに逆らったため、仏に捕らえられ、五行山（ごぎょうざん）の下に押し込められたのです。飢えれば鉄の丸を食い、渇けば溶けた銅を飲み、五百年もの間、茶も飯も口にしませんでした。幸い師が東土（とうど）を出て西方へ礼拝に向かわれ、観音（かんのん）のお導きによって天の災いを逃れ、大難を離れ、瑜伽（ゆが）の門下に帰依いたしました。以前からの法名を悟空と申し、行者（ぎょうじゃ）と称しております。」"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-004"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "國王聞得這般名重，慌得下了龍床，走將來，以御手挽定長老道：「駙馬，也是朕之天緣，得遇你這仙姻仙眷。」三藏滿口謝恩，請國王登位。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 125
+        "line_end": 125
+    "translation_ja": |-
+      これほど名高い者と聞いた国王は、慌てて玉座を降り、三蔵のところへ歩み寄った。そして自らの手でしっかりと三蔵を取り、言った。
+      国王「お婿殿、これも朕に天の授けた縁であろう。そなたという仙人の婿、仙人の親族を迎えられるとは。」
+      三蔵はしきりに恩を謝し、国王に玉座へ戻るようお願いした。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-005"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "復問：「那位是第二高徒？」八戒掬嘴揚威道："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 127
+        "line_end": 127
+    "translation_ja": |-
+      国王「それでは、二番目の高弟はどなたかな。」
+      八戒は口を突き出し、威勢を示して語った。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-006"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "「老豬先世為人，貪歡愛懶。一生混沌，亂性迷心。未識天高地厚，難明海闊山遙。正在幽閑之際，忽然遇一真人。半句話，解開孽網；兩三言，劈破災門。當時省悟，立地投師，謹修二八之工夫，敬煉三三之前後。行滿飛昇，得超天府。荷蒙玉帝厚恩，官賜天蓬元帥，管押河兵，逍遙漢闕。只因蟠桃酒醉，戲弄嫦娥，謫官銜，遭貶臨凡；錯投胎，托生豬像。住福陵山，造惡無邊。遇觀音，指明善道。皈依佛教，保護唐僧。徑往西天，拜求妙典。法諱悟能，稱為八戒。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 129
+        "line_end": 129
+    "translation_ja": "八戒「俺は前の世では人間で、遊びと怠けることが大好きでした。一生ぼんやりと過ごし、性を乱して心を迷わせ、天の高さも地の厚さも知らず、海の広さも山の遠さも分かりませんでした。そうして気ままに暮らしていたころ、ふと一人の真人（しんじん）に出会ったのです。半句の言葉で罪の網が解かれ、二言三言で災いの門が打ち破られました。俺はその場で悟り、ただちに弟子入りし、謹んで二八（にはち）の修練を行い、うやうやしく三三（さんさん）の前後を練りました。修行が満ちると飛び立って天の府へ昇り、玉帝（ぎょくてい）の厚いお恵みを受け、天蓬元帥（てんぽうげんすい）の官職を授かりました。天の川の水軍を指揮し、天宮で気ままに暮らしていたのです。ところが蟠桃の酒に酔い、嫦娥（じょうが）に戯れかかったため、官位を落とされて下界へ流されました。生まれ変わる胎を間違え、豚の姿に生まれてしまったのです。福陵山（ふくりょうざん）に住み、限りもなく悪事を重ねていましたが、観音にお会いして善い道を示され、仏教に帰依いたしました。唐（とう）の僧をお守りして、まっすぐ西天（さいてん）へ向かい、尊い経典を拝み求めております。法名は悟能（ごのう）、八戒と呼ばれております。」"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-007"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "國王聽言，膽戰心驚，不敢觀覷。這獃子越弄精神，搖著頭，掬著嘴，撐起耳朵，呵呵大笑。三藏又怕驚駕，即叱道：「八戒收斂！」方才叉手拱立，假扭斯文。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 131
+        "line_end": 131
+    "translation_ja": |-
+      国王は聞いて肝を冷やし、八戒をまともに見ることもできなかった。八戒はますます調子に乗り、頭を振り、口を突き出し、耳を立てて、はっはっと大笑いした。三蔵はまた国王が驚くのを案じ、叱りつけた。
+      三蔵「八戒、慎みなさい！」
+      そこでやっと八戒は手を胸の前に組み、お行儀のよいふりをして立った。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-008"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "又問：「第三位高徒，因甚皈依？」沙和尚合掌道："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 133
+        "line_end": 133
+    "translation_ja": |-
+      国王「三番目の高弟は、何があって帰依したのだ。」
+      沙悟浄は合掌して答えた。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-009"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "「老沙原係凡夫，因怕輪迴訪道。雲遊海角，浪蕩天涯。常得衣缽隨身，每煉心神在舍。因此虔誠，得逢仙侶。養就孩兒，配緣姹女。工滿三千，合和四相。超天界，拜玄穹，官授捲簾大將，侍御鳳輦龍車，封號將軍。也為蟠桃會上，失手打破玻璃盞，貶在流沙河，改頭換面，造孽傷生。幸喜菩薩遠遊東土，勸我皈依，等候唐朝佛子，往西天求經果正。從立自新，復修大覺。指河為姓，法諱悟淨，稱名和尚。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 134
+        "line_end": 134
+    "translation_ja": "沙悟浄「私ももとは凡人でしたが、輪廻を恐れて道を訪ねました。海の果てまで雲のように旅し、地の果てまでさすらい、いつも衣と鉢を携え、心と神を身の内に保って鍛えました。その真心によって仙人の友に巡り会い、孩児（がいじ）を養い成し、姹女（たじょ）と結び合わせ、三千の功を満たして四相（しそう）を一つに調えました。天界へ昇り、玄穹（げんきゅう）に拝謁し、捲簾大将（けんれんたいしょう）に任じられ、天子の鳳輦（ほうれん）や竜車（りゅうしゃ）のそばに仕え、将軍の号を授かりました。しかし私も蟠桃の宴で手を滑らせ、玻璃（はり）の杯を割ってしまい、流沙河（りゅうさが）へ落とされたのです。姿も顔も変わり、罪を重ねて生き物を害しました。幸い菩薩が遠く東土へ旅をなさった折、帰依をお勧めくださり、唐から来る仏弟子を待って、西天へ経を求め、正しい果を得るようお教えくださいました。それから心を入れ替え、再び大覚（だいかく）を修めております。川にちなんだ姓を定め、法名を悟浄（ごじょう）、和尚（おしょう）と称しております。」"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-010"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "國王見說，多驚多喜：喜的是女兒招了活佛，驚的是三個實乃妖神。正在驚喜之間，忽有正臺陰陽官奏道：「婚期已定本年本月十二日壬子辰良，周堂通利，宜配婚姻。」國王道：「今日是何日辰？」陰陽官奏：「今日初八，乃戊申之日，猿猴獻果，正宜進賢納事。」國王大喜，即著當駕官打掃御花園館閣樓亭，且請駙馬同三位高徒安歇，待後安排合巹佳筵，著公主匹配。眾等欽遵，國王退朝，多官皆散不題。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 136
+        "line_end": 136
+    "translation_ja": |-
+      国王はその話に、驚くと同時に大いに喜んだ。娘が生き仏を婿に迎えたのはうれしいが、三人の弟子はまさしく妖神なのが恐ろしい。その驚きと喜びのさなか、暦をつかさどる役所の陰陽官（おんようかん）が進み出て申し上げた。
+      陰陽官「婚礼の日は、今年今月十二日、壬子（じんし）の吉日と定まりました。周堂（しゅうどう）もすべて差し障りがなく、婚姻に適しております。」
+      国王「今日は何日で、どの干支に当たるのだ。」
+      陰陽官「今日は八日、戊申（ぼしん）の日でございます。猿が果実を献じる日に当たり、賢人を迎え、用件をお受けになるのにちょうどよろしゅうございます。」
+      国王は大喜びし、御前の役人に命じて御花園（ぎょかえん）の館、楼閣、あずまやを清めさせた。そしてひとまず婿と三人の高弟にそこで休んでもらい、後に合巹（ごうきん）の盛大な宴を整えて、王女と夫婦にさせることにした。一同は謹んで命に従った。国王は朝議を終え、役人たちもみな退出した。こちらの話はいったん置こう。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-011"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "卻說三藏師徒們都到御花園，天色漸晚，擺了素膳。八戒喜道：「這一日也該吃飯了。」管辦人即將素米飯、麵飯等物，整擔挑來。那八戒吃了又添，添了又吃，直吃得撐腸拄腹，方才住手。少頃，又點上燈，設鋪蓋，各自歸寢。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 138
+        "line_end": 138
+    "translation_ja": |-
+      さて、三蔵一行はそろって御花園に入った。日が暮れてくると精進料理が並んだ。
+      八戒は喜んだ。
+      八戒「今日もようやく飯にありつけるってわけだ！」
+      世話役たちは、精進の米飯や小麦粉の料理などを天秤棒いっぱいに担いで運んできた。八戒は食べてはお代わりし、お代わりしては食べ、腸も腹も張りきるまで詰め込んで、ようやく手を止めた。やがて明かりがともされ、寝具も整えられ、それぞれ寝所へ入った。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-012"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "長老見左右無人，卻恨責行者，怒聲叫道：「悟空，你這猢猻，番番害我。我說只去倒換關文，莫向彩樓前去，你怎麼直要引我去看看？如今看得好麼，卻惹出這般事來，怎生是好？」行者陪笑道：「師父說：『先母也是拋打繡毬，遇舊緣，成其夫婦。』似有慕古之意，老孫才引你去。又想著那個給孤布金寺長老之言，就此檢視真假。適見那皇帝之面，略有些晦暗之色，但只未見公主何如耳。」長老道：「你見公主便怎的？」行者道：「老孫的火眼金睛，但見面，就認得真假善惡，富貴貧窮，卻好施為，辨明邪正。」沙僧與八戒笑道：「哥哥近日又學得會相面了。」行者道：「相面之士，當我孫子罷了。」三藏喝道：「且休調嘴。只是他如今定要招我，果何以處之？」行者道：「且到十二日會喜之時，必定那公主出來參拜父母，等老孫在傍觀看。若還是個真女人，你就做了駙馬，享用國內之榮華也罷。」三藏聞言，越生嗔怒，罵道：「好猢猻！你還害我哩。卻是悟能說的，我們十節兒已上了九節七八分了，你還把熱舌頭鐸我。快早夾著，你休開那臭口；再若無禮，我就念起咒來，教你了當不得。」行者聽說念咒，慌得跪在面前道：「莫念，莫念。若是真女人，待拜堂時，我們一齊大鬧皇宮，領你去也。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 139
+        "line_end": 139
+    "translation_ja": |-
+      三蔵は周りに人がいなくなったのを見ると、恨めしげに悟空を責め、怒鳴った。
+      三蔵「悟空、この猿め。お前はいつも私を困らせる。私は通行文書の手続きだけをしに行き、飾り楼の前へは行くなと言ったのに、どうしてぜひ見物しようと連れていったのです。さあ、見物してよかったか。こんな面倒を起こしてしまって、いったいどうするのだ。」
+      悟空は愛想笑いを浮かべた。
+      悟空「お師匠さまは『亡き母も繍毬（しゅうきゅう）を投げ、前世からの縁に出会って夫婦となった』とおっしゃいました。昔を慕うお気持ちでもあるのかと思って、俺はお連れしたんですよ。それに給孤布金寺（ぎっこふきんじ）の長老の話も思い出して、これを機に本物か偽物か見極めようとしたのです。さっきあの王さまの顔を見たら、少し暗い相が出ていました。ただ、王女がどんな様子なのかはまだ見ていません。」
+      三蔵「王女を見たら、どうするというのです。」
+      悟空「俺の火眼金睛（かがんきんせい）なら、顔を見るだけで真偽も善悪も、富貴も貧窮も分かります。それでこそ手の打ちようもあり、邪と正をはっきり見分けられるんですよ。」
+      沙悟浄と八戒は笑った。
+      沙悟浄と八戒「兄貴、近ごろは人相を見る術まで覚えたのか。」
+      悟空「人相見なんて、俺の孫にしかなれないね。」
+      三蔵「口先でふざけるのはやめなさい。王はどうしても私を婿にするつもりなのです。結局どう対処するのだ。」
+      悟空「十二日の祝いの日まで待ちましょう。王女はきっと出てきて父母に拝礼するでしょうから、俺がそばで見ておきます。本物の女だったら、お師匠さまは駙馬になって、この国の栄華を楽しむのもよいでしょう。」
+      三蔵は聞くと、いよいよ怒りを募らせて罵った。
+      三蔵「よくも言ったな、この猿め！　まだ私を苦しめるつもりか。悟能も言ったとおり、十の道のりのうち、もう九と七、八分まで来たというのに、その熱い舌で私をからかうのか。さっさと口を閉じなさい。その臭い口を開くな。これ以上無礼をするなら、呪文を唱え、お前をひどい目に遭わせますよ。」
+      呪文と聞いた悟空は、慌てて師の前にひざまずいた。
+      悟空「唱えないでください、唱えないで。本物の女だったら、婚礼の拝礼が始まるときに、俺たちみんなで皇宮に大騒ぎを起こして、お師匠さまを連れ出しますから。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-013"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "師徒說話，不覺早已入更。正是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 140
+        "line_end": 140
+    "translation_ja": "師弟が話しているうちに、いつの間にか初更（しょこう）に入っていた。まさに、こんなありさまである。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-014"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "沉沉宮漏，廕廕花香。繡戶垂珠箔，閑庭絕火光。鞦韆索冷空留影，羌笛聲殘靜四方。繞屋有花籠月燦，隔空無樹顯星芒。杜鵑啼歇，蝴蝶夢長。銀漢橫天宇，白雲歸故鄉。正是離人情切處，風搖嫩柳更淒涼。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 142
+        "line_end": 142
+    "translation_ja": |-
+      宮中の水時計は夜深く時を刻み、花の香りはひそやかに漂う。
+      飾り戸には珠の簾が垂れ、静かな庭から火の光が消える。
+      ぶらんこの綱は冷え、ただ影だけを残し、羌笛（きょうてき）の余韻も絶えて四方は静まる。
+      屋を巡る花々は明るい月光を包み、空を遮る木のないところには星の光が現れる。
+      ほととぎすは鳴きやみ、蝶の夢は長く続く。
+      天の川は大空を横切り、白雲は故郷へ帰ってゆく。
+      まさしく故郷を離れた者の思いが胸に迫るとき、風に揺れる若柳がいっそうもの寂しい。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-015"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "八戒道：「師父，夜深了，有事明早再議，且睡，且睡。」師徒們果然安歇一宵。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 144
+        "line_end": 144
+    "translation_ja": |-
+      八戒「お師匠さま、夜も更けました。話があるなら明日の朝にしましょう。寝よう、寝よう。」
+      こうして師弟は、一晩ゆっくりと休んだ。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-016"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "早又金雞唱曉。國王即登殿設朝。但見："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 146
+        "line_end": 146
+    "translation_ja": "早くも鶏が暁を告げ、国王は御殿に上がって朝議を開いた。そのありさまは、"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-017"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      宮殿開軒紫氣高，風吹御樂透青霄。
+      雲移豹尾旌旗動，日射螭頭玉珮搖。
+      香霧細添宮柳綠，露珠微潤苑花嬌。
+      山呼舞蹈千官列，海晏河清一統朝。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 148
+        "line_end": 151
+    "translation_ja": |-
+      宮殿の扉が開き、紫の瑞気（ずいき）が高く昇り、風に乗る宮廷の音楽は青空を貫く。
+      雲が移ると豹尾の旗がなびき、日が差すと角のない竜の頭の飾りを照らし、玉の佩び物が揺れる。
+      香りの霧は宮中の柳の緑をそっと深め、露の粒は苑の花をかすかに潤す。
+      万歳を唱えて舞い拝する千官が並ぶ。海は穏やか、黄河（こうが）は澄み、一つに治まる朝廷。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-018"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "眾文武百官朝罷，又宣：「光祿寺安排十二日會喜佳筵。今日且整春罍，請駙馬在御花園中款玩。」吩咐儀制司領三位賢親去會同館少坐，著光祿寺安排三席素宴去彼奉陪。兩處俱著教坊司奏樂，伏侍賞春景，消遲日也。八戒聞得，應聲道：「陛下，我師徒自相會，更無一刻相離。今日既在御花園飲宴，帶我們去耍兩日，好教師父替你家做駙馬；不然，這個買賣生意弄不成。」那國王見他醜陋，說話粗俗，又見他扭頭捏頸，掬嘴巴，搖耳朵，即像有些風氣，猶恐攪破親事，只得依從。便教：「在永鎮華夷閣裡安排二席，我與駙馬同坐。留春亭上安排三席，請三位別坐，恐他師徒們坐次不便。」那獃子才朝上唱個喏，叫聲：「多謝。」各各而退。又傳旨教內宮官排宴，著三宮六院后妃與公主上頭，就為添妝餪子，以待十二日佳配。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 152
+        "line_end": 152
+    "translation_ja": |-
+      文武百官の朝拝が済むと、国王はさらに命を下した。
+      国王「光禄寺（こうろくじ）は十二日の祝いの宴を整えよ。今日はひとまず春の酒を用意し、お婿殿に御花園でゆっくり楽しんでもらおう。」
+      そして儀制司（ぎせいし）には三人の親族を会同館（かいどうかん）へ案内してしばらく休ませるよう命じ、光禄寺には三卓の精進の宴を用意して、そちらへ出向いて相伴するよう言いつけた。両方の席で教坊司（きょうぼうし）に演奏させ、春の景色を楽しみ、長い春の日を過ごせるよう世話をさせるのである。
+      八戒はそれを聞き、すぐ口を挟んだ。
+      八戒「陛下、俺たち師弟は一緒になってから、片時も離れたことがありません。今日、御花園で酒盛りをするなら、俺たちも連れていって二日ばかり遊ばせてくださいよ。そうすれば師匠をお宅のお婿さんにしてやれます。そうでなければ、この商売はまとまりませんぜ。」
+      国王は、その醜い姿に粗野な物言い、さらに頭と首をひねり、口を突き出して耳を動かす様子を見て、どこか気が変になっているようだと思った。縁談を壊されるのも恐ろしく、仕方なく言い分に従った。
+      国王「永鎮華夷閣（えいちんかいかく）に二卓を整え、私とお婿殿が一緒に座ることにしよう。留春亭（りゅうしゅんてい）には三卓を設け、そなたたち三人には別に座ってもらう。師弟が一緒では席順に不都合があるかもしれぬからな。」
+      それでようやく八戒は国王に向かって声を上げて礼をした。
+      八戒「ありがたいことです。」
+      一同はそれぞれ退出した。国王はまた、内宮の役人に宴を用意させ、三宮六院（さんぐうりくいん）の后妃たちに王女の髪を婚礼の形に結わせた。嫁入り道具を添え、餪子（だんし）の祝いをして、十二日の佳き婚姻を待つのである。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-019"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "將有巳時前後，那國王排駕，請唐僧都到御花園內觀看。好去處："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 154
+        "line_end": 154
+    "translation_ja": "巳の刻（みのこく）の前後になると、国王は行列を整え、三蔵を誘って、一緒に御花園の中を見て回った。そこはまことによいところであった。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-020"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "徑鋪彩石，檻鑿雕欄。徑鋪彩石，徑邊石畔長奇葩；檻鑿雕欄，檻外欄中生異卉。夭桃迷翡翠，嫩柳閃黃鸝。步覺幽香來袖滿，行沾清味上衣多。鳳臺龍沼，竹閣松軒。鳳臺之上，吹簫引鳳來儀；龍沼之間，養魚化龍而去。竹閣有詩，費盡推敲裁白雪；松軒文集，考成珠玉註青編。假山拳石翠，曲水碧波深。牡丹亭，薔薇架，疊錦鋪絨；茉藜檻，海棠畦，堆霞砌玉。芍藥異香，蜀葵奇豔。白梨紅杏鬥芳菲，紫蕙金萱爭爛熳。麗春花、木筆花、杜鵑花，夭夭灼灼；含笑花、鳳仙花、玉簪花，戰戰巍巍。一處處紅透胭脂潤，一叢叢芳濃錦繡圍。更喜東風回煖日，滿園嬌媚逞光輝。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 155
+        "line_end": 155
+    "translation_ja": |-
+      小道には彩りの石を敷き、柵には彫りの欄干を巡らす。
+      小道には彩りの石を敷き、道の脇、石のそばには珍しい花が咲く。
+      柵には彫りの欄干を巡らし、柵の外にも欄の中にも不思議な草花が茂る。
+      若い桃の花にカワセミは迷い、柔らかな柳の間にはコウライウグイスがちらつく。
+      一歩ごとに奥ゆかしい香りが袖に満ち、歩けば清らかな気配が衣に染みる。
+      鳳台（ほうだい）に竜沼（りゅうしょう）、竹の楼閣に松のあずまや。
+      鳳台の上では簫（しょう）を吹き、鳳凰（ほうおう）を招いてその美しい姿を現させる。
+      竜沼では魚を養い、魚は竜と化して去ってゆく。
+      竹の楼閣には詩があり、推敲を尽くして白雪（はくせつ）のような高雅な調べを綴る。
+      松のあずまやには文章が集い、珠玉の作を吟味して青い竹簡に記す。
+      築山の小さな石は青く、曲がり流れる水の碧い波は深い。
+      牡丹のあずまや、薔薇の棚には、錦を重ね、柔らかな織物を敷いたよう。
+      茉藜（まつり）の柵、海棠の畑には、霞を積み、玉を並べたよう。
+      シャクヤクは格別の香りを放ち、タチアオイは目を見張るほど艶やかだ。
+      白い梨の花と赤い杏の花は芳しさを競い、紫の蕙（けい）と金色のカンゾウは咲き盛る美を争う。
+      麗春花（れいしゅんか）、木筆花（もくひつか）、ツツジの花は、若々しく、照り輝く。
+      含笑花（がんしょうか）、ホウセンカ、ギボウシの花は、揺れ動き、すらりと立つ。
+      あちらでもこちらでも紅は紅粉のように潤い、群れ咲く花の濃い香りを錦繍が取り巻く。
+      何よりうれしいのは東風が暖かな日を連れ戻すこと。庭いっぱいの艶やかさが、競って光を放っている。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-021"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "一行君王幾位，觀之良久。早有儀制司官邀請行者三人入留春亭，國王攜唐僧上華夷閣，各自飲宴。那歌舞吹彈，鋪張陳設，真是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 157
+        "line_end": 157
+    "translation_ja": "国王をはじめとする一行は、長い間その景色を眺めた。やがて儀制司の役人が悟空たち三人を留春亭へ招き入れ、国王は三蔵を連れて華夷閣（かいかく）へ上がった。こうして別々に宴を楽しんだ。歌や舞、笛や弦の音、その盛大なしつらえは、まさに、"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-022"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      崢嶸閶闔曙光生，鳳閣龍樓瑞靄橫。
+      春色細鋪花草繡，天光遙射錦袍明。
+      笙歌繚繞如仙宴，杯斝飛傳玉液清。
+      君悅臣歡同玩賞，華夷永鎮世康寧。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 159
+        "line_end": 162
+    "translation_ja": |-
+      高くそびえる宮門に暁の光が生まれ、鳳閣（ほうかく）、竜楼（りゅうろう）にはめでたい靄がたなびく。
+      春の色は花草の錦繍を細やかに敷き、天の光は遠くから錦の袍を明るく照らす。
+      笙（しょう）と歌声が巡るさまは仙人の宴のよう、杯は飛ぶように回り、玉の酒は澄み渡る。
+      君も喜び、臣も楽しみ、ともに景色を眺める。内外の国々は永く鎮まり、世は安らかだ。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-023"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "此時長老見那國王敬重，無計可奈，只得勉強隨喜，誠是外喜而內憂也。坐間見壁上掛著四面金屏，屏上畫著春夏秋冬四景，皆有題詠，皆是翰林名士之詩："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 164
+        "line_end": 164
+    "translation_ja": "国王にこれほど丁重に扱われては、三蔵にもどうしようもなく、無理にでも喜ぶそぶりをするしかなかった。まことに顔は喜び、心は憂えていたのである。座っていると、壁に四面の金屏風が掛かっているのが見えた。それぞれ春夏秋冬の景色が描かれ、どれにも詩が題されていた。すべて翰林（かんりん）の名士たちの作品である。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-024"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "《春景詩》曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 166
+        "line_end": 166
+    "translation_ja": "「春の景色を詠む詩」には、こうある。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-025"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      周天一氣轉洪鈞，大地熙熙萬象新。
+      桃李爭妍花爛熳，燕來畫棟疊香塵。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 167
+        "line_end": 168
+    "translation_ja": |-
+      天を巡る一つの気が造化（ぞうか）の大きなろくろを回し、大地は和らぎ、万物は新たになる。
+      桃と李は美を競って咲き誇り、燕が彩りの梁へ来て、香る塵を幾重にも運ぶ。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-026"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "《夏景詩》曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 170
+        "line_end": 170
+    "translation_ja": "「夏の景色を詠む詩」には、こうある。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-027"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      薰風拂拂思遲遲，宮院榴葵映日輝。
+      玉笛音調驚午夢，芰荷香散到庭幃。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 172
+        "line_end": 173
+    "translation_ja": |-
+      薫る南風はそよそよと吹き、思いはゆったりと漂う。宮中の庭ではザクロとアオイが日に映えて輝く。
+      玉の笛の調べが昼の夢を破り、ヒシとハスの香りは庭の帳まで流れてくる。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-028"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "《秋景詩》曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 175
+        "line_end": 175
+    "translation_ja": "「秋の景色を詠む詩」には、こうある。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-029"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      金井梧桐一葉黃，珠簾不捲夜來霜。
+      燕知社日辭巢去，鴈折蘆花過別鄉。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 177
+        "line_end": 178
+    "translation_ja": |-
+      飾りの井戸のそばで青桐の一葉が黄ばみ、珠の簾は巻かれぬまま、夜には霜が降りる。
+      燕は社日（しゃにち）を知って巣を辞し、雁は葦の花を折り取り、よその里へ渡ってゆく。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-030"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "《冬景詩》曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 180
+        "line_end": 180
+    "translation_ja": "「冬の景色を詠む詩」には、こうある。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-031"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      天雨飛雲暗淡寒，朔風吹雪積千山。
+      深宮自有紅爐暖，報道梅開玉滿欄。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 182
+        "line_end": 183
+    "translation_ja": |-
+      天から雨が降り、雲は飛び、薄暗く寒い。北風が雪を吹き、幾千もの山に積もらせる。
+      奥深い宮殿には紅く燃える炉の暖かさがある。梅が開き、欄干いっぱいに玉の花が咲いたと知らせが来る。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-032"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那國王見唐僧恣意看詩，便道：「駙馬喜玩詩中之味，必定善於吟哦。如不吝珠玉，請依韻各和一首如何？」長老是個對景忘情，明心見性之意。見國王欽重，命和前韻，他不覺忽詠一句道：「日暖冰消大地鈞。」國王大喜，即召侍衛官：「取文房四寶，請駙馬和完錄下，俟朕緩緩味之。」長老欣然不辭，舉筆而和："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 185
+        "line_end": 185
+    "translation_ja": |-
+      三蔵が心ゆくまで詩を眺めているのを見て、国王は言った。
+      国王「お婿殿は、詩の味わいを楽しんでおられる。きっとご自身も詠むのがお得意であろう。珠玉の作を惜しまず、それぞれ同じ韻で一首ずつ和していただけまいか。」
+      三蔵には、景色に向かえば俗情を忘れ、心を明らかにして本性を見ようとする思いがあった。国王に尊重され、先の韻に和するよう頼まれると、思わず一節を口にした。
+      三蔵「日は暖かく、氷は消え、大地は調う。」
+      国王は大喜びし、近衛の役人を呼びつけた。
+      国王「文房四宝（ぶんぼうしほう）を持ってまいれ。お婿殿に最後まで詠んで書き留めていただき、朕は後でゆっくりと味わうことにしよう。」
+      三蔵は喜んで引き受け、筆を取って和した。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-033"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "《和春景詩》曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 187
+        "line_end": 187
+    "translation_ja": "「春の景色の詩に和す」には、こうある。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-034"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      日暖冰消大地鈞，御園花卉又更新。
+      和風膏雨民沾澤，海晏河清絕俗塵。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 189
+        "line_end": 190
+    "translation_ja": |-
+      日は暖かく、氷は消え、大地は調う。御苑の花々も、また新しくなる。
+      和やかな風と恵みの雨に民は潤い、海は静まり、黄河は澄み、俗世の塵は絶える。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-035"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "《和夏景詩》曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 192
+        "line_end": 192
+    "translation_ja": "「夏の景色の詩に和す」には、こうある。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-036"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      斗指南方白晝遲，槐雲榴火鬥光輝。
+      黃鸝紫燕啼宮柳，巧轉雙聲入絳幃。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 194
+        "line_end": 195
+    "translation_ja": |-
+      北斗（ほくと）は南を指し、昼は長い。雲のように茂るエンジュと、火のようなザクロの花が輝きを競う。
+      黄色いコウライウグイスと紫の燕が宮中の柳で鳴き、二つの声を巧みに転がし、紅い帳の内へ届ける。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-037"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "《和秋景詩》曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 197
+        "line_end": 197
+    "translation_ja": "「秋の景色の詩に和す」には、こうある。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-038"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      香飄橘綠與橙黃，松柏青青喜降霜。
+      籬菊半開攢錦繡，笙歌韻徹水雲鄉。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 199
+        "line_end": 200
+    "translation_ja": |-
+      緑の橘と黄色い橙の香りが漂い、松と柏は青々と、降りる霜を喜ぶ。
+      垣根の菊は半ば開き、錦繍を寄せ集めたよう。笙と歌の調べは、水と雲の里へ響き渡る。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-039"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "《和冬景詩》曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 202
+        "line_end": 202
+    "translation_ja": "「冬の景色の詩に和す」には、こうある。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-040"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      瑞雪初晴氣味寒，奇峰巧石玉團山。
+      爐燒獸炭煨酥酪，袖手高歌倚翠欄。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 203
+        "line_end": 204
+    "translation_ja": |-
+      めでたい雪の後、空は晴れ初め、冷たい気配が漂う。珍しい峰と巧みな形の岩は、玉を固めた山となる。
+      炉には獣炭（じゅうたん）を燃やし、酥（そ）と酪（らく）を温める。両手を袖に入れ、高らかに歌い、翠の欄干にもたれる。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-041"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "國王見和大喜，稱唱道：「好個『袖手高歌倚翠欄』！」遂命教坊司以新詩奏樂，盡日而散。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 206
+        "line_end": 206
+    "translation_ja": |-
+      和した詩を見て国王は大喜びし、声に出して褒めた。
+      国王「『両手を袖に入れ、高らかに歌い、翠の欄干にもたれる』とは、なんとよい句だ！」
+      そして教坊司に命じ、その新しい詩を音楽に乗せて奏でさせた。こうして一日中楽しみ、宴はお開きとなった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-042"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "行者三人在留春亭亦盡受用，各飲了幾杯，也都有些酣意。正欲去尋長老，只見長老已同國王在一閣。八戒獃性發作，應聲叫道：「好快活，好自在，今日也受用這一下了。卻該趁飽兒睡覺去也。」沙僧笑道：「二哥忒沒修養。這氣飽飫，如何睡覺？」八戒道：「你那裡知道，俗語云：『吃了飯兒不挺屍，肚裡沒板脂』哩。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 208
+        "line_end": 208
+    "translation_ja": |-
+      悟空たち三人も留春亭で存分にもてなされ、それぞれ数杯ずつ飲んで、いくらか酔いが回っていた。三蔵を探しに行こうとすると、師はすでに国王と同じ楼閣にいるのが見えた。八戒はいつもの無邪気な性分を出し、いきなり叫んだ。
+      八戒「ああ、愉快だ、気楽だ！　今日は俺もたっぷり楽しませてもらった。腹の満ちているうちに、寝に行くとしようぜ。」
+      沙悟浄は笑った。
+      沙悟浄「二番目の兄貴、ずいぶん修養が足りませんね。こんなに腹がいっぱいで、どうして眠れるのです。」
+      八戒「お前には分からねえな。ことわざにも『飯を食って死体のように横にならなきゃ、腹に脂はつかぬ』っていうだろうが。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-043"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "唐僧與國王相別，至亭內，嗔責八戒道：「這夯貨，越發村了。這是甚麼去處，只管大呼小叫？倘或惱著國王，卻不被他傷害性命？」八戒道：「沒事，沒事。我們與他親家禮道的，他便不好生怪。常言道：『打不斷的親，罵不斷的鄰。』大家耍子，怕他怎的？」長老叱道，教拿過獃子來，打他二十禪杖。行者果一把揪翻，長老舉杖就打。獃子喊叫道：「駙馬爺爺，饒罪，饒罪。」傍有陪宴官勸住。獃子爬將起來，突突囔囔的道：「好貴人，好駙馬，親還未成，就行起王法來了。」行者侮著他嘴道：「莫胡說，莫胡說，快早睡去。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 210
+        "line_end": 210
+    "translation_ja": |-
+      三蔵は国王と別れて亭へ戻ると、八戒を怒って責めた。
+      三蔵「このろくでなし、ますます無作法になるばかりだ。ここをどこだと思って、大声でわめいているのです。もし国王を怒らせたら、命を取られてしまうではないか。」
+      八戒「平気、平気。俺たちは向こうと姻戚の間柄なんだから、あちらもひどくは怒れませんよ。昔から『殴っても切れない親戚、罵っても切れない隣近所』と言います。みんなで遊んでるだけなのに、何を怖がることがありますか。」
+      三蔵は叱りつけ、八戒を引っ立てて、禅杖（ぜんじょう）で二十打ち打つよう命じた。悟空が本当にひとつかみにして引き倒すと、三蔵は杖を振り上げて打ち始めた。
+      八戒「駙馬の旦那さま、どうかお許しを、お許しを！」
+      そばにいた相伴の役人が取りなしてやめさせた。八戒は這うように起き上がり、ぶつぶつとこぼした。
+      八戒「結構な貴人さま、結構な駙馬さまだ。まだ婚礼もしないうちから、もう王法を振りかざすとはね。」
+      悟空は八戒の口を押さえた。
+      悟空「くだらんことを言うな、言うな。さっさと寝に行け。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-044"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "他們又在留春亭住了一宿。到明早，依舊宴樂。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 212
+        "line_end": 212
+    "translation_ja": "一行はまた留春亭で一晩を過ごした。翌朝になると、やはり宴の楽しみが続いた。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-045"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "不覺樂了三四日，正值十二日佳辰。有光祿寺三部各官回奏道：「臣等自八日奉旨，駙馬府已修完，專等妝奩鋪設。合巹宴亦已完備，葷素共五百餘席。」國王心喜，欲請駙馬赴席，忽有內宮官對御前啟奏道：「萬歲，正宮娘娘有請。」國王遂退入內宮，只見那三宮皇后、六院嬪妃，引領著公主，都在昭陽宮談笑。真個是花團錦簇，那一片富麗妖嬈，真勝似天堂月殿，不亞於仙府瑤宮。有喜會佳姻新詞四首為證。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 213
+        "line_end": 213
+    "translation_ja": |-
+      いつしか三日四日と楽しむうちに、十二日の佳き日が来た。光禄寺三部の役人たちが復命した。
+      役人たち「私どもは八日にご命令を受け、駙馬のお屋敷の修繕を済ませました。あとは嫁入り道具を運び込んで据えるのを待つばかりです。合巹の宴も整い、肉料理と精進料理を合わせて五百余りの卓をご用意しております。」
+      国王はうれしくなり、婿を宴席に招こうとした。そこへ内宮の役人が御前に出て申し上げた。
+      内宮の役人「陛下、正宮（せいぐう）の皇后さまがお呼びでございます。」
+      国王は内宮へ引き下がった。見ると、三宮の皇后、六院の妃たちは偽の王女を伴い、みな昭陽宮（しょうようきゅう）で談笑している。まことに花が群れ、錦が寄り集まったよう。その富み栄えた艶やかさは、天上の月の宮にも勝り、仙人の玉の宮殿にも劣らなかった。ここに「喜・会・佳・姻」の祝いの新しい詞四首を挙げて、その証しとしよう。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-046"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "《喜詞》云："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 215
+        "line_end": 215
+    "translation_ja": "「喜の詞」にいう。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-047"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "喜喜喜，欣然樂矣。結婚姻，恩愛美。巧樣宮妝，嫦娥怎比。龍釵與鳳釵，豔豔飛金縷。櫻唇皓齒朱顏，嬝娜如花輕體。錦重重，五彩叢中；香拂佛，千金隊裡。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 217
+        "line_end": 217
+    "translation_ja": |-
+      喜び、喜び、喜び。うれしく、楽しいことよ。
+      婚姻を結び、愛情は美しく深い。
+      巧みに工夫した宮中の装いに、嫦娥もどうして比べられよう。
+      竜のかんざし、鳳のかんざし、金の糸はきらきらと飛ぶよう。
+      サクランボのような唇、白い歯、紅の顔、花のようにしなやかで軽やかな身。
+      錦は幾重にも重なり、五彩の群れの中にある。
+      香りはほのかに漂い、高貴な娘たちの列を包む。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-048"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "《會詞》云："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 219
+        "line_end": 219
+    "translation_ja": "「会の詞」にいう。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-049"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "會會會，妖嬈嬌媚。賽毛嬙，欺楚妹。傾國傾城，比花比玉。妝飾更鮮妍，釵環多豔麗。蘭心蕙性清高，粉臉冰肌榮貴。黛眉一線遠山微，窈窕嫣姌攢錦隊。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 221
+        "line_end": 221
+    "translation_ja": |-
+      集い、集い、集い。艶めかしく、愛らしい。
+      毛嬙（もうしょう）にも勝り、楚妹（そまい）をも凌ぐ。
+      国も城も傾ける美しさ、花にも玉にも比べられよう。
+      装いはひときわ鮮やかで、かんざしも耳飾りも艶やかだ。
+      蘭や蕙のような心根は清く高く、粉を施した顔と氷のような肌は栄え貴い。
+      細く引いた眉は遠山のほのかな姿、しとやかな美女たちが錦の列に集まっている。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-050"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "《佳詞》云："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 223
+        "line_end": 223
+    "translation_ja": "「佳の詞」にいう。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-051"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "佳佳佳，玉女仙娃。深可愛，實堪誇。異香馥郁，脂粉交加。天臺福地遠，怎似國王家。笑語紛然嬌態，笙歌繚繞喧嘩。花堆錦砌千般美，看遍人間怎若他。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 225
+        "line_end": 225
+    "translation_ja": |-
+      佳し、佳し、佳し。玉の乙女、仙人の娘。
+      深く愛らしく、まことに褒めたたえるに足りる。
+      不思議なよい香りが豊かに漂い、紅と白粉はとりどりに重なる。
+      天台（てんだい）の仙境は遠く、どうしてこの国王の家に並べよう。
+      笑い声、語る声は入り乱れて愛らしく、笙と歌は巡り響いてにぎやかだ。
+      花を積み、錦を重ねた千様の美。人の世を見尽くしても、どうしてここに及ぶだろう。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-052"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "《姻詞》云："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 227
+        "line_end": 227
+    "translation_ja": "「姻の詞」にいう。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-053"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "姻姻姻，蘭麝香噴。仙子陣，美人群。嬪妃換綵，宮主妝新。雲鬢堆鴉髻，霓裳壓鳳裙。一派仙音嘹喨，兩行朱紫繽紛。當年曾結乘鸞信，今朝幸喜會佳姻。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 228
+        "line_end": 228
+    "translation_ja": |-
+      縁組、縁組、縁組。蘭と麝香（じゃこう）の香りがあふれる。
+      仙女の陣、美人の群れ。
+      妃たちは彩りの衣に着替え、宮の姫は新たに装う。
+      雲のような髪には烏の羽のような黒いまげを結い、虹の衣を鳳凰の裳（も）の上に重ねる。
+      一面に仙楽が高らかに響き、二列の朱や紫が色鮮やかだ。
+      かつて鸞（らん）に乗って結ばれる約束を交わし、今朝は幸いにも喜ばしい佳縁を迎える。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-054"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "卻說國王駕到，那后妃引著公主，並綵女、宮娥，都來迎接。國王喜孜孜，進了昭陽宮坐下。后妃等朝拜畢，國王道：「公主賢女，自初八日結綵拋毬，幸遇聖僧，想是心願已足。各衙門官又能體朕心，各項事俱已完備。今日正是佳期，可早赴合巹之宴，不要錯過時辰。」那公主走近前，倒身下拜，奏道：「父王，乞赦小女萬千之罪，有一言啟奏：這幾日聞得宮官傳說，唐聖僧有三個徒弟，他生得十分醜惡。小女不敢見他，恐見時必生恐懼。萬望父王將他發放出城方好，不致驚傷弱體，反為禍害也。」國王道：「孩兒不說，朕幾乎忘了。果然生得有些醜惡，連日教他在御花園裡留春亭管待。趁今日就上殿，打發他關文，教他出城，卻好會宴。」公主叩頭謝了恩。國王即出駕上殿，傳旨請駙馬共他三位。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 230
+        "line_end": 230
+    "translation_ja": |-
+      さて、国王が来ると、后妃たちは偽の王女を連れ、彩衣の女官や宮女たちと一緒に迎えに出た。国王はうれしそうに昭陽宮へ入り、席に着いた。后妃たちの拝礼が済むと、国王は言った。
+      国王「賢い娘よ、八日に楼を飾って毬を投げ、幸いにも聖僧と巡り会ったのだから、願いはかなったことであろう。役所の者たちも朕の心をくみ、何もかも準備を済ませた。今日はまさしく佳き日だ。時刻を逃さぬよう、早く合巹の宴へ赴くがよい。」
+      偽の王女は前へ進み、身を伏せて拝礼してから申し上げた。
+      偽の王女「父上、娘の幾重もの罪をどうかお許しください。一言申し上げたいことがございます。この数日、宮中の役人から聞きましたところ、唐の聖僧さまには三人のお弟子がおり、それは恐ろしい姿をしているとか。私はとてもお会いできません。顔を見れば、きっと恐ろしくなってしまいます。どうか父上、あの方々を城の外へお帰しになってくださいませ。か弱い身が驚き傷つき、かえって災いとなるようなことを避けたいのでございます。」
+      国王「そなたが言わなければ、朕も忘れるところであった。確かにいくらか醜い姿をしておる。ここ数日は御花園の留春亭でもてなしていたのだ。今日のうちに御殿に出て、通行文書を渡し、城の外へ行かせよう。それで心おきなく宴に臨める。」
+      偽の王女は頭を下げて恩を謝した。国王はただちに御殿へ出て、婿と三人を招くよう命を下した。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-055"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "原來那唐僧捏指頭兒算日子，熬至十二日，天未明，就與他三人計較道：「今日卻是十二了，這事如何區處？」行者道：「那國王我已識得他有些晦氣，還未沾身，不為大害。但只不得公主見面，若得出來，老孫一覷，就知真假，方才動作。你只管放心。他如今一定來請，打發我等出城。你自應承莫怕，我閃閃身兒就來，緊緊隨護你也。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 231
+        "line_end": 231
+    "translation_ja": |-
+      実は三蔵は指を折って日を数え、やっと十二日まで耐えたところだった。夜が明けぬうちから三人に相談していたのである。
+      三蔵「とうとう今日は十二日です。この件はどう始末するのだ。」
+      悟空「国王に少し不吉な気配があるのは、もう見抜きました。でもまだ身に降りかかってはいないので、大きな害にはなりません。何しろ王女と顔を合わせられないのです。出てくれれば、俺が一目見て本物か偽物か分かりますから、そこで手を打ちます。安心していてください。今にきっと呼びに来て、俺たちを城の外へ出すでしょう。お師匠さまは怖がらず承知しておいてください。俺はちょいと身をかわして戻ってきて、ぴったり付き添い、お守りします。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-056"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "師徒們正講，果見當駕官同儀制司來請。行者笑道：「去來，去來。必定是與我們送行，好留師父會合。」八戒道：「送行必定有千百兩黃金白銀，我們也好買些人事回去。到我那丈人家，也再會親耍子兒去耶。」沙僧道：「二哥箝著口，休亂說，只憑大哥主張。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 233
+        "line_end": 233
+    "translation_ja": |-
+      師弟が話していると、果たして御前の役人が儀制司の役人と一緒に招きに来た。悟空は笑った。
+      悟空「さあ行こう、行こう。きっと俺たちの見送りだ。お師匠さまだけ残して、婚礼をさせるんだろう。」
+      八戒「見送りなら、金銀を千両（りょう）、百両とくれるに違いない。土産を買って帰れるぞ。俺の舅の家にも寄って、また身内と集まって楽しむとしようかね。」
+      沙悟浄「二番目の兄貴、口を閉じてください。でたらめを言わず、兄さんの判断に任せましょう。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-057"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "遂此將行李、馬匹，俱隨那些官到於丹墀下。國王見了，教請行者三位近前道：「汝等將關文拿上來，朕當用寶、花押，交付汝等，外多備盤纏，送你三位早去靈山見佛。若取經回來，還有重謝。留駙馬在此，勿得懸念。」行者稱謝。遂教沙僧取出關文遞上。國王看了，即用了印，押了花字，又取黃金十錠、白金二十錠，聊達親禮。八戒原來財色心重，即去接了。行者朝上唱個喏道：「聒噪，聒噪。」便轉身要走。慌得個三藏一轂轆爬起，扯住行者，咬響牙根道：「你們都不顧我就去了？」行者把手捏著三藏手掌，丟個眼色道：「你在這裡寬懷歡會，我等取了經，回來看你。」那長老似信不信的，不肯放手。多官都看見，以為實是相別而去。早見國王又請駙馬上殿，著多官送三位出城。長老只得放了手上殿。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 234
+        "line_end": 234
+    "translation_ja": |-
+      そこで荷物も馬も伴い、役人たちに従って朱塗りの階の下へ行った。国王は一行を見ると、悟空たち三人を前へ招いて言った。
+      国王「そなたたち、通行文書を出すがよい。朕が宝印を押し、花押（かおう）を書いて返そう。そのほかに旅費も十分用意するから、三人は早く霊山（れいざん）へ行き、仏に会ってくるがよい。経を取って戻ってきたら、さらに厚く礼をしよう。お婿殿はここにお留まりいただく。心配はいらぬ。」
+      悟空は礼を言い、沙悟浄に通行文書を出して差し上げるよう言いつけた。国王は目を通し、印を押して花押を書いた。さらに金の延べ棒十錠（じょう）、銀の延べ棒二十錠を出し、ささやかな姻戚の礼とした。もともと金にも色にも欲深い八戒は、すぐに受け取りに行った。悟空は国王に向かって礼の声を上げた。
+      悟空「お世話になりました、お世話になりました。」
+      そして身を返して去ろうとした。三蔵は慌てて転がるように立ち上がり、悟空を引き留め、歯を食いしばって言った。
+      三蔵「お前たち、私を見捨てて行ってしまうのか。」
+      悟空は三蔵の手のひらを握り、目配せした。
+      悟空「ここで気楽に祝いを楽しんでいてください。俺たちは経を取ったら、また会いに戻りますよ。」
+      三蔵は信じてよいものか迷い、手を放そうとしなかった。役人たちはみなその様子を見て、本当に別れて行くのだと思った。すると国王が再び婿を御殿へ招き、役人たちには三人を城外へ送るよう命じた。三蔵はやむなく手を放し、御殿へ上がった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-058"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "行者三人同眾出了朝門，各自相別。八戒道：「我們當真的走哩？」行者不言語，只管走至驛中。驛丞接入，看茶，擺飯。行者對八戒、沙僧道：「你兩個只在此，切莫出頭。但驛丞問甚麼事情，且含糊答應，莫與我說話。我保師父去也。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 236
+        "line_end": 236
+    "translation_ja": |-
+      悟空たち三人は役人たちと宮門を出て、それぞれ別れを告げた。
+      八戒「俺たち、本当に行っちまうのか。」
+      悟空は何も答えず、ただ駅へ歩いていった。駅丞（えきじょう）が迎え入れ、茶を出し、食事を並べた。悟空は八戒と沙悟浄に言った。
+      悟空「お前たち二人は、ここにいろ。決して表へ顔を出すな。駅丞に何か尋ねられても、適当に曖昧な返事をして、俺には話しかけるなよ。俺はお師匠さまを守りに行く。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-059"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "好大聖，拔一根毫毛，吹口仙氣，叫：「變！」即變作本身模樣，與八戒、沙僧同在驛內。真身卻幌的跳在半空，變作一個蜜蜂兒。但見："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 238
+        "line_end": 238
+    "translation_ja": |-
+      さすがの悟空、毛を一本抜き、仙気（せんき）を吹きかけて叫んだ。
+      悟空「変われ！」
+      毛はたちまち悟空そのままの姿となり、八戒、沙悟浄とともに駅に残った。本体の悟空は、さっと空中へ跳び、一匹の蜜蜂に変わった。その姿は、
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-060"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      翅黃口甜尾利，隨風飄舞顛狂。最能摘蕊與偷香。度柳穿花搖蕩。
+      辛苦幾番淘染，飛來飛去空忙。釀成濃美自何嘗。只好留存名狀。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 239
+        "line_end": 240
+    "translation_ja": |-
+      羽は黄色く、口は甘く、尾は鋭い。風に乗り、激しく舞い踊る。
+      花の芯を摘み、香りを盗むのが大得意。柳を越え、花をくぐり、揺れ飛んでゆく。
+      幾たびも苦労して蜜を練り上げ、あちらへこちらへ飛び、むなしく働く。
+      濃く甘い蜜を醸しても、自分で味わえるものか。ただその名と姿を残すほかはない。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-061"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "你看他輕輕的飛入朝中，遠見那唐僧在國王左邊繡墩上坐著，愁眉不展，心存焦燥。徑飛至他毘盧帽上，悄悄的爬及耳邊，叫道：「師父，我來了，切莫憂慮。」這句話只有唐僧聽見，那夥凡人莫想知覺。唐僧聽見，始覺心寬。不一時，宮官來請道：「萬歲，合巹嘉筵已排設在鳷鵲宮中，娘娘與公主俱在宮伺候，專請萬歲同貴人會親也。」國王喜之不盡，即同駙馬進宮而去。正是那："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 242
+        "line_end": 242
+    "translation_ja": |-
+      見よ、悟空はそっと朝廷へ飛び込み、国王の左側の刺繍の腰掛けに座る三蔵を遠くから見つけた。師は眉をひそめたまま、心に焦りを抱いている。悟空はまっすぐ毘盧帽（びるぼう）へ飛んでいき、静かに耳元へ這って、呼びかけた。
+      悟空「お師匠さま、戻ってきました。何も心配なさらないで。」
+      この言葉が聞こえたのは三蔵だけで、そこにいた凡人たちには気づきようもなかった。三蔵はそれを聞いて、初めて胸をなで下ろした。ほどなく宮官が招きに来た。
+      宮官「陛下、合巹の宴は鳷鵲宮（しじゃくきゅう）にすっかり整っております。皇后さまと王女さまも宮中でお待ちで、陛下と貴人さまに、ご親族の集いへお越しいただきたいと申しております。」
+      国王は喜びもひとしおに、婿とともに宮中へ入っていった。まさに、
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-062"
+    "section_id": "chapter-94"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "邪主愛花花作禍，禪心動念念生愁。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 244
+        "line_end": 244
+    "translation_ja": |-
+      邪な主は花を愛し、その花が災いを生む。
+      禅の心に思いが動けば、その思いが憂いを生む。
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-063"
+    "section_id": "chapter-94"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "畢竟不知唐僧在內宮怎生解脫，且聽下回分解。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch94-1500607"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=西遊記/第094回"
+        "line_start": 246
+        "line_end": 246
+    "translation_ja": "さて、三蔵は内宮でどのように逃れ出るのだろうか。その顛末は次回のお楽しみ。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-01-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "二八と三三は、道教の内丹修行を数で表す象徴的な言い方。二八は陰陽を等しく合わせる表現と解するが、ここにいう三三の前後の具体的な手順・区分は本文だけでは定まらない。数を単なる年齢や回数へ置き換えなかった。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-02-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "孩児と姹女は内丹で身体内の働きを男女に見立てた語と解し、実際の出産や婚姻としない。四相は内丹の四象に通じる象徴と解するが、原文の相を象へ直してはいない。四つの具体的な内訳と三千の功の数え方は、本文だけでは確定しない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-03-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原文は「指河為姓」。流沙河にちなむ沙の姓を語るものとして訳した。以前の回にある命名のいきさつと無断で整合させず、本人の自伝の言い方を保つ。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-04-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "陰陽官の暦判断では、八日を戊申、十二日を壬子とする。申を猿に結び付けた「猿猴獻果」も、その人物が述べる吉祥の説明として残す。現実の暦占の効能を保証する説明ではない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-05-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "「十節兒已上了九節七八分」は、全行程を十に分ければ九を過ぎてその先も七、八分ほど進んだ、という言い方。原文の細かな割合を省かず、単に「ほとんど終わった」とはしなかった。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-06-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "上頭は婚礼に備えて髪を結い上げる儀礼。餪子は婚礼に伴う飲食の祝いと解した。餪には婚礼後三日の食物の贈り物・宴という用法もあるが、底本では十二日の婚礼より前に置かれる。一般的な習俗に合わせて物語の日程を直さない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-07-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "茉藜はジャスミン類、麗春花はヒナゲシ類、木筆花はモクレン類、含笑花はオガタマ類の花木を指すと解されるが、ここでの現代的な種の特定は留保する。蕙と萱にも古い植物名としての幅があるため、色の描写を残し、学名を断定しない。鳳台の簫と鳳凰、竜沼の魚と竜は詩の描写のまま訳し、原文にない具体的な伝説の人物は補わない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-08-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "雁が葦を携えて渡るという古い詩的な表現。「折蘆花」の字を保ち、現代の鳥の生態として保証したり、別の動作に置き換えたりしない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-09-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "底本は「天雨飛雲」。ここでは天から雨が降り、雲が飛ぶと読む。天字を他の文字へ改めたり、雨を無言で雪に統一したりしない。句の切り方には留保を残す。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-10-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "獣炭には、獣の形に成形した炭と、獣骨から作った炭という説明がある。この詩では炉に使う炭である以上に製法を確定せず、語を残す。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-11-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原文は「侮著他嘴」。直後の発話制止という文脈から、口をふさぐ動作と解したが、侮の字は原文欄にそのまま残し、捂などへの補訂は施さない。また二十打ちは三蔵の命令であり、取りなしが入るまでに何打ちしたかは記されない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-12-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "楚妹は、毛嬙と対に置かれた楚の美女の呼び名と解した。特定の女性や神女の名は本文に明示されず、別の伝承の人物との同一性は断定しない。毛嬙と王嬙は同じ嬙の字を持つが、別の美女を指す。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-13-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "鸞に乗るという句は、仙人のような幸福な婚姻をたたえる詩的表現として訳した。語りの時点で過去の具体的な婚約や人物名が示されたとは扱わず、後の展開をこの詞に補わない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-14-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "蜜蜂の詞の「淘染」は語義が確定しにくく、採ったものを加工して蜜を醸すという前後の流れから「蜜を練り上げる」と訳した。「名狀」は名と姿を残すと読んだが、句の含意には留保がある。末尾の反語と、働いても自らは味わえないという嘆きを保持する。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch94-note-15-body"
+    "section_id": "chapter-94"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原文の「邪主」は「邪な主」と訳し、誰を指すかを注で一人に決めつけない。「愛花花」「動念念」の語の反復と、花が災いを、念が憂いを生むという対句の構造を残した。"
+    "translation_status": "reviewed"
+"notes":
+  - "id": "xy-ch94-note-01"
+    "origin": "translator"
+    "label": "1"
+    "body":
+      - "segment_id": "xy-ch94-note-01-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-02"
+    "origin": "translator"
+    "label": "2"
+    "body":
+      - "segment_id": "xy-ch94-note-02-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-03"
+    "origin": "translator"
+    "label": "3"
+    "body":
+      - "segment_id": "xy-ch94-note-03-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-04"
+    "origin": "translator"
+    "label": "4"
+    "body":
+      - "segment_id": "xy-ch94-note-04-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-05"
+    "origin": "translator"
+    "label": "5"
+    "body":
+      - "segment_id": "xy-ch94-note-05-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-06"
+    "origin": "translator"
+    "label": "6"
+    "body":
+      - "segment_id": "xy-ch94-note-06-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-07"
+    "origin": "translator"
+    "label": "7"
+    "body":
+      - "segment_id": "xy-ch94-note-07-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-08"
+    "origin": "translator"
+    "label": "8"
+    "body":
+      - "segment_id": "xy-ch94-note-08-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-09"
+    "origin": "translator"
+    "label": "9"
+    "body":
+      - "segment_id": "xy-ch94-note-09-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-10"
+    "origin": "translator"
+    "label": "10"
+    "body":
+      - "segment_id": "xy-ch94-note-10-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-11"
+    "origin": "translator"
+    "label": "11"
+    "body":
+      - "segment_id": "xy-ch94-note-11-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-12"
+    "origin": "translator"
+    "label": "12"
+    "body":
+      - "segment_id": "xy-ch94-note-12-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-13"
+    "origin": "translator"
+    "label": "13"
+    "body":
+      - "segment_id": "xy-ch94-note-13-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-14"
+    "origin": "translator"
+    "label": "14"
+    "body":
+      - "segment_id": "xy-ch94-note-14-body"
+    "form": "endnote"
+  - "id": "xy-ch94-note-15"
+    "origin": "translator"
+    "label": "15"
+    "body":
+      - "segment_id": "xy-ch94-note-15-body"
+    "form": "endnote"
+"references":
+  - "id": "xy-ch94-ref-01"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-006"
+      "translation_span":
+        "start": 200
+        "end": 217
+        "exact": "三三（さんさん）の前後を練りました"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-01"
+    "status": "verified"
+  - "id": "xy-ch94-ref-02"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 136
+        "end": 152
+        "exact": "四相（しそう）を一つに調えました"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-02"
+    "status": "verified"
+  - "id": "xy-ch94-ref-03"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 409
+        "end": 419
+        "exact": "川にちなんだ姓を定め"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-03"
+    "status": "verified"
+  - "id": "xy-ch94-ref-04"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-010"
+      "translation_span":
+        "start": 244
+        "end": 269
+        "exact": "用件をお受けになるのにちょうどよろしゅうございます"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-04"
+    "status": "verified"
+  - "id": "xy-ch94-ref-05"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-012"
+      "translation_span":
+        "start": 779
+        "end": 793
+        "exact": "その熱い舌で私をからかうのか"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-05"
+    "status": "verified"
+  - "id": "xy-ch94-ref-06"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-018"
+      "translation_span":
+        "start": 708
+        "end": 723
+        "exact": "十二日の佳き婚姻を待つのである"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-06"
+    "status": "verified"
+  - "id": "xy-ch94-ref-07"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-020"
+      "translation_span":
+        "start": 649
+        "end": 671
+        "exact": "庭いっぱいの艶やかさが、競って光を放っている"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-07"
+    "status": "verified"
+  - "id": "xy-ch94-ref-08"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-029"
+      "translation_span":
+        "start": 70
+        "end": 80
+        "exact": "よその里へ渡ってゆく"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-08"
+    "status": "verified"
+  - "id": "xy-ch94-ref-09"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-031"
+      "translation_span":
+        "start": 81
+        "end": 87
+        "exact": "知らせが来る"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-09"
+    "status": "verified"
+  - "id": "xy-ch94-ref-10"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-040"
+      "translation_span":
+        "start": 51
+        "end": 60
+        "exact": "獣炭（じゅうたん）"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-10"
+    "status": "verified"
+  - "id": "xy-ch94-ref-11"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-043"
+      "translation_span":
+        "start": 440
+        "end": 448
+        "exact": "さっさと寝に行け"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-11"
+    "status": "verified"
+  - "id": "xy-ch94-ref-12"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-049"
+      "translation_span":
+        "start": 35
+        "end": 46
+        "exact": "楚妹（そまい）をも凌ぐ"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-12"
+    "status": "verified"
+  - "id": "xy-ch94-ref-13"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-053"
+      "translation_span":
+        "start": 157
+        "end": 174
+        "exact": "今朝は幸いにも喜ばしい佳縁を迎える"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-13"
+    "status": "verified"
+  - "id": "xy-ch94-ref-14"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-060"
+      "translation_span":
+        "start": 124
+        "end": 139
+        "exact": "ただその名と姿を残すほかはない"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-14"
+    "status": "verified"
+  - "id": "xy-ch94-ref-15"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch94-062"
+      "translation_span":
+        "start": 31
+        "end": 41
+        "exact": "その思いが憂いを生む"
+    "to":
+      "type": "note"
+      "id": "xy-ch94-note-15"
+    "status": "verified"
+"groups":
+  - "id": "xy-ch94-poem-014"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-014"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-017"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-017"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-020"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-020"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-022"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-022"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-025"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-025"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-027"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-027"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-029"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-029"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-031"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-031"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-034"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-034"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-036"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-036"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-038"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-038"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-040"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-040"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-047"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-047"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-049"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-049"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-051"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-051"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-053"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-053"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-060"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-060"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+  - "id": "xy-ch94-poem-062"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch94-062"
+    "separator": |2+
+
+    "description_ja": "独立した挿入韻文の全句。夜景・朝廷・花園・宴・四季詩八首・婚礼詞四首・蜂の詩・結びの対句を保持。"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-25T11:06:27Z"
+    "reviewed_by": "独立AIレビュー /review_xiyouji_chapter_094（作者とは別。人間・専門家校訂および実ブラウザ確認ではない）"
+    "content_sha256": "2358f3a511ded210ec21ec793af65df349d377a95eeb535560a7f1ab984aef53"
+"lexicon":
+  "dictionary_id": "xiyouji"
+  "file": "lexicons/xiyouji.yaml"
+  "first_occurrences":
+    - "entry_id": "xy-sun-wukong"
+      "form_id": "xy-wukong-short-form"
+      "segment_id": "xy-ch94-002"
+      "translation_span":
+        "start": 3
+        "end": 5
+        "exact": "悟空"
+      "rendered_text": "悟空（ごくう）"
+    - "entry_id": "xy-ch93-meridian-gate"
+      "form_id": "xy-ch93-meridian-gate-form"
+      "segment_id": "xy-ch94-002"
+      "translation_span":
+        "start": 26
+        "end": 28
+        "exact": "午門"
+      "rendered_text": "午門（ごもん）"
+      "gloss_ja": "朝廷への取り次ぎを受ける、王宮の門。"
+    - "entry_id": "xy-entry-1349"
+      "form_id": "xy-form-1554"
+      "segment_id": "xy-ch94-002"
+      "translation_span":
+        "start": 40
+        "end": 43
+        "exact": "黄門官"
+      "rendered_text": "黄門官（こうもんかん）"
+      "gloss_ja": "宮中で取り次ぎなどをする役人。"
+    - "entry_id": "xy-entry-0902"
+      "form_id": "xy-form-1939"
+      "segment_id": "xy-ch94-002"
+      "translation_span":
+        "start": 260
+        "end": 262
+        "exact": "八戒"
+      "rendered_text": "八戒（はっかい）"
+    - "entry_id": "xy-entry-0885"
+      "form_id": "xy-form-1028"
+      "segment_id": "xy-ch94-002"
+      "translation_span":
+        "start": 269
+        "end": 272
+        "exact": "沙悟浄"
+      "rendered_text": "沙悟浄（さごじょう）"
+    - "entry_id": "xy-entry-0874"
+      "form_id": "xy-form-1610"
+      "segment_id": "xy-ch94-002"
+      "translation_span":
+        "start": 290
+        "end": 292
+        "exact": "三蔵"
+      "rendered_text": "三蔵（さんぞう）"
+    - "entry_id": "xy-entry-1922"
+      "form_id": "xy-form-2284"
+      "segment_id": "xy-ch94-002"
+      "translation_span":
+        "start": 439
+        "end": 441
+        "exact": "駙馬"
+      "rendered_text": "駙馬（ふば）"
+      "gloss_ja": "皇帝や国王の娘の夫。"
+    - "entry_id": "xy-term-029"
+      "form_id": "xy-term-029-form"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 9
+        "end": 13
+        "exact": "東勝神洲"
+      "rendered_text": "東勝神洲（とうしょうしんしゅう）"
+    - "entry_id": "xy-aolai"
+      "form_id": "xy-term-033-form"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 26
+        "end": 29
+        "exact": "傲来国"
+      "rendered_text": "傲来国（ごうらいこく）"
+    - "entry_id": "xy-term-034"
+      "form_id": "xy-term-034-form"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 38
+        "end": 41
+        "exact": "花果山"
+      "rendered_text": "花果山（かかざん）"
+    - "entry_id": "xy-term-061"
+      "form_id": "xy-term-061-form"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 48
+        "end": 51
+        "exact": "水簾洞"
+      "rendered_text": "水簾洞（すいれんどう）"
+    - "entry_id": "xy-entry-0725"
+      "form_id": "xy-form-0834"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 103
+        "end": 105
+        "exact": "大道"
+      "rendered_text": "大道（だいどう）"
+      "gloss_ja": "天地や万物を貫く根本の道。"
+    - "entry_id": "xy-entry-0256"
+      "form_id": "xy-form-0280"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 132
+        "end": 134
+        "exact": "洞天"
+      "rendered_text": "洞天（どうてん）"
+      "gloss_ja": "仙人の住む、俗世と隔たった霊地。"
+    - "entry_id": "xy-sun-wukong"
+      "form_id": "xy-term-068-form"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 196
+        "end": 200
+        "exact": "斉天大聖"
+      "rendered_text": "斉天大聖（せいてんたいせい）"
+    - "entry_id": "xy-entry-0255"
+      "form_id": "xy-form-0279"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 238
+        "end": 240
+        "exact": "天仙"
+      "rendered_text": "天仙（てんせん）"
+      "gloss_ja": "天界に位を持つ仙人。"
+    - "entry_id": "xy-entry-0433"
+      "form_id": "xy-form-0492"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 289
+        "end": 291
+        "exact": "蟠桃"
+      "rendered_text": "蟠桃（ばんとう）"
+      "gloss_ja": "仙界にあるとされる、不老長寿の桃。"
+    - "entry_id": "xy-entry-0268"
+      "form_id": "xy-form-0295"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 303
+        "end": 305
+        "exact": "天宮"
+      "rendered_text": "天宮（てんきゅう）"
+    - "entry_id": "xy-entry-0731"
+      "form_id": "xy-form-0840"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 331
+        "end": 334
+        "exact": "五行山"
+      "rendered_text": "五行山（ごぎょうざん）"
+    - "entry_id": "xy-entry-0847"
+      "form_id": "xy-form-0971"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 403
+        "end": 405
+        "exact": "東土"
+      "rendered_text": "東土（とうど）"
+    - "entry_id": "xy-entry-0552"
+      "form_id": "xy-form-0649"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 424
+        "end": 426
+        "exact": "観音"
+      "rendered_text": "観音（かんのん）"
+    - "entry_id": "xy-entry-0850"
+      "form_id": "xy-form-0974"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 454
+        "end": 456
+        "exact": "瑜伽"
+      "rendered_text": "瑜伽（ゆが）"
+      "gloss_ja": "心身を修める仏教の修行。ここではその教えの門下をいう。"
+    - "entry_id": "xy-sun-wukong"
+      "form_id": "xy-form-1691"
+      "segment_id": "xy-ch94-003"
+      "translation_span":
+        "start": 487
+        "end": 489
+        "exact": "行者"
+      "rendered_text": "行者（ぎょうじゃ）"
+    - "entry_id": "xy-entry-0745"
+      "form_id": "xy-form-0856"
+      "segment_id": "xy-ch94-006"
+      "translation_span":
+        "start": 108
+        "end": 110
+        "exact": "真人"
+      "rendered_text": "真人（しんじん）"
+      "gloss_ja": "道を極めた仙人への尊称。"
+    - "entry_id": "xy-ch36-two-eights"
+      "form_id": "xy-ch36-two-eights-form"
+      "segment_id": "xy-ch94-006"
+      "translation_span":
+        "start": 180
+        "end": 182
+        "exact": "二八"
+      "rendered_text": "二八（にはち）"
+      "gloss_ja": "二つの八を組み合わせる、内丹修行の数の表現。"
+    - "entry_id": "xy-ch43-three-three-practice"
+      "form_id": "xy-ch94-three-three-short-form"
+      "segment_id": "xy-ch94-006"
+      "translation_span":
+        "start": 200
+        "end": 202
+        "exact": "三三"
+      "rendered_text": "三三（さんさん）"
+      "gloss_ja": "修行を数に託していう表現。具体的な内訳はここでは定まらない。"
+    - "entry_id": "xy-jade-emperor"
+      "form_id": "xy-term-052-form"
+      "segment_id": "xy-ch94-006"
+      "translation_span":
+        "start": 237
+        "end": 239
+        "exact": "玉帝"
+      "rendered_text": "玉帝（ぎょくてい）"
+    - "entry_id": "xy-entry-0902"
+      "form_id": "xy-form-1040"
+      "segment_id": "xy-ch94-006"
+      "translation_span":
+        "start": 256
+        "end": 260
+        "exact": "天蓬元帥"
+      "rendered_text": "天蓬元帥（てんぽうげんすい）"
+    - "entry_id": "xy-entry-0906"
+      "form_id": "xy-form-1041"
+      "segment_id": "xy-ch94-006"
+      "translation_span":
+        "start": 321
+        "end": 323
+        "exact": "嫦娥"
+      "rendered_text": "嫦娥（じょうが）"
+    - "entry_id": "xy-entry-0907"
+      "form_id": "xy-form-1042"
+      "segment_id": "xy-ch94-006"
+      "translation_span":
+        "start": 385
+        "end": 388
+        "exact": "福陵山"
+      "rendered_text": "福陵山（ふくりょうざん）"
+    - "entry_id": "xy-entry-0792"
+      "form_id": "xy-form-0907"
+      "segment_id": "xy-ch94-006"
+      "translation_span":
+        "start": 446
+        "end": 447
+        "exact": "唐"
+      "rendered_text": "唐（とう）"
+    - "entry_id": "xy-entry-0439"
+      "form_id": "xy-form-0498"
+      "segment_id": "xy-ch94-006"
+      "translation_span":
+        "start": 464
+        "end": 466
+        "exact": "西天"
+      "rendered_text": "西天（さいてん）"
+    - "entry_id": "xy-entry-0902"
+      "form_id": "xy-form-1938"
+      "segment_id": "xy-ch94-006"
+      "translation_span":
+        "start": 495
+        "end": 497
+        "exact": "悟能"
+      "rendered_text": "悟能（ごのう）"
+    - "entry_id": "xy-entry-1614"
+      "form_id": "xy-ch94-inner-child-form"
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 100
+        "end": 102
+        "exact": "孩児"
+      "rendered_text": "孩児（がいじ）"
+      "gloss_ja": "内丹術で、体内に養う霊的な働きなどを幼子にたとえる語。"
+    - "entry_id": "xy-entry-1615"
+      "form_id": "xy-form-1901"
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 113
+        "end": 115
+        "exact": "姹女"
+      "rendered_text": "姹女（たじょ）"
+      "gloss_ja": "内丹術で、結び合わせるべき働きを乙女になぞらえる象徴語。"
+    - "entry_id": "xy-ch70-inner-four-images"
+      "form_id": "xy-ch94-inner-four-aspects-form"
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 136
+        "end": 138
+        "exact": "四相"
+      "rendered_text": "四相（しそう）"
+      "gloss_ja": "四つの働きを一つに調えるという内丹修行の表現。原文は「相」の字。"
+    - "entry_id": "xy-jade-emperor"
+      "form_id": "xy-ch94-xuanqiong-short-form"
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 159
+        "end": 161
+        "exact": "玄穹"
+      "rendered_text": "玄穹（げんきゅう）"
+    - "entry_id": "xy-entry-0885"
+      "form_id": "xy-form-1021"
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 173
+        "end": 177
+        "exact": "捲簾大将"
+      "rendered_text": "捲簾大将（けんれんたいしょう）"
+    - "entry_id": "xy-entry-0495"
+      "form_id": "xy-form-0561"
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 197
+        "end": 199
+        "exact": "鳳輦"
+      "rendered_text": "鳳輦（ほうれん）"
+      "gloss_ja": "鳳凰の飾りを備えた、君主の乗り物。"
+    - "entry_id": "xy-entry-0494"
+      "form_id": "xy-form-0560"
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 206
+        "end": 208
+        "exact": "竜車"
+      "rendered_text": "竜車（りゅうしゃ）"
+      "gloss_ja": "竜の飾りなどを備えた、天帝の車。"
+    - "entry_id": "xy-entry-0893"
+      "form_id": "xy-form-1023"
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 250
+        "end": 252
+        "exact": "玻璃"
+      "rendered_text": "玻璃（はり）"
+      "gloss_ja": "透明な宝玉やガラスに似たものをいう古い語。材質は確定しない。"
+    - "entry_id": "xy-entry-0880"
+      "form_id": "xy-form-1006"
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 266
+        "end": 269
+        "exact": "流沙河"
+      "rendered_text": "流沙河（りゅうさが）"
+    - "entry_id": "xy-ch52-great-awakening"
+      "form_id": "xy-ch52-great-awakening-form"
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 392
+        "end": 394
+        "exact": "大覚"
+      "rendered_text": "大覚（だいかく）"
+      "gloss_ja": "迷いを離れた、すぐれた悟り。"
+    - "entry_id": "xy-entry-0885"
+      "form_id": "xy-form-2064"
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 423
+        "end": 425
+        "exact": "悟浄"
+      "rendered_text": "悟浄（ごじょう）"
+    - "entry_id": "xy-entry-0885"
+      "form_id": "xy-ch62-shaseng-heshang-name-form"
+      "segment_id": "xy-ch94-009"
+      "translation_span":
+        "start": 432
+        "end": 434
+        "exact": "和尚"
+      "rendered_text": "和尚（おしょう）"
+    - "entry_id": "xy-ch94-yinyang-official"
+      "form_id": "xy-ch94-yinyang-official-form"
+      "segment_id": "xy-ch94-010"
+      "translation_span":
+        "start": 82
+        "end": 85
+        "exact": "陰陽官"
+      "rendered_text": "陰陽官（おんようかん）"
+      "gloss_ja": "暦と日の吉凶を判断する役人。"
+    - "entry_id": "xy-ch94-renzi-day"
+      "form_id": "xy-ch94-renzi-day-form"
+      "segment_id": "xy-ch94-010"
+      "translation_span":
+        "start": 123
+        "end": 125
+        "exact": "壬子"
+      "rendered_text": "壬子（じんし）"
+      "gloss_ja": "十干の壬と十二支の子を合わせた干支。ここでは日の名。"
+    - "entry_id": "xy-ch94-zhoutang-day"
+      "form_id": "xy-ch94-zhoutang-day-form"
+      "segment_id": "xy-ch94-010"
+      "translation_span":
+        "start": 141
+        "end": 143
+        "exact": "周堂"
+      "rendered_text": "周堂（しゅうどう）"
+      "gloss_ja": "婚姻などの日取りの吉凶をみる暦占の考え方。"
+    - "entry_id": "xy-ch94-wushen-day"
+      "form_id": "xy-ch94-wushen-day-form"
+      "segment_id": "xy-ch94-010"
+      "translation_span":
+        "start": 208
+        "end": 210
+        "exact": "戊申"
+      "rendered_text": "戊申（ぼしん）"
+      "gloss_ja": "十干の戊と十二支の申を合わせた干支。ここでは日の名。"
+    - "entry_id": "xy-imperial-flower-garden"
+      "form_id": "xy-imperial-flower-garden-form"
+      "segment_id": "xy-ch94-010"
+      "translation_span":
+        "start": 289
+        "end": 292
+        "exact": "御花園"
+      "rendered_text": "御花園（ぎょかえん）"
+      "gloss_ja": "王宮に設けられた花園。"
+    - "entry_id": "xy-ch94-hejin-wedding"
+      "form_id": "xy-ch94-hejin-wedding-form"
+      "segment_id": "xy-ch94-010"
+      "translation_span":
+        "start": 343
+        "end": 345
+        "exact": "合巹"
+      "rendered_text": "合巹（ごうきん）"
+      "gloss_ja": "夫婦の縁を結ぶ婚礼。もとは瓢の杯を合わせて酒を交わす儀礼。"
+    - "entry_id": "xy-ch93-marriage-ball"
+      "form_id": "xy-ch93-marriage-ball-form"
+      "segment_id": "xy-ch94-012"
+      "translation_span":
+        "start": 187
+        "end": 189
+        "exact": "繍毬"
+      "rendered_text": "繍毬（しゅうきゅう）"
+      "gloss_ja": "刺繍などで飾った毬。ここでは婿選びのために投げる。"
+    - "entry_id": "xy-entry-0822"
+      "form_id": "xy-ch93-anathapindika-gold-monastery-form"
+      "segment_id": "xy-ch94-012"
+      "translation_span":
+        "start": 263
+        "end": 268
+        "exact": "給孤布金寺"
+      "rendered_text": "給孤布金寺（ぎっこふきんじ）"
+    - "entry_id": "xy-entry-0671"
+      "form_id": "xy-form-0773"
+      "segment_id": "xy-ch94-012"
+      "translation_span":
+        "start": 394
+        "end": 398
+        "exact": "火眼金睛"
+      "rendered_text": "火眼金睛（かがんきんせい）"
+    - "entry_id": "xy-ch52-first-watch"
+      "form_id": "xy-ch94-first-watch-alias-form"
+      "segment_id": "xy-ch94-013"
+      "translation_span":
+        "start": 18
+        "end": 20
+        "exact": "初更"
+      "rendered_text": "初更（しょこう）"
+      "gloss_ja": "夜を五つに区切ったうち、最初の区分。"
+    - "entry_id": "xy-ch94-qiang-flute"
+      "form_id": "xy-ch94-qiang-flute-form"
+      "segment_id": "xy-ch94-014"
+      "translation_span":
+        "start": 75
+        "end": 77
+        "exact": "羌笛"
+      "rendered_text": "羌笛（きょうてき）"
+      "gloss_ja": "羌に由来するとされる笛の呼称。"
+    - "entry_id": "xy-entry-0269"
+      "form_id": "xy-form-0296"
+      "segment_id": "xy-ch94-017"
+      "translation_span":
+        "start": 10
+        "end": 12
+        "exact": "瑞気"
+      "rendered_text": "瑞気（ずいき）"
+      "gloss_ja": "めでたい兆しとされる光や気配。"
+    - "entry_id": "xy-entry-1485"
+      "form_id": "xy-form-1734"
+      "segment_id": "xy-ch94-017"
+      "translation_span":
+        "start": 142
+        "end": 144
+        "exact": "黄河"
+      "rendered_text": "黄河（こうが）"
+    - "entry_id": "xy-entry-1365"
+      "form_id": "xy-form-1571"
+      "segment_id": "xy-ch94-018"
+      "translation_span":
+        "start": 28
+        "end": 31
+        "exact": "光禄寺"
+      "rendered_text": "光禄寺（こうろくじ）"
+      "gloss_ja": "宮廷の飲食や宴席を受け持つ官署。寺院ではない。"
+    - "entry_id": "xy-ch94-yizhi-office"
+      "form_id": "xy-ch94-yizhi-office-form"
+      "segment_id": "xy-ch94-018"
+      "translation_span":
+        "start": 93
+        "end": 96
+        "exact": "儀制司"
+      "rendered_text": "儀制司（ぎせいし）"
+      "gloss_ja": "宮廷の礼儀・儀礼を担う官署。"
+    - "entry_id": "xy-ch68-huitong-hostel"
+      "form_id": "xy-ch68-huitong-hostel-form"
+      "segment_id": "xy-ch94-018"
+      "translation_span":
+        "start": 110
+        "end": 113
+        "exact": "会同館"
+      "rendered_text": "会同館（かいどうかん）"
+      "gloss_ja": "使節などの接遇に用いる宿館。"
+    - "entry_id": "xy-ch62-jiaofang-office"
+      "form_id": "xy-ch62-jiaofang-office-form"
+      "segment_id": "xy-ch94-018"
+      "translation_span":
+        "start": 182
+        "end": 185
+        "exact": "教坊司"
+      "rendered_text": "教坊司（きょうぼうし）"
+      "gloss_ja": "宮廷の歌舞や演奏を担当する官署。"
+    - "entry_id": "xy-ch94-huayi-pavilion"
+      "form_id": "xy-ch94-huayi-pavilion-form"
+      "segment_id": "xy-ch94-018"
+      "translation_span":
+        "start": 470
+        "end": 475
+        "exact": "永鎮華夷閣"
+      "rendered_text": "永鎮華夷閣（えいちんかいかく）"
+      "gloss_ja": "天竺国の御花園にある楼閣の名。"
+    - "entry_id": "xy-ch94-liuchun-pavilion"
+      "form_id": "xy-ch94-liuchun-pavilion-form"
+      "segment_id": "xy-ch94-018"
+      "translation_span":
+        "start": 510
+        "end": 513
+        "exact": "留春亭"
+      "rendered_text": "留春亭（りゅうしゅんてい）"
+      "gloss_ja": "御花園にある、宴や宿泊に用いるあずまや。"
+    - "entry_id": "xy-entry-1214"
+      "form_id": "xy-form-1381"
+      "segment_id": "xy-ch94-018"
+      "translation_span":
+        "start": 650
+        "end": 654
+        "exact": "三宮六院"
+      "rendered_text": "三宮六院（さんぐうりくいん）"
+      "gloss_ja": "皇后や妃たちの住む後宮全体をいう呼び方。"
+    - "entry_id": "xy-ch94-nuanzi-feast"
+      "form_id": "xy-ch94-nuanzi-feast-form"
+      "segment_id": "xy-ch94-018"
+      "translation_span":
+        "start": 694
+        "end": 696
+        "exact": "餪子"
+      "rendered_text": "餪子（だんし）"
+      "gloss_ja": "婚礼に伴う飲食の贈り物や祝いの宴。ここでは婚礼前の祝い。"
+    - "entry_id": "xy-entry-1139"
+      "form_id": "xy-form-1299"
+      "segment_id": "xy-ch94-019"
+      "translation_span":
+        "start": 0
+        "end": 3
+        "exact": "巳の刻"
+      "rendered_text": "巳の刻（みのこく）"
+      "gloss_ja": "十二支で区分した時刻の一つ。おおむね午前の後半。"
+    - "entry_id": "xy-ch94-phoenix-terrace"
+      "form_id": "xy-ch94-phoenix-terrace-form"
+      "segment_id": "xy-ch94-020"
+      "translation_span":
+        "start": 164
+        "end": 166
+        "exact": "鳳台"
+      "rendered_text": "鳳台（ほうだい）"
+      "gloss_ja": "鳳凰にちなむ高台という、宮苑の詩的な呼称。"
+    - "entry_id": "xy-ch94-dragon-pool"
+      "form_id": "xy-ch94-dragon-pool-form"
+      "segment_id": "xy-ch94-020"
+      "translation_span":
+        "start": 173
+        "end": 175
+        "exact": "竜沼"
+      "rendered_text": "竜沼（りゅうしょう）"
+      "gloss_ja": "竜にちなむ池という、宮苑の詩的な呼称。"
+    - "entry_id": "xy-entry-0766"
+      "form_id": "xy-form-0879"
+      "segment_id": "xy-ch94-020"
+      "translation_span":
+        "start": 203
+        "end": 204
+        "exact": "簫"
+      "rendered_text": "簫（しょう）"
+      "gloss_ja": "縦に構えて吹く、笛の一種。"
+    - "entry_id": "xy-term-038"
+      "form_id": "xy-term-038-form"
+      "segment_id": "xy-ch94-020"
+      "translation_span":
+        "start": 213
+        "end": 215
+        "exact": "鳳凰"
+      "rendered_text": "鳳凰（ほうおう）"
+    - "entry_id": "xy-ch36-bai-xue-music"
+      "form_id": "xy-ch36-bai-xue-music-form"
+      "segment_id": "xy-ch94-020"
+      "translation_span":
+        "start": 279
+        "end": 281
+        "exact": "白雪"
+      "rendered_text": "白雪（はくせつ）"
+      "gloss_ja": "古い楽曲名に由来する、高雅な詩や音楽のたとえ。"
+    - "entry_id": "xy-ch82-moli-flower"
+      "form_id": "xy-ch82-moli-flower-form"
+      "segment_id": "xy-ch94-020"
+      "translation_span":
+        "start": 394
+        "end": 396
+        "exact": "茉藜"
+      "rendered_text": "茉藜（まつり）"
+      "gloss_ja": "ジャスミン類を指す古い花の名。"
+    - "entry_id": "xy-entry-0860"
+      "form_id": "xy-form-0984"
+      "segment_id": "xy-ch94-020"
+      "translation_span":
+        "start": 480
+        "end": 481
+        "exact": "蕙"
+      "rendered_text": "蕙（けい）"
+      "gloss_ja": "香草の一種をいう古い名。現代の一つの植物種に限らない。"
+    - "entry_id": "xy-ch94-lichun-flower"
+      "form_id": "xy-ch94-lichun-flower-form"
+      "segment_id": "xy-ch94-020"
+      "translation_span":
+        "start": 504
+        "end": 507
+        "exact": "麗春花"
+      "rendered_text": "麗春花（れいしゅんか）"
+      "gloss_ja": "ヒナゲシ類を指すとされる花の名。"
+    - "entry_id": "xy-ch94-mubi-flower"
+      "form_id": "xy-ch94-mubi-flower-form"
+      "segment_id": "xy-ch94-020"
+      "translation_span":
+        "start": 516
+        "end": 519
+        "exact": "木筆花"
+      "rendered_text": "木筆花（もくひつか）"
+      "gloss_ja": "筆に似たつぼみを持つモクレン類の花木をいう名。"
+    - "entry_id": "xy-ch82-hanxiao-flower"
+      "form_id": "xy-ch91-hanxiao-flower-form"
+      "segment_id": "xy-ch94-020"
+      "translation_span":
+        "start": 545
+        "end": 548
+        "exact": "含笑花"
+      "rendered_text": "含笑花（がんしょうか）"
+      "gloss_ja": "モクレン科の香りのある花木を指す名。"
+    - "entry_id": "xy-ch94-huayi-pavilion"
+      "form_id": "xy-ch94-huayi-short-form"
+      "segment_id": "xy-ch94-021"
+      "translation_span":
+        "start": 60
+        "end": 63
+        "exact": "華夷閣"
+      "rendered_text": "華夷閣（かいかく）"
+    - "entry_id": "xy-ch39-phoenix-pavilion"
+      "form_id": "xy-ch39-phoenix-pavilion-form"
+      "segment_id": "xy-ch94-022"
+      "translation_span":
+        "start": 17
+        "end": 19
+        "exact": "鳳閣"
+      "rendered_text": "鳳閣（ほうかく）"
+      "gloss_ja": "宮殿の華やかな楼閣を形容する呼び名。"
+    - "entry_id": "xy-entry-1159"
+      "form_id": "xy-form-1321"
+      "segment_id": "xy-ch94-022"
+      "translation_span":
+        "start": 26
+        "end": 28
+        "exact": "竜楼"
+      "rendered_text": "竜楼（りゅうろう）"
+      "gloss_ja": "竜の飾りを備えた楼閣など、天子の宮殿をいう呼び名。"
+    - "entry_id": "xy-entry-0967"
+      "form_id": "xy-form-1114"
+      "segment_id": "xy-ch94-022"
+      "translation_span":
+        "start": 86
+        "end": 87
+        "exact": "笙"
+      "rendered_text": "笙（しょう）"
+      "gloss_ja": "複数の管を束ねた、吹いて鳴らす楽器。"
+    - "entry_id": "xy-ch94-hanlin-scholars"
+      "form_id": "xy-ch94-hanlin-scholars-form"
+      "segment_id": "xy-ch94-023"
+      "translation_span":
+        "start": 130
+        "end": 132
+        "exact": "翰林"
+      "rendered_text": "翰林（かんりん）"
+      "gloss_ja": "宮廷で文筆や学問を担う学士たちの呼称。"
+    - "entry_id": "xy-vocab-122"
+      "form_id": "xy-vocab-122-form"
+      "segment_id": "xy-ch94-025"
+      "translation_span":
+        "start": 9
+        "end": 11
+        "exact": "造化"
+      "rendered_text": "造化（ぞうか）"
+      "gloss_ja": "天地が万物を生み育てる働き。"
+    - "entry_id": "xy-ch80-she-day"
+      "form_id": "xy-ch80-she-day-form"
+      "segment_id": "xy-ch94-029"
+      "translation_span":
+        "start": 42
+        "end": 44
+        "exact": "社日"
+      "rendered_text": "社日（しゃにち）"
+      "gloss_ja": "土地の神を祭る日。春と秋にあり、ここでは秋の社日。"
+    - "entry_id": "xy-ch94-four-writing-treasures"
+      "form_id": "xy-ch94-four-writing-treasures-form"
+      "segment_id": "xy-ch94-032"
+      "translation_span":
+        "start": 228
+        "end": 232
+        "exact": "文房四宝"
+      "rendered_text": "文房四宝（ぶんぼうしほう）"
+      "gloss_ja": "筆・墨・硯・紙という四つの書画道具。"
+    - "entry_id": "xy-term-050"
+      "form_id": "xy-term-050-form"
+      "segment_id": "xy-ch94-036"
+      "translation_span":
+        "start": 0
+        "end": 2
+        "exact": "北斗"
+      "rendered_text": "北斗（ほくと）"
+    - "entry_id": "xy-ch94-animal-charcoal"
+      "form_id": "xy-ch94-animal-charcoal-form"
+      "segment_id": "xy-ch94-040"
+      "translation_span":
+        "start": 51
+        "end": 53
+        "exact": "獣炭"
+      "rendered_text": "獣炭（じゅうたん）"
+      "gloss_ja": "獣の形に固めた炭、または獣骨の炭をいう。ここでの製法は不明。"
+    - "entry_id": "xy-ch69-su-dairy"
+      "form_id": "xy-ch69-su-dairy-form"
+      "segment_id": "xy-ch94-040"
+      "translation_span":
+        "start": 65
+        "end": 66
+        "exact": "酥"
+      "rendered_text": "酥（そ）"
+      "gloss_ja": "乳から作る、油脂分の多い食品。"
+    - "entry_id": "xy-ch51-curd"
+      "form_id": "xy-ch51-curd-form"
+      "segment_id": "xy-ch94-040"
+      "translation_span":
+        "start": 70
+        "end": 71
+        "exact": "酪"
+      "rendered_text": "酪（らく）"
+      "gloss_ja": "乳から作る、凝固・発酵させた乳製品。"
+    - "entry_id": "xy-ch94-monks-staff"
+      "form_id": "xy-ch94-monks-staff-form"
+      "segment_id": "xy-ch94-043"
+      "translation_span":
+        "start": 227
+        "end": 229
+        "exact": "禅杖"
+      "rendered_text": "禅杖（ぜんじょう）"
+      "gloss_ja": "僧が用いる杖。ここでは八戒を打つために振るう。"
+    - "entry_id": "xy-ch69-zhenggong"
+      "form_id": "xy-ch69-zhenggong-form"
+      "segment_id": "xy-ch94-045"
+      "translation_span":
+        "start": 199
+        "end": 201
+        "exact": "正宮"
+      "rendered_text": "正宮（せいぐう）"
+      "gloss_ja": "君主の正妻である后をいう呼び名。"
+    - "entry_id": "xy-ch94-tianzhu-zhaoyang"
+      "form_id": "xy-ch94-tianzhu-zhaoyang-form"
+      "segment_id": "xy-ch94-045"
+      "translation_span":
+        "start": 265
+        "end": 268
+        "exact": "昭陽宮"
+      "rendered_text": "昭陽宮（しょうようきゅう）"
+      "gloss_ja": "天竺国の内宮にある宮殿の名。"
+    - "entry_id": "xy-ch94-mao-qiang"
+      "form_id": "xy-ch94-mao-qiang-form"
+      "segment_id": "xy-ch94-049"
+      "translation_span":
+        "start": 21
+        "end": 23
+        "exact": "毛嬙"
+      "rendered_text": "毛嬙（もうしょう）"
+      "gloss_ja": "西施と並べて称される古代の美女。"
+    - "entry_id": "xy-ch94-chu-maiden"
+      "form_id": "xy-ch94-chu-maiden-form"
+      "segment_id": "xy-ch94-049"
+      "translation_span":
+        "start": 35
+        "end": 37
+        "exact": "楚妹"
+      "rendered_text": "楚妹（そまい）"
+      "gloss_ja": "楚の美女をいう詩的な語。誰か一人の名とは定められない。"
+    - "entry_id": "xy-entry-1684"
+      "form_id": "xy-form-1992"
+      "segment_id": "xy-ch94-051"
+      "translation_span":
+        "start": 73
+        "end": 75
+        "exact": "天台"
+      "rendered_text": "天台（てんだい）"
+      "gloss_ja": "仙境として詠まれる、中国の山。"
+    - "entry_id": "xy-entry-1445"
+      "form_id": "xy-form-1676"
+      "segment_id": "xy-ch94-053"
+      "translation_span":
+        "start": 11
+        "end": 13
+        "exact": "麝香"
+      "rendered_text": "麝香（じゃこう）"
+    - "entry_id": "xy-entry-0856"
+      "form_id": "xy-form-0980"
+      "segment_id": "xy-ch94-053"
+      "translation_span":
+        "start": 95
+        "end": 96
+        "exact": "裳"
+      "rendered_text": "裳（も）"
+      "gloss_ja": "腰から下にまとう衣。"
+    - "entry_id": "xy-entry-0462"
+      "form_id": "xy-form-0523"
+      "segment_id": "xy-ch94-053"
+      "translation_span":
+        "start": 137
+        "end": 138
+        "exact": "鸞"
+      "rendered_text": "鸞（らん）"
+      "gloss_ja": "鳳凰に似た、伝説の霊鳥。"
+    - "entry_id": "xy-entry-1448"
+      "form_id": "xy-form-1679"
+      "segment_id": "xy-ch94-056"
+      "translation_span":
+        "start": 106
+        "end": 107
+        "exact": "両"
+      "rendered_text": "両（りょう）"
+      "gloss_ja": "金銀などの重さを表す古い単位。実際の重さは時代などで異なる。"
+    - "entry_id": "xy-entry-1906"
+      "form_id": "xy-form-2264"
+      "segment_id": "xy-ch94-057"
+      "translation_span":
+        "start": 86
+        "end": 88
+        "exact": "花押"
+      "rendered_text": "花押（かおう）"
+      "gloss_ja": "本人のしるしとして書く、図案化した署名。"
+    - "entry_id": "xy-entry-0709"
+      "form_id": "xy-form-0814"
+      "segment_id": "xy-ch94-057"
+      "translation_span":
+        "start": 123
+        "end": 125
+        "exact": "霊山"
+      "rendered_text": "霊山（れいざん）"
+    - "entry_id": "xy-ch94-ingot-unit"
+      "form_id": "xy-ch94-ingot-unit-form"
+      "segment_id": "xy-ch94-057"
+      "translation_span":
+        "start": 256
+        "end": 257
+        "exact": "錠"
+      "rendered_text": "錠（じょう）"
+      "gloss_ja": "金銀を鋳固めた塊を数える語。"
+    - "entry_id": "xy-ch54-station-chief"
+      "form_id": "xy-ch54-station-chief-form"
+      "segment_id": "xy-ch94-058"
+      "translation_span":
+        "start": 70
+        "end": 72
+        "exact": "駅丞"
+      "rendered_text": "駅丞（えきじょう）"
+      "gloss_ja": "宿駅の管理を担う役人。"
+    - "entry_id": "xy-entry-0729"
+      "form_id": "xy-form-0838"
+      "segment_id": "xy-ch94-059"
+      "translation_span":
+        "start": 14
+        "end": 16
+        "exact": "仙気"
+      "rendered_text": "仙気（せんき）"
+      "gloss_ja": "仙人の身に備わるとされる霊妙な力。"
+    - "entry_id": "xy-entry-1330"
+      "form_id": "xy-form-1532"
+      "segment_id": "xy-ch94-061"
+      "translation_span":
+        "start": 73
+        "end": 76
+        "exact": "毘盧帽"
+      "rendered_text": "毘盧帽（びるぼう）"
+      "gloss_ja": "僧がかぶる帽子の一種。"
+    - "entry_id": "xy-ch94-tianzhu-zhique"
+      "form_id": "xy-ch94-tianzhu-zhique-form"
+      "segment_id": "xy-ch94-061"
+      "translation_span":
+        "start": 222
+        "end": 225
+        "exact": "鳷鵲宮"
+      "rendered_text": "鳷鵲宮（しじゃくきゅう）"
+      "gloss_ja": "天竺国の宮中にある、婚礼の宴の場所となる宮殿。"
+"provenance":
+  "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-094-source-1500607-zh-hant.txt"
+  "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-094-manifest-1500607.json"
+  "acquired_at": "2026-10-25"
+  "actual_acquisition_url": "https://zh.wikisource.org/w/index.php?oldid=1500607&title=%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC094%E5%9B%9E"
+  "fixed_url_fetch_success": true
+  "revision_identification": "現行ページの永久リンクを実際に開いて固定版1500607を取得し、固定版の版表示とページ末尾を照合。固定版末尾は別取得で重複部分を照合して補完。秒とタイムゾーン未確認。"
+  "source_normalization": "成功した固定URLの取得表示を重複照合し全278行をL0〜L277として保存。回題L117〜118、本文L121〜245の非空行を一度ずつ収録。固定版は不转换で繁体変換を施していない（保存名zh-hantは既存命名規約）。字下げのある表示行の先頭4字だけを除き、連続詩行を改行で結合。自伝の三行L123・128・133は散文として扱う。原字・句読点・行内文字は保持。source_locationsは保存ファイルの1始まり物理行、表示L番号+1。日本語の詩は全句を保って改行する。"
+  "pretranslation_workflow": "AGENTS→root README→翻訳スキル→作品README→直前093の声→YAML仕様・辞書README・AUTHOR_PROTOCOL。固定版全文を保存し全63原文単位を通読後、chapter-094-voices.mdを作って翻訳。"
+  "dictionary_base_sha256": "79bba91fafe452d13abf54b2a6e0fb9a62138817432b5b8645ffa9029f09f346"
+  "dictionary_effective_base_sha256": "af1d3855a4e2516315530a8c2612dadec7ac74ba764d92d07337ad4fb0e855bb"
+  "dictionary_dependencies":
+    "canonical_reconciliation_bridge_sha256": "0b4995f97cef437ad6ceb08cc09adad116f4a67c3fc03b48b1f83b2be11763b4"
+    "reviewed_canonical_bridge075_sha256": "dba6e465745296e40dd7954b7187ac99a12c7caf0a29171439fe569b92af1229"
+    "reviewed_source_only_bridges":
+      - "path": "reviewed-predecessor-source-bridge-080.json"
+        "sha256": "da96615fe95271c16be9bca7328a3162ae55f5e628ffe4705fed605475cc9b03"
+        "apply_after_chapter": 81
+        "equivalent_order": "May apply after original080 before081; own081 does not touch this source."
+        "source_id": "xy-ch80-lama"
+        "change": "url only"
+        "reviewer_evidence": "received-source-bridge-verification.json"
+        "reviewer_evidence_sha256": "c0fcc7ac1d931b6d857ea30c765907fdf1035d2c70204cbcc5dd468b5594095f"
+    "source_bridge_final_080_READY":
+      "sha256": "ab3389e15886e1e9788e2abf2d96853c0405a9bd933445c199018b344c30a27c"
+      "path": "reviewed-predecessor-080-READY.sha256"
+      "verification_record": "reviewed-predecessor-080-final-verification.json"
+      "verification_record_sha256": "eb60db9ca16c5d6f6455de97a86a9574b927987d7575dfb6868d4f2cc2559927"
+      "upstream_reviewer_verified_files": 177
+      "own_check": "READY copy hash, fixed bridge hash, full current080 dictionary and patch hashes verified; other080 artifact verification is upstream reviewer attestation."
+    "reviewed_dictionary_bridges":
+      - "path": "reviewed-predecessor-correction-bridge-084.json"
+        "sha256": "d3e7bbb599cc0615cbf3f1fe8053083de836686b9f624f51708ba414f84b95fd"
+        "apply_after_chapter": 84
+        "old_input_sha256": "4f1d483e526f8330ae2c916c3beac6c87c2e9840b3ac1f05723036685d835d0b"
+        "new_input_sha256": "a6f5ec158339d9ed09281dabbaa6aef547fdb577fa6928f5e1990ec699201467"
+        "verification_record": "reviewed-predecessor-084-final-verification.json"
+        "verification_record_sha256": "89d3e5c7343dfe2fcc51b259d5911ece2d92a0d5104a80ef7ee5c31515fed137"
+      - "path": "reviewed-predecessor-correction-bridge-085.json"
+        "sha256": "c2bd70e221c4d8334052bbfc2f17775ad946490bf17c4144bdff3ef1d50867ab"
+        "apply_after_chapter": 85
+        "old_input_sha256": "e832fef1cac03a09d30b4c151e680b51a554cd94c89816e9e88a93d7d747e327"
+        "new_input_sha256": "c016837370d69ae0952c3a16e65c3fd223658c4aaf5361a2e44ffd3fe7555cf0"
+        "verification_record": "reviewed-predecessor-085-final-verification.json"
+        "verification_record_sha256": "3a7e86bd9e498785459a9efe1fa9764ab87029309eb2748fc58a462b79a98441"
+      - "path": "reviewed-predecessor-correction-bridge-086.json"
+        "sha256": "f2569af5e88e59ea2873bb1f4abd8c5091e1efdfc265315e5ef49232f6af2aa2"
+        "apply_after_chapter": 86
+        "old_input_sha256": "41bf12606c2681a190b6780d54997445ff6a0d61f882fda5c9f232a09845af74"
+        "new_input_sha256": "88d5e90b63450c0da47acf8e94279d471ebfaebb031f91a764f408c42a3dc29f"
+        "original_patch_sha256": "502200840eb66fadec6de33aed0027bb46281feb9e35c4371493737beb9e7153"
+        "local_guard_record": "received-reviewed086-bridge-verification.json"
+        "application_note": "Original frozen086 patch then bridge086 then original087 patch; no087 entry overlap and bridge source records inserted before087 source records."
+    "author087_effective_base_sha256": "30cdf2c2eca7911c448cbeab2f9788e49aa512d5fa31cb004fe0a7513f23d7a6"
+    "reviewed_effective_base_sha256": "c9f59f26ab9f09dab0ca27b994933d1d7cc1fa320ef8463d7a0c1eb8c1435f11"
+    "inherited_apply_order": "Historical base -> patches053–071 ->072 bridge -> patches072–074 ->075 bridge -> patches075–081 ->080 source-only bridge -> patches082–084 -> reviewed084 correction bridge -> patch085 -> reviewed085 correction bridge -> patch086 = exact frozen086 input. Own087 patch next.; append actual frozen087 patch to obtain088 input, then own088 patch.; reviewed086 bridge inserted immediately after original086 patch, before original087 patch. Original087 input preserved separately; own088 uses reviewed-effective-dictionary-base.yaml."
+    "author090_pending_review_bridges":
+      "path": "author090-pending-review-bridges.json"
+      "sha256": "41305055848102666f75daa0688511fdcd18e039d64221547ac18bce004443e6"
+      "applied": false
+    "author091_pending_review_bridges":
+      "path": "author091-pending-review-bridges.json"
+      "sha256": "9fcd21fabeb2edcef1ee8fda94668ff691d9b1b18cd41db6f1b1d659db954cf7"
+    "late_reviewed090_notification_only":
+      "path": "late-reviewed090-reception.json"
+      "sha256": "7c1807bcfa9a9d69d633042e32d811eb2ad865ee438099eb09206e096bfa03c7"
+      "applied": false
+    "author093_pending_review_bridges":
+      "path": "author093-pending-review-bridges.json"
+      "sha256": "6006424f606643ed2a8ab70581544a51b35ea08d1887847b168f3d2597e5f046"
+      "applied": false
+    "predecessor_chapter": 93
+    "predecessor_directory": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch093"
+    "predecessor_READY_sha256": "7e345bd572e62adfc7272376b2ddda157d8518cf796cc42cffdcaa0facfdeaf0"
+    "predecessor_freeze_files_verified": 449
+    "predecessor_effective_dictionary_sha256": "af1d3855a4e2516315530a8c2612dadec7ac74ba764d92d07337ad4fb0e855bb"
+    "effective_base_sha256": "af1d3855a4e2516315530a8c2612dadec7ac74ba764d92d07337ad4fb0e855bb"
+    "base_dictionary_sha256": "79bba91fafe452d13abf54b2a6e0fb9a62138817432b5b8645ffa9029f09f346"
+    "historical_chain_base_sha256": "af5fde3d95eae1f2d3fb5166bbe2d9f0022998c5758e92f021af9d60c5e85982"
+    "inherited_dependency_manifest_sha256": "6908e0ca1f5e62ddda36a2d005e141acb38a4d87c999d828b55e3824b76d83d6"
+    "historical_dependencies":
+      - "chapter": 53
+        "frozen_path": "dependencies/chapter-053-lexicon-patch.json"
+        "sha256": "818ddc483692470d0d015d33e494d9f5e59f507e58387e08df3471b537d2fbfb"
+      - "chapter": 54
+        "frozen_path": "dependencies/chapter-054-lexicon-patch.json"
+        "sha256": "3e58aac2d5c9a8cca3fae2ebe25ea1e6c66042bf9d4e015716fa21c1448f5200"
+      - "chapter": 55
+        "frozen_path": "dependencies/chapter-055-lexicon-patch.json"
+        "sha256": "1f9e2148c48c3dc0c3e0e472fe00f32a416ed205c2dce01e8692e0482a3726a6"
+      - "chapter": 56
+        "frozen_path": "dependencies/chapter-056-lexicon-patch.json"
+        "sha256": "e4c7d18eeabeddda46dd8555e6e37d6e5254982b77223e4bb9d2259b5930a8a3"
+      - "chapter": 57
+        "frozen_path": "dependencies/chapter-057-lexicon-patch.json"
+        "sha256": "84455c592a51892268700b7954a0f416eec21ddf2e37e53a98f38185b7d6a5f0"
+      - "chapter": 58
+        "frozen_path": "dependencies/chapter-058-lexicon-patch.json"
+        "sha256": "a644efca7dab3d8555f3fa07a0b7ed6ff2785ecbf33e76cfa44faae31491d93e"
+      - "chapter": 59
+        "frozen_path": "dependencies/chapter-059-lexicon-patch.json"
+        "sha256": "5d2bcb1e038de90d47fd42eabd0e7fadce7f52c4faf9b3de2a68f50ea2c974d8"
+      - "chapter": 60
+        "frozen_path": "dependencies/chapter-060-lexicon-patch.json"
+        "sha256": "4166a386608157350a6b485e90eb92ff91230d94af069a5f9e22525873b0e7b6"
+      - "chapter": 61
+        "frozen_path": "dependencies/chapter-061-lexicon-patch.json"
+        "sha256": "68fea0de6640c111c9cfcb1c2ca9d23f0a8308d13501333613480e7e36377be5"
+      - "chapter": 62
+        "frozen_path": "dependencies/chapter-062-lexicon-patch.json"
+        "sha256": "fd3a2deac4c7f58485ded345c743dd7e69008ac948c79b70575eee81f6b73e09"
+      - "chapter": 63
+        "frozen_path": "dependencies/chapter-063-lexicon-patch.json"
+        "sha256": "ff3fb34f6934eb30395def3ea109e0014c792afe523557f73bdc76dc1200dbe0"
+      - "chapter": 64
+        "frozen_path": "dependencies/chapter-064-lexicon-patch.json"
+        "sha256": "6e159efa9913b208b62f7f85686eb9e471f1a5f435a0a5e329de6eb06fc4b419"
+      - "chapter": 65
+        "frozen_path": "dependencies/chapter-065-lexicon-patch.json"
+        "sha256": "d51b145559f77653a978da389ddaa1a9893b4abb0cdf6c0045b122e1875841b8"
+      - "chapter": 66
+        "frozen_path": "dependencies/chapter-066-lexicon-patch.json"
+        "sha256": "22d74c2b2b55f1c713d07eb50b324fafe3b2a24efeff1fd11ad311a2d7ad15bb"
+      - "chapter": 67
+        "frozen_path": "dependencies/chapter-067-lexicon-patch.json"
+        "sha256": "888a1de075fda4eee739e71536420ceb141f8ba8d157f6a55bb85fc05d115f61"
+      - "chapter": 68
+        "frozen_path": "dependencies/chapter-068-lexicon-patch.json"
+        "sha256": "2dd3f26f87de0867d197803a136033c2886f411c7f84a4067ea15c0d18872db8"
+      - "chapter": 69
+        "frozen_path": "dependencies/chapter-069-lexicon-patch.json"
+        "sha256": "fe9150b3be5e6ea7eba5a8ab4b87168bb0313a923b892785e76b658e31705c25"
+      - "chapter": 70
+        "frozen_path": "dependencies/chapter-070-lexicon-patch.json"
+        "sha256": "987855491ed0799c5277e681b01f0110b14f6a109de1efd96b1b3e50cb64d168"
+      - "chapter": 71
+        "frozen_path": "dependencies/chapter-071-lexicon-patch.json"
+        "sha256": "09054b307f2ca24c40dfca568cce236cebd1fb75531de46091ec8af44074a061"
+      - "chapter": 72
+        "frozen_path": "dependencies/chapter-072-lexicon-patch.json"
+        "sha256": "143c52b992f1c225bcc54fff1db755c0f9937dda122437753184c4579c8fe99e"
+      - "chapter": 73
+        "frozen_path": "dependencies/chapter-073-lexicon-patch.json"
+        "sha256": "b6252c8e90a91803f2f284f0009ef8ab1bb42eb97dc59079f411b16fb35fb716"
+      - "chapter": 74
+        "frozen_path": "dependencies/chapter-074-lexicon-patch.json"
+        "sha256": "a7b00275337408cd6875f3e1c92b12038bb80273cdcd9786db68a8ef15958b2f"
+      - "chapter": 75
+        "frozen_path": "dependencies/chapter-075-lexicon-patch.json"
+        "sha256": "922215ca927b634d1dd64a65858aa647fbd1277b1e923564db642e2f93d0a44f"
+      - "chapter": 76
+        "frozen_path": "dependencies/chapter-076-lexicon-patch.json"
+        "sha256": "ec25d98701ba9223da4ff3a76560271ef8a4746787ffb2ad92ec9efa01385e3c"
+      - "chapter": 77
+        "frozen_path": "dependencies/chapter-077-lexicon-patch.json"
+        "sha256": "4aa73762277955d4b0bb85f084efabccdac59d1d37c46215deff462925367191"
+      - "chapter": 78
+        "frozen_path": "dependencies/chapter-078-lexicon-patch.json"
+        "sha256": "c96718254a87e9a40f60164f6f535af0a5923cb392432915efd99c194e391159"
+      - "chapter": 79
+        "frozen_path": "dependencies/chapter-079-lexicon-patch.json"
+        "sha256": "f2443ac8a00406aeba3615c9ee8cc275fe69469a90f0b43c8bfece68c19f1f5a"
+      - "chapter": 80
+        "frozen_path": "dependencies/chapter-080-lexicon-patch.json"
+        "sha256": "dc73b48ca156e2719a8f09694e44e4d01200c39fdeb2112f9f6c2b31cc043f9e"
+      - "chapter": 81
+        "frozen_path": "dependencies/chapter-081-lexicon-patch.json"
+        "sha256": "2eac2867d6f8ab2790e1cb12e3ed057e48891b4413228246d16620b063722121"
+      - "chapter": 82
+        "frozen_path": "dependencies/chapter-082-lexicon-patch.json"
+        "sha256": "8f50bb01021d86e9c4e1fa20a3c144d33a4e474b5dfced9be7b0d3469ca2eae6"
+      - "chapter": 83
+        "frozen_path": "dependencies/chapter-083-lexicon-patch.json"
+        "sha256": "9fcb5d2e6042027cc40cd3d079f910138a2406d38234450cf1ea1d9c0fd99c3e"
+      - "chapter": 84
+        "frozen_path": "dependencies/chapter-084-lexicon-patch.json"
+        "sha256": "2d57f0d229763a4be157c207d372e595a583579741f1d568c0bdd6ed8bfcce93"
+      - "chapter": 85
+        "frozen_path": "dependencies/chapter-085-lexicon-patch.json"
+        "sha256": "dcebb41b217010aab89587f4a29dcd79100e1c1a7a09a49a182a1a5b7775b25c"
+      - "chapter": 86
+        "frozen_path": "dependencies/chapter-086-lexicon-patch.json"
+        "sha256": "502200840eb66fadec6de33aed0027bb46281feb9e35c4371493737beb9e7153"
+      - "chapter": 87
+        "frozen_path": "dependencies/chapter-087-lexicon-patch.json"
+        "sha256": "b775c46b753f9f911061aeb1dcfb805f34d02b4145afaea1ff8240ae933e362b"
+      - "chapter": 88
+        "frozen_path": "dependencies/chapter-088-lexicon-patch.json"
+        "sha256": "8f9cb13f2c465772a39b13b24c00bfbff38ec90956961863d912357e4acc8618"
+      - "chapter": 89
+        "frozen_path": "dependencies/chapter-089-lexicon-patch.json"
+        "sha256": "4e2f3252d70ee3afab8be41b02f0fe2ff8c6f39bcc4a7db394e2b7f6d5dea387"
+      - "chapter": 90
+        "frozen_path": "dependencies/chapter-090-lexicon-patch.json"
+        "sha256": "5955120693628db0fc22e565360c6c0fa86eefb2c5a762f4692203b120125978"
+      - "chapter": 91
+        "frozen_path": "dependencies/chapter-091-lexicon-patch.json"
+        "sha256": "682851389439e809b45b26eb550a399b2f39583981622ef4d595d0df49171d21"
+      - "chapter": 92
+        "frozen_path": "dependencies/chapter-092-lexicon-patch.json"
+        "sha256": "9fe06a9c74546a2062bf5686e3603e2c874ac5a64667d6e4a671930773c736b0"
+      - "chapter": 93
+        "frozen_path": "dependencies/chapter-093-lexicon-patch.json"
+        "sha256": "bae22061bb8d54638d6f31fdb64710f406d8c375b09056abdf1bb4e2f0292b06"
+    "preserved_predecessor_inputs":
+      - "path": "predecessor-093-READY.sha256"
+        "sha256": "52a1bf06e0a16bd8f3e150f0cad2b72d3673c2ed9e398a4818c0fa0432777203"
+      - "path": "author090-pending-review-bridges.json"
+        "sha256": "41305055848102666f75daa0688511fdcd18e039d64221547ac18bce004443e6"
+      - "path": "author091-pending-review-bridges.json"
+        "sha256": "9fcd21fabeb2edcef1ee8fda94668ff691d9b1b18cd41db6f1b1d659db954cf7"
+      - "path": "author093-pending-review-bridges.json"
+        "sha256": "6006424f606643ed2a8ab70581544a51b35ea08d1887847b168f3d2597e5f046"
+      - "path": "base-dictionary.yaml"
+        "sha256": "79bba91fafe452d13abf54b2a6e0fb9a62138817432b5b8645ffa9029f09f346"
+      - "path": "canonical-reconciliation-bridge.json"
+        "sha256": "0b4995f97cef437ad6ceb08cc09adad116f4a67c3fc03b48b1f83b2be11763b4"
+      - "path": "dependencies/chapter-053-lexicon-patch.json"
+        "sha256": "818ddc483692470d0d015d33e494d9f5e59f507e58387e08df3471b537d2fbfb"
+      - "path": "dependencies/chapter-054-lexicon-patch.json"
+        "sha256": "3e58aac2d5c9a8cca3fae2ebe25ea1e6c66042bf9d4e015716fa21c1448f5200"
+      - "path": "dependencies/chapter-055-lexicon-patch.json"
+        "sha256": "1f9e2148c48c3dc0c3e0e472fe00f32a416ed205c2dce01e8692e0482a3726a6"
+      - "path": "dependencies/chapter-056-lexicon-patch.json"
+        "sha256": "e4c7d18eeabeddda46dd8555e6e37d6e5254982b77223e4bb9d2259b5930a8a3"
+      - "path": "dependencies/chapter-057-lexicon-patch.json"
+        "sha256": "84455c592a51892268700b7954a0f416eec21ddf2e37e53a98f38185b7d6a5f0"
+      - "path": "dependencies/chapter-058-lexicon-patch.json"
+        "sha256": "a644efca7dab3d8555f3fa07a0b7ed6ff2785ecbf33e76cfa44faae31491d93e"
+      - "path": "dependencies/chapter-059-lexicon-patch.json"
+        "sha256": "5d2bcb1e038de90d47fd42eabd0e7fadce7f52c4faf9b3de2a68f50ea2c974d8"
+      - "path": "dependencies/chapter-060-lexicon-patch.json"
+        "sha256": "4166a386608157350a6b485e90eb92ff91230d94af069a5f9e22525873b0e7b6"
+      - "path": "dependencies/chapter-061-lexicon-patch.json"
+        "sha256": "68fea0de6640c111c9cfcb1c2ca9d23f0a8308d13501333613480e7e36377be5"
+      - "path": "dependencies/chapter-062-lexicon-patch.json"
+        "sha256": "fd3a2deac4c7f58485ded345c743dd7e69008ac948c79b70575eee81f6b73e09"
+      - "path": "dependencies/chapter-063-lexicon-patch.json"
+        "sha256": "ff3fb34f6934eb30395def3ea109e0014c792afe523557f73bdc76dc1200dbe0"
+      - "path": "dependencies/chapter-064-lexicon-patch.json"
+        "sha256": "6e159efa9913b208b62f7f85686eb9e471f1a5f435a0a5e329de6eb06fc4b419"
+      - "path": "dependencies/chapter-065-lexicon-patch.json"
+        "sha256": "d51b145559f77653a978da389ddaa1a9893b4abb0cdf6c0045b122e1875841b8"
+      - "path": "dependencies/chapter-066-lexicon-patch.json"
+        "sha256": "22d74c2b2b55f1c713d07eb50b324fafe3b2a24efeff1fd11ad311a2d7ad15bb"
+      - "path": "dependencies/chapter-067-lexicon-patch.json"
+        "sha256": "888a1de075fda4eee739e71536420ceb141f8ba8d157f6a55bb85fc05d115f61"
+      - "path": "dependencies/chapter-068-lexicon-patch.json"
+        "sha256": "2dd3f26f87de0867d197803a136033c2886f411c7f84a4067ea15c0d18872db8"
+      - "path": "dependencies/chapter-069-lexicon-patch.json"
+        "sha256": "fe9150b3be5e6ea7eba5a8ab4b87168bb0313a923b892785e76b658e31705c25"
+      - "path": "dependencies/chapter-070-lexicon-patch.json"
+        "sha256": "987855491ed0799c5277e681b01f0110b14f6a109de1efd96b1b3e50cb64d168"
+      - "path": "dependencies/chapter-071-lexicon-patch.json"
+        "sha256": "09054b307f2ca24c40dfca568cce236cebd1fb75531de46091ec8af44074a061"
+      - "path": "dependencies/chapter-072-lexicon-patch.json"
+        "sha256": "143c52b992f1c225bcc54fff1db755c0f9937dda122437753184c4579c8fe99e"
+      - "path": "dependencies/chapter-073-lexicon-patch.json"
+        "sha256": "b6252c8e90a91803f2f284f0009ef8ab1bb42eb97dc59079f411b16fb35fb716"
+      - "path": "dependencies/chapter-074-lexicon-patch.json"
+        "sha256": "a7b00275337408cd6875f3e1c92b12038bb80273cdcd9786db68a8ef15958b2f"
+      - "path": "dependencies/chapter-075-lexicon-patch.json"
+        "sha256": "922215ca927b634d1dd64a65858aa647fbd1277b1e923564db642e2f93d0a44f"
+      - "path": "dependencies/chapter-076-lexicon-patch.json"
+        "sha256": "ec25d98701ba9223da4ff3a76560271ef8a4746787ffb2ad92ec9efa01385e3c"
+      - "path": "dependencies/chapter-077-lexicon-patch.json"
+        "sha256": "4aa73762277955d4b0bb85f084efabccdac59d1d37c46215deff462925367191"
+      - "path": "dependencies/chapter-078-lexicon-patch.json"
+        "sha256": "c96718254a87e9a40f60164f6f535af0a5923cb392432915efd99c194e391159"
+      - "path": "dependencies/chapter-079-lexicon-patch.json"
+        "sha256": "f2443ac8a00406aeba3615c9ee8cc275fe69469a90f0b43c8bfece68c19f1f5a"
+      - "path": "dependencies/chapter-080-lexicon-patch.json"
+        "sha256": "dc73b48ca156e2719a8f09694e44e4d01200c39fdeb2112f9f6c2b31cc043f9e"
+      - "path": "dependencies/chapter-081-lexicon-patch.json"
+        "sha256": "2eac2867d6f8ab2790e1cb12e3ed057e48891b4413228246d16620b063722121"
+      - "path": "dependencies/chapter-082-lexicon-patch.json"
+        "sha256": "8f50bb01021d86e9c4e1fa20a3c144d33a4e474b5dfced9be7b0d3469ca2eae6"
+      - "path": "dependencies/chapter-083-lexicon-patch.json"
+        "sha256": "9fcb5d2e6042027cc40cd3d079f910138a2406d38234450cf1ea1d9c0fd99c3e"
+      - "path": "dependencies/chapter-084-lexicon-patch.json"
+        "sha256": "2d57f0d229763a4be157c207d372e595a583579741f1d568c0bdd6ed8bfcce93"
+      - "path": "dependencies/chapter-085-lexicon-patch.json"
+        "sha256": "dcebb41b217010aab89587f4a29dcd79100e1c1a7a09a49a182a1a5b7775b25c"
+      - "path": "dependencies/chapter-086-lexicon-patch.json"
+        "sha256": "502200840eb66fadec6de33aed0027bb46281feb9e35c4371493737beb9e7153"
+      - "path": "dependencies/chapter-087-lexicon-patch.json"
+        "sha256": "b775c46b753f9f911061aeb1dcfb805f34d02b4145afaea1ff8240ae933e362b"
+      - "path": "dependencies/chapter-088-lexicon-patch.json"
+        "sha256": "8f9cb13f2c465772a39b13b24c00bfbff38ec90956961863d912357e4acc8618"
+      - "path": "dependencies/chapter-089-lexicon-patch.json"
+        "sha256": "4e2f3252d70ee3afab8be41b02f0fe2ff8c6f39bcc4a7db394e2b7f6d5dea387"
+      - "path": "dependencies/chapter-090-lexicon-patch.json"
+        "sha256": "5955120693628db0fc22e565360c6c0fa86eefb2c5a762f4692203b120125978"
+      - "path": "dependencies/chapter-091-lexicon-patch.json"
+        "sha256": "682851389439e809b45b26eb550a399b2f39583981622ef4d595d0df49171d21"
+      - "path": "dependencies/chapter-092-lexicon-patch.json"
+        "sha256": "9fe06a9c74546a2062bf5686e3603e2c874ac5a64667d6e4a671930773c736b0"
+      - "path": "dictionary-dependencies-before-reviewed086.json"
+        "sha256": "7b12e07e4b6be8d31fb2132673f9465becc8891019fc08d6231e8c0999b710c5"
+      - "path": "inherited-dictionary-dependencies.json"
+        "sha256": "6908e0ca1f5e62ddda36a2d005e141acb38a4d87c999d828b55e3824b76d83d6"
+      - "path": "inherited-inputs/093-effective-dictionary-base.yaml"
+        "sha256": "9b05ae69bfc6d6231f95609ef4c26d723602055cbf9b6cd4c10463ca2ce0ef5c"
+      - "path": "effective-dictionary-base.yaml"
+        "sha256": "42485bda218426a70192f0949b28d341d4b74c316ca792609ada4816e8048310"
+      - "path": "historical-chain-base-dictionary.yaml"
+        "sha256": "af5fde3d95eae1f2d3fb5166bbe2d9f0022998c5758e92f021af9d60c5e85982"
+      - "path": "inherited-inputs/093-inherited-dictionary-dependencies.json"
+        "sha256": "c34a1900b4cde9bbf48d773eb1c058b524e451f612c67477d0fb022cf1605efe"
+      - "path": "inherited-inputs/085-author084-effective-base.yaml"
+        "sha256": "4f1d483e526f8330ae2c916c3beac6c87c2e9840b3ac1f05723036685d835d0b"
+      - "path": "inherited-inputs/085-reviewed084-effective-base.yaml"
+        "sha256": "a6f5ec158339d9ed09281dabbaa6aef547fdb577fa6928f5e1990ec699201467"
+      - "path": "inherited-inputs/086-author085-effective-base.yaml"
+        "sha256": "e832fef1cac03a09d30b4c151e680b51a554cd94c89816e9e88a93d7d747e327"
+      - "path": "inherited-inputs/086-reviewed085-effective-base.yaml"
+        "sha256": "c016837370d69ae0952c3a16e65c3fd223658c4aaf5361a2e44ffd3fe7555cf0"
+      - "path": "inherited-inputs/087-effective-dictionary-base.yaml"
+        "sha256": "41bf12606c2681a190b6780d54997445ff6a0d61f882fda5c9f232a09845af74"
+      - "path": "inherited-inputs/087-inherited-dictionary-dependencies.json"
+        "sha256": "f267ef20734a5709912add345b1c706174deec164d070e8937a85b8af39e3f10"
+      - "path": "inherited-inputs/088-effective-base.yaml"
+        "sha256": "30cdf2c2eca7911c448cbeab2f9788e49aa512d5fa31cb004fe0a7513f23d7a6"
+      - "path": "inherited-inputs/088-reviewed-effective-base.yaml"
+        "sha256": "c9f59f26ab9f09dab0ca27b994933d1d7cc1fa320ef8463d7a0c1eb8c1435f11"
+      - "path": "inherited-inputs/089-effective-dictionary-base.yaml"
+        "sha256": "09e79ac546dab914a0fa14f5ae91cd39a28c41935558d7f5705de60b614ee372"
+      - "path": "inherited-inputs/089-inherited-dictionary-dependencies.json"
+        "sha256": "1be79147a252d3b8fa2cefe8aa7f9562f76f6cacacd4cb4f4fd363ca0d8d0c76"
+      - "path": "inherited-inputs/090-effective-dictionary-base.yaml"
+        "sha256": "b09940d9c639d22a5e7a402eed4910d716b0048a4c4b3d8cec205c2cf27211c8"
+      - "path": "inherited-inputs/090-inherited-dictionary-dependencies.json"
+        "sha256": "8d90c8e617e3795d1fa835df572c650fed276095a0976e370e28bb5949b3100c"
+      - "path": "inherited-inputs/091-effective-dictionary-base.yaml"
+        "sha256": "c5de20da8205f90fb86ea6fbf5b2c31c3af57dfc3a9f8e0896f76841e7254ad5"
+      - "path": "inherited-inputs/091-inherited-dictionary-dependencies.json"
+        "sha256": "18492edc973cc462a713f68aafef6b67c13b64616ba4ff084693bf9549147457"
+      - "path": "inherited-inputs/092-effective-dictionary-base.yaml"
+        "sha256": "09173e8a44367928a88c936d88938517b91f8475d9c00bb5170357b97ed4f95a"
+      - "path": "inherited-inputs/092-inherited-dictionary-dependencies.json"
+        "sha256": "5817b81cb9f04344f6bbc520e962f308a474ea65ce994a5282c4fe71a0e24e5b"
+      - "path": "inherited-inputs/092-predecessor-freeze-receipt.json"
+        "sha256": "9276e3d0db822534234eadf25c7f9a108ec4e419a323d7c4439c92334df4c27c"
+      - "path": "late-reviewed090-inputs/READY.sha256"
+        "sha256": "939eaa83b25d120c20edf93f6e2d36dd25194b1aeaf8ec14a826e71b744c3c37"
+      - "path": "late-reviewed090-inputs/reviewed-predecessor-correction-bridge-087.json"
+        "sha256": "dc20b0820fcab9349aa06ca9826cdc7787e5c4dadd42deaf12cd5225b53e3e8b"
+      - "path": "late-reviewed090-inputs/reviewed-predecessor-correction-bridge-088.json"
+        "sha256": "dc50949b3f5f337985ce46545534909d00ca8aecd5edbb87adc13f5e5271b9bc"
+      - "path": "late-reviewed090-reception.json"
+        "sha256": "7c1807bcfa9a9d69d633042e32d811eb2ad865ee438099eb09206e096bfa03c7"
+      - "path": "dependencies/chapter-093-lexicon-patch.json"
+        "sha256": "bae22061bb8d54638d6f31fdb64710f406d8c375b09056abdf1bb4e2f0292b06"
+      - "path": "predecessor-093-nonform-definition-updates.json"
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      - "path": "original-pending-reviewed086-bridge.json"
+        "sha256": "2d6305556537ce3072aaceedc0336e7aaa46f14b9719c32cca9e3dd31457f91d"
+      - "path": "pending-bridge-nonoverlap.json"
+        "sha256": "78c847c19f874c81c791832b9ef1ec1689f3048b054d6469ebb6e05e8fd62597"
+      - "path": "pending-reviewed086-bridge.json"
+        "sha256": "487c4bd23dbfa23e497101f7acdb98250ffd036a463e2f62dbe93b5985527565"
+      - "path": "pending-reviewed087-bridge.json"
+        "sha256": "f7fc2de848773a995f0f9b7db6e678ba0cf44a2e0ea5ffc6c238487af2bf7248"
+      - "path": "predecessor-083-nonform-definition-updates.json"
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      - "path": "predecessor-084-READY.sha256"
+        "sha256": "7ed793beb37df12e38337e627174c7fd0f1394d5365900c19e3030c2c28f2254"
+      - "path": "predecessor-084-nonform-definition-updates.json"
+        "sha256": "adfe437204a77307462f208ee76bbbb95517c8855d395153ab4c33c6abc24341"
+      - "path": "predecessor-085-READY.sha256"
+        "sha256": "22f11930a9bb670dc8083ba729fbf4ccdf77c30f168dbbdf11e13e7a0444797b"
+      - "path": "predecessor-085-nonform-definition-updates.json"
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      - "path": "predecessor-086-READY.sha256"
+        "sha256": "fafac08906a3a614bb0368dea33ef3f044952dde7d9c7147d2cf0c8d5f75c638"
+      - "path": "predecessor-086-nonform-definition-updates.json"
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      - "path": "predecessor-087-READY.sha256"
+        "sha256": "8e4ac259b3fff5a5a28a3c05f04076ff50a993733d9e55280a6608d4e933050b"
+      - "path": "predecessor-087-nonform-definition-updates.json"
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      - "path": "predecessor-087-pending-reviewed086-bridge.json"
+        "sha256": "92f9f22de6da85ddab10a6b027bb65f1253a84c01f2a5eb797eb5fedc8deeddb"
+      - "path": "predecessor-088-READY.sha256"
+        "sha256": "f101bcbc6dbb71bd25022470641298ea0f638ac73fea7f06a5517c309485b802"
+      - "path": "predecessor-088-nonform-definition-updates.json"
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      - "path": "predecessor-089-READY.sha256"
+        "sha256": "9454dded2e7ac26a978c7d15664d349a04bdae5c2669c701746f9e272be74cc8"
+      - "path": "predecessor-089-nonform-definition-updates.json"
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      - "path": "predecessor-090-READY.sha256"
+        "sha256": "fa5a6dc7a5beaf6829425fb4dfb5abd29cf6a681759d2e802fd0d6d292dbb4a8"
+      - "path": "predecessor-090-nonform-definition-updates.json"
+        "sha256": "4821837d0e10f4f6d934cf9b212287822805fbc4ec72834723d71681885aeca1"
+      - "path": "predecessor-091-READY.sha256"
+        "sha256": "7875e27a8ea2bdffaf220c99068864ac011bc3410497e2788731eb36eb1126e4"
+      - "path": "predecessor-091-continuity-handoff.md"
+        "sha256": "6b344bd91655930f5b9c42fbbb95c6482814426e707ec35d42021364820f0910"
+      - "path": "predecessor-091-nonform-definition-updates.json"
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      - "path": "predecessor-092-READY.sha256"
+        "sha256": "a0a89f1d47b73fe0a7593fb97c118880a16aaa20063eab03435971f72add7812"
+      - "path": "predecessor-092-nonform-definition-updates.json"
+        "sha256": "6f61c076ef54fa670143ad5331ae25b83894b8b206bb0042f4fa185481508e0d"
+      - "path": "inherited-inputs/093-predecessor-freeze-receipt.json"
+        "sha256": "69fab0a4373e21321d5b2c87a9bdb57a02001894a1ff2c07ee630de45cf916b2"
+      - "path": "received-pending087-status.json"
+        "sha256": "e4f12f487990a793fee7e051ae3489631e50f302d5074eff1b5a50269402d161"
+      - "path": "received-reviewed086-bridge-verification.json"
+        "sha256": "24b0c3bf7c1e64b71a9652a1015e59bf9b34c224e7e0184337e14aa4e3177b1d"
+      - "path": "received-source-bridge-verification.json"
+        "sha256": "c0fcc7ac1d931b6d857ea30c765907fdf1035d2c70204cbcc5dd468b5594095f"
+      - "path": "reviewed-canonical-reconciliation-bridge-075.json"
+        "sha256": "dba6e465745296e40dd7954b7187ac99a12c7caf0a29171439fe569b92af1229"
+      - "path": "reviewed-predecessor-080-READY.sha256"
+        "sha256": "ab3389e15886e1e9788e2abf2d96853c0405a9bd933445c199018b344c30a27c"
+      - "path": "reviewed-predecessor-080-final-verification.json"
+        "sha256": "eb60db9ca16c5d6f6455de97a86a9574b927987d7575dfb6868d4f2cc2559927"
+      - "path": "reviewed-predecessor-084-READY.sha256"
+        "sha256": "d27418273eaf3773a1c03b11c6b8656c5c1d960a8a3e36b03e6c7fd1aea945ff"
+      - "path": "reviewed-predecessor-084-final-verification.json"
+        "sha256": "89d3e5c7343dfe2fcc51b259d5911ece2d92a0d5104a80ef7ee5c31515fed137"
+      - "path": "reviewed-predecessor-084-nonform-definition-updates.json"
+        "sha256": "b07b67d65e9a64a921df5b25f4cc598f8c9006fb7c4ca301b733079b8b8b0f1b"
+      - "path": "reviewed-predecessor-085-READY.sha256"
+        "sha256": "425165b927f12f450cbf08ca944b7189556aeaa19c335346aa181613c0267da9"
+      - "path": "reviewed-predecessor-085-final-verification.json"
+        "sha256": "3a7e86bd9e498785459a9efe1fa9764ab87029309eb2748fc58a462b79a98441"
+      - "path": "reviewed-predecessor-085-nonform-definition-updates.json"
+        "sha256": "e0324f1c3ee683f616f258313074ef644ac45ec6df0362bada973ba00c6e182b"
+      - "path": "reviewed-predecessor-correction-bridge-084.json"
+        "sha256": "d3e7bbb599cc0615cbf3f1fe8053083de836686b9f624f51708ba414f84b95fd"
+      - "path": "reviewed-predecessor-correction-bridge-085.json"
+        "sha256": "c2bd70e221c4d8334052bbfc2f17775ad946490bf17c4144bdff3ef1d50867ab"
+      - "path": "reviewed-predecessor-correction-bridge-086.json"
+        "sha256": "f2569af5e88e59ea2873bb1f4abd8c5091e1efdfc265315e5ef49232f6af2aa2"
+      - "path": "reviewed-predecessor-source-bridge-080.json"
+        "sha256": "da96615fe95271c16be9bca7328a3162ae55f5e628ffe4705fed605475cc9b03"
+      - "path": "source-bridge-reception.json"
+        "sha256": "61456bd9c04e976f90a25307f7f51c3e18be6655eb2b6e21f7eb5c325697b20c"
+    "bridge_application_order": "Reproduce the exact frozen088 input by its inherited manifest and bridges, then apply own089 patch. All inherited patch and bridge bytes remain immutable.; append actual frozen089 patch to obtain090 input, then own090 patch.; append actual frozen090 patch to obtain091 input, then own091 patch.; append actual frozen091 patch to obtain092 input, then own092 patch.; append actual frozen092 own patch to obtain093 input, then own093 patch.; append actual frozen093 patch to obtain094 input, then own094 patch."
+    "warning": "Current base is frozen independently reviewed093. Older author/pending fields are preserved historical receipts, not instructions to replay bridges. Apply only unchanged own094 patch payload."
+    "provisional": false
+    "author094_pending_review_bridges":
+      "path": "author094-pending-review-bridges.json"
+      "sha256": "6877a8fee69de07733f9af54c8153f77ab3582c204fb6a68c3b0698a4e38e572"
+      "applied": false
+    "independent_review_rebase":
+      "predecessor_chapter": 93
+      "predecessor_READY_sha256": "7e345bd572e62adfc7272376b2ddda157d8518cf796cc42cffdcaa0facfdeaf0"
+      "predecessor_files_verified": 449
+      "predecessor_effective_dictionary_sha256": "af1d3855a4e2516315530a8c2612dadec7ac74ba764d92d07337ad4fb0e855bb"
+      "predecessor_dependencies_sha256": "2dd929e6a9fc9f673687bc4bb85771f6b94d1ca0490f59029ab6410fafbf93b5"
+      "original_author094_base_sha256": "42485bda218426a70192f0949b28d341d4b74c316ca792609ada4816e8048310"
+      "own094_payload_unchanged": true
+      "pending087_088_bridges": "Already included in reviewed093. Never replay; original pending records below are historical author input."
+      "preserved_inputs": "reviewed093-inputs"
+      "verification": "independent-rebase-verification.json"
+  "review_note": "作者とは別のAIが固定版全278表示行を独立取得・比較し、63対訳・18韻文・105読み・71語釈・15注の全文と正確なクリック起点を照合。本文・注・語釈・読みと独自辞書ペイロードは修正不要と判断。既存087・088修正は凍結済み独立レビュー093から一度だけ継承。人間・専門家校訂、原刊画像校合、実ブラウザ確認、Git・公開は未実施。"
+  "independent_review":
+    "author_READY_sha256": "1ae1d356b15e5a1af4f1855dc368ee8572d0207073961a6cff86ffc25d00cc85"
+    "author_yaml_sha256": "a3b12040c716c3e99c450d598b2e0378adab744adf053a89a3122162226c83b5"
+    "source_verification": "independent-source-verification.json"
+    "review_records": "independent-review.json"
+    "rebase_verification": "independent-rebase-verification.json"
+    "changes": "independent-changes.json"
