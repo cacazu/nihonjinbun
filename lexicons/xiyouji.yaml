@@ -3178,6 +3178,38 @@
     "title": "識典古籍 西遊記 第六十六回（検索表示、幽含・朱陸などの文字を確認）"
     "url": "https://www.shidianguji.com/zh/book/NA11023/chapter/1k291tzdjnxfu"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch67-primary-1455616"
+    "title": "中文維基文庫 西遊記 第067回 固定版1455616（固定URLと繁体字表示、全225表示行を取得）"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455616&title=西遊記/第067回&variant=zh-hant"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch67-fushui"
+    "title": "教育部重編國語辭典「符水」（検索表示）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=38297&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch67-laixiang"
+    "title": "教育部重編國語辭典「賴象嗑瓜子」（検索表示、象を指す用法）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=59596&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch67-kezhu"
+    "title": "金湖県志（PDF検索表示に科猪＝母猪、全文未取得）"
+    "url": "https://vignette.wikia.nocookie.net/huai/images/f/fd/%E9%87%91%E6%B9%96%E5%8E%BF%E5%BF%97.pdf/revision/latest?cb=20121228145048&path-prefix=zh"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch67-weng"
+    "title": "漢典「䩺」所載の康熙字典・広韻の語義（本文取得）"
+    "url": "https://www.zdic.net/hant/䩺"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch67-weng-kana"
+    "title": "漢字辞典オンライン「䩺」（検索表示にオ・オウ、直接openはCache miss）"
+    "url": "https://kanji.jitenon.jp/amp/kanjiy/23103"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch67-six-desires"
+    "title": "デジタル大辞泉ほか「六欲」（検索表示、日本語読み）"
+    "url": "https://kotobank.jp/word/六欲-663493"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch67-review-chimimoryo-jlogos"
+    "title": "日本実業出版社「四字熟語の辞典」魑魅魍魎（JLogos本文、見出しの読みと山林・沼地の怪物義を確認）"
+    "url": "https://www.jlogos.com/d008/4373726.html"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -3718,6 +3750,15 @@
           "source_ids":
             - "lingyin-east"
           "reason_ja": "持国天の説明で「東勝神洲（とうしょうしんしゅう）」を確認。"
+      - "id": "xy-ch67-east-great-continent-form"
+        "text": "東勝大神洲"
+        "relation": "alias"
+        "reading":
+          "kana": "とうしょうだいしんしゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
   - "id": "xy-term-030"
     "kind": "place"
     "headword": "西牛賀洲"
@@ -4352,6 +4393,15 @@
           "source_ids":
             - "xy-ch49-primary-1808612"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch67-beautiful-stone-monkey-form"
+        "text": "美石猴"
+        "relation": "title"
+        "reading":
+          "kana": "びせきこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -5180,6 +5230,15 @@
           "source_ids":
             - "xy-ch52-primary-1498137"
           "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch67-lingtai-fangcun-short-form"
+        "text": "霊台方寸"
+        "relation": "short_form"
+        "reading":
+          "kana": "れいだいほうすん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
   - "id": "xy-term-087"
     "kind": "place"
     "headword": "斜月三星洞"
@@ -32157,6 +32216,15 @@
           "source_ids":
             - "xy-reference-340"
           "reason_ja": "法華経の読みほけきょうを明記。"
+      - "id": "xy-ch67-lotus-sutra-short-form"
+        "text": "法華"
+        "relation": "short_form"
+        "reading":
+          "kana": "ほっけ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
   - "id": "xy-entry-1432"
     "kind": "object"
     "headword": "弥陀経"
@@ -32203,6 +32271,15 @@
           "source_ids":
             - "xy-ch37-primary-1808441"
           "reason_ja": "構成漢字の日本語音訓と名称・語義から採用した読み。語形全体の日本語仮名を明記する独立資料は未確認。"
+      - "id": "xy-ch67-peacock-sutra-short-form"
+        "text": "孔雀"
+        "relation": "short_form"
+        "reading":
+          "kana": "くじゃく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
   - "id": "xy-entry-1434"
     "kind": "term"
     "headword": "苾芻"
@@ -54289,6 +54366,16 @@
             - "xy-ch59-moe-bai"
             - "xy-ch59-zdic-weng"
           "reason_ja": "\U00022BCCを掰の異体とする資料によりハイ、靸をソウ、䩺を翁と同音のオウ、鞋をアイとする音の組合せで仮に読む。語形全体の日本語読みは未確認。"
+      - "id": "xy-ch67-weng-shoes-short-form"
+        "text": "䩺鞋"
+        "relation": "short_form"
+        "reading":
+          "kana": "おうあい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+            - "xy-ch67-weng-kana"
+          "reason_ja": "䩺の音オ・オウを漢字辞典オンラインの検索表示で確認したが直接openはCache miss。鞋は既存の長形に用いたアイを継承。靴を表す部分の短形であり、老人の一足と悟空の一足を同じ現物と断定するものではない。語形全体の仮名は推定。"
   - "id": "xy-ch59-cuiyun-mountain"
     "kind": "place"
     "headword": "翠雲山"
@@ -55134,6 +55221,15 @@
           "source_ids":
             - "xy-ch61-primary-1500610"
           "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+      - "id": "xy-ch67-lai-elephant-new-character-form"
+        "text": "頼象"
+        "relation": "variant"
+        "reading":
+          "kana": "らいぞう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
   - "id": "xy-ch61-sumeru-vajra-mountain"
     "kind": "place"
     "headword": "須弥山"
@@ -58433,3 +58529,376 @@
           "source_ids":
             - "xy-ch66-primary-1455615"
           "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch67-mountain-spirits"
+    "kind": "term"
+    "headword": "魑魅魍魎"
+    "definition_ja": "山林などに現れる、さまざまな怪異や化け物。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+        - "xy-ch67-review-chimimoryo-jlogos"
+      "reason_ja": "本文の山中の怪異の列挙と、日本実業出版社辞典本文L79の山林・沼地の怪物義を照合。既存の魑魅と魍魎は各部分語であり、複合語を一方の単なる異表記とはしない。"
+    "forms":
+      - "id": "xy-ch67-mountain-spirits-form"
+        "text": "魑魅魍魎"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちみもうりょう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch67-review-chimimoryo-jlogos"
+          "reason_ja": "独立レビューでJLogos所載の日本実業出版社「四字熟語の辞典」本文を取得し、見出しL75の語形全体の日本語読みを確認。検索表示だけの確認ではない。"
+  - "id": "xy-ch67-seven-excellences-mountain"
+    "kind": "place"
+    "headword": "七絶山"
+    "definition_ja": "柿が多く生える山。柿の木の七つの長所にちなむ名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "固定原文の語、発言者と対象の役割を照合。後の正体・行動は語義に追加しない。"
+    "forms":
+      - "id": "xy-ch67-seven-excellences-mountain-form"
+        "text": "七絶山"
+        "relation": "preferred"
+        "reading":
+          "kana": "しちぜつざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+      - "id": "xy-ch67-seven-excellences-short-form"
+        "text": "七絶"
+        "relation": "short_form"
+        "reading":
+          "kana": "しちぜつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-soft-persimmon-passage"
+    "kind": "place"
+    "headword": "稀柿衕"
+    "definition_ja": "熟して崩れた柿で埋まる、七絶山の細道。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "固定原文の語、発言者と対象の役割を照合。後の正体・行動は語義に追加しない。"
+    "forms":
+      - "id": "xy-ch67-soft-persimmon-passage-form"
+        "text": "稀柿衕"
+        "relation": "preferred"
+        "reading":
+          "kana": "きしどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+      - "id": "xy-ch67-excrement-passage-form"
+        "text": "稀屎衕"
+        "relation": "alias"
+        "reading":
+          "kana": "きしどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-dragon-mother-in-boast"
+    "kind": "person"
+    "headword": "竜母"
+    "definition_ja": "悟空が降す腕を持つと誇る、竜の母と呼ばれるもの。特定の既出人物との同一性は定めない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "攪海降龍母という自慢の詩句だけに基づく役割限定項目。名や身元の説明がなく、竜王の妻などの既存項目には統合しない。"
+    "forms":
+      - "id": "xy-ch67-dragon-mother-in-boast-form"
+        "text": "竜母"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうぼ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-edible-kui"
+    "kind": "term"
+    "headword": "葵"
+    "definition_ja": "中国で古くから汁物などに用いた、アオイの類の食用植物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "醋燒葵湯という料理名に基づく。食用の葵として解し、現代日本の園芸植物や一つの厳密な分類種に固定しない。"
+    "forms":
+      - "id": "xy-ch67-edible-kui-form"
+        "text": "葵"
+        "relation": "preferred"
+        "reading":
+          "kana": "あおい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-elder-li-tuoluo"
+    "kind": "person"
+    "headword": "李老人"
+    "definition_ja": "駝羅荘で三蔵一行を泊めた、李姓の老人。ほかの場所の同姓の人物との同一性は定めない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "固定原文の語、発言者と対象の役割を照合。後の正体・行動は語義に追加しない。"
+    "forms":
+      - "id": "xy-ch67-elder-li-tuoluo-form"
+        "text": "李老人"
+        "relation": "preferred"
+        "reading":
+          "kana": "りろうじん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+      - "id": "xy-ch67-elder-li-surname-form"
+        "text": "李"
+        "relation": "short_form"
+        "reading":
+          "kana": "り"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-guessed-li-village"
+    "kind": "place"
+    "headword": "李家荘"
+    "definition_ja": "李姓にちなんで村の名を推し量るときに用いる仮の地名。実際の村名と確定したものではない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "悟空が李姓を聞いて推測した問いの呼び名として、役割を限定する。姓や字面が等しい他の地名と統合しない。"
+    "forms":
+      - "id": "xy-ch67-guessed-li-village-form"
+        "text": "李家荘"
+        "relation": "preferred"
+        "reading":
+          "kana": "りかそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-tuoluo-village"
+    "kind": "place"
+    "headword": "駝羅荘"
+    "definition_ja": "七絶山の東にある、五百軒余りの家からなる村。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "固定原文の語、発言者と対象の役割を照合。後の正体・行動は語義に追加しない。"
+    "forms":
+      - "id": "xy-ch67-tuoluo-village-form"
+        "text": "駝羅荘"
+        "relation": "preferred"
+        "reading":
+          "kana": "だらそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-talisman-water"
+    "kind": "object"
+    "headword": "符水"
+    "definition_ja": "道教の儀礼で用いる、符に関わる水。符の灰を加えた水などをいう。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+        - "xy-ch67-fushui"
+      "reason_ja": "教育部辞典の検索表示で符を焼いた灰を加える水という語義を確認。本文の道士の儀礼として説明し、現代の治療方法を勧めるものではない。"
+    "forms":
+      - "id": "xy-ch67-talisman-water-form"
+        "text": "符水"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-shanhou-spear"
+    "kind": "term"
+    "headword": "山後槍"
+    "definition_ja": "槍さばきの呼び名として、八戒が比較のために挙げる名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "八戒の槍評の列挙に限定。実在の特定流派・地方名との関係は確認できていない。"
+    "forms":
+      - "id": "xy-ch67-shanhou-spear-form"
+        "text": "山後槍"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんこうそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-thread-twining-spear"
+    "kind": "term"
+    "headword": "纏糸槍"
+    "definition_ja": "糸をからめるような動きを思わせる、槍さばきの呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "纏絲という字面と、八戒の槍評に用いる文脈による。実在の槍術の厳密な技術分類は確認できていない。"
+    "forms":
+      - "id": "xy-ch67-thread-twining-spear-form"
+        "text": "纏糸槍"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんしそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-ma-family-spear"
+    "kind": "term"
+    "headword": "馬家槍"
+    "definition_ja": "馬家の槍法という名。槍さばきを評する際に挙げられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "馬家という字面を保存し、同姓の既出人物や歴史上の槍術家と無根拠に同定しない。"
+    "forms":
+      - "id": "xy-ch67-ma-family-spear-form"
+        "text": "馬家槍"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばかそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-soft-handled-spear"
+    "kind": "term"
+    "headword": "軟柄槍"
+    "definition_ja": "柄の柔らかい槍という、八戒が用いる呼び方。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "八戒が戦いの最中、槍先は見えるが柄が見えないものを呼ぶ語。対象の後の正体を定義に先取りしない。"
+    "forms":
+      - "id": "xy-ch67-soft-handled-spear-form"
+        "text": "軟柄槍"
+        "relation": "preferred"
+        "reading":
+          "kana": "なんぺいそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-great-python"
+    "kind": "term"
+    "headword": "大蟒"
+    "definition_ja": "巨大なうわばみ。大きな蛇をいう語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "紅鱗大蟒、長蛇という原文の呼び分けから種別語として解する。実在の分類学的な種は定めない。"
+    "forms":
+      - "id": "xy-ch67-great-python-form"
+        "text": "大蟒"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいぼう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-ganbao-boat"
+    "kind": "object"
+    "headword": "贛保船"
+    "definition_ja": "腹を低くつけ、頭を高く上げた姿のたとえとして挙げられる船の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "固定本文の船名と形の比較だけを保存。別資料による船型や産地の確認ができず、贛の字から江西産と断定しない。"
+    "forms":
+      - "id": "xy-ch67-ganbao-boat-form"
+        "text": "贛保船"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんぽせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-steamed-bread"
+    "kind": "object"
+    "headword": "蒸餅"
+    "definition_ja": "小麦粉などの生地を蒸して作る食べ物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+      "reason_ja": "米の飯や饝饝と並べる食物名および蒸という字面による。日本の餅や焼いた餅菓子には置き換えない。"
+    "forms":
+      - "id": "xy-ch67-steamed-bread-form"
+        "text": "蒸餅"
+        "relation": "preferred"
+        "reading":
+          "kana": "じょうへい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-kezhu-sow"
+    "kind": "term"
+    "headword": "科猪"
+    "definition_ja": "繁殖用の雌豚をいう地方語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+        - "xy-ch67-kezhu"
+      "reason_ja": "金湖県志のPDF検索表示に科猪＝母猪という方言語義を確認。PDF全文未取得で、小説の表記との歴史的連続性までは確定していない。"
+    "forms":
+      - "id": "xy-ch67-kezhu-sow-form"
+        "text": "科猪"
+        "relation": "preferred"
+        "reading":
+          "kana": "かちょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch67-primary-1455616"
+          "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+  - "id": "xy-ch67-six-desires"
+    "kind": "concept"
+    "headword": "六欲"
+    "definition_ja": "人を俗世へ引きつける六種の欲望。仏教で用いる分類の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch67-primary-1455616"
+        - "xy-ch67-six-desires"
+      "reason_ja": "固定原文の語、発言者と対象の役割を照合。後の正体・行動は語義に追加しない。"
+    "forms":
+      - "id": "xy-ch67-six-desires-form"
+        "text": "六欲"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろくよく"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch67-six-desires"
+          "reason_ja": "取得した検索表示で、この語形の日本語仮名を確認した。全文取得とは区別する。"
