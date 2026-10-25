@@ -192,7 +192,7 @@ def render_index(documents):
         title = " ".join(heading.split())
         links.append(f'<li><a href="chapter-{number:03d}.html">{esc(title)}</a></li>')
     links = "".join(links)
-    # The landing page contains only the book title, contents and repository address.
+    # The landing page contains only the book title, translator credit, contents and repository address.
     # Notes and required attribution stay on chapter pages.
     return f'''<!doctype html>
 <html lang="ja">
@@ -201,12 +201,13 @@ def render_index(documents):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'; connect-src 'none'">
-<title>西遊記 目次</title>
+<title>西遊記日本語訳</title>
 <link rel="stylesheet" href="assets/reading.css">
 </head>
 <body class="index-page">
 <main id="main" class="contents">
 <h1>西遊記</h1>
+<p class="translator-credit">翻訳者：{external_link("https://x.com/cacazu_riht", "心霊研究家ポロミン(@cacazu_riht)")}　ChatGPT訳</p>
 <h2 id="chapters">目次</h2>
 <ul>{links}</ul>
 <p><a href="https://github.com/cacazu/nihonjinbun" rel="noreferrer">https://github.com/<wbr>cacazu/nihonjinbun</a></p>

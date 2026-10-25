@@ -40,22 +40,46 @@ class Elements(HTMLParser):
         return [n for n in self.nodes if n["attrs"].get("id") == value]
 
 
+class IndexCreditTests(unittest.TestCase):
+    def test_exact_credit_link_position_and_page_title(self):
+        # Synthetic input keeps this small header-only regression check independent
+        # of the full book build and all 100 chapter validation.
+        document = {"segments": [{"kind": "heading", "translation_ja": "第一回 題名"}]}
+        page = Elements(reader.render_index([document]))
+        main, = page.by_id("main")
+        children = [node for node in page.nodes if node["parents"]
+                    and node["parents"][-1] is main]
+        self.assertEqual(children[0]["text"], "西遊記")
+        credit = children[1]
+        self.assertEqual((credit["tag"], credit["attrs"].get("class")),
+                         ("p", "translator-credit"))
+        self.assertEqual(credit["text"],
+                         "翻訳者：心霊研究家ポロミン(@cacazu_riht)　ChatGPT訳")
+        link, = [node for node in page.nodes if node["tag"] == "a"
+                 and any(parent is credit for parent in node["parents"])]
+        self.assertEqual(link["text"], "心霊研究家ポロミン(@cacazu_riht)")
+        self.assertEqual(link["attrs"]["href"], "https://x.com/cacazu_riht")
+        self.assertEqual(children[2]["text"], "目次")
+        self.assertEqual([node["text"] for node in page.nodes if node["tag"] == "title"],
+                         ["西遊記日本語訳"])
+
+
 class IndexRenderingTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.documents = [load_document(ROOT / "translations" / "wu-chengen" / name)
                          for name in reader.CHAPTERS]
 
-    def test_index_contains_book_title_chapter_titles_and_repository_only(self):
+    def test_index_contains_book_title_credit_chapter_titles_and_repository_only(self):
         page = Elements(reader.render_index(self.documents))
         main, = page.by_id("main")
         children = [node for node in page.nodes if node["parents"]
                     and node["parents"][-1] is main]
-        self.assertEqual([node["tag"] for node in children], ["h1", "h2", "ul", "p"])
+        self.assertEqual([node["tag"] for node in children], ["h1", "p", "h2", "ul", "p"])
         self.assertEqual(children[0]["text"], "西遊記")
-        self.assertEqual(children[1]["text"], "目次")
-        self.assertEqual(children[1]["attrs"]["id"], "chapters")
-        expected = []
+        self.assertEqual(children[2]["text"], "目次")
+        self.assertEqual(children[2]["attrs"]["id"], "chapters")
+        expected = [("心霊研究家ポロミン(@cacazu_riht)", "https://x.com/cacazu_riht")]
         for number, document in enumerate(self.documents, 1):
             heading, = [segment["translation_ja"] for segment in document["segments"]
                         if segment["kind"] == "heading"]
@@ -67,7 +91,7 @@ class IndexRenderingTests(unittest.TestCase):
         self.assertFalse(any(node["tag"] in ("header", "footer", "script", "button")
                              for node in page.nodes))
         self.assertEqual([node["text"] for node in page.nodes if node["tag"] == "title"],
-                         ["西遊記 目次"])
+                         ["西遊記日本語訳"])
 
     def test_index_escapes_titles_and_only_folds_layout_whitespace(self):
         title = '第一回\n<仏> & "猿"\n 天地'
@@ -75,7 +99,8 @@ class IndexRenderingTests(unittest.TestCase):
         before = copy.deepcopy(document)
         rendered = reader.render_index([document])
         page = Elements(rendered)
-        first_link = next(node for node in page.nodes if node["tag"] == "a")
+        first_link = next(node for node in page.nodes
+                          if node["attrs"].get("href") == "chapter-001.html")
         self.assertEqual(first_link["text"], '第一回 <仏> & "猿" 天地')
         self.assertIn('&lt;仏&gt; &amp; &quot;猿&quot;', rendered)
         self.assertEqual(document, before)
