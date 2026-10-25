@@ -2118,6 +2118,18 @@
     "title": "拾遺記 巻二「夏禹」：玄亀が青泥を運ぶ伝承"
     "url": "https://zh.wikisource.org/wiki/拾遺記/卷二"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch43-primary-1455592"
+    "title": "中文維基文庫 西遊記 第043回（取得した現行ページのフッター版1455592）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第043回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch43-fifty-three-study"
+    "title": "陳怡安の観音信仰研究（駒澤大学公開PDF、212頁の五十三参論を検索本文で確認。正式論題は未確認）"
+    "url": "https://komazawa-u.repo.nii.ac.jp/record/2000228/files/00625754.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch43-pipa-bone-moe"
+    "title": "教育部《重編國語辭典修訂本》「琵琶骨」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=24663&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -5003,6 +5015,24 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "本文の語義と漢字の日本語音訓から採用した読み。信頼できる資料で日本語読みを未確認のため推定。"
+      - "id": "xy-ch43-western-sea-form"
+        "text": "西洋海"
+        "relation": "alias"
+        "reading":
+          "kana": "せいようかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+      - "id": "xy-ch43-great-western-sea-form"
+        "text": "西洋大海"
+        "relation": "alias"
+        "reading":
+          "kana": "せいようたいかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
   - "id": "xy-vocab-134"
     "kind": "place"
     "headword": "南海"
@@ -6313,6 +6343,15 @@
           "source_ids":
             - "xy-ch41-primary-1500598"
           "reason_ja": "日本語字音に基づく推定。底本は西海の竜王を敖順と記す。海域の役割に基づく異名として登録し、同じ字の個人名だけで他海の竜王へ対応させない。表記全体の日本語仮名の直接資料は未確認。"
+      - "id": "xy-ch43-ao-surname-form"
+        "text": "敖"
+        "relation": "short_form"
+        "reading":
+          "kana": "ごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
   - "id": "xy-entry-0198"
     "kind": "person"
     "headword": "鼉の将軍"
@@ -18291,6 +18330,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-ch43-vajra-warrior-form"
+        "text": "金剛力士"
+        "relation": "title"
+        "reading":
+          "kana": "こんごうりきし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
   - "id": "xy-entry-0818"
     "kind": "place"
     "headword": "天竺"
@@ -19731,6 +19779,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音訓と語構成に基づく推定。語形全体の仮名を直接明記する独立資料は未確認。"
+      - "id": "xy-ch43-demon-subduing-treasure-staff-form"
+        "text": "降妖宝杖"
+        "relation": "alias"
+        "reading":
+          "kana": "ごうようほうじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
   - "id": "xy-entry-0887"
     "kind": "concept"
     "headword": "白虎"
@@ -20026,6 +20083,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-ch43-taisui-god-form"
+        "text": "太歳神"
+        "relation": "title"
+        "reading":
+          "kana": "たいさいしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
   - "id": "xy-entry-0902"
     "kind": "person"
     "headword": "猪悟能"
@@ -23984,6 +24050,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "涇河の推定読み「けいが」と通常の「りゅうおう」を組み合わせた読み。当該尊称の読みの明記は未確認。"
+      - "id": "xy-ch43-jing-river-king-form"
+        "text": "涇河竜王"
+        "relation": "alias"
+        "reading":
+          "kana": "けいがりゅうおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
   - "id": "xy-entry-1110"
     "kind": "term"
     "headword": "水族"
@@ -27648,6 +27723,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓・語構成からの推定。この語形の日本語読みを直接明記する資料は未確認。"
+      - "id": "xy-ch43-jiang-du-form"
+        "text": "江瀆"
+        "relation": "alias"
+        "reading":
+          "kana": "こうとく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
   - "id": "xy-entry-1305"
     "kind": "title"
     "headword": "当駕官"
@@ -31138,6 +31222,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の通常の日本語音訓、仏教語の慣用音と本文の文脈から推定。語形全体の仮名読みを直接示す資料による確認は未了。"
+      - "id": "xy-ch43-he-du-form"
+        "text": "河瀆"
+        "relation": "alias"
+        "reading":
+          "kana": "かとく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
   - "id": "xy-entry-1486"
     "kind": "concept"
     "headword": "三尸神"
@@ -42545,6 +42638,15 @@
           "source_ids":
             - "xy-ch38-huai-ndl"
           "reason_ja": "参照資料がこの語形の日本語読みを明記している。"
+      - "id": "xy-ch43-huai-du-form"
+        "text": "淮瀆"
+        "relation": "alias"
+        "reading":
+          "kana": "わいとく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
   - "id": "xy-ji-river"
     "kind": "place"
     "headword": "済水"
@@ -42564,6 +42666,15 @@
           "source_ids":
             - "xy-ch38-ji-dictionary"
           "reason_ja": "参照資料がこの語形の日本語読みを明記している。"
+      - "id": "xy-ch43-ji-du-form"
+        "text": "済瀆"
+        "relation": "alias"
+        "reading":
+          "kana": "さいとく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
   - "id": "xy-water-repelling-pearl"
     "kind": "object"
     "headword": "辟水珠"
@@ -44184,3 +44295,818 @@
           "source_ids":
             - "xy-ch42-primary-1808580"
           "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch43-guanyin-clasp"
+    "kind": "concept"
+    "headword": "観音扭"
+    "definition_ja": "両手を胸の前で合わせたまま動かせない拘束の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "本文が合掌した手を開けなくなる状態の由来として説明する。具体的な刑具の構造や儀礼上の手印との同一性は未確定。"
+    "forms":
+      - "id": "xy-ch43-guanyin-clasp-form"
+        "text": "観音扭"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんのんじゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-fifty-three-visits"
+    "kind": "concept"
+    "headword": "五十三参"
+    "definition_ja": "善財童子の求道の参訪にちなむ呼び名。観音を繰り返し拝むことへ重ねても用いられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+        - "xy-ch43-fifty-three-study"
+      "reason_ja": "原文の参拝の叙述と、陳怡安論文PDF212頁の検索本文で示された反復参拝の慣用化の説明を照合した。参拝数を単純に五十三歩と確定しない。"
+    "forms":
+      - "id": "xy-ch43-fifty-three-visits-form"
+        "text": "五十三参"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごじゅうさんさん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-no-six-faculties"
+    "kind": "concept"
+    "headword": "無眼耳鼻舌身意"
+    "definition_ja": "般若心経の一句で、目・耳・鼻・舌・身体・心の六つの感覚機能も空であることを説く。悟空はこれを感覚への執着を離れる教えとして用いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-no-six-faculties-form"
+        "text": "無眼耳鼻舌身意"
+        "relation": "preferred"
+        "reading":
+          "kana": "むげんにびぜっしんに"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-six-thieves"
+    "kind": "concept"
+    "headword": "六賊"
+    "definition_ja": "修行の妨げとなる六つの感覚やその対象を、心を乱す盗賊にたとえた語。本文では目・耳・鼻・舌・身・意へのとらわれをいう。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-six-thieves-form"
+        "text": "六賊"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろくぞく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-three-three-practice"
+    "kind": "concept"
+    "headword": "三三の行"
+    "definition_ja": "修行の完成を示す象徴的な言い方。三三が指す修行の具体的な分類は本文だけでは確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-three-three-practice-form"
+        "text": "三三の行"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんさんのぎょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-black-water-river"
+    "kind": "place"
+    "headword": "黒水河"
+    "definition_ja": "西への旅路を遮る、黒く濁った水の川。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-black-water-river-form"
+        "text": "黒水河"
+        "relation": "preferred"
+        "reading":
+          "kana": "こくすいが"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+      - "id": "xy-ch43-black-river-form"
+        "text": "黒河"
+        "relation": "short_form"
+        "reading":
+          "kana": "こくが"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-five-lakes"
+    "kind": "place"
+    "headword": "五湖"
+    "definition_ja": "五つの大きな湖をいう呼び名。詩では広い水域を示し、個々の湖名は明記されない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-five-lakes-form"
+        "text": "五湖"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-black-water-river-mansion"
+    "kind": "place"
+    "headword": "衡陽峪黒水河神府"
+    "definition_ja": "黒水河の水底にある館の扁額に記された名。衡陽峪は谷の名、神府は神の住む館を表す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-black-water-river-mansion-form"
+        "text": "衡陽峪黒水河神府"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうようよくこくすいがしんぷ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-bamboo-steel-whip"
+    "kind": "object"
+    "headword": "竹節鋼鞭"
+    "definition_ja": "竹の節のような形をした鋼製の鞭。打撃に使う堅い武器で、柔らかい革の鞭ではない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-bamboo-steel-whip-form"
+        "text": "竹節鋼鞭"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちくせつこうべん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+      - "id": "xy-ch43-steel-whip-form"
+        "text": "鋼鞭"
+        "relation": "short_form"
+        "reading":
+          "kana": "こうべん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-tuo-dragon"
+    "kind": "person"
+    "headword": "鼉竜"
+    "definition_ja": "水中に住む鼉の妖怪。小鼉竜・小鼉とも呼ばれ、招待状には鼉潔と署名する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-tuo-dragon-form"
+        "text": "鼉竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "だりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+      - "id": "xy-ch43-small-tuo-dragon-form"
+        "text": "小鼉竜"
+        "relation": "alias"
+        "reading":
+          "kana": "しょうだりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+      - "id": "xy-ch43-small-tuo-form"
+        "text": "小鼉"
+        "relation": "short_form"
+        "reading":
+          "kana": "しょうだ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+      - "id": "xy-ch43-tuo-jie-form"
+        "text": "鼉潔"
+        "relation": "alias"
+        "reading":
+          "kana": "だけつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-black-fish"
+    "kind": "term"
+    "headword": "黒魚"
+    "definition_ja": "黒魚と呼ばれる魚。一般に雷魚類を指すが、本文の魚の精の生物学的な種までは特定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-black-fish-form"
+        "text": "黒魚"
+        "relation": "preferred"
+        "reading":
+          "kana": "こくぎょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-little-yellow-dragon"
+    "kind": "person"
+    "headword": "小黄竜"
+    "definition_ja": "竜王の妹の息子として挙げられる竜の一人。名前の字義から独自の性格や他作品の同名人物との関係は補わない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-little-yellow-dragon-form"
+        "text": "小黄竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうこうりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-little-black-dragon"
+    "kind": "person"
+    "headword": "小驪竜"
+    "definition_ja": "竜王の妹の息子として挙げられる竜の一人。名前の字義から独自の性格や他作品の同名人物との関係は補わない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-little-black-dragon-form"
+        "text": "小驪竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうりりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-blue-backed-dragon"
+    "kind": "person"
+    "headword": "青背竜"
+    "definition_ja": "竜王の妹の息子として挙げられる竜の一人。名前の字義から独自の性格や他作品の同名人物との関係は補わない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-blue-backed-dragon-form"
+        "text": "青背竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいはいりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-red-bearded-dragon"
+    "kind": "person"
+    "headword": "赤髯竜"
+    "definition_ja": "竜王の妹の息子として挙げられる竜の一人。名前の字義から独自の性格や他作品の同名人物との関係は補わない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-red-bearded-dragon-form"
+        "text": "赤髯竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "せきぜんりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-tulao-dragon"
+    "kind": "person"
+    "headword": "徒労竜"
+    "definition_ja": "竜王の妹の息子として挙げられる竜の一人。名前の字義から独自の性格や他作品の同名人物との関係は補わない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-tulao-dragon-form"
+        "text": "徒労竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "とろうりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-wenshou-dragon"
+    "kind": "person"
+    "headword": "穏獣竜"
+    "definition_ja": "竜王の妹の息子として挙げられる竜の一人。名前の字義から独自の性格や他作品の同名人物との関係は補わない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-wenshou-dragon-form"
+        "text": "穏獣竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "おんじゅうりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-jingzhong-dragon"
+    "kind": "person"
+    "headword": "敬仲竜"
+    "definition_ja": "竜王の妹の息子として挙げられる竜の一人。名前の字義から独自の性格や他作品の同名人物との関係は補わない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-jingzhong-dragon-form"
+        "text": "敬仲竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "けいちゅうりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-shen-dragon"
+    "kind": "person"
+    "headword": "蜃竜"
+    "definition_ja": "竜王の妹の息子として挙げられる竜の一人。名前の字義から独自の性格や他作品の同名人物との関係は補わない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-shen-dragon-form"
+        "text": "蜃竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-huabiao"
+    "kind": "object"
+    "headword": "華表"
+    "definition_ja": "宮殿などの前に立てる標柱。物語では天を支える柱として語られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-huabiao-form"
+        "text": "華表"
+        "relation": "preferred"
+        "reading":
+          "kana": "かひょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-great-mountain"
+    "kind": "place"
+    "headword": "太岳"
+    "definition_ja": "大きく高い山をいう語。竜が支えるものとして語られるが、ここで特定の実在山への同定はしない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-great-mountain-form"
+        "text": "太岳"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいがく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-moang"
+    "kind": "person"
+    "headword": "摩昂"
+    "definition_ja": "西海の竜王の太子。父の命を受け、水の兵を率いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-moang-form"
+        "text": "摩昂"
+        "relation": "preferred"
+        "reading":
+          "kana": "まこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-three-edged-mace"
+    "kind": "object"
+    "headword": "三棱簡"
+    "definition_ja": "摩昂が振るう、三つの稜を持つ堅い打撃武器。簡はここでは文書の札ではない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-three-edged-mace-form"
+        "text": "三棱簡"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんりょうかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+      - "id": "xy-ch43-three-ridge-mace-form"
+        "text": "三稜簡"
+        "relation": "variant"
+        "reading":
+          "kana": "さんりょうかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-taiyi-golden-immortal"
+    "kind": "title"
+    "headword": "太乙金仙"
+    "definition_ja": "道教的な高位の仙人の称号。本文では摩昂が悟空の天上での威勢を語る際に用いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-taiyi-golden-immortal-form"
+        "text": "太乙金仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいいつきんせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-yellow-chang-fish"
+    "kind": "term"
+    "headword": "黄鱨"
+    "definition_ja": "水族の戦いの詩に列挙される魚の名。古い魚貝名と現代の標準種名の対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-yellow-chang-fish-form"
+        "text": "黄鱨"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-sha-fish"
+    "kind": "term"
+    "headword": "鯊"
+    "definition_ja": "水族の戦いの詩に列挙される魚の名。古い魚貝名と現代の標準種名の対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-sha-fish-form"
+        "text": "鯊"
+        "relation": "preferred"
+        "reading":
+          "kana": "さ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-zi-fish"
+    "kind": "term"
+    "headword": "鯔"
+    "definition_ja": "水族の戦いの詩に列挙される魚の名。古い魚貝名と現代の標準種名の対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-zi-fish-form"
+        "text": "鯔"
+        "relation": "preferred"
+        "reading":
+          "kana": "し"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-ji-fish"
+    "kind": "term"
+    "headword": "鮆"
+    "definition_ja": "水族の戦いの詩に列挙される魚の名。古い魚貝名と現代の標準種名の対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-ji-fish-form"
+        "text": "鮆"
+        "relation": "preferred"
+        "reading":
+          "kana": "せい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-qing-fish"
+    "kind": "term"
+    "headword": "鯖"
+    "definition_ja": "水族の戦いの詩に列挙される魚の名。古い魚貝名と現代の標準種名の対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-qing-fish-form"
+        "text": "鯖"
+        "relation": "preferred"
+        "reading":
+          "kana": "せい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-cheng-shellfish"
+    "kind": "term"
+    "headword": "蟶"
+    "definition_ja": "水族の戦いの詩に列挙される貝の名。古い魚貝名と現代の標準種名の対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-cheng-shellfish-form"
+        "text": "蟶"
+        "relation": "preferred"
+        "reading":
+          "kana": "てい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-shaoyang-creature"
+    "kind": "term"
+    "headword": "少揚"
+    "definition_ja": "水族の戦いの詩に登場する生き物の名。底本の字形を保持し、現代の種への同定は留保する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-shaoyang-creature-form"
+        "text": "少揚"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-kunsi-creature"
+    "kind": "term"
+    "headword": "鯤司"
+    "definition_ja": "水族の戦いの詩に登場する生き物の名。底本の字形を保持し、現代の種への同定は留保する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-kunsi-creature-form"
+        "text": "鯤司"
+        "relation": "preferred"
+        "reading":
+          "kana": "こんし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-xun-fish"
+    "kind": "term"
+    "headword": "鱏"
+    "definition_ja": "水族の戦いの詩に列挙される魚の名。古い魚貝名と現代の標準種名の対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-xun-fish-form"
+        "text": "鱏"
+        "relation": "preferred"
+        "reading":
+          "kana": "しん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-qi-fish"
+    "kind": "term"
+    "headword": "鯕"
+    "definition_ja": "水族の戦いの詩に列挙される魚の名。古い魚貝名と現代の標準種名の対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-qi-fish-form"
+        "text": "鯕"
+        "relation": "preferred"
+        "reading":
+          "kana": "き"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-shan-fish"
+    "kind": "term"
+    "headword": "蟮"
+    "definition_ja": "水族の戦いの詩に列挙される魚の名。古い魚貝名と現代の標準種名の対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-shan-fish-form"
+        "text": "蟮"
+        "relation": "preferred"
+        "reading":
+          "kana": "せん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-lu-fish"
+    "kind": "term"
+    "headword": "魲"
+    "definition_ja": "水族の戦いの詩に列挙される魚の名。古い魚貝名と現代の標準種名の対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-lu-fish-form"
+        "text": "魲"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-kuai-fish"
+    "kind": "term"
+    "headword": "鱠"
+    "definition_ja": "水族の戦いの詩に列挙される魚の名。古い魚貝名と現代の標準種名の対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-kuai-fish-form"
+        "text": "鱠"
+        "relation": "preferred"
+        "reading":
+          "kana": "かい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-chang-fish"
+    "kind": "term"
+    "headword": "鯧"
+    "definition_ja": "水族の戦いの詩に列挙される魚の名。古い魚貝名と現代の標準種名の対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "作品本文の語形、行動と文脈に基づく説明。後の展開や未確認の専門的同定は加えない。"
+    "forms":
+      - "id": "xy-ch43-chang-fish-form"
+        "text": "鯧"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-pipa-bone"
+    "kind": "term"
+    "headword": "琵琶骨"
+    "definition_ja": "肩甲骨を指す古い呼び名。捕虜の肩の骨に鎖を通し、動きを封じる描写に用いられる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+        - "xy-ch43-pipa-bone-moe"
+      "reason_ja": "教育部の当該項目で肩甲骨を指す語義を確認し、本文の鉄鎖による拘束を照合した。日本語の読みは別途未確認のためestimatedを維持する。"
+    "forms":
+      - "id": "xy-ch43-pipa-bone-form"
+        "text": "琵琶骨"
+        "relation": "preferred"
+        "reading":
+          "kana": "びわこつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch43-primary-1455592"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+  - "id": "xy-ch43-west-sea-crystal-palace"
+    "kind": "place"
+    "headword": "水晶宮"
+    "definition_ja": "西海の竜王が住む水中の宮殿。東海・洪江・涇河や烏鶏国の井戸にある同名の宮とは区別する。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch43-primary-1455592"
+      "reason_ja": "悟空が西洋大海へ入り、夜叉が水晶宮へ報告し、西海の竜王が迎える連続した本文により所在地と主人を確認した。"
+    "forms":
+      - "id": "xy-ch43-west-sea-crystal-palace-form"
+        "text": "水晶宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいしょうきゅう"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "構成漢字の日本語字音による推定。西海の宮を指すこの語形全体の日本語仮名を明示した資料は未確認。"
