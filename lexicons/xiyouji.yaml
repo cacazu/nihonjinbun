@@ -2402,6 +2402,42 @@
     "title": "陳元龍『格致鏡原』卷九十四、黿の項（中國哲學書電子化計劃）"
     "url": "https://ctext.org/wiki.pl?chapter=350483&if=en"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch50-primary-1498134"
+    "title": "中文維基文庫 西遊記 第050回（現行取得ページ、フッター識別版1498134）"
+    "url": "https://zh.wikisource.org/zh-hant/西遊記/第050回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch50-moe-badou"
+    "title": "教育部 重編國語辭典修訂本「巴斗」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=12210&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch50-npm-najin"
+    "title": "国立故宮博物院「關於織品修復師的幾個問題」"
+    "url": "https://theme.npm.edu.tw/Academic/ChineseArtDownload.ashx?bid=10111&eid=510"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch50-xuandi"
+    "title": "台湾民俗文物辞典「北帝」"
+    "url": "https://dict.th.gov.tw/detailPage.aspx?Ca=142&ID=1258"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch50-moe-xizhao"
+    "title": "教育部 重編國語辭典修訂本「犀照」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=104548&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch50-moe-chuanyue"
+    "title": "教育部 成語典「喘月吳牛」"
+    "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=3728&la=0&webMd=2"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch50-dongdu"
+    "title": "中文維基文庫 東度記 第五十八回（撞頭の苦行）"
+    "url": "https://zh.wikisource.org/wiki/東度記/058"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch50-vairocana-reading"
+    "title": "富山県「とやまの古代祭祀遺跡等出土品」毘盧の読み"
+    "url": "https://www.pref.toyama.jp/documents/14551/jyuyou14.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch50-vairocana-meaning"
+    "title": "東大寺別当橋村公英師対談 奈良いのちの電話広報第400号"
+    "url": "https://www.nara-inochi.jp/koho400.pdf"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -35744,6 +35780,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+      - "id": "xy-ch50-xuandi-form"
+        "text": "玄帝"
+        "relation": "title"
+        "reading":
+          "kana": "げんてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch50-xuandi"
+          "reason_ja": "玄天上帝・真武の称号との同定は台湾民俗文物辞典により確認。仮名読みは玄と帝の日本語字音から採用。"
   - "id": "xy-entry-1698"
     "kind": "person"
     "headword": "梓橦"
@@ -48858,3 +48903,165 @@
           "source_ids":
             - "xy-ch49-primary-1808612"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch50-vairocana"
+    "kind": "person"
+    "headword": "毘盧"
+    "definition_ja": "毘盧舎那仏の略称。清浄な仏の本体を表す仏名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch50-vairocana-meaning"
+        - "xy-ch50-primary-1498134"
+      "reason_ja": "東大寺別当の対談の検索表示で毘盧舎那の仏名と語義を確認。資料全文は未確認。省略形の用法と本詩における本体・本性への重なりは文脈に基づく解釈。"
+    "forms":
+      - "id": "xy-ch50-vairocana-form"
+        "text": "毘盧"
+        "relation": "preferred"
+        "reading":
+          "kana": "びる"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch50-vairocana-reading"
+          "reason_ja": "富山県の考古資料の検索表示に「毘盧（びる）」を確認。PDF本体の直接取得は不成功で、確認範囲は検索表示。"
+  - "id": "xy-ch50-nankeshi"
+    "kind": "term"
+    "headword": "南柯子"
+    "definition_ja": "詞を作る際の曲調・形式の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch50-primary-1498134"
+      "reason_ja": "原文で名称と対象・文脈を確認できる範囲の説明。後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch50-nankeshi-form"
+        "text": "南柯子"
+        "relation": "preferred"
+        "reading":
+          "kana": "なんかし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch50-primary-1498134"
+          "reason_ja": "構成漢字の日本語字音から採用した読み。語全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch50-badou"
+    "kind": "object"
+    "headword": "巴斗"
+    "definition_ja": "柳の枝などで編んだ、丸い升形の容器。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch50-moe-badou"
+      "reason_ja": "教育部辞典が柳条で編む円斗形の器具と説明する。容量を特定の数値に固定しない。"
+    "forms":
+      - "id": "xy-ch50-badou-form"
+        "text": "巴斗"
+        "relation": "preferred"
+        "reading":
+          "kana": "はと"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch50-primary-1498134"
+          "reason_ja": "構成漢字の日本語字音から採用した読み。語全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch50-najin"
+    "kind": "term"
+    "headword": "納錦"
+    "definition_ja": "布地を覆うように刺繍して、錦のような文様を作る技法・刺繍。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch50-npm-najin"
+      "reason_ja": "故宮博物院の織品修復解説が、地を見せない刺繍を納錦と説明する。"
+    "forms":
+      - "id": "xy-ch50-najin-form"
+        "text": "納錦"
+        "relation": "preferred"
+        "reading":
+          "kana": "のうきん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch50-primary-1498134"
+          "reason_ja": "構成漢字の日本語字音から採用した読み。語全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch50-jindou-mountain"
+    "kind": "place"
+    "headword": "金兜山"
+    "definition_ja": "西行の道にある山。山の前に金兜洞がある。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch50-primary-1498134"
+      "reason_ja": "原文で名称と対象・文脈を確認できる範囲の説明。後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch50-jindou-mountain-form"
+        "text": "金兜山"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんとうざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch50-primary-1498134"
+          "reason_ja": "構成漢字の日本語字音から採用した読み。語全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch50-jindou-cave"
+    "kind": "place"
+    "headword": "金兜洞"
+    "definition_ja": "金兜山の前にあり、独角兕大王が住む洞。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch50-primary-1498134"
+      "reason_ja": "原文で名称と対象・文脈を確認できる範囲の説明。後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch50-jindou-cave-form"
+        "text": "金兜洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんとうどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch50-primary-1498134"
+          "reason_ja": "構成漢字の日本語字音から採用した読み。語全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch50-one-horned-si"
+    "kind": "person"
+    "headword": "独角兕大王"
+    "definition_ja": "金兜洞に住み、術で屋敷を現して人を捕らえる妖怪。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch50-primary-1498134"
+      "reason_ja": "原文で名称と対象・文脈を確認できる範囲の説明。後の展開は含めない。"
+    "forms":
+      - "id": "xy-ch50-one-horned-si-form"
+        "text": "独角兕大王"
+        "relation": "preferred"
+        "reading":
+          "kana": "どっかくじだいおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch50-primary-1498134"
+          "reason_ja": "構成漢字の日本語字音から採用した読み。語全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch50-si-king-form"
+        "text": "兕大王"
+        "relation": "short_form"
+        "reading":
+          "kana": "じだいおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch50-primary-1498134"
+          "reason_ja": "構成漢字の日本語字音から採用した読み。語全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch50-dian-gang-spear"
+    "kind": "object"
+    "headword": "点鋼槍"
+    "definition_ja": "鋼で作られた槍。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch50-primary-1498134"
+      "reason_ja": "鋼槍とも呼ばれる原文の武器描写による。点鋼の具体的な鍛造法や鋼種は確定しない。"
+    "forms":
+      - "id": "xy-ch50-dian-gang-spear-form"
+        "text": "点鋼槍"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんこうそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch50-primary-1498134"
+          "reason_ja": "構成漢字の日本語字音から採用した読み。語全体の仮名を示す信頼できる日本語資料は確認できていない。"
