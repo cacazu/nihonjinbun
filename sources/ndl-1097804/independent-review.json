@@ -1,0 +1,904 @@
+{
+  "work_id": "tanaka-nihon-seishin-kokutai-1936",
+  "reviewer": "independent-review-nihon-seishin",
+  "input_sha256": "5ab1be1b687556d91334b4602ce7ec7fddd42103ca47777761058ad5caf64cf5",
+  "coverage": {
+    "scans": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "printed_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "source_units": 60,
+    "translation_units": 60,
+    "images_viewed": true,
+    "language_review_completed": true,
+    "annotations_final_check_pending": false,
+    "source_annotation_count": 50,
+    "editorial_notes_added": 2
+  },
+  "changes": [
+    {
+      "segment_id": "nsk-p0003-001",
+      "field": "source_text",
+      "old": "カヾ間題",
+      "new": "カヾ問題",
+      "reason": "印刷3頁の原画像は「問題」。門構え内部の口を確認。"
+    },
+    {
+      "segment_id": "nsk-p0003-001",
+      "field": "source_text",
+      "old": "ミヅノミヅシイ",
+      "new": "ミヅ〳〵シイ",
+      "reason": "印刷3頁の原画像は縦書きのくの字点を伴う「ミヅ〳〵シイ」。草稿の展開には余分なノが入っていた。"
+    },
+    {
+      "segment_id": "nsk-p0012-004",
+      "field": "source_text",
+      "old": "實我ガ歷史",
+      "new": "實ニ我ガ歷史",
+      "reason": "印刷21頁の柱末尾に「實ニ」、次の柱冒頭に「我ガ歷史」。ニ脱落を補う。"
+    },
+    {
+      "segment_id": "nsk-p0012-004",
+      "field": "source_text",
+      "old": "共間幾多",
+      "new": "其間幾多",
+      "reason": "印刷21頁「其間」の原字照合。"
+    },
+    {
+      "segment_id": "nsk-p0012-004",
+      "field": "source_text",
+      "old": "禍根ヲ貽スノ處",
+      "new": "禍根ヲ貽スノ虞",
+      "reason": "印刷21頁「虞」を画像で確認。訳文の「おそれ」は適切なので不変。"
+    },
+    {
+      "segment_id": "nsk-p0014-006",
+      "field": "source_text",
+      "old": "三番ノ一一號",
+      "new": "三番ノ二號",
+      "reason": "奥付拡大像の二画は一字「二」。隣の印刷人の住所も同じ三番ノ二號。"
+    },
+    {
+      "segment_id": "nsk-p0014-006",
+      "field": "translation_ja",
+      "old": "三番ノ一一号",
+      "new": "三番ノ二号",
+      "reason": "奥付の番地訂正に対応。"
+    },
+    {
+      "segment_id": "nsk-p0003-001",
+      "field": "annotations",
+      "old": [],
+      "new": [
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 438,
+            "end": 440,
+            "exact": "日本"
+          },
+          "reading": "ニツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 457,
+            "end": 459,
+            "exact": "日本"
+          },
+          "reading": "ニツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 506,
+            "end": 508,
+            "exact": "日本"
+          },
+          "reading": "ニツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 535,
+            "end": 537,
+            "exact": "日本"
+          },
+          "reading": "ニツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 538,
+            "end": 540,
+            "exact": "日本"
+          },
+          "reading": "ニツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 578,
+            "end": 580,
+            "exact": "日本"
+          },
+          "reading": "ニツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 673,
+            "end": 675,
+            "exact": "日本"
+          },
+          "reading": "ニツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 765,
+            "end": 767,
+            "exact": "日本"
+          },
+          "reading": "ジツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 802,
+            "end": 804,
+            "exact": "日本"
+          },
+          "reading": "ジツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 881,
+            "end": 883,
+            "exact": "對馬"
+          },
+          "reading": "ツイマ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 959,
+            "end": 961,
+            "exact": "對馬"
+          },
+          "reading": "ツイマ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1018,
+            "end": 1020,
+            "exact": "津島"
+          },
+          "reading": "ツシマ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1172,
+            "end": 1174,
+            "exact": "對馬"
+          },
+          "reading": "ツイマ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1283,
+            "end": 1285,
+            "exact": "日本"
+          },
+          "reading": "ジツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1294,
+            "end": 1296,
+            "exact": "日本"
+          },
+          "reading": "ニツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1302,
+            "end": 1304,
+            "exact": "日本"
+          },
+          "reading": "ニツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1310,
+            "end": 1312,
+            "exact": "日本"
+          },
+          "reading": "ニホン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1333,
+            "end": 1335,
+            "exact": "日本"
+          },
+          "reading": "ニツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 726,
+            "end": 727,
+            "exact": "日"
+          },
+          "reading": "ニ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 737,
+            "end": 738,
+            "exact": "日"
+          },
+          "reading": "ニチ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 740,
+            "end": 741,
+            "exact": "日"
+          },
+          "reading": "ジツ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1387,
+            "end": 1390,
+            "exact": "浦安國"
+          },
+          "reading": "ウラヤスノクニ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1440,
+            "end": 1443,
+            "exact": "瑞穗國"
+          },
+          "reading": "ミヅホノクニ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1614,
+            "end": 1617,
+            "exact": "秀眞國"
+          },
+          "reading": "ホツマクニ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1494,
+            "end": 1496,
+            "exact": "稱辭"
+          },
+          "reading": "タタヘコトバ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1562,
+            "end": 1563,
+            "exact": "焰"
+          },
+          "reading": "ホノホ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1676,
+            "end": 1678,
+            "exact": "日本"
+          },
+          "reading": "ヒノモト"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 1969,
+            "end": 1971,
+            "exact": "日本"
+          },
+          "reading": "ニツポン"
+        }
+      ],
+      "reason": "原画像の右傍小字・圏点を独立点検し、元の本文のUnicodeコードポイント範囲に対応させた。"
+    },
+    {
+      "segment_id": "nsk-p0004-001",
+      "field": "annotations",
+      "old": [
+        {
+          "side": "source",
+          "kind": "emphasis",
+          "span": {
+            "start": 135,
+            "end": 139,
+            "exact": "コトアゲ"
+          }
+        },
+        {
+          "side": "source",
+          "kind": "emphasis",
+          "span": {
+            "start": 319,
+            "end": 323,
+            "exact": "コトアゲ"
+          }
+        }
+      ],
+      "new": [
+        {
+          "side": "source",
+          "kind": "emphasis",
+          "span": {
+            "start": 135,
+            "end": 139,
+            "exact": "コトアゲ"
+          }
+        },
+        {
+          "side": "source",
+          "kind": "emphasis",
+          "span": {
+            "start": 319,
+            "end": 323,
+            "exact": "コトアゲ"
+          }
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 24,
+            "end": 26,
+            "exact": "日本"
+          },
+          "reading": "ニツポン"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 133,
+            "end": 135,
+            "exact": "惟神"
+          },
+          "reading": "カンナガラ"
+        }
+      ],
+      "reason": "原画像の右傍小字・圏点を独立点検し、元の本文のUnicodeコードポイント範囲に対応させた。"
+    },
+    {
+      "segment_id": "nsk-p0004-003",
+      "field": "annotations",
+      "old": [
+        {
+          "side": "source",
+          "kind": "emphasis",
+          "span": {
+            "start": 1110,
+            "end": 1113,
+            "exact": "ノベツ"
+          }
+        }
+      ],
+      "new": [
+        {
+          "side": "source",
+          "kind": "emphasis",
+          "span": {
+            "start": 1110,
+            "end": 1113,
+            "exact": "ノベツ"
+          }
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 315,
+            "end": 316,
+            "exact": "禊"
+          },
+          "reading": "ミソギ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 714,
+            "end": 716,
+            "exact": "三朝"
+          },
+          "reading": "ミササ"
+        }
+      ],
+      "reason": "原画像の右傍小字・圏点を独立点検し、元の本文のUnicodeコードポイント範囲に対応させた。"
+    },
+    {
+      "segment_id": "nsk-p0005-003",
+      "field": "annotations",
+      "old": [
+        {
+          "side": "source",
+          "kind": "emphasis",
+          "span": {
+            "start": 383,
+            "end": 397,
+            "exact": "フトマニニヨツテウラヒテ曰ク"
+          }
+        }
+      ],
+      "new": [
+        {
+          "side": "source",
+          "kind": "emphasis",
+          "span": {
+            "start": 383,
+            "end": 387,
+            "exact": "フトマニ"
+          }
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 248,
+            "end": 249,
+            "exact": "占"
+          },
+          "reading": "ウラナイ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 262,
+            "end": 264,
+            "exact": "卜部"
+          },
+          "reading": "ウラベ"
+        }
+      ],
+      "reason": "原画像の右傍小字・圏点を独立点検し、元の本文のUnicodeコードポイント範囲に対応させた。"
+    },
+    {
+      "segment_id": "nsk-p0006-001",
+      "field": "annotations",
+      "old": [],
+      "new": [
+        {
+          "side": "source",
+          "kind": "emphasis",
+          "span": {
+            "start": 124,
+            "end": 128,
+            "exact": "コトアゲ"
+          }
+        }
+      ],
+      "reason": "原画像の右傍小字・圏点を独立点検し、元の本文のUnicodeコードポイント範囲に対応させた。"
+    },
+    {
+      "segment_id": "nsk-p0008-009",
+      "field": "annotations",
+      "old": [
+        {
+          "side": "source",
+          "kind": "emphasis",
+          "span": {
+            "start": 141,
+            "end": 143,
+            "exact": "ヒコ"
+          }
+        },
+        {
+          "side": "source",
+          "kind": "emphasis",
+          "span": {
+            "start": 156,
+            "end": 159,
+            "exact": "ヒヒコ"
+          }
+        }
+      ],
+      "new": [
+        {
+          "side": "source",
+          "kind": "emphasis",
+          "span": {
+            "start": 141,
+            "end": 143,
+            "exact": "ヒコ"
+          }
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 50,
+            "end": 53,
+            "exact": "現津神"
+          },
+          "reading": "アキツカミ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 91,
+            "end": 94,
+            "exact": "皇孫命"
+          },
+          "reading": "スメミマノミコト"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 185,
+            "end": 188,
+            "exact": "御眞子"
+          },
+          "reading": "ミマコ"
+        }
+      ],
+      "reason": "原画像の右傍小字・圏点を独立点検し、元の本文のUnicodeコードポイント範囲に対応させた。"
+    },
+    {
+      "segment_id": "nsk-p0009-001",
+      "field": "annotations",
+      "old": [],
+      "new": [
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 278,
+            "end": 279,
+            "exact": "政"
+          },
+          "reading": "マツリゴト"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 301,
+            "end": 304,
+            "exact": "奉仕事"
+          },
+          "reading": "マツリゴト"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 390,
+            "end": 391,
+            "exact": "畏"
+          },
+          "reading": "カシコ"
+        }
+      ],
+      "reason": "原画像の右傍小字・圏点を独立点検し、元の本文のUnicodeコードポイント範囲に対応させた。"
+    },
+    {
+      "segment_id": "nsk-p0010-003",
+      "field": "annotations",
+      "old": [],
+      "new": [
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 46,
+            "end": 49,
+            "exact": "磤馭慮"
+          },
+          "reading": "オノコロ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 791,
+            "end": 792,
+            "exact": "公"
+          },
+          "reading": "オホヤケ"
+        },
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 798,
+            "end": 799,
+            "exact": "公"
+          },
+          "reading": "オホヤケ"
+        }
+      ],
+      "reason": "原画像の右傍小字・圏点を独立点検し、元の本文のUnicodeコードポイント範囲に対応させた。"
+    },
+    {
+      "segment_id": "nsk-p0011-001",
+      "field": "annotations",
+      "old": [],
+      "new": [
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 139,
+            "end": 141,
+            "exact": "惟神"
+          },
+          "reading": "カンナガラ"
+        }
+      ],
+      "reason": "原画像の右傍小字・圏点を独立点検し、元の本文のUnicodeコードポイント範囲に対応させた。"
+    },
+    {
+      "segment_id": "nsk-p0002-001",
+      "field": "issues",
+      "old": [
+        {
+          "kind": "unreadable",
+          "status": "open",
+          "message_ja": "印刷頁1は蔵書印が本文と重なる。高倍率画像で「色々意味ニトラヒマシテ雜誌ニ、新聞ニ、談話ニ」「サウシテ今非常ニ」「一般ニ精神」を再確認して補訂した。独立レビューで印章重複箇所を再点検。"
+        }
+      ],
+      "new": [
+        {
+          "kind": "unreadable",
+          "status": "resolved",
+          "message_ja": "印刷頁1は蔵書印が本文と重なる。高倍率画像で「色々意味ニトラヒマシテ雜誌ニ、新聞ニ、談話ニ」「サウシテ今非常ニ」「一般ニ精神」を再確認して補訂した。独立レビューで印章重複箇所を再点検。 独立レビューで当該原画像と本文・訳文を照合済み。"
+        }
+      ],
+      "reason": "独立画像照合による解消と、実際に残る限定的な小字判読留保を区別。"
+    },
+    {
+      "segment_id": "nsk-p0003-001",
+      "field": "issues",
+      "old": [
+        {
+          "kind": "uncertain_translation",
+          "status": "open",
+          "message_ja": "印刷頁2–3の日本の読み分けは振り仮名を伴う。訳のニホン／ニッポン／ジツポンは画像上のルビと議論に基づくが、原文欄のルビ構造は未実装。独立レビューで全箇所を拡大再確認する。"
+        }
+      ],
+      "new": [
+        {
+          "kind": "uncertain_translation",
+          "status": "resolved",
+          "message_ja": "印刷2–3頁の原画像と拡大切り出しを再照合し、日本／日等の印刷されたルビをsource annotationsに構造化した。ルビのない日本に推測のルビは追加していない。訳の読み分けも照合した。小字のかすれについては別の留保を参照。"
+        },
+        {
+          "kind": "unreadable",
+          "status": "open",
+          "message_ja": "原ルビは「ウラヤスノクニ」と読んで転記したが、小字が薄く中間の「ノ」の字形は不鮮明。本文の国名と訳の意味には影響しない。",
+          "source_span": {
+            "start": 1387,
+            "end": 1390,
+            "exact": "浦安國"
+          }
+        },
+        {
+          "kind": "unreadable",
+          "status": "open",
+          "message_ja": "原ルビは「タタヘコトバ」と読んで転記したが、小字のかすれが強く「ヘ」付近の字形に判読留保がある。本文の「稱辭」と訳の「褒め言葉」は明瞭。",
+          "source_span": {
+            "start": 1494,
+            "end": 1496,
+            "exact": "稱辭"
+          }
+        }
+      ],
+      "reason": "独立画像照合による解消と、実際に残る限定的な小字判読留保を区別。"
+    },
+    {
+      "segment_id": "nsk-p0007-001",
+      "field": "issues",
+      "old": [
+        {
+          "kind": "uncertain_translation",
+          "status": "open",
+          "message_ja": "底本には「一千七百七十二年」「ルイ十七世」と印刷されている。史実の訂正を本文に混入せず原記述を保持した。原著の誤認・誤記として独立レビュー対象。"
+        }
+      ],
+      "new": [
+        {
+          "kind": "uncertain_translation",
+          "status": "resolved",
+          "message_ja": "底本には「一千七百七十二年」「ルイ十七世」と印刷されている。史実の訂正を本文に混入せず原記述を保持した。原著の誤認・誤記として独立レビュー対象。 独立レビューで当該原画像と本文・訳文を照合済み。"
+        }
+      ],
+      "reason": "独立画像照合による解消と、実際に残る限定的な小字判読留保を区別。"
+    },
+    {
+      "segment_id": "nsk-p0012-001",
+      "field": "issues",
+      "old": [
+        {
+          "kind": "uncertain_translation",
+          "status": "open",
+          "message_ja": "原著の蒙古遠征・帰還者数などは史実検証を経た事実ではなく講演者の主張として保持。本文の固有名「矢田」も底本の印刷を保持。"
+        }
+      ],
+      "new": [
+        {
+          "kind": "uncertain_translation",
+          "status": "resolved",
+          "message_ja": "原著の蒙古遠征・帰還者数などは史実検証を経た事実ではなく講演者の主張として保持。本文の固有名「矢田」も底本の印刷を保持。 独立レビューで当該原画像と本文・訳文を照合済み。"
+        }
+      ],
+      "reason": "独立画像照合による解消と、実際に残る限定的な小字判読留保を区別。"
+    },
+    {
+      "segment_id": "nsk-review-note-historical-print-body",
+      "field": "segment",
+      "old": null,
+      "new": {
+        "id": "nsk-review-note-historical-print-body",
+        "section_id": "main-text",
+        "kind": "note_body",
+        "origin": "translator",
+        "source_text": null,
+        "source_languages": [],
+        "source_locations": [],
+        "translation_ja": "底本の印刷10頁には「一千七百七十二年」「ルイ十七世」と記されている。訳文はこの原記述を保持し、別の年代・王名への訂正はしていない。この講演に含まれる歴史的な断定は講演者の言説であって、訳者が史実として保証するものではない。",
+        "translation_status": "draft"
+      },
+      "reason": "独立レビューで原著の記述と訳者の立場を区別する訳注を追加。"
+    },
+    {
+      "segment_id": "nsk-review-note-ethnic-claims-body",
+      "field": "segment",
+      "old": null,
+      "new": {
+        "id": "nsk-review-note-ethnic-claims-body",
+        "section_id": "main-text",
+        "kind": "note_body",
+        "origin": "translator",
+        "source_text": null,
+        "source_languages": [],
+        "source_locations": [],
+        "translation_ja": "「純化」は講演者が民族の同化について用いる当時の語である。原著の同化主義・民族序列観を示すため訳にも残した。これらの主張は訳者の賛同や現在の人々の自己認識を表すものではない。",
+        "translation_status": "draft"
+      },
+      "reason": "独立レビューで原著の記述と訳者の立場を区別する訳注を追加。"
+    }
+  ],
+  "uncertainties": [
+    {
+      "segment_id": "nsk-p0001-001",
+      "message_ja": "表紙の蔵書票による遮蔽は物理的欠損として残る。先頭文字を推測補入しない。"
+    },
+    {
+      "segment_id": "nsk-p0003-001",
+      "source_span": {
+        "start": 1387,
+        "end": 1390,
+        "exact": "浦安國"
+      },
+      "message_ja": "原ルビは「ウラヤスノクニ」と読んで転記したが、小字が薄く中間の「ノ」の字形は不鮮明。本文の国名と訳の意味には影響しない。"
+    },
+    {
+      "segment_id": "nsk-p0003-001",
+      "source_span": {
+        "start": 1494,
+        "end": 1496,
+        "exact": "稱辭"
+      },
+      "message_ja": "原ルビは「タタヘコトバ」と読んで転記したが、小字のかすれが強く「ヘ」付近の字形に判読留保がある。本文の「稱辭」と訳の「褒め言葉」は明瞭。"
+    }
+  ],
+  "recommendation": "Independent body and language review complete; integrate candidate with explicit local ruby/cover uncertainties. Do not mark ready until integrator validates final review/hash and page rendering.",
+  "checks": {
+    "scan_continuity": "all 15 scans including blank back cover checked",
+    "printed_page_continuity": "1–24, no missing printed body pages",
+    "body_completeness": "all 60 input units compared in order with original images; no omitted substantive body/front/colophon unit found",
+    "quotation_speakers": "lecture voice distinct from Nelson, friend/Yada dialogue, imperial poems/edicts; transitions preserved",
+    "historical_claims": "author claims retained without external historical rewriting; specific print note and assimilation terminology note added",
+    "cross_page_continuations": "all ten recorded links read in sequence; integrator should render canonical paragraph groups, not expose split words as separate paragraphs",
+    "raw_ocr": "original zip/TXT/coordinate JSON untouched"
+  },
+  "candidate_sha256": "6dff648f8e03ed34f7369a5064b533daf3c32ba755247c8f5ec3d9041ff4674e",
+  "validation": {
+    "schema_and_semantic_errors": [],
+    "all_annotation_spans_exact": true,
+    "source_units": 60,
+    "translator_note_units": 2,
+    "annotation_count": 50
+  }
+}
