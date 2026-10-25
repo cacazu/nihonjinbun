@@ -4274,6 +4274,66 @@
     "title": "漢典 五七（検索表示で五から七の概数と三十五の両義を確認。文脈により概数を採用）"
     "url": "https://zdic.net/hant/%E4%BA%94%E4%B8%83"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-primary-1455646"
+    "title": "中文維基文庫 西遊記 第097回 固定版1455646（親担当が固定リンク実取得、作者が保存全34単位を通読）"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455646&title=西遊記/第097回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-gonghuang"
+    "title": "教育部 重編國語辭典「龔黃滿朝」（検索表示）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=75584&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-zhuolu"
+    "title": "漢典「卓魯」（検索表示）"
+    "url": "https://zdic.net/hans/卓鲁"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-xiachuang-moe"
+    "title": "教育部 重編國語辭典「轄床」（直接取得の本文）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=105438&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-gundu-moe"
+    "title": "教育部 重編國語辭典「滾肚」（直接取得の本文）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=74306&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-dinao-moe"
+    "title": "教育部 重編國語辭典「敵腦」（検索表示、直接取得失敗）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=44995&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-panxiong-moe"
+    "title": "教育部教育百科「攀胸」（重編辞典引用の検索表示、直接取得失敗）"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=攀胸"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-anzhang-moe"
+    "title": "教育部 重編國語辭典「案長」（検索表示、直接取得失敗）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=148085&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-ikki"
+    "title": "大辞泉・日本国語大辞典「一紀」（コトバンク本文）"
+    "url": "https://kotobank.jp/word/一紀-433978"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-portrait-study"
+    "title": "厦大史学 第二輯の祖先画像崇拝研究（PDFの検索表示、全PDF未取得）"
+    "url": "https://wszg.xmu.edu.cn/pdf/厦大史学%20（第二辑）.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-zhezheng"
+    "title": "教育部 重編國語辭典「折證」（検索表示、直接取得失敗）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=114899&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-nangnangtutu"
+    "title": "教育部 重編國語辭典「囊囊突突」（検索表示）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=57212&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-jiake"
+    "title": "教育部 重編國語辭典「甲科」（検索表示）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=89662&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-chuo-clue"
+    "title": "教育部教育百科「綽著經兒」（重編辞典引用の検索表示）"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=綽著經兒"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch97-chair-study"
+    "title": "日本建築学会計画系論文集70巻598号 家具語彙研究（検索表示の校床兒分類、全PDF未取得）"
+    "url": "https://www.jstage.jst.go.jp/article/aija/70/598/70_KJ00004390406/_pdf"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -9586,6 +9646,15 @@
           "source_ids":
             - "xy-ch74-primary-1500622"
           "reason_ja": "十地閻君を冥府の王たちの集合として読み、後の十閻王という説明と接続する。菩薩の修行位である十地とは異なる用法。構成字の日本語音からの採用で、全語形の仮名資料は未確認。"
+      - "id": "xy-ch97-ten-yama-kings-form"
+        "text": "十閻王"
+        "relation": "alias"
+        "reading":
+          "kana": "じゅうえんおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "森羅殿で迎える十人の冥界王。既存十王・十代閻君と同じ集団で、単独の閻王の別名とはしない。 全語形の日本語仮名資料は未確認。"
   - "id": "xy-entry-0227"
     "kind": "person"
     "headword": "秦広王"
@@ -44719,6 +44788,16 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+      - "id": "xy-ch97-shenzi-portrait-form"
+        "text": "神子"
+        "relation": "alias"
+        "reading":
+          "kana": "しんし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+            - "xy-ch97-portrait-study"
+          "reason_ja": "肖像の意味の神子を、画像・霊の像の同義である既存影神へ接続。先祖の肖像という原文と画像崇拝研究の検索表示に基づく。日本語本文では肖像と訳す。 全語形の日本語仮名資料は未確認。"
   - "id": "xy-pure-jiao-rite"
     "kind": "term"
     "headword": "清醮"
@@ -74097,3 +74176,429 @@
           "source_ids":
             - "xy-ch96-primary-1500608"
           "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch97-gong-sui"
+    "kind": "person"
+    "headword": "龔遂"
+    "definition_ja": "漢代の官人。地方統治にすぐれた名臣として引かれる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+        - "xy-ch97-gonghuang"
+      "reason_ja": "教育部の龔黄満朝の解説が龔遂と黄覇を漢代の良吏として並べる。"
+    "forms":
+      - "id": "xy-ch97-gong-sui-form"
+        "text": "龔遂"
+        "relation": "preferred"
+        "reading":
+          "kana": "きょうすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-huang-ba"
+    "kind": "person"
+    "headword": "黄覇"
+    "definition_ja": "漢代の官人。龔遂と並び、善政を行う名臣の代表とされる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+        - "xy-ch97-gonghuang"
+      "reason_ja": "教育部の龔黄満朝の解説を確認。原語黄霸の覇の字体差を保ち同一人物へ対応。"
+    "forms":
+      - "id": "xy-ch97-huang-ba-form"
+        "text": "黄覇"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうは"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-zhuo-mao"
+    "kind": "person"
+    "headword": "卓茂"
+    "definition_ja": "漢代の官人。魯恭とともに、すぐれた地方官の典型として挙げられる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+        - "xy-ch97-zhuolu"
+      "reason_ja": "漢典の卓魯の語義が卓茂と魯恭を明示。特定の現代の同名人物とは区別。"
+    "forms":
+      - "id": "xy-ch97-zhuo-mao-form"
+        "text": "卓茂"
+        "relation": "preferred"
+        "reading":
+          "kana": "たくも"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-lu-gong"
+    "kind": "person"
+    "headword": "魯恭"
+    "definition_ja": "漢代の官人。卓茂とともに、仁政を行う地方官の典型として挙げられる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+        - "xy-ch97-zhuolu"
+      "reason_ja": "漢典の卓魯の語義が漢代の卓茂と魯恭を明示。同名の別時代の人物とは同定しない。"
+    "forms":
+      - "id": "xy-ch97-lu-gong-form"
+        "text": "魯恭"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-chen-shaobao"
+    "kind": "person"
+    "headword": "陳少保"
+    "definition_ja": "都から来訪する、陳姓で少保の称を持つ高官。少保は官職・加官の名称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+      "reason_ja": "都下陳少保と、刺史が上司として迎える文脈による。既出の陳姓の家族や僧へ同定しない。"
+    "forms":
+      - "id": "xy-ch97-chen-shaobao-form"
+        "text": "陳少保"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちんしょうほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-xiachuang"
+    "kind": "object"
+    "headword": "轄床"
+    "definition_ja": "人を仰向けに寝かせ、手足を固定して動けなくする寝台形の刑具。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+        - "xy-ch97-xiachuang-moe"
+      "reason_ja": "教育部辞典の本文で、木床形、仰臥、手足の固定という語義を確認。"
+    "forms":
+      - "id": "xy-ch97-xiachuang-form"
+        "text": "轄床"
+        "relation": "preferred"
+        "reading":
+          "kana": "かつしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-gundu"
+    "kind": "object"
+    "headword": "滾肚"
+    "definition_ja": "腹に当てて用いる棒状の刑具。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+        - "xy-ch97-gundu-moe"
+      "reason_ja": "教育部辞典の本文が腹部に渡す棒と説明する。詳細な締め方や損傷は補わない。"
+    "forms":
+      - "id": "xy-ch97-gundu-form"
+        "text": "滾肚"
+        "relation": "preferred"
+        "reading":
+          "kana": "こんと"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-dinao"
+    "kind": "object"
+    "headword": "敵脳"
+    "definition_ja": "囚人の頭にはめて用いる刑具。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+        - "xy-ch97-dinao-moe"
+      "reason_ja": "教育部辞典の検索表示に頭にはめる刑具とある。直接ページは取得失敗、構造の細部は未確認。敵腦の新字体。"
+    "forms":
+      - "id": "xy-ch97-dinao-form"
+        "text": "敵脳"
+        "relation": "preferred"
+        "reading":
+          "kana": "てきのう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+      - "id": "xy-ch97-dinao-traditional-form"
+        "text": "敵腦"
+        "relation": "variant"
+        "reading":
+          "kana": "てきのう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "敵脳の旧字体で同じ刑具。原文の腦を別語にしない。 全語形の日本語仮名資料は未確認。"
+  - "id": "xy-ch97-panxiong"
+    "kind": "object"
+    "headword": "攀胸"
+    "definition_ja": "胸に掛け、寝台上の囚人が動けないようにする刑具。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+        - "xy-ch97-panxiong-moe"
+      "reason_ja": "教育部教育百科の重編辞典引用の検索表示で確認。直接取得は失敗。"
+    "forms":
+      - "id": "xy-ch97-panxiong-form"
+        "text": "攀胸"
+        "relation": "preferred"
+        "reading":
+          "kana": "はんきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-kou-ming"
+    "kind": "person"
+    "headword": "寇銘"
+    "definition_ja": "寇洪の父。寇洪が二十歳のころに死去したと、学友の豆腐屋が語る人物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+      "reason_ja": "豆腐屋の語る父子関係と名による。語りの証言であって独立した史料ではない。"
+    "forms":
+      - "id": "xy-ch97-kou-ming-form"
+        "text": "寇銘"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうめい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-zhang-wang"
+    "kind": "person"
+    "headword": "張旺"
+    "definition_ja": "寇洪の妻の父として語られる張姓の人物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+      "reason_ja": "娶的妻是那張旺之女という豆腐屋の説明による。ほかの張姓人物とは区別。"
+    "forms":
+      - "id": "xy-ch97-zhang-wang-form"
+        "text": "張旺"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-chuanzhener"
+    "kind": "person"
+    "headword": "穿針児"
+    "definition_ja": "寇洪の妻の幼名。張旺の娘で、張氏とも呼ばれる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+      "reason_ja": "豆腐屋が幼名と父の名を述べ、悟空が張氏穿針児と呼んだ文脈による。"
+    "forms":
+      - "id": "xy-ch97-chuanzhener-form"
+        "text": "穿針児"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんしんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+      - "id": "xy-ch97-zhang-wife-form"
+        "text": "張氏"
+        "relation": "alias"
+        "reading":
+          "kana": "ちょうし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "寇洪の妻穿針児を張氏と呼ぶ。別の張姓人物に結びつけない。 全語形の日本語仮名資料は未確認。"
+  - "id": "xy-ch97-jiang-qianyi"
+    "kind": "person"
+    "headword": "姜乾一"
+    "definition_ja": "銅台府の刺史姜坤三の亡き伯父。姜公乾一の公は敬称と解する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+      "reason_ja": "刺史の祈りに伯考姜公乾一とあり、後の大爺・先伯という呼称へ接続する。歴史上の同姓人物へ同定しない。"
+    "forms":
+      - "id": "xy-ch97-jiang-qianyi-form"
+        "text": "姜乾一"
+        "relation": "preferred"
+        "reading":
+          "kana": "きょうけんいつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+      - "id": "xy-ch97-jiang-gong-qianyi-form"
+        "text": "姜公乾一"
+        "relation": "title"
+        "reading":
+          "kana": "きょうこうけんいつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "公を敬称と解し、祈りの原語形を同じ伯父のformに保持。 全語形の日本語仮名資料は未確認。"
+  - "id": "xy-ch97-jiang-kunsan"
+    "kind": "person"
+    "headword": "姜坤三"
+    "definition_ja": "銅台府の刺史。姜乾一の甥。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+      "reason_ja": "祖先への祈りで自分を孝姪姜坤三と名乗り、銅台府刺史を拝命したと述べる。"
+    "forms":
+      - "id": "xy-ch97-jiang-kunsan-form"
+        "text": "姜坤三"
+        "relation": "preferred"
+        "reading":
+          "kana": "きょうこんさん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+      - "id": "xy-ch97-kunsan-short-form"
+        "text": "坤三"
+        "relation": "short_form"
+        "reading":
+          "kana": "こんさん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "名乗りを聞いた悟空が伯父をまねて呼ぶ同じ刺史の名。 全語形の日本語仮名資料は未確認。"
+  - "id": "xy-ch97-wandering-god-claim"
+    "kind": "title"
+    "headword": "浪蕩遊神"
+    "definition_ja": "各地を巡る神を思わせる呼称。悟空が玉帝の使いであると称するときに用いる虚称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+      "reason_ja": "変化した悟空が名乗る文脈に限定。既存の遊奕霊官という別の神へ同定しない。"
+    "forms":
+      - "id": "xy-ch97-wandering-god-claim-form"
+        "text": "浪蕩遊神"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろうとうゆうしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-golden-clad-attendant"
+    "kind": "person"
+    "headword": "金衣童子"
+    "definition_ja": "地蔵王に仕え、来た魂を引き合わせたり案内したりする童子。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+      "reason_ja": "十閻王の説明と童子自身の案内行為による。玉帝の金衣力士とは主と役割が違うため同定しない。"
+    "forms":
+      - "id": "xy-ch97-golden-clad-attendant-form"
+        "text": "金衣童子"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんいどうじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-guashu"
+    "kind": "concept"
+    "headword": "卦数"
+    "definition_ja": "易の卦の数。六十四卦の六十四を、人の年齢・寿命に重ねていう表現。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+      "reason_ja": "寇洪の六十四歳という先行説明と地蔵王の寿命の説明を照合。八卦や一卦の一つという既存項目と語義を区別。"
+    "forms":
+      - "id": "xy-ch97-guashu-form"
+        "text": "卦数"
+        "relation": "preferred"
+        "reading":
+          "kana": "かすう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-anzhang"
+    "kind": "title"
+    "headword": "案長"
+    "definition_ja": "文書や帳簿を管理する役目の者。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+        - "xy-ch97-anzhang-moe"
+      "reason_ja": "教育部辞典の検索表示が掌管案卷的人とする。文書役という機能が似ても、名称の異なる主簿や典簿へ同一官職と断定しない。"
+    "forms":
+      - "id": "xy-ch97-anzhang-form"
+        "text": "案長"
+        "relation": "preferred"
+        "reading":
+          "kana": "あんちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch97-twelve-year-period"
+    "kind": "term"
+    "headword": "一紀"
+    "definition_ja": "十二年間を表す古い期間の単位。木星が天を一周する周期にちなむ。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+        - "xy-ch97-ikki"
+      "reason_ja": "大辞泉と日本国語大辞典の本文で十二年間と読みを確認。"
+    "forms":
+      - "id": "xy-ch97-twelve-year-period-form"
+        "text": "一紀"
+        "relation": "preferred"
+        "reading":
+          "kana": "いっき"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch97-ikki"
+          "reason_ja": "当該語形の日本語仮名を直接確認。"
+  - "id": "xy-ch97-scripture-fee"
+    "kind": "term"
+    "headword": "経銭"
+    "definition_ja": "読経の礼として僧に渡す金銭。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch97-primary-1455646"
+      "reason_ja": "経銭と襯銭を並べ、托鉢・布施の金を管理するという原文から解する。一般供養の襯銭とは用途の限定を区別。日本語本文は読経のお礼と訳す。"
+    "forms":
+      - "id": "xy-ch97-scripture-fee-form"
+        "text": "経銭"
+        "relation": "preferred"
+        "reading":
+          "kana": "きょうせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
