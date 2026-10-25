@@ -2370,6 +2370,38 @@
     "title": "文苑英華 漢光武渡滹沱冰合賦（検索本文）"
     "url": "https://www.shidianguji.com/zh/book/SK3180/chapter/1l9gf9xj9rjfu"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch49-primary-1808612"
+    "title": "中文維基文庫 西遊記 第049回（現行取得ページ、フッター識別版1808612）"
+    "url": "https://zh.wikisource.org/zh-hant/西遊記/第049回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch49-moe-cook"
+    "title": "教育部 重編國語辭典修訂本「磨博士」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=27326&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch49-kantan-reading"
+    "title": "精選版日本国語大辞典「菡萏」（コトバンク）"
+    "url": "https://kotobank.jp/word/菡萏-1754177"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch49-colbase-fishbasket"
+    "title": "東京国立博物館 ColBase「魚籃観音菩薩立像」"
+    "url": "https://colbase.nich.go.jp/collection_items/tnm/TG-950?locale=ja"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch49-quebo-study"
+    "title": "曹海東・李玉晶「鵲薄及相關異寫形式考辨」『漢語學報』要旨"
+    "url": "https://ling.ccnu.edu.cn/__local/7/63/D2/E99D475424C2F23C42A4FBC7718_E26B2AD4_4B519.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch49-cao-workshop"
+    "title": "漢文學網「槽」所収、槽坊・槽枋・槽房"
+    "url": "https://zd.hwxnet.com/pdf/hwxE6hwxA7hwxBD.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch49-nine-ribs-comparison"
+    "title": "李時珍『本草綱目』卷四十五、黿の項（識典古籍）"
+    "url": "https://www.shidianguji.com/zh/book/SK1491/chapter/1l94kkmsgh15b"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch49-yuan-head-comparison"
+    "title": "陳元龍『格致鏡原』卷九十四、黿の項（中國哲學書電子化計劃）"
+    "url": "https://ctext.org/wiki.pl?chapter=350483&if=en"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -3517,6 +3549,15 @@
           "source_ids":
             - "xy-ch46-primary-1557967"
           "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch49-long-celestial-title-form"
+        "text": "混元一気上方太乙金仙美猴王斉天大聖"
+        "relation": "title"
+        "reading":
+          "kana": "こんげんいっきじょうほうたいいつきんせんびこうおうせいてんたいせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -13386,6 +13427,24 @@
           "source_ids":
             - "xy-ch42-primary-1808580"
           "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch49-putuo-crag-form"
+        "text": "普陀巌"
+        "relation": "variant"
+        "reading":
+          "kana": "ふだがん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch49-putuo-cliff-form"
+        "text": "普陀崖"
+        "relation": "variant"
+        "reading":
+          "kana": "ふだがい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0551"
     "kind": "concept"
     "headword": "大慈大悲"
@@ -13506,6 +13565,24 @@
           "source_ids":
             - "xy-ch35-primary-1500616"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+      - "id": "xy-ch49-rescue-venerable-form"
+        "text": "救苦尊"
+        "relation": "title"
+        "reading":
+          "kana": "きゅうくそん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch49-fishbasket-guanyin-form"
+        "text": "魚籃観音"
+        "relation": "title"
+        "reading":
+          "kana": "ぎょらんかんのん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch49-colbase-fishbasket"
+          "reason_ja": "東京国立博物館の所蔵品名「魚籃観音菩薩立像」の読みが、ぎょらんかんのんぼさつりゅうぞうと明記する。"
   - "id": "xy-entry-0553"
     "kind": "person"
     "headword": "恵岸行者"
@@ -13578,6 +13655,15 @@
           "source_ids":
             - "xy-ch42-primary-1808580"
           "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch49-muksha-disciple-form"
+        "text": "木叉行者"
+        "relation": "alias"
+        "reading":
+          "kana": "もくさぎょうじゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0554"
     "kind": "title"
     "headword": "天師"
@@ -20091,6 +20177,15 @@
           "source_ids":
             - "xy-ch43-primary-1455592"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+      - "id": "xy-ch49-true-demon-subduing-staff-form"
+        "text": "降妖真宝杖"
+        "relation": "alias"
+        "reading":
+          "kana": "ごうようしんほうじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0887"
     "kind": "concept"
     "headword": "白虎"
@@ -34232,6 +34327,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-ch49-moon-palace-form"
+        "text": "月宮"
+        "relation": "alias"
+        "reading":
+          "kana": "げっきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-1625"
     "kind": "term"
     "headword": "天関"
@@ -38226,6 +38330,15 @@
           "source_ids":
             - "xy-ch42-primary-1808580"
           "reason_ja": "漢字の日本語音・語構成に基づく読み。仮名表記を直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch49-pearl-holding-dragon-girl-form"
+        "text": "捧珠竜女"
+        "relation": "alias"
+        "reading":
+          "kana": "ほうじゅりゅうにょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-1835"
     "kind": "title"
     "headword": "海主"
@@ -47297,6 +47410,15 @@
           "source_ids":
             - "xy-ch47-primary-2598626"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch49-tongtian-short-form"
+        "text": "天河"
+        "relation": "short_form"
+        "reading":
+          "kana": "てんが"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-ch47-white-ping"
     "kind": "term"
     "headword": "白蘋"
@@ -47557,6 +47679,15 @@
           "source_ids":
             - "xy-ch48-primary-1808610"
           "reason_ja": "漢字の日本語音と語構成から採る。表記全体の日本語仮名読みを直接示す資料は未確認。中国語本文の出現を日本語読みに対する実証とはしない。"
+      - "id": "xy-ch49-lingxian-king-form"
+        "text": "霊顕大王"
+        "relation": "variant"
+        "reading":
+          "kana": "れいけんだいおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-ch47-yuanhui-county"
     "kind": "place"
     "headword": "元会県"
@@ -48432,3 +48563,298 @@
           "source_ids":
             - "xy-ch48-primary-1808610"
           "reason_ja": "漢字の日本語音と語構成から採る。表記全体の日本語仮名読みを直接示す資料は未確認。中国語本文の出現を日本語読みに対する実証とはしない。"
+  - "id": "xy-ch49-water-avoiding-seal"
+    "kind": "concept"
+    "headword": "避水訣"
+    "definition_ja": "水を避け、水中に入れるようにする術の印・秘訣。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch49-primary-1808612"
+      "reason_ja": "悟空が水中へ入るために結ぶもの。結んでいる間は棒を振れないと本人が説明する。"
+    "forms":
+      - "id": "xy-ch49-water-avoiding-seal-form"
+        "text": "避水訣"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひすいけつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch49-water-yuan-mansion"
+    "kind": "place"
+    "headword": "水黿之第"
+    "definition_ja": "水中の黿の屋敷という額名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch49-primary-1808612"
+      "reason_ja": "楼閣に掲げた四字の額。字面の意味と後に語られる住まいの名称が対応する。"
+    "forms":
+      - "id": "xy-ch49-water-yuan-mansion-form"
+        "text": "水黿之第"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいげんしてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch49-cao-workshop"
+    "kind": "place"
+    "headword": "槽房"
+    "definition_ja": "槽を置く作業場・小屋をいう語。酒造りの作業場を指す用法がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch49-primary-1808612"
+        - "xy-ch49-cao-workshop"
+      "reason_ja": "辞書で酒造・手漉き紙の作業場の語義を確認したが、本文では豚の餌桶の置かれた場所として使う。ここでの建物の機能は確定せず、原語を保持する。"
+    "forms":
+      - "id": "xy-ch49-cao-workshop-form"
+        "text": "槽房"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうぼう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch49-nine-petal-copper-mace"
+    "kind": "object"
+    "headword": "九瓣赤銅鎚"
+    "definition_ja": "九つの花弁状の部分を持つ、赤銅の鎚という武器。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch49-primary-1808612"
+      "reason_ja": "原文の武器名と花のつぼみの形をいう描写による。語釈にまだ明かされていない出所・所有関係を持ち込まない。"
+    "forms":
+      - "id": "xy-ch49-nine-petal-copper-mace-form"
+        "text": "九瓣赤銅鎚"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうべんしゃくどうつい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch49-xun-gold"
+    "kind": "term"
+    "headword": "遜金"
+    "definition_ja": "熊手を飾る金属をいう、原文の呼称。材質の厳密な同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch49-primary-1808612"
+      "reason_ja": "底本の遜金を保持する。一般に知られる別表記や金属名へ無断で訂正せず、装飾材である文脈のみを採る。"
+    "forms":
+      - "id": "xy-ch49-xun-gold-form"
+        "text": "遜金"
+        "relation": "preferred"
+        "reading":
+          "kana": "そんきん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch49-flour-cook"
+    "kind": "title"
+    "headword": "磨博士"
+    "definition_ja": "麺や粉ものの料理を作る職人・料理人。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch49-moe-cook"
+      "reason_ja": "教育部辞典が本作の同じ応酬を引用し、麺食を作る料理人と説明する。"
+    "forms":
+      - "id": "xy-ch49-flour-cook-form"
+        "text": "磨博士"
+        "relation": "preferred"
+        "reading":
+          "kana": "まはくし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch49-hengsha"
+    "kind": "concept"
+    "headword": "恒沙"
+    "definition_ja": "恒河の砂に由来する、数限りないものを表す仏教語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch49-primary-1808612"
+      "reason_ja": "仏教語の語構成から解するが、内丹詩の秉恆沙という結合の意味は確定しない。原語と解釈留保を保持する。"
+    "forms":
+      - "id": "xy-ch49-hengsha-form"
+        "text": "恒沙"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごうしゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch49-three-families"
+    "kind": "concept"
+    "headword": "三家"
+    "definition_ja": "内丹で合わせ修める三つの要素・働き。三者を指す字義もある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch49-primary-1808612"
+      "reason_ja": "還丹・五行の文脈で用いられ、戦う三人とも重ねられる。具体的な三要素の配当は本文が明記しないため断定しない。"
+    "forms":
+      - "id": "xy-ch49-three-families-form"
+        "text": "三家"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch49-gold-sprout"
+    "kind": "concept"
+    "headword": "金芽"
+    "definition_ja": "内丹の修練で生じる金の芽という象徴的な表現。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch49-primary-1808612"
+      "reason_ja": "土から金が生じる五行の説明に置かれた語。現実の金属製品や植物名に同定しない。"
+    "forms":
+      - "id": "xy-ch49-gold-sprout-form"
+        "text": "金芽"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんが"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch49-divine-water"
+    "kind": "concept"
+    "headword": "神水"
+    "definition_ja": "内丹の修練で生じる霊妙な水をいう象徴的な表現。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch49-primary-1808612"
+      "reason_ja": "金が生む水、さらに嬰児を産む過程として詠まれる。身体器官や特定の液体との対応は断定しない。"
+    "forms":
+      - "id": "xy-ch49-divine-water-form"
+        "text": "神水"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch49-lotus-bud"
+    "kind": "term"
+    "headword": "菡萏"
+    "definition_ja": "蓮の花、またはそのつぼみ。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch49-kantan-reading"
+      "reason_ja": "精選版日本国語大辞典が蓮の花・つぼみとする。本文ではまだ開かぬものを指す。"
+    "forms":
+      - "id": "xy-ch49-lotus-bud-form"
+        "text": "菡萏"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんたん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch49-kantan-reading"
+          "reason_ja": "精選版日本国語大辞典の見出しで「かんたん」と確認。"
+  - "id": "xy-ch49-nine-aids"
+    "kind": "term"
+    "headword": "九助"
+    "definition_ja": "霊妙な生き物の性質を表す詩句中の語。底本の字形を保持し、意味は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch49-primary-1808612"
+      "reason_ja": "底本は九助。九肋と解する余地はあるが、底本を校訂せず、字形と留保を残す。"
+    "forms":
+      - "id": "xy-ch49-nine-aids-form"
+        "text": "九助"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうじょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch49-water-immortal"
+    "kind": "title"
+    "headword": "水仙"
+    "definition_ja": "水中の仙人・霊妙な存在という呼び名。花のスイセンではない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch49-primary-1808612"
+      "reason_ja": "水中の神秘的な生き物を詠む文脈の尊称。詩末まで種の名を先取りしない。"
+    "forms":
+      - "id": "xy-ch49-water-immortal-form"
+        "text": "水仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch49-old-yuan"
+    "kind": "person"
+    "headword": "老黿"
+    "definition_ja": "通天河に住む年老いた黿。白い大きな甲羅を持ち、人の言葉を話す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch49-primary-1808612"
+      "reason_ja": "原文の姿と呼称に基づく。黿は大きなスッポン類をいうが、現代の生物種は確定しない。"
+    "forms":
+      - "id": "xy-ch49-old-yuan-form"
+        "text": "老黿"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろうげん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch49-white-yuan-form"
+        "text": "白黿"
+        "relation": "alias"
+        "reading":
+          "kana": "はくげん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch49-tiger-sinew"
+    "kind": "object"
+    "headword": "虎筋"
+    "definition_ja": "虎の筋。悟空が身に帯びる組紐の材料として記される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch49-primary-1808612"
+      "reason_ja": "底本の虎觔絛子という語形を日本語の虎筋の組紐とした。通常の虎皮の腰巻へ置き換えず、材質の記述を保持する。"
+    "forms":
+      - "id": "xy-ch49-tiger-sinew-form"
+        "text": "虎筋"
+        "relation": "preferred"
+        "reading":
+          "kana": "こきん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch49-primary-1808612"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"

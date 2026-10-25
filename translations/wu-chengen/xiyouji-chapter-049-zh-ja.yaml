@@ -1,0 +1,2756 @@
+"schema_version": "2.0"
+"work_id": "xiyouji-chapter-049-zh-ja"
+"metadata":
+  "title_ja": "西遊記 第四十九回"
+  "title_original": "西遊記 第四十九回 三藏有災沉水宅　觀音救難現魚籃"
+  "original_languages":
+  - "zh-Hant"
+  "target_language": "ja"
+  "contributors":
+  - "id": "traditional-author"
+    "name_ja": "呉承恩（伝）"
+    "name_original": "吳承恩"
+    "roles":
+    - "author"
+  - "id": "ai-translator"
+    "name_ja": "ChatGPT（AIによる新訳）"
+    "name_original": null
+    "roles":
+    - "translator"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "『西遊記』第四十九回 日本語新訳（AI生成）。原文は中文維基文庫「西遊記/第049回」、取得現行ページのフッター表示oldid=1808612。"
+    "note_ja": "電子翻刻の帰属表示と継承条件を保持するためCC BY-SA 4.0を明示。原典は公有と区別する。AIによる対訳と確認であり、専門家の独立校訂は未実施。"
+  "genres":
+  - "中国古典文学"
+  - "神魔小説"
+  - "物語"
+  "reader_notes_ja":
+  - "第四十九回の回題から結語まで46対訳単位を収録。全散文・会話・九組の韻文を省略しない。"
+  - "現行ページを取得し、フッターの版番号oldid=1808612と最終編集2020-05-13 02:03を確認。固定URLの直接取得は不成功であり、取得経路と版識別を区別する。"
+  - "AIによる新訳。原稿作成者とは別のAIが全46対訳単位・9組の韻文・22注・初出82件・段落末語釈51件を独立に照合した。人間・専門家による校訂および実ブラウザ表示確認は未実施。"
+  - "通常の地の文と発言者は悟空・三蔵・八戒・沙悟浄。新たな正体・呼称は原文が明かす順を守り、初出語釈にも先取りしない。"
+"sources":
+- "id": "wikisource-xiyou-ch49-1808612"
+  "role": "primary"
+  "title": "西遊記/第049回"
+  "languages":
+  - "zh-Hant"
+  "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+  "edition": "中文維基文庫。現行取得ページのフッター識別版oldid=1808612（2020-05-13 02:03）。固定URL直接取得は不成功。"
+  "contributor_ids":
+  - "traditional-author"
+  "work_rights":
+    "status": "public_domain"
+    "note_ja": "明代成立の古典本文。伝統的には呉承恩作とされるが著者帰属には議論がある。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "evidence_url": "https://zh.wikisource.org/wiki/Wikisource:Copyrights"
+    "attribution": "中文維基文庫「西遊記/第049回」の寄稿者。現行取得ページのフッター表示oldid=1808612。"
+  "description_ja": "回題・全散文・全会話・全韻文・結語。固定URLは版の識別用で、実際の取得先は現行ページ。"
+  "local_path": "translations/wu-chengen/verification/xiyouji-chapter-049-source-1808612-zh-hant.txt"
+  "sha256": "535990e49506f4fc92d75ce4153f6a97ff10eebe5256f6054a2c127ff4a879a2"
+- "id": "xy-ch49-moe-cook"
+  "role": "comparison"
+  "title": "教育部 重編國語辭典修訂本「磨博士」"
+  "languages":
+  - "zh-Hant"
+  "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=27326&la=0&powerMode=0"
+  "edition": "2026-10-25、検索結果の該当本文を確認。作品全体の校訂資料としては用いない。"
+  "work_rights":
+    "status": "unknown"
+  "transcription_rights":
+    "status": "unknown"
+  "description_ja": "難語の意味・読み・解釈の補助。保存した調査結果に確認範囲を記録。"
+- "id": "xy-ch49-kantan-reading"
+  "role": "comparison"
+  "title": "精選版日本国語大辞典「菡萏」（コトバンク）"
+  "languages":
+  - "ja"
+  "url": "https://kotobank.jp/word/菡萏-1754177"
+  "edition": "2026-10-25、検索結果の該当本文を確認。作品全体の校訂資料としては用いない。"
+  "work_rights":
+    "status": "unknown"
+  "transcription_rights":
+    "status": "unknown"
+  "description_ja": "難語の意味・読み・解釈の補助。保存した調査結果に確認範囲を記録。"
+- "id": "xy-ch49-colbase-fishbasket"
+  "role": "comparison"
+  "title": "東京国立博物館 ColBase「魚籃観音菩薩立像」"
+  "languages":
+  - "ja"
+  "url": "https://colbase.nich.go.jp/collection_items/tnm/TG-950?locale=ja"
+  "edition": "2026-10-25、検索結果の該当本文を確認。作品全体の校訂資料としては用いない。"
+  "work_rights":
+    "status": "unknown"
+  "transcription_rights":
+    "status": "unknown"
+  "description_ja": "難語の意味・読み・解釈の補助。保存した調査結果に確認範囲を記録。"
+- "id": "xy-ch49-quebo-study"
+  "role": "comparison"
+  "title": "曹海東・李玉晶「鵲薄及相關異寫形式考辨」『漢語學報』要旨"
+  "languages":
+  - "zh-Hant"
+  "url": "https://ling.ccnu.edu.cn/__local/7/63/D2/E99D475424C2F23C42A4FBC7718_E26B2AD4_4B519.pdf"
+  "edition": "2026-10-25、検索結果の該当本文を確認。作品全体の校訂資料としては用いない。"
+  "work_rights":
+    "status": "unknown"
+  "transcription_rights":
+    "status": "unknown"
+  "description_ja": "難語の意味・読み・解釈の補助。保存した調査結果に確認範囲を記録。"
+- "id": "xy-ch49-cao-workshop"
+  "role": "comparison"
+  "title": "漢文學網「槽」所収、槽坊・槽枋・槽房"
+  "languages":
+  - "zh-Hant"
+  "url": "https://zd.hwxnet.com/pdf/hwxE6hwxA7hwxBD.pdf"
+  "edition": "2026-10-25、検索結果の該当本文を確認。作品全体の校訂資料としては用いない。"
+  "work_rights":
+    "status": "unknown"
+  "transcription_rights":
+    "status": "unknown"
+  "description_ja": "難語の意味・読み・解釈の補助。保存した調査結果に確認範囲を記録。"
+- "id": "xy-ch49-nine-ribs-comparison"
+  "role": "comparison"
+  "title": "李時珍『本草綱目』卷四十五、黿の項（識典古籍）"
+  "languages":
+  - "zh-Hant"
+  "url": "https://www.shidianguji.com/zh/book/SK1491/chapter/1l94kkmsgh15b"
+  "edition": "2026-10-25、検索結果の該当本文を確認。作品全体の校訂資料としては用いない。"
+  "work_rights":
+    "status": "unknown"
+  "transcription_rights":
+    "status": "unknown"
+  "description_ja": "難語の意味・読み・解釈の補助。保存した調査結果に確認範囲を記録。"
+- "id": "xy-ch49-yuan-head-comparison"
+  "role": "comparison"
+  "title": "陳元龍『格致鏡原』卷九十四、黿の項（中國哲學書電子化計劃）"
+  "languages":
+  - "zh-Hant"
+  "url": "https://ctext.org/wiki.pl?chapter=350483&if=en"
+  "edition": "2026-10-25、検索結果の該当本文を確認。作品全体の校訂資料としては用いない。"
+  "work_rights":
+    "status": "unknown"
+  "transcription_rights":
+    "status": "unknown"
+  "description_ja": "難語の意味・読み・解釈の補助。保存した調査結果に確認範囲を記録。"
+"scope":
+  "included":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "description_ja": "第四十九回の回題から結語まで全体。"
+    "section_ids":
+    - "chapter-49"
+  "excluded":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "description_ja": "サイトのナビゲーション、著者欄、前後回案内とフッター。"
+  "known_gaps":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-005"
+    "description_ja": "訳注2に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-006"
+    "description_ja": "訳注3に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-008"
+    "description_ja": "訳注5に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-011"
+    "description_ja": "訳注7に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-012"
+    "description_ja": "訳注8に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-014"
+    "description_ja": "訳注9に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-018"
+    "description_ja": "訳注12に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-020"
+    "description_ja": "訳注13に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-024"
+    "description_ja": "訳注14に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-028"
+    "description_ja": "訳注15に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-031"
+    "description_ja": "訳注16に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-039"
+    "description_ja": "訳注18に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-040"
+    "description_ja": "訳注19に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-041"
+    "description_ja": "訳注20に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-042"
+    "description_ja": "訳注21に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "segment_ids":
+    - "xy-ch49-045"
+    "description_ja": "訳注22に示す語義・表記・解釈上の留保がある。原文や訳文の欠落ではない。"
+"sections":
+- "id": "chapter-49"
+  "parent_id": null
+  "kind": "chapter"
+  "heading_segment_ids":
+  - "xy-ch49-001"
+"segments":
+- "id": "xy-ch49-001"
+  "section_id": "chapter-49"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    第四十九回
+    三藏有災沉水宅　觀音救難現魚籃
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 114
+    "line_end": 115
+  "translation_ja": |-
+    第四十九回
+    三蔵は災いに遭い、水底の屋敷に沈む　観音は難を救い、魚籠を手に姿を現す
+  "translation_status": "reviewed"
+- "id": "xy-ch49-002"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "卻說孫大聖與八戒、沙僧辭陳老來至河邊，道：「兄弟，你兩個議定，那一個先下水？」八戒道：「哥啊，我兩個手段不見怎的，還得你先下水。」行者道：「不瞞賢弟說，若是山裡妖精，全不用你們費力；水中之事，我去不得。就是下海行江，我須要捻著避水訣，或者變化甚麼魚蟹之形，才去得。若是那般捻訣，卻掄不得鐵棒，使不得神通，打不得妖怪。我久知你兩個乃慣水之人，所以要你兩個下去。」沙僧道：「哥啊，小弟雖是去得，但不知水底如何。我等大家都去。哥哥變作甚麼模樣，或是我馱著你，分開水道，尋著妖怪的巢穴，你先進去打聽打聽。若是師父不曾傷損，還在那裡，我們好努力征討；假若不是這怪弄法，或者渰死師父，或者被妖吃了，我等不須苦求，早早的別尋道路何如？」行者道：「賢弟說得有理。你們那個馱我？」八戒暗喜道：「這猴子不知捉弄了我多少，今番原來不會水，等老豬馱他，也捉弄他捉弄。」獃子笑嘻嘻的叫道：「哥哥，我馱你。」行者就知有意，卻便將計就計道：「是，也好，你比悟淨還有些膂力。」八戒就背著他。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 118
+    "line_end": 118
+  "translation_ja": |-
+    さて、悟空（ごくう）、八戒（はっかい）、沙悟浄（さごじょう）は陳家の老人に別れを告げ、川辺へ来た。
+    悟空「弟たち、二人で決めてくれ。どっちが先に水へ入る？」
+    八戒「兄貴、俺たち二人の腕前じゃ、大したことはできないよ。やっぱり兄貴が先に入ってくれなきゃ。」
+    悟空「弟たちに隠すつもりはない。山の妖怪なら、お前たちの手を煩わせるまでもないが、水の中のこととなると俺には無理なんだ。海へ潜り、川へ入るにも、避水訣（ひすいけつ）を結ぶか、魚や蟹の姿に変わるかしなければ行けない。だが、そんなふうに印を結んでいたら、鉄の棒は振れず、神通力は使えず、妖怪とは戦えない。お前たち二人が水に慣れているのは、前から知っている。だから二人に潜ってもらいたいんだ。」
+    沙悟浄「兄さん、私は行けますが、水底がどうなっているか分かりません。皆で行きましょう。兄さんが何かの姿に変わるか、私がおぶるかして、水を分けながら妖怪の巣を捜すのです。兄さんが先に中へ入り、様子を探ってください。お師匠さまが傷つけられず、まだそこにいらっしゃるなら、私たちも力を尽くして討てます。もしこの妖怪の術の仕業でなかったり、お師匠さまが溺れてしまったり、妖怪に食われていたりしたら、むやみに捜し求めても仕方ありません。早々に別の道を探すというのはどうでしょう。」
+    悟空「もっともだ。どっちが俺をおぶってくれる？」
+    八戒はひそかに喜び、心の中で言った。
+    八戒「この猿には、どれほどからかわれたか知れない。ところが今度は、水が苦手だときた。俺がおぶって、ひとつ仕返ししてやろう。」
+    にやにや笑いながら、八戒は声をかけた。
+    八戒「兄貴、俺がおぶってやるよ。」
+    悟空はたちまち企みを見抜いたが、逆にその手に乗った。
+    悟空「ああ、それもいい。お前は悟浄（ごじょう）より、いくらか力があるからな。」
+    そこで八戒が悟空を背負った。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-003"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "沙僧剖開水路，弟兄們同入通天河內。向水底下行有百十里遠近，那獃子要捉弄行者。行者隨即拔下一根毫毛，變做假身，伏在八戒背上；真身變作一個豬虱子，緊緊的貼在他耳朵裡。八戒正行，忽然打個躘踵，得故子把行者往前一摜，撲的跌了一跤。原來那個假身本是毫毛變的，卻就飄起去，無影無形。沙僧道：「二哥，你是怎麼說？不好生走路，就跌在泥裡，便也罷了，卻把大哥不知跌在那裡去了。」八戒道：「那猴子不禁跌，一跌就跌化了。兄弟，莫管他死活，我和你且去尋師父去。」沙僧道：「不好，還得他來。他雖不知水性，他比我們乖巧。若無他來，我不與你去。」行者在八戒耳朵裡，忍不住高叫道：「悟淨，老孫在這裡也。」沙僧聽得，笑道：「罷了，這獃子是死了，你怎麼就敢捉弄他？如今弄得聞聲不見面，卻怎是好？」八戒慌得跪在泥裡磕頭道：「哥哥，是我不是了。待救了師父，上岸陪禮。你在那裡做聲？就諕殺我也。你請現原身出來，我馱著你，再不敢衝撞你了。」行者道：「是你還馱著我哩。我不弄你，你快走，快走。」那獃子絮絮叨叨，只管念誦著陪禮，爬起來與沙僧又進。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 119
+    "line_end": 119
+  "translation_ja": |-
+    沙悟浄が水を分け、三人はそろって通天河（つうてんが）へ入った。水底へ向かって百十里（り）ほど進んだところで、八戒は悟空をからかおうとした。悟空はすぐさま毛を一本抜き、偽の体に変えて八戒の背へ伏せさせ、自分は豚につくシラミに変わって、その耳の中にぴたりと取りついた。八戒は歩いている途中で、わざと足をもつれさせ、悟空を前へ放り出すと、どしんと転んだ。ところが、偽の体はもともと毛で作ったものなので、ふわりと浮き上がって、跡形もなく消えてしまった。
+    沙悟浄「二番目の兄さん、いったい何をするんです。ちゃんと歩かず、泥の中へ転ぶだけならまだしも、兄さんをどこへ放り出したのか、分からなくなってしまったじゃありませんか。」
+    八戒「あの猿は転ぶのに弱くて、一度転がっただけで消えちまったんだ。弟よ、生きていようが死んでいようが放っておけ。俺たちでお師匠さまを捜しに行こう。」
+    沙悟浄「それはいけません。やはり兄さんが必要です。水が苦手でも、私たちより知恵が回ります。兄さんが来なければ、私はあなたと一緒には行きません。」
+    悟空は八戒の耳の中で、たまらず大声を上げた。
+    悟空「悟浄、俺はここにいるぞ！」
+    それを聞いて、沙悟浄は笑った。
+    沙悟浄「やれやれ、この間抜け、もうおしまいだ。どうして兄さんをからかおうなんて思ったんです。今度は声だけして姿が見えない。さあ、どうするんです？」
+    八戒は慌てて泥の中にひざまずき、頭を下げた。
+    八戒「兄貴、俺が悪かった。お師匠さまを助けて岸へ上がったら、改めてお詫びするよ。どこで声を出してるんだ？　怖くてたまらないよ。どうか元の姿を見せてくれ。俺がおぶるから、もう二度と逆らわない。」
+    悟空「今もお前が俺をおぶってるんだ。からかったりはしない。さあ、早く歩け、歩け。」
+    八戒はぶつぶつと詫びの言葉を唱え続けながら起き上がり、沙悟浄とまた先へ進んだ。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-004"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "行了又有百十里遠近，忽擡頭望見一座樓臺，上有「水黿之第」四個大字。沙僧道：「這廂想是妖精住處，我兩個不知虛實，怎麼上門索戰？」行者道：「悟淨，那門裡外可有水麼？」沙僧道：「無水。」行者道：「既無水，你再藏隱在左右，待老孫去打聽打聽。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 120
+    "line_end": 120
+  "translation_ja": |-
+    さらに百十里ほど行くと、ふと顔を上げた先に楼閣があり、その上に「水黿之第（すいげんしてい）」という四つの大きな文字が見えた。
+    沙悟浄「ここが妖怪の住まいらしいですね。私たち二人では中の様子が分かりません。どうやって門前へ出て戦いを挑みましょう。」
+    悟空「悟浄、あの門の内と外には水があるか？」
+    沙悟浄「ありません。」
+    悟空「水がないなら、お前たちは辺りに身を隠していろ。俺が様子を探ってくる。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-005"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "好大聖，爬離了八戒耳朵裡，卻又搖身一變，變作個長腳蝦婆，兩三跳跳到門裡。睜眼看時，只見那怪坐在上面，眾水族擺列兩邊，有個斑衣鱖婆坐於側手，都商議要吃唐僧。行者留心，兩邊尋找不見。忽看見一個大肚蝦婆走將來，徑往西廊下立定。行者跳到面前，稱呼道：「姆姆，大王與眾商議要吃唐僧，唐僧卻在那裡？」蝦婆道：「唐僧被大王降雪結冰，昨日拿在宮後石匣中間。只等明日，他徒弟們不來吵鬧，就奏樂享用也。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 122
+    "line_end": 122
+  "translation_ja": |-
+    さすがは悟空。八戒の耳から這い出ると、体を揺すって、今度は脚の長い蝦婆（かば）に変わり、二、三度跳ねて門の中へ入った。目を見開いて見ると、妖怪が上座に座り、水の眷族たちが左右に並んでいる。その脇にはまだら模様の衣を着た鱖婆（けつば）がおり、一同で唐僧（とうそう）を食べる相談をしていた。悟空は気をつけながら左右を捜したが、師の姿は見当たらない。すると、腹の大きな蝦婆が歩いてきて、西の廊下に立ち止まった。悟空はその前へ跳んでいき、呼びかけた。
+    悟空「おばさん、大王さまたちが唐僧を食べる相談をしているけれど、その唐僧はどこにいるの？」
+    蝦婆「大王さまが雪を降らせ、氷を張らせて、昨日お捕らえになった唐僧なら、宮殿の裏の石箱の中ですよ。明日まで待って、弟子たちが騒ぎに来なければ、音楽を奏でてお召し上がりになるのです。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-006"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "行者聞言，演了一會，徑直尋到宮後看，果有一個石匣，卻像人家槽房裡的豬槽，又似人間一口石棺材之樣，量量足有六尺長短。卻伏在上面，聽了一會，只聽得三藏在裡面嚶嚶的哭哩。行者不言語，側耳再聽，那師父銼得牙響，哏了一聲道："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 124
+    "line_end": 124
+  "translation_ja": "それを聞いた悟空はしばらく間を置き、まっすぐ宮殿の裏へ捜しに行った。なるほど石箱がある。人家の槽房（そうぼう）にある豚の餌桶のようでもあり、人の世の石棺のようでもあって、長さを見計らうと、たっぷり六尺（しゃく）ほどはあった。悟空はその上に腹ばいになり、しばらく聞き耳を立てた。中では三蔵（さんぞう）が、しくしく泣いている。悟空は声をかけず、さらに耳を澄ませた。すると師は歯をぎりぎり鳴らし、うめき声を一つ漏らして、こう詠んだ。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-007"
+  "section_id": "chapter-49"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    自恨江流命有愆，生時多少水災纏。
+    出娘胎腹淘波浪，拜佛西天墮渺淵。
+    前遇黑河身有難，今逢冰解命歸泉。
+    不知徒弟能來否，可得真經返故園？
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 126
+    "line_end": 129
+  "translation_ja": |-
+    三蔵「江流（こうりゅう）と呼ばれた我が身の、つたない運命が恨めしい。
+    生まれてから、幾たび水の災いにまとわれたことか。
+    母の胎を出るなり、波間を漂い、
+    西天（さいてん）へ仏を拝みに行けば、深い淵へ落ち込んだ。
+    先には黒河（こくが）で身に難を受け、
+    今また氷が解けて、命は黄泉へ向かう。
+    弟子たちは来てくれるだろうか。
+    真の経を授かり、故郷へ帰ることはかなうのか。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-008"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "行者忍不住叫道：「師父莫恨水災。經云：『土乃五行之母，水乃五行之源。無土不生，無水不長。』老孫來了。」三藏聞得道：「徒弟啊，救我耶。」行者道：「你且放心，待我們擒住妖精，管教你脫難。」三藏道：「快些兒下手，再停一日，足足悶殺我也。」行者道：「沒事，沒事。我去也！」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 130
+    "line_end": 130
+  "translation_ja": |-
+    悟空はこらえきれずに呼びかけた。
+    悟空「お師匠さま、水の災いを恨んではいけません。経には『土は五行（ごぎょう）の母、水は五行の源。土がなければ生まれず、水がなければ育たない』とあります。この悟空が参りました。」
+    三蔵「弟子よ、助けておくれ！」
+    悟空「ご安心ください。私たちが妖怪を捕らえれば、必ずお助けできます。」
+    三蔵「早く取りかかっておくれ。もう一日もここに置かれたら、息が詰まって死んでしまう。」
+    悟空「大丈夫、大丈夫です。では、行ってきます！」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-009"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "急回頭，跳將出去，到門外現了原身，叫：「八戒。」那獃子與沙僧近前道：「哥哥，如何？」行者道：「正是此怪騙了師父。師父未曾傷損，被怪物蓋在石匣之下。你兩個快早挑戰，讓老孫先出水面。你若擒得他就擒；擒不得，做個佯輸，引他出水，等我打他。」沙僧道：「哥哥放心先去，待小弟們鑒貌辨色。」這行者捻著避水訣，鑽出河中，停立岸邊等候不題。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 132
+    "line_end": 132
+  "translation_ja": |-
+    悟空は急いで引き返し、跳んで外へ出ると、門前で元の姿に戻った。
+    悟空「八戒！」
+    八戒と沙悟浄が近寄ってきた。
+    八戒と沙悟浄「兄さん、どうでした？」
+    悟空「やはりこの妖怪が、お師匠さまをだましたんだ。お師匠さまに傷はないが、石箱の下へ閉じ込められている。お前たちは早く戦いを挑め。俺は先に水の上へ出る。捕らえられるなら捕らえろ。無理なら負けたふりをして、水の外へおびき出せ。そこで俺が打ち倒してやる。」
+    沙悟浄「兄さんは安心して先へ行ってください。私たちは相手の出方を見て動きます。」
+    悟空は避水訣を結んで川から抜け出し、岸に立って待つことにした。こちらの話は、ひとまず置こう。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-010"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "你看那豬八戒行兇，闖至門前，厲聲高叫：「潑怪物！送我師父出來。」慌得那門裡小妖急報：「大王，門外有人要師父哩。」妖邪道：「這定是那潑和尚來了。」教：「快取披掛兵器來。」眾小妖連忙取出。妖邪結束了，執兵器在手，即命開門，走將出來。八戒與沙僧對列左右，見妖邪怎生披掛？好怪物，你看他："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 134
+    "line_end": 134
+  "translation_ja": |-
+    さて八戒は猛り立ち、門前へ躍り込むと、声を張り上げた。
+    八戒「ろくでなしの妖怪め！　お師匠さまを返せ！」
+    門の中の小妖は驚き、急いで報告した。
+    小妖「大王、門の外に師を返せという者が来ております！」
+    妖怪「きっと、あの不埒な和尚どもだ。早く鎧と武器を持ってこい。」
+    小妖たちは大急ぎで運び出した。妖怪は身支度を整え、武器を握ると、門を開けさせて外へ出た。八戒と沙悟浄は左右に分かれて立ち、妖怪の装束を見た。なんという怪物だろう。その姿は、こうであった。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-011"
+  "section_id": "chapter-49"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    頭戴金盔晃且輝，身披金甲掣虹霓。
+    腰圍寶帶團珠翠，足踏煙黃靴樣奇。
+    鼻準高隆如嶠聳，天庭廣闊若龍儀。
+    眼光閃灼圓還暴，牙齒鋼鋒尖又齊。
+    短髮蓬鬆飄火焰，長鬚瀟灑挺金錐。
+    口咬一枝青嫩藻，手拿九瓣赤銅鎚。
+    一聲咿啞門開處，響似三春驚蟄雷。
+    這等形容人世少，敢稱靈顯大王威。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 135
+    "line_end": 142
+  "translation_ja": |-
+    頭に戴く金の兜は、ぎらぎらと輝き、
+    身を包む金の鎧には、虹の光が走る。
+    腰の宝帯には珠と翠が連なり、
+    足に履くくすんだ黄色の靴は、奇妙な形。
+    鼻筋は山の頂のように高くそびえ、
+    額は広々として、竜の威容を思わせる。
+    丸く突き出た目には、鋭い光がひらめき、
+    歯は鋼の刃のように、とがって並ぶ。
+    短い髪はぼうぼうと、炎のようになびき、
+    長いひげはさらりと伸びて、金の錐のように立つ。
+    口には青く柔らかな藻を一本くわえ、
+    手には九瓣赤銅鎚（きゅうべんしゃくどうつい）を握る。
+    門の開くところで発した一声は、
+    春の虫を驚かせる雷にも似る。
+    こんな姿は人の世にまれ、
+    霊顕大王（れいけんだいおう）と名乗るだけの威勢はある。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-012"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "妖邪出得門來，隨後有百十個小妖，一個個掄槍舞劍，擺開兩哨。對八戒道：「你是那寺裡和尚？為甚到此喧嚷？」八戒喝道：「我把你這打不死的潑物！你前夜與我頂嘴，今日如何推不知來問我？我本是東土大唐聖僧之徒弟，往西天拜佛求經者。你弄玄虛，假做甚麼靈感大王，專在陳家莊要吃童男童女。我本是陳清家一秤金，你不認得我麼？」那妖怪道：「你這和尚，甚沒道理。你變做一秤金，該一個冒名頂替之罪。我倒不曾吃你，反被你傷了我手背。已此讓了你，你怎麼又尋上我的門來？」八戒道：「你既讓我，卻怎麼又弄冷風，下大雪，凍結堅冰，害我師父？快早送我師父出來，萬事皆休；牙迸半個『不』字，你只看看手中鈀，決不饒你。」妖邪聞言，微微冷笑道：「這和尚賣此長舌，胡誇大口。果然是我作冷下雪凍河，攝你師父。你今嚷上門來，思量取討，只怕這一番不比那一番了：那時節，我因赴會，不曾帶得兵器，誤中你傷；你如今且休要走，我與你交敵三合。三合敵得我過，還你師父；敵不過，連你一發吃了。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 143
+    "line_end": 143
+  "translation_ja": |-
+    妖怪が門を出ると、百十ばかりの小妖が後に続き、それぞれ槍を振り、剣を舞わせ、二手に分かれて陣取った。妖怪は八戒に言った。
+    妖怪「お前はどこの寺の和尚だ。なぜここへ来て騒ぐ？」
+    八戒「この、打っても死なないろくでなしめ！　一昨日の晩は俺と言い争ったくせに、今日は知らぬ顔で尋ねる気か。俺は東土（とうど）の大唐（だいとう）から来た聖僧の弟子で、西天へ仏を拝み、経を求めに行く者だ。お前はまやかしで霊感大王（れいかんだいおう）などと名乗り、陳家荘（ちんかそう）で男の子と女の子を食おうとしていた。俺が陳清（ちんせい）の家の一秤金（いっしょうきん）だ。見忘れたか？」
+    妖怪「まったく道理の分からぬ和尚だ。一秤金に化けたのなら、他人の名をかたって身代わりになった罪がある。わしはお前を食わなかったのに、逆に手の甲を傷つけられた。そこまで譲ってやったのに、どうしてまたわしの門まで押しかける？」
+    八戒「譲ったというなら、なぜ冷たい風を起こし、大雪を降らせ、厚い氷を張って、お師匠さまを苦しめたんだ？　すぐにお師匠さまを返せば、それで何もかも済ませてやる。歯の間から『いやだ』の半言でも漏らしてみろ。手にしたこの熊手が見えるだろう。決して許さんぞ！」
+    妖怪はかすかに冷笑した。
+    妖怪「よくも舌を長くして、でたらめな大口をたたくものだ。なるほど、寒気を起こし、雪を降らせ、川を凍らせてお前の師をさらったのは、わしだ。今さら門前へ怒鳴り込み、取り返そうとしても、今度は前のようにはいくまいぞ。あのときは祭りへ出かけたので、武器を持っていなかった。その隙に傷つけられたのだ。今度は逃げるな。わしと三合、渡り合え。三合でわしに勝てば、師を返してやる。勝てなければ、お前も一緒に食ってやろう。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-013"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "八戒道：「好乖兒子，正是這等說。仔細看鈀。」妖邪道：「你原來是半路上出家的和尚。」八戒道：「我的兒，你真個有些靈感，怎麼就曉得我是半路出家的？」妖邪道：「你會使鈀，想是雇在那裡種園，把他釘鈀拐將來也。」八戒道：兒子，我這鈀，不是那築地之鈀。你看："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 144
+    "line_end": 144
+  "translation_ja": |-
+    八戒「よしよし、利口な息子だ。そうこなくっちゃな。熊手をよく見ろ！」
+    妖怪「お前はもともと、途中から出家した和尚なのだな。」
+    八戒「おい、息子よ、さすがに霊感があるじゃないか。俺が途中から出家したと、どうして分かった？」
+    妖怪「熊手を使うところを見れば、どこかで畑仕事に雇われ、その家の熊手を持ち逃げしてきたのだろう。」
+    八戒「息子よ、俺のこの熊手は、土を掘り返す熊手じゃない。よく見ろ。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-014"
+  "section_id": "chapter-49"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    巨齒鑄就如龍爪，遜金妝來似蟒形。
+    若逢對敵寒風灑，但遇相持火焰生。
+    能與聖僧除怪物，西方路上捉妖精。
+    掄動煙雲遮日月，使開霞彩照分明。
+    築倒太山千虎怕，掀翻大海萬龍驚。
+    饒你威靈有手段，一築須教九窟窿。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 146
+    "line_end": 151
+  "translation_ja": |-
+    八戒「大きな歯は竜の爪のように鋳られ、
+    遜金（そんきん）で飾った姿は大蛇にも似ている。
+    敵と向き合えば、冷たい風をまき散らし、
+    渡り合えば、炎を生む。
+    聖僧のために怪物を取り除き、
+    西方への道では妖怪を捕らえる。
+    振り回せば煙と雲が日と月を覆い、
+    打ち広げれば彩雲が明るく照らす。
+    太山（たいざん）を打ち倒せば、千の虎が恐れ、
+    大海をひっくり返せば、万の竜が驚く。
+    お前にどれほど霊威と腕前があろうと、
+    一撃で必ず九つの穴をあけてやる！」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-015"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "那個妖邪那裡肯信，舉銅鎚劈頭就打。八戒使釘鈀架住道：「你這潑物，原來也是半路上成精的邪魔。」那怪道：「你怎麼認得我是半路上成精的？」八戒道：「你會使銅鎚，想是雇在那個銀匠家扯爐，被你得了手，偷將出來的。」妖邪道：「這不是打銀之鎚。你看："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 153
+    "line_end": 153
+  "translation_ja": |-
+    妖怪が信じるはずもなく、銅の鎚を振り上げ、頭めがけて打ち下ろした。八戒は熊手で受け止めて言った。
+    八戒「このろくでなし、もともとはお前も途中から妖怪になった邪悪な魔物だったか。」
+    妖怪「わしが途中から妖怪になったと、どうして分かる？」
+    八戒「銅の鎚を使うところを見れば、どこかの銀細工師に雇われてふいごを引き、手に入れる機会があったので盗み出してきたんだろう。」
+    妖怪「これは銀を打つ鎚ではない。よく見よ。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-016"
+  "section_id": "chapter-49"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    九瓣攢成花骨朵，一竿虛孔萬年青。
+    原來不比凡間物，出處還從仙苑名。
+    綠房紫菂瑤池老，素質清香碧沼生。
+    因我用功摶鍊過，堅如鋼銳徹通靈。
+    槍刀劍戟渾難賽，鉞斧戈矛莫敢經。
+    縱讓他鈀能利刃，湯著吾鎚迸折釘。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 155
+    "line_end": 160
+  "translation_ja": |-
+    妖怪「九つの瓣が集まり、一つの花のつぼみを作り、
+    一本の柄は中が空洞で、万年を経ても青い。
+    もともと人の世の品とは比べられず、
+    その由来は名高い仙苑にある。
+    緑の蓮台、紫の実は瑤池（ようち）で年を経て、
+    白い花の姿と清らかな香りは、碧の池に生じた。
+    わしが力を尽くして練り鍛えたために、
+    鋼のように堅く鋭くなり、霊妙な力まで通う。
+    槍、刀、剣、戟もことごとく及ばず、
+    まさかり、斧、戈、矛も、あえて受けようとはせぬ。
+    たとえあの熊手が鋭い刃を誇ろうと、
+    この鎚に触れれば、歯は弾けて折れてしまう。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-017"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "沙和尚見他兩個攀話，忍不住近前高叫道：「那怪物休得朗言。古人云：『口說無憑，做出便見。』不要走，且吃我一杖。」妖邪使鎚桿架住道：「你也是半路裡出家的和尚。」沙僧道：「你怎麼認得？」妖邪道：「你這模樣，像一個磨博士出身。」沙僧道：「如何認得我像個磨博士？」妖邪道：「你不是磨博士，怎麼會使趕麵杖？」沙僧罵道：「你這孽障，是也不曾見："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 161
+    "line_end": 161
+  "translation_ja": |-
+    沙悟浄は二人の口の応酬を見て、たまらず前へ進み、大声を上げた。
+    沙悟浄「妖怪め、大口をたたくな。昔の人も『口で言っても証拠にはならぬ、やってみれば分かる』と言っている。逃げるな、この杖を受けてみろ！」
+    妖怪は鎚の柄で受け止めて言った。
+    妖怪「お前も途中から出家した和尚だな。」
+    沙悟浄「どうして分かる？」
+    妖怪「その姿を見ると、もとは磨博士（まはくし）だったようだ。」
+    沙悟浄「どこを見て、私が磨博士らしいと言う？」
+    妖怪「磨博士でなければ、どうして麺棒が使える？」
+    沙悟浄はののしった。
+    沙悟浄「この悪党、こんなものは見たこともないのだろう。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-018"
+  "section_id": "chapter-49"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    這般兵器人間少，故此難知寶杖名。
+    出自月宮無影處，梭羅仙木琢磨成。
+    外邊嵌寶霞光耀，內裡鑽金瑞氣凝。
+    先日也曾陪御宴，今朝秉正保唐僧。
+    西方路上無知識，上界宮中有大名。
+    喚做降妖真寶杖，管教一下碎天靈。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 163
+    "line_end": 168
+  "translation_ja": |-
+    沙悟浄「こうした武器は、人の世にめったになく、
+    それゆえ、この宝杖（ほうじょう）の名も知るまい。
+    月宮（げっきゅう）の影もないところから出た、
+    梭羅（さら）の仙木を削り磨いて作ったものだ。
+    外には宝石をはめ込み、霞の光が輝き、
+    内には金を穿ち込み、めでたい気が凝り集まる。
+    かつては天帝の宴にもお供をし、
+    今は正道を守って、唐僧を護衛する。
+    西方への道でこれを知る者はいないが、
+    上界の宮殿では名高い品だ。
+    降妖真宝杖（ごうようしんほうじょう）という、その名のとおり、
+    一打でお前の頭のてっぺんを砕いてやる！」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-019"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "那妖邪不容分說，三家變臉，這一場在水底下好殺："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 170
+    "line_end": 170
+  "translation_ja": "妖怪はそれ以上ものを言わせず、三人は顔色を変えた。水底でのこの戦いは、まことに激しいものであった。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-020"
+  "section_id": "chapter-49"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "銅鎚寶杖與釘鈀，悟能悟淨戰妖邪。一個是天蓬臨世界，一個是上將降天涯。他兩個夾攻水怪施威武，這一個獨抵神僧勢可誇。有分有緣成大道，相生相剋秉恆沙。土剋水，水乾見底；水生木，木旺開花。禪法參修歸一體，還丹炮煉伏三家。土是母，發金芽，金生神水產嬰娃；水為本，潤木華，木有輝煌烈火霞。攢簇五行皆別異，故然變臉各爭差。看他那銅鎚九瓣光明好，寶杖千絲彩繡佳。鈀按陰陽分九曜，不明解數亂如麻。捐軀棄命因僧難，捨死忘生為釋迦。致使銅鎚忙不墜，左遮寶杖右遮鈀。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 171
+    "line_end": 171
+  "translation_ja": |-
+    銅の鎚と宝杖と熊手、
+    悟能（ごのう）と悟浄が妖怪と戦う。
+    一人は天蓬（てんぽう）が人の世へ下った者、
+    一人は上将が地の果てへ降りた者。
+    二人は水の怪物を挟み撃ちにし、武勇を振るい、
+    一人は神僧たちに独りで立ち向かい、その勢いも見事なもの。
+    縁と分があれば、大道を成し、
+    相い生み、相い剋し、恒沙（ごうしゃ）を保つ。
+    土は水に剋つ、水が乾けば底が見える。
+    水は木を生む、木が盛んになれば花が開く。
+    禅の法を修めれば、一つの体へ帰り、
+    還丹（かんたん）を焼き練れば、三家（さんか）を服させる。
+    土は母となり、金芽（きんが）を生じ、
+    金は神水（しんすい）を生み、嬰児を産む。
+    水は根本となり、木の花を潤し、
+    木はきらきらと、烈火の霞を生む。
+    集め合わせる五行には、それぞれ違いがあり、
+    だからこそ顔色を変え、互いに争うのだ。
+    見よ、銅の鎚の九つの瓣は、見事な光を放ち、
+    宝杖の無数の筋は、彩り豊かな刺繍のよう。
+    熊手は陰陽に従い、九曜（くよう）を配し、
+    技が見分けられぬほど、麻のように入り乱れる。
+    師の難のため、身を投げ出し命を捨て、
+    釈迦（しゃか）のため、死を顧みず生を忘れる。
+    そのため銅の鎚は休む間もなく、
+    左に宝杖を防ぎ、右に熊手を遮る。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-021"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "三人在水底下鬥經兩個時辰，不分勝敗。豬八戒料道不得贏他，對沙僧丟了個眼色。二人詐敗佯輸，各拖兵器，回頭就走。那怪物教：「小的們，扎住在此，等我追趕上這廝，捉將來與汝等湊吃啞。」你看他如風吹敗葉，似雨打殘花，將他兩個趕出水面。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 173
+    "line_end": 173
+  "translation_ja": |-
+    三人は水底で二時辰（じしん）戦ったが、勝敗はつかなかった。八戒はこのままでは勝てないと見て、沙悟浄に目配せした。二人は敗れたふりをし、それぞれ武器を引きずって、振り返ると逃げ出した。
+    妖怪「お前たち、ここに陣取っていろ。わしがあの連中を追いかけ、捕らえてきて、お前たちにも一緒に食わせてやる。」
+    見れば、風が落ち葉を吹くように、雨が散りかけた花を打つように、妖怪は二人を水面まで追い立てた。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-022"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "那孫大聖在東岸上眼不轉睛，只望著河邊水勢。忽然見波浪翻騰，喊聲號吼，八戒先跳上岸道：「來了，來了。」沙僧也到岸邊道：「來了，來了。」那妖邪隨後叫：「那裡走？」才出頭，被行者喝道：「看棍。」那妖邪閃身躲過，使銅鎚急架相還。一個在河邊湧浪，一個在岸上施威。搭上手未經三合，那妖遮架不住，打個花，又淬於水裡，遂此風平浪息。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 175
+    "line_end": 175
+  "translation_ja": |-
+    悟空は東岸で目も動かさず、川辺の水の様子を見つめていた。すると突然、波が盛り上がり、叫び声がとどろいた。八戒が先に岸へ跳び上がった。
+    八戒「来たぞ、来たぞ！」
+    沙悟浄も岸辺へ着いた。
+    沙悟浄「来ました、来ました！」
+    妖怪は後から叫んだ。
+    妖怪「どこへ逃げる！」
+    頭を出したとたん、悟空が一喝した。
+    悟空「棒を受けろ！」
+    妖怪は身をかわし、急いで銅の鎚で受けて打ち返した。一人は川辺で波を湧かせ、一人は岸の上で威を振るう。手を合わせて三合にもならぬうちに、妖怪は受け止めきれなくなり、見せかけの一手を繰り出すと、また水へ潜った。こうして風はやみ、波も静まった。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-023"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "行者回轉高崖道：「兄弟們，辛苦啊。」沙僧道：「哥啊，這妖精他在岸上覺得不濟，在水底也盡利害哩，我與二哥左右齊攻，只戰得個兩平。卻怎麼處置，救師父也？」行者道：「不必疑遲，恐被他傷了師父。」八戒道：「哥哥，我這一去哄他出來，你莫做聲，但只在半空中等候。估著他鑽出頭來，卻使個搗蒜打，照他頂門上著著實實一下。縱然打不死他，好道也護疼發暈，卻等老豬趕上一鈀，管教他了帳。」行者道：「正是，正是，這叫做『裡迎外合』，方可濟事。」他兩個復入水中不題。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 176
+    "line_end": 176
+  "translation_ja": |-
+    悟空は高い岸へ戻った。
+    悟空「弟たち、ご苦労だった。」
+    沙悟浄「兄さん、この妖怪は岸の上ではだめらしいですが、水底ではなかなか強いのです。私と二番目の兄さんが左右から一緒に攻めても、ようやく引き分けでした。どうすれば、お師匠さまを救えるでしょう。」
+    悟空「ぐずぐずしてはいられない。お師匠さまが傷つけられるかもしれん。」
+    八戒「兄貴、今度は俺がもう一度、あいつを外へ誘い出す。兄貴は声を立てず、空中で待っていてくれ。あいつが頭を出すころを見計らって、ニンニクをつくように、頭のてっぺんへ思いきり一発打ち込むんだ。殺せなくても、痛さをかばって目を回すだろう。そこへ俺が追いついて熊手を一発食らわせれば、必ずけりがつくよ。」
+    悟空「そうだ、そのとおりだ。これが『中と外で呼応する』というものだな。それならうまくいく。」
+    二人は再び水へ入った。こちらは、ひとまず置こう。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-024"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "卻說那妖邪敗陣逃生，回歸本宅，眾妖接到宮中，鱖婆上前問道：「大王趕那兩個和尚到那方來？」妖邪道：「那和尚原來還有一個幫手。他兩個跳上岸去，那幫手掄一條鐵棒打我，我閃過與他相持。也不知他那棍子有多少斤重，我的銅鎚莫想架得他住，戰未三合，我卻敗回來也。」鱖婆道：「大王，可記得那幫手是甚相貌？」妖邪道：「是一個毛臉雷公嘴、查耳朵、折鼻梁、火眼金睛和尚。」鱖婆聞說，打了一個寒噤道：「大王啊，虧了你識俊，逃了性命；若再三合，決然不得全生。那和尚我認得他。」妖邪道：「你認得他是誰？」鱖婆道：「我當年在東洋海內，曾聞得老龍王說他的名譽，乃是五百年前大鬧天宮混元一氣上方太乙金仙美猴王齊天大聖。如今歸依佛教，保唐僧往西天取經，改名喚做孫悟空行者。他的神通廣大，變化多端，大王你怎麼惹他？今後再莫與他戰了。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 177
+    "line_end": 177
+  "translation_ja": |-
+    さて妖怪は負けて命からがら屋敷へ帰り、配下の妖怪たちに迎えられて宮殿へ入った。鱖婆が進み出て尋ねた。
+    鱖婆「大王、あの二人の和尚を、どこまで追っていらしたのですか。」
+    妖怪「あの和尚どもには、もう一人、助っ人がいたのだ。二人が岸へ跳び上がると、その助っ人が鉄の棒を振って打ってきた。わしは身をかわして戦ったが、あの棒にはいったい何斤（きん）の重さがあるのか。わしの銅の鎚では、とても受け止めきれん。三合も戦わぬうちに、敗れて帰ったのだ。」
+    鱖婆「大王、その助っ人がどのような顔をしていたか、覚えておいでですか。」
+    妖怪「毛むくじゃらの顔に雷公（らいこう）のような突き出た口、張り出した耳に、つぶれた鼻筋、火のような目に金色の瞳をした和尚だった。」
+    鱖婆はそれを聞くと、ぶるりと震えた。
+    鱖婆「大王、よく見切りをつけ、命を拾っていらっしゃいました。もう三合戦っていたら、決して無事には戻れなかったでしょう。その和尚なら、私は存じております。」
+    妖怪「何者か知っているのか？」
+    鱖婆「昔、東洋海（とうようかい）にいたころ、年老いた竜王さまから、その評判を聞いたことがございます。五百年前に天宮を大暴れした、混元一気上方太乙金仙美猴王斉天大聖（こんげんいっきじょうほうたいいつきんせんびこうおうせいてんたいせい）です。今は仏教に帰依し、唐僧を守って西天へ取経に向かい、名を孫悟空行者（そんごくうぎょうじゃ）と改めたのです。神通力は広大で、変化は自在。大王、どうしてあの方を敵に回したりなさるのです。これからは決して戦ってはいけません。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-025"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "說不了，只見門裡小妖來報：「大王，那兩個和尚又來門前索戰哩。」妖精道：「賢妹所見甚長，再不出去，看他怎麼。」急傳令教：「小的們，把門關緊了。正是『任君門外叫，只是不開門』。讓他纏兩日，性攤了回去時，我們卻不自在受用唐僧也？」那小妖一齊都搬石頭，塞泥塊，把門閉殺。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 179
+    "line_end": 179
+  "translation_ja": |-
+    話が終わらないうちに、門の中の小妖が知らせに来た。
+    小妖「大王、あの二人の和尚が、また門前へ戦いを挑みに来ております！」
+    妖怪「妹よ、お前はよく先を見通している。もう外へは出ぬ。どうするか見ていてやろう。」
+    妖怪は急いで命令を下した。
+    妖怪「お前たち、門をしっかり閉じよ。まさに『門の外で好きなだけ叫べ、こちらはただ開けぬだけ』だ。二日ばかりつきまとわせておけば、気も緩んで帰っていく。そのときこそ、気楽に唐僧をいただけるではないか。」
+    小妖たちは一斉に石を運び、土塊を詰め、門を固くふさいだ。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-026"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "八戒與沙僧連叫不出，獃子心焦，就使釘鈀築門。那門已此緊閉牢關，莫想能夠。被他七八鈀，築破門扇，裡面卻都是泥土石塊，高疊千層。沙僧見了道：「二哥，這怪物懼怕之甚，閉門不出，我和你且回上河崖，再與大哥計較去來。」八戒依言，徑轉東岸。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 180
+    "line_end": 180
+  "translation_ja": |-
+    八戒と沙悟浄が続けざまに呼んでも、相手は出てこない。八戒はじれて、熊手で門を打ちつけた。門はすでに固く閉ざされ、開きそうになかったが、七、八度たたきつけると、扉が破れた。ところが、その内側は土と石ばかりで、幾重にも高く積み上がっていた。それを見て沙悟浄は言った。
+    沙悟浄「二番目の兄さん、この妖怪はひどく恐れて、門を閉ざしたまま出てきません。いったん川岸へ戻り、兄さんとまた相談しましょう。」
+    八戒もその言葉に従い、まっすぐ東岸へ戻った。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-027"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "那行者半雲半霧，提著鐵棒等哩。看見他兩個上來，不見妖怪，即按雲頭，迎至岸邊，問道：「兄弟，那話兒怎麼不上來？」沙僧道：「那怪物緊閉宅門，再不出來見面。被二哥打破門扇看時，那裡面都是些泥土石塊，實實的疊住了。故此不能得戰，卻來與哥哥計議，再怎麼設法去救師父。」行者道：「似這般卻也無法可治。你兩個只在河岸上巡視著，不可放他往別處走了，待我去來。」八戒道：「哥哥，你往那裡去？」行者道：「我上普陀巖拜問菩薩，看這妖怪是那裡出身，姓甚名誰。尋著他的祖居，拿了他的家屬，捉了他的四鄰，卻來此擒怪救師。」八戒笑道：「哥啊，這等幹，只是忒費事，擔擱了時辰了。」行者道：「管你不費事，不擔擱，我去就來。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 182
+    "line_end": 182
+  "translation_ja": |-
+    悟空は雲と霧の間で、鉄の棒を持って待ち構えていた。二人が上がってきたのに妖怪の姿がないので、雲を下げ、岸辺で迎えて尋ねた。
+    悟空「弟たち、あいつはなぜ上がってこない？」
+    沙悟浄「妖怪は屋敷の門を固く閉ざし、もう顔を見せません。二番目の兄さんが扉を打ち破って見ると、中は土と石ばかりで、隙間なく積み固めてありました。そのため戦えず、兄さんと相談しに来たのです。ほかにどんな手を使って、お師匠さまを救えばよいでしょう。」
+    悟空「そうなると、こちらも打つ手がないな。お前たち二人は川岸を見張り、あいつをよそへ逃がすな。俺が行ってくる。」
+    八戒「兄貴、どこへ行くんだ？」
+    悟空「普陀巌（ふだがん）へ上り、菩薩（ぼさつ）さまを拝んで尋ねる。この妖怪がどこの出で、姓も名も何というのかをな。先祖からの住まいを見つけ、家族を捕らえ、近所の者どもも捕まえて、それからここへ来て妖怪を捕縛し、師を救うのだ。」
+    八戒は笑った。
+    八戒「兄貴、そんなことをしたら、やたらに手間がかかって、時間をつぶしちまうよ。」
+    悟空「手間も時間もかからないと、請け合ってやる。すぐ戻る。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-028"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "好大聖，急縱祥光，躲離河口，徑赴南海。那裡消半個時辰，早望見落伽山不遠。低下雲頭，徑至普陀崖上。只見那二十四路諸天與守山大神、木叉行者、善財童子、捧珠龍女，一齊上前，迎著施禮道：「大聖何來？」行者道：「有事要見菩薩。」眾神道：「菩薩今早出洞，不許人隨，自入竹林裡觀玩。知大聖今日必來，吩咐我等在此候接大聖，不可就見。請在翠巖前聊坐片時，待菩薩出來。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 183
+    "line_end": 183
+  "translation_ja": |-
+    さすがは悟空、急いでめでたい光に乗って跳び立ち、川口を離れて、まっすぐ南海（なんかい）へ向かった。半時辰もかからぬうちに、落伽山（らっかさん）がすぐ近くに見えた。雲を下げ、普陀崖（ふだがい）へ直行すると、二十四路の諸天（しょてん）、山を守る大神、木叉行者（もくさぎょうじゃ）、善財童子（ぜんざいどうじ）、捧珠竜女（ほうじゅりゅうにょ）が、一斉に進み出て礼をした。
+    諸神「大聖（たいせい）さま、どのようなご用ですか。」
+    悟空「菩薩さまにお目にかかりたい用事があります。」
+    諸神「菩薩さまは今朝、洞をお出になり、誰もついてくるなとお命じになって、お一人で竹林へ、景色を眺めに入られました。大聖さまが今日必ずおいでになるとご存じで、私たちに、ここでお迎えして待つようお言いつけです。ただちにお会いすることはできません。どうぞ緑の岩の前で、しばらくお座りになり、菩薩さまのお出ましをお待ちください。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-029"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "行者依言，還未坐下，又見那善財童子上前施禮道：「孫大聖，前蒙盛意，幸菩薩不棄收留，早晚不離左右，專侍蓮臺之下，甚得善慈。」行者知是紅孩兒，笑道：「你那時節魔孽迷心，今朝得成正果，才知老孫是好人也。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 185
+    "line_end": 185
+  "translation_ja": |-
+    悟空は言われたとおりにした。まだ座らぬうちに、善財童子が進み出て礼を述べた。
+    善財童子「孫大聖（そんたいせい）さま、先日はご厚意を賜りました。幸いにも菩薩さまが私を見捨てずお迎えくださり、朝夕おそばを離れず、もっぱら蓮台の下でお仕えし、たいそう慈しんでいただいております。」
+    悟空は紅孩児（こうがいじ）だと分かり、笑った。
+    悟空「あのときは悪に心を迷わせていたが、今では正しい悟りの果を得たのだな。これでようやく、この俺がいい人間だと分かっただろう。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-030"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "行者久等不見，心焦道：「列位與我傳報一聲，但遲了，恐傷吾師之命。」諸天道：「不敢報，菩薩吩咐，只等他自出來哩。」行者性急，那裡等得，急縱身往裡便走。噫！"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 187
+    "line_end": 187
+  "translation_ja": |-
+    悟空は長いこと待っても会えず、じれったくなった。
+    悟空「皆さん、私が来たと一言お伝えください。遅くなると、師の命が危ないのです。」
+    諸天「お取り次ぎはできません。菩薩さまは、ご自分でお出ましになるまで待てと、お言いつけになったのです。」
+    気の短い悟空が、どうして待っていられよう。すぐさま身を躍らせ、中へ走り込んだ。ああ、見よ！
+  "translation_status": "reviewed"
+- "id": "xy-ch49-031"
+  "section_id": "chapter-49"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    這個美猴王，性急能鵲薄。
+    諸天留不住，要往裡邊蹕。
+    拽步入深林，睜眼偷覷著。
+    遠觀救苦尊，盤坐襯殘箬。
+    懶散怕梳妝，容顏多綽約。
+    散挽一窩絲，未曾戴纓絡。
+    不掛素藍袍，貼身小襖縛。
+    漫腰束錦裙，赤了一雙腳。
+    披肩繡帶無，精光兩臂膊。
+    玉手執鋼刀，正把竹皮削。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 188
+    "line_end": 197
+  "translation_ja": |-
+    この美猴王（びこうおう）は、気が短く、皮肉もきつい。
+    諸天にも引き止められず、奥へ入り込もうとする。
+    足を運んで深い林へ入り、目を見開いて、そっとのぞく。
+    遠くに見える救苦尊（きゅうくそん）は、残った竹の葉を敷き、足を組んで座っている。
+    ゆったりと身支度もせぬまま、その顔立ちはしなやかに美しい。
+    豊かな髪を無造作にまとめ、まだ瓔珞（ようらく）も着けていない。
+    飾り気のない藍の袍はまとわず、体に添う短い上衣だけ。
+    腰には錦の裳をゆるく結び、両の足は裸足のまま。
+    肩に掛ける刺繍の帯もなく、二本の腕はすっかりあらわ。
+    玉のような手に鋼の小刀を握り、ちょうど竹の皮を削っている。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-032"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "行者見了，忍不住厲聲高叫道：「菩薩，弟子孫悟空志心朝禮。」菩薩教：「外面俟候。」行者叩頭道：「菩薩，我師父有難，特來拜問通天河妖怪根源。」菩薩道：「你且出去，待我出來。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 199
+    "line_end": 199
+  "translation_ja": |-
+    悟空は見るなり、こらえきれずに声を張り上げた。
+    悟空「菩薩さま、弟子の孫悟空（そんごくう）が、心を尽くして礼拝申し上げます！」
+    観音菩薩（かんのんぼさつ）「外で待ちなさい。」
+    悟空は頭を下げた。
+    悟空「菩薩さま、師が難に遭っております。通天河の妖怪の素性を伺いに、参りました。」
+    観音菩薩「ひとまず外へ出て、私が出るまで待ちなさい。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-033"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "行者不敢強，只得走出竹林，對眾諸天道：「菩薩今日又重置家事哩。怎麼不坐蓮臺，不妝飾，不喜歡，在林裡削篾做甚？」諸天道：「我等卻不知。今早出洞，未曾妝束，就入林中去了。又教我等在此接候大聖，必然為大聖有事。」行者沒奈何，只得等候。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 201
+    "line_end": 201
+  "translation_ja": |-
+    悟空は無理を押し通すこともできず、竹林から出て、諸天に言った。
+    悟空「菩薩さまは今日はまた、家の道具を新調なさるようですね。どうして蓮台にも座らず、身支度もせず、楽しそうでもなく、林の中で竹ひごを削っていらっしゃるのでしょう。」
+    諸天「私たちにも分かりません。今朝、洞から出ると、身支度もなさらぬまま、林へ入られました。それから私たちに、ここで大聖さまをお迎えして待つようお命じになったのですから、きっと大聖さまのご用のためでしょう。」
+    悟空もどうすることもできず、待つほかなかった。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-034"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "不多時，只見菩薩手提一個紫竹籃兒，出林道：「悟空，我與你救唐僧去來。」行者慌忙跪下道：「弟子不敢催促，且請菩薩著衣登座。」菩薩道：「不消著衣，就此去也。」那菩薩撇下諸天，縱祥雲騰空而去。孫大聖只得相隨。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 203
+    "line_end": 203
+  "translation_ja": |-
+    ほどなく観音菩薩が、紫竹（しちく）の籠を一つ手に提げ、林から出てきた。
+    観音菩薩「悟空、私と一緒に唐僧を救いに行きましょう。」
+    悟空は慌ててひざまずいた。
+    悟空「弟子の私から、お急がせするわけにはまいりません。どうぞ、お召し物を着けて、お座にお上がりください。」
+    観音菩薩「着替えるには及びません。このまま行くのです。」
+    菩薩は諸天を残して、めでたい雲に乗り、空へ上がっていった。悟空もついていくほかなかった。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-035"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "頃刻間，到了通天河界。八戒與沙僧看見道：「師兄性急，不知在南海怎麼亂嚷亂叫，把一個未梳妝的菩薩逼將來也。」說不了，到於河岸。二人下拜道：「菩薩，我等擅干，有罪，有罪。」菩薩即解下一根束襖的絲絛，將籃兒拴定，提著絲絛，半踏雲彩，拋在河中，往上溜頭扯著，口念頌子道：「死的去，活的住。死的去，活的住！」念了七遍，提起籃兒，但見那籃裡亮灼灼一尾金魚，還斬眼動鱗。菩薩叫：「悟空，快下水救你師父耶。」行者道：「未曾拿住妖邪，如何救得師父？」菩薩道：「這籃兒裡不是？」八戒與沙僧拜問道：「這魚兒怎生有那等手段。」菩薩道：「他本是我蓮花池裡養大的金魚，每日浮頭聽經，修成手段。那一柄九瓣銅鎚，乃是一枝未開的菡萏，被他運鍊成兵。不知是那一日海潮泛漲，走到此間。我今早扶欄看花，卻不見這廝出拜。掐指巡紋，算著他在此成精，害你師父，故此未及梳妝，運神功，織個竹籃兒擒他。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 204
+    "line_end": 204
+  "translation_ja": |-
+    たちまち通天河の境へ着いた。八戒と沙悟浄は、その姿を見て言った。
+    八戒と沙悟浄「兄弟子はせっかちだから、南海でどれほどわめき立てたことか。身支度もすまぬ菩薩さまを、無理に連れてきてしまったんだな。」
+    そう言い終わらぬうちに、菩薩と悟空が川岸へ降り立った。八戒と沙悟浄はひざまずいて拝んだ。
+    八戒と沙悟浄「菩薩さま、勝手にお手を煩わせ、申し訳ございません。申し訳ございません。」
+    観音菩薩は上衣を結んでいた絹の組紐を一本ほどき、それで籠をしっかり結んだ。紐を持ち、片足を雲に掛けたまま籠を川へ投げ込み、流れの上手へ引きながら、口に呪文を唱えた。
+    観音菩薩「死んだものは去れ、生きたものはとどまれ。死んだものは去れ、生きたものはとどまれ！」
+    七遍唱えて籠を引き上げると、中には一匹の金魚がぴかぴかと輝き、まだ目をしばたたき、鱗を動かしていた。
+    観音菩薩「悟空、早く水へ入り、師を助けなさい！」
+    悟空「まだ妖怪を捕らえておりません。どうして師を救えるでしょう。」
+    観音菩薩「この籠の中にいるではありませんか。」
+    八戒と沙悟浄は拝みながら尋ねた。
+    八戒と沙悟浄「この魚が、どうしてあれほどの術を使えたのでしょうか。」
+    観音菩薩「もとは私の蓮池で育てた金魚です。毎日、水面から頭を出して経を聞き、術を身につけたのです。あの九瓣の銅鎚は、まだ開かぬ菡萏（かんたん）を一本、練り上げて武器にしたものでした。いつのことか、海の潮が満ちてあふれた日に、ここへ流れ出てきたのでしょう。今朝、欄干に寄って花を眺めたところ、この者が拝みに出てきませんでした。指の節を繰って占い、ここで妖怪となり、お前の師を害したと分かりました。それで身支度の暇もなく、神通力を働かせ、竹籠を編んで捕らえたのです。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-036"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "行者道：「菩薩，既然如此，且待片時，我等叫陳家莊眾信人等，看看菩薩的金面：一則留恩；二來說此收怪之事，好教凡人信心供養。」菩薩道：「也罷，你快去叫來。」那八戒與沙僧一齊飛跑至莊前，高呼道：「都來看活觀音菩薩，都來看活觀音菩薩。」一莊老幼男女，都向河邊，也不顧泥水，都跪在裡面，磕頭禮拜。內中有善圖畫者，傳下影神，這才是魚籃觀音現身。當時菩薩就歸南海。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 205
+    "line_end": 205
+  "translation_ja": |-
+    悟空「菩薩さま、それでは少しだけお待ちください。陳家荘の信者たちを呼び、菩薩さまの尊いお顔を拝ませてやりましょう。一つにはご恩を心に留めさせ、二つには、こうして妖怪を収めてくださったことを伝え、世の人々が信心して供養するようにしたいのです。」
+    観音菩薩「よいでしょう。早く呼んできなさい。」
+    八戒と沙悟浄はそろって村の前まで飛ぶように走り、大声で呼ばわった。
+    八戒と沙悟浄「皆、生きた観音菩薩さまを見に来てくれ！　生きた観音菩薩さまを見に来てくれ！」
+    村中の老若男女が川辺へ向かい、泥水も構わず、その中へひざまずき、頭を地につけて礼拝した。中に絵の巧みな者がいて、そのお姿を描いて後に伝えた。これこそ、魚籃観音（ぎょらんかんのん）の出現である。観音菩薩は、そのまま南海へ帰っていった。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-037"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "八戒與沙僧分開水道，徑往那水黿之第找尋師父。原來那裡邊水怪魚精，盡皆死爛。卻入後宮，揭開石匣，馱著唐僧，出離波津，與眾相見。那陳清兄弟叩頭稱謝道：「老爺不依小人勸留，致令如此受苦。」行者道：「不消說了。你們這裡人家，下年再不用祭賽，那大王已此除根，永無傷害。陳老兒，如今才好累你，快尋一隻船兒，送我們過河去也。」那陳清道：「有有有。」就教解板打船。眾莊客聞得此言，無不喜捨。那個道：「我買桅篷。」這個道：「我辦篙槳。」有的說：「我出繩索。」有的說：「我雇水手。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 207
+    "line_end": 207
+  "translation_ja": |-
+    八戒と沙悟浄は水を分け、まっすぐ水黿之第へ向かって師を捜した。そこにいた水の怪物や魚の精たちは、すべて死んで腐っていた。二人は奥の宮殿へ入り、石箱を持ち上げ、三蔵を背負って波間から抜け出し、皆と対面した。陳澄（ちんちょう）と陳清は頭を下げ、礼を述べた。
+    陳澄と陳清「お坊さま、私どもがお引き止めしたのにお聞き入れにならず、こんな苦しい目にお遭いになりました。」
+    悟空「その話はもういい。ここの家々は、来年から神への供物もお礼の祭りも要らない。あの大王は根こそぎ取り除かれ、もう害をなすことはない。陳家のご老人、今こそお手数をかけていいだろう。早く船を一艘見つけ、俺たちを向こう岸へ渡してくれ。」
+    陳清「はい、はい、ございますとも。」
+    そう言って、板をひいて船を造るよう命じた。村の人々はこの話を聞き、誰もが喜んで寄進を申し出た。
+    村人「帆柱と帆は、私が買おう。」
+    別の村人「舟竿と櫂は、私が用意する。」
+    また別の村人「綱は、私が出そう。」
+    さらに別の村人「船頭は、私が雇おう。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-038"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "正都在河邊上吵鬧，忽聽得河中間高叫：「孫大聖不要打船，花費人家財物。我送你師徒們過去。」眾人聽說，個個心驚，膽小的走了回家，膽大的戰兢兢貪看。須臾，那水裡鑽出一個怪來，你道怎生模樣："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 209
+    "line_end": 209
+  "translation_ja": |-
+    皆が川辺でにぎやかに話していると、突然、川の真ん中から大声がした。
+    川の声「孫大聖さま、船を造って人々に出費をさせる必要はありません。私がお師匠さまと弟子の皆さんを、お送りいたします。」
+    人々は聞くと一人残らず驚き、気の弱い者は家へ逃げ帰り、度胸のある者は震えながらも、見たさにその場へ残った。ほどなく水の中から、奇妙な生き物が姿を現した。さて、どのような姿だろう。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-039"
+  "section_id": "chapter-49"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    方頭神物非凡品，九助靈機號水仙。
+    曳尾能延千紀壽，潛身靜隱百川淵。
+    翻波跳浪沖江岸，向日朝風臥海邊。
+    養氣含靈真有道，多年粉蓋癩頭黿。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 210
+    "line_end": 213
+  "translation_ja": |-
+    四角い頭の神秘の生き物、並のものではなく、
+    九助（きゅうじょ）の霊妙な働きをそなえ、水仙（すいせん）と呼ばれる。
+    尾を引き、千紀もの寿命を延ばし、
+    身を潜め、数多の川の淵に静かに隠れる。
+    波を翻し、うねりを跳び越え、川岸へ突き進み、
+    日を仰ぎ、風に向かい、海辺に横たわる。
+    気を養い、霊を宿して、まことに道を得たもの、
+    白い甲羅にこぶこぶの頭の、年を経た黿（げん）であった。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-040"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "那老黿又叫：「大聖，不要打船，我送你師徒過去。」行者掄著鐵棒道：「我把你這個孽畜！若到邊前，這一棒就打死你。」老黿道：「我感大聖之恩，情願辦好心送你師徒，你怎麼反要打我？」行者道：「與你有甚恩惠？」老黿道：「大聖，你不知這底下水黿之第，乃是我的住宅，自歷代以來，祖上傳留到我。我因省悟本根，養成靈氣，在此處修行，被我將祖居翻蓋了一遍，立做一個水黿之第。那妖邪乃九年前海嘯波翻，他趕潮頭，來於此處，仗逞兇頑，與我爭鬥，被他傷了我許多兒女，奪了我許多眷族。我鬥他不過，將巢穴白白的被他占了。今蒙大聖至此搭救唐師父，請了觀音菩薩掃淨妖氛，收去怪物，將第宅還歸於我。我如今團圞老小，再不須挨土幫泥，得居舊舍。此恩重若丘山，深如大海。且不但我等蒙惠，只這一莊上人，免得年年祭賽，全了多少人家兒女。此誠所謂一舉而兩得之恩也，敢不報答。」行者聞言，心中暗喜，收了鐵棒道：「你端的是真實之情麼？」老黿道：「因大聖恩德洪深，怎敢虛謬？」行者道：「既是真情，你朝天賭咒。」那老黿張著紅口，朝天發誓道：「我若真情不送唐僧過此通天河，將身化為血水。」行者笑道：「你上來，你上來。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 214
+    "line_end": 214
+  "translation_ja": |-
+    その老黿（ろうげん）が、また呼びかけた。
+    老黿「大聖さま、船を造るには及びません。私が皆さんをお送りいたします。」
+    悟空は鉄の棒を振り上げた。
+    悟空「この畜生め！　岸へ寄ってきたら、この棒の一撃で殺してやるぞ。」
+    老黿「大聖さまのご恩に感じ、心からの善意で皆さんをお送りしたいのです。どうして、逆に私をお打ちになるのですか。」
+    悟空「お前に、どんな恩をかけたというんだ？」
+    老黿「大聖さまはご存じないでしょうが、この下の水黿之第は、私の住まいなのです。代々、先祖から伝わり、私の代になりました。私は本来の根本に目覚め、霊気を養って、この場所で修行し、先祖からの屋敷をすっかり建て直して、水黿之第と名づけました。あの妖怪は九年前、海が荒れて波が逆巻いたとき、潮の先に乗って、ここへ来たのです。凶暴な力を頼みに私と争い、子供たちをたくさん傷つけ、身内を大勢奪いました。私はかなわず、住みかをただで占領されてしまったのです。ところが今、大聖さまが唐のお師匠さまを救うためここへ来られ、観音菩薩さまをお招きになって、妖気を払い、怪物を収め、屋敷を私に返してくださいました。今では家族そろって集まり、もう土や泥に身を寄せる必要もなく、元の住まいに暮らせます。このご恩は山のように重く、大海のように深い。しかも、恵みを受けたのは私たちばかりではありません。この村の人々も毎年の供物を免れ、どれほどの家の子供たちが助かったことでしょう。まさしく、一つのことで二つを得るご恩というものです。お返しせずにいられましょうか。」
+    悟空はそれを聞くと、ひそかに喜び、鉄の棒を収めた。
+    悟空「本当に、心からそう思っているのか？」
+    老黿「大聖さまのご恩は限りなく深いのです。どうして偽りなど申せましょう。」
+    悟空「本心なら、天に向かって誓え。」
+    老黿は赤い口を開け、天を仰いで誓った。
+    老黿「もし私が真心をもって唐僧をこの通天河の向こうへお送りしなかったなら、この身を血の水に変えてください。」
+    悟空は笑った。
+    悟空「上がってこい、上がってこい。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-041"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "老黿卻才負近岸邊，將身一縱，爬上河崖。眾人近前觀看，有四丈圍圓的一個大白蓋。行者道：「師父，我們上他身，渡過去也。」三藏道：「徒弟呀，那層冰厚凍，尚且邅迍，況此黿背，恐不穩便。」老黿道：「師父放心。我比那層冰厚凍，穩得緊哩，但歪一歪，不成功果。」行者道：「師父啊，凡諸眾生，會說人話，決不打誑語。」教：「兄弟們，快牽馬來。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 215
+    "line_end": 215
+  "translation_ja": |-
+    老黿はそこで初めて岸へ近づき、身を躍らせて、川の崖へ這い上がった。人々が近づいて見ると、周りが四丈（じょう）もある大きな白い甲羅だった。
+    悟空「お師匠さま、この背に乗って渡りましょう。」
+    三蔵「弟子よ、厚く凍った氷の上でさえ災難に遭ったのだ。まして、この黿の背では、安定していないのではないか。」
+    老黿「お師匠さま、ご安心ください。あの厚い氷より、私のほうがよほどしっかりしています。少しでも傾けたら、修行の功果を得られなくても構いません。」
+    悟空「お師匠さま、どんな生き物でも、人の言葉を話せるものは、決して嘘をつきません。」
+    それから悟空は指図した。
+    悟空「弟たち、早く馬を引いてこい。」
+  "translation_status": "reviewed"
+- "id": "xy-ch49-042"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "到了河邊，陳家莊老幼男女一齊來拜送。行者教把馬牽在白黿蓋上，請唐僧站在馬的頸項左邊，沙僧站在右邊，八戒站在馬後，行者站在馬前。又恐那黿無禮，解下虎觔絛子，穿在老黿的鼻之內，扯起來，像一條韁繩。卻使一隻腳踏在蓋上，一隻腳登在頭上；一隻手執著鐵棒。一隻手扯著韁繩；叫道：「老黿，慢慢走啊，歪一歪兒，就照頭一下。」老黿道：「不敢，不敢。」他卻蹬開四足，踏水面如行平地。眾人都在岸上焚香叩頭，都念「南無阿彌陀佛」。這正是：真羅漢臨凡，活菩薩出現。眾人只拜的望不見形影方回，不題。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 217
+    "line_end": 217
+  "translation_ja": |-
+    川辺へ行くと、陳家荘の老若男女が、皆そろって拝み、見送りに来た。悟空は白黿（はくげん）の甲羅へ馬を引いて上がらせ、三蔵には馬の首の左側、沙悟浄には右側、八戒には馬の後ろに立たせ、自分は馬の前に立った。それでも黿が不埒な真似をするのを恐れ、虎筋（こきん）の組紐をほどき、老黿の鼻に通して、手綱のように引き上げた。そして一方の足を甲羅に置き、もう一方の足を頭に掛け、一方の手には鉄の棒を握り、もう一方の手で手綱を引いて、言いつけた。
+    悟空「老黿、ゆっくり歩け。少しでも傾けたら、頭へ一発だぞ。」
+    老黿「決してしません。決してしません。」
+    老黿は四本の足を伸ばし、水面を平地のように踏んで進んだ。人々は岸で香をたき、頭を下げ、皆そろって唱えた。
+    村人たち「南無阿弥陀仏（なむあみだぶつ）。」
+    まさに、真の羅漢（らかん）がこの世に降り、生きた菩薩が現れたというものだった。皆はその姿が見えなくなるまで拝み続け、ようやく帰っていった。こちらの話は、ひとまず置こう。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-043"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "卻說那師父駕著白黿，那消一日，行過了八百里通天河界，乾手乾腳的登岸。三藏上崖，合手稱謝道：「老黿累你，無物可贈，待我取經回謝你罷。」老黿道：「不勞師父賜謝。我聞得西天佛祖無滅無生，能知過去未來之事。我在此間整修行了一千三百餘年，雖然延壽身輕，會說人語，只是難脫本殼。萬望老師父到西天與我問佛祖一聲，看我幾時得脫本殼，可得一個人身？」三藏響允道：「我問，我問。」那老黿才淬水中去了。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 218
+    "line_end": 218
+  "translation_ja": |-
+    さて三蔵は白黿に乗り、一日もかからず、八百里にわたる通天河を渡りきって、手も足も濡らさず岸へ上がった。崖の上へ出ると、手を合わせ、礼を述べた。
+    三蔵「老黿、世話をかけたね。贈るものもないが、経をいただいて帰るときに、お礼をしよう。」
+    老黿「お師匠さま、お礼をいただくには及びません。西天の仏祖（ぶっそ）は滅することも生まれることもなく、過去と未来のことをお知りになると伺っております。私はここで、まるまる千三百余年修行してきました。寿命は延び、体も軽く、人の言葉も話せるようになりましたが、ただ、この甲羅を脱ぎ捨てることができません。どうかお師匠さま、西天へお着きになったら、私のために仏祖へお尋ねください。私はいつになれば、このもとの甲羅を脱ぎ、人の体を得られるのでしょうか。」
+    三蔵は、はっきりと請け合った。
+    三蔵「尋ねよう、尋ねよう。」
+    そこで老黿は、ようやく水の中へ潜っていった。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-044"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "行者遂伏侍唐僧上馬，八戒挑著行囊，沙僧跟隨左右，師徒們找大路，一直奔西。這的是："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 220
+    "line_end": 220
+  "translation_ja": "悟空は三蔵を助けて馬に乗せ、八戒は荷を担ぎ、沙悟浄はそばについて、一行は大きな道を捜し、ひたすら西へ向かった。まさしく、次のとおりである。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-045"
+  "section_id": "chapter-49"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    聖僧奉旨拜彌陀，水遠山遙災難多。
+    意志心誠不懼死，白黿馱渡過天河。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 222
+    "line_end": 223
+  "translation_ja": |-
+    聖僧は勅命を奉じ、弥陀（みだ）を拝みに向かう。
+    水は遠く、山ははるか、災難は数多い。
+    志は固く、心は誠実、死を恐れず、
+    白黿の背に乗って、天河（てんが）を渡った。
+  "translation_status": "reviewed"
+- "id": "xy-ch49-046"
+  "section_id": "chapter-49"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "畢竟不知此後有多少路程，還有甚麼凶吉，且聽下回分解。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch49-1808612"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第049回&oldid=1808612"
+    "line_start": 225
+    "line_end": 225
+  "translation_ja": "この先、いったいどれほどの道のりがあり、またどのような吉凶が待ち受けているのか。それは次回のお話で。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-01-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "悟空はここで、避水訣を結んだままでは棒を振るえず、変化などを使わなければ水中へ行けないと説明する。過去の水中行動と整合させるための能力変更は加えず、この場で本人が述べる条件を保持した。沙悟浄の師の死に関する発言は仮定であり、死亡を確定する語りではない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-02-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "蝦婆は原字を保持した。水族・変身の文脈では蝦の類を思わせるが、地域語の同名に別の動物を指す用法もあり、現代の種名や生物学的な性別は断定しない。腹の大きな蝦婆への姆姆は、呼びかけとして「おばさん」と訳した。鱖婆とは別の相手である。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-03-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "演了一會の演は、この場で少し間を置くことと解したが、語形の確定には留保がある。槽房は辞書で酒造などの作業場をいう用法が確認できる一方、本文ではその中の豚の餌桶を比喩にする。建物を豚小屋や酒蔵に断定せず原語を残し、豚の餌桶と石棺という二つのたとえ、長さ六尺を保持した。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-04-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "江流は幼時の三蔵の名で、現在の三蔵とは別人ではない。黒河は先に難に遭った黒水河の略称として扱い、底本の語形を保持した。泉はここでは死者の世界への含みを持つため「黄泉」とした。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-05-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "経云として引かれる土・水と五行の言葉は、この回の本文に出典名がない。特定の経典を推測して補わず、悟空が経に引く言葉として訳した。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-06-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "原文「那獃子與沙僧近前道」は八戒と沙悟浄の合同発話とした。一人だけに割り当てたり、二人分の架空の問答に分けたりしない。合同の哥哥は共通の呼びかけ「兄さん」とし、各人の独立発話では八戒「兄貴」、沙悟浄「兄さん」を守る。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-07-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "詩末の底本は靈顯大王で、会話に現れる靈感大王と一字異なる。同じ妖怪の呼称として「霊顕大王」を残し、別の人物としない。口にくわえる藻や、鎧・帯・靴・髪・ひげの全描写も保持した。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-08-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "八戒はここで「陳清の家の一秤金」と名乗る。先の回では一秤金は陳澄の娘として紹介されるが、この食い違いを勝手に訂正しない。妖怪の「譲ってやった」という主張も、語り手の事実認定ではなく本人の言い分として残す。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-09-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "遜金は底本の字形を残した。熊手の金属装飾を指す文脈だが、特定の金属や異本の表記へ置き換えるだけの確認はできていない。太山も底本の字に従う。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-10-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "鎚の自慢は妖怪自身の詩である。九つの瓣、空洞の柄、緑の蓮台と紫の実、白い姿と清香、瑤池と碧の池、全八種の武器を残した。後に明かされる由来を、ここへ説明として先取りしていない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-11-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "磨博士は、教育部『重編國語辭典修訂本』が本作の同じ句を引用し、麺食を作る料理人と説明する。単なる学位保持者や学者ではなく、麺棒に見立てて武器を侮辱する応酬である。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-12-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "底本は「內裡鑽金」である。鑽を「穿ち込む」と解して訳し、他の表記に無断訂正しない。月宮の無影處、梭羅の仙木、御宴への随伴、武器の名称を全て保持した。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-13-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "戦闘の詩は土・水・木・金・火の相生相剋と還丹の修練を重ねる。三家を三人だけに、金芽・神水・嬰児を通常の物品や実際の出産だけに限定しない。秉恆沙は恒沙という仏教語を含むが、この動詞との結合は未確定のため語形を残した。三つの働きや人体の器官への細かな配当は補っていない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-14-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "鱖婆が語る長い称号と「孫悟空行者へ改名した」という説明は、彼女が聞いた評判として保持した。これまでの命名の経緯を、この発言に合わせて書き換えない。東洋海の老竜王の個人名も本文が示さないため補わない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-15-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "普陀巖・普陀崖という底本の違いを「普陀巌」「普陀崖」として残すが、同じ観音の居所を指す。善財童子は前に授名された紅孩児であり、捧珠竜女とは別人。悟空が改めて紅孩児と認める次の場面も省かない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-16-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "鵲薄は曹海東・李玉晶の語彙研究で、尖酸で辛辣な言動を表す確薄の異表記と考証されている。そのため「皮肉もきつい」と解した。蹕は底本の字を保ち、奥へ進み入る文脈から訳したが、字形には留保がある。残った竹の葉・髪・瓔珞・藍の袍・短い上衣・錦の裳・裸足・肩帯・腕・小刀を全て残した。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-17-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "金魚と妖怪の同一性、観音の蓮池で育ったこと、武器の未開の蓮の花という由来は、この場面で順に明らかになる。金魚が「斬眼」、すなわち目をしばたたくという描写も、現代の生物学に合わせて削除・改変しない。呪文は原文の反復と七遍という回数をそのまま残した。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-18-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "底本は九助である。九肋を想起させるが、ここでは無断で字を訂正せず「九助」を残し、意味未確定とした。癩頭については『格致鏡原』が黿の頭の疙搭をその名の根拠として紹介しており、「こぶこぶの頭」と訳した。黿は大きなスッポン類をいう古い呼び名で、現代の厳密な生物種には同定しない。千紀の紀の年数も固定的に換算しない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-19-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "妖怪の来訪時期は老黿の発言では九年前である。村の被害年数など先の話の年数に合わせて修正しない。子供を傷つけられ、身内を奪われたという二種の被害、住居の返還と村の子供の救済という二重の恩、血水になる誓いを残した。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-20-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "四丈圍圓は甲羅の周囲の大きさと解し、直径四丈とはしない。人語を話す生き物は嘘をつかないという言葉は悟空の主張であり、語り手の保証へ変えていない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-21-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "底本の虎觔絛子を「虎筋の組紐」とし、通常の虎皮の腰巻へ置き換えない。鼻へ通す動作、四人と馬の立ち位置、悟空の足・手の配置と脅しを省略しない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch49-note-22-body"
+  "section_id": "chapter-49"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "結びの天河は、この場面の通天河を略した呼び名として扱い、天上の川へ場所を移さない。弥陀の名も原詩の語をそのまま残し、西天の仏祖との呼称の違いを勝手に統一しない。"
+  "translation_status": "reviewed"
+"notes":
+- "id": "xy-ch49-note-01"
+  "origin": "translator"
+  "label": "1"
+  "body":
+  - "segment_id": "xy-ch49-note-01-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-02"
+  "origin": "translator"
+  "label": "2"
+  "body":
+  - "segment_id": "xy-ch49-note-02-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-03"
+  "origin": "translator"
+  "label": "3"
+  "body":
+  - "segment_id": "xy-ch49-note-03-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-04"
+  "origin": "translator"
+  "label": "4"
+  "body":
+  - "segment_id": "xy-ch49-note-04-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-05"
+  "origin": "translator"
+  "label": "5"
+  "body":
+  - "segment_id": "xy-ch49-note-05-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-06"
+  "origin": "translator"
+  "label": "6"
+  "body":
+  - "segment_id": "xy-ch49-note-06-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-07"
+  "origin": "translator"
+  "label": "7"
+  "body":
+  - "segment_id": "xy-ch49-note-07-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-08"
+  "origin": "translator"
+  "label": "8"
+  "body":
+  - "segment_id": "xy-ch49-note-08-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-09"
+  "origin": "translator"
+  "label": "9"
+  "body":
+  - "segment_id": "xy-ch49-note-09-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-10"
+  "origin": "translator"
+  "label": "10"
+  "body":
+  - "segment_id": "xy-ch49-note-10-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-11"
+  "origin": "translator"
+  "label": "11"
+  "body":
+  - "segment_id": "xy-ch49-note-11-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-12"
+  "origin": "translator"
+  "label": "12"
+  "body":
+  - "segment_id": "xy-ch49-note-12-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-13"
+  "origin": "translator"
+  "label": "13"
+  "body":
+  - "segment_id": "xy-ch49-note-13-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-14"
+  "origin": "translator"
+  "label": "14"
+  "body":
+  - "segment_id": "xy-ch49-note-14-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-15"
+  "origin": "translator"
+  "label": "15"
+  "body":
+  - "segment_id": "xy-ch49-note-15-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-16"
+  "origin": "translator"
+  "label": "16"
+  "body":
+  - "segment_id": "xy-ch49-note-16-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-17"
+  "origin": "translator"
+  "label": "17"
+  "body":
+  - "segment_id": "xy-ch49-note-17-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-18"
+  "origin": "translator"
+  "label": "18"
+  "body":
+  - "segment_id": "xy-ch49-note-18-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-19"
+  "origin": "translator"
+  "label": "19"
+  "body":
+  - "segment_id": "xy-ch49-note-19-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-20"
+  "origin": "translator"
+  "label": "20"
+  "body":
+  - "segment_id": "xy-ch49-note-20-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-21"
+  "origin": "translator"
+  "label": "21"
+  "body":
+  - "segment_id": "xy-ch49-note-21-body"
+  "form": "endnote"
+- "id": "xy-ch49-note-22"
+  "origin": "translator"
+  "label": "22"
+  "body":
+  - "segment_id": "xy-ch49-note-22-body"
+  "form": "endnote"
+"references":
+- "id": "xy-ch49-ref-01"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-002"
+    "translation_span":
+      "start": 200
+      "end": 203
+      "exact": "避水訣"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-01"
+  "status": "verified"
+- "id": "xy-ch49-ref-02"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-005"
+    "translation_span":
+      "start": 33
+      "end": 35
+      "exact": "蝦婆"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-02"
+  "status": "verified"
+- "id": "xy-ch49-ref-03"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-006"
+    "translation_span":
+      "start": 47
+      "end": 49
+      "exact": "槽房"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-03"
+  "status": "verified"
+- "id": "xy-ch49-ref-04"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-007"
+    "translation_span":
+      "start": 3
+      "end": 5
+      "exact": "江流"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-04"
+  "status": "verified"
+- "id": "xy-ch49-ref-05"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-008"
+    "translation_span":
+      "start": 41
+      "end": 44
+      "exact": "経には"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-05"
+  "status": "verified"
+- "id": "xy-ch49-ref-06"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-009"
+    "translation_span":
+      "start": 62
+      "end": 65
+      "exact": "兄さん"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-06"
+  "status": "verified"
+- "id": "xy-ch49-ref-07"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-011"
+    "translation_span":
+      "start": 278
+      "end": 282
+      "exact": "霊顕大王"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-07"
+  "status": "verified"
+- "id": "xy-ch49-ref-08"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-012"
+    "translation_span":
+      "start": 247
+      "end": 249
+      "exact": "陳清"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-08"
+  "status": "verified"
+- "id": "xy-ch49-ref-09"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-014"
+    "translation_span":
+      "start": 20
+      "end": 22
+      "exact": "遜金"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-09"
+  "status": "verified"
+- "id": "xy-ch49-ref-10"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-016"
+    "translation_span":
+      "start": 79
+      "end": 83
+      "exact": "緑の蓮台"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-10"
+  "status": "verified"
+- "id": "xy-ch49-ref-11"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-017"
+    "translation_span":
+      "start": 167
+      "end": 170
+      "exact": "磨博士"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-11"
+  "status": "verified"
+- "id": "xy-ch49-ref-12"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-018"
+    "translation_span":
+      "start": 114
+      "end": 123
+      "exact": "内には金を穿ち込み"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-12"
+  "status": "verified"
+- "id": "xy-ch49-ref-13"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-020"
+    "translation_span":
+      "start": 145
+      "end": 147
+      "exact": "恒沙"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-13"
+  "status": "verified"
+- "id": "xy-ch49-ref-14"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-024"
+    "translation_span":
+      "start": 601
+      "end": 604
+      "exact": "改めた"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-14"
+  "status": "verified"
+- "id": "xy-ch49-ref-15"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-028"
+    "translation_span":
+      "start": 86
+      "end": 89
+      "exact": "普陀崖"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-15"
+  "status": "verified"
+- "id": "xy-ch49-ref-16"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-031"
+    "translation_span":
+      "start": 19
+      "end": 25
+      "exact": "皮肉もきつい"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-16"
+  "status": "verified"
+- "id": "xy-ch49-ref-17"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-035"
+    "translation_span":
+      "start": 722
+      "end": 735
+      "exact": "竹籠を編んで捕らえたのです"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-17"
+  "status": "verified"
+- "id": "xy-ch49-ref-18"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-039"
+    "translation_span":
+      "start": 177
+      "end": 182
+      "exact": "黿（げん）"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-18"
+  "status": "verified"
+- "id": "xy-ch49-ref-19"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-040"
+    "translation_span":
+      "start": 310
+      "end": 313
+      "exact": "九年前"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-19"
+  "status": "verified"
+- "id": "xy-ch49-ref-20"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-041"
+    "translation_span":
+      "start": 44
+      "end": 49
+      "exact": "周りが四丈"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-20"
+  "status": "verified"
+- "id": "xy-ch49-ref-21"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-042"
+    "translation_span":
+      "start": 119
+      "end": 121
+      "exact": "虎筋"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-21"
+  "status": "verified"
+- "id": "xy-ch49-ref-22"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch49-045"
+    "translation_span":
+      "start": 69
+      "end": 71
+      "exact": "天河"
+  "to":
+    "type": "note"
+    "id": "xy-ch49-note-22"
+  "status": "verified"
+"groups":
+- "id": "xy-ch49-poem-007"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch49-007"
+  "separator": |2+
+
+  "description_ja": "挿入韻文の全句。原文の行境界を保持し、訳文も句ごとに改行する。"
+- "id": "xy-ch49-poem-011"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch49-011"
+  "separator": |2+
+
+  "description_ja": "挿入韻文の全句。原文の行境界を保持し、訳文も句ごとに改行する。"
+- "id": "xy-ch49-poem-014"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch49-014"
+  "separator": |2+
+
+  "description_ja": "挿入韻文の全句。原文の行境界を保持し、訳文も句ごとに改行する。"
+- "id": "xy-ch49-poem-016"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch49-016"
+  "separator": |2+
+
+  "description_ja": "挿入韻文の全句。原文の行境界を保持し、訳文も句ごとに改行する。"
+- "id": "xy-ch49-poem-018"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch49-018"
+  "separator": |2+
+
+  "description_ja": "挿入韻文の全句。原文の行境界を保持し、訳文も句ごとに改行する。"
+- "id": "xy-ch49-poem-020"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch49-020"
+  "separator": |2+
+
+  "description_ja": "挿入韻文の全句。原文の行境界を保持し、訳文も句ごとに改行する。"
+- "id": "xy-ch49-poem-031"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch49-031"
+  "separator": |2+
+
+  "description_ja": "挿入韻文の全句。原文の行境界を保持し、訳文も句ごとに改行する。"
+- "id": "xy-ch49-poem-039"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch49-039"
+  "separator": |2+
+
+  "description_ja": "挿入韻文の全句。原文の行境界を保持し、訳文も句ごとに改行する。"
+- "id": "xy-ch49-poem-045"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch49-045"
+  "separator": |2+
+
+  "description_ja": "挿入韻文の全句。原文の行境界を保持し、訳文も句ごとに改行する。"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-25T01:35:49Z"
+    "reviewed_by": "Independent AI reviewer; no human/expert/browser review"
+    "content_sha256": "f54e95071c799a4faa7ef104fb43a8ee322b2b793d6262794fb51bf83e65d16e"
+"lexicon":
+  "dictionary_id": "xiyouji"
+  "file": "lexicons/xiyouji.yaml"
+  "first_occurrences":
+  - "entry_id": "xy-sun-wukong"
+    "form_id": "xy-wukong-short-form"
+    "segment_id": "xy-ch49-002"
+    "translation_span":
+      "start": 3
+      "end": 5
+      "exact": "悟空"
+    "rendered_text": "悟空（ごくう）"
+  - "entry_id": "xy-entry-0902"
+    "form_id": "xy-form-1939"
+    "segment_id": "xy-ch49-002"
+    "translation_span":
+      "start": 11
+      "end": 13
+      "exact": "八戒"
+    "rendered_text": "八戒（はっかい）"
+  - "entry_id": "xy-entry-0885"
+    "form_id": "xy-form-1028"
+    "segment_id": "xy-ch49-002"
+    "translation_span":
+      "start": 20
+      "end": 23
+      "exact": "沙悟浄"
+    "rendered_text": "沙悟浄（さごじょう）"
+  - "entry_id": "xy-ch49-water-avoiding-seal"
+    "form_id": "xy-ch49-water-avoiding-seal-form"
+    "segment_id": "xy-ch49-002"
+    "translation_span":
+      "start": 200
+      "end": 203
+      "exact": "避水訣"
+    "rendered_text": "避水訣（ひすいけつ）"
+    "gloss_ja": "水中へ入るため、水を避ける術の印。"
+  - "entry_id": "xy-entry-0885"
+    "form_id": "xy-form-2064"
+    "segment_id": "xy-ch49-002"
+    "translation_span":
+      "start": 746
+      "end": 748
+      "exact": "悟浄"
+    "rendered_text": "悟浄（ごじょう）"
+  - "entry_id": "xy-ch47-tongtian-river"
+    "form_id": "xy-ch47-tongtian-river-form"
+    "segment_id": "xy-ch49-003"
+    "translation_span":
+      "start": 16
+      "end": 19
+      "exact": "通天河"
+    "rendered_text": "通天河（つうてんが）"
+  - "entry_id": "xy-term-089"
+    "form_id": "xy-term-089-form"
+    "segment_id": "xy-ch49-003"
+    "translation_span":
+      "start": 40
+      "end": 41
+      "exact": "里"
+    "rendered_text": "里（り）"
+    "gloss_ja": "距離の古い単位。現代の距離へは換算しない。"
+  - "entry_id": "xy-ch49-water-yuan-mansion"
+    "form_id": "xy-ch49-water-yuan-mansion-form"
+    "segment_id": "xy-ch49-004"
+    "translation_span":
+      "start": 32
+      "end": 36
+      "exact": "水黿之第"
+    "rendered_text": "水黿之第（すいげんしてい）"
+    "gloss_ja": "川底の楼閣に掲げられた、四字の額名。"
+  - "entry_id": "xy-ch41-shrimp-woman"
+    "form_id": "xy-ch41-shrimp-woman-form"
+    "segment_id": "xy-ch49-005"
+    "translation_span":
+      "start": 33
+      "end": 35
+      "exact": "蝦婆"
+    "rendered_text": "蝦婆（かば）"
+    "gloss_ja": "水族の呼び名。蝦の類を思わせるが、具体的な種や性別は確定しない。"
+  - "entry_id": "xy-ch48-gui-woman"
+    "form_id": "xy-ch48-gui-woman-form"
+    "segment_id": "xy-ch49-005"
+    "translation_span":
+      "start": 109
+      "end": 111
+      "exact": "鱖婆"
+    "rendered_text": "鱖婆（けつば）"
+  - "entry_id": "xy-entry-0874"
+    "form_id": "xy-form-1696"
+    "segment_id": "xy-ch49-005"
+    "translation_span":
+      "start": 123
+      "end": 125
+      "exact": "唐僧"
+    "rendered_text": "唐僧（とうそう）"
+    "gloss_ja": "唐から来た僧、三蔵を指す呼び名。"
+  - "entry_id": "xy-ch49-cao-workshop"
+    "form_id": "xy-ch49-cao-workshop-form"
+    "segment_id": "xy-ch49-006"
+    "translation_span":
+      "start": 47
+      "end": 49
+      "exact": "槽房"
+    "rendered_text": "槽房（そうぼう）"
+    "gloss_ja": "槽を置く作業場・小屋。酒造りの作業場をいう用法もあるが、ここでの建物の機能は未確定。"
+  - "entry_id": "xy-term-043"
+    "form_id": "xy-term-043-form"
+    "segment_id": "xy-ch49-006"
+    "translation_span":
+      "start": 99
+      "end": 100
+      "exact": "尺"
+    "rendered_text": "尺（しゃく）"
+    "gloss_ja": "長さを表す古い単位。"
+  - "entry_id": "xy-entry-0874"
+    "form_id": "xy-form-1610"
+    "segment_id": "xy-ch49-006"
+    "translation_span":
+      "start": 141
+      "end": 143
+      "exact": "三蔵"
+    "rendered_text": "三蔵（さんぞう）"
+  - "entry_id": "xy-entry-0874"
+    "form_id": "xy-form-1164"
+    "segment_id": "xy-ch49-007"
+    "translation_span":
+      "start": 3
+      "end": 5
+      "exact": "江流"
+    "rendered_text": "江流（こうりゅう）"
+    "gloss_ja": "三蔵が幼いころ呼ばれた名。"
+  - "entry_id": "xy-entry-0439"
+    "form_id": "xy-form-0498"
+    "segment_id": "xy-ch49-007"
+    "translation_span":
+      "start": 76
+      "end": 78
+      "exact": "西天"
+    "rendered_text": "西天（さいてん）"
+  - "entry_id": "xy-ch43-black-water-river"
+    "form_id": "xy-ch43-black-river-form"
+    "segment_id": "xy-ch49-007"
+    "translation_span":
+      "start": 108
+      "end": 110
+      "exact": "黒河"
+    "rendered_text": "黒河（こくが）"
+    "gloss_ja": "黒水河の略称。"
+  - "entry_id": "xy-vocab-145"
+    "form_id": "xy-vocab-145-form"
+    "segment_id": "xy-ch49-008"
+    "translation_span":
+      "start": 47
+      "end": 49
+      "exact": "五行"
+    "rendered_text": "五行（ごぎょう）"
+    "gloss_ja": "木・火・土・金・水の五つの働き。"
+  - "entry_id": "xy-ch49-nine-petal-copper-mace"
+    "form_id": "xy-ch49-nine-petal-copper-mace-form"
+    "segment_id": "xy-ch49-011"
+    "translation_span":
+      "start": 210
+      "end": 215
+      "exact": "九瓣赤銅鎚"
+    "rendered_text": "九瓣赤銅鎚（きゅうべんしゃくどうつい）"
+    "gloss_ja": "九つの花弁状の部分を持つ、赤銅の鎚という武器。"
+  - "entry_id": "xy-ch47-linggan-king"
+    "form_id": "xy-ch49-lingxian-king-form"
+    "segment_id": "xy-ch49-011"
+    "translation_span":
+      "start": 278
+      "end": 282
+      "exact": "霊顕大王"
+    "rendered_text": "霊顕大王（れいけんだいおう）"
+    "gloss_ja": "霊感大王のこと。ここだけ底本の異なる字を残す。"
+  - "entry_id": "xy-entry-0847"
+    "form_id": "xy-form-0971"
+    "segment_id": "xy-ch49-012"
+    "translation_span":
+      "start": 143
+      "end": 145
+      "exact": "東土"
+    "rendered_text": "東土（とうど）"
+  - "entry_id": "xy-entry-0792"
+    "form_id": "xy-form-1078"
+    "segment_id": "xy-ch49-012"
+    "translation_span":
+      "start": 151
+      "end": 153
+      "exact": "大唐"
+    "rendered_text": "大唐（だいとう）"
+  - "entry_id": "xy-ch47-linggan-king"
+    "form_id": "xy-ch47-linggan-king-form"
+    "segment_id": "xy-ch49-012"
+    "translation_span":
+      "start": 196
+      "end": 200
+      "exact": "霊感大王"
+    "rendered_text": "霊感大王（れいかんだいおう）"
+  - "entry_id": "xy-ch47-chen-village"
+    "form_id": "xy-ch47-chen-village-form"
+    "segment_id": "xy-ch49-012"
+    "translation_span":
+      "start": 217
+      "end": 220
+      "exact": "陳家荘"
+    "rendered_text": "陳家荘（ちんかそう）"
+  - "entry_id": "xy-ch47-chen-qing"
+    "form_id": "xy-ch47-chen-qing-form"
+    "segment_id": "xy-ch49-012"
+    "translation_span":
+      "start": 247
+      "end": 249
+      "exact": "陳清"
+    "rendered_text": "陳清（ちんせい）"
+  - "entry_id": "xy-ch47-yichengjin"
+    "form_id": "xy-ch47-yichengjin-form"
+    "segment_id": "xy-ch49-012"
+    "translation_span":
+      "start": 258
+      "end": 261
+      "exact": "一秤金"
+    "rendered_text": "一秤金（いっしょうきん）"
+  - "entry_id": "xy-ch49-xun-gold"
+    "form_id": "xy-ch49-xun-gold-form"
+    "segment_id": "xy-ch49-014"
+    "translation_span":
+      "start": 20
+      "end": 22
+      "exact": "遜金"
+    "rendered_text": "遜金（そんきん）"
+    "gloss_ja": "熊手を飾る金属の呼称。原字を残し、材質の同定は保留する。"
+  - "entry_id": "xy-entry-0859"
+    "form_id": "xy-form-0983"
+    "segment_id": "xy-ch49-014"
+    "translation_span":
+      "start": 141
+      "end": 143
+      "exact": "太山"
+    "rendered_text": "太山（たいざん）"
+  - "entry_id": "xy-entry-0428"
+    "form_id": "xy-form-0487"
+    "segment_id": "xy-ch49-016"
+    "translation_span":
+      "start": 88
+      "end": 90
+      "exact": "瑤池"
+    "rendered_text": "瑤池（ようち）"
+    "gloss_ja": "仙界にあるとされる池。"
+  - "entry_id": "xy-ch49-flour-cook"
+    "form_id": "xy-ch49-flour-cook-form"
+    "segment_id": "xy-ch49-017"
+    "translation_span":
+      "start": 167
+      "end": 170
+      "exact": "磨博士"
+    "rendered_text": "磨博士（まはくし）"
+    "gloss_ja": "麺や粉ものの料理を作る職人・料理人。"
+  - "entry_id": "xy-entry-0886"
+    "form_id": "xy-form-1012"
+    "segment_id": "xy-ch49-018"
+    "translation_span":
+      "start": 31
+      "end": 33
+      "exact": "宝杖"
+    "rendered_text": "宝杖（ほうじょう）"
+    "gloss_ja": "沙悟浄が持つ、霊力のある杖。"
+  - "entry_id": "xy-entry-1624"
+    "form_id": "xy-ch49-moon-palace-form"
+    "segment_id": "xy-ch49-018"
+    "translation_span":
+      "start": 49
+      "end": 51
+      "exact": "月宮"
+    "rendered_text": "月宮（げっきゅう）"
+    "gloss_ja": "月にあるとされる宮殿。"
+  - "entry_id": "xy-entry-1734"
+    "form_id": "xy-form-2058"
+    "segment_id": "xy-ch49-018"
+    "translation_span":
+      "start": 72
+      "end": 74
+      "exact": "梭羅"
+    "rendered_text": "梭羅（さら）"
+    "gloss_ja": "月にあるとされる仙木。沙悟浄の杖の材料。"
+  - "entry_id": "xy-entry-0886"
+    "form_id": "xy-ch49-true-demon-subduing-staff-form"
+    "segment_id": "xy-ch49-018"
+    "translation_span":
+      "start": 204
+      "end": 209
+      "exact": "降妖真宝杖"
+    "rendered_text": "降妖真宝杖（ごうようしんほうじょう）"
+    "gloss_ja": "妖怪を降す真の宝杖、という沙悟浄の武器の名。"
+  - "entry_id": "xy-entry-0902"
+    "form_id": "xy-form-1938"
+    "segment_id": "xy-ch49-020"
+    "translation_span":
+      "start": 11
+      "end": 13
+      "exact": "悟能"
+    "rendered_text": "悟能（ごのう）"
+  - "entry_id": "xy-entry-0902"
+    "form_id": "xy-form-1927"
+    "segment_id": "xy-ch49-020"
+    "translation_span":
+      "start": 32
+      "end": 34
+      "exact": "天蓬"
+    "rendered_text": "天蓬（てんぽう）"
+    "gloss_ja": "八戒が天上にいたころの官職に基づく呼び名。"
+  - "entry_id": "xy-ch49-hengsha"
+    "form_id": "xy-ch49-hengsha-form"
+    "segment_id": "xy-ch49-020"
+    "translation_span":
+      "start": 145
+      "end": 147
+      "exact": "恒沙"
+    "rendered_text": "恒沙（ごうしゃ）"
+    "gloss_ja": "恒河の砂に由来し、無数のものをいう仏教語。この句での結びつきは未確定。"
+  - "entry_id": "xy-entry-0642"
+    "form_id": "xy-form-0743"
+    "segment_id": "xy-ch49-020"
+    "translation_span":
+      "start": 216
+      "end": 218
+      "exact": "還丹"
+    "rendered_text": "還丹（かんたん）"
+    "gloss_ja": "精気を練り、根本へ還す道教の修法・丹の象徴。"
+  - "entry_id": "xy-ch49-three-families"
+    "form_id": "xy-ch49-three-families-form"
+    "segment_id": "xy-ch49-020"
+    "translation_span":
+      "start": 231
+      "end": 233
+      "exact": "三家"
+    "rendered_text": "三家（さんか）"
+    "gloss_ja": "内丹で合わせ修める三つの働き。ここでは戦う三人にも重なる。"
+  - "entry_id": "xy-ch49-gold-sprout"
+    "form_id": "xy-ch49-gold-sprout-form"
+    "segment_id": "xy-ch49-020"
+    "translation_span":
+      "start": 252
+      "end": 254
+      "exact": "金芽"
+    "rendered_text": "金芽（きんが）"
+    "gloss_ja": "内丹で生じる金の芽という象徴。"
+  - "entry_id": "xy-ch49-divine-water"
+    "form_id": "xy-ch49-divine-water-form"
+    "segment_id": "xy-ch49-020"
+    "translation_span":
+      "start": 266
+      "end": 268
+      "exact": "神水"
+    "rendered_text": "神水（しんすい）"
+    "gloss_ja": "内丹で生じる霊妙な水の象徴。"
+  - "entry_id": "xy-entry-0416"
+    "form_id": "xy-form-0854"
+    "segment_id": "xy-ch49-020"
+    "translation_span":
+      "start": 412
+      "end": 414
+      "exact": "九曜"
+    "rendered_text": "九曜（くよう）"
+    "gloss_ja": "日・月、五つの惑星、羅睺と計都を合わせた九つの星。"
+  - "entry_id": "xy-entry-0687"
+    "form_id": "xy-form-0889"
+    "segment_id": "xy-ch49-020"
+    "translation_span":
+      "start": 466
+      "end": 468
+      "exact": "釈迦"
+    "rendered_text": "釈迦（しゃか）"
+  - "entry_id": "xy-entry-1932"
+    "form_id": "xy-form-2295"
+    "segment_id": "xy-ch49-021"
+    "translation_span":
+      "start": 7
+      "end": 9
+      "exact": "時辰"
+    "rendered_text": "時辰（じしん）"
+    "gloss_ja": "一昼夜を十二に分けた時間の単位。"
+  - "entry_id": "xy-entry-0184"
+    "form_id": "xy-form-0194"
+    "segment_id": "xy-ch49-024"
+    "translation_span":
+      "start": 165
+      "end": 166
+      "exact": "斤"
+    "rendered_text": "斤（きん）"
+    "gloss_ja": "重さの古い単位。"
+  - "entry_id": "xy-entry-1149"
+    "form_id": "xy-form-1310"
+    "segment_id": "xy-ch49-024"
+    "translation_span":
+      "start": 269
+      "end": 271
+      "exact": "雷公"
+    "rendered_text": "雷公（らいこう）"
+    "gloss_ja": "雷をつかさどる神。"
+  - "entry_id": "xy-ch45-eastern-ocean"
+    "form_id": "xy-ch45-eastern-ocean-form"
+    "segment_id": "xy-ch49-024"
+    "translation_span":
+      "start": 442
+      "end": 445
+      "exact": "東洋海"
+    "rendered_text": "東洋海（とうようかい）"
+  - "entry_id": "xy-sun-wukong"
+    "form_id": "xy-ch49-long-celestial-title-form"
+    "segment_id": "xy-ch49-024"
+    "translation_span":
+      "start": 501
+      "end": 518
+      "exact": "混元一気上方太乙金仙美猴王斉天大聖"
+    "rendered_text": "混元一気上方太乙金仙美猴王斉天大聖（こんげんいっきじょうほうたいいつきんせんびこうおうせいてんたいせい）"
+    "gloss_ja": "悟空の仙人としての位と、美猴王・斉天大聖の号を重ねた長い尊称。"
+  - "entry_id": "xy-sun-wukong"
+    "form_id": "xy-form-2025"
+    "segment_id": "xy-ch49-024"
+    "translation_span":
+      "start": 583
+      "end": 588
+      "exact": "孫悟空行者"
+    "rendered_text": "孫悟空行者（そんごくうぎょうじゃ）"
+  - "entry_id": "xy-entry-0550"
+    "form_id": "xy-ch49-putuo-crag-form"
+    "segment_id": "xy-ch49-027"
+    "translation_span":
+      "start": 285
+      "end": 288
+      "exact": "普陀巌"
+    "rendered_text": "普陀巌（ふだがん）"
+    "gloss_ja": "観音菩薩の住む普陀落伽山の岩場をいう呼び名。"
+  - "entry_id": "xy-entry-0552"
+    "form_id": "xy-form-0642"
+    "segment_id": "xy-ch49-027"
+    "translation_span":
+      "start": 298
+      "end": 300
+      "exact": "菩薩"
+    "rendered_text": "菩薩（ぼさつ）"
+  - "entry_id": "xy-vocab-134"
+    "form_id": "xy-vocab-134-form"
+    "segment_id": "xy-ch49-028"
+    "translation_span":
+      "start": 35
+      "end": 37
+      "exact": "南海"
+    "rendered_text": "南海（なんかい）"
+  - "entry_id": "xy-entry-0550"
+    "form_id": "xy-form-0985"
+    "segment_id": "xy-ch49-028"
+    "translation_span":
+      "start": 61
+      "end": 64
+      "exact": "落伽山"
+    "rendered_text": "落伽山（らっかさん）"
+  - "entry_id": "xy-entry-0550"
+    "form_id": "xy-ch49-putuo-cliff-form"
+    "segment_id": "xy-ch49-028"
+    "translation_span":
+      "start": 86
+      "end": 89
+      "exact": "普陀崖"
+    "rendered_text": "普陀崖（ふだがい）"
+    "gloss_ja": "普陀の崖という表記。普陀巌と同じ場所を指す。"
+  - "entry_id": "xy-entry-1582"
+    "form_id": "xy-form-1858"
+    "segment_id": "xy-ch49-028"
+    "translation_span":
+      "start": 107
+      "end": 109
+      "exact": "諸天"
+    "rendered_text": "諸天（しょてん）"
+    "gloss_ja": "仏法を守る天上の神々。"
+  - "entry_id": "xy-entry-0553"
+    "form_id": "xy-ch49-muksha-disciple-form"
+    "segment_id": "xy-ch49-028"
+    "translation_span":
+      "start": 123
+      "end": 127
+      "exact": "木叉行者"
+    "rendered_text": "木叉行者（もくさぎょうじゃ）"
+    "gloss_ja": "観音菩薩に仕える恵岸行者の別名。"
+  - "entry_id": "xy-ch40-red-boy"
+    "form_id": "xy-ch42-sudhana-boy-form"
+    "segment_id": "xy-ch49-028"
+    "translation_span":
+      "start": 138
+      "end": 142
+      "exact": "善財童子"
+    "rendered_text": "善財童子（ぜんざいどうじ）"
+    "gloss_ja": "観音菩薩に仕える童子となった紅孩児の法名。"
+  - "entry_id": "xy-entry-1834"
+    "form_id": "xy-ch49-pearl-holding-dragon-girl-form"
+    "segment_id": "xy-ch49-028"
+    "translation_span":
+      "start": 152
+      "end": 156
+      "exact": "捧珠竜女"
+    "rendered_text": "捧珠竜女（ほうじゅりゅうにょ）"
+    "gloss_ja": "珠を捧げ持つ竜女。観音菩薩に仕える。"
+  - "entry_id": "xy-sun-wukong"
+    "form_id": "xy-form-0409"
+    "segment_id": "xy-ch49-028"
+    "translation_span":
+      "start": 185
+      "end": 187
+      "exact": "大聖"
+    "rendered_text": "大聖（たいせい）"
+  - "entry_id": "xy-sun-wukong"
+    "form_id": "xy-form-0559"
+    "segment_id": "xy-ch49-029"
+    "translation_span":
+      "start": 44
+      "end": 47
+      "exact": "孫大聖"
+    "rendered_text": "孫大聖（そんたいせい）"
+  - "entry_id": "xy-ch40-red-boy"
+    "form_id": "xy-ch40-red-boy-form"
+    "segment_id": "xy-ch49-029"
+    "translation_span":
+      "start": 141
+      "end": 144
+      "exact": "紅孩児"
+    "rendered_text": "紅孩児（こうがいじ）"
+  - "entry_id": "xy-sun-wukong"
+    "form_id": "xy-term-062-form"
+    "segment_id": "xy-ch49-031"
+    "translation_span":
+      "start": 2
+      "end": 5
+      "exact": "美猴王"
+    "rendered_text": "美猴王（びこうおう）"
+  - "entry_id": "xy-entry-0552"
+    "form_id": "xy-ch49-rescue-venerable-form"
+    "segment_id": "xy-ch49-031"
+    "translation_span":
+      "start": 84
+      "end": 87
+      "exact": "救苦尊"
+    "rendered_text": "救苦尊（きゅうくそん）"
+    "gloss_ja": "苦しみから救う尊い方、という観音菩薩の呼び名。"
+  - "entry_id": "xy-entry-0854"
+    "form_id": "xy-form-0978"
+    "segment_id": "xy-ch49-031"
+    "translation_span":
+      "start": 164
+      "end": 166
+      "exact": "瓔珞"
+    "rendered_text": "瓔珞（ようらく）"
+    "gloss_ja": "珠や貴金属などをつないだ装身具。"
+  - "entry_id": "xy-sun-wukong"
+    "form_id": "xy-term-098-form"
+    "segment_id": "xy-ch49-032"
+    "translation_span":
+      "start": 35
+      "end": 38
+      "exact": "孫悟空"
+    "rendered_text": "孫悟空（そんごくう）"
+  - "entry_id": "xy-entry-0552"
+    "form_id": "xy-form-0624"
+    "segment_id": "xy-ch49-032"
+    "translation_span":
+      "start": 64
+      "end": 68
+      "exact": "観音菩薩"
+    "rendered_text": "観音菩薩（かんのんぼさつ）"
+  - "entry_id": "xy-entry-0929"
+    "form_id": "xy-form-1070"
+    "segment_id": "xy-ch49-034"
+    "translation_span":
+      "start": 10
+      "end": 12
+      "exact": "紫竹"
+    "rendered_text": "紫竹（しちく）"
+  - "entry_id": "xy-ch49-lotus-bud"
+    "form_id": "xy-ch49-lotus-bud-form"
+    "segment_id": "xy-ch49-035"
+    "translation_span":
+      "start": 568
+      "end": 570
+      "exact": "菡萏"
+    "rendered_text": "菡萏（かんたん）"
+    "gloss_ja": "蓮の花、またはつぼみ。ここでは未開花のもの。"
+  - "entry_id": "xy-entry-0552"
+    "form_id": "xy-ch49-fishbasket-guanyin-form"
+    "segment_id": "xy-ch49-036"
+    "translation_span":
+      "start": 301
+      "end": 305
+      "exact": "魚籃観音"
+    "rendered_text": "魚籃観音（ぎょらんかんのん）"
+    "gloss_ja": "魚を入れた籠を持つ姿の観音。"
+  - "entry_id": "xy-ch47-chen-cheng"
+    "form_id": "xy-ch47-chen-cheng-form"
+    "segment_id": "xy-ch49-037"
+    "translation_span":
+      "start": 102
+      "end": 104
+      "exact": "陳澄"
+    "rendered_text": "陳澄（ちんちょう）"
+  - "entry_id": "xy-ch49-nine-aids"
+    "form_id": "xy-ch49-nine-aids-form"
+    "segment_id": "xy-ch49-039"
+    "translation_span":
+      "start": 22
+      "end": 24
+      "exact": "九助"
+    "rendered_text": "九助（きゅうじょ）"
+    "gloss_ja": "底本の字形を残した語。霊妙な生き物の性質をいうが、意味は未確定。"
+  - "entry_id": "xy-ch49-water-immortal"
+    "form_id": "xy-ch49-water-immortal-form"
+    "segment_id": "xy-ch49-039"
+    "translation_span":
+      "start": 42
+      "end": 44
+      "exact": "水仙"
+    "rendered_text": "水仙（すいせん）"
+    "gloss_ja": "水中の仙人・霊妙な存在という呼び名。花の名ではない。"
+  - "entry_id": "xy-entry-1732"
+    "form_id": "xy-form-2056"
+    "segment_id": "xy-ch49-039"
+    "translation_span":
+      "start": 177
+      "end": 178
+      "exact": "黿"
+    "rendered_text": "黿（げん）"
+    "gloss_ja": "大きなスッポン類をいう古い呼び名。現代の生物種は特定しない。"
+  - "entry_id": "xy-ch49-old-yuan"
+    "form_id": "xy-ch49-old-yuan-form"
+    "segment_id": "xy-ch49-040"
+    "translation_span":
+      "start": 2
+      "end": 4
+      "exact": "老黿"
+    "rendered_text": "老黿（ろうげん）"
+    "gloss_ja": "年老いた黿の呼び名。"
+  - "entry_id": "xy-term-042"
+    "form_id": "xy-term-042-form"
+    "segment_id": "xy-ch49-041"
+    "translation_span":
+      "start": 48
+      "end": 49
+      "exact": "丈"
+    "rendered_text": "丈（じょう）"
+    "gloss_ja": "長さの古い単位。ここでは甲羅の周囲をいう。"
+  - "entry_id": "xy-ch49-old-yuan"
+    "form_id": "xy-ch49-white-yuan-form"
+    "segment_id": "xy-ch49-042"
+    "translation_span":
+      "start": 35
+      "end": 37
+      "exact": "白黿"
+    "rendered_text": "白黿（はくげん）"
+    "gloss_ja": "白い甲羅を持つ、同じ老黿の呼び名。"
+  - "entry_id": "xy-ch49-tiger-sinew"
+    "form_id": "xy-ch49-tiger-sinew-form"
+    "segment_id": "xy-ch49-042"
+    "translation_span":
+      "start": 119
+      "end": 121
+      "exact": "虎筋"
+    "rendered_text": "虎筋（こきん）"
+    "gloss_ja": "虎の筋。組紐の材料として記される。"
+  - "entry_id": "xy-entry-0723"
+    "form_id": "xy-form-0831"
+    "segment_id": "xy-ch49-042"
+    "translation_span":
+      "start": 325
+      "end": 331
+      "exact": "南無阿弥陀仏"
+    "rendered_text": "南無阿弥陀仏（なむあみだぶつ）"
+    "gloss_ja": "阿弥陀仏に帰依するという念仏。"
+  - "entry_id": "xy-entry-0442"
+    "form_id": "xy-form-0501"
+    "segment_id": "xy-ch49-042"
+    "translation_span":
+      "start": 349
+      "end": 351
+      "exact": "羅漢"
+    "rendered_text": "羅漢（らかん）"
+  - "entry_id": "xy-entry-0687"
+    "form_id": "xy-form-1689"
+    "segment_id": "xy-ch49-043"
+    "translation_span":
+      "start": 144
+      "end": 146
+      "exact": "仏祖"
+    "rendered_text": "仏祖（ぶっそ）"
+    "gloss_ja": "ここでは西天の仏、如来をいう。"
+  - "entry_id": "xy-entry-0786"
+    "form_id": "xy-form-0900"
+    "segment_id": "xy-ch49-045"
+    "translation_span":
+      "start": 9
+      "end": 11
+      "exact": "弥陀"
+    "rendered_text": "弥陀（みだ）"
+    "gloss_ja": "阿弥陀仏の略称。"
+  - "entry_id": "xy-ch47-tongtian-river"
+    "form_id": "xy-ch49-tongtian-short-form"
+    "segment_id": "xy-ch49-045"
+    "translation_span":
+      "start": 69
+      "end": 71
+      "exact": "天河"
+    "rendered_text": "天河（てんが）"
+    "gloss_ja": "ここでは通天河を略した呼び方。天上の川とは区別する。"
+"provenance":
+  "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-049-source-1808612-zh-hant.txt"
+  "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-049-manifest-1808612.json"
+  "acquired_at": "2026-10-25"
+  "actual_acquisition_url": "https://zh.wikisource.org/zh-hant/西遊記/第049回"
+  "fixed_url_fetch_success": false
+  "revision_identification": "現行取得ページのフッターL228がoldid=1808612、L233が最終編集2020-05-13 02:03を表示。秒は未確認。"
+  "source_normalization": "現行ページの三回の閲覧結果を統合し、全257表示行をL0〜L256の番号付きで保存。回題L113〜L114と本文L117〜L224の非空行を一度ずつ全収録。詩行先頭の字下げのみ除き、原字・句読点・行内文字・詩の改行を保持。source_locationsはスナップショット物理行（1始まり）のため表示L番号に1を加える。"
+  "pretranslation_workflow": "AGENTS.md、ルートREADME、翻訳スキル、作品README、第四十三・四十四・四十八回の口調ガイド、YAML仕様と辞書READMEを確認し、全原文通読とchapter-049-voices.mdの作成を本文翻訳より先に実施。"
+  "dictionary_base_sha256": "35793f3689bfb547af6f8c3ad56bb44db653d484c77f2fe5e97bed2a249e9ab0"
+  "dictionary_effective_base_sha256": "7262859bf032a37db0d7b2412fe7970a3d2dd399674862334cdbb97dfed390de"
+  "dictionary_dependencies":
+  - "chapter": 37
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch037/lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-037-lexicon-patch.json"
+    "sha256": "6d04ee2667efcea814a0ff2369f4824544ad04ee14ca68e3c7d12784ccc82ce7"
+  - "chapter": 38
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch038/lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-038-lexicon-patch.json"
+    "sha256": "4aa86b94dbbc9d91cf22dfa73bac66183133071bf80bedde868670e52f58e63c"
+  - "chapter": 39
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch039/lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-039-lexicon-patch.json"
+    "sha256": "4a962035f221ad09ed634f7a4833c79ce3c8ef29a0a6daa15a54dcdbbb7f0f20"
+  - "chapter": 40
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch040/lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-040-lexicon-patch.json"
+    "sha256": "2e94d7c03eb05ebb3bd231fed6a07cd585df28e578c0607c5574e3f404c8ecf5"
+  - "chapter": 41
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch041/lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-041-lexicon-patch.json"
+    "sha256": "d2da97e3cfcd5b0a51d9b7212fec2cd3b47a9cd26f28002414b60a223121c95c"
+  - "chapter": 42
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch042/lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-042-lexicon-patch.json"
+    "sha256": "06b981ca3024a378abf90d7797a861acb6da428ae99c59e3e5007e2af1c75acf"
+  - "chapter": 43
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch043/lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-043-lexicon-patch.json"
+    "sha256": "a6cfe7521154406dea35bc8e3d61573416b5fc5b315e862f0e1a8c6652321cea"
+  - "chapter": 44
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch044/lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-044-lexicon-patch.json"
+    "sha256": "da48250c86947cae7d190299b730fcf3c5d533b322867841f79bafe010653af8"
+  - "chapter": 45
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch045/lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-045-lexicon-patch.json"
+    "sha256": "cd665c915dc279e83818e03372787ccdf1c245254350f1e0b116f946f8f2a011"
+  - "chapter": 46
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch046/lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-046-lexicon-patch.json"
+    "sha256": "257ff50181f9c4b52b34dfe9ca276b1eb7fa0d864ab410de04b2c190c9a8189e"
+  - "chapter": 47
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch047/lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-047-lexicon-patch.json"
+    "sha256": "0f768e9634380a314e8526559c3f4757c18d124a92d6cbbcd191449d39837d3e"
+  - "chapter": 48
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch048/lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-048-lexicon-patch.json"
+    "sha256": "9da4f70044b35e038695aaa63d57f153e3b5d0b4e1554ea277ed6b51465b1098"
+  "dictionary_baseline_note": "Actual working-tree dictionary frozen; all existing fields/forms are retained. Additions from earlier pending chapters are frozen separately. baseline-origin.json records reported parent state, not an assertion of commit-byte identity."
+  "review_note": "原稿作成者とは別のAIによる全文独立照合を実施。原文・ID・順序を保持し、本文3箇所と開示順に関わる注リンク2箇所を修正。全初出・注参照Unicode範囲、HTML、辞書保全と対象検証を再確認。人間・専門家校訂・実ブラウザ確認は未実施。"
+  "independent_review":
+    "reviewer": "Independent AI reviewer (not the author; not human/expert/browser review)"
+    "date": "2026-10-25"
+    "author_yaml_sha256": "80c481fc91dc25defa49fc7587a07211520a5c7c548ce3011b9fe37313897dbf"
+    "report": "independent-review.json"
+    "source_current_page_independently_matched": true
+    "fixed_url_fetch_success": false
+...
