@@ -3290,6 +3290,62 @@
     "title": "台湾内政部宗教文化地図 台南東嶽殿"
     "url": "https://taiwangods.moi.gov.tw/Religious_Culture/html/Cultural/3_0011.aspx?i=231"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-moe-biao"
+    "title": "教育部重編國語辭典修訂本 彪"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=436&word=%3D%E5%BD%AA"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-taihang-ja"
+    "title": "日本大百科全書 太行山脈（コトバンク）"
+    "url": "https://kotobank.jp/word/%E5%A4%AA%E8%A1%8C%E5%B1%B1%E8%84%88-91097"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-primary-1455619"
+    "title": "中文維基文庫 西遊記 第070回 固定版1455619（固定URL本文取得成功）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第070回&oldid=1455619"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-moe-night-scout"
+    "title": "教育部重編國語辭典修訂本 夜不收"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=152509&q=1&word=%E5%A4%9C"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-moe-wutu"
+    "title": "教育部重編國語辭典修訂本 烏兔"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=158687"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-moe-fish-drum"
+    "title": "教育部重編國語辭典修訂本 魚鼓簡板"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=163475&q=1&word=%E9%BC%93"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-moe-ivory-badge"
+    "title": "教育部重編國語辭典修訂本 牙牌"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=152019&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-moe-dipper-handle"
+    "title": "教育部重編國語辭典修訂本 斗柄"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=43307&q=1&word=%E6%9F%84"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-moe-grand-minister"
+    "title": "教育部重編國語辭典修訂本 太宰"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=49869&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-moe-three-broken-arms"
+    "title": "教育部重編國語辭典修訂本 三折肱"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=144717&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-kangxi-ba"
+    "title": "康熙字典 犬部四畫 \U00024731（電子翻刻）"
+    "url": "https://zh.wikisource.org/wiki/康熙字典/犬部/四畫"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-inner-elixir-study"
+    "title": "宋代道教「水火煉度」研究（検索表示：黄道・四象・三家）"
+    "url": "https://dao.crs.cuhk.edu.hk/Main/wp-content/uploads/2024/12/DAOJrl10_03.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-dao-gang"
+    "title": "道教文化中心資料庫 罡風（罡・天罡の語義）"
+    "url": "https://zh.daoinfo.org/index.php?title=%E7%BD%A1%E9%A2%A8"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch70-weapon-study"
+    "title": "半自動詞彙擷取：簡化的詞夾子方法及其JavaScript元件（検索表示：悶棍）"
+    "url": "https://docusky.org.tw/Paper/DADH2015_TermClipper/paper.pdf"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -39626,6 +39682,16 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓・語構成による推定。直接の読み資料は未確認。"
+      - "id": "xy-ch70-fish-drum-form"
+        "text": "魚鼓"
+        "relation": "variant"
+        "reading":
+          "kana": "ぎょこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+            - "xy-ch70-moe-fish-drum"
+          "reason_ja": "教育部辞典で道情の伴奏の魚鼓と漁鼓の同一性を確認。既存漁鼓の読みを引き継ぐが、追加形の日本語仮名の独立確認は未実施。"
   - "id": "xy-entry-1800"
     "kind": "object"
     "headword": "九陽巾"
@@ -41879,7 +41945,7 @@
   - "id": "xy-entry-1917"
     "kind": "term"
     "headword": "三停"
-    "definition_ja": "本回で沙悟浄の腕の幅を表す語。具体的な幅の基準は明示されない。"
+    "definition_ja": "身体の幅を表す語。沙悟浄の腕の幅などに用いられるが、具体的な幅の基準は明示されない。"
     "definition_evidence":
       "status": "estimated"
       "source_ids":
@@ -41895,6 +41961,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓からの推定。この語形の日本語読みを直接示す資料は未確認。"
+      - "id": "xy-ch70-width-ting-form"
+        "text": "停"
+        "relation": "short_form"
+        "reading":
+          "kana": "てい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "三停という身体幅の既存表現の数を除いた単位部分。五停の用例でも具体的な尺度は未確定。日本語音から採った読み。"
   - "id": "xy-entry-1918"
     "kind": "person"
     "headword": "曹植"
@@ -48201,6 +48276,16 @@
           "source_ids":
             - "xy-ch44-primary-1455593"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch70-tiangang-form"
+        "text": "天罡"
+        "relation": "alias"
+        "reading":
+          "kana": "てんこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+            - "xy-ch70-dao-gang"
+          "reason_ja": "北斗とその運行に結び付く罡の複合形。日本語読みは漢字音から採る。三十六変化の数義を持つ既存の天罡とは区別。"
   - "id": "xy-ch44-couplet"
     "kind": "term"
     "headword": "対聯"
@@ -50697,6 +50782,15 @@
           "source_ids":
             - "xy-ch48-primary-1808610"
           "reason_ja": "漢字の日本語音と語構成から採る。表記全体の日本語仮名読みを直接示す資料は未確認。中国語本文の出現を日本語読みに対する実証とはしない。"
+      - "id": "xy-ch70-inner-gold-elixir-form"
+        "text": "金丹"
+        "relation": "alias"
+        "reading":
+          "kana": "きんたん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "内丹で成就する丹をいう語。既存大丹の内丹語義へ対応させ、外で練る仙薬としての金丹とは区別する。日本語音は構成字から採用。"
   - "id": "xy-ch49-water-avoiding-seal"
     "kind": "concept"
     "headword": "避水訣"
@@ -60379,6 +60473,15 @@
           "source_ids":
             - "xy-ch69-primary-1455618"
           "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch70-saitaisui-short-form"
+        "text": "太歳"
+        "relation": "short_form"
+        "reading":
+          "kana": "たいさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "王の詩で既知の賽太歳を短く呼ぶ。太歳神そのものとは別の指示対象。漢字音から読みを採用。"
   - "id": "xy-ch69-qilin-mountain"
     "kind": "place"
     "headword": "麒麟山"
@@ -60512,3 +60615,440 @@
           "source_ids":
             - "xy-ch69-primary-1455618"
           "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch70-night-scout"
+    "kind": "title"
+    "headword": "夜不収"
+    "definition_ja": "軍中で外へ出て敵情を探る斥候の呼称。夜通し外で偵察することにちなむ。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+        - "xy-ch70-moe-night-scout"
+      "reason_ja": "教育部辞典が軍の探子と説明し、同じ原文の国王の発言を用例に挙げる。"
+    "forms":
+      - "id": "xy-ch70-night-scout-form"
+        "text": "夜不収"
+        "relation": "preferred"
+        "reading":
+          "kana": "やふしゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-biao-beast"
+    "kind": "term"
+    "headword": "彪"
+    "definition_ja": "虎を指す古い獣の呼称。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+        - "xy-ch70-moe-biao"
+      "reason_ja": "教育部辞典の虎の語義を確認。既存の李彪という個人名の部分とは同一化しない。"
+    "forms":
+      - "id": "xy-ch70-biao-beast-form"
+        "text": "彪"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-sun-moon"
+    "kind": "concept"
+    "headword": "烏兎"
+    "definition_ja": "太陽の烏と月の兎を合わせた、日月の象徴。内丹の詩では陰陽の働きにも重ねられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+        - "xy-ch70-moe-wutu"
+      "reason_ja": "教育部の烏兔を日月の代称として確認し、二種の薬・陰陽に続く当該詩の用法と照合。細かな身体対応は確定しない。"
+    "forms":
+      - "id": "xy-ch70-sun-moon-form"
+        "text": "烏兎"
+        "relation": "preferred"
+        "reading":
+          "kana": "うと"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-dipper-handle"
+    "kind": "concept"
+    "headword": "斗柄"
+    "definition_ja": "北斗七星の柄に当たる三つの星。古くはその向きで時や季節を知った。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch70-moe-dipper-handle"
+      "reason_ja": "教育部辞典の第五〜第七星・時季判定という説明を確認。"
+    "forms":
+      - "id": "xy-ch70-dipper-handle-form"
+        "text": "斗柄"
+        "relation": "preferred"
+        "reading":
+          "kana": "とへい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-inner-four-images"
+    "kind": "concept"
+    "headword": "四象"
+    "definition_ja": "内丹修行で和合させる四つの働きの象徴。四方・五行や身体の機能などに対応させ、内訳には諸説がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+        - "xy-ch70-inner-elixir-study"
+      "reason_ja": "研究論文の検索表示で内丹の四象と合和四象の解釈を確認。PDF全文・影印の閲覧は未実施。日月星辰に限定する既存語義とは区別する。"
+    "forms":
+      - "id": "xy-ch70-inner-four-images-form"
+        "text": "四象"
+        "relation": "preferred"
+        "reading":
+          "kana": "ししょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-inner-yellow-way"
+    "kind": "concept"
+    "headword": "黄道"
+    "definition_ja": "内丹の修練で陰陽の気を合わせ、丹を結ぶ中心の場または道を表す象徴語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+        - "xy-ch70-inner-elixir-study"
+      "reason_ja": "研究論文の検索表示が黄道を内丹の採薬・煉薬の場と説明。暦の吉日をいう既存項目とは別義。具体的な身体部位へ固定しない。"
+    "forms":
+      - "id": "xy-ch70-inner-yellow-way-form"
+        "text": "黄道"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-taihang-mountain"
+    "kind": "place"
+    "headword": "太行山"
+    "definition_ja": "中国の山脈の名。山西・河北などにまたがる太行山脈。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+        - "xy-ch70-taihang-ja"
+      "reason_ja": "原文の地名と日本語の一般的な地理的同定に基づく。用例の山を別の架空の山へ置き換えない。"
+    "forms":
+      - "id": "xy-ch70-taihang-mountain-form"
+        "text": "太行山"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいこうざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-lingyun-crossing"
+    "kind": "place"
+    "headword": "凌雲渡"
+    "definition_ja": "雲をしのぐ渡し場という名の場所。細かな所在は未詳。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+      "reason_ja": "この詩は位置・詳細を述べないので、後の渡河場面の情報を補わない。"
+    "forms":
+      - "id": "xy-ch70-lingyun-crossing-form"
+        "text": "凌雲渡"
+        "relation": "preferred"
+        "reading":
+          "kana": "りょううんと"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-ivory-badge"
+    "kind": "object"
+    "headword": "牙牌"
+    "definition_ja": "象牙などで作った、官吏などの身分を示す札。賭具の骨牌という同形の語とは別義。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+        - "xy-ch70-moe-ivory-badge"
+      "reason_ja": "教育部辞典の第二義「官吏が出入りの際に佩用する象牙製識別牌」と原文の身分記載を照合。"
+    "forms":
+      - "id": "xy-ch70-ivory-badge-form"
+        "text": "牙牌"
+        "relation": "preferred"
+        "reading":
+          "kana": "がはい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-minor-officer"
+    "kind": "title"
+    "headword": "小校"
+    "definition_ja": "軍中の下級の役人・指揮役をいう呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+      "reason_ja": "身分札と腹心の役目の説明に基づく。近代の軍の階級へ置き換えない。"
+    "forms":
+      - "id": "xy-ch70-minor-officer-form"
+        "text": "小校"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-youlaiyouqu"
+    "kind": "person"
+    "headword": "有来有去"
+    "definition_ja": "賽太歳に仕え、戦書を運ぶ腹心の小妖怪の名。来ることも去ることもある、という言葉を名にしたもの。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+      "reason_ja": "身分札に記された名前を悟空が読む。冒頭の無名の先鋒とは別の使者。"
+    "forms":
+      - "id": "xy-ch70-youlaiyouqu-form"
+        "text": "有来有去"
+        "relation": "preferred"
+        "reading":
+          "kana": "ゆうらいゆうき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-zhuzi-zhaoyang"
+    "kind": "place"
+    "headword": "昭陽宮"
+    "definition_ja": "朱紫国の宮中にある宮殿。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+      "reason_ja": "国王の現物についての説明から朱紫国の所在と確認。宝象国の都市賛の同名殿舎と同一建物にしない。"
+    "forms":
+      - "id": "xy-ch70-zhuzi-zhaoyang-form"
+        "text": "昭陽宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうようきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-peeling-pavilion"
+    "kind": "place"
+    "headword": "剝皮亭"
+    "definition_ja": "獬豸洞の内部にある亭の名。皮を剝ぐ亭という字面を持つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+      "reason_ja": "固定版の当該語と文脈を照合。後の正体や物語の結末を補わない。"
+    "forms":
+      - "id": "xy-ch70-peeling-pavilion-form"
+        "text": "剝皮亭"
+        "relation": "preferred"
+        "reading":
+          "kana": "はくひてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-iron-pestle"
+    "kind": "object"
+    "headword": "鉄杵"
+    "definition_ja": "鉄製の杵形の打撃武器。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+      "reason_ja": "賽太歳の姿の詩で手に持つものとして示される。既知の哪吒・恵岸の降妖杵とは所有者も記述も異なり、同じ宝と同定しない。"
+    "forms":
+      - "id": "xy-ch70-iron-pestle-form"
+        "text": "鉄杵"
+        "relation": "preferred"
+        "reading":
+          "kana": "てっしょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-iron-caltrop"
+    "kind": "object"
+    "headword": "鉄蒺藜"
+    "definition_ja": "鋭い突起を持つ鉄の武具をいう名。撒く物か柄付きの武器かなど、この列挙での具体的な形は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+      "reason_ja": "固定版の当該語と文脈を照合。後の正体や物語の結末を補わない。"
+    "forms":
+      - "id": "xy-ch70-iron-caltrop-form"
+        "text": "鉄蒺藜"
+        "relation": "preferred"
+        "reading":
+          "kana": "てつしつり"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-muffled-club"
+    "kind": "object"
+    "headword": "悶棍"
+    "definition_ja": "打撃に用いる棒状の武器の呼称。不意打ちをいう一般的な用法もあるが、武器の列挙では物の名として用いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+        - "xy-ch70-weapon-study"
+      "reason_ja": "詞彙研究論文の検索表示がこの列挙を引用し、武器名の用法と指摘。PDF全文未閲覧。"
+    "forms":
+      - "id": "xy-ch70-muffled-club-form"
+        "text": "悶棍"
+        "relation": "preferred"
+        "reading":
+          "kana": "もんこん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-wo-hammer"
+    "kind": "object"
+    "headword": "窩槌"
+    "definition_ja": "短い打撃武器として列挙される槌の名。窩の働きと具体的な形状は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+      "reason_ja": "固定版の当該語と文脈を照合。後の正体や物語の結末を補わない。"
+    "forms":
+      - "id": "xy-ch70-wo-hammer-form"
+        "text": "窩槌"
+        "relation": "preferred"
+        "reading":
+          "kana": "かつい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-pao-weapon"
+    "kind": "object"
+    "headword": "鉋"
+    "definition_ja": "武器の列挙で銃に続く字。炮に相当する火器の可能性があるが、底本の字を保持し、器種は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+      "reason_ja": "固定版の当該語と文脈を照合。後の正体や物語の結末を補わない。"
+    "forms":
+      - "id": "xy-ch70-pao-weapon-form"
+        "text": "鉋"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-divine-projectile"
+    "kind": "object"
+    "headword": "神弾"
+    "definition_ja": "武器の列挙にある弾の呼称。弾を放つ弓か弾そのものか、具体的な仕組みは未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+      "reason_ja": "既存の弾弓との同一性を確定する証拠がないため、未解決の物名として保留する。"
+    "forms":
+      - "id": "xy-ch70-divine-projectile-form"
+        "text": "神弾"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんだん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-gold-bells"
+    "kind": "object"
+    "headword": "金鈴"
+    "definition_ja": "賽太歳が使う三つの金の鈴。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+      "reason_ja": "固定版の当該語と文脈を照合。後の正体や物語の結末を補わない。"
+    "forms":
+      - "id": "xy-ch70-gold-bells-form"
+        "text": "金鈴"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんれい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+      - "id": "xy-ch70-purple-gold-bells-form"
+        "text": "紫金鈴"
+        "relation": "alias"
+        "reading":
+          "kana": "しきんれい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "回題の紫金鈴と本文の三つの金鈴は同じ盗みの対象。紫金という既存語の読みと鈴の漢字音から組み合わせた推定。"
+  - "id": "xy-ch70-grand-minister"
+    "kind": "title"
+    "headword": "太宰"
+    "definition_ja": "朝廷の高位の官の称号。制度によって職掌は異なるが、百官を統括する長官などをいう。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+        - "xy-ch70-moe-grand-minister"
+      "reason_ja": "教育部辞典の官名の第一義を参照。鯉太宰という既存の個人名とは別に、授ける官職の呼称として扱う。"
+    "forms":
+      - "id": "xy-ch70-grand-minister-form"
+        "text": "太宰"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-primary-1455619"
+          "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+  - "id": "xy-ch70-rare-ba-meat"
+    "kind": "term"
+    "headword": "\U00024731"
+    "definition_ja": "肉類の列挙にある珍字。字書では豝の異体とされ、豕の類を指すと考えられるが、この用例の種類・性別・加工の有無は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch70-primary-1455619"
+        - "xy-ch70-kangxi-ba"
+      "reason_ja": "康熙字典の電子翻刻で「邦加切、音巴、本又作豝」を確認。原字を残し、現代の動物種や雌雄へ断定しない。"
+    "forms":
+      - "id": "xy-ch70-rare-ba-meat-form"
+        "text": "\U00024731"
+        "relation": "preferred"
+        "reading":
+          "kana": "は"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch70-kangxi-ba"
+          "reason_ja": "康熙字典の邦加切・音巴と、日本語の巴の音ハから推定。日本語仮名を直接示す資料による独立確認は未実施。"
