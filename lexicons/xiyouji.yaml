@@ -2250,6 +2250,58 @@
     "title": "教育部 國語辭典簡編本「盞」"
     "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=29842&la=0&powerMode=0"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch47-primary-2598626"
+    "title": "中文維基文庫 西遊記 第047回（現行取得ページ、フッター識別版2598626）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第047回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch47-moe-mansan"
+    "title": "教育部 重編國語辭典修訂本「滿散」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=29876&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch47-moe-apology"
+    "title": "教育部 重編國語辭典修訂本「不當人子」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=20353&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch47-moe-taipan"
+    "title": "教育部 重編國語辭典修訂本「臺盤」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=49578&q=4&word=臺"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch47-kanjipedia-scale"
+    "title": "日本漢字能力検定協会 漢字ペディア「秤」"
+    "url": "https://www.kanjipedia.jp/kanji/0003387500"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch47-moe-white-ping"
+    "title": "教育部 重編國語辭典修訂本「白蘋」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=13521&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch47-white-ping-reading"
+    "title": "精選版日本国語大辞典「白蘋」（コトバンク）"
+    "url": "https://kotobank.jp/word/白蘋-2073992"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch47-guan-temple"
+    "title": "横浜関帝廟「関聖帝君」"
+    "url": "https://yokohama-kanteibyo.com/holy-emperor-lord-guan-yu/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch47-ritual-study"
+    "title": "由道佛兩教《受生經》看民間紙錢寄庫思想、受生経の引用と寄庫の研究（台湾大学仏学資料庫）"
+    "url": "https://buddhism.lib.ntu.edu.tw/FULLTEXT/JR-MISC/87262.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch47-textile-study"
+    "title": "朴通事研究所引『夢粱録』『呉県志』の紵絲の記述（検索本文）"
+    "url": "https://journal.kci.go.kr/kucsi/archive/articlePdf?artiId=ART001688544"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch47-yuanzhi"
+    "title": "劉一明『西遊原旨』第四十七回詩結（古籍転記）"
+    "url": "https://www.guoxuemi.com/wk/西遊原旨"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch47-jodo-cymbals"
+    "title": "新纂浄土宗大辞典「鈸」"
+    "url": "https://jodoshuzensho.jp/daijiten/index.php/鈸"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch47-moe-cymbals"
+    "title": "教育部 國語辭典簡編本「鈸」"
+    "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=61&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -45540,6 +45592,15 @@
           "source_ids":
             - "xy-ch44-primary-1455593"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch47-goat-strength-short-form"
+        "text": "羊力"
+        "relation": "short_form"
+        "reading":
+          "kana": "ようりき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
   - "id": "xy-ch44-nature-life"
     "kind": "concept"
     "headword": "性命"
@@ -47111,3 +47172,555 @@
           "source_ids":
             - "xy-ch46-nirvana-hongwanji"
           "reason_ja": "用語解説の見出しに涅槃（ねはん）と明記。"
+  - "id": "xy-ch47-root-one"
+    "kind": "concept"
+    "headword": "一元"
+    "definition_ja": "万物の根源となる一つの元気・根本。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+        - "xy-ch47-yuanzhi"
+      "reason_ja": "修持して光らせる対象として根源の元気と解した。宇宙の時間単位の一元とは語義を区別する。内丹的な読みには解釈の余地がある。"
+    "forms":
+      - "id": "xy-ch47-root-one-form"
+        "text": "一元"
+        "relation": "preferred"
+        "reading":
+          "kana": "いちげん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-tongtian-river"
+    "kind": "place"
+    "headword": "通天河"
+    "definition_ja": "一行の西行を阻む大河。碑に渡る距離が八百里と記される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "原文に示された語形、対象、文脈から解した説明。後の正体や展開を補っていない。"
+    "forms":
+      - "id": "xy-ch47-tongtian-river-form"
+        "text": "通天河"
+        "relation": "preferred"
+        "reading":
+          "kana": "つうてんが"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-white-ping"
+    "kind": "term"
+    "headword": "白蘋"
+    "definition_ja": "古典詩文に現れる水草の名。通常、田字草に結びつけられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-moe-white-ping"
+        - "xy-ch47-white-ping-reading"
+      "reason_ja": "教育部辞典と日本国語大辞典の語義を確認。本文の香りの描写から植物種や開花を科学的事実として断定しない。"
+    "forms":
+      - "id": "xy-ch47-white-ping-form"
+        "text": "白蘋"
+        "relation": "preferred"
+        "reading":
+          "kana": "はくひん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch47-white-ping-reading"
+          "reason_ja": "精選版日本国語大辞典の見出しが「はくひん」とする。"
+  - "id": "xy-ch47-cloth-piece"
+    "kind": "term"
+    "headword": "段"
+    "definition_ja": "布を数える単位。一まとまりの長さの布。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "白布一段という用法。一定の現代の長さに換算せず、布一切れ・一続きの意として扱う。"
+    "forms":
+      - "id": "xy-ch47-cloth-piece-form"
+        "text": "段"
+        "relation": "preferred"
+        "reading":
+          "kana": "だん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-mansan"
+    "kind": "term"
+    "headword": "満散"
+    "definition_ja": "祈祷や法要を満了して終えること。また、その終わりの振る舞い。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+        - "xy-ch47-moe-mansan"
+      "reason_ja": "教育部辞典の滿散は祈祷の道場の期満終了をいう。本作では酒飯を出す締めくくりの席を指す。"
+    "forms":
+      - "id": "xy-ch47-mansan-form"
+        "text": "満散"
+        "relation": "preferred"
+        "reading":
+          "kana": "まんさん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-qizhai-scripture"
+    "kind": "object"
+    "headword": "啓斎経"
+    "definition_ja": "食事を始める前に唱える経。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "箸を取って食前に一巻唱える文脈。特定の大蔵経所収経典との同一性は確定しない。"
+    "forms":
+      - "id": "xy-ch47-qizhai-scripture-form"
+        "text": "啓斎経"
+        "relation": "preferred"
+        "reading":
+          "kana": "けいさいきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-grain-shi"
+    "kind": "term"
+    "headword": "石"
+    "definition_ja": "穀物などの容量を表す古い単位。一般に十斗を一石とする。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "小麦粉の食べ物一石と米飯五斗を並べる文脈から容量と判断。現代の量へ換算しない。"
+    "forms":
+      - "id": "xy-ch47-grain-shi-form"
+        "text": "石"
+        "relation": "preferred"
+        "reading":
+          "kana": "こく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-chen-surname"
+    "kind": "term"
+    "headword": "陳"
+    "definition_ja": "中国の姓の一つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "家主の姓と三蔵の俗姓の一致を述べる語。特定の人物の略称ではない一般の姓として既存の同字の人物formsと区別する。"
+    "forms":
+      - "id": "xy-ch47-chen-surname-form"
+        "text": "陳"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-green-crops-ritual"
+    "kind": "concept"
+    "headword": "青苗斎"
+    "definition_ja": "育ち始めた作物の無事と豊作を祈る法要。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "農事の祈りと平安・収穫の法要を列挙する文脈と、青苗の字義から解する。具体的な儀礼次第は未確認。"
+    "forms":
+      - "id": "xy-ch47-green-crops-ritual-form"
+        "text": "青苗斎"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいびょうさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-peace-ritual"
+    "kind": "concept"
+    "headword": "平安斎"
+    "definition_ja": "人々の平安を祈る法要。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "原文に示された語形、対象、文脈から解した説明。後の正体や展開を補っていない。"
+    "forms":
+      - "id": "xy-ch47-peace-ritual-form"
+        "text": "平安斎"
+        "relation": "preferred"
+        "reading":
+          "kana": "へいあんさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-harvest-ritual"
+    "kind": "concept"
+    "headword": "了場斎"
+    "definition_ja": "収穫や脱穀を終えた際の法要。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "農事の法要名の列挙と了場の語構成から解する。儀礼の具体的な実施時期は確定しない。"
+    "forms":
+      - "id": "xy-ch47-harvest-ritual-form"
+        "text": "了場斎"
+        "relation": "preferred"
+        "reading":
+          "kana": "りょうじょうさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-premortem-funeral"
+    "kind": "concept"
+    "headword": "予修亡斎"
+    "definition_ja": "亡くなる前に、死後のために営む弔いの法要。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "語の構成と作中で後に示される説明による。各話の初出語釈では、まだ明かされない対象や死の理由を補わない。"
+    "forms":
+      - "id": "xy-ch47-premortem-funeral-form"
+        "text": "予修亡斎"
+        "relation": "preferred"
+        "reading":
+          "kana": "よしゅうぼうさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-premortem-deposit"
+    "kind": "concept"
+    "headword": "予修寄庫斎"
+    "definition_ja": "死後に備え、冥界の庫へ財を預けると考えて、生前に行う法要。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+        - "xy-ch47-ritual-study"
+      "reason_ja": "受生経の原文引用と紙銭寄庫研究を参照。生前に備える寄庫の趣旨として解し、本作の儀礼の細目までは保証しない。"
+    "forms":
+      - "id": "xy-ch47-premortem-deposit-form"
+        "text": "予修寄庫斎"
+        "relation": "preferred"
+        "reading":
+          "kana": "よしゅうきこさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-premortem-repayment"
+    "kind": "concept"
+    "headword": "予修填還斎"
+    "definition_ja": "生を受ける際に冥界から借りたとされる財を、生前に返すための法要。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+        - "xy-ch47-ritual-study"
+      "reason_ja": "論文所引『太上老君説五斗金章受生経』に、生まれる際の本命銭を償還する記述がある。作中の呼称全体との儀礼上の一致は留保する。"
+    "forms":
+      - "id": "xy-ch47-premortem-repayment-form"
+        "text": "予修填還斎"
+        "relation": "preferred"
+        "reading":
+          "kana": "よしゅうてんかんさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-linggan-king"
+    "kind": "person"
+    "headword": "霊感大王"
+    "definition_ja": "通天河のほとりの村で、霊験を示す神として祀られる大王。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "村人が信仰する称号と呼称の指示対象。正体や後の帰属を加えていない。"
+    "forms":
+      - "id": "xy-ch47-linggan-king-form"
+        "text": "霊感大王"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいかんだいおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-yuanhui-county"
+    "kind": "place"
+    "headword": "元会県"
+    "definition_ja": "陳家荘を管轄する、車遅国の県。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "原文に示された語形、対象、文脈から解した説明。後の正体や展開を補っていない。"
+    "forms":
+      - "id": "xy-ch47-yuanhui-county-form"
+        "text": "元会県"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんかいけん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-chen-village"
+    "kind": "place"
+    "headword": "陳家荘"
+    "definition_ja": "通天河のほとりにある村。車遅国の元会県に属する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "原文に示された語形、対象、文脈から解した説明。後の正体や展開を補っていない。"
+    "forms":
+      - "id": "xy-ch47-chen-village-form"
+        "text": "陳家荘"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちんかそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-chen-qing"
+    "kind": "person"
+    "headword": "陳清"
+    "definition_ja": "陳家荘の老人。陳澄の弟で、陳関保の父。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "原文に示された語形、対象、文脈から解した説明。後の正体や展開を補っていない。"
+    "forms":
+      - "id": "xy-ch47-chen-qing-form"
+        "text": "陳清"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-chen-cheng"
+    "kind": "person"
+    "headword": "陳澄"
+    "definition_ja": "陳家荘の老人。陳清の兄で、一秤金の父。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "原文に示された語形、対象、文脈から解した説明。後の正体や展開を補っていない。"
+    "forms":
+      - "id": "xy-ch47-chen-cheng-form"
+        "text": "陳澄"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちんちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-yichengjin"
+    "kind": "person"
+    "headword": "一秤金"
+    "definition_ja": "陳澄の娘。子を願って施した黄金が三十斤、一秤に達したことに由来する名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "原文に示された語形、対象、文脈から解した説明。後の正体や展開を補っていない。"
+    "forms":
+      - "id": "xy-ch47-yichengjin-form"
+        "text": "一秤金"
+        "relation": "preferred"
+        "reading":
+          "kana": "いっしょうきん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+            - "xy-ch47-kanjipedia-scale"
+          "reason_ja": "漢字ペディアが秤の音にショウを示す。全名は一＋秤＋金の日本語音を組み合わせた読みで、固有名全体の仮名資料は未確認。"
+  - "id": "xy-ch47-weight-cheng"
+    "kind": "term"
+    "headword": "秤"
+    "definition_ja": "重さの古い単位。作中では三十斤を一秤とする。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "原文に示された語形、対象、文脈から解した説明。後の正体や展開を補っていない。"
+    "forms":
+      - "id": "xy-ch47-weight-cheng-form"
+        "text": "秤"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-kanjipedia-scale"
+          "reason_ja": "漢字ペディアが秤の音ショウを示す。この重量単位としての日本語の慣用読みは直接未確認。"
+  - "id": "xy-ch47-chen-guanbao"
+    "kind": "person"
+    "headword": "陳関保"
+    "definition_ja": "陳清の息子。関聖への祈願で授かったとして名づけられた子。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "原文に示された語形、対象、文脈から解した説明。後の正体や展開を補っていない。"
+    "forms":
+      - "id": "xy-ch47-chen-guanbao-form"
+        "text": "陳関保"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちんかんほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch47-guanbao-short-form"
+        "text": "関保"
+        "relation": "short_form"
+        "reading":
+          "kana": "かんほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-guan-saint"
+    "kind": "person"
+    "headword": "関聖"
+    "definition_ja": "武将関羽を神として尊ぶ呼び名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch47-guan-temple"
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "横浜関帝廟が関聖帝君を関羽の神格として説明する。本作は関聖爺爺・関爺と敬称で呼ぶ。"
+    "forms":
+      - "id": "xy-ch47-guan-saint-form"
+        "text": "関聖"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-hidden-merit"
+    "kind": "concept"
+    "headword": "陰徳"
+    "definition_ja": "人に知られぬところで行う善行と、その功徳。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+      "reason_ja": "原文に示された語形、対象、文脈から解した説明。後の正体や展開を補っていない。"
+    "forms":
+      - "id": "xy-ch47-hidden-merit-form"
+        "text": "陰徳"
+        "relation": "preferred"
+        "reading":
+          "kana": "いんとく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-zhusi-satin"
+    "kind": "object"
+    "headword": "紵絲"
+    "definition_ja": "染めた絹糸で織る、光沢のある絹織物。緞と呼ばれる織物に当たる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+        - "xy-ch47-textile-study"
+      "reason_ja": "研究論文の検索本文が引用する『夢粱録』の染絲所織・『呉県志』の俗名緞を参照。紵の字を麻織物と機械的に解さず、原字を保つ。日本語読みは字音による。"
+    "forms":
+      - "id": "xy-ch47-zhusi-satin-form"
+        "text": "紵絲"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-taipan"
+    "kind": "term"
+    "headword": "台盤"
+    "definition_ja": "物を載せる台や盤。上台盤には立派な場に出る・一人前の扱いを受ける意味もある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+        - "xy-ch47-moe-taipan"
+      "reason_ja": "教育部辞典の臺盤は上等場面とする。本作では実際に卓と盆へ載る場面との掛詞として解した。"
+    "forms":
+      - "id": "xy-ch47-taipan-form"
+        "text": "台盤"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいばん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch47-cymbals"
+    "kind": "object"
+    "headword": "鈸"
+    "definition_ja": "二枚の金属製の円盤を打ち合わせる楽器。仏事などで用いる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch47-jodo-cymbals"
+        - "xy-ch47-moe-cymbals"
+      "reason_ja": "浄土宗辞典と教育部辞典で、対になった円盤を打ち合わせる楽器と確認した。"
+    "forms":
+      - "id": "xy-ch47-cymbals-form"
+        "text": "鈸"
+        "relation": "preferred"
+        "reading":
+          "kana": "はち"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch47-jodo-cymbals"
+          "reason_ja": "新纂浄土宗大辞典の見出しが「はち／鈸」とする。"
+  - "id": "xy-ch47-satin"
+    "kind": "object"
+    "headword": "繻子"
+    "definition_ja": "なめらかで光沢のある絹織物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch47-primary-2598626"
+        - "xy-ch47-textile-study"
+      "reason_ja": "原文の緞子を、日本語の繻子と訳す。糸の構成や具体的な織りの規格は断定しない。"
+    "forms":
+      - "id": "xy-ch47-satin-form"
+        "text": "繻子"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅす"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch47-primary-2598626"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
