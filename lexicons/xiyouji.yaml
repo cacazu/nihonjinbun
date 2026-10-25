@@ -2582,6 +2582,42 @@
     "title": "識典古籍「\U0002984F」古籍用例"
     "url": "https://www.shidianguji.com/character/\U0002984F"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch55-primary-2316520"
+    "title": "中文維基文庫 西遊記 第055回（現行取得ページ、フッター識別版2316520）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第055回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch55-liucui-drama"
+    "title": "李寿卿『月明和尚度柳翠』楔子・本文"
+    "url": "https://zh.wikisource.org/zh/月明和尚度柳翠"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch55-five-virtues"
+    "title": "劉向『新序』四部叢刊本の鶏の五徳（未校対電子翻刻の取得箇所）"
+    "url": "https://zh.wikisource.org/wiki/Page:Sibu_Congkan0325-劉向-新序-2-1.djvu/135"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch55-yingwei"
+    "title": "唐宗海『中西匯通醫經精義』営衛生会"
+    "url": "https://zh.wikisource.org/zh-hant/中西匯通醫經精義"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch55-moe-toufeng"
+    "title": "教育部 重編國語辭典修訂本「頭風」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=50722&q=1&word=風"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch55-zdic-dengsha"
+    "title": "漢典「邓沙」語義と本回用例"
+    "url": "https://zdic.net/hant/邓沙"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch55-lb-xishi"
+    "title": "李白「西施」"
+    "url": "https://zh.wikisource.org/zh/西施_(李白)"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch55-finger-research"
+    "title": "江蘇第二師範学院公開論文の『西遊記』の手指の描写（検索取得抜粋104頁）"
+    "url": "https://xb.jssnu.edu.cn/_upload/article/files/55/d0/5b4cde7b4879a3af1ba8207c92a4/db9f7fd5-6fa1-4c2f-91e7-0e122155fad0.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch55-food-wordplay"
+    "title": "玄奘仏学研究27期、証道書の食物の対話改訂に関する論考（検索取得抜粋112頁）"
+    "url": "https://www.hcu.edu.tw/upload/userfiles/37837C6FAB904E548360E98C1217A9BE/files/27-4%281%29.pdf"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -13961,6 +13997,15 @@
           "source_ids":
             - "xy-ch49-colbase-fishbasket"
           "reason_ja": "東京国立博物館の所蔵品名「魚籃観音菩薩立像」の読みが、ぎょらんかんのんぼさつりゅうぞうと明記する。"
+      - "id": "xy-ch55-full-guanyin-invocation-form"
+        "text": "南無大慈大悲救苦救難霊感観世音菩薩"
+        "relation": "title"
+        "reading":
+          "kana": "なむだいじだいひきゅうくきゅうなんれいかんかんぜおんぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
   - "id": "xy-entry-0553"
     "kind": "person"
     "headword": "恵岸行者"
@@ -14162,6 +14207,24 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "公開資料でこの表記全体の慣用日本語読みを確定できず、日本語の音訓・語構成と本文の文脈から推定した。"
+      - "id": "xy-ch55-mao-sun-star-official-form"
+        "text": "昴日星官"
+        "relation": "title"
+        "reading":
+          "kana": "ぼうじつせいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+      - "id": "xy-ch55-mao-official-short-form"
+        "text": "昴宿"
+        "relation": "short_form"
+        "reading":
+          "kana": "ぼうしゅく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "昴の星の神の呼びかけ・詩的短称。星座区分ではなく作中で来訪し発話する神を指す。日本語の字音に基づく。"
   - "id": "xy-entry-0561"
     "kind": "person"
     "headword": "星日馬"
@@ -28926,6 +28989,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と仏教語の慣用音から推定。語形全体の読みを明記する資料は未確認。"
+      - "id": "xy-ch55-bodhidharma-variant-form"
+        "text": "達摩"
+        "relation": "variant"
+        "reading":
+          "kana": "だるま"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "既存見出し達磨の異体表記として、日本語の慣用読みを引き継ぐ。語形資料をこの調査で独立確認したものではない。"
   - "id": "xy-entry-1323"
     "kind": "place"
     "headword": "山川壇"
@@ -41222,6 +41294,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+      - "id": "xy-ch55-true-yang-form"
+        "text": "真陽"
+        "relation": "variant"
+        "reading":
+          "kana": "しんよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "真実・本来の陽という構成字の音読。性によって失う陽の精気という文脈で元陽の異称として扱う。語形全体の仮名資料は未確認。"
   - "id": "xy-image-spirit"
     "kind": "term"
     "headword": "影神"
@@ -51026,6 +51107,16 @@
           "source_ids":
             - "xy-ch54-primary-1455603"
           "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch55-original-essence-form"
+        "text": "元精"
+        "relation": "variant"
+        "reading":
+          "kana": "げんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+            - "xy-ch54-primary-1455603"
+          "reason_ja": "本来の精という構成字の音読。精気を漏らすという同じ身体観の文脈から真精の異称として記録。語形全体の仮名資料は未確認。"
   - "id": "xy-ch54-fragrant-variant"
     "kind": "term"
     "headword": "馥\U0002984F"
@@ -51487,3 +51578,470 @@
           "source_ids":
             - "xy-ch54-primary-1455603"
           "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch55-dudi-mountain"
+    "kind": "place"
+    "headword": "毒敵山"
+    "definition_ja": "琵琶洞のある山。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "本文の明示する名称・物語内の説明から確認した語義。実際の動植物・治療の性質を保証するものではない。"
+    "forms":
+      - "id": "xy-ch55-dudi-mountain-form"
+        "text": "毒敵山"
+        "relation": "preferred"
+        "reading":
+          "kana": "どくてきざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-pipa-cave"
+    "kind": "place"
+    "headword": "琵琶洞"
+    "definition_ja": "毒敵山にある、三蔵が連れ込まれた洞窟。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "本文の明示する名称・物語内の説明から確認した語義。実際の動植物・治療の性質を保証するものではない。"
+    "forms":
+      - "id": "xy-ch55-pipa-cave-form"
+        "text": "琵琶洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "びわどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-dengsha"
+    "kind": "term"
+    "headword": "鄧沙"
+    "definition_ja": "豆を煮てつぶし、沈殿・濾過して作る細かい餡。澄沙ともいう。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch55-zdic-dengsha"
+      "reason_ja": "辞書の鄧沙＝澄沙、純浄な豆沙という説明と本回の饝饝の用例を確認。日本語読みは字音に基づく。"
+    "forms":
+      - "id": "xy-ch55-dengsha-form"
+        "text": "鄧沙"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうさ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-ying-qi"
+    "kind": "concept"
+    "headword": "営気"
+    "definition_ja": "伝統的身体観で、脈中を巡って身を養うとされる気。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch55-yingwei"
+      "reason_ja": "営は血、衛は気、営は脈中、衛は脈外という原資料の説明を確認。現代医学の組織へ同一化しない。"
+    "forms":
+      - "id": "xy-ch55-ying-qi-form"
+        "text": "営気"
+        "relation": "preferred"
+        "reading":
+          "kana": "えいき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-wei-qi"
+    "kind": "concept"
+    "headword": "衛気"
+    "definition_ja": "伝統的身体観で、脈外を巡り、身の外を守るとされる気。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch55-yingwei"
+      "reason_ja": "原資料の脈外を巡る衛の説明を確認。詩では清らかさを保つ陽の働きと対応する。"
+    "forms":
+      - "id": "xy-ch55-wei-qi-form"
+        "text": "衛気"
+        "relation": "preferred"
+        "reading":
+          "kana": "えき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-daoma-poison"
+    "kind": "object"
+    "headword": "倒馬毒樁"
+    "definition_ja": "刺して激しい痛みを与える蠍の精の尾の鉤。倒馬毒とも呼ばれる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "本文の明示する名称・物語内の説明から確認した語義。実際の動植物・治療の性質を保証するものではない。"
+    "forms":
+      - "id": "xy-ch55-daoma-poison-form"
+        "text": "倒馬毒樁"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうばどくとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+      - "id": "xy-ch55-daoma-short-form"
+        "text": "倒馬毒"
+        "relation": "short_form"
+        "reading":
+          "kana": "とうばどく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-toufeng"
+    "kind": "term"
+    "headword": "頭風"
+    "definition_ja": "頭痛が繰り返し起こる病をいう古い病名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch55-moe-toufeng"
+      "reason_ja": "教育部辞典の反復する頭痛の古い病名という説明を確認。作中の問いであって、悟空の病因の診断ではない。"
+    "forms":
+      - "id": "xy-ch55-toufeng-form"
+        "text": "頭風"
+        "relation": "preferred"
+        "reading":
+          "kana": "ずふう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-luanfeng"
+    "kind": "term"
+    "headword": "鸞鳳"
+    "definition_ja": "鸞と鳳凰。対となって仲むつまじい夫婦のたとえに用いられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "二つの伝説の鳥の組合せと、交股して和すという原文の夫婦・性交の比喩から解釈。"
+    "forms":
+      - "id": "xy-ch55-luanfeng-form"
+        "text": "鸞鳳"
+        "relation": "preferred"
+        "reading":
+          "kana": "らんぽう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-liucuicui"
+    "kind": "person"
+    "headword": "柳翠翠"
+    "definition_ja": "月明和尚が導く遊女柳翠の故事にちなみ、女が自分をなぞらえる人物名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch55-liucui-drama"
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "李寿卿の戯曲の柳翠・月明尊者の関係と、本文の柳翠翠・月闍黎の対句から対応づける。本文の重ね字を保持する。"
+    "forms":
+      - "id": "xy-ch55-liucuicui-form"
+        "text": "柳翠翠"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうすいすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-yue-acharya"
+    "kind": "person"
+    "headword": "月闍黎"
+    "definition_ja": "柳翠を導く僧、月明和尚を指すと解される呼称。闍黎は阿闍梨の略称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch55-liucui-drama"
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "戯曲の人物対と本文の対句による同定。月闍黎の仮名やこの語形自体を戯曲で確認したものではない。"
+    "forms":
+      - "id": "xy-ch55-yue-acharya-form"
+        "text": "月闍黎"
+        "relation": "preferred"
+        "reading":
+          "kana": "げつじゃり"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-yue-king"
+    "kind": "title"
+    "headword": "越王"
+    "definition_ja": "越の王をいう称号。西施を引く対話で使われるが、故事との対応に食い違いがある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+        - "xy-ch55-lb-xishi"
+      "reason_ja": "本文の越王を保持する。西施の美に溺れて国を失う故事の王は呉王夫差であり、本文を無断で呉王へ訂正しない。個人を勾践と決めつけない。"
+    "forms":
+      - "id": "xy-ch55-yue-king-form"
+        "text": "越王"
+        "relation": "preferred"
+        "reading":
+          "kana": "えつおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-naoshi"
+    "kind": "term"
+    "headword": "猱獅"
+    "definition_ja": "獅子の一種をいう語。縛られた者の姿のたとえに使われるが、具体的な姿の細部は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "本文の比喩と猱・獅の字から解釈。後の同名の妖怪をこの比喩へ持ち込まず、形状の解釈を留保する。"
+    "forms":
+      - "id": "xy-ch55-naoshi-form"
+        "text": "猱獅"
+        "relation": "preferred"
+        "reading":
+          "kana": "どうし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-fish-basket"
+    "kind": "object"
+    "headword": "魚籃"
+    "definition_ja": "魚を入れる籠。観音の一つの姿を示す持ち物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "本文の籠を提げた姿と魚籃之像の説明から語義を採用。魚籃観音という神格名とは別に籠の語を登録。"
+    "forms":
+      - "id": "xy-ch55-fish-basket-form"
+        "text": "魚籃"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょらん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-guangming-palace"
+    "kind": "place"
+    "headword": "光明宮"
+    "definition_ja": "天界の東天門の内にあり、昴日星官が住む宮。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "本文の明示する名称・物語内の説明から確認した語義。実際の動植物・治療の性質を保証するものではない。"
+    "forms":
+      - "id": "xy-ch55-guangming-palace-form"
+        "text": "光明宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうめいきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-stargazing-platform"
+    "kind": "place"
+    "headword": "観星台"
+    "definition_ja": "玉帝の命により星官が巡察へ出かける天界の台。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "本文の明示する名称・物語内の説明から確認した語義。実際の動植物・治療の性質を保証するものではない。"
+    "forms":
+      - "id": "xy-ch55-stargazing-platform-form"
+        "text": "観星台"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんせいだい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-seven-stars"
+    "kind": "term"
+    "headword": "七星"
+    "definition_ja": "七つの星を示す語。衣服の文様では北斗七星を思わせるが、図柄の細部は本文に示されない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "詩の袍掛七星を字義どおり保つ。七星剣・七星鞭という別の品と同一化しない。"
+    "forms":
+      - "id": "xy-ch55-seven-stars-form"
+        "text": "七星"
+        "relation": "preferred"
+        "reading":
+          "kana": "しちせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-rooster-five-virtues"
+    "kind": "concept"
+    "headword": "五徳"
+    "definition_ja": "鶏に備わるとされる文・武・勇・仁・信の五つの徳。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch55-five-virtues"
+      "reason_ja": "新序の鶏の冠、蹴爪、敵との戦い、食物を知らせること、時を守ることの五項を確認。"
+    "forms":
+      - "id": "xy-ch55-rooster-five-virtues-form"
+        "text": "五徳"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごとく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-gold-sea"
+    "kind": "concept"
+    "headword": "金海"
+    "definition_ja": "字面は金の海。色欲の縁を断つ結びで用いられる象徴的な海の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "対句の色相・禅心から欲念の尽きることに関わる表象と解するが、金の具体的な象徴体系は未確定。他字へ訂正しない。"
+    "forms":
+      - "id": "xy-ch55-gold-sea-form"
+        "text": "金海"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-visible-form"
+    "kind": "concept"
+    "headword": "色相"
+    "definition_ja": "目に映る形や姿。仏教では執着すべきでない外的な形を指し、色欲の含みも重なる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "本文末の塵縁を断ち禅心を悟る対句に基づく説明。色の仏教的意味と性愛の含みを単一の一方へ狭めない。"
+    "forms":
+      - "id": "xy-ch55-visible-form-form"
+        "text": "色相"
+        "relation": "preferred"
+        "reading":
+          "kana": "しきそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。表記全体の仮名を示す資料は未確認で、中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch55-east-marshal-tao"
+    "kind": "person"
+    "headword": "陶"
+    "definition_ja": "東天門で悟空に昴日星官の動静を伝える四大元帥の一人。姓は陶。南天門の同姓天兵や雷部の同姓官将との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "東天門の場面は増長天王の挨拶後に四大元帥が現れ、星官と同じく斗牛宮から下がったと述べる。別の場面の同姓人物との同一性を証す記述はないため、役割に限定した項目とする。別人であるとの断定ではない。"
+    "forms":
+      - "id": "xy-ch55-east-marshal-tao-form"
+        "text": "陶"
+        "relation": "preferred"
+        "reading":
+          "kana": "とう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "作中の姓を日本語の字音で読む。語形全体の仮名資料による独立確認はしていない。"
+      - "id": "xy-ch55-tao-heavenly-lord-form"
+        "text": "陶天君"
+        "relation": "title"
+        "reading":
+          "kana": "とうてんくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "東天門の同じ会話で四元帥の姓に続いて現れる個別の尊称。南天門や雷部の同姓者との同定ではない。日本語の字音による読みで、仮名資料は未確認。"
+  - "id": "xy-ch55-east-marshal-zhang"
+    "kind": "person"
+    "headword": "張"
+    "definition_ja": "東天門で悟空に昴日星官の動静を伝える四大元帥の一人。姓は張。南天門の同姓天兵や雷部の同姓官将との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "東天門の場面は増長天王の挨拶後に四大元帥が現れ、星官と同じく斗牛宮から下がったと述べる。別の場面の同姓人物との同一性を証す記述はないため、役割に限定した項目とする。別人であるとの断定ではない。"
+    "forms":
+      - "id": "xy-ch55-east-marshal-zhang-form"
+        "text": "張"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "作中の姓を日本語の字音で読む。語形全体の仮名資料による独立確認はしていない。"
+  - "id": "xy-ch55-east-marshal-xin"
+    "kind": "person"
+    "headword": "辛"
+    "definition_ja": "東天門で悟空に昴日星官の動静を伝える四大元帥の一人。姓は辛。南天門の同姓天兵や雷部の同姓官将との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "東天門の場面は増長天王の挨拶後に四大元帥が現れ、星官と同じく斗牛宮から下がったと述べる。別の場面の同姓人物との同一性を証す記述はないため、役割に限定した項目とする。別人であるとの断定ではない。"
+    "forms":
+      - "id": "xy-ch55-east-marshal-xin-form"
+        "text": "辛"
+        "relation": "preferred"
+        "reading":
+          "kana": "しん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "作中の姓を日本語の字音で読む。語形全体の仮名資料による独立確認はしていない。"
+      - "id": "xy-ch55-xin-heavenly-lord-form"
+        "text": "辛天君"
+        "relation": "title"
+        "reading":
+          "kana": "しんてんくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "東天門の同じ会話で四元帥の姓に続いて現れる個別の尊称。南天門や雷部の同姓者との同定ではない。日本語の字音による読みで、仮名資料は未確認。"
+  - "id": "xy-ch55-east-marshal-deng"
+    "kind": "person"
+    "headword": "鄧"
+    "definition_ja": "東天門で悟空に昴日星官の動静を伝える四大元帥の一人。姓は鄧。南天門の同姓天兵や雷部の同姓官将との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch55-primary-2316520"
+      "reason_ja": "東天門の場面は増長天王の挨拶後に四大元帥が現れ、星官と同じく斗牛宮から下がったと述べる。別の場面の同姓人物との同一性を証す記述はないため、役割に限定した項目とする。別人であるとの断定ではない。"
+    "forms":
+      - "id": "xy-ch55-east-marshal-deng-form"
+        "text": "鄧"
+        "relation": "preferred"
+        "reading":
+          "kana": "とう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch55-primary-2316520"
+          "reason_ja": "作中の姓を日本語の字音で読む。語形全体の仮名資料による独立確認はしていない。"
