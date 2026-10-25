@@ -3950,6 +3950,34 @@
     "title": "道教・民間信仰における元帥神の変容（関西大学公開PDFの検索表示p25で四将と閃電娘子を確認。PDF直接取得は429で未成功）"
     "url": "https://kansai-u.repo.nii.ac.jp/record/13054/files/KU-0150-20061001-02.pdf"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch88-primary-1500527"
+    "title": "中文維基文庫 西遊記 第088回 固定版1500527（固定リンクの本文を実際に取得、全216表示行、不変換の表示）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第088回&oldid=1500527"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch88-stove-god-jitsu"
+    "title": "平凡社 普及版 字通 竈君（コトバンク表示本文で仮名と語義を確認）"
+    "url": "https://kotobank.jp/word/竈君-1355088"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch88-entsu-dictionary"
+    "title": "円通（コトバンクの辞書表示本文で仮名と語義を確認）"
+    "url": "https://kotobank.jp/word/円通-447805"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch88-qiangjin-moe-search"
+    "title": "教育部 重編國語辭典修訂本 戧金（刻模様に填金色との語義は検索表示で確認。ページ本文の再取得では確認できず）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=101928&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch88-yangxian-reading"
+    "title": "中国駐大阪観光代表処「気づけば心に残っていた町、陽羨」（表示本文で陽羨の日本語仮名ようせんを確認）"
+    "url": "https://www.cnta-osaka.jp/28263.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch88-yangxian-history"
+    "title": "無錫市档案局 宜興の陽羨茶史（表示本文で宜興の古名と茶の産地を確認）"
+    "url": "https://daj.wuxi.gov.cn/doc/2008/02/16/2426837.shtml"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch88-fire-timing-moe-search"
+    "title": "教育部 重編國語辭典修訂本 火候（一般の火加減・時間と修養の語義は検索表示で確認、内丹語義全体の実証とはしない）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=84425"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -8309,6 +8337,15 @@
           "source_ids":
             - "xy-ch75-primary-2093000"
           "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+      - "id": "xy-ch88-goldhoop-staff-name-form"
+        "text": "金箍"
+        "relation": "short_form"
+        "reading":
+          "kana": "きんこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "悟空が棒名如意號金箍と述べる武器の号。金箍棒と同じ棒を指し、頭にはめる箍という同表記の別物と混同しない。語全体の仮名資料は未確認。"
   - "id": "xy-entry-0192"
     "kind": "person"
     "headword": "大禹"
@@ -26275,11 +26312,12 @@
   - "id": "xy-entry-1046"
     "kind": "object"
     "headword": "絞綃"
-    "definition_ja": "竜王が贈る薄い絹織物。底本の表記を保つ"
+    "definition_ja": "薄い絹織物。竜王からの贈り物や宴席の卓を覆う布として用いられる。底本の表記を保つ。"
     "definition_evidence":
       "status": "estimated"
-      "source_ids": []
-      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。 絞綃十端を贈る竜王の用例と、玉華王の宴の戧金卓に掛ける布の用例を照合した。特定の贈答品の同一個体ではなく織物の一般語義として扱い、旧用例・原字保持・推定状態を残す。"
     "forms":
       - "id": "xy-form-1203"
         "text": "絞綃"
@@ -33774,6 +33812,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "語形「中華」の構成字の日本語音訓・語構成から「ちゅうか」と推定。この語形の日本語読みを直接明記する資料は未確認。"
+      - "id": "xy-ch88-shenzhou-china-form"
+        "text": "神州"
+        "relation": "alias"
+        "reading":
+          "kana": "しんしゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "街の姿を中華と比べ、神州都邑と重ねていう文脈では中国の美称。別地域や仙界という同字面の概念へ推定しない。日本語の全語仮名資料は未確認。"
   - "id": "xy-entry-1439"
     "kind": "title"
     "headword": "住持"
@@ -39729,12 +39776,12 @@
   - "id": "xy-entry-1735"
     "kind": "concept"
     "headword": "刀圭"
-    "definition_ja": "内丹術の象徴語。圭の二土から、ここでは土の性を持つ河の妖怪に対応するとみられる。"
+    "definition_ja": "内丹術の象徴語。圭の二土から、土の性を持つ河の妖怪に対応するとみられる。"
     "definition_evidence":
       "status": "estimated"
       "source_ids":
         - "xy-reference-411"
-      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。"
+      "reason_ja": "第二十二回固定版本文の対象語と前後の文脈に基づく。固有名・内丹術語・難字の厳密な同定には留保がある。 共有辞書で位置に依存しない説明とするため「ここでは」だけを除いた。語義・旧出典・推定状態・形態と読みは変更しない。"
     "forms":
       - "id": "xy-form-2059"
         "text": "刀圭"
@@ -69415,4 +69462,474 @@
           "status": "estimated"
           "source_ids":
             - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-yuhua-county"
+    "kind": "place"
+    "headword": "玉華県"
+    "definition_ja": "天竺国に属する土地の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "老人が天竺国下郡の地名として説明する。実在の行政区と同定しない。"
+    "forms":
+      - "id": "xy-ch88-yuhua-county-form"
+        "text": "玉華県"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくかけん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch88-yuhua-short-form"
+        "text": "玉華"
+        "relation": "short_form"
+        "reading":
+          "kana": "ぎょくか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "地名を短くした形。玉華王という人物名の部分一致ではなく、玉華の王子という土地を示す独立用法に用いる。読みは漢字音による。"
+  - "id": "xy-ch88-yuhua-king"
+    "kind": "person"
+    "headword": "玉華王"
+    "definition_ja": "天竺皇帝の一族で、玉華の城を治める王。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "老人が城主と皇帝との関係、封号を説明する。同名の別の王や後の事件に関する知識は加えない。"
+    "forms":
+      - "id": "xy-ch88-yuhua-king-form"
+        "text": "玉華王"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくかおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-chief-administrator-office"
+    "kind": "place"
+    "headword": "長史府"
+    "definition_ja": "王府の政務を取り扱う長史の役所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "王府の門の左右に並ぶ建物として明示。官職の歴代制度の細部は本文から限定しない。"
+    "forms":
+      - "id": "xy-ch88-chief-administrator-office-form"
+        "text": "長史府"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうしふ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-judicial-office"
+    "kind": "place"
+    "headword": "審理庁"
+    "definition_ja": "訴えや事件の審理を担当する役所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "王府の門の左右に列挙される審理廳を日本の字体で表記。具体的な権限の範囲は未確定。"
+    "forms":
+      - "id": "xy-ch88-judicial-office-form"
+        "text": "審理庁"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんりちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-meals-office"
+    "kind": "place"
+    "headword": "典膳所"
+    "definition_ja": "王府の食事をつかさどる役所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "王府の門の左右の列挙と、食事を準備する典膳官の活動から解する。"
+    "forms":
+      - "id": "xy-ch88-meals-office-form"
+        "text": "典膳所"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんぜんしょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-guest-hall"
+    "kind": "place"
+    "headword": "待客館"
+    "definition_ja": "客を待たせたり迎えたりする館。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "門の表示に従って弟子たちが座り、館番が置かれている。現代的な宿泊施設に限定しない。"
+    "forms":
+      - "id": "xy-ch88-guest-hall-form"
+        "text": "待客館"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいきゃくかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-ceremony-officer"
+    "kind": "title"
+    "headword": "引礼官"
+    "definition_ja": "来客を迎え、儀礼に沿って取り次ぐ官。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "三蔵を迎えて来意を問い、王に奏する役割から説明。固有の人名ではない。"
+    "forms":
+      - "id": "xy-ch88-ceremony-officer-form"
+        "text": "引礼官"
+        "relation": "preferred"
+        "reading":
+          "kana": "いんれいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-meals-officer"
+    "kind": "title"
+    "headword": "典膳官"
+    "definition_ja": "王府の食事をつかさどる官。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "命を受けて精進料理を用意し、食卓を整える役目。建物の典膳所とは区別。"
+    "forms":
+      - "id": "xy-ch88-meals-officer-form"
+        "text": "典膳官"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんぜんかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-stove-god"
+    "kind": "person"
+    "headword": "竈君"
+    "definition_ja": "かまどをつかさどる神。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+        - "xy-ch88-stove-god-jitsu"
+      "reason_ja": "平凡社『普及版 字通』の竈君の表示本文で意味と仮名を確認。役人の呼びかけは沙悟浄の姿をこの神になぞらえるもので、沙悟浄を実際の竈神へ同定しない。"
+    "forms":
+      - "id": "xy-ch88-stove-god-form"
+        "text": "竈君"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうくん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch88-stove-god-jitsu"
+          "reason_ja": "表示本文で、この語形の日本語仮名を確認。中国語音の換算ではない。"
+  - "id": "xy-ch88-baosha-pavilion"
+    "kind": "place"
+    "headword": "暴紗亭"
+    "definition_ja": "玉華王府で食事や宿泊に用いられる亭。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "王が僧たちの食事に指定し、寝台も設ける場所。底本は暴の字で、曝へ校訂せず保持する。"
+    "forms":
+      - "id": "xy-ch88-baosha-pavilion-form"
+        "text": "暴紗亭"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼうさてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-bu-distance"
+    "kind": "term"
+    "headword": "歩"
+    "definition_ja": "中国の古い長さ・距離の単位。実際の長さには時代差がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "空中の高さを三百步と示す文脈。動詞の歩くや歩行の動作そのものとは区別し、メートル換算を行わない。"
+    "forms":
+      - "id": "xy-ch88-bu-distance-form"
+        "text": "歩"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-scattering-flowers-overhead"
+    "kind": "term"
+    "headword": "撒花蓋頂"
+    "definition_ja": "花を散らして頭上を覆うという字義を持つ、棒術の型の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "悟空が金箍棒で繰り出す型。字義以上の流派・具体的な動作の詳細は原文から確定しない。"
+    "forms":
+      - "id": "xy-ch88-scattering-flowers-overhead-form"
+        "text": "撒花蓋頂"
+        "relation": "preferred"
+        "reading":
+          "kana": "さっかがいちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-yellow-dragon-turn"
+    "kind": "term"
+    "headword": "黄竜転身"
+    "definition_ja": "黄色い竜が身を翻すという字義を持つ、棒術の型の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "悟空が金箍棒で演じる型。黄竜という動物・人物の既存項目とは、型の名称として区別する。"
+    "forms":
+      - "id": "xy-ch88-yellow-dragon-turn-form"
+        "text": "黄竜転身"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうりゅうてんしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-phoenix-sunrise-form"
+    "kind": "term"
+    "headword": "丹鳳朝陽"
+    "definition_ja": "赤い鳳が朝日に向かうという字義を持つ、杖術の型の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "沙悟浄が杖で演じる型。丹鳳という鳥自体や丹鳳眼という目の形とは別の概念。"
+    "forms":
+      - "id": "xy-ch88-phoenix-sunrise-form-form"
+        "text": "丹鳳朝陽"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんぽうちょうよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-hungry-tiger-form"
+    "kind": "term"
+    "headword": "餓虎撲食"
+    "definition_ja": "飢えた虎が餌へ飛びかかるという字義を持つ、杖術の型の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "沙悟浄が杖で演じる型の名。実際の虎の登場や特定の現代武術の手順を意味しない。"
+    "forms":
+      - "id": "xy-ch88-hungry-tiger-form-form"
+        "text": "餓虎撲食"
+        "relation": "preferred"
+        "reading":
+          "kana": "がこぼくしょく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-perfect-penetration"
+    "kind": "concept"
+    "headword": "円通"
+    "definition_ja": "真理があまねく通じ、修行が自在に悟りへ達することをいう仏教語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+        - "xy-ch88-entsu-dictionary"
+      "reason_ja": "コトバンクの辞書表示本文で読みと、真理が円満に行き渡ること・自在な悟りという語義を確認。具体的な教義体系は限定しない。"
+    "forms":
+      - "id": "xy-ch88-perfect-penetration-form"
+        "text": "円通"
+        "relation": "preferred"
+        "reading":
+          "kana": "えんつう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch88-entsu-dictionary"
+          "reason_ja": "表示本文で、この語形の日本語仮名を確認。中国語音の換算ではない。"
+  - "id": "xy-ch88-gold-inlay"
+    "kind": "term"
+    "headword": "戧金"
+    "definition_ja": "器物に模様を刻み、金色を入れて飾る技法。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+        - "xy-ch88-qiangjin-moe-search"
+      "reason_ja": "教育部辞典の検索表示で刻模様に填金色とする説明を確認。ページ本体の表示では辞書本文を再取得できず、確認範囲は検索表示。戧金冠は技法を用いた冠という別の物品。"
+    "forms":
+      - "id": "xy-ch88-gold-inlay-form"
+        "text": "戧金"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうきん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-yangxian"
+    "kind": "place"
+    "headword": "陽羨"
+    "definition_ja": "中国の宜興の古名。茶の産地として知られる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+        - "xy-ch88-yangxian-history"
+      "reason_ja": "無錫市档案局の表示本文で宜興の古名と茶の歴史を確認。中国駐大阪観光代表処の日本語表示で仮名を確認。"
+    "forms":
+      - "id": "xy-ch88-yangxian-form"
+        "text": "陽羨"
+        "relation": "preferred"
+        "reading":
+          "kana": "ようせん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch88-yangxian-reading"
+          "reason_ja": "表示本文で、この語形の日本語仮名を確認。中国語音の換算ではない。"
+  - "id": "xy-ch88-one-canon"
+    "kind": "concept"
+    "headword": "一蔵"
+    "definition_ja": "経典一そろいを数える語。物語では五千四十八という数に結び付けられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "八戒が一藏之數と続けて五千零四十八斤を述べる文脈。あらゆる時代・宗派の経典数が同じという事実に拡張しない。"
+    "forms":
+      - "id": "xy-ch88-one-canon-form"
+        "text": "一蔵"
+        "relation": "preferred"
+        "reading":
+          "kana": "いちぞう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-oral-formula"
+    "kind": "term"
+    "headword": "口訣"
+    "definition_ja": "技や修行の要領を口伝する秘訣・言葉。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "武器の変化を動かし、弟子へ術を授ける文脈での語義。呪文の具体的な文言は本文にないため補わない。"
+    "forms":
+      - "id": "xy-ch88-oral-formula-form"
+        "text": "口訣"
+        "relation": "preferred"
+        "reading":
+          "kana": "くけつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-inner-fire-timing"
+    "kind": "concept"
+    "headword": "火候"
+    "definition_ja": "火の加減や時機。内丹修行では、体内の気の働きを調える度合いや時機をいう。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+        - "xy-ch88-fire-timing-moe-search"
+      "reason_ja": "悟空が仙気と元神を扱い力を授ける文脈から内丹語義と解する。教育部辞典の検索表示で一般の火力・時間と修養の語義を補助確認。現代科学上の身体機能とはしない。"
+    "forms":
+      - "id": "xy-ch88-inner-fire-timing-form"
+        "text": "火候"
+        "relation": "preferred"
+        "reading":
+          "kana": "かこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-ziwu-circulation"
+    "kind": "concept"
+    "headword": "子午周天"
+    "definition_ja": "子と午の巡りになぞらえ、体内の気を一巡させる内丹修行の語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "仙気・元神・火候に続いて運遍と述べる文脈から解する。占盤の北南をいう子午という項目とは、修行上の一巡という複合概念を区別する。細部の術法は未確定。"
+    "forms":
+      - "id": "xy-ch88-ziwu-circulation-form"
+        "text": "子午周天"
+        "relation": "preferred"
+        "reading":
+          "kana": "しごしゅうてん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-leopard-head-mountain"
+    "kind": "place"
+    "headword": "豹頭山"
+    "definition_ja": "玉華の城から七十里ほど離れた山の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "語り手が山名と城からの距離を明示する。住む妖怪の固有名・種・関係については原文開示前の知識を補わない。"
+    "forms":
+      - "id": "xy-ch88-leopard-head-mountain-form"
+        "text": "豹頭山"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひょうとうざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch88-tiger-mouth-cave"
+    "kind": "place"
+    "headword": "虎口洞"
+    "definition_ja": "豹頭山にある洞窟の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch88-primary-1500527"
+      "reason_ja": "語り手が山と洞の名を続けて説明する。洞名から住人の種や所有者の名前を逆算しない。"
+    "forms":
+      - "id": "xy-ch88-tiger-mouth-cave-form"
+        "text": "虎口洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "ここうどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch88-primary-1500527"
           "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
