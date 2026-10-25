@@ -4374,6 +4374,34 @@
     "title": "早稲田大学リポジトリ 三帰九戒に関する論考（検索表示）"
     "url": "https://waseda.repo.nii.ac.jp/record/6495/files/TagenBunka_3_Mori.pdf"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch99-primary-1558059"
+    "title": "中文維基文庫 西遊記 第099回 固定版1558059（不変換の固定リンク取得成功。zh-hant別URLは失敗。全239表示行を作者独立通読）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第099回&oldid=1558059"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch99-cantongqi-ndl"
+    "title": "国立国会図書館 周易参同契（検索表示で道教書の内容・シュウエキ サンドウケイを確認）"
+    "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001330099"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch99-original-face"
+    "title": "愛知学院大学禅研究所 講演会レポート平成10年度（検索表示で本来の面目の読みと語義を確認）"
+    "url": "https://zenken.agu.ac.jp/zen/lecture/h10.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch99-seven-emotions"
+    "title": "小学館デジタル大辞泉 七情（コトバンク検索表示で読みと感情の語義を確認）"
+    "url": "https://kotobank.jp/word/七情-520828"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch99-pure-yang"
+    "title": "漢典 純陽（検索表示で純一の陽気と仙人の別号の区別を確認）"
+    "url": "https://zdic.net/hans/%E7%BA%AF%E9%98%B3"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch99-yuanzhi"
+    "title": "劉一明 西遊原旨 第九十九回（Chinese Text Project検索表示で水勝真經伏の寓意注を確認。異本を底本へ置換しない）"
+    "url": "https://ctext.org/wiki.pl?chapter=69524&if=en"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch99-primary-black-pine"
+    "title": "中文維基文庫 西遊記 第二十八回（既存正本の固定出典と回題を照合）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第028回&oldid=1455577"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -44429,6 +44457,15 @@
           "source_ids":
             - "xy-ch31-funi"
           "reason_ja": "当該語形の日本語読みを資料に直接確認。検索表示のみの確認の場合は出典注記に記す。"
+      - "id": "xy-ch99-funi-gate-form"
+        "text": "不二の門"
+        "relation": "short_form"
+        "reading":
+          "kana": "ふにのもん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch99-primary-1558059"
+          "reason_ja": "不二法門と同じ、二つへのとらわれを離れる仏教の道を門になぞらえる表記。建物の固有門名ではない。 日本語の全語形仮名資料は未確認で、漢字の音訓と語構成に従う。"
   - "id": "xy-ch31-sanqi"
     "kind": "concept"
     "headword": "三契"
@@ -53339,6 +53376,15 @@
           "source_ids":
             - "xy-ch52-primary-1498137"
           "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch99-dou-mountain-form"
+        "text": "兜山"
+        "relation": "short_form"
+        "reading":
+          "kana": "とうざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch99-primary-1558059"
+          "reason_ja": "難簿の四十・四十一難に続く金兜山の魔物の事件で同一の山と判断。固定表示の兜は山偏と兜の欠字に対する電子翻刻の代用字で、原字を補作しない。 日本語の全語形仮名資料は未確認で、漢字の音訓と語構成に従う。"
   - "id": "xy-ch50-jindou-cave"
     "kind": "place"
     "headword": "金兜洞"
@@ -75640,3 +75686,141 @@
           "source_ids":
             - "xy-ch98-primary-1500530"
           "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch99-cantongqi"
+    "kind": "object"
+    "headword": "参同契"
+    "definition_ja": "易の陰陽論と錬丹の道を結び付ける道教書、周易参同契の略称。同名の禅宗の詩とは別。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch99-primary-1558059"
+        - "xy-ch99-cantongqi-ndl"
+      "reason_ja": "錬丹の文脈と道教書の書誌を照合した。底本の略題に日本語書誌の読みの該当部分を採用。"
+    "forms":
+      - "id": "xy-ch99-cantongqi-form"
+        "text": "参同契"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんどうけい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch99-cantongqi-ndl"
+          "reason_ja": "資料の当該語形に日本語仮名を直接確認。取得範囲は出典名に記録。"
+  - "id": "xy-ch99-original-face"
+    "kind": "concept"
+    "headword": "本来の面目"
+    "definition_ja": "人が本来備えている真実の姿や心のあり方をいう禅の語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch99-primary-1558059"
+        - "xy-ch99-original-face"
+      "reason_ja": "大学禅研究所の講演記録に仮名と、本当の根源・姿の説明を確認。"
+    "forms":
+      - "id": "xy-ch99-original-face-form"
+        "text": "本来の面目"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほんらいのめんもく"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch99-original-face"
+          "reason_ja": "資料の当該語形に日本語仮名を直接確認。取得範囲は出典名に記録。"
+  - "id": "xy-ch99-pure-yang"
+    "kind": "concept"
+    "headword": "純陽"
+    "definition_ja": "陰の混じらない純一の陽の気や、その性質。仙人の別号としての純陽とは区別する。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch99-primary-1558059"
+        - "xy-ch99-pure-yang"
+      "reason_ja": "辞書の純一の陽気の意味と、悟空の性質・陽気を対比する本文を照合。"
+    "forms":
+      - "id": "xy-ch99-pure-yang-form"
+        "text": "純陽"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゅんよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch99-primary-1558059"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch99-yin-demons"
+    "kind": "concept"
+    "headword": "陰魔"
+    "definition_ja": "陰の気に属し、修行や聖なるものを害そうとする魔。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch99-primary-1558059"
+      "reason_ja": "経を奪おうとして風雷や霧を起こし、陽の気に退けられる存在として本文が説明する。楞厳経の五陰魔など特定の教義分類へ限定しない。"
+    "forms":
+      - "id": "xy-ch99-yin-demons-form"
+        "text": "陰魔"
+        "relation": "preferred"
+        "reading":
+          "kana": "いんま"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch99-primary-1558059"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch99-rescue-temple"
+    "kind": "place"
+    "headword": "救生寺"
+    "definition_ja": "陳家荘で、子供たちを救った取経の師弟を祀るために建てられた寺。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch99-primary-1558059"
+      "reason_ja": "固定原文の用法・対象・語構成に従う。外部の同名人物や場所、未確認の後日談を補わない。"
+    "forms":
+      - "id": "xy-ch99-rescue-temple-form"
+        "text": "救生寺"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうしょうじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch99-primary-1558059"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch99-seven-emotions"
+    "kind": "concept"
+    "headword": "七情"
+    "definition_ja": "喜怒哀楽や愛憎・欲など、人に備わる感情を七つに分けていう語。分類の内訳には異説がある。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch99-primary-1558059"
+        - "xy-ch99-seven-emotions"
+      "reason_ja": "七種の感情という辞書の語義と仮名を確認。薬の配合の七分類とは別。"
+    "forms":
+      - "id": "xy-ch99-seven-emotions-form"
+        "text": "七情"
+        "relation": "preferred"
+        "reading":
+          "kana": "しちじょう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch99-seven-emotions"
+          "reason_ja": "資料の当該語形に日本語仮名を直接確認。取得範囲は出典名に記録。"
+  - "id": "xy-ch99-black-pine-separation"
+    "kind": "place"
+    "headword": "黒松林"
+    "definition_ja": "三蔵が弟子たちと離れ、宝象国につながる魔物の難に遭う際の松林。烏巣禅師の予言の林や、女の妖怪を助けた林との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch99-primary-1558059"
+        - "xy-ch99-primary-black-pine"
+      "reason_ja": "難簿の失散から宝象国・金鑾殿へ続く順序を、既存の第二十八回の回題と照合。既存の二つの同名項目の定義・根拠も全件比較したが、表記だけでは同定しない。"
+    "forms":
+      - "id": "xy-ch99-black-pine-separation-form"
+        "text": "黒松林"
+        "relation": "preferred"
+        "reading":
+          "kana": "こくしょうりん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch99-primary-1558059"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
