@@ -3918,6 +3918,38 @@
     "title": "欽定古今圖書集成 草木典第080卷所収 野菜譜 雀兒綿單（維基文庫の当該項目表示本文を直接確認。全巻・影印校合は未実施）"
     "url": "https://zh.wikisource.org/zh-hant/欽定古今圖書集成/博物彙編/草木典/第080卷"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch87-primary-1500526"
+    "title": "中文維基文庫 西遊記 第087回 固定版1500526（全225表示行を直接取得、固定版は変換なし表示）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第087回&oldid=1500526"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch87-titian-idiom"
+    "title": "教育部 重編國語辭典修訂本 踢天弄井（表示本文で神通の慣用句を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=51806&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch87-guada-meaning"
+    "title": "教育部 國語辭典簡編本 掛搭（表示本文で旅僧の寺への寄住を確認）"
+    "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=16900&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch87-kata-reading"
+    "title": "両忘活人禅会 禅の用語 掛搭（表示本文でかとう・かたを確認）"
+    "url": "https://ryobo.org/whatis/indexCs.php"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch87-ji-illustrated"
+    "title": "本草図譜 稷 開放博物館公開翻刻（農業部林業試験所資料、表示翻刻でしょくを確認、画像実見は未実施）"
+    "url": "https://openmuseum.tw/muse/digi_object/1ede0a5ad3a7ed72c74fe9aefa7beafd"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch87-ji-dictionary"
+    "title": "平凡社 世界大百科事典 稷（コトバンク表示本文で穀物種の異説を確認）"
+    "url": "https://kotobank.jp/word/稷-1175357"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch87-yushu-scripture"
+    "title": "九天應元雷聲普化天尊玉樞寶經（維基文庫表示本文末尾で九天応元府と三使者の役名を確認）"
+    "url": "https://zh.wikisource.org/zh-hant/玉樞經"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch87-marshal-study"
+    "title": "道教・民間信仰における元帥神の変容（関西大学公開PDFの検索表示p25で四将と閃電娘子を確認。PDF直接取得は429で未成功）"
+    "url": "https://kansai-u.repo.nii.ac.jp/record/13054/files/KU-0150-20061001-02.pdf"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -9546,6 +9578,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "公開資料でこの表記全体の慣用日本語読みを確定できず、日本語の音訓・語構成と本文の文脈から推定した。"
+      - "id": "xy-ch87-qiu-hong-variant-form"
+        "text": "丘洪済"
+        "relation": "variant"
+        "reading":
+          "kana": "きゅうこうさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "玉帝の四天師として丘洪濟と明記され、既知の丘弘済と同じ人物の底本異表記。通常名と既存読みを変更しない。この異表記全体の仮名資料は未確認。"
   - "id": "xy-entry-0244"
     "kind": "place"
     "headword": "通明殿"
@@ -18983,6 +19024,16 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-ch87-nine-heavens-thunder-office-form"
+        "text": "九天応元府"
+        "relation": "alias"
+        "reading":
+          "kana": "きゅうてんおうげんふ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+            - "xy-ch87-yushu-scripture"
+          "reason_ja": "雷神を借りる先で、雷部の天尊と官将が置かれる府として本文が説明する。同じ雷の役所を指す雷府の固有呼称と判断。玉樞寶經の表示本文でも天尊自身が統べる府と記す。全語仮名資料は未確認。"
   - "id": "xy-entry-0698"
     "kind": "person"
     "headword": "雷将"
@@ -19244,6 +19295,15 @@
             - "xy-ch77-vulture-peak"
             - "xy-ch77-primary-1455626"
           "reason_ja": "鷲峰会公式の検索表示でじゅほうかいと仮名を示し、鷲峰を霊鷲山と説明する。地名部分の読みとして採る。直接ページ取得は403で、検索表示のみの根拠。"
+      - "id": "xy-ch87-lingjiu-peak-form"
+        "text": "霊鷲峰"
+        "relation": "alias"
+        "reading":
+          "kana": "りょうじゅほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "道を詠む冒頭の霊鷲の峰は、既存の霊山・霊鷲山・鷲峰と同じ仏教の聖山を表す。旧語形とその読みを保持し、新語形全体の仮名は未確認なので漢字音による。"
   - "id": "xy-entry-0710"
     "kind": "term"
     "headword": "勝境"
@@ -19321,6 +19381,15 @@
           "source_ids":
             - "xy-ch31-primary"
           "reason_ja": "日本語の漢字音と語構成による読み。語形全体の日本語仮名を直接明記する資料は未確認。"
+      - "id": "xy-ch87-lingshan-leiyin-form"
+        "text": "霊山大雷音寺"
+        "relation": "alias"
+        "reading":
+          "kana": "れいざんだいらいおんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "悟空が如来の住む山と寺を明示しており、旧雷音宝刹・大雷音寺と同じ寺。地名を冠した複合形として追加。全語仮名資料は未確認。"
   - "id": "xy-entry-0712"
     "kind": "person"
     "headword": "四金剛"
@@ -21408,6 +21477,15 @@
           "source_ids":
             - "xy-reference-214"
           "reason_ja": "中島敦「悟浄出世」が同一表記全体に日本語の読みを明示している。"
+      - "id": "xy-ch87-great-tianzhu-form"
+        "text": "大天竺国"
+        "relation": "alias"
+        "reading":
+          "kana": "だいてんじくこく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "鳳仙郡の掲示の国名で、天竺国に尊大な接頭語を加えた同一国。日本語読みの全語資料は未確認。"
   - "id": "xy-entry-0819"
     "kind": "concept"
     "headword": "霊亀"
@@ -28108,6 +28186,16 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "本文の語形「電母」を日本語の通常の漢字音訓・語構成から「でんぼ」と読む推定。当該表記と文脈の読みを明記する信頼資料は今回未確認。"
+      - "id": "xy-ch87-lightning-lady-form"
+        "text": "閃電娘子"
+        "relation": "alias"
+        "reading":
+          "kana": "せんでんじょうし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+            - "xy-ch87-marshal-study"
+          "reason_ja": "雷部官将とともに稲妻を操る女神の呼称で、既存の電母の役割と一致するものと判断。関西大学公開研究の検索表示p25も閃電娘子を雷母にあたると記すが、PDF本文の直接取得は429で未成功。個別の出自・婚姻関係は補わない。全語仮名資料は未確認で漢字音から読む。"
   - "id": "xy-entry-1152"
     "kind": "term"
     "headword": "申の刻"
@@ -32759,12 +32847,13 @@
   - "id": "xy-entry-1393"
     "kind": "concept"
     "headword": "法身"
-    "definition_ja": "仏の真実の身。本来は仏の本体たる真理を表す語。"
+    "definition_ja": "仏の真実の身。本来は仏の本体たる真理を表す語。 物語では、術によって現す変化の身にも用いる。"
     "definition_evidence":
       "status": "estimated"
       "source_ids":
         - "xy-reference-321"
-      "reason_ja": "固定原文の役割・人物関係と語義を照合した説明。"
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "固定原文の役割・人物関係と語義を照合した説明。 八戒が米と粉を食べ尽くすために「變出法身來」と提案する原文に基づき、術で現す身という物語的用法を追記した。実際に変化を行ったとはしない。旧来の仏教の本義・根拠・推定状態と全語形・読みを保持する。"
     "forms":
       - "id": "xy-form-1608"
         "text": "法身"
@@ -49517,6 +49606,15 @@
             - "xy-ch70-primary-1455619"
             - "xy-ch70-dao-gang"
           "reason_ja": "北斗とその運行に結び付く罡の複合形。日本語読みは漢字音から採る。三十六変化の数義を持つ既存の天罡とは区別。"
+      - "id": "xy-ch87-gangdou-form"
+        "text": "罡斗"
+        "relation": "alias"
+        "reading":
+          "kana": "こうと"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "竜を呼ぶ儀礼の位置から出る文脈で、北斗をかたどる罡の歩み・配置の複合形と解する。別の星神の斗・容量の斗ではない。漢字音による読みで細かな歩法と全語仮名は未確認。"
   - "id": "xy-ch44-couplet"
     "kind": "term"
     "headword": "対聯"
@@ -50051,6 +50149,16 @@
           "source_ids":
             - "xy-ch45-waseda-thunder-deity"
           "reason_ja": "早稲田大学図書館書誌がkyūten ōgen raisei fuke tensonと日本語読みを明記するため、その読みを仮名にした。"
+      - "id": "xy-ch87-thunder-venerable-short-form"
+        "text": "天尊"
+        "relation": "short_form"
+        "reading":
+          "kana": "てんそん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+            - "xy-ch87-yushu-scripture"
+          "reason_ja": "九天応元府の主として雷部官将を遣わす同じ高位神の短称。玉帝の尊称や一般称号の天尊とは文脈を区別し、新たな本名を訳文や語釈に先取りしない。玉樞寶經の表示本文でも九天応元府を統べる天尊との関係を確認。全語仮名の独立資料は未確認。"
   - "id": "xy-ch45-martial-hall"
     "kind": "place"
     "headword": "演武庁"
@@ -68945,4 +69053,366 @@
           "status": "estimated"
           "source_ids":
             - "xy-ch86-primary-1500525"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-fengxian-prefecture"
+    "kind": "place"
+    "headword": "鳳仙郡"
+    "definition_ja": "天竺国の外郡の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "役人の地名説明と掲示から、天竺国の外郡であることを確認。旧辞書の地名・旧新字体を照合して同郡の登録なし。"
+    "forms":
+      - "id": "xy-ch87-fengxian-prefecture-form"
+        "text": "鳳仙郡"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうせんぐん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch87-fengxian-wind-variant-form"
+        "text": "風仙"
+        "relation": "variant"
+        "reading":
+          "kana": "ふうせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "郡侯が自分の外郡を述べる詩の同一地名の異表記。鳳を風へ統一せず原字を残す。読みは漢字音により全語仮名資料は未確認。"
+      - "id": "xy-ch87-fengxian-short-form"
+        "text": "鳳仙"
+        "relation": "short_form"
+        "reading":
+          "kana": "ほうせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-prefect-title"
+    "kind": "title"
+    "headword": "郡侯"
+    "definition_ja": "郡を治める地方長官への呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "役人を使い、行政と民の救済を担当する文脈。古代の爵位一般と一律同一視しない。"
+    "forms":
+      - "id": "xy-ch87-prefect-title-form"
+        "text": "郡侯"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぐんこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-shangguan-prefect"
+    "kind": "person"
+    "headword": "上官"
+    "definition_ja": "鳳仙郡を治める郡侯の姓。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "役人が上官は郡侯の姓だと説明し、本人も上官氏と名乗る。上官正という本名は確定しない。"
+    "forms":
+      - "id": "xy-ch87-shangguan-prefect-form"
+        "text": "上官"
+        "relation": "preferred"
+        "reading":
+          "kana": "じょうかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-ouyang-surname"
+    "kind": "term"
+    "headword": "欧陽"
+    "definition_ja": "中国の二字からなる姓。百家姓にも掲げられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "八戒が姓の書物に上官と並ぶものとして引用。特定の欧陽姓の人物を指さない。"
+    "forms":
+      - "id": "xy-ch87-ouyang-surname-form"
+        "text": "欧陽"
+        "relation": "preferred"
+        "reading":
+          "kana": "おうよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-rain-department"
+    "kind": "concept"
+    "headword": "雨部"
+    "definition_ja": "降雨を担当する天界の部署。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "竜王の説明と四部の列挙に基づく部署名。竜王個人とは別の概念。"
+    "forms":
+      - "id": "xy-ch87-rain-department-form"
+        "text": "雨部"
+        "relation": "preferred"
+        "reading":
+          "kana": "うぶ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-water-official"
+    "kind": "title"
+    "headword": "水官"
+    "definition_ja": "水に関わる天界の官。竜を出す役割を持つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "敖広が天の旨を受けて竜を出す官と述べる。三官の一神、水徳星君、黄河の水伯と同一神かは本文から確定しない。"
+    "forms":
+      - "id": "xy-ch87-water-official-form"
+        "text": "水官"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-protect-country-west-king"
+    "kind": "person"
+    "headword": "護国天王"
+    "definition_ja": "西天門で天兵らを率い、悟空を迎える天王の呼び名。北天門・南天門の同称号の神との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "西天門という場所、天兵を率いる役割と護國天王という呼称を本文で確認。他門の同表記の二項目と持国天を照合し、同一性が確定しないため西天門の役割に限定。"
+    "forms":
+      - "id": "xy-ch87-protect-country-west-king-form"
+        "text": "護国天王"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごこくてんのう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-talisman-messenger"
+    "kind": "person"
+    "headword": "直符使者"
+    "definition_ja": "僧や道士の文書を天界へ運ぶ神の使者。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "文書を捧げ持って天門へ来て、天師を通じ玉帝へ送ると本人が説明する。直符・值符などの候補を検索して同役割の既存項目なし。"
+    "forms":
+      - "id": "xy-ch87-talisman-messenger-form"
+        "text": "直符使者"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょくふししゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-thunder-gate-envoy"
+    "kind": "title"
+    "headword": "雷門使者"
+    "definition_ja": "九天応元府で来訪者を迎え、取り次ぐ使者の役名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "糾録典者・廉訪典者と共同で悟空を迎え、天尊へ取り次ぐ。固有の本名や他の雷使者との同一性は未確定。"
+    "forms":
+      - "id": "xy-ch87-thunder-gate-envoy-form"
+        "text": "雷門使者"
+        "relation": "preferred"
+        "reading":
+          "kana": "らいもんししゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-thunder-record-official"
+    "kind": "title"
+    "headword": "糾録典者"
+    "definition_ja": "九天応元府に属する官の役名。糾察・記録に関わる名と解される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "三使者の一人として迎接と取次ぎをする。役名の細かな職制・個人名は本文に明示がなく限定しない。"
+    "forms":
+      - "id": "xy-ch87-thunder-record-official-form"
+        "text": "糾録典者"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうろくてんしゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-thunder-inspect-official"
+    "kind": "title"
+    "headword": "廉訪典者"
+    "definition_ja": "九天応元府に属する官の役名。巡察・調査に関わる名と解される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "三使者の一人として迎接と取次ぎをする。世俗の廉訪使と同じ制度と断定せず、役割の細部は留保。"
+    "forms":
+      - "id": "xy-ch87-thunder-inspect-official-form"
+        "text": "廉訪典者"
+        "relation": "preferred"
+        "reading":
+          "kana": "れんぽうてんしゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-wind-department"
+    "kind": "concept"
+    "headword": "風部"
+    "definition_ja": "風を担当する天界の部署。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "玉帝の命令と四部の列挙で確認。風伯という個々の神の呼称とは別。"
+    "forms":
+      - "id": "xy-ch87-wind-department-form"
+        "text": "風部"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふうぶ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-cloud-department"
+    "kind": "concept"
+    "headword": "雲部"
+    "definition_ja": "雲を担当する天界の部署。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "玉帝の命令と四部の列挙で確認。雲童という神と部署の概念は区別。"
+    "forms":
+      - "id": "xy-ch87-cloud-department-form"
+        "text": "雲部"
+        "relation": "preferred"
+        "reading":
+          "kana": "うんぶ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-rain-point"
+    "kind": "term"
+    "headword": "点"
+    "definition_ja": "物語で雨量の端数を表す際に使われる単位。実際の長さや換算率は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "三尺零四十二點という降雨命令と実際の降雨の反復から採る。既存の三尺三寸四十八点は別の指定雨量の全句であり、この単位だけの同一語形ではない。"
+    "forms":
+      - "id": "xy-ch87-rain-point-form"
+        "text": "点"
+        "relation": "preferred"
+        "reading":
+          "kana": "てん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-ji-grain"
+    "kind": "term"
+    "headword": "稷"
+    "definition_ja": "中国の古い穀物名。粟・ウルチキビ・高粱などに当てる異説があり、単一の現代種へ限定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+        - "xy-ch87-ji-dictionary"
+      "reason_ja": "黍と並ぶ穀物名。平凡社の辞書で種の異説を確認し、本草図譜公開翻刻でしょくの仮名を確認。穀神や国家をいう社稷とは別義。"
+    "forms":
+      - "id": "xy-ch87-ji-grain-form"
+        "text": "稷"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょく"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch87-ji-illustrated"
+          "reason_ja": "表示本文で、この語形の日本語仮名を確認。中国語音の換算ではない。"
+  - "id": "xy-ch87-monastic-lodging"
+    "kind": "term"
+    "headword": "掛搭"
+    "definition_ja": "旅の僧が寺にとどまり、宿を取って修行すること。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+        - "xy-ch87-guada-meaning"
+      "reason_ja": "教育部辞典は遊方僧が寺に寄住することと説明。日本語の仮名は両忘活人禅会の用語集で確認。"
+    "forms":
+      - "id": "xy-ch87-monastic-lodging-form"
+        "text": "掛搭"
+        "relation": "preferred"
+        "reading":
+          "kana": "かた"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch87-kata-reading"
+          "reason_ja": "表示本文で、この語形の日本語仮名を確認。中国語音の換算ではない。"
+  - "id": "xy-ch87-sweet-rain-temple"
+    "kind": "place"
+    "headword": "甘霖普済寺"
+    "definition_ja": "鳳仙郡に建てられ、三蔵が名づけた寺。恵みの雨があまねく救うという意味を表す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "新寺を見た場面で三蔵自身が寺号を決める。ほかの普済を含む寺や一般概念と区別する。"
+    "forms":
+      - "id": "xy-ch87-sweet-rain-temple-form"
+        "text": "甘霖普済寺"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんりんふさいじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch87-gold-invitation"
+    "kind": "object"
+    "headword": "金貼"
+    "definition_ja": "僧を招くための文書と解される語。装飾・材質や金銭との関係は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch87-primary-1500526"
+      "reason_ja": "用金貼廣招僧眾という文脈により、金帖に関わる招請文書と解した。原字を保持し、具体的形状と字義の細部は留保する。"
+    "forms":
+      - "id": "xy-ch87-gold-invitation-form"
+        "text": "金貼"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch87-primary-1500526"
           "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
