@@ -2750,6 +2750,38 @@
     "title": "漢典「金銮（金鑾）」。金銮殿・帝王の正殿を指す語義。独立レビューでページ本文を取得。"
     "url": "https://zdic.net/hans/金銮"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch59-primary-1455608"
+    "title": "中文維基文庫 西遊記 第059回（現行取得、フッター識別版1455608）"
+    "url": "https://zh.wikisource.org/zh-hant/西遊記/第059回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch59-jodo-hossho"
+    "title": "新纂浄土宗大辞典「法性」"
+    "url": "https://jodoshuzensho.jp/daijiten/index.php/法性"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch59-moe-shenyi"
+    "title": "教育部 重編國語辭典修訂本「深衣」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=131313&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch59-kotobank-shin-i"
+    "title": "精選版日本国語大辞典・改訂新版世界大百科事典「深衣」（コトバンク掲載）"
+    "url": "https://kotobank.jp/word/深衣-1176093"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch59-moe-bai"
+    "title": "教育部 異體字字典「\U00022BCC」"
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=58968"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch59-shidian-bai"
+    "title": "識典古籍「\U00022BCC」古籍用例"
+    "url": "https://www.shidianguji.com/character/\U00022BCC"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch59-zdic-weng"
+    "title": "漢典「䩺」"
+    "url": "https://www.zdic.net/hant/䩺"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch59-moe-souhua"
+    "title": "教育部 重編國語辭典修訂本「溲話」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=144235&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -4548,6 +4580,15 @@
           "source_ids":
             - "xy-ch44-primary-1455593"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch59-peng-island-form"
+        "text": "蓬島"
+        "relation": "short_form"
+        "reading":
+          "kana": "ほうとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "蓬莱を縮めた蓬と島の漢音による読み。詩中の海上仙境の呼称として採用。"
   - "id": "xy-term-078"
     "kind": "place"
     "headword": "瀛洲"
@@ -7388,6 +7429,24 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch59-mighty-bull-king-form"
+        "text": "大力牛魔王"
+        "relation": "title"
+        "reading":
+          "kana": "だいりきぎゅうまおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
+      - "id": "xy-ch59-mighty-king-form"
+        "text": "大力王"
+        "relation": "short_form"
+        "reading":
+          "kana": "だいりきおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
   - "id": "xy-entry-0215"
     "kind": "person"
     "headword": "蛟魔王"
@@ -44587,6 +44646,24 @@
           "source_ids":
             - "xy-ch40-primary-1808481"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+      - "id": "xy-ch59-iron-fan-immortal-form"
+        "text": "鉄扇仙"
+        "relation": "title"
+        "reading":
+          "kana": "てっせんせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "鉄扇の通常音テッセンと仙センによる推定。語形全体の日本語仮名を示す資料は未確認。"
+      - "id": "xy-ch59-iron-fan-princess-form"
+        "text": "鉄扇公主"
+        "relation": "title"
+        "reading":
+          "kana": "てっせんこうしゅ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
   - "id": "xy-ch40-flame-mountain"
     "kind": "place"
     "headword": "火焔山"
@@ -53137,3 +53214,274 @@
             - "xy-ch58-zenzai-reading"
             - "xy-ch58-primary-1455607"
           "reason_ja": "大辞泉と日本国語大辞典の感動詞の見出しにぜんざいと明記。"
+  - "id": "xy-ch59-gotra"
+    "kind": "concept"
+    "headword": "種性"
+    "definition_ja": "修行者が本来備える素質・性質。ここではさまざまな種性が根本で一つだとする詩の語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch59-primary-1455608"
+      "reason_ja": "仏教の素質・性向をいう語と読み、冒頭詞の「本來同」「法性」と関連づける。学派ごとの分類までは断定しない。"
+    "forms":
+      - "id": "xy-ch59-gotra-form"
+        "text": "種性"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
+  - "id": "xy-ch59-dharmata"
+    "kind": "concept"
+    "headword": "法性"
+    "definition_ja": "物事の本来のあり方、根本的な性質。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch59-jodo-hossho"
+      "reason_ja": "浄土宗の辞典の語義を確認。本篇の内丹と仏教を重ねる詩の解釈と、宗派の教義全体とは区別する。"
+    "forms":
+      - "id": "xy-ch59-dharmata-form"
+        "text": "法性"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほっしょう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch59-jodo-hossho"
+          "reason_ja": "見出しの「ほっしょう／法性」を確認。"
+  - "id": "xy-ch59-sihali-state"
+    "kind": "place"
+    "headword": "斯哈哩国"
+    "definition_ja": "八戒が日没の場所、天の果てだと語る国。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch59-primary-1455608"
+      "reason_ja": "八戒の説明に現れる国名。語り手が現実の地理や日没現象として保証したとはしない。"
+    "forms":
+      - "id": "xy-ch59-sihali-state-form"
+        "text": "斯哈哩国"
+        "relation": "preferred"
+        "reading":
+          "kana": "しかりこく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
+  - "id": "xy-ch59-three-lives"
+    "kind": "concept"
+    "headword": "三生"
+    "definition_ja": "三度の生涯、三たび生まれて生きること。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch59-primary-1455608"
+      "reason_ja": "老人からまた子供へ戻るという悟空の誇張に伴う語。一般的な過去・現在・未来の三世へ固定しない。"
+    "forms":
+      - "id": "xy-ch59-three-lives-form"
+        "text": "三生"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
+  - "id": "xy-ch59-shenyi"
+    "kind": "object"
+    "headword": "深衣"
+    "definition_ja": "上衣と下の裳をつなげ、足首ほどまで全身を覆う古い衣服。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch59-moe-shenyi"
+        - "xy-ch59-kotobank-shin-i"
+      "reason_ja": "教育部辞典と日本語辞典の形態説明を確認。本文の葛布という材質は本文側に保持。"
+    "forms":
+      - "id": "xy-ch59-shenyi-form"
+        "text": "深衣"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch59-kotobank-shin-i"
+          "reason_ja": "日本国語大辞典と世界大百科事典の見出し「しんい」を検索表示で確認。"
+  - "id": "xy-ch59-rare-shoes"
+    "kind": "object"
+    "headword": "\U00022BCC靸䩺鞋"
+    "definition_ja": "老人が履く靴を表す珍しい表記。つっかけ状に履く靴と解されるが、各字の働きと具体的な形には留保がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch59-primary-1455608"
+        - "xy-ch59-moe-bai"
+        - "xy-ch59-shidian-bai"
+        - "xy-ch59-zdic-weng"
+      "reason_ja": "\U00022BCCは掰・㧳の異体との資料、古籍用例、䩺の靴筒・綿靴の語義を確認した。ただし複合語の確かな語釈は得られず、原字を保持。"
+    "forms":
+      - "id": "xy-ch59-rare-shoes-form"
+        "text": "\U00022BCC靸䩺鞋"
+        "relation": "preferred"
+        "reading":
+          "kana": "はいそうおうあい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-moe-bai"
+            - "xy-ch59-zdic-weng"
+          "reason_ja": "\U00022BCCを掰の異体とする資料によりハイ、靸をソウ、䩺を翁と同音のオウ、鞋をアイとする音の組合せで仮に読む。語形全体の日本語読みは未確認。"
+  - "id": "xy-ch59-cuiyun-mountain"
+    "kind": "place"
+    "headword": "翠雲山"
+    "definition_ja": "鉄扇仙が住むと老人の教える、西南にある山。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch59-primary-1455608"
+      "reason_ja": "本文の紹介・具体的な発言や動作を確認した範囲。後の経歴や結末を補わない。"
+    "forms":
+      - "id": "xy-ch59-cuiyun-mountain-form"
+        "text": "翠雲山"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいうんざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
+  - "id": "xy-ch59-banana-cave"
+    "kind": "place"
+    "headword": "芭蕉洞"
+    "definition_ja": "翠雲山にある仙人の洞穴。鉄扇仙を訪ねる先として紹介される。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch59-primary-1455608"
+      "reason_ja": "本文の紹介・具体的な発言や動作を確認した範囲。後の経歴や結末を補わない。"
+    "forms":
+      - "id": "xy-ch59-banana-cave-form"
+        "text": "芭蕉洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばしょうどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
+  - "id": "xy-ch59-rakshasa-fan"
+    "kind": "object"
+    "headword": "芭蕉扇"
+    "definition_ja": "鉄扇仙と呼ばれる女性が持ち、火焔山の火を消せるとされる扇。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch59-primary-1455608"
+      "reason_ja": "当地の菓子売りが説明し、後に羅刹女が使う宝と確認される。太上老君に由来する同形名の扇との同一性は示されないので別項目とする。偽物の個別同定は本文の開示に従う。"
+    "forms":
+      - "id": "xy-ch59-rakshasa-fan-form"
+        "text": "芭蕉扇"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばしょうせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
+  - "id": "xy-ch59-sea-immortal-realm"
+    "kind": "place"
+    "headword": "海瀛"
+    "definition_ja": "海上の仙境を表す詩的な呼び方。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch59-primary-1455608"
+      "reason_ja": "蓬島と対置する山水詩の表現から解する。瀛洲に関連する可能性があるが、本篇のみでは特定の島との同一性を断定しない。"
+    "forms":
+      - "id": "xy-ch59-sea-immortal-realm-form"
+        "text": "海瀛"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいえい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
+  - "id": "xy-ch59-yuepo"
+    "kind": "term"
+    "headword": "月婆"
+    "definition_ja": "羅刹女の凶相の比較対象として詩に現れる呼称。何を指すかは確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch59-primary-1455608"
+      "reason_ja": "底本の月婆を保存。他版の月孛や俗称の月の女神などへ無断で同定・改字しない。"
+    "forms":
+      - "id": "xy-ch59-yuepo-form"
+        "text": "月婆"
+        "relation": "preferred"
+        "reading":
+          "kana": "げつば"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
+  - "id": "xy-ch59-taiyin-essence"
+    "kind": "concept"
+    "headword": "太陰"
+    "definition_ja": "陰陽のうち、陰の極まったものや月に関わる精気。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch59-primary-1455608"
+      "reason_ja": "芭蕉扇が太陰之精葉で火を消すという霊吉の説明。神格化された月の女神の固有名とは分け、精気の概念として扱う。"
+    "forms":
+      - "id": "xy-ch59-taiyin-essence-form"
+        "text": "太陰"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいいん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
+  - "id": "xy-ch59-seated-bowl"
+    "kind": "term"
+    "headword": "坐碗"
+    "definition_ja": "碗で出す飲み物や汁物に見立て、相手を座り込ませる腹中の蹴りを呼んだ語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch59-primary-1455608"
+      "reason_ja": "渇きを癒やすとの言葉に続き足を踏み下ろし、羅刹女が座り込む本文の戯れを保つ。特定の料理や器形の確定は留保。"
+    "forms":
+      - "id": "xy-ch59-seated-bowl-form"
+        "text": "坐碗"
+        "relation": "preferred"
+        "reading":
+          "kana": "ざわん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
+  - "id": "xy-ch59-dim-sum-pun"
+    "kind": "term"
+    "headword": "点心"
+    "definition_ja": "軽い食べ物の名。ここでは胸の内を突く動作と重ねた言葉遊び。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch59-primary-1455608"
+      "reason_ja": "空腹を満たすと言いつつ頭で上へ突き、心痛を起こす本文から、食べ物と胸への攻撃の掛詞として解する。"
+    "forms":
+      - "id": "xy-ch59-dim-sum-pun-form"
+        "text": "点心"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch59-primary-1455608"
+          "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
