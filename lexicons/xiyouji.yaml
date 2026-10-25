@@ -3346,6 +3346,34 @@
     "title": "半自動詞彙擷取：簡化的詞夾子方法及其JavaScript元件（検索表示：悶棍）"
     "url": "https://docusky.org.tw/Paper/DADH2015_TermClipper/paper.pdf"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch71-repentance"
+    "title": "小学館デジタル大辞泉 懺悔（検索表示の仏教語さんげ）"
+    "url": "https://kotobank.jp/word/懺悔-70615"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch71-primary-1455620"
+    "title": "中文維基文庫 西遊記 第071回 固定版1455620（固定URL本文取得成功）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第071回&oldid=1455620"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch71-zhang-cinii"
+    "title": "CiNii Books 張伯端 著者典拠（検索表示。直接openはCache miss）"
+    "url": "https://ci.nii.ac.jp/author/DA08050964"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch71-borneol"
+    "title": "小学館デジタル大辞泉ほか 竜脳（コトバンク公開本文）"
+    "url": "https://kotobank.jp/word/竜脳-149766"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch71-thousand"
+    "title": "奈良国立博物館 正倉院展用語解説 千字文"
+    "url": "https://shosointen-glossary.narahaku.go.jp/senjimon/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch71-qianzi-text"
+    "title": "中文維基文庫 千字文 外受傅訓"
+    "url": "https://zh.wikisource.org/wiki/千字文"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch71-waigong"
+    "title": "教育部台湾台語常用詞辞典 外公"
+    "url": "https://sutian.moe.edu.tw/zh-hant/su/1428/"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -4699,6 +4727,15 @@
           "source_ids":
             - "xy-ch52-primary-1498137"
           "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch71-xuanqiong-emperor-form"
+        "text": "玄穹帝"
+        "relation": "title"
+        "reading":
+          "kana": "げんきゅうてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
   - "id": "xy-term-053"
     "kind": "place"
     "headword": "霊霄宝殿"
@@ -5838,6 +5875,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "九重きゅうちょう、天上てんじょうの通常の字音を組み合わせた推定。複合表現全体の慣用読みは未確認。"
+      - "id": "xy-ch71-nine-heavens-form"
+        "text": "九天"
+        "relation": "alias"
+        "reading":
+          "kana": "きゅうてん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
   - "id": "xy-vocab-106"
     "kind": "concept"
     "headword": "仏教"
@@ -13264,6 +13310,15 @@
           "source_ids":
             - "xy-ch52-primary-1498137"
           "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch71-taiqing-immortal-lord-form"
+        "text": "太清仙君"
+        "relation": "title"
+        "reading":
+          "kana": "たいせいせんくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0476"
     "kind": "person"
     "headword": "燃灯古仏"
@@ -25211,6 +25266,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "本文の語義に合わせ、構成字の日本語音訓から「がいそふ」と推定。調査ではこの語全体の日本語読みを明記する信頼できる資料を確認できていない。"
+      - "id": "xy-ch71-maternal-grandfather-form"
+        "text": "外公"
+        "relation": "alias"
+        "reading":
+          "kana": "がいこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-1050"
     "kind": "term"
     "headword": "逆賊"
@@ -59213,6 +59277,15 @@
           "source_ids":
             - "xy-ch68-primary-1455617"
           "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch71-yao-terrace-variant-form"
+        "text": "瑤台"
+        "relation": "variant"
+        "reading":
+          "kana": "ようだい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
   - "id": "xy-ch68-zhuzi-state"
     "kind": "place"
     "headword": "朱紫国"
@@ -60482,6 +60555,24 @@
           "source_ids":
             - "xy-ch70-primary-1455619"
           "reason_ja": "王の詩で既知の賽太歳を短く呼ぶ。太歳神そのものとは別の指示対象。漢字音から読みを採用。"
+      - "id": "xy-ch71-golden-haired-hou-form"
+        "text": "金毛犼"
+        "relation": "alias"
+        "reading":
+          "kana": "こんもうこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch71-hou-short-form"
+        "text": "犼"
+        "relation": "short_form"
+        "reading":
+          "kana": "こう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
   - "id": "xy-ch69-qilin-mountain"
     "kind": "place"
     "headword": "麒麟山"
@@ -61052,3 +61143,297 @@
           "source_ids":
             - "xy-ch70-kangxi-ba"
           "reason_ja": "康熙字典の邦加切・音巴と、日本語の巴の音ハから推定。日本語仮名を直接示す資料による独立確認は未実施。"
+  - "id": "xy-ch71-chunjiao"
+    "kind": "person"
+    "headword": "春嬌"
+    "definition_ja": "金聖宮に仕える侍女の名。玉のように白い顔の狐。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch71-primary-1455620"
+      "reason_ja": "呼び出しに応じて出てきた玉面狐狸が、自分を春嬌と名乗る。摩雲洞の玉面公主と同一人物にはしない。"
+    "forms":
+      - "id": "xy-ch71-chunjiao-form"
+        "text": "春嬌"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅんきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch71-borneol"
+    "kind": "term"
+    "headword": "竜脳"
+    "definition_ja": "リュウノウジュから得る、芳香の強い香料。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch71-borneol"
+      "reason_ja": "公開辞書本文で香料としての意味を確認。本文の腦麝を竜脳と麝香と解した。"
+    "forms":
+      - "id": "xy-ch71-borneol-form"
+        "text": "竜脳"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうのう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch71-borneol"
+          "reason_ja": "公開本文にリュウノウ・りゅうのうと明示。"
+  - "id": "xy-ch71-sleep-insect"
+    "kind": "object"
+    "headword": "眠り虫"
+    "definition_ja": "鼻の穴に入って相手を眠らせる、物語中の虫。瞌睡蟲の意訳。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch71-primary-1455620"
+      "reason_ja": "本文で鼻に入り眠らせる作用を明示。実在の昆虫種へは同定しない。"
+    "forms":
+      - "id": "xy-ch71-sleep-insect-form"
+        "text": "眠り虫"
+        "relation": "preferred"
+        "reading":
+          "kana": "ねむりむし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch71-hundred-surnames"
+    "kind": "object"
+    "headword": "百家姓"
+    "definition_ja": "中国の姓を列記した、初学者向けの書物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch71-primary-1455620"
+      "reason_ja": "賽太歳が姓を探す書物として挙げる。書名の一般的な漢字音から読みを推定。"
+    "forms":
+      - "id": "xy-ch71-hundred-surnames-form"
+        "text": "百家姓"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひゃっかせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch71-thousand-characters"
+    "kind": "object"
+    "headword": "千字文"
+    "definition_ja": "千の異なる漢字を四字句にまとめた、識字や習字のための書物。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch71-thousand"
+        - "xy-ch71-qianzi-text"
+      "reason_ja": "固定版本文の用語と文脈・役割から判断。語りが明かさない事項は補わない。"
+    "forms":
+      - "id": "xy-ch71-thousand-characters-form"
+        "text": "千字文"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんじもん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch71-thousand"
+          "reason_ja": "奈良国立博物館の用語解説がせんじもんと明示。"
+  - "id": "xy-ch71-xuanhua-saitaisui"
+    "kind": "object"
+    "headword": "宣花鉞斧"
+    "definition_ja": "賽太歳が悟空との戦いに用いる、宣花と呼ばれる大斧。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch71-primary-1455620"
+      "reason_ja": "本人が持ち出して戦う描写に基づく。同じ型を示す宣花斧は既存にあるが、巨霊神の特定の武器という定義であり、所有物の同一性を確認できないため統合しない。"
+    "forms":
+      - "id": "xy-ch71-xuanhua-saitaisui-form"
+        "text": "宣花鉞斧"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんかえつふ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch71-xuanhua-short-form"
+        "text": "宣花斧"
+        "relation": "short_form"
+        "reading":
+          "kana": "せんかふ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch71-lingchi"
+    "kind": "term"
+    "headword": "凌遅"
+    "definition_ja": "体の肉を切り刻んで死に至らせる刑罰。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch71-primary-1455620"
+      "reason_ja": "悟空の自叙詩にいう罪罰。殺斬災と併記され、肉刑の含意を残す。"
+    "forms":
+      - "id": "xy-ch71-lingchi-form"
+        "text": "凌遅"
+        "relation": "preferred"
+        "reading":
+          "kana": "りょうち"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch71-taiqing"
+    "kind": "term"
+    "headword": "太清"
+    "definition_ja": "道教の高位の天界、また太上老君に関わる呼称。兜率院を修飾する用例では、場所か尊称かを限定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch71-primary-1455620"
+      "reason_ja": "太清兜率院の語構成。地上の老子の宮観名である太清宮と同一施設にせず、仙君という明確な尊称とも分けて留保する。"
+    "forms":
+      - "id": "xy-ch71-taiqing-form"
+        "text": "太清"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch71-jade-dragon-terrace"
+    "kind": "place"
+    "headword": "玉竜台"
+    "definition_ja": "天宮にある玉竜の名を持つ台・高殿。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch71-primary-1455620"
+      "reason_ja": "悟空が天宮で攻め上がる場として自叙詩に述べる。既存の竜の人物である玉竜とは別義。"
+    "forms":
+      - "id": "xy-ch71-jade-dragon-terrace-form"
+        "text": "玉竜台"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくりゅうだい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch71-luofeng-slope"
+    "kind": "place"
+    "headword": "落鳳坡"
+    "definition_ja": "朱紫国の王が太子時代に狩りへ出た、山の斜面の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch71-primary-1455620"
+      "reason_ja": "観音の回想に出る地名。三国志など別作品の同名の地へ同定しない。"
+    "forms":
+      - "id": "xy-ch71-luofeng-slope-form"
+        "text": "落鳳坡"
+        "relation": "preferred"
+        "reading":
+          "kana": "らくほうは"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch71-peacock-bodhisattva"
+    "kind": "person"
+    "headword": "孔雀大明王菩薩"
+    "definition_ja": "西方の仏母と呼ばれる菩薩。雄雌二羽の孔雀のひなの母として語られる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch71-primary-1455620"
+      "reason_ja": "観音の回想が仏母と孔雀大明王菩薩を接続する。孔雀経という経典とは区別。"
+    "forms":
+      - "id": "xy-ch71-peacock-bodhisattva-form"
+        "text": "孔雀大明王菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "くじゃくだいみょうおうぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch71-buddha-mother-form"
+        "text": "仏母"
+        "relation": "title"
+        "reading":
+          "kana": "ぶつも"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch71-zhang-boduan"
+    "kind": "person"
+    "headword": "張伯端"
+    "definition_ja": "紫陽の号を持つ道教の人物。物語では仙人として現れる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch71-primary-1455620"
+        - "xy-ch71-zhang-cinii"
+      "reason_ja": "本人の名乗りと悟空の呼称を照合し、CiNii著者典拠の検索表示でも張伯端・張紫陽の別名関係を確認。直接openは失敗しており全文取得の証拠とはしない。"
+    "forms":
+      - "id": "xy-ch71-zhang-boduan-form"
+        "text": "張伯端"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうはくたん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch71-zhang-cinii"
+          "reason_ja": "CiNii著者典拠の検索表示にチョウ, ハクタンと明示。直接openはCache missで、検索表示による確認。"
+      - "id": "xy-ch71-zhang-ziyang-form"
+        "text": "張紫陽"
+        "relation": "alias"
+        "reading":
+          "kana": "ちょうしよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch71-ziyang-zhenren-form"
+        "text": "紫陽真人"
+        "relation": "alias"
+        "reading":
+          "kana": "しようしんじん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch71-purple-cloud-immortal-form"
+        "text": "紫雲仙"
+        "relation": "alias"
+        "reading":
+          "kana": "しうんせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch71-primary-1455620"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch71-repentance"
+    "kind": "concept"
+    "headword": "懺悔"
+    "definition_ja": "過去の罪や過ちを悔い、告白すること。仏教の儀礼や実践にもいう。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch71-repentance"
+      "reason_ja": "辞書で仏教の懺悔の語義を確認。ただし本文の佛母という行為主体や具体的儀礼には留保がある。"
+    "forms":
+      - "id": "xy-ch71-repentance-form"
+        "text": "懺悔"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんげ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch71-repentance"
+          "reason_ja": "公開辞書の検索表示が仏語さんげを明示。"
