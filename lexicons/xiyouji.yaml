@@ -4402,6 +4402,34 @@
     "title": "中文維基文庫 西遊記 第二十八回（既存正本の固定出典と回題を照合）"
     "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第028回&oldid=1455577"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch100-primary-1500545"
+    "title": "中文維基文庫 西遊記 第100回 固定版1500545（全216表示行を保存、固定リンク実取得）"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1500545&title=西遊記/第100回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch100-amida"
+    "title": "新纂浄土宗大辞典 阿弥陀仏（公開本文で無量寿仏との別名関係を確認）"
+    "url": "https://jodoshuzensho.jp/daijiten/index.php/阿弥陀仏"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch100-seishi"
+    "title": "新纂浄土宗大辞典 勢至菩薩（公開本文で大勢至の名と智慧・脇侍の語義を確認）"
+    "url": "https://jodoshuzensho.jp/daijiten/index.php/勢至菩薩"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch100-yakushi"
+    "title": "SAT大正新脩大蔵経 T0927（検索表示で薬師琉璃光王如来・仏の同称を確認）"
+    "url": "https://21dzk.l.u-tokyo.ac.jp/SAT/ddb-sat2.php?kaeri=1&mode=detail&nonum=1&useid=0927_,19,0056"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch100-gouri"
+    "title": "漢字ペディア 釐（公開本文で毫釐ゴウリと微小の語義を確認）"
+    "url": "https://www.kanjipedia.jp/kanji/0007094300"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch100-pingpo"
+    "title": "教育部 重編國語辭典修訂本 蘋婆（現代の食用種子の語義。古典の種同定には採用せず）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=26206&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch100-buddha-names"
+    "title": "SAT大正新脩大蔵経 T0409（検索・表示本文に現無愚・婆留那・才功徳等を確認。日本語仮名の実証ではない）"
+    "url": "https://21dzk.l.u-tokyo.ac.jp/SAT/ddb-sat2.php?kaeri=1&key=身長&mode=detail&nonum=1&useid=0409_,13,0678"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -5693,6 +5721,24 @@
           "source_ids":
             - "xy-ch84-primary-2597328"
           "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch100-victorious-fighting-form"
+        "text": "闘戦勝仏"
+        "relation": "title"
+        "reading":
+          "kana": "とうせんしょうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "如来が孫悟空本人へ汝為と直接授ける尊号。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+      - "id": "xy-ch100-fighting-short-form"
+        "text": "闘戦仏"
+        "relation": "short_form"
+        "reading":
+          "kana": "とうせんぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "授職後の列挙で闘戦勝仏を短く呼ぶ形。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -8961,6 +9007,15 @@
           "source_ids":
             - "xy-ch43-primary-1455592"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+      - "id": "xy-ch100-west-guangjin-king-form"
+        "text": "廣晉竜王"
+        "relation": "title"
+        "reading":
+          "kana": "こうしんりゅうおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "同じ白馬の父で西洋大海の竜王という役割・関係から西海竜王の項目へ接続。廣晉を敖閏へ置換せず、原字をformに残す。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-entry-0198"
     "kind": "person"
     "headword": "鼉の将軍"
@@ -14679,6 +14734,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "個人サイトに異なる読み「ねんこうこぶつ」があるが、慣用仏名「燃灯仏」の音読みに基づき「ねんとうこぶつ」と推定。全語形は未確認。"
+      - "id": "xy-ch100-ancient-lamp-form"
+        "text": "燃灯上古仏"
+        "relation": "alias"
+        "reading":
+          "kana": "ねんとうじょうこぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "既知の燃灯古仏を上古の仏と尊ぶ名。燃灯の固有名と古仏という役割が一致する。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-entry-0477"
     "kind": "place"
     "headword": "朱陵丹台"
@@ -19415,6 +19479,15 @@
           "source_ids":
             - "xy-ch98-primary-1500530"
           "reason_ja": "語り手が如来至尊の正式な仏号として続ける同じ如来の呼び名。文仏の字を原文どおり残す。 全語形の日本語仮名資料は未確認。"
+      - "id": "xy-ch100-sakyamuni-form"
+        "text": "釈迦牟尼仏"
+        "relation": "alias"
+        "reading":
+          "kana": "しゃかむにぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "如来の既存の釈迦の名の全称。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-entry-0688"
     "kind": "place"
     "headword": "双林"
@@ -21422,6 +21495,16 @@
           "source_ids":
             - "xy-ch81-primary-1455630"
           "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+      - "id": "xy-ch100-amitayus-form"
+        "text": "無量寿仏"
+        "relation": "alias"
+        "reading":
+          "kana": "むりょうじゅぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+            - "xy-ch100-amida"
+          "reason_ja": "新纂浄土宗大辞典の阿弥陀仏で無量寿仏という別名を確認。同じ阿弥陀仏のformへまとめる。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-entry-0787"
     "kind": "object"
     "headword": "花座"
@@ -22345,6 +22428,15 @@
           "source_ids":
             - "xy-ch44-primary-1455593"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch100-great-thousand-short-form"
+        "text": "大千"
+        "relation": "short_form"
+        "reading":
+          "kana": "だいせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "三千及大千と仏教的広大さを語る詩の語。大千世界を短く呼ぶ用法として接続し、三千の方を具体的な世界の数へ限定しない。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-entry-0828"
     "kind": "person"
     "headword": "掲諦"
@@ -23390,6 +23482,33 @@
           "source_ids":
             - "xy-ch84-primary-2597328"
           "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch100-sandalwood-merit-form"
+        "text": "旃檀功徳仏"
+        "relation": "title"
+        "reading":
+          "kana": "せんだんくどくぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "如来が三蔵本人へ汝為と直接授ける尊号。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+      - "id": "xy-ch100-sandalwood-short-form"
+        "text": "旃檀仏"
+        "relation": "short_form"
+        "reading":
+          "kana": "せんだんぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "授職後の地位列挙で旃檀功徳仏を短く呼ぶ形。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+      - "id": "xy-ch100-sandalwood-poetic-form"
+        "text": "旃檀"
+        "relation": "short_form"
+        "reading":
+          "kana": "せんだん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "成就の詩で三蔵の仏号を短く指す。香木を指す一般語の別義へ接続しない。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-entry-0875"
     "kind": "object"
     "headword": "栴檀"
@@ -23701,6 +23820,24 @@
           "source_ids":
             - "xy-ch98-primary-1500530"
           "reason_ja": "金頂大仙が三蔵一行の沙悟浄を旧官職で呼ぶ。捲簾大将の略で、別人にしない。 全語形の日本語仮名資料は未確認。"
+      - "id": "xy-ch100-golden-body-arhat-form"
+        "text": "金身羅漢"
+        "relation": "title"
+        "reading":
+          "kana": "こんじんらかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "如来が沙悟浄へ授ける位。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+      - "id": "xy-ch100-eight-treasures-arhat-form"
+        "text": "八宝金身羅漢菩薩"
+        "relation": "title"
+        "reading":
+          "kana": "はっぽうこんじんらかんぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "連祷における沙悟浄の金身羅漢の尊称。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-entry-0886"
     "kind": "object"
     "headword": "宝杖"
@@ -24252,6 +24389,24 @@
           "source_ids":
             - "xy-ch91-primary-1455640"
           "reason_ja": "三蔵が八戒の前世の職位として明示。既存の天蓬元帥と同一人の称号で、天蓬の別の神entryへ誤接続しない。全語かな未確認。"
+      - "id": "xy-ch100-altar-purifying-envoy-form"
+        "text": "浄壇使者"
+        "relation": "title"
+        "reading":
+          "kana": "じょうだんししゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "如来が猪悟能へ授け、八戒が問い返す同一人物の位。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+      - "id": "xy-ch100-altar-purifying-bodhisattva-form"
+        "text": "浄壇使者菩薩"
+        "relation": "title"
+        "reading":
+          "kana": "じょうだんししゃぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "連祷における八戒の浄壇使者の尊称。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-entry-0903"
     "kind": "concept"
     "headword": "精霊"
@@ -24500,6 +24655,33 @@
           "source_ids":
             - "xy-ch40-primary-1808481"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+      - "id": "xy-ch100-eightfold-dragon-horse-form"
+        "text": "八部天竜馬"
+        "relation": "title"
+        "reading":
+          "kana": "はちぶてんりゅうめ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "同じ白馬が如来から授けられる位。馬の既存の竜馬の音を継承する。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+      - "id": "xy-ch100-heavenly-dragon-horse-form"
+        "text": "天竜馬"
+        "relation": "short_form"
+        "reading":
+          "kana": "てんりゅうめ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "授職後の列挙で八部天竜馬を短く呼ぶ形。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+      - "id": "xy-ch100-eightfold-dragon-bodhisattva-form"
+        "text": "八部天竜広力菩薩"
+        "relation": "title"
+        "reading":
+          "kana": "はちぶてんりゅうこうりきぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "連祷における白馬の授職後の尊称。同じ一行の五者という連続する文脈による。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-entry-0915"
     "kind": "object"
     "headword": "明珠"
@@ -31207,6 +31389,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "水陸会の読み「すいりくえ」を参照し、仏教の大会を「だいえ」と読む推定。語全体のかな表記は未確認。"
+      - "id": "xy-ch100-water-land-assembly-form"
+        "text": "水陸会"
+        "relation": "short_form"
+        "reading":
+          "kana": "すいりくえ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "亡魂を救う水陸大会を短く呼ぶ同一法会の名。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-entry-1272"
     "kind": "object"
     "headword": "魚符"
@@ -38830,6 +39021,15 @@
           "source_ids":
             - "xy-ch66-primary-1455615"
           "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch100-great-prajnaparamita-form"
+        "text": "摩訶般若波羅蜜"
+        "relation": "title"
+        "reading":
+          "kana": "まかはんにゃはらみつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "般若波羅蜜を摩訶と尊ぶ同一の智慧の完成。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-entry-1653"
     "kind": "person"
     "headword": "舎利子"
@@ -39636,6 +39836,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+      - "id": "xy-ch100-five-hundred-arhats-form"
+        "text": "五百阿羅大菩薩"
+        "relation": "title"
+        "reading":
+          "kana": "ごひゃくあらだいぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "阿羅は既存0442にもある阿羅漢の短称。五百という同じ集団数と仏の会衆という役割を保持して五百羅漢を大菩薩とたたえる尊称へ接続する。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-entry-1695"
     "kind": "person"
     "headword": "文殊"
@@ -47067,6 +47276,15 @@
           "source_ids":
             - "xy-ch37-primary-1808441"
           "reason_ja": "構成漢字の日本語音訓と名称・語義から採用した読み。語形全体の日本語仮名を明記する独立資料は未確認。"
+      - "id": "xy-ch100-four-weighty-obligations-form"
+        "text": "四重恩"
+        "relation": "alias"
+        "reading":
+          "kana": "しじゅうおん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "既存の四恩は配当の異説を含めて四種の恩をいう概念。結願の四重恩もその恩を重く尊ぶ呼び名で、別概念に分けず異称として追加する。原文が示さない四つの内訳を固定しない。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-divining-stalks"
     "kind": "object"
     "headword": "蓍"
@@ -60985,6 +61203,15 @@
           "source_ids":
             - "xy-ch66-primary-1455615"
           "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch100-maitreya-venerable-form"
+        "text": "弥勒尊仏"
+        "relation": "title"
+        "reading":
+          "kana": "みろくそんぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "既存の弥勒を仏として尊ぶ名。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-ch66-primordial-assembly"
     "kind": "term"
     "headword": "元始会"
@@ -65753,6 +65980,16 @@
             - "xy-ch78-primary-1455627"
             - "xy-ch78-ndl-yakushi"
           "reason_ja": "薬師仏の部分は国会図書館典拠の仮名で確認。南無と救生を加えた称名全文の日本語仮名資料は未確認のため、全文の読みは推定のままにする。"
+      - "id": "xy-ch100-medicine-king-form"
+        "text": "薬師琉璃光王仏"
+        "relation": "alias"
+        "reading":
+          "kana": "やくしるりこうおうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+            - "xy-ch100-yakushi"
+          "reason_ja": "薬師の仏名と琉璃光という名が示す同じ薬師如来。単なる光明の共通字ではなく薬師の固有名による。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-ch78-paramita"
     "kind": "concept"
     "headword": "波羅蜜"
@@ -73216,6 +73453,15 @@
           "source_ids":
             - "xy-ch94-primary-1500607"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用。語形全体の日本語仮名資料は未確認。"
+      - "id": "xy-ch100-hanlin-academy-form"
+        "text": "翰林院"
+        "relation": "alias"
+        "reading":
+          "kana": "かんりんいん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": "宮廷文筆の官署という既存翰林の定義と一致する全称。 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
   - "id": "xy-ch94-four-writing-treasures"
     "kind": "object"
     "headword": "文房四宝"
@@ -75824,3 +76070,1399 @@
           "source_ids":
             - "xy-ch99-primary-1558059"
           "reason_ja": "構成漢字の日本語音訓と語構成による読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-xian-pass"
+    "kind": "place"
+    "headword": "西安関"
+    "definition_ja": "長安に戻る取経の一行を迎える望経楼の近くにある関所の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "西安關外に楼を建てるという原文。現代の地名西安と同じ範囲を指すとは限らない。"
+    "forms":
+      - "id": "xy-ch100-xian-pass-form"
+        "text": "西安関"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいあんかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-sutra-watching-tower"
+    "kind": "place"
+    "headword": "望経楼"
+    "definition_ja": "経を求めに行った一行の帰還を待ち迎えるため、唐の太宗が西安関外に建てさせた楼。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "工部に建造を命じて年々訪れるという叙述による。"
+    "forms":
+      - "id": "xy-ch100-sutra-watching-tower-form"
+        "text": "望経楼"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼうけいろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-tang-east-hall"
+    "kind": "place"
+    "headword": "東閣"
+    "definition_ja": "唐の長安の宮中にある、太宗が帰還した取経者たちを宴でもてなす殿舎。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "既存の宝象国・朱紫国・比丘国の東閣は所属王国が違う。同表記だけで同じ建物に統合しない。"
+    "forms":
+      - "id": "xy-ch100-tang-east-hall-form"
+        "text": "東閣"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうかく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-xuanzhou"
+    "kind": "place"
+    "headword": "宣州"
+    "definition_ja": "中国の地名。栗の産地として挙げられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "宣州繭栗という産地付きの果実名に基づく。現代行政区域との範囲同定はしない。"
+    "forms":
+      - "id": "xy-ch100-xuanzhou-form"
+        "text": "宣州"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんしゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-shandong"
+    "kind": "place"
+    "headword": "山東"
+    "definition_ja": "中国東部の地域名。ナツメの産地としても知られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "山東棗という産地の名として挙げる。現代の省境まで本文に読み込まない。"
+    "forms":
+      - "id": "xy-ch100-shandong-form"
+        "text": "山東"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-jiangnan"
+    "kind": "place"
+    "headword": "江南"
+    "definition_ja": "長江の南に広がる地域をいう呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "江南銀杏という食物の産地の用例。特定の一行政区域へ限定しない。"
+    "forms":
+      - "id": "xy-ch100-jiangnan-form"
+        "text": "江南"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうなん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-immortal-vegetable"
+    "kind": "term"
+    "headword": "仙菜"
+    "definition_ja": "仙なる菜という呼び名の食材。具体的な植物や調理法は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "石花仙菜と食物を列挙する原文に基づく。石花と並べる一品と暫定的に解する。"
+    "forms":
+      - "id": "xy-ch100-immortal-vegetable-form"
+        "text": "仙菜"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-pingpo-fruit"
+    "kind": "object"
+    "headword": "蘋婆"
+    "definition_ja": "古い中国の食用果実の名。現代の同名植物との厳密な対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+        - "xy-ch100-pingpo"
+      "reason_ja": "林檎・沙果と並ぶ果物の名。教育部の現代語義は常緑樹の食用種子だが、古典の全用例をその種に限定しない。"
+    "forms":
+      - "id": "xy-ch100-pingpo-fruit-form"
+        "text": "蘋婆"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひんば"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-shaguo-fruit"
+    "kind": "object"
+    "headword": "沙果"
+    "definition_ja": "リンゴ類とされる果実の古い呼び名。品種の厳密な同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "林檎・蘋婆と区別して列挙する底本を保持する。"
+    "forms":
+      - "id": "xy-ch100-shaguo-fruit-form"
+        "text": "沙果"
+        "relation": "preferred"
+        "reading":
+          "kana": "さか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-central-secretariat-official"
+    "kind": "title"
+    "headword": "中書官"
+    "definition_ja": "君主の言葉や文書を書き留める中書の役人をいう呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "太宗が口述の文章を書き取らせる役として呼ぶ。中書科の官署そのものとは品詞・対象を区別する。"
+    "forms":
+      - "id": "xy-ch100-central-secretariat-official-form"
+        "text": "中書官"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちゅうしょかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-two-powers"
+    "kind": "concept"
+    "headword": "二儀"
+    "definition_ja": "天と地の二つをまとめた呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "覆う天と載せる地を並べる序の語義。"
+    "forms":
+      - "id": "xy-ch100-two-powers-form"
+        "text": "二儀"
+        "relation": "preferred"
+        "reading":
+          "kana": "にぎ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-three-emptinesses"
+    "kind": "concept"
+    "headword": "三空"
+    "definition_ja": "空の理を三つに分けた仏教上の分類。文脈によって配当が異なる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "玄奘の幼少の悟りをたたえる語。具体的な三つの内訳は原文にない。"
+    "forms":
+      - "id": "xy-ch100-three-emptinesses-form"
+        "text": "三空"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんくう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-four-patiences"
+    "kind": "concept"
+    "headword": "四忍"
+    "definition_ja": "仏教で四つに分けて説く忍の修行・境地の総称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "玄奘が備える行として四忍を挙げる。内訳は本文では示されないため確定しない。"
+    "forms":
+      - "id": "xy-ch100-four-patiences-form"
+        "text": "四忍"
+        "relation": "preferred"
+        "reading":
+          "kana": "しにん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-eight-waters"
+    "kind": "place"
+    "headword": "八水"
+    "definition_ja": "仏教の聖地をたたえる文章に挙げられる八つの水の呼称。具体的な河川・池の配当は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "双林と並べる八水。長安の八河や八功徳水と同じ対象とは本文から断定しない。"
+    "forms":
+      - "id": "xy-ch100-eight-waters-form"
+        "text": "八水"
+        "relation": "preferred"
+        "reading":
+          "kana": "はっすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-deer-park"
+    "kind": "place"
+    "headword": "鹿苑"
+    "definition_ja": "釈迦が初めて教えを説いたと伝えられる鹿野苑を指す呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "仏教聖地の双林・鷲峰と列挙する文脈。"
+    "forms":
+      - "id": "xy-ch100-deer-park-form"
+        "text": "鹿苑"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろくおん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-six-vinayas"
+    "kind": "term"
+    "headword": "六律"
+    "definition_ja": "仏教の教えをたたえる序文に現れる六律という呼称。六つの戒律部門を指す可能性があるが、内訳と語義は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "底本の三乘六律を保持。音楽の六律と同じ語義へ機械的に結び付けない。"
+    "forms":
+      - "id": "xy-ch100-six-vinayas-form"
+        "text": "六律"
+        "relation": "preferred"
+        "reading":
+          "kana": "りくりつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-gold-water"
+    "kind": "term"
+    "headword": "金水"
+    "definition_ja": "救済を水の濁りが明らかになることにたとえる句に現れる語。具体的な意味は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "朗金水之混波の字面を保存。別伝の愛水、既存の金海へ無断補訂しない。"
+    "forms":
+      - "id": "xy-ch100-gold-water-form"
+        "text": "金水"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-sacred-teaching-preface"
+    "kind": "object"
+    "headword": "聖教序"
+    "definition_ja": "仏教の教えと経典を求めた玄奘の功績をたたえ、唐の太宗が作ったとされる序文。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "太宗が書いた文章に自ら付ける題。物語本文と別伝の大唐三蔵聖教序の字句は一致しない。"
+    "forms":
+      - "id": "xy-ch100-sacred-teaching-preface-form"
+        "text": "聖教序"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうぎょうじょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-wild-goose-pagoda-monastery"
+    "kind": "place"
+    "headword": "雁塔寺"
+    "definition_ja": "長安にある寺の名。真の経を説く清浄な場所として選ばれる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "蕭瑀が寺名を奏上する。史実上の大慈恩寺などとの同定は本文から確定しない。"
+    "forms":
+      - "id": "xy-ch100-wild-goose-pagoda-monastery-form"
+        "text": "雁塔寺"
+        "relation": "preferred"
+        "reading":
+          "kana": "がんとうじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-zhongshu-section"
+    "kind": "title"
+    "headword": "中書科"
+    "definition_ja": "宮廷の文書を扱う役所の呼び名。経典の書写に動員される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "翰林院と並べて官員を召す文脈。歴史上の制度と物語の時代の一致を保証しない。"
+    "forms":
+      - "id": "xy-ch100-zhongshu-section-form"
+        "text": "中書科"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちゅうしょか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-yellow-copy-monastery"
+    "kind": "place"
+    "headword": "謄黄寺"
+    "definition_ja": "経典を書き写すため、唐の太宗が長安の城の東に建てたと語られる寺。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "建寺と命名が明示される原文による。"
+    "forms":
+      - "id": "xy-ch100-yellow-copy-monastery-form"
+        "text": "謄黄寺"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうこうじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-dragon-transforming-pool"
+    "kind": "place"
+    "headword": "化竜池"
+    "definition_ja": "霊山の裏手にある、馬が竜の姿へ変わる池。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "白馬を池へ入れ、その姿が変わる一連の描写による。"
+    "forms":
+      - "id": "xy-ch100-dragon-transforming-pool-form"
+        "text": "化竜池"
+        "relation": "preferred"
+        "reading":
+          "kana": "かりゅうち"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-mahasattva"
+    "kind": "title"
+    "headword": "菩薩摩訶薩"
+    "definition_ja": "大いなる菩薩をたたえる仏教の尊称。摩訶薩は大士の意。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "結願で諸尊をまとめて呼ぶ。特定の一菩薩の個人名ではない。"
+    "forms":
+      - "id": "xy-ch100-mahasattva-form"
+        "text": "菩薩摩訶薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼさつまかさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-past-present-future"
+    "kind": "title"
+    "headword": "過去未来現在仏"
+    "definition_ja": "過去・未来・現在の三世の仏をまとめて呼ぶ尊称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-past-present-future-form"
+        "text": "過去未来現在仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "かこみらいげんざいぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-pure-joy"
+    "kind": "person"
+    "headword": "清浄喜仏"
+    "definition_ja": "清浄な喜びを表す名を持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-pure-joy-form"
+        "text": "清浄喜仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうじょうきぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-pilushi"
+    "kind": "person"
+    "headword": "毘盧尸仏"
+    "definition_ja": "毘盧尸という音写の名で呼ばれる仏。毘盧舎那との同一性は確認されない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-pilushi-form"
+        "text": "毘盧尸仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "びるしぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-jewel-banner-king"
+    "kind": "person"
+    "headword": "宝幢王仏"
+    "definition_ja": "宝の幢を名に持つ王としてたたえられる仏。宝幢光王仏との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-jewel-banner-king-form"
+        "text": "宝幢王仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうどうおうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-indestructible-diamond"
+    "kind": "person"
+    "headword": "金剛不壊仏"
+    "definition_ja": "金剛のように壊れないことを名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-indestructible-diamond-form"
+        "text": "金剛不壊仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "こんごうふえぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-jewel-light"
+    "kind": "person"
+    "headword": "宝光仏"
+    "definition_ja": "宝の光を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-jewel-light-form"
+        "text": "宝光仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうこうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-dragon-venerable-king"
+    "kind": "person"
+    "headword": "竜尊王仏"
+    "definition_ja": "竜尊王という尊号で呼ばれる仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-dragon-venerable-king-form"
+        "text": "竜尊王仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうそんおうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-diligent-good"
+    "kind": "person"
+    "headword": "精進善仏"
+    "definition_ja": "善い精進を表す名を持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-diligent-good-form"
+        "text": "精進善仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうじんぜんぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-jewel-moonlight"
+    "kind": "person"
+    "headword": "宝月光仏"
+    "definition_ja": "宝の月の光を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-jewel-moonlight-form"
+        "text": "宝月光仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうがっこうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-manifest-no-delusion"
+    "kind": "person"
+    "headword": "現無愚仏"
+    "definition_ja": "現無愚という名で呼ばれる仏。名の細かな語義は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+        - "xy-ch100-buddha-names"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-manifest-no-delusion-form"
+        "text": "現無愚仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんむぐぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-varuna"
+    "kind": "person"
+    "headword": "婆留那仏"
+    "definition_ja": "婆留那という音写の名で呼ばれる仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+        - "xy-ch100-buddha-names"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-varuna-form"
+        "text": "婆留那仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばるなぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-narayana"
+    "kind": "person"
+    "headword": "那羅延仏"
+    "definition_ja": "那羅延という音写の名で呼ばれる仏。同名の金剛や他の神との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+        - "xy-ch100-buddha-names"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-narayana-form"
+        "text": "那羅延仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "ならえんぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-merit-flower"
+    "kind": "person"
+    "headword": "功徳華仏"
+    "definition_ja": "功徳の花を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+        - "xy-ch100-buddha-names"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-merit-flower-form"
+        "text": "功徳華仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "くどくけぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-talent-merit"
+    "kind": "person"
+    "headword": "才功徳仏"
+    "definition_ja": "才功徳という名で呼ばれる仏。才の字を財などへ補訂しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+        - "xy-ch100-buddha-names"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-talent-merit-form"
+        "text": "才功徳仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいくどくぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-good-walking"
+    "kind": "person"
+    "headword": "善遊歩仏"
+    "definition_ja": "善く歩み遊ぶことを名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+        - "xy-ch100-buddha-names"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-good-walking-form"
+        "text": "善遊歩仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぜんゆうぶぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-sandalwood-light"
+    "kind": "person"
+    "headword": "旃檀光仏"
+    "definition_ja": "香木の旃檀の光を名に持つ仏。旃檀功徳仏とは同名ではない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-sandalwood-light-form"
+        "text": "旃檀光仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんだんこうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-mani-banner"
+    "kind": "person"
+    "headword": "摩尼幢仏"
+    "definition_ja": "摩尼宝珠と幢を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-mani-banner-form"
+        "text": "摩尼幢仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "まにどうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-wisdom-torch"
+    "kind": "person"
+    "headword": "慧炬照仏"
+    "definition_ja": "智慧のたいまつの照らす光を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-wisdom-torch-form"
+        "text": "慧炬照仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "えこしょうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-sea-merit-light"
+    "kind": "person"
+    "headword": "海徳光明仏"
+    "definition_ja": "海徳と光明を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-sea-merit-light-form"
+        "text": "海徳光明仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいとくこうみょうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-great-compassion-light"
+    "kind": "person"
+    "headword": "大慈光仏"
+    "definition_ja": "大いなる慈悲の光を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-great-compassion-light-form"
+        "text": "大慈光仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいじこうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-compassion-power-king"
+    "kind": "person"
+    "headword": "慈力王仏"
+    "definition_ja": "慈悲の力の王という名で呼ばれる仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-compassion-power-king-form"
+        "text": "慈力王仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "じりきおうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-excellent-good-leader"
+    "kind": "person"
+    "headword": "賢善首仏"
+    "definition_ja": "賢く善い者の首という名で呼ばれる仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-excellent-good-leader-form"
+        "text": "賢善首仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "けんぜんしゅぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-broad-adornment"
+    "kind": "person"
+    "headword": "広荘厳仏"
+    "definition_ja": "広大な荘厳を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-broad-adornment-form"
+        "text": "広荘厳仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうしょうごんぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-gold-flower-light"
+    "kind": "person"
+    "headword": "金華光仏"
+    "definition_ja": "金の花の光を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-gold-flower-light-form"
+        "text": "金華光仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "こんけこうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-talent-brightness"
+    "kind": "person"
+    "headword": "才光明仏"
+    "definition_ja": "才光明という名で呼ばれる仏。才光仏との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-talent-brightness-form"
+        "text": "才光明仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいこうみょうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-victorious-wisdom"
+    "kind": "person"
+    "headword": "智慧勝仏"
+    "definition_ja": "勝れた智慧を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-victorious-wisdom-form"
+        "text": "智慧勝仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちえしょうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-world-still-light"
+    "kind": "person"
+    "headword": "世静光仏"
+    "definition_ja": "世静光という名で呼ばれる仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-world-still-light-form"
+        "text": "世静光仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいじょうこうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-sun-moon-light"
+    "kind": "person"
+    "headword": "日月光仏"
+    "definition_ja": "日と月の光を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-sun-moon-light-form"
+        "text": "日月光仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "にちがっこうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-sun-moon-jewel-light"
+    "kind": "person"
+    "headword": "日月珠光仏"
+    "definition_ja": "日と月と宝珠の光を名に持つ仏。日月光仏との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-sun-moon-jewel-light-form"
+        "text": "日月珠光仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "にちがつしゅこうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-wisdom-banner-king"
+    "kind": "person"
+    "headword": "慧幢勝王仏"
+    "definition_ja": "智慧の幢と勝れた王という尊号を持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-wisdom-banner-king-form"
+        "text": "慧幢勝王仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "えどうしょうおうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-wondrous-voice"
+    "kind": "person"
+    "headword": "妙音声仏"
+    "definition_ja": "妙なる声を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-wondrous-voice-form"
+        "text": "妙音声仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "みょうおんじょうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-constant-light-banner"
+    "kind": "person"
+    "headword": "常光幢仏"
+    "definition_ja": "常なる光の幢を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-constant-light-banner-form"
+        "text": "常光幢仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "じょうこうどうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-world-lamp"
+    "kind": "person"
+    "headword": "観世灯仏"
+    "definition_ja": "世を観ずる灯を名に持つ仏。観世音菩薩の別名とは確認されない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-world-lamp-form"
+        "text": "観世灯仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんぜとうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-dharma-victory-king"
+    "kind": "person"
+    "headword": "法勝王仏"
+    "definition_ja": "法の勝れた王という名で呼ばれる仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-dharma-victory-king-form"
+        "text": "法勝王仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうしょうおうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-sumeru-light"
+    "kind": "person"
+    "headword": "須弥光仏"
+    "definition_ja": "須弥山の光を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-sumeru-light-form"
+        "text": "須弥光仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅみこうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-great-wisdom-power"
+    "kind": "person"
+    "headword": "大慧力王仏"
+    "definition_ja": "大いなる智慧の力の王という名で呼ばれる仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-great-wisdom-power-form"
+        "text": "大慧力王仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいえりきおうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-gold-sea-light"
+    "kind": "person"
+    "headword": "金海光仏"
+    "definition_ja": "金の海の光を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-gold-sea-light-form"
+        "text": "金海光仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "こんかいこうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-great-penetrating-light"
+    "kind": "person"
+    "headword": "大通光仏"
+    "definition_ja": "大いに通じる光を名に持つ仏。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-great-penetrating-light-form"
+        "text": "大通光仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいつうこうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-talent-light"
+    "kind": "person"
+    "headword": "才光仏"
+    "definition_ja": "才光という名で呼ばれる仏。才光明仏との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-talent-light-form"
+        "text": "才光仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいこうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-great-strength"
+    "kind": "person"
+    "headword": "大勢至菩薩"
+    "definition_ja": "智慧の光によって衆生を救うとされ、阿弥陀仏の脇侍とされる菩薩。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+        - "xy-ch100-seishi"
+      "reason_ja": "新纂浄土宗大辞典勢至菩薩の公開本文で阿弥陀仏の智慧の右脇侍と大勢至の名を確認。"
+    "forms":
+      - "id": "xy-ch100-great-strength-form"
+        "text": "大勢至菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいせいしぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-pure-ocean-assembly"
+    "kind": "title"
+    "headword": "清浄大海衆菩薩"
+    "definition_ja": "清浄な大海のような多数の菩薩たちをたたえる呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-pure-ocean-assembly-form"
+        "text": "清浄大海衆菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうじょうだいかいしゅぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-lotus-pond-assembly"
+    "kind": "title"
+    "headword": "蓮池海会仏菩薩"
+    "definition_ja": "蓮の池に海のように集う仏と菩薩をたたえる総称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-lotus-pond-assembly-form"
+        "text": "蓮池海会仏菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "れんちかいえぶつぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-western-paradise-bodhisattvas"
+    "kind": "title"
+    "headword": "西天極楽諸菩薩"
+    "definition_ja": "西方の極楽における諸菩薩をまとめて呼ぶ尊称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-western-paradise-bodhisattvas-form"
+        "text": "西天極楽諸菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいてんごくらくしょぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-three-thousand-gate"
+    "kind": "title"
+    "headword": "三千掲諦大菩薩"
+    "definition_ja": "三千の掲諦を大菩薩としてたたえる集合的な尊称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-three-thousand-gate-form"
+        "text": "三千掲諦大菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんぜんぎゃていだいぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-monastics-laity-bodhisattvas"
+    "kind": "title"
+    "headword": "比丘夷塞尼菩薩"
+    "definition_ja": "比丘・夷・塞・尼の語を連ねた菩薩の呼称。僧尼と在家信徒を含意すると考えられるが、語構成は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-monastics-laity-bodhisattvas-form"
+        "text": "比丘夷塞尼菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "びくいそくにぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-boundless-dharma-bodhisattvas"
+    "kind": "title"
+    "headword": "無辺無量法菩薩"
+    "definition_ja": "無辺無量の法を名に持つ菩薩の呼称。単独の個体か集合的な尊称かは未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-boundless-dharma-bodhisattvas-form"
+        "text": "無辺無量法菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "むへんむりょうほうぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-diamond-great-saints"
+    "kind": "title"
+    "headword": "金剛大士聖菩薩"
+    "definition_ja": "金剛大士を聖なる菩薩としてたたえる呼び名。具体的な個人の同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "南無を冠して名を唱える原文を確認。共有する文字だけでは他の仏・神・抽象概念と同定しない。"
+    "forms":
+      - "id": "xy-ch100-diamond-great-saints-form"
+        "text": "金剛大士聖菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "こんごうだいししょうぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-receiving-return-truth"
+    "kind": "person"
+    "headword": "接引帰真仏"
+    "definition_ja": "人を迎え導き、真実へ帰らせるという尊号で呼ばれる仏。接引仏祖との具体的な同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "連祷に現れる接引歸真佛。098の接引仏祖は南無宝幢光王仏という別名を明示するが、この語形を同一と明示する文はないため、役割を限定した項目にする。別人という断定ではない。"
+    "forms":
+      - "id": "xy-ch100-receiving-return-truth-form"
+        "text": "接引帰真仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "せついんきしんぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
+  - "id": "xy-ch100-minute-measure"
+    "kind": "term"
+    "headword": "毫釐"
+    "definition_ja": "ごくわずかな大きさや数量。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+        - "xy-ch100-gouri"
+      "reason_ja": "漢字ペディア釐の項の語義と例語毫釐の読みを確認。宇宙との大小の対比に用いる。"
+    "forms":
+      - "id": "xy-ch100-minute-measure-form"
+        "text": "毫釐"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごうり"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch100-gouri"
+          "reason_ja": " 公開表示に語形全体の日本語仮名を確認した。"
+  - "id": "xy-ch100-zhen-tower"
+    "kind": "place"
+    "headword": "珍楼"
+    "definition_ja": "霊山で取経の一行が斎食を受けた楼の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch100-primary-1500545"
+      "reason_ja": "食事を受ける珍楼から、経を授かる宝閣へ移るという三蔵の報告。一般の美しい建物をいう宝閣・鳳閣、他寺院の固有の楼名と同じ建物にはしない。098でも珍楼と呼ばれるが辞書登録はないため、100の同じ場所の再報告から追加。"
+    "forms":
+      - "id": "xy-ch100-zhen-tower-form"
+        "text": "珍楼"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちんろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch100-primary-1500545"
+          "reason_ja": " 日本語の漢字音・仏教語の慣用音・語構成による採用。全語形の日本語仮名資料は未確認であり、中国語原文の出現を読みの実証とはしない。"
