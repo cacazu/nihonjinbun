@@ -1,0 +1,2784 @@
+"schema_version": "2.0"
+"work_id": "xiyouji-chapter-041-zh-ja"
+"metadata":
+  "title_ja": "西遊記 第四十一回"
+  "title_original": "西遊記 第四十一回 心猿遭火敗　木母被魔擒"
+  "original_languages":
+    - "zh-Hant"
+  "target_language": "ja"
+  "contributors":
+    - "id": "traditional-author"
+      "name_ja": "呉承恩（伝）"
+      "name_original": "吳承恩"
+      "roles":
+        - "author"
+    - "id": "ai-translator"
+      "name_ja": "ChatGPT（AIによる新訳）"
+      "name_original": null
+      "roles":
+        - "translator"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "『西遊記』第四十一回 日本語新訳（AI生成）。原文は中文維基文庫「西遊記/第041回」、取得した現行ページのフッター版oldid=1500598。"
+    "note_ja": "電子翻刻の帰属表示と継承条件を保持するためCC BY-SA 4.0を明示。原典は公有と区別する。AIによる対訳と確認であり、専門家の独立校訂は未実施。"
+  "genres":
+    - "中国古典文学"
+    - "神魔小説"
+    - "物語"
+  "reader_notes_ja":
+    - "第四十一回の回題、全散文・会話・韻文と結語を48対訳単位へ収録した。"
+    - "著者の初回取得では現行ページのフッターで版1500598を識別し、固定URLの直接取得は失敗した。独立レビューでは同固定URLを直接取得でき、全254表示行を保存し、回題と本文の非空75行が従来の250行スナップショットと完全一致することを確認した。原文とその行参照は従来の記録を保持。"
+    - "日本語はAIによる新訳。完稿後に別のAIが全文を独立照合した。専門家による校訂は未実施。"
+    - "通常の地の文・話者名は悟空・三蔵・八戒・沙悟浄・紅孩児。名乗り、称号、原詩の寓意と明示的な予告は別に保持する。"
+"sources":
+  - "id": "wikisource-xiyou-ch41-1500598"
+    "role": "primary"
+    "title": "西遊記/第041回"
+    "languages":
+      - "zh-Hant"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+    "edition": "中文維基文庫 oldid=1500598（2018-09-12 11:18 UTC）。著者の初回取得では現行ページのフッターで版1500598を識別し、固定URLの直接取得は失敗した。独立レビューでは同固定URLを直接取得でき、全254表示行を保存し、回題と本文の非空75行が従来の250行スナップショットと完全一致することを確認した。原文とその行参照は従来の記録を保持。"
+    "contributor_ids":
+      - "traditional-author"
+    "work_rights":
+      "status": "public_domain"
+      "note_ja": "明代成立の古典本文。伝統的には呉承恩作とされるが著者帰属には議論がある。"
+    "transcription_rights":
+      "status": "licensed"
+      "license_id": "CC-BY-SA-4.0"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "evidence_url": "https://zh.wikisource.org/wiki/Wikisource:Copyrights"
+      "attribution": "中文維基文庫「西遊記/第041回」の寄稿者。取得本文のフッター表示oldid=1500598。"
+    "description_ja": "第四十一回の回題・全散文・会話・韻文・結語。著者の初回取得では現行ページのフッターで版1500598を識別し、固定URLの直接取得は失敗した。独立レビューでは同固定URLを直接取得でき、全254表示行を保存し、回題と本文の非空75行が従来の250行スナップショットと完全一致することを確認した。原文とその行参照は従来の記録を保持。"
+    "local_path": "translations/wu-chengen/verification/xiyouji-chapter-041-source-1500598-zh-hant.txt"
+    "sha256": "eb6677771856f00bff26313df1a91b4ab730abf4f4b0e833a69bc7ccdd31dbb2"
+"scope":
+  "included":
+    - "source_id": "wikisource-xiyou-ch41-1500598"
+      "description_ja": "第四十一回の回題から結語まで全体。"
+      "section_ids":
+        - "chapter-41"
+  "excluded":
+    - "source_id": "wikisource-xiyou-ch41-1500598"
+      "description_ja": "著者欄、前後回案内、サイトナビゲーションとフッター。"
+  "known_gaps":
+    - "source_id": "wikisource-xiyou-ch41-1500598"
+      "segment_ids":
+        - "xy-ch41-004"
+      "description_ja": "冒頭の『迴鑾古道』は、御車が引き返す古道として訳した。具体的な行幸の故事や地名の同定は未確定。『崑崙地脈發來龍』は風水の地脈を竜になぞらえる語で、生きた竜がここから出たという出来事を補ってはいない。 本文の欠落ではなく、解釈・底本の異表記に関する留保。"
+    - "source_id": "wikisource-xiyou-ch41-1500598"
+      "segment_ids":
+        - "xy-ch41-010"
+      "description_ja": "義兄弟の列挙は底本どおり七人・七つの称号と順を残した。大鵬魔王、獅㾩王、\U000247F9狨王は、従前の鵬魔王、獅駝王、禺狨王に対応する異表記として同じ辞書項目へ結ぶ。㾩を駝などへ無断訂正せず、原字を訳文にも残す。『以長欺幼』は年長者が年少者をいじめる意味で、父子関係を新たに作らない。 本文の欠落ではなく、解釈・底本の異表記に関する留保。"
+    - "source_id": "wikisource-xiyou-ch41-1500598"
+      "segment_ids":
+        - "xy-ch41-020"
+      "description_ja": "この回の敖広の発言は、敖閏を北海、敖順を西海の竜王とする。第三回の敖順＝北海、敖閏＝西海とは逆だが、原文の発言を無断で訂正せず、そのまま訳した。人物の対応は海域の役割を基準にし、北海の敖閏は従前の北海竜王の異名、西海の敖順は従前の西海竜王の異名として扱う。同じ字の個人名だけで北海と西海の人物を取り違えず、双方の竜王を一人に統合しない。降雨の手続きで文書を回す『太乙』の具体的な神格の同定は未確定であり、他の太乙を含む神名へ拡張しない。 本文の欠落ではなく、解釈・底本の異表記に関する留保。"
+    - "source_id": "wikisource-xiyou-ch41-1500598"
+      "segment_ids":
+        - "xy-ch41-022"
+      "description_ja": "水族の軍勢は、魚介・水生動物に人間の官職を割り当てた列挙であり、全役職と動作を保持した。鱯痴、鯁、鯖、鮊、鯕、紅眼馬郎、黒甲将軍、蝦婆の種の厳密な同定は留保する。蝦婆の婆という字だけで性別を女性と断定せず、黒甲の甲を生物の甲羅と断定しない。別版本の検索表示には鯕と鱑などの違いがあるが、底本の字を変更していない。鮎は中国語ではナマズをいい、日本語のアユではない。 本文の欠落ではなく、解釈・底本の異表記に関する留保。"
+    - "source_id": "wikisource-xiyou-ch41-1500598"
+      "segment_ids":
+        - "xy-ch41-034"
+      "description_ja": "語り手の『喪殘生』と沙悟浄の『死也』という死亡の表現はそのまま残した。続いて八戒が死んだふりだと言い、悟空が回復するが、これを理由に先の表現を昏倒だけへ書き換えない。悟空の倒れた状態と回復は、魂・丹田・三関・明堂・七竅などを用いた物語上の身体観である。三関の具体的な部位は説が分かれ、本文だけから確定しない。八戒の『七十二の変化だから七十二の命』は本人の発言として残し、語り手の説明にはしていない。按摩の描写は現代の救命処置を示すものではない。 本文の欠落ではなく、解釈・底本の異表記に関する留保。"
+    - "source_id": "wikisource-xiyou-ch41-1500598"
+      "segment_ids":
+        - "xy-ch41-044"
+      "description_ja": "『銷金包袱』は金箔による文様のある包みとして訳す。小妖怪が背負い込むという字面を残し、『厄介を背負い込んだ』という含みの可能性はあるが、本文へ断定的な説明を加えなかった。 本文の欠落ではなく、解釈・底本の異表記に関する留保。"
+"sections":
+  - "id": "chapter-41"
+    "parent_id": null
+    "kind": "chapter"
+    "heading_segment_ids":
+      - "xy-ch41-001"
+"segments":
+  - "id": "xy-ch41-001"
+    "section_id": "chapter-41"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": |-
+      第四十一回
+      心猿遭火敗　木母被魔擒
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 114
+        "line_end": 115
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L113-L114"
+    "translation_ja": |-
+      第四十一回
+      心猿は火に敗れ、木母は妖魔に捕らえられる
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-002"
+    "section_id": "chapter-41"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      善惡一時忘念，榮枯都不關心。晦明隱現任浮沉。隨分饑餐渴飲。
+      神靜湛然常寂，昏冥便有魔侵。五行蹬蹭破禪林。風動必然寒凜。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 119
+        "line_end": 120
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L118-L119"
+    "translation_ja": |-
+      善だ悪だという思いを、ひとときすっかり忘れ、
+      栄えるも衰えるも、心にかけない。
+      暗きも明るきも、隠れるも現れるも、浮き沈みに任せ、
+      身の分に応じ、腹が減れば食い、渇けば飲む。
+      精神が静まれば、澄みきった静けさが続くが、
+      心が暗く曇れば、そこへ魔が入り込む。
+      五行（ごぎょう）の歩みがもつれれば、禅の境地も破られ、
+      風が動けば、必ず身にしみる寒さが来る。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-003"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "卻說那孫大聖引八戒別了沙僧，跳過枯松澗，徑來到那怪石崖前。果見有一座洞府，真個也景致非凡。但見："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 122
+        "line_end": 122
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L121-L121"
+    "translation_ja": "さて悟空（ごくう）は、八戒（はっかい）を連れて沙悟浄（さごじょう）に別れを告げ、枯松澗（こしょうかん）を跳び越え、まっすぐ怪石のそびえる崖へ向かった。果たしてそこには洞府（どうふ）があり、まことに並々ならぬ景色だった。見れば、"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-004"
+    "section_id": "chapter-41"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      迴鑾古道幽還靜，風月也聽玄鶴弄。
+      白雲透出滿川光，流水過橋仙意興。
+      猿嘯鳥啼花木奇，藤蘿石蹬芝蘭勝。
+      蒼搖崖壑散煙霞，翠染松篁招彩鳳。
+      遠列巔峰似插屏，山朝澗繞真仙洞。
+      崑崙地脈發來龍，有分有緣方受用。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 123
+        "line_end": 128
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L122-L127"
+    "translation_ja": |-
+      御車も引き返す古道は、奥深く、ひっそりと静まり、
+      風も月も、黒い鶴の戯れに身を任せる。
+      白雲の間から光が差して、川辺一面を照らし、
+      橋をくぐる流れは、仙境の趣を湧き立たせる。
+      猿が叫び、鳥が鳴き、珍しい花木が茂り、
+      蔓や藤のからむ石段に、芝草や蘭が美しい。
+      青々とした木々が崖や谷に揺れ、霞を散らし、
+      緑に染まる松や竹が、彩り豊かな鳳凰を招く。
+      遠く連なる峰は、立て並べた屏風のよう。
+      山々が向き合い、谷川がめぐる、まさに仙人の洞。
+      崑崙（こんろん）から延びる地脈が、この地の竜脈となり、
+      運と縁のある者だけが、この景色を我がものにする。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-005"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "將近行到門前，見有一座石碣，上鐫八個大字，乃是「號山枯松澗火雲洞」。那壁廂一群小妖，在那裡掄槍舞劍的跳風頑耍。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 130
+        "line_end": 130
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L129-L129"
+    "translation_ja": "門の近くまで行くと、石碑が立っていた。八つの大きな文字が彫られ、「号山（ごうざん）・枯松澗・火雲洞（かうんどう）」とある。向こうでは小妖怪たちが槍を振り、剣を舞わせ、跳びはねて遊んでいた。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-006"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "孫大聖厲聲高叫道：「那小的們，趁早去報與洞主知道，教他送出我唐僧師父來，免你這一洞精靈的性命；牙迸半個『不』字，我就掀翻了你的山場，屣平了你的洞府。」那些小妖，聞此言，慌忙急轉身，各歸洞裡，關了兩扇石門，到裡邊來報：「大王，禍事了。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 132
+        "line_end": 132
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L131-L131"
+    "translation_ja": |-
+      悟空は厳しい声で怒鳴った。
+      悟空「おい、下っ端ども！　さっさと洞の主人に知らせろ。俺の師匠、唐僧（とうそう）を返せと言うんだ。そうすれば、この洞の妖怪どもの命は助けてやる。少しでも『いや』などと口にしてみろ。この山をひっくり返し、洞を踏みつぶしてやるぞ！」
+      小妖怪たちはこれを聞くと、慌てて向きを変え、みな洞へ逃げ戻った。二枚の石の扉を閉め、中へ駆け込んで報告した。
+      小妖怪たち「大王、大変です！」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-007"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "卻說那怪自把三藏拿到洞中，選剝了衣服，四馬攢蹄綑在後院裡，著小妖打乾淨水刷洗，要上籠蒸吃哩。忽聽得報聲禍事，且不刷洗，便來前庭上問：「有何禍事？」小妖道：「有個毛臉雷公嘴的和尚，帶一個長嘴大耳的和尚，在門前要甚麼唐僧師父哩。但若牙迸半個『不』字，就要掀翻山場，屣平洞府。」魔王微微冷笑道：「這是孫行者與豬八戒，他卻也會尋哩。我拿他師父，自半山中到此，有百五十里，卻怎麼就尋上門來？」教小的們把管車的推出車去。那一班幾個小妖，推出五輛小車兒來，開了前門。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 133
+        "line_end": 133
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L132-L132"
+    "translation_ja": |-
+      紅孩児（こうがいじ）は三蔵（さんぞう）を洞へ捕らえてくると、衣服をはぎ取り、両手両足を一つに縛って裏庭へ置いていた。小妖怪にきれいな水を汲ませ、体を洗ってから蒸籠に入れ、蒸して食べるつもりだった。そこへ大変だという声がしたので、洗うのをひとまずやめさせ、前庭へ来て尋ねた。
+      紅孩児「何が大変だ？」
+      小妖怪「毛むくじゃらの顔で雷神のような口をした僧が、口の長い、耳の大きな僧を連れて来まして、門の前で何とかいう唐僧師匠を返せと言っております。少しでも『いや』と口にすれば、山をひっくり返し、洞を踏みつぶすそうです」
+      紅孩児は薄く冷笑した。
+      紅孩児「孫行者（そんぎょうじゃ）と猪八戒（ちょはっかい）だな。よく探し当てたものだ。師匠をさらった山の中腹から、ここまでは百五十里（り）もある。それなのに、どうやってこの門までたどり着いた？」
+      そして部下たちに、車を扱う者に車を外へ出させろと命じた。担当の小妖怪たちは、小さな車を五台押して来て、表の門を開いた。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-008"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "八戒望見道：「哥哥，這妖精想是怕我們，推出車子，往那廂搬哩。」行者道：「不是，且看他放在那裡。」只見那小妖將車子按金、木、水、火、土安下，著五個看著，五個進去通報。那魔王問：「停當了？」答應：「停當了。」教取過槍來。有那一夥管兵器的小妖，著兩個擡出一桿丈八長的火尖槍，遞與妖王。妖王掄槍拽步，也無甚麼盔甲，只是腰間束一條錦繡戰裙，赤著腳，走出門前。行者與八戒擡頭觀看，但見那怪物："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 135
+        "line_end": 135
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L134-L134"
+    "translation_ja": |-
+      それを見た八戒が言った。
+      八戒「兄貴、妖怪は俺たちが怖くなったんじゃないか。車を出して、どこかへ引っ越すつもりだぞ」
+      悟空「違う。どこへ置くのか、まず見ていろ」
+      小妖怪たちは、金・木・水・火・土の配置に従って車を据えた。五人を見張りに残し、五人が中へ報告に戻った。
+      紅孩児「準備はできたか？」
+      小妖怪たち「できました」
+      紅孩児は槍を持ってくるよう命じた。武器係の小妖怪のうち二人が、一丈（じょう）八尺（しゃく）の火尖槍（かせんそう）を担いで来て差し出した。紅孩児は槍を振り回し、大股で歩き出した。兜も鎧も着けず、腰に錦繍の戦裙（せんくん）を一枚巻いただけで、裸足のまま門の前へ出てくる。悟空と八戒が顔を上げて見ると、その姿は、
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-009"
+    "section_id": "chapter-41"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      面如傅粉三分白，唇若塗朱一表才。
+      鬢挽青雲欺靛染，眉分新月似刀裁。
+      戰裙巧繡盤龍鳳，形比哪吒更富胎。
+      雙手綽槍威凜冽，祥光護體出門來。
+      哏聲響若春雷吼，暴眼明如掣電乖。
+      要識此魔真姓氏，名揚千古喚紅孩。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 136
+        "line_end": 141
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L135-L140"
+    "translation_ja": |-
+      顔はおしろいを塗ったように、ひときわ白く、
+      唇は朱を引いたような、美しい顔立ち。
+      鬢の髪は青雲のように結われ、藍染めよりも黒々とし、
+      眉は新月の形に分かれ、刀で切りそろえたよう。
+      戦裙には、からみ合う竜と鳳凰を巧みに縫い取り、
+      体つきは哪吒（なた）にも増して、ふくよかだ。
+      両手に槍を構える威勢は凜として、
+      瑞光を身にまとい、門から出てくる。
+      唸り声は、春の雷が轟くように響き、
+      見開く目は、走る稲妻のように鋭く光る。
+      この妖魔のまことの名を知りたければ、
+      千年の後まで名をとどろかす、紅孩（こうがい）だ。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-010"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那紅孩兒怪出得門來，高叫道：「是甚麼人在我這裡吆喝！」行者近前笑道：「我賢姪莫弄虛頭。你今早在山路傍高吊在松樹梢頭，是那般一個瘦怯怯的黃病孩兒，哄了我師父。我倒好意馱著你，你就弄風兒把我師父攝將來。你如今又弄這個樣子，我豈不認得你？趁早送出我師父，不要白了面皮，失了親情，恐你令尊知道，怪我老孫以長欺幼，不象模樣。」那怪聞言，心中大怒，咄的一聲喝道：「那潑猴頭！我與你有甚親情？你在這裡滿口胡柴，綽甚聲經兒？那個是你賢姪？」行者道：「哥哥，是你也不曉得。當年我與你令尊做弟兄時，你還不知在那裡哩。」那怪道：「這猴子一發胡說！你是那裡人，我是那裡人，怎麼得與我父親做弟兄？」行者道：「你是不知。我乃五百年前大鬧天宮的齊天大聖孫悟空是也。我當初未鬧天宮時，遍遊海角天涯，四大部洲，無方不到，那時節專慕豪傑。你令尊叫做牛魔王，稱為平天大聖，與我老孫結為七弟兄，讓他做了大哥；還有個蛟魔王，稱為覆海大聖，做了二哥；又有個大鵬魔王，稱為混天大聖，做了三哥；又有個獅㾩王，稱為移山大聖，做了四哥；又有個獼猴王，稱為通風大聖，做了五哥；又有個\U000247F9狨王，稱為驅神大聖，做了六哥；惟有老孫身小，稱為齊天大聖，排行第七。我老弟兄們那時節耍子時，還不曾生你哩。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 142
+        "line_end": 142
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L141-L141"
+    "translation_ja": |-
+      紅孩児は門を出るなり、大声を上げた。
+      紅孩児「俺のところで騒いでいるのは、何者だ！」
+      悟空は近づき、笑って言った。
+      悟空「甥っ子よ、小細工はよせ。今朝、山道のそばの松の梢に高く吊られていたときは、やせこけた、弱々しい顔色の悪い子供になって、俺の師匠をだましたな。俺は親切に背負ってやったのに、お前は風を起こして、師匠をここへさらってきた。今はそんな姿になっているが、俺がお前を見抜けないとでも思ったか。早く師匠を返せ。互いに顔を背け、親戚の情を捨てるようなことはするな。お父上が知ったら、俺が年上のくせに子供をいじめた、みっともないと言うだろうからな」
+      紅孩児はこれを聞くと、腹の底から怒り、かっと怒鳴った。
+      紅孩児「ろくでなしの猿め！　俺とお前に、何の親戚関係がある！　でたらめばかり並べて、何をもっともらしくぬかす。誰がお前の甥だ！」
+      悟空「おいおい、お前は知らないんだな。昔、俺がお前の父上と義兄弟になったころ、お前はまだ、どこにいたのかも分からないんだぞ」
+      紅孩児「この猿、ますますでたらめを言う！　お前はどこの者で、俺はどこの者だ。どうして俺の父と義兄弟になれたんだ？」
+      悟空「知らないなら教えてやろう。俺こそ、五百年前に天宮（てんきゅう）で大暴れした、斉天大聖（せいてんたいせい）・孫悟空（そんごくう）だ。天宮を騒がせる前には、海の果てから空の果てまで、四大部洲（しだいぶしゅう）のどこへでも出かけた。そのころは、豪傑をひたすら慕っていたものだ。お前の父は牛魔王（ぎゅうまおう）といい、平天大聖（へいてんたいせい）を名乗っていた。俺たちは七人で義兄弟の契りを結び、お前の父を一番上の兄貴にした。そのほか、蛟魔王（こうまおう）は覆海大聖（ふくかいたいせい）といい、二番目の兄貴。大鵬魔王（たいほうまおう）は混天大聖（こんてんたいせい）といい、三番目。獅㾩王（しかいおう）は移山大聖（いざんたいせい）といい、四番目。獼猴王（びこうおう）は通風大聖（つうふうたいせい）といい、五番目。𤟹狨王（ぐじゅうおう）は駆神大聖（くしんたいせい）といい、六番目の兄貴だった。俺だけは体が小さく、斉天大聖を名乗って、七番目になった。俺たち義兄弟が遊び回っていたころには、お前はまだ生まれていなかったんだぞ」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-011"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那怪物聞言，那裡肯信，舉起火尖槍就刺。行者正是那會家不忙，又使了一個身法，閃過槍頭，掄起鐵棒，罵道：「你這小畜生，不識高低，看棍！」那妖精也使身法，讓過鐵棒道：「潑猢猻，不達時務，看槍！」他兩個也不論親情，一齊變臉，各使神通，跳在雲端裡，好殺："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 143
+        "line_end": 143
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L142-L142"
+    "translation_ja": |-
+      紅孩児はそんな話を信じようともせず、火尖槍を持ち上げて突きかかった。そこは心得のある悟空、少しも慌てず、身をかわして穂先を避け、鉄棒を振り上げて罵った。
+      悟空「この小僧、身の程を知らないな。棒を食らえ！」
+      紅孩児も身をかわして鉄棒を避け、言い返した。
+      紅孩児「ろくでなしの猿め、物の分からないやつだ。槍を食らえ！」
+      二人はもう親戚の情など顧みず、そろって顔色を変え、おのおの神通力を振るい、雲の上へ跳び上がって戦った。その激しさは、
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-012"
+    "section_id": "chapter-41"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "行者名聲大，魔王手段強。一個橫舉金箍棒，一個直挺火尖槍。吐霧遮三界，噴雲照四方。一天殺氣兇聲吼，日月星辰不見光。語言無遜讓，情意兩乖張。那一個欺心失禮儀，這一個變臉沒綱常。棒架威風長，槍來野性狂。一個是混元真大聖，一個是正果善財郎。二人努力爭強勝，只為唐僧拜法王。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 145
+        "line_end": 145
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L144-L144"
+    "translation_ja": |-
+      悟空の名声は高く、妖王の技も強い。
+      一人は金箍棒（きんこぼう）を横に構え、一人は火尖槍をまっすぐ突き出す。
+      霧を吐いて三界（さんがい）を覆い、雲を噴いて四方を照らす。
+      空いっぱいに殺気がみなぎり、すさまじい叫びが轟き、
+      日も月も星も、光が見えない。
+      言葉には譲り合いがなく、心は互いに背き合う。
+      あちらは良心を欺き、礼儀を失い、
+      こちらも顔色を変え、身内の道理を捨てる。
+      棒で受ければ、威風はいよいよ高まり、
+      槍が襲えば、荒々しい気性がほとばしる。
+      一人は混元（こんげん）のまことの大聖（たいせい）、
+      一人は正果（しょうか）を得る善財郎（ぜんざいろう）。
+      二人が力を尽くして勝ちを争うのは、
+      ひとえに唐僧が法王（ほうおう）を拝みに行くためだ。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-013"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那妖魔與孫大聖戰經二十合，不分勝敗。豬八戒在傍邊看得明白：妖精雖不敗陣，卻只是遮攔隔架，全無攻殺之能；行者縱不贏他，棒法精強，來往只在那妖精頭上，不離了左右。八戒暗想道：「不好啊，行者溜撒，一時間丟個破綻，哄那妖魔鑽進來，一鐵棒打倒，就沒了我的功勞。」你看他抖擻精神，舉著九齒鈀在空裡，望妖精劈頭就築。那怪見了心驚，急拖槍敗下陣來。行者喝教：「八戒，趕上，趕上。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 147
+        "line_end": 147
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L146-L146"
+    "translation_ja": |-
+      紅孩児と悟空は二十合戦ったが、勝負はつかなかった。そばで見ていた八戒には、様子がよく分かった。紅孩児は負けこそしないものの、防いだり受け流したりするばかりで、まるで攻め込めない。悟空はまだ勝てないものの、棒の技は精妙で力強く、その一撃一撃は紅孩児の頭上と左右を離れなかった。八戒はひそかに考えた。
+      八戒「まずいぞ。悟空は抜け目がない。わざと隙を見せて、妖怪を誘い込み、鉄棒で一撃して倒しでもしたら、俺の手柄がなくなる」
+      そこで元気を振るい起こし、空中で九本歯の熊手（きゅうほんばのくまで）を持ち上げ、紅孩児の頭めがけて振り下ろした。紅孩児は驚き、急いで槍を引きずって敗走した。
+      悟空「八戒、追え、追え！」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-014"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "二人趕到他洞門前，只見妖精一隻手舉著火尖槍，站在那中間一輛小車兒上；一隻手捏著拳頭，往自家鼻子上搥了兩拳。八戒笑道：「這廝放賴不羞。你好道搥破鼻子，淌出些血來，搽紅了臉，往那裡告我們去耶？」那妖魔搥了兩拳，念個咒語，口裡噴出火來，鼻子裡濃煙迸出，閘閘眼，火焰齊生，那五輛車子上火光湧出。連噴了幾口，只見那紅焰焰大火燒空，把一座火雲洞被那煙火迷漫，真個是熯天熾地。八戒慌了道：「哥哥，不停當，這一鑽在火裡，莫想得活。把老豬弄做個燒熟的，加上香料，盡他受用哩。快走，快走。」說聲走，他也不顧行者，跑過澗去了。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 148
+        "line_end": 148
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L147-L147"
+    "translation_ja": |-
+      二人が洞の門まで追うと、紅孩児は真ん中の小車の上に立ち、片手に火尖槍を持っていた。もう一方の手を握り、自分の鼻を二度殴った。
+      八戒は笑った。
+      八戒「こいつ、恥ずかしくもなく言いがかりをつける気か。鼻を殴って血を出し、顔じゅう赤くして、どこかへ俺たちを訴えに行くつもりだな？」
+      紅孩児は二度殴ったあと、呪文を唱えた。口から火が噴き出し、鼻から濃い煙がほとばしり、まばたきをすると、そこにも炎が燃え上がった。五台の車からも火が湧き出す。続けて数度噴くと、真っ赤な大火が空を焼き、火雲洞全体が煙と炎に包まれた。まさに天を焦がし、地を焼く勢いだ。八戒は慌てた。
+      八戒「兄貴、こりゃまずい！　こんな火の中へ飛び込んだら、生きては帰れないぞ。俺を丸焼きにして、香料をふりかけて、好きなだけ食うつもりだ。逃げよう、逃げよう！」
+      逃げようと言うなり、悟空のことなど構わず、谷川を越えて走り去った。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-015"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "這行者神通廣大，捏著避火訣，撞入火中，尋那妖怪。那妖怪見行者來，又吐上幾口，那火比前更勝。好火："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 150
+        "line_end": 150
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L149-L149"
+    "translation_ja": "悟空は神通力が広大だったので、火を避ける印を結び、炎の中へ飛び込んで紅孩児を捜した。紅孩児は悟空が来るのを見ると、さらに数度火を噴き、炎は先ほどよりも激しくなった。なんという火だろう。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-016"
+    "section_id": "chapter-41"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "炎炎烈烈盈空燎，赫赫威威遍地紅。卻似火輪飛上下，猶如炭屑舞西東。這火不是燧人鑽木，又不是老子炮丹，非天火，非野火，乃是妖魔修煉成真三昧火。五輛車兒合五行，五行生化火煎成。肝木能生心火旺，心火致令脾土平。脾土生金金化水，水能生木徹通靈。生生化化皆因火，火遍長空萬物榮。妖邪久悟呼三昧，永鎮西方第一名。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 152
+        "line_end": 152
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L151-L151"
+    "translation_ja": |-
+      めらめら、烈しく、空いっぱいを焼き払い、
+      あかあか、威勢よく、大地を赤く染める。
+      火の輪が上下に飛び交うよう、
+      炭のかけらが東西に舞うよう。
+      これは燧人（すいじん）が木をこすって起こした火ではなく、
+      老子（ろうし）が丹薬を煉る火でもない。
+      天の火でも、野の火でもなく、
+      妖魔が修行して会得した、まことの三昧の火（さんまいのひ）だ。
+      五台の車は五行に合い、
+      五行が生み変わる働きから、火が煉り出される。
+      肝の木が心の火を生み、盛んにし、
+      心の火は脾の土を整える。
+      脾の土が金を生み、金は水を生み、
+      水は木を生んで、霊妙な働きがすべてにつながる。
+      次々と生まれ変わるのは、いずれも火によるもの。
+      火が大空に広がれば、万物は栄える。
+      妖魔は長い修練の末、その奥義を三昧と呼び、
+      西方第一の名を、いつまでも誇っている。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-017"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "行者被他煙火飛騰，不能尋怪，看不見他洞門前路徑，抽身跳出火中。那妖精在門首看得明白，他見行者走了，卻才收了火具，帥群妖，轉於洞內，閉了石門，以為得勝，著小的排宴奏樂，歡笑不題。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 153
+        "line_end": 153
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L152-L152"
+    "translation_ja": "煙と炎が舞い上がり、悟空には紅孩児がどこにいるのか分からなくなった。洞の門の前の道も見えず、身を返して火の中から跳び出した。紅孩児は門のところで、これをはっきり見ていた。悟空が逃げたのを見届けてから、ようやく火の道具を収め、小妖怪たちを率いて洞へ引き返し、石の扉を閉じた。勝ったつもりで部下に宴を用意させ、音楽を奏でさせて笑い楽しんだが、その話はさておこう。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-018"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "卻說行者跳過枯松澗，按下雲頭，只聽得八戒與沙僧朗朗的在松間講話。行者上前喝八戒道：「你這獃子，全無人氣。你就懼怕妖火，敗走逃生，卻把老孫丟下。早是我有些南北哩。」八戒笑道：「哥啊，你被那妖精說著了，果然不達時務。古人云：『識得時務者，呼為俊傑。』那妖精不與你親，你強要認親；既與你賭鬥，放出那般無情的火來，又不走，還要與他戀戰哩。」行者道：「那怪物的手段比我何如？」八戒道：「不濟。」「槍法比我何如？」八戒道：「也不濟。老豬見他撐持不住，卻來助你一鈀，不期他不識耍，就敗下陣來，沒天理，就放火了。」行者道：「正是你不該來。我再與他鬥幾合，我取巧兒撈他一棒，卻不是好？」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 155
+        "line_end": 155
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L154-L154"
+    "translation_ja": |-
+      悟空が枯松澗を跳び越え、雲を降りると、松林の中から八戒と沙悟浄の明るい話し声が聞こえた。悟空は近づいて八戒を怒鳴った。
+      悟空「このばか、まるで人情のないやつだな！　妖怪の火が怖くなって、自分だけ命を助けようと逃げ、俺を置いていくとは。俺に少しは心得があったから、助かったものの！」
+      八戒は笑った。
+      八戒「兄貴、妖怪が言ったとおりだな。本当に物の分からないやつだ。昔から『時勢をわきまえる者を、俊傑と呼ぶ』っていうだろう。向こうは親戚だと思ってもいないのに、無理に親戚になろうとする。戦いになって、あんな情け容赦のない火を出されても、まだ逃げずに戦おうとするんだからな」
+      悟空「あの妖怪の腕前は、俺と比べてどうだ？」
+      八戒「かなわないな」
+      悟空「槍の技は、俺と比べてどうだ？」
+      八戒「それもかなわない。俺は、あいつがもう持ちこたえられないと見て、熊手の一撃で加勢してやったんだ。ところが、あいつは洒落の分からないやつで、負けて逃げたと思ったら、ひどいことに火を出しやがった」
+      悟空「だから、お前が出てくることはなかったんだ。もう数合戦っていれば、うまく一発たたき込めた。それでよかったじゃないか」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-019"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "他兩個只管論那妖精的手段，講那妖精的火毒。沙和尚倚著松根，笑得騃了。行者看見道：「兄弟，你笑怎麼？你好道有甚手段，擒得那妖魔，破得那火陣？這樁事，也是大家有益的事。常言道：『眾毛攢毬。』你若拿得妖魔，救了師父，也是你的一件大功績。」沙僧道：「我也沒甚手段，也不能降妖。我笑你兩個都著了忙也。」行者道：「我怎麼著忙？」沙僧道：「那妖精手段不如你，槍法不如你，只是多了些火勢，故不能取勝。若依小弟說，以相生相剋拿他，有甚難處？」行者聞言，呵呵笑道：「兄弟說得有理，果然我們著忙了，忘了這事。若以相生相剋之理論之，須是以水剋火。卻往那裡尋些水來，潑滅這妖火，可不救了師父？」沙僧道：「正是這般，不必遲疑。」行者道：「你兩個只在此間，莫與他索戰，待老孫去東洋大海求借龍兵，將些水來，潑息妖火，捉這潑怪。」八戒道：「哥哥放心前去，我等理會得。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 156
+        "line_end": 156
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L155-L155"
+    "translation_ja": |-
+      二人がひたすら紅孩児の腕前や、火の恐ろしさについて話していると、沙悟浄は松の根にもたれ、呆けたように笑っていた。悟空はそれに気づいた。
+      悟空「兄弟、何を笑っている？　あの妖怪を捕まえ、火の陣を破れるような手でもあるのか。これは俺たちみんなのためになることだ。『毛を集めれば球になる』というじゃないか。お前が妖怪を捕まえて師匠を助ければ、それも大きな手柄だぞ」
+      沙悟浄「私にも、特別な手はありません。妖怪を降伏させられるわけでもない。ただ、二人とも慌てているので笑ったんです」
+      悟空「俺たちのどこが慌てている？」
+      沙悟浄「あの妖怪は、腕前でも槍の技でも、兄さんに及びません。ただ、火の勢いが加わるから勝てないのです。私に言わせれば、相生相剋（そうせいそうこく）の理で捕まえれば、難しいことはないでしょう」
+      悟空は聞くなり、からからと笑った。
+      悟空「兄弟、そのとおりだ。なるほど、俺たちは焦って、そんなことも忘れていた。相生相剋で考えれば、水で火を抑えればいい。どこかで水を手に入れ、妖怪の火を消せば、師匠を救えるじゃないか」
+      沙悟浄「そのとおりです。ためらうことはありません」
+      悟空「お前たちはここにいて、あいつに戦いを挑むな。俺が東の大海へ行って、竜王の兵を借りてくる。水を持って来て、妖怪の火を消し、あの悪党を捕まえるんだ」
+      八戒「兄貴、安心して行ってこい。俺たちは心得ているよ」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-020"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "好大聖，縱雲離此地，頃刻到東洋，卻也無心看玩海景，使個逼水法，分開波浪。正行時，見一個巡海夜叉相撞，看見是孫大聖，急回到水晶宮裡，報知那老龍王。敖廣即率龍子、龍孫、蝦兵、蟹卒一齊出門迎接，請裡面坐。坐定，禮畢，告茶。行者道：「不勞茶，有一事相煩：我因師父唐僧往西天拜佛取經，經過號山枯松澗火雲洞，有個紅孩兒妖精，號聖嬰大王，把我師父拿了去。是老孫尋到洞邊，與他交戰，他卻放出火來。我們禁不得他，想著水能剋火，特來問你求些水去，與我下場大雨，潑滅了那火，救唐僧一難。」那龍王道：「大聖差了，若要求取雨水，不該來問我。」行者道：「你是四海龍王，主司雨澤，不來問你，卻去問誰？」龍王道：「我雖司雨，不敢擅專。須得玉帝旨意，吩咐在那地方，要幾尺幾寸，甚麼時辰起住，還要三官舉筆，太乙移文，會令了雷公、電母、風伯、雲童。俗語云：『龍無雲而不行』哩。」行者道：「我也不用著風雲雷電，只是要些雨水滅火。」龍王道：「大聖不用風雲雷電，但我一人也不能助力。著舍弟們同助大聖一功如何？」行者道：「令弟何在？」龍王道：「南海龍王敖欽、北海龍王敖閏、西海龍王敖順。」行者笑道：「我若再遊過三海，不如上界去求玉帝旨意了。」龍王道：「不消大聖去，只我這裡撞動鐵鼓、金鐘，他自頃刻而至。」行者聞其言道：「老龍王，快撞鐘鼓。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 157
+        "line_end": 157
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L156-L156"
+    "translation_ja": |-
+      悟空は雲を飛ばしてその場を離れ、たちまち東の海に着いた。海の眺めを楽しむ気もなく、水を押しのける術で波を分けて進んだ。途中で巡海の夜叉に出会った。夜叉は悟空だと気づき、急いで水晶宮（すいしょうきゅう）へ戻って竜王に知らせた。敖広（ごうこう）はただちに竜の子や孫、蝦の兵や蟹の兵卒を率い、そろって門へ出迎え、悟空を中へ招いて座らせた。着席して挨拶がすむと、茶を用意させた。
+      悟空「お茶には及ばない。頼みが一つある。私の師匠、唐僧が西天（さいてん）へ仏を拝み、経を取りに行く途中、号山の枯松澗、火雲洞を通りかかった。そこに紅孩児という妖怪がいて、聖嬰大王（せいえいだいおう）と名乗り、師匠を捕らえてしまった。私が洞を探し当てて戦うと、やつは火を放った。私たちにはしのぎきれない。水は火を抑えるものだと思い、あなたに水を借りに来たのだ。大雨を降らせて火を消し、唐僧の難儀を救っていただきたい」
+      敖広「大聖さま、それはお門違いです。雨をお求めなら、私に頼むべきではございません」
+      悟空「あなたは四海の竜王の一人で、雨をつかさどっている。あなたでなければ、誰に頼めばいい？」
+      敖広「雨をつかさどってはおりますが、勝手には降らせられません。玉帝（ぎょくてい）のご命令をいただき、どの場所に、何尺何寸（すん）、何の刻から何の刻まで降らせるのかを定めていただかなければなりません。そのうえ三官（さんかん）が筆を執り、太乙（たいいつ）が文書を回し、雷公（らいこう）・電母（でんぼ）・風伯（ふうはく）・雲童（うんどう）へ、一斉に指令を伝えるのです。俗に『竜は雲なくしては行かぬ』と申しますから」
+      悟空「風も雲も、雷も稲妻も要らない。火を消す雨水さえあればいいんだ」
+      敖広「風雲雷電がご不要でも、私一人ではお力になれません。弟たちにも手伝わせ、大聖さまに力を貸しては、いかがでしょう？」
+      悟空「弟さんたちは、どこにいる？」
+      敖広「南海（なんかい）の竜王、敖欽（ごうきん）。北海（ほっかい）の竜王、敖閏（ごうじゅん）。西海（さいかい）の竜王、敖順（ごうじゅん）でございます」
+      悟空は笑った。
+      悟空「さらに三つの海を回るくらいなら、天へ行って玉帝の命令をいただくほうが早い」
+      敖広「大聖さまが行かれるには及びません。ここで鉄の太鼓と金の鐘を鳴らせば、あっという間にやって来ます」
+      悟空「竜王、それなら早く鐘と太鼓を鳴らしてくれ」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-021"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "須臾間，三海龍王擁至，問：「大哥，有何事命弟等？」敖廣道：「孫大聖在這裡借雨助力降妖。」三弟即引進見畢，行者備言借水之事。眾神個個歡從，即點起："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 158
+        "line_end": 158
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L157-L157"
+    "translation_ja": |-
+      まもなく、三海の竜王がそろってやって来た。
+      三海の竜王「兄上、私たちに何をお命じになりますか？」
+      敖広「孫大聖（そんたいせい）が、妖怪退治を助ける雨を借りに来られたのだ」
+      三人の弟は中へ通され、悟空と挨拶を交わした。悟空は水を借りたい事情を、詳しく説明した。神々はみな喜んで従い、さっそく兵を召集した。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-022"
+    "section_id": "chapter-41"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      鯊魚驍勇為前部，鱯痴口大作先鋒。
+      鯉元帥翻波跳浪，鯁提督吐霧噴風。
+      鯖太尉東方打哨，鮊都司西路催征。
+      紅眼馬郎南面舞，黑甲將軍北下衝。
+      鯕把總中軍掌號，五方兵處處英雄。
+      縱橫機巧黿樞密，妙算玄微龜相公。
+      有謀有智鼉丞相，多變多能鱉總戎。
+      橫行蟹士掄長劍，直跳蝦婆扯硬弓。
+      鮎外郎查明文簿，點龍兵出離波中。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 160
+        "line_end": 168
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L159-L167"
+    "translation_ja": |-
+      勇猛な鮫が先の部隊を務め、大口の鱯痴（ごち）が先鋒となる。
+      鯉元帥（りげんすい）は波を翻して飛び跳ね、鯁提督（こうていとく）は霧を吐き、風を噴く。
+      鯖太尉（せいたいい）は東で斥候に立ち、鮊都司（はくとし）は西の路で進軍を促す。
+      紅眼馬郎（こうがんばろう）は南で舞い、黒甲将軍（こっこうしょうぐん）は北へ突き進む。
+      鯕把総（きはそう）が中軍で号令をつかさどり、五方の兵はどこも豪傑ぞろい。
+      黿枢密（げんすうみつ）は縦横に機略をめぐらし、亀相公（きしょうこう）は奥深く巧妙な策を立てる。
+      鼉丞相（だじょうしょう）は知恵と策略に富み、鼈総戎（べつそうじゅう）は変化も技も多彩だ。
+      横に進む蟹の兵は長剣を振り、まっすぐ跳ねる蝦婆（かば）は強弓を引く。
+      鮎外郎（ねんがいろう）が名簿を詳しく調べ、竜の兵を点呼して、波の中から出発させる。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-023"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "有詩為證。詩曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 170
+        "line_end": 170
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L169-L169"
+    "translation_ja": "このことを詠んだ詩がある。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-024"
+    "section_id": "chapter-41"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      四海龍王喜助功，齊天大聖請相從。
+      只因三藏途中難，借水前來滅火紅。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 172
+        "line_end": 173
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L171-L172"
+    "translation_ja": |-
+      四海の竜王は喜んで力を貸し、
+      斉天大聖は、ともに来てくれと頼む。
+      すべては三蔵が旅の途中で難に遭ったため、
+      水を借りて来て、赤い炎を消すのだ。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-025"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那行者領著龍兵，不多時，早到號山枯松澗上。行者道：「敖氏昆玉，有煩遠踄。此間乃妖魔之處，汝等且停於空中，不要出頭露面。讓老孫與他賭鬥，若贏了他，不須列位捉拿；若輸與他，也不用列位助陣。只是他但放火時，可聽我呼喚，一齊噴雨。」龍王俱如號令。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 175
+        "line_end": 175
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L174-L174"
+    "translation_ja": |-
+      悟空は竜王の兵を率い、ほどなく号山の枯松澗の上空に着いた。
+      悟空「敖家（ごうけ）のご兄弟、遠路おいでいただいて、かたじけない。ここが妖魔の住むところだ。皆さんはひとまず空中にとどまり、姿を見せないでいただきたい。私がやつと戦って、勝ったとしても、皆さんに捕まえていただくには及ばない。負けたとしても、加勢は要らない。ただ、やつが火を放ったら、私の呼ぶ声を合図に、一斉に雨を噴いてほしい」
+      竜王たちはみな、その指示に従った。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-026"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "行者卻按雲頭，入松林裡，見了八戒、沙僧，叫聲：「兄弟。」八戒道：「哥哥來得快啞。可曾請得龍王來？」行者道：「俱來了。你兩個切須仔細，只怕雨大，莫濕了行李。待老孫與他打去。」沙僧道：「師兄放心前去，我等俱理會得了。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 176
+        "line_end": 176
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L175-L175"
+    "translation_ja": |-
+      悟空は雲を降り、松林へ入って八戒と沙悟浄に会った。
+      悟空「兄弟！」
+      八戒「兄貴、ずいぶん早かったな。竜王を呼んでこられたか？」
+      悟空「みんな来てくれた。お前たちは十分注意しろ。大雨になるかもしれないから、荷物を濡らすなよ。俺はあいつと戦ってくる」
+      沙悟浄「兄さん、安心して行ってください。私たちはみな、心得ています」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-027"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "行者跳過澗，到了門首，叫聲：「開門！」那些小妖又去報道：「孫行者又來了。」紅孩仰面笑道：「那猴子想是火中不曾燒了他，故此又來。這一來切莫饒他，斷然燒個皮焦肉爛才罷。」急縱身，挺著長槍，教：「小的們，推出火車子來。」他出門前，對行者道：「你又來怎的？」行者道：「還我師父來。」那怪道：「你這猴頭，忒不通變。那唐僧與你做得師父，也與我做得按酒，你還思量要他哩，莫想，莫想。」行者聞言，十分惱怒，掣金箍棒，劈頭就打；那妖精使火尖槍，急架相迎。這一場賭鬥，比前不同。好殺："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 178
+        "line_end": 178
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L177-L177"
+    "translation_ja": |-
+      悟空は谷川を跳び越え、門の前まで行って叫んだ。
+      悟空「門を開けろ！」
+      小妖怪たちは、また報告に走った。
+      小妖怪たち「孫行者がまた来ました！」
+      紅孩児は顔を仰向けて笑った。
+      紅孩児「あの猿め、さっきの火では焼かれずにすんだので、また来たのだろう。今度は決して許さん。皮は焦げ、肉はただれるまで焼いてやる」
+      さっと立ち上がり、長槍を構えて命じた。
+      紅孩児「お前たち、火の車を押し出せ！」
+      門を出ると、悟空に言った。
+      紅孩児「何しにまた来た？」
+      悟空「師匠を返せ！」
+      紅孩児「この猿、融通の利かないやつだな。あの唐僧は、お前の師匠にもなれるが、俺の酒の肴にもなれる。それでもまだ、取り戻すつもりか。諦めろ、諦めろ！」
+      悟空はひどく腹を立て、金箍棒を抜くと、頭めがけて打ち下ろした。紅孩児は火尖槍で、すばやく受け止める。今度の戦いは、さっきとは違った。その激しさは、
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-028"
+    "section_id": "chapter-41"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "怒發潑妖魔，惱急猴王將。這一個專救取經僧，那一個要吃唐三藏。心變沒親情，情疏無義讓。這個恨不得捉住活剝皮，那個恨不得拿來生蘸醬。真個忒英雄，果然多猛壯。棒來槍架賭輸贏，槍去棒迎爭下上。舉手相掄二十回，兩家本事一般樣。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 180
+        "line_end": 180
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L179-L179"
+    "translation_ja": |-
+      悪い妖魔は怒りを爆発させ、猿の王も怒りの極みに達する。
+      こちらはひたすら取経の僧を救おうとし、
+      あちらは唐三蔵（とうさんぞう）を食おうとする。
+      心が変わって、身内の情など消え失せ、
+      情が遠のけば、義理も譲り合いもない。
+      こちらは捕まえて、生きたまま皮をはぎたいと願い、
+      あちらは捕らえて、生のまま味噌につけて食いたいと願う。
+      まことに勇ましく、なるほど、どちらも強くたくましい。
+      棒が来れば槍で受け、勝ち負けを賭け、
+      槍が行けば棒で迎え、優劣を争う。
+      手を上げて、互いに二十合打ち合ったが、
+      二人の腕前は、互角だった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-029"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那妖王與行者戰經二十回合，見得不能取勝，虛幌一槍，急抽身，捏著拳頭，又將鼻子搥了兩下，卻就噴出火來，那門前車子上煙火迸起，口眼中赤焰飛騰。孫大聖回頭叫道：「龍王何在？」那龍王兄弟帥眾水族，望妖精火光裡噴下雨來。好雨！真個是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 181
+        "line_end": 181
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L180-L180"
+    "translation_ja": |-
+      紅孩児は悟空と二十合戦い、勝てないと見ると、槍を一つ、空振りするように見せかけ、急いで身を引いた。拳を握り、また鼻を二度殴ると、たちまち火を噴き出した。門の前の車から煙と火がほとばしり、口と目からも赤い炎が舞い上がる。悟空は振り返って叫んだ。
+      悟空「竜王、どこにおられる！」
+      竜王の兄弟は水族の軍勢を率い、妖怪の炎めがけて雨を噴き下ろした。なんという雨だろう。まさしく、
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-030"
+    "section_id": "chapter-41"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "瀟瀟灑灑，密密沉沉。瀟瀟灑灑，如天邊墜落星辰；密密沉沉，似海口倒懸浪滾。起初時如拳大小，次後來甕潑盆傾。滿地澆流鴨頂綠，高山洗出佛頭青。溝壑水飛千丈玉，澗泉波漲萬條銀。三叉路口看看滿，九曲溪中漸漸平。這個是唐僧有難神龍助，扳倒天河往下傾。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 183
+        "line_end": 183
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L182-L182"
+    "translation_ja": |-
+      ざあざあと降り注ぎ、びっしりと重く垂れ込める。
+      ざあざあと降るさまは、空の果てから星が落ちるよう。
+      びっしりと垂れ込めるさまは、海の出口を逆さに吊り、波が転げ落ちるよう。
+      初めは拳ほどの大きな雨粒、
+      やがては甕や桶をひっくり返したようになる。
+      大地を洗う流れは、鴨の頭のような緑となり、
+      高山は洗い出されて、仏の頭のような青となる。
+      溝や谷には、千丈の玉のような水が飛び、
+      谷川や泉には、万筋の銀のような波が増す。
+      三つまたの道は、見る間に水で満ち、
+      九重に曲がる川も、次第に岸と同じ高さになる。
+      唐僧の難を、神竜たちが助けようと、
+      天の川をひっくり返し、地上へ注いでいるのだ。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-031"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那雨淙淙大小，莫能止息那妖精的火勢。原來龍王私雨，只好潑得凡火，妖精的三昧真火如何潑得？好一似火上澆油，越潑越灼。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 185
+        "line_end": 185
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L184-L184"
+    "translation_ja": "雨は強弱を変えながら、とうとうと降り続いたが、紅孩児の火勢を鎮めることはできなかった。そもそも竜王が自分たちの判断で降らせる雨は、普通の火なら消せても、妖怪の三昧真火（さんまいしんか）をどうして消せよう。まるで火に油を注ぐように、水をかければかけるほど、激しく燃えた。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-032"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "大聖道：「等我捻著訣，鑽入火中。」掄鐵棒，尋妖要打。那妖見他來到，將一口煙劈臉噴來。行者急回頭，煼得眼花雀亂，忍不住淚落如雨。原來這大聖不怕火，只怕煙。當年因大鬧天宮時，被老君放在八卦爐中鍛過一番，他幸在那巽位安身，不曾燒壞。只是風攪得煙來，把他煼做火眼金睛，故至今只是怕煙。那妖又噴一口，行者當不得，縱雲頭走了。那妖王卻又收了火具，回歸洞府。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 187
+        "line_end": 187
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L186-L186"
+    "translation_ja": |-
+      悟空「よし、印を結んで、火の中へ入ってみよう」
+      鉄棒を振りかざし、紅孩児を見つけて打とうとした。紅孩児は悟空が近づくと、真正面から顔へ、一口の煙を噴きつけた。悟空は急いで顔を背けたが、燻されて目がちらつき、涙が雨のように流れるのをこらえられなかった。
+      実は悟空は火を恐れず、ただ煙を恐れた。かつて天宮で大暴れしたため、太上老君（たいじょうろうくん）の八卦炉（はっけろ）へ入れられ、一度火で煉られたことがあった。幸い、巽（そん）の方位へ身を寄せたので、焼けはしなかった。ただ、風が煙を巻き込み、その煙に燻されて火眼金睛（かがんきんせい）になったため、今でも煙だけは苦手だったのである。
+      紅孩児がもう一口煙を噴くと、悟空は耐えきれず、雲に飛び乗って逃げた。紅孩児は再び火の道具を収め、洞へ戻った。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-033"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "這大聖一身煙火，炮燥難禁，徑投於澗水內救火。怎知被冷水一逼，弄得火氣攻心，三魂出舍。可憐氣塞胸堂喉舌冷，魂飛魄散喪殘生。慌得那四海龍王在半空裡收了雨澤，高聲大叫：「天蓬元帥、捲簾將軍，休在林中藏隱，且尋你師兄出來。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 188
+        "line_end": 188
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L187-L187"
+    "translation_ja": |-
+      悟空は全身を煙と火に包まれ、焼けつく熱さに耐えられず、火を消そうと、まっすぐ谷川へ飛び込んだ。ところが冷水に急に冷やされ、火の気が心へ攻め上り、三つの魂が体を離れてしまった。ああ、気は胸に詰まり、喉も舌も冷え、魂は飛び散って、残る命も失った。
+      四海の竜王は慌て、空中で雨をやめて、大声で叫んだ。
+      四海の竜王「天蓬元帥（てんぽうげんすい）、捲簾将軍（けんれんしょうぐん）！　林に隠れていないで、早く兄弟子を捜し出してください！」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-034"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "八戒與沙僧聽得呼他聖號，急忙解了馬，挑著擔，奔出林來，也不顧泥濘，順澗邊找尋。只見那上溜頭翻波滾浪，急流中淌下一個人來。沙僧見了，連衣跳下水中，抱上岸來，卻是孫大聖身軀。噫！你看他蜷跼四肢伸不得，渾身上下冷如冰。沙和尚滿眼垂淚道：「師兄，可惜了你，億萬年不老長生客，如今化作個中途短命人。」八戒笑道：「兄弟莫哭。這猴子佯推死，嚇我們哩。你摸他摸，胸前還有一點熱氣沒有？」沙僧道：「渾身都冷了，就有一點兒熱氣，怎的就得回生？」八戒道：「他有七十二般變化，就有七十二條性命。你扯著腳，等我擺佈他。」真個那沙僧扯著腳，八戒扶著頭，把他拽個直，推上腳來，盤膝坐定。八戒將兩手搓熱，仵住他的七竅，使一個按摩禪法。原來那行者被冷水逼了，氣阻丹田，不能出聲。卻幸得八戒按摸揉擦，須臾間，氣透三關，轉明堂，沖開孔竅，叫了一聲：「師父啊！」沙僧道：「哥啊，你生為師父，死也還在口裡。且甦醒，我們在這裡哩。」行者睜開眼道：「兄弟們在這裡？老孫吃了虧也。」八戒笑道：「你才子發昏的，若不是老豬救你啊，已此了帳了，還不謝我哩。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 189
+        "line_end": 189
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L188-L188"
+    "translation_ja": |-
+      八戒と沙悟浄は、自分たちの昔の尊称で呼ばれるのを聞くと、急いで馬の縄を解き、荷物を担いで林から駆け出した。ぬかるみも構わず谷川沿いを捜すと、上流で波が渦を巻き、急流の中を一人の体が流されてきた。沙悟浄はそれを見るなり、衣服のまま水へ飛び込み、抱きかかえて岸へ上げた。ほかでもない、悟空の体だった。ああ、手足は縮こまって伸びず、全身が氷のように冷えている。
+      沙悟浄は目いっぱいに涙をためて言った。
+      沙悟浄「兄さん、なんということだ。億万年も老いずに生きるはずだったのに、今では旅の途中で短い命を終える人になってしまった」
+      八戒は笑った。
+      八戒「兄弟、泣くな。この猿は死んだふりで、俺たちを驚かせているんだ。触ってみろ。胸のあたりに、まだ少しは温かみが残っていないか？」
+      沙悟浄「全身冷えきっています。少し温かみがあったところで、どうして生き返るんです？」
+      八戒「七十二とおりに変化できるんだから、命だって七十二ある。お前は足を引っ張れ。俺が何とかしてやる」
+      沙悟浄が足を引き、八戒が頭を支えて体をまっすぐに伸ばした。それから足を押し上げ、あぐらを組ませて座らせた。八戒は両手をこすって温め、悟空の七竅（しちきょう）に当て、按摩の禅法を施した。
+      悟空は冷水に押さえられ、気が丹田（たんでん）で滞っていたので、声を出せなかったのである。幸い八戒が押したり揉んだりさすったりすると、やがて気が三関（さんかん）を通り、明堂（めいどう）をめぐり、体の穴を押し開いて、声が出た。
+      悟空「お師匠さま！」
+      沙悟浄「兄さん、生きているときも師匠、死んでもなお、やはり師匠ですか。さあ、気を確かにしてください。私たちはここにいます」
+      悟空は目を開けた。
+      悟空「兄弟たち、ここにいたのか。俺はひどい目に遭ったな」
+      八戒は笑った。
+      八戒「さっきは気を失っていたんだぞ。俺が助けなければ、とっくにおしまいだった。まだ礼も言わないのか」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-035"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "行者卻才起身，仰面道：「敖氏弟兄何在？」那四海龍王在半空中答應道：「小龍在此伺候。」行者道：「累你遠勞，不曾成得功果，且請回去，改日再謝。」龍王帥水族，泱泱而回，不在話下。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 190
+        "line_end": 190
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L189-L189"
+    "translation_ja": |-
+      悟空はようやく立ち上がり、顔を上げた。
+      悟空「敖家のご兄弟、どこにおられる？」
+      四海の竜王が、空中から答えた。
+      四海の竜王「私どもは、ここでお待ちしております」
+      悟空「遠くまでお手数をかけたのに、功を成せなかった。ひとまずお帰りください。改めてお礼を申し上げます」
+      竜王たちは水族の軍勢を率い、堂々と引き揚げていった。この話は、ひとまずここまでとしよう。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-036"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      沙僧攙著行者，一同到松林之下坐定。少時間，卻定神順氣，止不住淚滴腮邊。又叫：「師父啊！
+
+      憶昔當年出大唐，巖前救我脫災殃。
+      三山六水遭魔障，萬苦千辛割寸腸。
+      托缽朝餐隨厚薄，參禪暮宿或林莊。
+      一心指望成功果，今日安知痛受傷？」
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 192
+        "line_end": 197
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L191-L196"
+    "translation_ja": |-
+      沙悟浄は悟空に手を貸し、一緒に松林の下へ戻って座った。しばらくして、ようやく心が落ち着き、息も整ったが、悟空は頬を伝う涙を止められなかった。また声を上げた。
+      悟空「お師匠さま！
+      あの昔、大唐（だいとう）を出発なされ、
+      岩山の前で私を救い、災いから解き放ってくださった。
+      三つの山、六つの川で、魔に行く手を阻まれ、
+      万の苦しみ、千の辛さに、はらわたも裂ける思い。
+      朝は鉢を差し出し、施しの多い少ないに任せて食べ、
+      夕べは禅を修め、林や村に泊まった。
+      ひたすら修行を成し遂げる日を待ち望んできたのに、
+      今日、こんなにひどく傷つくとは、誰が知っていたでしょう」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-037"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "沙僧道：「哥哥，且休煩惱。我們早安計策，去那裡請兵助力，搭救師父耶。」行者道：「那裡請救麼？」沙僧道：「當初菩薩吩咐，著我等保護唐僧，他曾許我們：叫天天應，叫地地應。那裡請救去？」行者道：「想老孫大鬧天宮時，那些神兵都禁不得我。這妖精神通不小，須是比老孫手段大些的才降得他哩。天神不濟，地煞不能，若要拿此妖魔，須是去請觀音菩薩才好。奈何我皮肉酸麻，腰膝疼痛，駕不起觔斗雲，怎生請得？」八戒道：「有甚話吩咐，等我去請。」行者笑道：「也罷，你是去得。若見了菩薩，切休仰視，只可低頭禮拜。等他問時，你卻將地名、妖名說與他，再請救師父之事。他若肯來，定取擒了怪物。」八戒聞言，即便駕了雲霧，向南而去。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 198
+        "line_end": 198
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L197-L197"
+    "translation_ja": |-
+      沙悟浄「兄さん、ひとまず悲しむのはおやめください。早く策を立てて、どこかへ援軍を頼み、お師匠さまを助けましょう」
+      悟空「どこへ助けを頼めばいい？」
+      沙悟浄「初めに菩薩は、私たちに唐僧を守るよう命じたとき、『天を呼べば天が応え、地を呼べば地が応える』と約束してくださいました。どこへ助けを求めましょう？」
+      悟空「俺が天宮で暴れたころ、天の神兵は誰も俺を抑えられなかった。この妖怪の神通力は並ではない。俺より腕の上の者でなければ、降伏させられないだろう。天の神々では役に立たず、地の神々にもできない。この妖怪を捕まえるには、観音菩薩（かんのんぼさつ）をお呼びするしかない。だが、皮膚も肉もしびれてうずき、腰や膝が痛む。觔斗雲（きんとうん）に乗れないんだ。どうやってお呼びしたらいい？」
+      八戒「伝えることがあるなら、言ってくれ。俺が行ってくる」
+      悟空は笑った。
+      悟空「それもいい。お前なら行けるな。菩薩にお会いしたら、決して顔を見上げるな。ただ頭を下げて拝め。お尋ねになったら、場所の名、妖怪の名をお伝えし、それから師匠を助けていただくようお願いするんだ。来てくだされば、きっと妖怪を捕まえてくださる」
+      八戒はそれを聞くと、すぐ雲霧に乗り、南へ向かった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-038"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "卻說那個妖王在洞裡歡喜道：「小的們，孫行者吃了虧去了。這一陣雖不得他死，好道也發個大昏。咦！只怕他又請救兵來也。快開門，等我去看他請誰。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 200
+        "line_end": 200
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L199-L199"
+    "translation_ja": |-
+      一方、紅孩児は洞の中で喜んでいた。
+      紅孩児「お前たち、孫行者はひどい目に遭って逃げたぞ。今の戦いで死ななかったにしても、ひどく気を失ったに違いない。おや、待てよ。あいつはまた援軍を呼ぶかもしれない。早く門を開けろ。誰を呼ぶのか、見てこよう」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-039"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "眾妖開了門，妖精就跑在空裡觀看，只見八戒往南去了。妖精想著南邊再無他處，斷然是請觀音菩薩。急按下雲，叫：「小的們，把我那皮袋尋出來。多時不用，只恐口繩不牢，與我換上一條，放在二門之下。等我去把八戒賺將回來，裝於袋內，蒸得稀爛，犒勞你們。」原來那妖精有一個如意的皮袋。眾小妖拿出來，換了口繩，安於洞門內不題。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 201
+        "line_end": 201
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L200-L200"
+    "translation_ja": |-
+      小妖怪たちが門を開けると、紅孩児は空へ駆け上がって見回した。八戒が南へ向かっている。南にはほかに行くところもないから、きっと観音菩薩を呼びに行くのだろうと考えた。すぐ雲を降り、命じた。
+      紅孩児「お前たち、俺の革袋を出してこい。長らく使っていないから、口を縛る紐が弱っているかもしれない。新しい紐に替えて、二つ目の門の下へ置いておけ。八戒をだまして連れ帰り、袋へ詰め、ぐずぐずになるまで蒸して、お前たちに振る舞ってやる」
+      紅孩児は、思いのままに使える革袋を一つ持っていた。小妖怪たちはそれを取り出し、口紐を取り替えて、洞の門の内側へ置いた。この話はさておこう。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-040"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "卻說那妖王久居於此，俱是熟遊之地，他曉得那條路上南海去近，那條路去遠。他從那近路上，一駕雲頭，趕過了八戒，端坐在壁巖之上，變作一個假觀世音模樣，等候著八戒。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 203
+        "line_end": 203
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L202-L202"
+    "translation_ja": "紅孩児は長年ここに暮らし、あたりはどこも歩き慣れた土地だった。南海へ行くには、どの道が近く、どの道が遠回りなのかも心得ている。近道を取って雲を飛ばし、八戒を追い越すと、岩壁の上へ端然と座り、観世音（かんぜおん）の偽の姿に化けて、八戒を待ち構えた。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-041"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那獃子正縱雲行處，忽然望見菩薩。他那裡識得真假？這才是見像作佛。獃子停雲下拜道：「菩薩，弟子豬悟能叩頭。」妖精道：「你不保唐僧去取經，卻見我有何事幹？」八戒道：「弟子因與師父行至中途，遇著號山枯松澗火雲洞有個紅孩兒妖精，他把我師父攝了去。是弟子與師兄等尋上他門，與他交戰。他原來會放火，頭一陣，不曾得贏。第二陣，請龍王助雨，也不能滅火。師兄被他燒壞了，不能行動，著弟子來請菩薩。萬望垂慈，救我師父一難。」妖精道：「那火雲洞洞主，不是個傷生的，一定是你們衝撞了他也。」八戒道：「我不曾衝撞他，是師兄悟空衝撞他的。他變作一個小孩兒，吊在樹上，試我師父。師父甚有善心，教我解下來，著師兄馱他一程。是師兄摜了他一摜，他就弄風兒，把師父攝去了。」妖精道：「你起來，跟我進那洞裡見洞主，與你說個人情，你陪一個禮，把你師父討出來罷。」八戒道：「菩薩呀，若肯還我師父，就磕他一個頭也罷。」妖王道：「你跟來。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 204
+        "line_end": 204
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L203-L203"
+    "translation_ja": |-
+      八戒は雲を飛ばしているうち、ふと菩薩の姿を見つけた。本物か偽物か、区別できるはずもない。これこそ、姿を見ただけで仏だと思い込むというものだ。雲を止め、身を伏せて拝んだ。
+      八戒「菩薩さま、弟子の猪悟能（ちょごのう）が、謹んでお拝みいたします」
+      紅孩児「唐僧を守って経を取りに行かず、私に会って何をするつもりです？」
+      八戒「私たちが師匠と旅を続けていると、途中の号山、枯松澗の火雲洞に、紅孩児という妖怪がおりまして、師匠をさらってしまいました。私が兄弟子らと洞を捜し当て、戦いを挑んだところ、やつは火を放つ術を持っていて、最初の戦いでは勝てませんでした。二度目は竜王に雨の助けを頼みましたが、それでも火を消せません。兄弟子は火に傷つけられて動けなくなり、私を菩薩さまのお迎えに出しました。どうか慈悲をお垂れになり、師匠の難をお救いください」
+      紅孩児「火雲洞の主人は、生き物を傷つける者ではありません。きっと、お前たちが怒らせたのでしょう」
+      八戒「私は怒らせておりません。怒らせたのは兄弟子の悟空です。やつは小さな子供に化け、木に吊られて、師匠を試しました。師匠はたいそう心がお優しく、私に縄を解いて降ろさせ、兄弟子には背負って少し運ぶよう命じました。ところが兄弟子が地面へたたきつけたので、やつは風を起こし、師匠をさらっていったのです」
+      紅孩児「立ちなさい。私について洞へ入り、主人に会うのです。私が取りなしてあげますから、お前が一言謝り、師匠を返してもらいなさい」
+      八戒「菩薩さま、師匠を返してくれるのなら、頭を地につけて拝んだって構いません」
+      紅孩児「ついておいで」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-042"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那獃子不知好歹，就跟著他，徑回舊路，卻不向南洋海，隨赴火雲門，頃刻間到了門首。妖精進去道：「你休疑忌。他是我的故人，你進來。」獃子只得舉步入門。眾妖一齊吶喊，將八戒捉倒，裝於袋內，束緊了口繩，高吊在馱梁之上。妖精現了本像，坐在當中道：「豬八戒，你有甚麼手段，就敢保唐僧取經？就敢請菩薩降我？你大睜著兩個眼，還不認得我是聖嬰大王哩。如今拿你，吊得三五日，蒸熟了賞賜小妖，權為案酒。」八戒聽言，在裡面罵道：「潑怪物！十分無禮。若論你百計千方，騙了我吃，管教你一個個遭腫頭天瘟。」獃子罵了又罵，嚷了又嚷，不題。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 205
+        "line_end": 205
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L204-L204"
+    "translation_ja": |-
+      八戒は何も見抜けないまま紅孩児についていき、元来た道を戻った。南の海へは向かわず、火雲洞の門へ向かい、たちまち到着した。紅孩児は中へ入り、声をかけた。
+      紅孩児「疑うことはありません。ここの主人は私の古い知り合いです。入りなさい」
+      八戒は仕方なく、足を踏み入れた。すると小妖怪たちが一斉に鬨の声を上げ、八戒を捕らえて押し倒し、袋へ詰め、口紐を固く締めて、梁の高いところへ吊るした。紅孩児は本来の姿に戻り、中央に座って言った。
+      紅孩児「猪八戒、お前にどれほどの腕があるというんだ。唐僧を守って取経に行くだと？　菩薩を呼んで、俺を降伏させるだと？　二つの目を大きく開いていながら、俺が聖嬰大王だと見抜けもしなかったじゃないか。こうして捕まえたからには、三日か五日吊るしておいてから、蒸し上げて小妖怪どもへ褒美にやり、酒の肴にしてやる」
+      八戒は聞くと、袋の中から罵った。
+      八戒「悪党め、無礼にもほどがあるぞ！　お前たちがあの手この手で俺をだまして食おうというなら、一人残らず、頭の腫れる天罰の疫病にかかるがいい！」
+      八戒は罵り続け、わめき続けたが、この話はひとまず置こう。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-043"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "卻說孫大聖與沙僧正坐，只見一陣腥風，刮面而過，他就打了一個噴嚏道：「不好，不好！這陣風凶多吉少，想是豬八戒走錯路也。」沙僧道：「他錯了路，不會問人？」行者道：「想必撞見妖精了。」沙僧道：「撞見妖精，他不會跑回？」行者道：「不停當。你坐在這裡看守，等我跑過澗去打聽打聽。」沙僧道：「師兄腰疼，只恐又著他手，等小弟去罷。」行者道：「你不濟事，還讓我去。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 207
+        "line_end": 207
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L206-L206"
+    "translation_ja": |-
+      さて、悟空と沙悟浄が座っていると、生臭い風がさっと顔をかすめた。悟空はくしゃみを一つした。
+      悟空「まずい、まずい！　この風は吉より凶が多い。猪八戒は道を間違えたらしいぞ」
+      沙悟浄「道を間違えたのなら、人に聞けばよいでしょう？」
+      悟空「きっと妖怪に出会ったんだ」
+      沙悟浄「妖怪に出会ったのなら、逃げて帰れないんですか？」
+      悟空「これはまずい。お前はここにいて、見張っていろ。俺が谷を越えて、様子を探ってくる」
+      沙悟浄「兄さんは腰が痛いのでしょう。また敵の手に落ちるかもしれません。私に行かせてください」
+      悟空「お前には無理だ。やはり俺が行こう」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-044"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "好行者，咬著牙，忍著疼，捻著鐵棒，走過澗，到那火雲洞前，叫聲：「潑怪！」那把門的小妖又急入裡報：「孫行者又在門首叫哩。」那妖王傳令叫拿。那夥小妖槍刀簇擁，齊聲吶喊，即開門，都道：「拿住，拿住。」行者果然疲倦，不敢相迎，將身鑽在路傍，念個咒語，叫：「變！」即變做一個銷金包袱。小妖看見取了進去，報道：「大王，孫行者怕了，只見說一聲『拿』字，慌得把包袱丟下，走了。」妖王笑道：「那包袱也無甚麼值錢之物，左右是和尚的破褊衫、舊帽子，背進來拆洗做補襯。」一個小妖果將包袱背進，不知是行者變的。行者道：「好了，這個銷金包袱背著了。」那妖精不以為事，丟在門內。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 208
+        "line_end": 208
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L207-L207"
+    "translation_ja": |-
+      悟空は歯を食いしばり、痛みをこらえ、鉄棒を握って谷川を越え、火雲洞の前へ行った。
+      悟空「悪党め！」
+      門番の小妖怪は、また急いで中へ報告した。
+      門番の小妖怪「孫行者がまた門の前で叫んでおります！」
+      紅孩児は捕らえろと命じた。小妖怪たちは槍や刀を群がるように構え、一斉に鬨の声を上げて門を開けた。
+      小妖怪たち「捕まえろ、捕まえろ！」
+      悟空はやはり疲れきっていて、迎え撃てなかった。道の脇へ身を潜め、呪文を唱えた。
+      悟空「変われ！」
+      たちまち金箔の文様入りの包みへ変わった。小妖怪が見つけて持ち込み、報告した。
+      小妖怪「大王、孫行者は怖くなったようです。『捕まえろ』の一言を聞いただけで、慌てて包みを投げ捨て、逃げました」
+      紅孩児は笑った。
+      紅孩児「そんな包みに、値打ちのある物など入っていまい。どうせ坊主の破れた上衣や古い帽子だ。背負って来て、ほどいて洗い、継ぎ布にでもしろ」
+      小妖怪の一人が、その包みを背負って中へ入った。悟空が化けたものとは知らない。
+      悟空「よし、金箔模様のこの包みを、背負ってくれたぞ」
+      紅孩児は気にも留めず、門の内側へ放っておかせた。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-045"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      好行者，假中又假，虛裡還虛：即拔一根毫毛，吹口仙氣，變作個包袱一樣；他的真身卻又變作一個蒼蠅兒，釘在門樞上。只聽得八戒在那裡哼哩哼的，聲音不清，卻似一個瘟豬。行者嚶的飛了去尋時，原來他吊在皮袋裡也。行者釘在皮袋上，又聽得他惡言惡語罵妖怪長，妖怪短：「你怎麼假變作個觀音菩薩，哄我回來，吊我在此，還說要吃我？有一日我師兄：
+
+      大展齊天無量法，滿山潑怪等時擒。
+      解開皮袋放我出，築你千鈀方趁心。」
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 210
+        "line_end": 213
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L209-L212"
+    "translation_ja": |-
+      悟空は偽りの中にさらに偽り、虚の中にさらに虚を重ねた。毛を一本抜いて仙気を吹きかけ、同じ形の包みに変え、自分の体は蝿に変えて、門の軸へ止まった。
+      耳を澄ますと、どこかで八戒がううん、ううんと唸っている。声はこもって、病気の豚のようだった。悟空がぶんと飛んで捜すと、八戒は革袋の中へ入れられ、吊るされていた。袋に止まると、八戒はなおも口汚く妖怪を罵っていた。
+      八戒「よくも偽の観音菩薩に化けて、俺をだまして連れ帰り、こんなところに吊るしてくれたな。そのうえ食うだと！　いつか俺の兄貴が、
+      天にも等しい、限りない術を大いに振るい、
+      山じゅうの悪い妖怪を、たちどころに捕らえるぞ。
+      革袋をほどき、俺を外へ出してくれたら、
+      お前らを熊手で千回突いて、やっと気が晴れるんだ！」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-046"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "行者聞言，暗笑道：「這獃子雖然在這裡面受悶氣，卻還不倒了旗槍。老孫一定要拿了此怪；若不如此，怎生雪恨。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 214
+        "line_end": 214
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L213-L213"
+    "translation_ja": |-
+      悟空はそれを聞き、ひそかに笑った。
+      悟空「このばか、こんな中で憂さをためていても、まだ降参する気はないらしいな。俺は必ずこの妖怪を捕まえてやる。そうでなければ、どうして恨みを晴らせるものか」
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-047"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "正欲設法拯救八戒出來，只聽得妖王叫道：「六健將何在？」時有六個小妖是他知己的精靈，封為健將，都有名字：一個叫做雲裡霧，一個叫做霧裡雲；一個叫做急如火，一個叫做快如風；一個叫做興烘掀，一個叫做掀烘興。六健將上前跪下。妖王道：「你們認得老大王家麼？」六健將道：「認得。」妖王道：「你與我星夜去請老大王來，說我這裡捉唐僧蒸與他吃，壽延千紀。」六怪領命，一個個廝拖廝扯，徑出門去了。行者嚶的一聲，飛下袋來，跟定那六怪，躲離洞中。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 216
+        "line_end": 216
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L215-L215"
+    "translation_ja": |-
+      悟空が八戒を救い出す方法を考えようとしたとき、紅孩児の声が聞こえた。
+      紅孩児「六健将（ろっけんしょう）はいるか！」
+      紅孩児がとくに信頼し、健将に任じた小妖怪が六人いた。それぞれに名があり、一人は雲裡霧（うんりむ）、一人は霧裡雲（むりうん）、一人は急如火（きゅうじょか）、一人は快如風（かいじょふう）、一人は興烘掀（こうこうけん）、一人は掀烘興（けんこうこう）といった。六健将が進み出てひざまずいた。
+      紅孩児「お前たち、老大王のお住まいを知っているな？」
+      六健将「存じております」
+      紅孩児「夜道を急いで、老大王を迎えに行け。ここで唐僧を捕まえたので、蒸して召し上がっていただき、千紀（き）の寿命をお延ばしいただこうとな」
+      六人の妖怪は命令を受け、互いに引っ張り合い、連れ立ってまっすぐ門を出た。悟空はぶんと音を立てて袋を離れ、六人のあとについて、そっと洞を抜け出した。
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-048"
+    "section_id": "chapter-41"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "畢竟不知怎的請來，且聽下回分解。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "precision": "line"
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+        "line_start": 218
+        "line_end": 218
+    "source_alignment":
+      - "source_id": "wikisource-xiyou-ch41-1500598"
+        "original_unit_id": "ws41-L217-L217"
+    "translation_ja": "さて、いったいどのようにして迎えてくるのか。それは次回のお話で。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-01-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "回題の心猿は心を猿にたとえた語で、ここでは悟空を指す。木母は内丹の寓意語で、八戒に重ねられる。通常の地の文・話者名をこの寓意語へ置き換えない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-02-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "冒頭の『迴鑾古道』は、御車が引き返す古道として訳した。具体的な行幸の故事や地名の同定は未確定。『崑崙地脈發來龍』は風水の地脈を竜になぞらえる語で、生きた竜がここから出たという出来事を補ってはいない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-03-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "義兄弟の列挙は底本どおり七人・七つの称号と順を残した。大鵬魔王、獅㾩王、\U000247F9狨王は、従前の鵬魔王、獅駝王、禺狨王に対応する異表記として同じ辞書項目へ結ぶ。㾩を駝などへ無断訂正せず、原字を訳文にも残す。『以長欺幼』は年長者が年少者をいじめる意味で、父子関係を新たに作らない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-04-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "『正果善財郎』は、この時点の原詩が紅孩児へ与えている予告的な呼び名として訳した。場面内で正式に名づけられたとは扱わず、通常の地の文と発言者名は紅孩児のままとする。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-05-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "五行の生化は肝木→心火→脾土→金→水→木の順を保持した。身体の気と火を結びつける物語上の内丹的な説明であり、現代の生理学・医療の説明ではない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-06-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "『槍法比我何如？』には底本で発話動詞が省かれているが、悟空の比較の問いと八戒の返答が続く文脈に従い、悟空の発話とした。原文は変更していない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-07-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "この回の敖広の発言は、敖閏を北海、敖順を西海の竜王とする。第三回の敖順＝北海、敖閏＝西海とは逆だが、原文の発言を無断で訂正せず、そのまま訳した。人物の対応は海域の役割を基準にし、北海の敖閏は従前の北海竜王の異名、西海の敖順は従前の西海竜王の異名として扱う。同じ字の個人名だけで北海と西海の人物を取り違えず、双方の竜王を一人に統合しない。降雨の手続きで文書を回す『太乙』の具体的な神格の同定は未確定であり、他の太乙を含む神名へ拡張しない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-08-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "水族の軍勢は、魚介・水生動物に人間の官職を割り当てた列挙であり、全役職と動作を保持した。鱯痴、鯁、鯖、鮊、鯕、紅眼馬郎、黒甲将軍、蝦婆の種の厳密な同定は留保する。蝦婆の婆という字だけで性別を女性と断定せず、黒甲の甲を生物の甲羅と断定しない。別版本の検索表示には鯕と鱑などの違いがあるが、底本の字を変更していない。鮎は中国語ではナマズをいい、日本語のアユではない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-09-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "『鴨頂綠』『佛頭青』は水や山の色をたとえる語。鴨の頭や仏像が水中に実在するという出来事にはしていない。千丈・万条の数は詩の誇張として残した。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-10-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "語り手の『喪殘生』と沙悟浄の『死也』という死亡の表現はそのまま残した。続いて八戒が死んだふりだと言い、悟空が回復するが、これを理由に先の表現を昏倒だけへ書き換えない。悟空の倒れた状態と回復は、魂・丹田・三関・明堂・七竅などを用いた物語上の身体観である。三関の具体的な部位は説が分かれ、本文だけから確定しない。八戒の『七十二の変化だから七十二の命』は本人の発言として残し、語り手の説明にはしていない。按摩の描写は現代の救命処置を示すものではない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-11-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原詩の『三山六水』は多くの山川をいう表現として読めるが、数字を落とさず三つの山、六つの川と訳した。ここで過去の旅程を実際に三山六河と数え直したものではない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-12-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "八戒は紅孩児の変身を見抜かず、悟空が子供を地面へたたきつけたことを説明する。これは八戒の認識・弁明として訳し、紅孩児を害のない善人とする語り手の判断へ変えない。観音の姿をした発話者は紅孩児である。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-13-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "『銷金包袱』は金箔による文様のある包みとして訳す。小妖怪が背負い込むという字面を残し、『厄介を背負い込んだ』という含みの可能性はあるが、本文へ断定的な説明を加えなかった。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch41-note-14-body"
+    "section_id": "chapter-41"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "六健将の名は、対になる語を入れ替えた三組の構成を保持した。末尾の『老大王』はこの時点の呼びかけを残す。千紀は長寿を誇張する表現として訳し、現代の年数へ確定的に換算していない。"
+    "translation_status": "reviewed"
+"notes":
+  - "id": "xy-ch41-note-01"
+    "origin": "translator"
+    "label": "1"
+    "body":
+      - "segment_id": "xy-ch41-note-01-body"
+    "form": "endnote"
+  - "id": "xy-ch41-note-02"
+    "origin": "translator"
+    "label": "2"
+    "body":
+      - "segment_id": "xy-ch41-note-02-body"
+    "form": "endnote"
+  - "id": "xy-ch41-note-03"
+    "origin": "translator"
+    "label": "3"
+    "body":
+      - "segment_id": "xy-ch41-note-03-body"
+    "form": "endnote"
+  - "id": "xy-ch41-note-04"
+    "origin": "translator"
+    "label": "4"
+    "body":
+      - "segment_id": "xy-ch41-note-04-body"
+    "form": "endnote"
+  - "id": "xy-ch41-note-05"
+    "origin": "translator"
+    "label": "5"
+    "body":
+      - "segment_id": "xy-ch41-note-05-body"
+    "form": "endnote"
+  - "id": "xy-ch41-note-06"
+    "origin": "translator"
+    "label": "6"
+    "body":
+      - "segment_id": "xy-ch41-note-06-body"
+    "form": "endnote"
+  - "id": "xy-ch41-note-07"
+    "origin": "translator"
+    "label": "7"
+    "body":
+      - "segment_id": "xy-ch41-note-07-body"
+    "form": "endnote"
+  - "id": "xy-ch41-note-08"
+    "origin": "translator"
+    "label": "8"
+    "body":
+      - "segment_id": "xy-ch41-note-08-body"
+    "form": "endnote"
+  - "id": "xy-ch41-note-09"
+    "origin": "translator"
+    "label": "9"
+    "body":
+      - "segment_id": "xy-ch41-note-09-body"
+    "form": "endnote"
+  - "id": "xy-ch41-note-10"
+    "origin": "translator"
+    "label": "10"
+    "body":
+      - "segment_id": "xy-ch41-note-10-body"
+    "form": "endnote"
+  - "id": "xy-ch41-note-11"
+    "origin": "translator"
+    "label": "11"
+    "body":
+      - "segment_id": "xy-ch41-note-11-body"
+    "form": "endnote"
+  - "id": "xy-ch41-note-12"
+    "origin": "translator"
+    "label": "12"
+    "body":
+      - "segment_id": "xy-ch41-note-12-body"
+    "form": "endnote"
+  - "id": "xy-ch41-note-13"
+    "origin": "translator"
+    "label": "13"
+    "body":
+      - "segment_id": "xy-ch41-note-13-body"
+    "form": "endnote"
+  - "id": "xy-ch41-note-14"
+    "origin": "translator"
+    "label": "14"
+    "body":
+      - "segment_id": "xy-ch41-note-14-body"
+    "form": "endnote"
+"references":
+  - "id": "xy-ch41-ref-01"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-001"
+      "translation_span":
+        "start": 6
+        "end": 8
+        "exact": "心猿"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-01"
+    "status": "verified"
+  - "id": "xy-ch41-ref-02"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-004"
+      "translation_span":
+        "start": 0
+        "end": 2
+        "exact": "御車"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-02"
+    "status": "verified"
+  - "id": "xy-ch41-ref-03"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 780
+        "end": 783
+        "exact": "獅㾩王"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-03"
+    "status": "verified"
+  - "id": "xy-ch41-ref-04"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-012"
+      "translation_span":
+        "start": 265
+        "end": 268
+        "exact": "善財郎"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-04"
+    "status": "verified"
+  - "id": "xy-ch41-ref-05"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-016"
+      "translation_span":
+        "start": 201
+        "end": 204
+        "exact": "肝の木"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-05"
+    "status": "verified"
+  - "id": "xy-ch41-ref-06"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-018"
+      "translation_span":
+        "start": 322
+        "end": 325
+        "exact": "槍の技"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-06"
+    "status": "verified"
+  - "id": "xy-ch41-ref-07"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 825
+        "end": 827
+        "exact": "北海"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-07"
+    "status": "verified"
+  - "id": "xy-ch41-ref-08"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 16
+        "end": 18
+        "exact": "鱯痴"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-08"
+    "status": "verified"
+  - "id": "xy-ch41-ref-09"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-030"
+      "translation_span":
+        "start": 131
+        "end": 134
+        "exact": "鴨の頭"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-09"
+    "status": "verified"
+  - "id": "xy-ch41-ref-10"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-034"
+      "translation_span":
+        "start": 592
+        "end": 594
+        "exact": "三関"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-10"
+    "status": "verified"
+  - "id": "xy-ch41-ref-11"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-036"
+      "translation_span":
+        "start": 135
+        "end": 139
+        "exact": "三つの山"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-11"
+    "status": "verified"
+  - "id": "xy-ch41-ref-12"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-041"
+      "translation_span":
+        "start": 421
+        "end": 432
+        "exact": "私は怒らせておりません"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-12"
+    "status": "verified"
+  - "id": "xy-ch41-ref-13"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-044"
+      "translation_span":
+        "start": 218
+        "end": 220
+        "exact": "金箔"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-13"
+    "status": "verified"
+  - "id": "xy-ch41-ref-14"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch41-047"
+      "translation_span":
+        "start": 97
+        "end": 100
+        "exact": "雲裡霧"
+    "to":
+      "type": "note"
+      "id": "xy-ch41-note-14"
+    "status": "verified"
+"groups":
+  - "id": "xy-ch41-poem-002"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch41-002"
+    "separator": |2+
+
+  - "id": "xy-ch41-poem-004"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch41-004"
+    "separator": |2+
+
+  - "id": "xy-ch41-poem-009"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch41-009"
+    "separator": |2+
+
+  - "id": "xy-ch41-poem-012"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch41-012"
+    "separator": |2+
+
+  - "id": "xy-ch41-poem-016"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch41-016"
+    "separator": |2+
+
+  - "id": "xy-ch41-poem-022"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch41-022"
+    "separator": |2+
+
+  - "id": "xy-ch41-poem-024"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch41-024"
+    "separator": |2+
+
+  - "id": "xy-ch41-poem-028"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch41-028"
+    "separator": |2+
+
+  - "id": "xy-ch41-poem-030"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch41-030"
+    "separator": |2+
+
+  - "id": "xy-ch41-spoken-poem-036"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch41-036"
+        "source_span":
+          "start": 45
+          "end": 113
+          "exact": |-
+            憶昔當年出大唐，巖前救我脫災殃。
+            三山六水遭魔障，萬苦千辛割寸腸。
+            托缽朝餐隨厚薄，參禪暮宿或林莊。
+            一心指望成功果，今日安知痛受傷？」
+        "translation_span":
+          "start": 89
+          "end": 277
+          "exact": |-
+            あの昔、大唐（だいとう）を出発なされ、
+            岩山の前で私を救い、災いから解き放ってくださった。
+            三つの山、六つの川で、魔に行く手を阻まれ、
+            万の苦しみ、千の辛さに、はらわたも裂ける思い。
+            朝は鉢を差し出し、施しの多い少ないに任せて食べ、
+            夕べは禅を修め、林や村に泊まった。
+            ひたすら修行を成し遂げる日を待ち望んできたのに、
+            今日、こんなにひどく傷つくとは、誰が知っていたでしょう」
+    "separator": |2+
+
+    "description_ja": "散文の発話導入から続く詩。話者を保ち、詩末で引用を閉じる。"
+  - "id": "xy-ch41-spoken-poem-045"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch41-045"
+        "source_span":
+          "start": 162
+          "end": 196
+          "exact": |-
+            大展齊天無量法，滿山潑怪等時擒。
+            解開皮袋放我出，築你千鈀方趁心。」
+        "translation_span":
+          "start": 243
+          "end": 333
+          "exact": |-
+            天にも等しい、限りない術を大いに振るい、
+            山じゅうの悪い妖怪を、たちどころに捕らえるぞ。
+            革袋をほどき、俺を外へ出してくれたら、
+            お前らを熊手で千回突いて、やっと気が晴れるんだ！」
+    "separator": |2+
+
+    "description_ja": "散文の発話導入から続く詩。話者を保ち、詩末で引用を閉じる。"
+"workflow":
+  "stage": "reviewing"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-25T00:46:21Z"
+    "reviewed_by": "Independent AI reviewer; not an expert or human review"
+    "content_sha256": "d5dbfad2f1c5d4be6819c65cc010242a8f5241f796c99b2e961edf92a294b912"
+"lexicon":
+  "dictionary_id": "xiyouji"
+  "file": "lexicons/xiyouji.yaml"
+  "first_occurrences":
+    - "entry_id": "xy-vocab-145"
+      "form_id": "xy-vocab-145-form"
+      "segment_id": "xy-ch41-002"
+      "translation_span":
+        "start": 129
+        "end": 131
+        "exact": "五行"
+      "rendered_text": "五行（ごぎょう）"
+      "gloss_ja": "万物の変化を、木・火・土・金・水の働きで説明する考え方。"
+    - "entry_id": "xy-sun-wukong"
+      "form_id": "xy-wukong-short-form"
+      "segment_id": "xy-ch41-003"
+      "translation_span":
+        "start": 2
+        "end": 4
+        "exact": "悟空"
+      "rendered_text": "悟空（ごくう）"
+    - "entry_id": "xy-entry-0902"
+      "form_id": "xy-form-1939"
+      "segment_id": "xy-ch41-003"
+      "translation_span":
+        "start": 11
+        "end": 13
+        "exact": "八戒"
+      "rendered_text": "八戒（はっかい）"
+    - "entry_id": "xy-entry-0885"
+      "form_id": "xy-form-1028"
+      "segment_id": "xy-ch41-003"
+      "translation_span":
+        "start": 23
+        "end": 26
+        "exact": "沙悟浄"
+      "rendered_text": "沙悟浄（さごじょう）"
+    - "entry_id": "xy-ch40-withered-pine-ravine"
+      "form_id": "xy-ch40-withered-pine-ravine-form"
+      "segment_id": "xy-ch41-003"
+      "translation_span":
+        "start": 40
+        "end": 43
+        "exact": "枯松澗"
+      "rendered_text": "枯松澗（こしょうかん）"
+    - "entry_id": "xy-entry-1556"
+      "form_id": "xy-form-1819"
+      "segment_id": "xy-ch41-003"
+      "translation_span":
+        "start": 83
+        "end": 85
+        "exact": "洞府"
+      "rendered_text": "洞府（どうふ）"
+      "gloss_ja": "仙人や妖怪の住む、洞窟の邸宅。"
+    - "entry_id": "xy-entry-0615"
+      "form_id": "xy-form-2089"
+      "segment_id": "xy-ch41-004"
+      "translation_span":
+        "start": 217
+        "end": 219
+        "exact": "崑崙"
+      "rendered_text": "崑崙（こんろん）"
+    - "entry_id": "xy-ch40-zhuantou-haoshan"
+      "form_id": "xy-ch40-haoshan-short-form"
+      "segment_id": "xy-ch41-005"
+      "translation_span":
+        "start": 33
+        "end": 35
+        "exact": "号山"
+      "rendered_text": "号山（ごうざん）"
+    - "entry_id": "xy-ch40-fire-cloud-cave"
+      "form_id": "xy-ch40-fire-cloud-cave-form"
+      "segment_id": "xy-ch41-005"
+      "translation_span":
+        "start": 46
+        "end": 49
+        "exact": "火雲洞"
+      "rendered_text": "火雲洞（かうんどう）"
+    - "entry_id": "xy-entry-0874"
+      "form_id": "xy-form-1696"
+      "segment_id": "xy-ch41-006"
+      "translation_span":
+        "start": 46
+        "end": 48
+        "exact": "唐僧"
+      "rendered_text": "唐僧（とうそう）"
+      "gloss_ja": "唐の国から来た僧という、三蔵の呼び名。"
+    - "entry_id": "xy-ch40-red-boy"
+      "form_id": "xy-ch40-red-boy-form"
+      "segment_id": "xy-ch41-007"
+      "translation_span":
+        "start": 0
+        "end": 3
+        "exact": "紅孩児"
+      "rendered_text": "紅孩児（こうがいじ）"
+    - "entry_id": "xy-entry-0874"
+      "form_id": "xy-form-1610"
+      "segment_id": "xy-ch41-007"
+      "translation_span":
+        "start": 11
+        "end": 13
+        "exact": "三蔵"
+      "rendered_text": "三蔵（さんぞう）"
+    - "entry_id": "xy-sun-wukong"
+      "form_id": "xy-form-1692"
+      "segment_id": "xy-ch41-007"
+      "translation_span":
+        "start": 273
+        "end": 276
+        "exact": "孫行者"
+      "rendered_text": "孫行者（そんぎょうじゃ）"
+      "gloss_ja": "悟空の別名。"
+    - "entry_id": "xy-entry-0902"
+      "form_id": "xy-form-1940"
+      "segment_id": "xy-ch41-007"
+      "translation_span":
+        "start": 286
+        "end": 289
+        "exact": "猪八戒"
+      "rendered_text": "猪八戒（ちょはっかい）"
+    - "entry_id": "xy-term-089"
+      "form_id": "xy-term-089-form"
+      "segment_id": "xy-ch41-007"
+      "translation_span":
+        "start": 333
+        "end": 334
+        "exact": "里"
+      "rendered_text": "里（り）"
+      "gloss_ja": "古い距離の単位。時代により長さが異なる。"
+    - "entry_id": "xy-term-042"
+      "form_id": "xy-term-042-form"
+      "segment_id": "xy-ch41-008"
+      "translation_span":
+        "start": 192
+        "end": 193
+        "exact": "丈"
+      "rendered_text": "丈（じょう）"
+      "gloss_ja": "古い長さの単位。"
+    - "entry_id": "xy-term-043"
+      "form_id": "xy-term-043-form"
+      "segment_id": "xy-ch41-008"
+      "translation_span":
+        "start": 199
+        "end": 200
+        "exact": "尺"
+      "rendered_text": "尺（しゃく）"
+      "gloss_ja": "古い長さの単位。一丈は十尺。"
+    - "entry_id": "xy-ch41-fire-tip-spear"
+      "form_id": "xy-ch41-fire-tip-spear-form"
+      "segment_id": "xy-ch41-008"
+      "translation_span":
+        "start": 206
+        "end": 209
+        "exact": "火尖槍"
+      "rendered_text": "火尖槍（かせんそう）"
+      "gloss_ja": "紅孩児が用いる長い槍の名。"
+    - "entry_id": "xy-ch41-battle-skirt"
+      "form_id": "xy-ch41-battle-skirt-form"
+      "segment_id": "xy-ch41-008"
+      "translation_span":
+        "start": 261
+        "end": 263
+        "exact": "戦裙"
+      "rendered_text": "戦裙（せんくん）"
+      "gloss_ja": "戦いのとき腰へ巻く、裾のような装束。"
+    - "entry_id": "xy-entry-0366"
+      "form_id": "xy-form-0400"
+      "segment_id": "xy-ch41-009"
+      "translation_span":
+        "start": 118
+        "end": 120
+        "exact": "哪吒"
+      "rendered_text": "哪吒（なた）"
+    - "entry_id": "xy-ch40-red-boy"
+      "form_id": "xy-ch41-red-boy-short-form"
+      "segment_id": "xy-ch41-009"
+      "translation_span":
+        "start": 243
+        "end": 245
+        "exact": "紅孩"
+      "rendered_text": "紅孩（こうがい）"
+      "gloss_ja": "紅孩児を縮めた呼び方。"
+    - "entry_id": "xy-entry-0268"
+      "form_id": "xy-form-0295"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 516
+        "end": 518
+        "exact": "天宮"
+      "rendered_text": "天宮（てんきゅう）"
+      "gloss_ja": "天上の宮殿。"
+    - "entry_id": "xy-sun-wukong"
+      "form_id": "xy-term-068-form"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 532
+        "end": 536
+        "exact": "斉天大聖"
+      "rendered_text": "斉天大聖（せいてんたいせい）"
+      "gloss_ja": "悟空が名乗り、天界でも授けられた称号。"
+    - "entry_id": "xy-sun-wukong"
+      "form_id": "xy-term-098-form"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 547
+        "end": 550
+        "exact": "孫悟空"
+      "rendered_text": "孫悟空（そんごくう）"
+    - "entry_id": "xy-entry-0843"
+      "form_id": "xy-form-0966"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 583
+        "end": 587
+        "exact": "四大部洲"
+      "rendered_text": "四大部洲（しだいぶしゅう）"
+      "gloss_ja": "仏教の世界観で、世界を構成する四つの大陸。"
+    - "entry_id": "xy-entry-0214"
+      "form_id": "xy-form-0230"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 634
+        "end": 637
+        "exact": "牛魔王"
+      "rendered_text": "牛魔王（ぎゅうまおう）"
+    - "entry_id": "xy-entry-0214"
+      "form_id": "xy-form-0445"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 649
+        "end": 653
+        "exact": "平天大聖"
+      "rendered_text": "平天大聖（へいてんたいせい）"
+    - "entry_id": "xy-entry-0215"
+      "form_id": "xy-form-0231"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 708
+        "end": 711
+        "exact": "蛟魔王"
+      "rendered_text": "蛟魔王（こうまおう）"
+    - "entry_id": "xy-entry-0215"
+      "form_id": "xy-form-0446"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 719
+        "end": 723
+        "exact": "覆海大聖"
+      "rendered_text": "覆海大聖（ふくかいたいせい）"
+    - "entry_id": "xy-entry-0216"
+      "form_id": "xy-ch41-great-peng-king-form"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 744
+        "end": 748
+        "exact": "大鵬魔王"
+      "rendered_text": "大鵬魔王（たいほうまおう）"
+      "gloss_ja": "悟空の義兄弟の鵬魔王。この底本では大鵬魔王とする。"
+    - "entry_id": "xy-entry-0216"
+      "form_id": "xy-form-0447"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 758
+        "end": 762
+        "exact": "混天大聖"
+      "rendered_text": "混天大聖（こんてんたいせい）"
+    - "entry_id": "xy-entry-0217"
+      "form_id": "xy-ch41-shi-guai-king-form"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 780
+        "end": 783
+        "exact": "獅㾩王"
+      "rendered_text": "獅㾩王（しかいおう）"
+      "gloss_ja": "移山大聖の称号を持つ義兄弟。従前の獅駝王に対応するが、底本の字を保持する。"
+    - "entry_id": "xy-entry-0217"
+      "form_id": "xy-form-0449"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 791
+        "end": 795
+        "exact": "移山大聖"
+      "rendered_text": "移山大聖（いざんたいせい）"
+    - "entry_id": "xy-entry-0218"
+      "form_id": "xy-form-0234"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 812
+        "end": 815
+        "exact": "獼猴王"
+      "rendered_text": "獼猴王（びこうおう）"
+    - "entry_id": "xy-entry-0218"
+      "form_id": "xy-form-0450"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 823
+        "end": 827
+        "exact": "通風大聖"
+      "rendered_text": "通風大聖（つうふうたいせい）"
+    - "entry_id": "xy-entry-0219"
+      "form_id": "xy-ch41-gu-rong-king-form"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 845
+        "end": 848
+        "exact": "\U000247F9狨王"
+      "rendered_text": "\U000247F9狨王（ぐじゅうおう）"
+      "gloss_ja": "駆神大聖の称号を持つ義兄弟。禺狨王の異表記として扱う。"
+    - "entry_id": "xy-entry-0219"
+      "form_id": "xy-form-0451"
+      "segment_id": "xy-ch41-010"
+      "translation_span":
+        "start": 857
+        "end": 861
+        "exact": "駆神大聖"
+      "rendered_text": "駆神大聖（くしんたいせい）"
+    - "entry_id": "xy-entry-0191"
+      "form_id": "xy-form-0411"
+      "segment_id": "xy-ch41-012"
+      "translation_span":
+        "start": 21
+        "end": 24
+        "exact": "金箍棒"
+      "rendered_text": "金箍棒（きんこぼう）"
+      "gloss_ja": "悟空の、大きさを自在に変えられる鉄棒。"
+    - "entry_id": "xy-vocab-143"
+      "form_id": "xy-vocab-143-form"
+      "segment_id": "xy-ch41-012"
+      "translation_span":
+        "start": 59
+        "end": 61
+        "exact": "三界"
+      "rendered_text": "三界（さんがい）"
+      "gloss_ja": "欲界・色界・無色界という、仏教の世界の三つの領域。"
+    - "entry_id": "xy-entry-0675"
+      "form_id": "xy-form-0778"
+      "segment_id": "xy-ch41-012"
+      "translation_span":
+        "start": 228
+        "end": 230
+        "exact": "混元"
+      "rendered_text": "混元（こんげん）"
+      "gloss_ja": "分かれる前の根源的な気や、その境地をいう道教の語。"
+    - "entry_id": "xy-sun-wukong"
+      "form_id": "xy-form-0409"
+      "segment_id": "xy-ch41-012"
+      "translation_span":
+        "start": 241
+        "end": 243
+        "exact": "大聖"
+      "rendered_text": "大聖（たいせい）"
+      "gloss_ja": "悟空への称号。"
+    - "entry_id": "xy-entry-0839"
+      "form_id": "xy-form-0962"
+      "segment_id": "xy-ch41-012"
+      "translation_span":
+        "start": 254
+        "end": 256
+        "exact": "正果"
+      "rendered_text": "正果（しょうか）"
+      "gloss_ja": "修行によって得る正しい悟り。"
+    - "entry_id": "xy-ch40-red-boy"
+      "form_id": "xy-ch41-shancai-youth-form"
+      "segment_id": "xy-ch41-012"
+      "translation_span":
+        "start": 265
+        "end": 268
+        "exact": "善財郎"
+      "rendered_text": "善財郎（ぜんざいろう）"
+      "gloss_ja": "この詩が紅孩児へ用いる、善財の若者という呼び名。"
+    - "entry_id": "xy-entry-0687"
+      "form_id": "xy-form-0940"
+      "segment_id": "xy-ch41-012"
+      "translation_span":
+        "start": 303
+        "end": 305
+        "exact": "法王"
+      "rendered_text": "法王（ほうおう）"
+      "gloss_ja": "仏の尊称。"
+    - "entry_id": "xy-entry-0900"
+      "form_id": "xy-form-1035"
+      "segment_id": "xy-ch41-013"
+      "translation_span":
+        "start": 226
+        "end": 232
+        "exact": "九本歯の熊手"
+      "rendered_text": "九本歯の熊手（きゅうほんばのくまで）"
+      "gloss_ja": "八戒が持つ、歯が九本ある熊手形の武器。"
+    - "entry_id": "xy-entry-1539"
+      "form_id": "xy-form-1797"
+      "segment_id": "xy-ch41-016"
+      "translation_span":
+        "start": 74
+        "end": 76
+        "exact": "燧人"
+      "rendered_text": "燧人（すいじん）"
+      "gloss_ja": "人に火をもたらしたとされる、中国の伝説上の人物。"
+    - "entry_id": "xy-entry-0475"
+      "form_id": "xy-ch41-laozi-form"
+      "segment_id": "xy-ch41-016"
+      "translation_span":
+        "start": 100
+        "end": 102
+        "exact": "老子"
+      "rendered_text": "老子（ろうし）"
+      "gloss_ja": "ここでは丹薬を煉る太上老君を指す。"
+    - "entry_id": "xy-entry-0658"
+      "form_id": "xy-form-0760"
+      "segment_id": "xy-ch41-016"
+      "translation_span":
+        "start": 151
+        "end": 155
+        "exact": "三昧の火"
+      "rendered_text": "三昧の火（さんまいのひ）"
+      "gloss_ja": "紅孩児が修行によって得た、特別な火の術。"
+    - "entry_id": "xy-ch41-mutual-generation-control"
+      "form_id": "xy-ch41-mutual-generation-control-form"
+      "segment_id": "xy-ch41-019"
+      "translation_span":
+        "start": 315
+        "end": 319
+        "exact": "相生相剋"
+      "rendered_text": "相生相剋（そうせいそうこく）"
+      "gloss_ja": "五行が互いを生み出し、また抑えるという関係。"
+    - "entry_id": "xy-entry-0176"
+      "form_id": "xy-form-0187"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 87
+        "end": 90
+        "exact": "水晶宮"
+      "rendered_text": "水晶宮（すいしょうきゅう）"
+      "gloss_ja": "東海竜王が住む、水中の宮殿。"
+    - "entry_id": "xy-entry-0179"
+      "form_id": "xy-form-0189"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 112
+        "end": 114
+        "exact": "敖広"
+      "rendered_text": "敖広（ごうこう）"
+    - "entry_id": "xy-entry-0439"
+      "form_id": "xy-form-0498"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 214
+        "end": 216
+        "exact": "西天"
+      "rendered_text": "西天（さいてん）"
+    - "entry_id": "xy-ch40-red-boy"
+      "form_id": "xy-ch40-holy-infant-king-form"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 271
+        "end": 275
+        "exact": "聖嬰大王"
+      "rendered_text": "聖嬰大王（せいえいだいおう）"
+      "gloss_ja": "紅孩児の号。"
+    - "entry_id": "xy-jade-emperor"
+      "form_id": "xy-term-052-form"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 514
+        "end": 516
+        "exact": "玉帝"
+      "rendered_text": "玉帝（ぎょくてい）"
+    - "entry_id": "xy-term-044"
+      "form_id": "xy-term-044-form"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 542
+        "end": 543
+        "exact": "寸"
+      "rendered_text": "寸（すん）"
+      "gloss_ja": "古い長さの単位。一尺は十寸。"
+    - "entry_id": "xy-entry-0756"
+      "form_id": "xy-form-0868"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 586
+        "end": 588
+        "exact": "三官"
+      "rendered_text": "三官（さんかん）"
+      "gloss_ja": "天・地・水をつかさどる道教の神々。"
+    - "entry_id": "xy-ch41-taiyi-deity"
+      "form_id": "xy-ch41-taiyi-deity-form"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 600
+        "end": 602
+        "exact": "太乙"
+      "rendered_text": "太乙（たいいつ）"
+      "gloss_ja": "ここでは降雨の手続きで、文書を回す役の神。"
+    - "entry_id": "xy-entry-1149"
+      "form_id": "xy-form-1310"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 615
+        "end": 617
+        "exact": "雷公"
+      "rendered_text": "雷公（らいこう）"
+      "gloss_ja": "雷をつかさどる神。"
+    - "entry_id": "xy-entry-1151"
+      "form_id": "xy-form-1312"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 624
+        "end": 626
+        "exact": "電母"
+      "rendered_text": "電母（でんぼ）"
+      "gloss_ja": "稲妻をつかさどる女神。"
+    - "entry_id": "xy-entry-1148"
+      "form_id": "xy-form-1309"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 632
+        "end": 634
+        "exact": "風伯"
+      "rendered_text": "風伯（ふうはく）"
+      "gloss_ja": "風をつかさどる神。"
+    - "entry_id": "xy-entry-1150"
+      "form_id": "xy-form-1311"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 641
+        "end": 643
+        "exact": "雲童"
+      "rendered_text": "雲童（うんどう）"
+      "gloss_ja": "雲を扱う童子の神。"
+    - "entry_id": "xy-vocab-134"
+      "form_id": "xy-vocab-134-form"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 804
+        "end": 806
+        "exact": "南海"
+      "rendered_text": "南海（なんかい）"
+    - "entry_id": "xy-entry-0195"
+      "form_id": "xy-form-0207"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 816
+        "end": 818
+        "exact": "敖欽"
+      "rendered_text": "敖欽（ごうきん）"
+    - "entry_id": "xy-vocab-130"
+      "form_id": "xy-vocab-130-form"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 825
+        "end": 827
+        "exact": "北海"
+      "rendered_text": "北海（ほっかい）"
+    - "entry_id": "xy-entry-0196"
+      "form_id": "xy-ch41-north-ao-run"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 837
+        "end": 839
+        "exact": "敖閏"
+      "rendered_text": "敖閏（ごうじゅん）"
+    - "entry_id": "xy-vocab-133"
+      "form_id": "xy-vocab-133-form"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 847
+        "end": 849
+        "exact": "西海"
+      "rendered_text": "西海（さいかい）"
+    - "entry_id": "xy-entry-0197"
+      "form_id": "xy-ch41-west-ao-shun"
+      "segment_id": "xy-ch41-020"
+      "translation_span":
+        "start": 859
+        "end": 861
+        "exact": "敖順"
+      "rendered_text": "敖順（ごうじゅん）"
+    - "entry_id": "xy-sun-wukong"
+      "form_id": "xy-form-0559"
+      "segment_id": "xy-ch41-021"
+      "translation_span":
+        "start": 52
+        "end": 55
+        "exact": "孫大聖"
+      "rendered_text": "孫大聖（そんたいせい）"
+      "gloss_ja": "悟空を姓と称号で呼んだもの。"
+    - "entry_id": "xy-ch41-hu-chi"
+      "form_id": "xy-ch41-hu-chi-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 16
+        "end": 18
+        "exact": "鱯痴"
+      "rendered_text": "鱯痴（ごち）"
+      "gloss_ja": "大きな口を持ち、竜王の軍で先鋒になる水族。底本の字を保持し、魚種は断定しない。"
+    - "entry_id": "xy-ch41-carp-marshal"
+      "form_id": "xy-ch41-carp-marshal-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 30
+        "end": 33
+        "exact": "鯉元帥"
+      "rendered_text": "鯉元帥（りげんすい）"
+      "gloss_ja": "鯉を元帥に見立てた、水族の軍の将。"
+    - "entry_id": "xy-ch41-geng-admiral"
+      "form_id": "xy-ch41-geng-admiral-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 51
+        "end": 54
+        "exact": "鯁提督"
+      "rendered_text": "鯁提督（こうていとく）"
+      "gloss_ja": "鯁を提督に見立てた、水族の軍の将。鯁の魚種は確定しない。"
+    - "entry_id": "xy-ch41-qing-commandant"
+      "form_id": "xy-ch41-qing-commandant-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 74
+        "end": 77
+        "exact": "鯖太尉"
+      "rendered_text": "鯖太尉（せいたいい）"
+      "gloss_ja": "鯖を軍事の高官に見立てた、水族の軍の将。ここでの鯖を日本のサバと断定しない。"
+    - "entry_id": "xy-ch41-bai-commander"
+      "form_id": "xy-ch41-bai-commander-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 93
+        "end": 96
+        "exact": "鮊都司"
+      "rendered_text": "鮊都司（はくとし）"
+      "gloss_ja": "鮊を軍の指揮官に見立てた、水族の軍の将。"
+    - "entry_id": "xy-ch41-red-eye-malang"
+      "form_id": "xy-ch41-red-eye-malang-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 114
+        "end": 118
+        "exact": "紅眼馬郎"
+      "rendered_text": "紅眼馬郎（こうがんばろう）"
+      "gloss_ja": "赤い目の馬郎と称する水族の兵。具体的な魚種・称号の同定は留保する。"
+    - "entry_id": "xy-ch41-black-armour-general"
+      "form_id": "xy-ch41-black-armour-general-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 133
+        "end": 137
+        "exact": "黒甲将軍"
+      "rendered_text": "黒甲将軍（こっこうしょうぐん）"
+      "gloss_ja": "黒い甲をまとった将軍という呼び名の水族の兵。種類や甲の形は断定しない。"
+    - "entry_id": "xy-ch41-qi-captain"
+      "form_id": "xy-ch41-qi-captain-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 157
+        "end": 160
+        "exact": "鯕把総"
+      "rendered_text": "鯕把総（きはそう）"
+      "gloss_ja": "鯕を部隊の指揮官に見立てた水族。中軍の号令を担当する。底本の字を保持し、魚種は断定しない。"
+    - "entry_id": "xy-ch41-yuan-councillor"
+      "form_id": "xy-ch41-yuan-councillor-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 194
+        "end": 197
+        "exact": "黿枢密"
+      "rendered_text": "黿枢密（げんすうみつ）"
+      "gloss_ja": "大きなスッポンの類である黿を、軍務をつかさどる高官に見立てた呼び名。"
+    - "entry_id": "xy-ch41-turtle-minister"
+      "form_id": "xy-ch41-turtle-minister-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 217
+        "end": 220
+        "exact": "亀相公"
+      "rendered_text": "亀相公（きしょうこう）"
+      "gloss_ja": "亀を大臣に見立てた呼び名。"
+    - "entry_id": "xy-ch41-alligator-chancellor"
+      "form_id": "xy-ch41-alligator-chancellor-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 242
+        "end": 245
+        "exact": "鼉丞相"
+      "rendered_text": "鼉丞相（だじょうしょう）"
+      "gloss_ja": "ワニの類である鼉を、宰相に見立てた呼び名。"
+    - "entry_id": "xy-ch41-softshell-commander"
+      "form_id": "xy-ch41-softshell-commander-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 264
+        "end": 267
+        "exact": "鼈総戎"
+      "rendered_text": "鼈総戎（べつそうじゅう）"
+      "gloss_ja": "スッポンを軍の総指揮官に見立てた呼び名。"
+    - "entry_id": "xy-ch41-shrimp-woman"
+      "form_id": "xy-ch41-shrimp-woman-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 308
+        "end": 310
+        "exact": "蝦婆"
+      "rendered_text": "蝦婆（かば）"
+      "gloss_ja": "蝦の類を擬人化した水族の兵。強弓を引く。種類や性別は断定しない。"
+    - "entry_id": "xy-ch41-catfish-official"
+      "form_id": "xy-ch41-catfish-official-form"
+      "segment_id": "xy-ch41-022"
+      "translation_span":
+        "start": 322
+        "end": 325
+        "exact": "鮎外郎"
+      "rendered_text": "鮎外郎（ねんがいろう）"
+      "gloss_ja": "ナマズを役人に見立てた呼び名。軍の名簿を調べる。中国語の鮎は日本語のアユではない。"
+    - "entry_id": "xy-ch41-ao-family"
+      "form_id": "xy-ch41-ao-family-form"
+      "segment_id": "xy-ch41-025"
+      "translation_span":
+        "start": 33
+        "end": 35
+        "exact": "敖家"
+      "rendered_text": "敖家（ごうけ）"
+    - "entry_id": "xy-entry-0874"
+      "form_id": "xy-form-1861"
+      "segment_id": "xy-ch41-028"
+      "translation_span":
+        "start": 52
+        "end": 55
+        "exact": "唐三蔵"
+      "rendered_text": "唐三蔵（とうさんぞう）"
+    - "entry_id": "xy-entry-0658"
+      "form_id": "xy-ch40-samadhi-true-fire-form"
+      "segment_id": "xy-ch41-031"
+      "translation_span":
+        "start": 79
+        "end": 83
+        "exact": "三昧真火"
+      "rendered_text": "三昧真火（さんまいしんか）"
+      "gloss_ja": "修行によって得た特別な火。竜王たちの雨でも消えない。"
+    - "entry_id": "xy-entry-0475"
+      "form_id": "xy-form-0536"
+      "segment_id": "xy-ch41-032"
+      "translation_span":
+        "start": 159
+        "end": 163
+        "exact": "太上老君"
+      "rendered_text": "太上老君（たいじょうろうくん）"
+    - "entry_id": "xy-entry-0661"
+      "form_id": "xy-form-0763"
+      "segment_id": "xy-ch41-032"
+      "translation_span":
+        "start": 175
+        "end": 178
+        "exact": "八卦炉"
+      "rendered_text": "八卦炉（はっけろ）"
+      "gloss_ja": "太上老君が丹薬を煉る炉。"
+    - "entry_id": "xy-entry-0666"
+      "form_id": "xy-form-0768"
+      "segment_id": "xy-ch41-032"
+      "translation_span":
+        "start": 208
+        "end": 209
+        "exact": "巽"
+      "rendered_text": "巽（そん）"
+      "gloss_ja": "八卦の一つ。風を表し、方位では東南に当たる。"
+    - "entry_id": "xy-entry-0671"
+      "form_id": "xy-form-0773"
+      "segment_id": "xy-ch41-032"
+      "translation_span":
+        "start": 254
+        "end": 258
+        "exact": "火眼金睛"
+      "rendered_text": "火眼金睛（かがんきんせい）"
+      "gloss_ja": "悟空が八卦炉の煙に燻されて得た目の呼び名。"
+    - "entry_id": "xy-entry-0902"
+      "form_id": "xy-form-1040"
+      "segment_id": "xy-ch41-033"
+      "translation_span":
+        "start": 154
+        "end": 158
+        "exact": "天蓬元帥"
+      "rendered_text": "天蓬元帥（てんぽうげんすい）"
+      "gloss_ja": "八戒が天界にいたころの官職。"
+    - "entry_id": "xy-entry-0885"
+      "form_id": "xy-ch41-curtain-general-form"
+      "segment_id": "xy-ch41-033"
+      "translation_span":
+        "start": 169
+        "end": 173
+        "exact": "捲簾将軍"
+      "rendered_text": "捲簾将軍（けんれんしょうぐん）"
+      "gloss_ja": "沙悟浄が天界にいたころの官職をいう呼び方。"
+    - "entry_id": "xy-entry-1487"
+      "form_id": "xy-form-1736"
+      "segment_id": "xy-ch41-034"
+      "translation_span":
+        "start": 497
+        "end": 499
+        "exact": "七竅"
+      "rendered_text": "七竅（しちきょう）"
+      "gloss_ja": "二つの目、二つの耳、二つの鼻の穴、口という、顔の七つの穴。"
+    - "entry_id": "xy-entry-1613"
+      "form_id": "xy-form-1899"
+      "segment_id": "xy-ch41-034"
+      "translation_span":
+        "start": 535
+        "end": 537
+        "exact": "丹田"
+      "rendered_text": "丹田（たんでん）"
+      "gloss_ja": "体内の気が集まるとされるところ。"
+    - "entry_id": "xy-ch41-three-passes"
+      "form_id": "xy-ch41-three-passes-form"
+      "segment_id": "xy-ch41-034"
+      "translation_span":
+        "start": 592
+        "end": 594
+        "exact": "三関"
+      "rendered_text": "三関（さんかん）"
+      "gloss_ja": "体内で気が通る三つの関所。ここでの厳密な部位は確定しない。"
+    - "entry_id": "xy-entry-1719"
+      "form_id": "xy-form-2042"
+      "segment_id": "xy-ch41-034"
+      "translation_span":
+        "start": 604
+        "end": 606
+        "exact": "明堂"
+      "rendered_text": "明堂（めいどう）"
+      "gloss_ja": "内丹でいう頭の内部の部位。"
+    - "entry_id": "xy-entry-0792"
+      "form_id": "xy-form-1078"
+      "segment_id": "xy-ch41-036"
+      "translation_span":
+        "start": 93
+        "end": 95
+        "exact": "大唐"
+      "rendered_text": "大唐（だいとう）"
+    - "entry_id": "xy-entry-0552"
+      "form_id": "xy-form-0624"
+      "segment_id": "xy-ch41-037"
+      "translation_span":
+        "start": 260
+        "end": 264
+        "exact": "観音菩薩"
+      "rendered_text": "観音菩薩（かんのんぼさつ）"
+    - "entry_id": "xy-vocab-136"
+      "form_id": "xy-form-1809"
+      "segment_id": "xy-ch41-037"
+      "translation_span":
+        "start": 307
+        "end": 310
+        "exact": "觔斗雲"
+      "rendered_text": "觔斗雲（きんとうん）"
+      "gloss_ja": "悟空が宙返りで飛ぶ雲の術。"
+    - "entry_id": "xy-entry-0552"
+      "form_id": "xy-form-0821"
+      "segment_id": "xy-ch41-040"
+      "translation_span":
+        "start": 95
+        "end": 98
+        "exact": "観世音"
+      "rendered_text": "観世音（かんぜおん）"
+      "gloss_ja": "観音菩薩の別の呼び名。ここでは紅孩児がその姿に化けている。"
+    - "entry_id": "xy-entry-0902"
+      "form_id": "xy-form-1047"
+      "segment_id": "xy-ch41-041"
+      "translation_span":
+        "start": 96
+        "end": 99
+        "exact": "猪悟能"
+      "rendered_text": "猪悟能（ちょごのう）"
+      "gloss_ja": "八戒の法名。"
+    - "entry_id": "xy-ch41-six-captains"
+      "form_id": "xy-ch41-six-captains-form"
+      "segment_id": "xy-ch41-047"
+      "translation_span":
+        "start": 39
+        "end": 42
+        "exact": "六健将"
+      "rendered_text": "六健将（ろっけんしょう）"
+      "gloss_ja": "紅孩児が信任する六人の小妖怪。"
+    - "entry_id": "xy-ch41-cloud-mist"
+      "form_id": "xy-ch41-cloud-mist-form"
+      "segment_id": "xy-ch41-047"
+      "translation_span":
+        "start": 97
+        "end": 100
+        "exact": "雲裡霧"
+      "rendered_text": "雲裡霧（うんりむ）"
+    - "entry_id": "xy-ch41-mist-cloud"
+      "form_id": "xy-ch41-mist-cloud-form"
+      "segment_id": "xy-ch41-047"
+      "translation_span":
+        "start": 110
+        "end": 113
+        "exact": "霧裡雲"
+      "rendered_text": "霧裡雲（むりうん）"
+    - "entry_id": "xy-ch41-swift-fire"
+      "form_id": "xy-ch41-swift-fire-form"
+      "segment_id": "xy-ch41-047"
+      "translation_span":
+        "start": 123
+        "end": 126
+        "exact": "急如火"
+      "rendered_text": "急如火（きゅうじょか）"
+    - "entry_id": "xy-ch41-swift-wind"
+      "form_id": "xy-ch41-swift-wind-form"
+      "segment_id": "xy-ch41-047"
+      "translation_span":
+        "start": 138
+        "end": 141
+        "exact": "快如風"
+      "rendered_text": "快如風（かいじょふう）"
+    - "entry_id": "xy-ch41-xinghongxian"
+      "form_id": "xy-ch41-xinghongxian-form"
+      "segment_id": "xy-ch41-047"
+      "translation_span":
+        "start": 153
+        "end": 156
+        "exact": "興烘掀"
+      "rendered_text": "興烘掀（こうこうけん）"
+    - "entry_id": "xy-ch41-xianhongxing"
+      "form_id": "xy-ch41-xianhongxing-form"
+      "segment_id": "xy-ch41-047"
+      "translation_span":
+        "start": 168
+        "end": 171
+        "exact": "掀烘興"
+      "rendered_text": "掀烘興（けんこうこう）"
+    - "entry_id": "xy-entry-0771"
+      "form_id": "xy-form-0884"
+      "segment_id": "xy-ch41-047"
+      "translation_span":
+        "start": 289
+        "end": 290
+        "exact": "紀"
+      "rendered_text": "紀（き）"
+      "gloss_ja": "年を数える古い単位。ここでは長寿を誇張していう。"
+"provenance":
+  "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-041-source-1500598-zh-hant.txt"
+  "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-041-manifest-1500598.json"
+  "acquired_at": "2026-10-25"
+  "actual_acquisition_url": "https://zh.wikisource.org/wiki/西遊記/第041回"
+  "fixed_url_fetch_success": false
+  "revision_identification": "現行取得ページのフッターがoldid=1500598、最終編集2018-09-12 11:18 UTCを示す。"
+  "source_normalization": "現行ページの2回の閲覧結果を、重複行の同一性を検査して統合し、全250表示行をL0〜L249の番号付きで保存。回題はL113〜114、本文はL118〜217の非空行を一度ずつ収録。各行の詩の字下げを除く以外は原字・句読点・改行を保持。散文から発話詩へ続く036・045は間の空行も保持。source_locationsの行番号は番号付きスナップショットの1始まりの物理行で、表示L番号に1を加える。"
+  "pretranslation_workflow": "AGENTS.md→ルートREADME→翻訳スキル→作品READMEと人物ガイド→YAML仕様と辞書README。全原文を通読しchapter-041-voices.mdを先に作成。"
+  "dictionary_base_commit": "37c536435cf4f59f32bdc5cfbc9051b94c0ef02e"
+  "dictionary_base_sha256": "8a0d5daa5040dcc7c6e436a3c263cc2b35c931fb85222c32db7a644b211f5e9c"
+  "dictionary_dependencies":
+    - "chapter": 35
+      "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch035/lexicon-patch.json"
+      "sha256": "513ba77a526c596795d2621ab37939cc35948f4fe319ed2ada0163d93e54e5ae"
+    - "chapter": 36
+      "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch036/lexicon-patch.json"
+      "sha256": "49791b2ea39378f8055848b7e09657294925fcca4e3d603deab54ccfc2bc9e6a"
+    - "chapter": 37
+      "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch037/lexicon-patch.json"
+      "sha256": "6d04ee2667efcea814a0ff2369f4824544ad04ee14ca68e3c7d12784ccc82ce7"
+    - "chapter": 38
+      "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch038/lexicon-patch.json"
+      "sha256": "4aa86b94dbbc9d91cf22dfa73bac66183133071bf80bedde868670e52f58e63c"
+    - "chapter": 39
+      "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch039/lexicon-patch.json"
+      "sha256": "4a962035f221ad09ed634f7a4833c79ce3c8ef29a0a6daa15a54dcdbbb7f0f20"
+    - "chapter": 40
+      "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch040/lexicon-patch.json"
+      "sha256": "2e94d7c03eb05ebb3bd231fed6a07cd585df28e578c0607c5574e3f404c8ecf5"
+  "review_note": "著者と別のAIが全48対訳単位・14訳注・元の107初出・67意味説明を通読照合し、狭い意味訂正と役割別の竜王参照修正を実施。敖家の初出読みを補い最終108初出も確認。専門家の校訂・実ブラウザ目視は未実施。"
+  "independent_fixed_url_fetch_success": true
+  "fixed_url_fetch_success_scope": "著者の初回取得の成否。独立レビューでの直接取得成功は別イベントとして下に記録。"
+  "independent_fixed_url": "https://zh.wikisource.org/w/index.php?title=西遊記/第041回&oldid=1500598"
+  "independent_fixed_revision_verification": "2026-10-25。全254表示行、回題・本文非空75行を取得し、原スナップショットの全対象75行と完全一致。"
+  "independent_review_report": "independent-review.md"

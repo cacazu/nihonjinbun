@@ -2090,6 +2090,26 @@
     "title": "陳士斌『西遊真詮』第四十回（検索表示で確認、本文の直接取得は不成功）"
     "url": "https://ctext.org/wiki.pl?chapter=954101&if=gb&remap=gb"
     "accessed_at": "2026-10-24"
+  - "id": "xy-ch41-primary-1500598"
+    "title": "中文維基文庫 西遊記 第041回（現行取得本文のフッター版1500598）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第041回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch41-gu-rong-reading"
+    "title": "K’sBookshelf 漢字林 犬部（\U000247F9狨王の仮名読みは検索表示で確認。本文open/findでは当該字の所在未確認）"
+    "url": "https://ksbookshelf.com/DW/Kanjirin/Kanjirin4y.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch41-guai-zdic"
+    "title": "漢典 㾩（廣韻・集韻の音注）"
+    "url": "https://zdic.net/hant/㾩"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch41-fish-comparison"
+    "title": "識典古籍 新説西遊記第四十一回（水族名の比較、検索表示のみ）"
+    "url": "https://www.shidianguji.com/zh/book/CADAL02000774/chapter/1llzbw2322qer"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch41-shrimp-name-comparison"
+    "title": "連雲港市政府「虾婆婆」（現代の地域名の比較。古典の種の同定資料とはしない）"
+    "url": "https://www.lyg.gov.cn/zglygzfmhwz/szgc/content/1e2aab7a-ea28-477c-a7a4-8805e2b6f771.shtml"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -6234,6 +6254,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の慣用音・構成字の音訓による推定。調査でこの表記全体の確実な日本語読みを明記する資料は未確認。"
+      - "id": "xy-ch41-north-ao-run"
+        "text": "敖閏"
+        "relation": "variant"
+        "reading":
+          "kana": "ごうじゅん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "日本語字音に基づく推定。底本は北海の竜王を敖閏と記す。海域の役割に基づく異名として登録し、同じ字の個人名だけで他海の竜王へ対応させない。表記全体の日本語仮名の直接資料は未確認。"
   - "id": "xy-entry-0197"
     "kind": "person"
     "headword": "敖閏"
@@ -6267,6 +6296,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の通常の日本語音訓、仏教語の慣用音と本文の文脈から推定。語形全体の仮名読みを直接示す資料による確認は未了。"
+      - "id": "xy-ch41-west-ao-shun"
+        "text": "敖順"
+        "relation": "variant"
+        "reading":
+          "kana": "ごうじゅん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "日本語字音に基づく推定。底本は西海の竜王を敖順と記す。海域の役割に基づく異名として登録し、同じ字の個人名だけで他海の竜王へ対応させない。表記全体の日本語仮名の直接資料は未確認。"
   - "id": "xy-entry-0198"
     "kind": "person"
     "headword": "鼉の将軍"
@@ -6661,6 +6699,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch41-great-peng-king-form"
+        "text": "大鵬魔王"
+        "relation": "variant"
+        "reading":
+          "kana": "たいほうまおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
   - "id": "xy-entry-0217"
     "kind": "person"
     "headword": "獅駝王"
@@ -6695,6 +6742,16 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch41-shi-guai-king-form"
+        "text": "獅㾩王"
+        "relation": "variant"
+        "reading":
+          "kana": "しかいおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+            - "xy-ch41-guai-zdic"
+          "reason_ja": "底本の㾩を保持。漢典の古懷切・音乖からカイを採り、獅・王と合わせた推定読み。人物名全体の日本語読みは未確認。従前の獅駝王とは義兄弟の順と移山大聖の称号が一致する。"
   - "id": "xy-entry-0218"
     "kind": "person"
     "headword": "獼猴王"
@@ -6746,6 +6803,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch41-gu-rong-king-form"
+        "text": "\U000247F9狨王"
+        "relation": "variant"
+        "reading":
+          "kana": "ぐじゅうおう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch41-gu-rong-reading"
+          "reason_ja": "K’sBookshelf漢字林の検索表示に、当該表記と「グジュウオウ」を確認。直接open/findの本文では当該部分が出なかったため、検索での確認と区別して記録。"
   - "id": "xy-entry-0220"
     "kind": "place"
     "headword": "幽冥界"
@@ -11592,6 +11658,15 @@
           "source_ids":
             - "xy-ch35-primary-1500616"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+      - "id": "xy-ch41-laozi-form"
+        "text": "老子"
+        "relation": "alias"
+        "reading":
+          "kana": "ろうし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
   - "id": "xy-entry-0476"
     "kind": "person"
     "headword": "燃灯古仏"
@@ -19562,6 +19637,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+      - "id": "xy-ch41-curtain-general-form"
+        "text": "捲簾将軍"
+        "relation": "title"
+        "reading":
+          "kana": "けんれんしょうぐん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
   - "id": "xy-entry-0886"
     "kind": "object"
     "headword": "宝杖"
@@ -43117,3 +43201,535 @@
           "source_ids":
             - "xy-ch40-primary-1808481"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+      - "id": "xy-ch41-red-boy-short-form"
+        "text": "紅孩"
+        "relation": "short_form"
+        "reading":
+          "kana": "こうがい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+      - "id": "xy-ch41-shancai-youth-form"
+        "text": "善財郎"
+        "relation": "title"
+        "reading":
+          "kana": "ぜんざいろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-fire-tip-spear"
+    "kind": "object"
+    "headword": "火尖槍"
+    "definition_ja": "紅孩児が戦いに用いる長い槍の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-fire-tip-spear-form"
+        "text": "火尖槍"
+        "relation": "preferred"
+        "reading":
+          "kana": "かせんそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-battle-skirt"
+    "kind": "object"
+    "headword": "戦裙"
+    "definition_ja": "戦う際に腰へ巻く、裾のような装束。紅孩児のものには竜と鳳凰の刺繍がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-battle-skirt-form"
+        "text": "戦裙"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-mutual-generation-control"
+    "kind": "concept"
+    "headword": "相生相剋"
+    "definition_ja": "木・火・土・金・水が互いを生み、また抑えるという五行の関係。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-mutual-generation-control-form"
+        "text": "相生相剋"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうせいそうこく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-taiyi-deity"
+    "kind": "person"
+    "headword": "太乙"
+    "definition_ja": "降雨の命令にあたって文書を回すと語られる神の呼び名。具体的な神格の同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "原文では三官の筆記と並んで移文を担う主体。既存辞書の仙人の境地や宇宙の根源をいう同形語と区別する。"
+    "forms":
+      - "id": "xy-ch41-taiyi-deity-form"
+        "text": "太乙"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいいつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-three-passes"
+    "kind": "concept"
+    "headword": "三関"
+    "definition_ja": "身体内部で気が通る三つの関所をいう内丹の語。具体的な部位の対応には諸説がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-three-passes-form"
+        "text": "三関"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-hu-chi"
+    "kind": "term"
+    "headword": "鱯痴"
+    "definition_ja": "大きな口を持ち、竜王の軍で先鋒になる水族。底本の字を保持し、魚種は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-hu-chi-form"
+        "text": "鱯痴"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごち"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-carp-marshal"
+    "kind": "term"
+    "headword": "鯉元帥"
+    "definition_ja": "鯉を元帥に見立てた、水族の軍の将。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-carp-marshal-form"
+        "text": "鯉元帥"
+        "relation": "preferred"
+        "reading":
+          "kana": "りげんすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-geng-admiral"
+    "kind": "term"
+    "headword": "鯁提督"
+    "definition_ja": "鯁を提督に見立てた、水族の軍の将。鯁の魚種は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-geng-admiral-form"
+        "text": "鯁提督"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうていとく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-qing-commandant"
+    "kind": "term"
+    "headword": "鯖太尉"
+    "definition_ja": "鯖を軍事の高官に見立てた、水族の軍の将。ここでの鯖を日本のサバと断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-qing-commandant-form"
+        "text": "鯖太尉"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいたいい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-bai-commander"
+    "kind": "term"
+    "headword": "鮊都司"
+    "definition_ja": "鮊を軍の指揮官に見立てた、水族の軍の将。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-bai-commander-form"
+        "text": "鮊都司"
+        "relation": "preferred"
+        "reading":
+          "kana": "はくとし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-red-eye-malang"
+    "kind": "term"
+    "headword": "紅眼馬郎"
+    "definition_ja": "赤い目の馬郎と称する水族の兵。具体的な魚種・称号の同定は留保する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-red-eye-malang-form"
+        "text": "紅眼馬郎"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうがんばろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-black-armour-general"
+    "kind": "term"
+    "headword": "黒甲将軍"
+    "definition_ja": "黒い甲をまとった将軍と称する水族の兵。甲が生物の甲羅か鎧か、具体的な種類は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-black-armour-general-form"
+        "text": "黒甲将軍"
+        "relation": "preferred"
+        "reading":
+          "kana": "こっこうしょうぐん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-qi-captain"
+    "kind": "term"
+    "headword": "鯕把総"
+    "definition_ja": "鯕を部隊の指揮官に見立てた水族。中軍の号令を担当する。底本の字を保持し、魚種は断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-qi-captain-form"
+        "text": "鯕把総"
+        "relation": "preferred"
+        "reading":
+          "kana": "きはそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-yuan-councillor"
+    "kind": "term"
+    "headword": "黿枢密"
+    "definition_ja": "大きなスッポンの類である黿を、軍務をつかさどる高官に見立てた呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-yuan-councillor-form"
+        "text": "黿枢密"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんすうみつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-turtle-minister"
+    "kind": "term"
+    "headword": "亀相公"
+    "definition_ja": "亀を大臣に見立てた呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-turtle-minister-form"
+        "text": "亀相公"
+        "relation": "preferred"
+        "reading":
+          "kana": "きしょうこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-alligator-chancellor"
+    "kind": "term"
+    "headword": "鼉丞相"
+    "definition_ja": "ワニの類である鼉を、宰相に見立てた呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-alligator-chancellor-form"
+        "text": "鼉丞相"
+        "relation": "preferred"
+        "reading":
+          "kana": "だじょうしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-softshell-commander"
+    "kind": "term"
+    "headword": "鼈総戎"
+    "definition_ja": "スッポンを軍の総指揮官に見立てた呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-softshell-commander-form"
+        "text": "鼈総戎"
+        "relation": "preferred"
+        "reading":
+          "kana": "べつそうじゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-shrimp-woman"
+    "kind": "term"
+    "headword": "蝦婆"
+    "definition_ja": "蝦の類を擬人化した水族の兵。軍勢の中で強弓を引く。種類や性別の厳密な同定は留保する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+        - "xy-ch41-shrimp-name-comparison"
+      "reason_ja": "作品原文では蝦婆が強弓を引く。現代の地域用語には同名が甲殻類の名として使われ、婆の字だけで女性とは確定できない。現代の種名を古典へ遡及せず留保する。"
+    "forms":
+      - "id": "xy-ch41-shrimp-woman-form"
+        "text": "蝦婆"
+        "relation": "preferred"
+        "reading":
+          "kana": "かば"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-catfish-official"
+    "kind": "term"
+    "headword": "鮎外郎"
+    "definition_ja": "ナマズを役人に見立てた呼び名。軍の名簿を調べる。中国語の鮎は日本語のアユではない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-catfish-official-form"
+        "text": "鮎外郎"
+        "relation": "preferred"
+        "reading":
+          "kana": "ねんがいろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-six-captains"
+    "kind": "term"
+    "headword": "六健将"
+    "definition_ja": "紅孩児がとくに信任し、武将に任じた六人の小妖怪。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-six-captains-form"
+        "text": "六健将"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろっけんしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-cloud-mist"
+    "kind": "person"
+    "headword": "雲裡霧"
+    "definition_ja": "紅孩児に仕える六健将の一人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-cloud-mist-form"
+        "text": "雲裡霧"
+        "relation": "preferred"
+        "reading":
+          "kana": "うんりむ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-mist-cloud"
+    "kind": "person"
+    "headword": "霧裡雲"
+    "definition_ja": "紅孩児に仕える六健将の一人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-mist-cloud-form"
+        "text": "霧裡雲"
+        "relation": "preferred"
+        "reading":
+          "kana": "むりうん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-swift-fire"
+    "kind": "person"
+    "headword": "急如火"
+    "definition_ja": "紅孩児に仕える六健将の一人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-swift-fire-form"
+        "text": "急如火"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうじょか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-swift-wind"
+    "kind": "person"
+    "headword": "快如風"
+    "definition_ja": "紅孩児に仕える六健将の一人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-swift-wind-form"
+        "text": "快如風"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいじょふう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-xinghongxian"
+    "kind": "person"
+    "headword": "興烘掀"
+    "definition_ja": "紅孩児に仕える六健将の一人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-xinghongxian-form"
+        "text": "興烘掀"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうこうけん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-xianhongxing"
+    "kind": "person"
+    "headword": "掀烘興"
+    "definition_ja": "紅孩児に仕える六健将の一人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "作品原文の語句と、その人物・役割・動作の文脈に基づく説明。後の身分や結末を補わない。"
+    "forms":
+      - "id": "xy-ch41-xianhongxing-form"
+        "text": "掀烘興"
+        "relation": "preferred"
+        "reading":
+          "kana": "けんこうこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+  - "id": "xy-ch41-ao-family"
+    "kind": "term"
+    "headword": "敖家"
+    "definition_ja": "敖を姓とする四海の竜王兄弟をまとめた呼び方。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch41-primary-1500598"
+      "reason_ja": "敖氏昆玉という四海の竜王兄弟への合同の呼びかけに基づく。単独の西海竜王を呼ぶ姓の短称とは区別する。"
+    "forms":
+      - "id": "xy-ch41-ao-family-form"
+        "text": "敖家"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごうけ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch41-primary-1500598"
+          "reason_ja": "姓の敖の字音ゴウと、一家を表す家のケを組み合わせた推定読み。語全体の仮名を直接示す資料は未確認。"
