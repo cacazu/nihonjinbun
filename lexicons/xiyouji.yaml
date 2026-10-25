@@ -3494,6 +3494,18 @@
     "title": "八王子市 星を見る会2024年4月 公開PDF（清明の語義・せいめいの読みを本文抽出で確認）"
     "url": "https://www.city.hachioji.tokyo.jp/shisetsu/003/p005064_d/fil/2024-4hoshizora.pdf"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch76-primary-1557754"
+    "title": "中文維基文庫 西遊記 第076回 固定版1557754（固定URL本文取得成功）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第076回&oldid=1557754"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch76-moe-red-sand"
+    "title": "教育部重編國語辭典修訂本 紅沙（公開本文の語義）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=87032&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch76-three-talents-array"
+    "title": "兵鏡 巻十一（識典古籍の検索表示で天地人の三才を確認。本文全体の精査ではない）"
+    "url": "https://www.shidianguji.com/zh/book/NA07623/chapter/1kycsymsiwtof"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -4740,6 +4752,15 @@
           "source_ids":
             - "xy-ch75-primary-2093000"
           "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+      - "id": "xy-ch76-sun-grandfather-form"
+        "text": "孫外公"
+        "relation": "alias"
+        "reading":
+          "kana": "そんがいこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch76-primary-1557754"
+          "reason_ja": "悟空が孫という姓に外公（母方の祖父）を付けて相手に要求する呼称。既存の孫・外公の字音を組み合わせた推定で、独立した全語形の仮名資料は未確認。実際の血縁や別人の名を意味しない。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -63415,3 +63436,81 @@
           "source_ids":
             - "xy-ch75-qingming"
           "reason_ja": "公開PDF本文が清明にせいめいの仮名を示す。"
+  - "id": "xy-ch76-fragrant-rattan"
+    "kind": "term"
+    "headword": "香藤"
+    "definition_ja": "輿を作るつる・藤類の素材をいう語。具体的な植物種は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch76-primary-1557754"
+      "reason_ja": "香藤轎兒・香藤轎子という輿の素材の呼称。既存の藤蔓・植物・輿の項目と比較したが特定種の同定根拠がなく、同名別義の植物へ結びつけない。"
+    "forms":
+      - "id": "xy-ch76-fragrant-rattan-form"
+        "text": "香藤"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch76-primary-1557754"
+          "reason_ja": "構成漢字の日本語字音と語構成から採用した読み。全語形の仮名を明記する信頼できる日本語資料は今回未確認。中国語語義の確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch76-three-talents-array"
+    "kind": "concept"
+    "headword": "三才陣"
+    "definition_ja": "天・地・人の三才になぞらえる陣形の名。具体的な配置は一つに断定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch76-primary-1557754"
+        - "xy-ch76-three-talents-array"
+      "reason_ja": "三才陣勢として妖兵が敷く陣。兵鏡巻十一の検索表示に天位・人位・地位を三才に対応させる説明が見えるが、本文の陣がその具体的配置と同じだとは断定しない。"
+    "forms":
+      - "id": "xy-ch76-three-talents-array-form"
+        "text": "三才陣"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんさいじん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch76-primary-1557754"
+          "reason_ja": "構成漢字の日本語字音と語構成から採用した読み。全語形の仮名を明記する信頼できる日本語資料は今回未確認。中国語語義の確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch76-life-taking-rope"
+    "kind": "object"
+    "headword": "追命縄"
+    "definition_ja": "冥界の役人が命を取り立てると語られる縄の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch76-primary-1557754"
+      "reason_ja": "八戒が魂を取り立てる使者と信じた相手へ、この名と掛けられれば息が止まるという認識を語る。実際に別の縄が出現したという語り手の説明ではない。旧来の縛妖索などと同一物とはしない。"
+    "forms":
+      - "id": "xy-ch76-life-taking-rope-form"
+        "text": "追命縄"
+        "relation": "preferred"
+        "reading":
+          "kana": "ついめいじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch76-primary-1557754"
+          "reason_ja": "構成漢字の日本語字音と語構成から採用した読み。全語形の仮名を明記する信頼できる日本語資料は今回未確認。中国語語義の確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch76-red-sand-day"
+    "kind": "term"
+    "headword": "紅沙"
+    "definition_ja": "占日術で、外出などを避けるべき凶日をいう語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch76-primary-1557754"
+        - "xy-ch76-moe-red-sand"
+      "reason_ja": "原文は不犯紅沙として山を越える日取りに言及。教育部辞典の公開本文で陰陽家のいう凶日、出行などを避ける日の語義を確認。紅という姓や流沙河の沙とは無関係。"
+    "forms":
+      - "id": "xy-ch76-red-sand-day-form"
+        "text": "紅沙"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうさ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch76-primary-1557754"
+          "reason_ja": "構成漢字の日本語字音と語構成から採用した読み。全語形の仮名を明記する信頼できる日本語資料は今回未確認。中国語語義の確認を日本語読みの実証とはしない。"
