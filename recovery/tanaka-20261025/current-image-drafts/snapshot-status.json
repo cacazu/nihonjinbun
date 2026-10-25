@@ -1,0 +1,46 @@
+{
+  "status": "incomplete_not_for_reading_site",
+  "snapshot_utc": "2026-10-25T23:14:00Z",
+  "files": [
+    {
+      "file": "1048202-front-001-064.json.gz",
+      "segments": 240,
+      "first": "ns-p0002-001",
+      "last": "ns-p0025-004",
+      "uncompressed_sha256": "db04e739829f74c271dad96e6eb8102d044da72263d5b4951764c60a0d7ccf4b",
+      "uncompressed_bytes": 10192495
+    },
+    {
+      "file": "1048202-065-080.json.gz",
+      "segments": 67,
+      "first": "ns-p0065-001",
+      "last": "ns-p0073-017",
+      "uncompressed_sha256": "a17d78b979a66eebe2d911bd9b569f87ef69f27e05f034c4f88e5810a7666d73",
+      "uncompressed_bytes": 251504
+    },
+    {
+      "file": "1048202-081-109.json.gz",
+      "segments": 109,
+      "first": "ns-p0081-001",
+      "last": "ns-p0092-014",
+      "uncompressed_sha256": "5f960a1602976d7461aad223aacff841d315144c6ef80c0f9113573bbcd6b013",
+      "uncompressed_bytes": 629921
+    },
+    {
+      "file": "1048202-109-128.json.gz",
+      "segments": 119,
+      "first": "ns-p0110-001",
+      "last": "ns-p0121-004",
+      "uncompressed_sha256": "c8671df71ffb17dfaa199268d5c7a8c8ea6a28c34acd22de3d6ef787466e7168",
+      "uncompressed_bytes": 6386903
+    },
+    {
+      "file": "971061-001-032.json",
+      "segments": 13,
+      "first": "sk-p0013-001",
+      "last": "sk-p0016-003",
+      "uncompressed_sha256": "a73e0ef5fc60d5905f71d3ba41b2da69f8e76a1b8633075e9a4fb3bd4d1b6511",
+      "uncompressed_bytes": 90692
+    }
+  ]
+}
