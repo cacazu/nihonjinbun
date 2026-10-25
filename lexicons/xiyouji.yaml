@@ -3506,6 +3506,34 @@
     "title": "兵鏡 巻十一（識典古籍の検索表示で天地人の三才を確認。本文全体の精査ではない）"
     "url": "https://www.shidianguji.com/zh/book/NA07623/chapter/1kycsymsiwtof"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch77-primary-1455626"
+    "title": "中文維基文庫 西遊記 第077回（現行ページ全199表示行、footer oldid1455626。直接固定URL取得不成功）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第077回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch77-thirtysix-palaces"
+    "title": "蔡之洪 鳳巖集 巻十 三十六宮之圖（中文維基文庫の検索本文と表示ページ）"
+    "url": "https://zh.wikisource.org/wiki/鳳巖集_(蔡之洪)/卷十"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch77-steamer"
+    "title": "世田谷デジタルミュージアム 蒸籠（検索表示で読み・用途を確認。直接取得失敗）"
+    "url": "https://www.setagayadigitalmuseum.jp/collection/9600/detail/301025584/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch77-palm"
+    "title": "日外アソシエーツ 動植物名よみかた辞典 棕櫚（コトバンク検索本文）"
+    "url": "https://kotobank.jp/word/棕櫚-529586"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch77-vulture-peak"
+    "title": "鷲峰会 公式サイト（検索表示でじゅほうかいと霊鷲山の説明を確認。直接取得403）"
+    "url": "https://juhoukai.la.coocan.jp/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch77-fugen"
+    "title": "知多市歴史民俗博物館 普賢菩薩坐像（検索表示でふげんぼさつざぞうを確認。直接取得失敗）"
+    "url": "https://jmapps.ne.jp/chitaaichi_bunkazai/det.html?data_id=54"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch77-snow-mountain"
+    "title": "千葉県立東部図書館 レファレンス協同データベース 雪山（せっせん）の辞書紹介（検索表示。直接取得失敗）"
+    "url": "https://crd.ndl.go.jp/reference/entry/reference/show?id=1000129819&page=ref_view"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -5187,6 +5215,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-ch77-enma-king-form"
+        "text": "閻魔王"
+        "relation": "title"
+        "reading":
+          "kana": "えんまおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を示す資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
   - "id": "xy-term-065"
     "kind": "person"
     "headword": "長腕の猿"
@@ -18671,6 +18708,16 @@
           "source_ids":
             - "xy-ch58-primary-1455607"
           "reason_ja": "既存の霊鷲山の読みと仙山の漢字音からの合成推定。天竺の如来の寺を載せる山という文脈が同じなので既存の霊山entryへ追加。"
+      - "id": "xy-ch77-vulture-peak-form"
+        "text": "鷲峰"
+        "relation": "alias"
+        "reading":
+          "kana": "じゅほう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch77-vulture-peak"
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "鷲峰会公式の検索表示でじゅほうかいと仮名を示し、鷲峰を霊鷲山と説明する。地名部分の読みとして採る。直接ページ取得は403で、検索表示のみの根拠。"
   - "id": "xy-entry-0710"
     "kind": "term"
     "headword": "勝境"
@@ -18807,6 +18854,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-ch77-nine-grade-lotus-form"
+        "text": "九品宝蓮台"
+        "relation": "alias"
+        "reading":
+          "kana": "くほんほうれんだい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "既存の九品と宝蓮台の読みを合成。語全体の日本語仮名資料は未確認。如来が座る同じ蓮台の修飾形として既存項目へ追加する。"
   - "id": "xy-entry-0715"
     "kind": "term"
     "headword": "礼拝"
@@ -20985,6 +21041,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-ch77-jiedi-gods-form"
+        "text": "掲諦神"
+        "relation": "alias"
+        "reading":
+          "kana": "ぎゃていしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "既存の掲諦の読みと神の漢字音を合成。本文で護法の神々として列挙される語形。五方掲諦の五柱だけに限定しない。"
   - "id": "xy-entry-0829"
     "kind": "title"
     "headword": "比丘"
@@ -38050,6 +38115,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+      - "id": "xy-ch77-fugen-bodhisattva-form"
+        "text": "普賢菩薩"
+        "relation": "alias"
+        "reading":
+          "kana": "ふげんぼさつ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch77-fugen"
+          "reason_ja": "知多市歴史民俗博物館の検索表示に普賢菩薩坐像のふげんぼさつざぞうという読みがある。名称部分を確認。直接ページ取得は失敗したため検索表示の根拠。"
   - "id": "xy-entry-1697"
     "kind": "person"
     "headword": "真武"
@@ -61698,12 +61772,13 @@
   - "id": "xy-ch71-peacock-bodhisattva"
     "kind": "person"
     "headword": "孔雀大明王菩薩"
-    "definition_ja": "西方の仏母と呼ばれる菩薩。雄雌二羽の孔雀のひなの母として語られる。"
+    "definition_ja": "西方の仏母と呼ばれる菩薩。雄雌二羽の孔雀のひなの母として語られる。 如来を腹へ吞み込み、背から出た如来に仏母孔雀大明王菩薩と封じられたと語られる。"
     "definition_evidence":
       "status": "verified"
       "source_ids":
         - "xy-ch71-primary-1455620"
-      "reason_ja": "観音の回想が仏母と孔雀大明王菩薩を接続する。孔雀経という経典とは区別。"
+        - "xy-ch77-primary-1455626"
+      "reason_ja": "観音の回想が仏母と孔雀大明王菩薩を接続する。孔雀経という経典とは区別。 既存の仏母と孔雀大明王菩薩の称号が、如来による同じ称号の授与と一致するため同じ項目へ接続。孔雀経の同形略名とは区別。"
     "forms":
       - "id": "xy-ch71-peacock-bodhisattva-form"
         "text": "孔雀大明王菩薩"
@@ -61723,6 +61798,24 @@
           "source_ids":
             - "xy-ch71-primary-1455620"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch77-buddha-mother-peacock-form"
+        "text": "仏母孔雀大明王菩薩"
+        "relation": "title"
+        "reading":
+          "kana": "ぶつもくじゃくだいみょうおうぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を示す資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+      - "id": "xy-ch77-peacock-person-form"
+        "text": "孔雀"
+        "relation": "short_form"
+        "reading":
+          "kana": "くじゃく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "孔雀の通常の音を採用。本文中で仏母孔雀大明王菩薩と授名される同一の主体。孔雀経の略称である同表記とは別語義。既存の071菩薩項目に追加する。"
   - "id": "xy-ch71-zhang-boduan"
     "kind": "person"
     "headword": "張伯端"
@@ -63122,12 +63215,13 @@
   - "id": "xy-ch74-cloud-peng"
     "kind": "person"
     "headword": "雲程万里鵬"
-    "definition_ja": "獅駝嶺の三人の魔王のうち、第三の大王として紹介される妖魔の名。"
+    "definition_ja": "獅駝嶺の三人の魔王のうち、第三の大王として紹介される妖魔の名。 孔雀と同じ鳳凰の母から生まれたと如来が語る、大鵬金翅鵰の妖王。"
     "definition_evidence":
       "status": "verified"
       "source_ids":
         - "xy-ch74-primary-1500622"
-      "reason_ja": "小鑽風が三大王の名號として明示。既存の鵬魔王・大鵬魔王は悟空の義兄弟という別の役割で、同一人物を立証する記述がない。鳥の総称の大鵬にも統合しない。"
+        - "xy-ch77-primary-1455626"
+      "reason_ja": "小鑽風が三大王の名號として明示。既存の鵬魔王・大鵬魔王は悟空の義兄弟という別の役割で、同一人物を立証する記述がない。鳥の総称の大鵬にも統合しない。 如来の親族説明と、本相としての大鵬金翅鵰の明示により接続。後の呼び名を先の本文語釈へ自動反映しない。"
     "forms":
       - "id": "xy-ch74-cloud-peng-form"
         "text": "雲程万里鵬"
@@ -63147,6 +63241,24 @@
           "source_ids":
             - "xy-ch75-primary-2093000"
           "reason_ja": "大鵬と鵰の漢字音から採用。語全体の日本語仮名資料は未確認。前回の雲程万里鵬と今回右の第三の大王を示す詩の人物が同じと本文から確認し、別個体の鵬魔王・一般種の大鵬には混同しない。"
+      - "id": "xy-ch77-great-peng-form"
+        "text": "大鵬"
+        "relation": "short_form"
+        "reading":
+          "kana": "たいほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "既存の雲程万里鵬・大鵬鵰の読みと鵬の漢字音から採用。この語形は特定の第三妖王を指すので、一般の鳥の種類としての大鵬や鵬魔王と区別する。"
+      - "id": "xy-ch77-golden-wing-peng-form"
+        "text": "大鵬金翅鵰"
+        "relation": "alias"
+        "reading":
+          "kana": "たいほうきんしちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "大鵬・金翅・鵰の漢字音から推定。同じ第三妖王の本相を現した明示的な名称として追加。日本語仮名による語全体の確認はできていない。"
   - "id": "xy-ch74-yin-yang-bottle"
     "kind": "object"
     "headword": "陰陽二気瓶"
@@ -63185,15 +63297,25 @@
           "source_ids":
             - "xy-ch74-primary-1500622"
           "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+      - "id": "xy-ch77-shituo-city-form"
+        "text": "獅駝城"
+        "relation": "alias"
+        "reading":
+          "kana": "しだじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "獅駝国の城を指す同じ目的地。国と都城の異なる側面を表すが、本文が同じ支配地としてつなぐため既存項目の形とする。"
   - "id": "xy-ch75-blue-maned-lion"
     "kind": "person"
     "headword": "青毛獅子怪"
-    "definition_ja": "獅駝洞の三人の大王のうち、中央に座る第一の大王。青みがかった毛の獅子の妖怪。"
+    "definition_ja": "獅駝洞の三人の大王のうち、中央に座る第一の大王。青みがかった毛の獅子の妖怪。 文殊菩薩の乗る青い獅子。"
     "definition_evidence":
       "status": "verified"
       "source_ids":
         - "xy-ch75-primary-2093000"
-      "reason_ja": "容貌詩末の獣中王青毛獅子怪と、それまでの中央の大王の説明を照合。既存の獅猁王と同じ獅子というだけで同定せず、神仏の乗物との関係も未開示なので定義に含めない。"
+        - "xy-ch77-primary-1455626"
+      "reason_ja": "容貌詩末の獣中王青毛獅子怪と、それまでの中央の大王の説明を照合。既存の獅猁王と同じ獅子というだけで同定せず、神仏の乗物との関係も未開示なので定義に含めない。 如来が二妖の主人を召し、文殊と普賢が本相に戻して騎乗する叙述と、既知の文殊の青毛獅子の乗物を照合。ただし他の獅子個体との同一性は確定しない。"
     "forms":
       - "id": "xy-ch75-blue-maned-lion-form"
         "text": "青毛獅子怪"
@@ -63204,15 +63326,25 @@
           "source_ids":
             - "xy-ch75-primary-2093000"
           "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+      - "id": "xy-ch77-lion-king-form"
+        "text": "獅王"
+        "relation": "alias"
+        "reading":
+          "kana": "しおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "獅と王の漢字音。悟空の訴えが同じ第一の妖王を指すため青毛獅子怪の別称とする。別の獅猁王や獅狔王との同一性は未確認。"
   - "id": "xy-ch75-yellow-tusk-elephant"
     "kind": "person"
     "headword": "黄牙老象"
-    "definition_ja": "獅駝洞の三人の大王のうち、左の下座にいる第二の大王。黄色い牙を持つ年老いた象の妖怪。"
+    "definition_ja": "獅駝洞の三人の大王のうち、左の下座にいる第二の大王。黄色い牙を持つ年老いた象の妖怪。 普賢菩薩の乗る白い象。"
     "definition_evidence":
       "status": "verified"
       "source_ids":
         - "xy-ch75-primary-2093000"
-      "reason_ja": "容貌詩末の黄牙老象と、左の下座の者という位置関係を照合。未開示の持ち主や来歴は補わない。"
+        - "xy-ch77-primary-1455626"
+      "reason_ja": "容貌詩末の黄牙老象と、左の下座の者という位置関係を照合。未開示の持ち主や来歴は補わない。 如来が二妖の主人を召し、文殊と普賢が本相に戻して騎乗する叙述と、既知の普賢の白象の乗物を照合。"
     "forms":
       - "id": "xy-ch75-yellow-tusk-elephant-form"
         "text": "黄牙老象"
@@ -63223,6 +63355,15 @@
           "source_ids":
             - "xy-ch75-primary-2093000"
           "reason_ja": "構成漢字の日本語音訓から採用。語全体の仮名を明示する日本語資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+      - "id": "xy-ch77-elephant-king-form"
+        "text": "象王"
+        "relation": "alias"
+        "reading":
+          "kana": "ぞうおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "象と王の漢字音。悟空の訴えが同じ第二の妖王を指すため黄牙老象の別称とする。"
   - "id": "xy-ch75-lifesaving-hairs"
     "kind": "object"
     "headword": "救命毫毛"
@@ -63514,3 +63655,140 @@
           "source_ids":
             - "xy-ch76-primary-1557754"
           "reason_ja": "構成漢字の日本語字音と語構成から採用した読み。全語形の仮名を明記する信頼できる日本語資料は今回未確認。中国語語義の確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch77-thirtysix-palaces"
+    "kind": "concept"
+    "headword": "三十六宮"
+    "definition_ja": "易の卦の配置や陰陽の運行を三十六の宮にたとえる表現。細かな数の説明には諸説がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch77-primary-1455626"
+        - "xy-ch77-thirtysix-palaces"
+      "reason_ja": "蔡之洪の三十六宮之圖は六十四卦と三十六宮の関係を説明する。本文の春自在は同系の詩句に通じると解するが、武当山の実際の宮殿群や天界の三十六天とは同じ語義にしない。"
+    "forms":
+      - "id": "xy-ch77-thirtysix-palaces-form"
+        "text": "三十六宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんじゅうろくきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を示す資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+  - "id": "xy-ch77-palm"
+    "kind": "term"
+    "headword": "棕櫚"
+    "definition_ja": "ヤシの仲間の木。幹を覆う繊維は縄や綱などに用いられる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch77-palm"
+        - "xy-ch77-primary-1455626"
+      "reason_ja": "公開辞書の検索本文でシュロの読み、繊維を綱に使うことを確認。原文の棕纜をその繊維の綱と解して訳す。"
+    "forms":
+      - "id": "xy-ch77-palm-form"
+        "text": "棕櫚"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅろ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch77-palm"
+          "reason_ja": "公開辞書の検索表示に棕櫚のシュロという読みがある。"
+  - "id": "xy-ch77-steamer"
+    "kind": "object"
+    "headword": "蒸籠"
+    "definition_ja": "湯を沸かす釜の上に載せ、蒸気を通して食物を蒸す容器。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch77-steamer"
+        - "xy-ch77-primary-1455626"
+      "reason_ja": "博物館の検索表示で蒸気を通す容器の説明を確認。本文では鉄製で段を重ねるもの。木製・竹製に定義を限定しない。"
+    "forms":
+      - "id": "xy-ch77-steamer-form"
+        "text": "蒸籠"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいろ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch77-steamer"
+          "reason_ja": "世田谷デジタルミュージアムの検索表示に蒸籠（せいろ）とある。直接ページ取得は失敗しており、検索表示の根拠。"
+  - "id": "xy-ch77-protect-country-king"
+    "kind": "person"
+    "headword": "護国天王"
+    "definition_ja": "北天門で悟空と数当て遊びをし、眠り虫を取られたと回想される天王。具体的な個人同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch77-primary-1455626"
+      "reason_ja": "北天門での勝負相手という役割を保持。別の回想では東天門・増長天王とあり、同じ虫の由来の語りだけで既存の増長天王へ統合しない。名と門の不一致を保留する。"
+    "forms":
+      - "id": "xy-ch77-protect-country-king-form"
+        "text": "護国天王"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごこくてんのう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を示す資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+  - "id": "xy-ch77-shituo-pavilion"
+    "kind": "place"
+    "headword": "錦香亭"
+    "definition_ja": "獅駝国の皇宮内にある、鉄の櫃を置いた亭。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch77-primary-1455626"
+      "reason_ja": "雲程万里鵬が我這皇宮裡面と述べて亭と櫃を紹介する。既存の烏鶏国の錦香亭とは場所が異なるため別項目。"
+    "forms":
+      - "id": "xy-ch77-shituo-pavilion-form"
+        "text": "錦香亭"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんこうてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を示す資料は未確認。中国語出現だけを日本語読みの確認とはしない。"
+  - "id": "xy-ch77-posuo-place"
+    "kind": "place"
+    "headword": "婆娑"
+    "definition_ja": "仏のいる地を指す表現と解される呼称。娑婆とは字順が逆で、語義の細部には留保がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch77-primary-1455626"
+      "reason_ja": "不能保你上婆娑と続く西方勝境を照合し、旅の目指す仏の地と解する。通常の娑婆という語へ無断訂正せず、他の国土名へ同定しない。"
+    "forms":
+      - "id": "xy-ch77-posuo-place-form"
+        "text": "婆娑"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばさ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch77-primary-1455626"
+          "reason_ja": "底本の婆・娑の漢字音からばさと読む。娑婆の慣用読みしゃばへ字順を入れ替えて読まない。日本語の同形名の読み資料は未確認。"
+  - "id": "xy-ch77-snow-mountain"
+    "kind": "place"
+    "headword": "雪山"
+    "definition_ja": "仏が修行したと語られる雪の山の呼称。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch77-primary-1455626"
+        - "xy-ch77-snow-mountain"
+      "reason_ja": "本文の如来の修行地と、図書館による仏教辞典の雪山の紹介を照合。現代の特定峰への限定はしない。"
+    "forms":
+      - "id": "xy-ch77-snow-mountain-form"
+        "text": "雪山"
+        "relation": "preferred"
+        "reading":
+          "kana": "せっせん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch77-snow-mountain"
+          "reason_ja": "千葉県立東部図書館のレファレンス回答の検索表示が日本仏教語辞典の雪山（せっせん）項を明記する。直接URLの取得は失敗したので辞書現物やページ全文確認とはしない。"
