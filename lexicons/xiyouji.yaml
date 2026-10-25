@@ -2966,6 +2966,26 @@
     "title": "漢典「校尉」（独立取得本文、明清の衛士という語義）"
     "url": "https://zdic.net/hans/校尉"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch63-primary-1808654"
+    "title": "中文維基文庫 西遊記 第063回 oldid=1808654（作者の現行フッター識別後、独立レビューが固定リンク経由で繁體固定版全文を実取得・照合）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第063回&oldid=1808654"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch63-moe-titian"
+    "title": "教育部 重編國語辭典修訂本「踢天弄井」（独立レビューで辞典本文L34の語義を再取得確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=51806&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch63-moe-yueyachan"
+    "title": "教育部 重編國語辭典修訂本「月牙鏟」（独立レビューで辞典本文L32の語義を再取得確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=164622&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch63-kangxi-qing"
+    "title": "康熙字典 魚部八畫「鯖」（独立レビューで本文L118の青魚の語義を再取得確認）"
+    "url": "https://zh.wikisource.org/zh-hant/康熙字典/魚部/八畫"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch63-bencao-guiche"
+    "title": "本草綱目 禽之四「鬼車鳥」（独立レビューで本文L630〜644の十頭から九頭になる伝承を再取得確認）"
+    "url": "https://zh.wikisource.org/zh-hant/本草綱目/禽之四"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -15143,6 +15163,15 @@
           "source_ids":
             - "xy-ch60-primary-1500612"
           "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch63-erlang-manifest-form"
+        "text": "二郎顕聖"
+        "relation": "title"
+        "reading":
+          "kana": "じろうけんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
   - "id": "xy-entry-0582"
     "kind": "place"
     "headword": "灌洲"
@@ -15455,6 +15484,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "公開資料でこの表記全体の慣用日本語読みを確定できず、日本語の音訓・語構成と本文の文脈から推定した。"
+      - "id": "xy-ch63-guo-short-form"
+        "text": "郭"
+        "relation": "short_form"
+        "reading":
+          "kana": "かく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
   - "id": "xy-entry-0598"
     "kind": "person"
     "headword": "直健"
@@ -15472,6 +15510,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "公開資料でこの表記全体の慣用日本語読みを確定できず、日本語の音訓・語構成と本文の文脈から推定した。"
+      - "id": "xy-ch63-zhi-short-form"
+        "text": "直"
+        "relation": "short_form"
+        "reading":
+          "kana": "ちょく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
   - "id": "xy-entry-0599"
     "kind": "person"
     "headword": "二将軍"
@@ -19655,6 +19702,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と仏教語の慣用音から推定。語形全体の読みを明記する資料は未確認。"
+      - "id": "xy-ch63-buddha-relic-form"
+        "text": "仏舎利"
+        "relation": "alias"
+        "reading":
+          "kana": "ぶっしゃり"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
   - "id": "xy-entry-0816"
     "kind": "term"
     "headword": "上品"
@@ -20608,6 +20664,15 @@
           "source_ids":
             - "xy-reference-218"
           "reason_ja": "レファレンス協同データベースの「緊箍児（きんこじ）」から接尾字「児」を除いた短形の読みを推定。"
+      - "id": "xy-ch63-head-golden-hoop-form"
+        "text": "金箍"
+        "relation": "alias"
+        "reading":
+          "kana": "きんこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
   - "id": "xy-entry-0868"
     "kind": "concept"
     "headword": "金"
@@ -54918,6 +54983,33 @@
           "source_ids":
             - "xy-ch62-primary-1500611"
           "reason_ja": "構成漢字の日本語音と語構成に基づく読み。日本語仮名で当該語形全体を示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch63-jinguang-short-form"
+        "text": "金光"
+        "relation": "short_form"
+        "reading":
+          "kana": "きんこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch63-fulong-temple-form"
+        "text": "伏竜寺"
+        "relation": "alias"
+        "reading":
+          "kana": "ふくりゅうじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch63-fulong-full-form"
+        "text": "勅建護国伏竜寺"
+        "relation": "alias"
+        "reading":
+          "kana": "ちょくけんごこくふくりゅうじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
   - "id": "xy-ch62-jisai-state"
     "kind": "place"
     "headword": "祭賽国"
@@ -55110,6 +55202,15 @@
           "source_ids":
             - "xy-ch62-primary-1500611"
           "reason_ja": "構成漢字の日本語音と語構成に基づく読み。日本語仮名で当該語形全体を示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch63-nine-headed-creature-form"
+        "text": "九頭虫"
+        "relation": "alias"
+        "reading":
+          "kana": "きゅうとうちゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
   - "id": "xy-ch62-benboerba"
     "kind": "person"
     "headword": "奔波児灞"
@@ -55168,6 +55269,24 @@
           "source_ids":
             - "xy-ch62-primary-1500611"
           "reason_ja": "構成漢字の日本語音と語構成に基づく読み。日本語仮名で当該語形全体を示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch63-nine-leaf-lingzhi-short-form"
+        "text": "九葉霊芝"
+        "relation": "short_form"
+        "reading":
+          "kana": "きゅうようれいし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch63-lingzhi-short-form"
+        "text": "霊芝草"
+        "relation": "short_form"
+        "reading":
+          "kana": "れいしそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
   - "id": "xy-ch62-donghua-gate"
     "kind": "place"
     "headword": "東華門"
@@ -55304,3 +55423,99 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成による。この衛士の用法について語全体の日本語仮名を明示する資料は未確認。"
+  - "id": "xy-ch63-crescent-spade"
+    "kind": "object"
+    "headword": "月牙鏟"
+    "definition_ja": "長い柄の先に三日月形の刃を備える武器。九頭駙馬が用いる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch63-primary-1808654"
+        - "xy-ch63-moe-yueyachan"
+      "reason_ja": "第六十三回の当該場面で示される語と役割を確認。本文で明示されない来歴や後の展開を追加しない。"
+    "forms":
+      - "id": "xy-ch63-crescent-spade-form"
+        "text": "月牙鏟"
+        "relation": "preferred"
+        "reading":
+          "kana": "げつがさん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch63-jisai-city"
+    "kind": "place"
+    "headword": "祭賽城"
+    "definition_ja": "祭賽国の都の城。国名そのものとは区別して記録する。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch63-primary-1808654"
+      "reason_ja": "第六十三回の当該場面で示される語と役割を確認。本文で明示されない来歴や後の展開を追加しない。"
+    "forms":
+      - "id": "xy-ch63-jisai-city-form"
+        "text": "祭賽城"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいさいじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch63-wansheng-shared-name"
+    "kind": "term"
+    "headword": "万聖"
+    "definition_ja": "竜王と公主に共通する名の要素。竜王一人の別名としては扱わない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch63-primary-1808654"
+      "reason_ja": "第六十三回の当該場面で示される語と役割を確認。本文で明示されない来歴や後の展開を追加しない。"
+    "forms":
+      - "id": "xy-ch63-wansheng-shared-name-form"
+        "text": "万聖"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch63-hunting-hound"
+    "kind": "term"
+    "headword": "細犬"
+    "definition_ja": "細身の猟犬をいう呼び名。二郎真君に従う犬を指す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch63-primary-1808654"
+      "reason_ja": "本文では二郎真君の犬として登場し、狩猟の帰りという文脈にも合う。細身の猟犬という一般語義で解するが、固有の犬名は補わない。"
+    "forms":
+      - "id": "xy-ch63-hunting-hound-form"
+        "text": "細犬"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいけん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch63-jisai-wufenglou"
+    "kind": "place"
+    "headword": "五鳳楼"
+    "definition_ja": "祭賽国の宮廷で、三蔵一行四人の名を書きとめる楼。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch63-primary-1808654"
+      "reason_ja": "第六十三回のこの宮廷の楼として役割を限定する。既存の五鳳楼項目との同一性は、表記だけでは確定しない。別物と断定する意味でもない。"
+    "forms":
+      - "id": "xy-ch63-jisai-wufenglou-form"
+        "text": "五鳳楼"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごほうろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch63-primary-1808654"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。語形全体を仮名で明示する日本語資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
