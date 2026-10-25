@@ -2662,6 +2662,50 @@
     "title": "『礼記』大学（德者本也・財者末也）"
     "url": "https://zh.wikisource.org/wiki/禮記/大學"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch57-primary-2031415"
+    "title": "中文維基文庫 西遊記 第057回（現行取得、フッター識別版2031415）"
+    "url": "https://zh.wikisource.org/zh-hant/西遊記/第057回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch57-san-hua"
+    "title": "漢典「三花」道教の語義"
+    "url": "https://www.zdic.net/hant/三花"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch57-four-elements"
+    "title": "教育部 重編國語辭典修訂本「四大」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=143563&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch57-huangpang"
+    "title": "多紀元堅『雑病広要』内因類・附黄胖（検索取得本文）"
+    "url": "https://zh.wikisource.org/zh-hant/雜病廣要/內因類"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch57-ya"
+    "title": "漢典「砑」本回用例の語義"
+    "url": "https://zdic.net/hant/砑"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch57-chan-zhou"
+    "title": "教育部 重編國語辭典修訂本「僝僽」（検索取得本文）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=122883&q=1&word=僝"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch57-double-loss"
+    "title": "教育部 重編國語辭典修訂本「尖擔兩頭脫」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=92667&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch57-kun"
+    "title": "荘子「逍遥遊」鯤と変化の記述"
+    "url": "https://zh.wikisource.org/zh/莊子/逍遙遊"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch57-yan"
+    "title": "教育部 国語小字典「延」招き迎える語義"
+    "url": "https://dict.mini.moe.edu.tw/SearchIndex/word_detail?breadcrumbs=Search_%E5%BB%B6_one&dictSearchField=%E5%BB%B6&wordID=D0003569"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch57-sangyu"
+    "title": "教育部 重編國語辭典修訂本「桑榆晚景」本回用例"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=145060&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch57-felt-museum"
+    "title": "奈良国立博物館 正倉院展用語解説『毛氈』"
+    "url": "https://shosointen-glossary.narahaku.go.jp/mosen/"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -16799,6 +16843,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の音訓・既存の関連表記からの推定。この語形の日本語読みの直接資料は未確認。"
+      - "id": "xy-ch57-tathagata-ancestor-form"
+        "text": "如来仏祖"
+        "relation": "title"
+        "reading":
+          "kana": "にょらいぶっそ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch57-primary-2031415"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語全体の仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0688"
     "kind": "place"
     "headword": "双林"
@@ -21911,6 +21964,15 @@
           "source_ids":
             - "xy-ch56-primary-1455605"
           "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
+      - "id": "xy-ch57-tang-emperor-surname-form"
+        "text": "李"
+        "relation": "short_form"
+        "reading":
+          "kana": "り"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch57-primary-2031415"
+          "reason_ja": "唐の皇帝・貞観の時代・冥府からの帰還・玄奘への勅命という文書の明示から、既知の太宗李世民の姓と対応づける。同姓の梅山の李太尉、李右衙、李翠蓮とは別の意味対象。読みは日本語字音に基づく。"
   - "id": "xy-entry-0938"
     "kind": "concept"
     "headword": "貞観"
@@ -36757,6 +36819,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+      - "id": "xy-ch57-metal-elder-form"
+        "text": "金老"
+        "relation": "alias"
+        "reading":
+          "kana": "きんろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch57-primary-2031415"
+          "reason_ja": "金公と同じ内丹の金の働きに対応する詩的呼称。黄婆が主と別れて求める物語上の行為と、既存の金公の寓意に基づく対応であり、日本語の語形全体の読みは未確認。"
   - "id": "xy-entry-1719"
     "kind": "concept"
     "headword": "明堂"
@@ -52327,3 +52398,137 @@
           "source_ids":
             - "xy-ch56-primary-1455605"
           "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch57-three-flowers"
+    "kind": "concept"
+    "headword": "三花"
+    "definition_ja": "道教の内丹説で、人の精・気・神をいう象徴的な語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch57-san-hua"
+      "reason_ja": "漢典の道教では人の精・気・神をいうという語義を確認。三花聚頂という完成境地そのものとは対象が異なるため、既存項目の略称にはしない。"
+    "forms":
+      - "id": "xy-ch57-three-flowers-form"
+        "text": "三花"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch57-primary-2031415"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語全体の仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch57-four-elements"
+    "kind": "concept"
+    "headword": "四大"
+    "definition_ja": "仏教で宇宙や人の身を構成するとされる地・水・火・風の四要素。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch57-four-elements"
+      "reason_ja": "教育部辞典の地・水・火・風と宇宙・人身の基本元素という説明を確認。"
+    "forms":
+      - "id": "xy-ch57-four-elements-form"
+        "text": "四大"
+        "relation": "preferred"
+        "reading":
+          "kana": "しだい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch57-primary-2031415"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語全体の仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch57-food-consumption-illness"
+    "kind": "term"
+    "headword": "食癆病"
+    "definition_ja": "食に関わる慢性的な衰弱の古い病名。顔が黄色くむくむ黄胖の姿と結びつけられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch57-primary-2031415"
+        - "xy-ch57-huangpang"
+      "reason_ja": "本文の食癆病黄胖と、雑病広要の食労疳黄・黄胖・顔の黄腫という記述を照合。原文の癆を保存し、特定の現代病名や原因へ断定しない。比較資料の全文取得は失敗し、検索表示の該当本文のみ確認。"
+    "forms":
+      - "id": "xy-ch57-food-consumption-illness-form"
+        "text": "食癆病"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょくろうびょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch57-primary-2031415"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語全体の仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch57-kun-fish"
+    "kind": "term"
+    "headword": "鯤"
+    "definition_ja": "荘子に現れる巨大な魚。化して大鳥となるという。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch57-kun"
+      "reason_ja": "荘子の冒頭の魚の名、巨大さ、鳥へ化す記述を確認。日本語の仮名を示す資料は今回未確認。"
+    "forms":
+      - "id": "xy-ch57-kun-fish-form"
+        "text": "鯤"
+        "relation": "preferred"
+        "reading":
+          "kana": "こん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch57-primary-2031415"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語全体の仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch57-ao-turtle"
+    "kind": "term"
+    "headword": "鰲"
+    "definition_ja": "海に住む大きな亀とされる伝説的な生き物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch57-primary-2031415"
+      "reason_ja": "巨鰲遊という海の賦と一般的な字義から説明。実在種・個体は確定しない。"
+    "forms":
+      - "id": "xy-ch57-ao-turtle-form"
+        "text": "鰲"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch57-primary-2031415"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語全体の仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch57-cave-figure-golden-staff"
+    "kind": "object"
+    "headword": "金箍棒"
+    "definition_ja": "悟空と呼ばれる洞の主が振るう金のたがの付いた棒。既知の悟空の如意金箍棒との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch57-primary-2031415"
+      "reason_ja": "洞の主の武器を金箍棒と呼ぶ本文だけを根拠とする。持ち主の同一性が未決着であり、同形名のみで既存武器へ統合しない。役割別の保留項目で、別物との断定を意味しない。"
+    "forms":
+      - "id": "xy-ch57-cave-figure-golden-staff-form"
+        "text": "金箍棒"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんこぼう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch57-primary-2031415"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語全体の仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch57-felt"
+    "kind": "term"
+    "headword": "毛氈"
+    "definition_ja": "獣毛を圧して繊維を絡ませ、フェルト状にした布。敷物などに用いる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch57-felt-museum"
+      "reason_ja": "奈良国立博物館の正倉院展用語解説で、獣毛を圧してフェルト状にする敷物という説明を確認。"
+    "forms":
+      - "id": "xy-ch57-felt-form"
+        "text": "毛氈"
+        "relation": "preferred"
+        "reading":
+          "kana": "もうせん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch57-felt-museum"
+          "reason_ja": "奈良国立博物館の用語解説に毛氈の仮名表記もうせんが明示される。"
