@@ -3458,6 +3458,18 @@
     "title": "仁徳医護管理専科学校 仁心與濟術第五期 鳳履（検索表示）"
     "url": "https://academics.jente.edu.tw/gedu/wp-content/uploads/sites/26/2015/01/download_Form_jente_no5-0303.pdf"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch74-primary-1500622"
+    "title": "中文維基文庫 西遊記 第074回 固定版1500622（固定URL本文取得成功）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第074回&oldid=1500622"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch74-danfeng-eyes"
+    "title": "漢典 丹鳳眼（公開本文取得。中国語語義のみ）"
+    "url": "https://zdic.net/hans/丹凤眼"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch74-eleven-luminaries"
+    "title": "道教文化中心 上清十一大曜燈儀（検索表示で星神の構成を確認）"
+    "url": "https://zh.daoinfo.org/index.php?mobileaction=toggle_view_desktop&title=上清十一大曜燈儀&variant=zh-hans"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -4668,6 +4680,24 @@
           "source_ids":
             - "xy-ch68-primary-1455617"
           "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch74-chief-patrol-wind-form"
+        "text": "総鑽風"
+        "relation": "alias"
+        "reading":
+          "kana": "そうさんぷう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "悟空が偽の札に書いて名乗る呼称。總を日本語の総とし、字音で採用。正式な任官とせず、全語形の日本語仮名は未確認。"
+      - "id": "xy-ch74-chief-roaming-wind-form"
+        "text": "総巡風"
+        "relation": "variant"
+        "reading":
+          "kana": "そうじゅんぷう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "総鑽風の札を作った悟空が、昇進という虚偽の説明で用いる總巡風の字面を保持。別人物や実際の任官とせず、字音による読み。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -8578,6 +8608,15 @@
           "source_ids":
             - "xy-ch56-primary-1455605"
           "reason_ja": "十代の閻君という原文を十人の冥界王の集合として対応づける。単独の閻羅王の別名や十世代の歴代王へ変更しない。字音に基づく読み。"
+      - "id": "xy-ch74-ten-earth-yama-lords-form"
+        "text": "十地閻君"
+        "relation": "alias"
+        "reading":
+          "kana": "じゅうちえんくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "十地閻君を冥府の王たちの集合として読み、後の十閻王という説明と接続する。菩薩の修行位である十地とは異なる用法。構成字の日本語音からの採用で、全語形の仮名資料は未確認。"
   - "id": "xy-entry-0227"
     "kind": "person"
     "headword": "秦広王"
@@ -12475,6 +12514,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の通常の漢字音訓と語構成からの推定。当該語形・文脈の日本語読みを明記する資料は今回未確認。"
+      - "id": "xy-ch74-queen-mother-niangniang-form"
+        "text": "王母娘娘"
+        "relation": "title"
+        "reading":
+          "kana": "おうぼにゃんにゃん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "蟠桃大会を開く王母への娘娘の尊称。既存の娘娘の慣用的な仮名と王母の字音を組み合わせた推定。語全体の仮名を明記する独立資料は未確認。"
   - "id": "xy-entry-0430"
     "kind": "term"
     "headword": "不老長生"
@@ -43774,6 +43822,15 @@
             - "xy-ch35-primary-1500616"
             - "xy-ch35-enbudai-jodo"
           "reason_ja": "浄土宗大辞典の閻浮提（えんぶだい）の閻浮と世界の日本語音を組み合わせた読み。閻浮世界という語形全体を直接仮名で示す資料は未確認。"
+      - "id": "xy-ch74-jambu-short-form"
+        "text": "閻浮"
+        "relation": "short_form"
+        "reading":
+          "kana": "えんぶ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
   - "id": "xy-ch35-qian-quarter"
     "kind": "concept"
     "headword": "乾宮"
@@ -62791,3 +62848,213 @@
             - "xy-ch73-female-address-reading"
             - "xy-ch73-primary-1500620"
           "reason_ja": "青空文庫公開本文に同形語の女菩薩（にょぼさつ）を確認し漢字音として採用。本作の女性への敬称を扱う仮名資料そのものではないので、語義まで同一視せず推定を維持。"
+  - "id": "xy-ch74-eleven-luminaries"
+    "kind": "person"
+    "headword": "十一大曜"
+    "definition_ja": "日月や星に関わる十一柱の星神の総称。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch74-primary-1500622"
+        - "xy-ch74-eleven-luminaries"
+      "reason_ja": "固定原文が天宮で敬う神々として十一大曜を挙げる。道教文化中心の検索表示は日月五星と羅睺・計都・紫炁・月孛の十一神を示す。九曜や個々の星神と同一の集合として統合しない。"
+    "forms":
+      - "id": "xy-ch74-eleven-luminaries-form"
+        "text": "十一大曜"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゅういちたいよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+  - "id": "xy-ch74-eight-caves"
+    "kind": "concept"
+    "headword": "八洞"
+    "definition_ja": "仙人の住処や、そこに属する仙人の一群をいう呼称。具体的な構成を一つに限定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch74-primary-1500622"
+      "reason_ja": "八洞仙という集合呼称。既存の上八洞・中八洞・下八洞のどれか一群をこの語だけで選ぶ根拠はないため、特定の旧集合の短形にしない。"
+    "forms":
+      - "id": "xy-ch74-eight-caves-form"
+        "text": "八洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "はちどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+  - "id": "xy-ch74-shituo-ridge"
+    "kind": "place"
+    "headword": "獅駝嶺"
+    "definition_ja": "八百里にわたり、妖魔たちが住むという山嶺。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch74-primary-1500622"
+      "reason_ja": "老人が山名と八百里の広がりを明示。既存の獅駝王は人物であり、山そのものとは別の意味。"
+    "forms":
+      - "id": "xy-ch74-shituo-ridge-form"
+        "text": "獅駝嶺"
+        "relation": "preferred"
+        "reading":
+          "kana": "しだれい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+      - "id": "xy-ch74-shituo-mountain-form"
+        "text": "獅駝山"
+        "relation": "variant"
+        "reading":
+          "kana": "しださん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+  - "id": "xy-ch74-shituo-cave"
+    "kind": "place"
+    "headword": "獅駝洞"
+    "definition_ja": "獅駝嶺の中にあり、妖魔たちの拠点となる洞窟。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch74-primary-1500622"
+      "reason_ja": "固定版本文の語形、役割、文脈から解した。未開示の身元や由来は補わない。"
+    "forms":
+      - "id": "xy-ch74-shituo-cave-form"
+        "text": "獅駝洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "しだどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+  - "id": "xy-ch74-little-patrol-wind"
+    "kind": "title"
+    "headword": "小鑽風"
+    "definition_ja": "獅駝嶺で山を見回る小妖たちが名札に帯びる呼び名。一匹の小妖への呼称としても使われる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch74-primary-1500622"
+      "reason_ja": "札の名と、我々は皆この名だという小妖の説明による。固有名を持つ一個人だけに限定しない。"
+    "forms":
+      - "id": "xy-ch74-little-patrol-wind-form"
+        "text": "小鑽風"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうさんぷう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+      - "id": "xy-ch74-patrol-wind-short-form"
+        "text": "鑽風"
+        "relation": "short_form"
+        "reading":
+          "kana": "さんぷう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+  - "id": "xy-ch74-brush-peak"
+    "kind": "term"
+    "headword": "筆峰"
+    "definition_ja": "筆を台に立てたように、細長く突き出した峰。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch74-primary-1500622"
+      "reason_ja": "語り手自身が、四五丈突き出た形による呼び名だと説明。特定の実在の山への同定はしない。"
+    "forms":
+      - "id": "xy-ch74-brush-peak-form"
+        "text": "筆峰"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひっぽう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+  - "id": "xy-ch74-phoenix-eyes"
+    "kind": "term"
+    "headword": "丹鳳眼"
+    "definition_ja": "目尻が上がり、鳳凰の目になぞらえられる目の形。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch74-primary-1500622"
+        - "xy-ch74-danfeng-eyes"
+      "reason_ja": "漢典の公開本文で目の形を表す語義を確認。既存の丹鳳は鳥そのものを指し、この容貌の定型句全体とは区別。"
+    "forms":
+      - "id": "xy-ch74-phoenix-eyes-form"
+        "text": "丹鳳眼"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんぽうがん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+  - "id": "xy-ch74-cloud-peng"
+    "kind": "person"
+    "headword": "雲程万里鵬"
+    "definition_ja": "獅駝嶺の三人の魔王のうち、第三の大王として紹介される妖魔の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch74-primary-1500622"
+      "reason_ja": "小鑽風が三大王の名號として明示。既存の鵬魔王・大鵬魔王は悟空の義兄弟という別の役割で、同一人物を立証する記述がない。鳥の総称の大鵬にも統合しない。"
+    "forms":
+      - "id": "xy-ch74-cloud-peng-form"
+        "text": "雲程万里鵬"
+        "relation": "preferred"
+        "reading":
+          "kana": "うんていばんりほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+  - "id": "xy-ch74-yin-yang-bottle"
+    "kind": "object"
+    "headword": "陰陽二気瓶"
+    "definition_ja": "雲程万里鵬が携える、入れた人を短時間で汁に変えるという宝の瓶。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch74-primary-1500622"
+      "reason_ja": "小鑽風が所有者、名称、作用を明示する。金角・銀角らの浄瓶や瓢箪とは別の物品であり、同名や能力の類似から統合しない。"
+    "forms":
+      - "id": "xy-ch74-yin-yang-bottle-form"
+        "text": "陰陽二気瓶"
+        "relation": "preferred"
+        "reading":
+          "kana": "いんようにきへい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
+  - "id": "xy-ch74-shituo-country"
+    "kind": "place"
+    "headword": "獅駝国"
+    "definition_ja": "雲程万里鵬が王や住民を食い尽くして奪い、妖怪の住処にしたと語られる国。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch74-primary-1500622"
+      "reason_ja": "小鑽風の説明が城と国の名、占領の経緯を示す。獅駝嶺・獅駝洞とは場所の種類と距離が異なる。"
+    "forms":
+      - "id": "xy-ch74-shituo-country-form"
+        "text": "獅駝国"
+        "relation": "preferred"
+        "reading":
+          "kana": "しだこく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch74-primary-1500622"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく採用。全語形の日本語仮名を明記する信頼できる資料は今回未確認で、中国語出現を日本語読みの実証としない。"
