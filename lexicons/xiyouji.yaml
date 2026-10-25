@@ -2830,6 +2830,66 @@
     "title": "詞典網「趁腳蹺」"
     "url": "https://m.cidianwang.com/cd/c/chenjiaoqiao304663.htm"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-primary-1500610"
+    "title": "中文維基文庫 西遊記 第061回（現行取得、フッター識別版1500610）"
+    "url": "https://zh.wikisource.org/zh-hant/西遊記/第061回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-kotobank-mizuchi"
+    "title": "精選版日本国語大辞典「蛟」（コトバンク）"
+    "url": "https://kotobank.jp/word/蛟-637987"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-kotobank-ryuge"
+    "title": "精選版日本国語大辞典「龍華・龍花」（コトバンク）"
+    "url": "https://kotobank.jp/word/竜花-2092629"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-kotobank-kisei"
+    "title": "デジタル大辞泉・精選版日本国語大辞典「既済」（コトバンク）"
+    "url": "https://kotobank.jp/word/既済-473336"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-kato-emei"
+    "title": "明治大学 加藤徹「峨眉山」の日本語読み"
+    "url": "https://www.isc.meiji.ac.jp/~katotoru/asahi20240106.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-moe-daogu"
+    "title": "教育部 重編國語辭典修訂本「道姑」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=43134&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-moe-laixiang"
+    "title": "教育部 重編國語辭典修訂本「賴象嗑瓜子」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=59596&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-zdic-wulou"
+    "title": "漢典「五漏」"
+    "url": "https://zdic.net/hant/五漏"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-moe-langkang"
+    "title": "教育部 重編國語辭典修訂本「狼犺」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=61227&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-moe-xiangjiang"
+    "title": "教育部 重編國語辭典修訂本「相將」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=109573&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-ctext-huang"
+    "title": "中國哲學書電子化計劃「癀」所載廣韻・康熙字典"
+    "url": "https://ctext.org/dictionary.pl?char=癀&if=gb"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-detailed-commentary"
+    "title": "西遊記百回詳注 第六十一回（劉一明の内丹解釈、本文とは別資料）"
+    "url": "https://zh.wikisource.org/zh-hant/西遊記百回詳注/61"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-kotobank-disha"
+    "title": "中日辞典第三版「地煞」（コトバンク）"
+    "url": "https://kotobank.jp/zhjaword/地煞"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-kotobank-urabon"
+    "title": "デジタル大辞泉・世界大百科事典「盂蘭盆会」（コトバンク）"
+    "url": "https://kotobank.jp/word/盂蘭盆会-441915"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch61-katsuoji-kisei"
+    "title": "勝尾寺「水火既済」六十四卦ダルマみくじ"
+    "url": "https://katsuo-ji-temple.or.jp/worship/omikuji/63.html"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -7495,6 +7555,24 @@
           "source_ids":
             - "xy-ch59-primary-1455608"
           "reason_ja": "構成漢字の日本語音訓に基づく推定。語形全体の仮名を示す信頼できる日本語資料は未確認。"
+      - "id": "xy-ch61-bull-king-short-form"
+        "text": "牛王"
+        "relation": "short_form"
+        "reading":
+          "kana": "ぎゅうおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+      - "id": "xy-ch61-bull-demon-short-form"
+        "text": "牛魔"
+        "relation": "short_form"
+        "reading":
+          "kana": "ぎゅうま"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
   - "id": "xy-entry-0215"
     "kind": "person"
     "headword": "蛟魔王"
@@ -10516,6 +10594,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の語全体の読みを明記する資料は未確認。構成漢字の通常の音訓と文脈から推定。"
+      - "id": "xy-ch61-giant-spirit-general-form"
+        "text": "巨霊神将"
+        "relation": "title"
+        "reading":
+          "kana": "きょれいしんしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
   - "id": "xy-entry-0369"
     "kind": "person"
     "headword": "魚肚将"
@@ -14688,6 +14775,15 @@
           "source_ids":
             - "xy-reference-162"
           "reason_ja": "「ろくていろっこう」の明示例はあるが、民間編集の神名紹介に留まるため、慣用読みを確定済みとはせず推定とした。"
+      - "id": "xy-ch61-jia-ding-reversed-form"
+        "text": "六甲六丁"
+        "relation": "variant"
+        "reading":
+          "kana": "ろっこうろくてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
   - "id": "xy-entry-0573"
     "kind": "place"
     "headword": "天河"
@@ -17031,6 +17127,15 @@
           "source_ids":
             - "xy-ch58-primary-1455607"
           "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+      - "id": "xy-ch61-shakyamuni-ancestor-form"
+        "text": "釈迦牟尼仏祖"
+        "relation": "title"
+        "reading":
+          "kana": "しゃかむにぶっそ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
   - "id": "xy-entry-0688"
     "kind": "place"
     "headword": "双林"
@@ -19679,6 +19784,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-ch61-bliss-heaven-form"
+        "text": "極楽天"
+        "relation": "alias"
+        "reading":
+          "kana": "ごくらくてん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
   - "id": "xy-entry-0827"
     "kind": "concept"
     "headword": "大千世界"
@@ -19782,6 +19896,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-ch61-ullambana-short-form"
+        "text": "盂蘭会"
+        "relation": "short_form"
+        "reading":
+          "kana": "うらんえ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
   - "id": "xy-entry-0832"
     "kind": "concept"
     "headword": "福星"
@@ -50616,6 +50739,15 @@
           "source_ids":
             - "xy-ch51-primary-1498138"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+      - "id": "xy-ch61-jiao-short-form"
+        "text": "蛟"
+        "relation": "short_form"
+        "reading":
+          "kana": "みずち"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch61-kotobank-mizuchi"
+          "reason_ja": "公開資料の該当語形の仮名を検索表示で確認。本文の役割・語義とは区別する。"
   - "id": "xy-ch51-thunder-officer-tao"
     "kind": "person"
     "headword": "陶"
@@ -53636,6 +53768,15 @@
           "source_ids":
             - "xy-ch60-primary-1500612"
           "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch61-jade-face-li-spirit-form"
+        "text": "玉面狸精"
+        "relation": "alias"
+        "reading":
+          "kana": "ぎょくめんりせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
   - "id": "xy-ch60-xiang-skirt"
     "kind": "object"
     "headword": "湘裙"
@@ -54073,3 +54214,497 @@
           "source_ids":
             - "xy-ch60-primary-1500612"
           "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch61-earthly-evil"
+    "kind": "concept"
+    "headword": "地煞"
+    "definition_ja": "七十二の地煞に配する変化の術を示す呼び名。悟空の変身術に結びつけて用いられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-earthly-evil-form"
+        "text": "地煞"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-dragon-flower"
+    "kind": "concept"
+    "headword": "龍華"
+    "definition_ja": "弥勒の説法の場となる龍華樹、またその説法会を指す仏教語。修行の後に赴く宴としても歌われる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-dragon-flower-form"
+        "text": "龍華"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうげ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch61-kotobank-ryuge"
+          "reason_ja": "公開資料の該当語形の仮名を検索表示で確認。本文の役割・語義とは区別する。"
+  - "id": "xy-ch61-completed-water-fire"
+    "kind": "concept"
+    "headword": "既済"
+    "definition_ja": "易の卦の名。坎の水と離の火が調和し、事が成った状態を表す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-completed-water-fire-form"
+        "text": "既済"
+        "relation": "preferred"
+        "reading":
+          "kana": "きせい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch61-kotobank-kisei"
+            - "xy-ch61-katsuoji-kisei"
+          "reason_ja": "勝尾寺の公式ページ本文で卦名「水火既済」と「すいかきせい」を対応確認し、既済部分の読みを確かめた。日本易学振興協会の卦名表記も同じ。コトバンクはきさいの卦義と、きせいの一般語義を区別しているため、同資料だけから卦義の読みを確定したことにはしない。"
+  - "id": "xy-ch61-yellow-hawk"
+    "kind": "term"
+    "headword": "黄鷹"
+    "definition_ja": "黄色がかった鷹という鳥の呼び方。作中の変身の一つで、現代の種名は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-yellow-hawk-form"
+        "text": "黄鷹"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-black-phoenix"
+    "kind": "term"
+    "headword": "烏鳳"
+    "definition_ja": "黒い鳳という鳥の呼び方。作中の変身の一つで、現代の鳥種へ同定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-black-phoenix-form"
+        "text": "烏鳳"
+        "relation": "preferred"
+        "reading":
+          "kana": "うほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-red-phoenix"
+    "kind": "term"
+    "headword": "丹鳳"
+    "definition_ja": "赤い鳳をいう呼び方。作中では鳥の王として描かれる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-red-phoenix-form"
+        "text": "丹鳳"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんぽう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-man-bear"
+    "kind": "term"
+    "headword": "人熊"
+    "definition_ja": "人のように立つ熊をいう呼び方と解する。作中の変身の一つで、現代の種名は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-man-bear-form"
+        "text": "人熊"
+        "relation": "preferred"
+        "reading":
+          "kana": "じんゆう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-lai-elephant"
+    "kind": "term"
+    "headword": "賴象"
+    "definition_ja": "象をいう古い呼び方。賴の具体的な修飾の含みは未確定。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch61-moe-laixiang"
+      "reason_ja": "教育部の賴象嗑瓜子の語義に大象とある。作中にも鼻・牙の描写があるが、賴の修飾の細部は留保する。"
+    "forms":
+      - "id": "xy-ch61-lai-elephant-form"
+        "text": "賴象"
+        "relation": "preferred"
+        "reading":
+          "kana": "らいぞう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-sumeru-vajra-mountain"
+    "kind": "place"
+    "headword": "須弥山"
+    "definition_ja": "大力金剛の摩耳崖があると紹介される山。宇宙論の須弥山や霊吉菩薩の小須弥山との具体的な同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "本回の金剛の所属という役割に限定。既存の同形地名の語義・役割を広げず、別の山と断定するものでもない。"
+    "forms":
+      - "id": "xy-ch61-sumeru-vajra-mountain-form"
+        "text": "須弥山"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅみせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-secret-demon-rock"
+    "kind": "place"
+    "headword": "秘魔巌"
+    "definition_ja": "潑法金剛の所属する、五台山の巌の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-secret-demon-rock-form"
+        "text": "秘魔巌"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひまがん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-emei-mountain"
+    "kind": "place"
+    "headword": "峨眉山"
+    "definition_ja": "勝至金剛の清涼洞があるとされる山。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-emei-mountain-form"
+        "text": "峨眉山"
+        "relation": "preferred"
+        "reading":
+          "kana": "がびさん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch61-kato-emei"
+          "reason_ja": "公開資料の該当語形の仮名を検索表示で確認。本文の役割・語義とは区別する。"
+  - "id": "xy-ch61-cool-cave"
+    "kind": "place"
+    "headword": "清涼洞"
+    "definition_ja": "峨眉山にある、勝至金剛の洞の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-cool-cave-form"
+        "text": "清涼洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいりょうどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-ear-rubbing-cliff"
+    "kind": "place"
+    "headword": "摩耳崖"
+    "definition_ja": "須弥山にある、大力金剛の崖の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-ear-rubbing-cliff-form"
+        "text": "摩耳崖"
+        "relation": "preferred"
+        "reading":
+          "kana": "まじがい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-golden-cloud-ridge"
+    "kind": "place"
+    "headword": "金霞嶺"
+    "definition_ja": "崑崙山にある、永住金剛の峰の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-golden-cloud-ridge-form"
+        "text": "金霞嶺"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんかれい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-pofa-vajra"
+    "kind": "person"
+    "headword": "神通広大潑法金剛"
+    "definition_ja": "五台山秘魔巌に属し、釈迦牟尼の命で北の逃げ道を塞ぐ金剛。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-pofa-vajra-form"
+        "text": "神通広大潑法金剛"
+        "relation": "preferred"
+        "reading":
+          "kana": "じんずうこうだいはつほうこんごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+      - "id": "xy-ch61-pofa-vajra-short-form"
+        "text": "潑法金剛"
+        "relation": "short_form"
+        "reading":
+          "kana": "はつほうこんごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-shengzhi-vajra"
+    "kind": "person"
+    "headword": "法力無量勝至金剛"
+    "definition_ja": "峨眉山清涼洞に属し、仏の命で南の逃げ道を塞ぐ金剛。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-shengzhi-vajra-form"
+        "text": "法力無量勝至金剛"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうりきむりょうしょうしこんごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+      - "id": "xy-ch61-shengzhi-vajra-short-form"
+        "text": "勝至金剛"
+        "relation": "short_form"
+        "reading":
+          "kana": "しょうしこんごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-dali-vajra"
+    "kind": "person"
+    "headword": "毘盧沙門大力金剛"
+    "definition_ja": "須弥山摩耳崖に属し、如来の密命で東の逃げ道を塞ぐ金剛。牛魔王の大力王とは別の指示対象。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-dali-vajra-form"
+        "text": "毘盧沙門大力金剛"
+        "relation": "preferred"
+        "reading":
+          "kana": "びるしゃもんだいりきこんごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+      - "id": "xy-ch61-dali-vajra-short-form"
+        "text": "大力金剛"
+        "relation": "short_form"
+        "reading":
+          "kana": "だいりきこんごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-yongzhu-vajra"
+    "kind": "person"
+    "headword": "不壊尊王永住金剛"
+    "definition_ja": "崑崙山金霞嶺に属し、西天の仏の命で西の逃げ道を塞ぐ金剛。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-yongzhu-vajra-form"
+        "text": "不壊尊王永住金剛"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふえそんのうえいじゅうこんごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+      - "id": "xy-ch61-yongzhu-vajra-short-form"
+        "text": "永住金剛"
+        "relation": "short_form"
+        "reading":
+          "kana": "えいじゅうこんごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-fishbelly-yaksha"
+    "kind": "person"
+    "headword": "魚肚薬叉"
+    "definition_ja": "李天王と哪吒に率いられて天空を塞ぐ天将を示す底本の呼称。魚肚将・薬叉将との関係や人数は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "本文は魚肚藥叉、巨靈神將と列挙する。以前の別個の魚肚将・薬叉将へ語形だけで統合せず、この呼称の役割に限定する。別人だとの断定でもない。"
+    "forms":
+      - "id": "xy-ch61-fishbelly-yaksha-form"
+        "text": "魚肚薬叉"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょとやくしゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-four-vajra-warriors"
+    "kind": "person"
+    "headword": "四大金剛"
+    "definition_ja": "潑法・勝至・大力・永住の四金剛の集団。牛魔王を四方から囲む。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "本回の四方の紹介と、続く四大金剛という集合を照合。従来の無名の四金剛の集団との個体対応を本文が確定しないため、ここで名の列挙された集団として限定。別集団と断定するものではない。"
+    "forms":
+      - "id": "xy-ch61-four-vajra-warriors-form"
+        "text": "四大金剛"
+        "relation": "preferred"
+        "reading":
+          "kana": "しだいこんごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-true-fire"
+    "kind": "concept"
+    "headword": "真火"
+    "definition_ja": "仙術や神通力によって生じる特別な火。哪吒の火輪を燃やす火として描かれる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-true-fire-form"
+        "text": "真火"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-female-daoist"
+    "kind": "term"
+    "headword": "道姑"
+    "definition_ja": "女性の道士。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch61-moe-daogu"
+      "reason_ja": "資料の該当語義を直接照合。個別場面の適用は本文の文脈に従う。"
+    "forms":
+      - "id": "xy-ch61-female-daoist-form"
+        "text": "道姑"
+        "relation": "preferred"
+        "reading":
+          "kana": "どうこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-five-watches"
+    "kind": "term"
+    "headword": "五漏"
+    "definition_ja": "五つの夜の時刻を通した一晩をいう語。内丹詩での含みの細部は留保する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+        - "xy-ch61-zdic-wulou"
+      "reason_ja": "漢典は本回の火煎五漏丹難熟を引き、一晩と説明する。語義を採るが、この内丹詩での含みは確定せず推定を維持。"
+    "forms":
+      - "id": "xy-ch61-five-watches-form"
+        "text": "五漏"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+  - "id": "xy-ch61-true-primal-vitality"
+    "kind": "concept"
+    "headword": "真元"
+    "definition_ja": "生命の根源となる気・元気をいう修行の語。坎離・水火の調和と結びつく。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch61-primary-1500610"
+      "reason_ja": "取得原文の指示対象・役割・語構成から採った説明。原文にない身元・後の行動を補わない。"
+    "forms":
+      - "id": "xy-ch61-true-primal-vitality-form"
+        "text": "真元"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんげん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch61-primary-1500610"
+          "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
