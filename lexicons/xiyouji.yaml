@@ -2618,6 +2618,50 @@
     "title": "玄奘仏学研究27期、証道書の食物の対話改訂に関する論考（検索取得抜粋112頁）"
     "url": "https://www.hcu.edu.tw/upload/userfiles/37837C6FAB904E548360E98C1217A9BE/files/27-4%281%29.pdf"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch56-primary-1455605"
+    "title": "中文維基文庫 西遊記 第056回 固定版1455605（固定URLの本文取得成功）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第056回&oldid=1455605"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch56-miluo-customs"
+    "title": "岳陽市档案館 汨羅江畔の端午習俗"
+    "url": "https://daj.yueyang.gov.cn/6658/61041/content_1717470.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch56-moe-langyabang"
+    "title": "教育部 重編國語辭典修訂本「狼牙棒」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=61259&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch56-zdic-matijin"
+    "title": "漢典「馬蹄金」"
+    "url": "https://www.zdic.net/hant/马蹄金"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch56-moe-tuanpiao"
+    "title": "教育部 重編國語辭典修訂本「團瓢」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=55147&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch56-inoue-dictionary"
+    "title": "井上支那語辞典「倒頭經」（検索取得箇所）"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/NDL1193953_井上支那語辞典_part7.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch56-moe-meidasa"
+    "title": "教育部 重編國語辭典修訂本「沒搭撒」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=28342&q=1&word=撒"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch56-moe-zhen-variant"
+    "title": "教育部 異體字字典「抮」異体\U00022DD1"
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=58798&powerMode=2"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch56-shidian-xian"
+    "title": "識典古籍「\U00022DD1」漢語大詞典の語義と古籍用例"
+    "url": "https://www.shidianguji.com/character/\U00022DD1"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch56-yenjing-spring"
+    "title": "富察敦崇『燕京歳時記』打春"
+    "url": "https://zh.wikisource.org/zh-hant/燕京歲時記"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch56-great-learning"
+    "title": "『礼記』大学（德者本也・財者末也）"
+    "url": "https://zh.wikisource.org/wiki/禮記/大學"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -7602,6 +7646,15 @@
           "source_ids":
             - "xy-ch37-primary-1808441"
           "reason_ja": "構成漢字の日本語音訓と名称・語義から採用した読み。語形全体の日本語仮名を明記する独立資料は未確認。"
+      - "id": "xy-ch56-ten-yama-rulers-form"
+        "text": "十代閻君"
+        "relation": "alias"
+        "reading":
+          "kana": "じゅうだいえんくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "十代の閻君という原文を十人の冥界王の集合として対応づける。単独の閻羅王の別名や十世代の歴代王へ変更しない。字音に基づく読み。"
   - "id": "xy-entry-0227"
     "kind": "person"
     "headword": "秦広王"
@@ -17123,6 +17176,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-ch56-western-paradise-form"
+        "text": "西方極楽"
+        "relation": "short_form"
+        "reading":
+          "kana": "さいほうごくらく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
   - "id": "xy-entry-0709"
     "kind": "place"
     "headword": "霊山"
@@ -21840,6 +21902,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓・語構成からの推定。この語形の日本語読みを直接明記する資料は未確認。"
+      - "id": "xy-ch56-tang-taizong-form"
+        "text": "唐太宗"
+        "relation": "alias"
+        "reading":
+          "kana": "とうたいそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
   - "id": "xy-entry-0938"
     "kind": "concept"
     "headword": "貞観"
@@ -43156,6 +43227,15 @@
           "source_ids":
             - "xy-ch37-primary-1808441"
           "reason_ja": "構成漢字の日本語音訓と名称・語義から採用した読み。語形全体の日本語仮名を明記する独立資料は未確認。"
+      - "id": "xy-ch56-dongyue-tianqi-form"
+        "text": "東岳天斉"
+        "relation": "variant"
+        "reading":
+          "kana": "とうがくてんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "本文の東岳天齊を保持し、既存の東岳の神の尊称へ対応づける。既出の東嶽斉天と字順が異なるが無断訂正しない。語形の仮名資料は未確認。"
   - "id": "xy-wenchang-kaihua-lord"
     "kind": "person"
     "headword": "文昌開化君"
@@ -52045,3 +52125,205 @@
           "source_ids":
             - "xy-ch55-primary-2316520"
           "reason_ja": "作中の姓を日本語の字音で読む。語形全体の仮名資料による独立確認はしていない。"
+  - "id": "xy-ch56-dragon-boat"
+    "kind": "object"
+    "headword": "竜舟"
+    "definition_ja": "竜の姿に飾られ、端午の競漕に用いられる舟。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch56-primary-1455605"
+        - "xy-ch56-miluo-customs"
+      "reason_ja": "端午の競渡、舟の竜頭、屈原を祭る習俗を档案館の説明と本文の季節詩で確認。"
+    "forms":
+      - "id": "xy-ch56-dragon-boat-form"
+        "text": "竜舟"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうしゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch56-miluo-river"
+    "kind": "place"
+    "headword": "汨羅江"
+    "definition_ja": "中国の川の名。屈原が身を投げたと伝えられ、端午の祭祀や竜舟競渡に結び付く。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch56-miluo-customs"
+      "reason_ja": "岳陽市档案館の当地の川と屈原・端午の伝承に関する説明を確認。伝承を史実上の起源の確定とはしない。"
+    "forms":
+      - "id": "xy-ch56-miluo-river-form"
+        "text": "汨羅江"
+        "relation": "preferred"
+        "reading":
+          "kana": "べきらこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch56-wolf-tooth-club"
+    "kind": "object"
+    "headword": "狼牙棒"
+    "definition_ja": "頭の部分に牙のような突起を備える打撃武器。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch56-moe-langyabang"
+        - "xy-ch56-primary-1455605"
+      "reason_ja": "教育部辞典の棒の太い端に狼の牙のような釘を並べる武器という説明を確認。作品の当該武器の細かい寸法は補わない。"
+    "forms":
+      - "id": "xy-ch56-wolf-tooth-club-form"
+        "text": "狼牙棒"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろうがぼう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch56-ba-mountain"
+    "kind": "place"
+    "headword": "巴山"
+    "definition_ja": "巴の地方の山。猛虎の比喩に現れる山名で、この旅の現在地ではない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch56-primary-1455605"
+      "reason_ja": "巴山虎と出水龍が対応する比喩から山地の虎と解する。第三十四回の小妖の名「巴山虎」とは同一視しない。山の具体的範囲は留保。"
+    "forms":
+      - "id": "xy-ch56-ba-mountain-form"
+        "text": "巴山"
+        "relation": "preferred"
+        "reading":
+          "kana": "はざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch56-horse-hoof-gold"
+    "kind": "object"
+    "headword": "馬蹄金"
+    "definition_ja": "馬の蹄の形に鋳た金の塊。植物の同名語とは異なる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch56-zdic-matijin"
+      "reason_ja": "漢典の鋳成馬蹄形状的黄金という語義と、金銀の錠を数える本文を照合。"
+    "forms":
+      - "id": "xy-ch56-horse-hoof-gold-form"
+        "text": "馬蹄金"
+        "relation": "preferred"
+        "reading":
+          "kana": "ばていきん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch56-deathbed-sutra"
+    "kind": "term"
+    "headword": "倒頭経"
+    "definition_ja": "人が亡くなった際に、その死者のため唱える経。特定の一経典名とは限らない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch56-inoue-dictionary"
+        - "xy-ch56-primary-1455605"
+      "reason_ja": "検索取得された井上支那語辞典の「倒頭經　枕經」という見出しと、死者の埋葬時に唱える本文を確認。PDF全文を取得したとはしない。"
+    "forms":
+      - "id": "xy-ch56-deathbed-sutra-form"
+        "text": "倒頭経"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうとうきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch56-five-route-spirits"
+    "kind": "concept"
+    "headword": "五路猖神"
+    "definition_ja": "五つの路に属するとされる猖神の集団。悟空が従えたと誇る神々。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch56-primary-1455605"
+      "reason_ja": "五路と猖神の語形、および悟空が自分の若い衆としたという発言から限定的に説明。五通神との同一性や個々の名・動物の正体は本回では確定しない。"
+    "forms":
+      - "id": "xy-ch56-five-route-spirits-form"
+        "text": "五路猖神"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごろしょうしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch56-five-bureaus"
+    "kind": "concept"
+    "headword": "五司"
+    "definition_ja": "神々の世界にある五つの役所、またはその司官を示す語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch56-primary-1455605"
+      "reason_ja": "三界・十方の主宰者と列記される神界の行政区分として解釈。仏教・道教の複数の五司説のどれか、本文だけでは確定しない。"
+    "forms":
+      - "id": "xy-ch56-five-bureaus-form"
+        "text": "五司"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch56-yaksha-type"
+    "kind": "concept"
+    "headword": "夜叉"
+    "definition_ja": "恐ろしい姿の鬼神の一種。仏教では守護神としても現れる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch56-primary-1455605"
+      "reason_ja": "弟子の容貌をたとえる一般名詞としての用法。竜王に仕える特定の巡海役の夜叉（xy-entry-0178）とは指示対象を分け、旧項目を変更しない。"
+    "forms":
+      - "id": "xy-ch56-yaksha-type-form"
+        "text": "夜叉"
+        "relation": "preferred"
+        "reading":
+          "kana": "やしゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
+  - "id": "xy-ch56-elder-yang"
+    "kind": "person"
+    "headword": "楊の老人"
+    "definition_ja": "三蔵一行に食事と宿を提供する、楊姓の七十四歳の老人。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch56-primary-1455605"
+      "reason_ja": "固定原文で自ら姓・年齢を答え、宿と食事を提供する行動が記される。二郎真君の父の楊姓とは別の人物。"
+    "forms":
+      - "id": "xy-ch56-elder-yang-form"
+        "text": "楊の老人"
+        "relation": "preferred"
+        "reading":
+          "kana": "ようのろうじん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
+      - "id": "xy-ch56-yang-surname-form"
+        "text": "楊"
+        "relation": "short_form"
+        "reading":
+          "kana": "よう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch56-primary-1455605"
+          "reason_ja": "構成漢字の日本語音訓から採用した読み。語形全体の仮名を示す独立資料は未確認。中国語の用例を日本語読みの実証とはしない。"
