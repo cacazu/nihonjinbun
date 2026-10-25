@@ -2070,6 +2070,26 @@
     "title": "教育部《重編國語辭典修訂本》「鳳閣」"
     "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=37711&la=0&powerMode=0"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch40-primary-1808481"
+    "title": "中文維基文庫 西遊記 第040回（現行取得本文のフッター版1808481）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第040回"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch40-reading-funeno"
+    "title": "funeno「【仕事】水で消せないすごい火」紅孩児・三昧真火の仮名読み"
+    "url": "https://note.com/funeno/n/nc6caeb632bd9"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch40-rush-fpa"
+    "title": "福岡市薬剤師会 薬草データベース「イ」灯心草・燈心草の読みと灯芯用途"
+    "url": "https://www.fpa.gr.jp/herbdb/164/"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch40-yuanzhi-search"
+    "title": "劉一明『西遊原旨』第四十回（検索表示で確認、本文の直接取得は不成功）"
+    "url": "https://ctext.org/wiki.pl?chapter=209800&if=gb"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch40-zhenquan-search"
+    "title": "陳士斌『西遊真詮』第四十回（検索表示で確認、本文の直接取得は不成功）"
+    "url": "https://ctext.org/wiki.pl?chapter=954101&if=gb&remap=gb"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -15156,6 +15176,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-ch40-samadhi-true-fire-form"
+        "text": "三昧真火"
+        "relation": "alias"
+        "reading":
+          "kana": "さんまいしんか"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch40-reading-funeno"
+          "reason_ja": "西遊記挿絵担当者funenoの2024年6月10日記事に「三昧真火（さんまいしんか）」と明記。既存の三昧の火の別表記として登録。"
   - "id": "xy-entry-0659"
     "kind": "concept"
     "headword": "金剛"
@@ -20233,6 +20262,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく読み。この表記の日本語読みを明示する資料は未確認。"
+      - "id": "xy-ch40-white-dragon-horse-form"
+        "text": "白竜馬"
+        "relation": "alias"
+        "reading":
+          "kana": "はくりゅうば"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
   - "id": "xy-entry-0915"
     "kind": "object"
     "headword": "明珠"
@@ -42735,3 +42773,347 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音と語構成から採った読み。独立した日本語仮名の典拠は確認できていないため推定とする。"
+  - "id": "xy-ch40-jade-belt"
+    "kind": "object"
+    "headword": "碧玉帯"
+    "definition_ja": "青緑色の玉を用いた帯。国王が正装として身につける。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-jade-belt-form"
+        "text": "碧玉帯"
+        "relation": "preferred"
+        "reading":
+          "kana": "へきぎょくたい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-ochre-robe"
+    "kind": "object"
+    "headword": "赭黄袍"
+    "definition_ja": "赤みを帯びた黄色の長い衣。国王の装束。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-ochre-robe-form"
+        "text": "赭黄袍"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゃこうほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-nine-provinces"
+    "kind": "place"
+    "headword": "九州"
+    "definition_ja": "中国全土を九つの州に分けていう呼び名。日本の九州地方ではない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-nine-provinces-form"
+        "text": "九州"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうしゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-maoyou-star-method"
+    "kind": "concept"
+    "headword": "卯酉星法"
+    "definition_ja": "互いに出会えないようにする術の名。悟空は山を移し大地を縮め、一行を先へ進ませる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-maoyou-star-method-form"
+        "text": "卯酉星法"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼうゆうせいほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-withered-pine-ravine"
+    "kind": "place"
+    "headword": "枯松澗"
+    "definition_ja": "山中にある谷の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-withered-pine-ravine-form"
+        "text": "枯松澗"
+        "relation": "preferred"
+        "reading":
+          "kana": "こしょうかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-hong-surname"
+    "kind": "term"
+    "headword": "紅"
+    "definition_ja": "妖怪が子供の身の上話を作る際、祖父の姓として挙げる語。紅百万・紅十万の紅も同じ姓。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-hong-surname-form"
+        "text": "紅"
+        "relation": "preferred"
+        "reading":
+          "kana": "こう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-hong-million"
+    "kind": "person"
+    "headword": "紅百万"
+    "definition_ja": "妖怪の作り話に登場する祖父のあだ名。大きな財産を持つことにちなむ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-hong-million-form"
+        "text": "紅百万"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうひゃくまん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-hong-hundred-thousand"
+    "kind": "person"
+    "headword": "紅十万"
+    "definition_ja": "妖怪の作り話に登場する父のあだ名。祖父の財産を継いだが散財して減らしたという。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-hong-hundred-thousand-form"
+        "text": "紅十万"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうじゅうまん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-li-four"
+    "kind": "person"
+    "headword": "李四"
+    "definition_ja": "妖怪の作り話に登場する人物。谷のほとりに住む、母の姉妹の夫とされる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-li-four-form"
+        "text": "李四"
+        "relation": "preferred"
+        "reading":
+          "kana": "りし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-hong-three"
+    "kind": "person"
+    "headword": "紅三"
+    "definition_ja": "妖怪の作り話に登場する人物。林に住む父と同族の年長の男性親族とされる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-hong-three-form"
+        "text": "紅三"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうさん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-heart-ruler"
+    "kind": "concept"
+    "headword": "心君"
+    "definition_ja": "心を身体や精神の主宰者にたとえる呼び名。物語の人物にも重ねる内丹的寓意。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+        - "xy-ch40-yuanzhi-search"
+        - "xy-ch40-zhenquan-search"
+      "reason_ja": "原詩の対句と二種の古い注釈の検索表示を照合した。特定人物への一義的な対応は断定しない。"
+    "forms":
+      - "id": "xy-ch40-heart-ruler-form"
+        "text": "心君"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-rush"
+    "kind": "term"
+    "headword": "灯心草"
+    "definition_ja": "茎の髄を灯火の芯に用いるイグサ。物語では非常に軽いもののたとえ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+        - "xy-ch40-rush-fpa"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-rush-form"
+        "text": "灯心草"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうしんそう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch40-rush-fpa"
+          "reason_ja": "福岡市薬剤師会のイの項に中国名「灯心草」、生薬名「燈心草（トウシンソウ）」と明記。灯・燈の字体差は同ページで確認。"
+  - "id": "xy-ch40-zhuantou-haoshan"
+    "kind": "place"
+    "headword": "鑽頭号山"
+    "definition_ja": "六百里に及ぶと語られる山。号山とも呼ばれ、山中に枯松澗と火雲洞がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-zhuantou-haoshan-form"
+        "text": "鑽頭号山"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんとうごうざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+      - "id": "xy-ch40-haoshan-short-form"
+        "text": "号山"
+        "relation": "short_form"
+        "reading":
+          "kana": "ごうざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-fire-cloud-cave"
+    "kind": "place"
+    "headword": "火雲洞"
+    "definition_ja": "枯松澗のほとりにある、山の妖怪が住む洞穴。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-fire-cloud-cave-form"
+        "text": "火雲洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "かうんどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-rakshasa-woman"
+    "kind": "person"
+    "headword": "羅刹女"
+    "definition_ja": "牛魔王の子の母として語られる女性。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-rakshasa-woman-form"
+        "text": "羅刹女"
+        "relation": "preferred"
+        "reading":
+          "kana": "らせつにょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-flame-mountain"
+    "kind": "place"
+    "headword": "火焔山"
+    "definition_ja": "牛魔王の息子が三百年修行したという山。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-flame-mountain-form"
+        "text": "火焔山"
+        "relation": "preferred"
+        "reading":
+          "kana": "かえんざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
+  - "id": "xy-ch40-red-boy"
+    "kind": "person"
+    "headword": "紅孩児"
+    "definition_ja": "牛魔王の息子で、羅刹女の子。幼名が紅孩児、号が聖嬰大王。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch40-primary-1808481"
+      "reason_ja": "作品原文の当該語、指示対象と文脈から採った説明。後の展開・正体や専門的な語源を補っていない。"
+    "forms":
+      - "id": "xy-ch40-red-boy-form"
+        "text": "紅孩児"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうがいじ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch40-reading-funeno"
+          "reason_ja": "西遊記挿絵の担当者funenoによる2024年6月10日の記事に「紅孩児（こうがいじ）」と明記。人物関係は底本本文で照合。"
+      - "id": "xy-ch40-holy-infant-king-form"
+        "text": "聖嬰大王"
+        "relation": "title"
+        "reading":
+          "kana": "せいえいだいおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch40-primary-1808481"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。表記全体の仮名読みを直接示す資料は未確認。中国語本文の出現だけを読みの実証としない。"
