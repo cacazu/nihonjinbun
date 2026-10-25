@@ -1,0 +1,537 @@
+{
+  "book_url": "https://lab.ndl.go.jp/dl/book/1099271",
+  "acquisition_method_ja": "原資料ページの「この資料の全文テキストデータ」リンクを先に確認・取得し、未修正ZIPと全座標JSONを保存。その後IIIF原画像全24コマを取得・全コマ目視照合。mtimeはローカル保存時刻でありサーバ側作成日時ではない。",
+  "scan_count": 24,
+  "files": [
+    {
+      "path": "fulltext-original.zip",
+      "bytes": 153732,
+      "sha256": "68a975c8ff7a16888bcb4bfb96b41c6073757d30056aad355299e2ce05baec66",
+      "local_file_mtime_utc": "2026-10-25T15:13:00.366945+00:00",
+      "url": "https://lab.ndl.go.jp/dl/api/book/fulltext/1099271"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 14983,
+      "sha256": "e2f6f95b021509eacb5feb88baed6db407941d3a18604924be782b211a5af673",
+      "local_file_mtime_utc": "2026-10-25T15:28:07.359864+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/manifest.json"
+    },
+    {
+      "path": "images/0001.jpg",
+      "bytes": 787385,
+      "sha256": "3c76fea3c20e70aabb29d88a98e66760e637636edad84bf263b4950b7b02e17e",
+      "local_file_mtime_utc": "2026-10-25T15:13:17.418845+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000001/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0002.jpg",
+      "bytes": 579639,
+      "sha256": "0fdcfee85ba9bb20342f53b1d58e873cefd5036fd3826f7ff5f974904e3ba2db",
+      "local_file_mtime_utc": "2026-10-25T15:13:16.682850+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000002/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0003.jpg",
+      "bytes": 745444,
+      "sha256": "348e428133abe1f016976d2d257cc6e9142c33d35e2c6c5a0db8e772e58b1532",
+      "local_file_mtime_utc": "2026-10-25T15:13:16.930848+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000003/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0004.jpg",
+      "bytes": 768451,
+      "sha256": "055f389a29e49c7f8897fbe15da57f3e995184cf9bda97ce9d5edcef7ad81367",
+      "local_file_mtime_utc": "2026-10-25T15:13:21.546821+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000004/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0005.jpg",
+      "bytes": 984247,
+      "sha256": "0c968d486c735297711095d496198faac7173350e94680348fa0ae8f91f5c342",
+      "local_file_mtime_utc": "2026-10-25T15:13:21.030824+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000005/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0006.jpg",
+      "bytes": 919776,
+      "sha256": "581bbc93c99f4e8c8a53b67053375944ad35f75651fe5f0296c2ad80916f8c18",
+      "local_file_mtime_utc": "2026-10-25T15:13:21.590821+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000006/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0007.jpg",
+      "bytes": 933488,
+      "sha256": "507175283a7866a0e427ef824c8e7074e9003a1ce918d68be1e8cef8cbd3afcc",
+      "local_file_mtime_utc": "2026-10-25T15:13:26.138794+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000007/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0008.jpg",
+      "bytes": 949694,
+      "sha256": "58d2ab5d04fe36f8e206f38a39a533920d2ed6c8b70c9624d22e1b82246df1d2",
+      "local_file_mtime_utc": "2026-10-25T15:13:25.366799+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000008/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0009.jpg",
+      "bytes": 965947,
+      "sha256": "124eb5849bedbd1545a8e1ad32b4ecc84ab9a97a20ca2508fe3958e63ec659a7",
+      "local_file_mtime_utc": "2026-10-25T15:13:25.866796+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000009/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0010.jpg",
+      "bytes": 1028955,
+      "sha256": "1b4a1351404c2c16ff0c93e0b73d0513b41cb63a1161e2f3c4bd4918df776832",
+      "local_file_mtime_utc": "2026-10-25T15:13:30.742768+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000010/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0011.jpg",
+      "bytes": 924085,
+      "sha256": "a875572562b1925c7c93728f8dfc97126fdb946102ae46a89186ee8e614f25f5",
+      "local_file_mtime_utc": "2026-10-25T15:13:30.798767+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000011/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0012.jpg",
+      "bytes": 941631,
+      "sha256": "baefbde6667f530f6d9bf1bdfbceefafbe78a48c3372d184b7b124b7e1c3694f",
+      "local_file_mtime_utc": "2026-10-25T15:13:30.758767+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000012/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0013.jpg",
+      "bytes": 1006197,
+      "sha256": "322d5b83d5cab10a20d1450d1f424f59c4e75a14bb8fc09495d52ca361d12488",
+      "local_file_mtime_utc": "2026-10-25T15:13:34.658745+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000013/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0014.jpg",
+      "bytes": 988032,
+      "sha256": "46274dad7087d593e5386a42169129fd2ff5e72e785faccd3b32b3f9c7266bc6",
+      "local_file_mtime_utc": "2026-10-25T15:13:34.606745+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000014/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0015.jpg",
+      "bytes": 978898,
+      "sha256": "a05b0c269d935dfa30473c1d051c6870068ac76461147ad64e17a2136e89e464",
+      "local_file_mtime_utc": "2026-10-25T15:13:34.734745+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000015/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0016.jpg",
+      "bytes": 968072,
+      "sha256": "7cb344bfa75ea79054ac711e17be156f11d2a20d769a0ace80f22e9f85bf01e1",
+      "local_file_mtime_utc": "2026-10-25T15:13:38.570722+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000016/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0017.jpg",
+      "bytes": 958671,
+      "sha256": "c5fde84b4e1718cd2d820e722ebfefb6a461e081b0d4bb848d5c528999d40a8e",
+      "local_file_mtime_utc": "2026-10-25T15:13:38.478722+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000017/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0018.jpg",
+      "bytes": 961336,
+      "sha256": "734cfbe4873b9dcf35849bed13984d1926db70f4cf917b73cb27442691d16e7e",
+      "local_file_mtime_utc": "2026-10-25T15:13:38.570722+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000018/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0019.jpg",
+      "bytes": 983194,
+      "sha256": "dcad52a4cedbbbb4f61c45cf7d1509df336fb680dcb28fa05066d6c3032538bf",
+      "local_file_mtime_utc": "2026-10-25T15:13:42.118701+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000019/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0020.jpg",
+      "bytes": 965674,
+      "sha256": "cb4ffc72b42c8c32a6d74c9728de78803a1b8deb2268d093a3a941b1a9dd06e4",
+      "local_file_mtime_utc": "2026-10-25T15:13:41.978702+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000020/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0021.jpg",
+      "bytes": 1045267,
+      "sha256": "7139f7083bf03b3130436282b8013a9f8c337e9f6b1b7d4eda960942c158090c",
+      "local_file_mtime_utc": "2026-10-25T15:13:43.574692+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000021/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0022.jpg",
+      "bytes": 1077927,
+      "sha256": "80188163f3a910238cc18840f00816ecede2bfc604cfdf42042593f3972a06c9",
+      "local_file_mtime_utc": "2026-10-25T15:13:46.870672+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000022/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0023.jpg",
+      "bytes": 670917,
+      "sha256": "5bf69bb2342be57cead8125c5978bd9585787696f8fa3c0c833d45967174b863",
+      "local_file_mtime_utc": "2026-10-25T15:13:46.326676+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000023/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "images/0024.jpg",
+      "bytes": 656223,
+      "sha256": "dc29d0f4536f37c21a60b459ecc71494adfe6fa74c028891e50397a5333fb664",
+      "local_file_mtime_utc": "2026-10-25T15:13:46.974672+00:00",
+      "url": "https://dl.ndl.go.jp/api/iiif/1099271/R0000024/full/full/0/default.jpg",
+      "width": 3256,
+      "height": 2576
+    },
+    {
+      "path": "raw/1099271.jsonl",
+      "bytes": 193740,
+      "sha256": "1d7b1104868cd0cabbd51f0204a021882eaa20eff65fa3d7481c1081b50e4562",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271.txt",
+      "bytes": 54992,
+      "sha256": "a7b3c68da588dc6d3be40627d77c371a5aeccbdd4a414135c97042704a05c8c8",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000001.json",
+      "bytes": 1933,
+      "sha256": "b63d667521140abeb0498eb5a819303e58a40922d07c81ea980142f354393a48",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000001.txt",
+      "bytes": 154,
+      "sha256": "2f5753891ecee495da353d67c159f8a4dd405f9eed0cafdbafa97e0d25d72e75",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000002.json",
+      "bytes": 655,
+      "sha256": "0bcb1e07a7e458f0cb871e16af45c8850fc43407041b6a35c850ad53ee970ed6",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000002.txt",
+      "bytes": 168,
+      "sha256": "89a3351cb62a995477e123a952e5671af786185f2f1eafeaea03bbebd0bf1846",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000003.json",
+      "bytes": 5383,
+      "sha256": "ca17d8f68d3e85643914d6bb4be51d45fd5e9f01d02c7431d803c5c443ef1288",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000003.txt",
+      "bytes": 1407,
+      "sha256": "f91c55040a902cd1d3e45261401daa1022646cc14b5e9ce3d9e78463707653f7",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000004.json",
+      "bytes": 3815,
+      "sha256": "d7c83e8a4b1c509c2c836c8f3717970ee1f313b5feb84d992d9ec5ccf96e4820",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000004.txt",
+      "bytes": 1125,
+      "sha256": "132e3e94b4664a55f6f0f66dc1cfa7a84035663b38906354d83770ba726f0326",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000005.json",
+      "bytes": 9823,
+      "sha256": "6286a61c57b05d3b01a90a02ce21b92174e2bd1a4b11df33620f47444bf6bccb",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000005.txt",
+      "bytes": 2878,
+      "sha256": "07a647fcf99039c6fd1190aa27186e11ec62708a77073407c34d7a870fad33c6",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000006.json",
+      "bytes": 9272,
+      "sha256": "f8fe8c4f93a57a8603956d8ed314aa16ec81094480d5eef40e19793dcf989c9b",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000006.txt",
+      "bytes": 2748,
+      "sha256": "88190762eeefd36161e83518ebdae1cec4213ba4fcb38641b1c49bb96d74926e",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000007.json",
+      "bytes": 9964,
+      "sha256": "b22b0ae5d915e4e7f867aab5713dcf923b1683064e44770616ea614e7e855fc4",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000007.txt",
+      "bytes": 2875,
+      "sha256": "709b42c3cc2fbc13971f1d80cb0ec6820d2db1cd7c4eaa6dbc72cc6993fcae92",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000008.json",
+      "bytes": 8967,
+      "sha256": "193f7d420a8c3a41bb9bcb75265e15ac1d086f0eaa70830dc67bfcf2f4519a47",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000008.txt",
+      "bytes": 2845,
+      "sha256": "08171e7ccbfb3993f2a3bc494fe2120ec396b3f958550ff1a28af18f79f3af3a",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000009.json",
+      "bytes": 10296,
+      "sha256": "c5682d2f010fb692ba793b09c979f827ad639eb8c7f707eb8155258e8049b213",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000009.txt",
+      "bytes": 2776,
+      "sha256": "89314be9616bb1f0e68058f9d89f1238060146828d5d30f77c0eeb35235686b3",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000010.json",
+      "bytes": 10153,
+      "sha256": "9fe2b77e6a87fb23b03bf9305b7a0b84e7059d687ada920300b427429fc4f269",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000010.txt",
+      "bytes": 2800,
+      "sha256": "4d77adae4148f3051cdbad20f404abd783fd1508faaa3f3f3b1017208831d274",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000011.json",
+      "bytes": 9260,
+      "sha256": "8aa3d2b8577c8b9c30700704878fa4aaf0f61418932ef427c35c6fa88fbed6c9",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000011.txt",
+      "bytes": 2734,
+      "sha256": "53dd220428441860ca2afe8b1281feb6cf5a311e55b6f3712cc5a65607618d93",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000012.json",
+      "bytes": 9033,
+      "sha256": "7d3b52cd439b30ea8468477c17bcbde7a6a4265b239263ce5ccf9ab3ac33eb3e",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000012.txt",
+      "bytes": 2738,
+      "sha256": "ffcfa2f991a948140aa32330ab346c156cfc419231f148f57b9d52d72d1ecc7f",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000013.json",
+      "bytes": 9571,
+      "sha256": "a39fba22c74d668c03e23c37de1959284ea0284556a3359b989cd5208a8a8249",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000013.txt",
+      "bytes": 2718,
+      "sha256": "7aad317b9f290a328c7c74c36660545b888ae7f2f8d7ac6771477b84b3f554d9",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000014.json",
+      "bytes": 9097,
+      "sha256": "e5f2f3711d5a5ce8b875c740589adb771f9e1a6bd0f3c8042bb80321391185b5",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000014.txt",
+      "bytes": 2817,
+      "sha256": "9841533a51b339a85a36df2b6c0bcdb3bd8fd0c999946e78ea8860b0e28d2c1c",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000015.json",
+      "bytes": 9494,
+      "sha256": "3ab7a2009d7184d3c28b78959b5be31b51a92a984cceec1e7714a095278cb2b4",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000015.txt",
+      "bytes": 2885,
+      "sha256": "4b8056517f787420833ab190d1fb4aa7386d504d6f0551aea0484f3c0e137d98",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000016.json",
+      "bytes": 10202,
+      "sha256": "51239b3458df8b14fb6bd2ca02068293a25f5c133f294b391bbe700ca1d03fa0",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000016.txt",
+      "bytes": 2857,
+      "sha256": "3e6c5f40485fc7945e86a0ddadea88d604bc5d587cf737d6a34bbd14d4e1df3f",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000017.json",
+      "bytes": 10024,
+      "sha256": "3bda6266b5f66557670e8693bfa6a9551905a79b4937a75575febfc2bf6abc92",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000017.txt",
+      "bytes": 2919,
+      "sha256": "0157a6b0d00711f859b094cbae4a853e7e667d43400048ae73c7b11332a28995",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000018.json",
+      "bytes": 10746,
+      "sha256": "f60e008de0f0abdd17fd634a78b52b4ea7e0c3e21ab0611915dc1b8b13284860",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000018.txt",
+      "bytes": 2995,
+      "sha256": "f7d262472cffce5fe7d225e260a4813e1ed424618fbf12d71b8edf7abdba9273",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000019.json",
+      "bytes": 11534,
+      "sha256": "98ccd315d27b45808d533870dac8b8031ecccc74a90d3ded63ad78f79e83b46f",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000019.txt",
+      "bytes": 2952,
+      "sha256": "2d075a0e6381c8cc8342050bc6b2b8efcea6e2f7e322cea84ab218d3d526b430",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000020.json",
+      "bytes": 9650,
+      "sha256": "322a9e5c4cadd636e932ee4c28dc1300895e0c8d4ec9d24a19abb94ef73b4c2e",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000020.txt",
+      "bytes": 2794,
+      "sha256": "34d321e014e950606c8741bd2528af36dc0d32f27f95ced87c6501716bd172fb",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000021.json",
+      "bytes": 9637,
+      "sha256": "a4e3c64b47575433868c429d4a10c5ac89dbc121345ce462006072f6c522ccda",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000021.txt",
+      "bytes": 2858,
+      "sha256": "8563ded95677a2abc164cb06827d8ebfa37b0590de7c104d164a2e21cdd38737",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000022.json",
+      "bytes": 9065,
+      "sha256": "e99b63e2b5f7bd17072d1a4c9ac2928d7eb455f1b693bf5bbefe5ab36e6b3a9a",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000022.txt",
+      "bytes": 2776,
+      "sha256": "ddc3e9666d4758fed5e36c0d83d66ad90dacbec53fc4b2da38e35f65d723baef",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000023.json",
+      "bytes": 6140,
+      "sha256": "2b37ece58ad82e16e07a43012481d371b1c9f86cc676e54825baabfd3d6f3c66",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000023.txt",
+      "bytes": 1149,
+      "sha256": "1f1b1d890b03a3cf6e46d084d5a1dd67e73b3aba384a7422f3cc60b52e419a6a",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000024.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    },
+    {
+      "path": "raw/1099271_0000024.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_file_mtime_utc": "2026-10-25T15:12:58+00:00"
+    }
+  ]
+}

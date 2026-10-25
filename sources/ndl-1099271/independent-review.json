@@ -1,0 +1,290 @@
+{
+  "reviewer": "review_kodo_mission",
+  "reviewed_scans": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "status": "passed_with_documented_source_uncertainty",
+  "items": [
+    {
+      "segment_id": "kds-p0005-001",
+      "field": "source_text",
+      "old": "なか〓〓",
+      "new": "なか〱",
+      "reason": "原画像コマ5右頁で繰返し記号を確認。OCR欠字を校訂し原形はvariantsへ。",
+      "resolution": "修正反映を最終draft-final.jsonで確認"
+    },
+    {
+      "segment_id": "kds-p0009-001",
+      "field": "translation_ja",
+      "old": "「統べられる君」",
+      "new": "「統治なさる君」",
+      "reason": "原文のらるるは尊敬。現代語の受け身のように読める語形を避け、次文の説明とも一致させる。",
+      "resolution": "修正反映を最終draft-final.jsonで確認"
+    },
+    {
+      "segment_id": "kds-p0011-001/kds-p0011-002",
+      "field": "source_text",
+      "old": "001 ends 東洋永遠の平和、;002 starts 世界永遠の平和を建設し…",
+      "new": "Move source002 first sentence through あるのであります。 to source001",
+      "reason": "原画像と訳文は正しいが原文/訳文の対訳単位が一致しない。",
+      "resolution": "修正反映を最終draft-final.jsonで確認"
+    },
+    {
+      "segment_id": "kds-p0015-002",
+      "field": "translation_ja",
+      "old": "いろいろ引き留めても、「いや、私はもう帰ります」",
+      "new": "いろいろ引き留めても、イギリスの技師は「いや、私はもう帰ります」",
+      "reason": "引用直前の話者明示ルール。",
+      "resolution": "修正反映を最終draft-final.jsonで確認"
+    },
+    {
+      "segment_id": "kds-p0016-002",
+      "field": "translation_ja",
+      "old": "「日本にはよい先生がいないので留学に来たのです」と答えると",
+      "new": "洋画家が「日本にはよい先生がいないので留学に来たのです」と答えると",
+      "reason": "引用直前の話者明示ルール。",
+      "resolution": "修正反映を最終draft-final.jsonで確認"
+    },
+    {
+      "segment_id": "kds-p0016-002",
+      "field": "translation_ja",
+      "old": "そして、「芸術は死なない。",
+      "new": "そして、ヴラマンク氏は「芸術は死なない。",
+      "reason": "引用直前の話者明示ルール。",
+      "resolution": "修正反映を最終draft-final.jsonで確認"
+    },
+    {
+      "segment_id": "kds-p0019-001",
+      "field": "translation_ja",
+      "old": "不肖の私も大臣・大将の職を辱め",
+      "new": "不肖の私も、かたじけなく大臣・大将の職をいただき",
+      "reason": "辱うすは謙譲で拝受の意。官職を汚した意味ではない。",
+      "resolution": "修正反映を最終draft-final.jsonで確認"
+    },
+    {
+      "segment_id": "kds-p0019-001",
+      "field": "source_text",
+      "old": "淸盛の〔祖〕、貞盛",
+      "new": "淸盛の上、貞盛",
+      "reason": "原画像は上に見える。祖の断定補読ではなく、原字は不鮮明で文意は祖先との校訂注を付す。",
+      "resolution": "修正反映を最終draft-final.jsonで確認"
+    },
+    {
+      "segment_id": "kds-p0015-002",
+      "field": "translation_ja",
+      "old": "そして据え付けの状態を一目見て、「私は本国へ帰ります」",
+      "new": "そして据え付けの状態を一目見て、イギリスの技師は「私は本国へ帰ります」",
+      "reason": "引用直前の話者明示ルール。",
+      "resolution": "修正反映を最終draft-final.jsonで確認"
+    }
+  ],
+  "coverage_ja": "全24原画像を全62対訳単位と対照通読。表紙・刊行説明・挨拶・本文1–38頁・奥付・白紙末尾、全15改頁継続群、論語3引用の基底字と訓点/送り仮名記録、引用話者・数値・否定・主張範囲を確認。原ルビ303件は実位置も確認（同字別用例への誤配置を除外）。現代語訳に本文省略なし。原文の歴史観・人種表現・戦争肯定は著者の主張として忠実に保持。原画像の19コマ上/祖問題は断定補字せず字面保持・文意訳と明記。最上位完成YAMLのメタデータやworkflow等は親統合時に別途全体検証を要する。",
+  "reviewed_segment_ids": [
+    "kds-p0001-001",
+    "kds-p0001-002",
+    "kds-p0001-003",
+    "kds-p0002-001",
+    "kds-p0003-001",
+    "kds-p0003-002",
+    "kds-p0004-001",
+    "kds-p0004-002",
+    "kds-p0004-003",
+    "kds-p0004-004",
+    "kds-p0004-005",
+    "kds-p0004-006",
+    "kds-p0005-001",
+    "kds-p0006-001",
+    "kds-p0006-002",
+    "kds-p0006-003",
+    "kds-p0006-004",
+    "kds-p0007-001",
+    "kds-p0007-002",
+    "kds-p0008-001",
+    "kds-p0009-001",
+    "kds-p0009-002",
+    "kds-p0009-003",
+    "kds-p0010-001",
+    "kds-p0010-002",
+    "kds-p0010-003",
+    "kds-p0011-001",
+    "kds-p0011-002",
+    "kds-p0012-001",
+    "kds-p0012-002",
+    "kds-p0013-001",
+    "kds-p0013-002",
+    "kds-p0013-003",
+    "kds-p0013-004",
+    "kds-p0014-001",
+    "kds-p0014-002",
+    "kds-p0014-003",
+    "kds-p0014-004",
+    "kds-p0015-001",
+    "kds-p0015-002",
+    "kds-p0016-001",
+    "kds-p0016-002",
+    "kds-p0017-001",
+    "kds-p0017-002",
+    "kds-p0018-001",
+    "kds-p0019-001",
+    "kds-p0020-001",
+    "kds-p0020-002",
+    "kds-p0020-003",
+    "kds-p0021-001",
+    "kds-p0021-002",
+    "kds-p0022-001",
+    "kds-p0022-002",
+    "kds-p0022-003",
+    "kds-p0022-004",
+    "kds-p0023-001",
+    "kds-p0023-002",
+    "kds-p0023-003",
+    "kds-p0023-004",
+    "kds-p0023-005",
+    "kds-p0023-006",
+    "kds-p0023-007"
+  ],
+  "images": [
+    {
+      "scan": 1,
+      "sha256": "3c76fea3c20e70aabb29d88a98e66760e637636edad84bf263b4950b7b02e17e"
+    },
+    {
+      "scan": 2,
+      "sha256": "0fdcfee85ba9bb20342f53b1d58e873cefd5036fd3826f7ff5f974904e3ba2db"
+    },
+    {
+      "scan": 3,
+      "sha256": "348e428133abe1f016976d2d257cc6e9142c33d35e2c6c5a0db8e772e58b1532"
+    },
+    {
+      "scan": 4,
+      "sha256": "055f389a29e49c7f8897fbe15da57f3e995184cf9bda97ce9d5edcef7ad81367"
+    },
+    {
+      "scan": 5,
+      "sha256": "0c968d486c735297711095d496198faac7173350e94680348fa0ae8f91f5c342"
+    },
+    {
+      "scan": 6,
+      "sha256": "581bbc93c99f4e8c8a53b67053375944ad35f75651fe5f0296c2ad80916f8c18"
+    },
+    {
+      "scan": 7,
+      "sha256": "507175283a7866a0e427ef824c8e7074e9003a1ce918d68be1e8cef8cbd3afcc"
+    },
+    {
+      "scan": 8,
+      "sha256": "58d2ab5d04fe36f8e206f38a39a533920d2ed6c8b70c9624d22e1b82246df1d2"
+    },
+    {
+      "scan": 9,
+      "sha256": "124eb5849bedbd1545a8e1ad32b4ecc84ab9a97a20ca2508fe3958e63ec659a7"
+    },
+    {
+      "scan": 10,
+      "sha256": "1b4a1351404c2c16ff0c93e0b73d0513b41cb63a1161e2f3c4bd4918df776832"
+    },
+    {
+      "scan": 11,
+      "sha256": "a875572562b1925c7c93728f8dfc97126fdb946102ae46a89186ee8e614f25f5"
+    },
+    {
+      "scan": 12,
+      "sha256": "baefbde6667f530f6d9bf1bdfbceefafbe78a48c3372d184b7b124b7e1c3694f"
+    },
+    {
+      "scan": 13,
+      "sha256": "322d5b83d5cab10a20d1450d1f424f59c4e75a14bb8fc09495d52ca361d12488"
+    },
+    {
+      "scan": 14,
+      "sha256": "46274dad7087d593e5386a42169129fd2ff5e72e785faccd3b32b3f9c7266bc6"
+    },
+    {
+      "scan": 15,
+      "sha256": "a05b0c269d935dfa30473c1d051c6870068ac76461147ad64e17a2136e89e464"
+    },
+    {
+      "scan": 16,
+      "sha256": "7cb344bfa75ea79054ac711e17be156f11d2a20d769a0ace80f22e9f85bf01e1"
+    },
+    {
+      "scan": 17,
+      "sha256": "c5fde84b4e1718cd2d820e722ebfefb6a461e081b0d4bb848d5c528999d40a8e"
+    },
+    {
+      "scan": 18,
+      "sha256": "734cfbe4873b9dcf35849bed13984d1926db70f4cf917b73cb27442691d16e7e"
+    },
+    {
+      "scan": 19,
+      "sha256": "dcad52a4cedbbbb4f61c45cf7d1509df336fb680dcb28fa05066d6c3032538bf"
+    },
+    {
+      "scan": 20,
+      "sha256": "cb4ffc72b42c8c32a6d74c9728de78803a1b8deb2268d093a3a941b1a9dd06e4"
+    },
+    {
+      "scan": 21,
+      "sha256": "7139f7083bf03b3130436282b8013a9f8c337e9f6b1b7d4eda960942c158090c"
+    },
+    {
+      "scan": 22,
+      "sha256": "80188163f3a910238cc18840f00816ecede2bfc604cfdf42042593f3972a06c9"
+    },
+    {
+      "scan": 23,
+      "sha256": "5bf69bb2342be57cead8125c5978bd9585787696f8fa3c0c833d45967174b863"
+    },
+    {
+      "scan": 24,
+      "sha256": "dc29d0f4536f37c21a60b459ecc71494adfe6fa74c028891e50397a5333fb664"
+    }
+  ],
+  "baseline_sha256": "e07bd5eb2bbb8005ef35a90a69132c538df52cd8e7c9ca7a1da02feae7189864",
+  "final_draft_sha256": "efbcd2e9369c0aa439987fb443d49bed4d52634392e13bdc2d73afefd1e37c25",
+  "final_validation": {
+    "component_schema": "pass",
+    "source_and_translation_all_62_segments": "pass",
+    "all_24_source_images": "pass",
+    "page_coverage": "pass",
+    "paragraph_continuity_15_groups": "pass",
+    "annotation_spans": "pass",
+    "annotation_counts": {
+      "ruby": 303,
+      "emphasis": 1,
+      "language": 3
+    },
+    "ruby_image_position_check": "pass",
+    "three_classical_chinese_diplomatic_variants": "pass"
+  },
+  "remaining_uncertainties": [
+    {
+      "segment_id": "kds-p0019-001",
+      "detail_ja": "淸盛の上、貞盛の上字は原画像では上様に見えるが祖の可能性を断定できない。本文原字上を保持し、祖先という文意訳はopen issueで明記。翻訳本体の欠落ではない。"
+    }
+  ]
+}

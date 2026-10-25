@@ -1,0 +1,282 @@
+[
+  {
+    "file": "translations/tanaka/motoori-norinaga-no-tetsugaku-ja.yaml",
+    "title": "本居宣長の哲学",
+    "sources": [
+      {
+        "id": "ndl-899565",
+        "url": "https://dl.ndl.go.jp/pid/899565",
+        "edition": "日本学術研究会、1912年（明治45年）4月15日発行。"
+      }
+    ],
+    "scope": {
+      "included": [
+        {
+          "source_id": "ndl-899565",
+          "description_ja": "標題・口絵と題詞・序・凡例・著者著述目録・印刷目次・全五編二十二章九十六節（本文一〜六一六頁）・刊記。"
+        }
+      ],
+      "excluded": [
+        {
+          "source_id": "ndl-899565",
+          "description_ja": "巻末の他書広告、所蔵管理書入れ、白紙、重複撮影の口絵・欧文標題紙と本文末尾・刊記。"
+        }
+      ],
+      "known_gaps": [
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0027-001"
+          ],
+          "description_ja": "底本で「隠居家」に添えられた小字は「現岐小津氏」と採録したが、「現岐」の字形は確定できない。訳では、前後から確認できる小津氏の隠居家という関係だけを示した。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0088-003"
+          ],
+          "description_ja": "「翌る十年」は底本の記載による。直前の「延享三年」や後続の勤仕十四年という説明との年次関係は確定できないため、年号・年次を推定して補っていない。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0103-004"
+          ],
+          "description_ja": "底本は「思ひ四もに走せ」とあり、否定の字を確認できない。ここでは、続く「ただまのあたりのみにして」「さとさも少し」という文脈から「思いを四方へ走らせず」と解した。否定を含むこの読みは推定である。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0105-006"
+          ],
+          "description_ja": "この引用では「この五つ」と繰り返すが、直前に挙げるのは仁・義・礼・智の四語である。底本の不一致を残し、第五の語を補っていない。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0113-002"
+          ],
+          "description_ja": "千蔭の字と号の漢字表記には判読しきれない字があるため、訳では確認できる読みを用い、「常世まろ」「うけら園」とした。漢字表記を推定して確定したものではない。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0144-note-names"
+          ],
+          "description_ja": "帆足の引用のうち「亦據」の後から「孁之名」の前までの数文字は判読を留保する。「ひるめの名により」という訳は、続く「孁字和詁與女同」などの読める箇所を手掛かりにした解釈であり、不鮮明な字句を確定したものではない。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0172-note-ichikawa"
+          ],
+          "description_ja": "市川の名の後字は、この原注と本文の各出現箇所で一意に判読できない。訳では確認できる号「市川鶴鳴」を用い、名の漢字を推定して統一していない。通称と没日は底本の読める記載による。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0234-004"
+          ],
+          "description_ja": "底本は「道の爲、下には」と記す。「天下」の「天」が欠けた可能性を考え、訳では文脈によって「道のため、天下のためには」と補った。この補いは訳者の推定である。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0250-004"
+          ],
+          "description_ja": "「神の宮居」に続く一字は「と」「さ」のいずれかを確定できず、「ひきたかく」までの句切りと意味にも留保がある。「宮居と、ひときわ高く仰ぎ」は暫定の解釈である。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0262-005"
+          ],
+          "description_ja": "底本の引用冒頭は「神が氣の意なり」と見えるが、直前の「加美」の「加」と後続の「ミ」の説明に従い、「かが、気の意味」と解した。また「のは箆など」の「箆」の字形も確定できない。「か」と「箆」の訳にはこの留保がある。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0268-001"
+          ],
+          "description_ja": "底本は「弘訓の業を授かりたる荒木田久老」と記し、授受の関係が前後と整わない。直前の師事の記事と続く「師久老」に基づき、訳では久老が弘訓に学問を授けたと解した。これは文脈による解釈である。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0297-003"
+          ],
+          "description_ja": "歌の二箇所で「風の音の」に続く語は「とほさ」と採読したが、初字が不鮮明で確定できない。「遠くから聞き」という訳も暫定の解釈である。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0301-003"
+          ],
+          "description_ja": "市川の名の後字は本書の各出現箇所で判読を留保している。ここでも確認できる号「鶴鳴」を用い、名の漢字を推定して補っていない。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0314-002"
+          ],
+          "description_ja": "長歌冒頭の「うまこりの」は底本の表記に従った。この枕詞の語釈は確定できないため、訳にも原語を残した。"
+        },
+        {
+          "source_id": "ndl-899565",
+          "segment_ids": [
+            "mn-0323-003"
+          ],
+          "description_ja": "「琢玉の器」は比喩の係り先を確定できないため、「玉を磨く器」と仮に訳した。器を人物とする解釈を本文で補わず、厳密な語釈は留保する。"
+        }
+      ]
+    },
+    "workflow": {
+      "stage": "ready",
+      "full_review": {
+        "status": "complete",
+        "completed_at": "2026-10-23T22:22:49Z",
+        "reviewed_by": "Codex",
+        "content_sha256": "f9d4b0ac2a925a5f4237e3be8d469dda61df0523723901017be6e92e463e0965"
+      }
+    },
+    "segments": 2194
+  },
+  {
+    "file": "translations/tanaka/shinto-taii-ja.yaml",
+    "title": "神道大意",
+    "sources": [
+      {
+        "id": "ndl-943543",
+        "url": "https://dl.ndl.go.jp/pid/943543",
+        "edition": "日本学術研究会、大正4年（1915年）7月15日発行。"
+      },
+      {
+        "id": "ndl-943543-ocr",
+        "url": "https://lab.ndl.go.jp/dl/api/book/fulltext/943543",
+        "edition": "2026年10月25日取得、全51コマのTXT・JSONと結合TXT・JSONLを含むZIP。"
+      }
+    ],
+    "scope": {
+      "included": [
+        {
+          "source_id": "ndl-943543",
+          "description_ja": "全51コマに含まれる表紙題簽、標題、本文、原注、著作目録、奥付、広告・書評・要目の文字内容。",
+          "section_ids": [
+            "front-matter",
+            "main-text",
+            "main-std-p0002-003",
+            "main-std-p0004-002",
+            "main-std-p0011-003",
+            "main-std-p0020-002",
+            "main-std-p0021-002",
+            "main-std-p0023-002",
+            "main-std-p0026-002",
+            "main-std-p0032-001",
+            "main-std-p0034-002",
+            "colophon",
+            "advertisements",
+            "ads-scan-40",
+            "ads-scan-41",
+            "ads-scan-42",
+            "ads-scan-43",
+            "ads-scan-44",
+            "ads-scan-45",
+            "ads-scan-46",
+            "ads-scan-47",
+            "ads-scan-48",
+            "ads-scan-49"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "source_id": "ndl-943543",
+          "description_ja": "撮影用の定規・開始終了札、図書館の整理ラベル・受入印、柱・頁数の反復、白紙・裏写り。位置と頁の役割は page_inventory に保持。"
+        }
+      ],
+      "known_gaps": [
+        {
+          "description_ja": "原画像は「淺見綱齋」。一般に知られる表記「浅見絅斎」へ無断補訂せず、原本表記を保持。",
+          "source_id": "ndl-943543",
+          "segment_ids": [
+            "std-p0007-002"
+          ]
+        },
+        {
+          "description_ja": "本居宣長の説明中、原本は「大地」と印刷。別文献の引用形から「天地」へ無断補訂していない。",
+          "source_id": "ndl-943543",
+          "segment_ids": [
+            "std-p0010-002"
+          ]
+        },
+        {
+          "description_ja": "ネルソン戦死の経緯、レオニダスの兵数等は原著の叙述をそのまま訳しており、史実としての確認や訂正は行っていない。",
+          "source_id": "ndl-943543",
+          "segment_ids": [
+            "std-p0013-001"
+          ]
+        },
+        {
+          "description_ja": "原画像も「魏の曹孫」と印刷されている。OCR誤読として別人名へ修正せず、その表記を保持。末尾「即」は次コマ14へ続く。",
+          "source_id": "ndl-943543",
+          "segment_ids": [
+            "std-p0013-002"
+          ]
+        },
+        {
+          "description_ja": "原文は「精粕」。外来思想の残存を批判し「餘瀝」と並べる文脈から「糟粕」に相当する残滓の意と解した。原字は保持し訳注に留保を示す。",
+          "source_id": "ndl-943543",
+          "segment_ids": [
+            "std-p0043-007"
+          ]
+        }
+      ]
+    },
+    "workflow": {
+      "stage": "ready",
+      "full_review": {
+        "status": "complete",
+        "completed_at": "2026-10-25T14:17:50.283904Z",
+        "reviewed_by": "原画像照合・独立対訳校閲・統合確認",
+        "content_sha256": "9ae0c92b70c415e2fa5359b001a8ab17686e92afe03c0e04e018239ccd4f3564"
+      }
+    },
+    "segments": 422
+  },
+  {
+    "file": "translations/tanaka/shinto-tetsugaku-seigi-ja.yaml",
+    "title": "神道哲学精義",
+    "sources": [
+      {
+        "id": "ndl-943657",
+        "url": "https://dl.ndl.go.jp/pid/943657",
+        "edition": "日本学術研究会、大正11年（1922年）9月7日修正六版発行。初版は大正7年（1918年）3月26日発行。"
+      }
+    ],
+    "scope": {
+      "included": [
+        {
+          "source_id": "ndl-943657",
+          "description_ja": "標題、序、著者著述目録、凡例、印刷目次、全十二章、刊記。"
+        }
+      ],
+      "excluded": [
+        {
+          "source_id": "ndl-943657",
+          "description_ja": "所蔵印・請求記号等の図書館管理情報、白紙、および本文終了後の他書広告（コマ138～145）。"
+        }
+      ],
+      "known_gaps": []
+    },
+    "workflow": {
+      "stage": "ready",
+      "full_review": {
+        "status": "complete",
+        "completed_at": "2026-10-23T10:53:38Z",
+        "reviewed_by": "Codex：完稿後の原文・訳文全文対照一回と原画像確認",
+        "content_sha256": "2cbff295bd3ca984e42536cc6f278c54f3cd603829c414c7f0e976609b12832d"
+      }
+    },
+    "segments": 367
+  }
+]
