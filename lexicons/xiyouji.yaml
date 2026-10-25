@@ -4334,6 +4334,46 @@
     "title": "日本建築学会計画系論文集70巻598号 家具語彙研究（検索表示の校床兒分類、全PDF未取得）"
     "url": "https://www.jstage.jst.go.jp/article/aija/70/598/70_KJ00004390406/_pdf"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch98-primary-1500530"
+    "title": "中文維基文庫 西遊記 第098回 固定版1500530（親担当が固定リンク実取得、作者が保存全45単位を通読）"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1500530&title=西遊記/第098回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch98-dantai"
+    "title": "漢典「丹臺」（検索表示）"
+    "url": "https://zdic.net/hans/丹臺"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch98-three-refuges"
+    "title": "コトバンク「三帰」（日本語辞典の検索表示）"
+    "url": "https://kotobank.jp/word/三帰-513104"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch98-six-dusts"
+    "title": "コトバンク「六塵」（日本語辞典の検索表示）"
+    "url": "https://kotobank.jp/word/六塵-663391"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch98-han-character"
+    "title": "漢典「\U00026A45」（検索表示。直接取得失敗）"
+    "url": "https://zdic.net/hant/\U00026A45"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch98-tang-character"
+    "title": "国学大師「\U00026A80」（字形構成の検索表示）"
+    "url": "https://www.guoxuedashi.com/zidian/jg_55295a.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch98-buddha-biography-cinii"
+    "title": "CiNii「佛本行經7巻」（日本語読みの検索表示。099担当の保存応答を受領）"
+    "url": "https://cir.nii.ac.jp/crid/1971712334749373825"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch98-scripture-study"
+    "title": "Shuheng Zhang: The Reins of Language: The Mantra of the Heart Sutra in The Journey to the West (2019), 経典目録の表（PDF該当箇所）"
+    "url": "https://sino-platonic.org/complete/spp286_heart_sutra_journey_to_the_west.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch98-peacock-ndl"
+    "title": "国立国会図書館「佛母大孔雀明王經」（検索表示）"
+    "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007611562"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch98-daoist-refuges"
+    "title": "早稲田大学リポジトリ 三帰九戒に関する論考（検索表示）"
+    "url": "https://waseda.repo.nii.ac.jp/record/6495/files/TagenBunka_3_Mori.pdf"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -19338,6 +19378,15 @@
           "source_ids":
             - "xy-ch81-primary-1455630"
           "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+      - "id": "xy-ch98-shakyamuni-wenfo-form"
+        "text": "釈迦牟尼文仏"
+        "relation": "title"
+        "reading":
+          "kana": "しゃかむにもんぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "語り手が如来至尊の正式な仏号として続ける同じ如来の呼び名。文仏の字を原文どおり残す。 全語形の日本語仮名資料は未確認。"
   - "id": "xy-entry-0688"
     "kind": "place"
     "headword": "双林"
@@ -19901,6 +19950,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-ch98-four-great-vajras-form"
+        "text": "四大金剛"
+        "relation": "variant"
+        "reading":
+          "kana": "しだいこんごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "仏法を護る四人の金剛の集団をいう一般的呼称。牛魔王を包囲した四人の個人名は本文にないため、その特定集団とは同定しない。 全語形の日本語仮名資料は未確認。"
   - "id": "xy-entry-0713"
     "kind": "person"
     "headword": "八菩薩"
@@ -20030,6 +20088,15 @@
           "source_ids":
             - "xy-reference-208"
           "reason_ja": "円覚寺の記事で迦葉の呼び名であることを確認。読みは仏教語の金色（こんじき）と頭陀（ずだ）から推定し、表記全体の明記資料は未確認。"
+      - "id": "xy-ch98-kasyapa-variant-form"
+        "text": "伽葉"
+        "relation": "variant"
+        "reading":
+          "kana": "かしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "阿儺と一対で如来に仕え、経を管理する弟子。既存の迦葉の役割と原文を照合した異表記。漢字は伽のまま保持。 全語形の日本語仮名資料は未確認。"
   - "id": "xy-entry-0719"
     "kind": "title"
     "headword": "尊者"
@@ -23597,6 +23664,15 @@
           "source_ids":
             - "xy-ch91-primary-1455640"
           "reason_ja": "三蔵が姓は沙、名は悟淨和尚と紹介する既知の沙悟浄。既存の悟浄に僧の称を付けた名乗り。全語かな未確認。"
+      - "id": "xy-ch98-juanlian-short-form"
+        "text": "捲簾"
+        "relation": "short_form"
+        "reading":
+          "kana": "けんれん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "金頂大仙が三蔵一行の沙悟浄を旧官職で呼ぶ。捲簾大将の略で、別人にしない。 全語形の日本語仮名資料は未確認。"
   - "id": "xy-entry-0886"
     "kind": "object"
     "headword": "宝杖"
@@ -30868,6 +30944,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "各漢字の日本語音訓と語構成に基づく推定。この語形の日本語読みを直接示す資料は未確認。"
+      - "id": "xy-ch98-avici-short-form"
+        "text": "阿鼻"
+        "relation": "short_form"
+        "reading":
+          "kana": "あび"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "人が堕ちて抜け出せない地獄とする説法中の語。同じ阿鼻地獄の略称。 全語形の日本語仮名資料は未確認。"
   - "id": "xy-entry-1261"
     "kind": "place"
     "headword": "秤杆獄"
@@ -34312,6 +34397,17 @@
           "source_ids":
             - "xy-ch67-primary-1455616"
           "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+      - "id": "xy-ch98-great-peacock-sutra-form"
+        "text": "大孔雀経"
+        "relation": "alias"
+        "reading":
+          "kana": "だいくじゃくきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+            - "xy-ch98-scripture-study"
+            - "xy-ch98-peacock-ndl"
+          "reason_ja": "経目録の研究が大孔雀経をMahāmayūrī-vidyārajñīとして挙げ、NDLの孔雀経の解説と同じ経典系統へつながる。現存本の巻数を物語へ移さない。 全語形の日本語仮名資料は未確認。"
   - "id": "xy-entry-1434"
     "kind": "term"
     "headword": "苾芻"
@@ -50739,6 +50835,15 @@
           "source_ids":
             - "xy-ch45-primary-1455594"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+      - "id": "xy-ch98-xun-er-short-form"
+        "text": "巽二"
+        "relation": "short_form"
+        "reading":
+          "kana": "そんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "風を司る巽二郎を風神として挙げる略称。既存項目の風を起こす役割と一致する。 全語形の日本語仮名資料は未確認。"
   - "id": "xy-ch45-cloud-pushing-boy"
     "kind": "person"
     "headword": "推雲童子"
@@ -54225,6 +54330,15 @@
           "source_ids":
             - "xy-ch52-primary-1498137"
           "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch98-dragon-arhat-variant-form"
+        "text": "降竜"
+        "relation": "variant"
+        "reading":
+          "kana": "ごうりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "如来のそばで伏虎と対になる羅漢。既存の降龍と同じ人物の竜／龍の字体差。 全語形の日本語仮名資料は未確認。"
   - "id": "xy-ch52-tiger-subduing-arhat"
     "kind": "person"
     "headword": "伏虎"
@@ -74601,4 +74715,928 @@
           "status": "estimated"
           "source_ids":
             - "xy-ch97-primary-1455646"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-dantai"
+    "kind": "place"
+    "headword": "丹台"
+    "definition_ja": "道教で、神仙が住む台閣や仙境をいう語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+        - "xy-ch98-dantai"
+      "reason_ja": "漢典の神仙の住居という語義を詩の仙境表現に適用。朱陵丹台という特定の場所と同一とは断定しない。"
+    "forms":
+      - "id": "xy-ch98-dantai-form"
+        "text": "丹台"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんだい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-immortal-register"
+    "kind": "object"
+    "headword": "仙籙"
+    "definition_ja": "仙人の資格・名籍に関わる道教の文書。携帯する物の形や内容は未詳。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "肘に掛けるとする本文の文脈と籙の一般語義から解釈。符一枚や特定の経巻に断定しない。"
+    "forms":
+      - "id": "xy-ch98-immortal-register-form"
+        "text": "仙籙"
+        "relation": "preferred"
+        "reading":
+          "kana": "せんろく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-nine-precepts"
+    "kind": "concept"
+    "headword": "九戒"
+    "definition_ja": "九つの戒めをいう語。具体的な内訳や戒律体系は一定せず、文脈による。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "原文に九戒とあるが、九条の内訳は示されない。八戒や十戒へ訂正しない。"
+    "forms":
+      - "id": "xy-ch98-nine-precepts-form"
+        "text": "九戒"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-three-refuges"
+    "kind": "concept"
+    "headword": "三帰"
+    "definition_ja": "仏・法・僧の三宝をよりどころとして帰依すること。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+        - "xy-ch98-three-refuges"
+      "reason_ja": "固定版本文の語と役割・場面を照合した。"
+    "forms":
+      - "id": "xy-ch98-three-refuges-form"
+        "text": "三帰"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんき"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch98-three-refuges"
+          "reason_ja": "当該語形の日本語仮名を直接確認。"
+  - "id": "xy-ch98-lingyun-holy-crossing"
+    "kind": "place"
+    "headword": "凌雲渡"
+    "definition_ja": "霊山への道にある、急流に丸木橋が架かる渡し場。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定本文で額の名、霊山への道、丸木橋を確認。既存の詩中の凌雲渡は位置未詳なので、その項目の語義を無断で広げず役割を限定。"
+    "forms":
+      - "id": "xy-ch98-lingyun-holy-crossing-form"
+        "text": "凌雲渡"
+        "relation": "preferred"
+        "reading":
+          "kana": "りょううんと"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-xun-measure"
+    "kind": "term"
+    "headword": "尋"
+    "definition_ja": "古い長さの単位。詩では非常に長いものを形容する。時代・地域で長さは異なる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版本文の語と役割・場面を照合した。"
+    "forms":
+      - "id": "xy-ch98-xun-measure-form"
+        "text": "尋"
+        "relation": "preferred"
+        "reading":
+          "kana": "じん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-guide-buddha"
+    "kind": "person"
+    "headword": "接引仏祖"
+    "definition_ja": "渡し舟で人を彼岸へ導く仏。南無宝幢光王仏とも呼ばれる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版本文の語と役割・場面を照合した。"
+    "forms":
+      - "id": "xy-ch98-guide-buddha-form"
+        "text": "接引仏祖"
+        "relation": "preferred"
+        "reading":
+          "kana": "せついんぶっそ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+      - "id": "xy-ch98-baochuang-buddha-form"
+        "text": "南無宝幢光王仏"
+        "relation": "alias"
+        "reading":
+          "kana": "なむほうどうこうおうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "語り手が接引仏祖の別称と明示する。既存如来の仏祖というformとは別の指示対象。 全語形の日本語仮名資料は未確認。"
+  - "id": "xy-ch98-six-dusts"
+    "kind": "concept"
+    "headword": "六塵"
+    "definition_ja": "色・声・香・味・触・法という六つの認識対象。心を汚し煩悩を起こさせるものとして塵と呼ぶ。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+        - "xy-ch98-six-dusts"
+      "reason_ja": "固定版本文の語と役割・場面を照合した。"
+    "forms":
+      - "id": "xy-ch98-six-dusts-form"
+        "text": "六塵"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろくじん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch98-six-dusts"
+          "reason_ja": "当該語形の日本語仮名を直接確認。"
+  - "id": "xy-ch98-boat-crosspieces"
+    "kind": "object"
+    "headword": "\U00026A45\U00026A80"
+    "definition_ja": "底のない舟で人々が立つ部分をいう難語。舟を支える枠や横材の類と文脈から解するが、構造と字義は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+        - "xy-ch98-han-character"
+      "reason_ja": "本文の立在…之上から足場になる部材と推定。\U00026A45のhànと\U00026A80の唐の音符から便宜的にカン・トウを採るが、日本語の全語形の読みも二字の厳密な字義も未確認。"
+    "forms":
+      - "id": "xy-ch98-boat-crosspieces-form"
+        "text": "\U00026A45\U00026A80"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-sixsix-dusts"
+    "kind": "concept"
+    "headword": "六六塵"
+    "definition_ja": "感覚や思いに結びつく俗世の汚れを六六と数える詩的表現。六塵に関連するが、六六の厳密な数え方は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "原文の六六を保持し、六塵とする訳注資料も参照したが、三十六の内訳を本文に補わない。"
+    "forms":
+      - "id": "xy-ch98-sixsix-dusts-form"
+        "text": "六六塵"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろくろくじん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-leiyin-heavenly-hall"
+    "kind": "place"
+    "headword": "天王殿"
+    "definition_ja": "雷音寺にある、天王に関わる名を持つ殿堂。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "雷音寺の景観詩の堂。天界の同名宝殿や鎮海禅林寺の同名堂と同一にしない。"
+    "forms":
+      - "id": "xy-ch98-leiyin-heavenly-hall-form"
+        "text": "天王殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんのうでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-dharma-protection-hall"
+    "kind": "place"
+    "headword": "護法堂"
+    "definition_ja": "仏法を護る神々に関わる名を持つ堂。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版本文の語と役割・場面を照合した。"
+    "forms":
+      - "id": "xy-ch98-dharma-protection-hall-form"
+        "text": "護法堂"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごほうどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-utpala"
+    "kind": "term"
+    "headword": "優鉢"
+    "definition_ja": "仏教の蓮花・睡蓮をいう優鉢羅に関わる略称と解される語。植物種の厳密な同定はしない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版本文の語と役割・場面を照合した。"
+    "forms":
+      - "id": "xy-ch98-utpala-form"
+        "text": "優鉢"
+        "relation": "preferred"
+        "reading":
+          "kana": "うはつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-nirvana-sutra"
+    "kind": "object"
+    "headword": "涅槃経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-nirvana-sutra-form"
+        "text": "涅槃経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ねはんぎょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-bodhisattva-sutra"
+    "kind": "object"
+    "headword": "菩薩経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-bodhisattva-sutra-form"
+        "text": "菩薩経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼさつきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-akashagarbha-sutra"
+    "kind": "object"
+    "headword": "虚空蔵経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-akashagarbha-sutra-form"
+        "text": "虚空蔵経"
+        "relation": "preferred"
+        "reading":
+          "kana": "こくうぞうきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-surangama-sutra"
+    "kind": "object"
+    "headword": "首楞厳経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-surangama-sutra-form"
+        "text": "首楞厳経"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅりょうごんきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-grace-great-collection"
+    "kind": "object"
+    "headword": "恩意経大集"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-grace-great-collection-form"
+        "text": "恩意経大集"
+        "relation": "preferred"
+        "reading":
+          "kana": "おんいきょうだいじゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-decision-sutra"
+    "kind": "object"
+    "headword": "決定経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-decision-sutra-form"
+        "text": "決定経"
+        "relation": "preferred"
+        "reading":
+          "kana": "けつじょうきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-treasure-sutra"
+    "kind": "object"
+    "headword": "宝蔵経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-treasure-sutra-form"
+        "text": "宝蔵経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうぞうきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-true-suchness-sutra"
+    "kind": "object"
+    "headword": "礼真如経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-true-suchness-sutra-form"
+        "text": "礼真如経"
+        "relation": "preferred"
+        "reading":
+          "kana": "らいしんにょきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-great-prajna-sutra"
+    "kind": "object"
+    "headword": "大般若経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-great-prajna-sutra-form"
+        "text": "大般若経"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいはんにゃきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-light-sutra"
+    "kind": "object"
+    "headword": "光明経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-light-sutra-form"
+        "text": "光明経"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうみょうきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+      - "id": "xy-ch98-great-light-sutra-form"
+        "text": "大光明経"
+        "relation": "variant"
+        "reading":
+          "kana": "だいこうみょうきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "二つの対応する35項目目録の同じ位置に現れる経名。初めの光明経との字形の差を保持し、同じ経蔵内の対応項目としてまとめる。 全語形の日本語仮名資料は未確認。"
+  - "id": "xy-ch98-marvel-sutra"
+    "kind": "object"
+    "headword": "未曾有経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-marvel-sutra-form"
+        "text": "未曾有経"
+        "relation": "preferred"
+        "reading":
+          "kana": "みぞうきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-vimalakirti-sutra"
+    "kind": "object"
+    "headword": "維摩経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-vimalakirti-sutra-form"
+        "text": "維摩経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ゆいまきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-three-treatises-other-sutra"
+    "kind": "object"
+    "headword": "三論別経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-three-treatises-other-sutra-form"
+        "text": "三論別経"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんろんべつきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-right-dharma-treatise-sutra"
+    "kind": "object"
+    "headword": "正法論経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-right-dharma-treatise-sutra-form"
+        "text": "正法論経"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうぼうろんきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-buddha-biography-sutra"
+    "kind": "object"
+    "headword": "仏本行経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-buddha-biography-sutra-form"
+        "text": "仏本行経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶつほんぎょうきょう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch98-buddha-biography-cinii"
+          "reason_ja": "当該語形の日本語仮名を直接確認。"
+  - "id": "xy-ch98-five-dragons-sutra"
+    "kind": "object"
+    "headword": "五竜経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-five-dragons-sutra-form"
+        "text": "五竜経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごりゅうきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-bodhisattva-precepts-sutra"
+    "kind": "object"
+    "headword": "菩薩戒経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-bodhisattva-precepts-sutra-form"
+        "text": "菩薩戒経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼさつかいきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-great-collection-sutra"
+    "kind": "object"
+    "headword": "大集経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-great-collection-sutra-form"
+        "text": "大集経"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいじっきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-magadha-sutra"
+    "kind": "object"
+    "headword": "摩竭経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-magadha-sutra-form"
+        "text": "摩竭経"
+        "relation": "preferred"
+        "reading":
+          "kana": "まかつきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-yoga-sutra"
+    "kind": "object"
+    "headword": "瑜伽経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-yoga-sutra-form"
+        "text": "瑜伽経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ゆがきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-precious-constancy-sutra"
+    "kind": "object"
+    "headword": "宝常経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-precious-constancy-sutra-form"
+        "text": "宝常経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうじょうきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-western-heaven-treatise"
+    "kind": "object"
+    "headword": "西天論経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-western-heaven-treatise-form"
+        "text": "西天論経"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいてんろんきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-sanghika-sutra"
+    "kind": "object"
+    "headword": "僧祇経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-sanghika-sutra-form"
+        "text": "僧祇経"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうぎきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+      - "id": "xy-ch98-sanghika-variant-form"
+        "text": "僧祗経"
+        "relation": "variant"
+        "reading":
+          "kana": "そうぎきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "二目録の対応する位置に現れる僧祇経／僧祗経。祗を祇へ直さず、読みは同名の変体とする推定を記録する。 全語形の日本語仮名資料は未確認。"
+  - "id": "xy-ch98-buddha-land-misc-sutra"
+    "kind": "object"
+    "headword": "仏国雑経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-buddha-land-misc-sutra-form"
+        "text": "仏国雑経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶっこくざつきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-awakening-faith-sutra"
+    "kind": "object"
+    "headword": "起信論経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-awakening-faith-sutra-form"
+        "text": "起信論経"
+        "relation": "preferred"
+        "reading":
+          "kana": "きしんろんきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-great-wisdom-sutra"
+    "kind": "object"
+    "headword": "大智度経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-great-wisdom-sutra-form"
+        "text": "大智度経"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいちどきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-precious-majesty-sutra"
+    "kind": "object"
+    "headword": "宝威経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-precious-majesty-sutra-form"
+        "text": "宝威経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほういきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-original-pavilion-sutra"
+    "kind": "object"
+    "headword": "本閣経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-original-pavilion-sutra-form"
+        "text": "本閣経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほんかくきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-right-discipline-sutra"
+    "kind": "object"
+    "headword": "正律文経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-right-discipline-sutra-form"
+        "text": "正律文経"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうりつもんきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-consciousness-treatise-sutra"
+    "kind": "object"
+    "headword": "維識論経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-consciousness-treatise-sutra-form"
+        "text": "維識論経"
+        "relation": "preferred"
+        "reading":
+          "kana": "ゆいしきろんきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-kosa-treatise-sutra"
+    "kind": "object"
+    "headword": "具舍論経"
+    "definition_ja": "如来の経蔵に挙げられる経典名。現存する同名・類名の仏典との本文・巻数の一致は断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版の経典目録で題名と経典であることを確認。現存仏典への具体的な同定や内容説明は加えない。"
+    "forms":
+      - "id": "xy-ch98-kosa-treatise-sutra-form"
+        "text": "具舍論経"
+        "relation": "preferred"
+        "reading":
+          "kana": "くしゃろんきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-bai-xiong"
+    "kind": "person"
+    "headword": "白雄尊者"
+    "definition_ja": "燃灯古仏に仕える尊者。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版本文の語と役割・場面を照合した。"
+    "forms":
+      - "id": "xy-ch98-bai-xiong-form"
+        "text": "白雄尊者"
+        "relation": "preferred"
+        "reading":
+          "kana": "はくゆうそんじゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-zhao-elder"
+    "kind": "person"
+    "headword": "趙長者"
+    "definition_ja": "比丘たちに経を読んでもらったと如来が語る、舎衛国の家の主人。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版本文の語と役割・場面を照合した。"
+    "forms":
+      - "id": "xy-ch98-zhao-elder-form"
+        "text": "趙長者"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうちょうじゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
+          "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
+  - "id": "xy-ch98-cloud-chime"
+    "kind": "object"
+    "headword": "雲磬"
+    "definition_ja": "雲の名を持つ、仏教の儀礼で打ち鳴らす磬。具体的な形・素材は本文から特定できない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch98-primary-1500530"
+      "reason_ja": "固定版本文の語と役割・場面を照合した。"
+    "forms":
+      - "id": "xy-ch98-cloud-chime-form"
+        "text": "雲磬"
+        "relation": "preferred"
+        "reading":
+          "kana": "うんけい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch98-primary-1500530"
           "reason_ja": "日本語の漢字音訓と語構成による採用。全語形の日本語仮名資料は未確認。中国語の出現は日本語読みの実証としない。"
