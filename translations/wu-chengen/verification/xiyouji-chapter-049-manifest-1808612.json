@@ -2885,7 +2885,7 @@
       "source_codepoints": 26
     }
   ],
-  "content_sha256": "f54e95071c799a4faa7ef104fb43a8ee322b2b793d6262794fb51bf83e65d16e",
+  "content_sha256": "f55b04fdcff76e399630ab9b80cc04afdb139d5945170fb2bd187b4320a7f568",
   "review_checks": {
     "all_target_source_lines_exact_once": true,
     "translation_units_self_compared": 46,
@@ -2896,5 +2896,75 @@
     "first_occurrences_independently_compared": 82,
     "paragraph_glosses_independently_compared": 51,
     "browser_review": false
+  },
+  "naming_continuity_followup": {
+    "reviewer": "Independent naming-continuity follow-up AI, separate from the original author and original complete reviewer",
+    "date": "2026-10-25",
+    "scope": "Full 047 setup, full 048 and 049 source/translation context reread, plus 042-022 and 030–036 and its voice guide for established 恵岸行者 and 紅孩児 names; narrow continuity correction only. Existing source acquisition and earlier full-review evidence are retained, not claimed as new retrieval.",
+    "intake_yaml_sha256": "e9e3a42cad8ae91144b9fb02d66d5b28f732a34764b8adf9d57d313116c8cc03",
+    "prior_complete_review": {
+      "status": "complete",
+      "completed_at": "2026-10-25T01:35:49Z",
+      "reviewed_by": "Independent AI reviewer; no human/expert/browser review",
+      "content_sha256": "f54e95071c799a4faa7ef104fb43a8ee322b2b793d6262794fb51bf83e65d16e"
+    },
+    "report": "2026-10-25-chapter-049-naming-correction.md",
+    "changed_source_unit_ids": [
+      "xy-ch49-005",
+      "xy-ch49-010",
+      "xy-ch49-012",
+      "xy-ch49-013",
+      "xy-ch49-015",
+      "xy-ch49-016",
+      "xy-ch49-017",
+      "xy-ch49-019",
+      "xy-ch49-021",
+      "xy-ch49-022",
+      "xy-ch49-024",
+      "xy-ch49-025",
+      "xy-ch49-027",
+      "xy-ch49-028",
+      "xy-ch49-029"
+    ],
+    "dictionary_change": false,
+    "identity_boundary_preceding_chapter": "xy-ch48-004",
+    "this_chapter_first_narration_segment": "xy-ch49-005",
+    "this_chapter_first_narration_start": 69,
+    "species_or_ownership_added": false,
+    "other_established_identities": {
+      "恵岸行者": {
+        "established_at": "xy-ch42-022",
+        "current_first_use": "xy-ch49-028",
+        "form_id": "xy-form-0623",
+        "unicode_span": [
+          123,
+          127
+        ]
+      },
+      "紅孩児": {
+        "title_granted_at": "xy-ch42-033",
+        "current_bridge": "xy-ch49-028",
+        "recognition_event_preserved": "xy-ch49-029",
+        "ordinary_form_id": "xy-ch40-red-boy-form",
+        "granted_title_form_id": "xy-ch42-sudhana-boy-form",
+        "unicode_span": [
+          155,
+          158
+        ],
+        "granted_title_span": [
+          138,
+          142
+        ]
+      }
+    },
+    "source_units_independently_reread": 46,
+    "note_bodies_independently_reread": 22,
+    "first_occurrences_independently_reread": 82,
+    "paragraph_glosses_independently_reread": 51,
+    "final_content_sha256": "f55b04fdcff76e399630ab9b80cc04afdb139d5945170fb2bd187b4320a7f568",
+    "completed_at": "2026-10-25T02:28:58Z",
+    "intake_manifest_sha256": "1aa45a2773d78d314e773303c3b3edf47b2cf1f6f4fce56c771d39121ff573ad",
+    "final_yaml_sha256": "37bfa5dda1649366523a28dbab27482add77c2918e81f884c4dfe745490eaad0",
+    "changed_occurrences": 41
   }
 }
