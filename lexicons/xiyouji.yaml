@@ -3534,6 +3534,62 @@
     "title": "千葉県立東部図書館 レファレンス協同データベース 雪山（せっせん）の辞書紹介（検索表示。直接取得失敗）"
     "url": "https://crd.ndl.go.jp/reference/entry/reference/show?id=1000129819&page=ref_view"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-primary-1455627"
+    "title": "中文維基文庫 西遊記 第078回 固定版1455627（固定URLの本文取得成功、文字変換指定なし）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第078回&oldid=1455627"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-ndl-yakushi"
+    "title": "国立国会図書館 Web NDL Authorities 薬師（薬師仏の仮名と同義語を公開本文で確認）"
+    "url": "https://id.ndl.go.jp/auth/ndlsh/00575802"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-moe-true-official"
+    "title": "教育部教育百科 真官（検索表示の有官職の仙人という語義。本文取得は不成功）"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E7%9C%9F%E5%AE%98"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-yakushi-temple"
+    "title": "曹洞宗 瑠璃光山 薬王寺（検索表示の薬師信仰と病苦救済）"
+    "url": "https://www.yakuouji.org/info/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-moon-wall"
+    "title": "陝西省地方志 城固県志校注（月城の説明を検索表示で確認、PDF全文未精査）"
+    "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/sxjz/hzs_16205/201706/P020240923599199744676.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-paramita"
+    "title": "漢典 波羅（波羅蜜の略という語義を検索表示で確認）"
+    "url": "https://zdic.net/hans/%E6%B3%A2%E7%BD%97"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-crane-cloak"
+    "title": "漢典 鶴氅（公開本文の道士の道袍という語義）"
+    "url": "https://zdic.net/hans/%E9%B6%B4%E6%B0%85"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-yaojing"
+    "title": "字典網 瑶京（検索表示で玉京・天帝の居所という語義を確認）"
+    "url": "https://zidian.openi.cn/cidian/124475/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-inner-alchemy"
+    "title": "修真傳道論（道教図書館検索表示の二八陰消・三九陽長・九轉還丹。本文取得不成功）"
+    "url": "https://taolibrary.com/category/category86/c86097.htm"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-nine-gifts"
+    "title": "中國哲學書電子化計劃 九錫（検索表示で語義と頭巾の本引用を確認。頭巾の具体的装飾は未詳）"
+    "url": "https://ctext.org/dictionary.pl?char=%E4%B9%9D%E9%8C%AB&if=gb&remap=gb"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-guozhang"
+    "title": "漢典 国（検索表示に国丈＝帝王の岳父。称号の一般語義と実血縁を区別）"
+    "url": "https://zdic.net/hans/%E5%9B%BD"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-paramita-japanese"
+    "title": "小学館 デジタル大辞泉・日本大百科全書 波羅蜜（コトバンク公開本文で読みと語義を確認）"
+    "url": "https://kotobank.jp/word/%E6%B3%A2%E7%BE%85%E8%9C%9C-605117"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-five-cities-archive"
+    "title": "東京大学デジタルアーカイブ 五城兵馬司幷巡捕人員密切緝捕盜賊（検索表示の史料題名、本文取得不成功）"
+    "url": "https://da.dl.itc.u-tokyo.ac.jp/portal/assets/cb716110-f70f-4500-a178-43753b42d773"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch78-yin-spirit-thesis"
+    "title": "臺灣大學学位論文（検索表示の陰神・陽神の対比。PDF本文は未精査）"
+    "url": "https://tdr.lib.ntu.edu.tw/bitstream/123456789/88800/1/ntu-111-2.pdf"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -13366,6 +13422,16 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の通常の漢字音訓と語構成からの推定。当該語形・文脈の日本語読みを明記する資料は今回未確認。"
+      - "id": "xy-ch78-true-immortal-official-form"
+        "text": "真官"
+        "relation": "alias"
+        "reading":
+          "kana": "しんかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+            - "xy-ch78-moe-true-official"
+          "reason_ja": "官職のある仙人という教育部の検索表示と本文の神々の列挙から、既存仙官と同じ役割の一般名と判断。特定の一柱を名付けたものではない。"
   - "id": "xy-entry-0468"
     "kind": "term"
     "headword": "道人"
@@ -13597,6 +13663,15 @@
           "source_ids":
             - "xy-ch71-primary-1455620"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を記す資料は未確認で、中国語出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch78-taishang-short-form"
+        "text": "太上"
+        "relation": "short_form"
+        "reading":
+          "kana": "たいじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "道の正教を示す太上は既存太上老君の略称。太上皇帝という退位帝の官称と区別し、既知の人物へつなぐ。"
   - "id": "xy-entry-0476"
     "kind": "person"
     "headword": "燃灯古仏"
@@ -20271,6 +20346,16 @@
           "source_ids":
             - "xy-reference-192"
           "reason_ja": "字通の公開項目に「ぎよくけい」と記載。拗音を現代の小書きに直して示す。"
+      - "id": "xy-ch78-yaojing-variant-form"
+        "text": "瑤京"
+        "relation": "alias"
+        "reading":
+          "kana": "ようけい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+            - "xy-ch78-yaojing"
+          "reason_ja": "白鶴に乗って上る天界の都。辞書の玉京・天帝所居という語義と既存玉京を照合し、別の仙都を新設しない。"
   - "id": "xy-entry-0791"
     "kind": "concept"
     "headword": "善根"
@@ -35940,12 +36025,13 @@
   - "id": "xy-entry-1584"
     "kind": "object"
     "headword": "鶴氅"
-    "definition_ja": "鶴の羽毛を用いた衣。"
+    "definition_ja": "鶴の羽毛を用いた衣。 また、その名で呼ばれる道士の道衣や、ゆったりした外衣。"
     "definition_evidence":
       "status": "verified"
       "source_ids":
         - "xy-reference-380"
-      "reason_ja": "資料の語義説明が、この定義全体を支持する。"
+        - "xy-ch78-crane-cloak"
+      "reason_ja": "資料の語義説明が、この定義全体を支持する。 漢典の公開本文で道士の道袍、広い外套という語義も確認し、羽毛衣という既存語義を削らず追加した。"
     "forms":
       - "id": "xy-form-1863"
         "text": "鶴氅"
@@ -44243,6 +44329,15 @@
           "source_ids":
             - "xy-ch35-primary-1500616"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+      - "id": "xy-ch78-daluo-short-form"
+        "text": "大羅"
+        "relation": "short_form"
+        "reading":
+          "kana": "だいら"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "昇上大羅の天上の行先は既存の大羅天と同義の略称。仙人本人の称号大羅仙とは区別する。読みは既存の大羅天の字音による。"
   - "id": "xy-ch36-yizhi"
     "kind": "object"
     "headword": "益智"
@@ -45588,6 +45683,15 @@
             - "xy-ch65-primary-1455614"
             - "xy-ch65-mantra"
           "reason_ja": "既存の唵藍浄法界と同じ浄法界真言の役割。論文の検索表示に㘕の字形を確認したが、仮名全文の実証ではないため読みは推定を保つ。"
+      - "id": "xy-ch78-purify-mantra-short-form"
+        "text": "唵浄法界"
+        "relation": "variant"
+        "reading":
+          "kana": "おんじょうほっかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "同じ浄法界の真言を唱え、土地神等を集める場面。既存唵藍浄法界の藍がない表記として追加し、原文に藍を補わない。"
   - "id": "xy-spirit-soldiers"
     "kind": "concept"
     "headword": "陰兵"
@@ -49794,6 +49898,15 @@
           "source_ids":
             - "xy-ch46-primary-1557967"
           "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch78-feather-forest-guard-form"
+        "text": "羽林衛"
+        "relation": "variant"
+        "reading":
+          "kana": "うりんえい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "王が遣わし宿駅を囲む近衛の軍という役割は既存羽林軍と同じ一般制度名。別の個人や国を同定するものではない。"
   - "id": "xy-ch46-execution-supervisor"
     "kind": "title"
     "headword": "監斬官"
@@ -56820,6 +56933,15 @@
           "source_ids":
             - "xy-ch62-primary-1500611"
           "reason_ja": "構成漢字の日本語音と語構成に基づく読み。日本語仮名で当該語形全体を示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch78-brocade-officer-form"
+        "text": "錦衣官"
+        "relation": "variant"
+        "reading":
+          "kana": "きんいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "王に直属して僧を召し捕る官という役割から、既存錦衣衛の官兵を示す形として追加。既存錦衣校尉は特定の武官称号であり、この語からその品級を補わない。"
   - "id": "xy-ch62-qilin-hall"
     "kind": "place"
     "headword": "麒麟殿"
@@ -63792,3 +63914,258 @@
           "source_ids":
             - "xy-ch77-snow-mountain"
           "reason_ja": "千葉県立東部図書館のレファレンス回答の検索表示が日本仏教語辞典の雪山（せっせん）項を明記する。直接URLの取得は失敗したので辞書現物やページ全文確認とはしない。"
+  - "id": "xy-ch78-moon-wall"
+    "kind": "object"
+    "headword": "月城"
+    "definition_ja": "城門の外側を囲んで守る、小規模な曲線状の城壁・囲い。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch78-primary-1455627"
+        - "xy-ch78-moon-wall"
+      "reason_ja": "城門を通って入る防御用の区画という本文と、城固県志校注の検索表示にある城門外の半円形の小城という語義を照合した。具体的な当該城郭の平面構造は断定しない。"
+    "forms":
+      - "id": "xy-ch78-moon-wall-form"
+        "text": "月城"
+        "relation": "preferred"
+        "reading":
+          "kana": "げつじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch78-bhiksu-kingdom"
+    "kind": "place"
+    "headword": "比丘国"
+    "definition_ja": "西天への取経の道中にある国。民の間で小子城、小児城とも呼ばれる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch78-primary-1455627"
+      "reason_ja": "老兵と駅丞の説明が同じ国と民間の呼称を指す。僧一般をいう既存の比丘とは別の地名である。"
+    "forms":
+      - "id": "xy-ch78-bhiksu-kingdom-form"
+        "text": "比丘国"
+        "relation": "preferred"
+        "reading":
+          "kana": "びくこく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
+      - "id": "xy-ch78-children-city-form"
+        "text": "小子城"
+        "relation": "alias"
+        "reading":
+          "kana": "しょうしじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
+      - "id": "xy-ch78-children-city-variant-form"
+        "text": "小児城"
+        "relation": "variant"
+        "reading":
+          "kana": "しょうにじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch78-jinting-lodge"
+    "kind": "place"
+    "headword": "金亭館駅"
+    "definition_ja": "比丘国で三蔵一行が宿泊する公の宿駅。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch78-primary-1455627"
+      "reason_ja": "比丘国へ入ってから宿泊する駅として本文に出現。既存xy-entry-1927は宝象国の宿駅、xy-entry-1293は劉全の準備する場所に限定され、同じ文字列だけで同一場所としない。別項目は地理を補って断定するためではなく、役割と文脈を限定するため。"
+    "forms":
+      - "id": "xy-ch78-jinting-lodge-form"
+        "text": "金亭館駅"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんていかんえき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch78-beautiful-consort"
+    "kind": "person"
+    "headword": "美后"
+    "definition_ja": "比丘国の王に寵愛される女性の呼称。道士姿の老人に連れられ、王へ献上されたと語られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch78-primary-1455627"
+      "reason_ja": "駅丞は献上時十六歳であった娘に王が美后の号を与えたと語る。老人との実血縁や種族はここからは確定しない。"
+    "forms":
+      - "id": "xy-ch78-beautiful-consort-form"
+        "text": "美后"
+        "relation": "preferred"
+        "reading":
+          "kana": "びこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch78-state-father"
+    "kind": "person"
+    "headword": "国丈"
+    "definition_ja": "比丘国の王へ若い女性を献上し、国丈の称号を受けた道士姿の老人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch78-primary-1455627"
+        - "xy-ch78-guozhang"
+      "reason_ja": "本文で娘を献上した道人が国丈に封ぜられる。国丈の一般語義は帝王の岳父だが、称号から娘との実血縁を追加しない。未開示の種族や持ち主も含めない。"
+    "forms":
+      - "id": "xy-ch78-state-father-form"
+        "text": "国丈"
+        "relation": "preferred"
+        "reading":
+          "kana": "こくじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch78-medicine-buddha"
+    "kind": "person"
+    "headword": "薬師仏"
+    "definition_ja": "病苦を除き、衆生を救うと信仰される仏。薬師如来ともいう。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch78-primary-1455627"
+        - "xy-ch78-ndl-yakushi"
+        - "xy-ch78-yakushi-temple"
+      "reason_ja": "本文の救生という称名、国会図書館典拠の薬師如来・薬師仏の同義語、薬師信仰の説明を照合した。実際の医療効果を保証しない。"
+    "forms":
+      - "id": "xy-ch78-medicine-buddha-form"
+        "text": "薬師仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "やくしぶつ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch78-ndl-yakushi"
+          "reason_ja": "国立国会図書館典拠の同義語欄に薬師仏（ヤクシブツ）と明記。"
+      - "id": "xy-ch78-medicine-buddha-invocation-form"
+        "text": "南無救生薬師仏"
+        "relation": "title"
+        "reading":
+          "kana": "なむきゅうしょうやくしぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+            - "xy-ch78-ndl-yakushi"
+          "reason_ja": "薬師仏の部分は国会図書館典拠の仮名で確認。南無と救生を加えた称名全文の日本語仮名資料は未確認のため、全文の読みは推定のままにする。"
+  - "id": "xy-ch78-paramita"
+    "kind": "concept"
+    "headword": "波羅蜜"
+    "definition_ja": "迷いの世界を越えて悟りの岸へ至る修行の完成をいう仏教語。波羅はその略称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch78-primary-1455627"
+        - "xy-ch78-paramita"
+        - "xy-ch78-paramita-japanese"
+      "reason_ja": "慈悲と救命の功徳をたたえる詩なので、波羅は波羅蜜の略称と解した。既存の般若波羅蜜多は智慧の完成という特定の徳を指し、一般の波羅蜜と自動的に同一項目へ広げない。"
+    "forms":
+      - "id": "xy-ch78-paramita-form"
+        "text": "波羅蜜"
+        "relation": "preferred"
+        "reading":
+          "kana": "はらみつ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch78-paramita-japanese"
+          "reason_ja": "デジタル大辞泉と日本大百科全書の公開見出しに仮名がある。略形の波羅自体の仮名実証とは区別。"
+      - "id": "xy-ch78-paramita-short-form"
+        "text": "波羅"
+        "relation": "short_form"
+        "reading":
+          "kana": "はら"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch78-nine-gifts-cloud-brocade"
+    "kind": "term"
+    "headword": "九錫雲錦"
+    "definition_ja": "道士の頭巾を飾る織物・装飾に関わる呼称。九錫の具体的な意匠は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch78-primary-1455627"
+        - "xy-ch78-nine-gifts"
+      "reason_ja": "原文は淡鵝黃九錫雲錦紗巾。九錫一般は天子の九種の賜物を指すが、これを頭巾の九つの実物の飾りとみなす根拠は得られない。語形を残して細部を留保する。"
+    "forms":
+      - "id": "xy-ch78-nine-gifts-cloud-brocade-form"
+        "text": "九錫雲錦"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうしゃくうんきん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch78-chopstick-plum-pattern"
+    "kind": "term"
+    "headword": "箸頂梅"
+    "definition_ja": "衣の梅の意匠に関わる呼称と解される語。具体的な形や技法は未詳。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch78-primary-1455627"
+      "reason_ja": "原文は箸頂梅沉香綿絲鶴氅。服の模様に関わる名として読んだが、語全体の明確な辞書説明は得られていない。箸先大の花などの細部を確定しない。"
+    "forms":
+      - "id": "xy-ch78-chopstick-plum-pattern-form"
+        "text": "箸頂梅"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょちょうばい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch78-yin-spirit"
+    "kind": "concept"
+    "headword": "陰神"
+    "definition_ja": "内丹修行でいう陰的な精神・魂のあり方。陽神と対比される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch78-primary-1455627"
+        - "xy-ch78-yin-spirit-thesis"
+      "reason_ja": "国丈が禅の修行を批判する箇所の陰神として、精神・魂の意味に解した。夜に呼ばれる神々という普通の呼び方とは語義を分ける。修行による実在を保証する定義ではない。"
+    "forms":
+      - "id": "xy-ch78-yin-spirit-form"
+        "text": "陰神"
+        "relation": "preferred"
+        "reading":
+          "kana": "いんしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch78-five-city-military-officer"
+    "kind": "title"
+    "headword": "五城兵馬官"
+    "definition_ja": "都城の区域を担当し、治安などを扱う軍政官の称号。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch78-primary-1455627"
+        - "xy-ch78-five-cities-archive"
+      "reason_ja": "東京大学史料目録の題名で五城兵馬司の盗賊捕縛の役割を確認。各坊各家の子供の消失を国王へ報告する役。五城の各区域を担う兵馬官という官名の構成から解した。物語の国を特定の史実の都市へ同定しない。"
+    "forms":
+      - "id": "xy-ch78-five-city-military-officer-form"
+        "text": "五城兵馬官"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごじょうへいばかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch78-primary-1455627"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
