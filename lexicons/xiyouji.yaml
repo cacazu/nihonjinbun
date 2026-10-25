@@ -3250,6 +3250,46 @@
     "title": "教育部重編國語辭典 太監（検索表示で宦官の通称を確認）"
     "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=49813&la=1&powerMode=0"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch69-primary-1455618"
+    "title": "中文維基文庫 西遊記 第069回 固定版1455618（固定URL本文取得成功）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第069回&oldid=1455618"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch69-moe-qiduo"
+    "title": "教育部重編國語辭典修訂本 起奪"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=98924&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch69-maijue"
+    "title": "脈訣乳海 七表八里脈総論（検索本文）"
+    "url": "https://zh.wikisource.org/zh-hant/脈訣乳海"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch69-maiyi"
+    "title": "脈義簡摩 寸関尺・三部九候（検索本文）"
+    "url": "https://gushu.net.cn/book/脈義簡摩/index.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch69-dahuang"
+    "title": "富山大学資料館生薬データベース 大黄"
+    "url": "https://ethmed.toyama-wakan.net/Search/View/19927"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch69-herb-toc"
+    "title": "東洋学術出版社 新中薬学 目次（検索表示で百草霜の読み確認）"
+    "url": "https://www.chuui.co.jp/book_mokuji/pdf/shin-chuuyakugaku_mokuji.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch69-hazu"
+    "title": "国際中医薬膳管理師会 中薬講座資料（検索表示で巴豆の読み確認）"
+    "url": "https://www.iatcm.com/wp-content/themes/themChuiyaku/images/kouza/pdf/chuyaku.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch69-gumi"
+    "title": "教育部重編國語辭典修訂本 菰米"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=70919&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch69-xionghuang"
+    "title": "教育部教育百科 雄黃"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail/?search=雄黃&title=雄黃"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch69-dongyue"
+    "title": "台湾内政部宗教文化地図 台南東嶽殿"
+    "url": "https://taiwangods.moi.gov.tw/Religious_Culture/html/Cultural/3_0011.aspx?i=231"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -19181,6 +19221,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-ch69-fu-star-form"
+        "text": "輔星"
+        "relation": "alias"
+        "reading":
+          "kana": "ほせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0759"
     "kind": "person"
     "headword": "右弼"
@@ -19198,6 +19247,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-ch69-bi-star-form"
+        "text": "弼宿"
+        "relation": "alias"
+        "reading":
+          "kana": "ひつしゅく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0760"
     "kind": "object"
     "headword": "幡"
@@ -43699,6 +43757,15 @@
           "source_ids":
             - "xy-ch36-herb-catalog"
           "reason_ja": "出版社が公開する生薬事典の収録項目に、同表記と片仮名読みが明記される。"
+      - "id": "xy-ch69-douling-form"
+        "text": "兜鈴"
+        "relation": "short_form"
+        "reading":
+          "kana": "とうれい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-ch36-jingjie"
     "kind": "object"
     "headword": "荊芥"
@@ -44547,6 +44614,15 @@
           "source_ids":
             - "xy-ch56-primary-1455605"
           "reason_ja": "本文の東岳天齊を保持し、既存の東岳の神の尊称へ対応づける。既出の東嶽斉天と字順が異なるが無断訂正しない。語形の仮名資料は未確認。"
+      - "id": "xy-ch69-dongyue-tianqi-form"
+        "text": "東嶽天斉"
+        "relation": "variant"
+        "reading":
+          "kana": "とうがくてんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
   - "id": "xy-wenchang-kaihua-lord"
     "kind": "person"
     "headword": "文昌開化君"
@@ -59670,3 +59746,769 @@
           "source_ids":
             - "xy-ch68-maijue"
           "reason_ja": "参照した書誌の取得検索表示が、この書名の日本語仮名読みを明記する。"
+  - "id": "xy-ch69-pulse-three"
+    "kind": "concept"
+    "headword": "寸・関・尺"
+    "definition_ja": "伝統的な脈診で手首の脈を診る三つの部位。長さの単位や神将の姓とは別義。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+        - "xy-ch69-maiyi"
+      "reason_ja": "脈義簡摩が難経を引用して三部を寸関尺と説明する。原文の診察位置と照合。現代の診断法としての有効性をいう定義ではない。"
+    "forms":
+      - "id": "xy-ch69-pulse-three-form"
+        "text": "寸・関・尺"
+        "relation": "preferred"
+        "reading":
+          "kana": "すん・かん・しゃく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-siqi"
+    "kind": "concept"
+    "headword": "四気"
+    "definition_ja": "古い医論で用いられる四つの気の分類。脈診の文脈に挙がるが、この用例における四つの内訳は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "四気・五鬱以下の医理の列挙から診察分類と読む。四季の気、薬の四性など他の同形語へ無根拠に確定しない。"
+    "forms":
+      - "id": "xy-ch69-siqi-form"
+        "text": "四気"
+        "relation": "preferred"
+        "reading":
+          "kana": "しき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-wuyu"
+    "kind": "concept"
+    "headword": "五鬱"
+    "definition_ja": "古い医論にいう五種の鬱滞の分類。気の滞りなどをいうが、この用例の具体的な内訳は留保する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-wuyu-form"
+        "text": "五鬱"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごうつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-qibiao"
+    "kind": "concept"
+    "headword": "七表"
+    "definition_ja": "古い脈学で表に属すると分類された七種の脈。浮・芤・滑・実・弦・緊・洪。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+        - "xy-ch69-maijue"
+      "reason_ja": "脈訣乳海の七表八里脈総論に列挙される分類を確認。分類の医学的妥当性を保証するものではない。"
+    "forms":
+      - "id": "xy-ch69-qibiao-form"
+        "text": "七表"
+        "relation": "preferred"
+        "reading":
+          "kana": "しちひょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-bali"
+    "kind": "concept"
+    "headword": "八裏"
+    "definition_ja": "古い脈学で裏に属すると分類された八種の脈。微・沈・緩・渋・遅・伏・濡・弱。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+        - "xy-ch69-maijue"
+      "reason_ja": "脈訣乳海の七表八里脈総論で分類を確認。裏・里の表記を原文のまま対応させた。"
+    "forms":
+      - "id": "xy-ch69-bali-form"
+        "text": "八裏"
+        "relation": "preferred"
+        "reading":
+          "kana": "はちり"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-jiuhou"
+    "kind": "concept"
+    "headword": "九候"
+    "definition_ja": "古い脈診の九つの診察区分。手首の寸・関・尺それぞれに浮・中・沈を分ける説明がある。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+        - "xy-ch69-maiyi"
+      "reason_ja": "脈義簡摩の三部九候の説明を参照。古医書には別の身体区分もあり、特定の現代診断へ同定しない。"
+    "forms":
+      - "id": "xy-ch69-jiuhou-form"
+        "text": "九候"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-lost-pair"
+    "kind": "concept"
+    "headword": "双鳥失群"
+    "definition_ja": "二羽の鳥が離れ離れになり、互いを思い合うことにたとえた病名。驚き恐れ、思い悩む症をいう。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-lost-pair-form"
+        "text": "双鳥失群"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうちょうしつぐん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-dahuang"
+    "kind": "object"
+    "headword": "大黄"
+    "definition_ja": "ダイオウ属植物の根茎などから作る生薬。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch69-dahuang"
+      "reason_ja": "富山大学の生薬資料館データベースで正式名称・原植物・部位を確認。物語の処方の安全性や効能とは別の同定。"
+    "forms":
+      - "id": "xy-ch69-dahuang-form"
+        "text": "大黄"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいおう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch69-dahuang"
+          "reason_ja": "資料館の日本語読み欄に「だいおう」と明記。"
+  - "id": "xy-ch69-badou"
+    "kind": "object"
+    "headword": "巴豆"
+    "definition_ja": "ハズの種子を材料とする生薬の名。古い本草では毒性を持つ薬として扱う。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+        - "xy-ch69-hazu"
+      "reason_ja": "原文の辛・熱・有毒の説明と講座資料の薬名を照合。現代治療への適用を指示しない。"
+    "forms":
+      - "id": "xy-ch69-badou-form"
+        "text": "巴豆"
+        "relation": "preferred"
+        "reading":
+          "kana": "はず"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch69-hazu"
+          "reason_ja": "講座PDFの検索表示で「巴豆（はず）」を確認。PDF全文の独立閲覧を行ったとはしない。"
+  - "id": "xy-ch69-zuoshi"
+    "kind": "concept"
+    "headword": "佐使"
+    "definition_ja": "処方中で主薬を助け、薬の働きを調整する役割の薬をいう伝統的な用語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-zuoshi-form"
+        "text": "佐使"
+        "relation": "preferred"
+        "reading":
+          "kana": "さし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-baicaoshuang"
+    "kind": "object"
+    "headword": "百草霜"
+    "definition_ja": "草木を燃やして生じ、鍋底やかまどなどに付いた煤をいう古い薬材名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-baicaoshuang-form"
+        "text": "百草霜"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひゃくそうそう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch69-herb-toc"
+          "reason_ja": "出版社の目次PDFの検索表示に「百草霜（ひゃくそうそう）」と明記。全文PDF取得の証拠とはしない。"
+  - "id": "xy-ch69-wujindan"
+    "kind": "object"
+    "headword": "烏金丹"
+    "definition_ja": "黒い金の丹という意の丸薬名。悟空が調え、鍋の煤などを混ぜた丸薬に付けた名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-wujindan-form"
+        "text": "烏金丹"
+        "relation": "preferred"
+        "reading":
+          "kana": "うきんたん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-drug-vehicle"
+    "kind": "term"
+    "headword": "薬引"
+    "definition_ja": "薬を服用するときに添え、効き目を導くとされた材料や煎じ汁。伝統医療の語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-drug-vehicle-form"
+        "text": "薬引"
+        "relation": "preferred"
+        "reading":
+          "kana": "やくいん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-rootless-water"
+    "kind": "object"
+    "headword": "無根水"
+    "definition_ja": "根を持たない水という呼び名。天から降り、まだ地に触れていない水を指す用法がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "臣たちの俗説と悟空の定義が異なるため、地面に触れぬ雨水を指す用法として説明する。"
+    "forms":
+      - "id": "xy-ch69-rootless-water-form"
+        "text": "無根水"
+        "relation": "preferred"
+        "reading":
+          "kana": "むこんすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-cainu"
+    "kind": "title"
+    "headword": "綵女"
+    "definition_ja": "宮中で仕える着飾った女性たちを指す呼び名。具体的な官職制度までは確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-cainu-form"
+        "text": "綵女"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいじょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-salutation"
+    "kind": "term"
+    "headword": "再拝頓首"
+    "definition_ja": "二度拝し、頭を地につけること。相手への深い敬意を表す書簡の挨拶にも使う。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-salutation-form"
+        "text": "再拝頓首"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいはいとんしゅ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-zhuzi-east-hall"
+    "kind": "place"
+    "headword": "東閣"
+    "definition_ja": "朱紫国の宮中にある殿舎。国王が礼の宴を催す場所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "朱紫国宮中の宴席という所在を限定。宝象国の同名の東閣とは同一の建物とみなさない。"
+    "forms":
+      - "id": "xy-ch69-zhuzi-east-hall-form"
+        "text": "東閣"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうかく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-su-dairy"
+    "kind": "object"
+    "headword": "酥"
+    "definition_ja": "乳の脂肪分を集めるなどして作る乳製品の古い呼称。菓子を指す同字の用法もある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "酥酪という食品の並びで乳製品として読む。具体的な製法を現代のバターと同一に確定しない。"
+    "forms":
+      - "id": "xy-ch69-su-dairy-form"
+        "text": "酥"
+        "relation": "preferred"
+        "reading":
+          "kana": "そ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-doutang"
+    "kind": "object"
+    "headword": "斗糖"
+    "definition_ja": "宴席に飾り並べる砂糖菓子の一種と解される語。細かな製法・形は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "斗糖龍纏列獅仙という韻文の食品列挙に基づく暫定的解釈。斗を量の単位と断定せず、語形を保持。"
+    "forms":
+      - "id": "xy-ch69-doutang-form"
+        "text": "斗糖"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-longchan"
+    "kind": "object"
+    "headword": "竜纏"
+    "definition_ja": "宴席に飾り並べる砂糖菓子の名と解される語。斗糖と並ぶが、細かな製法と語の切れ目は留保する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "底本の龍纏を訳字にした。糖纏など別字へ無断訂正せず、列獅仙との構文に解釈の幅を残す。"
+    "forms":
+      - "id": "xy-ch69-longchan-form"
+        "text": "竜纏"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうてん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-gumi"
+    "kind": "object"
+    "headword": "菰米"
+    "definition_ja": "マコモの実。穀物のように食べるもの。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch69-gumi"
+      "reason_ja": "教育部辞典で菰菜の果実と確認。"
+    "forms":
+      - "id": "xy-ch69-gumi-form"
+        "text": "菰米"
+        "relation": "preferred"
+        "reading":
+          "kana": "こべい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-xuegu"
+    "kind": "concept"
+    "headword": "血蠱"
+    "definition_ja": "古い薬性説に挙がる、血に関わる病の名。本文だけで具体的な病態や現代の病名へ同定できない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "馬兜鈴の薬性詩の病名として保持。蠱を虫の存在と断定せず、特定の現代疾患への置き換えを避ける。"
+    "forms":
+      - "id": "xy-ch69-xuegu-form"
+        "text": "血蠱"
+        "relation": "preferred"
+        "reading":
+          "kana": "けっこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-zhenggong"
+    "kind": "title"
+    "headword": "正宮"
+    "definition_ja": "君主の正妻である后、またはその住む宮を指す呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-zhenggong-form"
+        "text": "正宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいぐう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-donggong-consort"
+    "kind": "title"
+    "headword": "東宮"
+    "definition_ja": "后妃を宮の位置で呼ぶ場合の東の宮の妃。皇太子をいう東宮とは別義。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-donggong-consort-form"
+        "text": "東宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうぐう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-xigong-consort"
+    "kind": "title"
+    "headword": "西宮"
+    "definition_ja": "后妃を宮の位置で呼ぶ場合の西の宮の妃。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-xigong-consort-form"
+        "text": "西宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいぐう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-jinshenggong"
+    "kind": "person"
+    "headword": "金聖宮"
+    "definition_ja": "朱紫国の正宮の妃の呼称。国王が深く慕う妃。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-jinshenggong-form"
+        "text": "金聖宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんせいきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-yushenggong"
+    "kind": "person"
+    "headword": "玉聖宮"
+    "definition_ja": "朱紫国の東宮の妃の呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-yushenggong-form"
+        "text": "玉聖宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくせいきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-yinshenggong"
+    "kind": "person"
+    "headword": "銀聖宮"
+    "definition_ja": "朱紫国の西宮の妃の呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-yinshenggong-form"
+        "text": "銀聖宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎんせいきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-duanyang"
+    "kind": "term"
+    "headword": "端陽"
+    "definition_ja": "旧暦五月五日の端午の節句の別名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-duanyang-form"
+        "text": "端陽"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-zhuzi-pomegranate"
+    "kind": "place"
+    "headword": "海榴亭"
+    "definition_ja": "朱紫国の御花園にある亭。海榴すなわちザクロにちなむ名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "朱紫国王の回想にある御花園の亭。陳家の庭園にある同名の亭とは所在が異なる。"
+    "forms":
+      - "id": "xy-ch69-zhuzi-pomegranate-form"
+        "text": "海榴亭"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいりゅうてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-zongzi"
+    "kind": "object"
+    "headword": "粽"
+    "definition_ja": "もち米などを葉で包んで蒸す、またはゆでる食べ物。端午の節句に食べる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-zongzi-form"
+        "text": "粽"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちまき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-realgar"
+    "kind": "object"
+    "headword": "雄黄"
+    "definition_ja": "硫化ヒ素から成る鉱物。古くは薬材や端午の行事に用いられた。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+        - "xy-ch69-xionghuang"
+      "reason_ja": "教育部教育百科の鉱物の説明と、原文の節句の酒を照合。飲用の安全を保証しない。"
+    "forms":
+      - "id": "xy-ch69-realgar-form"
+        "text": "雄黄"
+        "relation": "preferred"
+        "reading":
+          "kana": "ゆうおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-saitaisui"
+    "kind": "person"
+    "headword": "賽太歳"
+    "definition_ja": "麒麟山の獬豸洞に住むと自称し、朱紫国の金聖宮をさらった妖怪の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "国王による自称・居住地・拉致の回想に基づく。語りの段階を越えた本相や主人は定義に含めない。"
+    "forms":
+      - "id": "xy-ch69-saitaisui-form"
+        "text": "賽太歳"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいたいさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-qilin-mountain"
+    "kind": "place"
+    "headword": "麒麟山"
+    "definition_ja": "賽太歳が住むと国王に述べた山。獬豸洞がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-qilin-mountain-form"
+        "text": "麒麟山"
+        "relation": "preferred"
+        "reading":
+          "kana": "きりんざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-xiezhi-cave"
+    "kind": "place"
+    "headword": "獬豸洞"
+    "definition_ja": "麒麟山にあるという、賽太歳の住む洞。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-xiezhi-cave-form"
+        "text": "獬豸洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいちどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-three-nine-consorts"
+    "kind": "title"
+    "headword": "三宮九嬪"
+    "definition_ja": "三宮の妃と九人の嬪を合わせた後宮の女性たちの呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "国王が一緒に退位して連れ出すと述べる后妃の集合。実際の在席人数を十二区分に機械的確定しない。"
+    "forms":
+      - "id": "xy-ch69-three-nine-consorts-form"
+        "text": "三宮九嬪"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんぐうきゅうひん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-shelter"
+    "kind": "place"
+    "headword": "避妖楼"
+    "definition_ja": "朱紫国王が妖怪を避けるために造らせた退避所の名。地下の九間の朝殿と説明される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-shelter-form"
+        "text": "避妖楼"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひようろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-jian-bay"
+    "kind": "term"
+    "headword": "間"
+    "definition_ja": "建物の柱と柱の間、またそれで数える部屋・区画の単位。現代の長さへ固定換算しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "固定版本文の語形・役割・説明に基づく。原文が明かさない後の正体や展開は補わない。"
+    "forms":
+      - "id": "xy-ch69-jian-bay-form"
+        "text": "間"
+        "relation": "preferred"
+        "reading":
+          "kana": "けん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-gold-eyed-ghost"
+    "kind": "person"
+    "headword": "醮面金睛鬼"
+    "definition_ja": "東嶽天斉の配下で門を守ると悟空がいう鬼。金色の目を持つとの呼称で、醮面の具体的意味は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "原字の醮を焦などに校訂せず保持。眼前の妖怪との同一性は悟空の類似の指摘にすぎず、王霊官など既知の別神へも同定しない。"
+    "forms":
+      - "id": "xy-ch69-gold-eyed-ghost-form"
+        "text": "醮面金睛鬼"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうめんきんせいき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch69-zhuzi-wenhua"
+    "kind": "place"
+    "headword": "文華殿"
+    "definition_ja": "朱紫国の宮中の殿舎。三蔵が閣老たちと泊まる場所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch69-primary-1455618"
+      "reason_ja": "車遅国の同名の文華殿と別の国の所在であり、同一建物へ統合しない。"
+    "forms":
+      - "id": "xy-ch69-zhuzi-wenhua-form"
+        "text": "文華殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶんかでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch69-primary-1455618"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採った読み。語全体の日本語仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
