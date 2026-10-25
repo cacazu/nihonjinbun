@@ -2706,6 +2706,50 @@
     "title": "奈良国立博物館 正倉院展用語解説『毛氈』"
     "url": "https://shosointen-glossary.narahaku.go.jp/mosen/"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch58-primary-1455607"
+    "title": "中文維基文庫 西遊記 第058回。現行ページ取得・フッター版1455607。固定URL取得失敗。"
+    "url": "https://zh.wikisource.org/zh-hant/西遊記/第058回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch58-taicho-reading"
+    "title": "漢典ではなく日本国語大辞典・大辞泉「諦聴」。一般語はていちょう、仏教ではたいちょう。"
+    "url": "https://kotobank.jp/word/諦聴-574551"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch58-upasaka-reading"
+    "title": "漢字ペディア「優婆塞」ウバソク。対語優婆夷ウバイも明示。"
+    "url": "https://www.kanjipedia.jp/kotoba/0006893300"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch58-upasika-meaning"
+    "title": "日本大百科全書「優婆夷・優婆塞」。男女の在家信者。"
+    "url": "https://kotobank.jp/word/優婆夷優婆塞-1508490"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch58-chujiang-variant"
+    "title": "漢語辞典「楚江王」。初江王との異表記関係。"
+    "url": "https://www.zhongwen.cn/cidian/chujiangwang/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch58-naked-creature"
+    "title": "漢典「臝蟲」。鱗甲毛羽を持たぬ類、漢書の蠃虫表記。"
+    "url": "https://www.zdic.net/hans/臝蟲"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch58-sacred-embryo"
+    "title": "道教文化中心資料庫「真胎」。内丹の金丹と聖胎の関係。"
+    "url": "https://zh.daoinfo.org/index.php?mobileaction=toggle_view_desktop&title=真胎&variant=zh-hant"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch58-six-consciousness"
+    "title": "Tangorin「六識」。ろくしき、六感官の識別作用。"
+    "url": "https://tangorin.com/words?search=六識"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch58-zenzai-reading"
+    "title": "日本国語大辞典・大辞泉「善哉」。ぜんざい、称賛・感嘆の定型。"
+    "url": "https://kotobank.jp/word/善哉-88278"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch58-five-creatures"
+    "title": "漢典「五虫」。古代の生類の分類。"
+    "url": "https://zdic.net/hans/五虫"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch58-jinluan-meaning"
+    "title": "漢典「金銮（金鑾）」。金銮殿・帝王の正殿を指す語義。独立レビューでページ本文を取得。"
+    "url": "https://zdic.net/hans/金銮"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -7743,6 +7787,16 @@
           "source_ids":
             - "xy-reference-087"
           "reason_ja": "参照資料が「初江王」の日本語読み「しょこうおう」を明記している。語義・指示対象は作品原文の文脈と照合した。"
+      - "id": "xy-ch58-chujiang-king-form"
+        "text": "楚江王"
+        "relation": "variant"
+        "reading":
+          "kana": "そこうおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-chujiang-variant"
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "楚の日本語音ソと江王からの推定読み。辞典で初江王と楚江王の異表記関係を確認したが、この語全体の日本語仮名は未確認。"
   - "id": "xy-entry-0229"
     "kind": "person"
     "headword": "宋帝王"
@@ -16852,6 +16906,15 @@
           "source_ids":
             - "xy-ch57-primary-2031415"
           "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語全体の仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch58-shaka-tathagata-form"
+        "text": "釈迦如来"
+        "relation": "alias"
+        "reading":
+          "kana": "しゃかにょらい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0688"
     "kind": "place"
     "headword": "双林"
@@ -17274,6 +17337,15 @@
           "source_ids":
             - "xy-ch52-jurei-reading"
           "reason_ja": "デジタル大辞泉の鶴林の用例で、鷲嶺にじゅれいの読みを確認。物語の霊山との同定は本文による。"
+      - "id": "xy-ch58-vulture-immortal-mountain-form"
+        "text": "霊鷲仙山"
+        "relation": "alias"
+        "reading":
+          "kana": "りょうじゅせんざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "既存の霊鷲山の読みと仙山の漢字音からの合成推定。天竺の如来の寺を載せる山という文脈が同じなので既存の霊山entryへ追加。"
   - "id": "xy-entry-0710"
     "kind": "term"
     "headword": "勝境"
@@ -19551,6 +19623,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-ch58-bhikshu-monk-form"
+        "text": "比丘僧"
+        "relation": "alias"
+        "reading":
+          "kana": "びくそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
   - "id": "xy-entry-0830"
     "kind": "title"
     "headword": "比丘尼"
@@ -33155,6 +33236,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "神将の姓を漢字音で推定。既存の同字を持つ猿の馬元帥とは別人なので、その項目は用いない。"
+      - "id": "xy-ch58-gate-marshal-ma-form"
+        "text": "馬元帥"
+        "relation": "title"
+        "reading":
+          "kana": "ばげんすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "日本語音による読み。直前に南天門を守る馬らが二人を通し、続く殿上で馬元帥が奏上する場面の連続から南天門の馬の称号として追加。花果山の猿の馬元帥とは別。"
   - "id": "xy-entry-1532"
     "kind": "person"
     "headword": "趙"
@@ -52513,6 +52603,15 @@
           "source_ids":
             - "xy-ch57-primary-2031415"
           "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語全体の仮名を明示する資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch58-compliant-iron-staff-form"
+        "text": "随心鉄桿兵"
+        "relation": "alias"
+        "reading":
+          "kana": "ずいしんてっかんへい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "日本語音と語構成による推定読み。第58回の詩が、洞にいた悟空の姿の者の棒と如意金箍棒を対置して命名するため、前回の役割限定entryへ別称を追加する。既存の定義・保留は変更しない。"
   - "id": "xy-ch57-felt"
     "kind": "term"
     "headword": "毛氈"
@@ -52532,3 +52631,509 @@
           "source_ids":
             - "xy-ch57-felt-museum"
           "reason_ja": "奈良国立博物館の用語解説に毛氈の仮名表記もうせんが明示される。"
+  - "id": "xy-ch58-maochong"
+    "kind": "term"
+    "headword": "毛虫"
+    "definition_ja": "毛を持つ獣の類。ここでは猿を含む古代の生類分類で、現代日本語の毛虫だけを指さない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+        - "xy-ch58-five-creatures"
+      "reason_ja": "本回の列挙と、独立取得した漢典「五虫」の毛虫＝獣類・鱗虫＝魚類・羽虫＝禽類という説明を照合した。現代日本語の虫の語義へ限定しない。日本語の読みを実証する資料ではない。"
+    "forms":
+      - "id": "xy-ch58-maochong-form"
+        "text": "毛虫"
+        "relation": "preferred"
+        "reading":
+          "kana": "もうちゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-luochong"
+    "kind": "term"
+    "headword": "蠃虫"
+    "definition_ja": "鱗・甲・毛・羽のない生き物の類。臝虫・裸虫と通じる古代の分類語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-naked-creature"
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-luochong-form"
+        "text": "蠃虫"
+        "relation": "preferred"
+        "reading":
+          "kana": "らちゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-naked-creature"
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-linchong"
+    "kind": "term"
+    "headword": "鱗虫"
+    "definition_ja": "鱗を備える生き物の類をいう古代の分類語。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+        - "xy-ch58-five-creatures"
+      "reason_ja": "本回の列挙と、独立取得した漢典「五虫」の毛虫＝獣類・鱗虫＝魚類・羽虫＝禽類という説明を照合した。現代日本語の虫の語義へ限定しない。日本語の読みを実証する資料ではない。"
+    "forms":
+      - "id": "xy-ch58-linchong-form"
+        "text": "鱗虫"
+        "relation": "preferred"
+        "reading":
+          "kana": "りんちゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-yuchong"
+    "kind": "term"
+    "headword": "羽虫"
+    "definition_ja": "羽を備える鳥の類をいう古代の分類語。小さな羽虫だけを指す現代の語義とは異なる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+        - "xy-ch58-five-creatures"
+      "reason_ja": "本回の列挙と、独立取得した漢典「五虫」の毛虫＝獣類・鱗虫＝魚類・羽虫＝禽類という説明を照合した。現代日本語の虫の語義へ限定しない。日本語の読みを実証する資料ではない。"
+    "forms":
+      - "id": "xy-ch58-yuchong-form"
+        "text": "羽虫"
+        "relation": "preferred"
+        "reading":
+          "kana": "うちゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-kunchong"
+    "kind": "term"
+    "headword": "昆虫"
+    "definition_ja": "この作品が五虫の一つとして列挙する生類の名。現代生物学の昆虫綱と同一の分類だとは断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-kunchong-form"
+        "text": "昆虫"
+        "relation": "preferred"
+        "reading":
+          "kana": "こんちゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-human-immortal"
+    "kind": "concept"
+    "headword": "人仙"
+    "definition_ja": "五仙のうち、人の類に属する仙の分類名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-human-immortal-form"
+        "text": "人仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "じんせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-spirit-immortal-category"
+    "kind": "concept"
+    "headword": "神仙"
+    "definition_ja": "ここでは天仙・地仙・人仙・鬼仙と並ぶ五仙の一分類。神々と仙人の総称という別の語義と区別する。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-spirit-immortal-category-form"
+        "text": "神仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-di-ting"
+    "kind": "person"
+    "headword": "諦聴"
+    "definition_ja": "地蔵王菩薩の経机の下に伏す獣。地に伏せて広く世の善悪・賢愚を察し聞く。姿の細部や動物種は本文の未記載を補わない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+        - "xy-ch58-taicho-reading"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-di-ting-form"
+        "text": "諦聴"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+            - "xy-ch58-taicho-reading"
+          "reason_ja": "日本国語大辞典・大辞泉の仏教語の読み「たいちょう」を参照し、同字の獣名へ採用した推定。獣固有名の読みを直接確定した資料とはしない。"
+  - "id": "xy-ch58-jinluan"
+    "kind": "place"
+    "headword": "金鑾"
+    "definition_ja": "ここでは帝王の宮殿を示す語。詩中で高官の栄達を望む心を表す。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+        - "xy-ch58-jinluan-meaning"
+      "reason_ja": "独立取得した漢典「金銮」の金銮殿・帝王の正殿の語義と、原文の三公・一品との対句を照合した。車駕や人名の別義はこの文脈に採らず、日本語読みは推定のまま。"
+    "forms":
+      - "id": "xy-ch58-jinluan-form"
+        "text": "金鑾"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんらん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-first-rank"
+    "kind": "title"
+    "headword": "一品"
+    "definition_ja": "官人の品階の最上位。詩では高い官位への望みを表す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "一品の一般的な官階の意味と本文の三公との対句からの解釈。日本の位階や具体的な官制へ限定しない。"
+    "forms":
+      - "id": "xy-ch58-first-rank-form"
+        "text": "一品"
+        "relation": "preferred"
+        "reading":
+          "kana": "いっぽん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-sacred-embryo"
+    "kind": "concept"
+    "headword": "聖胎"
+    "definition_ja": "修行によって育て成就する霊的な胎。ここでは嬰児を養うという内丹的な表現と結び付く。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-sacred-embryo"
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "道教文化中心資料庫「真胎」の検索表示は、内丹修煉の金丹を聖胎とも呼ぶと説明する。独立レビューでも検索表示を確認したが、ページ本体の直接取得は失敗した。原文の嬰児・聖胎の対と合わせて解釈し、日本語読みの実証とはしない。"
+    "forms":
+      - "id": "xy-ch58-sacred-embryo-form"
+        "text": "聖胎"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいたい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-sacred-embryo"
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-four-bodhisattvas"
+    "kind": "person"
+    "headword": "四大菩薩"
+    "definition_ja": "如来の説法を聞く四人の菩薩の集団。この場面では各人の名を列挙しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-four-bodhisattvas-form"
+        "text": "四大菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "しだいぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+      - "id": "xy-ch58-four-bodhisattvas-short-form"
+        "text": "四菩薩"
+        "relation": "short_form"
+        "reading":
+          "kana": "しぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-upasaka"
+    "kind": "title"
+    "headword": "優婆塞"
+    "definition_ja": "出家せず在家で仏道を信じる男性の信者。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-upasaka-reading"
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-upasaka-form"
+        "text": "優婆塞"
+        "relation": "preferred"
+        "reading":
+          "kana": "うばそく"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch58-upasaka-reading"
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "漢字ペディアの見出しにウバソクの読みを明記。"
+  - "id": "xy-ch58-upasika"
+    "kind": "title"
+    "headword": "優婆夷"
+    "definition_ja": "出家せず在家で仏道を信じる女性の信者。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-upasika-meaning"
+        - "xy-ch58-upasaka-reading"
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-upasika-form"
+        "text": "優婆夷"
+        "relation": "preferred"
+        "reading":
+          "kana": "うばい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch58-upasika-meaning"
+            - "xy-ch58-upasaka-reading"
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "漢字ペディア「優婆塞」内の対語に優婆夷ウバイと明記。日本大百科全書の複合見出しでも確認。"
+  - "id": "xy-ch58-illuminating-understanding"
+    "kind": "concept"
+    "headword": "照了"
+    "definition_ja": "如来の説法で、有無や色空への固定した見方を離れて明らかに知ることをいう。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "本文「知空不空、知色不色」の後の命名に沿う解釈。経典からの逐語引用だとは断定しない。"
+    "forms":
+      - "id": "xy-ch58-illuminating-understanding-form"
+        "text": "照了"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうりょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-subtle-sound"
+    "kind": "concept"
+    "headword": "妙音"
+    "definition_ja": "ここでは如来の説法が到達点としていう、すぐれた教えの音声。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "本文の結句と仏教語の一般義に沿う推定。特定の菩薩の固有名ではない。"
+    "forms":
+      - "id": "xy-ch58-subtle-sound-form"
+        "text": "妙音"
+        "relation": "preferred"
+        "reading":
+          "kana": "みょうおん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-five-immortals"
+    "kind": "concept"
+    "headword": "五仙"
+    "definition_ja": "天・地・神・人・鬼の五つに分けた仙の分類。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-five-immortals-form"
+        "text": "五仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-five-creatures"
+    "kind": "concept"
+    "headword": "五虫"
+    "definition_ja": "蠃・鱗・毛・羽・昆の五つに分けた生き物の分類。この本文の昆を別の分類字へ訂正しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+        - "xy-ch58-five-creatures"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-five-creatures-form"
+        "text": "五虫"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごちゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+            - "xy-ch58-five-creatures"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-numinous-stone-monkey"
+    "kind": "term"
+    "headword": "霊明石猴"
+    "definition_ja": "如来が列挙する四種の猿の第一。変化・天時・地利に通じ、星や斗を移すと語られる。先に登場した個体との同一性を名称の類似だけで確定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-numinous-stone-monkey-form"
+        "text": "霊明石猴"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいめいせきこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-red-bottom-horse-monkey-category"
+    "kind": "term"
+    "headword": "赤尻馬猴"
+    "definition_ja": "如来が列挙する四種の猿の第二。陰陽・人事に通じ、出入りに長じて死を避け長生きすると語られる。花果山の猿集団の同形呼称と区別した分類項目。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-red-bottom-horse-monkey-category-form"
+        "text": "赤尻馬猴"
+        "relation": "preferred"
+        "reading":
+          "kana": "せきこうばこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-long-armed-monkey-category"
+    "kind": "term"
+    "headword": "通臂猿猴"
+    "definition_ja": "如来が列挙する四種の猿の第三。日月を取り千山を縮め、吉凶を察して天地を動かすと語られる。長腕の猿や通背猿という既存個体・集団との同一性はここでは断定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-long-armed-monkey-category-form"
+        "text": "通臂猿猴"
+        "relation": "preferred"
+        "reading":
+          "kana": "つうひえんこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-six-eared-macaque"
+    "kind": "term"
+    "headword": "六耳獼猴"
+    "definition_ja": "如来が列挙する四種の猿の第四。音を聞き分け、道理と前後を知る。本文ではその列挙の後、偽の悟空の正体がこの猿だと如来が明かす。過去の獼猴王という魔王とは同定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-six-eared-macaque-form"
+        "text": "六耳獼猴"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろくじびこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-primordial-brightness"
+    "kind": "concept"
+    "headword": "元明"
+    "definition_ja": "結びの詩で、離散した一行の再会と結び付けていう、もとの明らかな本性・霊明。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "合元明と心・神・禅・丹の連続からの解釈。玄明・元神など別の字へ訂正しない。"
+    "forms":
+      - "id": "xy-ch58-primordial-brightness-form"
+        "text": "元明"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんめい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "構成漢字の日本語音と語構成から採用した読み。語形全体の仮名を直接示す資料は未確認で、中国語本文の存在を日本語読みの実証とはしない。"
+  - "id": "xy-ch58-six-consciousnesses"
+    "kind": "concept"
+    "headword": "六識"
+    "definition_ja": "眼・耳・鼻・舌・身・意による六つの認識の働き。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-six-consciousness"
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-six-consciousnesses-form"
+        "text": "六識"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろくしき"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch58-six-consciousness"
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "日本語辞書Tangorinの見出しに六識ろくしきと明記。"
+  - "id": "xy-ch58-zenzai"
+    "kind": "term"
+    "headword": "善哉"
+    "definition_ja": "本来は相手をほめ、よいと認める仏教の感嘆語。この場面では如来が殺害を忍びなく思って発する定型句として原語を残す。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch58-zenzai-reading"
+        - "xy-ch58-primary-1455607"
+      "reason_ja": "原文の紹介・列挙・文脈から確認できる範囲に限定する。"
+    "forms":
+      - "id": "xy-ch58-zenzai-form"
+        "text": "善哉"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぜんざい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch58-zenzai-reading"
+            - "xy-ch58-primary-1455607"
+          "reason_ja": "大辞泉と日本国語大辞典の感動詞の見出しにぜんざいと明記。"
