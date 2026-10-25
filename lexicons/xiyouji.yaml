@@ -4002,6 +4002,54 @@
     "title": "漢字ペディア 紫荊（表示本文ではなずおう・マメ科落葉低木を確認）"
     "url": "https://www.kanjipedia.jp/kotoba/0002803800"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch90-primary-1455639"
+    "title": "中文維基文庫 西遊記 第090回 固定版1455639（全208表示行を直接取得、固定版は変換なし表示）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第090回&oldid=1455639"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch90-mengun"
+    "title": "教育部 重編國語辭典修訂本 悶棍（表示本文で第一義齊眉棍を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=30268&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch90-qimeigun"
+    "title": "教育部 重編國語辭典修訂本 齊眉棍（表示本文で眉の高さの堅木棍を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=98753&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch90-time-report"
+    "title": "教育部 重編國語辭典修訂本 傳箭（表示本文で時刻を知らせる語義を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=125989&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch90-guduo"
+    "title": "教育部 重編國語辭典修訂本 骨朵（検索表示で打撃武器の第一義と蒺藜骨朵の用例を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=71189&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch90-banner-reading"
+    "title": "京都府埋蔵文化財調査研究センター 第30回図録（公開PDF抽出本文p10で宝幢のほうどうを確認）"
+    "url": "https://www.kyotofu-maibun.or.jp/data/kankou/syouten/syoutennpdf/zuroku30.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch90-qianlin"
+    "title": "雲笈七籤 巻23（維基文庫取得本文L147で月中の騫林を確認。後のfindは不一致）"
+    "url": "https://zh.wikisource.org/zh-hant/雲笈七籤/23"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch90-tianding"
+    "title": "教育部 重編國語辭典修訂本 天丁（表示本文で天神・天兵の語義を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=52912&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch90-huangdao"
+    "title": "教育部 教育百科 黄道（辞典掲載本文で太陽の視運動の軌跡の義を確認）"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail/?search=%E9%BB%83%E9%81%93&title=%E9%BB%83%E9%81%93"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch90-ecliptic-reading"
+    "title": "国立天文台 RISE カッシニの法則とカッシニ状態（表示本文L41で黄道のこうどうを確認）"
+    "url": "https://www.miz.nao.ac.jp/rise/c/reading/cassinis-laws-cassini-state.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch90-zhangshi"
+    "title": "明史 巻75 王府長史司（維基文庫検索表示で王府庶務の職掌を確認）"
+    "url": "https://zh.wikisource.org/zh-hant/明史/卷75"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch90-title-commentary"
+    "title": "西遊真詮 第90回（Ctext表示本文の清代評。原作者の唯一の意図とは扱わない）"
+    "url": "https://ctext.org/wiki.pl?chapter=450544&if=gb"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -10125,6 +10173,16 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の通常の音訓と文脈から推定。今回、この表記全体の日本語読みを明記する独立資料では未確認。"
+      - "id": "xy-ch90-heavenly-soldier-variant-form"
+        "text": "天丁"
+        "relation": "alias"
+        "reading":
+          "kana": "てんてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+            - "xy-ch90-tianding"
+          "reason_ja": "教育部の表示本文が天丁を天神・天兵と説明。既存の天兵は天界の兵士一般なので同じ役割の別称として追加。個別の天兵の姓や広目天王本人へ統合しない。全語かなは未確認。"
   - "id": "xy-entry-0267"
     "kind": "term"
     "headword": "天将"
@@ -20477,6 +20535,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-ch90-treasure-banner-form"
+        "text": "宝幢"
+        "relation": "alias"
+        "reading":
+          "kana": "ほうどう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch90-banner-reading"
+          "reason_ja": "京都府の公開図録PDF抽出本文p10に宝幢のほうどうというルビを確認。既存の幢は一般の旗飾りで、特定人物の所有物ではない。仏教・儀仗の飾り旗という種類の呼称として追加。日本の儀礼旗の具体的構造は本篇の旗に移さない。"
   - "id": "xy-entry-0766"
     "kind": "object"
     "headword": "簫"
@@ -62408,6 +62475,15 @@
           "source_ids":
             - "xy-ch70-primary-1455619"
           "reason_ja": "漢字の日本語音訓と語構成から採用した推定。語全体の日本語仮名を明示する独立資料は未確認。中国語の出現や発音だけで日本語読みを確認済みとはしない。"
+      - "id": "xy-ch90-caltrop-short-form"
+        "text": "蒺藜"
+        "relation": "short_form"
+        "reading":
+          "kana": "しつり"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "猱獅が振るう鉄蒺藜を戦闘詩で蒺藜と短く呼ぶ。植物そのものや別の撒き菱という物体の同定ではない。既存の種類名の短称として追加し、元の形態の不確定性は保持。"
   - "id": "xy-ch70-muffled-club"
     "kind": "object"
     "headword": "悶棍"
@@ -70165,15 +70241,25 @@
           "source_ids":
             - "xy-ch89-primary-1500528"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+      - "id": "xy-ch90-all-spirit-bamboo-mountain-form"
+        "text": "万霊竹節山"
+        "relation": "alias"
+        "reading":
+          "kana": "ばんれいちくせつざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "竹節山の同じ九曲盤桓洞へ追ってきた場面の門の銘文。万霊を冠した同じ山の名として追加。全語の日本語仮名は未確認。"
   - "id": "xy-ch89-jiuling-yuansheng"
     "kind": "person"
     "headword": "九霊元聖"
-    "definition_ja": "黄獅に祖翁と呼ばれる、竹節山の九曲盤桓洞の老妖。"
+    "definition_ja": "黄獅に祖翁と呼ばれる、竹節山の九曲盤桓洞の老妖。 九つの頭を持つ獅子で、東極妙巌宮の太乙救苦天尊の乗り物。"
     "definition_evidence":
       "status": "verified"
       "source_ids":
         - "xy-ch89-primary-1500528"
-      "reason_ja": "黄獅の招待状の宛名と、逃れ着いた洞の説明で同じ名と関係を確認。未開示の本相・飼い主・来歴は加えない。"
+        - "xy-ch90-primary-1455639"
+      "reason_ja": "黄獅の招待状の宛名と、逃れ着いた洞の説明で同じ名と関係を確認。未開示の本相・飼い主・来歴は加えない。 九頭の本相と主人の名・乗り物の関係は固定版1455639の本文および帰還の行動で追加確認。"
     "forms":
       - "id": "xy-ch89-jiuling-yuansheng-form"
         "text": "九霊元聖"
@@ -70184,6 +70270,24 @@
           "source_ids":
             - "xy-ch89-primary-1500528"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+      - "id": "xy-ch90-yuansheng-short-form"
+        "text": "元聖"
+        "relation": "short_form"
+        "reading":
+          "kana": "げんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "太乙救苦天尊が自分の獅子へ元聖と呼びかけ、九霊元聖と同じ個体であることが行動で示される。日本語全語仮名は未確認。"
+      - "id": "xy-ch90-nine-spirits-short-form"
+        "text": "九霊"
+        "relation": "short_form"
+        "reading":
+          "kana": "きゅうれい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "終結詩の九靈は九霊元聖と九の数の寓意を重ねる短称と解する。数理の詳細は補わず、回題にも先行する語形だが読み注は本文詩の初出へ置く。全語かなは未確認。"
   - "id": "xy-ch89-huangshi"
     "kind": "person"
     "headword": "黄獅"
@@ -70480,3 +70584,253 @@
           "source_ids":
             - "xy-ch89-primary-1500528"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名資料は未確認であり、中国語原文に語があることを日本語読みの確認としない。"
+  - "id": "xy-ch90-snow-lion-mace"
+    "kind": "object"
+    "headword": "三楞簡"
+    "definition_ja": "雪獅が振るう、三つの稜を持つ棒状の打撃武器。摩昂の三棱簡と同じ種類の武器だが、同一の所有物とはしない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch90-primary-1455639"
+      "reason_ja": "固定原文が雪獅の所持と三楞の形を明記。既存043の三棱簡は摩昂の特定武器なので、表記差だけで同一個体へ統合しない。"
+    "forms":
+      - "id": "xy-ch90-snow-lion-mace-form"
+        "text": "三楞簡"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんりょうかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch90-bone-headed-mace"
+    "kind": "object"
+    "headword": "骨朶"
+    "definition_ja": "一端に大きな頭部を付けた、鉄や堅い木で作る棒状の打撃武器。蒺藜のような突起を備えたものもいう。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch90-primary-1455639"
+        - "xy-ch90-guduo"
+      "reason_ja": "教育部の骨朵の第一義と蒺藜骨朵の用例を照合。本文の七つの武器の列挙では蒺藜骨朵を一器として読む。"
+    "forms":
+      - "id": "xy-ch90-bone-headed-mace-form"
+        "text": "骨朶"
+        "relation": "preferred"
+        "reading":
+          "kana": "こつだ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch90-brocade-cloud-nest"
+    "kind": "place"
+    "headword": "錦雲窩"
+    "definition_ja": "九霊元聖が眠りに行く、洞内の場所の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch90-primary-1455639"
+      "reason_ja": "固定原文で本人がここへ睡眠に行くと告げる。寝床の具体的構造は明記されない。"
+    "forms":
+      - "id": "xy-ch90-brocade-cloud-nest-form"
+        "text": "錦雲窩"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんうんか"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch90-east-miaoyan-palace"
+    "kind": "place"
+    "headword": "東極妙巌宮"
+    "definition_ja": "太乙救苦天尊の住む、天界の東方の宮。原文の妙巖の字を保った呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch90-primary-1455639"
+      "reason_ja": "土地神の説明、悟空の思い当たり、宮中での天尊との対面を照合。一般資料の妙嚴宮へ無断で校訂しない。"
+    "forms":
+      - "id": "xy-ch90-east-miaoyan-palace-form"
+        "text": "東極妙巌宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうきょくみょうがんきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認。"
+      - "id": "xy-ch90-miaoyan-short-form"
+        "text": "妙巌宮"
+        "relation": "short_form"
+        "reading":
+          "kana": "みょうがんきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "東極妙巌宮へ向かう場面の同一宮の短称。巖を巌とし、嚴へ校訂しない。日本語全語仮名は未確認。"
+  - "id": "xy-ch90-taiyi-savior"
+    "kind": "person"
+    "headword": "太乙救苦天尊"
+    "definition_ja": "東極妙巌宮に住む道教の高位神。九霊元聖という九頭の獅子を乗り物とする主人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch90-primary-1455639"
+      "reason_ja": "固定原文の悟空の説明と天尊の行動・発言が同一主人と乗り物を明示する。他の太乙・王霊官・雷部の天尊とは別の神格。"
+    "forms":
+      - "id": "xy-ch90-taiyi-savior-form"
+        "text": "太乙救苦天尊"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいいつきゅうくてんそん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認。"
+      - "id": "xy-ch90-savior-venerable-short-form"
+        "text": "天尊"
+        "relation": "short_form"
+        "reading":
+          "kana": "てんそん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "東極妙巌宮の主人と名が明かされた同じ神への短い呼びかけ。玉帝・雷部の天尊・一般称号とは文脈を区別。全語仮名の独立資料は未確認。"
+  - "id": "xy-ch90-qian-forest"
+    "kind": "term"
+    "headword": "騫林"
+    "definition_ja": "道教の仙境に結びつく樹木・林の名。月中の林として説く文献もあるが、天上の宮の景色を詠む用例を月面の実景とは限定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch90-primary-1455639"
+        - "xy-ch90-qianlin"
+      "reason_ja": "雲笈七籤巻二十三は月中の騫林を記す。本文は宮の荘厳な景を列挙するので、宮自体が月にあるとはしない。"
+    "forms":
+      - "id": "xy-ch90-qian-forest-form"
+        "text": "騫林"
+        "relation": "preferred"
+        "reading":
+          "kana": "けんりん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch90-heavenly-yellow-way"
+    "kind": "term"
+    "headword": "黄道"
+    "definition_ja": "太陽が天球上を巡る道をいう語。天上の宮の輝きを詠む句では、光に満ちた天の道として解される。暦占の吉日や内丹の象徴的中心とは区別する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch90-primary-1455639"
+        - "xy-ch90-huangdao"
+      "reason_ja": "教育部の天文語義と太陽・紫気・神光を列挙する詩の文脈による解釈。詩中の厳密な空間関係までは未確定。"
+    "forms":
+      - "id": "xy-ch90-heavenly-yellow-way-form"
+        "text": "黄道"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうどう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch90-ecliptic-reading"
+          "reason_ja": "表示本文で当該語形の日本語仮名を確認。中国語の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch90-qinghua-eternal-joy"
+    "kind": "place"
+    "headword": "青華長楽界"
+    "definition_ja": "東極妙巌宮のある、青華・長楽の名で呼ばれる天上の境域。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch90-primary-1455639"
+      "reason_ja": "宮を詠む詩が青華長樂界と東極妙巖宮を並べて結ぶ。宮と同一の建物とまでは断定せず所在境域として分ける。"
+    "forms":
+      - "id": "xy-ch90-qinghua-eternal-joy-form"
+        "text": "青華長楽界"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいかちょうらくかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch90-great-nectar-hall"
+    "kind": "place"
+    "headword": "大千甘露殿"
+    "definition_ja": "太乙救苦天尊のもとで、獅子番が酒の瓶を見つけたと語る殿の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch90-primary-1455639"
+      "reason_ja": "固定原文の獅子番の説明に現れる。大千世界という宇宙概念と同じ場所扱いをしない。"
+    "forms":
+      - "id": "xy-ch90-great-nectar-hall-form"
+        "text": "大千甘露殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいせんかんろでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch90-cycle-jade-liquor"
+    "kind": "object"
+    "headword": "輪廻瓊液"
+    "definition_ja": "太上老君が太乙救苦天尊へ贈った酒の名。飲めば三日酔って目を覚まさないと天尊が説明する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch90-primary-1455639"
+      "reason_ja": "固定原文で天尊が贈り主・酒名・酔う期間を述べる。現実の飲酒への効能説明とは扱わない。"
+    "forms":
+      - "id": "xy-ch90-cycle-jade-liquor-form"
+        "text": "輪廻瓊液"
+        "relation": "preferred"
+        "reading":
+          "kana": "りんねけいえき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch90-three-holy-beings"
+    "kind": "term"
+    "headword": "三聖"
+    "definition_ja": "天上の聖なる三者の呼称。九霊元聖の叫びが上に届く先として語られるが、その三者の具体的な内訳は明記されない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch90-primary-1455639"
+      "reason_ja": "固定原文は上通三聖と述べるだけで神名の内訳を示さない。三清などと自動同定しない。"
+    "forms":
+      - "id": "xy-ch90-three-holy-beings-form"
+        "text": "三聖"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch90-princely-secretary"
+    "kind": "title"
+    "headword": "長史"
+    "definition_ja": "王府の政務や庶務を取りまとめ、王を補佐する役人の官名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch90-primary-1455639"
+        - "xy-ch90-zhangshi"
+      "reason_ja": "明史巻七十五の王府長史司の職掌と、玉華王府の役人への分配という文脈を照合。唐代など別制度の職務へ一律に固定しない。"
+    "forms":
+      - "id": "xy-ch90-princely-secretary-form"
+        "text": "長史"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちょうし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch90-primary-1455639"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名資料は未確認。"
