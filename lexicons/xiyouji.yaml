@@ -4230,6 +4230,50 @@
     "title": "教育部重編國語辭典修訂本 蟾宮（検索表示で月宮の語義を確認）"
     "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=122969&q=1&word=蟾"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch96-primary-1500608"
+    "title": "中文維基文庫 西遊記 第096回 固定版1500608（親担当の固定リンク実取得。全219表示行を保存し、引継ぎ作者が全38単位を再読）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch96-dragon-whisk-literary"
+    "title": "御定淵鑑類函 卷379（Chinese Text Project検索表示で龍髯の払子の伝承を確認）"
+    "url": "https://ctext.org/wiki.pl?chapter=429119&if=en&remap=gb"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch96-shilin-cinii"
+    "title": "CiNii Books 事林廣記（検索表示で事林広記・ジリンコウキと書誌を確認）"
+    "url": "https://ci.nii.ac.jp/ncid/BN06060033?l=ja"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch96-ritual-monks-study"
+    "title": "政大中文學報31「魔、精把關：《西遊記》的過關敘述及其諷喻」（検索表示p104の應佛僧・應赴僧の説明）"
+    "url": "https://bdcl.nccu.edu.tw/uploads/chapter_file/file/649a3af736737600804feecc/%E9%AD%94_%E7%B2%BE%E6%8A%8A%E9%97%9C__%E8%A5%BF%E9%81%8A%E8%A8%98_%E7%9A%84%E9%81%8E%E9%97%9C%E6%95%98%E8%BF%B0%E5%8F%8A%E5%85%B6%E8%AB%B7%E5%96%BB.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch96-water-repentance"
+    "title": "漢語網 水懺（検索表示で慈悲三昧水懺との関係を確認。本文同定には使わない）"
+    "url": "https://www.chinesewords.org/dict/174775-639.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch96-lion-candy-study"
+    "title": "楊聯陞「老乞大朴通事裏的語法語彙」（検索表示の朴通事諺解引用を確認。PDF直接取得はタイムアウト）"
+    "url": "https://www11.ihp.sinica.edu.tw/storage/w2_file/4175DrMyaka.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch96-kinship-jitsuu"
+    "title": "字通 姨（コトバンクの検索表示で姨兄の母方従兄の語義を確認）"
+    "url": "https://kotobank.jp/word/姨-1267058"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch96-qiang-gold"
+    "title": "中国工藝美術學會 邱春林（検索表示で戧金の彫り目へ金を填入する技法を確認）"
+    "url": "https://www.cnacs.net.cn/20/202401/5674.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch96-gongche"
+    "title": "加藤徹 清楽の譜面（明治大学公開ページの検索表示で工尺譜の音名を確認）"
+    "url": "https://www.isc.meiji.ac.jp/~katotoru/singaku-20.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch96-juan-character"
+    "title": "識典古籍 \U00029707（検索表示の漢語大詞典で巻き状の粉食を確認）"
+    "url": "https://www.shidianguji.com/character/%F0%A9%9C%87"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch96-wuqi"
+    "title": "漢典 五七（検索表示で五から七の概数と三十五の両義を確認。文脈により概数を採用）"
+    "url": "https://zdic.net/hant/%E4%BA%94%E4%B8%83"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -57052,6 +57096,15 @@
           "source_ids":
             - "xy-ch60-primary-1500612"
           "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の日本語仮名を直接示す資料は未確認であり、中国語本文の出現だけを読みの実証とはしない。"
+      - "id": "xy-ch96-paifang-form"
+        "text": "牌坊"
+        "relation": "variant"
+        "reading":
+          "kana": "はいぼう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "柱と屋根からなる門形の建造物という同じ語義。屋敷の門楼とは区別し、文字列の違いだけで牌楼と別項目を作らない。 日本語の全語形かな資料は未確認で、漢字の音に従う。"
   - "id": "xy-ch60-three-lights"
     "kind": "concept"
     "headword": "三光"
@@ -61523,6 +61576,15 @@
           "source_ids":
             - "xy-ch68-primary-1455617"
           "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch96-juan-short-form"
+        "text": "\U00029707"
+        "relation": "short_form"
+        "reading":
+          "kana": "けん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "蒸\U00029707・\U00029707兒の食品名。既存\U00029707子と同じ巻き状の粉食。具や製法を固定しない。 日本語の全語形かな資料は未確認で、漢字の音に従う。"
   - "id": "xy-ch68-zheng-store-family"
     "kind": "person"
     "headword": "鄭家"
@@ -65849,14 +65911,16 @@
   - "id": "xy-ch79-lion-immortal-candy"
     "kind": "object"
     "headword": "獅仙糖"
-    "definition_ja": "獅子や仙人の姿をかたどる砂糖菓子。"
+    "definition_ja": "獅子に乗る仙人などの姿を、砂糖を型に流してかたどった飾り菓子。"
     "definition_evidence":
       "status": "estimated"
       "source_ids":
         - "xy-ch79-primary-1455628"
         - "xy-ch79-sugar-primary"
         - "xy-ch79-sugar-feast"
-      "reason_ja": "天工開物の獣形砂糖菓子の例と、獅仙を獅子・八仙の型とする菓子記事を参照。物語の個々の型の人数や形を確定しない。既存糖人は人形一般、斗糖は別の菓子名であり、自動統合しない。"
+        - "xy-ch96-primary-1500608"
+        - "xy-ch96-lion-candy-study"
+      "reason_ja": "旧定義の「獅子や仙人」を、朴通事諺解の「騎獅仙人」を引用する楊聯陞論文の検索表示に基づき限定訂正。直接PDF取得は失敗し、全紙面未照合のため推定の格付けを維持。旧定義と証拠は nonform-definition-updates.json に保存。"
     "forms":
       - "id": "xy-ch79-lion-immortal-candy-form"
         "text": "獅仙糖"
@@ -73488,4 +73552,548 @@
           "status": "estimated"
           "source_ids":
             - "xy-ch95-primary-1500606"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-tongtai"
+    "kind": "place"
+    "headword": "銅台府"
+    "definition_ja": "取経一行が訪れる町と、その府の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-tongtai-form"
+        "text": "銅台府"
+        "relation": "preferred"
+        "reading":
+          "kana": "どうたいふ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-diling"
+    "kind": "place"
+    "headword": "地霊県"
+    "definition_ja": "銅台府の奥にあると老人が説明する県。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-diling-form"
+        "text": "地霊県"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちれいけん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-tiger-gate"
+    "kind": "object"
+    "headword": "虎坐門楼"
+    "definition_ja": "虎がうずくまるような構えの門楼と解される呼び名。具体的な構造は未詳。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "原文で屋敷の目印として反復される。虎像の存在や細かな建築形式は確認できない。"
+    "forms":
+      - "id": "xy-ch96-tiger-gate-form"
+        "text": "虎坐門楼"
+        "relation": "preferred"
+        "reading":
+          "kana": "こざもんろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-kou-hong"
+    "kind": "person"
+    "headword": "寇洪"
+    "definition_ja": "僧たちへの施食を続ける富裕な家の主人。字は大寛。寇員外とも呼ばれる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-kou-hong-form"
+        "text": "寇洪"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+      - "id": "xy-ch96-kou-yuanwai-form"
+        "text": "寇員外"
+        "relation": "title"
+        "reading":
+          "kana": "こういんがい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "老人が先に姓と員外の敬称を教え、後に本人が寇洪・字大寛と名乗る同一人。 日本語の全語形かな資料は未確認で、漢字の音に従う。"
+      - "id": "xy-ch96-dakuan-form"
+        "text": "大寛"
+        "relation": "alias"
+        "reading":
+          "kana": "たいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "寇洪が自身の字と明示する。別人を作らない。 日本語の全語形かな資料は未確認で、漢字の音に従う。"
+  - "id": "xy-ch96-monks-sign"
+    "kind": "term"
+    "headword": "万僧不阻"
+    "definition_ja": "どれほど多くの僧でも拒まず迎える、という施食の家の掲示。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-monks-sign-form"
+        "text": "万僧不阻"
+        "relation": "preferred"
+        "reading":
+          "kana": "まんそうふそ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-aloeswood"
+    "kind": "object"
+    "headword": "沈香"
+    "definition_ja": "香木の一種。香炉でたく香料。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-aloeswood-form"
+        "text": "沈香"
+        "relation": "preferred"
+        "reading":
+          "kana": "じんこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-pepper-coating"
+    "kind": "object"
+    "headword": "椒粉"
+    "definition_ja": "椒を含んだ香りのある塗料と解される語。配合や色は未詳。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "経堂の屏を修飾する用例から塗料と解すが、具体的な配合の独立資料は未確認。"
+    "forms":
+      - "id": "xy-ch96-pepper-coating-form"
+        "text": "椒粉"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうふん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-dragon-whisk"
+    "kind": "object"
+    "headword": "竜髯"
+    "definition_ja": "竜のひげ。払子を形容する伝承的・詩的な呼び名にも使われる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+        - "xy-ch96-dragon-whisk-literary"
+      "reason_ja": "固定本文と御定淵鑑類函の竜髯の払子の伝承を照合。実物の材質を認定する意味ではない。"
+    "forms":
+      - "id": "xy-ch96-dragon-whisk-form"
+        "text": "竜髯"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうぜん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-kou-liang"
+    "kind": "person"
+    "headword": "寇梁"
+    "definition_ja": "寇洪の二人の息子の一人。書物を学ぶ若い秀才。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-kou-liang-form"
+        "text": "寇梁"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうりょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-kou-dong"
+    "kind": "person"
+    "headword": "寇棟"
+    "definition_ja": "寇洪の二人の息子の一人。書物を学ぶ若い秀才。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-kou-dong-form"
+        "text": "寇棟"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-xiucai"
+    "kind": "title"
+    "headword": "秀才"
+    "definition_ja": "中国の科挙制度で、生員などの読書人に用いられた呼び名。単に頭のよい人という現代語とは区別する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-xiucai-form"
+        "text": "秀才"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅうさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-shilin"
+    "kind": "object"
+    "headword": "事林広記"
+    "definition_ja": "中国の日常生活・社会・学問など広い知識を集めた類書。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+        - "xy-ch96-shilin-cinii"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-shilin-form"
+        "text": "事林広記"
+        "relation": "preferred"
+        "reading":
+          "kana": "じりんこうき"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch96-shilin-cinii"
+          "reason_ja": "資料の当該語形に日本語仮名を直接確認。取得範囲は出典名に記録。"
+  - "id": "xy-ch96-ritual-monks"
+    "kind": "title"
+    "headword": "応仏僧"
+    "definition_ja": "招きに応じて法事や読経・懺悔の儀礼を営む僧。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+        - "xy-ch96-ritual-monks-study"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-ritual-monks-form"
+        "text": "応仏僧"
+        "relation": "preferred"
+        "reading":
+          "kana": "おうぶつそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-nao"
+    "kind": "object"
+    "headword": "鐃"
+    "definition_ja": "仏教の儀礼や楽隊などで打ち鳴らす、銅製の打楽器。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "仏事の楽器列挙から一般楽器と判断。黄眉の捕縛道具である金鐃の個体には同定しない。"
+    "forms":
+      - "id": "xy-ch96-nao-form"
+        "text": "鐃"
+        "relation": "preferred"
+        "reading":
+          "kana": "にょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-yunluo"
+    "kind": "object"
+    "headword": "雲鑼"
+    "definition_ja": "小さな銅鑼を枠に並べ、打ち分けて音を出す楽器。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-yunluo-form"
+        "text": "雲鑼"
+        "relation": "preferred"
+        "reading":
+          "kana": "うんら"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-medicine-lamp"
+    "kind": "object"
+    "headword": "薬師灯"
+    "definition_ja": "薬師仏への祈願や供養のためにともす灯火。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-medicine-lamp-form"
+        "text": "薬師灯"
+        "relation": "preferred"
+        "reading":
+          "kana": "やくしとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-water-repentance"
+    "kind": "concept"
+    "headword": "水懺"
+    "definition_ja": "罪や怨みを懺悔する仏教の儀礼・その文書。慈悲三昧水懺に関わるが、用いる本文の同定には注意を要する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+        - "xy-ch96-water-repentance"
+      "reason_ja": "水懺の説明資料と本文の拜水懺・解冤愆を照合。梁皇水懺という複合題との同一性は確定しない。"
+    "forms":
+      - "id": "xy-ch96-water-repentance-form"
+        "text": "水懺"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-huayan"
+    "kind": "object"
+    "headword": "華厳経"
+    "definition_ja": "仏の悟りや菩薩の実践、相互に関わり合う世界を説く大乗仏教の経典。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-huayan-form"
+        "text": "華厳経"
+        "relation": "preferred"
+        "reading":
+          "kana": "けごんきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-nanlai"
+    "kind": "place"
+    "headword": "南来寺"
+    "definition_ja": "送別の行列に招かれる僧たちの寺。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-nanlai-form"
+        "text": "南来寺"
+        "relation": "preferred"
+        "reading":
+          "kana": "なんらいじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-dongyue"
+    "kind": "place"
+    "headword": "東岳観"
+    "definition_ja": "送別の行列に招かれる道士たちの道観。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-dongyue-form"
+        "text": "東岳観"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうがくかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-quewei-incense"
+    "kind": "object"
+    "headword": "鵲尾炉"
+    "definition_ja": "カササギの尾を思わせる柄を持つ柄香炉。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-quewei-incense-form"
+        "text": "鵲尾炉"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゃくびろ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-fasting-layman"
+    "kind": "title"
+    "headword": "斎公"
+    "definition_ja": "斎戒・施食などの信仰行為をする在家の信者への呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-fasting-layman-form"
+        "text": "斎公"
+        "relation": "preferred"
+        "reading":
+          "kana": "さいこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-meal-scripture"
+    "kind": "object"
+    "headword": "謁斎経"
+    "definition_ja": "僧が食事の場で唱える文として記される題名。字形は謁斎経のまま保持し、特定の定型経文への同定は保留する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-meal-scripture-form"
+        "text": "謁斎経"
+        "relation": "preferred"
+        "reading":
+          "kana": "えっさいきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-huaguang-shrine"
+    "kind": "place"
+    "headword": "華光行院"
+    "definition_ja": "華光を祀る廟を指す建物名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "額の四字と三蔵の廟祝への言及から廟と解す。具体的な寺院制度上の分類は未詳。"
+    "forms":
+      - "id": "xy-ch96-huaguang-shrine-form"
+        "text": "華光行院"
+        "relation": "preferred"
+        "reading":
+          "kana": "かこうぎょういん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-huaguang"
+    "kind": "person"
+    "headword": "華光菩薩"
+    "definition_ja": "火焔五光仏の弟子とされ、五顕霊官とも呼ばれる神。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-huaguang-form"
+        "text": "華光菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "かこうぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+      - "id": "xy-ch96-wuxian-form"
+        "text": "五顕霊官"
+        "relation": "alias"
+        "reading":
+          "kana": "ごけんれいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "三蔵が華光菩薩について化做五顯靈官と説明する同一人物。五顕祠という建物とは別。 日本語の全語形かな資料は未確認で、漢字の音に従う。"
+  - "id": "xy-ch96-fire-buddha"
+    "kind": "person"
+    "headword": "火焔五光仏"
+    "definition_ja": "華光菩薩の師と三蔵が説明する仏。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-fire-buddha-form"
+        "text": "火焔五光仏"
+        "relation": "preferred"
+        "reading":
+          "kana": "かえんごこうぶつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
+          "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
+  - "id": "xy-ch96-poison-fire-king"
+    "kind": "person"
+    "headword": "毒火鬼王"
+    "definition_ja": "華光菩薩が討ち滅ぼしたと三蔵の説明に現れる鬼王。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch96-primary-1500608"
+      "reason_ja": "固定版本文の当該語と前後の役割・行為を照合した。"
+    "forms":
+      - "id": "xy-ch96-poison-fire-king-form"
+        "text": "毒火鬼王"
+        "relation": "preferred"
+        "reading":
+          "kana": "どくかきおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch96-primary-1500608"
           "reason_ja": "日本語の漢字音訓と語構成から採用した読み。全語形の日本語仮名資料は未確認で、中国語の出現を読みの実証とはしない。"
