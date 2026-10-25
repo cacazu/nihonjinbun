@@ -2466,6 +2466,38 @@
     "title": "劉一明『西遊記百回詳注』第五十一回（中文維基文庫）"
     "url": "https://zh.wikisource.org/zh-hans/西遊記百回詳注/51"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch52-primary-1498137"
+    "title": "中文維基文庫 西遊記 第052回（現行取得ページ、フッター識別版1498137）"
+    "url": "https://zh.wikisource.org/zh-hant/西遊記/第052回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch52-moe-xietu"
+    "title": "教育部 重編國語辭典修訂本「謝土」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=106275&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch52-moe-binlang"
+    "title": "教育部 重編國語辭典修訂本「賓郎」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=19221&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch52-jodo-upasaka"
+    "title": "新纂浄土宗大辞典「優婆塞・優婆夷」"
+    "url": "https://jodoshuzensho.jp/daijiten/index.php/優婆塞・優婆夷"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch52-jurei-reading"
+    "title": "デジタル大辞泉「鶴林」（引用句の鷲嶺の読み）"
+    "url": "https://kotobank.jp/word/鶴林-460903"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch52-daikaku-reading"
+    "title": "デジタル大辞泉・精選版日本国語大辞典「大覚」"
+    "url": "https://kotobank.jp/word/大覚-556530"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch52-nmh-arhat"
+    "title": "国立歴史博物館 藏品資訊（降龍・伏虎の羅漢名）"
+    "url": "https://collections.culture.tw/nmh_collectionsweb/Collection?GID=MPMAMB0BM6"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch52-hu-ethnic-reading"
+    "title": "デジタル大辞泉「胡」（民族呼称の意味・読み）"
+    "url": "https://kotobank.jp/word/胡-61196"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -3756,6 +3788,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "漢字の通常の日本語音訓、仏教語の慣用音と本文の文脈から推定。語形全体の仮名読みを直接示す資料による確認は未了。"
+      - "id": "xy-ch52-jade-zhang-emperor-form"
+        "text": "玉皇張大帝"
+        "relation": "title"
+        "reading":
+          "kana": "ぎょくこうちょうたいてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-term-053"
     "kind": "place"
     "headword": "霊霄宝殿"
@@ -4423,6 +4464,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成からの推定。当該表記全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-ch52-fangcun-short-form"
+        "text": "方寸"
+        "relation": "short_form"
+        "reading":
+          "kana": "ほうすん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-term-087"
     "kind": "place"
     "headword": "斜月三星洞"
@@ -10420,6 +10470,15 @@
           "source_ids":
             - "xy-ch51-primary-1498138"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+      - "id": "xy-ch52-nezha-club-short-form"
+        "text": "杵"
+        "relation": "short_form"
+        "reading":
+          "kana": "しょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-entry-0386"
     "kind": "object"
     "headword": "刺繍の毬"
@@ -12185,6 +12244,15 @@
           "source_ids":
             - "xy-ch41-primary-1500598"
           "reason_ja": "漢字の日本語音と語構成から採った読み。表記全体の仮名読みを示す資料は未確認。中国語本文の出現だけを日本語読みの実証としない。"
+      - "id": "xy-ch52-li-laojun-form"
+        "text": "李老君"
+        "relation": "title"
+        "reading":
+          "kana": "りろうくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-entry-0476"
     "kind": "person"
     "headword": "燃灯古仏"
@@ -15629,6 +15697,24 @@
           "source_ids":
             - "xy-reference-158"
           "reason_ja": "金鋼琢の金鋼と套の音読みを組み合わせた推定。底本の鋼の字を保持する。"
+      - "id": "xy-ch52-diamond-loop-form"
+        "text": "金剛套"
+        "relation": "variant"
+        "reading":
+          "kana": "こんごうとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch52-diamond-ring-form"
+        "text": "金剛琢"
+        "relation": "variant"
+        "reading":
+          "kana": "こんごうたく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-entry-0644"
     "kind": "place"
     "headword": "函谷関"
@@ -15647,6 +15733,15 @@
           "source_ids":
             - "xy-reference-178"
           "reason_ja": "参照資料がこの表記の日本語読みを明示している。"
+      - "id": "xy-ch52-hangu-short-form"
+        "text": "函関"
+        "relation": "short_form"
+        "reading":
+          "kana": "かんかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-entry-0645"
     "kind": "term"
     "headword": "胡人"
@@ -16872,6 +16967,15 @@
           "source_ids":
             - "xy-reference-213"
           "reason_ja": "資料に日本語の読みが明記されていることを確認。"
+      - "id": "xy-ch52-vulture-peak-form"
+        "text": "鷲嶺"
+        "relation": "alias"
+        "reading":
+          "kana": "じゅれい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch52-jurei-reading"
+          "reason_ja": "デジタル大辞泉の鶴林の用例で、鷲嶺にじゅれいの読みを確認。物語の霊山との同定は本文による。"
   - "id": "xy-entry-0710"
     "kind": "term"
     "headword": "勝境"
@@ -17870,6 +17974,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-ch52-heaven-pacification-feast-form"
+        "text": "安天会"
+        "relation": "short_form"
+        "reading":
+          "kana": "あんてんかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-entry-0763"
     "kind": "object"
     "headword": "瑟"
@@ -19370,6 +19483,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な音訓・仏教語の読みを組み合わせて推定。今回、この表記全体の読みを明記した資料は確認できていない。"
+      - "id": "xy-ch52-four-continents-form"
+        "text": "四部洲"
+        "relation": "short_form"
+        "reading":
+          "kana": "しぶしゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-entry-0844"
     "kind": "concept"
     "headword": "衆生"
@@ -49207,6 +49329,15 @@
           "source_ids":
             - "xy-ch50-primary-1498134"
           "reason_ja": "構成漢字の日本語字音から採用した読み。語全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch52-jindou-short-form"
+        "text": "金兜"
+        "relation": "short_form"
+        "reading":
+          "kana": "きんとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-ch50-jindou-cave"
     "kind": "place"
     "headword": "金兜洞"
@@ -49254,6 +49385,15 @@
           "source_ids":
             - "xy-ch50-primary-1498134"
           "reason_ja": "構成漢字の日本語字音から採用した読み。語全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch52-blue-ox-form"
+        "text": "青牛"
+        "relation": "alias"
+        "reading":
+          "kana": "せいぎゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
   - "id": "xy-ch50-dian-gang-spear"
     "kind": "object"
     "headword": "点鋼槍"
@@ -49999,3 +50139,245 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "姓の漢字「劉」の通常の日本語字音から「りゅう」と推定。この雷霆官将の日本語読みを直接示す資料は未確認。他の同姓人物との同一性を読みの根拠にはしない。"
+  - "id": "xy-ch52-first-watch"
+    "kind": "concept"
+    "headword": "一更"
+    "definition_ja": "夜を五つに分ける更の、最初の時間帯。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch52-primary-1498137"
+      "reason_ja": "原文の就寝と夜番の場面、および更の一般的な語義による説明。季節差のある時刻を現代の固定時刻へ換算しない。"
+    "forms":
+      - "id": "xy-ch52-first-watch-form"
+        "text": "一更"
+        "relation": "preferred"
+        "reading":
+          "kana": "いっこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch52-qiu-lun"
+    "kind": "object"
+    "headword": "裘輪"
+    "definition_ja": "球と輪の二種の武器をまとめた呼び方と考えられる表記。裘の字には解釈の余地がある。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch52-primary-1498137"
+      "reason_ja": "奪われた六武器の列挙と、繡球・火輪の記載を照合。底本の裘を球へ無断で訂正しない。"
+    "forms":
+      - "id": "xy-ch52-qiu-lun-form"
+        "text": "裘輪"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうりん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch52-xietu"
+    "kind": "concept"
+    "headword": "謝土"
+    "definition_ja": "建築や修築の完成後に行う、土地の神への祭り。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch52-moe-xietu"
+      "reason_ja": "教育部辞典は建築物の完成後に行う祭典と説明する。"
+    "forms":
+      - "id": "xy-ch52-xietu-form"
+        "text": "謝土"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゃど"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch52-primordial-qi"
+    "kind": "concept"
+    "headword": "元気"
+    "definition_ja": "天地や万物の根源となる気。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch52-primary-1498137"
+      "reason_ja": "天地を流通するという詩の文脈で、日常語の健康・活力ではなく根源の気と解した。"
+    "forms":
+      - "id": "xy-ch52-primordial-qi-form"
+        "text": "元気"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch52-upasaka-short"
+    "kind": "title"
+    "headword": "優婆"
+    "definition_ja": "優婆塞・優婆夷などの在家仏教信者を指す略称と解される語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch52-jodo-upasaka"
+        - "xy-ch52-primary-1498137"
+      "reason_ja": "浄土宗辞典で優婆塞・優婆夷の語義を確認。本文の略形が性別や特定人物のどれを指すかは確定しない。"
+    "forms":
+      - "id": "xy-ch52-upasaka-short-form"
+        "text": "優婆"
+        "relation": "preferred"
+        "reading":
+          "kana": "うば"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch52-great-awakening"
+    "kind": "title"
+    "headword": "大覚"
+    "definition_ja": "完全な悟り、またその悟りを得た仏をたたえる呼び名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch52-daikaku-reading"
+      "reason_ja": "デジタル大辞泉と精選版日本国語大辞典の仏教語の説明を確認。特定人物の名とは区別。"
+    "forms":
+      - "id": "xy-ch52-great-awakening-form"
+        "text": "大覚"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいかく"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch52-daikaku-reading"
+          "reason_ja": "両辞典の大覚の見出しにだいかくと明記。人名のだいがくと区別する。"
+  - "id": "xy-ch52-golden-elixir-sand"
+    "kind": "object"
+    "headword": "金丹砂"
+    "definition_ja": "仏の宝蔵にある、粒から大量の砂を放ち相手を埋める宝。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch52-primary-1498137"
+      "reason_ja": "本文の語形と指示対象、具体的な行動・説明から確認した範囲。別の人物・来歴へ同定しない。"
+    "forms":
+      - "id": "xy-ch52-golden-elixir-sand-form"
+        "text": "金丹砂"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんたんしゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch52-dragon-subduing-arhat"
+    "kind": "person"
+    "headword": "降龍"
+    "definition_ja": "如来に仕える羅漢の一人。竜を降すという呼称を持つ。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch52-primary-1498137"
+        - "xy-ch52-nmh-arhat"
+      "reason_ja": "本文で羅漢の一人として登場。国立歴史博物館の資料でも羅漢名を確認するが、資料にある他の人物との同定は本文へ持ち込まない。"
+    "forms":
+      - "id": "xy-ch52-dragon-subduing-arhat-form"
+        "text": "降龍"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごうりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch52-tiger-subduing-arhat"
+    "kind": "person"
+    "headword": "伏虎"
+    "definition_ja": "如来に仕える羅漢の一人。虎を伏せるという呼称を持つ。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch52-primary-1498137"
+        - "xy-ch52-nmh-arhat"
+      "reason_ja": "本文で羅漢の一人として登場。国立歴史博物館の資料でも羅漢名を確認するが、資料にある他の人物との同定は本文へ持ち込まない。"
+    "forms":
+      - "id": "xy-ch52-tiger-subduing-arhat-form"
+        "text": "伏虎"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふっこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch52-seven-return-fire-pill"
+    "kind": "object"
+    "headword": "七返火丹"
+    "definition_ja": "太上老君が煉る丹薬の名。一粒を食べると七日眠るという。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch52-primary-1498137"
+      "reason_ja": "本文の語形と指示対象、具体的な行動・説明から確認した範囲。別の人物・来歴へ同定しない。"
+    "forms":
+      - "id": "xy-ch52-seven-return-fire-pill-form"
+        "text": "七返火丹"
+        "relation": "preferred"
+        "reading":
+          "kana": "しちへんかたん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch52-cattle-nose-ring"
+    "kind": "object"
+    "headword": "拘児"
+    "definition_ja": "牛の鼻に通して、つなぐための輪。別名を賓郎という。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch52-primary-1498137"
+        - "xy-ch52-moe-binlang"
+      "reason_ja": "原文の輪を牛鼻へ通す動作と拘兒・賓郎の同義説明、および教育部辞典「賓郎」第二義を照合。作者は検索表示のみだったが、独立レビューで辞典本文の「牛鼻上套的圈子」と本回引用を直接確認した。"
+    "forms":
+      - "id": "xy-ch52-cattle-nose-ring-form"
+        "text": "拘児"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+      - "id": "xy-ch52-binlang-form"
+        "text": "賓郎"
+        "relation": "alias"
+        "reading":
+          "kana": "ひんろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch52-primary-1498137"
+          "reason_ja": "構成漢字の日本語音訓に基づく読み。語形全体の仮名を示す信頼できる日本語資料は確認できていない。"
+  - "id": "xy-ch52-hu-peoples"
+    "kind": "term"
+    "headword": "胡"
+    "definition_ja": "古く中国から北方・西方の諸民族を呼んだ語。人名の姓や尉遅恭の別称とは区別する。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch52-hu-ethnic-reading"
+        - "xy-ch52-primary-1498137"
+      "reason_ja": "デジタル大辞泉の民族呼称の項目と、本回の函関を越えて教化した対象という文脈を照合。特定の民族一つには限定しない。"
+    "forms":
+      - "id": "xy-ch52-hu-peoples-form"
+        "text": "胡"
+        "relation": "preferred"
+        "reading":
+          "kana": "こ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch52-hu-ethnic-reading"
+          "reason_ja": "独立レビューで辞典本文の民族呼称「こ【胡】」の見出しと語義を直接確認した。人名の読み資料を流用しない。"
