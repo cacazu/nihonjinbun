@@ -2182,6 +2182,34 @@
     "title": "客家委員会研究報告「翹鞋」9頁、雲頭履の形制（検索本文）"
     "url": "https://cloud.hakka.gov.tw/Attachment/1/2619585271.pdf"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch45-primary-1455594"
+    "title": "中文維基文庫 西遊記 第045回（取得現行ページのフッター識別版1455594）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第045回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch45-moe-bugang"
+    "title": "教育部 重編國語辭典修訂本「步罡踏斗」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=22225&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch45-daoinfo-luotian"
+    "title": "道教文化中心資料庫「羅天大醮」"
+    "url": "https://zh.daoinfo.org/index.php?title=羅天大醮&variant=zh-hant"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch45-luliang-chronicle"
+    "title": "馮世雍『呂梁洪志』（識典古籍）"
+    "url": "https://www.shidianguji.com/zh/book/HY7072/chapter/1l352vrsxrwu8"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch45-waseda-thunder-deity"
+    "title": "早稲田大学図書館「九天応元雷声普化天尊」書誌と日本語ローマ字読み"
+    "url": "https://www.wul.waseda.ac.jp/kotenseki/html/ni16/ni16_02272_0206/index.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch45-thunder-study"
+    "title": "呉海寧『琉球における「天」の観念の基礎研究』第2章、九天応元雷声普化天尊"
+    "url": "https://www.okigei.ac.jp/PhD/wp-content/uploads/2017/01/c1effe6e958f9af11c1852393bfc0e45.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch45-moe-nanshan-longevity"
+    "title": "教育部《成語典》「壽比南山」"
+    "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1424&la=0&webMd=1"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -6518,6 +6546,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の慣用音・構成字の音訓による推定。調査でこの表記全体の確実な日本語読みを明記する資料は未確認。"
+      - "id": "xy-ch45-four-sea-dragons-form"
+        "text": "四海竜王"
+        "relation": "alias"
+        "reading":
+          "kana": "しかいりゅうおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
   - "id": "xy-entry-0204"
     "kind": "place"
     "headword": "泰山"
@@ -34520,6 +34557,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を明記する資料による独立確認は未了。"
+      - "id": "xy-ch45-miduo-heart-scripture-form"
+        "text": "密多心経"
+        "relation": "variant"
+        "reading":
+          "kana": "みったしんぎょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "既存の般若心経の経名と、底本の密多心經という表記を対応させる。密多を蜜多へ本文補訂せず、日本語仏典での蜜多の音「みった」を援用した読みで、当該異表記の直接確認は未了。"
   - "id": "xy-entry-1652"
     "kind": "concept"
     "headword": "般若波羅蜜多"
@@ -45796,6 +45842,15 @@
           "source_ids":
             - "xy-ch44-primary-1455593"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch45-jiao-form"
+        "text": "醮"
+        "relation": "short_form"
+        "reading":
+          "kana": "しょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
   - "id": "xy-ch44-three-pure-hall"
     "kind": "place"
     "headword": "三清殿"
@@ -46007,3 +46062,526 @@
           "source_ids":
             - "xy-ch44-primary-1455593"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の仮名読みを直接示す資料は未確認で、中国語本文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch45-bugang"
+    "kind": "concept"
+    "headword": "歩罡"
+    "definition_ja": "北斗の星の配置などをなぞって歩き、神霊を招く道教の儀礼的な歩法。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch45-moe-bugang"
+      "reason_ja": "教育部辞典は步罡踏斗の略称を步罡とし、斗宿や九宮八卦の図に従う歩みと説明する。日本語読みは別途推定。"
+    "forms":
+      - "id": "xy-ch45-bugang-form"
+        "text": "歩罡"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-huangting-daode-scripture"
+    "kind": "title"
+    "headword": "黄庭道徳真経"
+    "definition_ja": "道士の読経に用いられる経典の呼び名。黄庭経と道徳経の名を連ねたものとも読めるが、独立した一経典への同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-huangting-daode-scripture-form"
+        "text": "黄庭道徳真経"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうていどうとくしんきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-luotian-ritual"
+    "kind": "concept"
+    "headword": "羅天大醮"
+    "definition_ja": "数多くの高位の神々を招いて営む、大規模な道教の祭祀。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch45-daoinfo-luotian"
+      "reason_ja": "道教文化中心資料庫が、招く神の数と位、儀式の日数・規模の大きさを説明する。日本語読みは構成字の音による。"
+    "forms":
+      - "id": "xy-ch45-luotian-ritual-form"
+        "text": "羅天大醮"
+        "relation": "preferred"
+        "reading":
+          "kana": "らてんたいしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-luliang-rapids"
+    "kind": "place"
+    "headword": "呂梁洪"
+    "definition_ja": "徐州の東南にある、岩にさえぎられた激しい川の流れで知られた難所。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch45-luliang-chronicle"
+      "reason_ja": "明代の呂梁洪志の冒頭に、徐州東南五十里、石が水を束ねて驚湍迅波をなすとある。"
+    "forms":
+      - "id": "xy-ch45-luliang-rapids-form"
+        "text": "呂梁洪"
+        "relation": "preferred"
+        "reading":
+          "kana": "りょりょうこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-thunder-directorate"
+    "kind": "concept"
+    "headword": "雷霆都司"
+    "definition_ja": "雷を統率する天上の役所・機構をいう名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-thunder-directorate-form"
+        "text": "雷霆都司"
+        "relation": "preferred"
+        "reading":
+          "kana": "らいていとし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-five-thunder-envoys"
+    "kind": "person"
+    "headword": "五方蛮雷使者"
+    "definition_ja": "五方に配された雷の使者たちの総称。祭壇の杭にその名が記される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-five-thunder-envoys-form"
+        "text": "五方蛮雷使者"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごほうばんらいししゃ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-wind-grandmother"
+    "kind": "person"
+    "headword": "風婆婆"
+    "definition_ja": "袋を用いて風を起こしたり収めたりする女神。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-wind-grandmother-form"
+        "text": "風婆婆"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふうばば"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-xun-erl"
+    "kind": "person"
+    "headword": "巽二郎"
+    "definition_ja": "風婆婆とともに袋を操作し、風をつかさどる神。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-xun-erl-form"
+        "text": "巽二郎"
+        "relation": "preferred"
+        "reading":
+          "kana": "そんじろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-cloud-pushing-boy"
+    "kind": "person"
+    "headword": "推雲童子"
+    "definition_ja": "雲を押し広げたり収めたりする神。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-cloud-pushing-boy-form"
+        "text": "推雲童子"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいうんどうじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-mist-spreading-lord"
+    "kind": "person"
+    "headword": "布霧郎君"
+    "definition_ja": "霧を広げたり収めたりする神。底本の佈霧郎君を日本語字体で表す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-mist-spreading-lord-form"
+        "text": "布霧郎君"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふむろうくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-deng-heavenly-lord"
+    "kind": "person"
+    "headword": "鄧天君"
+    "definition_ja": "雷公・電母を率いて、雨を降らせる命を執行する天上の神。南天門を守る同姓の天兵との同一性は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-deng-heavenly-lord-form"
+        "text": "鄧天君"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうてんくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+      - "id": "xy-ch45-deng-short-form"
+        "text": "鄧"
+        "relation": "short_form"
+        "reading":
+          "kana": "とう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-five-thunder-method"
+    "kind": "concept"
+    "headword": "五雷法"
+    "definition_ja": "雷神たちを動かし、雷や雨を起こすための道教の術。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-five-thunder-method-form"
+        "text": "五雷法"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごらいほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-thunder-universal-deity"
+    "kind": "person"
+    "headword": "九天応元雷声普化天尊"
+    "definition_ja": "雷に関わる神々を統率する道教の高位神。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+        - "xy-ch45-thunder-study"
+      "reason_ja": "本文では玉帝の命がその府へ下り、雷公らが派遣される。研究資料にも雷神の中心的神格とある。"
+    "forms":
+      - "id": "xy-ch45-thunder-universal-deity-form"
+        "text": "九天応元雷声普化天尊"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうてんおうげんらいせいふけてんそん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch45-waseda-thunder-deity"
+          "reason_ja": "早稲田大学図書館書誌がkyūten ōgen raisei fuke tensonと日本語読みを明記するため、その読みを仮名にした。"
+  - "id": "xy-ch45-martial-hall"
+    "kind": "place"
+    "headword": "演武庁"
+    "definition_ja": "宮中で武術を訓練する堂・広間。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-martial-hall-form"
+        "text": "演武庁"
+        "relation": "preferred"
+        "reading":
+          "kana": "えんぶちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-literary-pavilion"
+    "kind": "place"
+    "headword": "会文閣"
+    "definition_ja": "文官や文人が集う宮中の建物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-literary-pavilion-form"
+        "text": "会文閣"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいぶんかく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-brocade-cloud-hall"
+    "kind": "place"
+    "headword": "錦雲堂"
+    "definition_ja": "宮殿の堂の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-brocade-cloud-hall-form"
+        "text": "錦雲堂"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんうんどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-six-streets-markets"
+    "kind": "term"
+    "headword": "六街三市"
+    "definition_ja": "多くの通りと市場、転じて都市のあちこちをいう詩語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-six-streets-markets-form"
+        "text": "六街三市"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろくがいさんし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-iron-fork-mountain"
+    "kind": "place"
+    "headword": "鉄叉山"
+    "definition_ja": "雷の威力を描く詩に現れる山の名。特定の実在地との同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-iron-fork-mountain-form"
+        "text": "鉄叉山"
+        "relation": "preferred"
+        "reading":
+          "kana": "てっさざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-eastern-ocean"
+    "kind": "place"
+    "headword": "東洋海"
+    "definition_ja": "東方の海をいう名。具体的な近代の海域名称へは同定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-eastern-ocean-form"
+        "text": "東洋海"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうようかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-chechi-city"
+    "kind": "place"
+    "headword": "車遅城"
+    "definition_ja": "車遅国の国王が住み、雨乞いの勝負が行われる都城。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-chechi-city-form"
+        "text": "車遅城"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゃちじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-ultimate-truth"
+    "kind": "concept"
+    "headword": "至真"
+    "definition_ja": "真理や道を極めた、最高の境地。またその境地に達した者。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-ultimate-truth-form"
+        "text": "至真"
+        "relation": "preferred"
+        "reading":
+          "kana": "ししん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-grand-preceptor"
+    "kind": "title"
+    "headword": "太師"
+    "definition_ja": "君主に仕える高位の官の称号。朝廷で重要な助言をする。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-grand-preceptor-form"
+        "text": "太師"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-treasure-tripod"
+    "kind": "object"
+    "headword": "宝鼎"
+    "definition_ja": "美しく貴重な鼎。儀礼の場では香をたく器として用いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-treasure-tripod-form"
+        "text": "宝鼎"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-travel-pass"
+    "kind": "object"
+    "headword": "通行文牒"
+    "definition_ja": "旅人の身分や旅行の許可を証明する文書。通過する国で認証を受ける。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-travel-pass-form"
+        "text": "通行文牒"
+        "relation": "preferred"
+        "reading":
+          "kana": "つうこうもんちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-spirit-dispatch"
+    "kind": "term"
+    "headword": "檄文"
+    "definition_ja": "命令や告知を記す文書。道教の儀礼では焼いて神々へ届ける書状をいう。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-spirit-dispatch-form"
+        "text": "檄文"
+        "relation": "preferred"
+        "reading":
+          "kana": "げきぶん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-dipper-office"
+    "kind": "place"
+    "headword": "斗府"
+    "definition_ja": "星々に関わる天上の府。北斗の府と解されるが、厳密な神々の所属は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "本文の語形、役割、文脈に基づく説明。明示されない正体・経歴・後の展開は補わない。"
+    "forms":
+      - "id": "xy-ch45-dipper-office-form"
+        "text": "斗府"
+        "relation": "preferred"
+        "reading":
+          "kana": "とふ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch45-primary-1455594"
+          "reason_ja": "漢字の日本語音と語構成に基づく読み。検索でこの固有表記全体の日本語仮名読みを示す確かな資料は確認できず、中国語本文の出現を読みの実証とはしない。"
+  - "id": "xy-ch45-nanshan-longevity"
+    "kind": "place"
+    "headword": "南山"
+    "definition_ja": "『詩経』「天保」に由来する祝寿表現で、長く保たれる寿命のたとえとなる山。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch45-moe-nanshan-longevity"
+        - "xy-ch45-primary-1455594"
+      "reason_ja": "教育部の公式成語典は壽比南山を長寿を祝う表現とし、典拠を詩経の天保とする。既存の虎のすむ南山との同一性は原文で示されないため、祝寿用法を別項目にした。日本語読みの確度は別に保持する。"
+    "forms":
+      - "id": "xy-ch45-nanshan-longevity-form"
+        "text": "南山"
+        "relation": "preferred"
+        "reading":
+          "kana": "なんざん"
+          "status": "estimated"
+          "source_ids": []
+          "reason_ja": "語形「南山」の構成字の日本語音訓・語構成から「なんざん」と推定。この語形の日本語読みを直接明記する資料は未確認。"
