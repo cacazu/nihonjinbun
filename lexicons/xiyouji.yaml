@@ -2210,6 +2210,46 @@
     "title": "教育部《成語典》「壽比南山」"
     "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=1424&la=0&webMd=1"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch46-primary-1557967"
+    "title": "中文維基文庫 西遊記 第046回（取得現行ページのフッター版1557967）"
+    "url": "https://zh.wikisource.org/wiki/西遊記/第046回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch46-moe-cloak"
+    "title": "教育部 重編國語辭典修訂本「一口鐘」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=149302&q=1&word=一一○"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch46-moe-dumpling"
+    "title": "教育部 重編國語辭典修訂本「匾食」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=18845&q=1&word=北平方言。"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch46-medical-six-yang"
+    "title": "王肯堂『證治準繩』巻十二 頭汗（中國哲學書電子化計劃）"
+    "url": "https://ctext.org/wiki.pl?chapter=802205&if=gb"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch46-moe-paper-string"
+    "title": "教育部 重編國語辭典修訂本「一陌」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=148923&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch46-moe-paper-horse"
+    "title": "教育部 重編國語辭典修訂本「紙馬」"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=114043&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch46-moe-memorial"
+    "title": "教育部 重編國語辭典修訂本「忌辰」所引『琵琶記』"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=88627&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch46-enmyo-temple"
+    "title": "国泰寺 用語集「円明」（検索取得本文）"
+    "url": "https://kokutaiji.com/用語集/"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch46-nirvana-hongwanji"
+    "title": "浄土真宗本願寺派 仏教語豆事典「涅槃」"
+    "url": "https://www.hongwanji.or.jp/mioshie/words/001445.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch46-moe-cup"
+    "title": "教育部 國語辭典簡編本「盞」"
+    "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=29842&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -3348,6 +3388,15 @@
           "source_ids":
             - "xy-ch37-primary-1808441"
           "reason_ja": "構成漢字の日本語音訓と名称・語義から採用した読み。語形全体の日本語仮名を明記する独立資料は未確認。"
+      - "id": "xy-ch46-horse-groom-short-form"
+        "text": "馬温"
+        "relation": "short_form"
+        "reading":
+          "kana": "ばおん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -46585,3 +46634,480 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "語形「南山」の構成字の日本語音訓・語構成から「なんざん」と推定。この語形の日本語読みを直接明記する資料は未確認。"
+  - "id": "xy-ch46-concealed-travel"
+    "kind": "term"
+    "headword": "遁法"
+    "definition_ja": "姿を隠して移動する法術。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "原文の語形と、語り手・発話者が示す意味の範囲から解した。未開示の正体や後の展開を含めない。"
+    "forms":
+      - "id": "xy-ch46-concealed-travel-form"
+        "text": "遁法"
+        "relation": "preferred"
+        "reading":
+          "kana": "とんぽう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-cloud-ladder-contest"
+    "kind": "term"
+    "headword": "雲梯顕聖"
+    "definition_ja": "雲に乗って高く積んだ机の上へ登り、動かず座り続けて神通力を競う法の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "原文の語形と、語り手・発話者が示す意味の範囲から解した。未開示の正体や後の展開を含めない。"
+    "forms":
+      - "id": "xy-ch46-cloud-ladder-contest-form"
+        "text": "雲梯顕聖"
+        "relation": "preferred"
+        "reading":
+          "kana": "うんていけんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-wenhua-hall"
+    "kind": "place"
+    "headword": "文華殿"
+    "definition_ja": "国王の宮殿内にある殿舎の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "原文の語形と、語り手・発話者が示す意味の範囲から解した。未開示の正体や後の展開を含めない。"
+    "forms":
+      - "id": "xy-ch46-wenhua-hall-form"
+        "text": "文華殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶんかでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-hidden-object-contest"
+    "kind": "term"
+    "headword": "隔板猜枚"
+    "definition_ja": "板の向こうに隠された物を言い当てる勝負。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "原文の語形と、語り手・発話者が示す意味の範囲から解した。未開示の正体や後の展開を含めない。"
+    "forms":
+      - "id": "xy-ch46-hidden-object-contest-form"
+        "text": "隔板猜枚"
+        "relation": "preferred"
+        "reading":
+          "kana": "かくばんさいばい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-landscape-jacket"
+    "kind": "object"
+    "headword": "山河社稷襖"
+    "definition_ja": "山河や国土にちなむ名を持つ、宮中の上衣。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "原文は乾坤地理裙と一組の宮衣とする。模様の細部・素材は名だけから確定せず、上衣であることを襖の語義と文脈から解した。"
+    "forms":
+      - "id": "xy-ch46-landscape-jacket-form"
+        "text": "山河社稷襖"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんがしゃしょくおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-cosmos-skirt"
+    "kind": "object"
+    "headword": "乾坤地理裙"
+    "definition_ja": "天地や地理にちなむ名を持つ、宮中の裳。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "原文は山河社稷襖と一組の宮衣とする。天地山川の図柄を持つ可能性はあるが、本文が説明しない細部を断定しない。"
+    "forms":
+      - "id": "xy-ch46-cosmos-skirt-form"
+        "text": "乾坤地理裙"
+        "relation": "preferred"
+        "reading":
+          "kana": "けんこんちりくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-bell-cloak"
+    "kind": "object"
+    "headword": "一口鐘"
+    "definition_ja": "上が狭く裾が広がり、鐘の形をした、脇に切れ目のない長い外衣。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch46-moe-cloak"
+      "reason_ja": "教育部辞典の第二義が、上窄下寬・沒有開衩の長袍とし、斗篷ともいうと説明する。日本語音は別に推定とする。"
+    "forms":
+      - "id": "xy-ch46-bell-cloak-form"
+        "text": "一口鐘"
+        "relation": "preferred"
+        "reading":
+          "kana": "いっこうしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-three-officials-scripture"
+    "kind": "object"
+    "headword": "三官経"
+    "definition_ja": "天・地・水の三官を尊ぶ道教経典の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "本文で道童が唱えられる道教経典の一つとして挙げる。具体的な経典の正式題名までは同定しない。"
+    "forms":
+      - "id": "xy-ch46-three-officials-scripture-form"
+        "text": "三官経"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんかんきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-disaster-scripture"
+    "kind": "object"
+    "headword": "消災経"
+    "definition_ja": "災厄を消す祈りに用いる経典の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "道童が唱えられる道教側の経として挙げる。仏教にもある同名・類題の経典へ無断同定せず、正式題名は未確定。"
+    "forms":
+      - "id": "xy-ch46-disaster-scripture-form"
+        "text": "消災経"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうさいきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-dumpling"
+    "kind": "object"
+    "headword": "匾食"
+    "definition_ja": "ワンタンや水餃子など、粉の皮で具を包んだ食品。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch46-moe-dumpling"
+      "reason_ja": "教育部辞典が餛飩・水餃・鍋貼の類とし、元明の戯曲の例を挙げる。日本語の餃子一種に狭めない。"
+    "forms":
+      - "id": "xy-ch46-dumpling-form"
+        "text": "匾食"
+        "relation": "preferred"
+        "reading":
+          "kana": "へんしょく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-six-yang"
+    "kind": "concept"
+    "headword": "六陽"
+    "definition_ja": "伝統的な身体観で、手足を通り頭へ至る六つの陽の経脈。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch46-medical-six-yang"
+      "reason_ja": "明代医書『證治準繩』巻十二が「首者六陽之所會也」とする。現代医学の事実ではなく、古い身体観として扱う。"
+    "forms":
+      - "id": "xy-ch46-six-yang-form"
+        "text": "六陽"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろくよう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-imperial-guards"
+    "kind": "title"
+    "headword": "羽林軍"
+    "definition_ja": "天子や宮廷を守護する近衛の軍。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "原文の語形と、語り手・発話者が示す意味の範囲から解した。未開示の正体や後の展開を含めない。"
+    "forms":
+      - "id": "xy-ch46-imperial-guards-form"
+        "text": "羽林軍"
+        "relation": "preferred"
+        "reading":
+          "kana": "うりんぐん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-execution-supervisor"
+    "kind": "title"
+    "headword": "監斬官"
+    "definition_ja": "斬刑などの処刑を監督し、その結果を報告する役人。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "原文の語形と、語り手・発話者が示す意味の範囲から解した。未開示の正体や後の展開を含めない。"
+    "forms":
+      - "id": "xy-ch46-execution-supervisor-form"
+        "text": "監斬官"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんざんかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-chechi-imperial-water"
+    "kind": "place"
+    "headword": "御水河"
+    "definition_ja": "車遅国の王宮近くにある川の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "この国の処刑場から犬が頭をくわえて走る先として現れる。宝象国や烏鶏国の同名の川と同じ場所だとは断定しない。"
+    "forms":
+      - "id": "xy-ch46-chechi-imperial-water-form"
+        "text": "御水河"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょすいが"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-civil-bath"
+    "kind": "term"
+    "headword": "文洗"
+    "definition_ja": "衣を脱がずに油鍋へ入り、衣に油を付けずに出るという勝負の方法。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "原文の語形と、語り手・発話者が示す意味の範囲から解した。未開示の正体や後の展開を含めない。"
+    "forms":
+      - "id": "xy-ch46-civil-bath-form"
+        "text": "文洗"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶんせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-martial-bath"
+    "kind": "term"
+    "headword": "武洗"
+    "definition_ja": "衣を脱いで油鍋へ入り、宙返りや逆立ちをして自由に浴びるという勝負の方法。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "原文の語形と、語り手・発話者が示す意味の範囲から解した。未開示の正体や後の展開を含めない。"
+    "forms":
+      - "id": "xy-ch46-martial-bath-form"
+        "text": "武洗"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-jujube-nail"
+    "kind": "object"
+    "headword": "棗核釘"
+    "definition_ja": "棗の種のような形の小さな釘。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "原文の複合語と、網の目から抜け落ちる小さな釘だという説明から採る。後世の武侠作品にある武器設定を付加しない。"
+    "forms":
+      - "id": "xy-ch46-jujube-nail-form"
+        "text": "棗核釘"
+        "relation": "preferred"
+        "reading":
+          "kana": "そうかくてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-memorial-rice"
+    "kind": "object"
+    "headword": "漿水飯"
+    "definition_ja": "死者への供え物とする、水や米の汁を伴った飯。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+        - "xy-ch46-moe-memorial"
+      "reason_ja": "本回の供奠と『琵琶記』の「奠些涼漿水飯」を照合した。配合や発酵の有無など具体的な調理法は確定しない。"
+    "forms":
+      - "id": "xy-ch46-memorial-rice-form"
+        "text": "漿水飯"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうすいはん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-cup-unit"
+    "kind": "term"
+    "headword": "盞"
+    "definition_ja": "小さな杯や碗、またそれ一杯分を数える単位。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch46-moe-cup"
+      "reason_ja": "教育部辞典が小さく浅い杯と、飲料を数える単位の意味を示す。日本語読みは構成字の音による推定。"
+    "forms":
+      - "id": "xy-ch46-cup-unit-form"
+        "text": "盞"
+        "relation": "preferred"
+        "reading":
+          "kana": "さん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-paper-string"
+    "kind": "term"
+    "headword": "陌"
+    "definition_ja": "紙銭を一つづりにまとめて数える単位。もと百の借字。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch46-moe-paper-string"
+      "reason_ja": "教育部辞典「一陌」が紙銭一つづり、およそ百文をいうとする。ここでは三枚の紙馬と併記されるため、百枚と断定的に換算しない。"
+    "forms":
+      - "id": "xy-ch46-paper-string-form"
+        "text": "陌"
+        "relation": "preferred"
+        "reading":
+          "kana": "はく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-cold-dragon"
+    "kind": "object"
+    "headword": "冷竜"
+    "definition_ja": "油鍋を冷やすために術者が煉り作った竜。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "敖順が術者自身の煉ったものと説明する。敖順本人の化身や一般的な竜王と同一視しない。"
+    "forms":
+      - "id": "xy-ch46-cold-dragon-form"
+        "text": "冷竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-little-mao-mountain"
+    "kind": "place"
+    "headword": "小茅山"
+    "definition_ja": "羊力大仙が大開剝の術を学んだと敖順が説明する山の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "本文の説明に限定し、実在のどの茅山に当たるか、既存の別の山と同一かは確定しない。"
+    "forms":
+      - "id": "xy-ch46-little-mao-mountain-form"
+        "text": "小茅山"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうぼうざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-great-opening-method"
+    "kind": "term"
+    "headword": "大開剝"
+    "definition_ja": "羊力大仙が学んだと説明される、身体を傷つける競技や油鍋に関わる術の呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+      "reason_ja": "敖順の説明の指示範囲には曖昧さがあり、斬首・剖腹・油鍋全体か特定の一術かは確定しない。原字の剝を保持する。"
+    "forms":
+      - "id": "xy-ch46-great-opening-method-form"
+        "text": "大開剝"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいかいはく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch46-primary-1557967"
+          "reason_ja": "構成漢字の日本語音訓と語構成に基づく読み。語全体の日本語仮名を直接示す資料は未確認。中国語での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch46-round-clarity"
+    "kind": "concept"
+    "headword": "円明"
+    "definition_ja": "完全で曇りのない明らかさ。ここでは心や悟りの清明さをいう。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch46-primary-1557967"
+        - "xy-ch46-enmyo-temple"
+      "reason_ja": "国泰寺用語集は理知円満の境地に達して明らかに悟ることと説明。本作の圓明混は濁る・曇る意と解するが留保を残す。直接openはtimeout、検索取得本文を確認。"
+    "forms":
+      - "id": "xy-ch46-round-clarity-form"
+        "text": "円明"
+        "relation": "preferred"
+        "reading":
+          "kana": "えんみょう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch46-enmyo-temple"
+          "reason_ja": "国泰寺用語集の検索取得本文に円明えんみょうと見出しが明記されている。"
+  - "id": "xy-ch46-nirvana"
+    "kind": "concept"
+    "headword": "涅槃"
+    "definition_ja": "迷いや煩悩を離れた、仏教の悟りの境地。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch46-nirvana-hongwanji"
+      "reason_ja": "本願寺派の用語解説が煩悩の火が消え、束縛から解脱した境地と説明する。"
+    "forms":
+      - "id": "xy-ch46-nirvana-form"
+        "text": "涅槃"
+        "relation": "preferred"
+        "reading":
+          "kana": "ねはん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch46-nirvana-hongwanji"
+          "reason_ja": "用語解説の見出しに涅槃（ねはん）と明記。"
