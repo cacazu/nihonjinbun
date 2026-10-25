@@ -1,0 +1,3111 @@
+"schema_version": "2.0"
+"work_id": "xiyouji-chapter-064-zh-ja"
+"metadata":
+  "title_ja": "西遊記 第六十四回"
+  "title_original": "西遊記 第六十四回 荊棘嶺悟能努力　木仙庵三藏談詩"
+  "original_languages":
+  - "zh-Hant"
+  "target_language": "ja"
+  "contributors":
+  - "id": "traditional-author"
+    "name_ja": "呉承恩（伝）"
+    "name_original": "吳承恩"
+    "roles":
+    - "author"
+  - "id": "ai-translator"
+    "name_ja": "ChatGPT（AIによる新訳）"
+    "name_original": null
+    "roles":
+    - "translator"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "『西遊記』第六十四回 日本語新訳（AI生成）。原文は中文維基文庫「西遊記/第064回」固定版oldid=1455613。"
+    "note_ja": "電子翻刻の帰属表示と継承条件を保持するためCC BY-SA 4.0を明示。原典は公有と区別する。AIによる対訳と確認であり、専門家の独立校訂は未実施。"
+  "genres":
+  - "中国古典文学"
+  - "神魔小説"
+  - "物語"
+  "reader_notes_ja":
+  - "第六十四回の回題、全散文・会話・二十六の独立韻文区画、碑文と説法中の韻文、結語を67対訳単位へ収録した。"
+  - "中文維基文庫の固定URL oldid=1455613を取得し、版表示2018年5月12日07:10を確認した。表示の秒・タイムゾーンは未確認。"
+  - "日本語はAIによる新訳。著者の全文自己照合に加え、別担当AIが全原文・訳文・注・読み・段落末語釈を独立レビューした。専門家の校訂と実ブラウザの表示確認は未実施。"
+  - "通常の地の文・話者名は悟空・三蔵・八戒・沙悟浄。老人と仙女の名乗り、各人物の素性を説明する順序を原文に従わせ、注と語釈からも後の展開を先取りしない。"
+"sources":
+- "id": "wikisource-xiyou-ch64-1455613"
+  "role": "primary"
+  "title": "西遊記/第064回"
+  "languages":
+  - "zh-Hant"
+  "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+  "edition": "中文維基文庫、固定版oldid=1455613（版表示2018-05-12 07:10、秒とタイムゾーン未確認）。固定URL取得成功。"
+  "contributor_ids":
+  - "traditional-author"
+  "work_rights":
+    "status": "public_domain"
+    "note_ja": "明代成立の古典本文。伝統的には呉承恩作とされるが著者帰属には議論がある。"
+  "transcription_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "evidence_url": "https://zh.wikisource.org/wiki/Wikisource:Copyrights"
+    "attribution": "中文維基文庫「西遊記/第064回」の寄稿者（固定版oldid=1455613）。"
+  "description_ja": "第六十四回の回題・全散文・会話・韻文・結語。固定版の全308表示行を保存。"
+  "local_path": "translations/wu-chengen/verification/xiyouji-chapter-064-source-1455613-zh-hant.txt"
+  "sha256": "4eab3c2828878eaed1ff8362bafba36b3fc073efeec68aa4b845746686ae9d0e"
+"scope":
+  "included":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "description_ja": "第六十四回の回題から結語まで全体。"
+    "section_ids":
+    - "chapter-64"
+  "excluded":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "description_ja": "著者欄、前後回案内、サイトナビゲーション、空行とフッター。各行の扱いをマニフェストに記録。"
+  "known_gaps":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "segment_ids":
+    - "xy-ch64-002"
+    "description_ja": "衣服は各二套、鞋襪は各二双、絛環は各二条という底本の数量を保持した。絛環は紐と環を備えた服飾品と解して二組としたが、具体的な形状は確定しない。見送りの二十里・さらに二十里・僧の五六十里は、語りのまま並べ、起点を補って合計しない。 本文欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "segment_ids":
+    - "xy-ch64-003"
+    "description_ja": "底本の『又道』には主語がない。直後の『教我如何乘馬』という騎乗者の言葉と問答の流れから、三蔵の再発言として訳した。原文には主語を補わない。 本文欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "segment_ids":
+    - "xy-ch64-008"
+    "description_ja": "第一句の次は底本で『落目』。『落日』などに無断補訂せず、目を落とす・目をやる意に解して訳したが、字の異同と句の構文は留保する。青い佩玉は竹の揺れる様子を宝飾の音や色に重ねた詩語。 本文欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "segment_ids":
+    - "xy-ch64-017"
+    "description_ja": "七賢と六逸は、文人の集いの典故を並べた表現と解した。前者は竹林の七賢、後者は李白ら竹溪の六逸を念頭に置く。第四十八回の画題『七賢』は人物内訳が未確定であるため、同じ表記だけでその辞書項目に統合しない。詩中で交友を語ることと、歴史上その交友が実在したと語り手が保証することを区別する。 本文欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "segment_ids":
+    - "xy-ch64-022"
+    "description_ja": "三蔵の長い発言には底本で開始鉤括弧がなく、末尾の『記悟』の後に閉じ鉤括弧がある。発話動詞と応答に基づいて範囲を定めた。『發揮象罔、踏碎涅槃』は道家と仏教の語を交える逆説を保持した。『婆娑』はここでは世界を照らす文脈から娑婆と解して訳し、原文の字は保存する。後半の韻を含む句も散文の要約に置き換えない。 本文欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "segment_ids":
+    - "xy-ch64-045"
+    "description_ja": "頂針は末字を次の句の頭へ受け継ぐ技法。この連句は春→無→図→夫と続き、最後の夫は文を起こす語として『夫れ』とした。側葉・横柯・憲烏の句は、葉の向き、建築用材、御史台の烏を重ねるが、細部の構文には留保がある。前の『西山堅節老』『南國沒心夫』も、特定の名を原文に補わず、節義を守る老人と心を空にした男の像を保つ。 本文欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "segment_ids":
+    - "xy-ch64-051"
+    "description_ja": "四絶堂の具体的な所在地と、この詩が踏まえる全典故は未確定。『石齒』も石の歯という比喩を保持し、石臼や歯形の岸など一つの物へ断定しない。鳥の王は詩的な呼称として訳した。 本文欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "segment_ids":
+    - "xy-ch64-055"
+    "description_ja": "淇澳は詩経の淇奧に通じる地名表現、渭川は竹の多い地として伝わる。湘娥の涙には、舜の妃の涙が竹に斑点を残した故事が重なる。底本は『班籜』で、字を斑へ直さず、意味をまだらの竹皮とした。子猷は竹を愛する王子猷の故事として読む。『不染』という否定と、霜の葉の色が変わらぬことをそのまま保つ。 本文欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "segment_ids":
+    - "xy-ch64-058"
+    "description_ja": "『煙裡火』『五色梅』『錦拖泥』は衣装の色・柄・裾を飾る詩語と解したが、染織上の細かな規格は確定しない。『天臺女』は天台で仙女に会う故事の比喩。妲姫は底本の姫の字を残し、よく知られる妲己へ本文を無断置換しない。登場した仙女自身の名や正体を、この比喩から決めつけない。 本文欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "segment_ids":
+    - "xy-ch64-066"
+    "description_ja": "杏仙の詩について、底本は『漢武王』であり、漢武帝への無断補訂はしない。天蓋との具体的な典故は未確定。孔子の壇と董仙の林は、杏壇および董奉の杏林の伝承に関連づけて読める。孫楚については、祭介子推の文に醴酪を供えることを確認できるが、この詩の香りとの結び付きの細部は留保する。ここでの『私』は詩の一人称の表現であり、語り手による正体の断定に変えない。 本文欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "segment_ids":
+    - "xy-ch64-063"
+    "description_ja": "『低行之言』は身を低くした言葉と解したが、細部の語義は留保する。鬼使の姐姐は親しい女性への呼称として『姉さん』とし、血縁を確定しない。蜜合色は古い色名で、淡黄白から微黄に赤みを帯びる色まで説明が揺れるため、本文には色名を保持した。僧も結婚もできなくするという脅し、三蔵の拒否と涙、身体を寄せる誘いを弱めていない。 本文欠落ではなく解釈・校訂上の留保。"
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "segment_ids":
+    - "xy-ch64-066"
+    "description_ja": "悟空がここで初めて、各人物と樹木の対応を説明する。中国語の檜と柏は日本語のヒノキ・カシワと同じ種とは限らないため原表記を残す。前半は丹楓・楓樹、伐倒の列挙は楓楊となるが、無断統一しない。『兩顆臘梅、丹桂』の二株がどこまでかかるかは曖昧で、先の各二株へ数を補って直さない。根の鮮血と全伐倒を保持し、三蔵の制止と悟空の将来への懸念を、それぞれの発言として区別した。 本文欠落ではなく解釈・校訂上の留保。"
+"sections":
+- "id": "chapter-64"
+  "parent_id": null
+  "kind": "chapter"
+  "heading_segment_ids":
+  - "xy-ch64-001"
+"segments":
+- "id": "xy-ch64-001"
+  "section_id": "chapter-64"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    第六十四回
+    荊棘嶺悟能努力　木仙庵三藏談詩
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 117
+    "line_end": 118
+  "translation_ja": |-
+    第六十四回
+    荊棘嶺で悟能が力を尽くし、木仙庵で三蔵が詩を語る
+  "translation_status": "reviewed"
+- "id": "xy-ch64-002"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "話表祭賽國王謝了唐三藏師徒獲寶擒怪之恩，所贈金玉，分毫不受。卻命當駕官照依四位常穿的衣服各做兩套，鞋襪各做兩雙，絛環各做兩條，外備乾糧烘炒，倒換了通關文牒，大排鑾駕，並文武多官、滿城百姓、伏龍寺僧人，大吹大打，送四眾出城。約有二十里，先辭了國王。眾人又送二十里辭回。伏龍寺僧人送有五六十里不回：有的要同上西天，有的要修行伏侍。行者見都不肯回去，遂弄個手段，把毫毛拔了三四十根，吹口仙氣，叫：「變！」都變作斑斕猛虎，攔住前路，哮吼踴躍。眾僧方懼，不敢前進。大聖才引師父策馬而去，少時間去得遠了。眾僧人放聲大哭，都喊：「有恩有義的老爺！我等無緣，不肯度我們也。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 122
+    "line_end": 122
+  "translation_ja": |-
+    さて、祭賽国（さいさいこく）の王は、宝を取り戻し妖怪を捕らえた三蔵（さんぞう）たち師弟の恩に感謝したが、贈ろうとした金や玉は、わずかばかりも受け取ってもらえなかった。そこで側仕えの役人に命じ、四人がふだん着ているものに合わせて衣服を二着ずつ、靴と靴下を二足ずつ、飾り紐と環を二組ずつ作らせた。そのほかに保存食や炒り物を用意し、通行証の書き換えをすませ、盛大に車駕を整えた。文武の役人たち、町じゅうの民、伏竜寺（ふくりゅうじ）の僧たちとともに、管や太鼓をにぎやかに鳴らして、四人を城外まで送った。二十里ほどでまず国王と別れ、ほかの人々はさらに二十里送ってから別れて帰った。伏竜寺の僧たちは五、六十里も送って、なお帰ろうとしない。一緒に西天（さいてん）へ行きたい者も、修行して身の回りの世話をしたい者もいた。悟空（ごくう）は誰も帰ろうとしないのを見て、一つ手を使った。細い毛を三、四十本抜き、仙気を吹きつけて、悟空「変われ！」と叫ぶ。毛はみな縞模様の猛虎になり、行く手を遮って吠え、跳びはねた。ようやく僧たちは怖がり、それ以上進めなくなった。そこで悟空は三蔵に馬を進めさせて連れていき、ほどなく遠くまで離れた。僧たちは声を放って泣き、みな叫んだ。
+    僧たち「情け深く、義理を知るお方さま！　私たちにはご縁がなく、お救いくださらないのですね！」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-003"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "且不說眾僧啼哭。卻說師徒四眾走上大路，卻才收回毫毛，一直西去。正是時序易遷，又早冬殘春至，不暖不寒，正好逍遙行路。忽見一條長嶺，嶺頂上是路。三藏勒馬觀看，那嶺上荊棘丫叉，薜蘿牽繞，雖是有道路的痕跡，左右卻都是荊刺棘針。唐僧叫：「徒弟，這路怎生走得？」行者道：「怎麼走不得？」又道：「徒弟啊，路痕在下，荊棘在上，只除是蛇蟲伏地而遊，方可去了；若你們走，腰也難伸，教我如何乘馬？」八戒道：「不打緊，等我使出鈀柴手來，把釘鈀分開荊棘，莫說騎馬，就擡轎也包你過去。」三藏道：「你雖有力，長遠難熬，卻不知有多少遠近，怎生費得這許多精神？」行者道：「不須商量，等我去看看。」將身一縱，跳在半空看時，一望無際。真個是："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 123
+    "line_end": 123
+  "translation_ja": |-
+    僧たちの泣き声は、さておこう。師弟四人は大きな道に出ると、悟空がようやく毛を取り戻し、ひたすら西へ向かった。季節の移るのは早いもので、もう冬が尽き、春が来た。暖かすぎも寒すぎもせず、のびのび旅をするにはうってつけである。ふと、長い尾根が現れ、その頂に道が通っていた。三蔵が手綱を引いて眺めると、尾根には茨が枝を交差させ、つる草が絡みついている。道の跡こそあるが、左右は茨の棘だらけだった。
+    三蔵「弟子たちよ、この道をどうやって通るのです。」
+    悟空「どうして通れないのですか。」
+    三蔵「道の跡は下にあり、茨がその上を覆っています。蛇や虫のように地を這って進むのでなければ、通れません。お前たちでさえ、歩けば腰も伸ばせないのに、どうして私が馬に乗れましょう。」
+    八戒（はっかい）「大丈夫さ。俺が柴をかき集める手並みを見せて、まぐわで茨をかき分けてやる。馬どころか、輿に乗っていたって、ちゃんと通してみせるよ。」
+    三蔵「力はあっても、長く続けばこらえきれません。どれほどの道のりかも分からないのに、そんなに力を使い続けられますか。」
+    悟空「相談していても始まりません。私が見てきましょう。」
+    身を躍らせて空中へ跳び上がり、見渡すと、果てしなく続いている。まことに、こういう眺めだった。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-004"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "匝地遠天，凝煙帶雨。夾道柔茵亂，漫山翠蓋張。密密搓搓初發葉，攀攀扯扯正芬芳。遙望不知何所盡，近觀一似綠雲茫。蒙蒙茸茸，鬱鬱蒼蒼。風聲飄索索，日影映煌煌。那中間有松有柏還有竹，多梅多柳更多桑。薜蘿纏古樹，藤葛繞垂楊。盤團似架，聯絡如床。有處花開真佈錦，無端卉發遠生香。為人誰不遭荊棘，那見西方荊棘長？"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 125
+    "line_end": 125
+  "translation_ja": |-
+    地の果てから遠い空まで、霞が凝り、雨を帯びる。
+    道の両脇には柔らかな草が乱れ、山じゅうに翠の天蓋が張る。
+    びっしり重なって若葉が芽吹き、引き合い絡み合って香り立つ。
+    遠く望めば、どこまで続くか知れず、近く見れば、緑の雲がぼうっと広がるよう。
+    こんもり、もじゃもじゃと、うっそう青々と茂る。
+    風の音はさらさら流れ、日の光はきらきら映る。
+    その中には松も柏（はく）も竹もあり、梅が多く、柳も多く、桑はなお多い。
+    つる草は古木にまとい、葛は枝垂れ柳を巻く。
+    ぐるぐる絡んで棚のよう、連なりつながって寝台のよう。
+    ところどころ咲く花は、まさに錦を敷き、あちこち開く草花が遠くまで香る。
+    人として生きて、茨の苦難に出会わぬ者があろうか。だが、西方の茨がこれほど長いとは、誰が見ただろう。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-005"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "行者看夠多時，將雲頭按下道：「師父，這去處遠哩。」三藏問：「有多少遠？」行者道：「一望無際，似有千里之遙。」三藏大驚道：「怎生是好？」沙僧笑道：「師父莫愁，我們也學燒荒的，放上一把火，燒絕了荊棘過去。」八戒道：「莫亂談。燒荒的須在十來月，草衰木枯，方好引火。如今正是蕃盛之時，怎麼燒得？」行者道：「就是燒得，也怕人了。」三藏道：「這般怎生得度？」八戒笑道：「要得度，還依我。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 126
+    "line_end": 126
+  "translation_ja": |-
+    悟空は長いこと十分に眺めてから、雲を降ろした。
+    悟空「お師匠さま、ここは長く続いていますよ。」
+    三蔵「どれほどです。」
+    悟空「見渡しても果てがなく、千里もありそうです。」
+    三蔵はひどく驚いた。
+    三蔵「どうすればよいのです。」
+    沙悟浄（さごじょう）は笑った。
+    沙悟浄「お師匠さま、ご心配には及びません。野焼きにならって火を放ち、茨をすっかり焼き払って通ればよいのです。」
+    八戒「いい加減なことを言うな。野焼きは十月ごろ、草が衰え、木が枯れてからでなけりゃ火をつけられない。今は盛んに茂る時季だ。どうして燃えるものか。」
+    悟空「たとえ燃えたとしても、恐ろしいことになるぞ。」
+    三蔵「それでは、どうして越えればよいのです。」
+    八戒は笑った。
+    八戒「越えたけりゃ、やっぱり俺に任せるんだな。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-006"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "好獃子，捻個訣，念個咒語，把腰躬一躬，叫：「長！」就長了有二十丈高下的身軀。把釘鈀幌一幌，教：「變！」就變了有三十丈長短的鈀柄。拽開步，雙手使鈀，將荊棘左右摟開：「請師父跟我來也。」三藏見了甚喜，即策馬緊隨後面；沙僧挑著行李；行者也使鐵棒撥開。這一日未曾住手，行有百十里。將次天晚，見有一塊空闊之處。當路上有一通石碣，上有三個大字，乃「荊棘嶺」；下有兩行十四個小字，乃「荊棘蓬攀八百里，古來有路少人行」。八戒見了，笑道：「等我老豬與他添上兩句：『自今八戒能開破，直透西方路盡平。』」三藏欣然下馬道：「徒弟啊，累了你也。我們就在此住過了今宵，待明日天光再走。」八戒道：「師父莫住，趁此天色晴明，我等有興，連夜摟開路走他娘。」那長老只得相從。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 128
+    "line_end": 128
+  "translation_ja": |-
+    あっぱれ、このとぼけ者。指で印を結び、呪文を唱え、腰をかがめて、八戒「伸びろ！」と叫ぶと、二十丈ほどの大きな体になった。まぐわを振り動かして、八戒「変われ！」と命じれば、柄の長さは三十丈ほどになる。大股を開き、両手でまぐわを振るって、茨を左右へかき分けた。
+    八戒「お師匠さま、俺についておいで！」
+    三蔵は大喜びで馬を進め、すぐ後ろについた。沙悟浄は荷を担ぎ、悟空も鉄棒で茨をかき分ける。この日は手を休めず、百里あまり進んだ。日が暮れかけたころ、開けた場所が見えた。道に石碑が一基立ち、大きく「荊棘嶺（けいきょくれい）」の三文字、その下には小さく二行、十四文字が刻まれている。
+    「茨と藪が絡んで八百里、
+    古来道あれど行く人は少ない。」
+    八戒はそれを見て笑った。
+    八戒「俺がもう二句、つけ足してやろう。『今より八戒が切り拓けば、
+    西方へまっすぐ、道はことごとく平らになる。』」
+    三蔵は喜んで馬を下りた。
+    三蔵「弟子よ、苦労をかけました。今夜はここに泊まり、明日、明るくなってから進みましょう。」
+    八戒「お師匠さま、休むのはよそう。こんなに空が晴れて、俺たちもやる気があるんだ。夜通しかき分けて、くそっ、どんどん進もうぜ。」
+    三蔵も従うほかなかった。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-007"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "八戒上前努力，師徒們人不住手，馬不停蹄，又行了一日一夜，卻又天色晚矣。那前面蓬蓬結結，又聞得風敲竹韻，颯颯松聲。卻好又有一段空地，中間乃是一座古廟。廟門之外，有松柏凝青，桃梅鬥麗。三藏下馬，與三個徒弟同看。只見："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 129
+    "line_end": 129
+  "translation_ja": "八戒は先頭に立って力を尽くし、師弟たちは手を止めず、馬も足を止めず、さらに一昼夜進むうち、また夜になった。前方は藪がこんもり絡み合い、風が竹を打つ響きと、松のざわめきが聞こえてくる。折よく、また空き地があり、その真ん中に古い廟が建っていた。門の外では松と柏が青く茂り、桃と梅が美しさを競っている。三蔵は馬を下り、三人の弟子とともに眺めた。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-008"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    巖前古廟枕寒流，落目荒煙鎖廢丘。
+    白鶴叢中深歲月，綠蕪臺下自春秋。
+    竹搖青珮疑聞語，鳥弄餘音似訴愁。
+    雞犬不通人跡少，閑花野蔓遶牆頭。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 131
+    "line_end": 134
+  "translation_ja": |-
+    崖の前の古い廟は冷たい流れに寄り添い、目をやれば、荒れた霞が廃れた丘を閉ざしている。
+    白鶴の群れる中には深い歳月があり、緑の草に埋もれた台の下にも、春秋はおのずと巡る。
+    竹は青い佩玉を揺らすようで、言葉が聞こえるかと思われ、鳥の余韻は、愁いを訴えるよう。
+    鶏や犬の声も通わず、人の跡もまれで、ひっそりした花と野のつるが塀の頂を取り巻く。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-009"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "行者看了道：「此地少吉多凶，不宜久坐。」沙僧道：「師兄差疑了。似這杳無人煙之處，又無個怪獸妖禽，怕他怎的？」說不了，忽見一陣陰風，廟門後轉出一個老者，頭戴角巾，身穿淡服，手持拐杖，足踏芒鞋。後跟著一個青臉獠牙、紅鬚赤身鬼使，頭頂著一盤麵餅。跪下道：「大聖，小神乃荊棘嶺土地。知大聖到此，無以接待，特備蒸餅一盤，奉上老師父，各請一餐。此地八百里，更無人家，聊吃些兒充饑。」八戒歡喜，上前舒手，就欲取餅。不知行者端詳已久，喝一聲：「且住，這廝不是好人。休得無禮，你是甚麼土地，來誑老孫？看棍。」那老者見他打來，將身一轉，化作一陣陰風，呼的一聲，把個長老攝將起去，飄飄蕩蕩，不知攝去何所。慌得那大聖沒跟尋處，八戒、沙僧俱相顧失色，白馬亦只自驚吟。三兄弟連馬四口，恍恍忽忽，遠望高張，並無一毫下落，前後找尋不題。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 135
+    "line_end": 135
+  "translation_ja": |-
+    悟空は眺めて言った。
+    悟空「ここは吉が少なく凶が多い。長居はしない方がいい。」
+    沙悟浄「兄さん、疑いすぎでしょう。こんな人けのない所で、怪しい獣も妖しい鳥もいないのに、何を恐れるのです。」
+    言い終わらぬうちに、ひとしきり陰気な風が吹き、廟の門の後ろから老人が出てきた。角巾をかぶり、地味な服を着て、杖を手にし、草鞋を履いている。後ろには、青い顔に牙を生やし、赤い髭を蓄えた、赤裸の鬼の使いが一人従い、頭の上に小麦の蒸し餅を載せた皿を頂いていた。老人はひざまずいて言った。
+    老人「大聖（たいせい）、私は荊棘嶺の土地神（とちがみ）でございます。お越しと知りながら、おもてなしする物もなく、せめて一皿の蒸し餅をご用意して、お師匠さまに差し上げます。皆さま、どうぞ一食お召し上がりください。この八百里には人家がございません。少しでも空腹をしのいでいただければ。」
+    八戒は喜んで前へ出て手を伸ばし、餅を取ろうとした。だが悟空は、とっくに相手をじっと見極めていた。
+    悟空「待て。こいつはまともな奴じゃない。ふざけるな、何の土地神だ。この俺をだましに来たのか。棒を食らえ！」
+    老人は打ちかかってくるのを見ると、くるりと体を回して陰気な風となり、ひゅうっと三蔵をさらい上げた。ふわふわと漂って、どこへさらっていったのかも分からない。悟空は追う手がかりもなく慌て、八戒と沙悟浄は顔を見合わせて青ざめ、白馬まで、ただ驚いていなないた。三兄弟に馬を合わせた四つの口が、うろたえながら、遠くを見渡し首を伸ばしたが、少しの手がかりもない。前へ後ろへ捜し回る話は、ひとまず置いておく。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-010"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "卻說那老者同鬼使，把長老擡到一座煙霞石屋之前，輕輕放下，與他攜手相攙道：「聖僧休怕。我等不是歹人，乃荊棘嶺十八公是也。因風清月霽之宵，特請你來會友談詩，消遣情懷故耳。」那長老卻才定性，睜眼仔細觀看。真個是："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 137
+    "line_end": 137
+  "translation_ja": |-
+    さて、あの老人は鬼の使いとともに、三蔵を霞のたなびく石の家の前まで運ぶと、そっと下ろし、手を取って支えながら言った。
+    老人「聖僧（しょうそう）、ご心配なさるな。我々は悪人ではありません。わしは荊棘嶺の十八公（じゅうはちこう）です。風も清く、月も晴れわたった夜なので、友と集って詩を語り、心を慰めようと、特にお招きしただけなのです。」
+    三蔵はようやく心を落ち着かせ、目を開けてよく眺めた。まことに、こういう所だった。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-011"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    漠漠煙雲去所，清清仙境人家。
+    正好潔身修煉，堪宜種竹栽花。
+    每見翠巖來鶴，時聞青沼鳴蛙。
+    更賽天臺丹灶，仍期華岳明霞。
+    說甚耕雲釣月，此間隱逸堪誇。
+    坐久幽懷如海，朦朧月上窗紗。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 138
+    "line_end": 143
+  "translation_ja": |-
+    果てなく霞や雲の行き交う所、清らかな仙境の住まい。
+    身を清めて修行するのにまさしくよく、竹を植え花を育てるにもふさわしい。
+    翠の崖に鶴が来るのをいつも見、青い池に蛙が鳴くのを時折聞く。
+    天台（てんだい）の丹を練る炉にもまさり、華岳（かがく）の明るい霞とも見まがう。
+    雲を耕し月を釣るなど、何ほどのことか。ここでの隠逸こそ誇るに足る。
+    長く座れば、奥深い思いは海のように広がり、ぼんやりした月が窓の紗に昇る。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-012"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "三藏正自點看，漸覺月明星朗，只聽得人語相談。都道：「十八公請得聖僧來也。」長老擡頭觀看，乃是三個老者：前一個霜姿丰采，第二個綠鬢婆娑，第三個虛心黛色。各各面貌、衣服俱不相同，都來與三藏作禮。長老還了禮，道：「弟子有何德行，敢勞列位仙翁下愛？」十八公笑道：「一向聞知聖僧有道，等待多時，今幸一見。如果不吝珠玉，寬坐敘懷，足見禪機真派。」三藏躬身道：「敢問仙翁尊號？」十八公道：「霜姿者號孤直公，綠鬢者號凌空子，虛心者號拂雲叟，老拙號曰勁節。」三藏道：「四翁尊壽幾何？」孤直公道："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 145
+    "line_end": 145
+  "translation_ja": |-
+    三蔵があちらこちらを眺めるうち、月はいよいよ明るく、星も晴れやかになった。すると、人の話し合う声がした。
+    声の主たち「十八公が聖僧をお招きしたぞ。」
+    三蔵が顔を上げると、三人の老人だった。最初の者は霜のような姿に風格があり、二番目は青々とした鬢がふさふさしている。三番目は中身が空ろで、黛のような色をしていた。顔かたちも衣服もそれぞれ違い、みな三蔵に礼をした。三蔵も礼を返した。
+    三蔵「私に何の徳があって、仙翁の皆さまのお情けをいただけるのでしょう。」
+    十八公は笑った。
+    十八公「かねて聖僧が道を得られたと聞き、長くお待ちしておりました。今日は幸いにお会いできた。玉のようなお言葉を惜しまず、ゆっくりお座りになって思いをお語りくだされば、禅の真の流れに触れられましょう。」
+    三蔵は身をかがめた。
+    三蔵「皆さまのお号を、お尋ねしてもよろしいでしょうか。」
+    十八公「霜のような姿の方は孤直公（こちょくこう）、青い鬢の方は凌空子（りょうくうし）、中身が空ろな方は拂雲叟（ふつうんそう）といいます。老いぼれのわしの号は、勁節（けいせつ）です。」
+    三蔵「四人の翁は、おいくつでいらっしゃいますか。」
+    孤直公はこう答えた。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-013"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    「我歲今經千歲古，撐天葉茂四時春。
+    香枝鬱鬱龍蛇狀，碎影重重霜雪身。
+    自幼堅剛能耐老，從今正直喜修真。
+    烏棲鳳宿非凡輩，落落森森遠俗塵。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 147
+    "line_end": 150
+  "translation_ja": |-
+    孤直公「わしの齢は、今や千歳の昔に及ぶ。天を支える葉は茂り、四季いつも春。
+    香る枝はうっそうと竜や蛇のように曲がり、細かな影を幾重にも落とす、霜雪のようなこの身。
+    幼いころから堅く強く、老いにも耐え、今もまっすぐに、真の道を修めることを喜ぶ。
+    烏が棲み、鳳凰が宿る、ただ者ではない。高くそびえて森々と、俗世の塵から遠く離れる。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-014"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "凌空子笑道："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 152
+    "line_end": 152
+  "translation_ja": "凌空子は笑って詠んだ。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-015"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    「吾年千載傲風霜，高幹靈枝力自剛。
+    夜靜有聲如雨滴，秋晴蔭影似雲張。
+    盤根已得長生訣，受命尤宜不老方。
+    留鶴化龍非俗輩，蒼蒼爽爽近仙鄉。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 153
+    "line_end": 156
+  "translation_ja": |-
+    凌空子「わしは千年、風霜にも屈せず、高い幹と霊妙な枝は、おのずから力強い。
+    夜が静まれば、雨滴のような音を立て、秋晴れには、雲のように木陰を広げる。
+    絡み合った根にはすでに長生の秘訣を得て、授かった命には不老の法がことによくかなう。
+    鶴をとどめ、竜とも化す、ただ者ではない。青々と清々しく、仙境に近い。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-016"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "拂雲叟笑道："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 158
+    "line_end": 158
+  "translation_ja": "拂雲叟は笑って詠んだ。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-017"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    「歲寒虛度有千秋，老景瀟然清更幽。
+    不雜囂塵終冷淡，飽經霜雪自風流。
+    七賢作侶同談道，六逸為朋共唱酬。
+    戛玉敲金非瑣瑣，天然情性與仙遊。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 160
+    "line_end": 163
+  "translation_ja": |-
+    拂雲叟「寒い歳月を、むなしく千の秋も過ごし、老いた姿はさっぱりとして、清く、なお奥深い。
+    騒がしい俗塵に交わらず、終始淡々として、霜雪を存分に経て、おのずと風流。
+    七賢（しちけん）を仲間に道を語り合い、六逸（ろくいつ）を友に詩を唱えて応じ合う。
+    玉を鳴らし金を打つ音も、ありふれたものではない。生まれつきの性情のまま、仙人と遊ぶ。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-018"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "勁節十八公笑道："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 165
+    "line_end": 165
+  "translation_ja": "勁節の号を持つ十八公は、笑って詠んだ。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-019"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    「我亦千年約有餘，蒼然貞秀自如如。
+    堪憐雨露生成力，借得乾坤造化機。
+    萬壑風煙惟我盛，四時灑落讓吾疏。
+    蓋張翠影留仙客，博弈調琴講道書。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 167
+    "line_end": 170
+  "translation_ja": |-
+    十八公「わしもおよそ千年余り、青々と、貞く秀でて、おのずと変わらぬまま。
+    雨露が生み育てる力は、ありがたいもの。天地の造化のはたらきを借り受ける。
+    万の谷の風と霞の中で、わしこそ盛んに茂り、四季を通じたさっぱりした風姿も、わしの疎らな枝ぶりには譲る。
+    天蓋のように翠の影を広げて仙客をとどめ、碁を打ち、琴を調べ、道の書を語り合う。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-020"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "三藏稱謝道：「四位仙翁，俱享高壽，但勁節翁又千歲餘矣。高年得道，丰采清奇，得非漢時之『四皓』乎？」四老道：「承過獎，承過獎。吾等非四皓，乃深山之『四操』也。敢問聖僧，妙齡幾何？」三藏合掌躬身答曰："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 172
+    "line_end": 172
+  "translation_ja": |-
+    三蔵は感謝して言った。
+    三蔵「四人の仙翁は皆さまご長寿ですが、勁節翁はさらに千歳を越えておられるのですね。ご高齢で道を得られ、清らかで並外れたお姿です。まさか、漢の時代の四皓（しこう）ではありませんか。」
+    四人の老人「お褒めにあずかり、恐縮です、恐縮です。我々は四皓ではなく、深山の四操（しそう）です。失礼ですが、聖僧はおいくつでいらっしゃいますか。」
+    三蔵は合掌し、身をかがめて答えた。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-021"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    「四十年前出母胎，未產之時命已災。
+    逃生落水隨波滾，幸遇金山脫本骸。
+    養性看經無懈怠，誠心拜佛敢俄捱。
+    今蒙皇上差西去，路遇仙翁下愛來。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 174
+    "line_end": 177
+  "translation_ja": |-
+    三蔵「四十年前に母の胎を出ましたが、生まれる前から命は災いに遭っていました。
+    生き延びようと水に落ち、波に流され、幸い金山（きんざん）で救われて、この身の命をつなぎました。
+    性を養い、経を読んで怠ることなく、まごころで仏を拝み、一時も遅れようとしませんでした。
+    今、帝の命を受けて西へ向かい、その道中で仙翁のお情けにあずかったのです。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-022"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "四老俱稱道：「聖僧自出娘胎，即從佛教，果然是從小修行，真中正有道之上僧也。我等幸接臺顏，敢求大教。望以禪法指教一二，足慰生平。」長老聞言，慨然不懼，即對眾言曰：禪者，靜也；法者，度也。靜中之度，非悟不成。悟者，洗心滌慮，脫俗離塵是也。夫人身難得，中土難生，正法難遇：全此三者，幸莫大焉。至德妙道，渺漠希夷，六根六識，遂可掃除。菩提者，不死不生，無餘無欠，空色包羅，聖凡俱遣。訪真了元始鉗鎚，悟實了牟尼手段。發揮象罔，踏碎涅槃。必須覺中覺了悟中悟，一點靈光全保護。放開烈焰照婆娑，法界縱橫獨顯露。至幽微，更守固，玄關口說誰人度？我本元修大覺禪，有緣有志方記悟。」四老側耳受了，無邊喜悅。一個個稽首皈依，躬身拜謝道：「聖僧乃禪機之悟本也。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 178
+    "line_end": 178
+  "translation_ja": |-
+    四人の老人はそろって讃えた。
+    四人の老人「聖僧は母の胎を出てから仏の教えに従い、まさしく幼いころから修行してこられた。真に正しく道を得た、高徳の僧でいらっしゃる。我々は幸いお目にかかれたので、ぜひ尊い教えを頂きたい。禅の法を一つ二つお授けくだされば、生涯の願いが慰められます。」
+    それを聞いた三蔵は、心を奮い立たせ、恐れもなく皆に語った。
+    三蔵「禅とは静けさ、法とは渡すことです。静けさのうちに渡るには、悟りがなくては成りません。悟りとは、心を洗い、思いわずらいを清め、俗を脱し、塵を離れることです。そもそも人の身は得がたく、中土には生まれがたく、正しい法には出会いがたい。この三つをすべて備えるのは、これ以上ない幸いです。至高の徳と玄妙な道は、はるかで、見えず聞こえず、そこでは六根（ろっこん）と六識（ろくしき）を、すっかり払い除けられます。菩提（ぼだい）とは、死なず生まれず、余りも欠けもなく、空と色を包み込み、聖と凡をともに払い去るものです。真を訪ねて元始（げんし）の鍛錬を究め、実を悟って牟尼（むに）の手立てを知る。象罔（しょうもう）を発揮し、涅槃（ねはん）を踏み砕くのです。
+    覚りのうちにさらに覚り、悟りのうちにさらに悟り、一点の霊光を全うして守らねばならない。
+    激しい炎を放って娑婆（しゃば）を照らせば、法界（ほっかい）を縦横にただひとり、明らかに現れる。
+    きわめて幽かで微妙な境地に達しても、なお堅く守らねばならない。玄関（げんかん）の奥義を口で説くだけで、誰が渡れよう。
+    私はもとより大覚の禅を修める者。縁と志があってこそ、心に留めて悟れるのです。」
+    四人の老人は耳を傾けて教えを受け、限りなく喜んだ。一人ずつ頭を下げて帰依し、身をかがめて礼を述べた。
+    四人の老人「聖僧こそ、禅の機微の根本を悟られた方です。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-023"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "拂雲叟道：「禪雖靜，法雖度，須要性定心誠。縱為大覺真仙，終坐無生之道。我等之玄，又大不同。」三藏云：「道乃非常，體用合一，如何不同？」拂雲叟笑云：「我等生來堅實，體用比爾不同。感天地以生身，蒙雨露而滋色。笑傲風霜，消磨日月。一葉不凋，千枝節操。似這話不叩沖虛，你執持梵語。道也者，本安中國，反來求證西方，空費了草鞋，不知尋個甚麼？石獅子剜了心肝，野狐涎灌徹骨髓。忘本參禪，妄求佛果，都似我荊棘嶺葛藤謎語，蘿蓏渾言。此般君子，怎生接引？這等規模，如何印授？必須要檢點見前面目，靜中自有生涯。沒底竹籃汲水，無根鐵樹生花。靈寶峰頭牢著腳，歸來雅會上龍華。」三藏聞言，叩頭拜謝。十八公用手攙扶，孤直公將身扯起，凌空子打個哈哈道：「拂雲之言，分明漏泄。聖僧請起，不可盡信。我等趁此月明，原不為講論修持，且自吟哦逍遙，放蕩襟懷也。」拂雲叟笑指石屋道：「若要吟哦，且入小庵一茶，何如？」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 179
+    "line_end": 179
+  "translation_ja": |-
+    拂雲叟「禅は静けさ、法は渡すことだとしても、性が定まり、心が誠実でなければなりません。たとえ大覚の真仙になろうと、結局は無生（むしょう）の道に座するだけです。我々の玄妙な道とは、大いに違います。」
+    三蔵「道は常なるものではなく、本体とはたらきは一つです。どう違うのでしょう。」
+    拂雲叟は笑った。
+    拂雲叟「我々は生まれつき堅実で、本体もはたらきも、あなた方とは違います。天地に感じて身を生じ、雨露を受けて色つやを養う。風霜を笑い飛ばし、月日を過ごす。一葉も凋まず、千の枝に節操がある。こうした話で虚にして澄んだ境地を求めず、あなたは仏の言葉に執着している。道というものは、本来中国に安んじているのに、逆に西方へ証しを求め、草鞋をむだにすり減らして、何を探すというのでしょう。石の獅子の心臓と肝をえぐり、野狐のよだれを骨髄まで注ぎ込むようなものです。本を忘れて禅を参究し、むなしく仏果を求めるとは、我が荊棘嶺の葛のつるのような謎、つる草や蔓の実のような取りとめない言葉に等しい。こういう御仁を、どう導けばよいのでしょう。こんなありさまで、どう悟りの証しを授けられましょう。まず目の前の本来の面目を点検すれば、静けさの中に、おのずと生きる道があるのです。
+    底のない竹籠で水を汲み、根のない鉄の木に花を咲かせる。
+    霊宝（れいほう）の峰の頂にしっかり足を据え、帰ってきて、風雅な集いから竜華（りゅうげ）の会へ参りましょう。」
+    三蔵は聞くと、頭を地につけて礼をした。十八公が手を差し伸べ、孤直公が体を引き起こすと、凌空子があははと笑った。
+    凌空子「拂雲（ふつうん）の言葉は、ずいぶん奥義を漏らしましたな。聖僧、どうぞお立ちください。すべて真に受けるには及びません。我々はこの明るい月に誘われたのであって、もともと修行を論じるつもりではありませんでした。ただ詩を吟じ、のびのびと胸のうちを解き放とうではありませんか。」
+    拂雲叟は笑いながら石の家を指した。
+    拂雲叟「詩を吟じるなら、まず小庵に入り、お茶でもいかがです。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-024"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "長老真個欠身，向石屋前觀看。門上有三個大字，乃「木仙庵」。遂此同入，又敘了坐次。忽見那赤身鬼使，捧一盤茯苓膏，將五盞香湯奉上。四老請唐僧先吃，三藏驚疑，不敢便吃。那四老一齊享用，三藏卻才吃了兩塊。各飲香湯收去。三藏留心偷看，只見那裡玲瓏光彩，如月下一般："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 180
+    "line_end": 180
+  "translation_ja": "三蔵は身を起こし、石の家の前を見ると、門に「木仙庵（もくせんあん）」の三文字があった。皆と入って、あらためて席順を定めた。するとあの赤裸の鬼の使いが、茯苓膏（ぶくりょうこう）の皿を捧げ、香りのよい飲み物を五椀差し出した。四人の老人は三蔵に先に食べるよう勧めたが、三蔵は怪しんで、すぐには食べられない。四人がそろって口にしたので、ようやく二切れ食べた。それぞれ香りのよい飲み物を飲むと、器が下げられた。三蔵が気をつけてそっと見ると、あたりは月の下のように、透き通った光に満ちていた。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-025"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    水自石邊流出，香從花裡飄來。
+    滿座清虛雅致，全無半點塵埃。
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 182
+    "line_end": 183
+  "translation_ja": |-
+    水は石の傍らから流れ出し、香りは花の中から漂ってくる。
+    座のすべては清らかで雅やか、塵ひとつ、まるでない。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-026"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "那長老見此仙境，以為得意，情樂懷開，十分歡喜，忍不住念了一句道："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 185
+    "line_end": 185
+  "translation_ja": "三蔵はこの仙境を見て、心にかなう所と思い、胸を開いて、すっかり楽しくなった。喜びのあまり、思わず一句を口ずさんだ。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-027"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "「禪心似月迥無塵。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 187
+    "line_end": 187
+  "translation_ja": "三蔵「禅の心は月のよう、はるかに澄んで塵ひとつない。」"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-028"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "勁節老笑而即聯道："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 189
+    "line_end": 189
+  "translation_ja": "十八公は笑い、すぐに句を継いだ。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-029"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "「詩興如天青更新。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 191
+    "line_end": 191
+  "translation_ja": "十八公「詩の興は空のよう、青く澄んで、さらに新しい。」"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-030"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "孤直公道："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 193
+    "line_end": 193
+  "translation_ja": "孤直公は言った。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-031"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "「好句漫裁摶錦繡。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 195
+    "line_end": 195
+  "translation_ja": "孤直公「佳い句を気ままに裁ち合わせ、錦や刺繡をつくり出す。」"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-032"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "凌空子道："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 197
+    "line_end": 197
+  "translation_ja": "凌空子は言った。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-033"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "「佳文不點唾奇珍。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 199
+    "line_end": 199
+  "translation_ja": "凌空子「見事な文は推敲も要らず、口から珍しい宝を吐き出す。」"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-034"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "拂雲叟道："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 201
+    "line_end": 201
+  "translation_ja": "拂雲叟は言った。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-035"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "「六朝一洗繁華盡，四始重刪雅頌分。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 203
+    "line_end": 203
+  "translation_ja": |-
+    拂雲叟「六朝（りくちょう）の華やかな飾りを、すっかり洗い去り、
+    四始（しし）をあらためて選び直して、雅（が）と頌（しょう）を分かつ。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-036"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "三藏道：「弟子一時失口，胡談幾字，誠所謂『班門弄斧』。適聞列仙之言，清新飄逸，真詩翁也。」勁節老道：「聖僧不必閑敘，出家人全始全終，既有起句，何無結句？望卒成之。」三藏道：「弟子不能，煩十八公結而成篇為妙。」勁節道：「你好心腸，你起的句，如何不肯結果？慳吝珠璣，非道理也。」三藏只得續後二句云："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 205
+    "line_end": 205
+  "translation_ja": |-
+    三蔵「私はつい口を滑らせ、でたらめを少し申しただけです。まさに班門（はんもん）で斧を振るうというもの。いま皆さまのお言葉を伺えば、清新で、世俗を離れた趣があります。真の詩の翁でいらっしゃる。」
+    十八公「聖僧、余談はそのくらいに。出家の身なら、始めたことは終わりまで全うするものです。起こしの句があるのに、結びの句がないのはなぜでしょう。最後まで仕上げてください。」
+    三蔵「私にはできません。十八公に結んでいただいて、一篇にしていただくのがよろしいでしょう。」
+    十八公「ずいぶんお優しいお心ですな。ご自分が起こした句なのに、どうして結ぼうとしないのです。珠玉を惜しむとは、道理にかないません。」
+    三蔵はやむなく、後の二句を継いだ。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-037"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "「半枕松風茶未熟，吟懷瀟灑滿腔春。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 207
+    "line_end": 207
+  "translation_ja": |-
+    三蔵「松風を半ば枕に、茶もまだ煮えぬうち、
+    詠む心はさっぱりとして、胸いっぱいに春が満ちる。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-038"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "十八公道：「好個『吟懷瀟灑滿腔春』！」孤直公道：「勁節，你深知詩味，所以只管咀嚼。何不再起一篇？」十八公亦慨然不辭道：「我卻是頂針字起："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 208
+    "line_end": 208
+  "translation_ja": |-
+    十八公「見事な『詠む心はさっぱりとして、胸いっぱいに春が満ちる』だ！」
+    孤直公「勁節、君は詩の味わいをよく知っているから、いつまでも噛みしめるのだな。もう一篇、始めてはどうだ。」
+    十八公も快く引き受けた。
+    十八公「では、わしは字を受け継ぐ頂針（ちょうしん）で始めよう。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-039"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "春不榮華冬不枯，雲來霧往只如無。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 210
+    "line_end": 210
+  "translation_ja": |-
+    十八公「春にも華やかに咲かず、冬にも枯れず、
+    雲が来ても霧が去っても、ただ何もないのと同じ、無。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-040"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "凌空子道：「我亦體前頂針二句："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 212
+    "line_end": 212
+  "translation_ja": "凌空子「わしも、前の句の字を受け継いで二句を。」"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-041"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "無風搖拽婆娑影，有客欣憐福壽圖。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 214
+    "line_end": 214
+  "translation_ja": |-
+    凌空子「無風の中にも、こんもりした影を揺らし、
+    客が来れば、喜び愛でる、めでたい福寿の図。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-042"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "拂雲叟亦頂針道："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 216
+    "line_end": 216
+  "translation_ja": "拂雲叟も、字を受け継いで詠んだ。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-043"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "「圖似西山堅節老，清如南國沒心夫。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 218
+    "line_end": 218
+  "translation_ja": |-
+    拂雲叟「図の姿は、西山（せいざん）で節を堅く守った老人のよう、
+    清らかさは、南の国の、心を空にした夫。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-044"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "孤直公亦頂針道："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 220
+    "line_end": 220
+  "translation_ja": "孤直公も、字を受け継いで詠んだ。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-045"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "「夫因側葉稱梁棟，臺為橫柯作憲烏。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 222
+    "line_end": 222
+  "translation_ja": |-
+    孤直公「夫れ、葉が横を向くゆえに梁や棟の材と称され、
+    枝が横に張るゆえに、御史台（ぎょしだい）の烏の宿り木となる。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-046"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "長老聽了，讚嘆不已道：「真是陽春白雪，浩氣沖霄，弟子不才，敢再起兩句。」孤直公道：「聖僧乃有道之士，大養之人也。不必再相聯句，請賜教全篇，庶我等亦好勉強而和。」三藏無已，只得笑吟一律曰："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 224
+    "line_end": 224
+  "translation_ja": |-
+    三蔵は聞いて、ひたすら感嘆した。
+    三蔵「まことに陽春白雪（ようしゅんはくせつ）の高雅な調べ、雄大な気が空に届くようです。不才ながら、私もさらに二句、起こしてみましょう。」
+    孤直公「聖僧は道を得られた方で、大いに徳を養われた方です。もう句を継ぎ合わず、どうか一篇まるごとお授けください。そうすれば、我々も何とか力を尽くして唱和できましょう。」
+    三蔵は断りきれず、笑みを浮かべて律詩を一首吟じた。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-047"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    「杖錫西來拜法王，願求妙典遠傳揚。
+    金芝三秀詩壇瑞，寶樹千花蓮蕊香。
+    百尺竿頭須進步，十方世界立行藏。
+    修成玉像莊嚴體，極樂門前是道場。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 226
+    "line_end": 229
+  "translation_ja": |-
+    三蔵「錫杖（しゃくじょう）をついて西へ来て、法王（ほうおう）を拝み、妙なる経典を求め、遠く広めることを願う。
+    金の霊芝（れいし）が三度秀でて詩壇の瑞祥となり、宝の樹に千の花が咲いて、蓮の蕊が香る。
+    百尺の竿の先からも、なお歩を進めねばならず、十方（じっぽう）の世界に、進退の道を立てる。
+    玉の像のように荘厳な身を修め成せば、極楽（ごくらく）の門前こそ道場となる。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-048"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "四老聽畢，俱極讚揚。十八公道：「老拙無能，大膽攙越，也勉和一首。」云："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 231
+    "line_end": 231
+  "translation_ja": |-
+    四人の老人は聞き終えると、口々に大いに讃えた。
+    十八公「老いぼれに力はありませんが、大胆にも差し出がましく、一首、何とか唱和いたしましょう。」
+    こう詠んだ。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-049"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    「勁節孤高笑木王，靈椿不似我名揚。
+    山空百丈龍蛇影，泉汲千年琥珀香。
+    解與乾坤生氣概，喜因風雨化行藏。
+    衰殘自愧無仙骨，惟有苓膏結壽場。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 233
+    "line_end": 236
+  "translation_ja": |-
+    十八公「勁い節は孤高にして、木の王を笑い、霊椿（れいちん）でさえ、わしの名の広がりには及ばない。
+    人気のない山には百丈の竜蛇の影があり、泉を汲めば、千年の琥珀の香りがする。
+    天地とともに気概を生むことを知り、風雨に従って進退を変えることを喜ぶ。
+    衰えた身に仙骨がないのを恥じるが、ただ茯苓（ぶくりょう）の膏だけは、長寿の場を結び成す。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-050"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "孤直公道：「此詩起句豪雄，聯句有力，但結句自謙太過矣。堪羨！堪羨！老拙也和一首。」云："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 237
+    "line_end": 237
+  "translation_ja": |-
+    孤直公「この詩は起こしの句が豪快で、続く句にも力があります。ただ結びの句は、謙遜が過ぎますな。うらやましい、うらやましい。老いぼれも一首、唱和しましょう。」
+    こう詠んだ。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-051"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    「霜姿常喜宿禽王，四絕堂前大器揚。
+    露重珠纓蒙翠蓋，風輕石齒碎寒香。
+    長廊夜靜吟聲細，古殿秋陰淡影藏。
+    元日迎春曾獻壽，老來寄傲在山場。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 239
+    "line_end": 242
+  "translation_ja": |-
+    孤直公「霜のような姿には、鳥の王が宿るのをいつも喜び、四絶堂（しぜつどう）の前では、大いなる器が名を揚げる。
+    重い露は珠の房となって翠の天蓋を覆い、軽い風は石の歯に、冷たい香りを砕いて散らす。
+    長い廊の静かな夜には、吟ずる声もかすかで、古い殿の秋の陰には、淡い影が隠れる。
+    元日には春を迎えて、かつて長寿を祝し、老いては山中に、世を誇る心を託す。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-052"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "凌空子笑而言曰：「好詩，好詩，真個是月脅天心。老拙何能為和？但不可空過，也須扯談幾句。」曰："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 244
+    "line_end": 244
+  "translation_ja": |-
+    凌空子は笑って言った。
+    凌空子「よい詩だ、よい詩だ。まことに月の脇腹、天の心を突くような妙句です。老いぼれにどうして唱和できましょう。ですが、何もせずに過ごすわけにもいかず、いくつか、勝手な句をひねってみます。」
+    こう詠んだ。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-053"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    「梁棟之材近帝王，太清宮外有聲揚。
+    晴軒恍若來青氣，暗壁尋常度翠香。
+    壯節凜然千古秀，深根結矣九泉藏。
+    凌雲勢蓋婆娑影，不在群芳豔麗場。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 246
+    "line_end": 249
+  "translation_ja": |-
+    凌空子「梁や棟となる材は帝王に近づき、太清宮（たいせいきゅう）の外には名声が揚がる。
+    晴れた軒には、青い気が来るかと見え、暗い壁には、いつも翠の香りが渡る。
+    強い節は凜として千古に秀で、深い根は結ばれて九泉（きゅうせん）に潜む。
+    雲をしのぐ勢いは、こんもりした影を覆い、花々が美しさを競う場には立たない。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-054"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "拂雲叟道：「三公之詩，高雅清淡，正是放開錦繡之囊也。我身無力，我腹無才，得三公之教，茅塞頓開。無已，也打油幾句，幸勿哂焉。」詩曰："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 251
+    "line_end": 251
+  "translation_ja": |-
+    拂雲叟「お三方の詩は、高雅で清淡、まさに錦繡の袋を開け放ったようです。私の身には力もなく、腹にも才はありませんが、お三方の教えを受け、塞がっていた心が、にわかに開けました。やむなく、つまらぬ句を少し作りますが、どうかお笑いくださいますな。」
+    その詩はこうだった。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-055"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    「淇澳園中樂聖王，渭川千畝任分揚。
+    翠筠不染湘娥淚，班籜堪傳漢史香。
+    霜葉自來顏不改，煙梢從此色何藏？
+    子猷去世知音少，亙古留名翰墨場。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 253
+    "line_end": 256
+  "translation_ja": |-
+    拂雲叟「淇澳（きいく）の園では聖なる王を楽しませ、渭川（いせん）の千畝には、思うままに広がる。
+    翠の肌は湘娥（しょうが）の涙に染まらず、まだらの竹の皮は、漢の歴史の香りを伝えるに足る。
+    霜を受ける葉はもとより色を変えず、霞む梢は、それならどこへ色を隠そう。
+    子猷（しゆう）が世を去って、心を知る者は少ないが、はるかな昔から、筆墨の場に名を残す。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-056"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "三藏道：「眾仙老之詩，真個是吐鳳噴珠，游夏莫贊。厚愛高情，感之極矣。但夜已深沉，三個小徒不知在何處等我。弟子不能久留，敢此告回尋訪，尤無窮之至愛也。望老仙指示歸路。」四老笑道：「聖僧勿慮。我等也是千載奇逢，況天光晴爽，雖夜深卻月明如晝，再寬坐坐，待天曉自當遠送過嶺，高徒一定可相會也。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 257
+    "line_end": 257
+  "translation_ja": |-
+    三蔵「仙翁の皆さまの詩は、まことに鳳凰を吐き、珠を噴き出すようです。子游（しゆう）や子夏（しか）さえ、褒める言葉を添えられないでしょう。厚いお情けと高いお心に、感謝の極みです。ですが、もう夜も深く、三人の弟子がどこで私を待っているか分かりません。これ以上はとどまれませんので、お別れして捜しに戻りたいと存じます。それをお許しくだされば、この上ないお情けです。どうか帰り道をお教えください。」
+    四人の老人は笑った。
+    四人の老人「聖僧、ご心配なさるな。我々にも千年に一度の出会いです。しかも空は晴れわたり、夜は深くとも、月明かりは昼のよう。もう少しゆっくりお座りください。夜が明けたら、きっと遠く尾根の向こうまでお送りします。お弟子たちにも、必ず会えるでしょう。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-057"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "正話間，只見石屋之外，有兩個青衣女童，挑一對絳紗燈籠，後引著一個仙女。那仙女撚著一枝杏花，笑吟吟進門相見。那仙女怎生模樣？他生得："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 259
+    "line_end": 259
+  "translation_ja": "話していると、石の家の外に、青衣の童女が二人現れ、一対の深紅の紗の灯籠を担いで、その後ろに一人の仙女を導いてきた。仙女は杏の花を一枝、指に持ち、にこにこしながら門を入って会いに来た。その仙女は、どんな姿だったかといえば、"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-058"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": "青姿妝翡翠，丹臉賽胭脂。星眼光還彩，蛾眉秀又齊。下襯一條五色梅淺紅裙子，上穿一件煙裡火比甲輕衣。弓鞋彎鳳嘴，綾襪錦拖泥。妖嬈嬌似天臺女，不亞當年俏妲姬。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 261
+    "line_end": 261
+  "translation_ja": |-
+    若々しい姿を翡翠で飾り、赤い頬は紅にもまさる。
+    星のような瞳には光と彩りがあり、蛾の触角のような眉は美しく整う。
+    下には五色の梅をあしらった薄紅の裳、上には煙の中の火のような色の、袖なしの軽い比甲（ひこう）。
+    弓なりの靴は鳳凰の嘴のように曲がり、綾の足袋に、錦の裾を地に引く。
+    艶やかな美しさは天台の仙女に似て、その昔の美しい妲姫（だっき）にも劣らない。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-059"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "四老欠身問道：「杏仙何來？」那女子對眾道了萬福，道：「知有佳客在此賡酬，特來相訪，敢求一見。」十八公指著唐僧道：「佳客在此，何勞求見？」三藏躬身，不敢言語。那女子叫：「快獻茶來。」又有兩個黃衣女童捧一個紅漆丹盤，盤內有六個細磁茶盂，盂內設幾品異果，橫擔著匙兒；提一把白鐵嵌黃銅的茶壺，壺內香茶噴鼻。斟了茶，那女子微露春蔥，捧磁盂先奉三藏，次奉四老，然後一盞，自取而陪。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 263
+    "line_end": 263
+  "translation_ja": |-
+    四人の老人は身を起こして尋ねた。
+    四人の老人「杏仙（きょうせん）、どうしてこちらへ。」
+    杏仙と呼ばれた女は、皆に万福の礼をした。
+    杏仙「佳いお客さまがこちらで詩を唱和しておられると知り、特にお訪ねしました。ぜひ、お目にかかりたいと存じまして。」
+    十八公は三蔵を指した。
+    十八公「佳客はここにおられる。わざわざお求めになるまでもない。」
+    三蔵は身をかがめたが、言葉も出せなかった。
+    杏仙「早くお茶をお持ち。」
+    今度は黄衣の童女が二人、赤漆の盆を捧げて現れた。盆には精巧な磁器の茶碗が六つあり、碗の中には珍しい果実が数種類入れてあり、匙を横に渡してあった。また、白い鉄に真鍮を象嵌した茶壺を一つ提げていて、その中の茶は鼻を打つほど香る。茶を注ぐと、杏仙は春の葱のような指を少しのぞかせ、磁器の碗を捧げて、まず三蔵に、次に四人の老人に渡し、それから一椀を自分で取って、相伴した。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-060"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "凌空子道：「杏仙為何不坐？」那女子方才去坐。茶畢，欠身問道：「仙翁今宵盛樂，佳句請教一二如何？」拂雲叟道：「我等皆鄙俚之言，惟聖僧真盛唐之作，甚可嘉羨。」那女子道：「如不吝教，乞賜一觀。」四老即以長老前詩後詩並禪法論，宣了一遍。那女子滿面春風，對眾道：「妾身不才，不當獻醜。但聆此佳句，似不可虛，勉強將後詩奉和一律如何？」遂朗吟道："
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 264
+    "line_end": 264
+  "translation_ja": |-
+    凌空子「杏仙、どうしてお座りにならない。」
+    そこで杏仙もようやく席についた。茶がすむと、身を起こして尋ねた。
+    杏仙「仙翁の皆さま、今宵はずいぶんお楽しみのご様子。佳い句を一つ二つ、お教えいただけませんか。」
+    拂雲叟「我々のは、どれも拙く俗な言葉です。ただ聖僧の作こそ、真に盛唐（せいとう）の詩で、じつに讃え慕うべきものです。」
+    杏仙「お教えを惜しまれなければ、ぜひ拝見させてください。」
+    四人の老人は、三蔵の前の詩と後の詩、それに禅の法を論じた話を、ひと通り読み上げた。杏仙は顔いっぱいに春風のような笑みを浮かべ、皆に言った。
+    杏仙「私は不才で、お恥ずかしいものをお目にかけるべきではありませんが、これほどの佳句を伺って、黙っているわけにもまいりません。後の詩に、何とか一首の律詩を唱和してもよろしいでしょうか。」
+    そして朗々と吟じた。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-061"
+  "section_id": "chapter-64"
+  "kind": "verse"
+  "origin": "source"
+  "source_text": |-
+    「上蓋留名漢武王，周時孔子立壇揚。
+    董仙愛我成林積，孫楚曾憐寒食香。
+    雨潤紅姿嬌且嫩，煙蒸翠色顯還藏。
+    自知過熟微酸意，落處年年伴麥場。」
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 266
+    "line_end": 269
+  "translation_ja": |-
+    杏仙「上を覆う天蓋として、漢武王（かんぶおう）に名を残し、周のころ、孔子（こうし）が壇を立てて名を揚げた。
+    董仙（とうせん）は私を愛して林をなし、孫楚（そんそ）もかつて、寒食（かんしょく）の香りを愛でた。
+    雨が潤す紅の姿は、艶やかで柔らかく、霞が蒸す翠の色は、現れては隠れる。
+    熟しすぎれば、かすかな酸味を持つと自ら知り、落ちる所は毎年、麦打ち場の傍ら。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-062"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "四老聞詩，人人稱賀，都道：「清雅脫塵，句內包含春意。好個『雨潤紅姿嬌且嫩』！『雨潤紅姿嬌且嫩』！」那女子笑而悄答道：「惶恐，惶恐。適聞聖僧之章，誠然錦心繡口。如不吝珠玉，賜教一闋如何？」唐僧不敢答應。那女子漸有見愛之情，挨挨軋軋，漸近坐邊，低聲悄語，呼道：「佳客莫者，趁此良宵，不耍子待要怎的？人生光景，能有幾何？」十八公道：「杏仙盡有仰高之情，聖僧豈可無俯就之意？如不見憐，是不知趣了也。」孤直公道：「聖僧乃有道有名之士，決不苟且行事。如此樣舉措，是我等取罪過了。污人名，壞人德，非遠達也。果是杏仙有意，可教拂雲叟與十八公做媒，我與凌空子保親，成此姻眷，何不美哉？」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 270
+    "line_end": 270
+  "translation_ja": |-
+    四人の老人は詩を聞いて、一人残らず褒めそやし、口をそろえた。
+    四人の老人「清らかで雅やか、俗世を離れ、句の中には春の思いが満ちている。見事な『雨が潤す紅の姿は、艶やかで柔らかく』だ！　『雨が潤す紅の姿は、艶やかで柔らかく』！」
+    杏仙は笑い、小声で答えた。
+    杏仙「恐れ入ります、恐れ入ります。先ほど聖僧の詩を伺いましたが、まことに錦の心に刺繡の口をお持ちです。珠玉のお言葉を惜しまれず、一曲お教えいただけませんか。」
+    三蔵は答えることもできなかった。杏仙はしだいに恋い慕う様子を見せ、じりじりと身をすり寄せ、座のそばへ近づいて、ひそひそと呼びかけた。
+    杏仙「佳いお方、ためらわないで。このよい夜に楽しまず、どうなさるおつもり。人生のよい時など、どれほどあるでしょう。」
+    十八公「杏仙はこれほど聖僧を仰ぎ慕っているのです。聖僧にも、身を低くしてお応えになるお気持ちがあってよいでしょう。憐れんでやらないのなら、風情を解さぬというものです。」
+    孤直公「聖僧は道も名もある方だから、けっしていい加減なことはなさらぬ。こんな振る舞いでは、我々が罪を招くことになる。人の名を汚し、徳を損なうのは、先を見通したやり方ではない。本当に杏仙にその気があるなら、拂雲叟と十八公が媒人となり、わしと凌空子が縁組の保証人になればよい。この婚姻を結べば、まことにめでたいではないか。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-063"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "三藏聽言，遂變了顏色，跳起來高叫道：「汝等皆是一類怪物，這般誘我。當時只以低行之言，談玄談道可也。如今怎麼以美人局來騙害貧僧？是何道理？」四老見三藏發怒，一個個咬指擔驚，再不復言。那赤身鬼使暴躁如雷道：「這和尚好不識擡舉。我這姐姐那些兒不好？他人材俊雅，玉質嬌姿，不必說那女工針指，只這一段詩材，也配得過你。你怎麼這等推辭？休錯過了。孤直公之言甚當，如果不可苟合，待我再與你主婚。」三藏大驚失色，憑他們怎麼胡談亂講，只是不從。鬼使又道：「你這和尚，我們好言好語，你不聽從。若是我們發起村野之性，還把你攝了去，教你和尚不得做，老婆不得娶，卻不枉為人一世也？」那長老心如金石，堅執不從。暗想道：「我徒弟們不知在那裡尋我哩！」說一聲，止不住眼中墮淚。那女子陪著笑，挨至身邊，翠袖中取出一個蜜合綾汗巾來，與他揩淚道：「佳客勿得煩惱。我與你倚玉偎香，耍子去來。」長老咄的一聲吆喝，跳起身來就走。被那些人扯扯拽拽，嚷到天明。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 271
+    "line_end": 271
+  "translation_ja": |-
+    三蔵はそれを聞くと顔色を変え、跳び起きて大声を上げた。
+    三蔵「お前たちはみな同じ類の化け物で、こんなふうに私を誘うのか。初めは身を低くした言葉で、玄妙なことや道を語るだけならよかった。今になって、どうして美人の罠で私をだまし、害そうとする。何という道理だ！」
+    四人の老人は三蔵が怒ったのを見ると、一人ずつ指を噛み、恐れおののいて、二度と口をきかなかった。赤裸の鬼の使いは、雷のようにかっと怒った。
+    鬼の使い「この和尚、まるで厚意が分からぬ奴だな。うちの姉さんの、どこが悪いんだ。器量は上品で美しく、玉のような肌に、あでやかな姿。針仕事の腕は言うまでもなく、詩の才だけでも、お前の相手には十分だ。なぜそう断る。好機を逃すな。孤直公の言うことはまったくだ。かりそめに交われないというなら、俺があらためて婚礼を取り仕切ってやる。」
+    三蔵はひどく驚いて青ざめ、相手が何を勝手に言い立てようと、従おうとしなかった。
+    鬼の使い「この和尚、俺たちが言葉を尽くして頼んでも聞かぬのか。こちらが荒々しい本性を出して、もう一度さらっていったら、和尚にもなれず、女房も娶れぬようにしてやるぞ。そうなれば、一生を人として生きた甲斐もなくなるではないか。」
+    三蔵の心は金石のように固く、断じて従わなかった。ひそかに思った。
+    三蔵の心の声「弟子たちは、どこで私を捜しているのだろう。」
+    一声つぶやくと、目から涙がとめどなく落ちた。杏仙は愛想笑いをしながら体のそばへ寄り、翠の袖から蜜合色（みつごうしょく）の綾の手巾を出し、涙を拭いてやりながら言った。
+    杏仙「佳いお方、くよくよなさらないで。私の玉のような肌、香る体に寄り添って、一緒に楽しみに参りましょう。」
+    三蔵は「えいっ！」と一喝し、跳び起きて出ていこうとした。だが一同に引っ張られ、引き戻されて、夜明けまで騒ぎ続けた。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-064"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "忽聽得那裡叫聲：「師父，師父，你在那方言語也？」原來那孫大聖與八戒、沙僧牽著馬，挑著擔，一夜不曾住腳，穿荊度棘，東尋西找。卻好半雲半霧的過了八百里荊棘嶺西下，聽得唐僧吆喝，卻就喊了一聲。那長老掙出門來，叫聲：「悟空，我在這裡哩。快來救我，快來救我。」那四老與鬼使，那女子與女童，幌一幌，都不見了。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 272
+    "line_end": 272
+  "translation_ja": |-
+    ふと、どこからか呼ぶ声が聞こえた。
+    声の主「お師匠さま、お師匠さま、どちらでお話しになっているのですか。」
+    それは悟空、八戒、沙悟浄が、馬を引き、荷を担いで来たのだった。一晩じゅう足を休めず、茨をくぐって東へ西へ捜し、ちょうど雲とも霧ともつかぬ中を、八百里の荊棘嶺を越えて西へ下ってきた。三蔵の怒鳴る声が聞こえたので、ひと声呼んだのである。三蔵は門の外へ身を振りほどいて出ると、叫んだ。
+    三蔵「悟空、私はここです。早く助けておくれ、早く助けておくれ！」
+    四人の老人と鬼の使い、杏仙と童女たちは、さっと身を揺らすと、みな消えてしまった。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-065"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "須臾間，八戒、沙僧俱到邊前道：「師父，你怎麼得到此也？」三藏扯住行者道：「徒弟啊，多累了你們了。昨日晚間見的那個老者，言說土地送齋一事，是你喝聲要打，他就把我擡到此方。他與我攜手相攙，走入門，又見三個老者，來此會我，俱道我做『聖僧』。一個個言談清雅，極善吟詩。我與他賡和相攀，覺有夜半時候，又見一個美貌女子執燈火，也來這裡會我，吟了一首詩，稱我做『佳客』。因見我相貌，欲求配偶，我方省悟。正不從時，又被他做媒的做媒，保親的保親，主婚的主婚，我立誓不肯。正欲掙著要走，與他嚷鬧，不期你們到了。一則天明，二來還是怕你，只才還扯扯拽拽，忽然就不見了。」行者道：「你既與他敘話談詩，就不曾問他個名字？」三藏道：「我曾問他之號：那老者喚做十八公，號勁節；第二個號孤直公；第三個號凌空子；第四個號拂雲叟；那女子，稱他做杏仙。」八戒道：「此物在於何處？才往那方去了？」三藏道：「去向之方，不知何所；但只談詩之處，去此不遠。」"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 273
+    "line_end": 273
+  "translation_ja": |-
+    すぐに八戒と沙悟浄も、そばへ来た。
+    八戒と沙悟浄「お師匠さま、どうしてここへ来られたのです。」
+    三蔵は悟空をつかんだ。
+    三蔵「弟子たちよ、ずいぶん苦労をかけました。昨夜見たあの老人が、土地神だと言って斎食を持ってきたでしょう。お前が怒鳴って打とうとすると、私をこちらへ運んできたのです。私の手を取って支え、門へ入ると、さらに三人の老人が会いに来て、みな私を『聖僧』と呼びました。一人ひとり言葉は清らかで上品、たいそう詩に巧みでした。私も詩を唱和して親しく話しているうち、夜半ごろだったでしょうか、今度は美しい女が灯火を持ってやって来て、一首詠み、私を『佳客』と呼びました。私の顔を見て夫婦になりたがったので、そこでようやく気づいたのです。断ろうとしていると、媒人になる者、縁組を保証する者、婚礼を取り仕切る者まで出てきましたが、私は断じて承知しないと誓いました。振りほどいて出ようと争っているところへ、思いがけずお前たちが来てくれました。夜が明けたこともあり、やはりお前を恐れたのでしょう、つい先ほどまで引っ張っていたのに、急に姿を消したのです。」
+    悟空「それほど話し、詩まで語り合ったのに、名前は聞かなかったのですか。」
+    三蔵「号は尋ねました。あの老人は十八公といい、号は勁節。二番目は孤直公、三番目は凌空子、四番目は拂雲叟。あの女は杏仙と呼ばれていました。」
+    八戒「そいつらは、どこにいるんだ。さっき、どっちへ行った。」
+    三蔵「行った方角は分かりません。ただ、詩を語った所は、ここから遠くありません。」
+  "translation_status": "reviewed"
+- "id": "xy-ch64-066"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "他三人同師父看處，只見一座石崖，崖上有「木仙庵」三字。三藏道：「此間正是。」行者仔細觀之，卻原來是一株大檜樹、一株老柏、一株老松、一株老竹，竹後有一株丹楓。再看崖那邊，還有一株老杏、二株臘梅、二株丹桂。行者笑道：「你可曾看見妖怪？」八戒道：「不曾。」行者道：「你不知就是這幾株樹木在此成精也。」八戒道：「哥哥怎得知成精者是樹？」行者道：「十八公乃松樹，孤直公乃柏樹，凌空子乃檜樹，拂雲叟乃竹竿，赤身鬼乃楓樹，杏仙即杏樹，女童即丹桂即臘梅也。」八戒聞言，不論好歹，一頓釘鈀，三五長嘴，連拱帶築，把兩顆臘梅、丹桂、老杏、楓楊俱揮倒在地，果然那根下俱鮮血淋漓。三藏近前扯住道：「悟能，不可傷了他。他雖成了氣候，卻不曾傷我。我等找路去罷。」行者道：「師父不可惜他，恐日後成了大怪，害人不淺也。」那獃子索性一頓鈀，將松、柏、檜、竹一齊皆築倒，卻才請師父上馬，順大路一齊西行。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 274
+    "line_end": 274
+  "translation_ja": |-
+    三人が三蔵と一緒に見にいくと、石の崖があり、崖の上に「木仙庵」の三文字があった。
+    三蔵「まさにここです。」
+    悟空がよく見ると、そこにあるのは大きな檜（かい）の木一本、古い柏一本、古い松一本、古い竹一本で、竹の後ろには赤い楓が一本あった。崖の向こうを見ると、さらに古い杏が一本、臘梅（ろうばい）が二本、丹桂（たんけい）が二本ある。
+    悟空は笑った。
+    悟空「妖怪を見かけたか。」
+    八戒「見てないぞ。」
+    悟空「分からんのか。この何本かの木が、ここで精になったんだ。」
+    八戒「兄貴、精になったのが木だと、どうして分かる。」
+    悟空「十八公は松、孤直公は柏、凌空子は檜、拂雲叟は竹、赤裸の鬼は楓、杏仙は杏だ。童女たちは丹桂と臘梅さ。」
+    八戒は聞くなり、善悪も構わずまぐわを続けざまに振るい、長い口でも三度五度と、掘り返したり突いたりして、二株の臘梅、丹桂、古い杏、楓楊（ふうよう）を、ことごとく地面へなぎ倒した。すると果たして、その根もとからは、どれも鮮血がだらだら流れた。三蔵は駆け寄って、八戒をつかんだ。
+    三蔵「悟能（ごのう）、傷つけてはなりません。力を得たとはいえ、私を傷つけたわけではありません。道を探して行きましょう。」
+    悟空「お師匠さま、惜しんではなりません。後に大きな妖怪となって、人にひどい害をなすかもしれません。」
+    八戒は思い切って、さらにひとしきりまぐわを振るい、松、柏、檜、竹も一斉に突き倒した。それからようやく三蔵を馬に乗せ、皆そろって大きな道を西へ進んだ。
+  "translation_status": "reviewed"
+- "id": "xy-ch64-067"
+  "section_id": "chapter-64"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": "畢竟不知前去如何，且聽下回分解。"
+  "source_languages":
+  - "zh-Hant"
+  "source_locations":
+  - "source_id": "wikisource-xiyou-ch64-1455613"
+    "precision": "line"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+    "line_start": 276
+    "line_end": 276
+  "translation_ja": "さて、この先に何が待っているのか。それは次の回でお聞きいただこう。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-01-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "衣服は各二套、鞋襪は各二双、絛環は各二条という底本の数量を保持した。絛環は紐と環を備えた服飾品と解して二組としたが、具体的な形状は確定しない。見送りの二十里・さらに二十里・僧の五六十里は、語りのまま並べ、起点を補って合計しない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-02-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "底本の『又道』には主語がない。直後の『教我如何乘馬』という騎乗者の言葉と問答の流れから、三蔵の再発言として訳した。原文には主語を補わない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-03-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "二十丈の身、三十丈の柄、百十里の進行、碑の八百里を保持した。行程を現代単位へ固定換算していない。碑文は二行十四字で、八戒が二句を付け足そうとする。『走他娘』の荒い強調は、行こうとする勢いを含めて訳した。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-04-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "第一句の次は底本で『落目』。『落日』などに無断補訂せず、目を落とす・目をやる意に解して訳したが、字の異同と句の構文は留保する。青い佩玉は竹の揺れる様子を宝飾の音や色に重ねた詩語。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-05-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "『虛心』は心が虚であることと、中が空ろであることの両方を響かせる表現として、具体的な種の同定をせず訳した。十八公はここで自らの号を勁節と説明するため、同一人物の通常名は十八公とし、紹介と有意味な呼びかけ・詩には勁節を残す。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-06-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "七賢と六逸は、文人の集いの典故を並べた表現と解した。前者は竹林の七賢、後者は李白ら竹溪の六逸を念頭に置く。第四十八回の画題『七賢』は人物内訳が未確定であるため、同じ表記だけでその辞書項目に統合しない。詩中で交友を語ることと、歴史上その交友が実在したと語り手が保証することを区別する。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-07-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "三蔵の自叙は『四十年前』という年数をそのまま保った。『脫本骸』は金山で助かってこの身を死から免れた意に解したが、文字どおりには元の骸を脱するとも読める。幼少期の各回との年齢・時系列をこの詩に合わせて補訂しない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-08-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "三蔵の長い発言には底本で開始鉤括弧がなく、末尾の『記悟』の後に閉じ鉤括弧がある。発話動詞と応答に基づいて範囲を定めた。『發揮象罔、踏碎涅槃』は道家と仏教の語を交える逆説を保持した。『婆娑』はここでは世界を照らす文脈から娑婆と解して訳し、原文の字は保存する。後半の韻を含む句も散文の要約に置き換えない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-09-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "『終坐無生之道』は無生の道に座してとどまるという批判と解した。『蘿蓏』の蓏はつる性植物の果実で、葛藤の謎と絡めた言葉遊びとしてつる草と蔓の実を残す。底のない籠・根のない鉄の木は逆説的な修行語であり、実用的な手順とは扱わない。霊宝の峰は修行の象徴を含む詩的表現として保持し、既出の霊宝天尊や実在の山に同定しない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-10-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "四始には『詩経』の風・小雅・大雅・頌を指す説と、それぞれの冒頭篇を指す説がある。ここでは詩篇の整理・選定に関わる名称として訳した。雅・頌は詩経の部門であり、仏教の偈頌の頌とは用法と読みを分ける。六朝の華美を洗い去るという言葉は、発言者の文学観である。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-11-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "頂針は末字を次の句の頭へ受け継ぐ技法。この連句は春→無→図→夫と続き、最後の夫は文を起こす語として『夫れ』とした。側葉・横柯・憲烏の句は、葉の向き、建築用材、御史台の烏を重ねるが、細部の構文には留保がある。前の『西山堅節老』『南國沒心夫』も、特定の名を原文に補わず、節義を守る老人と心を空にした男の像を保つ。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-12-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "金芝三秀は霊芝が三度秀でる瑞祥の表現と解した。『百尺竿頭』は高い境地に達してもなお進むことを求める禅語。『行藏』は世に出て行うことと身を退いて隠れることをいう。ここでは進退の道として訳した。四聯八句を保持した。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-13-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "『木王』の具体的な樹種、『泉汲千年琥珀香』の生成に関する説は、詩が明示する以上には特定していない。『苓膏』はすでに供された茯苓膏に通じる省称として訳した。薬効は詩中の長寿表現であって、現代の効能を保証する説明ではない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-14-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "四絶堂の具体的な所在地と、この詩が踏まえる全典故は未確定。『石齒』も石の歯という比喩を保持し、石臼や歯形の岸など一つの物へ断定しない。鳥の王は詩的な呼称として訳した。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-15-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "太清宮は老子を祀る宮観の名だが、同名の施設が複数あり、この詩の場所は確定していない。『九泉』は地の深い所をいう。根と地下の描写を、死者が現に冥界へ移る出来事に変えていない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-16-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "淇澳は詩経の淇奧に通じる地名表現、渭川は竹の多い地として伝わる。湘娥の涙には、舜の妃の涙が竹に斑点を残した故事が重なる。底本は『班籜』で、字を斑へ直さず、意味をまだらの竹皮とした。子猷は竹を愛する王子猷の故事として読む。『不染』という否定と、霜の葉の色が変わらぬことをそのまま保つ。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-17-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "『煙裡火』『五色梅』『錦拖泥』は衣装の色・柄・裾を飾る詩語と解したが、染織上の細かな規格は確定しない。『天臺女』は天台で仙女に会う故事の比喩。妲姫は底本の姫の字を残し、よく知られる妲己へ本文を無断置換しない。登場した仙女自身の名や正体を、この比喩から決めつけない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-18-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "杏仙の詩について、底本は『漢武王』であり、漢武帝への無断補訂はしない。天蓋との具体的な典故は未確定。孔子の壇と董仙の林は、杏壇および董奉の杏林の伝承に関連づけて読める。孫楚については、祭介子推の文に醴酪を供えることを確認できるが、この詩の香りとの結び付きの細部は留保する。ここでの『私』は詩の一人称の表現であり、語り手による正体の断定に変えない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-19-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "『佳客莫者』の者は語形・語義がはっきりしない。拒む三蔵に遊びを勧める文脈から、ためらうなという促しとして訳した。四老の同じ詩句を二度ほめる反復、媒人と縁組保証人の二つの役割を残した。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-20-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "『低行之言』は身を低くした言葉と解したが、細部の語義は留保する。鬼使の姐姐は親しい女性への呼称として『姉さん』とし、血縁を確定しない。蜜合色は古い色名で、淡黄白から微黄に赤みを帯びる色まで説明が揺れるため、本文には色名を保持した。僧も結婚もできなくするという脅し、三蔵の拒否と涙、身体を寄せる誘いを弱めていない。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-21-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "三蔵の回想では美しい女自身が灯火を持ってきたと語る。先の地の文の灯籠を持つ童女の描写に合わせて修正せず、人物の報告として保存した。老人たちの消失理由も三蔵の判断のまま訳した。"
+  "translation_status": "reviewed"
+- "id": "xy-ch64-note-22-body"
+  "section_id": "chapter-64"
+  "kind": "note_body"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "悟空がここで初めて、各人物と樹木の対応を説明する。中国語の檜と柏は日本語のヒノキ・カシワと同じ種とは限らないため原表記を残す。前半は丹楓・楓樹、伐倒の列挙は楓楊となるが、無断統一しない。『兩顆臘梅、丹桂』の二株がどこまでかかるかは曖昧で、先の各二株へ数を補って直さない。根の鮮血と全伐倒を保持し、三蔵の制止と悟空の将来への懸念を、それぞれの発言として区別した。"
+  "translation_status": "reviewed"
+"notes":
+- "id": "xy-ch64-note-01"
+  "origin": "translator"
+  "label": "1"
+  "body":
+  - "segment_id": "xy-ch64-note-01-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-02"
+  "origin": "translator"
+  "label": "2"
+  "body":
+  - "segment_id": "xy-ch64-note-02-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-03"
+  "origin": "translator"
+  "label": "3"
+  "body":
+  - "segment_id": "xy-ch64-note-03-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-04"
+  "origin": "translator"
+  "label": "4"
+  "body":
+  - "segment_id": "xy-ch64-note-04-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-05"
+  "origin": "translator"
+  "label": "5"
+  "body":
+  - "segment_id": "xy-ch64-note-05-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-06"
+  "origin": "translator"
+  "label": "6"
+  "body":
+  - "segment_id": "xy-ch64-note-06-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-07"
+  "origin": "translator"
+  "label": "7"
+  "body":
+  - "segment_id": "xy-ch64-note-07-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-08"
+  "origin": "translator"
+  "label": "8"
+  "body":
+  - "segment_id": "xy-ch64-note-08-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-09"
+  "origin": "translator"
+  "label": "9"
+  "body":
+  - "segment_id": "xy-ch64-note-09-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-10"
+  "origin": "translator"
+  "label": "10"
+  "body":
+  - "segment_id": "xy-ch64-note-10-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-11"
+  "origin": "translator"
+  "label": "11"
+  "body":
+  - "segment_id": "xy-ch64-note-11-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-12"
+  "origin": "translator"
+  "label": "12"
+  "body":
+  - "segment_id": "xy-ch64-note-12-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-13"
+  "origin": "translator"
+  "label": "13"
+  "body":
+  - "segment_id": "xy-ch64-note-13-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-14"
+  "origin": "translator"
+  "label": "14"
+  "body":
+  - "segment_id": "xy-ch64-note-14-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-15"
+  "origin": "translator"
+  "label": "15"
+  "body":
+  - "segment_id": "xy-ch64-note-15-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-16"
+  "origin": "translator"
+  "label": "16"
+  "body":
+  - "segment_id": "xy-ch64-note-16-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-17"
+  "origin": "translator"
+  "label": "17"
+  "body":
+  - "segment_id": "xy-ch64-note-17-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-18"
+  "origin": "translator"
+  "label": "18"
+  "body":
+  - "segment_id": "xy-ch64-note-18-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-19"
+  "origin": "translator"
+  "label": "19"
+  "body":
+  - "segment_id": "xy-ch64-note-19-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-20"
+  "origin": "translator"
+  "label": "20"
+  "body":
+  - "segment_id": "xy-ch64-note-20-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-21"
+  "origin": "translator"
+  "label": "21"
+  "body":
+  - "segment_id": "xy-ch64-note-21-body"
+  "form": "endnote"
+- "id": "xy-ch64-note-22"
+  "origin": "translator"
+  "label": "22"
+  "body":
+  - "segment_id": "xy-ch64-note-22-body"
+  "form": "endnote"
+"references":
+- "id": "xy-ch64-ref-01"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-002"
+    "translation_span":
+      "start": 502
+      "end": 503
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-01"
+  "status": "verified"
+- "id": "xy-ch64-ref-02"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-003"
+    "translation_span":
+      "start": 490
+      "end": 491
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-02"
+  "status": "verified"
+- "id": "xy-ch64-ref-03"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-006"
+    "translation_span":
+      "start": 521
+      "end": 522
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-03"
+  "status": "verified"
+- "id": "xy-ch64-ref-04"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-008"
+    "translation_span":
+      "start": 167
+      "end": 168
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-04"
+  "status": "verified"
+- "id": "xy-ch64-ref-05"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-012"
+    "translation_span":
+      "start": 504
+      "end": 505
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-05"
+  "status": "verified"
+- "id": "xy-ch64-ref-06"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-017"
+    "translation_span":
+      "start": 164
+      "end": 165
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-06"
+  "status": "verified"
+- "id": "xy-ch64-ref-07"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-021"
+    "translation_span":
+      "start": 166
+      "end": 167
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-07"
+  "status": "verified"
+- "id": "xy-ch64-ref-08"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-022"
+    "translation_span":
+      "start": 761
+      "end": 762
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-08"
+  "status": "verified"
+- "id": "xy-ch64-ref-09"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-023"
+    "translation_span":
+      "start": 850
+      "end": 851
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-09"
+  "status": "verified"
+- "id": "xy-ch64-ref-10"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-035"
+    "translation_span":
+      "start": 65
+      "end": 66
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-10"
+  "status": "verified"
+- "id": "xy-ch64-ref-11"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-045"
+    "translation_span":
+      "start": 56
+      "end": 57
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-11"
+  "status": "verified"
+- "id": "xy-ch64-ref-12"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-047"
+    "translation_span":
+      "start": 180
+      "end": 181
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-12"
+  "status": "verified"
+- "id": "xy-ch64-ref-13"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-049"
+    "translation_span":
+      "start": 166
+      "end": 167
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-13"
+  "status": "verified"
+- "id": "xy-ch64-ref-14"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-051"
+    "translation_span":
+      "start": 172
+      "end": 173
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-14"
+  "status": "verified"
+- "id": "xy-ch64-ref-15"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-053"
+    "translation_span":
+      "start": 151
+      "end": 152
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-15"
+  "status": "verified"
+- "id": "xy-ch64-ref-16"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-055"
+    "translation_span":
+      "start": 171
+      "end": 172
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-16"
+  "status": "verified"
+- "id": "xy-ch64-ref-17"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-058"
+    "translation_span":
+      "start": 176
+      "end": 177
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-17"
+  "status": "verified"
+- "id": "xy-ch64-ref-18"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-066"
+    "translation_span":
+      "start": 308
+      "end": 309
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-18"
+  "status": "verified"
+- "id": "xy-ch64-ref-19"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-062"
+    "translation_span":
+      "start": 577
+      "end": 578
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-19"
+  "status": "verified"
+- "id": "xy-ch64-ref-20"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-063"
+    "translation_span":
+      "start": 772
+      "end": 773
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-20"
+  "status": "verified"
+- "id": "xy-ch64-ref-21"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-065"
+    "translation_span":
+      "start": 651
+      "end": 652
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-21"
+  "status": "verified"
+- "id": "xy-ch64-ref-22"
+  "kind": "note"
+  "origin": "translator"
+  "from":
+    "segment_id": "xy-ch64-066"
+    "translation_span":
+      "start": 633
+      "end": 634
+      "exact": "。"
+  "to":
+    "type": "note"
+    "id": "xy-ch64-note-22"
+  "status": "verified"
+"groups":
+- "id": "xy-ch64-poem-004"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-004"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-008"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-008"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-011"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-011"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-013"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-013"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-015"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-015"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-017"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-017"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-019"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-019"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-021"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-021"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-025"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-025"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-027"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-027"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-029"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-029"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-031"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-031"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-033"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-033"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-035"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-035"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-037"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-037"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-039"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-039"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-041"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-041"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-043"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-043"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-045"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-045"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-047"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-047"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-049"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-049"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-051"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-051"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-053"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-053"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-055"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-055"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-058"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-058"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-061"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-061"
+  "separator": |2+
+
+  "description_ja": "独立韻文区画の全句。長短句・律詩・連句を省略せず対訳し、改行を保持。"
+- "id": "xy-ch64-poem-stone-inscription"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-006"
+    "source_span":
+      "start": 185
+      "end": 200
+      "exact": "荊棘蓬攀八百里，古來有路少人行"
+    "translation_span":
+      "start": 289
+      "end": 315
+      "exact": |-
+        茨と藪が絡んで八百里、
+        古来道あれど行く人は少ない。
+  "separator": |2+
+
+  "description_ja": "散文単位内の碑文・追加二句・説法の韻文を全句対訳。独立した韻文26区画とは別に範囲を明示。"
+- "id": "xy-ch64-poem-bajie-two-lines"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-006"
+    "source_span":
+      "start": 223
+      "end": 239
+      "exact": "自今八戒能開破，直透西方路盡平。"
+    "translation_span":
+      "start": 350
+      "end": 384
+      "exact": |-
+        今より八戒が切り拓けば、
+        西方へまっすぐ、道はことごとく平らになる。
+  "separator": |2+
+
+  "description_ja": "散文単位内の碑文・追加二句・説法の韻文を全句対訳。独立した韻文26区画とは別に範囲を明示。"
+- "id": "xy-ch64-poem-sanzo-rhymed-sermon"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-022"
+    "source_span":
+      "start": 213
+      "end": 279
+      "exact": "必須覺中覺了悟中悟，一點靈光全保護。放開烈焰照婆娑，法界縱橫獨顯露。至幽微，更守固，玄關口說誰人度？我本元修大覺禪，有緣有志方記悟。"
+    "translation_span":
+      "start": 493
+      "end": 682
+      "exact": |-
+        覚りのうちにさらに覚り、悟りのうちにさらに悟り、一点の霊光を全うして守らねばならない。
+        激しい炎を放って娑婆（しゃば）を照らせば、法界（ほっかい）を縦横にただひとり、明らかに現れる。
+        きわめて幽かで微妙な境地に達しても、なお堅く守らねばならない。玄関（げんかん）の奥義を口で説くだけで、誰が渡れよう。
+        私はもとより大覚の禅を修める者。縁と志があってこそ、心に留めて悟れるのです。
+  "separator": |2+
+
+  "description_ja": "散文単位内の碑文・追加二句・説法の韻文を全句対訳。独立した韻文26区画とは別に範囲を明示。"
+- "id": "xy-ch64-poem-fuyun-rhymed-ending"
+  "kind": "poem"
+  "members":
+  - "segment_id": "xy-ch64-023"
+    "source_span":
+      "start": 244
+      "end": 274
+      "exact": "沒底竹籃汲水，無根鐵樹生花。靈寶峰頭牢著腳，歸來雅會上龍華。"
+    "translation_span":
+      "start": 525
+      "end": 606
+      "exact": |-
+        底のない竹籠で水を汲み、根のない鉄の木に花を咲かせる。
+        霊宝（れいほう）の峰の頂にしっかり足を据え、帰ってきて、風雅な集いから竜華（りゅうげ）の会へ参りましょう。
+  "separator": |2+
+
+  "description_ja": "散文単位内の碑文・追加二句・説法の韻文を全句対訳。独立した韻文26区画とは別に範囲を明示。"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-25T04:22:48Z"
+    "reviewed_by": "Independent AI reviewer; not human/expert collation"
+    "content_sha256": "e4e0b411d4d9fad110a75b2d0cfeceb11277f6cb5a0674186dd74e79a122f449"
+"lexicon":
+  "dictionary_id": "xiyouji"
+  "file": "lexicons/xiyouji.yaml"
+  "first_occurrences":
+  - "entry_id": "xy-ch62-jisai-state"
+    "form_id": "xy-ch62-jisai-state-form"
+    "segment_id": "xy-ch64-002"
+    "translation_span":
+      "start": 3
+      "end": 6
+      "exact": "祭賽国"
+    "rendered_text": "祭賽国（さいさいこく）"
+    "gloss_ja": "三蔵一行が宝を取り戻した国。"
+  - "entry_id": "xy-entry-0874"
+    "form_id": "xy-form-1610"
+    "segment_id": "xy-ch64-002"
+    "translation_span":
+      "start": 31
+      "end": 33
+      "exact": "三蔵"
+    "rendered_text": "三蔵（さんぞう）"
+  - "entry_id": "xy-ch62-jinguang-temple"
+    "form_id": "xy-ch63-fulong-temple-form"
+    "segment_id": "xy-ch64-002"
+    "translation_span":
+      "start": 201
+      "end": 204
+      "exact": "伏竜寺"
+    "rendered_text": "伏竜寺（ふくりゅうじ）"
+    "gloss_ja": "金光寺に贈られた新しい寺名。"
+  - "entry_id": "xy-entry-0439"
+    "form_id": "xy-form-0498"
+    "segment_id": "xy-ch64-002"
+    "translation_span":
+      "start": 316
+      "end": 318
+      "exact": "西天"
+    "rendered_text": "西天（さいてん）"
+    "gloss_ja": "西方にある仏たちの世界。"
+  - "entry_id": "xy-sun-wukong"
+    "form_id": "xy-wukong-short-form"
+    "segment_id": "xy-ch64-002"
+    "translation_span":
+      "start": 352
+      "end": 354
+      "exact": "悟空"
+    "rendered_text": "悟空（ごくう）"
+  - "entry_id": "xy-entry-0902"
+    "form_id": "xy-form-1939"
+    "segment_id": "xy-ch64-003"
+    "translation_span":
+      "start": 329
+      "end": 331
+      "exact": "八戒"
+    "rendered_text": "八戒（はっかい）"
+  - "entry_id": "xy-entry-1689"
+    "form_id": "xy-form-1998"
+    "segment_id": "xy-ch64-004"
+    "translation_span":
+      "start": 175
+      "end": 176
+      "exact": "柏"
+    "rendered_text": "柏（はく）"
+    "gloss_ja": "中国語で常緑の針葉樹を指す語。日本語のカシワとは異なる。"
+  - "entry_id": "xy-entry-0885"
+    "form_id": "xy-form-1028"
+    "segment_id": "xy-ch64-005"
+    "translation_span":
+      "start": 113
+      "end": 116
+      "exact": "沙悟浄"
+    "rendered_text": "沙悟浄（さごじょう）"
+  - "entry_id": "xy-ch64-thorn-ridge"
+    "form_id": "xy-ch64-thorn-ridge-form"
+    "segment_id": "xy-ch64-006"
+    "translation_span":
+      "start": 246
+      "end": 249
+      "exact": "荊棘嶺"
+    "rendered_text": "荊棘嶺（けいきょくれい）"
+    "gloss_ja": "茨の繁る長い尾根の名。"
+  - "entry_id": "xy-sun-wukong"
+    "form_id": "xy-form-0409"
+    "segment_id": "xy-ch64-009"
+    "translation_span":
+      "start": 239
+      "end": 241
+      "exact": "大聖"
+    "rendered_text": "大聖（たいせい）"
+    "gloss_ja": "悟空に対する尊称。"
+  - "entry_id": "xy-entry-0629"
+    "form_id": "xy-form-0726"
+    "segment_id": "xy-ch64-009"
+    "translation_span":
+      "start": 254
+      "end": 257
+      "exact": "土地神"
+    "rendered_text": "土地神（とちがみ）"
+    "gloss_ja": "その土地を守る神。ここでは老人自身がそう名乗る。"
+  - "entry_id": "xy-entry-0441"
+    "form_id": "xy-form-0500"
+    "segment_id": "xy-ch64-010"
+    "translation_span":
+      "start": 62
+      "end": 64
+      "exact": "聖僧"
+    "rendered_text": "聖僧（しょうそう）"
+    "gloss_ja": "徳の高い僧への敬称。"
+  - "entry_id": "xy-ch64-eighteen-old-man"
+    "form_id": "xy-ch64-eighteen-old-man-form"
+    "segment_id": "xy-ch64-010"
+    "translation_span":
+      "start": 100
+      "end": 103
+      "exact": "十八公"
+    "rendered_text": "十八公（じゅうはちこう）"
+    "gloss_ja": "三蔵を招いた老人の名乗り。"
+  - "entry_id": "xy-entry-1684"
+    "form_id": "xy-form-1992"
+    "segment_id": "xy-ch64-011"
+    "translation_span":
+      "start": 93
+      "end": 95
+      "exact": "天台"
+    "rendered_text": "天台（てんだい）"
+    "gloss_ja": "仙人や修行の故事で知られる中国の山。"
+  - "entry_id": "xy-entry-0614"
+    "form_id": "xy-form-1991"
+    "segment_id": "xy-ch64-011"
+    "translation_span":
+      "start": 113
+      "end": 115
+      "exact": "華岳"
+    "rendered_text": "華岳（かがく）"
+    "gloss_ja": "中国の名山、華山。"
+  - "entry_id": "xy-ch64-upright-old-man"
+    "form_id": "xy-ch64-upright-old-man-form"
+    "segment_id": "xy-ch64-012"
+    "translation_span":
+      "start": 390
+      "end": 393
+      "exact": "孤直公"
+    "rendered_text": "孤直公（こちょくこう）"
+    "gloss_ja": "霜のような姿をした老人の呼び名。"
+  - "entry_id": "xy-ch64-rising-cloud-master"
+    "form_id": "xy-ch64-rising-cloud-master-form"
+    "segment_id": "xy-ch64-012"
+    "translation_span":
+      "start": 408
+      "end": 411
+      "exact": "凌空子"
+    "rendered_text": "凌空子（りょうくうし）"
+    "gloss_ja": "青い鬢をした老人の呼び名。"
+  - "entry_id": "xy-ch64-cloud-brushing-old-man"
+    "form_id": "xy-ch64-cloud-brushing-old-man-form"
+    "segment_id": "xy-ch64-012"
+    "translation_span":
+      "start": 428
+      "end": 431
+      "exact": "拂雲叟"
+    "rendered_text": "拂雲叟（ふつうんそう）"
+    "gloss_ja": "中身が空ろと描かれる老人の呼び名。"
+  - "entry_id": "xy-ch64-eighteen-old-man"
+    "form_id": "xy-ch64-strong-joints-form"
+    "segment_id": "xy-ch64-012"
+    "translation_span":
+      "start": 456
+      "end": 458
+      "exact": "勁節"
+    "rendered_text": "勁節（けいせつ）"
+    "gloss_ja": "十八公自身が告げた号。"
+  - "entry_id": "xy-ch64-bamboo-seven-worthies"
+    "form_id": "xy-ch64-bamboo-seven-worthies-form"
+    "segment_id": "xy-ch64-017"
+    "translation_span":
+      "start": 82
+      "end": 84
+      "exact": "七賢"
+    "rendered_text": "七賢（しちけん）"
+    "gloss_ja": "竹林の七賢という、古代の文人たちの典故。"
+  - "entry_id": "xy-ch64-six-recluses"
+    "form_id": "xy-ch64-six-recluses-form"
+    "segment_id": "xy-ch64-017"
+    "translation_span":
+      "start": 101
+      "end": 103
+      "exact": "六逸"
+    "rendered_text": "六逸（ろくいつ）"
+    "gloss_ja": "李白ら文人六人の集い、竹溪の六逸。"
+  - "entry_id": "xy-ch64-four-whiteheads"
+    "form_id": "xy-ch64-four-whiteheads-form"
+    "segment_id": "xy-ch64-020"
+    "translation_span":
+      "start": 85
+      "end": 87
+      "exact": "四皓"
+    "rendered_text": "四皓（しこう）"
+    "gloss_ja": "漢の初めの隠者として伝わる白髪の四老人。"
+  - "entry_id": "xy-ch64-four-steadfast"
+    "form_id": "xy-ch64-four-steadfast-form"
+    "segment_id": "xy-ch64-020"
+    "translation_span":
+      "start": 141
+      "end": 143
+      "exact": "四操"
+    "rendered_text": "四操（しそう）"
+    "gloss_ja": "節操を備えた四人という、老人たちの自称。"
+  - "entry_id": "xy-entry-1389"
+    "form_id": "xy-form-1600"
+    "segment_id": "xy-ch64-021"
+    "translation_span":
+      "start": 59
+      "end": 61
+      "exact": "金山"
+    "rendered_text": "金山（きんざん）"
+    "gloss_ja": "三蔵が幼いころに救われた寺のある地。"
+  - "entry_id": "xy-entry-1560"
+    "form_id": "xy-form-1828"
+    "segment_id": "xy-ch64-022"
+    "translation_span":
+      "start": 340
+      "end": 342
+      "exact": "六根"
+    "rendered_text": "六根（ろっこん）"
+    "gloss_ja": "眼・耳・鼻・舌・身・意という六つの感覚の器官・はたらき。"
+  - "entry_id": "xy-ch58-six-consciousnesses"
+    "form_id": "xy-ch58-six-consciousnesses-form"
+    "segment_id": "xy-ch64-022"
+    "translation_span":
+      "start": 349
+      "end": 351
+      "exact": "六識"
+    "rendered_text": "六識（ろくしき）"
+    "gloss_ja": "六根によって生じる六つの認識のはたらき。"
+  - "entry_id": "xy-entry-1368"
+    "form_id": "xy-form-1574"
+    "segment_id": "xy-ch64-022"
+    "translation_span":
+      "start": 372
+      "end": 374
+      "exact": "菩提"
+    "rendered_text": "菩提（ぼだい）"
+    "gloss_ja": "仏の道の悟り。"
+  - "entry_id": "xy-ch64-yuanshi-in-discourse"
+    "form_id": "xy-ch64-yuanshi-in-discourse-form"
+    "segment_id": "xy-ch64-022"
+    "translation_span":
+      "start": 429
+      "end": 431
+      "exact": "元始"
+    "rendered_text": "元始（げんし）"
+    "gloss_ja": "道の根源を表す名。元始天尊を含意する可能性もある。"
+  - "entry_id": "xy-entry-0687"
+    "form_id": "xy-ch64-muni-buddha-form"
+    "segment_id": "xy-ch64-022"
+    "translation_span":
+      "start": 448
+      "end": 450
+      "exact": "牟尼"
+    "rendered_text": "牟尼（むに）"
+    "gloss_ja": "聖者、仏をいう尊称。ここでは珠の名ではない。"
+  - "entry_id": "xy-ch64-xiangwang"
+    "form_id": "xy-ch64-xiangwang-form"
+    "segment_id": "xy-ch64-022"
+    "translation_span":
+      "start": 462
+      "end": 464
+      "exact": "象罔"
+    "rendered_text": "象罔（しょうもう）"
+    "gloss_ja": "荘子の故事で知や視聴に頼らず玄珠を得るもの。無心のはたらき。"
+  - "entry_id": "xy-ch46-nirvana"
+    "form_id": "xy-ch46-nirvana-form"
+    "segment_id": "xy-ch64-022"
+    "translation_span":
+      "start": 476
+      "end": 478
+      "exact": "涅槃"
+    "rendered_text": "涅槃（ねはん）"
+    "gloss_ja": "迷いや苦を離れた仏教の悟りの境地。"
+  - "entry_id": "xy-entry-1369"
+    "form_id": "xy-form-1576"
+    "segment_id": "xy-ch64-022"
+    "translation_span":
+      "start": 545
+      "end": 547
+      "exact": "娑婆"
+    "rendered_text": "娑婆（しゃば）"
+    "gloss_ja": "人々が苦しみを忍んで暮らすこの世界。"
+  - "entry_id": "xy-entry-0824"
+    "form_id": "xy-form-0946"
+    "segment_id": "xy-ch64-022"
+    "translation_span":
+      "start": 558
+      "end": 560
+      "exact": "法界"
+    "rendered_text": "法界（ほっかい）"
+    "gloss_ja": "仏の真理が及ぶ世界。"
+  - "entry_id": "xy-ch64-genkan"
+    "form_id": "xy-ch64-genkan-form"
+    "segment_id": "xy-ch64-022"
+    "translation_span":
+      "start": 616
+      "end": 618
+      "exact": "玄関"
+    "rendered_text": "玄関（げんかん）"
+    "gloss_ja": "奥深い道や悟りへ入る関門。"
+  - "entry_id": "xy-ch36-non-arising"
+    "form_id": "xy-ch36-non-arising-form"
+    "segment_id": "xy-ch64-023"
+    "translation_span":
+      "start": 60
+      "end": 62
+      "exact": "無生"
+    "rendered_text": "無生（むしょう）"
+    "gloss_ja": "あらゆる現象には究極的に生じる実体がないという仏教の理。"
+  - "entry_id": "xy-ch64-lingbao-peak"
+    "form_id": "xy-ch64-lingbao-peak-form"
+    "segment_id": "xy-ch64-023"
+    "translation_span":
+      "start": 553
+      "end": 555
+      "exact": "霊宝"
+    "rendered_text": "霊宝（れいほう）"
+    "gloss_ja": "詩中の峰に冠された名。具体的な所在地は確定しない。"
+  - "entry_id": "xy-ch61-dragon-flower"
+    "form_id": "xy-ch64-dragon-flower-form"
+    "segment_id": "xy-ch64-023"
+    "translation_span":
+      "start": 588
+      "end": 590
+      "exact": "竜華"
+    "rendered_text": "竜華（りゅうげ）"
+    "gloss_ja": "弥勒の説法の会にちなむ名称。"
+  - "entry_id": "xy-ch64-cloud-brushing-old-man"
+    "form_id": "xy-ch64-fuyun-short-form"
+    "segment_id": "xy-ch64-023"
+    "translation_span":
+      "start": 668
+      "end": 670
+      "exact": "拂雲"
+    "rendered_text": "拂雲（ふつうん）"
+    "gloss_ja": "拂雲叟の名を短く呼んだ形。"
+  - "entry_id": "xy-ch64-wood-immortal-hermitage"
+    "form_id": "xy-ch64-wood-immortal-hermitage-form"
+    "segment_id": "xy-ch64-024"
+    "translation_span":
+      "start": 22
+      "end": 25
+      "exact": "木仙庵"
+    "rendered_text": "木仙庵（もくせんあん）"
+    "gloss_ja": "石の家に掲げられた庵の名。"
+  - "entry_id": "xy-ch64-fuling-cake"
+    "form_id": "xy-ch64-fuling-cake-form"
+    "segment_id": "xy-ch64-024"
+    "translation_span":
+      "start": 75
+      "end": 78
+      "exact": "茯苓膏"
+    "rendered_text": "茯苓膏（ぶくりょうこう）"
+    "gloss_ja": "茯苓を用いた練り物。香りのよい飲み物とともに出された食物。"
+  - "entry_id": "xy-ch64-six-dynasties"
+    "form_id": "xy-ch64-six-dynasties-form"
+    "segment_id": "xy-ch64-035"
+    "translation_span":
+      "start": 4
+      "end": 6
+      "exact": "六朝"
+    "rendered_text": "六朝（りくちょう）"
+    "gloss_ja": "呉・東晋・宋・斉・梁・陳の六王朝。ここではその時代の文学。"
+  - "entry_id": "xy-ch64-four-beginnings"
+    "form_id": "xy-ch64-four-beginnings-form"
+    "segment_id": "xy-ch64-035"
+    "translation_span":
+      "start": 32
+      "end": 34
+      "exact": "四始"
+    "rendered_text": "四始（しし）"
+    "gloss_ja": "詩経の風・小雅・大雅・頌、またその冒頭篇をいう名称。"
+  - "entry_id": "xy-ch64-shi-ya"
+    "form_id": "xy-ch64-shi-ya-form"
+    "segment_id": "xy-ch64-035"
+    "translation_span":
+      "start": 50
+      "end": 51
+      "exact": "雅"
+    "rendered_text": "雅（が）"
+    "gloss_ja": "詩経の部門で、小雅と大雅からなる。"
+  - "entry_id": "xy-ch64-shi-song"
+    "form_id": "xy-ch64-shi-song-form"
+    "segment_id": "xy-ch64-035"
+    "translation_span":
+      "start": 55
+      "end": 56
+      "exact": "頌"
+    "rendered_text": "頌（しょう）"
+    "gloss_ja": "詩経の祭祀の歌の部門。仏教の偈頌とは用法が異なる。"
+  - "entry_id": "xy-ch64-banmen"
+    "form_id": "xy-ch64-banmen-form"
+    "segment_id": "xy-ch64-036"
+    "translation_span":
+      "start": 31
+      "end": 33
+      "exact": "班門"
+    "rendered_text": "班門（はんもん）"
+    "gloss_ja": "名工の魯班の門前。名人の前で拙い腕を見せるたとえ。"
+  - "entry_id": "xy-ch64-dingzhen"
+    "form_id": "xy-ch64-dingzhen-form"
+    "segment_id": "xy-ch64-038"
+    "translation_span":
+      "start": 119
+      "end": 121
+      "exact": "頂針"
+    "rendered_text": "頂針（ちょうしん）"
+    "gloss_ja": "前の句の末字を、次の句の初めへつなぐ技法。"
+  - "entry_id": "xy-ch64-western-mountain-in-poem"
+    "form_id": "xy-ch64-western-mountain-in-poem-form"
+    "segment_id": "xy-ch64-043"
+    "translation_span":
+      "start": 9
+      "end": 11
+      "exact": "西山"
+    "rendered_text": "西山（せいざん）"
+    "gloss_ja": "詩で節義を守る老人のいる西の山。具体的な山は未確定。"
+  - "entry_id": "xy-ch64-censorate"
+    "form_id": "xy-ch64-censorate-form"
+    "segment_id": "xy-ch64-045"
+    "translation_span":
+      "start": 37
+      "end": 40
+      "exact": "御史台"
+    "rendered_text": "御史台（ぎょしだい）"
+    "gloss_ja": "官吏を監察する役所。烏に結び付いた典故がある。"
+  - "entry_id": "xy-ch64-yangchun-baixue"
+    "form_id": "xy-ch64-yangchun-baixue-form"
+    "segment_id": "xy-ch64-046"
+    "translation_span":
+      "start": 24
+      "end": 28
+      "exact": "陽春白雪"
+    "rendered_text": "陽春白雪（ようしゅんはくせつ）"
+    "gloss_ja": "高雅な楽曲の名で、優れた詩文や芸術のたとえ。"
+  - "entry_id": "xy-entry-0865"
+    "form_id": "xy-form-0991"
+    "segment_id": "xy-ch64-047"
+    "translation_span":
+      "start": 3
+      "end": 5
+      "exact": "錫杖"
+    "rendered_text": "錫杖（しゃくじょう）"
+    "gloss_ja": "僧が持つ、上部に金属の環を付けた杖。"
+  - "entry_id": "xy-entry-0687"
+    "form_id": "xy-form-0940"
+    "segment_id": "xy-ch64-047"
+    "translation_span":
+      "start": 22
+      "end": 24
+      "exact": "法王"
+    "rendered_text": "法王（ほうおう）"
+    "gloss_ja": "仏に対する尊称。"
+  - "entry_id": "xy-term-047"
+    "form_id": "xy-form-0517"
+    "segment_id": "xy-ch64-047"
+    "translation_span":
+      "start": 57
+      "end": 59
+      "exact": "霊芝"
+    "rendered_text": "霊芝（れいし）"
+    "gloss_ja": "瑞祥や長寿に結び付けて詠まれる菌類。"
+  - "entry_id": "xy-ten-directions"
+    "form_id": "xy-ten-directions-form"
+    "segment_id": "xy-ch64-047"
+    "translation_span":
+      "start": 121
+      "end": 123
+      "exact": "十方"
+    "rendered_text": "十方（じっぽう）"
+    "gloss_ja": "東西南北・四隅・上下、すべての方角。"
+  - "entry_id": "xy-entry-0826"
+    "form_id": "xy-form-0948"
+    "segment_id": "xy-ch64-047"
+    "translation_span":
+      "start": 162
+      "end": 164
+      "exact": "極楽"
+    "rendered_text": "極楽（ごくらく）"
+    "gloss_ja": "苦しみのない仏の世界。"
+  - "entry_id": "xy-ch64-spirit-chun"
+    "form_id": "xy-ch64-spirit-chun-form"
+    "segment_id": "xy-ch64-049"
+    "translation_span":
+      "start": 21
+      "end": 23
+      "exact": "霊椿"
+    "rendered_text": "霊椿（れいちん）"
+    "gloss_ja": "長寿を象徴する木の名。日本語のツバキには限定しない。"
+  - "entry_id": "xy-ch36-fuling"
+    "form_id": "xy-ch36-fuling-form"
+    "segment_id": "xy-ch64-049"
+    "translation_span":
+      "start": 142
+      "end": 144
+      "exact": "茯苓"
+    "rendered_text": "茯苓（ぶくりょう）"
+    "gloss_ja": "中国で用いられる生薬の名。"
+  - "entry_id": "xy-ch64-four-excellences-hall"
+    "form_id": "xy-ch64-four-excellences-hall-form"
+    "segment_id": "xy-ch64-051"
+    "translation_span":
+      "start": 27
+      "end": 30
+      "exact": "四絶堂"
+    "rendered_text": "四絶堂（しぜつどう）"
+    "gloss_ja": "詩に出る堂の名。具体的な所在地は未確定。"
+  - "entry_id": "xy-ch64-taiqing-palace"
+    "form_id": "xy-ch64-taiqing-palace-form"
+    "segment_id": "xy-ch64-053"
+    "translation_span":
+      "start": 19
+      "end": 22
+      "exact": "太清宮"
+    "rendered_text": "太清宮（たいせいきゅう）"
+    "gloss_ja": "老子を祀る宮観の名。同名の施設が複数ある。"
+  - "entry_id": "xy-nine-springs"
+    "form_id": "xy-nine-springs-form"
+    "segment_id": "xy-ch64-053"
+    "translation_span":
+      "start": 101
+      "end": 103
+      "exact": "九泉"
+    "rendered_text": "九泉（きゅうせん）"
+    "gloss_ja": "地の下の深い所。ここでは根の深さを詠む。"
+  - "entry_id": "xy-ch64-qiao"
+    "form_id": "xy-ch64-qiao-form"
+    "segment_id": "xy-ch64-055"
+    "translation_span":
+      "start": 4
+      "end": 6
+      "exact": "淇澳"
+    "rendered_text": "淇澳（きいく）"
+    "gloss_ja": "詩経の淇奧に通じる、淇水の曲がった岸。"
+  - "entry_id": "xy-ch64-weichuan"
+    "form_id": "xy-ch64-weichuan-form"
+    "segment_id": "xy-ch64-055"
+    "translation_span":
+      "start": 25
+      "end": 27
+      "exact": "渭川"
+    "rendered_text": "渭川（いせん）"
+    "gloss_ja": "渭水の流域。広い竹林のある地として知られる。"
+  - "entry_id": "xy-ch64-xiang-e"
+    "form_id": "xy-ch64-xiang-e-form"
+    "segment_id": "xy-ch64-055"
+    "translation_span":
+      "start": 52
+      "end": 54
+      "exact": "湘娥"
+    "rendered_text": "湘娥（しょうが）"
+    "gloss_ja": "舜の妃たちにちなむ呼称。涙が竹を染めたという伝承がある。"
+  - "entry_id": "xy-ch48-ziyou"
+    "form_id": "xy-ch48-ziyou-form"
+    "segment_id": "xy-ch64-055"
+    "translation_span":
+      "start": 129
+      "end": 131
+      "exact": "子猷"
+    "rendered_text": "子猷（しゆう）"
+    "gloss_ja": "竹を愛した故事で知られる晋の王子猷。"
+  - "entry_id": "xy-ch64-ziyou-confucian"
+    "form_id": "xy-ch64-ziyou-confucian-form"
+    "segment_id": "xy-ch64-056"
+    "translation_span":
+      "start": 34
+      "end": 36
+      "exact": "子游"
+    "rendered_text": "子游（しゆう）"
+    "gloss_ja": "孔子の弟子で、文学に優れたとされる人物。"
+  - "entry_id": "xy-ch64-zixia"
+    "form_id": "xy-ch64-zixia-form"
+    "segment_id": "xy-ch64-056"
+    "translation_span":
+      "start": 42
+      "end": 44
+      "exact": "子夏"
+    "rendered_text": "子夏（しか）"
+    "gloss_ja": "孔子の弟子で、古書や文学に通じたとされる人物。"
+  - "entry_id": "xy-entry-1745"
+    "form_id": "xy-form-2073"
+    "segment_id": "xy-ch64-058"
+    "translation_span":
+      "start": 96
+      "end": 98
+      "exact": "比甲"
+    "rendered_text": "比甲（ひこう）"
+    "gloss_ja": "袖のない上着。"
+  - "entry_id": "xy-ch64-daji-variant"
+    "form_id": "xy-ch64-daji-variant-form"
+    "segment_id": "xy-ch64-058"
+    "translation_span":
+      "start": 163
+      "end": 165
+      "exact": "妲姫"
+    "rendered_text": "妲姫（だっき）"
+    "gloss_ja": "美貌のたとえに出る古代の女性名。妲己に通じる表記と解される。"
+  - "entry_id": "xy-ch64-apricot-immortal"
+    "form_id": "xy-ch64-apricot-immortal-form"
+    "segment_id": "xy-ch64-059"
+    "translation_span":
+      "start": 23
+      "end": 25
+      "exact": "杏仙"
+    "rendered_text": "杏仙（きょうせん）"
+    "gloss_ja": "訪ねてきた仙女を老人たちが呼ぶ名。"
+  - "entry_id": "xy-ch64-high-tang"
+    "form_id": "xy-ch64-high-tang-form"
+    "segment_id": "xy-ch64-060"
+    "translation_span":
+      "start": 136
+      "end": 138
+      "exact": "盛唐"
+    "rendered_text": "盛唐（せいとう）"
+    "gloss_ja": "唐の盛期。ここでは詩の高い格調をほめる言葉。"
+  - "entry_id": "xy-ch64-han-wu-wang"
+    "form_id": "xy-ch64-han-wu-wang-form"
+    "segment_id": "xy-ch64-061"
+    "translation_span":
+      "start": 13
+      "end": 16
+      "exact": "漢武王"
+    "rendered_text": "漢武王（かんぶおう）"
+    "gloss_ja": "天蓋に関連して詠まれる王の名。底本の王を帝に改めていない。"
+  - "entry_id": "xy-entry-1116"
+    "form_id": "xy-form-1275"
+    "segment_id": "xy-ch64-061"
+    "translation_span":
+      "start": 34
+      "end": 36
+      "exact": "孔子"
+    "rendered_text": "孔子（こうし）"
+    "gloss_ja": "中国古代の思想家、儒家の祖。"
+  - "entry_id": "xy-ch64-dong-immortal"
+    "form_id": "xy-ch64-dong-immortal-form"
+    "segment_id": "xy-ch64-061"
+    "translation_span":
+      "start": 54
+      "end": 56
+      "exact": "董仙"
+    "rendered_text": "董仙（とうせん）"
+    "gloss_ja": "医仙として伝わる董奉を指すと解される呼称。"
+  - "entry_id": "xy-ch64-sunchu"
+    "form_id": "xy-ch64-sunchu-form"
+    "segment_id": "xy-ch64-061"
+    "translation_span":
+      "start": 73
+      "end": 75
+      "exact": "孫楚"
+    "rendered_text": "孫楚（そんそ）"
+    "gloss_ja": "晋の文人。介子推を祭る文が伝わる。"
+  - "entry_id": "xy-ch64-cold-food"
+    "form_id": "xy-ch64-cold-food-form"
+    "segment_id": "xy-ch64-061"
+    "translation_span":
+      "start": 85
+      "end": 87
+      "exact": "寒食"
+    "rendered_text": "寒食（かんしょく）"
+    "gloss_ja": "火を使わず、用意しておいた冷たい物を食べる春の習俗。"
+  - "entry_id": "xy-ch64-honey-color"
+    "form_id": "xy-ch64-honey-color-form"
+    "segment_id": "xy-ch64-063"
+    "translation_span":
+      "start": 626
+      "end": 629
+      "exact": "蜜合色"
+    "rendered_text": "蜜合色（みつごうしょく）"
+    "gloss_ja": "蜂蜜を思わせる淡い黄系の古い色名。"
+  - "entry_id": "xy-ch64-chinese-juniper"
+    "form_id": "xy-ch64-chinese-juniper-form"
+    "segment_id": "xy-ch64-066"
+    "translation_span":
+      "start": 73
+      "end": 74
+      "exact": "檜"
+    "rendered_text": "檜（かい）"
+    "gloss_ja": "中国語の木の名。日本語のヒノキと同じ種とは限らない。"
+  - "entry_id": "xy-ch48-winter-plum"
+    "form_id": "xy-ch48-winter-plum-form"
+    "segment_id": "xy-ch64-066"
+    "translation_span":
+      "start": 138
+      "end": 140
+      "exact": "臘梅"
+    "rendered_text": "臘梅（ろうばい）"
+    "gloss_ja": "冬に黄色い香りのよい花をつける木。"
+  - "entry_id": "xy-ch64-red-osmanthus"
+    "form_id": "xy-ch64-red-osmanthus-form"
+    "segment_id": "xy-ch64-066"
+    "translation_span":
+      "start": 150
+      "end": 152
+      "exact": "丹桂"
+    "rendered_text": "丹桂（たんけい）"
+    "gloss_ja": "赤みを帯びた花をつける桂の類。"
+  - "entry_id": "xy-ch64-wingnut-name"
+    "form_id": "xy-ch64-wingnut-name-form"
+    "segment_id": "xy-ch64-066"
+    "translation_span":
+      "start": 375
+      "end": 377
+      "exact": "楓楊"
+    "rendered_text": "楓楊（ふうよう）"
+    "gloss_ja": "中国語の木の名。先の楓と表記が異なるまま残した。"
+  - "entry_id": "xy-entry-0902"
+    "form_id": "xy-form-1938"
+    "segment_id": "xy-ch64-066"
+    "translation_span":
+      "start": 451
+      "end": 453
+      "exact": "悟能"
+    "rendered_text": "悟能（ごのう）"
+    "gloss_ja": "観音菩薩が八戒に与えた法名。"
+"provenance":
+  "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-064-source-1455613-zh-hant.txt"
+  "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-064-manifest-1455613.json"
+  "acquired_at": "2026-10-25"
+  "actual_acquisition_url": "https://zh.wikisource.org/w/index.php?oldid=1455613&title=西遊記/第064回"
+  "fixed_url_fetch_success": true
+  "revision_identification": "固定版の版表示とフッターがoldid=1455613および2018-05-12 07:10を示す。秒・タイムゾーンは未確認。"
+  "source_normalization": "固定版の番号付き表示全308行をL0〜L307で保存。本文抽出では行頭・行末の表示上の空白のみ除去し、連続する韻文表示行を改行で結合。漢字、句読点、異綴り、括弧の欠落・不整合は補訂しない。YAML位置はスナップショットの物理行で表示番号に1を加える。"
+  "pretranslation_workflow": "実際のAGENTS.md→ルートREADME→翻訳スキル→作品READMEと第056・063回の口調→YAML仕様・辞書README→AUTHOR_PROTOCOL。全原文を通読しchapter-064-voices.mdを作成後に翻訳。"
+  "dictionary_base_commit_note": "No Git operations. Frozen input bytes and cumulative dependency hashes identify the baseline."
+  "dictionary_base_sha256": "af5fde3d95eae1f2d3fb5166bbe2d9f0022998c5758e92f021af9d60c5e85982"
+  "dictionary_effective_base_sha256": "7c6f6b094fb714ed696f74bfec00fbb55084cb780cda7fb05bbde9a5cf5d3e60"
+  "dictionary_dependencies":
+  - "chapter": 53
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch063/dependencies/chapter-053-lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-053-lexicon-patch.json"
+    "sha256": "818ddc483692470d0d015d33e494d9f5e59f507e58387e08df3471b537d2fbfb"
+  - "chapter": 54
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch063/dependencies/chapter-054-lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-054-lexicon-patch.json"
+    "sha256": "3e58aac2d5c9a8cca3fae2ebe25ea1e6c66042bf9d4e015716fa21c1448f5200"
+  - "chapter": 55
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch063/dependencies/chapter-055-lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-055-lexicon-patch.json"
+    "sha256": "1f9e2148c48c3dc0c3e0e472fe00f32a416ed205c2dce01e8692e0482a3726a6"
+  - "chapter": 56
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch063/dependencies/chapter-056-lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-056-lexicon-patch.json"
+    "sha256": "e4c7d18eeabeddda46dd8555e6e37d6e5254982b77223e4bb9d2259b5930a8a3"
+  - "chapter": 57
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch063/dependencies/chapter-057-lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-057-lexicon-patch.json"
+    "sha256": "84455c592a51892268700b7954a0f416eec21ddf2e37e53a98f38185b7d6a5f0"
+  - "chapter": 58
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch063/dependencies/chapter-058-lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-058-lexicon-patch.json"
+    "sha256": "a644efca7dab3d8555f3fa07a0b7ed6ff2785ecbf33e76cfa44faae31491d93e"
+  - "chapter": 59
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch063/dependencies/chapter-059-lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-059-lexicon-patch.json"
+    "sha256": "5d2bcb1e038de90d47fd42eabd0e7fadce7f52c4faf9b3de2a68f50ea2c974d8"
+  - "chapter": 60
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch063/dependencies/chapter-060-lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-060-lexicon-patch.json"
+    "sha256": "4166a386608157350a6b485e90eb92ff91230d94af069a5f9e22525873b0e7b6"
+  - "chapter": 61
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch063/dependencies/chapter-061-lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-061-lexicon-patch.json"
+    "sha256": "68fea0de6640c111c9cfcb1c2ca9d23f0a8308d13501333613480e7e36377be5"
+  - "chapter": 62
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch063/dependencies/chapter-062-lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-062-lexicon-patch.json"
+    "sha256": "fd3a2deac4c7f58485ded345c743dd7e69008ac948c79b70575eee81f6b73e09"
+  - "chapter": 63
+    "path": "/workspace/scratch/0f1ed9b6953a/xiyouji31-100/ch063/lexicon-patch.json"
+    "frozen_path": "dependencies/chapter-063-lexicon-patch.json"
+    "sha256": "ff3fb34f6934eb30395def3ea109e0014c792afe523557f73bdc76dc1200dbe0"
+  "review_note": "別担当AIによる全67対訳、全30詩群、22注の全文と正確なクリック開始位置、80読み、76段落末語釈、43新規辞書項目と2既存項目への語形追加を独立照合。人間・専門家校訂および実ブラウザ確認ではない。review_changesに記録する限定修正後、全文HTMLを再生成した。"
+  "independent_review":
+    "reviewer": "independent AI reviewer (different author agent)"
+    "report": "independent-review.json"
+    "changes": "review-changes.json"
+    "source_verification": "review-source-verification.json"
+    "fixed_url_acquisition": "直接openは失敗したが、現行ページの固定リンクをclickしてoldid=1455613を取得。全308表示行を照合。"
+    "scope": "67 source units, 30 poem groups, 22 full notes at exact starts, 80 readings, 76 glosses"
+    "human_expert_collation": false
+    "actual_browser_review": false
+    "narrow_followup":
+      "report": "review-followup-findings.json"
+      "history": "review-round-1/READY.sha256"
+      "scope": "Four inaccurate actor/count/time review comments corrected only; same-concept 龍華/竜華 duplication replaced by additive variant form and occurrence rebinding. All source, Japanese body, note, reading text, gloss and spans unchanged."
+      "historical_dictionary_inputs_preserved": true
+      "current_canonical_fields_must_not_be_overwritten": true
+...
