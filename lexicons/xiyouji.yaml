@@ -3210,6 +3210,46 @@
     "title": "日本実業出版社「四字熟語の辞典」魑魅魍魎（JLogos本文、見出しの読みと山林・沼地の怪物義を確認）"
     "url": "https://www.jlogos.com/d008/4373726.html"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch68-primary-1455617"
+    "title": "中文維基文庫 西遊記 第068回 固定版1455617（固定URL全209表示行取得成功）"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455617&title=西遊記/第068回"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch68-juan"
+    "title": "教育部異體字字典 \U00029707（検索表示で巻き物の食物という語義を確認）"
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=109853"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch68-zhangzhi"
+    "title": "教育部重編國語辭典 獐智（検索表示）"
+    "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=獐智"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch68-zhe-gong"
+    "title": "春秋左傳・定公十三年（検索表示。直接取得は403）"
+    "url": "https://ctext.org/chun-qiu-zuo-zhuan/ding-gong-shi-san-nian/zh"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch68-shiji"
+    "title": "史記巻七 項羽本紀（本文取得。項羽為魯公と沛公を確認）"
+    "url": "https://zh.wikisource.org/wiki/史記/卷007"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch68-nanjing61"
+    "title": "難経六十一難（中國哲學書電子化計劃の原文検索表示）"
+    "url": "https://ctext.org/dictionary.pl?char=六十一&if=gb"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch68-medical-books"
+    "title": "国立国会図書館 素問・霊枢・難経（書誌検索表示、日本語読み）"
+    "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002803271"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch68-maijue"
+    "title": "京都大学貴重資料デジタルアーカイブ 脈訣（所蔵書誌検索表示、日本語読み）"
+    "url": "https://rmda.kulib.kyoto-u.ac.jp/item/rb00005301"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch68-mouth-glyph"
+    "title": "漢典 \U00022D6E（取得表示では字形と音のみ確認）"
+    "url": "https://zdic.net/hant/\U00022D6E"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch68-taijian"
+    "title": "教育部重編國語辭典 太監（検索表示で宦官の通称を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=49813&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -4106,6 +4146,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+      - "id": "xy-ch68-twentyfour-qi-form"
+        "text": "二十四気"
+        "relation": "alias"
+        "reading":
+          "kana": "にじゅうしき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
   - "id": "xy-term-046"
     "kind": "term"
     "headword": "陰陽"
@@ -4402,6 +4451,15 @@
           "source_ids":
             - "xy-ch67-primary-1455616"
           "reason_ja": "構成字の通常の日本語音訓と語構成から採用。語形全体の日本語仮名を直接明記する資料は未確認で、中国語原文の出現を仮名読みの実証とはしない。"
+      - "id": "xy-ch68-holy-elder-sun-form"
+        "text": "神僧孫長老"
+        "relation": "title"
+        "reading":
+          "kana": "しんそうそんちょうろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -22619,6 +22677,15 @@
           "source_ids":
             - "xy-reference-333"
           "reason_ja": "劇団影法師の鑑賞資料に、長安と対応する仮名「ちょうあん」が明記されている。"
+      - "id": "xy-ch68-changan-city-form"
+        "text": "長安城"
+        "relation": "alias"
+        "reading":
+          "kana": "ちょうあんじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-0923"
     "kind": "term"
     "headword": "疥癬"
@@ -25581,6 +25648,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "本文の語形「醬」を日本語の通常の漢字音訓・語構成から「ひしお」と読む推定。当該表記と文脈の読みを明記する信頼資料は今回未確認。"
+      - "id": "xy-ch68-jiang-shinjitai-form"
+        "text": "醤"
+        "relation": "alias"
+        "reading":
+          "kana": "ひしお"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-1081"
     "kind": "object"
     "headword": "蓑"
@@ -27634,6 +27710,16 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "本文の語形「宦官」を日本語の通常の漢字音訓・語構成から「かんがん」と読む推定。当該表記と文脈の読みを明記する信頼資料は今回未確認。"
+      - "id": "xy-ch68-eunuch-taijian-form"
+        "text": "太監"
+        "relation": "title"
+        "reading":
+          "kana": "たいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+            - "xy-ch68-taijian"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。 教育部辞典の検索表示で宦官との語義対応は確認したが、日本語読みの根拠とはしない。"
   - "id": "xy-entry-1195"
     "kind": "title"
     "headword": "太后"
@@ -27842,6 +27928,15 @@
           "source_ids":
             - "xy-reference-298"
           "reason_ja": "「酆都（ほうと）」と明記し、道教で死者の世界を表す語と説明。"
+      - "id": "xy-ch68-fengdu-city-form"
+        "text": "酆都城"
+        "relation": "alias"
+        "reading":
+          "kana": "ほうとじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-1207"
     "kind": "person"
     "headword": "崔珏"
@@ -28368,6 +28463,15 @@
           "source_ids":
             - "xy-reference-306"
           "reason_ja": "辞典が「李淵」の読み「りえん」を明記。"
+      - "id": "xy-ch68-tang-gaozu-form"
+        "text": "高祖"
+        "relation": "title"
+        "reading":
+          "kana": "こうそ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-1235"
     "kind": "person"
     "headword": "元吉"
@@ -30362,6 +30466,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と仏教語の慣用音から推定。語形全体の読みを明記する資料は未確認。"
+      - "id": "xy-ch68-auspicious-yellow-day-form"
+        "text": "黄道吉日"
+        "relation": "alias"
+        "reading":
+          "kana": "こうどうきちじつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-1335"
     "kind": "object"
     "headword": "仏龕"
@@ -31172,6 +31285,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と仏教語の慣用音から推定。語形全体の読みを明記する資料は未確認。"
+      - "id": "xy-ch68-mahayana-sutras-form"
+        "text": "大乗経"
+        "relation": "alias"
+        "reading":
+          "kana": "だいじょうきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
   - "id": "xy-entry-1379"
     "kind": "title"
     "headword": "司香巡堂官"
@@ -58902,3 +59024,649 @@
           "source_ids":
             - "xy-ch67-six-desires"
           "reason_ja": "取得した検索表示で、この語形の日本語仮名を確認した。全文取得とは区別する。"
+  - "id": "xy-ch68-jade-terrace"
+    "kind": "place"
+    "headword": "瑶台"
+    "definition_ja": "玉で飾った高殿。仙境の美しい高台や宮殿を表す詩的な語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "諸仏と永く住まうという詩の文脈で解する。特定の既出の宮殿や瑶池とは同定しない。"
+    "forms":
+      - "id": "xy-ch68-jade-terrace-form"
+        "text": "瑶台"
+        "relation": "preferred"
+        "reading":
+          "kana": "ようだい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-zhuzi-state"
+    "kind": "place"
+    "headword": "朱紫国"
+    "definition_ja": "城上の旗に国名を掲げる西方の王国。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "当該原文の役割と文脈を確認。後の病因・人物・結末を追加しない。"
+    "forms":
+      - "id": "xy-ch68-zhuzi-state-form"
+        "text": "朱紫国"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅしこく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-huitong-hostel"
+    "kind": "place"
+    "headword": "会同館"
+    "definition_ja": "諸方から来る公の旅人を迎え、宿や食料を提供する館。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "当該原文の役割と文脈を確認。後の病因・人物・結末を追加しない。"
+    "forms":
+      - "id": "xy-ch68-huitong-hostel-form"
+        "text": "会同館"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいどうかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-zhuzi-wufeng-tower"
+    "kind": "place"
+    "headword": "五鳳楼"
+    "definition_ja": "朱紫国の宮廷へ入る際に通る楼。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "朱紫国に到着した三蔵の移動先。祭賽国・天界等の同名施設へ表記だけで統合しない。"
+    "forms":
+      - "id": "xy-ch68-zhuzi-wufeng-tower-form"
+        "text": "五鳳楼"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごほうろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-zhuzi-duan-gate"
+    "kind": "place"
+    "headword": "端門"
+    "definition_ja": "朱紫国の宮廷で、来訪者が取り次ぎを願う門。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "朱紫国の宮廷に属する門という文脈。烏鶏国・西梁女国の同名の門とは場所を区別する。"
+    "forms":
+      - "id": "xy-ch68-zhuzi-duan-gate-form"
+        "text": "端門"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんもん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-seven-heroes"
+    "kind": "term"
+    "headword": "七雄"
+    "definition_ja": "戦国時代に勢力を争った七つの国。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "六国が秦へ帰する直前の歴史叙述に基づく。本文にない国名の一覧は加えない。"
+    "forms":
+      - "id": "xy-ch68-seven-heroes-form"
+        "text": "七雄"
+        "relation": "preferred"
+        "reading":
+          "kana": "しちゆう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-lu-in-history"
+    "kind": "person"
+    "headword": "魯"
+    "definition_ja": "秦末の争乱で沛と並べられる呼称。魯公と呼ばれた項羽を指すと解される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+        - "xy-ch68-shiji"
+      "reason_ja": "秦から漢へ移る文脈と、史記にある項羽為魯公の記述を合わせた解釈。単なる同字の地名や神将とは結ばない。"
+    "forms":
+      - "id": "xy-ch68-lu-in-history-form"
+        "text": "魯"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-pei-in-history"
+    "kind": "person"
+    "headword": "沛"
+    "definition_ja": "秦末の争乱で魯と並べられる呼称。沛公と呼ばれた劉邦を指すと解される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+        - "xy-ch68-shiji"
+      "reason_ja": "秦から漢へ移る文脈と、項羽本紀の対立する沛公という呼称に基づく。省略形なので同定に留保を残す。"
+    "forms":
+      - "id": "xy-ch68-pei-in-history-form"
+        "text": "沛"
+        "relation": "preferred"
+        "reading":
+          "kana": "はい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-sima-dynasty-clan"
+    "kind": "person"
+    "headword": "司馬氏"
+    "definition_ja": "晋の皇室に属する司馬姓の一族。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "漢から司馬、さらに晋へ続く通史の文脈。特定の一人の個人名に置き換えない。"
+    "forms":
+      - "id": "xy-ch68-sima-dynasty-clan-form"
+        "text": "司馬氏"
+        "relation": "preferred"
+        "reading":
+          "kana": "しばし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-liu-song"
+    "kind": "place"
+    "headword": "宋"
+    "definition_ja": "南朝の王朝の一つ。斉・梁・陳と並べて挙げられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "三蔵の通史での列挙と王朝交代の文脈による。人名・姓の同形語とは区別する。"
+    "forms":
+      - "id": "xy-ch68-liu-song-form"
+        "text": "宋"
+        "relation": "preferred"
+        "reading":
+          "kana": "そう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-southern-qi"
+    "kind": "place"
+    "headword": "斉"
+    "definition_ja": "南朝の王朝の一つ。宋・梁・陳と並べて挙げられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "三蔵の通史での列挙と王朝交代の文脈による。人名・姓の同形語とは区別する。"
+    "forms":
+      - "id": "xy-ch68-southern-qi-form"
+        "text": "斉"
+        "relation": "preferred"
+        "reading":
+          "kana": "せい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-liang-dynasty"
+    "kind": "place"
+    "headword": "梁"
+    "definition_ja": "南朝の王朝の一つ。宋・斉・陳と並べて挙げられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "三蔵の通史での列挙と王朝交代の文脈による。人名・姓の同形語とは区別する。"
+    "forms":
+      - "id": "xy-ch68-liang-dynasty-form"
+        "text": "梁"
+        "relation": "preferred"
+        "reading":
+          "kana": "りょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-chen-dynasty"
+    "kind": "place"
+    "headword": "陳"
+    "definition_ja": "南朝の王朝の一つ。宋・斉・梁と並べて挙げられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "三蔵の通史での列挙と王朝交代の文脈による。人名・姓の同形語とは区別する。"
+    "forms":
+      - "id": "xy-ch68-chen-dynasty-form"
+        "text": "陳"
+        "relation": "preferred"
+        "reading":
+          "kana": "ちん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-sui-dynasty"
+    "kind": "place"
+    "headword": "隋"
+    "definition_ja": "唐に先立つ中国の王朝。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "三蔵の通史での列挙と王朝交代の文脈による。人名・姓の同形語とは区別する。"
+    "forms":
+      - "id": "xy-ch68-sui-dynasty-form"
+        "text": "隋"
+        "relation": "preferred"
+        "reading":
+          "kana": "ずい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch68-great-sui-form"
+        "text": "大隋"
+        "relation": "alias"
+        "reading":
+          "kana": "だいずい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-tang-li-clan"
+    "kind": "person"
+    "headword": "李氏"
+    "definition_ja": "唐の皇帝の李姓の一族。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "わが王李氏という三蔵の歴史叙述。劉全の妻を指す既存の李氏や別の同姓人物に統合しない。"
+    "forms":
+      - "id": "xy-ch68-tang-li-clan-form"
+        "text": "李氏"
+        "relation": "preferred"
+        "reading":
+          "kana": "りし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-zhuzi-pixiang-hall"
+    "kind": "place"
+    "headword": "披香殿"
+    "definition_ja": "朱紫国の宮廷で、国王と三蔵の食事を用意する殿。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "朱紫国宮廷で食膳を並べるという役割。天界の同名の殿とは別の場所として扱う。"
+    "forms":
+      - "id": "xy-ch68-zhuzi-pixiang-hall-form"
+        "text": "披香殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひこうでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-sugar-cake"
+    "kind": "object"
+    "headword": "糖糕"
+    "definition_ja": "糖を用いた甘い餅菓子の類。具体的な材料や製法は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "食物の列挙と文字の意味による。現代の特定地方の菓子と同定しない。"
+    "forms":
+      - "id": "xy-ch68-sugar-cake-form"
+        "text": "糖糕"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-juan-food"
+    "kind": "object"
+    "headword": "\U00029707子"
+    "definition_ja": "筒状に巻いた食物の類。具や製法は一定しない。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+        - "xy-ch68-juan"
+      "reason_ja": "教育部異體字字典の捲筒狀的食物という語義を検索表示で確認。西遊記の食物列挙に適用する。"
+    "forms":
+      - "id": "xy-ch68-juan-food-form"
+        "text": "\U00029707子"
+        "relation": "preferred"
+        "reading":
+          "kana": "けんし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-zheng-store-family"
+    "kind": "person"
+    "headword": "鄭家"
+    "definition_ja": "朱紫国で油・塩などの雑貨を商う家。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "館の役人が案内する店の家名。同姓の既出人物に結び付けない。"
+    "forms":
+      - "id": "xy-ch68-zheng-store-family-form"
+        "text": "鄭家"
+        "relation": "preferred"
+        "reading":
+          "kana": "ていけ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-gonggong"
+    "kind": "term"
+    "headword": "公公"
+    "definition_ja": "年長男性への敬称。宮中では宦官への呼びかけにも用いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "校尉たちが太監を公公と呼ぶ文脈と、祖父の呼び方に重ねる八戒の冗談に即した語義。"
+    "forms":
+      - "id": "xy-ch68-gonggong-form"
+        "text": "公公"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-three-broken-arms"
+    "kind": "term"
+    "headword": "三折肱"
+    "definition_ja": "腕を三たび折れば良医になるという古い言葉にちなみ、経験を積んだ医術を表す。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+        - "xy-ch68-zhe-gong"
+      "reason_ja": "左傳定公十三年の三折肱知為良醫を検索表示で確認。医術を褒める当該の語義と対応する。固定原典本文の直接取得は403。"
+    "forms":
+      - "id": "xy-ch68-three-broken-arms-form"
+        "text": "三折肱"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんせつこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-ceremonial-directorate"
+    "kind": "term"
+    "headword": "司礼監"
+    "definition_ja": "宮中の儀礼や伝達などに関わる、宦官の官署。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "太監が自ら司禮監內臣と名乗ることと、官署名の一般的な語義に基づく。物語の国へ明代官制の全職掌を当てはめない。"
+    "forms":
+      - "id": "xy-ch68-ceremonial-directorate-form"
+        "text": "司礼監"
+        "relation": "preferred"
+        "reading":
+          "kana": "しれいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-brocade-guards"
+    "kind": "term"
+    "headword": "錦衣校尉"
+    "definition_ja": "宮廷に属し、詔榜の掲示や取次に伴う武官たちの称号。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "太監が同行者をこの称号で紹介する。校尉一般とも禁衛組織・錦衣衛とも語の範囲が一致するとは限らず、錦衣を冠する具体的な武官称号として区別する。"
+    "forms":
+      - "id": "xy-ch68-brocade-guards-form"
+        "text": "錦衣校尉"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんいこうい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-dragon-couch"
+    "kind": "object"
+    "headword": "竜床"
+    "definition_ja": "国王・皇帝のための床や御座。場面により寝台または腰掛けとして描かれる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "王が倒れ込み、宮中で横になる場面の龍床を訳す。家具の構造は断定しない。"
+    "forms":
+      - "id": "xy-ch68-dragon-couch-form"
+        "text": "竜床"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-four-diagnoses"
+    "kind": "term"
+    "headword": "望・聞・問・切"
+    "definition_ja": "外見を見、声などを聞き、症状を問い、脈などを診るという伝統医学の四つの診察法。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+        - "xy-ch68-nanjing61"
+      "reason_ja": "当該原文の役割と文脈を確認。後の病因・人物・結末を追加しない。"
+    "forms":
+      - "id": "xy-ch68-four-diagnoses-form"
+        "text": "望・聞・問・切"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼう・ぶん・もん・せつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-meridians"
+    "kind": "term"
+    "headword": "経絡"
+    "definition_ja": "伝統医学で、気血が体内を巡る道筋とされたもの。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "診脈を説明する詩の医理と古い医語の一般的な語義による。現代解剖学上の器官とは断定しない。"
+    "forms":
+      - "id": "xy-ch68-meridians-form"
+        "text": "経絡"
+        "relation": "preferred"
+        "reading":
+          "kana": "けいらく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-pulse-depth-exterior-interior"
+    "kind": "term"
+    "headword": "浮・沈・表・裏"
+    "definition_ja": "伝統医学で脈の浅深や病の表層・内部を表す語の組。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "診脈を説明する詩の列挙に即する。四つを同質の脈名と断定せず、細かな診断基準は補わない。"
+    "forms":
+      - "id": "xy-ch68-pulse-depth-exterior-interior-form"
+        "text": "浮・沈・表・裏"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふ・ちん・ひょう・り"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-four-diagnostic-skills"
+    "kind": "term"
+    "headword": "神・聖・功・巧"
+    "definition_ja": "望・聞・問・切によって病を知る働きを称える古い医語の組。功は工に通じる表記と解される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+        - "xy-ch68-nanjing61"
+      "reason_ja": "難経六十一難の神聖工巧と役割が一致するが、西遊記の底本は功と記す。字を改めず留保する。"
+    "forms":
+      - "id": "xy-ch68-four-diagnostic-skills-form"
+        "text": "神・聖・功・巧"
+        "relation": "preferred"
+        "reading":
+          "kana": "しん・せい・こう・こう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-thread-pulse-diagnosis"
+    "kind": "term"
+    "headword": "懸糸診脈"
+    "definition_ja": "相手の顔を直接見ず、掛け渡した糸を介して脈を診るという方法。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "悟空が国王へ提案する診察の方法。医学的な有効性や診療結果は定義に加えない。"
+    "forms":
+      - "id": "xy-ch68-thread-pulse-diagnosis-form"
+        "text": "懸糸診脈"
+        "relation": "preferred"
+        "reading":
+          "kana": "けんししんみゃく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-suwen"
+    "kind": "object"
+    "headword": "素問"
+    "definition_ja": "古代中国の医学書。医学の理論などを問答で論じる黄帝内経の一部。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+        - "xy-ch68-medical-books"
+      "reason_ja": "本文の医書名とNDL所蔵書誌の名称を照合。具体的な伝本・版は特定しない。"
+    "forms":
+      - "id": "xy-ch68-suwen-form"
+        "text": "素問"
+        "relation": "preferred"
+        "reading":
+          "kana": "そもん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch68-medical-books"
+          "reason_ja": "参照した書誌の取得検索表示が、この書名の日本語仮名読みを明記する。"
+  - "id": "xy-ch68-nanjing"
+    "kind": "object"
+    "headword": "難経"
+    "definition_ja": "古代中国の医学書。医学の難問を問答の形で論じる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+        - "xy-ch68-medical-books"
+        - "xy-ch68-nanjing61"
+      "reason_ja": "当該原文の役割と文脈を確認。後の病因・人物・結末を追加しない。"
+    "forms":
+      - "id": "xy-ch68-nanjing-form"
+        "text": "難経"
+        "relation": "preferred"
+        "reading":
+          "kana": "なんけい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch68-medical-books"
+          "reason_ja": "参照した書誌の取得検索表示が、この書名の日本語仮名読みを明記する。"
+  - "id": "xy-ch68-bencao"
+    "kind": "object"
+    "headword": "本草"
+    "definition_ja": "薬物の性質などを扱う医書の呼び名。具体的な書名・伝本は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+      "reason_ja": "本文の四医書の列挙に即した説明。神農本草経その他の特定の一書と断定する根拠は不足する。"
+    "forms":
+      - "id": "xy-ch68-bencao-form"
+        "text": "本草"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほんぞう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch68-primary-1455617"
+          "reason_ja": "構成字の日本語音と文脈に基づく推定。語形全体の日本語読みを明記する資料は未確認で、中国語原文の出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch68-maijue"
+    "kind": "object"
+    "headword": "脈訣"
+    "definition_ja": "脈の診察の要訣を述べる医書の名。具体的な系統・著者・版は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch68-primary-1455617"
+        - "xy-ch68-maijue"
+      "reason_ja": "所蔵書誌で書名を確認したが、西遊記が指す特定の伝本まで同定していない。"
+    "forms":
+      - "id": "xy-ch68-maijue-form"
+        "text": "脈訣"
+        "relation": "preferred"
+        "reading":
+          "kana": "みゃくけつ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch68-maijue"
+          "reason_ja": "参照した書誌の取得検索表示が、この書名の日本語仮名読みを明記する。"
