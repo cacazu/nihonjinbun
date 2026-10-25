@@ -1846,6 +1846,50 @@
     "title": "芥川龍之介「俊寛」青空文庫・芭蕉扇のルビ"
     "url": "https://www.aozora.gr.jp/cards/000879/files/159_15201.html"
     "accessed_at": "2026-10-24"
+  - "id": "xy-ch35-primary-1500616"
+    "title": "西遊記 第三十五回 固定版1500616"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第035回&oldid=1500616"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch35-nuwa-tenri"
+    "title": "天理参考館 絹絵伏羲女媧図"
+    "url": "https://sankokan.jp/selection/antiquities/kinuehukugijokazu.html"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch35-zhouyi-nijl"
+    "title": "国文学研究資料館 函館市中央図書館所蔵画像一覧"
+    "url": "https://kokusho.nijl.ac.jp/page/list-hakodate.html"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch35-wen-museum"
+    "title": "和歌山県立博物館 文王・麒麟・鳳凰図"
+    "url": "https://www.hakubutu.wakayama-c.ed.jp/kishu_gaka/sakuhin/sakuhin.htm"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch35-enbudai-jodo"
+    "title": "新纂浄土宗大辞典 閻浮提"
+    "url": "https://jodoshuzensho.jp/daijiten/index.php/閻浮提"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch35-bingding-moe"
+    "title": "教育部重編國語辭典 丙丁"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=19584&la=0&powerMode=0"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch35-daluo-dao"
+    "title": "道教文化中心資料庫 三十六天"
+    "url": "https://zh.daoinfo.org/index.php?title=三十六天&variant=zh-hant"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch35-divination-research"
+    "title": "Vincent Durand-Dastès, Divination and Fate Manipulation in a Popular Myth of Late Imperial China"
+    "url": "https://ikgf.uni-erlangen.de/content/articles/Vincent_Durand-Dastes_-_Divination_and_Fate_Manipulation.pdf"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch35-jiandi-dialect"
+    "title": "盱眙文藝・荔枝網 西遊記と盱眙の方言"
+    "url": "https://news.jstv.com/a/20170426/149319345754.shtml"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch35-post-museum"
+    "title": "国立故宮博物院 説・古地図特展 驛站・遞運所・急遞鋪"
+    "url": "https://www.npm.gov.tw/NewChineseArtDownload.ashx?bid=4291"
+    "accessed_at": "2026-10-24"
+  - "id": "xy-ch35-express-moe"
+    "title": "教育部重編國語辭典 急遞鋪"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=88111&q=1&word=遞"
+    "accessed_at": "2026-10-24"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -2956,6 +3000,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
+      - "id": "xy-ch35-xingzhesun-form"
+        "text": "行者孫"
+        "relation": "alias"
+        "reading":
+          "kana": "ぎょうじゃそん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -11174,6 +11227,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の通常の漢字音訓と語構成からの推定。当該語形・文脈の日本語読みを明記する資料は今回未確認。"
+      - "id": "xy-ch35-tushita-court-form"
+        "text": "兜率院"
+        "relation": "variant"
+        "reading":
+          "kana": "とそついん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
   - "id": "xy-entry-0474"
     "kind": "place"
     "headword": "離恨天"
@@ -11249,6 +11311,24 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の構成漢字の音訓と語の構成による推定。この語形全体と指示対象に対応する明示的な日本語仮名資料は未確認。"
+      - "id": "xy-ch35-taishang-ancestor-form"
+        "text": "太上老祖"
+        "relation": "title"
+        "reading":
+          "kana": "たいじょうろうそ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+      - "id": "xy-ch35-taishang-li-laojun-form"
+        "text": "太上李老君"
+        "relation": "title"
+        "reading":
+          "kana": "たいじょうりろうくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
   - "id": "xy-entry-0476"
     "kind": "person"
     "headword": "燃灯古仏"
@@ -12738,6 +12818,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から推定。この語形の日本語読みを直接記す資料は未確認。"
+      - "id": "xy-ch35-sea-bodhisattva-form"
+        "text": "海上菩薩"
+        "relation": "title"
+        "reading":
+          "kana": "かいじょうぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
   - "id": "xy-entry-0553"
     "kind": "person"
     "headword": "恵岸行者"
@@ -34530,6 +34619,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+      - "id": "xy-ch35-extra-body-method-form"
+        "text": "身外身法"
+        "relation": "variant"
+        "reading":
+          "kana": "しんがいしんほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
   - "id": "xy-entry-1693"
     "kind": "place"
     "headword": "湘江"
@@ -40250,3 +40348,274 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。公開資料を検索したが、この語形全体の日本語仮名を明記する確実な資料では独立確認できていない。"
+  - "id": "xy-ch35-nuwa"
+    "kind": "person"
+    "headword": "女媧"
+    "definition_ja": "中国の創世神話の女神。石を練って欠けた天を補ったとされる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch35-primary-1500616"
+        - "xy-ch35-nuwa-tenri"
+      "reason_ja": "固定原文の指示対象と語構成に基づく説明。作品外の史実・学説との一対一の同定は断定しない。"
+    "forms":
+      - "id": "xy-ch35-nuwa-form"
+        "text": "女媧"
+        "relation": "preferred"
+        "reading":
+          "kana": "じょか"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch35-nuwa-tenri"
+          "reason_ja": "天理参考館の作品解説が女媧（じょか）と明記する。"
+  - "id": "xy-ch35-jambudvipa-world"
+    "kind": "place"
+    "headword": "閻浮世界"
+    "definition_ja": "仏教的な世界観で、人間の住む世界を指す呼び方。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch35-primary-1500616"
+        - "xy-ch35-enbudai-jodo"
+      "reason_ja": "固定原文の指示対象と語構成に基づく説明。作品外の史実・学説との一対一の同定は断定しない。"
+    "forms":
+      - "id": "xy-ch35-jambudvipa-world-form"
+        "text": "閻浮世界"
+        "relation": "preferred"
+        "reading":
+          "kana": "えんぶせかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+            - "xy-ch35-enbudai-jodo"
+          "reason_ja": "浄土宗大辞典の閻浮提（えんぶだい）の閻浮と世界の日本語音を組み合わせた読み。閻浮世界という語形全体を直接仮名で示す資料は未確認。"
+  - "id": "xy-ch35-qian-quarter"
+    "kind": "concept"
+    "headword": "乾宮"
+    "definition_ja": "八卦の乾に対応する方位・区画。ここでは西北の天の領域。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch35-primary-1500616"
+      "reason_ja": "固定原文の指示対象と語構成に基づく説明。作品外の史実・学説との一対一の同定は断定しない。"
+    "forms":
+      - "id": "xy-ch35-qian-quarter-form"
+        "text": "乾宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "けんきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+  - "id": "xy-ch35-zhouyi"
+    "kind": "object"
+    "headword": "周易"
+    "definition_ja": "占いの卦とその解釈を伝える中国の古典。易経ともいう。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch35-primary-1500616"
+      "reason_ja": "固定原文の指示対象と語構成に基づく説明。作品外の史実・学説との一対一の同定は断定しない。"
+    "forms":
+      - "id": "xy-ch35-zhouyi-form"
+        "text": "周易"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅうえき"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch35-zhouyi-nijl"
+          "reason_ja": "国書データベースのBID100095521ほかが周易の読みをしゅうえきと明記する。"
+  - "id": "xy-ch35-king-wen"
+    "kind": "person"
+    "headword": "文王"
+    "definition_ja": "周王朝の基礎を築いた君主。易の伝承と結びつけられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch35-primary-1500616"
+      "reason_ja": "固定原文の指示対象と語構成に基づく説明。作品外の史実・学説との一対一の同定は断定しない。"
+    "forms":
+      - "id": "xy-ch35-king-wen-form"
+        "text": "文王"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶんおう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch35-wen-museum"
+          "reason_ja": "和歌山県立博物館の作品解説が文王（ぶんおう）と明記する。"
+  - "id": "xy-ch35-peach-blossom-woman"
+    "kind": "person"
+    "headword": "桃花女"
+    "definition_ja": "民間説話で占術に優れる女性。占いの際にその名が呼びかけられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch35-primary-1500616"
+        - "xy-ch35-divination-research"
+      "reason_ja": "固定原文の指示対象と語構成に基づく説明。作品外の史実・学説との一対一の同定は断定しない。"
+    "forms":
+      - "id": "xy-ch35-peach-blossom-woman-form"
+        "text": "桃花女"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうかじょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+  - "id": "xy-ch35-rebirth-sutra"
+    "kind": "object"
+    "headword": "受生経"
+    "definition_ja": "死者のために唱える経として物語中で挙げられる経名。特定の実在経典との同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch35-primary-1500616"
+      "reason_ja": "固定原文の指示対象と語構成に基づく説明。作品外の史実・学説との一対一の同定は断定しない。"
+    "forms":
+      - "id": "xy-ch35-rebirth-sutra-form"
+        "text": "受生経"
+        "relation": "preferred"
+        "reading":
+          "kana": "じゅしょうきょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+  - "id": "xy-ch35-bing-ding"
+    "kind": "concept"
+    "headword": "丙丁"
+    "definition_ja": "十干の丙と丁。五行では火に属し、火を指す言い方にもなる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch35-bingding-moe"
+      "reason_ja": "教育部辞典が丙丁は五行において火に属し、火を指すと説明する。日本語読みの証拠とは区別する。"
+    "forms":
+      - "id": "xy-ch35-bing-ding-form"
+        "text": "丙丁"
+        "relation": "preferred"
+        "reading":
+          "kana": "へいてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+  - "id": "xy-ch35-li-quarter"
+    "kind": "concept"
+    "headword": "離宮"
+    "definition_ja": "八卦の離に対応する方位・区画。通常は南と火に配される。別荘の宮殿という意味ではない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch35-primary-1500616"
+      "reason_ja": "固定原文の指示対象と語構成に基づく説明。作品外の史実・学説との一対一の同定は断定しない。"
+    "forms":
+      - "id": "xy-ch35-li-quarter-form"
+        "text": "離宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "りきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+  - "id": "xy-ch35-fire-avoidance-seal"
+    "kind": "term"
+    "headword": "避火訣"
+    "definition_ja": "火を避けるために唱え、印を結んで用いる術の秘訣。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch35-primary-1500616"
+      "reason_ja": "固定原文の指示対象と語構成に基づく説明。作品外の史実・学説との一対一の同定は断定しない。"
+    "forms":
+      - "id": "xy-ch35-fire-avoidance-seal-form"
+        "text": "避火訣"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひかけつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+  - "id": "xy-ch35-express-relay"
+    "kind": "place"
+    "headword": "急逓鋪"
+    "definition_ja": "公文書などを急送するための中継所。駅卒が伝達を担う。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch35-express-moe"
+        - "xy-ch35-post-museum"
+      "reason_ja": "教育部辞典は急遞鋪を驛站とし、同じ西遊記の句を引用。故宮博物院の説明は公文書の遞送を主な役割とする。日本語読みは未確認。"
+    "forms":
+      - "id": "xy-ch35-express-relay-form"
+        "text": "急逓鋪"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうていほ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+  - "id": "xy-ch35-fox-aseven-king"
+    "kind": "person"
+    "headword": "狐阿七大王"
+    "definition_ja": "金角大王らの母の弟。姉の一族の仇を討つため兵を率いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch35-primary-1500616"
+      "reason_ja": "固定原文の指示対象と語構成に基づく説明。作品外の史実・学説との一対一の同定は断定しない。"
+    "forms":
+      - "id": "xy-ch35-fox-aseven-king-form"
+        "text": "狐阿七大王"
+        "relation": "preferred"
+        "reading":
+          "kana": "こあしちだいおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+  - "id": "xy-ch35-jade-seat"
+    "kind": "object"
+    "headword": "玉局宝座"
+    "definition_ja": "太上老君が乗って空へ上がる宝の座。玉局の具体的な形状・構造は明示されない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch35-primary-1500616"
+      "reason_ja": "固定原文の指示対象と語構成に基づく説明。作品外の史実・学説との一対一の同定は断定しない。"
+    "forms":
+      - "id": "xy-ch35-jade-seat-form"
+        "text": "玉局宝座"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぎょくきょくほうざ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
+  - "id": "xy-ch35-daluo-heaven"
+    "kind": "place"
+    "headword": "大羅天"
+    "definition_ja": "道教で最高位の天とされ、他の諸天を包む境域。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch35-daluo-dao"
+      "reason_ja": "道教文化中心の三十六天・大羅天の説明で最高位の天と他の諸天を包む位置づけを確認。日本語読みの証拠ではない。"
+    "forms":
+      - "id": "xy-ch35-daluo-heaven-form"
+        "text": "大羅天"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいらてん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch35-primary-1500616"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語形全体の日本語仮名を直接示す資料による確認は未了。"
