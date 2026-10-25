@@ -4106,6 +4106,38 @@
     "title": "山口県文書館 年中行事正月（検索抽出の表に上元じょうげん。PDF全体未実見）"
     "url": "https://archives.pref.yamaguchi.lg.jp/user_data/upload/File/kiyou/047/kiyou47kanaya.pdf"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch92-primary-1455641"
+    "title": "中文維基文庫 西遊記 第092回 固定版1455641（全210表示行を直接取得。固定版は変換なし表示）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第092回&oldid=1455641"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch92-bencao-rhino"
+    "title": "本草圖經 犀角（中醫笈成の公開本文。表示本文L1708–1709で各角の区分、一孔三毛、自分の影を嫌う性質を確認）"
+    "url": "https://jicheng.tw/tcm/book/本草圖經/index.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch92-gewu-rhino"
+    "title": "格致鏡原 巻32–33（検索表示で花犀・斑犀と角の区分の用例を確認。本文全文は未取得）"
+    "url": "https://ctext.org/wiki.pl?chapter=487513&if=gb"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch92-ju-definition"
+    "title": "教育部 異體字字典 琚（表示本文で古代佩帶於身上之玉の義を確認）"
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=63641&la=1"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch92-ju-reading"
+    "title": "文字情報技術促進協議会 文字情報基盤 琚 MJ017274（表示本文の音読みキョ・コを確認）"
+    "url": "https://moji.or.jp/mojikibansearch/info?MJ文字図形名=MJ017274"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch92-alternate-text"
+    "title": "識典古籍 西遊記 第九十二回（検索表示に\U0002496D琚寶貝。開いた本文は前半のみ。底本へ字を補わず異同の留保に使用）"
+    "url": "https://www.shidianguji.com/zh/book/NA11023/chapter/1k291ut6cyhay"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch92-ming-fiscal"
+    "title": "明世宗實錄 巻118（検索表示で在官無碍錢糧と贖罪折紙銀兩の支出文脈を確認。枉罰の校訂根拠ではない）"
+    "url": "https://ctext.org/wiki.pl?chapter=273060&if=en&remap=gb"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch92-mi-reading-definition"
+    "title": "東京文化財研究所 箕のかたち（表示本文L11で箕のみという読みと穀物を選別する道具の義を確認）"
+    "url": "https://www.tobunken.go.jp/ich/research/mi/"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -8106,11 +8138,12 @@
   - "id": "xy-entry-0178"
     "kind": "person"
     "headword": "夜叉"
-    "definition_ja": "ここでは竜王に仕えて海を巡回する鬼神"
+    "definition_ja": "竜王に仕え、海を巡回する鬼神をいう呼称。"
     "definition_evidence":
       "status": "estimated"
-      "source_ids": []
-      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。 東海と西海にまたがって使われてきた巡海役の種類の呼称であり、すべて同じ一個体とは断定しない。定義中の場面依存の「ここでは」を除き、同じ役割として記述。旧定義・旧根拠を別記録に保存し、旧語形と読みは変更しない。"
     "forms":
       - "id": "xy-form-0186"
         "text": "夜叉"
@@ -9952,6 +9985,15 @@
           "source_ids":
             - "xy-ch83-primary-1455632"
           "reason_ja": "李天王が太白金星を老長庚と呼ぶところを、日本語では長庚老とした同一人物への敬称。漢字音による読みで、語形全体の仮名資料は未確認。"
+      - "id": "xy-ch92-changgeng-address-form"
+        "text": "長庚"
+        "relation": "short_form"
+        "reading":
+          "kana": "ちょうこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "悟空が太白金星に対面して呼びかけ、そのまま答えを聞く場面の同一神の短称。既存の概念項目長庚は宵の明星という天体呼称なので、会話の人物のリンクは太白金星へ置く。全体の日本語仮名は未確認。"
   - "id": "xy-entry-0251"
     "kind": "term"
     "headword": "帰順"
@@ -14628,6 +14670,15 @@
           "source_ids":
             - "xy-ch51-primary-1498138"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。語全体の仮名読みを直接示す資料は未確認。中国語本文の存在を日本語読みの実証とはしない。"
+      - "id": "xy-ch92-four-master-surnames-form"
+        "text": "葛・丘・張・許"
+        "relation": "alias"
+        "reading":
+          "kana": "かつ・きゅう・ちょう・きょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "通明殿で悟空を玉帝へ取り次ぎ、勅命を伝える四天師。同じ顔ぶれ・場所・役割が既存の四天師と一致する。並び順と原字の丘を保存し、許は門将の許へ統合しない。全体の日本語仮名は未確認。"
   - "id": "xy-entry-0492"
     "kind": "concept"
     "headword": "丹元大会"
@@ -14763,6 +14814,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "底本の「日值功曹」を日本の字体で「日値功曹」とする。日（ニチ）・値（チ）・功曹（コウソウ）から促音化して推定。日直と表記する慣行へ無断統一せず、この語形全体の仮名を明記する資料は未確認。"
+      - "id": "xy-ch92-four-duty-officers-short-form"
+        "text": "四功曹"
+        "relation": "short_form"
+        "reading":
+          "kana": "しこうそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "悟空が青竜山と玄英洞の地名を教わった出来事を語り直す短称で、四値功曹と同じ四神。単独の功曹一般へ変えない。全体の日本語仮名は未確認。"
   - "id": "xy-entry-0499"
     "kind": "term"
     "headword": "星斗"
@@ -15604,6 +15664,24 @@
           "source_ids":
             - "xy-ch65-primary-1455614"
           "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+      - "id": "xy-ch92-jing-lodge-address-form"
+        "text": "井宿"
+        "relation": "short_form"
+        "reading":
+          "kana": "せいしゅく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "斗木獬らが井木犴を犀退治に薦めるとき、また摩昂が捕食を止めるときに使う同一星官への呼称。一般の星座の空間領域と人物を混同しない。全体の日本語仮名は未確認。"
+      - "id": "xy-ch92-jing-star-officer-address-form"
+        "text": "井星官"
+        "relation": "short_form"
+        "reading":
+          "kana": "せいせいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "摩昂と悟空が、井木犴の捕食と捕縛を語る同一人物への呼称。井という同字だけでの統合ではなく行動の連続を確認。全体の日本語仮名は未確認。"
   - "id": "xy-entry-0536"
     "kind": "person"
     "headword": "鬼"
@@ -39536,12 +39614,13 @@
   - "id": "xy-entry-1712"
     "kind": "object"
     "headword": "戒刀"
-    "definition_ja": "僧が携帯する小刀。ここでは剃髪に用いられる。"
+    "definition_ja": "僧が携帯する小刀。剃髪に用いられることがあり、物語では武器としても使われる。"
     "definition_evidence":
       "status": "estimated"
       "source_ids":
         - "xy-reference-411"
-      "reason_ja": "本文で剃髪に用いることと日本語の古典語義に基づく。"
+        - "xy-ch92-primary-1455641"
+      "reason_ja": "本文で剃髪に用いることと日本語の古典語義に基づく。 同じ種類の刀が剃髪だけでなく妖怪の斬首にも使われるため、旧定義の用途を残して武器用途を加え、場面依存の「ここでは」を除く。旧定義・旧根拠を別記録に保存し、旧語形と読みは変更しない。"
     "forms":
       - "id": "xy-form-2031"
         "text": "戒刀"
@@ -71069,6 +71148,15 @@
           "source_ids":
             - "xy-ch91-primary-1455640"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+      - "id": "xy-ch92-jinping-short-form"
+        "text": "金平"
+        "relation": "short_form"
+        "reading":
+          "kana": "きんぺい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "三蔵が上元を迎えた町、慈雲寺の所在地、刺史の治める府を金平と呼ぶ。金平府と場所・行政・登場者が連続する同じ土地の短称。全体の仮名資料は未確認。"
   - "id": "xy-ch91-taishou"
     "kind": "title"
     "headword": "太守"
@@ -71352,6 +71440,15 @@
           "source_ids":
             - "xy-ch91-primary-1455640"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+      - "id": "xy-ch92-lamp-households-short-form"
+        "text": "大戸"
+        "relation": "short_form"
+        "reading":
+          "kana": "たいこ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "灯油を買う負担を免除され、二百四十軒が師弟を宴に招く家々であり、同じ灯油大戸の短称。富裕家一般の語義を無条件に統合しない。全体の日本語仮名は未確認。"
   - "id": "xy-ch91-suhe-oil"
     "kind": "object"
     "headword": "酥合香油"
@@ -71608,3 +71705,267 @@
           "source_ids":
             - "xy-ch91-primary-1455640"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用。全語の日本語仮名資料は未確認。"
+  - "id": "xy-ch92-four-wood-stars"
+    "kind": "person"
+    "headword": "四木禽星"
+    "definition_ja": "二十八宿のうち木に属する角木蛟・斗木獬・奎木狼・井木犴の四柱の星神。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+      "reason_ja": "太白金星の説明と星官の出場、四木という悟空の説明によって集団の内訳を確認。禽は星と獣の配当を含む呼称で、鳥四羽という意味にしない。"
+    "forms":
+      - "id": "xy-ch92-four-wood-stars-form"
+        "text": "四木禽星"
+        "relation": "preferred"
+        "reading":
+          "kana": "しもくきんせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名を示す独立資料は未確認。"
+  - "id": "xy-ch92-west-four-spirit-officers"
+    "kind": "person"
+    "headword": "四大霊官"
+    "definition_ja": "西天門で太白金星や増長天王と話す、殷・朱・陶・許の姓を持つ四柱の霊官。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+      "reason_ja": "同姓の天兵・雷部官将・東天門の元帥との同一性は確定しない。四人組の顔ぶれと西天門の役割を限定した項目であり、別人であるとの断定ではない。"
+    "forms":
+      - "id": "xy-ch92-west-four-spirit-officers-form"
+        "text": "四大霊官"
+        "relation": "preferred"
+        "reading":
+          "kana": "しだいれいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名を示す独立資料は未確認。"
+      - "id": "xy-ch92-west-officer-surnames-form"
+        "text": "殷・朱・陶・許"
+        "relation": "alias"
+        "reading":
+          "kana": "いん・しゅ・とう・きょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "西天門で太白金星と増長天王に同席し、四大霊官と明示される同じ四人組。姓だけで他の門将や四天師へ統合しない。全体の日本語仮名は未確認。"
+  - "id": "xy-ch92-si-rhinoceros-class"
+    "kind": "term"
+    "headword": "兕犀"
+    "definition_ja": "犀や犀角の古い区分名。古書では額上の角を指す用例がある。現代動物学の一種への対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+        - "xy-ch92-bencao-rhino"
+      "reason_ja": "原文の犀の名色の列挙と、本草圖經の犀角条で額上の角を兕犀とする記述を照合。既存の兕は獣名一般で、角材区分を含むこの用法と無条件に同一視しない。"
+    "forms":
+      - "id": "xy-ch92-si-rhinoceros-class-form"
+        "text": "兕犀"
+        "relation": "preferred"
+        "reading":
+          "kana": "じさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名を示す独立資料は未確認。"
+  - "id": "xy-ch92-male-rhinoceros-class"
+    "kind": "term"
+    "headword": "雄犀"
+    "definition_ja": "雄の犀をいう呼び名。古い犀の区分としても挙げられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+      "reason_ja": "雄と犀の語構成および名色の列挙による説明。兕を雄とする異説は古書にもあるが、底本は兕犀と雄犀を別々に列挙するため統合しない。"
+    "forms":
+      - "id": "xy-ch92-male-rhinoceros-class-form"
+        "text": "雄犀"
+        "relation": "preferred"
+        "reading":
+          "kana": "ゆうさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名を示す独立資料は未確認。"
+  - "id": "xy-ch92-gu-rhinoceros-class"
+    "kind": "term"
+    "headword": "牯犀"
+    "definition_ja": "犀や犀角の古い区分名。毛犀に結び付ける古書の説明があるが、現代種への対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+        - "xy-ch92-bencao-rhino"
+      "reason_ja": "本草圖經の犀角条は牯犀の二角と毛犀に言及する。牯単字の雌牛・去勢牛という義だけで、この古い呼称の性別・種を確定しない。"
+    "forms":
+      - "id": "xy-ch92-gu-rhinoceros-class-form"
+        "text": "牯犀"
+        "relation": "preferred"
+        "reading":
+          "kana": "こさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名を示す独立資料は未確認。"
+  - "id": "xy-ch92-spotted-rhinoceros-class"
+    "kind": "term"
+    "headword": "斑犀"
+    "definition_ja": "斑のある犀・犀角をいう古い呼び名。角の文様による区分にも用いる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+        - "xy-ch92-gewu-rhino"
+      "reason_ja": "原文の名色の列挙と、格致鏡原に引く倒透・花犀・斑犀の記述（検索表示）を照合。獣の独立種という断定を避ける。"
+    "forms":
+      - "id": "xy-ch92-spotted-rhinoceros-class-form"
+        "text": "斑犀"
+        "relation": "preferred"
+        "reading":
+          "kana": "はんさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名を示す独立資料は未確認。"
+  - "id": "xy-ch92-humao-rhinoceros-class"
+    "kind": "term"
+    "headword": "胡冒犀"
+    "definition_ja": "犀や犀角の古い区分名。鼻上の角をいう胡帽犀との関係が考えられるが、原字の異同は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+        - "xy-ch92-bencao-rhino"
+      "reason_ja": "底本の胡冒を保存。本草圖經の犀角条では鼻上の角を胡帽犀と記す。同じ種類の古い区分を背景とする可能性を示すにとどめ、冒を帽に校訂しない。"
+    "forms":
+      - "id": "xy-ch92-humao-rhinoceros-class-form"
+        "text": "胡冒犀"
+        "relation": "preferred"
+        "reading":
+          "kana": "こぼうさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名を示す独立資料は未確認。"
+  - "id": "xy-ch92-duoluo-rhinoceros-class"
+    "kind": "term"
+    "headword": "堕羅犀"
+    "definition_ja": "大きな犀角をいう古い呼び名。犀の種類の名としても列挙されるが、現代種への対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+        - "xy-ch92-bencao-rhino"
+      "reason_ja": "本草圖經の犀角条に最大のものとして墮羅犀、一株七、八斤とあり、角材の説明を含む。底本の墮を日本の字体の堕にした。"
+    "forms":
+      - "id": "xy-ch92-duoluo-rhinoceros-class-form"
+        "text": "堕羅犀"
+        "relation": "preferred"
+        "reading":
+          "kana": "だらさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名を示す独立資料は未確認。"
+  - "id": "xy-ch92-pattern-rhinoceros-class"
+    "kind": "term"
+    "headword": "通天花文犀"
+    "definition_ja": "角に通天花文という貴い文様を持つ犀をいう古い呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+        - "xy-ch92-bencao-rhino"
+      "reason_ja": "本草圖經の犀角条に通天花紋、自分の影を嫌う性質、多様な角の文理が記される。底本の花文を花紋へ改めず、模様の具体的な図柄を決めない。"
+    "forms":
+      - "id": "xy-ch92-pattern-rhinoceros-class-form"
+        "text": "通天花文犀"
+        "relation": "preferred"
+        "reading":
+          "kana": "つうてんかもんさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名を示す独立資料は未確認。"
+  - "id": "xy-ch92-jade-pendant-ju"
+    "kind": "object"
+    "headword": "琚"
+    "definition_ja": "古く身に帯びた玉の飾り。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+        - "xy-ch92-ju-definition"
+      "reason_ja": "教育部異體字字典の琚の表示本文に古代佩帶於身上之玉とある。底本の単独の琚を保存し、別翻刻の先行字を補わない。"
+    "forms":
+      - "id": "xy-ch92-jade-pendant-ju-form"
+        "text": "琚"
+        "relation": "preferred"
+        "reading":
+          "kana": "きょ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch92-ju-reading"
+          "reason_ja": "表示本文の当該字に付された日本語音読みを確認。中国語の出現だけを読みの実証とはしない。"
+  - "id": "xy-ch92-tanning-salt"
+    "kind": "object"
+    "headword": "硝"
+    "definition_ja": "皮の処理などに用いる塩類・薬剤を指す語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+      "reason_ja": "原文の犀皮を硝熟して燻乾し鎧にする文脈から、なめしに用いる薬剤と解する。正確な成分や調合・工程は未確定で、現代の作業手順にはしない。"
+    "forms":
+      - "id": "xy-ch92-tanning-salt-form"
+        "text": "硝"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名を示す独立資料は未確認。"
+  - "id": "xy-ch92-armored-water-guard"
+    "kind": "title"
+    "headword": "介士"
+    "definition_ja": "甲を身に着けた武士になぞらえた、水族の兵の呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+      "reason_ja": "西海で夜叉とともに海を巡り、竜王へ報告する役を指す。既存の横行介士は蟹の戯称と定義されているが、この巡海役の具体的な種は明示されないので、蟹と断定せず役割の呼称を分ける。別個体であるとの断定ではない。"
+    "forms":
+      - "id": "xy-ch92-armored-water-guard-form"
+        "text": "介士"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch92-primary-1455641"
+          "reason_ja": "構成漢字の日本語音訓・語構成から採用した読み。語形全体の日本語仮名を示す独立資料は未確認。"
+  - "id": "xy-ch92-winnowing-basket"
+    "kind": "object"
+    "headword": "箕"
+    "definition_ja": "穀物から殻やごみを風で飛ばして選り分ける道具。物を入れる容器にもなる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch92-primary-1455641"
+        - "xy-ch92-mi-reading-definition"
+      "reason_ja": "東京文化財研究所の表示本文で道具の名称・用途・読みを確認。原文の簸箕陣は道具の形を軍勢の布陣になぞらえる。箕宿の星神とは同字でも別物であり、機械式の唐箕とも区別する。"
+    "forms":
+      - "id": "xy-ch92-winnowing-basket-form"
+        "text": "箕"
+        "relation": "preferred"
+        "reading":
+          "kana": "み"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch92-mi-reading-definition"
+          "reason_ja": "表示本文で道具の箕の訓読み「み」を確認。星宿名の字音読みとは区別する。"
