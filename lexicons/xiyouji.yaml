@@ -3590,6 +3590,30 @@
     "title": "臺灣大學学位論文（検索表示の陰神・陽神の対比。PDF本文は未精査）"
     "url": "https://tdr.lib.ntu.edu.tw/bitstream/123456789/88800/1/ntu-111-2.pdf"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch79-primary-1455628"
+    "title": "中文維基文庫 西遊記 第079回 固定版1455628（固定URL全206表示行を直接取得。文字変換指定なし）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第079回&oldid=1455628"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch79-ohtawara-star"
+    "title": "大田原市 広報平成25年1月1日号16頁（PDF全文で南極老人星・寿星の読みと関係を確認）"
+    "url": "https://www.city.ohtawara.tochigi.jp/docs/2013082770325/file_contents/resources_content_15737_P16.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch79-longan-old-list"
+    "title": "薬用植物和漢名対照便覧（検索表示のリウガン・龍眼・魁圓。PDF全文は容量制限で取得不成功）"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/NDL1051575_薬用植物和漢名対照便覧_part1.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch79-moe-jianli"
+    "title": "教育部 重編國語辭典修訂本 繭栗（検索表示に小牛・花蕾・若い筍の三用例。宴の語義を確定するものではない）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=93290&la=1&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch79-sugar-primary"
+    "title": "宋応星 天工開物 附：造獣糖（公開検索本文の獅・象の型菓子。全文製法を翻訳して採用する目的ではない）"
+    "url": "https://zh.wikisource.org/zh-hant/天工開物/附：造獸糖"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch79-sugar-feast"
+    "title": "人民網雲南 西遊記裡的美食（検索本文の鴛鴦錠・獅仙糖の説明）"
+    "url": "https://yn.people.com.cn/BIG5/n2/2023/1110/c372453-40635336.html"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -5319,12 +5343,14 @@
   - "id": "xy-term-069"
     "kind": "term"
     "headword": "リュウガン"
-    "definition_ja": "丸い殻の中に、半透明で甘い果肉がある果物"
+    "definition_ja": "丸い殻の中に、半透明で甘い果肉がある果物 魁円はその別称と解される。"
     "definition_evidence":
       "status": "estimated"
       "source_ids":
         - "chapter-001-primary"
-      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。"
+        - "xy-ch79-primary-1455628"
+        - "xy-ch79-longan-old-list"
+      "reason_ja": "底本原文の該当語と場面を照合し、対象や語義を短く説明した。一般語の補足は編集上の説明で、現代の学説や単位の実長を原文から断定しない。 薬用植物和漢名対照便覧の検索表示でリウガン・龍眼・魁圓が同じ項に列挙される。PDF全文は容量制限で取得できず、検索表示からの同定に留保を残す。字形は魁圓の円を日本語新字にした。既存の果物リュウガンと語義を比較して統合する。"
     "forms":
       - "id": "xy-term-069-form"
         "text": "リュウガン"
@@ -5334,6 +5360,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "一般的な日本語の音訓・語の読みとして採用。今回、外部辞書の該当項目による独立確認はしていない。"
+      - "id": "xy-ch79-kuiyuan-longan-form"
+        "text": "魁円"
+        "relation": "alias"
+        "reading":
+          "kana": "かいえん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "魁圓を日本語新字にした魁円の字音。語全体の日本語仮名資料は未確認で、意味の対照資料を読みの実証とはしない。"
   - "id": "xy-term-070"
     "kind": "term"
     "headword": "めのう"
@@ -17408,11 +17443,12 @@
   - "id": "xy-entry-0642"
     "kind": "object"
     "headword": "還丹"
-    "definition_ja": "道教の錬丹術で作る霊薬"
+    "definition_ja": "道教の錬丹術で作る霊薬 また、その霊薬を成すための内丹修養を指す。"
     "definition_evidence":
       "status": "estimated"
-      "source_ids": []
-      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。 寿星が修養之方を伝えることと不能還丹を結ぶため、薬そのものだけでなく、それを成就する修養の意味を含めて説明する。"
     "forms":
       - "id": "xy-form-0743"
         "text": "還丹"
@@ -20042,6 +20078,25 @@
           "source_ids":
             - "xy-reference-194"
           "reason_ja": "見出しに「じゅ‐せい」と明記。"
+      - "id": "xy-ch79-southern-old-star-form"
+        "text": "南極老人星"
+        "relation": "title"
+        "reading":
+          "kana": "なんきょくろうじんせい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch79-ohtawara-star"
+          "reason_ja": "大田原市広報PDF本文25〜26表示行に南極老人星（なんきょくろうじんせい）とあり、寿星の同名も明記する。物語でも南極老人星から寿星へ同じ会話主体が続く。"
+      - "id": "xy-ch79-southern-elder-form"
+        "text": "南極老人"
+        "relation": "title"
+        "reading":
+          "kana": "なんきょくろうじん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-ohtawara-star"
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "南極老人星の確認された読みから星を除いた構成音。資料に南極老人の語義はあるが、その語形単独の全仮名はないため推定。"
   - "id": "xy-entry-0775"
     "kind": "object"
     "headword": "瑤草"
@@ -40716,6 +40771,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓・既存呼称と語構成による推定。この語形の日本語読みを直接示す資料は未確認。"
+      - "id": "xy-ch79-donghua-emperor-form"
+        "text": "東華帝君"
+        "relation": "short_form"
+        "reading":
+          "kana": "とうかていくん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "既存の東華大帝君から大を除いた同じ仙人の称号。東華と帝君の音に基づく。別人や新たな系譜とする根拠はない。"
   - "id": "xy-entry-1826"
     "kind": "object"
     "headword": "綸巾"
@@ -63971,6 +64035,15 @@
           "source_ids":
             - "xy-ch78-primary-1455627"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
+      - "id": "xy-ch79-bhiksu-city-form"
+        "text": "比丘城"
+        "relation": "alias"
+        "reading":
+          "kana": "びくじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "比丘国で王がいる城を指す語。国と都城の側面の違いはあるが本文の同じ帰還先に接続する。既存比丘国の読みと城の音による。"
   - "id": "xy-ch78-jinting-lodge"
     "kind": "place"
     "headword": "金亭館駅"
@@ -63993,12 +64066,13 @@
   - "id": "xy-ch78-beautiful-consort"
     "kind": "person"
     "headword": "美后"
-    "definition_ja": "比丘国の王に寵愛される女性の呼称。道士姿の老人に連れられ、王へ献上されたと語られる。"
+    "definition_ja": "比丘国の王に寵愛される女性の呼称。道士姿の老人に連れられ、王へ献上されたと語られる。 本相は顔の白い狐。"
     "definition_evidence":
       "status": "estimated"
       "source_ids":
         - "xy-ch78-primary-1455627"
-      "reason_ja": "駅丞は献上時十六歳であった娘に王が美后の号を与えたと語る。老人との実血縁や種族はここからは確定しない。"
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "駅丞は献上時十六歳であった娘に王が美后の号を与えたと語る。老人との実血縁や種族はここからは確定しない。 悟空に打たれて倒れ、本相として白面狐狸と明示される。鹿との実の親子関係を確定する語義は追加しない。"
     "forms":
       - "id": "xy-ch78-beautiful-consort-form"
         "text": "美后"
@@ -64012,13 +64086,14 @@
   - "id": "xy-ch78-state-father"
     "kind": "person"
     "headword": "国丈"
-    "definition_ja": "比丘国の王へ若い女性を献上し、国丈の称号を受けた道士姿の老人。"
+    "definition_ja": "比丘国の王へ若い女性を献上し、国丈の称号を受けた道士姿の老人。 寿星の乗り物である白鹿が化けた姿。"
     "definition_evidence":
       "status": "estimated"
       "source_ids":
         - "xy-ch78-primary-1455627"
         - "xy-ch78-guozhang"
-      "reason_ja": "本文で娘を献上した道人が国丈に封ぜられる。国丈の一般語義は帝王の岳父だが、称号から娘との実血縁を追加しない。未開示の種族や持ち主も含めない。"
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "本文で娘を献上した道人が国丈に封ぜられる。国丈の一般語義は帝王の岳父だが、称号から娘との実血縁を追加しない。未開示の種族や持ち主も含めない。 寿星が自分の脚力と告げたあと、同じ国丈が白鹿に戻る叙述を確認。実血縁は国王の伝聞や八戒の問いと鹿の反応だけでは確定しない。"
     "forms":
       - "id": "xy-ch78-state-father-form"
         "text": "国丈"
@@ -64169,3 +64244,386 @@
           "source_ids":
             - "xy-ch78-primary-1455627"
           "reason_ja": "構成漢字の日本語音訓と語構成から採用した読み。全語形の仮名を明示する信頼できる日本語資料は今回未確認。中国語での出現や語義確認を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-bhiksu-king"
+    "kind": "person"
+    "headword": "比丘王"
+    "definition_ja": "比丘国を治める国王を指す呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "悟空の呼びかけが国王を指す。地名の比丘国や僧の一般名の比丘とは別の人物として扱う。"
+    "forms":
+      - "id": "xy-ch79-bhiksu-king-form"
+        "text": "比丘王"
+        "relation": "preferred"
+        "reading":
+          "kana": "びくおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-coiled-dragon-staff"
+    "kind": "object"
+    "headword": "蟠竜の杖"
+    "definition_ja": "巻きつく竜を表す名の杖。比丘国の国丈が振るい、寿星が自分の杖だと認める。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "蟠龍拐杖・蟠龍拐を同じ武器として訳す。寿星が拐杖を取り、我の拐棒だと明言することで所有を確認。別の妖怪の杖と字面だけで統合しない。"
+    "forms":
+      - "id": "xy-ch79-coiled-dragon-staff-form"
+        "text": "蟠竜の杖"
+        "relation": "preferred"
+        "reading":
+          "kana": "はんりゅうのつえ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-jinshen-hall"
+    "kind": "place"
+    "headword": "謹身殿"
+    "definition_ja": "比丘国の宮中にある殿舎。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "比丘国の王が殿の後ろから現れる。史実の同名殿や他国の宮殿とは同一建物と確定しない。"
+    "forms":
+      - "id": "xy-ch79-jinshen-hall-form"
+        "text": "謹身殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんしんでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-liulin-slope"
+    "kind": "place"
+    "headword": "柳林坡"
+    "definition_ja": "比丘国の城から南へ七十里にある、柳や楊の茂る丘の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "王の伝聞と悟空たちの到着、当地の土地神の名乗りを照合して場所を限定する。読みは別途推定。"
+    "forms":
+      - "id": "xy-ch79-liulin-slope-form"
+        "text": "柳林坡"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうりんは"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-qinghua-cave"
+    "kind": "place"
+    "headword": "清華洞"
+    "definition_ja": "柳林坡の楊の木に隠された洞府。清華荘と伝えられ、清華仙府という額を掲げる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "王のいう清華荘を土地神が清華洞と訂正し、木の仕掛けを開いて入った場所に清華仙府の字があるため、同じ住まいの呼称と判定。地名の正誤という物語上の順序は本文側に保持する。"
+    "forms":
+      - "id": "xy-ch79-qinghua-cave-form"
+        "text": "清華洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "せいかどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+      - "id": "xy-ch79-qinghua-villa-form"
+        "text": "清華荘"
+        "relation": "alias"
+        "reading":
+          "kana": "せいかそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+      - "id": "xy-ch79-qinghua-immortal-mansion-form"
+        "text": "清華仙府"
+        "relation": "alias"
+        "reading":
+          "kana": "せいかせんぷ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-frost-grass"
+    "kind": "term"
+    "headword": "迎霜草"
+    "definition_ja": "燃料として集められる草の名。字面は霜を迎える草。具体的な植物種は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "陰兵が運ぶ乾いた燃料七種の一つとして確認。構成字から読める範囲だけ説明し、現代植物名との確定的同定はしない。"
+    "forms":
+      - "id": "xy-ch79-frost-grass-form"
+        "text": "迎霜草"
+        "relation": "preferred"
+        "reading":
+          "kana": "げいそうそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-autumn-green-grass"
+    "kind": "term"
+    "headword": "秋青草"
+    "definition_ja": "燃料として集められる草の名。具体的な植物種は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "陰兵が運ぶ乾いた燃料七種の一つとして確認。構成字から読める範囲だけ説明し、現代植物名との確定的同定はしない。"
+    "forms":
+      - "id": "xy-ch79-autumn-green-grass-form"
+        "text": "秋青草"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅうせいそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-smartweed-stem-grass"
+    "kind": "term"
+    "headword": "蓼節草"
+    "definition_ja": "燃料として集められる草の名。蓼の字を含むが、具体的な植物種は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "陰兵が運ぶ乾いた燃料七種の一つとして確認。構成字から読める範囲だけ説明し、現代植物名との確定的同定はしない。"
+    "forms":
+      - "id": "xy-ch79-smartweed-stem-grass-form"
+        "text": "蓼節草"
+        "relation": "preferred"
+        "reading":
+          "kana": "りょうせつそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-mountain-stamen-grass"
+    "kind": "term"
+    "headword": "山蕊草"
+    "definition_ja": "燃料として集められる草の名。具体的な植物種は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "陰兵が運ぶ乾いた燃料七種の一つとして確認。構成字から読める範囲だけ説明し、現代植物名との確定的同定はしない。"
+    "forms":
+      - "id": "xy-ch79-mountain-stamen-grass-form"
+        "text": "山蕊草"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんずいそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-louhao-firewood"
+    "kind": "term"
+    "headword": "蔞蒿柴"
+    "definition_ja": "蔞蒿というヨモギの類に関わる柴の呼び名。燃料として用いられるが、具体的な種は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "陰兵が運ぶ乾いた燃料七種の一つとして確認。構成字から読める範囲だけ説明し、現代植物名との確定的同定はしない。"
+    "forms":
+      - "id": "xy-ch79-louhao-firewood-form"
+        "text": "蔞蒿柴"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろうこうさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-dragonbone-firewood"
+    "kind": "term"
+    "headword": "竜骨柴"
+    "definition_ja": "燃料の柴として列挙される呼称。具体的な植物種は未確定で、薬材の化石骨を指すと決めない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "陰兵が運ぶ乾いた燃料七種の一つとして確認。構成字から読める範囲だけ説明し、現代植物名との確定的同定はしない。"
+    "forms":
+      - "id": "xy-ch79-dragonbone-firewood-form"
+        "text": "竜骨柴"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうこつさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-reed-firewood"
+    "kind": "term"
+    "headword": "蘆荻柴"
+    "definition_ja": "蘆や荻などの葦類に関わる燃料の柴。具体的な種の組み合わせは未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "陰兵が運ぶ乾いた燃料七種の一つとして確認。構成字から読める範囲だけ説明し、現代植物名との確定的同定はしない。"
+    "forms":
+      - "id": "xy-ch79-reed-firewood-form"
+        "text": "蘆荻柴"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろてきさい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-bhiksu-east-hall"
+    "kind": "place"
+    "headword": "東閣"
+    "definition_ja": "比丘国の宮中にある、宴を催す殿舎。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "比丘国の王が開いて一行と寿星を招く宮殿。宝象国の東閣と朱紫国の東閣は別の国に所在し、この同形だけで同一建物としない。"
+    "forms":
+      - "id": "xy-ch79-bhiksu-east-hall-form"
+        "text": "東閣"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうかく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-mandarin-duck-candy"
+    "kind": "object"
+    "headword": "鴛鴦錠"
+    "definition_ja": "オシドリの姿をかたどる飾り菓子。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+        - "xy-ch79-sugar-feast"
+      "reason_ja": "宴の菓子と器物の対句、および人民網の記事の菓子説明を照合した。現代の同名の薬物とは無関係な語義。形の細部や製法は補わない。"
+    "forms":
+      - "id": "xy-ch79-mandarin-duck-candy-form"
+        "text": "鴛鴦錠"
+        "relation": "preferred"
+        "reading":
+          "kana": "えんおうてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-lion-immortal-candy"
+    "kind": "object"
+    "headword": "獅仙糖"
+    "definition_ja": "獅子や仙人の姿をかたどる砂糖菓子。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+        - "xy-ch79-sugar-primary"
+        - "xy-ch79-sugar-feast"
+      "reason_ja": "天工開物の獣形砂糖菓子の例と、獅仙を獅子・八仙の型とする菓子記事を参照。物語の個々の型の人数や形を確定しない。既存糖人は人形一般、斗糖は別の菓子名であり、自動統合しない。"
+    "forms":
+      - "id": "xy-ch79-lion-immortal-candy-form"
+        "text": "獅仙糖"
+        "relation": "preferred"
+        "reading":
+          "kana": "しせんとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-heron-cormorant-ladle"
+    "kind": "object"
+    "headword": "鷺鶿杓"
+    "definition_ja": "サギやウの名を持ち、鳥の形を表す酒席の柄杓。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "鸚鵡杯との対句と如相如形の叙述から解する。鶿を鵜の旧字に無断訂正せず、器物の具体的材質や形の細部は未確定。"
+    "forms":
+      - "id": "xy-ch79-heron-cormorant-ladle-form"
+        "text": "鷺鶿杓"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろじしゃく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-jianli-food"
+    "kind": "term"
+    "headword": "繭栗"
+    "definition_ja": "精進の宴で供される食物の呼称。栗や若い筍などとの対応は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+        - "xy-ch79-moe-jianli"
+      "reason_ja": "一般辞書は小牛、花蕾、若い筍の語義を載せるが、ここでは素宴の果品に続くため仔牛肉と決めない。本文の語形を保持し、具体的食材の同定を留保する。"
+    "forms":
+      - "id": "xy-ch79-jianli-food-form"
+        "text": "繭栗"
+        "relation": "preferred"
+        "reading":
+          "kana": "けんりつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
+  - "id": "xy-ch79-purple-cloud-cup"
+    "kind": "object"
+    "headword": "紫霞杯"
+    "definition_ja": "国王が酒を勧める際に手にする、紫の霞を名とする杯。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "擎著紫霞杯、一一奉酒とあり、杯の呼称として確認。素材・彩色・形は本文に明示されない。"
+    "forms":
+      - "id": "xy-ch79-purple-cloud-cup-form"
+        "text": "紫霞杯"
+        "relation": "preferred"
+        "reading":
+          "kana": "しかはい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "紫はし、霞はか、杯ははいの字音を組み合わせ「しかはい」と読む。語全体の日本語仮名資料は未確認。"
+  - "id": "xy-ch79-honored-guests"
+    "kind": "term"
+    "headword": "大師"
+    "definition_ja": "宴の席に相伴する人々への尊称。僧侶か官人かは明示されない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch79-primary-1455628"
+      "reason_ja": "同席者の呼び名として大師とあるが、僧や特定の官職と確定する説明はない。既存の太師という官職と同一語義と断定せず、役割の未確定な尊称として限定する。"
+    "forms":
+      - "id": "xy-ch79-honored-guests-form"
+        "text": "大師"
+        "relation": "preferred"
+        "reading":
+          "kana": "だいし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch79-primary-1455628"
+          "reason_ja": "構成漢字の日本語音訓と語構成から採用。語全体の日本語仮名を明示する資料は未確認。中国語出現や語義資料を日本語読みの実証とはしない。"
