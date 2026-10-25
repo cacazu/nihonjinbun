@@ -3650,6 +3650,58 @@
     "title": "教育部 重編国語辞典修訂本 百舌（検索表示の鳥の説明）"
     "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=14371&la=1&powerMode=0"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch81-primary-1455630"
+    "title": "中文維基文庫 西遊記 第081回 固定版1455630（全207表示行を直接取得）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第081回&oldid=1455630"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch81-kitchen"
+    "title": "曹洞宗 貞昌院 香積台（食事を調理する庫院の意味を表示本文で確認）"
+    "url": "https://teishoin.sakura.ne.jp/soji/koshaku.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch81-five-precepts"
+    "title": "新纂浄土宗大辞典 五戒（全語読みと内容を表示本文で確認）"
+    "url": "https://jodoshuzensho.jp/daijiten/index.php/五戒"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch81-danotsu"
+    "title": "漢字ペディア 越（檀越の全語読みを表示本文で確認）"
+    "url": "https://www.kanjipedia.jp/kanji/0000426000"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch81-donor"
+    "title": "小学館等 檀越（公開辞書表示）"
+    "url": "https://kotobank.jp/word/檀越-563672"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch81-empty"
+    "title": "聖厳法師 仏学入門（頑空と真空の区別）"
+    "url": "https://old.ddc.shengyen.org/mobile/text/07-01/32.php"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch81-bell"
+    "title": "神奈川大学 非文字資料研究年報7（論文検索表示に金磬の仮名を確認）"
+    "url": "https://kanagawa-u.repo.nii.ac.jp/record/8150/files/27%20非文字年報7.pdf"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch81-repentance"
+    "title": "徐立強 梁皇懺文初探（中華仏学研究二、慈悲道場懺法と伝承の研究）"
+    "url": "https://www.chibs.edu.tw/ch_html/chbs/02/chbs0207.htm"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch81-eight-immortals"
+    "title": "日本国語大辞典等 八仙（公開辞書の検索表示）"
+    "url": "https://kotobank.jp/word/八仙-115115"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch81-jin36"
+    "title": "晋書 巻三十六 張華伝（公開転写）"
+    "url": "https://zh.wikisource.org/wiki/晉書/卷036"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch81-jin33"
+    "title": "晋書 巻三十三 王覧伝（公開転写の佩刀の説話を確認）"
+    "url": "https://zh.wikisource.org/wiki/晉書/卷033"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch81-shiji62"
+    "title": "史記 巻六十二 管晏列伝（管仲と鮑叔の関係）"
+    "url": "https://zh.wikisource.org/wiki/史記/卷062"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch81-shiji65"
+    "title": "史記 巻六十五 孫子呉起列伝（孫臏と龐涓の関係）"
+    "url": "https://zh.wikisource.org/wiki/史記/卷065"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -4905,6 +4957,15 @@
           "source_ids":
             - "xy-ch76-primary-1557754"
           "reason_ja": "悟空が孫という姓に外公（母方の祖父）を付けて相手に要求する呼称。既存の孫・外公の字音を組み合わせた推定で、独立した全語形の仮名資料は未確認。実際の血縁や別人の名を意味しない。"
+      - "id": "xy-ch81-sun-dashi-form"
+        "text": "孫大士"
+        "relation": "title"
+        "reading":
+          "kana": "そんだいし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
   - "id": "xy-term-050"
     "kind": "concept"
     "headword": "北斗"
@@ -11665,6 +11726,15 @@
           "source_ids":
             - "xy-reference-128"
           "reason_ja": "打楽器の見出しに「けい／磬」と明記。唐音きんの鉢形仏具とは区別する。"
+      - "id": "xy-ch81-metal-chime-form"
+        "text": "金磬"
+        "relation": "variant"
+        "reading":
+          "kana": "きんけい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch81-bell"
+          "reason_ja": "神奈川大学の研究年報PDFの検索表示に全語の金磬（きんけい）を確認。石・金属の磬のうち金属製であることを示す修飾形。PDF全ページを閲覧したとは主張しない。"
   - "id": "xy-entry-0374"
     "kind": "term"
     "headword": "不埒"
@@ -18424,6 +18494,15 @@
           "source_ids":
             - "xy-ch64-muni"
           "reason_ja": "参照資料の取得表示が、この語形の日本語仮名を明記する。"
+      - "id": "xy-ch81-shakuson-form"
+        "text": "釈尊"
+        "relation": "title"
+        "reading":
+          "kana": "しゃくそん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
   - "id": "xy-entry-0688"
     "kind": "place"
     "headword": "双林"
@@ -20358,6 +20437,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-ch81-amida-short-form"
+        "text": "阿弥陀"
+        "relation": "short_form"
+        "reading":
+          "kana": "あみだ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
   - "id": "xy-entry-0787"
     "kind": "object"
     "headword": "花座"
@@ -39117,6 +39205,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から推定。この語形の読みを直接明記する日本語資料は未確認。"
+      - "id": "xy-ch81-moon-tree-form"
+        "text": "梭羅樹"
+        "relation": "variant"
+        "reading":
+          "kana": "さらじゅ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "既存の月の樹木「梭羅」に樹を添えた形。同じ神話上の樹であり、実在の沙羅双樹へ同定しない。"
   - "id": "xy-entry-1735"
     "kind": "concept"
     "headword": "刀圭"
@@ -64964,6 +65061,15 @@
           "source_ids":
             - "xy-ch80-primary-1808715"
           "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語原文の出現だけを読みの実証としない。"
+      - "id": "xy-ch81-zhenhai-short-form"
+        "text": "鎮海寺"
+        "relation": "short_form"
+        "reading":
+          "kana": "ちんかいじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
   - "id": "xy-ch80-poluo-fabric"
     "kind": "term"
     "headword": "頗羅"
@@ -65013,3 +65119,453 @@
           "source_ids":
             - "xy-ch80-primary-1808715"
           "reason_ja": "小の音しょうと、喇嘛の読みらまを合わせる。語形全体を日本語仮名で示す資料は未確認。"
+  - "id": "xy-ch81-black-pine-forest"
+    "kind": "place"
+    "headword": "黒松林"
+    "definition_ja": "黒々と松が茂る林。三蔵が木に縛られた女を救う場所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+      "reason_ja": "黒松林の木に縛られた女を救ったと三蔵が説明する。既存の烏巣禅師の予言にある同名の林と同じ場所かは明示されず、別の指示範囲として保留する。"
+    "forms":
+      - "id": "xy-ch81-black-pine-forest-form"
+        "text": "黒松林"
+        "relation": "preferred"
+        "reading":
+          "kana": "こくしょうりん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-bodhi-heart"
+    "kind": "term"
+    "headword": "菩提心"
+    "definition_ja": "悟りを求め、衆生を救おうとする心。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+      "reason_ja": "女の救出を三蔵が菩提心によると語る。悟りそのものを意味する既存の菩提とは語義の範囲が異なる。"
+    "forms":
+      - "id": "xy-ch81-bodhi-heart-form"
+        "text": "菩提心"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぼだいしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-zhenhai-heavenly-king-hall"
+    "kind": "place"
+    "headword": "天王殿"
+    "definition_ja": "鎮海禅林寺にある、天王をまつる堂。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+      "reason_ja": "院主が天王の像のある堂を示す。既存の天界の天王殿とは場所・指示対象が異なるため、その定義を広げて統合しない。"
+    "forms":
+      - "id": "xy-ch81-zhenhai-heavenly-king-hall-form"
+        "text": "天王殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんのうでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-incense-kitchen"
+    "kind": "term"
+    "headword": "香積厨"
+    "definition_ja": "仏教寺院の、食事を作る台所の呼称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+        - "xy-ch81-kitchen"
+      "reason_ja": "水を汲みに向かう寺の裏の場所として登場し、寺院自身の説明も香積を食事調理の庫院とする。特定の別寺の建物と同一視しない。"
+    "forms":
+      - "id": "xy-ch81-incense-kitchen-form"
+        "text": "香積厨"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうしゃくちゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+            - "xy-ch81-kitchen"
+          "reason_ja": "香積台の寺院表記Koshakudaiと厨の音を合わせる。香積厨という全語の仮名資料を得たものではない。"
+  - "id": "xy-ch81-five-precepts"
+    "kind": "term"
+    "headword": "五戒"
+    "definition_ja": "殺生、盗み、邪な性行為、偽り、飲酒を避ける、仏教の五つの基本的な戒め。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+        - "xy-ch81-five-precepts"
+      "reason_ja": "浄土宗大辞典の五戒の項で五種の内容と仏教語であることを確認。三帰まで含む既存三帰五戒とは範囲を区別。"
+    "forms":
+      - "id": "xy-ch81-five-precepts-form"
+        "text": "五戒"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごかい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch81-five-precepts"
+          "reason_ja": "取得した辞典の見出しに「ごかい／五戒」とある。"
+  - "id": "xy-ch81-inert-emptiness"
+    "kind": "term"
+    "headword": "頑空"
+    "definition_ja": "仏教で、単なる無や虚無にとどまる空をいう語。真の空の理解とは区別される。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+        - "xy-ch81-empty"
+      "reason_ja": "頑空と色空を並べる原文と、聖厳法師による頑空と真空の区別を参照。僧の発言を正しい悟りの達成と断定しない。"
+    "forms":
+      - "id": "xy-ch81-inert-emptiness-form"
+        "text": "頑空"
+        "relation": "preferred"
+        "reading":
+          "kana": "がんくう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-form-emptiness"
+    "kind": "term"
+    "headword": "色空"
+    "definition_ja": "形ある現象と空、または形あるものが空であることを表す仏教語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+      "reason_ja": "頑空と並んで悟ろうとする対象として現れる。語の詳しい解釈と両者の関係には留保し、特定の学派の教義へ狭めない。"
+    "forms":
+      - "id": "xy-ch81-form-emptiness-form"
+        "text": "色空"
+        "relation": "preferred"
+        "reading":
+          "kana": "しきくう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-lay-donor"
+    "kind": "term"
+    "headword": "檀越"
+    "definition_ja": "僧や寺に布施をし、支える在家の信者。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+        - "xy-ch81-donor"
+      "reason_ja": "公開辞書の檀越の説明と、寺を訪れて読経を受ける人々の文脈を照合。"
+    "forms":
+      - "id": "xy-ch81-lay-donor-form"
+        "text": "檀越"
+        "relation": "preferred"
+        "reading":
+          "kana": "だんおつ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch81-danotsu"
+          "reason_ja": "漢字ペディアの越の項、下つき語に「檀越(ダンオツ)」と明記される。"
+  - "id": "xy-ch81-liang-repentance"
+    "kind": "term"
+    "headword": "梁王懺"
+    "definition_ja": "罪を懺悔する仏教の儀礼と懺悔文の名。梁の武帝に結びつけて伝えられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+        - "xy-ch81-repentance"
+      "reason_ja": "徐立強の研究は梁皇懺を慈悲道場懺法と結び、成立伝承の不確実さも検討する。本文の梁王懺を同系の呼称と読むが、武帝の直接執筆や具体的な巻数は断定しない。"
+    "forms":
+      - "id": "xy-ch81-liang-repentance-form"
+        "text": "梁王懺"
+        "relation": "preferred"
+        "reading":
+          "kana": "りょうおうさん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-eight-immortals"
+    "kind": "person"
+    "headword": "八仙"
+    "definition_ja": "中国で一組として語られる八人の仙人。海を渡る際に各自の術を示す説話で知られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+        - "xy-ch81-eight-immortals"
+      "reason_ja": "海を渡って各自の神通を示すという原文と、公開辞書の道教の八仙の説明を照合。酒中八仙などの別の集団と区別。"
+    "forms":
+      - "id": "xy-ch81-eight-immortals-form"
+        "text": "八仙"
+        "relation": "preferred"
+        "reading":
+          "kana": "はっせん"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch81-eight-immortals"
+          "reason_ja": "公開辞書の検索表示で八仙の全語読み「はっせん」を確認。"
+  - "id": "xy-ch81-lei-huan"
+    "kind": "person"
+    "headword": "雷煥"
+    "definition_ja": "名剣を地中から掘り出したという説話で知られる、晋代の人物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+        - "xy-ch81-jin36"
+      "reason_ja": "原詩の雷煥剣を晋書張華伝に登場する雷煥と読む。名高い剣の典故であり、妖怪と実際に戦ったとの事実は補わない。"
+    "forms":
+      - "id": "xy-ch81-lei-huan-form"
+        "text": "雷煥"
+        "relation": "preferred"
+        "reading":
+          "kana": "らいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-lu-qian"
+    "kind": "person"
+    "headword": "呂虔"
+    "definition_ja": "三国時代の魏の人物。特別な由来を持つ刀を王祥へ譲ったという説話で知られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+        - "xy-ch81-jin33"
+      "reason_ja": "晋書王覧伝の王祥へ佩刀を譲る説話と、原詩の呂虔刀を照合。原詩にない武器の銘を補わない。"
+    "forms":
+      - "id": "xy-ch81-lu-qian-form"
+        "text": "呂虔"
+        "relation": "preferred"
+        "reading":
+          "kana": "りょけん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-han-river"
+    "kind": "place"
+    "headword": "漢水"
+    "definition_ja": "中国の川の名。長江と並べて広大な水流を表す詩に用いられる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+      "reason_ja": "原詩の江漢を長江と漢水の二河へ開く。妖怪の通行の自在さを詠むのであり、取経路上の位置や渡河の実行は補わない。"
+    "forms":
+      - "id": "xy-ch81-han-river-form"
+        "text": "漢水"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-heng-mountain"
+    "kind": "place"
+    "headword": "恒山"
+    "definition_ja": "中国の山の名。五岳の北岳として知られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+      "reason_ja": "泰恒の対句を泰山と恒山へ開く。峰の高さを使う比喩であり、ここでの取経路上の山と同一視しない。"
+    "forms":
+      - "id": "xy-ch81-heng-mountain-form"
+        "text": "恒山"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-hairy-maiden"
+    "kind": "person"
+    "headword": "毛姹女"
+    "definition_ja": "人間の女の姿をとる、年経た鼠の妖怪を指す詩的な呼び名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+      "reason_ja": "鼠老成精という説明の後の戦闘詩で孫大士と対置される語。姹女一般や他の女妖と同一視せず、本名や親族関係の詳しい性質は補わない。"
+    "forms":
+      - "id": "xy-ch81-hairy-maiden-form"
+        "text": "毛姹女"
+        "relation": "preferred"
+        "reading":
+          "kana": "もうたじょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-feicui-image"
+    "kind": "term"
+    "headword": "翡翠"
+    "definition_ja": "かわせみや美しい宝玉・装飾を表す語。玉の楼を詠む戦闘の比喩では、どちらを指すか確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+      "reason_ja": "玉樓抓翡翠は鳥と宝玉の双方が可能な詩句。宝材に限定した既存の翡翠の定義を書き換えず、指示範囲を保留した詩語として分ける。"
+    "forms":
+      - "id": "xy-ch81-feicui-image-form"
+        "text": "翡翠"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひすい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-ba-region"
+    "kind": "place"
+    "headword": "巴"
+    "definition_ja": "古い中国の地名。蜀の東方の地をいい、山や猿の声を詠む詩にも使われる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+      "reason_ja": "猿啼巴月小の巴を楚と対になる地域名と解す。寺の現在位置が巴にあるという意味にはしない。"
+    "forms":
+      - "id": "xy-ch81-ba-region-form"
+        "text": "巴"
+        "relation": "preferred"
+        "reading":
+          "kana": "は"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-xiankong-mountain"
+    "kind": "place"
+    "headword": "陷空山"
+    "definition_ja": "取経の旅に登場する山の名。女の妖怪が三蔵を連れ去った先。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+      "reason_ja": "女の妖怪が到着する山の名として語り手が明示する。別字体の陥へ無断置換せず原字を保持。"
+    "forms":
+      - "id": "xy-ch81-xiankong-mountain-form"
+        "text": "陷空山"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんくうざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-bottomless-cave"
+    "kind": "place"
+    "headword": "無底洞"
+    "definition_ja": "陷空山にある洞穴の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+      "reason_ja": "陷空山に着いた妖怪が入る洞として明示される。洞の深さや内部の詳細は名から推測して補わない。"
+    "forms":
+      - "id": "xy-ch81-bottomless-cave-form"
+        "text": "無底洞"
+        "relation": "preferred"
+        "reading":
+          "kana": "むていどう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-guan-zhong"
+    "kind": "person"
+    "headword": "管仲"
+    "definition_ja": "春秋時代の斉の政治家。親友との厚い交わりで知られる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+        - "xy-ch81-shiji62"
+      "reason_ja": "管鮑分金の管を管仲と読む。史記管晏列伝が管仲と鮑叔の交友と利益配分を述べる。"
+    "forms":
+      - "id": "xy-ch81-guan-zhong-form"
+        "text": "管仲"
+        "relation": "preferred"
+        "reading":
+          "kana": "かんちゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-bao-shu"
+    "kind": "person"
+    "headword": "鮑叔"
+    "definition_ja": "管仲の境遇や才能をよく理解して支えた、春秋時代の斉の人物。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+        - "xy-ch81-shiji62"
+      "reason_ja": "管鮑分金の鮑を鮑叔と読む。史記の両者の交友と利益配分の記述に基づく。"
+    "forms":
+      - "id": "xy-ch81-bao-shu-form"
+        "text": "鮑叔"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうしゅく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-sun-bin"
+    "kind": "person"
+    "headword": "孫臏"
+    "definition_ja": "戦国時代の兵法家。共に兵学を学んだ相手と、のちに敵対した。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+        - "xy-ch81-shiji65"
+      "reason_ja": "孫龐鬥智の孫を孫臏と読む。史記孫子呉起列伝が龐涓との同学と敵対を述べる。悟空の姓の孫とは別人。"
+    "forms":
+      - "id": "xy-ch81-sun-bin-form"
+        "text": "孫臏"
+        "relation": "preferred"
+        "reading":
+          "kana": "そんぴん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
+  - "id": "xy-ch81-pang-juan"
+    "kind": "person"
+    "headword": "龐涓"
+    "definition_ja": "戦国時代の魏の将軍。孫臏と兵学を学びながら、のちに敵対した。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch81-primary-1455630"
+        - "xy-ch81-shiji65"
+      "reason_ja": "孫龐鬥智の龐を龐涓と読む。史記の両者の関係と抗争を参照。"
+    "forms":
+      - "id": "xy-ch81-pang-juan-form"
+        "text": "龐涓"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうけん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch81-primary-1455630"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。語形全体の日本語仮名資料は未確認であり、中国語の出現だけを読みの実証としない。"
