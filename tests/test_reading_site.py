@@ -54,11 +54,11 @@ class IndexCreditTests(unittest.TestCase):
         self.assertEqual((credit["tag"], credit["attrs"].get("class")),
                          ("p", "translator-credit"))
         self.assertEqual(credit["text"],
-                         "翻訳者：心霊研究家ポロミン(@cacazu_riht)　ChatGPT訳")
+                         "翻訳者：心霊研究家ポロミン(@cacazu_right)　ChatGPT訳")
         link, = [node for node in page.nodes if node["tag"] == "a"
                  and any(parent is credit for parent in node["parents"])]
-        self.assertEqual(link["text"], "心霊研究家ポロミン(@cacazu_riht)")
-        self.assertEqual(link["attrs"]["href"], "https://x.com/cacazu_riht")
+        self.assertEqual(link["text"], "心霊研究家ポロミン(@cacazu_right)")
+        self.assertEqual(link["attrs"]["href"], "https://x.com/cacazu_right")
         self.assertEqual(children[2]["text"], "目次")
         self.assertEqual([node["text"] for node in page.nodes if node["tag"] == "title"],
                          ["西遊記日本語訳"])
@@ -79,7 +79,7 @@ class IndexRenderingTests(unittest.TestCase):
         self.assertEqual(children[0]["text"], "西遊記")
         self.assertEqual(children[2]["text"], "目次")
         self.assertEqual(children[2]["attrs"]["id"], "chapters")
-        expected = [("心霊研究家ポロミン(@cacazu_riht)", "https://x.com/cacazu_riht")]
+        expected = [("心霊研究家ポロミン(@cacazu_right)", "https://x.com/cacazu_right")]
         for number, document in enumerate(self.documents, 1):
             heading, = [segment["translation_ja"] for segment in document["segments"]
                         if segment["kind"] == "heading"]

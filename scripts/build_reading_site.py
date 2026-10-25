@@ -207,7 +207,7 @@ def render_index(documents):
 <body class="index-page">
 <main id="main" class="contents">
 <h1>西遊記</h1>
-<p class="translator-credit">翻訳者：{external_link("https://x.com/cacazu_riht", "心霊研究家ポロミン(@cacazu_riht)")}　ChatGPT訳</p>
+<p class="translator-credit">翻訳者：{external_link("https://x.com/cacazu_right", "心霊研究家ポロミン(@cacazu_right)")}　ChatGPT訳</p>
 <h2 id="chapters">目次</h2>
 <ul>{links}</ul>
 <p><a href="https://github.com/cacazu/nihonjinbun" rel="noreferrer">https://github.com/<wbr>cacazu/nihonjinbun</a></p>
