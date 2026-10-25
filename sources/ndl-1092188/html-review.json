@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "independent_reviewer": "parent agent",
+  "reviewed_at_utc": "2026-10-25T16:13:00Z",
+  "checks": {
+    "segments_exact_once": 85,
+    "paragraph_groups": 18,
+    "notes": 3,
+    "ruby": 144,
+    "duplicate_ids": 0,
+    "missing_fragment_or_relative_links": 0,
+    "headingless_introduction_toc": "present",
+    "all207_existing_docs_except_tanaka_index": "byte_identical_to_HEAD",
+    "generator_diff": "13lines independentlyreviewed"
+  },
+  "html_sha256": "c7d1997727b89cc0738a56ecbaf45e9bfe187b7e2b0f5de352083b140bbf67f9",
+  "generator_sha256": "f6cf3e8d6528804060b2effbd9f1ef280759b43108075fa20cc92cc5f6cde85b",
+  "targeted_tests": "11passed; actualTanaka3workbuild validation+exactregeneration; wholeXiyouji100notrerun",
+  "browser_visual_review": "publicafterdeployment"
+}

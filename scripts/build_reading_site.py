@@ -10,7 +10,7 @@ from translation_yaml import ROOT, load_document, validate_document
 
 PUBLISHED_CHAPTER_COUNT = 100
 CHAPTERS = tuple(f"xiyouji-chapter-{n:03d}-zh-ja.yaml" for n in range(1, PUBLISHED_CHAPTER_COUNT + 1))
-TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai")
+TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai", "kokoku-dento-no-seishin")
 NUMERALS = (
     "一", "二", "三", "四", "五", "六", "七", "八", "九", "十",
     "十一", "十二", "十三", "十四", "十五", "十六", "十七", "十八", "十九", "二十",
@@ -287,9 +287,14 @@ def render_taii(data, *, include_reader_notes=False):
             body.append(rendered)
     toc = []
     for section in data["sections"]:
-        if section.get("parent_id") == "main-text" and section["heading_segment_ids"]:
-            sid = section["heading_segment_ids"][0]
-            toc.append(f'<li><a href="#{esc(sid)}">{esc(segments[sid]["translation_ja"])}</a></li>')
+        if section.get("parent_id") == "main-text":
+            headings = section["heading_segment_ids"]
+            members = [segment for segment in body_segments if segment["section_id"] == section["id"]]
+            if not headings and not members:
+                continue
+            sid = headings[0] if headings else members[0]["id"]
+            label = segments[sid]["translation_ja"] if headings else section.get("label_ja", segments[sid]["translation_ja"])
+            toc.append(f'<li><a href="#{esc(sid)}">{esc(label)}</a></li>')
         elif section["id"] in ("colophon", "advertisements"):
             sid = next(s["id"] for s in body_segments if s["section_id"] == section["id"] or
                        (section["id"] == "advertisements" and s["section_id"].startswith("ads-scan-")))

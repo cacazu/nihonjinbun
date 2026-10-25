@@ -123,7 +123,7 @@ class ReadingSiteTests(unittest.TestCase):
         cls.temp.cleanup()
 
     def test_only_explicit_public_files(self):
-        self.assertEqual(set(self.pages), {"index.html", "xiyouji/index.html", "tanaka/index.html", "tanaka/shinto-taii.html", "tanaka/kodo-no-shimei-sekai-no-shorai.html", ".nojekyll", "assets/reading.css", "xiyouji/assets/reading.css", *(f"chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1)), *(f"xiyouji/chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1))})
+        self.assertEqual(set(self.pages), {"index.html", "xiyouji/index.html", "tanaka/index.html", "tanaka/shinto-taii.html", "tanaka/kodo-no-shimei-sekai-no-shorai.html", "tanaka/kokoku-dento-no-seishin.html", ".nojekyll", "assets/reading.css", "xiyouji/assets/reading.css", *(f"chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1)), *(f"xiyouji/chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1))})
 
     def test_chapter_navigation_and_publication_range(self):
         for number in range(1, len(reader.CHAPTERS) + 1):
@@ -284,7 +284,7 @@ class ReadingSiteTests(unittest.TestCase):
         author = self.html["tanaka/index.html"]
         self.assertEqual([n["text"] for n in author.nodes if n["tag"] == "h1"], ["田中義能"])
         self.assertEqual([(n["text"], n["attrs"]["href"]) for n in author.nodes if n["tag"] == "a"],
-                         [("神道大意", "shinto-taii.html"), ("皇道の使命と世界の将来", "kodo-no-shimei-sekai-no-shorai.html"), ("索引に戻る", "../index.html")])
+                         [("神道大意", "shinto-taii.html"), ("皇道の使命と世界の将来", "kodo-no-shimei-sekai-no-shorai.html"), ("皇国伝統の精神", "kokoku-dento-no-seishin.html"), ("索引に戻る", "../index.html")])
         for page in (root, author):
             self.assertFalse(any(n["tag"] in ("script", "button", "iframe") for n in page.nodes))
 
@@ -299,6 +299,24 @@ class ReadingSiteTests(unittest.TestCase):
             link, = [n for n in page.nodes if n["tag"] == "a"]
             self.assertEqual(link["attrs"]["href"], target)
             self.assertFalse(page.by_id("reading"), "Old paths must not duplicate the book")
+
+    def test_kokoku_full_translation_groups_notes_and_intro_toc(self):
+        data = load_document(ROOT / "translations/tanaka/kokoku-dento-no-seishin-ja.yaml")
+        page = self.html["tanaka/kokoku-dento-no-seishin.html"]
+        self.assertEqual(len(data["segments"]), 85)
+        segments = {s["id"]: s for s in data["segments"]}
+        for segment in data["segments"]:
+            node, = page.by_id(segment["id"])
+            self.assertEqual(node["text"], segment["translation_ja"])
+        self.assertEqual(len(data["groups"]), 18)
+        for group in data["groups"]:
+            node, = page.by_id(group["id"])
+            self.assertEqual(node["text"], ''.join(segments[m["segment_id"]]["translation_ja"] for m in group["members"]))
+        for note in data["notes"]:
+            self.assertEqual(len(page.by_id(note["id"])), 1)
+        intro = next(s for s in data["segments"] if s["section_id"] == "introduction")
+        self.assertTrue(any(n["tag"] == "a" and n["attrs"].get("href") == "#"+intro["id"] and n["text"] == "導入・潜在精神" for n in page.nodes))
+        self.assertEqual(sum(n["tag"] == "li" and n["text"].startswith("原文のルビ") for n in page.nodes), 144)
 
     def test_kodo_full_translation_groups_caveat_and_language_labels(self):
         data = load_document(ROOT / "translations/tanaka/kodo-no-shimei-sekai-no-shorai-ja.yaml")
