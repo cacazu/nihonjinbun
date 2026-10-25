@@ -3126,6 +3126,58 @@
     "title": "漢字辞典オンライン 㺄（検索表示、字の日本語読み）"
     "url": "https://kanji.jitenon.jp/kanjiy/20660"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch66-primary-1455615"
+    "title": "中文維基文庫 西遊記 第066回 固定版1455615・繁體（固定リンクと繁體リンク経由、全237表示行取得）"
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1455615&title=西遊記/第066回&variant=zh-hant"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch66-xuyi"
+    "title": "精選版日本国語大辞典「盱眙」（検索表示、地名部分の読み）"
+    "url": "https://kotobank.jp/word/盱眙-2030837"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch66-wudang"
+    "title": "百科事典マイペディア「武当山」（検索表示）"
+    "url": "https://kotobank.jp/word/武当山-1734361"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch66-langmei"
+    "title": "湖北汽車工業学院 武当文化研究与伝播中心「道教圣地，武当山背后的故事！」（検索表示）"
+    "url": "https://wdwh.huat.edu.cn/info/1028/1247.htm"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch66-sword"
+    "title": "教育部異体字字典「鋘」（検索表示、錕鋘の剣名）"
+    "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=73889&la=1"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch66-sword-reading"
+    "title": "漢字辞典オンライン「鋘」（検索表示、錕鋘の日本語読み）"
+    "url": "https://kanji.jitenon.jp/kanjip/7643"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch66-guguai"
+    "title": "教育部重編國語辭典「孤拐」（検索表示、脚踝と西遊記の用例）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=70836&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch66-bin"
+    "title": "漢字辞典オンライン「蠙」（検索表示、字音のみ）"
+    "url": "https://kanji.jitenon.jp/kanjit/9953"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch66-bin-city"
+    "title": "淮安市政協文史網「西遊記中的盱眙人文景觀」（検索表示、当地を調べた執筆者の報告）"
+    "url": "https://zx.huaian.gov.cn/col/14167_771658/art/m/16855488/1685602466831Ug3QNLnS.html"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch66-bell"
+    "title": "新纂浄土宗大辞典「風鐸」（検索表示、宝鐸の読みと仏塔の鈴）"
+    "url": "https://jodoshuzensho.jp/daijiten/index.php/風鐸"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch66-maitreya"
+    "title": "国立国会図書館典拠「弥勒」（検索表示、ミロクと仏の異名）"
+    "url": "https://id.ndl.go.jp/auth/ndlsh/00567714"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch66-dragon-flower"
+    "title": "デジタル大辞泉・ブリタニカ「竜華会」（検索表示）"
+    "url": "https://kotobank.jp/word/竜華会-149593"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch66-comparison"
+    "title": "識典古籍 西遊記 第六十六回（検索表示、幽含・朱陸などの文字を確認）"
+    "url": "https://www.shidianguji.com/zh/book/NA11023/chapter/1k291tzdjnxfu"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -3747,6 +3799,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "既存の「北倶盧洲」と同じ地名で、俱は倶の異体字。既存の読み「ほっくるしゅう」を異体表記へ適用。"
+      - "id": "xy-ch66-north-continent-reed-form"
+        "text": "北倶蘆洲"
+        "relation": "variant"
+        "reading":
+          "kana": "ほっくるしゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
   - "id": "xy-aolai"
     "kind": "place"
     "headword": "傲来国"
@@ -12301,6 +12362,15 @@
           "source_ids":
             - "xy-reference-214"
           "reason_ja": "青空文庫『悟浄出世』第六節のルビ「阿羅漢（あらかん）」を確認。"
+      - "id": "xy-ch66-arhat-short-form"
+        "text": "阿羅"
+        "relation": "short_form"
+        "reading":
+          "kana": "あら"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の阿羅を阿羅漢の略と解する。日本語の全形「あらかん」による略形で、当該略称の仮名資料は未確認。"
   - "id": "xy-entry-0443"
     "kind": "person"
     "headword": "南極観音"
@@ -15654,6 +15724,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "公開資料でこの表記全体の慣用日本語読みを確定できず、日本語の音訓・語構成と本文の文脈から推定した。"
+      - "id": "xy-ch66-half-double-hour-form"
+        "text": "半時辰"
+        "relation": "alias"
+        "reading":
+          "kana": "はんじしん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
   - "id": "xy-entry-0589"
     "kind": "object"
     "headword": "廟"
@@ -19285,6 +19364,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の一般的な漢字音と本文の語義から推定した。語全体の慣用読みを明記する資料は今回確認できていない。"
+      - "id": "xy-ch66-jade-grass-form"
+        "text": "瑶草"
+        "relation": "variant"
+        "reading":
+          "kana": "ようそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
   - "id": "xy-entry-0776"
     "kind": "place"
     "headword": "恒河"
@@ -20281,6 +20369,15 @@
           "source_ids":
             - "xy-ch61-primary-1500610"
           "reason_ja": "漢字の日本語音と語構成から採った読み。語形全体の仮名を直接示す資料は未確認で、中国語本文での出現を日本語読みの実証としない。"
+      - "id": "xy-ch66-bliss-world-form"
+        "text": "極楽世界"
+        "relation": "alias"
+        "reading":
+          "kana": "ごくらくせかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
   - "id": "xy-entry-0827"
     "kind": "concept"
     "headword": "大千世界"
@@ -33622,6 +33719,15 @@
           "source_ids":
             - "xy-reference-364"
           "reason_ja": "本文が浮屠（ふと）と明示し、仏塔の意味も説明する。"
+      - "id": "xy-ch66-pagoda-tower-form"
+        "text": "浮屠塔"
+        "relation": "alias"
+        "reading":
+          "kana": "ふととう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
   - "id": "xy-entry-1513"
     "kind": "object"
     "headword": "左笄帽"
@@ -36391,6 +36497,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の漢字音と語構成に基づく推定。語形の読みを直接明記する日本語資料は検索したが未確認。"
+      - "id": "xy-ch66-wisdom-perfection-form"
+        "text": "般若波羅蜜"
+        "relation": "variant"
+        "reading":
+          "kana": "はんにゃはらみつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
   - "id": "xy-entry-1653"
     "kind": "person"
     "headword": "舎利子"
@@ -37279,6 +37394,60 @@
           "source_ids":
             - "xy-ch65-primary-1455614"
           "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+      - "id": "xy-ch66-jade-void-master-form"
+        "text": "玉虚師相"
+        "relation": "title"
+        "reading":
+          "kana": "ぎょくきょししょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch66-golden-gate-benevolent-form"
+        "text": "金闕仁慈"
+        "relation": "title"
+        "reading":
+          "kana": "きんけつじんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch66-master-minister-form"
+        "text": "師相"
+        "relation": "title"
+        "reading":
+          "kana": "ししょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch66-zhenwu-master-form"
+        "text": "真武師相"
+        "relation": "title"
+        "reading":
+          "kana": "しんぶししょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch66-mysterious-heaven-emperor-form"
+        "text": "玄天上帝"
+        "relation": "title"
+        "reading":
+          "kana": "げんてんじょうてい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch66-primordial-teaching-lord-form"
+        "text": "混元教主"
+        "relation": "title"
+        "reading":
+          "kana": "こんげんきょうしゅ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
   - "id": "xy-entry-1698"
     "kind": "person"
     "headword": "梓橦"
@@ -39794,6 +39963,16 @@
           "source_ids":
             - "xy-reference-422"
           "reason_ja": "独立レビューで実ページ84行の「錕鋘（こんご）」を確認。語義・句全体の解釈をverifiedにする根拠にはしない。"
+      - "id": "xy-ch66-kunwu-sword-form"
+        "text": "錕鋘剣"
+        "relation": "alias"
+        "reading":
+          "kana": "こんごけん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+            - "xy-ch66-sword-reading"
+          "reason_ja": "日本語字書の検索表示の錕鋘「こんご」に剣の字音を加えた。錕鋘剣全体の仮名資料は未確認。"
   - "id": "xy-entry-1832"
     "kind": "person"
     "headword": "瀛洲九老"
@@ -44689,6 +44868,15 @@
           "source_ids":
             - "xy-ch43-primary-1455592"
           "reason_ja": "漢字の日本語音と語構成に基づく読み。語全体の日本語仮名表記を直接確認する資料は得られず、中国語原文だけを読みの実証とはしない。"
+      - "id": "xy-ch66-huai-river-form"
+        "text": "淮河"
+        "relation": "alias"
+        "reading":
+          "kana": "わいが"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
   - "id": "xy-ji-river"
     "kind": "place"
     "headword": "済水"
@@ -54822,6 +55010,15 @@
           "source_ids":
             - "xy-ch64-primary-1455613"
           "reason_ja": "漢字の通常の日本語音と語構成に基づく。語形全体の日本語仮名を明記する資料は未確認。中国語本文の出現を読みの実証とはしない。"
+      - "id": "xy-ch66-dragon-flower-assembly-form"
+        "text": "竜華会"
+        "relation": "alias"
+        "reading":
+          "kana": "りゅうげえ"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch66-dragon-flower"
+          "reason_ja": "取得した検索表示に、この語形の日本語読みを確認。"
   - "id": "xy-ch61-completed-water-fire"
     "kind": "concept"
     "headword": "既済"
@@ -56882,6 +57079,15 @@
           "source_ids":
             - "xy-ch65-primary-1455614"
           "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+      - "id": "xy-ch66-little-thunder-short-form"
+        "text": "小雷音"
+        "relation": "short_form"
+        "reading":
+          "kana": "しょうらいおん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
   - "id": "xy-ch65-gold-cymbals"
     "kind": "object"
     "headword": "金鐃"
@@ -57045,6 +57251,15 @@
           "source_ids":
             - "xy-ch65-primary-1455614"
           "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+      - "id": "xy-ch66-yellow-brow-short-form"
+        "text": "黄眉"
+        "relation": "short_form"
+        "reading":
+          "kana": "こうび"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
   - "id": "xy-ch65-immortal-mouse"
     "kind": "term"
     "headword": "仙鼠"
@@ -57105,3 +57320,1116 @@
           "source_ids":
             - "xy-ch65-primary-1455614"
           "reason_ja": "通常の日本語漢字音と語構成に基づく。検索したが語形全体の日本語読みを明記する信頼できる資料は未確認。中国語原文の出現を日本語読みの実証としない。"
+      - "id": "xy-ch66-wudang-short-form"
+        "text": "武当"
+        "relation": "short_form"
+        "reading":
+          "kana": "ぶとう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-lotus-peak"
+    "kind": "place"
+    "headword": "芙蓉峰"
+    "definition_ja": "真武の仙境をたたえる賛に現れる峰の名。所在地の厳密な同定は留保する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "同じ賛には衡山に関係しうる地名が並ぶ。万寿山の景観にある同表記の峰と、名前だけで統合しない。"
+    "forms":
+      - "id": "xy-ch66-lotus-peak-form"
+        "text": "芙蓉峰"
+        "relation": "preferred"
+        "reading":
+          "kana": "ふようほう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-purple-canopy-ridge"
+    "kind": "place"
+    "headword": "紫蓋嶺"
+    "definition_ja": "真武の仙境の賛に現れる、高くそびえる嶺の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "詩中の嶺名を保ち、似た実在地名へ確定しない。"
+    "forms":
+      - "id": "xy-ch66-purple-canopy-ridge-form"
+        "text": "紫蓋嶺"
+        "relation": "preferred"
+        "reading":
+          "kana": "しがいれい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-nine-rivers"
+    "kind": "place"
+    "headword": "九江"
+    "definition_ja": "古典で長江流域などの多くの川を示す呼称。詩の具体的な九本の内訳は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "当該賛の地理的な語と文脈からの解釈。現代の行政地名や字の異なる似た施設へは置き換えない。"
+    "forms":
+      - "id": "xy-ch66-nine-rivers-form"
+        "text": "九江"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-jing"
+    "kind": "place"
+    "headword": "荊"
+    "definition_ja": "中国の古い地方名、荊州を縮めた表現。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "当該賛の地理的な語と文脈からの解釈。現代の行政地名や字の異なる似た施設へは置き換えない。"
+    "forms":
+      - "id": "xy-ch66-jing-form"
+        "text": "荊"
+        "relation": "preferred"
+        "reading":
+          "kana": "けい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-yang"
+    "kind": "place"
+    "headword": "揚"
+    "definition_ja": "中国の古い地方名、揚州を縮めた表現。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "当該賛の地理的な語と文脈からの解釈。現代の行政地名や字の異なる似た施設へは置き換えない。"
+    "forms":
+      - "id": "xy-ch66-yang-form"
+        "text": "揚"
+        "relation": "preferred"
+        "reading":
+          "kana": "よう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-hundred-yue"
+    "kind": "place"
+    "headword": "百越"
+    "definition_ja": "中国南方の越の諸族、またその住む広い地域をいう古称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "当該賛の地理的な語と文脈からの解釈。現代の行政地名や字の異なる似た施設へは置き換えない。"
+    "forms":
+      - "id": "xy-ch66-hundred-yue-form"
+        "text": "百越"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひゃくえつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-great-void-cave"
+    "kind": "place"
+    "headword": "太虚"
+    "definition_ja": "仙境の賛で宝洞に冠された名。特定の洞窟との同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "当該賛の地理的な語と文脈からの解釈。現代の行政地名や字の異なる似た施設へは置き換えない。"
+    "forms":
+      - "id": "xy-ch66-great-void-cave-form"
+        "text": "太虚"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいきょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-vermilion-terrace"
+    "kind": "place"
+    "headword": "朱陸"
+    "definition_ja": "仙境の賛で霊台に冠された語。細かな意味と実在地の同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "当該賛の地理的な語と文脈からの解釈。現代の行政地名や字の異なる似た施設へは置き換えない。"
+    "forms":
+      - "id": "xy-ch66-vermilion-terrace-form"
+        "text": "朱陸"
+        "relation": "preferred"
+        "reading":
+          "kana": "しゅりく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-langmei"
+    "kind": "term"
+    "headword": "榔梅"
+    "definition_ja": "武当山の伝承と結び付く花木の名。梅枝を榔の木に挿したという伝説を持つ。植物学的な種の同定は留保する。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+        - "xy-ch66-langmei"
+      "reason_ja": "大学の武当文化研究機関が伝説として紹介する記述を検索表示で確認。現代分類上の断定はしない。"
+    "forms":
+      - "id": "xy-ch66-langmei-form"
+        "text": "榔梅"
+        "relation": "preferred"
+        "reading":
+          "kana": "ろうばい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-pure-joy-king"
+    "kind": "person"
+    "headword": "浄楽国王"
+    "definition_ja": "真武の誕生譚に語られる父で、浄楽国の王。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-pure-joy-king-form"
+        "text": "浄楽国王"
+        "relation": "preferred"
+        "reading":
+          "kana": "じょうらくこくおう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-good-victory-empress"
+    "kind": "person"
+    "headword": "善勝皇后"
+    "definition_ja": "日の光を呑む夢を見て真武を身ごもったと語られる皇后。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-good-victory-empress-form"
+        "text": "善勝皇后"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぜんしょうこうごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-kaihuang-myth-era"
+    "kind": "term"
+    "headword": "開皇"
+    "definition_ja": "真武の誕生譚で年を示す年号。歴史上の隋の年号との直接の同定はしない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "神の誕生譚の元年甲辰という表記を保存。歴史上の年号へ機械的に換算しない。"
+    "forms":
+      - "id": "xy-ch66-kaihuang-myth-era-form"
+        "text": "開皇"
+        "relation": "preferred"
+        "reading":
+          "kana": "かいこう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-jiachen"
+    "kind": "term"
+    "headword": "甲辰"
+    "definition_ja": "十干十二支の組合せの一つ。年などを表す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-jiachen-form"
+        "text": "甲辰"
+        "relation": "preferred"
+        "reading":
+          "kana": "きのえたつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-mysterious-void"
+    "kind": "concept"
+    "headword": "玄虚"
+    "definition_ja": "深遠で形を超えた虚空を表す道教的な語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-mysterious-void-form"
+        "text": "玄虚"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんきょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-six-directions"
+    "kind": "term"
+    "headword": "六合"
+    "definition_ja": "東西南北と上下の六方向。天地全体を表す。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-six-directions-form"
+        "text": "六合"
+        "relation": "preferred"
+        "reading":
+          "kana": "りくごう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-first-gate"
+    "kind": "place"
+    "headword": "一天門"
+    "definition_ja": "武当山で悟空が順に通る三つの天門の最初。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-first-gate-form"
+        "text": "一天門"
+        "relation": "preferred"
+        "reading":
+          "kana": "いってんもん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-second-gate"
+    "kind": "place"
+    "headword": "二天門"
+    "definition_ja": "武当山で悟空が順に通る三つの天門の二番目。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-second-gate-form"
+        "text": "二天門"
+        "relation": "preferred"
+        "reading":
+          "kana": "にてんもん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-third-gate"
+    "kind": "place"
+    "headword": "三天門"
+    "definition_ja": "武当山で悟空が順に通る三つの天門の三番目。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-third-gate-form"
+        "text": "三天門"
+        "relation": "preferred"
+        "reading":
+          "kana": "さんてんもん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-supreme-harmony-palace"
+    "kind": "place"
+    "headword": "太和宮"
+    "definition_ja": "武当山にある真武の宮。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-supreme-harmony-palace-form"
+        "text": "太和宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいわきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-supreme-harmony-hall"
+    "kind": "place"
+    "headword": "太和殿"
+    "definition_ja": "真武が安らかに居ると語る御殿。太和宮の記述とつながるが、建物の厳密な関係は未確定。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-supreme-harmony-hall-form"
+        "text": "太和殿"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいわでん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-spirit-officers"
+    "kind": "title"
+    "headword": "霊官"
+    "definition_ja": "道教の神官・神将を表す呼び名。真武の宮では五百の者が迎えに出る。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-spirit-officers-form"
+        "text": "霊官"
+        "relation": "preferred"
+        "reading":
+          "kana": "れいかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-soaring-serpent"
+    "kind": "term"
+    "headword": "騰蛇"
+    "definition_ja": "空を飛ぶとされる神蛇。真武の語る姿では神亀とともに踏まれる。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-soaring-serpent-form"
+        "text": "騰蛇"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうだ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-divine-tortoise"
+    "kind": "term"
+    "headword": "神亀"
+    "definition_ja": "霊妙な亀をいう語。真武が踏む亀として語られる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-divine-tortoise-form"
+        "text": "神亀"
+        "relation": "preferred"
+        "reading":
+          "kana": "しんき"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-five-thunder-generals"
+    "kind": "title"
+    "headword": "五雷神将"
+    "definition_ja": "五雷に属する神将たち。真武が率いた配下として挙げる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-five-thunder-generals-form"
+        "text": "五雷神将"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごらいしんしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-curling-dragon"
+    "kind": "term"
+    "headword": "虯竜"
+    "definition_ja": "古典に見える竜の一種。角や形の説明には異説があり、本文の姿を限定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-curling-dragon-form"
+        "text": "虯竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "きゅうりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-five-divine-dragons"
+    "kind": "person"
+    "headword": "五大神竜"
+    "definition_ja": "真武が悟空の助力に遣わす五人の竜神。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-five-divine-dragons-form"
+        "text": "五大神竜"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごだいしんりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch66-five-dragons-form"
+        "text": "五龍"
+        "relation": "short_form"
+        "reading":
+          "kana": "ごりゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-tortoise-snake-generals"
+    "kind": "person"
+    "headword": "亀蛇の二将"
+    "definition_ja": "真武の配下の亀と蛇の二人の将。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-tortoise-snake-generals-form"
+        "text": "亀蛇の二将"
+        "relation": "preferred"
+        "reading":
+          "kana": "きだのにしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-xuyi-mountain"
+    "kind": "place"
+    "headword": "盱眙山"
+    "definition_ja": "淮水の近くで大聖国師王菩薩の住む場所として紹介される山。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+        - "xy-ch66-bin-city"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-xuyi-mountain-form"
+        "text": "盱眙山"
+        "relation": "preferred"
+        "reading":
+          "kana": "くいざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+            - "xy-ch66-xuyi"
+          "reason_ja": "辞書の検索表示で地名「盱眙」の「くい」を確認し、山の字音「ざん」を組み合わせた。語形全体の仮名を明示する資料は未確認。"
+  - "id": "xy-ch66-bin-city"
+    "kind": "place"
+    "headword": "蠙城"
+    "definition_ja": "大聖国師王菩薩の住む城の名。物語では泗洲と説明される。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-bin-city-form"
+        "text": "蠙城"
+        "relation": "preferred"
+        "reading":
+          "kana": "ひんじょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+            - "xy-ch66-bin"
+          "reason_ja": "漢字辞典の検索表示で蠙の字音ヒンを確認し、城の音と組み合わせた。蠙城全体の仮名資料は未確認。"
+      - "id": "xy-ch66-sizhou-island-writing-form"
+        "text": "泗洲"
+        "relation": "alias"
+        "reading":
+          "kana": "ししゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch66-sizhou-prefecture-writing-form"
+        "text": "泗州"
+        "relation": "variant"
+        "reading":
+          "kana": "ししゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-national-preceptor-king"
+    "kind": "person"
+    "headword": "大聖国師王菩薩"
+    "definition_ja": "蠙城の大聖禅寺にいる菩薩。小張太子と四大神将を配下に持つ。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-national-preceptor-king-form"
+        "text": "大聖国師王菩薩"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいせいこくしおうぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch66-national-preceptor-king-short-form"
+        "text": "国師王菩薩"
+        "relation": "short_form"
+        "reading":
+          "kana": "こくしおうぼさつ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-prince-little-zhang"
+    "kind": "person"
+    "headword": "小張太子"
+    "definition_ja": "大聖国師王菩薩の弟子。四大神将を率いて助力に赴く太子。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-prince-little-zhang-form"
+        "text": "小張太子"
+        "relation": "preferred"
+        "reading":
+          "kana": "しょうちょうたいし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch66-little-zhang-form"
+        "text": "小張"
+        "relation": "short_form"
+        "reading":
+          "kana": "しょうちょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-four-preceptor-generals"
+    "kind": "person"
+    "headword": "四大神将"
+    "definition_ja": "大聖国師王菩薩に属し、小張太子と行動する四人の神将。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "師と弟子の関係で限定する。他の四大将・四天王等と数や語形だけで同定しない。"
+    "forms":
+      - "id": "xy-ch66-four-preceptor-generals-form"
+        "text": "四大神将"
+        "relation": "preferred"
+        "reading":
+          "kana": "しだいしんしょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-water-mother"
+    "kind": "person"
+    "headword": "水母娘娘"
+    "definition_ja": "大聖国師王菩薩の一行に降伏させられたと語られる存在。娘娘は女性への敬称。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "娘娘という敬称と降伏されたとの本文から役割を記す。別に言及される水猿大聖との同一性は明示されておらず、同定しない。"
+    "forms":
+      - "id": "xy-ch66-water-mother-form"
+        "text": "水母娘娘"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいぼにゃんにゃん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch66-water-mother-short-form"
+        "text": "水母"
+        "relation": "short_form"
+        "reading":
+          "kana": "すいぼ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-fengfu"
+    "kind": "place"
+    "headword": "封浮"
+    "definition_ja": "盱眙の景観の賛で西に接するとされる地の名。実在地の同定は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-fengfu-form"
+        "text": "封浮"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうふ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-auspicious-rock-observatory"
+    "kind": "place"
+    "headword": "瑞巌観"
+    "definition_ja": "盱眙の景観の賛に挙がる道観の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-auspicious-rock-observatory-form"
+        "text": "瑞巌観"
+        "relation": "preferred"
+        "reading":
+          "kana": "ずいがんかん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-east-peak-palace"
+    "kind": "place"
+    "headword": "東岳宮"
+    "definition_ja": "盱眙の景観の賛に挙がる宮の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-east-peak-palace-form"
+        "text": "東岳宮"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうがくきゅう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-five-manifest-shrine"
+    "kind": "place"
+    "headword": "五顕祠"
+    "definition_ja": "盱眙の景観の賛に挙がる祠の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-five-manifest-shrine-form"
+        "text": "五顕祠"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごけんし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-tortoise-mountain-temple"
+    "kind": "place"
+    "headword": "亀山寺"
+    "definition_ja": "盱眙の景観の賛に挙がる寺の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-tortoise-mountain-temple-form"
+        "text": "亀山寺"
+        "relation": "preferred"
+        "reading":
+          "kana": "きざんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-crystal-spring"
+    "kind": "place"
+    "headword": "玻璃泉"
+    "definition_ja": "盱眙の景観の賛に挙がる泉の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-crystal-spring-form"
+        "text": "玻璃泉"
+        "relation": "preferred"
+        "reading":
+          "kana": "はりせん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-five-pagoda-valley"
+    "kind": "place"
+    "headword": "五塔峪"
+    "definition_ja": "盱眙の景観の賛に挙がる谷の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-five-pagoda-valley-form"
+        "text": "五塔峪"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごとうよく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-eight-immortals-terrace"
+    "kind": "place"
+    "headword": "八仙台"
+    "definition_ja": "盱眙の景観の賛に挙がる台の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-eight-immortals-terrace-form"
+        "text": "八仙台"
+        "relation": "preferred"
+        "reading":
+          "kana": "はっせんだい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-apricot-garden"
+    "kind": "place"
+    "headword": "杏花園"
+    "definition_ja": "盱眙の景観の賛に挙がる園の名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-apricot-garden-form"
+        "text": "杏花園"
+        "relation": "preferred"
+        "reading":
+          "kana": "きょうかえん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-mount-song"
+    "kind": "place"
+    "headword": "嵩山"
+    "definition_ja": "中国の名山で五岳の一つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-mount-song-form"
+        "text": "嵩山"
+        "relation": "preferred"
+        "reading":
+          "kana": "すうざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-mount-heng"
+    "kind": "place"
+    "headword": "衡山"
+    "definition_ja": "中国の名山で五岳の一つ。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-mount-heng-form"
+        "text": "衡山"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうざん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-great-sage-zen-temple"
+    "kind": "place"
+    "headword": "大聖禅寺"
+    "definition_ja": "蠙城にある大聖国師王菩薩の寺。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-great-sage-zen-temple-form"
+        "text": "大聖禅寺"
+        "relation": "preferred"
+        "reading":
+          "kana": "たいせいぜんじ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-treasure-bell"
+    "kind": "object"
+    "headword": "宝鐸"
+    "definition_ja": "仏塔や仏堂の軒に吊り、風で鳴る大きな鈴。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+        - "xy-ch66-bell"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-treasure-bell-form"
+        "text": "宝鐸"
+        "relation": "preferred"
+        "reading":
+          "kana": "ほうたく"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch66-bell"
+          "reason_ja": "取得した検索表示に、この語形の日本語読みを確認。"
+  - "id": "xy-ch66-water-ape-sage"
+    "kind": "person"
+    "headword": "水猿大聖"
+    "definition_ja": "国師王菩薩が降した、水に会うと勢いづくという存在。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "菩薩の説明にある名と性質だけを記す。水母娘娘や既知の猿との同一性は明示されていない。"
+    "forms":
+      - "id": "xy-ch66-water-ape-sage-form"
+        "text": "水猿大聖"
+        "relation": "preferred"
+        "reading":
+          "kana": "すいえんたいせい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-flowing-sand-country"
+    "kind": "place"
+    "headword": "流沙国"
+    "definition_ja": "小張太子が父の治めた国として語る、西土の国。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "太子の来歴の中で明示される国。沙悟浄の流沙河と同表記の一部だけで関連づけない。"
+    "forms":
+      - "id": "xy-ch66-flowing-sand-country-form"
+        "text": "流沙国"
+        "relation": "preferred"
+        "reading":
+          "kana": "りゅうさこく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-namo"
+    "kind": "term"
+    "headword": "南無"
+    "definition_ja": "仏や菩薩への帰依と敬礼を表す語。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-namo-form"
+        "text": "南無"
+        "relation": "preferred"
+        "reading":
+          "kana": "なむ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-maitreya"
+    "kind": "person"
+    "headword": "弥勒"
+    "definition_ja": "仏教で未来に仏となるとされる菩薩。物語では笑みをたたえた仏祖として現れる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+        - "xy-ch66-maitreya"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-maitreya-form"
+        "text": "弥勒"
+        "relation": "preferred"
+        "reading":
+          "kana": "みろく"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch66-maitreya"
+          "reason_ja": "取得した検索表示に、この語形の日本語読みを確認。"
+      - "id": "xy-ch66-east-arriving-buddha-form"
+        "text": "東来仏祖"
+        "relation": "title"
+        "reading":
+          "kana": "とうらいぶっそ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-primordial-assembly"
+    "kind": "term"
+    "headword": "元始会"
+    "definition_ja": "弥勒が赴いたと語る元始に関わる会。具体的な儀礼の内容は未確定。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-primordial-assembly-form"
+        "text": "元始会"
+        "relation": "preferred"
+        "reading":
+          "kana": "げんしかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-later-heaven-bag"
+    "kind": "object"
+    "headword": "後天袋"
+    "definition_ja": "弥勒の宝の袋。中へ相手を取り込む力があり、人種袋とも呼ばれる。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-later-heaven-bag-form"
+        "text": "後天袋"
+        "relation": "preferred"
+        "reading":
+          "kana": "こうてんたい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+      - "id": "xy-ch66-human-seed-bag-form"
+        "text": "人種袋"
+        "relation": "alias"
+        "reading":
+          "kana": "じんしゅたい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-demonic-obstruction"
+    "kind": "concept"
+    "headword": "魔障"
+    "definition_ja": "仏道の修行を妨げる魔の障りや難儀。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "固定版の原文に示された役割と文脈を確認。後の情報や表記だけによる同定を加えない。"
+    "forms":
+      - "id": "xy-ch66-demonic-obstruction-form"
+        "text": "魔障"
+        "relation": "preferred"
+        "reading":
+          "kana": "ましょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
+  - "id": "xy-ch66-heavenly-bureau"
+    "kind": "place"
+    "headword": "天府"
+    "definition_ja": "天上の府をいう呼称。星神たちの帰る所。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch66-primary-1455615"
+      "reason_ja": "本文の星神の帰る先という役割に限定する。既存の九天府などの個別官署へは同定しない。"
+    "forms":
+      - "id": "xy-ch66-heavenly-bureau-form"
+        "text": "天府"
+        "relation": "preferred"
+        "reading":
+          "kana": "てんぷ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch66-primary-1455615"
+          "reason_ja": "原文の語形と通常の日本語字音・語構成に基づく。語全体の日本語仮名を明記する資料は未確認。中国語本文の出現は読みの実証としない。"
