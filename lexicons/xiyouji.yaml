@@ -3822,6 +3822,38 @@
     "title": "小学館等 六部（官制の読みと意味を表示本文で確認）"
     "url": "https://kotobank.jp/word/六部-148563"
     "accessed_at": "2026-10-25"
+  - "id": "xy-ch85-primary-1455634"
+    "title": "中文維基文庫 西遊記 第085回 固定版1455634（全235表示行を直接取得）"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第085回&oldid=1455634"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch85-danchi"
+    "title": "小学館 中日辞典 丹墀（表示本文で語義を確認、日本語仮名は未確認）"
+    "url": "https://kotobank.jp/zhjaword/丹墀"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch85-wafu"
+    "title": "小学館等 和風（風の語義・読みを表示本文で確認）"
+    "url": "https://kotobank.jp/word/和風-665528"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch85-kunpu"
+    "title": "小学館 日中辞典 薫風（表示本文で日本語仮名と暖かい南風の語義を確認）"
+    "url": "https://kotobank.jp/jazhword/薫風"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch85-kinpu"
+    "title": "小学館等 金風（表示本文で読み・語義を確認）"
+    "url": "https://kotobank.jp/word/金風-481728"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch85-sakufu"
+    "title": "小学館等 朔風（表示本文で読み・語義を確認）"
+    "url": "https://kotobank.jp/word/朔風-509725"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch85-shangdaren"
+    "title": "教育部 重編国語辞典 上大人（表示本文で習字手本の語義を確認）"
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=131941&la=0&powerMode=0"
+    "accessed_at": "2026-10-25"
+  - "id": "xy-ch85-bone-tiles"
+    "title": "平凡社 世界大百科事典 骨牌（中国の遊戯の項を表示本文で確認）"
+    "url": "https://kotobank.jp/word/骨牌-502636"
+    "accessed_at": "2026-10-25"
 "entries":
   - "id": "xy-term-001"
     "kind": "term"
@@ -10625,11 +10657,12 @@
   - "id": "xy-entry-0307"
     "kind": "term"
     "headword": "妖仙"
-    "definition_ja": "仙術を身につけた妖怪。ここでは孫悟空を指す"
+    "definition_ja": "仙術を身につけた妖怪。孫悟空にも用いられる呼称。"
     "definition_evidence":
       "status": "estimated"
-      "source_ids": []
-      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。 山で道を得た小妖たちが自分たちを妖仙と称する原文に基づき、孫悟空だけを指す位置依存の限定を除いた。悟空に用いる旧例と一般語義、推定状態は保持する。"
     "forms":
       - "id": "xy-form-0338"
         "text": "妖仙"
@@ -23344,6 +23377,24 @@
           "source_ids":
             - "xy-ch84-primary-2597328"
           "reason_ja": "悟空が定める偽名の姓で、豬と同音の朱。原文の朱を保ち、既存の他人物へ同姓だけで結ばない。漢字の日本語音による読みで全語仮名の直接資料は未確認。"
+      - "id": "xy-ch85-zhu-traditional-form"
+        "text": "豬"
+        "relation": "variant"
+        "reading":
+          "kana": "ちょ"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch85-primary-1455634"
+          "reason_ja": "八戒自身の姓の原字形。既存の猪と同じ人物の同じ姓で、他の猪という動物へ結ばない。字音による読みで資料の全語形確認は未了。"
+      - "id": "xy-ch85-zhu-bajie-traditional-form"
+        "text": "豬八戒"
+        "relation": "variant"
+        "reading":
+          "kana": "ちょはっかい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch85-primary-1455634"
+          "reason_ja": "八戒自身の法名の原字形。既存の猪八戒と同じ人物を指す。既存読みを字形違いへ適用するが、この表記の全語仮名の直接確認とはしない。"
   - "id": "xy-entry-0903"
     "kind": "concept"
     "headword": "精霊"
@@ -28483,11 +28534,12 @@
   - "id": "xy-entry-1178"
     "kind": "concept"
     "headword": "元神"
-    "definition_ja": "道教でいう根源的な精神。ここでは体を離れて働く霊魂"
+    "definition_ja": "道教でいう根源的な精神。体を離れて働く霊魂としても描かれる。"
     "definition_evidence":
       "status": "estimated"
-      "source_ids": []
-      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+      "reason_ja": "作品本文の対象・文脈と一般的な語義に基づく編集上の説明。 八戒が元神を養うよう命じられたと歌う原文では、体外への離脱は述べられない。根源的な精神の語義と体を離れて働く霊魂という旧用例をともに残し、位置依存の限定だけを除いた。推定状態は保持する。"
     "forms":
       - "id": "xy-form-1340"
         "text": "元神"
@@ -32795,12 +32847,13 @@
   - "id": "xy-entry-1402"
     "kind": "term"
     "headword": "総兵"
-    "definition_ja": "辺境の軍を指揮する武官。"
+    "definition_ja": "辺境の軍を指揮する武官。また、都城の巡回・警備を統率する武官にも用いられる。"
     "definition_evidence":
       "status": "estimated"
       "source_ids":
         - "xy-reference-330"
-      "reason_ja": "作品原文の語と指示対象・行動を照合し、日本語の一般的な語義に基づいて説明した。原文だけから分からない同定や厳密な分類は留保する。"
+        - "xy-ch85-primary-1455634"
+      "reason_ja": "作品原文の語と指示対象・行動を照合し、日本語の一般的な語義に基づいて説明した。原文だけから分からない同定や厳密な分類は留保する。 巡城総兵官が東城兵馬使と共同で盗品と白馬の確保を奏上する原文に基づき、都城での巡回・警備という用法を追記した。旧来の辺境の軍を指揮する語義・根拠と推定状態は保持する。"
     "forms":
       - "id": "xy-form-1624"
         "text": "総兵"
@@ -36667,6 +36720,15 @@
           "status": "estimated"
           "source_ids": []
           "reason_ja": "日本語の音訓と語構成から採用した推定読み。語形全体の日本語仮名を直接示す資料は未確認。"
+      - "id": "xy-ch85-gao-village-short-form"
+        "text": "高荘"
+        "relation": "short_form"
+        "reading":
+          "kana": "こうそう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch85-primary-1455634"
+          "reason_ja": "八戒が婚姻と悟空による降伏を回想する場面の高老荘の略称。同じ出来事により同定し、字音による読みを採用。全語仮名は未確認。"
   - "id": "xy-entry-1594"
     "kind": "person"
     "headword": "高太公"
@@ -67245,6 +67307,15 @@
           "source_ids":
             - "xy-ch84-primary-2597328"
           "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+      - "id": "xy-ch85-qinfa-country-form"
+        "text": "欽法国"
+        "relation": "alias"
+        "reading":
+          "kana": "きんぽうこく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch85-primary-1455634"
+          "reason_ja": "国王の依頼を受けて悟空が提案した滅法国の新国号。同一の国であり別場所ではない。漢字の日本語音訓から読み、全語形仮名は未確認。"
   - "id": "xy-ch84-miefa-king"
     "kind": "person"
     "headword": "滅法王"
@@ -67552,3 +67623,247 @@
           "source_ids":
             - "xy-ch84-primary-2597328"
           "reason_ja": "構成漢字の日本語音訓・語構成による読み。語形全体の仮名資料は未確認であり、中国語本文での出現を日本語読みの実証とはしない。"
+  - "id": "xy-ch85-east-city-military-commissioner"
+    "kind": "title"
+    "headword": "東城兵馬使"
+    "definition_ja": "都城の東部の警備や治安を受け持つ官の称号。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+      "reason_ja": "城の東を担当する官として総兵と共同で盗品の確保を奏上する。五城兵馬官と同系統の官名だが、異なる名称・管轄の役職を同一人物として結ばない。"
+    "forms":
+      - "id": "xy-ch85-east-city-military-commissioner-form"
+        "text": "東城兵馬使"
+        "relation": "preferred"
+        "reading":
+          "kana": "とうじょうへいばし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch85-primary-1455634"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。全語形の仮名を直接示す信頼資料は未確認であり、中国語本文の出現を日本語読みの確認とはしない。"
+      - "id": "xy-ch85-military-commissioner-short-form"
+        "text": "兵馬使"
+        "relation": "short_form"
+        "reading":
+          "kana": "へいばし"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch85-primary-1455634"
+          "reason_ja": "東城兵馬使の短い呼称。漢字の日本語音から読むが全語形の直接仮名資料は未確認。"
+  - "id": "xy-ch85-miefa-wufeng-tower"
+    "kind": "place"
+    "headword": "五鳳楼"
+    "definition_ja": "滅法国の宮廷へ入る際に通る楼。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+      "reason_ja": "滅法国の宮廷への移送で通過する建物。天宮・祭賽国・朱紫国の同名の楼の実物と同定せず、国の限定を持つ項目とする。"
+    "forms":
+      - "id": "xy-ch85-miefa-wufeng-tower-form"
+        "text": "五鳳楼"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごほうろう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch85-primary-1455634"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。全語形の仮名を直接示す信頼資料は未確認であり、中国語本文の出現を日本語読みの確認とはしない。"
+  - "id": "xy-ch85-red-palace-steps"
+    "kind": "term"
+    "headword": "丹墀"
+    "definition_ja": "宮殿の前に設けられた、朱塗りの階段。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+        - "xy-ch85-danchi"
+      "reason_ja": "中日辞典の意味欄と、箱がその下へ置かれる文脈を照合。日本語仮名を直接示す信頼資料は未確認。"
+    "forms":
+      - "id": "xy-ch85-red-palace-steps-form"
+        "text": "丹墀"
+        "relation": "preferred"
+        "reading":
+          "kana": "たんち"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch85-primary-1455634"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。全語形の仮名を直接示す信頼資料は未確認であり、中国語本文の出現を日本語読みの確認とはしない。"
+  - "id": "xy-ch85-spring-breeze"
+    "kind": "term"
+    "headword": "和風"
+    "definition_ja": "穏やかに吹く風。古い表現では春の風をいう。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+        - "xy-ch85-wafu"
+      "reason_ja": "日本式という別義ではなく、季節の風の列挙における春の風。辞書の該当語義と読みを確認。"
+    "forms":
+      - "id": "xy-ch85-spring-breeze-form"
+        "text": "和風"
+        "relation": "preferred"
+        "reading":
+          "kana": "わふう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch85-wafu"
+          "reason_ja": "取得した公開辞書の表示本文に、当該語形の日本語仮名を確認。"
+  - "id": "xy-ch85-summer-breeze"
+    "kind": "term"
+    "headword": "薫風"
+    "definition_ja": "夏の暖かく爽やかな風。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+        - "xy-ch85-kunpu"
+      "reason_ja": "季節の風の列挙と、辞書の暖かい南風という語義・読みを照合。"
+    "forms":
+      - "id": "xy-ch85-summer-breeze-form"
+        "text": "薫風"
+        "relation": "preferred"
+        "reading":
+          "kana": "くんぷう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch85-kunpu"
+          "reason_ja": "取得した公開辞書の表示本文に、当該語形の日本語仮名を確認。"
+  - "id": "xy-ch85-autumn-breeze"
+    "kind": "term"
+    "headword": "金風"
+    "definition_ja": "秋の風。五行で秋が金に当たることによる呼び名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+        - "xy-ch85-kinpu"
+      "reason_ja": "辞書の該当語義と日本語仮名を表示本文で確認。"
+    "forms":
+      - "id": "xy-ch85-autumn-breeze-form"
+        "text": "金風"
+        "relation": "preferred"
+        "reading":
+          "kana": "きんぷう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch85-kinpu"
+          "reason_ja": "取得した公開辞書の表示本文に、当該語形の日本語仮名を確認。"
+  - "id": "xy-ch85-north-wind"
+    "kind": "term"
+    "headword": "朔風"
+    "definition_ja": "北から吹く風。冬の風を表す呼び名。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+        - "xy-ch85-sakufu"
+      "reason_ja": "辞書の該当語義と日本語仮名を表示本文で確認。"
+    "forms":
+      - "id": "xy-ch85-north-wind-form"
+        "text": "朔風"
+        "relation": "preferred"
+        "reading":
+          "kana": "さくふう"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch85-sakufu"
+          "reason_ja": "取得した公開辞書の表示本文に、当該語形の日本語仮名を確認。"
+  - "id": "xy-ch85-shangdaren-primer"
+    "kind": "term"
+    "headword": "上大人"
+    "definition_ja": "子供が文字を習うための初歩的な習字手本の文句。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+        - "xy-ch85-shangdaren"
+      "reason_ja": "教育部辞典は学童が入学時に文字をなぞる手本と説明する。日本語の全語仮名は未確認。"
+    "forms":
+      - "id": "xy-ch85-shangdaren-primer-form"
+        "text": "上大人"
+        "relation": "preferred"
+        "reading":
+          "kana": "じょうたいじん"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch85-primary-1455634"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。全語形の仮名を直接示す信頼資料は未確認であり、中国語本文の出現を日本語読みの確認とはしない。"
+  - "id": "xy-ch85-five-ministers-four-counsellors"
+    "kind": "person"
+    "headword": "五卿四相"
+    "definition_ja": "天界の神々の呼び方。五卿と四相という総称だが、個々の神名は確定しない。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+      "reason_ja": "天宮で悟空に対したという神々の列挙の一つ。仏教の四相や既知の別集団へ無断で同定しない。"
+    "forms":
+      - "id": "xy-ch85-five-ministers-four-counsellors-form"
+        "text": "五卿四相"
+        "relation": "preferred"
+        "reading":
+          "kana": "ごけいししょう"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch85-primary-1455634"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。全語形の仮名を直接示す信頼資料は未確認であり、中国語本文の出現を日本語読みの確認とはしない。"
+  - "id": "xy-ch85-bone-tiles"
+    "kind": "object"
+    "headword": "骨牌"
+    "definition_ja": "中国の、骨や象牙などで作った点数つきの札。また、それを使う遊び。"
+    "definition_evidence":
+      "status": "verified"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+        - "xy-ch85-bone-tiles"
+      "reason_ja": "世界大百科事典の中国の骨牌の項を確認。既存牙牌は官吏の身分札という別義なので統合しない。"
+    "forms":
+      - "id": "xy-ch85-bone-tiles-form"
+        "text": "骨牌"
+        "relation": "preferred"
+        "reading":
+          "kana": "こっぱい"
+          "status": "verified"
+          "source_ids":
+            - "xy-ch85-bone-tiles"
+          "reason_ja": "取得した公開辞書の表示本文に、当該語形の日本語仮名を確認。"
+  - "id": "xy-ch85-duanyao-jueliu"
+    "kind": "term"
+    "headword": "断么絶六"
+    "definition_ja": "骨牌の呼称として用いられる語。一・六がなくなる字面を、すっかり打ち滅ぼされることに掛ける。牌の細則は未確認。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+      "reason_ja": "原文は骨牌の名と明示する。文脈の全滅の比喩と字面を保ち、具体的な役の構成は断定しない。"
+    "forms":
+      - "id": "xy-ch85-duanyao-jueliu-form"
+        "text": "断么絶六"
+        "relation": "preferred"
+        "reading":
+          "kana": "だんようぜつろく"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch85-primary-1455634"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。全語形の仮名を直接示す信頼資料は未確認であり、中国語本文の出現を日本語読みの確認とはしない。"
+  - "id": "xy-ch85-plum-petal-stratagem"
+    "kind": "concept"
+    "headword": "分瓣梅花の計"
+    "definition_ja": "梅の花びらを分けるように、相手の一団を引き離す策略の名。"
+    "definition_evidence":
+      "status": "estimated"
+      "source_ids":
+        - "xy-ch85-primary-1455634"
+      "reason_ja": "計策名の字面と、三匹を変装させて三人の弟子を別々に誘う小妖の説明を照合。後の成否や妖怪の正体を定義へ入れない。"
+    "forms":
+      - "id": "xy-ch85-plum-petal-stratagem-form"
+        "text": "分瓣梅花の計"
+        "relation": "preferred"
+        "reading":
+          "kana": "ぶんべんばいかのけい"
+          "status": "estimated"
+          "source_ids":
+            - "xy-ch85-primary-1455634"
+          "reason_ja": "構成漢字の日本語音訓と語構成による読み。全語形の仮名を直接示す信頼資料は未確認であり、中国語本文の出現を日本語読みの確認とはしない。"

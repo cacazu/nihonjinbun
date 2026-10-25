@@ -8,7 +8,7 @@ from urllib.parse import urlsplit
 
 from translation_yaml import ROOT, load_document, validate_document
 
-PUBLISHED_CHAPTER_COUNT = 84
+PUBLISHED_CHAPTER_COUNT = 85
 CHAPTERS = tuple(f"xiyouji-chapter-{n:03d}-zh-ja.yaml" for n in range(1, PUBLISHED_CHAPTER_COUNT + 1))
 NUMERALS = (
     "一", "二", "三", "四", "五", "六", "七", "八", "九", "十",
