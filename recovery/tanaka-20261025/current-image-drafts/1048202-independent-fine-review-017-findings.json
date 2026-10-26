@@ -1,0 +1,72 @@
+{
+  "status": "CORRECTIONS_REQUIRED_NOT_COMPLETE",
+  "source_id": "ndl-1048202",
+  "scan": 17,
+  "image_sha256": "3a6f328ce73fb5569a0a3b97c80b7a9848af9cdddcd1954383c19c546b45f8a0",
+  "findings": [
+    {
+      "segment_id": "ns-p0017-001",
+      "anchor": "吾天皇（二出現）",
+      "current": "ワガ",
+      "verified_printed": "ガ",
+      "action": "replace_printed_reading"
+    },
+    {
+      "segment_id": "ns-p0017-001",
+      "anchor": "奉稱",
+      "current": "タテマツル",
+      "candidate": "奉=ル、稱=シ",
+      "action": "question_actual_position",
+      "evidence_ja": "印刷は短い送りであり全文読みの補充ではない。各字位置を追加拡大確認。"
+    },
+    {
+      "segment_id": "ns-p0017-004",
+      "anchor": "此紀",
+      "current": "紀=ノ",
+      "candidate": "此=ノ",
+      "action": "question_actual_position"
+    },
+    {
+      "segment_id": "ns-p0017-006",
+      "anchor": "此『紀』",
+      "current": "紀=ノ",
+      "candidate": "此=ノ",
+      "action": "question_actual_position"
+    },
+    {
+      "segment_id": "ns-p0017-006",
+      "anchor": "書る（両出現）",
+      "verified_printed": "書=ケ",
+      "action": "add"
+    },
+    {
+      "segment_id": "ns-p0017-006",
+      "anchor": "有こと",
+      "verified_printed": "有=ル",
+      "action": "add"
+    },
+    {
+      "segment_id": "ns-p0017-006",
+      "anchor": "然有ぬ",
+      "verified_printed": "有=ラ",
+      "action": "add"
+    },
+    {
+      "segment_id": "ns-p0017-006",
+      "anchor": "甚多く",
+      "current": "甚=ハナハダ",
+      "action": "remove_unprinted",
+      "evidence_ja": "拡大画像で甚の脇には印刷なし。"
+    },
+    {
+      "segment_id": "ns-p0017-008",
+      "anchor": "書字を加ふる",
+      "current": "書字=フミノジ",
+      "verified_printed": "書=ノ",
+      "action": "replace_printed_reading",
+      "evidence_ja": "原画像拡大で書の右にノのみ。"
+    }
+  ],
+  "reviewed_at": "2026-10-26T00:31:00Z",
+  "limitations_ja": "全体と左右拡大で小字比較。完全性PASSではなく欠落と推定読み混同の具体例。questionは追加画像確認まで確定しない。"
+}

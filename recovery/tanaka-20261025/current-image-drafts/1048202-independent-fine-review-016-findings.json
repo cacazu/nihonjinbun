@@ -1,0 +1,39 @@
+{
+  "status": "CORRECTIONS_REQUIRED_NOT_COMPLETE",
+  "source_id": "ndl-1048202",
+  "scan": 16,
+  "image_sha256": "039a920ab82e3328e78075368bdc57a7d02feb940440c684bb7bef47e0f5800e",
+  "findings": [
+    {
+      "segment_id": "ns-p0016-006",
+      "anchor": "上代の人は",
+      "current": "上代=カミツヨ",
+      "verified_printed": "上=ツ",
+      "evidence_ja": "原画像拡大では上右にツのみ。全文読みの推定を印刷ルビと混同しない。"
+    },
+    {
+      "segment_id": "ns-p0016-006",
+      "anchor": "吾皇大御國",
+      "current": "吾皇=スベラギ",
+      "verified_printed": "吾=ガ",
+      "evidence_ja": "原画像拡大では吾右にガ。皇にスベラギの印刷なし。"
+    },
+    {
+      "segment_id": "ns-p0016-004",
+      "anchor": "邊ばみたる",
+      "action": "add",
+      "verified_printed": "邊=ホトリ",
+      "evidence_ja": "同段落の先行邊つらへるのヘとは別出現。"
+    },
+    {
+      "segment_id": "ns-p0016-004",
+      "anchor": "返て",
+      "current": "カヘリ",
+      "action": "question",
+      "candidate": "リ",
+      "evidence_ja": "全体拡大ではリのみ見える。位置を正確に切り出し再確認が必要。"
+    }
+  ],
+  "reviewed_at": "2026-10-26T00:30:00Z",
+  "limitations_ja": "全体の小字完全性PASSではない。候補は確定として機械適用しない。"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "CORRECTIONS_REQUIRED",
+  "source_id": "ndl-1048202",
+  "scan": 21,
+  "image_sha256": "143a4d81601e0fcd12894cd208d5ddabdd23144fc614867587de8a9b9300d6f9",
+  "findings": [
+    {
+      "segment_id": "ns-p0021-003",
+      "anchor": "太朝臣安麻呂",
+      "current": "太=オホノ",
+      "verified_printed": "太=ノ",
+      "action": "replace_printed_reading",
+      "evidence_ja": "左頁第一列切り出しの太右小字はノのみ。オホの補充を印刷と混同しない。"
+    }
+  ],
+  "reviewed_at": "2026-10-26T00:36:00Z",
+  "scope_ja": "左右頁拡大および太朝臣列追加拡大。忍壁オサカベノのルビも確認。"
+}

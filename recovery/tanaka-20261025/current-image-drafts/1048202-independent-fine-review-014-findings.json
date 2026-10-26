@@ -1,0 +1,34 @@
+{
+  "status": "TARGETED_CORRECTIONS_REQUIRED",
+  "source_id": "ndl-1048202",
+  "scan": 14,
+  "image_sha256": "85c7edafbaa5ef5e16fdc5eeed2d46c2d5c3f8ce6d802f0250942b7c629fec71",
+  "findings": [
+    {
+      "segment_id": "ns-p0014-001",
+      "span_start": 40,
+      "exact": "假",
+      "action": "add",
+      "reading": "リ",
+      "evidence_ja": "初出の假てにも右小字リ。後の101の同字とは別。"
+    },
+    {
+      "segment_id": "ns-p0014-001",
+      "span_start": 113,
+      "exact": "是",
+      "action": "add",
+      "reading": "レ",
+      "evidence_ja": "末尾今通用の文字是也の是の右小字レ。既存3出現とは別。"
+    },
+    {
+      "segment_id": "ns-p0014-001",
+      "span_start": 61,
+      "exact": "又",
+      "action": "question",
+      "candidate": "マタ",
+      "evidence_ja": "小字が見えるが追加拡大を要する。推定確定せず。"
+    }
+  ],
+  "reviewed_at": "2026-10-26T00:28:00Z",
+  "limitations_ja": "各頁切り出しで小字比較。未確定項目は候補のまま、修正後再照合を要する。"
+}

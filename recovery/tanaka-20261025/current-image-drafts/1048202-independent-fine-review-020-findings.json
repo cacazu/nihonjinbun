@@ -1,0 +1,28 @@
+{
+  "status": "CORRECTIONS_REQUIRED_NOT_COMPLETE",
+  "source_id": "ndl-1048202",
+  "scan": 20,
+  "image_sha256": "b4e82e0a6637cbdfddf5634b00f9cc28c5baac01f72429af9b0a06f7fe2d55cd",
+  "findings": [
+    {
+      "segment_id": "ns-p0020-001",
+      "anchor": "天皇の大御父に坐て",
+      "action": "add",
+      "verified_printed": "坐=アリ"
+    },
+    {
+      "segment_id": "ns-p0020-007",
+      "anchor": "先是",
+      "action": "add",
+      "verified_printed": "是=ヨリ"
+    },
+    {
+      "segment_id": "ns-p0020-007",
+      "anchor": "天皇御大極殿以詔",
+      "action": "add_diplomatic_after_full_zoom",
+      "evidence_ja": "原画像には右側訓と左返り点があるが現annotations空。御以下の訓は再拡大で各字位置を確認すること。"
+    }
+  ],
+  "reviewed_at": "2026-10-26T00:35:00Z",
+  "limitations_ja": "小字の全件再監査のための具体的指摘。完成性PASSではない。"
+}

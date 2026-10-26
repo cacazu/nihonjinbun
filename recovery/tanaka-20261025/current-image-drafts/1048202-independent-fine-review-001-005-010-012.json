@@ -1,0 +1,496 @@
+{
+  "status": "PASS_WITH_STATED_SCOPE",
+  "review_scope_ja": "1–5・10–12コマの印刷小字・傍訓の独立画像照合。6–9比較表は別記録。本文意味の照合記録とは別。",
+  "source_id": "ndl-1048202",
+  "scans": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    10,
+    11,
+    12
+  ],
+  "method_ja": "原画像全体を目視し、12コマの義能・朴略は原画像の切り出し拡大でも照合。1–5・10–11には本文外の判読対象となる印刷ルビ・訓点を認めなかった。所蔵館印等の非本文は対象外。",
+  "verified_annotations": [
+    {
+      "segment_id": "ns-p0012-033",
+      "annotations": [
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 7,
+            "end": 9,
+            "exact": "義能"
+          },
+          "reading": "ヨシタウ"
+        }
+      ]
+    },
+    {
+      "segment_id": "ns-p0012-036",
+      "annotations": [
+        {
+          "side": "source",
+          "kind": "ruby",
+          "span": {
+            "start": 139,
+            "end": 141,
+            "exact": "朴略"
+          },
+          "reading": "オホラカ"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "scan": 1,
+      "sha256": "2124a799a82ddf0cccf11b6633445c3eb2d3254eb9a8b1e9591372f92ab4cdb1"
+    },
+    {
+      "scan": 2,
+      "sha256": "f0cd279fa4f416bc258c0129b1ae09fbd8600a31c897ee3973d6c61152f74bf4"
+    },
+    {
+      "scan": 3,
+      "sha256": "077fab3b3c5bac5d88dda385980aed5f78a7d7aa420243a54c90ec3136e5c9cc"
+    },
+    {
+      "scan": 4,
+      "sha256": "d06ac32fac9da10e38d8010220389ed479c39694a54ad3a0b0b1e7435f18d4ef"
+    },
+    {
+      "scan": 5,
+      "sha256": "c1147487b38c9dc333d829b303faeaaf88805c56b681b9f0ce5034aec04f06c9"
+    },
+    {
+      "scan": 10,
+      "sha256": "e3e4db81a5d95917e4c6f990746122b88650a6652895d136497a61213e0708e6"
+    },
+    {
+      "scan": 11,
+      "sha256": "c83ea12e7bc3b1f899411fef0aba69bff8d7c713bdbe0b9be9262b54811912c6"
+    },
+    {
+      "scan": 12,
+      "sha256": "eacc41a6d6f7026558ffb470d49c155f17e0e1285b3a35a69edb89587e50c745"
+    }
+  ],
+  "segment_text_hashes": [
+    {
+      "id": "ns-p0002-001",
+      "source_sha256": "7f7571348d4a46c9997326c70a8a66b22ba4e815a5a4de465fce4693ec0c5095",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0002-002",
+      "source_sha256": "b687e4803d9c73fdd5c06c89ce6fb5d3bcc54aaead0a5fba1f415c38786a888c",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0003-001",
+      "source_sha256": "6f47a97d45b03124f1d03c53deceed3aa01689a5e20ba55b84a8a76683bac1fd",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0003-002",
+      "source_sha256": "9ef4957fae294de10a73b37d46a4f1e1cfe39609fc24e4b13996b51490a29f24",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0003-003",
+      "source_sha256": "246c9e31dd7b633327f5b7240b0e1a5f2981dc1b49059c4159dac8d9e6caa03f",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0004-001",
+      "source_sha256": "58aef74b12cc477eff0e305f09f65fde0751f62642ea4870509420862b6544ab",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0004-002",
+      "source_sha256": "c7482c27cbf6a1bf90537bf556a03182cfaee8d396a34568d5f4f4840051f787",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0004-003",
+      "source_sha256": "d583a8af247ffb5712558acac0eedfe0fe4edefd00313dd5c9acc324db90cc3b",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0004-004",
+      "source_sha256": "afc5be8e694f828447768b1967c572f83431ae698d2cf5fda404d5742f7ee1c5",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0005-001",
+      "source_sha256": "60d11c54242d9355418a000d211f069247e3cd08794bf13518659c8bbc2aaf25",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0005-002",
+      "source_sha256": "b5aadf0e61172220dcd8a5fca6b3bad404d4cd18dffc7fb4b20818e781c414de",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0005-003",
+      "source_sha256": "448a3cb3a161fa4d4230388c562c69a2350969e7cb9b63831ae6cbce450ad93c",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0005-004",
+      "source_sha256": "eae4594d377e4ab76e335098eda2e286882608b9139f0167b05aeb1562e0ed14",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0005-005",
+      "source_sha256": "dc7bfa973543f6cfbbf2ed9e653e9a73db6113976409b101c7b5f19c0ae433e7",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0010-001",
+      "source_sha256": "e9cff9eaa2ffd58051861254834f727ae60d978b7bb4083413ea25f4efdec44c",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0010-002",
+      "source_sha256": "bf820c74de1d9e0601af07e0ea5ceec09aae98f33f2a990a2f1778e37f61c097",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0010-003",
+      "source_sha256": "470d219125ccbd9ec711703c8f0f9daaea37e18d1ec2b9a2ff8f0858bdd022d6",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0010-004",
+      "source_sha256": "fd02d831713d88f2c37be78034b240861c4d947abf65f534069f77087c5dc57c",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0010-005",
+      "source_sha256": "3cbbff683d3b9ca118b7e432217b58857322ff0a55fc8fee8ba2b1c02c839526",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0010-006",
+      "source_sha256": "3123a0801635a214e8e39e2dafdcccec82c6a868d6bb47519bd0a1c33f4eb973",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0010-007",
+      "source_sha256": "6eb137ddc56068e23690dea3c993fce61ab7e3ad8d654457e8a66d3dc80b300e",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0010-008",
+      "source_sha256": "15c9e9f11cf3caf62f165a9a06f170e3745f9735ff1acb54b0e96c4337ff477e",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0010-009",
+      "source_sha256": "47841e8ad3fed5a64933eb03af05ce813af6a7651214c39e901fef67aab66c6a",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-001",
+      "source_sha256": "e217a9d407cf7333bc1539c1ff1ee9a0ced6d25408c4983c272009516a798e09",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-002",
+      "source_sha256": "d8a8254f8ae2d1412317dc1e96d9e6f79a0b623aa6677c62733ec5e41dee8109",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-003",
+      "source_sha256": "e347e8580afe165065e8fd3a5978e8530d6c08197524c56e90e141331c3a3e75",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-004",
+      "source_sha256": "617f9658c6f65810d3d1506e88a7391255c252f9835f075aee4b31a4d43a8055",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-005",
+      "source_sha256": "ba306d4ca056dcbfa73e08893caeac67eee7cda4465a74eb3c17645289e54fbc",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-006",
+      "source_sha256": "c20daafcd4a7e7b9aade0903173310538b7712a03dcbb9896164b9aa3f102b06",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-007",
+      "source_sha256": "ac0a54c192b8aa4c3620030e14cd224c2dab361e3a6f49e8a4aea8e636626cbb",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-008",
+      "source_sha256": "ad041b2b998dde36f199a0d09f3507b2c8b24ed95f9afbef317b4ecf2f3136c0",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-009",
+      "source_sha256": "e80232a301f1eb309436cc5f334e5a323a6da6b5083ef752398f8dff9a43b94c",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-010",
+      "source_sha256": "fef3babc913a0f3b7f9bff8f43a3d418f07a03b03e5ddd9030600ec828b9e513",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-011",
+      "source_sha256": "4ea0c1b4df97b72b1f8502fab73f33d5ed4a528b12e29f4678bd9977e7c98eda",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-012",
+      "source_sha256": "69234a439adc0c5f39cefba123f33d526ca390029155357ec6db38c3061a9668",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-013",
+      "source_sha256": "6a6795fe73d2946494e5828ee5d6ab0a9c9580799b5ad6fdad4e9c04cd7fb273",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-014",
+      "source_sha256": "8630644cbc3e7154419248b6361bcde3e124c52ab330cc7a4a463920b1b418fa",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-015",
+      "source_sha256": "b496df12d2b0e1236cbfc81508d3323c4803d45c2a125267dd20f4ad3cd28154",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-016",
+      "source_sha256": "73d6ca7139ae19e146ac4edac34ffd48196d9653fbfe2e3bf4ec55f9b8c6d9a5",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-017",
+      "source_sha256": "d26d3876d64ba6c06dd58adcb760379c6b4e20918353ebd73c0c166082403ffa",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-018",
+      "source_sha256": "1d6180961a0bae79713f63fb8ad3ae5e5c43976dbf00b91f1ce74df3a329bcf5",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-019",
+      "source_sha256": "9c89c11289de347697e6a6227cb7e46a6ff5ee18fd4e9a1702c2ff8eb716ba2e",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-020",
+      "source_sha256": "7c1eeee4a824d9ce92b8a781aa686475d5e9e05832282e73ec15d81809d8c53e",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-021",
+      "source_sha256": "12fb5c67c7034548f99994d0dd69d0bde154507659fccd1e1afd727f894ac5d3",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-022",
+      "source_sha256": "ea6387f5cd2c9bf4473c6303090e9377c1b7552ca2d19b9b082c7f967c97755f",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0011-023",
+      "source_sha256": "f2ce43f7273c3f1460c5c843fdf8a6ff761b5da43334fc34a0a173c9c3d57164",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-001",
+      "source_sha256": "17a7721d630de72f5a709ae14a4064d1238f5b05f6def374dfbcc65e06257ce6",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-002",
+      "source_sha256": "8d772514539683ed72e2e301a16d5c887260b33b322bf326119ee1c885ea1d1c",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-003",
+      "source_sha256": "be111c888ab3596309a58a9537e3c546ba83fd29685863570c904700e7541127",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-004",
+      "source_sha256": "95ee727669a41093205220ccf1b5e73b999b5f2e20f8084761249ddc35d20fe5",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-005",
+      "source_sha256": "a7473ac0220b5a4bbe1a9d3a118f3feb1eb09395baa9cf9984ec636abe5b9d90",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-006",
+      "source_sha256": "8ec1c87e5112de00d7c88339bd8d5bd66a122e1a78cb0de2913ff3d8d33f2096",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-007",
+      "source_sha256": "c9a69727e24ecece3cb4a2eac48c88e787f5ea9ea91bac1e8df851190f7154b8",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-008",
+      "source_sha256": "66891c4688e19755075ad1d078d6d40c98a3e642e85b2964874e3166fd0aba75",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-009",
+      "source_sha256": "bf5e58207a644a591734851097e18c1117bcd27ebc4ea6eaa7f01173cc3160cf",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-010",
+      "source_sha256": "a8c96f34dd0ec82df43595ac0a9317f6596160d2b0940fadd451c144ac7ee375",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-011",
+      "source_sha256": "59732113e947cda4528b49e66025aa0fe8b7108b9614cfd1c9834d3664edbdc9",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-012",
+      "source_sha256": "da1b43dcd51d6e186cf95890f57a09dd158f06095a83b1399aaefa929ade4e2b",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-013",
+      "source_sha256": "001d7c396d05bec820b885b2c93a7a1e2b6ff3dc411f8e29e1c6fcd7b0e57064",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-014",
+      "source_sha256": "76e2cb84060f2ba0f5f33046dcfdb26ccb67cae799e53fe8d0b9a472bf10836c",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-015",
+      "source_sha256": "e121d14b93eb51354003281b8a44aa36918aa79dfc4aaae0fbb304e0e032f4a6",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-016",
+      "source_sha256": "6d31224edaa71921cd463beb059477dd626074e440f3b2cf674f6e441176781f",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-017",
+      "source_sha256": "abb65fc6554dadbb97f2368c9b648fb3807ad9b404d70dbdfc83c36ff5466d06",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-018",
+      "source_sha256": "6fcad3ad7695ae40374c401506edcd682412b4ce3b0ee82f9f6e94a5542b2007",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-019",
+      "source_sha256": "47afa135247f103676dcfe644dfe6e579e37369f3e52497b40ebf6d4cd633c41",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-020",
+      "source_sha256": "8d6465b2b90d943e0ea8614c4038b3039d25e22471134b95006278d2563de4d1",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-021",
+      "source_sha256": "866f6662d6790133e518abcf23124343aa348e5b5631fd6102fdb14da4e94664",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-022",
+      "source_sha256": "95deac0057728ce1d106f10ce6fd4a6b2fad3142ea3e5023b8a7c6ab65c8c9d0",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-023",
+      "source_sha256": "b9413e13d40ce572d0f7fd49430b794a7940e41d179eef88a71e9551ecbb7cfa",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-024",
+      "source_sha256": "b6ad692ba3e488d24ac772471db9b7e2105d70b30c68d5c955d5803d15bc3bc9",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-025",
+      "source_sha256": "3048d5e0d0e0201c9955d91c8432c8c4ae5d20d41cf6bcc1e2457bcc597dce6f",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-026",
+      "source_sha256": "f9c13ec895b12cd28805c0b934570ddafd47941605efec8c1d46a93590fcd7a4",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-027",
+      "source_sha256": "21741a3269fa688df86f18a3b1745ebd3194e6452e081835676970195db4a3df",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-028",
+      "source_sha256": "f5e81f980d6f69d3776fa5ffc2f4bd5e956cd09b7edf16c70ba449717233d4a8",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-029",
+      "source_sha256": "b56fa2878e2a594504748a6ddfd0d6985ea68fda833029ff596d34f96c0ff6cc",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-030",
+      "source_sha256": "117e08e64d30b244cea6c1c078e7075fcc822018dbc9b655ad839230bca6c39d",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-031",
+      "source_sha256": "4c76b2e7d7c552fc5aa752838f4376cebee625e0ffb327ae5726b73af1fe8f1a",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-032",
+      "source_sha256": "7f7571348d4a46c9997326c70a8a66b22ba4e815a5a4de465fce4693ec0c5095",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-033",
+      "source_sha256": "b687e4803d9c73fdd5c06c89ce6fb5d3bcc54aaead0a5fba1f415c38786a888c",
+      "annotations_sha256": "0e3e1a630ac898a419d825cbb29a57cbcf47d6287cf69767650c7b5c807c1e91"
+    },
+    {
+      "id": "ns-p0012-034",
+      "source_sha256": "ba63f508f5ce65e86bbb9bbd81b7d2afd3230c28c972be4ea1c1a9ce1d9ac3da",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-035",
+      "source_sha256": "346c2d3d0d66f088258258571167af68b1cc749c2ef88fe9eb132b1043c6c5fe",
+      "annotations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "ns-p0012-036",
+      "source_sha256": "00545e3ab9ba755f250f8f9795b723c502164b58ba1001bb77fec72ea9e77b1e",
+      "annotations_sha256": "21a4010369d1331d7173025e7c7ea1d7aecbd16da64869070c5a50968bd4f874"
+    }
+  ],
+  "reviewed_at": "2026-10-26T00:25:00Z",
+  "limitations_ja": "対象外のコマの細字や帰属レイヤーの完全性を認定するものではない。"
+}

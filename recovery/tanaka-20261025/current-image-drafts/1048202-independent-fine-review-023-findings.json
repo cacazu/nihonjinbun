@@ -1,0 +1,44 @@
+{
+  "status": "CORRECTIONS_REQUIRED_NOT_COMPLETE",
+  "source_id": "ndl-1048202",
+  "scan": 23,
+  "image_sha256": "e37704942b35d03ed0bd19e71baa1d2a0d299b12229675beb8598f5d4f283033",
+  "findings": [
+    {
+      "segment_id": "ns-p0023-001",
+      "anchor": "此に依て",
+      "verified_printed": "依=リ",
+      "action": "add"
+    },
+    {
+      "segment_id": "ns-p0023-002",
+      "anchor": "文に依て",
+      "verified_printed": "依=リ",
+      "action": "add"
+    },
+    {
+      "segment_id": "ns-p0023-002",
+      "anchor": "紀中にあるにても知べし",
+      "verified_printed": "知=ル",
+      "action": "add"
+    },
+    {
+      "segment_id": "ns-p0023-003",
+      "anchor": "奏上たりき",
+      "current": "上=ゲ",
+      "candidate": "奏=シ、上=タ",
+      "action": "resolved_existing_correct",
+      "evidence_ja": "画像全頁拡大ではシ/タと見える。追加切り出しで確定し、意味からアゲと補わない。",
+      "verified_printed": "奏=シ、上=ゲ",
+      "resolution_ja": "より大きい原画像切出しでゲの濁点を確認。タ候補は撤回し、奏シの欠落のみ追加。"
+    },
+    {
+      "segment_id": "ns-p0023-003",
+      "anchor": "御擧（二箇所）",
+      "action": "audit_each_occurrence",
+      "evidence_ja": "後出416のワザだけで先行箇所を覆ったことにしない。"
+    }
+  ],
+  "reviewed_at": "2026-10-26T00:38:00Z",
+  "limitations_ja": "小字全体の完全性認定ではない。"
+}
