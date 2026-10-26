@@ -123,7 +123,7 @@ class ReadingSiteTests(unittest.TestCase):
         cls.temp.cleanup()
 
     def test_only_explicit_public_files(self):
-        self.assertEqual(set(self.pages), {"index.html", "xiyouji/index.html", "tanaka/index.html", "tanaka/shinto-taii.html", "tanaka/kodo-no-shimei-sekai-no-shorai.html", "tanaka/kokoku-dento-no-seishin.html", "tanaka/nihon-seishin-kokutai.html", "tanaka/shinto-shi-koyo.html", ".nojekyll", "assets/reading.css", "xiyouji/assets/reading.css", *(f"chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1)), *(f"xiyouji/chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1))})
+        self.assertEqual(set(self.pages), {"index.html", "xiyouji/index.html", "tanaka/index.html", "tanaka/shinto-taii.html", "tanaka/kodo-no-shimei-sekai-no-shorai.html", "tanaka/kokoku-dento-no-seishin.html", "tanaka/nihon-seishin-kokutai.html", "tanaka/shinto-shi-koyo.html", "tanaka/nihon-shoki-gaisetsu.html", ".nojekyll", "assets/reading.css", "xiyouji/assets/reading.css", *(f"chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1)), *(f"xiyouji/chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1))})
 
     def test_chapter_navigation_and_publication_range(self):
         for number in range(1, len(reader.CHAPTERS) + 1):
@@ -284,7 +284,7 @@ class ReadingSiteTests(unittest.TestCase):
         author = self.html["tanaka/index.html"]
         self.assertEqual([n["text"] for n in author.nodes if n["tag"] == "h1"], ["田中義能"])
         self.assertEqual([(n["text"], n["attrs"]["href"]) for n in author.nodes if n["tag"] == "a"],
-                         [("神道大意", "shinto-taii.html"), ("皇道の使命と世界の将来", "kodo-no-shimei-sekai-no-shorai.html"), ("皇国伝統の精神", "kokoku-dento-no-seishin.html"), ("日本精神と国体の本質", "nihon-seishin-kokutai.html"), ("神道史綱要", "shinto-shi-koyo.html"), ("索引に戻る", "../index.html")])
+                         [("神道大意", "shinto-taii.html"), ("皇道の使命と世界の将来", "kodo-no-shimei-sekai-no-shorai.html"), ("皇国伝統の精神", "kokoku-dento-no-seishin.html"), ("日本精神と国体の本質", "nihon-seishin-kokutai.html"), ("神道史綱要", "shinto-shi-koyo.html"), ("日本書紀概説", "nihon-shoki-gaisetsu.html"), ("索引に戻る", "../index.html")])
         for page in (root, author):
             self.assertFalse(any(n["tag"] in ("script", "button", "iframe") for n in page.nodes))
 
@@ -490,6 +490,78 @@ class ReadingSiteTests(unittest.TestCase):
         reader.build(self.output)
         self.assertFalse(stale.exists())
 
+
+
+class NihonShokiReadingTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.data = load_document(ROOT / "translations/tanaka/nihon-shoki-gaisetsu-ja.yaml")
+        cls.rendered = reader.render_taii(cls.data, include_reader_notes=True)
+        cls.page = Elements(cls.rendered)
+        cls.ids = {}
+        for node in cls.page.nodes:
+            if node["attrs"].get("id"):
+                cls.ids.setdefault(node["attrs"]["id"], []).append(node)
+
+    def test_full_manuscript_and_groups_are_exact(self):
+        self.assertEqual(len(self.data["segments"]), 1144)
+        by = {s["id"]: s for s in self.data["segments"]}
+        for sid, segment in by.items():
+            node, = self.ids[sid]
+            self.assertEqual(node["text"], segment["translation_ja"])
+        self.assertEqual(len(self.data["groups"]), 116)
+        for group in self.data["groups"]:
+            node, = self.ids[group["id"]]
+            self.assertEqual(node["text"], "".join(by[m["segment_id"]]["translation_ja"] for m in group["members"]))
+
+    def test_ids_and_fragment_targets_are_valid(self):
+        self.assertTrue(all(len(nodes) == 1 for nodes in self.ids.values()))
+        for node in self.page.nodes:
+            href = node["attrs"].get("href", "")
+            if href.startswith("#"):
+                self.assertIn(href[1:], self.ids)
+        self.assertFalse(any(n["tag"] in ("script", "iframe", "button") for n in self.page.nodes))
+
+    def test_source_variants_ruby_and_local_reservations_are_visible(self):
+        text = self.page.nodes[0]["text"]
+        for segment in self.data["segments"]:
+            for variant in segment.get("source_variants", []):
+                if variant["kind"] not in ("corrected", "ocr"):
+                    self.assertIn(variant["text"], text)
+            for issue in segment.get("issues", []):
+                self.assertIn(issue["message_ja"], text)
+            for annotation in segment.get("annotations", []):
+                if annotation.get("reading"):
+                    self.assertIn(annotation["reading"], text)
+        self.assertNotIn("号数の判読は要再確認", text)
+        self.assertNotIn("線形転記した途中稿", text)
+
+    def test_toc_prefers_explicit_section_heading(self):
+        toc, = self.ids["contents"]
+        links = [n for n in self.page.nodes if n["tag"] == "a" and toc in n["parents"]]
+        self.assertTrue(any(n["attrs"].get("href") == "#ns-p0012-035" for n in links))
+        self.assertFalse(any(n["attrs"].get("href") == "#ns-p0012-032" for n in links))
+
+    def test_inline_source_notes_render_only_the_declared_span(self):
+        self.assertEqual(len(self.data["notes"]), 2)
+        for note in self.data["notes"]:
+            label, = self.ids["note-label-" + note["id"]]
+            self.assertIn("原割注（筆者未詳）", label["text"])
+            for i, item in enumerate(note["body"], 1):
+                body, = self.ids[note["id"] + "-body-" + str(i)]
+                self.assertEqual(body["text"], item["translation_span"]["exact"])
+                self.assertEqual(len(self.ids[item["segment_id"]]), 1)
+
+    def test_generated_page_is_reproducible(self):
+        self.assertEqual(self.rendered, (ROOT / "docs/tanaka/nihon-shoki-gaisetsu.html").read_text())
+
+    def test_previous_tanaka_pages_are_unchanged(self):
+        for slug in reader.TANAKA_WORKS:
+            if slug == "nihon-shoki-gaisetsu":
+                continue
+            data = load_document(ROOT / f"translations/tanaka/{slug}-ja.yaml")
+            rendered = reader.render_taii(data, include_reader_notes=slug != "shinto-taii")
+            self.assertEqual(rendered, (ROOT / f"docs/tanaka/{slug}.html").read_text())
 
 if __name__ == "__main__":
     unittest.main()

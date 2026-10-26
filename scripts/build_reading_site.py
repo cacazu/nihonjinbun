@@ -10,7 +10,7 @@ from translation_yaml import ROOT, load_document, validate_document
 
 PUBLISHED_CHAPTER_COUNT = 100
 CHAPTERS = tuple(f"xiyouji-chapter-{n:03d}-zh-ja.yaml" for n in range(1, PUBLISHED_CHAPTER_COUNT + 1))
-TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai", "kokoku-dento-no-seishin", "nihon-seishin-kokutai", "shinto-shi-koyo")
+TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai", "kokoku-dento-no-seishin", "nihon-seishin-kokutai", "shinto-shi-koyo", "nihon-shoki-gaisetsu")
 NUMERALS = (
     "一", "二", "三", "四", "五", "六", "七", "八", "九", "十",
     "十一", "十二", "十三", "十四", "十五", "十六", "十七", "十八", "十九", "二十",
@@ -107,12 +107,21 @@ def render_notes(data, refs_by_note, note_numbers, *, origin_labels=False):
     items = []
     for note in notes:
         nid = note["id"]
-        body = "".join(f'<div id="{esc(item["segment_id"])}" class="story-text note-body">{esc(segments[item["segment_id"]]["translation_ja"])}</div>' for item in note["body"])
+        inline = note.get("form") == "inline" and all("translation_span" in item for item in note["body"])
+        if inline:
+            body = "".join(f'<div id="{esc(nid)}-body-{i}" class="story-text note-body">{esc(segments[item["segment_id"]]["translation_ja"][item["translation_span"]["start"]:item["translation_span"]["end"]])}</div>' for i, item in enumerate(note["body"], 1))
+        else:
+            body = "".join(f'<div id="{esc(item["segment_id"])}" class="story-text note-body">{esc(segments[item["segment_id"]]["translation_ja"])}</div>' for item in note["body"])
         backlinks = []
         note_label = {"author": "原注", "unknown": "書込み（筆者不明）", "translator": "訳注"}.get(note.get("origin"), "注") if origin_labels else "訳注"
         description = f'<p>{esc(note["description_ja"])}</p>' if origin_labels and note.get("description_ja") else ""
         if origin_labels and note.get("origin") != "translator":
-            backlinks.append(f'<a href="#source-note-{esc(nid)}">原注の位置へ戻る ↑</a>')
+            if inline:
+                if note.get("origin") == "unknown":
+                    note_label = "原割注（筆者未詳）"
+                backlinks.extend(f'<a href="#{esc(item["segment_id"])}">原注を含む本文へ戻る ↑</a>' for item in note["body"])
+            else:
+                backlinks.append(f'<a href="#source-note-{esc(nid)}">原注の位置へ戻る ↑</a>')
         for i, ref in enumerate(refs_by_note[nid], 1):
             for field, lang, label in (("translation_span", "ja", "本文"),):
                 if field in ref["from"]:
@@ -123,7 +132,7 @@ def render_notes(data, refs_by_note, note_numbers, *, origin_labels=False):
     return f'<ol class="notes-list">{"".join(items)}</ol>' if items else ""
 
 
-def render_annotations(data, refs_by_note, note_numbers, *, include_ocr=True):
+def render_annotations(data, refs_by_note, note_numbers, *, include_ocr=True, include_scoped_issues=False):
     gaps = []
     covered = set()
     for gap in data["scope"]["known_gaps"]:
@@ -133,7 +142,7 @@ def render_annotations(data, refs_by_note, note_numbers, *, include_ocr=True):
         gaps.append(f'<li>{esc(gap["description_ja"])} {links}</li>')
     for segment in data["segments"]:
         messages = []
-        if segment["id"] not in covered:
+        if include_scoped_issues or segment["id"] not in covered:
             messages.extend(issue["message_ja"] for issue in segment.get("issues", []))
         messages.extend(f'{item.get("name_ja") or "話者不明"}' + (f'：{item["evidence_ja"]}' if item.get("evidence_ja") else "") for item in segment.get("attributions", []))
         # Corrected transcription history is not an alternative reading.
@@ -319,8 +328,11 @@ def render_taii(data, *, include_reader_notes=False):
         for section in data["sections"]:
             members = [segment for segment in body_segments if segment["section_id"] == section["id"]]
             if members:
-                label = section.get("label_ja") or members[0]["translation_ja"]
-                toc.append(f'<li><a href="#{esc(members[0]["id"])}">{esc(label)}</a></li>')
+                target = members[0]
+                if data["work_id"] == "tanaka-nihon-shoki-gaisetsu-1938" and section["heading_segment_ids"]:
+                    target = segments[section["heading_segment_ids"][0]]
+                label = section.get("label_ja") or target["translation_ja"]
+                toc.append(f'<li><a href="#{esc(target["id"])}">{esc(label)}</a></li>')
     nav = '<nav class="chapter-nav" aria-label="読書ページの移動"><a href="#contents">目次に戻る</a><a href="index.html">田中義能</a><a href="../index.html">索引に戻る</a></nav>'
     # Source-side ruby/emphasis remains provenance, not newly invented translation ruby.
     source_annotations = []
@@ -335,7 +347,7 @@ def render_taii(data, *, include_reader_notes=False):
     reader_notes = ('<section class="apparatus"><h2>この訳について</h2>' + ''.join(f'<p>{esc(note)}</p>' for note in data["metadata"].get("reader_notes_ja", [])) + '</section>') if include_reader_notes and data["metadata"].get("reader_notes_ja") else ""
     content = (nav + f'<h1>{esc(title)}</h1><nav id="contents" aria-label="{esc(title)}の目次"><h2>目次</h2><ul>'
                + ''.join(toc) + '</ul></nav><article id="reading" class="reading-body">' + '\n'.join(body) + '</article>'
-               + render_annotations(data, by_note, note_numbers, include_ocr=False) + reader_notes + annotation_html + nav)
+               + render_annotations(data, by_note, note_numbers, include_ocr=False, include_scoped_issues=data["work_id"] == "tanaka-nihon-shoki-gaisetsu-1938") + reader_notes + annotation_html + nav)
     return page_shell(title + " 日本語訳", content)
 
 
@@ -366,7 +378,8 @@ def build(output):
         if any(segment["kind"] not in ("heading", "paragraph", "verse", "note_body", "list_item", "separator") for segment in data["segments"]):
             raise ValueError(slug + ": unsupported segment kind")
         note_ids = {segment["id"] for segment in data["segments"] if segment["kind"] == "note_body"}
-        rendered_ids = [body["segment_id"] for note in data.get("notes", []) for body in note["body"]]
+        rendered_ids = [body["segment_id"] for note in data.get("notes", []) for body in note["body"]
+                        if body["segment_id"] in note_ids]
         if note_ids != set(rendered_ids) or len(rendered_ids) != len(set(rendered_ids)):
             raise ValueError(slug + ": note bodies must render exactly once")
         tanaka_documents.append((slug, data))

@@ -1,0 +1,13 @@
+test_full_manuscript_and_groups_are_exact (test_reading_site.NihonShokiReadingTests.test_full_manuscript_and_groups_are_exact) ... ok
+test_generated_page_is_reproducible (test_reading_site.NihonShokiReadingTests.test_generated_page_is_reproducible) ... ok
+test_ids_and_fragment_targets_are_valid (test_reading_site.NihonShokiReadingTests.test_ids_and_fragment_targets_are_valid) ... ok
+test_inline_source_notes_render_only_the_declared_span (test_reading_site.NihonShokiReadingTests.test_inline_source_notes_render_only_the_declared_span) ... ok
+test_previous_tanaka_pages_are_unchanged (test_reading_site.NihonShokiReadingTests.test_previous_tanaka_pages_are_unchanged) ... ok
+test_source_variants_ruby_and_local_reservations_are_visible (test_reading_site.NihonShokiReadingTests.test_source_variants_ruby_and_local_reservations_are_visible) ... ok
+test_toc_prefers_explicit_section_heading (test_reading_site.NihonShokiReadingTests.test_toc_prefers_explicit_section_heading) ... ok
+test_exact_credit_link_position_and_page_title (test_reading_site.IndexCreditTests.test_exact_credit_link_position_and_page_title) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 7.582s
+
+OK

@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "scope": "Static HTML source/text/link validation before publication. Browser visual verification is a separate post-deployment check, not claimed by this record.",
+  "html_sha256": "b52f0503b86643c627c5403416796e5bdb2c46e76a87d8ee7f5bb4f6da0d0525",
+  "checks": {
+    "segments_exact": 1144,
+    "groups_exact": 116,
+    "links_checked": 10028,
+    "duplicate_ids": 0,
+    "broken_links": 0,
+    "source_variants": 343,
+    "issues": 177,
+    "source_annotations": 6735,
+    "apparatus_missing": 0,
+    "inline_note_span_rendering": "pass",
+    "chapter_1_explicit_heading": "ns-p0012-035"
+  },
+  "fixes_rechecked": [
+    "chapter 1 TOC target",
+    "duplicate inline-note IDs",
+    "missing inline-note backlinks"
+  ],
+  "targeted_tests": {
+    "count": 8,
+    "result": "pass",
+    "log": "html-targeted-tests.log"
+  },
+  "previous_files_unchanged_except_author_index": 210
+}
