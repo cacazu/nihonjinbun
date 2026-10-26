@@ -1,0 +1,98 @@
+{
+  "source_id": "ndl-1048202",
+  "whole_source_scans": 128,
+  "reviewed_scans": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "segment_count": 167,
+  "reviewed_at_utc": "2026-10-26T00:16:39.958226+00:00",
+  "status": "independent_main_review_complete_with_recorded_local_uncertainties",
+  "main_review_scope_ja": "原画像の表紙・扉・序・凡例・比較表・目次・著述目録・本文冒頭と対訳を照合。蔵書印・撮影用表示は原著本文と区別。全冊完了の記録ではない。",
+  "source_translation_hash_method": "SHA-256 of UTF-8 JSON list of id/source_text/translation_ja, ensure_ascii=False, separators=(comma,colon)",
+  "source_translation_sha256": "1725b4b1cfbc53afcb7a7f900686356e733b8668a62a34dc454018d98736d6a5",
+  "image_evidence": [
+    {
+      "scan": 1,
+      "sha256": "2124a799a82ddf0cccf11b6633445c3eb2d3254eb9a8b1e9591372f92ab4cdb1"
+    },
+    {
+      "scan": 2,
+      "sha256": "f0cd279fa4f416bc258c0129b1ae09fbd8600a31c897ee3973d6c61152f74bf4"
+    },
+    {
+      "scan": 3,
+      "sha256": "077fab3b3c5bac5d88dda385980aed5f78a7d7aa420243a54c90ec3136e5c9cc"
+    },
+    {
+      "scan": 4,
+      "sha256": "d06ac32fac9da10e38d8010220389ed479c39694a54ad3a0b0b1e7435f18d4ef"
+    },
+    {
+      "scan": 5,
+      "sha256": "c1147487b38c9dc333d829b303faeaaf88805c56b681b9f0ce5034aec04f06c9"
+    },
+    {
+      "scan": 6,
+      "sha256": "c76f566700d38e78282b32ae5f658e94f4552e9860a3eb1a5701a01e434215e4"
+    },
+    {
+      "scan": 7,
+      "sha256": "f11aae5539bfc205232f84df36bb83f116880f2cc8d6274a93420f2e6ebbdbae"
+    },
+    {
+      "scan": 8,
+      "sha256": "63a45bc96ab74d3ef3f20029848df7c02ee4ec4c175c2b284cb5be90c1712033"
+    },
+    {
+      "scan": 9,
+      "sha256": "54706bb333280e9fed2f9850090d505a3df932200c48efcf9cd8442f9058edcc"
+    },
+    {
+      "scan": 10,
+      "sha256": "e3e4db81a5d95917e4c6f990746122b88650a6652895d136497a61213e0708e6"
+    },
+    {
+      "scan": 11,
+      "sha256": "c83ea12e7bc3b1f899411fef0aba69bff8d7c713bdbe0b9be9262b54811912c6"
+    },
+    {
+      "scan": 12,
+      "sha256": "eacc41a6d6f7026558ffb470d49c155f17e0e1285b3a35a69edb89587e50c745"
+    }
+  ],
+  "verified_corrections_ja": [
+    "第4コマ冒頭の洋々は前頁から続く将来の見通しを表すため、大いに開けたものとした。",
+    "第7コマ第三比較表（二）は印刷上寶位のみ。恭臨を補わない。",
+    "第6コマ比較表の敬語、第8コマ帝宅の都・宮・大宮の差を保つ。"
+  ],
+  "fine_annotation_review": {
+    "scans": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "status": "comparison_rows_reviewed_with_explicit_local_uncertainties",
+    "scope_ja": "全69行の主要字・読方・版別差と転記を原画像および拡大で比較。判読困難な蒙の小字、恭臨の小字、返点の一部などは留保。前後の全文細字・帰属を完了としない。",
+    "limitations_ja": [
+      "原訓の不明字を類推で確定しない。",
+      "線形転記と実際の訓読順を区別し、返点が未確定な範囲はその旨を保持。",
+      "第6–9コマ以外の細字の全面独立確認はこの記録に含まない。"
+    ]
+  },
+  "boundary_checks_ja": [
+    "第3コマ末から第4コマ冒頭の将来は…洋々たるものとなるを連続で確認。",
+    "凡例比較表の各版と著者説明、目次の章名・頁数、著述目録の全項目の対応を確認。"
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "status": "incomplete_not_for_reading_site",
-  "snapshot_utc": "2026-10-25T23:44:11.858192+00:00",
+  "snapshot_utc": "2026-10-26T00:17:32.457421+00:00",
   "files": [
     {
       "file": "1048202-front-001-064.json.gz",
-      "segments": 558,
+      "segments": 602,
       "first": "ns-p0002-001",
-      "last": "ns-p0058-006",
+      "last": "ns-p0064-011",
       "scans_with_segments": [
         2,
         3,
@@ -64,10 +64,16 @@
         55,
         56,
         57,
-        58
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
       ],
-      "uncompressed_sha256": "758b7f9cfb2223b44d811f6564c2fb573cf3e54aed4a92cac872e23ea98a2316",
-      "uncompressed_bytes": 25727885
+      "uncompressed_sha256": "8ea1ed54fdec43011fb177f0ff5fdfaca86fc96a1ed470633448edaccd0f81b2",
+      "uncompressed_bytes": 28085289
     },
     {
       "file": "1048202-065-080.json.gz",
@@ -92,7 +98,7 @@
         79,
         80
       ],
-      "uncompressed_sha256": "e86f59d392c8ff789843bc8e7582f09ff191177818b47f400fa1d5e17c3066aa",
+      "uncompressed_sha256": "5bcc2a451c5db4fe144537088528afbe4223353698c8b6111bac5954065cb364",
       "uncompressed_bytes": 6997411
     },
     {
@@ -131,8 +137,8 @@
         108,
         109
       ],
-      "uncompressed_sha256": "3bd5b358dcb339394bb894def5fd6d0b4c264eaa39b73b0311ed7db07a96808b",
-      "uncompressed_bytes": 1670997
+      "uncompressed_sha256": "d0da050e6f1067feabf0b1d311b28f160d7baccb6f4f3a346b5d6befc862f3b7",
+      "uncompressed_bytes": 2026307
     },
     {
       "file": "1048202-109-128.json.gz",
@@ -156,8 +162,8 @@
         123,
         124
       ],
-      "uncompressed_sha256": "8de5b2e256ff4a6e0d4bf382164e136ad024461d9a0776911acef5af4724147c",
-      "uncompressed_bytes": 7183911
+      "uncompressed_sha256": "e63017e5d257a94b0f0019aac599f25028a9ab3558d85ffd30cbb5207ea0a651",
+      "uncompressed_bytes": 7306990
     },
     {
       "file": "971061-001-032.json",
@@ -179,8 +185,8 @@
         19,
         20
       ],
-      "uncompressed_sha256": "de85114d7a9dfa432e38d88270113194d9bd1805cffdb189a14da9ad79001fd2",
-      "uncompressed_bytes": 359753
+      "uncompressed_sha256": "f6dca3119bc82e3567fe2320e9b2318da4c3038b3b6b9c717b2a3ca4188bca27",
+      "uncompressed_bytes": 360530
     }
   ]
 }

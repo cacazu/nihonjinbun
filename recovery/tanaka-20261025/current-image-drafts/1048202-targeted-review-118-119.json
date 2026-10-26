@@ -1,0 +1,21 @@
+{
+  "source_id": "ndl-1048202",
+  "status": "independent_targeted_correction_review_complete",
+  "scope_ja": "本文校閲110–120の後、細字確認により判明した2単位を原画像拡大で再確認した補足。全細字の完了ではない。",
+  "corrections_ja": [
+    "118-001の惟神も、主字もを原刊訓読欄で確認し復元。訳はかむながらの原読と係助詞を保存。",
+    "119-002山本説の原訓、謂=イフコヽロハ、隨神道=カムガラノミチ、自有神道=カムナガラノミチを独立拡大確認。特殊な読みを現代語訳にも明示。"
+  ],
+  "units": [
+    {
+      "id": "ns-p0118-001",
+      "source_sha256": "2c70007d3f94151ad9d7e99e135c1f4f6ce9ea4ee4b5d6232f86d3e3bb8ccb38",
+      "translation_sha256": "bb34a02fc6e79d11bbcd577cb527a310c5b13ef7ab75da8203858db46596dce0"
+    },
+    {
+      "id": "ns-p0119-002",
+      "source_sha256": "28f63effee0ade021acfad3f5af947ba2aed37e7f33690f899de64d30ebf13aa",
+      "translation_sha256": "5816f3cef3a9ed7fe2358241b5a890a2f70c49f399433785d969232de2896090"
+    }
+  ]
+}
