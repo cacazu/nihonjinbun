@@ -37,3 +37,5 @@ python -m http.server 8000 --directory docs
 『神道大意』は `translations/tanaka/shinto-taii-ja.yaml` から `docs/tanaka/shinto-taii.html` を生成する。全対訳単位と注釈を保持し、`groups` で指定された改頁継続段落を連結表示する。原文OCRは本文へ再掲せず、原典のルビ・傍点は注記欄へ分ける。
 
 田中義能の公開作品は生成器の `TANAKA_WORKS` で明示する。『皇道の使命と世界の将来』は `translations/tanaka/kodo-no-shimei-sekai-no-shorai-ja.yaml` から `docs/tanaka/kodo-no-shimei-sekai-no-shorai.html` へ生成する。原稿の独立レビューとプッシュが済んだ作品だけを追加し、HTMLも別途見直してプッシュする。
+
+『神道本義』は `translations/tanaka/shinto-hongi-ja.yaml` から `docs/tanaka/shinto-hongi.html` へ生成する。全1,030対訳単位を保持し、章・節への読書用目次と原刊頁を指す原目次を区別する。原目次から推測した本文リンクは付けない。改頁継続101組は連結し、三分岐・合流の表5セルは原順のまま図として表示する。原注・局所留保・原ルビ・傍点・太字は注釈に保持する。

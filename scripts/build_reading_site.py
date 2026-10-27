@@ -10,7 +10,7 @@ from translation_yaml import ROOT, load_document, validate_document
 
 PUBLISHED_CHAPTER_COUNT = 100
 CHAPTERS = tuple(f"xiyouji-chapter-{n:03d}-zh-ja.yaml" for n in range(1, PUBLISHED_CHAPTER_COUNT + 1))
-TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai", "kokoku-dento-no-seishin", "nihon-seishin-kokutai", "shinto-shi-koyo", "nihon-shoki-gaisetsu")
+TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai", "kokoku-dento-no-seishin", "nihon-seishin-kokutai", "shinto-shi-koyo", "nihon-shoki-gaisetsu", "shinto-hongi")
 NUMERALS = (
     "一", "二", "三", "四", "五", "六", "七", "八", "九", "十",
     "十一", "十二", "十三", "十四", "十五", "十六", "十七", "十八", "十九", "二十",
@@ -251,16 +251,57 @@ def render_redirect(number):
     return content.replace('<title>', f'<meta http-equiv="refresh" content="0;url={target}">\n<link rel="canonical" href="{target}">\n<title>', 1)
 
 
+def render_branch_table(group, segments, refs, note_numbers):
+    """Read the source's five cells once, in source order, with explicit branching."""
+    positions = [(m.get("row"), m.get("column")) for m in group["members"]]
+    if positions != [(1, 1), (1, 2), (2, 2), (3, 2), (1, 3)]:
+        raise ValueError("Unsupported table layout; review the source before rendering")
+    cells = []
+    for member, role in zip(group["members"], ("origin", "branch-one", "branch-two", "branch-three", "outcome")):
+        sid = member["segment_id"]
+        if segments[sid]["kind"] != "table_cell":
+            raise ValueError("Reading table must contain table cells")
+        text = render_text(segments[sid]["translation_ja"], refs[sid], "translation_span", note_numbers)
+        cells.append(f'<div id="{esc(sid)}" class="table_cell translation story-text {role}">{text}</div>')
+    return (f'<figure class="source-branch-table" id="{esc(group["id"])}">'
+            f'<figcaption>{esc(group["description_ja"])}</figcaption>'
+            '<div class="branch-table">' + ''.join(cells) + '</div></figure>')
+
+
+def render_hongi_contents(data, segments):
+    """Reader navigation is distinct from the source index's printed-page references."""
+    sections = data["sections"]
+    def item(section):
+        members = [s for s in data["segments"] if s["section_id"] == section["id"]]
+        headings = section["heading_segment_ids"]
+        if not headings and not members:
+            child_ids = {child["id"] for child in sections if child.get("parent_id") == section["id"]}
+            members = [s for s in data["segments"] if s["section_id"] in child_ids]
+        if not headings and not members:
+            return ""
+        sid = headings[0] if headings else members[0]["id"]
+        label = section.get("label_ja") or segments[sid]["translation_ja"]
+        if section["id"] == "sh-toc":
+            label = "原目次（原刊頁）"
+        children = ''.join(item(child) for child in sections
+                           if child.get("parent_id") == section["id"]) if section["kind"] == "chapter" else ""
+        return f'<li><a href="#{esc(sid)}">{esc(label)}</a>' + (f'<ul>{children}</ul>' if children else '') + '</li>'
+    return [item(section) for section in sections if section.get("parent_id") is None]
+
+
 def render_taii(data, *, include_reader_notes=False):
     title = data["metadata"]["title_ja"]
     note_numbers = {note["id"]: i for i, note in enumerate(data.get("notes", []), 1)}
     by_segment, by_note, continuations = defaultdict(list), defaultdict(list), defaultdict(list)
+    index_refs = defaultdict(list)
     for ref in data.get("references", []):
         if ref["to"]["type"] == "note":
             by_segment[ref["from"]["segment_id"]].append(ref)
             by_note[ref["to"]["id"]].append(ref)
         elif ref["to"]["type"] == "segment" and ref["kind"] == "cross_reference" and ref["origin"] == "translator" and not any(key in ref["from"] for key in ("source_span", "translation_span")):
             continuations[ref["from"]["segment_id"]].append(ref)
+        elif ref["kind"] == "index" and ref["to"]["type"] == "source_location":
+            index_refs[ref["from"]["segment_id"]].append(ref)
         else:
             raise ValueError(f'Unsupported reference target: {ref["id"]}')
     segments = {s["id"]: s for s in data["segments"]}
@@ -269,7 +310,7 @@ def render_taii(data, *, include_reader_notes=False):
     ids = [s["id"] for s in body_segments]
     for group in data.get("groups", []):
         members = [m["segment_id"] for m in group["members"]]
-        if group["kind"] != "paragraph" or not members or group.get("separator", "") != "":
+        if group["kind"] not in ("paragraph", "table") or not members or (group["kind"] == "paragraph" and group.get("separator", "") != ""):
             raise ValueError("Unsupported reading group")
         start = ids.index(members[0])
         if ids[start:start+len(members)] != members or grouped.intersection(members):
@@ -293,6 +334,9 @@ def render_taii(data, *, include_reader_notes=False):
         sid = segment["id"]
         if sid in groups:
             group = groups[sid]
+            if group["kind"] == "table":
+                body.append(render_branch_table(group, segments, by_segment, note_numbers))
+                continue
             spans = ''.join(f'<span id="{esc(m["segment_id"])}" class="translation">'
                             f'{render_text(segments[m["segment_id"]]["translation_ja"], by_segment[m["segment_id"]], "translation_span", note_numbers)}</span>'
                             for m in group["members"])
@@ -307,6 +351,12 @@ def render_taii(data, *, include_reader_notes=False):
             if sid in marginal_ids:
                 rendered = '<aside class="source-marginal-heading" aria-label="原典の欄外見出し"><p class="paragraph-glosses">原典の欄外見出し</p>' + rendered + '</aside>'
             body.append(rendered)
+            for ref in index_refs[sid]:
+                location = ref["to"]["location"]
+                page = location["printed_page"]
+                if location.get("printed_page_end"):
+                    page += "–" + location["printed_page_end"]
+                body.append(f'<p class="paragraph-glosses index-source-reference" id="{esc(ref["id"])}-ja">原目次の参照先：原刊{esc(page)}頁。{esc(ref.get("description_ja", ""))}</p>')
             if continuations[sid]:
                 body.append(continuation_links([sid]))
     toc = []
@@ -333,21 +383,24 @@ def render_taii(data, *, include_reader_notes=False):
                     target = segments[section["heading_segment_ids"][0]]
                 label = section.get("label_ja") or target["translation_ja"]
                 toc.append(f'<li><a href="#{esc(target["id"])}">{esc(label)}</a></li>')
+    if data["work_id"] == "tanaka-shinto-hongi-1914":
+        toc = render_hongi_contents(data, segments)
     nav = '<nav class="chapter-nav" aria-label="読書ページの移動"><a href="#contents">目次に戻る</a><a href="index.html">田中義能</a><a href="../index.html">索引に戻る</a></nav>'
     # Source-side ruby/emphasis remains provenance, not newly invented translation ruby.
     source_annotations = []
     for segment in data["segments"]:
         for annotation in segment.get("annotations", []):
-            label = {"ruby": "原文のルビ", "emphasis": "原文の傍点", "language": "原文の言語"}.get(annotation["kind"])
+            label = {"ruby": "原文のルビ", "emphasis": "原文の傍点", "language": "原文の言語", "strong": "原文の太字"}.get(annotation["kind"])
             if label is None:
                 raise ValueError(f"Unsupported source annotation: {annotation['kind']}")
             value = f'：{annotation["reading"]}' if annotation.get("reading") else (f'：{annotation["language"]}' if annotation.get("language") else "")
             source_annotations.append(f'<li>{label}「{esc(annotation["span"]["exact"])}」{esc(value)} <a href="#{esc(segment["id"])}">該当箇所</a></li>')
     annotation_html = '<section class="apparatus"><h2>原典の注記</h2><ul>' + ''.join(source_annotations) + '</ul></section>' if source_annotations else ''
     reader_notes = ('<section class="apparatus"><h2>この訳について</h2>' + ''.join(f'<p>{esc(note)}</p>' for note in data["metadata"].get("reader_notes_ja", [])) + '</section>') if include_reader_notes and data["metadata"].get("reader_notes_ja") else ""
-    content = (nav + f'<h1>{esc(title)}</h1><nav id="contents" aria-label="{esc(title)}の目次"><h2>目次</h2><ul>'
+    contents_label = "読書用目次" if data["work_id"] == "tanaka-shinto-hongi-1914" else "目次"
+    content = (nav + f'<h1>{esc(title)}</h1><nav id="contents" aria-label="{esc(title)}の目次"><h2>{contents_label}</h2><ul>'
                + ''.join(toc) + '</ul></nav><article id="reading" class="reading-body">' + '\n'.join(body) + '</article>'
-               + render_annotations(data, by_note, note_numbers, include_ocr=False, include_scoped_issues=data["work_id"] == "tanaka-nihon-shoki-gaisetsu-1938") + reader_notes + annotation_html + nav)
+               + render_annotations(data, by_note, note_numbers, include_ocr=False, include_scoped_issues=data["work_id"] in ("tanaka-nihon-shoki-gaisetsu-1938", "tanaka-shinto-hongi-1914")) + reader_notes + annotation_html + nav)
     return page_shell(title + " 日本語訳", content)
 
 
@@ -375,7 +428,7 @@ def build(output):
             raise ValueError(slug + ": " + "; ".join(errors))
         if data["workflow"]["stage"] != "ready":
             raise ValueError(slug + ": manuscript must be reviewed before publication")
-        if any(segment["kind"] not in ("heading", "paragraph", "verse", "note_body", "list_item", "separator") for segment in data["segments"]):
+        if any(segment["kind"] not in ("heading", "paragraph", "verse", "note_body", "list_item", "separator", "index_entry", "table_cell") for segment in data["segments"]):
             raise ValueError(slug + ": unsupported segment kind")
         note_ids = {segment["id"] for segment in data["segments"] if segment["kind"] == "note_body"}
         rendered_ids = [body["segment_id"] for note in data.get("notes", []) for body in note["body"]

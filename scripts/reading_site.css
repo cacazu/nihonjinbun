@@ -31,3 +31,17 @@ li+li{margin-top:.8em}
 .note-card:target,.note-ref:target{background:#eeefe4}
 @media(max-width:600px){main{padding:28px 20px}.story-text{font-size:1.0625rem}h1.story-text{font-size:1.3rem}.verse .story-text{padding-left:.8rem}.note-body{font-size:1rem}}
 @media print{:root{background:white;color:black}main{max-width:none;padding:0}.chapter-nav,.backlinks{display:none}.story-text{font-size:11pt}a{text-decoration:none}.note-card{break-inside:avoid}}
+/* Source diagram: one origin branches three ways and rejoins one outcome. */
+.source-branch-table{margin:2rem 0}
+.source-branch-table figcaption{font-size:.875rem;line-height:1.8;color:#58605b;margin-bottom:1rem}
+.branch-table{display:grid;grid-template-columns:1fr 2fr 1fr;gap:.75rem 1.5rem;align-items:stretch}
+.branch-table .table_cell{border:1px solid #c5cdbe;padding:.65rem;font-size:1rem;align-content:center;position:relative}
+.branch-table .origin{grid-column:1;grid-row:1 / 4}
+.branch-table .branch-one{grid-column:2;grid-row:1}
+.branch-table .branch-two{grid-column:2;grid-row:2}
+.branch-table .branch-three{grid-column:2;grid-row:3}
+.branch-table .outcome{grid-column:3;grid-row:1 / 4}
+.branch-table [class*="branch-"]::before,.branch-table [class*="branch-"]::after{content:"→";position:absolute;top:50%;transform:translateY(-50%);font-family:sans-serif}
+.branch-table [class*="branch-"]::before{left:-1.4rem}
+.branch-table [class*="branch-"]::after{right:-1.4rem}
+@media(max-width:600px){.branch-table{display:flex;flex-direction:column;gap:.75rem}.branch-table .origin,.branch-table .outcome{text-align:center}.branch-table .branch-one,.branch-table .branch-two,.branch-table .branch-three{margin:0 1.5rem}.branch-table [class*="branch-"]::before,.branch-table [class*="branch-"]::after{content:"↓"}}
