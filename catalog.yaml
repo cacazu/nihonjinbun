@@ -767,5 +767,11 @@
   "file": "translations/tanaka/shinto-hongi-ja.yaml"
   "title": "神道本義"
   "sha256": "9a30308ec9d3154955b2951a84930ee77ef45f02daa812995af26d017bedaf8a"
+- "work_id": "tanaka-kokumin-dotoku-yoryo-kogi-1924"
+  "file": "translations/tanaka/kokumin-dotoku-yoryo-kogi-ja.yaml"
+  "title": "国民道徳要領講義"
+  "sha256": "0e675f8c389029257ee8bed61f413ef7e7143c3b85e4605c438f6a252b2fdaac"
+  "coverage_note": "1924年改版、全129コマの前付・本文17章・別録・演習109問・奥付・広告を含む1017対訳単位。6/7コマ重複撮影は対訳一度・両位置を保持。全原画像独立校閲・完稿後全対訳通読済み。細字等の局所留保28単位は正本に明示。"
+  "source_and_rights": "NDL957393、原典と配布OCRはPDM-1.0。現代語訳の利用条件は未指定。原著の歴史的主張と現在の事実認定を区別。"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿は翻訳YAML 2.0。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"
