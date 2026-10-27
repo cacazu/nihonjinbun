@@ -10,7 +10,7 @@ from translation_yaml import ROOT, load_document, validate_document
 
 PUBLISHED_CHAPTER_COUNT = 100
 CHAPTERS = tuple(f"xiyouji-chapter-{n:03d}-zh-ja.yaml" for n in range(1, PUBLISHED_CHAPTER_COUNT + 1))
-TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai", "kokoku-dento-no-seishin", "nihon-seishin-kokutai", "shinto-shi-koyo", "nihon-shoki-gaisetsu", "shinto-hongi", "kokumin-dotoku-yoryo-kogi")
+TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai", "kokoku-dento-no-seishin", "nihon-seishin-kokutai", "shinto-shi-koyo", "nihon-shoki-gaisetsu", "shinto-hongi", "kokumin-dotoku-yoryo-kogi", "shinto-koen")
 NUMERALS = (
     "一", "二", "三", "四", "五", "六", "七", "八", "九", "十",
     "十一", "十二", "十三", "十四", "十五", "十六", "十七", "十八", "十九", "二十",
@@ -283,7 +283,7 @@ def render_hongi_contents(data, segments):
             return ""
         sid = headings[0] if headings else members[0]["id"]
         label = section.get("label_ja") or segments[sid]["translation_ja"]
-        if section["id"] in ("sh-toc", "kdk-toc"):
+        if section["id"] in ("sh-toc", "kdk-toc", "shinto-koen-toc"):
             label = "原目次（原刊頁）"
         children = ''.join(item(child) for child in sections
                            if child.get("parent_id") == section["id"]) if section["kind"] == "chapter" else ""
@@ -408,7 +408,7 @@ def render_taii(data, *, include_reader_notes=False):
                     target = segments[section["heading_segment_ids"][0]]
                 label = section.get("label_ja") or target["translation_ja"]
                 toc.append(f'<li><a href="#{esc(target["id"])}">{esc(label)}</a></li>')
-    if data["work_id"] in ("tanaka-shinto-hongi-1914", "tanaka-kokumin-dotoku-yoryo-kogi-1924"):
+    if data["work_id"] in ("tanaka-shinto-hongi-1914", "tanaka-kokumin-dotoku-yoryo-kogi-1924", "tanaka-shinto-koen-1923"):
         toc = render_hongi_contents(data, segments)
     nav = '<nav class="chapter-nav" aria-label="読書ページの移動"><a href="#contents">目次に戻る</a><a href="index.html">田中義能</a><a href="../index.html">索引に戻る</a></nav>'
     # Source-side ruby/emphasis remains provenance, not newly invented translation ruby.
@@ -422,10 +422,10 @@ def render_taii(data, *, include_reader_notes=False):
             source_annotations.append(f'<li>{label}「{esc(annotation["span"]["exact"])}」{esc(value)} <a href="#{esc(segment["id"])}">該当箇所</a></li>')
     annotation_html = '<section class="apparatus"><h2>原典の注記</h2><ul>' + ''.join(source_annotations) + '</ul></section>' if source_annotations else ''
     reader_notes = ('<section class="apparatus"><h2>この訳について</h2>' + ''.join(f'<p>{esc(note)}</p>' for note in data["metadata"].get("reader_notes_ja", [])) + '</section>') if include_reader_notes and data["metadata"].get("reader_notes_ja") else ""
-    contents_label = "読書用目次" if data["work_id"] in ("tanaka-shinto-hongi-1914", "tanaka-kokumin-dotoku-yoryo-kogi-1924") else "目次"
+    contents_label = "読書用目次" if data["work_id"] in ("tanaka-shinto-hongi-1914", "tanaka-kokumin-dotoku-yoryo-kogi-1924", "tanaka-shinto-koen-1923") else "目次"
     content = (nav + f'<h1>{esc(title)}</h1><nav id="contents" aria-label="{esc(title)}の目次"><h2>{contents_label}</h2><ul>'
                + ''.join(toc) + '</ul></nav><article id="reading" class="reading-body">' + '\n'.join(body) + '</article>'
-               + render_annotations(data, by_note, note_numbers, include_ocr=False, include_scoped_issues=data["work_id"] in ("tanaka-nihon-shoki-gaisetsu-1938", "tanaka-shinto-hongi-1914", "tanaka-kokumin-dotoku-yoryo-kogi-1924"), segment_note_links=segment_note_links) + reader_notes + annotation_html + nav)
+               + render_annotations(data, by_note, note_numbers, include_ocr=False, include_scoped_issues=data["work_id"] in ("tanaka-nihon-shoki-gaisetsu-1938", "tanaka-shinto-hongi-1914", "tanaka-kokumin-dotoku-yoryo-kogi-1924", "tanaka-shinto-koen-1923"), segment_note_links=segment_note_links) + reader_notes + annotation_html + nav)
     return page_shell(title + " 日本語訳", content)
 
 
@@ -453,7 +453,7 @@ def build(output):
             raise ValueError(slug + ": " + "; ".join(errors))
         if data["workflow"]["stage"] != "ready":
             raise ValueError(slug + ": manuscript must be reviewed before publication")
-        if any(segment["kind"] not in ("heading", "paragraph", "verse", "note_body", "list_item", "separator", "index_entry", "table_cell") for segment in data["segments"]):
+        if any(segment["kind"] not in ("heading", "paragraph", "verse", "note_body", "list_item", "separator", "index_entry", "table_cell", "figure_text") for segment in data["segments"]):
             raise ValueError(slug + ": unsupported segment kind")
         note_ids = {segment["id"] for segment in data["segments"] if segment["kind"] == "note_body"}
         rendered_ids = [body["segment_id"] for note in data.get("notes", []) for body in note["body"]
