@@ -983,6 +983,14 @@ class ShintoKoenReadingTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             reader.render_taii(data)
 
+    def test_public_reader_does_not_expose_internal_review_paths_or_roles(self):
+        self.assertNotRegex(
+            self.page.nodes[0]["text"],
+            r"(?i)(?:writer|reviewer)\d+[/\\]|(?<![A-Za-z])root(?![A-Za-z])"
+            r"|/(?:tmp|workspace)/|[A-Za-z0-9_./-]+\.(?:png|jpe?g|log)(?![A-Za-z0-9_])",
+            "Keep local crop filenames and internal reviewer labels in private records, not reader annotations",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
