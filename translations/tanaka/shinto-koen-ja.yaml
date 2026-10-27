@@ -3878,17 +3878,15 @@ scope:
   - source_id: ndl-971061
     segment_ids:
     - shinto-koen-p0033-001
-    description_ja: 歌の「大皇の幣に」の幣は配布OCRも原画像の字形もそう見えるが、通常の語として不審。原刊異常字または判読の留保を保持し、訳は前後の歌意により「天皇のおそばで」とした。別版で補完せず。拡大画像
-      writer012/033-poem3.png。
+    description_ja: 歌の「大皇の幣に」の幣は配布OCRも原画像の字形もそう見えるが、通常の語として不審。原刊異常字または判読の留保を保持し、訳は前後の歌意により「天皇のおそばで」とした。別版で補完せず。拡大した原画像で再確認した。
   - source_id: ndl-971061
     segment_ids:
     - shinto-koen-p0034-001
-    description_ja: p44「久保季茲氏の說の樣に自ら」の自らの右に小字「オ」と白丸二個が見える。小字・圏点の区別および全ルビは未確定のため既知の読みで補わず保留。主字と訳文の意は明瞭。拡大 writer012/034-ruby3.png。
+    description_ja: p44「久保季茲氏の說の樣に自ら」の自らの右に小字「オ」と白丸二個が見える。小字・圏点の区別および全ルビは未確定のため既知の読みで補わず保留。主字と訳文の意は明瞭。拡大した原画像で再確認した。
   - source_id: ndl-971061
     segment_ids:
     - shinto-koen-p0048-002
-    description_ja: 神託末「願くは暇達を表せん」の暇達は配布OCRの形を暫定保持。独立画像校閲でも第一字を確定できず、訳は二字の解釈を保留した。左が口、右下が見に似ることから「嚫達」も候補だが右上を確定できず、原刊の確定翻刻とはしない。原画像048左p73、拡大
-      writer012/048-word.png を筆者・校閲者・rootが確認。別資料の定型句からは補完しない。
+    description_ja: 神託末「願くは暇達を表せん」の暇達は配布OCRの形を暫定保持。独立画像校閲でも第一字を確定できず、訳は二字の解釈を保留した。左が口、右下が見に似ることから「嚫達」も候補だが右上を確定できず、原刊の確定翻刻とはしない。原画像の第48コマ左頁（原刊73頁）を拡大して再確認した。別資料の定型句からは補完しない。
   - source_id: ndl-971061
     segment_ids:
     - shinto-koen-p0052-002
@@ -3908,11 +3906,11 @@ scope:
   - source_id: ndl-971061
     segment_ids:
     - shinto-koen-p0066-002
-    description_ja: p108「排斥しました」の直後、「神道はそんな」の前の接続一字が損傷し確読できない。配布OCRは省。局所crop 066-mata.pngでも確定せず、sourceに〔判読困難〕、訳に留保を明記。
+    description_ja: p108「排斥しました」の直後、「神道はそんな」の前の接続一字が損傷し確読できない。配布OCRは省。該当箇所の原画像を拡大しても確定できず、原文に〔判読困難〕、訳文に留保を明記した。
   - source_id: ndl-971061
     segment_ids:
     - shinto-koen-p0072-003
-    description_ja: 原刊は「大尉周勃」「左祖」と見える（拡大 072-satan.png）。大尉はsource/訳とも原表記を保持。「左祖」は左袒の誤記と考えられるが原刊を改変せず、訳では左肩を脱いで支持を示す行為と解した。字形・意味補正に局所留保。
+    description_ja: 原刊は「大尉周勃」「左祖」と見える（原画像を拡大して確認）。大尉は原文・訳文とも原表記を保持。「左祖」は左袒の誤記と考えられるが原刊を改変せず、訳では左肩を脱いで支持を示す行為と解した。字形・意味補正に局所留保。
   - source_id: ndl-971061
     segment_ids:
     - shinto-koen-p0073-003
@@ -12080,8 +12078,7 @@ segments:
   issues:
   - kind: uncertain_translation
     status: open
-    message_ja: 歌の「大皇の幣に」の幣は配布OCRも原画像の字形もそう見えるが、通常の語として不審。原刊異常字または判読の留保を保持し、訳は前後の歌意により「天皇のおそばで」とした。別版で補完せず。拡大画像
-      writer012/033-poem3.png。
+    message_ja: 歌の「大皇の幣に」の幣は配布OCRも原画像の字形もそう見えるが、通常の語として不審。原刊異常字または判読の留保を保持し、訳は前後の歌意により「天皇のおそばで」とした。別版で補完せず。拡大した原画像で再確認した。
 - id: shinto-koen-p0033-002
   section_id: shinto-koen-section-shinto-koen-p0032-002
   kind: paragraph
@@ -12178,7 +12175,7 @@ segments:
   issues:
   - kind: unreadable
     status: open
-    message_ja: p44「久保季茲氏の說の樣に自ら」の自らの右に小字「オ」と白丸二個が見える。小字・圏点の区別および全ルビは未確定のため既知の読みで補わず保留。主字と訳文の意は明瞭。拡大 writer012/034-ruby3.png。
+    message_ja: p44「久保季茲氏の說の樣に自ら」の自らの右に小字「オ」と白丸二個が見える。小字・圏点の区別および全ルビは未確定のため既知の読みで補わず保留。主字と訳文の意は明瞭。拡大した原画像で再確認した。
 - id: shinto-koen-p0034-002
   section_id: shinto-koen-section-shinto-koen-p0032-002
   kind: paragraph
@@ -14105,8 +14102,7 @@ segments:
   issues:
   - kind: unreadable
     status: open
-    message_ja: 神託末「願くは暇達を表せん」の暇達は配布OCRの形を暫定保持。独立画像校閲でも第一字を確定できず、訳は二字の解釈を保留した。左が口、右下が見に似ることから「嚫達」も候補だが右上を確定できず、原刊の確定翻刻とはしない。原画像048左p73、拡大
-      writer012/048-word.png を筆者・校閲者・rootが確認。別資料の定型句からは補完しない。
+    message_ja: 神託末「願くは暇達を表せん」の暇達は配布OCRの形を暫定保持。独立画像校閲でも第一字を確定できず、訳は二字の解釈を保留した。左が口、右下が見に似ることから「嚫達」も候補だが右上を確定できず、原刊の確定翻刻とはしない。原画像の第48コマ左頁（原刊73頁）を拡大して再確認した。別資料の定型句からは補完しない。
 - id: shinto-koen-p0049-001
   section_id: shinto-koen-section-shinto-koen-p0047-004
   kind: paragraph
@@ -16375,7 +16371,7 @@ segments:
   issues:
   - kind: unreadable
     status: open
-    message_ja: p108「排斥しました」の直後、「神道はそんな」の前の接続一字が損傷し確読できない。配布OCRは省。局所crop 066-mata.pngでも確定せず、sourceに〔判読困難〕、訳に留保を明記。
+    message_ja: p108「排斥しました」の直後、「神道はそんな」の前の接続一字が損傷し確読できない。配布OCRは省。該当箇所の原画像を拡大しても確定できず、原文に〔判読困難〕、訳文に留保を明記した。
 - id: shinto-koen-p0066-003
   section_id: shinto-koen-section-shinto-koen-p0064-005
   kind: paragraph
@@ -16933,7 +16929,7 @@ segments:
   issues:
   - kind: uncertain_translation
     status: open
-    message_ja: 原刊は「大尉周勃」「左祖」と見える（拡大 072-satan.png）。大尉はsource/訳とも原表記を保持。「左祖」は左袒の誤記と考えられるが原刊を改変せず、訳では左肩を脱いで支持を示す行為と解した。字形・意味補正に局所留保。
+    message_ja: 原刊は「大尉周勃」「左祖」と見える（原画像を拡大して確認）。大尉は原文・訳文とも原表記を保持。「左祖」は左袒の誤記と考えられるが原刊を改変せず、訳では左肩を脱いで支持を示す行為と解した。字形・意味補正に局所留保。
 - id: shinto-koen-p0073-001
   section_id: shinto-koen-section-shinto-koen-p0072-002
   kind: paragraph
@@ -45025,9 +45021,9 @@ workflow:
   stage: ready
   full_review:
     status: complete
-    completed_at: '2026-10-27T06:39:26.379397Z'
+    completed_at: '2026-10-27T07:12:03.535303Z'
     reviewed_by: 全原画像の独立校閲と完稿後全文通読・修正差分再読
-    content_sha256: 396f742f5a20552b8534acb370614b89e75840c262dfa0997a6ca4796cba8687
+    content_sha256: 951cf4a9ad5ef4c297fcdb89fb01fd2c996cf26740b4d8f7a60e7f0933bbb821
 provenance:
   public_projection_version: '1.0'
   policy_ja: 公開用来歴は本作品の取得・画像・確認対象の識別子とハッシュに限定する。内部ログ全文は含めず、原記録を改変しない。原文・訳文・注・参照・構造・workflowは変更しない。
@@ -50744,5 +50740,5 @@ provenance:
     - 221
     - 222
     - 223
-    review_evidence_sha256: d2f2261f6af9e4f17f966a3f5acfdfaf64a94cee2514cea37caaba9c4ff5601f
+    review_evidence_sha256: a989f94dcb3f63bc6489c1f1820880856e1bec68f7e139c8ef72de775e0077b4
     independent_review_hash_audit_sha256: 87085c406aa00ddd42b1a456a6e1d1c3e562a503d51e133063a2af3f0310a56d
