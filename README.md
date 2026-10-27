@@ -39,3 +39,5 @@ python -m http.server 8000 --directory docs
 田中義能の公開作品は生成器の `TANAKA_WORKS` で明示する。『皇道の使命と世界の将来』は `translations/tanaka/kodo-no-shimei-sekai-no-shorai-ja.yaml` から `docs/tanaka/kodo-no-shimei-sekai-no-shorai.html` へ生成する。原稿の独立レビューとプッシュが済んだ作品だけを追加し、HTMLも別途見直してプッシュする。
 
 『神道本義』は `translations/tanaka/shinto-hongi-ja.yaml` から `docs/tanaka/shinto-hongi.html` へ生成する。全1,030対訳単位を保持し、章・節への読書用目次と原刊頁を指す原目次を区別する。原目次から推測した本文リンクは付けない。改頁継続101組は連結し、三分岐・合流の表5セルは原順のまま図として表示する。原注・局所留保・原ルビ・傍点・太字は注釈に保持する。
+
+『国民道徳要領講義』は `translations/tanaka/kokumin-dotoku-yoryo-kogi-ja.yaml` から `docs/tanaka/kokumin-dotoku-yoryo-kogi.html` へ生成する。全1,017対訳単位（本文全十七章・別録・演習109問・奥付・全広告と書評）と改頁継続95組を保持する。読書用目次と原目次19件・演習124件の原刊頁参照を区別し、参照頁から本文への推測リンクは付けない。段落単位の訳注13件は本文を分断せず別注へ置き、段落末から往復できるようにする。局所留保と原ルビ・傍点・太字551件を注釈に保持し、重複撮影の第6・7コマは一度だけ表示する。

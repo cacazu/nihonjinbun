@@ -123,7 +123,7 @@ class ReadingSiteTests(unittest.TestCase):
         cls.temp.cleanup()
 
     def test_only_explicit_public_files(self):
-        self.assertEqual(set(self.pages), {"index.html", "xiyouji/index.html", "tanaka/index.html", "tanaka/shinto-taii.html", "tanaka/kodo-no-shimei-sekai-no-shorai.html", "tanaka/kokoku-dento-no-seishin.html", "tanaka/nihon-seishin-kokutai.html", "tanaka/shinto-shi-koyo.html", "tanaka/nihon-shoki-gaisetsu.html", "tanaka/shinto-hongi.html", ".nojekyll", "assets/reading.css", "xiyouji/assets/reading.css", *(f"chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1)), *(f"xiyouji/chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1))})
+        self.assertEqual(set(self.pages), {"index.html", "xiyouji/index.html", "tanaka/index.html", "tanaka/shinto-taii.html", "tanaka/kodo-no-shimei-sekai-no-shorai.html", "tanaka/kokoku-dento-no-seishin.html", "tanaka/nihon-seishin-kokutai.html", "tanaka/shinto-shi-koyo.html", "tanaka/nihon-shoki-gaisetsu.html", "tanaka/shinto-hongi.html", "tanaka/kokumin-dotoku-yoryo-kogi.html", ".nojekyll", "assets/reading.css", "xiyouji/assets/reading.css", *(f"chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1)), *(f"xiyouji/chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1))})
 
     def test_chapter_navigation_and_publication_range(self):
         for number in range(1, len(reader.CHAPTERS) + 1):
@@ -284,7 +284,7 @@ class ReadingSiteTests(unittest.TestCase):
         author = self.html["tanaka/index.html"]
         self.assertEqual([n["text"] for n in author.nodes if n["tag"] == "h1"], ["田中義能"])
         self.assertEqual([(n["text"], n["attrs"]["href"]) for n in author.nodes if n["tag"] == "a"],
-                         [("神道大意", "shinto-taii.html"), ("皇道の使命と世界の将来", "kodo-no-shimei-sekai-no-shorai.html"), ("皇国伝統の精神", "kokoku-dento-no-seishin.html"), ("日本精神と国体の本質", "nihon-seishin-kokutai.html"), ("神道史綱要", "shinto-shi-koyo.html"), ("日本書紀概説", "nihon-shoki-gaisetsu.html"), ("神道本義", "shinto-hongi.html"), ("索引に戻る", "../index.html")])
+                         [("神道大意", "shinto-taii.html"), ("皇道の使命と世界の将来", "kodo-no-shimei-sekai-no-shorai.html"), ("皇国伝統の精神", "kokoku-dento-no-seishin.html"), ("日本精神と国体の本質", "nihon-seishin-kokutai.html"), ("神道史綱要", "shinto-shi-koyo.html"), ("日本書紀概説", "nihon-shoki-gaisetsu.html"), ("神道本義", "shinto-hongi.html"), ("国民道徳要領講義", "kokumin-dotoku-yoryo-kogi.html"), ("索引に戻る", "../index.html")])
         for page in (root, author):
             self.assertFalse(any(n["tag"] in ("script", "button", "iframe") for n in page.nodes))
 
@@ -687,6 +687,151 @@ class ShintoHongiReadingTests(unittest.TestCase):
         group["members"][2]["column"] = 3
         with self.assertRaises(ValueError):
             reader.render_taii(data)
+
+
+class KokuminDotokuReadingTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.path = ROOT / "translations/tanaka/kokumin-dotoku-yoryo-kogi-ja.yaml"
+        cls.data = load_document(cls.path)
+        cls.before = copy.deepcopy(cls.data)
+        cls.rendered = reader.render_taii(cls.data, include_reader_notes=True)
+        cls.page = Elements(cls.rendered)
+        cls.ids = {}
+        for node in cls.page.nodes:
+            if node["attrs"].get("id"):
+                cls.ids.setdefault(node["attrs"]["id"], []).append(node)
+
+    def test_all_1017_translations_once_and_body_order_unchanged(self):
+        self.assertEqual(self.data, self.before)
+        self.assertEqual(len(self.data["segments"]), 1017)
+        segments = {s["id"]: s for s in self.data["segments"]}
+        reading, = self.ids["reading"]
+        for sid, segment in segments.items():
+            with self.subTest(segment=sid):
+                node, = self.ids[sid]
+                self.assertEqual(node["text"], segment["translation_ja"])
+                self.assertEqual(any(parent is reading for parent in node["parents"]),
+                                 segment["kind"] != "note_body")
+        actual = [n["attrs"]["id"] for n in self.page.nodes
+                  if n["attrs"].get("id") in segments and any(parent is reading for parent in n["parents"])]
+        self.assertEqual(actual, [s["id"] for s in self.data["segments"] if s["kind"] != "note_body"])
+
+    def test_all_95_page_joins_are_unbroken_including_note_adjacent_join(self):
+        self.assertEqual(len(self.data["groups"]), 95)
+        segments = {s["id"]: s for s in self.data["segments"]}
+        for group in self.data["groups"]:
+            with self.subTest(group=group["id"]):
+                node, = self.ids[group["id"]]
+                self.assertEqual(node["text"], "".join(segments[m["segment_id"]]["translation_ja"]
+                                                      for m in group["members"]))
+                self.assertFalse(any(n["tag"] in ("p", "br") and any(parent is node for parent in n["parents"])
+                                     for n in self.page.nodes))
+        group, = self.ids["kdk-continuation-kdk-p0101-005"]
+        self.assertIn("我が国運の発展と文明の進歩は、速やかに進み", group["text"])
+        group90, = self.ids["kdk-continuation-kdk-p0104-005"]
+        self.assertIn("国際道徳を尊重しなければなりません。", group90["text"])
+
+    def test_reader_toc_covers_seventeen_chapters_supplements_and_all_ad_groups(self):
+        toc, = self.ids["contents"]
+        self.assertTrue(toc["text"].startswith("読書用目次"))
+        links = [n for n in self.page.nodes if n["tag"] == "a" and any(parent is toc for parent in n["parents"])]
+        chapters = [s for s in self.data["sections"] if s["id"].startswith("kdk-chapter-")]
+        self.assertEqual(len(chapters), 17)
+        for section in chapters:
+            self.assertTrue(any(n["attrs"]["href"] == "#" + section["heading_segment_ids"][0] for n in links))
+        original, = [n for n in links if n["attrs"]["href"] == "#kdk-p0011-003"]
+        self.assertEqual(original["text"], "原目次（原刊頁）")
+        for target in ("kdk-p0101-003", "kdk-p0113-003", "kdk-p0117-005", "kdk-p0118-001",
+                       "kdk-p0120-001", "kdk-p0121-001", "kdk-p0123-001", "kdk-p0126-001", "kdk-p0127-001"):
+            self.assertTrue(any(n["attrs"]["href"] == "#" + target for n in links), target)
+
+    def test_original_index_and_109_exercises_preserve_printed_pages_without_guessed_links(self):
+        exercises = [s for s in self.data["segments"]
+                     if s["section_id"].startswith("kdk-exercises-") and s["kind"] == "list_item"]
+        self.assertEqual(len(exercises), 109)
+        source_refs = [r for r in self.data["references"] if r["to"]["type"] == "source_location"]
+        self.assertEqual(sum(r["kind"] == "index" for r in source_refs), 19)
+        self.assertEqual(sum(r["kind"] == "cross_reference" for r in source_refs), 124)
+        self.assertEqual({r["from"]["segment_id"] for r in source_refs if r["kind"] == "cross_reference"},
+                         {s["id"] for s in exercises})
+        for ref in source_refs:
+            node, = self.ids[ref["id"] + "-ja"]
+            label = "原目次の参照先" if ref["kind"] == "index" else "演習の参照先"
+            self.assertTrue(node["text"].startswith(label + "：原刊"))
+            location = ref["to"]["location"]
+            self.assertIn(location["printed_page"], node["text"])
+            if location.get("printed_page_end"):
+                self.assertIn(location["printed_page_end"], node["text"])
+            self.assertIn(ref["description_ja"], node["text"])
+            self.assertFalse(any(n["tag"] == "a" and any(parent is node for parent in n["parents"])
+                                 for n in self.page.nodes))
+
+    def test_all_13_segment_note_references_have_round_trips_without_invented_word_spans(self):
+        refs = [r for r in self.data["references"] if r["to"]["type"] == "note"]
+        self.assertEqual(len(refs), 13)
+        self.assertEqual(len(self.data["notes"]), 13)
+        positions = {id(node): i for i, node in enumerate(self.page.nodes)}
+        for ref in refs:
+            self.assertNotIn("translation_span", ref["from"])
+            link, = self.ids[ref["id"] + "-ja"]
+            nid = ref["to"]["id"]
+            card, = self.ids[nid]
+            source, = self.ids[ref["from"]["segment_id"]]
+            self.assertEqual(link["attrs"]["href"], "#" + nid)
+            self.assertFalse(any(parent is source for parent in link["parents"]))
+            self.assertGreater(positions[id(link)], positions[id(source)])
+            self.assertTrue(any(n["attrs"].get("href") == "#" + ref["id"] + "-ja"
+                                and any(parent is card for parent in n["parents"]) for n in self.page.nodes))
+        label11, = self.ids["note-label-kdk-note-p0072-review002"]
+        link11, = self.ids["kdk-ref-p0072-review002-ja"]
+        self.assertEqual(label11["text"], "訳注 11")
+        self.assertEqual(link11["text"], "訳注 11")
+
+    def test_all_551_original_annotations_and_local_caveats_are_retained(self):
+        text = self.page.nodes[0]["text"]
+        annotations = [(s, a) for s in self.data["segments"] for a in s.get("annotations", [])]
+        self.assertEqual(len(annotations), 551)
+        nodes = [n for n in self.page.nodes if n["tag"] == "li" and
+                 n["text"].startswith(("原文のルビ", "原文の傍点", "原文の太字"))]
+        self.assertEqual(len(nodes), len(annotations))
+        for node, (segment, annotation) in zip(nodes, annotations):
+            self.assertIn(annotation["span"]["exact"], node["text"])
+            if annotation.get("reading"):
+                self.assertIn(annotation["reading"], node["text"])
+            link, = [n for n in self.page.nodes if n["tag"] == "a" and any(parent is node for parent in n["parents"])]
+            self.assertEqual(link["attrs"]["href"], "#" + segment["id"])
+        for segment in self.data["segments"]:
+            for issue in segment.get("issues", []):
+                self.assertIn(issue["message_ja"], text)
+        for gap in self.data["scope"]["known_gaps"]:
+            self.assertIn(gap["description_ja"], text)
+        for note in self.data["metadata"]["reader_notes_ja"]:
+            self.assertIn(note, text)
+
+    def test_duplicate_photographs_keep_both_sources_but_one_translation(self):
+        duplicates = [s for s in self.data["segments"] if s["id"].startswith("kdk-p0006-")]
+        self.assertTrue(duplicates)
+        self.assertFalse(any(s["id"].startswith("kdk-p0007-") for s in self.data["segments"]))
+        for segment in duplicates:
+            self.assertEqual(len(self.ids[segment["id"]]), 1)
+            self.assertEqual({loc["url"] for loc in segment["source_locations"]},
+                             {"https://dl.ndl.go.jp/pid/957393/1/6", "https://dl.ndl.go.jp/pid/957393/1/7"})
+        self.assertIn("第6・7コマは同じ見開きの重複撮影", self.page.nodes[0]["text"])
+
+    def test_ids_links_css_and_generated_file_are_valid(self):
+        self.assertTrue(all(len(nodes) == 1 for nodes in self.ids.values()))
+        for node in self.page.nodes:
+            href = node["attrs"].get("href", "")
+            if href.startswith("#"):
+                self.assertIn(href[1:], self.ids)
+            elif href and not urlsplit(href).scheme:
+                self.assertTrue((ROOT / "docs/tanaka" / href).resolve().is_file())
+            describedby = node["attrs"].get("aria-describedby")
+            if describedby:
+                self.assertIn(describedby, self.ids)
+        self.assertFalse(any(n["tag"] in ("script", "iframe", "button") for n in self.page.nodes))
+        self.assertEqual(self.rendered, (ROOT / "docs/tanaka/kokumin-dotoku-yoryo-kogi.html").read_text())
 
 
 if __name__ == "__main__":

@@ -10,7 +10,7 @@ from translation_yaml import ROOT, load_document, validate_document
 
 PUBLISHED_CHAPTER_COUNT = 100
 CHAPTERS = tuple(f"xiyouji-chapter-{n:03d}-zh-ja.yaml" for n in range(1, PUBLISHED_CHAPTER_COUNT + 1))
-TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai", "kokoku-dento-no-seishin", "nihon-seishin-kokutai", "shinto-shi-koyo", "nihon-shoki-gaisetsu", "shinto-hongi")
+TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai", "kokoku-dento-no-seishin", "nihon-seishin-kokutai", "shinto-shi-koyo", "nihon-shoki-gaisetsu", "shinto-hongi", "kokumin-dotoku-yoryo-kogi")
 NUMERALS = (
     "一", "二", "三", "四", "五", "六", "七", "八", "九", "十",
     "十一", "十二", "十三", "十四", "十五", "十六", "十七", "十八", "十九", "二十",
@@ -100,7 +100,7 @@ def render_segment(segment, refs, note_numbers, occurrences=()):
             f'<{tag} class="story-text translation" lang="ja">{japanese}</{tag}>{glosses}</section>')
 
 
-def render_notes(data, refs_by_note, note_numbers, *, origin_labels=False):
+def render_notes(data, refs_by_note, note_numbers, *, origin_labels=False, segment_note_links=False):
     notes = data.get("notes", [])
     segments = {segment["id"]: segment for segment in data["segments"]}
     sources = {source["id"]: source for source in data["sources"]}
@@ -126,13 +126,15 @@ def render_notes(data, refs_by_note, note_numbers, *, origin_labels=False):
             for field, lang, label in (("translation_span", "ja", "本文"),):
                 if field in ref["from"]:
                     backlinks.append(f'<a href="#{esc(ref["id"])}-{lang}">{label}の該当箇所 {i} へ戻る ↑</a>')
+            if segment_note_links and "translation_span" not in ref["from"]:
+                backlinks.append(f'<a href="#{esc(ref["id"])}-ja">本文の該当段落 {i} へ戻る ↑</a>')
         locations = "".join(f'<li>{external_link(loc["url"], sources[loc["source_id"]]["title"])}</li>' for loc in note.get("source_locations", []) if loc.get("url"))
         sources_html = f'<ul class="note-sources">{locations}</ul>' if locations else ""
         items.append(f'<li class="note-card" id="{esc(nid)}"><h3 id="note-label-{esc(nid)}">{note_label} {note_numbers[nid]:02d}</h3>{description}{body}{sources_html}<div class="backlinks">{"".join(backlinks)}</div></li>')
     return f'<ol class="notes-list">{"".join(items)}</ol>' if items else ""
 
 
-def render_annotations(data, refs_by_note, note_numbers, *, include_ocr=True, include_scoped_issues=False):
+def render_annotations(data, refs_by_note, note_numbers, *, include_ocr=True, include_scoped_issues=False, segment_note_links=False):
     gaps = []
     covered = set()
     for gap in data["scope"]["known_gaps"]:
@@ -172,7 +174,7 @@ def render_annotations(data, refs_by_note, note_numbers, *, include_ocr=True, in
     rights = data["metadata"]["translation_rights"]
     license_link = external_link(rights["license_url"], rights.get("license_id", "利用条件")) if rights.get("license_url") else esc(rights.get("note_ja", ""))
     return (f'<section id="notes" class="apparatus"><h2>注釈</h2>'
-            f'{render_notes(data, refs_by_note, note_numbers, origin_labels=not include_ocr)}{caveats}'
+            f'{render_notes(data, refs_by_note, note_numbers, origin_labels=not include_ocr, segment_note_links=segment_note_links)}{caveats}'
             f'<p>原著：{esc(authors)}。{esc(DISCLAIMER)}</p><p>{esc(rights["attribution"])} {license_link}</p>'
             f'<ul class="sources-list">{"".join(sources)}</ul></section>')
 
@@ -281,7 +283,7 @@ def render_hongi_contents(data, segments):
             return ""
         sid = headings[0] if headings else members[0]["id"]
         label = section.get("label_ja") or segments[sid]["translation_ja"]
-        if section["id"] == "sh-toc":
+        if section["id"] in ("sh-toc", "kdk-toc"):
             label = "原目次（原刊頁）"
         children = ''.join(item(child) for child in sections
                            if child.get("parent_id") == section["id"]) if section["kind"] == "chapter" else ""
@@ -291,6 +293,8 @@ def render_hongi_contents(data, segments):
 
 def render_taii(data, *, include_reader_notes=False):
     title = data["metadata"]["title_ja"]
+    # This book records notes against entire source paragraphs, not guessed words.
+    segment_note_links = data["work_id"] == "tanaka-kokumin-dotoku-yoryo-kogi-1924"
     note_numbers = {note["id"]: i for i, note in enumerate(data.get("notes", []), 1)}
     by_segment, by_note, continuations = defaultdict(list), defaultdict(list), defaultdict(list)
     index_refs = defaultdict(list)
@@ -300,7 +304,8 @@ def render_taii(data, *, include_reader_notes=False):
             by_note[ref["to"]["id"]].append(ref)
         elif ref["to"]["type"] == "segment" and ref["kind"] == "cross_reference" and ref["origin"] == "translator" and not any(key in ref["from"] for key in ("source_span", "translation_span")):
             continuations[ref["from"]["segment_id"]].append(ref)
-        elif ref["kind"] == "index" and ref["to"]["type"] == "source_location":
+        elif ref["to"]["type"] == "source_location" and (ref["kind"] == "index" or
+                (ref["kind"] == "cross_reference" and ref["origin"] == "source")):
             index_refs[ref["from"]["segment_id"]].append(ref)
         else:
             raise ValueError(f'Unsupported reference target: {ref["id"]}')
@@ -320,6 +325,19 @@ def render_taii(data, *, include_reader_notes=False):
     def continuation_links(segment_ids):
         return ''.join(f'<p class="paragraph-glosses continuation-link" id="{esc(ref["id"])}-ja"><a href="#{esc(ref["to"]["id"])}">{esc(ref.get("label", "本文の続き"))} →</a></p>'
                        for sid in segment_ids for ref in continuations[sid])
+    def paragraph_note_links(segment_ids):
+        if not segment_note_links:
+            return ""
+        links = []
+        for sid in segment_ids:
+            for ref in by_segment[sid]:
+                if "translation_span" in ref["from"]:
+                    continue
+                nid = ref["to"]["id"]
+                note = next(note for note in data["notes"] if note["id"] == nid)
+                label = {"author": "原注", "unknown": "書込み（筆者不明）", "translator": "訳注"}.get(note.get("origin"), "注")
+                links.append(f'<a id="{esc(ref["id"])}-ja" href="#{esc(nid)}" aria-describedby="note-label-{esc(nid)}">{label} {note_numbers[nid]}</a>')
+        return '<p class="paragraph-glosses segment-note-references">' + ' ・ '.join(links) + '</p>' if links else ""
     marginal_ids = {sid for record in data.get("provenance", {}).get("nonadjacent_continuations", [])
                     for sid in record.get("intervening_segment_ids", []) if segments[sid]["kind"] == "heading"}
     body = []
@@ -341,6 +359,9 @@ def render_taii(data, *, include_reader_notes=False):
                             f'{render_text(segments[m["segment_id"]]["translation_ja"], by_segment[m["segment_id"]], "translation_span", note_numbers)}</span>'
                             for m in group["members"])
             body.append(f'<section class="segment paragraph" id="{esc(group["id"])}"><div class="story-text">{spans}</div></section>')
+            note_links = paragraph_note_links([member["segment_id"] for member in group["members"]])
+            if note_links:
+                body.append(note_links)
             links = continuation_links([member["segment_id"] for member in group["members"]])
             if links:
                 body.append(links)
@@ -351,12 +372,16 @@ def render_taii(data, *, include_reader_notes=False):
             if sid in marginal_ids:
                 rendered = '<aside class="source-marginal-heading" aria-label="原典の欄外見出し"><p class="paragraph-glosses">原典の欄外見出し</p>' + rendered + '</aside>'
             body.append(rendered)
+            note_links = paragraph_note_links([sid])
+            if note_links:
+                body.append(note_links)
             for ref in index_refs[sid]:
                 location = ref["to"]["location"]
                 page = location["printed_page"]
                 if location.get("printed_page_end"):
                     page += "–" + location["printed_page_end"]
-                body.append(f'<p class="paragraph-glosses index-source-reference" id="{esc(ref["id"])}-ja">原目次の参照先：原刊{esc(page)}頁。{esc(ref.get("description_ja", ""))}</p>')
+                label = "原目次の参照先" if ref["kind"] == "index" else "演習の参照先"
+                body.append(f'<p class="paragraph-glosses index-source-reference" id="{esc(ref["id"])}-ja">{label}：原刊{esc(page)}頁。{esc(ref.get("description_ja", ""))}</p>')
             if continuations[sid]:
                 body.append(continuation_links([sid]))
     toc = []
@@ -383,7 +408,7 @@ def render_taii(data, *, include_reader_notes=False):
                     target = segments[section["heading_segment_ids"][0]]
                 label = section.get("label_ja") or target["translation_ja"]
                 toc.append(f'<li><a href="#{esc(target["id"])}">{esc(label)}</a></li>')
-    if data["work_id"] == "tanaka-shinto-hongi-1914":
+    if data["work_id"] in ("tanaka-shinto-hongi-1914", "tanaka-kokumin-dotoku-yoryo-kogi-1924"):
         toc = render_hongi_contents(data, segments)
     nav = '<nav class="chapter-nav" aria-label="読書ページの移動"><a href="#contents">目次に戻る</a><a href="index.html">田中義能</a><a href="../index.html">索引に戻る</a></nav>'
     # Source-side ruby/emphasis remains provenance, not newly invented translation ruby.
@@ -397,10 +422,10 @@ def render_taii(data, *, include_reader_notes=False):
             source_annotations.append(f'<li>{label}「{esc(annotation["span"]["exact"])}」{esc(value)} <a href="#{esc(segment["id"])}">該当箇所</a></li>')
     annotation_html = '<section class="apparatus"><h2>原典の注記</h2><ul>' + ''.join(source_annotations) + '</ul></section>' if source_annotations else ''
     reader_notes = ('<section class="apparatus"><h2>この訳について</h2>' + ''.join(f'<p>{esc(note)}</p>' for note in data["metadata"].get("reader_notes_ja", [])) + '</section>') if include_reader_notes and data["metadata"].get("reader_notes_ja") else ""
-    contents_label = "読書用目次" if data["work_id"] == "tanaka-shinto-hongi-1914" else "目次"
+    contents_label = "読書用目次" if data["work_id"] in ("tanaka-shinto-hongi-1914", "tanaka-kokumin-dotoku-yoryo-kogi-1924") else "目次"
     content = (nav + f'<h1>{esc(title)}</h1><nav id="contents" aria-label="{esc(title)}の目次"><h2>{contents_label}</h2><ul>'
                + ''.join(toc) + '</ul></nav><article id="reading" class="reading-body">' + '\n'.join(body) + '</article>'
-               + render_annotations(data, by_note, note_numbers, include_ocr=False, include_scoped_issues=data["work_id"] in ("tanaka-nihon-shoki-gaisetsu-1938", "tanaka-shinto-hongi-1914")) + reader_notes + annotation_html + nav)
+               + render_annotations(data, by_note, note_numbers, include_ocr=False, include_scoped_issues=data["work_id"] in ("tanaka-nihon-shoki-gaisetsu-1938", "tanaka-shinto-hongi-1914", "tanaka-kokumin-dotoku-yoryo-kogi-1924"), segment_note_links=segment_note_links) + reader_notes + annotation_html + nav)
     return page_shell(title + " 日本語訳", content)
 
 
