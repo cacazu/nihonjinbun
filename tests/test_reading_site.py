@@ -123,7 +123,7 @@ class ReadingSiteTests(unittest.TestCase):
         cls.temp.cleanup()
 
     def test_only_explicit_public_files(self):
-        self.assertEqual(set(self.pages), {"index.html", "xiyouji/index.html", "tanaka/index.html", "tanaka/shinto-taii.html", "tanaka/kodo-no-shimei-sekai-no-shorai.html", "tanaka/kokoku-dento-no-seishin.html", "tanaka/nihon-seishin-kokutai.html", "tanaka/shinto-shi-koyo.html", "tanaka/nihon-shoki-gaisetsu.html", "tanaka/shinto-hongi.html", "tanaka/kokumin-dotoku-yoryo-kogi.html", "tanaka/shinto-koen.html", ".nojekyll", "assets/reading.css", "xiyouji/assets/reading.css", *(f"chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1)), *(f"xiyouji/chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1))})
+        self.assertEqual(set(self.pages), {"index.html", "xiyouji/index.html", "tanaka/index.html", "tanaka/shinto-taii.html", "tanaka/kodo-no-shimei-sekai-no-shorai.html", "tanaka/kokoku-dento-no-seishin.html", "tanaka/nihon-seishin-kokutai.html", "tanaka/shinto-shi-koyo.html", "tanaka/nihon-shoki-gaisetsu.html", "tanaka/shinto-hongi.html", "tanaka/kokumin-dotoku-yoryo-kogi.html", "tanaka/shinto-koen.html", "tanaka/jinja-hongi.html", "assets/tanaka-jinja-hongi-1926/shrine-deities-classification.png", ".nojekyll", "assets/reading.css", "xiyouji/assets/reading.css", *(f"chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1)), *(f"xiyouji/chapter-{n:03d}.html" for n in range(1, len(reader.CHAPTERS) + 1))})
 
     def test_chapter_navigation_and_publication_range(self):
         for number in range(1, len(reader.CHAPTERS) + 1):
@@ -248,7 +248,8 @@ class ReadingSiteTests(unittest.TestCase):
         self.assertEqual(self.pages, reader.build(self.output))
         self.assertEqual(before, [hashlib.sha256(path.read_bytes()).hexdigest() for path in paths])
         for name, content in self.pages.items():
-            self.assertEqual((ROOT / "docs" / name).read_text(encoding="utf-8"), content, "Committed docs must be regenerated")
+            actual = (ROOT / "docs" / name).read_bytes() if isinstance(content, bytes) else (ROOT / "docs" / name).read_text(encoding="utf-8")
+            self.assertEqual(actual, content, "Committed docs must be regenerated")
 
     def test_chapters_contain_only_reading_annotations_and_navigation(self):
         for number, data in enumerate(self.documents, 1):
@@ -284,7 +285,7 @@ class ReadingSiteTests(unittest.TestCase):
         author = self.html["tanaka/index.html"]
         self.assertEqual([n["text"] for n in author.nodes if n["tag"] == "h1"], ["田中義能"])
         self.assertEqual([(n["text"], n["attrs"]["href"]) for n in author.nodes if n["tag"] == "a"],
-                         [("神道大意", "shinto-taii.html"), ("皇道の使命と世界の将来", "kodo-no-shimei-sekai-no-shorai.html"), ("皇国伝統の精神", "kokoku-dento-no-seishin.html"), ("日本精神と国体の本質", "nihon-seishin-kokutai.html"), ("神道史綱要", "shinto-shi-koyo.html"), ("日本書紀概説", "nihon-shoki-gaisetsu.html"), ("神道本義", "shinto-hongi.html"), ("国民道徳要領講義", "kokumin-dotoku-yoryo-kogi.html"), ("神道講演", "shinto-koen.html"), ("索引に戻る", "../index.html")])
+                         [("神道大意", "shinto-taii.html"), ("皇道の使命と世界の将来", "kodo-no-shimei-sekai-no-shorai.html"), ("皇国伝統の精神", "kokoku-dento-no-seishin.html"), ("日本精神と国体の本質", "nihon-seishin-kokutai.html"), ("神道史綱要", "shinto-shi-koyo.html"), ("日本書紀概説", "nihon-shoki-gaisetsu.html"), ("神道本義", "shinto-hongi.html"), ("国民道徳要領講義", "kokumin-dotoku-yoryo-kogi.html"), ("神道講演", "shinto-koen.html"), ("神社本義", "jinja-hongi.html"), ("索引に戻る", "../index.html")])
         for page in (root, author):
             self.assertFalse(any(n["tag"] in ("script", "button", "iframe") for n in page.nodes))
 

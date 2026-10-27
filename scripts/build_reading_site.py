@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
 """Build the explicitly published reading library from canonical YAML 2.0."""
 import argparse
+import hashlib
 import html
+import io
 from collections import defaultdict
 from pathlib import Path
 from urllib.parse import urlsplit
+
+from PIL import Image
 
 from translation_yaml import ROOT, load_document, validate_document
 
 PUBLISHED_CHAPTER_COUNT = 100
 CHAPTERS = tuple(f"xiyouji-chapter-{n:03d}-zh-ja.yaml" for n in range(1, PUBLISHED_CHAPTER_COUNT + 1))
-TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai", "kokoku-dento-no-seishin", "nihon-seishin-kokutai", "shinto-shi-koyo", "nihon-shoki-gaisetsu", "shinto-hongi", "kokumin-dotoku-yoryo-kogi", "shinto-koen")
+TANAKA_WORKS = ("shinto-taii", "kodo-no-shimei-sekai-no-shorai", "kokoku-dento-no-seishin", "nihon-seishin-kokutai", "shinto-shi-koyo", "nihon-shoki-gaisetsu", "shinto-hongi", "kokumin-dotoku-yoryo-kogi", "shinto-koen", "jinja-hongi")
 NUMERALS = (
     "一", "二", "三", "四", "五", "六", "七", "八", "九", "十",
     "十一", "十二", "十三", "十四", "十五", "十六", "十七", "十八", "十九", "二十",
@@ -42,14 +46,15 @@ def external_link(url, label):
     return f'<a href="{esc(url)}" rel="noreferrer">{esc(label)}</a>'
 
 
-def page_shell(title, content, stylesheet="../assets/reading.css"):
+def page_shell(title, content, stylesheet="../assets/reading.css", *, allow_images=False):
+    image_policy = " img-src 'self';" if allow_images else ""
     return f'''<!doctype html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'; connect-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self';{image_policy} base-uri 'none'; form-action 'none'; connect-src 'none'">
 <title>{esc(title)}</title>
 <link rel="stylesheet" href="{esc(stylesheet)}">
 </head>
@@ -134,7 +139,17 @@ def render_notes(data, refs_by_note, note_numbers, *, origin_labels=False, segme
     return f'<ol class="notes-list">{"".join(items)}</ol>' if items else ""
 
 
-def render_annotations(data, refs_by_note, note_numbers, *, include_ocr=True, include_scoped_issues=False, segment_note_links=False):
+def render_annotations(data, refs_by_note, note_numbers, *, include_ocr=True, include_scoped_issues=False, segment_note_links=False, resolve_attribution_names=False, include_source_rights_notes=False):
+    contributors = {c["id"]: c["name_ja"] for c in data["metadata"]["contributors"]}
+    def attribution_name(item):
+        if item.get("name_ja"):
+            return item["name_ja"]
+        if resolve_attribution_names:
+            return contributors.get(item.get("contributor_id")) or {
+                "author": "著者", "translator": "訳者", "editor": "編集者",
+                "quoted_person": "引用者（氏名未記載）", "unknown": "話者不明",
+            }[item["voice"]]
+        return "話者不明"
     gaps = []
     covered = set()
     for gap in data["scope"]["known_gaps"]:
@@ -146,7 +161,7 @@ def render_annotations(data, refs_by_note, note_numbers, *, include_ocr=True, in
         messages = []
         if include_scoped_issues or segment["id"] not in covered:
             messages.extend(issue["message_ja"] for issue in segment.get("issues", []))
-        messages.extend(f'{item.get("name_ja") or "話者不明"}' + (f'：{item["evidence_ja"]}' if item.get("evidence_ja") else "") for item in segment.get("attributions", []))
+        messages.extend(attribution_name(item) + (f'：{item["evidence_ja"]}' if item.get("evidence_ja") else "") for item in segment.get("attributions", []))
         # Corrected transcription history is not an alternative reading.
         for variant in segment.get("source_variants", []):
             if variant["kind"] == "corrected" or (not include_ocr and variant["kind"] == "ocr"):
@@ -169,6 +184,11 @@ def render_annotations(data, refs_by_note, note_numbers, *, include_ocr=True, in
                 parts.append(esc(rights["attribution"]))
             if rights.get("license_url"):
                 parts.append(external_link(rights["license_url"], rights.get("license_id", "利用条件")))
+            if include_source_rights_notes:
+                if rights.get("note_ja"):
+                    parts.append(esc(rights["note_ja"]))
+                if rights.get("evidence_url"):
+                    parts.append(external_link(rights["evidence_url"], "利用条件の根拠"))
         sources.append(f'<li>{" / ".join(dict.fromkeys(parts))}</li>')
     authors = "、".join(c["name_ja"] for c in data["metadata"]["contributors"] if "author" in c["roles"])
     rights = data["metadata"]["translation_rights"]
@@ -270,7 +290,7 @@ def render_branch_table(group, segments, refs, note_numbers):
             '<div class="branch-table">' + ''.join(cells) + '</div></figure>')
 
 
-def render_hongi_contents(data, segments):
+def render_hongi_contents(data, segments, *, recursive=False):
     """Reader navigation is distinct from the source index's printed-page references."""
     sections = data["sections"]
     def item(section):
@@ -283,15 +303,320 @@ def render_hongi_contents(data, segments):
             return ""
         sid = headings[0] if headings else members[0]["id"]
         label = section.get("label_ja") or segments[sid]["translation_ja"]
-        if section["id"] in ("sh-toc", "kdk-toc", "shinto-koen-toc"):
+        if section["id"] in ("sh-toc", "kdk-toc", "shinto-koen-toc", "jinja-hongi-toc"):
             label = "原目次（原刊頁）"
         children = ''.join(item(child) for child in sections
-                           if child.get("parent_id") == section["id"]) if section["kind"] == "chapter" else ""
+                           if child.get("parent_id") == section["id"]) if recursive or section["kind"] == "chapter" else ""
         return f'<li><a href="#{esc(sid)}">{esc(label)}</a>' + (f'<ul>{children}</ul>' if children else '') + '</li>'
     return [item(section) for section in sections if section.get("parent_id") is None]
 
 
+# Publication is opt-in, including every image byte; never copy arbitrary assets.
+READING_ASSET_ALLOWLIST = {
+    "assets/tanaka-jinja-hongi-1926/shrine-deities-classification.png":
+        "e8c74293a29cfcc64d9e1e6a996e7510f2aab69f96b318b55cbed5f8cac599e9",
+}
+
+
+def reading_assets(data):
+    """Return only explicitly approved, decoded, hash-verified figure images."""
+    assets = {asset["id"]: asset for asset in data.get("assets", [])}
+    result = {}
+    for figure in data.get("figures", []):
+        asset = assets.get(figure["asset_id"])
+        if not asset or asset.get("status") != "available" or not figure.get("alt_ja"):
+            raise ValueError("Published figures require an available asset and nonempty alt text")
+        relative = asset["path"]
+        expected = READING_ASSET_ALLOWLIST.get(relative)
+        if not expected or asset.get("sha256") != expected or asset.get("media_type") != "image/png":
+            raise ValueError("Figure asset is not explicitly approved for publication")
+        path = ROOT / relative
+        # An allowlisted spelling must not conceal a symlink outside the source tree.
+        if any(parent.is_symlink() for parent in (path, *path.parents)):
+            raise ValueError("Figure asset paths must not contain symlinks")
+        if not path.resolve().is_relative_to((ROOT / "assets" / data["work_id"]).resolve()):
+            raise ValueError("Figure asset must remain inside its work asset directory")
+        content = path.read_bytes()
+        if len(content) != asset["bytes"] or hashlib.sha256(content).hexdigest() != expected:
+            raise ValueError("Figure asset bytes or SHA-256 do not match the reviewed manuscript")
+        with Image.open(io.BytesIO(content)) as image:
+            if image.format != "PNG" or image.size != (asset["width"], asset["height"]):
+                raise ValueError("Figure image format or dimensions do not match the manuscript")
+            image.verify()
+        result[relative] = content
+    return result
+
+
+def render_source_figure(figure, asset):
+    caption = f'<figcaption>{esc(figure["caption_ja"])}</figcaption>' if figure.get("caption_ja") else ""
+    # Caption/text segments retain their normal reading position and fixed IDs.
+    return (f'<figure class="source-figure" id="{esc(figure["id"])}">'
+            f'<img src="../{esc(asset["path"])}" width="{asset["width"]}" height="{asset["height"]}" '
+            f'alt="{esc(figure["alt_ja"])}" loading="lazy" decoding="async">{caption}</figure>')
+
+
+def render_column_table(group, segments, render_value, render_links):
+    """Keep source column-major order, sparse cells, coordinates and every label.
+
+    A CSS matrix retains source rows and right-to-left source columns. Definition
+    lists expose each cell's row/column/label without inventing missing cells or
+    guessing shared-cell spans from editorial prose.
+    """
+    members = group["members"]
+    coordinates = [(m.get("column"), m.get("row")) for m in members]
+    if (not members or
+            any(type(c) is not int or type(r) is not int or not 1 <= c <= 15 or not 1 <= r <= 3
+                for c, r in coordinates) or coordinates != sorted(set(coordinates))):
+        raise ValueError("Unsupported source table coordinates/order; review before publishing")
+    cells = []
+    for member in members:
+        sid = member["segment_id"]
+        if segments[sid]["kind"] != "table_cell" or not member.get("label_ja"):
+            raise ValueError("Source tables require labelled table_cell members")
+        row, column = member["row"], member["column"]
+        label = f'原表 第{column}列・第{row}段：{member["label_ja"]}'
+        cells.append(f'<div class="source-table-cell source-row-{row} source-column-{column}" '
+                     f'data-source-row="{row}" data-source-column="{column}" data-source-label="{esc(member["label_ja"])}">'
+                     f'<dt>{esc(label)}</dt><dd id="{esc(sid)}" class="table_cell translation story-text">'
+                     f'{render_value(segments[sid])}</dd>{render_links([sid])}</div>')
+    return (f'<figure class="source-table" id="{esc(group["id"])}">'
+            f'<figcaption>{esc(group.get("description_ja", ""))}</figcaption>'
+            '<p class="paragraph-glosses">原表の列は右から左へ、各列は上・中・下段の順です。横にスクロールして読めます。共通欄・括弧の範囲は各欄の説明に残しています。</p>'
+            '<div class="source-table-scroll" tabindex="0" role="region" aria-label="原刊の官社表（横スクロール）">'
+            '<dl class="source-table-grid">' + ''.join(cells) + '</dl></div></figure>')
+
+
+def render_jinja(data, *, include_reader_notes=True):
+    """Render the reviewed Jinja manuscript, including references within notes."""
+    verified_assets = reading_assets(data)
+    segments = {s["id"]: s for s in data["segments"]}
+    notes = {n["id"]: n for n in data.get("notes", [])}
+    note_numbers = {nid: i for i, nid in enumerate(notes, 1)}
+    by_segment, by_target = defaultdict(list), defaultdict(list)
+    for ref in data.get("references", []):
+        target = ref.get("to") or {}
+        if ref.get("status") != "verified" or target.get("type") not in ("note", "segment", "source_location"):
+            raise ValueError(f'Unsupported reading reference: {ref["id"]}')
+        if target["type"] == "note" and target["id"] not in notes:
+            raise ValueError("Missing reading note target")
+        if target["type"] == "segment" and target["id"] not in segments:
+            raise ValueError("Missing reading segment target")
+        by_segment[ref["from"]["segment_id"]].append(ref)
+        if target["type"] in ("note", "segment"):
+            by_target[target["id"]].append(ref)
+
+    source_marker_refs = {nid: by_target[nid][0]["id"] for nid, note in notes.items()
+                          if note["origin"] != "translator" and by_target[nid]}
+
+    def note_label(nid):
+        return "訳注" if notes[nid]["origin"] == "translator" else "原注"
+
+    def value(segment):
+        text = segment["translation_ja"]
+        refs = sorted((r for r in by_segment[segment["id"]] if "translation_span" in r["from"]),
+                      key=lambda r: r["from"]["translation_span"]["start"])
+        result, offset = [], 0
+        for ref in refs:
+            span = ref["from"]["translation_span"]
+            start, end = span["start"], span["end"]
+            if start < offset or not 0 <= start < end <= len(text) or text[start:end] != span["exact"]:
+                raise ValueError(f'Overlapping or invalid text span: {ref["id"]}')
+            target = ref["to"]
+            if target["type"] not in ("note", "segment"):
+                raise ValueError("Source-page references must not become guessed inline links")
+            attrs = 'class="cross-reference"'
+            if target["type"] == "note":
+                nid = target["id"]
+                attrs = (f'class="note-ref" data-note="{note_numbers[nid]}" '
+                         f'title="{note_label(nid)} {note_numbers[nid]}" aria-describedby="note-label-{esc(nid)}"')
+            result.append(esc(text[offset:start]))
+            result.append(f'<a {attrs} id="{esc(ref["id"])}-ja" href="#{esc(target["id"])}">{esc(text[start:end])}</a>')
+            offset = end
+        result.append(esc(text[offset:]))
+        return ''.join(result)
+
+    def links(segment_ids):
+        result = []
+        for sid in segment_ids:
+            for ref in by_segment[sid]:
+                if "translation_span" in ref["from"]:
+                    continue
+                target = ref["to"]
+                rid = esc(ref["id"]) + "-ja"
+                if target["type"] == "note":
+                    nid = target["id"]
+                    link = f'<a id="{rid}" href="#{esc(nid)}" aria-describedby="note-label-{esc(nid)}">{note_label(nid)} {note_numbers[nid]}</a>'
+                    if source_marker_refs.get(nid) == ref["id"]:
+                        link = f'<span class="source-note-marker" id="source-note-{esc(nid)}">{link}</span>'
+                    result.append(link)
+                elif target["type"] == "segment":
+                    label = ref.get("label") or ("本文の続き" if ref["origin"] == "translator" else "本文の参照先")
+                    result.append(f'<a id="{rid}" href="#{esc(target["id"])}" title="{esc(ref.get("description_ja", ""))}">{esc(label)} →</a>')
+                else:
+                    location = target["location"]
+                    page = location["printed_page"]
+                    if location.get("printed_page_end"):
+                        page += "–" + location["printed_page_end"]
+                    label = "原目次の参照先" if ref["kind"] == "index" else "原刊の参照先"
+                    result.append(f'<span class="index-source-reference" id="{rid}">{label}：原刊{esc(page)}頁。{esc(ref.get("description_ja", ""))}</span>')
+        return '<div class="paragraph-glosses segment-references">' + ' ・ '.join(result) + '</div>' if result else ''
+
+    def segment_html(segment):
+        tag = "h2" if segment["kind"] == "heading" else "div"
+        return (f'<section class="segment {esc(segment["kind"])}" id="{esc(segment["id"])}">'
+                f'<{tag} class="story-text translation" lang="ja">{value(segment)}</{tag}></section>')
+
+    body_ids = [s["id"] for s in data["segments"] if s["kind"] != "note_body"]
+    groups, grouped = {}, set()
+    for group in data.get("groups", []):
+        members = [m["segment_id"] for m in group["members"]]
+        if not members or group["kind"] not in ("paragraph", "table", "quotation", "list"):
+            raise ValueError("Unsupported reading group")
+        if group["kind"] == "paragraph" and group.get("separator", "") != "":
+            raise ValueError("Continued paragraphs must not invent separators")
+        start = body_ids.index(members[0])
+        if body_ids[start:start + len(members)] != members or grouped.intersection(members):
+            raise ValueError("Reading groups must contain consecutive, unique segments")
+        groups[members[0]] = group
+        grouped.update(members)
+    before, after = defaultdict(list), defaultdict(list)
+    assets = {a["id"]: a for a in data.get("assets", [])}
+    figure_ids = set()
+    for figure in data.get("figures", []):
+        placement = figure["placement"]
+        anchor, position = placement["anchor_id"], placement["position"]
+        if (figure["id"] in figure_ids or placement["anchor_type"] != "segment" or
+                anchor not in body_ids or position not in ("before", "after")):
+            raise ValueError("Unsupported or duplicate figure placement")
+        figure_ids.add(figure["id"])
+        for group in groups.values():
+            members = [m["segment_id"] for m in group["members"]]
+            if anchor in members and anchor != members[0 if position == "before" else -1]:
+                raise ValueError("A figure cannot split a joined reading group")
+        for sid in figure.get("text_segment_ids", []) + figure.get("caption_segment_ids", []):
+            if sid not in body_ids:
+                raise ValueError("Figure text and captions must render once in the reading body")
+        (before if position == "before" else after)[anchor].append(render_source_figure(figure, assets[figure["asset_id"]]))
+    section_anchors, empty_sections = defaultdict(list), []
+    for section in data["sections"]:
+        members = [s["id"] for s in data["segments"] if s["section_id"] == section["id"]]
+        if not members:
+            empty_sections.append(section)
+        else:
+            section_anchors[members[0]].append(section["id"])
+    body = []
+    for segment in data["segments"]:
+        sid = segment["id"]
+        body.extend(f'<span id="{esc(section_id)}" class="source-section-anchor" aria-hidden="true"></span>' for section_id in section_anchors[sid])
+        if segment["kind"] == "note_body":
+            continue
+        if sid in grouped and sid not in groups:
+            continue
+        body.extend(before[sid])
+        members = [sid]
+        if sid in groups:
+            group = groups[sid]
+            members = [m["segment_id"] for m in group["members"]]
+            if group["kind"] == "table":
+                body.append(render_column_table(group, segments, value, links))
+            elif group["kind"] == "paragraph":
+                spans = ''.join(f'<span id="{esc(mid)}" class="translation">{value(segments[mid])}</span>' for mid in members)
+                body.append(f'<section class="segment paragraph" id="{esc(group["id"])}"><div class="story-text">{spans}</div></section>')
+            else:
+                tag = "blockquote" if group["kind"] == "quotation" else "div"
+                body.append(f'<{tag} id="{esc(group["id"])}" class="source-{esc(group["kind"])}" aria-label="{esc(group.get("description_ja", ""))}">' + ''.join(segment_html(segments[mid]) for mid in members) + f'</{tag}>')
+        else:
+            body.append(segment_html(segment))
+        if sid not in groups or groups[sid]["kind"] != "table":
+            body.append(links(members))
+        body.extend(after[members[-1]])
+
+    note_items = []
+    rendered_note_bodies = []
+    for nid, note in notes.items():
+        content = []
+        for item in note["body"]:
+            sid = item["segment_id"]
+            if segments[sid]["kind"] != "note_body" or "translation_span" in item:
+                raise ValueError("Unsupported inline note-body layout")
+            rendered_note_bodies.append(sid)
+            content.append(f'<div id="{esc(sid)}" class="story-text note-body">{value(segments[sid])}</div>' + links([sid]))
+        backlinks = []
+        if note["origin"] != "translator":
+            if nid not in source_marker_refs:
+                raise ValueError("Source notes require an explicit source-position reference")
+            backlinks.append(f'<a href="#source-note-{esc(nid)}">原注の位置へ戻る ↑</a>')
+        backlinks.extend(f'<a href="#{esc(r["id"])}-ja">参照元 {i} へ戻る ↑</a>' for i, r in enumerate(by_target[nid], 1))
+        source_links = ''.join(f'<li>{external_link(loc["url"], "原注の出典" + ("（原刊" + loc["printed_page"] + "頁）" if loc.get("printed_page") else ""))}</li>' for loc in note.get("source_locations", []) if loc.get("url"))
+        description = f'<p>{esc(note["description_ja"])}</p>' if note.get("description_ja") else ''
+        note_items.append(f'<li class="note-card" id="{esc(nid)}"><h3 id="note-label-{esc(nid)}">{note_label(nid)} {note_numbers[nid]:02d}</h3>{description}' + ''.join(content) + (f'<ul class="note-sources">{source_links}</ul>' if source_links else '') + '<div class="backlinks">' + ''.join(backlinks) + '</div></li>')
+    expected_note_bodies = {s["id"] for s in data["segments"] if s["kind"] == "note_body"}
+    if set(rendered_note_bodies) != expected_note_bodies or len(rendered_note_bodies) != len(expected_note_bodies):
+        raise ValueError("Note bodies must render exactly once")
+    # Reuse caveats, source attribution and rights without rendering notes twice.
+    without_notes = dict(data, notes=[])
+    annotations = render_annotations(without_notes, defaultdict(list), {}, include_ocr=False, include_scoped_issues=True, resolve_attribution_names=True, include_source_rights_notes=True)
+    annotations = annotations.replace('<h2>注釈</h2>', '<h2>注釈</h2><ol class="notes-list">' + ''.join(note_items) + '</ol>', 1)
+    source_annotations = []
+    for segment in data["segments"]:
+        for annotation in segment.get("annotations", []):
+            label = {"ruby": "原文のルビ", "emphasis": "原文の傍点", "language": "原文の言語", "strong": "原文の太字"}.get(annotation["kind"])
+            if label is None:
+                raise ValueError("Unsupported source annotation")
+            detail = annotation.get("reading") or annotation.get("language")
+            source_annotations.append(f'<li>{label}「{esc(annotation["span"]["exact"])}」' + (f'：{esc(detail)}' if detail else '') + f' <a href="#{esc(segment["id"])}">該当箇所</a></li>')
+    original_annotations = '<section class="apparatus"><h2>原典の注記</h2><ul>' + ''.join(source_annotations) + '</ul></section>'
+    source_correspondences = []
+    for segment in data["segments"]:
+        locations = segment.get("source_locations", [])
+        if len(locations) > 1:
+            source_correspondences.append('<li><a href="#' + esc(segment["id"]) + '">本文の該当箇所</a>：' + ' ・ '.join(external_link(loc["url"], f'原典第{loc["source_sequence"] + 1}コマ（原刊{loc.get("printed_page", "")}頁）') for loc in locations if loc.get("url") and "source_sequence" in loc) + '</li>')
+    correspondence_html = '<section class="apparatus"><h2>重複撮影を含む原典の対応</h2><ul>' + ''.join(source_correspondences) + '</ul></section>' if source_correspondences else ''
+    inventory_items = []
+    for source in data["sources"]:
+        for record in source.get("page_inventory", []):
+            if record.get("segment_ids"):
+                continue
+            location = record["location"]
+            label = f'原典第{location["source_sequence"] + 1}コマ'
+            label_html = external_link(location["url"], label) if location.get("url") else esc(label)
+            inventory_items.append(f'<li>{label_html}：{esc(record.get("description_ja", ""))}</li>')
+    empty_anchors = ''.join(f'<span id="{esc(section["id"])}" class="source-section-anchor" aria-hidden="true"></span>' for section in empty_sections)
+    inventory_html = '<section class="apparatus">' + empty_anchors + '<h2>原典の本文外ページ</h2><ul>' + ''.join(inventory_items) + '</ul></section>' if inventory_items else ''
+    asset_items = []
+    for figure in data.get("figures", []):
+        asset = assets[figure["asset_id"]]
+        rights = asset["rights"]
+        parts = [f'<a href="#{esc(figure["id"])}">図へ戻る</a>', esc(figure.get("description_ja", "")), esc(rights.get("attribution", "")), esc(rights.get("note_ja", ""))]
+        for key, label in (("license_url", rights.get("license_id", "図版の利用条件")), ("evidence_url", "利用条件の根拠")):
+            if rights.get(key):
+                parts.append(external_link(rights[key], label))
+        for location in asset["source_locations"]:
+            label = f'図版の出典（原刊{location.get("printed_page", "")}頁）'
+            if location.get("url"):
+                parts.append(external_link(location["url"], label))
+        parts.extend(esc(item["description_ja"]) for item in asset.get("processing", []))
+        asset_items.append(f'<li id="{esc(asset["id"])}">' + ' / '.join(part for part in parts if part) + '</li>')
+    asset_html = '<section class="apparatus figure-rights"><h2>原図の出典・利用条件</h2><p>以下は原図の利用条件です。現代語訳の利用条件とは別です。</p><ul>' + ''.join(asset_items) + '</ul></section>' if asset_items else ''
+    # Exact source cross-references receive return paths, not guessed TOC links.
+    cross_backlinks = []
+    for sid, refs in by_target.items():
+        if sid not in segments:
+            continue
+        for ref in refs:
+            cross_backlinks.append(f'<li><a href="#{esc(sid)}">参照先</a>：{esc(ref.get("description_ja", ""))} <a href="#{esc(ref["id"])}-ja">参照元へ戻る ↑</a></li>')
+    reference_html = '<section class="apparatus"><h2>本文の参照・改頁の接続</h2><ul>' + ''.join(cross_backlinks) + '</ul></section>' if cross_backlinks else ''
+    toc = render_hongi_contents(data, segments, recursive=True)
+    reader_notes = '<section class="apparatus"><h2>この訳について</h2>' + ''.join(f'<p>{esc(n)}</p>' for n in data["metadata"].get("reader_notes_ja", [])) + '</section>' if include_reader_notes else ''
+    nav = '<nav class="chapter-nav" aria-label="読書ページの移動"><a href="#contents">目次に戻る</a><a href="index.html">田中義能</a><a href="../index.html">索引に戻る</a></nav>'
+    title = data["metadata"]["title_ja"]
+    content = (nav + f'<h1>{esc(title)}</h1><nav id="contents" aria-label="{esc(title)}の目次"><h2>読書用目次</h2><ul>' + ''.join(toc) + '</ul></nav><article id="reading" class="reading-body">' + '\n'.join(body) + '</article>' + annotations + reader_notes + asset_html + correspondence_html + inventory_html + reference_html + original_annotations + nav)
+    return page_shell(title + " 日本語訳", content, allow_images=bool(verified_assets))
+
+
 def render_taii(data, *, include_reader_notes=False):
+    if data["work_id"] == "tanaka-jinja-hongi-1926":
+        return render_jinja(data, include_reader_notes=include_reader_notes)
     title = data["metadata"]["title_ja"]
     # This book records notes against entire source paragraphs, not guessed words.
     segment_note_links = data["work_id"] == "tanaka-kokumin-dotoku-yoryo-kogi-1924"
@@ -448,6 +773,7 @@ def build(output):
     tanaka_documents = []
     for slug in TANAKA_WORKS:
         data = load_document(ROOT / f"translations/tanaka/{slug}-ja.yaml")
+        reading_assets(data)
         errors = validate_document(data, ROOT)
         if errors:
             raise ValueError(slug + ": " + "; ".join(errors))
@@ -468,11 +794,18 @@ def build(output):
     pages.update({f"chapter-{i:03d}.html": render_redirect(i) for i in range(1, len(documents)+1)})
     pages.update({f"assets/reading.{ext}": (ROOT / "scripts" / f"reading_site.{ext}").read_text(encoding="utf-8") for ext in ("css",)})
     pages["xiyouji/assets/reading.css"] = pages["assets/reading.css"]
+    for _, data in tanaka_documents:
+        pages.update(reading_assets(data))
     pages[".nojekyll"] = ""
     for relative, content in pages.items():
         target = output / relative
+        if not target.resolve().is_relative_to(output.resolve()):
+            raise ValueError("Generated output path escapes the output directory")
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(content, encoding="utf-8", newline="\n")
+        if isinstance(content, bytes):
+            target.write_bytes(content)
+        else:
+            target.write_text(content, encoding="utf-8", newline="\n")
     # Remove the retired generated control script when rebuilding an existing site.
     (output / "assets" / "reading.js").unlink(missing_ok=True)
     return pages

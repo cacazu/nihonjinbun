@@ -45,3 +45,21 @@ li+li{margin-top:.8em}
 .branch-table [class*="branch-"]::before{left:-1.4rem}
 .branch-table [class*="branch-"]::after{right:-1.4rem}
 @media(max-width:600px){.branch-table{display:flex;flex-direction:column;gap:.75rem}.branch-table .origin,.branch-table .outcome{text-align:center}.branch-table .branch-one,.branch-table .branch-two,.branch-table .branch-three{margin:0 1.5rem}.branch-table [class*="branch-"]::before,.branch-table [class*="branch-"]::after{content:"↓"}}
+/* Reviewed source images retain their original aspect ratio at every viewport. */
+.source-figure{margin:2rem 0}
+.source-figure img{display:block;max-width:100%;height:auto;margin:auto}
+.source-figure figcaption,.source-table figcaption{font-size:.875rem;line-height:1.8;color:#58605b}
+.source-table{margin:2rem 0;min-width:0;max-width:100%}
+.source-table-scroll{direction:rtl;max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;border:1px solid #c5cdbe}
+.source-table-scroll:focus-visible{outline:3px solid #963c2d;outline-offset:4px}
+.source-table-grid{display:grid;grid-auto-columns:10rem;grid-template-rows:repeat(3,auto);direction:rtl;width:max-content;min-width:100%;margin:0}
+.source-table-cell{direction:ltr;border:1px solid #d9dcd2;padding:.65rem;min-width:0}
+.source-table-cell dt{font-size:.75rem;line-height:1.7;color:#58605b;margin-bottom:.5rem}
+.source-table-cell dd{margin:0;font-size:1rem;line-height:1.9}
+.source-row-1{grid-row:1}.source-row-2{grid-row:2}.source-row-3{grid-row:3}
+.source-column-1{grid-column:1}.source-column-2{grid-column:2}.source-column-3{grid-column:3}.source-column-4{grid-column:4}.source-column-5{grid-column:5}.source-column-6{grid-column:6}.source-column-7{grid-column:7}.source-column-8{grid-column:8}.source-column-9{grid-column:9}.source-column-10{grid-column:10}.source-column-11{grid-column:11}.source-column-12{grid-column:12}.source-column-13{grid-column:13}.source-column-14{grid-column:14}.source-column-15{grid-column:15}
+.source-quotation{margin:1.5rem 0 1.5rem 1rem;padding-left:1rem;border-left:2px solid #c5cdbe}
+.segment-references{margin-bottom:1.25rem}
+.segment-references a{display:inline-block;min-height:44px;padding:.35rem 0}
+@media(max-width:600px){.source-table-grid{grid-auto-columns:9rem}.source-quotation{margin-left:0;padding-left:.75rem}}
+@media print{.source-table-scroll{overflow:visible;border:0}.source-table-grid{display:block;width:auto}.source-table-cell{break-inside:avoid;margin-bottom:.5rem}.source-figure{break-inside:avoid}.source-figure img{max-height:85vh;width:auto;max-width:100%}}
