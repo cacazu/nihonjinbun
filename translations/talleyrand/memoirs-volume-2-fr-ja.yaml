@@ -87858,7 +87858,7 @@
     "url": "https://www.gutenberg.org/files/28427/28427-h/images/talleyrand.jpg"
     "xpath": "/html/body/div[3]/img"
 - "id": "v02-image-02-small"
-  "status": "available"
+  "status": "planned"
   "path": "assets/talleyrand-memoirs-volume-2/v02-image-02-small.jpg"
   "media_type": "image/jpeg"
   "sha256": "763066868712aee829ac7df6a6025992dc6d9c347266a4d2a73350a331c7c3d3"
@@ -92488,6 +92488,10 @@
   "full_review":
     "status": "not_started"
 "provenance":
+  publication_storage_cleanup:
+    unbundled_asset_ids:
+    - v02-image-02-small
+    description_ja: 公開物を本文用の画像に限定したため、本文図から参照されない画像ファイルを非同梱とし、対応Assetのstatusのみplannedへ変更した。元のパス、実測済み寸法、バイト数、SHA-256、出典、権利、切り出し座標と加工履歴は過去の画像の来歴として保持する。本文・訳文・固定ID・図・参照・注・既存の校閲状態は変更していない。これは梱包変更の検証であり、新たな全文校閲ではない。
   "original_repository": "https://github.com/cacazu/nihonjinbun"
   "original_commit": "39eecd94d356e08edd9538f3d7ae4d707d20a71b"
   "original_file": "translations/talleyrand/memoirs-volume-2-fr-ja.yaml"

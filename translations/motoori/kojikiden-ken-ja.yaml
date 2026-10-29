@@ -102678,7 +102678,7 @@ assets:
     coordinate_image_width: 3777
     coordinate_image_height: 2566
 - id: kk-asset-sandai-source-454
-  status: available
+  status: planned
   path: assets/motoori-kojikiden-ken-1930/sandai-source-454.jpg
   media_type: image/jpeg
   rights:
@@ -102764,7 +102764,7 @@ assets:
     coordinate_image_width: 3777
     coordinate_image_height: 2566
 - id: kk-asset-sandai-source-455
-  status: available
+  status: planned
   path: assets/motoori-kojikiden-ken-1930/sandai-source-455.jpg
   media_type: image/jpeg
   rights:
@@ -102819,7 +102819,7 @@ assets:
     coordinate_image_width: 3777
     coordinate_image_height: 2566
 - id: kk-asset-sandai-source-456
-  status: available
+  status: planned
   path: assets/motoori-kojikiden-ken-1930/sandai-source-456.jpg
   media_type: image/jpeg
   rights:
@@ -102874,7 +102874,7 @@ assets:
     coordinate_image_width: 3777
     coordinate_image_height: 2566
 - id: kk-asset-sandai-source-457
-  status: available
+  status: planned
   path: assets/motoori-kojikiden-ken-1930/sandai-source-457.jpg
   media_type: image/jpeg
   rights:
@@ -102991,7 +102991,7 @@ assets:
     coordinate_image_width: 3777
     coordinate_image_height: 2566
 - id: kk-asset-sandai-source-459
-  status: available
+  status: planned
   path: assets/motoori-kojikiden-ken-1930/sandai-source-459.jpg
   media_type: image/jpeg
   rights:
@@ -103015,7 +103015,7 @@ assets:
   width: 3777
   height: 2566
 - id: kk-asset-sandai-source-460
-  status: available
+  status: planned
   path: assets/motoori-kojikiden-ken-1930/sandai-source-460.jpg
   media_type: image/jpeg
   rights:
@@ -104292,8 +104292,19 @@ workflow:
     status: complete
     completed_at: '2026-10-24T11:03:59.967102Z'
     reviewed_by: 保存済み正式対照担当者（front・middle・root・early）。正式記録と補正記録の現在端点を照合して統合。
-    content_sha256: aa043ff1dcdfdf87c53575a4265501cca8f74daa782febcddd78181c58f91789
+    content_sha256: a672c3bab4550be16dfed4dbb256f0796fe09ac18250af758a628da4a328baf1
 provenance:
+  publication_storage_cleanup:
+    unbundled_asset_ids:
+    - kk-asset-sandai-source-454
+    - kk-asset-sandai-source-455
+    - kk-asset-sandai-source-456
+    - kk-asset-sandai-source-457
+    - kk-asset-sandai-source-459
+    - kk-asset-sandai-source-460
+    description_ja: 公開物を本文用の画像に限定したため、本文図から参照されない画像ファイルを非同梱とし、対応Assetのstatusのみplannedへ変更した。元のパス、実測済み寸法、バイト数、SHA-256、出典、権利、切り出し座標と加工履歴は過去の画像の来歴として保持する。本文・訳文・固定ID・図・参照・注・既存の校閲状態は変更していない。これは梱包変更の検証であり、新たな全文校閲ではない。
+    previous_content_sha256: aa043ff1dcdfdf87c53575a4265501cca8f74daa782febcddd78181c58f91789
+    packaged_content_sha256: a672c3bab4550be16dfed4dbb256f0796fe09ac18250af758a628da4a328baf1
   requested_scope_ja: PID1041627乾巻の全文翻訳と、完稿・全文対照後のHTML化。隣接する坤巻は用語・形式を参照するが改訂しない。
   source_zip_sha256: 0391efb791a2ed1c4e2522533950d0b6976bb43f0316f587c175584f015bf478
   research:

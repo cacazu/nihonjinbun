@@ -86151,7 +86151,7 @@
         "precision": "work"
         "url": "https://www.gutenberg.org/files/31952/31952-h/images/colophon.jpg"
   - "id": "v04-asset-002"
-    "status": "available"
+    "status": "planned"
     "path": "assets/talleyrand-memoirs-volume-4/talleyrand_s.jpg"
     "media_type": "image/jpeg"
     "rights":
@@ -86168,7 +86168,7 @@
         "precision": "work"
         "url": "https://www.gutenberg.org/files/31952/31952-h/images/talleyrand_s.jpg"
   - "id": "v04-asset-003"
-    "status": "available"
+    "status": "planned"
     "path": "assets/talleyrand-memoirs-volume-4/talleyrand_b.jpg"
     "media_type": "image/jpeg"
     "rights":
@@ -86185,7 +86185,7 @@
         "precision": "work"
         "url": "https://www.gutenberg.org/files/31952/31952-h/images/talleyrand_b.jpg"
   - "id": "v04-asset-004"
-    "status": "available"
+    "status": "planned"
     "path": "assets/talleyrand-memoirs-volume-4/uc-1891-portrait-page.png"
     "media_type": "image/png"
     "rights":
@@ -92084,8 +92084,16 @@
     "status": "complete"
     "completed_at": "2026-10-11T14:20:03Z"
     "reviewed_by": "Codex：完稿後の全件対訳通読、日本語のみの別通読、修正・追加箇所の再読。独立した確認は原典の疑義・構造・図版の対象照合。"
-    "content_sha256": "536b41820603579446f5c14a80d0a0b20e3518c3b4c7d0a9acf0255286864572"
+    "content_sha256": "73d9abd8d76b3da9897f78866eabf0f8c4d39c8803732a8c8d4438e846e09520"
 "provenance":
+  publication_storage_cleanup:
+    unbundled_asset_ids:
+    - v04-asset-002
+    - v04-asset-003
+    - v04-asset-004
+    description_ja: 公開物を本文用の画像に限定したため、本文図から参照されない画像ファイルを非同梱とし、対応Assetのstatusのみplannedへ変更した。元のパス、実測済み寸法、バイト数、SHA-256、出典、権利、切り出し座標と加工履歴は過去の画像の来歴として保持する。本文・訳文・固定ID・図・参照・注・既存の校閲状態は変更していない。これは梱包変更の検証であり、新たな全文校閲ではない。
+    previous_content_sha256: 536b41820603579446f5c14a80d0a0b20e3518c3b4c7d0a9acf0255286864572
+    packaged_content_sha256: 73d9abd8d76b3da9897f78866eabf0f8c4d39c8803732a8c8d4438e846e09520
   "source_preservation_repository": "https://github.com/cacazu/nihonjinbun"
   "source_preservation_commit": "ce1b9bc9904d3d973fc0b6bc03d01a6b0e896c07"
   "source_preservation_directory": "recovery/talleyrand/2026-10-10/source-volume-4"
