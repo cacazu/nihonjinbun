@@ -1,6 +1,6 @@
 "schema_version": "2.0"
 "title": "原文・日本語対訳データ集"
-"updated": "2026-10-27"
+"updated": "2026-11-01"
 "format": "UTF-8 YAML"
 "description": "原文と日本語訳を固定IDで対応付けた翻訳データ。章・出典頁・注記・未解決事項を保持。HTMLは別の閲覧用表現。"
 "editorial_status": "AIによる翻訳・照合を含む。専門家による校訂版ではない。原文判読や歴史的編者の省略等に由来する留保は各ファイルに明示。"
@@ -785,5 +785,9 @@
   "sha256": "e682f541ee459cef243514c36296fad8cb9fb342a7ac87a6b5e69e6e812c787f"
   "coverage_note": "全204コマ、本文9章・原刊1–352頁、前付・奥付・全広告書評を含む原典1686単位と訳注3件。官社表と分類原図・図中文字を保持。190/191重複撮影は一度だけ対訳し両位置を記録。全画像独立校閲・完稿後全文通読済み。局所partial11単位、既知の留保13項目。読書HTMLは原稿公開後に生成・独立内容照合・検証し、原稿と別コミットで公開。"
   "source_and_rights": "NDL1020642、原典・配布OCR・原図はPDM-1.0。現代語訳の利用条件は未指定。原著の歴史的主張と現在の事実認定を区別。"
+- "work_id": "yanagita-momotaro-no-tanjo-1942"
+  "file": "translations/yanagita/momotaro-no-tanjo-ja.yaml"
+  "title": "桃太郎の誕生"
+  "sha256": "0f052ad539b96feef6754fd36d2342757e94fe106f1740680b76251fc4db3053"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿は翻訳YAML 2.0。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"
