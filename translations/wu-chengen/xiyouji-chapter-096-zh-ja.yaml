@@ -1,0 +1,2368 @@
+"schema_version": "2.0"
+"work_id": "xiyouji-chapter-096-zh-ja"
+"metadata":
+  "title_ja": "西遊記 第九十六回"
+  "title_original": "西遊記 第九十六回 寇員外喜待高僧 唐長老不貪富貴"
+  "original_languages":
+    - "zh-Hant"
+  "target_language": "ja"
+  "contributors":
+    - "id": "traditional-author"
+      "name_ja": "呉承恩（伝）"
+      "name_original": "吳承恩"
+      "roles":
+        - "author"
+    - "id": "ai-translator"
+      "name_ja": "ChatGPT（AIによる新訳）"
+      "name_original": null
+      "roles":
+        - "translator"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "『西遊記』第九十六回 日本語新訳（AI生成）。原文は中文維基文庫「西遊記/第096回」固定版oldid=1500608。"
+    "note_ja": "電子翻刻の帰属と継承条件を保持するためCC BY-SA 4.0を明示。公有の原著とは区別する。AIによる新訳であり、専門家による独立校訂は未実施。"
+  "genres":
+    - "中国古典文学"
+    - "神魔小説"
+    - "物語"
+  "reader_notes_ja":
+    - "回題から結語までの全38対訳単位。全散文・会話・10韻文・数量と列挙を収録。"
+    - "中文維基文庫の固定版oldid=1500608を固定リンクから実際に取得し、全219表示行を保存。版表示は2018年9月12日14:40。秒とタイムゾーンは未確認。"
+    - "日本語はAIによる新訳。完稿後、別担当のAIが全原文・日本語本文・全注・初出語釈を独立照合した。固定版の再取得は失敗したため保存された実取得応答と照合。専門家校訂・実ブラウザ表示確認・公開確認は未実施。"
+    - "通常名は悟空・三蔵・八戒・沙悟浄。寇家の姓・本名・息子たちの名を実際の開示順で示し、妻の後出情報を先取りしない。"
+"sources":
+  - "id": "wikisource-xiyou-ch96-1500608"
+    "role": "primary"
+    "title": "西遊記/第096回"
+    "languages":
+      - "zh-Hant"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "edition": "中文維基文庫 固定版oldid=1500608。版表示2018年9月12日14:40（秒とタイムゾーン未確認）。固定リンクから実際に取得。"
+    "contributor_ids":
+      - "traditional-author"
+    "work_rights":
+      "status": "public_domain"
+      "note_ja": "明代成立の古典本文。伝統的には呉承恩作とされるが、著者帰属には議論がある。"
+    "transcription_rights":
+      "status": "licensed"
+      "license_id": "CC-BY-SA-4.0"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "evidence_url": "https://zh.wikisource.org/wiki/Wikisource:Copyrights"
+      "attribution": "中文維基文庫「西遊記/第096回」の寄稿者。固定版oldid=1500608。"
+    "description_ja": "固定版の全219表示行を保存。不変換表示の原字と句読点を保持し、詩の四空白字下げだけを除いた。"
+    "local_path": "translations/wu-chengen/verification/xiyouji-chapter-096-source-1500608-zh-hant.txt"
+    "sha256": "5e3b194c530eda9b255a81d7051ac98dc10dd4144efbae0d3dedd9a53e0126ab"
+  - "id": "xy-ch96-dragon-whisk-literary"
+    "role": "comparison"
+    "title": "御定淵鑑類函 卷379（Chinese Text Project検索表示で龍髯の払子の伝承を確認）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://ctext.org/wiki.pl?chapter=429119&if=en&remap=gb"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch96-shilin-cinii"
+    "role": "comparison"
+    "title": "CiNii Books 事林廣記（検索表示で事林広記・ジリンコウキと書誌を確認）"
+    "languages":
+      - "ja"
+    "url": "https://ci.nii.ac.jp/ncid/BN06060033?l=ja"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch96-ritual-monks-study"
+    "role": "comparison"
+    "title": "政大中文學報31「魔、精把關：《西遊記》的過關敘述及其諷喻」（検索表示p104の應佛僧・應赴僧の説明）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://bdcl.nccu.edu.tw/uploads/chapter_file/file/649a3af736737600804feecc/%E9%AD%94_%E7%B2%BE%E6%8A%8A%E9%97%9C__%E8%A5%BF%E9%81%8A%E8%A8%98_%E7%9A%84%E9%81%8E%E9%97%9C%E6%95%98%E8%BF%B0%E5%8F%8A%E5%85%B6%E8%AB%B7%E5%96%BB.pdf"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch96-water-repentance"
+    "role": "comparison"
+    "title": "漢語網 水懺（検索表示で慈悲三昧水懺との関係を確認。本文同定には使わない）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://www.chinesewords.org/dict/174775-639.html"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch96-lion-candy-study"
+    "role": "comparison"
+    "title": "楊聯陞「老乞大朴通事裏的語法語彙」（検索表示の朴通事諺解引用を確認。PDF直接取得はタイムアウト）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://www11.ihp.sinica.edu.tw/storage/w2_file/4175DrMyaka.pdf"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch96-kinship-jitsuu"
+    "role": "comparison"
+    "title": "字通 姨（コトバンクの検索表示で姨兄の母方従兄の語義を確認）"
+    "languages":
+      - "ja"
+    "url": "https://kotobank.jp/word/姨-1267058"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch96-qiang-gold"
+    "role": "comparison"
+    "title": "中国工藝美術學會 邱春林（検索表示で戧金の彫り目へ金を填入する技法を確認）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://www.cnacs.net.cn/20/202401/5674.html"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch96-gongche"
+    "role": "comparison"
+    "title": "加藤徹 清楽の譜面（明治大学公開ページの検索表示で工尺譜の音名を確認）"
+    "languages":
+      - "ja"
+    "url": "https://www.isc.meiji.ac.jp/~katotoru/singaku-20.html"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch96-juan-character"
+    "role": "comparison"
+    "title": "識典古籍 \U00029707（検索表示の漢語大詞典で巻き状の粉食を確認）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://www.shidianguji.com/character/%F0%A9%9C%87"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch96-wuqi"
+    "role": "comparison"
+    "title": "漢典 五七（検索表示で五から七の概数と三十五の両義を確認。文脈により概数を採用）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://zdic.net/hant/%E4%BA%94%E4%B8%83"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+"scope":
+  "included":
+    - "source_id": "wikisource-xiyou-ch96-1500608"
+      "description_ja": "第九十六回の回題から結語まで全体。"
+      "section_ids":
+        - "chapter-96"
+  "excluded":
+    - "source_id": "wikisource-xiyou-ch96-1500608"
+      "description_ja": "ページのナビゲーション・著者欄・前後回リンク・版表示・フッター。"
+  "known_gaps":
+    - "source_id": "wikisource-xiyou-ch96-1500608"
+      "segment_ids":
+        - "xy-ch96-007"
+      "description_ja": "「虎坐門樓」は門楼の形容。虎がうずくまるような構えと解して原語を残したが、門の具体的な構造は確定していない。虎像が置かれているとは断定しない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch96-1500608"
+      "segment_ids":
+        - "xy-ch96-011"
+      "description_ja": "原文は「五雲鮮」。五色のめでたい雲をいう表現として訳した。卓の模様を指すのか、たなびく香などを雲に見立てたのかは、本文だけでは確定しない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch96-1500608"
+      "segment_ids":
+        - "xy-ch96-013"
+      "description_ja": "原文の「椒粉屏」は、椒の香りを含む塗料を施した屏風と解した。配合や色までを確定する資料は確認できず、唐辛子の粉末や特定の現代香辛料には置き換えていない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch96-1500608"
+      "segment_ids":
+        - "xy-ch96-013"
+      "description_ja": "「輕玉浮金」は、直前の磬の音色を玉や金の音にまさるものとしてほめた表現と解したが、細かな比喩には留保がある。「龍髯」は竜のひげ。古典には竜髯の払子の伝承があり、ここも払子の詩的な形容と解した。「披風披月」は風や月をまとう意として訳し、「払う」とはしていない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch96-1500608"
+      "segment_ids":
+        - "xy-ch96-018"
+      "description_ja": "底本の「蒸\U00029707」の難字「\U00029707」を保持した。巻き状の粉食を指す語で、具材は特定していない。「辣辣爨爨熱騰騰」は調理したての熱さを重ねていう表現と解し、唐辛子で辛く味つけしたとの断定は避けた。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch96-1500608"
+      "segment_ids":
+        - "xy-ch96-021"
+      "description_ja": "水懺は、罪や怨みを懺悔するための懺法・その文書をいう。一般には『慈悲三昧水懺』と関わるが、この場で用いた本文や版までは示されない。作品に別に現れる「梁皇水懺」と、書名の一部が同じというだけで同一の本文にはしていない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch96-1500608"
+      "segment_ids":
+        - "xy-ch96-023"
+      "description_ja": "「回向」は功徳を仏道や他者へ振り向けること。「回向之因」は、食を受ける僧がその宗教的な意味を忘れているという叱責として訳した。「槽裡吃食，胃裡擦癢」は、食べることで腹の欲を満たすばかりの家畜になぞらえた強い罵倒。医学的な描写ではない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch96-1500608"
+      "segment_ids":
+        - "xy-ch96-024"
+      "description_ja": "それまでの経過は「五七遍朝夕」、準備の三、四日、法要の三昼夜と記され、ここでは滞在を半月と数える。「五七」は五日から七日ほどの概数として訳した。三十五日と掛け算したり、各日数を足して厳密に十五日へ調整したりしていない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch96-1500608"
+      "segment_ids":
+        - "xy-ch96-025"
+      "description_ja": "原文は「留得在，落得怪」。引き留めることがかえって不満を生むという諺の形を残したが、両句で省かれた主語を一義的に確定してはいない。八戒がこの後も滞在を勧める点を、辻褄合わせのため反対の発言へ改めていない。直前の「拿過了班兒」は、勿体ぶった態度が過ぎるとの非難。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch96-1500608"
+      "segment_ids":
+        - "xy-ch96-030"
+      "description_ja": "原文「行者將九環杖遞在師父手裡，他將……」の「他」は、杖を受け取った師の三蔵を指すと解した。悟空から杖を渡す動作と、三蔵が文書袋を掛ける動作を区別する。代名詞の指示についての翻訳上の判断である。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch96-1500608"
+      "segment_ids":
+        - "xy-ch96-033"
+      "description_ja": "底本は「謁齋經」。食事の終わりに読まれ、その後に立ち上がる場面だが、よく見かける別表記へ無断で改めず、この経名を保持した。経文そのものは記載がなく、特定の定型文や実在経典への同定は保留する。 原文の欠落ではなく、解釈・校訂上の留保。"
+"sections":
+  - "id": "chapter-96"
+    "parent_id": null
+    "kind": "chapter"
+    "heading_segment_ids":
+      - "xy-ch96-001"
+"segments":
+  - "id": "xy-ch96-001"
+    "section_id": "chapter-96"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": |-
+      第九十六回
+      寇員外喜待高僧　唐長老不貪富貴
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 118
+        "line_end": 119
+        "source_sequence": 1
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      第九十六回
+      寇員外は喜んで高僧をもてなし、三蔵は富貴に心を奪われない
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-002"
+    "section_id": "chapter-96"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "色色原無色，空空亦非空。靜喧語默本來同，夢裡何勞說夢。有用用中無用，無功功裡施功。還如果熟自然紅，莫問如何修種。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 122
+        "line_end": 122
+        "source_sequence": 2
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      あらゆる色（しき）も、もとより色ではなく、空（くう）そのものも、また空ではない。
+      静けさも騒がしさも、語ることも黙ることも、もとは同じ。夢の中で、わざわざ夢を説くことがあろうか。
+      働きがあっても、その働きの中には働きがなく、功がなくても、その中で功が施される。
+      それも果実が熟せば自然に赤くなるようなもの。どう修め、どう育てるかと、問い求めることはない。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-003"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "話表唐僧師眾，使法力阻住那布金寺僧。僧見黑風過處，不見他師徒，以為活佛臨凡，磕頭而回不題。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 124
+        "line_end": 124
+        "source_sequence": 3
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": "さて、三蔵（さんぞう）たちは法力を使い、布金寺（ふきんじ）の僧たちの見送りを止めた。僧たちは黒い風が通り過ぎると、師弟の姿が見えなくなったので、生き仏が人の世へ降りてきたのだと思い、頭を地につけて拝んで帰っていった。この方はさておく。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-004"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "他師徒們西行，正是春盡夏初時節："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 126
+        "line_end": 126
+        "source_sequence": 4
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": "一行は西へ進んだ。ちょうど春が終わり、夏が始まる季節である。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-005"
+    "section_id": "chapter-96"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      清和天氣爽，池沼芰荷生。
+      梅逐雨餘熟，麥隨風裡成。
+      草香花落處，鶯老柳枝輕。
+      江燕攜雛習，山雞哺子鳴。
+      斗南當日永，萬物顯光明。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 128
+        "line_end": 132
+        "source_sequence": 5
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      穏やかに晴れた空は爽やかで、池や沼には菱と蓮が生える。
+      梅の実は雨のあとに熟し、麦は風に吹かれながら実る。
+      花の散るところには草が香り、ウグイスは成長し、柳の枝は軽やかに揺れる。
+      川のツバメは雛を連れて飛ぶことを教え、山鳥は子に餌を与えて鳴く。
+      北斗の南では日が長く、万物は光を現している。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-006"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "說不盡那朝餐暮宿，轉澗尋波。在那平安路上，行經半月。前邊又見一城垣相近。三藏問道：「徒弟，此又是甚麼去處？」行者道：「不知，不知。」八戒笑道：「這路是你行過的，怎說不知？卻是又有些兒蹺蹊，故意推不認得，捉弄我們哩。」行者道：「這獃子全不察理。這路雖是走過幾遍，那時只在九霄空裡，駕雲而來，駕雲而去，何曾落在此地？事不關心，查他做甚？此所以不知。卻有甚蹺蹊，又捉弄你也？」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 134
+        "line_end": 134
+        "source_sequence": 6
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      朝に食べ、夕べに宿り、谷を越え、水を求める旅の様子は、いちいち語り尽くせない。平穏な道を半月ほど進むと、前方にまた城壁が近づいてきた。
+      三蔵「お前たち、ここはどこだろう。」
+      悟空（ごくう）「分かりません、分かりません。」
+      八戒（はっかい）は笑った。
+      八戒「お前が通った道なのに、どうして分からないんだ。また何か妙なことがあって、知らないふりをして、俺たちをからかっているんだろう。」
+      悟空「この馬鹿は、まるで理屈が分からない。この道は何度か通ったが、そのときは、はるか上空を雲に乗って行き来しただけだ。ここへ降りたことなどない。自分に関わりのないことを、何のために調べるんだ。だから分からないのさ。何が妙なことだ、何がお前をからかうだ。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-007"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "說話間，不覺已至邊前。三藏下馬，過吊橋，徑入門裡長街上，只見廊下坐著兩個老兒敘話。三藏叫：「徒弟，你們在那街心裡站住，低著頭，不要放肆。等我去那廊下，問個地方。」行者果依言立住。長老近前合掌，叫聲：「老施主，貧僧問訊了。」那二老正在那裡閑講閑論，說甚麼興衰得失，誰聖誰賢，當時的英雄事業，而今安在，誠可謂大嘆息。忽聽得道聲問訊，隨答禮道：「長老有何話說？」三藏道：「貧僧乃遠方來拜佛祖的，適到寶方，不知是甚地名。哪裡有向善的人家，化齋一頓？」老者道：「我敝處是銅臺府。府後有一縣，叫做地靈縣。長老若要吃齋，不須募化，過此牌坊，南北街坐西向東的，有一個虎坐門樓，乃是寇員外家，他門前有個『萬僧不阻』之牌。似你這遠方僧，盡著受用。去！去！去！莫打斷我們的話頭。」三藏謝了。轉身對行者道：「此處乃銅臺府地靈縣。那二老道：『過此牌坊南北街，向東虎坐門樓，有個寇員外家，他門前有個「萬僧不阻」之牌。』教我到他家去吃齋哩。」沙僧道：「西方乃佛家之地，真個有齋僧的。此間既是府縣，不必照驗關文，我們去化些齋吃了，就好走路。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 135
+        "line_end": 135
+        "source_sequence": 7
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      話している間に、いつの間にか城のそばへ着いていた。三蔵は馬を下り、吊り橋を渡り、門からまっすぐ長い通りへ入った。すると軒下に二人の老人が座り、話をしていた。
+      三蔵「お前たちは道の真ん中に立ち、頭を低くして、勝手なことをしてはいけません。私があの軒下へ行き、この土地のことを尋ねてきます。」
+      悟空は言いつけどおり、立ち止まった。三蔵は老人たちへ近づき、合掌して呼びかけた。
+      三蔵「ご老人、ご挨拶申し上げます。」
+      二人はちょうど、世の興亡、人の得失、誰が聖人で誰が賢者か、当時の英雄たちの事業は今どこにあるのかなどと、気ままに話し合っていた。まことに、大いに嘆かわしいという話である。不意に挨拶の声を聞き、礼を返した。
+      老人たち「お坊さま、何かお話がおありですかな。」
+      三蔵「私は遠方から仏祖（ぶっそ）を拝みに来た者です。今、この土地へ着きましたが、何というところか存じません。どこか信心のあるお宅で、一食、食事を頂けないでしょうか。」
+      老人「ここは銅台府（どうたいふ）といいます。府の奥に県があり、地霊県（ちれいけん）というのです。食事をしたいのなら、托鉢して回る必要はない。あの牌坊（はいぼう）を過ぎた南北の通り、西側に東を向いた虎坐門楼（こざもんろう）のあるのが、寇員外（こういんがい）のお宅です。門前には『万僧を拒まず』という札が出ている。あなたのような遠来のお坊さまなら、存分にもてなしてもらえるでしょう。さあ、行った、行った、行った。わしらの話の腰を折らんでくれ。」
+      三蔵は礼を述べ、振り返って悟空に言った。
+      三蔵「ここは銅台府の地霊県だそうです。あの二人が言うには、『牌坊を過ぎ、南北の通りにある、東向きの虎坐門楼が寇員外の家で、門前に「万僧を拒まず」という札がある』とのこと。そこで食事を頂くよう、教えてくださいました。」
+      沙悟浄（さごじょう）「西方は仏の土地ですから、本当に僧へ食事を施す家があるのですね。ここは府や県ですから、通行の文書を照合してもらう必要もありません。食事を頂いて、先へ進みましょう。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-008"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "長老與三人緩步長街，又惹得那市口裡人都驚驚恐恐，猜猜疑疑的，圍繞爭看他們相貌。長老吩咐閉口，只教：「莫放肆，莫放肆。」三人果低著頭，不敢仰視。轉過拐角，果見一條南北大街。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 136
+        "line_end": 136
+        "source_sequence": 8
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      三蔵と三人がゆっくり通りを進むと、またも町の人々を驚かせた。人々はおびえ、いぶかりながら、彼らの姿を見ようと周りに集まり、争ってのぞき込む。三蔵は弟子たちに口を閉じさせ、ただ繰り返した。
+      三蔵「勝手なことをしてはいけません、してはいけません。」
+      三人は言いつけどおり頭を低くし、顔を上げようとしなかった。角を曲がると、確かに南北へ伸びる大通りがあった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-009"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "正行時，見一個虎坐門樓，門裡邊影壁上掛著一面大牌，書著「萬僧不阻」四字。三藏道：「西方佛地，賢者愚者，俱無詐偽。那二老說時，我猶不信，至此果如其言。」八戒村野，就要進去。行者道：「獃子且住，待有人出來，問及何如，方好進去。」沙僧道：「大哥說得有理，恐一時不分內外，惹施主煩惱。」在門口歇下馬匹、行李。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 138
+        "line_end": 138
+        "source_sequence": 9
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      進んでいくと、虎坐門楼が見えた。門の内側の目隠し壁には、大きな札が掛かり、『万僧不阻（まんそうふそ）』の四字が書いてある。
+      三蔵「西方は仏の土地だ。賢い者も愚かな者も、誰も偽りを言わない。あの老人たちの話を聞いたときは、まだ信じきれなかったが、来てみれば、まさに言われたとおりだ。」
+      無作法な八戒が、さっそく入ろうとした。
+      悟空「馬鹿、ちょっと待て。誰かが出てきて、事情を尋ねてからでなくては、入れないだろう。」
+      沙悟浄「兄さんの言うとおりです。うっかり内と外のけじめを忘れ、施主を困らせてはなりません。」
+      門口で馬を止め、荷物を下ろした。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-010"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "須臾間，有個蒼頭出來，提著一把秤、一隻籃兒，猛然看見，慌的丟了，倒跑進去報道：「主公，外面有四個異樣僧家來也！」那員外拄著拐，正在天井中閑走，口裡不住的念佛，一聞報道，就丟了拐，出來迎接。見他四眾，也不怕醜惡，只叫：「請進！請進！」三藏謙謙遜遜，一同都入。轉過一條巷子，員外引路，至一座房裡，說道：「此上手房宇，乃管待老爺們的佛堂、經堂、齋堂。下手的，是我弟子老小居住。」三藏稱讚不已。隨取袈裟穿了拜佛，舉步登堂觀看，但見那："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 140
+        "line_end": 140
+        "source_sequence": 10
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      ほどなく家僕が出てきた。秤と籠を一つずつ持っていたが、突然一行を見て、驚きのあまり取り落とし、引き返して中へ駆け込み、知らせた。
+      家僕「旦那さま、外に異様なお坊さまが四人、お見えです！」
+      寇員外は杖をつき、中庭をゆっくり歩きながら、絶えず念仏を唱えていた。報告を聞くと杖を投げ出し、迎えに出てきた。四人を見ても、醜い姿を恐れず、ただ招いた。
+      寇員外「お入りください、お入りください！」
+      三蔵は丁重にへりくだり、皆で中へ入った。細い通路を回り、寇員外に案内されて、一つの建物へ着いた。
+      寇員外「こちらの上手にある建物は、お坊さまたちをお迎えする仏堂、経堂、食堂です。下手にあるのは、私どもの家族が住むところでございます。」
+      三蔵はしきりに感心し、袈裟（けさ）を取り出して着ると、仏を拝もうと堂へ上がって見回した。そこには、このような眺めがあった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-011"
+    "section_id": "chapter-96"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "香雲靉靆，燭焰光輝。滿堂中錦簇花攢，四下裡金鋪彩絢。朱紅架高掛紫金鐘，彩漆檠對設花腔鼓。幾對旛繡成八寶，千尊佛盡戧黃金。古銅爐，古銅瓶；雕漆桌，雕漆盒。古銅爐內，常常不斷沉檀；古銅瓶中，每每蓮花現彩。雕漆桌上五雲鮮，雕漆盒中香瓣積。玻璃盞，淨水澄清；琉璃燈，香油明亮。一聲金磬，響韻虛徐。真個是紅塵不到賽珍樓，家奉佛堂欺上剎。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 141
+        "line_end": 141
+        "source_sequence": 11
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      香の雲はたなびき、ろうそくの炎は輝く。
+      堂いっぱいに錦と花が集まり、四方には金と彩りが美しく広がる。
+      朱塗りの架け台には紫金（しきん）の鐘が高く掛かり、彩色した台には花模様の太鼓が向かい合う。
+      幾対かの幡には八宝（はっぽう）を刺繍し、千体の仏には、ことごとく彫り目へ金を埋め込んである。
+      古銅の香炉に古銅の花瓶、彫漆（ちょうしつ）の卓に彫漆の箱。
+      古銅の香炉では、いつも沈香（じんこう）と白檀（びゃくだん）が絶えず燃え、古銅の花瓶には、しばしば蓮の花が彩りを現す。
+      彫漆の卓では五色の雲が鮮やかに映え、彫漆の箱には香片が積まれる。
+      玻璃（はり）の杯には清らかな水が澄み、瑠璃（るり）の灯には香油の光が明るい。
+      金の磬（けい）が一声鳴れば、その響きはゆるやかに空へ広がる。
+      まことに俗塵も届かず、宝の楼にもまさり、家に設けた仏堂ながら、名高い寺をもしのぐ。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-012"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "長老淨了手，拈了香，叩頭拜畢，卻轉回與員外行禮。員外道：「且住，請到經堂中相見。」又見那："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 143
+        "line_end": 143
+        "source_sequence": 12
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      三蔵は手を清め、香をつまんで供え、頭を地につけて拝み終えると、振り返って寇員外へ礼をしようとした。
+      寇員外「少しお待ちください。経堂へおいでいただき、そこでご挨拶をいたしましょう。」
+      そこには、またこのような眺めがあった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-013"
+    "section_id": "chapter-96"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "方臺豎櫃，玉匣金函。方臺豎櫃，堆積著無數經文；玉匣金函，收貯著許多簡札。彩漆桌上，有紙墨筆硯，都是些精精緻緻的文房；椒粉屏前，有書畫琴棋，盡是些妙妙玄玄的真趣。放一口輕玉浮金之仙磬，掛一柄披風披月之龍髯。清氣令人神氣爽，齋心自覺道心閑。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 145
+        "line_end": 145
+        "source_sequence": 13
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      四角い台に、縦長の戸棚、玉の箱に、金の文箱。
+      四角い台と縦長の戸棚には、数えきれない経文が積まれ、玉の箱と金の文箱には、多くの書状が収められる。
+      彩色した卓の上には紙、墨、筆、硯があり、どれもたいへん精巧な文房具。
+      椒粉（しょうふん）を塗った屏風の前には書、画、琴、碁があり、どれも奥深く、玄妙な楽しみである。
+      玉や金の音も及ばないような仙の磬が一つ置かれ、
+      風をまとい、月をまとう、竜髯（りゅうぜん）の払子（ほっす）が一本掛かる。
+      清らかな気に、人の心も爽やかになり、心を慎めば、おのずと道を求める思いも安らぐ。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-014"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "長老到此，正欲行禮，那員外又攙住道：「請寬佛衣。」三藏脫了袈裟。才與長老見了。又請行者三人見了。又叫把馬喂了，行李安在廊下，方問起居。三藏道：「貧僧是東土大唐欽差詣寶方謁靈山見佛祖求真經者。聞知尊府敬僧，故此拜見，求一齋就行。」員外面生喜色，笑吟吟的道：「弟子賤名寇洪，字大寬，虛度六十四歲。自四十歲上，許齋萬僧，才做圓滿。今已齋了二十四年，有一簿齋僧的帳目。連日無事，把齋過的僧名算一算，已齋過九千九百九十六員，止少四眾，不得圓滿。今日可可的天降老師四位，圓滿萬僧之數。請留尊諱，好歹寬住月餘，待做了圓滿，弟子著轎馬送老師上山。此間到靈山只有八百里路，苦不遠也。」三藏聞言，十分歡喜，都就權且應承不題。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 146
+        "line_end": 146
+        "source_sequence": 14
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      三蔵がそこへ着き、礼をしようとすると、寇員外はまた手を添えて止めた。
+      寇員外「どうぞ仏衣をお脱ぎください。」
+      三蔵が袈裟を脱いでから、ようやく互いに挨拶を交わした。続いて悟空たち三人とも挨拶をし、馬には餌をやらせ、荷物を廊下へ置かせてから、初めて来歴を尋ねた。
+      三蔵「私は東土（とうど）の大唐（だいとう）から勅命を受けて、こちらへ参った者です。霊山（れいざん）で仏祖にお会いし、真の経を頂くための旅をしております。お宅が僧を大切になさると伺い、ご挨拶に参りました。一食だけ頂き、出立したく存じます。」
+      寇員外は喜びを顔に浮かべ、にこにこして言った。
+      寇員外「私は寇洪（こうこう）、字は大寛（たいかん）と申します。むなしく年を重ねて、六十四歳になりました。四十の年に、一万人の僧へ食事を施し、それをもって願を成し遂げようと誓ったのです。すでに二十四年、施食を続け、僧の名前を帳面に記してまいりました。このところ暇があったので数えてみると、九千九百九十六人。あと四人が足りず、願を果たせませんでした。ところが今日、折よく老師さま四人が天から降ってこられ、一万人の数が満ちたのです。どうぞお名前をお残しになり、ぜひとも一月余り、ゆっくりお泊まりください。成就の法要を終えましたら、輿と馬を出して、老師さまを山までお送りいたします。ここから霊山までは、わずか八百里（り）。さほど遠くはございません。」
+      三蔵はこれを聞き、たいへん喜んだ。一同、ひとまずその申し出を承知した。このことはさておく。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-015"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "他那幾個大小家僮，往宅裡搬柴打水，取米麵蔬菜，整治齋供，忽驚動員外媽媽，問道：「是哪裡來的僧，這等上緊？」僮僕道：「才有四位高僧，爹爹問他起居，他說是東土大唐皇帝差來的，往靈山拜佛爺爺。到我們這裡，不知有多少路程。爹爹說是天降的，吩咐我們快整齋，供養他也。」那老嫗聽說也喜，叫丫鬟：「取衣服來我穿，我也去看看。」僮僕道：「奶奶，只一位看得，那三位看不得，形容醜得很哩。」老嫗道：「汝等不知，但形容醜陋，古怪清奇，必是天人下界。快先去報你爹爹知道。」那僮僕跑至經堂，對員外道：「奶奶來了，要拜見東土老爺哩。」三藏聽見，即起身下座。說不了，老嫗已至堂前。舉目見唐僧相貌軒昂，丰姿英偉。轉面見行者三人模樣非凡，雖知他是天人下界，卻也有幾分悚懼，朝上跪拜。三藏急急還禮道：「有勞菩薩錯敬。」老嫗問員外道：「四位師父，怎不並坐？」八戒掬著嘴道：「我三個是徒弟。」噫！他這一聲，就如深山虎嘯，那媽媽一發害怕。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 147
+        "line_end": 147
+        "source_sequence": 15
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      何人かの年長や年少の家僕たちが、家へ薪や水を運び、米、粉、野菜を用意して食事を整えていると、その騒ぎに寇洪の妻が気づいた。
+      寇洪の妻「どこから来たお坊さまたちなのだい。そんなに大急ぎで。」
+      家僕「たった今、高僧が四人おいでになりました。旦那さまが来歴を尋ねると、東土の大唐の皇帝から遣わされ、霊山の仏さまを拝みに行くとおっしゃるのです。ここまで、どれほどの道のりかも分かりません。旦那さまは、天から降ってきた方々だとおっしゃり、急いで食事を整えて供養するよう、お命じになりました。」
+      寇洪の妻も聞いて喜び、侍女へ言った。
+      寇洪の妻「服を持ってきておくれ。着替えて、私も見に行こう。」
+      家僕「奥さま、見ることができるのは一人だけで、あとの三人は見られたものではありません。たいへん醜い姿なのです。」
+      寇洪の妻「お前たちは分かっていないね。姿が醜くても、普通と違って珍しいのなら、きっと天人が降りてきたのだ。先に行って、旦那さまへ知らせておくれ。」
+      家僕は経堂へ駆けていき、寇洪に告げた。
+      家僕「奥さまがおいでです。東土のお坊さまにご挨拶をなさりたいそうです。」
+      三蔵は聞くと、すぐ立ち上がって席を離れた。言い終わらぬうちに妻は堂の前へ来ていた。目を上げると、三蔵は堂々とした顔立ちで、姿も立派である。振り向いて悟空たち三人の並外れた姿を見ると、天人が下界へ降りてきたのだと思ってはいても、やはりいくらか恐ろしく、上座へ向かってひざまずいた。三蔵は急いで礼を返した。
+      三蔵「菩薩（ぼさつ）のようなお方から、身に余るお礼を頂き、恐縮です。」
+      寇洪の妻は夫に尋ねた。
+      寇洪の妻「四人のお坊さまは、なぜ並んでお座りにならないのです。」
+      八戒は口を突き出して答えた。
+      八戒「俺たち三人は弟子だ。」
+      ああ、その一声は深山の虎が吼えるようで、妻はますます怖くなった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-016"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "正說處，又見一個家僮來報道：「兩個叔叔也來了。」三藏急轉身看時，原來是兩個少年秀才。那秀才走上經堂，對長老倒身下拜。慌得三藏急便還禮。員外上前扯住道：「這是我兩個小兒，喚名寇梁、寇棟，在書房裡讀書方回，來吃午飯，知老師下降，故來拜也。」三藏喜道：「賢哉，賢哉！正是：欲高門第須為善，要好兒孫在讀書。」二秀才啟上父親道：「這老爺是哪裡來的？」員外笑道：「來路遠哩，南贍部洲東土大唐皇帝欽差到靈山拜佛祖爺爺取經的。」秀才道：「我看《事林廣記》上，蓋天下只有四大部洲。我們這裡叫做西牛賀洲，還有個東勝神洲。想南贍部洲至此，不知走了多少年代？」三藏笑道：「貧僧在路，耽閣的日子多，行的日子少。常遭毒魔狠怪，萬苦千辛，甚虧我三個徒弟保護。共計一十四遍寒暑，方得至寶方。」秀才聞言，稱獎不盡道：「真是神僧！真是神僧！」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 148
+        "line_end": 148
+        "source_sequence": 16
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      話していると、また家僕が来て知らせた。
+      家僕「若旦那さまたちも、お二人そろっておいでです。」
+      三蔵が急いで振り向くと、二人の若い秀才（しゅうさい）だった。経堂へ上がると、三蔵の前へ身を伏せて拝んだので、三蔵もあわてて礼を返した。寇洪が進み出て、手を取った。
+      寇洪「この二人は私の息子で、寇梁（こうりょう）と寇棟（こうとう）と申します。書斎で勉強していて、昼食に戻ってきたところです。老師さまがおいでと知り、ご挨拶に参ったのでございます。」
+      三蔵は喜んだ。
+      三蔵「感心なことです、感心なことです。まさに『家を栄えさせたければ善を行い、よい子孫を得たければ書を読ませよ』ということですね。」
+      寇梁と寇棟は父に尋ねた。
+      寇梁と寇棟「このお方は、どちらから来られたのですか。」
+      寇洪は笑った。
+      寇洪「遠いところからだよ。南贍部洲（なんせんぶしゅう）の東土、大唐の皇帝から命を受け、霊山の仏祖さまを拝み、経を頂きに行かれるのだ。」
+      寇梁と寇棟「『事林広記（じりんこうき）』を読むと、天下には四つの大きな洲しかないとありました。ここは西牛賀洲（さいごかしゅう）といい、ほかには東勝神洲（とうしょうしんしゅう）もあります。南贍部洲からここまで、どれほどの年月を歩かれたのでしょう。」
+      三蔵は笑った。
+      三蔵「私は道中、足止めをされた日が多く、進めた日は少なかったのです。たびたび凶悪な魔物や妖怪に遭い、幾多の苦難を重ねましたが、三人の弟子たちに守られ、たいへん助けられました。合わせて十四度の寒暑を経て、ようやくこちらへ参ったのでございます。」
+      寇梁と寇棟は聞くと、称賛してやまなかった。
+      寇梁と寇棟「まことに神僧です、まことに神僧です！」
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-017"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "說未畢，又有個小的來請道：「齋筵已擺，請老爺進齋。」員外著媽媽與兒子轉宅，他卻陪四眾進齋堂吃齋。那裡鋪設的齊整，但見："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 150
+        "line_end": 150
+        "source_sequence": 17
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      まだ話し終わらぬうちに、また小者が来て招いた。
+      小者「お膳が整いました。お坊さま、どうぞお食事に。」
+      寇洪は妻と息子たちを住まいへ戻らせ、自分は四人に付き添い、食堂で食事をした。そこは整然としつらえられていた。見ると、このようである。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-018"
+    "section_id": "chapter-96"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "金漆桌案，黑漆交椅。前面是五色高果，俱巧匠新裝成的時樣；第二行五盤小菜；第三行五碟水果；第四行五大盤閑食。般般甜美，件件馨香。素湯米飯，蒸\U00029707饅頭，辣辣爨爨熱騰騰，盡皆可口，真足充腸。七八個僮僕往來奔奉，四五個庖丁不住手。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 151
+        "line_end": 151
+        "source_sequence": 18
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      金漆の卓に、黒漆の折り畳み椅子。
+      最初に並ぶのは五色の高く盛った菓子で、みな巧みな職人が新しい流行の形に仕立てたもの。
+      二列目には五皿の小菜、三列目には五皿の果物、四列目には五つの大皿に盛った軽い菓子。
+      どれも甘く、おいしく、一品ごとに香りがよい。
+      精進の汁、米の飯、蒸した巻き物の𩜇（けん）に饅頭。熱く熱く湯気が立ち、どれも口に合って、腹を満たすには十分だ。
+      七、八人の家僕が往来して給仕をし、四、五人の料理人は手を休めない。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-019"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "你看那上湯的上湯，添飯的添飯，一往一來，真如流星趕月。這豬八戒一口一碗，就是風捲殘雲。師徒們盡受用了一頓。長老起身，對員外謝了齋，就欲走路。那員外攔住道：「老師，放心住幾日兒。常言道：『起頭容易結梢難。』只等我做過了圓滿，方敢送程。」三藏見他心誠意懇，沒奈何住了。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 153
+        "line_end": 153
+        "source_sequence": 19
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      見れば、汁を出す者、飯を足す者が行き交うさまは、まさに流れ星が月を追うようであった。八戒は一口で一椀を平らげ、風が残る雲を巻き払う勢いである。師弟は十分に一食を楽しんだ。三蔵は立ち上がり、寇洪に食事の礼を言って、出発しようとしたが、寇洪は引き止めた。
+      寇洪「老師さま、どうか安心して、何日かお泊まりください。『始めるのは易しく、仕上げるのは難しい』と申します。私が成就の法要を済ませてからでなければ、お見送りするわけにはまいりません。」
+      三蔵は、その真心のこもった熱心さに、やむなく泊まることにした。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-020"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "早經過五七遍朝夕，那員外才請了本處應佛僧二十四員，辦做圓滿道場。眾僧們寫作有三四日，選定良辰，開啟佛事。他那裡與大唐的世情一般，卻倒也："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 155
+        "line_end": 155
+        "source_sequence": 20
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": "そうして五日から七日ほどの朝夕が過ぎると、寇洪はようやく土地の応仏僧（おうぶつそう）を二十四人招き、願の成就を祝う道場を設けた。僧たちは三、四日かけて文書を書き整え、吉日を選んで仏事を始めた。この土地のやり方も大唐と同じで、このようであった。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-021"
+    "section_id": "chapter-96"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "大揚旛，鋪設金容；齊秉燭，燒香供養。擂鼓敲鐃，吹笙捻管。雲鑼兒，橫笛音清，也都是尺工字樣。打一回，吹一趟，朗言齊語開經藏。先安土地，次請神將。發了文書，拜了佛像。談一部《孔雀經》，句句消災障；點一架藥師燈，焰焰輝光亮。拜水懺，解冤愆；諷《華嚴》，除誹謗。三乘妙法甚精勤，一二沙門皆一樣。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 157
+        "line_end": 157
+        "source_sequence": 21
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      大きな幡を高く掲げ、金色の仏像を並べ、皆でろうそくをともし、香をたいて供養する。
+      太鼓を打ち、鐃（にょう）を鳴らし、笙（しょう）を吹き、笛の孔を指で押さえる。
+      雲鑼（うんら）が響き、横笛の音は澄み、ここでも尺や工の音符を用いる。
+      一しきり打ち、一曲吹き、声高らかに言葉をそろえ、経典を開く。
+      まず土地神を鎮め、次に神将を招く。
+      文書を送り、仏像を拝む。
+      『孔雀経（くじゃくきょう）』を一部説けば、一句ごとに災いと障りを取り除き、
+      薬師灯（やくしとう）を一台ともせば、一つ一つの炎が明るく輝く。
+      水懺（すいせん）を拝して怨みや罪を解き、『華厳経（けごんきょう）』を唱えて誹謗を除く。
+      三乗（さんじょう）の妙法に、たいそう熱心に励む。どの僧も、みな同じである。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-022"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "如此做了三晝夜，道場已畢。唐僧想著雷音，一心要去，又相辭謝。員外道：「老師辭別甚急，想是連日佛事冗忙，多致簡慢，有見怪之意？」三藏道：「深擾尊府，不知何以為報，怎敢言怪？但只當時聖君送我出關，問幾時可回，我就誤答三年可回。不期在路耽閣，今已十四年矣。取經未知有無，及回又得十二三年，豈不違背聖旨？罪何可當？望老員外讓貧僧前去，待取得經回，再造府久住些時，有何不可？」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 158
+        "line_end": 158
+        "source_sequence": 22
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      こうして三日三晩が過ぎ、法要は終わった。三蔵は雷音寺（らいおんじ）を思い、ひたすら先へ進みたくなり、また別れの挨拶をした。
+      寇洪「老師さまがそれほどお急ぎになるのは、連日の仏事に取り紛れ、何かとおもてなしが行き届かず、お気を悪くなさったのでしょうか。」
+      三蔵「お宅でこれほどお世話になり、どうお報いしてよいかも分かりませんのに、どうして不満など申せましょう。ただ、あのとき天子さまがお見送りくださり、いつ帰れるかとお尋ねになった折、私はうっかり、三年で戻れると答えてしまったのです。ところが道中で足止めをされ、すでに十四年がたちました。経を頂けるかどうかも、まだ分かりません。帰りにもまた十二、三年かかるなら、聖旨に背くことになりましょう。その罪を、どう償えましょうか。どうか出発をお許しください。経を頂いて帰るとき、またお宅へ参り、長く泊めていただくのではいけませんか。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-023"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "八戒忍不住，高叫道：「師父忒也不從人願，不近人情。老員外大家巨富，許下這等齋僧之願，今已圓滿，又況留得至誠，須住年把，也不妨事，只管要去怎的？放了這等現成好齋不吃，卻往人家化募。前頭有你甚老爺、老娘家哩？」長老咄的喝了一聲道：「你這夯貨，只知好吃，更不管回向之因，正是那槽裡吃食，胃裡擦癢的畜生。汝等既要貪此嗔痴，明日等我自家去罷。」行者見師父變了臉，即揪住八戒，著頭打一頓拳，罵道：「獃子不知好歹，惹得師父連我們都怪了。」沙僧笑道：「打得好，打得好。只這等不說話還惹人嫌，且又插嘴。」那獃子氣呼呼的立在傍邊，再不敢言。員外見他師徒們生惱，只得滿面陪笑道：「老師莫焦燥，今日且少寬容。待明日我辦些旗鼓，請幾個鄰里親戚，送你們起程。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 160
+        "line_end": 160
+        "source_sequence": 23
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      八戒はこらえきれず、大声を出した。
+      八戒「お師匠さまは、人の願いを聞かず、人情もなさすぎます。員外どのは大金持ちで、これほどの施食の願を立て、今、成し遂げたところです。そのうえ真心から引き留めてくださるのだから、一年ばかり泊まったって、構わないでしょう。それなのに、どうして出ていくことばかり言うのです。こうして用意された立派な食事を食べず、よその家へ物乞いに行くなんて。この先に、父上や母上のお宅でもあるんですか！」
+      三蔵は、こらっ、と一喝した。
+      三蔵「この愚か者は、うまいものを食べることしか知らず、回向（えこう）によって功徳を仏道へ向けることなど、まるで考えない。まるで飼い葉桶の餌を食い、胃の中のかゆみを掻いているだけの畜生だ。お前たちがこの貪りや怒りや愚かさに執着するのなら、明日は私一人で出ていきます。」
+      悟空は師の顔色が変わったのを見ると、すぐ八戒をつかまえ、頭へ拳を幾つも浴びせて罵った。
+      悟空「この馬鹿が、善し悪しも分からず、お師匠さまを怒らせて、俺たちまで叱られることになったぞ！」
+      沙悟浄は笑った。
+      沙悟浄「殴られて当然です、当然です。こうして黙っていてさえ嫌がられるのに、さらに口を挟むのですから。」
+      八戒はふうふう腹を立てながら傍らに立ち、もう何も言えなかった。寇洪は師弟が争うのを見ると、仕方なく満面に愛想笑いを浮かべた。
+      寇洪「老師さま、どうかいら立ちなさらず、今日はもう少しお待ちください。明日、旗や太鼓を用意し、近所の者や親戚を招いて、出発をお見送りいたしましょう。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-024"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "正講處，那老嫗又出來道：「老師父，既蒙到舍，不必苦辭。今到幾日了？」三藏道：「已半月矣。」老嫗道：「這半月算我員外的功德。老身也有些針線錢兒，也願齋老師父半月。」說不了，寇棟兄弟又出來道：「四位老爺，家父齋僧二十餘年，更不曾遇著好人。今幸圓滿，四位下降，誠然是蓬蓽生輝。學生年幼，不知因果，常聞得有云：『公修公得，婆修婆得，不修不得。』我家父、家母各欲獻芹者，正是各求得些因果，何必苦辭？就是愚兄弟，也省得有些束修錢兒，也指望供養老爺半月，方才送行。」三藏道：「令堂老菩薩盛情，已不敢領，怎麼又承賢昆玉厚愛？決不敢領。今朝定要起身，萬勿見罪。不然，久違欽限，罪不容誅矣。」那老嫗與二子見他執一不住，便生起惱來道：「好意留他，他這等固執要去。要去便就去了罷，只管勞叨甚麼？」母子遂抽身進去。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 161
+        "line_end": 161
+        "source_sequence": 24
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      話していると、寇洪の妻もまた出てきた。
+      寇洪の妻「老師さま、せっかくおいでくださったのですから、そう頑なにお断りにならずとも。こちらへ来られて、何日になりますか。」
+      三蔵「もう半月になります。」
+      寇洪の妻「この半月は、夫の功徳といたしましょう。私にも針仕事でためたお金が少しありますので、老師さまへ半月、食事を施したいのです。」
+      言い終わらぬうちに、寇梁と寇棟も出てきた。
+      寇梁と寇棟「四人の老師さま、父は二十余年、僧への施食を続けてまいりましたが、立派な方々にお会いしたことはありませんでした。今、幸いにも願が満ち、四人の方においでいただいて、この粗末な家にも、まことに光が差したようです。私たちは若く、因果のことはよく存じませんが、『夫が修めれば夫が得、妻が修めれば妻が得る。修めなければ何も得られない』と、よく聞いております。父も母も、それぞれささやかなものを差し上げたいというのは、それぞれに因果の報いを得たいからです。なぜ、それほどお断りになるのでしょう。私たち兄弟も、学費を少し倹約してあります。老師さまを半月ご供養し、それからお見送りしたいと願っております。」
+      三蔵「お母上の、菩薩のような厚いお心遣いさえ、お受けできませんのに、どうしてお二人のご厚意まで頂けましょう。決してお受けできません。今朝、必ず出発いたします。どうか、おとがめなさらないでください。そうしなければ、勅命の期限に長く背き、死罪になっても償いきれないのです。」
+      妻と息子たちは、三蔵が頑なに泊まろうとしないのを見ると、腹を立てた。
+      寇洪の妻と息子たち「好意で引き留めているのに、こんなにも意地を張って出ていこうとする。行きたいのなら、行けばいい。いつまでも何をくどくど言っているんだ！」
+      母子は身を翻し、奥へ入っていった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-025"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "八戒忍不住口，又對唐僧道：「師父，不要拿過了班兒。常言道：『留得在，落得怪。』我們且住一個月兒，了了他母子的願心也罷了，只管忙怎的？」唐僧又咄了一聲，那獃子就自家把嘴打了兩下道：「啐啐啐！說道莫多話，又做聲了！」行者與沙僧赥赥的笑在一邊。唐僧又怪行者道：「你笑甚麼？」即捻訣，要念緊箍兒咒。慌得個行者跪下道：「師父，我不曾笑，我不曾笑。千萬莫念，莫念。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 162
+        "line_end": 162
+        "source_sequence": 25
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      八戒は口を抑えきれず、また三蔵へ言った。
+      八戒「お師匠さま、あまり勿体ぶりすぎてはいけません。『引き留めても、しまいには恨み言』というでしょう。ひと月ほど泊まって、母子の願いをかなえてやればいいじゃありませんか。何をそんなに急ぐんです。」
+      三蔵がまた、こらっ、と叱ると、八戒は自分で自分の口を二度打った。
+      八戒「ちぇっ、ちぇっ、ちぇっ！　余計なことを言うなと言っているのに、また声を出しちまった！」
+      悟空と沙悟浄は、傍らでくすくす笑った。三蔵は今度は悟空をとがめた。
+      三蔵「何を笑っているのだ。」
+      すぐ指で印を結び、緊箍呪（きんこじゅ）を唱えようとした。悟空はあわててひざまずいた。
+      悟空「お師匠さま、私は笑っていません、笑っていません。どうか唱えないで、唱えないでください！」
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-026"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "員外又見他師徒們漸生煩惱，再也不敢苦留，只叫：「老師不必吵鬧，準於明早送行。」遂此出了經堂，吩咐書辦，寫了百十個簡帖兒，邀請鄰里親戚，明早奉送唐朝老師西行。一壁廂又叫庖人安排餞行的筵宴；一壁廂又叫管辦的做二十對彩旗，覓一班吹鼓手樂人，南來寺裡請一班和尚，東岳觀裡請一班道士，限明日巳時俱要整齊。眾執事領命去訖。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 164
+        "line_end": 164
+        "source_sequence": 26
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      寇洪は、師弟がますますいら立つのを見ると、それ以上、強いて引き留めることはできず、ただ言った。
+      寇洪「老師さま、争わないでください。明朝、必ずお見送りいたします。」
+      経堂を出ると、書記に百枚ほどの招待状を書かせ、近所や親戚の者たちへ、明朝、唐の老師さまの西行を見送るよう招いた。一方では料理人に送別の宴を用意させ、他方では世話役に彩りの旗を二十対作らせ、楽人を一組雇わせた。南来寺（なんらいじ）から僧を一団、東岳観（とうがくかん）から道士を一団招き、明日の巳の刻（みのこく）までに、すべて整えるよう命じた。係の者たちは、命令を受けて出ていった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-027"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "不多時，天又晚了。吃了晚齋，各歸寢處。但見："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 166
+        "line_end": 166
+        "source_sequence": 27
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": "ほどなく、また日が暮れた。夕食を終えると、それぞれ寝所へ戻った。眺めは、このようであった。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-028"
+    "section_id": "chapter-96"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      幾點歸鴉過別村，樓頭鐘鼓遠相聞。
+      六街三市人煙靜，萬戶千門燈火昏。
+      月皎風清花弄影，銀河慘淡映星辰。
+      子規啼處更深矣，天籟無聲大地鈞。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 168
+        "line_end": 171
+        "source_sequence": 28
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      ねぐらへ帰るカラスが幾羽か、隣の村を過ぎ、楼の上の鐘と太鼓は、遠くまで響き合う。
+      六つの通り、三つの市場も人の気配は静まり、無数の家々の灯は暗い。
+      月は明るく、風は清らかで、花は影を揺らし、天の川は淡くかすんで星々を映す。
+      ホトトギスの鳴くころ、夜はいよいよ更け、自然の響きも絶え、大地はひとしく静まる。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-029"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "當夜三四更天氣，各管事的家僮盡皆早起，買辦各項物件。你看那辦筵席的，廚上慌忙；置彩旗的，堂前吵鬧；請僧道的，兩腳奔波；叫鼓樂的，一身急縱；送簡帖的，東走西跑；備轎馬的，上呼下應。這半夜，直嚷至天明，將巳時前後，各項俱完，也只是有錢不過。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 172
+        "line_end": 172
+        "source_sequence": 29
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": "その夜、三更（さんこう）、四更（しこう）のころには、各係の家僕が皆、早くも起きて、さまざまな品を買いそろえた。見ると、宴の係は台所で大忙し、旗の係は堂の前で大騒ぎ。僧や道士を招く者は両足を走らせ、楽人を呼ぶ者は全身で急ぎ回る。招待状を配る者は東へ西へ駆け、輿や馬を用意する者は上下で声を掛け合う。真夜中から夜明けまで騒ぎ続け、巳の刻前後には、すべての支度が整った。これも結局、金があればこそである。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-030"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "卻表唐僧師徒們早起，又有那一班人供奉。長老吩咐收拾行李，扣備馬匹。獃子聽說要走，又努嘴胖唇，唧唧噥噥，只得將衣缽收拾，找出高肩擔子。沙僧刷洗馬匹，套起鞍轡伺候。行者將九環杖遞在師父手裡，他將通關文牒的引袋兒掛在胸前，只是一齊要走。員外又都請至後面大廠廳內，那裡面又鋪設了筵宴，比齋堂中相待的更是不同。但見那："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 174
+        "line_end": 174
+        "source_sequence": 30
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": "さて、三蔵たちも早起きし、また一団の人々から世話を受けた。三蔵は荷物をまとめ、馬の支度をするよう言いつけた。出発すると聞くと、八戒はまた唇をとがらせ、ぶつぶつ言いながらも、仕方なく衣と鉢を片づけ、肩へ担ぐ荷を整えた。沙悟浄は馬を洗って毛を整え、鞍と手綱を付けて待つ。悟空は九環杖（きゅうかんじょう）を師の手へ渡し、師は通行文書の入った袋を胸に掛け、皆、今にも出発するところだった。寇洪はまた、一同を奥の大広間へ招いた。そこにも宴が設けられ、食堂でのもてなしとは、さらに違った趣があった。見ると、このようである。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-031"
+    "section_id": "chapter-96"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "簾幕高掛，屏圍四繞。正中間掛一幅壽山福海之圖，兩壁廂列四軸春夏秋冬之景。龍文鼎內香飄靄，鵲尾爐中瑞氣生。看盤簇彩，寶妝花色色鮮明；排桌堆金，獅仙糖齊齊擺列。階前鼓舞按宮商，堂上果餚鋪錦繡。素湯素飯甚清奇，香酒香茶多美艷。雖然是百姓之家，卻不亞王侯之宅。只聽得一片歡聲，真個也驚天動地。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 176
+        "line_end": 176
+        "source_sequence": 31
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      簾と幕は高く掛かり、四方を屏風が囲む。
+      正面には寿山福海（じゅざんふくかい）の絵を一幅掛け、両脇の壁には春夏秋冬の景を描いた四幅が並ぶ。
+      竜の文様の鼎では香がたなびき、鵲尾炉（じゃくびろ）からは、めでたい気が立ち上る。
+      飾りの皿には彩りが集まり、宝を飾った花は、どの色も鮮やか。
+      並べた卓には金を積んだように、獅子に乗る仙人をかたどった獅仙糖（しせんとう）が、整然と置かれる。
+      階段の前では太鼓と舞が音律に合わせられ、広間の果物と料理は、錦を広げたようだ。
+      精進の汁と飯は、清らかで趣深く、香る酒と茶も、たいそう見事。
+      庶民の家ではあるけれど、王侯の屋敷にも劣らない。
+      ただ一面の歓声が聞こえ、まことに天を驚かせ、地を揺るがすほどである。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-032"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "長老正與員外作禮，只見家僮來報：「客俱到了。」卻是那請來的左鄰右舍、妻弟姨兄、姐夫妹丈，又有那些同道的齋公，念佛的善友，一齊都向長老禮拜。拜畢，各各敘坐。只見堂下面鼓瑟吹笙，堂上邊絃歌酒讌。這一席盛宴，八戒留心，對沙僧道：「兄弟，放懷放量吃些兒，離了寇家，再沒這好豐盛的東西了。」沙僧笑道：「二哥說哪裡話，常言道：『珍饈百味，一飽便休。』只有私房路，哪有私房肚？」八戒道：「你也忒不濟，不濟。我這一頓盡飽吃了，就是三日也急忙不餓。」行者聽見道：「獃子，莫脹破了肚子，如今要走路哩。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 177
+        "line_end": 177
+        "source_sequence": 32
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      三蔵が寇洪と礼を交わしていると、家僕が知らせに来た。
+      家僕「お客さまが、皆、おそろいです。」
+      招かれたのは左右の隣人、妻の弟や母方の年上の従兄、姉の夫や妹の夫、それに同じ信仰を持つ斎公（さいこう）や念仏仲間たちで、皆そろって三蔵を拝んだ。礼を終えると、それぞれ挨拶を交わして座った。堂の下では瑟（しつ）や笙が奏でられ、堂の上では弦楽と歌に合わせ、酒宴が開かれる。この豪華な宴を八戒は気に入り、沙悟浄に言った。
+      八戒「弟よ、心置きなく、腹いっぱい食べておけ。寇洪の家を離れたら、もうこんな立派なごちそうはないぞ。」
+      沙悟浄は笑った。
+      沙悟浄「二番目の兄さん、何をおっしゃるのです。『百種の珍味も、一度満腹になれば、それまで』と言うでしょう。道には自分だけの隠れ道があっても、腹に自分だけの隠し場所がありますか。」
+      八戒「お前もまるでだめだ、だめだな。俺はここで腹いっぱい食べれば、三日たっても、そう簡単には腹が減らないぞ。」
+      悟空も聞きつけた。
+      悟空「馬鹿、腹を張らせて破裂させるなよ。これから歩くんだぞ。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-033"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "說不了，日將中矣。長老在上舉箸，念《謁齋經》。八戒慌了，拿過添飯來，一口一碗，又丟夠有五六碗，把那饅頭、\U00029707兒、餅子、燒果，沒好沒歹的滿滿籠了兩袖，才跟師父起身。長老謝了員外，又謝了眾人，一同出門。你看那門外擺著彩旗寶蓋、鼓手樂人，又見那兩班僧道方來。員外笑道：「列位來遲，老師去急，不及奉齋，俟回來謝罷。」眾等讓出道路，擡轎的擡轎，騎馬的騎馬，步行的步行，都讓長老四眾前行。只聞得鼓樂諠天，旗旛蔽日，人煙湊集，車馬駢填，都來看寇員外迎送唐僧。這一場富貴，真賽過珠圍翠繞，誠不亞錦帳藏春。那一班僧，打一套佛曲；那一班道，吹一道玄音。俱送出府城之外，行至十里長亭，又設著簞食壺漿，擎杯把盞，相飲而別。那員外猶不忍捨，噙著淚道：「老師取經回來，是必到舍再住幾日，以了我寇洪之心。」三藏感之不盡，謝之無已道：「我若到靈山，得見佛祖，首表員外之大德。回時定踵門叩謝叩謝。」說說話兒，不覺的又有二三里路，長老懇切拜辭。那員外又放聲大哭而轉。這正是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 178
+        "line_end": 178
+        "source_sequence": 33
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      そうこうするうち、日は正午に近づいた。三蔵は上座で箸を上げ、『謁斎経（えっさいきょう）』を唱えた。八戒はあわてて飯を足してもらい、一口で一椀ずつ、さらに五、六椀を腹へ収めた。饅頭や𩜇、餅菓子、焼き菓子を、善し悪しも構わず、両の袖いっぱいに詰め込んでから、ようやく師に続いて立ち上がった。三蔵は寇洪に礼を言い、皆にも礼を言って、一緒に門を出た。
+      門外には彩りの旗や宝の天蓋、太鼓の奏者や楽人が並んでおり、僧と道士の二団も、ようやくやってきた。寇洪は笑った。
+      寇洪「皆さん、お着きが遅かったですね。老師さまがお急ぎで、食事を差し上げられません。戻られてから、お礼をいたしましょう。」
+      皆は道をあけ、輿を担ぐ者は担ぎ、馬に乗る者は乗り、歩く者は歩いて、三蔵たち四人を先へ通した。楽の音は空に響き、旗や幡は日を覆い、人々は群れ集まり、車馬は道を埋めた。寇洪が三蔵を迎え、見送る様子を見ようと、皆が来たのである。この豪華さは、珠玉や翡翠に取り巻かれるにもまさり、錦の帳に春を包むにも劣らない。僧の一団は仏の曲を一組奏で、道士の一団は道教の楽を一曲吹いた。
+      皆、府城の外まで送り、十里の長亭（ちょうてい）へ来ると、また籠に飯、壺に飲み物を用意してあり、杯を取って酌み交わし、別れを告げた。それでも寇洪は別れを惜しみ、涙を目にためた。
+      寇洪「老師さま、経を頂いてお帰りになるときは、必ずわが家へ寄り、また何日かお泊まりください。この寇洪の心を、かなえてやってください。」
+      三蔵は感謝してもし尽くせず、礼を繰り返した。
+      三蔵「霊山へ着き、仏祖にお会いできたなら、まず員外どのの大きなご恩徳を申し上げます。帰りには必ずお宅を訪ね、重ねてお礼を申し上げましょう。」
+      話しているうちに、いつの間にか、また二、三里進んでいた。三蔵は心を込めて礼をし、別れを告げた。寇洪はまた声を上げて泣きながら、引き返していった。まさに、こうである。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-034"
+    "section_id": "chapter-96"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "有願齋僧歸妙覺，無緣得見佛如來。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 180
+        "line_end": 180
+        "source_sequence": 34
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      僧へ食事を施す願を持てば、妙なる悟りへ帰る。
+      されど縁なく、仏たる如来（にょらい）にまみえることはない。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-035"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "且不說寇員外送至十里長亭，同眾回家。卻說他師徒四眾，行有四五十里之地，天色將晚。長老道：「天晚了，何方借宿？」八戒挑著擔，努著嘴道：「放了現成茶飯不吃，清涼瓦屋不住，卻要走甚麼路，像搶喪撞魂的。如今天晚，倘下起雨來，卻如之何？」三藏罵道：「潑孽畜，又來報怨了。常言道：『長安雖好，不是久戀之家。』待我們有緣拜了佛祖，取得真經，那時回轉大唐，奏過主公，將那御廚裡飯，憑你吃上幾年，脹死你這孽畜，教你做個飽鬼。」那獃子哈哈的暗笑，不敢復言。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 181
+        "line_end": 181
+        "source_sequence": 35
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      寇洪が十里の長亭まで送り、皆と家へ帰ったことは、ひとまずさておく。三蔵たち四人は四、五十里ほど進み、日が暮れかけた。
+      三蔵「日が暮れる。どこで宿を借りようか。」
+      八戒は荷を担ぎ、口をとがらせた。
+      八戒「用意された茶も飯も食べず、涼しい瓦屋根の家にも泊まらず、何だって歩かなきゃならないんです。葬式へでも駆けつけるような、魂に取りつかれた勢いじゃありませんか。今はもう日が暮れ、もし雨でも降りだしたら、どうするんです。」
+      三蔵は罵った。
+      三蔵「この不埒な畜生、また不平を言うのか。『長安（ちょうあん）はよいところでも、いつまでも居つくわが家ではない』と言うでしょう。私たちに縁があって仏祖を拝み、真の経を頂いて大唐へ戻り、天子さまへご報告したら、そのときは御膳所の飯を、何年でも好きなだけ食べさせてやります。この畜生の腹を膨らませて死なせ、腹いっぱいの亡者にしてやりましょう。」
+      八戒はひそかに、はははと笑ったが、もう何も言えなかった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-036"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "行者舉目遙觀，只見大路傍有幾間房宇，急請師父道：「那裡安歇，那裡安歇。」長老至前，見是一座倒塌的牌坊，坊上有一舊匾，匾上有落顏色積塵的四個大字，乃「華光行院」。長老下了馬道：「華光菩薩是火焰五光佛的徒弟，因剿除毒火鬼王，降了職，化做五顯靈官。此間必有廟祝。」遂一齊進去，但見廊房俱倒，不見人影。欲抽身而出，不期天上黑雲蓋頂，大雨淋漓。沒奈何，卻在那破房之下，揀遮得風雨處，將身躲避。密密寂寂，不敢高聲，恐有妖邪知覺。坐的坐，站的站，苦捱了一夜未睡。咦！真個是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 183
+        "line_end": 183
+        "source_sequence": 36
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      悟空が遠くを見渡すと、大道のそばに、幾棟かの建物があった。急いで師に勧めた。
+      悟空「あそこで休みましょう、あそこで休みましょう。」
+      三蔵が近づくと、崩れた牌坊があり、その上には古い額が掛かっていた。色が落ち、塵を積もらせた大きな四文字は、『華光行院（かこうぎょういん）』とあった。三蔵は馬を下りて言った。
+      三蔵「華光菩薩（かこうぼさつ）は火焔五光仏（かえんごこうぶつ）の弟子で、毒火鬼王（どくかきおう）を討ち滅ぼしたことで職を下げられ、五顕霊官（ごけんれいかん）となったお方です。ここには、きっと廟を守る者がいるでしょう。」
+      皆で入ってみると、廊下も部屋も崩れ、人影はなかった。引き返そうとしたところ、思いがけず空に黒雲が覆いかぶさり、雨がざあざあ降りだした。やむなく壊れた建物の下で、風雨を防げる場所を選び、身を寄せた。妖怪に気づかれるのを恐れ、ひっそりと黙り込み、大きな声も出せない。座る者、立つ者、それぞれに苦しみに耐え、一晩中眠れなかった。ああ、まさにこうである。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-037"
+    "section_id": "chapter-96"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "泰極還生否，樂處又逢悲。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 185
+        "line_end": 185
+        "source_sequence": 37
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": |-
+      安泰が極まれば、また行き詰まりが生じ、
+      楽しみの中で、再び悲しみに遭う。
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-038"
+    "section_id": "chapter-96"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "畢竟不知天曉向前去還是如何，且聽下回分解。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch96-1500608"
+        "precision": "line"
+        "line_start": 187
+        "line_end": 187
+        "source_sequence": 38
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+    "translation_ja": "さて、夜が明けたら先へ進めるのか、それともどうなるのか。それは次回の説き明かしをお聞きいただきたい。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-001-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "「虎坐門樓」は門楼の形容。虎がうずくまるような構えと解して原語を残したが、門の具体的な構造は確定していない。虎像が置かれているとは断定しない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-002-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原文は「五雲鮮」。五色のめでたい雲をいう表現として訳した。卓の模様を指すのか、たなびく香などを雲に見立てたのかは、本文だけでは確定しない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-003-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原文の「椒粉屏」は、椒の香りを含む塗料を施した屏風と解した。配合や色までを確定する資料は確認できず、唐辛子の粉末や特定の現代香辛料には置き換えていない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-004-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "「輕玉浮金」は、直前の磬の音色を玉や金の音にまさるものとしてほめた表現と解したが、細かな比喩には留保がある。「龍髯」は竜のひげ。古典には竜髯の払子の伝承があり、ここも払子の詩的な形容と解した。「披風披月」は風や月をまとう意として訳し、「払う」とはしていない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-005-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "家僕の「爹爹」「奶奶」「叔叔」は、奉公先の主人・夫人・若い主人たちへの呼びかけとして訳した。召使いと主人たちの実際の親子・祖孫・叔父甥の関係を示すものとはしていない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-006-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "底本の「蒸\U00029707」の難字「\U00029707」を保持した。巻き状の粉食を指す語で、具材は特定していない。「辣辣爨爨熱騰騰」は調理したての熱さを重ねていう表現と解し、唐辛子で辛く味つけしたとの断定は避けた。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-007-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原文の「尺工」は、中国の伝統的な記譜法で用いる音名の文字。「尺」「工」などの字で旋律を記す工尺譜に関わる。定規と工芸のことではない。読み方・音律を現代の特定の調へ固定していない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-008-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "水懺は、罪や怨みを懺悔するための懺法・その文書をいう。一般には『慈悲三昧水懺』と関わるが、この場で用いた本文や版までは示されない。作品に別に現れる「梁皇水懺」と、書名の一部が同じというだけで同一の本文にはしていない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-009-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "三蔵は往路を十四年、帰路をさらに十二、三年と見積もる。どちらも本人の発言であり、同じ年数にそろえたり、実際に帰路がその年数を要したと先取りしたりしていない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-010-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "「回向」は功徳を仏道や他者へ振り向けること。「回向之因」は、食を受ける僧がその宗教的な意味を忘れているという叱責として訳した。「槽裡吃食，胃裡擦癢」は、食べることで腹の欲を満たすばかりの家畜になぞらえた強い罵倒。医学的な描写ではない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-011-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "それまでの経過は「五七遍朝夕」、準備の三、四日、法要の三昼夜と記され、ここでは滞在を半月と数える。「五七」は五日から七日ほどの概数として訳した。三十五日と掛け算したり、各日数を足して厳密に十五日へ調整したりしていない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-012-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "息子たちの「束修錢」は、師への謝礼・学費に充てる金。「昆玉」は兄弟への敬称であり、別の人物名ではない。どちらの息子が年長かは本文がここで指定しないため、訳でも割り当てていない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-013-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原文は「留得在，落得怪」。引き留めることがかえって不満を生むという諺の形を残したが、両句で省かれた主語を一義的に確定してはいない。八戒がこの後も滞在を勧める点を、辻褄合わせのため反対の発言へ改めていない。直前の「拿過了班兒」は、勿体ぶった態度が過ぎるとの非難。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-014-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "三蔵は先に「今朝」出発すると言ったのに対し、主人は「明朝」の見送りを約束する。発言の食い違いを消すため、どちらかの時間表現を改めることはしていない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-015-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原文「行者將九環杖遞在師父手裡，他將……」の「他」は、杖を受け取った師の三蔵を指すと解した。悟空から杖を渡す動作と、三蔵が文書袋を掛ける動作を区別する。代名詞の指示についての翻訳上の判断である。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-016-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "獅仙糖は、獅子に乗る仙人などを砂糖で型どる飾り菓子。楊聯陞「老乞大朴通事裏的語法語彙」が引用する『朴通事諺解』の説明を参照した。今回は同論文の検索表示を確認し、PDFの直接取得はタイムアウトしたため、紙面全体を照合したとはしない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-017-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原文の「姨兄」は、母の姉妹の息子のうち、自分より年上の者。妻の姉の夫ではない。「妻弟」「姐夫」「妹丈」は、それぞれ妻の弟、姉の夫、妹の夫として区別した。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-018-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "「私房路／私房肚」は、ひそかな抜け道と、余分に食べ物をしまえる特別な腹を対比する冗談と解した。腹は満ちればそれ以上入らないという、直前の諺を受ける。実際に別の胃袋があるとの説明ではない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-019-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "底本は「謁齋經」。食事の終わりに読まれ、その後に立ち上がる場面だが、よく見かける別表記へ無断で改めず、この経名を保持した。経文そのものは記載がなく、特定の定型文や実在経典への同定は保留する。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch96-note-020-body"
+    "section_id": "chapter-96"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "華光菩薩・火焔五光仏・毒火鬼王・五顕霊官の関係と、「毒火鬼王を討ち滅ぼしたことで降職した」という因果は、この場の三蔵の説明をそのまま訳した。別の華光伝承を使って、降職を昇進へ変えたり、本文にない罪や事情を加えたりしていない。"
+    "translation_status": "reviewed"
+"notes":
+  - "id": "xy-ch96-note-001"
+    "origin": "translator"
+    "label": "1"
+    "body":
+      - "segment_id": "xy-ch96-note-001-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-002"
+    "origin": "translator"
+    "label": "2"
+    "body":
+      - "segment_id": "xy-ch96-note-002-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-003"
+    "origin": "translator"
+    "label": "3"
+    "body":
+      - "segment_id": "xy-ch96-note-003-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-004"
+    "origin": "translator"
+    "label": "4"
+    "body":
+      - "segment_id": "xy-ch96-note-004-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-005"
+    "origin": "translator"
+    "label": "5"
+    "body":
+      - "segment_id": "xy-ch96-note-005-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-006"
+    "origin": "translator"
+    "label": "6"
+    "body":
+      - "segment_id": "xy-ch96-note-006-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-007"
+    "origin": "translator"
+    "label": "7"
+    "body":
+      - "segment_id": "xy-ch96-note-007-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-008"
+    "origin": "translator"
+    "label": "8"
+    "body":
+      - "segment_id": "xy-ch96-note-008-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-009"
+    "origin": "translator"
+    "label": "9"
+    "body":
+      - "segment_id": "xy-ch96-note-009-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-010"
+    "origin": "translator"
+    "label": "10"
+    "body":
+      - "segment_id": "xy-ch96-note-010-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-011"
+    "origin": "translator"
+    "label": "11"
+    "body":
+      - "segment_id": "xy-ch96-note-011-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-012"
+    "origin": "translator"
+    "label": "12"
+    "body":
+      - "segment_id": "xy-ch96-note-012-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-013"
+    "origin": "translator"
+    "label": "13"
+    "body":
+      - "segment_id": "xy-ch96-note-013-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-014"
+    "origin": "translator"
+    "label": "14"
+    "body":
+      - "segment_id": "xy-ch96-note-014-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-015"
+    "origin": "translator"
+    "label": "15"
+    "body":
+      - "segment_id": "xy-ch96-note-015-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-016"
+    "origin": "translator"
+    "label": "16"
+    "body":
+      - "segment_id": "xy-ch96-note-016-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-017"
+    "origin": "translator"
+    "label": "17"
+    "body":
+      - "segment_id": "xy-ch96-note-017-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-018"
+    "origin": "translator"
+    "label": "18"
+    "body":
+      - "segment_id": "xy-ch96-note-018-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-019"
+    "origin": "translator"
+    "label": "19"
+    "body":
+      - "segment_id": "xy-ch96-note-019-body"
+    "form": "endnote"
+  - "id": "xy-ch96-note-020"
+    "origin": "translator"
+    "label": "20"
+    "body":
+      - "segment_id": "xy-ch96-note-020-body"
+    "form": "endnote"
+"references":
+  - "id": "xy-ch96-ref-001"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-007"
+      "translation_span":
+        "start": 515
+        "end": 532
+        "exact": "虎坐門楼（こざもんろう）のあるのが"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-001"
+    "status": "verified"
+  - "id": "xy-ch96-ref-002"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-011"
+      "translation_span":
+        "start": 239
+        "end": 250
+        "exact": "五色の雲が鮮やかに映え"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-002"
+    "status": "verified"
+  - "id": "xy-ch96-ref-003"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-013"
+      "translation_span":
+        "start": 108
+        "end": 123
+        "exact": "椒粉（しょうふん）を塗った屏風"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-003"
+    "status": "verified"
+  - "id": "xy-ch96-ref-004"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-013"
+      "translation_span":
+        "start": 192
+        "end": 215
+        "exact": "竜髯（りゅうぜん）の払子（ほっす）が一本掛かる"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-004"
+    "status": "verified"
+  - "id": "xy-ch96-ref-005"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-016"
+      "translation_span":
+        "start": 23
+        "end": 30
+        "exact": "若旦那さまたち"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-005"
+    "status": "verified"
+  - "id": "xy-ch96-ref-006"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-018"
+      "translation_span":
+        "start": 150
+        "end": 159
+        "exact": "熱く熱く湯気が立ち"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-006"
+    "status": "verified"
+  - "id": "xy-ch96-ref-007"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-021"
+      "translation_span":
+        "start": 103
+        "end": 113
+        "exact": "尺や工の音符を用いる"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-007"
+    "status": "verified"
+  - "id": "xy-ch96-ref-008"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-021"
+      "translation_span":
+        "start": 247
+        "end": 266
+        "exact": "水懺（すいせん）を拝して怨みや罪を解き"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-008"
+    "status": "verified"
+  - "id": "xy-ch96-ref-009"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-022"
+      "translation_span":
+        "start": 305
+        "end": 319
+        "exact": "聖旨に背くことになりましょう"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-009"
+    "status": "verified"
+  - "id": "xy-ch96-ref-010"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-023"
+      "translation_span":
+        "start": 298
+        "end": 316
+        "exact": "胃の中のかゆみを掻いているだけの畜生"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-010"
+    "status": "verified"
+  - "id": "xy-ch96-ref-011"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-024"
+      "translation_span":
+        "start": 103
+        "end": 113
+        "exact": "この半月は、夫の功徳"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-011"
+    "status": "verified"
+  - "id": "xy-ch96-ref-012"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-024"
+      "translation_span":
+        "start": 526
+        "end": 533
+        "exact": "お二人のご厚意"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-012"
+    "status": "verified"
+  - "id": "xy-ch96-ref-013"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-025"
+      "translation_span":
+        "start": 106
+        "end": 117
+        "exact": "何をそんなに急ぐんです"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-013"
+    "status": "verified"
+  - "id": "xy-ch96-ref-014"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-026"
+      "translation_span":
+        "start": 66
+        "end": 80
+        "exact": "明朝、必ずお見送りいたします"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-014"
+    "status": "verified"
+  - "id": "xy-ch96-ref-015"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-030"
+      "translation_span":
+        "start": 157
+        "end": 173
+        "exact": "師は通行文書の入った袋を胸に掛け"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-015"
+    "status": "verified"
+  - "id": "xy-ch96-ref-016"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-031"
+      "translation_span":
+        "start": 155
+        "end": 178
+        "exact": "獅子に乗る仙人をかたどった獅仙糖（しせんとう）"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-016"
+    "status": "verified"
+  - "id": "xy-ch96-ref-017"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-032"
+      "translation_span":
+        "start": 80
+        "end": 98
+        "exact": "それに同じ信仰を持つ斎公（さいこう）"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-017"
+    "status": "verified"
+  - "id": "xy-ch96-ref-018"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-032"
+      "translation_span":
+        "start": 336
+        "end": 353
+        "exact": "腹に自分だけの隠し場所がありますか"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-018"
+    "status": "verified"
+  - "id": "xy-ch96-ref-019"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-033"
+      "translation_span":
+        "start": 143
+        "end": 153
+        "exact": "三蔵は寇洪に礼を言い"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-019"
+    "status": "verified"
+  - "id": "xy-ch96-ref-020"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch96-036"
+      "translation_span":
+        "start": 240
+        "end": 260
+        "exact": "ここには、きっと廟を守る者がいるでしょう"
+    "to":
+      "type": "note"
+      "id": "xy-ch96-note-020"
+    "status": "verified"
+"groups":
+  - "id": "xy-ch96-poem-002"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch96-002"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch96-poem-005"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch96-005"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch96-poem-011"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch96-011"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch96-poem-013"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch96-013"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch96-poem-018"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch96-018"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch96-poem-021"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch96-021"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch96-poem-028"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch96-028"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch96-poem-031"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch96-031"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch96-poem-034"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch96-034"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch96-poem-037"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch96-037"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+"assets": []
+"figures": []
+"aliases": []
+"terminology": []
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-25T11:17:00Z"
+    "reviewed_by": "independent AI reviewer /review_xiyouji_chapter_096"
+    "content_sha256": "b621ff435346bc7ec158148053ecbbb7de72cbadd40760d2b09715a9ba100ad5"
+"provenance":
+  "source_revision": "1500608"
+  "source_display_lines": 219
+  "actual_acquisition_url": "https://zh.wikisource.org/w/index.php?title=西遊記/第096回&oldid=1500608"
+  "fixed_url_fetch_success": true
+  "normalization_ja": "表示詩行の四空白字下げのみ除去。連続する詩行と回番号・回題はLFで結合。原字・句読点は不変。"
+  "review_limit_ja": "別担当AIによる全原文・全訳文・全注・全初出読みと語釈・辞書候補の独立レビューを完了。固定版の直接再取得は失敗したため保存実取得応答との照合。専門家校訂・実ブラウザ表示確認・公開確認は未実施。"
+  "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-096-source-1500608-zh-hant.txt"
+  "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-096-manifest-1500608.json"
+  "dictionary_base_sha256": "79bba91fafe452d13abf54b2a6e0fb9a62138817432b5b8645ffa9029f09f346"
+  "dictionary_effective_base_sha256": "5f428249ddca4e55cc013e6f1df07952fafcdf654309bfd513fb209db31a6ce7"
+  "dictionary_dependencies":
+    "predecessor_chapter": 95
+    "predecessor_READY_sha256": "1b710e54ce217af4a36824c5aff0f3f7e8f9e53346f76a57bc001f4cf067081c"
+    "predecessor_freeze_files_verified": 480
+    "effective_base_sha256": "5f428249ddca4e55cc013e6f1df07952fafcdf654309bfd513fb209db31a6ce7"
+    "predecessor_effective_dictionary_sha256": "5f428249ddca4e55cc013e6f1df07952fafcdf654309bfd513fb209db31a6ce7"
+    "base_dictionary_sha256": "79bba91fafe452d13abf54b2a6e0fb9a62138817432b5b8645ffa9029f09f346"
+    "verified_receipt": "reviewed-predecessor-095-receipt.json"
+    "verified_receipt_sha256": "cc1b7083b5763c21f5caf2b32fb23bc2eadb843a772a6959dc9ed1ee0245538d"
+    "predecessor_dependency_manifest": "reviewed-predecessor-095/dictionary-dependencies.json"
+    "predecessor_dependency_sha256": "de8f84e8135abd8aad11b987fedc438b583425835be3301a8e29e89e1415628d"
+    "historical_author_chain": "review-author-inputs/dictionary-dependencies.json"
+    "historical_author_chain_sha256": "2de0ad75bcf5dc284569b0ae54755f47ee0d04108d06c5b1e8376fd4c55d4442"
+    "application": "Exact independently reviewed095 effective dictionary -> exact own096 guarded patch. Inherit upstream087/088 corrections once; do not apply old pending bridges again."
+    "provisional": false
+    "warning": "Never replace canonical dictionary wholesale with effective dictionary."
+  "preliminary_parent_review_ja": "親担当が全38単位の予備訳を作成。引継ぎ作者が固定版保存本文と全38訳文・10韻文を再読し、語義・親族関係・時間と名前の順序を訂正・調査した。この作者時点の自己照合と、その後の別担当AIによる独立レビューを区別する。"
+  "independent_review_ja": "作者凍結全232ファイルを保存してから、別担当AIが全38原文単位・10韻文・58訳文表示単位・73初出読み・46段落末語義・20注全文とクリックSTART・全59旧候補全文・27新規と3更新の旧新全体を独立照合した。追加の確実な本文修正は見つからず、作者本文を保持。事林広記・姨兄・拿班・獅仙糖の重要根拠を別取得で確認。固定URLとSinica PDFの取得失敗を未確認として記録。"
+"lexicon":
+  "dictionary_id": "xiyouji"
+  "file": "lexicons/xiyouji.yaml"
+  "first_occurrences":
+    - "entry_id": "xy-entry-0780"
+      "form_id": "xy-form-0894"
+      "segment_id": "xy-ch96-002"
+      "translation_span":
+        "start": 4
+        "end": 5
+        "exact": "色"
+      "rendered_text": "色（しき）"
+      "gloss_ja": "仏教で、形を持つ物質的なもの。"
+    - "entry_id": "xy-term-099"
+      "form_id": "xy-term-099-form"
+      "segment_id": "xy-ch96-002"
+      "translation_span":
+        "start": 21
+        "end": 22
+        "exact": "空"
+      "rendered_text": "空（くう）"
+      "gloss_ja": "あらゆるものに固定不変の実体はないという仏教の考え。"
+    - "entry_id": "xy-entry-0874"
+      "form_id": "xy-form-1610"
+      "segment_id": "xy-ch96-003"
+      "translation_span":
+        "start": 3
+        "end": 5
+        "exact": "三蔵"
+      "rendered_text": "三蔵（さんぞう）"
+    - "entry_id": "xy-entry-0822"
+      "form_id": "xy-ch93-gold-monastery-form"
+      "segment_id": "xy-ch96-003"
+      "translation_span":
+        "start": 20
+        "end": 23
+        "exact": "布金寺"
+      "rendered_text": "布金寺（ふきんじ）"
+      "gloss_ja": "一行が先に滞在した寺。"
+    - "entry_id": "xy-sun-wukong"
+      "form_id": "xy-wukong-short-form"
+      "segment_id": "xy-ch96-006"
+      "translation_span":
+        "start": 87
+        "end": 89
+        "exact": "悟空"
+      "rendered_text": "悟空（ごくう）"
+    - "entry_id": "xy-entry-0902"
+      "form_id": "xy-form-1939"
+      "segment_id": "xy-ch96-006"
+      "translation_span":
+        "start": 111
+        "end": 113
+        "exact": "八戒"
+      "rendered_text": "八戒（はっかい）"
+    - "entry_id": "xy-entry-0687"
+      "form_id": "xy-form-1689"
+      "segment_id": "xy-ch96-007"
+      "translation_span":
+        "start": 342
+        "end": 344
+        "exact": "仏祖"
+      "rendered_text": "仏祖（ぶっそ）"
+    - "entry_id": "xy-ch96-tongtai"
+      "form_id": "xy-ch96-tongtai-form"
+      "segment_id": "xy-ch96-007"
+      "translation_span":
+        "start": 423
+        "end": 426
+        "exact": "銅台府"
+      "rendered_text": "銅台府（どうたいふ）"
+      "gloss_ja": "この町の府の名。"
+    - "entry_id": "xy-ch96-diling"
+      "form_id": "xy-ch96-diling-form"
+      "segment_id": "xy-ch96-007"
+      "translation_span":
+        "start": 448
+        "end": 451
+        "exact": "地霊県"
+      "rendered_text": "地霊県（ちれいけん）"
+      "gloss_ja": "老人が銅台府の奥にあると説明する県。"
+    - "entry_id": "xy-ch60-pailou"
+      "form_id": "xy-ch96-paifang-form"
+      "segment_id": "xy-ch96-007"
+      "translation_span":
+        "start": 489
+        "end": 491
+        "exact": "牌坊"
+      "rendered_text": "牌坊（はいぼう）"
+      "gloss_ja": "柱と屋根からなる門形の建造物。"
+    - "entry_id": "xy-ch96-tiger-gate"
+      "form_id": "xy-ch96-tiger-gate-form"
+      "segment_id": "xy-ch96-007"
+      "translation_span":
+        "start": 515
+        "end": 519
+        "exact": "虎坐門楼"
+      "rendered_text": "虎坐門楼（こざもんろう）"
+      "gloss_ja": "虎がうずくまるような構えと解される門楼。具体的な形は未詳。"
+    - "entry_id": "xy-ch96-kou-hong"
+      "form_id": "xy-ch96-kou-yuanwai-form"
+      "segment_id": "xy-ch96-007"
+      "translation_span":
+        "start": 533
+        "end": 536
+        "exact": "寇員外"
+      "rendered_text": "寇員外（こういんがい）"
+      "gloss_ja": "寇という姓の主人への呼び方。員外は裕福な家の主人への敬称。"
+    - "entry_id": "xy-entry-0885"
+      "form_id": "xy-form-1028"
+      "segment_id": "xy-ch96-007"
+      "translation_span":
+        "start": 768
+        "end": 771
+        "exact": "沙悟浄"
+      "rendered_text": "沙悟浄（さごじょう）"
+    - "entry_id": "xy-ch96-monks-sign"
+      "form_id": "xy-ch96-monks-sign-form"
+      "segment_id": "xy-ch96-009"
+      "translation_span":
+        "start": 38
+        "end": 42
+        "exact": "万僧不阻"
+      "rendered_text": "万僧不阻（まんそうふそ）"
+      "gloss_ja": "どれほど多くの僧でも拒まない、という掲示。"
+    - "entry_id": "xy-entry-0863"
+      "form_id": "xy-form-0989"
+      "segment_id": "xy-ch96-010"
+      "translation_span":
+        "start": 322
+        "end": 324
+        "exact": "袈裟"
+      "rendered_text": "袈裟（けさ）"
+    - "entry_id": "xy-entry-0202"
+      "form_id": "xy-form-0216"
+      "segment_id": "xy-ch96-011"
+      "translation_span":
+        "start": 60
+        "end": 62
+        "exact": "紫金"
+      "rendered_text": "紫金（しきん）"
+      "gloss_ja": "紫を帯びるほど上質とされる金。"
+    - "entry_id": "xy-entry-0464"
+      "form_id": "xy-form-0525"
+      "segment_id": "xy-ch96-011"
+      "translation_span":
+        "start": 104
+        "end": 106
+        "exact": "八宝"
+      "rendered_text": "八宝（はっぽう）"
+      "gloss_ja": "めでたい宝物をかたどる八つの意匠。"
+    - "entry_id": "xy-ch83-carved-lacquer"
+      "form_id": "xy-ch83-carved-lacquer-form"
+      "segment_id": "xy-ch96-011"
+      "translation_span":
+        "start": 156
+        "end": 158
+        "exact": "彫漆"
+      "rendered_text": "彫漆（ちょうしつ）"
+      "gloss_ja": "幾重にも塗り重ねた漆に模様を彫る工芸。"
+    - "entry_id": "xy-ch96-aloeswood"
+      "form_id": "xy-ch96-aloeswood-form"
+      "segment_id": "xy-ch96-011"
+      "translation_span":
+        "start": 185
+        "end": 187
+        "exact": "沈香"
+      "rendered_text": "沈香（じんこう）"
+      "gloss_ja": "香炉でたく香木の一種。"
+    - "entry_id": "xy-entry-1344"
+      "form_id": "xy-form-1546"
+      "segment_id": "xy-ch96-011"
+      "translation_span":
+        "start": 194
+        "end": 196
+        "exact": "白檀"
+      "rendered_text": "白檀（びゃくだん）"
+    - "entry_id": "xy-entry-0893"
+      "form_id": "xy-form-1023"
+      "segment_id": "xy-ch96-011"
+      "translation_span":
+        "start": 266
+        "end": 268
+        "exact": "玻璃"
+      "rendered_text": "玻璃（はり）"
+      "gloss_ja": "透明なガラスや水晶の類を指す古い呼び名。"
+    - "entry_id": "xy-entry-0270"
+      "form_id": "xy-form-0297"
+      "segment_id": "xy-ch96-011"
+      "translation_span":
+        "start": 285
+        "end": 287
+        "exact": "瑠璃"
+      "rendered_text": "瑠璃（るり）"
+    - "entry_id": "xy-entry-0373"
+      "form_id": "xy-form-0413"
+      "segment_id": "xy-ch96-011"
+      "translation_span":
+        "start": 307
+        "end": 308
+        "exact": "磬"
+      "rendered_text": "磬（けい）"
+      "gloss_ja": "打ち鳴らして音を出す仏具・楽器。"
+    - "entry_id": "xy-ch96-pepper-coating"
+      "form_id": "xy-ch96-pepper-coating-form"
+      "segment_id": "xy-ch96-013"
+      "translation_span":
+        "start": 108
+        "end": 110
+        "exact": "椒粉"
+      "rendered_text": "椒粉（しょうふん）"
+      "gloss_ja": "椒の香りを含む塗料と解した語。配合は未詳。"
+    - "entry_id": "xy-ch96-dragon-whisk"
+      "form_id": "xy-ch96-dragon-whisk-form"
+      "segment_id": "xy-ch96-013"
+      "translation_span":
+        "start": 192
+        "end": 194
+        "exact": "竜髯"
+      "rendered_text": "竜髯（りゅうぜん）"
+      "gloss_ja": "竜のひげ。ここでは払子の伝承的・詩的な形容。"
+    - "entry_id": "xy-vocab-104"
+      "form_id": "xy-vocab-104-form"
+      "segment_id": "xy-ch96-013"
+      "translation_span":
+        "start": 202
+        "end": 204
+        "exact": "払子"
+      "rendered_text": "払子（ほっす）"
+      "gloss_ja": "柄に毛などを束ねた、仏道の人が持つ道具。"
+    - "entry_id": "xy-entry-0847"
+      "form_id": "xy-form-0971"
+      "segment_id": "xy-ch96-014"
+      "translation_span":
+        "start": 136
+        "end": 138
+        "exact": "東土"
+      "rendered_text": "東土（とうど）"
+    - "entry_id": "xy-entry-0792"
+      "form_id": "xy-form-1078"
+      "segment_id": "xy-ch96-014"
+      "translation_span":
+        "start": 144
+        "end": 146
+        "exact": "大唐"
+      "rendered_text": "大唐（だいとう）"
+    - "entry_id": "xy-entry-0709"
+      "form_id": "xy-form-0814"
+      "segment_id": "xy-ch96-014"
+      "translation_span":
+        "start": 172
+        "end": 174
+        "exact": "霊山"
+      "rendered_text": "霊山（れいざん）"
+    - "entry_id": "xy-ch96-kou-hong"
+      "form_id": "xy-ch96-kou-hong-form"
+      "segment_id": "xy-ch96-014"
+      "translation_span":
+        "start": 281
+        "end": 283
+        "exact": "寇洪"
+      "rendered_text": "寇洪（こうこう）"
+    - "entry_id": "xy-ch96-kou-hong"
+      "form_id": "xy-ch96-dakuan-form"
+      "segment_id": "xy-ch96-014"
+      "translation_span":
+        "start": 292
+        "end": 294
+        "exact": "大寛"
+      "rendered_text": "大寛（たいかん）"
+      "gloss_ja": "寇洪の字。"
+    - "entry_id": "xy-term-089"
+      "form_id": "xy-term-089-form"
+      "segment_id": "xy-ch96-014"
+      "translation_span":
+        "start": 577
+        "end": 578
+        "exact": "里"
+      "rendered_text": "里（り）"
+      "gloss_ja": "中国の距離の単位。一定の現代距離には換算しない。"
+    - "entry_id": "xy-term-058"
+      "form_id": "xy-term-058-form"
+      "segment_id": "xy-ch96-015"
+      "translation_span":
+        "start": 635
+        "end": 637
+        "exact": "菩薩"
+      "rendered_text": "菩薩（ぼさつ）"
+    - "entry_id": "xy-ch96-xiucai"
+      "form_id": "xy-ch96-xiucai-form"
+      "segment_id": "xy-ch96-016"
+      "translation_span":
+        "start": 64
+        "end": 66
+        "exact": "秀才"
+      "rendered_text": "秀才（しゅうさい）"
+      "gloss_ja": "科挙制度で読書人に用いられた称号。"
+    - "entry_id": "xy-ch96-kou-liang"
+      "form_id": "xy-ch96-kou-liang-form"
+      "segment_id": "xy-ch96-016"
+      "translation_span":
+        "start": 143
+        "end": 145
+        "exact": "寇梁"
+      "rendered_text": "寇梁（こうりょう）"
+    - "entry_id": "xy-ch96-kou-dong"
+      "form_id": "xy-ch96-kou-dong-form"
+      "segment_id": "xy-ch96-016"
+      "translation_span":
+        "start": 153
+        "end": 155
+        "exact": "寇棟"
+      "rendered_text": "寇棟（こうとう）"
+    - "entry_id": "xy-term-031"
+      "form_id": "xy-term-031-form"
+      "segment_id": "xy-ch96-016"
+      "translation_span":
+        "start": 356
+        "end": 360
+        "exact": "南贍部洲"
+      "rendered_text": "南贍部洲（なんせんぶしゅう）"
+    - "entry_id": "xy-ch96-shilin"
+      "form_id": "xy-ch96-shilin-form"
+      "segment_id": "xy-ch96-016"
+      "translation_span":
+        "start": 418
+        "end": 422
+        "exact": "事林広記"
+      "rendered_text": "事林広記（じりんこうき）"
+      "gloss_ja": "さまざまな知識を集めた中国の類書。"
+    - "entry_id": "xy-term-030"
+      "form_id": "xy-term-030-form"
+      "segment_id": "xy-ch96-016"
+      "translation_span":
+        "start": 461
+        "end": 465
+        "exact": "西牛賀洲"
+      "rendered_text": "西牛賀洲（さいごかしゅう）"
+    - "entry_id": "xy-term-029"
+      "form_id": "xy-term-029-form"
+      "segment_id": "xy-ch96-016"
+      "translation_span":
+        "start": 482
+        "end": 486
+        "exact": "東勝神洲"
+      "rendered_text": "東勝神洲（とうしょうしんしゅう）"
+    - "entry_id": "xy-ch68-juan-food"
+      "form_id": "xy-ch96-juan-short-form"
+      "segment_id": "xy-ch96-018"
+      "translation_span":
+        "start": 141
+        "end": 142
+        "exact": "\U00029707"
+      "rendered_text": "\U00029707（けん）"
+      "gloss_ja": "粉で作った生地を巻いた食物。具は特定していない。"
+    - "entry_id": "xy-ch96-ritual-monks"
+      "form_id": "xy-ch96-ritual-monks-form"
+      "segment_id": "xy-ch96-020"
+      "translation_span":
+        "start": 31
+        "end": 34
+        "exact": "応仏僧"
+      "rendered_text": "応仏僧（おうぶつそう）"
+      "gloss_ja": "招かれて法事や読経を営む僧。"
+    - "entry_id": "xy-ch96-nao"
+      "form_id": "xy-ch96-nao-form"
+      "segment_id": "xy-ch96-021"
+      "translation_span":
+        "start": 47
+        "end": 48
+        "exact": "鐃"
+      "rendered_text": "鐃（にょう）"
+      "gloss_ja": "仏事や楽隊で打ち鳴らす銅製の打楽器。"
+    - "entry_id": "xy-entry-0967"
+      "form_id": "xy-form-1114"
+      "segment_id": "xy-ch96-021"
+      "translation_span":
+        "start": 58
+        "end": 59
+        "exact": "笙"
+      "rendered_text": "笙（しょう）"
+      "gloss_ja": "多数の管を束ねて吹く楽器。"
+    - "entry_id": "xy-ch96-yunluo"
+      "form_id": "xy-ch96-yunluo-form"
+      "segment_id": "xy-ch96-021"
+      "translation_span":
+        "start": 80
+        "end": 82
+        "exact": "雲鑼"
+      "rendered_text": "雲鑼（うんら）"
+      "gloss_ja": "小さな銅鑼を枠に並べた楽器。"
+    - "entry_id": "xy-entry-1433"
+      "form_id": "xy-form-1664"
+      "segment_id": "xy-ch96-021"
+      "translation_span":
+        "start": 178
+        "end": 181
+        "exact": "孔雀経"
+      "rendered_text": "孔雀経（くじゃくきょう）"
+      "gloss_ja": "孔雀明王の呪やその功徳を説く経典の通称。"
+    - "entry_id": "xy-ch96-medicine-lamp"
+      "form_id": "xy-ch96-medicine-lamp-form"
+      "segment_id": "xy-ch96-021"
+      "translation_span":
+        "start": 215
+        "end": 218
+        "exact": "薬師灯"
+      "rendered_text": "薬師灯（やくしとう）"
+      "gloss_ja": "薬師仏へ供える灯火。"
+    - "entry_id": "xy-ch96-water-repentance"
+      "form_id": "xy-ch96-water-repentance-form"
+      "segment_id": "xy-ch96-021"
+      "translation_span":
+        "start": 247
+        "end": 249
+        "exact": "水懺"
+      "rendered_text": "水懺（すいせん）"
+      "gloss_ja": "罪や怨みを懺悔する仏教の儀礼・その文書。"
+    - "entry_id": "xy-ch96-huayan"
+      "form_id": "xy-ch96-huayan-form"
+      "segment_id": "xy-ch96-021"
+      "translation_span":
+        "start": 268
+        "end": 271
+        "exact": "華厳経"
+      "rendered_text": "華厳経（けごんきょう）"
+      "gloss_ja": "仏の悟りと菩薩の実践などを説く大乗仏教の経典。"
+    - "entry_id": "xy-entry-0777"
+      "form_id": "xy-form-0891"
+      "segment_id": "xy-ch96-021"
+      "translation_span":
+        "start": 291
+        "end": 293
+        "exact": "三乗"
+      "rendered_text": "三乗（さんじょう）"
+      "gloss_ja": "声聞・縁覚・菩薩の三つの悟りへの道。"
+    - "entry_id": "xy-entry-0711"
+      "form_id": "xy-form-1769"
+      "segment_id": "xy-ch96-022"
+      "translation_span":
+        "start": 23
+        "end": 26
+        "exact": "雷音寺"
+      "rendered_text": "雷音寺（らいおんじ）"
+    - "entry_id": "xy-entry-1452"
+      "form_id": "xy-form-1683"
+      "segment_id": "xy-ch96-023"
+      "translation_span":
+        "start": 252
+        "end": 254
+        "exact": "回向"
+      "rendered_text": "回向（えこう）"
+      "gloss_ja": "修めた功徳を仏道や他者へ振り向けること。"
+    - "entry_id": "xy-entry-1471"
+      "form_id": "xy-form-1721"
+      "segment_id": "xy-ch96-025"
+      "translation_span":
+        "start": 258
+        "end": 261
+        "exact": "緊箍呪"
+      "rendered_text": "緊箍呪（きんこじゅ）"
+      "gloss_ja": "悟空の頭の輪を締めつける呪文。"
+    - "entry_id": "xy-ch96-nanlai"
+      "form_id": "xy-ch96-nanlai-form"
+      "segment_id": "xy-ch96-026"
+      "translation_span":
+        "start": 187
+        "end": 190
+        "exact": "南来寺"
+      "rendered_text": "南来寺（なんらいじ）"
+    - "entry_id": "xy-ch96-dongyue"
+      "form_id": "xy-ch96-dongyue-form"
+      "segment_id": "xy-ch96-026"
+      "translation_span":
+        "start": 204
+        "end": 207
+        "exact": "東岳観"
+      "rendered_text": "東岳観（とうがくかん）"
+    - "entry_id": "xy-entry-1139"
+      "form_id": "xy-form-1299"
+      "segment_id": "xy-ch96-026"
+      "translation_span":
+        "start": 228
+        "end": 231
+        "exact": "巳の刻"
+      "rendered_text": "巳の刻（みのこく）"
+      "gloss_ja": "おおむね午前九時から十一時ごろに当たる時刻。"
+    - "entry_id": "xy-vocab-116"
+      "form_id": "xy-vocab-116-form"
+      "segment_id": "xy-ch96-029"
+      "translation_span":
+        "start": 4
+        "end": 6
+        "exact": "三更"
+      "rendered_text": "三更（さんこう）"
+      "gloss_ja": "夜を五つに分けたうちの第三の時。おおむね深夜に当たる。"
+    - "entry_id": "xy-entry-1405"
+      "form_id": "xy-form-1628"
+      "segment_id": "xy-ch96-029"
+      "translation_span":
+        "start": 13
+        "end": 15
+        "exact": "四更"
+      "rendered_text": "四更（しこう）"
+      "gloss_ja": "夜を五つに分けたうちの第四の時。"
+    - "entry_id": "xy-entry-1347"
+      "form_id": "xy-form-2068"
+      "segment_id": "xy-ch96-030"
+      "translation_span":
+        "start": 136
+        "end": 139
+        "exact": "九環杖"
+      "rendered_text": "九環杖（きゅうかんじょう）"
+      "gloss_ja": "三蔵が持つ、九つの輪のある錫杖。"
+    - "entry_id": "xy-entry-1742"
+      "form_id": "xy-form-2070"
+      "segment_id": "xy-ch96-031"
+      "translation_span":
+        "start": 24
+        "end": 28
+        "exact": "寿山福海"
+      "rendered_text": "寿山福海（じゅざんふくかい）"
+      "gloss_ja": "長寿を山、幸福を海にたとえて祝う言葉。ここではその吉祥画。"
+    - "entry_id": "xy-ch96-quewei-incense"
+      "form_id": "xy-ch96-quewei-incense-form"
+      "segment_id": "xy-ch96-031"
+      "translation_span":
+        "start": 84
+        "end": 87
+        "exact": "鵲尾炉"
+      "rendered_text": "鵲尾炉（じゃくびろ）"
+      "gloss_ja": "カササギの尾のような柄を持つ香炉。"
+    - "entry_id": "xy-ch79-lion-immortal-candy"
+      "form_id": "xy-ch79-lion-immortal-candy-form"
+      "segment_id": "xy-ch96-031"
+      "translation_span":
+        "start": 168
+        "end": 171
+        "exact": "獅仙糖"
+      "rendered_text": "獅仙糖（しせんとう）"
+      "gloss_ja": "獅子に乗る仙人などを型どる砂糖の飾り菓子。"
+    - "entry_id": "xy-ch96-fasting-layman"
+      "form_id": "xy-ch96-fasting-layman-form"
+      "segment_id": "xy-ch96-032"
+      "translation_span":
+        "start": 90
+        "end": 92
+        "exact": "斎公"
+      "rendered_text": "斎公（さいこう）"
+      "gloss_ja": "斎戒や施食などをする在家の信者。"
+    - "entry_id": "xy-entry-0763"
+      "form_id": "xy-form-0876"
+      "segment_id": "xy-ch96-032"
+      "translation_span":
+        "start": 146
+        "end": 147
+        "exact": "瑟"
+      "rendered_text": "瑟（しつ）"
+      "gloss_ja": "多数の弦を張った中国の弦楽器。"
+    - "entry_id": "xy-ch96-meal-scripture"
+      "form_id": "xy-ch96-meal-scripture-form"
+      "segment_id": "xy-ch96-033"
+      "translation_span":
+        "start": 31
+        "end": 34
+        "exact": "謁斎経"
+      "rendered_text": "謁斎経（えっさいきょう）"
+      "gloss_ja": "この食事の場で三蔵が唱える経の題名。具体的な本文は未詳。"
+    - "entry_id": "xy-entry-1883"
+      "form_id": "xy-form-2241"
+      "segment_id": "xy-ch96-033"
+      "translation_span":
+        "start": 487
+        "end": 489
+        "exact": "長亭"
+      "rendered_text": "長亭（ちょうてい）"
+      "gloss_ja": "街道に設けられた休息や送迎のための亭。"
+    - "entry_id": "xy-entry-0687"
+      "form_id": "xy-form-0791"
+      "segment_id": "xy-ch96-034"
+      "translation_span":
+        "start": 33
+        "end": 35
+        "exact": "如来"
+      "rendered_text": "如来（にょらい）"
+    - "entry_id": "xy-entry-0922"
+      "form_id": "xy-form-1063"
+      "segment_id": "xy-ch96-035"
+      "translation_span":
+        "start": 240
+        "end": 242
+        "exact": "長安"
+      "rendered_text": "長安（ちょうあん）"
+    - "entry_id": "xy-ch96-huaguang-shrine"
+      "form_id": "xy-ch96-huaguang-shrine-form"
+      "segment_id": "xy-ch96-036"
+      "translation_span":
+        "start": 120
+        "end": 124
+        "exact": "華光行院"
+      "rendered_text": "華光行院（かこうぎょういん）"
+      "gloss_ja": "華光を祀る廟の名。"
+    - "entry_id": "xy-ch96-huaguang"
+      "form_id": "xy-ch96-huaguang-form"
+      "segment_id": "xy-ch96-036"
+      "translation_span":
+        "start": 156
+        "end": 160
+        "exact": "華光菩薩"
+      "rendered_text": "華光菩薩（かこうぼさつ）"
+    - "entry_id": "xy-ch96-fire-buddha"
+      "form_id": "xy-ch96-fire-buddha-form"
+      "segment_id": "xy-ch96-036"
+      "translation_span":
+        "start": 169
+        "end": 174
+        "exact": "火焔五光仏"
+      "rendered_text": "火焔五光仏（かえんごこうぶつ）"
+    - "entry_id": "xy-ch96-poison-fire-king"
+      "form_id": "xy-ch96-poison-fire-king-form"
+      "segment_id": "xy-ch96-036"
+      "translation_span":
+        "start": 189
+        "end": 193
+        "exact": "毒火鬼王"
+      "rendered_text": "毒火鬼王（どくかきおう）"
+    - "entry_id": "xy-ch96-huaguang"
+      "form_id": "xy-ch96-wuxian-form"
+      "segment_id": "xy-ch96-036"
+      "translation_span":
+        "start": 218
+        "end": 222
+        "exact": "五顕霊官"
+      "rendered_text": "五顕霊官（ごけんれいかん）"

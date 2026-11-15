@@ -150433,7 +150433,7 @@
     "precision": "page"
     "url": "https://www.psylib.org.ua/books/stank01/000/img01.gif"
 - "id": "self-diagram-01-image-svg"
-  "status": "available"
+  "status": "planned"
   "path": "assets/stanislavsky-actor-work-on-self/self-diagram-01-image-svg.svg"
   "media_type": "image/svg+xml"
   "rights":
@@ -150491,7 +150491,7 @@
     "precision": "page"
     "url": "https://www.psylib.org.ua/books/stank01/000/img02.gif"
 - "id": "self-diagram-02-image-svg"
-  "status": "available"
+  "status": "planned"
   "path": "assets/stanislavsky-actor-work-on-self/self-diagram-02-image-svg.svg"
   "media_type": "image/svg+xml"
   "rights":
@@ -150549,7 +150549,7 @@
     "precision": "page"
     "url": "https://www.psylib.org.ua/books/stank01/000/img03.gif"
 - "id": "self-diagram-03-image-svg"
-  "status": "available"
+  "status": "planned"
   "path": "assets/stanislavsky-actor-work-on-self/self-diagram-03-image-svg.svg"
   "media_type": "image/svg+xml"
   "rights":
@@ -150607,7 +150607,7 @@
     "precision": "page"
     "url": "https://www.psylib.org.ua/books/stank01/000/img04.gif"
 - "id": "self-diagram-04-image-svg"
-  "status": "available"
+  "status": "planned"
   "path": "assets/stanislavsky-actor-work-on-self/self-diagram-04-image-svg.svg"
   "media_type": "image/svg+xml"
   "rights":
@@ -150669,6 +150669,13 @@
   "full_review":
     "status": "not_started"
 "provenance":
+  publication_storage_cleanup:
+    unbundled_asset_ids:
+    - self-diagram-01-image-svg
+    - self-diagram-02-image-svg
+    - self-diagram-03-image-svg
+    - self-diagram-04-image-svg
+    description_ja: 公開物を本文用の画像に限定したため、本文図から参照されない画像ファイルを非同梱とし、対応Assetのstatusのみplannedへ変更した。元のパス、実測済み寸法、バイト数、SHA-256、出典、権利、切り出し座標と加工履歴は過去の画像の来歴として保持する。本文・訳文・固定ID・図・参照・注・既存の校閲状態は変更していない。これは梱包変更の検証であり、新たな全文校閲ではない。
   "original_repository": "https://github.com/cacazu/nihonjinbun"
   "original_commit": "a63dfa5727d2eca74c36e2fa54c010fa2a42be8e"
   "original_file": "translations/stanislavsky/stanislavsky-actor-work-on-self-ru-ja.yaml"

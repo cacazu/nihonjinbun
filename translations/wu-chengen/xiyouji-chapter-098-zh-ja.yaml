@@ -1,0 +1,3019 @@
+"schema_version": "2.0"
+"work_id": "xiyouji-chapter-098-zh-ja"
+"metadata":
+  "title_ja": "西遊記 第九十八回"
+  "title_original": "西遊記 第九十八回 猿熟馬馴方脫殼 功成行滿見真如"
+  "original_languages":
+    - "zh-Hant"
+  "target_language": "ja"
+  "contributors":
+    - "id": "traditional-author"
+      "name_ja": "呉承恩（伝）"
+      "name_original": "吳承恩"
+      "roles":
+        - "author"
+    - "id": "ai-translator"
+      "name_ja": "ChatGPT（AIによる新訳）"
+      "name_original": null
+      "roles":
+        - "translator"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC-BY-SA-4.0"
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    "attribution": "『西遊記』第九十八回 日本語新訳（AI生成）。原文は中文維基文庫「西遊記/第098回」固定版oldid=1500530。"
+    "note_ja": "電子翻刻の帰属と継承条件を保持するためCC BY-SA 4.0を明示。公有の原著とは区別する。AIによる新訳であり、専門家による独立校訂は未実施。"
+  "genres":
+    - "中国古典文学"
+    - "神魔小説"
+    - "物語"
+  "reader_notes_ja":
+    - "回題から結語までの全45対訳単位。全散文・会話・12韻文と二つの35項目経典目録・数量と列挙を収録。"
+    - "中文維基文庫の固定版oldid=1500530を固定リンクから実際に取得し、全309表示行を保存。版表示は2018年9月11日06:56。秒とタイムゾーンは未確認。"
+    - "日本語はAIによる新訳。全単位の作者自己照合後、別のAIレビュアーが全原文・訳文、読み・語釈・注を独立通読した。人間・専門家の校訂と実ブラウザ表示確認は未実施。"
+    - "通常名は悟空・三蔵・八戒・沙悟浄。道童・船頭の正体は語り手が明かす順を守る。経典目録の異字・巻数と謝礼の要求を省略・修正しない。"
+"sources":
+  - "id": "wikisource-xiyou-ch98-1500530"
+    "role": "primary"
+    "title": "西遊記/第098回"
+    "languages":
+      - "zh-Hant"
+    "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "edition": "中文維基文庫 固定版oldid=1500530。版表示2018年9月11日06:56（秒とタイムゾーン未確認）。固定リンクから実際に取得。"
+    "contributor_ids":
+      - "traditional-author"
+    "work_rights":
+      "status": "public_domain"
+      "note_ja": "明代成立の古典本文。伝統的には呉承恩作とされるが、著者帰属には議論がある。"
+    "transcription_rights":
+      "status": "licensed"
+      "license_id": "CC-BY-SA-4.0"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "evidence_url": "https://zh.wikisource.org/wiki/Wikisource:Copyrights"
+      "attribution": "中文維基文庫「西遊記/第098回」の寄稿者。固定版oldid=1500530。"
+    "description_ja": "固定版の全309表示行を保存。不変換表示の原字と句読点を保持し、詩の四空白字下げだけを除いた。"
+    "local_path": "translations/wu-chengen/verification/xiyouji-chapter-098-source-1500530-zh-hant.txt"
+    "sha256": "0742e94d0f87f25241773aada14b4313a36dcce6862792601c0a5c5f653423b2"
+  - "id": "xy-ch98-dantai"
+    "role": "comparison"
+    "title": "漢典「丹臺」（検索表示）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://zdic.net/hans/丹臺"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch98-three-refuges"
+    "role": "comparison"
+    "title": "コトバンク「三帰」（日本語辞典の検索表示）"
+    "languages":
+      - "ja"
+    "url": "https://kotobank.jp/word/三帰-513104"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch98-six-dusts"
+    "role": "comparison"
+    "title": "コトバンク「六塵」（日本語辞典の検索表示）"
+    "languages":
+      - "ja"
+    "url": "https://kotobank.jp/word/六塵-663391"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch98-han-character"
+    "role": "comparison"
+    "title": "漢典「\U00026A45」（検索表示。直接取得失敗）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://zdic.net/hant/\U00026A45"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch98-tang-character"
+    "role": "comparison"
+    "title": "国学大師「\U00026A80」（字形構成の検索表示）"
+    "languages":
+      - "zh-Hant"
+    "url": "https://www.guoxuedashi.com/zidian/jg_55295a.html"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch98-buddha-biography-cinii"
+    "role": "comparison"
+    "title": "CiNii「佛本行經7巻」（日本語読みの検索表示。099担当の保存応答を受領）"
+    "languages":
+      - "ja"
+    "url": "https://cir.nii.ac.jp/crid/1971712334749373825"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch98-scripture-study"
+    "role": "comparison"
+    "title": "Shuheng Zhang: The Reins of Language: The Mantra of the Heart Sutra in The Journey to the West (2019), 経典目録の表（PDF該当箇所）"
+    "languages":
+      - "en"
+    "url": "https://sino-platonic.org/complete/spp286_heart_sutra_journey_to_the_west.pdf"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch98-peacock-ndl"
+    "role": "comparison"
+    "title": "国立国会図書館「佛母大孔雀明王經」（検索表示）"
+    "languages":
+      - "ja"
+    "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007611562"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+  - "id": "xy-ch98-daoist-refuges"
+    "role": "comparison"
+    "title": "早稲田大学リポジトリ 三帰九戒に関する論考（検索表示）"
+    "languages":
+      - "ja"
+    "url": "https://waseda.repo.nii.ac.jp/record/6495/files/TagenBunka_3_Mori.pdf"
+    "edition": "2026-10-25取得。検索表示のみの資料は出典名に明記。"
+    "work_rights":
+      "status": "unknown"
+    "transcription_rights":
+      "status": "unknown"
+    "description_ja": "読み・語義・同一性の局所確認資料。全書の校訂資料としては扱わない。"
+"scope":
+  "included":
+    - "source_id": "wikisource-xiyou-ch98-1500530"
+      "description_ja": "第九十八回の回題から結語まで全体。"
+      "section_ids":
+        - "chapter-98"
+  "excluded":
+    - "source_id": "wikisource-xiyou-ch98-1500530"
+      "description_ja": "ページのナビゲーション・著者欄・前後回リンク・版表示・フッター。"
+  "known_gaps":
+    - "source_id": "wikisource-xiyou-ch98-1500530"
+      "segment_ids":
+        - "xy-ch98-007"
+      "description_ja": "「仙籙」は仙人の名籍や資格に関わる文書と解した。本文は肘に掛けるとだけ述べ、物の形や詳しい内容は示さないため、特定の護符や経巻とは断定しない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch98-1500530"
+      "segment_ids":
+        - "xy-ch98-009"
+      "description_ja": "「九戒」の九つの内容は本文に示されない。三帰は仏・法・僧への帰依をいう。道教にも三帰・九戒の表現があり、この詩が採る戒律の系統と細目は確定せず、八戒や十戒へ改めていない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch98-1500530"
+      "segment_ids":
+        - "xy-ch98-011"
+      "description_ja": "原文の「接引旃壇上法門」は、香木の栴檀で仏の尊い道を飾る表現と解した。ここで三蔵に新たな仏号が授けられたという意味には取らない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch98-1500530"
+      "segment_ids":
+        - "xy-ch98-018"
+      "description_ja": "底本は珍しい二字「\U00026A45\U00026A80」を用いる。人々がその上に立つという文脈から、舟の枠や横材など、足場になる部分と解した。\U00026A45には船名という字書説明が見られるが、この複合語の字義・構造は確定できない。原字を保ち、底板、船べり等へ一義的に置き換えていない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch98-1500530"
+      "segment_ids":
+        - "xy-ch98-019"
+      "description_ja": "原文の「六六塵」を保持した。六塵に結びつく心の汚れを示す詩的表現と解するが、「六六」をどのように数えるかは本文に説明がない。元神は道教的な語であり、この場面の仏教と道教の表現の重なりを、単一の教理へ整理していない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch98-1500530"
+      "segment_ids":
+        - "xy-ch98-030"
+      "description_ja": "この目録の三十五項目は、題名と個別の巻数を底本どおり保存した。実在の経典名や略名と、既知の題名と異なるものが混在するため、すべてを現存仏典の正式名に直したり、現存本の巻数へ合わせたりしていない。『具舍論経』『維識論経』『恩意経大集』も原字に従い、一般に知られた『倶舎論』『唯識論』などへ無注記で改めない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch98-1500530"
+      "segment_ids":
+        - "xy-ch98-033"
+      "description_ja": "「吹噓少女」は風を少女に見立てる古い表現を踏まえると解した。「少女風」は微風をいう語として用いられるが、この詩の少女を、特定の名を持つ女神と断定する根拠は確認できていない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch98-1500530"
+      "segment_ids":
+        - "xy-ch98-036"
+      "description_ja": "原文の「只可以此傳之耳」は「これ」の指示先が簡略である。直後に字のある経を授けよと命じるため、訳では字のある経で東土へ教えを伝える趣旨と解した。白紙も真経だという評価と、経には対価が要るという如来自身の発言は、矛盾を解消しようと削っていない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch98-1500530"
+      "segment_ids":
+        - "xy-ch98-040"
+      "description_ja": "二度目の目録も三十五項目を省かず訳した。前の目録の『光明経』はここでは『大光明経』、『僧祇経』は『僧祗経』となる。対応する位置の題名の違いとして双方の字を保持し、一方に統一していない。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch98-1500530"
+      "segment_ids":
+        - "xy-ch98-041"
+      "description_ja": "原文は全蔵を一万五千百四十四巻、選び出した一蔵を五千四十八巻とする。一方、記載された個別巻数を足すと、最初の目録は一万五千百五巻となり、三十九巻の差がある。二度目の目録は五千四十八巻で、本文の合計と一致する。最初の目録の巻数を補ったり引いたりせず、各数字を原文どおり残した。 原文の欠落ではなく、解釈・校訂上の留保。"
+    - "source_id": "wikisource-xiyou-ch98-1500530"
+      "segment_ids":
+        - "xy-ch98-043"
+      "description_ja": "金頂大仙の話では観音の出立は十年前、到着の見込みは二、三年だったが、ここで観音は十四年、五千四十日と数える。さらに八日を加えて一蔵五千四十八巻の数に合わせる。暦年への換算や、先の年数との整合化はしていない。 原文の欠落ではなく、解釈・校訂上の留保。"
+"sections":
+  - "id": "chapter-98"
+    "parent_id": null
+    "kind": "chapter"
+    "heading_segment_ids":
+      - "xy-ch98-001"
+"segments":
+  - "id": "xy-ch98-001"
+    "section_id": "chapter-98"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": |-
+      第九十八回
+      猿熟馬馴方脫殼　功成行滿見真如
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 118
+        "line_end": 119
+        "source_sequence": 1
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      第九十八回
+      猿は熟し、馬は馴れて、ようやく殻を脱ぐ　功は成り、行は満ちて、真如にまみえる
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-002"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "話表寇員外既得回生，復整理了幢旛鼓樂，僧道親友，依舊送行不題。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 122
+        "line_end": 122
+        "source_sequence": 2
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": "さて、生き返った寇洪（こうこう）は、再び旗や幡、太鼓や楽隊をととのえ、僧侶や道士、親類や友人を集め、前のとおり一行を見送った。その話は、ひとまず置こう。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-003"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "卻說唐僧四眾上了大路，果然西方佛地，與他處不同：見了些琪花瑤草，古柏蒼松；所過地方，家家向善，戶戶齋僧；每逢山下人修行，又見林間客誦經。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 124
+        "line_end": 124
+        "source_sequence": 3
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": "三蔵（さんぞう）たち四人は大路へ出た。さすがに西方の仏の国は、ほかの土地とは違う。玉のように美しい花や草、古い柏、青々とした松が目につく。通る先々、どの家も善い行いに励み、どの家も僧に食事を供している。山のふもとでは修行する人に出会い、林の中には経を読む人がいた。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-004"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "師徒們夜宿曉行，又經有六七日，忽見一帶高樓，幾層傑閣。真個是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 126
+        "line_end": 126
+        "source_sequence": 4
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": "師弟は夜になると宿り、明ければ出立した。そうしてさらに六、七日たったころ、ふと高楼が連なり、立派な建物が幾重にもそびえているのが見えた。まさに、"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-005"
+    "section_id": "chapter-98"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "沖天百尺，聳漢凌空。低頭觀落日，引手摘飛星。豁達窗軒吞宇宙，嵯峨棟宇接雲屏。黃鶴信來秋樹老，彩鸞書到晚風清。此乃是靈宮寶闕，琳館珠庭。真堂談道，宇宙傳經。花向春來美，松臨雨過青。紫芝仙果年年秀，丹鳳儀翔萬感靈。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 128
+        "line_end": 128
+        "source_sequence": 5
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      高さ百尺（しゃく）、天を突き、銀河に届くほど空高くそびえる。
+      頭を垂れれば沈む日が見え、手を伸ばせば流れる星もつかめそう。
+      広々とした窓は宇宙を呑み込み、高々とした棟は雲の屏風に接する。
+      黄鶴が便りを運べば秋の木々は老い、彩り豊かな鸞が書を届ければ夕風は澄む。
+      ここは霊妙な宮、宝の楼門、玉の館、真珠の庭。
+      真の道を堂で語り、宇宙に経を伝える所。
+      花は春を迎えて美しく、松は雨が過ぎていよいよ青い。
+      紫の霊芝と仙果は年々秀で、赤い鳳凰は気高く舞い、あらゆるものに霊妙な感応をもたらす。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-006"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "三藏舉鞭遙指道：「悟空，好去處耶。」行者道：「師父，你在那假境界，假佛像處，倒強要下拜；今日到了這真境界，真佛像處，倒還不下馬，是怎的說？」三藏聞言，慌得翻身跳下來，已到了那樓閣門首。只見一個道童斜立在山門之前，應聲叫道：「那來者莫非東土取經人麼？」長老急整衣，擡頭觀看。見他："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 130
+        "line_end": 130
+        "source_sequence": 6
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      三蔵は鞭を上げ、遠くを指した。三蔵「悟空（ごくう）、何とよい所でしょう。」
+      悟空「お師匠さまは、偽物の仏の世界や仏の像の前では、どうしても拝むと言い張りました。それが今日は本物の仏の世界、本物の仏のお姿がある所へ来たのに、まだ馬を下りないとは、どういうわけです。」
+      三蔵はそれを聞いて慌てて馬から飛び下りた。もう楼閣の門前に着いている。見ると、山門の前に道童が一人、斜めに身を寄せて立っていた。声に応じて呼びかける。道童「おいでになったのは、東の国から経を求めて来られた方ではありませんか。」
+      三蔵は急いで衣を直し、顔を上げてその姿を見た。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-007"
+    "section_id": "chapter-98"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "身披錦衣，手搖玉麈。身披錦衣，寶閣瑤池常赴宴；手搖玉麈，丹臺紫府每揮塵。肘懸仙籙，足踏履鞋。飄然真羽士，秀麗實奇哉。煉就長生居勝境，修成永壽脫塵埃。聖僧不識靈山客，當年金頂大仙來。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 132
+        "line_end": 132
+        "source_sequence": 7
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      身には錦の衣をまとい、手には玉の柄の払子（ほっす）を振る。
+      錦の衣をまとっては、宝の楼閣や瑤池（ようち）の宴に常に赴き、
+      玉の払子を振っては、丹台（たんだい）や紫府（しふ）の塵をいつも払う。
+      肘には仙籙（せんろく）を掛け、足には靴を履く。
+      軽やかに浮世を離れた、まことの道士。その端麗さは実にただならぬ。
+      長生の道を練り上げ、すぐれた境地に住み、永遠の命を修めて俗塵を脱した。
+      聖僧には、この霊山（れいざん）の人が誰だか分からない。
+      それは、かつての金頂大仙（きんちょうたいせん）であった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-008"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "孫大聖認得他，即叫：「師父，此乃是靈山腳下玉真觀金頂大仙，他來接我們哩。」三藏方才醒悟，進前施禮。大仙笑道：「聖僧今年才到，我被觀音菩薩哄了。他十年前領佛金旨，向東土尋取經人，原說二三年就到我處。我年年等候，渺無消息，不意今年才相逢也。」三藏合掌道：「有勞大仙盛意，感激，感激。」遂此四眾牽馬挑擔，同入觀裡。卻又與大仙一一相見。即命看茶擺齋。又叫小童兒燒香湯與聖僧沐浴了，好登佛地。正是那："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 133
+        "line_end": 133
+        "source_sequence": 8
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      悟空は見知っていたので、すぐに呼んだ。悟空「お師匠さま、霊山のふもとの玉真観（ぎょくしんかん）にいらっしゃる金頂大仙です。私たちを迎えに来てくださったのですよ。」
+      三蔵はようやく事情が分かり、進み出て礼をした。金頂大仙は笑った。金頂大仙「聖僧は、今年になってようやくお着きですか。私は観音菩薩（かんのんぼさつ）にだまされましたよ。十年前、仏のご命令を受けて東の国へ取経の人を探しに行かれた時には、二、三年で私の所へ着くとおっしゃった。毎年待っても、まるで音沙汰がない。まさか、今年になってお会いできるとはね。」
+      三蔵は合掌した。三蔵「大仙のお心遣いに、お手数をお掛けしました。ありがたく存じます。まことにありがたく存じます。」
+      四人は馬を引き、荷を担ぎ、ともに観へ入った。改めて、一人ずつ金頂大仙に挨拶する。金頂大仙は茶を出し、精進の食事を用意するよう命じ、さらに童子に、香を入れた湯を沸かして聖僧を入浴させ、仏の地へ上れるようにせよと言いつけた。まさに、
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-009"
+    "section_id": "chapter-98"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      功滿行完宜沐浴，煉馴本性合天真。
+      千辛萬苦今方息，九戒三皈始自新。
+      魔盡果然登佛地，災消故得見沙門。
+      洗塵滌垢全無染，反本還原不壞身。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 135
+        "line_end": 138
+        "source_sequence": 9
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      功も行も満ちた今こそ、身を洗う時。
+      本性を練り鎮め、生まれながらの真実にかなう。
+      千辛万苦は今ようやくやみ、九戒（きゅうかい）と三帰（さんき）によって新たに生まれ変わる。
+      魔は尽き、まさしく仏の地へ上り、災いは消え、ゆえに沙門（しゃもん）にまみえる。
+      塵を洗い、垢をすすぎ、一点の汚れもない。
+      本に返り、源に帰れば、壊れることのない身となる。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-010"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "師徒們沐浴了，不覺天色將晚，就於玉真觀安歇。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 140
+        "line_end": 140
+        "source_sequence": 10
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": "師弟が湯を浴び終えると、いつの間にか日も暮れかかっていた。その夜は玉真観に泊まった。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-011"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "次早，唐僧換了衣服，披上錦襴袈裟，戴了毘盧帽，手持錫杖，登堂拜辭大仙。大仙笑道：「昨日襤褸，今日鮮明，睹此相，真佛子也。」三藏拜別就行。大仙道：「且住，等我送你。」行者道：「不必你送，老孫認得路。」大仙道：「你認得的是雲路，聖僧還未登雲路，當從本路而行。」行者道：「這個講得是。老孫雖走了幾遭，只是雲來雲去，實不曾踏著此地。既有本路，還煩你送送。我師父拜佛心重，幸勿遲疑。」那大仙笑吟吟，攜著唐僧手，接引旃壇上法門。原來這條路不出山門，就自觀宇中堂，穿出後門便是。大仙指著靈山道：「聖僧，你看那半天中有祥光五色、瑞藹千重的，就是靈鷲高峰，佛祖之聖境也。」唐僧見了就拜。行者笑道：「師父，還不到拜處哩。常言道：『望山走倒馬。』離此鎮還有許遠，如何就拜？若拜到頂上，得多少頭磕是？」大仙道：「聖僧，你與大聖、天蓬、捲簾四位已到福地，望見靈山，我回去也。」三藏遂拜辭而去。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 141
+        "line_end": 141
+        "source_sequence": 11
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      翌朝、三蔵は着替え、錦襴袈裟（きんらんげさ）をまとい、毘盧帽（びるぼう）をかぶり、錫杖（しゃくじょう）を手にして堂へ上がり、金頂大仙に別れの礼を述べた。金頂大仙は笑った。金頂大仙「昨日はぼろを着ていたのに、今日は鮮やかな装いですね。そのお姿なら、まことに仏の子です。」
+      三蔵が別れを告げて行こうとすると、金頂大仙は呼び止めた。金頂大仙「しばらくお待ちなさい。私がお送りしましょう。」
+      悟空「見送りは結構です。道なら俺が知っています。」
+      金頂大仙「あなたの知っているのは、雲の上の道でしょう。聖僧はまだ雲の道に上れません。地上の道を行かなくては。」
+      悟空「なるほど、そのとおりだ。俺も何度か来たが、雲で来て雲で帰ってばかりで、実際にこの地を踏んだことはなかった。道があるのなら、やはりご案内を願おう。お師匠さまは仏にお会いしたくてたまらないんだ。どうか、すぐに出てください。」
+      金頂大仙はにこにこしながら三蔵の手を取り、栴檀（せんだん）の尊い法門へ導いた。その道は山門の外に出るのではなく、観の中堂を通り抜けて、裏門を出た先にあった。金頂大仙は霊山を指した。金頂大仙「聖僧、空の半ばに五色のめでたい光と幾重もの瑞気が見えるでしょう。あれが霊鷲峰（りょうじゅほう）、仏のお住まいになる聖地です。」
+      三蔵は見るなり拝んだ。悟空は笑った。悟空「お師匠さま、拝む所はまだですよ。『山は見えても、そこへ着くまでに馬が倒れる』と言うでしょう。この辺りからは、まだずいぶんあります。どうして今から拝むのです。頂まで拝み続けたら、何回頭を下げることになるやら。」
+      金頂大仙「聖僧、あなたと大聖（たいせい）、天蓬（てんぽう）、捲簾（けんれん）の四人の方は、もう幸いの地へ着き、霊山をご覧になりました。私は戻ります。」
+      三蔵はそこで別れの礼をして、先へ進んだ。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-012"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "大聖引著唐僧等，徐徐緩步，登了靈山。不上五六里，見了一道活水，響潺潺滾浪飛流，約有八九里寬闊，四無人跡。三藏心驚道：「悟空，這路來得差了，敢莫大仙錯指了？此水這般寬闊，這般洶湧，又不見舟楫，如何可渡？」行者笑道：「不差，你看那壁廂不是一座大橋？要從那橋上行過去，方成正果哩。」長老等又近前看時，橋邊有一扁，扁上有「凌雲渡」三字，原來是一根獨木橋。正是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 142
+        "line_end": 142
+        "source_sequence": 12
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      悟空は三蔵たちを案内し、ゆっくり歩いて霊山を上っていった。五、六里（り）も行かぬうちに、流れが現れた。水はざあざあと音を立て、波を巻き、飛ぶように流れている。幅は八、九里ほどもあり、辺りに人の気配はない。
+      三蔵は驚いた。三蔵「悟空、道を間違えたのではありませんか。大仙の教え方が間違っていたのかもしれません。こんなに広く、こんなに激しい流れなのに、舟も櫂も見当たりません。どうやって渡るのです。」
+      悟空は笑った。悟空「間違いありません。ほら、あちらに大きな橋があるではありませんか。あの橋を歩いて渡ってこそ、正果（しょうか）を得られるのです。」
+      三蔵たちが近寄って見ると、橋の脇に額があり、「凌雲渡（りょううんと）」の三字が書かれていた。ところが橋は、たった一本の丸木橋だった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-013"
+    "section_id": "chapter-98"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      遠看橫空如玉棟，近觀斷水一枯槎。
+      維河架海還容易，獨木單梁人怎蹅？
+      萬丈虹霓平臥影，千尋白練接天涯。
+      十分細滑渾難渡，除是神仙步彩霞。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 144
+        "line_end": 147
+        "source_sequence": 13
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      遠く見れば、空に渡した玉の棟木。
+      近く見れば、流れを横切る一本の枯れ木。
+      川をつなぎ、海に橋を架けるほうが、まだたやすい。
+      ただ一本の木を、人はどう踏んで渡るのか。
+      万丈（じょう）の虹が横たわるかのよう、千尋（じん）の白絹が空の果てまで続くかのよう。
+      ひどく細く、滑らかで、どうにも渡りきれそうにない。
+      彩り豊かな雲を踏む仙人ででもなければ。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-014"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "三藏心驚膽戰道：「悟空，這橋不是人走的，我們別尋路徑去來。」行者笑道：「正是路，正是路。」八戒慌了道：「這是路？那個敢走？水面又寬，波浪又湧，獨獨一根木頭，又細又滑，怎生動腳？」行者道：「你都站下，等老孫走個兒你看。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 149
+        "line_end": 149
+        "source_sequence": 14
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      三蔵は胆を冷やし、震えて言った。三蔵「悟空、この橋は人の歩くものではありません。別の道を探しに行きましょう。」
+      悟空は笑った。悟空「ここが道です。ここが道ですよ。」
+      八戒（はっかい）も慌てた。八戒「これが道だって？　誰が歩けるもんか。水面は広いし、波は荒い。木はたった一本、それも細くて滑る。どう足を出せっていうんだ。」
+      悟空「みんな、そこに立っていろ。俺が歩いて見せる。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-015"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "好大聖，拽開步，跳上獨木橋，搖搖擺擺，須臾跑將過去，在那邊招呼道：「過來，過來。」唐僧搖手。八戒、沙僧咬指道：「難難難。」行者又從那邊跑過來，拉著八戒道：「獃子，跟我走，跟我走。」那八戒臥倒在地道：「滑滑滑，走不得，你饒我罷，讓我駕風霧過去。」行者按住道：「這是甚麼去處，許你駕風霧？必須從此橋上走過，方可成佛。」八戒道：「哥啊，佛做不成也罷，實是走不得。」他兩個在那橋邊扯扯拉拉的耍鬥，沙僧走去勸解，才撒脫了手。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 150
+        "line_end": 150
+        "source_sequence": 15
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      さすがの悟空、足を踏み出すと丸木橋へ飛び乗り、ゆらゆら揺れながら、たちまち向こうへ駆け渡った。対岸から手招きする。悟空「来い、来い。」
+      三蔵は手を振って断った。八戒と沙悟浄（さごじょう）は指をかんだ。八戒と沙悟浄「無理だ、無理だ、無理だ。」
+      悟空はまた駆け戻り、八戒を引っ張った。悟空「この馬鹿、俺について来い。ついて来い。」
+      八戒は地面に寝転がった。八戒「滑る、滑る、滑る。歩けねえよ。勘弁してくれ。風や霧に乗って渡らせてくれ。」
+      悟空は押さえつけた。悟空「ここをどこだと思っている。風や霧に乗れる所か。この橋を歩いて渡らなくては、仏になれないんだ。」
+      八戒「兄貴、仏になれなくたっていい。とにかく歩けねえよ。」
+      二人が橋のたもとで引っ張り合い、じゃれ合うようにもみ合っていると、沙悟浄がなだめに来た。それでようやく手を放した。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-016"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "三藏回頭，忽見那下溜中有一人撐一隻船來，叫道：「上渡，上渡。」長老大喜道：「徒弟，休得亂頑。那裡有隻渡船兒來了。」他三個跳起來站定，同眼觀看，那船兒來得至近，原來是一隻無底的船兒。行者火眼金睛，早已認得是接引佛祖，又稱為南無寶幢光王佛。行者卻不題破，只管叫：「這裡來，撐攏來。」霎時撐近岸邊，又叫：「上渡，上渡。」三藏見了，又心驚道：「你這無底的破船兒如何渡人？」佛祖道：「我這船："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 152
+        "line_end": 152
+        "source_sequence": 16
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      三蔵が振り返ると、下流から一人、舟をさして来る者が見えた。船頭「さあ、渡し舟へ。さあ、渡し舟へ。」
+      三蔵は大喜びした。三蔵「お前たち、ふざけるのはやめなさい。あそこに渡し舟が来ましたよ。」
+      三人はさっと起きて立ち、一緒に目を凝らした。舟がすぐ近くへ来ると、それは底のない舟だった。悟空は火眼金睛（かがんきんせい）で、早くも船頭の正体を見抜いていた。接引仏祖（せついんぶっそ）、またの名を南無宝幢光王仏（なむほうどうこうおうぶつ）である。だが悟空は明かさず、ただ呼んだ。悟空「ここだ。こちらへ寄せてくれ。」
+      舟はたちまち岸へ近づいた。接引仏祖はまた呼びかけた。接引仏祖「さあ、渡し舟へ。さあ、渡し舟へ。」
+      三蔵は見ると、また怖くなった。三蔵「こんな底のない壊れ舟で、どうして人を渡せるのです。」
+      接引仏祖「私のこの舟は、
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-017"
+    "section_id": "chapter-98"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      鴻濛初判有聲名，幸我撐來不變更。
+      有浪有風還自穩，無終無始樂昇平。
+      六塵不染能歸一，萬劫安然自在行。
+      無底船兒難過海，今來古往渡群生。」
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 154
+        "line_end": 157
+        "source_sequence": 17
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      天地の混沌が初めて分かれた時から、名を知られている。
+      幸い私がさし続けて、変わることがない。
+      風があっても波があっても、おのずから穏やか。
+      始めも終わりもなく、太平を楽しむ。
+      六塵（ろくじん）に染まらず、一なるものへ帰ることができ、
+      万劫（まんごう）の間、安らかに、思うまま進んでゆく。
+      底なしの舟では海を渡れぬと言うが、
+      昔も今も、この舟はあらゆる生きものを渡してきた。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-018"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "孫大聖合掌稱謝道：「承盛意，接引吾師。──師父，上船去。他這船兒雖是無底卻穩，縱有風浪也不得翻。」長老還自驚疑，行者扠著膊子，往上一推。那師父踏不住腳，轂轆的跌在水裡，早被撐船人一把扯起，站在船上。師父還抖衣服，垛鞋腳，抱怨行者。行者卻引沙僧、八戒，牽馬挑擔，也上了船，都立在\U00026A45\U00026A80之上。那佛祖輕輕用力撐開，只見上溜頭泱下一個死屍。長老見了大驚。行者笑道：「師父莫怕。那個原來是你。」八戒也道：「是你，是你。」沙僧拍著手，也道：「是你，是你！」那撐船的打著號子，也說：「那是你，可賀，可賀。」他們三人也一齊聲相和。撐著船，不一時，穩穩當當的過了凌雲仙渡。三藏才轉身，輕輕的跳上彼岸。有詩為證。詩曰："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 158
+        "line_end": 158
+        "source_sequence": 18
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      悟空は合掌して礼を述べた。悟空「ご親切に、師をお導きくださり、ありがとうございます。お師匠さま、舟へお乗りください。底はなくても安定しています。風や波があっても覆りません。」
+      三蔵はまだ怖がって疑っていた。悟空がその腕を抱え、舟へ押し上げると、三蔵は足を踏ん張れず、ころりと水に落ちた。だが接引仏祖がすばやく引き上げ、舟に立たせた。三蔵は衣を振り、靴の足を踏み鳴らして水を払いながら、悟空に文句を言った。
+      悟空は沙悟浄と八戒を連れ、馬を引き、荷を担いで、自分たちも乗り込んだ。皆、𦩅𦪀（かんとう）という舟の足場の上に立った。接引仏祖が軽く力を入れて舟をさし出すと、上流から一つの死体が流れてきた。三蔵は見て仰天した。
+      悟空は笑った。悟空「お師匠さま、怖がらないでください。あれは、もともとのあなたですよ。」
+      八戒「お師匠さまだ、お師匠さまだ。」
+      沙悟浄も手を打った。沙悟浄「お師匠さまです、お師匠さまです！」
+      接引仏祖は舟をさす掛け声に合わせて言った。接引仏祖「あれはあなたです。おめでとう、おめでとう。」
+      三人の弟子も声をそろえて唱和した。舟は進み、ほどなく何の危なげもなく凌雲の仙の渡しを渡りきった。三蔵はそこで身を返し、軽々と向こう岸へ飛び上がった。その証しの詩がある。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-019"
+    "section_id": "chapter-98"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      脫卻胎胞骨肉身，相親相愛是元神。
+      今朝行滿方成佛，洗淨當年六六塵。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 160
+        "line_end": 161
+        "source_sequence": 19
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      母の胎から受けた骨肉の身を脱ぎ捨て、
+      親しく愛し合うものこそ、本来の霊、元神（げんしん）。
+      今日、修行は満ちてようやく仏となり、
+      かつての六六塵（ろくろくじん）を、すっかり洗い清めた。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-020"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "此誠所謂廣大智慧，登彼岸無極之法。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 163
+        "line_end": 163
+        "source_sequence": 20
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": "これこそ、広大な智慧によって彼岸（ひがん）へ至る、限りのない法というものである。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-021"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "四眾上岸回頭，連無底船兒卻不知去向。行者方說是接引佛祖。三藏方才省悟，急轉身，反謝了三個徒弟。行者道：「兩不相謝，彼此皆扶持也。我等虧師父解脫，借門路修功，幸成了正果；師父也賴我等保護，秉教伽持，喜脫了凡胎。師父，你看這面前花草松篁、鸞鳳鶴鹿之勝境，比那妖邪顯化之處，孰美孰惡？何善何兇？」三藏稱謝不已。一個個身輕體快，步上靈山。早見那雷音古剎："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 164
+        "line_end": 164
+        "source_sequence": 21
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      四人が岸へ上がって振り返ると、底なしの舟まで、もうどこへ行ったか分からなかった。ここで初めて、悟空は船頭が接引仏祖だったと話した。三蔵はようやく悟り、急いで振り返って、今度は三人の弟子に礼を述べた。
+      悟空「お互い、礼には及びません。皆で支え合ったのですから。私たちはお師匠さまのおかげで束縛を解かれ、修行の道へ入り、幸いにも正果を成し遂げました。お師匠さまも、私たちの護りを受け、教えを守って加護を得られたので、めでたく凡人の肉体を脱したのです。お師匠さま、目の前の花や草、松や竹、鸞や鳳凰、鶴や鹿がいる、このすばらしい景色をご覧ください。妖怪が化けて見せた所と比べて、どちらが美しく、どちらが醜いです。どちらが善く、どちらが凶悪です。」
+      三蔵はいつまでも礼を言った。一人一人、身も軽く気も晴れやかに、霊山を上っていった。やがて、古い雷音寺（らいおんじ）が見えてきた。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-022"
+    "section_id": "chapter-98"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "頂摩霄漢中，根接須彌脈。巧峰排列，怪石參差。懸崖下瑤草琪花，曲徑傍紫芝香蕙。仙猿摘果入桃林，卻似火燒金；白鶴棲松立枝頭，渾如煙捧玉。彩鳳雙雙，青鸞對對。彩鳳雙雙，向日一鳴天下瑞；青鸞對對，迎風耀舞世間稀。又見那黃森森金瓦疊鴛鴦，明幌幌花磚鋪瑪瑙。東一行，西一行，盡都是蕊宮珠闕；南一帶，北一帶，看不了寶閣珍樓。天王殿上放霞光，護法堂前噴紫焰。浮屠塔顯，優缽花香。正是地勝疑天別，雲閑覺晝長。紅塵不到諸緣盡，萬劫無虧大法堂。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 166
+        "line_end": 166
+        "source_sequence": 22
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      頂は大空をこすり、根は須弥山（しゅみせん）の山脈につながる。
+      妙なる峰が並び、奇岩は高く低く入り組む。
+      切り立つ崖の下には玉のような草や花、曲がりくねる小道の脇には紫の霊芝と香る蕙（けい）。
+      仙猿は果物を摘もうと桃林に入り、その姿は金を火で焼くよう。
+      白鶴は松に宿って枝先に立ち、まるで煙が玉を支えるよう。
+      彩り豊かな鳳凰は二羽ずつ、青い鸞もつがいでいる。
+      彩り豊かな鳳凰は二羽ずつ、日に向かってひと声鳴けば、天下の瑞祥となり、
+      青い鸞はつがいで、風を迎えて輝き舞うさまは、この世にまれだ。
+      さらに、黄に輝く金瓦は雌雄一対に重なり、まばゆい模様の敷瓦は瑪瑙（めのう）を敷いたよう。
+      東の一列、西の一列、どこも花の宮、真珠の楼門。
+      南の一帯、北の一帯、宝の楼閣が、見尽くせないほど連なっている。
+      天王殿（てんのうでん）には霞の光が放たれ、護法堂（ごほうどう）の前には紫の炎が噴き出す。
+      仏塔はくっきりとそびえ、優鉢（うはつ）の花は香る。
+      まさしく、この地のすぐれたさまには別の天かと疑い、ゆったりした雲を見れば昼も長く感じられる。
+      俗塵は届かず、あらゆる世の縁は尽き、万劫を経ても損なわれぬ、大いなる法の堂である。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-023"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "師徒們逍逍遙遙，走上靈山之頂。又見青松林下列優婆，翠柏叢中排善士。長老就便施禮，慌得那優婆塞、優婆夷、比丘僧、比丘尼合掌道：「聖僧且休行禮，待見了牟尼，卻來相敘。」行者笑道：「早哩，早哩，且去拜上位者。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 168
+        "line_end": 168
+        "source_sequence": 23
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      師弟はゆったりと、霊山の頂へ歩いていった。青い松林の下には在家の信徒が列をなし、緑の柏の間には善い道を歩む人々が並んでいる。三蔵がその場で礼をすると、優婆塞（うばそく）、優婆夷（うばい）、比丘僧（びくそう）、比丘尼（びくに）たちは慌てて合掌した。
+      在家の信徒と僧尼たち「聖僧、今はどうかお礼をなさらずに。牟尼（むに）にお会いになってから、お話しいたしましょう。」
+      悟空は笑った。悟空「まだ早い、まだ早い。まずは上のお方を拝みに行きましょう。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-024"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那長老手舞足蹈，隨著行者，直至雷音寺山門之外。那廂有四大金剛迎住道：「聖僧來耶？」三藏躬身道：「是，弟子玄奘到了。」答畢，就欲進門。金剛道：「聖僧少待，容稟過再進。」那金剛著一個轉山門報與二門上四大金剛，說唐僧到了；二門上又傳入三門上，說唐僧到了。三山門內原是打供的神僧，聞得唐僧到時，急至大雄殿下，報與如來至尊釋迦牟尼文佛說：「唐朝聖僧，到於寶山，取經來了。」佛爺爺大喜。即召聚八菩薩、四金剛、五百阿羅、三千揭諦、十一大曜、十八伽藍，兩行排列。卻傳金旨，召唐僧進。那裡邊一層一節，欽依佛旨，叫：「聖僧進來。」這唐僧循規蹈矩，同悟空、悟能、悟淨，牽馬挑擔，徑入山門。正是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 169
+        "line_end": 169
+        "source_sequence": 24
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      三蔵は喜びに手足も踊るようで、悟空について雷音寺の山門の外まで進んだ。そこには四大金剛（しだいこんごう）がいて、迎え止めた。四大金剛「聖僧がおいでになったか。」
+      三蔵は身をかがめた。三蔵「はい。弟子の玄奘（げんじょう）が参りました。」
+      答えると、すぐ門に入ろうとした。金剛（こんごう）「聖僧、少しお待ちください。お取り次ぎをしてからお入りください。」
+      金剛は一人を山門の内へ回らせ、二の門を守る四大金剛へ、三蔵が来たと知らせた。二の門から、さらに三の門へ、三蔵が来たと伝える。第三の山門の中にいたのは供物係の神僧で、三蔵の到着を聞くと、急いで大雄殿（だいおうでん）へ行き、至高の如来（にょらい）、釈迦牟尼文仏（しゃかむにもんぶつ）に報告した。
+      神僧「唐（とう）の国の聖僧が、この宝山へ、お経を求めて参りました。」
+      如来は大いに喜んだ。ただちに八菩薩（はちぼさつ）、四金剛（しこんごう）、五百の阿羅漢（あらかん）、三千の掲諦（ぎゃてい）、十一大曜（じゅういちたいよう）、十八伽藍（がらん）を呼び集め、二列に並ばせた。そして、三蔵を入らせよとの尊い命令を伝えた。奥から順々に仏の命令を承り、呼ぶ声が続く。門内の者たち「聖僧、お入りください。」
+      三蔵は作法どおりに、悟空、八戒、沙悟浄とともに、馬を引き、荷を担いで山門へ入っていった。まさに、
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-025"
+    "section_id": "chapter-98"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      當年奮志奉欽差，領牒辭王出玉階。
+      清曉登山迎霧露，黃昏枕石臥雲霾。
+      挑禪遠步三千水，飛錫長行萬里崖。
+      念念在心求正果，今朝始得見如來。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 171
+        "line_end": 174
+        "source_sequence": 25
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      あの日、志を奮い起こして勅使の命を受け、
+      通行文書を授かり、王に別れて玉の階を下りた。
+      夜明けには山に登り、霧と露を迎え、
+      夕暮れには石を枕に、雲やもやの中に寝た。
+      禅の道を担って、三千の川を遠く歩み、
+      錫杖を携え、万里の崖を長く旅した。
+      一念ごとに心にあるのは、正果を求めること。
+      今日になって初めて、如来にまみえることができた。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-026"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "四眾到大雄寶殿殿前，對如來倒身下拜。拜罷，又向左右再拜。各各三匝已遍，復向佛祖長跪，將通關文牒奉上。如來一一看了，還遞與三藏。三藏頫顖作禮，啟上道：「弟子玄奘，奉東土大唐皇帝旨意，遙詣寶山，拜求真經，以濟眾生。望我佛祖垂恩，早賜回國。」如來方開憐憫之口，大發慈悲之心，對三藏言曰：「你那東土乃南贍部洲，只因天高地厚，物廣人稠，多貪多殺，多淫多誑，多欺多詐；不遵佛教，不向善緣，不敬三光，不重五穀；不忠不孝，不義不仁，瞞心昧己，大斗小秤，害命殺牲：造下無邊之孽，罪盈惡滿，致有地獄之災。所以永墮幽冥，受那許多碓搗磨舂之苦，變化畜類。有那許多披毛頂角之形，將身還債，將肉飼人。其永墮阿鼻，不得超昇者，皆此之故也。雖有孔氏在彼立下仁義禮智之教，帝王相繼，治有徒流絞斬之刑，其如愚昧不明，放縱無忌之輩何耶！我今有經三藏，可以超脫苦惱，解釋災愆。三藏：有法一藏，談天；有論一藏，說地；有經一藏，度鬼。共計三十五部，該一萬五千一百四十四卷。真是修真之徑，正善之門。凡天下四大部洲之天文、地理、人物、鳥獸、花木、器用、人事，無般不載。汝等遠來，待要全付與汝取去，但那方之人愚蠢村強，毀謗真言，不識我沙門之奧旨。」叫：「阿儺、伽葉，你兩個引他四眾到珍樓之下，先將齋食待他。齋罷，開了寶閣，將我那三藏經中，三十五部之內，各檢幾卷與他，教他傳流東土，永注洪恩。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 175
+        "line_end": 175
+        "source_sequence": 26
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      四人は大雄宝殿（だいおうほうでん）の前に来ると、如来に向かって身を伏せて拝んだ。拝み終えると、さらに左右へ礼をし、それぞれ三巡ずつ礼拝をすませた。改めて如来の前にひざまずき、通関文牒（つうかんもんちょう）を差し出す。如来は一つずつ目を通し、三蔵へ返した。三蔵は頭を下げて礼をし、申し上げた。
+      三蔵「弟子の玄奘は、東の大唐（だいとう）皇帝のご命令を受け、はるばるこの宝山へ参りました。真のお経を拝受して、生きとし生けるものを救うためでございます。どうか仏祖（ぶっそ）、ご慈悲を垂れ、早く経を賜って帰国できますよう、お計らいください。」
+      如来は憐れみの言葉を発し、大いなる慈悲の心を起こして、三蔵に告げた。
+      如来「お前の東の国は、南贍部洲（なんせんぶしゅう）にある。天は高く、地は厚く、物は豊かで人は多いが、貪欲と殺生、淫欲と嘘、欺きとごまかしが多い。仏の教えに従わず、善い縁を求めず、三光（さんこう）を敬わず、五穀を重んじない。忠も孝もなく、義も仁もない。自らの良心を欺き、大きな升で取り立て、小さな秤で渡し、人の命を奪い、獣を殺す。こうして果てしない罪業を重ね、罪悪が満ち満ちたため、地獄の災いを招くのだ。いつまでも暗い冥界に落ち、杵で搗かれ、臼で挽かれる、さまざまな苦しみを受け、畜生にも生まれ変わる。毛をまとい、角を生やした数多くの姿となって、己の身で借りを返し、己の肉を人に食わせる。永遠に阿鼻（あび）に堕ち、抜け出せぬ者がいるのも、みなこのためだ。かの地には孔子（こうし）が仁・義・礼・智の教えを立て、歴代の帝王も徒刑、流刑、絞首、斬首の刑で治めてきた。それでも、道理の分からぬ愚か者、勝手気ままで何をも恐れぬ者たちは、どうしようもない。
+      私には今、苦悩から抜け出させ、災いや罪を解きほぐすことのできる、三蔵（さんぞう）の経がある。三蔵とは、天を論じる法の一蔵、地を説く論の一蔵、亡霊を救う経の一蔵だ。合わせて三十五部、一万五千百四十四巻ある。まさしく、真の道を修める道筋であり、善へ正しく進む門である。天下の四大部洲（しだいぶしゅう）の天文、地理、人物、鳥獣、花木、器具、人の営みまで、載せぬものはない。お前たちは遠くから来たのだから、すべて渡して持ち帰らせたいところだ。だが、あの地の者は愚かで粗暴、強情で、真実の言葉をそしり、我ら沙門の奥深い教えを知らぬ。」
+      如来は呼びかけた。如来「阿儺（あなん）、迦葉（かしょう）。お前たち二人で、この四人を珍楼の下へ案内し、まず精進の食事でもてなせ。食事が済んだら宝閣を開き、私の三蔵の経、三十五部の中から、各部幾巻かずつ選んで渡すのだ。東の国へ伝え広めさせ、この大きな恩を永く注ぐように。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-027"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "二尊者即奉佛旨，將他四眾領至樓下。看不盡那奇珍異寶，擺列無窮。只見那設供的諸神鋪排齋宴，並皆是仙品、仙餚、仙茶、仙果，珍饈百味，與凡世不同。師徒們頂禮了佛恩，隨心享用。其實是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 176
+        "line_end": 176
+        "source_sequence": 27
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": "二人の尊者は仏の命を受け、四人を楼の下へ案内した。見尽くせないほどの珍しい宝が、果てしなく並んでいる。供物をととのえる神々が精進の宴を用意したが、どれも仙界の品、仙界の料理、仙茶、仙果である。百味の珍味は、人の世のものとは違っていた。師弟は仏の恩を伏し拝み、心ゆくまで食べた。そのさまは、"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-028"
+    "section_id": "chapter-98"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      寶焰金光映目明，異香奇品更微精。
+      千層金閣無窮麗，一派仙音入耳清。
+      素味仙花人罕見，香茶異食得長生。
+      向來受盡千般苦，今日榮華喜道成。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 178
+        "line_end": 181
+        "source_sequence": 28
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      宝の炎と金の光が目を明るく照らし、
+      不思議な香り、珍しい品は、さらにこの上なく精妙。
+      千層の金の楼閣は、美しさ尽きることなく、
+      ひと続きの仙界の楽の音が、澄んで耳へ入る。
+      世の人にはめったに見られぬ精進の味、仙界の花、
+      香る茶、珍しい食べ物は、長生を得させる。
+      これまでは、ありとあらゆる苦しみを受け尽くしたが、
+      今日は栄華の中で、道の成就を喜ぶ。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-029"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "這番造化了八戒，便宜了沙僧。佛祖處正壽長生，脫胎換骨之饌，儘著他受用。二尊者陪奉四眾餐畢，卻入寶閣，開門登看。那廂有霞光瑞氣，籠罩千重；彩霧祥雲，遮漫萬道。經櫃上，寶篋外，都貼了紅簽，楷書著經卷名目。乃是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 183
+        "line_end": 183
+        "source_sequence": 29
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      これで大いに得をしたのは八戒、沙悟浄もありがたい思いをした。如来のもとで、寿命を正しく保ち長生を得させ、凡身を脱して骨まで改める料理を、思う存分いただいたのである。
+      二人の尊者は四人に付き添って食事を終えると、宝閣へ進み、戸を開けて中を見せた。そこにはめでたい光と瑞気が幾重にも立ちこめ、色鮮やかな霧と祥雲が万筋にも広がっている。経を納めた棚にも宝箱の外にも赤い札が貼られ、楷書で経巻の名が書かれていた。次のとおりである。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-030"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      《涅槃經》一部 ………………… 七百四十八卷
+      《菩薩經》一部 ………………… 一千二十一卷
+      《虛空藏經》一部 ……………………… 四百卷
+      《首楞嚴經》一部 ………………… 一百一十卷
+      《恩意經大集》一部 …………………… 五十卷
+      《決定經》一部 …………………… 一百四十卷
+      《寶藏經》一部 ……………………… 四十五卷
+      《華嚴經》一部 ………………………… 五百卷
+      《禮真如經》一部 ……………………… 九十卷
+      《大般若經》一部 ……………… 九百一十六卷
+      《光明經》一部 ………………………… 三百卷
+      《未曾有經》一部 …………… 一千一百一十卷
+      《維摩經》一部 …………………… 一百七十卷
+      《三論別經》一部 ………………… 二百七十卷
+      《金剛經》一部 ………………………… 一百卷
+      《正法論經》一部 ………………… 一百二十卷
+      《佛本行經》一部 ……………………… 八百卷
+      《五龍經》一部 ……………………… 三十二卷
+      《菩薩戒經》一部 ……………… 一百一十六卷
+      《大集經》一部 …………………… 一百三十卷
+      《摩竭經》一部 …………………… 三百五十卷
+      《法華經》一部 ………………………… 一百卷
+      《瑜伽經》一部 ………………………… 一百卷
+      《寶常經》一部 …………………… 二百二十卷
+      《西天論經》一部 ………………… 一百三十卷
+      《僧祇經》一部 ………………… 一百五十七卷
+      《佛國雜經》一部 …………… 一千九百五十卷
+      《起信論經》一部 ……………………… 一千卷
+      《大智度經》一部 ………………… 一千八十卷
+      《寶威經》一部 ……………… 一千二百八十卷
+      《本閣經》一部 …………………… 八百五十卷
+      《正律文經》一部 ……………………… 二百卷
+      《大孔雀經》一部 ………………… 二百二十卷
+      《維識論經》一部 ……………………… 一百卷
+      《具舍論經》一部 ……………………… 二百卷
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 184
+        "line_end": 218
+        "source_sequence": 30
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      『涅槃経（ねはんぎょう）』一部、七百四十八巻。
+      『菩薩経（ぼさつきょう）』一部、千二十一巻。
+      『虚空蔵経（こくうぞうきょう）』一部、四百巻。
+      『首楞厳経（しゅりょうごんきょう）』一部、百十巻。
+      『恩意経大集（おんいきょうだいじゅう）』一部、五十巻。
+      『決定経（けつじょうきょう）』一部、百四十巻。
+      『宝蔵経（ほうぞうきょう）』一部、四十五巻。
+      『華厳経（けごんきょう）』一部、五百巻。
+      『礼真如経（らいしんにょきょう）』一部、九十巻。
+      『大般若経（だいはんにゃきょう）』一部、九百十六巻。
+      『光明経（こうみょうきょう）』一部、三百巻。
+      『未曾有経（みぞうきょう）』一部、千百十巻。
+      『維摩経（ゆいまきょう）』一部、百七十巻。
+      『三論別経（さんろんべつきょう）』一部、二百七十巻。
+      『金剛経（こんごうきょう）』一部、百巻。
+      『正法論経（しょうぼうろんきょう）』一部、百二十巻。
+      『仏本行経（ぶつほんぎょうきょう）』一部、八百巻。
+      『五竜経（ごりゅうきょう）』一部、三十二巻。
+      『菩薩戒経（ぼさつかいきょう）』一部、百十六巻。
+      『大集経（だいじっきょう）』一部、百三十巻。
+      『摩竭経（まかつきょう）』一部、三百五十巻。
+      『法華経（ほけきょう）』一部、百巻。
+      『瑜伽経（ゆがきょう）』一部、百巻。
+      『宝常経（ほうじょうきょう）』一部、二百二十巻。
+      『西天論経（さいてんろんきょう）』一部、百三十巻。
+      『僧祇経（そうぎきょう）』一部、百五十七巻。
+      『仏国雑経（ぶっこくざつきょう）』一部、千九百五十巻。
+      『起信論経（きしんろんきょう）』一部、千巻。
+      『大智度経（だいちどきょう）』一部、千八十巻。
+      『宝威経（ほういきょう）』一部、千二百八十巻。
+      『本閣経（ほんかくきょう）』一部、八百五十巻。
+      『正律文経（しょうりつもんきょう）』一部、二百巻。
+      『大孔雀経（だいくじゃくきょう）』一部、二百二十巻。
+      『維識論経（ゆいしきろんきょう）』一部、百巻。
+      『具舍論経（くしゃろんきょう）』一部、二百巻。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-031"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "阿儺、伽葉引唐僧看遍經名，對唐僧道：「聖僧東土到此，有些甚麼人事送我們？快拿出來，好傳經與你去。」三藏聞言道：「弟子玄奘，來路迢遙，不曾備得。」二尊者笑道：「好好好，白手傳經繼世，後人當餓死矣。」行者見他講口扭捏，不肯傳經，他忍不住叫噪道：「師父，我們去告如來，教他自家來把經與老孫也。」阿儺道：「莫嚷，此是甚麼去處，你還撒野放刁？到這邊來接著經。」八戒、沙僧耐住了性子，勸住了行者，轉身來接，一卷卷收在包裡，馱在馬上，又綑了兩擔，八戒與沙僧挑著，卻來寶座前叩頭，謝了如來，一直出門。逢一位佛祖，拜兩拜；見一尊菩薩，拜兩拜。又到大門，拜了比丘僧、尼，優婆夷、塞，一一相辭，下山奔路不題。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 219
+        "line_end": 219
+        "source_sequence": 31
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      阿儺と迦葉は三蔵を案内して経の名をすべて見せ、言った。阿儺と迦葉「聖僧、東の国からここへ来られたのですから、私たちへの贈り物は何かお持ちでしょう。早くお出しなさい。そうすれば経をお渡しできます。」
+      三蔵「弟子の玄奘は、道のりがはるかでしたので、用意してまいりませんでした。」
+      二人の尊者は笑った。阿儺と迦葉「結構、結構、結構。ただで経を伝え、そのやり方を後の世へ続けていけば、後の者たちは飢え死にするでしょうな。」
+      悟空は二人が言葉を濁し、ぐずぐずして経を渡そうとしないのを見ると、我慢できずに騒ぎだした。悟空「お師匠さま、如来へ訴えに行きましょう。如来自身に、俺へ経を渡してもらえばいい。」
+      阿儺「騒ぐな。ここをどこだと思っている。まだ勝手に暴れて無理を言うのか。こちらへ来て経を受け取れ。」
+      八戒と沙悟浄は辛抱し、悟空をなだめてから、経を受け取りに向かった。一巻ずつ包みへ入れて馬に載せ、さらに二荷にくくった分を八戒と沙悟浄が担いだ。如来の宝座へ戻ると、頭を地につけて感謝し、そのまま外へ出た。仏に一人出会えば二度拝み、菩薩（ぼさつ）を一人見れば二度拝む。大門まで来ると、比丘僧、比丘尼、優婆夷、優婆塞にも礼をし、一人一人に別れを告げ、山を下りて旅路へ急いだ。その話は、ひとまず置こう。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-032"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "卻說那寶閣上有一尊燃燈古佛，他在閣上暗暗的聽著那傳經之事，心中甚明：原是阿儺、伽葉將無字之經傳去。卻自笑云：「東土眾僧愚迷，不識無字之經，卻不枉費了聖僧這場跋涉？」問：「座邊有誰在此？」只見白雄尊者閃出。古佛分付道：「你可作起神威，飛星趕上唐僧，把那無字之經奪了，教他再來求取有字真經。」白雄尊者即駕狂風，滾離了雷音寺山門之外，大作神威。那陣好風，真個是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 221
+        "line_end": 221
+        "source_sequence": 32
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      さて、その宝閣の上には燃灯古仏（ねんとうこぶつ）がいた。ひそかに経を授ける次第を聞いていて、事情はすっかり分かっていた。阿儺と迦葉は、文字のない経を渡したのである。燃灯古仏は独り笑って言った。燃灯古仏「東の国の僧たちは迷いの中にあり、文字のない経は分かるまい。これでは、聖僧があれほど山川を越えて来た苦労も、無駄になるではないか。」
+      燃灯古仏「座のそばに、誰かいるか。」
+      白雄尊者（はくゆうそんじゃ）が進み出た。燃灯古仏は命じた。燃灯古仏「神威を起こし、流れ星の速さで三蔵を追え。あの文字のない経を奪い、文字のある真経を求めて、もう一度来させるのだ。」
+      白雄尊者はさっそく暴風に乗り、雷音寺の山門の外へ巻き出て、大いに神威を振るった。そのすさまじい風といえば、
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-033"
+    "section_id": "chapter-98"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "佛前勇士，不比巽二風神；仙竅怒號，遠賽吹噓少女。這一陣，魚龍皆失穴，江海逆波濤。玄猿捧果難來獻，黃鶴回雲找舊巢。丹鳳清音鳴不美，錦雞喔運叫聲嘈。青松枝折，優缽花飄。翠竹竿竿倒，金蓮朵朵搖。鐘聲遠送三千里，經韻輕飛萬壑高。崖下奇花殘美色，路傍瑤草偃鮮苗。彩鸞難舞翅，白鹿躲山崖。蕩蕩異香漫宇宙，清清風氣徹雲霄。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 222
+        "line_end": 222
+        "source_sequence": 33
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      仏前の勇士は、巽二（そんじ）の風神の比ではない。
+      仙の穴から怒号する風は、風を吹く少女にもはるかに勝る。
+      このひと吹きに、魚も竜も住みかを失い、川や海では波が逆巻く。
+      黒い猿は果物を捧げに来られず、黄鶴は雲を引き返して古巣を探す。
+      赤い鳳凰の澄んだ声も美しく響かず、錦鶏（きんけい）は、くっくっと騒がしく鳴く。
+      青松の枝は折れ、優鉢の花は散る。
+      緑の竹は一本一本倒れ、金の蓮は一輪一輪揺れる。
+      鐘の音は遠く三千里へ送られ、読経の響きは万の谷の高みへ軽く舞う。
+      崖の下の奇花は美しい色を損ない、道の脇の玉の草は鮮やかな若芽を伏せる。
+      彩り豊かな鸞も翼を舞わせられず、白鹿は山の崖へ隠れる。
+      広々と異香が宇宙に満ち、清らかな風は雲の果てまで吹き通る。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-034"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "那唐長老正行間，忽聞香風滾滾，只道是佛祖之禎祥，未曾隄防。又聞得響一聲，半空中伸下一隻手來，將馬馱的經輕輕搶去。諕得個三藏搥胸叫喚，八戒滾地來追，沙和尚護守著經擔，孫行者急趕去如飛。那白雄尊者，見行者趕得將近，恐他棒頭上沒眼，一時間不分好歹，打傷身體，即將經包捽碎，拋落塵埃。行者見經包破落，又被香風吹得飄零，卻就按下雲頭顧經，不去追趕。那白雄尊者收風斂霧，回報古佛不題。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 224
+        "line_end": 224
+        "source_sequence": 34
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      三蔵が歩いていると、突然、香りのする風が巻き起こった。仏のめでたいしるしだとばかり思い、用心もしなかった。さらに、ひと声、響きがしたかと思うと、空から片手が伸び、馬に積んだ経を軽々と奪い取った。
+      三蔵は仰天して胸をたたき、叫び声を上げた。八戒は地を転がるようにして追い、沙悟浄は経の荷を護り、悟空は飛ぶような速さで追いかけた。白雄尊者は悟空が近くまで来るのを見ると、その棒には目がないのだから、とっさに善悪も見分けず打ちかかられて、怪我をするかもしれぬと恐れた。そこで経の包みをたたき破り、地面へ投げ落とした。
+      悟空は包みが破れ、経が香風に吹かれて散るのを見ると、雲を下ろして経のほうへ向かい、それ以上は追わなかった。白雄尊者は風を収め、霧を引き、燃灯古仏のもとへ戻って報告した。その話は、ひとまず置こう。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-035"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "八戒去追趕，見經本落下，遂與行者收拾，背著來見唐僧。唐僧滿眼垂淚道：「徒弟呀，這個極樂世界，也還有兇魔欺害。」沙僧接了抱著的散經，打開看時，原來雪白，並無半點字跡。慌忙遞與三藏道：「師父，這一卷沒字。」行者又打開一卷看時，也無字。八戒打開一卷，也無字。三藏叫：「通打開來看看。」卷卷俱是白紙。長老短嘆長吁的道：「我東土人果是沒福，似這般無字的空本，取去何用？怎麼敢見唐王？誑君之罪，誠不容誅也。」行者早已知之，對唐僧道：「師父，不消說了，這就是阿儺、伽葉那廝問我要人事，沒有，故將此白紙本子與我們來了。快回去告在如來之前，問他掯財作弊之罪。」八戒嚷道：「正是，正是，告他去來。」四眾急急回山無好步，忙忙又轉上雷音。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 225
+        "line_end": 225
+        "source_sequence": 35
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      追いかけていた八戒も、経本が落ちるのを見ると、悟空と一緒に拾い集め、背負って三蔵のところへ戻った。三蔵は目いっぱいに涙をためて言った。三蔵「お前たち、この極楽の世界にも、凶悪な魔がいて、人を欺き、苦しめるのですね。」
+      沙悟浄は抱えて来たばらばらの経を受け取り、一巻開いて見た。すると真っ白で、文字の跡が半点もない。慌てて三蔵へ差し出した。沙悟浄「お師匠さま、この巻には字がありません。」
+      悟空が別の一巻を開いても字はなく、八戒が一巻を開いても字はない。三蔵は叫んだ。三蔵「残らず開いて見なさい。」
+      どの巻も、みな白紙だった。三蔵は何度も深いため息をついた。三蔵「東の国の私たちには、本当に福がないのです。このような字のない空の本を持ち帰って、何の役に立つでしょう。どうして唐王（とうおう）にお会いできましょう。君主を欺いた罪は、誅殺されても償いきれません。」
+      悟空には、もうわけが分かっていた。悟空「お師匠さま、それ以上おっしゃるには及びません。これは、阿儺と迦葉の奴らが贈り物を求めたのに、持っていなかったので、この白紙の本を渡したのです。早く戻り、如来の前で訴えて、金をゆすり、不正を働いた罪を問わせましょう。」
+      八戒もわめいた。八戒「そうだ、そうだ。訴えに行こう。」
+      四人は慌ただしく、足取りももつれそうな勢いで山へ引き返し、また雷音寺へ上っていった。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-036"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "不多時到於山門之外，眾皆拱手相迎，笑道：「聖僧是換經來的？」三藏點頭稱謝。眾金剛也不阻擋，讓他進去，直至大雄殿前。行者嚷道：「如來，我師徒們受了萬蜇千魔，千辛萬苦，自東土拜到此處，蒙如來分付傳經，被阿儺、伽葉掯財不遂，通同作弊，故意將無字的白紙本兒教我們拿去。我們拿他去何用？望如來敕治。」佛祖笑道：「你且休嚷。他兩個問你要人事之情，我已知矣。但只是經不可輕傳，亦不可以空取。向時眾比丘聖僧下山，曾將此經在舍衛國趙長者家與他誦了一遍，保他家生者安全，亡者超脫，只討得他三斗三升米粒黃金回來。我還說他們忒賣賤了，教後代兒孫沒錢使用。你如今空手來取，是以傳了白本。白本者，乃無字真經，倒也是好的。因你那東土眾生愚迷不悟，只可以此傳之耳。」即叫：「阿儺、伽葉，快將有字的真經，每部中各檢幾卷與他，來此報數。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 226
+        "line_end": 226
+        "source_sequence": 36
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      ほどなく山門の外に着くと、人々は胸の前で両手を組んで迎え、笑った。迎えた人々「聖僧、お経を替えにいらしたのですか。」
+      三蔵はうなずいて礼を述べた。金剛たちも引き止めず、中へ通したので、そのまま大雄殿の前まで行った。悟空は声を張り上げた。
+      悟空「如来、私たち師弟は幾万の刺すような苦しみ、幾千の魔の害、ありとあらゆる艱難を受けて、東の国からここまで拝みに来ました。如来から経を授けるよう命じていただいたのに、阿儺と迦葉は金をゆすり取れなかったため、示し合わせて不正を働き、わざと字のない白紙の本を持たせたのです。そんな物を持ち帰って何になります。どうか処罰をお命じください。」
+      如来は笑った。如来「そう騒ぐな。二人がお前たちに贈り物を求めたことは、すでに知っている。ただ、経は軽々しく伝えてはならず、ただで受け取ることもできぬ。以前、聖僧である比丘たちが山を下り、この経を舎衛国（しゃえこく）の趙長者（ちょうちょうじゃ）の家で一度読んでやった。その家で生きている者の無事を守り、死んだ者を苦しみから解き放ったのに、求めて持ち帰ったのは、米粒ほどの黄金が三斗（と）三升（しょう）だけであった。それでも私は、あまりに安く売りすぎた、後の子孫が使う金もなくなると言ったのだ。お前たちは今、手ぶらで受け取りに来た。それで白紙の本が渡されたのだ。白紙の本は、文字のない真経で、あれもよいものだ。だが、お前たちの東の国の衆生は愚かで迷い、悟っていないので、文字のある経で教えを伝えるしかない。」
+      如来はすぐに呼んだ。如来「阿儺、迦葉。早く、字のある真経を各部から幾巻かずつ選び、渡してやれ。その数を、ここへ報告に来るのだ。」
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-037"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "二尊者復領四眾，到珍樓寶閣之下，仍問唐僧要些人事。三藏無物奉承，即命沙僧取出紫金缽盂，雙手奉上道：「弟子委是窮寒路遙，不曾備得人事。這缽盂乃唐王親手所賜，教弟子持此沿路化齋。今特奉上，聊表寸心。萬望尊者將此收下，待回朝奏上唐王，定有厚謝。只是以有字真經賜下，庶不孤欽差之意，遠涉之勞也。」那阿儺接了，但微微而笑。被那些管珍樓的力士、管香積的庖丁、看閣的尊者，你抹他臉，我撲他背，彈指的，扭唇的，一個個笑道：「不羞，不羞，需索取經的人事。」須臾，把臉皮都羞皺了，只是拿著缽盂不放。伽葉卻才進閣檢經，一一查與三藏。三藏卻叫：「徒弟們，你們都好生看看，莫似前番。」他三人接一卷，看一卷，卻都是有字的。傳了五千零四十八卷，乃一藏之數。收拾齊整，馱在馬上；剩下的，還裝了一擔，八戒挑著。自己行囊，沙僧挑著。行者牽了馬，唐僧拿了錫杖，按一按毘盧帽，抖一抖錦袈裟，才喜喜歡歡，到我佛如來之前。正是那："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 227
+        "line_end": 227
+        "source_sequence": 37
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      二人の尊者は再び四人を珍楼宝閣の下へ案内し、また三蔵に贈り物を求めた。三蔵には差し出す物がなく、沙悟浄に紫金（しきん）の鉢盂（はつう）を取り出させ、両手で捧げて言った。
+      三蔵「弟子はまことに貧しく、長い道のりを参りましたので、贈り物を用意しておりません。この鉢は唐王が手ずから賜ったもので、道々これを持って食を乞うようにとお命じになりました。今、特に差し上げ、ささやかな気持ちを表します。どうか尊者、お納めください。都へ戻って唐王に奏上すれば、必ず手厚いお礼があるでしょう。ただ、字のある真経をお授けくださり、勅使としての使命と、はるばる参った苦労とを、無駄にさせないでください。」
+      阿儺は受け取ると、かすかに笑った。すると珍楼を管理する力士、食事をつかさどる厨房の料理人、閣を見守る尊者たちが、ある者は顔をなで、ある者は背をたたき、指を鳴らし、唇をゆがめて、口々に笑った。
+      係の者たち「恥知らず、恥知らず。経を取りに来た人から、贈り物をせびるとは。」
+      ほどなく阿儺は恥じて顔じゅうにしわを寄せたが、鉢を持った手は離さなかった。迦葉はそこでようやく閣へ入り、経を選び、一つずつ確かめて三蔵へ渡した。三蔵は呼びかけた。三蔵「お前たち、みなしっかり見なさい。さっきのようにならぬように。」
+      三人は一巻受け取るごとに一巻開いて見た。どれにも字がある。授けられたのは五千四十八巻、一蔵の数であった。きちんとととのえて馬に積み、残りは一荷に詰めて八戒が担いだ。自分たちの旅荷物は沙悟浄が担ぐ。悟空が馬を引き、三蔵は錫杖を持ち、毘盧帽を押さえて直し、錦の袈裟（けさ）をひと振りしてととのえた。こうして初めて、喜びに満ちて、我らが仏、如来の前へ出た。まさに、
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-038"
+    "section_id": "chapter-98"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": |-
+      大藏真經滋味甜，如來造就甚精嚴。
+      須知玄奘登山苦，可笑阿儺卻愛錢。
+      先次未詳虧古佛，後來真實始安然。
+      至今得意傳東土，大眾均將雨露沾。
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 229
+        "line_end": 232
+        "source_sequence": 38
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      大蔵の真経の味わいは甘く、如来の作り上げたものは、実に精妙で厳正。
+      玄奘が山へ上るまでの苦労を知るべし。それなのに阿儺は金を愛すとは、おかしいことだ。
+      初めは気づかなかったが、燃灯古仏のおかげで助かり、
+      後には本物を得て、ようやく安らいだ。
+      今こそ心満たされて東の国へ伝え、
+      人々は等しく、雨露のような恵みに潤うだろう。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-039"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "阿儺、伽葉引唐僧來見如來。如來高陞蓮座，指令降龍、伏虎二大羅漢敲響雲磬，遍請三千諸佛、三千揭諦、八金剛、四菩薩、五百尊羅漢、八百比丘僧、大眾優婆塞、比丘尼、優婆夷，各天各洞，福地靈山，大小尊者聖僧，該坐的請登寶座，該立的侍立兩傍。一時間，天樂遙聞，仙音嘹喨，滿空中祥光疊疊，瑞氣重重，諸佛畢集，參見了如來。如來問：「阿儺、伽葉，傳了多少經卷與他？可一一報數。」二尊者即開報：「現付去唐朝："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 233
+        "line_end": 233
+        "source_sequence": 39
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      阿儺と迦葉は三蔵を連れ、如来にお目にかかった。如来は高く蓮の座へ上り、降龍（ごうりゅう）、伏虎（ふっこ）の二大羅漢（らかん）に命じ、雲磬（うんけい）を鳴らさせた。そして、三千の諸仏、三千の掲諦、八金剛（はちこんごう）、四菩薩（しぼさつ）、五百の尊い羅漢、八百の比丘僧、大勢の優婆塞、比丘尼、優婆夷を、広く招いた。あらゆる天、あらゆる洞、幸いの地、霊妙な山々から、大も小も、尊者や聖僧が集まる。座るべき者には宝座へ上ってもらい、立つべき者は左右に侍立した。
+      たちまち天上の楽がはるかに聞こえ、仙界の音は高らかに響き、空いっぱいに祥光が重なり、瑞気が幾重にも満ちた。諸仏は残らず集まり、如来にまみえた。
+      如来「阿儺、迦葉。経巻はどれほど渡した。一つずつ数を報告せよ。」
+      二人の尊者は報告を始めた。阿儺と迦葉「ただいま唐の国へお渡しするのは、
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-040"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      《涅槃經》 …………………………… 四百卷
+      《菩薩經》 ……………………… 三百六十卷
+      《虛空藏經》 ………………………… 二十卷
+      《首楞嚴經》 ………………………… 三十卷
+      《恩意經大集》 ……………………… 四十卷
+      《決定經》 …………………………… 四十卷
+      《寶藏經》 …………………………… 二十卷
+      《華嚴經》 ………………………… 八十一卷
+      《禮真如經》 ………………………… 三十卷
+      《大般若經》 ………………………… 六百卷
+      《大光明經》 ………………………… 五十卷
+      《未曾有經》 …………………… 五百五十卷
+      《維摩經》 …………………………… 三十卷
+      《三論別經》 ……………………… 四十二卷
+      《金剛經》 ……………………………… 一卷
+      《正法論經》 ………………………… 二十卷
+      《佛本行經》 ………………… 一百一十六卷
+      《五龍經》 …………………………… 二十卷
+      《菩薩戒經》 ………………………… 六十卷
+      《大集經》 …………………………… 三十卷
+      《摩竭經》 ……………………… 一百四十卷
+      《法華經》 ……………………………… 十卷
+      《瑜伽經》 …………………………… 三十卷
+      《寶常經》 ……………………… 一百七十卷
+      《西天論經》 ………………………… 三十卷
+      《僧祗經》 ……………………… 一百一十卷
+      《佛國雜經》 …………… 一千六百三十八卷
+      《起信論經》 ………………………… 五十卷
+      《大智度經》 ………………………… 九十卷
+      《寶威經》 ……………………… 一百四十卷
+      《本閣經》 ………………………… 五十六卷
+      《正律文經》 …………………………… 十卷
+      《大孔雀經》 ………………………… 十四卷
+      《維識論經》 …………………………… 十卷
+      《具舍論經》 …………………………… 十卷
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 234
+        "line_end": 268
+        "source_sequence": 40
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      『涅槃経』四百巻。
+      『菩薩経』三百六十巻。
+      『虚空蔵経』二十巻。
+      『首楞厳経』三十巻。
+      『恩意経大集』四十巻。
+      『決定経』四十巻。
+      『宝蔵経』二十巻。
+      『華厳経』八十一巻。
+      『礼真如経』三十巻。
+      『大般若経』六百巻。
+      『大光明経（だいこうみょうきょう）』五十巻。
+      『未曾有経』五百五十巻。
+      『維摩経』三十巻。
+      『三論別経』四十二巻。
+      『金剛経』一巻。
+      『正法論経』二十巻。
+      『仏本行経』百十六巻。
+      『五竜経』二十巻。
+      『菩薩戒経』六十巻。
+      『大集経』三十巻。
+      『摩竭経』百四十巻。
+      『法華経』十巻。
+      『瑜伽経』三十巻。
+      『宝常経』百七十巻。
+      『西天論経』三十巻。
+      『僧祗経（そうぎきょう）』百十巻。
+      『仏国雑経』千六百三十八巻。
+      『起信論経』五十巻。
+      『大智度経』九十巻。
+      『宝威経』百四十巻。
+      『本閣経』五十六巻。
+      『正律文経』十巻。
+      『大孔雀経』十四巻。
+      『維識論経』十巻。
+      『具舍論経』十巻。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-041"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "在藏總經共三十五部，各部中檢出五千零四十八卷，與東土聖僧傳留在唐。現俱收拾整頓於馬馱人擔之上，專等謝恩。」"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 269
+        "line_end": 269
+        "source_sequence": 41
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": "蔵にある経は全部で三十五部。その各部から合わせて五千四十八巻を選び出し、東の国の聖僧へ授け、唐に伝え残させることといたしました。いずれも馬の背と人の担ぐ荷へきちんと納め、あとは御恩に感謝するばかりでございます。」"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-042"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "三藏四眾拴了馬，歇了擔，一個個合掌躬身，朝上禮拜。如來對唐僧言曰：「此經功德，不可稱量。雖為我門之龜鑑，實乃三教之源流。若到你那南贍部洲，示與一切眾生，不可輕慢。非沐浴齋戒，不可開卷。寶之，重之。蓋此內有成仙了道之奧妙，有發明萬化之奇方也。」三藏叩頭謝恩，信受奉行，依然對佛祖遍禮三匝，承謹歸誠，領經而去。去到三山門，一一又謝了眾聖不題。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 271
+        "line_end": 271
+        "source_sequence": 42
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      三蔵たち四人は馬をつなぎ、荷を下ろすと、一人一人、合掌して身をかがめ、上座に向かって拝礼した。如来は三蔵へ告げた。
+      如来「この経の功徳は、計り知れぬ。我が門の手本であるばかりか、まことに三教（さんきょう）の源流である。お前たちの南贍部洲へ着いたなら、あらゆる衆生に示すのだ。軽んじてはならぬ。沐浴し、身を慎み、戒めを守った後でなければ、巻を開いてはならぬ。宝とし、重んじよ。この中には、仙となり道を成就する奥義も、あらゆる変化を明らかにする妙法もあるのだから。」
+      三蔵は頭を地につけて礼を述べ、その教えを信じて受け入れ、謹んで従った。前と同じく如来に三巡の礼拝をし、謹んで真心から帰依して、経を受けて立ち去った。第三の山門まで行くと、また聖なる方々一人一人に感謝した。その話は、ひとまず置こう。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-043"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "如來因打發唐僧去後，才散了傳經之會。傍又閃上觀世音菩薩合掌啟佛祖道：「弟子當年領金旨向東土尋取經之人，今已成功，共計得一十四年，乃五千零四十日，還少八日，不合藏數。望我世尊早賜聖僧回東轉西，須在八日之內庶完藏數。准弟子繳還金旨。」如來大喜道：「所言甚當，准繳金旨。」即叫八大金剛分付道：「汝等快使神威，駕送聖僧回東，把真經傳留，即引聖僧西回。須在八日之內，以完一藏之數，勿得遲違。」金剛隨即趕上唐僧，叫道：「取經的，跟我來。」唐僧等俱身輕體健，蕩蕩飄飄，隨著金剛，駕雲而起。這才是："
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 273
+        "line_end": 273
+        "source_sequence": 43
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      如来は三蔵を送り出した後で、ようやく経を授ける法会を解散した。すると、脇から観音菩薩が進み出て、合掌して申し上げた。
+      観音菩薩「弟子はあの年、尊いご命令を受け、東の国へ経を取りに来る者を探しに参りました。今、その務めは果たされ、合わせて十四年、すなわち五千四十日となりました。まだ八日足りず、一蔵の数に合いません。どうか世尊（せそん）、聖僧を早く東へ帰らせ、再び西へ戻らせてください。八日以内に往復すれば、一蔵の数が満ちます。弟子がご命令をお返しし、復命することをお許しください。」
+      如来は大いに喜んだ。如来「まことにもっともだ。復命を認めよう。」
+      ただちに八大金剛（はちだいこんごう）を呼び、命じた。如来「お前たちは、急いで神威を使い、聖僧を雲に乗せて東の国へ送れ。真経を伝え残したら、すぐ聖僧を西へ連れ戻すのだ。必ず八日以内に往復し、一蔵の数を満たせ。遅れたり、命令に背いたりしてはならぬ。」
+      八大金剛はさっそく三蔵に追いつき、呼んだ。八大金剛「経を取りに来た者たち、私たちについて来なさい。」
+      三蔵たちはみな身が軽く、体も健やかで、ふわりと漂うように金剛たちに続き、雲に乗って上がっていった。これこそ、
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-044"
+    "section_id": "chapter-98"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "見性明心參佛祖，功完行滿即飛昇。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 275
+        "line_end": 275
+        "source_sequence": 44
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": |-
+      己の本性を見て心を明らかにし、仏祖にまみえ、
+      功が成り、修行が満ちれば、ただちに空へ上る。
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-045"
+    "section_id": "chapter-98"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "畢竟不知回東土怎生傳授，且聽下回分解。"
+    "source_languages":
+      - "zh-Hant"
+    "source_locations":
+      - "source_id": "wikisource-xiyou-ch98-1500530"
+        "precision": "line"
+        "line_start": 277
+        "line_end": 277
+        "source_sequence": 45
+        "url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+    "translation_ja": "さて、東の国へ戻り、どのように経を伝え授けるのだろうか。それは次回のお話。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-001-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "回題の猿と馬には、心猿・意馬、すなわち落ち着きなく動く心を猿と馬にたとえる寓意が重なる。真如は、ありのままの真実・変わらぬ真理をいう。回題にある殻を脱ぐという予告をそのまま残した。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-002-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "「仙籙」は仙人の名籍や資格に関わる文書と解した。本文は肘に掛けるとだけ述べ、物の形や詳しい内容は示さないため、特定の護符や経巻とは断定しない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-003-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "「九戒」の九つの内容は本文に示されない。三帰は仏・法・僧への帰依をいう。道教にも三帰・九戒の表現があり、この詩が採る戒律の系統と細目は確定せず、八戒や十戒へ改めていない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-004-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原文の「接引旃壇上法門」は、香木の栴檀で仏の尊い道を飾る表現と解した。ここで三蔵に新たな仏号が授けられたという意味には取らない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-005-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "底本は珍しい二字「\U00026A45\U00026A80」を用いる。人々がその上に立つという文脈から、舟の枠や横材など、足場になる部分と解した。\U00026A45には船名という字書説明が見られるが、この複合語の字義・構造は確定できない。原字を保ち、底板、船べり等へ一義的に置き換えていない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-006-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原文の「六六塵」を保持した。六塵に結びつく心の汚れを示す詩的表現と解するが、「六六」をどのように数えるかは本文に説明がない。元神は道教的な語であり、この場面の仏教と道教の表現の重なりを、単一の教理へ整理していない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-007-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "この説法は、法が天を論じ、論が地を説き、経が亡霊を救うという三分法を述べる。一般的な仏教の経・律・論という三蔵の分類へ、原文を修正していない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-008-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "底本の人名は「伽葉」。従来の「迦葉」と同じく、阿儺とともに如来に仕える尊者であるため、訳文の通常呼称は「迦葉」に統一した。底本の異字は原文と辞書の異表記に残している。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-009-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "この目録の三十五項目は、題名と個別の巻数を底本どおり保存した。実在の経典名や略名と、既知の題名と異なるものが混在するため、すべてを現存仏典の正式名に直したり、現存本の巻数へ合わせたりしていない。『具舍論経』『維識論経』『恩意経大集』も原字に従い、一般に知られた『倶舎論』『唯識論』などへ無注記で改めない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-010-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "「吹噓少女」は風を少女に見立てる古い表現を踏まえると解した。「少女風」は微風をいう語として用いられるが、この詩の少女を、特定の名を持つ女神と断定する根拠は確認できていない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-011-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原文の「只可以此傳之耳」は「これ」の指示先が簡略である。直後に字のある経を授けよと命じるため、訳では字のある経で東土へ教えを伝える趣旨と解した。白紙も真経だという評価と、経には対価が要るという如来自身の発言は、矛盾を解消しようと削っていない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-012-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "二度目の目録も三十五項目を省かず訳した。前の目録の『光明経』はここでは『大光明経』、『僧祇経』は『僧祗経』となる。対応する位置の題名の違いとして双方の字を保持し、一方に統一していない。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-013-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "原文は全蔵を一万五千百四十四巻、選び出した一蔵を五千四十八巻とする。一方、記載された個別巻数を足すと、最初の目録は一万五千百五巻となり、三十九巻の差がある。二度目の目録は五千四十八巻で、本文の合計と一致する。最初の目録の巻数を補ったり引いたりせず、各数字を原文どおり残した。"
+    "translation_status": "reviewed"
+  - "id": "xy-ch98-note-014-body"
+    "section_id": "chapter-98"
+    "kind": "note_body"
+    "origin": "translator"
+    "source_text": null
+    "source_languages": []
+    "source_locations": []
+    "translation_ja": "金頂大仙の話では観音の出立は十年前、到着の見込みは二、三年だったが、ここで観音は十四年、五千四十日と数える。さらに八日を加えて一蔵五千四十八巻の数に合わせる。暦年への換算や、先の年数との整合化はしていない。"
+    "translation_status": "reviewed"
+"notes":
+  - "id": "xy-ch98-note-001"
+    "origin": "translator"
+    "label": "1"
+    "body":
+      - "segment_id": "xy-ch98-note-001-body"
+    "form": "endnote"
+  - "id": "xy-ch98-note-002"
+    "origin": "translator"
+    "label": "2"
+    "body":
+      - "segment_id": "xy-ch98-note-002-body"
+    "form": "endnote"
+  - "id": "xy-ch98-note-003"
+    "origin": "translator"
+    "label": "3"
+    "body":
+      - "segment_id": "xy-ch98-note-003-body"
+    "form": "endnote"
+  - "id": "xy-ch98-note-004"
+    "origin": "translator"
+    "label": "4"
+    "body":
+      - "segment_id": "xy-ch98-note-004-body"
+    "form": "endnote"
+  - "id": "xy-ch98-note-005"
+    "origin": "translator"
+    "label": "5"
+    "body":
+      - "segment_id": "xy-ch98-note-005-body"
+    "form": "endnote"
+  - "id": "xy-ch98-note-006"
+    "origin": "translator"
+    "label": "6"
+    "body":
+      - "segment_id": "xy-ch98-note-006-body"
+    "form": "endnote"
+  - "id": "xy-ch98-note-007"
+    "origin": "translator"
+    "label": "7"
+    "body":
+      - "segment_id": "xy-ch98-note-007-body"
+    "form": "endnote"
+  - "id": "xy-ch98-note-008"
+    "origin": "translator"
+    "label": "8"
+    "body":
+      - "segment_id": "xy-ch98-note-008-body"
+    "form": "endnote"
+  - "id": "xy-ch98-note-009"
+    "origin": "translator"
+    "label": "9"
+    "body":
+      - "segment_id": "xy-ch98-note-009-body"
+    "form": "endnote"
+  - "id": "xy-ch98-note-010"
+    "origin": "translator"
+    "label": "10"
+    "body":
+      - "segment_id": "xy-ch98-note-010-body"
+    "form": "endnote"
+  - "id": "xy-ch98-note-011"
+    "origin": "translator"
+    "label": "11"
+    "body":
+      - "segment_id": "xy-ch98-note-011-body"
+    "form": "endnote"
+  - "id": "xy-ch98-note-012"
+    "origin": "translator"
+    "label": "12"
+    "body":
+      - "segment_id": "xy-ch98-note-012-body"
+    "form": "endnote"
+  - "id": "xy-ch98-note-013"
+    "origin": "translator"
+    "label": "13"
+    "body":
+      - "segment_id": "xy-ch98-note-013-body"
+    "form": "endnote"
+  - "id": "xy-ch98-note-014"
+    "origin": "translator"
+    "label": "14"
+    "body":
+      - "segment_id": "xy-ch98-note-014-body"
+    "form": "endnote"
+"references":
+  - "id": "xy-ch98-ref-001"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-001"
+      "translation_span":
+        "start": 37
+        "end": 44
+        "exact": "真如にまみえる"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-001"
+    "status": "verified"
+  - "id": "xy-ch98-ref-002"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-007"
+      "translation_span":
+        "start": 99
+        "end": 110
+        "exact": "仙籙（せんろく）を掛け"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-002"
+    "status": "verified"
+  - "id": "xy-ch98-ref-003"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-009"
+      "translation_span":
+        "start": 54
+        "end": 71
+        "exact": "九戒（きゅうかい）と三帰（さんき）"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-003"
+    "status": "verified"
+  - "id": "xy-ch98-ref-004"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-011"
+      "translation_span":
+        "start": 409
+        "end": 422
+        "exact": "栴檀（せんだん）の尊い法門"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-004"
+    "status": "verified"
+  - "id": "xy-ch98-ref-005"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-018"
+      "translation_span":
+        "start": 240
+        "end": 255
+        "exact": "\U00026A45\U00026A80（かんとう）という舟の足場"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-005"
+    "status": "verified"
+  - "id": "xy-ch98-ref-006"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-019"
+      "translation_span":
+        "start": 69
+        "end": 80
+        "exact": "六六塵（ろくろくじん）"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-006"
+    "status": "verified"
+  - "id": "xy-ch98-ref-007"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 794
+        "end": 803
+        "exact": "亡霊を救う経の一蔵"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-007"
+    "status": "verified"
+  - "id": "xy-ch98-ref-008"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 1007
+        "end": 1015
+        "exact": "迦葉（かしょう）"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-008"
+    "status": "verified"
+  - "id": "xy-ch98-ref-009"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 820
+        "end": 843
+        "exact": "『具舍論経（くしゃろんきょう）』一部、二百巻。"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-009"
+    "status": "verified"
+  - "id": "xy-ch98-ref-010"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-033"
+      "translation_span":
+        "start": 37
+        "end": 43
+        "exact": "風を吹く少女"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-010"
+    "status": "verified"
+  - "id": "xy-ch98-ref-011"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-036"
+      "translation_span":
+        "start": 693
+        "end": 704
+        "exact": "ここへ報告に来るのだ。"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-011"
+    "status": "verified"
+  - "id": "xy-ch98-ref-012"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-040"
+      "translation_span":
+        "start": 390
+        "end": 399
+        "exact": "『具舍論経』十巻。"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-012"
+    "status": "verified"
+  - "id": "xy-ch98-ref-013"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-041"
+      "translation_span":
+        "start": 24
+        "end": 35
+        "exact": "五千四十八巻を選び出し"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-013"
+    "status": "verified"
+  - "id": "xy-ch98-ref-014"
+    "kind": "note"
+    "origin": "translator"
+    "from":
+      "segment_id": "xy-ch98-043"
+      "translation_span":
+        "start": 358
+        "end": 368
+        "exact": "必ず八日以内に往復し"
+    "to":
+      "type": "note"
+      "id": "xy-ch98-note-014"
+    "status": "verified"
+"groups":
+  - "id": "xy-ch98-poem-005"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch98-005"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch98-poem-007"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch98-007"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch98-poem-009"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch98-009"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch98-poem-013"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch98-013"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch98-poem-017"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch98-017"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch98-poem-019"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch98-019"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch98-poem-022"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch98-022"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch98-poem-025"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch98-025"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch98-poem-028"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch98-028"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch98-poem-033"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch98-033"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch98-poem-038"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch98-038"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+  - "id": "xy-ch98-poem-044"
+    "kind": "poem"
+    "members":
+      - "segment_id": "xy-ch98-044"
+    "separator": |2+
+
+    "description_ja": "全句を訳した挿入韻文。"
+"assets": []
+"figures": []
+"aliases": []
+"terminology": []
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-10-25T11:56:14Z"
+    "reviewed_by": "independent AI reviewer /review_xiyouji_chapter_098"
+    "content_sha256": "cb1de2fc39f79d7a8cbdd152800c5bfa46d7880fdd4e6f81e7a1d33d0e448dd0"
+"provenance":
+  "source_revision": "1500530"
+  "source_display_lines": 309
+  "actual_acquisition_url": "https://zh.wikisource.org/w/index.php?title=西遊記/第098回&oldid=1500530"
+  "fixed_url_fetch_success": true
+  "normalization_ja": "表示詩行の四空白字下げのみ除去。連続する詩行と回番号・回題はLFで結合。原字・句読点は不変。"
+  "review_limit_ja": "独立AIレビュアーが全45原文対訳・12韻文・70目録項目、136読みと53語釈、14注の全本文と開始位置、47新辞書項目・8更新の旧新本文・120候補判断を通読。固定版の直接URL取得は二度失敗したが、通常ページから固定リンクを開き全309表示行を取得し保存応答と一致確認。人間・専門家の校訂、版本画像照合、実ブラウザ表示確認、公開は未実施。"
+  "author_self_review":
+    "status": "complete"
+    "source_units": 45
+    "verse_units": 12
+    "notes": 14
+    "first_occurrences": 136
+    "reviewer": "chapter098 author AI; not independent reviewer"
+  "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-098-source-1500530-zh-hant.txt"
+  "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-098-manifest-1500530.json"
+  "dictionary_base_sha256": "79bba91fafe452d13abf54b2a6e0fb9a62138817432b5b8645ffa9029f09f346"
+  "dictionary_effective_base_sha256": "b1b99ec44273c16bc228c71d68c647ac7f2b24fba9ab48152a51aa7e1f2f29a4"
+  "dictionary_dependencies":
+    "chapter": 98
+    "state": "final independently reviewed predecessor inherited once"
+    "input":
+      "chapter": 97
+      "READY_sha256": "7ab9ddd2157d4a4b4963fb117311afe8a01e33100a3abb9d7a05d86c41f5e164"
+      "all_manifest_files_verified": 506
+      "effective_dictionary_sha256": "b1b99ec44273c16bc228c71d68c647ac7f2b24fba9ab48152a51aa7e1f2f29a4"
+      "own_patch_sha256": "f0634044eececca163419315ecfff5ddda94789b16343e7174542d8f12e5ddd4"
+      "inherited_dependency_record": "review-predecessor097-inputs/dictionary-dependencies.json"
+      "inherited_dependency_record_sha256": "cbee574807a9dfc0bc1f14401eebdab8aa1edf63623171b203872f89d5a471c7"
+    "own_patch":
+      "path": "lexicon-patch.json"
+      "sha256": "250d88aa2e1dbc5fb4e36ae4c2cab5b2caf395547b32ab0ae93c5b89a9c6f9e7"
+      "new_entries": 47
+      "existing_form_updates": 8
+      "additional_forms": 11
+      "source_records": 10
+    "result_effective_dictionary_sha256": "1e8d3d1c001aa119562f523a4450aead1ef498982aabf8dbb46a44916ba68e94"
+    "apply_order": "Final independently reviewed097 effective dictionary, then own098 patch once. No old087/088 or other bridges are replayed."
+    "historical_author_input":
+      "directory": "author-input-final"
+      "effective_base_sha256": "57c5164d15e27894940433dcb6dc23a0ba74375df09001c10ce061b56d9be696"
+      "not_current_dependency_state": true
+    "full_old_entry_preconditions": "All8 match final097 input. All existing non-form fields, old forms and reading statuses remain unchanged."
+  "preliminary_parent_review_ja": "親担当が語彙挿入前の全45原文・訳文を通読。011の四位を四人の方、041の各部からの5048巻を合計と明確化した。最終凍結稿の独立レビューとは区別する。"
+  "independent_review":
+    "status": "complete"
+    "reviewer": "independent AI reviewer /review_xiyouji_chapter_098"
+    "source_units": 45
+    "verse_units": 12
+    "scripture_catalogue_items": 70
+    "first_occurrences": 136
+    "paragraph_glosses": 53
+    "notes": 14
+    "new_entries": 47
+    "existing_updates": 8
+    "candidate_queries": 120
+    "source_fixed_permalink_retrieved": true
+    "all309_display_lines_equal": true
+    "translation_changes": 2
+    "source_metadata_corrections": 3
+    "reports":
+      - "independent-review.json"
+      - "review-notes.json"
+      - "review-readings-glosses.json"
+      - "review-dictionary.json"
+      - "review-changes.json"
+      - "independent-source-comparison.json"
+"lexicon":
+  "dictionary_id": "xiyouji"
+  "file": "lexicons/xiyouji.yaml"
+  "first_occurrences":
+    - "entry_id": "xy-ch96-kou-hong"
+      "form_id": "xy-ch96-kou-hong-form"
+      "segment_id": "xy-ch98-002"
+      "translation_span":
+        "start": 8
+        "end": 10
+        "exact": "寇洪"
+      "rendered_text": "寇洪（こうこう）"
+    - "entry_id": "xy-entry-0874"
+      "form_id": "xy-form-1610"
+      "segment_id": "xy-ch98-003"
+      "translation_span":
+        "start": 0
+        "end": 2
+        "exact": "三蔵"
+      "rendered_text": "三蔵（さんぞう）"
+    - "entry_id": "xy-term-043"
+      "form_id": "xy-term-043-form"
+      "segment_id": "xy-ch98-005"
+      "translation_span":
+        "start": 3
+        "end": 4
+        "exact": "尺"
+      "rendered_text": "尺（しゃく）"
+      "gloss_ja": "古い長さの単位。時代・地域によって長さは異なる。"
+    - "entry_id": "xy-sun-wukong"
+      "form_id": "xy-wukong-short-form"
+      "segment_id": "xy-ch98-006"
+      "translation_span":
+        "start": 18
+        "end": 20
+        "exact": "悟空"
+      "rendered_text": "悟空（ごくう）"
+    - "entry_id": "xy-vocab-104"
+      "form_id": "xy-vocab-104-form"
+      "segment_id": "xy-ch98-007"
+      "translation_span":
+        "start": 18
+        "end": 20
+        "exact": "払子"
+      "rendered_text": "払子（ほっす）"
+      "gloss_ja": "柄の先に毛などを束ねた、塵や虫を払う道具。"
+    - "entry_id": "xy-entry-0428"
+      "form_id": "xy-form-0487"
+      "segment_id": "xy-ch98-007"
+      "translation_span":
+        "start": 45
+        "end": 47
+        "exact": "瑤池"
+      "rendered_text": "瑤池（ようち）"
+    - "entry_id": "xy-ch98-dantai"
+      "form_id": "xy-ch98-dantai-form"
+      "segment_id": "xy-ch98-007"
+      "translation_span":
+        "start": 71
+        "end": 73
+        "exact": "丹台"
+      "rendered_text": "丹台（たんだい）"
+      "gloss_ja": "仙人の住む台閣・仙境。"
+    - "entry_id": "xy-ch60-purple-palace"
+      "form_id": "xy-ch60-purple-palace-form"
+      "segment_id": "xy-ch98-007"
+      "translation_span":
+        "start": 80
+        "end": 82
+        "exact": "紫府"
+      "rendered_text": "紫府（しふ）"
+      "gloss_ja": "仙人の住む宮殿・仙境。"
+    - "entry_id": "xy-ch98-immortal-register"
+      "form_id": "xy-ch98-immortal-register-form"
+      "segment_id": "xy-ch98-007"
+      "translation_span":
+        "start": 99
+        "end": 101
+        "exact": "仙籙"
+      "rendered_text": "仙籙（せんろく）"
+      "gloss_ja": "仙人の資格や名籍に関わる道教の文書。"
+    - "entry_id": "xy-entry-0709"
+      "form_id": "xy-form-0814"
+      "segment_id": "xy-ch98-007"
+      "translation_span":
+        "start": 196
+        "end": 198
+        "exact": "霊山"
+      "rendered_text": "霊山（れいざん）"
+    - "entry_id": "xy-entry-0877"
+      "form_id": "xy-form-1003"
+      "segment_id": "xy-ch98-007"
+      "translation_span":
+        "start": 225
+        "end": 229
+        "exact": "金頂大仙"
+      "rendered_text": "金頂大仙（きんちょうたいせん）"
+    - "entry_id": "xy-entry-0876"
+      "form_id": "xy-form-1002"
+      "segment_id": "xy-ch98-008"
+      "translation_span":
+        "start": 35
+        "end": 38
+        "exact": "玉真観"
+      "rendered_text": "玉真観（ぎょくしんかん）"
+    - "entry_id": "xy-entry-0552"
+      "form_id": "xy-form-0624"
+      "segment_id": "xy-ch98-008"
+      "translation_span":
+        "start": 142
+        "end": 146
+        "exact": "観音菩薩"
+      "rendered_text": "観音菩薩（かんのんぼさつ）"
+    - "entry_id": "xy-ch98-nine-precepts"
+      "form_id": "xy-ch98-nine-precepts-form"
+      "segment_id": "xy-ch98-009"
+      "translation_span":
+        "start": 54
+        "end": 56
+        "exact": "九戒"
+      "rendered_text": "九戒（きゅうかい）"
+      "gloss_ja": "九つの戒め。具体的な内訳はこの詩には示されない。"
+    - "entry_id": "xy-ch98-three-refuges"
+      "form_id": "xy-ch98-three-refuges-form"
+      "segment_id": "xy-ch98-009"
+      "translation_span":
+        "start": 64
+        "end": 66
+        "exact": "三帰"
+      "rendered_text": "三帰（さんき）"
+      "gloss_ja": "仏・法・僧の三宝をよりどころにすること。"
+    - "entry_id": "xy-entry-1314"
+      "form_id": "xy-form-1512"
+      "segment_id": "xy-ch98-009"
+      "translation_span":
+        "start": 111
+        "end": 113
+        "exact": "沙門"
+      "rendered_text": "沙門（しゃもん）"
+      "gloss_ja": "出家して道を修める僧。"
+    - "entry_id": "xy-entry-1546"
+      "form_id": "xy-form-1806"
+      "segment_id": "xy-ch98-011"
+      "translation_span":
+        "start": 10
+        "end": 14
+        "exact": "錦襴袈裟"
+      "rendered_text": "錦襴袈裟（きんらんげさ）"
+      "gloss_ja": "錦襴で飾られた三蔵の宝の袈裟。"
+    - "entry_id": "xy-entry-1330"
+      "form_id": "xy-form-1532"
+      "segment_id": "xy-ch98-011"
+      "translation_span":
+        "start": 27
+        "end": 30
+        "exact": "毘盧帽"
+      "rendered_text": "毘盧帽（びるぼう）"
+      "gloss_ja": "僧が儀礼でかぶる冠帽。"
+    - "entry_id": "xy-entry-0865"
+      "form_id": "xy-form-0991"
+      "segment_id": "xy-ch98-011"
+      "translation_span":
+        "start": 41
+        "end": 43
+        "exact": "錫杖"
+      "rendered_text": "錫杖（しゃくじょう）"
+      "gloss_ja": "上部に金属の輪を付けた僧の杖。"
+    - "entry_id": "xy-entry-0875"
+      "form_id": "xy-form-1001"
+      "segment_id": "xy-ch98-011"
+      "translation_span":
+        "start": 409
+        "end": 411
+        "exact": "栴檀"
+      "rendered_text": "栴檀（せんだん）"
+      "gloss_ja": "香りのよい香木。ここでは仏の道を飾る語。"
+    - "entry_id": "xy-entry-0709"
+      "form_id": "xy-ch87-lingjiu-peak-form"
+      "segment_id": "xy-ch98-011"
+      "translation_span":
+        "start": 518
+        "end": 521
+        "exact": "霊鷲峰"
+      "rendered_text": "霊鷲峰（りょうじゅほう）"
+    - "entry_id": "xy-sun-wukong"
+      "form_id": "xy-form-0409"
+      "segment_id": "xy-ch98-011"
+      "translation_span":
+        "start": 685
+        "end": 687
+        "exact": "大聖"
+      "rendered_text": "大聖（たいせい）"
+    - "entry_id": "xy-entry-0902"
+      "form_id": "xy-form-1927"
+      "segment_id": "xy-ch98-011"
+      "translation_span":
+        "start": 694
+        "end": 696
+        "exact": "天蓬"
+      "rendered_text": "天蓬（てんぽう）"
+      "gloss_ja": "八戒の旧官職、天蓬元帥の略。"
+    - "entry_id": "xy-entry-0885"
+      "form_id": "xy-ch98-juanlian-short-form"
+      "segment_id": "xy-ch98-011"
+      "translation_span":
+        "start": 703
+        "end": 705
+        "exact": "捲簾"
+      "rendered_text": "捲簾（けんれん）"
+      "gloss_ja": "沙悟浄の旧官職、捲簾大将の略。"
+    - "entry_id": "xy-term-089"
+      "form_id": "xy-term-089-form"
+      "segment_id": "xy-ch98-012"
+      "translation_span":
+        "start": 32
+        "end": 33
+        "exact": "里"
+      "rendered_text": "里（り）"
+      "gloss_ja": "中国の古い距離の単位。一定の現代距離には換算しない。"
+    - "entry_id": "xy-entry-0839"
+      "form_id": "xy-form-0962"
+      "segment_id": "xy-ch98-012"
+      "translation_span":
+        "start": 254
+        "end": 256
+        "exact": "正果"
+      "rendered_text": "正果（しょうか）"
+      "gloss_ja": "修行の果てに得る正しい悟り。"
+    - "entry_id": "xy-ch98-lingyun-holy-crossing"
+      "form_id": "xy-ch98-lingyun-holy-crossing-form"
+      "segment_id": "xy-ch98-012"
+      "translation_span":
+        "start": 296
+        "end": 299
+        "exact": "凌雲渡"
+      "rendered_text": "凌雲渡（りょううんと）"
+      "gloss_ja": "霊山への道にある渡し場の名。"
+    - "entry_id": "xy-term-042"
+      "form_id": "xy-term-042-form"
+      "segment_id": "xy-ch98-013"
+      "translation_span":
+        "start": 84
+        "end": 85
+        "exact": "丈"
+      "rendered_text": "丈（じょう）"
+      "gloss_ja": "古い長さの単位。一丈は十尺。"
+    - "entry_id": "xy-ch98-xun-measure"
+      "form_id": "xy-ch98-xun-measure-form"
+      "segment_id": "xy-ch98-013"
+      "translation_span":
+        "start": 103
+        "end": 104
+        "exact": "尋"
+      "rendered_text": "尋（じん）"
+      "gloss_ja": "古い長さの単位。ここでは橋の長さを大きく形容する。"
+    - "entry_id": "xy-entry-0902"
+      "form_id": "xy-form-1939"
+      "segment_id": "xy-ch98-014"
+      "translation_span":
+        "start": 83
+        "end": 85
+        "exact": "八戒"
+      "rendered_text": "八戒（はっかい）"
+    - "entry_id": "xy-entry-0885"
+      "form_id": "xy-form-1028"
+      "segment_id": "xy-ch98-015"
+      "translation_span":
+        "start": 83
+        "end": 86
+        "exact": "沙悟浄"
+      "rendered_text": "沙悟浄（さごじょう）"
+    - "entry_id": "xy-entry-0671"
+      "form_id": "xy-form-0773"
+      "segment_id": "xy-ch98-016"
+      "translation_span":
+        "start": 143
+        "end": 147
+        "exact": "火眼金睛"
+      "rendered_text": "火眼金睛（かがんきんせい）"
+      "gloss_ja": "悟空の、妖怪や変化を見分ける目の呼び名。"
+    - "entry_id": "xy-ch98-guide-buddha"
+      "form_id": "xy-ch98-guide-buddha-form"
+      "segment_id": "xy-ch98-016"
+      "translation_span":
+        "start": 174
+        "end": 178
+        "exact": "接引仏祖"
+      "rendered_text": "接引仏祖（せついんぶっそ）"
+      "gloss_ja": "渡し舟で人を彼岸へ導く仏。"
+    - "entry_id": "xy-ch98-guide-buddha"
+      "form_id": "xy-ch98-baochuang-buddha-form"
+      "segment_id": "xy-ch98-016"
+      "translation_span":
+        "start": 193
+        "end": 200
+        "exact": "南無宝幢光王仏"
+      "rendered_text": "南無宝幢光王仏（なむほうどうこうおうぶつ）"
+    - "entry_id": "xy-ch98-six-dusts"
+      "form_id": "xy-ch98-six-dusts-form"
+      "segment_id": "xy-ch98-017"
+      "translation_span":
+        "start": 88
+        "end": 90
+        "exact": "六塵"
+      "rendered_text": "六塵（ろくじん）"
+      "gloss_ja": "色・声・香・味・触・法という六つの認識対象。心に汚れを生むものとして塵という。"
+    - "entry_id": "xy-entry-0793"
+      "form_id": "xy-form-0908"
+      "segment_id": "xy-ch98-017"
+      "translation_span":
+        "start": 117
+        "end": 119
+        "exact": "万劫"
+      "rendered_text": "万劫（まんごう）"
+      "gloss_ja": "計り知れないほど長い年月。"
+    - "entry_id": "xy-ch98-boat-crosspieces"
+      "form_id": "xy-ch98-boat-crosspieces-form"
+      "segment_id": "xy-ch98-018"
+      "translation_span":
+        "start": 240
+        "end": 242
+        "exact": "\U00026A45\U00026A80"
+      "rendered_text": "\U00026A45\U00026A80（かんとう）"
+      "gloss_ja": "舟の足場になる枠や横材の類と解した難語。厳密な構造は未詳。"
+    - "entry_id": "xy-entry-1178"
+      "form_id": "xy-form-1340"
+      "segment_id": "xy-ch98-019"
+      "translation_span":
+        "start": 36
+        "end": 38
+        "exact": "元神"
+      "rendered_text": "元神（げんしん）"
+      "gloss_ja": "道教でいう根源的な精神や霊。"
+    - "entry_id": "xy-ch98-sixsix-dusts"
+      "form_id": "xy-ch98-sixsix-dusts-form"
+      "segment_id": "xy-ch98-019"
+      "translation_span":
+        "start": 69
+        "end": 72
+        "exact": "六六塵"
+      "rendered_text": "六六塵（ろくろくじん）"
+      "gloss_ja": "感覚や思いに結びつく俗世の汚れを六六と数える表現。数え方は未詳。"
+    - "entry_id": "xy-entry-1497"
+      "form_id": "xy-form-1749"
+      "segment_id": "xy-ch98-020"
+      "translation_span":
+        "start": 14
+        "end": 16
+        "exact": "彼岸"
+      "rendered_text": "彼岸（ひがん）"
+      "gloss_ja": "迷いを離れた悟りの境地を、向こう岸にたとえた語。"
+    - "entry_id": "xy-entry-0711"
+      "form_id": "xy-form-1769"
+      "segment_id": "xy-ch98-021"
+      "translation_span":
+        "start": 367
+        "end": 370
+        "exact": "雷音寺"
+      "rendered_text": "雷音寺（らいおんじ）"
+    - "entry_id": "xy-entry-0802"
+      "form_id": "xy-form-0917"
+      "segment_id": "xy-ch98-022"
+      "translation_span":
+        "start": 11
+        "end": 14
+        "exact": "須弥山"
+      "rendered_text": "須弥山（しゅみせん）"
+      "gloss_ja": "仏教の世界観で中央にそびえる山。"
+    - "entry_id": "xy-entry-0860"
+      "form_id": "xy-form-0984"
+      "segment_id": "xy-ch98-022"
+      "translation_span":
+        "start": 89
+        "end": 90
+        "exact": "蕙"
+      "rendered_text": "蕙（けい）"
+      "gloss_ja": "よい香りのする草。"
+    - "entry_id": "xy-entry-0304"
+      "form_id": "xy-form-0331"
+      "segment_id": "xy-ch98-022"
+      "translation_span":
+        "start": 276
+        "end": 278
+        "exact": "瑪瑙"
+      "rendered_text": "瑪瑙（めのう）"
+    - "entry_id": "xy-ch98-leiyin-heavenly-hall"
+      "form_id": "xy-ch98-leiyin-heavenly-hall-form"
+      "segment_id": "xy-ch98-022"
+      "translation_span":
+        "start": 347
+        "end": 350
+        "exact": "天王殿"
+      "rendered_text": "天王殿（てんのうでん）"
+    - "entry_id": "xy-ch98-dharma-protection-hall"
+      "form_id": "xy-ch98-dharma-protection-hall-form"
+      "segment_id": "xy-ch98-022"
+      "translation_span":
+        "start": 368
+        "end": 371
+        "exact": "護法堂"
+      "rendered_text": "護法堂（ごほうどう）"
+      "gloss_ja": "仏法を護る神々に関わる名の堂。"
+    - "entry_id": "xy-ch98-utpala"
+      "form_id": "xy-ch98-utpala-form"
+      "segment_id": "xy-ch98-022"
+      "translation_span":
+        "start": 404
+        "end": 406
+        "exact": "優鉢"
+      "rendered_text": "優鉢（うはつ）"
+      "gloss_ja": "蓮花・睡蓮の類をいう優鉢羅に関わる略称。"
+    - "entry_id": "xy-ch58-upasaka"
+      "form_id": "xy-ch58-upasaka-form"
+      "segment_id": "xy-ch98-023"
+      "translation_span":
+        "start": 75
+        "end": 78
+        "exact": "優婆塞"
+      "rendered_text": "優婆塞（うばそく）"
+      "gloss_ja": "在家の男性の仏教信者。"
+    - "entry_id": "xy-ch58-upasika"
+      "form_id": "xy-ch58-upasika-form"
+      "segment_id": "xy-ch98-023"
+      "translation_span":
+        "start": 85
+        "end": 88
+        "exact": "優婆夷"
+      "rendered_text": "優婆夷（うばい）"
+      "gloss_ja": "在家の女性の仏教信者。"
+    - "entry_id": "xy-entry-0829"
+      "form_id": "xy-ch58-bhikshu-monk-form"
+      "segment_id": "xy-ch98-023"
+      "translation_span":
+        "start": 94
+        "end": 97
+        "exact": "比丘僧"
+      "rendered_text": "比丘僧（びくそう）"
+      "gloss_ja": "出家して戒律を守る男性の僧。"
+    - "entry_id": "xy-entry-0830"
+      "form_id": "xy-form-0953"
+      "segment_id": "xy-ch98-023"
+      "translation_span":
+        "start": 104
+        "end": 107
+        "exact": "比丘尼"
+      "rendered_text": "比丘尼（びくに）"
+      "gloss_ja": "出家して戒律を守る女性の僧。"
+    - "entry_id": "xy-entry-0687"
+      "form_id": "xy-ch64-muni-buddha-form"
+      "segment_id": "xy-ch98-023"
+      "translation_span":
+        "start": 152
+        "end": 154
+        "exact": "牟尼"
+      "rendered_text": "牟尼（むに）"
+      "gloss_ja": "ここでは釈迦、すなわち如来の呼び名。"
+    - "entry_id": "xy-entry-0712"
+      "form_id": "xy-ch98-four-great-vajras-form"
+      "segment_id": "xy-ch98-024"
+      "translation_span":
+        "start": 39
+        "end": 43
+        "exact": "四大金剛"
+      "rendered_text": "四大金剛（しだいこんごう）"
+      "gloss_ja": "仏法を護る四人の力強い神々。"
+    - "entry_id": "xy-entry-0874"
+      "form_id": "xy-form-1167"
+      "segment_id": "xy-ch98-024"
+      "translation_span":
+        "start": 100
+        "end": 102
+        "exact": "玄奘"
+      "rendered_text": "玄奘（げんじょう）"
+    - "entry_id": "xy-entry-0817"
+      "form_id": "xy-form-0937"
+      "segment_id": "xy-ch98-024"
+      "translation_span":
+        "start": 134
+        "end": 136
+        "exact": "金剛"
+      "rendered_text": "金剛（こんごう）"
+    - "entry_id": "xy-ch36-daxiong-hall"
+      "form_id": "xy-ch80-daxiong-hall-short-form"
+      "segment_id": "xy-ch98-024"
+      "translation_span":
+        "start": 271
+        "end": 274
+        "exact": "大雄殿"
+      "rendered_text": "大雄殿（だいおうでん）"
+      "gloss_ja": "仏を本尊としてまつる寺の主要な殿堂。"
+    - "entry_id": "xy-entry-0687"
+      "form_id": "xy-form-0791"
+      "segment_id": "xy-ch98-024"
+      "translation_span":
+        "start": 289
+        "end": 291
+        "exact": "如来"
+      "rendered_text": "如来（にょらい）"
+    - "entry_id": "xy-entry-0687"
+      "form_id": "xy-ch98-shakyamuni-wenfo-form"
+      "segment_id": "xy-ch98-024"
+      "translation_span":
+        "start": 298
+        "end": 304
+        "exact": "釈迦牟尼文仏"
+      "rendered_text": "釈迦牟尼文仏（しゃかむにもんぶつ）"
+    - "entry_id": "xy-entry-0792"
+      "form_id": "xy-form-0907"
+      "segment_id": "xy-ch98-024"
+      "translation_span":
+        "start": 325
+        "end": 326
+        "exact": "唐"
+      "rendered_text": "唐（とう）"
+    - "entry_id": "xy-entry-0713"
+      "form_id": "xy-form-0818"
+      "segment_id": "xy-ch98-024"
+      "translation_span":
+        "start": 371
+        "end": 374
+        "exact": "八菩薩"
+      "rendered_text": "八菩薩（はちぼさつ）"
+    - "entry_id": "xy-entry-0712"
+      "form_id": "xy-form-0817"
+      "segment_id": "xy-ch98-024"
+      "translation_span":
+        "start": 382
+        "end": 385
+        "exact": "四金剛"
+      "rendered_text": "四金剛（しこんごう）"
+    - "entry_id": "xy-entry-0442"
+      "form_id": "xy-form-0928"
+      "segment_id": "xy-ch98-024"
+      "translation_span":
+        "start": 396
+        "end": 399
+        "exact": "阿羅漢"
+      "rendered_text": "阿羅漢（あらかん）"
+    - "entry_id": "xy-entry-0828"
+      "form_id": "xy-form-0951"
+      "segment_id": "xy-ch98-024"
+      "translation_span":
+        "start": 409
+        "end": 411
+        "exact": "掲諦"
+      "rendered_text": "掲諦（ぎゃてい）"
+      "gloss_ja": "仏法を護る神々。"
+    - "entry_id": "xy-ch74-eleven-luminaries"
+      "form_id": "xy-ch74-eleven-luminaries-form"
+      "segment_id": "xy-ch98-024"
+      "translation_span":
+        "start": 418
+        "end": 422
+        "exact": "十一大曜"
+      "rendered_text": "十一大曜（じゅういちたいよう）"
+      "gloss_ja": "日月や星に関わる十一柱の星神。"
+    - "entry_id": "xy-entry-1482"
+      "form_id": "xy-form-1730"
+      "segment_id": "xy-ch98-024"
+      "translation_span":
+        "start": 436
+        "end": 438
+        "exact": "伽藍"
+      "rendered_text": "伽藍（がらん）"
+      "gloss_ja": "ここでは仏教を護る神々。寺の建物という意味ではない。"
+    - "entry_id": "xy-ch36-daxiong-hall"
+      "form_id": "xy-ch36-daxiong-hall-form"
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 3
+        "end": 7
+        "exact": "大雄宝殿"
+      "rendered_text": "大雄宝殿（だいおうほうでん）"
+    - "entry_id": "xy-ch45-travel-pass"
+      "form_id": "xy-ch54-pass-alias-form"
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 87
+        "end": 91
+        "exact": "通関文牒"
+      "rendered_text": "通関文牒（つうかんもんちょう）"
+      "gloss_ja": "各国を通る際に認証を受ける旅の証明書。"
+    - "entry_id": "xy-entry-0792"
+      "form_id": "xy-form-1078"
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 158
+        "end": 160
+        "exact": "大唐"
+      "rendered_text": "大唐（だいとう）"
+    - "entry_id": "xy-entry-0687"
+      "form_id": "xy-form-1689"
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 225
+        "end": 227
+        "exact": "仏祖"
+      "rendered_text": "仏祖（ぶっそ）"
+    - "entry_id": "xy-term-031"
+      "form_id": "xy-term-031-form"
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 313
+        "end": 317
+        "exact": "南贍部洲"
+      "rendered_text": "南贍部洲（なんせんぶしゅう）"
+    - "entry_id": "xy-ch60-three-lights"
+      "form_id": "xy-ch60-three-lights-form"
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 391
+        "end": 393
+        "exact": "三光"
+      "rendered_text": "三光（さんこう）"
+      "gloss_ja": "太陽・月・星の三つの光。"
+    - "entry_id": "xy-entry-1260"
+      "form_id": "xy-ch98-avici-short-form"
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 598
+        "end": 600
+        "exact": "阿鼻"
+      "rendered_text": "阿鼻（あび）"
+      "gloss_ja": "苦しみが絶えないとされる阿鼻地獄。"
+    - "entry_id": "xy-entry-1116"
+      "form_id": "xy-form-1275"
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 633
+        "end": 635
+        "exact": "孔子"
+      "rendered_text": "孔子（こうし）"
+    - "entry_id": "xy-entry-0845"
+      "form_id": "xy-form-0969"
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 756
+        "end": 758
+        "exact": "三蔵"
+      "rendered_text": "三蔵（さんぞう）"
+      "gloss_ja": "教えを三つに分けた経蔵。僧の三蔵の名とは別に、ここでは経典の分類をいう。"
+    - "entry_id": "xy-entry-0843"
+      "form_id": "xy-form-0966"
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 859
+        "end": 863
+        "exact": "四大部洲"
+      "rendered_text": "四大部洲（しだいぶしゅう）"
+      "gloss_ja": "仏教の世界観で須弥山の周りにある四つの大陸。"
+    - "entry_id": "xy-entry-0717"
+      "form_id": "xy-form-0823"
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 999
+        "end": 1001
+        "exact": "阿儺"
+      "rendered_text": "阿儺（あなん）"
+    - "entry_id": "xy-entry-0718"
+      "form_id": "xy-form-0824"
+      "segment_id": "xy-ch98-026"
+      "translation_span":
+        "start": 1007
+        "end": 1009
+        "exact": "迦葉"
+      "rendered_text": "迦葉（かしょう）"
+    - "entry_id": "xy-ch98-nirvana-sutra"
+      "form_id": "xy-ch98-nirvana-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 1
+        "end": 4
+        "exact": "涅槃経"
+      "rendered_text": "涅槃経（ねはんぎょう）"
+    - "entry_id": "xy-ch98-bodhisattva-sutra"
+      "form_id": "xy-ch98-bodhisattva-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 25
+        "end": 28
+        "exact": "菩薩経"
+      "rendered_text": "菩薩経（ぼさつきょう）"
+    - "entry_id": "xy-ch98-akashagarbha-sutra"
+      "form_id": "xy-ch98-akashagarbha-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 48
+        "end": 52
+        "exact": "虚空蔵経"
+      "rendered_text": "虚空蔵経（こくうぞうきょう）"
+    - "entry_id": "xy-ch98-surangama-sutra"
+      "form_id": "xy-ch98-surangama-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 72
+        "end": 76
+        "exact": "首楞厳経"
+      "rendered_text": "首楞厳経（しゅりょうごんきょう）"
+    - "entry_id": "xy-ch98-grace-great-collection"
+      "form_id": "xy-ch98-grace-great-collection-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 98
+        "end": 103
+        "exact": "恩意経大集"
+      "rendered_text": "恩意経大集（おんいきょうだいじゅう）"
+    - "entry_id": "xy-ch98-decision-sutra"
+      "form_id": "xy-ch98-decision-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 126
+        "end": 129
+        "exact": "決定経"
+      "rendered_text": "決定経（けつじょうきょう）"
+    - "entry_id": "xy-ch98-treasure-sutra"
+      "form_id": "xy-ch98-treasure-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 150
+        "end": 153
+        "exact": "宝蔵経"
+      "rendered_text": "宝蔵経（ほうぞうきょう）"
+    - "entry_id": "xy-ch96-huayan"
+      "form_id": "xy-ch96-huayan-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 173
+        "end": 176
+        "exact": "華厳経"
+      "rendered_text": "華厳経（けごんきょう）"
+    - "entry_id": "xy-ch98-true-suchness-sutra"
+      "form_id": "xy-ch98-true-suchness-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 194
+        "end": 198
+        "exact": "礼真如経"
+      "rendered_text": "礼真如経（らいしんにょきょう）"
+    - "entry_id": "xy-ch98-great-prajna-sutra"
+      "form_id": "xy-ch98-great-prajna-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 219
+        "end": 223
+        "exact": "大般若経"
+      "rendered_text": "大般若経（だいはんにゃきょう）"
+    - "entry_id": "xy-ch98-light-sutra"
+      "form_id": "xy-ch98-light-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 246
+        "end": 249
+        "exact": "光明経"
+      "rendered_text": "光明経（こうみょうきょう）"
+    - "entry_id": "xy-ch98-marvel-sutra"
+      "form_id": "xy-ch98-marvel-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 269
+        "end": 273
+        "exact": "未曾有経"
+      "rendered_text": "未曾有経（みぞうきょう）"
+    - "entry_id": "xy-ch98-vimalakirti-sutra"
+      "form_id": "xy-ch98-vimalakirti-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 292
+        "end": 295
+        "exact": "維摩経"
+      "rendered_text": "維摩経（ゆいまきょう）"
+    - "entry_id": "xy-ch98-three-treatises-other-sutra"
+      "form_id": "xy-ch98-three-treatises-other-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 314
+        "end": 318
+        "exact": "三論別経"
+      "rendered_text": "三論別経（さんろんべつきょう）"
+    - "entry_id": "xy-entry-1429"
+      "form_id": "xy-form-1660"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 341
+        "end": 344
+        "exact": "金剛経"
+      "rendered_text": "金剛経（こんごうきょう）"
+    - "entry_id": "xy-ch98-right-dharma-treatise-sutra"
+      "form_id": "xy-ch98-right-dharma-treatise-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 362
+        "end": 366
+        "exact": "正法論経"
+      "rendered_text": "正法論経（しょうぼうろんきょう）"
+    - "entry_id": "xy-ch98-buddha-biography-sutra"
+      "form_id": "xy-ch98-buddha-biography-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 389
+        "end": 393
+        "exact": "仏本行経"
+      "rendered_text": "仏本行経（ぶつほんぎょうきょう）"
+    - "entry_id": "xy-ch98-five-dragons-sutra"
+      "form_id": "xy-ch98-five-dragons-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 415
+        "end": 418
+        "exact": "五竜経"
+      "rendered_text": "五竜経（ごりゅうきょう）"
+    - "entry_id": "xy-ch98-bodhisattva-precepts-sutra"
+      "form_id": "xy-ch98-bodhisattva-precepts-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 438
+        "end": 442
+        "exact": "菩薩戒経"
+      "rendered_text": "菩薩戒経（ぼさつかいきょう）"
+    - "entry_id": "xy-ch98-great-collection-sutra"
+      "form_id": "xy-ch98-great-collection-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 463
+        "end": 466
+        "exact": "大集経"
+      "rendered_text": "大集経（だいじっきょう）"
+    - "entry_id": "xy-ch98-magadha-sutra"
+      "form_id": "xy-ch98-magadha-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 486
+        "end": 489
+        "exact": "摩竭経"
+      "rendered_text": "摩竭経（まかつきょう）"
+    - "entry_id": "xy-entry-1431"
+      "form_id": "xy-form-1662"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 509
+        "end": 512
+        "exact": "法華経"
+      "rendered_text": "法華経（ほけきょう）"
+    - "entry_id": "xy-ch98-yoga-sutra"
+      "form_id": "xy-ch98-yoga-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 528
+        "end": 531
+        "exact": "瑜伽経"
+      "rendered_text": "瑜伽経（ゆがきょう）"
+    - "entry_id": "xy-ch98-precious-constancy-sutra"
+      "form_id": "xy-ch98-precious-constancy-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 547
+        "end": 550
+        "exact": "宝常経"
+      "rendered_text": "宝常経（ほうじょうきょう）"
+    - "entry_id": "xy-ch98-western-heaven-treatise"
+      "form_id": "xy-ch98-western-heaven-treatise-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 572
+        "end": 576
+        "exact": "西天論経"
+      "rendered_text": "西天論経（さいてんろんきょう）"
+    - "entry_id": "xy-ch98-sanghika-sutra"
+      "form_id": "xy-ch98-sanghika-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 598
+        "end": 601
+        "exact": "僧祇経"
+      "rendered_text": "僧祇経（そうぎきょう）"
+    - "entry_id": "xy-ch98-buddha-land-misc-sutra"
+      "form_id": "xy-ch98-buddha-land-misc-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 621
+        "end": 625
+        "exact": "仏国雑経"
+      "rendered_text": "仏国雑経（ぶっこくざつきょう）"
+    - "entry_id": "xy-ch98-awakening-faith-sutra"
+      "form_id": "xy-ch98-awakening-faith-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 649
+        "end": 653
+        "exact": "起信論経"
+      "rendered_text": "起信論経（きしんろんきょう）"
+    - "entry_id": "xy-ch98-great-wisdom-sutra"
+      "form_id": "xy-ch98-great-wisdom-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 672
+        "end": 676
+        "exact": "大智度経"
+      "rendered_text": "大智度経（だいちどきょう）"
+    - "entry_id": "xy-ch98-precious-majesty-sutra"
+      "form_id": "xy-ch98-precious-majesty-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 696
+        "end": 699
+        "exact": "宝威経"
+      "rendered_text": "宝威経（ほういきょう）"
+    - "entry_id": "xy-ch98-original-pavilion-sutra"
+      "form_id": "xy-ch98-original-pavilion-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 720
+        "end": 723
+        "exact": "本閣経"
+      "rendered_text": "本閣経（ほんかくきょう）"
+    - "entry_id": "xy-ch98-right-discipline-sutra"
+      "form_id": "xy-ch98-right-discipline-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 744
+        "end": 748
+        "exact": "正律文経"
+      "rendered_text": "正律文経（しょうりつもんきょう）"
+    - "entry_id": "xy-entry-1433"
+      "form_id": "xy-ch98-great-peacock-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 770
+        "end": 774
+        "exact": "大孔雀経"
+      "rendered_text": "大孔雀経（だいくじゃくきょう）"
+    - "entry_id": "xy-ch98-consciousness-treatise-sutra"
+      "form_id": "xy-ch98-consciousness-treatise-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 797
+        "end": 801
+        "exact": "維識論経"
+      "rendered_text": "維識論経（ゆいしきろんきょう）"
+    - "entry_id": "xy-ch98-kosa-treatise-sutra"
+      "form_id": "xy-ch98-kosa-treatise-sutra-form"
+      "segment_id": "xy-ch98-030"
+      "translation_span":
+        "start": 821
+        "end": 825
+        "exact": "具舍論経"
+      "rendered_text": "具舍論経（くしゃろんきょう）"
+    - "entry_id": "xy-term-058"
+      "form_id": "xy-term-058-form"
+      "segment_id": "xy-ch98-031"
+      "translation_span":
+        "start": 462
+        "end": 464
+        "exact": "菩薩"
+      "rendered_text": "菩薩（ぼさつ）"
+    - "entry_id": "xy-entry-0476"
+      "form_id": "xy-form-0537"
+      "segment_id": "xy-ch98-032"
+      "translation_span":
+        "start": 11
+        "end": 15
+        "exact": "燃灯古仏"
+      "rendered_text": "燃灯古仏（ねんとうこぶつ）"
+    - "entry_id": "xy-ch98-bai-xiong"
+      "form_id": "xy-ch98-bai-xiong-form"
+      "segment_id": "xy-ch98-032"
+      "translation_span":
+        "start": 186
+        "end": 190
+        "exact": "白雄尊者"
+      "rendered_text": "白雄尊者（はくゆうそんじゃ）"
+    - "entry_id": "xy-ch45-xun-erl"
+      "form_id": "xy-ch98-xun-er-short-form"
+      "segment_id": "xy-ch98-033"
+      "translation_span":
+        "start": 7
+        "end": 9
+        "exact": "巽二"
+      "rendered_text": "巽二（そんじ）"
+      "gloss_ja": "風をつかさどる巽二郎の略称。"
+    - "entry_id": "xy-entry-1649"
+      "form_id": "xy-form-1950"
+      "segment_id": "xy-ch98-033"
+      "translation_span":
+        "start": 133
+        "end": 135
+        "exact": "錦鶏"
+      "rendered_text": "錦鶏（きんけい）"
+    - "entry_id": "xy-entry-0937"
+      "form_id": "xy-form-1489"
+      "segment_id": "xy-ch98-035"
+      "translation_span":
+        "start": 336
+        "end": 338
+        "exact": "唐王"
+      "rendered_text": "唐王（とうおう）"
+    - "entry_id": "xy-ch93-sravasti-realm"
+      "form_id": "xy-ch93-sravasti-realm-form"
+      "segment_id": "xy-ch98-036"
+      "translation_span":
+        "start": 385
+        "end": 388
+        "exact": "舎衛国"
+      "rendered_text": "舎衛国（しゃえこく）"
+    - "entry_id": "xy-ch98-zhao-elder"
+      "form_id": "xy-ch98-zhao-elder-form"
+      "segment_id": "xy-ch98-036"
+      "translation_span":
+        "start": 396
+        "end": 399
+        "exact": "趙長者"
+      "rendered_text": "趙長者（ちょうちょうじゃ）"
+    - "entry_id": "xy-entry-1600"
+      "form_id": "xy-form-1882"
+      "segment_id": "xy-ch98-036"
+      "translation_span":
+        "start": 476
+        "end": 477
+        "exact": "斗"
+      "rendered_text": "斗（と）"
+      "gloss_ja": "容量の単位。通常、一斗は十升。"
+    - "entry_id": "xy-term-080"
+      "form_id": "xy-term-080-form"
+      "segment_id": "xy-ch98-036"
+      "translation_span":
+        "start": 481
+        "end": 482
+        "exact": "升"
+      "rendered_text": "升（しょう）"
+      "gloss_ja": "穀物などの容量を量る単位。時代・地域で量は異なる。"
+    - "entry_id": "xy-entry-0202"
+      "form_id": "xy-form-0216"
+      "segment_id": "xy-ch98-037"
+      "translation_span":
+        "start": 52
+        "end": 54
+        "exact": "紫金"
+      "rendered_text": "紫金（しきん）"
+      "gloss_ja": "紫がかるほど良質とされる金。"
+    - "entry_id": "xy-entry-1386"
+      "form_id": "xy-form-1597"
+      "segment_id": "xy-ch98-037"
+      "translation_span":
+        "start": 60
+        "end": 62
+        "exact": "鉢盂"
+      "rendered_text": "鉢盂（はつう）"
+      "gloss_ja": "僧が食事や施しを受ける器。"
+    - "entry_id": "xy-entry-0863"
+      "form_id": "xy-form-0989"
+      "segment_id": "xy-ch98-037"
+      "translation_span":
+        "start": 671
+        "end": 673
+        "exact": "袈裟"
+      "rendered_text": "袈裟（けさ）"
+    - "entry_id": "xy-ch52-dragon-subduing-arhat"
+      "form_id": "xy-ch52-dragon-subduing-arhat-form"
+      "segment_id": "xy-ch98-039"
+      "translation_span":
+        "start": 35
+        "end": 37
+        "exact": "降龍"
+      "rendered_text": "降龍（ごうりゅう）"
+    - "entry_id": "xy-ch52-tiger-subduing-arhat"
+      "form_id": "xy-ch52-tiger-subduing-arhat-form"
+      "segment_id": "xy-ch98-039"
+      "translation_span":
+        "start": 45
+        "end": 47
+        "exact": "伏虎"
+      "rendered_text": "伏虎（ふっこ）"
+    - "entry_id": "xy-entry-0442"
+      "form_id": "xy-form-0501"
+      "segment_id": "xy-ch98-039"
+      "translation_span":
+        "start": 55
+        "end": 57
+        "exact": "羅漢"
+      "rendered_text": "羅漢（らかん）"
+    - "entry_id": "xy-ch98-cloud-chime"
+      "form_id": "xy-ch98-cloud-chime-form"
+      "segment_id": "xy-ch98-039"
+      "translation_span":
+        "start": 66
+        "end": 68
+        "exact": "雲磬"
+      "rendered_text": "雲磬（うんけい）"
+      "gloss_ja": "儀礼で打ち鳴らす磬の呼び名。具体的な形は未詳。"
+    - "entry_id": "xy-entry-0811"
+      "form_id": "xy-form-0936"
+      "segment_id": "xy-ch98-039"
+      "translation_span":
+        "start": 97
+        "end": 100
+        "exact": "八金剛"
+      "rendered_text": "八金剛（はちこんごう）"
+    - "entry_id": "xy-ch58-four-bodhisattvas"
+      "form_id": "xy-ch58-four-bodhisattvas-short-form"
+      "segment_id": "xy-ch98-039"
+      "translation_span":
+        "start": 109
+        "end": 112
+        "exact": "四菩薩"
+      "rendered_text": "四菩薩（しぼさつ）"
+    - "entry_id": "xy-ch98-light-sutra"
+      "form_id": "xy-ch98-great-light-sutra-form"
+      "segment_id": "xy-ch98-040"
+      "translation_span":
+        "start": 110
+        "end": 114
+        "exact": "大光明経"
+      "rendered_text": "大光明経（だいこうみょうきょう）"
+    - "entry_id": "xy-ch98-sanghika-sutra"
+      "form_id": "xy-ch98-sanghika-variant-form"
+      "segment_id": "xy-ch98-040"
+      "translation_span":
+        "start": 283
+        "end": 286
+        "exact": "僧祗経"
+      "rendered_text": "僧祗経（そうぎきょう）"
+    - "entry_id": "xy-entry-1319"
+      "form_id": "xy-form-1517"
+      "segment_id": "xy-ch98-042"
+      "translation_span":
+        "start": 93
+        "end": 95
+        "exact": "三教"
+      "rendered_text": "三教（さんきょう）"
+      "gloss_ja": "儒教・仏教・道教の三つの教え。"
+    - "entry_id": "xy-entry-0687"
+      "form_id": "xy-form-0939"
+      "segment_id": "xy-ch98-043"
+      "translation_span":
+        "start": 160
+        "end": 162
+        "exact": "世尊"
+      "rendered_text": "世尊（せそん）"
+    - "entry_id": "xy-entry-0811"
+      "form_id": "xy-form-0929"
+      "segment_id": "xy-ch98-043"
+      "translation_span":
+        "start": 279
+        "end": 283
+        "exact": "八大金剛"
+      "rendered_text": "八大金剛（はちだいこんごう）"

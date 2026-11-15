@@ -91348,7 +91348,7 @@
         "precision": "work"
         "url": "https://www.gutenberg.org/files/30913/30913-h/images/003_s.jpg"
   - "id": "v03-asset-003"
-    "status": "available"
+    "status": "planned"
     "path": "assets/talleyrand-memoirs-volume-3/003_b.jpg"
     "media_type": "image/jpeg"
     "rights":
@@ -97314,8 +97314,14 @@
     "status": "complete"
     "completed_at": "2026-10-11T04:32:17Z"
     "reviewed_by": "Codex：完稿後の原文・訳文の全件通読、日本語のみの別通読、独立レビューと修正箇所の再読。"
-    "content_sha256": "e8f02babb1ebb6283926b8ee929c9a810ea49759905f4ea19c86d03295ee2bfd"
+    "content_sha256": "fb83a8c4c3715420ab18f670936faad99225acd7f446ad4ceee52b9d16803343"
 "provenance":
+  publication_storage_cleanup:
+    unbundled_asset_ids:
+    - v03-asset-003
+    description_ja: 公開物を本文用の画像に限定したため、本文図から参照されない画像ファイルを非同梱とし、対応Assetのstatusのみplannedへ変更した。元のパス、実測済み寸法、バイト数、SHA-256、出典、権利、切り出し座標と加工履歴は過去の画像の来歴として保持する。本文・訳文・固定ID・図・参照・注・既存の校閲状態は変更していない。これは梱包変更の検証であり、新たな全文校閲ではない。
+    previous_content_sha256: e8f02babb1ebb6283926b8ee929c9a810ea49759905f4ea19c86d03295ee2bfd
+    packaged_content_sha256: fb83a8c4c3715420ab18f670936faad99225acd7f446ad4ceee52b9d16803343
   "source_preservation_repository": "https://github.com/cacazu/nihonjinbun"
   "source_preservation_commit": "ce1b9bc9904d3d973fc0b6bc03d01a6b0e896c07"
   "source_preservation_directory": "recovery/talleyrand/2026-10-10/source-volume-3"

@@ -6743,7 +6743,7 @@
   "width": 1614
   "height": 952
 - "id": "image-18"
-  "status": "available"
+  "status": "planned"
   "path": "assets/in-praise-of-folly/image-18.jpg"
   "media_type": "image/jpeg"
   "rights":
@@ -6779,7 +6779,7 @@
   "width": 1579
   "height": 940
 - "id": "image-20"
-  "status": "available"
+  "status": "planned"
   "path": "assets/in-praise-of-folly/image-20.jpg"
   "media_type": "image/jpeg"
   "rights":
@@ -6905,7 +6905,7 @@
   "width": 1628
   "height": 957
 - "id": "image-27"
-  "status": "available"
+  "status": "planned"
   "path": "assets/in-praise-of-folly/image-27.jpg"
   "media_type": "image/jpeg"
   "rights":
@@ -7085,7 +7085,7 @@
   "width": 1638
   "height": 939
 - "id": "image-37"
-  "status": "available"
+  "status": "planned"
   "path": "assets/in-praise-of-folly/image-37.jpg"
   "media_type": "image/jpeg"
   "rights":
@@ -7931,7 +7931,7 @@
   "width": 1565
   "height": 956
 - "id": "image-84"
-  "status": "available"
+  "status": "planned"
   "path": "assets/in-praise-of-folly/image-84.jpg"
   "media_type": "image/jpeg"
   "rights":
@@ -8866,6 +8866,14 @@
   "full_review":
     "status": "not_started"
 "provenance":
+  publication_storage_cleanup:
+    unbundled_asset_ids:
+    - image-18
+    - image-20
+    - image-27
+    - image-37
+    - image-84
+    description_ja: 公開物を本文用の画像に限定したため、本文図から参照されない画像ファイルを非同梱とし、対応Assetのstatusのみplannedへ変更した。元のパス、実測済み寸法、バイト数、SHA-256、出典、権利、切り出し座標と加工履歴は過去の画像の来歴として保持する。本文・訳文・固定ID・図・参照・注・既存の校閲状態は変更していない。これは梱包変更の検証であり、新たな全文校閲ではない。
   "original_repository": "https://github.com/cacazu/nihonjinbun"
   "original_commit": "a63dfa5727d2eca74c36e2fa54c010fa2a42be8e"
   "original_file": "translations/erasmus/in-praise-of-folly-en-ja.yaml"

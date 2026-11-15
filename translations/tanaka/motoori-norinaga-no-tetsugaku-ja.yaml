@@ -93744,7 +93744,7 @@ workflow:
     status: complete
     completed_at: '2026-10-23T22:22:49Z'
     reviewed_by: Codex
-    content_sha256: f9d4b0ac2a925a5f4237e3be8d469dda61df0523723901017be6e92e463e0965
+    content_sha256: fda4bdc29c71654c381a61f57d7a2a1ffa85468c2a18e36d4f834a05c7a4f3f0
 terminology:
 - id: term-shinto
   kind: term
@@ -93758,6 +93758,23 @@ terminology:
   translation_ja: 真心
   note_ja: 国学・復古神道の術語として保持する。
 provenance:
+  publication_storage_cleanup:
+    unbundled_asset_ids:
+    - mn-asset-canvas-001
+    - mn-asset-original-cover
+    - mn-asset-canvas-002
+    - mn-asset-canvas-003
+    - mn-asset-canvas-024
+    - mn-asset-canvas-025
+    - mn-asset-canvas-275
+    - mn-asset-canvas-276
+    - mn-asset-canvas-277
+    - mn-asset-canvas-280
+    - mn-asset-canvas-296
+    - mn-asset-canvas-297
+    description_ja: 公開物を本文用の画像に限定したため、本文図から参照されない画像ファイルを非同梱とし、対応Assetのstatusのみplannedへ変更した。元のパス、実測済み寸法、バイト数、SHA-256、出典、権利、切り出し座標と加工履歴は過去の画像の来歴として保持する。本文・訳文・固定ID・図・参照・注・既存の校閲状態は変更していない。これは梱包変更の検証であり、新たな全文校閲ではない。
+    previous_content_sha256: f9d4b0ac2a925a5f4237e3be8d469dda61df0523723901017be6e92e463e0965
+    packaged_content_sha256: fda4bdc29c71654c381a61f57d7a2a1ffa85468c2a18e36d4f834a05c7a4f3f0
   source_zip: 899565.zip
   source_zip_sha256: 092e58c9a71c3f236bdbc41e36b5934082a1cb579384ad1eea0172a39b48b658
   ocr_usage: OCRは補助。欄外・柱・重複領域を本文から除き、疑義は原画像に照合する。
@@ -99274,7 +99291,7 @@ figures:
   - mn-0297-tree03
 assets:
 - id: mn-asset-canvas-001
-  status: available
+  status: planned
   path: assets/tanaka-motoori-norinaga-no-tetsugaku-1912/canvas-001.jpg
   media_type: image/jpeg
   rights:
@@ -99292,7 +99309,7 @@ assets:
   width: 2000
   height: 1507
 - id: mn-asset-original-cover
-  status: available
+  status: planned
   path: assets/tanaka-motoori-norinaga-no-tetsugaku-1912/original-cover.jpg
   media_type: image/jpeg
   rights:
@@ -99322,7 +99339,7 @@ assets:
       width: 800
       height: 1320
 - id: mn-asset-canvas-002
-  status: available
+  status: planned
   path: assets/tanaka-motoori-norinaga-no-tetsugaku-1912/canvas-002.jpg
   media_type: image/jpeg
   rights:
@@ -99370,7 +99387,7 @@ assets:
       width: 790
       height: 970
 - id: mn-asset-canvas-003
-  status: available
+  status: planned
   path: assets/tanaka-motoori-norinaga-no-tetsugaku-1912/canvas-003.jpg
   media_type: image/jpeg
   rights:
@@ -99418,7 +99435,7 @@ assets:
       width: 760
       height: 940
 - id: mn-asset-canvas-024
-  status: available
+  status: planned
   path: assets/tanaka-motoori-norinaga-no-tetsugaku-1912/canvas-024.jpg
   media_type: image/jpeg
   rights:
@@ -99466,7 +99483,7 @@ assets:
       width: 650
       height: 1130
 - id: mn-asset-canvas-025
-  status: available
+  status: planned
   path: assets/tanaka-motoori-norinaga-no-tetsugaku-1912/canvas-025.jpg
   media_type: image/jpeg
   rights:
@@ -99544,7 +99561,7 @@ assets:
       width: 430
       height: 980
 - id: mn-asset-canvas-275
-  status: available
+  status: planned
   path: assets/tanaka-motoori-norinaga-no-tetsugaku-1912/canvas-275.jpg
   media_type: image/jpeg
   rights:
@@ -99562,7 +99579,7 @@ assets:
   width: 2000
   height: 1507
 - id: mn-asset-canvas-276
-  status: available
+  status: planned
   path: assets/tanaka-motoori-norinaga-no-tetsugaku-1912/canvas-276.jpg
   media_type: image/jpeg
   rights:
@@ -99580,7 +99597,7 @@ assets:
   width: 2000
   height: 1507
 - id: mn-asset-canvas-277
-  status: available
+  status: planned
   path: assets/tanaka-motoori-norinaga-no-tetsugaku-1912/canvas-277.jpg
   media_type: image/jpeg
   rights:
@@ -99748,7 +99765,7 @@ assets:
       width: 820
       height: 1250
 - id: mn-asset-canvas-280
-  status: available
+  status: planned
   path: assets/tanaka-motoori-norinaga-no-tetsugaku-1912/canvas-280.jpg
   media_type: image/jpeg
   rights:
@@ -99796,7 +99813,7 @@ assets:
       width: 820
       height: 1250
 - id: mn-asset-canvas-296
-  status: available
+  status: planned
   path: assets/tanaka-motoori-norinaga-no-tetsugaku-1912/canvas-296.jpg
   media_type: image/jpeg
   rights:
@@ -99874,7 +99891,7 @@ assets:
       width: 880
       height: 1250
 - id: mn-asset-canvas-297
-  status: available
+  status: planned
   path: assets/tanaka-motoori-norinaga-no-tetsugaku-1912/canvas-297.jpg
   media_type: image/jpeg
   rights:
