@@ -829,9 +829,12 @@
   "translation_ja": "さて、この先どうなるか。それは次回の物語をお聞きいただきたい。"
   "translation_status": "reviewed"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "独立AI校閲：完稿後に原文と日本語訳を全単位対照（人間・専門家校訂ではない）"
+    "content_sha256": "d173661aeb95b26973dbd3831b90a5d0439cb2e749cbb48d12ccb37980aa3a09"
 "groups":
 - "id": "poem-004"
   "kind": "poem"

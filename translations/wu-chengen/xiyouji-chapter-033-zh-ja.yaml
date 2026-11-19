@@ -912,9 +912,12 @@
 
   "description_ja": "本文中の韻文。全行を保持。"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "既存の独立AI全文対照と現原稿の一致を確認し再認定（人間・専門家校訂ではない）"
+    "content_sha256": "0b6980ad284072585b873bb64ac178e83fe580c9ddbe6d470fe8342879b06237"
 "provenance":
   "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-033-source-1500615-zh-hant.txt"
   "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-033-manifest-1500615.json"

@@ -1549,9 +1549,12 @@
 
     "description_ja": "韻文の全句。台詞を含む韻文も発言者とともに保持。"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "既存の独立AI全文対照と現原稿の一致を確認し再認定（人間・専門家校訂ではない）"
+    "content_sha256": "bcb9f13a1af19687048d6ffbdf83ba80e87c88ce76861566c069d634005dae49"
 "provenance":
   "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-036-source-1455585-zh-hant.txt"
   "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-036-manifest-1455585.json"

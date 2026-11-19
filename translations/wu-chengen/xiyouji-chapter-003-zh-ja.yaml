@@ -833,9 +833,12 @@
   "translation_ja": "さて、どのような官位や爵位を授かるのか。それは次の回のお話としよう。"
   "translation_status": "reviewed"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "独立AI校閲：完稿後に原文と日本語訳を全単位対照（人間・専門家校訂ではない）"
+    "content_sha256": "cc20731020482884fefcff96f34961a475f680460130d7e28a0744bd2de723d2"
 "groups":
 - "id": "petition-aoguang"
   "kind": "quotation"

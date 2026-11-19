@@ -1325,7 +1325,7 @@
     "source_text": null
     "source_languages": []
     "source_locations": []
-    "translation_ja": "底本は「王に遣わされて仙宮に入る」と読める字面だが、この時点の物語には命令する王が現れない。照合用の公開翻刻は、王を天へ改め、元の字を注記している。本訳もこの補訂を採り、「天の導きによって」とした。底本原文の王は書き換えず、別の読みをsource_variantsに記録している。"
+    "translation_ja": "底本は「王に遣わされて仙宮に入る」と読める字面だが、この時点の物語には命令する王が現れない。照合用の公開翻刻は、王を天へ改め、元の字を注記している。本訳もこの補訂を採り、「天の導きによって」とした。底本の原文には「王」を残した。"
     "translation_status": "reviewed"
   - "id": "xy-ch01-note-yuanlong"
     "section_id": "translator-notes"
@@ -1364,9 +1364,12 @@
     "translation_ja": "結びの詩は、孫悟空という名の「悟空」を、「空の意味を悟る」と読む言葉遊びでもある。頑空は、ただ何もないと考えるだけの、悟りを欠いた空しさを指すものとして訳した。何も存在しないという思い込みと、悟りとしての空を区別する表現である。"
     "translation_status": "reviewed"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "独立AI校閲：完稿後に原文と日本語訳を全単位対照（人間・専門家校訂ではない）"
+    "content_sha256": "4ae1208b8faf9e3e244980638f1c8e3d438cda36d53f03857191ad77d660093d"
 "terminology":
   - "id": "sun-wukong"
     "kind": "person"

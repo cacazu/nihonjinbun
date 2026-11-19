@@ -651,7 +651,7 @@
     "line_end": 173
   "translation_ja": |-
     詩にいう。
-    絶えず鬼の泣く声、神の叫ぶ声が聞こえ、血の混じる濁った波は万丈の高さに盛り上がる。
+    時折、鬼の泣く声、神の叫ぶ声が聞こえ、血の混じる濁った波は万丈の高さに盛り上がる。
     数知れぬ牛頭と馬面が、恐ろしい顔をして奈河橋を守っている。
   "translation_status": "reviewed"
 - "id": "xy-ch11-020"
@@ -1224,9 +1224,12 @@
 
   "description_ja": "太宗の布告。口頭発話ではない。"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "独立AI校閲：完稿後に原文と日本語訳を全単位対照（人間・専門家校訂ではない）"
+    "content_sha256": "b535b4611c310516708292def3a8a8f1b095ac1dfc2768acc417636e1e4ccf31"
 "provenance":
   "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-011-source-1500624-zh-hant.txt"
   "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-011-manifest-1500624.json"

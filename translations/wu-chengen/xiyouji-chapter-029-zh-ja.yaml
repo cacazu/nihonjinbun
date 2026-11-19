@@ -849,9 +849,12 @@
 
   "description_ja": "百花羞の書簡を翰林院大学士が朗読する。差出人と朗読者を区別する。"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "既存の独立AI全文対照と現原稿の一致を確認し再認定（人間・専門家校訂ではない）"
+    "content_sha256": "b7f30c69d4c2b125454e904c0dcfd2f06b941f80390bcc810f1b837f6ddd8949"
 "provenance":
   "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-029-source-1455578-zh-hant.txt"
   "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-029-manifest-1455578.json"

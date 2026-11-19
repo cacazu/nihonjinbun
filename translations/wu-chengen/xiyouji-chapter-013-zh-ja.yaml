@@ -984,7 +984,7 @@
   "translation_ja": |-
     劉伯欽が三人の見た夢を一通り三蔵へ語ると、三蔵も喜んだ。一家は早くも精進料理を供し、そのうえ白銀一両（りょう）を謝礼に用意した。三蔵は一文（もん）たりとも受け取らなかった。一家はまた熱心に拝んで願ったが、結局、三蔵は一文も受け取らず、ただ言った。
     三蔵「慈悲のお心で、道をひと区切り送っていただければ、その厚いお心だけで十分ありがたいのです。」
-    劉伯欽も母も妻も仕方なく、急いで粗挽きの粉の焼餅（しょうへい）などの携帯食を作り、劉伯欽に遠くまで送るよう言いつけた。三蔵は喜んでそれを受け取った。劉伯欽は母の言いつけを受け、さらに二、三人の召使いを呼んで、それぞれ狩りの道具を持たせ、そろって大きな道へ出た。山の野趣も尾根の眺めも、見尽くせぬほどであった。
+    劉伯欽も母も妻も仕方なく、急いで粗挽きの粉の焼餅（しょうへい）などの携帯食を作った。母は劉伯欽に遠くまで送るよう言いつけた。三蔵は喜んでそれを受け取った。劉伯欽は母の言いつけを受け、さらに二、三人の召使いを呼んで、それぞれ狩りの道具を持たせ、そろって大きな道へ出た。山の野趣も尾根の眺めも、見尽くせぬほどであった。
   "translation_status": "reviewed"
 - "id": "xy-ch13-041"
   "section_id": "chapter-13"
@@ -1107,9 +1107,12 @@
 
   "description_ja": "本文中の韻文。全文を保持。"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "独立AI校閲：完稿後に原文と日本語訳を全単位対照（人間・専門家校訂ではない）"
+    "content_sha256": "4c65824fb38bfec993abdeb0fdd2309a07aeac5b286298ce37b1e3fd9ef1d3f9"
 "provenance":
   "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-013-source-1500625-zh-hant.txt"
   "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-013-manifest-1500625.json"

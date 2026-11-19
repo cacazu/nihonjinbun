@@ -1039,9 +1039,12 @@
 
   "description_ja": "本文中の韻文。全文を保持。"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "既存の独立AI全文対照と現原稿の一致を確認し再認定（人間・専門家校訂ではない）"
+    "content_sha256": "9a09a9bfcb588654daabfead6ae4e52b3e6dadb1c3ee5d1121c6c5a12fb111db"
 "provenance":
   "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-028-source-1455577-zh-hant.txt"
   "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-028-manifest-1455577.json"

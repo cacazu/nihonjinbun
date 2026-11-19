@@ -31,7 +31,7 @@
   - "底本は中文維基文庫固定版oldid=1455563（2018-05-12T07:01Z）、無変換表示の原字・句読を保持。"
   - "日本語はAIによる新訳。専門家による独立校訂は未実施。"
   - "「心猿」は落ち着かない心を猿にたとえる語で、孫悟空を象徴する。「六賊」の名は、眼・耳・鼻・舌・意・身のはたらきと感情を表し、三蔵の旅と修心の寓意が重ねられている。"
-  - "孫悟空は三蔵に「行者」の別名を授けられる。命名前は孫悟空、命名後の地の文・話者ラベルは行者とし、名乗りや会話中の呼称は保持した。"
+  - "孫悟空は三蔵に「行者」の別名を授けられる。地の文と話者名には原則として悟空を用い、別名を授ける場面では「行者」を残した。"
   - "冒頭詩の「皆要物」「釋迦葉」、呪句の異体字、三蔵の出生地、圯橋の故事には本文に即した解釈・校訂上の留保がある。"
 "work_id": "xiyouji-chapter-014-zh-ja"
 "sources":
@@ -959,9 +959,12 @@
 
   "description_ja": "本文中の韻文。全文を保持。"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "独立AI校閲：完稿後に原文と日本語訳を全単位対照（人間・専門家校訂ではない）"
+    "content_sha256": "e707141ee4762173909a579ab449a58ef6a36d2d41d4888acb54a19ddd388edd"
 "provenance":
   "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-014-source-1455563-zh-hant.txt"
   "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-014-manifest-1455563.json"

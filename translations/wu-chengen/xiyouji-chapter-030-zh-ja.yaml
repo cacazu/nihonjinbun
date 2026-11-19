@@ -1157,9 +1157,12 @@
 
   "description_ja": "黄袍怪が国王へ語る虚言。012の公主の詩も、この作り話の内部に引用された言葉。"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "既存の独立AI全文対照と現原稿の一致を確認し再認定（人間・専門家校訂ではない）"
+    "content_sha256": "636ad0f4e82e51d1a5edd8d5b539c821ef60e5ef4563dcc1124ef987850b46a9"
 "provenance":
   "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-030-source-1455579-zh-hant.txt"
   "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-030-manifest-1455579.json"

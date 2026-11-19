@@ -736,7 +736,7 @@
     "line_start": 198
     "line_end": 198
   "translation_ja": |-
-    二人はまた高い岸へ戻って三蔵に会い、捕らえがたい事情を詳しく話した。三蔵は目いっぱい涙をためた。三蔵「こんなに難しいのでは、どうして渡れよう。」
+    二人はまた高い岸へ戻って三蔵に会い、捕らえがたい事情を詳しく話した。三蔵は目から涙をこぼした。三蔵「こんなに難しいのでは、どうして渡れよう。」
     悟空「お師匠さま、悩まないでください。妖怪が深い水底へ潜ってしまうので、確かに手が出しにくいのです。八戒、お前はここで師匠を守り、もうあいつとは戦うな。俺は南海（なんかい）へひと走りしてくる。」
     八戒「兄貴、南海へ何をしに行くんだ。」
     悟空「経を取りに行くこの一件は、もともと観音菩薩（かんのんぼさつ）のお導きだ。俺たちを救い出してくださったのも菩薩だろう。今、流沙河に道を阻まれ、先へ進めないのだから、あの方なしでどう始末がつく。お願いに行くほうが、妖怪と戦うよりましだ。」
@@ -1034,9 +1034,12 @@
 
   "description_ja": "宝杖の自叙詩は前段の発話から継続する。"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "独立AI校閲：完稿後に原文と日本語訳を全単位対照（人間・専門家校訂ではない）"
+    "content_sha256": "683164c8ad187a9c92bc4276c4d79fe16f674a4496f83cb84ce76247b405f5f5"
 "provenance":
   "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-022-source-7910914-zh-hant.txt"
   "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-022-manifest-7910914.json"
@@ -1545,16 +1548,16 @@
     "segment_id": "xy-ch22-026"
     "rendered_text": "南海（なんかい）"
     "translation_span":
-      "start": 151
-      "end": 153
+      "start": 150
+      "end": 152
       "exact": "南海"
   - "entry_id": "xy-entry-0552"
     "form_id": "xy-form-0624"
     "segment_id": "xy-ch22-026"
     "rendered_text": "観音菩薩（かんのんぼさつ）"
     "translation_span":
-      "start": 211
-      "end": 215
+      "start": 210
+      "end": 214
       "exact": "観音菩薩"
   - "entry_id": "xy-entry-0550"
     "form_id": "xy-form-2011"

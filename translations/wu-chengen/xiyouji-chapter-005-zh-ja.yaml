@@ -869,9 +869,12 @@
   "translation_ja": "さて、夜が明けてから、いったいどのように対処するのか。その次第は、次回をお聞きいただきたい。"
   "translation_status": "reviewed"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "独立AI校閲：完稿後に原文と日本語訳を全単位対照（人間・専門家校訂ではない）"
+    "content_sha256": "01dc3a506da553742a6e21fd712479763b281a84c0e7b1d2dc94633d032d14fb"
 "groups":
 - "id": "poem-005"
   "kind": "poem"

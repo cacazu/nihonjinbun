@@ -559,7 +559,7 @@
     三蔵は聞いてぎょっとし、悟空を責めた。
     三蔵「みなお前のせいだ、みなお前のせいだ。」
     悟空は笑った。
-    悟空「何を怖がることがあります。私が包んで、持っていって見せてやりましょう。何か不始末があれば、すべてこの俺が引き受けます。」
+    悟空「何を怖がることがあります。私が包んで渡しますから、あの方に奥へ持っていって見てもらいましょう。何か不始末があれば、すべてこの俺が引き受けます。」
     三蔵には止められなかった。悟空は袈裟を老僧に渡して言った。
     悟空「好きなだけ見るがいい。ただし明朝、元どおり俺に返せ。少しでも傷つけたり、汚したりするなよ。」
     老僧は大喜びで、小姓に袈裟を奥へ運ばせた。そして僧たちに前の禅堂（ぜんどう）を掃き清め、籐の寝台を二つ出して寝具を整え、二人の客を休ませるように命じた。一方では翌朝の旅立ちの食事も用意させた。こうして皆は散り、師弟は禅堂を閉めて横になった。その話はさておく。
@@ -1181,9 +1181,12 @@
 
   "description_ja": "本文中の韻文。全文を保持。"
 "workflow":
-  "stage": "reviewing"
+  "stage": "ready"
   "full_review":
-    "status": "in_progress"
+    "status": "complete"
+    "completed_at": "2026-11-19T10:58:50Z"
+    "reviewed_by": "独立AI校閲：完稿後に原文と日本語訳を全単位対照（人間・専門家校訂ではない）"
+    "content_sha256": "6341d6c3ec34ccc4479f5ea17a9e2bd67ea8521e49fb8718feac4e3e9bf40287"
 "provenance":
   "source_snapshot": "translations/wu-chengen/verification/xiyouji-chapter-016-source-1455565-zh-hant.txt"
   "source_manifest": "translations/wu-chengen/verification/xiyouji-chapter-016-manifest-1455565.json"
@@ -1550,8 +1553,8 @@
     "rendered_text": "禅堂（ぜんどう）"
     "gloss_ja": "禅の修行に用いる堂。"
     "translation_span":
-      "start": 617
-      "end": 619
+      "start": 629
+      "end": 631
       "exact": "禅堂"
   - "entry_id": "xy-entry-1188"
     "form_id": "xy-form-1350"
