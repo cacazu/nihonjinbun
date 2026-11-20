@@ -801,5 +801,11 @@
   sha256: 43efff3bd6e741804c99a0f82a9aedec7cd3bc07d0bcea8e5c534cebf586fb60
   coverage_note: 1931年中央出版社版。口絵の書・はしがき・本文全34編と奥付を対象に、原文と現代語訳を対応。本文等278対訳単位。原書目次を別項に保持。対象・除外範囲と読解上の留保は正本に明示。
   source_and_rights: NDL1175264、原資料はPDM。現代語訳の利用条件は未指定。原著の歴史的主張と現在の事実認定を区別。
+- "work_id": "musashi-gorin-no-sho-1909-ja"
+  "file": "translations/musashi/gorin-no-sho-ja.yaml"
+  "title": "五輪書"
+  "coverage_note": "地・水・火・風・空の五巻。武具の扱い・攻撃の具体的手順を述べる箇所は省略。"
+  "source_and_rights": "金港堂書籍一九〇九年刊『宮本武蔵』所収、国立国会図書館所蔵（PDM 1.0）。現代語訳の利用条件は未確認。"
+  "sha256": "ec56e36b0ddb48fd131298413d829d491adb2dcb53240874d2701848f9c37080"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿のスキーマは各ファイルのschema_versionを参照。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"

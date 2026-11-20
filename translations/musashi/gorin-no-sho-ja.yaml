@@ -1,0 +1,6232 @@
+"schema_version": "2.0"
+"work_id": "musashi-gorin-no-sho-1909-ja"
+"metadata":
+  "title_ja": "五輪書"
+  "title_original": "五輪書"
+  "original_languages":
+  - "ja"
+  "target_language": "ja"
+  "contributors":
+  - "id": "miyamoto-musashi"
+    "name_ja": "宮本武蔵"
+    "name_original": "宮本武蔵"
+    "roles":
+    - "author"
+  - "id": "musashi-commemoration-society"
+    "name_ja": "宮本武蔵遺蹟顕彰会"
+    "name_original": "宮本武蔵遺蹟顕彰会"
+    "roles":
+    - "editor"
+  - "id": "chatgpt"
+    "name_ja": "ChatGPT（AIによる新訳）"
+    "name_original": "ChatGPT"
+    "roles":
+    - "translator"
+  "translation_rights":
+    "status": "unknown"
+    "note_ja": "現代語訳の利用条件は未確認。"
+    "attribution": "ChatGPT（AIによる新訳）"
+  "genres":
+  - "軍事思想"
+  "reader_notes_ja":
+  - "地・水・火・風・空の五巻。武具の扱い・攻撃の具体的手順を述べる箇所は省略。"
+  - "原著者本文の現代語訳。刊本に収められた別著作・編者の文章は対象外。"
+"sources":
+- "id": "ndl-992019"
+  "role": "primary"
+  "title": "『宮本武蔵』第九章「五輪書」"
+  "languages":
+  - "ja"
+  "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I992019"
+  "edition": "宮本武蔵遺蹟顕彰会編、金港堂書籍、1909年刊、第九章、146–236頁。国立国会図書館 請求記号289.1-M634Mm。"
+  "work_rights":
+    "status": "public_domain"
+    "license_id": "PDM-1.0"
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    "evidence_url": "https://dl.ndl.go.jp/pid/992019"
+    "attribution": "国立国会図書館所蔵"
+  "transcription_rights":
+    "status": "public_domain"
+    "note_ja": "原文欄は刊本画像と照合した原著者本文。新字体や繰り返しの表記を読みやすく整えた。第三者の翻刻に独自の校訂・注記は収録しない。"
+  "contributor_ids":
+  - "miyamoto-musashi"
+  - "musashi-commemoration-society"
+"scope":
+  "included":
+  - "source_id": "ndl-992019"
+    "description_ja": "地・水・火・風・空の五巻。武具の扱い・攻撃の具体的手順を述べる箇所は省略。"
+    "segment_ids":
+    - "gorin-chi-s001-p001"
+    - "gorin-chi-s001-p002"
+    - "gorin-chi-s001-p003"
+    - "gorin-chi-s001-p004"
+    - "gorin-chi-s002-p001"
+    - "gorin-chi-s002-p002"
+    - "gorin-chi-s002-p003"
+    - "gorin-chi-s003-heading"
+    - "gorin-chi-s003-p001"
+    - "gorin-chi-s003-p002"
+    - "gorin-chi-s003-p003"
+    - "gorin-chi-s003-p004"
+    - "gorin-chi-s004-heading"
+    - "gorin-chi-s004-p001"
+    - "gorin-chi-s004-p002"
+    - "gorin-chi-s004-p003"
+    - "gorin-chi-s005-heading"
+    - "gorin-chi-s005-p001"
+    - "gorin-chi-s005-p002"
+    - "gorin-chi-s005-p003"
+    - "gorin-chi-s006-heading"
+    - "gorin-chi-s006-p001"
+    - "gorin-chi-s006-p002"
+    - "gorin-chi-s006-p003"
+    - "gorin-chi-s006-p004"
+    - "gorin-chi-s006-p005"
+    - "gorin-chi-s007-heading"
+    - "gorin-chi-s007-p001"
+    - "gorin-chi-s007-p003"
+    - "gorin-chi-s008-heading"
+    - "gorin-chi-s008-p001"
+    - "gorin-chi-s008-p002"
+    - "gorin-chi-s008-p003"
+    - "gorin-chi-s009-p001"
+    - "gorin-chi-s009-p003"
+    - "gorin-chi-s009-p005"
+    - "gorin-chi-s009-p007"
+    - "gorin-chi-s010-heading"
+    - "gorin-chi-s010-p001"
+    - "gorin-chi-s010-p002"
+    - "gorin-chi-s010-p003"
+    - "gorin-chi-s010-p005"
+    - "gorin-chi-s010-p006"
+    - "gorin-chi-s010-p007"
+    - "gorin-chi-s010-p008"
+    - "gorin-chi-s010-p009"
+    - "gorin-chi-s010-p010"
+    - "gorin-sui-s001-p001"
+    - "gorin-sui-s001-p002"
+    - "gorin-sui-s001-p003"
+    - "gorin-sui-s001-p004"
+    - "gorin-sui-s002-heading"
+    - "gorin-sui-s002-p001"
+    - "gorin-sui-s002-p002"
+    - "gorin-sui-s002-p003"
+    - "gorin-sui-s002-p004"
+    - "gorin-sui-s003-heading"
+    - "gorin-sui-s003-p001"
+    - "gorin-sui-s003-p002"
+    - "gorin-sui-s003-p004"
+    - "gorin-sui-s004-heading"
+    - "gorin-sui-s004-p001"
+    - "gorin-sui-s004-p003"
+    - "gorin-sui-s004-p005"
+    - "gorin-sui-s005-p002"
+    - "gorin-sui-s006-p002"
+    - "gorin-sui-s007-p002"
+    - "gorin-sui-s009-p002"
+    - "gorin-sui-s013-p002"
+    - "gorin-sui-s014-p002"
+    - "gorin-sui-s014-p004"
+    - "gorin-sui-s035-heading"
+    - "gorin-sui-s035-p001"
+    - "gorin-sui-s036-heading"
+    - "gorin-sui-s036-p001"
+    - "gorin-sui-s037-heading"
+    - "gorin-sui-s037-p001"
+    - "gorin-sui-s038-p001"
+    - "gorin-sui-s038-p003"
+    - "gorin-sui-s038-p004"
+    - "gorin-sui-s038-p005"
+    - "gorin-sui-s038-p006"
+    - "gorin-sui-s038-p007"
+    - "gorin-ka-s001-p001"
+    - "gorin-ka-s001-p002"
+    - "gorin-ka-s001-p004"
+    - "gorin-ka-s001-p005"
+    - "gorin-ka-s001-p007"
+    - "gorin-ka-s003-p001"
+    - "gorin-ka-s003-p002"
+    - "gorin-ka-s003-p004"
+    - "gorin-ka-s004-p001"
+    - "gorin-ka-s005-p001"
+    - "gorin-ka-s005-p002"
+    - "gorin-ka-s006-p002"
+    - "gorin-ka-s008-p001"
+    - "gorin-ka-s009-p001"
+    - "gorin-ka-s009-p002"
+    - "gorin-ka-s010-p001"
+    - "gorin-ka-s010-p003"
+    - "gorin-ka-s011-p001"
+    - "gorin-ka-s012-p001"
+    - "gorin-ka-s013-p001"
+    - "gorin-ka-s014-p001"
+    - "gorin-ka-s015-p001"
+    - "gorin-ka-s017-p001"
+    - "gorin-ka-s018-p001"
+    - "gorin-ka-s019-p001"
+    - "gorin-ka-s022-p001"
+    - "gorin-ka-s022-p003"
+    - "gorin-ka-s023-p001"
+    - "gorin-ka-s024-p001"
+    - "gorin-ka-s024-p002"
+    - "gorin-ka-s025-p001"
+    - "gorin-ka-s025-p002"
+    - "gorin-ka-s026-p001"
+    - "gorin-ka-s027-p001"
+    - "gorin-ka-s028-p001"
+    - "gorin-ka-s029-p001"
+    - "gorin-ka-s029-p002"
+    - "gorin-ka-s029-p003"
+    - "gorin-ka-s029-p004"
+    - "gorin-fu-s001-heading"
+    - "gorin-fu-s001-p001"
+    - "gorin-fu-s001-p002"
+    - "gorin-fu-s002-heading"
+    - "gorin-fu-s002-p001"
+    - "gorin-fu-s002-p003"
+    - "gorin-fu-s002-p005"
+    - "gorin-fu-s003-heading"
+    - "gorin-fu-s003-p001"
+    - "gorin-fu-s003-p003"
+    - "gorin-fu-s003-p005"
+    - "gorin-fu-s003-p006"
+    - "gorin-fu-s004-heading"
+    - "gorin-fu-s004-p001"
+    - "gorin-fu-s004-p003"
+    - "gorin-fu-s004-p004"
+    - "gorin-fu-s005-heading"
+    - "gorin-fu-s005-p001"
+    - "gorin-fu-s005-p003"
+    - "gorin-fu-s006-heading"
+    - "gorin-fu-s006-p001"
+    - "gorin-fu-s006-p003"
+    - "gorin-fu-s006-p004"
+    - "gorin-fu-s006-p006"
+    - "gorin-fu-s006-p008"
+    - "gorin-fu-s007-heading"
+    - "gorin-fu-s007-p002"
+    - "gorin-fu-s007-p003"
+    - "gorin-fu-s007-p004"
+    - "gorin-fu-s007-p006"
+    - "gorin-fu-s008-heading"
+    - "gorin-fu-s008-p001"
+    - "gorin-fu-s008-p003"
+    - "gorin-fu-s008-p005"
+    - "gorin-fu-s009-heading"
+    - "gorin-fu-s009-p001"
+    - "gorin-fu-s009-p002"
+    - "gorin-fu-s009-p004"
+    - "gorin-fu-s009-p006"
+    - "gorin-fu-s010-heading"
+    - "gorin-fu-s010-p001"
+    - "gorin-fu-s010-p002"
+    - "gorin-fu-s011-p001"
+    - "gorin-fu-s011-p002"
+    - "gorin-fu-s011-p003"
+    - "gorin-ku-s001-p001"
+    - "gorin-ku-s001-p002"
+    - "gorin-ku-s001-p003"
+    - "gorin-ku-s001-p004"
+    - "gorin-ku-s001-p005"
+    - "gorin-ku-s001-p006"
+  "excluded":
+  - "source_id": "ndl-992019"
+    "description_ja": "地の巻「「二刀一流」という名」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "地の巻「武具についての章」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "地の巻「物事の拍子と九つの心得」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「身のありよう」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「「観」と「見」」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「「いつく」と「生きる」」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「歩みに通うもの」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「五つの形」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「太刀の道筋」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s008"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「五つの形の第一」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「五つの形の第二」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s010"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「五つの形の第三」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s011"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「五つの形の第四」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s012"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「五つの形の第五」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「形にとどまらないこと」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「拍子の教え（一）」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s015"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「拍子の教え（二）」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s016"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「無念無想」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s017"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「流水」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s018"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「縁」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s019"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「石火」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s020"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「紅葉」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s021"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「身と太刀」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s022"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「二つの言葉の区別」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s023"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「身についての比喩（一）」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s024"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「身についての比喩（二）」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s025"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「たけくらべ」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s026"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「ねばり」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s027"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「身の働き」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s028"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「三つの教え」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s029"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「個別の技法（一）」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s030"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「個別の技法（二）」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s031"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「二つの音」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s032"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「個別の技法（三）」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s033"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「複数の相手について」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-sui-s034"
+  - "source_id": "ndl-992019"
+    "description_ja": "水の巻「巻末の言葉と伝授の記録」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「火になぞらえて」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「場所の条件」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-ka-s002"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「三つの「先」」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「枕をおさえる」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「渡しを越す」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「形勢を知る」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「先手についての一節」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-ka-s007"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「崩れを知る」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「張り合いを解く」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「意図が見えないとき」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「意図が見えるとき」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「移るもの」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「心が揺れるとき」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「おびえ」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「もつれ合い」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-ka-s016"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「角のたとえ」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「とまどい」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「三つの声」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「入りまじること」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-ka-s020"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「勢いの差」: 【編注】この節の本文は省略しています。"
+    "section_ids":
+    - "gorin-ka-s021"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「山と海」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "火の巻「うわべと心の底」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "風の巻「大きな太刀を好む流派」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "風の巻「「強さ」を重んじる流派」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "風の巻「短い太刀を好む流派」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "風の巻「型の数を競う流派」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "風の巻「構えを重んじる流派」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "風の巻「目付と熟練」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "風の巻「足どりの名と流派」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "風の巻「速さと拍子」: 【編注】この節では、具体的な技法の記述を一部省略しています。"
+  - "source_id": "ndl-992019"
+    "description_ja": "底本に併録された別著作・編者の文章、後世の翻刻の校訂・注記。"
+  "known_gaps": []
+"sections":
+- "id": "gorin-chi"
+  "parent_id": null
+  "kind": "part"
+  "origin": "editorial"
+  "label_ja": "地の巻"
+  "heading_segment_ids":
+  - "gorin-chi-heading"
+- "id": "gorin-chi-s001"
+  "parent_id": "gorin-chi"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-chi-s001-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "146–148"
+  "label_ja": "序"
+- "id": "gorin-chi-s002"
+  "parent_id": "gorin-chi"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-chi-s002-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "148–150"
+  "label_ja": "地の巻の序"
+- "id": "gorin-chi-s003"
+  "parent_id": "gorin-chi"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-chi-s003-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "150–152"
+- "id": "gorin-chi-s004"
+  "parent_id": "gorin-chi"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-chi-s004-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "153–154"
+- "id": "gorin-chi-s005"
+  "parent_id": "gorin-chi"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-chi-s005-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "154–155"
+- "id": "gorin-chi-s006"
+  "parent_id": "gorin-chi"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-chi-s006-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "155–158"
+- "id": "gorin-chi-s007"
+  "parent_id": "gorin-chi"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-chi-s007-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "159–161"
+- "id": "gorin-chi-s008"
+  "parent_id": "gorin-chi"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-chi-s008-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "161–162"
+- "id": "gorin-chi-s009"
+  "parent_id": "gorin-chi"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-chi-s009-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "162–164"
+  "label_ja": "武具についての章"
+- "id": "gorin-chi-s010"
+  "parent_id": "gorin-chi"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-chi-s010-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "164–168"
+- "id": "gorin-sui"
+  "parent_id": null
+  "kind": "part"
+  "origin": "editorial"
+  "label_ja": "水の巻"
+  "heading_segment_ids":
+  - "gorin-sui-heading"
+- "id": "gorin-sui-s001"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s001-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "168–169"
+  "label_ja": "水を手本とする"
+- "id": "gorin-sui-s002"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-sui-s002-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "169–170"
+- "id": "gorin-sui-s003"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-sui-s003-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "170–171"
+- "id": "gorin-sui-s004"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-sui-s004-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "171–172"
+- "id": "gorin-sui-s005"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s005-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "172–173"
+  "label_ja": "「いつく」と「生きる」"
+- "id": "gorin-sui-s006"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s006-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "173"
+  "label_ja": "歩みに通うもの"
+- "id": "gorin-sui-s007"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s007-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "173–174"
+  "label_ja": "五つの形"
+- "id": "gorin-sui-s008"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s008-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "太刀の道筋"
+- "id": "gorin-sui-s009"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s009-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "175–176"
+  "label_ja": "五つの形の第一"
+- "id": "gorin-sui-s010"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s010-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "五つの形の第二"
+- "id": "gorin-sui-s011"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s011-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "五つの形の第三"
+- "id": "gorin-sui-s012"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s012-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "五つの形の第四"
+- "id": "gorin-sui-s013"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s013-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "177–178"
+  "label_ja": "五つの形の第五"
+- "id": "gorin-sui-s014"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s014-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "178–179"
+  "label_ja": "形にとどまらないこと"
+- "id": "gorin-sui-s015"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s015-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "拍子の教え（一）"
+- "id": "gorin-sui-s016"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s016-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "拍子の教え（二）"
+- "id": "gorin-sui-s017"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s017-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "無念無想"
+- "id": "gorin-sui-s018"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s018-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "流水"
+- "id": "gorin-sui-s019"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s019-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "縁"
+- "id": "gorin-sui-s020"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s020-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "石火"
+- "id": "gorin-sui-s021"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s021-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "紅葉"
+- "id": "gorin-sui-s022"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s022-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "身と太刀"
+- "id": "gorin-sui-s023"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s023-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "二つの言葉の区別"
+- "id": "gorin-sui-s024"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s024-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "身についての比喩（一）"
+- "id": "gorin-sui-s025"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s025-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "身についての比喩（二）"
+- "id": "gorin-sui-s026"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s026-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "たけくらべ"
+- "id": "gorin-sui-s027"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s027-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "ねばり"
+- "id": "gorin-sui-s028"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s028-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "身の働き"
+- "id": "gorin-sui-s029"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s029-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "三つの教え"
+- "id": "gorin-sui-s030"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s030-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "個別の技法（一）"
+- "id": "gorin-sui-s031"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s031-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "個別の技法（二）"
+- "id": "gorin-sui-s032"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s032-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "二つの音"
+- "id": "gorin-sui-s033"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s033-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "個別の技法（三）"
+- "id": "gorin-sui-s034"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s034-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "work"
+  "label_ja": "複数の相手について"
+- "id": "gorin-sui-s035"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-sui-s035-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190"
+- "id": "gorin-sui-s036"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-sui-s036-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190"
+- "id": "gorin-sui-s037"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-sui-s037-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190"
+- "id": "gorin-sui-s038"
+  "parent_id": "gorin-sui"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-sui-s038-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190–192"
+  "label_ja": "巻末の言葉と伝授の記録"
+- "id": "gorin-ka"
+  "parent_id": null
+  "kind": "part"
+  "origin": "editorial"
+  "label_ja": "火の巻"
+  "heading_segment_ids":
+  - "gorin-ka-heading"
+- "id": "gorin-ka-s001"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s001-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "192–194"
+  "label_ja": "火になぞらえて"
+- "id": "gorin-ka-s002"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s002-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "194–195"
+  "label_ja": "場所の条件"
+- "id": "gorin-ka-s003"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s003-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "195–197"
+  "label_ja": "三つの「先」"
+- "id": "gorin-ka-s004"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s004-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "197–199"
+  "label_ja": "枕をおさえる"
+- "id": "gorin-ka-s005"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s005-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "199–200"
+  "label_ja": "渡しを越す"
+- "id": "gorin-ka-s006"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s006-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "200–201"
+  "label_ja": "形勢を知る"
+- "id": "gorin-ka-s007"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s007-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "201–202"
+  "label_ja": "先手についての一節"
+- "id": "gorin-ka-s008"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s008-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "202–203"
+  "label_ja": "崩れを知る"
+- "id": "gorin-ka-s009"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s009-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "203–204"
+  "label_ja": "敵の身になる"
+- "id": "gorin-ka-s010"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s010-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "204"
+  "label_ja": "張り合いを解く"
+- "id": "gorin-ka-s011"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s011-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "204–205"
+  "label_ja": "意図が見えないとき"
+- "id": "gorin-ka-s012"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s012-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "205–206"
+  "label_ja": "意図が見えるとき"
+- "id": "gorin-ka-s013"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s013-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "206–207"
+  "label_ja": "移るもの"
+- "id": "gorin-ka-s014"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s014-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "207"
+  "label_ja": "心が揺れるとき"
+- "id": "gorin-ka-s015"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s015-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "207–208"
+  "label_ja": "おびえ"
+- "id": "gorin-ka-s016"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s016-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "208–209"
+  "label_ja": "もつれ合い"
+- "id": "gorin-ka-s017"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s017-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "209"
+  "label_ja": "角のたとえ"
+- "id": "gorin-ka-s018"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s018-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "209–210"
+  "label_ja": "とまどい"
+- "id": "gorin-ka-s019"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s019-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "210–211"
+  "label_ja": "三つの声"
+- "id": "gorin-ka-s020"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s020-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "211–212"
+  "label_ja": "入りまじること"
+- "id": "gorin-ka-s021"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s021-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "212–213"
+  "label_ja": "勢いの差"
+- "id": "gorin-ka-s022"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s022-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "213"
+  "label_ja": "山と海"
+- "id": "gorin-ka-s023"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s023-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "213–214"
+  "label_ja": "うわべと心の底"
+- "id": "gorin-ka-s024"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s024-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "214"
+  "label_ja": "新たになる"
+- "id": "gorin-ka-s025"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s025-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "215"
+  "label_ja": "鼠頭午首"
+- "id": "gorin-ka-s026"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s026-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "215"
+  "label_ja": "将と卒"
+- "id": "gorin-ka-s027"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s027-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "216"
+  "label_ja": "刀に頼らない心"
+- "id": "gorin-ka-s028"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s028-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "216"
+  "label_ja": "巌の身"
+- "id": "gorin-ka-s029"
+  "parent_id": "gorin-ka"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ka-s029-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "216–217"
+  "label_ja": "結びと奥書"
+- "id": "gorin-fu"
+  "parent_id": null
+  "kind": "part"
+  "origin": "editorial"
+  "label_ja": "風の巻"
+  "heading_segment_ids":
+  - "gorin-fu-heading"
+- "id": "gorin-fu-s001"
+  "parent_id": "gorin-fu"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-fu-s001-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "218–219"
+- "id": "gorin-fu-s002"
+  "parent_id": "gorin-fu"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-fu-s002-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "219–220"
+- "id": "gorin-fu-s003"
+  "parent_id": "gorin-fu"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-fu-s003-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "220–222"
+- "id": "gorin-fu-s004"
+  "parent_id": "gorin-fu"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-fu-s004-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "222–223"
+- "id": "gorin-fu-s005"
+  "parent_id": "gorin-fu"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-fu-s005-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "223–225"
+- "id": "gorin-fu-s006"
+  "parent_id": "gorin-fu"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-fu-s006-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "225–226"
+- "id": "gorin-fu-s007"
+  "parent_id": "gorin-fu"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-fu-s007-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "226–228"
+- "id": "gorin-fu-s008"
+  "parent_id": "gorin-fu"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-fu-s008-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "228–229"
+- "id": "gorin-fu-s009"
+  "parent_id": "gorin-fu"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-fu-s009-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "229–231"
+- "id": "gorin-fu-s010"
+  "parent_id": "gorin-fu"
+  "kind": "section"
+  "origin": "source"
+  "heading_segment_ids":
+  - "gorin-fu-s010-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "231–232"
+- "id": "gorin-fu-s011"
+  "parent_id": "gorin-fu"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-fu-s011-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "233–234"
+  "label_ja": "風の巻の結びと奥書"
+- "id": "gorin-ku"
+  "parent_id": null
+  "kind": "part"
+  "origin": "editorial"
+  "label_ja": "空の巻"
+  "heading_segment_ids":
+  - "gorin-ku-heading"
+- "id": "gorin-ku-s001"
+  "parent_id": "gorin-ku"
+  "kind": "section"
+  "origin": "editorial"
+  "heading_segment_ids":
+  - "gorin-ku-s001-heading"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "234–236"
+  "label_ja": "空の巻"
+"segments":
+- "id": "gorin-chi-heading"
+  "section_id": "gorin-chi"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "地の巻"
+  "translation_status": "reviewed"
+- "id": "gorin-chi-s001-heading"
+  "section_id": "gorin-chi-s001"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "序"
+  "translation_status": "reviewed"
+- "id": "gorin-chi-s001-p001"
+  "section_id": "gorin-chi-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法の道二天一流と号し、数年鍛錬の事初て書物に書き顕はさんと思ふ。時に寛永二十年十月上旬の頃、九州肥後の地巌殿山に上り、天を拝し観音を礼し仏前に向ひ、生国播磨の武士新免武蔵藤原玄信、年つもりて六十。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "146–148"
+  "translation_ja": |-
+    私の兵法の道を二天一流と名づけ、長年鍛錬してきたことを、初めて書物にしようと思う。寛永二十年（1643年）十月の初め、九州の肥後にある巌殿山に登り、天を拝み、観音に礼をして仏前に向かう。私は播磨に生まれた武士、新免武蔵藤原玄信。齢は六十である。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-001"
+- "id": "gorin-chi-s001-p002"
+  "section_id": "gorin-chi-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    我若年のむかしより、兵法の道に心をかけ、十三歳にして初て勝負を為す。その相手新当流の有馬喜兵衛といふ兵法者に打勝ち、十六歳にして但馬国秋山といふ強力の兵法者に打ち勝ち、廿一歳にして都に上り、天下の兵法者に逢ひて、数度の勝負を決すといへども、勝利を得ずといふことなし。その後国々所々に至り、諸流の兵法者に行逢ひ六十余度まで勝負すといへども、一度もその利を失はず、その程年十三より二十八九までのことなり。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "146–148"
+  "translation_ja": |-
+    幼いころから兵法に心を向け、十三歳で初めて勝負をした。相手は新当流の有馬喜兵衛という兵法者で、私が勝った。十六歳では但馬の国の秋山という強い兵法者に勝ち、二十一歳で都に上って諸国の兵法者と出会い、何度も勝負して一度も負けなかった。それから各地を巡り、さまざまな流派の兵法者を相手に六十余度も勝負をしたが、一度も勝ちを失わなかった。十三歳から二十八、九歳までのことである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-001"
+- "id": "gorin-chi-s001-p003"
+  "section_id": "gorin-chi-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    三十を越えて跡をおもひ見るに、兵法至極して勝つにはあらず、おのづから道の器用ありて、天理を離れざるが故か、又は他流の兵法不足なる所にや。その後猶も深き道理を得んと朝鍛夕錬して見れば、おのづから兵法の道にあふこと、我五十歳のころなり。それより以来は尋ね入るべき道なくして、光陰をおくる。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "146–148"
+  "translation_ja": |-
+    三十を過ぎて、それまでを振り返った。私は兵法を極めたから勝てたのではない。生まれつきこの道に向いていて、おのずと道理を外さずにいたのか。それとも、ほかの流派に足りないところがあったのか。その後も、もっと深く道理を知ろうと、朝に夕に鍛え続けた。おのずと兵法の道にかなうようになったのは、五十歳のころである。それ以来、さらに探し入るべき道はないまま、歳月を送ってきた。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-001"
+- "id": "gorin-chi-s001-p004"
+  "section_id": "gorin-chi-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法の利にまかせて、諸芸諸能の道となせば、万事に於て我に師匠なし。今この書を作るといへども、仏法儒道の古語をもからず、軍記軍法の古きことをも用ゐず、この一流の見立実の心をあらはすこと、天道と観世音とを鏡として十月十日の夜寅の一点に筆を把りて書き初るものなり。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "146–148"
+  "translation_ja": |-
+    兵法で得た道理をさまざまな芸や技に通じさせるので、何事についても私には師匠がいない。この書を書くにあたって、仏教や儒学の古い言い回しを借りず、昔の軍記や軍法の先例も用いない。二天一流の見方と真意を表すため、天の道理と観世音を鏡とし、十月十日の夜、寅の刻の初めに筆を執る。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-001"
+- "id": "gorin-chi-s002-heading"
+  "section_id": "gorin-chi-s002"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "地の巻の序"
+  "translation_status": "reviewed"
+- "id": "gorin-chi-s002-p001"
+  "section_id": "gorin-chi-s002"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    夫兵法と云事武家の法也、将たる者はとりわき此法を行なひ、卒たる者も此道を知るべき事なり。今世の中に兵法の道慥に辨まへたるといふ武士なし。先道を顕して有は、仏法として人をたすくる道、又儒道として文の道を糾し、医者といひて諸病を治する道、或は歌道者とて和歌の道ををしへ、或は数寄者弓法者、其外諸芸諸能までも思ひ思ひに稽古し、こころこころにすくものなり、兵法の道にはすく人まれ也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "148–150"
+  "translation_ja": |-
+    兵法とは武家の道である。とりわけ将たる者はこれを実践し、兵の一人ひとりも心得ておくべきだ。ところが今、兵法を確かにわきまえた武士は見当たらない。世に知られた道には、仏教のように人を救う道、儒学のように学問の筋道を確かめる道、医者のように病を治す道がある。和歌を教える人もいれば、茶や弓を究める人もいる。そのほかの芸や技にも、人はそれぞれに稽古し、心の向くものを好む。ところが、兵法の道を好む人はまれである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-101"
+- "id": "gorin-chi-s002-p002"
+  "section_id": "gorin-chi-s002"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    先武士は文武二道と云ひて、二ツの道を嗜む事是道也。縦此道ぶきようなり共、武士たるものはおのれおのれが分際程は兵の法をばつとむべき事也。大形武士の思ふ心をはかるに、武士は只死ぬると云ふ道を嗜む事と覚ゆる程の儀也。死する道に於ては、武士ばかりに限らず、出家にても女にても百姓以下に至るまで、義理を知り恥を思ひ死するべきを思ひきる事は、其差別なきものなり。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "148–150"
+  "translation_ja": |-
+    武士には文武二道といって、学問と武芸の両方をたしなむ道がある。この道に不器用でも、武士であれば自分の立場に応じて兵法に励むべきだ。世の武士の心づもりを見ていると、武士ならただ死を覚悟していればよいと考えているように思われる。しかし、死を覚悟することは武士に限らない。僧であれ、女であれ、農民やそれより下とされた身分の者であれ、義理を知り恥を思い、死をも覚悟するのに隔たりはない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-101"
+- "id": "gorin-chi-s002-p003"
+  "section_id": "gorin-chi-s002"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    武士の兵法をおこなふ道は、何事に於ても人にすぐるゝところを本とし、或は一身の切合にかち或は数人の戦に勝、主君の為我身の為、名をあげ身をたてんと思ふ、是兵法の徳をもつてなり。又世の中に兵法の道をならひても、実の時の役にはたつまじきと思ふ心あるべし。其儀に於ては何時にても役に立様に稽古し、万事に至り役に立やうに教る事、是兵法の実の道也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "148–150"
+  "translation_ja": |-
+    武士が兵法を行う道は、何事にも人にまさるところを土台とする。一人での勝負や数人の戦いに勝ち、主君のため、自分のために、名をあげて身を立てようとする。それが兵法の効用によるものだ。世間には、兵法を習ってもいざというときに役に立たないと考える人もいるだろう。だからこそ、いつでも役立つように稽古し、何事にも役立つように教える。それが兵法の本当の道である。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-101"
+- "id": "gorin-chi-s003-heading"
+  "section_id": "gorin-chi-s003"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    兵法の道と云事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "150–152"
+  "translation_ja": "兵法の道とは何か"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-102"
+- "id": "gorin-chi-s003-p001"
+  "section_id": "gorin-chi-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    漢土和朝迄も此道を行なふ者を兵法の達者と云伝へたり。武士として此法を学ばずと云事有べからず。近代兵法者と云て世を渡る者、是は剣術一通の事也。常陸国かしまかんとりの社人共、明神の伝へとして流々をたてて、国々を廻り人に伝ゆる事、近き頃の儀也。古しへより十能七芸と有うちに利方と云て芸にわたると云へ共、利方と云出すより、剣術一通にかぎるべからず。剣術一へんの利までにては剣術も知りがたし、勿論兵の法には叶べからず。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "150–152"
+  "translation_ja": |-
+    中国でも日本でも、この道を行う者を兵法の達人と呼んできた。武士でありながらこの法を学ばないということは、あってはならない。近ごろ兵法者を名乗って生計を立てる者は、剣術一筋の人たちである。常陸国の鹿島の神社や、香取の神社に仕える者が神の伝えとして流派を立て、諸国を巡って教えるようになったのも、近ごろのことである。昔から十能七芸といわれるさまざまなたしなみの一つに「利方」があり、芸の一つとされてきた。しかし物事にかなう方法をいうなら、剣術だけに限るわけにはいかない。剣術の一面の効用だけを知っても、剣術そのものすらわかりにくい。まして兵法には及ばない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-102"
+- "id": "gorin-chi-s003-p002"
+  "section_id": "gorin-chi-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    世の中を見るに、諸芸をうり物にしたて、我身をうり物のやうに思ひ、諸道具につけてもうり物にこしらゆる心、花実の二ツにして、花よりも実のすくなき所也。とりわき此兵法の道に、色をかざり花をさかせて術をてらひ、或は一道場或は二道場などと云て、此道を教へ此道を習ひて利を得んと思ふ事、誰か云ふ、なまへいはう大疵のもと、まこと成べし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "150–152"
+  "translation_ja": |-
+    世の中を見ると、諸芸を売り物にし、自分自身を商品と考え、道具まで売り物に仕立てようとする。花と実でいうなら、花の見栄えに比べて実が少ないのだ。とりわけ兵法の道では、色を飾り、花を咲かせるように術をひけらかし、一つ目の道場だ、二つ目の道場だといって、この道を教えるにも習うにも、利益を得ようとする。「生兵法は大けがのもと」と誰かが言ったが、本当のことだろう。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-102"
+- "id": "gorin-chi-s003-p003"
+  "section_id": "gorin-chi-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    凡人の世を渡る事、士農工商とて四ツの道也。一ツには農の道、農人は色々の農具を設け、四季転変の心得いとまなくして春秋を送る事、是農の道也。二ツにはあきないの道、酒を作るものは夫々の道具をもとめ、其善悪の利を得て渡世をおくる、いづれもあきないの道、其身々々のかせぎ、其利を以て世を渡る也、是商の道。三ツには士の道、武士に於てはさまざまの兵具をこしらへ、兵具しなじなの徳を辨へたらんこそ武士の道なるべけれ。兵具をもたしなまず、其具々の利をも覚ざる事、武家は少々たしなみのあさきもの歟。四ツには工の道、大工の道に於ては種々様々の道具をたくみこしらへ、其具々を能つかひ覚え、すみかねを以て其さしづをただし、いとまもなくそのわざをして世を渡る。是士農工商四ツの道也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "150–152"
+  "translation_ja": |-
+    人が暮らしを立てるのに、士・農・工・商という四つの道がある。第一は農である。農民はさまざまな農具を用意し、四季の移り変わりに絶えず気を配って一年を送る。第二は商いである。酒を造る人は必要な道具を求め、それぞれの良し悪しや利点を見きわめて暮らしを立てる。各人が自分の仕事で稼ぎ、その利益で世を渡る。第三は武士の道である。さまざまな武具を整え、それぞれの特質を知るのが武士の務めだ。それに心得がなく、何に役立つかもわからないのでは、たしなみが浅いというものだろう。第四は工である。大工はさまざまな道具を工夫して作り、その扱いを身につけ、差し金で図面を確かめ、休む間もなく技をふるって生計を立てる。これが士農工商の四つの道である。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-102"
+- "id": "gorin-chi-s003-p004"
+  "section_id": "gorin-chi-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法を大工の道にたへて云あらはす也。大工にたとゆる事、家といふ事につけての儀也。公家武家四家、其家のやぶれ、家のつづくと云事、其流其風其家などゝ云へば、家と云より大工の道にたとへたり。大工は大きにたくむと書なれば、兵法の道大きなるたくみによつて、大工に云なぞらへて書顕す也。兵の法を学ばんと思はゞ、此書を思案して、師ははり、弟子は糸と成て、たえず稽古有るべき事也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "150–152"
+  "translation_ja": |-
+    兵法は大工の仕事になぞらえて説明する。「家」という言葉から借りたたとえである。公家、武家、名門の家々といい、家が没落する、家が続くといい、流儀や気風、家柄も語る。この「家」から、大工の道になぞらえた。「大工」と書いて「大きにたくむ」と読める。兵法もまた大きな企てを組み立てる道なので、大工にたとえて述べる。兵法を学びたいと思うなら、この書をよく考え、師は針、弟子は糸となって、絶えず稽古することである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-102"
+- "id": "gorin-chi-s004-heading"
+  "section_id": "gorin-chi-s004"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    兵法の道大工にたとへたる事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "153–154"
+  "translation_ja": "兵法の道を大工にたとえる"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-103"
+- "id": "gorin-chi-s004-p001"
+  "section_id": "gorin-chi-s004"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    大将は大工の統領として、天下のかねを辨へ、其国のかねを糺し、其家のかねを知る事、統領の道也。大工の統領は堂塔伽藍のすみかねを覚え、くうでんろうかくのさしづを知り、人々をつかひ家々を取立る事。大工の統領も武家の統領も同じ事也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "153–154"
+  "translation_ja": |-
+    大将は大工の棟梁にあたる。天下を測る尺度をわきまえ、その国の基準を確かめ、その家の規矩を知る。これが棟梁の道である。大工の棟梁は、堂や塔をはじめ寺院の建物を測る規矩を心得、宮殿や楼閣の図面を読み、人に仕事を割り振って建物を建てる。大工の棟梁も、武家の頭領も、その点では同じである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-103"
+- "id": "gorin-chi-s004-p002"
+  "section_id": "gorin-chi-s004"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    家を立るに木配りをする事。直にして節もなく見つきのよきを表の柱とし、少し節有り共直につよきをうちの柱とし、たとひかよはくとも節なき木の見ざまよきをば敷居鴨居戸障子と、夫々に遣ひ、節有り共ゆがみたり共強き木をば其家の強み〳〵を見分て、能吟味して遣ふに於ては、其家久しくくづれがたし。又材木のうちにしても節多くゆがみて弱きをば、あししろ共なし、後には薪共なすべき也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "153–154"
+  "translation_ja": |-
+    家を建てるには、まず木をどこに使うか決める。まっすぐで節がなく、見栄えのする木は表の柱に、少し節があってもまっすぐで強い木は内側の柱にする。弱くても節がなく見た目のよい木なら、敷居や鴨居、戸や障子に回す。節や曲がりがあっても丈夫な木は、家のどこに強さが要るかを見きわめ、よく吟味して使う。そうすれば、家は長くもち、たやすくは崩れない。節が多く、曲がって弱い木も、足場に使い、そのあと薪にできる。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-103"
+- "id": "gorin-chi-s004-p003"
+  "section_id": "gorin-chi-s004"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    統領に於て大工を遣ふ事、其上中下を知り、或はとこまわり或は戸障子或は敷居鴨居天井以下、夫々に遣ひて、あしきは根太をはらせ、猶悪きにはくさびをけづらせ、人を見分て遣へば、其はか行て手際よきもの也。果敢の行き手際よきを云ふ所、物毎をゆるさゞる事、たいゆう知事、気の上中下を知る事、いさみを付ると云事、むたいを知るといふ事、箇様の事共統領の心持に有事也。兵法の利かくのごとし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "153–154"
+  "translation_ja": |-
+    棟梁が大工に仕事を割り振るには、腕前の違いを知り、床の間、戸や障子、敷居や鴨居や天井と、それぞれに合う持ち場を任せる。腕の劣る者には床を支える根太を張らせ、さらに不慣れな者にはくさびを削らせる。こうして人を見きわめて任せれば、仕事はよく進み、仕上がりもよい。仕事の進み具合と手際を見て、何事にも手を抜かせず、人の力量と気持ちの状態を知り、やる気を引き出し、無理のあるところを見きわめる。こうしたことはみな棟梁の心得である。兵法の道理もこれと同じである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-103"
+- "id": "gorin-chi-s005-heading"
+  "section_id": "gorin-chi-s005"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    兵法の道
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "154–155"
+  "translation_ja": "職人の仕事"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-104"
+- "id": "gorin-chi-s005-p001"
+  "section_id": "gorin-chi-s005"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    士卒たる者は大工にして、手づから其道具をとぎ、色々のせめ道具をこしらへ、大工の箱に入て持、統領云付る所をうけ、柱かうりゃう共てうのにてけづり、とこだなをもかんなにてけづり、すかし物ほり物をもして、よくかねを糺し、すみ〴〵めんどう迄も手際能く仕立る所、大工の法也。大工のわざ手にかけて能くしおぼへ、すみかねを能知りて後は、統領となる者也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "154–155"
+  "translation_ja": |-
+    兵卒は、大工でいえば現場の職人にあたる。自分の手で道具を研ぎ、いろいろな細工道具を整え、箱に入れて携える。棟梁の指図を受け、柱や梁を手斧で削り、床の間の棚を鉋で仕上げ、透かし彫りや彫刻を施す。寸法と角度を確かめ、細部や角の面取りまで手際よく仕立てる。それが大工の仕事である。手を動かして技を覚え、規矩をよく知った後に、棟梁となる。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-104"
+- "id": "gorin-chi-s005-p002"
+  "section_id": "gorin-chi-s005"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    大工のたしなみ、能きるゝ道具を持、透々にとぐ事肝要也。其道具をとつてみづし書棚机卓、又はあんとんまないた鍋のふた迄も、達者にする所大工の専なり。士卒たる者このごとく也。能々吟味有べし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "154–155"
+  "translation_ja": |-
+    大工のたしなみは、よく切れる道具を持ち、刃を十分に研ぐことにある。その道具を手に、厨子や本棚、机や台から、行灯、まな板、鍋の蓋に至るまで、じょうずに作り上げるのが大工の本分である。兵卒も同じである。このことをよく考えてほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-104"
+- "id": "gorin-chi-s005-p003"
+  "section_id": "gorin-chi-s005"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    大工のたしなみ、ひずまざる事、とめをあはする事、かんなにて能くけづる事、すりみがかゝざる事、後にひすかざる事肝要也。此道を学ばんと思はゞ、書顕す所のこと〴〵に心を入て、能吟味有べきもの也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "154–155"
+  "translation_ja": |-
+    大工は、ものをゆがませない。継ぎ目をきちんと合わせ、鉋でよく削り、すり磨きで仕上げをごまかさず、後になって反らせない。こうしたところが大事である。この道を学びたいなら、書き表したことの一つひとつに心を入れ、よく吟味してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-104"
+- "id": "gorin-chi-s006-heading"
+  "section_id": "gorin-chi-s006"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    此兵法の書五巻に仕立る事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "155–158"
+  "translation_ja": "この書を五巻に仕立てること"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-105"
+- "id": "gorin-chi-s006-p001"
+  "section_id": "gorin-chi-s006"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    五ツの道を分ち、一まき一まきにして其利を知らしめんが為に、地水火風空として、五巻に書顕す也。地の巻に於ては兵法の道の大体、我一流の見立、剣術一通にしてはまことの道を得がたし。大きなる所よりちいさき所を知り、浅きより深きに至る、直なる道の地形を引ならすによつて、初を地の巻と名付也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "155–158"
+  "translation_ja": |-
+    道を五つに分け、一巻ずつ、その道理を知ってもらうため、地・水・火・風・空の五巻に書き表す。「地の巻」では、兵法の道の大筋と、わが流派の見方を示す。剣術だけでは、本当の道はつかみにくい。大きなところから小さなところを知り、浅いところから深いところへ至る。まっすぐな道を敷くため地面をならす。そこで最初を「地の巻」と名づける。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-105"
+- "id": "gorin-chi-s006-p002"
+  "section_id": "gorin-chi-s006"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    第二水の巻、水を本として心も水になる也。水は方円のうつわものに随ひ、一滴と也、さう海となる。水に碧潭の色有り、清き所を用ひて一流の事を此巻に書顕す也。剣術一通の理さだかに見分け、一人の敵に自由に勝時は、世界の人に皆勝所也、人に勝と云心は、千万の敵にも同意也。将たる者の兵法、ちいさきを大きになす事、尺のかたを以て大仏をたつるに同じ、箇様の義こまやかには書分がたし。一を以て万を知る事、兵法の利也。一流の事此水の巻に書しるす也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "155–158"
+  "translation_ja": |-
+    第二は「水の巻」。水を手本にして、心も水になる。水は四角にも丸にも、器の形に沿う。一滴にもなれば、広い海にもなる。深い淵には青く澄んだ水の色がある。その清らかさを借りて、わが流派をこの巻に書き表す。剣術の道理をはっきり見分け、一人の相手に自在に勝てるなら、世のどの相手にも勝てるということになる。人に勝つ道理は、相手が千万でも変わらない。将の兵法は、小から大を組み立てるもので、一尺の模型から大仏を造るのに似ている。こうしたことは、細かく書き分けにくい。一つから万を知るのが兵法の道理である。わが流派のことを、この「水の巻」に書き記す。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-105"
+- "id": "gorin-chi-s006-p003"
+  "section_id": "gorin-chi-s006"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    第三火の巻、此巻に戦の事を書記也。火は大小となり、けやけき心有によつて、合戦の事を書く也。合戦の道、一人と一人との戦ひも、万と万との戦ひも同じ道也。心を大きなる事になし、心を小さくなして、能く吟味して見るべし。大きなる所は見えやすし、小さき所は見えがたし。其子細、大人数の事は即座にもとをりがたし、一人の事は心一つにてかわる事はやきによつて、小さき所知る事得がたし、能吟味有べし。此火の巻の事、はやき間のことなるによつて、日々に手馴、常の如く思ひ、心のかわらぬ所兵法の肝要也。然るによつて戦勝負の所を火の巻に書顕す也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "155–158"
+  "translation_ja": |-
+    第三は「火の巻」。この巻には戦いのことを書く。火は大きくも小さくもなり、勢いが激しい。それで合戦について書くのである。合戦の道理は、一人と一人の勝負も、一万と一万の戦いも同じ筋に立つ。見方を大きくしたり小さくしたりして、どちらもよく吟味する。大きな動きは見えやすく、小さな動きは見えにくい。大人数の動きはすぐには変わらないが、一人なら心一つでたちまち変わる。だから小さなことほど見きわめにくい。この点はよく考えてほしい。「火の巻」が扱うのは、短い間に起きることである。ふだんから慣れ親しみ、いつものことと思えるほどにして、心がいつもと変わらないことが兵法では大切だ。そこで戦いと勝負のことを「火の巻」に書き表す。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-105"
+- "id": "gorin-chi-s006-p004"
+  "section_id": "gorin-chi-s006"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    第四風の巻、此巻を風の巻としるす事、我一流の事にはあらず、世の中の兵法其流々の事を書載する所也。風と云に於ては、昔の風、今の風、其家々の風などゝあれば、世間の兵法其流々のしわざをさだかに書顕す、是風也。他の事を能知らずしては、自のわきまへ成がたし。道々事々をおこなふに、外道と云ふ心有り。日々に其道を勤むると云ふ共、心のそむけば其身のよき道と思ふ共、直なる所より見れば、実の道には有らず。実の道をきはめざれば、少心のゆがみに付て後には大きにゆがむもの也。吟味すべし。他の兵法剣術ばかりと世に思ふ事尤也。我兵法の利わざに於ても各別の儀也。世間の兵法を知しめん為に、風の巻として他流の事を書顕す也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "155–158"
+  "translation_ja": |-
+    第四は「風の巻」。ここに書くのはわが流派のことではなく、世にあるほかの流派のことである。「風」とは昔の風、今の風、家々の風というような、ものの流儀をいう。それぞれの流派のあり方をはっきり書き表すのが、この巻である。他をよく知らなければ、自分のことも正しくはわからない。どんな道や仕事にも、本筋から外れることがある。日々その道に励んでいても、心が道に背けば、自分ではよい道だと思っていても、まっすぐな尺度で見れば本当の道ではない。真の道を究めなければ、心のわずかなゆがみが、のちには大きなゆがみになる。よく吟味してほしい。他流の兵法は剣術ばかりだと世間が考えるのももっともである。わが流派の道理と技は、それとは別のものである。世間の兵法を知ってもらうため、他流について「風の巻」に書き表す。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-105"
+- "id": "gorin-chi-s006-p005"
+  "section_id": "gorin-chi-s006"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    第五空の巻、此巻空と書顕す事、空と云ひ出すよりしては、何をか奥と云、何をか口といはん。道理を得ては道理をはなれ、兵法の道におのれと自由ありて、おのれと奇特をす、時にあひてはひやうしを知り、自ら打自あたる、是皆空の道也。おのずと実の道に入る事を空の巻にして、書とゞむるもの也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "155–158"
+  "translation_ja": |-
+    第五は「空の巻」。「空」という以上、何を奥といい、何を入口と呼べるだろう。道理を身につけてからは、道理そのものにとらわれない。兵法の道におのずと自由を得て、おのずとすぐれた働きが生まれる。その時に応じて拍子を知り、打つことも当たることもおのずと起こる。それがみな空の道である。おのずから本当の道に入ることを、「空の巻」として書き留める。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-105"
+- "id": "gorin-chi-s007-heading"
+  "section_id": "gorin-chi-s007"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    此一流二刀と名付る事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "159–161"
+  "translation_ja": "「二刀一流」という名"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-106"
+- "id": "gorin-chi-s007-omission"
+  "section_id": "gorin-chi-s007"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-chi-s007-p001"
+  "section_id": "gorin-chi-s007"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    二刀と云出す所、武士は将卒共にぢきに二刀を腰に付る役也、昔は太刀刀と云、今は刀脇差と云。武士たる者の此両腰を持事、こまかに書顕すに及ばず。我朝に於てしるもしらぬも腰におぶ事武士の道也。此二つの利をしらしめん為に、二刀一流と云也。鎗長刀よりしては、外の物と云て武道具の内也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "159–161"
+  "translation_ja": |-
+    「二刀」と呼ぶのは、武士なら将も兵も、自ら二振りを腰に帯びるのが習いだからである。昔は太刀と刀といい、今は刀と脇差という。武士がこの二振りを帯びることについて、細かく書くまでもない。この国では、よく心得ている者もそうでない者も、腰に帯びるのが武士の習わしである。この二つの意義を知ってもらうために、二刀一流という。槍や長刀などは、これらとは別に、ほかの武具に数える。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-106"
+- "id": "gorin-chi-s007-p002"
+  "section_id": "gorin-chi-s007"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-chi-s007-p003"
+  "section_id": "gorin-chi-s007"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    箇様之義今委しく書顕すに及ばず。一を以て万を知るべし。兵法の道行ひ得ては、一ツも見えずと云事なし。能々吟味有べき也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "159–161"
+  "translation_ja": |-
+    これらについて、ここで詳しく書くまでもない。一つから万を知るべきである。兵法の道を行い、身につければ、まったく見通せないということはない。よくよく考えてほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-106"
+- "id": "gorin-chi-s008-heading"
+  "section_id": "gorin-chi-s008"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    兵法二ツの字の利を知事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "161–162"
+  "translation_ja": "「兵法」という言葉の意味"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-107"
+- "id": "gorin-chi-s008-p001"
+  "section_id": "gorin-chi-s008"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    此道に於て、太刀を振得たる者を兵法者と世に言伝へたり。武芸の道に至て、弓を能く射れば射手と云、鉄砲を得たる者は鉄砲打と云、鎗を遣ひ得ては鎗遣と云ひ、長刀を覚えては長刀遣と云ふ。然るに於ては、太刀の道を覚えたる者を太刀遣脇差遣といはん事也。弓鉄砲鎗長刀、皆是武家の道具なれば、いづれも兵法の道也。然共太刀よりして兵法と云事道理也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "161–162"
+  "translation_ja": |-
+    世の中では、太刀の扱いに熟達した者を兵法者と呼び伝えてきた。武芸には、弓に巧みな者を射手、鉄砲をよくする者を鉄砲打ち、槍を使いこなす者を槍遣い、長刀を身につけた者を長刀遣いと呼ぶ習いがある。この例にならえば、太刀の道を身につけた者は太刀遣い、脇差遣いと呼びそうなものだ。弓も鉄砲も槍も長刀も、すべて武家の道具であって、いずれも兵法の道に含まれる。それでも太刀の道を特に兵法と呼ぶのには、理由がある。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-107"
+- "id": "gorin-chi-s008-p002"
+  "section_id": "gorin-chi-s008"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    太刀の徳よりして世を納め身を納る事なれば、太刀は道法のおわる所也。太刀の徳を得ては、一人して十人に勝事也。一人にして十人に勝なれば、百人して千人に勝、千人にして万人に勝。然るによつて我一流の兵法に、一人も万人も同じ事にして、武士の法を残らず兵法と云所也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "161–162"
+  "translation_ja": |-
+    太刀の徳によって世を治め、自分自身を治めるのだから、太刀はこの道の行き着くところである。太刀の徳を体得すれば、一人で十人に勝つ。一人が十人に勝つという道理なら、百人が千人に、千人が万人に勝つことになる。だから、わが流派では一人にも万人にも共通するものとして、武士の道を残らず兵法と呼ぶのである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-107"
+- "id": "gorin-chi-s008-p003"
+  "section_id": "gorin-chi-s008"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    道に於て儒者仏者数寄者しつけ者乱舞者、此等の事は武士の道にはなし。其道に有らざると云ふ共、道を広く知れば物事に出あふ事なり。何れも人間に於て我道〳〵を能みがく事肝要也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "161–162"
+  "translation_ja": |-
+    儒学を修める者、仏の道を歩む者、茶の湯をたしなむ者、礼法の心得がある者、舞や謡をする者。こうした道は武士の道そのものではない。自分の道でなくても、広くものの道を知れば、いろいろなことに応じられる。どんな人にも、まずそれぞれの道をよく磨くことが大事である。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-107"
+- "id": "gorin-chi-s009-heading"
+  "section_id": "gorin-chi-s009"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "武具についての章"
+  "translation_status": "reviewed"
+- "id": "gorin-chi-s009-omission"
+  "section_id": "gorin-chi-s009"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-chi-s009-p001"
+  "section_id": "gorin-chi-s009"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    武道具の利をわきまゆるに、何れの道具にても、おりにふれ時にしたがひ出合もの也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "162–164"
+  "translation_ja": |-
+    武具の働きを考えると、どの道具にも、その時々にふさわしい出番がある。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-108"
+- "id": "gorin-chi-s009-p002"
+  "section_id": "gorin-chi-s009"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-chi-s009-p003"
+  "section_id": "gorin-chi-s009"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    当世に於ては弓は申に及ばず、諸芸花多して実少なし。左様の芸能は肝要の時役に立がたし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "162–164"
+  "translation_ja": |-
+    今の世では、弓に限らず、どの芸も花が多く、実が少ない。そうした芸は、肝心なときにはなかなか役に立たない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-108"
+- "id": "gorin-chi-s009-p004"
+  "section_id": "gorin-chi-s009"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-chi-s009-p005"
+  "section_id": "gorin-chi-s009"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    馬の事、つよくこたへてくせなき事肝要也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "162–164"
+  "translation_ja": |-
+    馬については、持ちこたえる力があり、癖がないことが肝要である。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-108"
+- "id": "gorin-chi-s009-p006"
+  "section_id": "gorin-chi-s009"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-chi-s009-p007"
+  "section_id": "gorin-chi-s009"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    道具以下にも、かたわけてすく事有べからず。あまりたる事はたらぬと同じ事也。人まねをせずとも、我身に随ひ武道具は手にあふ様に有べし。将卒共に物にすき物を嫌ふ事悪し、工夫肝要也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "162–164"
+  "translation_ja": |-
+    道具にしても、どれか一つをひいきにしてはいけない。過ぎることは、足りないことと同じだ。人のまねをせず、自分に合う、手になじむ武具を持つべきである。将も兵も、好き嫌いに偏るのはよくない。よく考え、工夫することが大事である。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-108"
+- "id": "gorin-chi-s010-heading"
+  "section_id": "gorin-chi-s010"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    兵法の拍子の事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "164–168"
+  "translation_ja": "物事の拍子と九つの心得"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-109"
+- "id": "gorin-chi-s010-omission"
+  "section_id": "gorin-chi-s010"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-chi-s010-p001"
+  "section_id": "gorin-chi-s010"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    物毎に付拍子は有る物なれ共、とりわけ兵法の拍子鍛錬なくては及がたき所也。世の中の拍子あらはれて有事、乱舞の道れい人管絃の拍子など、是皆能あふ所のろくなる拍子也。武芸の道にわたつて、弓を射鉄砲を放馬に乗る事迄も、拍子調子は有り。諸芸諸能に至ても、拍子をそむく事は有るべからず。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "164–168"
+  "translation_ja": |-
+    何事にも拍子があるが、とりわけ兵法の拍子は、鍛錬なしには身につけにくい。拍子が外に現れてよくわかるのは、舞や謡、楽人の管弦などである。それらは息が合い、調子の整った拍子である。武芸でも弓や鉄砲から乗馬まで、拍子と調子がある。ほかのあらゆる芸や技においても、拍子を外してはならない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-109"
+- "id": "gorin-chi-s010-p002"
+  "section_id": "gorin-chi-s010"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    又空なる事に於ても拍子は有り。武士の身の上にして奉公に身をしあぐる拍子、しさぐる拍子、筈のあふ筈のちがふ拍子有。或は商の道、分限になる拍子、分限にても其たゆる拍子、道々に付けて拍子の相違有事也。物毎のさかゆる拍子おとろふる拍子、能々分別すべし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "164–168"
+  "translation_ja": |-
+    目に見えない物事にも拍子がある。武士の身の上では、奉公で立身する拍子も、立場が悪くなる拍子もあり、見込みに合う拍子も外れる拍子もある。商いで財を築く拍子も、財を築いた者が没落する拍子もある。それぞれの道で拍子は異なる。何事にも、栄える拍子と衰える拍子がある。よく見分けてほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-109"
+- "id": "gorin-chi-s010-p003"
+  "section_id": "gorin-chi-s010"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法の拍子に於て様々有事也。先あふ拍子を知つて、ちがふ拍子を辨へ、大小遅速の拍子の中にも、あたる拍子を知り、間の拍子を知り、背く拍子を知る事、兵法の専也。此背く拍子辨へ得ずしては、兵法たしかならざる事也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "164–168"
+  "translation_ja": |-
+    兵法にもさまざまな拍子がある。まず合う拍子を知って、合わない拍子を見分ける。大きさや速さの異なる拍子の中で、しっくりくる拍子、合間に生まれる拍子、逆らう拍子を知るのが大切である。この逆らう拍子を見分けられないうちは、兵法は身についたとはいえない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-109"
+- "id": "gorin-chi-s010-p004"
+  "section_id": "gorin-chi-s010"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-chi-s010-p005"
+  "section_id": "gorin-chi-s010"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    何れの巻にも拍子の事を専書記也。其書付の吟味をして、能々鍛錬すべきもの也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "164–168"
+  "translation_ja": |-
+    どの巻にも拍子のことをとりわけ書き記した。書いたことを吟味し、よくよく鍛錬すべきである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-109"
+- "id": "gorin-chi-s010-p006"
+  "section_id": "gorin-chi-s010"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    右一流の兵法の道、朝な〳〵夕な〳〵勤め行ふによつて、自ら広き心になつて、多分一分の兵法として、世に伝ふる所、初て書顕す事、地水火風空是五巻也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "164–168"
+  "translation_ja": |-
+    この流派の兵法の道に朝な夕な励んだことで、自分の心もおのずと広くなった。大勢にも一人にも通じる兵法として世に伝えることを、初めて書き表したのが、地・水・火・風・空のこの五巻である。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-109"
+- "id": "gorin-chi-s010-p007"
+  "section_id": "gorin-chi-s010"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    我兵法を学ばんと思ふ人は、道を行ふ法有り。第一によこしまになき事を思ふ所。第二に道の鍛錬する所。第三に諸芸にさわる所。第四に諸職の道を知る事。第五に物毎の損徳を辨ゆる事。第六に諸事目利を仕覚る事。第七に目に見えぬ所をさとつて知る事。第八にわづかなる事にも気を付る事。第九に役に立ぬ事をせざる事。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "164–168"
+  "translation_ja": |-
+    私の兵法を学ぼうとする人には、道を歩むための心得がある。第一、よこしまな考えを持たない。第二、自分の道を鍛える。第三、さまざまな芸に触れる。第四、さまざまな職の道を知る。第五、物事の損得を見分ける。第六、あらゆることの良し悪しを見抜く目を養う。第七、目には見えないところを察して知る。第八、ごく小さなことにも気を配る。第九、役に立たないことはしない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-109"
+- "id": "gorin-chi-s010-p008"
+  "section_id": "gorin-chi-s010"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    大形如此理を心に懸て、兵法の道鍛錬すべき也。此道に限て、直なる所を広く見立ざれば、兵法の達者とは成がたし。此法を学び得ては、一身にして二十三十の敵にも負べき道にあらず。先気に兵法をたへさず、直なる道を勤ては、手にて打勝、目に見る事も人に勝ち、又鍛錬を以て総体自由なれば、身よりも人に勝ち、又此道になれたるなれば、心を以ても人に勝ち、此所に至ては、いかにとして人にまくる道有んや。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "164–168"
+  "translation_ja": |-
+    おおむねこのような道理を心にかけて、兵法の道を鍛えるべきである。この道では、まっすぐな筋を広く見通さなければ、兵法の達人にはなりにくい。この法を身につければ、一人で二十人、三十人を相手にしても負ける道ではないという。兵法を絶えず心に置き、まっすぐな道に励めば、技でも、ものを見る目でも、人にまさる。鍛錬によって全身が自在になれば身の働きでまさり、この道に親しめば心でもまさる。そこまで至って、どうして人に負けることがあろうか。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-109"
+- "id": "gorin-chi-s010-p009"
+  "section_id": "gorin-chi-s010"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    又大きなる兵法にしては、善人をもつ事に勝、人数を遣ふ事に勝、身を正しく行ふ道に勝、国を治る事に勝、民をやしなふ事に勝、世の例法をおこなふに勝。何れの道に於ても、人に負ざる所を知りて、身をたすけ名をたすくる所、是兵法の道也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "164–168"
+  "translation_ja": |-
+    広い意味での兵法では、よい人を得ること、人を使うこと、身を正しく保つこと、国を治めること、民の暮らしを支えること、世の決まりを行うことに秀でる。どの道でも、人に劣らないところを知り、身を支え、名を保つ。それが兵法の道である。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-109"
+- "id": "gorin-chi-s010-p010"
+  "section_id": "gorin-chi-s010"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    正保二歳五月十二日　新免武蔵　寺尾孫之丞殿。寛文七年二月五日　寺尾夢世勝延［花押］　山本源介殿。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "164–168"
+  "translation_ja": |-
+    正保二年（1645年）五月十二日、新免武蔵から寺尾孫之丞殿へ。寛文七年（1667年）二月五日、寺尾夢世勝延（花押）から山本源介殿へ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "chi-109"
+- "id": "gorin-sui-heading"
+  "section_id": "gorin-sui"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "水の巻"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s001-heading"
+  "section_id": "gorin-sui-s001"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "水を手本とする"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s001-p001"
+  "section_id": "gorin-sui-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法二天一流の心、水を本として利方の法を行ふによつて、水の卷として一流の太刀筋、此書に書顯すもの也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "168–169"
+  "translation_ja": |-
+    二天一流の兵法は、水を手本とし、物事の理にかなった仕方でそれを行う。そこで、この流派の太刀の道筋を記すのを「水の巻」とする。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-1"
+- "id": "gorin-sui-s001-p002"
+  "section_id": "gorin-sui-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    此道いづれもこまやかに心の儘には書分がたし。縱ことばつゞかざると云ふ共、利は自ら聞ゆべし。此書に書付たる所へ、こと〴〵一字々々にて思案すべし。大形に思ひては、道のちがふ事多かるべし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "168–169"
+  "translation_ja": |-
+    この道のどれ一つをとっても、私の心にあるとおり、細かいところまで書き分けるのは難しい。たとえ言葉がうまくつながらなくても、言おうとする道理はおのずと伝わるだろう。本書に記したことは、どれも一字ずつ考えてほしい。おおよそで済ませれば、取り違えるところが多くなる。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-1"
+- "id": "gorin-sui-s001-p003"
+  "section_id": "gorin-sui-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法の利に於て一人と、一人との勝負の樣に書付たる所なり共、萬人と萬人との合戰の利に心得、大きに見立所肝要也。此道に限つて少なり共、道を見違へ、道の迷ひ有りては、惡道へ落るもの也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "168–169"
+  "translation_ja": |-
+    兵法の理を一人と一人の勝負として書いた箇所も、万人と万人が戦うときの理として受け取り、大きく見てほしい。ことにこの道では、少しでも道を見誤って迷えば、悪い道に落ちてしまう。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-1"
+- "id": "gorin-sui-s001-p004"
+  "section_id": "gorin-sui-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    此書付計を見て兵法の道には及事に非ず。此書に書付たるを我身にとつて、書付を見ると思はず、ならふと思はず、にせものにせずして、則ち我心より見出したる利にして、常に其身になつて能々工夫すべし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "168–169"
+  "translation_ja": |-
+    書き付けを眺めるだけでは、兵法の道には届かない。ここに書いたことを、自分自身に引きつけてほしい。文章を読んでいるつもりでも、人に習っているつもりでもいけない。うわべのまねにせず、自分の心から見いだした道理とし、いつも自分がその場に身を置いて、よく工夫することだ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-1"
+- "id": "gorin-sui-s002-heading"
+  "section_id": "gorin-sui-s002"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    兵法心持の事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "169–170"
+  "translation_ja": "常の心"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-2"
+- "id": "gorin-sui-s002-p001"
+  "section_id": "gorin-sui-s002"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法の道に於て、心の持樣は常の心に替る事なかれ。常にも兵法の時にも少も替らずして、心を廣く直にして、きつくひつぱらず、少もたるまず、心のかたよらぬ樣に心をまん中におきて、心を靜にゆるがせて、其ゆるぎのせつなも、ゆるぎやまぬ樣に、能々吟味すべし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "169–170"
+  "translation_ja": |-
+    兵法を行うときも、心の持ち方をふだんと変えてはいけない。平時にも兵法のときにも、心は広く、素直に。張りつめさせず、少しもたるませず、どちらかへ偏らないよう真ん中に置く。心を静かに揺り動かし、その動きが一瞬も途切れないとはどういうことか、よく確かめることだ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-2"
+- "id": "gorin-sui-s002-p002"
+  "section_id": "gorin-sui-s002"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    靜なる時も心は靜ならず、何とはやき時も心は少もはやからず、心は體につれず、體は心につれず、心に用心して身は用心せず、心のたらぬ事なくして、心を少もあやまらさず、すへの心はよわく共、そこの心をつよく、心を人に見分られざる樣にして、小身なるものは心に大きなる事を殘らず知り、大身なるものは心に小さき事を能知りて、大身も小身も心を直にして、我身のひいきをせざる樣に、心を持事肝要也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "169–170"
+  "translation_ja": |-
+    周囲が静かなときも、心まで動きを失ってはならない。どれほど事が急でも、心までせき立てられてはならない。心は体に引きずられず、体も心に振り回されない。心では用心しても、身はこわばらせない。注意に欠けたところや判断の過ちがないようにする。表に出る心は柔らかくても、心の底は強く、人にその内を見透かされないようにする。小柄な者は大きなもののありようを余さず知り、大柄な者は小さなもののありようをよく知る。どちらも心をまっすぐにして、自分だけをひいきしないことが肝心だ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-2"
+- "id": "gorin-sui-s002-p003"
+  "section_id": "gorin-sui-s002"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    心の内にこらす廣くして、廣き所へ智慧を置べき也。智慧も心もひたとみがく事專也。智慧をとぎ、天下の利非を辨へ、物毎の善惡を知り、萬の藝能、其道〳〵をわたり、世間の人に少しもだまされざる樣にして後、兵法の智慧となる心也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "169–170"
+  "translation_ja": |-
+    心の内を濁らせず、広くして、その広いところに知恵を置く。知恵も心もひたすら磨くことだ。知恵を研ぎ澄ませ、世の中の是非を見分け、それぞれの物事の善悪を知る。さまざまな芸や技の道に足を運び、世の人にだまされなくなって、はじめてそれが兵法の知恵になる。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-2"
+- "id": "gorin-sui-s002-p004"
+  "section_id": "gorin-sui-s002"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法の智慧に於て、とりわきちがふ事有もの也。戰の場、萬事せはき時なれ共、兵法の道理をきはめ、うごきなき心、能々吟味すべし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "169–170"
+  "translation_ja": |-
+    ただし、兵法の知恵には、ほかの知恵と際立って違うところがある。戦場で何もかもがせわしいときにあっても、兵法の道理をきわめ、揺るがない。その心をよくよく確かめなさい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-2"
+- "id": "gorin-sui-s003-heading"
+  "section_id": "gorin-sui-s003"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    兵法の身なりの事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "170–171"
+  "translation_ja": "身のありよう"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-3"
+- "id": "gorin-sui-s003-omission"
+  "section_id": "gorin-sui-s003"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s003-p001"
+  "section_id": "gorin-sui-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    身のかゝり、顔はうつむかず、あをのかず、かたむかず、ひずまず、目をみださず、ひたいにしはをよせず、まゆあいにしわをよせて、目の玉のうごかざる樣にして、またゝきせぬ樣に思ひて、目を少しすくめる樣にして、うらやかに見ゆるかを、鼻すぢ直にして、少しおとがひを出す心也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "170–171"
+  "translation_ja": |-
+    身の置き方について。顔はうつむけず、仰向けず、傾けず、ゆがめない。視線を乱さず、額にしわを寄せず、眉の間にしわを寄せる。目玉をあちこち動かさず、まばたきもしないつもりで目を少し細め、表情は穏やかに見えるようにする。鼻筋をまっすぐにし、あごを少し前へ出す気持ちでいる。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-3"
+- "id": "gorin-sui-s003-p002"
+  "section_id": "gorin-sui-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    首はうしろのすじを直に、うなじに力を入れて、肩より總身はひとしく覺へ、兩の肩をさげ、脊すぢをろくに、尻を出さず、ひざより足先まで力を入て、腰のかゞまざる樣に腹をはり、
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "170–171"
+  "translation_ja": |-
+    首の後ろをまっすぐにし、うなじに力を入れ、肩から下の体全体を偏りなく感じ取る。両肩を下げ、背筋をまっすぐにし、尻を突き出さない。膝から足先まで力を通し、腰が曲がらないように腹を張る。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-3"
+- "id": "gorin-sui-s003-p003"
+  "section_id": "gorin-sui-s003"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s003-p004"
+  "section_id": "gorin-sui-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    總て兵法の身に於て、常の身を兵法の身とし、兵法の身を常の身とする事肝要なり。能々吟味すべし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "170–171"
+  "translation_ja": |-
+    結局、ふだんの身のありようを兵法のときのものとし、兵法のときの身のありようをふだんのものとすることが肝心だ。よく確かめてほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-3"
+- "id": "gorin-sui-s004-heading"
+  "section_id": "gorin-sui-s004"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    兵法の目付と云事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "171–172"
+  "translation_ja": "「観」と「見」"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-4"
+- "id": "gorin-sui-s004-omission"
+  "section_id": "gorin-sui-s004"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s004-p001"
+  "section_id": "gorin-sui-s004"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    目の付樣は大きに廣く付る目也。觀見二ツの事、觀の目つよく、見の目よはく、遠き所を近く見、近き所を遠く見る事、兵法の專也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "171–172"
+  "translation_ja": |-
+    目を向ける範囲は、大きく広く取る。「観」と「見」という二つの見方がある。全体をとらえる「観」の働きを強くし、目の前のものを見る「見」の働きを控えめにする。遠くを近くにあるように、近くを遠くにあるように見ることが、兵法では肝要だ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-4"
+- "id": "gorin-sui-s004-p002"
+  "section_id": "gorin-sui-s004"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s004-p003"
+  "section_id": "gorin-sui-s004"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    此目付ちいさき兵法にも、大きなる兵法にも、同じ事也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "171–172"
+  "translation_ja": |-
+    このものの見方は、一人の兵法にも、大勢を扱う兵法にも共通する。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-4"
+- "id": "gorin-sui-s004-p004"
+  "section_id": "gorin-sui-s004"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s004-p005"
+  "section_id": "gorin-sui-s004"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    箇樣の事いそがしき時、俄には辨へがたし。此書付を覺え、常住此目付になりて、何事にも目付の替らざる所、能々吟味有べきもの也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "171–172"
+  "translation_ja": |-
+    こうしたことは、忙しくなってから急に身につくものではない。ここに書いたことを覚え、いつもこの目で見るようにして、何が起きても見方が変わらないところを、よく確かめてほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-4"
+- "id": "gorin-sui-s005-heading"
+  "section_id": "gorin-sui-s005"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "「いつく」と「生きる」"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s005-omission"
+  "section_id": "gorin-sui-s005"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s005-p001"
+  "section_id": "gorin-sui-s005"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s005-p002"
+  "section_id": "gorin-sui-s005"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    總て太刀にても手にても、いつくと云事を嫌ふ。いつくはしぬる手也。いつかざるは生る手也。能々心得べきもの也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "172–173"
+  "translation_ja": |-
+    太刀にせよ手にせよ、一ところに固まることを嫌う。固まってしまえば死んだ手、固まらなければ生きた手である。この違いをよく心得てほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-5"
+- "id": "gorin-sui-s006-heading"
+  "section_id": "gorin-sui-s006"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "歩みに通うもの"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s006-omission"
+  "section_id": "gorin-sui-s006"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s006-p001"
+  "section_id": "gorin-sui-s006"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s006-p002"
+  "section_id": "gorin-sui-s006"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    足遣ひはことによりて、大小遲速は有共、常にあゆむが如し。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "173"
+  "translation_ja": |-
+    歩幅の大小や速さは場合によって違っても、足どりはふだん歩くのと同じである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-6"
+- "id": "gorin-sui-s006-p003"
+  "section_id": "gorin-sui-s006"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s007-heading"
+  "section_id": "gorin-sui-s007"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "五つの形"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s007-omission"
+  "section_id": "gorin-sui-s007"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s007-p001"
+  "section_id": "gorin-sui-s007"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s007-p002"
+  "section_id": "gorin-sui-s007"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法大きにして見よ。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "173–174"
+  "translation_ja": |-
+    兵法を、もっと大きな規模に移して見てみなさい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-7"
+- "id": "gorin-sui-s007-p003"
+  "section_id": "gorin-sui-s007"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s008-heading"
+  "section_id": "gorin-sui-s008"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "太刀の道筋"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s008-omission"
+  "section_id": "gorin-sui-s008"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s009-heading"
+  "section_id": "gorin-sui-s009"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "五つの形の第一"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s009-omission"
+  "section_id": "gorin-sui-s009"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s009-p001"
+  "section_id": "gorin-sui-s009"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s009-p002"
+  "section_id": "gorin-sui-s009"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    總別此五ツの表、書付る斗では合點なりがたし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "175–176"
+  "translation_ja": |-
+    そもそも、これら五つの基本の形は、書き付けただけでは納得のゆく理解に届きにくい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-9"
+- "id": "gorin-sui-s009-p003"
+  "section_id": "gorin-sui-s009"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s010-heading"
+  "section_id": "gorin-sui-s010"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "五つの形の第二"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s010-omission"
+  "section_id": "gorin-sui-s010"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s011-heading"
+  "section_id": "gorin-sui-s011"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "五つの形の第三"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s011-omission"
+  "section_id": "gorin-sui-s011"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s012-heading"
+  "section_id": "gorin-sui-s012"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "五つの形の第四"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s012-omission"
+  "section_id": "gorin-sui-s012"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s013-heading"
+  "section_id": "gorin-sui-s013"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "五つの形の第五"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s013-omission"
+  "section_id": "gorin-sui-s013"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s013-p001"
+  "section_id": "gorin-sui-s013"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s013-p002"
+  "section_id": "gorin-sui-s013"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    此五ツのおもてに於て、こまかに書付る事に非ず。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "177–178"
+  "translation_ja": |-
+    これら五つの基本の形について、細部まで書き記すわけではない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-13"
+- "id": "gorin-sui-s013-p003"
+  "section_id": "gorin-sui-s013"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s014-heading"
+  "section_id": "gorin-sui-s014"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "形にとどまらないこと"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s014-omission"
+  "section_id": "gorin-sui-s014"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s014-p001"
+  "section_id": "gorin-sui-s014"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s014-p002"
+  "section_id": "gorin-sui-s014"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    然るに依て、構は有て、構は無きと云ふ理也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "178–179"
+  "translation_ja": |-
+    だからこそ、構えはあり、しかも構えはない、という理になる。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-14"
+- "id": "gorin-sui-s014-p003"
+  "section_id": "gorin-sui-s014"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s014-p004"
+  "section_id": "gorin-sui-s014"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    いつくと云ふ事惡し。能々工夫すべし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "178–179"
+  "translation_ja": |-
+    一つの形にとどまってしまうのはよくない。よく工夫してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-14"
+- "id": "gorin-sui-s015-heading"
+  "section_id": "gorin-sui-s015"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "拍子の教え（一）"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s015-omission"
+  "section_id": "gorin-sui-s015"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s016-heading"
+  "section_id": "gorin-sui-s016"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "拍子の教え（二）"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s016-omission"
+  "section_id": "gorin-sui-s016"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s017-heading"
+  "section_id": "gorin-sui-s017"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "無念無想"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s017-omission"
+  "section_id": "gorin-sui-s017"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s018-heading"
+  "section_id": "gorin-sui-s018"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "流水"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s018-omission"
+  "section_id": "gorin-sui-s018"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s019-heading"
+  "section_id": "gorin-sui-s019"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "縁"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s019-omission"
+  "section_id": "gorin-sui-s019"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s020-heading"
+  "section_id": "gorin-sui-s020"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "石火"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s020-omission"
+  "section_id": "gorin-sui-s020"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s021-heading"
+  "section_id": "gorin-sui-s021"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "紅葉"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s021-omission"
+  "section_id": "gorin-sui-s021"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s022-heading"
+  "section_id": "gorin-sui-s022"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "身と太刀"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s022-omission"
+  "section_id": "gorin-sui-s022"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s023-heading"
+  "section_id": "gorin-sui-s023"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "二つの言葉の区別"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s023-omission"
+  "section_id": "gorin-sui-s023"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s024-heading"
+  "section_id": "gorin-sui-s024"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "身についての比喩（一）"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s024-omission"
+  "section_id": "gorin-sui-s024"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s025-heading"
+  "section_id": "gorin-sui-s025"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "身についての比喩（二）"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s025-omission"
+  "section_id": "gorin-sui-s025"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s026-heading"
+  "section_id": "gorin-sui-s026"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "たけくらべ"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s026-omission"
+  "section_id": "gorin-sui-s026"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s027-heading"
+  "section_id": "gorin-sui-s027"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "ねばり"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s027-omission"
+  "section_id": "gorin-sui-s027"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s028-heading"
+  "section_id": "gorin-sui-s028"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "身の働き"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s028-omission"
+  "section_id": "gorin-sui-s028"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s029-heading"
+  "section_id": "gorin-sui-s029"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "三つの教え"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s029-omission"
+  "section_id": "gorin-sui-s029"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s030-heading"
+  "section_id": "gorin-sui-s030"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "個別の技法（一）"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s030-omission"
+  "section_id": "gorin-sui-s030"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s031-heading"
+  "section_id": "gorin-sui-s031"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "個別の技法（二）"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s031-omission"
+  "section_id": "gorin-sui-s031"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s032-heading"
+  "section_id": "gorin-sui-s032"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "二つの音"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s032-omission"
+  "section_id": "gorin-sui-s032"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s033-heading"
+  "section_id": "gorin-sui-s033"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "個別の技法（三）"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s033-omission"
+  "section_id": "gorin-sui-s033"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s034-heading"
+  "section_id": "gorin-sui-s034"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "複数の相手について"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s034-omission"
+  "section_id": "gorin-sui-s034"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s035-heading"
+  "section_id": "gorin-sui-s035"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    打あいの利の事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190"
+  "translation_ja": "打ち合いの理"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-35"
+- "id": "gorin-sui-s035-p001"
+  "section_id": "gorin-sui-s035"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    此の打あいの利と云事にて、兵法太刀にての勝利を辨ふる所也。こまかに書しるすに非ず。能稽古有りて、勝所を知るべきもの也。大形兵法の實の道をあらはす太刀也。口傳。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190"
+  "translation_ja": |-
+    ここで「打ち合いの理」というのは、太刀を用いる兵法で勝ちを得る道理をわきまえることだ。これは細かく書き記すことではない。よく稽古をして、何が勝ちをもたらすのかを知るべきである。およそ兵法のまことの道を表した太刀である。口伝。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-35"
+- "id": "gorin-sui-s036-heading"
+  "section_id": "gorin-sui-s036"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    一ツの打と云事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190"
+  "translation_ja": "「一つの打」という考え"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-36"
+- "id": "gorin-sui-s036-p001"
+  "section_id": "gorin-sui-s036"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    此一ツの打と云心をもつて、慥に勝所を得る事也。兵法能學ばざれば、心得がたし。此儀能鍛煉すれば、兵法心の儘になつて、思ふ儘に勝道也。能々稽古すべし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190"
+  "translation_ja": |-
+    この「一つの打」という考えによって、勝ちを確かなものにする。兵法をよく学ばなければ、ここは理解しにくい。このことを十分に練れば、兵法が意のままになり、思うとおりに勝つ道が開ける。よくよく稽古してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-36"
+- "id": "gorin-sui-s037-heading"
+  "section_id": "gorin-sui-s037"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    直通の位と云事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190"
+  "translation_ja": "直通の境地"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-37"
+- "id": "gorin-sui-s037-p001"
+  "section_id": "gorin-sui-s037"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    直通の心、二刀一流の實の道をうけて傳ふる所也。能々鍛錬して、此兵法に身を爲す事肝要なり。口傳。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190"
+  "translation_ja": |-
+    「直通」の心とは、二刀一流のまことの道を受け取り、そのまま伝えてゆくことである。よく鍛錬し、自分自身がこの兵法を体現するところまで至るのが肝心だ。口伝。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-37"
+- "id": "gorin-sui-s038-heading"
+  "section_id": "gorin-sui-s038"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "巻末の言葉と伝授の記録"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s038-omission"
+  "section_id": "gorin-sui-s038"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s038-p001"
+  "section_id": "gorin-sui-s038"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    右書付る所、一流の劍術大形此卷に記し置事也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190–192"
+  "translation_ja": |-
+    以上、この巻には、わが流派の剣術のあらましを書きとめた。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-38"
+- "id": "gorin-sui-s038-p002"
+  "section_id": "gorin-sui-s038"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-sui-s038-p003"
+  "section_id": "gorin-sui-s038"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    此一書の内を一ケ條〳〵と稽古して敵と戰ひ、次第〳〵と道の利を得て、不斷心に罹、いそぐ心なくして、折々手に觸れては德を覺え、何れの人共打合、其心を知つて、
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190–192"
+  "translation_ja": |-
+    この一書を一条ずつ稽古し、相手と向き合ううち、少しずつ道理が分かってくる。たえず心にかけながらも先を急がず、おりおり実際に手にするときに稽古の実りを感じ、いろいろな人と打ち合って、その心を知ってゆく。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-38"
+- "id": "gorin-sui-s038-p004"
+  "section_id": "gorin-sui-s038"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    千里の敵も一足づゝ運ぶなり。緩々と思ひ、此法を行ふ事武士の役也と心得て、今日は昨日の我に勝ち、あすは下手に勝ち、後は上手に勝と思ひ、此書物の如くにして、少しも脇の道へ心のゆかざる樣に思ふべし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190–192"
+  "translation_ja": |-
+    千里の先の敵に向かうにも、歩みは一歩ずつだ。気を長く持ち、この道を行くのが武士の務めと心得る。今日は昨日の自分に勝ち、明日は自分より未熟な者に勝ち、その先で自分より巧みな者に勝つ。そう思ってこの書のとおりに進み、少しも心をわき道にそらさないようにすることだ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-38"
+- "id": "gorin-sui-s038-p005"
+  "section_id": "gorin-sui-s038"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    縱ひ何程の敵に打勝ても、習ひに背く事に於ては、實の道に有べからず。此利心にうかびては、一身を以て數十人にも勝心の辨へ有べし。然る上は劍術の智力にて、大分一分の兵法をも得道すべし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190–192"
+  "translation_ja": |-
+    どれほどの敵に勝とうと、学んだ道に背いているなら、それはまことの道ではない。この理が自分の心に浮かぶようになれば、一人で数十人に勝つという、その心も分かるはずだ。そうなったうえで、剣術で養った知恵の力によって、大勢の兵法にも一人の兵法にも通じることができる。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-38"
+- "id": "gorin-sui-s038-p006"
+  "section_id": "gorin-sui-s038"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    千日の稽古を鍛とし、萬日の稽古を錬とす。能々吟味有べきもの也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190–192"
+  "translation_ja": |-
+    千日の稽古を「鍛」とし、万日の稽古を「錬」とする。その意味をよくよく考えてほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-38"
+- "id": "gorin-sui-s038-p007"
+  "section_id": "gorin-sui-s038"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    正保二年五月十三日　新免武藏
+    寺尾孫之丞殿
+    寛文七年二月五日　寺尾夢世勝延　花押
+    山本源助殿
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "190–192"
+  "translation_ja": |-
+    正保二年五月十三日、新免武蔵より寺尾孫之丞殿へ。
+    寛文七年二月五日、寺尾夢世勝延（花押）より山本源助殿へ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "sui-38"
+- "id": "gorin-ka-heading"
+  "section_id": "gorin-ka"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "火の巻"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s001-heading"
+  "section_id": "gorin-ka-s001"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "火になぞらえて"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s001-omission"
+  "section_id": "gorin-ka-s001"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s001-p001"
+  "section_id": "gorin-ka-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    二刀一流の兵法戦の事を火に思ひとつて戦勝負の事を火の巻として此巻に書顕す也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "192–194"
+  "translation_ja": |-
+    二刀一流の兵法のうち、戦いのことは火になぞらえた。そこでこの「火の巻」に、戦いと勝負のことを書き表す。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-1"
+- "id": "gorin-ka-s001-p002"
+  "section_id": "gorin-ka-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    先世間の人毎に兵法の利をちひさく思ひなして或は指先にて手くび五寸三寸の利を知り或は扇を取てひぢより先の先後の勝を弁へ又はしないなどにてわつかのはやき利を覚え手をきかせ習ひ足をきかせ習ひ少の利の早き所を専とする事也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "192–194"
+  "translation_ja": |-
+    世間の人は、とかく兵法の理を小さなことにしてしまう。指先や手首のわずかな動きに利を求め、扇を手に、肘から先の動きの早い遅いで勝負を論じる。あるいは竹刀でほんの少し人にまさる速さを覚える。そうして手足を利かせる稽古をし、わずかな速さを何より大事にしている。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-1"
+- "id": "gorin-ka-s001-p003"
+  "section_id": "gorin-ka-s001"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s001-p004"
+  "section_id": "gorin-ka-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    殊に六具かためてなどの利にちひさき事思ひ出る事に非ず更ば命をばかりの打合に於て一人して五人十人共戦ひ其勝道を慥に知る事我道の兵法也然るによつて一人して十人に勝ち千人を以て万人に勝つ道理何の差別有んや能々吟味有べし
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "192–194"
+  "translation_ja": |-
+    まして具足を一式着込んだ場で、どうしてそんな小さな利を思い出せよう。命がかかった勝負で、一人で五人、十人を相手にし、勝つ道を確かに知る。それが私の兵法だ。一人が十人に勝つのと、千人が一万人に勝つのと、その道理のどこが違うのか。よくよく考えてほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-1"
+- "id": "gorin-ka-s001-p005"
+  "section_id": "gorin-ka-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    去ながら常々の稽古の時千人万人を集め此道し習ふ事成事に非ず
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "192–194"
+  "translation_ja": |-
+    とはいえ、いつもの稽古で千人、万人もの人を集めて、この道を習うわけにはいかない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-1"
+- "id": "gorin-ka-s001-p006"
+  "section_id": "gorin-ka-s001"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s001-p007"
+  "section_id": "gorin-ka-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    我兵法の直道世界に於て誰か得ん又何れか極めんと慥に思ひ取つて朝鍛夕錬して磨きおほせて後独自由を得自ら奇特を得通力不思議有所是兵として法をおこのふ息也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "192–194"
+  "translation_ja": |-
+    「この世で、私の兵法のまっすぐな道を誰が会得し、誰が極めるのか」と、わが身に引き受けて決心する。朝に鍛え、夕に練り、磨き抜けば、独りで自在にはたらけるようになる。おのずと並外れた力がそなわり、不思議なはたらきさえ現れる。それが武士として兵法を行う息づかいである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-1"
+- "id": "gorin-ka-s002-heading"
+  "section_id": "gorin-ka-s002"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "場所の条件"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s002-omission"
+  "section_id": "gorin-ka-s002"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s003-heading"
+  "section_id": "gorin-ka-s003"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "三つの「先」"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s003-omission"
+  "section_id": "gorin-ka-s003"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s003-p001"
+  "section_id": "gorin-ka-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    三ツの先一ツは我方より敵へかかるせんけんの先と云ふ也又一ツは敵より我方へかかる時の先是はたいの先と云也又一ツは我もかかり敵もかかりあふ時の先体々の先と云是三ツの先也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "195–197"
+  "translation_ja": |-
+    「先」には三つある。こちらから相手に向かうときの先を「けんの先」という。相手がこちらに向かってくるときの先を「たいの先」という。こちらと相手がともに動くときの先を「体々の先」という。これが三つの先である。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-3"
+- "id": "gorin-ka-s003-p002"
+  "section_id": "gorin-ka-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    何れの戦ひ始にも此三ツの先より外はなし先の次第を以て勝事を得るものなれば先と云事兵法の第一也此先の子細様々は有りと云へ共其時の利を先とし敵の心を見我兵法の智恵を以て勝事なればこまやかに書分る事に非ず
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "195–197"
+  "translation_ja": |-
+    どんな戦いの始まりも、この三つのほかにはない。先のありようで勝ちが決まるから、兵法ではこれを第一とする。細かく言えばいろいろな場合がある。だが、その場の道理を第一にし、相手の心を見て、自分の兵法の知恵をもって勝つのだから、細部まで書き分けることはできない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-3"
+- "id": "gorin-ka-s003-p003"
+  "section_id": "gorin-ka-s003"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s003-p004"
+  "section_id": "gorin-ka-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    此儀濃に云分がたし此書付を以て大形工夫有べし
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "195–197"
+  "translation_ja": |-
+    このことは、詳しく言葉で説き分けるのが難しい。ここに書いたことを手がかりに、大筋を自分で考えてほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-3"
+- "id": "gorin-ka-s003-p005"
+  "section_id": "gorin-ka-s003"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s004-heading"
+  "section_id": "gorin-ka-s004"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "枕をおさえる"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s004-omission"
+  "section_id": "gorin-ka-s004"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s004-p001"
+  "section_id": "gorin-ka-s004"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    枕をおさふるとはかしらをあげさせずと云ふ心也兵法勝負の道に限つて人に我身をまはされてあとにつく事悪し
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "197–199"
+  "translation_ja": |-
+    「枕をおさえる」とは、頭を上げさせない、というたとえだ。兵法の勝負では、人に自分を動かされ、そのあとをついていくのはよくない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-4"
+- "id": "gorin-ka-s004-p002"
+  "section_id": "gorin-ka-s004"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s005-heading"
+  "section_id": "gorin-ka-s005"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "渡しを越す"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s005-omission"
+  "section_id": "gorin-ka-s005"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s005-p001"
+  "section_id": "gorin-ka-s005"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    渡を越すと云はたとへば海を渡るに瀬戸と云所も有又は四十里五十里とも長き海を越所を渡と云也人間の世を渡るにも一代の内にはとをこすと云所多かるべし
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "199–200"
+  "translation_ja": |-
+    「渡を越す」という。海を渡るにも、瀬戸と呼ばれる狭い海峡があり、また四十里、五十里という長い海路を越える渡りもある。人が世を渡るのにも、一生のうちにはこうした渡りどころがいくつもあるだろう。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-5"
+- "id": "gorin-ka-s005-p002"
+  "section_id": "gorin-ka-s005"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    船路にして其との所を知り船の位を知り日なみを知りて友船は出さず共其時の位をうけ或はひらきの風にたより或は追風をも受若し風替りても二里三里はろかぢをもつても港に着を心得て船を乗とり渡を越所也其心を得て人の世を渡るにも一大事にかけて渡を越と思ふ心有べし
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "199–200"
+  "translation_ja": |-
+    船旅なら、渡りどころを知り、自分の船の力を知り、日々の天候を見きわめる。他の船が出なくても、今がよいと見れば、ある時は斜めからの風を利用し、ある時は追い風に乗る。たとえ風が変わっても、残り二里、三里なら櫓や舵を使って港に着けると心得て、船を操り、渡りきる。その心をつかみ、人として世を渡るときにも、一大事に臨んだら「ここを渡ろう」と決める心がなくてはならない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-5"
+- "id": "gorin-ka-s005-p003"
+  "section_id": "gorin-ka-s005"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s006-heading"
+  "section_id": "gorin-ka-s006"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "形勢を知る"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s006-omission"
+  "section_id": "gorin-ka-s006"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s006-p001"
+  "section_id": "gorin-ka-s006"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s006-p002"
+  "section_id": "gorin-ka-s006"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    物事の景気と云事は我智力強ければ必見ゆる所也兵法自由の身に成ては敵の心を能計て勝道多かるべき事也工夫有べし
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "200–201"
+  "translation_ja": |-
+    物事がいまどんな様子にあるかは、自分の見きわめる力が十分なら、必ず見えてくる。兵法を自在に使える身になれば、敵の心をよく察することができ、勝ちに至る道も多くなるはずだ。自分で工夫してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-6"
+- "id": "gorin-ka-s007-heading"
+  "section_id": "gorin-ka-s007"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "先手についての一節"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s007-omission"
+  "section_id": "gorin-ka-s007"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s008-heading"
+  "section_id": "gorin-ka-s008"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "崩れを知る"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s008-omission"
+  "section_id": "gorin-ka-s008"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s008-p001"
+  "section_id": "gorin-ka-s008"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    崩と云事は物事ある物也其家のくづるる身のくづるる敵のくづるる事も時のあたりて拍子ちがひになりてくづるる所也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "202–203"
+  "translation_ja": |-
+    「崩れる」ということは何にでもある。家が崩れるのも、身が崩れるのも、敵が崩れるのも、ある時にそれまでの調子が狂って崩れるのである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-8"
+- "id": "gorin-ka-s008-p002"
+  "section_id": "gorin-ka-s008"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s009-heading"
+  "section_id": "gorin-ka-s009"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "敵の身になる"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s009-p001"
+  "section_id": "gorin-ka-s009"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    敵になると云は我身を敵になり替て思ふべきと云所也世の中を見るにぬすみなどして家の内へ取籠る様なるものをも敵を強く思なすもの也敵になりて思へば世の中の人を皆相手としにげこみてせんかたなき心也取籠るものは雉子也打果しに入る人は鷹也能々工夫有べし
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "203–204"
+  "translation_ja": |-
+    「敵になる」とは、自分が敵に入れ替わったつもりで考えることだ。世間では、盗みを働いて家に立てこもった者などを、手ごわい相手だと思いがちだ。だがその者の身になれば、世間の人すべてを敵に回して逃げ込んで、もうどうしようもない気持ちでいる。立てこもる者は雉で、討ち取りに入る者は鷹なのだ。よく考えてほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-9"
+- "id": "gorin-ka-s009-p002"
+  "section_id": "gorin-ka-s009"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    大きなる兵法にしても敵といへば強く思ひて大事にかくるもの也よき人数をもち兵法の道理を能知り敵に勝と云所を能うけては気遣すべき道に非ず一分の兵法も敵になりて思ふべし兵法能心得て道理強く其道達者なるものに於ては必ずまくると思ふ所也能々吟味すべし
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "203–204"
+  "translation_ja": |-
+    大軍の兵法でも、「敵」と呼ぶだけで強いもののように思い、ことを重く見てしまう。だが、よい兵を持ち、兵法の道理をよく知り、勝てる筋道をつかんでいれば、気をもむには及ばない。一人の兵法でも、敵の身になって考えるとよい。兵法を心得、道理に通じ、この道に熟達した人を向こうに回せば、敵のほうこそ「負ける」と思うものだ。よくよく吟味してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-9"
+- "id": "gorin-ka-s010-heading"
+  "section_id": "gorin-ka-s010"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "張り合いを解く"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s010-omission"
+  "section_id": "gorin-ka-s010"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s010-p001"
+  "section_id": "gorin-ka-s010"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    四手をはなすとは敵も我も同じ心にはりやう心になつては戦のはかゆかざるもの也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "204"
+  "translation_ja": |-
+    「四手をはなす」という。相手も自分も同じ気持ちで意地を張り合えば、勝負は先に進まない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-10"
+- "id": "gorin-ka-s010-p002"
+  "section_id": "gorin-ka-s010"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s010-p003"
+  "section_id": "gorin-ka-s010"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    大分の兵法にしても四手の心にあれば果敢ゆかずひとの先する事也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "204"
+  "translation_ja": |-
+    大勢の戦いでも、この張り合う気持ちのままでは、事が進まず、人を損なう。（底本は「ひとの先する」とあり、文脈によって解した。）
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-10"
+- "id": "gorin-ka-s010-p004"
+  "section_id": "gorin-ka-s010"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s011-heading"
+  "section_id": "gorin-ka-s011"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "意図が見えないとき"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s011-omission"
+  "section_id": "gorin-ka-s011"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s011-p001"
+  "section_id": "gorin-ka-s011"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    陰を動かすと云は敵の心の見えわかぬ時の事也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "204–205"
+  "translation_ja": |-
+    「陰を動かす」とは、敵が何を考えているのか見分けがつかないときのことである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-11"
+- "id": "gorin-ka-s011-p002"
+  "section_id": "gorin-ka-s011"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s012-heading"
+  "section_id": "gorin-ka-s012"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "意図が見えるとき"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s012-omission"
+  "section_id": "gorin-ka-s012"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s012-p001"
+  "section_id": "gorin-ka-s012"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    影をおさふると云は敵のかたよりしかくる心の見えたる時の事也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "205–206"
+  "translation_ja": |-
+    「影をおさえる」とは、敵の側からしかけようという気持ちが見えているときのことである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-12"
+- "id": "gorin-ka-s012-p002"
+  "section_id": "gorin-ka-s012"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s013-heading"
+  "section_id": "gorin-ka-s013"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "移るもの"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s013-omission"
+  "section_id": "gorin-ka-s013"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s013-p001"
+  "section_id": "gorin-ka-s013"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    移らかすと云は物毎に有もの也或はねむりなども移り或はあくびなどのうつるもの也時のうつるも有
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "206–207"
+  "translation_ja": |-
+    人に何かが「移る」ということは、あらゆることにある。眠気も移るし、あくびも移る。その時の気分が移ることもある。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-13"
+- "id": "gorin-ka-s013-p002"
+  "section_id": "gorin-ka-s013"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s014-heading"
+  "section_id": "gorin-ka-s014"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "心が揺れるとき"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s014-omission"
+  "section_id": "gorin-ka-s014"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s014-p001"
+  "section_id": "gorin-ka-s014"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    むかつかすると云は物毎に有一ツにはきはどき心二ツにはむりなる心三ツには思はざる心能吟味有べし
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "207"
+  "translation_ja": |-
+    心が落ち着かなくなるのは、さまざまなことに起こる。一つは、きわどいところに立たされたとき。二つは、無理を強いられたとき。三つは、思いもよらないことに出会ったとき。よく考えてみることだ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-14"
+- "id": "gorin-ka-s014-p002"
+  "section_id": "gorin-ka-s014"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s015-heading"
+  "section_id": "gorin-ka-s015"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "おびえ"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s015-omission"
+  "section_id": "gorin-ka-s015"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s015-p001"
+  "section_id": "gorin-ka-s015"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    おびゆると云事物毎に有事也思ひよらぬ事におびゆる心也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "207–208"
+  "translation_ja": |-
+    おびえるということは、どんなことにも起こる。人は思いもよらないことに出会って、おびえるのである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-15"
+- "id": "gorin-ka-s015-p002"
+  "section_id": "gorin-ka-s015"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s016-heading"
+  "section_id": "gorin-ka-s016"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "もつれ合い"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s016-omission"
+  "section_id": "gorin-ka-s016"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s017-heading"
+  "section_id": "gorin-ka-s017"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "角のたとえ"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s017-omission"
+  "section_id": "gorin-ka-s017"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s017-p001"
+  "section_id": "gorin-ka-s017"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    角にさはると云は物事強き物をおすに其儘直におしこみがたきもの也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "209"
+  "translation_ja": |-
+    「角にさわる」という。およそ頑丈なものを押すのに、そのまま正面から押し込むのは難しいものだ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-17"
+- "id": "gorin-ka-s017-p002"
+  "section_id": "gorin-ka-s017"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s018-heading"
+  "section_id": "gorin-ka-s018"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "とまどい"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s018-omission"
+  "section_id": "gorin-ka-s018"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s018-p001"
+  "section_id": "gorin-ka-s018"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    うろめかすと云は敵に慥なる心をもたせざるやうにする所也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "209–210"
+  "translation_ja": |-
+    「うろめかす」とは、敵がはっきり心を定められず、とまどうようにすることである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-18"
+- "id": "gorin-ka-s018-p002"
+  "section_id": "gorin-ka-s018"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s019-heading"
+  "section_id": "gorin-ka-s019"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "三つの声"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s019-omission"
+  "section_id": "gorin-ka-s019"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s019-p001"
+  "section_id": "gorin-ka-s019"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    三ツの声とは初中後の声と云て三ツにかけ分る事也所により声をかくると云事専也声はいきほひなるによつて火事などにもかけ風波にもかけ声は勢力を見するもの也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "210–211"
+  "translation_ja": |-
+    「三つの声」は、初め・なか・終わりの声といって、三つに分けて掛ける声を指す。肝心なのは、その場に応じて声を掛けることだ。声は勢いそのものだから、火事のときにも掛けるし、風や波に向き合うときにも掛ける。声には、人の力が現れる。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-19"
+- "id": "gorin-ka-s019-p002"
+  "section_id": "gorin-ka-s019"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s020-heading"
+  "section_id": "gorin-ka-s020"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "入りまじること"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s020-omission"
+  "section_id": "gorin-ka-s020"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s021-heading"
+  "section_id": "gorin-ka-s021"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "勢いの差"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s021-omission"
+  "section_id": "gorin-ka-s021"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節の本文は省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s022-heading"
+  "section_id": "gorin-ka-s022"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "山と海"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s022-omission"
+  "section_id": "gorin-ka-s022"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s022-p001"
+  "section_id": "gorin-ka-s022"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    山海の心と云は敵我戦の内に同じ事を度々する事悪き所也同じ事二度は是非に及ばず三度するに非ず
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "213"
+  "translation_ja": |-
+    「山海の心」という。敵と自分が争うときには、何度も同じことを繰り返すのはよくない。同じことを二度まではやむをえないが、三度するものではない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-22"
+- "id": "gorin-ka-s022-p002"
+  "section_id": "gorin-ka-s022"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s022-p003"
+  "section_id": "gorin-ka-s022"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    然るによつて敵山と思はば海としかけ海と思はば山としかくる心兵法の道なり能々吟味有べき事也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "213"
+  "translation_ja": |-
+    それで、敵が山だと思えば海、海だと思えば山と出る心が、兵法の道なのである。よくよく吟味してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-22"
+- "id": "gorin-ka-s023-heading"
+  "section_id": "gorin-ka-s023"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "うわべと心の底"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s023-omission"
+  "section_id": "gorin-ka-s023"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s023-p001"
+  "section_id": "gorin-ka-s023"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    底を抜と云は敵と戦ふに其道の利を以て上は勝と見ゆれ共心をたへさざるによつて上にてはまけ下の心はまけぬ事有
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "213–214"
+  "translation_ja": |-
+    「底を抜く」という。敵と戦って、こちらは兵法の利を得て、うわべでは勝ったように見える。それでも相手の気持ちは途切れておらず、表では負けても、心の底では負けていないことがある。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-23"
+- "id": "gorin-ka-s023-p002"
+  "section_id": "gorin-ka-s023"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s024-heading"
+  "section_id": "gorin-ka-s024"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "新たになる"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s024-p001"
+  "section_id": "gorin-ka-s024"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    新たになるとは敵我戦ふ時もつるる心になつてはかゆかざる時我気を振捨て物毎をあたらしくはじむる心に思ひて其拍子を受て勝を弁ふる所なり
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "214"
+  "translation_ja": |-
+    「新たになる」とは、敵と自分との争いがもつれ、先へ進まなくなったとき、それまでの気分を振り捨てて、何もかも初めから始めるつもりになることだ。その新しい調子をつかんで、勝ちに至る道を見分ける。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-24"
+- "id": "gorin-ka-s024-p002"
+  "section_id": "gorin-ka-s024"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    新になる事は何時も敵と我きしむ心になると思はば其儘心を替て各別の利を以て勝べき也大分の兵法に於ても新たになると云所弁ふる事肝要也兵法の智力にては忽ち見ゆる所也能々吟味有べし
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "214"
+  "translation_ja": |-
+    相手と自分との気持ちがきしみ合うと感じたら、その場で心を改め、まったく別の道理によって勝つ。これが「新たになる」ということだ。大軍の兵法でも、この意味を知ることが肝心である。兵法の知恵があれば、たちどころに見えてくる。よく吟味してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-24"
+- "id": "gorin-ka-s025-heading"
+  "section_id": "gorin-ka-s025"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "鼠頭午首"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s025-p001"
+  "section_id": "gorin-ka-s025"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    鼠頭午首と云ふは敵と戦のうちに互にこまかなる所を思ひ合てもつるる心になる時兵法の道を常に鼠頭午首鼠頭午首と思ひていかにもこまかなる内に俄に大きなる心にして大小にかはる事兵法一ツの心だて也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "215"
+  "translation_ja": |-
+    「鼠頭午首」とは、敵と戦ううちに双方が細かなところにとらわれて、もつれてきたときの心得である。ふだんから「鼠頭午首、鼠頭午首」と心に置き、ごく細かなことに取り組んでいるさなかにも、ぱっと大きな心に切り替える。大きくも小さくもなれるのが、兵法の一つの心構えだ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-25"
+- "id": "gorin-ka-s025-p002"
+  "section_id": "gorin-ka-s025"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    平生人の心も鼠頭午首と思ふべき所武士の肝心也兵法大分小分にしても此心をはなるべからず此事能々吟味有るべきもの也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "215"
+  "translation_ja": |-
+    ふだんの人の心も「鼠頭午首」であると思うことが、武士にとって肝心だ。大軍の兵法でも、一人の兵法でも、この心を忘れてはならない。よくよく吟味してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-25"
+- "id": "gorin-ka-s026-heading"
+  "section_id": "gorin-ka-s026"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "将と卒"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s026-p001"
+  "section_id": "gorin-ka-s026"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    将卒を知るとはいづれも戦に及ぶ時わが思ふ道に至てはたえず此法を行ひ兵法の智力を得て我敵たるものをば皆我卒なりと思ひとつてなしたき様になすべしと心得敵を自由にまはさんと思ふ所我は将也敵は卒也工夫有べし
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "215"
+  "translation_ja": |-
+    「将卒を知る」とは、どんな戦いでも、自分が求める道に達したなら、絶えずその法を行うことだ。兵法の知恵と力を得て、敵である者たちを「皆、自分の兵なのだ」ととらえる。思うように動かせると心得、敵を自在に動かそうと思う。そのとき自分が将で、敵は兵卒である。工夫してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-26"
+- "id": "gorin-ka-s027-heading"
+  "section_id": "gorin-ka-s027"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "刀に頼らない心"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s027-p001"
+  "section_id": "gorin-ka-s027"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    束をはなすと云に色々心有事也無刀にて勝心有又太刀にてかたざる心有さまざま心のゆく所書付るに非ず能々鍛錬すべし
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "216"
+  "translation_ja": |-
+    「つかを放す」には、いろいろな意味がある。刀を持たずに勝つという心もあれば、刀で勝つのではないという心もある。そこから思いがさまざまに行き着く先は、書き尽くせるものではない。よく鍛錬してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-27"
+- "id": "gorin-ka-s028-heading"
+  "section_id": "gorin-ka-s028"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "巌の身"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s028-p001"
+  "section_id": "gorin-ka-s028"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    岩尾の身と云事兵法を得道して忽ち岩尾の如くに成て万事あたらざる所うごかざる所口伝
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "216"
+  "translation_ja": |-
+    「巌の身」とは、兵法の道を会得して、たちまち大岩のようになることだ。何もこれに当たることができず、何ものにも動かされない境地である。ここは口伝とする。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-28"
+- "id": "gorin-ka-s029-heading"
+  "section_id": "gorin-ka-s029"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "結びと奥書"
+  "translation_status": "reviewed"
+- "id": "gorin-ka-s029-p001"
+  "section_id": "gorin-ka-s029"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    右書付る所一流剣術の場にしてたえず思ひよる事のみ云顕し置もの也今初て此利を書記物なればあとさきと書まぎるる心有てこまやかに云わけがたし乍㆑去此道を学ぶべき人の為には心しるしに成るべきもの也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "216–217"
+  "translation_ja": |-
+    ここに書きつけたのは、私の流儀で剣術に当たるとき、絶えず心に浮かぶことだけである。この理を書き記すのは初めてなので、書く順序が前後して、細かなところまで説き分けにくい。それでも、この道を学ぼうとする人にとって、心の目じるしにはなるはずだ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-29"
+- "id": "gorin-ka-s029-p002"
+  "section_id": "gorin-ka-s029"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    我若年より以来兵法の道に心をかけて剣術一通りの事にも手をからし身をからし色々様々の心に成り他の流々をも尋見るに或は口にていひかこつけ或は手にてこまかなるわざをし人目によき様に見すると云ても一ツも実の心に有べからず勿論かやうの事しならひても身をきかせならひ心をきかせつくる事と思へ共皆是道のやまひとなりて後々までもうせがたくして兵法の直道世にくちて道のすたる基也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "216–217"
+  "translation_ja": |-
+    私は若いころから兵法の道に心をかけ、剣術の一つ一つに手を使い尽くし、身を使い尽くし、さまざまな心のありようを経験してきた。他の流派をたずねてみると、言葉でもっともらしく言い立てたり、手先で細かな技を演じたりして、人目によく映るように見せる。しかし、そこには少しもまことの心はない。そのようなことを習えば、体の働きを利かせ、心の働きを鋭くできると思うだろう。だが、どれもこの道の病となり、あとあとまで抜けがたい。正しい兵法が世に朽ち、道がすたれるもとはここにある。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-29"
+- "id": "gorin-ka-s029-p003"
+  "section_id": "gorin-ka-s029"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    剣術実の道になつて敵と戦ひ勝事此法と聊替事有べからず我兵法の智力を得て直なる所を行ふに於ては勝事うたがひ有べからざるもの也
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "216–217"
+  "translation_ja": |-
+    剣術のまことの道に立ち、敵と戦って勝つことに、この法とわずかでも違うところがあってはならない。私の兵法の知恵と力を得て、まっすぐな道を行うならば、勝つことに疑いはない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-29"
+- "id": "gorin-ka-s029-p004"
+  "section_id": "gorin-ka-s029"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    正保二年五月十二日　新免武蔵
+    寺尾孫之丞殿
+    寛文七年二月五日　寺尾夢世勝延（花押）
+    山本源介殿
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "216–217"
+  "translation_ja": |-
+    正保二年（1645）五月十二日、新免武蔵より、寺尾孫之丞殿へ。
+    寛文七年（1667）二月五日、寺尾夢世勝延（花押）より、山本源介殿へ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ka-29"
+- "id": "gorin-fu-heading"
+  "section_id": "gorin-fu"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "風の巻"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s001-heading"
+  "section_id": "gorin-fu-s001"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    兵法他流の道を知る事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "218–219"
+  "translation_ja": "他流の道を知る"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-401"
+- "id": "gorin-fu-s001-p001"
+  "section_id": "gorin-fu-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    他の兵法の流々を書付、風の巻として此巻に顕す所也。他流の道を知らずしては我一の道慥に辨へがたく、他の兵法を尋見るに、大きなる太刀をとつて強き事を専らにして其わざをなすながれと有。或は小太刀と云ひて短き太刀を以て道を勤るながれと有。或は太刀かず多くたゝみ、太刀の構を以ておもてと云ひ、奥として道をつたふる流も有。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "218–219"
+  "translation_ja": |-
+    他の兵法の流派について書き記し、「風の巻」としてここに示す。他流の道を知らなければ、自分の流派の道も確かにはわからない。他の兵法を見てみると、大きな太刀を取り、強さを何より大事にする流派もある。小太刀といって短い太刀で修業する流派もある。多くの型を組み、太刀の構えに「表」と「奥」の別を設けて教えを伝える流派もある。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-401"
+- "id": "gorin-fu-s001-p002"
+  "section_id": "gorin-fu-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    是皆実の道に非る事、此巻の奥に慥に書顕し、善悪理非を知らする也。我一流の道理、各別の儀也。他の流、芸にわたつて身すぎの為にして、色をかざり花をさかせ、うりものにこしらへたるによつて、実の道に非る事歟。亦世の中の兵法、剣術斗にちひさく見たてて、太刀をふり習ひ、身をきかせて手のかるる所を以て、勝事を辨へたるものか。何れも慥なる道に非ず。他流の不足成所、一々此書に書顕す也。能々吟味して二刀一流の利を辨ふべきもの也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "218–219"
+  "translation_ja": |-
+    これらがどれも真の道ではないわけを、この巻の先で明らかにし、何がよくて何が悪く、どこに理があり、どこにないかを示そう。私の流派がよりどころとする理は、それとは別である。他流が真の道から外れるのは、芸を暮らしの糧にしようとして、色を飾り、花を咲かせ、売り物に仕立てるからではないか。また世間では兵法を狭く剣術だけのことと考える。太刀の素振りを習って体がよく動き、手が軽く働くようになっただけで、勝つとはどういうことかがわかったといえるだろうか。どちらも確かな道ではない。他流に欠けている点を、この書で一つずつ明らかにする。よく吟味して、二刀一流の理を見きわめてほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-401"
+- "id": "gorin-fu-s002-heading"
+  "section_id": "gorin-fu-s002"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    他流に大きなる太刀を持事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "219–220"
+  "translation_ja": "大きな太刀を好む流派"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-402"
+- "id": "gorin-fu-s002-omission"
+  "section_id": "gorin-fu-s002"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s002-p001"
+  "section_id": "gorin-fu-s002"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    他に大きなる太刀をこのむ流有。我兵法よりして是をよわき流と見立る也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "219–220"
+  "translation_ja": |-
+    他には大きな太刀を好む流派がある。私の兵法から見れば、これは弱い流派である。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-402"
+- "id": "gorin-fu-s002-p002"
+  "section_id": "gorin-fu-s002"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s002-p003"
+  "section_id": "gorin-fu-s002"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    長き太刀好む身にしては其云わけは有ものなれ共、夫は其身ひとりの理也。世の中の実の道より見る時は、道理なき事也。長き太刀もたずして短き太刀にては必まくべき事歟。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "219–220"
+  "translation_ja": |-
+    長い太刀を好む当人には、それなりの言い分はあろう。だが、それはその人ひとりにとっての理である。広く世の実際に照らせば、道理はない。長い太刀を持たず、短い太刀なら必ず負けるとでもいうのか。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-402"
+- "id": "gorin-fu-s002-p004"
+  "section_id": "gorin-fu-s002"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s002-p005"
+  "section_id": "gorin-fu-s002"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    人により小刀なるものも有、其身により長かたなさす事ならざる身も有。昔より大は小をかふへると云へば、むさと長きをきらふには非ず。長きとかたよる心を嫌ふ儀也。大分の兵法にして長太刀は大人数也。短きは小人数也。小人数と大人数にて合戦はなるまじきものか。小人数にて大人数に勝たる例多し。我一流に於て左やうにかたつくせまき心嫌ふ事也。能々吟味有べし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "219–220"
+  "translation_ja": |-
+    人によっては小刀を帯びる者もいれば、長い刀を差すことのできない者もいる。昔から「大は小を兼ねる」というのだから、むやみに長いものを嫌っているわけではない。私が嫌うのは、長いほうにばかり心が傾くことだ。大勢の兵法にたとえるなら、長い太刀は大軍、短い太刀は小勢である。小勢では大軍と戦にならないとでもいうのか。小勢が大軍に勝った例はいくらもある。私の流派が嫌うのは、一方に偏る、そうした狭い心である。よく吟味してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-402"
+- "id": "gorin-fu-s003-heading"
+  "section_id": "gorin-fu-s003"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    他流に於てつよみの太刀と云事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "220–222"
+  "translation_ja": "「強さ」を重んじる流派"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-403"
+- "id": "gorin-fu-s003-omission"
+  "section_id": "gorin-fu-s003"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s003-p001"
+  "section_id": "gorin-fu-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    太刀につよき太刀、よわき太刀と云事は有べからず。つよき心にてふる太刀はあらきもの也。あらき斗にては勝がたし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "220–222"
+  "translation_ja": |-
+    太刀に「強い太刀」「弱い太刀」という区別があってよいものではない。強さを意識して振るう太刀は荒い。荒いだけでは勝てない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-403"
+- "id": "gorin-fu-s003-p002"
+  "section_id": "gorin-fu-s003"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s003-p003"
+  "section_id": "gorin-fu-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    誰に於てもかたきときりやふに、よわくきらん、つよくきらんと思ふものなし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "220–222"
+  "translation_ja": |-
+    だれであれ、人と斬り合うときに、弱く斬ろうとか、強く斬ろうとか考えるものではない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-403"
+- "id": "gorin-fu-s003-p004"
+  "section_id": "gorin-fu-s003"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s003-p005"
+  "section_id": "gorin-fu-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    然るによつてつよみの太刀などゝ云事なき事也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "220–222"
+  "translation_ja": |-
+    だから「強みの太刀」などというものはないのである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-403"
+- "id": "gorin-fu-s003-p006"
+  "section_id": "gorin-fu-s003"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    大分の兵法にしてもつよき人数を持、合戦に於てつよくかたんと思へば、敵もつよき人を持、戦もつよくせんと思ふ。それはいづれも同じ事也。物毎に勝と云事、道理なくしては勝事あたはず。我道に於ては少も無理なる事を思はず、兵法の智力を以て如何様にも勝所を得る心也。能々工夫有べし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "220–222"
+  "translation_ja": |-
+    大勢の兵法でも、こちらが強い兵をそろえ、力強く勝とうと思えば、相手もまた強い兵をそろえて力を尽くそうと思う。その点はどちらも同じだ。何にせよ、勝つのに道理がなくては勝てない。私の道では理に合わないことを少しもあてにせず、兵法によって養った知恵で、どんな場合にも勝つところを見いだそうとする。よく工夫してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-403"
+- "id": "gorin-fu-s004-heading"
+  "section_id": "gorin-fu-s004"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    他流に短き太刀を用ふる事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "222–223"
+  "translation_ja": "短い太刀を好む流派"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-404"
+- "id": "gorin-fu-s004-omission"
+  "section_id": "gorin-fu-s004"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s004-p001"
+  "section_id": "gorin-fu-s004"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    短き太刀斗にて勝んと思ふ所、実の道に非ず。昔より太刀、かたなと云て、長きと短きと云ふ事を顕し置也。世の中に強力なる者は大きなる太刀をもかろく振なれば、むりに短きを好む可にあらず。其故は長きを用て鎗長太刀をも持物也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "222–223"
+  "translation_ja": |-
+    短い太刀だけで勝とうというのは真の道ではない。昔から「太刀」と「かたな」といい、長いものと短いものとをいい分けてきた。世には大きな太刀も軽々と振るほど力のある人がいて、何も無理に短いものを好む理由はない。長いものを使う人は、槍やなぎなたも持つものなのだ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-404"
+- "id": "gorin-fu-s004-p002"
+  "section_id": "gorin-fu-s004"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s004-p003"
+  "section_id": "gorin-fu-s004"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    世の中人の物をしならふ事、へいぜいもうけつ、かはしつ、ぬけつ、くゞりつしならへば、心道にひかされて、人にまはさるゝ心有。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "222–223"
+  "translation_ja": |-
+    人が何かを習うとき、ふだんから受ける、かわす、抜ける、くぐるといったことばかりを身につけると、心までその習慣に引かれて、人に振り回されるようになる。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-404"
+- "id": "gorin-fu-s004-p004"
+  "section_id": "gorin-fu-s004"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法の道直にただしき所なれば、正理を以て人を追回し人をしたがふる心肝要也。能く吟味有べし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "222–223"
+  "translation_ja": |-
+    兵法の道はまっすぐで正しいものである。だから、正しい道理に従って人を追い、従わせる心が肝要なのだ。よく吟味してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-404"
+- "id": "gorin-fu-s005-heading"
+  "section_id": "gorin-fu-s005"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    他流に太刀かず多き事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "223–225"
+  "translation_ja": "型の数を競う流派"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-405"
+- "id": "gorin-fu-s005-omission"
+  "section_id": "gorin-fu-s005"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s005-p001"
+  "section_id": "gorin-fu-s005"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    太刀の数余多にして人に伝ふる事、道をうり物にしたてて、太刀数多くしりたるを初心のものに深く思はせん為成べし。兵法に嫌ふ心也。其故は、人をきる事色々あると思ふ所まよふ心也。世の中に於て人をきる事替る道なし。知る者も知らざる者も女童子も、打たゝききると云道は多くなき所也。若かはりては、つくぞなくぞと云外はなし。先きる所の道なれば、数の多かるべき子細にあらず。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "223–225"
+  "translation_ja": |-
+    太刀の型の数を増やして伝えるのは、道を売り物に仕立て、多くの型を知っているのを見て初心者に奥が深いと思わせるためだろう。兵法ではこういう心を嫌う。人を斬るのにいろいろな別の道があると思うこと自体が迷いなのだ。世の中に、人を斬るということに変わった道はない。知っている者にも知らない者にも、女や子どもにも、打つ、たたく、斬るということにそう多くの違いはない。別の名を挙げても、突く、薙ぐというくらいだ。もともと斬ることをいうのだから、いくつも数え立てるわけはない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-405"
+- "id": "gorin-fu-s005-p002"
+  "section_id": "gorin-fu-s005"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s005-p003"
+  "section_id": "gorin-fu-s005"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    能々吟味有べし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "223–225"
+  "translation_ja": |-
+    よく吟味してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-405"
+- "id": "gorin-fu-s006-heading"
+  "section_id": "gorin-fu-s006"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    他に太刀の構を用る事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "225–226"
+  "translation_ja": "構えを重んじる流派"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-406"
+- "id": "gorin-fu-s006-omission"
+  "section_id": "gorin-fu-s006"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s006-p001"
+  "section_id": "gorin-fu-s006"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    太刀の構へを専らにする所、ひが事也。世の中に構のあらん事は敵のなき時の事なるべし。其子細は、昔よりの例、今の世の法などとして法例をたつる事は勝負の道には有べからず。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "225–226"
+  "translation_ja": |-
+    太刀の構えばかりを大事にするのは間違いである。決まった構えが成り立つのは、目の前に相手がいないときのことだろう。昔からのしきたりや今の世の決まりを持ち出し、それを動かせない規則として立てるようなことは、勝負の道にはありえないからだ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-406"
+- "id": "gorin-fu-s006-p002"
+  "section_id": "gorin-fu-s006"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s006-p003"
+  "section_id": "gorin-fu-s006"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    物毎に構と云事はゆるかぬ所を用る心也。或は城をかまゆる、或は陣をかまゆるなどは、人にしかけられてもつよくうごかぬ心、是常の儀也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "225–226"
+  "translation_ja": |-
+    何ごとにも「構える」とは、揺るがないことを重んじる言葉である。城を構える、陣を構えるというときには、相手が仕掛けてきても、しっかりとして動かない。それが普通の意味だ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-406"
+- "id": "gorin-fu-s006-p004"
+  "section_id": "gorin-fu-s006"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法勝負の道に於ては、何事も先手先手と心懸る事也。かまゆると云心は先手を待心也。能々工夫有べし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "225–226"
+  "translation_ja": |-
+    勝負の道では、何ごとも自分から先に、と心がける。「構える」という考えは、相手が先に出るのを待つ心である。よく考えてほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-406"
+- "id": "gorin-fu-s006-p005"
+  "section_id": "gorin-fu-s006"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s006-p006"
+  "section_id": "gorin-fu-s006"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    然る故に我道に有構無構といひて、構は有りて構は無きと云所也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "225–226"
+  "translation_ja": |-
+    だから私の道では「有構無構」という。構えはある。だが、決まった構えはない、ということだ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-406"
+- "id": "gorin-fu-s006-p007"
+  "section_id": "gorin-fu-s006"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s006-p008"
+  "section_id": "gorin-fu-s006"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    能々可有吟味事也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "225–226"
+  "translation_ja": |-
+    よく吟味してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-406"
+- "id": "gorin-fu-s007-heading"
+  "section_id": "gorin-fu-s007"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    他流に目付と云事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "226–228"
+  "translation_ja": "目付と熟練"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-407"
+- "id": "gorin-fu-s007-omission"
+  "section_id": "gorin-fu-s007"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s007-p001"
+  "section_id": "gorin-fu-s007"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s007-p002"
+  "section_id": "gorin-fu-s007"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    其ごとくとりわけて目を付んとしては、まぎるゝ心有て、兵法のやまひといふ物になるなり。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "226–228"
+  "translation_ja": |-
+    そうやって一つの所だけに目を向けようとすると、かえって心が乱れてしまう。これが兵法でいう病なのである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-407"
+- "id": "gorin-fu-s007-p003"
+  "section_id": "gorin-fu-s007"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    其子細は、鞠をける人は鞠に能目を付ね共、ひんすりをけ、おいまりをし、なかしてもけ、まはりてもける事、物になるると云所あれば、慥に目に見るに及ばず。又ほうかなどするもののわざにも、其道になれては、戸びらを鼻にたて、刀を幾腰もたまなどにとる事、是皆慥に目付とはなけれ共、不断手にふれぬれば、おのづから見ゆる所也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "226–228"
+  "translation_ja": |-
+    そのわけは蹴鞠をする人を見ればわかる。鞠をじっと見つめなくても、「びんずり」を蹴り、「追い鞠」をし、流しても、回りながらでも蹴る。そのわざに慣れれば、いちいち目で確かめなくてもよいのだ。放下（ほうか）という曲芸をする人も、芸に慣れると、鼻の上に戸板を立てたり、何本もの刀を玉のようにお手玉に取ったりする。どれも、ここを見ると決めているわけではない。いつも手に触れているので、おのずと見えるようになるのだ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-407"
+- "id": "gorin-fu-s007-p004"
+  "section_id": "gorin-fu-s007"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法の道に於ても、其敵々々としなれ、人の心の軽重を覚え、道を行得ては、太刀の遠近遅速迄も皆見ゆる儀也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "226–228"
+  "translation_ja": |-
+    兵法でも、いろいろな相手と経験を重ね、人の心の軽さ重さがわかり、この道が自分のものになると、太刀の遠い近い、遅い速いということまで、おのずと見える。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-407"
+- "id": "gorin-fu-s007-p005"
+  "section_id": "gorin-fu-s007"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s007-p006"
+  "section_id": "gorin-fu-s007"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    大小兵法に於て、ちひさく目を付る事なし。前にもしるす如く、濃にちひさく目を付るによつて、大きなる事をとりわすれ、まよふ心出きて、慥なる勝をぬかすもの也。此利能々吟味して鍛煉有べき也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "226–228"
+  "translation_ja": |-
+    大勢の兵法でも、一人の兵法でも、目を向ける先を狭くしない。前にも書いたとおり、一点ばかりを凝視すると、大事なことをすっかり忘れ、迷いが生じ、確かだったはずの勝ちまで取り逃がす。この道理をよく吟味し、鍛錬してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-407"
+- "id": "gorin-fu-s008-heading"
+  "section_id": "gorin-fu-s008"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    他流に足つかひ有事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "228–229"
+  "translation_ja": "足どりの名と流派"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-408"
+- "id": "gorin-fu-s008-omission"
+  "section_id": "gorin-fu-s008"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s008-p001"
+  "section_id": "gorin-fu-s008"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    足のふみ様に浮足、飛足、はぬる足、ふみつむる足、からす足などゝ云て、色々さつそくをふむ事有。是皆我兵法より見ては不足に思ふ所也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "228–229"
+  "translation_ja": |-
+    足どりにも「浮き足」「飛び足」「はねる足」「踏みつめる足」「からす足」などと名前をつけて、さまざまな足拍子を踏む流派がある。私の兵法から見ると、こうしたものにはどれも足りないところがある。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-408"
+- "id": "gorin-fu-s008-p002"
+  "section_id": "gorin-fu-s008"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s008-p003"
+  "section_id": "gorin-fu-s008"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    我兵法に於て、足に替る事なし。常の道をあゆむが如し。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "228–229"
+  "translation_ja": |-
+    私の兵法では足どりをことさらに変えることはない。いつもの道を歩くのと同じである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-408"
+- "id": "gorin-fu-s008-p004"
+  "section_id": "gorin-fu-s008"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s008-p005"
+  "section_id": "gorin-fu-s008"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    能々鍛錬有べし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "228–229"
+  "translation_ja": |-
+    よく鍛錬してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-408"
+- "id": "gorin-fu-s009-heading"
+  "section_id": "gorin-fu-s009"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    他の兵法にはやきを用る事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "229–231"
+  "translation_ja": "速さと拍子"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-409"
+- "id": "gorin-fu-s009-omission"
+  "section_id": "gorin-fu-s009"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この節では、具体的な技法の記述を一部省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s009-p001"
+  "section_id": "gorin-fu-s009"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法のはやきと云所、実の道に非ず。はやきと云事は、物毎の拍子の間にあはざるによつて、はやきおそきと云ふ心也。其道上手になりては、はやく見えざるもの也。縦人にはや道と云て、四十里五十里行ものも有。是も朝より晩迄はやくはしるにてはなし。道のぶかんなるものは、一日はしる様なれ共、はかゆかざるもの也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "229–231"
+  "translation_ja": |-
+    兵法では速ければよいというのは真の道ではない。何にでも拍子があり、その間に合わないからこそ「速い」とか「遅い」とかいう。その道が上手になると、速くは見えないものだ。たとえば人には、早道といって四十里、五十里を行く者がいる。そういう人も朝から晩まで速く走っているわけではない。道を行くのに不慣れな人は、一日じゅう走っているようでいて、さっぱりはかどらない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-409"
+- "id": "gorin-fu-s009-p002"
+  "section_id": "gorin-fu-s009"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    乱舞の道に、上手の謡ふうたひに下手のつけてうたへば、後る心有て、いそがしきもの也。又鼓太鼓に老松をうつに、静なる位なれ共、下手は是にもおくれさきたつ心有。高砂は急なる位なれ共、はやきと云事悪し。はやきはこけると云て間に合ず。勿論おそきも悪し。是も上手のする事は緩々と見えて、間のぬけざる所也。諸事しつけたるもののする事はいそがしく見えざるもの也。此たとへを以て道の理を知るべし。殊に兵法の道に於て、はやきと云事悪し。其子細は是も所によりて、沼ふけなどにて身足共に早くゆきがたし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "229–231"
+  "translation_ja": |-
+    能の謡でも、上手な人について下手な人が謡うと、遅れまいとしてあわただしくなる。鼓や太鼓で「老松」を打つときはおだやかな調子なのに、下手な人はそこでも遅れたり先走ったりする。「高砂」は急な調子だが、ただ速いのはよくない。「速いのはこける」というように、拍子の間に合わなくなる。もちろん遅いのもよくない。上手な人がすると、ゆったりと見えて、間が抜けることがない。何であれ、ふだんからやり慣れた人の仕事はせわしなく見えないものだ。これらのたとえから、この道の理を知ってほしい。とくに兵法では、速さだけをよいとするのはいけない。土地によっては、深い沼のように、体も足も速くは運べないところがあるからだ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-409"
+- "id": "gorin-fu-s009-p003"
+  "section_id": "gorin-fu-s009"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s009-p004"
+  "section_id": "gorin-fu-s009"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    能々分別すべし。大分の兵法にしても、はやくいそぐ心悪し。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "229–231"
+  "translation_ja": |-
+    よく考えてほしい。大勢の兵法でも、ひたすら先を急ぐ心はよくない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-409"
+- "id": "gorin-fu-s009-p005"
+  "section_id": "gorin-fu-s009"
+  "kind": "paragraph"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "【編注】この箇所では、具体的な技法の記述を省略しています。"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s009-p006"
+  "section_id": "gorin-fu-s009"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    人のむさとはやき事などにはそむくと云て、静になり、人につかざる所肝要也。此心の工夫鍛錬有べき事也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "229–231"
+  "translation_ja": |-
+    人がむやみに急ぐときには「そむく」といって、自分は静かになり、人につられないことが肝心である。この心をよく工夫し、鍛錬してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-409"
+- "id": "gorin-fu-s010-heading"
+  "section_id": "gorin-fu-s010"
+  "kind": "heading"
+  "origin": "source"
+  "source_text": |-
+    他流に奥表と云事
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "231–232"
+  "translation_ja": "教えに「奥」と「表」はあるか"
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-410"
+- "id": "gorin-fu-s010-p001"
+  "section_id": "gorin-fu-s010"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    兵法の事に於て、何れを表といひ何れを奥と云ん。芸によりことにふれて、極意秘伝などゝいひて奥口あれ共、敵と打合時の理に於ては、表にて戦ひ奥をもつてきると云事に非ず。我兵法のおしへ様は、始て道を学ぶ人には其わざのなりよき所をさせならはせ、合点の早くゆく理を先に教へ、心の及がたき事をば、其人の心をほどくる所を見分て、次第次第に深き所の理を後に教る心也。され共大形は其事に対したる事様を覚えさするによつて、奥口と云所なき事也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "231–232"
+  "translation_ja": |-
+    兵法では、どこまでを「表」といい、どこからを「奥」というのだろう。芸によっては、極意だ、秘伝だといって、入り口と奥とを分ける。だが相手と打ち合う場で、表の教えで戦い、奥の教えで斬るというわけではない。私の教え方はこうだ。初めて学ぶ人には、やさしくできることをさせて慣らし、すぐに納得できる道理を先に教える。すぐには理解の及ばないことは、その人の心で結び目がほどけてくるころを見きわめてから、少しずつ深い道理を教える。おおよそ、その人が出会った事柄に応じて、ふさわしいことを覚えさせるのだから、奥も入り口もない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-410"
+- "id": "gorin-fu-s010-p002"
+  "section_id": "gorin-fu-s010"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    されば世の中に山の奥を尋るに、猶奥へ行んと思へば、又口に出るもの也。何事の道に於ても、奥の出合所も有、口を出してよき事も有。此戦の理に於て、何をかかくし何をか顕さん。然によつて我道を伝るに、誓紙罰文などと云事を好まず。此道を学ぶ人の智力をうかゞひ、直なる道を教へ、兵法の五道六道の悪しき所をすてさせ、おのづから武士の法の実の道に入、うたがひなき心になす事、我兵法の教への道也。能々鍛錬有べし。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "231–232"
+  "translation_ja": |-
+    山の奥をたずねて、なお奥へ行こうとすると、また山の入り口に出るものだ。どんな道でも、奥にあるものと出合うこともあれば、入り口のことを出すのがよいときもある。戦いの道理について、いったい何を隠し、何を明かすというのか。だから私は道を伝えるのに、誓いを立てる書状や、背けば罰を受けると書いた文書を好まない。学ぶ人の理解する力を見て、まっすぐな道を教え、兵法のあれこれの脇道の悪いところを捨てさせる。その人がおのずから武士の本当の道に入り、疑いのない心を持てるようにする。それが私の兵法の教え方である。よく鍛錬してほしい。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-410"
+- "id": "gorin-fu-s011-heading"
+  "section_id": "gorin-fu-s011"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "風の巻の結びと奥書"
+  "translation_status": "reviewed"
+- "id": "gorin-fu-s011-p001"
+  "section_id": "gorin-fu-s011"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    右他流の兵法を九ケ条として、風の巻に有増書付る所、一々流々口より奥に至るまで、さだかに書顕すべき事なれ共、わざと何流の何の大事共名を書しるさず。其故は一流一流の見たて、其道々々のいひわけ、人により心に任せて、それぞれの存分有ものなれば、同じ流にも少々の替るものなれば、後々までの為にながれ筋共書のせず。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "233–234"
+  "translation_ja": |-
+    以上、他流の兵法を九か条に分け、「風の巻」にあらましを書いた。本来なら、流派ごとに入り口から奥に至るまでを明らかにすべきところだが、何流の何という大事な教え、といった名はわざと書かなかった。流派ごとにものの見方があり、それぞれの道にそれぞれの言い分がある。人にもおのおの考えがあり、同じ流派の中にも少しずつ違いがある。だから後々のことを思って、どの流派の系統かも書き載せなかった。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-411"
+- "id": "gorin-fu-s011-p002"
+  "section_id": "gorin-fu-s011"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    他流の大体九ツに云分て、世の中の道、人の直なる道理より見せば、長さにかたつき、短きを理にし、強き弱きもかたつき、あらきこまかなると云事も、皆へんなる道なれば、他流の口奥と顕はさず共、皆人の知るべき儀也。我一流に於て、太刀に奥口なし、構に極りなし。唯心を以て其徳を辨ふる事、是兵法の肝心也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "233–234"
+  "translation_ja": |-
+    他流の大筋を九つに分け、世の常の道、人としてまっすぐな道理に照らしてみた。長さにこだわること、短さにばかり理を求めること、強弱のどちらかに偏ること、荒さや細かさを重んじすぎること。どれも一方に偏った道である。どの流派の入り口や奥の教えか、と名指ししなくても、だれにでもわかるはずだ。私の流派では、太刀に奥も入り口もなく、構えにも決まりはない。ただ自分の心でその働きを見きわめる。それが兵法の肝心なところである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-411"
+- "id": "gorin-fu-s011-p003"
+  "section_id": "gorin-fu-s011"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    正保二年五月十二日　新免武蔵
+    寺尾孫之丞殿
+    寛文七年二月五日　寺尾夢世勝延　花押
+    山本源介殿
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "233–234"
+  "translation_ja": |-
+    正保二年（一六四五）五月十二日　新免武蔵より、寺尾孫之丞殿へ。
+    寛文七年（一六六七）二月五日　寺尾夢世勝延（花押）より、山本源介殿へ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "fu-411"
+- "id": "gorin-ku-heading"
+  "section_id": "gorin-ku"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "空の巻"
+  "translation_status": "reviewed"
+- "id": "gorin-ku-s001-heading"
+  "section_id": "gorin-ku-s001"
+  "kind": "heading"
+  "origin": "translator"
+  "source_text": null
+  "source_languages": []
+  "source_locations": []
+  "translation_ja": "空の巻"
+  "translation_status": "reviewed"
+- "id": "gorin-ku-s001-p001"
+  "section_id": "gorin-ku-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    二刀一流の兵法の道、空の巻として書顕はす事。空と云心は、物毎のなき所、しれざる事を空と見たつる也。勿論空はなき也。有所を知りて無所を知る、是則空也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "234–236"
+  "translation_ja": |-
+    二刀一流の兵法の道を、ここでは「空の巻」として書き記す。空という言葉は、ものがないところ、知ることのできないことを指す。空は、いうまでもなく「ない」ことである。何があるかを知り、そこから何がないかを知る。それが空である。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ku-501"
+- "id": "gorin-ku-s001-p002"
+  "section_id": "gorin-ku-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    世の中に於てあしく見れば、物を辨へざる所を空と見る所、実の空には非ず、皆迷ふ心也。此兵法の道に於ても、武士として道を行ふに、士の法を知らざる所、空には非ずして、色々迷有りて、せんかたなき所を空と云なれ共、是実の空にはあらざる也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "234–236"
+  "translation_ja": |-
+    世の中では、見方を誤って、物事をわきまえられないことを空と見なすことがある。それは本当の空ではなく、どれも心の迷いである。兵法でも、武士として道を歩むのに、武士の心得を知らないのは空ではない。あれこれ迷って、どうしてよいかわからなくなった状態を空という人もいるが、それは本当の空ではない。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ku-501"
+- "id": "gorin-ku-s001-p003"
+  "section_id": "gorin-ku-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    武士は兵法の道を慥に覚え、其外武芸を能つとめ、武士の行ふ道少しもくらからず、心の迷ふ所なく、朝々時々におこたらず、心意二ツの心をみがき、観見二ツの眼をとき、少もくもりなく、迷ひの雲の晴たる所こそ、実の空と知るべき也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "234–236"
+  "translation_ja": |-
+    武士は兵法の道を確かに身につけ、ほかの武芸にもよく励む。自分が歩む道に暗いところを残さず、心を迷わせず、朝ごと、時ごとに怠らず、心と意という二つの働きを磨き、観る眼と見る眼の二つを研ぎ澄ます。わずかな曇りもなく、迷いの雲が晴れたところこそ、本当の空である。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ku-501"
+- "id": "gorin-ku-s001-p004"
+  "section_id": "gorin-ku-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    実の道を知らざる間は、仏法によらず、世法によらず、おのれおのれは慥なる道と思ひよき事と思へ共、心の直道よりして、世の大かねにあはせて見る時は、其身々々の心のひいき、其目々々のひずみによつて、実の道にはそむくもの也。其心をしつて直なる所を本とし、実の心を道として、兵法を広く行ひ、正しく明らかに大きなる所を思ひとつて、空を道とし道を空と見るべき也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "234–236"
+  "translation_ja": |-
+    本当の道を知らないうちは、仏の教えであれ、世の決まりごとであれ、自分の道は確かで、していることは正しいと思う。けれども、心をまっすぐにして、世の中の広い尺度に照らしてみると、人それぞれのひいきや、ものを見る目のゆがみのために、本当の道には背いているものである。そのことを自覚し、まっすぐなものを土台に、偽りのない心を道として、兵法を広く実践する。正しく、明らかに、大きなところをとらえ、空を道とし、道を空と見るべきである。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ku-501"
+- "id": "gorin-ku-s001-p005"
+  "section_id": "gorin-ku-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    空有善無悪。智は有也、利は有也、道は有也、心は空也。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "234–236"
+  "translation_ja": |-
+    空には善があって、悪はない。知恵はある。道理の働きはある。道はある。心は空である。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ku-501"
+- "id": "gorin-ku-s001-p006"
+  "section_id": "gorin-ku-s001"
+  "kind": "paragraph"
+  "origin": "source"
+  "source_text": |-
+    正保二年五月十二日　新免武蔵　寺尾孫之丞殿。寛文七年二月五日　寺尾夢世勝延［花押］　山本源介殿。
+  "source_languages":
+  - "ja"
+  "source_locations":
+  - "source_id": "ndl-992019"
+    "precision": "page"
+    "printed_page": "234–236"
+  "translation_ja": |-
+    正保二年（1645年）五月十二日、新免武蔵から寺尾孫之丞殿へ。寛文七年（1667年）二月五日、寺尾夢世勝延（花押）から山本源介殿へ。
+  "translation_status": "reviewed"
+  "source_alignment":
+  - "source_id": "ndl-992019"
+    "original_unit_id": "ku-501"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-11-20T19:16:27Z"
+    "reviewed_by": "ChatGPT（独立レビュー・全文対照）"
+    "content_sha256": "511b7f37c76793044f9fc1440c189a4bf4d8f1cc79b8ab47bcb165c589d328b9"
