@@ -837,5 +837,11 @@
   "source_and_rights": "1790年原著はパブリックドメイン。1887年ジョン・C・ニモ刊全集第3巻をProject Gutenberg電子版15679で参照（電子翻刻は米国内パブリックドメイン）。新訳CC0 1.0。"
   "work_id": "burke-reflections-on-the-revolution-in-france"
   "sha256": "64a4549650d6f5b7862afacffb92d7d8ee5618c61ecd75a34306e953756ae524"
+- "file": "translations/publius/the-federalist-1788-en-ja.yaml"
+  "title": "ザ・フェデラリスト"
+  "coverage_note": "全85篇。刊行情報、筆名・署名と執筆者の帰属、原注・訳注・出典校訂注を区別して収録。"
+  "source_and_rights": "米国議会図書館の英語電子版を主底本とし、新聞初出などで補訂。原著はパブリックドメイン、日本語訳はCC0 1.0。1788年初版第I巻の標題紙画像はPublic Domain Mark 1.0。"
+  "work_id": "the-federalist-1788-en-ja"
+  "sha256": "0c7c6b01b97c453d976580057c59d2ecb7a3adf22471105a63cfb73036d46dd5"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿のスキーマは各ファイルのschema_versionを参照。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"
