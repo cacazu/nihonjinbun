@@ -921,5 +921,11 @@
   "source_and_rights": "原著はパブリックドメイン。電子翻刻（Project Gutenberg第54339号）は米国内パブリックドメイン。日本語訳はCC0 1.0。"
   "work_id": "tocqueville-l-ancien-regime-et-la-revolution"
   "sha256": "b0b6d4642c9282247883f5f5ddbae5e35c0dd5411fc87662b3fc7600042a3c88"
+- "file": "translations/bentham/a-fragment-on-government-en-ja.yaml"
+  "title": "統治論断片"
+  "coverage_note": "1891年クラレンドン版が再掲する1776年初版の著者本文。扉・題辞、序文・序論、全五章・著者原注・終止標識。編者の付加部分は対象外。暴力に関する具体例と剣技の具体例は各一か所、英日両欄で省略を明示。"
+  "source_and_rights": "1776年刊の原著はパブリックドメイン。コーネル大学図書館所蔵本を参照した新規翻刻・日本語訳はCC0 1.0。画像の転載なし。"
+  "work_id": "bentham-a-fragment-on-government"
+  "sha256": "8e2d2dd85246ddaf10bfb4dc48931b48c5a872a40382a3929914321d28c5d6dc"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿のスキーマは各ファイルのschema_versionを参照。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"
