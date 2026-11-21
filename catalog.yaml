@@ -843,5 +843,11 @@
   "source_and_rights": "米国議会図書館の英語電子版を主底本とし、新聞初出などで補訂。原著はパブリックドメイン、日本語訳はCC0 1.0。1788年初版第I巻の標題紙画像はPublic Domain Mark 1.0。"
   "work_id": "the-federalist-1788-en-ja"
   "sha256": "0c7c6b01b97c453d976580057c59d2ecb7a3adf22471105a63cfb73036d46dd5"
+- "file": "translations/tocqueville/de-la-democratie-en-amerique-fr-ja.yaml"
+  "title": "アメリカのデモクラシー"
+  "coverage_note": "1848年パニュール版全四巻、各巻の巻頭・本文・原注・印刷目次・付録、スイス民主政比較報告を収録。本文の限られた具体的暴力手順は箇所を明示して省略。"
+  "source_and_rights": "原著はパブリックドメイン。仏語電子翻刻（ウィキソース寄稿者）と新しい日本語訳はCC BY-SA 4.0。第1巻の標題紙はフランス国立図書館蔵でPublic Domain Mark 1.0。"
+  "work_id": "tocqueville-de-la-democratie-en-amerique"
+  "sha256": "6ba2bf0244040c3ec94443b706e46b365536684ef9df62175c0a18ceb1092787"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿のスキーマは各ファイルのschema_versionを参照。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"
