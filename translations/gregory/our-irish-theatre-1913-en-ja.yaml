@@ -8970,7 +8970,7 @@
         "printed_page_end": "217"
         "anchor": "216"
         "source_sequence": 1408
-    "translation_ja": "「日曜の晩は、年配のシェイクスピア研究家ファーネス博士と夕食をとりました。鉄道で行き、ご自宅までは少し歩きました。温度計は零度より四度上を指していましたが、風がまったくなく、寒いとは感じませんでした。雪がかなり降ったので、道はひどく滑ります。雨雪よけの上履きがなければ、まともに歩けません。"
+    "translation_ja": "「日曜の晩は、年配のシェイクスピア研究家ファーネス博士と夕食をとりました。鉄道で行き、ご自宅までは少し歩きました。温度計は零度より四度［訳注1］上を指していましたが、風がまったくなく、寒いとは感じませんでした。雪がかなり降ったので、道はひどく滑ります。雨雪よけの上履きがなければ、まともに歩けません。"
     "translation_status": "reviewed"
   - "id": "chapter-07-p088"
     "section_id": "chapter-07"
@@ -10040,7 +10040,7 @@
         "xpath": "/html/body/section[3]/p[362]"
         "anchor": "249"
         "source_sequence": 1571
-    "translation_ja": "「地面には雪があり、昨日散歩に出ると初めは寒さにぎょっとしました。顔が痛いのです。それでも歩き続けるうちに慣れました。温度計は零度より六度下までいきました。」"
+    "translation_ja": "「地面には雪があり、昨日散歩に出ると初めは寒さにぎょっとしました。顔が痛いのです。それでも歩き続けるうちに慣れました。温度計は零度より六度［訳注1］下までいきました。」"
     "translation_status": "reviewed"
   - "id": "chapter-07-p137"
     "section_id": "chapter-07"
@@ -17811,7 +17811,7 @@
         "xpath": "/html/body/section[3]/p[390]"
         "anchor": "274"
         "source_sequence": 2439
-    "translation_ja": "『ブランコ・ポスネット』上演後、バーナード・ショーからグレゴリー夫人に宛てた手紙"
+    "translation_ja": "『ブランコ・ポスネット』上演後、バーナード・ショー［訳注2］からグレゴリー夫人に宛てた手紙"
     "translation_status": "reviewed"
   - "id": "appendix-02-p022"
     "section_id": "appendix-02"
@@ -19862,7 +19862,7 @@
         "xpath": "/html/body/section[3]/p[463]"
         "anchor": "295"
         "source_sequence": 2631
-    "translation_ja": "一九一三年一月三十日。昨夜、市議会はシカゴでの『西の国の人気者』上演を禁じるよう命令を可決し、ハリソン市長に指示した。同作は、アイルランド劇団が出したときに、ニューヨーク、フィラデルフィア、ワシントンで暴動と組織的な抗議を引き起こした芝居である。"
+    "translation_ja": "一九一三年一月三十日［訳注3］。昨夜、市議会はシカゴでの『西の国の人気者』上演を禁じるよう命令を可決し、ハリソン市長に指示した。同作は、アイルランド劇団が出したときに、ニューヨーク、フィラデルフィア、ワシントンで暴動と組織的な抗議を引き起こした芝居である。"
     "translation_status": "reviewed"
     "attributions":
       - "voice": "quoted_person"
@@ -23745,9 +23745,9 @@
         "end": 164
         "exact": "four degrees above zero"
       "translation_span":
-        "start": 65
-        "end": 67
-        "exact": "四度"
+        "start": 67
+        "end": 72
+        "exact": "［訳注1］"
     "to":
       "type": "note"
       "id": "gregory-translator-note-1"
@@ -23762,9 +23762,9 @@
         "end": 196
         "exact": "six below zero"
       "translation_span":
-        "start": 67
-        "end": 69
-        "exact": "六度"
+        "start": 69
+        "end": 74
+        "exact": "［訳注1］"
     "to":
       "type": "note"
       "id": "gregory-translator-note-1"
@@ -23779,9 +23779,9 @@
         "end": 30
         "exact": "W. G. BERNARD SHAW"
       "translation_span":
-        "start": 22
-        "end": 25
-        "exact": "ショー"
+        "start": 25
+        "end": 30
+        "exact": "［訳注2］"
     "to":
       "type": "note"
       "id": "gregory-translator-note-2"
@@ -23796,9 +23796,9 @@
         "end": 16
         "exact": "January 30, 1913"
       "translation_span":
-        "start": 0
-        "end": 10
-        "exact": "一九一三年一月三十日"
+        "start": 10
+        "end": 15
+        "exact": "［訳注3］"
     "to":
       "type": "note"
       "id": "gregory-translator-note-3"
@@ -23807,9 +23807,9 @@
   "stage": "ready"
   "full_review":
     "status": "complete"
-    "completed_at": "2026-11-21T19:57:19Z"
+    "completed_at": "2026-11-21T20:03:17Z"
     "reviewed_by": "翻訳・校正担当4名。完稿後の原文対訳1,039単位を109・170・384・376単位に分担して照合。加えた訳注3件・修正箇所と参照先を再確認。"
-    "content_sha256": "e1e6e7760b6cafb0003c5549cc482429c7788484ecaa566d54babfabf50a1804"
+    "content_sha256": "a099e2e6a749189cc3f76bf0862c64ff1dc1c948db6b168ba339897d7b2f3af7"
 "assets":
   - "id": "gregory-frontispiece"
     "source_locations":
