@@ -1,0 +1,1613 @@
+{
+  "schema_version": "2.0",
+  "work_id": "constant-de-la-liberte-des-anciens",
+  "metadata": {
+    "title_ja": "古代人の自由と近代人の自由",
+    "title_original": "De la liberté des Anciens comparée à celle des Modernes",
+    "original_languages": [
+      "fr"
+    ],
+    "target_language": "ja",
+    "contributors": [
+      {
+        "id": "benjamin-constant",
+        "roles": [
+          "author"
+        ],
+        "name_original": "Benjamin Constant",
+        "name_ja": "バンジャマン・コンスタン"
+      }
+    ],
+    "genres": [
+      "政治思想"
+    ],
+    "translation_rights": {
+      "status": "licensed",
+      "license_id": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "cover_asset_id": "portrait-carnavalet"
+  },
+  "sources": [
+    {
+      "id": "bechet1820",
+      "role": "primary",
+      "title": "Collection complète des ouvrages publiés sur le gouvernement représentatif et la constitution actuelle de la France, tome IV",
+      "languages": [
+        "fr"
+      ],
+      "url": "https://books.google.com/books?id=HEo7AAAAcAAJ&pg=PA238",
+      "edition": "Paris et Rouen, Béchet, 1820.",
+      "work_rights": {
+        "status": "public_domain",
+        "evidence_url": "https://books.google.com/books?id=HEo7AAAAcAAJ&pg=PA238",
+        "note_ja": "1819年講演。1820年にコンスタン本人の著作集に収録。著者は1830年没。"
+      },
+      "transcription_rights": {
+        "status": "unknown",
+        "note_ja": "リンク先は1820年刊本のデジタル複製。画像・ビューアーの利用条件はここでは認定せず、画像は収録しない。"
+      }
+    },
+    {
+      "id": "augustana-1820",
+      "role": "intermediary",
+      "title": "Collection complète des ouvrages publiés sur le gouvernement représentatif et la constitution actuelle de la France, formant une espèce de cours de politique constitutionnelle",
+      "languages": [
+        "fr"
+      ],
+      "url": "https://www.tha.de/~harsch/gallica/Chronologie/19siecle/Constant/con_liba.html",
+      "edition": "Paris (Béchet aîné) et Rouen (Béchet fils), 1820, tome IV, septième partie, pp. 238–274. Texte français : Bibliotheca Augustana.",
+      "work_rights": {
+        "status": "public_domain",
+        "evidence_url": "https://books.google.com/books?id=HEo7AAAAcAAJ&pg=PA238",
+        "note_ja": "1819年講演。1820年にコンスタン本人の著作集に収録。著者は1830年没。"
+      },
+      "transcription_rights": {
+        "status": "unknown",
+        "attribution": "Bibliotheca Augustana, Hochschule Augsburg",
+        "note_ja": "1820年の著者本文はパブリックドメイン。Bibliotheca Augustanaの電子版独自部分の利用条件は確認できていない。本文に加えられた説明や括弧内の人名、画面の意匠は収録しない。"
+      },
+      "sha256": "c2c581aabe7a2c67492fca2e15440966c426ebd6e5069fe51586900cb805d645",
+      "derived_from_source_id": "bechet1820"
+    },
+    {
+      "id": "p1331",
+      "role": "comparison",
+      "title": "Portrait de Benjamin Constant (1767-1830), écrivain et homme politique",
+      "languages": [
+        "fr"
+      ],
+      "url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/portrait-de-benjamin-constant-1767-1830-ecrivain-et-homme-politique-1",
+      "edition": "Anonyme, entre 1810 et 1820, huile sur toile. Musée Carnavalet, P1331.",
+      "work_rights": {
+        "status": "public_domain",
+        "evidence_url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/portrait-de-benjamin-constant-1767-1830-ecrivain-et-homme-politique-1"
+      },
+      "transcription_rights": {
+        "status": "licensed",
+        "license_id": "CC0-1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence_url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/portrait-de-benjamin-constant-1767-1830-ecrivain-et-homme-politique-1",
+        "attribution": "Paris Musées / Musée Carnavalet – Histoire de Paris, P1331",
+        "note_ja": "作者不詳、1810年から1820年。美術館がCC0で提供する油彩肖像の複製。"
+      }
+    }
+  ],
+  "scope": {
+    "included": [
+      {
+        "source_id": "augustana-1820",
+        "description_ja": "1819年にパリの王立アテネウムで行われた独立講演。1820年版の標題、副題、聴衆への呼びかけから結語までの全講演本文、ラファイエットに関する原注1件。"
+      }
+    ],
+    "excluded": [
+      {
+        "source_id": "augustana-1820",
+        "description_ja": "同著作集の他作品、電子版の書誌・画面案内、本文に角括弧で補われた人名。"
+      }
+    ],
+    "known_gaps": []
+  },
+  "sections": [
+    {
+      "id": "lecture",
+      "parent_id": null,
+      "kind": "section",
+      "origin": "source",
+      "heading_segment_ids": [
+        "constant-0001"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "constant-0001",
+      "section_id": "lecture",
+      "kind": "heading",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 1
+        }
+      ],
+      "source_text": "De la liberté des Anciens comparée à celle des Modernes",
+      "translation_ja": "古代人の自由と近代人の自由",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0002",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 2
+        }
+      ],
+      "source_text": "Discours prononcé à l'Athénée royal de Paris",
+      "translation_ja": "パリの王立アテネウムでの講演",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0003",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 3
+        }
+      ],
+      "source_text": "Messieurs,",
+      "translation_ja": "皆さん。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0004",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 4
+        }
+      ],
+      "source_text": "JE me propose de vous soumettre quelques distinctions, encore assez neuves, entre deux genres de liberté, dont les différences sont restées jusqu'à ce jour inaperçues, ou du moins, trop peu remarquées. L'une est la liberté dont l'exercice était si cher aux peuples anciens; l'autre celle dont la jouissance est particulièrement précieuse aux nations modernes. Cette recherche sera intéressante, si je ne me trompe, sous un double rapport.",
+      "translation_ja": "今日は、これまで違いに気づかれず、少なくとも十分には注目されてこなかった二種類の自由について、まだ耳慣れない区別をいくつかお話ししたいと思います。一方は、その行使を古代の人々がたいそう大切にした自由です。他方は、それを享受することが近代の諸国民にとりわけ貴重な自由です。私の見当違いでなければ、この考察には二つの点で意味があります。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0005",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 5
+        }
+      ],
+      "source_text": "Premièrement, la confusion de ces deux espèces de liberté a été parmi nous, durant des époques trop célèbres de notre révolution, la cause de beaucoup de maux. La France s'est vue fatiguer d'essais inutiles, dont les auteurs, irrités par leur peu de succès, ont essayé de la contraindre à jouir du bien qu'elle ne voulait pas, et lui ont disputé le bien qu'elle voulait.",
+      "translation_ja": "第一に、私たちの革命の、あまりにもよく知られた時期に、この二種類の自由の混同が実に多くの災いを招いたからです。フランスは、むだな試みに疲れ果てました。試みた人々は成果の上がらないのに腹を立て、この国が望まない幸福を無理に味わわせようとし、望んでいる幸福のほうは与えまいとしました。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0006",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 6
+        }
+      ],
+      "source_text": "En second lieu, appelés par notre heureuse révolution (je l'appelle heureuse, malgré ses excès, parce que je fixe mes regards sur ses résultats) à jouir des bienfaits d'un gouvernement représentatif, il est curieux et utile de rechercher pourquoi ce gouvernement, le seul à l'abri duquel nous puissions aujourd'hui trouver quelque liberté et quelque repos, a été presque entièrement inconnu aux nations libres de l'antiquité.",
+      "translation_ja": "第二に、この幸いな革命により、私たちは代議政治の恩恵にあずかるようになりました。行き過ぎがあってもなお幸いと言うのは、私がその結果に目を向けているからです。今日私たちがいくらかの自由と安らぎを得られるのは、この政治のもとでしかないのに、なぜ古代の自由な諸国民にはほとんど知られていなかったのか。これは興味深いばかりでなく、考えてみる値打ちのある問いです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0007",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 7
+        }
+      ],
+      "source_text": "Je sais que l'on a prétendu en démêler des traces chez quelques peuples anciens, dans la république de Lacédémone, par exemple, et chez nos ancêtres les Gaulois; mais c'est à tort.",
+      "translation_ja": "むろん、古代でもいくつかの民族にはその跡があった、たとえばラケダイモンの共和国にも、私たちの祖先であるガリア人の間にもあった、と唱える人がいるのは承知しています。けれども、それは誤りです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0008",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 8
+        }
+      ],
+      "source_text": "Le gouvernement de Lacédémone était une aristocratie monacale, et nullement un gouvernement représentatif. La puissance des rois était limitée; mais elle l'était par les éphores, et non par des hommes investis d'une mission semblable à celle que l'élection confère de nos jours aux défenseurs de nos libertés. Les éphores, sans doute, après avoir été institués par les rois, furent nommés par le peuple. Mais ils n'étaient que cinq. Leur autorité était religieuse autant que politique; ils avaient part à l'administration même du gouvernement, c'est-à-dire, au pouvoir exécutif; et par là, leur prérogative, comme celle de presque tous les magistrats populaires dans les anciennes républiques, loin d'être simplement une barrière contre la tyrannie, devenait quelquefois elle-même une tyrannie insupportable.",
+      "translation_ja": "ラケダイモンの政治は修道院さながらの貴族政で、代議政とはおよそ違うものでした。王たちの権力には制限がありました。しかし、それを制限したのは監督官であって、今日、私たちの自由を守る人々が選挙によって授かるような使命を帯びた者ではありません。確かに監督官は、もとは王が設けた職で、のちには人民が選びました。けれども人数はわずか五人です。政治上の権威と同じほど宗教上の権威をもち、政務の執行そのもの、つまり行政権にもあずかりました。古代の共和国で人民から出たほとんどすべての公職者と同じく、こうした特権は、暴政に対する歯止めどころか、それ自体が耐えがたい暴政になることさえありました。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0009",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 9
+        }
+      ],
+      "source_text": "Le régime des Gaulois, qui ressemblait assez à celui qu'un certain parti voudrait nous rendre, était à la fois théocratique et guerrier. Les prêtres jouissaient d'un pouvoir sans bornes. La classe militaire, ou la noblesse, possédait des privilèges bien insolents et bien oppressifs. Le peuple était sans droits et sans garanties.",
+      "translation_ja": "ガリア人の制度は、ある一派が私たちのもとに復活させたがっているものによく似ており、神権政治であると同時に武人の政治でもありました。祭司の権力には際限がなく、武人階級すなわち貴族には、じつに横柄で圧政的な特権がありました。人民には権利も、その保障もありませんでした。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0010",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 10
+        }
+      ],
+      "source_text": "A Rome, les tribuns avaient, jusqu'à un certain point, une mission représentative. Ils étaient les organes de ces plébéiens que l'oligarchie, qui, dans tous les siècles, est la même, avait soumis, en renversant les rois, à un si dur esclavage. Le peuple exerçait toutefois directement une grande partie des droits politiques. Il s'assemblait pour voter les lois, pour juger les patriciens mis en accusation: il n'y avait donc que de faibles vestiges du système représentatif à Rome.",
+      "translation_ja": "ローマでは、護民官の使命はある程度まで人民を代表することにありました。寡頭支配者は、いつの時代にも変わらないもので、王を倒すと平民に過酷な隷属を強いました。その平民の声を伝えるのが護民官でした。しかし人民みずから政治的権利の多くを直接に行使しました。集会を開き、法律を採決し、告発された貴族を裁いたのです。ですからローマにも、代議制の跡はかすかにしかありません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0011",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 11
+        }
+      ],
+      "source_text": "Ce système est une découverte des modernes, et vous verrez, Messieurs, que l'état de l'espèce humaine dans l'antiquité ne permettait pas à une institution de cette nature de s'y introduire ou de s'y établir. Les peuples anciens ne pouvaient ni en sentir la nécessité, ni en apprécier les avantages. Leur organisation sociale les conduisait à désirer une liberté toute différente de celle que ce système nous assure.",
+      "translation_ja": "この制度を見いだしたのは近代人です。皆さんもこれからおわかりになるように、古代における人類のあり方は、こうした制度の導入も定着も許しませんでした。古代の人々はその必要を感じることも、その利点を認めることもできませんでした。その社会のしくみに導かれて彼らが求めたのは、この制度が私たちに保障するのとはまるで別の自由だったのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0012",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 12
+        }
+      ],
+      "source_text": "C'est à vous démontrer cette vérité que la lecture de ce soir sera consacrée.",
+      "translation_ja": "今晩の講演は、このことを明らかにするために充てたいと思います。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0013",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 13
+        }
+      ],
+      "source_text": "Demandez-vous d'abord, Messieurs, ce que, de nos jours, un Anglais, un Français, un habitant des États-Unis de l'Amérique, entendent par le mot de liberté.",
+      "translation_ja": "まず皆さん、今日、イギリス人やフランス人、あるいはアメリカ合衆国に住む人は、自由という言葉で何を考えているか、自分に問うてみてください。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0014",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 14
+        }
+      ],
+      "source_text": "C'est pour chacun le droit de n'être soumis qu'aux lois, de ne pouvoir être ni arrêté, ni détenu, ni mis à mort, ni maltraité d'aucune manière, par l'effet de la volonté arbitraire d'un ou de plusieurs individus: C'est pour chacun le droit de dire son opinion, de choisir son industrie, et de l'exercer, de disposer de sa propriété, d'en abuser même; d'aller, de venir sans en obtenir la permission, et sans rendre compte de ses motifs ou de ses démarches. C'est, pour chacun, le droit de se réunir à d'autres individus, soit pour conférer sur ses intérêts, soit pour professer le culte que lui et ses associés préfèrent, soit simplement pour remplir ses jours ou ses heures d'une manière plus conforme à ses inclinations, à ses fantaisies. Enfin, c'est le droit, pour chacun, d'influer sur l'administration du Gouvernement, soit par la nomination de tous ou de certains fonctionnaires, soit par des représentations, des pétitions, des demandes, que l'autorité est plus ou moins obligée de prendre en considération. Comparez maintenant à cette liberté celle des anciens.",
+      "translation_ja": "一人ひとりが、法にだけ従えばよく、一人あるいは数人の勝手な意志で逮捕されず、拘禁されず、殺されず、いかなる仕方でも虐げられない権利です。自分の意見を述べ、仕事を選んで営み、自分の財産を処分し、たとえそれを浪費してもよく、許可を求めず、理由や行動を釈明することもなく行き来する権利です。自分たちの利害について相談するためであれ、ともに望む信仰を実践するためであれ、ただ自分の好みや気まぐれに合った仕方で一日やそのひとときを過ごすためであれ、他の人々と集まる権利です。最後に、すべて、あるいは一部の公職者を選ぶことを通じて、また、当局にも多少なりとも考慮する義務がある意見の申し立てや請願や要求を通じて、政治の運営に影響を及ぼす権利です。では、古代人の自由とこの自由とを比べてみてください。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0015",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 15
+        }
+      ],
+      "source_text": "Celle-ci consistait à exercer collectivement, mais directement, plusieurs parties de la souveraineté toute entière, à délibérer, sur la place publique, de la guerre et de la paix, à conclure avec les étrangers des traités d'alliance, à voter les lois, à prononcer les jugements, à examiner les comptes, les actes, la gestion des magistrats, à les faire comparaître devant tout le peuple, à les mettre en accusation, à les condamner ou à les absoudre; mais en même temps que c'était là ce que les anciens nommaient liberté, ils admettaient comme compatible avec cette liberté collective l'assujettissement complet de l'individu à l'autorité de l'ensemble. Vous ne trouvez chez eux presque aucune des jouissances que nous venons de voir faisant partie de la liberté chez les modernes. Toutes les actions privées sont soumises à une surveillance sévère. Rien n'est accordé à l'indépendance individuelle, ni sous le rapport des opinions, ni sous celui de l'industrie, ni surtout sous le rapport de la religion. La faculté de choisir son culte, faculté que nous regardons comme l'un de nos droits les plus précieux, aurait paru aux anciens un crime et un sacrilège. Dans les choses qui nous semblent les plus utiles, l'autorité du corps social s'interpose et gêne la volonté des individus; Terpandre ne peut chez les Spartiates ajouter une corde à sa lyre sans que les éphores ne s'offensent. Dans les relations les plus domestiques, l'autorité intervient encore. Le jeune Lacédémonien ne peut visiter librement sa nouvelle épouse. A Rome, les censeurs portent un oeil scrutateur dans l'intérieur des familles. Les lois règlent les moeurs, et comme les moeurs tiennent à tout, il n'y a rien que les lois ne règlent.",
+      "translation_ja": "古代の自由とは、主権全体に含まれるいくつもの権能を、皆が一緒に、しかも直接に行使することでした。広場で戦争と平和を審議し、他国と同盟を結び、法律を採決し、判決を下し、公職者の会計、行為、政務の処理を調べ、全人民の前に呼び出し、訴追して有罪とも無罪とも決する。それが自由と呼ばれた一方で、個人が全体の権威にすっかり服することは、この集団の自由と両立すると考えられていました。近代人にとって自由の中身をなすと先ほど申し上げた楽しみは、古代にはほとんど見当たりません。私生活の行為はすべて厳しく監視されます。意見にも、生業にも、とりわけ宗教にも、個人の独立が認められる余地はない。信仰を選ぶ自由は、私たちには何より貴重な権利の一つですが、古代人の目には犯罪であり冒瀆であったでしょう。私たちにはこのうえなく有益に思える事柄にまで共同体の権威が割って入り、個人の意志を妨げます。スパルタでは、テルパンドロスが竪琴に弦を一本足すだけで監督官の機嫌を損ねます。家庭のいちばん私的な関係にも権威は口を出します。ラケダイモンの若者は新妻を自由に訪ねることもできません。ローマでは監察官が家庭の奥にまで目を光らせます。法は風俗を規制し、風俗は何にでも関係するので、法の規制しないものは何一つないのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0016",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 16
+        }
+      ],
+      "source_text": "Ainsi chez les anciens, l'individu, souverain presque habituellement dans les affaires publiques, est esclave dans tous les rapports privés. Comme citoyen, il décide de la paix et de la guerre; comme particulier, il est circonscrit, observé, réprimé dans tous ses mouvements; comme portion du corps collectif, il interroge, destitue, condamne, dépouille, exile, frappe de mort ses magistrats ou ses supérieurs; comme soumis au corps collectif, il peut à son tour être privé de son état, dépouillé de ses dignités, banni, mis à mort, par la volonté discrétionnaire de l'ensemble dont il fait partie. Chez les modernes, au contraire, l'individu, indépendant dans sa vie privée, n'est même dans les états les plus libres, souverain qu'en apparence. Sa souveraineté est restreinte, presque toujours suspendue; et si, à des époques fixes, mais rares, durant les quelles il est encore entouré de précautions et d'entraves, il exerce cette souveraineté, ce n'est jamais que pour l'abdiquer.",
+      "translation_ja": "こうして古代の個人は、公の場ではほとんどいつも主権者なのに、私的な関係では何につけても奴隷でした。市民としては戦争と平和を決めるのに、私人としては一挙一動にわたり行動を制限され、見張られ、押さえつけられる。集団の一員として、公職者や自分より上に立つ者を問いただし、罷免し、有罪とし、財産を奪い、追放し、死刑にする。その集団に従う者としては、今度は自分が、みずから属する全体の一存で、身分も名誉も奪われ、追放され、死刑にされかねない。これに対して近代の個人は、私生活では独立していても、最も自由な国でさえ、主権者というのは形の上だけです。その主権は限られ、ほとんどいつも行使を休止しています。あらかじめ定められた、ごくたまにしかない時期になお数々の用心や束縛に囲まれながら主権を行使しても、それはその主権を手放すためでしかありません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0017",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 17
+        }
+      ],
+      "source_text": "Je dois ici, Messieurs, m'arrêter un instant pour prévenir une objection que l'on pourrait me faire. Il y a dans l'antiquité une république où l'asservissement de l'existence individuelle au corps collectif n'est pas aussi complet que je viens de le décrire. Cette république est la plus célèbre de toutes; vous devinez que je veux parler d'Athènes. J'y reviendrai plus tard, et en convenant de la vérité du fait, je vous en exposerai la cause. Nous verrons pourquoi de tous les états anciens, Athènes est celui qui a ressemblé le plus aux modernes. Partout ailleurs, la juridiction sociale était illimitée. Les anciens, comme le dit Condorcet, n'avaient aucune notion des droits individuels. Les hommes n'étaient, pour ainsi dire, que des machines dont la loi réglait les ressorts et dirigeait les rouages. Le même assujettissement caractérisait les beaux siècles de la république romaine; l'individu s'était en quelque sorte perdu dans la nation, le citoyen dans la cité.",
+      "translation_ja": "皆さん、ここで少し立ち止まり、予想される反論に先に答えておきましょう。古代にも、個人生活の共同体への従属が、私の申し上げたほど徹底していない共和国が一つあります。しかもそれは、何よりも有名な共和国です。アテネを指していることはお察しでしょう。この点にはのちほど戻り、事実を認めたうえで、その理由をお話しします。なぜ古代のあらゆる国家のうちで、アテネがいちばん近代に似ていたのかがわかるでしょう。それ以外のどこでも、社会の支配権には限界がありませんでした。コンドルセが言うとおり、古代人には個人の権利という観念がまったくなかった。人間は、法がばねを調節し歯車を動かす機械にすぎないといってよいほどでした。ローマ共和国の全盛時代を特徴づけたのも同じ服従です。いわば個人は国民の中に、市民は都市国家の中に溶けてしまっていたのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0018",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 18
+        }
+      ],
+      "source_text": "Nous allons actuellement remonter à la source de cette différence essentielle entre les anciens et nous.",
+      "translation_ja": "ここで、古代人と私たちとのこうした根本的な違いがどこから来たのかをたどることにしましょう。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0019",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 19
+        }
+      ],
+      "source_text": "Toutes les républiques anciennes étaient renfermées dans des limites étroites. La plus peuplée, la plus puissante, la plus considérable d'entre elles, n'était pas égale en étendue au plus petit des états modernes. Par une suite inévitable de leur peu d'étendue, l'esprit de ces républiques était belliqueux, chaque peuple froissait continuellement ses voisins ou était froissé par eux. Poussés ainsi par la nécessité, les uns contre les autres, ils se combattaient ou se menaçaient sans cesse. Ceux qui ne voulaient pas être conquérants ne pouvaient déposer les armes sous peine d'être conquis. Tous achetaient leur sûreté, leur indépendance, leur existence entière, au prix de la guerre. Elle était l'intérêt constant, l'occupation presque habituelle des états libres de l'antiquité. Enfin, et par un résultat également nécessaire de cette manière d'être, tous ces états avaient des esclaves. Les professions mécaniques, et même, chez quelques nations, les professions industrielles, étaient confiées à des mains chargées de fers.",
+      "translation_ja": "古代の共和国はどれも狭い国境の内にありました。いちばん人口が多く、強く、重きをなした共和国でも、近代の最小の国に広さで及びませんでした。狭さの避けがたい結果として、これらの共和国には好戦的な気風があり、どの民も絶えず隣の民とぶつかるか、向こうからぶつかられるかしていました。こうして否応なく互いに押しつけられ、戦うか脅し合うかし続けました。自分は征服者になりたくなくても、武器を置けば征服されます。どの国民も安全と独立と自分たちの存在そのものを、戦争という代価で買いました。戦争こそ古代の自由な国家の変わらぬ関心事であり、日常の仕事に近いものでした。最後に、こうした暮らし方のやはり避けがたい結果として、これらの国にはすべて奴隷がいました。手仕事は、国によっては産業の仕事までもが、鎖につながれた手に任されていました。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0020",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 20
+        }
+      ],
+      "source_text": "Le monde moderne nous offre un spectacle complètement opposé. Les moindres états de nos jours sont incomparablement plus vastes que Sparte ou que Rome durant cinq siècles. La division même de l'Europe en plusieurs états, est, grâce aux progrès des lumières, plutôt apparente que réelle. Tandis que chaque peuple, autrefois, formait une famille isolée, ennemie née des autres familles, une masse d'hommes existe maintenant sous différents noms, et sous divers modes d'organisation sociale, mais homogène de sa nature. Elle est assez forte pour n'avoir rien à craindre des hordes barbares. Elle est assez éclairée pour que la guerre lui soit à charge. Sa tendance uniforme est vers la paix.",
+      "translation_ja": "近代世界に目を移せば、光景は正反対です。今の最小の国家でも、スパルタや最初の五世紀間のローマより比べものにならないほど広い。そもそもヨーロッパが複数の国に分かれていること自体、知の進歩のおかげで、実質よりも外見上のこととなっています。かつて各国の民は、孤立し、よその家族には生まれながらの敵という、一つの家族を形づくっていました。今や、名も社会のしくみもさまざまながら、その性質を同じくする一つの大きな人の集まりがあります。それは十分に強いので、いわゆる蛮族の群れを恐れる必要がなく、十分に啓発されているので、戦争を重荷と感じます。その全体が同じように平和へと向かっています。",
+      "translation_status": "reviewed",
+      "source_variants": [
+        {
+          "kind": "diplomatic",
+          "text": "Le monde moderne nous offre un spectacle complètement opposé. Les moindres états de nos jours sont incomparablement plus vastes que Sparte ou que Rome durant cinq siècles. La division même de l'Europe en plusieurs états, est, grâce aux progrès des lumières, plutôt apparente que réelle. Tandis que chaque peuple, autrefois, formait une famine isolée, ennemie née des autres familles, une masse d'hommes existe maintenant sous différents noms, et sous divers modes d'organisation sociale, mais homogène de sa nature. Elle est assez forte pour n'avoir rien à craindre des hordes barbares. Elle est assez éclairée pour que la guerre lui soit à charge. Sa tendance uniforme est vers la paix.",
+          "description_ja": "採用した電子本文の表記。"
+        }
+      ]
+    },
+    {
+      "id": "constant-0021",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 21
+        }
+      ],
+      "source_text": "Cette différence en amène une autre. La guerre est antérieure au commerce; car la guerre et le commerce ne sont que deux moyens différents d'atteindre le même but, celui de posséder ce que l'on désire. Le commerce n'est qu'un hommage rendu à la force du possesseur par l'aspirant à la possession. C'est une tentative pour obtenir de gré à gré ce qu'on n'espère plus conquérir par la violence. Un homme qui serait toujours le plus fort n'aurait jamais l'idée du commerce. C'est l'expérience qui, en lui prouvant que la guerre, c'est-a-dire, l'emploi de sa force contre la force d'autrui, l'expose à diverses résistances et à divers échecs, le porte à recourir au commerce, c'est-à-dire, à un moyen plus doux et plus sûr d'engager l'intérêt d'un autre à consentir à ce qui convient à son intérêt. La guerre est l'impulsion, le commerce est le calcul. Mais par la même il doit venir une époque où le commerce remplace la guerre. Nous sommes arrivés a cette époque.",
+      "translation_ja": "この違いはもう一つの違いを生みます。戦争が商業に先立ったのは、どちらも欲しいものを手に入れるという同じ目的に至る、別々の手段でしかないからです。商業とは、手に入れたい側が持ち主の力に敬意を表すことにほかなりません。暴力で奪い取れるとはもう望めないものを、双方の合意で得る試みです。いつも自分が強いとわかっている者なら、商取引など思いつきもしないでしょう。戦争、すなわち自分の力を他人の力に向けることを試すうちに、さまざまな抵抗にあい、さまざまな敗北を喫することがわかってきます。人を商業へと導くのはこの経験です。相手の利害に訴えて、自分の利益にもかなうことに同意してもらう、もっと穏やかで確実な手段に向かわせるのです。戦争が衝動なら、商業は計算です。だからこそ、戦争が商業に席を譲る時が来るはずです。私たちはその時代に到達しました。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0022",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 22
+        }
+      ],
+      "source_text": "Je ne veux point dire qu'il n'y ait pas eu chez les anciens des peuples commerçants. Mais ces peuples faisaient en quelque sorte exception à la règle générale. Les bornes d'une lecture ne me permettent pas de vous indiquer tous les obstacles qui s'opposaient alors aux progrès du commerce; vous les connaissez d'ailleurs aussi bien que moi: je n'en rapporterai qu'un seul. L'ignorance de la boussole forçait les marins de l'antiquité à ne perdre les côtes de vue que le moins qu'il leur était possible. Traverser les Colonnes d'Hercule, c'est-à-dire, passer le détroit de Gibraltar, était considéré comme l'entreprise la plus hardie. Les Phéniciens et les Carthaginois, les plus habiles des navigateurs, ne l'osèrent que fort tard, et leur exemple resta longtemps sans être imité. A Athènes, dont nous parlerons bientôt, l'intérêt maritime était d'environ 60 pour %, pendant que l'intérêt ordinaire n'était que de douze, tant l'idée d'une navigation lointaine impliquait celle du danger.",
+      "translation_ja": "古代に商業を営む民がなかった、と言うつもりはありません。ただ、こうした民はいわば通則の例外でした。一回の講演では、当時の商業の発達を阻んだものをすべて挙げられませんし、それは皆さんも私と同じによくご存じです。一つだけ挙げましょう。羅針盤を知らなかったため、古代の船乗りはできるだけ岸を見失わずに航海しなければなりませんでした。ヘラクレスの柱を越えること、つまりジブラルタル海峡を通ることは、何よりも大胆な企てとされました。航海にいちばん長けていたフェニキア人もカルタゴ人も、ずいぶん後になってようやくそれを試み、長いあいだ後に続く者はありませんでした。後ほどお話しするアテネでは、通常の利率がわずか一二パーセントだったのに、海上貸付の利率は六〇パーセントほどでした。それほど遠い海への航海には、危険という考えがつきまとったのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0023",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 23
+        }
+      ],
+      "source_text": "De plus, si je pouvais me livrer à une digression qui malheureusement serait trop longue, je vous montrerais, Messieurs, par le détail des moeurs, des habitudes, du mode de trafiquer des peuples commerçants de l'antiquité avec les autres peuples, que leur commerce même était, pour ainsi dire, imprégné de l'esprit de l'époque, de l'atmosphère de guerre et d'hostilité qui les entourait. Le commerce alors était un accident heureux, c'est aujourd'hui l'état ordinaire, le but unique, la tendance universelle, la vie véritable des nations. Elles veulent le repos, avec le repos l'aisance, et comme source de l'aisance, l'industrie. La guerre est chaque jour un moyen plus inefficace de remplir leurs voeux. Ses chances n'offrent plus ni aux individus, ni aux nations des bénéfices qui égalent les résultats du travail paisible et des échanges réguliers. Chez les anciens, une guerre heureuse ajoutait en esclaves, en tributs, en terres partagées, à la richesse publique et particulière. Chez les modernes, une guerre heureuse coûte infailliblement plus qu'elle ne vaut.",
+      "translation_ja": "もう少し脱線できればよいのですが、残念ながら長くなりすぎます。それができれば、古代の商業民族の風俗や習慣、他の民族との取引のしかたを詳しく取り上げて、その商業そのものにさえ時代の精神、すなわち周囲を満たす戦争と敵意の空気が染み込んでいたことを、皆さんにお見せするでしょう。当時の商業は幸運な例外でした。今日は諸国民のふだんのあり方、もっぱらの目標、あまねく見られる志向であり、まさにその生活そのものです。諸国民が欲するのは安らぎであり、安らぎとともに暮らしのゆとりであり、ゆとりの源となる生産の営みです。戦争は日ごとに、その望みを満たすには役に立たなくなります。戦争で見込める利益は、個人にとっても国民にとっても、もはや平和な労働と規則正しい交換の成果に及びません。古代では戦勝によって、奴隷や貢納や分配された土地という形で、公私の富が増えました。近代では、たとえ勝っても戦争の代価は必ず獲得したものの値打ちを上回ります。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0024",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 24
+        }
+      ],
+      "source_text": "Enfin, grâce au commerce, à la religion, aux progrès intellectuels et moraux de l'espèce humaine il n'y a plus d'esclaves chez les nations européennes. Des hommes libres doivent exercer toutes les professions, pourvoir à tous les besoins de la société.",
+      "translation_ja": "最後に、商業と宗教、また人類の知的、道徳的進歩のおかげで、ヨーロッパの諸国民のもとには、もう奴隷がいません。自由な人があらゆる職業を担い、社会のあらゆる必要を満たさなければなりません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0025",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 25
+        }
+      ],
+      "source_text": "On pressent aisément, Messieurs, le résultat nécessaire de ces différences.",
+      "translation_ja": "以上の違いから何が必然的に生じるかは、皆さん、すでに容易に想像がおつきでしょう。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0026",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 26
+        }
+      ],
+      "source_text": "1° L'étendue d'un pays diminue d'autant l'importance politique qui échoit en partage à chaque individu. Le républicain le plus obscur de Rome ou de Sparte était une puissance. Il n'en est pas de même du simple citoyen de la Grande-Bretagne ou des États-Unis. Son influence personnelle est un élément imperceptible de la volonté sociale qui imprime au gouvernement sa direction.",
+      "translation_ja": "第一に、国土が広ければ、その分だけ、個々人の取り分となる政治上の重みは小さくなります。ローマやスパルタでは、最も無名の共和国市民も一つの勢力でした。イギリスや合衆国の普通の市民はそうではありません。一個人の影響力など、政府の進む方向を決める社会全体の意志のうちでは、見分けもつかない一要素にすぎません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0027",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 27
+        }
+      ],
+      "source_text": "En second lieu, l'abolition de l'esclavage a enlevé à la population libre tout le loisir qui résultait pour elle de ce que des esclaves étaient chargés de la plupart des travaux. Sans la population esclave d'Athènes, 20.000 Athéniens n'auraient pas pu délibérer chaque jour sur la place publique.",
+      "translation_ja": "第二に、奴隷制が廃止され、ほとんどの仕事を奴隷にさせたおかげで自由人が手にしていた余暇は失われました。アテネに奴隷がいなければ、二万人のアテネ人が毎日広場で討議することはできなかったでしょう。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0028",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 28
+        }
+      ],
+      "source_text": "Troisièmement, le commerce ne laisse pas, comme la guerre, dans la vie de l'homme des intervalles d'inactivité. L'exercice perpétuel des droits politiques, la discussion journalière des affaires de l'État, les dissensions, les conciliabules, tout le cortège et tout le mouvement des factions, agitations nécessaires, remplissage obligé, si j'ose employer ce terme, dans la vie des peuples libres de l'antiquité, qui auraient langui, sans cette ressource, sous le poids d'une inaction douloureuse, n'offriraient que trouble et que fatigue aux nations modernes, où chaque individu occupé de ses spéculations, de ses entreprises, des jouissances qu'il obtient ou qu'il espère, ne veut en être détourné que momentanément et le moins qu'il est possible.",
+      "translation_ja": "第三に、商業は戦争と違い、人の生活に何もしない時期を残しません。政治的権利を休みなく行使し、日々国事を論じ、対立し、ひそかに集まり、派閥争いの騒ぎが大勢を巻き込んで続く。これは古代の自由な人々の暮らしにはどうしても要る刺激で、あえて言えば欠かせない暇つぶしでした。これがなければ、苦痛な無為の重みに気力をなくしたことでしょう。けれども近代の人々にとって、それは混乱や疲労にしかなりません。一人ひとりが自分の取引や企て、すでに手にした楽しみやこれから得たい楽しみにかかりきりで、そこから引き離されるのは、たまのこと、それもなるべく短い時間にしたいのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0029",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 29
+        }
+      ],
+      "source_text": "Enfin, le commerce inspire aux hommes un vif amour pour l'indépendance individuelle. Le commerce subvient à leurs besoins, satisfait à leurs désirs, sans l'intervention de l'autorité. Cette intervention est presque toujours, et je ne sais pourquoi je dis presque, cette intervention est toujours un dérangement et une gêne. Toutes les fois que le pouvoir collectif veut se mêler des spéculations particulières, il vexe les spéculateurs. Toutes les fois que les gouvernements prétendent faire nos affaires, ils les font plus mal et plus dispendieusement que nous.",
+      "translation_ja": "最後に、商業は個人の独立を強く愛する気持ちを人に吹き込みます。商業は、公権力の干渉を待たずに、人の必要を満たし、望みをかなえます。公権力の介入はほとんどいつも、いや、なぜ「ほとんど」などと申したのでしょう、いつの場合にも、仕事をかき乱す邪魔立てです。共同体の権力が個人の取引に口を挟みたがるたび、当事者は迷惑をこうむります。政府が私たちの仕事を引き受けようとすると、いつでも私たちよりまずい仕事に、もっと多くの費用をかけるのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0030",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 30
+        }
+      ],
+      "source_text": "Je vous ai dit, Messieurs, que je vous reparlerais d'Athènes, dont on pourrait opposer l'exemple à quelques-unes de mes assertions, et dont l'exemple, au contraire, va les confirmer toutes.",
+      "translation_ja": "皆さん、アテネについてはまたお話しすると申し上げました。その例は、私の説のいくつかに反論するために持ち出せそうですが、実は逆に、どの説の裏づけにもなるのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0031",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 31
+        }
+      ],
+      "source_text": "Athènes, comme, je l'ai déjà reconnu, était, de toutes les républiques grecques, la plus commerçante: aussi accordait-elle à ses citoyens infiniment plus de liberté individuelle que Rome et que Sparte. Si je pouvais entrer dans des détails historiques, je vous ferais voir que le commerce avait fait disparaître de chez les Athéniens plusieurs des différences qui distinguent les peuples anciens des peuples modernes. L'esprit des commerçants d'Athènes était pareil a celui des commerçants de nos jours. Xénophon nous apprend que, durant la guerre du Péloponnèse, ils sortaient leurs capitaux du continent de l'Attique et les envoyaient dans les îles de l'Archipel. Le commerce avait créé chez eux la circulation. Nous remarquons dans Isocrate des traces de l'usage des lettres-de-change. Aussi, observez, combien leurs moeurs ressemblent aux nôtres. Dans leurs relations avec les femmes, vous verrez, je cite encore Xénophon, les époux satisfaits quand la paix et une amitié décente règnent dans l'intérieur du ménage, tenir compte à l'épouse trop fragile de la tyrannie de la nature, fermer les yeux sur l'irrésistible pouvoir des passions, pardonner la première faiblesse et oublier la seconde. Dans leurs rapports avec les étrangers l'on les verra prodiguer les droits de cité à quiconque, se transportant chez eux avec sa famille, établit un métier ou une fabrique; enfin on sera frappé de leur amour excessif pour l'indépendance individuelle. A Lacédémone, dit un philosophe, les citoyens accourent lorsque le magistrat les appelle; mais un Athénien serait au désespoir qu'on le crût dépendant d'un magistrat.",
+      "translation_ja": "すでに認めたとおり、ギリシアの共和国のうち、アテネほど商業が盛んなところはなく、それゆえローマやスパルタに比べてはるかに多くの個人的自由を市民に認めました。詳しい史実に立ち入る時間があれば、古代と近代の人々を分ける違いのいくつかが、アテネ人のもとでは商業のおかげで消えていたことをお示しできるでしょう。アテネの商人の考え方は、今の商人とそっくりでした。クセノポンによれば、ペロポネソス戦争中、商人はアッティカ本土から資金を引き揚げ、エーゲ海の島々に送りました。商業は彼らのもとに資産の流通を生みました。イソクラテスにも為替手形の使用をうかがわせる記述があります。また、その風習が私たちのものとよく似ていることにも注目してください。女性との関係を見ると、これはまたクセノポンの話ですが、夫たちは家庭に平穏と節度ある愛情があれば満足し、誘惑に弱い妻がいても人の性に抗しがたい面があることを酌み、情念の力には目をつぶり、一度の過ちは許し、二度目は忘れてやります。外国人との関係を見れば、家族とともに移り住んで仕事を始めたり工場を設けたりする人には、惜しげもなく市民権を与えます。最後に目をみはるのが、個人の独立に対する並外れた愛着です。ある哲学者によれば、ラケダイモンでは役人が呼ぶと市民が駆けつけますが、アテネ人は、自分が役人の言いなりだなどと思われたら絶望するというのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0032",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 32
+        }
+      ],
+      "source_text": "Cependant, comme plusieurs des autres circonstances qui décidaient du caractère des nations anciennes existaient aussi a Athènes; comme il y avait une population esclave, et que le territoire était fort reserré, nous y trouvons des vestiges de la liberté propre aux anciens. Le peuple fait les lois, examine la conduite des magistrats, somme Périclès de rendre ses comptes, condamne à mort les généraux qui avaient commandé au combat des Arginuses. En même temps, l'ostracisme, arbitraire légal et vanté par tous les législateurs de l'époque; l'ostracisme, qui nous paraît et doit nous paraître une révoltante iniquité, prouve que l'individu était encore bien plus asservi à la suprématie du corps social à Athènes, qu'il ne l'est de nos jours dans aucun état libre de l'Europe.",
+      "translation_ja": "とはいえ、古代の諸民族の性格を決めた他の事情のいくつかはアテネにもありました。奴隷がおり、領土もごく狭かったので、そこにはやはり古代特有の自由の跡が見つかります。人民が法律を作り、公職者の行状を調べ、ペリクレスに会計報告を迫り、アルギヌサイの海戦で指揮を執った将軍たちに死刑を宣告しました。それと同時に、陶片追放という、法に認められ当時の立法者がこぞって称賛した恣意的処分がありました。私たちには憤るべき不正に思えますし、そう思えて当然のこの制度こそ、アテネの個人が、今日ヨーロッパにあるどの自由な国の個人よりも、なおはるかに共同体の至上の権威に服していた証拠です。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0033",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 33
+        }
+      ],
+      "source_text": "Il résulte de ce que je viens d'exposer, que nous ne pouvons plus jouir de la liberté des anciens, qui se composait de la participation active et constante au pouvoir collectif. Notre liberté à nous, doit se composer de la jouissance paisible de l'indépendance privée. La part que dans l'antiquité chacun prenait à la souveraineté nationale n'était point, comme de nos jours, une supposition abstraite. La volonté de chacun avait une influence réelle: l'exercice de cette volonté était un plaisir vif et répété. En conséquence, les anciens étaient disposés à faire beaucoup de sacrifices pour la conservation de leurs droits politiques et de leur part dans l'administration de l'État. Chacun sentant avec orgueil tout ce que valait son suffrage, trouvait dans cette conscience de son importance personnelle, un ample dédommagement.",
+      "translation_ja": "以上からわかるのは、共同の権力に絶えず活発に参加することから成っていた古代人の自由を、私たちはもはや享受できないということです。私たちにとって自由は、私生活における独立を安らかに享受することにあります。古代には一人ひとりが国の主権にあずかるといっても、今日のような抽象上の仮定ではありませんでした。各人の意志が実際にものをいい、その意志を働かせることは、繰り返し味わえる鮮やかな喜びでした。だから古代人は、政治的権利を守り、国家の運営に携わる地位を保つためには、多くの犠牲をいといませんでした。誰もが自分の一票の重みを誇らしく感じ、自分がこれだけものをいうという自覚から、犠牲に十二分に見合うものを得ていたのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0034",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 34
+        }
+      ],
+      "source_text": "Ce dédommagement n'existe plus aujourd'hui pour nous. Perdu dans la multitude, l'individu n'aperçoit presque jamais l'influence qu'il exerce. Jamais sa volonté ne s'empreint sur l'ensemble, rien ne constate à ses propres yeux sa coopération. L'exercice des droits politiques ne nous offre donc plus qu'une partie des jouissances que les anciens y trouvaient, et en même temps les progrès de la civilisation, la tendance commerciale de l'époque, la communication des peuples entre eux, ont multiplié et varié à l'infini les moyens de bonheur particulier.",
+      "translation_ja": "今日、私たちにはその埋め合わせがありません。大勢に紛れる一人の人間は、自分の及ぼす影響をまず目にしません。自分の意志の刻印が全体に現れることはなく、自分も力を添えたのだとはっきり自分の目で確かめられるものはありません。ですから政治的権利を行使しても、古代人の得ていた喜びのほんの一部しか得られません。その一方で、文明の進歩、時代が商業へ向かう傾向、諸民族の間の交流は、個人として幸福になる手段を限りなく増やし、その形を多彩にしました。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0035",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 35
+        }
+      ],
+      "source_text": "Il s'ensuit que nous devons être bien plus attachés que les anciens à notre indépendance individuelle; car les anciens, lorsqu'ils sacrifiaient cette indépendance aux droits politiques, sacrifiaient moins pour obtenir plus; tandis qu'en faisant le même sacrifice, nous donnerions plus pour obtenir moins.",
+      "translation_ja": "そうであれば、私たちが個人の独立に抱く愛着は、古代人よりもはるかに強くて当然です。古代人が政治的権利のためにその独立を犠牲にしたときには、少しを手放して多くを得ましたが、私たちが同じ犠牲を払えば、多くを手放してわずかしか得ないからです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0036",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 36
+        }
+      ],
+      "source_text": "Le but des anciens était le partage du pouvoir social entre tous les citoyens d'une même patrie: c'était là ce qu'ils nommaient liberté. Le but des modernes est la sécurité dans les jouissances privées; et ils nomment liberté les garanties accordées par les institutions à ces jouissances.",
+      "translation_ja": "古代人の目的は、同じ祖国の市民が皆で共同体の権力を分かち合うことでした。彼らが自由と呼んだのはそれです。近代人の目的は、私生活の楽しみを安心して享受することです。その享受について制度が与える保障を、近代人は自由と呼ぶのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0037",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 37
+        }
+      ],
+      "source_text": "J'ai dit en commençant que, faute d'avoir aperçu ces différences, des hommes bien intentionnés d'ailleurs, avaient causé des maux infinis durant notre longue et orageuse révolution. A Dieu ne plaise que je leur adresse des reproches trop sévères: leur erreur même était excusable. On ne saurait lire les belles pages de l'antiquité, l'on ne se retrace point les actions de ses grands hommes sans ressentir je ne sais quelle émotion d'un genre particulier que ne fait éprouver rien de ce qui est moderne. Les vieux éléments d'une nature antérieure, pour ainsi dire, à la nôtre, semblent se réveiller en nous à ces souvenirs. II est difficile de ne pas regretter ces temps où les facultés de l'homme se développaient dans une direction tracée d'avance, mais dans une carrière si vaste, tellement fortes de leurs propres forces, et avec un tel sentiment d'énergie et de dignité; et lorsqu'on se livre à ces regrets, il est impossible de ne pas vouloir imiter ce qu'on regrette. Cette impression était profonde, surtout lorsque nous vivions sous des gouvernements abusifs, qui, sans être forts, étaient vexatoires, absurdes en principes, misérables en action; gouvernements qui avaient pour ressort l'arbitraire, pour but le rapetissement de l'espèce humaine, et que certains hommes osent nous vanter encore aujourd'hui, comme si nous pouvions oublier jamais que nous avons été témoins et victimes de leur obstination, de leur impuissance et de leur renversement. Le but de nos réformateurs fut noble et généreux. Qui d'entre nous n'a pas senti son coeur battre d'espérance à l'entrée de la route qu'ils semblaient ouvrir? Et malheur encore à présent à qui n'éprouve pas le besoin de déclarer que reconnaître quelques erreurs commises par nos premiers guides, ce n'est pas flétrir leur mémoire ni désavouer des opinions que les amis de l'humanité ont professées d'âge en âge.",
+      "translation_ja": "初めに申しましたように、こうした違いに気づかなかったため、志そのものは善良だった人々が、長く荒れ狂った私たちの革命の間に、限りない災いを引き起こしました。どうか私が彼らをあまりに厳しく責めることのないように。その誤りにも無理のないところがありました。古代の美しい文章を読み、偉人たちの行いを思い描いて、近代の何ものからも受けない、何とも言いようのない独特な感動をおぼえずにはいられません。こうした記憶に触れると、私たちの本性よりさらに古い本性の名残のようなものが、内に目を覚ますようです。人間の能力はあらかじめ引かれた方向にこそ展開しましたが、その駆けめぐる天地の広さ、自分の力そのものから得る強さ、みなぎる活力と気品への自覚は、いかばかりだったか。あの時代を惜しまずにはいられず、その思いに浸れば、惜しむものをまねてみたくなるのも当然です。こうした印象は、とりわけ私たちが、強くもないのに人を苦しめ、原則は不条理で、実行することは見るに堪えない、権力を濫用する政府の下にいたときに深いものでした。気まぐれが政治の原動力で、人間を卑小にすることが目的だった政府です。その頑迷さと無力さ、そしてその崩壊を、私たち自身が目にし、わが身で経験したことなどいつか忘れてしまえるかのように、今日なおその政府を褒めたたえてみせる人々までいます。私たちの改革者の目的は高潔で、広い心に発するものでした。彼らが開いてくれると思えた道の入り口で、誰が希望に胸を躍らせなかったでしょう。最初に私たちを導いた人々の誤りをいくつか認めることは、その名を汚すことでも、世々の人類の友が唱えてきた考えを捨てることでもありません。そのことを今なおはっきり言っておく必要を感じない人は、不幸というほかありません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0038",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 38
+        }
+      ],
+      "source_text": "Mais ces hommes avaient puisé plusieurs de leurs théories dans les ouvrages de deux philosophes qui ne s'étaient pas douté eux-mêmes des modifications apportées par deux mille ans aux dispositions du genre humain. J'examinerai peut-être une fois le système du plus illustre de ces philosophes, de Jean-Jacques Rousseau, et je montrerai qu'en transportant dans nos temps modernes une étendue de pouvoir social, de souveraineté collective qui appartenait à d'autres siècles, ce génie sublime qu'animait l'amour le plus pur de la liberté, a fourni néanmoins de funestes prétextes à plus d'un genre de tyrannie. Sans doute, en relevant ce que je considère comme une méprise importante à dévoiler, je serai circonspect dans ma réfutation, et respectueux dans mon blâme. J'éviterai, certes, de me joindre aux détracteurs d'un grand homme. Quand le hasard fait qu'en apparence je me rencontre avec eux sur un seul point, je suis en défiance de moi-même; et, pour me consoler de paraître un instant de leur avis sur une question unique et partielle, j'ai besoin de désavouer et de flétrir autant qu'il est en moi ces prétendus auxiliaires.",
+      "translation_ja": "しかしこの人々は、自分たちの理論のいくつかを、二千年の歳月が人類の性向にどれほどの変化をもたらしたかを自分でも思い及ばなかった、二人の哲学者の著書から汲みました。いつか、そのうち最も名高いジャン＝ジャック・ルソーの思想体系を検討することもあるでしょう。そのときには、これほど崇高な天才が、誰よりも純粋に自由を愛してやまなかったのに、別の時代に属する共同体の権力、集団の主権を、かつてと同じ広さのまま近代に移したために、何種類もの暴政に不幸な口実を与えたことを示したいと思います。明るみに出しておくことが大切だと私が考える誤りを指摘するにあたっては、もちろん、反論は慎重に、批判には敬意をこめます。偉人をおとしめる人々の仲間に加わるつもりなどありません。たまたま一点でだけ意見が合うように見えるときでさえ、私は自分のほうを疑います。一部分にかかわるただ一つの問いで、一瞬でも同じ意見に見えた自分を慰めるには、この頼みもしない味方たちとは無縁だと断り、力の限り彼らを非難せずにいられません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0039",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 39
+        }
+      ],
+      "source_text": "Cependant, l'intérêt de la vérité doit l'emporter sur des considérations que rendent si puissantes l'éclat d'un talent prodigieux et l'autorité d'une immense renommée. Ce n'est d'ailleurs point à Rousseau, comme on le verra, que l'on doit principalement attribuer l'erreur que je vais combattre: elle appartient bien plus à l'un de ses successeurs, moins éloquent, mais non moins austère et mille fois plus exagéré. Ce dernier, l'abbé de Mably, peut être regardé comme le représentant du système qui, conformément aux maximes de la liberté antique, veut que les citoyens soient complètement assujettis pour que la nation soit souveraine, et que l'individu soit esclave pour que le peuple soit libre.",
+      "translation_ja": "とはいえ、どんなに非凡な才能の輝きに、どんなに大きな名声の威光に心ひかれようと、真理を大事にする気持ちがそれにまさらなくてはなりません。おわかりになるように、私が反駁したい誤りの主たる責任は、そもそもルソーにあるのではありません。むしろ、雄弁では彼に劣りますが、堅苦しさでは引けを取らず、極端な点では千倍も上を行く後継者にあるのです。マブリ師のことです。彼こそ、古代の自由の原理に従い、国民が主権者であるためには市民は完全に従属し、人民が自由であるためには個人は奴隷でなければならない、という体系の代表者と見てよいでしょう。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0040",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 40
+        }
+      ],
+      "source_text": "L'abbé de Mably, comme Rousseau et comme beaucoup d'autres, avait, d'après les anciens, pris l'autorité du corps social pour la liberté, et tous les moyens lui paraissaient bons pour étendre l'action de cette autorité sur cette partie récalcitrante de l'existence humaine, dont il déplorait l'indépendance. Le regret qu'il exprime partout dans ses ouvrages, c'est que la loi ne puisse atteindre que les actions. Il aurait voulu qu'elle atteignît les pensées, les impressions les plus passagères; qu'elle poursuivît l'homme sans relâche et sans lui laisser un asile où il pût échapper à son pouvoir. A peine apercevait-il, n'importe chez quel peuple, une mesure vexatoire, qu'il pensait avoir fait une découverte et qu'il la proposait pour modèle: il détestait la liberté individuelle comme on déteste un ennemi personnel; et, dès qu'il rencontrait dans l'histoire une nation qui en était bien complètement privée, n'eût-elle point de liberté politique, il ne pouvait s'empêcher de l'admirer. II s'extasiait sur les Égyptiens, parce que, disait-il, tout chez eux était réglé par la loi, jusqu'aux délassements, jusqu'aux besoins: tout pliait sous l'empire du législateur; tous les moments de la journée étaient remplis par quelque devoir; l'amour même était sujet à cette intervention respectée, et c'était la loi qui tour-à-tour ouvrait et fermait la couche nuptiale.",
+      "translation_ja": "マブリ師はルソーやほかの多くの人と同じく、古代人にならって、共同体の権威を自由と取り違えました。人の生にはこの権威に従おうとしない部分があり、それが独立しているのを嘆いた彼には、そこに権威の力を広げるなら、どんな手段もよく見えました。彼が著書の至るところで惜しむのは、法の手が行為にしか届かないことです。人の思いに、その場限りの印象にまで及んでほしかった。人をたえず追い、その力から逃げ込める場所などどこにも残さずにほしかった。いずこの民族であろうと、人を苦しめる措置を見つけると、掘り出し物をした気になり、お手本として薦めずにいられませんでした。個人の自由を、自分の仇敵のように憎みました。個人の自由をすっかり奪われた国民を歴史の中で見つけようものなら、そこに政治的自由さえなくとも、感心せずにいられませんでした。古代エジプト人にはすっかり心酔しました。彼に言わせれば、そこでは気晴らしから人の欲求に至るまですべてが法で決められ、すべてが立法者の支配に服し、一日のどの時刻も何かの務めで埋まっていました。愛でさえも人々が恭しく従うこの干渉を受け、夫婦の寝床をあるとき開き、あるとき閉じるのも法だったからです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0041",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 41
+        }
+      ],
+      "source_text": "Sparte, qui réunissait des formes républicaines au même asservissement des individus, excitait dans l'esprit de ce philosophe un enthousiasme plus vif encore. Ce vaste couvent lui paraissait l'idéal d'une parfaite république. Il avait pour Athènes un profond mépris, et il aurait dit volontiers de cette nation, la première de la Grèce, ce qu'un académicien grand seigneur disait de l'Académie française: \"Quel épouvantable despotisme! tout le monde y fait ce qu'il veut\". Je dois ajouter que ce grand seigneur parlait de l'Académie telle qu'elle était il y a trente ans.",
+      "translation_ja": "スパルタは、同じ個人の隷属に共和政の形まで備えていたので、この哲学者の心にさらに熱烈な賛嘆を呼びました。この広大な修道院こそ、完全な共和国の理想像に見えたのです。アテネのことは心底軽蔑していました。ギリシアで第一のこの国について、おそらくある大貴族の学士院会員がフランス学士院について言ったとおりに言いたかったことでしょう。「何というひどい専制だ。みんな好きなことをしているではないか」。もっとも、この大貴族が言ったのは三十年前の学士院のことだと、ひと言つけ加えておかねばなりません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0042",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 42
+        }
+      ],
+      "source_text": "Montesquieu, doué d'un esprit plus observateur parce qu'il avait une tête moins ardente, n'est pas tombé tout-à-fait dans les mêmes erreurs. Il a été frappé des différences que j'ai rapportées: mais il n'en a pas démêlé la cause véritable. Les politiques grecs qui vivaient sous le gouvernement populaire ne reconnaissaient, dit-il, d'autre force que celle de la vertu. Ceux d'aujourd'hui ne nous parlent que de manufactures, de commerce, de finances, de richesses et de luxe même. Il attribue cette différence à la république et à la monarchie: il faut l'attribuer à l'esprit opposé des temps anciens et des temps modernes. Citoyens des républiques, sujets des monarchies, tous veulent des jouissances, et nul ne peut, dans l'état actuel des sociétés, ne pas en vouloir. Le peuple le plus attaché de nos jours à sa liberté, avant l'affranchissement de la France, était aussi le peuple le plus attaché à toutes les jouissances de la vie; et il tenait à sa liberté surtout parce qu'il y voyait la garantie des jouissances qu'il chérissait. Autrefois, là où il y avait liberté, l'on pouvait supporter les privations: maintenant partout où il y a privations, il faut l'esclavage pour qu'on s'y résigne. Il serait plus possible aujourd'hui de faire d'un peuple d'esclaves un peuple de Spartiates, que de former des Spartiates par la liberté.",
+      "translation_ja": "モンテスキューは、いくらか頭が冷静だっただけ観察眼も鋭く、まったく同じ過ちに陥ったわけではありません。私がお話しした違いに心を留めましたが、その真の原因は見きわめませんでした。民衆政のもとに生きたギリシアの政治家たちは徳にしか力を認めなかったのに、今日の政治家は製造業、商業、財政、富や奢侈のことまで、そんなことしか私たちに語らない、と彼は言います。その違いを共和政と君主政の違いに帰していますが、古代と近代の時代精神が相反していることに帰すべきです。共和国の市民であれ君主国の臣民であれ、誰もが暮らしの楽しみを望みますし、今日の社会のあり方では望まずにいることはできません。フランスが自由を得る以前、近代において最も自由を大切にした民は、同時に生活のあらゆる楽しみを最も大切にする民でもありました。自由を愛したのも、愛する楽しみを保障してくれると考えたからにほかなりません。昔は自由さえあれば窮乏に耐えられました。今では窮乏に甘んじさせるには、どこでも隷属を強いなくてはなりません。今の時代には、人々を自由によってスパルタ人に仕立てるより、奴隷の民をスパルタ人に仕立てるほうがまだ見込みがあるでしょう。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0043",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 43
+        }
+      ],
+      "source_text": "Les hommes qui se trouvèrent portés par le flot des événements à la tête de notre révolution, étaient, par une suite nécessaire de l'éducation qu'ils avaient reçue, imbus des opinions antiques, et devenues fausses, qu'avaient mises en honneur les philosophes dont j'ai parlé. La métaphysique de Rousseau, au milieu de laquelle paraissaient tout-à-coup comme des éclairs des vérités sublimes et des passages d'une éloquence entraînante, l'austérité de Mably, son intolérance, sa haine contre toutes les passions humaines, son avidité de les asservir toutes, ses principes exagérés sur la compétence de la loi, la différence de ce qu'il recommandait et de ce qui avait existé, ses déclamations contre les richesses et même contre la propriété; toutes ces choses devaient charmer des hommes échauffés par une victoire récente, et qui, conquérants de la puissance légale, étaient bien aises d'étendre cette puissance sur tous les objets. C'était pour eux une autorité précieuse que celle de deux écrivains qui, désintéressés dans la question et prononçant anathème contre le despotisme des hommes, avaient rédigé en axiome le texte de la loi. Ils voulurent donc exercer la force publique comme ils avaient appris de leurs guides qu'elle avait été jadis exercée dans les états libres. Ils crurent que tout devait encore céder devant la volonté collective et que toutes les restrictions aux droits individuels seraient amplement compensées par la participation au pouvoir social.",
+      "translation_ja": "事の成り行きに押されて私たちの革命の先頭に立った人々には、その受けた教育の必然の結果として、先ほどの哲学者たちがもてはやした、古代には通じても今では誤りとなった考え方が染み込んでいました。ルソーの形而上学、そのさなかに稲妻のように不意にひらめく崇高な真理と抗いがたい雄弁。マブリの厳格さと偏狭さ、人間のあらゆる情念を憎んでそのすべてを屈服させようとする熱、法の及ぶ範囲についての極端な原則、勧めるものがこれまであったものとすっかり違うこと、富に対する、さらには財産をもつことそのものに対する大仰な非難。これらすべてが、勝利を得たばかりで興奮し、法の権力を握ってその力を万事に及ぼしたい人々の心をとらえずにはいませんでした。自分に利害がかからず、人による専制には破門を宣告しながら、法の言葉を公理に仕立ててくれたこの二人の著述家は、革命の指導者たちには貴重な権威でした。そこで彼らは、昔の自由国家では公権力がこのように行使されたと師から教わったとおりに、公権力をふるおうとしました。あらゆるものが今なお集団の意志に譲らなければならず、個人の権利がいかに制限されても、共同体の権力に参加できることで十分に埋め合わせがつく、と信じたのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0044",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 44
+        }
+      ],
+      "source_text": "Vous savez, Messieurs, ce qui en est résulté. Des institutions libres, appuyées sur la connaissance de l'esprit du siècle, auraient pu subsister. L'édifice renouvelé des anciens s'est écroulé, malgré beaucoup d'efforts et beaucoup d'actes héroïques qui ont droit a l'admiration. C'est que le pouvoir social blessait en tout sens l'indépendance individuelle sans en détruire le besoin. La nation ne trouvait point qu'une part idéale à une souveraineté abstraite valût les sacrifices qu'on lui commandait. On lui répétait vainement avec Rousseau: les lois de la liberté sont mille fois plus austères que n'est dur le joug des tyrans. Elle ne voulait pas de ces lois austères, et dans sa lassitude, elle croyait quelquefois que le joug des tyrans serait préférable. L'expérience est venue et l'a détrompée. Elle a vu que l'arbitraire des hommes était pire encore que les plus mauvaises lois. Mais les lois aussi doivent avoir leurs limites.",
+      "translation_ja": "その結果は皆さんがご存じです。時代の精神をくみ取った自由な制度なら、生き続けることができたでしょう。古代から借りて建て直した建物は、あれだけ多くの努力にも、称賛に値するあれだけの英雄的行為にもかかわらず、崩れました。共同体の権力が、個人の独立を求める気持ちを消し去れないまま、あらゆる面からその独立を傷つけたからです。抽象的な主権を観念の上でいくらか分けてもらうことが、命じられる犠牲に見合うとは、国民には思えませんでした。「暴君のくびきがどれほど重くとも、自由の法はその千倍も厳しい」と、ルソーの言葉をいくら聞かせてもむだでした。国民はそんな厳しい法など望まず、疲れ果てて、ときには暴君のくびきのほうがましだとすら思いました。やがて経験が来て、その思い違いを正しました。人の気まぐれによる支配はどんな悪法よりなお悪いとわかったのです。しかし、法にもまた限界はなくてはなりません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0045",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 45
+        }
+      ],
+      "source_text": "Si je suis parvenu, Messieurs, à vous faire partager la conviction que dans mon opinion ces faits doivent produire, vous reconnaîtrez avec moi la vérité des principes suivants.",
+      "translation_ja": "皆さん、これらの事実から引き出すべきだと私が思う確信を共有していただけたなら、次の原則が正しいことにも同意していただけるでしょう。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0046",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 46
+        }
+      ],
+      "source_text": "L'indépendance individuelle est le premier besoin des modernes: en conséquence, il ne faut jamais leur en demander le sacrifice pour établir la liberté politique.",
+      "translation_ja": "近代人が第一に必要とするのは個人の独立です。したがって、政治的自由をうち立てるためにその独立を犠牲にせよなどとは、決して求めてはなりません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0047",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 47
+        }
+      ],
+      "source_text": "Il s'ensuit qu'aucune des institutions nombreuses et trop vantées qui, dans les républiques anciennes, gênaient la liberté individuelle, n'est point admissible dans les temps modernes.",
+      "translation_ja": "してみれば、古代の共和国で個人の自由を妨げていた、あまりに高く買われすぎているあまたの制度は、どれ一つとして近代に認められてはなりません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0048",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 48
+        }
+      ],
+      "source_text": "Cette vérité, Messieurs, semble d'abord superflue à établir. Plusieurs gouvernements de nos jours ne paraissent guères enclins à imiter les républiques de l'antiquité. Cependant quelque peu de goût qu'ils aient pour les institutions républicaines, il y a de certains usages républicains pour lesquels ils éprouvent je ne sais quelle affection. Il est fâcheux que ce soit précisément celles qui permettent de bannir, d'exiler, de dépouiller. Je me souviens qu'en 1802, on glissa dans une loi sur les tribunaux spéciaux un article qui introduisait en France l'ostracisme grec; et Dieu sait combien d'éloquents orateurs, pour faire admettre cet article, qui cependant fut retiré, nous parlèrent de la liberté d'Athènes, et de tous les sacrifices que les individus devaient faire pour conserver cette liberté! De même, à une époque bien plus récente, lorsque des autorités craintives essayaient d'une main timide de diriger les élections a leur gré, un journal qui n'est pourtant point entaché de républicanisme, proposa de faire revivre la censure romaine pour écarter les candidats dangereux.",
+      "translation_ja": "皆さん、一見、こんなことはことさら証明するまでもなさそうです。現代の政府の多くに古代の共和国をまねる気など、およそなさそうに見えます。ところが共和制の制度一般がいかにお好みでなくても、その慣行のいくつかには、どういうわけか愛着をお持ちなのです。困ったことには、それがきまって、人を国から放逐し、追放し、財産を奪うことのできる慣行なのです。私が覚えているのは一八〇二年、特別裁判所に関する法律に、ギリシアの陶片追放をフランスに導入する一箇条がそっと忍び込まされたことです。結局は撤回されたこの箇条を通すために、いったい何人の雄弁家が、アテネの自由だの、それを守るために個人が払わねばならぬあらゆる犠牲だのを語ってくれたことでしょう。もっと近ごろにも、当局がおずおずと手を伸ばし、自分たちの望むように選挙を動かそうとした折、共和主義に染まってなどいない新聞が、危険な候補を締め出すためにローマの監察官制度を復活させようと提案したものです。",
+      "translation_status": "reviewed",
+      "source_variants": [
+        {
+          "kind": "diplomatic",
+          "text": "Cette vérité, Messieurs, semble d'abord superflue à établir. Plusieurs gouvernements de nos jours ne paraissent guères enclins à imiter les républiques de l'antiquité. Cependant quelque peu de goût qu'ils aient pour les institutions républicaines, il y a de certains usages républicains pour lesquels ils éprouvent je ne sais quelle affection. Il est fâcheux que ce soit précisément celles qui permettent de bannir, d'exiler, de dépouiller. Je me souviens qu'en en 1802, on glissa dans une loi sur les tribunaux spéciaux un article qui introduisait en France l'ostracisme grec; et Dieu sait combien d'éloquents orateurs, pour faire admettre cet article, qui cependant fut retiré, nous parlèrent de la liberté d'Athènes, et de tous les sacrifices que les individus devaient faire pour conserver cette liberté! De même, à une époque bien plus récente, lorsque des autorités craintives essayaient d'une main timide de diriger les élections a leur gré, un journal qui n'est pourtant point entaché de républicanisme, proposa de faire revivre la censure romaine pour écarter les candidats dangereux.",
+          "description_ja": "採用した電子本文の表記。"
+        }
+      ]
+    },
+    {
+      "id": "constant-0049",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 49
+        }
+      ],
+      "source_text": "Je crois donc ne pas m'engager dans une digression inutile, si, pour appuyer mon assertion, je dis quelques mots de ces deux institutions si vantées.",
+      "translation_ja": "ですから、自分の主張を裏づけるために、これほどたたえられるこの二つの制度について少しお話ししても、むだな脱線にはならないでしょう。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0050",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 50
+        }
+      ],
+      "source_text": "L'ostracisme d'Athènes reposait sur l'hypothèse que la société a toute autorité sur ses membres. Dans cette hypothèse, il pouvait se justifier, et dans un petit état, où l'influence d'un individu fort de son crédit, de sa clientelle, de sa gloire, balançait souvent la puissance de la masse, l'ostracisme pouvait avoir une apparence d'utilité. Mais parmi nous, les individus ont des droits que la société doit respecter, et l'influence individuelle est, comme je l'ai déjà observé, tellement perdue dans une multitude d'influences égales ou supérieures, que toute vexation, motivée sur la nécessité de diminuer cette influence, est inutile et par conséquent injuste. Nul n'a le droit d'exiler un citoyen, s'il n'est pas condamné légalement par un tribunal régulier, d'après une loi formelle qui attache la peine de l'exil à l'action dont il est coupable. Nul n'a le droit d'arracher le citoyen à sa patrie, le propriétaire à ses biens, le négociant à son commerce, l'époux à son épouse, le père à ses enfants, l'écrivain à ses méditations studieuses, le vieillard à ses habitudes. Tout exil politique est un attentat politique. Tout exil prononcé par une assemblée pour de prétendus motifs de salut public, est un crime de cette assemblée contre le salut public qui n'est jamais que dans le respect des lois, dans l'observance des formes, et dans le maintien des garanties.",
+      "translation_ja": "アテネの陶片追放の根底には、社会はその成員に対してあらゆる権限をもつ、という仮定がありました。その仮定のもとでなら正当化もできたでしょう。また小国では、信用と支持者と名声に支えられた一個人の勢力がしばしば大勢の力とつり合ったので、陶片追放は一見役にも立ちそうでした。けれども私たちの社会では、個人には社会が尊重しなければならない権利があります。また個人の影響力は、先ほど申したように、それと等しいかそれ以上に強い無数の影響のうちにほとんど埋もれています。それを減らす必要があるという名目で誰かを苦しめるのはむだであり、したがって不正です。市民が犯した行為には追放刑を科すと明文の法律が定め、それにもとづいて正規の裁判所が適法に判決を下したのでなければ、誰にもその人を追放する権利はありません。市民を祖国から、所有者を財産から、商人を商売から、夫を妻から、父を子どもから、文筆家を勤勉な思索から、年老いた人を長年の習慣から、引き離す権利は誰にもありません。政治上の理由による追放はすべて、政治上の暴挙です。公共の安全という名目で議会が言い渡す追放はすべて、ほかならぬその議会が公共の安全に対して犯す罪です。公共の安全は、法の尊重、手続きの遵守、権利の保障の維持のうちにしかないからです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0051",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 51
+        }
+      ],
+      "source_text": "La censure romaine supposait comme l'ostracisme un pouvoir discrétionnaire. Dans une république dont tous les citoyens, maintenus par la pauvreté dans une simplicité extrême de moeurs, habitaient la même ville, n'exerçaient aucune profession qui détournât leur attention des affaires de l'État, et se trouvaient ainsi constamment spectateurs et juges de l'usage du pouvoir public, la censure pouvait d'une part avoir plus d'influence; et de l'autre, l'arbitraire des censeurs était contenu par une espèce de surveillance morale exercée contre eux. Mais aussitôt que l'étendue de la république, la complication des relations sociales et les raffinements de la civilisation, eurent enlevé à cette institution ce qui lui servait à la fois de base et de limite, la censure dégénéra même à Rome. Ce n'était donc pas la censure qui avait crée les bonnes moeurs; c'était la simplicité des moeurs qui constituait la puissance et l'efficacité de la censure.",
+      "translation_ja": "ローマの監察制度も、陶片追放と同じく裁量権を前提にしていました。貧しさゆえにすべての市民がきわめて質素に暮らし、同じ都市に住み、注意を国事からそらすような職業に従事せず、そのため公権力の使い方を絶えず見ながら判断する立場にあった共和国では、一方で監察は今よりずっと影響を及ぼせました。他方で監察官の恣意も、いわば周囲の道徳的な監視によって抑えられていたのです。けれども共和国の拡大、社会関係の複雑化、文明の洗練によって、その制度の足場であると同時に歯止めでもあったものが取り払われるや、ローマでさえ監察は堕落しました。監察が良い風俗を作ったのではありません。風俗が素朴だったからこそ、監察には力があり、効き目があったのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0052",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 52
+        }
+      ],
+      "source_text": "En France, une institution aussi arbitraire que la censure serait à la fois inefficace et intolérable: dans l'état présent de la société, les moeurs se composent de nuances fines, ondoyantes, insaisissables, qui se dénatureraient de mille manières, si l'on tentait de leur donner plus de précision. L'opinion seule peut les atteindre; elle seule peut les juger, parce qu'elle est de même nature. Elle se soulèverait contre toute autorité positive qui voudrait lui donner plus de précision. Si le gouvernement d'un peuple moderne voulait, comme les censeurs de Rome, flétrir un citoyen par une décision discrétionnaire, la nation entière réclamerait contre cet arrêt en ne ratifiant pas les décisions de l'autorité.",
+      "translation_ja": "フランスでは、監察ほど恣意的な制度は何の役にも立たないばかりか、耐えがたいものでしょう。今日の社会の風俗は、絶えずゆれ動く、とらえどころのない微妙な陰影で成っています。もっと輪郭をくっきりさせようとすれば、千通りにも本来の姿をゆがめてしまいます。それをとらえ、裁くことができるのは、世論だけです。世論もまた、同じ性質をもつからです。世論にもっときっちりした形を与えようとする公の権力に対しては、世論自身が反発するでしょう。近代の政府がローマの監察官のように、一存で一市民に汚名を着せようとしても、国民全体が当局の決定を追認しないことによって、その裁定に異議を唱えるでしょう。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0053",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 53
+        }
+      ],
+      "source_text": "Ce que je viens de dire de la transplantation de la censure dans les temps modernes, s'applique à bien d'autres parties de l'organisation sociale, sur lesquelles on nous cite l'antiquité plus fréquemment encore, et avec bien plus d'emphase. Telle est l'éducation, par exemple; que ne nous dit-on pas sur la nécessité de permettre que le gouvernement s'empare des générations naissantes pour les façonner à son gré, et de quelles citations érudites n'appuie-t-on pas cette théorie! Les Perses, les Égyptiens, et la Gaule, et la Grèce, et l'Italie, viennent tour à tour figurer à nos regards. Eh! Messieurs, nous ne sommes ni des Perses, soumis à un despote, ni des Égyptiens subjugués par des prêtres, ni des Gaulois pouvant être sacrifiés par leurs druides, ni enfin des Grecs et des Romains que leur part à l'autorité sociale consolait de l'asservissement privé. Nous sommes des modernes, qui voulons jouir chacun de nos droits, développer chacun nos facultés comme bon nous semble, sans nuire à autrui; veiller sur le développement de ces facultés dans les enfants que la nature confie à nôtre affection, d'autant plus éclairée qu'elle est plus vive, et n'ayant besoin de l'autorité que pour tenir d'elle les moyens généraux d'instruction qu'elle peut rassembler, comme les voyageurs acceptent d'elle les grands chemins sans être dirigés par elle dans la route qu'ils veulent suivre. La religion aussi est exposée à ces souvenirs des autres siècles. De braves défenseurs de l'unité de doctrine nous citent les lois des anciens contre les dieux étrangers, et appuient les droits de l'église catholique de l'exemple des Athéniens qui firent périr Socrate pour avoir ébranlé le polythéisme, et de celui d'Auguste qui voulait qu'on restât fidèle au culte de ses pères, ce qui fit que, peu de temps après, on livra aux bêtes les premiers chrétiens.",
+      "translation_ja": "いま述べた監察制度の現代への移植の話は、社会のしくみのほかの多くの部分にも当てはまります。そこでは古代を引くことがさらに多く、口調はいっそう大仰です。たとえば教育です。政府が生まれてくる世代をその手につかみ、望みどおりに形づくることを許さねばならぬと、どれだけのことを聞かされてきたでしょう。その説を裏づけようと、どれほど博学な引用を披露されてきたことか。ペルシア人、エジプト人、ガリア、ギリシア、イタリアと、次々に私たちの目の前に並べられます。ですが皆さん、私たちは専制君主に服するペルシア人でも、祭司に屈したエジプト人でも、ドルイド僧に生贄にされかねないガリア人でもありません。ましてや、共同体の権力にあずかることで私生活の隷属を慰めていたギリシア人やローマ人でもありません。私たちは近代人です。誰かを損なうことなく、自分の権利をそれぞれに享受し、思うままに自分の力を伸ばしたい。自然が私たちの愛情にゆだねた子どもたちについても、その力の育ちようを見守ってやりたい。その愛情は深いほどいっそうよく見通せるのです。私たちが公権力を必要とするのは、そこがとりまとめることのできる一般的な教育手段を提供してもらうためだけです。旅人は国の整えた街道は使っても、行く先まで指図されはしないのと同じことです。宗教にもまた昔の世紀の記憶が持ち込まれます。教義の統一を守るけなげな人々は、外国の神々を禁じた古代の法律を挙げ、アテネ人は多神教を揺るがしたからとソクラテスを死に追いやったとか、アウグストゥスは人々が父祖の信仰に忠実であることを望んだとかいう例で、カトリック教会の権利を裏づけます。後の例のゆきついた先は、ほどなく初期のキリスト教徒が猛獣の餌食にされたということなのですが。",
+      "translation_status": "reviewed",
+      "source_variants": [
+        {
+          "kind": "diplomatic",
+          "text": "Ce que je viens de dire de la transplantation de la censure dans les temps modernes, s'applique à bien d'autres parties de l'organisation sociale, sur lesquelles on nous cite l'antiquité plus fréquemment encore, et avec bien plus d'emphase. Telle est l'éducation, par exemple; que ne nous dit-on pas sur la nécessité de permettre que le gouvernement s'empare des générations naissantes pour les façonner à son gré, et de quelles citations érudites n'appuie-t-on pas cette théorie! Les Perses, les Égyptiens, et la Gaule, et la Grèce, et l'Italie, viennent tour à tour figurer à nos regards. Eh! Messieurs, nous ne sommes ni des Perses, soumis à un despote, ni des Égyptiens subjugués par des prêtres, ni des Gaulois pouvant être sacrifiés par leurs druides, ni enfin des Grecs et des Romains que leur part à l'autorité sociale consolait de l'asservissement privé. Nous sommes des modernes, qui voulons jouir chacun de nos droits, développer chacun nos facultés comme bon nous semble, sans nuire à autrui; veiller sur le développement de ces facultés dans les enfants que le nature confie à nôtre affection, d'autant plus éclairée qu'elle est plus vive, et n'ayant besoin de l'autorité que pour tenir d'elle les moyens généraux d'instruction qu'elle peut rassembler, comme les voyageurs acceptent d'elle les grands chemins sans être dirigés par elle dans la route qu'ils veulent suivre. La religion aussi est exposée à ces souvenirs des autres siècles. De braves défenseurs de l'unité de doctrine nous citent les lois des anciens contre les dieux étrangers, et appuient les droits de l'église catholique de l'exemple des Athéniens qui firent périr Socrate pour avoir ébranlé le polythéisme, et de celui d'Auguste qui voulait qu'on restât fidèle au culte de ses pères, ce qui fit que, peu de temps après, on livra aux bêtes les premiers chrétiens.",
+          "description_ja": "採用した電子本文の表記。"
+        }
+      ]
+    },
+    {
+      "id": "constant-0054",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 54
+        }
+      ],
+      "source_text": "Défions-nous donc, Messieurs, de cette admiration pour certaines réminiscences antiques. Puisque nous vivons dans les temps modernes je veux la liberté convenable aux temps modernes; et puisque nous vivons sous des monarchies, je supplie humblement ces monarchies de ne pas emprunter aux républiques anciennes des moyens de nous opprimer.",
+      "translation_ja": "ですから皆さん、そうした古代の記憶への陶酔には気をつけましょう。近代を生きる以上、私が欲しいのは近代にふさわしい自由です。また私たちは君主国で暮らしているのですから、私たちを抑圧する手段を古代の共和国から借りてくださるなと、君主国の皆様に謹んでお願いするしだいです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0055",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 55
+        }
+      ],
+      "source_text": "La liberté individuelle, je le répète, voilà la véritable liberté moderne. La liberté politique en est la garantie; la liberté politique est par conséquent indispensable. Mais demander aux peuples de nos jours de sacrifier comme ceux d'autrefois la totalité de leur liberté individuelle à la liberté politique, c'est le plus sûr moyen de les détacher de l'une et quand on y serait parvenu, on ne tarderait pas à leur ravir l'autre.",
+      "translation_ja": "繰り返しますが、個人の自由こそ、近代の本当の自由です。その保障となるのが政治的自由です。だから政治的自由は欠かせません。ところが、昔の民にならって、政治的自由のため個人の自由を残らず犠牲にせよと今の国民に求めるのは、彼らの気持ちを政治的自由から引き離すのに何より確実なやり方です。ひとたびそれに成功すれば、もう一方の自由を奪い取るのにさほど間はかかりません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0056",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 56
+        }
+      ],
+      "source_text": "Vous voyez, Messieurs, que mes observations ne tendent nullement à diminuer le prix de la liberté politique. Je ne tire point des faits que j'ai remis sous vos yeux les conséquences que quelques hommes en tirent. De ce que les anciens ont été libres, et de ce que nous ne pouvons plus être libres comme les anciens, ils en concluent que nous sommes destinés à être esclaves. Ils voudraient constituer le nouvel état social avec un petit nombre d'éléments qu'ils disent seuls appropriés à la situation du monde actuel. Ces éléments sont des préjugés pour effrayer les hommes, de l'égoïsme pour les corrompre, de la frivolité pour les étourdir, des plaisirs grossiers pour les dégrader, du despotisme pour les conduire; et, il le faut bien, des connaissances positives et des sciences exactes pour servir plus adroitement le despotisme. Il serait bizarre que tel fût le résultat de quarante siècles durant lesquels l'espèce humaine a conquis plus de moyens moraux et physiques: je ne puis le penser. Je tire des différences qui nous distinguent de l'antiquité des conséquences tout opposées. Ce n'est point la garantie qu'il faut affaiblir, c'est la jouissance qu'il faut étendre. Ce n'est point a la liberté politique que je veux renoncer; c'est la liberté civile que je réclame, avec d'autres formes de liberté politique. Les gouvernements n'ont pas plus qu'autrefois le droit de s'arroger un pouvoir illégitime. Mais les gouvernements qui partent d'une source légitime ont de moins qu'autrefois le droit d'exercer sur les individus une suprématie arbitraire. Nous possédons encore aujourd'hui les droits que nous eûmes de tout temps, ces droits éternels à consentir les lois, a délibérer sur nos intérêts, à être partie intégrante du corps social dont nous sommes membres. Mais les gouvernements ont de nouveaux devoirs; les progrès de la civilisation, les changements opérés par les siècles, commandent à l'autorité plus de respect pour les habitudes, pour les affections, pour l'indépendance des individus. Elle doit porter sur tous ces objets une main plus prudente et plus légère.",
+      "translation_ja": "おわかりのように皆さん、私の考察は、政治的自由の値打ちを少しでも下げようというものではありません。これまで皆さんにお目にかけた事実から、私は一部の論者と同じ結論を引き出すわけではないのです。彼らは、古代人は自由だったのに、私たちはもう古代人と同じようには自由になれない、ゆえに私たちは奴隷になるのが定めだ、といいます。わずかばかりの材料だけで新しい社会を築こうとし、それらだけが今の世界にふさわしいのだといいます。その材料とは、人を怖じけさせるための偏見、堕落させるための利己心、目をくらませるための軽薄さ、品位を落とすための卑しい快楽、指図してやるための専制、そして、なるほどこれはどうしても要りますが、専制にもっと巧みに仕えるための実証的な知識と精密科学です。人類が精神的にも物質的にも、以前より多くの手段を手にした四千年の歴史の帰結がこれだとしたら、何とも奇妙です。私にはそうは思えません。私たちを古代から分ける違いから、私が導く結論は正反対です。保障を弱めるのではなく、享受できるものを広げなければなりません。私が望むのは政治的自由を捨てることではない。異なる形の政治的自由とともに、市民としての私生活の自由を求めているのです。政府は、正当でない権力を自分のものとする権利を、昔も今ももちません。それどころか、正当な根拠から生まれた政府でさえ、個人に対して恣意的な支配力をふるう権利は昔よりなお少ない。法に同意すること、自分たちの利害について審議すること、自分の属する共同体になくてはならない一部であること。いつの世にも私たちがもってきたこれら不変の権利を、私たちは今ももっています。他方、政府には新たな義務があります。文明の進歩と幾世紀もの変化は、人々の習慣、愛情、独立をこれまで以上に尊重するよう公権力に命じています。こうしたものに触れるなら、今まで以上に慎重に、軽く手を添えるのでなければなりません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0057",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 57
+        }
+      ],
+      "source_text": "Cette réserve de l'autorité, qui est dans ses devoirs stricts, est également dans ses intérêts bien entendus; car si la liberté qui convient aux modernes est différente de celle qui convenait aux anciens, le despotisme qui était possible chez les anciens n'est plus possible chez les modernes. De ce que nous sommes souvent plus distraits de la liberté politique qu'ils ne pouvaient l'être, et dans notre état ordinaire moins passionnés pour elle, il peut s'ensuivre que nous négligions quelquefois trop, et toujours à tort, les garanties qu'elle nous assure; mais en même temps, comme nous tenons beaucoup plus à la liberté individuelle que les anciens, nous la défendrons, si elle est attaquée, avec beaucoup plus d'adresse et de persistance; et nous avons pour la défendre des moyens que les anciens n'avaient pas.",
+      "translation_ja": "公権力がこのように控えめに振る舞うことは、厳密な義務であるだけでなく、よく考えれば公権力自身の利害にもかないます。近代人にふさわしい自由が古代人にふさわしい自由と違うように、古代に可能だった専制は近代ではもはや可能でないからです。私たちは古代人にはありえなかったほどしばしば政治的自由から注意をそらし、ふだんは情熱もさほど強くありません。そのため、政治的自由が与えてくれる保障を軽んじすぎることがときにはありますし、そうするのはいつも間違いです。しかし同時に、個人の自由への愛着は古代人よりはるかに強いのですから、それが脅かされれば、はるかに巧みに、しかも粘り強く守るでしょう。守るための手段も、古代人にはなかったものをもっています。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0058",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 58
+        }
+      ],
+      "source_text": "Le commerce rend l'action de l'arbitraire sur notre existence plus vexatoire qu'autrefois, parce que nos spéculations étant plus variées, l'arbitraire doit se multiplier pour les atteindre; mais le commerce rend aussi l'action de l'arbitraire plus facile a éluder, parce qu'il change la nature de la propriété, qui devient par ce changement presque insaisissable. Le commerce donne à la propriété une qualité nouvelle, la circulation: sans circulation, la propriété n'est qu'un usufruit; l'autorité peut toujours influer sur l'usufruit, car elle peut enlever la jouissance; mais la circulation met un obstacle invisible et invincible à cette action du pouvoir social.",
+      "translation_ja": "商業のある今、権力の恣意が私たちの生活に及ぼす妨害は以前よりわずらわしくなりました。私たちが手がける取引の種類が増えたため、それにまで及ぼうとすれば干渉もまた増えなければならないからです。しかし商業は同時に、恣意的な干渉から逃れることも容易にします。財産の性格が変わって、ほとんどつかまえようのないものになるからです。商業は財産に、流通という新しい性質を与えます。流通しない財産は使用して実りを得られるだけのものです。当局は享受することを奪える以上、その用益にはいつでも手を出せます。ところが流通は、そのように共同体の権力が手を伸ばす前に、見えない、しかも破れない壁を置くのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0059",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 59
+        }
+      ],
+      "source_text": "Les effets du commerce s'étendent encore plus loin: non seulement il affranchit les individus, mais, en créant le crédit, il rend l'autorité dépendante.",
+      "translation_ja": "商業のはたらきはそこで終わりません。個人を解き放つだけでなく、信用を生むことによって、かえって公権力の側を人頼みにするのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0060",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 60
+        }
+      ],
+      "source_text": "L'argent, dit un auteur français, est l'arme la plus dangereuse du despotisme, mais il est en même temps son frein le plus puissant; le crédit est soumis à l'opinion; la force est inutile; l'argent se cache ou s'enfuit; toutes les opérations de l'État sont suspendues. Le crédit n'avait pas la même influence chez les anciens; leurs gouvernements étaient plus forts que les particuliers; les particuliers sont plus forts que les pouvoirs politiques de nos jours; la richesse est une puissance plus disponible dans tous les instants, plus applicable a tous les intérêts, et par conséquent bien plus réelle et mieux obéie; le pouvoir menace, la richesse récompense: on échappe au pouvoir en le trompant; pour obtenir les faveurs de la richesse, il faut la servir: celle-ci doit l'emporter.",
+      "translation_ja": "あるフランスの作家は言いました。金銭は専制のいちばん危険な武器であると同時に、その最も強力な歯止めだ、と。信用は人々の評価にかかっており、腕力など何の役にも立ちません。金は隠れ、あるいは逃げ出し、国の仕事はすべて止まります。古代には信用にこれほどの影響力はなく、政府が私人よりも強かった。今日では私人が政治権力よりも強いのです。富という力は、いつでもすぐに使え、あらゆる利害にはたらきかけやすく、したがってはるかに実効的で、人もよく従います。権力が脅すのに対し、富は報いるのです。権力からは欺けば逃げられるが、富から恵みを引き出すには富に仕えなければならない。勝つのは後者でしょう。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0061",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 61
+        }
+      ],
+      "source_text": "Par une suite des mêmes causes, l'existence individuelle est moins englobée dans l'existence politique. Les individus transplantent au loin leurs trésors; ils portent avec eux toutes les jouissances de la vie privée; le commerce a rapproché les nations, et leur a donné des moeurs et des habitudes à peu près pareilles: les chefs peuvent être ennemis; les peuples sont compatriotes.",
+      "translation_ja": "同じ理由から、個人の生活は以前ほど政治的な生活にすっぽり包み込まれなくなっています。個人は財産を遠くに移し、私生活の楽しみをすべて携えてゆけます。商業は諸国民を近づけ、風俗と習慣をほぼ同じにしました。支配者同士は敵でありえても、民同士は同胞なのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0062",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 62
+        }
+      ],
+      "source_text": "Que le pouvoir s'y résigne donc; il nous faut de la liberté, et nous l'aurons; mais comme la liberté qu'il nous faut est différente de celle des anciens, il faut à cette liberté une autre organisation que celle qui pourrait convenir a la liberté antique; dans celle-ci, plus l'homme consacrait de temps et de force a l'exercice de ses droits politiques, plus il se croyait libre; dans l'espèce de liberté dont nous sommes susceptibles, plus l'exercice de nos droits politiques nous laissera de temps pour nos intérêts privés, plus la liberté nous sera précieuse.",
+      "translation_ja": "ですから、権力にはこれを受け入れてもらいましょう。私たちには自由が要りますし、私たちはそれを手にします。ただ私たちに要るのは古代人の自由とは違うものなので、その自由にも、古代に適したものとは違うしくみが要ります。古代なら、自分の政治的権利の行使に時間と力を注げば注ぐほど、人は自由だと感じました。私たちの時代に可能な自由にあっては、政治的権利を行使してもなお私事のために時間が多く残れば残るほど、自由は私たちに貴重なのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0063",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 63
+        }
+      ],
+      "source_text": "De là vient, Messieurs, la nécessité du système représentatif. Le système représentatif n'est autre chose qu'une organisation à l'aide de laquelle une nation se décharge sur quelques individus de ce qu'elle ne peut ou ne veut pas faire elle-même. Les individus pauvres font eux-mêmes leurs affaires: les hommes riches prennent des intendants. C'est l'histoire des nations anciennes et des nations modernes. Le système représentatif est une procuration donnée à un certain nombre d'hommes par la masse du peuple, qui veut que ses intérêts soient défendus, et qui néanmoins n'a pas le temps de les défendre toujours lui-même. Mais a moins d'être insensés, les hommes riches qui ont des intendants examinent avec attention et sévérité si ces intendants font leur devoir, s'ils ne sont ni négligents ni corruptibles, ni incapables; et pour juger de la gestion de ces mandataires, les commettants qui ont de la prudence se mettent bien au fait des affaires dont ils leur confient l'administration. De même, les peuples qui, dans le but de jouir de la liberté qui leur convient, recourent au système représentatif, doivent exercer une surveillance active et constante sur leur représentants, et se réserver, à des époques qui ne soient pas séparées par de trop longs intervalles, le droit de les écarter s'ils ont trompé leurs voeux, et de révoquer les pouvoirs dont ils auraient abusé.",
+      "translation_ja": "ここに、皆さん、代議制が必要となる理由があります。代議制とは、国民が自分ではできないこと、あるいはすることを望まないことを、何人かに代わってしてもらうしくみにほかなりません。貧しい人は自分の用事は自分でし、富んだ人は財産の管理人を雇います。これはそのまま古代と近代の諸国民の話です。代議制は、利益を守ってもらいたいがいつでも自分で守っているだけの時間はない人々が、何人かに渡す委任状です。しかし管理人を置く金持ちも、よほど愚かでないかぎり、その人が職務を果たしているか、怠けてはいないか、買収に応じはしないか、仕事をする力を欠いてはいないか、注意深く厳しく調べます。任された人の仕事ぶりを判断するために、思慮のある依頼主なら、管理を任せた事業を自分でもよく知っておきます。同じように、自分たちにふさわしい自由を享受したくて代議制を用いる国民は、代表者を活発に、休みなく監視しなければなりません。また、あまり長くない間隔で機会を設け、代表者が期待を裏切れば退け、権限を濫用すれば委任を取り消す権利を自分たちの手に留めておかねばなりません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0064",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 64
+        }
+      ],
+      "source_text": "Car, de ce que la liberté moderne diffère de la liberté antique, il s'ensuit qu'elle est aussi menacée d'un danger d'espèce différente. Le danger de la liberté antique était qu'attentifs uniquement à s'assurer le partage du pouvoir social, les hommes ne fissent trop bon marché des droits et des jouissances individuelles.",
+      "translation_ja": "というのも、近代の自由が古代の自由と異なる以上、それを脅かす危険も別の種類のものだからです。古代の自由の危険は、共同体の権力にあずかることだけに気を取られ、個人の権利と私生活の楽しみをあまりに安く手放してしまうことでした。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0065",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 65
+        }
+      ],
+      "source_text": "Le danger de la liberté moderne, c'est qu'absorbés dans la jouissance de notre indépendance privée, et dans la poursuite de nos intérêts particuliers, nous ne renoncions trop facilement à notre droit de partage dans le pouvoir politique.",
+      "translation_ja": "近代の自由の危険は、私生活の独立を味わうことや自分の利益を追うことにかまけて、政治権力にあずかる権利を、私たちがあっさり放棄してしまうことです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0066",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 66
+        }
+      ],
+      "source_text": "Les dépositaires de l'autorité ne manquent pas de nous y exhorter. Ils sont si disposés à nous épargner toute espèce de peine, excepté celle d'obéir et de payer! Ils nous diront: Quel est au fond le but de vos efforts, le motif de vos travaux, l'objet de toutes vos espérances? N'est-ce-pas le bonheur? Eh bien, ce bonheur, laissez-nous faire, et nous vous le donnerons. Non, Messieurs, ne laissons pas faire; quelque touchant que ce soit un intérêt si tendre, prions l'autorité de rester dans ses limites; qu'elle se borne à être juste. Nous nous chargerons d'être heureux.",
+      "translation_ja": "権力を預かる人々は、そうするよう熱心に勧めてくれます。服従と納税の苦労だけは別として、それ以外の苦労は何でも私たちに代わって引き受けてくれる気前のよさです！　彼らは言うでしょう。「そもそも皆さんは何を目指して励み、何のために働き、何を期待しておいでですか。幸福でしょう。でしたらお任せください。その幸福は私たちが差し上げます」。いいえ、皆さん、任せてはなりません。それほど親身なお心遣いにはどんなに胸を打たれようとも、権力には自分の限界を越えないようお願いしましょう。公正であることだけを仕事にしてもらいましょう。幸福になるのは、私たちの仕事です。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0067",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 67
+        }
+      ],
+      "source_text": "Pourrions-nous l'être par des jouissances, si ces jouissances étaient séparées des garanties? Et où trouverions-nous ces garanties, si nous renoncions à la liberté politique? Y renoncer, Messieurs, serait une démence semblable à celle d'un homme qui, sous prétexte qu'il n'habite qu'un premier étage, prétendrait bâtir sur le sable un édifice sans fondements.",
+      "translation_ja": "そもそも、楽しみがそれを守る保障から切り離されたら、その楽しみで幸福になれるでしょうか。政治的自由を捨ててしまえば、どこにそうした保障が見つかるでしょうか。皆さん、それを放棄するのは、住むのは二階だけだからといって、砂の上に土台のない家を建てようとする人と同じくらい、正気を欠いたことです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0068",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 68
+        }
+      ],
+      "source_text": "D'ailleurs, Messieurs, est-il donc si vrai que le bonheur, de quelque genre qu'il puisse être, soit le but unique de l'espèce humaine? En ce cas, notre carrière serait bien étroite et notre destination bien peu relevée. Il n' est pas un de nous qui, s'il voulait descendre, restreindre ses facultés morales, rabaisser ses désirs, abjurer l'activité, la gloire, les émotions généreuses et profondes, ne pût s'abrutir et être heureux, Non, Messieurs, j'en atteste cette partie meilleure de notre nature, cette noble inquiétude qui nous poursuit et qui nous tourmente, cette ardeur d'étendre nos lumières et de développer nos facultés; ce n'est pas au bonheur seul, c'est au perfectionnement que notre destin nous appelle; et la liberté politique est le plus puissant, le plus énergique moyen de perfectionnement que le ciel nous ait donné.",
+      "translation_ja": "それに、皆さん、どんな種類の幸福であれ、幸福が人類の唯一の目的だというのは、それほど確かなことでしょうか。そうだとすれば、私たちが進む道はあまりに狭く、その使命はまことに低いものです。身を落とし、精神の力を縮め、望みを低くし、活動することも、栄誉も、気高く深い感情も捨てさえすれば、誰だって愚鈍になり、幸福になることぐらいできるではありませんか。いいえ、皆さん、私たちの本性のうちのより良い部分にかけて申します。私たちを追い立て悩ませるあの気高い落ち着かなさ、知識を広げ、もてる力を伸ばそうとするあの熱意にかけて申します。私たちの運命が呼びかけているのは、幸福だけでなく、自己をいっそう高めることなのです。そして、私たち自身を高めるために天が与えてくれた手段の中で、政治的自由ほど強力で、力に満ちたものはありません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0069",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 69
+        }
+      ],
+      "source_text": "La liberté politique soumettant à tous les citoyens, sans exception, l'examen et l'étude de leurs intérêts les plus sacrés, agrandit leur esprit, anoblit leurs pensées, établit, entre eux tous une sorte d'égalité intellectuelle qui fait la gloire et la puissance d'un peuple.",
+      "translation_ja": "政治的自由は、いちばん大切な自分たちの利害を検討し学ぶ仕事を、例外なくあらゆる市民にゆだねます。そうして心を広げ、考えを気高くし、すべての市民の間に一種の知的な平等を生みます。それが一国民の栄光であり、力なのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0070",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 70
+        }
+      ],
+      "source_text": "Aussi, voyez comme une nation grandit à la première institution qui lui rend l'exercice régulier de la liberté politique. Voyez nos concitoyens de toutes les classes, de toutes les professions, sortant de la sphère de leurs travaux habituels et de leur industrie privée, se trouver soudain au niveau des fonctions importantes que la constitution leur confie, choisir avec discernement, résister avec énergie, déconcerter la ruse, braver la menace, résister noblement à la séduction. Voyez le patriotisme pur, profond et sincère, triomphant dans nos villes et vivifiant jusqu'à nos hameaux, traversant nos ateliers, ranimant nos campagnes, pénétrant du sentiment de nos droits et de la nécessité des garanties l'esprit juste et droit du cultivateur utile et du négociant industrieux, qui, savants dans l'histoire des maux qu'ils ont subis, et non moins éclairés sur les remèdes qu'exigent ces maux, embrassent d'un regard la France entière, et, dispensateurs de la reconnaissance nationale, récompensent par leurs suffrages, après trente années, la fidélité aux principes dans la personne du plus illustre des défenseurs de la liberté *).",
+      "translation_ja": "実際、政治的自由をふたたび規則的に行使できる最初の制度ができただけで、一国の民がどれほど成長するか、ご覧なさい。あらゆる階層、あらゆる職業の同胞が、日ごろの仕事や自分の生業の範囲を出るや、たちまち憲法から託された重い役割にふさわしい力を示すのを見てください。見識をもって選び、力強く踏みとどまり、策略を挫き、脅しにひるまず、誘惑も気高く退けます。清らかで深く誠実な祖国への愛が、町々で勝ちを収め、僻村にまで命を吹き込み、仕事場を通り抜け、田園をよみがえらせるのを見てください。世の役に立つ農民、まめに働く商人の公正でまっすぐな心に、自分たちの権利と、その保障の必要とを深く感じさせます。自ら受けてきた災いの歴史を知り、その災いに要る救済策にもまた通じた彼らは、一望のもとにフランス全土を見渡します。そして国民の感謝を誰に贈るかを決める者として、三十年ののち、ひときわ名高い自由の擁護者［1］に票を投じ、原則を守り抜いたその忠節に報いるのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0071",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 71
+        }
+      ],
+      "source_text": "Loin donc, Messieurs, de renoncer à aucune des deux espèces de liberté dont je vous ai parlé, il faut, je l'ai démontré, apprendre à les combiner l'une avec l'autre. Les institutions, comme le dit le célèbre auteur de l'Histoire des républiques du moyen âge, doivent accomplir les destinées de l'espèce humaine; elles atteignent d'autant mieux leur but qu'elles élèvent le plus grand nombre possible de citoyens à la plus haute dignité morale.",
+      "translation_ja": "ですから皆さん、これまでお話しした二種類の自由は、どちらかを手放すどころか、互いに結びつけるすべを学ばねばなりません。その必要はもうお示ししたとおりです。『中世共和国史』の名高い著者が言うように、諸制度は人類の使命を成就するものでなくてはなりません。できるだけ多くの市民を最も高い道徳的な品位に引き上げるほど、制度はその目的をよく果たすのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0072",
+      "section_id": "lecture",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 72
+        }
+      ],
+      "source_text": "L'oeuvre du législateur n'est point complète quand il a seulement rendu le peuple tranquille. Lors même que ce peuple est content, il reste encore beaucoup à faire. Il faut que les institutions achèvent l'éducation morale des citoyens. En respectant leurs droits individuels, en ménageant leur indépendance, en ne troublant point leurs occupations, elles doivent pourtant consacrer leur influence sur la chose publique, les appeler à concourir, par leurs déterminations et par leurs suffrages, à l'exercice du pouvoir, leur garantir un droit de contrôle et de surveillance par la manifestation de leurs opinions, et les formant de la sorte par la pratique à ces fonctions élevées, leur donner à la fois et le désir et la faculté de s'en acquitter.",
+      "translation_ja": "立法者の仕事は、人民をただ平穏にしただけでは完成しません。人民が満足していてさえ、まだなすべきことは多くあります。制度は市民の道徳教育を完成させなければならないのです。個人の権利を尊重し、独立を大切にし、仕事を妨げず、それでもなお、公の事柄に市民の影響力が及ぶことを確かなものとしなければなりません。市民がみずからの決定と投票によって権力の行使に加わるよう促し、意見を表明してその行使を点検し監視する権利を保障すること。そして、こうして実践を通じてそれらの高い責務を果たせるよう育て、その責務を担いたいという意欲と担えるだけの力を、ともに与えることです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "constant-0073",
+      "section_id": "lecture",
+      "kind": "note_body",
+      "origin": "source",
+      "source_languages": [
+        "fr"
+      ],
+      "source_locations": [
+        {
+          "source_id": "augustana-1820",
+          "precision": "work",
+          "source_sequence": 73
+        }
+      ],
+      "source_text": "Monsieur de Lafayette, nommé député par la Sarthe.",
+      "translation_ja": "サルト県から代議士に選ばれたラファイエット氏のこと。",
+      "translation_status": "reviewed"
+    }
+  ],
+  "notes": [
+    {
+      "id": "constant-lafayette",
+      "label": "1",
+      "origin": "author",
+      "body": [
+        {
+          "segment_id": "constant-0073"
+        }
+      ],
+      "form": "footnote"
+    }
+  ],
+  "references": [
+    {
+      "id": "constant-ref-lafayette",
+      "kind": "note",
+      "origin": "source",
+      "label": "1",
+      "status": "verified",
+      "from": {
+        "segment_id": "constant-0070",
+        "source_span": {
+          "start": 1134,
+          "end": 1136,
+          "exact": "*)"
+        },
+        "translation_span": {
+          "start": 392,
+          "end": 395,
+          "exact": "［1］"
+        }
+      },
+      "to": {
+        "type": "note",
+        "id": "constant-lafayette"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "portrait-carnavalet",
+      "status": "available",
+      "path": "assets/constant-de-la-liberte-des-anciens/constant-portrait-carnavalet-p1331.jpg",
+      "media_type": "image/jpeg",
+      "width": 479,
+      "height": 585,
+      "bytes": 33939,
+      "sha256": "2b143a4a28adf8f7caf29cf4299c909b6a5d0d9fa3df79b599a5c998bfccb61c",
+      "source_locations": [
+        {
+          "source_id": "p1331",
+          "precision": "work",
+          "url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/portrait-de-benjamin-constant-1767-1830-ecrivain-et-homme-politique-1"
+        }
+      ],
+      "rights": {
+        "status": "licensed",
+        "license_id": "CC0-1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence_url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/portrait-de-benjamin-constant-1767-1830-ecrivain-et-homme-politique-1",
+        "attribution": "Paris Musées / Musée Carnavalet – Histoire de Paris, P1331",
+        "note_ja": "作者不詳、1810年から1820年。美術館がCC0で提供する油彩肖像の複製。"
+      }
+    }
+  ],
+  "provenance": {
+    "independent_book_record": "https://catalogue.bnf.fr/ark:/12148/cb45055184j",
+    "independent_book_note": "講演の現代の単行版。Paris : Berg international, 2014, 51 p., ISBN 978-2-37020-092-1。底本ではなく、序文その他の現代人の文章は利用していない。",
+    "transcription_method": "1820年版のフランス語を伝えるBibliotheca Augustanaにより、電子版の明らかな誤記を補正した箇所は異読を併記。",
+    "portrait_source_image_url": "https://www.parismuseescollections.paris.fr/sites/default/files/styles/pm_diaporama/public/atoms/images/CAR/lpdp_39967-3.jpg?itok=EhBnLirZ"
+  },
+  "workflow": {
+    "stage": "ready",
+    "full_review": {
+      "status": "complete",
+      "reviewed_by": "日本人文・原文訳文全文対照",
+      "completed_at": "2026-11-21T08:23:50Z",
+      "content_sha256": "072cf2f93f05b094df041708b5700d958adef566c70dcf1e27f61dd7d3c52ed4"
+    }
+  }
+}

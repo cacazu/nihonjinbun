@@ -1,0 +1,759 @@
+schema_version: '2.0'
+work_id: mill-suffrage-for-women
+metadata:
+  title_ja: 女性に選挙権を
+  title_original: Suffrage for Women
+  original_languages:
+  - en
+  target_language: ja
+  contributors:
+  - id: john-stuart-mill
+    name_ja: ジョン・スチュアート・ミル
+    name_original: John Stuart Mill
+    roles:
+    - author
+  translation_rights:
+    status: public_domain
+    license_id: CC0-1.0
+    license_url: https://creativecommons.org/publicdomain/zero/1.0/
+    attribution: 日本人文
+  cover_asset_id: mill-1867-front
+sources:
+- id: aea1867
+  role: primary
+  title: Suffrage for Women. Speech by John Stuart Mill, in the British Parliament, May 20th, 1867.
+  edition: 'Equal Rights Tract, No. 6. New York: American Equal Rights Association, 1867. Library of Congress, LCCN 09033376.'
+  url: https://archive.org/details/suffrageforwomen00mill_0
+  languages:
+  - en
+  work_rights:
+    status: public_domain
+    evidence_url: https://www.loc.gov/item/09033376/
+    attribution: John Stuart Mill (1806–1873), American Equal Rights Association, New York, 1867.
+    note_ja: 1867年刊の著作。著者は1873年没。
+  transcription_rights:
+    status: public_domain
+    license_id: CC0-1.0
+    license_url: https://creativecommons.org/publicdomain/zero/1.0/
+    attribution: 日本人文による1867年版からの英語翻刻。米国議会図書館蔵本。
+    note_ja: 原刊紙面を用いてOCRの誤りを訂正し、行末分綴を接続した。
+  sha256: 07887aeee14a84ca90994ebb47d32f3ae7cdec2af574e42fa131b03e18e12a6c
+scope:
+  included:
+  - source_id: aea1867
+    description_ja: 米国版の叢書名・標題、1867年5月20日に英国下院で行われた提案演説全文と議場の反応、末尾で版元が加えた採決結果・新聞記事の引用（全16頁）。原注・図版はない。
+  excluded:
+  - source_id: aea1867
+    description_ja: 各頁の柱・蔵書の書き込みと、最終頁の他冊広告・頒価・注文案内。英国議会の他議員の発言やミルの再答弁はこの冊子に収録されていない。
+  known_gaps: []
+sections:
+- id: front
+  kind: editorial_group
+  parent_id: null
+  origin: editorial
+  heading_segment_ids: []
+  label_ja: 標題
+- id: speech
+  kind: editorial_group
+  parent_id: null
+  origin: editorial
+  heading_segment_ids: []
+  label_ja: 英国議会での演説
+- id: report
+  kind: editorial_group
+  parent_id: null
+  origin: editorial
+  heading_segment_ids: []
+  label_ja: 採決と当時の報道
+segments:
+- id: series
+  section_id: front
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '1'
+    printed_page_end: '1'
+    pdf_page: 1
+    source_sequence: 1
+  source_text: EQUAL RIGHTS TRACT. . . . . No. 6.
+  translation_ja: 平等権小冊子　第六号
+  translation_status: reviewed
+- id: title
+  section_id: front
+  kind: heading
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '1'
+    printed_page_end: '1'
+    pdf_page: 1
+    source_sequence: 2
+  source_text: SUFFRAGE FOR WOMEN.
+  translation_ja: 女性に選挙権を
+  translation_status: reviewed
+- id: subtitle
+  section_id: front
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '1'
+    printed_page_end: '1'
+    pdf_page: 1
+    source_sequence: 3
+  source_text: SPEECH BY JOHN STUART MILL, IN THE BRITISH PARLIAMENT, May 20th, 1867.
+  translation_ja: 一八六七年五月二十日、英国議会におけるジョン・スチュアート・ミルの演説
+  translation_status: reviewed
+- id: mill-001
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '1'
+    printed_page_end: '2'
+    pdf_page: 1
+    source_sequence: 4
+  source_text: I rise, sir, to propose an extension of the suffrage which can excite no party or class feeling in the house—which can give no umbrage to the keenest assertor of the claims either of property or of numbers; an extension which has not the faintest tendency to disturb, what we have heard so much about lately, the balance of political power; which cannot afflict the most timid alarmist by any revolutionary terrors, or offend the most jealous democrat as an infringement of popular rights, or a privilege granted to one class of society at the expense of another. There is nothing to distract our minds from the simple consideration whether there is any reasonable ground for excluding an entire half of the Nation, not only from actual admission, but from the very possibility of being admitted within the pale of citizenship, though they may fulfil every one of the conditions legally and constitutionally sufficient in all cases but theirs. This is, under the laws of our country, a solitary case. There is no other example of an exclusion which is absolute. If it were the law that none should have a vote but the possessors of £5,000 a year, the poorest man in the community might, and now and then would, attain to the privilege. But neither birth, nor merit, nor exertion, nor intellect, nor fortune, nor even that great disposer of human affairs—accident, can enable any woman to have her voice counted in those common concerns which touch her and hers as nearly as any other person in the Nation.
+  translation_ja: 委員長、私が提案する選挙権の拡張は、この議場に党派や階級の対立を引き起こすものではありません。財産を何より重んじる方にも、人数を何より重んじる方にも、何ひとつ差し障りはありません。近ごろしきりに耳にする政治勢力の均衡も、いささかも揺らぎません。どれほど臆病な心配性の方にも革命の恐怖を味わわせるものではなく、人民の権利に目を光らせる民主主義者にも、その権利を侵すとか、ある階級の犠牲で別の階級に特権を与えるなどと言われるものではありません。ですから、ただ一つの問いを、気を散らさずに考えられます。他の誰に対しても法律上、憲法上十分とされる条件を一つ残らず満たしていても、国民の半数を市民の列に加えず、それどころか加わる可能性さえ閉ざす。そのような区別に、何かもっともな理由があるでしょうか。わが国の法律に、このほかに例はありません。これほど絶対的な排除は他にはないのです。仮に年収五千ポンド以上の者しか投票できないという法律があっても、社会で最も貧しい男にも、いつかその権利を得る可能性はあり、ときには実際にそのようなことも起きるでしょう。ところが女性の場合、生まれも、功績も、努力も、知力も、財産も、さらには人の世を思うままに動かすあの偶然の力でさえ、何の役にも立ちません。自分と家族にとって、国の誰にとってもそうであるのと同じほど切実な公共の事柄について、女性はただの一人も、その声を数に入れてもらえないのです。
+  translation_status: reviewed
+- id: mill-002
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '2'
+    printed_page_end: '3'
+    pdf_page: 2
+    source_sequence: 5
+  source_text: Now, sir, before going any farther, permit me to say that a prima facie case is already made out. It is not just to make distinctions, in rights and privileges, between one of Her Majesty’s subjects and another, unless for a positive reason. I do not mean that the suffrage, or any other political function, is an abstract right, or that to withhold it from any one, on sufficient grounds of expediency, is a personal wrong; it is an utter misunderstanding of the principle I maintain to confound this with it; my whole argument is one of expediency. But all expediencies are not on exactly the same level. There is a kind of expediency which is called justice; and justice, though it does not necessarily demand that we should bestow political rights on every one, does demand that we should not capriciously and without cause give those rights to one and withhold them from another. As was most justly said by my right honorable friend, the member for South Lancashire, in the most misunderstood and misrepresented speech that I ever remember, to lay a ground for the denial of the franchise to any one, it is necessary to allege either personal unfitness or public danger. Can either of these be asserted in the present case? Can it be pretended that women who manage a property or conduct a business, who pay rates and taxes, often to a large amount, and often from their own earnings, many of whom are responsible heads of families, and some of whom, in the capacity of schoolmistresses, teach more than a great many of the male electors have ever learnt, are not capable of a function of which every male householder is capable? Or is it supposed that, if they were allowed to vote, they would revolutionize the State, subvert any of our valuable institutions, or that we should have worse laws, or be, in any single respect, worse governed by means of their suffrage? [Hear, hear.]
+  translation_ja: 委員長、先へ進む前に、これだけは申し上げておきたい。ここまでですでに、反対する側が理由を示すべきところまで来ています。女王陛下の臣民のうち、ある者とある者の権利や特権に差をつけることは、はっきりした理由がないかぎり、公正ではありません。選挙権をはじめ政治上の役割を抽象的な権利だと言うのではありません。公益上の十分な理由があって誰かにそれを認めないことが、その人個人に対する不正だと言うのでもない。私の原則をそのような考えと一緒にするのは、まったくの誤解です。私の議論は最初から最後まで、何が人々のためになるかという議論です。ただし、何の役に立つかは、すべて同じ重みで測れるものではありません。その中には正義と呼ばれるものがあります。正義は必ずしも万人に政治的権利を与えよとは命じませんが、ある者には与え、別の者には与えないという区別を、気まぐれに、理由もなく設けてはならない、と命じています。私の友人である南ランカシャー選出の議員が、私の記憶するかぎり最も誤解され、最も歪めて伝えられたあの演説で、まことに正しく言われたとおりです。誰かに選挙権を認めない根拠を示すには、本人に適性がないか、公共に危険が及ぶか、そのどちらかを申し立てなければなりません。今の場合、どちらが言えるでしょうか。財産を管理し、事業を切り盛りし、地方税も国税も納めている女性たちがいます。納める額は大きいことも多く、しかも自分の稼ぎから出していることが珍しくない。多くは一家の責任を負い、中には教師として、大勢の男性有権者がこれまでに学んだ以上のことを教えている人もいる。その人たちに、男性の世帯主なら誰にでも果たせる役割が果たせない、と言い張れるでしょうか。それとも女性に投票を認めれば、国家に革命が起こり、大切な制度が何か覆り、法律の質が落ち、あるいは何か一点でも政治が悪くなるとお考えでしょうか。〔そうだ、そうだ〕
+  translation_status: reviewed
+  annotations:
+  - side: source
+    kind: emphasis
+    span:
+      start: 60
+      end: 71
+      exact: prima facie
+  - side: translation
+    kind: emphasis
+    span:
+      start: 35
+      end: 48
+      exact: 反対する側が理由を示すべき
+- id: mill-003
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '3'
+    printed_page_end: '3'
+    pdf_page: 3
+    source_sequence: 6
+  source_text: No one thinks anything of the kind; and it is not only the general principles of justice that are infringed, or at any rate set aside, by excluding women, merely as women, from the election of representatives. That exclusion is repugnant to the particular principles of the British Constitution. It violates the oldest of our constitutional axioms—a principle dear to all reformers, and theoretically acknowledged by conservatives—that taxation and representation should be co-extensive; that the taxes should be voted by those who pay them. Do not women pay taxes? Does not every woman who is sui juris pay exactly the same as a man who has the same electoral qualifications? If having a stake in the country means anything, the owner of freehold or leasehold property has the same stake, whether it is owned by a man or a woman.
+  translation_ja: そんなことは誰も考えていません。女性をただ女性であるというだけで代表者の選挙から除くとき、侵される、少なくとも脇に追いやられるのは、正義の一般原則だけではありません。それは英国の憲法に固有の原則にも背いています。課税される者と議会に代表される者とは一致すべきであり、税を議決すべきなのはそれを払う人々である。これはわが憲法で最も古い公理で、すべての改革派が大切にし、保守派も理屈の上では認めるものですが、女性の排除はこれに反します。女性は税金を払いませんか。法律上独立している女性は皆、同じ選挙資格を持つ男性と、まったく同じように税金を払っていませんか。この国に利害を持つという言葉に意味があるのなら、土地を保有する権利であれ賃借権であれ、その持ち主が男でも女でも、利害は同じです。
+  translation_status: reviewed
+  annotations:
+  - side: source
+    kind: emphasis
+    span:
+      start: 594
+      end: 603
+      exact: sui juris
+  - side: translation
+    kind: emphasis
+    span:
+      start: 229
+      end: 238
+      exact: 法律上独立している
+- id: mill-004
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '3'
+    printed_page_end: '3'
+    pdf_page: 3
+    source_sequence: 7
+  source_text: 'There is evidence in our constitutional records that women have voted in counties and in some boroughs at former, though certainly distant, periods of history. But the house will expect that I should not rest my case on general principles, either of justice or of the Constitution, but should produce what are called practical arguments. Now I frankly admit that one very serious practical argument is entirely wanting in the case of women: they do not hold great meetings in Hyde Park—[laughter]—nor demonstrations at Islington.'
+  translation_ja: わが国の憲政の記録には、たしかに遠い昔のことではありますが、女性が州でも、いくつかの都市選挙区でも、投票した証拠があります。しかしこの議場で期待されているのは、私が正義なり憲法なりの一般原則に頼ることではなく、いわゆる実際上の論拠を挙げることでしょう。一つ、実際上きわめて有力な論拠が、女性の場合にはまったく欠けています。率直に認めます。女性はハイド・パークで大集会を開いていませんし〔笑い〕、イズリントンで示威運動もしていません。
+  translation_status: reviewed
+- id: mill-005
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '3'
+    printed_page_end: '4'
+    pdf_page: 3
+    source_sequence: 8
+  source_text: 'How far this omission may be considered to invalidate their claims, I will not pretend to say. But other practical arguments—practical even in the most restricted sense of the term—are not wanting; and I am ready to state them if I may first be allowed to ask, Where are the practical objections? In general, the difficulty which people feel on this subject is not a practical objection; there is nothing practical in it; it is a mere feeling—a feeling of strangeness. The idea is so very new; at least they think so, though that is a mistake: it is a very old idea. Well, sir, strangeness is a thing which wears off. Some things were strange enough to many of us three months ago which are not at all so now; and many which are strange now will not be strange to the same person a few years hence, not to say a few months; and, as for novelty, we live in a world of novelties.'
+  translation_ja: それをしないことで女性の要求がどれほど効力を失うものなのか、私に分かるなどとは申しません。ですが、実際上の論拠はほかにあります。「実際上」をどれほど狭い意味にとってもです。それを申し上げる前に、一つだけ伺いたい。実際上の反対理由はどこにあるのでしょうか。たいていの人がこの問題で引っかかるのは、実際上の反対理由ではありません。そこに実際の問題は何一つない。ただの感じ、なじみがないという感じなのです。この考えはあまりに新しい、と。少なくともそう思われていますが、それは間違いで、実はたいへん古い考えです。それになじみのなさなら、時とともに消えていきます。三か月前にはわれわれの多くがひどく奇異に思っていたのに、今では少しもそう思わないことがあります。今奇異に思っていることの多くも、同じ人が数年後、いや数か月後には奇異に思わなくなるでしょう。そもそも新しいものと言うなら、われわれの暮らす世の中は新しいものだらけです。
+  translation_status: reviewed
+- id: mill-006
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '4'
+    printed_page_end: '4'
+    pdf_page: 4
+    source_sequence: 9
+  source_text: 'The despotism of custom is on the wane: we are not now content to know that things are: we ask whether they ought to be; and in this house, I am bound to suppose that an appeal lies from custom to a higher tribunal, in which reason is judge. Now, the reasons which custom is in the habit of giving for itself on this subject are very brief: that, indeed, is one of my difficulties. It is not easy to refute an interjection. Interjections, however, are the only arguments among those we usually hear on this subject which it appears to me at all difficult to refute.'
+  translation_ja: 慣習が専制君主のように支配する時代は衰えつつあります。もはや、そうなっていると知るだけで満足せず、そうあるべきなのかと問うようになりました。少なくともこの議場では、慣習の下した判決を不服として、理性を裁判官とする上級の法廷に訴えられるものと考えてよいはずです。ところでこの問題について、慣習がいつも自分を弁護する理由は、実に短い。まさにそこが、私には厄介なのです。感嘆のひと声に反論するのは、なかなか難しい。しかしこの件で日ごろ耳にする言い分のうち、少しでも反論が難しそうなのは、こうした声だけです。
+  translation_status: reviewed
+- id: mill-007
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '4'
+    printed_page_end: '4'
+    pdf_page: 4
+    source_sequence: 10
+  source_text: 'The others chiefly consist of such aphorisms as these: Politics is not women’s business, and would make them neglect their proper duties. Women do not desire the suffrage, and would rather not have it. Women are sufficiently represented through their male relatives. Women have power enough already. I shall perhaps be thought to have done enough in the way of answering, when I have answered all these: it may, perhaps, instigate any honorable gentleman who takes the trouble of replying to me, to produce something more recondite. [Hear.]'
+  translation_ja: あとはおおむね、こういう決まり文句です。政治は女の仕事ではない、政治に関われば本来の務めを怠る。女性は選挙権を欲しがっていない、むしろないほうがよいと思っている。女性の利害は男性の身内を通じて十分に代表されている。女性にはもう十分に力がある。ひとまずこのすべてにお答えすれば、反論としては十分とお認めいただけるでしょう。そうすれば、わざわざ私にお答えくださる議員のどなたかも奮い立って、もう少し奥の深い反論を出してくださるかもしれません。〔そうだ〕
+  translation_status: reviewed
+- id: mill-008
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '4'
+    printed_page_end: '5'
+    pdf_page: 4
+    source_sequence: 11
+  source_text: Politics, it is said, is not a woman’s business. Well, sir, I am not aware that politics is a man’s business either, unless he is one of the few who is paid for devoting his time to the public service, or is a member of this or of the other house. The great majority of male voters have their own business, which engrosses nearly the whole of their time; but I have never heard that the hours occupied in attending, once in a few years, at a polling booth, even if we throw in the time spent in reading newspapers and political treatises, has hitherto made them neglect their shops or their counting houses. I have not heard that those who have votes are worse merchants, or worse lawyers, or worse physicians, or even worse clergymen, than other people. One would think that the British Constitution allowed no man to vote who was not able to give up the greater part of his time to politics; if that were the case, we should have a very limited constituency.
+  translation_ja: 政治は女性の仕事ではない、と言われます。委員長、政治が男性の仕事だという話も、私は聞いたことがありません。公務に時間をささげて報酬を受ける少数の人か、こちらかもう一方の院の議員であれば別ですが。男性有権者の大多数は、自分の仕事にほぼすべての時間を費やしています。それでも、数年に一度投票所に足を運ぶのに使う何時間かのために、店や事務所をほったらかしたとは聞きません。新聞や政治を論じた文章を読む時間まで足しても、同じことです。選挙権を持っていると、ほかの人より商人として、弁護士として、医師として、はては聖職者としてまで劣るという話も聞きません。まるでわが憲法が、大半の時間を政治にささげられる男にしか投票を許していないかのような言いようです。それなら有権者の数は、よほど限られたものになるでしょう。
+  translation_status: reviewed
+- id: mill-009
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '5'
+    printed_page_end: '5'
+    pdf_page: 5
+    source_sequence: 12
+  source_text: But let me ask, what is the meaning of political freedom? Is it not the control of those who do make a business of politics by those who do not? It is the very principle of constitutional liberty that men come from their looms and their forges to decide—and decide well—whether they are properly governed, and whom they will be governed by; and the nations who prize this privilege, and who exercise it fully, are invariably those who excel most in the common affairs of life.
+  translation_ja: そもそも政治的自由とは何でしょうか。政治を職業とする人を、政治を職業としない人が監督することではありませんか。人々は織機や鍛冶場を離れて出てきて、自分たちはきちんと治められているか、誰に治めてもらうのかを判断する。そしてその判断を立派に下す。これこそ立憲の自由の原理です。この権利を大切にし、十分に行使する国民こそ、例外なく、日々の暮らしにかかわる仕事にも最も秀でているのです。
+  translation_status: reviewed
+- id: mill-010
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '5'
+    printed_page_end: '5'
+    pdf_page: 5
+    source_sequence: 13
+  source_text: The occupations of most women are, and are likely to remain, principally domestic; but the idea that those occupations are incompatible with taking an interest in national affairs, or in any of the great concerns of humanity, is as futile as the terror once sincerely entertained, lest artisans should desert the work-shop and the factory if they were taught to read.
+  translation_ja: 大半の女性の仕事は主に家庭にあり、これからもおそらくそうでしょう。しかしその仕事が、国の事柄や人類にとって重大な問題に関心を持つことと両立しないという考えには、かつてまじめに抱かれていた、あの恐れほどの根拠しかありません。職人に読み方を教えたら、仕事場や工場を投げ出してしまう、という恐れです。
+  translation_status: reviewed
+- id: mill-011
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '5'
+    printed_page_end: '6'
+    pdf_page: 5
+    source_sequence: 14
+  source_text: I know there is an obscure feeling, a feeling which is ashamed to express itself openly, that women have no right to care about anything but how they may be the most useful and devoted servants of some man. But as I am convinced that there is not one member of this house whose conscience accuses him of any such mean feeling, I may say that the claim to confiscate the whole existence of half the human species for the convenience of the other half, seems to me, independently of its injustice, particularly silly. For who that has had ordinary experience of human life, and ordinary capacity for profiting by that experience, fancies that those do their own business best who understand nothing else? A man has lived to little purpose who has not learned that without general mental cultivation no particular work that requires understanding can be done in the best manner. It requires brains to use practical experience; and brains, even without practical experience, go further than any amount of practical experience without brains.
+  translation_ja: 口に出すのはさすがに恥ずかしい、漠然とした思いがあるのは知っています。女性には、どうしたらある男性にとっていちばん役に立つ、献身的な召使になれるか、それ以外のことを気にかける権利などない、というのです。しかしこの議場には、そんな卑しい思いに良心がとがめる議員など一人もいないと信じますので、申し上げます。人類の半分に都合がよいというだけで、残り半分の生涯をそっくり取り上げてよいとする主張は、不公正だという以前に、ずいぶん愚かな話です。人並みに人生を経験し、そこから人並みに学べる人で、ほかの何一つ分からない人こそ自分の仕事をいちばんよくこなす、と思う人がいるでしょうか。幅広く知性を養わずに、理解力を要する個々の仕事を最善の仕方でこなすことはできない。これを学ばなかった人は、何のために生きてきたのでしょう。実地の経験を生かすには頭が要ります。頭が働けば、実地の経験がなくても、いくら経験があっても頭を働かせない人より、先へ進めるのです。
+  translation_status: reviewed
+- id: mill-012
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '6'
+    printed_page_end: '6'
+    pdf_page: 6
+    source_sequence: 15
+  source_text: But perhaps it is thought that the ordinary occupations of women are more antagonistic than men’s occupations are to any comprehension of public affairs. Perhaps it is thought that those who are principally charged with the moral education of the future generations of men must be quite unfit to judge of the moral and educational interest of a community; or that those whose chief daily business is the judicious laying out of money so as to produce the greatest results with the smallest means, could not give any lessons to right honorable gentlemen on that side of the house, or on this, who produce such singularly small results with such vast means. [Laughter.]
+  translation_ja: ひょっとすると、女性の日常の仕事は、男性の日常の仕事以上に、公の事柄を理解する妨げになるとお考えでしょうか。次の時代の人々を道徳の面で育てる責任を主に負っている人たちは、社会の道徳や教育のために何がよいかを判断するのには、まったく向いていないというのでしょうか。あるいは、毎日のおもな仕事が、わずかな元手でできるかぎりの成果を上げるよう、よく考えてお金を使うことにある人は、議場のあちら側、あるいはこちら側にお座りの、あれほど莫大な元手であれほど見事にわずかな成果しか上げておられない方々には、何一つ教えられないとでもお考えでしょうか。〔笑い〕
+  translation_status: reviewed
+- id: mill-013
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '6'
+    printed_page_end: '7'
+    pdf_page: 6
+    source_sequence: 16
+  source_text: 'I feel a degree of confidence, sir, on this subject, which I could not feel if the political change, in itself not a great or formidable one, for which I contend, were not grounded, as beneficent and salutary political changes usually are, upon a previous social change. The idea of a peremptory and absolute line of separation between men’s province of thought and women’s—the notion of forbidding women to take interest in what interests men—belongs to a gone-by state of society which is receding farther and farther into the past. We think and talk about the political revolutions of the world, but we do not pay sufficient attention to the fact that there has taken place among us a silent domestic revolution: women and men are, for the first time in history, really companions. Our traditions about the proper relations between them have descended to us from a time when their lives were apart—when they were separate in their thoughts because they were separate both in their amusements and in their serious occupations. The man spent his hours of leisure among men: all his friendships, all his real intimacies were with men: with men alone did he converse on any serious subject: the wife was either a plaything or an upper servant. All this among the educated classes is changed: men no longer give up their spare time to violent out-door exercise and boisterous conviviality with male associates: the home has acquired the ascendency; the two sexes now really pass their lives together: the women of the family are the man’s habitual society: the wife is his chief associate, his most confidential friend, and often his most trusted counsellor. [Cheers.]'
+  translation_ja: 委員長、私がこの問題についてかなりの自信を持てるのには、理由があります。私の求めている政治上の変更は、それ自体は大がかりでも恐ろしいものでもありません。それが、人のためになる健全な政治の改革の通例どおり、すでに社会に起きた変化に根ざしていなかったら、これほどの自信は持てませんでした。男性が考える領域と女性が考える領域のあいだに、問答無用の絶対の一線を引く。男性が関心を持つことに女性が関心を持つのを禁じる。そんな考えは、遠い過去へと退きつつある、すでに去った時代の社会のものです。われわれは世界の政治革命を考え、語りますが、自分たちの家庭に静かな革命が起きた事実には、十分に目を向けていません。歴史上初めて、女性と男性がほんとうの伴侶になったのです。男女はいかなる関係にあるべきかについての伝統は、男女が別々に暮らした時代から伝わっています。楽しみも大事な仕事も別々だったから、考えることも別々だったのです。男は余暇を男同士で過ごし、友人も、心の通い合う相手もすべて男でした。まじめな話をするのは男同士だけで、妻は男の玩具か、さもなければ上級の召使でした。教育を受けた階層では、すべて事情が変わりました。男たちはもはや余暇をもっぱら激しい野外の運動や男性仲間との騒がしい酒宴に費やさず、家庭の比重が大きくなりました。今では男女が実際に生活を共にし、家族の女性たちは男性にとっていつもの話し相手です。妻こそいちばん身近な仲間であり、何でも打ち明けられる友であり、しばしば最も頼りになる相談相手なのです。〔歓声〕
+  translation_status: reviewed
+- id: mill-014
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '7'
+    printed_page_end: '7'
+    pdf_page: 7
+    source_sequence: 17
+  source_text: Now, does any man wish to have for his nearest companion, linked so closely with himself, and whose wishes and preferences have so strong a claim upon him, one whose thoughts are alien from those which occupy his own mind—one who can give neither help nor comfort nor support to his noblest feelings and purposes? [Hear, hear.] Is this close and almost exclusive companionship compatible with women being warned off all large subjects—taught that they ought not to care about what it is the man’s duty to care for, and that to take part in any serious interests outside the household is stepping beyond their province? Is it good for a man to pass his life in close communion of thought and feeling with a person studiously kept inferior to himself, whose earthly interests are forcibly confined within four walls, who is taught to cultivate as a grace of character ignorance and indifference about the most inspiring subjects, those among which his highest duties are cast? [Hear, hear.] Does any one suppose that this can happen without detriment to the man’s own character?
+  translation_ja: では、自分とこれほど固く結ばれ、その願いや好みを当然にも尊重しなければならない、最も身近な伴侶として、どんな男性が次のような人を望むでしょうか。自分が心を砕くことには縁がなく、いちばん尊い気持ちを抱き目標を追うときに、助けも慰めも支えも与えられない人です。〔そうだ、そうだ〕これほど親密で、実際ほかの誰よりも長く一緒にいる関係と、女性にはどんな大きな問題にも近づくなと申し渡すこととが、両立するでしょうか。男が義務として気にかけることを、女は気にかけてはならない、家庭の外の重大事に加わるのは出すぎたまねだと教えておいて、です。わざわざ自分より低いところにとどめ置かれ、この世で関心を持ってよい事柄を四方の壁の中に押し込められた人。その男性自身の最も高い義務がそこにある、最も心を奮い立たせる問題について、何も知らず、関心も持たないことが人柄の美しさだと教えられた人。一生をそうした相手と親しく考えや思いを通わせて過ごすことが、男性にとってよいことでしょうか。〔そうだ、そうだ〕そうして男性自身の人柄が損なわれずに済むと思う人がいるでしょうか。
+  translation_status: reviewed
+- id: mill-015
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '7'
+    printed_page_end: '8'
+    pdf_page: 7
+    source_sequence: 18
+  source_text: Sir, the time has come when, if women are not raised to the level of men, men will be pulled down to theirs. [A laugh.] The women of a man’s family are either a stimulus and a support to his higher aspirations, or a drag upon them. You may keep them ignorant of politics, but you cannot keep them from concerning themselves with the least respectable part of politics—its personalities. If they do not understand, and cannot enter into the man’s feelings of public duty, they do care about his private interests, and that is the scale into which their weight is certain to be thrown. They are an influence always at hand, co-operating with his selfish promptings, watching and taking advantage of every moment of moral irresolution, and doubling the strength of every temptation. Even if they maintain a modest neutrality, their mere absence of sympathy hangs a dead weight upon his moral energies, and makes him averse to incur sacrifices which they will feel, and to forego worldly successes and advantages in which they would share, for the sake of objects which they cannot appreciate. But suppose him to be happily preserved from temptation to an actual sacrifice of conscience, the insensible influence on the higher parts of his own nature is still deplorable. Under an idle notion that the beauties of character of the two sexes are mutually incompatible, men are afraid of manly women [a laugh]; but those who have reflected on the nature and power of social influences, know that, when there are not manly women, there will not much longer be manly men. [Laughter.] When men and women are really companions, if women are frivolous, men will be frivolous; if women care only for personal interests and trifling amusements, men in general will care for little else. The two sexes must now rise or sink together.
+  translation_ja: 委員長、女性を男性と同じ高さに引き上げなければ、男性のほうが女性の置かれた高さまで引き下ろされる。今はもうそういう時代です。〔笑い声〕家族の女性たちは、男性の高い志を励まし、支えるか、その足を引っ張るか、どちらかです。政治のことを知らせずにおくことはできても、政治の最も感心できない側面、つまり誰と誰がどうだという個人的な話に関わるのを止めることはできません。男性の公に尽くそうとする気持ちが分からず、共感できないとしても、その人個人の損得ならわがこととして気にかけます。彼女たちの重みが天秤のどちらにかかるかは明らかです。その影響はいつもすぐそばにあって、本人の利己心に加勢し、良心がぐらつく一瞬一瞬を見逃さず、あらゆる誘惑の力を二倍にします。たとえ慎ましく中立を守っても、共感が得られないだけで、その人が正しいことをしようとする力に重りがかかります。家族には価値の分からない目的のために、家族にも痛みが及ぶ犠牲を引き受けたり、家族もあずかるはずの世間的な成功や利益を手放したりするのが嫌になるのです。運よく、実際に良心を売り渡す誘惑までは免れたとしても、その人間性のより高貴な部分に知らぬまに及ぶ影響は、なお嘆かわしいものです。男女それぞれの美徳は両立しないというたわいもない思い込みから、男たちは男まさりの女性を恐れます〔笑い声〕。しかし社会が人に及ぼす影響の性質と強さを考えた人なら、男まさりの女性がいなくなれば、ほどなく男らしい男もいなくなると知っています。〔笑い〕男女がほんとうに伴侶となれば、女性が浮ついていれば男性も浮つきます。女性が自分の利害とつまらない気晴らしにしか関心を持たなければ、男性もたいてい、それ以外のことをほとんど気にかけなくなるでしょう。今や男女は、上がるなら一緒に上がり、沈むなら一緒に沈むのです。
+  translation_status: reviewed
+- id: mill-016
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '8'
+    printed_page_end: '9'
+    pdf_page: 8
+    source_sequence: 19
+  source_text: It may be said that women can take interest in great national questions without having a vote. They can, certainly; but how many of them will? All that society and education can do is exhausted in inculcating on women that the rule of their conduct ought to be what society expects from them, and the denial of the vote is a proclamation, intelligible to every one, that society does not expect them to concern themselves with public interests. Why, the whole of a girl’s thoughts and feelings are toned down by it from her earliest school-days; she does not take the interest, even in national history, that a boy does, because it is to be no business of hers when she grows up. If there are women, and fortunately there now are, who do care about these subjects, and study them, it is because the force within is powerful enough to bear up against the worst kind of discouragement, that which acts not by interposing obstacles which may be struggled against, but by deadening the spirit which faces and conquers obstacles.
+  translation_ja: 投票権などなくても、女性は国の大きな問題に関心を持てる、という声もあるでしょう。もちろん持てます。ですが、実際に持とうとする人が何人いるでしょう。社会と教育は、ありとあらゆる手を尽くして、社会から期待されるとおりに振る舞うのが女性の行動の規範であると教え込んでいます。そして投票を認めないことは、社会は女性が公共の利害に関わることを期待していない、という誰にも分かる宣言なのです。少女が考えたり感じたりすることは、学校に上がったばかりのころから、すべてこれで勢いをそがれます。国の歴史にさえ、少年ほどの関心を持たない。大人になっても自分の関わることではないからです。それでもそうした問題を気にかけ、よく学ぶ女性がいるとすれば、そして幸い今では実際にいるのですが、それは何よりもたちの悪い抑圧に立ち向かえるほど、内からの力が強いからです。立ち向かえる障害物を道に置くのでなく、障害に向き合い乗り越えようとする心そのものを弱らせてしまう抑圧なのです。
+  translation_status: reviewed
+- id: mill-017
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '9'
+    printed_page_end: '9'
+    pdf_page: 9
+    source_sequence: 20
+  source_text: We are told that women do not wish for the suffrage. If this be so, it only proves that nearly all women are still under this deadening influence, that the opiate still benumbs their mind and conscience. But there are many women who do desire the suffrage, and have claimed it by petitions to this house. How do we know how many more thousands there are who have not asked for what they do not hope to get, or for fear of being ill thought of by men or by other women, or from the feeling so sedulously cultivated by the whole of their education—aversion to make themselves conspicuous.
+  translation_ja: 女性は選挙権など望んでいない、とも言われます。仮にそうなら、それで分かるのは、ほぼすべての女性がまだこの気力を奪う影響のもとにあり、この麻酔薬がいまだにその心と良心をしびれさせている、ということだけです。実際には選挙権を望み、この議院への請願でそれを求めた女性が大勢います。手に入る見込みもないものは求めないとか、男性やほかの女性に悪く思われるのが怖いとか、あるいは教育のすべてを通じてこれほど丹念に育てられた、人目に立ちたくないという気持ちからとか、声を上げなかった人がほかに何千人いるか、どうしてわれわれに分かるでしょう。
+  translation_status: reviewed
+- id: mill-018
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '9'
+    printed_page_end: '9'
+    pdf_page: 9
+    source_sequence: 21
+  source_text: Men must have a great faculty of self-delusion if they suppose that leading questions put to the ladies of their families, or of their acquaintance, will elicit their real sentiments, or will be answered with entire sincerity by one woman in ten thousand. No one is so well schooled as most women are in making a virtue of necessity. It costs little to disclaim caring for what is not offered; and frankness in expressing feelings that may be disagreeable or unflattering to their nearest connections, is not one of the virtues which a woman’s education tends to cultivate. It is, moreover, a virtue attended with sufficient risk to induce prudent women to reserve its exercise for cases in which there is some nearer interest to be promoted by it.
+  translation_ja: 家族や知人の女性に、答えを誘導するような質問をすればその本心を引き出せる、あるいは一万人に一人でも、そういう質問にまったく包み隠しなく答える女性がいるだろう。そう思うとしたら、男性には、自分で自分を欺くたいした才能があるに違いありません。そうするしかないことを美徳に仕立てるという点で、大多数の女性ほどよく訓練されている人はいません。差し出されもしないものを欲しくはないと言ってみせるのは、たやすいことです。いちばん身近な人の気に障るかもしれない、あるいはその人を持ち上げることにはならない感情を、率直に表す。これは女性の教育が育てようとする美徳ではありません。そのうえ、この美徳を発揮するのはかなり危険でもあるから、分別のある女性なら、もっと身近で具体的な利害に役立つときまで取っておこうと思うものです。
+  translation_status: reviewed
+- id: mill-019
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '9'
+    printed_page_end: '10'
+    pdf_page: 9
+    source_sequence: 22
+  source_text: At all events, those who do not care for the suffrage will not use it. Either they will not register, or if they do, they will vote as their male relatives advise them, by which, as the advantage would probably be about equally shared among all classes, no harm would be done. Those, whether they be few or many, who do value the privilege, would exercise it, and would experience that stimulus to their faculties, and that widening and liberalizing influence on their feelings and sympathies which the suffrage seldom fails to exert over every class that is admitted to a share in it. Meanwhile, an unworthy stigma would have been taken off the whole sex, the law would have ceased to stamp them as incapable of serious things, would have ceased to proclaim that their opinions and wishes do not deserve to have any influence in things which concern them equally with men, and in many that concerned them much more than men. They would no longer be classed with children, idiots and lunatics—[laughter and cheers]—as incapable of taking care either of themselves or others, and needing that everything should be done for them without asking for their consent. If no more than one woman in twenty thousand used the vote, it would be a gain to all women to be declared capable of using it. Even so purely theoretical an enfranchisement would remove an artificial weight from the expansion of their faculties, the real evil of which is far greater than the apparent.
+  translation_ja: いずれにせよ、選挙権を気にしない人は使いません。有権者登録をしないか、登録しても身内の男性に勧められた人に投票するでしょう。それで得をする割合はおそらくどの階級でもほぼ同じですから、何の害にもなりません。これに対して、その権利を大切に思う人は、多かろうと少なかろうと実際にそれを使うでしょう。そして、選挙権を分け持つようになったどんな階級にもほとんど例外なく起きることが、その人にも起きます。能力が刺激され、ものの感じ方が伸びやかになり、共感できる人の輪が広がるのです。同時に、女性全体がいわれのない汚名から解放されます。法律はもう、女性には重大なことはできないという烙印を押さなくなる。女性にも男性と同じように関わること、さらには男性よりも女性にはるかに深く関わる数多くのことに、女性の意見や願いは何の影響も及ぼすに値しない、などと宣言するのをやめるのです。女性はもう、子どもや知的障害者や精神を病む人とひとくくりにされて〔笑いと歓声〕、自分の面倒も人の面倒も見られず、何をするのも同意を求めるには及ばず、人任せにするほかない者として扱われることはありません。たとえ実際に投票するのが二万人に一人でも、投票する能力があると認められるのはすべての女性にとっての利益です。そこまで名目だけの解放にすぎなくても、能力の成長を妨げる人為的な重しが外れる。その重しの害は、見た目よりはるかに大きいのです。
+  translation_status: reviewed
+- id: mill-020
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '10'
+    printed_page_end: '10'
+    pdf_page: 10
+    source_sequence: 23
+  source_text: Then, it is said that women do not need direct political power, because they have so much indirect through the influence they possess over their male relatives and connections. [Laughter.] Sir, I should like to try this argument in other cases. Rich people have a great deal of indirect influence. Is this a reason for denying them a vote? [Cheers.] Did any one ever propose a rating qualification the wrong way, and bring in a reform bill to disfranchise everybody who lives in a £500 house, or pays £100 a year in direct taxes? [Hear, hear.] Unless this rule for distributing the franchise is to be reserved for the exclusive benefit of women, the legitimate consequence of it would be that persons above a certain amount of fortune should be allowed to bribe, but should not be allowed to vote. [Laughter.]
+  translation_ja: こうも言われます。女性には直接の政治権力はいらない、男性の親族や身近な人々への影響を通じて間接の力をたっぷり持っているのだから、と。〔笑い〕委員長、その理屈をほかの場合にも試してみましょう。金持ちは間接の影響力をずいぶん持っています。だから金持ちには投票させないのですか。〔歓声〕家屋の課税評価額で決まる選挙資格を逆向きに適用しようと提案して、評価額五百ポンドの家に住んでいたり、直接税を年に百ポンド納めたりする人すべてから投票権を取り上げる改革法案を出した人が、これまで一人でもいましたか。〔そうだ、そうだ〕この選挙権の配り方という恩恵を女性だけの専売にしないのであれば、筋の通った結論はこうです。ある額以上の財産のある人には、買収は許しても投票は許してはならない。〔笑い〕
+  translation_status: reviewed
+- id: mill-021
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '10'
+    printed_page_end: '11'
+    pdf_page: 10
+    source_sequence: 24
+  source_text: Sir, it is true that women have already great power. It is part of my case that they have great power. But they have it under the worst possible conditions, because it is indirect, and, therefore, irresponsible. [Hear, hear.] I want to make that power a responsible power. [Hear, hear.] I want to make the woman feel her conscience interested in its honest exercise. I want to make her feel that it is not given to her as a mere means of personal ascendency. I want to make her influence work by a manly interchange of opinions, and not by cajolery. [Laughter and cheers.] I want to awaken in her the political point of honor. At present many a woman greatly influences the political conduct of her male connections, sometimes by force of will actually governs it; but she is never supposed to have anything to do with it. The man she influences, and perhaps misleads, is alone responsible. Her power is like the back-stairs influence of a favorite. The poor creature is nobody, and all is referred to the man’s superior wisdom; and as, of course, he will not give way to her if he ought not, she may work upon him through all his strongest feelings without incurring any responsibility. Sir, I demand that all who exercise power should have the burden laid upon them of knowing something about the things they have power over. With the admitted right to a voice would come a sense of the corresponding duty.
+  translation_ja: 委員長、女性がすでに大きな力を持っていることは事実です。それはむしろ私の論拠の一つです。ただし、考えられるかぎり最も悪い条件でその力を持っています。影響の及ぼし方が間接的だから、責任を問われないのです。〔そうだ、そうだ〕私はその力を責任のともなう力にしたい。〔そうだ、そうだ〕それを誠実に用いるかどうかは、自分の良心の問題なのだと感じてほしい。人を自分の思いどおりにするだけの手段として与えられた力ではない、と感じてほしいのです。相手をうまく丸め込むのでなく、堂々と意見を交わすことで、その影響を及ぼしてもらいたい。〔笑いと歓声〕政治にも守らねばならない名誉があるという感覚を、女性のうちに呼び覚ましたいのです。今も身近な男性の政治行動に大きな影響を及ぼし、ときには意志の強さで実際にそれを支配する女性が大勢います。それなのに、その行動には全然関わっていないことにされています。責任を負うのは、彼女に動かされ、ときには誤った方向に導かれたかもしれない男性だけです。宮廷の寵臣が裏口から振るうような力なのです。かわいそうな女は物の数でなく、何もかも、より賢い男の決断だということになっている。譲ってはならないときに譲るような男では、もちろんないはずですから、女は男のいちばん強い感情を総動員して働きかけても、一切の責任を負いません。委員長、私は、誰であれ力を行使する者には、自分の力が及ぶ物事についていくらかは知る、という重荷を負ってほしいのです。発言する権利が認められてこそ、それに見合う義務の自覚も生まれるでしょう。
+  translation_status: reviewed
+- id: mill-022
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '11'
+    printed_page_end: '11'
+    pdf_page: 11
+    source_sequence: 25
+  source_text: A woman is not generally inferior in tenderness of conscience to a man. Make her a moral agent in matters of public conduct. Show that you require from her a political conscience, and when she has learnt to understand the transcendent importance of these things, she will see why it is wrong to sacrifice political convictions for personal interest and vanity; she will understand that political honesty is not a foolish personal crotchet, which a man is bound, for the sake of his family, to give up, but a serious duty; and the men whom she can influence will be better men in all public relations, and not, as they often are at present, worse men by the whole effect of her influence. [Hear, hear.]
+  translation_ja: 女性は概して良心の細やかさにおいて男性に劣りません。公の行動をめぐっても、女性を自ら判断して責任を負う者として扱ってください。政治についても良心を持つことを女性に求めていると示してください。これらのことがどれほど重大かを理解するようになれば、個人の利益や虚栄のために政治的信念を犠牲にすることが、なぜいけないのかも分かるでしょう。政治上の誠実さは、男が家族のためなら捨てるのが当然の、つまらない独りよがりではなく、重い義務なのだと分かるでしょう。その女性が影響を及ぼせる男性は、公に関わるあらゆる場面で、今よりよい人間になります。女性が影響を及ぼした分だけかえって悪くなるという、今ありがちな結果にはならないのです。〔そうだ、そうだ〕
+  translation_status: reviewed
+- id: mill-023
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '11'
+    printed_page_end: '12'
+    pdf_page: 11
+    source_sequence: 26
+  source_text: But, at all events, it will be said women, as women, do not suffer any practical inconvenience by not being represented. The interests of all women are safe in the hands of their fathers, husbands and brothers, whose interest is the same with theirs, and who, besides knowing better than they do what is good for them, care a good deal more for them than they care for themselves.
+  translation_ja: しかしともかく、女性は女性として、代表を持たないことで実害をこうむってはいない、と言われるでしょう。女性の利害は皆、その父や夫や兄弟に任せておけば安心だ。彼らは利害を共にし、何が女性のためになるかは本人以上によく知っているし、そのうえ本人が自分自身を大事に思う以上に女性たちを大事に思っている、というわけです。
+  translation_status: reviewed
+- id: mill-024
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '12'
+    printed_page_end: '12'
+    pdf_page: 12
+    source_sequence: 27
+  source_text: Sir, this is exactly what has been said of all other unrepresented classes—the operatives, for instance; are they not all virtually represented through their employers? are not the interests of the employer and that of the employed, when properly understood, the same? To insinuate the contrary, is it not the horrible crime of setting class against class? Is not the farmer interested along with his laborer in the prosperity of agriculture? Has not the cotton manufacturer as great an interest in the high price of calicoes as his workman? Is not the employer interested as well as his men in the repeal of taxes? Have not employer and employed a common interest against outsiders, just as man and wife have against all outside the family? And are not all employers kind, benevolent, charitable men, who love their work-people, and always know and do what is most for their good? Every one of these assertions is exactly as true as the parallel assertion respecting men and women. Sir, we are not living in Arcadia, but, as we were lately reminded, in fæce Romuli; and in that region workmen need other protection than that of their masters, and women than that of their men.
+  translation_ja: 委員長、これは代表を持たないほかのすべての階級について言われてきたことと、そっくり同じです。たとえば工場の労働者は皆、雇い主を通して事実上代表されている、のではありませんか。正しく理解するなら、雇う側の利害と雇われる側の利害は同じではないか。違うなどとほのめかすのは階級と階級を争わせる恐ろしい罪ではないか。農業が栄えれば、農場経営者もそこで働く労働者も得をするのではないか。綿布の値が高ければ、その労働者と同じくらい製造業者にも利益があるのではないか。税が廃止されて得をするのは、雇われている男たちも雇い主も同じではないか。夫婦が家族以外のすべての人々に対して利害を共にするように、雇う者と雇われる者も部外者に対して利害を共にするのではないか。そして、雇い主は皆、親切で慈しみ深く、情けに厚い人たちで、働く人々を愛し、何がその人々にとっていちばんよいかをいつも知っていて、それを実行しているのではないか。これらの言い分は一つ一つ、男女についての同様の言い分と、まさしく同じ程度に本当です。委員長、われわれが暮らしているのは楽土アルカディアではなく、先ごろどなたかが思い出させてくださったように、「ロムルスの都の澱の中」です。その世界では、労働者には雇い主以外からの保護が、女性には身内の男性以外からの保護が必要です。
+  translation_status: reviewed
+  annotations:
+  - side: source
+    kind: emphasis
+    span:
+      start: 1054
+      end: 1065
+      exact: fæce Romuli
+  - side: translation
+    kind: emphasis
+    span:
+      start: 499
+      end: 509
+      exact: ロムルスの都の澱の中
+- id: mill-025
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '12'
+    printed_page_end: '13'
+    pdf_page: 12
+    source_sequence: 28
+  source_text: I should like to see a return laid before the house of the number of women who are annually beaten to death, kicked to death, or trodden to death, by their male protectors. [Hear, hear.] I should like this document to contain, in an opposite column, a return of the sentences passed in those cases in which the dastardly criminal did not get off altogether; and in a third column a comparative view of the amount of property, the unlawful taking of which had, in the same sessions or assizes, by the same judge, been thought worthy of the same degree of punishment. [Cheers.] We should thus obtain an arithmetical estimate of the value set by a male legislature and male tribunals upon the murder of a woman by a habitual torture, often prolonged for years, which, if there be any shame in us, would make us hang our heads. [Cheers.]
+  translation_ja: 私はこの議場に統計を出してもらいたい。保護者だという男性たちに殴り殺され、蹴り殺され、踏み殺される女性が、毎年何人いるのか。〔そうだ、そうだ〕向かいの欄には、その卑劣な犯罪者がまったくのおとがめなしでは済まなかった事件について、言い渡された刑を載せてもらいたい。第三の欄には比較のために、同じ開廷期の地方裁判所や巡回裁判所で、同じ裁判官が、いくらの財産を盗めば同じ重さの刑に値すると考えたかを、載せてもらいたい。〔歓声〕そうすれば、習い性になった虐待を、ときには何年も重ねて女性を死に至らせる犯罪に、男ばかりの立法府と男ばかりの法廷がつけている値が、数字で分かるでしょう。われわれに恥じる心がひとかけらでもあれば、頭を垂れずにはいられない数字でしょう。〔歓声〕
+  translation_status: reviewed
+- id: mill-026
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '13'
+    printed_page_end: '13'
+    pdf_page: 13
+    source_sequence: 29
+  source_text: Sir, before it is contended that women do not suffer in their interests, especially as women, by not being represented, it must be considered whether women, as women, have no grievances—whether the law, and those practices which law can reach, treat women in every respect as favorably as men. Well, sir, is that the case? As to education, for example, we continually hear it said that the education of mothers is the most important part of the education of the country, because they educate the men. Is as much importance really attached to it? Are there many fathers who care as much, or are willing to expend as much, for the good education of their daughters as of their sons? Where are the universities, where the public schools, where the schools of any high description for them? [Hear.]
+  translation_ja: 委員長、代表を持たないことで女性が、とりわけ女性であるがゆえに、何の不利益も受けていないと主張する前に、問わなければならないことがあります。女性には女性として訴えるべき不当な扱いが本当にないのでしょうか。法律は、そして法律の手の届く範囲にある慣行は、すべての点で女性を男性と同じように厚遇しているのでしょうか。委員長、現にそうでしょうか。たとえば教育です。母親が男性を育てるのだから、母親を教育することこそ国の教育の最も重要な部分だと、絶えず聞かされます。それほど大事にされているのが実情でしょうか。娘によい教育を施すために、息子の場合と同じくらい心を砕き、同じだけのお金を出そうという父親が、大勢いるでしょうか。娘たちのための大学が、パブリックスクールが、それにどんな種類であれ水準の高い学校が、いったいどこにありますか。〔そうだ〕
+  translation_status: reviewed
+- id: mill-027
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '13'
+    printed_page_end: '13'
+    pdf_page: 13
+    source_sequence: 30
+  source_text: If it is said that girls are best educated at home, where are the training schools for governesses? What has become of the endowments which the bounty of our forefathers established for the instruction, not of boys alone, but of boys and girls indiscriminately? I am informed by one of the highest authorities on the subject that, in the majority of the deeds of endowment, the provision was for education generally, and not especially for boys. One great endowment—Christ’s Hospital—was designated expressly for both. That establishment maintains and educates one thousand one hundred boys, and exactly twenty-six girls.
+  translation_ja: 少女の教育には家庭がいちばんだと言うなら、女性の家庭教師を養成する学校はどこにありますか。われわれの先祖が惜しみなく財産を寄せ、男子だけでなく男女を区別せず教育するために設けた基金は、どうなったのでしょう。この分野に最も詳しい方の一人から聞いたところでは、寄付証書の大多数は教育一般のためと定めており、男子のためと特定してはいないそうです。大きな寄付でつくられた学校の一つ、クライスツ・ホスピタルは、男女両方のためと明記されていました。この学校で生活を支えられ、教育を受けているのは、男子が千百人、女子はきっかり二十六人です。
+  translation_status: reviewed
+- id: mill-028
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '13'
+    printed_page_end: '13'
+    pdf_page: 13
+    source_sequence: 31
+  source_text: Then when they have attained womanhood, how does it fare with the large and increasing portion of the sex, who, though sprung from the educated classes, have not inherited a provision; and, not having obtained one by marriage, or disdaining to marry merely for a provision, depend on their exertions for support? Hardly any decent educated occupation, save one, is open to them. They are either governesses, or nothing.
+  translation_ja: では大人になったあと、教育を受けた階層に生まれても、生活を支える財産は相続せず、結婚でその保障を得たわけでもない人たち、あるいは生活の保障だけのために結婚するのを潔しとせず、自分の働きで暮らす人たちはどうなるでしょう。こういう女性は多く、その割合は増す一方です。教育を生かしてまともに暮らせる職業で、彼女たちに門戸を開いているものは、一つを除いてほとんどありません。女性の家庭教師になるか、それがだめなら何もないのです。
+  translation_status: reviewed
+- id: mill-029
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '14'
+    printed_page_end: '14'
+    pdf_page: 14
+    source_sequence: 32
+  source_text: A fact has quite recently occurred which is worth commemorating. A young lady, Miss Garrett, from no pressure of necessity, but from an honorable desire to find scope for her activity in alleviating the sufferings of her fellow creatures, applied herself to the study of medicine. Having duly qualified herself, she, with an energy and perseverance which cannot be too highly praised, knocks successively at every one of the doors through which, in this country, a student can pass into medical practice. Having found every other door fast shut, she at last discovered one which had been accidentally left ajar. The Society of Apothecaries, it appears, had forgotten to shut out those whom they never thought would attempt to come in; and through that narrow entry this young lady obtained admission into the medical profession. But so objectionable did it appear to this learned body that women should be permitted to be the medical attendants, even of women, that the narrow wicket which Miss Garrett found open, has been closed after her, and no second Miss Garrett is to be suffered to pass through it. [Cheers.]
+  translation_ja: ごく最近、記憶にとどめるに値する出来事がありました。ギャレットさんという若い女性が、必要に迫られたからでなく、人の苦しみを和らげることに自分の力の使い道を見つけたいという立派な志から、医学の勉強に打ち込みました。必要な力をきちんと身につけると、どれだけ褒めても足りないほどの気力と粘り強さで、この国で学生が医師としての診療に進むための扉を、一つずつ、残らずたたいて回りました。他の扉がことごとく固く閉ざされていた末に、とうとう偶然半開きになっていた扉を一つ見つけました。薬剤師協会は、まさか入ろうとするとは思ってもみなかった人たちを締め出すのを、うっかり忘れていたらしいのです。その狭い入り口から、この若い女性は医師の職に就くことを認められました。ところがこの学識ある団体は、女性が患者を、たとえ女性患者であっても診療できることを、はなはだよろしくないと考えたようで、ギャレットさんが開いているのを見つけた小さな門は、彼女が通ったあとで閉められました。二人目のギャレットさんが通ることは許さないというのです。〔歓声〕
+  translation_status: reviewed
+- id: mill-030
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '14'
+    printed_page_end: '14'
+    pdf_page: 14
+    source_sequence: 33
+  source_text: Sir, this is instar omnium. As soon as ever women become capable of successfully competing with men in any career, if it be lucrative and honorable, it is closed to them. A short time ago women could be associates of the Royal Academy; but they were so distinguishing themselves, they were taking so honorable a rank in their art, that this privilege, too, has been taken from them. That is the kind of care taken of women by the men who so faithfully represent them. [Cheers.] That is our treatment of unmarried women, and now about the married.
+  translation_ja: 委員長、この一例はすべての例に匹敵します。どんな職業でも、女性が男性と競い合って成功できるようになった途端、それが実入りも名誉もある職業であれば、女性の前で扉が閉まるのです。少し前まで、女性は王立美術院の準会員になれました。ところが女性が大いに頭角を現し、芸術家としてあまりにも立派な地位を得るようになったので、この資格まで取り上げられました。これが、女性をあれほど忠実に代表しているという男性たちが、女性のためにしている世話なのです。〔歓声〕結婚していない女性へのわれわれの扱いは、以上のとおりです。次に、結婚している女性について申し上げます。
+  translation_status: reviewed
+  annotations:
+  - side: source
+    kind: emphasis
+    span:
+      start: 13
+      end: 26
+      exact: instar omnium
+  - side: translation
+    kind: emphasis
+    span:
+      start: 4
+      end: 20
+      exact: この一例はすべての例に匹敵します
+- id: mill-031
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '14'
+    printed_page_end: '15'
+    pdf_page: 14
+    source_sequence: 34
+  source_text: They, it may be said, are not directly concerned in the amendment which I have moved, but it concerns many who have been married as well as others who will be so. By the common law of England, everything that a woman has belongs absolutely to her husband; he may tear it all away from her, may spend the last penny of it in debauchery, leaving her to maintain by her labor both herself and her children; and if, by heroic exertion, she earns enough to put by anything for their future support, unless she is judicially separated from him, he can pounce upon her savings and leave her penniless; and such cases are of very common occurrence. If we were besotted enough to think such things right, there would be more excuse for us; but we know better. The richer classes have found a way of exempting their own daughters from this iniquitous state of the law. By the contrivance of marriage settlements, they can make in each case a private law for themselves, and they always do. Why do we not provide that justice for the daughters of the poor which we take good care shall be done to our own daughters? Why is not what is done in every particular case that we personally care for made the general law of the land?—that a poor man’s child, whose parents could not afford the expense of a settlement, may be able to retain any little property which may devolve on her, and may have a voice in the disposal of her own earnings, often the best and only reliable part of the sustenance of the family? [Hear.] I am sometimes asked what practical grievance I propose to remedy by enabling women to vote. I propose, for one thing, to remedy this. I have given these few instances to prove that women are not the petted favorites of society which some people seem to imagine; that they have not that abundance, that superfluity of influence, which is ascribed to them, and are not sufficiently represented by the representation of those who have never cared to do in their behalf so obvious an act of justice. Sir, grievances of less magnitude than the laws of the property of married women, when affecting persons and classes less inured to passive endurance, have provoked revolutions.
+  translation_ja: 既婚女性は私の提出した修正案とは直接関係がない、と言われるかもしれません。しかしこの案は、かつて結婚していた大勢の女性にも、これから結婚する女性にも関わります。イングランドのコモン・ローでは、妻の持ち物は何もかもまるごと夫のものです。夫はそれをことごとく取り上げ、最後の一ペニーまで放蕩につぎ込み、妻自身と子どもの暮らしは妻の働きに任せてしまえます。妻が並々ならぬ努力で稼ぎ、将来の生活のためにいくらか蓄えることができても、裁判所が夫との別居を認めていないかぎり、夫はその蓄えに飛びつき、妻を一文無しにしてしまえます。こうしたことは、決して珍しくありません。もしわれわれが、これを正しいと思えるほど愚かなら、まだ言い訳も立つでしょう。しかし正しくないことは知っています。裕福な階層は、この不法も同然の法律のあり方から自分たちの娘だけを救う方法を見つけました。婚姻時の財産取り決めという工夫を使えば、一件ごとに自分たち専用の法律を作れるわけで、彼らはいつもそうしています。自分たちの娘には必ず保障されるよう念を入れている公正な扱いを、なぜ貧しい人の娘には用意しないのでしょう。自分が気にかける個々の場合には必ずしていることを、なぜこの国全体に通じる法律にしないのでしょう。そうすれば、両親には財産取り決めの費用を出す余裕のなかった家庭の娘にも、たまたま自分に渡ってきたわずかな財産を持ち続け、自分の稼ぎの使い道に発言することができます。その稼ぎこそ、一家の生活費のうち、いちばん頼りになり、しばしば唯一当てにできる部分なのです。〔そうだ〕女性に投票を認めて、具体的にどんな不当な扱いを正すつもりなのか、と私はときどき尋ねられます。まずこれを正すつもりです。いくつか例を出したのは、女性は、ある人々が想像しているように社会に甘やかされるお気に入りではなく、あり余るほどだと評される影響力など持ってはいないことをお示しするためです。これほど明白な正義を女性のために実現しようともしてこなかった人々が代表されているからといって、女性が十分に代表されていることにはなりません。委員長、既婚女性の財産をめぐる法律よりも小さな不正でも、黙って耐えることにこれほど慣らされていない人々や階級に降りかかったときには、革命を引き起こしているのです。
+  translation_status: reviewed
+- id: mill-032
+  section_id: speech
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '15'
+    printed_page_end: '16'
+    pdf_page: 15
+    source_sequence: 35
+  source_text: 'We ought not to take advantage of the security which we feel against any such danger in the present case to refuse to a limited class of women that small amount of participation in the enactment and the improvement of our laws which this motion solicits for them, and which would enable the general feelings of women to be heard in this house through a few male representatives. We ought not to deny to them what we are going to accord to everybody else: a right to be consulted; the common chance of placing in the great council of the nation a few organs of their sentiments; of having what every petty trade or profession has—a few members of the legislature, with a special call to stand up for their interests, and direct attention to the mode in which those interests are affected, by the law or by any changes in it. No more is asked by this motion; and when the time comes, as it is certain to come, when this will be conceded, I feel the firmest conviction that you will never repent of the concession. I move, sir, that the word “man” be omitted, and the word “person” inserted in its place. [Cheers, cheers.]'
+  translation_ja: 今回はそんな危険がなく安心だからといって、限られた範囲の女性に、わが国の法律をつくり、改める仕事へのささやかな参加を拒んではなりません。この動議が女性のために求めるのはそれだけです。それがあれば、何人かの男性の代表を通じ、女性たちの広く抱く思いをこの議場に届けることができます。ほかのすべての人に今まさに認めようとしているものを、女性にだけ拒んではなりません。意見を聴いてもらう権利。国の最高の会議に自分たちの思いを語ってくれる人を何人か送り出す、誰にも等しくある機会。どんな小さな商売や職業の仲間にもあるのと同じように、自分たちの利益を守って立ち、法律や法改正がその利益にいかなる影響を及ぼすかに注意を促すことを、とりわけ自分の任務とする議員を何人か持つことです。この動議はそれ以上を求めません。そしてそれが認められる日が来たなら、必ずその日が来ますが、皆さんがその決断を後悔することは決してないと、私は固く信じています。委員長、条文から「男（man）」という語を削り、代わりに「人（person）」を入れることを動議として提出します。〔歓声が重なる〕
+  translation_status: reviewed
+- id: mill-033
+  section_id: report
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '16'
+    printed_page_end: '16'
+    pdf_page: 16
+    source_sequence: 36
+  source_text: There were 73 votes for Mr. Mill’s amendment, 196 against it—it was lost, therefore, by 123 votes.
+  translation_ja: ミル氏の修正案は賛成七十三、反対百九十六。したがって百二十三票の差で否決された。
+  translation_status: reviewed
+- id: mill-034
+  section_id: report
+  kind: paragraph
+  origin: source
+  source_languages:
+  - en
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '16'
+    printed_page_end: '16'
+    pdf_page: 16
+    source_sequence: 37
+  source_text: 'The Tribune correspondent says: “Some of the greatest intellects in Parliament, and nearly all the young men on whom the future of England depends, made an honorable record on this great question. Among them were Hughes, Stansfield, Taylor, Lord Amberley, Oliphant, Mr. Denman, Mr. Fawcett, the O’Donoghue, and the sturdy old Roman Catholic Sir George Bowyer.”'
+  translation_ja: 『トリビューン』紙の通信員はこう記している。「この重大な問題で、議会きっての知性を持つ人たちの何人かと、イングランドの未来を双肩に担う若手のほぼ全員が、誇るに足る記録を残した。その中にはヒューズ、スタンズフェルド、テイラー、アンバリー卿、オリファント、デンマン氏、フォーセット氏、オドノヒュー家の当主、それに老いてなお骨のあるカトリック教徒、サー・ジョージ・ボウヤーがいた。」
+  translation_status: reviewed
+  annotations:
+  - side: source
+    kind: emphasis
+    span:
+      start: 4
+      end: 11
+      exact: Tribune
+  - side: translation
+    kind: emphasis
+    span:
+      start: 1
+      end: 7
+      exact: トリビューン
+notes: []
+references: []
+assets:
+- id: mill-1867-front
+  status: available
+  path: assets/mill-suffrage-for-women/cover.jpg
+  media_type: image/jpeg
+  rights:
+    status: public_domain
+    license_id: PDM-1.0
+    license_url: https://creativecommons.org/publicdomain/mark/1.0/
+    evidence_url: https://www.loc.gov/item/09033376/
+    attribution: 米国議会図書館所蔵、American Equal Rights Association 刊、1867年。標題を掲げた第1頁。
+    note_ja: パブリックドメインの刊本を機械的に複製した画像。
+  source_locations:
+  - source_id: aea1867
+    precision: page
+    printed_page: '1'
+    printed_page_end: '1'
+    pdf_page: 1
+    url: https://archive.org/details/suffrageforwomen00mill_0/page/n0/mode/1up
+  bytes: 313425
+  sha256: f7edc89aacf58adc27e3f0301f358548afcdace3c38f463da142ea0343203034
+  width: 1016
+  height: 1700
+workflow:
+  stage: ready
+  full_review:
+    status: complete
+    completed_at: '2026-11-21T08:20:03Z'
+    reviewed_by: 日本人文翻訳・原文対照
+    content_sha256: eb6e636fa73a81e4f0200a08074daf776c73d653dddd43c28dad911b06c8a1a0
+provenance:
+  source_retrieval_url: https://archive.org/download/suffrageforwomen00mill_0/suffrageforwomen00mill_0.pdf

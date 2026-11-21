@@ -1,0 +1,2531 @@
+schema_version: '2.0'
+work_id: gouges-les-droits-de-la-femme-1791
+metadata:
+  title_ja: 女性の権利　王妃陛下に捧ぐ
+  title_original: Les Droits de la femme. A la Reine.
+  original_languages:
+  - fr
+  target_language: ja
+  contributors:
+  - id: olympe-de-gouges
+    roles:
+    - author
+    name_ja: オランプ・ド・グージュ
+    name_original: Olympe de Gouges
+  - id: chatgpt
+    roles:
+    - translator
+    name_ja: ChatGPT
+    name_original: ChatGPT
+    url: https://chatgpt.com/
+  translation_rights:
+    status: licensed
+    license_id: CC-BY-SA-4.0
+    license_url: https://creativecommons.org/licenses/by-sa/4.0/
+    attribution: 原著：Olympe de Gouges。フランス語翻刻：Wikisource contributors。刊本による部分校訂・日本語訳：ChatGPT。
+    evidence_url: https://fr.wikisource.org/w/index.php?oldid=13966034
+    note_ja: 1791年刊の原著はパブリックドメイン。採用した電子翻刻に従い、今回の日本語訳にも表示・継承4.0国際を適用する。
+  genres:
+  - 政治思想
+  - 女性史
+  cover_asset_id: gouges-original-opening
+sources:
+- id: gouges-1791
+  role: primary
+  title: Les Droits de la femme. A la Reine.
+  edition: '[Paris, 1791], 24 p., in-8. Bibliothèque nationale de France.'
+  url: https://gallica.bnf.fr/ark:/12148/bpt6k9629179b
+  languages:
+  - fr
+  contributor_ids:
+  - olympe-de-gouges
+  work_rights:
+    status: public_domain
+    jurisdiction: フランス・日本・米国
+    evidence_url: https://catalogue.bnf.fr/ark:/12148/cb36057180p
+    note_ja: 1791年パリ刊。著者は1793年没。著者の死後および刊行後の保護期間を満了。
+  transcription_rights:
+    status: public_domain
+    jurisdiction: フランス・日本・米国
+    evidence_url: https://catalogue.bnf.fr/ark:/12148/cb36057180p
+    note_ja: 1791年パリ刊。著者は1793年没。著者の死後および刊行後の保護期間を満了。
+  description_ja: 1791年刊本。独立パンフレットの冒頭から追伸の末尾までを訳した。
+- id: wikisource-fr
+  role: intermediary
+  title: Les Droits de la femme, 1791, pages 3–26 du fichier DjVu
+  edition: フランス語版Wikisource、刊本の印刷頁1–24に対応するページ別翻刻。
+  derived_from_source_id: gouges-1791
+  url: https://fr.wikisource.org/w/index.php?oldid=13966034
+  languages:
+  - fr
+  work_rights:
+    status: public_domain
+    jurisdiction: フランス・日本・米国
+    evidence_url: https://catalogue.bnf.fr/ark:/12148/cb36057180p
+    note_ja: 1791年パリ刊。著者は1793年没。著者の死後および刊行後の保護期間を満了。
+  transcription_rights:
+    status: licensed
+    license_id: CC-BY-SA-4.0
+    license_url: https://creativecommons.org/licenses/by-sa/4.0/
+    attribution: 'Olympe de Gouges ; transcription : contributrices et contributeurs de Wikisource, Les Droits de la femme (1791).'
+    evidence_url: https://fr.wikisource.org/w/index.php?oldid=13966034
+    note_ja: フランス語の電子翻刻に適用。長いsを現代字体にし、段落を頁またぎで接続。問題となる語は刊本画像に戻して校訂した。
+  description_ja: フランス語対照本文の転記・校訂に利用。編者の標題・解説は収録せず、訳文は原著者の本文・注を対象とする。 各段落の原典位置に、採用頁の翻刻の固定版を記す。
+scope:
+  included:
+  - source_id: gouges-1791
+    description_ja: 1791年刊本全24頁。巻頭の書名・王妃への献辞、女性の権利、宣言の前文・全17条・後文、男女の社会契約の書式、植民地と政治に関する所見、辻馬車の逸話、追伸、著者による原注4件。
+  excluded:
+  - source_id: gouges-1791
+    description_ja: 本文外の蔵書印・後人の書込み・ノンブル・折丁記号・製本用の表紙と遊紙。
+  known_gaps: []
+sections:
+- id: dedication
+  parent_id: null
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-000
+- id: rights
+  parent_id: null
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-017
+- id: declaration
+  parent_id: null
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-023
+- id: preamble
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-025
+- id: article-01
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-029
+- id: article-02
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-031
+- id: article-03
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-033
+- id: article-04
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-036
+- id: article-05
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-038
+- id: article-06
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-040
+- id: article-07
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-043
+- id: article-08
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-045
+- id: article-09
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-047
+- id: article-10
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-049
+- id: article-11
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-051
+- id: article-12
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-054
+- id: article-13
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-056
+- id: article-14
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-058
+- id: article-15
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-061
+- id: article-16
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-063
+- id: article-17
+  parent_id: declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-065
+- id: postamble
+  parent_id: null
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-067
+- id: contract
+  parent_id: null
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - og-079
+segments:
+- id: og-000
+  section_id: dedication
+  kind: heading
+  origin: source
+  source_text: LES DROITS DE LA FEMME. A LA REINE.
+  translation_ja: 女性の権利　王妃陛下に捧ぐ
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '1'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/3
+    source_sequence: 0
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '1'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057319
+    source_sequence: 0
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-000-print
+  translation_status: reviewed
+- id: og-001
+  section_id: dedication
+  kind: paragraph
+  origin: source
+  source_text: Madame,
+  translation_ja: 王妃陛下、
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '1'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/3
+    source_sequence: 1
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '1'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057319
+    source_sequence: 1
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-001-print
+  translation_status: reviewed
+- id: og-002
+  section_id: dedication
+  kind: paragraph
+  origin: source
+  source_text: Peu faite au langage que l’on tient aux Rois, je n’emploierai point l’adulation des Courtisans pour vous faire hommage de cette singulière production. Mon but, Madame, est de vous parler franchement ; je n’ai pas attendu, pour m’exprimer ainsi, l’époque de la Liberté ; je me suis montrée avec la même énergie dans un temps où l’aveuglement des Despotes punissait une si noble audace.
+  translation_ja: 私は、王侯に向かってものを申すときの言葉遣いには慣れておりません。この風変わりな一篇をお捧げするのに、宮廷人のようにおべっかを使うつもりもございません。陛下に率直に申し上げること、それが私の望みです。このようにものを言うのに、私は自由の時代を待ちはいたしませんでした。目のくらんだ専制君主が、かくも気高い大胆さを罰した頃にも、私は今と変わらぬ熱意を示したのです。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '1'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/3
+    source_sequence: 2
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '1'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057319
+    source_sequence: 2
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-002-print
+  translation_status: reviewed
+- id: og-003
+  section_id: dedication
+  kind: paragraph
+  origin: source
+  source_text: Lorsque tout l’Empire vous accusait et vous rendait responsable de ses calamités, moi seule, dans un temps de trouble et d’orage, j’ai eu la force de prendre votre défense. Je n’ai jamais pu me persuader qu’une Princesse, élevée au sein des grandeurs, eût tous les vices de la bassesse.
+  translation_ja: 国じゅうが陛下を責め、国の災いを陛下のせいにしたとき、騒乱の嵐のただなかで、ただ一人、陛下を弁護する勇気を持ったのは私でした。栄華のうちに育った姫君が、卑しさのもたらす悪徳をことごとく備えておられようとは、私にはどうしても思えませんでした。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '1'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/3
+    source_sequence: 3
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '1'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057319
+    source_sequence: 3
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-003-print
+  translation_status: reviewed
+- id: og-004
+  section_id: dedication
+  kind: paragraph
+  origin: source
+  source_text: Oui, Madame, lorsque j’ai vu le glaive levé sur vous, j’ai jeté mes observations entre ce glaive et la victime ; mais aujourd’hui que je vois qu’on observe de près la foule de mutins soudoyée, & qu’elle est retenue par la crainte des loix, je vous dirai, Madame, ce que je ne vous aurois pas dit alors.
+  translation_ja: そうです、陛下。陛下の頭上に剣が振り上げられたのを見て、私はその刃と犠牲者との間に、自分の意見を書いて投じました。けれども今日、金で雇われた暴徒の群れは厳しく見張られ、法を恐れておとなしくしています。今ならば、陛下、あのときには申し上げなかったことを申し上げます。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '2'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/4
+    source_sequence: 4
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '2'
+    url: https://fr.wikisource.org/w/index.php?oldid=6146440
+    source_sequence: 4
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-004-print
+  translation_status: reviewed
+- id: og-005
+  section_id: dedication
+  kind: paragraph
+  origin: source
+  source_text: Si l’étranger porte le fer en France, vous n’êtes plus à mes yeux cette Reine faussement inculpée, cette Reine intéressante, mais une implacable ennemie des Français. Ah ! Madame, songez que vous êtes mère et épouse ; employez tout votre crédit pour le retour des Princes. Ce crédit, si sagement appliqué, raffermit la couronne du père, la conserve au fils, et vous réconcilie l’amour des Français. Cette digne négociation est le vrai devoir d’une Reine. L’intrigue, la cabale, les projets sanguinaires précipiteroient votre chûte, si l’on pouvait vous soupçonner capable de semblables desseins.
+  translation_ja: もし外国の軍勢がフランスに刃を向けるなら、私の目に映る陛下は、濡れ衣を着せられて同情に値する王妃ではもはやなく、フランス人にとって容赦のない敵です。ああ陛下、ご自分が母であり妻であることをお考えください。王族たちを呼び戻すため、あらゆるお力をお尽くしください。そうして賢明に力を用いれば、父王の冠は揺るぎなくなり、王子のために守られ、陛下も再びフランス人の愛をお取り戻しになります。この立派な交渉こそ、王妃の真の務めです。陰謀、徒党、血なまぐさい企てなど、陛下にそれができると疑われるだけで、ご自身の没落を早めましょう。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '2'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/4
+    source_sequence: 5
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '2'
+    url: https://fr.wikisource.org/w/index.php?oldid=6146440
+    source_sequence: 5
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-005-print
+  translation_status: reviewed
+- id: og-006
+  section_id: dedication
+  kind: paragraph
+  origin: source
+  source_text: 'Qu’un plus noble emploi, Madame, vous caractérise, excite votre ambition, et fixe vos regards. Il n’appartient qu’à celle que le hasard a élevée à une place éminente, de donner du poids à l’essor des Droits de la Femme, et d’en accélérer les succès. Si vous étiez moins instruite, Madame, je pourrais craindre que vos intérêts particuliers ne l’emportassent sur ceux de votre sexe. Vous aimez la gloire : songez, Madame, que les plus grands crimes s’immortalisent comme les plus grandes vertus ; mais quelle différence de célébrité dans les fastes de l’histoire ! l’une est sans cesse prise pour exemple, et l’autre est éternellement l’exécration du genre humain.'
+  translation_ja: 陛下にはもっと気高い仕事にこそ、ご自身の真価を示し、大望を燃やし、目をお向けいただきたいのです。女性の権利が羽ばたこうとするいま、そこに重みを加え、その実現を早めることができるのは、運命に選ばれてその高い地位にお就きになった方だけです。もし陛下がこれほど物事に通じておられなければ、ご自身の利害が女性全体の利益にまさるのではと、私は案じたでしょう。陛下は栄光を愛しておいでです。お考えください。大きな罪も、偉大な徳に劣らず不滅の名を残しますが、歴史の記録に残る名声にはなんという違いがあることでしょう。一方はいつまでも模範とされ、もう一方は永遠に人類の憎しみを受けるのです。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '2'
+    printed_page_end: '3'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/4
+    source_sequence: 6
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '2'
+    printed_page_end: '3'
+    url: https://fr.wikisource.org/w/index.php?oldid=6146440
+    source_sequence: 6
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-006-print
+  translation_status: reviewed
+- id: og-008
+  section_id: dedication
+  kind: paragraph
+  origin: source
+  source_text: On ne vous fera jamais un crime de travailler à la restauration des mœurs, à donner à votre sexe toute la consistance dont il est susceptible. Cet ouvrage n’est pas le travail d’un jour, malheureusement pour le nouveau régime. Cette révolution ne s’opérera que quand toutes les femmes seront pénétrées de leur déplorable sort, & des droits qu’elles ont perdus dans la société. Soutenez, Madame, une si belle cause ; défendez ce sexe malheureux, et vous aurez bientôt pour vous une moitié du royaume, et le tiers au moins de l’autre.
+  translation_ja: 風俗を立て直し、女性がその持てる力にふさわしい確かな地位を得るようお努めになったところで、それを罪に問う者はおりますまい。新しい体制にとっては残念なことに、これは一日で成し遂げられる仕事ではございません。この革命は、すべての女性が、自分たちの嘆かわしい境遇と、社会のなかで失った権利とを身にしみて知ってはじめて成し遂げられるものです。陛下、どうかこのすばらしい大義をお支えください。この不幸な女性たちをお守りください。そうすれば間もなく、王国の半数はもとより、残る半数の少なくとも三分の一までは、陛下の味方につくでしょう。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '3'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/5
+    source_sequence: 7
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '3'
+    url: https://fr.wikisource.org/w/index.php?oldid=14583823
+    source_sequence: 7
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-008-print
+  translation_status: reviewed
+- id: og-009
+  section_id: dedication
+  kind: paragraph
+  origin: source
+  source_text: Voilà, Madame, voilà par quels exploits vous devez vous signaler et employer votre crédit. Croyez-moi, Madame, notre vie est bien peu de chose, sur-tout pour une Reine, quand cette vie n’est pas embellie par l’amour des peuples, et par les charmes éternels de la bienfaisance.
+  translation_ja: 陛下、こうした働きにこそ、お力を用い、ご自身のお名前を輝かせていただきたいのです。どうか私の言葉をお信じください。人々の愛と、いつまでも色あせぬ慈善の魅力とに彩られぬ人生など、ほんのわずかな値打ちしかございません。ましてや王妃の人生なら、なおのことです。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '3'
+    printed_page_end: '4'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/5
+    source_sequence: 8
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '3'
+    printed_page_end: '4'
+    url: https://fr.wikisource.org/w/index.php?oldid=14583823
+    source_sequence: 8
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-009-print
+  translation_status: reviewed
+- id: og-011
+  section_id: dedication
+  kind: paragraph
+  origin: source
+  source_text: S’il est vrai que des Français arment contre leur patrie toutes les puissances ; pourquoi ? pour de frivoles prérogatives, pour des chimères. Croyez, Madame, si j’en juge par ce que je sens, le parti monarchique se détruira de lui-même, qu’il abandonnera tous les tyrans, et tous les cœurs se rallieront autour de la patrie pour la défendre.
+  translation_ja: フランス人が祖国に敵対するよう諸外国に武器を取らせているというのが本当でしたら、それは何のためでしょう。つまらぬ特権のため、幻のためです。陛下、お信じください。私自身の気持ちをもとに判断するなら、王党派はひとりでに崩れ去り、あらゆる暴君を見捨て、人々の心は一つになって祖国のもとに集い、これを守りましょう。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '4'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/6
+    source_sequence: 9
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '4'
+    url: https://fr.wikisource.org/w/index.php?oldid=11229699
+    source_sequence: 9
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-011-print
+  translation_status: reviewed
+- id: og-012
+  section_id: dedication
+  kind: paragraph
+  origin: source
+  source_text: Voilà, Madame, voilà quels sont mes principes. En vous parlant de ma patrie, je perds de vue le but de cette dédicace. C’est ainsi que tout bon Citoyen sacrifie sa gloire, ses intérêts, quand il n’a pour objet que ceux de son pays.
+  translation_ja: 陛下、これが私の信条にほかなりません。祖国のことを陛下に申し上げるうち、この献辞の目的を見失ってしまいました。国の栄光、国の利益のほかに願うもののないとき、よき市民とは誰しも、このように自身の栄光と利益を犠牲にするものです。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '4'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/6
+    source_sequence: 10
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '4'
+    url: https://fr.wikisource.org/w/index.php?oldid=11229699
+    source_sequence: 10
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-012-print
+  translation_status: reviewed
+- id: og-013
+  section_id: dedication
+  kind: paragraph
+  origin: source
+  source_text: Je suis avec le plus profond respect, Madame, Votre très-humble et très-obéissante servante, De Gouges.
+  translation_ja: 陛下に心からの敬意を捧げます。陛下のいとも慎ましく、いとも忠実な僕、ド・グージュ
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '4'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/6
+    source_sequence: 11
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '4'
+    url: https://fr.wikisource.org/w/index.php?oldid=11229699
+    source_sequence: 11
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-013-print
+  translation_status: reviewed
+- id: og-017
+  section_id: rights
+  kind: heading
+  origin: source
+  source_text: LES DROITS DE LA FEMME.
+  translation_ja: 女性の権利
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '5'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/7
+    source_sequence: 12
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '5'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057345
+    source_sequence: 12
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-017-print
+  translation_status: reviewed
+- id: og-018
+  section_id: rights
+  kind: paragraph
+  origin: source
+  source_text: Homme, es-tu capable d’être juste ? C’est une femme qui t’en fait la question ; tu ne lui ôteras pas du moins ce droit. Dis-moi ? Qui t’a donné le souverain empire d’opprimer mon sexe ? ta force ? tes talents ? Observe le créateur dans sa sagesse ; parcours la nature dans toute sa grandeur, dont tu sembles vouloir te rapprocher, et donne-moi, si tu l’oses, l’exemple de cet empire tirannique.
+  translation_ja: 男よ、おまえは公正でいられるか。こう尋ねるのは一人の女だ。せめて尋ねる権利までは取り上げまい。言ってみたまえ。女たちを抑圧してよいという至上の権力を、おまえに与えたのは誰だ。腕力か。才能か。創造主の英知を見よ。その偉大さに少しでも近づこうとしているらしい自然のすみずみまで歩いてみよ。そして、おまえにそれだけの勇気があるなら、そこからこの専制支配の実例を一つ、私に示してみよ。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '5'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/7
+    source_sequence: 13
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '5'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057345
+    source_sequence: 13
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-018-print
+  translation_status: reviewed
+- id: og-021
+  section_id: rights
+  kind: note_body
+  origin: source
+  source_text: De Paris au Pérou, du Japon jusqu’à Rome, Le plus sot animal, à mon avis, c’est l’homme.
+  translation_ja: パリからペルーまで、日本からローマまで、動物のなかでいちばん愚かなのは、私に言わせれば、人間の男。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '5'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/7
+    source_sequence: 14
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '5'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057345
+    source_sequence: 14
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-021-print
+  translation_status: reviewed
+- id: og-019
+  section_id: rights
+  kind: paragraph
+  origin: source
+  source_text: Remonte aux animaux, consulte les élémens, étudie les végétaux, jette enfin un coup-d’œil sur toutes les modifications de la matière organisée ; et rends-toi à l’évidence quand je t’en offre les moyens ; cherche, fouille et distingue, si tu peux, les sexes dans l’administration de la nature. Par-tout tu les trouveras confondus, par-tout ils coopèrent avec un ensemble harmonieux à ce chef-d’œuvre immortel.
+  translation_ja: 動物にまでさかのぼり、自然界の諸元素に問い、植物を調べよ。つまるところ、生きた物質のあらゆる姿に目をやれ。証拠を見いだす手立てを教えてやろうというのだ。目の前の事実を認めよ。探し、掘り下げ、自然の営みのなかで二つの性の働きを区別できるものならしてみよ。どこでも両者は分かちがたく結びつき、どこでも調和のとれた力を合わせて、この不滅の傑作を支えているはずだ。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '5'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/7
+    source_sequence: 15
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '5'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057345
+    source_sequence: 15
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-019-print
+  translation_status: reviewed
+- id: og-020
+  section_id: rights
+  kind: paragraph
+  origin: source
+  source_text: L’homme seul s’est fagoté un principe de cette exception. Bisarre, aveugle, boursoufflé de sciences et dégénéré, dans ce siècle de lumières et de sagacité, dans l’ignorance la plus crasse, il veut commander en despote sur un sexe qui a reçu toutes les facultés intellectuelles ; il prétend jouir de la révolution, et réclamer ses droits à l’égalité, pour ne rien dire de plus.
+  translation_ja: 男だけが、自分は例外だという原則を勝手にでっち上げたのだ。奇妙で、ものを見る目がなく、学問を鼻にかけて堕落した男は、この啓蒙と明察の世にあって、甚だしい無知のまま、知性にかかわるあらゆる能力を授けられた女たちに、専制君主として命令しようとする。それでいて革命の実りを享受し、平等への自分の権利を主張するというのだ。これ以上は言うまい。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '5'
+    printed_page_end: '6'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/7
+    source_sequence: 16
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '5'
+    printed_page_end: '6'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057345
+    source_sequence: 16
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-020-print
+  translation_status: reviewed
+- id: og-023
+  section_id: declaration
+  kind: heading
+  origin: source
+  source_text: DÉCLARATION DES DROITS DE LA FEMME ET DE LA CITOYENNE,
+  translation_ja: 女性および女性市民の権利の宣言
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '6'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/8
+    source_sequence: 17
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '6'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057343
+    source_sequence: 17
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-023-print
+  translation_status: reviewed
+- id: og-024
+  section_id: declaration
+  kind: paragraph
+  origin: source
+  source_text: À décréter par l’Assemblée nationale dans ses dernières séances ou dans celle de la prochaine législature.
+  translation_ja: 国民議会がその最後の諸会議で、あるいは次の立法議会の会議で採択すべきもの。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '6'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/8
+    source_sequence: 18
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '6'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057343
+    source_sequence: 18
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-024-print
+  translation_status: reviewed
+- id: og-025
+  section_id: preamble
+  kind: heading
+  origin: source
+  source_text: Préambule.
+  translation_ja: 前文
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '6'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/8
+    source_sequence: 19
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '6'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057343
+    source_sequence: 19
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-025-print
+  translation_status: reviewed
+- id: og-026
+  section_id: preamble
+  kind: paragraph
+  origin: source
+  source_text: Les mères, les filles, les sœurs, représentantes de la nation, demandent d’être constituées en assemblée nationale. Considérant que l’ignorance, l’oubli ou le mépris des droits de la femme, sont les seules causes des malheurs publics et de la corruption des gouvernements, ont résolu d’exposer dans une déclaration solemnelle, les droits naturels, inaliénables et sacrés de la femme, afin que cette déclaration, constamment présente à tous les membres du corps social, leur rappelle sans cesse leurs droits et leurs devoirs, afin que les actes du pouvoir des femmes, et ceux du pouvoir des hommes pouvant être à chaque instant comparés avec le but de toute institution politique, en soient plus respectés, afin que les réclamations des citoyennes, fondées désormais sur des principes simples et incontestables, tournent toujours au maintien de la constitution, des bonnes mœurs, et au bonheur de tous.
+  translation_ja: 国民を代表する母たち、娘たち、姉妹たちは、自分たちを国民議会として組織するよう求める。女性の権利が知られず、忘れられ、あるいは軽んじられることだけが、社会の不幸と政府の腐敗の原因であると考え、女性が生まれながらに持ち、譲り渡すことのできない神聖な権利を、厳粛な宣言のうちに明らかにすることを決意した。この宣言が社会のすべての構成員の心にいつもあり、その権利と義務を絶えず思い起こさせるためである。また、女性の権力の行為も男性の権力の行為も、あらゆる政治制度がめざす目的といつでも照らし合わせることができ、それによっていっそう尊重されるためである。そして女性市民の訴えが、今後は明快で異論の余地のない原則に基づき、つねに憲法と良き風俗の維持、すべての人の幸福に役立つためである。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '6'
+    printed_page_end: '7'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/8
+    source_sequence: 20
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '6'
+    printed_page_end: '7'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057343
+    source_sequence: 20
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-026-print
+  translation_status: reviewed
+- id: og-028
+  section_id: preamble
+  kind: paragraph
+  origin: source
+  source_text: En conséquence, le sexe supérieur en beauté comme en courage, dans les souffrances maternelles, reconnaît et déclare, en présence et sous les auspices de l’Être suprême, les Droits suivans de la Femme et de la Citoyenne.
+  translation_ja: よって、美しさにおいても、母となる苦しみに耐える勇気においてもまさる性は、至高の存在の前で、その庇護のもとに、女性および女性市民の次の権利を認め、宣言する。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '7'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/9
+    source_sequence: 21
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '7'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057351
+    source_sequence: 21
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-028-print
+  translation_status: reviewed
+- id: og-029
+  section_id: article-01
+  kind: heading
+  origin: source
+  source_text: Article premier.
+  translation_ja: 第1条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '7'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/9
+    source_sequence: 22
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '7'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057351
+    source_sequence: 22
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-029-print
+  translation_status: reviewed
+- id: og-030
+  section_id: article-01
+  kind: paragraph
+  origin: source
+  source_text: La Femme naît libre et demeure égale à l’homme en droits. Les distinctions sociales ne peuvent être fondées que sur l’utilité commune.
+  translation_ja: 女性は自由な者として生まれ、権利において男性と平等であり続ける。社会的な区別は、共同の利益だけを根拠としうる。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '7'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/9
+    source_sequence: 23
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '7'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057351
+    source_sequence: 23
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-030-print
+  translation_status: reviewed
+- id: og-031
+  section_id: article-02
+  kind: heading
+  origin: source
+  source_text: II.
+  translation_ja: 第2条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '7'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/9
+    source_sequence: 24
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '7'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057351
+    source_sequence: 24
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-031-print
+  translation_status: reviewed
+- id: og-032
+  section_id: article-02
+  kind: paragraph
+  origin: source
+  source_text: 'Le but de toute association politique est la conservation des droits naturels et imprescriptibles de la Femme et de l’Homme : ces droits sont la liberté, la propriété, la sûreté, et sur-tout la résistance à l’oppression.'
+  translation_ja: あらゆる政治的結合の目的は、女性と男性の、生まれながらの、時効によっても消えない権利を守ることにある。その権利とは自由、所有、安全、とりわけ抑圧に抵抗する権利である。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '7'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/9
+    source_sequence: 25
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '7'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057351
+    source_sequence: 25
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-032-print
+  translation_status: reviewed
+- id: og-033
+  section_id: article-03
+  kind: heading
+  origin: source
+  source_text: III.
+  translation_ja: 第3条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '7'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/9
+    source_sequence: 26
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '7'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057351
+    source_sequence: 26
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-033-print
+  translation_status: reviewed
+- id: og-034
+  section_id: article-03
+  kind: paragraph
+  origin: source
+  source_text: 'Le principe de toute souveraineté réside essentiellement dans la Nation, qui n’est que la réunion de la Femme et de l’Homme : nul corps, nul individu, ne peut exercer d’autorité qui n’en émane expressément.'
+  translation_ja: あらゆる主権の源は本質的に国民にあり、国民とは女性と男性の結合にほかならない。いかなる団体も個人も、そこから明示的に出たものでない権力を行使することはできない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '7'
+    printed_page_end: '8'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/9
+    source_sequence: 27
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '7'
+    printed_page_end: '8'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057351
+    source_sequence: 27
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-034-print
+  translation_status: reviewed
+- id: og-036
+  section_id: article-04
+  kind: heading
+  origin: source
+  source_text: IV.
+  translation_ja: 第4条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '8'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/10
+    source_sequence: 28
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '8'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057354
+    source_sequence: 28
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-036-print
+  translation_status: reviewed
+- id: og-037
+  section_id: article-04
+  kind: paragraph
+  origin: source
+  source_text: La liberté et la justice consistent à rendre tout ce qui appartient à autrui ; ainsi l’exercice des droits naturels de la femme n’a de bornes que la tyrannie perpétuelle que l’homme lui oppose ; ces bornes doivent être réformées par les loix de la nature et de la raison.
+  translation_ja: 自由と正義とは、他者に属するものをすべてその人に返すことにある。したがって、女性が生まれながらの権利を行使するのを制限しているのは、男性が絶えず女性に押しつけてきた専制だけである。この制限は、自然と理性の法によって改められなければならない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '8'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/10
+    source_sequence: 29
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '8'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057354
+    source_sequence: 29
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-037-print
+  translation_status: reviewed
+- id: og-038
+  section_id: article-05
+  kind: heading
+  origin: source
+  source_text: V.
+  translation_ja: 第5条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '8'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/10
+    source_sequence: 30
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '8'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057354
+    source_sequence: 30
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-038-print
+  translation_status: reviewed
+- id: og-039
+  section_id: article-05
+  kind: paragraph
+  origin: source
+  source_text: 'Les loix de la nature et de la raison défendent toutes actions nuisibles à la société : tout ce qui n’est pas défendu par ces loix, sages et divines, ne peut être empêché, et nul ne peut être contraint à faire ce qu’elles n’ordonnent pas.'
+  translation_ja: 自然と理性の法は、社会に害を及ぼすあらゆる行為を禁じる。これらの賢明にして神聖な法が禁じていないことを妨げてはならず、これらの法が命じていないことを誰にも強いてはならない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '8'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/10
+    source_sequence: 31
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '8'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057354
+    source_sequence: 31
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-039-print
+  translation_status: reviewed
+- id: og-040
+  section_id: article-06
+  kind: heading
+  origin: source
+  source_text: VI.
+  translation_ja: 第6条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '8'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/10
+    source_sequence: 32
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '8'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057354
+    source_sequence: 32
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-040-print
+  translation_status: reviewed
+- id: og-041
+  section_id: article-06
+  kind: paragraph
+  origin: source
+  source_text: 'La Loi doit être l’expression de la volonté générale ; toutes les Citoyennes et Citoyens doivent concourir personellement, ou par leurs représentans, à sa formation ; elle doit être la même pour tous : toutes les citoyennes et tous les citoyens, étant égaux à ses yeux, doivent être également admissibles à toutes dignités, places et emplois publics, selon leurs capacités, & sans autres distinctions que celles de leurs vertus et de leurs talents.'
+  translation_ja: 法律は一般意志の表現でなければならない。すべての女性市民と男性市民は、自ら、またはその代表を通じて、法律の制定に参加しなければならない。法律はすべての人に同じでなければならない。すべての女性市民と男性市民は法の目に平等であるから、その能力に応じ、美徳と才能以外のいかなる区別もなく、あらゆる栄誉ある地位、職位、公職に等しく就く資格を持たなければならない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '8'
+    printed_page_end: '9'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/10
+    source_sequence: 33
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '8'
+    printed_page_end: '9'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057354
+    source_sequence: 33
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-041-print
+  translation_status: reviewed
+- id: og-043
+  section_id: article-07
+  kind: heading
+  origin: source
+  source_text: VII.
+  translation_ja: 第7条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/11
+    source_sequence: 34
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057359
+    source_sequence: 34
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-043-print
+  translation_status: reviewed
+- id: og-044
+  section_id: article-07
+  kind: paragraph
+  origin: source
+  source_text: Nulle femme n’est exceptée ; elle est accusée, arrêtée, & détenue dans les cas déterminés par la Loi. Les femmes obéissent comme les hommes à cette Loi rigoureuse.
+  translation_ja: いかなる女性も例外ではない。法律の定める場合には、女性も訴追され、逮捕され、拘禁される。女性は男性と同じく、この厳しい法律に従う。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/11
+    source_sequence: 35
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057359
+    source_sequence: 35
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-044-print
+  translation_status: reviewed
+- id: og-045
+  section_id: article-08
+  kind: heading
+  origin: source
+  source_text: VIII.
+  translation_ja: 第8条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/11
+    source_sequence: 36
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057359
+    source_sequence: 36
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-045-print
+  translation_status: reviewed
+- id: og-046
+  section_id: article-08
+  kind: paragraph
+  origin: source
+  source_text: La loi ne doit établir que des peines strictement & évidemment nécessaires, & nul ne peut être puni qu’en vertu d’une Loi établie et promulguée antérieurement au délit et légalement appliquée aux femmes.
+  translation_ja: 法律が定めてよい刑罰は、厳密に、かつ明らかに必要なものだけである。何人も、犯罪に先立って制定・公布され、かつ女性に対して適法に適用された法律によるのでなければ、罰せられることはない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/11
+    source_sequence: 37
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057359
+    source_sequence: 37
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-046-print
+  translation_status: reviewed
+- id: og-047
+  section_id: article-09
+  kind: heading
+  origin: source
+  source_text: IX.
+  translation_ja: 第9条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/11
+    source_sequence: 38
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057359
+    source_sequence: 38
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-047-print
+  translation_status: reviewed
+- id: og-048
+  section_id: article-09
+  kind: paragraph
+  origin: source
+  source_text: Toute femme étant déclarée coupable, toute rigueur est exercée par la Loi.
+  translation_ja: 女性が有罪と宣告されれば、法はその厳しさを余すところなく行使する。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/11
+    source_sequence: 39
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057359
+    source_sequence: 39
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-048-print
+  translation_status: reviewed
+- id: og-049
+  section_id: article-10
+  kind: heading
+  origin: source
+  source_text: X.
+  translation_ja: 第10条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/11
+    source_sequence: 40
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057359
+    source_sequence: 40
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-049-print
+  translation_status: reviewed
+- id: og-050
+  section_id: article-10
+  kind: paragraph
+  origin: source
+  source_text: Nul ne doit être inquiété pour ses opinions mêmes fondamentales, la femme a le droit de monter sur l’échafaud ; elle doit avoir également celui de monter à la Tribune ; pourvu que ses manifestations ne troublent pas l’ordre public établi par la Loi.
+  translation_ja: 何人も、その意見が根本にかかわるものであっても、それを理由に煩わされてはならない。女性には処刑台に上る権利がある。ならば、演壇に上る権利もまた等しく持たねばならない。ただし、その意見の表明が、法律の定める公の秩序を乱さないかぎりにおいてである。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/11
+    source_sequence: 41
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057359
+    source_sequence: 41
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-050-print
+  translation_status: reviewed
+- id: og-051
+  section_id: article-11
+  kind: heading
+  origin: source
+  source_text: XI.
+  translation_ja: 第11条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/11
+    source_sequence: 42
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '9'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057359
+    source_sequence: 42
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-051-print
+  translation_status: reviewed
+- id: og-052
+  section_id: article-11
+  kind: paragraph
+  origin: source
+  source_text: La libre communication des pensées et des opinions est un des droits les plus précieux de la femme, puisque cette liberté assure la légitimité des pères envers les enfans. Toute Citoyenne peut donc dire librement, je suis mère d’un enfant qui vous appartient, sans qu’un préjugé barbare la force à dissimuler la vérité ; sauf à répondre de l’abus de cette liberté dans les cas déterminés par la Loi.
+  translation_ja: 思想と意見を自由に伝え合うことは、女性の最も貴重な権利の一つである。この自由によって、子どもにとって誰が正当な父であるかが確かになるからだ。ゆえに、いかなる女性市民も、野蛮な偏見に強いられて真実を隠すことなく、「私はあなたの子の母です」と自由に言うことができる。ただし、法律の定める場合には、この自由の濫用について責任を負う。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '9'
+    printed_page_end: '10'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/11
+    source_sequence: 43
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '9'
+    printed_page_end: '10'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057359
+    source_sequence: 43
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-052-print
+  translation_status: reviewed
+- id: og-054
+  section_id: article-12
+  kind: heading
+  origin: source
+  source_text: XII.
+  translation_ja: 第12条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '10'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/12
+    source_sequence: 44
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '10'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057365
+    source_sequence: 44
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-054-print
+  translation_status: reviewed
+- id: og-055
+  section_id: article-12
+  kind: paragraph
+  origin: source
+  source_text: La garantie des droits de la femme et de la Citoyenne nécessite une utilité majeure ; cette garantie doit être instituée pour l’avantage de tous, & non pour l’utilité particulière de celles à qui elle est confiée.
+  translation_ja: 女性および女性市民の権利を保障するには、より大きな公益を旨としなければならない。この保障は万人の利益のために設けるべきで、それを委ねられた女性たちだけの便益のために設けるものではない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '10'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/12
+    source_sequence: 45
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '10'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057365
+    source_sequence: 45
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-055-print
+  translation_status: reviewed
+- id: og-056
+  section_id: article-13
+  kind: heading
+  origin: source
+  source_text: XIII.
+  translation_ja: 第13条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '10'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/12
+    source_sequence: 46
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '10'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057365
+    source_sequence: 46
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-056-print
+  translation_status: reviewed
+- id: og-057
+  section_id: article-13
+  kind: paragraph
+  origin: source
+  source_text: Pour l’entretien de la force publique, & pour les dépenses d’administration, les contributions de la femme et de l’homme sont égales ; elle a part à toutes les corvées, à toutes les tâches pénibles ; elle doit donc avoir de même part à la distribution des places, des emplois, des charges, des dignités et de l’industrie.
+  translation_ja: 公の武力を維持するにも、行政の費用をまかなうにも、女性と男性の負担は等しい。女性はあらゆる賦役とつらい仕事を分担している。したがって、職位、雇用、官職、栄誉ある地位、産業に携わる機会の配分にも、同じようにあずからねばならない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '10'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/12
+    source_sequence: 47
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '10'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057365
+    source_sequence: 47
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-057-print
+  translation_status: reviewed
+- id: og-058
+  section_id: article-14
+  kind: heading
+  origin: source
+  source_text: XIV.
+  translation_ja: 第14条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '10'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/12
+    source_sequence: 48
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '10'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057365
+    source_sequence: 48
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-058-print
+  translation_status: reviewed
+- id: og-059
+  section_id: article-14
+  kind: paragraph
+  origin: source
+  source_text: Les Citoyennes et Citoyens ont le droit de constater par eux-mêmes, ou par leurs représentans, la nécessité de la contribution publique. Les Citoyennes ne peuvent y adhérer que par l’admission d’un partage égal, non-seulement dans la fortune, mais encore dans l’administration publique, et de déterminer la quotité, l’assiette, le recouvrement et la durée de l’impôt.
+  translation_ja: 女性市民と男性市民は、自ら、またはその代表を通じて、公の負担が必要かどうかを確かめる権利を持つ。女性市民がこの負担に同意しうるのは、財産だけでなく公の行政にも対等にあずかることが認められ、税の額、課税の基準、徴収の仕方と期間を決められる場合に限る。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '10'
+    printed_page_end: '11'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/12
+    source_sequence: 49
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '10'
+    printed_page_end: '11'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057365
+    source_sequence: 49
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-059-print
+  translation_status: reviewed
+- id: og-061
+  section_id: article-15
+  kind: heading
+  origin: source
+  source_text: XV.
+  translation_ja: 第15条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/13
+    source_sequence: 50
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057369
+    source_sequence: 50
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-061-print
+  translation_status: reviewed
+- id: og-062
+  section_id: article-15
+  kind: paragraph
+  origin: source
+  source_text: La masse des femmes, coalisée pour la contribution à celle des hommes, a le droit de demander compte, à tout agent public, de son administration.
+  translation_ja: 公の負担を男性たちとともに担う女性の総体は、すべての公務員に対し、その行政について説明を求める権利を持つ。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/13
+    source_sequence: 51
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057369
+    source_sequence: 51
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-062-print
+  translation_status: reviewed
+- id: og-063
+  section_id: article-16
+  kind: heading
+  origin: source
+  source_text: XVI.
+  translation_ja: 第16条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/13
+    source_sequence: 52
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057369
+    source_sequence: 52
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-063-print
+  translation_status: reviewed
+- id: og-064
+  section_id: article-16
+  kind: paragraph
+  origin: source
+  source_text: Toute société, dans laquelle la garantie des droits n’est pas assurée, ni la séparation des pouvoirs déterminée, n’a point de constitution ; la constitution est nulle, si la majorité des individus qui composent la Nation, n’a pas coopéré à sa rédaction.
+  translation_ja: 権利の保障が確保されず、権力の分立も定められていない社会には、憲法はない。国民を構成する人々の過半数がその起草に加わらなかったならば、その憲法は無効である。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/13
+    source_sequence: 53
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057369
+    source_sequence: 53
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-064-print
+  translation_status: reviewed
+- id: og-065
+  section_id: article-17
+  kind: heading
+  origin: source
+  source_text: XVII.
+  translation_ja: 第17条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/13
+    source_sequence: 54
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057369
+    source_sequence: 54
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-065-print
+  translation_status: reviewed
+- id: og-066
+  section_id: article-17
+  kind: paragraph
+  origin: source
+  source_text: Les propriétés sont à tous les sexes réunis ou séparés ; elles ont pour chacun un droit inviolable et sacré ; nul ne peut en être privé comme vrai patrimoine de la nature, si ce n’est lorsque la nécessité publique, légalement constatée, l’exige évidemment, et sous la condition d’une juste et préalable indemnité.
+  translation_ja: 財産は、両性がともに所有することも、別々に所有することもできる。どちらにとっても、財産に対する権利は不可侵で神聖である。財産は自然からまさしく受け継いだものであって、何人もこれを奪われない。例外は、公の必要が法律に従って確かめられ、明らかにこれを要求する場合だけで、それも正当な補償があらかじめ行われることを条件とする。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/13
+    source_sequence: 55
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057369
+    source_sequence: 55
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-066-print
+  translation_status: reviewed
+- id: og-067
+  section_id: postamble
+  kind: heading
+  origin: source
+  source_text: POSTAMBULE.
+  translation_ja: 後文
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/13
+    source_sequence: 56
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057369
+    source_sequence: 56
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-067-print
+  translation_status: reviewed
+- id: og-068
+  section_id: postamble
+  kind: paragraph
+  origin: source
+  source_text: Femme, réveille-toi ; le tocsin de la raison se fait entendre dans tout l’univers ; reconnois tes droits. Le puissant empire de la nature n’est plus environné de préjugés, de fanatisme, de superstition et de mensonges. Le flambeau de la vérité a dissipé tous les nuages de la sottise et de l’usurpation. L’homme esclave a multiplié ses forces, a eu besoin de recourir aux tiennes pour briser ses fers. Devenu libre, il est devenu injuste envers sa compagne.
+  translation_ja: 女よ、目を覚ませ。理性の早鐘が世界じゅうで鳴っている。自分の権利を知れ。自然の強大な王国を取り巻いていた偏見、狂信、迷信、偽りは、もうない。真理のたいまつが、愚かさと権利の横取りとが生んだ雲をすべて払いのけた。奴隷だった男は、力を倍加させ、自分を縛る鎖を砕くために、あなたの力まで借りねばならなかった。そうして自由になるや、連れ合いに対しては不公正になったのだ。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/13
+    source_sequence: 57
+    printed_page_end: '12'
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '11'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057369
+    source_sequence: 57
+    printed_page_end: '12'
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-068-print
+  translation_status: reviewed
+- id: og-068b
+  section_id: postamble
+  kind: paragraph
+  origin: source
+  source_text: 'Ô femmes ! femmes, quand cesserez-vous d’être aveugles ? Quels sont les avantages que vous avez recueillis dans la révolution ? Un mépris plus marqué, un dédain plus signalé. Dans les siècles de corruption vous n’avez régné que sur la foiblesse des hommes. Votre empire est détruit ; que vous reste-t-il donc ? la conviction des injustices de l’homme. La réclamation de votre patrimoine, fondée sur les sages décrets de la nature ; qu’auriez-vous à redouter pour une si belle entreprise ? le bon mot du Législateur des noces de Cana ? Craignez-vous que nos Législateurs Français, correcteurs de cette morale, long-temps accrochée aux branches de la politique, mais qui n’est plus de saison, ne vous répètent : femmes, qu’y a-t-il de commun entre vous et nous ? Tout, auriez-vous à répondre.'
+  translation_ja: ああ、女たちよ、女たちよ、いつまで目を閉ざしているのか。革命であなたがたが手にしたものは何か。前にもましてあらわな軽蔑、いよいよ隠そうともしない侮りだ。腐敗の世紀、あなたがたが支配できたのは男の弱さだけだった。その支配も崩れ去ったいま、何が残るのか。男たちの不正を思い知ったことだ。自然の賢明な定めを根拠に、自分に受け継がれるはずの財産を要求することだ。これほどすばらしい企てで、何を恐れることがあろう。カナの婚礼の立法者が放ったあの機知の一言だろうか。あの教訓は長らく政治の枝にしがみついていたが、もう時代に合わない。それを正すはずのフランスの立法者たちに、こう言い返されるのが怖いのか。「女たちよ、あなたがたとわれわれに、何のかかわりがあるのか」。こう答えればよい。「すべてです」と。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '12'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/14
+    source_sequence: 58
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '12'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057373
+    source_sequence: 58
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-068-print
+  translation_status: reviewed
+- id: og-068c
+  section_id: postamble
+  kind: paragraph
+  origin: source
+  source_text: S’ils s’obstinoient, dans leur faiblesse, à mettre cette inconséquence en contradiction avec leurs principes ; opposez courageusement la force de la raison aux vaines prétentions de supériorité ; réunissez-vous sous les étendards de la philosophie ; déployez toute l’énergie de votre caractère, et vous verrez bientôt ces orgueilleux, non serviles adorateurs rampans à vos pieds, mais fiers de partager avec vous les trésors de l’Être Suprême. Quelles que soient les barrières que l’on vous oppose, il est en votre pouvoir de les affranchir ; vous n’avez qu’à le vouloir.
+  translation_ja: もし彼らが弱さゆえに、自分で掲げた原則と矛盾するこの筋違いな考えにあくまでも固執するなら、根も葉もない優越の主張に、勇気をもって理性の力を対置しなさい。哲学の旗のもとに集い、あなたがたの気性に宿る力を存分に発揮しなさい。そうすれば、あの高慢な男たちもやがて、足もとを這う卑屈な崇拝者としてではなく、至高の存在の宝をあなたがたと分かち合うことを誇りとして、姿を現すだろう。どんな障壁を築かれても、それを越える力はあなたがたにある。ただそうしようと望めばよい。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '12'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/14
+    source_sequence: 59
+    printed_page_end: '13'
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '12'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057373
+    source_sequence: 59
+    printed_page_end: '13'
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-068-print
+  translation_status: reviewed
+- id: og-068d
+  section_id: postamble
+  kind: paragraph
+  origin: source
+  source_text: Passons maintenant à l’effroyable tableau de ce que vous avez été dans la société ; & puisqu’il est question, en ce moment, d’une éducation nationale, voyons si nos sages Législateurs penseront sainement sur l’éducation des femmes.
+  translation_ja: では、これまで社会のなかであなたがたが何であったか、その恐ろしい光景に目を移そう。ちょうどいま国民教育が論じられている。われらの賢明な立法者たちは女性の教育についてもまっとうに考えるか、見届けようではないか。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '13'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/15
+    source_sequence: 60
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '13'
+    url: https://fr.wikisource.org/w/index.php?oldid=13967208
+    source_sequence: 60
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-068-print
+  translation_status: reviewed
+- id: og-071
+  section_id: postamble
+  kind: paragraph
+  origin: source
+  source_text: Les femmes ont fait plus de mal que de bien. La contrainte et la dissimulation ont été leur partage. Ce que la force leur avoit ravi, la ruse leur a rendu ; elles ont eu recours à toutes les ressources de leurs charmes, et le plus irréprochable ne leur résistoit pas. Le poison, le fer, tout leur étoit soumis ; elles commandoient au crime comme à la vertu. Le gouvernement français, sur-tout, a dépendu, pendant des siècles, de l’administration nocturne des femmes ; le cabinet n’avoit point de secret pour leur indiscrétion ; ambassade, commandement, ministère, présidence, pontificat, cardinalat ; enfin tout ce qui caractérise la sottise des hommes, profane et sacré, tout a été soumis à la cupidité et à l’ambition de ce sexe autrefois méprisable et respecté, et depuis la révolution, respectable et méprisé.
+  translation_ja: 女性は善よりも多くの害をなしてきた。押さえつけられ、本心を隠さねばならなかったのが、その境遇だった。力ずくで奪われたものは、知恵をめぐらせて取り戻した。女たちは自分の魅力を出し尽くし、どれほど非の打ちどころのない男もそれに抗えなかった。毒も刃も思うまま、犯罪にも美徳にも号令を下した。とりわけフランスの政府は、幾世紀にもわたって、女たちの夜の采配に左右されてきた。大臣の執務室にも、口の軽い女たちに対して守りおおせる秘密などなかった。大使の職、軍の指揮権、大臣の椅子、長官の職、高位聖職者の座、枢機卿の位。要するに、俗界でも聖界でも、男の愚かさを特徴づけるものは、ことごとく女たちの貪欲と野心に従った。当時は軽蔑に値しながら敬われ、革命後のいまは尊敬に値しながら蔑まれる、その女たちに。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '13'
+    printed_page_end: '14'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/15
+    source_sequence: 61
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '13'
+    printed_page_end: '14'
+    url: https://fr.wikisource.org/w/index.php?oldid=13967208
+    source_sequence: 61
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-071-print
+  translation_status: reviewed
+- id: og-074
+  section_id: postamble
+  kind: note_body
+  origin: source
+  source_text: M. de Bernis, de la façon de madame de Pompadour.
+  translation_ja: ベルニ氏は、ポンパドゥール夫人の手になるもの。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '14'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/16
+    source_sequence: 62
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '14'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057382
+    source_sequence: 62
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-074-print
+  translation_status: reviewed
+- id: og-073
+  section_id: postamble
+  kind: paragraph
+  origin: source
+  source_text: Dans cette sorte d’antithèse, que de remarques n’ai-je point à offrir ! je n’ai qu’un moment pour les faire, mais ce moment fixera l’attention de la postérité la plus reculée.
+  translation_ja: この種の対照についてなら、私にはどれだけでも言うことがある。述べる暇はほんのわずかしかないが、この一瞬に、はるかな後世の人たちも目を留めるだろう。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '14'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/16
+    source_sequence: 63
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '14'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057382
+    source_sequence: 63
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-073-print
+  translation_status: reviewed
+- id: og-073b
+  section_id: postamble
+  kind: paragraph
+  origin: source
+  source_text: Sous l’ancien régime, tout étoit vicieux, tout étoit coupable ; mais ne pourroit-on pas apercevoir l’amélioration des choses dans la substance même des vices ? Une femme n’avoit besoin que d’être belle ou aimable ; quand elle possédoit ces deux avantages, elle voyoit cent fortunes à ses pieds. Si elle n’en profitoit pas, elle avoit un caractère bizarre, ou une philosophie peu commune, qui la portoit aux mépris des richesses ; alors elle n’étoit plus considérée que comme une mauvaise tête ; la plus indécente se faisoit respecter avec de l’or ; le commerce des femmes étoit une espèce d’industrie reçue dans la première classe, qui, désormais, n’aura plus de crédit. S’il en avoit encore, la révolution seroit perdue, et sous de nouveaux rapports, nous serions toujours corrompus ; cependant la raison peut-elle se dissimuler que tout autre chemin à la fortune est fermé à la femme que l’homme achette, comme l’esclave sur les côtes d’Afrique.
+  translation_ja: 旧体制下では、何もかもが悪徳に染まり、何もかもが罪深かった。だが悪徳そのものの中身にさえ、事態をよくする糸口が見えはしないだろうか。女性は美しいか、愛嬌があるか、それだけでよかった。両方に恵まれれば、足もとには百もの財産が転がってきた。そんな機会を利用しないのは変わり者か、あるいは富など歯牙にもかけぬ並外れた哲学の持ち主だった。となれば、世間からはただの厄介者扱いを受けた。いちばんふしだらな女でさえ、金があれば人に一目置かせることができた。女を売り買いするのは上流階級では公認のなりわいのようなものだったが、今後はもはや通用しまい。なおも通用するなら革命は失われ、新しい関係のもとでも、われわれはいつまでも腐り果てたままだろう。けれども、理性の目をもってして、次のことを見ないふりができるだろうか。アフリカの海岸で奴隷を買うように男に買われる女には、富を得るほかの道がことごとく閉ざされているのだ。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '14'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/16
+    source_sequence: 64
+    printed_page_end: '15'
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '14'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057382
+    source_sequence: 64
+    printed_page_end: '15'
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-073-print
+  translation_status: reviewed
+- id: og-073c
+  section_id: postamble
+  kind: paragraph
+  origin: source
+  source_text: La différence est grande ; on le sait. L’esclave commande au maître ; mais si le maître lui donne la liberté sans récompense, et à un âge où l’esclave a perdu tous ses charmes, que devient cette infortunée ? Le jouet du mépris ; les portes même de la bienfaisance lui sont fermées ; elle est pauvre et vieille, dit-on ; pourquoi n’a-t-elle pas su faire fortune ?
+  translation_ja: もちろん、大きな違いはある。この奴隷は主人に命令する。だが、主人がなんの償いもせず、魅力のすべてが失われた年齢になってから自由をくれてやったら、この不幸な女はどうなるのか。侮蔑の餌食である。慈善の戸口さえ彼女には閉ざされる。「貧乏で年を取っている。なぜ財産を作るすべを知らなかったのだ」と世間は言う。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '15'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/17
+    source_sequence: 65
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '15'
+    url: https://fr.wikisource.org/w/index.php?oldid=13633138
+    source_sequence: 65
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-073-print
+  translation_status: reviewed
+- id: og-073d
+  section_id: postamble
+  kind: paragraph
+  origin: source
+  source_text: D’autres exemples encore plus touchans s’offrent à la raison. Une jeune personne sans expérience, séduite par un homme qu’elle aime, abandonnera ses parens pour le suivre ; l’ingrat la laissera après quelques années, et plus elle aura vieilli avec lui, plus son inconstance sera inhumaine ; si elle a des enfants, il l’abandonnera de même. S’il est riche, il se croira dispensé de partager sa fortune avec ses nobles victimes. Si quelqu’engagement le lie à ses devoirs, il en violera la puissance en espérant tout des lois. S’il est marié, tout autre engagement perd ses droits.
+  translation_ja: もっと胸を打つ例も、考えればいくらでもある。世間知らずの若い娘が、愛する男に誘惑され、親を捨てて男についてゆく。何年かすれば、恩知らずの男は彼女を捨てる。一緒に年を重ねていればいるほど、その心変わりは無慈悲なものになる。子がいてもやはり捨てる。金持ちなら、自分のせいで犠牲になったこの気高い人たちと財産を分ける必要などないと思い込む。何か約束があって義務を負っていても、法がすべて味方をしてくれると当て込んで、その効力を踏みにじるだろう。男に妻があれば、ほかのどんな約束も権利の裏付けを失う。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '15'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/17
+    source_sequence: 66
+    printed_page_end: '16'
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '15'
+    url: https://fr.wikisource.org/w/index.php?oldid=13633138
+    source_sequence: 66
+    printed_page_end: '16'
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-073-print
+  translation_status: reviewed
+- id: og-073e
+  section_id: postamble
+  kind: paragraph
+  origin: source
+  source_text: Quelles lois restent-il donc à faire pour extirper le vice jusques dans la racine ? Celle du partage des fortunes entre les hommes et les femmes, et de l’administration publique. On conçoit aisément que celle qui est née d’une famille riche, gagne beaucoup avec l’égalité des partages. Mais celle qui est née d’une famille pauvre, avec du mérite et des vertus ; quel est son lot ? La pauvreté et l’opprobre. Si elle n’excelle pas précisément en musique ou en peinture, elle ne peut être admise à aucune fonction publique, quand elle en auroit toute la capacité.
+  translation_ja: この悪弊を根こそぎにするために、どんな法律をこれから作ればよいか。男女の間で財産も、公の行政も分かち合うための法だ。富裕な家に生まれた女性なら、財産の平等な分配から大きな恩恵を受けるのは容易にわかる。だが貧しい家に生まれ、才能にも徳にも恵まれた女性には、何が割り当てられるのか。貧困と屈辱だ。たまたま音楽や絵画に秀でてでもいないかぎり、どれほどの力量を備えていようとも、いかなる公の職にも就けない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '16'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/18
+    source_sequence: 67
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '16'
+    url: https://fr.wikisource.org/w/index.php?oldid=12414766
+    source_sequence: 67
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-073-print
+  translation_status: reviewed
+- id: og-073f
+  section_id: postamble
+  kind: paragraph
+  origin: source
+  source_text: Je ne veux donner qu’un aperçu des choses, je les approfondirai dans la nouvelle édition de tous mes ouvrages politiques que je me propose de donner au public dans quelques jours, avec des notes.
+  translation_ja: ここでは見取り図を示すにとどめたい。詳しくは数日のうちに注を添えて世に問うつもりの、私の政治著作をすべて収めた新版で論じよう。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '16'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/18
+    source_sequence: 68
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '16'
+    url: https://fr.wikisource.org/w/index.php?oldid=12414766
+    source_sequence: 68
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-073-print
+  translation_status: reviewed
+- id: og-077
+  section_id: postamble
+  kind: paragraph
+  origin: source
+  source_text: 'Je reprends mon texte quant aux mœurs. Le mariage est le tombeau de la confiance & de l’amour. La femme mariée peut impunément donner des bâtards à son mari, et la fortune qui ne leur appartient pas. Celle qui ne l’est pas, n’a qu’un foible droit : les lois anciennes et inhumaines lui refusoient ce droit sur le nom & sur le bien de leur père, pour ses enfans, et l’on n’a pas fait de nouvelles lois sur cette matière. Si tenter de donner à mon sexe une consistance honorable et juste, est considéré dans ce moment comme un paradoxe de ma part, et comme tenter l’impossible, je laisse aux hommes à venir la gloire de traiter cette matière ; mais, en attendant, on peut la préparer par l’éducation nationale, par la restauration des mœurs et par les conventions conjugales.'
+  translation_ja: さて、風俗についての話に戻ろう。結婚とは、信頼と愛との墓場である。結婚した女性は、罰せられることもなく、ほかの男との間にできた子を夫の子とし、その子たちに本来は属さない財産を渡すことができる。結婚していない女性には、わずかな権利しかない。古い非人間的な法律は、その子どもたちのために父の名と財産を求める権利を彼女に認めなかったし、この点について新しい法律も作られていない。女性に名誉ある正当な地位を与えようとすることが、今のところ私の逆説にすぎず、不可能なことを企てるのだと見なされるなら、この問題を論じる栄誉は後代の人々に譲ろう。だが、それまでの間にも、国民教育、風俗の立て直し、夫婦間の取り決めによって、その下準備はできるのだ。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '16'
+    printed_page_end: '17'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/18
+    source_sequence: 69
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '16'
+    printed_page_end: '17'
+    url: https://fr.wikisource.org/w/index.php?oldid=12414766
+    source_sequence: 69
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-077-print
+  translation_status: reviewed
+- id: og-079
+  section_id: contract
+  kind: heading
+  origin: source
+  source_text: Forme du Contrat social de l’Homme et de la Femme.
+  translation_ja: 男性と女性の社会契約の書式
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '17'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/19
+    source_sequence: 70
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '17'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057396
+    source_sequence: 70
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-079-print
+  translation_status: reviewed
+- id: og-080
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: 'Nous N et N, mus par notre propre volonté, nous unissons pour le terme de notre vie, et pour la durée de nos penchans mutuels, aux conditions suivantes : Nous entendons & voulons mettre nos fortunes en communauté, en nous réservant cependant le droit de les séparer en faveur de nos enfans, et de ceux que nous pourrions avoir d’une inclination particulière, reconnaissant mutuellement que notre bien appartient directement à nos enfans, de quelque lit qu’ils sortent, et que tous indistinctement ont le droit de porter le nom des pères et mères qui les ont avoués, et nous imposons de souscrire à la loi qui punit l’abnégation de son propre sang.'
+  translation_ja: われわれ何某と何某とは、自らの意志により、われわれの生涯にわたり、また互いに愛情を抱き続けるあいだ、以下の条件のもとに結ばれる。われわれは双方の財産を共有とすることを意図し、かつ望む。ただし、われわれの子どもたち、およびいずれかが別の相手への愛情からもうけるかもしれない子どもたちのために、それを分割する権利は留保する。われわれの財産は、生まれた床がいずれであれ、われわれの子どもたちに直接属すること、またすべての子どもには区別なく、自らの子として認知した父と母の名を名乗る権利があることを、われわれは互いに認める。また、自分の血を引く者を否認する行為を罰する法律に従う義務を引き受ける。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '17'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/19
+    source_sequence: 71
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '17'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057396
+    source_sequence: 71
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-080-print
+  translation_status: reviewed
+- id: og-080b
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: Nous nous obligeons également, au cas de séparation, de faire le partage de notre fortune, et de prélever la portion de nos enfans indiquée par la loi ; et, au cas d’union parfaite, celui qui viendrait à mourir, se désisteroit de la moitié de ses propriétés en faveur de ses enfans ; et si l’un mouroit sans enfans, le survivant hériteroit de droit, à moins que le mourant n’ait disposé de la moitié du bien commun en faveur de qui il jugeroit à propos.
+  translation_ja: 別離する場合には、われわれの財産を分割し、法律の定める子どもたちの取り分を先に取り分けることも約束する。結びつきが最後まで保たれた場合には、先に死ぬ者が自分の財産の半分を子どもたちに譲る。一方が子を残さずに死ぬ場合、残る者は当然の権利として相続する。ただし死に臨む者が、ふさわしいと認めた相手のために共有財産の半分をすでに処分していた場合は、そのかぎりでない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '17'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/19
+    source_sequence: 72
+    printed_page_end: '18'
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '17'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057396
+    source_sequence: 72
+    printed_page_end: '18'
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-080-print
+  translation_status: reviewed
+- id: og-082
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: Voilà à-peu-près la formule de l’acte conjugal dont je propose l’exécution. À la lecture de ce bisarre écrit, je vois s’élever contre moi les tartuffes, les bégueules, le clergé et toute la séquelle infernale. Mais combien il offrira aux sages de moyens moraux pour arriver à la perfectibilité d’un gouvernement heureux ! j’en vais donner en peu de mots la preuve physique.
+  translation_ja: 以上が、私が実施を提案する婚姻契約書のおおよその文面である。この風変わりな文を読んで、偽善者やお上品ぶった女たち、聖職者に地獄のお供がぞろぞろと、私に立ち向かってくるのが目に見える。だが、良い政治をどこまでもよくしてゆくための道徳上の手だてを、賢明な人々はここにどれほど見いだすだろう。ほんの数言で、実際の暮らしに即した証拠をお目にかけよう。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '18'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/20
+    source_sequence: 73
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '18'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057404
+    source_sequence: 73
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-082-print
+  translation_status: reviewed
+- id: og-082b
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: Le riche Épicurien sans enfans, trouve fort bon d’aller chez son voisin pauvre augmenter sa famille. Lorsqu’il y aura une loi qui autorisera la femme du pauvre à faire adopter au riche ses enfans, les liens de la société seront plus resserrés, et les mœurs plus épurées. Cette loi conservera peut-être le bien de la communauté, et retiendra le désordre qui conduit tant de victimes dans les hospices de l’opprobre, de la bassesse et de la dégénération des principes humains, où, depuis long-tems, gémit la nature. Que les détracteurs de la saine philosophie cessent donc de se récrier contre les mœurs primitives, ou qu’ils aillent se perdre dans la source de leurs citations.
+  translation_ja: 子どものいない金持ちの快楽主義者は、貧しい隣人の家の子どもを増やしてやるのは大いに結構だと考える。貧しい男の妻が、自分の子をその金持ちに養子として引き取らせられる法律ができたなら、社会の絆はますます強く、風俗はますます清くなるだろう。この法律は、夫婦の共有財産を守りもするだろうし、多くの犠牲者を、恥辱と卑しさと人間の道義の堕落とが集まる救護院へと追いやる無秩序を、食い止めもするだろう。そこでは自然がとうの昔からうめき声を上げている。まっとうな哲学をけなす人々よ、だから、いにしえの風習に抗議の声を上げるのはやめるがいい。さもなくば、自分たちが引き合いに出す典拠の源にさかのぼって、そこで道に迷うがいい。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '18'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/20
+    source_sequence: 74
+    printed_page_end: '19'
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '18'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057404
+    source_sequence: 74
+    printed_page_end: '19'
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-082-print
+  translation_status: reviewed
+- id: og-085
+  section_id: contract
+  kind: note_body
+  origin: source
+  source_text: Abraham eut des enfans très-légitimes d’Agar, servante de sa femme.
+  translation_ja: アブラハムは、妻の召使いハガルとの間に、まったくもって正統な子どもをもうけた。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '19'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/21
+    source_sequence: 75
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '19'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057408
+    source_sequence: 75
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-085-print
+  translation_status: reviewed
+- id: og-084
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: Je voudrois encore une loi qui avantageât les veuves et les demoiselles trompées par les fausses promesses d’un homme à qui elles se seroient attachées ; je voudrois, dis-je, que cette loi forçât un inconstant à tenir ses engagemens, ou à une indemnité proportionnelle à sa fortune. Je voudrois encore que cette loi fût rigoureuse contre les femmes, du moins pour celles qui auroient le front de recourir à une loi qu’elles auroient elles-mêmes enfreinte par leur inconduite, si la preuve en étoit faite.
+  translation_ja: 私はさらに、心を寄せた男の偽りの約束に欺かれた寡婦や未婚の女性を保護する法律がほしい。心変わりした男に、約束を守るか、自分の財産に見合った賠償をするか、どちらかを義務づける法律がほしいのだ。同時に、女性に対してもこの法律は厳しくあってほしい。少なくとも、自らの不品行によってこの法を破ったことが証明されたのに、恥知らずにも同じ法にすがろうとする女性に対しては。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '19'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/21
+    source_sequence: 76
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '19'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057408
+    source_sequence: 76
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-084-print
+  translation_status: reviewed
+- id: og-084b
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: Je voudrois, en même tems, comme je l’ai exposée dans le bonheur primitif de l’homme, en 1788, que les filles publiques fussent placées dans des quartiers désignés. Ce ne sont pas les femmes publiques qui contribuent le plus à la dépravation des mœurs, ce sont les femmes de la société. En restaurant les dernières, on modifie les premières. Cette chaîne d’union fraternelle offrira d’abord le désordre, mais par les suites, elle produira à la fin un ensemble parfait.
+  translation_ja: あわせて、私が一七八八年の『人間の原初の幸福』で述べたように、売春に従事する女たちには指定した地区に住んでほしい。風俗の堕落に最も大きく手を貸しているのは街の女たちではない。上流社会の女たちだ。後者を立て直せば、前者も変わる。この同胞の結びつきの鎖は、はじめこそ無秩序のさまを見せるだろうが、やがて、ついには見事に調和した全体を生み出すだろう。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '19'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/21
+    source_sequence: 77
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '19'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057408
+    source_sequence: 77
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-084-print
+  translation_status: reviewed
+- id: og-086
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: 'J’offre un moyen invincible pour élever l’ame des femmes ; c’est de les joindre à tous les exercices de l’homme : si l’homme s’obstine à trouver ce moyen impraticable, qu’il partage avec la femme, non à son caprice, mais par la sagesse des loix. Le préjugé tombe, les mœurs s’épurent, et la nature reprend tous ses droits. Ajoutez-y le mariage des prêtres ; le Roi, raffermi sur son trône, et le gouvernement français ne sauroit plus périr.'
+  translation_ja: 女性の精神を高めるための、何ものにも負けない手だてを一つ示そう。男性の行うあらゆる活動に女性も参加させることだ。男がなおも実行は無理だと言い張るなら、自分の気まぐれではなく、賢明な法律に従って女と分かち合うがいい。偏見は崩れ、風俗は清まり、自然はその権利をことごとく取り戻す。それに、聖職者の結婚と、王座に揺るぎなく座る国王とを加えてみよ。そうすればフランスの政府はもはや滅びることはありえない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '20'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/22
+    source_sequence: 78
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '20'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057414
+    source_sequence: 78
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-086-print
+  translation_status: reviewed
+- id: og-087
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: 'Il étoit bien nécessaire que je dise quelques mots sur les troubles que cause, dit-on, le décret en faveur des hommes de couleur, dans nos îles. C’est l’à où la nature frémit d’horreur ; c’est l’à où la raison et l’humanité, n’ont pas encore touché les âmes endurcies ; c’est là sur-tout où la division et la discorde agitent leurs habitans. Il n’est pas difficile de deviner les instigateurs de ces fermentations incendiaires : il y en a dans le sein même de l’Assemblée Nationale : ils alument en Europe le feu qui doit embraser l’Amérique.'
+  translation_ja: わが国の島々で、有色の人々のための法令が引き起こしているという紛争についても、私はひと言触れずにはいられなかった。そこでは自然が恐ろしさに震え、理性と人間愛は、かたくなになった人々の心をいまだ動かしていない。とりわけそこでは、分裂と不和が住民を揺るがしている。火を噴きかねないこの動揺をあおる者たちを言い当てるのは難しくない。国民議会のまさにその内部にさえいる。彼らはヨーロッパで、やがてアメリカを包む炎に火をつけている。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '20'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/22
+    source_sequence: 79
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '20'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057414
+    source_sequence: 79
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-087-print
+  translation_status: reviewed
+- id: og-087b
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: 'Les Colons prétendent régner en despotes sur des hommes dont ils sont les pères et les frères ; et méconnoissant les droits de la nature, ils en poursuivent la source jusque dans la plus petite teinte de leur sang. Ces Colons inhumains disent : notre sang circule dans leurs veines, mais nous le répandrons tout, s’il le faut, pour assouvir notre cupidité, ou notre aveugle ambition. C’est dans ces lieux les plus près de la nature, que le père méconnoît le fils ; sourd aux cris du sang, il en étouffe tous les charmes ; que peut-on espérer de la résistance qu’on lui oppose ? la contraindre avec violence, c’est la rendre terrible, la laisser encore dans les fers, c’est acheminer toutes les calamités vers l’Amérique.'
+  translation_ja: 植民者たちは、自分がその父であり兄弟でもある人々の上に、専制君主として君臨しようとする。自然の権利を認めず、自分たちの血にほんのわずかでもその色合いが見えれば、そこにまでさかのぼって、その権利の源を追い詰めようとする。この非人間的な植民者たちは言う。「われわれの血があの者たちの血管を流れている。だがわれわれの貪欲や盲目の野心を満たすのに必要なら、その血を一滴残らず流してやる」。自然に最も近いこの地でこそ、父は息子をわが子と認めない。血の呼び声に耳をふさぎ、血の情の魅力を残らず押し殺す。これほどの相手への抵抗を前に、何を期待できるというのか。力で抑え込めば、抵抗はいよいよ恐るべきものになる。なお鎖につないでおけば、あらゆる災いをアメリカに招き寄せることになる。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '20'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/22
+    source_sequence: 80
+    printed_page_end: '21'
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '20'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057414
+    source_sequence: 80
+    printed_page_end: '21'
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-087-print
+  translation_status: reviewed
+- id: og-087c
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: Une main divine semble répandre par tout l’appanage de l’homme, la liberté ; la loi seule a le droit de réprimer cette liberté, si elle dégénére en licence ; mais elle doit être égale pour tous, c’est elle sur-tout qui doit renfermer l’Assemblée Nationale dans son décret, dicté par la prudence et par la justice. Puisse-t-elle agir de même pour l’état de la France, et se rendre aussi attentive sur les nouveaux abus, comme elle l’a été sur les anciens qui deviennent chaque jour plus effroyables !
+  translation_ja: 神の手が、人間に生まれながら授けられた自由を、あまねく行き渡らせようとしているかのようだ。その自由が放縦に堕したとき、これを制する権利があるのは法律だけである。だが法律は万人に平等でなければならない。なかでも国民議会自身に、用心深さと正義に導かれて定めた法令を逸脱させないようにするのは、その法律なのである。議会がフランス国内のことについても同じように行動し、日に日に恐ろしさを増す古い弊害に目を光らせたのと同じくらい、新しい弊害にも注意を向けてくれればよいのだが。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '21'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/23
+    source_sequence: 81
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '21'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057416
+    source_sequence: 81
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-087-print
+  translation_status: reviewed
+- id: og-087d
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: Mon opinion seroit encore de raccommoder le pouvoir exécutif avec le pouvoir législatif, car il me semble que l’un est tout, et que l’autre n’est rien ; d’où naîtra, malheureusement peut être, la perte de l’Empire François. Je considère ces deux pouvoirs, comme l’homme et la femme qui doivent être unis, mais égaux en force et en vertu, pour faire un bon ménage.
+  translation_ja: 私はまた、行政権と立法権を和解させるべきだと考える。一方がすべてで、他方が無に等しいように見えるからだ。そこから不幸にして、フランス国の破滅さえ生じるかもしれない。私の考えでは、この二つの権力は男と女のようなものだ。よい家庭を営むためには、結ばれていなければならず、それでいて力と徳においては対等でなければならない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '21'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/23
+    source_sequence: 82
+    printed_page_end: '22'
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '21'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057416
+    source_sequence: 82
+    printed_page_end: '22'
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-087-print
+  translation_status: reviewed
+- id: og-093
+  section_id: contract
+  kind: note_body
+  origin: source
+  source_text: Dans le souper magique de M. de Merville, Ninon demande quelle est la maitresse de Louis XVI ? On lui répond, c’est la Nation, cette maitresse corrompra le gouvernement si elle prend trop d’empire.
+  translation_ja: メルヴィル氏の『魔法の晩餐』で、ニノンが、ルイ十六世の愛人は誰かと尋ねる。「国民だ」と答えが返る。この愛人が力を握りすぎれば、政府を堕落させるだろう。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '22'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/24
+    source_sequence: 83
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '22'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057433
+    source_sequence: 83
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-093-print
+  translation_status: reviewed
+- id: og-090
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: Il est donc vrai que nul individu ne peut échapper à son sort ; j’en fais l’expérience aujourd’hui.
+  translation_ja: なるほど、人は誰も自分の運命からは逃れられないものだ。今日、私はそれを身をもって知った。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '22'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/24
+    source_sequence: 84
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '22'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057433
+    source_sequence: 84
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-090-print
+  translation_status: reviewed
+- id: og-091
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: 'J’avois résolu & décidé de ne pas me permettre le plus petit mot pour rire dans cette production, mais le sort en a décidé autrement : voici le fait :'
+  translation_ja: この一篇ではほんのひと言たりとも冗談を言うまいと、固く心に決めていた。それが運命は別のことを決めていたらしい。いきさつはこうだ。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '22'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/24
+    source_sequence: 85
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '22'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057433
+    source_sequence: 85
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-091-print
+  translation_status: reviewed
+- id: og-092
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: L’économie n’est point défendue, sur-tout dans ce tems de misère. J’habite la campagne. Ce matin à huit heures je suis partie d’Auteuil, & me suis acheminée vers la route qui conduit de Paris à Versailles, où l’on trouve souvent ces fameuses guinguettes qui ramassent les passans à peu de frais. Sans doute une mauvaise étoile me poursuivoit dès le matin. J’arrive à la barrière où je ne trouve pas même le triste sapin aristocrate. Je me repose sur les marches de cet édifice insolent qui recéloit des commis.
+  translation_ja: 節約は禁じられてはいない。ましてこの困窮の時代なら、なおさらだ。私は田舎に住んでいる。今朝八時、オートゥイユを出て、パリからヴェルサイユへ通じる街道に向かった。そこでは、わずかな運賃で通りすがりの人を拾う、あの名物の乗り物によくお目にかかる。きっと朝から悪い星に追われていたのだろう。市門に着いてみれば、あのみすぼらしいお貴族様の辻馬車さえ見当たらない。徴税の役人たちをひそませた、あのふてぶてしい建物の階段でひと休みした。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '22'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/24
+    source_sequence: 86
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '22'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057433
+    source_sequence: 86
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-092-print
+  translation_status: reviewed
+- id: og-092b
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: 'Neuf heures sonnent, & je continue mon chemin : une voiture s’offre à mes regards, j’y prends place, & j’arrive à neuf heures un quart, à deux montres différentes, au Pont-Royal. J’y prends le sapin, & je vole chez mon Imprimeur, rue Christine, car je ne peux aller que là si matin : en corrigeant mes épreuves, il me reste toujours quelque chose à faire ; si les pages ne sont pas bien serrées & remplies.'
+  translation_ja: 九時が鳴る。再び歩きだすと、一台の乗り物が目に入った。それに乗ってポン・ロワイヤルに着いたのは、別々の時計二つで確かめて、九時十五分だった。そこで辻馬車を拾い、クリスティーヌ街の行きつけの印刷屋へと飛んだ。こんな朝早くから訪ねられるのはそこしかない。校正刷りを直していても、紙面がきっちり埋まっていなければ、私にはいつも、まだ何かすることが残っている。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '22'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/24
+    source_sequence: 87
+    printed_page_end: '23'
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '22'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057433
+    source_sequence: 87
+    printed_page_end: '23'
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-092-print
+  translation_status: reviewed
+- id: og-092c
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: 'Je reste à-peu-près vingt minutes ; & fatiguée de marche, de composition & d’impression, je me propose d’aller prendre un bain dans le quartier du Temple, où j’allois dîner. J’arrive à onze heures moins un quart à la pendule du bain ; je devois donc au cocher une heure & demie ; mais, pour ne pas avoir de dispute avec lui, je lui offre 48 sols : il exige plus, comme d’ordinaire ; il fait du bruit. Je m’obstine à ne vouloir plus lui donner que son dû, car l’être équitable aime mieux être généreux que dupe. Je le menace de la loi, il me dit qu’il s’en moque, & que je lui payerai deux heures.'
+  translation_ja: 二十分ほどそこにいて、歩き疲れ、書き疲れ、印刷にも疲れたので、食事を取りに行くことになっていたタンプル地区で、ひと風呂浴びることにした。浴場の時計で十時四十五分に着いた。だから御者に払うべきなのは一時間半の料金だったが、言い争いはしたくないので四十八スーを差し出した。すると例によって、もっと寄越せと言って騒ぎ始めた。こうなったら正当な取り分を超えては一文も払うまいと、私も意地を張った。公正を重んじる者は、人に気前よくするのは好きでも、だまされるのは嫌いだからだ。法律に訴えると言うと、御者は知ったことか、二時間分は払わせる、と答えた。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '23'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/25
+    source_sequence: 88
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '23'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057461
+    source_sequence: 88
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-092-print
+  translation_status: reviewed
+- id: og-092d
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: Nous arrivons chez un commissaire de paix, que j’ai la générosité de ne pas nommer, quoique l’acte d’autorité qu’il s’est permis envers moi, mérite une dénonciation formelle. Il ignoroit sans doute que la femme qui réclamoit sa justice étoit la femme auteur de tant de bienfaisance & d’équité. Sans avoir égard à mes raisons, il me condamne impitoyablement à payer au cocher ce qu’il demandoit. Connoissant mieux la loi que lui, je lui dis, Monsieur, je m’y refuse, & je vous prie de faire attention que vous n’êtes pas dans le principe de votre charge.
+  translation_ja: そこでわれわれは治安委員のところへ出向いた。私に対して彼がふるった権力は正式な告発に値するけれども、ここは寛大に、その名を伏せておこう。裁きを求めてきた女が、慈善と公正のためにあれほど書いてきたあの女流著述家だとは、おそらく知らなかったのだろう。彼は私の言い分など取り合わず、無慈悲にも、御者の要求どおり払えと命じた。彼より法を知っていた私は言った。「失礼ですが、お断りします。あなたのなさっていることが、お役目の趣旨から外れていることにお気づきいただきたいのです」。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '23'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/25
+    source_sequence: 89
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '23'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057461
+    source_sequence: 89
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-092-print
+  translation_status: reviewed
+- id: og-092e
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: 'Alors cet homme, ou, pour mieux dire, ce forcené s’emporte, me menace de la Force si je ne paye à l’instant, ou de rester toute la journée dans son bureau. Je lui demande de me faire conduire au tribunal de département ou à la mairie, ayant à me plaindre de son coup d’autorité. Le grave magistrat, en redingote poudreuse & dégoûtante comme sa conversation, m’a dit plaisamment : cette affaire ira sans doute à l’Assemblée Nationale ? Cela se pourroit bien, lui dis-je ; & je m’en fus moitié furieuse & moitié riant du jugement de ce moderne Bride-Oison, en disant : c’est donc là l’espèce d’homme qui doit juger un peuple éclairé ! On ne voit que cela.'
+  translation_ja: するとこの男、いや、この乱心者はかっとなり、今すぐ払わないならラ・フォルス監獄に入れるぞ、さもなければ一日じゅうこの事務所にいてもらう、と私を脅した。権力を振りかざされたことを訴えたいので、県の裁判所か市庁舎に連れて行くよう、私は求めた。もったいぶったこの司法官は、その話しぶりに劣らず不潔で、埃にまみれたフロックコートを着て、ひとつしゃれたつもりで言った。「この一件も、きっと国民議会まで行くのでしょうな」。「そうかもしれませんよ」と私は返事し、この当世のへぼ判事ブリドワゾンの判決に、半ば腹を立て、半ば笑いながら立ち去った。こう言いながら。「これが啓蒙された人民を裁くという手合いか！　こんなのばかりだ」。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '23'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/25
+    source_sequence: 90
+    printed_page_end: '24'
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '23'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057461
+    source_sequence: 90
+    printed_page_end: '24'
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-092-print
+  translation_status: reviewed
+- id: og-092f
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: Semblables aventures arrivent indistinctement aux bons patriotes, comme aux mauvais. Il n’y a qu’un cri sur les désordres des sections & des tribunaux. La justice ne se rend pas ; la loi est méconnue, & la police se fait, Dieu sait comment. On ne peut plus retrouver les cochers à qui l’on confie des effets ; ils changent les numéros à leur fantaisie, & plusieurs personnes, ainsi que moi, ont fait des pertes considérables dans les voitures. Sous l’ancien régime, quel que fût son brigandage, on trouvait la trace de ses pertes, en faisant un appel nominal des cochers, & par l’inspection exacte des numéros ; enfin on étoit en sûreté. Que font ces juges de paix ? que font ces comissaires, ces inspecteurs du nouveau régime ? Rien que des sottises & des monopoles. L’Assemblée Nationale doit fixer toute son attention sur cette partie qui embrasse l’ordre social.
+  translation_ja: こうした出来事は、善き愛国者であれ悪しき愛国者であれ、分け隔てなく降りかかる。各区と裁判所の混乱には、誰もが声をそろえて嘆いている。正義は行われず、法律は顧みられず、警察がどう働いているのかは神のみぞ知る。荷物を預けた御者さえ、あとになって捜し出せない。彼らは好き勝手に車の番号を変え、私をはじめ何人もの人が馬車で相当な損をしている。旧体制はどれほど人を食いものにしていたとはいえ、御者の名前を一人ずつ呼び上げ、番号をきちんと調べれば、なくした物の行方を追うことができた。要するに、安心できたのである。いまの治安判事は何をしているのか。新体制のこの委員や監察官たちは何をしているのか。ばかなまねと、自分たちだけの利益を図ることばかりだ。社会の秩序にかかわるこの領域に、国民議会はありったけの注意を向けねばならない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '24'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/26
+    source_sequence: 91
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '24'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057476
+    source_sequence: 91
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-092-print
+  translation_status: reviewed
+- id: og-096
+  section_id: contract
+  kind: paragraph
+  origin: source
+  source_text: P. S. Cet ouvrage étoit composé depuis quelques jours ; il a été retardé encore à l’impression ; et au moment que M. Taleyrand, dont le nom sera toujours cher à la postérité, venant de donner son ouvrage sur les principes de l’éducation nationale, cette production étoit déjà sous la presse. Heureuse si je me suis rencontrée avec les vues de cet orateur ! Cependant je ne puis m’empêcher d’arrêter la presse, et de faire éclater la pure joie, que mon cœur a ressentie à la nouvelle que le roi venoit d’accepter la Constitution, et que l’assemblée nationale, que j’adore actuellement, sans excepter l’abbé Maury ; et la Fayette est un dieu, avoit proclamé d’une voix unanime une amnistie générale. Providence divine, fais que cette joie publique ne soit pas une fausse illusion ! Renvoie-nous, en corps, tous nos fugitifs, et que je puisse avec un peuple aimant, voler sur leur passage ; et dans ce jour solemnel, nous rendrons tous hommage à ta puissance.
+  translation_ja: 追伸　本書の原稿は数日前にできあがっていたが、印刷でもさらに遅れた。その名がいつまでも後の世の人々に愛されるだろうタレーラン氏が、国民教育の原理についての著作を発表したばかりのその時には、この一篇はもう印刷にかかっていた。もし私の考えがこの弁論家の見解と一致していたなら、うれしいことだ！　それでも私は、印刷機を止めて、わが心にわき上がったまじりけのない喜びをほとばしらせずにはいられない。国王がたったいま憲法を受諾したこと、そして私が今やモーリ師ひとりをも除かず敬愛する国民議会が（ラファイエットなどはもう神様だ）、満場一致で大赦を宣したという知らせを聞いたのである。天の摂理よ、どうかこの公の喜びをはかない幻に終わらせたもうな！　われらのもとを去った者たちをひとり残らずお返しください。愛情深い人民とともに、その帰路へと私を飛んでゆかせてください。その厳粛な日、私たちはみな、あなたのみ力をたたえるでしょう。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '24'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/26
+    source_sequence: 92
+  - source_id: wikisource-fr
+    precision: page
+    printed_page: '24'
+    url: https://fr.wikisource.org/w/index.php?oldid=12057476
+    source_sequence: 92
+  source_alignment:
+  - source_id: gouges-1791
+    original_unit_id: og-096-print
+  translation_status: reviewed
+notes:
+- id: gouges-note-1
+  origin: author
+  body:
+  - segment_id: og-021
+  label: '*'
+  contributor_id: olympe-de-gouges
+  form: footnote
+- id: gouges-note-2
+  origin: author
+  body:
+  - segment_id: og-074
+  label: '1'
+  contributor_id: olympe-de-gouges
+  form: footnote
+- id: gouges-note-3
+  origin: author
+  body:
+  - segment_id: og-085
+  label: '1'
+  contributor_id: olympe-de-gouges
+  form: footnote
+- id: gouges-note-4
+  origin: author
+  body:
+  - segment_id: og-093
+  label: '1'
+  contributor_id: olympe-de-gouges
+  form: footnote
+references:
+- id: gouges-note-1-ref
+  kind: note
+  origin: source
+  from:
+    segment_id: og-018
+    source_span:
+      start: 376
+      end: 393
+      exact: empire tirannique
+    translation_span:
+      start: 167
+      end: 173
+      exact: この専制支配
+  to:
+    type: note
+    id: gouges-note-1
+  status: verified
+  label: '*'
+- id: gouges-note-2-ref
+  kind: note
+  origin: source
+  from:
+    segment_id: og-071
+    source_span:
+      start: 576
+      end: 586
+      exact: pontificat
+    translation_span:
+      start: 239
+      end: 246
+      exact: 高位聖職者の座
+  to:
+    type: note
+    id: gouges-note-2
+  status: verified
+  label: '1'
+- id: gouges-note-3-ref
+  kind: note
+  origin: source
+  from:
+    segment_id: og-082b
+    source_span:
+      start: 660
+      end: 675
+      exact: leurs citations
+    translation_span:
+      start: 268
+      end: 284
+      exact: 自分たちが引き合いに出す典拠の源
+  to:
+    type: note
+    id: gouges-note-3
+  status: verified
+  label: '1'
+- id: gouges-note-4-ref
+  kind: note
+  origin: source
+  from:
+    segment_id: og-087d
+    source_span:
+      start: 262
+      end: 281
+      exact: l’homme et la femme
+    translation_span:
+      start: 97
+      end: 100
+      exact: 男と女
+  to:
+    type: note
+    id: gouges-note-4
+  status: verified
+  label: '1'
+assets:
+- id: gouges-original-opening
+  status: available
+  path: assets/gouges-les-droits-de-la-femme-1791/premiere-page-1791.jpg
+  media_type: image/jpeg
+  rights:
+    status: public_domain
+    license_id: PDM-1.0
+    license_url: https://creativecommons.org/publicdomain/mark/1.0/
+    evidence_url: https://commons.wikimedia.org/wiki/File:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu
+    attribution: Olympe de Gouges, Les Droits de la femme, 1791. Bibliothèque nationale de France, via Wikimedia Commons.
+    note_ja: パブリックドメインの原著の忠実な複製。原刊本には独立した標題紙がなく、書名を掲げた巻頭頁を用いた。
+  source_locations:
+  - source_id: gouges-1791
+    precision: page
+    printed_page: '1'
+    url: https://fr.wikisource.org/wiki/Page:De_Gouges_-_Les_Droits_de_la_femme,_1791.djvu/3
+    source_sequence: 0
+  sha256: 549a2d1fd99614e08928079ec9bc0e40943f748125de805d91f680451664fbfa
+  bytes: 327258
+  width: 1280
+  height: 2165
+workflow:
+  stage: ready
+  full_review:
+    status: complete
+    completed_at: '2026-11-21T08:22:05Z'
+    reviewed_by: ChatGPT
+    content_sha256: 9bb33e247092178f692bb4ad9f0abea091396726b477604e07fa91ff741b3ab3

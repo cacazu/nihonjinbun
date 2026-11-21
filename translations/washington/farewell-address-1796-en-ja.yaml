@@ -1,0 +1,1452 @@
+{
+  "schema_version": "2.0",
+  "work_id": "washington-farewell-address-1796",
+  "metadata": {
+    "title_ja": "告別の辞",
+    "title_original": "Washington’s Farewell Address to the People of the United States",
+    "original_languages": [
+      "en"
+    ],
+    "target_language": "ja",
+    "contributors": [
+      {
+        "id": "george-washington",
+        "roles": [
+          "author"
+        ],
+        "name_original": "George Washington",
+        "name_ja": "ジョージ・ワシントン"
+      }
+    ],
+    "translation_rights": {
+      "status": "licensed",
+      "license_id": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "cover_asset_id": "cover-source"
+  },
+  "sources": [
+    {
+      "id": "senate",
+      "role": "primary",
+      "title": "Washington’s Farewell Address to the People of the United States",
+      "languages": [
+        "en"
+      ],
+      "url": "https://www.govinfo.gov/content/pkg/GPO-CDOC-106sdoc21/pdf/GPO-CDOC-106sdoc21.pdf",
+      "edition": "Washington, D.C.: U.S. Government Printing Office, 2000. 106th Congress, 2nd Session, Senate Document No. 106–21.",
+      "work_rights": {
+        "status": "public_domain",
+        "jurisdiction": "US",
+        "evidence_url": "https://digitalcommons.unl.edu/etas/73/",
+        "note_ja": "原著は1796年発表。ジョージ・ワシントンは1799年没。"
+      },
+      "transcription_rights": {
+        "status": "public_domain",
+        "jurisdiction": "US",
+        "evidence_url": "https://www.govinfo.gov/content/pkg/GPO-CDOC-106sdoc21/pdf/GPO-CDOC-106sdoc21.pdf",
+        "attribution": "United States Senate / U.S. Government Printing Office. Senate Document 106–21, 2000.",
+        "note_ja": "米国上院が発行した連邦政府文書による本文。"
+      },
+      "sha256": "63c76963e838424a9caae28a6dea2a45379eb39f6e7e3afaeae925da58effc09"
+    },
+    {
+      "id": "ormrod",
+      "role": "comparison",
+      "title": "The President’s Address to the People of the United States, Announcing His Intention of Retiring from Public Life at the Expiration of the Present Constitutional Term of Presidency",
+      "languages": [
+        "en"
+      ],
+      "url": "https://digitalcommons.unl.edu/etas/73/",
+      "edition": "Philadelphia: J. Ormrod, 1796, second edition. University of Nebraska–Lincoln DigitalCommons.",
+      "work_rights": {
+        "status": "public_domain",
+        "jurisdiction": "US",
+        "evidence_url": "https://digitalcommons.unl.edu/etas/73/",
+        "note_ja": "原著は1796年発表。ジョージ・ワシントンは1799年没。"
+      },
+      "transcription_rights": {
+        "status": "public_domain",
+        "evidence_url": "https://digitalcommons.unl.edu/etas/73/"
+      },
+      "description_ja": "1796年刊の独立冊子の書誌。本文の採字には用いていない。"
+    },
+    {
+      "id": "lcm",
+      "role": "comparison",
+      "title": "Washington’s Farewell Address, illustrated broadside",
+      "languages": [
+        "en"
+      ],
+      "url": "https://www.loc.gov/lcm/pdf/LCM_2025_0102.pdf",
+      "edition": "Library of Congress Magazine, January/February 2025, inside back cover.",
+      "work_rights": {
+        "status": "public_domain",
+        "jurisdiction": "US",
+        "attribution": "Rare Book and Special Collections Division, Library of Congress.",
+        "evidence_url": "https://www.loc.gov/lcm/pdf/LCM_2025_0102.pdf",
+        "note_ja": "歴史的な一枚刷りの写真複製。米国議会図書館広報誌2025年1・2月号に掲載された画像部分のみ。"
+      },
+      "transcription_rights": {
+        "status": "unknown",
+        "note_ja": "複製画像のみ使用。雑誌の本文は採録しない。"
+      }
+    }
+  ],
+  "scope": {
+    "included": [
+      {
+        "source_id": "senate",
+        "description_ja": "上院版の本文全32頁。標題・宛名から本文最後の署名・場所・日付まで。"
+      }
+    ],
+    "excluded": [
+      {
+        "source_id": "senate",
+        "description_ja": "上院版の表紙・刊行情報・現代の解説、柱・頁番号・飾り記号。"
+      }
+    ],
+    "known_gaps": []
+  },
+  "sections": [
+    {
+      "id": "address",
+      "parent_id": null,
+      "kind": "section",
+      "origin": "source",
+      "heading_segment_ids": [
+        "wa-0001"
+      ],
+      "label_ja": "告別の辞"
+    }
+  ],
+  "segments": [
+    {
+      "id": "wa-0001",
+      "section_id": "address",
+      "kind": "heading",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "1",
+          "printed_page_end": "1",
+          "pdf_page": 4,
+          "pdf_page_end": 4,
+          "source_sequence": 1
+        }
+      ],
+      "source_text": "WASHINGTON’S FAREWELL ADDRESS",
+      "translation_ja": "ワシントンの告別の辞",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0002",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "1",
+          "printed_page_end": "1",
+          "pdf_page": 4,
+          "pdf_page_end": 4,
+          "source_sequence": 2
+        }
+      ],
+      "source_text": "To the people of the United States",
+      "translation_ja": "合衆国の人々へ",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0003",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "1",
+          "printed_page_end": "1",
+          "pdf_page": 4,
+          "pdf_page_end": 4,
+          "source_sequence": 3
+        }
+      ],
+      "source_text": "Friends and Fellow-Citizens:",
+      "translation_ja": "友であり、同じ国の市民である皆さん。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0004",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "1",
+          "printed_page_end": "1",
+          "pdf_page": 4,
+          "pdf_page_end": 4,
+          "source_sequence": 4
+        }
+      ],
+      "source_text": "The period for a new election of a citizen to administer the executive government of the United States being not far distant, and the time actually arrived when your thoughts must be employed in designating the person who is to be clothed with that important trust, it appears to me proper, especially as it may conduce to a more distinct expression of the public voice, that I should now apprise you of the resolution I have formed, to decline being considered among the number of those out of whom a choice is to be made.",
+      "translation_ja": "合衆国の行政を託す市民をあらためて選ぶ日も遠くありません。この重い責務を誰に負わせるか、皆さんが考えを巡らせる時が実際に来ています。そこで今、私が心を決めたことをお伝えするのがよいと思います。そうすれば、とりわけ国民の声がいっそうはっきりと表れるでしょう。どうか次に選ばれるかもしれない人々の中に、私をお数えにならないでください。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0005",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "1",
+          "printed_page_end": "2",
+          "pdf_page": 4,
+          "pdf_page_end": 5,
+          "source_sequence": 5
+        }
+      ],
+      "source_text": "I beg you at the same time to do me the justice to be assured that this resolution has not been taken without a strict regard to all the considerations appertaining to the relation which binds a dutiful citizen to his country—and that, in withdrawing the tender of service which silence in my situation might imply, I am influenced by no diminution of zeal for your future interest, no deficiency of grateful respect for your past kindness, but am supported by a full conviction that the step is compatible with both.",
+      "translation_ja": "同時に、どうか私の真意をおくみください。務めを重んじる市民を祖国に結びつけるものは何か、あらゆる面から念入りに考えての決意です。今の立場で私が黙っていれば、なお奉仕するつもりだと受け取られるでしょう。それを取り下げるのは、皆さんの将来を思う熱意が薄れたからでも、これまでのご厚意に感謝し敬う心が足りないからでもありません。この一歩がそのどちらとも両立すると確信したからです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0006",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "2",
+          "printed_page_end": "2",
+          "pdf_page": 5,
+          "pdf_page_end": 5,
+          "source_sequence": 6
+        }
+      ],
+      "source_text": "The acceptance of, and continuance hitherto in, the office to which your suffrages have twice called me have been a uniform sacrifice of inclination to the opinion of duty and to a deference for what appeared to be your desire. I constantly hoped that it would have been much earlier in my power, consistently with motives which I was not at liberty to disregard, to return to that retirement from which I had been reluctantly drawn. The strength of my inclination to do this, previous to the last election, had even led to the preparation of an address to declare it to you; but mature reflection on the then perplexed and critical posture of our affairs with foreign nations, and the unanimous advice of persons entitled to my confidence, impelled me to abandon the idea.",
+      "translation_ja": "皆さんが二度にわたり投票で私に託された職を引き受け、今日までとどまったのは、終始、自分の望みを抑え、務めだと考えたこと、また皆さんの望みと思われたことに従ったからでした。心ならずも静かな暮らしを離れた私には、どうしても無視できない務めに背くことなく、もっと早くその暮らしに戻れる日が来ればと、いつも願っておりました。その思いは先の選挙の前にも強く、退く意志を皆さんにお伝えする文章まで用意したほどです。しかし当時の入り組んだ危うい対外情勢を熟慮し、また信頼を置くべき人々から異口同音の助言を受けて、その考えを断念しました。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0007",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "2",
+          "printed_page_end": "3",
+          "pdf_page": 5,
+          "pdf_page_end": 6,
+          "source_sequence": 7
+        }
+      ],
+      "source_text": "I rejoice that the state of your concerns, external as well as internal, no longer renders the pursuit of inclination incompatible with the sentiment of duty or propriety and am persuaded, whatever partiality may be retained for my services, that in the present circumstances of our country you will not disapprove my determination to retire.",
+      "translation_ja": "今や内外の情勢が変わり、自分の望みに従うことが務めにも道理にも背かなくなったのは、私の喜びです。私の働きを今なおひいきしてくださる方でも、わが国の今日の事情のもとでは、身を退く決意をおとがめにはならないと信じています。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0008",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "3",
+          "printed_page_end": "3",
+          "pdf_page": 6,
+          "pdf_page_end": 6,
+          "source_sequence": 8
+        }
+      ],
+      "source_text": "The impressions with which I first undertook the arduous trust were explained on the proper occasion. In the discharge of this trust, I will only say that I have, with good intentions, contributed towards the organization and administration of the government the best exertions of which a very fallible judgment was capable. Not unconscious in the outset of the inferiority of my qualifications, experience in my own eyes, perhaps still more in the eyes of others, has strengthened the motives to diffidence of myself, and every day the increasing weight of years admonishes me more and more that the shade of retirement is as necessary to me as it will be welcome. Satisfied that if any circumstances have given peculiar value to my services, they were temporary, I have the consolation to believe that, while choice and prudence invite me to quit the political scene, patriotism does not forbid it.",
+      "translation_ja": "この重い務めを最初にお引き受けしたときの心境は、その折に申し述べました。その務めをどう果たしたかについては、一言にとどめます。私は善意をもって、誤りやすい自分の判断の及ぶ限り力を尽くし、政府を形づくり、その運営にあたりました。力の足りないことは初めから承知しておりました。経験を積むほど自分の不十分さを思い知り、おそらく人々の目にはいっそうそれが明らかになったでしょう。日増しに重くなる年齢も、静かな隠退生活は私の望みというだけでなく、必要でもあると、いよいよ強く教えています。私の奉仕に特別な値打ちを与えた事情があったとしても、それは一時のことでした。そう納得している私には、望みも分別も政界から退くよう促す今、愛国心がそれを禁じてはいないと思えることが慰めです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0009",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "4",
+          "printed_page_end": "5",
+          "pdf_page": 7,
+          "pdf_page_end": 8,
+          "source_sequence": 9
+        }
+      ],
+      "source_text": "In looking forward to the moment which is intended to terminate the career of my public life, my feelings do not permit me to suspend the deep acknowledgment of that debt of gratitude which I owe to my beloved country for the many honors it has conferred upon me, still more for the steadfast confidence with which it has supported me and for the opportunities I have thence enjoyed of manifesting my inviolable attachment by services faithful and persevering, though in usefulness unequal to my zeal. If benefits have resulted to our country from these services, let it always be remembered to your praise and as an instructive example in our annals that, under circumstances in which the passions agitated in every direction were liable to mislead, amidst appearances sometimes dubious, vicissitudes of fortune often discouraging, in situations in which not unfrequently want of success has countenanced the spirit of criticism, the constancy of your support was the essential prop of the efforts and a guarantee of the plans by which they were effected. Profoundly penetrated with this idea, I shall carry it with me to my grave as a strong incitement to unceasing vows that Heaven may continue to you the choicest tokens of its beneficence; that your union and brotherly affection may be perpetual; that the free constitution, which is the work of your hands, may be sacredly maintained; that its administration in every department may be stamped with wisdom and virtue; that, in fine, the happiness of the people of these states, under the auspices of liberty, may be made complete by so careful a preservation and so prudent a use of this blessing as will acquire to them the glory of recommending it to the applause, the affection, and adoption of every nation which is yet a stranger to it.",
+      "translation_ja": "公の生涯に終わりを告げる時を思うと、愛する祖国への深い感謝を、もう胸にとどめてはおけません。祖国は幾多の名誉を私に授けました。それにもまして、揺るぎない信頼で私を支え、そのおかげで私は、熱意に見合うほどお役には立てずとも、忠実にたゆまず仕えて、変わらぬ愛着を示す機会を得ました。もしそれがわが国にいくらかでも益をもたらしたのなら、次のことを皆さんの誉れとして、またわが国の歴史の教訓として、いつまでも覚えておいてください。あらゆる方向に揺れる激情が人を迷わせかねず、見通しが時に定まらず、運の移り変わりにはたびたび落胆させられ、成果が上がらなければ批判が勢いづくことも珍しくありませんでした。その中で努力を支え、成果をもたらした計画を成り立たせたのは、皆さんの変わらぬ支持でした。この思いを私は墓場まで携えてゆき、これを励みに祈りを絶やさないでしょう。天がこれからも皆さんに最良の恵みを授けられますように。皆さんの連邦と兄弟の情がいつまでも続きますように。皆さん自身の手による自由な憲法が固く守られ、政府のどの部門の運営にも知恵と徳が表れますように。そしてついには、諸州の人々が自由のもとで幸福を全うできますように。その恵みを大切に守り、賢明に用いる姿を見て、いまだ自由を知らないどの国の人々もこれをたたえ、愛し、自ら迎え入れるようになるなら、それこそ皆さんの栄誉です。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0010",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "5",
+          "printed_page_end": "6",
+          "pdf_page": 8,
+          "pdf_page_end": 9,
+          "source_sequence": 10
+        }
+      ],
+      "source_text": "Here, perhaps, I ought to stop. But a solicitude for your welfare, which cannot end but with my life, and the apprehension of danger natural to that solicitude, urge me on an occasion like the present to offer to your solemn contemplation, and to recommend to your frequent review, some sentiments which are the result of much reflection, of no inconsiderable observation, and which appear to me all important to the permanency of your felicity as a people. These will be offered to you with the more freedom as you can only see in them the disinterested warnings of a parting friend, who can possibly have no personal motive to bias his counsel. Nor can I forget, as an encouragement to it, your indulgent reception of my sentiments on a former and not dissimilar occasion.",
+      "translation_ja": "ここで筆をおくべきかもしれません。けれども、皆さんの幸せを案じる心は命ある限りやまず、案じる心からは当然、危険に対する懸念も生まれます。そこでこの機会に、長く考え、少なからず見聞きした末の思いをいくつかお伝えします。一つの国民として皆さんの幸福が長続きするには、きわめて大事なことだと私には思えます。じっくりとお考えいただき、折に触れて思い返してください。別れを告げる友の、私心のない忠告です。自分の利害で助言をゆがめる動機などないとお分かりいただけるだけに、遠慮なく申し上げます。以前、これと似た機会に私の思いを寛大に受け止めてくださったことも、忘れられない励みです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0011",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "6",
+          "printed_page_end": "6",
+          "pdf_page": 9,
+          "pdf_page_end": 9,
+          "source_sequence": 11
+        }
+      ],
+      "source_text": "Interwoven as is the love of liberty with every ligament of your hearts, no recommendation of mine is necessary to fortify or confirm the attachment.",
+      "translation_ja": "自由を愛する心は皆さんの心のすみずみに織り込まれています。その愛を強め、確かにするために、私がいまさら勧めることは何もありません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0012",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "6",
+          "printed_page_end": "7",
+          "pdf_page": 9,
+          "pdf_page_end": 10,
+          "source_sequence": 12
+        }
+      ],
+      "source_text": "The unity of government which constitutes you one people is also now dear to you. It is justly so; for it is a main pillar in the edifice of your real independence, the support of your tranquility at home, your peace abroad, of your safety, of your prosperity, of that very liberty which you so highly prize. But as it is easy to foresee that, from different causes and from different quarters, much pains will be taken, many artifices employed, to weaken in your minds the conviction of this truth; as this is the point in your political fortress against which the batteries of internal and external enemies will be most constantly and actively (though often covertly and insidiously) directed, it is of infinite moment that you should properly estimate the immense value of your national Union to your collective and individual happiness; that you should cherish a cordial, habitual, and immovable attachment to it; accustoming yourselves to think and speak of it as of the palladium of your political safety and prosperity; watching for its preservation with jealous anxiety; discountenancing whatever may suggest even a suspicion that it can in any event be abandoned; and indignantly frowning upon the first dawning of every attempt to alienate any portion of our country from the rest, or to enfeeble the sacred ties which now link together the various parts.",
+      "translation_ja": "皆さんを一つの国民にしている統一された政府もまた、今、皆さんにとって大切なものです。それも当然です。それは真の独立という建物を支える主柱の一つであり、国内の平穏、対外の平和、安全と繁栄、そして皆さんが何より重んじる自由そのものを支えています。しかし、この真理に対する皆さんの確信を弱めようと、さまざまな動機から、さまざまな方面で、人が努力を重ね、策を弄することは容易に予見できます。皆さんの政治の砦のうち、内外の敵がたえず、最も力を注いで、しかもしばしば人目を避け巧妙に攻めるのは、この一点です。だからこそ、国民全体の幸福にも一人ひとりの幸福にも連邦がどれほど大きな価値をもつかを正しく見定め、心からの愛着を日ごろから揺るがせにしないでください。連邦を政治上の安全と繁栄を守る盾として思い、語ることを習慣としてください。その存続には油断なく目を配り、場合によっては捨ててもよいのではないかという疑いさえ生じさせるものに、力を貸さないでください。国の一部を他の地域から引き離し、あるいは諸地域を今結び合わせている神聖なきずなを弱めようとする試みには、その芽が見えた時から、憤りをもって反対してください。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0013",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "7",
+          "printed_page_end": "7",
+          "pdf_page": 10,
+          "pdf_page_end": 10,
+          "source_sequence": 13
+        }
+      ],
+      "source_text": "For this you have every inducement of sympathy and interest. Citizens by birth or choice of a common country, that country has a right to concentrate your affections. The name of American, which belongs to you in your national capacity, must always exalt the just pride of patriotism more than any appellation derived from local discriminations. With slight shades of difference, you have the same religion, manners, habits, and political principles. You have in a common cause fought and triumphed together. The independence and liberty you possess are the work of joint councils and joint efforts—of common dangers, sufferings, and successes.",
+      "translation_ja": "情のうえからも利害のうえからも、そうする理由はいくらでもあります。生まれによってであれ、自らの選択によってであれ、皆さんは同じ祖国の市民です。皆さんの愛情がそこに集まるのは、祖国の当然の権利です。一国の民として皆さんが帯びる「アメリカ人」という名は、地方の違いから生まれるどんな呼び名よりも、愛国者としての正当な誇りを高めるはずです。多少の違いはあっても、皆さんは同じ宗教、風俗、習慣、政治の原則を分かち合っています。同じ大義のために共に戦い、共に勝利しました。今ある独立と自由は、共に知恵を出し、力を尽くし、危難も苦しみも成功も分かち合って成し遂げたものです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0014",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "8",
+          "printed_page_end": "8",
+          "pdf_page": 11,
+          "pdf_page_end": 11,
+          "source_sequence": 14
+        }
+      ],
+      "source_text": "But these considerations, however powerfully they address themselves to your sensibility, are greatly outweighed by those which apply more immediately to your interest. Here every portion of our country finds the most commanding motives for carefully guarding and preserving the Union of the whole.",
+      "translation_ja": "こうしたことがどれほど強く胸を打とうと、皆さんの利害にもっと直接関わる理由の方が、はるかに重いのです。そこに目を向ければ、わが国のどの地域にも、連邦全体を注意深く守り通すべき、何にもまして切実な理由があります。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0015",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "8",
+          "printed_page_end": "9",
+          "pdf_page": 11,
+          "pdf_page_end": 12,
+          "source_sequence": 15
+        }
+      ],
+      "source_text": "The North, in an unrestrained intercourse with the South, protected by the equal laws of a common government, finds in the productions of the latter great additional resources of maritime and commercial enterprise and precious materials of manufacturing industry. The South in the same intercourse, benefitting by the agency of the North, sees its agriculture grow and its commerce expand. Turning partly into its own channels the seamen of the North, it finds its particular navigation invigorated; and while it contributes, in different ways, to nourish and increase the general mass of the national navigation, it looks forward to the protection of a maritime strength to which itself is unequally adapted. The East, in a like intercourse with the West, already finds, and in the progressive improvement of interior communications by land and water will more and more find a valuable vent for the commodities which it brings from abroad or manufactures at home. The West derives from the East supplies requisite to its growth and comfort—and what is perhaps of still greater consequence, it must of necessity owe the secure enjoyment of indispensable outlets for its own productions to the weight, influence, and the future maritime strength of the Atlantic side of the Union, directed by an indissoluble community of interest as one nation. Any other tenure by which the West can hold this essential advantage, whether derived from its own separate strength or from an apostate and unnatural connection with any foreign power, must be intrinsically precarious.",
+      "translation_ja": "北部は、共通の政府の公平な法律に守られて南部と自由に取引することで、その産物から海運と商業を営む豊かな資源を新たに得、製造業に貴重な原料を手に入れています。南部は同じ取引を通じて北部の仲立ちにあずかり、農業を育て、商業を広げています。北部の船乗りの一部を自分たちの航路に迎えて、独自の海運も活気づきます。さまざまな形で国全体の海運力を養い、大きくする一方、南部だけでは北部ほど容易に築けない海上の力に、将来守られることも期待できます。東部は同じように西部との取引によって、輸入品にも自らの製品にも有力な販路をすでに見いだしています。内陸の陸路と水路が整うにつれ、その販路はさらに広がるでしょう。西部は成長と快適な暮らしに必要な物資を東部から得ています。それにもまして大切なのは、自分たちの産物を運び出すのに欠かせない出口を安心して使えることです。これも結局、一国として切り離せない共通の利益に導かれる大西洋沿岸諸州の重み、影響力、そして将来の海上の力にかかっています。この肝心の利点を、西部だけの力にせよ、仲間を見捨てて外国と結ぶ不自然な関係にせよ、ほかのよりどころに求めるなら、もとより不安定なものにしかなりません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0016",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "9",
+          "printed_page_end": "10",
+          "pdf_page": 12,
+          "pdf_page_end": 13,
+          "source_sequence": 16
+        }
+      ],
+      "source_text": "While then every part of our country thus feels an immediate and particular interest in union, all the parts combined cannot fail to find in the united mass of means and efforts greater strength, greater resource, proportionably greater security from external danger, a less frequent interruption of their peace by foreign nations; and, what is of inestimable value! they must derive from union an exemption from those broils and wars between themselves which so frequently afflict neighboring countries not tied together by the same government, which their own rivalships alone would be sufficient to produce, but which opposite foreign alliances, attachments, and intrigues would stimulate and embitter. Hence likewise they will avoid the necessity of those overgrown military establishments, which under any form of government are inauspicious to liberty, and which are to be regarded as particularly hostile to republican liberty. In this sense it is, that your Union ought to be considered as a main prop of your liberty, and that the love of the one ought to endear to you the preservation of the other.",
+      "translation_ja": "このようにどの地域にとっても、連邦は身近な、自分たち自身の利益です。そして全地域が手段と努力を結集すれば、力も蓄えも増し、それだけ外からの危険に対して安全になり、外国に平和を破られることも少なくなります。さらに、値のつけようもない利点があります。同じ政府のもとにない隣国どうしの間でしばしば起こる内輪もめや戦争を、連邦は防いでくれるのです。そうした争いは地域相互の競争心だけでも起こりえますが、それぞれが相争う外国と同盟を結び、心を寄せ、その策謀に関われば、いっそう激しく、険悪になります。また連邦にあれば、肥大した軍備を抱える必要も避けられます。そうした軍備はどんな政体のもとでも自由にとって不吉であり、とりわけ共和国の自由とは相いれません。この意味で連邦は皆さんの自由の主柱の一つであり、自由を愛すればこそ連邦を守ることもいっそう大切に思えるはずです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0017",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "10",
+          "printed_page_end": "11",
+          "pdf_page": 13,
+          "pdf_page_end": 14,
+          "source_sequence": 17
+        }
+      ],
+      "source_text": "These considerations speak a persuasive language to every reflecting and virtuous mind and exhibit the continuance of the Union as a primary object of patriotic desire. Is there a doubt whether a common government can embrace so large a sphere? Let experience solve it. To listen to mere speculation in such a case were criminal. We are authorized to hope that a proper organization of the whole, with the auxiliary agency of governments for the respective subdivisions, will afford a happy issue to the experiment. It is well worth a fair and full experiment. With such powerful and obvious motives to union affecting all parts of our country, while experience shall not have demonstrated its impracticability, there will always be reason to distrust the patriotism of those who in any quarter may endeavor to weaken its bands.",
+      "translation_ja": "よく考え、国のためを思う人なら、こうした事実に心を動かされ、連邦の存続を愛国者がまず願うべきことと認めるでしょう。一つの政府がこれほど広大な範囲を治められるか、疑いがありますか。経験に答えを出させましょう。この問題で単なる憶測に耳を傾けるのは罪なことです。国全体を適切に組織し、各地域の政府がそれぞれに支えれば、この試みが実を結ぶと期待するだけの理由があります。公正に、十分に試してみる価値があります。連邦を望む理由がこれほど明白で、国のどの地域にも切実である限り、そして連邦が成り立たないと経験が立証しない限り、どこの地域であれ、そのきずなを弱めようとする人の愛国心を疑う理由は、いつもあるのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0018",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "11",
+          "printed_page_end": "12",
+          "pdf_page": 14,
+          "pdf_page_end": 15,
+          "source_sequence": 18
+        }
+      ],
+      "source_text": "In contemplating the causes which may disturb our Union, it occurs as matter of serious concern that any ground should have been furnished for characterizing parties by geographical discriminations—northern and southern—Atlantic and western; whence designing men may endeavor to excite a belief that there is a real difference of local interests and views. One of the expedients of party to acquire influence within particular districts is to misrepresent the opinions and aims of other districts. You cannot shield yourselves too much against the jealousies and heart burnings which spring from these misrepresentations. They tend to render alien to each other those who ought to be bound together by fraternal affection. The inhabitants of our western country have lately had a useful lesson on this head. They have seen in the negotiation by the executive—and in the unanimous ratification by the Senate—of the treaty with Spain, and in the universal satisfaction at that event throughout the United States, a decisive proof how unfounded were the suspicions propagated among them of a policy in the general government and in the Atlantic states unfriendly to their interests in regard to the Mississippi. They have been witnesses to the formation of two treaties, that with Great Britain and that with Spain, which secure to them everything they could desire, in respect to our foreign relations, towards confirming their prosperity. Will it not be their wisdom to rely for the preservation of these advantages on the Union by which they were procured? Will they not henceforth be deaf to those advisers, if such there are, who would sever them from their brethren and connect them with aliens?",
+      "translation_ja": "連邦を揺るがしかねない原因を考えると、とりわけ気がかりなのは、北部対南部、大西洋岸対西部といった地理上の違いで党派を色分けする余地が生まれたことです。たくらみを抱く人間がそれを利用し、地方による利害や見解の違いが本当にあると思わせるかもしれません。ある地方で勢力を得ようとする党派の手口の一つは、よその地方の考えや目的を偽って伝えることです。そこから生まれる猜疑とわだかまりには、いくら用心してもしすぎることはありません。兄弟の情で結ばれるべき人々が互いをよそ者と見なすようになるからです。この点で西部の住民は最近、有益な教訓を得ました。ミシシッピ川をめぐり、連邦政府や大西洋岸の諸州が西部の利益に反する政策をとっているという疑いが、西部で広められていました。ところが、行政府がスペインとの条約を交渉し、上院が全会一致で批准し、合衆国のどこでもその知らせが喜ばれました。その疑いにどれほど根拠がなかったか、これこそ動かぬ証拠です。西部の人々は、英国との条約、スペインとの条約という二つの条約が成立するのも見届けました。繁栄を確かにするために対外関係に望みうることは、それでことごとく保障されたのです。この利点を守るにも、それを手に入れた連邦に頼るのが賢明ではありませんか。同胞から彼らを引き離し、外国の人々と結びつけようとする助言者がもしいるなら、これからはその声に耳を貸さないのではありませんか。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0019",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "12",
+          "printed_page_end": "13",
+          "pdf_page": 15,
+          "pdf_page_end": 16,
+          "source_sequence": 19
+        }
+      ],
+      "source_text": "To the efficacy and permanency of your Union, a government for the whole is indispensable. No alliances, however strict, between the parts can be an adequate substitute. They must inevitably experience the infractions and interruptions which all alliances in all times have experienced. Sensible of this momentous truth, you have improved upon your first essay by the adoption of a Constitution of government better calculated than your former for an intimate Union and for the efficacious management of your common concerns. This government, the offspring of our own choice uninfluenced and unawed, adopted upon full investigation and mature deliberation, completely free in its principles, in the distribution of its powers uniting security with energy, and containing within itself a provision for its own amendment, has a just claim to your confidence and your support. Respect for its authority, compliance with its laws, acquiescence in its measures, are duties enjoined by the fundamental maxims of true liberty. The basis of our political systems is the right of the people to make and to alter their constitutions of government. But the Constitution which at any time exists, until changed by an explicit and authentic act of the whole people, is sacredly obligatory upon all. The very idea of the power and the right of the people to establish government presupposes the duty of every individual to obey the established government.",
+      "translation_ja": "連邦が働きを果たし、長く続くためには、国全体の政府が欠かせません。各地域の間にどれほど固い同盟があっても、代わりにはなりません。いつの時代のどの同盟にもあった違約や中断は、そこでも避けられないからです。この重大な真理を理解した皆さんは、最初の試みを一歩進めました。以前の仕組みよりも緊密な連邦を築き、共通の事柄を有効に処理できる憲法を採用したのです。この政府は、他から動かされも脅かされもせず、よく調べ、十分に話し合ったうえでの私たち自身の選択から生まれました。原則において徹底して自由であり、権限の配分においては安全の保障と力強く機能することを両立させ、自らを改めるための仕組みも内に備えています。この政府には皆さんの信頼と支持を受ける正当な資格があります。その権威を敬い、法律に従い、施策を受け入れることは、真の自由の根本原則が課す務めです。わが国の政治制度は、統治のための憲法を定め、また改める国民の権利を基礎にしています。しかし現に効力のある憲法は、国民全体が明示的かつ正当な手続きで改めるまでは、すべての人が厳に守らねばなりません。国民には政府を立てる力と権利があるという考え自体が、一人ひとりにはその政府に従う務めがあることを前提にしているのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0020",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "14",
+          "printed_page_end": "14",
+          "pdf_page": 17,
+          "pdf_page_end": 17,
+          "source_sequence": 20
+        }
+      ],
+      "source_text": "All obstructions to the execution of the laws, all combinations and associations under whatever plausible character with the real design to direct, control, counteract, or awe the regular deliberation and action of the constituted authorities, are destructive of this fundamental principle and of fatal tendency. They serve to organize faction; to give it an artificial and extraordinary force; to put in the place of the delegated will of the nation the will of a party, often a small but artful and enterprising minority of the community; and, according to the alternate triumphs of different parties, to make the public administration the mirror of the ill concerted and incongruous projects of faction, rather than the organ of consistent and wholesome plans digested by common councils and modified by mutual interests. However combinations or associations of the above description may now and then answer popular ends, they are likely, in the course of time and things, to become potent engines by which cunning, ambitious, and unprincipled men will be enabled to subvert the power of the people and to usurp for themselves the reins of government, destroying afterwards the very engines which have lifted them to unjust dominion.",
+      "translation_ja": "法の執行を妨げる行為はすべて、この根本原則を損ない、取り返しのつかない結果を招きかねません。どんなにもっともらしい看板を掲げても、正規の機関の審議や行動を指図し、支配し、妨げ、または威圧することが真の目的である結社や団体も同様です。それらは徒党を組織し、本来はない並外れた力をそれに与えます。国民が代表者に託した意志に代わって一党派の意志が通るようになります。その党派は、しばしば才にたけて行動的な少数者にすぎません。違った党派が交互に勝つたびに、行政は皆で相談し、互いの利害に照らして調整した一貫性のある健全な計画を実行する機関ではなく、徒党がばらばらに立てたつじつまの合わない案を映す鏡になります。そうした団体が時として人々の望むことを果たすとしても、時がたち、事が進めば、抜け目なく野心的で、節操のない人間の強力な道具になりがちです。その道具によって国民の権力を覆し、政治の手綱をわがものとし、不当に支配の座に上りつめると、自分をそこまで持ち上げた道具そのものを壊してしまうのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0021",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "15",
+          "printed_page_end": "16",
+          "pdf_page": 18,
+          "pdf_page_end": 19,
+          "source_sequence": 21
+        }
+      ],
+      "source_text": "Towards the preservation of your government and the permanency of your present happy state, it is requisite not only that you steadily discountenance irregular oppositions to its acknowledged authority but also that you resist with care the spirit of innovation upon its principles, however specious the pretexts. One method of assault may be to effect in the forms of the Constitution alterations which will impair the energy of the system and thus to undermine what cannot be directly overthrown. In all the changes to which you may be invited, remember that time and habit are at least as necessary to fix the true character of governments as of other human institutions, that experience is the surest standard by which to test the real tendency of the existing constitution of a country, that facility in changes upon the credit of mere hypotheses and opinion exposes to perpetual change from the endless variety of hypotheses and opinion; and remember, especially, that for the efficient management of your common interests in a country so extensive as ours, a government of as much vigor as is consistent with the perfect security of liberty is indispensable; liberty itself will find in such a government, with powers properly distributed and adjusted, its surest guardian. It is indeed little else than a name, where the government is too feeble to withstand the enterprises of faction, to confine each member of the society within the limits prescribed by the laws, and to maintain all in the secure and tranquil enjoyment of the rights of person and property.",
+      "translation_ja": "皆さんの政府と、今の幸いな状態を長く保つには、正当と認められた権威に対し、定められた手続きを無視して抵抗する動きを、一貫して退けるだけでは足りません。どんなに口実がもっともらしくても、政府の根本原則をむやみに変えようとする動きにもよく注意し、抗わねばなりません。憲法の仕組みに改変を加えて制度の力をそぎ、正面からは倒せないものを内側から崩すという攻め方もあります。変更をもちかけられたら、そのつど思い出してください。政府の本来の性格が定まるには、ほかの人間の制度と少なくとも同じだけ、時間と習慣が必要です。現行の憲法が実際にどのような結果を生むかを測る最も確かな尺度は経験です。ただの仮説や意見を信じて簡単に変えていると、仮説や意見は尽きることがないのですから、いつまでも変更が続きます。なかでも覚えておいていただきたいのは、これほど広い国で共通の利益を実際に守るには、自由の安全を少しも損なわない範囲で、十分に力のある政府が欠かせないことです。権限が適切に配分され、均衡を保っていれば、自由にとってもそうした政府こそ最も頼もしい守り手です。政府が弱すぎて党派の企てを抑えられず、社会の成員一人ひとりに法の定める限度を守らせることもできず、身体や財産の権利を誰もが安心して穏やかに享受できるようにしてやれないなら、自由はほとんど名ばかりです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0022",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "16",
+          "printed_page_end": "16",
+          "pdf_page": 19,
+          "pdf_page_end": 19,
+          "source_sequence": 22
+        }
+      ],
+      "source_text": "I have already intimated to you the danger of parties in the state, with particular reference to the founding of them on geographical discriminations. Let me now take a more comprehensive view and warn you in the most solemn manner against the baneful effects of the spirit of party, generally.",
+      "translation_ja": "国内の党派の危うさは、すでに地理上の区別によって党派を作る場合について述べました。ここではもっと広い視野に立ち、党派心そのものがもたらす害について、心をこめて皆さんに警告したいと思います。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0023",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "16",
+          "printed_page_end": "16",
+          "pdf_page": 19,
+          "pdf_page_end": 19,
+          "source_sequence": 23
+        }
+      ],
+      "source_text": "This spirit, unfortunately, is inseparable from our nature, having its root in the strongest passions of the human mind. It exists under different shapes in all governments, more or less stifled, controlled, or repressed; but in those of the popular form it is seen in its greatest rankness and is truly their worst enemy.",
+      "translation_ja": "残念ながら党派心は、人間の心の最も強い情念に根を張っており、私たちの本性から切り離せません。どのような政府のもとにも、息をひそめたり、統制や抑圧を受けたりしながら、姿を変えて存在します。しかし民衆が治める政体でこそ、それはいちばん激しくはびこります。まさにその最大の敵なのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0024",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "16",
+          "printed_page_end": "17",
+          "pdf_page": 19,
+          "pdf_page_end": 20,
+          "source_sequence": 24
+        }
+      ],
+      "source_text": "The alternate domination of one faction over another, sharpened by the spirit of revenge natural to party dissension, which in different ages and countries has perpetrated the most horrid enormities, is itself a frightful despotism. But this leads at length to a more formal and permanent despotism. The disorders and miseries which result gradually incline the minds of men to seek security and repose in the absolute power of an individual; and sooner or later the chief of some prevailing faction, more able or more fortunate than his competitors, turns this disposition to the purposes of his own elevation on the ruins of public liberty.",
+      "translation_ja": "一つの徒党がもう一つを押さえつけ、今度は相手がこちらを押さえつける。党争につきものの復讐心がこれに拍車をかけ、いつの世にも、どこの国にも、恐ろしい非道が重ねられてきました。この支配の交代は、それ自体が恐るべき専制です。しかもついには、もっと制度の整った、恒久的な専制を招きます。そこから生まれる混乱と悲惨に疲れ、人々は次第に一人の人間の絶対権力に安全と休息を求めるようになります。遅かれ早かれ、優位に立った党派の首領のうち、競争相手に才で勝るか運に恵まれた者が、この気分を利用し、国民の自由を廃墟に変えて、その上に自分の地位を築くでしょう。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0025",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "17",
+          "printed_page_end": "17",
+          "pdf_page": 20,
+          "pdf_page_end": 20,
+          "source_sequence": 25
+        }
+      ],
+      "source_text": "Without looking forward to an extremity of this kind (which nevertheless ought not to be entirely out of sight) the common and continual mischiefs of the spirit of party are sufficient to make it the interest and the duty of a wise people to discourage and restrain it.",
+      "translation_ja": "そこまで極端な事態も、まったく視野の外に置いてよいわけではありません。けれども、そこまで考えなくとも、党派心が絶えずもたらす日常の弊害に目を向けるだけで十分です。それを戒め、抑えることは、賢明な国民にとって自らの利益であり、務めでもあります。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0026",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "17",
+          "printed_page_end": "18",
+          "pdf_page": 20,
+          "pdf_page_end": 21,
+          "source_sequence": 26
+        }
+      ],
+      "source_text": "It serves always to distract the public councils and enfeeble the public administration. It agitates the community with ill founded jealousies and false alarms, kindles the animosity of one part against another, foments occasionally riot and insurrection. It opens the door to foreign influence and corruption, which find a facilitated access to the government itself through the channels of party passions. Thus the policy and the will of one country are subjected to the policy and will of another.",
+      "translation_ja": "党派心はいつも公の審議を乱し、行政を弱くします。根拠のない疑いや虚報で社会を動揺させ、一部の人々を他の人々への敵意に駆り立て、ときには暴動や反乱まであおります。外国の干渉や買収に扉を開くのも党派心です。党派の激情という通路があれば、それらは政府そのものにまで入り込みやすくなります。こうして一国の政策と意志が他国の政策と意志に従属するのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0027",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "18",
+          "printed_page_end": "18",
+          "pdf_page": 21,
+          "pdf_page_end": 21,
+          "source_sequence": 27
+        }
+      ],
+      "source_text": "There is an opinion that parties in free countries are useful checks upon the administration of the government and serve to keep alive the spirit of liberty. This within certain limits is probably true— and in governments of a monarchical cast patriotism may look with indulgence, if not with favor, upon the spirit of party. But in those of the popular character, in governments purely elective, it is a spirit not to be encouraged. From their natural tendency, it is certain there will always be enough of that spirit for every salutary purpose. And there being constant danger of excess, the effort ought to be by force of public opinion to mitigate and assuage it. A fire not to be quenched, it demands a uniform vigilance to prevent its bursting into a flame, lest instead of warming it should consume.",
+      "translation_ja": "自由な国の党派は、政府の運営に有益な歯止めをかけ、自由の精神を生かし続けるという意見があります。ある限度ではおそらく正しいでしょう。君主制的な政府のもとでは、国を思う人も、党派心を歓迎はしないまでも大目に見てよいかもしれません。しかし国民が治める政体、もっぱら選挙で成り立つ政府では、党派心を励ますべきではありません。そうした政体の性質からいって、有益な目的に必要な分の党派心なら、いつでも自然に生じることは確かです。むしろ行きすぎの危険が絶えずあるのですから、世論の力でこれを和らげ、静めるよう努めるべきです。消しきれない火なら、燃え上がり、人を暖める代わりに焼き尽くすことのないよう、休みなく見守らねばなりません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0028",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "18",
+          "printed_page_end": "19",
+          "pdf_page": 21,
+          "pdf_page_end": 22,
+          "source_sequence": 28
+        }
+      ],
+      "source_text": "It is important, likewise, that the habits of thinking in a free country should inspire caution in those entrusted with its administration to confine themselves within their respective constitutional spheres, avoiding in the exercise of the powers of one department to encroach upon another. The spirit of encroachment tends to consolidate the powers of all the departments in one and thus to create, whatever the form of government, a real despotism. A just estimate of that love of power and proneness to abuse it which predominates in the human heart is sufficient to satisfy us of the truth of this position. The necessity of reciprocal checks in the exercise of political power, by dividing and distributing it into different depositories and constituting each the guardian of the public weal against invasions by the others, has been evinced by experiments ancient and modern, some of them in our country and under our own eyes. To preserve them must be as necessary as to institute them. If in the opinion of the people the distribution or modification of the constitutional powers be in any particular wrong, let it be corrected by an amendment in the way which the Constitution designates. But let there be no change by usurpation; for though this, in one instance, may be the instrument of good, it is the customary weapon by which free governments are destroyed. The precedent must always greatly overbalance in permanent evil any partial or transient benefit which the use can at any time yield.",
+      "translation_ja": "自由な国の人々がふだんから抱く考え方によって、政治を託された人々に、憲法上それぞれに定められた領域からはみ出さぬよう慎む気持ちを育てることも大切です。ある部門の権力を行使する際に、ほかの部門に踏み込んではなりません。越権をよしとすれば、どの部門の権力も結局一つに集まり、政府の形式が何であれ、実質は専制になります。人の胸にどれほど権力欲と濫用への傾きが幅をきかせるかを正しく見積もるだけで、このことは納得できるはずです。政治権力をいくつかの機関に分けて預け、それぞれが他の機関の侵害に対して公共の利益を守る番人となり、互いの権力行使に歯止めをかける。この仕組みの必要は、古今の経験によって、一部はこの国で私たちの目の前でも明らかになりました。それを維持することは、設けることと同じほど必要です。憲法上の権限の配分や形のどこかが間違っていると国民が判断するなら、憲法が指定する改正の方法で正してください。権限を奪って変えてはいけません。ある一度は善いことを成し遂げる手段になっても、自由な政府を滅ぼす常套の武器だからです。その行使が一時あるいは部分的に生みうる利益より、そうした前例がいつまでも残す害の方が、はるかに重いのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0029",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "20",
+          "printed_page_end": "20",
+          "pdf_page": 23,
+          "pdf_page_end": 23,
+          "source_sequence": 29
+        }
+      ],
+      "source_text": "Of all the dispositions and habits which lead to political prosperity, religion and morality are indispensable supports. In vain would that man claim the tribute of patriotism who should labor to subvert these great pillars of human happiness, these firmest props of the duties of men and citizens. The mere politician, equally with the pious man, ought to respect and to cherish them. A volume could not trace all their connections with private and public felicity. Let it simply be asked where is the security for property, for reputation, for life, if the sense of religious obligation desert the oaths, which are the instruments of investigation in courts of justice? And let us with caution indulge the supposition that morality can be maintained without religion. Whatever may be conceded to the influence of refined education on minds of peculiar structure, reason and experience both forbid us to expect that national morality can prevail in exclusion of religious principle.",
+      "translation_ja": "政治の繁栄に通じるあらゆる心構えや習慣のうち、宗教と道徳は欠かすことのできない支えです。人類の幸福を支えるこの大きな柱を、人として、また市民としての務めを支えるこの確かなよりどころを、壊そうとしながら愛国者の誉れを求めても、むなしいことです。信心深い人ばかりでなく、純粋に政治の立場から考える人も、これらを尊び、大切にすべきです。個人の幸福、社会の幸福との結びつきは、一冊の書物でも書き尽くせません。そこで一つだけ尋ねましょう。裁判所が真実を調べる手だてである宣誓から、信仰に基づく責任感が失われれば、財産や名誉や生命は何によって守られるのでしょう。道徳は宗教なしでも保てるという想定を、安易に受け入れないようにしましょう。特別な資質を備えた人の心に優れた教育が及ぼす力をどれほど認めるにせよ、国民全体の道徳が信仰の原理を抜きにして行き渡ると期待することは、理性のうえからも経験のうえからもできません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0030",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "20",
+          "printed_page_end": "21",
+          "pdf_page": 23,
+          "pdf_page_end": 24,
+          "source_sequence": 30
+        }
+      ],
+      "source_text": "It is substantially true that virtue or morality is a necessary spring of popular government. The rule indeed extends with more or less force to every species of free government. Who that is a sincere friend to it can look with indifference upon attempts to shake the foundation of the fabric?",
+      "translation_ja": "国民自身が治める政府は、徳、すなわち人々の道徳心なしには動きません。これは根本において真実です。程度の差はあれ、この原則はあらゆる自由な政体に当てはまります。心から自由な政体を支持する人が、この建物の土台を揺るがそうとする試みを、どうして無関心に眺めていられるでしょう。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0031",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "21",
+          "printed_page_end": "21",
+          "pdf_page": 24,
+          "pdf_page_end": 24,
+          "source_sequence": 31
+        }
+      ],
+      "source_text": "Promote then, as an object of primary importance, institutions for the general diffusion of knowledge. In proportion as the structure of a government gives force to public opinion, it is essential that public opinion should be enlightened.",
+      "translation_ja": "だからこそ、知識を広く行き渡らせる機関を育てることを、きわめて重要な課題としてください。政府の仕組みにおいて世論の力が大きければ大きいほど、その世論が知識に照らされたものであることが欠かせないのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0032",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "21",
+          "printed_page_end": "22",
+          "pdf_page": 24,
+          "pdf_page_end": 25,
+          "source_sequence": 32
+        }
+      ],
+      "source_text": "As a very important source of strength and security, cherish public credit. One method of preserving it is to use it as sparingly as possible, avoiding occasions of expense by cultivating peace, but remembering also that timely disbursements to prepare for danger frequently prevent much greater disbursements to repel it; avoiding likewise the accumulation of debt, not only by shunning occasions of expense, but by vigorous exertions in time of peace to discharge the debts which unavoidable wars may have occasioned, not ungenerously throwing upon posterity the burden which we ourselves ought to bear. The execution of these maxims belongs to your representatives, but it is necessary that public opinion should cooperate. To facilitate to them the performance of their duty, it is essential that you should practically bear in mind that towards the payment of debts there must be revenue; that to have revenue there must be taxes; that no taxes can be devised which are not more or less inconvenient and unpleasant; that the intrinsic embarrassment inseparable from the selection of the proper objects (which is always a choice of difficulties) ought to be a decisive motive for a candid construction of the conduct of the government in making it, and for a spirit of acquiescence in the measures for obtaining revenue which the public exigencies may at any time dictate.",
+      "translation_ja": "国の力と安全の大きな源として、国の信用を大切にしてください。それを守る一つの道は、借り入れに頼ることをなるべく控えることです。平和を育てて出費の必要を避けつつも、危険に備えた適時の支出は、実際にこれを退けるためのはるかに大きな支出をしばしば防ぐ、と覚えておきましょう。また、支出の機会を避けるだけでなく、やむをえない戦争で生じた負債は平時のうちに力を尽くして返済し、債務を積み上げないことです。私たち自身が負うべきものを、後世の人々にむごくも押しつけてはなりません。これらの方針を実行するのは皆さんの代表ですが、世論の協力も必要です。その務めを果たしやすくするため、次のことを実際の問題として心にとめてください。借金を返すには歳入が要り、歳入を得るには税が要ります。多少とも不便や不快を伴わない税は、考え出しようがありません。何に課税するかを決める仕事にはもともと避けられない難しさがあり、選べるのはつねに難しい道ばかりです。そのことこそ、政府が何を選んだかを公正に受け止め、その時々の公共の必要が求める歳入確保の施策を、進んで受け入れる十分な理由となるべきです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0033",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "22",
+          "printed_page_end": "23",
+          "pdf_page": 25,
+          "pdf_page_end": 26,
+          "source_sequence": 33
+        }
+      ],
+      "source_text": "Observe good faith and justice towards all nations; cultivate peace and harmony with all; religion and morality enjoin this conduct, and can it be that good policy does not equally enjoin it? It will be worthy of a free, enlightened, and, at no distant period, a great nation, to give to mankind the magnanimous and too novel example of a people always guided by an exalted justice and benevolence. Who can doubt that in the course of time and things the fruits of such a plan would richly repay any temporary advantages which might be lost by a steady adherence to it? Can it be, that Providence has not connected the permanent felicity of a nation with its virtue? The experiment, at least, is recommended by every sentiment which ennobles human nature. Alas! is it rendered impossible by its vices?",
+      "translation_ja": "どの国にも信義と正義を守り、すべての国と平和で円満な関係を育ててください。宗教と道徳はそう命じています。賢明な政策も、同じことを求めていないはずがあるでしょうか。自由で見識を備え、遠からず大国となる国民にふさわしいのは、いつも高い正義と善意に導かれて行動する民の、度量の大きな、そしてこれまであまりに例のなかった手本を、人類に示すことです。この方針を守り抜くために一時の利を失ったとしても、時がたてばその実りが損を補って余りあることを、疑う人があるでしょうか。神の摂理が、一国の恒久の幸福とその徳を結びつけなかったとでもいうのでしょうか。少なくとも、人の性質を気高くするあらゆる感情が、試してみるよう私たちを促しています。ああ、それを不可能にするのは、人間自身の悪徳なのでしょうか。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0034",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "23",
+          "printed_page_end": "24",
+          "pdf_page": 26,
+          "pdf_page_end": 27,
+          "source_sequence": 34
+        }
+      ],
+      "source_text": "In the execution of such a plan nothing is more essential than that permanent, inveterate antipathies against particular nations and passionate attachments for others should be excluded and that in place of them just and amicable feelings towards all should be cultivated. The nation which indulges towards another an habitual hatred, or an habitual fondness, is in some degree a slave. It is a slave to its animosity or to its affection, either of which is sufficient to lead it astray from its duty and its interest. Antipathy in one nation against another disposes each more readily to offer insult and injury, to lay hold of slight causes of umbrage, and to be haughty and intractable when accidental or trifling occasions of dispute occur. Hence frequent collisions, obstinate, envenomed, and bloody contests. The nation, prompted by ill will and resentment, sometimes impels to war the government, contrary to the best calculations of policy. The government sometimes participates in the national propensity and adopts through passion what reason would reject; at other times, it makes the animosity of the nation subservient to projects of hostility instigated by pride, ambition and other sinister and pernicious motives. The peace often, sometimes perhaps the liberty, of nations has been the victim.",
+      "translation_ja": "この方針を実行するのに何より必要なのは、特定の国に対する根深く恒常的な反感も、ほかの国に対する熱烈な愛着も退け、すべての国に公平で友好的な気持ちを育てることです。他国をいつも憎んだり、いつもひいきしたりする国民は、いくらかは奴隷です。憎しみの奴隷か、愛着の奴隷であり、いずれの感情も、その国を務めと利益の両方からそらすに足ります。一国が他国に反感を抱けば、双方とも相手を容易に侮辱し、傷つけ、ささいなことを腹立ちの種にします。偶然や取るに足りない理由で争いが起こっても、高慢で譲らない態度をとりがちです。そこから衝突が重なり、長引き、憎悪に満ち、血を流す争いが生じます。悪意と憤りに動かされた国民が、政策上どんなに得策でなくても、政府を戦争に駆り立てることがあります。政府自身が国民の感情をともにして、理性なら退ける決定を激情から下すこともあります。また政府が、虚栄、野心、その他のよこしまな有害な動機にあおられた敵対的な企てに、国民の敵意を役立てることもあります。こうして国々の平和がしばしば、ことによると自由までもが、犠牲にされてきました。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0035",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "24",
+          "printed_page_end": "25",
+          "pdf_page": 27,
+          "pdf_page_end": 28,
+          "source_sequence": 35
+        }
+      ],
+      "source_text": "So likewise, a passionate attachment of one nation for another produces a variety of evils. Sympathy for the favorite nation, facilitating the illusion of an imaginary common interest in cases where no real common interest exists and infusing into one the enmities of the other, betrays the former into a participation in the quarrels and wars of the latter, without adequate inducement or justification. It leads also to concessions to the favorite nation of privileges denied to others, which is apt doubly to injure the nation making the concessions, by unnecessarily parting with what ought to have been retained and by exciting jealousy, ill will, and a disposition to retaliate in the parties from whom equal privileges are withheld. And it gives to ambitious, corrupted, or deluded citizens (who devote themselves to the favorite nation) facility to betray or sacrifice the interests of their own country without odium, sometimes even with popularity, gilding with the appearances of a virtuous sense of obligation, a commendable deference for public opinion, or a laudable zeal for public good, the base or foolish compliances of ambition, corruption, or infatuation.",
+      "translation_ja": "同じように、ある国が他国に寄せる熱烈な愛着も、さまざまな害を生みます。ひいきにする国への共感から、本当は共通の利益がないところにもそれがあると思い込み、相手国の敵を自分の敵だと感じるようになります。そうなると、十分な理由も正当な根拠もないのに、相手の争いと戦争に引きずり込まれます。また、ほかの国には認めない特権をひいきの国には譲るようになります。譲る側にとっては二重の損になりがちです。手放すべきでないものを不必要に手放したうえ、同じ特権を与えられなかった諸国の嫉妬と反感、仕返ししようという気持ちを呼び起こすからです。さらに、ひいきの国のために身を捧げる、野心的な、買収された、あるいは惑わされた市民が、非難されるどころか、ときには人気まで得ながら、たやすく自国の利益を裏切り、犠牲にできます。野心や腐敗や心酔から生まれる卑しい、あるいは愚かな迎合に、立派な義務感、世論を尊重する称賛すべき態度、公共の利益のために尽くす立派な熱意という金箔をかぶせるのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0036",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "25",
+          "printed_page_end": "25",
+          "pdf_page": 28,
+          "pdf_page_end": 28,
+          "source_sequence": 36
+        }
+      ],
+      "source_text": "As avenues to foreign influence in innumerable ways, such attachments are particularly alarming to the truly enlightened and independent patriot. How many opportunities do they afford to tamper with domestic factions, to practice the arts of seduction, to mislead public opinion, to influence or awe the public councils! Such an attachment of a small or weak towards a great and powerful nation dooms the former to be the satellite of the latter.",
+      "translation_ja": "本当に見識があり自主的な愛国者が、こうした愛着を何より恐れるのは、そこから無数の道を通って外国の影響が入り込むからです。国内の党派を取り込み、甘言で誘い、世論を惑わし、公の審議に働きかけ、あるいは威圧する機会を、どれほどたくさん外国に与えることでしょう。小国や弱国が大国、強国にこうした愛着を抱けば、前者は後者の衛星国となる運命を免れません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0037",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "25",
+          "printed_page_end": "26",
+          "pdf_page": 28,
+          "pdf_page_end": 29,
+          "source_sequence": 37
+        }
+      ],
+      "source_text": "Against the insidious wiles of foreign influence (I conjure you to believe me, fellow citizens) the jealousy of a free people ought to be constantly awake, since history and experience prove that foreign influence is one of the most baneful foes of republican government. But that jealousy to be useful must be impartial; else it becomes the instrument of the very influence to be avoided, instead of a defense against it. Excessive partiality for one foreign nation and excessive dislike of another cause those whom they actuate to see danger only on one side, and serve to veil and even second the arts of influence on the other. Real patriots, who may resist the intrigues of the favorite, are liable to become suspected and odious, while its tools and dupes usurp the applause and confidence of the people to surrender their interests.",
+      "translation_ja": "同胞の皆さん、どうか私を信じてください。外国がひそかに、巧みに及ぼす影響に対しては、自由な国民はつねに警戒を怠ってはなりません。外国の影響が共和政にとって最も有害な敵の一つであることは、歴史と経験が証明しています。しかし警戒が役に立つには、公平でなければなりません。そうでなければ、避けるべき影響を防ぐどころか、まさにその道具になってしまいます。ある外国への過度のひいきと、別の外国への過度の嫌悪に動かされると、一方の側にしか危険が見えず、反対側からの働きかけを覆い隠し、それに手を貸すことさえあります。ひいきの国の策謀に抗う真の愛国者が疑われ、憎まれる一方で、その国の手先となった者やだまされた者が国民の称賛と信頼を横取りし、国民の利益を売り渡すようになるのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0038",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "26",
+          "printed_page_end": "26",
+          "pdf_page": 29,
+          "pdf_page_end": 29,
+          "source_sequence": 38
+        }
+      ],
+      "source_text": "The great rule of conduct for us in regard to foreign nations is, in extending our commercial relations, to have with them as little political connection as possible. So far as we have already formed engagements, let them be fulfilled with perfect good faith. Here let us stop.",
+      "translation_ja": "私たちが外国と接するうえでの大原則は、通商関係を広げる一方で、政治上の結びつきはできるだけ少なくすることです。すでに結んだ約束は、まったく誠実に履行しましょう。そこにとどめるのです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0039",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "26",
+          "printed_page_end": "26",
+          "pdf_page": 29,
+          "pdf_page_end": 29,
+          "source_sequence": 39
+        }
+      ],
+      "source_text": "Europe has a set of primary interests, which to us have none or a very remote relation. Hence she must be engaged in frequent controversies, the causes of which are essentially foreign to our concerns. Hence therefore it must be unwise in us to implicate ourselves, by artificial ties, in the ordinary vicissitudes of her politics or the ordinary combinations and collisions of her friendships or enmities.",
+      "translation_ja": "ヨーロッパには、私たちとは無関係か、あってもごく遠い関係にすぎない、ヨーロッパ自身の根本的な利害があります。そのためヨーロッパは、私たちにとっては本来よそ事である原因をめぐり、しばしば争いに巻き込まれます。わざわざきずなを作って、ヨーロッパの政局につきものの浮き沈みや、敵味方の離合集散や衝突に自ら関わるのは、賢明とはいえません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0040",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "26",
+          "printed_page_end": "27",
+          "pdf_page": 29,
+          "pdf_page_end": 30,
+          "source_sequence": 40
+        }
+      ],
+      "source_text": "Our detached and distant situation invites and enables us to pursue a different course. If we remain one people under an efficient government, the period is not far off when we may defy material injury from external annoyance; when we may take such an attitude as will cause the neutrality we may at any time resolve upon to be scrupulously respected; when belligerent nations, under the impossibility of making acquisitions upon us, will not lightly hazard the giving us provocation; when we may choose peace or war, as our interest guided by justice shall counsel.",
+      "translation_ja": "私たちの国は海を隔てて遠く離れています。その位置は別の道を選ぶよう促し、またそれを可能にしています。有効に働く政府のもとで一つの国民であり続けるなら、遠からず、次のような時が来るでしょう。外から何をしかけられても実質的な損害は受けずにすみ、いつ中立を決めてもそれを厳格に尊重させる立場がとれる時です。交戦諸国は、私たちを相手にしても何も奪い取れないと分かれば、私たちを挑発する危険を軽々しく冒さなくなります。そして私たちは、正義に照らして何が自国の利益かを考え、戦争か平和かを自ら選べるようになるでしょう。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0041",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "27",
+          "printed_page_end": "27",
+          "pdf_page": 30,
+          "pdf_page_end": 30,
+          "source_sequence": 41
+        }
+      ],
+      "source_text": "Why forgo the advantages of so peculiar a situation? Why quit our own to stand upon foreign ground? Why, by interweaving our destiny with that of any part of Europe, entangle our peace and prosperity in the toils of European ambition, rivalship, interest, humor, or caprice?",
+      "translation_ja": "なぜ、これほど特別な位置にある利点を捨てるのでしょう。なぜ自分の足場を離れ、外国の地に立つのでしょう。なぜヨーロッパのいずれかの地域の運命と自分の運命を織り合わせ、ヨーロッパの野心、対抗心、利害、機嫌、気まぐれの網に、自分たちの平和と繁栄を絡ませるのでしょう。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0042",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "27",
+          "printed_page_end": "28",
+          "pdf_page": 30,
+          "pdf_page_end": 31,
+          "source_sequence": 42
+        }
+      ],
+      "source_text": "It is our true policy to steer clear of permanent alliances with any portion of the foreign world—so far, I mean, as we are now at liberty to do it, for let me not be understood as capable of patronizing infidelity to existing engagements (I hold the maxim no less applicable to public than to private affairs, that honesty is always the best policy)—I repeat it therefore, let those engagements be observed in their genuine sense. But in my opinion it is unnecessary and would be unwise to extend them.",
+      "translation_ja": "どの外国とも恒久的な同盟を結ばないことが、私たちの真の方針です。もちろん、現在それを選ぶ自由がある範囲での話です。すでに引き受けた約束に背くことを私が是認しうると、受け取らないでください。誠実がつねに最善の方策だという格言は、私人のことと同じだけ、公のことにも当てはまると考えています。ですから繰り返します。既存の約束は、その真の趣旨どおりに守りましょう。ただし、それを広げる必要はなく、そうするのは賢明でないと私は思います。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0043",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "28",
+          "printed_page_end": "28",
+          "pdf_page": 31,
+          "pdf_page_end": 31,
+          "source_sequence": 43
+        }
+      ],
+      "source_text": "Taking care always to keep ourselves, by suitable establishments, on a respectably defensive posture, we may safely trust to temporary alliances for extraordinary emergencies.",
+      "translation_ja": "適切な備えを整え、侮られないだけの防衛態勢を常に保っておけば、例外的な緊急事態には、一時的な同盟に頼って差し支えありません。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0044",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "28",
+          "printed_page_end": "29",
+          "pdf_page": 31,
+          "pdf_page_end": 32,
+          "source_sequence": 44
+        }
+      ],
+      "source_text": "Harmony, liberal intercourse with all nations, are recommended by policy, humanity, and interest. But even our commercial policy should hold an equal and impartial hand: neither seeking nor granting exclusive favors or preferences; consulting the natural course of things; diffusing and diversifying by gentle means the streams of commerce but forcing nothing; establishing with powers so disposed—in order to give to trade a stable course, to define the rights of our merchants, and to enable the government to support them—conventional rules of intercourse, the best that present circumstances and mutual opinion will permit, but temporary, and liable to be from time to time abandoned or varied, as experience and circumstances shall dictate; constantly keeping in view, that it is folly in one nation to look for disinterested favors from another—that it must pay with a portion of its independence for whatever it may accept under that character—that by such acceptance it may place itself in the condition of having given equivalents for nominal favors and yet of being reproached with ingratitude for not giving more. There can be no greater error than to expect or calculate upon real favors from nation to nation. It is an illusion which experience must cure, which a just pride ought to discard.",
+      "translation_ja": "すべての国と仲よく、広く自由に往き来することは、政策のうえからも、人道のうえからも、利益のうえからも勧められます。ただし通商政策においてさえ、公平で偏りのない姿勢を守るべきです。独占的な恩恵や特別扱いは、求めもせず、与えもせず、物事の自然な流れを見ましょう。穏やかな方法で商いの流れを広げ、その道筋を多様にしながら、何一つ無理強いしてはなりません。応じる意思のある国々とは、取引を安定させ、わが国の商人の権利を定め、政府がその権利を守れるように、協定によって取引の規則を定めましょう。今の事情と双方の合意が許す最善の規則にする一方、あくまで暫定のものとし、経験と事情に応じて廃止や変更ができるようにしておくのです。また、ある国が別の国に見返りのない恩恵を期待するのは愚かだということを、つねに念頭に置いてください。そういう名目で何かを受け取れば、自国の独立の一部で代価を払わねばなりません。名ばかりの恩恵にすでに見合うものを渡したのに、それ以上を渡さないから恩知らずだと責められる羽目にもなります。国と国との間で心からの恩恵を望んだり当てにしたりするほど、大きな誤りはありません。経験に正してもらわねばならない幻想であり、正当な誇りがあれば自ら捨てるべき幻想です。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0045",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "29",
+          "printed_page_end": "29",
+          "pdf_page": 32,
+          "pdf_page_end": 32,
+          "source_sequence": 45
+        }
+      ],
+      "source_text": "In offering to you, my countrymen, these counsels of an old and affectionate friend, I dare not hope they will make the strong and lasting impression I could wish—that they will control the usual current of the passions or prevent our nation from running the course which has hitherto marked the destiny of nations. But if I may even flatter myself that they may be productive of some partial benefit, some occasional good, that they may now and then recur to moderate the fury of party spirit, to warn against the mischiefs of foreign intrigue, to guard against the impostures of pretended patriotism—this hope will be a full recompense for the solicitude for your welfare by which they have been dictated.",
+      "translation_ja": "同胞の皆さん、長く親しくしてきた友としてこうした忠告を差し上げながら、私が願うほど強く、長く心に残るとは、あえて期待いたしません。いつもの情念の流れを制したり、これまで諸国民の運命を刻んできた道をわが国がたどるのを防いだりする、とまでは思いません。それでも、ある部分で役に立ち、ときに何かよい結果を生むかもしれない。折々に思い出され、党派心の猛りを鎮め、外国の策謀の害を警告し、愛国の仮面をかぶった欺きから守るかもしれない。そこまでなら望んでよいとすれば、皆さんの幸せを思ってこれを書いた私の心労には、その希望だけで十分な報いです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0046",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "30",
+          "printed_page_end": "30",
+          "pdf_page": 33,
+          "pdf_page_end": 33,
+          "source_sequence": 46
+        }
+      ],
+      "source_text": "How far in the discharge of my official duties I have been guided by the principles which have been delineated, the public records and other evidences of my conduct must witness to you and to the world. To myself, the assurance of my own conscience is that I have at least believed myself to be guided by them.",
+      "translation_ja": "ここに述べた原則に、公務を遂行するにあたって私がどこまで従ってきたかは、公の記録と、私の行動を示すほかの証拠とが、皆さんにも全世界にも証言するでしょう。私自身に関して、良心が確かにいえるのは、少なくとも私はその原則に導かれていると信じてきた、ということです。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0047",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "30",
+          "printed_page_end": "30",
+          "pdf_page": 33,
+          "pdf_page_end": 33,
+          "source_sequence": 47
+        }
+      ],
+      "source_text": "In relation to the still subsisting war in Europe, my proclamation of the 22d of April 1793 is the index to my plan. Sanctioned by your approving voice and by that of your representatives in both houses of Congress, the spirit of that measure has continually governed me, uninfluenced by any attempts to deter or divert me from it.",
+      "translation_ja": "ヨーロッパで今も続く戦争については、一七九三年四月二十二日の私の布告が、私の方針を示しています。皆さんからも、連邦議会の両院にいる皆さんの代表からも賛同を得たその措置の精神は、その後つねに私を導いてきました。私を思いとどまらせ、あるいは道をそらそうとする試みには左右されませんでした。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0048",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "30",
+          "printed_page_end": "30",
+          "pdf_page": 33,
+          "pdf_page_end": 33,
+          "source_sequence": 48
+        }
+      ],
+      "source_text": "After deliberate examination with the aid of the best lights I could obtain, I was well satisfied that our country, under all the circumstances of the case, had a right to take—and was bound in duty and interest to take—a neutral position. Having taken it, I determined, as far as should depend upon me, to maintain it with moderation, perseverence, and firmness.",
+      "translation_ja": "得られる限り最善の知見に照らし、慎重に調べた末に、私は確信しました。事態のすべてを考え合わせれば、わが国には中立の立場をとる権利があり、しかも務めのうえからも利益のうえからも、その立場をとらなくてはならない、と。ひとたびそう決めた以上、私にできる限り、節度と粘り強さと断固たる決意をもって、その立場を保つ覚悟を決めました。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0049",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "30",
+          "printed_page_end": "31",
+          "pdf_page": 33,
+          "pdf_page_end": 34,
+          "source_sequence": 49
+        }
+      ],
+      "source_text": "The considerations which respect the right to hold this conduct it is not necessary on this occasion to detail. I will only observe that, according to my understanding of the matter, that right, so far from being denied by any of the belligerent powers, has been virtually admitted by all.",
+      "translation_ja": "この方針をとる権利の根拠を、ここで詳しく述べる必要はありません。ただ一つ、私の理解する限り、その権利は交戦国のどこからも否定されなかったばかりか、すべての交戦国から事実上認められた、と申し添えます。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0050",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "31",
+          "printed_page_end": "31",
+          "pdf_page": 34,
+          "pdf_page_end": 34,
+          "source_sequence": 50
+        }
+      ],
+      "source_text": "The duty of holding a neutral conduct may be inferred, without anything more, from the obligation which justice and humanity impose on every nation, in cases in which it is free to act, to maintain inviolate the relations of peace and amity towards other nations.",
+      "translation_ja": "中立を守る務めは、それ以上の議論をまたず、正義と人道がすべての国に課す義務から導けます。すなわち、自由に行動を選べるのであれば、他国との平和と友好の関係を損なわずに保つ義務です。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0051",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "31",
+          "printed_page_end": "31",
+          "pdf_page": 34,
+          "pdf_page_end": 34,
+          "source_sequence": 51
+        }
+      ],
+      "source_text": "The inducements of interest for observing that conduct will best be referred to your own reflections and experience. With me, a predominant motive has been to endeavor to gain time to our country to settle and mature its yet recent institutions and to progress without interruption to that degree of strength and consistency which is necessary to give it, humanly speaking, the command of its own fortunes.",
+      "translation_ja": "中立を守ることがどのような利益から勧められるかは、皆さんご自身の思索と経験にお任せするのがいちばんでしょう。私にとって大きな動機の一つは、わが国のために時間を得ることでした。まだ生まれて間もない諸制度が根づき、成熟する時間、そして人間にできる範囲で自らの運命を自ら決められるだけの力と堅実さを備えるまで、妨げられずに歩みを進める時間です。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0052",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "31",
+          "printed_page_end": "32",
+          "pdf_page": 34,
+          "pdf_page_end": 35,
+          "source_sequence": 52
+        }
+      ],
+      "source_text": "Though in reviewing the incidents of my administration I am unconscious of intentional error, I am nevertheless too sensible of my defects not to think it probable that I may have committed many errors. Whatever they may be, I fervently beseech the Almighty to avert or mitigate the evils to which they may tend. I shall also carry with me the hope that my country will never cease to view them with indulgence and that, after forty-five years of my life dedicated to its service with an upright zeal, the faults of incompetent abilities will be consigned to oblivion, as myself must soon be to the mansions of rest.",
+      "translation_ja": "自分の政権下の出来事を振り返り、故意に過ちを犯した覚えはありません。とはいえ自分の至らなさをよく知っていますから、多くの過ちを犯したかもしれないと思わずにはいられません。それが何であれ、そこから生じかねない害を退け、あるいは和らげてくださるよう、全能の神に心から願います。また、祖国がいつまでも寛大な目でそれらを見てくれることを望みながら去ります。生涯の四十五年をまっすぐな熱意で祖国に捧げてきたのですから、力不足による過ちは、やがて私自身が永い安息のすまいに赴くのと同じように、忘却に委ねられますように。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0053",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "32",
+          "printed_page_end": "32",
+          "pdf_page": 35,
+          "pdf_page_end": 35,
+          "source_sequence": 53
+        }
+      ],
+      "source_text": "Relying on its kindness in this as in other things, and actuated by that fervent love towards it which is so natural to a man who views in it the native soil of himself and his progenitors for several generations, I anticipate with pleasing expectation that retreat, in which I promise myself to realize without alloy the sweet enjoyment of partaking in the midst of my fellow citizens the benign influence of good laws under a free government—the ever favorite object of my heart, and the happy reward, as I trust, of our mutual cares, labors and dangers.",
+      "translation_ja": "このことでもほかのことでも祖国の慈しみを信頼しています。自分のみならず幾代もの祖先が生まれた土地をここに見る人間として、ごく自然な、燃えるような愛情につき動かされながら、私は退いた後の暮らしを楽しみに待っています。同じ市民の一人として皆さんのただ中に暮らし、自由な政府のもとで良い法律の恵みにあずかる。その喜びを何ものにも曇らされず味わえることを、心に期しております。それはいつも私が何より切に望んだことであり、私たちが共に担った心労、働き、そして危難に対する幸いな報いでもあると信じています。",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0054",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "32",
+          "printed_page_end": "32",
+          "pdf_page": 35,
+          "pdf_page_end": 35,
+          "source_sequence": 54
+        }
+      ],
+      "source_text": "GEO. WASHINGTON",
+      "translation_ja": "ジョージ・ワシントン",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0055",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "32",
+          "printed_page_end": "32",
+          "pdf_page": 35,
+          "pdf_page_end": 35,
+          "source_sequence": 55
+        }
+      ],
+      "source_text": "UNITED STATES",
+      "translation_ja": "合衆国",
+      "translation_status": "reviewed"
+    },
+    {
+      "id": "wa-0056",
+      "section_id": "address",
+      "kind": "paragraph",
+      "origin": "source",
+      "source_languages": [
+        "en"
+      ],
+      "source_locations": [
+        {
+          "source_id": "senate",
+          "precision": "page",
+          "printed_page": "32",
+          "printed_page_end": "32",
+          "pdf_page": 35,
+          "pdf_page_end": 35,
+          "source_sequence": 56
+        }
+      ],
+      "source_text": "19th September 1796",
+      "translation_ja": "一七九六年九月十九日",
+      "translation_status": "reviewed"
+    }
+  ],
+  "assets": [
+    {
+      "id": "cover-source",
+      "status": "available",
+      "path": "assets/washington-farewell-address-1796/farewell-broadside-loc.jpg",
+      "media_type": "image/jpeg",
+      "rights": {
+        "status": "public_domain",
+        "jurisdiction": "US",
+        "attribution": "Rare Book and Special Collections Division, Library of Congress.",
+        "evidence_url": "https://www.loc.gov/lcm/pdf/LCM_2025_0102.pdf",
+        "note_ja": "歴史的な一枚刷りの写真複製。米国議会図書館広報誌2025年1・2月号に掲載された画像部分のみ。"
+      },
+      "source_locations": [
+        {
+          "source_id": "lcm",
+          "precision": "page",
+          "pdf_page": 31,
+          "url": "https://www.loc.gov/lcm/pdf/LCM_2025_0102.pdf#page=31"
+        }
+      ],
+      "sha256": "777dd978e8b236578a037302f31b2b3df3379eda5cfdf784cfebd4f2f0c33bde",
+      "bytes": 279460,
+      "width": 1280,
+      "height": 1552
+    }
+  ],
+  "workflow": {
+    "stage": "ready",
+    "full_review": {
+      "status": "complete",
+      "completed_at": "2026-11-21T08:23:14Z",
+      "reviewed_by": "日本人文翻訳・原文対照",
+      "content_sha256": "2152f30a6651981a24e5a256755928264d42925e7f0bb73c5a1cf301f46cdc87"
+    }
+  },
+  "provenance": {
+    "source_note_ja": "本文と署名日は上院版に従う。独立冊子の初出年と上院版の刊行年を区別した。組版上の改行と行末の分綴は連結した。"
+  }
+}
