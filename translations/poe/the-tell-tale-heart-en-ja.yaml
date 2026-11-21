@@ -1,0 +1,489 @@
+"schema_version": "2.0"
+"work_id": "poe-the-tell-tale-heart"
+"metadata":
+  "title_ja": "告げ口心臓"
+  "title_original": "The Tell-Tale Heart"
+  "original_languages":
+    - "en"
+  "target_language": "ja"
+  "contributors":
+    - "id": "poe"
+      "name_ja": "エドガー・アラン・ポー"
+      "name_original": "Edgar Allan Poe"
+      "roles":
+        - "author"
+    - "id": "chatgpt"
+      "name_ja": "ChatGPT"
+      "name_original": "ChatGPT"
+      "roles":
+        - "translator"
+      "url": "https://chatgpt.com/"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC0-1.0"
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "attribution": "ChatGPT"
+  "genres":
+    - "文学"
+    - "短編小説"
+"sources":
+  - "id": "gutenberg-2148"
+    "role": "primary"
+    "title": "The Works of Edgar Allan Poe, The Raven Edition, Volume II"
+    "languages":
+      - "en"
+    "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "edition": "The Raven Edition 第2巻所収。Project Gutenberg 電子書籍第2148番（2000年4月1日公開）。採用翻刻のもとになった刷の刊年は未詳。"
+    "contributor_ids":
+      - "poe"
+    "work_rights":
+      "status": "public_domain"
+      "jurisdiction": "日本・米国"
+      "evidence_url": "https://www.eapoe.org/works/info/pt043.htm"
+      "note_ja": "1843年1月、米誌 The Pioneer 初出。ポーは1849年没。米国の保護期間は満了し、日本でも死後70年を見込んだ1919年末が戦時加算の起点より前となる。"
+    "transcription_rights":
+      "status": "public_domain"
+      "jurisdiction": "US"
+      "evidence_url": "https://gutenberg.pglaf.org/2/1/4/2148/LICENSE.txt"
+      "note_ja": "電子版は米国内でパブリックドメイン。日本でも保護期間の満了した原著の忠実な転記部分を使用。配布者名・商標を伴う再配布条件は電子版の利用案内による。"
+  - "id": "poe-society"
+    "role": "comparison"
+    "title": "The Tell-Tale Heart (publication history)"
+    "languages":
+      - "en"
+    "url": "https://www.eapoe.org/works/info/pt043.htm"
+    "edition": "Edgar Allan Poe Society of Baltimore。初出は The Pioneer, vol. I, no. 1、1843年1月、29–31頁。"
+    "work_rights":
+      "status": "public_domain"
+      "jurisdiction": "日本・米国"
+      "evidence_url": "https://www.eapoe.org/works/info/pt043.htm"
+      "note_ja": "1843年1月、米誌 The Pioneer 初出。ポーは1849年没。米国の保護期間は満了し、日本でも死後70年を見込んだ1919年末が戦時加算の起点より前となる。"
+    "transcription_rights":
+      "status": "unknown"
+      "note_ja": "刊行履歴と初出の題辞の有無を照合。現代の解説・注釈および同サイトの翻刻は転載していない。"
+"scope":
+  "included":
+    - "source_id": "gutenberg-2148"
+      "description_ja": "短編の見出しと全18段落。"
+      "section_ids":
+        - "tell-tale-heart"
+  "excluded":
+    - "source_id": "gutenberg-2148"
+      "description_ja": "同巻の他作品、電子版の配布案内、編集・制作情報。1843年の初出版にあるロングフェローの題辞はこの底本にはない。"
+  "known_gaps": []
+"sections":
+  - "id": "tell-tale-heart"
+    "parent_id": null
+    "kind": "section"
+    "origin": "source"
+    "heading_segment_ids":
+      - "tth-heading"
+"segments":
+  - "id": "tth-heading"
+    "section_id": "tell-tale-heart"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": "THE TELL-TALE HEART."
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 0
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": "告げ口心臓"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-heading"
+  - "id": "tth-p001"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      True!—nervous—very, very dreadfully nervous I had been and am; but why will you say that I am mad? The disease had sharpened my senses—not destroyed—not dulled them. Above all was the sense of hearing acute. I heard all things in the heaven and in the earth. I heard many things in hell. How, then, am I mad? Hearken! and observe how healthily—how calmly I can tell you the whole story.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 1
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      そうだ！　神経が張りつめていた――ひどく、ひどく、おそろしいほどに。今だってそうだ。だが、なぜそれで私が狂っていると言い張る？　病気で私の感覚は研ぎ澄まされた。壊れたのでも、鈍ったのでもない。なかでも耳は鋭かった。天で起こることも、地上で起こることも、何もかも聞こえた。地獄で起こることさえ、いくつも聞いた。それでどうして私が狂っているんだ？　耳を貸してくれ！　この一部始終をどんなに筋道立てて――どんなに落ち着いて話せるか、よく聞くんだ。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p001"
+  - "id": "tth-p002"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      It is impossible to say how first the idea entered my brain; but once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! yes, it was this! He had the eye of a vulture—a pale blue eye, with a film over it. Whenever it fell upon me, my blood ran cold; and so by degrees—very gradually—I made up my mind to take the life of the old man, and thus rid myself of the eye forever.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 2
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      そもそもどうしてあんな考えが頭に入り込んだのか、それは言えない。だが、ひとたび思いつくと、昼も夜もつきまとった。目当てがあったわけではない。激情に駆られたわけでもない。私はあの老人が好きだった。ひどい目にあわされたこともなければ、侮辱されたこともなかった。金が欲しかったのでもない。あの目だったと思う！　そうだ、あれだ！　老人のあの目は、はげたかの目に似ていた。薄青くて、膜のかかった目だ。その目がこちらを向くたびに、私の血は凍った。それで少しずつ――ほんとうに少しずつ――私は老人の命を奪い、あの目と永久に縁を切ろうと心を決めた。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p002"
+  - "id": "tth-p003"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Now this is the point. You fancy me mad. Madmen know nothing. But you should have seen me. You should have seen how wisely I proceeded—with what caution—with what foresight—with what dissimulation I went to work! I was never kinder to the old man than during the whole week before I killed him. And every night, about midnight, I turned the latch of his door and opened it—oh, so gently! And then, when I had made an opening sufficient for my head, I put in a dark lantern, all closed, closed, that no light shone out, and then I thrust in my head. Oh, you would have laughed to see how cunningly I thrust it in! I moved it slowly—very, very slowly, so that I might not disturb the old man’s sleep. It took me an hour to place my whole head within the opening so far that I could see him as he lay upon his bed. Ha!—would a madman have been so wise as this? And then, when my head was well in the room, I undid the lantern cautiously—oh, so cautiously—cautiously (for the hinges creaked)—I undid it just so much that a single thin ray fell upon the vulture eye. And this I did for seven long nights—every night just at midnight—but I found the eye always closed; and so it was impossible to do the work; for it was not the old man who vexed me, but his Evil Eye. And every morning, when the day broke, I went boldly into the chamber, and spoke courageously to him, calling him by name in a hearty tone, and inquiring how he has passed the night. So you see he would have been a very profound old man, indeed, to suspect that every night, just at twelve, I looked in upon him while he slept.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 3
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      いいか、ここなんだ。あなたは私が狂っていると思っている。狂人には何もわからない。だが、あのときの私を見てほしかった。私がどれほど賢く立ちまわったか――どれほど慎重に、先の先まで考えて、そぶりにも出さずに事を運んだか！　老人を殺す前の一週間、私はかつてないほどあの人に親切にした。そして毎晩、真夜中ごろ、私は老人の部屋の掛け金を回し、戸を開けた――そっと、それはもう、そっと！　頭が通るだけの隙間ができると、まず覆いのついた角灯を差し入れた。覆いはぴったり閉じて、閉じきって、光はひと筋も漏れない。それから頭を差し入れた。ああ、見せたかったな、あんまり巧みに頭を入れるので、きっと笑ったろう！　老人の眠りを妨げまいと、ゆっくり――ごく、ごくゆっくりと頭を動かした。ベッドに横たわる姿が見えるところまで、隙間に頭をすっかり入れるのに、一時間かかった。はっ！　狂人にこれほどの分別があるものか？　そうして頭が部屋の中に入りきると、用心して角灯の覆いを開けた――ああ、用心に用心を重ねて（蝶番がきしむからだ）、はげたかの目に細い光がただひと筋落ちるだけ、覆いを開けたのだ。長い七晩、私はこれを繰り返した。毎晩きっかり十二時に。だが目はいつも閉じていて、だから手が下せなかった。私を苦しめたのは老人ではない。あの人の、あの邪眼だ。ところが朝になると、夜が明けるたび、私は堂々と寝室へ入り、臆することなく声をかけた。快活に名を呼び、昨夜はよく眠れたかと尋ねた。ね、毎晩十二時きっかりに寝顔をのぞかれているなどと勘づくとしたら、よくよく人の心の奥まで見通せる老人でなければなるまい。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p003"
+  - "id": "tth-p004"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Upon the eighth night I was more than usually cautious in opening the door. A watch’s minute hand moves more quickly than did mine. Never before that night had I felt the extent of my own powers—of my sagacity. I could scarcely contain my feelings of triumph. To think that there I was, opening the door, little by little, and he not even to dream of my secret deeds or thoughts. I fairly chuckled at the idea; and perhaps he heard me; for he moved on the bed suddenly, as if startled. Now you may think that I drew back—but no. His room was as black as pitch with the thick darkness, (for the shutters were close fastened, through fear of robbers,) and so I knew that he could not see the opening of the door, and I kept pushing it on steadily, steadily.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 4
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      八晩目、私はいつもにも増して用心深く戸を開けた。懐中時計の長針だって、私の手よりは速く動く。この夜まで、自分にどれほどの力があるか――どれほど知恵がまわるか――思い知ったことはなかった。得意な気持ちがこみあげて、抑えきれないほどだった。こうして私は少しずつ戸を開けているのに、老人は私がひそかに何をしているのか、何を思っているのか、夢にも知らない！　そう思うと、つい忍び笑いが漏れた。聞こえたのかもしれない。老人がはっとしたように、ベッドで急に身じろぎしたからだ。そこで引き下がったと思うかもしれないが――いや。部屋には濃い闇がこもり、タールのように真っ黒だった（盗賊を恐れて、よろい戸は固く閉ざしてあった）。戸が開いていくのは見えっこない。だから私はそのまま、じりじり、じりじりと押し続けた。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p004"
+  - "id": "tth-p005"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      I had my head in, and was about to open the lantern, when my thumb slipped upon the tin fastening, and the old man sprang up in bed, crying out—“Who’s there?”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 5
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": "頭はもう中に入っていた。角灯の覆いを開けようとしたとき、ブリキの留め金にかけた親指が滑った。老人はベッドに跳ね起きて叫んだ。「そこにいるのは誰だ？」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p005"
+  - "id": "tth-p006"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      I kept quite still and said nothing. For a whole hour I did not move a muscle, and in the meantime I did not hear him lie down. He was still sitting up in the bed listening;—just as I have done, night after night, hearkening to the death watches in the wall.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 6
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      私はじっとしたまま、ひと言も発しなかった。まる一時間、ぴくりとも動かなかった。そのあいだ、老人がまた横になった音はしなかった。ベッドに起き上がったまま、耳を澄ましていたのだ。ちょうど私が幾晩も幾晩も、壁の中でシバンムシが刻む音に耳を澄ましてきたように。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p006"
+  - "id": "tth-p007"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Presently I heard a slight groan, and I knew it was the groan of mortal terror. It was not a groan of pain or of grief—oh, no!—it was the low stifled sound that arises from the bottom of the soul when overcharged with awe. I knew the sound well. Many a night, just at midnight, when all the world slept, it has welled up from my own bosom, deepening, with its dreadful echo, the terrors that distracted me. I say I knew it well. I knew what the old man felt, and pitied him, although I chuckled at heart. I knew that he had been lying awake ever since the first slight noise, when he had turned in the bed. His fears had been ever since growing upon him. He had been trying to fancy them causeless, but could not. He had been saying to himself—“It is nothing but the wind in the chimney—it is only a mouse crossing the floor,” or “It is merely a cricket which has made a single chirp.” Yes, he had been trying to comfort himself with these suppositions: but he had found all in vain. All in vain; because Death, in approaching him had stalked with his black shadow before him, and enveloped the victim. And it was the mournful influence of the unperceived shadow that caused him to feel—although he neither saw nor heard—to feel the presence of my head within the room.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 7
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      やがて、かすかなうめき声がした。死ぬほどの恐怖にもれる声だと私にはわかった。痛みや悲しみのうめきではない――ああ、違う！　恐ろしさで魂がいっぱいになったとき、その底からわきあがる、低く、押し殺した声だった。よく知っている声だ。夜中の十二時、世の中が眠りしずまったころ、幾晩となく私自身の胸からこみあげて、そのおぞましい響きが、私の心をかき乱す恐怖をいっそう深くした。よく知っていると言ったろう。老人がどんな気持ちでいるかわかった。気の毒に思った。心の中では忍び笑いをしながらも。最初のかすかな物音にベッドで身じろぎしたときから、ずっと目を覚ましていたのだ。それからというもの、恐怖は募るばかりだった。怖がる理由などないと思い込もうとしても、できなかった。「なんだ、煙突の風じゃないか。ねずみが一匹、床を横切っただけだ」。あるいは「こおろぎがひと声鳴いただけだ」と自分に言い聞かせていた。そうやってあれこれ考えて心をなだめようとしたが、どれもむだだった。むだになるはずだ。死が、大股で近づきながら、黒い影を先に差しかけ、もう獲物を包み込んでいたのだから。目に映らぬその影の陰気な力に、老人は感じたのだ――何も見えず、何も聞こえないのに――部屋の中に私の頭があるのを感じたのだ。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p007"
+  - "id": "tth-p008"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      When I had waited a long time, very patiently, without hearing him lie down, I resolved to open a little—a very, very little crevice in the lantern. So I opened it—you cannot imagine how stealthily, stealthily—until, at length a single dim ray, like the thread of the spider, shot from out the crevice and fell full upon the vulture eye.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 8
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      ずいぶん長いこと、私は辛抱強く待った。それでも老人が横になった音はしない。そこで角灯の覆いを少し――ほんの、ほんのわずかだけ開けてみることにした。そうして開けた。どれほどひそかに、ひそかに開けたか、想像もつくまい。とうとう隙間から、くもの糸のようにか細い光がひと筋走り、はげたかの目にまともに当たった。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p008"
+  - "id": "tth-p009"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      It was open—wide, wide open—and I grew furious as I gazed upon it. I saw it with perfect distinctness—all a dull blue, with a hideous veil over it that chilled the very marrow in my bones; but I could see nothing else of the old man’s face or person: for I had directed the ray as if by instinct, precisely upon the damned spot.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 9
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      目は開いていた――大きく、大きく見開いていた。見つめているうちに、怒りがこみあげてきた。隅々まではっきり見えた。どんよりした青一色で、ぞっとするような薄衣に覆われ、見ている私の骨の髄まで冷えた。だが老人の顔も体も、そのほかは何ひとつ見えなかった。本能に導かれたように、私はあの忌まわしい一点をぴたりと照らしていたのだから。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p009"
+  - "id": "tth-p010"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      And have I not told you that what you mistake for madness is but over-acuteness of the sense?—now, I say, there came to my ears a low, dull, quick sound, such as a watch makes when enveloped in cotton. I knew that sound well, too. It was the beating of the old man’s heart. It increased my fury, as the beating of a drum stimulates the soldier into courage.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 10
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      言ったはずだ、あなたが狂気だと思い違いしているのは、感覚が鋭すぎるだけのことだと。――さてそのとき、耳に届いたのは、低く、鈍く、せわしない音だった。懐中時計を綿にくるんだときのような音だ。この音もよく知っていた。老人の心臓の鼓動だ。太鼓の連打が兵士を奮い立たせるように、その鼓動は私の怒りをかき立てた。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p010"
+  - "id": "tth-p011"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      But even yet I refrained and kept still. I scarcely breathed. I held the lantern motionless. I tried how steadily I could maintain the ray upon the eye. Meantime the hellish tattoo of the heart increased. It grew quicker and quicker, and louder and louder every instant. The old man’s terror must have been extreme! It grew louder, I say, louder every moment!—do you mark me well? I have told you that I am nervous: so I am. And now at the dead hour of the night, amid the dreadful silence of that old house, so strange a noise as this excited me to uncontrollable terror. Yet, for some minutes longer I refrained and stood still. But the beating grew louder, louder! I thought the heart must burst. And now a new anxiety seized me—the sound would be heard by a neighbour! The old man’s hour had come! With a loud yell, I threw open the lantern and leaped into the room. He shrieked once—once only. In an instant I dragged him to the floor, and pulled the heavy bed over him. I then smiled gaily, to find the deed so far done. But, for many minutes, the heart beat on with a muffled sound. This, however, did not vex me; it would not be heard through the wall. At length it ceased. The old man was dead. I removed the bed and examined the corpse. Yes, he was stone, stone dead. I placed my hand upon the heart and held it there many minutes. There was no pulsation. He was stone dead. His eye would trouble me no more.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 11
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      それでもまだ私はこらえて、じっとしていた。息もほとんどしなかった。角灯を持つ手も動かさなかった。目に当てたひと筋の光を、どこまで揺らさずにいられるか試した。そのあいだにも、心臓が打ち鳴らす地獄の早太鼓は激しさを増した。刻一刻、速く速く、強く強くなった。老人はどんなにおびえていたことだろう！　音は大きくなったのだ、一刻ごとに、大きく！　ちゃんと聞いているか？　私は神経が張りつめていると言った。そのとおりなのだ。そして今、真夜中のしんとした刻限に、あの古い家のおそろしい静けさの中で、こんな異様な音を聞いて、私は抑えようのない恐怖に駆られた。それでもなお数分のあいだ、こらえて立ち尽くしていた。だが鼓動は大きくなる、大きくなる！　心臓が張り裂けるかと思った。そのとき、別の不安に襲われた――隣家の人に聞こえてしまう！　老人の最期が来た！　私は大声で叫び、角灯の覆いをさっと開いて、部屋に飛び込んだ。老人は悲鳴をあげた。一度――ただ一度だけ。たちまち私は老人を床に引きずり下ろし、重いベッドをその上に引き倒した。ここまで事が運んだと思うと、愉快でにっこりした。それでも、何分ものあいだ、心臓はくぐもった音で打ち続けた。それはもう気にかからなかった。壁の向こうには聞こえまい。やがて音はやんだ。老人は死んだ。私はベッドをどけ、死体を調べた。そうだ、死んでいた。まったく、まったく死んでいた。心臓の上に手を当てたまま、何分も待った。脈はなかった。まったく死んでいた。もうあの目に悩まされることはない。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p011"
+  - "id": "tth-p012"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      If still you think me mad, you will think so no longer when I describe the wise precautions I took for the concealment of the body. The night waned, and I worked hastily, but in silence. First of all I dismembered the corpse. I cut off the head and the arms and the legs.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 12
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      まだ私が狂っていると思うのなら、遺体を隠すのにどんなに知恵を働かせ、用心を重ねたか、聞けば気も変わるだろう。夜はもう残り少なかった。私は急いだが、音は立てずに働いた。まず死体をばらばらにした。頭を切り離し、両腕と両脚を切り離した。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p012"
+  - "id": "tth-p013"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      I then took up three planks from the flooring of the chamber, and deposited all between the scantlings. I then replaced the boards so cleverly, so cunningly, that no human eye—not even his—could have detected any thing wrong. There was nothing to wash out—no stain of any kind—no blood-spot whatever. I had been too wary for that. A tub had caught all—ha! ha!
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 13
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      それから寝室の床板を三枚はがし、根太と根太のあいだにすべてを納めた。そして板を元に戻した。それもじつに巧みに、じつに抜け目なく戻したので、人間の目には――あの人の目にさえ――どこがおかしいか見破れはしなかったろう。洗い落とすものなど何もなかった。しみひとつ――血の斑点ひとつ、どこにもなかった。そんなへまをする私か。全部たらいで受けておいたのだ――は！　は！
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p013"
+  - "id": "tth-p014"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      When I had made an end of these labors, it was four o’clock—still dark as midnight. As the bell sounded the hour, there came a knocking at the street door. I went down to open it with a light heart,—for what had I now to fear? There entered three men, who introduced themselves, with perfect suavity, as officers of the police. A shriek had been heard by a neighbour during the night; suspicion of foul play had been aroused; information had been lodged at the police office, and they (the officers) had been deputed to search the premises.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 14
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      この仕事を終えたのは四時だった。まだ真夜中のように暗かった。時を告げる鐘が鳴ると、通りに面した戸をたたく音がした。私は軽い心で下りていって戸を開けた。――今さら私に何を恐れることがある？　三人の男が入ってきて、このうえなく丁重な口ぶりで、警察の者だと名乗った。夜中に悲鳴を聞いた近所の人がいた。何かよからぬことがあったのではという疑いが生じ、警察に届けがあり、この家を調べるよう三人に命が下ったという。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p014"
+  - "id": "tth-p015"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      I smiled,—for what had I to fear? I bade the gentlemen welcome. The shriek, I said, was my own in a dream. The old man, I mentioned, was absent in the country. I took my visitors all over the house. I bade them search—search well. I led them, at length, to his chamber. I showed them his treasures, secure, undisturbed. In the enthusiasm of my confidence, I brought chairs into the room, and desired them here to rest from their fatigues, while I myself, in the wild audacity of my perfect triumph, placed my own seat upon the very spot beneath which reposed the corpse of the victim.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 15
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      私はほほえんだ。――私に何を恐れることがある？　三人に、ようこそおいでくださいました、と言った。悲鳴なら、夢を見て私があげたのです、と。老人は今、田舎に出かけて留守だとも話した。客人たちを家じゅう案内した。お調べください、どうぞよくお調べください、と勧めた。最後に老人の寝室へ連れていった。大切な品々も無事で、手を触れた跡もないのを見せた。自信に気をよくした私は、椅子を運び入れ、さぞお疲れでしょう、ここでお休みくださいと勧めた。何もかもまんまとやりおおせた。そう思うと途方もなく気が大きくなって、私は自分の椅子を、殺された人の亡骸が眠るまさにその真上に据えた。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p015"
+  - "id": "tth-p016"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      The officers were satisfied. My manner had convinced them. I was singularly at ease. They sat, and while I answered cheerily, they chatted of familiar things. But, ere long, I felt myself getting pale and wished them gone. My head ached, and I fancied a ringing in my ears: but still they sat and still chatted. The ringing became more distinct:—it continued and became more distinct: I talked more freely to get rid of the feeling: but it continued and gained definiteness—until, at length, I found that the noise was not within my ears.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 16
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      警官たちは納得した。私の物腰を見て安心したのだ。私自身、不思議なくらいくつろいでいた。三人は腰を下ろし、世間話をした。私は明るく受け答えをした。だが、ほどなく顔から血の気が引いていくのを感じ、帰ってくれればいいのにと思った。頭が痛くなり、耳鳴りがする気がした。それでも三人は座ったまま、まだ話していた。耳鳴りがはっきりしてきた。――いつまでもやまず、いよいよはっきりしてきた。その感じを振り払おうと、私はますます気さくにしゃべった。それでも音はやまず、ますますくっきりしてきて――とうとうわかった。鳴っているのは私の耳の中ではなかった。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p016"
+  - "id": "tth-p017"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      No doubt I now grew very pale;—but I talked more fluently, and with a heightened voice. Yet the sound increased—and what could I do? It was a low, dull, quick sound—much such a sound as a watch makes when enveloped in cotton. I gasped for breath—and yet the officers heard it not. I talked more quickly—more vehemently; but the noise steadily increased. I arose and argued about trifles, in a high key and with violent gesticulations; but the noise steadily increased. Why would they not be gone? I paced the floor to and fro with heavy strides, as if excited to fury by the observations of the men—but the noise steadily increased. Oh God! what could I do? I foamed—I raved—I swore! I swung the chair upon which I had been sitting, and grated it upon the boards, but the noise arose over all and continually increased. It grew louder—louder—louder! And still the men chatted pleasantly, and smiled. Was it possible they heard not? Almighty God!—no, no! They heard!—they suspected!—they knew!—they were making a mockery of my horror!—this I thought, and this I think. But anything was better than this agony! Anything was more tolerable than this derision! I could bear those hypocritical smiles no longer! I felt that I must scream or die! and now—again!—hark! louder! louder! louder! louder!
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 17
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": |-
+      このとき私はよほど青ざめていたに違いない。だが口はますますなめらかに動き、声は高くなった。それでも音は大きくなった――どうすればいい？　低く、鈍く、せわしない音だった。まるで懐中時計を綿にくるんだときのような。私は息を吸おうとあえいだ――それなのに警官たちには聞こえなかった。私はもっと早口に、もっと激しくしゃべった。だが音は着実に大きくなった。立ち上がって、つまらないことをむきになって論じた。上ずった声で、手を振りまわして。それでも音は着実に大きくなった。なぜ帰ってくれない？　私は、三人の言葉に腹を立てたとでもいうように、重い足取りで部屋を行ったり来たりした――それでも音は着実に大きくなった。ああ神さま！　どうすればいい？　私は口角に泡を飛ばし、わめき、悪態をついた！　座っていた椅子を振りまわし、床板にこすりつけてぎいぎい鳴らした。だが音はそのすべてを越えて湧きあがり、大きくなる一方だった。大きく――大きく――大きく！　それでも三人は楽しげに話し、にこにこしていた。聞こえないなどということがあるのか？　ああ、全能の神よ！――いや、いや！　聞こえている！――疑っている！――知っている！――私が怖がるのを見てあざ笑っている！――あのとき私はそう思った。今もそう思っている。だがこんな苦しみよりは何だってましだ！　こんなふうに嘲られるくらいなら、何だって我慢できる！　あのそらぞらしい笑顔にはもう耐えられなかった！　叫ばなければ死ぬ、と思った！　それが今――まただ！――聞け！　大きく！　大きく！　大きく！　大きく！
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p017"
+    "annotations":
+      - "side": "source"
+        "kind": "emphasis"
+        "span":
+          "start": 20
+          "end": 24
+          "exact": "very"
+      - "side": "source"
+        "kind": "emphasis"
+        "span":
+          "start": 1286
+          "end": 1293
+          "exact": "louder!"
+      - "side": "translation"
+        "kind": "emphasis"
+        "span":
+          "start": 6
+          "end": 9
+          "exact": "よほど"
+      - "side": "translation"
+        "kind": "emphasis"
+        "span":
+          "start": 659
+          "end": 663
+          "exact": "大きく！"
+  - "id": "tth-p018"
+    "section_id": "tell-tale-heart"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Villains!” I shrieked, “dissemble no more! I admit the deed!—tear up the planks!—here, here!—It is the beating of his hideous heart!”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-2148"
+        "precision": "block"
+        "anchor": "chap2.20"
+        "source_sequence": 18
+        "url": "https://gutenberg.pglaf.org/2/1/4/2148/2148-h/2148-h.htm#chap2.20"
+    "translation_ja": "「悪党ども！」私は金切り声をあげた。「もうとぼけるな！　白状する、私がやった！――床板をはがせ！――ここだ、ここだ！――あれはあいつの、あのおぞましい心臓が打っている音だ！」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-2148"
+        "original_unit_id": "chap2.20-p018"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-11-21T04:19:31Z"
+    "reviewed_by": "ChatGPT"
+    "content_sha256": "6f47e61cc163fe5783d652e9b77339b312d56bbe4614ef42c38e4dc48faf026e"
