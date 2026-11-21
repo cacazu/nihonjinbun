@@ -969,5 +969,11 @@
   "source_and_rights": "Project Gutenberg第25471号の固定中国語原文を用い、清刊木版本で補配・照合。日本語新訳はCC0 1.0。ハーバード燕京図書館と中国国家図書館所蔵本の図版には各資料の出典・権利表示を付し、新訳の許諾とは区別。"
   "work_id": "xianqing-ouji-zh-ja"
   "sha256": "8d36b6baaf4928871f8fcafdbe3d5dacf721f7fc8b918c10f296cde714ca2ea6"
+- "file": "translations/archer/play-making-en-ja.yaml"
+  "title": "戯曲の書き方――実作の手引き"
+  "coverage_note": "1912年ロンドン版の前付、全5部23章、著者原注117、文献案内、索引513項目と印刷所記までを収録。1,378対訳単位。索引の印刷頁参照1,263箇所を本文へ接続。"
+  "source_and_rights": "チャップマン・アンド・ホール1912年ロンドン版（コーネル大学蔵）の版面を底本とし、Project Gutenberg 10865の本文を照合。後年版の序文は収めない。アーチャー本文の日本語新訳と独自注はCC0 1.0。引用作品や底本画像には適用しない。"
+  "work_id": "archer-play-making-1912"
+  "sha256": "91dbda492793b9b83fa57719d29e27596ebf0775d23572ee49573932e31c3526"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿のスキーマは各ファイルのschema_versionを参照。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"
