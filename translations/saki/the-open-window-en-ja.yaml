@@ -1,0 +1,677 @@
+"schema_version": "2.0"
+"work_id": "saki-the-open-window"
+"metadata":
+  "title_ja": "開いた窓"
+  "title_original": "The Open Window"
+  "original_languages":
+    - "en"
+  "target_language": "ja"
+  "contributors":
+    - "id": "saki"
+      "name_ja": "サキ"
+      "name_original": "Saki (H. H. Munro)"
+      "roles":
+        - "author"
+    - "id": "chatgpt"
+      "name_ja": "ChatGPT"
+      "name_original": "ChatGPT"
+      "roles":
+        - "translator"
+      "url": "https://chatgpt.com/"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC0-1.0"
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "attribution": "ChatGPT"
+  "genres":
+    - "文学"
+    - "短編小説"
+"sources":
+  - "id": "gutenberg-269"
+    "role": "primary"
+    "title": "Beasts and Super-Beasts"
+    "languages":
+      - "en"
+    "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+    "edition": |-
+      1914年ロンドン、John Lane, The Bodley Head版。David Priceによる翻刻。Project Gutenberg電子書籍第269番（1995年5月1日公開）。「The Open Window」の新聞初出は1911年11月18日付 Westminster Gazette。
+    "contributor_ids":
+      - "saki"
+    "work_rights":
+      "status": "public_domain"
+      "jurisdiction": "日本・米国"
+      "evidence_url": "https://gutenberg.pglaf.org/cache/epub/269/pg269.rdf"
+      "note_ja": "1914年の刊行当時の英語本文。米国では保護期間が満了。サキは1916年没で、日本でも英国作品に対する戦時加算を考慮してなお保護期間を満了している。"
+    "transcription_rights":
+      "status": "public_domain"
+      "jurisdiction": "US"
+      "evidence_url": "https://gutenberg.pglaf.org/cache/epub/269/pg269.rdf"
+      "note_ja": "電子版の目録は米国内でパブリックドメインと明記。原作本文を忠実に転記した部分のみを使用。"
+"scope":
+  "included":
+    - "source_id": "gutenberg-269"
+      "description_ja": "「The Open Window」の見出しと全29段落。"
+      "section_ids":
+        - "open-window"
+  "excluded":
+    - "source_id": "gutenberg-269"
+      "description_ja": "同巻の他の短編、前付、謝辞、電子版の配布案内。"
+  "known_gaps": []
+"sections":
+  - "id": "open-window"
+    "parent_id": null
+    "kind": "section"
+    "origin": "source"
+    "heading_segment_ids":
+      - "ow-heading"
+"segments":
+  - "id": "ow-heading"
+    "section_id": "open-window"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": "THE OPEN WINDOW"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 0
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1259
+        "line_end": 1259
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-heading"
+    "translation_ja": "開いた窓"
+    "translation_status": "reviewed"
+  - "id": "ow-p001"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “My aunt will be down presently, Mr. Nuttel,” said a very self-possessed young lady of fifteen; “in the meantime you must try and put up with me.”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 1
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1260
+        "line_end": 1262
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p001"
+    "translation_ja": "「ナッテルさん、おばはじきに下りてまいります。それまでは私でご辛抱くださいね」十五歳の少女が、少しも物おじせずに言った。"
+    "translation_status": "reviewed"
+  - "id": "ow-p002"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Framton Nuttel endeavoured to say the correct something which should duly flatter the niece of the moment without unduly discounting the aunt that was to come. Privately he doubted more than ever whether these formal visits on a succession of total strangers would do much towards helping the nerve cure which he was supposed to be undergoing.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 2
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1263
+        "line_end": 1268
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p002"
+    "translation_ja": |-
+      フラムトン・ナッテルは、目の前の姪をほどよく持ち上げて、しかもあとから来るおばにも失礼にならない、何か気のきいた挨拶をしようと努めた。まるで知らない人たちの家を次々と、こうして改まって訪ね歩くことが、いま自分がしているはずの神経の療養にどれほど役立つのか、内心ではますます疑わしくなっていた。
+    "translation_status": "reviewed"
+  - "id": "ow-p003"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “I know how it will be,” his sister had said when he was preparing to migrate to this rural retreat; “you will bury yourself down there and not speak to a living soul, and your nerves will be worse than ever from moping. I shall just give you letters of introduction to all the people I know there. Some of them, as far as I can remember, were quite nice.”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 3
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1269
+        "line_end": 1275
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p003"
+    "translation_ja": |-
+      「どうなるか目に見えてるわ」と、この田舎の静養先へ移る支度をしていたとき、姉はそう言った。「あんなところに引きこもって、誰とも口をきかず、ふさぎこんで、今よりもっと神経を病むわよ。私があそこで知ってる人みんなに紹介状を書いてあげるわ。たしか、なかにはずいぶん感じのいい人もいたはずよ」
+    "translation_status": "reviewed"
+  - "id": "ow-p004"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Framton wondered whether Mrs. Sappleton, the lady to whom he was presenting one of the letters of introduction, came into the nice division.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 4
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1276
+        "line_end": 1278
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p004"
+    "translation_ja": "さて、その紹介状の一通を差し出す相手のサプルトン夫人は、感じのいい部類だろうか、とフラムトンは思った。"
+    "translation_status": "reviewed"
+  - "id": "ow-p005"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Do you know many of the people round here?” asked the niece, when she judged that they had had sufficient silent communion.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 5
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1279
+        "line_end": 1281
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p005"
+    "translation_ja": "「このあたりにお知り合いは大勢いらっしゃるの？」黙ったまま気持ちを通わせる時間ももう十分と見て、姪が尋ねた。"
+    "translation_status": "reviewed"
+  - "id": "ow-p006"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Hardly a soul,” said Framton. “My sister was staying here, at the rectory, you know, some four years ago, and she gave me letters of introduction to some of the people here.”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 6
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1282
+        "line_end": 1285
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p006"
+    "translation_ja": "「ほとんど一人も。四年ほど前、姉がここの牧師館に滞在していましてね。このあたりの方に何通か紹介状を書いてくれたんです」とフラムトンは言った。"
+    "translation_status": "reviewed"
+  - "id": "ow-p007"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "He made the last statement in a tone of distinct regret."
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 7
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1286
+        "line_end": 1286
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p007"
+    "translation_ja": "その最後のひと言には、いかにも残念そうな響きがあった。"
+    "translation_status": "reviewed"
+  - "id": "ow-p008"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Then you know practically nothing about my aunt?” pursued the self-possessed young lady."
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 8
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1287
+        "line_end": 1288
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p008"
+    "translation_ja": "「では、おばのことも、ほとんど何もご存じないんですね？」と、落ち着き払った少女はなおも尋ねた。"
+    "translation_status": "reviewed"
+  - "id": "ow-p009"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Only her name and address,” admitted the caller. He was wondering whether Mrs. Sappleton was in the married or widowed state. An undefinable something about the room seemed to suggest masculine habitation.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 9
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1289
+        "line_end": 1292
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p009"
+    "translation_ja": "「お名前とご住所だけです」と客は認めた。サプルトン夫人にはご主人がいるのだろうか、それとも先立たれたのだろうか。部屋にはどことなく、男の人が暮らしている気配があった。"
+    "translation_status": "reviewed"
+  - "id": "ow-p010"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Her great tragedy happened just three years ago,” said the child; “that would be since your sister’s time.”"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 10
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1293
+        "line_end": 1295
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p010"
+    "translation_ja": "「おばにひどい不幸があったのは、ちょうど三年前のことです」と少女は言った。「じゃあ、お姉さまがいらしたあとですね」"
+    "translation_status": "reviewed"
+  - "id": "ow-p011"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Her tragedy?” asked Framton; somehow in this restful country spot tragedies seemed out of place."
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 11
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1296
+        "line_end": 1297
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p011"
+    "translation_ja": "「ひどい不幸とおっしゃると？」とフラムトンは聞いた。こんなのどかな田舎に悲劇とは、どうも似つかわしくなかった。"
+    "translation_status": "reviewed"
+  - "id": "ow-p012"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “You may wonder why we keep that window wide open on an October afternoon,” said the niece, indicating a large French window that opened on to a lawn.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 12
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1298
+        "line_end": 1300
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p012"
+    "translation_ja": "「十月の午後だというのに、どうしてあの窓をあんなに大きく開けておくのか、不思議に思っていらっしゃるでしょう」と姪は言って、芝生へそのまま出られる大きな両開きの窓を指さした。"
+    "translation_status": "reviewed"
+  - "id": "ow-p013"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “It is quite warm for the time of the year,” said Framton; “but has that window got anything to do with the tragedy?”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 13
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1301
+        "line_end": 1303
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p013"
+    "translation_ja": "「この季節にしてはずいぶん暖かいですからね」とフラムトンは言った。「しかし、あの窓が、何かそのご不幸と関わりでも？」"
+    "translation_status": "reviewed"
+  - "id": "ow-p014"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Out through that window, three years ago to a day, her husband and her two young brothers went off for their day’s shooting. They never came back. In crossing the moor to their favourite snipe-shooting ground they were all three engulfed in a treacherous piece of bog. It had been that dreadful wet summer, you know, and places that were safe in other years gave way suddenly without warning. Their bodies were never recovered. That was the dreadful part of it.” Here the child’s voice lost its self-possessed note and became falteringly human. “Poor aunt always thinks that they will come back some day, they and the little brown spaniel that was lost with them, and walk in at that window just as they used to do. That is why the window is kept open every evening till it is quite dusk. Poor dear aunt, she has often told me how they went out, her husband with his white waterproof coat over his arm, and Ronnie, her youngest brother, singing ‘Bertie, why do you bound?’ as he always did to tease her, because she said it got on her nerves. Do you know, sometimes on still, quiet evenings like this, I almost get a creepy feeling that they will all walk in through that window—”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 14
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1304
+        "line_end": 1324
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p014"
+    "translation_ja": |-
+      「三年前のちょうど今日、あの窓から、おばの夫と若い弟二人が、一日がかりの猟に出かけました。三人とも帰ってこなかったんです。お気に入りのシギの猟場へ行こうと荒れ野を横切っているうちに、足場があると見えた沼地に、三人とも、のみこまれてしまって。あのひどく雨の多い夏のあとでしたでしょう。いつもの年なら何でもないところが、前触れもなく、いきなり崩れてしまったんです。遺体はとうとう見つかりませんでした。それがいちばんむごいところでした」ここで少女の声からは、あの落ち着きが消えた。声がとぎれとぎれになって、年相応の心細さがにじんだ。「かわいそうに、おばはいまも、いつか三人が帰ってくると思ってるんです。一緒に行方がわからなくなった茶色の小さなスパニエルも連れて、昔みたいにあの窓から入ってくるって。だから毎晩、すっかり暗くなるまで、あの窓を開けておくんです。かわいそうなおば。あの人たちがどんなふうに出ていったか、何度も私に話してくれました。夫は白いレインコートを腕に掛けて、いちばん下の弟のロニーは『バーティ、どうしてぴょんぴょん跳ねる？』って歌いながら。あれを聞くといらいらするっておばが言うもんだから、いつもそうやってからかってたんです。あのね、今日みたいにしんと静かな夕方には、ときどき、みんなが本当にあの窓から入ってきそうで、私までぞくっとすることが――」
+    "translation_status": "reviewed"
+  - "id": "ow-p015"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      She broke off with a little shudder. It was a relief to Framton when the aunt bustled into the room with a whirl of apologies for being late in making her appearance.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 15
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1325
+        "line_end": 1327
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p015"
+    "translation_ja": "少女はかすかに身を震わせて、言葉を切った。そこへ、おばが、遅くなりましてとしきりに詫びながら、せわしなく部屋に入ってきたので、フラムトンはほっとした。"
+    "translation_status": "reviewed"
+  - "id": "ow-p016"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“I hope Vera has been amusing you?” she said."
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 16
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1328
+        "line_end": 1328
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p016"
+    "translation_ja": "「ヴェラがお相手をしてくれたでしょうね？」と夫人は言った。"
+    "translation_status": "reviewed"
+  - "id": "ow-p017"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“She has been very interesting,” said Framton."
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 17
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1329
+        "line_end": 1329
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p017"
+    "translation_ja": "「ええ、とても興味深いお話をうかがいました」とフラムトンは言った。"
+    "translation_status": "reviewed"
+  - "id": "ow-p018"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “I hope you don’t mind the open window,” said Mrs. Sappleton briskly; “my husband and brothers will be home directly from shooting, and they always come in this way. They’ve been out for snipe in the marshes to-day, so they’ll make a fine mess over my poor carpets. So like you men-folk, isn’t it?”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 18
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1330
+        "line_end": 1335
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p018"
+    "translation_ja": |-
+      「窓を開けたままでかまいませんでしょう？」とサプルトン夫人はきびきびした口調で言った。「夫と弟たちがじきに猟から帰りますの。いつもここから入ってくるんですよ。今日は沼へシギを撃ちに行ったから、私のかわいそうな絨毯がどんな目に遭うことやら。まったく、男の方ってそうでしょう？」
+    "translation_status": "reviewed"
+  - "id": "ow-p019"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      She rattled on cheerfully about the shooting and the scarcity of birds, and the prospects for duck in the winter. To Framton it was all purely horrible. He made a desperate but only partially successful effort to turn the talk on to a less ghastly topic; he was conscious that his hostess was giving him only a fragment of her attention, and her eyes were constantly straying past him to the open window and the lawn beyond. It was certainly an unfortunate coincidence that he should have paid his visit on this tragic anniversary.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 19
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1336
+        "line_end": 1344
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p019"
+    "translation_ja": |-
+      夫人は陽気にしゃべり続けた。猟のこと、鳥が少ないこと、冬になれば鴨はどうだろうかということ。フラムトンには何もかもが、ただただ恐ろしかった。必死になって、もう少しぞっとしない話題に変えようとしたが、いくらか話がそれた程度だった。こちらの話に、夫人はろくに注意を払っていない。それに、彼を通り越して、開いた窓とその向こうの芝生のほうへと、しきりに目をやっていた。よりによってあの悲しい出来事のあった日に訪ねて来てしまうとは、なんとも運の悪い偶然だった。
+    "translation_status": "reviewed"
+  - "id": "ow-p020"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “The doctors agree in ordering me complete rest, an absence of mental excitement, and avoidance of anything in the nature of violent physical exercise,” announced Framton, who laboured under the tolerably widespread delusion that total strangers and chance acquaintances are hungry for the least detail of one’s ailments and infirmities, their cause and cure. “On the matter of diet they are not so much in agreement,” he continued.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 20
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1345
+        "line_end": 1352
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p020"
+    "translation_ja": |-
+      「医者たちの意見は一致しています。絶対安静、精神的な興奮を避けること、激しい運動のたぐいは一切慎むこと、という指示です」とフラムトンは宣言した。初対面の人も、たまたま知り合っただけの人も、自分の持病やら体の弱いところやら、その原因やら治し方やらを、隅から隅まで聞きたくてたまらないものだという、世間ではかなりありふれた思い違いを、彼もしていたのである。「もっとも、食事のことになると、それほど意見が合わないんですが」と彼は続けた。
+    "translation_status": "reviewed"
+  - "id": "ow-p021"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “No?” said Mrs. Sappleton, in a voice which only replaced a yawn at the last moment. Then she suddenly brightened into alert attention—but not to what Framton was saying.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 21
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1353
+        "line_end": 1356
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p021"
+    "translation_ja": "「あら、そう？」サプルトン夫人は、あくびが出る寸前に、どうにかそれを返事にすり替えたような声を出した。その顔が、急にいきいきと輝き、何かに見入った。もっとも、フラムトンの話に引きこまれたわけではない。"
+    "translation_status": "reviewed"
+  - "id": "ow-p022"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Here they are at last!” she cried. “Just in time for tea, and don’t they look as if they were muddy up to the eyes!”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 22
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1357
+        "line_end": 1359
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p022"
+    "translation_ja": "「やっと帰ってきたわ！」と夫人は声を上げた。「ちょうどお茶の時間に間に合った。まあ、見て、目のところまで泥だらけみたい！」"
+    "translation_status": "reviewed"
+  - "id": "ow-p023"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Framton shivered slightly and turned towards the niece with a look intended to convey sympathetic comprehension. The child was staring out through the open window with dazed horror in her eyes. In a chill shock of nameless fear Framton swung round in his seat and looked in the same direction.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 23
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1360
+        "line_end": 1364
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p023"
+    "translation_ja": |-
+      フラムトンはわずかに身震いした。お気持ちはわかりますよ、と目で伝えようと姪のほうを向いた。少女は目を見開き、恐怖にぼうぜんとして、開いた窓の外を見つめていた。名状しがたい恐ろしさに肝を冷やし、フラムトンは椅子に座ったまま、くるりと向きを変えて、そちらを見た。
+    "translation_status": "reviewed"
+  - "id": "ow-p024"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      In the deepening twilight three figures were walking across the lawn towards the window; they all carried guns under their arms, and one of them was additionally burdened with a white coat hung over his shoulders. A tired brown spaniel kept close at their heels. Noiselessly they neared the house, and then a hoarse young voice chanted out of the dusk: “I said, Bertie, why do you bound?”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 24
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1365
+        "line_end": 1371
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p024"
+    "translation_ja": |-
+      次第に濃くなる夕闇のなか、三つの人影が芝生を横切って窓に向かってきた。三人とも小脇に銃を抱え、そのうちの一人は、おまけに白い上着まで肩に掛けていた。くたびれた茶色のスパニエルがぴったりあとについていた。音もなく一行は家に近づき、すると薄闇のなかから、若い、かすれた声が歌いだした。「ねえバーティ、どうしてぴょんぴょん跳ねる？」
+    "translation_status": "reviewed"
+  - "id": "ow-p025"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Framton grabbed wildly at his stick and hat; the hall-door, the gravel-drive, and the front gate were dimly-noted stages in his headlong retreat. A cyclist coming along the road had to run into the hedge to avoid an imminent collision.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 25
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1372
+        "line_end": 1375
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p025"
+    "translation_ja": |-
+      フラムトンは夢中で杖と帽子をひっつかんだ。玄関の扉、砂利を敷いた車寄せ、表門。まっしぐらに逃げる彼の目に、それらがぼんやり映っては消えた。通りを自転車でやって来た人は、あやうくぶつかりそうになり、よけるために生け垣に突っこむしかなかった。
+    "translation_status": "reviewed"
+  - "id": "ow-p026"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Here we are, my dear,” said the bearer of the white mackintosh, coming in through the window; “fairly muddy, but most of it’s dry. Who was that who bolted out as we came up?”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 26
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1376
+        "line_end": 1379
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p026"
+    "translation_ja": "「ただいま」と白いレインコートの男が窓から入ってきた。「だいぶ泥んこだが、あらかた乾いてるよ。僕らが来たら飛び出していったあの人は、いったい誰だい？」"
+    "translation_status": "reviewed"
+  - "id": "ow-p027"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “A most extraordinary man, a Mr. Nuttel,” said Mrs. Sappleton; “could only talk about his illnesses, and dashed off without a word of good-bye or apology when you arrived. One would think he had seen a ghost.”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 27
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1380
+        "line_end": 1383
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p027"
+    "translation_ja": |-
+      「なんとも変わった方よ。ナッテルさんとおっしゃるの」とサプルトン夫人は言った。「ご自分の病気のことしかお話しになれないし、あなたたちが着いたとたん、さようならも失礼しますのひと言もなしに駆け出してしまったのよ。まるで幽霊でも見たみたいだったわ」
+    "translation_status": "reviewed"
+  - "id": "ow-p028"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “I expect it was the spaniel,” said the niece calmly; “he told me he had a horror of dogs. He was once hunted into a cemetery somewhere on the banks of the Ganges by a pack of pariah dogs, and had to spend the night in a newly dug grave with the creatures snarling and grinning and foaming just above him. Enough to make anyone lose their nerve.”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 28
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1384
+        "line_end": 1390
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p028"
+    "translation_ja": |-
+      「きっと、スパニエルのせいだわ」と姪は落ち着いた声で言った。「犬が怖くてたまらないんですって。昔、ガンジス川のほとりのどこかで、野犬の群れに追われて墓地に逃げこんだことがあってね。掘ったばかりの墓穴の中で夜を明かさなくちゃならなくて、そのすぐ真上では犬たちがうなって、牙をむいて、口から泡を吹いていたんですって。それじゃ誰だって、すっかりおじけづいてしまうわ」
+    "translation_status": "reviewed"
+  - "id": "ow-p029"
+    "section_id": "open-window"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "Romance at short notice was her speciality."
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-269"
+        "precision": "line"
+        "source_sequence": 29
+        "url": "https://gutenberg.pglaf.org/2/6/269/269-h/269-h.htm"
+        "line_start": 1391
+        "line_end": 1391
+    "source_alignment":
+      - "source_id": "gutenberg-269"
+        "original_unit_id": "ow-p029"
+    "translation_ja": "とっさに作り話をこしらえるのは、彼女の得意芸だった。"
+    "translation_status": "reviewed"
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-11-21T04:33:36Z"
+    "reviewed_by": "ChatGPT"
+    "content_sha256": "01fba4fb1d78a0017163aa05e0551d34e7336c0cc45c84ec67e4e8707b7f934d"
