@@ -1,0 +1,913 @@
+schema_version: '2.0'
+work_id: declaration-droits-homme-citoyen-1789
+metadata:
+  title_ja: 人間と市民の権利の宣言
+  title_original: Déclaration des droits de l’homme et du citoyen
+  original_languages:
+  - fr
+  target_language: ja
+  contributors:
+  - id: assemblee-nationale
+    roles:
+    - author
+    name_ja: フランス国民議会
+    name_original: Assemblée nationale
+  - id: chatgpt
+    roles:
+    - translator
+    name_ja: ChatGPT
+    name_original: ChatGPT
+    url: https://chatgpt.com/
+  translation_rights:
+    status: licensed
+    license_id: CC0-1.0
+    license_url: https://creativecommons.org/publicdomain/zero/1.0/
+    attribution: ChatGPT
+  genres:
+  - 政治思想
+  - 法
+sources:
+- id: dijon-causse-1791
+  role: primary
+  title: Constitution française, présentée au roi par l’Assemblée nationale, le 3 septembre 1791
+  languages:
+  - fr
+  url: https://archive.org/details/constitutionfran00fran/page/n6/mode/1up
+  edition: ディジョン、P. Causse 印刷、1791年。ニューベリー図書館蔵。冒頭に掲げた1789年8月26日採択の宣言、印刷頁 [1]–5（公開PDFの7–11ページ）。
+  description_ja: 活字からの翻刻。旧綴り・条番号・句読を保持し、字間・アポストロフィ・小型大文字を標準化し、行末の分綴を接続した。
+  sha256: 34354ef23cdee5052e4ccca06b8ff06fde7e6bed6350b1e66e6a3ef62ee0a2c3
+  contributor_ids:
+  - assemblee-nationale
+  work_rights:
+    status: public_domain
+    jurisdiction: フランス・日本・米国
+    evidence_url: https://laws.e-gov.go.jp/law/345AC0000000048
+    note_ja: 1789年成立、1791年刊の国民議会による法文。日本の著作権法13条1号。刊行後の保護期間を満了し、米国でもパブリックドメイン。
+  transcription_rights:
+    status: public_domain
+    jurisdiction: 日本・米国
+    evidence_url: https://digital.newberry.org/french-pamphlets/
+    note_ja: ニューベリー図書館の同コレクション画像の表示は No Copyright – United States。原典の活字を本訳のために忠実に転記した。転記に権利が生じ得る範囲でもCC0 1.0を適用する。
+    license_id: CC0-1.0
+    license_url: https://creativecommons.org/publicdomain/zero/1.0/
+- id: elysee-20221214
+  role: comparison
+  title: La déclaration des droits de l'homme et du citoyen
+  url: https://www.elysee.fr/la-presidence/la-declaration-des-droits-de-l-homme-et-du-citoyen
+  languages:
+  - fr
+  edition: フランス大統領府 elysee.fr、2022年12月14日更新。「Le texte」所収の前文・第1条〜第17条。
+  sha256: 2f52671dc71edaadf6e90959da43a1c2480506af4916015b72af543f51b25d13
+  contributor_ids:
+  - assemblee-nationale
+  work_rights:
+    status: public_domain
+    jurisdiction: フランス・日本・米国
+    evidence_url: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000697056/1789-08-26
+    note_ja: 1789年8月26日採択の法文。日本の著作権法13条1号は憲法その他の法令を保護の対象から除く。1789年に公表された原著は米国でも保護期間満了。
+  transcription_rights:
+    status: licensed
+    license_id: etalab-2.0
+    license_url: https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf
+    evidence_url: https://www.elysee.fr/informations-legales-editoriales
+    attribution: Assemblée nationale, elysee.fr – Présidence de la République, 14 décembre 2022
+    note_ja: 大統領府掲載の法文の転記。著者名、サイト名、底本へのリンク、本文掲載ページの更新日を明記する。
+  description_ja: 1789年宣言の現代フランス語表記を比べるための参照。収録したフランス語原文は1791年刊本からの翻刻。
+scope:
+  included:
+  - source_id: dijon-causse-1791
+    description_ja: 宣言の見出し、前文2段落、条見出し・本文の全17条。
+  excluded:
+  - source_id: dijon-causse-1791
+    description_ja: 巻頭の印刷予告・刊本の扉・柱・ノンブル、宣言の後に続く1791年憲法・付録。
+  known_gaps: []
+sections:
+- id: ddhc-declaration
+  parent_id: null
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-declaration-heading
+- id: ddhc-preamble
+  parent_id: ddhc-declaration
+  kind: section
+  origin: editorial
+  label_ja: 前文
+  heading_segment_ids: []
+- id: ddhc-a01
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a01-heading
+- id: ddhc-a02
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a02-heading
+- id: ddhc-a03
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a03-heading
+- id: ddhc-a04
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a04-heading
+- id: ddhc-a05
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a05-heading
+- id: ddhc-a06
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a06-heading
+- id: ddhc-a07
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a07-heading
+- id: ddhc-a08
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a08-heading
+- id: ddhc-a09
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a09-heading
+- id: ddhc-a10
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a10-heading
+- id: ddhc-a11
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a11-heading
+- id: ddhc-a12
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a12-heading
+- id: ddhc-a13
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a13-heading
+- id: ddhc-a14
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a14-heading
+- id: ddhc-a15
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a15-heading
+- id: ddhc-a16
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a16-heading
+- id: ddhc-a17
+  parent_id: ddhc-declaration
+  kind: section
+  origin: source
+  heading_segment_ids:
+  - ddhc-a17-heading
+segments:
+- id: ddhc-declaration-heading
+  section_id: ddhc-declaration
+  kind: heading
+  origin: source
+  source_text: DÉCLARATION DES DROITS DE L’HOMME ET DU CITOYEN.
+  translation_ja: 人間と市民の権利の宣言
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '[1]'
+    pdf_page: 7
+    url: https://archive.org/details/constitutionfran00fran/page/n6/mode/1up
+    source_sequence: 0
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-declaration-heading
+  translation_status: reviewed
+- id: ddhc-preamble-01
+  section_id: ddhc-preamble
+  kind: paragraph
+  origin: source
+  source_text: Les Représentans du peuple français, constitués en Assemblée nationale, considérant que l’ignorance, l’oubli ou le mépris des droits de l’homme sont les seules causes des malheurs publics et de la corruption des gouvernemens, ont résolu d’exposer, dans une déclaration solemnelle, les droits naturels, inaliénables et sacrés de l’homme, afin que cette déclaration, constamment présente à tous les membres du corps social, leur rappelle sans cesse leurs droits et leurs devoirs ; afin que les actes du pouvoir législatif, et ceux du pouvoir exécutif, pouvant être à chaque instant comparés avec le but de toute institution politique, en soient plus respectés ; afin que les réclamations des citoyens, fondées désormais sur des principes simples et incontestables, tournent toujours au maintien de la Constitution et au bonheur de tous.
+  translation_ja: 国民議会を構成するフランス人民の代表は、人間の権利が知られず、忘れられ、あるいは軽んじられていることだけが、社会の不幸と政府の腐敗を招くと考え、厳粛な宣言のうちに、人間が生まれながらに持つ、譲り渡すことのできない神聖な権利を明らかにすることを決議した。この宣言が社会のすべての構成員の心にいつもあり、一人ひとりにその権利と義務を絶えず思い起こさせるためである。また、立法権の行為も行政権の行為も、あらゆる政治制度がめざす目的といつでも照らし合わせることができ、それによってこれらの行為がいっそう尊重されるためである。そして市民の訴えが、今後は明快で異論の余地のない原則に基づき、つねに憲法の維持とすべての人の幸福に役立つためである。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '[1]'
+    pdf_page: 7
+    url: https://archive.org/details/constitutionfran00fran/page/n6/mode/1up
+    source_sequence: 1
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-preamble-01
+  translation_status: reviewed
+- id: ddhc-preamble-02
+  section_id: ddhc-preamble
+  kind: paragraph
+  origin: source
+  source_text: En conséquence, l’Assemblée nationale reconnoît et déclare, en présence et sous les auspices de l’Être suprême, les droits suivans de l’homme et du citoyen.
+  translation_ja: よって国民議会は、至高の存在の前で、その庇護のもとに、人間と市民の次の権利を認め、宣言する。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '[1]'
+    pdf_page: 7
+    url: https://archive.org/details/constitutionfran00fran/page/n6/mode/1up
+    source_sequence: 2
+    printed_page_end: '2'
+    pdf_page_end: 8
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-preamble-02
+  translation_status: reviewed
+- id: ddhc-a01-heading
+  section_id: ddhc-a01
+  kind: heading
+  origin: source
+  source_text: Article premier.
+  translation_ja: 第1条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '2'
+    pdf_page: 8
+    url: https://archive.org/details/constitutionfran00fran/page/n7/mode/1up
+    source_sequence: 3
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a01-heading
+  translation_status: reviewed
+- id: ddhc-a01-text
+  section_id: ddhc-a01
+  kind: paragraph
+  origin: source
+  source_text: Les hommes naissent et demeurent libres et égaux en droits. Les distinctions sociales ne peuvent être fondées que sur l’utilité commune.
+  translation_ja: 人は、生まれながらに自由で、権利において平等であり、その後もそうあり続ける。社会における区別は、共通の利益だけを根拠とすることができる。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '2'
+    pdf_page: 8
+    url: https://archive.org/details/constitutionfran00fran/page/n7/mode/1up
+    source_sequence: 4
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a01-text
+  translation_status: reviewed
+- id: ddhc-a02-heading
+  section_id: ddhc-a02
+  kind: heading
+  origin: source
+  source_text: II.
+  translation_ja: 第2条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '2'
+    pdf_page: 8
+    url: https://archive.org/details/constitutionfran00fran/page/n7/mode/1up
+    source_sequence: 5
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a02-heading
+  translation_status: reviewed
+- id: ddhc-a02-text
+  section_id: ddhc-a02
+  kind: paragraph
+  origin: source
+  source_text: Le but de toute association politique est la conservation des droits naturels et imprescriptibles de l’homme. Ces droits sont la liberté, la propriété, la sûreté et la résistance à l’oppression.
+  translation_ja: すべての政治的結合の目的は、人間が生まれながらに持ち、時効によっても失われない権利を守ることにある。それは自由、所有、身の安全、そして抑圧に抵抗する権利である。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '2'
+    pdf_page: 8
+    url: https://archive.org/details/constitutionfran00fran/page/n7/mode/1up
+    source_sequence: 6
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a02-text
+  translation_status: reviewed
+- id: ddhc-a03-heading
+  section_id: ddhc-a03
+  kind: heading
+  origin: source
+  source_text: III.
+  translation_ja: 第3条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '2'
+    pdf_page: 8
+    url: https://archive.org/details/constitutionfran00fran/page/n7/mode/1up
+    source_sequence: 7
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a03-heading
+  translation_status: reviewed
+- id: ddhc-a03-text
+  section_id: ddhc-a03
+  kind: paragraph
+  origin: source
+  source_text: Le principe de toute souveraineté réside essentiellement dans la nation. Nul corps, nul individu ne peut exercer d’autorité qui n’en émane expressément.
+  translation_ja: あらゆる主権の根源は、そもそも国民にある。いかなる団体も、いかなる個人も、国民から明示的に発するものでなければ、何の権限も行使できない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '2'
+    pdf_page: 8
+    url: https://archive.org/details/constitutionfran00fran/page/n7/mode/1up
+    source_sequence: 8
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a03-text
+  translation_status: reviewed
+- id: ddhc-a04-heading
+  section_id: ddhc-a04
+  kind: heading
+  origin: source
+  source_text: IV.
+  translation_ja: 第4条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '2'
+    pdf_page: 8
+    url: https://archive.org/details/constitutionfran00fran/page/n7/mode/1up
+    source_sequence: 9
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a04-heading
+  translation_status: reviewed
+- id: ddhc-a04-text
+  section_id: ddhc-a04
+  kind: paragraph
+  origin: source
+  source_text: 'La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : ainsi l’exercice des droits naturels de chaque homme n’a de bornes que celles qui assurent aux autres membres de la société, la jouissance de ces mêmes droits. Ces bornes ne peuvent être déterminées que par la loi.'
+  translation_ja: 自由とは、他人に害を及ぼさないことならすべてできることである。したがって、一人ひとりが生まれながらの権利を行使するにあたっての制約は、社会の他の人々にも同じ権利を享受できるようにするためのものに限られる。その制約を定めることができるのは法律だけである。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '2'
+    pdf_page: 8
+    url: https://archive.org/details/constitutionfran00fran/page/n7/mode/1up
+    source_sequence: 10
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a04-text
+  translation_status: reviewed
+- id: ddhc-a05-heading
+  section_id: ddhc-a05
+  kind: heading
+  origin: source
+  source_text: V.
+  translation_ja: 第5条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '2'
+    pdf_page: 8
+    url: https://archive.org/details/constitutionfran00fran/page/n7/mode/1up
+    source_sequence: 11
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a05-heading
+  translation_status: reviewed
+- id: ddhc-a05-text
+  section_id: ddhc-a05
+  kind: paragraph
+  origin: source
+  source_text: La loi n’a le droit de défendre que les actions nuisibles à la société Tout ce qui n’est pas défendu par la loi ne peut être empêché, et nul ne peut être contraint à faire ce qu’elle n’ordonne pas.
+  translation_ja: 法律が禁じてよいのは、社会に害を及ぼす行為だけである。法律が禁じていないことは妨げてはならず、法律が命じていないことは誰にも強制できない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '2'
+    pdf_page: 8
+    url: https://archive.org/details/constitutionfran00fran/page/n7/mode/1up
+    source_sequence: 12
+    printed_page_end: '3'
+    pdf_page_end: 9
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a05-text
+  translation_status: reviewed
+- id: ddhc-a06-heading
+  section_id: ddhc-a06
+  kind: heading
+  origin: source
+  source_text: VI.
+  translation_ja: 第6条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '3'
+    pdf_page: 9
+    url: https://archive.org/details/constitutionfran00fran/page/n8/mode/1up
+    source_sequence: 13
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a06-heading
+  translation_status: reviewed
+- id: ddhc-a06-text
+  section_id: ddhc-a06
+  kind: paragraph
+  origin: source
+  source_text: La loi est l’expression de la volonté générale. Tous les citoyens ont droit de concourir personnellement, ou par leurs représentans, à sa formation. Elle doit être la même pour tous, soit qu’elle protege, soit qu’elle punisse. Tous les citoyens étant égaux à ses yeux, sont également admissibles à toutes dignités, places et emplois publics, selon leur capacité, et sans autre distinction que celle de leurs vertus et de leurs talens.
+  translation_ja: 法律は一般意志の表明である。すべての市民は、自ら、あるいは代表者を通じて、法律の制定に加わる権利を持つ。法律は、人を保護するときも処罰するときも、すべての人にとって同じでなければならない。すべての市民は法律の前に平等であり、その能力に応じて、あらゆる栄職、地位、公の職務に等しく就く資格がある。その人の徳と才能のほかに、区別を設けてはならない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '3'
+    pdf_page: 9
+    url: https://archive.org/details/constitutionfran00fran/page/n8/mode/1up
+    source_sequence: 14
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a06-text
+  translation_status: reviewed
+- id: ddhc-a07-heading
+  section_id: ddhc-a07
+  kind: heading
+  origin: source
+  source_text: VII.
+  translation_ja: 第7条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '3'
+    pdf_page: 9
+    url: https://archive.org/details/constitutionfran00fran/page/n8/mode/1up
+    source_sequence: 15
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a07-heading
+  translation_status: reviewed
+- id: ddhc-a07-text
+  section_id: ddhc-a07
+  kind: paragraph
+  origin: source
+  source_text: 'Nul homme ne peut être accusé, arrêté, ni détenu que dans les cas déterminés par la loi, et selon les formes qu’elle a prescrites. Ceux qui sollicitent, expédient, exécutent ou font exécuter des ordres arbitraires, doivent être punis : mais tout citoyen appellé ou saisi en vertu de la loi, doit obéir à l’instant ; il se rend coupable par la résistance.'
+  translation_ja: 法律が定める場合に、法律が定めた手続に従うのでなければ、誰も訴追され、逮捕され、拘禁されることはない。恣意的な命令を求めた者、発した者、執行した者、または執行させた者は、処罰されなければならない。ただし、法律に基づいて出頭を命じられ、または身柄を拘束された市民は、誰であれ即座に従わなければならない。これに抵抗すれば、自ら罪を犯すことになる。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '3'
+    pdf_page: 9
+    url: https://archive.org/details/constitutionfran00fran/page/n8/mode/1up
+    source_sequence: 16
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a07-text
+  translation_status: reviewed
+- id: ddhc-a08-heading
+  section_id: ddhc-a08
+  kind: heading
+  origin: source
+  source_text: VIII.
+  translation_ja: 第8条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '3'
+    pdf_page: 9
+    url: https://archive.org/details/constitutionfran00fran/page/n8/mode/1up
+    source_sequence: 17
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a08-heading
+  translation_status: reviewed
+- id: ddhc-a08-text
+  section_id: ddhc-a08
+  kind: paragraph
+  origin: source
+  source_text: La loi ne doit établir que des peines strictement et évidemment nécessaires, et nul ne peut être puni qu’en vertu d’une loi établie et promulguée antérieurement au délit, et légalement appliquée.
+  translation_ja: 法律が定めてよい刑罰は、厳密にいって、かつ明らかに必要なものに限られる。犯罪に先立って制定・公布された法律を適法に適用するのでなければ、誰も処罰することはできない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '3'
+    pdf_page: 9
+    url: https://archive.org/details/constitutionfran00fran/page/n8/mode/1up
+    source_sequence: 18
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a08-text
+  translation_status: reviewed
+- id: ddhc-a09-heading
+  section_id: ddhc-a09
+  kind: heading
+  origin: source
+  source_text: IX.
+  translation_ja: 第9条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '4'
+    pdf_page: 10
+    url: https://archive.org/details/constitutionfran00fran/page/n9/mode/1up
+    source_sequence: 19
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a09-heading
+  translation_status: reviewed
+- id: ddhc-a09-text
+  section_id: ddhc-a09
+  kind: paragraph
+  origin: source
+  source_text: Tout homme étant présumé innocent jusqu’à ce qu’il ait été déclaré coupable, s’il est jugé indispensable de l’arrêter, toute rigueur qui ne seroit pas nécessaire pour s’assurer de sa personne, doit être séverement réprimée par la loi.
+  translation_ja: 誰もが有罪と宣告されるまでは無罪と推定される。したがって、逮捕が不可欠だと判断された場合でも、身柄を確保するために必要な限度を超えた厳しい扱いは、法律によって厳しく取り締まらなければならない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '4'
+    pdf_page: 10
+    url: https://archive.org/details/constitutionfran00fran/page/n9/mode/1up
+    source_sequence: 20
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a09-text
+  translation_status: reviewed
+- id: ddhc-a10-heading
+  section_id: ddhc-a10
+  kind: heading
+  origin: source
+  source_text: X.
+  translation_ja: 第10条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '4'
+    pdf_page: 10
+    url: https://archive.org/details/constitutionfran00fran/page/n9/mode/1up
+    source_sequence: 21
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a10-heading
+  translation_status: reviewed
+- id: ddhc-a10-text
+  section_id: ddhc-a10
+  kind: paragraph
+  origin: source
+  source_text: Nul ne doit être inquiété pour ses opinions, même religieuses, pourvu que leur manifestation ne trouble pas l’ordre public établi par la loi.
+  translation_ja: 誰も、その意見を理由に、たとえそれが宗教上の意見であっても、干渉を受けてはならない。ただし、その意見の表明が、法律の定める公の秩序を乱さないことを条件とする。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '4'
+    pdf_page: 10
+    url: https://archive.org/details/constitutionfran00fran/page/n9/mode/1up
+    source_sequence: 22
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a10-text
+  translation_status: reviewed
+- id: ddhc-a11-heading
+  section_id: ddhc-a11
+  kind: heading
+  origin: source
+  source_text: XI.
+  translation_ja: 第11条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '4'
+    pdf_page: 10
+    url: https://archive.org/details/constitutionfran00fran/page/n9/mode/1up
+    source_sequence: 23
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a11-heading
+  translation_status: reviewed
+- id: ddhc-a11-text
+  section_id: ddhc-a11
+  kind: paragraph
+  origin: source
+  source_text: 'La libre communication des pensées et des opinions est un des droits les plus précieux de l’homme : tout citoyen peut donc parler, écrire, imprimer librement ; sauf à répondre de l’abus de cette liberté dans les cas déterminés par la loi.'
+  translation_ja: 思想と意見を自由に伝え合うことは、人間の最も貴重な権利の一つである。したがって、どの市民も自由に語り、書き、印刷することができる。ただし、この自由を濫用したときには、法律の定める場合にその責任を負う。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '4'
+    pdf_page: 10
+    url: https://archive.org/details/constitutionfran00fran/page/n9/mode/1up
+    source_sequence: 24
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a11-text
+  translation_status: reviewed
+- id: ddhc-a12-heading
+  section_id: ddhc-a12
+  kind: heading
+  origin: source
+  source_text: XII.
+  translation_ja: 第12条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '4'
+    pdf_page: 10
+    url: https://archive.org/details/constitutionfran00fran/page/n9/mode/1up
+    source_sequence: 25
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a12-heading
+  translation_status: reviewed
+- id: ddhc-a12-text
+  section_id: ddhc-a12
+  kind: paragraph
+  origin: source
+  source_text: 'La garantie des droits de l’homme et du citoyen nécessite une force publique : cette force est donc instituée pour l’avantage de tous, et non pour l’utilité particuliere de ceux auxquels elle est confiée.'
+  translation_ja: 人間と市民の権利を保障するには、公の強制力が必要である。この力が設けられるのは、すべての人の利益のためであり、その行使を委ねられた者だけの利益のためではない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '4'
+    pdf_page: 10
+    url: https://archive.org/details/constitutionfran00fran/page/n9/mode/1up
+    source_sequence: 26
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a12-text
+  translation_status: reviewed
+- id: ddhc-a13-heading
+  section_id: ddhc-a13
+  kind: heading
+  origin: source
+  source_text: XIII.
+  translation_ja: 第13条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '4'
+    pdf_page: 10
+    url: https://archive.org/details/constitutionfran00fran/page/n9/mode/1up
+    source_sequence: 27
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a13-heading
+  translation_status: reviewed
+- id: ddhc-a13-text
+  section_id: ddhc-a13
+  kind: paragraph
+  origin: source
+  source_text: Pour l’entretien de la force publique, et pour les dépenses d’administration, une contribution commune est indispensable ; elle doit être également répartie entre tous les citoyens, en raison de leurs facultés.
+  translation_ja: この公の強制力を維持し、行政の費用をまかなうには、共同の負担が欠かせない。この負担は、すべての市民の間で、それぞれの負担能力に応じて、公平に配分しなければならない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '4'
+    pdf_page: 10
+    url: https://archive.org/details/constitutionfran00fran/page/n9/mode/1up
+    source_sequence: 28
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a13-text
+  translation_status: reviewed
+- id: ddhc-a14-heading
+  section_id: ddhc-a14
+  kind: heading
+  origin: source
+  source_text: XIV.
+  translation_ja: 第14条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '5'
+    pdf_page: 11
+    url: https://archive.org/details/constitutionfran00fran/page/n10/mode/1up
+    source_sequence: 29
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a14-heading
+  translation_status: reviewed
+- id: ddhc-a14-text
+  section_id: ddhc-a14
+  kind: paragraph
+  origin: source
+  source_text: Tous les citoyens ont le droit de constater par eux-mêmes, ou par leurs représentans, la nécessité de la contribution publique, de la consentir librement, d’en suivre l’emploi, et d’en déterminer la quotité, l’assiette, le recouvrement et la durée.
+  translation_ja: すべての市民は、自ら、または代表者を通じて、租税の必要性を確かめ、課税に自由に同意し、その使途を見届ける権利を持つ。また、税額、課税標準、徴収のしかた、課税の期間を定める権利を持つ。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '5'
+    pdf_page: 11
+    url: https://archive.org/details/constitutionfran00fran/page/n10/mode/1up
+    source_sequence: 30
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a14-text
+  translation_status: reviewed
+- id: ddhc-a15-heading
+  section_id: ddhc-a15
+  kind: heading
+  origin: source
+  source_text: XV.
+  translation_ja: 第15条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '5'
+    pdf_page: 11
+    url: https://archive.org/details/constitutionfran00fran/page/n10/mode/1up
+    source_sequence: 31
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a15-heading
+  translation_status: reviewed
+- id: ddhc-a15-text
+  section_id: ddhc-a15
+  kind: paragraph
+  origin: source
+  source_text: La société a le droit de demander compte à tout agent public, de son administration.
+  translation_ja: 社会は、公の職務に就くすべての者に、その職務の遂行について説明を求める権利を持つ。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '5'
+    pdf_page: 11
+    url: https://archive.org/details/constitutionfran00fran/page/n10/mode/1up
+    source_sequence: 32
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a15-text
+  translation_status: reviewed
+- id: ddhc-a16-heading
+  section_id: ddhc-a16
+  kind: heading
+  origin: source
+  source_text: XVI.
+  translation_ja: 第16条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '5'
+    pdf_page: 11
+    url: https://archive.org/details/constitutionfran00fran/page/n10/mode/1up
+    source_sequence: 33
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a16-heading
+  translation_status: reviewed
+- id: ddhc-a16-text
+  section_id: ddhc-a16
+  kind: paragraph
+  origin: source
+  source_text: Toute société dans laquelle la garantie des droits n’est pas assurée, ni la séparation des pouvoirs déterminée, n’a point de Constitution.
+  translation_ja: 権利の保障が確保されず、権力の分立も定められていない社会には、憲法はない。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '5'
+    pdf_page: 11
+    url: https://archive.org/details/constitutionfran00fran/page/n10/mode/1up
+    source_sequence: 34
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a16-text
+  translation_status: reviewed
+- id: ddhc-a17-heading
+  section_id: ddhc-a17
+  kind: heading
+  origin: source
+  source_text: XVII.
+  translation_ja: 第17条
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '5'
+    pdf_page: 11
+    url: https://archive.org/details/constitutionfran00fran/page/n10/mode/1up
+    source_sequence: 35
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a17-heading
+  translation_status: reviewed
+- id: ddhc-a17-text
+  section_id: ddhc-a17
+  kind: paragraph
+  origin: source
+  source_text: La propriété étant un droit inviolable et sacré, nul ne peut en être privé, si ce n’est lorsque la nécessité publique, légalement constatée, l’exige évidemment, et sous la condition d’une juste et préalable indemnité.
+  translation_ja: 所有権は侵すことのできない神聖な権利であるから、誰もこれを奪われることはない。ただし、公の必要が法律に従って認められ、その必要が明らかにこれを要求する場合に限り、正当な補償をあらかじめ行うことを条件として、所有権を奪うことができる。
+  source_languages:
+  - fr
+  source_locations:
+  - source_id: dijon-causse-1791
+    precision: page
+    printed_page: '5'
+    pdf_page: 11
+    url: https://archive.org/details/constitutionfran00fran/page/n10/mode/1up
+    source_sequence: 36
+  source_alignment:
+  - source_id: dijon-causse-1791
+    original_unit_id: causse-ddhc-a17-text
+  translation_status: reviewed
+workflow:
+  stage: ready
+  full_review:
+    status: complete
+    completed_at: '2026-11-21T04:38:16Z'
+    reviewed_by: ChatGPT
+    content_sha256: d3cfb2d997d21821337527981a4d36c6a94c749657ce4ce5fa88753c79147254
