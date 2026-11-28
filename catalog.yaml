@@ -1005,5 +1005,11 @@
   "source_and_rights": "1912年Swanston版所収、Project Gutenberg第30650号。英語・スコットランド語の著者本文は日本・米国、忠実な電子翻刻は米国でパブリックドメイン。日本語新訳はCC0 1.0。"
   "work_id": "stevenson-heathercat"
   "sha256": "dbe256cf82ab58f0eec4efdb0b70a0bd3e98172384773fddb7fdfa6274af4f9c"
+- "file": "translations/stevenson/fables-en-ja.yaml"
+  "title": "寓話集"
+  "coverage_note": "1912年Swanston版所収の全20話（中扉・表題、詩3編、教訓2件を含む）。全440対訳単位。"
+  "source_and_rights": "Project Gutenberg第30650号の1912年Swanston版。著者本文は日本・米国、忠実な電子翻刻は米国でパブリックドメイン。日本語新訳はCC0 1.0。"
+  "work_id": "stevenson-fables"
+  "sha256": "bcdfa7a46aba197dbb5b28b09099a5640d5e968612ccabf5806e8adb81b04248"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿のスキーマは各ファイルのschema_versionを参照。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"
