@@ -7595,6 +7595,14 @@
     "origin": "source"
     "from":
       "segment_id": "toc-01"
+      "source_span":
+        "start": 0
+        "end": 17
+        "exact": "STORY OF THE DOOR"
+      "translation_span":
+        "start": 0
+        "end": 3
+        "exact": "扉の話"
     "to":
       "type": "segment"
       "id": "c01-000"
@@ -7605,6 +7613,14 @@
     "origin": "source"
     "from":
       "segment_id": "toc-02"
+      "source_span":
+        "start": 0
+        "end": 19
+        "exact": "SEARCH FOR MR. HYDE"
+      "translation_span":
+        "start": 0
+        "end": 8
+        "exact": "ハイド氏を捜して"
     "to":
       "type": "segment"
       "id": "c02-000"
@@ -7615,6 +7631,14 @@
     "origin": "source"
     "from":
       "segment_id": "toc-03"
+      "source_span":
+        "start": 0
+        "end": 28
+        "exact": "DR. JEKYLL WAS QUITE AT EASE"
+      "translation_span":
+        "start": 0
+        "end": 17
+        "exact": "ジキル博士はいたって平然としていた"
     "to":
       "type": "segment"
       "id": "c03-000"
@@ -7625,6 +7649,14 @@
     "origin": "source"
     "from":
       "segment_id": "toc-04"
+      "source_span":
+        "start": 0
+        "end": 21
+        "exact": "THE CAREW MURDER CASE"
+      "translation_span":
+        "start": 0
+        "end": 7
+        "exact": "カルー殺害事件"
     "to":
       "type": "segment"
       "id": "c04-000"
@@ -7635,6 +7667,14 @@
     "origin": "source"
     "from":
       "segment_id": "toc-05"
+      "source_span":
+        "start": 0
+        "end": 22
+        "exact": "INCIDENT OF THE LETTER"
+      "translation_span":
+        "start": 0
+        "end": 5
+        "exact": "手紙の一件"
     "to":
       "type": "segment"
       "id": "c05-000"
@@ -7645,6 +7685,14 @@
     "origin": "source"
     "from":
       "segment_id": "toc-06"
+      "source_span":
+        "start": 0
+        "end": 22
+        "exact": "INCIDENT OF DR. LANYON"
+      "translation_span":
+        "start": 0
+        "end": 9
+        "exact": "ラニョン博士の一件"
     "to":
       "type": "segment"
       "id": "c06-000"
@@ -7655,6 +7703,14 @@
     "origin": "source"
     "from":
       "segment_id": "toc-07"
+      "source_span":
+        "start": 0
+        "end": 22
+        "exact": "INCIDENT AT THE WINDOW"
+      "translation_span":
+        "start": 0
+        "end": 5
+        "exact": "窓辺の一件"
     "to":
       "type": "segment"
       "id": "c07-000"
@@ -7665,6 +7721,14 @@
     "origin": "source"
     "from":
       "segment_id": "toc-08"
+      "source_span":
+        "start": 0
+        "end": 14
+        "exact": "THE LAST NIGHT"
+      "translation_span":
+        "start": 0
+        "end": 4
+        "exact": "最後の夜"
     "to":
       "type": "segment"
       "id": "c08-000"
@@ -7675,6 +7739,14 @@
     "origin": "source"
     "from":
       "segment_id": "toc-09"
+      "source_span":
+        "start": 0
+        "end": 22
+        "exact": "DR. LANYON’S NARRATIVE"
+      "translation_span":
+        "start": 0
+        "end": 9
+        "exact": "ラニョン博士の手記"
     "to":
       "type": "segment"
       "id": "c09-000"
@@ -7685,6 +7757,14 @@
     "origin": "source"
     "from":
       "segment_id": "toc-10"
+      "source_span":
+        "start": 0
+        "end": 41
+        "exact": "HENRY JEKYLL’S FULL STATEMENT OF THE CASE"
+      "translation_span":
+        "start": 0
+        "end": 17
+        "exact": "ヘンリー・ジキルによる事件の全陳述"
     "to":
       "type": "segment"
       "id": "c10-000"
@@ -7698,9 +7778,9 @@
   "stage": "ready"
   "full_review":
     "status": "complete"
-    "completed_at": "2026-11-28T09:56:41Z"
+    "completed_at": "2026-11-28T10:03:59Z"
     "reviewed_by": "Dot independent reviewer: Nihonjinbun"
-    "content_sha256": "4970aed14bb86e94aca8e7a9b9310073443435166c8f89db8fa66d4f6e89d20b"
+    "content_sha256": "d303c7f9c871ac624762511ce09dbd526a79f1cd3730f66d87e1969d6b6b641a"
 "provenance":
   "scope_audit_ja": "第43号の扉題・著者表示、目次全10項、章見出し10と本文339段落を原順で照合。目次の参照先、書簡・署名・本文の斜体を保存。第42号で原著献辞（見出しと四行詩）を補完し、出典は段落別に区別した。"
   "independent_full_review":
@@ -7796,3 +7876,45 @@
       - "c10-026"
       - "c10-027"
       - "c10-028"
+  "toc_link_correction":
+    "reviewer": "Dot independent reviewer: Nihonjinbun"
+    "status": "pass"
+    "completed_at": "2026-11-28T10:03:59Z"
+    "unchanged_full_review_ja": "全364件の既存対訳・日本語通読を継承し、段落本文・訳文・順序・注釈・掲載範囲・権利は同一。今回の改訂再審査は十件の既存目次参照と前後の目次構造に限定。"
+    "evidence_ja": "第43号のHTMLで原目次十項の文字列・href と各章見出しのアンカーを再照合。原文・訳文それぞれの全文文字範囲を一件ずつ確認。元の対象章・表示文字列を変えず、無変更のHumanismレンダラーで十件が実リンクとなること、すべてのターゲットが一意に実在すること、全364単位の表示本文が同一であることを確認。目次以外の単位HTMLも一致。"
+    "reviewed_toc_segment_ids":
+      - "toc-heading"
+      - "toc-01"
+      - "toc-02"
+      - "toc-03"
+      - "toc-04"
+      - "toc-05"
+      - "toc-06"
+      - "toc-07"
+      - "toc-08"
+      - "toc-09"
+      - "toc-10"
+    "reviewed_reference_ids":
+      - "toc-01-ref"
+      - "toc-02-ref"
+      - "toc-03-ref"
+      - "toc-04-ref"
+      - "toc-05-ref"
+      - "toc-06-ref"
+      - "toc-07-ref"
+      - "toc-08-ref"
+      - "toc-09-ref"
+      - "toc-10-ref"
+    "chapter_heading_ids":
+      - "c01-000"
+      - "c02-000"
+      - "c03-000"
+      - "c04-000"
+      - "c05-000"
+      - "c06-000"
+      - "c07-000"
+      - "c08-000"
+      - "c09-000"
+      - "c10-000"
+    "original_jcs_sha256": "4970aed14bb86e94aca8e7a9b9310073443435166c8f89db8fa66d4f6e89d20b"
+    "corrected_jcs_sha256": "d303c7f9c871ac624762511ce09dbd526a79f1cd3730f66d87e1969d6b6b641a"
