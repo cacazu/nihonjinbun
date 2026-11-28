@@ -999,5 +999,11 @@
   "source_and_rights": "ボストン公共図書館所蔵1919年初版とProject Gutenberg固定翻刻を照合。比較資料・第三者寄与・画像の条件を個別に記載し、それらを新訳CC0に含めない。"
   "sha256": "bcd107357c8783af68a56e70b166354ecc97434c5d296a13ae60b7e0a1024a4a"
   "work_id": "baker-dramatic-technique-1919"
+- "file": "translations/stevenson/heathercat-en-ja.yaml"
+  "title": "ヒースの山猫"
+  "coverage_note": "1912年Swanston版の中扉・第一部の部題・現存三章（175–199頁）と引用詩二箇所を収録。全110対訳単位、原著は第三章末で途切れる。"
+  "source_and_rights": "1912年Swanston版所収、Project Gutenberg第30650号。英語・スコットランド語の著者本文は日本・米国、忠実な電子翻刻は米国でパブリックドメイン。日本語新訳はCC0 1.0。"
+  "work_id": "stevenson-heathercat"
+  "sha256": "dbe256cf82ab58f0eec4efdb0b70a0bd3e98172384773fddb7fdfa6274af4f9c"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿のスキーマは各ファイルのschema_versionを参照。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"

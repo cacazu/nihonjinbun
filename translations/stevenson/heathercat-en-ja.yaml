@@ -1,0 +1,2646 @@
+"schema_version": "2.0"
+"work_id": "stevenson-heathercat"
+"metadata":
+  "title_ja": "ヒースの山猫"
+  "title_original": "Heathercat"
+  "original_languages":
+    - "en"
+    - "sco"
+  "target_language": "ja"
+  "contributors":
+    - "id": "rl-stevenson"
+      "name_ja": "ロバート・ルイス・スティーヴンソン"
+      "name_original": "Robert Louis Stevenson"
+      "roles":
+        - "author"
+    - "id": "chatgpt"
+      "name_ja": "ChatGPT"
+      "name_original": "ChatGPT"
+      "roles":
+        - "translator"
+      "url": "https://chatgpt.com/"
+  "translation_rights":
+    "status": "licensed"
+    "license_id": "CC0-1.0"
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "attribution": "ChatGPT"
+    "note_ja": "日本人文の既定方針に従い、この日本語新訳を対象とする。原著・電子翻刻の利用条件は出典欄で別に記す。"
+  "genres":
+    - "文学"
+    - "歴史小説"
+  "reader_notes_ja":
+    - "未完の遺稿。現存する三章を収める。第三章末の途切れは底本のままで、結末を補っていない。"
+    - "殺戮の時代とは、十七世紀末スコットランドで長老派の盟約派が弾圧された時期を指す。"
+"sources":
+  - "id": "gutenberg-30650"
+    "role": "primary"
+    "title": "The Works of Robert Louis Stevenson, Swanston Edition, Volume XXI"
+    "languages":
+      - "en"
+      - "sco"
+      - "la"
+    "url": "https://www.gutenberg.org/ebooks/30650"
+    "contributor_ids":
+      - "rl-stevenson"
+    "edition": |-
+      ロンドン、Chatto and Windus ほか、1912年。Swanston Edition, Vol. XXI 所収「Heathercat: A Fragment」、175–199頁。Project Gutenberg 電子書籍30650。
+    "work_rights":
+      "status": "public_domain"
+      "jurisdiction": "日本・米国"
+      "evidence_url": "https://robert-louis-stevenson.org/works-chronology/"
+      "note_ja": "著者は1894年没。未完三章は1897年に公刊。ここでは1912年版所収の著者本文を使用。"
+    "transcription_rights":
+      "status": "public_domain"
+      "jurisdiction": "US"
+      "evidence_url": "https://www.gutenberg.org/ebooks/30650"
+      "note_ja": "Project Gutenberg が米国内のパブリックドメインと明記する電子版を使用。配布者の商標・配布案内は収録しない。"
+    "sha256": "8fb93b210b29be16c982b615f2a6bad3c88c25754b2354726254bf53db55e4fb"
+    "description_ja": "英語本文・スコットランド語の台詞等を含む底本。原刊頁は電子翻刻の頁アンカーに対応する。"
+"scope":
+  "included":
+    - "source_id": "gutenberg-30650"
+      "section_ids":
+        - "hc-front"
+        - "hc-text"
+        - "hc-part-i"
+        - "hc-ch1"
+        - "hc-ch2"
+        - "hc-ch3"
+      "description_ja": "作品の中扉（175頁）、本文の書名と全三章（177–199頁）、二箇所の引用詩。巻の目次だけに載る第一部の部題は本文書名の後に掲げ、典拠を明記した。"
+  "excluded":
+    - "source_id": "gutenberg-30650"
+      "description_ja": "全集第21巻の他作品・共通前付・目次の重出・配布案内。中扉の後の白紙と頁番号は、訳の段落にはしない。"
+  "known_gaps":
+    - "source_id": "gutenberg-30650"
+      "description_ja": "原著は未完。底本では第三章末で文章が途切れており、翻訳による省略ではない。"
+"sections":
+  - "id": "hc-front"
+    "parent_id": null
+    "kind": "section"
+    "origin": "source"
+    "heading_segment_ids":
+      - "hc-000"
+      - "hc-001"
+  - "id": "hc-text"
+    "parent_id": null
+    "kind": "section"
+    "origin": "source"
+    "heading_segment_ids":
+      - "hc-002"
+  - "id": "hc-part-i"
+    "parent_id": "hc-text"
+    "kind": "part"
+    "origin": "source"
+    "heading_segment_ids":
+      - "hc-part-i-title"
+  - "id": "hc-ch1"
+    "parent_id": "hc-part-i"
+    "kind": "chapter"
+    "origin": "source"
+    "heading_segment_ids":
+      - "hc-003"
+      - "hc-004"
+  - "id": "hc-ch2"
+    "parent_id": "hc-part-i"
+    "kind": "chapter"
+    "origin": "source"
+    "heading_segment_ids":
+      - "hc-010"
+      - "hc-011"
+  - "id": "hc-ch3"
+    "parent_id": "hc-part-i"
+    "kind": "chapter"
+    "origin": "source"
+    "heading_segment_ids":
+      - "hc-097"
+      - "hc-098"
+"segments":
+  - "id": "hc-000"
+    "section_id": "hc-front"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": "HEATHERCAT"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "175"
+        "anchor": "page175"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page175"
+        "source_sequence": 1
+    "translation_ja": "ヒースの山猫"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p175-block000"
+  - "id": "hc-001"
+    "section_id": "hc-front"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": "A FRAGMENT"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "175"
+        "anchor": "page175"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page175"
+        "source_sequence": 2
+    "translation_ja": "断片"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p175-block001"
+  - "id": "hc-002"
+    "section_id": "hc-text"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": "HEATHERCAT"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "177"
+        "anchor": "page177"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page177"
+        "source_sequence": 3
+    "translation_ja": "ヒースの山猫"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p177-block002"
+  - "id": "hc-part-i-title"
+    "section_id": "hc-part-i"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": "PART I.—THE KILLING-TIME"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "xpath": "/html/body/table[2]/tr[19]/td/h6"
+        "source_sequence": 0
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm"
+    "translation_ja": "第一部　殺戮の時代"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "contents-heathercat-part-i"
+        "description_ja": "巻頭目次にのみある部題。誤って本文にあるものとしない。"
+  - "id": "hc-003"
+    "section_id": "hc-ch1"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": "CHAPTER I"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "177"
+        "anchor": "page177"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page177"
+        "source_sequence": 4
+    "translation_ja": "第一章"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p177-block003"
+  - "id": "hc-004"
+    "section_id": "hc-ch1"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": "TRAQUAIRS OF MONTROYMONT"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "177"
+        "anchor": "page177"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page177"
+        "source_sequence": 5
+    "translation_ja": "モントロイモントのトラクウェア家"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p177-block004"
+  - "id": "hc-005"
+    "section_id": "hc-ch1"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      The period of this tale is in the heat of the killing-time; the scene laid for the most part in solitary hills and morasses, haunted only by the so-called Mountain Wanderers, the dragoons that came in chase of them, the women that wept on their dead bodies, and the wild birds of the moorland that have cried there since the beginning. It is a land of many rain-clouds; a land of much mute history, written there in pre-historic symbols. Strange green raths are to be seen commonly in the country, above all by the kirkyards; barrows of the dead, standing stones; beside these, the faint, durable footprints and handmarks of the Roman; and an antiquity older perhaps than any, and still living and active—a complete Celtic nomenclature and a scarce-mingled Celtic population. These rugged and grey hills were once included in the boundaries of the Caledonian Forest. Merlin sat here below his apple-tree and lamented Gwendolen; here spoke with Kentigern; here fell into his enchanted trance. And the legend of his slumber seems to body forth the story of that Celtic race, deprived for so many centuries of their authentic speech, surviving with their ancestral inheritance of melancholy perversity and patient, unfortunate courage.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "177"
+        "anchor": "page177"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page177"
+        "source_sequence": 6
+    "translation_ja": |-
+      時は「殺戮の時代」のさなか。物語の舞台はおもに、人里を離れた丘と沼沢である。そこに姿を見せるのは、世に〈山の放浪者〉と呼ばれた者たちと、彼らを追って来る竜騎兵、その亡骸に取りすがって泣く女たち、それに世の初めからこの荒野で鳴いてきた野の鳥ばかりだ。雨雲の多い土地である。文字の生まれる前のしるしで大地に書きつけられた、物言わぬ歴史の豊かな土地である。この地方を歩けば、ことに教会墓地のそばには、緑に覆われた奇妙な環状土塁がよくある。死者を葬った塚があり、立石がある。その傍らにはローマ人が手足で刻んだ、かすかながら消えることのない跡がある。そしてひょっとするとそのどれよりも古く、今なお脈々と生きているものがある。地名という地名がケルトの名であり、人々も他の血をほとんど交えぬケルトの民なのだ。荒涼とした灰色の丘々も、かつてはカレドニアの森の内であった。マーリンが林檎の木の下に座り、グウェンドレンを思って嘆いたのはここだ。ケンティガーンと語ったのもここなら、魔法の眠りに落ちたのもここである。その眠りの伝説は、ケルトの民の歴史を、目に見える姿にしたもののようだ。幾世紀も己が本来の言葉を奪われ、それでも祖先譲りの、憂いを帯びた片意地と、辛抱強くも報われぬ勇気を持ちつづけてきた民の歴史を。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p177-block005"
+    "annotations":
+      - "side": "source"
+        "kind": "emphasis"
+        "span":
+          "start": 46
+          "end": 58
+          "exact": "killing-time"
+      - "side": "translation"
+        "kind": "emphasis"
+        "span":
+          "start": 3
+          "end": 8
+          "exact": "殺戮の時代"
+  - "id": "hc-006"
+    "section_id": "hc-ch1"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      The Traquairs of Montroymont (Mons Romanus, as the erudite expound it) had long held their seat about the head-waters of the Dule and in the back parts of the moorland parish of Balweary. For two hundred years they had enjoyed in these upland quarters a certain decency (almost to be named distinction) of repute; and the annals of their house, or what is remembered of them, were obscure and bloody. Ninian Traquair was “cruallie slochtered” by the Crozers at the kirk-door of Balweary, anno 1482. Francis killed Simon Ruthven of Drumshoreland, anno 1540; bought letters of slayers at the widow and heir, and, by a barbarous form of compounding, married (without tocher) Simon’s daughter Grizzel, which is the way the Traquairs and Ruthvens came first to an intermarriage. About the last Traquair and Ruthven marriage, it is the business of this book, among many other things, to tell.
+    "source_languages":
+      - "en"
+      - "la"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "177"
+        "anchor": "page177"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page177"
+        "source_sequence": 7
+        "printed_page_end": "178"
+    "translation_ja": |-
+      モントロイモント（学者の解するところではモンス・ロマーヌス、すなわちローマの山）のトラクウェア家は、荒野のバルウィアリ教区、その奥深くデュール川の源流に近い地に、古くから居を構えていた。この高地では二百年ものあいだ、それ相応の、名望とまで言ってもいいほどの家名を保ってきた。その家の年代記、いや、今なお人の記憶にとどまるだけの年代記は、薄暗く血なまぐさい。一四八二年、ニニアン・トラクウェアはバルウィアリの教会の戸口において、クローザー一族の手で「むごたらしく斬り殺された」。一五四〇年、フランシスがドラムショアランドのサイモン・リヴェンを殺し、未亡人と跡継ぎに賠償金を払い、殺害の赦免に必要な示談状を得たうえ、なんとも荒っぽい示談の仕方だが、サイモンの娘グリゼルを持参金なしでもらい受けた。トラクウェア家とリヴェン家が初めて縁組したのは、こういう次第である。両家の最後の縁組のことは、ほかにもいろいろあるが、この本で語るべき事柄の一つだ。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p177-block006"
+    "annotations":
+      - "side": "source"
+        "kind": "emphasis"
+        "span":
+          "start": 30
+          "end": 42
+          "exact": "Mons Romanus"
+      - "side": "translation"
+        "kind": "emphasis"
+        "span":
+          "start": 20
+          "end": 29
+          "exact": "モンス・ロマーヌス"
+  - "id": "hc-007"
+    "section_id": "hc-ch1"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      The Traquairs were always strong for the Covenant; for the King also, but the Covenant first; and it began to be ill days for Montroymont when the Bishops came in and the dragoons at the heels of them. Ninian (then laird) was an anxious husband of himself and the property, as the times required, and it may be said of him, that he lost both. He was heavily suspected of the Pentland Hills rebellion. When it came the length of Bothwell Brig, he stood his trial before the Secret Council, and was convicted of talking with some insurgents by the wayside, the subject of the conversation not very clearly appearing, and of the reset and maintenance of one Gale, a gardener man, who seen before Bothwell with a musket, and afterwards, for a continuance of months, delved the garden at Montroymont. Matters went very ill with Ninian at the Council; some of the lords were clear for treason; and even the boot was talked of. But he was spared that torture; and at last, having pretty good friendship among great men, he came off with a fine of seven thousand marks, that caused the estate to groan. In this case, as in so many others, it was the wife that made the trouble. She was a great keeper of conventicles; would ride ten miles to one, and when she was fined, rejoiced greatly to suffer for the Kirk; but it was rather her husband that suffered. She had their only son, Francis, baptized privately by the hands of Mr. Kidd; there was that much the more to pay for! She could neither be driven nor wiled into the parish kirk; as for taking the sacrament at the hands of any Episcopalian curate, and tenfold more at those of Curate Haddo, there was nothing further from her purposes; and Montroymont had to put his hand in his pocket month by month and year by year. Once, indeed, the little lady was cast in prison, and the laird, worthy, heavy, uninterested man, had to ride up and take her place; from which he was not discharged under nine months and a sharp fine. It scarce seemed she had any gratitude to him; she came out of gaol herself, and plunged immediately deeper in conventicles, resetting recusants, and all her old, expensive folly, only with greater vigour and openness, because Montroymont was safe in the Tolbooth and she had no witness to consider. When he was liberated and came back, with his fingers singed, in December 1680, and late in the black night, my lady was from home. He came into the house at his alighting, with a riding-rod yet in his hand; and, on the servant-maid telling him, caught her by the scruff of the neck, beat her violently, flung her down in the passage-way, and went upstairs to his bed fasting and without a light. It was three in the morning when my lady returned from that conventicle, and, hearing of the assault (because the maid had sat up for her, weeping), went to their common chamber with a lantern in hand and stamping with her shoes so as to wake the dead; it was supposed, by those that heard her, from a design to have it out with the good man at once. The house-servants gathered on the stair, because it was a main interest with them to know which of these two was the better horse; and for the space of two hours they were heard to go at the matter, hammer and tongs. Montroymont alleged he was at the end of possibilities; it was no longer within his power to pay the annual rents; she had served him basely by keeping conventicles while he lay in prison for her sake; his friends were weary, and there was nothing else before him but the entire loss of the family lands, and to begin life again by the wayside as a common beggar. She took him up very sharp and high: called upon him, if he were a Christian? and which he most considered, the loss of a few dirty, miry glebes, or of his soul? Presently he was heard to weep, and my lady’s voice to go on continually like a running burn, only the words indistinguishable; whereupon it was supposed a victory for her ladyship, and the domestics took themselves to bed. The next day Traquair appeared like a man who had gone under the harrows; and his lady wife thenceforward continued in her old course without the least deflection.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "178"
+        "anchor": "page178"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page178"
+        "source_sequence": 8
+        "printed_page_end": "180"
+    "translation_ja": |-
+      トラクウェア家は代々、信仰盟約を固く奉じてきた。国王をも奉じたが、盟約のほうが先に立つ。だから主教たちが乗り込んできて、そのあとを竜騎兵が追ってくるようになると、モントロイモント家にとっては受難の日々が始まった。時世が時世である。当時の領主ニニアンは、わが身もわが地所も用心深く守ろうとしたが、その両方を失ったと言ってよい。まずペントランド丘陵の反乱に一枚噛んだという濃い疑いがかかった。やがてボスウェル橋の戦いにまで事が及ぶと、枢密院に引き出されて裁かれた。道端で反乱兵どもと話をした罪。もっとも何を話したかは、さっぱりはっきりしない。それから庭師のゲイルなる男をかくまい、食わせた罪。ボスウェルの戦より前に銃を持っているところを見られた男で、その後何か月にもわたってモントロイモントの庭で土を掘ったというのである。枢密院でのニニアンの旗色はすこぶる悪かった。反逆罪に決まっていると言う卿も幾人かあり、脚を締め上げる責め具の話さえ出た。その拷問だけは免れたし、大身の人々にかなり親しい友もあったので、結局は七千マルクの罰金で放免されたが、地所がうめき声を上げるほどの額であった。このたびも、ほかによくある例に違わず、悶着を起こしたのは妻である。彼女は禁制の礼拝集会の熱心な常連で、一つの集まりに馬で十マイルも出かけてゆく。罰金を科せられれば教会のために苦しむのを大いに喜んだが、むしろ苦しんだのは夫のほうだった。一人息子フランシスにキッド師の手でひそかに洗礼を授けさせた。おかげでまたも余計な出費である！　強いようが、なだめすかそうが、妻は教区の教会には行かない。主教派の牧師の手から聖餐を受けるなど思いもよらず、その牧師がハドー師とあっては、なおのことだった。かくてモントロイモントの殿は月ごと年ごとに懐へ手を入れねばならなかった。じつをいえば、この小柄な奥方が一度牢に入れられたことがある。篤実だが鈍重で、そもそもこういうことには興味もない領主が、馬で出向いて身代わりとなり、九か月も務め、手痛い罰金まで払わされて、やっと出してもらった。夫に少しでもありがたいと思っていたかどうか。自身が牢を出るや否や、奥方は礼拝集会に、教区の教会に通うのを拒む者をかくまうことに、かねての金のかかる愚挙の数々に、さっそく以前にも増して深くのめり込んだ。モントロイモントが無事お牢の中にいて、気兼ねをする目もないので、いよいよ元気よく、公然とやったのである。彼がひどい目に遭ったすえ、放免されて帰ってきたのは一六八〇年十二月、漆黒の夜もすでに更けていたが、奥方は留守だった。領主は馬を下り、まだ鞭を握ったまま屋内へ入った。女中からそう聞かされると、その首すじをひっつかんでさんざんに打ちすえ、通路に投げ倒し、食事もせず、灯も持たず、階段を上って寝床へ行った。奥方が例の集会から戻ったのは朝の三時。泣きながら寝ずに待っていた女中から乱暴の一件を聞くなり、片手に手提げ灯を持ち、死人も起きだすほど靴を踏み鳴らしながら、夫婦の寝室へ乗り込んでいった。聞いていた者たちには、善良なるご亭主と今すぐ決着をつけるつもりと見えた。屋敷じゅうの奉公人が階段に集まった。この二人のうち、どちらが上手か、彼らには大いに気になるところだったのである。それからの二時間、両人はつかみかからんばかりにやり合った。もうどうにもしようがない、とモントロイモントは訴えた。年ごとの利息すら、もう払いきれない。おまえのために自分が牢につながれているあいだも集会に通うとは、なんという仕打ちか。友人たちももう付き合いきれまい。残る道といえば一族の土地をことごとく手放し、ただの物乞いとなって路傍で一生をやり直すほかはない。奥方はすぐさま鋭く居丈高に切り返した。あなたはそれでもキリスト者か。泥まみれの汚い畑を少々失うのと、ご自分の魂を失うのと、いったいどちらが惜しいのか。やがて夫のすすり泣きが聞こえ、奥方の声は小川の流れのように途切れず続いたが、何を言っているかまでは聞き取れなかった。ここに至って奥方の勝ちと見定め、奉公人たちは寝床に引きあげた。翌日、トラクウェアは馬鍬の下をくぐり抜けたような疲れた顔で姿を見せた。そして奥方は、こののちもいささかの軌道修正もせず、これまでの道を歩みつづけた。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p178-block007"
+  - "id": "hc-008"
+    "section_id": "hc-ch1"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Thenceforward Ninian went on his way without complaint, and suffered his wife to go on hers without remonstrance. He still minded his estate, of which it might be said he took daily a fresh farewell, and counted it already lost; looking ruefully on the acres and the graves of his fathers, on the moorlands where the wildfowl consorted, the low, gurgling pool of the trout, and the high, windy place of the calling curlews—things that were yet his for the day and would be another’s to-morrow; coming back again, and sitting ciphering till the dusk at his approaching ruin, which no device of arithmetic could postpone beyond a year or two. He was essentially the simple ancient man, the farmer and landholder; he would have been content to watch the seasons come and go, and his cattle increase, until the limit of age; he would have been content at any time to die, if he could have left the estates undiminished to an heir-male of his ancestors, that duty standing first in his instinctive calendar. And now he saw everywhere the image of the new proprietor come to meet him, and go sowing and reaping, or fowling for his pleasure on the red moors, or eating the very gooseberries in the Place garden; and saw always, on the other hand, the figure of Francis go forth, a beggar, into the broad world.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "180"
+        "anchor": "page180"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page180"
+        "source_sequence": 9
+    "translation_ja": |-
+      以後ニニアンは不平も言わず自分の道を歩み、妻にはたしなめることもせず、妻の道を歩ませた。なおも領地の世話をしていたが、いわば毎日あらためて別れを告げ、もう失われたも同然と思っていた。耕地や父祖の墓を、野鳥の群れる荒野を、鱒のすむ低地のごぼごぼと鳴る淵を、風の強い高みで鳴き交わすダイシャクシギの居場所を、悲しく見渡した。今日こそまだ自分のものだが、明日は他人のものだ。やがて戻って席に着き、日暮れまで、近づく破産の勘定をした。算術でいかなる手品を使おうとも、せいぜい一年か二年しか引き延ばせそうにはない。根が昔かたぎの実直な男、農夫であり地主である。天寿を終えるまで、季節が巡り家畜が増えてゆくのを眺めていられれば、それで満足だったろう。先祖の血を引く男子に家産を損なうことなく渡せるならば、いつなんどき死んでも本望だったろう。生まれつき、この男にとって一番に果たすべき務めはそれだった。だが今はどこへ行っても、新しい持ち主の幻が向こうからやって来る。種をまき、取り入れをし、赤く色づく荒野で楽しく鳥を撃ち、あろうことか屋敷の庭の西洋すぐりまで食っている。他方にはいつも、乞食となったフランシスが広い世間へ出てゆく姿が見えた。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p180-block008"
+  - "id": "hc-009"
+    "section_id": "hc-ch1"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      It was in vain the poor gentleman sought to moderate; took every test and took advantage of every indulgence; went and drank with the dragoons in Balweary; attended the communion and came regularly to the church to Curate Haddo, with his son beside him. The mad, raging, Presbyterian zealot of a wife at home made all of no avail; and indeed the house must have fallen years before if it had not been for the secret indulgence of the curate, who had a great sympathy with the laird, and winked hard at the doings in Montroymont. This curate was a man very ill reputed in the countryside, and indeed in all Scotland. “Infamous Haddo” is Shield’s expression. But Patrick Walker is more copious. “Curate Hall Haddo,” says he, sub voce Peden, “or Hell Haddo, as he was more justly to be called, a pokeful of old condemned errors and the filthy vile lusts of the flesh, a published whoremonger, a common gross drunkard, continually and godlessly scraping and skirling on a fiddle, continually breathing flames against the remnant of Israel. But the Lord put an end to his piping, and all these offences were composed into one bloody grave.” No doubt this was written to excuse his slaughter; and I have never heard it claimed for Walker that he was either a just witness or an indulgent judge. At least, in a merely human character, Haddo comes off not wholly amiss in the matter of these Traquairs: not that he showed any graces of the Christian, but had a sort of Pagan decency, which might almost tempt one to be concerned about his sudden, violent, and unprepared fate.
+    "source_languages":
+      - "en"
+      - "la"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "181"
+        "anchor": "page181"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page181"
+        "source_sequence": 10
+    "translation_ja": |-
+      哀れなこの紳士はいくら穏健に振る舞おうとしても無駄であった。要求される忠誠宣誓は何でもし、信仰に関する寛容令はどれも利用した。バルウィアリでは竜騎兵と酒を飲み、息子を傍らに連れて聖餐にあずかり、ハドー師の教会へ欠かさず通った。それも、家にいるあの血相を変えていきり立つ長老派狂信者の妻のおかげで、なんの甲斐もなかった。実際、教区牧師が陰ながら寛大に計らってくれなかったら、この家は何年も前に潰れていただろう。領主にいたく同情していた牧師は、屋敷で起きることには、徹底して見ぬふりをした。この牧師、近郷では、いやスコットランドじゅうでも、まことに評判の悪い男だった。シールズの言い草に従えば「悪名高きハドー」。だがパトリック・ウォーカーの筆はなおも雄弁である。「教区牧師ホール・ハドー」と、彼はピーデンの項で書いている。「いや、地獄のハドーと呼ぶほうが、よほどふさわしい。とうに断罪された邪説と、肉の汚らわしく卑しい欲とを袋に詰めたような男、公然たる女買い、札付きの大酒飲み、ヴァイオリンをひねもす罰当たりにもぎこぎこきいきいと弾き鳴らし、イスラエルの残れる者らに向かって絶えず口から火を噴く者。しかし主はその楽の音をやめさせたまい、罪科のことごとくが、一つの血染めの墓に納まった」。もちろん、これは彼を殺したことへの弁明として書かれたものだろう。ウォーカーなる人が公正な証人だとか、寛大な裁き手だとかいう評判は、私は一度も聞いたことがない。少なくとも、一個の生身の人間としては、このトラクウェア家にまつわる一件でハドーの株はまるきり下がりはしない。キリスト者らしい美徳を発揮するのでこそないが、ある種、異教徒なりのまっとうさがあって、突然、備えをする暇もなく非業の死を迎えたその身の上に、あやうく同情したくもなるのだ。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p181-block009"
+    "annotations":
+      - "side": "source"
+        "kind": "emphasis"
+        "span":
+          "start": 723
+          "end": 731
+          "exact": "sub voce"
+      - "side": "translation"
+        "kind": "emphasis"
+        "span":
+          "start": 351
+          "end": 353
+          "exact": "項で"
+      - "side": "source"
+        "kind": "emphasis"
+        "span":
+          "start": 743
+          "end": 747
+          "exact": "Hell"
+      - "side": "translation"
+        "kind": "emphasis"
+        "span":
+          "start": 363
+          "end": 365
+          "exact": "地獄"
+  - "id": "hc-010"
+    "section_id": "hc-ch2"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": "CHAPTER II"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "182"
+        "anchor": "page182"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page182"
+        "source_sequence": 11
+    "translation_ja": "第二章"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p182-block010"
+  - "id": "hc-011"
+    "section_id": "hc-ch2"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": "FRANCIE"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "182"
+        "anchor": "page182"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page182"
+        "source_sequence": 12
+    "translation_ja": "フランシー"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p182-block011"
+  - "id": "hc-012"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Francie was eleven years old, shy, secret, and rather childish of his age, though not backward in schooling, which had been pushed on far by a private governor, one M’Brair, a forfeited minister harboured in that capacity at Montroymont. The boy, already much employed in secret by his mother, was the most apt hand conceivable to run upon a message, to carry food to lurking fugitives, or to stand sentry on the skyline above a conventicle. It seemed no place on the moorlands was so naked but what he would find cover there; and as he knew every hag, boulder, and heather-bush in a circuit of seven miles about Montroymont, there was scarce any spot but what he could leave or approach it unseen. This dexterity had won him a reputation in that part of the country; and among the many children employed in these dangerous affairs, he passed under the by-name of Heathercat.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "182"
+        "anchor": "page182"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page182"
+        "source_sequence": 13
+    "translation_ja": |-
+      フランシーは十一歳。はにかみやで、胸の内を明かさず、年のわりには幼さの残る少年だった。もっとも学業のほうは遅れてなどいなかった。マクブレアという、職を追われた牧師が、家庭教師の名目でモントロイモント家にかくまわれ、かなり先まで教え込んでいたのだ。少年はすでに母親にひそかに度々使われていて、伝言を届けさせても、潜伏中の逃亡者に食べ物を運ばせても、野外礼拝を見下ろす尾根で見張りに立たせても、これほどうってつけの人手はあるまいと思われた。荒野のどれほどむき出しの場所でも、この子は身を隠すところを見つけるらしかった。屋敷を取り巻く七マイルほどの一帯で、泥炭の窪みも、岩塊も、ヒースの茂みも一つ残らず知っているので、誰にも姿を見られずに忍び寄ったり、立ち去ったりできぬ場所などほとんどなかった。その身のこなしが土地の評判となり、こうした危険な用向きにかり出される大勢の子供たちのあいだで、彼は〈ヒースの山猫〉と呼ばれていた。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p182-block012"
+  - "id": "hc-013"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      How much his father knew of this employment might be doubted. He took much forethought for the boy’s future, seeing he was like to be left so poorly, and would sometimes assist at his lessons, sighing heavily, yawning deep, and now and again patting Francie on the shoulder if he seemed to be doing ill, by way of a private, kind encouragement. But a great part of the day was passed in aimless wanderings with his eyes sealed, or in his cabinet sitting bemused over the particulars of the coming bankruptcy; and the boy would be absent a dozen times for once that his father would observe it.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "182"
+        "anchor": "page182"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page182"
+        "source_sequence": 14
+    "translation_ja": |-
+      父が息子のこの務めをどこまで知っていたかは疑わしい。ほとんど何も残してやれそうにないので、息子の行く末はずいぶんと案じていたし、時には授業に立ち会い、大きなため息をついたり、大あくびをしたり、出来が悪そうだと見ると時折フランシーの肩をぽんとたたいて、そっとやさしく励ましたりもした。だが昼の大半は、何も目に入らぬまま当てもなく歩き回るか、書斎で心ここにあらずのていで破産の明細を眺めていた。息子が十二度留守にして、気づくのは一度ぐらいだったろう。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p182-block013"
+  - "id": "hc-014"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      On 2nd of July 1682 the boy had an errand from his mother, which must be kept private from all, the father included in the first of them. Crossing the braes, he hears the clatter of a horse’s shoes, and claps down incontinent in a hag by the wayside. And presently he spied his father come riding from one direction, and Curate Haddo walking from another; and Montroymont leaning down from the saddle, and Haddo getting on his toes (for he was a little, ruddy, bald-pated man, more like a dwarf), they greeted kindly, and came to a halt within two fathoms of the child.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "182"
+        "anchor": "page182"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page182"
+        "source_sequence": 15
+        "printed_page_end": "183"
+    "translation_ja": |-
+      一六八二年七月二日、母親が少年に用を言いつけた。父親を筆頭に、誰にも内緒にしなければならない用だった。斜面を横切ってゆくと、蹄鉄のかつかついう音がする。彼はたちまち道端の泥炭の窪みへ身を伏せた。やがて一方からは馬に乗った父が来る、反対のほうからはハドー牧師が歩いて来るのが見えた。モントロイモントは鞍から身をかがめ、ハドーは爪先立ちになって（赤ら顔で頭の禿げた、こびとじみた小男だった）、親しげに挨拶を交わし、少年からほんの二尋のところに立ち止まった。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p182-block014"
+  - "id": "hc-015"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Montroymont,” the curate said, “the deil’s in ’t but I’ll have to denunciate your leddy again.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "183"
+        "anchor": "page183"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page183"
+        "source_sequence": 16
+    "translation_ja": "「モントロイモントの殿」と牧師が言った。「忌々しいが、あんたの奥方をまた訴えねばならんようだ」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p183-block015"
+  - "id": "hc-016"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Deil’s in ’t indeed!” says the laird."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "183"
+        "anchor": "page183"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page183"
+        "source_sequence": 17
+    "translation_ja": "「まったく、忌々しい話だ！」と領主。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p183-block016"
+  - "id": "hc-017"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Man! can ye no induce her to come to the kirk?” pursues Haddo; “or to a communion at the least of it? For the conventicles, let be! and the same for yon solemn fule, M’Brair: I can blink at them. But she’s got to come to the kirk, Montroymont.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "183"
+        "anchor": "page183"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page183"
+        "source_sequence": 18
+    "translation_ja": |-
+      「なあ！　なんとか教会に顔を出させられんのかね」とハドーは続けた。「せめて聖餐のときだけでも？　例の集会は、まあいい。あのしかめっ面の阿呆、マクブレアのこともだ。そいつは見逃せる。だが、奥方にゃ教会へ来てもらわんといかん、モントロイモント」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p183-block017"
+  - "id": "hc-018"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Dinna speak of it,” says the laird. “I can do nothing with her.”"
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "183"
+        "anchor": "page183"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page183"
+        "source_sequence": 19
+    "translation_ja": "「言わんでくれ」と領主は言った。「わしにはどうにもできんのだ」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p183-block018"
+  - "id": "hc-019"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Couldn’t ye try the stick to her? it works wonders whiles,” suggested Haddo. “No? I’m wae to hear it. And I suppose ye ken where you’re going?”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "183"
+        "anchor": "page183"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page183"
+        "source_sequence": 20
+    "translation_ja": "「棒で打ってみたらどうだね。あれで案外うまくいくこともあるぞ」とハドーは持ちかけた。「駄目か？　そりゃ気の毒にな。で、ご自分がどこへ転がり込むかは、わかっておいでだろうね？」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p183-block019"
+  - "id": "hc-020"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Fine!” said Montroymont. “Fine do I ken where: bankrup’cy and the Bass Rock!”"
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "183"
+        "anchor": "page183"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page183"
+        "source_sequence": 21
+    "translation_ja": "「よおく！」とモントロイモントは言った。「どこかはよおく心得とる。破産、それにバス・ロックの牢獄よ！」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p183-block020"
+  - "id": "hc-021"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Praise to my bones that I never married!” cried the curate. “Well, it’s a grievous thing to me to see an auld house dung down that was here before Flodden Field. But naebody can say it was with my wish.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "183"
+        "anchor": "page183"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page183"
+        "source_sequence": 22
+    "translation_ja": "「嫁を取らなかったわが身に祝福あれ！」と牧師は叫んだ。「まったく、フロドンの戦いより昔からある家が叩き潰されるのを見るのはつらいことだ。だがわしがそう望んだなんて、誰にも言えんぞ」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p183-block021"
+  - "id": "hc-022"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “No more they can, Haddo!” says the laird. “A good friend ye’ve been to me, first and last. I can give you that character with a clear conscience.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "183"
+        "anchor": "page183"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page183"
+        "source_sequence": 23
+    "translation_ja": "「言えんとも、ハドー！」と領主。「初めから終わりまで、あんたはよい友人でいてくれた。わしは良心に恥じるところなく、そう請け合える」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p183-block022"
+  - "id": "hc-023"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Whereupon they separated, and Montroymont rode briskly down into the Dule Valley. But of the curate Francis was not to be quit so easily. He went on with his little, brisk steps to the corner of a dyke, and stopped and whistled and waved upon a lassie that was herding cattle there. This Janet M’Clour was a big lass, being taller than the curate; and what made her look the more so, she was kilted very high. It seemed for a while she would not come, and Francie heard her calling Haddo a “daft auld fule,” and saw her running and dodging him among the whins and hags till he was fairly blown. But at the last he gets a bottle from his plaid-neuk and holds it up to her; whereupon she came at once into a composition, and the pair sat, drinking of the bottle, and daffing and laughing together, on a mound of heather. The boy had scarce heard of these vanities, or he might have been minded of a nymph and satyr, if anybody could have taken long-leggit Janet for a nymph. But they seemed to be huge friends, he thought; and was the more surprised, when the curate had taken his leave, to see the lassie fling stones after him with screeches of laughter, and Haddo turn about and caper, and shake his staff at her, and laugh louder than herself. A wonderful merry pair, they seemed; and when Francie had crawled out of the hag, he had a great deal to consider in his mind. It was possible they were all fallen in error about Mr. Haddo, he reflected,—having seen him so tender with Montroymont, and so kind and playful with the lass Janet; and he had a temptation to go out of his road and question her herself upon the matter. But he had a strong spirit of duty on him; and plodded on instead over the braes till he came near the House of Cairngorm. There, in a hollow place, by the burnside that was shaded by some birks, he was aware of a barefoot boy, perhaps a matter of three years older than himself. The two approached with the precautions of a pair of strange dogs, looking at each other queerly.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "183"
+        "anchor": "page183"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page183"
+        "source_sequence": 24
+        "printed_page_end": "184"
+    "translation_ja": |-
+      そこで二人は別れ、モントロイモントはデュールの谷へ馬を急がせた。だがフランシスは、牧師からはそうやすやすと解放されなかった。ハドーはちょこちょこと足早に石垣の角まで行き、そこで立ち止まると、牛の番をしていた娘に口笛を吹いて手を振った。このジャネット・マクルーアは体の大きな娘で、牧師よりも背が高く、しかもスカートをうんとたくし上げていたので、いっそう大柄に見えた。しばらくは呼ばれても来そうになかった。フランシーの耳には、彼女がハドーを「まぬけなじいさん」と呼ぶのも聞こえたし、ハリエニシダの茂みや泥炭の窪みを縫って走っては身をかわし、相手の息がすっかり上がるのも見えた。だがとうとう牧師が肩掛けの端から瓶を取り出し、娘に掲げて見せると、たちまち和睦が成立し、二人はヒースの盛り上がったところに腰をおろして、瓶の酒を回し飲みし、たわむれ、笑い合った。少年はこうした俗世の戯れについて聞きかじったことさえほとんどなかった。さもなければニンフとサテュロスでも思い浮かべたかもしれぬ。もっとも、ひょろ長い脚のジャネットをニンフと見まがう者があれば、の話だが。二人はずいぶん仲よしらしいぞ、と彼は思った。それだけに、牧師がいとまを告げてから、娘がけたたましい笑い声を上げてうしろから石を投げ、ハドーも振り向いてぴょんと跳ね、杖を振ってみせ、相手よりも大きな声で笑うのが不思議だった。なんとも陽気な二人だ。泥炭の窪みからはい出たとき、フランシーの胸には考えたいことが山ほどあった。ハドー師のことはみんなの思い違いかもしれない。父さんにはあんなに情け深いし、ジャネットにもあんなに親切で、楽しそうにふざけていたんだから。ちょっと道草を食って娘本人に聞いてみたい気もした。だがこの子には務めを果たさねばという気持ちが強かった。代わりにせっせと斜面を越え、ケアンゴームの館の近くに出た。そこに窪地があり、白樺が小川に蔭を落としていた。岸辺に裸足の少年がいた。自分より三つほど上だろうか。二人は見知らぬ犬どうしのように用心しながら、妙な顔で相手をうかがい、近づいていった。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p183-block023"
+  - "id": "hc-024"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“It’s ill weather on the hills,” said the stranger, giving the watchword."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "184"
+        "anchor": "page184"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page184"
+        "source_sequence": 25
+    "translation_ja": "「丘は荒れ模様だ」と見知らぬ少年が合言葉をかけた。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p184-block024"
+  - "id": "hc-025"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“For a season,” said Francie, “but the Lord will appear.”"
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "184"
+        "anchor": "page184"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page184"
+        "source_sequence": 26
+    "translation_ja": "「しばしのこと」とフランシーは答えた。「やがて主がお現れになる」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p184-block025"
+  - "id": "hc-026"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Richt,” said the barefoot boy; “wha’re ye frae?”"
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "184"
+        "anchor": "page184"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page184"
+        "source_sequence": 27
+    "translation_ja": "「よし」と裸足の少年。「誰のとこからだ？」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p184-block026"
+  - "id": "hc-027"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“The Leddy Montroymont,” says Francie."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "185"
+        "anchor": "page185"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page185"
+        "source_sequence": 28
+    "translation_ja": "「モントロイモントの奥方のとこ」とフランシー。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p185-block027"
+  - "id": "hc-028"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Ha’e, then!” says the stranger, and handed him a folded paper, and they stood and looked at each other again. “It’s unco’ het,” said the boy.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "185"
+        "anchor": "page185"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page185"
+        "source_sequence": 29
+    "translation_ja": "「じゃ、ほらよ」と相手は折りたたんだ紙を渡した。二人は突っ立って、またも互いをじろじろ見た。「ばかに暑いな」と少年が言った。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p185-block028"
+  - "id": "hc-029"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Dooms het,” says Francie."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "185"
+        "anchor": "page185"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page185"
+        "source_sequence": 30
+    "translation_ja": "「べらぼうに暑い」とフランシー。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p185-block029"
+  - "id": "hc-030"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“What do they ca’ ye?” says the other."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "185"
+        "anchor": "page185"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page185"
+        "source_sequence": 31
+    "translation_ja": "「おまえ、なんて呼ばれてる？」と相手。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p185-block030"
+  - "id": "hc-031"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Francie,” says he. “I’m young Montroymont. They ca’ me Heathercat.”"
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "185"
+        "anchor": "page185"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page185"
+        "source_sequence": 32
+    "translation_ja": "「フランシー」と答えた。「モントロイモントの若殿だ。みんなはヒースの山猫って呼ぶ」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p185-block031"
+  - "id": "hc-032"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “I’m Jock Crozer,” said the boy. And there was another pause, while each rolled a stone under his foot.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "185"
+        "anchor": "page185"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page185"
+        "source_sequence": 33
+    "translation_ja": "「おれはジョック・クローザー」と少年は言った。そこでまた二人とも黙り、めいめい足の裏で小石を転がした。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p185-block032"
+  - "id": "hc-033"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Cast your jaiket and I’ll fecht ye for a bawbee,” cried the elder boy with sudden violence, and dramatically throwing back his jacket.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "185"
+        "anchor": "page185"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page185"
+        "source_sequence": 34
+    "translation_ja": "「上っ張りを脱げよ。バウビー銅貨を一枚賭けて殴り合おうぜ！」年上の少年がいきなり荒々しい声を上げ、芝居がかって自分の上っ張りをばっと開いた。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p185-block033"
+  - "id": "hc-034"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Na, I have nae time the now,” said Francie, with a sharp thrill of alarm, because Crozer was much the heavier boy.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "185"
+        "anchor": "page185"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page185"
+        "source_sequence": 35
+    "translation_ja": "「いや、今は暇がないや」とフランシーは言った。クローザーが自分よりもよほど大柄なので、ひやりと胸におびえが走ったのだ。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p185-block034"
+  - "id": "hc-035"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Ye’re feared. Heathercat indeed!” said Crozer, for among this infantile army of spies and messengers, the fame of Crozer had gone forth and was resented by his rivals. And with that they separated.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "185"
+        "anchor": "page185"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page185"
+        "source_sequence": 36
+    "translation_ja": |-
+      「怖いんだろ。なにがヒースの山猫だ！」とクローザーは言った。この幼い偵察・伝令の軍勢のあいだでは、クローザーの名声は広く鳴り響き、競争相手たちの妬みを買っていたからである。そこで二人は別れた。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p185-block035"
+  - "id": "hc-036"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      On his way home Francie was a good deal occupied with the recollection of this untoward incident. The challenge had been fairly offered and basely refused: the tale would be carried all over the country, and the lustre of the name of Heathercat be dimmed. But the scene between Curate Haddo and Janet M’Clour had also given him much to think of: and he was still puzzling over the case of the curate, and why such ill words were said of him, and why, if he were so merry-spirited, he should yet preach so dry, when coming over a knowe, whom should he see but Janet, sitting with her back to him, minding her cattle! He was always a great child for secret, stealthy ways, having been employed by his mother on errands when the same was necessary; and he came behind the lass without her hearing.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "185"
+        "anchor": "page185"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page185"
+        "source_sequence": 37
+    "translation_ja": |-
+      帰り道、フランシーの頭から、この都合の悪い一件がなかなか離れなかった。まともに挑まれた勝負を、卑怯にも断ったのだ。話は土地じゅうに広まり、ヒースの山猫の名も光を失うだろう。だが、ハドー師とジャネット・マクルーアの一幕にも、いろいろと考えさせられた。あの牧師のことをなぜ皆あんなに悪く言うのか、あんなに陽気な人なのになぜ説教はああも退屈なのか、しきりに首をひねりながら小さな丘を越えてゆくと、なんとそこにジャネットが、こちらに背を向けて座り、牛の番をしているではないか！　母親から内密にしのび歩く必要のある用を言いつけられてきたせいで、フランシーはもともと人に気づかれずにこっそり忍ぶのが好きな子だった。娘の背後へ音もなく近寄った。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p185-block036"
+  - "id": "hc-037"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Jennet,” says he."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "185"
+        "anchor": "page185"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page185"
+        "source_sequence": 38
+    "translation_ja": "「ジェネット」と声をかけた。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p185-block037"
+  - "id": "hc-038"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Keep me,” cries Janet, springing up. “O, it’s you, Maister Francie! Save us, what a fricht ye gied me.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "186"
+        "anchor": "page186"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page186"
+        "source_sequence": 39
+    "translation_ja": "「あれまあ！」ジャネットは飛び上がった。「なんだ、フランシー坊ちゃんかい！　いやんなる、ほんとに肝をつぶしたよ」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p186-block038"
+    "source_variants":
+      - "kind": "corrected"
+        "text": "spinging"
+        "description_ja": "翻刻者が底本の spinging を springing に訂正した箇所。本文は訂正後の読み。"
+  - "id": "hc-039"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Ay, it’s me,” said Francie. “I’ve been thinking, Jennet; I saw you and the curate a while back——”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "186"
+        "anchor": "page186"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page186"
+        "source_sequence": 40
+    "translation_ja": "「うん、ぼくだよ」とフランシー。「あのね、ずっと考えてたんだけど、さっきジェネットと牧師さんを見てね――」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p186-block039"
+  - "id": "hc-040"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Brat!” cried Janet, and coloured up crimson; and the one moment made as if she would have stricken him with a ragged stick she had to chase her bestial with, and the next was begging and praying that he would mention it to none. It was “naebody’s business, whatever,” she said; “it would just start a clash in the country”; and there would be nothing left for her but to drown herself in Dule Water.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "186"
+        "anchor": "page186"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page186"
+        "source_sequence": 41
+    "translation_ja": |-
+      「この悪がき！」ジャネットはそう叫んで、まっかになった。牛を追う節くれだった棒で坊ちゃんをひっぱたこうとしたかと思うと、もう次には、誰にも言わないでくれと手を合わせんばかりに頼み込んでいる。「誰にだって、なんの関わりもないことじゃないか」「村じゅうの噂になるだけだよ」と彼女は言った。そんなことになれば、自分はデュール川に身を投げるほかなくなる、と。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p186-block040"
+  - "id": "hc-041"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Why?” says Francie."
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "186"
+        "anchor": "page186"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page186"
+        "source_sequence": 42
+    "translation_ja": "「どうして？」とフランシー。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p186-block041"
+  - "id": "hc-042"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "The girl looked at him and grew scarlet again."
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "186"
+        "anchor": "page186"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page186"
+        "source_sequence": 43
+    "translation_ja": "娘は彼の顔をじっと見て、またも緋色に染まった。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p186-block042"
+  - "id": "hc-043"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “And it isna that, anyway,” continued Francie. “It was just that he seemed so good to ye—like our Father in heaven, I thought; and I thought that mebbe, perhaps, we had all been wrong about him from the first. But I’ll have to tell Mr. M’Brair; I’m under a kind of a bargain to him to tell him all.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "186"
+        "anchor": "page186"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page186"
+        "source_sequence": 44
+    "translation_ja": |-
+      「それに、とにかく、そういう話じゃないんだ」とフランシーは続けた。「あの人がジェネットにとてもよくしてるみたいだったから。まるで天のお父さまみたいだと思ったよ。ひょっとすると、みんな初めからあの人をまちがって見てたのかもしれないと思ってさ。でも、マクブレア先生には話さなくちゃ。なんでも話すって約束みたいなものがあるんだ」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p186-block043"
+  - "id": "hc-044"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Tell it to the divil if ye like for me!” cried the lass. “I’ve naething to be ashamed of. Tell M’Brair to mind his ain affairs,” she cried again: “they’ll be hot eneugh for him, if Haddie likes!” And so strode off, shoving her beasts before her, and ever and again looking back and crying angry words to the boy, where he stood mystified.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "186"
+        "anchor": "page186"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page186"
+        "source_sequence": 45
+    "translation_ja": |-
+      「言いたきゃ悪魔にでも言いつけるがいいさ！」娘は叫んだ。「あたしゃ、やましいことなんかないよ。マクブレアには、よけいな世話は焼くなと言っとくれ」とまた叫んだ。「ハディ先生がその気になりゃ、あの人自身のことで十分ひどい目に遭うんだからね！」そう言うと、牛たちを前へ追い立てながら大股で去っていった。時おり振り返っては、訳がわからず立ち尽くす少年に、怒った言葉を投げつけた。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p186-block044"
+  - "id": "hc-045"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      By the time he had got home his mind was made up that he would say nothing to his mother. My Lady Montroymont was in the keeping-room, reading a godly book; she was a wonderful frail little wife to make so much noise in the world and be able to steer about that patient sheep her husband; her eyes were like sloes, the fingers of her hands were like tobacco-pipe shanks, her mouth shut tight like a trap; and even when she was the most serious, and still more when she was angry, there hung about her face the terrifying semblance of a smile.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "186"
+        "anchor": "page186"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page186"
+        "source_sequence": 46
+        "printed_page_end": "187"
+    "translation_ja": |-
+      家に着くまでには、母親には何も言うまいと心を決めていた。モントロイモントの奥方は居間で信仰の書を読んでいた。世間をこれだけ騒がせ、あの我慢強い羊のような夫を自在に動かすにしては、驚くほど華奢な、小柄な女だった。両の眼は野スモモの黒い実のよう、指はパイプの細い柄のよう、口は獣の罠のようにぴたりと閉じ、どんなに真剣なときでも、怒っているときにはなおさら、ぞっとするような笑みめいたものが顔に浮かんでいた。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p186-block045"
+  - "id": "hc-046"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Have ye gotten the billet, Francie?” said she; and when he had handed it over, and she had read and burned it, “Did you see anybody?” she asked.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 47
+    "translation_ja": "「手紙は受け取ったの、フランシー？」と奥方は言った。受け取った紙片を読んで燃やすと、「誰か見かけましたか」と尋ねた。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block046"
+  - "id": "hc-047"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“I saw the laird,” said Francie."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 48
+    "translation_ja": "「お父さまを見ました」とフランシー。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block047"
+  - "id": "hc-048"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“He didna see you, though?” asked his mother."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 49
+    "translation_ja": "「でも、お父さまはおまえを見なかったんだね？」と母。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block048"
+  - "id": "hc-049"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Deil a fear,” from Francie."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 50
+    "translation_ja": "「悪魔め、そんな心配ないよ」とフランシー。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block049"
+  - "id": "hc-050"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Francie!” she cried. “What’s that I hear? an aith? The Lord forgive me, have I broughten forth a brand for the burning, a fagot for hell-fire?”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 51
+    "translation_ja": "「フランシー！」と母は叫んだ。「今のはなんです、罰当たりな誓いの言葉？　主よ、私をお許しください！　私が産んだのは、火にくべる薪、地獄の業火に投げ込む薪だったのですか？」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block050"
+  - "id": "hc-051"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “I’m very sorry, ma’am,” said Francie. “I humbly beg the Lord’s pardon, and yours, for my wickedness.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 52
+    "translation_ja": "「ほんとうにごめんなさい、お母さま」とフランシーは言った。「ぼくのした悪いことを、どうか主にも、お母さまにも、お許しいただきたいのです」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block051"
+  - "id": "hc-052"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“H’m,” grunted the lady. “Did ye see nobody else?”"
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 53
+    "translation_ja": "「ふむ」と奥方は鼻を鳴らした。「ほかには誰も見なかったの？」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block052"
+  - "id": "hc-053"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “No, ma’am,” said Francie, with the face of an angel, “except Jock Crozer, that gied me the billet.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 54
+    "translation_ja": "「はい、お母さま」と天使のような顔をしてフランシーは言った。「紙をくれたジョック・クローザーのほかにはね」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block053"
+  - "id": "hc-054"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Jock Crozer!” cried the lady. “I’ll Crozer them! Crozers indeed! What next? Are we to repose the lives of a suffering remnant in Crozers? The whole clan of them wants hanging, and if I had my way of it, they wouldna want it long. Are you aware, sir, that these Crozers killed your forebear at the kirk-door?”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 55
+    "translation_ja": |-
+      「ジョック・クローザーだって！」と奥方は声を張り上げた。「クローザーめ、ただじゃおきませんよ！　クローザー家ですって！　次は何が出ることか！　苦難をしのぶわずかな信徒の命を、あの一族に預けよとでもいうの？　一族そろって縛り首にしてやらなくちゃ。私の思いどおりになるなら、そう長くは待たせませんよ。おまえ、あのクローザーどもが教会の戸口でおまえのご先祖を殺したのは知っているんでしょうね？」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block054"
+  - "id": "hc-055"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“You see, he was bigger ’n me,” said Francie."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 56
+    "translation_ja": "「だって、あいつ、ぼくより大きかったんだもの」とフランシー。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block055"
+  - "id": "hc-056"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Jock Crozer!” continued the lady. “That’ll be Clement’s son, the biggest thief and reiver in the countryside. To trust a note to him! But I’ll give the benefit of my opinions to Lady Whitecross when we two forgather. Let her look to herself! I have no patience with half-hearted carlines, that complies on the Lord’s day morning with the kirk, and comes taigling the same night to the conventicle. The one or the other! is what I say: hell or heaven—Haddie’s abominations or the pure word of God dreeping from the lips of Mr. Arnot,
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 57
+    "translation_ja": |-
+      「ジョック・クローザー！」と奥方は続けた。「きっと、近郷きっての物盗りで略奪者のクレメントの息子だわ。あんなのに手紙を託すなんて！　今度ホワイトクロスの奥さんに会ったら、私の考えをたっぷり聞かせておきましょう。覚悟なさるがいいわ！　主の日の朝はお上に従って教会へ出ておいて、その同じ晩にぐずぐず野外礼拝に出て来る、生ぬるい婆さん連中には我慢がならない。どちらか一つです！　それが私の言い分です。地獄か天国か、ハディの忌まわしい所業か、それともアーノット師の唇からしたたる清らかな神のことばか、
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block056"
+  - "id": "hc-057"
+    "section_id": "hc-ch2"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "“‘Like honey from the honeycomb"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 58
+    "translation_ja": "『巣房から流れ出る蜜のごと、"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block057"
+  - "id": "hc-058"
+    "section_id": "hc-ch2"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "That dreepeth, sweeter far.’”"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 59
+    "translation_ja": "いや、その蜜よりなお甘くしたたる』」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block058"
+    "annotations":
+      - "side": "source"
+        "kind": "indent"
+        "span":
+          "start": 0
+          "end": 29
+          "exact": "That dreepeth, sweeter far.’”"
+        "columns": 2
+      - "side": "translation"
+        "kind": "indent"
+        "span":
+          "start": 0
+          "end": 18
+          "exact": "いや、その蜜よりなお甘くしたたる』」"
+        "columns": 2
+  - "id": "hc-059"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      My lady was now fairly launched, and that upon two congenial subjects: the deficiencies of the Lady Whitecross and the turpitudes of the whole Crozer race—which, indeed, had never been conspicuous for respectability. She pursued the pair of them for twenty minutes on the clock with wonderful animation and detail, something of the pulpit manner, and the spirit of one possessed. “O hellish compliance!” she exclaimed. “I would not suffer a complier to break bread with Christian folk. Of all the sins of this day there is not one so God-defying, so Christ-humiliating, as damnable compliance”: the boy standing before her meanwhile, and brokenly pursuing other thoughts, mainly of Haddo and Janet, and Jock Crozer stripping off his jacket. And yet, with all his distraction, it might be argued that he heard too much: his father and himself being “compliers”—that is to say, attending the church of the parish as the law required.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "187"
+        "anchor": "page187"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page187"
+        "source_sequence": 60
+        "printed_page_end": "188"
+    "translation_ja": |-
+      いまや奥方はすっかり波に乗った。そのうえ、得意な題目が二つときている。ホワイトクロス夫人の至らなさと、クローザー一族ことごとくの不行跡だ。もっとも後者が品行方正で人目を引いたためしは、実のところ、ないのだが。時計できっかり二十分、奥方はその二つを、説教壇に立つかのような口ぶりで、憑かれた人さながらに、驚くほど勢いよく、細かいところまで語り立てた。「ああ、地獄に落ちる迎合め！」と叫んだ。「そんな迎合をする人間がキリスト者と同じパンを分かつのを、私は許しません。このご時世のあらゆる罪のうち、あの呪わしい迎合ほど神に逆らい、キリストを辱めるものはありません」。その間ずっと、少年は目の前に立ち、考えが途切れ途切れによそへそれた。おもにハドーとジャネットのこと、それから上っ張りを脱ぎかけたジョック・クローザーのことだった。だが、いくら上の空でも、耳に入ったことは多すぎたとも言えよう。父と彼とはともに「迎合者」、つまり法に従って教区の教会へ通っていたのだから。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p187-block059"
+  - "id": "hc-060"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Presently, the lady’s passion beginning to decline, or her flux of ill words to be exhausted, she dismissed her audience. Francie bowed low, left the room, closed the door behind him: and then turned him about in the passage-way, and with a low voice, but a prodigious deal of sentiment, repeated the name of the evil one twenty times over, to the end of which, for the greater efficacy, he tacked on “damnable” and “hellish.” Fas est ab hoste doceri—disrespect is made more pungent by quotation; and there is no doubt but he felt relieved, and went upstairs into his tutor’s chamber with a quiet mind. M’Brair sat by the cheek of the peat-fire and shivered, for he had a quartan ague and this was his day. The great nightcap and plaid, the dark unshaven cheeks of the man, and the white, thin hands that held the plaid about his chittering body, made a sorrowful picture. But Francie knew and loved him; came straight in, nestled close to the refugee, and told his story. M’Brair had been at the College with Haddo; the Presbytery had licensed both on the same day; and at this tale, told with so much innocency by the boy, the heart of the tutor was commoved.
+    "source_languages":
+      - "en"
+      - "la"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "188"
+        "anchor": "page188"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page188"
+        "source_sequence": 61
+        "printed_page_end": "189"
+    "translation_ja": |-
+      やがて奥方は激情が少し冷めたのか、それとも流れ出る罵言が尽きたのか、聴衆を解放した。フランシーは深々とお辞儀をして部屋を出、うしろ手に戸を閉めた。廊下に出るとくるりと向き直り、声こそ低いが、ひとかたならぬ実感をこめ、悪魔の名を二十ぺんも繰り返し、終いには効き目を強くしようと、「呪わしい」と「地獄め」までくっつけた。ファス・エスト・アブ・ホステ・ドケーリ、敵に学ぶもまたよし。人のことばを借りて言ってこそ、無礼なことばもいっそうよく刺さるというものだ。おかげで胸がすいたことは間違いない。落ち着いた気持ちで階段を上り、家庭教師の部屋へ行った。マクブレアは泥炭の火のきわに座って震えていた。四日熱をわずらい、その日が発作の日だったのだ。大きな寝帽子と格子縞の肩掛け、ひげを剃らず黒ずんだ頬、がたがた震える体に肩掛けをかき寄せる白いやせた手。あわれな姿であった。だがフランシーはこの人をよく知っており、慕っていた。まっすぐ入っていって、匿われている先生のそばに身を寄せ、一部始終を話した。マクブレアはハドーと大学で同窓だった。二人が長老会から説教を許されたのも同じ日である。なんの邪心もなく少年が語るのを聞いて、師の胸はかき乱された。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p188-block060"
+    "annotations":
+      - "side": "source"
+        "kind": "emphasis"
+        "span":
+          "start": 427
+          "end": 450
+          "exact": "Fas est ab hoste doceri"
+      - "side": "translation"
+        "kind": "emphasis"
+        "span":
+          "start": 158
+          "end": 177
+          "exact": "ファス・エスト・アブ・ホステ・ドケーリ"
+  - "id": "hc-061"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Woe upon him! Woe upon that man!” he cried. “O the unfaithful shepherd! O the hireling and apostate minister! Make my matters hot for me? quo’ she! the shameless limmer! And true it is, that he could repose me in that nasty, stinking hole, the Canongate Tolbooth, from which your mother drew me out—the Lord reward her for it!—or to that cold, unbieldy, marine place of the Bass Rock, which, with my delicate kist, would be fair ruin to me. But I will be valiant in my Master’s service. I have a duty here: a duty to my God, to myself, and to Haddo: in His strength, I will perform it.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "189"
+        "anchor": "page189"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page189"
+        "source_sequence": 62
+    "translation_ja": |-
+      「ああ、わざわいあれ！　あの男にわざわいあれ！」と彼は叫んだ。「ああ、不実な羊飼い！　雇われ羊飼い、信仰を捨てた牧師！　私をひどい目に遭わせるだって？　そう言ったか、恥知らずのあばずれめ！　たしかにあの男がその気なら、かつてあなたのお母上が私を引き出してくださった、あの汚く悪臭を放つ穴蔵、キャノンゲートの牢にまた放り込むことができる。お母上には主のお報いがあるように！　あるいはあの冷えきった、風を避けるものもない海中の岩場、バス・ロックにでも。胸の弱い私には、まったくもって命取りだ。だが私はわが主の務めにあっては勇敢でありたい。ここで果たす務めがある。神に対して、自分自身に対して、そしてハドーに対して。主のお力により、私は必ず果たすぞ」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p189-block061"
+  - "id": "hc-062"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Then he straitly discharged Francie to repeat the tale, and bade him in the future to avert his very eyes from the doings of the curate. “You must go to his place of idolatry; look upon him there!” says he, “but nowhere else. Avert your eyes, close your ears, pass him by like a three days’ corp. He is like that damnable monster Basiliscus, which defiles—yea, poisons!—by the sight.”—All which was hardly claratory to the boy’s mind.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "189"
+        "anchor": "page189"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page189"
+        "source_sequence": 63
+    "translation_ja": |-
+      それから、この話をよそでしてはならぬと固く言い渡し、今後、あの牧師のすることからは目も背けるよう命じた。「あなたはあの人の偶像礼拝の場には行かねばなるまい。そこでなら見てもよい！」と師は言った。「だがよそではいけない。目をそらし、耳をふさぎ、死んで三日もたつ亡骸だと思って素通りしなさい。あの男はあの呪わしい怪物バシリスクと同じ、目を向けただけで人をけがす、いや、毒してしまうのだ！」――この話のどこを取っても、少年にはたいして腑に落ちなかった。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p189-block062"
+  - "id": "hc-063"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Presently Montroymont came home, and called up the stairs to Francie. Traquair was a good shot and swordsman: and it was his pleasure to walk with his son over the braes of the moorfowl, or to teach him arms in the back court, when they made a mighty comely pair, the child being so lean, and light, and active, and the laird himself a man of a manly, pretty stature, his hair (the periwig being laid aside) showing already white with many anxieties, and his face of an even, flaccid red. But this day Francie’s heart was not in the fencing.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "189"
+        "anchor": "page189"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page189"
+        "source_sequence": 64
+    "translation_ja": |-
+      やがてモントロイモントが帰宅し、階下からフランシーを呼んだ。トラクウェアは銃もうまく剣の腕も立った。息子と連れ立ってライチョウのすむ斜面を歩き、あるいは裏庭で武芸の手ほどきをするのが楽しみだった。そのときの二人はまことに見栄えがした。子はすらりと細く、身軽で活発、父も男らしく均整の取れた体つきで、かつらを外した頭髪は、心労が重なって早くも白く、顔は一様に赤く、肉がたるんでいた。だがこの日、フランシーは剣の稽古に身が入らなかった。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p189-block063"
+  - "id": "hc-064"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Sir,” says he, suddenly lowering his point, “will ye tell me a thing if I was to ask it?”"
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "189"
+        "anchor": "page189"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page189"
+        "source_sequence": 65
+    "translation_ja": "「お父さま」と急に剣先をおろし、「一つ聞きたいことがあるんだけど、聞いたら教えてくれる？」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p189-block064"
+  - "id": "hc-065"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Ask away,” says the father."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "189"
+        "anchor": "page189"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page189"
+        "source_sequence": 66
+    "translation_ja": "「なんでもお聞き」と父。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p189-block065"
+  - "id": "hc-066"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Well, it’s this,” said Francie: “Why do you and me comply if it’s so wicked?”"
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "190"
+        "anchor": "page190"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page190"
+        "source_sequence": 67
+    "translation_ja": "「あのね」とフランシーは言った。「迎合ってそんなに悪いことなら、お父さまとぼくは、どうして迎合するの？」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p190-block066"
+  - "id": "hc-067"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Ay, ye have the cant of it too!” cried Montroymont. “But I’ll tell ye for all that. It’s to try and see if we can keep the rigging on this house, Francie. If she had her way, we would be beggar-folk, and hold our hands out by the wayside. When ye hear her—when ye hear folk,” he corrected himself briskly, “call me a coward, and one that betrayed the Lord, and I kenna what else, just mind it was to keep a bed to ye to sleep in and a bite for ye to eat.—On guard!” he cried, and the lesson proceeded again till they were called to supper.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "190"
+        "anchor": "page190"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page190"
+        "source_sequence": 68
+    "translation_ja": |-
+      「おやまあ、おまえの口にまであの決まり文句か！」とモントロイモントは叫んだ。「だが、それでも教えてやろう。なんとかこの家の棟を落とさずにすむかと思ってのことだよ、フランシー。あの人の思いのままにすれば、わしらは乞食になって、道端で手を差し出すんだぞ。お母さんが――いや、誰かが」と手早く言い直した。「わしを臆病者だの、主を裏切った者だの、ほかにも何やら言うのを聞いたら、これはおまえの寝床と、おまえのひと口の食べ物を守るためだということだけは忘れるなよ。さあ、構え！」彼は叫んだ。そして夕食に呼ばれるまで、また稽古が続いた。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p190-block067"
+  - "id": "hc-068"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “There’s another thing yet,” said Francie, stopping his father. “There’s another thing that I am not sure that I am very caring for. She—she sends me errands.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "190"
+        "anchor": "page190"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page190"
+        "source_sequence": 69
+    "translation_ja": "「もう一つあるんだ」とフランシーは父を引き止めた。「もう一つ、どうもあんまり好きになれそうにないことがあって。お母さまが――お母さまが、ぼくをお使いに出すの」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p190-block068"
+  - "id": "hc-069"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Obey her, then, as is your bounden duty,” said Traquair."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "190"
+        "anchor": "page190"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page190"
+        "source_sequence": 70
+    "translation_ja": "「それなら言いつけに従いなさい。それがおまえの果たすべき務めだ」とトラクウェアは言った。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p190-block069"
+  - "id": "hc-070"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Ay, but wait till I tell ye,” says the boy. “If I was to see you I was to hide.”"
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "190"
+        "anchor": "page190"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page190"
+        "source_sequence": 71
+    "translation_ja": "「うん、でも聞いてよ」と少年は言った。「お父さまの姿が見えたら、ぼくは隠れろって言われたよ」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p190-block070"
+  - "id": "hc-071"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Montroymont sighed. “Well, and that’s good of her too,” said he. “The less that I ken of thir doings the better for me; and the best thing you can do is just to obey her, and see and be a good son to her, the same as ye are to me, Francie.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "190"
+        "anchor": "page190"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page190"
+        "source_sequence": 72
+    "translation_ja": |-
+      モントロイモントはため息をついた。「なるほど、それもあの人の思いやりだよ」と言った。「こういうことは、わしは知らずにすむほど助かるからな。おまえはただお母さんに従って、わしにしてくれるのと同じように、あの人にもよい息子でいてあげなさい。それがいちばんだよ、フランシー」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p190-block071"
+  - "id": "hc-072"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      At the tenderness of this expression the heart of Francie swelled within his bosom, and his remorse was poured out. “Faither!” he cried, “I said ‘deil’ to-day; many’s the time I said it, and damnable too, and hellish. I ken they’re all right; they’re beeblical. But I didna say them beeblically; I said them for sweir words—that’s the truth of it.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "190"
+        "anchor": "page190"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page190"
+        "source_sequence": 73
+    "translation_ja": |-
+      そのやさしい言葉にフランシーの胸はいっぱいになり、悔いていたことが口をついてあふれた。「お父さま！」と彼は叫んだ。「ぼく今日『悪魔め』って言った。何べんも言ったよ。それに『呪わしい』も、『地獄め』も。言葉そのものはいいって知ってるよ。聖書にもあるもの。でも、ぼくは聖書にあるみたいに言ったんじゃない。悪態として言ったんだ。それがほんとうのこと」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p190-block072"
+    "annotations":
+      - "side": "source"
+        "kind": "emphasis"
+        "span":
+          "start": 191
+          "end": 199
+          "exact": "damnable"
+      - "side": "translation"
+        "kind": "emphasis"
+        "span":
+          "start": 86
+          "end": 90
+          "exact": "呪わしい"
+      - "side": "source"
+        "kind": "emphasis"
+        "span":
+          "start": 209
+          "end": 216
+          "exact": "hellish"
+      - "side": "translation"
+        "kind": "emphasis"
+        "span":
+          "start": 94
+          "end": 97
+          "exact": "地獄め"
+  - "id": "hc-073"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Hout, ye silly bairn!” said the father, “dinna do it nae mair, and come in by to your supper.” And he took the boy, and drew him close to him a moment, as they went through the door, with something very fond and secret, like a caress between a pair of lovers.
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "190"
+        "anchor": "page190"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page190"
+        "source_sequence": 74
+    "translation_ja": |-
+      「なんだね、おばかさん！」と父は言った。「もうしなけりゃいい。さあ入って夕食だ」。戸口を通るとき父は少年の肩を抱いて、ほんの一瞬、そっと自分のほうへ引き寄せた。そこには恋人どうしの愛撫にも似た、ふかい親しみと、二人だけのひそやかさがあった。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p190-block073"
+  - "id": "hc-074"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      The next day M’Brair was abroad in the afternoon, and had a long advising with Janet on the braes where she herded cattle. What passed was never wholly known; but the lass wept bitterly, and fell on her knees to him among the whins. The same night, as soon as it was dark, he took the road again for Balweary. In the Kirkton, where the dragoons quartered, he saw many lights, and heard the noise of a ranting song and people laughing grossly, which was highly offensive to his mind. He gave it the wider berth, keeping among fields; and came down at last by the water-side, where the manse stands solitary between the river and the road. He tapped at the back door, and the old woman called upon him to come in, and guided him through the house to the study, as they still called it, though there was little enough study there in Haddo’s days, and more song-books than theology.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "191"
+        "anchor": "page191"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page191"
+        "source_sequence": 75
+    "translation_ja": |-
+      翌日の午後、マクブレアは外に出て、ジャネットが牛の番をしている斜面で、娘を相手に長いこと説き聞かせた。そこで何が交わされたか、すべてはついに知れずじまいであったが、娘は激しく泣き、ハリエニシダのあいだで彼の前にひざまずいた。その夜、暗くなるや否や、マクブレアはふたたび道を取り、バルウィアリへ向かった。竜騎兵が宿営する教会村では、たくさんの明かりがともり、どら声の歌と下卑た笑いが聞こえてきた。彼にはまことに耳障りだった。畑伝いに大きく遠巻きにしてやり過ごし、ようやく水辺に出た。川と道のあいだに、牧師館がぽつんと立っていた。裏口を軽くたたくと、年老いた女が入りなされと声をかけ、屋内を書斎まで案内した。今でも書斎と呼んではいたが、ハドーの代になっては、ここで勉強なるものが行なわれることはまずなく、神学書よりも歌の本のほうが多かった。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p191-block074"
+  - "id": "hc-075"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Here’s yin to speak wi’ ye, Mr. Haddie!” cries the old wife."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "191"
+        "anchor": "page191"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page191"
+        "source_sequence": 76
+    "translation_ja": "「ハディ先生、お話ししたい方が一人おいでですよ！」と老婆は声を張り上げた。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p191-block075"
+  - "id": "hc-076"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      And M’Brair, opening the door and entering, found the little, round, red man seated in one chair and his feet upon another. A clear fire and a tallow dip lighted him barely. He was taking tobacco in a pipe, and smiling to himself; and a brandy-bottle and glass, and his fiddle and bow, were beside him on the table.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "191"
+        "anchor": "page191"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page191"
+        "source_sequence": 77
+    "translation_ja": |-
+      マクブレアが戸を開けて入ってみると、赤ら顔の小さな丸い男が椅子に座り、もう一つの椅子に両脚をのせていた。明々と燃える炉火と、一本の獣脂ろうそくが、その姿を辛うじて照らし出していた。彼はパイプ煙草をふかしながら、ひとりでにやにや笑っていた。卓上にはブランデーの瓶とグラス、それにヴァイオリンと弓が置かれていた。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p191-block076"
+  - "id": "hc-077"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Hech, Patey M’Brair, is this you?” said he, a trifle tipsily. “Step in by, man, and have a drop brandy: for the stomach’s sake! Even the deil can quote Scripture—eh, Patey?”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "191"
+        "anchor": "page191"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page191"
+        "source_sequence": 78
+    "translation_ja": "「やあ、ペイティ・マクブレア、おまえさんかい？」少し酔いの回った声で彼は言った。「まあ、寄ってけよ。ブランデーを一滴やれ。胃のためにな！　悪魔だって聖書は引ける、なあペイティ？」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p191-block077"
+  - "id": "hc-078"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “I will neither eat nor drink with you,” replied M’Brair. “I am come upon my Master’s errand! woe be upon me if I should anyways mince the same. Hall Haddo, I summon you to quit this kirk which you encumber.”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "191"
+        "anchor": "page191"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page191"
+        "source_sequence": 79
+    "translation_ja": |-
+      「あなたと飲み食いはせぬ」とマクブレアは答えた。「わが主のお使いとして来たのだ。このご用を少しでもぼかして伝えるとすれば、わざわいなるかな、この私！　ホール・ハドー、あなたが居座って塞いでいるこの教会から、立ち去るよう申し渡す」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p191-block078"
+  - "id": "hc-079"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Muckle obleeged!” says Haddo, winking."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "191"
+        "anchor": "page191"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page191"
+        "source_sequence": 80
+    "translation_ja": "「こりゃまた、ご親切さま！」とハドーは片目をつぶった。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p191-block079"
+  - "id": "hc-080"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “You and me have been to kirk and market together,” pursued M’Brair; “we have had blessed seasons in the kirk, we have sat in the same teaching-rooms and read in the same book; and I know you still retain for me some carnal kindness. It would be my shame if I denied it; I live here at your mercy and by your favour, and glory to acknowledge it. You have pity on my wretched body, which is but grass, and must soon be trodden under: but O, Haddo! how much greater is the yearning with which I yearn after and pity your immortal soul! Come now, let us reason together! I drop all points of controversy, weighty though these be; I take your defaced and damnified kirk on your own terms; and I ask you, Are you a worthy minister? The communion season approaches; how can you pronounce thir solemn words, ‘The elders will now bring forrit the elements,’ and not quail? A parishioner may be summoned to-night; you may have to rise from your miserable orgies; and I ask you, Haddo, what does your conscience tell you? Are you fit? Are you fit to smooth the pillow of a parting Christian? And if the summons should be for yourself, how then?”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "191"
+        "anchor": "page191"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page191"
+        "source_sequence": 81
+        "printed_page_end": "192"
+    "translation_ja": |-
+      「あなたと私は、共に教会に通い、共に市場を歩いた仲ではないか」とマクブレアは続けた。「教会では恵まれた時を共にし、同じ教場に座り、同じ本を読んだ。今なおあなたが私に、人としての情けをいくらか抱いているのを私は知っている。それを否むとすれば私の恥だ。私がここに生かされているのは、あなたが情けをかけてくれ、よしとしてくれたからで、それを認めるのは私の誇りだ。あなたは、このみじめな私の肉体を憐れんでくれる。肉体など草にすぎず、やがて踏みにじられるというのに。だが、おおハドー！　不滅であるあなたの魂のために、私がどれほどいっそう心を痛め、憐れんでいることか！　さあ来たれ、われら共に論じ合おうではないか。いかに重大な点であろうと、一切の教派の争点は措こう。あなたが属する、尊厳を損ない罪を負った教会を、あなた自身のいうとおりのものとして受け取ろう。そのうえで問う。あなたは牧師としてふさわしい者か？　聖餐の時が近づいている。『長老方は、今、パンと葡萄酒をここへ』というあの厳粛な言葉を、どうしておじけもせずに口にできる？　今夜、教区の誰かにお召しがあるかもしれぬ。あなたはみじめな酒宴を切り上げて出向かねばならぬかもしれぬ。私は問うぞ、ハドー。あなたの良心は何と答える？　ふさわしいのか？　世を去ろうとするキリスト者の枕を直してやるにふさわしいのか？　そして、もしそのお召しがあなた自身に来たら、そのときはいかに？」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p191-block080"
+  - "id": "hc-081"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Haddo was startled out of all composure and the better part of his temper. “What’s this of it?” he cried. “I’m no waur than my neebours. I never set up to be speeritual; I never did. I’m a plain, canty creature; godliness is cheerfulness, says I; give me my fiddle and a dram, and I wouldna hairm a flee.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "192"
+        "anchor": "page192"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page192"
+        "source_sequence": 82
+    "translation_ja": |-
+      ハドーはぎょっとして、平静さをすっかり、機嫌のよさも大半は失ってしまった。「なんだ、いったい！」と叫んだ。「わしゃ近所の者に劣らんぞ。霊の道に秀でとるなんぞ、吹聴したことはないわい。いっぺんもない。わしはただの陽気な人間だ。信心とは朗らかさ、わしに言わせりゃそういうことだ。ヴァイオリンと酒を一杯くれりゃ、蠅一匹だって傷つけやせん」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p192-block081"
+  - "id": "hc-082"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “And I repeat my question,” said M’Brair: “Are you fit—fit for this great charge? fit to carry and save souls?”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "192"
+        "anchor": "page192"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page192"
+        "source_sequence": 83
+    "translation_ja": "「私は同じ問いをもう一度する」とマクブレア。「あなたはふさわしいのか。この重い務めに、魂を担い、救う務めに、ふさわしいのか？」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p192-block082"
+  - "id": "hc-083"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Fit? Blethers! As fit ’s yoursel’,” cried Haddo."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "192"
+        "anchor": "page192"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page192"
+        "source_sequence": 84
+    "translation_ja": "「ふさわしいか？　馬鹿ほざけ！　おまえとどっこいだ」とハドーは叫んだ。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p192-block083"
+  - "id": "hc-084"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Are you so great a self-deceiver?” said M’Brair. “Wretched man, trampler upon God’s covenants, crucifier of your Lord afresh. I will ding you to the earth with one word: How about the young woman, Janet M’Clour?”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "192"
+        "anchor": "page192"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page192"
+        "source_sequence": 85
+    "translation_ja": |-
+      「そこまで自分を欺けるのか」とマクブレアは言った。「惨めな男よ、神のもろもろの契約を踏みにじり、自分の主をあらためて十字架につける者よ。一言であなたを地に打ち倒してみせよう。あの若い娘、ジャネット・マクルーアのことはどうなのだ？」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p192-block084"
+  - "id": "hc-085"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Weel, what about her? what do I ken?” cries Haddo. “M’Brair, ye daft auld wife, I tell ye as true ’s truth, I never meddled her. It was just daffing, I tell ye: daffing, and nae mair: a piece of fun, like! I’m no’ denying but what I’m fond of fun, sma’ blame to me! But for onything sarious—hout, man, it might come to a deposeetion! I’ll sweir it to ye. Where’s a Bible, till you hear me sweir?”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "192"
+        "anchor": "page192"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page192"
+        "source_sequence": 86
+        "printed_page_end": "193"
+    "translation_ja": |-
+      「それがどうした？　わしが何を知っとる？」とハドーは叫んだ。「マクブレア、このとんまな婆さんめ。嘘偽りなく言うが、わしはあの子に手を出しちゃおらんぞ。ただのじゃれ合いだと言っとろうが。じゃれただけだ、それだけだ。ほんの冗談よ！　わしは面白いことが好物だ、そりゃ否定せんし、そう責められる筋合いもない。だが本気で何か、となると――ばか言え、そんなことをしちゃ免職になりかねん！　誓って言うぞ。聖書はどこだ、おまえの前で誓ってやる！」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p192-block085"
+  - "id": "hc-086"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“There is nae Bible in your study,” said M’Brair severely."
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "193"
+        "anchor": "page193"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page193"
+        "source_sequence": 87
+    "translation_ja": "「あなたの書斎に聖書はない」とマクブレアは厳しく言った。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p193-block086"
+  - "id": "hc-087"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "And Haddo, after a few distracted turns, was constrained to accept the fact."
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "193"
+        "anchor": "page193"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page193"
+        "source_sequence": 88
+    "translation_ja": "ハドーはうろたえて二、三度部屋を行き来したが、その事実を認めざるを得なかった。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p193-block087"
+  - "id": "hc-088"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Weel, and suppose there isna?” he cried, stamping. “What mair can ye say of us, but just that I’m fond of my joke, and so ’s she? I declare to God, by what I ken, she might be the Virgin Mary—if she would just keep clear of the dragoons. But me! na, deil haet o’ me!”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "193"
+        "anchor": "page193"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page193"
+        "source_sequence": 89
+    "translation_ja": |-
+      「ええい、なかったらどうした！」彼は足を踏み鳴らして叫んだ。「わしらについて、何がほかに言える？　わしは冗談が好きだし、あの子もそうだってだけだろう？　神かけて言うが、わしの知るかぎり、あの子は聖母マリアも同然だよ――竜騎兵にさえ近寄らずにおけばな。だが、わしだと！　いや、断じてわしじゃない！」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p193-block088"
+  - "id": "hc-089"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“She is penitent at least,” said M’Brair."
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "193"
+        "anchor": "page193"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page193"
+        "source_sequence": 90
+    "translation_ja": "「すくなくとも、彼女は悔い改めている」とマクブレア。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p193-block089"
+  - "id": "hc-090"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": "“Do you mean to actually up and tell me to my face that she accused me?” cried the curate."
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "193"
+        "anchor": "page193"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page193"
+        "source_sequence": 91
+    "translation_ja": "「まさか、あの子がわしを訴えたと、このわしの面と向かって言い張るつもりか？」と牧師は叫んだ。"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p193-block090"
+  - "id": "hc-091"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “I canna just say that,” replied M’Brair. “But I rebuked her in the name of God, and she repented before me on her bended knees.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "193"
+        "anchor": "page193"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page193"
+        "source_sequence": 92
+    "translation_ja": "「きっかりそうだとは言えぬ」とマクブレアは答えた。「だが私は神の名において彼女を叱った。そして彼女は私の前にひざを折り、悔い改めたのだ」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p193-block091"
+  - "id": "hc-092"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Weel, I daursay she’s been ower far wi’ the dragoons,” said Haddo. “I never denied that. I ken naething by it.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "193"
+        "anchor": "page193"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page193"
+        "source_sequence": 93
+    "translation_ja": "「ふん、竜騎兵どもと度が過ぎたんだろうよ」とハドー。「そこは否定しとらん。わしゃ何も知らんがね」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p193-block092"
+  - "id": "hc-093"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Man, you but show your nakedness the more plainly,” said M’Brair. “Poor, blind, besotted creature—and I see you stoytering on the brink of dissolution: your light out, and your hours numbered. Awake, man!” he shouted with a formidable voice, “awake, or it be ower late.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "193"
+        "anchor": "page193"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page193"
+        "source_sequence": 94
+    "translation_ja": |-
+      「ああ人よ、そうするほどあなたは、いっそうまざまざと己の裸をさらすばかりだ」とマクブレア。「哀れな、目も見えず、心をくらませた者よ。私には、あなたが死滅の淵によろめき立つのが見える。あなたの灯は消え、残る時は数えられている。目を覚ませ！」彼はすさまじい声で叫んだ。「手遅れにならぬうちに、目を覚ますのだ！」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p193-block093"
+  - "id": "hc-094"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “Be damned if I stand this!” exclaimed Haddo, casting his tobacco-pipe violently on the table, where it was smashed in pieces. “Out of my house with ye, or I’ll call for the dragoons.”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "193"
+        "anchor": "page193"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page193"
+        "source_sequence": 95
+    "translation_ja": "「畜生め、これ以上我慢できるか！」とハドーは声を上げ、パイプを卓上に叩きつけて粉々にした。「わしの家から出てゆけ。さもなくば竜騎兵を呼ぶぞ」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p193-block094"
+  - "id": "hc-095"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “The speerit of the Lord is upon me,” said M’Brair with solemn ecstasy. “I sist you to compear before the Great White Throne, and I warn you the summons shall be bloody and sudden.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "193"
+        "anchor": "page193"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page193"
+        "source_sequence": 96
+    "translation_ja": |-
+      「主の霊が私に臨んでいる」とマクブレアはおごそかな忘我のうちに言った。「私はあなたに、大いなる白い御座の前に出頭せよと申し渡す。その召し出しは突如として、血をもって来たるであろう。心しておけ」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p193-block095"
+  - "id": "hc-096"
+    "section_id": "hc-ch2"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      And at this, with more agility than could have been expected, he got clear of the room and slammed the door behind him in the face of the pursuing curate. The next Lord’s day the curate was ill, and the kirk closed, but for all his ill words, Mr. M’Brair abode unmolested in the house of Montroymont.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "193"
+        "anchor": "page193"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page193"
+        "source_sequence": 97
+        "printed_page_end": "194"
+    "translation_ja": |-
+      と言うや、思いも寄らぬ身の軽さで部屋を抜け、追いすがる牧師の鼻先でうしろ手に戸をぴしゃりと閉めた。次の主の日には牧師が病を得て、教会は閉まっていた。とはいえあれほど手厳しい言葉を吐いたにもかかわらず、マクブレア師はなんの咎めも受けず、モントロイモントの館にとどまった。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p193-block096"
+  - "id": "hc-097"
+    "section_id": "hc-ch3"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": "CHAPTER III"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "195"
+        "anchor": "page195"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page195"
+        "source_sequence": 98
+    "translation_ja": "第三章"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p195-block097"
+  - "id": "hc-098"
+    "section_id": "hc-ch3"
+    "kind": "heading"
+    "origin": "source"
+    "source_text": "THE HILL-END OF DRUMLOWE"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "195"
+        "anchor": "page195"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page195"
+        "source_sequence": 99
+    "translation_ja": "ドラムロウの丘の端"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p195-block098"
+  - "id": "hc-099"
+    "section_id": "hc-ch3"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      This was a bit of a steep broken hill that overlooked upon the west a moorish valley, full of ink-black pools. These presently drained into a burn that made off, with little noise and no celerity of pace, about the corner of the hill. On the far side the ground swelled into a bare heath, black with junipers, and spotted with the presence of the standing stones for which the place was famous. They were many in that part, shapeless, white with lichen—you would have said with age: and had made their abode there for untold centuries, since first the heathens shouted for their installation. The ancients had hallowed them to some ill religion, and their neighbourhood had long been avoided by the prudent before the fall of day; but of late, on the up-springing of new requirements, these lonely stones on the moor had again become a place of assembly. A watchful picket on the Hill-end commanded all the northern and eastern approaches; and such was the disposition of the ground, that by certain cunningly posted sentries the west also could be made secure against surprise: there was no place in the country where a conventicle could meet with more quiet of mind or a more certain retreat open, in the case of interference from the dragoons. The minister spoke from a knowe close to the edge of the ring, and poured out the words God gave him on the very threshold of the devils of yore. When they pitched a tent (which was often in wet weather, upon a communion occasion) it was rigged over the huge isolated pillar that had the name of Anes-Errand, none knew why. And the congregation sat partly clustered on the slope below, and partly among the idolatrous monoliths and on the turfy soil of the Ring itself. In truth the situation was well qualified to give a zest to Christian doctrines, had there been any wanted. But these congregations assembled under conditions at once so formidable and romantic as made a zealot of the most cold. They were the last of the faithful; God, who had averted His face from all other countries of the world, still leaned from heaven to observe, with swelling sympathy, the doings of His moorland remnant; Christ was by them with His eternal wounds, with dropping tears; the Holy Ghost (never perfectly realised nor firmly adopted by Protestant imaginations) was dimly supposed to be in the heart of each and on the lips of the minister. And over against them was the army of the hierarchies, from the men Charles and James Stuart, on to King Lewie and the Emperor; and the scarlet Pope, and the muckle black devil himself, peering out the red mouth of hell in an ecstasy of hate and hope. “One pull more!” he seemed to cry; “one pull more, and it’s done. There’s only Clydesdale and the Stewartry, and the three Bailiaries of Ayr, left for God.” And with such an august assistance of powers and principalities looking on at the last conflict of good and evil, it was scarce possible to spare a thought to those old, infirm, debile, ab agendo devils whose holy place they were now violating.
+    "source_languages":
+      - "en"
+      - "la"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "195"
+        "anchor": "page195"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page195"
+        "source_sequence": 100
+        "printed_page_end": "196"
+    "translation_ja": |-
+      そこは切り立って崩れた丘の一角で、西へ目をやると、墨のように黒い淵が点在する荒野の谷を見下ろせた。淵からは水が一筋の小川に流れ込み、さして音も立てず、さして急ぎもせずに丘の角を回って去る。丘の反対側では地面が盛り上がってむき出しの荒野となり、ビャクシンの茂みが黒々と広がり、この土地で名高い立石がところどころに見えた。このあたりには立石が多い。不格好で、地衣に白く染まり、歳月に白くなったのだと言いたくなる。その昔、異教徒が石の建立に歓声を上げてから、数知れぬ世紀のあいだ、ここに居を据えてきた。古代の人々が何やら邪教のために聖別したので、分別のある者は昔から、日暮れを前にしてさえ、その近辺には寄りつかなかったものだ。だが近頃になって新たな必要が生じ、荒野に寂しく立つ石は再び人の集まる場所となった。丘の端に目端の利く哨兵を置けば、北と東の入り口はどれも見渡せたし、地勢のおかげで、何人かの見張りをうまく配しさえすれば、西も不意討ちから守れた。この地方で禁制の礼拝のため、ここほど心静かに集まれ、竜騎兵に邪魔立てされた場合にも、ここほど確かな逃げ道が開けているところはなかった。牧師は石の輪の縁に近い小丘に立ち、往古の悪鬼たちのまさに戸口で、神が授けた言葉を惜しげなく注いだ。天幕を張るときは（雨天の聖餐の折にはしばしばそうした）、なぜそう呼ぶのか知る者もない〈エインズ・エランド〉という、一本だけ離れて突っ立つ巨大な石柱の上に張り渡した。会衆はあるいは下手の斜面に寄り集まり、あるいは異教の巨石のあいだや、環状の聖地そのものの草地に腰を下ろした。実際、キリストの教えに味つけが必要だとしたら、これほどふさわしい場所はなかった。だがこうした集いは、そもそもあまりにも恐ろしく、また心躍る事情のもとで開かれたので、どんな冷めた人間でも熱狂者になった。彼らこそ信仰を守る最後の人々。ほかの国々のすべてから顔をそむけた神が、この荒野に残ったわずかな信徒の営みにだけは、なお天から身を乗り出し、胸ふくらむほどの慈しみをもって目を注いでおられた。かたわらにはキリストが、消えることのない御傷を帯び、涙をこぼしておられた。聖霊はといえば（新教徒の想像力はそれをはっきりと姿に描くことも、しっかりわがものとすることもついになかったが）、めいめいの心に、また牧師の唇に宿るものと、おぼろげに考えられていた。その向こうに敵として並ぶのは階位ある権力者の軍勢。チャールズとジェームズという二人のステュアート家の人間から、ルイ王、さらには皇帝に至るまで。そして緋の衣の教皇、そして、大きな黒い悪魔そのものが、憎しみと期待とに酔いしれ、赤く開いた地獄の口から身を乗り出していた。「もうひと押し！」と叫んでいるようだ。「もうひと押しでおしまいだ。神に残ったのはクライドズデール、スチュアートリー、それにエアの三管区ばかりだぞ」。善悪最後の戦いに、かくも威厳ある権勢者も支配者もこぞって立ち会い、見守っているとあっては、今まさに自分たちがその聖地を侵している昔の悪鬼どものことなど、考える余裕はほとんどない。年老い、弱り、力衰え、もはや働く力もない、あの悪鬼どものことなど。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p195-block099"
+    "annotations":
+      - "side": "source"
+        "kind": "emphasis"
+        "span":
+          "start": 2975
+          "end": 2984
+          "exact": "ab agendo"
+      - "side": "translation"
+        "kind": "emphasis"
+        "span":
+          "start": 1302
+          "end": 1311
+          "exact": "もはや働く力もない"
+  - "id": "hc-100"
+    "section_id": "hc-ch3"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      There might have been three hundred to four hundred present. At least there were three hundred horses tethered for the most part in the ring; though some of the hearers on the outskirts of the crowd stood with their bridles in their hand, ready to mount at the first signal. The circle of faces was strangely characteristic; long, serious, strongly marked, the tackle standing out in the lean brown cheeks, the mouth set and the eyes shining with a fierce enthusiasm; the shepherd, the labouring man, and the rarer laird, stood there in their broad blue bonnets or laced hats, and presenting an essential identity of type. From time to time a long-drawn groan of adhesion rose in this audience, and was propagated like a wave to the outskirts, and died away among the keepers of the horses. It had a name; it was called “a holy groan.”
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "196"
+        "anchor": "page196"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page196"
+        "source_sequence": 101
+        "printed_page_end": "197"
+    "translation_ja": |-
+      三百人から四百人ほど集まっていたかもしれない。すくなくとも、つないである馬が三百頭いた。その大半は石の輪の内側にいたが、群衆の外には、合図がありしだい馬に乗れるよう、手綱を手に立って聞く者も幾人かいた。輪になった顔には不思議とはっきりした共通の相があった。面長で、生真面目で、彫りが深く、やせて日焼けした頬には筋が浮き、口は固く結ばれ、目には激しい熱情が輝いている。羊飼いも、人足も、数こそ少ない地主も、幅広の青い縁なし帽か、飾り紐のついた帽子をかぶってそこに立ち、一様に似通った顔だちをしていた。ときおり、賛同を表す長い呻きが会衆の中から起こり、波のように外側まで伝わって、馬の番をしている者たちのあいだに消えていった。それには名があった。「聖なる呻き」と呼ばれていた。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p196-block100"
+  - "id": "hc-101"
+    "section_id": "hc-ch3"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      A squall came up; a great volley of flying mist went out before it and whelmed the scene; the wind stormed with a sudden fierceness that carried away the minister’s voice and twitched his tails and made him stagger, and turned the congregation for a moment into a mere pother of blowing plaid-ends and prancing horses, and the rain followed and was dashed straight into their faces. Men and women panted aloud in the shock of that violent shower-bath; the teeth were bared along all the line in an involuntary grimace; plaids, mantles, and riding-coats were proved vain, and the worshippers felt the water stream on their naked flesh. The minister, reinforcing his great and shrill voice, continued to contend against and triumph over the rising of the squall and the dashing of the rain.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "197"
+        "anchor": "page197"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page197"
+        "source_sequence": 102
+    "translation_ja": |-
+      にわかにひとしきりの嵐が来た。先触れに、飛び散る霧の一斉射撃が眼前の景色をたちまち呑み込んだ。風は急に猛烈な勢いで吹きつけ、牧師の声を吹きさらい、上着の裾をぐいと引き、足もとをよろけさせた。会衆は一瞬、はためく肩掛けの端と、後ろ脚で跳ね立つ馬だけが入り乱れる騒ぎとなった。次いで雨が来て、もろに顔へ叩きつけた。その激しい雨をまともに浴びた衝撃に、男も女も声を立ててあえぎ、どの列でも、人々は我知らず顔をしかめ、歯をむいた。格子縞の肩掛けも、マントも、乗馬用の外套も役に立たず、礼拝者は水が肌をじかに伝ってゆくのを感じた。牧師はその大きく鋭い声をいよいよ張り上げ、強まる突風と叩きつける雨を相手に張り合いつづけ、ついにはこれに打ち勝った。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p197-block101"
+  - "id": "hc-102"
+    "section_id": "hc-ch3"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      “In that day ye may go thirty mile and not hear a crawing cock,” he said; “and fifty mile and not get a light to your pipe; and an hundred mile and not see a smoking house. For there’ll be naething in all Scotland but deid men’s banes and blackness, and the living anger of the Lord. O, where to find a bield—O sirs, where to find a bield from the wind of the Lord’s anger? Do ye call this a wind? Bethankit! Sirs, this is but a temporary dispensation; this is but a puff of wind, this is but a spit of rain and by with it. Already there’s a blue bow in the west, and the sun will take the crown of the causeway again, and your things’ll be dried upon ye, and your flesh will be warm upon your bones. But O, sirs, sirs! for the day of the Lord’s anger!”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "197"
+        "anchor": "page197"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page197"
+        "source_sequence": 103
+    "translation_ja": |-
+      「その日には三十マイル歩いても、雄鶏のひと鳴きも聞こえぬ」と彼は語った。「五十マイルを行ってもパイプに分けてもらう火もなく、百マイルを行っても煙を上げる家一軒見えぬ。全スコットランドにあるのは、死人の骨と暗闇と、生きて働く主の怒りばかりとなるからだ。おお、どこに身を寄せるところを求めよう。おお皆の衆、主の怒りの風をしのぐところを、どこに求めよう？　これを風と呼ばれるか？　神に感謝されよ！　皆の衆、これはひとときの御計らいにすぎぬ。ほんのひと吹きの風、ほんのひとしずくの雨、それでおしまいだ。早くも西の空には弓なりに青みが見える。日はまた街道のまんなかを堂々と歩み、皆の着物は着たまま乾き、その骨を包む肉も暖かくなるだろう。だが、おお、皆の衆、皆の衆！　主の怒りの日こそは！」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p197-block102"
+    "annotations":
+      - "side": "source"
+        "kind": "emphasis"
+        "span":
+          "start": 385
+          "end": 389
+          "exact": "this"
+      - "side": "translation"
+        "kind": "emphasis"
+        "span":
+          "start": 175
+          "end": 178
+          "exact": "これを"
+  - "id": "hc-103"
+    "section_id": "hc-ch3"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      His rhetoric was set forth with an ear-piercing elocution, and a voice that sometimes crashed like cannon. Such as it was, it was the gift of all hill-preachers, to a singular degree of likeness or identity. Their images scarce ranged beyond the red horizon of the moor and the rainy hill-top, the shepherd and his sheep, a fowling-piece, a spade, a pipe, a dunghill, a crowing cock, the shining and the withdrawal of the sun. An occasional pathos of simple humanity, and frequent patches of big Biblical words, relieved the homely tissue. It was a poetry apart; bleak, austere, but genuine, and redolent of the soil.
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "197"
+        "anchor": "page197"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page197"
+        "source_sequence": 104
+        "printed_page_end": "198"
+    "translation_ja": |-
+      この雄弁を繰り出す話しぶりは耳をつんざき、時には大砲のような声が轟いた。こうした才はよかれあしかれ、丘の説教師すべてに備わっていて、不思議なほどよく似ており、そっくり同じと言ってもよかった。彼らの持ち出す譬えは、荒野の赤い地平と雨の降る丘の頂、羊飼いとその羊、一挺の鳥撃ち銃、鋤、パイプ、堆肥の山、鳴く雄鶏、照る日と陰る日といったところをほとんど出なかった。ときおり素朴な人情の哀切が、またしばしば聖書の大仰な文句を縫いつけた継ぎが、この飾らぬ地の織りのところどころに彩りを添えていた。それは独特の詩であった。吹きさらしで厳しく、それでいてまがいものではなく、この土地の匂いがした。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p197-block103"
+  - "id": "hc-104"
+    "section_id": "hc-ch3"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      A little before the coming of the squall there was a different scene enacting at the outposts. For the most part, the sentinels were faithful to their important duty; the Hill-end of Drumlowe was known to be a safe meeting-place; and the out-pickets on this particular day had been somewhat lax from the beginning, and grew laxer during the inordinate length of the discourse. Francie lay there in his appointed hiding-hole, looking abroad between two whin-bushes. His view was across the course of the burn, then over a piece of plain moorland, to a gap between two hills; nothing moved but grouse, and some cattle who slowly traversed his field of view, heading northward: he heard the psalms, and sang words of his own to the savage and melancholy music; for he had his own design in hand, and terror and cowardice prevailed in his bosom alternately, like the hot and the cold fit of an ague. Courage was uppermost during the singing, which he accompanied through all its length with this impromptu strain:
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "198"
+        "anchor": "page198"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page198"
+        "source_sequence": 105
+    "translation_ja": |-
+      嵐が来る少し前、前哨線ではこれとはまた違う一幕が進んでいた。見張りは概して大切な務めを忠実に果たしていた。だがドラムロウの丘の端は安全な集会場として知られており、この日に限って外側の歩哨たちは初めからいくらか気がゆるんでいて、説教が並外れて長びくにつれ、一段とゆるんでいった。フランシーは自分に割り当てられた隠れ場所に身を伏せ、二株のハリエニシダのあいだから外をうかがっていた。小川の向こうに平らな荒野が広がり、その先には丘と丘の切れ目まで見渡せる。動くものといったらライチョウと、北へ向かって視野をゆっくり横切る幾頭かの牛だけだ。彼には詩篇を歌う声が聞こえ、その荒々しくもの悲しい節に、自分で勝手に言葉をつけて歌った。というのも自分だけの目論見があって、熱病の熱と悪寒のように、胸の中で恐怖と尻込みとが交互に幅をきかせていたからだ。歌っているあいだは勇気のほうが勝った。みんなが歌い終わるまで、彼はずっとこの即興の文句で唱和した。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p198-block104"
+  - "id": "hc-105"
+    "section_id": "hc-ch3"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "“And I will ding Jock Crozer down"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "198"
+        "anchor": "page198"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page198"
+        "source_sequence": 106
+    "translation_ja": "「ぼくはジョック・クローザーを叩きのめすぞ、"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p198-block105"
+  - "id": "hc-106"
+    "section_id": "hc-ch3"
+    "kind": "verse"
+    "origin": "source"
+    "source_text": "No later than the day.”"
+    "source_languages":
+      - "en"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "198"
+        "anchor": "page198"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page198"
+        "source_sequence": 107
+    "translation_ja": "遅くとも今日のうち」"
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p198-block106"
+    "annotations":
+      - "side": "source"
+        "kind": "indent"
+        "span":
+          "start": 0
+          "end": 23
+          "exact": "No later than the day.”"
+        "columns": 1
+      - "side": "translation"
+        "kind": "indent"
+        "span":
+          "start": 0
+          "end": 10
+          "exact": "遅くとも今日のうち」"
+        "columns": 1
+  - "id": "hc-107"
+    "section_id": "hc-ch3"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      Presently the voice of the preacher came to him in wafts, at the wind’s will, as by the opening and shutting of a door; wild spasms of screaming, as of some undiscerned gigantic hill-bird stirred with inordinate passion, succeeded to intervals of silence; and Francie heard them with a critical ear. “Ay,” he thought at last, “he’ll do; he has the bit in his mou’ fairly.”
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "198"
+        "anchor": "page198"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page198"
+        "source_sequence": 108
+    "translation_ja": |-
+      そのうち説教師の声が、風の気まぐれに、戸を開けたり閉めたりするかのように、とぎれとぎれに運ばれてきた。静けさがしばらく続くと、途方もない激情に駆られた目に見えぬ巨大な山鳥が鳴きわめくような、ひきつけめいた野性の絶叫が起こる。フランシーは、値踏みするように聞いていた。「うん」と、とうとう彼は思った。「あの人ならいける。すっかりはみを噛んで乗ってきたぞ」
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p198-block107"
+  - "id": "hc-108"
+    "section_id": "hc-ch3"
+    "kind": "paragraph"
+    "origin": "source"
+    "source_text": |-
+      He had observed that his friend, or rather his enemy, Jock Crozer, had been established at a very critical part of the line of outposts; namely, where the burn issues by an abrupt gorge from the semicircle of high moors. If anything was calculated to nerve him to battle it was this. The post was important; next to the Hill-end itself, it might be called the key to the position; and it was where the cover was bad, and in which it was most natural to place a child. It should have been Heathercat’s; why had it been given to Crozer? An exquisite fear of what should be the answer passed through his marrow every time he faced the question. Was it possible that Crozer could have boasted? that there were rumours abroad to his—Heathercat’s—discredit? that his honour was publicly sullied? All the world went dark about him at the thought; he sank without a struggle into the midnight pool of despair; and every time he so sank, he brought back with him—not drowned heroism indeed, but half-drowned courage by the locks. His heart beat very slowly as he deserted his station, and began to crawl towards that of Crozer. Something pulled him back, and it was not the sense of duty, but a remembrance of Crozer’s build and hateful readiness of fist. Duty, as he conceived it, pointed him forward on the rueful path that he was travelling. Duty bade him redeem his name if he were able, at the risk of broken bones; and his bones and every tooth in his head ached by anticipation. An awful subsidiary fear whispered him that if he were hurt, he should disgrace himself by weeping. He consoled himself, boy-like, with the consideration that he was not yet committed; he could easily steal over unseen to Crozer’s post, and he had a continuous private idea that he would very probably steal back again. His course took him so near the minister that he could hear some of his words: “What news, minister, of Claver’se? He’s going round like a roaring rampaging lion....
+    "source_languages":
+      - "en"
+      - "sco"
+    "source_locations":
+      - "source_id": "gutenberg-30650"
+        "precision": "block"
+        "printed_page": "199"
+        "anchor": "page199"
+        "url": "https://gutenberg.pglaf.org/3/0/6/5/30650/30650-h/30650-h.htm#page199"
+        "source_sequence": 109
+    "translation_ja": |-
+      彼は、友達、いや、敵といったほうがよいジョック・クローザーが、前哨線のなかでもきわめて大事な場所に置かれたことに気づいていた。ちょうど小川が、半円に取り巻く高い荒野から、切り立った峡谷を通って流れ出るところだ。彼を奮い立たせ戦いに向かわせるものがあるとすれば、それはこのことだった。その持ち場は重要だった。丘の端そのものに次ぐ防備の要といってよい。身を隠すものに乏しいため、子供を一人配置するのが、いちばん理にかなった場所でもあった。そこはヒースの山猫が立つべき持ち場だった。なぜクローザーにやったのだろう？　その問いに向き合うたび、どんな返事が返ってくるかと思うと、鋭い恐怖が骨の髄を走った。ひょっとしてクローザーは吹聴したのだろうか。自分の、あのヒースの山猫の名を汚す噂が、もう広まっているのか。自分の名誉は公然と傷つけられたのか。それを思うと周りの世界はことごとく暗くなった。彼はもがくこともせず、真夜中の絶望の淵に沈んだ。けれども、そうやって沈むたび、溺れ死んだ英雄心ではなかったにせよ、溺れかけた勇気を髪の毛をつかんで引き上げてきた。持ち場を離れてクローザーのいるほうへ這い始めたとき、心臓の打ち方はひどく遅かった。何かが彼を後ろへ引いた。務めを思う心ではなく、クローザーの体格と、憎らしいほどすぐ飛び出すあの拳を思い出したのである。彼の考える務めは、むしろ、今たどっているこの気の重い道を、このまま進め、と命じていた。たとえ骨の折れる危険は冒しても、できることなら汚名をそそげ、というのが務めだった。想像するだけで節々の骨も口の中の歯も一本残らず痛んだ。その陰にもう一つ、恐ろしい考えが忍び寄った。怪我でもしたら泣きだして、また恥をさらしはしないか。少年らしく、まだ後戻りはできると思って自分をなだめた。人に見られぬようクローザーの持ち場まで忍び寄るだけなら簡単だし、たぶんまたこっそり引き返すのではないかという腹づもりも、ずっと胸の片隅にあった。進んでゆくうちに説教師のすぐ近くまで来て、言葉が幾つか聞き取れた。「牧師どの、クラヴァースの消息はいかに？　あやつは荒れ狂い吠えたける獅子のごとく巡り歩いておる……。
+    "translation_status": "reviewed"
+    "source_alignment":
+      - "source_id": "gutenberg-30650"
+        "original_unit_id": "heathercat-p199-block108"
+"groups":
+  - "id": "hc-poem1"
+    "kind": "poem"
+    "members":
+      - "segment_id": "hc-057"
+      - "segment_id": "hc-058"
+    "separator": |2+
+
+  - "id": "hc-poem2"
+    "kind": "poem"
+    "members":
+      - "segment_id": "hc-105"
+      - "segment_id": "hc-106"
+    "separator": |2+
+
+"workflow":
+  "stage": "ready"
+  "full_review":
+    "status": "complete"
+    "completed_at": "2026-11-28T09:26:55Z"
+    "reviewed_by": "Dot’s independent translation reviewer"
+    "content_sha256": "20c613a0971cfdce2a3bd8a91b8c2f949f0df3ea1efbe0e4b503e0c66638e124"
+"provenance":
+  "transcription_mirror": |-
+    https://raw.githubusercontent.com/GITenberg/The-Works-of-Robert-Louis-Stevenson---Swanston-Edition-Vol.-21_30650/77a043f7b8ba54e6e7c9b5a8535701b33a890217/30650-h/30650-h.htm
+  "source_file_sha256": "8fb93b210b29be16c982b615f2a6bad3c88c25754b2354726254bf53db55e4fb"
+  "normalization_ja": "段落内の印刷用折返し・空白を整え、頁標を除去。イタリックと詩行の字下げは注記に保持した。"
+  "independent_source_check_ja": "Project Gutenberg の公式配布ミラー取得版（記録済みSHA-256）で中扉から次作品タイトル直前までの全109非空ブロックを独立照合。巻頭目次にのみ載る部題一件を別途確認。"
+  "review_dictionary_evidence":
+    - "url": "https://dsl.ac.uk/entry/dost/slanis"
+      "segment_id": "hc-006"
+      "description_ja": "親族に補償し赦免への同意を得た文書と解する。"
+    - "url": "https://dsl.ac.uk/entry/dost/bawbe"
+      "segment_id": "hc-033"
+      "description_ja": "当時のスコットランド貨幣。英貨半ペニーへの置換を避けた。"
+    - "url": "https://dsl.ac.uk/entry/snd/kist"
+      "segment_id": "hc-061"
+      "description_ja": "人の胸（第4義）。"
+    - "url": "https://www.dsl.ac.uk/entry/snd/bethankit"
+      "segment_id": "hc-102"
+      "description_ja": "感謝を表す感嘆句。"
+  "independent_full_review":
+    "status": "complete"
+    "completed_at": "2026-11-28T09:26:55Z"
+    "bilingual_ja": |-
+      完稿後、中扉・巻頭目次から補った明示の部題・全三章を順番に、110の全対訳単位で照合。英文/Sco/ラテン語、地理、数値・日付、発話者と敬語、聖書の引用、二箇所の詩、原著が未完の末尾を確認。公式配布版の中扉から次作品直前までの全109非空ブロックと部題1件を独立に照合。Dictionaries of the Scots Language で slanis、bawbe、kist、bethankit を確認。
+    "japanese_readthrough_ja": |-
+      対訳照合と修正の後、全110単位の日本語のみを冒頭から読み直した。フランシーの子どもらしさと目上への口調、ハドーのくだけた語り、マクブレアの説教調、奥方の宗派・家門語彙、情景から人物への流れを確認。修正した表現と注記の文字範囲を再確認。
+    "corrected_segment_ids":
+      - "hc-005"
+      - "hc-006"
+      - "hc-007"
+      - "hc-008"
+      - "hc-009"
+      - "hc-012"
+      - "hc-017"
+      - "hc-019"
+      - "hc-023"
+      - "hc-025"
+      - "hc-033"
+      - "hc-036"
+      - "hc-039"
+      - "hc-043"
+      - "hc-044"
+      - "hc-045"
+      - "hc-047"
+      - "hc-048"
+      - "hc-049"
+      - "hc-050"
+      - "hc-056"
+      - "hc-059"
+      - "hc-060"
+      - "hc-061"
+      - "hc-062"
+      - "hc-066"
+      - "hc-067"
+      - "hc-074"
+      - "hc-077"
+      - "hc-080"
+      - "hc-092"
+      - "hc-099"
+      - "hc-100"
+      - "hc-101"
+      - "hc-102"
+      - "hc-104"
+      - "hc-105"
+      - "hc-106"
+      - "hc-107"
+      - "hc-108"
+    "draft_sha256": "88e86f4370ba1d14e193a13d43385f71fffa265614a2e92474397174b017527b"
