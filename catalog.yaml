@@ -1089,5 +1089,11 @@
   "source_and_rights": "Project Gutenberg第534号。著者本文、忠実な電子翻刻、ウォルター・クレインの原版口絵および無署名の装飾を区別。日本語新訳はCC0 1.0。"
   "work_id": "stevenson-an-inland-voyage"
   "sha256": "804c8bf22c993c60f7704031903772d1056bef6565c77e79ce097df0f6093716"
+- "file": "translations/stevenson/treasure-island-en-ja.yaml"
+  "title": "宝島"
+  "coverage_note": "全六部34章、目次・献辞・序詩・原注、1915年版の地図と物語挿絵37点、図版キャプションと判読できる銘文を収録。全1,509対訳単位。判読が確定しない地図銘文はその旨を明記。"
+  "source_and_rights": "Project Gutenberg第120号（1915年Harper & Brothers版）。著者本文、電子翻刻、ルイス・リードの挿絵と個別作図者不明の所収地図を区別。日本語新訳はCC0 1.0。"
+  "work_id": "stevenson-treasure-island"
+  "sha256": "deca56c1c017ccc60da48e02fc5a7c5258ca253499c11e7accd76a98c929dbc3"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿のスキーマは各ファイルのschema_versionを参照。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"
