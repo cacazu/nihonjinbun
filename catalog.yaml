@@ -1053,5 +1053,11 @@
   "source_and_rights": "Project Gutenberg第438号の1898年第9版と1887年初版の原注を照合。著者本文は日本・米国、忠実な電子翻刻は米国でパブリックドメイン。日本語新訳はCC0 1.0。"
   "work_id": "stevenson-underwoods"
   "sha256": "32e5dfc9e2027920d649a50282f9a3bc0d8a36e6e3b39ca2a32329110e2bc5d0"
+- "file": "translations/stevenson/edinburgh-picturesque-notes-en-ja.yaml"
+  "title": "エディンバラ風景帖"
+  "coverage_note": "1903年People’s Editionの全10章、詩の引用2件、著者原注2件、底本に含まれる図版16点とそのキャプションを収録。全117対訳単位。"
+  "source_and_rights": "Project Gutenberg第382号（1903年版）。著者本文は日本・米国、電子翻刻と底本の図版は米国でパブリックドメインとして収録。日本語新訳はCC0 1.0。図版を新訳のCC0に含めない。"
+  "work_id": "stevenson-edinburgh-picturesque-notes"
+  "sha256": "0ae380e59fc554a96702acc63d75441ff6cbeeae1034ef7b2604c3c92e403a9b"
 "in_progress_not_included": []
 "packaging_note": "対訳原稿のスキーマは各ファイルのschema_versionを参照。assets配下のavailable画像を同梱し、未同梱画像はplannedと出典・留保を記録する。原典PDF・制作時中間ファイルを同梱したという意味ではない。"
